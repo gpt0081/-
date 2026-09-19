@@ -1,49 +1,1036 @@
 {
+  "schemaVersion": 2,
   "politicianId": "president-rhee-syngman",
   "name": "이승만",
   "termLabel": "제1~3대",
-  "status": "initial-evidence-seeded",
-  "records": [
+  "researchStatus": "deep-pass-1",
+  "updatedAt": "2026-09-19",
+  "editorialRule": "수집은 공격적으로, 공개는 보수적으로. 사건·발언·제도 변화와 출처를 기록하되 정치적 판정은 하지 않는다.",
+  "evidenceGrades": {
+    "A": "당사자 원문·법령·판결·대통령기록·당시 공문 등 1차 자료",
+    "B": "미국 외교문서 등 동시대 외부 1차 자료",
+    "C": "국가기록원·국사편찬위원회의 사후 해제/연표/기록 소개",
+    "D": "검증된 언론·연구자료. 1차 자료 보강이 필요한 경우"
+  },
+  "sources": {
+    "S1919-FR": {
+      "title": "1919년 이승만이 프랑스 대통령에게 보낸 대한민국 수립 통보 서한",
+      "publisher": "국사편찬위원회 한국사데이터베이스",
+      "url": "https://db.history.go.kr/modern/level.do?levelId=ij_023_0010_00070",
+      "grade": "A"
+    },
+    "S1925-IMPEACH": {
+      "title": "대한민국 7년(1925) 주요사건·임시대통령 이승만 심판서",
+      "publisher": "국사편찬위원회 한국사데이터베이스",
+      "url": "https://db.history.go.kr/id/ij_092_0010_00110",
+      "grade": "A"
+    },
+    "S1945-UNITY": {
+      "title": "독립촉성중앙협의회 결성 기록",
+      "publisher": "국사편찬위원회 한국사데이터베이스",
+      "url": "https://db.history.go.kr/id/dh_001_1945_10_23_0100",
+      "grade": "A"
+    },
+    "S1945-TRUST": {
+      "title": "이승만, 신탁통치 반대 방송",
+      "publisher": "국사편찬위원회 한국사데이터베이스",
+      "url": "https://db.history.go.kr/id/dh_001_1945_12_26_0050",
+      "grade": "A"
+    },
+    "S1946-JEONGEUP": {
+      "title": "이승만 정읍 발언",
+      "publisher": "국사편찬위원회 한국사데이터베이스",
+      "url": "https://db.history.go.kr/id/dh_002_1946_06_03_0080",
+      "grade": "A"
+    },
+    "S1948-OATH": {
+      "title": "이승만 취임선서",
+      "publisher": "행정안전부 대통령기록관",
+      "url": "https://www.pa.go.kr/research/contents/speech/index.jsp?artid=1311382&catid=c_pa02064&spMode=view",
+      "grade": "A"
+    },
+    "S1948-PM": {
+      "title": "국무총리 인준 부결 관련 이승만 담화",
+      "publisher": "행정안전부 대통령기록관",
+      "url": "https://www.pa.go.kr/research/contents/speech/index.jsp?artid=1310441&catid=c_pa02062&spMode=view",
+      "grade": "A"
+    },
+    "S1948-HANGUL": {
+      "title": "한글전용에 관한 법률 기록",
+      "publisher": "국가기록원",
+      "url": "https://theme.archives.go.kr/next/hangeulPolicy/detail.do?archiveEventId=0049290532&flag=1&page=1",
+      "grade": "A"
+    },
+    "S1948-JEJU": {
+      "title": "제주도지구 계엄선포 대통령령 제31호 관련 기록",
+      "publisher": "국사편찬위원회 한국사데이터베이스",
+      "url": "https://db.history.go.kr/id/dh_009_1948_11_17_0060",
+      "grade": "A"
+    },
+    "S1948-NSA": {
+      "title": "국가보안법 법률 제10호",
+      "publisher": "국가법령정보센터",
+      "url": "https://www.law.go.kr/lsInfoP.do?lsiSeq=7221",
+      "grade": "A"
+    },
+    "S1949-BANMIN": {
+      "title": "반민특위 활동에 대한 이승만 대통령의 입장",
+      "publisher": "국사편찬위원회 사료로 본 한국사",
+      "url": "https://contents.history.go.kr/front/hm/view.do?levelId=hm_145_0140",
+      "grade": "C"
+    },
+    "S1949-BANMIN-ORDER": {
+      "title": "이승만, 반민특위 특별경찰대 해산이 자신의 명령이었다고 밝힌 기록",
+      "publisher": "국사편찬위원회 한국사데이터베이스",
+      "url": "https://db.history.go.kr/id/dh_012_1949_06_07_0130",
+      "grade": "A"
+    },
+    "S1949-LAND": {
+      "title": "농지개혁 관련 헌정사 자료",
+      "publisher": "국사편찬위원회 한국사데이터베이스",
+      "url": "https://db.history.go.kr/item/cons/level.do?levelId=cons_001_0020_0020_0030_0040_0020",
+      "grade": "C"
+    },
+    "S1950-MUCCIO": {
+      "title": "무쵸 대사의 1950년 6월 27일 국무부 보고",
+      "publisher": "국사편찬위원회 FRUS 한국어 DB",
+      "url": "https://db.history.go.kr/contemp/level.do?levelId=frus_006r_0020_0410",
+      "grade": "B"
+    },
+    "S1950-HAN": {
+      "title": "한강인도교 폭파 연표",
+      "publisher": "국사편찬위원회 한국사데이터베이스",
+      "url": "https://db.history.go.kr/id/tcct_1950_06_28_0050",
+      "grade": "C"
+    },
+    "S1950-WAR-SPEECH": {
+      "title": "한국전란과 민주진영의 승리",
+      "publisher": "국가기록원·대통령기록관",
+      "url": "https://theme.archives.go.kr/next/625/records/recordDetail.do?flag=0&page=1&seq=945",
+      "grade": "A"
+    },
+    "S1950-COMMAND": {
+      "title": "이승만, 맥아더에게 한국군 작전지휘권 이양 서한",
+      "publisher": "국사편찬위원회 한국사데이터베이스",
+      "url": "https://db.history.go.kr/contemp/level.do?levelId=le_002_1720",
+      "grade": "A"
+    },
+    "S1951-DEFENSECORPS": {
+      "title": "국민방위군 부정사건 조사의 건",
+      "publisher": "국가기록원",
+      "url": "https://theme.archives.go.kr/next/chronology/archiveDetail.do?evntId=0049286380&flag=1&isPop=Y",
+      "grade": "A"
+    },
+    "S1951-GEOCHANG": {
+      "title": "거창사건 책임에 관한 건",
+      "publisher": "국가기록원",
+      "url": "https://theme.archives.go.kr/next/chronology/archiveDetail.do?evntId=0049286296&flag=1&isPop=Y",
+      "grade": "A"
+    },
+    "S1952-PEACELINE": {
+      "title": "인접해양에 대한 주권에 관한 대통령 선언",
+      "publisher": "국사편찬위원회 한국사데이터베이스",
+      "url": "https://db.history.go.kr/contemp/level.do?levelId=dh_024_1952_01_18",
+      "grade": "A"
+    },
+    "S1952-CRISIS-US": {
+      "title": "부산 정치파동 관련 미국 외교문서",
+      "publisher": "국사편찬위원회 FRUS 한국어 DB",
+      "url": "https://db.history.go.kr/contemp/level.do?levelId=frus_008r_0020_0280",
+      "grade": "B"
+    },
+    "S1952-MARTIAL": {
+      "title": "1952년 5월 27일 정부 담화",
+      "publisher": "국사편찬위원회 헌정사 자료 DB",
+      "url": "https://db.history.go.kr/item/cons/level.do?levelId=cons_002_0020_0030_0010_0050&viewType=tab",
+      "grade": "A"
+    },
+    "S1952-ELECTION": {
+      "title": "1952년 대통령선거 관련 이승만 성명",
+      "publisher": "행정안전부 대통령기록관",
+      "url": "https://www.pa.go.kr/research/contents/speech/index.jsp?artid=1310405&catid=c_pa02062&spMode=view",
+      "grade": "A"
+    },
+    "S1953-ARMISTICE": {
+      "title": "이승만, 조건부 휴전 수용 가능성 관련 기자회견",
+      "publisher": "국사편찬위원회 한국사데이터베이스",
+      "url": "https://db.history.go.kr/contemp/level.do?levelId=dh_029_1953_04_29_0030",
+      "grade": "A"
+    },
+    "S1953-POW": {
+      "title": "반공포로 석방 관련 이승만 성명",
+      "publisher": "국사편찬위원회 한국사데이터베이스",
+      "url": "https://db.history.go.kr/id/dh_029_1953_06_18_0080",
+      "grade": "A"
+    },
+    "S1953-ALLIANCE": {
+      "title": "한미상호방위조약 관련 대통령기록관 전시",
+      "publisher": "행정안전부 대통령기록관",
+      "url": "https://pa.go.kr/online_contents/exhibition/exhibition202411.html",
+      "grade": "C"
+    },
+    "S1954-AMEND": {
+      "title": "제2차 개헌(사사오입개헌) 헌정사 자료",
+      "publisher": "국사편찬위원회 한국사데이터베이스",
+      "url": "https://db.history.go.kr/item/cons/level.do?levelId=cons_003_0010",
+      "grade": "C"
+    },
+    "S1958-NSL": {
+      "title": "1958년 12월 24일 국가보안법 개정안 처리 연표",
+      "publisher": "국사편찬위원회 한국사데이터베이스",
+      "url": "https://db.history.go.kr/diachronic/level.do?levelId=tcct_1958_12_24_0020",
+      "grade": "C"
+    },
+    "S1959-CHO": {
+      "title": "진보당 사건 최종판결·사형집행 기록",
+      "publisher": "국가기록원",
+      "url": "https://theme.archives.go.kr/next/choba/sub03_4_3.do",
+      "grade": "A"
+    },
+    "S2011-CHO": {
+      "title": "진보당 사건 재심 무죄 판결",
+      "publisher": "국사편찬위원회 사료로 본 한국사·대법원 판결",
+      "url": "https://contents.history.go.kr/front/hm/view.do?levelId=hm_153_0010",
+      "grade": "A"
+    },
+    "S1959-KH": {
+      "title": "경향신문 발행허가 취소 관련 기록",
+      "publisher": "국가기록원",
+      "url": "https://theme.archives.go.kr/next/chronology/archiveDetail.do?evntId=0049271976&flag=2&page=199&sort=",
+      "grade": "A"
+    },
+    "S1960-ELECTION": {
+      "title": "제4대 정·부통령선거 결과 및 취소 기록",
+      "publisher": "국사편찬위원회 한국사데이터베이스",
+      "url": "https://db.history.go.kr/id/tcct_1960_03_15_0010",
+      "grade": "C"
+    },
+    "S1960-INVESTIGATION": {
+      "title": "3·15 부정선거 사건 기록 개요·수사착수",
+      "publisher": "국가기록원",
+      "url": "https://theme.archives.go.kr/next/history/samilos/sub2_2.do",
+      "grade": "A"
+    },
+    "S1960-CASEFILES": {
+      "title": "3·15 부정선거 사건기록 보유 개요",
+      "publisher": "국가기록원",
+      "url": "https://theme.archives.go.kr/next/history/samilos/sub2_1_2.do",
+      "grade": "A"
+    },
+    "S1960-APR19": {
+      "title": "1960년 4월 19일 대한민국사연표",
+      "publisher": "국사편찬위원회 한국사데이터베이스",
+      "url": "https://db.history.go.kr/diachronic/level.do?levelId=tcct_1960_04_19",
+      "grade": "C"
+    },
+    "S1960-RESIGN": {
+      "title": "이승만 대통령 하야 성명",
+      "publisher": "행정안전부 대통령기록관",
+      "url": "https://www.pa.go.kr/research/contents/speech/index.jsp?artid=1311381&catid=c_pa02064&spMode=view",
+      "grade": "A"
+    },
+    "S1960-LETTER": {
+      "title": "이승만 대통령 사임서",
+      "publisher": "행정안전부 대통령기록관",
+      "url": "https://www.pa.go.kr/online_news/onlinenews_19/documentary_01.html",
+      "grade": "A"
+    }
+  },
+  "chronology": [
     {
-      "date": "1948-07-24",
+      "id": "rhee-1919-democratic-state",
+      "date": "1919-06-14",
+      "phase": "독립운동·임시정부",
+      "kind": "diplomacy",
+      "topic": [
+        "독립",
+        "민주공화국",
+        "외교"
+      ],
+      "summary": "프랑스 대통령에게 보낸 서한에서 대한민국이 조직된 자치적 민주주의 국가라고 설명하고 국제적 승인을 요청했다.",
+      "sourceIds": [
+        "S1919-FR"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "rhee-1925-removal",
+      "date": "1925-03",
+      "datePrecision": "month",
+      "phase": "독립운동·임시정부",
+      "kind": "institutional_event",
+      "topic": [
+        "임시정부",
+        "헌정질서",
+        "책임정치"
+      ],
+      "summary": "임시의정원 계통의 심판 기록은 이승만을 임시대통령에서 면직한 사실과 탄핵 사유를 수록한다.",
+      "context": "DB의 연감 표기에는 3월 11일 심판서와 그 근거로 기재된 3월 18일 탄핵안 사이에 날짜상 불일치가 보여 정확한 문서 성립 순서는 추가 대조가 필요하다.",
+      "sourceIds": [
+        "S1925-IMPEACH"
+      ],
+      "confidence": "verified_with_date_discrepancy"
+    },
+    {
+      "id": "rhee-1945-unity-council",
+      "date": "1945-10-23",
+      "phase": "해방정국",
+      "kind": "political_action",
+      "topic": [
+        "정치통합",
+        "독립"
+      ],
+      "summary": "독립촉성중앙협의회 결성 과정에서 여러 정치세력을 묶는 통합 활동에 참여하고 의장을 맡았다.",
+      "sourceIds": [
+        "S1945-UNITY"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "rhee-1945-anti-trusteeship",
+      "date": "1945-12-26",
+      "phase": "해방정국",
       "kind": "speech",
-      "topic": "헌정질서",
-      "summary": "취임선서에서 국헌 준수와 대통령 직책의 성실한 수행을 선언.",
-      "source": "https://www.pa.go.kr/research/contents/speech/index.jsp?artid=1311382&catid=c_pa02064&spMode=view"
+      "topic": [
+        "신탁통치",
+        "독립"
+      ],
+      "summary": "라디오 방송에서 신탁통치에 반대하고 완전한 독립을 요구했다.",
+      "sourceIds": [
+        "S1945-TRUST"
+      ],
+      "confidence": "verified"
     },
     {
+      "id": "rhee-1946-jeongeup",
+      "date": "1946-06-03",
+      "phase": "해방정국",
+      "kind": "speech",
+      "topic": [
+        "정부수립",
+        "분단",
+        "통일"
+      ],
+      "summary": "미소공동위원회 재개와 통일정부 수립이 어렵다면 남쪽에서라도 임시정부 또는 위원회를 조직하는 방안을 언급했다.",
+      "context": "통일정부 가능성에 대한 비관과 소련군 철수 요구가 함께 제시된 상황발언으로 기록한다.",
+      "sourceIds": [
+        "S1946-JEONGEUP"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "rhee-1948-oath",
+      "date": "1948-07-24",
+      "phase": "정부수립",
+      "kind": "speech",
+      "topic": [
+        "헌정질서",
+        "대통령책무"
+      ],
+      "summary": "초대 대통령 취임선서에서 국헌 준수, 국민 복리 증진, 국가 보호와 대통령 직무의 성실한 수행을 선서했다.",
+      "sourceIds": [
+        "S1948-OATH"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "rhee-1948-pm-rejection",
+      "date": "1948-07-29",
+      "phase": "정부수립",
+      "kind": "speech",
+      "topic": [
+        "국회관계",
+        "인사"
+      ],
+      "summary": "국회가 국무총리 후보 인준을 부결한 뒤 그 이유가 명확해질 때까지 곧바로 다른 후보를 지명하기 어렵다는 취지의 담화를 발표했다.",
+      "sourceIds": [
+        "S1948-PM"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "rhee-1948-hangul",
+      "date": "1948-10-09",
+      "phase": "제1공화국",
+      "kind": "law",
+      "topic": [
+        "언어정책",
+        "국가건설"
+      ],
+      "summary": "정부의 공문서를 한글로 쓰는 것을 원칙으로 하는 한글전용 관련 법률이 공포되었다.",
+      "sourceIds": [
+        "S1948-HANGUL"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "rhee-1948-jeju-martial-law",
+      "date": "1948-11-17",
+      "phase": "제1공화국",
+      "kind": "presidential_decree",
+      "topic": [
+        "제주4·3",
+        "계엄",
+        "치안"
+      ],
+      "summary": "제주도지구에 계엄을 선포하는 대통령령 제31호가 공포되었다.",
+      "caveat": "계엄 선포 사실과 별개로, 개별 민간인 희생 사건의 명령·지휘 책임은 사건별 자료를 추가 대조해야 한다.",
+      "sourceIds": [
+        "S1948-JEJU"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "rhee-1948-national-security-act",
+      "date": "1948-12-01",
+      "phase": "제1공화국",
+      "kind": "law",
+      "topic": [
+        "국가보안법",
+        "반공",
+        "시민권"
+      ],
+      "summary": "법률 제10호 국가보안법이 시행되었다.",
+      "sourceIds": [
+        "S1948-NSA"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "rhee-1949-banmin-position",
+      "date": "1949-02-15",
+      "phase": "제1공화국",
+      "kind": "speech",
+      "topic": [
+        "반민특위",
+        "친일청산",
+        "권력분립"
+      ],
+      "summary": "반민족행위처벌법 개정과 반민특위 특별경찰 문제에 관한 입장을 공개했다. 관련 사료 해제는 이승만이 특위의 수사 방식, 권력분립 및 치안 공백 문제를 제기했다고 정리한다.",
+      "sourceIds": [
+        "S1949-BANMIN"
+      ],
+      "confidence": "verified_context_from_official_history"
+    },
+    {
+      "id": "rhee-1949-banmin-police-order",
+      "date": "1949-06-07",
+      "phase": "제1공화국",
+      "kind": "speech",
+      "topic": [
+        "반민특위",
+        "친일청산",
+        "경찰"
+      ],
+      "summary": "반민특위 특별경찰대 해산 조치가 자신의 명령이었다는 취지로 밝혔다.",
+      "sourceIds": [
+        "S1949-BANMIN-ORDER"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "rhee-1949-land-reform",
+      "date": "1949-06-21",
+      "phase": "제1공화국",
+      "kind": "law",
+      "topic": [
+        "농지개혁",
+        "경제",
+        "농업"
+      ],
+      "summary": "농지개혁법이 공포되었다. 이후 정부와 국회는 시행을 위한 수정·보완 절차를 이어갔다.",
+      "sourceIds": [
+        "S1949-LAND"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "rhee-1950-government-retreat",
+      "date": "1950-06-27",
+      "phase": "한국전쟁",
+      "kind": "wartime_action",
+      "topic": [
+        "한국전쟁",
+        "정부이동",
+        "서울"
+      ],
+      "summary": "무쵸 주한 미국대사는 이승만 대통령과 대부분의 각료가 서울 남쪽으로 출발했다고 미 국무부에 보고했다.",
+      "caveat": "이는 미국 외교관의 동시대 보고다. 정부 이동의 구체적 결정 시각과 국민 대상 방송·대피 안내의 시간순서는 별도 자료로 계속 대조한다.",
+      "sourceIds": [
+        "S1950-MUCCIO"
+      ],
+      "confidence": "verified_external_primary"
+    },
+    {
+      "id": "rhee-1950-han-river-bridge",
+      "date": "1950-06-28",
+      "phase": "한국전쟁",
+      "kind": "military_event",
+      "topic": [
+        "한국전쟁",
+        "한강교",
+        "지휘책임"
+      ],
+      "summary": "국군 공병대가 한강인도교를 폭파했다.",
+      "caveat": "현재 확보 자료만으로 폭파의 직접 명령자가 이승만이었다고 기록하지 않는다. 직접 명령·승인·보고 계통은 미해결 조사 대상으로 둔다.",
+      "sourceIds": [
+        "S1950-HAN"
+      ],
+      "confidence": "event_verified_command_unresolved"
+    },
+    {
+      "id": "rhee-1950-war-broadcast",
+      "date": "1950",
+      "datePrecision": "year",
+      "phase": "한국전쟁",
+      "kind": "speech",
+      "topic": [
+        "한국전쟁",
+        "정부이동",
+        "한강교"
+      ],
+      "summary": "부산에서 한 전쟁 관련 방송에서 자신의 남하 이유와 한강 교량 폭파의 군사적 이유를 설명했다.",
+      "sourceIds": [
+        "S1950-WAR-SPEECH"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "rhee-1950-command-transfer",
+      "date": "1950-07-14",
+      "phase": "한국전쟁",
+      "kind": "military_diplomacy",
+      "topic": [
+        "작전지휘권",
+        "한미관계",
+        "유엔군"
+      ],
+      "summary": "한국군에 대한 작전지휘권을 맥아더 유엔군사령관에게 이양하는 서한을 보냈다.",
+      "sourceIds": [
+        "S1950-COMMAND"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "rhee-1951-defense-corps-investigation",
+      "date": "1951-01-04",
+      "phase": "한국전쟁",
+      "kind": "presidential_order",
+      "topic": [
+        "국민방위군",
+        "부정부패",
+        "군정"
+      ],
+      "summary": "국민방위군의 식량·금전 관련 부정 보고에 대해 면밀히 조사하고 위법자를 법으로 다스리라고 지시한 대통령 문서가 남아 있다.",
+      "sourceIds": [
+        "S1951-DEFENSECORPS"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "rhee-1951-geochang-response",
+      "date": "1951-04-30",
+      "phase": "한국전쟁",
+      "kind": "presidential_order",
+      "topic": [
+        "거창사건",
+        "민간인피해",
+        "군기"
+      ],
+      "summary": "거창사건과 관련해 제11사단장과 관련 대대장에 대한 징계를 지시하고 군 비행·범죄 감독 체계 개편을 지시한 대통령 문서가 남아 있다.",
+      "caveat": "사건 발생 이전의 지시·보고 계통과 사후 조치의 적절성은 별도 평가 없이 원문 단위로 추가 조사한다.",
+      "sourceIds": [
+        "S1951-GEOCHANG"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "rhee-1952-peace-line",
+      "date": "1952-01-18",
+      "phase": "한국전쟁",
+      "kind": "presidential_declaration",
+      "topic": [
+        "평화선",
+        "한일관계",
+        "해양주권"
+      ],
+      "summary": "인접 해양에 대한 주권에 관한 대통령 선언을 발표했다. 이후 통상 '평화선' 또는 '이승만 라인'으로 불린다.",
+      "sourceIds": [
+        "S1952-PEACELINE"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "rhee-1952-busan-martial-law",
+      "date": "1952-05",
+      "datePrecision": "month",
+      "phase": "한국전쟁",
+      "kind": "emergency_power",
+      "topic": [
+        "부산정치파동",
+        "계엄",
+        "국회관계"
+      ],
+      "summary": "부산을 포함한 일부 지역에 계엄이 선포되고 국회의원들이 체포되는 정치위기가 전개됐다. 동시대 미국 외교문서는 이를 대통령 선출 방식을 둘러싼 정치위기와 연결해 보고했다.",
+      "sourceIds": [
+        "S1952-CRISIS-US"
+      ],
+      "confidence": "verified_external_primary"
+    },
+    {
+      "id": "rhee-1952-martial-law-defense",
+      "date": "1952-05-27",
+      "phase": "한국전쟁",
+      "kind": "speech",
+      "topic": [
+        "부산정치파동",
+        "계엄",
+        "국민주권"
+      ],
+      "summary": "정부 담화에서 계엄이 게릴라 활동과 폭력적 시위를 막고 질서를 유지하기 위해 필요했다고 주장하면서, 헌법상 주권이 국민에게 있다는 조항도 인용했다.",
+      "sourceIds": [
+        "S1952-MARTIAL"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "rhee-1952-election-freedom-statement",
+      "date": "1952",
+      "datePrecision": "year",
+      "phase": "한국전쟁",
+      "kind": "speech",
+      "topic": [
+        "선거",
+        "자유선거",
+        "대통령직"
+      ],
+      "summary": "대통령 선거 관련 성명에서 후보자 보호와 자유로운 투표권 보장을 강조하고, 자신이 선출되더라도 부정한 결속이나 운동의 결과여서는 안 된다는 취지를 밝혔다.",
+      "sourceIds": [
+        "S1952-ELECTION"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "rhee-1952-retirement-desire",
+      "date": "1952",
+      "datePrecision": "year",
+      "phase": "한국전쟁",
+      "kind": "speech",
+      "topic": [
+        "대통령직",
+        "재선"
+      ],
+      "summary": "같은 선거 관련 성명에서 대통령직을 떠나 사인으로 살고 싶었다는 개인적 희망을 언급했으나 그 희망을 포기하게 됐다는 취지로 말했다.",
+      "caveat": "법적·정치적 불출마 공약으로 분류하지 않고 개인적 의사표현으로만 기록한다.",
+      "sourceIds": [
+        "S1952-ELECTION"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "rhee-1952-first-amendment",
       "date": "1952-07-07",
-      "kind": "action",
-      "topic": "헌정질서",
-      "summary": "제1차 개헌 공포. 대통령 직선제 도입.",
-      "source": "https://db.history.go.kr/id/tcct_1960_06_15_0020"
+      "phase": "한국전쟁",
+      "kind": "constitutional_change",
+      "topic": [
+        "개헌",
+        "대통령직선제",
+        "부산정치파동"
+      ],
+      "summary": "제1차 개헌으로 대통령 선출 방식이 국회 간선제에서 국민 직선제로 변경됐다.",
+      "sourceIds": [
+        "S1952-MARTIAL"
+      ],
+      "confidence": "verified"
     },
     {
+      "id": "rhee-1953-armistice-conditions",
+      "date": "1953-04-29",
+      "phase": "한국전쟁",
+      "kind": "speech",
+      "topic": [
+        "휴전",
+        "통일",
+        "중국군"
+      ],
+      "summary": "중국군 철수 등 특정 조건이 충족될 경우 통일 없는 휴전에도 응할 수 있다는 취지의 조건을 제시했다.",
+      "sourceIds": [
+        "S1953-ARMISTICE"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "rhee-1953-pow-release",
+      "date": "1953-06-18",
+      "phase": "한국전쟁",
+      "kind": "executive_action",
+      "topic": [
+        "반공포로",
+        "휴전",
+        "한미관계"
+      ],
+      "summary": "반공포로 석방을 실행하고 이에 관한 성명을 냈다. 이 조치는 진행 중인 휴전협상에서 중대한 한미·유엔군 갈등 요인이 됐다.",
+      "sourceIds": [
+        "S1953-POW"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "rhee-1953-defense-treaty",
+      "date": "1953-10-01",
+      "phase": "전후체제",
+      "kind": "treaty",
+      "topic": [
+        "한미동맹",
+        "안보",
+        "외교"
+      ],
+      "summary": "한미상호방위조약이 정식 서명됐다. 대통령기록관은 1953년 8월 가서명, 10월 정식 서명, 1954년 11월 발효의 흐름을 제시한다.",
+      "sourceIds": [
+        "S1953-ALLIANCE"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "rhee-1954-second-amendment",
       "date": "1954-11-29",
-      "kind": "action",
-      "topic": "헌정질서",
-      "summary": "제2차 개헌 공포. 당시 대통령에 대한 중임 제한 적용 제외 부칙 포함.",
-      "source": "https://contents.history.go.kr/front/hm/view.do?levelId=hm_149_0080"
+      "phase": "제1공화국",
+      "kind": "constitutional_change",
+      "topic": [
+        "사사오입개헌",
+        "대통령중임",
+        "헌정질서"
+      ],
+      "summary": "제2차 개헌이 공포됐다. 부칙은 당시 대통령에게 대통령 중임 제한 조항을 적용하지 않도록 했다.",
+      "context": "국사편찬위원회 헌정사 자료는 이 조항으로 이승만의 추가 출마가 가능해졌다고 정리한다.",
+      "sourceIds": [
+        "S1954-AMEND"
+      ],
+      "confidence": "verified"
     },
     {
+      "id": "rhee-1958-nsl-amendment",
+      "date": "1958-12-24",
+      "phase": "제1공화국",
+      "kind": "legislative_event",
+      "topic": [
+        "국가보안법",
+        "국회",
+        "언론자유"
+      ],
+      "summary": "국가보안법 개정안이 국회에서 처리됐다. 처리 절차와 개정 내용은 당시 야당·언론 자유 문제와 함께 큰 정치쟁점이 됐다.",
+      "caveat": "입법행위 자체는 국회의 행위이므로 대통령 개인의 행위와 구분해 기록한다. 대통령의 직접 지시·관여는 별도 자료가 필요하다.",
+      "sourceIds": [
+        "S1958-NSL"
+      ],
+      "confidence": "event_verified_personal_role_unresolved"
+    },
+    {
+      "id": "rhee-1959-cho-final",
+      "date": "1959-02-27",
+      "phase": "제1공화국",
+      "kind": "judicial_event",
+      "topic": [
+        "진보당",
+        "조봉암",
+        "사법"
+      ],
+      "summary": "대법원은 진보당 사건에서 조봉암에 대한 사형판결을 유지했다. 다른 다수 진보당 간부에 대해서는 무죄가 선고됐다.",
+      "caveat": "사법부 판결과 행정부·대통령의 정치적 역할은 구분해서 추적한다.",
+      "sourceIds": [
+        "S1959-CHO"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "rhee-1959-kyunghyang-closure",
+      "date": "1959-04-30",
+      "phase": "제1공화국",
+      "kind": "government_action",
+      "topic": [
+        "언론",
+        "경향신문",
+        "표현의자유"
+      ],
+      "summary": "정부가 군정법령 제88호를 근거로 경향신문 발행허가를 취소했다.",
+      "caveat": "정부 조치로 확정해 기록하며, 대통령의 구체적인 직접 지시 여부는 별도의 1차 자료로 확인한다.",
+      "sourceIds": [
+        "S1959-KH"
+      ],
+      "confidence": "verified_government_action"
+    },
+    {
+      "id": "rhee-1959-cho-execution",
+      "date": "1959-07-31",
+      "phase": "제1공화국",
+      "kind": "judicial_event",
+      "topic": [
+        "진보당",
+        "조봉암",
+        "사형"
+      ],
+      "summary": "조봉암에 대한 사형이 집행됐다.",
+      "sourceIds": [
+        "S1959-CHO"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "rhee-1960-election",
+      "date": "1960-03-15",
+      "phase": "제1공화국 말기",
+      "kind": "election",
+      "topic": [
+        "3·15선거",
+        "선거",
+        "자유당"
+      ],
+      "summary": "제4대 정·부통령선거가 실시됐고 이후 부정선거로 인해 취소됐다.",
+      "context": "국가기록원의 수사·재판 기록은 최인규 내무부장관 등 내무부 핵심 인사들이 구체적인 부정선거 방법을 기획·집행한 과정을 담고 있다.",
+      "caveat": "현재 확보한 사건기록만으로 이승만 개인이 구체적인 부정선거 방법을 직접 지시했다고 단정하지 않는다. 대통령의 사전 인지·승인 범위는 별도 조사 과제로 남긴다.",
+      "sourceIds": [
+        "S1960-ELECTION",
+        "S1960-INVESTIGATION",
+        "S1960-CASEFILES"
+      ],
+      "confidence": "event_and_core_actors_verified_presidential_knowledge_unresolved"
+    },
+    {
+      "id": "rhee-1960-april19",
+      "date": "1960-04-19",
+      "phase": "제1공화국 말기",
+      "kind": "mass_protest",
+      "topic": [
+        "4·19혁명",
+        "계엄",
+        "경찰발포"
+      ],
+      "summary": "3·15 부정선거에 항의하는 대규모 시위가 이어졌고 정부는 비상계엄을 선포했다. 경찰 발포를 포함한 충돌로 다수의 사상자가 발생했다.",
+      "caveat": "발포 명령의 구체적 책임선은 국가기록원의 별도 수사·재판 기록을 기준으로 인물별로 분리해 기록해야 한다.",
+      "sourceIds": [
+        "S1960-APR19",
+        "S1960-CASEFILES"
+      ],
+      "confidence": "verified_event_command_chain_requires_case_review"
+    },
+    {
+      "id": "rhee-1960-resignation-statement",
       "date": "1960-04-26",
-      "kind": "action",
-      "topic": "헌정질서",
-      "summary": "4·19혁명 이후 하야성명 발표.",
-      "source": "https://theme.archives.go.kr/next/history/samilos/sub3_12.do"
+      "phase": "제1공화국 말기",
+      "kind": "speech",
+      "topic": [
+        "하야",
+        "3·15선거",
+        "개헌"
+      ],
+      "summary": "하야 성명에서 국민이 원하면 대통령직에서 물러나고, 부정이 있었다고 알려진 선거를 다시 치르며, 국민이 원하면 내각책임제 개헌을 하겠다는 뜻을 밝혔다.",
+      "sourceIds": [
+        "S1960-RESIGN"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "rhee-1960-formal-resignation",
+      "date": "1960-04-27",
+      "phase": "제1공화국 말기",
+      "kind": "official_document",
+      "topic": [
+        "하야",
+        "대통령직"
+      ],
+      "summary": "국회 결의에 따라 대통령직을 사임한다는 공식 사임서를 제출했다.",
+      "sourceIds": [
+        "S1960-LETTER"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "rhee-2011-cho-retrial",
+      "date": "2011-01-20",
+      "phase": "사후 재평가 자료",
+      "kind": "judicial_reassessment",
+      "topic": [
+        "진보당",
+        "조봉암",
+        "재심"
+      ],
+      "summary": "대법원 재심은 조봉암의 국가변란 목적 단체결성 및 간첩 혐의 등 주요 공소사실에 무죄를 선고했다.",
+      "context": "이 기록은 이승만 재임기에 발생한 사건을 후대의 법원이 다시 판단한 사후 검증 자료로 분리해 저장한다.",
+      "sourceIds": [
+        "S2011-CHO"
+      ],
+      "confidence": "verified"
     }
   ],
   "comparisonCandidates": [
     {
-      "id": "rhee-constitutional-order-01",
+      "id": "rhee-candidate-unity-separate-government",
+      "topic": "국가수립·통일",
+      "recordA": "rhee-1945-unity-council",
+      "recordB": "rhee-1946-jeongeup",
+      "relation": "principle_shift_candidate",
+      "rationale": "해방 직후의 정치세력 통합 노력과 1946년 남쪽 단독 임시정부 가능성 언급을 시간순으로 비교할 가치가 있다.",
+      "changedConditions": "미소공동위원회 교착과 통일정부 수립 전망 악화가 핵심 조건 변화다.",
+      "verdict": null
+    },
+    {
+      "id": "rhee-candidate-oath-busan-crisis",
       "topic": "헌정질서",
-      "records": [
-        "1948-07-24 취임선서",
-        "1954-11-29 제2차 개헌"
-      ],
-      "rationale": "취임 당시 헌법 준수 선서와 재임 중 대통령 중임 제한에 영향을 준 헌법 개정을 같은 헌정질서 주제에서 검토하는 후보.",
-      "caveat": "취임 선서와 헌법 개정은 성격이 다르며, 개헌 자체를 선서 위반으로 단정하지 않는다.",
-      "question": "개헌의 절차, 정치적 상황, 당시 대통령의 역할을 함께 볼 때 두 기록을 같은 원칙 아래 비교하는 것이 타당한가?"
+      "recordA": "rhee-1948-oath",
+      "recordB": "rhee-1952-busan-martial-law",
+      "relation": "constitutional_tension_candidate",
+      "rationale": "국헌 준수 선서와 전시 계엄·국회의원 체포가 결합된 1952년 정치위기를 같은 헌정질서 축에서 검토한다.",
+      "changedConditions": "한국전쟁 중이었고 정부는 게릴라·폭력·치안 문제를 계엄 사유로 제시했다.",
+      "verdict": null
+    },
+    {
+      "id": "rhee-candidate-sovereignty-martial-statement",
+      "topic": "국민주권·비상권력",
+      "recordA": "rhee-1952-martial-law-defense",
+      "recordB": "rhee-1952-first-amendment",
+      "relation": "same_event_context_pair",
+      "rationale": "정부가 국민주권을 인용하며 계엄을 정당화한 담화와, 같은 정치위기 뒤 대통령 직선제 개헌이 이루어진 과정을 함께 본다.",
+      "changedConditions": "전시 비상상황, 국회와 행정부의 대통령 선출방식 갈등을 함께 검토해야 한다.",
+      "verdict": null
+    },
+    {
+      "id": "rhee-candidate-election-freedom-1960",
+      "topic": "선거의 자유",
+      "recordA": "rhee-1952-election-freedom-statement",
+      "recordB": "rhee-1960-election",
+      "relation": "principle_application_candidate",
+      "rationale": "1952년 자유로운 투표와 부정한 선거운동 배제를 강조한 대통령 본인의 발언과 1960년 정부·여당의 부정선거 사건을 비교한다.",
+      "changedConditions": "1960년 부정선거의 구체적인 기획자는 수사·재판 기록상 최인규 등으로 확인되며, 이승만 개인의 구체적 사전 지시·인지 범위는 별도로 입증해야 한다.",
+      "verdict": null
+    },
+    {
+      "id": "rhee-candidate-retirement-term-limit",
+      "topic": "대통령직·연임",
+      "recordA": "rhee-1952-retirement-desire",
+      "recordB": "rhee-1954-second-amendment",
+      "relation": "statement_action_tension_candidate",
+      "rationale": "1952년 사인으로 돌아가고 싶었다는 개인적 의사표현과 1954년 현직 대통령에 대한 중임제한 예외를 포함한 개헌을 나란히 검토한다.",
+      "changedConditions": "1952년 발언은 불출마 공약이 아니며, 1954년 개헌은 국회 의결을 거친 헌법 개정이므로 동일한 수준의 약속과 행동으로 취급해서는 안 된다.",
+      "verdict": null
+    },
+    {
+      "id": "rhee-candidate-constitutional-oath-term-limit",
+      "topic": "헌정질서",
+      "recordA": "rhee-1948-oath",
+      "recordB": "rhee-1954-second-amendment",
+      "relation": "constitutional_change_candidate",
+      "rationale": "헌법 준수 선서와 재임 중 현직 대통령에게 중임제한 예외를 둔 개헌을 비교한다.",
+      "changedConditions": "합법적인 헌법개정 절차 자체는 기존 헌법 위반과 동일하지 않다. 개헌안 처리 절차와 정치적 압력 여부를 별도로 봐야 한다.",
+      "verdict": null
+    },
+    {
+      "id": "rhee-candidate-security-civil-liberty",
+      "topic": "안보와 자유",
+      "recordA": "rhee-1948-national-security-act",
+      "recordB": "rhee-1959-kyunghyang-closure",
+      "relation": "policy_trajectory_candidate",
+      "rationale": "초기 국가보안 체제의 형성과 말기 언론 발행허가 취소를 안보와 시민적 자유의 긴장이라는 장기 정책축에서 추적한다.",
+      "changedConditions": "각 조치의 법적 근거와 직접 의사결정자는 다르므로 대통령 개인의 단일 원칙으로 단순화하지 않는다.",
+      "verdict": null
+    },
+    {
+      "id": "rhee-candidate-opposition-cho-retrial",
+      "topic": "야당·사법·국가보안",
+      "recordA": "rhee-1959-cho-final",
+      "recordB": "rhee-2011-cho-retrial",
+      "relation": "later_judicial_reassessment",
+      "rationale": "재임기 진보당 사건의 확정판결·사형 집행과 2011년 재심 무죄를 연결해 후대 사법 검증 결과를 함께 보여준다.",
+      "changedConditions": "2011년 재심은 후대의 법적 판단이며 당시 대통령의 구체적 재판 개입 여부와는 별개의 층위다.",
+      "verdict": null
     }
-  ]
+  ],
+  "continuityFindings": [
+    {
+      "topic": "반공·안보",
+      "note": "해방 직후부터 재임 말기까지 강한 반공·안보 우선 기조가 여러 발언과 제도에서 반복된다. 세부 정책의 적법성·비례성 평가는 사건별로 분리한다."
+    },
+    {
+      "topic": "독립·대외승인",
+      "note": "1919년 외교 문서부터 정부수립 전후까지 독립국가의 국제승인 확보를 지속적으로 추구한 기록이 확인된다."
+    },
+    {
+      "topic": "대미동맹과 자주적 협상",
+      "note": "한국전쟁 중 미국·유엔의 군사원조에 크게 의존하면서도 휴전과 포로 문제에서는 미국과 충돌했고, 이후 상호방위조약 체결로 이어졌다."
+    },
+    {
+      "topic": "국가건설",
+      "note": "한글 정책, 농지개혁, 정부 제도 정비 등 국가건설 관련 기록도 함께 보존해 정치적 갈등 기록만 과대표집하지 않도록 한다."
+    }
+  ],
+  "unresolvedLeads": [
+    {
+      "id": "lead-1925-date",
+      "question": "1925년 임시대통령 탄핵·심판서의 정확한 의결·작성·공표 일자와 절차를 원문별로 재구성할 것.",
+      "priority": "high"
+    },
+    {
+      "id": "lead-jeju-command",
+      "question": "제주4·3 시기 대통령·국방부·경찰 지휘선과 개별 작전·민간인 희생 사이의 명령·보고 관계를 공식 진상보고서와 대통령기록으로 분해할 것.",
+      "priority": "high"
+    },
+    {
+      "id": "lead-bodo-league",
+      "question": "국민보도연맹 가입·관리 및 한국전쟁 초기 희생 사건에서 대통령의 직접 지시·보고·인지 여부를 진실화해위·군경 문서 중심으로 확인할 것.",
+      "priority": "high"
+    },
+    {
+      "id": "lead-han-bridge-command",
+      "question": "한강교 폭파의 직접 명령·승인·보고 계통과 정부·군의 대피 공지 시간순서를 1차 자료로 재구성할 것.",
+      "priority": "high"
+    },
+    {
+      "id": "lead-defense-corps-chain",
+      "question": "국민방위군 사건에서 대통령의 초기 인지 시점, 조사 지시 이후 후속 조치, 관련 정치자금 의혹을 판결·국회기록까지 연결할 것.",
+      "priority": "medium"
+    },
+    {
+      "id": "lead-geochang-before-after",
+      "question": "거창사건 발생 전 작전명령과 사건 후 대통령 지시, 조사 방해 의혹, 군법회의 결과를 하나의 체인으로 정리할 것.",
+      "priority": "high"
+    },
+    {
+      "id": "lead-1952-arrests",
+      "question": "1952년 부산정치파동에서 계엄 선포, 국회의원 체포, 헌병·특무기관 활동, 개헌안 처리의 시간순서와 대통령 직접 지시를 국내·미국 자료로 교차검증할 것.",
+      "priority": "high"
+    },
+    {
+      "id": "lead-cho-intervention",
+      "question": "진보당·조봉암 사건에서 수사 개시와 재판 과정에 대한 대통령의 직접 발언·지시·인사 개입 자료를 찾아 사법부 판단과 구분할 것.",
+      "priority": "high"
+    },
+    {
+      "id": "lead-press-directive",
+      "question": "경향신문 폐간 결정에서 공보실·내각·대통령 사이의 의사결정 문서를 확인해 정부 조치와 대통령 직접 관여를 구분할 것.",
+      "priority": "medium"
+    },
+    {
+      "id": "lead-315-knowledge",
+      "question": "3·15 부정선거에서 최인규·내무부·자유당 지도부의 기획은 확인되지만 이승만의 사전 인지·승인·구체 지시 범위를 5만여 쪽 수사·공판기록과 국무회의 자료에서 추적할 것.",
+      "priority": "highest"
+    },
+    {
+      "id": "lead-419-fire-command",
+      "question": "4·19 경찰 발포의 구체적 지휘·명령 책임을 사건별 수사·판결 기록으로 분해하고 대통령의 보고·지시 시점을 대조할 것.",
+      "priority": "highest"
+    }
+  ],
+  "nextPass": {
+    "target": "이승만",
+    "mode": "continue-not-restart",
+    "priorityOrder": [
+      "3·15 부정선거 대통령 사전 인지·승인 범위",
+      "4·19 발포 명령·보고 체계",
+      "제주4·3 지휘·보고 체계",
+      "국민보도연맹 관련 대통령 직접 자료",
+      "한강교 폭파 지휘 계통",
+      "부산정치파동 국회의원 체포·개헌 압박 세부 시간선",
+      "진보당 사건의 대통령 직접 개입 자료",
+      "경향신문 폐간 의사결정 문서"
+    ]
+  }
 }
