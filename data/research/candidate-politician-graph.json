@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-09-20",
+  "purpose": "정식 politicians registry로 승격하기 전, 대통령 backbone 조사에서 발견된 관료·선거후보·정당행위자를 provenance와 함께 보존하는 migration-friendly 후보 그래프. 정치적 선악이나 순위를 매기지 않는다.",
+  "candidates": [
+    {
+      "candidateId": "cand-kang-jeong-taek",
+      "name": "강정택",
+      "aliases": ["姜鋌澤", "Kang Jeong-taek", "Kang Chung-taik"],
+      "classification": ["senior-government-official", "policy-actor"],
+      "roles": [{"title":"농림부 차관","from":"1948-09","to":"1949-02","status":"confirmed"}],
+      "connections": [{"eventId":"evt-1949-farmland-reform","relation":"농림부 농지개혁 실무·정책형성 책임선","status":"confirmed-at-role-level"},{"personId":"pol-cho-bong-am","relation":"조봉암 농림부장관 요청으로 차관 임명","status":"confirmed"}],
+      "evidence": [{"source":"한국민족문화대백과사전 강정택","url":"https://encykorea.aks.ac.kr/Article/E0080983","accessed":"2026-09-20","supports":"1948년 9월 조봉암 요청으로 농림부 차관 임명, 1949년 2월 조봉암 사임 뒤 사직"},{"source":"국사편찬위원회 헌정사 자료 DB","url":"https://db.history.go.kr/item/cons/level.do?levelId=cons_001_0020_0020_0030_0040_0200","accessed":"2026-09-20","supports":"농림부 실무진에서 강정택 차관을 농업문제 담당 이론가로 특정하고 농림부안 형성과 연결"}],
+      "openLeads": ["농지개혁법기초위원회 명단·회의록에서 강정택의 정확한 발언·수정안을 원문 단위로 확인", "1949-01-14 농림부안 성안 과정에서 강정택·강진국·과장들의 조문별 기여를 분리"],
+      "promotionRule": "stable politician registry에는 공직·정치활동 범위와 식별정보를 추가 교차검증한 뒤 승격"
+    },
+    {
+      "candidateId": "cand-kang-jin-guk",
+      "name": "강진국",
+      "aliases": ["姜辰國", "Kang Jin-guk"],
+      "classification": ["senior-government-official", "policy-actor", "electoral-candidate"],
+      "roles": [{"title":"초대 농림부 농지국장","from":"1948-10-01","to":"1950-03","status":"secondary-source-confirmed"}],
+      "connections": [{"eventId":"evt-1949-farmland-reform","relation":"농지국장으로 농지개혁안 실무 형성·집행 준비","status":"strong-secondary-evidence"},{"personId":"pol-cho-bong-am","relation":"조봉암 농림부장관에게 발탁된 농지국장","status":"strong-secondary-evidence"}],
+      "politicalTrajectoryLeads": [{"year":1950,"claim":"제2대 국회의원 선거 대구시 병구 무소속 출마·낙선","status":"secondary-source-lead"},{"year":1954,"claim":"제3대 국회의원 선거 영등포갑구 무소속 출마·낙선","status":"secondary-source-lead"},{"year":1960,"claim":"제5대 국회의원 선거 부산 동래구 사회대중당 계열 후보로 출마·낙선","status":"secondary-source-lead"}],
+      "evidence": [{"source":"오마이뉴스 강진국 연재 1·2편","url":"https://v.daum.net/v/kTF1EUuwqw","accessed":"2026-09-20","supports":"초대 농지국장 발탁, 농지개혁팀 구성 단서"},{"source":"오마이뉴스 강진국 연재 2편","url":"https://v.daum.net/v/k3zrtswRyb","accessed":"2026-09-20","supports":"농지개혁 실무 및 1950·1954·1960 선거 출마 단서"}],
+      "openLeads": ["중앙선거관리위원회·국회 인명자료에서 1950·1954·1960 출마 기록을 1차/공식 자료로 교차검증", "농림부 직제·인사발령 원문으로 농지국장 재임기간 확정", "농지개혁법기초위원회 및 농림부안 원문에서 강진국의 조문별 기여를 확인"],
+      "promotionRule": "공식 선거기록 또는 국회 인명자료로 정치활동을 확인하면 pol-kang-jin-guk stable ID로 승격 검토"
+    }
+  ]
+}
