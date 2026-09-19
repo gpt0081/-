@@ -3,7 +3,7 @@
   "politicianId": "president-rhee-syngman",
   "name": "이승만",
   "termLabel": "제1~3대",
-  "researchStatus": "deep-pass-1",
+  "researchStatus": "deep-pass-2",
   "updatedAt": "2026-09-19",
   "editorialRule": "수집은 공격적으로, 공개는 보수적으로. 사건·발언·제도 변화와 출처를 기록하되 정치적 판정은 하지 않는다.",
   "evidenceGrades": {
@@ -234,6 +234,30 @@
       "publisher": "행정안전부 대통령기록관",
       "url": "https://www.pa.go.kr/online_news/onlinenews_19/documentary_01.html",
       "grade": "A"
+    },
+    "S1960-PREELECTION-FRUS": {
+      "title": "1960년 3월 15일 선거를 앞둔 주한미대사관의 정세 보고",
+      "publisher": "국사편찬위원회 FRUS 한국어 DB",
+      "url": "https://db.history.go.kr/contemp/level.do?levelId=frus_011r_0020_0040",
+      "grade": "B"
+    },
+    "S1960-APR19-RHEE-FRUS": {
+      "title": "1960년 4월 19일 매카나기 주한미대사와 이승만 대통령의 대담",
+      "publisher": "국사편찬위원회 FRUS 한국어 DB",
+      "url": "https://db.history.go.kr/contemp/level.do?levelId=frus_011r_0020_0160",
+      "grade": "B"
+    },
+    "S1960-TRIAL-OVERVIEW": {
+      "title": "3·15 부정선거와 4·19 발포명령 책임자 사건기록 개요",
+      "publisher": "국가기록원",
+      "url": "https://theme.archives.go.kr/next/history/samilos/sub2_1_2.do",
+      "grade": "A"
+    },
+    "S1961-REVOLUTIONARY-TRIALS": {
+      "title": "혁명재판소의 3·15 부정선거 및 4·19 발포명령 관련 판결 소개",
+      "publisher": "국가기록원",
+      "url": "https://theme.archives.go.kr/next/history/samilos/sub2_2_3.do",
+      "grade": "C"
     }
   },
   "chronology": [
@@ -445,6 +469,23 @@
       "confidence": "verified"
     },
     {
+      "id": "rhee-1950-war-broadcast",
+      "date": "1950",
+      "datePrecision": "year",
+      "phase": "한국전쟁",
+      "kind": "speech",
+      "topic": [
+        "한국전쟁",
+        "정부이동",
+        "한강교"
+      ],
+      "summary": "부산에서 한 전쟁 관련 방송에서 자신의 남하 이유와 한강 교량 폭파의 군사적 이유를 설명했다.",
+      "sourceIds": [
+        "S1950-WAR-SPEECH"
+      ],
+      "confidence": "verified"
+    },
+    {
       "id": "rhee-1950-government-retreat",
       "date": "1950-06-27",
       "phase": "한국전쟁",
@@ -477,23 +518,6 @@
         "S1950-HAN"
       ],
       "confidence": "event_verified_command_unresolved"
-    },
-    {
-      "id": "rhee-1950-war-broadcast",
-      "date": "1950",
-      "datePrecision": "year",
-      "phase": "한국전쟁",
-      "kind": "speech",
-      "topic": [
-        "한국전쟁",
-        "정부이동",
-        "한강교"
-      ],
-      "summary": "부산에서 한 전쟁 관련 방송에서 자신의 남하 이유와 한강 교량 폭파의 군사적 이유를 설명했다.",
-      "sourceIds": [
-        "S1950-WAR-SPEECH"
-      ],
-      "confidence": "verified"
     },
     {
       "id": "rhee-1950-command-transfer",
@@ -545,6 +569,40 @@
       "confidence": "verified"
     },
     {
+      "id": "rhee-1952-election-freedom-statement",
+      "date": "1952",
+      "datePrecision": "year",
+      "phase": "한국전쟁",
+      "kind": "speech",
+      "topic": [
+        "선거",
+        "자유선거",
+        "대통령직"
+      ],
+      "summary": "대통령 선거 관련 성명에서 후보자 보호와 자유로운 투표권 보장을 강조하고, 자신이 선출되더라도 부정한 결속이나 운동의 결과여서는 안 된다는 취지를 밝혔다.",
+      "sourceIds": [
+        "S1952-ELECTION"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "rhee-1952-retirement-desire",
+      "date": "1952",
+      "datePrecision": "year",
+      "phase": "한국전쟁",
+      "kind": "speech",
+      "topic": [
+        "대통령직",
+        "재선"
+      ],
+      "summary": "같은 선거 관련 성명에서 대통령직을 떠나 사인으로 살고 싶었다는 개인적 희망을 언급했으나 그 희망을 포기하게 됐다는 취지로 말했다.",
+      "caveat": "법적·정치적 불출마 공약으로 분류하지 않고 개인적 의사표현으로만 기록한다.",
+      "sourceIds": [
+        "S1952-ELECTION"
+      ],
+      "confidence": "verified"
+    },
+    {
       "id": "rhee-1952-peace-line",
       "date": "1952-01-18",
       "phase": "한국전쟁",
@@ -590,40 +648,6 @@
       "summary": "정부 담화에서 계엄이 게릴라 활동과 폭력적 시위를 막고 질서를 유지하기 위해 필요했다고 주장하면서, 헌법상 주권이 국민에게 있다는 조항도 인용했다.",
       "sourceIds": [
         "S1952-MARTIAL"
-      ],
-      "confidence": "verified"
-    },
-    {
-      "id": "rhee-1952-election-freedom-statement",
-      "date": "1952",
-      "datePrecision": "year",
-      "phase": "한국전쟁",
-      "kind": "speech",
-      "topic": [
-        "선거",
-        "자유선거",
-        "대통령직"
-      ],
-      "summary": "대통령 선거 관련 성명에서 후보자 보호와 자유로운 투표권 보장을 강조하고, 자신이 선출되더라도 부정한 결속이나 운동의 결과여서는 안 된다는 취지를 밝혔다.",
-      "sourceIds": [
-        "S1952-ELECTION"
-      ],
-      "confidence": "verified"
-    },
-    {
-      "id": "rhee-1952-retirement-desire",
-      "date": "1952",
-      "datePrecision": "year",
-      "phase": "한국전쟁",
-      "kind": "speech",
-      "topic": [
-        "대통령직",
-        "재선"
-      ],
-      "summary": "같은 선거 관련 성명에서 대통령직을 떠나 사인으로 살고 싶었다는 개인적 희망을 언급했으나 그 희망을 포기하게 됐다는 취지로 말했다.",
-      "caveat": "법적·정치적 불출마 공약으로 분류하지 않고 개인적 의사표현으로만 기록한다.",
-      "sourceIds": [
-        "S1952-ELECTION"
       ],
       "confidence": "verified"
     },
@@ -786,14 +810,17 @@
         "자유당"
       ],
       "summary": "제4대 정·부통령선거가 실시됐고 이후 부정선거로 인해 취소됐다.",
-      "context": "국가기록원의 수사·재판 기록은 최인규 내무부장관 등 내무부 핵심 인사들이 구체적인 부정선거 방법을 기획·집행한 과정을 담고 있다.",
-      "caveat": "현재 확보한 사건기록만으로 이승만 개인이 구체적인 부정선거 방법을 직접 지시했다고 단정하지 않는다. 대통령의 사전 인지·승인 범위는 별도 조사 과제로 남긴다.",
+      "context": "국가기록원의 수사·공판 기록은 최인규 등 행정부 핵심 인사의 부정선거 기획·집행을 담고 있다. 선거 전 주한미대사관은 경찰 동원과 행정부 차원의 불공정한 선거환경을 관찰했다고 보고했다. 반면 이승만은 4월 19일 매카나기 대사에게 선거부정 혐의를 몰랐다고 주장했다.",
+      "caveat": "선거부정의 조직적 실행과 대통령 개인의 사전 인지·승인은 별개의 입증 문제다. 현재 확보한 자료는 행정부 차원의 부정과 대통령의 사후 '몰랐다'는 주장을 동시에 보여주지만, 어느 쪽만으로 사전 인지 여부를 확정하지 않는다.",
       "sourceIds": [
         "S1960-ELECTION",
         "S1960-INVESTIGATION",
-        "S1960-CASEFILES"
+        "S1960-CASEFILES",
+        "S1960-PREELECTION-FRUS",
+        "S1960-APR19-RHEE-FRUS",
+        "S1960-TRIAL-OVERVIEW"
       ],
-      "confidence": "event_and_core_actors_verified_presidential_knowledge_unresolved"
+      "confidence": "fraud_verified_presidential_prior_knowledge_unresolved"
     },
     {
       "id": "rhee-1960-april19",
@@ -806,12 +833,35 @@
         "경찰발포"
       ],
       "summary": "3·15 부정선거에 항의하는 대규모 시위가 이어졌고 정부는 비상계엄을 선포했다. 경찰 발포를 포함한 충돌로 다수의 사상자가 발생했다.",
-      "caveat": "발포 명령의 구체적 책임선은 국가기록원의 별도 수사·재판 기록을 기준으로 인물별로 분리해 기록해야 한다.",
+      "caveat": "이 동시대 외교문서는 이승만이 강경한 군중 통제 자체는 승인했다고 보고하지만 경찰의 구체적인 발포 명령을 직접 내렸다는 증거는 제시하지 않는다. 후대 재판 기록은 홍진기·곽영주·유충렬·백남규 등 구체적 책임자들의 지시·경비 체계를 다뤘으므로 대통령의 책임 범위와는 구분해 기록한다.",
       "sourceIds": [
         "S1960-APR19",
-        "S1960-CASEFILES"
+        "S1960-CASEFILES",
+        "S1960-APR19-RHEE-FRUS",
+        "S1960-TRIAL-OVERVIEW",
+        "S1961-REVOLUTIONARY-TRIALS"
       ],
-      "confidence": "verified_event_command_chain_requires_case_review"
+      "confidence": "event_and_subordinate_command_evidence_verified_presidential_direct_fire_order_unresolved",
+      "context": "4월 19일 밤 매카나기 대사는 이승만이 시위 규모와 원인을 충분히 파악하지 못한 것으로 보였다고 보고했다. 이승만은 군중 통제를 위한 '과감한 행동'을 승인한 것이 옳았다는 취지로 말하는 한편 학생들을 쏘고 싶지 않다고 말했다. 대사는 사망·중상 규모를 자신이 알려주기 전까지 이승만이 이를 몰랐다고 기록했다."
+    },
+    {
+      "id": "rhee-1960-april19-night-meeting",
+      "date": "1960-04-19",
+      "phase": "제1공화국 말기",
+      "kind": "diplomatic_conversation",
+      "topic": [
+        "4·19혁명",
+        "3·15선거",
+        "대통령인지",
+        "경찰발포"
+      ],
+      "summary": "4월 19일 밤 매카나기 주한미대사와의 면담에서 이승만은 선거부정 혐의를 몰랐다고 주장했고, 시위대 통제를 위한 강한 조치를 승인한 것이 옳았다는 취지로 말하면서도 학생들을 쏘고 싶지는 않다고 말했다.",
+      "context": "매카나기는 이승만이 항쟁의 원인과 규모를 충분히 파악하지 못하고 있다고 평가했으며, 대사관이 파악한 사망·중상 규모를 전달했다. 홍진기 내무부 장관과 김정렬 국방부 장관도 배석했다.",
+      "caveat": "이는 미국 대사의 동시대 회담 보고다. 이승만의 '몰랐다'는 주장은 당사자 주장으로 보존하며 사실 여부는 별도 자료로 검증한다. 또한 강경한 군중 통제 승인과 구체적 경찰 발포 명령은 같은 사실로 취급하지 않는다.",
+      "sourceIds": [
+        "S1960-APR19-RHEE-FRUS"
+      ],
+      "confidence": "verified_external_primary_report_of_conversation"
     },
     {
       "id": "rhee-1960-resignation-statement",
@@ -986,12 +1036,16 @@
     {
       "id": "lead-defense-corps-chain",
       "question": "국민방위군 사건에서 대통령의 초기 인지 시점, 조사 지시 이후 후속 조치, 관련 정치자금 의혹을 판결·국회기록까지 연결할 것.",
-      "priority": "medium"
+      "priority": "medium",
+      "status": "narrowed",
+      "evidenceSoFar": "1951년 1월 4일 대통령 명의의 부정 조사·처벌 지시 문서는 확보됐다."
     },
     {
       "id": "lead-geochang-before-after",
       "question": "거창사건 발생 전 작전명령과 사건 후 대통령 지시, 조사 방해 의혹, 군법회의 결과를 하나의 체인으로 정리할 것.",
-      "priority": "high"
+      "priority": "high",
+      "status": "narrowed",
+      "evidenceSoFar": "1951년 4월 30일 대통령의 관련 지휘관 징계·군기 감독 강화 지시 문서는 확보됐다."
     },
     {
       "id": "lead-1952-arrests",
@@ -1011,20 +1065,26 @@
     {
       "id": "lead-315-knowledge",
       "question": "3·15 부정선거에서 최인규·내무부·자유당 지도부의 기획은 확인되지만 이승만의 사전 인지·승인·구체 지시 범위를 5만여 쪽 수사·공판기록과 국무회의 자료에서 추적할 것.",
-      "priority": "highest"
+      "priority": "highest",
+      "status": "narrowed",
+      "evidenceSoFar": "선거 전 미국대사관은 경찰·행정부의 불공정한 선거개입을 관찰했고, 후속 수사기록은 최인규 등 핵심 관료의 구체적 기획을 확인한다. 이승만은 4월 19일 대사에게 자신은 선거부정을 몰랐다고 주장했다.",
+      "remainingQuestion": "선거 전 경무대 보고·국무회의·자유당 지도부 문서에서 이승만의 사전 인지·승인 여부를 직접 입증하거나 반증하는 기록을 찾는다."
     },
     {
       "id": "lead-419-fire-command",
       "question": "4·19 경찰 발포의 구체적 지휘·명령 책임을 사건별 수사·판결 기록으로 분해하고 대통령의 보고·지시 시점을 대조할 것.",
-      "priority": "highest"
+      "priority": "highest",
+      "status": "narrowed",
+      "evidenceSoFar": "이승만은 4월 19일 밤 강한 군중 통제를 승인한 것이 옳았다는 취지와 학생들을 쏘고 싶지는 않았다는 취지를 모두 말했다. 후대 사건기록은 홍진기·곽영주·유충렬·백남규 등의 구체적 지휘관계를 다룬다.",
+      "remainingQuestion": "대통령의 강경조치 승인과 실제 경찰 발포 사이를 연결하는 명령·보고 문서가 존재하는지 확인한다."
     }
   ],
   "nextPass": {
     "target": "이승만",
     "mode": "continue-not-restart",
     "priorityOrder": [
-      "3·15 부정선거 대통령 사전 인지·승인 범위",
-      "4·19 발포 명령·보고 체계",
+      "3·15 부정선거의 선거 전 경무대 보고·국무회의·자유당 지도부 연결고리",
+      "4·19 '과감한 행동 승인'과 실제 발포명령 사이의 직접 문서",
       "제주4·3 지휘·보고 체계",
       "국민보도연맹 관련 대통령 직접 자료",
       "한강교 폭파 지휘 계통",
@@ -1032,5 +1092,43 @@
       "진보당 사건의 대통령 직접 개입 자료",
       "경향신문 폐간 의사결정 문서"
     ]
-  }
+  },
+  "evidenceTensions": [
+    {
+      "id": "rhee-tension-315-knowledge",
+      "topic": "3·15 부정선거 사전 인지",
+      "evidenceForPossibleKnowledge": [
+        "선거 전 주한미대사관은 경찰 동원과 행정부의 조직적 불공정 선거환경을 관찰해 보고했다.",
+        "후속 수사·재판 기록은 최인규 등 행정부 핵심 인사가 구체적인 부정선거 방법을 기획·집행했음을 담고 있다."
+      ],
+      "counterEvidenceOrAlternative": [
+        "이승만은 1960년 4월 19일 매카나기 대사에게 선거부정 혐의를 몰랐다고 주장했다.",
+        "현재 확보한 자료 중 대통령이 4할 사전투표·공개투표 등 구체적 방법을 사전에 지시했다는 직접 문서는 확인되지 않았다."
+      ],
+      "status": "unresolved",
+      "nextQuestion": "부정선거 계획 또는 관련 경고가 선거 전에 경무대의 어느 선까지 보고됐는가?",
+      "sourceIds": [
+        "S1960-PREELECTION-FRUS",
+        "S1960-INVESTIGATION",
+        "S1960-CASEFILES",
+        "S1960-APR19-RHEE-FRUS"
+      ]
+    },
+    {
+      "id": "rhee-tension-419-force",
+      "topic": "4·19 군중통제와 발포 명령",
+      "evidence": [
+        "매카나기 보고에서 이승만은 상황이 통제를 벗어날 때 군중을 통제하기 위한 과감한 행동을 승인한 것이 옳았다는 취지로 말했다.",
+        "같은 회담에서 이승만은 학생들을 쏘고 싶지는 않다고 말했다.",
+        "후대 사건기록과 판결은 홍진기·곽영주·유충렬·백남규 등 구체적인 경비·발포 지휘 체계를 다룬다."
+      ],
+      "status": "narrowed_not_resolved",
+      "nextQuestion": "이승만이 승인했다고 말한 '과감한 행동'의 구체적 범위와 경찰 발포 명령 사이에 직접 연결되는 문서가 있는가?",
+      "sourceIds": [
+        "S1960-APR19-RHEE-FRUS",
+        "S1960-TRIAL-OVERVIEW",
+        "S1961-REVOLUTIONARY-TRIALS"
+      ]
+    }
+  ]
 }
