@@ -3,7 +3,7 @@
   "politicianId": "president-rhee-syngman",
   "name": "이승만",
   "termLabel": "제1~3대",
-  "researchStatus": "deep-pass-5",
+  "researchStatus": "deep-pass-6",
   "updatedAt": "2026-09-19",
   "editorialRule": "수집은 공격적으로, 공개는 보수적으로. 사건·발언·제도 변화와 출처를 기록하되 정치적 판정은 하지 않는다.",
   "evidenceGrades": {
@@ -408,6 +408,48 @@
       "publisher": "국사편찬위원회 자료대한민국사",
       "url": "https://db.history.go.kr/id/dh_022_1951_08_05_0070",
       "grade": "C"
+    },
+    "S1950-JUN26-FRUS": {
+      "title": "1950-06-26 자정 무초-이승만 대화: 정부 대전 이전 결정",
+      "publisher": "국사편찬위원회 FRUS 한국어 DB",
+      "url": "https://db.history.go.kr/contemp/level.do?levelId=frus_006r_0020_0190",
+      "grade": "B"
+    },
+    "S1950-JUN27-FRUS": {
+      "title": "1950-06-27 무초 전문: 대통령·각료 서울 남쪽 이동",
+      "publisher": "국사편찬위원회 FRUS 한국어 DB",
+      "url": "https://db.history.go.kr/contemp/level.do?levelId=frus_006r_0020_0410",
+      "grade": "B"
+    },
+    "S1950-JUN27-SHIN": {
+      "title": "1950-06-27 신성모의 대통령 이동·채병덕 권한 관련 보고",
+      "publisher": "국사편찬위원회 FRUS 한국어 DB",
+      "url": "https://db.history.go.kr/contemp/level.do?levelId=frus_006r_0020_0440",
+      "grade": "B"
+    },
+    "S1950-JUN28-BRIDGE": {
+      "title": "1950-06-28 국군 공병대 한강인도교 폭파",
+      "publisher": "국사편찬위원회 대한민국사연표",
+      "url": "https://db.history.go.kr/id/tcct_1950_06_28_0050",
+      "grade": "C"
+    },
+    "S1950-RHEE-WAR-SPEECH": {
+      "title": "한국전란과 민주진영의 승리",
+      "publisher": "국가기록원·대통령기록관",
+      "url": "https://theme.archives.go.kr/next/625/records/recordDetail.do?flag=0&page=1&seq=945",
+      "grade": "A"
+    },
+    "S1962-CHOI-REVIEW": {
+      "title": "육군판결심사위원회, 한강교 폭파 책임자 최창식 대령 12년 만에 무죄",
+      "publisher": "국사편찬위원회 대한민국사연표",
+      "url": "https://db.history.go.kr/id/tcct_1962_07_06_0030",
+      "grade": "C"
+    },
+    "S1964-CHOI-FINAL": {
+      "title": "법원, 한강교 폭파 고 최창식 대령 무죄확정",
+      "publisher": "국사편찬위원회 대한민국사연표",
+      "url": "https://db.history.go.kr/id/tcct_1964_11_14_0020",
+      "grade": "C"
     }
   },
   "chronology": [
@@ -678,6 +720,22 @@
       "confidence": "state_responsibility_verified_specific_order_source_unresolved"
     },
     {
+      "id": "rhee-1950-government-move-decision",
+      "date": "1950-06-26",
+      "phase": "한국전쟁",
+      "kind": "cabinet_decision_report",
+      "topic": [
+        "한국전쟁",
+        "정부이동",
+        "서울"
+      ],
+      "summary": "6월 26일 밤 이승만은 무초 대사에게 각료들이 정부를 대전으로 이전하기로 결정했다고 알렸다.",
+      "sourceIds": [
+        "S1950-JUN26-FRUS"
+      ],
+      "confidence": "verified_external_primary_report"
+    },
+    {
       "id": "rhee-1950-government-retreat",
       "date": "1950-06-27",
       "phase": "한국전쟁",
@@ -688,11 +746,15 @@
         "서울"
       ],
       "summary": "무쵸 주한 미국대사는 이승만 대통령과 대부분의 각료가 서울 남쪽으로 출발했다고 미 국무부에 보고했다.",
-      "caveat": "이는 미국 외교관의 동시대 보고다. 정부 이동의 구체적 결정 시각과 국민 대상 방송·대피 안내의 시간순서는 별도 자료로 계속 대조한다.",
+      "caveat": "외교문서에 기록된 이동 결정과 당시 시민 대상 대피 안내·방송 내용은 별개의 문제다. 대통령 이동의 시점·경로와 시민 공지 시간선을 섞지 않는다.",
       "sourceIds": [
-        "S1950-MUCCIO"
+        "S1950-MUCCIO",
+        "S1950-JUN26-FRUS",
+        "S1950-JUN27-FRUS",
+        "S1950-JUN27-SHIN"
       ],
-      "confidence": "verified_external_primary"
+      "confidence": "government_move_timeline_substantially_verified_public_notice_timeline_incomplete",
+      "context": "6월 26일 자정 무초 대사와의 대화 기록에서 이승만은 각료들이 정부를 대전으로 옮기기로 결정했다고 알렸다. 6월 27일 오전 무초는 대통령과 대부분의 각료들이 서울 남쪽으로 떠났다고 보고했고, 다른 전문은 신성모가 이승만이 새벽 3시 진해로 향했으며 채병덕에게 군사 권한을 위임했다고 말했다고 기록한다."
     },
     {
       "id": "rhee-1950-han-river-bridge",
@@ -705,11 +767,17 @@
         "지휘책임"
       ],
       "summary": "국군 공병대가 한강인도교를 폭파했다.",
-      "caveat": "현재 확보 자료만으로 폭파의 직접 명령자가 이승만이었다고 기록하지 않는다. 직접 명령·승인·보고 계통은 미해결 조사 대상으로 둔다.",
+      "caveat": "이승만의 후일 연설은 폭파의 군사적 목적을 설명하지만 누가 언제 폭파 명령을 내렸는지에 대한 명령계통을 직접 입증하지 않는다. 최창식의 후대 무죄는 최초 책임귀속이 잘못됐음을 보여주지만 곧바로 다른 특정 인물을 명령자로 확정하지 않는다.",
       "sourceIds": [
-        "S1950-HAN"
+        "S1950-HAN",
+        "S1950-JUN27-SHIN",
+        "S1950-JUN28-BRIDGE",
+        "S1950-RHEE-WAR-SPEECH",
+        "S1962-CHOI-REVIEW",
+        "S1964-CHOI-FINAL"
       ],
-      "confidence": "event_verified_command_unresolved"
+      "confidence": "event_and_later_wrongful_conviction_verified_original_command_chain_unresolved",
+      "context": "6월 28일 국군 공병대가 한강인도교를 폭파했다. 이승만은 이후 부산에서 한 연설에서 적군의 남하를 지연시키기 위해 교량을 폭파한 군사적 이유를 설명했다. 1950년 폭파 책임으로 최창식 대령이 사형됐으나 1962년 육군판결심사위원회가 무죄로 판단했고 1964년 법원에서 무죄가 확정됐다."
     },
     {
       "id": "rhee-1950-command-transfer",
@@ -1164,6 +1232,24 @@
       "confidence": "verified"
     },
     {
+      "id": "rhee-1962-han-bridge-reversal",
+      "date": "1962-07-06",
+      "phase": "사후 재평가 자료",
+      "kind": "judicial_reassessment",
+      "topic": [
+        "한강교",
+        "최창식",
+        "군법회의"
+      ],
+      "summary": "육군판결심사위원회가 1950년 한강인도교 폭파 책임으로 사형된 최창식 대령에게 12년 만에 무죄 판단을 내렸다.",
+      "context": "1964년 법원에서도 무죄가 확정됐다. 이는 당시 폭파 책임 귀속과 재판의 적정성을 재검토하게 하는 후대 자료다.",
+      "sourceIds": [
+        "S1962-CHOI-REVIEW",
+        "S1964-CHOI-FINAL"
+      ],
+      "confidence": "verified_later_reassessment"
+    },
+    {
       "id": "rhee-2011-cho-retrial",
       "date": "2011-01-20",
       "phase": "사후 재평가 자료",
@@ -1306,7 +1392,10 @@
     {
       "id": "lead-han-bridge-command",
       "question": "한강교 폭파의 직접 명령·승인·보고 계통과 정부·군의 대피 공지 시간순서를 1차 자료로 재구성할 것.",
-      "priority": "high"
+      "priority": "high",
+      "status": "substantially_narrowed",
+      "evidenceSoFar": "6/26 밤 정부 대전 이전 결정, 6/27 대통령·각료 이동, 신성모가 전한 채병덕 권한 위임, 6/28 공병대 교량 폭파, 이승만의 후일 군사적 목적 설명, 최창식의 1962·1964 무죄까지 연결됐다.",
+      "remainingQuestion": "실제 폭파 명령 발신자·명령시각·채병덕-공병지휘선 및 시민 대피공지 시간선을 직접 작전명령·군사재판 기록으로 확인한다."
     },
     {
       "id": "lead-defense-corps-chain",
@@ -1369,14 +1458,12 @@
     "target": "이승만",
     "mode": "continue-not-restart",
     "priorityOrder": [
-      "한강교 폭파의 직접 명령·승인·보고 시간선",
+      "한강교 폭파 실제 명령 발신자·시각·시민 대피공지 원문",
       "진보당 사건 이승만 개인의 직접 수사·재판 개입 문서",
       "경향신문 폐간 경무대 결재·지시 문서",
       "국민방위군 창설·운영 단계 대통령 사전 인지 범위",
       "거창 작전명령 제5호의 경무대·국방부 사전 보고",
-      "부산정치파동 개별 의원 체포명령 원문",
-      "제주4·3 개별 작전명령·보고 문서",
-      "국민보도연맹 사살명령 최초 결정자·명령단위"
+      "외교·경제·교육·복지·행정 연설·편지 전수 수집으로 실록 편향 보정"
     ]
   },
   "evidenceTensions": [
@@ -1505,6 +1592,33 @@
       "sourceIds": [
         "S1959-KH-CLOSURE",
         "S1959-KH-US-MEMO"
+      ]
+    },
+    {
+      "id": "rhee-tension-han-bridge-command",
+      "topic": "정부이동·한강교 폭파의 결정과 명령계통",
+      "verified": [
+        "6월 26일 밤 정부의 대전 이전 결정이 이승만-무초 대화기록에 남아 있다.",
+        "6월 27일 대통령과 각료의 서울 이탈이 무초 전문에 기록돼 있다.",
+        "신성모는 채병덕에게 군사 권한이 위임됐다고 무초에게 설명했다.",
+        "6월 28일 국군 공병대의 한강인도교 폭파 사실이 확인된다.",
+        "이승만은 후일 연설에서 적군 남하 저지라는 폭파의 군사적 목적을 설명했다.",
+        "최창식 대령에 대한 1950년 책임귀속은 1962·1964년 후대 절차에서 무죄로 뒤집혔다."
+      ],
+      "unresolved": [
+        "폭파를 실제로 명령한 사람과 정확한 명령 시각.",
+        "채병덕 참모총장·공병감·현장 지휘관 사이의 명령·확인 계통.",
+        "정부 이동 및 교량 폭파 전에 서울 시민에게 어떤 정보가 언제 방송·공지됐는지."
+      ],
+      "status": "timeline_deep_command_chain_still_open",
+      "sourceIds": [
+        "S1950-JUN26-FRUS",
+        "S1950-JUN27-FRUS",
+        "S1950-JUN27-SHIN",
+        "S1950-JUN28-BRIDGE",
+        "S1950-RHEE-WAR-SPEECH",
+        "S1962-CHOI-REVIEW",
+        "S1964-CHOI-FINAL"
       ]
     }
   ],
