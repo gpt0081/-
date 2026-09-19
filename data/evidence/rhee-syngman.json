@@ -3,7 +3,7 @@
   "politicianId": "president-rhee-syngman",
   "name": "이승만",
   "termLabel": "제1~3대",
-  "researchStatus": "deep-pass-3",
+  "researchStatus": "deep-pass-4",
   "updatedAt": "2026-09-19",
   "editorialRule": "수집은 공격적으로, 공개는 보수적으로. 사건·발언·제도 변화와 출처를 기록하되 정치적 판정은 하지 않는다.",
   "evidenceGrades": {
@@ -287,6 +287,48 @@
       "title": "이승만 대통령 연설기록 목록",
       "publisher": "행정안전부 대통령기록관",
       "url": "https://www.pa.go.kr/online_contents/archive/president_speechIndex.jsp?activePresident=%EC%9D%B4%EC%8A%B9%EB%A7%8C",
+      "grade": "A"
+    },
+    "S1952-RHEE-PUSAN-MAY28": {
+      "title": "부산정치파동에 대한 이승만 입장 전달 (이승만→무초)",
+      "publisher": "국사편찬위원회 헌정사 자료 DB·이승만관계서한자료집",
+      "url": "https://db.history.go.kr/item/cons/level.do?levelId=cons_002_0020_0030_0010_0030",
+      "grade": "A"
+    },
+    "S1952-RHEE-PUSAN-MAY31": {
+      "title": "부산정치파동에 대한 이승만 입장",
+      "publisher": "국사편찬위원회 헌정사 자료 DB·이승만관계서한자료집",
+      "url": "https://db.history.go.kr/item/cons/level.do?levelId=cons_002_0020_0030_0010_0110",
+      "grade": "A"
+    },
+    "S1952-FRUS-MARTIAL": {
+      "title": "이승만의 계엄령 선포 조치와 이에 대한 주한대사관의 평가",
+      "publisher": "국사편찬위원회 FRUS 한국어 DB",
+      "url": "https://db.history.go.kr/contemp/level.do?levelId=frus_008r_0020_0280",
+      "grade": "B"
+    },
+    "S1952-US-OIR": {
+      "title": "미 국무부 OIR: 이승만 정부의 국내정치 강경화 보고서",
+      "publisher": "국사편찬위원회 헌정사 자료 DB",
+      "url": "https://db.history.go.kr/item/cons/level.do?levelId=cons_002_0020_0030_0020_0030",
+      "grade": "B"
+    },
+    "S1952-US-OIR-JUNE": {
+      "title": "미 국무부 조사국: 한국 국회와 이승만 대통령의 정쟁과 전망",
+      "publisher": "국사편찬위원회 대한민국사연표",
+      "url": "https://db.history.go.kr/id/tcct_1952_06_17_0010",
+      "grade": "B"
+    },
+    "S1952-RHEE-CONSTITUTION-JUNE8": {
+      "title": "개헌 관련 이승만 성명서",
+      "publisher": "국사편찬위원회 헌정사 자료 DB·이승만관계서한자료집",
+      "url": "https://db.history.go.kr/item/cons/level.do?levelId=cons_002_0020_0030_0010_0170",
+      "grade": "A"
+    },
+    "S1952-US-MARTIAL-LIFT": {
+      "title": "미국정부의 부산 계엄령 해제 건의 전달",
+      "publisher": "국사편찬위원회 헌정사 자료 DB·이승만관계서한자료집",
+      "url": "https://db.history.go.kr/item/cons/level.do?levelId=cons_002_0020_0030_0010_0100",
       "grade": "A"
     }
   },
@@ -701,11 +743,18 @@
         "계엄",
         "국회관계"
       ],
-      "summary": "부산을 포함한 일부 지역에 계엄이 선포되고 국회의원들이 체포되는 정치위기가 전개됐다. 동시대 미국 외교문서는 이를 대통령 선출 방식을 둘러싼 정치위기와 연결해 보고했다.",
+      "summary": "1952년 5월 24일 자정을 기해 부산과 경상남도·전라도 일부 지역에 계엄이 선포됐다. 이후 헌병이 야당계 국회의원들을 체포했고 국회·대통령 사이의 대통령 선출방식 및 개헌 갈등이 급격히 격화됐다.",
       "sourceIds": [
-        "S1952-CRISIS-US"
+        "S1952-CRISIS-US",
+        "S1952-RHEE-PUSAN-MAY28",
+        "S1952-RHEE-PUSAN-MAY31",
+        "S1952-FRUS-MARTIAL",
+        "S1952-US-OIR",
+        "S1952-US-OIR-JUNE"
       ],
-      "confidence": "verified_external_primary"
+      "confidence": "martial_law_and_arrests_verified_motive_contested_direct_arrest_orders_unresolved",
+      "context": "이승만은 5월 27일 계엄이 게릴라 활동과 폭력적 시위를 막고 질서를 유지하기 위해 필요했다고 공개적으로 정당화했다. 5월 28일과 31일 서한에서도 체포 의원들에게 공산주의 관련 혐의가 있어 합법적 조사와 공개재판을 거치겠다는 입장을 밝혔다. 반면 주한미대사관과 미 국무부 정보분석은 계엄·체포가 국회와 대통령의 권력투쟁 및 직선제 개헌 압박과 연결돼 있다고 평가했다.",
+      "caveat": "대통령 본인의 공개 설명과 미국 측 동시대 평가가 충돌한다. 미국 측의 '정족수 봉쇄'·'정치적 책략' 평가는 외교관·정보기관의 분석으로 표시하며, 대통령의 명시적 체포 지시 문서와 개별 의원 체포명령 계통은 별도 확인이 필요하다."
     },
     {
       "id": "rhee-1952-martial-law-defense",
@@ -720,6 +769,41 @@
       "summary": "정부 담화에서 계엄이 게릴라 활동과 폭력적 시위를 막고 질서를 유지하기 위해 필요했다고 주장하면서, 헌법상 주권이 국민에게 있다는 조항도 인용했다.",
       "sourceIds": [
         "S1952-MARTIAL"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "rhee-1952-pusan-defense",
+      "date": "1952-05-27",
+      "phase": "한국전쟁",
+      "kind": "speech",
+      "topic": [
+        "부산정치파동",
+        "계엄",
+        "국회",
+        "치안"
+      ],
+      "summary": "이승만은 계엄령 선포를 게릴라 활동과 폭력적 시위로부터 평화와 질서를 지키기 위한 필요한 조치라고 공개적으로 설명했다.",
+      "context": "같은 성명은 정부가 취한 조치가 필요했고 오래전에 시행했어야 했다는 취지를 담았으며, 체포 관련 공산주의 연계 여부는 수사로 밝히겠다고 했다.",
+      "sourceIds": [
+        "S1952-MARTIAL"
+      ],
+      "confidence": "verified"
+    },
+    {
+      "id": "rhee-1952-constitutional-demand",
+      "date": "1952-06-08",
+      "phase": "한국전쟁",
+      "kind": "speech",
+      "topic": [
+        "개헌",
+        "대통령직선제",
+        "양원제",
+        "국회관계"
+      ],
+      "summary": "이승만은 정치분쟁 해결책으로 양원제와 대통령 직선제를 다시 제시하고, 국회가 대통령을 누구로 선출하든 국민의 뜻에 부응한 개헌을 먼저 통과시켜야 한다는 입장을 밝혔다.",
+      "sourceIds": [
+        "S1952-RHEE-CONSTITUTION-JUNE8"
       ],
       "confidence": "verified"
     },
@@ -1128,7 +1212,10 @@
     {
       "id": "lead-1952-arrests",
       "question": "1952년 부산정치파동에서 계엄 선포, 국회의원 체포, 헌병·특무기관 활동, 개헌안 처리의 시간순서와 대통령 직접 지시를 국내·미국 자료로 교차검증할 것.",
-      "priority": "high"
+      "priority": "high",
+      "status": "substantially_narrowed",
+      "evidenceSoFar": "계엄 선포, 헌병의 야당계 의원 체포, 대통령의 치안·공산혐의 설명, 직선제 개헌 요구, 미국 외교·정보기관의 국회 압박 평가가 각각 동시대 자료로 확인됐다.",
+      "remainingQuestion": "개별 의원 체포를 누가 명령했는지, 대통령이 국회의 계엄해제 정족수 봉쇄를 직접 지시했는지에 관한 국내 명령문·회의록을 확보한다."
     },
     {
       "id": "lead-cho-intervention",
@@ -1162,11 +1249,11 @@
     "mode": "continue-not-restart",
     "priorityOrder": [
       "한강교 폭파의 직접 명령·승인·보고 시간선",
-      "부산정치파동 국회의원 체포와 개헌 압박의 직접 대통령 지시 자료",
       "진보당·조봉암 사건의 대통령 직접 개입 자료",
       "경향신문 발행허가 취소의 경무대 의사결정 자료",
       "국민방위군 사건의 대통령 인지→조사→처벌 전체 체인",
       "거창사건의 사건 전 작전명령→사후 지시→재판 체인",
+      "부산정치파동 개별 의원 체포명령 원문",
       "제주4·3 개별 작전명령·보고 문서",
       "국민보도연맹 사살명령 최초 결정자·명령단위"
     ]
@@ -1239,6 +1326,29 @@
       "status": "state_responsibility_found_direct_order_unresolved",
       "sourceIds": [
         "S1950-BODO-TRC"
+      ]
+    },
+    {
+      "id": "rhee-tension-1952-pusan",
+      "topic": "부산정치파동의 계엄 목적과 국회 압박",
+      "evidenceFromRhee": [
+        "이승만은 계엄이 게릴라·폭력시위에 대응한 치안상 필요조치라고 공개적으로 주장했다.",
+        "체포 의원들의 공산주의 관련 혐의는 수사와 공개재판으로 밝히겠다고 설명했다.",
+        "직선제·양원제 개헌을 국민의 의사에 부응하는 해결책이라고 주장했다."
+      ],
+      "contemporaryCounterEvidence": [
+        "주한미대사관은 계엄 직후 헌병의 야당 의원 체포와 국회의 계엄 해제 정족수 문제를 보고하고, 계엄을 정치적 목적과 연결해 평가했다.",
+        "미 국무부 OIR는 대통령 선거를 앞둔 국회와 대통령의 권력투쟁 속에서 대통령이 물리력을 이용해 국회를 압박하고 있다고 분석했다.",
+        "미국 정부는 부산지역 계엄이 군사적으로 필요하지 않다는 미8군 사령관 판단을 근거로 즉각 해제를 요구했다."
+      ],
+      "status": "motive_contested_actions_verified",
+      "nextQuestion": "계엄 선포와 각 의원 체포에 관한 대통령·내무부·헌병대의 실제 명령서를 확보해 공개 설명과 동시대 외부 평가 사이의 연결고리를 검증한다.",
+      "sourceIds": [
+        "S1952-RHEE-PUSAN-MAY28",
+        "S1952-RHEE-PUSAN-MAY31",
+        "S1952-FRUS-MARTIAL",
+        "S1952-US-OIR",
+        "S1952-US-MARTIAL-LIFT"
       ]
     }
   ],
