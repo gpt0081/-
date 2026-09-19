@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-09-19",
+  "purpose": "대한민국 정치인 실록의 인물 registry. 대통령은 초기 backbone일 뿐이며 모든 인물은 독립된 정치인 노드로 취급한다.",
+  "politicians": [
+    {
+      "id": "pol-rhee-syngman",
+      "legacyIds": ["president-rhee-syngman"],
+      "name": "이승만",
+      "aliases": ["李承晩", "Syngman Rhee", "Rhee Syng-man"],
+      "lifespan": {"born": "1875-03-26", "died": "1965-07-19"},
+      "roles": ["대한민국 대통령", "대한민국임시정부 대통령"],
+      "researchStatus": "active-deep",
+      "backbone": true,
+      "evidenceFile": "data/evidence/rhee-syngman.json",
+      "annalsFile": "data/annals/rhee-syngman.md",
+      "openLeadsFile": "data/research/rhee-syngman-open-leads.json",
+      "coverageFile": "data/research/rhee-syngman-coverage.json"
+    },
+    {
+      "id": "pol-yi-ki-pung",
+      "name": "이기붕",
+      "aliases": ["李起鵬", "Yi Ki-pung", "Lee Ki-poong"],
+      "lifespan": {"born": "1896-12-20", "died": "1960-04-28"},
+      "roles": ["국회의장", "자유당 정치인", "1956·1960 부통령 후보"],
+      "researchStatus": "candidate",
+      "backbone": false,
+      "connections": ["evt-1960-315-election"]
+    },
+    {
+      "id": "pol-choi-in-kyu",
+      "name": "최인규",
+      "aliases": ["崔仁圭", "Choi In-kyu"],
+      "roles": ["내무부 장관"],
+      "researchStatus": "candidate",
+      "backbone": false,
+      "connections": ["evt-1960-315-election"]
+    },
+    {
+      "id": "pol-yu-chung-ryul",
+      "name": "유충렬",
+      "aliases": ["Yu Chung-ryul"],
+      "roles": ["서울시경 국장"],
+      "researchStatus": "candidate",
+      "backbone": false,
+      "connections": ["evt-1960-419-protests"]
+    },
+    {
+      "id": "pol-paek-nam-gyu",
+      "name": "백남규",
+      "aliases": ["Paek Nam-gyu", "Baek Nam-gyu"],
+      "roles": ["서울시경 경비과장"],
+      "researchStatus": "candidate",
+      "backbone": false,
+      "connections": ["evt-1960-419-protests"]
+    }
+  ]
+}
