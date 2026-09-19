@@ -26,15 +26,28 @@
 5. 정치 성향·정당과 무관하게 동일한 데이터 규칙 적용
 6. 오류 정정과 반론 경로를 제품의 핵심 기능으로 취급
 
-## 현재 상태
-
-첫 MVP는 데모 데이터로 UI와 비교 흐름을 검증합니다. Floot 버전에는 Postgres 기반 evidence ledger와 GPT Research Loop가 연결되어 있습니다.
+## 운영 원칙
 
 > **수집은 공격적으로, 공개는 보수적으로.**
+>
+> **GitHub에서 충분히 축적하고, Floot는 묶어서 빌드한다.**
 
-연구 루프는 3시간마다 enabled 실존 target을 순환 검색하며, gpt-5.6-luna의 web search로 공개 기록 후보를 수집합니다. 검색 결과는 곧바로 공개되지 않고 `research_candidates(status=pending)`에만 적재됩니다. 사람의 검토를 통과한 자료만 records/sources 및 comparison 후보로 승격하는 구조입니다.
+수동 GPT 조사 루프의 결과는 먼저 GitHub의 `data/`, `docs/`, `sql/`에 축적합니다. 조사 1회마다 Floot를 다시 빌드하지 않습니다.
 
-세부 설계는 [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)와 [docs/RESEARCH_LOOP.md](docs/RESEARCH_LOOP.md)를 참고하세요.
+Floot는 다음과 같은 시점에만 묶어서 갱신합니다.
+
+- 대통령 한 명의 기본 조사 묶음이 충분히 완성되었을 때
+- DB 스키마나 UI에 의미 있는 기능 변화가 생겼을 때
+- 여러 조사 회차의 데이터를 한 번에 반영할 수 있을 때
+- 공개 검토가 필요한 비교 후보가 충분히 쌓였을 때
+
+이 방식으로 Floot build action을 아끼고, GitHub를 조사 원장과 변경 이력의 기준점으로 사용합니다.
+
+## 현재 상태
+
+역대 대통령을 임기 순으로 데이터 뼈대에 등록하고, 이승만부터 실제 1차 자료 기반 기록을 축적하기 시작했습니다.
+
+세부 설계는 [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md), [docs/RESEARCH_LOOP.md](docs/RESEARCH_LOOP.md), [docs/FLOOT_BUILD_POLICY.md](docs/FLOOT_BUILD_POLICY.md)를 참고하세요.
 
 ## 로컬 실행
 
@@ -49,6 +62,6 @@ npm run dev
 npm run build
 ```
 
-배포용 인터랙티브 버전은 Floot 프로젝트에서 병행 구축합니다.
+Floot는 조사 저장소가 아니라, 충분히 축적된 데이터를 보여주는 배포·인터랙션 계층으로 사용합니다.
 
 자세한 편집 원칙은 [docs/METHODOLOGY.md](docs/METHODOLOGY.md)를 참고하세요.
