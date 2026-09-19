@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-09-19",
+  "purpose": "정치인 파일에 사건을 매몰시키지 않고 인물·기관·정당·법률·결정·집행·반대·후대판단을 cross-link하기 위한 사건 registry.",
+  "events": [
+    {
+      "id": "evt-1960-315-election",
+      "name": "1960년 3·15 정·부통령 선거 및 부정선거",
+      "date": "1960-03-15",
+      "politicians": ["pol-rhee-syngman", "pol-yi-ki-pung", "pol-choi-in-kyu"],
+      "institutions": ["내무부", "자유당", "경찰"],
+      "evidenceState": "narrowed",
+      "confirmed": [
+        "국가기록원 공개 판결자료는 최인규 내무부 장관 취임 뒤 부정선거 기획·준비가 본격화됐다고 정리한다.",
+        "공식 선거 연표는 해당 선거가 부정선거로 취소되었다고 기록한다."
+      ],
+      "openQuestions": [
+        "선거 전 경무대에 어떤 구체적 부정선거 계획이 언제 보고되었는가?",
+        "이승만의 사전 인지·승인 범위는 어디까지였는가?"
+      ],
+      "sources": [
+        "https://theme.archives.go.kr/next/history/samilos/sub1_1_2.do",
+        "https://db.history.go.kr/id/tcct_1960_03_15_0010",
+        "https://history.state.gov/historicaldocuments/frus1958-60v18/d288"
+      ]
+    },
+    {
+      "id": "evt-1960-419-protests",
+      "name": "1960년 4·19 시위와 경찰 발포",
+      "date": "1960-04-19",
+      "politicians": ["pol-rhee-syngman", "pol-yu-chung-ryul", "pol-paek-nam-gyu"],
+      "institutions": ["서울시경", "경찰", "계엄사령부", "경무대"],
+      "evidenceState": "narrowed",
+      "confirmed": [
+        "동시대 미국 외교전문은 경무대 인근에서 경찰 또는 군사경찰의 발포를 관찰했다고 보고한다.",
+        "국가기록원 사건기록 해제는 법원이 유충렬이 실탄 발사로 시위대를 해산·진압하도록 백남규에게 명령한 혐의를 인정했다고 정리한다."
+      ],
+      "openQuestions": [
+        "경무대·내무부·서울시경 사이 당일 보고와 명령의 정확한 시간선은 무엇인가?",
+        "이승만의 군중통제 승인과 구체적 실탄 발포명령 사이에 직접 연결 문서가 존재하는가?"
+      ],
+      "sources": [
+        "https://history.state.gov/historicaldocuments/frus1958-60v18/d298",
+        "https://history.state.gov/historicaldocuments/frus1958-60v18/d299",
+        "https://theme.archives.go.kr/next/history/samilos/sub2_2.do"
+      ]
+    },
+    {
+      "id": "evt-1949-farmland-reform",
+      "name": "농지개혁법 제정과 농지개혁",
+      "date": "1949-06-21",
+      "politicians": ["pol-rhee-syngman"],
+      "institutions": ["대한민국 정부", "국회"],
+      "evidenceState": "deep",
+      "confirmed": [
+        "농지개혁법은 1949년 6월 21일 법률 제31호로 제정·시행되었다.",
+        "국가기록원은 대통령 결재문서에 국무총리와 국무위원 11명이 부서했다고 설명한다.",
+        "국가기록원은 귀속농지와 한국인 소유농지를 합해 약 61만ha가 분배됐다고 정리하면서 대상 제외와 전쟁기 상환 문제 등 한계도 함께 제시한다."
+      ],
+      "openQuestions": [
+        "정부안·국회 수정·시행 과정에서 주요 정치인별 제안과 반대의 역할을 인물 노드로 더 세분화할 것."
+      ],
+      "sources": [
+        "https://www.law.go.kr/lsInfoP.do?lsiSeq=976&viewCls=lsRvsDocInfoR",
+        "https://theme.archives.go.kr/next/officialDocument/docSketch01.do",
+        "https://theme.archives.go.kr/next/koreaOfRecord/farmlandReform.do"
+      ]
+    }
+  ]
+}
