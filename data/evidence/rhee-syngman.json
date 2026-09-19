@@ -3,7 +3,7 @@
   "politicianId": "president-rhee-syngman",
   "name": "이승만",
   "termLabel": "제1~3대",
-  "researchStatus": "deep-pass-4",
+  "researchStatus": "deep-pass-5",
   "updatedAt": "2026-09-19",
   "editorialRule": "수집은 공격적으로, 공개는 보수적으로. 사건·발언·제도 변화와 출처를 기록하되 정치적 판정은 하지 않는다.",
   "evidenceGrades": {
@@ -330,6 +330,84 @@
       "publisher": "국사편찬위원회 헌정사 자료 DB·이승만관계서한자료집",
       "url": "https://db.history.go.kr/item/cons/level.do?levelId=cons_002_0020_0030_0010_0100",
       "grade": "A"
+    },
+    "S1958-JINBO-CANCEL": {
+      "title": "정부, 진보당의 등록을 취소",
+      "publisher": "국사편찬위원회 대한민국사연표",
+      "url": "https://db.history.go.kr/id/tcct_1958_02_25_0010",
+      "grade": "C"
+    },
+    "S1958-JINBO-RECORDS": {
+      "title": "진보당 사건 기록물 개요",
+      "publisher": "국가기록원",
+      "url": "https://theme.archives.go.kr/next/choba/sub02_2.do",
+      "grade": "A"
+    },
+    "S1958-JINBO-TRIAL": {
+      "title": "진보당 사건 제1심 공판 기록",
+      "publisher": "국가기록원",
+      "url": "https://theme.archives.go.kr/next/choba/sub03_4.do",
+      "grade": "A"
+    },
+    "S1959-JINBO-FINAL": {
+      "title": "진보당 사건 최종판결·사형집행 기록",
+      "publisher": "국가기록원",
+      "url": "https://theme.archives.go.kr/next/choba/sub03_4_3.do",
+      "grade": "A"
+    },
+    "S1958-1959-JINBO-FRUS": {
+      "title": "진보당 재판·조봉암 사형에 대한 미국 정부의 동시대 외교 기록",
+      "publisher": "국사편찬위원회 FRUS 한국어 DB",
+      "url": "https://db.history.go.kr/contemp/level.do?levelId=frus_011r_0010_0230",
+      "grade": "B"
+    },
+    "S1959-KH-CLOSURE": {
+      "title": "정부의 경향신문 발행허가 취소 기록",
+      "publisher": "국사편찬위원회 대한민국사연표",
+      "url": "https://db.history.go.kr/id/tcct_1959_04_30_0010",
+      "grade": "C"
+    },
+    "S1959-KH-US-MEMO": {
+      "title": "1959-05-05 미국측 비망록: 경향신문 폐간 우려",
+      "publisher": "국사편찬위원회 한일회담 미국무부 문서",
+      "url": "https://db.history.go.kr/contemp/hihd/level.do?levelId=hihd_1959_05_05",
+      "grade": "B"
+    },
+    "S1951-NDC-DIRECTIVE": {
+      "title": "국민방위군 부정사건 조사의 건",
+      "publisher": "국가기록원·대통령기록관",
+      "url": "https://theme.archives.go.kr/next/625/records/recordDetail.do?flag=&page=3&searchKey=&searchTxt=&seq=972",
+      "grade": "A"
+    },
+    "S1951-NDC-TRIAL": {
+      "title": "국민방위군 사건 피의자 5명 사형 언도",
+      "publisher": "국사편찬위원회 자료대한민국사",
+      "url": "https://db.history.go.kr/contemp/level.do?levelId=dh_022_1951_07_18_0130",
+      "grade": "C"
+    },
+    "S1951-NDC-POLITICAL-FUNDS": {
+      "title": "국민방위군 사건 정치자금 관련 국회 공방",
+      "publisher": "국사편찬위원회 자료대한민국사",
+      "url": "https://db.history.go.kr/contemp/level.do?levelId=dh_022_1951_07_30_0090",
+      "grade": "C"
+    },
+    "S1951-GEOCHANG-DIRECTIVE": {
+      "title": "거창사건 책임에 관한 건",
+      "publisher": "국가기록원·이승만대통령기록물",
+      "url": "https://db.history.go.kr/contemp/level.do?levelId=dh_021_1951_04_30_0040",
+      "grade": "A"
+    },
+    "S1951-GEOCHANG-TRIAL": {
+      "title": "거창사건 군법회의 판정 이유서",
+      "publisher": "국사편찬위원회 자료대한민국사",
+      "url": "https://db.history.go.kr/contemp/level.do?levelId=dh_023_1951_12_21_0140",
+      "grade": "C"
+    },
+    "S1951-GEOCHANG-KIM": {
+      "title": "김종원 대령의 국회 합동조사단 발포 명령 관련 증언",
+      "publisher": "국사편찬위원회 자료대한민국사",
+      "url": "https://db.history.go.kr/id/dh_022_1951_08_05_0070",
+      "grade": "C"
     }
   },
   "chronology": [
@@ -661,9 +739,14 @@
       ],
       "summary": "국민방위군의 식량·금전 관련 부정 보고에 대해 면밀히 조사하고 위법자를 법으로 다스리라고 지시한 대통령 문서가 남아 있다.",
       "sourceIds": [
-        "S1951-DEFENSECORPS"
+        "S1951-DEFENSECORPS",
+        "S1951-NDC-DIRECTIVE",
+        "S1951-NDC-TRIAL",
+        "S1951-NDC-POLITICAL-FUNDS"
       ],
-      "confidence": "verified"
+      "confidence": "presidential_investigation_order_and_later_trials_verified_prior_knowledge_separate",
+      "context": "1951년 1월 4일 대통령 명의 문서는 국민방위군의 식량·금전 부정 문제를 면밀히 조사하고 위법자를 법으로 다스리라고 지시한다. 이후 국회조사와 군법회의가 진행됐고 7월 김윤근 등 5명에게 사형이 선고됐다. 정치자금 관련 의혹은 국회에서도 별도로 공방·조사가 이어졌다.",
+      "caveat": "대통령의 부정 조사·처벌 지시는 직접 문서로 확인된다. 그러나 국민방위군 조직 창설·운영 실패, 예산 유용, 정치자금 의혹 각각에 대한 대통령의 사전 인지 범위는 같은 사실로 간주하지 않고 별도 추적한다."
     },
     {
       "id": "rhee-1951-geochang-response",
@@ -676,11 +759,15 @@
         "군기"
       ],
       "summary": "거창사건과 관련해 제11사단장과 관련 대대장에 대한 징계를 지시하고 군 비행·범죄 감독 체계 개편을 지시한 대통령 문서가 남아 있다.",
-      "caveat": "사건 발생 이전의 지시·보고 계통과 사후 조치의 적절성은 별도 평가 없이 원문 단위로 추가 조사한다.",
+      "caveat": "사후 대통령 지시와 군법회의 기록은 확인된다. 사건 발생 전 작전명령 제5호가 대통령 또는 경무대까지 어떻게 보고·승인됐는지는 별도 입증이 필요하다.",
       "sourceIds": [
-        "S1951-GEOCHANG"
+        "S1951-GEOCHANG",
+        "S1951-GEOCHANG-DIRECTIVE",
+        "S1951-GEOCHANG-TRIAL",
+        "S1951-GEOCHANG-KIM"
       ],
-      "confidence": "verified"
+      "confidence": "post_event_presidential_directive_and_trial_chain_verified_pre_event_presidential_chain_unresolved",
+      "context": "4월 30일 대통령 결재 지시문은 제11사단장과 관련 대대장 징계를 지시하고 군기·범죄 감독체계 개편을 요구한다. 이후 고등군법회의가 열려 작전명령 제5호, 현장 지휘, 조사단 방해 등이 쟁점이 됐고 연말 판정 이유서가 공개됐다."
     },
     {
       "id": "rhee-1952-election-freedom-statement",
@@ -889,6 +976,24 @@
       "confidence": "verified"
     },
     {
+      "id": "rhee-1958-jinbo-registration-cancel",
+      "date": "1958-02-25",
+      "phase": "제1공화국",
+      "kind": "government_action",
+      "topic": [
+        "진보당",
+        "정당등록",
+        "야당",
+        "국가보안"
+      ],
+      "summary": "정부는 공보실 발표를 통해 진보당의 정당 등록을 취소했다.",
+      "context": "정부는 진보당의 통일방안, 북한과의 접촉 의혹, 의회 침투 기도 등을 취소 사유로 제시했다. 이는 정부 조치로 확인되지만 대통령 개인이 취소 결정을 직접 지시한 문서는 현재 원장에 확보되지 않았다.",
+      "sourceIds": [
+        "S1958-JINBO-CANCEL"
+      ],
+      "confidence": "government_action_verified_presidential_direct_order_unresolved"
+    },
+    {
       "id": "rhee-1958-nsl-amendment",
       "date": "1958-12-24",
       "phase": "제1공화국",
@@ -916,11 +1021,16 @@
         "사법"
       ],
       "summary": "대법원은 진보당 사건에서 조봉암에 대한 사형판결을 유지했다. 다른 다수 진보당 간부에 대해서는 무죄가 선고됐다.",
-      "caveat": "사법부 판결과 행정부·대통령의 정치적 역할은 구분해서 추적한다.",
+      "caveat": "정부가 진보당 등록을 취소한 사실과 조봉암에 대한 수사·재판·사형 집행은 확인되지만, 현재 확보한 자료만으로 이승만 개인이 재판부에 사형 판결을 지시했다고 기록하지 않는다. 직접 개입 여부는 별도 문서가 필요하다.",
       "sourceIds": [
-        "S1959-CHO"
+        "S1959-CHO",
+        "S1958-JINBO-CANCEL",
+        "S1958-JINBO-RECORDS",
+        "S1958-JINBO-TRIAL",
+        "S1958-1959-JINBO-FRUS"
       ],
-      "confidence": "verified"
+      "confidence": "government_party_action_and_judicial_sequence_verified_presidential_direct_judicial_intervention_unresolved",
+      "context": "진보당 사건 수사기록은 서울시경·육군 특무부대·검찰의 수사와 법원 공판으로 구성돼 있다. 미국 국무부는 1958~1959년 조봉암 사형 가능성에 반복적으로 우려를 표했고 한국 정부 유력인사에게 이를 전달하려 했다. 1959년 2월 대법원은 사형을 유지했고 7월 31일 형이 집행됐다."
     },
     {
       "id": "rhee-1959-kyunghyang-closure",
@@ -933,11 +1043,14 @@
         "표현의자유"
       ],
       "summary": "정부가 군정법령 제88호를 근거로 경향신문 발행허가를 취소했다.",
-      "caveat": "정부 조치로 확정해 기록하며, 대통령의 구체적인 직접 지시 여부는 별도의 1차 자료로 확인한다.",
+      "caveat": "폐간은 정부·공보실의 조치로 확인된다. 이승만 대통령 개인의 직접 명령 문서는 현재 확보하지 못했으므로 대통령 개인의 직접 지시로 단정하지 않는다.",
       "sourceIds": [
-        "S1959-KH"
+        "S1959-KH",
+        "S1959-KH-CLOSURE",
+        "S1959-KH-US-MEMO"
       ],
-      "confidence": "verified_government_action"
+      "confidence": "government_action_verified_presidential_direct_order_unresolved",
+      "context": "1959년 4월 30일 공보실은 군정법령 제88호를 근거로 경향신문 발행허가를 취소했다. 정부는 여러 기사·사설의 허위보도 또는 국가안보 관련 문제를 이유로 들었다. 5월 5일 미국측 외교문서는 한국 정부에 경향신문 폐간에 대한 우려가 전달된 상황을 기록한다."
     },
     {
       "id": "rhee-1959-cho-execution",
@@ -1199,15 +1312,17 @@
       "id": "lead-defense-corps-chain",
       "question": "국민방위군 사건에서 대통령의 초기 인지 시점, 조사 지시 이후 후속 조치, 관련 정치자금 의혹을 판결·국회기록까지 연결할 것.",
       "priority": "medium",
-      "status": "narrowed",
-      "evidenceSoFar": "1951년 1월 4일 대통령 명의의 부정 조사·처벌 지시 문서는 확보됐다."
+      "status": "substantially_narrowed",
+      "evidenceSoFar": "1951-01-04 대통령의 직접 조사·처벌 지시, 국회 조사, 7월 군법회의 사형판결, 정치자금 의혹에 관한 국회 공방까지 연결됐다.",
+      "remainingQuestion": "국민방위군 창설·운영 부실과 정치자금 유용을 대통령이 언제부터 어느 정도 인지했는지 추가 문서를 찾는다."
     },
     {
       "id": "lead-geochang-before-after",
       "question": "거창사건 발생 전 작전명령과 사건 후 대통령 지시, 조사 방해 의혹, 군법회의 결과를 하나의 체인으로 정리할 것.",
       "priority": "high",
-      "status": "narrowed",
-      "evidenceSoFar": "1951년 4월 30일 대통령의 관련 지휘관 징계·군기 감독 강화 지시 문서는 확보됐다."
+      "status": "substantially_narrowed",
+      "evidenceSoFar": "사건 후 4/30 대통령 결재 징계·감찰체계 개편 지시와 이후 군법회의의 작전명령·지휘관계 심리를 연결했다.",
+      "remainingQuestion": "사건 전 작전명령 제5호가 경무대·국방부에 보고되거나 승인된 증거가 있는지 확인한다."
     },
     {
       "id": "lead-1952-arrests",
@@ -1220,12 +1335,18 @@
     {
       "id": "lead-cho-intervention",
       "question": "진보당·조봉암 사건에서 수사 개시와 재판 과정에 대한 대통령의 직접 발언·지시·인사 개입 자료를 찾아 사법부 판단과 구분할 것.",
-      "priority": "high"
+      "priority": "high",
+      "status": "substantially_narrowed",
+      "evidenceSoFar": "정부의 진보당 등록취소, 경찰·특무대·검찰 수사, 1·2·3심 재판, 미국 정부의 사형 반대 외교접촉, 1959년 사형집행, 2011년 재심 무죄까지 제도별 시간선이 확보됐다.",
+      "remainingQuestion": "이승만 개인이 수사·기소·형량·재판에 직접 영향력을 행사했다는 대통령비서실·법무부·미국 외교문서 등 1차 자료를 찾는다."
     },
     {
       "id": "lead-press-directive",
       "question": "경향신문 폐간 결정에서 공보실·내각·대통령 사이의 의사결정 문서를 확인해 정부 조치와 대통령 직접 관여를 구분할 것.",
-      "priority": "medium"
+      "priority": "medium",
+      "status": "narrowed",
+      "evidenceSoFar": "공보실의 1959-04-30 발행허가 취소와 정부가 제시한 사유, 직후 미국측의 우려 전달은 확인됐다.",
+      "remainingQuestion": "공보실 결정의 대통령 결재·경무대 지시 문서를 찾는다."
     },
     {
       "id": "lead-315-knowledge",
@@ -1249,10 +1370,10 @@
     "mode": "continue-not-restart",
     "priorityOrder": [
       "한강교 폭파의 직접 명령·승인·보고 시간선",
-      "진보당·조봉암 사건의 대통령 직접 개입 자료",
-      "경향신문 발행허가 취소의 경무대 의사결정 자료",
-      "국민방위군 사건의 대통령 인지→조사→처벌 전체 체인",
-      "거창사건의 사건 전 작전명령→사후 지시→재판 체인",
+      "진보당 사건 이승만 개인의 직접 수사·재판 개입 문서",
+      "경향신문 폐간 경무대 결재·지시 문서",
+      "국민방위군 창설·운영 단계 대통령 사전 인지 범위",
+      "거창 작전명령 제5호의 경무대·국방부 사전 보고",
       "부산정치파동 개별 의원 체포명령 원문",
       "제주4·3 개별 작전명령·보고 문서",
       "국민보도연맹 사살명령 최초 결정자·명령단위"
@@ -1349,6 +1470,41 @@
         "S1952-FRUS-MARTIAL",
         "S1952-US-OIR",
         "S1952-US-MARTIAL-LIFT"
+      ]
+    },
+    {
+      "id": "rhee-tension-jinbo-judiciary",
+      "topic": "진보당·조봉암 사건의 정부행위와 사법판단",
+      "verifiedLayers": [
+        "정부는 1958년 2월 25일 진보당 등록을 취소했다.",
+        "서울시경·특무부대·검찰이 수사했고 법원이 재판했다.",
+        "미국 정부는 조봉암 사형 가능성과 집행에 동시대에 반복적으로 우려를 표시했다.",
+        "1959년 대법원은 사형을 유지했고 형이 집행됐다.",
+        "2011년 대법원 재심은 주요 공소사실을 무죄로 판단했다."
+      ],
+      "unresolved": "이승만 대통령이 수사기관 또는 재판부의 구체적 판단·형량에 직접 개입한 1차 문서가 있는가?",
+      "status": "institutional_sequence_deep_direct_presidential_intervention_unresolved",
+      "sourceIds": [
+        "S1958-JINBO-CANCEL",
+        "S1958-JINBO-RECORDS",
+        "S1958-1959-JINBO-FRUS",
+        "S1959-JINBO-FINAL",
+        "S2011-CHO"
+      ]
+    },
+    {
+      "id": "rhee-tension-kyunghyang",
+      "topic": "경향신문 발행허가 취소",
+      "verifiedLayers": [
+        "1959년 4월 30일 공보실이 군정법령 제88호에 따라 발행허가 취소를 통보했다.",
+        "정부가 제시한 취소 사유에는 여러 사설·기사와 대통령 기자회견 보도 문제가 포함됐다.",
+        "미국측 외교문서는 취소 직후 한국 정부에 언론 문제에 대한 우려가 전달된 상황을 기록한다."
+      ],
+      "unresolved": "공보실의 발행허가 취소 결정이 경무대에서 어떤 결재·지시 과정을 거쳤는가?",
+      "status": "government_action_deep_presidential_directive_unresolved",
+      "sourceIds": [
+        "S1959-KH-CLOSURE",
+        "S1959-KH-US-MEMO"
       ]
     }
   ],
