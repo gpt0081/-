@@ -28,7 +28,13 @@
 
 ## 현재 상태
 
-첫 MVP는 데모 데이터로 UI와 비교 흐름을 검증합니다. 실제 정치인 데이터 수집기는 다음 단계에서 1차 자료 중심으로 연결합니다.
+첫 MVP는 데모 데이터로 UI와 비교 흐름을 검증합니다. Floot 버전에는 Postgres 기반 evidence ledger와 GPT Research Loop가 연결되어 있습니다.
+
+> **수집은 공격적으로, 공개는 보수적으로.**
+
+연구 루프는 3시간마다 enabled 실존 target을 순환 검색하며, gpt-5.6-luna의 web search로 공개 기록 후보를 수집합니다. 검색 결과는 곧바로 공개되지 않고 `research_candidates(status=pending)`에만 적재됩니다. 사람의 검토를 통과한 자료만 records/sources 및 comparison 후보로 승격하는 구조입니다.
+
+세부 설계는 [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)와 [docs/RESEARCH_LOOP.md](docs/RESEARCH_LOOP.md)를 참고하세요.
 
 ## 로컬 실행
 
