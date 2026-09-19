@@ -3,7 +3,7 @@
   "politicianId": "president-rhee-syngman",
   "name": "이승만",
   "termLabel": "제1~3대",
-  "researchStatus": "deep-pass-2",
+  "researchStatus": "deep-pass-3",
   "updatedAt": "2026-09-19",
   "editorialRule": "수집은 공격적으로, 공개는 보수적으로. 사건·발언·제도 변화와 출처를 기록하되 정치적 판정은 하지 않는다.",
   "evidenceGrades": {
@@ -258,6 +258,36 @@
       "publisher": "국가기록원",
       "url": "https://theme.archives.go.kr/next/history/samilos/sub2_2_3.do",
       "grade": "C"
+    },
+    "S1948-JEJU-REPORT-CONCLUSION": {
+      "title": "제주4·3사건 진상조사보고서 결론",
+      "publisher": "제주4·3사건진상규명 및 희생자명예회복위원회 / 제주4·3평화재단",
+      "url": "https://jeju43peace.or.kr/preview/1659427493740/index.html",
+      "grade": "C"
+    },
+    "S1948-JEJU-OVERVIEW": {
+      "title": "제주4·3이란 - 정부 진상조사보고서 기반 사건 개요",
+      "publisher": "제주4·3평화재단",
+      "url": "https://jeju43peace.or.kr/kor/sub01_01_01.do",
+      "grade": "C"
+    },
+    "S1950-BODO-TRC": {
+      "title": "국민보도연맹 사건 직권 진실규명 결정",
+      "publisher": "진실·화해를위한과거사정리위원회",
+      "url": "https://jinsil.go.kr/fnt/nac/selectNoticeDetail.do?bbsId=BBSMSTR_000000000717&nttId=24416",
+      "grade": "C"
+    },
+    "S1950-BODO-TRC-START": {
+      "title": "국민보도연맹 사건 직권조사 결정 보도자료",
+      "publisher": "진실·화해를위한과거사정리위원회",
+      "url": "https://www.jinsil.go.kr/fnt/nac/selectNoticeDetail.do?bbsId=BBSMSTR_000000000710&nttId=257715",
+      "grade": "C"
+    },
+    "S-RHEE-SPEECH-INDEX": {
+      "title": "이승만 대통령 연설기록 목록",
+      "publisher": "행정안전부 대통령기록관",
+      "url": "https://www.pa.go.kr/online_contents/archive/president_speechIndex.jsp?activePresident=%EC%9D%B4%EC%8A%B9%EB%A7%8C",
+      "grade": "A"
     }
   },
   "chronology": [
@@ -398,11 +428,14 @@
         "치안"
       ],
       "summary": "제주도지구에 계엄을 선포하는 대통령령 제31호가 공포되었다.",
-      "caveat": "계엄 선포 사실과 별개로, 개별 민간인 희생 사건의 명령·지휘 책임은 사건별 자료를 추가 대조해야 한다.",
+      "caveat": "진상조사보고서의 '최종 책임'은 위원회의 사후 조사 결론이다. 개별 학살 사건에 대한 직접 명령 여부와 전체 국가수반 책임은 구분해 저장한다.",
       "sourceIds": [
-        "S1948-JEJU"
+        "S1948-JEJU",
+        "S1948-JEJU-REPORT-CONCLUSION",
+        "S1948-JEJU-OVERVIEW"
       ],
-      "confidence": "verified"
+      "confidence": "martial_law_verified_government_report_assigns_top_level_responsibility",
+      "context": "정부 진상조사보고서는 1948년 11월 계엄 이후 9연대의 중산간마을 강경 진압작전에서 대규모 희생이 집중됐다고 정리한다. 보고서는 집단 인명피해의 1차 책임을 현장 연대장들에게 두면서도, 대통령이 계엄령을 선포했고 1949년 1월 국무회의에서 제주·전남 사태를 '발근색원'하고 '가혹한 방법'으로 탄압할 필요를 언급한 사실을 들어 최종 책임을 대통령에게 귀속시키는 결론을 제시했다."
     },
     {
       "id": "rhee-1948-national-security-act",
@@ -419,6 +452,24 @@
         "S1948-NSA"
       ],
       "confidence": "verified"
+    },
+    {
+      "id": "rhee-1949-jeju-cabinet-hardline",
+      "date": "1949-01",
+      "datePrecision": "month",
+      "phase": "제1공화국",
+      "kind": "cabinet_statement",
+      "topic": [
+        "제주4·3",
+        "강경진압",
+        "국무회의"
+      ],
+      "summary": "정부 제주4·3 진상조사보고서는 1949년 1월 국무회의에서 이승만이 제주도·전남 사건의 여파를 완전히 제거하고 지방의 반도·절도 등을 가혹한 방법으로 탄압해 법의 존엄을 보일 필요가 있다는 취지로 발언했다고 확인했다.",
+      "caveat": "진상조사보고서가 인용한 국무회의 발언에 근거한 기록이다. 개별 작전·사건의 직접 명령과는 구분한다.",
+      "sourceIds": [
+        "S1948-JEJU-REPORT-CONCLUSION"
+      ],
+      "confidence": "verified_via_official_investigation_report"
     },
     {
       "id": "rhee-1949-banmin-position",
@@ -484,6 +535,27 @@
         "S1950-WAR-SPEECH"
       ],
       "confidence": "verified"
+    },
+    {
+      "id": "rhee-1950-bodo-league-killings",
+      "date": "1950-06",
+      "datePrecision": "month",
+      "phase": "한국전쟁",
+      "kind": "state_violence_event",
+      "topic": [
+        "국민보도연맹",
+        "예비검속",
+        "민간인희생",
+        "국가책임"
+      ],
+      "summary": "한국전쟁 발발 뒤 국민보도연맹원 등 요시찰인들이 경찰·CIC·헌병 등 국가기관에 의해 소집·연행·구금된 뒤 여러 지역에서 집단희생됐다.",
+      "context": "진실화해위원회는 이 사건이 정부 최상층부의 결정에 의해 이루어진 것으로 보인다고 판단하고 국가의 책임을 인정했으며, 이승만을 당시 행정부 수반이자 군 통수권자로서 책임이 있다고 평가했다.",
+      "caveat": "같은 진실규명 결정은 예비검속·사살명령이 정확히 누구에게서 언제 어떤 단위로 내려왔는지는 밝히지 못했다고 명시한다. 따라서 대통령의 구체적 사살명령을 확인된 사실로 기록하지 않는다.",
+      "sourceIds": [
+        "S1950-BODO-TRC",
+        "S1950-BODO-TRC-START"
+      ],
+      "confidence": "state_responsibility_verified_specific_order_source_unresolved"
     },
     {
       "id": "rhee-1950-government-retreat",
@@ -1021,12 +1093,18 @@
     {
       "id": "lead-jeju-command",
       "question": "제주4·3 시기 대통령·국방부·경찰 지휘선과 개별 작전·민간인 희생 사이의 명령·보고 관계를 공식 진상보고서와 대통령기록으로 분해할 것.",
-      "priority": "high"
+      "priority": "high",
+      "status": "substantially_narrowed",
+      "evidenceSoFar": "정부 진상조사보고서는 대통령의 계엄 선포와 1949년 1월 국무회의 강경 탄압 취지 발언을 확인하고, 현장 연대장들의 1차 책임과 대통령의 최종 책임을 구분해 결론냈다.",
+      "remainingQuestion": "개별 초토화 작전·민간인 희생 사건의 작전명령과 경무대/국방부 보고 문서를 더 수집한다."
     },
     {
       "id": "lead-bodo-league",
       "question": "국민보도연맹 가입·관리 및 한국전쟁 초기 희생 사건에서 대통령의 직접 지시·보고·인지 여부를 진실화해위·군경 문서 중심으로 확인할 것.",
-      "priority": "high"
+      "priority": "high",
+      "status": "substantially_narrowed",
+      "evidenceSoFar": "진실화해위원회가 국가기관의 전국적 실행과 국가책임, 이승만의 행정부 수반·군통수권자로서 책임을 판단했다.",
+      "remainingQuestion": "위원회도 밝히지 못한 예비검속·사살명령의 최초 결정자·시점·명령단위를 군·경 원문에서 추가 추적한다."
     },
     {
       "id": "lead-han-bridge-command",
@@ -1083,14 +1161,14 @@
     "target": "이승만",
     "mode": "continue-not-restart",
     "priorityOrder": [
-      "3·15 부정선거의 선거 전 경무대 보고·국무회의·자유당 지도부 연결고리",
-      "4·19 '과감한 행동 승인'과 실제 발포명령 사이의 직접 문서",
-      "제주4·3 지휘·보고 체계",
-      "국민보도연맹 관련 대통령 직접 자료",
-      "한강교 폭파 지휘 계통",
-      "부산정치파동 국회의원 체포·개헌 압박 세부 시간선",
-      "진보당 사건의 대통령 직접 개입 자료",
-      "경향신문 폐간 의사결정 문서"
+      "한강교 폭파의 직접 명령·승인·보고 시간선",
+      "부산정치파동 국회의원 체포와 개헌 압박의 직접 대통령 지시 자료",
+      "진보당·조봉암 사건의 대통령 직접 개입 자료",
+      "경향신문 발행허가 취소의 경무대 의사결정 자료",
+      "국민방위군 사건의 대통령 인지→조사→처벌 전체 체인",
+      "거창사건의 사건 전 작전명령→사후 지시→재판 체인",
+      "제주4·3 개별 작전명령·보고 문서",
+      "국민보도연맹 사살명령 최초 결정자·명령단위"
     ]
   },
   "evidenceTensions": [
@@ -1129,6 +1207,49 @@
         "S1960-TRIAL-OVERVIEW",
         "S1961-REVOLUTIONARY-TRIALS"
       ]
+    },
+    {
+      "id": "rhee-tension-jeju-command-responsibility",
+      "topic": "제주4·3 지휘와 책임",
+      "evidence": [
+        "대통령령으로 제주도지구 계엄이 선포됐다.",
+        "정부 진상조사보고서는 1949년 1월 국무회의에서 이승만의 강경 탄압 취지 발언을 확인했다고 정리한다.",
+        "같은 보고서는 현장 9연대장·2연대장에게 집단인명피해의 1차 책임을, 이승만에게 최종 책임을 묻는 결론을 제시한다."
+      ],
+      "qualification": [
+        "사후 정부 진상조사보고서의 책임 판단과 개별 민간인 희생 사건의 직접 명령 입증은 서로 다른 층위다.",
+        "개별 작전명령·보고문서는 추가 수집한다."
+      ],
+      "status": "substantially_narrowed",
+      "sourceIds": [
+        "S1948-JEJU",
+        "S1948-JEJU-REPORT-CONCLUSION"
+      ]
+    },
+    {
+      "id": "rhee-tension-bodo-direct-order",
+      "topic": "국민보도연맹 사건 국가책임과 직접명령",
+      "evidence": [
+        "진실화해위원회는 경찰·CIC 등 국가기관이 전국적으로 소집·연행·구금·집단희생을 실행했다고 확인했다.",
+        "위원회는 정부 최상층부의 결정에 따른 것으로 판단하고 국가책임 및 당시 행정부 수반·군통수권자로서 이승만의 책임을 적시했다."
+      ],
+      "qualification": [
+        "위원회는 예비검속·사살 명령을 누가 언제 어떤 단위에서 내렸는지는 밝히지 못했다고 명시했다."
+      ],
+      "status": "state_responsibility_found_direct_order_unresolved",
+      "sourceIds": [
+        "S1950-BODO-TRC"
+      ]
+    }
+  ],
+  "sourceIndexes": [
+    {
+      "id": "rhee-presidential-speech-index",
+      "type": "official_speech_catalog",
+      "title": "대통령기록관 이승만 연설기록 전체 목록",
+      "url": "https://www.pa.go.kr/online_contents/archive/president_speechIndex.jsp?activePresident=%EC%9D%B4%EC%8A%B9%EB%A7%8C",
+      "ingestionStatus": "indexed_for_future_full_ingestion",
+      "note": "판별 후보뿐 아니라 일관된 정책·일상적 국정 발언까지 포함해 전수 수집할 원천 목록."
     }
   ]
 }
