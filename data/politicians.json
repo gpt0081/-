@@ -1,1 +1,475 @@
-{"schemaVersion":1,"updatedAt":"2026-09-20","purpose":"대한민국 정치인 실록의 인물 registry. 대통령은 초기 backbone일 뿐이며 모든 인물은 독립된 정치인 노드로 취급한다.","politicians":[{"id":"pol-rhee-syngman","legacyIds":["president-rhee-syngman"],"name":"이승만","aliases":["李承晩","Syngman Rhee","Rhee Syng-man"],"lifespan":{"born":"1875-03-26","died":"1965-07-19"},"roles":["대한민국 대통령","대한민국임시정부 대통령"],"researchStatus":"active-deep","backbone":true,"evidenceFile":"data/evidence/rhee-syngman.json","annalsFile":"data/annals/rhee-syngman.md","openLeadsFile":"data/research/rhee-syngman-open-leads.json","coverageFile":"data/research/rhee-syngman-coverage.json"},{"id":"pol-yi-ki-pung","name":"이기붕","aliases":["李起鵬","Yi Ki-pung","Lee Ki-poong"],"roles":["국회의장","자유당 정치인","1956·1960 부통령 후보"],"researchStatus":"candidate","backbone":false,"connections":["evt-1960-315-election"]},{"id":"pol-choi-in-kyu","name":"최인규","aliases":["崔仁圭","Choi In-kyu"],"roles":["내무부 장관"],"researchStatus":"candidate","backbone":false,"connections":["evt-1960-315-election"]},{"id":"pol-yu-chung-ryul","name":"유충렬","aliases":["Yu Chung-ryul"],"roles":["서울시경 국장"],"researchStatus":"candidate","backbone":false,"connections":["evt-1960-419-protests"]},{"id":"pol-paek-nam-gyu","name":"백남규","aliases":["Paek Nam-gyu","Baek Nam-gyu"],"roles":["서울시경 경비과장"],"researchStatus":"candidate","backbone":false,"connections":["evt-1960-419-protests"]},{"id":"pol-hong-chin-ki","name":"홍진기","aliases":["洪璡基","Hong Chin-ki","Hong Jin-ki"],"roles":["법무부 장관","내무부 장관"],"researchStatus":"candidate","backbone":false,"connections":["evt-1960-315-election","evt-1960-419-protests"]},{"id":"pol-kwak-yong-ju","name":"곽영주","aliases":["郭永周","Kwak Yong-ju"],"roles":["경무대 경무관","경무대 경찰서 경비책임자"],"researchStatus":"candidate-cross-event","backbone":false,"connections":["evt-1960-418-korea-university-attack","evt-1960-419-protests"]},{"id":"pol-lee-kang-hak","name":"이강학","aliases":["李康學","Lee Kang-hak","Yi Kang-hak"],"roles":["내무부 치안국장"],"researchStatus":"candidate","backbone":false,"connections":["evt-1960-315-election"]},{"id":"pol-han-hui-seok","name":"한희석","aliases":["韓熙錫","Han Hui-seok","Han Hee-suk"],"roles":["자유당 선거사무장","자유당 기획위원회 위원장"],"researchStatus":"candidate","backbone":false,"connections":["evt-1960-315-election"]},{"id":"pol-song-in-sang","name":"송인상","aliases":["宋仁相","Song In-sang"],"roles":["부흥부 장관","산업개발위원회 위원장"],"researchStatus":"candidate","backbone":false,"connections":["evt-1958-1960-economic-development-plan"]},{"id":"pol-shin-do-hwan","name":"신도환","aliases":["辛道煥","Shin Do-hwan"],"roles":["제4대 민의원","대한반공청년단 단장"],"researchStatus":"candidate-cross-event","backbone":false,"connections":["evt-1960-315-election","evt-1960-418-korea-university-attack"]},{"id":"pol-im-hwa-su","name":"임화수","aliases":["林和秀","Im Hwa-su"],"roles":["대한반공청년단 종로구단장","반공예술단 단장"],"researchStatus":"candidate-event-actor","backbone":false,"connections":["evt-1960-418-korea-university-attack"]},{"id":"pol-yoo-ji-gwang","name":"유지광","aliases":["柳志光","Yoo Ji-gwang","Yu Ji-gwang"],"roles":["대한반공청년단 종로구단 동부특별단부 단장","화랑동지회 관계자"],"researchStatus":"candidate-event-actor","backbone":false,"connections":["evt-1960-418-korea-university-attack"]},{"id":"pol-cho-bong-am","name":"조봉암","aliases":["曺奉岩","Cho Bong-am"],"roles":["초대 농림부 장관","제2대 국회 민의원 부의장","진보당 정치인"],"researchStatus":"candidate-cross-event","backbone":false,"connections":["evt-1949-farmland-reform"]},{"id":"pol-lee-beom-seok","name":"이범석","aliases":["李範奭","Lee Beom-seok"],"roles":["초대 국무총리","국방부 장관"],"researchStatus":"candidate","backbone":false,"connections":["evt-1949-farmland-reform"],"researchNotes":"1949-05-16 농지개혁법 환부이유서·소멸통고를 국회의장에게 발송한 정부 측 핵심 헌정 행위자로 확인. 대통령 재의권과 총리 명의 통고의 관계를 원문 결재선으로 추가 검증한다."},{"id":"pol-lee-mun-won","name":"이문원","aliases":["李文源","Lee Mun-won"],"roles":["제헌국회의원"],"researchStatus":"candidate","backbone":false,"connections":["evt-1949-farmland-reform"],"researchNotes":"1949-02-15 제헌국회 제2회 제31차에서 농지개혁법의 시급한 상정을 촉구하는 동의안을 제기한 입법 행위자로 국회 속기록에서 확인."},{"id":"pol-lee-soon-taek","name":"이순택","aliases":["李順鐸","Lee Soon-taek"],"roles":["기획처장"],"researchStatus":"candidate-policy-actor","backbone":false,"connections":["evt-1949-farmland-reform"],"researchNotes":"농림부안을 재심사해 보상·상환 조건을 크게 바꾼 기획처안 형성의 기관 책임자. 개인의 구체적 수정 지시는 원문 회의기록으로 추가 검증한다."},{"id":"pol-kim-do-yeon","name":"김도연","aliases":["金度演","Kim Do-yeon"],"roles":["재무부 장관","국회의원"],"researchStatus":"candidate-policy-actor","backbone":false,"connections":["evt-1949-farmland-reform"],"researchNotes":"농지개혁 재원·보상 논쟁에서 재무부 책임자로 정책형성 네트워크에 연결. 구체적 발언·수정 역할은 국무회의 및 국회 원문으로 검증 필요."},{"id":"pol-yu-jin-o","name":"유진오","aliases":["兪鎭午","Yu Jin-o"],"roles":["법제처장"],"researchStatus":"candidate-policy-actor","backbone":false,"connections":["evt-1949-farmland-reform"],"researchNotes":"농림부안의 정부 내 재심사 단계에서 법제처 책임자로 연결되는 제도 설계 행위자. 구체적 조문 수정 역할은 원문 검증 필요."},{"id":"pol-lee-hoon-gu","name":"이훈구","aliases":["李勳求","Lee Hoon-gu"],"roles":["제헌국회의원"],"researchStatus":"candidate-legislative-actor","backbone":false,"connections":["evt-1949-farmland-reform"],"researchNotes":"이훈구 외 31인이 1948-11-13 농지개혁법안을 발의한 것으로 국사편찬위원회 헌정사 DB 해제에서 확인. 공동발의자와 조문 내용은 원 속기록으로 추가 추출한다."},{"id":"pol-seo-yong-gil","name":"서용길","aliases":["徐容吉","Seo Yong-gil"],"roles":["제헌국회의원","성인회 정치인"],"researchStatus":"candidate-legislative-actor","backbone":false,"connections":["evt-1949-farmland-reform"],"researchNotes":"산업위원회의 상정 지연 상황에서 1949-03-01 서용길 외 30인이 정부안 상정을 제의한 입법 행위자로 헌정사 DB에서 확인."},{"id":"pol-seo-sang-il","name":"서상일","aliases":["徐相日","Seo Sang-il"],"roles":["제헌국회의원","국회 산업위원장"],"researchStatus":"candidate-legislative-actor","backbone":false,"connections":["evt-1949-farmland-reform"],"researchNotes":"농지개혁법 심의 당시 산업위원장으로 확인. 산업위원회 대안 작성·상정 과정의 개인 발언과 위원회 집단결정을 구분해 추가 검증한다."},{"id":"pol-yun-jae-geun","name":"윤재근","aliases":["尹在根","Yun Jae-geun"],"roles":["제헌국회의원","이정회 정치인"],"researchStatus":"candidate-legislative-actor","backbone":false,"connections":["evt-1949-farmland-reform"],"researchNotes":"1949-03-14 본회의에서 산업위원회안이 농민보다 지주를 위한 설계가 될 위험을 비판한 발언이 원 속기록 인용으로 확인됨. 발언 전체 문맥과 후속 표결을 추가 검증한다."},{"id":"pol-oh-seok-ju","name":"오석주","aliases":["吳錫柱","Oh Seok-ju"],"roles":["제헌국회의원","독립촉성국민회 소속 5·10 선거 당선자"],"researchStatus":"candidate-legislative-actor","backbone":false,"connections":[],"researchNotes":"1948-05-14 자유신문 선거결과와 국사편찬위원회 연구에서 제헌국회의원 吳錫柱의 신원이 교차확인됨. 농지개혁법 소멸통고 비판 행위는 아직 원 국회속기록 또는 동시대 보도로 직접 검증 전이므로 evt-1949-farmland-reform 연결은 보류한다."}]}
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-09-20",
+  "purpose": "대한민국 정치인 실록의 인물 registry. 대통령은 초기 backbone일 뿐이며 모든 인물은 독립된 정치인 노드로 취급한다.",
+  "politicians": [
+    {
+      "id": "pol-rhee-syngman",
+      "legacyIds": [
+        "president-rhee-syngman"
+      ],
+      "name": "이승만",
+      "aliases": [
+        "李承晩",
+        "Syngman Rhee",
+        "Rhee Syng-man"
+      ],
+      "lifespan": {
+        "born": "1875-03-26",
+        "died": "1965-07-19"
+      },
+      "roles": [
+        "대한민국 대통령",
+        "대한민국임시정부 대통령"
+      ],
+      "researchStatus": "active-deep",
+      "backbone": true,
+      "evidenceFile": "data/evidence/rhee-syngman.json",
+      "annalsFile": "data/annals/rhee-syngman.md",
+      "openLeadsFile": "data/research/rhee-syngman-open-leads.json",
+      "coverageFile": "data/research/rhee-syngman-coverage.json"
+    },
+    {
+      "id": "pol-yi-ki-pung",
+      "name": "이기붕",
+      "aliases": [
+        "李起鵬",
+        "Yi Ki-pung",
+        "Lee Ki-poong"
+      ],
+      "roles": [
+        "국회의장",
+        "자유당 정치인",
+        "1956·1960 부통령 후보"
+      ],
+      "researchStatus": "candidate",
+      "backbone": false,
+      "connections": [
+        "evt-1960-315-election"
+      ]
+    },
+    {
+      "id": "pol-choi-in-kyu",
+      "name": "최인규",
+      "aliases": [
+        "崔仁圭",
+        "Choi In-kyu"
+      ],
+      "roles": [
+        "내무부 장관"
+      ],
+      "researchStatus": "candidate",
+      "backbone": false,
+      "connections": [
+        "evt-1960-315-election"
+      ]
+    },
+    {
+      "id": "pol-yu-chung-ryul",
+      "name": "유충렬",
+      "aliases": [
+        "Yu Chung-ryul"
+      ],
+      "roles": [
+        "서울시경 국장"
+      ],
+      "researchStatus": "candidate",
+      "backbone": false,
+      "connections": [
+        "evt-1960-419-protests"
+      ]
+    },
+    {
+      "id": "pol-paek-nam-gyu",
+      "name": "백남규",
+      "aliases": [
+        "Paek Nam-gyu",
+        "Baek Nam-gyu"
+      ],
+      "roles": [
+        "서울시경 경비과장"
+      ],
+      "researchStatus": "candidate",
+      "backbone": false,
+      "connections": [
+        "evt-1960-419-protests"
+      ]
+    },
+    {
+      "id": "pol-hong-chin-ki",
+      "name": "홍진기",
+      "aliases": [
+        "洪璡基",
+        "Hong Chin-ki",
+        "Hong Jin-ki"
+      ],
+      "roles": [
+        "법무부 장관",
+        "내무부 장관"
+      ],
+      "researchStatus": "candidate",
+      "backbone": false,
+      "connections": [
+        "evt-1960-315-election",
+        "evt-1960-419-protests"
+      ]
+    },
+    {
+      "id": "pol-kwak-yong-ju",
+      "name": "곽영주",
+      "aliases": [
+        "郭永周",
+        "Kwak Yong-ju"
+      ],
+      "roles": [
+        "경무대 경무관",
+        "경무대 경찰서 경비책임자"
+      ],
+      "researchStatus": "candidate-cross-event",
+      "backbone": false,
+      "connections": [
+        "evt-1960-418-korea-university-attack",
+        "evt-1960-419-protests"
+      ]
+    },
+    {
+      "id": "pol-lee-kang-hak",
+      "name": "이강학",
+      "aliases": [
+        "李康學",
+        "Lee Kang-hak",
+        "Yi Kang-hak"
+      ],
+      "roles": [
+        "내무부 치안국장"
+      ],
+      "researchStatus": "candidate",
+      "backbone": false,
+      "connections": [
+        "evt-1960-315-election"
+      ]
+    },
+    {
+      "id": "pol-han-hui-seok",
+      "name": "한희석",
+      "aliases": [
+        "韓熙錫",
+        "Han Hui-seok",
+        "Han Hee-suk"
+      ],
+      "roles": [
+        "자유당 선거사무장",
+        "자유당 기획위원회 위원장"
+      ],
+      "researchStatus": "candidate",
+      "backbone": false,
+      "connections": [
+        "evt-1960-315-election"
+      ]
+    },
+    {
+      "id": "pol-song-in-sang",
+      "name": "송인상",
+      "aliases": [
+        "宋仁相",
+        "Song In-sang"
+      ],
+      "roles": [
+        "부흥부 장관",
+        "산업개발위원회 위원장"
+      ],
+      "researchStatus": "candidate",
+      "backbone": false,
+      "connections": [
+        "evt-1958-1960-economic-development-plan"
+      ]
+    },
+    {
+      "id": "pol-shin-do-hwan",
+      "name": "신도환",
+      "aliases": [
+        "辛道煥",
+        "Shin Do-hwan"
+      ],
+      "roles": [
+        "제4대 민의원",
+        "대한반공청년단 단장"
+      ],
+      "researchStatus": "candidate-cross-event",
+      "backbone": false,
+      "connections": [
+        "evt-1960-315-election",
+        "evt-1960-418-korea-university-attack"
+      ]
+    },
+    {
+      "id": "pol-im-hwa-su",
+      "name": "임화수",
+      "aliases": [
+        "林和秀",
+        "Im Hwa-su"
+      ],
+      "roles": [
+        "대한반공청년단 종로구단장",
+        "반공예술단 단장"
+      ],
+      "researchStatus": "candidate-event-actor",
+      "backbone": false,
+      "connections": [
+        "evt-1960-418-korea-university-attack"
+      ]
+    },
+    {
+      "id": "pol-yoo-ji-gwang",
+      "name": "유지광",
+      "aliases": [
+        "柳志光",
+        "Yoo Ji-gwang",
+        "Yu Ji-gwang"
+      ],
+      "roles": [
+        "대한반공청년단 종로구단 동부특별단부 단장",
+        "화랑동지회 관계자"
+      ],
+      "researchStatus": "candidate-event-actor",
+      "backbone": false,
+      "connections": [
+        "evt-1960-418-korea-university-attack"
+      ]
+    },
+    {
+      "id": "pol-cho-bong-am",
+      "name": "조봉암",
+      "aliases": [
+        "曺奉岩",
+        "Cho Bong-am"
+      ],
+      "roles": [
+        "초대 농림부 장관",
+        "제2대 국회 민의원 부의장",
+        "진보당 정치인"
+      ],
+      "researchStatus": "candidate-cross-event",
+      "backbone": false,
+      "connections": [
+        "evt-1949-farmland-reform"
+      ]
+    },
+    {
+      "id": "pol-lee-beom-seok",
+      "name": "이범석",
+      "aliases": [
+        "李範奭",
+        "Lee Beom-seok"
+      ],
+      "roles": [
+        "초대 국무총리",
+        "국방부 장관"
+      ],
+      "researchStatus": "candidate",
+      "backbone": false,
+      "connections": [
+        "evt-1949-farmland-reform"
+      ],
+      "researchNotes": "1949-05-16 농지개혁법 환부이유서·소멸통고를 국회의장에게 발송한 정부 측 핵심 헌정 행위자로 확인. 대통령 재의권과 총리 명의 통고의 관계를 원문 결재선으로 추가 검증한다."
+    },
+    {
+      "id": "pol-lee-mun-won",
+      "name": "이문원",
+      "aliases": [
+        "李文源",
+        "Lee Mun-won"
+      ],
+      "roles": [
+        "제헌국회의원"
+      ],
+      "researchStatus": "candidate",
+      "backbone": false,
+      "connections": [
+        "evt-1949-farmland-reform"
+      ],
+      "researchNotes": "1949-02-15 제헌국회 제2회 제31차에서 농지개혁법의 시급한 상정을 촉구하는 동의안을 제기한 입법 행위자로 국회 속기록에서 확인."
+    },
+    {
+      "id": "pol-lee-soon-taek",
+      "name": "이순택",
+      "aliases": [
+        "李順鐸",
+        "Lee Soon-taek"
+      ],
+      "roles": [
+        "기획처장"
+      ],
+      "researchStatus": "candidate-policy-actor",
+      "backbone": false,
+      "connections": [
+        "evt-1949-farmland-reform"
+      ],
+      "researchNotes": "농림부안을 재심사해 보상·상환 조건을 크게 바꾼 기획처안 형성의 기관 책임자. 개인의 구체적 수정 지시는 원문 회의기록으로 추가 검증한다."
+    },
+    {
+      "id": "pol-kim-do-yeon",
+      "name": "김도연",
+      "aliases": [
+        "金度演",
+        "Kim Do-yeon"
+      ],
+      "roles": [
+        "재무부 장관",
+        "국회의원"
+      ],
+      "researchStatus": "candidate-policy-actor",
+      "backbone": false,
+      "connections": [
+        "evt-1949-farmland-reform"
+      ],
+      "researchNotes": "농지개혁 재원·보상 논쟁에서 재무부 책임자로 정책형성 네트워크에 연결. 구체적 발언·수정 역할은 국무회의 및 국회 원문으로 검증 필요."
+    },
+    {
+      "id": "pol-yu-jin-o",
+      "name": "유진오",
+      "aliases": [
+        "兪鎭午",
+        "Yu Jin-o"
+      ],
+      "roles": [
+        "법제처장"
+      ],
+      "researchStatus": "candidate-policy-actor",
+      "backbone": false,
+      "connections": [
+        "evt-1949-farmland-reform"
+      ],
+      "researchNotes": "농림부안의 정부 내 재심사 단계에서 법제처 책임자로 연결되는 제도 설계 행위자. 구체적 조문 수정 역할은 원문 검증 필요."
+    },
+    {
+      "id": "pol-lee-hoon-gu",
+      "name": "이훈구",
+      "aliases": [
+        "李勳求",
+        "Lee Hoon-gu"
+      ],
+      "roles": [
+        "제헌국회의원"
+      ],
+      "researchStatus": "candidate-legislative-actor",
+      "backbone": false,
+      "connections": [
+        "evt-1949-farmland-reform"
+      ],
+      "researchNotes": "이훈구 외 31인이 1948-11-13 농지개혁법안을 발의한 것으로 국사편찬위원회 헌정사 DB 해제에서 확인. 공동발의자와 조문 내용은 원 속기록으로 추가 추출한다."
+    },
+    {
+      "id": "pol-seo-yong-gil",
+      "name": "서용길",
+      "aliases": [
+        "徐容吉",
+        "Seo Yong-gil"
+      ],
+      "roles": [
+        "제헌국회의원",
+        "성인회 정치인"
+      ],
+      "researchStatus": "candidate-legislative-actor",
+      "backbone": false,
+      "connections": [
+        "evt-1949-farmland-reform"
+      ],
+      "researchNotes": "산업위원회의 상정 지연 상황에서 1949-03-01 서용길 외 30인이 정부안 상정을 제의한 입법 행위자로 헌정사 DB에서 확인."
+    },
+    {
+      "id": "pol-seo-sang-il",
+      "name": "서상일",
+      "aliases": [
+        "徐相日",
+        "Seo Sang-il"
+      ],
+      "roles": [
+        "제헌국회의원",
+        "국회 산업위원장"
+      ],
+      "researchStatus": "candidate-legislative-actor",
+      "backbone": false,
+      "connections": [
+        "evt-1949-farmland-reform"
+      ],
+      "researchNotes": "농지개혁법 심의 당시 산업위원장으로 확인. 산업위원회 대안 작성·상정 과정의 개인 발언과 위원회 집단결정을 구분해 추가 검증한다."
+    },
+    {
+      "id": "pol-yun-jae-geun",
+      "name": "윤재근",
+      "aliases": [
+        "尹在根",
+        "Yun Jae-geun"
+      ],
+      "roles": [
+        "제헌국회의원",
+        "이정회 정치인"
+      ],
+      "researchStatus": "candidate-legislative-actor",
+      "backbone": false,
+      "connections": [
+        "evt-1949-farmland-reform"
+      ],
+      "researchNotes": "1949-03-14 본회의에서 산업위원회안이 농민보다 지주를 위한 설계가 될 위험을 비판한 발언이 원 속기록 인용으로 확인됨. 발언 전체 문맥과 후속 표결을 추가 검증한다."
+    },
+    {
+      "id": "pol-oh-seok-ju",
+      "name": "오석주",
+      "aliases": [
+        "吳錫柱",
+        "Oh Seok-ju"
+      ],
+      "roles": [
+        "제헌국회의원",
+        "독립촉성국민회 소속 5·10 선거 당선자"
+      ],
+      "researchStatus": "candidate-legislative-actor",
+      "backbone": false,
+      "connections": [],
+      "researchNotes": "1948-05-14 자유신문 선거결과와 국사편찬위원회 연구에서 제헌국회의원 吳錫柱의 신원이 교차확인됨. 농지개혁법 소멸통고 비판 행위는 아직 원 국회속기록 또는 동시대 보도로 직접 검증 전이므로 evt-1949-farmland-reform 연결은 보류한다."
+    },
+    {
+      "id": "pol-paik-too-chin",
+      "name": "백두진",
+      "aliases": [
+        "白斗鎭",
+        "Paik Too-chin",
+        "Baek Du-jin"
+      ],
+      "roles": [
+        "재무부 장관",
+        "기획처장",
+        "국무총리",
+        "한미합동경제위원회 한국측 대표"
+      ],
+      "researchStatus": "candidate-cross-domain",
+      "backbone": false,
+      "connections": [
+        "evt-1953-anti-communist-pow-release",
+        "evt-1953-us-rok-mutual-defense-negotiation"
+      ],
+      "researchNotes": "1952~53 재정·원조·휴전외교가 교차하는 행위자. 1953년 화폐개혁, 타스카 사절단 접촉, 로버트슨 협상 배석이 동시대 자료와 기관사 자료에서 확인됨. 각 정책의 개인 결정권과 국무회의 집단결정은 분리 검증."
+    },
+    {
+      "id": "pol-pyun-yong-tae",
+      "name": "변영태",
+      "aliases": [
+        "卞榮泰",
+        "Pyun Yong-tae",
+        "Pyon Yung Tai"
+      ],
+      "roles": [
+        "외무부 장관",
+        "국무총리 서리"
+      ],
+      "researchStatus": "candidate-cross-domain",
+      "backbone": false,
+      "connections": [
+        "evt-1953-anti-communist-pow-release",
+        "evt-1953-us-rok-mutual-defense-negotiation"
+      ],
+      "researchNotes": "1953 휴전반대 외교, 반공포로 석방 통보, 한미상호방위조약 협상에서 반복 등장. 대통령 지시의 외교적 전달과 본인의 정책 형성 역할을 분리 검증."
+    }
+  ]
+}
