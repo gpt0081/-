@@ -554,6 +554,122 @@
         "https://theme.archives.go.kr/next/pen/viewHistory.do",
         "https://history.state.gov/historicaldocuments/frus1958-60v18/d272"
       ]
+    },
+    {
+      "id": "evt-1952-pusan-political-crisis",
+      "name": "1952년 부산정치파동과 발췌개헌",
+      "dateRange": [
+        "1952-05-24",
+        "1952-07-07"
+      ],
+      "politicians": [
+        "pol-rhee-syngman",
+        "pol-lee-beom-seok-1900",
+        "pol-paik-too-chin",
+        "pol-pyun-yong-tae"
+      ],
+      "institutions": [
+        "대통령",
+        "내무부",
+        "국회",
+        "헌병",
+        "국무회의"
+      ],
+      "evidenceState": "deep-crosschecked",
+      "confirmed": [
+        "1952-05-24 자정 부산과 경상·전라 일부 지역에 계엄이 선포되었다.",
+        "FRUS 편집주기는 계엄 직전 이범석 내무장관 등 인사가 이루어졌고 5월25일부터 헌병이 야당계 국회의원을 체포했다고 기록한다.",
+        "1952-07-04 국회는 정부안과 국회안을 절충한 발췌개헌안을 재석 166명 중 찬성 163표로 가결했다는 동시대 보도가 남아 있다.",
+        "헌법 제2호는 1952-07-07 공포·시행되어 대통령·부통령 직선제와 양원제를 규정했다."
+      ],
+      "attributionGuardrails": [
+        "계엄 선포, 개별 의원 체포, 국회 표결 압박, 절충안 작성, 대통령의 개헌 목표를 서로 다른 action으로 분리한다.",
+        "미 대사관의 정치적 평가와 한국 정부의 공식 설명은 각각 contemporaneous observation과 actor claim으로 기록한다."
+      ],
+      "openQuestions": [
+        "개별 국회의원 체포영장·헌병대 명령서와 경무대 지시를 확보할 것.",
+        "발췌안 조문 작성자와 정부안/국회안에서 가져온 조항을 원 국회자료로 diff할 것.",
+        "계엄 선포의 국무회의·대통령 결재문서를 확보할 것."
+      ],
+      "sources": [
+        "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d138",
+        "https://db.history.go.kr/contemp/level.do?levelId=dh_026_1952_07_04_0010",
+        "https://www.law.go.kr/LSW/lsRvsDocListP.do?chrClsCd=010202&lsId=001444&lsRvsGubun=all"
+      ]
+    },
+    {
+      "id": "evt-1951-1952-direct-election-amendment-drive",
+      "name": "1950~1952 정부 대통령직선 개헌 추진",
+      "dateRange": [
+        "1950-11-07",
+        "1952-07-07"
+      ],
+      "politicians": [
+        "pol-rhee-syngman"
+      ],
+      "institutions": [
+        "대통령",
+        "법제처",
+        "법무부",
+        "국무회의",
+        "국회"
+      ],
+      "evidenceState": "deep-primary-records",
+      "confirmed": [
+        "국가기록원은 1950-11-07 제119회 국무회의에서 이승만이 법제처에 헌법개정안 입안을 지시한 기록을 공개한다.",
+        "1951-10-16 제110회 국무회의는 대통령·부통령 직선제와 양원제를 포함한 헌법개정안 요령을 의결했다.",
+        "1951-11-27 제121회 국무회의는 정부개헌안을 의결했고 11월30일 관보 제562호로 제안이 공고되었다.",
+        "1952-07-07 공포된 헌법 제2호에 대통령·부통령 직선제가 반영되었다."
+      ],
+      "openQuestions": [
+        "1950-11~1951-11 각 개헌안 버전의 조문 diff를 작성할 것.",
+        "법제처·법무부 실무 작성자를 actor graph에 추가할 것.",
+        "정부개헌안과 1952 발췌개헌안의 채택/탈락 조항을 연결할 것."
+      ],
+      "sources": [
+        "https://theme.archives.go.kr/next/rediscovery/viewMain.do",
+        "https://theme.archives.go.kr/next/rediscovery/search.do",
+        "https://law.go.kr/LSW/lsInfoP.do?chrClsCd=010202&efYd=19520707&lsiSeq=53082&urlMode=lsInfoP"
+      ]
+    },
+    {
+      "id": "evt-1954-rounding-amendment",
+      "name": "1954년 제2차 헌법개정(사사오입 논란)",
+      "dateRange": [
+        "1954-09-06",
+        "1954-11-29"
+      ],
+      "politicians": [
+        "pol-rhee-syngman",
+        "pol-yi-ki-pung"
+      ],
+      "institutions": [
+        "국회",
+        "자유당",
+        "정부",
+        "법제처"
+      ],
+      "evidenceState": "deep-crosschecked",
+      "confirmed": [
+        "1954-09-06 이기붕 의원 외 135인이 헌법개정안을 제안했다는 국회·국가기록원 기록이 존재한다.",
+        "1954-11-29 표결에서 찬성 135, 반대 60, 기권 7이 기록되었고, 당초 부결 선언 뒤 2/3 계산을 둘러싼 해석으로 가결이 선포되었다.",
+        "미 대사 Briggs의 1954-11-29 전문은 정부와 자유당 내부의 표결 실패 인식 및 이후 135표를 충분하다고 한 논리를 동시대 외부 관찰로 기록한다.",
+        "개정헌법은 초대 대통령에 대한 중임제한 적용 제외 등을 포함했다."
+      ],
+      "attributionGuardrails": [
+        "헌법개정안의 공식 제안자, 자유당 지도부의 처리, 정부의 법해석, 대통령의 태도, 국회의 최종 의결을 분리한다.",
+        "미국 외교관의 평가를 국내 법적 판단 그 자체로 취급하지 않는다."
+      ],
+      "openQuestions": [
+        "11월27~29 자유당 의원총회·국회의장단·법제처 사이 2/3 계산 논의 원문을 확보할 것.",
+        "대통령의 11월27~29 지시·보고를 경무대/국무회의 문서로 확인할 것.",
+        "표결 당시 재적 202/203 표기의 차이를 국회 원 의사록으로 정리할 것."
+      ],
+      "sources": [
+        "https://db.history.go.kr/item/cons/level.do?levelId=cons_003_0020_0030_0010_0080",
+        "https://theme.archives.go.kr/next/rule/sub2_03.do",
+        "https://theme.archives.go.kr/next/rediscovery/index2.do"
+      ]
     }
   ]
 }
