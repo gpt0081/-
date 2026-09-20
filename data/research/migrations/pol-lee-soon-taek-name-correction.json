@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-09-20",
+  "migrationId": "mig-politician-name-lee-sun-tak",
+  "targetId": "pol-lee-soon-taek",
+  "status": "PENDING_CANONICAL_APPLY",
+  "correction": {
+    "field": "name",
+    "from": "이순택",
+    "to": "이순탁",
+    "hanja": "李順鐸",
+    "reason": "현재 registry의 한자 李順鐸 및 국사편찬위원회 근현대인물자료·한국민족문화대백과사전은 인물을 이순탁으로 식별한다. stable ID와 기존 연결을 깨뜨리지 않기 위해 이름 교정을 migration으로 먼저 기록한다."
+  },
+  "evidence": [
+    {
+      "source": "국사편찬위원회 한국사데이터베이스 근현대인물자료",
+      "recordId": "im_108_03087",
+      "url": "https://db.history.go.kr/id/im_108_03087",
+      "accessed": "2026-09-20",
+      "supports": "이름 이순탁(李順鐸), 1950년 현재 인물자료"
+    },
+    {
+      "source": "한국민족문화대백과사전 이순탁",
+      "url": "https://encykorea.aks.ac.kr/Article/E0044911",
+      "accessed": "2026-09-20",
+      "supports": "이순탁(李順鐸), 대한민국정부 기획처 초대처장 및 미군정 입법회의위원 경력"
+    },
+    {
+      "source": "한국민족문화대백과사전 농지위원회",
+      "url": "https://encykorea.aks.ac.kr/Article/E0080665",
+      "accessed": "2026-09-20",
+      "supports": "1950-03-24 중앙농지위원 명단에 이순탁 수록"
+    }
+  ],
+  "migrationRule": "stable ID pol-lee-soon-taek은 당장 변경하지 않는다. canonical name을 이순탁으로 교정하고 기존 ID는 legacy-compatible identifier로 유지한 뒤, 향후 ID 정규화가 필요하면 별도 alias migration을 수행한다.",
+  "newConnections": [
+    {
+      "eventId": "evt-1949-farmland-reform",
+      "relation": "정부 기획처장으로 농지개혁안 정부 내 재심사 단계에 연결되고, 1950-03-24 중앙농지위원으로 시행단계에도 재등장",
+      "attributionLimit": "기획처 기관 책임 및 위원 재임은 확인되지만 특정 조문 수정이나 위원회 발언은 원 회의기록 확보 전 개인행위로 귀속하지 않는다."
+    }
+  ]
+}
