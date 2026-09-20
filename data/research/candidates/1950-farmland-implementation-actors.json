@@ -1,7 +1,15 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "updatedAt": "2026-09-20",
   "scope": "1950 farmland-reform implementation actors discovered from the Rhee backbone",
+  "implementationTimeline": [
+    {"date":"1950-02-10","instrument":"대통령령 제275호 농지위원회규정","role":"중앙·지방 농지위원회 제도화","source":"https://www.law.go.kr/"},
+    {"date":"1950-03-10","instrument":"법률 제108호 농지개혁법 일부개정","role":"시행 직전 법률 개정","source":"https://www.law.go.kr/"},
+    {"date":"1950-03-24","instrument":"중앙농지위원회 제1회 회의","role":"중앙 자문·집행 네트워크 가동","source":"https://encykorea.aks.ac.kr/Article/E0080665"},
+    {"date":"1950-03-25","instrument":"대통령령 제294호 농지개혁법시행령","role":"법률 시행 절차 구체화","source":"https://www.law.go.kr/"},
+    {"date":"1950-04-28","instrument":"농림부령 제18호 농지개혁법시행규칙","role":"행정 집행 규칙 구체화","source":"https://www.law.go.kr/"},
+    {"date":"1950-06-23","instrument":"대통령령 제375호 농지분배점수제규정","role":"분배 기준의 추가 제도화","source":"https://www.law.go.kr/"}
+  ],
   "candidates": [
     {
       "candidateId": "cand-joo-seok-gyun",
@@ -11,17 +19,16 @@
       "classification": ["senior-government-official", "policy-actor"],
       "roles": [
         {"title": "중앙농지위원", "date": "1950-03-24", "status": "confirmed-secondary-reference-to-commission"},
-        {"title": "농림부차관", "from": "1950-03", "to": "1950-12", "status": "partly-official-record-confirmed"}
+        {"title": "농림부차관", "period": "1948-1950", "status": "confirmed-biographical; exact appointment dates need official personnel record"}
       ],
-      "connections": [
-        {"eventId": "evt-1949-farmland-reform", "relation": "1950 시행단계 중앙농지위원 및 농림부차관", "status": "confirmed-at-role-level"}
-      ],
+      "connections": [{"eventId": "evt-1949-farmland-reform", "relation": "1950 시행단계 중앙농지위원 및 농림부차관", "status": "confirmed-at-role-level"}],
       "evidence": [
         {"source": "한국민족문화대백과사전 농지위원회", "url": "https://encykorea.aks.ac.kr/Article/E0080665", "accessed": "2026-09-20", "supports": "1950-03-24 중앙농지위원회 첫 회의와 주석균 위원 명단"},
-        {"source": "한국민족문화대백과사전 주석균", "url": "https://encykorea.aks.ac.kr/Article/E0053310", "accessed": "2026-09-20", "supports": "주석균 신원, 농림부차관 및 장기 농업정책 활동"},
+        {"source": "한국민족문화대백과사전 주석균", "url": "https://encykorea.aks.ac.kr/Article/E0053310", "accessed": "2026-09-20", "supports": "주석균 신원과 1948~1950 농림부차관 경력 및 장기 농업정책 활동"},
         {"source": "대통령기록물 해설집 I", "recordId": "AA0000768", "accessed": "2026-09-20", "supports": "1950-12-10 농림부차관 해면 상신의 건(주석균) 기록 표적"}
       ],
-      "openLeads": ["AA0000768 원문 결재면 확보", "대응 임명 상신·임명 기록으로 정확한 취임일 확정", "1950-03-24 중앙농지위원회 위촉문·회의록에서 발언과 의결 분리"]
+      "corrections": [{"date":"2026-09-20","change":"차관 재임을 1950-03~1950-12로 좁혀 적던 후보 기록을 1948~1950으로 교정","reason":"한국민족문화대백과사전 인물항목이 1948~1950 농림부차관 재임을 명시. 정확한 일자는 공식 인사기록 대기."}],
+      "openLeads": ["AA0000768 원문 결재면 확보", "임명 상신·임명 기록으로 정확한 취임일 확정", "1950-03-24 중앙농지위원회 위촉문·회의록에서 발언과 의결 분리"]
     },
     {
       "candidateId": "cand-hong-heon-pyo",
@@ -31,13 +38,11 @@
       "classification": ["senior-government-official", "later-minister", "party-actor"],
       "roles": [
         {"title": "중앙농지위원", "date": "1950-03-24", "status": "name-and-hanja-match; appointment-original-needed"},
-        {"title": "내무부차관", "status": "confirmed-biographical"},
+        {"title": "내무부차관", "period": "한국전쟁기", "status": "confirmed-biographical; exact dates require official personnel record"},
         {"title": "체신부장관", "from": "1963-12", "to": "1964-07", "status": "confirmed-biographical"},
         {"title": "민주공화당 서울시당 부위원장", "from": "1963", "status": "confirmed-biographical"}
       ],
-      "connections": [
-        {"eventId": "evt-1949-farmland-reform", "relation": "1950-03-24 중앙농지위원 명단의 洪憲杓", "status": "strong-identity-match; original-appointment-needed"}
-      ],
+      "connections": [{"eventId": "evt-1949-farmland-reform", "relation": "1950-03-24 중앙농지위원 명단의 洪憲杓", "status": "strong-identity-match; original-appointment-needed"}],
       "evidence": [
         {"source": "한국민족문화대백과사전 농지위원회", "url": "https://encykorea.aks.ac.kr/Article/E0080665", "accessed": "2026-09-20", "supports": "중앙농지위원 명단에 洪憲杓 수록"},
         {"source": "한국민족문화대백과사전 홍헌표", "url": "https://encykorea.aks.ac.kr/Article/E0074900", "accessed": "2026-09-20", "supports": "洪憲杓 신원과 내무부차관·민주공화당 서울시당 부위원장·체신부장관 경력"}
@@ -53,6 +58,24 @@
       "connections": [{"eventId": "evt-1949-farmland-reform", "relation": "1950-03-24 중앙농지위원 명단", "status": "name-only"}],
       "identityConflict": {"status": "OPEN", "issue": "위원 명단의 강정탁이 기존 농림부차관 강정택(姜鋌澤)의 오기인지 별인인지 미확정", "rule": "이름 유사성만으로 cand-kang-jeong-taek과 병합하지 않는다."},
       "openLeads": ["중앙농지위원 위촉 원문에서 한자명·직함 확인", "1950년 관보·농림부 인사명부에서 강정탁 독립 인물 존재 여부 검색"]
+    },
+    {
+      "candidateId": "cand-cho-baek-hyeon",
+      "name": "조백현",
+      "aliases": ["趙伯顯", "화농"],
+      "lifespan": {"born": "1900", "died": "1994"},
+      "classification": ["expert-public-committee-actor", "agricultural-scientist"],
+      "roles": [
+        {"title":"중앙농지위원","date":"1950-03-24","status":"confirmed-secondary-reference-to-commission"},
+        {"title":"서울대학교 농과대학 학장","from":"1946","status":"confirmed-biographical"}
+      ],
+      "connections": [{"eventId":"evt-1949-farmland-reform","relation":"1950 시행단계 중앙농지위원으로 전문지식 자문망에 참여","status":"confirmed-at-membership-level; individual position unknown"}],
+      "evidence": [
+        {"source":"한국민족문화대백과사전 농지위원회","url":"https://encykorea.aks.ac.kr/Article/E0080665","accessed":"2026-09-20","supports":"중앙농지위원 명단에 趙伯顯 수록"},
+        {"source":"한국민족문화대백과사전 조백현","url":"https://encykorea.aks.ac.kr/Article/E0051782","accessed":"2026-09-20","supports":"조백현 신원과 농학자 경력"}
+      ],
+      "scopeRule":"정치인으로 자동 승격하지 않는다. 공적 위원회에서 정책 형성·심의에 참여한 전문가 행위자 노드로 보존하고, 후속 정치·공직 이력이 확인될 때 registry 승격 여부를 판단한다.",
+      "openLeads":["제1차 중앙농지위원회 회의록에서 조백현 발언·제안 확인","위촉 당시 추천 근거와 전문위원 성격 확인"]
     }
   ]
 }
