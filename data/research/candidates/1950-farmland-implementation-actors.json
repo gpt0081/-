@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-09-20",
+  "scope": "1950 farmland-reform implementation actors discovered from the Rhee backbone",
+  "candidates": [
+    {
+      "candidateId": "cand-joo-seok-gyun",
+      "name": "주석균",
+      "aliases": ["朱碩均", "남정", "朱村碩均"],
+      "lifespan": {"born": "1903-02-27", "died": "1981-01"},
+      "classification": ["senior-government-official", "policy-actor"],
+      "roles": [
+        {"title": "중앙농지위원", "date": "1950-03-24", "status": "confirmed-secondary-reference-to-commission"},
+        {"title": "농림부차관", "from": "1950-03", "to": "1950-12", "status": "partly-official-record-confirmed"}
+      ],
+      "connections": [
+        {"eventId": "evt-1949-farmland-reform", "relation": "1950 시행단계 중앙농지위원 및 농림부차관", "status": "confirmed-at-role-level"}
+      ],
+      "evidence": [
+        {"source": "한국민족문화대백과사전 농지위원회", "url": "https://encykorea.aks.ac.kr/Article/E0080665", "accessed": "2026-09-20", "supports": "1950-03-24 중앙농지위원회 첫 회의와 주석균 위원 명단"},
+        {"source": "한국민족문화대백과사전 주석균", "url": "https://encykorea.aks.ac.kr/Article/E0053310", "accessed": "2026-09-20", "supports": "주석균 신원, 농림부차관 및 장기 농업정책 활동"},
+        {"source": "대통령기록물 해설집 I", "recordId": "AA0000768", "accessed": "2026-09-20", "supports": "1950-12-10 농림부차관 해면 상신의 건(주석균) 기록 표적"}
+      ],
+      "openLeads": ["AA0000768 원문 결재면 확보", "대응 임명 상신·임명 기록으로 정확한 취임일 확정", "1950-03-24 중앙농지위원회 위촉문·회의록에서 발언과 의결 분리"]
+    },
+    {
+      "candidateId": "cand-hong-heon-pyo",
+      "name": "홍헌표",
+      "aliases": ["洪憲杓", "Hong Heon-pyo"],
+      "lifespan": {"born": "1906-08-23", "died": "1966-04-20"},
+      "classification": ["senior-government-official", "later-minister", "party-actor"],
+      "roles": [
+        {"title": "중앙농지위원", "date": "1950-03-24", "status": "name-and-hanja-match; appointment-original-needed"},
+        {"title": "내무부차관", "status": "confirmed-biographical"},
+        {"title": "체신부장관", "from": "1963-12", "to": "1964-07", "status": "confirmed-biographical"},
+        {"title": "민주공화당 서울시당 부위원장", "from": "1963", "status": "confirmed-biographical"}
+      ],
+      "connections": [
+        {"eventId": "evt-1949-farmland-reform", "relation": "1950-03-24 중앙농지위원 명단의 洪憲杓", "status": "strong-identity-match; original-appointment-needed"}
+      ],
+      "evidence": [
+        {"source": "한국민족문화대백과사전 농지위원회", "url": "https://encykorea.aks.ac.kr/Article/E0080665", "accessed": "2026-09-20", "supports": "중앙농지위원 명단에 洪憲杓 수록"},
+        {"source": "한국민족문화대백과사전 홍헌표", "url": "https://encykorea.aks.ac.kr/Article/E0074900", "accessed": "2026-09-20", "supports": "洪憲杓 신원과 내무부차관·민주공화당 서울시당 부위원장·체신부장관 경력"}
+      ],
+      "identityRule": "한자까지 일치하지만 중앙농지위원 위촉 원문에서 당시 직함을 확인하기 전까지 동일인 edge를 완전 확정하지 않는다.",
+      "openLeads": ["1950-03-24 중앙농지위원 위촉문에서 洪憲杓 직함·소속 확인", "내무부차관 임명기록과 중앙농지위원 재임 시기 교차대조"]
+    },
+    {
+      "candidateId": "cand-kang-jeong-tak-unresolved",
+      "name": "강정탁",
+      "aliases": ["강정탁"],
+      "classification": ["identity-unresolved"],
+      "connections": [{"eventId": "evt-1949-farmland-reform", "relation": "1950-03-24 중앙농지위원 명단", "status": "name-only"}],
+      "identityConflict": {"status": "OPEN", "issue": "위원 명단의 강정탁이 기존 농림부차관 강정택(姜鋌澤)의 오기인지 별인인지 미확정", "rule": "이름 유사성만으로 cand-kang-jeong-taek과 병합하지 않는다."},
+      "openLeads": ["중앙농지위원 위촉 원문에서 한자명·직함 확인", "1950년 관보·농림부 인사명부에서 강정탁 독립 인물 존재 여부 검색"]
+    }
+  ]
+}
