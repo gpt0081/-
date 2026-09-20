@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "candidateId": "cand-an-ho-sang-1902",
+  "proposedStableId": "pol-an-ho-sang",
+  "name": "안호상",
+  "aliases": ["安浩相", "An Ho-sang", "Ahn Ho-sang"],
+  "birthYear": 1902,
+  "classification": ["politician", "cabinet-minister", "legislator", "education-policy-actor"],
+  "researchStatus": "candidate-primary-source-linked",
+  "roles": [
+    {"title":"초대 문교부장관","period":"1948-08~1950-05","status":"cross-source-confirmed"},
+    {"title":"제5대 국회 참의원의원","district":"경상남도","party":"무소속","status":"official-biographical-db-confirmed"}
+  ],
+  "connections": [
+    {
+      "eventId":"evt-1948-1950-compulsory-education-foundation",
+      "relation":"정부수립 직후 초대 문교부장관으로 재임하면서 1948년 말 의무교육 완성 6개년계획 수립기와 1949년 교육법 제정·학제 논의기에 문교행정의 최고책임자였음",
+      "status":"institutional-role-confirmed; plan authorship and individual clause authorship not automatically attributed"
+    }
+  ],
+  "evidence": [
+    {
+      "source":"국사편찬위원회 근현대인물자료, 안호상(安浩相)",
+      "url":"https://db.history.go.kr/id/im_108_30066",
+      "accessed":"2026-09-20",
+      "supports":"1902년생, 초대 문교부장관, 제5대 국회 참의원의원 경력"
+    },
+    {
+      "source":"국사편찬위원회 자료대한민국사, 1948-10-15 서울신문 교육좌담회",
+      "url":"https://db.history.go.kr/id/dh_008_1948_10_15_0010",
+      "accessed":"2026-09-20",
+      "supports":"현직 문교부장관 안호상의 교육이념·학제 관련 당사자 발언과 문교부 편수국장 손진태 등 정책 네트워크"
+    },
+    {
+      "source":"국사편찬위원회 자료대한민국사, 1948-12-01 문교부 의무교육 완성 6개년계획",
+      "url":"https://db.history.go.kr/contemp/level.do?levelId=dh_009_1948_12_01_0130",
+      "accessed":"2026-09-20",
+      "supports":"문교부가 1948년 12월 의무교육 완성 6개년계획을 수립했으며, 해방 이후 기존 의무교육 추진과 재정·시설·교원 제약을 명시"
+    },
+    {
+      "source":"국사편찬위원회 자료대한민국사, 제5회 국회속기록 제38호(1949-11-11)",
+      "url":"https://db.history.go.kr/contemp/level.do?levelId=dh_015_1949_11_11_0110",
+      "accessed":"2026-09-20",
+      "supports":"교육법 심의기 안호상 문교부장관의 국회 직접 발언을 원 속기록 출전과 함께 확인"
+    }
+  ],
+  "researchValue":"대통령 개인의 교육 업적 서술로 환원하지 않고, 제헌헌법의 교육권·문교부 행정계획·국회 교육법 심의·후일 입법정치 경력을 한 인물 노드에서 연결할 수 있다.",
+  "attributionGuardrail":"장관 재임과 문교부 계획은 제도적 책임 위치를 뜻한다. 의무교육 6개년계획의 세부 설계자, 교육법 개별 조문의 작성자, 1950-06-01 시행 결정의 개인 발신자를 안호상으로 자동 귀속하지 않는다.",
+  "openLeads": [
+    "1948-12 의무교육 완성 6개년계획의 결재문·작성부서·실무자 확인",
+    "1949 교육법 제정 과정에서 문교부안·이기붕 의원안·박희병 절충안의 조문별 차이와 안호상 발언 대조",
+    "1950-06-01 의무교육 시행의 문교부 시행문서·관보·지방 전달문 확보",
+    "손진태·오천석 등 교육정책 실무·전문가 노드를 정치인과 구별해 정책행위자 graph에 연결"
+  ]
+}
