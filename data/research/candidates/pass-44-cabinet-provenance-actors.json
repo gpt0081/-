@@ -1,0 +1,48 @@
+{
+  "pass": 44,
+  "date": "2026-09-21",
+  "theme": "Cho Bong-am cabinet remark provenance asymmetry and record-producer constraints",
+  "status_policy": "Preserve conflicting dates until original cabinet-record metadata resolves them. Record-producer chronology is a constraint, not by itself proof that a candidate date is false.",
+  "conflict_update": {
+    "conflict_id": "CONFLICT-CHO-CABINET-REMOVAL-DATE-001",
+    "status": "CONFLICTED_DATE_EVIDENCE_ASYMMETRY",
+    "date_candidates": ["1956-08-28", "1958-09-28"],
+    "candidate_1956": {
+      "provenance": "2007 Truth and Reconciliation Commission report p.1142 as re-cited by Minjok Institute / Pressian",
+      "original_cabinet_image": false,
+      "record_producer": "UNKNOWN_PENDING_ORIGINAL",
+      "open_lead": "Recover report footnote and National Archives cabinet-record identifier"
+    },
+    "candidate_1958": {
+      "provenance": "2025 Newshada/NewsTapa Together report explicitly presenting a National Archives image captioned 1958-09-28, 92nd Cabinet meeting",
+      "original_cabinet_image": "IMAGE_PRESENTED_BY_SECONDARY_PUBLISHER_NOT_YET_ARCHIVE_ID_VERIFIED",
+      "record_producer_candidate": "pol-shin-du-yeong",
+      "open_lead": "Recover National Archives management number, cover, meeting date and page"
+    },
+    "constraint": "Shin Doo-young became Cabinet Secretariat Director on 1957-06-28; therefore a 1956-08-28 record cannot be attributed to his later memorandum series.",
+    "canonical_date": null
+  },
+  "actors": [
+    {"candidate_id":"pol-shin-du-yeong","name_ko":"신두영","name_hanja":"申斗泳","name_en":"Shin Doo-young","birth":"1918-08-21","death":"1990-03-04","role":"국무원 사무국장; 1958년 이후 국무회의 비망록 핵심 기록생산자","research_status":"VERIFIED_RECORD_PRODUCER","evidence_coverage":["office chronology","cabinet memorandum provenance","Cho Bong-am cabinet remark conflict"],"open_lead":"국가기록원 제92회 관리번호·신두영 비망록 보존계보"},
+    {"candidate_id":"pol-yu-byeong-jin-judge","name_ko":"유병진","role":"진보당 사건 1심 재판장","research_status":"VERIFIED_EVENT_ROLE","evidence_coverage":["1958 first trial","court invasion aftermath"],"open_lead":"법관 인사카드·연임탈락 제청문서"},
+    {"candidate_id":"pol-lee-byeong-yong-judge","name_ko":"이병용","role":"진보당 사건 1심 판사","research_status":"VERIFIED_EVENT_ROLE","evidence_coverage":["1958 first trial"],"open_lead":"인사카드·공판조서 서명"},
+    {"candidate_id":"pol-bae-gi-ho-judge","name_ko":"배기호","role":"진보당 사건 1심 판사","research_status":"VERIFIED_EVENT_ROLE","evidence_coverage":["1958 first trial"],"open_lead":"인사카드·공판조서 서명"},
+    {"candidate_id":"pol-kim-yong-jin-judge","name_ko":"김용진","role":"진보당 사건 2심 재판장","research_status":"VERIFIED_EVENT_ROLE","evidence_coverage":["1958 second trial"],"open_lead":"2심 판결 정본"},
+    {"candidate_id":"pol-choe-bo-hyeon-judge","name_ko":"최보현","role":"진보당 사건 2심 판사","research_status":"VERIFIED_EVENT_ROLE","evidence_coverage":["1958 second trial"],"open_lead":"2심 판결 정본·인사카드"},
+    {"candidate_id":"pol-cho-gyu-dae-judge","name_ko":"조규대","role":"진보당 사건 2심 판사","research_status":"VERIFIED_EVENT_ROLE","evidence_coverage":["1958 second trial"],"open_lead":"2심 판결 정본·인사카드"},
+    {"candidate_id":"pol-jo-in-gu-prosecutor","name_ko":"조인구","role":"진보당 사건 1·2심 검사","research_status":"VERIFIED_EVENT_ROLE","evidence_coverage":["first trial","second trial"],"open_lead":"공소장·구형서·검사 인사카드"},
+    {"candidate_id":"pol-bang-jae-gi-prosecutor","name_ko":"방재기","role":"진보당 사건 2심 검사","research_status":"VERIFIED_EVENT_ROLE","evidence_coverage":["second trial"],"open_lead":"2심 구형서·검사 인사카드"},
+    {"candidate_id":"actor-yang-i-seop","name_ko":"양이섭","role":"피고인·핵심 자백 제공자·2심 번복자","research_status":"VERIFIED_EVENT_ROLE","evidence_coverage":["Army CIC investigation","first trial","second trial"],"open_lead":"2심 번복 공판회차·정확 문구·신문주체"},
+    {"candidate_id":"pol-hong-jin-gi","name_ko":"홍진기","name_hanja":"洪璡基","role":"법무부장관; 사건 관련 국무회의 법무행정 actor","research_status":"VERIFIED_CROSS_EVENT","evidence_coverage":["cabinet reporting","justice administration"],"open_lead":"1958-09~10 국무회의 법무보고 원문"},
+    {"candidate_id":"pol-rhee-syngman","name_ko":"이승만","name_hanja":"李承晩","role":"대통령; 조봉암 관련 국무회의 적대 발언 당사자","research_status":"ANNALS_ACTIVE","evidence_coverage":["cabinet remarks","political context"],"open_lead":"발언 날짜 원본확정과 직접 사법명령 여부를 분리 검증"}
+  ],
+  "document_objects": [
+    {"document_id":"doc-trck-2007-cho-bongam-p1142","date":"2007","organization":"진실·화해를위한과거사정리위원회","title":"진보당 조봉암 사건 조사보고서 관련 1142쪽","status":"IDENTIFIED_NOT_DIRECTLY_OPENED","purpose":"1956-08-28 날짜 계보의 원 각주 확인"},
+    {"document_id":"doc-cabinet-1956-08-28-r80","date":"1956-08-28","organization":"대한민국 국무회의","status":"TARGET_CONFLICTED_METADATA","purpose":"1956 후보 원문·작성자 검증"},
+    {"document_id":"doc-cabinet-1958-09-28-r92-candidate","date":"1958-09-28","organization":"대한민국 국무회의","status":"IMAGE_SECONDARY_PRESENTATION_ARCHIVE_ID_PENDING","purpose":"1958 후보 원문·회차·관리번호 검증"},
+    {"document_id":"doc-na-progressive-party-record-overview","organization":"국가기록원","status":"DIRECTLY_OPENED","purpose":"서울시경·특무부대·서울지검 기록군 분리"},
+    {"document_id":"doc-na-progressive-party-first-trial-overview","date":"1958","organization":"국가기록원","status":"DIRECTLY_OPENED","purpose":"1심 21회 및 법관·검사 actor 확인"},
+    {"document_id":"doc-na-progressive-party-second-trial-r13-r14","date":"1958-10-22","organization":"국가기록원","status":"DIRECTLY_OPENED","purpose":"2심 법관·검사 actor 확인"},
+    {"document_id":"doc-na-progressive-party-prison-note","date":"1958-04","organization":"국가기록원","status":"DIRECTLY_OPENED","purpose":"옥중쪽지 증거역할 변화 확인"}
+  ]
+}
