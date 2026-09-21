@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "pass": 45,
+  "updatedAt": "2026-09-21",
+  "scope": "1958-1960 산업개발위원회·경제개발3개년계획 actor graph",
+  "candidates": [
+    {
+      "candidateId": "pol-shin-hyun-hwak",
+      "name": "신현확",
+      "aliases": ["申鉉碻", "Shin Hyun-hwak"],
+      "lifespan": {"born": "1920-10-29", "died": "2007-04-26", "verification": "한국민족문화대백과사전"},
+      "roles": ["부흥부 차관", "부흥부 장관", "후일 국무총리"],
+      "periodRoles": [
+        {"period": "1957-1959", "role": "부흥부 차관"},
+        {"period": "1959-1960", "role": "부흥부 장관"}
+      ],
+      "eventConnections": ["evt-1959-economic-plan-draft", "evt-1960-economic-plan-sector-revision", "evt-1960-economic-plan-cabinet-adoption"],
+      "actionTypes": ["administrative_responsibility", "cabinet_member", "economic_planning"],
+      "researchStatus": "VERIFIED",
+      "evidenceCoverage": "basic identity and cabinet role verified; direct plan edits/remarks open",
+      "openLeads": ["부흥부장관 취임 관보 원문", "BA0085193 결재선·발언", "신두영 비망록 제37회 대조"],
+      "sources": ["https://encykorea.aks.ac.kr/Article/E0073409"]
+    },
+    {
+      "candidateId": "pol-ju-won-1909",
+      "name": "주원",
+      "aliases": ["朱源", "Ju Won", "Joo Won"],
+      "lifespan": {"born": "1909", "died": "1988", "verification": "한국민족문화대백과사전"},
+      "roles": ["산업개발위원회 종합분과 전문위원", "부흥산업개발계획위원회 위원장서리", "후일 건설부 장관"],
+      "eventConnections": ["evt-1958-1959-economic-plan-statistical-survey", "evt-1959-economic-plan-draft", "evt-1960-economic-plan-cabinet-adoption"],
+      "actionTypes": ["plan_drafting", "coordination", "economic_planning"],
+      "researchStatus": "VERIFIED",
+      "evidenceCoverage": "identity and later committee leadership verified; exact 1958 appointment instrument open",
+      "openLeads": ["종합분과 임명문", "1959~61 위원장서리 임명문", "3개년계획 본문 기여 확인"],
+      "sources": ["https://encykorea.aks.ac.kr/Article/E0053376", "https://db.history.go.kr/id/kn_084_0080_0030_0020"]
+    },
+    {
+      "candidateId": "pol-lee-myeon-seok-edc",
+      "name": "이면석",
+      "aliases": ["李冕錫", "Lee Myeon-seok"],
+      "roles": ["산업개발위원회 재정금융분과 전문위원"],
+      "eventConnections": ["evt-1958-1959-economic-plan-statistical-survey", "evt-1959-economic-plan-draft"],
+      "actionTypes": ["finance_planning", "plan_drafting"],
+      "researchStatus": "IDENTIFIED",
+      "evidenceCoverage": "name/hanja/committee role verified in historiographical source; lifespan and base office open",
+      "openLeads": ["생몰 확인", "1958 본직 확인", "재정금융분과 임명 원문", "외자·투자 재원 수정 기여 확인"],
+      "sources": ["https://db.history.go.kr/id/kn_084_0080_0030_0020"]
+    },
+    {
+      "candidateId": "pol-park-dong-ang-edc",
+      "name": "박동앙",
+      "aliases": ["朴東昻", "Park Dong-ang"],
+      "roles": ["산업개발위원회 농수산분과 전문위원", "1966 농림부장관 후보 동일인"],
+      "eventConnections": ["evt-1958-1959-economic-plan-statistical-survey", "evt-1959-economic-plan-draft", "evt-1960-economic-plan-sector-revision"],
+      "actionTypes": ["agriculture_planning", "plan_drafting"],
+      "researchStatus": "IDENTIFIED",
+      "evidenceCoverage": "committee role and 1966 minister-name match verified separately; identity linkage open",
+      "openLeads": ["1966 농림부장관과 동일인 검증", "생몰·영문표기", "사방·농업계획 기여 확인"],
+      "sources": ["https://db.history.go.kr/id/kn_084_0080_0030_0020", "https://db.history.go.kr/id/tcct_1966_02_22_0010"]
+    },
+    {
+      "candidateId": "pol-hwang-byeong-jun-edc",
+      "name": "황병준",
+      "aliases": ["黃炳晙", "Hwang Byeong-jun"],
+      "roles": ["산업개발위원회 광공업분과 전문위원", "1959 경제계획·산업통계 논설 필자 후보"],
+      "eventConnections": ["evt-1958-1959-economic-plan-statistical-survey", "evt-1959-economic-plan-draft", "evt-1960-economic-plan-sector-revision"],
+      "actionTypes": ["industry_planning", "statistics", "plan_drafting"],
+      "researchStatus": "IDENTIFIED",
+      "evidenceCoverage": "committee role verified; contemporaneous newspaper author name match found, identity linkage open",
+      "openLeads": ["동아일보 1959-05-14 원문 판독", "생몰·본직 확인", "전력·광공업 투자계획 기여 확인"],
+      "sources": ["https://db.history.go.kr/id/kn_084_0080_0030_0020", "https://db.history.go.kr/modern/level.do?levelId=npda_1959_05_14_x0001_0660"]
+    },
+    {
+      "candidateId": "pol-an-rim-edc",
+      "name": "안림",
+      "aliases": ["安霖", "An Rim"],
+      "roles": ["산업개발위원회 상역분과 전문위원"],
+      "eventConnections": ["evt-1958-1959-economic-plan-statistical-survey", "evt-1959-economic-plan-draft", "evt-1960-economic-plan-sector-revision"],
+      "actionTypes": ["trade_planning", "balance_of_payments", "plan_drafting"],
+      "researchStatus": "IDENTIFIED",
+      "evidenceCoverage": "name/hanja/committee role verified; identity metadata open",
+      "openLeads": ["생몰·본직·영문표기", "상역분과 임명문", "미곡수출·국제수지 대안 작성 기여 확인"],
+      "sources": ["https://db.history.go.kr/id/kn_084_0080_0030_0020"]
+    },
+    {
+      "candidateId": "pol-song-in-sang",
+      "name": "송인상",
+      "aliases": ["宋仁相", "Song In-sang"],
+      "lifespan": {"born": "1914", "died": "2015"},
+      "roles": ["부흥부 장관", "산업개발위원회 위원장", "재무부 장관"],
+      "eventConnections": ["evt-1958-industrial-development-committee-cabinet", "evt-1958-industrial-development-committee-start", "evt-1959-economic-plan-draft"],
+      "actionTypes": ["institution_building", "economic_planning", "aid_coordination"],
+      "researchStatus": "VERIFIED",
+      "evidenceCoverage": "registry node exists; biography and committee chair role strengthened",
+      "openLeads": ["위원회 설치 건의 원문", "대통령 보고 기록", "오리건대 계약 결재문"],
+      "sources": ["https://encykorea.aks.ac.kr/Article/E0081269", "https://db.history.go.kr/id/kn_084_0080_0030_0020"]
+    },
+    {
+      "candidateId": "foreign-lowell-chawner",
+      "name": "Lowell Chawner",
+      "aliases": ["쵸나", "Chawner"],
+      "roles": ["주한 유엔군사령부 경제조정관 대리", "산업개발위원회 자문역"],
+      "eventConnections": ["evt-1958-industrial-development-committee-start"],
+      "actionTypes": ["foreign_advice", "aid_coordination"],
+      "researchStatus": "IDENTIFIED_FOREIGN_ADVISER",
+      "evidenceCoverage": "role reported by AKS; U.S. primary record open",
+      "openLeads": ["정확한 full name·직함", "NARA/UNC 임명·파견문", "위원회 회의 참여 기록"],
+      "sources": ["https://encykorea.aks.ac.kr/Article/E0073418"]
+    },
+    {
+      "candidateId": "foreign-william-e-warne",
+      "name": "William E. Warne",
+      "aliases": ["윌리엄 E. 원", "William Warne"],
+      "roles": ["경제조정관"],
+      "periodRoles": [{"period": "1956-1959-07", "role": "경제조정관"}],
+      "eventConnections": ["evt-1958-industrial-development-committee-cabinet", "evt-1958-industrial-development-committee-start"],
+      "actionTypes": ["foreign_aid_coordination"],
+      "researchStatus": "IDENTIFIED_FOREIGN_OFFICIAL",
+      "evidenceCoverage": "official Korean ODA history verifies tenure; committee-specific role open",
+      "openLeads": ["한미합동경제위원회 설치 협의록", "RG469 산업개발위원회 관련 전문"],
+      "sources": ["https://odakorea.go.kr/kor/cont/ContShow?cont_seq=25"]
+    },
+    {
+      "candidateId": "pol-shin-doo-young",
+      "name": "신두영",
+      "aliases": ["申斗泳", "Shin Doo-young"],
+      "roles": ["국무원 사무국장", "국무회의 비망록 기록생산자"],
+      "eventConnections": ["evt-1960-economic-plan-cabinet-adoption"],
+      "actionTypes": ["record_production", "cabinet_administration"],
+      "researchStatus": "VERIFIED_RECORD_PRODUCER",
+      "evidenceCoverage": "Pass 44 identity/tenure verified; BG0002258 spans the 1960-04-15 37th meeting",
+      "openLeads": ["제37회 비망록 경제개발계획 발언 직접 판독"],
+      "sources": ["https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200400011256&rc_ritem_no=000000000001&sitePage=0-0-0"]
+    }
+  ]
+}
