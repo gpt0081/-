@@ -1,0 +1,77 @@
+{
+  "pass": 73,
+  "accessDate": "2026-09-22",
+  "focus": "Korean-side archival chain for 1953 UN and political-conference diplomacy",
+  "koreanPoliticianUpdates": [
+    {
+      "id": "cand-limb-ben",
+      "nameKo": "임병직",
+      "nameHanja": "林炳稷",
+      "nameEn": "Ben C. Limb / Yim Byeong-jik / Yim Pyong-jik",
+      "statusBefore": "IDENTIFIED",
+      "statusProposed": "VERIFIED",
+      "promotionReason": "Multiple dated NIKH archival records identify Limb as sender/recipient across Asian-Arab UN lobbying, UNGA Korea reporting, Soviet participation opposition, India/conference-composition reporting, and later UN agenda activity in 1953.",
+      "rolesPeriod": [
+        {"period":"1953","role":"Republic of Korea representative/observer in United Nations diplomacy","verification":"archival correspondence chain; exact formal title still to normalize against appointment record"}
+      ],
+      "eventLinks": [
+        "EVT-KOREA-1953-07-01-LIMB-ASIAN-ARAB-LOBBY",
+        "EVT-KOREA-1953-07-22-LIMB-UNGA-KOREA-REPORT",
+        "EVT-KOREA-1953-09-22-LIMB-OPPOSES-SOVIET-PARTICIPATION",
+        "EVT-KOREA-1953-09-30-RHEE-INSTRUCTION-TO-LIMB-UK-CONFERENCE",
+        "EVT-KOREA-1953-10-06-LIMB-REPORT-INDIA-CONFERENCE",
+        "EVT-KOREA-1953-11-11-LIMB-UNGA-ATROCITIES-AGENDA"
+      ],
+      "evidence": ["NIKH-le-005-2150","NIKH-le-005-3300","NIKH-le-005-3310","NIKH-le-005-index-1953"],
+      "openLeads": [
+        "Retrieve full original images/text for 1953-07-22, 09-22, 09-30, 10-06 and 11-11 records.",
+        "Verify Limb's exact formal ROK/UN title and appointment dates in official personnel/foreign ministry records.",
+        "Locate ROK Observer Mission outgoing cables to separate Limb reporting from Seoul-origin instructions."
+      ]
+    },
+    {
+      "id": "pol-pyun-yongtae",
+      "nameKo": "변영태",
+      "nameHanja": "卞榮泰",
+      "nameEn": "Pyun Yung-tai",
+      "status": "VERIFIED",
+      "finding": "NIKH le_005_3180 links Pyun to a 1953-09-02 conference-position advisory network but does not prove authorship; Foreign Ministry outgoing instructions remain required.",
+      "openLeads": ["Foreign Ministry outgoing instructions to UN mission, Aug-Sep 1953","Cabinet/Foreign Ministry approval trail for conference composition policy"]
+    },
+    {
+      "id": "pol-yang-yoo-chan",
+      "nameKo": "양유찬",
+      "nameHanja": "梁裕燦",
+      "nameEn": "You Chan Yang / Yang You-chan",
+      "status": "VERIFIED",
+      "finding": "Rhee addressed Yang directly on 1953-12-02 opposing India and other proposed conference participants; le_005_3180 also indexes Yang in the September conference-position network.",
+      "eventLinks": ["EVT-KOREA-1953-12-02-RHEE-YANG-CONFERENCE-PARTICIPANTS"],
+      "openLeads": ["Retrieve Yang's reply and Washington Embassy cable traffic after 1953-12-02"]
+    },
+    {
+      "id": "pol-rhee-syngman",
+      "status": "ANNALS_ACTIVE",
+      "finding": "Korean archival metadata now establishes a direct Rhee↔Limb and Rhee→Yang correspondence chain on conference composition, but exact presidential authorship of all mission positions remains unproven.",
+      "openLeads": ["Full images of 9/30 and 12/2 letters","Foreign Ministry transmission/implementation records"]
+    }
+  ],
+  "externalOrNonPoliticianActors": [
+    {"id":"ext-robert-t-oliver","name":"Robert T. Oliver","type":"advisor/publicist","relation":"1953-09-02 conference-position advice; not a Korean politician node"},
+    {"id":"ext-henry-cabot-lodge-jr","name":"Henry Cabot Lodge Jr.","type":"US diplomat","relation":"indexed in Limb 1953-10-06 report"},
+    {"id":"ext-john-foster-dulles","name":"John Foster Dulles","type":"US Secretary of State","relation":"conference-composition correspondence and 1953-12-01 thanks"}
+  ],
+  "documents": [
+    {"id":"NIKH-le-005-2150","date":"1953-07-01","sender":"cand-limb-ben","recipient":"pol-rhee-syngman","title":"아시아-아랍권 대표들 접촉, 한국 지지 호소","status":"VERIFIED_METADATA","provenance":"NIKH 이승만서한철"},
+    {"id":"NIKH-le-005-3180","date":"1953-09-02","sender":"ext-robert-t-oliver","recipient":"Rhee couple","title":"정치회담에 대한 한국정부의 입장 건의","status":"VERIFIED_METADATA","provenance":"NIKH 이승만서한철"},
+    {"id":"NIKH-le-005-3300","date":"1953-09-30","sender":"pol-rhee-syngman","recipient":"cand-limb-ben","title":"정치회담 참가국 선정 관련, 영국 비난","status":"VERIFIED_METADATA","provenance":"NIKH 이승만서한철"},
+    {"id":"NIKH-le-005-3310","date":"1953-10-06","sender":"cand-limb-ben","recipient":"pol-rhee-syngman","title":"인도의 정치회담 참가국 선정 관련","status":"VERIFIED_METADATA","provenance":"NIKH 이승만서한철"},
+    {"id":"NIKH-le-005-3420","date":"1953-12-02","sender":"pol-rhee-syngman","recipient":"pol-yang-yoo-chan","title":"인도 등 정치회담 참가국 선정 반대","status":"VERIFIED_METADATA","provenance":"NIKH 이승만서한철"},
+    {"id":"NIKH-le-005-1720","date":"1953-06-10","sender":"cand-limb-ben","recipient":"pol-rhee-syngman","title":"미국의 새로운 휴전 제안 반대 성명 발표 요청","status":"VERIFIED_METADATA","provenance":"NIKH 이승만서한철"},
+    {"id":"NIKH-le-005-0420","date":"1953-03-19","sender":"pol-rhee-syngman","recipient":"cand-limb-ben","title":"인도 중재안 비판","status":"VERIFIED_METADATA","provenance":"NIKH 이승만서한철"}
+  ],
+  "claims": [
+    {"id":"CLM-1953-LIMB-ONLY-PASSIVE-UN-OBSERVER","status":"CONTRADICTED","finding":"Dated Korean archival correspondence shows Limb lobbying Asian-Arab UN delegates and reporting/arguing conference-composition positions."},
+    {"id":"CLM-1953-RHEE-UN-POSITION-AUTOMATICALLY-EQUALS-LIMB-ACTIONS","status":"INSUFFICIENT","finding":"Direct correspondence exists, but each mission action still requires instruction/report provenance."},
+    {"id":"CLM-1953-CONFERENCE-COMPOSITION-DISPUTE-ENDED-ON-1953-08-28","status":"CONTRADICTED","finding":"Korean archival chain continues through September, October, November and December 1953."}
+  ]
+}
