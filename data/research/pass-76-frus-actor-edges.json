@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "pass": 76,
+  "date": "2026-09-22",
+  "provenanceFamily": "US Department of State, FRUS 1952-1954 Korea Vol. XV",
+  "rule": "These edges distinguish participant status, reported statements, observer assessments, suggestions, and operational status. They must not be collapsed into presidential orders or private motives.",
+  "actors": [
+    {"politicianId":"pol-paik-too-chin","name":"백두진","status":"deepened","evidence":["FRUS XV/2 d611","FRUS XV/2 d679","FRUS XV/2 d691","FRUS XV/2 d734"],"relations":["meeting_participant","suggested_meeting_arrangement"],"openLead":"Separate prime-minister, economic-policy, and advisory capacities event by event."},
+    {"politicianId":"pol-yang-you-chan","name":"양유찬","status":"deepened","evidence":["FRUS XV/2 d611","FRUS XV/2 d727"],"relations":["meeting_participant","reported_self_description"],"openLead":"Recover Korean-origin cable/papers corroborating reported attempts to moderate Pyun."},
+    {"politicianId":"pol-pyun-yung-tai","name":"변영태","status":"deepened","evidence":["FRUS XV/2 d691","FRUS XV/2 d703","FRUS XV/2 d727","FRUS XV/2 d734"],"relations":["meeting_participant","subject_of_observer_assessment"],"openLead":"Find Korean-origin records before coding influence or motive."},
+    {"politicianId":"pol-choi-duk-shin","name":"최덕신","status":"deepened","evidence":["FRUS XV/1 d578"],"relations":["delegate_status","boycott","recalled_by_unknown_authority"],"openLead":"Recover CINCUNC C 62874 and Korean recall instrument; do not attribute recall to Rhee without it."},
+    {"candidateId":"cand-cho-chung-whan-frus","name":"Cho Chung Whan","status":"identity-crosscheck-required","evidence":["FRUS XV/2 index pp. 1521-1522, 1528-1529, 1559, 1651, 1689, 1812, 1867"],"relations":["indexed_person"],"openLead":"Prove identity mapping to Cho Chong-hwan/曺正煥 with official Korean personnel record."},
+    {"candidateId":"cand-sohn-defense-minister-1953","name":"Sohn","status":"discovered","evidence":["FRUS XV/2 d734"],"relations":["meeting_participant","defense_minister_title_in_source"],"openLead":"Normalize full Korean name, Hanja, lifespan and exact defense-minister term from official personnel record."},
+    {"candidateId":"cand-minister-kim-1953-dulles","name":"Minister Kim","status":"discovered-unresolved","evidence":["FRUS XV/2 d734"],"relations":["meeting_participant"],"openLead":"Identify which Korean minister 'Kim' attended the 5 August 1953 Dulles-Rhee meeting."}
+  ],
+  "subEvents": [
+    {"id":"evt-1953-0618-washington-pow-response","date":"1953-06-18","type":"diplomatic_meeting","participants":["pol-paik-too-chin","pol-yang-you-chan"],"observedBy":"US diplomatic memorandum","source":"FRUS XV/2 d611"},
+    {"id":"evt-1953-0607-choi-armistice-recall","date":"1953-06-07","type":"personnel_operational_change","participant":"pol-choi-duk-shin","decidedBy":null,"executedBy":null,"source":"FRUS XV/1 d578","underlyingDocument":"CINCUNC to JCS C 62874","uncertainty":"Korean recall authority/order not yet recovered"},
+    {"id":"evt-1953-0709-paik-robertson-meeting-advice","date":"1953-07-09","type":"diplomatic_coordination","suggestedBy":"pol-paik-too-chin","action":"Robertson see Rhee alone; source reports Paik inferred Pyun should not be present","source":"FRUS XV/2 d679"},
+    {"id":"evt-1953-0711-rhee-robertson-meeting","date":"1953-07-11","type":"diplomatic_meeting","participants":["pol-rhee-syngman","pol-paik-too-chin","pol-pyun-yung-tai"],"source":"FRUS XV/2 d691"},
+    {"id":"evt-1953-0729-yang-robertson-pyun-conversation","date":"1953-07-29","type":"diplomatic_conversation","participants":["pol-yang-you-chan"],"subject":"pol-pyun-yung-tai","source":"FRUS XV/2 d727","uncertainty":"Statements and assessments are mediated through a U.S.-authored memorandum"},
+    {"id":"evt-1953-0805-dulles-rhee-general-meeting","date":"1953-08-05","type":"diplomatic_meeting","participants":["pol-rhee-syngman","pol-paik-too-chin","pol-pyun-yung-tai","cand-sohn-defense-minister-1953","cand-minister-kim-1953-dulles"],"source":"FRUS XV/2 d734","separateFrom":"FRUS XV/2 d735 private Rhee-Dulles conversation"}
+  ]
+}
