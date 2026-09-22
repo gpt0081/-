@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "pass": 85,
+  "date": "2026-09-23",
+  "scope": "KIB liquidation governance phases, KDB establishment authority, and actor chronology",
+  "actors": [
+    {
+      "proposedPoliticianId": "pol-gu-yong-seo",
+      "name": "구용서",
+      "aliases": ["具鎔書", "Gu Yong-seo"],
+      "status": "VERIFIED",
+      "roles": [{"office": "한국산업은행 총재", "term": "1954 onward; exact appointment instrument/date open"}],
+      "eventLinks": ["evt-1954-0401-kib-property-transaction"],
+      "evidence": ["Pass 84 official biography chain", "Decree 859 phase analysis"],
+      "openLead": "Do not back-project post-1960 statutory liquidator office to 1954; recover contemporary appointment/property instruments."
+    },
+    {
+      "candidateId": "cand-im-song-bon",
+      "name": "임송본",
+      "aliases": ["林松本", "Im Song-bon", "Lim Song-bon"],
+      "birth": "1905",
+      "death": "1983",
+      "status": "IDENTIFIED",
+      "roles": [
+        {"office": "한국식산은행장", "term": "confirmed as career role; exact start/end primary verification pending"},
+        {"office": "한국은행 수석부총재", "term": "1950-1954 per AKS biography"},
+        {"office": "대한석탄공사 총재", "term": "1955 per AKS biography; exact appointment date open"}
+      ],
+      "eventLinks": ["evt-1954-kib-dissolution-day"],
+      "evidence": ["Academy of Korean Studies Encyclopedia biography", "Maeil Business 1967 profile"],
+      "openLead": "Recover KIB president appointment/resignation instruments and 1954 executive roster; do not identify him with redacted Hong."
+    },
+    {
+      "candidateRoleId": "cand-kib-representative-liquidator-choi-1954",
+      "name": "한국식산은행 대표 청산인 최ㅇㅇ",
+      "status": "DISCOVERED",
+      "eventLinks": ["evt-1954-kib-extraordinary-shareholders-liquidator-selection", "evt-1954-0401-kib-property-transaction", "evt-1954-0722-kib-property-appraisal-request"],
+      "evidence": ["NAK official guide from Pass 84", "Decree 859 Article 4 shareholder-selection mechanism"],
+      "openLead": "Recover extraordinary shareholders-meeting resolution and registry filing to identify full name and representative authority."
+    },
+    {
+      "candidateId": "cand-yu-wan-chang",
+      "name": "유완창",
+      "aliases": ["兪莞昌", "Yu Wan-chang", "Ryu Wan-chang"],
+      "status": "IDENTIFIED",
+      "roles": [{"office": "한국식산은행 청산위원회 위원장", "term": "phase/date unresolved; secondary locator only"}],
+      "eventLinks": ["evt-1954-kib-liquidator-assumption", "evt-1960-kib-liquidation-committee-reconstitution"],
+      "evidence": ["secondary biographical locator", "Decree 859 legal-phase analysis"],
+      "openLead": "Determine exact chairmanship phase and legal basis before promotion."
+    },
+    {
+      "candidateRoleId": "cand-kib-head-hong-1954",
+      "name": "한국식산은행 두취/책임자 홍ㅇㅇ",
+      "status": "DISCOVERED",
+      "eventLinks": ["evt-1954-0401-kib-property-transaction"],
+      "evidence": ["NAK official guide from Pass 84"],
+      "openLead": "Recover original instrument and KIB executive roster; known Im Song-bon presidency evidence does not justify overriding the redacted Hong surname."
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-1954-kdb-establishment-committee-formation",
+      "date": "1954-01-18 onward",
+      "legalAuthority": ["Presidential Decree No.860 Articles 2-3"],
+      "decidedBy": ["minister-of-finance"],
+      "effect": "Nine establishment commissioners form committee; Finance Minister commissions one chair; office located inside KIB.",
+      "status": "PRIMARY_LAW_CONFIRMED_MEMBER_NAMES_OPEN"
+    },
+    {
+      "id": "evt-1954-kib-dissolution-day",
+      "date": "KDB establishment date",
+      "legalAuthority": ["Decree 859 Article 2"],
+      "effect": "KIB dissolves on KDB establishment day, not on decree promulgation day.",
+      "status": "PRIMARY_LAW_CONFIRMED"
+    },
+    {
+      "id": "evt-1954-kib-extraordinary-shareholders-liquidator-selection",
+      "date": "within 10 days after dissolution",
+      "legalAuthority": ["Decree 859 Article 4"],
+      "proposedBy": ["kib-president"],
+      "decidedBy": ["kib-extraordinary-shareholders-meeting"],
+      "effect": "Meeting must be convened to recommend/select liquidator(s).",
+      "status": "PRIMARY_LAW_CONFIRMED_ACTUAL_MINUTES_OPEN"
+    },
+    {
+      "id": "evt-1954-kib-liquidator-assumption",
+      "date": "1954",
+      "executedBy": ["cand-kib-representative-liquidator-choi-1954"],
+      "status": "OFFICIAL_ARCHIVE_ROLE_CONFIRMED_FULL_ROSTER_OPEN"
+    },
+    {
+      "id": "evt-1959-kib-liquidation-decree-amendment",
+      "date": "1959-04-01",
+      "legalAuthority": ["Presidential Decree No.1473"],
+      "status": "AMENDMENT_EXISTENCE_CONFIRMED_EXACT_CHANGE_OPEN"
+    },
+    {
+      "id": "evt-1960-1129-kib-liquidation-governance-rewrite",
+      "date": "1960-11-29",
+      "legalAuthority": ["Cabinet Ordinance No.109"],
+      "effect": "Article 3 wholly revised.",
+      "status": "PRIMARY_LAW_HISTORY_CONFIRMED"
+    },
+    {
+      "id": "evt-1960-kdb-governor-statutory-liquidator",
+      "date": "1960-11-29 onward",
+      "legalAuthority": ["revised Decree 859 Article 3(1)"],
+      "executedBy": ["kdb-governor"],
+      "status": "PRIMARY_LAW_CONFIRMED"
+    },
+    {
+      "id": "evt-1960-kib-liquidation-committee-reconstitution",
+      "date": "1960-11-29 onward",
+      "legalAuthority": ["revised Decree 859 Article 3(2)-(4)"],
+      "decidedBy": ["kdb-governor-as-chair", "specified-government-and-bank-officials"],
+      "status": "PRIMARY_LAW_CONFIRMED_LATER_COMPOSITION_AMENDED_1962_1963"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-gu-yong-seo-automatic-kib-liquidator-1954",
+      "claim": "Gu Yong-seo automatically became KIB liquidator in 1954 because the KDB governor was statutory liquidator.",
+      "contradictingEvidence": ["The KDB-governor-as-liquidator clause is in Article 3 marked wholly revised 1960-11-29", "Article 4 preserves a shareholder-meeting mechanism for selecting/recommending liquidators"],
+      "status": "ANACHRONISTIC_FORMULATION_REJECTED"
+    },
+    {
+      "id": "claim-kib-liquidation-governance-static-1954-1963",
+      "claim": "KIB liquidation had one unchanged governance structure from 1954 through 1963.",
+      "contradictingEvidence": ["1959 amendment", "1960 wholesale Article 3 revision", "1962/1963 later amendments shown in law history"],
+      "status": "CONTRADICTED"
+    },
+    {
+      "id": "claim-im-song-bon-is-redacted-hong-1954",
+      "claim": "Im Song-bon is the redacted Hong KIB head in the April 1954 archive description.",
+      "supportingEvidence": ["AKS and 1967 Maeil Business sources confirm Im served as KIB president"],
+      "contradictingEvidence": ["NAK guide redacts the April role with surname Hong, not Im"],
+      "insufficientEvidence": ["exact Im term and original April instrument not recovered"],
+      "status": "DO_NOT_MERGE_IDENTITIES"
+    },
+    {
+      "id": "claim-yu-wan-chang-chair-conflicts-with-choi-liquidator",
+      "claim": "Yu Wan-chang's liquidation-committee chair role and Choi's representative-liquidator role cannot both be true.",
+      "contradictingEvidence": ["role labels differ", "legal governance changed by phase", "exact Yu term remains undated"],
+      "status": "NOT_ESTABLISHED_PHASE_RESOLUTION_REQUIRED"
+    }
+  ]
+}
