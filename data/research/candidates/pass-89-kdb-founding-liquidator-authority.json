@@ -1,0 +1,44 @@
+{
+  "pass": 89,
+  "date": "2026-09-23",
+  "scope": "KDB founding commission governance and KIB liquidator authority",
+  "organizations": [
+    {"id":"org-kdb-founding-commission-1954","name":"한국산업은행설립위원회","status":"VERIFIED","memberCount":9,"officeLocation":"한국식산은행 내","legalAuthority":"대통령령 제860호"},
+    {"id":"org-korea-development-bank","name":"한국산업은행","status":"VERIFIED"},
+    {"id":"org-korea-industrial-bank-pre1954","name":"한국식산은행","status":"VERIFIED"},
+    {"id":"org-kib-liquidation-committee","name":"한국식산은행 청산위원회","status":"VERIFIED_ARCHIVAL_ACTOR","authorityRelationship":"OPEN: reconcile with statutory liquidator"}
+  ],
+  "actorSlots": [
+    {"id":"slot-kdb-founding-chair-1954","role":"한국산업은행설립위원회 위원장","count":1,"appointedByOffice":"재무부장관","status":"OPEN_NAME"},
+    {"id":"slot-kdb-founding-members-1954","role":"한국산업은행 설립위원","count":9,"appointedByOffice":"재무부장관","status":"OPEN_NAMES"},
+    {"id":"pol-park-hui-hyeon","name":"박희현","role":"재무부장관","relation":"statutory appointing/approval officeholder during founding window","status":"VERIFIED_OFFICE_EXECUTION_OPEN"},
+    {"id":"pol-gu-yong-seo","name":"구용서","role":"초대 한국산업은행 총재","status":"VERIFIED","liquidatorRelation":"1963 decree text assigns KDB governor as KIB liquidator; continuity to 1954 requires original decree"},
+    {"id":"cand-kib-liquidator-choi-19540401","name":"최○○","role":"대표청산인","status":"IDENTIFIED_OFFICE_ONLY","authorityRelationship":"OPEN"},
+    {"id":"pol-yu-wan-chang","name":"유완창","role":"한국식산은행 청산위원회 위원장 (later biographical claim)","status":"IDENTIFIED","date":"OPEN"}
+  ],
+  "events": [
+    {"id":"EVT-KDB-1954-FOUNDING-COMMISSION-CONSTITUTION","legalAuthority":"대통령령 제860호 제2조","actors":["slot-kdb-founding-members-1954"],"status":"VERIFIED_STRUCTURE_OPEN_NAMES"},
+    {"id":"EVT-KDB-1954-FOUNDING-CHAIR-DESIGNATION","legalAuthority":"대통령령 제860호 제3조","actors":["slot-kdb-founding-chair-1954","pol-park-hui-hyeon"],"status":"LEGAL_AUTHORITY_VERIFIED_EXECUTION_OPEN"},
+    {"id":"EVT-KDB-1954-CHARTER-DELIBERATION","legalAuthority":"대통령령 제860호 제4~5조","decisionRule":"설립위원 3분의2 이상","status":"VERIFIED_RULE_OPEN_MINUTES"},
+    {"id":"EVT-KDB-1954-FOUNDING-EXPENSE-BORROWING","legalAuthority":"대통령령 제860호 제8조","sourceOrg":"org-korea-industrial-bank-pre1954","approvalOffice":"재무부장관","ultimateLiability":"org-korea-development-bank","status":"VERIFIED_RULE_OPEN_TRANSACTION"},
+    {"id":"EVT-KDB-1954-FOUNDING-HANDOVER","legalAuthority":"대통령령 제860호 제4조3호·제10조","target":"한국산업은행 총재/한국산업은행","status":"VERIFIED_RULE_OPEN_DOCUMENT"},
+    {"id":"EVT-KDB-1954-FOUNDING-COMMISSION-DISSOLUTION","legalAuthority":"대통령령 제860호 제10조","deadline":"KDB 설립일부터 30일 이내","status":"VERIFIED_RULE_OPEN_DATE"},
+    {"id":"EVT-KDB-1954-FOUNDING-FINAL-REPORT","legalAuthority":"대통령령 제860호 제11조","document":"한국산업은행설립에 관한 종합경과보고서","recipientOffice":"재무부장관","status":"MANDATED_DOCUMENT_OPEN"},
+    {"id":"EVT-KIB-LIQUIDATOR-AUTHORITY-1963-TEXT","date":"1963-05-17","legalAuthority":"한국식산은행의청산에관한건 제3조 제1항 (각령 제1302호 일부개정본)","actorOffice":"한국산업은행총재","relation":"한국식산은행 청산인","status":"VERIFIED_1963_TEXT_1954_CONTINUITY_OPEN"}
+  ],
+  "documents": [
+    {"id":"doc-decree-860-kdb-founding","title":"한국산업은행설립에관한건","number":"대통령령 제860호","date":"1954-01-18","institution":"국가법령정보센터","originalObtained":true,"provenance":"official statute text"},
+    {"id":"doc-decree-859-kib-liquidation-1963","title":"한국식산은행의청산에관한건","number":"각령 제1302호 일부개정본","date":"1963-05-17","institution":"국가법령정보센터","originalObtained":true,"provenance":"official statute text","guardrail":"not the 1954 promulgated text"},
+    {"id":"doc-law-302-kdb-original","title":"한국산업은행법","number":"법률 제302호","date":"1953-12-30","institution":"국가법령정보센터","originalObtained":true,"provenance":"official statute text"}
+  ],
+  "claims": [
+    {"id":"CLM-KDB-FOUNDING-COMMISSION-NINE","text":"한국산업은행 설립위원회는 9인의 설립위원으로 구성됐다.","status":"SUPPORTED_PRIMARY","support":["doc-decree-860-kdb-founding"]},
+    {"id":"CLM-KDB-CHARTER-SUPERMAJORITY","text":"정관 작성은 설립위원 3분의2 이상의 의결을 요구했다.","status":"SUPPORTED_PRIMARY","support":["doc-decree-860-kdb-founding"]},
+    {"id":"CLM-KDB-FOUNDING-COMMISSION-IMMEDIATE-DISSOLUTION","text":"설립위원회는 1954-04-01 즉시 해산했다.","status":"CONTRADICTED_AS_RULE","reason":"제860호 제10조는 설립일부터 30일 이내 해산을 규정; 실제 해산일은 OPEN"},
+    {"id":"CLM-KIB-KDB-GOVERNOR-STATUTORY-LIQUIDATOR-1954","text":"1954 제정 당시부터 KDB 총재가 KIB 법정 청산인이었다.","status":"NARROWED_NOT_YET_PROVEN","supportContext":"1963 amended text says so","contradictingOrComplicatingEvidence":["1954 archival representative liquidator Choi○○","KIB liquidation committee records"],"next":"recover 1954 decree 859 original and amendment diff"}
+  ],
+  "historyDebtUpdates": [
+    {"topic":"KDB founding commissioners","from":"OPEN","to":"NARROWED","reason":"9-member body, chair appointment, decision rules, record handover and final report now fixed by primary decree"},
+    {"topic":"KIB liquidation leadership chronology","from":"CONFLICTED_OR_SEQUENTIAL_OPEN","to":"CONFLICTED_AUTHORITY_MODEL","reason":"1963 official decree identifies KDB governor as liquidator while 1954 archive separately names liquidation committee and representative liquidator"}
+  ]
+}
