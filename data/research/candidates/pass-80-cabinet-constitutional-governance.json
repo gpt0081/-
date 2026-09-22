@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "pass": 80,
+  "date": "2026-09-22",
+  "scope": "1953 Korean-origin cabinet constitutional agenda and ordinary governance",
+  "actors": [
+    {
+      "politicianId": "president-01",
+      "name": "이승만",
+      "aliases": ["李承晩", "Syngman Rhee"],
+      "status": "ANNALS_ACTIVE",
+      "relations": ["constitutional_agenda_instructor", "cabinet_agenda_setter"],
+      "evidence": ["국가기록원 제42회 국무회의록 BG0000041 건번호 4-14 p.3"],
+      "attributionRule": "Instruction/proposal is supported; enactment, Assembly acceptance and personal drafting are separate questions."
+    },
+    {
+      "proposedPoliticianId": "pol-sohn-won-il",
+      "name": "손원일",
+      "aliases": ["孫元一", "Sohn Won Il", "Son Won Il"],
+      "status": "VERIFIED-transition-date-narrowed",
+      "roles": ["해군참모총장", "국방부장관"],
+      "evidence": ["국가기록원 6·25전쟁 연표: 1953-06-30 국방부장관 손원일 임명", "한국사DB FRUS 1953-08-05 참석자 목록"],
+      "openLead": "Recover the 1953-06-30 gazette/appointment instrument and nomination/approval chain."
+    },
+    {
+      "candidateId": "cand-paik-sung-wook-minjung-jagyeoldan",
+      "proposedPoliticianId": "pol-paik-sung-wook",
+      "name": "백성욱",
+      "aliases": ["白性郁", "Paik Sung-wook", "Baek Seong-uk"],
+      "status": "IDENTIFIED-organization-link",
+      "roles": ["전 내무부장관", "민중자결단 관련 인물"],
+      "evidence": ["한국민족문화대백과사전 민중자결단"],
+      "uncertainty": "AKS links him to organization formation; personal authorship/responsibility for the 1953-06-09 petition is not established.",
+      "openLead": "Recover contemporary petition, organization roster and 1953 office/party status."
+    },
+    {
+      "candidateId": "cand-yun-jae-gwan-minjung-jagyeoldan",
+      "name": "윤재관",
+      "aliases": ["Yun Jae-gwan"],
+      "status": "DISCOVERED-disambiguation-required",
+      "roles": ["민중자결단 단장/설립 관련 인물 (AKS description)"],
+      "evidence": ["한국민족문화대백과사전 민중자결단"],
+      "uncertainty": "Historical identity, hanja, birth/death dates and 1953 petition responsibility require disambiguation from modern homonyms.",
+      "openLead": "Find 1952-54 contemporary newspaper, party and organization records naming this 윤재관."
+    }
+  ],
+  "organizations": [
+    {
+      "candidateOrganizationId": "org-minjung-jagyeoldan",
+      "name": "민중자결단",
+      "aliases": ["民衆自決團"],
+      "status": "IDENTIFIED-candidate",
+      "founded": "1952",
+      "relations": ["pro-Rhee mobilization organization", "constitutional petition actor"],
+      "evidence": ["한국민족문화대백과사전 민중자결단"],
+      "openLead": "Recover the 1953-06-09 petition original and identify signatories, drafters, funders and delivery channel."
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-1953-0516-cabinet-constitutional-instruction",
+      "date": "1953-05-16",
+      "venue": "제42회 국무회의, 경무대",
+      "instructedBy": ["president-01"],
+      "topics": ["referendum", "legislator_recall", "councillors_election", "national_treasure_overseas_exhibition", "vested_property_auction_priority"],
+      "source": ["국가기록원 BG0000041 건번호 4-14 p.3"],
+      "status": "Korean-origin-cabinet-record-confirmed"
+    },
+    {
+      "id": "evt-1953-0609-minjung-jagyeoldan-petition",
+      "date": "1953-06-09",
+      "executedByOrganization": ["org-minjung-jagyeoldan"],
+      "topics": ["legislator_recall", "wartime_emergency_presidential_power", "constitutional_amendment"],
+      "source": ["한국민족문화대백과사전 민중자결단"],
+      "status": "secondary-reference-primary-petition-needed",
+      "causalWarning": "Do not infer direct government drafting or command solely from temporal/policy alignment with the May 16 cabinet instruction."
+    },
+    {
+      "id": "evt-1953-0630-sohn-defense-appointment",
+      "date": "1953-06-30",
+      "appointed": ["pol-sohn-won-il"],
+      "office": "국방부장관",
+      "source": ["국가기록원 6·25전쟁 연표"],
+      "status": "official-archive-chronology-primary-instrument-open"
+    },
+    {
+      "id": "evt-1953-1230-kdb-act",
+      "date": "1953-12-30",
+      "legalAuthority": ["법률 제302호 한국산업은행법"],
+      "institutionalFacts": ["important-industry finance/management purpose", "400 million hwan government capital", "initial one-quarter government payment", "remaining payment by Cabinet decision"],
+      "source": ["국가법령정보센터 법률 제302호 원문"],
+      "status": "statutory-design-confirmed-actor-decomposition-open"
+    }
+  ]
+}
