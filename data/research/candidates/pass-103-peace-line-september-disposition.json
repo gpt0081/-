@@ -1,0 +1,117 @@
+{
+  "pass": 103,
+  "date": "2026-09-23",
+  "theme": "1951-09-08 fisheries-protection-zone presidential submission and unresolved disposition",
+  "documents": [
+    {
+      "candidate_document_id": "doc-kr-mofa-1951-09-08-oejeong-958-fisheries-protection-zone",
+      "title": "어업보호수역 선포에 관한 건",
+      "date": "1951-09-08",
+      "document_number": "외정 제958호",
+      "sender": "외무부장관",
+      "recipient": "대통령",
+      "repository": "동북아역사재단 한일회담외교문서",
+      "original_location": "NAHF kj.d_0007_0010_0590",
+      "url": "https://contents.nahf.or.kr/item/level.do?levelId=kj.d_0007_0010_0590",
+      "access_date": "2026-09-23",
+      "text_recovered": true,
+      "image_approval_marks_inspected": false,
+      "provenance": "official archival transcription",
+      "status": "PRIMARY_TEXT_VERIFIED"
+    }
+  ],
+  "actors": [
+    {
+      "candidate_id": "pol-rhee-syngman",
+      "name": "이승만",
+      "role": "President",
+      "status": "ANNALS_ACTIVE",
+      "edge": "recipient_and_presidential_disposition_authority_1951-09-08",
+      "certainty": "PRIMARY_RECIPIENT; DISPOSITION_CONFLICTED",
+      "lead": "inspect original approval marks and presidential routing register"
+    },
+    {
+      "candidate_id": "pol-byun-young-tae",
+      "name": "변영태",
+      "role": "Foreign Minister",
+      "status": "VERIFIED",
+      "edge": "sender_1951-09-08_submission",
+      "certainty": "PRIMARY_TEXT_VERIFIED",
+      "lead": "separate ministerial sender from drafter/approval chain"
+    },
+    {
+      "candidate_id": "pol-jang-myon",
+      "name": "장면",
+      "role": "Prime Minister",
+      "status": "VERIFIED",
+      "edge": "98th_temporary_cabinet_context",
+      "certainty": "INDIVIDUAL_POSITION_OPEN",
+      "lead": "1951-09-07 cabinet minutes and attendance"
+    }
+  ],
+  "events": [
+    {
+      "event_id": "evt-peaceline-1951-09-07-cabinet-approval",
+      "date": "1951-09-07",
+      "status": "NARROWED_PRIMARY_TEXT_BACKED",
+      "evidence": ["doc-kr-mofa-1951-09-08-oejeong-958-fisheries-protection-zone"],
+      "decision": "원안대로 통과 as contemporaneously recited in next-day Foreign Ministry submission"
+    },
+    {
+      "event_id": "evt-peaceline-1951-09-08-presidential-submission",
+      "date": "1951-09-08",
+      "status": "PRIMARY_TEXT_VERIFIED",
+      "proposed_by": ["foreign_ministry/cabinet_chain"],
+      "submitted_by": ["pol-byun-young-tae"],
+      "recipient": ["pol-rhee-syngman"],
+      "evidence": ["doc-kr-mofa-1951-09-08-oejeong-958-fisheries-protection-zone"]
+    },
+    {
+      "event_id": "evt-peaceline-1951-09-08-presidential-disposition",
+      "date": "1951-09-08",
+      "status": "CONFLICTED_NARROWED",
+      "later_finding": [
+        {"description": "KCI article chronology labels disposition 이승만 거부", "type": "secondary_chronology"},
+        {"description": "marine-education institutional chronology labels disposition 대통령 결재 보류", "type": "institutional_secondary"}
+      ],
+      "needed": ["original approval/signature marks", "총의 제174호 full text", "presidential routing/disposition register"]
+    },
+    {
+      "event_id": "evt-peaceline-1952-01-15-fourth-cabinet-meeting",
+      "date": "1952-01-15",
+      "status": "SECONDARY_INSTITUTIONAL_CHRONOLOGY",
+      "claim": "broader adjacent-seas sovereignty declaration urgently tabled and passed as submitted",
+      "needed": ["original cabinet minutes", "draft and approval chain"]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clm-peaceline-sept1951-presidential-nonapproval",
+      "statement": "The cabinet-approved September 1951 fisheries-protection-zone proposal was submitted to President Rhee but did not proceed normally to proclamation at that stage.",
+      "status": "NARROWED",
+      "supporting_evidence": [
+        "primary 1951-09-08 submission to President",
+        "KCI chronology: 이승만 거부",
+        "institutional chronology: 대통령 결재 보류",
+        "new January 1952 cabinet/proclamation sequence"
+      ],
+      "contradicting_evidence": [],
+      "insufficient_evidence": ["exact presidential disposition"]
+    },
+    {
+      "claim_id": "clm-peaceline-sept1951-exact-disposition",
+      "statement": "President Rhee explicitly rejected the 1951-09-08 fisheries-protection-zone proposal.",
+      "status": "CONFLICTED",
+      "supporting_evidence": ["KCI chronology says 거부"],
+      "contradicting_evidence": ["institutional chronology instead says 결재 보류"],
+      "insufficient_evidence": ["original disposition/approval marks not yet inspected"]
+    }
+  ],
+  "guardrails": [
+    "cabinet approval is not presidential approval or promulgation",
+    "결재년월일 field is not interpreted as presidential assent without signature/approval-mark inspection",
+    "거부 and 결재 보류 are preserved as conflicting descriptions",
+    "Foreign Minister sender status is not drafter attribution",
+    "January redesign remains a hypothesis until text/coordinate diff is completed"
+  ]
+}
