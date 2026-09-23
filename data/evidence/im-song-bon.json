@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "politicianId": "pol-im-song-bon",
+  "name": "임송본",
+  "aliases": ["林松本", "Im Song-bon", "Lim Song-bon"],
+  "lifespan": {"born": "1905", "died": "1983", "precision": "year"},
+  "researchStatus": "ANNALS_ACTIVE",
+  "evidence": [
+    {"id":"im-001","date":"1951-10-20","claim":"한국식산은행 두취이자 제1차 한일회담 한국측 대표였다.","source":"동북아역사재단 한일회담외교문서, 양국 출석자 명부","recordId":"kj.d_0001_0020_0052","provenance":"official-diplomatic-archive","status":"VERIFIED"},
+    {"id":"im-002","date":"1952-02-22","claim":"일본측이 작성한 한국측 대표 약력에 林松本이 포함된다.","source":"동북아역사재단 일본문서, 한국 측 대표약력","recordId":"kjj.d_0091_0110","provenance":"foreign-contemporaneous-record","status":"VERIFIED_DOCUMENT_INDEX"},
+    {"id":"im-003","date":"1954-03-31","claim":"대한석탄공사 사장에 취임했다.","source":"국가기록원 대한석탄공사 기록물 생산기관 변천정보","provenance":"official-archive-institution-history","status":"VERIFIED"},
+    {"id":"im-004","date":"1957-07","claim":"제2대 시드니 총영사로 부임했다.","source":"외교부 주시드니총영사관 공관연혁","url":"https://www.mofa.go.kr/au-sydney-ko/wpge/m_2455/contents.do","provenance":"official-government","status":"VERIFIED"},
+    {"id":"im-005","dateRange":"1950/1954","claim":"한국은행 수석부총재·한국식산은행장을 역임했다는 전기 자료가 존재한다.","source":"한국민족문화대백과사전 임송본 항목","url":"https://encykorea.aks.ac.kr/Article/E0047495","provenance":"public-academic-reference","status":"SUPPORTED_SECONDARY","caution":"두 직책의 정확한 겸임 기간은 인사 원문으로 재검증 필요"},
+    {"id":"im-006","date":"1967-10-07","claim":"경제과학심의위원 임명 당시 동시대 신문은 그를 전 식산은행 두취·한일회담대표·주일대표부 경제고문·호주총영사로 회고했다.","source":"매일경제 1967-10-07 인물기사","url":"https://www.mk.co.kr/news/economy/36551","provenance":"contemporary-press","status":"CORROBORATIVE"}
+  ],
+  "openLeads": [
+    "1952~1954 한국식산은행 두취 임면 원문으로 임송본의 정확한 퇴임일 확정",
+    "1954-04-01~10 임시주주총회 회의록에서 소집자와 청산인 명단 확인",
+    "한국은행 인사기록으로 1950~1954 수석부총재 재임 및 식산은행장 겸임 여부 검증",
+    "외무부 인사기록으로 주일대표부 경제고문 재임 시작·종료일 확정",
+    "1951~1953 한일회담 청구권위원회 회의록에서 임송본 발언과 제안·반대·결정 역할 분리"
+  ],
+  "historyDebt": [
+    {"id":"HD-IM-001","status":"NARROWED","question":"1954 해산 직전 한국식산은행 두취가 임송본이었는가?","reason":"1951-10 두취 확인 및 1954-03-31 석탄공사 취임까지 연결되지만 직접 퇴임·후임 원문 부재"}
+  ]
+}
