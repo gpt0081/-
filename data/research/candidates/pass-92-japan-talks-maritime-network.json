@@ -1,0 +1,32 @@
+{
+  "pass": 92,
+  "date": "2026-09-23",
+  "scope": "Im Song-bon promotion plus first Japan-talks maritime/technical actor expansion",
+  "actors": [
+    {"id":"pol-im-song-bon","name":"임송본","hanja":"林松本","status":"ANNALS_ACTIVE","lifespan":{"born":"1905","died":"1983","precision":"year"},"roles":["한국식산은행 두취","한일회담 대표","대한석탄공사 사장","시드니 총영사","경제과학심의위원"],"evidenceFile":"data/evidence/im-song-bon.json","annalsFile":"data/annals/im-song-bon.md"},
+    {"id":"cand-ji-cheol-geun","name":"지철근","hanja":"池鐵根","status":"IDENTIFIED_DEEPENED","roles":["한일회담 대표/전문위원 계열","상공부 수산국장"],"connections":["EVT-JAPAN-TALKS-DELEGATE-BIOS-19520222","EVT-1952-PEACE-LINE-FISHERIES"],"evidence":"NAHF delegate-bio index plus later biographical corroboration","openLead":"상공부 수산국 원문과 국무회의 기록으로 평화선 제정의 제안·기초·결정 역할 분리"},
+    {"id":"cand-hwang-bu-gil","name":"황부길","hanja":"黃富吉","status":"IDENTIFIED_DEEPENED","roles":["한일회담 관련 실무 인물","교통부 초대 해운국장","대한조선학회 초대 회장"],"connections":["EVT-JAPAN-TALKS-DELEGATE-BIOS-19520222","EVT-POSTWAR-MARITIME-ADMINISTRATION"],"openLead":"1951~52 한일회담에서의 정확한 대표 직위와 분과 확인"},
+    {"id":"cand-kim-tae-dong-1952","name":"김태동","hanja":"金泰東","status":"DISCOVERED_IDENTITY_DISAMBIGUATION_REQUIRED","source":"kjj.d_0091_0110","openLead":"동명이인 배제 후 1952 대표단 직위·생몰 확인"},
+    {"id":"cand-lee-sang-deok-1952","name":"이상덕","hanja":"李相德","status":"DISCOVERED","source":"kjj.d_0091_0110","affiliationLead":"경성보성전문학교·조선식산은행 경력 색인","openLead":"정확한 직책·생몰·대표단 역할 확인"},
+    {"id":"cand-mun-deok-ju-1952","name":"문덕주","hanja":"文德周","status":"DISCOVERED","source":"kjj.d_0091_0110","openLead":"외무부 인사자료와 대표단 명부로 identity 확정"},
+    {"id":"cand-han-yu-dong-1952","name":"한유동","hanja":"韓有東","status":"DISCOVERED_IDENTITY_DISAMBIGUATION_REQUIRED","source":"kjj.d_0091_0110","openLead":"韓維東 화가와 한자부터 다른 동명이인임을 유지하고 외교문서 인사표 확보"},
+    {"id":"cand-oh-jin-young-1952","name":"오진영","hanja":"吳震泳","status":"DISCOVERED","source":"kjj.d_0091_0110","openLead":"1952 대표단 직위·소속·생몰 확인"},
+    {"id":"cand-han-gyu-young-1952","name":"한규영","hanja":"韓奎永","status":"DISCOVERED","source":"kjj.d_0091_0110","openLead":"1952 대표단 직위·소속·생몰 확인"},
+    {"id":"cand-lee-il-woo-1952","name":"이일우","hanja":"李一雨","status":"DISCOVERED","source":"kjj.d_0091_0110","openLead":"1952 대표단 직위·소속·생몰 확인"},
+    {"id":"cand-han-ik-sang-1952","name":"한익상","hanja":"韓益相","status":"DISCOVERED_IDENTITY_DISAMBIGUATION_REQUIRED","source":"kjj.d_0091_0110","openLead":"조선후기 韓益相과 명백히 분리하고 1952 인사자료 확보"},
+    {"id":"cand-shin-cheol-seon-1952","name":"신철선","hanja":"辛澈善","status":"DISCOVERED","source":"kjj.d_0091_0110","openLead":"대표단 직위·소속·생몰 확인"}
+  ],
+  "events": [
+    {"id":"EVT-JAPAN-TALKS-DELEGATE-BIOS-19520222","date":"1952-02-22","type":"foreign-observation/personnel-intelligence","observed_by":"Japanese side","status":"VERIFIED_DOCUMENT_INDEX"},
+    {"id":"EVT-1952-PEACE-LINE-FISHERIES","date":"1952","type":"maritime/fisheries/foreign-policy","actors":["cand-ji-cheol-geun"],"status":"OPEN_ROLE_DECOMPOSITION"},
+    {"id":"EVT-POSTWAR-MARITIME-ADMINISTRATION","dateRange":"1948/1960","type":"maritime-administration","actors":["cand-hwang-bu-gil"],"status":"IDENTIFIED"},
+    {"id":"EVT-IM-1957-SYDNEY-CONSUL","date":"1957-07","type":"diplomatic-appointment","actors":["pol-im-song-bon"],"status":"VERIFIED_OFFICIAL"},
+    {"id":"EVT-IM-1967-ECONOMIC-SCIENCE-COUNCIL","date":"1967","type":"economic-policy-personnel","actors":["pol-im-song-bon"],"status":"SUPPORTED"}
+  ],
+  "adversarialChecks": [
+    {"claim":"임송본은 금융인으로만 모델링하면 충분하다","result":"CONTRADICTED","basis":"한일회담·석탄공사·시드니 총영사·경제과학심의위원 경력"},
+    {"claim":"1952 일본측 대표약력의 인물들은 모두 한국 정치인 registry로 즉시 승격 가능하다","result":"CONTRADICTED","basis":"김태동·한유동·한익상 등 동명이인 위험과 직위 미확정"},
+    {"claim":"지철근의 평화선 역할을 단독 주도자로 확정할 수 있다","result":"NOT_PROVEN","basis":"후대 전기성 자료는 주도라고 표현하지만 국무회의·상공부 원문에서 제안/기초/결정 분해 필요"},
+    {"claim":"황부길의 해운행정 경력은 한일회담 수산·해운 네트워크와 무관하다","result":"UNSUPPORTED","basis":"동일 일본측 대표약력 색인에 등장하며 해운국장 경력 확인"}
+  ]
+}
