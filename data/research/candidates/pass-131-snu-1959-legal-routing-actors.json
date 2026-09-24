@@ -1,0 +1,70 @@
+{
+  "pass": 131,
+  "date": "2026-09-25",
+  "scope": "1959-01-13 SNU institutional reorganization: legal basis, nursing/public-administration routing, and responsible offices",
+  "actors": [
+    {
+      "id": "pol-rhee-syngman",
+      "name": "이승만",
+      "hanja": "李承晩",
+      "romanized": "Syngman Rhee / Yi Seung-man",
+      "status": "ANNALS_ACTIVE",
+      "event_links": ["evt-1959-01-13-national-school-establishment-order-revision", "evt-1959-01-snu-gspa-establishment", "evt-1959-01-13-snu-nursing-department-approval"],
+      "actions": ["The 1959-01-13 reorganization was effected through a presidential-decree layer; SNU GSPA's official history says the school was established by presidential decree in January 1959, while the current legal-history text marks the relevant National School Establishment Order provisions as newly enacted/revised on 1959-01-13."],
+      "attribution_limits": "Presidential-decree status proves the formal legal layer and is consistent with the contemporaneous Minnesota report's statement that Rhee approved the nursing department. It does not prove that Rhee drafted, originated, or personally designed either the GSPA or nursing reform.",
+      "open_leads": ["recover the exact 1959-01-13 promulgation text and decree number from official Gazette/law archive", "recover cabinet agenda/minutes and presidential approval sheet", "separate routine constitutional promulgation from substantive intervention"]
+    },
+    {
+      "id": "cand-choi-jae-yu-1906",
+      "name": "최재유",
+      "hanja": "崔在裕",
+      "romanized": "Choi Jae-yu / Choe Jae-yu",
+      "lifespan": {"born":"1906-08-19","died":"1993-05-28"},
+      "status": "VERIFIED_CABINET_EDUCATION_ACTOR",
+      "roles": [
+        {"from":"1957-11-27","to":"1960-04-27","role":"제6대 문교부장관","evidence":"AKS biographical entry plus contemporary/archival records placing him as education minister through 1960"}
+      ],
+      "event_links": ["evt-1959-01-13-national-school-establishment-order-revision", "evt-1959-01-snu-gspa-establishment", "evt-1959-01-13-snu-nursing-department-approval"],
+      "actions": ["Held the responsible education-minister portfolio when the 1959-01-13 national-school/SNU reorganization took effect."],
+      "attribution_limits": "Portfolio responsibility is verified, but this pass has not recovered the cabinet proposal sheet or promulgation signature page. Do not yet label Choi the proposer, drafter, or signatory of the specific amendment.",
+      "open_leads": ["recover Ministry of Education proposal memorandum", "recover cabinet minutes for the amendment", "recover promulgation/signature page", "trace SNU-to-Ministry proposal correspondence"]
+    },
+    {
+      "id": "cand-1959-snu-medicine-dean",
+      "name": "1959 서울대 의과대학장",
+      "status": "IDENTITY_NARROWED",
+      "event_links": ["evt-1959-snu-nursing-faculty-position-support"],
+      "actions": ["Minnesota nursing-adviser report attributes strong support for reserving a new faculty position to the Dean of Medicine."],
+      "identity_note": "A newly located SNU Engineering article captions 이제구 as SNU medical dean in January 1955, proving that dean and hospital-director offices must be tracked independently. It does not establish that 이제구 still held the deanship in 1959.",
+      "attribution_limits": "Identity remains open. 김동익's hospital-director tenure must not be substituted for the medical-dean identity.",
+      "open_leads": ["recover official 1958-1960 College of Medicine dean roster", "recover SNU personnel appointment gazette", "recover 1959 faculty-position correspondence"]
+    },
+    {
+      "id": "cand-lee-je-gu-medical-dean",
+      "name": "이제구",
+      "romanized": "Lee Je-gu / Yi Je-gu",
+      "status": "IDENTIFIED_PRIOR_MEDICAL_DEAN",
+      "roles": [{"date":"1955-01","role":"서울대학교 의과대학장","evidence":"SNU Engineering article reproducing a January 1955 Minnesota Project leadership photograph and caption"}],
+      "event_links": ["evt-1955-01-snu-minnesota-leadership-photo"],
+      "attribution_limits": "This establishes the office in January 1955 only; continuity to 1959 is not assumed.",
+      "open_leads": ["recover deanship start/end dates", "check whether he was the dean referenced in the 1959 nursing report"]
+    },
+    {
+      "id": "cand-1959-ministry-education-faculty-allocation-official",
+      "name": "1959 문교부 서울대 정원배정 담당자",
+      "status": "OFFICE_CHAIN_NARROWED",
+      "event_links": ["evt-1959-snu-nursing-faculty-position-support"],
+      "actions": ["The nursing report establishes a Ministry-controlled new faculty-position allocation; the 1959-01-13 National School Establishment Order revision also reorganized SNU central administrative offices, including Academic Affairs functions responsible for departments, curricula, faculty/student structures."],
+      "attribution_limits": "The individual bureau/director responsible for the allocation remains unidentified.",
+      "open_leads": ["recover Ministry organization chart for January 1959", "recover SNU faculty-quota approval document", "identify bureau chief/director and signatory"]
+    }
+  ],
+  "sources": [
+    {"title":"서울대학교 행정대학원 연혁","provenance":"SNU GSPA official","finding":"1959.01 presidential decree established GSPA within College of Law"},
+    {"title":"서울대학교 행정대학원 설립목적/소개","provenance":"SNU GSPA official","finding":"established 1959-01-13 under Education Act and SNU installation order"},
+    {"title":"서울대학교 역사 timeline","provenance":"SNU official","finding":"1959-01-13 nursing, diplomacy, Korean music, trade and other departments established"},
+    {"title":"국립학교설치령 legal-history text","provenance":"historical statute mirror; official law-center crosscheck lead","finding":"Article 3 graduate-school clause and Articles 8-10 SNU organization provisions marked enacted/revised 1959-01-13"},
+    {"title":"최재유","provenance":"Academy of Korean Studies Encyclopedia","finding":"education minister from 1957; education-policy profile"},
+    {"title":"미네소타 프로젝트(1954-1962)를 생각한다","provenance":"SNU College of Engineering","finding":"January 1955 leadership photo identifies 이제구 as medical dean"}
+  ]
+}
