@@ -1,0 +1,70 @@
+{
+  "pass":125,
+  "date":"2026-09-24",
+  "actors":[
+    {
+      "id":"cand-byron-h-hanlon",
+      "name":"Byron H. Hanlon",
+      "aliases":["B. Hall Hanlon","Admiral Hanlon","Hanlon"],
+      "status":"VERIFIED",
+      "roles":[
+        {"date":"1952-08","role":"Rear Admiral, USN; appointed CINCUNC representative on Combined Economic Board"},
+        {"date":"1953-05-29","role":"CEB-related correspondent to Acting Prime Minister Pyun Yung-tai; action known through July 8 reference"}
+      ],
+      "actions":["held formal CINCUNC CEB appointment according to FRUS footnote","sent May 29, 1953 letter later referenced in Baek Du-jin July 8 proposal"],
+      "evidence_note":"FRUS XV/1 doc.268 footnote explicitly gives Rear Admiral Byron H. Hanlon, USN and August 1952 appointment. UN S/2875 search extract gives Aug.30 and vice Thomas W. Herren, but direct PDF was blocked and must be recovered before treating those details as fully primary-open verified.",
+      "open_leads":["CINCUNC appointment instrument","May 29 original letter","Herren handover record","relationship to Jack Bennett's July 1953 UNC-representative title"]
+    },
+    {
+      "id":"cand-jack-bennett-ceb",
+      "name":"Jack Bennett",
+      "status":"IDENTIFIED_CONFLICTED_ROLE",
+      "roles":[{"date":"1953-07-08","role":"UNC Representative, Combined Economic Board, as labeled by NIKH Rhee correspondence metadata"}],
+      "actions":["recipient of Baek Du-jin July 8 exchange-rate proposal"],
+      "conflict_note":"FRUS identifies Byron H. Hanlon as formally appointed CINCUNC CEB representative from Aug.1952. Bennett must not be modeled as formal successor until appointment/delegation evidence is found.",
+      "open_leads":["full identity","regular office","acting/delegated authority","appointment instrument","relationship to Hanlon"]
+    },
+    {
+      "id":"cand-han-pyo-wook",
+      "name":"한표욱",
+      "hanja":"韓豹頊",
+      "romanized":"Han Pyo-wook / Philip Han",
+      "aliases":["Philip Han"],
+      "status":"VERIFIED",
+      "roles":[
+        {"date":"1953-10-02","role":"Counselor, Korean Embassy in Washington"},
+        {"date":"1953-11-18","role":"Counselor, Korean Embassy; participant in ROK-Japan/air-power discussion"},
+        {"date":"1954-02-09","role":"Counselor, Korean Embassy"}
+      ],
+      "actions":[
+        "attended Pyun-Dulles discussion on Korean unification/security on 1953-10-02",
+        "attended 1953-11-18 ROKAF/State Department discussion; no independent endorsement attributed in memorandum",
+        "personally delivered Rhee letters to Walter Robertson on 1954-02-09"
+      ],
+      "evidence_note":"NIKH Rhee correspondence explanatory PDF explicitly maps Philip Han to 韓豹頊; FRUS independently records Philip Han as Korean Embassy Counselor.",
+      "open_leads":["official Korean foreign-ministry personnel chronology","Nov.18 dispatch to Seoul","Oct.2 Korean diplomatic reporting","Feb.9 letter routing record"]
+    },
+    {
+      "id":"cand-choi-yong-duk",
+      "name":"최용덕",
+      "romanized":"Choi Yong Duk / Chey",
+      "status":"ANNALS_ACTIVE_REVIEW",
+      "roles":[{"date":"1953-11-18","role":"Lt. General; Chief of Staff, ROK Air Force"}],
+      "actions":["stated conditional concern over U.S.-assisted Japanese rearmament and comparative ROK strength","raised rumor of Japanese 1,700-aircraft program","agreed with Drumright's anti-Communist balance rationale while warning about renewed Japanese aggression/arrogance"],
+      "open_leads":["pre-meeting instructions","post-meeting report","policy authorization level","origin of 1,700-aircraft rumor"]
+    },
+    {
+      "id":"cand-e-f-drumright",
+      "name":"E. F. Drumright",
+      "status":"IDENTIFIED",
+      "roles":[{"date":"1953-11-18","role":"U.S. Department of State, FE"}],
+      "actions":["argued for rebuilding Japanese defense capacity as part of Pacific balance while describing Japanese goals as modest","urged ROK-Japan concessions/cooperation against Communism"],
+      "open_leads":["full office title","related reporting cables"]
+    }
+  ],
+  "migration_notes":[
+    "Supersede pass-124 generic cand-hanlon-ceb with cand-byron-h-hanlon; retain alias for backwards linkage.",
+    "Supersede pass-124 cand-philip-han-embassy with cand-han-pyo-wook; retain Philip Han alias.",
+    "Do not merge Bennett into Hanlon or mark Bennett as successor without authority evidence."
+  ]
+}
