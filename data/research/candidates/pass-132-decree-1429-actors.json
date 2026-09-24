@@ -1,0 +1,60 @@
+{
+  "pass": 132,
+  "date": "2026-09-25",
+  "scope": "Presidential Decree No. 1429, 1959-01-13: SNU public-administration/public-health institutional creation and actor attribution",
+  "actors": [
+    {
+      "id": "pol-rhee-syngman",
+      "name": "이승만",
+      "hanja": "李承晩",
+      "romanized": "Syngman Rhee / Yi Seung-man",
+      "status": "ANNALS_ACTIVE",
+      "event_links": ["evt-1959-01-13-decree-1429", "evt-1959-04-01-snu-special-graduate-schools-effective"],
+      "actions": ["The formal legal instrument was Presidential Decree No. 1429, promulgated 1959-01-13 and effective 1959-04-01. Article 3 expressly created both the Graduate School of Public Administration and Graduate School of Public Health at Seoul National University."],
+      "attribution_limits": "The decree establishes formal presidential legal action, not policy authorship, drafting, or the originating institutional proposal. Those remain open pending cabinet and Ministry proposal records.",
+      "open_leads": ["recover original promulgation/signature image for Presidential Decree No. 1429", "recover cabinet agenda/minutes preceding 1959-01-13 promulgation", "recover Ministry of Education proposal sheet and SNU correspondence"]
+    },
+    {
+      "id": "cand-choi-jae-yu-1906",
+      "name": "최재유",
+      "hanja": "崔在裕",
+      "romanized": "Choi Jae-yu / Choe Jae-yu",
+      "lifespan": {"born":"1906-08-19","died":"1993-05-28"},
+      "status": "VERIFIED_CABINET_EDUCATION_ACTOR",
+      "event_links": ["evt-1959-01-13-decree-1429", "evt-1959-04-01-snu-special-graduate-schools-effective"],
+      "actions": ["Served as Minister of Education during promulgation and implementation of Decree No. 1429; the decree placed national schools under the Minister of Education's jurisdiction."],
+      "attribution_limits": "Portfolio responsibility is strong institutional linkage, but proposer/drafter/signatory status for Decree No. 1429 is not assigned without the proposal and signature originals.",
+      "open_leads": ["cabinet proposal sheet for Decree No. 1429", "Ministry bureau responsible for national-university organization", "promulgation signature page"]
+    },
+    {
+      "id": "cand-myung-ju-wan-1905",
+      "name": "명주완",
+      "hanja": "明柱完",
+      "romanized": "Myung Ju-wan / Myeong Ju-wan",
+      "lifespan": {"born":"1905","died":"1977"},
+      "status": "IDENTIFIED_INSTITUTIONAL_IMPLEMENTER",
+      "roles": [
+        {"from":"1956-09","role":"서울대학교 의과대학장","confidence":"secondary biographical evidence"},
+        {"from":"1959","role":"서울대학교 보건대학원 초대원장","confidence":"institutional/biographical convergence"}
+      ],
+      "event_links": ["evt-1959-04-01-snu-special-graduate-schools-effective"],
+      "actions": ["Institutional histories identify him with the opening of SNU public-health graduate education in 1959 and as the first dean/director of the Graduate School of Public Health."],
+      "attribution_limits": "This pass does not yet prove that he drafted or formally proposed the Decree No. 1429 amendment.",
+      "open_leads": ["recover SNU Graduate School of Public Health 50-year history pages on founding negotiations", "recover Ministry/SNU correspondence naming proposers", "verify exact first-dean appointment date and instrument"]
+    },
+    {
+      "id": "cand-1959-gspa-founding-dean",
+      "name": "1959 서울대 행정대학원 초대 책임자",
+      "status": "IDENTITY_OPEN",
+      "event_links": ["evt-1959-04-01-snu-special-graduate-schools-effective"],
+      "attribution_limits": "Official GSPA history verifies the institution and legal basis but the current pass did not recover a primary appointment instrument identifying the first dean/responsible administrator.",
+      "open_leads": ["recover 1959 GSPA faculty/dean roster", "recover SNU personnel order", "trace College of Law-to-GSPA transitional administration"]
+    }
+  ],
+  "source_findings": [
+    {"source":"국가법령정보센터, 국립학교설치령 [대통령령 제1429호]","provenance":"official legal database","finding":"promulgated 1959-01-13; effective 1959-04-01; Article 3 expressly creates SNU Graduate School of Public Administration and Graduate School of Public Health"},
+    {"source":"서울대학교 행정대학원 설립목적/연혁","provenance":"SNU official","finding":"GSPA founded 1959-01-13 under Education Act and SNU/national-school legal framework; history states establishment by presidential decree"},
+    {"source":"대한예방의학회 연혁","provenance":"professional academic society","finding":"1959 SNU Graduate School of Public Health preventive-medicine course, associated with 명주완"},
+    {"source":"한국민족문화대백과사전 명주완","provenance":"AKS scholarly encyclopedia","finding":"1905-1977 identity anchor"}
+  ]
+}
