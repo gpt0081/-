@@ -1,0 +1,105 @@
+{
+  "pass": 144,
+  "date": "2026-09-25",
+  "scope": "Trace the 1960 teachers-organization legislative track into the State Council record and refine the teachers-union event/actor graph without collapsing distinct bills.",
+  "new_primary_archive_anchor": {
+    "title": "국무회의 안건 목록집 I - 1960년도",
+    "institution": "국가기록원",
+    "record_group": "국무회의 상정안건철",
+    "management_number": "BA0084253",
+    "meeting": "제37회 국무회의",
+    "date": "1960-10-08",
+    "items": [
+      {"no": 287, "title": "교육공무원법 중 개정 법률(안)", "proposer": "문교부", "pages": 3},
+      {"no": 288, "title": "교직단체법(안)", "proposer": "문교부", "pages": 15}
+    ],
+    "significance": "This directly confirms that the Teachers' Organization Bill was not merely an Education Ministry draft mentioned in later synthesis: it reached the 37th State Council agenda on 1960-10-08, alongside a separate Education Public Officials Act amendment. The actual 15-page bill text and deliberation result remain to be retrieved from BA0084253.",
+    "provenance_status": "OFFICIAL_ARCHIVAL_CATALOG_PRIMARY_RECORD_ANCHOR"
+  },
+  "event_updates": [
+    {
+      "id": "evt-1960-09-26-teachers-organization-bill",
+      "status": "NARROWED_OFFICIAL_ARCHIVAL_ANCHOR",
+      "finding": "KDemo synthesis says the Education Ministry prepared the bill on 1960-09-26; National Archives State Council agenda independently confirms a 15-page 교직단체법(안), proposed by the Education Ministry, on the 37th State Council agenda dated 1960-10-08, management no. BA0084253."
+    },
+    {
+      "id": "evt-1960-10-08-state-council-teachers-organization-bill",
+      "status": "NEW_STRUCTURED_EVENT",
+      "proposed_by": ["org-ministry-of-education"],
+      "decided_by": ["org-state-council"],
+      "legal_authority": "pending bill text",
+      "documents": ["doc-na-1960-state-council-agenda-ba0084253-item288"],
+      "open_question": "Was item 288 approved, modified, deferred, returned, or otherwise disposed of at the 37th State Council meeting? Retrieve minutes/agenda file text."
+    },
+    {
+      "id": "evt-1960-10-08-education-public-officials-act-amendment",
+      "status": "NEW_STRUCTURED_EVENT",
+      "proposed_by": ["org-ministry-of-education"],
+      "decided_by": ["org-state-council"],
+      "documents": ["doc-na-1960-state-council-agenda-ba0084253-item287"],
+      "open_question": "Determine whether item 287 was legally or politically coupled to the Teachers' Organization Bill and whether it altered the status/discipline/association rights of teachers."
+    }
+  ],
+  "actor_network_updates": [
+    {"id":"cand-oh-cheon-seok","name":"오천석","status":"VERIFIED_MINISTER_LEGISLATIVE_TRACK","reason":"Education Ministry was the proposing institution for both 1960-10-08 agenda items 287 and 288 during his ministerial tenure; personal authorship/approval is not inferred without the bill file or minutes."},
+    {"id":"cand-jang-myeon","name":"장면","status":"VERIFIED_CABINET_CONTEXT_NEEDS_MINUTES","reason":"The bill reached the State Council under the Chang Myon cabinet; this establishes cabinet-level consideration, not Chang's personal proposal or instruction."},
+    {"id":"cand-kwak-tae-jin","name":"곽태진","status":"VERIFIED_SEPARATE_LEGISLATIVE_TRACK","reason":"KDemo identifies Kwak et al.'s 1960-09-13 Labor Union Act amendment as a National Assembly member bill adding education public officials to Article 6 restrictions. This must remain separate from the Education Ministry's State Council Teachers' Organization Bill."},
+    {"id":"cand-kim-mal-ryong","name":"김말룡","status":"IDENTIFIED_LABOR_ALLY","reason":"KDemo identifies him as National Council of Trade Unions chair issuing a 1960-06-26 statement against government illegalization and supporting a joint struggle front."},
+    {"id":"cand-kim-eun-ho","name":"김은호","status":"IDENTIFIED_LABOR_LEGAL_ACTOR","reason":"KDemo identifies him as dispute-guidance committee chair who on 1960-06-29 accused the Education Minister of violating the Labor Union Act; complaint file remains a target."},
+    {"id":"cand-kim-jong-won-teachers-union","name":"김종원","status":"IDENTIFIED_UNION_EXECUTIVE","reason":"KDemo lists him as Gyeongsang-region vice chair elected at the 1960-07-17 national delegates convention; disambiguation from namesakes required."},
+    {"id":"cand-seo-chang-seon","name":"서창선","status":"IDENTIFIED_UNION_EXECUTIVE","reason":"KDemo lists him as Chungcheong-region vice chair elected at the 1960-07-17 convention."},
+    {"id":"cand-ra-cheol-ju","name":"라철주","status":"IDENTIFIED_UNION_EXECUTIVE","reason":"KDemo lists him as Jeolla-region vice chair elected at the 1960-07-17 convention."},
+    {"id":"cand-lee-dong-geol","name":"이동걸","status":"IDENTIFIED_UNION_EXECUTIVE","reason":"KDemo lists him as Gyeonggi/Gangwon-region vice chair elected at the 1960-07-17 convention; namesake disambiguation required."},
+    {"id":"cand-yun-taek-jung","name":"윤택중","status":"IDENTIFIED_EDUCATION_EXECUTIVE","reason":"Later synthesis records him as Education Ministry political vice minister involved in consultations with teachers-union leadership after the Chang Myon cabinet formed; contemporary/original record required."}
+  ],
+  "adversarial_checks": [
+    "Do not infer that the State Council approved the Teachers' Organization Bill merely because it appears on the agenda.",
+    "Do not attribute the Education Ministry proposal personally to Oh Cheon-seok until the proposal file/minutes establish authorization or authorship.",
+    "Do not attribute the State Council's consideration personally to Chang Myon without minutes or instruction records.",
+    "Keep Kwak Tae-jin et al.'s Labor Union Act amendment and the Education Ministry Teachers' Organization Bill as distinct legislative tracks.",
+    "Test whether the simultaneously tabled Education Public Officials Act amendment was a companion measure or an unrelated technical amendment.",
+    "The KDemo statement that the Teachers' Organization Bill was eventually abandoned on 1961-02-12 still requires an official disposal record.",
+    "The KDemo characterization of the government's strategy as 'reformist co-optation' is historiographical interpretation, not a contemporaneous state document.",
+    "The union's characterization of the bills as illegalization or suppression remains an actor claim unless supported by bill text and legal effect.",
+    "The 1960-08-25 Daegu High Court result reported in later sources must be checked against the decision text before treating 'union legality' as the precise holding.",
+    "The 82-unit figure in KDemo's own July 17 summary strengthens the need to preserve the earlier 82/83 organizational-count conflict rather than silently choosing one."
+  ],
+  "priority_leads": [
+    "국가기록원 관리번호 BA0084253의 제37회 국무회의 상정안건철에서 15쪽짜리 교직단체법(안) 원문을 확보하여 목적·가입대상·조직형태·쟁의권·노조와의 관계 조문을 추출한다.",
+    "동일 BA0084253에서 교육공무원법 중 개정 법률(안) 3쪽 원문을 확보하여 교직단체법과 companion bill인지 판별한다.",
+    "1960-10-08 제37회 국무회의 회의록/의결기록에서 안건 287·288의 의결 결과와 장면·오천석 등 참석자 발언을 확인한다.",
+    "1960-09-26 문교부 교직단체법 성안 문서의 기안부서·기안자·결재선·국무원 사무처 접수번호를 찾는다.",
+    "1961-02-12 교직단체법 폐기라는 후대 서술을 국무원/문교부의 반려·폐기·철회 문서로 검증한다.",
+    "국회 의안정보/회의록에서 1960-09-13 곽태진 외 16인 노동조합법개정법률안 의안번호와 17명 전원의 명단을 확보한다.",
+    "곽태진안의 노동조합법 제6조 개정 전후 조문을 원문 대조하여 '교육공무원'의 정확한 문언과 적용범위를 확인한다.",
+    "1960-09-29 개정법률안 심의특별위원회 회의록에서 철회 주체·절차·표결 여부를 확인한다.",
+    "1960-09-12 민의원 본회의 회의록에서 오천석·박주운·김응조·이필선·윤길중 발언 전문을 확보한다.",
+    "대구고법 1960-08-25 행정처분 집행정지 결정문을 확보해 판단대상과 교원노조 합법성 언급이 ratio인지 부수적 판단인지 구분한다.",
+    "1960-08-25 국무회의가 경북지사에게 항고하지 말라고 했다는 기록의 회의차수·안건명·의결문을 국가기록원에서 확인한다.",
+    "경북도 1960-08-09/11 인사발령 원부에서 간부 24명과 전체 397명 수치를 각각 검증한다.",
+    "1960-06-22 보사부→법무부 교원노조 적법성 질의 공문 원문과 문서번호를 확보한다.",
+    "위 질의에 대한 법무부 회신을 찾아 공립·사립, 단결권·교섭권·쟁의권 판단을 분리한다.",
+    "1953 법무부 교원/공무원 노조 관련 유권해석 원문을 법무부 질의회답·관보·동시대 신문에서 역추적한다.",
+    "1957 법무부 유권해석 원문을 동일 계열에서 확보해 1953 해석과 변경 여부를 확인한다.",
+    "1959년 정부의 교원노조 불허 입장에 대응하는 법무부 문서가 실제 별도 유권해석인지, 행정부 정책표명인지 구분한다.",
+    "1960-06-26 김말룡 전국노협 위원장 성명 원문을 동시대 신문/노동단체 기록에서 확보한다.",
+    "1960-06-29 김은호가 문교부장관을 노동조합법 위반으로 고발한 검찰 접수기록·고발장·처분결과를 찾는다.",
+    "1960-07-17 제1차 전국대의원대회 원임원명부를 확보하여 강기철·서창선·라철주·김종원·이동걸의 정확한 한자/소속/직책을 확인한다.",
+    "1960-07-17 대회 원보고서로 단위조합 82/83개 충돌과 조합원 19,883명 수치를 검증한다.",
+    "조일문의 위원장 선출 유보 사유를 대회 회의록·당사자 기록으로 확인해 '정치적 경향/비교사 참여' 후대 해석을 검증한다.",
+    "1960-08-20 대구 총궐기대회에서 신태악 대한변협 회장의 격려사 원문을 대한변협 회보 또는 동시대 기사에서 확보한다.",
+    "대한변협이 교원노조 적법성에 관해 별도 공식 의견서·성명을 냈는지 1960년 회보를 전수 확인한다.",
+    "1960-08-20 공무원노조 연합전선 참여자 이규철·윤영제·장을룡·김경호의 정확한 조직·직책을 각 노조 기록으로 검증한다.",
+    "1960-10-19 대한교련 측 변희용·김기석·박희병·이성수의 항의문 원문과 문교부 접수기록을 확보한다.",
+    "위 대한교련 측 폭행·각서강요 주장에 대한 경찰·학교·교원노조 반박 기록을 찾아 adversarial bundle을 완성한다.",
+    "1960-10-25 ICFTU 서한의 발신자·수신자·원문과 국제자유노련 아카이브 소장번호를 찾는다.",
+    "1961-01-19 경북 교원노조 대의원 경찰소환 사건의 경찰 사건번호와 혐의, 처분결과를 확인한다.",
+    "1961-04-09 교원노조 집회가 요구한 노조등록증의 신청일·신청기관·반려/미처리 문서를 보사부 기록에서 찾는다.",
+    "1961년 5·16 직후 체포된 교원노조원 약 1,500명이라는 수치를 군정·경찰·교원노조 각각의 명부로 교차검증한다.",
+    "혁명재판에 기소된 강기철·신동영·이종석·이목·신우영·조영진의 공소장과 판결문을 확보해 행위별 책임을 분리한다.",
+    "김문심·최일·정만진 2대악법 반대 연대투쟁 사건 공소장/판결문을 확보해 교원노조 활동과 별개 혐의를 분리한다.",
+    "국가기록원 1960 국무회의 목록에서 교육법 개정안(1960-10-04)과 교직단체법의 제도적 연결 여부를 원안 비교로 확인한다.",
+    "오천석 재임기 문교부 조직도와 교직단체법 담당 과를 확인하여 문서 생산주체 stable organization node를 세분화한다.",
+    "윤택중 문교부 정무차관의 임명·재임일과 교원노조 협의 기록을 관보·국무회의 인사기록으로 검증한다."
+  ]
+}
