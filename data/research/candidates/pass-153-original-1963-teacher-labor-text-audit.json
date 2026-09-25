@@ -1,0 +1,141 @@
+{
+  "pass": 153,
+  "date": "2026-09-25",
+  "scope": "Pin original 1963 successor-regime text for teacher labor/collective activity and correct a pass-152 temporal-text ambiguity.",
+  "findings": [
+    {
+      "claim": "Original Private School Act Law No.1362 Article 55 directly incorporated national/public-school teacher service rules for private-school teachers.",
+      "status": "TEXT_PINNED_NONOFFICIAL_TRANSCRIPTION_CROSSCHECKED_WITH_OFFICIAL_LINEAGE",
+      "text": "사립학교의 교원의 복무에 관하여는 국ㆍ공립학교의 교원에 관한 규정을 준용한다.",
+      "sources": [
+        "https://ko.wikisource.org/wiki/사립학교법_(대한민국,_법률_제1362호)",
+        "https://law.go.kr/LSW/expcInfoP.do?expcSeq=322321&mode=2"
+      ],
+      "access_date": "2026-09-25",
+      "caution": "Wikisource is a transcription, not the Gazette image; Gazette remains the primary-image target."
+    },
+    {
+      "claim": "Original Law No.1362 Article 58(1)(4) expressly listed labor movement as well as political movement, collective refusal of classes, and partisan student guidance/agitation as dismissal grounds.",
+      "status": "MATERIAL_CORRECTION_TO_PASS_152_SUMMARY",
+      "text": "정치운동 또는 노동운동을 하거나 집단적으로 수업을 거부하거나 또는 어느 정당을 지지 또는 반대하기 위하여 학생을 지도ㆍ선동한 때",
+      "source": "https://ko.wikisource.org/wiki/사립학교법_(대한민국,_법률_제1362호)",
+      "access_date": "2026-09-25",
+      "correction": "Pass 152 described the later official interpretation's Article 58 list without preserving that the original 1963 text itself contained the words '노동운동'. The original temporal layer must be stored separately from later amended/current wording."
+    },
+    {
+      "claim": "Original Law No.1362 required disciplinary-committee consent for dismissals under Article 58(1)(2)-(5).",
+      "status": "TEXT_PINNED_NONOFFICIAL_TRANSCRIPTION",
+      "source": "https://ko.wikisource.org/wiki/사립학교법_(대한민국,_법률_제1362호)",
+      "access_date": "2026-09-25"
+    },
+    {
+      "claim": "State Public Officials Act Law No.1325 Article 66 prohibited labor movements and other collective acts for non-official purposes, with an exception for workers in de facto labor service as prescribed by Cabinet Order.",
+      "status": "HISTORICAL_TEXT_PINNED",
+      "source": "https://www.ulex.co.kr/법률/53074-001719-국가공무원법",
+      "access_date": "2026-09-25",
+      "text": "공무원은 노동운동 기타 공무 이외의 일을 위한 집단적행위를 하여서는 아니된다. 다만, 각령으로 정하는 사실상 노무에 종사하는 공무원은 예외로 한다."
+    },
+    {
+      "claim": "The permanent 1963 regime contained two distinct private-teacher control paths: Article 55 incorporation of public-teacher service rules and Article 58(1)(4) an express private-school dismissal ground that itself named labor movement.",
+      "status": "STRUCTURAL_DISTINCTION_STRENGTHENED",
+      "evidence": "Original Article 58 wording independently names 노동운동; therefore the dismissal mechanism is not merely an enforcement shadow of the Article 55 -> Education Public Officials Act Article 43 -> State Public Officials Act Article 66 chain."
+    },
+    {
+      "claim": "The 1963 Education Public Officials Act successor text had Article 43 titled 국가공무원법의 준용 and it remained in the 1964-01-01 version.",
+      "status": "HISTORICAL_STRUCTURE_PINNED",
+      "source": "https://www.ulex.co.kr/법률/5378-001616-교육공무원법",
+      "access_date": "2026-09-25",
+      "caution": "The web rendering suppresses the incorporated article-number range in the sentence body. MOLEG 11-0492 remains the official source for the range 53-67; Gazette transcription remains OPEN."
+    }
+  ],
+  "events": [
+    {"id":"evt-1963-private-school-art55-service-bridge","update":"original clause text pinned; Gazette image still open"},
+    {"id":"evt-1963-private-school-art58-collective-class-refusal","update":"original clause explicitly includes labor movement; temporal-text correction required"},
+    {"id":"evt-1963-state-public-officials-art66-collective-action","update":"historical clause text pinned"},
+    {"id":"evt-1963-education-public-officials-art43-cross-reference","update":"historical title/placement pinned; exact article-number range still relies on MOLEG 11-0492 pending Gazette image"},
+    {"id":"evt-1963-permanent-teacher-labor-control-dual-path","status":"NEW_SUBEVENT","note":"separate incorporation path from express private-school dismissal path"},
+    {"id":"evt-pass152-art58-temporal-wording-correction","status":"CORRECTION_RECORDED","note":"original 1963 Art.58(1)(4) included 노동운동"},
+    {"id":"evt-1963-07-27-private-school-act-effective","status":"METADATA_PINNED"},
+    {"id":"evt-1963-06-01-state-public-officials-act-1325-effective","status":"METADATA_PINNED"}
+  ],
+  "adversarial_checks": [
+    "Do not substitute current or later-amended Article 58 wording for the 1963 text.",
+    "Do not treat Wikisource transcription as equivalent to a Gazette image.",
+    "Do not collapse Article 58 dismissal into Article 55 incorporation merely because both can regulate labor activity.",
+    "Do not infer that private teachers became public officials through Article 55.",
+    "Do not infer textual descent from Law 708 Article 13 merely from functional overlap.",
+    "Do not infer subjective legislative intent from later MOLEG interpretation.",
+    "Do not count Article 58 dismissal and Article 66 prohibition as the same legal consequence.",
+    "Do not assume the omitted range in the U-LEX rendering means Article 43 lacked a range; official MOLEG 11-0492 supplies 53-67.",
+    "Do not back-project post-1963 Article 66 amendments into Law No.1325 text.",
+    "Preserve the fact that original Article 58 required disciplinary-committee consent for grounds 2-5 rather than describing dismissal as automatic."
+  ],
+  "priority_leads": [
+    "National Archives/Gazette: obtain Law No.1362 promulgation image and verify Articles 55 and 58(1)(4) against the transcription.",
+    "National Archives/Gazette: obtain Law No.1325 promulgation image and verify Article 66 and Article 84 penalty text.",
+    "National Archives/Gazette: obtain Law No.1463 promulgation image and transcribe Article 43 including the suppressed incorporated range.",
+    "MOLEG 11-0492: trace its cited historical source for former Education Public Officials Act Article 43 word-for-word.",
+    "Law No.1362 drafting file: identify why Article 58 separately named 노동운동 when Article 55 already incorporated public-teacher service rules.",
+    "Supreme Council minutes for Law No.1362: search debate on Article 58 labor-movement dismissal.",
+    "Law No.1325 drafting file: trace Article 66 wording against 1961 Law No.721 and 1962 Law No.1029.",
+    "Retrieve Law No.721 Article 37 amendment text adding 노동운동 and compare wording to Law No.1325 Article 66.",
+    "Retrieve Law No.1029 Article 37 amendment and determine the 1962 change before Law No.1325.",
+    "1961-06-21 Teachers Organization Bill: test whether 노동운동 wording appears and in what legal consequence.",
+    "1960 Teachers Organization Bill BA0084253: test labor/collective-action wording.",
+    "Law No.708 Article 13: transcribe exact labor/collective-action wording from promulgation image.",
+    "Law No.708 draft BA0084271 item20: compare draft Article 13 with promulgated Article 13.",
+    "55th Cabinet minutes: check whether Article 13 was amended in deliberation.",
+    "Law No.1466 repeal file: check whether permanent Article 55/58/66 architecture was cited in repeal rationale.",
+    "1963 Education Public Officials Act drafting file: identify rationale for Article 43 incorporation range 53-67.",
+    "1981 full revision: determine why former Article 43 was removed/restructured.",
+    "Constitutional Court 89헌가106: extract its historical account of Private School Act Articles 55 and 58 and distinguish 1963 wording from 1989 dispute.",
+    "Constitutional Court 90헌바27: extract Article 66 historical lineage and education-public-official application.",
+    "Supreme Court 90도332: isolate Article 66 doctrine without back-projecting it to 1961.",
+    "Supreme Court 90도2310: isolate Article 66 doctrine without back-projecting it to 1961.",
+    "Find amendment that removed 노동운동 from Private School Act Article 58(1)(4), with date, law number, and reason.",
+    "Check whether removal of 노동운동 from Article 58 was coordinated with labor-law or teacher-union legislation.",
+    "Trace Article 58(1)(4) in every amendment layer 1963-1999 to build a temporal clause genealogy.",
+    "Trace Article 55 in every amendment layer to verify official claim that its core text remained unchanged.",
+    "Locate contemporary 1963 legal commentary on Private School Act Article 58.",
+    "Locate contemporary 1963 legal commentary on State Public Officials Act Article 66.",
+    "Locate Korean Education Association publications reacting to the 1963 permanent regime.",
+    "Search US diplomatic reporting for 1963 teacher/public-service labor restrictions as independent observation.",
+    "Identify Cabinet/Supreme Council agenda IDs for Laws 1325, 1362, 1463, 1466.",
+    "Document registry: split each statute into promulgation document, historical-text transcription, drafting file, and later interpretation objects.",
+    "Claim graph: create separate claims for legal incorporation, express dismissal ground, textual descent, functional continuity, and legislative intent.",
+    "Event graph: represent Article 58 dismissal with decided_by/executed_by/legal_authority separately from Article 66 prohibition.",
+    "Actor graph: identify officials responsible for proposing/reviewing Laws 1325, 1362, and 1463 without assigning personal authorship absent minutes.",
+    "강기철 case: identify tribunal/case number/statute and test whether enforcement used temporary or permanent regime.",
+    "김문심 case: identify tribunal/case number/statute and test whether enforcement used temporary or permanent regime."
+  ],
+  "execution_ledger": {
+    "independent_research_lines": 20,
+    "substantive_domains": 6,
+    "non_presidential_nodes_carried_for_deepening": 10,
+    "events_or_subevents": 8,
+    "meaningful_documents_directly_opened": 9,
+    "official_primary_or_archive_class": 3,
+    "adversarial_checks": 10,
+    "open_leads_or_history_debt_followed": 8,
+    "new_concrete_leads": 36,
+    "cross_provenance_bundles": 2,
+    "document_floor_40_met": false,
+    "primary_floor_20_met": false,
+    "cross_provenance_floor_3_met": false,
+    "counting_note": "This run found a material temporal-text correction rather than inflating document counts. Search snippets and duplicate views were not counted."
+  },
+  "actor_nodes_to_deepen": [
+    {"id":"cand-mun-hui-seok","name":"문희석","status":"IDENTIFIED_CONTEXT"},
+    {"id":"cand-seo-myeong-won","name":"서명원","status":"IDENTIFIED_CONTEXT"},
+    {"id":"cand-kim-yong-sun","name":"김용순","status":"DISCOVERED"},
+    {"id":"cand-kang-gi-cheol","name":"강기철","status":"IDENTIFIED_UNION_ACTOR"},
+    {"id":"cand-kim-mun-sim","name":"김문심","status":"IDENTIFIED_UNION_ACTOR"},
+    {"id":"cand-lee-mok","name":"이목","status":"IDENTIFIED_UNION_ACTOR"},
+    {"id":"cand-lee-jong-seok","name":"이종석","status":"IDENTIFIED_UNION_ACTOR"},
+    {"id":"cand-oh-cheon-seok","name":"오천석","status":"VERIFIED_CONTEXT"},
+    {"id":"cand-jang-myeon","name":"장면","status":"VERIFIED_CONTEXT"},
+    {"id":"cand-yun-taek-jung","name":"윤택중","status":"IDENTIFIED_CONTEXT"}
+  ],
+  "weekly_history_debt": "역사부채 주간 전수조사 미실시.",
+  "floot": "NOT_MODIFIED_OR_BUILT"
+}
