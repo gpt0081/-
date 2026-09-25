@@ -1,0 +1,34 @@
+{
+  "pass": 155,
+  "date": "2026-09-26",
+  "focus": "Rhee Syng-man and the 1949 Anti-National Activities Special Committee command chain",
+  "events": [
+    {"id":"evt-1949-anti-national-special-committee-policy-conflict","status":"STRENGTHENED","actors":["pol-rhee-syngman","pol-kim-sangdeok"],"note":"Presidential statements Jan-Feb 1949 document conflict over enforcement scope before June raid."},
+    {"id":"evt-1949-02-16-rhee-special-police-abolition-position","status":"PRIMARY_TARGET_IDENTIFIED","decided_by":["pol-rhee-syngman"],"source_hint":"Presidential Archives speech indexed by NIKH Constitutional History DB"},
+    {"id":"evt-1949-06-06-special-committee-police-raid","status":"DECOMPOSED","executed_by":["org-seoul-metropolitan-police","org-jungbu-police-station"],"observed_by":["pol-kim-byungro"],"note":"Keep arrests/search/seizure operational acts separate from presidential dissolution-order attribution."},
+    {"id":"evt-1949-06-07-rhee-order-admission","status":"VERIFIED","decided_by":["pol-rhee-syngman"],"evidence":["doc-nikh-tcct-1949-06-07-0010"],"claim":"Rhee publicly stated the special-police dissolution was his order."},
+    {"id":"evt-1949-06-06-national-assembly-response","status":"VERIFIED_CONTEMPORANEOUS","opposed_by":["org-national-assembly"],"action":"demanded restoration of special police and cabinet resignation"},
+    {"id":"evt-1949-special-committee-institutional-dismantling","status":"OPEN_GENEALOGY","note":"Later statutory/organizational weakening must not be collapsed into June 6 operational raid."}
+  ],
+  "documents": [
+    {"id":"doc-nikh-tcct-1949-06-07-0010","date":"1949-06-07","institution":"National Institute of Korean History","type":"official chronology / source index","url":"https://db.history.go.kr/id/tcct_1949_06_07_0010","access_date":"2026-09-26","original_obtained":false,"provenance":"NIKH 대한민국사연표"},
+    {"id":"doc-nikh-dh-012-1949-06-06-0050","date":"1949-06-06","institution":"Yonhap Sinmun via NIKH","type":"contemporaneous press transcription","url":"https://db.history.go.kr/id/dh_012_1949_06_06_0050","access_date":"2026-09-26","original_obtained":false,"provenance":"자료대한민국사"},
+    {"id":"doc-nikh-dh-012-1949-06-06-0150","date":"1949-06-06","institution":"Dong-A Ilbo via NIKH","type":"contemporaneous National Assembly report transcription","url":"https://db.history.go.kr/contemp/level.do?levelId=dh_012_1949_06_06_0150","access_date":"2026-09-26","original_obtained":false,"provenance":"자료대한민국사"},
+    {"id":"doc-nikh-dh-012-1949-06-07-0030","date":"1949-06-07","institution":"Chosun Jungang Ilbo via NIKH","type":"contemporaneous judicial press conference transcription","url":"https://db.history.go.kr/contemp/level.do?levelId=dh_012_1949_06_07_0030","access_date":"2026-09-26","original_obtained":false,"provenance":"자료대한민국사"}
+  ],
+  "politician_candidates": [
+    {"id":"pol-kim-taeseon","name":"김태선","hanja":"金泰善","status":"IDENTIFIED","role":"서울시경찰국장","event_links":["evt-1949-06-06-special-committee-police-raid"],"open_lead":"verify birth/death, tenure, Interior Ministry chain and written order"},
+    {"id":"pol-kim-sangdeok","name":"김상덕","hanja":"金尙德","status":"VERIFIED","role":"반민족행위특별조사위원회 위원장","event_links":["evt-1949-anti-national-special-committee-policy-conflict"],"open_lead":"promote to independent annals after primary personnel/committee record pass"},
+    {"id":"pol-kim-byungro","name":"김병로","hanja":"金炳魯","status":"VERIFIED","role":"대법원장","event_links":["evt-1949-06-06-special-committee-police-raid"],"open_lead":"retrieve full June 7 statement and subsequent judicial action"},
+    {"id":"pol-kim-myeongdong","name":"김명동","hanja":"金明東","status":"IDENTIFIED","role":"국회의원/반민특위 관련 인물","open_lead":"verify exact committee role and detention authorization"},
+    {"id":"pol-kim-yaksu","name":"김약수","hanja":"金若水","status":"IDENTIFIED","role":"국회부의장/반민법 추진세력","open_lead":"extract stenographic interventions"},
+    {"id":"pol-shin-ikhee","name":"신익희","hanja":"申翼熙","status":"IDENTIFIED","role":"국회의장/반민법 추진세력","open_lead":"separate Assembly leadership from factional role"},
+    {"id":"pol-lee-in","name":"이인","hanja":"李仁","status":"IDENTIFIED","role":"법무장관","open_lead":"audit primary records for later limitation-period/institutional changes"},
+    {"id":"pol-kwon-seungnyeol","name":"권승렬","hanja":"權承烈","status":"DISCOVERED","role":"1949-06-06 임용 법무장관","open_lead":"determine appointment timing and aftermath role"},
+    {"id":"pol-choi-unha","name":"최운하","hanja":"崔雲霞","status":"IDENTIFIED","role":"서울시경 사찰과장","open_lead":"stabilize biography and detention chronology"}
+  ],
+  "counts":{"research_lines":12,"direct_documents":15,"official_or_primary_transcriptions":12,"adversarial_searches":10,"crosscheck_bundles":2,"open_leads_narrowed":1,"new_leads":32,"non_president_nodes":9,"event_nodes":6},
+  "threshold_note":"Actual counts only; not all requested lower bounds were reached within the execution window.",
+  "weekly_history_debt":"역사부채 주간 전수조사 미실시",
+  "floot":"NOT_MODIFIED_OR_BUILT"
+}
