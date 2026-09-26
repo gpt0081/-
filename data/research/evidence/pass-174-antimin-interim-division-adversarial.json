@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "pass": 174,
+  "createdAt": "2026-09-26",
+  "topic": "반민족행위재판기관 임시특별부 실제 가동 주장과 제78호 입법경로의 adversarial 재검증",
+  "scope": "이승만 backbone / 사법·입법·행정·인사",
+  "flootTouched": false,
+  "findings": [
+    {
+      "id": "ev-p174-001",
+      "claim": "국사편찬위원회 우리역사넷은 1950년 4월 임시특별부 재판부가 설치되어 재판이 재개되었고 6·25전쟁 전 미결자 중 1명이 판결을 받았다고 서술한다.",
+      "status": "SUPPORTED_OFFICIAL_SECONDARY_PENDING_PRIMARY",
+      "source": "국사편찬위원회 우리역사넷 한국사 연대기",
+      "sourceUrl": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_o500500",
+      "provenance": "official_public_history_db_secondary",
+      "accessDate": "2026-09-26",
+      "primaryTargets": ["대법원 임시특별부 사건대장", "1950-04~06 공판기일부", "해당 1건 판결원본", "1950-03~04 재판관 인사발령"]
+    },
+    {
+      "id": "ev-p174-002",
+      "claim": "같은 국사편찬위원회의 헌정사 DB는 제78호를 '순전히 형식적인 조치 이상의 의미를 가질 수 없었다'고 평가한다.",
+      "status": "CONFLICTING_INTERPRETATION_NOT_DISPOSITIVE",
+      "source": "국사편찬위원회 한국사데이터베이스 헌정사 자료 DB",
+      "sourceUrl": "https://db.history.go.kr/item/cons/level.do?levelId=cons_001_0020_0020_0030_0020_0050",
+      "provenance": "official_public_history_db_interpretation",
+      "accessDate": "2026-09-26",
+      "note": "법제사적 평가와 실제 재판 가동 여부를 동일 명제로 취급하지 않는다. 우리역사넷의 작동 서술과 함께 CONFLICTED_PENDING_PRIMARY를 유지한다."
+    },
+    {
+      "id": "ev-p174-003",
+      "claim": "헌정사 DB는 정부가 1949-11-08 국무회의에서 임시조직법안을 가결하고 11-17 국회에 제출했으며, 제44차·50차·57차를 거쳐 12-19 법률 제78호로 공포되었다고 기록한다.",
+      "status": "SUPPORTED_OFFICIAL_SECONDARY_WITH_PRIMARY_COORDINATES",
+      "source": "국사편찬위원회 한국사데이터베이스 헌정사 자료 DB",
+      "sourceUrl": "https://db.history.go.kr/item/cons/level.do?levelId=cons_001_0020_0020_0030_0020_0050",
+      "provenance": "official_public_history_db",
+      "accessDate": "2026-09-26",
+      "primaryTargets": ["제5회 국회 제44차(1949-11-18) 속기록 1-2면", "제50차(1949-11-25) 1면", "제57차(1949-12-03) 2면", "1949-11-08 국무회의록"]
+    },
+    {
+      "id": "ev-p174-004",
+      "claim": "헌정사 DB에 따르면 법사위는 정부안을 원안대로 통과시켰고 본회의에서 실질 심의를 하지 않았으며 자구정리에서도 '정리 개소 없음'으로 보고되었다.",
+      "status": "SUPPORTED_OFFICIAL_SECONDARY_PENDING_MINUTES",
+      "source": "국사편찬위원회 한국사데이터베이스 헌정사 자료 DB",
+      "sourceUrl": "https://db.history.go.kr/item/cons/levelByForm.do?form=%EC%86%8D%EA%B8%B0%EB%A1%9D&levelId=cons_001_0020_0020_0030_0020_0060",
+      "provenance": "official_public_history_db",
+      "accessDate": "2026-09-26"
+    },
+    {
+      "id": "ev-p174-005",
+      "claim": "공개 웹 검색에서 임시특별부 재판관 5인, 서기관·서기, 1950년 판결 1건의 피고인·사건번호를 독립적으로 식별할 1차 원문은 이번 회차에도 확보되지 않았다.",
+      "status": "BLOCKED_PUBLIC_WEB_PRIMARY_NOT_FOUND",
+      "provenance": "negative_search_result",
+      "accessDate": "2026-09-26",
+      "nextTargets": ["관보 1950-03~04 인사발령", "대법원 인사기록", "김병로 상신문", "대법원 사건접수대장", "판결원본 색인"]
+    }
+  ],
+  "adversarialSearches": [
+    "1950-04 임시특별부 재판재개설의 원 판결 탐색",
+    "제78호 완전 사문화설의 반증 탐색",
+    "헌정사 DB 형식적 조치 평가가 미가동을 직접 의미하는지 검토",
+    "우리역사넷 1명 판결 수치의 독립 출처 탐색",
+    "임시특별부 재판관 5인 실명 탐색",
+    "임시특별부 직원 인사기록 탐색",
+    "제44차 정부 제안설명자 실명 탐색",
+    "제50차 법사위 수정 여부 반증",
+    "제57차 자구정리 실질변경 가능성 반증",
+    "권승렬 직책에서 제안행위를 추론하는 오류 점검"
+  ],
+  "result": "1950-04 실제 가동 주장은 공식 2차자료에서 구체적이나 원 사건기록 미확보. 헌정사 DB의 형식적 조치 평가는 반대 방향의 해석이어서 CONFLICTED_PENDING_PRIMARY 유지."
+}
