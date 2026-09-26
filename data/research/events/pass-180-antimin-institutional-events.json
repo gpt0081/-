@@ -1,0 +1,15 @@
+{
+  "pass":180,
+  "date":"2026-09-27",
+  "migration_note":"data/events.json schema를 깨뜨리지 않고 검증 후 승격할 candidate event/sub-event 묶음",
+  "events":[
+    {"id":"evt-cand-antimin-initial-committee","name":"반민족행위특별조사위원 10인 선임","period":"1948-09-29/1948-10-27","proposed_by":["김인식 외 19인"],"decided_by":["제헌국회"],"executed_by":["지역별 국회의원 추천·국회 승인 절차"],"legal_authority":["반민족행위처벌법 제9조"],"actors":["김상돈","조중현","김명동","오기열","김준연","김상덕","이종순","김효석","박우경","김경배"],"evidence":["DOC-P180-01"],"state":"NARROWED","open_question":"위원장 김상덕·부위원장 김상돈의 정확한 호선일과 회의체를 제89차 속기록/위원회 회의록으로 확정"},
+    {"id":"evt-cand-antimin-org-bills","name":"반민족행위 특별조사기관·특별재판부 부속기관 조직법안 제출","date":"1948-10-28","proposed_by":["김상덕 외 조사위원 9인"],"decided_by":["제헌국회 후속 심의"],"legal_authority":["반민족행위처벌법"],"evidence":["DOC-P180-01"],"state":"NARROWED","open_question":"제90차·111차·112차 속기록에서 원안·수정안 제안자와 조문 변화 회수"},
+    {"id":"evt-cand-antimin-special-prosecutor-election","name":"특별재판관·특별검찰관 국회의원 몫 1차 인선","date":"1948-11-30","proposed_by":["반민족행위특별조사위원회 추천"],"decided_by":["제헌국회 본회의"],"actors":["서성달","곽상훈","노일환","서용길","김웅진"],"evidence":["DOC-P180-02"],"state":"VERIFIED_PARTIAL","open_question":"12월 초 법조·일반인 몫 및 검찰관장·차장 최종 선출까지 연결"},
+    {"id":"evt-cand-antimin-prosecution-court-chain","name":"반민특위 조사-특별검찰-특별재판 업무사슬","period":"1949-03/1949-05","executed_by":["반민족행위특별조사위원회","반민족행위특별검찰부","반민족행위특별재판부"],"actors":["김상덕","권승렬","노일환","심상준","최국현","신제익"],"evidence":["DOC-P180-04","DOC-P180-05","DOC-P180-06","DOC-P180-07","DOC-P180-08"],"state":"VERIFIED","open_question":"사건별 송치→기소→판결 연결률을 document registry로 일반화"},
+    {"id":"evt-cand-rhee-antimin-feb16-statement","name":"이승만의 1949-02-16 특경대 폐지·체포금지 담화","date":"1949-02-16","decided_by":["이승만 대통령"],"executed_by":["검찰·내무부에 대한 지시라고 담화에서 서술"],"opposed_by":["반민특위","제헌국회 다수"],"evidence":["DOC-P180-01"],"state":"NARROWED","open_question":"대통령기록관 연설기록 원문과 내무부·검찰 수신/집행문서를 분리 확보"},
+    {"id":"evt-cand-assembly-antimin-feb17-response","name":"국회의 대통령 반민특위 담화 취소요구 동의","date":"1949-02-17","proposed_by":["OPEN"],"decided_by":["제헌국회"],"opposed_by":["대통령 담화 취지"],"evidence":["DOC-P180-01"],"state":"VERIFIED_PARTIAL","open_question":"제33차 속기록에서 제안자·토론자·정확한 표결 명단 여부 확인"},
+    {"id":"evt-cand-government-antimin-amendment","name":"정부 반민족행위처벌법 개정안 제출","date":"1949-02-22","proposed_by":["대한민국 정부"],"decided_by":["정부 제출; 국회 심의"],"legal_authority":["법률안 제출권"],"evidence":["DOC-P180-01"],"state":"NARROWED","open_question":"정부안 전문·국무회의 의결·법무부 기초과정을 원문으로 연결"},
+    {"id":"evt-cand-antimin-march29-deliberation","name":"손영목 사건 조사위원 7인 의견 결의","date":"1949-03-29","executed_by":["반민족행위특별조사위원회"],"actors":["김상덕","김경배","오기열","박우경","김준연","조중현","김명동"],"evidence":["DOC-P180-03"],"state":"VERIFIED","open_question":"나머지 초기 조사위원의 불참 사유·당시 재적 상태를 회의록으로 확인"}
+  ]
+}
