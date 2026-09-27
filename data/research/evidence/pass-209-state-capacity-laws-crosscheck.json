@@ -1,0 +1,95 @@
+{
+  "pass": 209,
+  "date": "2026-09-28",
+  "accessed": "2026-09-28",
+  "scope": "1949 personnel, prosecution, conscription, agrarian reform and local-government state-capacity crosscheck",
+  "documents": [
+    {
+      "id": "doc-lawgo-state-public-officials-act-44",
+      "type": "official_statute_text",
+      "source": "국가법령정보센터",
+      "title": "국가공무원법 [시행 1949.8.12.] [법률 제44호]",
+      "finding": "제2조는 특별규정이 없는 한 별정직에 일반 국가공무원법을 적용하지 않는다고 하고, 제3조는 별정직/일반직을 구분하면서 국무위원·각처장·각부차관·대사·공사·법관·교원·비서·군인·군속 및 기타 법률 지정자를 별정직으로 열거한다. 따라서 검사를 별정직으로 만들려면 제3조 열거 자체가 아니라 '기타법률' 경로가 필요했다.",
+      "provenance": "Korea Ministry of Government Legislation official statute database",
+      "url": "https://www.law.go.kr/LSW/lsInfoP.do?docType=JO&joNo=003400&lsiSeq=5613"
+    },
+    {
+      "id": "doc-spo-prosecutors-act-81-history",
+      "type": "official_institutional_history",
+      "source": "대검찰청/검찰청 공식 연혁",
+      "title": "1949.12.20 법률 제81호 검찰청법",
+      "finding": "정부수립 후 민선 입법기관이 제정한 최초 검찰조직 기본법으로 1949-12-20 제정·공포되었다. 국가공무원법의 '기타법률로 별정직 지정' 구조와 12월 검찰청법 입법을 별개 층으로 연결해야 한다.",
+      "provenance": "Supreme Prosecutors Office official history",
+      "url": "https://www.spo.go.kr/site/namwon/05/10502000000002018102506.jsp"
+    },
+    {
+      "id": "doc-mma-conscription-history-1949-1950-pass209",
+      "type": "official_institutional_history",
+      "source": "병무청",
+      "title": "병무행정 개요/역사",
+      "finding": "병역법 제41호는 1949-08-06 공포·시행되었고 만20세 병역판정검사, 등록통지, 징병구, 현역·호국·보충병 징집규칙을 두었다. 이후 육군본부 병무국과 각 시도 병사구사령부가 설치되고 1950-01-06 최초 전국 병역판정검사가 실시되었으나 1950-03-04 병사구사령부가 해체되었다. 법 제정, 집행기관 구축, 검사 실시, 기관 해체를 서로 다른 sub-event로 유지한다.",
+      "provenance": "Military Manpower Administration official history",
+      "url": "https://mma.go.kr/about/intro/outline.do"
+    },
+    {
+      "id": "doc-nara-land-reform-promulgation-31",
+      "type": "official_archive_document_explainer",
+      "source": "국가기록원 공문서스케치",
+      "title": "농지개혁법(법률 제31호) 제정 공포 문서",
+      "finding": "1949-06-21 제정 공포문서이며 대통령 결재와 국무총리·국무위원 11명의 부서가 있는 것으로 국가기록원이 설명한다. 대통령 단독행위로 모델링하지 않고 공포문서의 부서자들을 행정행위 노드로 회수해야 한다.",
+      "provenance": "National Archives of Korea official archive explainer",
+      "url": "https://theme.archives.go.kr/next/officialDocument/docSketch01.do"
+    },
+    {
+      "id": "doc-aks-land-certificate-reform-sequence",
+      "type": "academic_reference_work",
+      "source": "한국민족문화대백과사전",
+      "title": "지가증권",
+      "finding": "1949-06-21 법률 제31호는 대통령 거부권 행사가 있었으나 시급성을 이유로 개정을 전제로 공포되었고, 본격 시행은 1950-03 법률 제108호와 시행령 이후로 설명된다. 제정법 공포와 실제 분배·보상 시행을 같은 사건으로 합치지 않는다.",
+      "provenance": "Academy of Korean Studies reference work",
+      "url": "https://encykorea.aks.ac.kr/Article/E0080957"
+    },
+    {
+      "id": "doc-seoul-archive-deputy-mayor-authority-1949",
+      "type": "official_local_archive_authority_record",
+      "source": "서울기록원",
+      "title": "서울특별시 부시장 전거",
+      "finding": "서울특별시 부시장 조직 전거는 존립 시작일을 1949-07-04로 두고 설치근거를 지방자치법 법률 제32호로 명시한다. 지방자치법을 추상 법률에 그치지 않고 서울시 조직변화와 연결할 수 있다.",
+      "provenance": "Seoul Metropolitan Archives authority record",
+      "url": "https://archives.seoul.go.kr/authority/ORG-00934"
+    }
+  ],
+  "adversarial_findings": [
+    {
+      "claim": "1949-07 검찰관 별정직 수정안이 통과되어 검사 별정직제가 성립했다",
+      "status": "CONTRADICTED",
+      "reason": "직전 pass의 국회 속기록 계보에서 7월 수정안은 미결 폐기되었다. 국가공무원법 제3조는 검사를 직접 열거하지 않고 '기타법률' 지정 경로를 열어 두므로 12월 검찰청법을 독립 입법 단계로 모델링하는 것이 맞다."
+    },
+    {
+      "claim": "농지개혁은 1949-06-21 법 공포와 동시에 완성 시행되었다",
+      "status": "CONTRADICTED",
+      "reason": "국가기록원은 제31호 공포문서를 확인하지만 한국민족문화대백과는 본격 시행을 1950-03 개정법·시행령 이후로 설명한다. 공포와 집행을 분리한다."
+    },
+    {
+      "claim": "병역법 제정 즉시 안정적인 상설 징병행정이 성립했다",
+      "status": "CONTRADICTED",
+      "reason": "병무청 공식사는 법 제정 뒤 기관 구축과 1950-01-06 검사 실시를 거쳐 1950-03-04 병사구사령부가 다시 해체됐다고 기록한다."
+    },
+    {
+      "claim": "지방자치법은 1949년에 제정됐지만 중앙·지방 행정조직에는 즉시 가시적 변화가 없었다",
+      "status": "NARROWED",
+      "reason": "서울기록원 전거에서 서울특별시 부시장 조직의 존립 시작일과 설치근거가 법 공포일 1949-07-04 및 법률 제32호와 직접 연결된다."
+    }
+  ],
+  "event_updates": [
+    {"id":"evt-1949-national-civil-service-act","date":"1949-08-12","domain":"personnel/administration","legal_authority":"법률 제44호","action":"별정직/일반직 체계와 기타법률에 의한 별정직 지정 경로 구조화"},
+    {"id":"evt-1949-prosecutors-act-special-service-dec","date":"1949-12-20","domain":"justice/personnel","legal_authority":"법률 제81호","action":"7월 미결 수정안과 분리된 입법 단계로 유지"},
+    {"id":"evt-1949-conscription-law","date":"1949-08-06","domain":"defense/administration","legal_authority":"법률 제41호"},
+    {"id":"evt-1949-conscription-administration-buildout","date":"1949-08 to 1950-01-06","domain":"defense/local-administration","executed_by":["국방부","육군본부","병사구사령부"]},
+    {"id":"evt-1950-conscription-administration-dismantling","date":"1950-03-04","domain":"defense/administration","action":"병사구사령부 해체 및 업무 이관"},
+    {"id":"evt-1949-land-reform-promulgation","date":"1949-06-21","domain":"agriculture/economy","legal_authority":"법률 제31호","action":"공포문서의 대통령 결재와 국무총리·국무위원 부서 분리 회수 필요"},
+    {"id":"evt-1950-land-reform-implementation","date":"1950-03","domain":"agriculture/economy","legal_authority":"법률 제108호 및 대통령령 제294호","action":"1949 공포와 분리"},
+    {"id":"evt-1949-seoul-deputy-mayor-organization","date":"1949-07-04","domain":"local-government/personnel","legal_authority":"지방자치법 법률 제32호","action":"서울시 조직 전거와 연결"}
+  ],
+  "notes": "이번 pass는 원이미지 관보/국회 속기록 회수에 실패한 항목을 원문 확보로 과장하지 않았다. Floot untouched."
+}
