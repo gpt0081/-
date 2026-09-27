@@ -1,5 +1,5 @@
 {
-  "pass": 191,
+  "pass": 192,
   "date": "2026-09-27",
   "candidate_id": "cand-lee-jong-sun-antimin-1949",
   "name_ko": "이종순",
@@ -12,16 +12,24 @@
     {"period":"1948-1949","role":"반민족행위특별조사위원회 조사위원","status":"primary-supported: 1949-06-10 resignation report and 1949-06-21 committee document"},
     {"period":"1949-02-04","role":"남북화평통일 긴급동의안 찬성자","status":"primary-supported: 제2회 국회속기록 제22호"},
     {"period":"1949-02-22","role":"농지개혁 임시조치법안 찬성자","status":"contemporary-supported: 서울신문/자료대한민국사"},
-    {"period":"1949-07-23","role":"일민구락부 정식 가입 의원","status":"contemporary-supported: 동아일보/자료대한민국사"}
+    {"period":"1949-06","role":"이정회 부회장으로 보도/정리된 이종순","status":"secondary institutional history; exact hanja/constituency still requires contemporary roster closure"},
+    {"period":"1949-07-23","role":"일민구락부 정식 가입 의원","status":"contemporary-supported: 동아일보/자료대한민국사; roster explicitly prints 李鍾淳"},
+    {"period":"1949-07-29","role":"제4회 국회 제22차 본회의 발언자","status":"official National Assembly Library metadata; speech content not yet transcribed"}
   ],
   "do_not_merge": [
-    {"name":"이종순","hanja":"李鍾純","note":"1908/1909 충남 부여 출생, 제2·5대 국회의원. 별인."},
+    {"name":"이종순","hanja":"李鍾純","note":"1908/1909 충남 부여 출생, 제2·5대 국회의원. 한국사DB 근현대인물자료와 한국민족문화대백과가 충남 관료·후대 의원 경력을 별도로 확인. 별인."},
     {"name":"이종순","hanja":"李鍾諄","note":"1906 부산 출생, 제6대 국회의원. 별인."},
     {"name":"이종순","hanja":"李鍾淳","note":"1949-08 경기도조사부 조사관으로 후대 조직표에 등장. 춘성 제헌의원/중앙 조사위원과 동일인이라는 증거 없음. SAME-HANJA COLLISION."},
     {"name":"이종순","hanja":"李鍾淳","note":"반민법 공소시효 종료 직전 무혐의 처분 피의자 명단에 등장하며 후대 피의자 목록은 전남 경방단장으로 설명. 춘성 제헌의원과 동일인으로 병합 금지. SAME-HANJA COLLISION."}
   ],
   "identity_guard":"李鍾淳 문자열만으로 중앙 조사위원·경기도조사부 조사관·반민 피의자를 자동 병합하지 않는다. 지역·직책·사건철·주소/연령을 추가 키로 요구한다.",
-  "event_links":["evt-1949-02-04-peace-unification-motion","evt-1949-02-22-farmland-interim-bill","evt-1949-06-10-antimin-resignations","evt-1949-06-21-antimin-opinion-signature","evt-1949-07-23-ilmin-club-roster"],
-  "promotion_hold":"stable data/politicians.json 승격은 공식 제헌의원 인명록/당선인 명부로 춘성 李鍾淳 신원을 닫고, 동일 한자 2개 별인 노드와의 충돌을 해소한 뒤 수행한다.",
-  "open_leads":["국회 공식 제헌의원 인명록에서 춘성 李鍾淳 생몰·주소·직업 확인","1948 공식 당선인 명부 원문 확보","1949-08 경기 조사부 李鍾淳 조사관의 주소·연령·임명장 확인","반민 피의자 李鍾淳 사건철에서 전남 경방단장 경력·주소·연령 확인","1949-06-21 문서의 중앙 조사위원 李鍾淳 서명 원형 확인"]
+  "event_links":["evt-1949-02-04-peace-unification-motion","evt-1949-02-22-farmland-interim-bill","evt-1949-06-10-antimin-resignations","evt-1949-06-21-antimin-opinion-signature","evt-1949-07-23-ilmin-club-roster","evt-1949-07-29-na-plenary-22"],
+  "new_evidence_pass_192":[
+    {"source":"National Assembly Library PROC2014000264","date":"1949-07-29","finding":"제4회 국회 제22차 본회의 발언자 목록에 이종순 의원이 포함된다. 안건은 지방체신관서설치법안, 후생복표발행법안, 복표금특별회계법안, 영업세법안이었다. 어느 안건에서 어떤 발언을 했는지는 원문 전사가 필요하다.","provenance":"official parliamentary metadata"},
+    {"source":"NIKH dh_013_1949_07_23_0100","date":"1949-07-23","finding":"일민구락부 정식 가입 45인 명단에 李鍾淳이 명시되어 한자 식별자가 확보된다.","provenance":"contemporary Dong-A Ilbo reproduced by official history DB"},
+    {"source":"NIKH kn_084_0060_0040_0020","date":"1949-08","finding":"경기도조사부 조사관 李鍾淳이 별도로 등장한다. 춘성 의원과 동일인이라는 추가 식별자는 없다.","provenance":"scholarly reconstruction citing Anti-Collaboration Special Committee trial records"},
+    {"source":"NIKH im_108_03851 / AKS E0074785","finding":"李鍾純은 충남 부여 출신 1908/1909년생 관료·제2·5대 의원으로 춘성 李鍾淳과 분리 가능하다.","provenance":"official history DB plus academic encyclopedia"}
+  ],
+  "promotion_hold":"stable data/politicians.json 승격은 공식 제헌의원 인명록/당선인 명부로 춘성 李鍾淳의 생몰·주소·직업을 닫고, 동일 한자 2개 별인 노드와의 충돌을 해소한 뒤 수행한다.",
+  "open_leads":["국회 공식 제헌의원 인명록에서 춘성 李鍾淳 생몰·주소·직업 확인","1948 공식 당선인 명부 원문 확보","PROC2014000264 원문에서 1949-07-29 이종순 발언 안건·발언문 전사","1949-08 경기 조사부 李鍾淳 조사관의 주소·연령·임명장 확인","반민 피의자 李鍾淳 사건철에서 전남 경방단장 경력·주소·연령 확인","1949-06-21 문서의 중앙 조사위원 李鍾淳 서명 원형 확인","1949년 6월 이정회 총회 동시대 명부에서 부회장 이종순의 한자·선거구 확인"]
 }
