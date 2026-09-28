@@ -1,0 +1,64 @@
+{
+  "pass": 227,
+  "date": "2026-09-29",
+  "focus": "장석윤 독립 정치인 노드의 정보·내무행정·지방행정·의회정치 확장과 원문 lead 재설계",
+  "weekly_history_debt_full_review": false,
+  "weekly_history_debt_note": "역사부채 주간 전수조사 미실시. 화요일 회차이며 일요일 첫 실행 조건이 아니다.",
+  "counts": {
+    "independent_research_lines": 6,
+    "governance_domains_substantively_touched": 5,
+    "non_president_politicians_new_or_deepened": 1,
+    "events_or_subevents_structured_or_reinforced": 3,
+    "unique_historical_documents_or_records_directly_opened": 5,
+    "official_primary_contemporaneous_or_archive_documents": 1,
+    "adversarial_searches": 4,
+    "cross_provenance_verification_bundles_completed": 1,
+    "existing_open_leads_or_history_debt_followed": 5,
+    "new_specific_leads": 40
+  },
+  "governance_domains": ["치안", "정보·감찰행정", "내무행정", "지방행정", "입법·헌정"],
+  "key_findings": [
+    "국회도서관 공식 메타데이터에서 1952-02-22 제12회 제21차 본회의 정부측 발언자로 내무부장관 장석윤을 직접 확인해 장관 재임을 의회 원기록 계열로 보강했다.",
+    "대한지방행정공제회 기관사는 1952-02-22 내무부 내 대한지방행정협회 설립총회, 03-21 장석윤 장관에게 설립허가 신청, 04-30 내지지 제47호 인가, 05-01 공제금급여규정 시행, 05-19 법인등기의 행정 연쇄를 제시한다. 다만 개인 발안·결재로 귀속하지 않고 원문 lead로 남겼다.",
+    "AKS 전문가 종합자료를 다시 직접 확인해 장석윤의 대한관찰부 수장→사정국장→치안국장→내무부 차관·장관→민의원 경로를 하나의 독립 정치인 노드에서 연결했다.",
+    "국사편찬위원회 대한민국사연표의 1954·1958 총선 기록을 열어 장석윤의 의원 경력을 둘러싼 전국 선거 맥락을 보강했으나, 개인별 횡성 결과는 중앙선관위 원자료 확인 전 세부 확정을 유보했다."
+  ],
+  "adversarial_results": [
+    "대한관찰부의 정규 국가기관성은 후대 종합서술만으로 확정하지 않고 법적 근거·예산·국회 논쟁을 별도 검증하도록 유지했다.",
+    "대한지방행정협회 인가를 장석윤 개인의 정책 발안으로 확대 귀속하지 않았다.",
+    "발췌개헌에 '앞장섰다'는 후대 전기 서술은 국회·국무회의 원문이 확보될 때까지 구체 행위 claim으로 승격하지 않았다.",
+    "1954·1958 선거 경력은 개인 득표·공천 경로의 공식 원자료가 미확보라 세부 claim을 열어두었다."
+  ],
+  "politician_nodes_new_or_deepened": ["장석윤(ANNALS_ACTIVE 유지, 정보·감찰/지방행정/입법 coverage 확대)"],
+  "events_or_subevents": [
+    "1952-02-22 장석윤 내무부장관 국회 본회의 출석·발언",
+    "1952-02~05 대한지방행정협회 설립·인가 행정 연쇄",
+    "1948~1960 장석윤의 정보·치안·내무·의회 직위 전환 연쇄"
+  ],
+  "files_changed": [
+    "data/research/evidence/pass-227-jang-seok-yun-state-administration-expansion.json",
+    "data/research/politicians/jang-seok-yun.json",
+    "data/research/leads/pass-227-next-lead-queue.json",
+    "data/research/runs/pass-227-execution-ledger.json"
+  ],
+  "commits": [
+    "b0797285fd853b18c186af9c179407a1ad1eb3e7",
+    "4c2ac03ea6e842f7dcefb3c71bc392878cbd0cc2",
+    "88d100f99afc96a9283d7ff816d33fbfd904b3e6"
+  ],
+  "minimums_not_met": [
+    "독립 연구선 20개",
+    "일반 국정영역 6개",
+    "비대통령 정치인 10명",
+    "event/sub-event 8개",
+    "직접 확인 문서 40건",
+    "공식 1차·동시대·아카이브 20건",
+    "adversarial search 10개",
+    "교차검증 3묶음",
+    "기존 open lead/history debt 8개 추적"
+  ],
+  "minimums_met": ["다음 회차 구체 lead 30개 이상(40개)"],
+  "limitations": "이번 실행은 직전 pass 226에서 승격한 장석윤 노드를 치안 사건 단일 축에 가두지 않고 평시 내무·지방행정·의회 기록으로 넓히는 데 집중했다. 국회 회의록은 공식 메타데이터와 원문 제공 식별자까지 확인했으나 발언 전문 페이지 추출은 다음 회차 lead다. 기관사는 유의미한 문서번호 단서를 제공하지만 1차 결재문서가 아니므로 개인행위 귀속에 사용하지 않았다. 실행환경에서 허용된 시간·도구 범위 내 실제 확인량만 기록했으며 최소 하한을 부풀리지 않았다.",
+  "note": "Floot는 수정·빌드하지 않았다. 기존 pass 226의 국민보도연맹 attribution을 덮어쓰지 않고 별도 evidence로 확장했다.",
+  "floot_touched": false
+}
