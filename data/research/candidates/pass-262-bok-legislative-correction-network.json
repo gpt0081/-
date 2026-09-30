@@ -1,0 +1,121 @@
+{
+  "pass": 262,
+  "date": "2026-09-30",
+  "focus": "Primary-source correction and actor expansion from Pass 261: Bank of Korea legislative chain, first Monetary Policy Board, Labor Standards Act metadata",
+  "floot_touched": false,
+  "verified_findings": [
+    {
+      "id": "P262-F01",
+      "claim": "The Labor Standards Act No.286 was promulgated on 1953-05-10, not 1953-05-15.",
+      "status": "RESOLVED",
+      "evidence": [
+        "National Archives Gazette No.890 dated 1953-05-10, record BA0185664 (archive title has an apparent typo 'Act No.28')",
+        "National Institute of Korean History 'Sources of Korean History' independently identifies Labor Standards Act No.286, Gazette No.890, 1953-05-10",
+        "National Law Information Center gives enactment 1953-05-10 and enforcement 1953-08-09",
+        "Ministry of Employment and Labor publication states enactment on 1953-05-10"
+      ],
+      "correction_note": "The Pass 261 conflict was caused by inconsistent secondary/compilation metadata plus an archive catalog typo. Preserve the typo as provenance metadata rather than propagating it as the statute number."
+    },
+    {
+      "id": "P262-F02",
+      "claim": "The 1950-04-21 National Assembly did not merely rubber-stamp the government Bank of Korea bill; the Finance-Economy Committee amendment was adopted after debate.",
+      "status": "VERIFIED",
+      "evidence": [
+        "NIHK contemporary-source compilation, dh_017_1950_04_21_0100, reports adoption of the Finance-Economy Committee amendment and identifies changes including Article 76 wording and exclusion of insurance/trust companies from eligible borrowers.",
+        "Bank of Korea official archive records plenary debate on 1950-04-18 and 04-21 and passage with 102 present, 78 yes, 6 no."
+      ],
+      "attribution_rule": "Separate foreign expert drafting, Korean executive revision, committee amendment, and plenary adoption."
+    },
+    {
+      "id": "P262-F03",
+      "claim": "The first Monetary Policy Board was a multi-actor institution and can seed additional independent politician/administrator nodes.",
+      "status": "VERIFIED",
+      "evidence": [
+        "Bank of Korea 70-year history identifies regular members Choi Sun-ju, Gu Yong-seo, Jang Bong-ho, Ha Sang-yong, Lee Jeong-jae, Yun Posun and Hong Seong-ha; alternate members Kim Yu-taek, Heo Min-su, Yun Ho-byeong, Kim Gyo-cheol, Im Mun-hwan, Lee Jong-hyeon and Kim Do-yeon; Song In-sang and Jang Gi-yeong attended as staff/observers."
+      ],
+      "note": "Membership does not itself prove authorship of individual policy decisions; meeting-by-meeting minutes remain required."
+    }
+  ],
+  "politician_candidates": [
+    {"candidate_id":"pol-cand-hong-seong-ha","name":"홍성하","hanja":"洪性夏","romanization":"Hong Seong-ha / Hong Sung-ha","lifespan":"1898-1978","status":"VERIFIED","roles":["Constituent Assembly member","Finance-Economy Committee chair","Monetary Policy Board member"],"event_links":["evt-1950-bok-assembly-passage","evt-1950-first-monetary-policy-board"],"evidence":"NIHK modern-person database and AKS biography confirm identity and parliamentary roles; BOK history places him on the first Monetary Policy Board.","open_lead":"Extract his exact 1950-04-18/21 committee report and floor statements from the BOK legislative sourcebook/Assembly stenographic record."},
+    {"candidate_id":"pol-cand-kim-su-seon","name":"김수선","hanja":"金壽善","romanization":"Kim Su-seon","lifespan":"1911-06-26/1972-07-25","status":"IDENTIFIED","roles":["Constituent Assembly member","later National Assembly member"],"event_links":["evt-1950-bok-assembly-deliberation"],"evidence":"NIHK modern-person database confirms identity and lifespan. A secondary locator attributes to him a proposal to delay Bank of Korea bill deliberation; primary stenographic verification remains required.","open_lead":"Open the 1950-04-18 79th plenary stenographic record and verify the delay motion wording, supporters, and disposition."},
+    {"candidate_id":"pol-cand-yun-posun-bok","name":"윤보선","hanja":"尹潽善","romanization":"Yun Posun","status":"VERIFIED","roles":["Agriculture-minister-recommended first Monetary Policy Board member","later President of the Republic of Korea"],"event_links":["evt-1950-first-monetary-policy-board"],"evidence":"BOK 70-year history identifies Yun Posun as a regular first-board member recommended by the Agriculture Minister.","open_lead":"Determine the legal nomination/appointment document and whether Yun spoke or voted on the 1950-06-05 charter and opening-date decisions."},
+    {"candidate_id":"pol-cand-jang-gi-yeong","name":"장기영","hanja":"張基榮","romanization":"Jang Gi-yeong / Chang Ki-young","lifespan":"1916-05-02/1977-04-11","status":"VERIFIED","roles":["Bank of Chosen research chief","Bank of Korea vice governor","later Deputy Prime Minister/Economic Planning Board minister","later National Assembly member"],"event_links":["evt-1950-first-monetary-policy-board","wartime-central-banking"],"evidence":"AKS biography confirms central-bank and later political roles; BOK history places him as an attendee at the first board meeting.","open_lead":"Resolve the AKS displayed birth-year inconsistency and extract first-board meeting attendance/minute role before stable-registry promotion."},
+    {"candidate_id":"pol-cand-kim-yu-taek","name":"김유택","hanja":"金裕澤","romanization":"Kim Yu-taek","status":"IDENTIFIED","roles":["Vice Minister of Finance","alternate first Monetary Policy Board member","later Bank of Korea governor"],"event_links":["evt-1950-first-monetary-policy-board"],"evidence":"BOK history identifies him as Finance Ministry alternate member and notes absence from the first meeting.","open_lead":"Verify appointment gazette, tenure as vice minister, and later governor dates from official BOK personnel record."},
+    {"candidate_id":"pol-cand-song-in-sang-bok","name":"송인상","hanja":"宋仁相","romanization":"Song In-sang","lifespan":"1914-03-06/2015-03-22","status":"VERIFIED","roles":["Finance Ministry Treasury Bureau director","Bank of Korea vice governor","later Reconstruction Minister","later Finance Minister"],"event_links":["evt-1950-first-monetary-policy-board","Rhee-era economic administration"],"evidence":"BOK history identifies him as Finance Ministry Treasury Bureau director attending the first board meeting; later official/public biographical trails support cabinet-level political-administrative relevance.","open_lead":"Add official personnel-gazette anchors for each Rhee-era office and connect to reconstruction/stabilization events."},
+    {"candidate_id":"pol-cand-jang-bong-ho","name":"장봉호","romanization":"Jang Bong-ho","status":"IDENTIFIED","roles":["first Monetary Policy Board member elected by financial institutions"],"event_links":["evt-1950-first-monetary-policy-board"],"evidence":"BOK 70-year history lists him as a regular member.","open_lead":"Disambiguate Hanja, lifespan, employing institution and any public/political office before politician-registry promotion."},
+    {"candidate_id":"pol-cand-ha-sang-yong","name":"하상용","romanization":"Ha Sang-yong","status":"IDENTIFIED","roles":["first Monetary Policy Board member elected by financial institutions"],"event_links":["evt-1950-first-monetary-policy-board"],"evidence":"BOK 70-year history lists him as a regular member.","open_lead":"Disambiguate Hanja, lifespan, employing institution and later public roles."},
+    {"candidate_id":"pol-cand-lee-jeong-jae-bok","name":"이정재","romanization":"Lee Jeong-jae","status":"IDENTIFIED","roles":["first Monetary Policy Board member recommended by Korea Chamber of Commerce and Industry"],"event_links":["evt-1950-first-monetary-policy-board"],"evidence":"BOK 70-year history lists him as a regular member.","open_lead":"Disambiguate from same-name political/criminal figures using KCCI and BOK appointment records; do not promote until identity is stable."},
+    {"candidate_id":"pol-cand-heo-min-su","name":"허민수","romanization":"Heo Min-su","status":"IDENTIFIED","roles":["alternate first Monetary Policy Board member","Bank of Korea senior vice governor"],"event_links":["evt-1950-first-monetary-policy-board"],"evidence":"BOK 70-year history lists him as alternate and says he was appointed senior vice governor on 1950-06-07.","open_lead":"Verify full identity, appointment gazette and subsequent public offices."}
+  ],
+  "event_updates": [
+    {"event_id":"evt-1950-bok-assembly-deliberation","date":"1950-04-18","type":"legislative_deliberation","proposed_by":["Government"],"reviewed_by":["National Assembly Finance-Economy Committee chaired by Hong Seong-ha"],"opposed_or_delayed_by":["Kim Su-seon candidate attribution pending primary stenographic verification"],"note":"BOK sourcebook indexes the 79th plenary stenographic record at pp.411ff in one edition / pp.285ff in another."},
+    {"event_id":"evt-1950-bok-assembly-passage","date":"1950-04-21","type":"legislation","decided_by":["National Assembly"],"amended_by":["Finance-Economy Committee"],"legal_authority":"Bank of Korea Act No.138","note":"Contemporary NIHK compilation confirms committee amendment rather than unchanged government text."},
+    {"event_id":"evt-1950-first-monetary-policy-board","date":"1950-06-05","type":"institutional_operation","decided_by":["Monetary Policy Board collectively"],"regular_members":["Choi Sun-ju","Gu Yong-seo","Jang Bong-ho","Ha Sang-yong","Lee Jeong-jae","Yun Posun","Hong Seong-ha"],"attendees_not_to_be_conflated_with_regular_members":["Song In-sang","Jang Gi-yeong"],"note":"First meeting ran 16:30-18:00 at Bank of Chosen meeting room according to BOK 70-year history."},
+    {"event_id":"evt-1953-labor-standards-act-promulgation","date":"1953-05-10","type":"legislation_promulgation","legal_authority":"Labor Standards Act No.286","document":"Gazette No.890 / BA0185664","note":"Resolves Pass 261 date conflict. Enforcement date: 1953-08-09 per National Law Information Center."}
+  ],
+  "adversarial_checks": [
+    "Tested 1953-05-15 against four official/public-institution trails; 1953-05-10 prevailed.",
+    "Preserved National Archives catalog typo 'Act No.28' rather than treating it as substantive contradiction to Act No.286.",
+    "Tested 'foreign experts wrote the law' against committee amendment and plenary adoption evidence; authorship is multi-stage.",
+    "Tested 'government bill passed unchanged' against contemporary April 21 report; committee amendments are explicit.",
+    "Separated committee chair Hong Seong-ha from collective committee decision.",
+    "Separated first-board membership from individual policy authorship.",
+    "Separated regular board members from alternates and attendees.",
+    "Kept Kim Su-seon's delay-motion attribution provisional because the primary stenographic text was not directly opened this pass.",
+    "Kept BOK retrospective institutional history distinct from contemporaneous newspaper compilation.",
+    "Flagged identity ambiguity for Lee Jeong-jae and other nonpolitician financial members instead of forced promotion."
+  ],
+  "documents_directly_opened_or_inspected": [
+    "NIHK dh_017_1950_04_21_0100 contemporary report",
+    "National Archives Gazette keyword record for Gazette No.890 / BA0185664",
+    "NIHK Sources of Korean History modern-social index naming Act No.286 and Gazette No.890",
+    "National Law Information Center Labor Standards Act revision history",
+    "Ministry of Employment and Labor publication on Labor Standards Act enforcement-decree history",
+    "Bank of Korea Digital Archives: Federal Reserve advice and BOK Act enactment",
+    "Bank of Korea Digital Archives: BOK establishment and opening",
+    "Bank of Korea Digital Archives: legislative spirit/revision history",
+    "Bank of Korea sourcebook search/index result for 79th and 82nd plenary stenographic records",
+    "Bank of Korea 70-year history search/index extract identifying first board members",
+    "NIHK modern-person record for Hong Seong-ha",
+    "NIHK modern-person record for Kim Su-seon",
+    "AKS biography for Hong Seong-ha",
+    "AKS biography for Jang Gi-yeong",
+    "AKS labor-movement entry for Jeon Jin-han"
+  ],
+  "counts": {"independent_research_lines":20,"policy_domains_touched":6,"nonpresident_actors_investigated":10,"event_or_subevent_updates":4,"meaningful_documents_opened":15,"official_primary_or_public_institution":13,"adversarial_checks":10,"open_leads_pursued":8,"completed_three_family_crosschecks":1,"next_leads":32},
+  "next_lead_queue": [
+    "BOK sourcebook: open pp.411-444 (or alternate edition pp.285-318), 1950-04-18 79th plenary, extract every named speaker and motion.",
+    "BOK sourcebook: open pp.445-480 (or alternate pp.319-352), 1950-04-21 82nd plenary, extract amendment sponsors and vote procedure.",
+    "National Assembly original stenographic archive: match the 79th/82nd plenary scans against BOK transcription for OCR/transcription errors.",
+    "National Archives: open Gazette No.890 image for Act No.286 and verify printed statute number, promulgation clause and signatures.",
+    "National Law Information Center: capture original 1953 Act No.286 full text and supplementary provisions.",
+    "MOEL/KLI: trace bill-drafting committee records for the Labor Standards Act and distinguish ministry draft from Assembly amendments.",
+    "December 1952 Assembly stenographic records: locate Jeon Jin-han emergency motion and exact three-bill wording.",
+    "Early 1953 Assembly records: identify sponsors/reporters for Acts 279, 280 and 281.",
+    "Early 1953 Assembly records: identify sponsors/reporters and amendments for Act 286.",
+    "BOK archive: retrieve the 1952 forty-question letter to Bloomfield and response, focusing on board-versus-governor authority.",
+    "BOK first Monetary Policy Board minutes 1950-06-05: identify motions, proposers, seconds, votes and abstentions.",
+    "BOK first board appointment documents: verify legal appointment path for Yun Posun and Hong Seong-ha.",
+    "KCCI archive: identify Lee Jeong-jae recommended to first board and eliminate same-name ambiguity.",
+    "Financial-institution records: identify Jang Bong-ho and Ha Sang-yong employing institutions and Hanja.",
+    "BOK personnel records: verify Heo Min-su full identity and 1950-06-07 senior vice-governor appointment.",
+    "BOK personnel records: verify Kim Yu-taek vice-minister/alternate-board role and later governorship.",
+    "Official gazettes: verify Song In-sang's Treasury Bureau director appointment before stable registry promotion.",
+    "Official gazettes: verify Jang Gi-yeong's BOK vice-governor appointment and exact 1950 date.",
+    "NIHK/Assembly: trace Hong Seong-ha's committee report on central-bank independence and government authority.",
+    "Assembly: test whether Kim Su-seon's alleged one-year delay motion was formal, amended, withdrawn or defeated.",
+    "ECA/Federal Reserve archival trail: locate Bloomfield/Jensen February 1950 draft transmission cover letter.",
+    "ECA legal files: locate Ernst Fraenkel's review memorandum and exact changes adopted.",
+    "Finance Ministry files: locate Fiscal-Financial Committee revision minutes between expert draft and cabinet bill.",
+    "Legislation Office files: locate special committee minutes reviewing the BOK bill before cabinet passage.",
+    "Cabinet minutes 1950-03-14: identify attendees and objections on BOK bill approval.",
+    "Cabinet/Presidential records 1950-05-11: recover establishment-committee appointment list under Decree No.350.",
+    "NEC/Interior Ministry: obtain original 1952 local-election result tables deferred from Pass 261.",
+    "Daegu municipal archive: obtain the 29-member first Daegu City Council roster elected 1952-04-25.",
+    "Busan municipal archive: obtain the 35-member first Busan City Council roster and leadership election minutes.",
+    "Cross-check local councillor rosters against later National Assembly/cabinet careers to identify politician nodes.",
+    "Compare BOK legal independence clauses with wartime emergency-finance practice in 1950-53 board minutes.",
+    "Create a reusable document-registry migration entry for the BOK sourcebook so its government bills, stenographic records and gazettes can be shared across actors/events without duplicate URLs."
+  ]
+}
