@@ -1,0 +1,199 @@
+{
+  "pass": 268,
+  "date": "2026-10-01",
+  "focus": "Adversarial audit of the So Min-ho investigation committee's changing composition, plus stronger election/person provenance for investigator nodes",
+  "floot_touched": false,
+  "continuation_from": "pass-267-so-min-ho-release-and-investigator-identities.json",
+  "material_findings": [
+    {
+      "finding": "A contemporaneous Seoul Shinmun report dated 1952-04-27 says the National Assembly Interior Committee initially planned a five-member Suncheon investigation team: Jo Sun, Yu Hong, Lee Seok-gi, Kim Jeong-gi and Choi Ju-il.",
+      "evidence": ["NIHK-dh025-19520425-0100"],
+      "status": "CONTEMPORARY_REPORT"
+    },
+    {
+      "finding": "The archival catalog for Investigation Report No.1 dated 1952-05-09 instead names six special investigators: Yu Hong, Kim Gwang-jun, Jo Sun, Kim Jeong-gi, Jo Jeong-hun and Lee Seok-gi. Choi Ju-il is absent, while Kim Gwang-jun and Jo Jeong-hun appear.",
+      "evidence": ["NIHK-fs002-box15-so-min-ho-trial"],
+      "status": "ARCHIVAL_CATALOG"
+    },
+    {
+      "finding": "The five-person April 27 press list and six-person May 9 report list must not be flattened into one committee membership fact. The safest current model is preliminary/planned delegation versus later report-signing special investigation committee, pending the Assembly appointment resolution and original report signatures.",
+      "status": "CONFLICT_NARROWED_NOT_RESOLVED"
+    },
+    {
+      "finding": "Choi Ju-il is independently anchored as a legislator associated with Gimje and appears in a December 1952 National Assembly investigation context. This makes him a legitimate politician-node candidate rather than a likely OCR/name error.",
+      "evidence": ["NIHK-dh027-19521205-0070"],
+      "status": "IDENTIFIED"
+    },
+    {
+      "finding": "A 1948 UNTCOK candidate-list document also indexes Choi Ju-il, providing a pre-1952 political trace, but the exact 1948 constituency/result must be extracted before treating it as an elected-office role.",
+      "evidence": ["NIHK-pu006-0190"],
+      "status": "LEAD_WITH_PRIMARY_ARCHIVE"
+    },
+    {
+      "finding": "The Central Election Commission compilation preserved by NIHK gives Kim Gwang-jun as the 1950 Ulchin winner, age 36, lawyer, independent, with 15,697 votes; Jo Jeong-hun as the Namwon winner, age 36, farmer, independent, with 17,022 votes.",
+      "evidence": ["NIHK-dh017-19500601-0030"],
+      "status": "OFFICIAL_ELECTION_COMPILATION"
+    },
+    {
+      "finding": "The same election-source family plus contemporary election reporting supplies Hanja/name anchors for Jo Sun 趙淳, Jo Jeong-hun 趙定勳, Kim Gwang-jun 金光俊, Kim Jeong-gi 金正基 and Lee Seok-gi 李錫基, reducing modern-namesake contamination risk.",
+      "evidence": ["NIHK-npfp-19500602-0070", "NIHK-dh017-19500601-0030"],
+      "status": "IDENTITY_DECONFLICTION"
+    },
+    {
+      "finding": "NIHK's person registry preserves Lee Seok-gi's birth conflict as 1907 versus 1908-01-02; this remains a provenance conflict, not a field to normalize silently.",
+      "evidence": ["NIHK-im108-02928"],
+      "status": "CONFLICTED_FIELD"
+    },
+    {
+      "finding": "NIHK's person registry gives Kim Jeong-gi as 金正基, born 1893, and records service as Suncheon county head, Mokpo mayor/buyeon, second-Assembly member and investigator in the National Defense Corps, Chosun Textile and So Min-ho cases.",
+      "evidence": ["NIHK-im101-21542"],
+      "status": "VERIFIED_PERSON_NODE"
+    },
+    {
+      "finding": "FRUS document 135 describes the Assembly's May 14 action under Constitution Article 49, while the NIHK constitutional-history synthesis cites the exact Korean stenographic target as the 12th regular session record No.57 dated 1952-05-14. This narrows the next retrieval target without substituting the synthesis for the stenographic original.",
+      "evidence": ["FRUS-1952-54-v15p1-d135", "NIHK-cons002-0010"],
+      "status": "CROSS_PROVENANCE_TARGET_NARROWED"
+    }
+  ],
+  "actor_updates": [
+    {
+      "candidate_id": "pol-cand-choi-ju-il",
+      "name": "최주일",
+      "hanja": "崔主日",
+      "research_status": "IDENTIFIED",
+      "verified_roles": ["국회의원", "1952-04 서민호 사건 국회 내무위원회 5인 현지조사단 계획 명단"],
+      "connections": ["evt-1952-so-min-ho-investigation", "evt-1952-tungsten-fertilizer-investigation"],
+      "evidence": ["NIHK-dh025-19520425-0100", "NIHK-dh027-19521205-0070", "NIHK-pu006-0190"],
+      "open_leads": ["Resolve exact second-Assembly constituency/party and life dates from official Assembly/election registry.", "Determine why Choi Ju-il appears in the April 27 five-person planned team but not the May 9 six-person report."],
+      "history_debt": "Committee membership transition between 1952-04-27 and 1952-05-09 remains undocumented at resolution/minutes level."
+    },
+    {
+      "candidate_id": "pol-cand-kim-gwang-jun-1952",
+      "name": "김광준",
+      "hanja": "金光俊",
+      "research_status": "VERIFIED",
+      "verified_roles": ["제2대 국회의원, 강원 울진, 무소속", "변호사", "헌법위원 예비위원", "1952-05-09 서민호 사건 특별조사위원"],
+      "evidence": ["NIHK-dh017-19500601-0030", "NIHK-tcct-19500904-0010", "NIHK-fs002-box15-so-min-ho-trial"],
+      "open_leads": ["Resolve birth/death dates from person/member registry."]
+    },
+    {
+      "candidate_id": "pol-cand-jo-jeong-hun-1952",
+      "name": "조정훈",
+      "hanja": "趙定勳",
+      "research_status": "VERIFIED",
+      "verified_roles": ["제2대 국회의원, 전북 남원, 무소속", "1950 election occupation: 농업", "1952-05-09 서민호 사건 특별조사위원"],
+      "evidence": ["NIHK-dh017-19500601-0030", "NIHK-npfp-19500602-0070", "NIHK-fs002-box15-so-min-ho-trial"],
+      "open_leads": ["Resolve life dates and Assembly committee assignments."]
+    },
+    {
+      "candidate_id": "pol-cand-jo-sun-1952",
+      "name": "조순",
+      "hanja": "趙淳",
+      "research_status": "VERIFIED",
+      "evidence": ["NIHK-npfp-19500602-0070", "NIHK-dh025-19520425-0100", "NIHK-fs002-box15-so-min-ho-trial"],
+      "identity_note": "1950s legislator; keep distinct from later economist-politician Cho Soon.",
+      "open_leads": ["Resolve life dates and full second-Assembly biography."]
+    }
+  ],
+  "event_updates": [
+    {
+      "event_id": "evt-1952-so-min-ho-investigation-preliminary-delegation",
+      "date": "1952-04-25/27",
+      "proposed_by": ["National Assembly Interior Committee"],
+      "participants_reported": ["조순", "유홍", "이석기", "김정기", "최주일"],
+      "status": "CONTEMPORARY_PRESS_REPORTED_PLANNED_TEAM"
+    },
+    {
+      "event_id": "evt-1952-so-min-ho-investigation-report1",
+      "date": "1952-05-09",
+      "participants_cataloged": ["유홍", "김광준", "조순", "김정기", "조정훈", "이석기"],
+      "status": "ARCHIVAL_REPORT_CATALOG; original signatures pending"
+    },
+    {
+      "event_id": "evt-1952-so-min-ho-committee-composition-transition",
+      "date_range": ["1952-04-27", "1952-05-09"],
+      "change": {"out": ["최주일"], "in": ["김광준", "조정훈"], "net_members": "+1"},
+      "status": "OPEN; do not infer resignation/replacement mechanism without Assembly minutes"
+    },
+    {
+      "event_id": "evt-1952-so-min-ho-release-resolution",
+      "date": "1952-05-14",
+      "legal_authority_reported": "Constitution Article 49",
+      "original_target": "국회사무처 제12회 국회정기회의속기록 제57호, 1952-05-14",
+      "status": "TARGET_NARROWED; original stenographic text not yet opened"
+    }
+  ],
+  "documents_opened": [
+    {"id":"NIHK-dh025-19520425-0100","date":"1952-04-25","title":"국회의원 徐珉濠, 살인혐의로 체포","provenance":"NIHK / Seoul Shinmun 1952-04-27","url":"https://db.history.go.kr/id/dh_025_1952_04_25_0100"},
+    {"id":"NIHK-fs002-box15-so-min-ho-trial","title":"NARA Box 15 363.11-So, Min Ho Trial. 1952 archival catalog","provenance":"NIHK overseas-source guide / NARA cataloged records","url":"https://db.history.go.kr/id/fs_002_0030_0020_0010"},
+    {"id":"NIHK-dh027-19521205-0070","date":"1952-12-05","title":"국회, 중석불 입도매매 관련 조사 보고","provenance":"NIHK / Minju Sinbo","url":"https://db.history.go.kr/contemp/level.do?levelId=dh_027_1952_12_05_0070"},
+    {"id":"NIHK-pu006-0190","date":"1948-05-06","title":"List of Election Candidates","provenance":"UNTCOK records preserved by NIHK","url":"https://db.history.go.kr/id/pu_006_0190"},
+    {"id":"NIHK-dh017-19500601-0030","date":"1950-06-01","title":"제2대 국회의원 선거 당선자와 차점자의 득표수","provenance":"Central Election Commission compilation preserved by NIHK","url":"https://db.history.go.kr/contemp/level.do?levelId=dh_017_1950_06_01_0030"},
+    {"id":"NIHK-npfp-19500602-0070","date":"1950-06-02","title":"각 지방 당선자","provenance":"NIHK / Jayu Sinmun","url":"https://db.history.go.kr/id/npfp_1950_06_02_v0001_0070"},
+    {"id":"NIHK-im108-02928","title":"이석기 李錫基 근현대인물자료","provenance":"NIHK person registry","url":"https://db.history.go.kr/id/im_108_02928"},
+    {"id":"NIHK-im101-21542","title":"김정기 金正基 근현대인물자료","provenance":"NIHK person registry","url":"https://db.history.go.kr/id/im_101_21542"},
+    {"id":"FRUS-1952-54-v15p1-d135","date":"1952-05-23 context","title":"Memorandum of Conversation / So Min-ho footnote","provenance":"US Department of State FRUS","url":"https://history.state.gov/historicaldocuments/frus1952-54v15p1/d135"},
+    {"id":"NIHK-cons002-0010","title":"헌정사 자료 DB, 1952 정치파동 서술 및 주석","provenance":"NIHK constitutional-history DB","url":"https://db.history.go.kr/item/cons/level.do?levelId=cons_002_0010"}
+  ],
+  "adversarial_checks": [
+    "Tested whether Pass 267's six-investigator list was already the original field delegation; contemporary press contradicts that simplification.",
+    "Did not treat Choi Ju-il's absence from the May 9 report as proof he resigned or was removed.",
+    "Did not treat Kim Gwang-jun and Jo Jeong-hun's May 9 presence as proof of the date/mechanism of their appointment.",
+    "Separated a planned Interior Committee field team reported in press from the later report-signing special committee.",
+    "Used constituency/Hanja evidence to reduce namesake risk rather than matching names alone.",
+    "Preserved Lee Seok-gi's birth-date conflict rather than choosing the more precise-looking date.",
+    "Treated FRUS's Article 49 characterization as corroboration, not a replacement for Korean stenographic/legal originals.",
+    "Treated the NIHK constitutional-history synthesis as a locator for Record No.57, not as the primary record itself.",
+    "Did not infer guilt, innocence, neutrality or partisan motive from committee membership.",
+    "Did not infer Choi Ju-il's 1948 election outcome from appearance in a UNTCOK candidate list."
+  ],
+  "history_debt_updates": [
+    {
+      "id": "HD-RHEE-006",
+      "status": "NARROWED",
+      "update": "So Min-ho branch now contains a committee-composition transition question: contemporary Apr.27 five-person planned team differs from May.9 six-person Report No.1 list. Retrieve Assembly appointment/replacement minutes before assigning stable membership dates. Release-resolution original target narrowed to 12th regular session stenographic record No.57 (1952-05-14)."
+    }
+  ],
+  "next_leads": [
+    "National Assembly, 12th regular session stenographic record No.57, 1952-05-14: open full So Min-ho release debate/resolution, proposer, Article 49 wording and vote.",
+    "National Assembly Interior Committee minutes, 1952-04-25 through 1952-05-09: identify original five-person delegation authorization and any replacement/enlargement motion.",
+    "NARA Box 15 363.11-So, Min Ho Trial: open Report No.1 and transcribe cover, signatures, date, committee title and attachment list.",
+    "NARA Box 15 same folder: open Report No.2 and identify whether it is committee-authored, stenographic, or a reproduced So Min-ho statement.",
+    "NARA Box 15 same folder: open Report No.3 and map prosecution assertions to named investigators and attachments.",
+    "National Assembly member registry: resolve Choi Ju-il 崔主日 constituency, party, birth/death and committee assignments.",
+    "Central Election Commission 1950 official tables: locate Choi Ju-il row and reconcile with later Gimje association.",
+    "UNTCOK 1948 candidate list original image: extract Choi Ju-il constituency and candidacy metadata; do not infer election result from index.",
+    "National Assembly records around 1952-05-09: find formal naming of Yu Hong, Kim Gwang-jun, Jo Sun, Kim Jeong-gi, Jo Jeong-hun, Lee Seok-gi.",
+    "Contemporary newspapers 1952-04-27 to 1952-05-10: trace when Choi Ju-il disappears and Kim Gwang-jun/Jo Jeong-hun enter the investigation team.",
+    "National Assembly member registry: resolve Kim Gwang-jun 金光俊 birth/death and committee assignments.",
+    "National Assembly member registry: resolve Jo Jeong-hun 趙定勳 birth/death and committee assignments.",
+    "National Assembly member registry: resolve Jo Sun 趙淳 birth/death and committee assignments, maintaining namesake guard.",
+    "NIHK person sources: reconcile Lee Seok-gi 1907 versus 1908-01-02 birth variants by underlying source date and authority.",
+    "NIHK/Assembly biography: resolve Kim Jeong-gi death date and exact Suncheon county head/Mokpo mayor terms.",
+    "Corrections/prison records Busan 1952-05-14 to 1952-05-19: locate physical-release order and receiving officer.",
+    "Military-police/martial-law records 1952-05-25: locate So Min-ho re-arrest order and sender/recipient chain.",
+    "FRUS telegram 1160, Pusan 1952-05-26, 795B.00/5-2652: retrieve full text or archival scan.",
+    "UN document A/2187 pp.6,18-19,36-38: open full pages and separate UN observation from Korean-party claims.",
+    "1952-04-24 Suncheon police first incident report: identify first witness list, weapon custody and arrest basis.",
+    "1952-04-25 joint interrogation record: separate Army CIC, prosecution, police and military-police roles.",
+    "Han Kyok-man 1952-05-10 prosecution announcement: retrieve original Korean text and compare with Report No.3.",
+    "So Min-ho trial opening 1952-05-22: retrieve court minutes/press transcript and identify charges and defense theory precisely.",
+    "Sunchon scene photographs 1952-06-20 in Box 15: transcribe captions and chain-of-custody identifiers.",
+    "National Assembly 1950-06-23 emergency motion: retrieve full Yeosu-Suncheon retrial motion and all 20 sponsors.",
+    "US Embassy source behind NIHK 1951-07-06 Rhee-So conflict chronology: retrieve cable and distinguish quotation from Embassy inference.",
+    "Assembly Interior Committee minutes 1950-1952: map So Min-ho chairmanship dates and ordinary oversight agenda.",
+    "1952 local-election inspection authorization: identify formal basis for So Min-ho's Suncheon trip.",
+    "Jeong Jin-dong personnel/Assembly record: decide politician-node versus official-node classification based on verified office.",
+    "Constitution Article 49 1948 original promulgated text: link exact Korean wording to May 14 resolution without relying on later paraphrase.",
+    "National Assembly May 1952 records: identify whether the release vote was roll-call, voice vote, or another procedure.",
+    "Contemporary May 19-20 press: compare physical-release time and authority across Chosun, Dong-A, Seoul and regional papers.",
+    "Presidential/Interior Ministry records May 1952: search for correspondence reacting to So Min-ho release before martial law.",
+    "Police chief Yun Kyong appointment record May 24 1952: verify office/title and relation to subsequent arrests.",
+    "Home Minister Yi Pom-sok and Vice Minister Hong Pom-hui appointment records immediately before martial law: verify exact effective dates.",
+    "Martial-law proclamation original Korean text: identify geographic scope, legal basis, commander and promulgation mechanism.",
+    "National Assembly quorum/arrest records May 25-27: identify the four legislators arrested after So Min-ho and legal process for each.",
+    "Cross-check Choi Ju-il in December 1952 tungsten/fertilizer inquiry against Assembly minutes to determine his party alignment at that date.",
+    "Locate Choi Ju-il memorial/local-government archival biography only as a lead, then verify any political/biographical claims against official records.",
+    "Document-registry migration: when originals are opened, assign stable document IDs separately to Apr.27 press report, May.9 Report No.1, May.14 stenographic record, May.19 custody paper and May.25 re-arrest order."
+  ]
+}
