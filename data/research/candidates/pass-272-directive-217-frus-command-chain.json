@@ -1,0 +1,154 @@
+{
+  "pass": 272,
+  "date": "2026-10-01",
+  "focus": "Busan Political Crisis: open Army HQ Directive No.217 and triangulate martial-law/troop-transfer command chain",
+  "floot_touched": false,
+  "continuation_from": "pass-271-busan-crisis-military-neutrality-command-chain.json",
+  "material_findings": [
+    {
+      "finding": "The primary text of Army Headquarters Directive No.217, 'To Army Soldiers', is now directly opened in the National Institute of Korean History's Materials on Korean History. It is dated 1952-05-27, addressed from Army Headquarters in Daegu to all unit commanders, and signed by Army Chief of Staff Lt. Gen. Lee Jong-chan. The text states that the armed forces are not subordinate to any institution or individual, must remain aloof from political affairs, and must preserve the military chain of command.",
+      "evidence": ["NIHK-dh_025_1952_05_27_0050"],
+      "status": "PRIMARY_TEXT_OPENED"
+    },
+    {
+      "finding": "Directive 217 itself does not name President Rhee, the martial-law commander, or a specific troop-transfer request. Therefore it is evidence of Lee Jong-chan's institutional neutrality position, but it must not by itself be represented as a written refusal addressed to Rhee.",
+      "evidence": ["NIHK-dh_025_1952_05_27_0050"],
+      "status": "ADVERSARIAL_SCOPE_LIMIT"
+    },
+    {
+      "finding": "A May 27 FRUS telegram by Chargé Lightner records Gen. Van Fleet stating that neither he nor the ROK Army Chief of Staff had been informed or consulted in advance of the martial-law decision. Van Fleet also said he had advised Gen. Lee that he would not approve transfers of combat troops to Pusan because this would weaken the front.",
+      "evidence": ["FRUS1952-54v15p1-d144"],
+      "status": "CONTEMPORARY_US_DIPLOMATIC_RECORD"
+    },
+    {
+      "finding": "The same May 27 telegram preserves Rhee's own account that the cabinet decided on martial law, that he suggested including Pusan, and that because of urgency written orders from the Chief of Staff were not obtained. Rhee said he telephoned Gen. Lee, after which the defense minister would issue the decree, Won Yong-deok would be appointed martial-law commander, and Won would take orders directly from the President. This is a principal-actor account recorded contemporaneously by US diplomats and materially narrows the formal command-chain question, while still requiring the Korean decree/order for domestic primary confirmation.",
+      "evidence": ["FRUS1952-54v15p1-d144"],
+      "status": "PARTY_ACCOUNT_IN_CONTEMPORARY_DIPLOMATIC_RECORD"
+    },
+    {
+      "finding": "Lightner further recorded that Rhee accused Lee Jong-chan of involvement in a plot and displayed messages he said Lee had sent to Won and other officers, allegedly countermanding the prior oral understanding and directing the martial-law commander not to act except under Lee's instructions. Van Fleet defended Lee's loyalty and described his commitment to keeping the army out of internal politics. The alleged Lee-to-Won messages are now a concrete primary-document target and must not be treated as verified until recovered.",
+      "evidence": ["FRUS1952-54v15p1-d144"],
+      "status": "ALLEGED_DOCUMENT_CHAIN_IDENTIFIED"
+    },
+    {
+      "finding": "A later November 3 FRUS memorandum records Gen. Lemnitzer's retrospective account that Rhee demanded two Korean divisions be moved south to execute martial law, Van Fleet refused the two-division request, and one company was nevertheless authorized and apparently moved to Pusan. This complicates any simple claim that Lee Jong-chan alone blocked troop movement: the UN command layer also exercised operational control and refusal authority over combat-unit transfer.",
+      "evidence": ["FRUS1952-54v15p1-d296"],
+      "status": "LATER_HIGH_LEVEL_US_MILITARY_ACCOUNT"
+    },
+    {
+      "finding": "The command graph should therefore distinguish at least four layers: Rhee/cabinet political decision; Defense Ministry decree channel; Won Yong-deok's martial-law command; and ROK Army/UNC operational-control constraints on combat troop movement. Direct presidential control over Won, as reported by Rhee to Van Fleet and Lightner, must not be collapsed into proof that every arrest or detention order personally originated with Rhee.",
+      "evidence": ["FRUS1952-54v15p1-d144", "FRUS1952-54v15p1-d296"],
+      "status": "CROSS_DOCUMENT_INFERENCE"
+    },
+    {
+      "finding": "The May 28 National Assembly record reproduced by NIHK shows the Assembly passed a resolution demanding termination of martial law in Pusan by 96-3 with 139 present, after debate explicitly referring to the forced detention of more than forty legislators' vehicle. This independently anchors legislative institutional opposition and the Assembly's own legal response rather than relying solely on US reporting.",
+      "evidence": ["NIHK-dh_025_1952_05_28_0070"],
+      "status": "DOMESTIC_CONTEMPORARY_RECORD"
+    },
+    {
+      "finding": "The May 30 FRUS telegram records the US demand that martial law be lifted in Pusan and notes UNCURK's recommendation that detained Assembly members be released so the legislature could function normally. Rhee replied that martial law would be lifted shortly while defending the arrests as an internal matter. This supplies an adversarial pairing of external institutional criticism and Rhee's counter-position in one contemporaneous record.",
+      "evidence": ["FRUS1952-54v15p1-d149"],
+      "status": "CONTEMPORARY_DIPLOMATIC_RECORD_WITH_COUNTERPOSITION"
+    },
+    {
+      "finding": "June 2-4 FRUS records show the crisis was not solely Rhee versus foreign actors: on June 3 Prime Minister Chang reported that most cabinet members refused to support Rhee's proposed dissolution of the National Assembly, and Rhee backed down at least temporarily after cabinet resistance and Truman's intervention. This creates a cabinet-level opposed_by branch that should be separately modeled.",
+      "evidence": ["FRUS1952-54v15p1-d159", "FRUS1952-54v15p1-d162", "FRUS1952-54v15p1-d163"],
+      "status": "CABINET_INTERNAL_OPPOSITION_CORROBORATED_BY_DIPLOMATIC_REPORTING"
+    }
+  ],
+  "actor_updates": [
+    {"candidate_id":"pol-lee-jong-chan-1916","name":"이종찬","hanja":"李鍾贊","research_status":"VERIFIED_PRIMARY_TEXT","action":"issued Directive 217 as Army Chief of Staff; maintained military-neutrality/chain-of-command position","evidence":["NIHK-dh_025_1952_05_27_0050","FRUS1952-54v15p1-d144"]},
+    {"candidate_id":"pol-rhee-syngman","name":"이승만","hanja":"李承晩","research_status":"ANNALS_ACTIVE","action":"reported cabinet decision on martial law, his suggestion to include Pusan, and direct-order arrangement for Won; sought additional combat troop movement according to US military accounts","evidence":["FRUS1952-54v15p1-d144","FRUS1952-54v15p1-d296"]},
+    {"candidate_id":"pol-won-yong-deok","name":"원용덕","hanja":"元容德","research_status":"IDENTIFIED_ROLE_NARROWED","action":"named by Rhee in contemporaneous FRUS record as appointed martial-law commander taking orders directly from President","evidence":["FRUS1952-54v15p1-d144"],"open_leads":["Recover Korean appointment/decree and exact jurisdiction.","Recover Lee-to-Won messages alleged by Rhee."]},
+    {"candidate_id":"pol-shin-tae-young","name":"신태영","hanja":"申泰英","research_status":"IDENTIFIED_ROLE_NARROWED","action":"Defense Minister channel identified in Rhee's account as issuer of martial-law decree","evidence":["FRUS1952-54v15p1-d144"],"open_leads":["Recover Defense Ministry decree/order and determine authorship/transmission chain."]},
+    {"candidate_id":"pol-chang-taek-sang","name":"장택상","hanja":"張澤相","research_status":"VERIFIED_CRISIS_ACTOR","action":"Prime Minister reported cabinet resistance to Rhee's June 3 dissolution plan and acted as source for cabinet deliberation","evidence":["FRUS1952-54v15p1-d163"]},
+    {"candidate_id":"mil-james-van-fleet","name":"James A. Van Fleet","research_status":"VERIFIED_EXTERNAL_MILITARY_ACTOR","action":"opposed use/transfer of combat troops for Pusan political crisis and pressed Rhee on martial-law military necessity","evidence":["FRUS1952-54v15p1-d144","FRUS1952-54v15p1-d296"]},
+    {"candidate_id":"dip-edwin-lightner","name":"Edwin A. Lightner","research_status":"VERIFIED_EXTERNAL_DIPLOMATIC_OBSERVER","action":"contemporaneous reporting and direct representations to Rhee","evidence":["FRUS1952-54v15p1-d144","FRUS1952-54v15p1-d149"]},
+    {"candidate_id":"mil-mark-clark","name":"Mark W. Clark","research_status":"VERIFIED_EXTERNAL_MILITARY_ACTOR","action":"UNC commander involved in US/UN crisis response; advocated avoiding direct military intervention where possible","evidence":["FRUS1952-54v15p1-d153","FRUS1952-54v15p1-d165"]},
+    {"candidate_id":"pol-kim-jong-sun-1952","name":"김종순","research_status":"IDENTIFIED_ASSEMBLY_ACTOR","action":"co-sponsored May 28 emergency motion demanding lifting of Pusan martial law","evidence":["NIHK-dh_025_1952_05_28_0070"]},
+    {"candidate_id":"pol-kwak-sang-hoon","name":"곽상훈","hanja":"郭尙勳","research_status":"IDENTIFIED_ASSEMBLY_ACTOR","action":"argued for lifting martial law and cited forced detention of legislators","evidence":["NIHK-dh_025_1952_05_28_0070"]}
+  ],
+  "event_updates": [
+    {"event_id":"evt-1952-army-directive-217","date":"1952-05-27","authored_or_issued_by":["pol-lee-jong-chan-1916"],"recipient":"all ROK Army unit commanders","action_type":"military_neutrality_and_chain_of_command_directive","status":"PRIMARY_TEXT_OPENED"},
+    {"event_id":"evt-1952-martial-law-decision-chain","date_range":"1952-05-24/1952-05-25","decided_by":["ROK cabinet","pol-rhee-syngman"],"decree_channel":["pol-shin-tae-young"],"executed_by":["pol-won-yong-deok"],"status":"FRUS_CONTEMPORARY_ACCOUNT; KOREAN_DECREE_PENDING"},
+    {"event_id":"evt-1952-combat-troop-transfer-dispute","date_range":"1952-05-25/1952-05-27","requested_or_sought_by":["pol-rhee-syngman"],"refused_or_constrained_by":["mil-james-van-fleet","pol-lee-jong-chan-1916"],"status":"MULTI_LAYER_COMMAND_DISPUTE; exact Korean request/order pending"},
+    {"event_id":"evt-1952-lee-to-won-countermand-messages","date_range":"1952-05-24/1952-05-27","alleged_author":"pol-lee-jong-chan-1916","recipient":"pol-won-yong-deok and other officers","observed_or_alleged_by":"pol-rhee-syngman","status":"ALLEGED_DOCUMENTS_NOT_YET_RECOVERED"},
+    {"event_id":"evt-1952-assembly-martial-law-lifting-resolution","date":"1952-05-28","proposed_by":["pol-kim-jong-sun-1952 and 17 others"],"supported_in_debate_by":["pol-kwak-sang-hoon"],"outcome":"96-3, 139 present","status":"DOMESTIC_CONTEMPORARY_RECORD"},
+    {"event_id":"evt-1952-us-uncurk-lift-martial-law-demand","date_range":"1952-05-28/1952-05-30","observed_by":["UNCURK","US Embassy"],"opposed_or_answered_by":["pol-rhee-syngman"],"status":"CONTEMPORARY_DIPLOMATIC_RECORD"},
+    {"event_id":"evt-1952-rhee-assembly-dissolution-ultimatum","date_range":"1952-06-02/1952-06-03","proposed_by":["pol-rhee-syngman"],"opposed_by":["majority of cabinet as reported by pol-chang-taek-sang"],"later_finding":"Rhee temporarily backed down","status":"CONTEMPORARY_DIPLOMATIC_REPORTING"},
+    {"event_id":"evt-1952-us-direct-intervention-deliberation","date_range":"1952-05-31/1952-06-04","actors":["mil-mark-clark","US State Department","US Defense Department","UNCURK"],"action_type":"contingency_and_pressure_deliberation","status":"PRIMARY_US_GOVERNMENT_RECORDS_OPENED"}
+  ],
+  "adversarial_checks": [
+    "Directive 217 was opened in primary text and is no longer described from biography alone.",
+    "The directive is not mislabeled as a direct written refusal to Rhee because it names no such request.",
+    "Rhee's own May 27 explanation of the martial-law decision chain is preserved as a party account rather than discarded.",
+    "Van Fleet's operational-control role is separated from Lee Jong-chan's domestic chain-of-command position.",
+    "The later Lemnitzer account is marked retrospective and not silently treated as a same-day record.",
+    "Rhee's allegation that Lee countermanded instructions to Won is not treated as verified until the messages are recovered.",
+    "Direct presidential orders to Won are not generalized into proof of personal presidential authorship for each arrest.",
+    "The Assembly's May 28 legal response is checked against a domestic contemporaneous record, not only US diplomatic reporting.",
+    "UNCURK/US criticism and Rhee's counter-position are both preserved in the May 30 diplomatic record.",
+    "Cabinet resistance to dissolution is preserved, preventing the executive branch from being modeled as politically uniform.",
+    "US consideration of intervention is kept distinct from actions actually taken.",
+    "The one-company troop movement in Lemnitzer's account is retained as apparently moved, not upgraded to a fully documented Korean deployment order."
+  ],
+  "documents_opened": [
+    {"id":"NIHK-dh_025_1952_05_27_0050","title":"육군본부 훈령 제217호, 육군장병에 고함","date":"1952-05-27","provenance":"National Institute of Korean History, Materials on Korean History; source Army HQ Directive No.217 / Korean War Materials vol.65 pp.639-640","original_text_obtained":true,"url":"https://db.history.go.kr/contemp/level.do?levelId=dh_025_1952_05_27_0050","access_date":"2026-10-01"},
+    {"id":"FRUS1952-54v15p1-d144","title":"Lightner to Department of State, telegram 1170","date":"1952-05-27","provenance":"US Department of State FRUS","original_text_obtained":true,"url":"https://history.state.gov/historicaldocuments/frus1952-54v15p1/d144","access_date":"2026-10-01"},
+    {"id":"FRUS1952-54v15p1-d149","title":"Lightner to Department of State, telegram 1200","date":"1952-05-30","provenance":"US Department of State FRUS","original_text_obtained":true,"url":"https://history.state.gov/historicaldocuments/frus1952-54v15p1/d149","access_date":"2026-10-01"},
+    {"id":"FRUS1952-54v15p1-d153","title":"Clark to Collins","date":"1952-05-31","provenance":"US Department of State FRUS","original_text_obtained":true,"url":"https://history.state.gov/historicaldocuments/frus1952-54v15p1/d153","access_date":"2026-10-01"},
+    {"id":"FRUS1952-54v15p1-d158","title":"Johnson memorandum: Issues Requiring Decision in Korean Internal Political Situation","date":"1952-06-02","provenance":"US Department of State FRUS","original_text_obtained":true,"url":"https://history.state.gov/historicaldocuments/frus1952-54v15p1/d158","access_date":"2026-10-01"},
+    {"id":"FRUS1952-54v15p1-d159","title":"Truman to Rhee","date":"1952-06-02","provenance":"US Department of State FRUS","original_text_obtained":true,"url":"https://history.state.gov/historicaldocuments/frus1952-54v15p1/d159","access_date":"2026-10-01"},
+    {"id":"FRUS1952-54v15p1-d160","title":"Gross to Department of State","date":"1952-06-02","provenance":"US Department of State FRUS / UNCURK reporting","original_text_obtained":true,"url":"https://history.state.gov/historicaldocuments/frus1952-54v15p1/d160","access_date":"2026-10-01"},
+    {"id":"FRUS1952-54v15p1-d162","title":"Lightner to Department of State, telegram 1252","date":"1952-06-03","provenance":"US Department of State FRUS","original_text_obtained":true,"url":"https://history.state.gov/historicaldocuments/frus1952-54v15p1/d162","access_date":"2026-10-01"},
+    {"id":"FRUS1952-54v15p1-d163","title":"Lightner to Department of State, telegram 1259","date":"1952-06-03","provenance":"US Department of State FRUS","original_text_obtained":true,"url":"https://history.state.gov/historicaldocuments/frus1952-54v15p1/d163","access_date":"2026-10-01"},
+    {"id":"FRUS1952-54v15p1-d165","title":"Lovett to Clark","date":"1952-06-04","provenance":"US Department of State FRUS / US Defense Department","original_text_obtained":true,"url":"https://history.state.gov/historicaldocuments/frus1952-54v15p1/d165","access_date":"2026-10-01"},
+    {"id":"FRUS1952-54v15p1-d296","title":"Memorandum of Conversation with Gen. Lemnitzer","date":"1952-11-03","provenance":"US Department of State FRUS","original_text_obtained":true,"url":"https://history.state.gov/historicaldocuments/frus1952-54v15p1/d296","access_date":"2026-10-01"},
+    {"id":"NIHK-dh_025_1952_05_28_0070","title":"국회, 계엄령 해제 결의안 통과","date":"1952-05-28","provenance":"National Institute of Korean History reproduction of Kyunghyang Shinmun 1952-05-30","original_text_obtained":true,"url":"https://db.history.go.kr/contemp/level.do?levelId=dh_025_1952_05_28_0070","access_date":"2026-10-01"}
+  ],
+  "history_debt_updates": [
+    {"id":"HD-RHEE-006","status":"NARROWED","note":"Directive 217 primary text is now open. FRUS d144 narrows the martial-law decision/decree/command chain and identifies alleged Lee-to-Won countermand messages. Remaining domestic-primary gaps: Korean martial-law decree/appointment, exact arrest/detention orders, Lee-to-Won messages, and Korean troop-transfer request/transmission records."}
+  ],
+  "next_leads": [
+    "국가기록원/관보: retrieve the May 24-25 1952 emergency martial-law proclamation and legal text, including geographic scope and issuing authority.",
+    "국방부 기록: retrieve Defense Minister Shin Tae-young's martial-law decree mentioned by Rhee in FRUS d144.",
+    "육군 기록: locate Lee Jong-chan messages to Won Yong-deok and other officers that Rhee showed Van Fleet on May 27.",
+    "육군/국방부 기록: locate written request to transfer combat troops or two divisions south to Pusan.",
+    "EUSAK/UNC records: identify authorization and unit identity of the one company Lemnitzer said apparently moved to Pusan.",
+    "국가기록원: recover Won Yong-deok appointment instrument as Yeongnam martial-law commander.",
+    "헌병/계엄사 records: recover May 26 National Assembly commuter-bus detention order.",
+    "국회 속기록 1952-05-27: open full debate on the Assembly bus detention and identify named detainees and speakers.",
+    "국회 속기록 1952-05-28: cross-check the 96-3 martial-law lifting vote and all 18 sponsors.",
+    "국회 기록: identify Kim Jong-sun (金宗順) and disambiguate biography before stable promotion.",
+    "국회 기록: identify Shin Yong-uk, Eom Byeong-hak, Yang U-jeong and Lee Jin-su in the May 28 debate/vote.",
+    "FRUS/NARA: recover telegram 1160 from Pusan, May 26 (795B.00/5-2652), cited but not printed in FRUS editorial note.",
+    "FRUS/NARA: recover telegram 1164 from Pusan, May 26 concerning UNCURK invitation to Van Fleet.",
+    "FRUS/NARA: recover telegram 1196 from Pusan, May 29 containing earlier US wording on UNCURK statement.",
+    "UN Digital Library: open UN document A/2187 pp.12-17 for UNCURK's full crisis statement and institutional account.",
+    "UN Digital Library: retrieve A/AC.39/INF.117 linked to So Min-ho trial materials.",
+    "NARA Box 15: open Summary of the So Min Ho Trial and reports Nos.1-3.",
+    "국회 속기록: retrieve the six-member May 9 So Min-ho special-investigation committee appointment and disambiguate all members.",
+    "국회 기록: recover Kim Seong-su resignation text and June 28 acceptance proceedings.",
+    "국가기록원/국무회의: locate cabinet minutes for late May martial-law decision described by Rhee.",
+    "국무회의/대통령 기록: locate June 2-3 cabinet deliberation over dissolution of National Assembly.",
+    "자료대한민국사: open May 27 item on Won Yong-deok's statement about martial law and bus detention.",
+    "자료대한민국사: open May 27 Assembly debate on the bus detention.",
+    "자료대한민국사: open May 27 Rhee-Van Fleet meeting entry and compare Korean press rendering with FRUS d144.",
+    "자료대한민국사: trace lifting of Pusan martial law after Rhee's May 30 promise and record exact effective date/order.",
+    "국회 속기록: identify constitutional/legal basis invoked under Martial Law Act Article 21 on May 28.",
+    "법령 자료: open the 1952 Martial Law Act text applicable to the Assembly's lifting demand.",
+    "국회/언론 records: reconstruct the number and identities of legislators detained May 25-26 without conflating arrested, held, hiding and boycotting categories.",
+    "FRUS: trace whether Lee Jong-chan was actually removed immediately after Rhee's May 27 threat and establish exact tenure end date.",
+    "육군 인사기록: establish Lee Yong-mun's transfer date and whether it was directly connected to the neutrality dispute.",
+    "FRUS/NARA: trace Paek Sun-yop succession discussion after Van Fleet named him as possible replacement for Lee.",
+    "국방부/육군: distinguish operational control under UNC from Korean constitutional command authority in 1952 troop transfers.",
+    "국회/정부 records: map Chang Taek-sang's role from cabinet resistance to later compromise constitutional amendment.",
+    "FRUS/UNCURK: compare Clark's military-only posture June 2 with State Department pressure strategy.",
+    "FRUS: trace US contingency discussion of military government without converting contingency into implemented policy.",
+    "대통령/국회 기록: compare Rhee's claim that Assembly opponents were traitors with any actual indictments and trial outcomes.",
+    "자료대한민국사: inspect contemporary reporting on the May 27 Directive 217 reaction inside government and military.",
+    "국방부사/한국전쟁사료 제65권 pp.639-640: locate image/facsimile of Directive 217 to verify transcription and document formatting.",
+    "국가기록원: search by '육군본부 훈령 제217호' and '육군장병에 고함' for original scan metadata.",
+    "국회 기록: promote Kwak Sang-hoon only after linking existing registry IDs and avoiding duplicates."
+  ]
+}
