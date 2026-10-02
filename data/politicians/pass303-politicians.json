@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-10-02",
+  "purpose": "Pass303에서 직접 문서로 확인된 비대통령 행위자를 기존 registry를 깨지 않는 additive candidate layer로 구조화한다.",
+  "politicians": [
+    {
+      "id": "pol-won-yong-duk",
+      "name": "원용덕",
+      "aliases": ["元容德", "Won Yong-duk", "Won Yung Dok"],
+      "lifespan": {"verification": "공식 한국 인명 원자료 추가 확인 필요"},
+      "roles": [{"period": "1953-06", "office": "헌병총사령관/Provost Marshal", "verification": "FRUS 동시대 지휘전문"}],
+      "affiliations": ["대한민국 육군", "헌병 지휘계통"],
+      "selection": "임명직 군 지휘관",
+      "connections": ["evt-1953-anti-communist-pow-release"],
+      "actionTypes": ["집행", "군 지휘", "별도 명령"],
+      "evidence": ["doc-frus-1953-612"],
+      "researchStatus": "IDENTIFIED",
+      "promotionReason": "Clark의 1953-06-19 지휘전문이 이승만에게 직접 연결된 독립 실행행위자로 특정함",
+      "openLeads": ["1953-06-17~19 헌병총사령부 일일명령·상황일지", "정확한 직함·임명기간 한국 공식 원자료", "수용소별 최초 석방명령 전달문서"]
+    },
+    {
+      "id": "pol-pyun-yung-tai",
+      "name": "변영태",
+      "aliases": ["卞榮泰", "Pyun Yung-tai", "Byun Young-tae"],
+      "lifespan": {"verification": "공식 한국 인명 원자료 추가 확인 필요"},
+      "roles": [{"period": "1953", "office": "외무부 장관", "verification": "FRUS 협상기록"}],
+      "affiliations": ["대한민국 외무부"],
+      "selection": "임명직 국무위원",
+      "connections": ["evt-1953-anti-communist-pow-release", "evt-1953-rok-us-mutual-defense-treaty"],
+      "actionTypes": ["외교협상", "문안협의", "조약 가조인·서명"],
+      "evidence": ["doc-frus-1953-608", "doc-frus-1953-662", "doc-frus-1953-741", "doc-frus-1953-762"],
+      "researchStatus": "VERIFIED",
+      "promotionReason": "복수의 동시대 외교기록에서 조약 문구 협상과 8월8일 가조인 당사자로 반복 확인됨",
+      "openLeads": ["외교부 조약 원문·한국어본", "1953-10-01 서명 권한·전권위임 원문", "공식 임명·재임기간 자료"]
+    },
+    {
+      "id": "pol-paek-tu-chin",
+      "name": "백두진",
+      "aliases": ["白斗鎭", "Paek Tu-chin", "Paik Tu Chin"],
+      "lifespan": {"verification": "공식 한국 인명 원자료 추가 확인 필요"},
+      "roles": [{"period": "1953-06~08", "office": "국무총리", "verification": "FRUS 동시대 회담기록"}],
+      "affiliations": ["대한민국 정부"],
+      "selection": "국무총리",
+      "connections": ["evt-1953-anti-communist-pow-release", "evt-1953-rok-us-mutual-defense-treaty"],
+      "actionTypes": ["외교설명", "정부대표", "내각 참여"],
+      "evidence": ["doc-frus-1953-611", "doc-frus-1953-741"],
+      "researchStatus": "IDENTIFIED",
+      "promotionReason": "6월18일 워싱턴에서 포로석방 직후 Dulles와 직접 협의하고 8월8일 조약 가조인 현장에 국무총리로 참석",
+      "openLeads": ["6월18일 포로석방 사전인지 시점", "백두진 문서·전보", "국무회의 포로석방 논의 여부"]
+    },
+    {
+      "id": "pol-han-hui-seok",
+      "name": "한희석",
+      "aliases": ["韓熙錫", "Han Hui-seok", "Han Hui-sok", "Han Hee-suk"],
+      "lifespan": {"verification": "기존 registry + 공식 인명 원자료 보강 필요"},
+      "roles": [{"period": "1958-1959", "office": "국회 부의장·자유당 지도부", "verification": "FRUS 1959 정치위기 기록"}],
+      "affiliations": ["자유당", "대한민국 국회"],
+      "selection": "선출직 국회의원·국회 부의장",
+      "connections": ["evt-1958-1224-national-security-law", "evt-1960-315-election"],
+      "actionTypes": ["입법지도", "정당운영"],
+      "evidence": ["doc-frus-1959-272", "doc-frus-1959-283"],
+      "researchStatus": "IDENTIFIED",
+      "promotionReason": "1959년 여야 협상 기록에서 12월24일 사태의 책임·수습 논의와 연결된 국회 지도부 인물로 확인",
+      "openLeads": ["1958-12-24 국회 속기록에서 의사진행 역할", "자유당 사전 회의·지시문", "경찰 동원 요청 주체와의 연결"]
+    }
+  ]
+}
