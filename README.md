@@ -32,11 +32,13 @@
 
 먼저 대한민국 정치사의 전체 숲을 빠르게 지도화합니다. coverage의 기본 단위는 인물 한 명이 아니라 `시대 × 구조층` 셀이며 `UNMAPPED → SEEDED → STRUCTURED → VERIFIED / DEBT_TRACKED` 상태로 관리합니다.
 
-초기 전국 목표는 특정 대통령이나 시대를 완전히 끝내는 것이 아니라 **전 시대·전 구조층의 핵심 사건, 기관, 인물군, 문서군을 SEEDED까지 빠르게 올리는 것**입니다. 이후 제도·조직·사회세력을 여러 시대에 걸쳐 연결하는 사건과 인물을 심층 검증합니다.
+전국 breadth v1은 F0~F10 11개 시대 × 17개 구조층, 총 **187/187 고유 셀의 SEEDED를 전수 uniqueness audit으로 확인**했습니다. 감사 결과는 `data/research/forest-v1-uniqueness-audit.json`에 보존합니다. 이는 전체 숲의 위치를 빠짐없이 찍었다는 뜻이지, 187개 셀의 역사 명제가 검증 완료되었다는 뜻은 아닙니다.
+
+현재 단계는 **forest depth pass**입니다. SEEDED 셀 가운데 연결중심성·역사적 영향범위·불확실성·자료 접근성을 기준으로 우선순위를 정해 `STRUCTURED → VERIFIED`로 심화합니다. 동시에 정치인·기관·정당·사건·문서·주장/반증 그래프를 시대를 가로질러 연결합니다.
 
 조사 사슬은 가능한 범위에서 `검색어 확장 → 2차 자료에서 원문 단서 추출 → 공식/1차 아카이브 역추적 → 날짜·인물·기관·사건명 변형 검색 → 상반 자료 탐색 → 원문 교차검증 → 새 인물/사건/문서 단서 생성`을 반복합니다.
 
-한 인물·대통령·시대의 모든 open lead가 사라질 때까지 기다리지 않습니다. 주요 구조가 형성되면 미해결 블랙박스는 `HISTORY_DEBT`와 open leads에 보존하고 전국 forest의 빈칸으로 이동합니다.
+한 인물·대통령·시대의 모든 open lead가 사라질 때까지 기다리지 않습니다. 주요 구조가 형성되면 미해결 블랙박스는 `HISTORY_DEBT`와 open leads에 보존하고 전국 forest의 다음 고우선순위 연결부로 이동합니다.
 
 역사부채 전체 전수 재조사는 매시간 반복하지 않고 **매주 일요일 첫 조사 회차에 1회** 수행합니다. 단, 평상시 조사에서 역사부채를 해결하거나 흔드는 새 증거가 발견되면 즉시 갱신합니다.
 
@@ -52,7 +54,7 @@
 - `data/presidents.json`: 대통령 임기순 시간축 overlay
 - `data/evidence/`: 인물별 증거 원장
 - `data/annals/`: 인물별 디지털 실록
-- `data/research/`: coverage, open leads, HISTORY_DEBT
+- `data/research/`: coverage, open leads, HISTORY_DEBT, forest breadth/depth audit
 - `docs/`: 방법론, 아키텍처, 조사 루프
 
 ## 운영 원칙
@@ -65,9 +67,11 @@
 
 ## 현재 상태
 
-이승만·제1공화국과 제2공화국·5·16 전환부에 이미 축적된 자료는 유지하되, **더 이상 대통령 순서대로만 전진하지 않습니다.** 현재 최우선 과제는 `docs/KOREA_POLITICAL_FOREST.md`의 F0~F10 시대와 17개 구조층 전체를 빠르게 SEEDED하여 대한민국 정치사의 전국 지형도를 먼저 완성하는 것입니다.
+**대한민국 정치사 숲 지도 v1 breadth audit 완료: 187/187 시대×구조층 셀이 최소 SEEDED 상태다.** 이제 빈칸 채우기 자체는 종료하고, 전체 숲에서 연결중심성이 높은 제도·조직·사건·인물군을 원문 단위로 심화한다.
 
-대통령 backbone은 이후에도 시간순 탐색 보조선으로 남습니다. 하지만 국회, 정당, 군·경찰·정보기관, 사법, 관료, 지방정치, 정치경제, 노동, 시민사회, 언론, 외교안보 등에서 연결중심성이 높은 사건·인물·기관은 대통령 순서와 관계없이 독립 연구선으로 들어갑니다.
+이승만·제1공화국과 제2공화국·5·16 전환부에 이미 축적된 자료는 유지한다. 대통령 backbone도 시간순 탐색 보조선으로 남는다. 하지만 국회, 정당, 군·경찰·정보기관, 사법, 관료, 지방정치, 정치경제, 노동, 시민사회, 언론, 외교안보 등에서 연결중심성이 높은 사건·인물·기관은 대통령 순서와 관계없이 독립 연구선으로 들어간다.
+
+다음 품질 목표는 collection-level seed를 item-level 문서로 교체하고, 주요 셀을 `STRUCTURED`로 승격하면서 `proposed_by / decided_by / executed_by / opposed_by / legal_authority / observed_by / later_finding` 관계를 명시하는 것이다. 이름이 seed anchor에 등장했다는 이유만으로 정치인을 VERIFIED로 승격하지 않는다.
 
 세부 설계는 `docs/KOREA_POLITICAL_FOREST.md`, `docs/ARCHITECTURE.md`, `docs/HOURLY_ANNALS_LOOP.md`, `docs/RESEARCH_LOOP.md`, `docs/METHODOLOGY.md`, `docs/FLOOT_BUILD_POLICY.md`를 참고하세요.
 
