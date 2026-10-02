@@ -1,0 +1,49 @@
+{
+  "pass": 299,
+  "date": "2026-10-02",
+  "scope": "3.15 부정선거의 서울·경기 actor identity와 중앙-지방 행정/경찰망 교정",
+  "documents": [
+    {"id":"DOC-P299-01","title":"검찰, 전병두 외 경기도 경찰국 간부 소환 심문","date":"1960-05-28/29","provenance":"민주화운동기념사업회 재록: 조선일보·동아일보","url":"https://archives.kdemo.or.kr/workoutlog/workoutlog/view/AAP_1960_05_28_n013","finding":"고종엽을 전 경기도 경찰국 사찰과장으로 명시. 이강학의 비밀지령/살인지시 관련 검찰 신문은 수사단계 진술로 분리."},
+    {"id":"DOC-P299-02","title":"검찰, 경무대 어귀 발포명령 최고 지시자 혐의로 조인구 지목","date":"1960-05-14/15","provenance":"민주화운동기념사업회 재록: 조선일보·동아일보","url":"https://archives.kdemo.or.kr/workoutlog/workoutlog/view/AAP_1960_05_14_n019","finding":"강남희를 전 서울시 경찰국 사찰과장으로 명시. 발포 관련 혐의·진술은 판결 인정사실과 분리."},
+    {"id":"DOC-P299-03","title":"6대사건 언도공판정의 모습","date":"1960-10-08","provenance":"민주화운동기념사업회 사료관/경향신문사 사진","url":"https://archives.kdemo.or.kr/isad/view/00734160","finding":"최응복=전 서울시 부시장, 김용진=전 서울시 내무국장을 독립 확인. 두 사람을 포함한 11명 석방 사실 확인하되 개별 주문은 원판결 전 미확정."},
+    {"id":"DOC-P299-04","title":"3.15부정선거 사전","provenance":"민주화운동기념사업회","url":"https://dict.kdemo.or.kr/entry/85/","finding":"1959-11 이후 최인규의 시도 경찰국장·지자체장 소환과 1960-01-25 사찰과 회의 등 중앙 내무부 기획 맥락을 확인. 직접 개별 행위 귀속에는 원문 필요."},
+    {"id":"DOC-P299-05","title":"최헌길","provenance":"한국민족문화대백과사전/한국학중앙연구원","url":"https://encykorea.aks.ac.kr/Article/E0075971","finding":"정확 한자는 崔獻吉. 1901~1982. 국회의원·강원도지사·경기도지사. 1956-05부터 경기도지사, 3.15 부정선거로 구속·기소 및 혁명재판 징역5년 서술 확인."},
+    {"id":"DOC-P299-06","title":"특별재판소 재판 사진 컬렉션","provenance":"민주화운동기념사업회","url":"https://archives.kdemo.or.kr/photo-archives/view/00756370","finding":"특별재판소에서 언도까지 진행된 내무부 부정선거 사건의 최인규 사형, 이강학 15년, 이성우 7년, 최병환 5년 요약. 서울·경기 지방 피고군과 별도 절차로 유지."}
+  ],
+  "actor_updates": [
+    {"name":"최헌길","hanja":"崔獻吉","status":"VERIFIED_IDENTITY_ROLE","roles":["국회의원","강원도지사","경기도지사"],"correction":"최현길 표기는 stable alias로 승격하지 않고 OCR/오자 후보로 격하","open_lead":"경기도 관보에서 정확한 경기도지사 취임·퇴임 발령일과 1960 선거사건 공소장 원문 확보"},
+    {"name":"고종엽","hanja":"高鍾燁","status":"VERIFIED_ROLE_NAME","roles":["경기도 경찰국 사찰과장"],"open_lead":"경찰 인사원부·관보에서 생몰·계급·재임기간 확정"},
+    {"name":"강남희","status":"VERIFIED_ROLE_PENDING_HANJA","roles":["서울시 경찰국 사찰과장"],"correction":"이남희/김남희 표기는 원면 확인 전 별 인물 생성 금지","open_lead":"경찰 인사원부 및 1960-05-15 원면에서 한자 확인"},
+    {"name":"최응복","hanja":"崔應福","status":"VERIFIED_ROLE_NAME","roles":["서울특별시 부시장"],"open_lead":"서울시 인사카드/관보로 재임기간 직접 확정"},
+    {"name":"김용진","hanja":"金容鎭","status":"VERIFIED_ROLE_NAME","roles":["서울특별시 내무국장"],"open_lead":"서울시 인사카드와 피의자신문조서 원문 확보"},
+    {"name":"최인규","status":"ANNALS_ACTIVE","roles":["내무부장관"],"open_lead":"1960-01-25 사찰과 회의 원문과 특별재판소 판결문"},
+    {"name":"이강학","status":"VERIFIED_ROLE","roles":["치안국 계통 고위 경찰관"],"open_lead":"1960-05-04 피의자신문조서 원문"},
+    {"name":"이성우","status":"VERIFIED_ROLE","roles":["내무부 계통 고위관료"],"open_lead":"범죄인지서·특별재판소 판결문에서 정확 보직·행위 분리"},
+    {"name":"최병환","status":"VERIFIED_ROLE_NAME","roles":["내무부 지방국장"],"open_lead":"1961-04-17 판결문 원문"},
+    {"name":"이순규/이순구","hanja_candidate":"李舜九","status":"CONFLICTED_IDENTITY","roles":["경기도 내무국장 후보"],"open_lead":"1960-08-20 및 1961-03-28 신문 원면과 경기도 인사원부로 표기 확정"}
+  ],
+  "event_updates": [
+    {"id":"EV-P299-01","label":"1959-11~1960-01 중앙 내무부 선거준비 지시","epistemic":"later_official_synthesis_pending_primary"},
+    {"id":"EV-P299-02","label":"1960-03-15 서울시 선거행정","epistemic":"requires_orders_and_trial_findings"},
+    {"id":"EV-P299-03","label":"1960-03-15 경기도 선거행정","epistemic":"requires_orders_and_trial_findings"},
+    {"id":"EV-P299-04","label":"1960-05-14/15 강남희 소환·수사","epistemic":"contemporaneous_investigation"},
+    {"id":"EV-P299-05","label":"1960-05-28/29 고종엽 등 경기도경 간부 신문","epistemic":"contemporaneous_investigation"},
+    {"id":"EV-P299-06","label":"1960-10-08 6대사건 판결 및 11명 석방","epistemic":"contemporaneous_court/photo_record"},
+    {"id":"EV-P299-07","label":"1961-04-17 특별재판소 내무부 부정선거 사건 선고","epistemic":"official_archive_summary_pending_judgment"},
+    {"id":"EV-P299-08","label":"1961 혁명재판 서울·경기 지방행정 피고군","epistemic":"OPEN exact-defendant-set"}
+  ],
+  "adversarial_checks": [
+    "최헌길을 최현길과 자동 병합하지 않고 崔獻吉 전거로 교정",
+    "강남희를 이남희/김남희와 자동 병합하지 않음",
+    "이순규와 이순구를 李舜九만으로 동일인 확정하지 않음",
+    "검찰 진술을 판결 인정사실로 승격하지 않음",
+    "6대사건 석방을 각 피고의 전 혐의 무죄와 동일시하지 않음",
+    "1961 특별재판소 내무부 사건과 지방행정 피고군을 혼합하지 않음",
+    "최헌길의 3.15 관련 후대 인물사전 서술을 원판결문과 동일 등급으로 취급하지 않음",
+    "중앙 내무부의 일반 지시와 각 지방 actor의 개별 실행행위를 별도 edge로 유지",
+    "발포명령 관련 강남희 수사와 부정선거 관련 책임을 별도 사건으로 유지",
+    "고종엽 관련 검찰발표의 살인지시 청취 진술을 사실확정 대신 contemporaneous allegation로 저장"
+  ],
+  "history_debt_followed":["서울시 선거행정 지휘선","경기도 선거행정 지휘선","이순규/이순구 identity","강남희/이남희/김남희 identity","최헌길/최현길 identity","박사일 1960 보직","1960-10-08 개별 판결 주문","1961 혁명재판 피고군"],
+  "weekly_full_history_debt_review": false
+}
