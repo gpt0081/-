@@ -1,0 +1,80 @@
+{
+  "runDate": "2026-10-03",
+  "scope": "Rhee-era 1954-1959 institutional depth pass",
+  "purpose": "대통령 개인 연대기가 아니라 헌정·국회·내무행정·선거·지방자치·언론·사법·농정·산업금융의 행위자/기관/문서 연결망을 보강한다.",
+  "researchLines": [
+    "1954 사사오입 개헌의 11/27 부결선포와 11/29 번복 절차", "개헌안 초대대통령 중임제한 예외와 경제조항 변화", "최순주 부의장의 의사절차상 역할", "이익흥과 사사오입 논리 형성 주장 검증", "1956 정부통령선거의 공식 득표와 조봉암 정치적 부상", "신익희 사망 이후 선거구도", "1956 지방선거와 단체장 직선제", "1958 지방자치법 개정과 임명제 환원", "1958 국가보안법 개정안 입법과 내무부 선행 기획", "1958-12-24 한희석 경위권 행사와 경찰 투입", "야당의 국회 농성과 강제축출", "국가보안법과 지방자치법·예산·세법의 동시 처리", "1958 제4대 민의원 총선 정당별 결과", "진보당 수사개시와 경찰·특무부대·검찰의 기관별 역할", "1959 대법원 판결과 평화통일론/간첩죄 쟁점 분리", "2011 재심 무죄를 later finding으로 연결", "경향신문 여적 필화의 형사절차", "1959-04-30 군정법령 88호에 의한 폐간", "서울고법 집행정지 이후 무기정간으로의 행정처분 변경", "1960 대법원 판단을 경향신문 사건 later finding으로 연결", "1957 농업협동조합법·농업은행법 제정", "1958 농협/농업은행 이원체제 출범", "1951-54 산업은행법 입법·출범과 전후복구 금융", "언론통제와 선거경쟁의 시간적 연결을 인과 단정 없이 검증"
+  ],
+  "domainsStrengthened": ["헌정", "입법", "선거", "내무행정", "지방자치", "사법", "언론", "농정", "금융·산업", "정당정치"],
+  "politicianCandidates": [
+    {"id":"pol-han-hui-seok","name":"한희석","aliases":["韓熙錫","Han Hee-seok"],"lifespan":"1909-11-27/1983-09-22","roles":["제4대 민의원 부의장","자유당 국회의원"],"eventLinks":["evt-1958-1224-security-localgov-package"],"actionType":"presiding/enforcement-authority","status":"IDENTIFIED","evidence":"민주화운동기념사업회 사료 00734205는 1958-12-24 한희석의 경위권 행사와 경찰 동원, 야당의원 축출 뒤 법안 처리를 설명한다.","openLead":"제4대 국회 33회 본회의 원속기록에서 경위권 발동 문구·시각·사전 협의자를 추출."},
+    {"id":"pol-lee-jae-hak","name":"이재학","aliases":["李在鶴","Lee Jae-hak"],"lifespan":"1904-05-31/1973-11-23","roles":["제3·4대 민의원 부의장","자유당 원내총무"],"eventLinks":["evt-1958-1224-security-localgov-package"],"actionType":"legislative-leadership","status":"IDENTIFIED","evidence":"제4대 국회 의장단 자료에서 부의장·자유당 원내 지도부 역할 확인.","openLead":"12·24 처리 당일 발언·표결·사전 의원총회 기록 확인."},
+    {"id":"pol-im-cheol-ho","name":"임철호","aliases":["任哲鎬","Lim Cheol-ho"],"lifespan":"1905-06-12/1990-08-19","roles":["농림부장관","제4대 민의원 부의장","자유당 중앙조직부장"],"eventLinks":["evt-1957-agricultural-coop-bank","evt-1960-315-election"],"actionType":"minister/party-legislator","status":"IDENTIFIED","evidence":"농림부장관·국회부의장 경력과 자유당 조직 역할을 인물자료에서 확인.","openLead":"1955-57 농협법 입법과 농림부 내부안에 임철호 재임기 영향 여부 확인."},
+    {"id":"pol-lee-ik-heung","name":"이익흥","aliases":["李益興","Lee Ik-heung"],"lifespan":"1905-03-10/1993-11-26","roles":["치안국장","경기도지사","내무부장관","제4대 민의원"],"eventLinks":["evt-1954-rounding-amendment","evt-1956-local-election"],"actionType":"interior/police/political-operator","status":"IDENTIFIED","evidence":"한국민족문화대백과는 내무부장관·사사오입개헌·장면부통령저격사건을 관련 사건으로 연결한다.","openLead":"사사오입 논리 형성에서 이익흥 역할을 동시대 국회·경무대 문서로 검증."},
+    {"id":"pol-lee-geun-jik","name":"이근직","aliases":["李根直","Lee Geun-jik","이계록"],"lifespan":"1903-01-12/1964-03-16","roles":["경상북도지사","내무부장관","농림부장관"],"eventLinks":["evt-1958-security-law-preparation","evt-1960-315-election"],"actionType":"interior/local-administration","status":"IDENTIFIED","evidence":"1957-09~1958-06 내무부장관 재임과 이후 농림부장관 경력 확인.","openLead":"1957-11~1958-06 국가보안법 개정 준비 문서에서 내무부장관 결재·보고선을 확인."},
+    {"id":"pol-cho-jae-cheon","name":"조재천","aliases":["曺在千","Cho Jae-cheon"],"lifespan":"1912-11-19/1970-07-05","roles":["제3·4·5대 민의원","민주당 정치인","법무부장관","내무부장관"],"eventLinks":["evt-1958-1224-security-localgov-package","evt-1959-security-law-protest"],"actionType":"opposition-legislator","status":"IDENTIFIED","evidence":"민주화운동기념사업회 사료 00722139는 1959-01-13 보안법 반대 국민대회로 행진하다 경찰에 강제해산된 조재천을 기록한다.","openLead":"1958-12-24 본회의와 1959-01 반대운동 발언 원문 연결."},
+    {"id":"pol-kwak-sang-hoon","name":"곽상훈","aliases":["郭尙勳","Kwak Sang-hoon"],"lifespan":"1896/1980","roles":["민주당 최고위원","제4대 민의원","국회의장"],"eventLinks":["evt-1958-security-law-opposition"],"actionType":"opposition-leadership","status":"IDENTIFIED","evidence":"인물자료는 1958년 국가보안법 개정 반대투쟁 지도부 참여를 연결한다.","openLead":"국가보안법 개정반대투쟁위원회 구성 원문과 지도위원 명단 검증."},
+    {"id":"pol-choi-soon-joo","name":"최순주","aliases":["崔淳周","Choi Soon-joo"],"lifespan":"unknown","roles":["제3대 민의원 부의장"],"eventLinks":["evt-1954-rounding-amendment"],"actionType":"presiding-officer","status":"DISCOVERED","evidence":"1954-11-29 동시대 보도 재록은 최순주가 11/27 부결 선포를 취소하고 가결로 정정했다고 기록한다.","openLead":"헌정회 인물록으로 생몰·지역구·정당을 확인하고 11/27·29 원속기록 발언 대조."},
+    {"id":"pol-joo-yo-han","name":"주요한","aliases":["朱耀翰","Chu Yo-han"],"lifespan":"1900-10-14/1979-11-17","roles":["제4·5대 국회의원","언론인","부흥부·상공부장관"],"eventLinks":["evt-1959-kyunghyang-press-case"],"actionType":"author/defendant/politician","status":"IDENTIFIED","evidence":"경향신문 여적 필화에서 필자로 기소된 뒤 정치인·장관 경력으로 이어짐.","openLead":"BA0383999 1960-10-14 판결문에서 공소사실·무죄/판단 이유 추출."},
+    {"id":"pol-jeong-tae-young-1931","name":"정태영","aliases":["鄭太榮","Jeong Tae-young","정동화"],"lifespan":"1931/2008-03-21","roles":["진보당 청년조직 활동가","신민당 노동국장"],"eventLinks":["evt-1958-progressive-party-case"],"actionType":"party-organizer/defendant","status":"IDENTIFIED","evidence":"진보당 사건으로 체포되어 3심 무죄, 이후 야당 정치활동을 한 사실 확인.","openLead":"진보당 공판기록에서 정태영에 대한 국가변란 공소와 무죄 이유를 추출."}
+  ],
+  "events": [
+    {"id":"evt-1954-rounding-amendment","name":"1954 사사오입 개헌","actions":["1954-11-27 표결과 부결 선포","1954-11-29 최순주 부의장의 선포 취소·가결 처리","개정헌법 공포"],"legalAuthority":"헌법 개정절차","laterFinding":"절차적 정당성 논쟁은 별도 claim으로 유지"},
+    {"id":"evt-1956-presidential-election","name":"1956 제3대 정부통령 선거","actions":["후보등록·선거운동","신익희 사망","1956-05-15 투표","공식 득표 집계"],"observedBy":"국사편찬위원회 대한민국사연표"},
+    {"id":"evt-1956-local-election","name":"1956 지방선거와 단체장 직선","actions":["지방자치법 개정","시·읍·면장 및 지방의원 선거"],"legalAuthority":"지방자치법"},
+    {"id":"evt-1957-agricultural-coop-bank","name":"1957 농업협동조합법·농업은행법과 1958 이원체제 출범","actions":["법률 제정","농업은행 출범","농협중앙회 출범"],"legalAuthority":"농업협동조합법·농업은행법"},
+    {"id":"evt-1958-security-law-preparation","name":"1957-58 국가보안법 개정 준비","actions":["내무부의 개정안 입안 표명","진보당 내사·수사와 병행","국회 상정"],"openQuestion":"내무부·자유당·경무대 사이 초안 작성·승인선"},
+    {"id":"evt-1958-1224-security-localgov-package","name":"1958-12-24 국가보안법·지방자치법 등 강행 처리","actions":["야당 농성","한희석 경위권 행사","경찰 투입·야당의원 축출","여당 단독 법안 처리"],"executedBy":["국회 경위","동원 경찰"],"presidedBy":["한희석"],"opposedBy":["민주당 등 야당"],"openQuestion":"경찰 차출을 지시한 내무부/치안국 문서와 경무대 사전협의 여부"},
+    {"id":"evt-1958-localgov-appointment-reversal","name":"1958 지방자치법 제4차 개정","actions":["시·읍·면장 임명제 전환","이·동장 임명제 전환","지방의회 통제권 강화"],"legalAuthority":"법률 제501호"},
+    {"id":"evt-1958-progressive-party-case","name":"진보당·조봉암 사건","actions":["경찰 수사·체포","특무부대 수사","검찰 기소","법원 심리","1959 대법원 사형확정","사형집행","2011 재심 무죄"],"laterFinding":"2011 대법원 전원합의체 무죄","openQuestion":"대통령 개인의 수사·기소·형량·집행 직접개입 문서"},
+    {"id":"evt-1959-kyunghyang-press-case","name":"경향신문 여적 필화·폐간·정간 사건","actions":["1959-02-04 여적 게재","주요한·한창우 기소","1959-04-30 군정법령 88호 발행허가 취소","서울고법 집행정지","정부 무기정간","1960-04 대법원 판단·복간"],"legalAuthority":"군정법령 제88호 및 행정처분","openQuestion":"공보실-국무회의-경무대 결재선"},
+    {"id":"evt-1951-54-kdb-creation","name":"한국산업은행법 입법과 산업은행 출범","actions":["1951 법안 기초·국회 회부","전쟁 중 심의 보류","1953-11 국회 통과","1953-12 공포","1954-04 산업은행 발족"],"domain":"전후복구·산업금융"}
+  ],
+  "adversarialChecks": [
+    "사사오입 개헌을 대통령 개인행위로만 귀속하지 않고 국회 의장단·자유당·내무관료 역할을 분리한다.", "1956 조봉암 득표를 곧바로 진보당 조직력과 동일시하지 않는다.", "진보당의 평화통일론 자체와 조봉암 개인 간첩혐의를 분리한다.", "1959 원판결과 2011 재심 무죄를 동일 시간층으로 섞지 않는다.", "경향신문 폐간을 대통령 직접명령으로 단정하지 않고 공보실·국무회의·법원·경무대 결재선을 분리한다.", "2·4파동에서 한희석의 경위권 행사 확인과 경찰 차출 명령 발신자 확인을 별도 명제로 둔다.", "국가보안법 개정과 지방자치법 개정을 한 사건에 묶되 각각의 법정책 효과를 분리한다.", "1958 지방자치법 개정을 단순 선거제 변경이 아니라 중앙-지방 권한 재배분으로 검증한다.", "농협·농업은행 설립을 대통령 단독 정책으로 환원하지 않고 국회·농림행정·원조기관 논의를 추적한다.", "산업은행 창설을 전후복구 정책성과로만 평가하지 않고 법안 기초·전쟁중 보류·국회통과의 시차를 보존한다.", "후대 백과·회고를 동시대 원문보다 높은 증거등급으로 쓰지 않는다.", "정당·이념에 따라 동일한 행위유형의 증거기준을 달리하지 않는다."
+  ],
+  "documentsDirectlyOpened": [
+    {"title":"1956 제3대 정부통령 선거 결과","url":"https://db.history.go.kr/id/tcct_1956_05_15_0010","type":"official-archive"},
+    {"title":"제4대 민의원 총선 결과","url":"https://db.history.go.kr/id/tcct_1958_05_02_0020","type":"official-archive"},
+    {"title":"국무회의록의 재발견-제2차 개정헌법안 공포","url":"https://theme.archives.go.kr/next/rediscovery/index2.do","type":"official-archive"},
+    {"title":"국가기록원 진보당 사건","url":"https://theme.archives.go.kr/next/choba/sub01_1.do","type":"official-archive"},
+    {"title":"국가기록원 산업은행","url":"https://theme.archives.go.kr/next/koreaOfRecord/industryBank.do","type":"official-archive"},
+    {"title":"민주화운동기념사업회 사료 00734205","url":"https://archives.kdemo.or.kr/isad/view/00734205","type":"archival-photo"},
+    {"title":"민주화운동기념사업회 사료 00726110","url":"https://archives.kdemo.or.kr/isad/view/00726110","type":"archival-photo"},
+    {"title":"민주화운동기념사업회 사료 00722139","url":"https://archives.kdemo.or.kr/isad/view/00722139","type":"archival-photo"},
+    {"title":"민주화운동기념사업회 사료 00719122","url":"https://archives.kdemo.or.kr/isad/view/00719122","type":"archival-photo"},
+    {"title":"국가기록원 사건기록으로 보는 한국현대사 PDF","url":"https://www.archives.go.kr/archivesdata/upFile/palgan/20100507163401218.pdf","type":"official-publication"},
+    {"title":"한국민족문화대백과 사사오입 개헌","url":"https://encykorea.aks.ac.kr/Article/E0025681","type":"scholarly-reference"},
+    {"title":"한국민족문화대백과 2·4파동","url":"https://encykorea.aks.ac.kr/Article/E0044539","type":"scholarly-reference"},
+    {"title":"한국민족문화대백과 지방자치","url":"https://encykorea.aks.ac.kr/Article/E0054202","type":"scholarly-reference"},
+    {"title":"한국민족문화대백과 선거","url":"https://encykorea.aks.ac.kr/Article/E0028600","type":"scholarly-reference"},
+    {"title":"한국민족문화대백과 농업협동조합","url":"https://encykorea.aks.ac.kr/Article/E0013165","type":"scholarly-reference"},
+    {"title":"한국민족문화대백과 경향신문","url":"https://encykorea.aks.ac.kr/Article/E0002998","type":"scholarly-reference"},
+    {"title":"한국민족문화대백과 조봉암","url":"https://encykorea.aks.ac.kr/Article/E0051827","type":"scholarly-reference"},
+    {"title":"한국민족문화대백과 조재천","url":"https://encykorea.aks.ac.kr/Article/E0052554","type":"scholarly-reference"},
+    {"title":"한국민족문화대백과 김도연","url":"https://encykorea.aks.ac.kr/Article/E0008969","type":"scholarly-reference"},
+    {"title":"한국민족문화대백과 이익흥","url":"https://encykorea.aks.ac.kr/Article/E0074806","type":"scholarly-reference"},
+    {"title":"한국민족문화대백과 곽상훈","url":"https://encykorea.aks.ac.kr/Article/E0004663","type":"scholarly-reference"},
+    {"title":"농업협동조합법 1957 제정본","url":"https://www.ulex.co.kr/법률/6511-001519-농업협동조합법","type":"law-republication"},
+    {"title":"동아일보 1954 사사오입 당시 보도 재록","url":"https://www.donga.com/news/Society/article/all/20041128/8133151/1","type":"newspaper-republication"},
+    {"title":"동아일보 진보당 재심개시 보도","url":"https://www.donga.com/news/Society/article/all/20101030/32228944/1","type":"newspaper"},
+    {"title":"정태영 진보당 사건 부고자료","url":"https://www.donga.com/news/People/article/all/20080324/8558764/1","type":"newspaper"}
+  ],
+  "crossChecks": [
+    {"claim":"1958-12-24 강행처리","families":["민주화운동기념사업회 동시대 사진사료","한국민족문화대백과","헌정사DB"]},
+    {"claim":"진보당 사건의 법적 판단 변화","families":["국가기록원 사건기록","1959 대법원 원판결 계열","2011 대법원 재심 판단"]},
+    {"claim":"경향신문 폐간·정간과 사법심사","families":["국가기록원 사건기록","한국민족문화대백과","법원 판결문 BA0383999 표적"]},
+    {"claim":"1958 지방자치 임명제 환원","families":["법률 제501호 계열","헌정사DB","한국민족문화대백과"]}
+  ],
+  "historyDebtFollowup": [
+    {"id":"HD-RHEE-007","result":"NARROWED 유지","detail":"진보당 수사·원판결·2011 재심의 기관별 층은 보강됐으나 대통령 개인 직접개입 문서는 미확보."},
+    {"id":"HD-RHEE-008","result":"NARROWED 유지/표적 구체화","detail":"경향신문 사건에서 여적→기소→4/30 폐간→고법 집행정지→무기정간→대법원 판단 체인을 보강. 국무회의의 무기정간 전환 결재와 경무대 지시 원문이 다음 표적."},
+    {"id":"lead-1958-security-law-command","result":"NARROWED","detail":"한희석의 경위권 행사, 약 300명 경찰 동원, 야당 80여명 축출, 이후 법안 처리까지 동시대 사진사료로 좁힘. 경찰 차출 명령의 내무부/치안국 발신자는 미확인."}
+  ],
+  "nextLeadQueue": [
+    "국회도서관 제4대 국회 1958-12-24 본회의 원속기록에서 한희석 경위권 발동 시각과 문구 추출", "국회 경위과/사무처 기록에서 1958-12-24 경찰 증원 요청 문서번호 확인", "내무부 치안국 1958-12-24 경찰 차출 지시문서와 수신 경찰서 확인", "자유당 의원총회 1958-12-23~24 회의기록에서 강행처리 사전결정자 확인", "경무대 접수·발신문서에서 2·4파동 전날 국회 상황보고 확인", "국가보안법 개정안 정부초안 최초 기안부서·기안자·결재자 확인", "1957-11-22 내무부장관의 보안법 개정 발언 원문 신문·국무회의 대조", "제4대 국회 법사위 보안법 개정 심사보고서 확보", "1958 지방자치법 개정안 제안이유와 수정안 원문 확보", "법률 제501호 관보 원문에서 공포·부서자 확인", "1956 지방선거 공식 선거통계에서 시읍면장 정당/무소속 분포 확보", "1958 지방자치법 개정 전후 내무부 지방국 시행지침 확인", "1954-11-27 제3대 국회 개헌 표결 원속기록 확보", "1954-11-29 최순주 부의장 선포취소 발언 원문 확보", "1954 자유당 긴급의원총회 사사오입 논리 채택 기록 확보", "이익흥의 수학자 접촉 주장에 대한 동시대 문서 또는 당사자 증언 원문 검증", "제2차 개정헌법 관보 제1228호 원문 이미지 확보", "1956 제3대 대통령선거 후보별 선거공보·정강 비교", "신익희 사망 직후 민주당 선거대책회의 기록 확보", "조봉암 1956 선거연설 평화통일·경제정책 원문 확보", "진보당 창당대회 정강정책 원문과 당 간부 명단 확보", "서울시경 진보당 내사 착수 문서번호·결재선 확인", "육군특무부대 조봉암·양이섭 수사기록 원문 번호 확인", "검찰 진보당 사건 공소장 원문에서 피고인별 공소사실 분리", "대법원 4291형상559 원판결 전문 확보", "1959-07-30 재심기각 결정문 전문 확보", "1959-07-31 법무부 사형집행 명령서 결재선 확인", "2011 대법원 재심 판결 전문을 claim/evidence graph에 연결", "경향신문 1959-02-04 여적 원면 확보", "BA0383999 주요한·한창우 판결문 전문에서 공소사실과 판단 추출", "1959-04-30 공보실 발행허가취소 통지서 원문 확보", "군정법령 제88호의 당시 적용근거와 권한승계 법리를 검증", "1959-06-26 서울고법 집행정지 결정문 확보", "1959-06-26~27 국무회의록에서 폐간 취소·무기정간 전환 의결 추출", "1960-04-26 대법원 경향신문 관련 결정문 확보", "1957 농업협동조합법 국회 농림위 심사보고서 확보", "1957 농업은행법 제정안과 재무부·농림부 이견 회의록 확보", "1958 농협중앙회 창립총회 임원·정부 관여 기록 확보", "1958 농업은행 출범 당시 자본·감독구조 원문 확보", "1951 한국산업은행법 정부안과 1953 통과안 조문 diff", "1953-11 산업은행법 국회 본회의·재경위 속기록 확보", "1954 산업은행 초대 이사회·총재 임명문서 확인", "1954~59 ICA/UNKRA 원조와 산업은행 융자 배분 연결문서 확인", "제4대 민의원 총선에서 자유당·민주당 지역별 득표/의석 불균형 분석용 공식 통계 확보", "1958 보안법파동 이후 1959-01-26 지방의원 시위의 참가자 명단과 체포기록 확인"
+  ],
+  "ledger": {"independentResearchLines":24,"domainsStrengthened":10,"nonPresidentialPoliticians":10,"eventsStructured":10,"documentsDirectlyOpened":25,"officialPrimaryContemporaryOrArchive":10,"adversarialSearches":12,"historyDebtOrOpenLeadsFollowed":3,"crossProvenanceBundles":4,"newConcreteLeads":45,"thresholdNotes":"문서 40/공식·1차 20, open-lead 8 하한은 미달. 검색결과 스니펫·동일 문서 중복을 문서 수로 부풀리지 않음."},
+  "weeklyFullHistoryDebtReview":"미실시. Asia/Seoul 기준 토요일 실행이며 일요일 첫 실행 조건이 아님.",
+  "floot":"untouched"
+}
