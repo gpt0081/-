@@ -1,0 +1,20 @@
+{
+  "schemaVersion":1,
+  "accessDate":"2026-10-04",
+  "pass":185,
+  "events":[
+    {"id":"evt-1949-us-pressure-landreform","date":"1949-12-16","title":"미 국무부·ECA의 농지개혁 시행 압박 확인","type":"foreign-policy-economic-pressure","observed_by":["미 국무부","주한미사절단/ECA"],"target":["대한민국 정부","이승만 대통령"],"evidence":["doc-frus1949-304-p185"],"note":"외부 압력은 확인되나 국내 입법·집행의 단독 원인으로 귀속하지 않음"},
+    {"id":"evt-1950-rhee-muccio-economic-control","date":"1950-01-15","title":"무초·번스-이승만 경제안정 협의에 농지개혁 시행 포함","type":"executive-foreign-consultation","participants":["이승만","John J. Muccio","Arthur C. Bunce"],"proposed_by":["미국 정부/ECA"],"decided_by":[],"evidence":["doc-frus1950-2-p185"],"uncertainty":"회의 자체가 개별 농지 집행결정을 내린 것은 아님"},
+    {"id":"evt-1950-landcommittee-regulation","date":"1950-02-10","title":"농지위원회규정 제정","type":"executive-rulemaking","legal_authority":["농지개혁법"],"decided_by":["대한민국 행정부"],"executed_by":["중앙·지방 농지위원회","지방행정기관"],"evidence":["doc-law-landcommittee-275-p185"]},
+    {"id":"evt-1950-landact-amendment","date":"1950-03-10","title":"농지개혁법 법률 제108호 개정 시행","type":"legislation","decided_by":["국회","공포권자"],"legal_authority":["법률 제108호"],"evidence":["doc-law-landact-108-p185"]},
+    {"id":"evt-1950-central-landcommittee-appointment","date":"1950-03-22","title":"중앙농지위원 위촉","type":"administrative-appointment","appointed":["윤영선","주석균","홍헌표","이천상","유완창","김웅각","김성찬","이순택","최순주","채규항","서상일","이훈구","강정탁","조백현","지용은"],"evidence":["doc-historydb-hanseong-19500322-p185"],"uncertainty":"이순택·채규항은 후대 백과의 이순탁·최규항과 충돌하므로 원지면/위촉장 필요"},
+    {"id":"evt-1950-central-landcommittee-first-meeting-p185","date":"1950-03-24","title":"중앙농지위원회 제1회 회합 예정/개최","type":"administrative-committee","participants":["중앙농지위원"],"evidence":["doc-historydb-hanseong-19500322-p185"],"uncertainty":"기사에는 개최 예정이 명시되며 실제 회의록은 아직 미확보"},
+    {"id":"evt-1950-land-enforcement-decree","date":"1950-03-25","title":"농지개혁법시행령 제294호 시행","type":"executive-rulemaking","legal_authority":["농지개혁법"],"decided_by":["대한민국 행정부"],"executed_by":["농림부","지방행정기관","농지위원회"],"evidence":["doc-law-enforcement-294-p185"]},
+    {"id":"evt-1950-us-observation-implementation-measure","date":"1950-03-29","title":"주한미대사관, 농지개혁 시행조치 통과를 경제안정 진전으로 보고","type":"contemporaneous-observation","observed_by":["John J. Muccio","미 국무부"],"evidence":["doc-frus1950-17-p185"],"note":"무초는 동시에 식량계획 외 조치가 아직 paper stage인 부분이 많다고 경계"},
+    {"id":"evt-1950-land-enforcement-rule","date":"1950-04-28","title":"농지개혁법시행규칙 제18호 시행","type":"ministerial-rulemaking","decided_by":["농림부"],"executed_by":["소재지 농지위원회","구청장·시장·군수"],"evidence":["doc-law-rule-18-p185"]},
+    {"id":"evt-1950-land-score-cabinet-to-promulgation","date":"1950-06-02/1950-06-23","title":"농지분배 점수제 국무회의 통과에서 대통령령 제375호 공포까지","type":"executive-rulemaking-chain","proposed_by":["농림행정 계통"],"decided_by":["국무회의","대한민국 행정부"],"legal_authority":["농지개혁법 제10조","대통령령 제375호"],"executed_by":["농림부","지방 농지행정망"],"evidence":["doc-historydb-june1950-p185","doc-law-score-375-p185"]},
+    {"id":"evt-1950-landreform-wartime-status-review","date":"1950-10-25/28","title":"미 국무부-주한미대사관의 전쟁 전 농지개혁 시행상태 재검토","type":"foreign-observation-review","observed_by":["미 국무부","주한미대사관"],"evidence":["doc-frus1950-707-p185","doc-frus1950-717-p185"],"later_finding":"대사관은 전쟁 발발 당시 남한 소작농 상당수가 소유권 취득 과정에 있었다고 판단"},
+    {"id":"evt-1950-rhee-north-land-policy-statement","date":"1950-10-23","title":"이승만의 북한 농지정책 구상 담화","type":"presidential-policy-statement","proposed_by":["이승만"],"observed_by":["주한미대사관"],"actions":["구 소유자에게 농지 반환 후 정부 매입·경작자 재분배 구상","지주에게 국채 지급 후 공장·사업 자금 활용 구상"],"evidence":["doc-frus1950-717-p185"],"uncertainty":"북한에 실제 시행된 정책과 구분"}
+  ],
+  "graphNote":"법률·대통령령·농림부령·국무회의·중앙/지방위원회·대통령 발언·미국의 압력/관찰을 서로 다른 action type으로 분리했다. 대통령 재임기라는 이유로 모든 농지개혁 action을 이승만의 직접 결정으로 귀속하지 않는다."
+}
