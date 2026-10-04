@@ -1,0 +1,25 @@
+{
+  "schemaVersion":1,
+  "accessDate":"2026-10-04",
+  "pass":205,
+  "claims":[
+    {"id":"clm-p205-education-multiactor","status":"SUPPORTED","supporting":["doc-historydb-education-draft-19490910-p205","doc-historydb-education-committee-19490913-p205","doc-historydb-education-plenary-19491125-p205","doc-law-education86-p205"],"contradicting":[],"open":"문교부 원안·위원회 회의록 원문으로 조문별 기여를 더 세분화"},
+    {"id":"clm-p205-compulsory-gap","status":"SUPPORTED","supporting":["doc-historydb-compulsory-start-19500601-p205","doc-historydb-compulsory-budget-19500623-p205","doc-archives-compulsory-edu-p205"],"contradicting":[],"open":"1950-06 실제 취학률·교실·교원 통계 확보"},
+    {"id":"clm-p205-local-reconsideration","status":"SUPPORTED","supporting":["doc-historydb-local-plenary-19490309-p205","doc-cons-local-reconsideration-p205","doc-historydb-local-amend-19491126-p205","doc-historydb-local-amend-19491128-p205"],"contradicting":[],"open":"정부 재의요구서·국회 속기록으로 직접 발언과 표결 세분화"},
+    {"id":"clm-p205-local-not-linear-democratization","status":"SUPPORTED_WITH_DUAL_CONTEXT","supporting":["doc-nec-local-election-1952-p205","doc-archives-local-law-history-p205"],"contradicting":[],"open":"UNCURK 원문과 지방의회 결의문을 연결해 제도화 효과와 정권동원 효과를 사건별 분리"},
+    {"id":"clm-p205-rhee-direct-order-education","status":"INSUFFICIENT_FOR_DIRECT_ORDER","supporting":["doc-historydb-education-draft-19490910-p205","doc-historydb-education-committee-19490913-p205"],"contradicting":[],"open":"대통령 결재문·서한·국무회의록에서 직접 지시 신호 adversarial search"},
+    {"id":"clm-p205-election-fairness","status":"NARROWED","supporting":["doc-nec-local-election-1952-p205"],"contradicting":[],"open":"UNCURK 원보고서에서 지역·행위자·압력 방식과 반대사례 확인"}
+  ],
+  "adversarialSearches":[
+    "교육법을 안호상 또는 이승만 개인 작품으로 보는 서술에 맞서 국회위원회 절충·본회의 심의를 확인",
+    "의무교육이 법 공포 즉시 완성됐다는 서술에 맞서 1950 예산·시설 부족을 확인",
+    "의무교육이 전쟁 후에야 시작됐다는 서술에 맞서 1950-06-01 시행 자료를 확인",
+    "지방자치법이 정부가 일방 제정했다는 서술에 맞서 국회 원안·정부 재의요구·재표결을 확인",
+    "정부의 중앙집권 개정 요구가 모두 관철됐다는 서술에 맞서 1949-11-28 국회 부결을 확인",
+    "1952 지방선거를 순수한 지방민주화로만 보는 서술에 맞서 대통령-국회 권력투쟁 맥락을 확인",
+    "1952 지방선거를 정권동원으로만 보는 서술에 맞서 실제 지방의회 제도화와 높은 참여율을 함께 보존",
+    "높은 투표율을 공정성의 증거로 보는 추론에 맞서 UNCURK 행정압력 관찰을 확인",
+    "지방선거 결과를 자유당 단독 승리로 단순화하지 않고 국민회·대한청년단·무소속을 분리",
+    "대통령 재임 중 정책이라는 이유만으로 직접지시를 귀속하지 않고 문교부·내무부·국회 action을 분리"
+  ]
+}
