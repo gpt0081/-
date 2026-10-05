@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-10-05",
+  "scope": "1953-06-18~07-24 anti-communist POW release command and armistice bargaining adversarial graph",
+  "parentEventId": "evt-1953-0618-anti-communist-pow-release",
+  "actions": [
+    {
+      "id": "act-won-followon-orders-19530619",
+      "type": "observed_execution",
+      "actor": "pol-won-yong-duk",
+      "date": "1953-06-19",
+      "claim": "미 극동군사령관 클라크는 Herren에게서 원용덕이 포로석방을 저지하는 미군을 공격하라는 명령을 한국 경비부대에 내렸다는 보고를 받았다고 JCS에 전했다.",
+      "documentIds": ["doc-frus-d612-19530619"],
+      "confidence": "medium-high",
+      "caution": "한국측 원명령서가 아니라 미국측 작전보고의 간접 보고다."
+    },
+    {
+      "id": "act-paik-informed-us-response",
+      "type": "observed_by",
+      "actor": "pol-paik-sun-yup",
+      "date": "1953-06-19",
+      "claim": "같은 미국측 작전보고는 백선엽 육군참모총장이 미군의 대응 의도를 통보받았다고 기록한다.",
+      "documentIds": ["doc-frus-d612-19530619"],
+      "confidence": "medium-high"
+    },
+    {
+      "id": "act-pyun-official-explanation",
+      "type": "executed_by",
+      "actor": "pol-pyun-yong-tae",
+      "date": "1953-06-18",
+      "claim": "변영태는 클라크에게 대통령이 한국 당국에 포로석방을 지시했다고 설명하는 서한을 발신했다.",
+      "documentIds": ["doc-nihd-dh029-19530618-0060"],
+      "confidence": "high",
+      "caution": "당일 서한은 변영태의 사전인지 시각을 증명하지 않는다."
+    },
+    {
+      "id": "act-armistice-bargaining-multistage",
+      "type": "negotiated_by",
+      "actors": ["pol-rhee-syngman", "person-walter-robertson"],
+      "dateRange": ["1953-07-01", "1953-07-24"],
+      "claim": "휴전 불방해, 상호방위조약, 정치회담 실패 뒤 행동은 7월 중 여러 차례 별도 조건으로 재협상되었다.",
+      "documentIds": ["doc-frus-d652-19530701", "doc-frus-d668-19530706", "doc-frus-d681-19530709", "doc-frus-d683-19530709", "doc-frus-d713-19530724"],
+      "confidence": "high"
+    }
+  ],
+  "documents": [
+    {"id":"doc-frus-d612-19530619","date":"1953-06-19","title":"Clark to JCS, CX 63170","publisher":"U.S. Department of State, FRUS","originalLocation":"https://history.state.gov/historicaldocuments/frus1952-54v15p2/d612","accessed":"2026-10-05","provenance":"US contemporaneous operational report"},
+    {"id":"doc-nihd-dh029-19530618-0060","date":"1953-06-18","title":"변영태 외무장관, 반공포로 석방과 관련해 클라크 유엔군사령관에게 서한 발송","publisher":"국사편찬위원회 한국사DB","originalLocation":"https://db.history.go.kr/id/dh_029_1953_06_18_0060","accessed":"2026-10-05","provenance":"ROK official correspondence reproduced in archival collection"},
+    {"id":"doc-frus-d652-19530701","date":"1953-07-01","title":"Robertson to Department of State","publisher":"U.S. Department of State, FRUS","originalLocation":"https://history.state.gov/historicaldocuments/frus1952-54v15p2/d652","accessed":"2026-10-05"},
+    {"id":"doc-frus-d668-19530706","date":"1953-07-06","title":"Robertson to Department of State","publisher":"U.S. Department of State, FRUS","originalLocation":"https://history.state.gov/historicaldocuments/frus1952-54v15p2/d668","accessed":"2026-10-05"},
+    {"id":"doc-frus-d681-19530709","date":"1953-07-09","title":"Rhee to Robertson","publisher":"U.S. Department of State, FRUS","originalLocation":"https://history.state.gov/historicaldocuments/frus1952-54v15p2/d681","accessed":"2026-10-05"},
+    {"id":"doc-frus-d683-19530709","date":"1953-07-09","title":"Robertson report on Rhee armistice position","publisher":"U.S. Department of State, FRUS","originalLocation":"https://history.state.gov/historicaldocuments/frus1952-54v15p2/d683","accessed":"2026-10-05"},
+    {"id":"doc-frus-d713-19530724","date":"1953-07-24","title":"Rhee to Secretary of State","publisher":"U.S. Department of State, FRUS","originalLocation":"https://history.state.gov/historicaldocuments/frus1952-54v15p2/d713","accessed":"2026-10-05"}
+  ],
+  "claims": [
+    {
+      "id":"claim-won-passive-executor-only",
+      "statement":"원용덕은 6월18일 최초 석방명령을 수동적으로 전달했을 뿐 추가 작전지시는 하지 않았다.",
+      "supportingEvidence":[],
+      "contradictingEvidence":["doc-frus-d612-19530619"],
+      "status":"CONTRADICTED_BY_CONTEMPORANEOUS_US_REPORT",
+      "scopeCaution":"한국측 원명령서 확보 전까지 추가지시의 정확한 문구·위임범위는 미확정"
+    },
+    {
+      "id":"claim-single-command-chain-entire-roka",
+      "statement":"반공포로 석방 과정에서 한국군 전체가 하나의 명확한 지휘선으로 움직였다.",
+      "supportingEvidence":[],
+      "contradictingEvidence":["doc-frus-d612-19530619"],
+      "status":"INSUFFICIENT_WITH_COUNTEREVIDENCE",
+      "scopeCaution":"원용덕 별도지시와 백선엽에게 전달된 미군 대응방침의 관계를 한국군 작전일지로 검증 필요"
+    },
+    {
+      "id":"claim-pyun-prior-knowledge",
+      "statement":"변영태는 반공포로 석방계획을 실행 전에 알고 있었다.",
+      "supportingEvidence":[],
+      "contradictingEvidence":[],
+      "status":"INSUFFICIENT",
+      "next":"6월17~18일 외무부·경무대 전보와 서한 작성시각 추적"
+    },
+    {
+      "id":"claim-pow-release-direct-barter-for-treaty",
+      "statement":"반공포로 석방과 한미상호방위조약은 단일한 직접 교환조건이었다.",
+      "supportingEvidence":[],
+      "contradictingEvidence":["doc-frus-d652-19530701","doc-frus-d668-19530706","doc-frus-d681-19530709","doc-frus-d683-19530709","doc-frus-d713-19530724"],
+      "status":"OVERSTATED_BY_CURRENT_EVIDENCE",
+      "scopeCaution":"석방이 협상환경에 큰 영향을 준 것과 단일 quid-pro-quo였다는 명제는 구분"
+    }
+  ],
+  "researchStatus":"NARROWED"
+}
