@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-10-05",
+  "scope": "1953-08-06 post-armistice economic aid, military assistance, and ROK force-building actor graph",
+  "parentContext": ["evt-1953-0618-anti-communist-pow-release"],
+  "actions": [
+    {
+      "id": "act-paik-ceb-mou-request-19530806",
+      "type": "proposed_by",
+      "actor": "pol-paik-tu-chin",
+      "claim": "백두진 국무총리는 1953-08-06 미 육군장관 Stevens에게 합동경제위원회를 통한 원조 집행 MOU의 미국 정부 최종 승인을 요청하고 공개 가능한 구체적 성과를 요구했다.",
+      "documentIds": ["doc-frus-d738-19530806"],
+      "confidence": "high"
+    },
+    {
+      "id": "act-paik-exchange-rate-19530806",
+      "type": "proposed_by",
+      "actor": "pol-paik-tu-chin",
+      "claim": "백두진은 영구 군사환율 180:1 확정, 한국측 시설·노무 등 현지비용 10%의 미국 부담, 다년 Tasca 원조계획 지지를 별도 의제로 제기했다.",
+      "documentIds": ["doc-frus-d738-19530806"],
+      "confidence": "high"
+    },
+    {
+      "id": "act-sohn-service-programs-19530806",
+      "type": "executed_by",
+      "actor": "pol-sohn-won-il",
+      "claim": "손원일 국방장관은 육·해·공군 증강 프로그램을 미국측에 요약 제시했다. 육군은 20개 사단과 완전 군수지원, 해·공군은 균형 잡힌 독립 방위력을 목표로 한 증강을 요구했다.",
+      "documentIds": ["doc-frus-d738-19530806"],
+      "confidence": "high"
+    },
+    {
+      "id": "act-service-chiefs-participation-19530806",
+      "type": "observed_by",
+      "actors": ["pol-paek-sun-yup", "pol-park-ok-kyu", "pol-choi-yong-duk"],
+      "claim": "백선엽 육군참모총장, 박옥규 해군참모총장, 최용덕 공군참모총장이 경제원조·군사원조·군 구조를 함께 논의한 회의의 한국측 군 수뇌부로 참석했다.",
+      "documentIds": ["doc-frus-d738-19530806"],
+      "confidence": "high"
+    },
+    {
+      "id": "act-rhee-ceb-coordination-19530806",
+      "type": "proposed_by",
+      "actor": "pol-rhee-syngman",
+      "claim": "이승만은 같은 날 Dulles 회담에서 합동경제위원회를 원조 조정의 최고 계획기구로 삼고 산업 자립과 비료공장 건설 등을 추진하자는 입장을 제시했다.",
+      "documentIds": ["doc-frus-d737-19530806"],
+      "confidence": "high"
+    },
+    {
+      "id": "act-paik-three-year-program-19530807",
+      "type": "proposed_by",
+      "actor": "pol-paik-tu-chin",
+      "claim": "백두진은 8월7일 회담에서 약 10억 달러 규모 통합원조 프로그램의 총액 승인과 기간 명시를 요구하고 공동성명에 3개년 통합계획을 넣기를 요청했다.",
+      "documentIds": ["doc-frus-d739-19530807"],
+      "confidence": "high"
+    },
+    {
+      "id": "act-treaty-initialing-19530808",
+      "type": "executed_by",
+      "actors": ["pol-pyun-yong-tae", "person-john-foster-dulles"],
+      "claim": "1953-08-08 변영태 외무장관과 Dulles가 한미상호방위조약 초안에 가조인했다. 이는 6월 포로석방과 별개의 8월 협상·문서화 단계다.",
+      "documentIds": ["doc-frus-d741-19530808"],
+      "confidence": "high"
+    }
+  ],
+  "documents": [
+    {"id":"doc-frus-d737-19530806","date":"1953-08-06","title":"Second Meeting Between President Rhee and Secretary Dulles: Economic Assistance","publisher":"U.S. Department of State, FRUS","originalLocation":"https://history.state.gov/historicaldocuments/frus1952-54v15p2/d737","accessed":"2026-10-05","provenance":"US contemporaneous memorandum of conversation"},
+    {"id":"doc-frus-d738-19530806","date":"1953-08-06","title":"Discussion of Problems Relating to Economic Aid, Military Assistance and ROK Armed Forces","publisher":"U.S. Department of State, FRUS","originalLocation":"https://history.state.gov/historicaldocuments/frus1952-54v15p2/d738","accessed":"2026-10-05","provenance":"US contemporaneous memorandum of conversation"},
+    {"id":"doc-frus-d739-19530807","date":"1953-08-07","title":"Third Meeting Between President Rhee and Secretary Dulles","publisher":"U.S. Department of State, FRUS","originalLocation":"https://history.state.gov/historicaldocuments/frus1952-54v15p2/d739","accessed":"2026-10-05","provenance":"US contemporaneous memorandum of conversation"},
+    {"id":"doc-frus-d741-19530808","date":"1953-08-08","title":"Final Meeting Between President Rhee and Secretary Dulles","publisher":"U.S. Department of State, FRUS","originalLocation":"https://history.state.gov/historicaldocuments/frus1952-54v15p2/d741","accessed":"2026-10-05","provenance":"US contemporaneous memorandum of conversation"}
+  ],
+  "claims": [
+    {"id":"claim-postarmistice-aid-president-only","statement":"1953년 휴전 직후 원조·군 증강 정책은 이승만 개인이 사실상 단독 설계했다.","supportingEvidence":[],"contradictingEvidence":["doc-frus-d738-19530806","doc-frus-d739-19530807"],"status":"CONTRADICTED_BY_MULTI_ACTOR_RECORD","scopeCaution":"대통령의 방향 제시와 총리·국방장관·각군 참모총장의 세부 제안·집행역할을 분리해야 한다."},
+    {"id":"claim-economic-aid-mere-treaty-sidepayment","statement":"전후 경제원조는 상호방위조약의 단순 부수 대가였다.","supportingEvidence":[],"contradictingEvidence":["doc-frus-d737-19530806","doc-frus-d738-19530806","doc-frus-d739-19530807"],"status":"OVERSTATED_BY_CURRENT_EVIDENCE","scopeCaution":"동시대 회의록은 원조의 통제기구·환율·현지비용·기간·산업자립·군 구조를 독립 협상의제로 기록한다."}
+  ],
+  "researchStatus": "STRUCTURED"
+}
