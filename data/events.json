@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-20",
+  "updatedAt": "2026-10-08",
   "purpose": "정치인 파일에 사건을 매몰시키지 않고 인물·기관·정당·법률·결정·집행·반대·후대판단을 cross-link하기 위한 사건 registry.",
   "events": [
     {
@@ -180,6 +180,35 @@
         "https://theme.archives.go.kr/next/officialDocument/docSketch01.do",
         "https://theme.archives.go.kr/next/koreaOfRecord/farmlandReform.do",
         "https://history.state.gov/historicaldocuments/frus1949v07p2/d304"
+      ],
+      "subEventIds": [
+        "evt-1949-farmland-draft-ministry",
+        "evt-1949-farmland-assembly-passage",
+        "evt-1949-farmland-cabinet-rejection",
+        "evt-1949-farmland-lapse-notice",
+        "evt-1949-farmland-parliament-legal-resolution",
+        "evt-1949-farmland-promulgation",
+        "evt-1949-farmland-minister-implementation-promise",
+        "evt-1949-farmland-amendment-proposal",
+        "evt-1950-farmland-amendment"
+      ],
+      "researchCorrections": [
+        {
+          "date": "2026-10-08",
+          "claim": "run78's 'veto override' is not a verified two-thirds re-passage",
+          "corrected": "1949-06-15 153 present, 97 yes, 19 no, resolution that government lapse notice was illegal and bill already law",
+          "sourceDocumentIds": [
+            "d79-assembly-june14",
+            "d79-assembly-june15"
+          ],
+          "previousStatementRetainedIn": "data/research/runs/2026-10-08-run78-pusan-land-pow-ledger.json"
+        }
+      ],
+      "documentIds": [
+        "d79-assembly-june14",
+        "d79-assembly-june15",
+        "d79-law31",
+        "d79-law108"
       ]
     },
     {
