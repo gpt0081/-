@@ -44,3 +44,7 @@
 - data/politicians/run111-bank-actors-b.json: 구용서 기존 ID 보강.
 - data/annals/kim-do-yeon-run111.md: 김도연 독립 실록.
 - 원공한·원임명장 미확보로 신규 VERIFIED 승격 없음.
+
+## Run113 (2026-10-09)
+
+See `data/politicians/run113-prewar-network.json` for 12 sourced profiles. No canonical promotion before identity verification.
