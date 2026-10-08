@@ -48,3 +48,7 @@
 ## Run113 (2026-10-09)
 
 See `data/politicians/run113-prewar-network.json` for 12 sourced profiles. No canonical promotion before identity verification.
+
+## Run113 extension · 1950-03-11 제헌국회 원속기록
+
+`data/politicians/run113-assembly-19500311-actors.json`의 윤치영(尹致暎)·주기용(朱基瑢)·이주형(李周衡)·유성갑(柳聖甲)·서정희(徐廷禧)는 국회 원속기록의 의사행위로 식별. 윤치영은 `data/annals/yun-chi-yeong-run113.md` 독립 실록을 시험 개설하고 ANNALS_ACTIVE 후보로 관리한다. 생몰·선거구·당적 원부 확인 전 canonical 승격하지 않는다.
