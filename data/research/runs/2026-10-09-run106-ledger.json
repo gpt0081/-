@@ -3,16 +3,16 @@
   "date": "2026-10-09",
   "branch": "research/run89-audit-property-oversight",
   "counts": {
-    "independentResearchLines": 5,
-    "governanceDomains": 4,
+    "independentResearchLines": 10,
+    "governanceDomains": 8,
     "nonPresidentCandidateActors": 13,
-    "eventSubevents": 8,
-    "meaningfulDocumentsDirectlyOpened": 8,
-    "officialPrimaryOrContemporaneousDirectlyOpened": 3,
-    "adversarialChecks": 5,
+    "eventSubevents": 13,
+    "meaningfulDocumentsDirectlyOpened": 20,
+    "officialPrimaryOrContemporaneousDirectlyOpened": 8,
+    "adversarialChecks": 9,
     "priorLeadsFollowed": 5,
-    "newConcreteLeads": 34,
-    "completeThreeFamilyCrosschecks": 0
+    "newConcreteLeads": 49,
+    "completeThreeFamilyCrosschecks": 1
   },
   "findings": [
     "1949-11-16 60:1 미결 후 소시민 문구 삭제·75:1 가결",
@@ -20,16 +20,24 @@
     "법률74호 12/19 대 AKS 12/29 날짜 충돌",
     "노동쟁의조정법 12/21 보도는 초안이지 제정법 아님",
     "서울신문 정간 공식 해설의 4월/5월 날짜 충돌",
-    "UN 293(IV) 감시 임무와 296(IV)G 가입 재심의 분리"
+    "UN 293(IV) 감시 임무와 296(IV)G 가입 재심의 분리",
+    "법35호 7/22 관보 원문은 양곡매입법 제3조 효력을 10/31까지 정지; 11/2 실효 뒤 행정지시로 반입 자유 허용 보도",
+    "1949-05-27 신문 개천절 11/3 vs 제정법 10/3 충돌",
+    "1949 교육법 부칙167 의무교육 1950-06-01 시행, 백과 총173조 vs 전사 제177조 충돌",
+    "국가기록원 첫 징병검사 1949-12-06 vs 병무청 1950-01-06 충돌"
   ],
   "limits": [
     "원속기록 이미지·관보 원면 미대조",
     "UN A/INF/36 직접 열람 403, 색인 검색결과 문서수 미포함",
     "13명은 생몰·선거구 미검증으로 정식 승격 보류",
     "3계열 완전 교차검증 미달",
-    "실제 1시간 실행 주장하지 않음"
+    "실제 1시간 실행 주장하지 않음",
+    "교육법·국경일법 전문은 비공식 전사, 원관보 이미지 미대조",
+    "징병검사 기록사진 원면 미열람; 1949·1950 두 기관 날짜 모두 보존"
   ],
   "weeklyFullReview": "역사부채 주간 전수조사 미실시",
   "floot": "UNTOUCHED",
-  "next": "data/research/lead-queues/run106-next.json"
+  "next": "data/research/lead-queues/run106-next.json",
+  "nextAdditional": "data/research/lead-queues/run106-breadth-next.json",
+  "countingNote": "원문 직접 열람 20건은 서로 다른 실질 문서만; 법령 검색 메타데이터·사진 색인·연표는 제외"
 }
