@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "run": 91,
+  "claims": [
+    {
+      "id": "c91-802-892",
+      "status": "CONFLICTED",
+      "statement": "1950-02-24 지역별 합계 802와 같은 발언 후반의 892가 충돌한다.",
+      "supportingEvidence": [
+        "d91-assembly-19500224:290+50+7+2+56+42+79+62+87+127=802"
+      ],
+      "contradictingEvidence": [
+        "d91-assembly-19500224:892"
+      ],
+      "insufficientEvidence": [
+        "인쇄 속기록 원면",
+        "중앙관재처 결정대장"
+      ],
+      "correctionHistory": "c89-property-claims-count와 중복 사실 연결, 수치 silent overwrite 금지"
+    },
+    {
+      "id": "c91-daegu-causality",
+      "status": "INSUFFICIENT",
+      "statement": "1949-11-02 통합반대회의가 1951년 대구방직 분리 결정을 직접 초래했다.",
+      "supportingEvidence": [
+        "d91-yeongnam-19491104",
+        "d91-daegu-19510331"
+      ],
+      "contradictingEvidence": [],
+      "insufficientEvidence": [
+        "1949~1951 상공부 결재",
+        "대구방직·조선방직 관리계약"
+      ]
+    },
+    {
+      "id": "c91-pm-unconstitutionality",
+      "status": "INSUFFICIENT",
+      "statement": "1949-07-22 국무총리의 답변 거부가 확정된 위헌 판결이라는 주장",
+      "supportingEvidence": [
+        "d91-assembly-19490722:국회의원들의 위헌·위법 주장"
+      ],
+      "contradictingEvidence": [],
+      "insufficientEvidence": [
+        "당시 국회법·헌법 원문",
+        "사법판단 기록"
+      ],
+      "note": "당사자 주장과 법원 판단 분리"
+    }
+  ]
+}
