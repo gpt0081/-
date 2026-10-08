@@ -1,52 +1,73 @@
 {
-  "date": "2026-10-09",
-  "politicianId": "pol-rhee-syngman",
   "run": 110,
-  "domains": [
+  "coverage": [
     {
-      "domain": "금융·중앙은행",
-      "status": "STRUCTURED",
-      "documents": [
-        "d110-law350",
-        "d110-press-bank-committee",
-        "d110-press-mpc-first",
-        "d110-press-bank-opening"
+      "domain": "education",
+      "documentIds": [
+        "d110-education-plan1948",
+        "d110-education1949",
+        "d110-compulsory-start1950"
       ],
-      "note": "대통령령 제350호 제2·3·9조, 설립위·금통위 행위 분리"
+      "progress": "policy planning, deputy statement, launch and war interruption",
+      "verifiedExecution": "PARTIAL"
     },
     {
-      "domain": "선거·대표성",
-      "status": "DEBT_TRACKED",
-      "documents": [
-        "d110-press-election-stats"
+      "domain": "agriculture",
+      "documentIds": [
+        "d110-landmotion1949",
+        "d110-landreading1950",
+        "d110-landbudget1950"
       ],
-      "note": "1950 제2대 총선 91.9% 투표율 원보도와 무효표 8.1% 서술 오류 분리"
+      "progress": "parliament debate and implementation plans",
+      "verifiedExecution": "PARTIAL"
     },
     {
-      "domain": "재정·경제조정",
-      "status": "STRUCTURED",
-      "documents": [
-        "d110-press-economic9"
+      "domain": "fiscal_tax",
+      "documentIds": [
+        "d110-taxproposal1950",
+        "d110-taxcommittee1950"
       ],
-      "note": "1950 한미경제안정위원회 9상임과 관료 인명망 추가"
+      "progress": "proposal vs committee amendment",
+      "verifiedExecution": "PARTIAL"
     },
     {
-      "domain": "교육·복지·농정",
-      "status": "DEBT_TRACKED",
-      "documents": [
-        "d110-press-child-ration"
+      "domain": "civil_service",
+      "documentIds": [
+        "d110-aidcircular1949",
+        "d110-discipline1949",
+        "d110-civilservice-exam1949"
       ],
-      "note": "결식아동 배급 요청과 숫자 충돌, 시행 미확인"
+      "progress": "cabinet coordination, discipline and recruitment",
+      "verifiedExecution": "PARTIAL"
     },
     {
-      "domain": "헌정·외국자료비판",
-      "status": "DEBT_TRACKED",
-      "documents": [
-        "d110-us-connelly1954",
-        "d110-law138-meta"
+      "domain": "local_administration",
+      "documentIds": [
+        "d110-localamend1949",
+        "d110-nec1952local"
       ],
-      "note": "1954 미국 법률 메모 공포일 오기; 번역문 미확보 자기기술"
+      "progress": "local legal framework and 1952 voting",
+      "verifiedExecution": "PARTIAL"
+    },
+    {
+      "domain": "social_policy",
+      "documentIds": [
+        "d110-gazette1949welfare",
+        "d110-seoulpoll1949",
+        "d110-jobs1949"
+      ],
+      "progress": "relief funding, public demand and employment offices",
+      "verifiedExecution": "PARTIAL"
+    },
+    {
+      "domain": "constitutional_elections",
+      "documentIds": [
+        "d110-nikh-1950-winners-list",
+        "d110-oir5824",
+        "d110-missingmps1952"
+      ],
+      "progress": "1950 election vs 1952 by-elections and missing MP vacancy law",
+      "verifiedExecution": "PARTIAL"
     }
-  ],
-  "overall": "additive-run-layer; root coverage unchanged"
+  ]
 }
