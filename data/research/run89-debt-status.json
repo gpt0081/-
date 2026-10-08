@@ -4,17 +4,27 @@
   "debts": [
     {
       "id": "HD-R89-005",
-      "status": "CONFLICTED",
+      "status": "NARROWED",
       "eventId": "evt89-property-confirmation-bill-19500224",
       "claimId": "c89-property-claims-count",
       "documentId": "d89-property-confirmation-19500224",
       "conflict": {
-        "valueA": 802,
-        "valueB": 892,
-        "context": "same 1950-02-24 parliamentary speech"
+        "previousClaimA": 802,
+        "previousClaimB": 892,
+        "review": "공식 전사본의 김갑수 발언에는 지역별 합계 802와 후속 802 반복이 확인되나 892는 현재 확인하지 못함",
+        "unresolved": "원속기록 이미지 또는 892 주장의 정확한 위치"
       },
-      "nextOriginal": "국회도서관 제헌국회 제6회39차 속기록 원본 이미지; 중앙관재처 간이소청 결정 대장",
-      "reviewDate": "2026-10-08"
+      "nextOriginal": "국회도서관 제헌국회 제6회 제39차 1950-02-24 원속기록 이미지 802/892 여부; 중앙관재처 간이소청 결정 대장",
+      "reviewDate": "2026-10-08",
+      "reviewHistory": [
+        {
+          "date": "2026-10-08",
+          "from": "CONFLICTED",
+          "to": "NARROWED",
+          "basis": "국사편찬위원회 전사본 802 및 지역별 합계 802; 892 미재현",
+          "caveat": "원면 미열람이므로 숫자 완전 확정 아님"
+        }
+      ]
     },
     {
       "id": "HD-R89-006",
