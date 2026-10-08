@@ -249,7 +249,8 @@
       "legal_authority": [],
       "documentIds": [
         "d84-property-news-1203",
-        "d84-property-commentary"
+        "d84-property-commentary",
+        "d85-property-1203-transcript"
       ],
       "attributionCaveat": "No inference of presidential direct order from tenure or government position.",
       "vote": {
@@ -263,7 +264,14 @@
           "present": 135,
           "yes": 20,
           "no": 49
-        }
+        },
+        "originalTranscript": {
+          "present": 135,
+          "yes": 20,
+          "no": 49,
+          "source": "d85-property-1203-transcript"
+        },
+        "note": "원속기록은 135/20/49, 서울신문은 129/20/42. 차이는 보존하며 표결 단계 및 전사 오류 가능성 미확정."
       },
       "note": "출처간 재석/반대 숫자 충돌; 원속기록 미확보. 김준연의 이견은 재의 접수 순서에 관한 절차 의견이지 재의 자체의 반대 단정 금지.",
       "proceduralMotions": [
@@ -279,6 +287,14 @@
           "actor": "pol-kim-jun-yeon",
           "action": "question about sequence of deciding whether to receive reconsideration"
         }
+      ],
+      "correctionHistory": [
+        {
+          "date": "2026-10-08",
+          "old": "원속기록 미확보; 후대 해제 135/20/49",
+          "new": "원속기록 직접 확인 135/20/49; 동시대 신문 수치 충돌 유지",
+          "source": "d85-property-1203-transcript"
+        }
       ]
     },
     {
@@ -287,7 +303,7 @@
       "name": "귀속재산처리법 정부 이의 반영 자구수정 동의",
       "parentEventId": null,
       "proposed_by": [
-        "pol-seo-woo-seok"
+        "pol-im-yeong-sin"
       ],
       "decided_by": [
         "org-constituent-assembly"
@@ -300,16 +316,38 @@
       "legal_authority": [],
       "documentIds": [
         "d84-property-news-1203",
-        "d84-property-commentary"
+        "d84-property-commentary",
+        "d85-property-1203-transcript"
       ],
       "attributionCaveat": "No inference of presidential direct order from tenure or government position.",
       "vote": {
-        "present": 123,
-        "yes": 79,
-        "no": 3,
-        "source": "contemporaneous newspaper"
+        "originalTranscript": {
+          "present": 122,
+          "yes": 79,
+          "no": 3
+        },
+        "contemporaneousNewspaper": {
+          "present": 123,
+          "yes": 79,
+          "no": 3
+        },
+        "discrepancy": "present count 122 vs 123 remains OPEN"
       },
-      "note": "신문은 서우석 동의로 기록, 후대 헌정사 해제는 임영신·이정래 동의라고 서술. 동일한 동의인지 원속기록 검증 필요."
+      "note": "임영신 최초 동의; 이정래 제9조 삭제 제안; 서우석 자구·법제사법위원회 위임 제안; 임영신 수락. 1949-12-03 원속기록 기준.",
+      "amended_by": [
+        "pol-lee-jeong-rae",
+        "pol-seo-woo-seok"
+      ],
+      "correctionHistory": [
+        {
+          "date": "2026-10-08",
+          "previousProposedBy": [
+            "pol-seo-woo-seok"
+          ],
+          "reason": "구별해야 하는 최초 동의와 자구수정 제안",
+          "source": "d85-property-1203-transcript"
+        }
+      ]
     },
     {
       "id": "evt84-property-promulgation",

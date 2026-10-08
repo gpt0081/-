@@ -15,3 +15,5 @@
 - 2026-10-08 법원조직법·귀속재산처리법 원문 기반 제헌국회·법무부 정치인 후보 14명: `data/politicians/run84-1949-institutional-actors.json`.
 - 서우석 독립 실록/증거: `data/annals/seo-woo-seok.md`, `data/evidence/seo-woo-seok.json`.
 - 새 document/action/claim: `data/documents/run84-courts-vested-property.json`, `data/events/run84-judiciary-property-actions.json`, `data/claims/run84-judiciary-property-claims.json`.
+
+- 2026-10-08 귀속재산처리법 재의 원속기록 역할 정정: `data/documents/run85-property-primary.json`, `data/politicians/run85-property-correction-actors.json`; 기존 서우석 실록과 run84 사건·주장·부채를 조용히 덮어쓰지 않고 교정 이력 유지.
