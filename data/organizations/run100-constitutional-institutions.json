@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "run": 100,
+  "organizations": [
+    {
+      "id": "org-legislation-office",
+      "name": "법제처",
+      "type": "government_drafting",
+      "evidenceDocumentIds": [
+        "d100-19501107-cabinet",
+        "d100-19511009-cabinet"
+      ]
+    }
+  ],
+  "canonicalAliases": [
+    {
+      "id": "org-executive-government",
+      "sameAs": "org-rok-cabinet"
+    },
+    {
+      "id": "org-ministry-of-justice",
+      "sameAs": "org-1948-justice-ministry"
+    },
+    {
+      "id": "org-national-assembly",
+      "sameAs": "org-rok-assembly-2"
+    }
+  ],
+  "note": "기존 org ID는 canonical, run100 초기 참조는 alias로 처리. 후속 migration 시 정규화."
+}
