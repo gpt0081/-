@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "updatedAt": "2026-10-08",
   "activeBranch": "research/run89-audit-property-oversight",
-  "branchHead": "29efd3b8213a0ade2a29fdec55e4a4fb0e1b7b5e",
+  "branchHead": "21ae28eb370edbafdf42b80911e235d8cc2e532b",
   "baseMain": "34361bdcc8a895ed556b873aae6bd59ce3faa1c6",
   "status": "RESEARCH_REVIEW_PENDING",
   "summary": {
@@ -13,6 +13,19 @@
     "leadQueue": 52,
     "followedPriorLeads": 8
   },
-  "nextAction": "Review run89 ledger and branch, reconcile actor identifiers and evidence references before merging. Preserve correction histories.",
-  "mainDataModified": false
+  "nextAction": "Review research/run89-audit-property-oversight through run94 (head 21ae28e), validate candidate identities and referential links, verify original images, then merge with main. Do not merge before review. Floot untouched.",
+  "mainDataModified": false,
+  "latestRun": 94,
+  "latestCorrections": [
+    {
+      "run": 93,
+      "topic": "1949-04-15 grain withdrawal voting",
+      "finding": "83:8 debate closure; withdrawal 46:58 and 44:68 undecided"
+    },
+    {
+      "run": 94,
+      "topic": "1950-02-24 property count source discrepancy",
+      "finding": "802 reproduced in official transcription; 892 not reproduced; original image still needed"
+    }
+  ]
 }
