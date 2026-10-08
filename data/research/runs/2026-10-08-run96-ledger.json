@@ -21,7 +21,8 @@
     "priorOpenLeadsFollowed": 3,
     "priorOpenLeadsResolved": 0,
     "newLeads": 16,
-    "threeFamilyCrosschecksCompleted": 0
+    "threeFamilyCrosschecksCompleted": 0,
+    "documentsRegistered": 8
   },
   "sourceCountMethod": "7개 원문 텍스트: NSC 8/2, Truman 1952 성명, FRUS d236, UN 결의 112/293, 1950 임병직 6/26 및 8/5 성명. 추가 1개 AKS 인물 해설 직접 열람. UN A/936 두 권은 메타데이터만, 직접 열람 수에서 제외. FRUS 1947 d660은 UN112 복제문서로 중복 계산하지 않음.",
   "adversarial": [
@@ -69,5 +70,18 @@
   ],
   "weeklyFullReview": "역사부채 주간 전수조사 미실시",
   "floot": "UNTOUCHED",
-  "integration": "PENDING_COMMIT"
+  "integration": "INTEGRATED",
+  "commits": [
+    "ded442edaeb877581d44782acaea3b6243722852"
+  ],
+  "consistencyGate": {
+    "checkedAt": "2026-10-08",
+    "documentClaimEventLinks": true,
+    "politicianStableId": true,
+    "organizationStableIds": true,
+    "annalsEvidenceFiles": true,
+    "leadQueue": true,
+    "unresolvedOriginalsPreserved": true,
+    "notes": "branch-only research; main not merged. FRUS 1947 d660 same UN112 document family not double-counted."
+  }
 }
