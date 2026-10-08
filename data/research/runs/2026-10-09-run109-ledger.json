@@ -5,34 +5,41 @@
   "elapsedMinutes": null,
   "elapsedNote": "실제 실행시간 계측 없음. 1시간 실행했다고 기록하지 않음.",
   "counts": {
-    "independentResearchLines": 24,
+    "independentResearchLines": 26,
     "domainsStrengthened": 12,
     "nonPresidentPeopleExamined": 12,
     "verifiedPromotions": 0,
-    "eventsStructured": 14,
-    "uniqueDocumentsDirectlyOpened": 46,
-    "contemporaneousOriginalTextTranscriptions": 41,
+    "eventsStructured": 18,
+    "uniqueDocumentsDirectlyOpened": 54,
+    "contemporaneousOriginalTextTranscriptions": 43,
     "editorialNotes": 1,
-    "officialRetrospectiveExhibits": 3,
-    "officialArchiveFindingAids": 1,
+    "officialRetrospectiveExhibits": 6,
+    "officialArchiveFindingAids": 2,
     "originalFacsimilesObtained": 0,
     "adversarialChecks": 12,
     "priorOpenLeadsTracked": 9,
-    "newLeads": 42,
-    "threeIndependentProvenanceClaimBundles": 0
+    "newLeads": 48,
+    "threeIndependentProvenanceClaimBundles": 0,
+    "scholarlySecondaryDocuments": 1,
+    "twoFamilyCrosscheckBundles": 2
   },
   "primaryFindings": [
     "1950-01~04 인플레이션 정책에서 미측 비판과 부분적 합의 진전이 공존",
     "1950-05-11 북한군 추정치는 한국 국방부 183100명, 미국 대사관 103000명으로 불일치",
     "1950-05-23 F-51 40대 T-6 10대 C-47 3대는 미대사관의 권고안이지 인도실적이 아님",
     "한국은행 설립 과정에서 조선은행·재무부 설계안과 미국 전문가 초안이 교차",
-    "국가기록원 BA0135047 색인은 15원칙안 심의시점을 1950.1로 표기"
+    "국가기록원 BA0135047 색인은 15원칙안 심의시점을 1950.1로 표기",
+    "1950-04-21 제6회 제82차 국회본회의에서 한국은행법 수정안 가결: 1950-04-23 연합신문 원문 전사 추가",
+    "1950-05-30 제2대 국회의원선거 실시: 중앙선관위·국사편찬위 확인",
+    "BA0135047 15원칙 초안 표기는 국가기록원 내에서도 1949와 1950.1로 상이하여 CONFLICTED_METADATA로 보존",
+    "1950-01-12 정부 예산안 대통령 결재 후 국회 회부: 서울신문 1950-01-13 원문 전사"
   ],
   "limitations": [
     "대부분 FRUS 1950 미국 외교기록 계열에 집중되어 3개 독립 출처 계열 교차검증 하한 미달",
     "인물 생몰·한자·관보 검증 부족으로 VERIFIED 승격 없음",
     "국가기록원 BA0135047은 원문이 아닌 색인",
-    "동시대 기록의 원문 디지털 전사와 원본 실물/이미지 구분"
+    "동시대 기록의 원문 디지털 전사와 원본 실물/이미지 구분",
+    "15원칙 초안의 1949 vs 1950.1 메타데이터 충돌 보존, 원면 미확보"
   ],
   "weeklyFullDebtReview": "역사부채 주간 전수조사 미실시",
   "flootTouched": false,
@@ -50,14 +57,20 @@
     "data/research/history-debt/run109-addendum.md",
     "data/research/runs/2026-10-09-run109-prior-leads.md",
     "data/annals/kim-do-yeon-run109.md",
-    "data/research/rhee-syngman-coverage-run109.json"
+    "data/research/rhee-syngman-coverage-run109.json",
+    "data/documents/run109b-korean-sources.json",
+    "data/events/run109b-budget-election-bank.json",
+    "data/research/history-debt/run109b-metadata-correction.md",
+    "data/research/lead-queues/run109b-next.json"
   ],
   "nextTopPriority": [
+    "한국은행 2015 한국은행법 제정 자료집 제2권 원안·국회 수정안",
     "1950-04-21 한국은행법 국회 표결 원부",
     "1950-05 내무부 경찰 인사원부",
     "1950-01 BA0135047 15원칙안 원문",
     "1950-04-27/28 UNCOK 회의록",
     "1950-05-11 국방부·미대사관 병력 추정 원자료"
   ],
-  "commitSha": "See GitHub branch head after commit; ledger cannot embed its own SHA without follow-up commit."
+  "commitSha": "See GitHub branch head after commit; ledger cannot embed its own SHA without follow-up commit.",
+  "extension": "b"
 }
