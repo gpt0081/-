@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "run": 81,
+  "claims": [
+    {
+      "id": "c81-legal-basis",
+      "statement": "1945 법령33호→1948 법령173호 토지귀속·분배, 174호 신한공사 해산",
+      "supporting": [
+        "d81-33",
+        "d81-173",
+        "d81-174"
+      ],
+      "status": "SUPPORTED"
+    },
+    {
+      "id": "c81-bilingual-conflict",
+      "statement": "173호 제5조 영문 법령33호, 국문 DB 전사 법령23호; 원본 활자 재확인 필요",
+      "supporting": [
+        "d81-173",
+        "d81-33"
+      ],
+      "contradicting": [
+        "d81-173"
+      ],
+      "status": "CONFLICTED"
+    },
+    {
+      "id": "c81-1948-1950-return",
+      "statement": "173·215호 75% 환급과 1950-02-02 국회 제18조의 75% 이상 보상 논의는 비교 가능하지만 자동 법적 승계는 미확정",
+      "supporting": [
+        "d81-173",
+        "d81-215",
+        "d80-1950-02-02"
+      ],
+      "status": "NARROWED"
+    },
+    {
+      "id": "c81-title-litigation",
+      "statement": "209호는 173호 제12조 개정, 215호가 209호를 대체하고 소송·환급 규정 변경",
+      "supporting": [
+        "d81-209",
+        "d81-215"
+      ],
+      "status": "SUPPORTED"
+    },
+    {
+      "id": "c81-1950-penalty-vote",
+      "statement": "1950-02-02 벌칙완화 제25조 수정안 20:33 및 24:32 두 차례 미결로 폐기",
+      "supporting": [
+        "d80-1950-02-02"
+      ],
+      "status": "SUPPORTED"
+    },
+    {
+      "id": "c81-1950-land173-vote",
+      "statement": "1950-02-02 기존 군정173호 분배농지 3정보 규칙 신설안 107 재석, 68 찬성, 1 반대",
+      "supporting": [
+        "d80-1950-02-02",
+        "d81-173"
+      ],
+      "status": "SUPPORTED"
+    }
+  ]
+}
