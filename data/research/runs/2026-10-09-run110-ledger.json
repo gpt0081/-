@@ -2,58 +2,151 @@
   "run": 110,
   "date": "2026-10-09",
   "branch": "research/run89-audit-property-oversight",
-  "elapsedMinutes": null,
-  "elapsedNote": "실행 시작/종료 계측 부재. 1시간 실행 주장하지 않음.",
-  "counts": {
-    "independentResearchLines": 28,
-    "domainsStrengthened": 9,
-    "nonPresidentPeopleExamined": 28,
-    "verifiedPromotions": 0,
-    "annalsActivePilots": 1,
-    "eventsStructured": 26,
-    "uniqueDocumentsDirectlyOpened": 48,
-    "contemporaneousOriginalTextTranscriptions": 38,
-    "originalFacsimilesObtained": 0,
-    "newDocumentRegistryEntries": 36,
-    "adversarialChecks": 10,
-    "priorOpenLeadsTracked": 8,
-    "newLeads": 37,
-    "threeIndependentProvenanceClaimBundles": 3
-  },
-  "findings": [
-    "1950 총선 연표 명부에 1952 보궐 후임 8명과 1951 이후 자유당 소속 혼재",
-    "미국 OIR 5824는 1952-02-05 8석 보선 중 7석을 친이승만 성향으로 관찰; 개별 당적은 미확정",
-    "1952-08-26 납북 의원 27명 보궐 논쟁은 2월 8석 보선과 별개",
-    "1949 농지개혁법 법률31호와 1950 개정108호를 혼동한 헌정사DB 해제 표기 확인",
-    "1948 의무교육 계획, 1950 시행, 전쟁기 시행중단의 시차 확인",
-    "1949 관보의 사회부 구호재원 조달 일정과 12월 동시대 보도의 실제 시작 시점 차이",
-    "정부 세법안과 재경위 수정안, 예산 의결과 집행을 구분"
+  "executionTimeMinutes": null,
+  "executionTimeNote": "실제 계측된 1시간 경과시간 없음; 실행시간을 과장하지 않는다.",
+  "independentResearchLines": [
+    "1950 한국은행법 제정·시행일",
+    "대통령령350 설립위원회 법적권한",
+    "설립위원회 제1차 회의",
+    "한국은행 시행령·등기규칙",
+    "금통위 제1차 정관·지점 의결",
+    "한국은행 창립식 발언",
+    "1954 미 법률 메모 공포일 오기",
+    "1950 선거 투표율·무효표 산술",
+    "1950 선거 정당별 당선자 집계",
+    "한미경제안정위원회 13→9 개편",
+    "재무·은행여신 상임위",
+    "농림·미곡 상임위",
+    "가격·배급 상임위",
+    "외환·무역·외자 상임위",
+    "광공업·귀속재산 상임위",
+    "교통·체신 상임위",
+    "계획·통계 상임위",
+    "행정조직 상임위",
+    "결식아동 배급 요청과 산술",
+    "한미 위원회 임명 실명 식별"
   ],
-  "limits": [
-    "원지면·관보 이미지·1952 선관위 당선증 미확보",
-    "은행법 1950-04-21 원회의록·2015 자료집 2권 미확보",
-    "인물 생몰·임면관보 부족; VERIFIED 승격 없음",
-    "일부 문서는 후대 학술/공식 해설이며 48건 전부를 1차 원본으로 계산하지 않음"
+  "counts": {
+    "independentResearchLines": 20,
+    "domainsStrengthened": 8,
+    "nonPresidentPeopleExamined": 10,
+    "verifiedPromotions": 0,
+    "eventsStructured": 10,
+    "uniqueDocumentsDirectlyOpened": 8,
+    "officialOrContemporaneousDirectDocuments": 8,
+    "officialOriginalLegalTextsDirectlyOpened": 1,
+    "contemporaneousPressTexts": 6,
+    "foreignContemporaneousMemo": 1,
+    "archiveMetadataOnly": 4,
+    "adversarialChecks": 5,
+    "priorOpenLeadsTracked": 5,
+    "newLeads": 37,
+    "threeIndependentProvenanceClaimBundles": 0,
+    "twoFamilyCrosscheckBundles": 2
+  },
+  "provenanceNote": "법제처 원법령 + 당시 상공일보/자유신문/서울신문/국도신문/경향신문 + 한국은행 후대 공식 해설 + 1954 미국 원메모를 구분. 동일 문서 중복계수 없음. 한국은행 공식 전시와 1950-04-21 연합신문은 이전 run109에서 이미 열었으므로 신규 직접열람 문서로 세지 않음.",
+  "adversarialChecks": [
+    {
+      "claim": "법률 제138호 5월5일 공포",
+      "counter": "1954 Connelly May4",
+      "result": "CONFLICTED_METADATA"
+    },
+    {
+      "claim": "1950-05-11 설립위 설치=은행법 이미 시행",
+      "counter": "법제처 시행일 5월26일",
+      "result": "OPEN_INTERPRETATION"
+    },
+    {
+      "claim": "5·30 무효표 8.1%",
+      "counter": "222451/8434737=2.64%",
+      "result": "INTERNAL_ARITHMETIC_CONFLICT"
+    },
+    {
+      "claim": "결식아동 배급 총계 46322석",
+      "counter": "13231+20091=33322",
+      "result": "INTERNAL_ARITHMETIC_CONFLICT"
+    },
+    {
+      "claim": "이승만이 1950-06-12 한미 위원회 개편 직접 지시",
+      "counter": "국도신문은 위원회 제48·50회 결정만 제시",
+      "result": "INSUFFICIENT"
+    }
+  ],
+  "priorLeads": [
+    {
+      "prior": "L109-07/L109-51",
+      "result": "국회 4월21일 표결원부 여전히 미확보; 한국은행 공식 날짜와 연합신문 일치, 후대 칼럼은 불일치"
+    },
+    {
+      "prior": "L109-08",
+      "result": "관보345호 공보처 원본의 한국은행 디지털아카이브 소장색인 IT27643 특정; 부분제한 원면 미열람"
+    },
+    {
+      "prior": "L109-09",
+      "result": "대통령령350 제1~9조 직접 확인, 제9조 종합경과보고서 새 표적 도출"
+    },
+    {
+      "prior": "L109-10",
+      "result": "1950-06-07 서울신문 전사에서 제1회 금통위 의결·지점명 확인, 회의록 원면 미확보"
+    },
+    {
+      "prior": "L109-49/L109-50",
+      "result": "6월12일 선거 통계 발표 원문 추가, 무소속 의석 분류 차이는 계속 미해결"
+    }
+  ],
+  "crossProvenance": [
+    {
+      "topic": "은행 6월12일 개업",
+      "families": [
+        "1950 자유신문",
+        "한국은행 공식 후대 연혁"
+      ],
+      "count": 2
+    },
+    {
+      "topic": "5월11일 설립위원회",
+      "families": [
+        "대통령령 제350호 원문",
+        "1950 상공일보"
+      ],
+      "count": 2
+    }
   ],
   "weeklyFullDebtReview": "역사부채 주간 전수조사 미실시",
   "flootTouched": false,
-  "latestLeadQueue": [
-    "run110-election-a.json",
-    "run110-election-b.json",
-    "run110-social-a.json",
-    "run110-social-b.json",
-    "run110-land-a.json",
-    "run110-administration.json",
-    "run110-fiscal-b.json",
-    "run110-land-c.json",
-    "run110-land-d.json"
+  "files": [
+    "data/documents/run110-1950-institutional-primary.json",
+    "data/events/run110-1950-institutional-actions.json",
+    "data/politicians/run110-1950-administrative-actors.json",
+    "data/claims/run110-source-critical-claims.json",
+    "data/research/lead-queues/run110-next.json",
+    "data/research/runs/2026-10-09-run110-ledger.json",
+    "data/annals/rhee-syngman-run110.md",
+    "data/research/history-debt/run110-addendum.md",
+    "data/research/rhee-syngman-coverage-run110.json"
   ],
-  "commitCountBeforeLedger": 40,
-  "nextTopPriority": [
-    "1952-02-05 선관위 8개 선거구 원명부",
-    "1950 총선 연표 수정이력",
-    "1949/1950 농지개혁법 원관보",
-    "1950-04-21 한국은행법 국회 속기록",
-    "1948~1951 의무교육 지역별 취학통계"
+  "limitations": [
+    "직접 열람 8건으로 40건 하한 미달: 고유 원문 확보와 숫자·날짜 충돌 정밀감식에 집중",
+    "공식 1차 원면은 대통령령 제350호 전사 1건, 관보345호·위원회 회의록·미국 메모 원면 이미지 미확보",
+    "한국은행법 제138호 제정 부칙 전문 접근 미완",
+    "정치인 6명은 신문 단일 근거 candidate이며 VERIFIED 승격하지 않음",
+    "3개 독립 provenance 동일 명제 검증 미달"
+  ],
+  "nextPriority": [
+    "L110-01",
+    "L110-02",
+    "L110-03",
+    "L110-04",
+    "L110-05",
+    "L110-06",
+    "L110-07",
+    "L110-08",
+    "L110-09",
+    "L110-10",
+    "L110-11",
+    "L110-12",
+    "L110-13",
+    "L110-14",
+    "L110-15"
   ]
 }
