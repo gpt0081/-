@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "claims": [
+    {
+      "id": "p49-c1",
+      "statement": "1949-05-03 국무회의에서 서울신문 정간이 의결되었다는 1949-05-07 기자단 건의서가 존재한다. 국가기록원 전시 연표 4.3/4.4와 같은 페이지 본문 5.3/5.4는 충돌한다.",
+      "status": "CONFLICTED_METADATA",
+      "supporting": [
+        "p49-d3",
+        "p49-d5"
+      ],
+      "contradicting": [
+        "p49-d5#timeline-april"
+      ],
+      "insufficient": [
+        "1949-05-03 cabinet minutes",
+        "1949-05-04 original suspension order"
+      ],
+      "reviewHistory": [
+        {
+          "date": "2026-10-08",
+          "action": "preserve both date readings"
+        }
+      ]
+    },
+    {
+      "id": "p49-c2",
+      "statement": "이승만이 1949-05-06 정간을 잘 모르겠다고 답했다는 연합신문 전사는 발언 사실의 보도이며 실제 사전 인지 여부를 확정하지 않는다.",
+      "status": "NARROWED",
+      "supporting": [
+        "p49-d1"
+      ],
+      "insufficient": [
+        "cabinet attendance and presidential approval"
+      ]
+    },
+    {
+      "id": "p49-c3",
+      "statement": "담수회와 중앙청 출입기자단은 각각 5월6일과 7일 정간 재고·해제를 요청했다는 동시대 보도가 있다.",
+      "status": "SUPPORTED_CONTEMPORANEOUS_REPORTS",
+      "supporting": [
+        "p49-d2",
+        "p49-d3"
+      ],
+      "insufficient": [
+        "original signed petitions and receipt log"
+      ]
+    },
+    {
+      "id": "p49-c4",
+      "statement": "1949 공보처장 김동성 金東成(1890년생)과 1963 공보부장관 김동성 金東晟(1925년생)은 동명이인이다.",
+      "status": "IDENTITY_DISAMBIGUATED",
+      "supporting": [
+        "p49-d4",
+        "p49-d6",
+        "p49-d7"
+      ],
+      "insufficient": [
+        "official appointment and 1952 assembly membership roll"
+      ]
+    }
+  ]
+}
