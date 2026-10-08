@@ -7,3 +7,7 @@
 - 신규 event/action: `data/events/run81-land-legal-actions.json`
 
 조회 시 base와 overlay를 stable ID로 결합한다. 기존 ID를 삭제하거나 자동으로 덮어쓰지 않는다. `pol-lee-beom-seok-1900`과 `pol-lee-beom-seok`은 동일인 중복 의심이며 canonical은 후자로 제안하되 참조 전수조사 전 병합하지 않는다.
+
+- 2026-10-08 제헌국회 1949-04-27 심의 참여자 6명: `data/politicians/run82-1949-assembly-actors-a.json`, `data/politicians/run82-1949-assembly-actors-b.json`.
+- 1949-03-18 노일환 후보: `data/politicians/run82-1949-assembly-actors-c.json`.
+- 조헌영 초기 실록: `data/annals/cho-heon-yeong.md` 및 `data/evidence/cho-heon-yeong.json`.
