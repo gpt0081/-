@@ -37,3 +37,10 @@
 ## 2026-10-09 · run110d/e candidates
 - `data/politicians/run110-1950-administrative-actors.json`: 4 existing actors, 6 new provisional candidates.
 - `data/politicians/run110e-1950-political-actors.json`: 17 provisional candidates. No verified promotion yet.
+
+## 2026-10-09 run111 중앙은행 정치인 실록 보강
+
+- data/politicians/run111-bank-actors-a.json: 김도연·최순주 기존 ID와 관련 공직·사건·문서.
+- data/politicians/run111-bank-actors-b.json: 구용서 기존 ID 보강.
+- data/annals/kim-do-yeon-run111.md: 김도연 독립 실록.
+- 원공한·원임명장 미확보로 신규 VERIFIED 승격 없음.
