@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "run": 96,
+  "claims": [
+    {
+      "id": "c96-grp-threshold",
+      "statement": "1949-07-08 30인 교섭단체 수정안은 미결, 20인 원안은 가결",
+      "status": "SUPPORTED",
+      "supporting": [
+        "d96-na-0708",
+        "d96-news-0709"
+      ],
+      "contradicting": [],
+      "vote": {
+        "amendment30": {
+          "present": 133,
+          "yes": 59,
+          "no": 43,
+          "result": "UNDECIDED"
+        },
+        "original20": {
+          "present": 133,
+          "yes": 67,
+          "no": 37,
+          "result": "PASSED"
+        }
+      }
+    },
+    {
+      "id": "c96-article61",
+      "statement": "국회법 개정 제61조 환부법안 계속 규정의 적용조건",
+      "status": "CONFLICTED",
+      "supporting": [
+        "d96-na-0709"
+      ],
+      "contradicting": [
+        "d96-news-0709"
+      ],
+      "conflict": "국회속기록: 폐회중 환부 / 자유신문: 개회중 환부",
+      "openLead": "1949년 관보 국회법 개정 원면"
+    },
+    {
+      "id": "c96-article-number",
+      "statement": "1949-07-09 녹사→직원 개정 조항번호",
+      "status": "CONFLICTED",
+      "supporting": [
+        "d96-na-0709"
+      ],
+      "contradicting": [
+        "d96-news-0709"
+      ],
+      "conflict": "속기록 제2조 제1항 / 자유신문 제20조 제2항",
+      "openLead": "1949 국회법 공포문"
+    },
+    {
+      "id": "c96-budget-1949-sum",
+      "statement": "1949년 예산 일반·특별회계 소계와 인쇄 총계의 일치",
+      "status": "CONFLICTED",
+      "supporting": [],
+      "contradicting": [
+        "d96-budget-1949"
+      ],
+      "calculation": "57,322,495,128 + 154,624,862,500 = 211,947,357,628; 인쇄 총계 211,936,810,528; 차이 10,547,100원",
+      "openLead": "제헌국회 4282년 예산 확정원본"
+    },
+    {
+      "id": "c96-budget-1950-sum",
+      "statement": "1950년 예산안 기사 머리 금액과 순계표 금액의 일치",
+      "status": "CONFLICTED",
+      "supporting": [],
+      "contradicting": [
+        "d96-budget-1950"
+      ],
+      "calculation": "머리 145,881,304,000 vs 순계표 145,881,304,300; 차이 300원",
+      "openLead": "1950년 정부 국회 제출 예산서 원면"
+    },
+    {
+      "id": "c96-cho-dismissal",
+      "statement": "1949-02-12 감찰위 파면 결정이 대통령의 해임명령을 확정한다",
+      "status": "INSUFFICIENT",
+      "supporting": [],
+      "contradicting": [
+        "d96-audit-cho"
+      ],
+      "insufficient": [
+        "국사편찬위원회 1949-02-21 사임 연표",
+        "대통령 결재·정부조직법 43조·장관 사직서 미확보"
+      ],
+      "note": "감찰위원회 결정/형사판결/인사결재를 분리"
+    },
+    {
+      "id": "c96-antimin-resign",
+      "statement": "1949-07-06 반민특위 위원 8명과 검찰관 3명의 사표가 모두 수리됐다",
+      "status": "CONTRADICTED",
+      "supporting": [],
+      "contradicting": [
+        "d96-news-0706"
+      ],
+      "note": "수리 동의안 두 차례 미결 후 폐기 보도. 제출과 수리 분리"
+    },
+    {
+      "id": "c96-cho-guilt",
+      "statement": "감찰위원회 비위 주장만으로 조봉암 형사 유죄가 확정된다",
+      "status": "INSUFFICIENT",
+      "supporting": [],
+      "contradicting": [],
+      "insufficient": [
+        "당시 1·2·3심 형사판결 원문"
+      ],
+      "note": "후대 인터뷰는 무죄 판결을 주장하나 판결문 미확인"
+    }
+  ]
+}
