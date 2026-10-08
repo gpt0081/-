@@ -1,0 +1,37 @@
+{
+  "run": "100b",
+  "claims": [
+    {
+      "id": "c100b-vote",
+      "statement": "1952-01-18 정부 개헌안은 재적175·투표163·찬성19·반대143·기권1로 부결",
+      "status": "TWO_PROVENANCE_CONFIRMED",
+      "supportingEvidence": [
+        "d100b-assembly-19520118",
+        "d100b-un-yearbook-1952"
+      ]
+    },
+    {
+      "id": "c100b-heo-acting",
+      "statement": "1951-11-30 관보상 허정 직함은 국무총리 서리 겸 사회부장관",
+      "status": "CORRECTION",
+      "supportingEvidence": [
+        "d100b-gazette-19511130"
+      ],
+      "correctionOf": "c100-1951-1130-signers",
+      "reviewHistory": [
+        {
+          "date": "2026-10-09",
+          "note": "run100 간략 표기의 서리 누락 교정"
+        }
+      ]
+    },
+    {
+      "id": "c100b-19520507",
+      "statement": "1952-05-07 관보는 국회 123인 제안 개헌안의 공고이며 장택상 국무총리 명의 공고를 의원안 지지로 해석하지 않는다.",
+      "status": "PRIMARY_SUPPORTED",
+      "supportingEvidence": [
+        "d100b-gazette-19520507"
+      ]
+    }
+  ]
+}
