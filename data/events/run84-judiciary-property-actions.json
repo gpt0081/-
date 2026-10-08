@@ -30,9 +30,7 @@
       "date": "1949-09-19",
       "name": "법원조직법 재의요구에 관한 법무장관 정부 논거",
       "parentEventId": null,
-      "proposed_by": [
-        "pol-kwon-seung-ryeol"
-      ],
+      "proposed_by": [],
       "decided_by": [],
       "executed_by": [],
       "opposed_by": [],
@@ -44,7 +42,10 @@
         "d84-court-0919"
       ],
       "attributionCaveat": "No inference of presidential direct order from tenure or government position.",
-      "note": "권승렬은 정부 이의사유를 설명했으나 최초 이의서 작성자·대통령 결재 원본은 미확인"
+      "note": "권승렬은 정부 이의사유를 설명했으나 최초 이의서 작성자·대통령 결재 원본은 미확인; minister is presenter of executive objection, not proven author of veto",
+      "presented_by": [
+        "pol-kwon-seung-ryeol"
+      ]
     },
     {
       "id": "evt84-court-chiefjustice-response",
@@ -108,11 +109,7 @@
       "decided_by": [
         "org-constituent-assembly"
       ],
-      "executed_by": [
-        "pol-yeon-byeong-ho",
-        "pol-cho-ok-hyeon",
-        "pol-seo-woo-seok"
-      ],
+      "executed_by": [],
       "opposed_by": [],
       "supported_by": [
         "pol-kim-gyeong-do",
@@ -130,7 +127,12 @@
         "yes": 74,
         "no": 20
       },
-      "note": "74/20은 무기명투표 방식 채택 표결"
+      "note": "74/20은 무기명투표 방식 채택 표결; designation alone does not prove actual tallying action",
+      "appointed_vote_tellers": [
+        "pol-yeon-byeong-ho",
+        "pol-cho-ok-hyeon",
+        "pol-seo-woo-seok"
+      ]
     },
     {
       "id": "evt84-court-veto-override",
@@ -209,9 +211,7 @@
       "date": "1949-11-04",
       "name": "귀속재산처리법 산업·재경위 대안 보고 및 낭독",
       "parentEventId": null,
-      "proposed_by": [
-        "pol-seo-sang-il"
-      ],
+      "proposed_by": [],
       "decided_by": [],
       "executed_by": [
         "pol-cho-heon-yeong"
@@ -227,24 +227,22 @@
         "d84-property-1104"
       ],
       "attributionCaveat": "No inference of presidential direct order from tenure or government position.",
-      "note": "정부안 6장39조→위원회 대안 6장55조 설명; 5월 협의 보고와 11월 의안보고 구분"
+      "note": "정부안 6장39조→위원회 대안 6장55조 설명; 5월 협의 보고와 11월 의안보고 구분",
+      "presented_by": [
+        "pol-seo-sang-il"
+      ]
     },
     {
       "id": "evt84-property-reconsideration",
       "date": "1949-12-03",
       "name": "귀속재산처리법 정부 재의요구와 국회 재표결",
       "parentEventId": null,
-      "proposed_by": [
-        "pol-kwak-sang-hun",
-        "pol-yu-seong-gap"
-      ],
+      "proposed_by": [],
       "decided_by": [
         "org-constituent-assembly"
       ],
       "executed_by": [],
-      "opposed_by": [
-        "pol-kim-jun-yeon"
-      ],
+      "opposed_by": [],
       "supported_by": [],
       "observed_by": [],
       "later_finding": [],
@@ -267,7 +265,21 @@
           "no": 49
         }
       },
-      "note": "출처간 재석/반대 숫자 충돌; 원속기록 미확보. 김준연의 이견은 재의 접수 순서에 관한 절차 의견이지 재의 자체의 반대 단정 금지."
+      "note": "출처간 재석/반대 숫자 충돌; 원속기록 미확보. 김준연의 이견은 재의 접수 순서에 관한 절차 의견이지 재의 자체의 반대 단정 금지.",
+      "proceduralMotions": [
+        {
+          "actor": "pol-kwak-sang-hun",
+          "action": "motion on handling government reconsideration"
+        },
+        {
+          "actor": "pol-yu-seong-gap",
+          "action": "motion to return reconsideration to committee"
+        },
+        {
+          "actor": "pol-kim-jun-yeon",
+          "action": "question about sequence of deciding whether to receive reconsideration"
+        }
+      ]
     },
     {
       "id": "evt84-property-text-motion",

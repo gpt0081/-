@@ -24,17 +24,18 @@
     "2월17일 반민특위 대통령 담화"
   ],
   "counts": {
-    "independentResearchLines": 17,
-    "governanceDomains": 6,
+    "independentResearchLines": 13,
+    "governanceDomains": 3,
     "newNonPresidentCandidates": 14,
     "existingActorsDeepened": 4,
     "newActionEvents": 12,
     "meaningfulDocumentsDirectlyOpened": 11,
     "officialOrContemporaneousPrimary": 8,
     "adversarialChecks": 6,
-    "existingOpenLeadsTracked": 4,
+    "existingOpenLeadsTracked": 0,
     "newLeadQueue": 40,
-    "crossProvenanceBundles": 2
+    "crossProvenanceBundles": 1,
+    "exploratoryAdditionalDomains": 3
   },
   "countMethod": "Direct full texts: 1949-09-19 court transcript, 1949-07-30 court transcript, 1949-11-04 property transcript, 1949-12-03 newspaper, 1949-12-19 law, 1949-02-17 anti-collaboration transcript, 1949-09-27 conscription news, 1949-02-15 land debate, official historical court commentary, property commentary, National Archives explanatory PDF; exclude catalog pages, AKS secondary from primary count. 11 meaningful documents; 8 primary/contemporaneous. Some items reopened from earlier runs are not new across entire repository.",
   "adversarialChecks": [
@@ -62,5 +63,20 @@
   "floot": "untouched",
   "branch": "research/run84-courts-vested-property",
   "mainUpdateAttempt": "2026-10-08 tool safety check blocked fast-forward; no force or bypass attempted",
-  "note": "No claim of one hour elapsed. All research states conservatively distinguished; source-specific counts retained. Count caveat: initial planned source counts were revised against directly opened pages."
+  "note": "No claim of one hour elapsed. All research states conservatively distinguished; source-specific counts retained. Count caveat: initial planned source counts were revised against directly opened pages.",
+  "researchLineCountingCaveat": "17 named investigative threads were grouped into 13 independent questions: court voting substeps and opposed interpretations are not counted as separate independent lines. Three substantively deepened domains; three additional domains explored but not fully strengthened.",
+  "correctionHistory": [
+    {
+      "date": "2026-10-08",
+      "reason": "attribution role precision and conservative execution counts",
+      "changes": [
+        "minister presentation != veto proposal",
+        "committee chair report != sole proposal",
+        "procedural motions != government veto authorship",
+        "vote teller appointment != confirmed vote tally execution",
+        "17 threads grouped to 13 independent research lines",
+        "existing leads read but not actually narrowed => 0"
+      ]
+    }
+  ]
 }
