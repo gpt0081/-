@@ -1,0 +1,36 @@
+{
+  "claims": [
+    {
+      "id": "c95e-education-article-count",
+      "statement": "1949년 교육법 제86호 조문 수는 백과사전 173조와 법률 전재 177조로 다르게 나타난다.",
+      "status": "CONFLICTED",
+      "supportingEvidence": [
+        "d95b-education-aks",
+        "d95e-education-wikisource"
+      ],
+      "insufficientEvidence": [
+        "1949년 관보 마지막 조문"
+      ],
+      "relatedEvents": [
+        "evt95-education-law86-1231"
+      ]
+    },
+    {
+      "id": "c95e-education-date",
+      "statement": "1949-12-31 교육법 공포일은 네 기관 자료에서 일치한다.",
+      "status": "TRIANGULATED_FOUR_FAMILIES",
+      "supportingEvidence": [
+        "d95-law86",
+        "d95b-education-moe",
+        "d95b-education-aks",
+        "d95e-nak-chronology1949"
+      ],
+      "insufficientEvidence": [
+        "관보 원면"
+      ],
+      "relatedEvents": [
+        "evt95-education-law86-1231"
+      ]
+    }
+  ]
+}

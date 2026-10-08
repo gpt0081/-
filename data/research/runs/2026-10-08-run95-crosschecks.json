@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "run": 95,
+  "phase": "cross-provenance-audit",
+  "date": "2026-10-08",
+  "newRegisteredDocuments": 10,
+  "newSubstantiveDirectlyOpened": 8,
+  "newOfficialPrimaryOrContemporaneousDirectlyOpened": 2,
+  "newEvents": 6,
+  "newClaims": 8,
+  "adversarialChecks": 3,
+  "threeFamilyCrosschecks": [
+    {
+      "claimId": "c95e-education-date",
+      "families": [
+        "law.go.kr",
+        "history.moe.go.kr",
+        "encykorea.aks.ac.kr",
+        "theme.archives.go.kr"
+      ],
+      "result": "1949-12-31 공포일 일치"
+    },
+    {
+      "claimId": "c95e-local-law32-date",
+      "families": [
+        "db.history.go.kr original Assembly",
+        "law.go.kr",
+        "theme.archives.go.kr"
+      ],
+      "result": "1949-07-04 공포·08-15 시행과 3월 입법 논의 분리"
+    },
+    {
+      "claimId": "c95e-withdrawal-end-june",
+      "families": [
+        "US FRUS",
+        "UN A/936 original",
+        "Korean National Archives"
+      ],
+      "result": "1949-06 말 철군 일정 일치, 정확한 완료일은 한국 기록 확인"
+    }
+  ],
+  "corrections": [
+    "1949-11-17 귀속재산처리법 제16조 중간 수정안 표결과 12-19 공포법 지명공매 허용 차이 보존",
+    "교육법 제86호 173조 vs 177조 출처 불일치",
+    "UNCOK 1949-03-18 대북서한 6/11 미전달, 6/29 방송 확인"
+  ],
+  "weeklyFullReview": "역사부채 주간 전수조사 미실시",
+  "floot": "UNTOUCHED"
+}

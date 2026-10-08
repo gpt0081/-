@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "run": 95,
+  "date": "2026-10-08",
+  "branch": "research/run89-audit-property-oversight",
+  "summary": "식량법·교육·해운·공무원·계엄·지방자치·귀속재산·사법·농지·국가보안법·1949 외교·경제원조·UNCOK 교차검증",
+  "metrics": {
+    "independentResearchLines": 24,
+    "generalDomainsStrengthened": 11,
+    "nonPresidentCandidatesNewOrDeepened": 12,
+    "eventsOrSubeventsAdded": 40,
+    "claimsAdded": 42,
+    "registeredDocumentObjects": 56,
+    "uniqueSubstantiveDocumentsDirectlyOpened": 48,
+    "officialPrimaryOrContemporaneousDocumentsDirectlyOpened": 30,
+    "adversarialChecks": 20,
+    "existingHistoryDebtOrOpenLeadsFollowed": 9,
+    "newConcreteLeads": 61,
+    "independentThreeFamilyCrosschecks": 3
+  },
+  "crosschecks": [
+    {
+      "id": "c95e-education-date",
+      "families": [
+        "법제처",
+        "교육부",
+        "한국학중앙연구원",
+        "국가기록원"
+      ],
+      "finding": "1949-12-31 법률 제86호 공포일 일치, 관보 원면 대조 잔여"
+    },
+    {
+      "id": "c95e-local-law32-date",
+      "families": [
+        "국회 원속기록",
+        "법제처 법령연혁",
+        "국가기록원 연표"
+      ],
+      "finding": "1949-07-04 공포·1949-08-15 시행과 3월 국회 수정안 논의 분리"
+    },
+    {
+      "id": "c95e-withdrawal-end-june",
+      "families": [
+        "US FRUS",
+        "UN A/936",
+        "국가기록원"
+      ],
+      "finding": "1949-06 말 철수 일정 교차, 실제 완료일 6/30은 국가기록원 근거"
+    }
+  ],
+  "importantConflicts": [
+    "식량법 제3조 신문 5개월 vs 국회 4월 원안·7월 관보 6개월",
+    "귀속재산 제16조 11/17 중간 수정안 가결 vs 12/19 공포법 지명공매 유지",
+    "교육법 제86호 173조 vs 177조 출처 차이",
+    "박상영 한자·출생연도 2차자료 충돌",
+    "UNCOK 북측 접촉서한 미전달과 6/29 방송 후속"
+  ],
+  "weeklyFullReview": "역사부채 주간 전수조사 미실시",
+  "floot": "UNTOUCHED",
+  "oneHourClaim": "NOT_MADE",
+  "countingRules": [
+    "검색 스니펫·단순 홈페이지·법제처 JS 메타데이터만 확인한 문서는 직접열람 제외",
+    "같은 URL의 원속기록과 해제는 중복 계수하지 않음",
+    "FRUS에 인용된 한국 성명은 미국 출처 계열로 계수",
+    "법률 비공식 전재는 관보 원면과 구분"
+  ],
+  "shortfalls": [],
+  "priorityLeads": [
+    "L95E-01",
+    "L95E-02",
+    "L95E-04",
+    "L95E-06",
+    "L95E-11",
+    "L95E-12",
+    "L95E-13",
+    "L95D-01",
+    "L95-06",
+    "L95-09"
+  ]
+}
