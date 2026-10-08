@@ -3,16 +3,19 @@
   "date": "2026-10-09",
   "branch": "research/run89-audit-property-oversight",
   "counts": {
-    "independentResearchLines": 26,
+    "independentResearchLines": 27,
     "governanceDomains": 16,
     "nonPresidentCandidateActors": 27,
-    "eventSubevents": 31,
-    "meaningfulDocumentsDirectlyOpened": 40,
-    "officialPrimaryOrContemporaneousDirectlyOpened": 21,
-    "adversarialChecks": 17,
-    "priorLeadsFollowed": 5,
-    "newConcreteLeads": 85,
-    "completeThreeFamilyCrosschecks": 1
+    "eventSubevents": 33,
+    "meaningfulDocumentsDirectlyOpened": 43,
+    "officialPrimaryOrContemporaneousDirectlyOpened": 23,
+    "adversarialChecks": 18,
+    "priorLeadsFollowed": 8,
+    "newConcreteLeads": 93,
+    "completeThreeFamilyCrosschecks": 3,
+    "threeFamilyCrosschecksFullyConcordant": 1,
+    "threeFamilyCrosschecksPartial": 1,
+    "threeFamilyCrosschecksConflicted": 1
   },
   "findings": [
     "1949-11-16 60:1 미결 후 소시민 문구 삭제·75:1 가결",
@@ -38,7 +41,11 @@
     "1949-12-01 이윤영 사회부장관 후생복표 추첨·재민구제 자금 언급",
     "1949-05-26 전남도 ECA 김채취선 986척 계획, 준공 실적 미확인",
     "1949-07-22 교직원 보수차별 진정·별정직 추진 보도",
-    "1949-10-02 킴볼 스미스호 관련 미국의 소련 통첩 보도, 원외교문서 미확보"
+    "1949-10-02 킴볼 스미스호 관련 미국의 소련 통첩 보도, 원외교문서 미확보",
+    "법률74호 제정본 제15조에는 '종업원', 11/16 가결 수정안에는 '종업원조합'이 나타나 후속 수정의 실질 문언 차이를 직접 확인",
+    "1949-11-12 FRUS d211 호주 9개국 가입재심의안과 미국 지지 입장 원문 확인",
+    "1949-09-21 서울신문 조병옥 유엔 한국상임 옵서버 표기와 군사원조 요청 보도 확인",
+    "세 출처계열 교차검증 묶음 3개 중 1개 일치, 1개 일부 일치, 1개 충돌 유지"
   ],
   "limits": [
     "원속기록 이미지·관보 원면 미대조",
@@ -53,7 +60,9 @@
     "예산안 제출액은 의결·집행액 아님",
     "40건은 동일 문서 중복 제외, 관보 전사·동시대 신문 원문·실질 공식 해설 직접 열람만 계산",
     "21건 1차·동시대에는 후대 설명과 단순 검색색인 포함하지 않음",
-    "문서·사건 수 목표 도달 뒤 추가로 외자·복지·수산·교육·조세·외교 연구선 확장"
+    "문서·사건 수 목표 도달 뒤 추가로 외자·복지·수산·교육·조세·외교 연구선 확장",
+    "교차검증은 3개 수행했지만 하나는 개천절 11/3 vs 10/3 충돌로 결론 미확정",
+    "L105-01 S/PV.423·L105-02 A/PV.252 원면 접근제한, 원문 확보 주장하지 않음"
   ],
   "weeklyFullReview": "역사부채 주간 전수조사 미실시",
   "floot": "UNTOUCHED",
@@ -61,5 +70,7 @@
   "nextAdditional": "data/research/lead-queues/run106-breadth-next.json",
   "countingNote": "원문 직접 열람 20건은 서로 다른 실질 문서만; 법령 검색 메타데이터·사진 색인·연표는 제외",
   "nextInstitutional": "data/research/lead-queues/run106-institutions-next.json",
-  "nextAdministrative": "data/research/lead-queues/run106-administration-next.json"
+  "nextAdministrative": "data/research/lead-queues/run106-administration-next.json",
+  "nextRecheck": "data/research/lead-queues/run106-source-recheck-next.json",
+  "priorLeadAudit": "data/research/run106-prior-lead-audit.json"
 }
