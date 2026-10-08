@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "run": 89,
+  "claims": [
+    {
+      "id": "c89-property-claims-count",
+      "statement": "1950-02-24 김갑수 법무부차관이 말한 귀속해제 간이소청 행정결정 총수는 정확히 802건이다.",
+      "status": "CONFLICTED_WITHIN_SAME_SOURCE",
+      "supportingEvidence": [
+        "d89-property-confirmation-19500224:지역별 합계 802건"
+      ],
+      "contradictingEvidence": [
+        "d89-property-confirmation-19500224:발언 말미 892건"
+      ],
+      "insufficientEvidence": [
+        "국가기록원 중앙관재처 사건대장 및 회의록 원본 이미지"
+      ],
+      "relatedEvents": [
+        "evt89-property-confirmation-bill-19500224"
+      ]
+    },
+    {
+      "id": "c89-property-irregularity-share",
+      "statement": "1950년 법무부차관의 귀속해제 사건 60~80% 부정 주장 자체가 부정취득 확정 비율을 입증한다.",
+      "status": "INSUFFICIENT",
+      "supportingEvidence": [
+        "d89-property-confirmation-19500224:법무부차관 추정"
+      ],
+      "contradictingEvidence": [],
+      "insufficientEvidence": [
+        "사건별 법무부 심사결과·법원 판결·통계 대조"
+      ],
+      "relatedEvents": [
+        "evt89-property-confirmation-bill-19500224"
+      ]
+    }
+  ]
+}
