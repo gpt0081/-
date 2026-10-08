@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "run": 82,
+  "claims": [
+    {
+      "id": "c82-final-passage",
+      "statement": "1949-04-27 제헌국회 제2회 제86차: 제3독회 생략 및 농지개혁법 전체 통과 동의 가결. 재석 102, 찬성 76, 반대 1.",
+      "status": "SUPPORTED",
+      "supporting": [
+        "d82-1949-04-27",
+        "d82-1949-10-25",
+        "d82-1949-12-16"
+      ],
+      "provenanceFamilies": [
+        "국회 속기록",
+        "동시대 신문",
+        "미국 외교문서"
+      ],
+      "caveat": "출처 계열 독립, 정보원까지 독립이라는 뜻은 아님."
+    },
+    {
+      "id": "c82-passage-date-conflict",
+      "statement": "1949년 4월26일·27일·28일 통과일 혼재: 4월27일 원속기록이 전체 법안 통과 표결을 명시한다.",
+      "status": "NARROWED",
+      "supporting": [
+        "d82-1949-04-27",
+        "d82-1949-10-25",
+        "d82-1949-12-16"
+      ],
+      "contradicting": [
+        "secondary metadata for April 26 and April 28; primary source not yet checked"
+      ],
+      "next": "1949-04-26·28 본회의 의사록 및 의안대장 확인"
+    },
+    {
+      "id": "c82-art26-delegation",
+      "statement": "제26조의 국회 인준 단서 삭제 수정안 재석100, 찬성58, 반대8 가결",
+      "status": "SUPPORTED",
+      "supporting": [
+        "d82-1949-04-27"
+      ]
+    },
+    {
+      "id": "c82-art27-restrictions",
+      "statement": "황병규 외25인의 농지매매·소작인 이동 제한 신설안 재석100, 찬성63, 반대2 가결",
+      "status": "SUPPORTED",
+      "supporting": [
+        "d82-1949-04-27"
+      ]
+    },
+    {
+      "id": "c82-law-number",
+      "statement": "헌정사DB 해제 제목의 1949년 법률 제108호 표기는 본문 법률 제31호 및 1950년 개정 법률 제108호와 충돌한다.",
+      "status": "METADATA_CONFLICT",
+      "next": "1949년 법률31호·1950년 법률108호 관보 원문 대조",
+      "supporting": [
+        "d82-1949-10-25"
+      ]
+    }
+  ]
+}
