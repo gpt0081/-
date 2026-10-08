@@ -1,0 +1,81 @@
+{
+  "run": 114,
+  "claims": [
+    {
+      "id": "c114-election-independent-tally",
+      "status": "CONFLICTED",
+      "statement": "1950-06-03 경향신문 기사 본문 무소속 130, 기사 내 지역별 표 128, 후대 중앙선관위 공식 선거사 126으로 불일치",
+      "supportingEvidence": [
+        "d114-kyunghyang-19500603",
+        "d114-nec-1950-recheck"
+      ],
+      "contradictingEvidence": [
+        "d114-kyunghyang-19500603",
+        "d114-nec-1950-recheck"
+      ],
+      "insufficientEvidence": [
+        "1950년 210개 선거구별 당선자 원부",
+        "경향신문 원지면"
+      ],
+      "note": "신문 기사 본문과 표도 상충. 선거사 126은 공식 최종 통계로 우선 사용하되 다른 수치 삭제 금지."
+    },
+    {
+      "id": "c114-police-appointment-count",
+      "status": "CONFLICTED_SCOPE",
+      "statement": "FRUS d28 주석의 4/28 전문은 해임 6명, d30의 5/2 내무장관 보고는 사임요구 5명·전보 29명",
+      "supportingEvidence": [
+        "d113-frus-28"
+      ],
+      "contradictingEvidence": [
+        "d113-frus-30"
+      ],
+      "insufficientEvidence": [
+        "1950-04-28~05-02 경찰 인사발령대장"
+      ],
+      "note": "시점·인사구분 차이일 수 있어 단순 오류로 확정하지 않음."
+    },
+    {
+      "id": "c114-police-neutrality-implementation",
+      "status": "NARROWED",
+      "statement": "FRUS d30에 5/2 대통령 경찰 선거중립 구두지시가 기록됐으나 실제 하달과 이행 여부는 미확인",
+      "supportingEvidence": [
+        "d113-frus-30",
+        "d113-frus-32"
+      ],
+      "contradictingEvidence": [
+        "d113-frus-28",
+        "d113-frus-29"
+      ],
+      "insufficientEvidence": [
+        "내무부 공문·경찰서장 회의록·선거구별 활동자료"
+      ]
+    },
+    {
+      "id": "c114-election-veto-legislation",
+      "status": "NARROWED",
+      "statement": "4/6 선거법 거부권 재의결 실패(FRUS d27), 법률121호 존재(AA0001782), 5/30 선거 실시(선관위)는 서로 다른 법적·행정 단계",
+      "supportingEvidence": [
+        "d113-frus-27",
+        "d114-election-law121",
+        "d114-nec-1950-recheck"
+      ],
+      "insufficientEvidence": [
+        "4/6~4/7 국회 원속기록",
+        "제121호 관보 공포일 및 법률 원문"
+      ]
+    },
+    {
+      "id": "c114-kim-tae-seon-identity",
+      "status": "OPEN",
+      "statement": "FRUS d30 National Police Kim Tae-Sun과 6/26 서울신문 서울시경 국장 金泰善의 동일인 여부 미확인",
+      "supportingEvidence": [
+        "d113-frus-30",
+        "https://db.history.go.kr/contemp/level.do?levelId=dh_018_1950_06_25_0380"
+      ],
+      "insufficientEvidence": [
+        "경찰 인사명부 1950-05~06"
+      ],
+      "note": "영문 성명만으로 자동 병합 금지"
+    }
+  ]
+}
