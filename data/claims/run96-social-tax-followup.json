@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "run": 96,
+  "claims": [
+    {
+      "id": "c96-welfare-sale",
+      "statement": "1949-09-08 고시의 후생복표 발행 예정일 10월1일과 12월2일 신문의 판매 개시일 11월1일은 같은 날짜다",
+      "status": "NARROWED",
+      "supporting": [],
+      "contradicting": [
+        "d96-welfare-gazette",
+        "d96-welfare-draw"
+      ],
+      "finding": "고시 발행 예정일 10/1, 신문 판매 개시 11/1. 예정·실제 판매 개시 구분; 변경고시 원문 추적"
+    },
+    {
+      "id": "c96-income-enactment",
+      "statement": "대한민국 최초 소득세법 제33호의 제정일은 1949-07-15",
+      "status": "SUPPORTED_BY_ORIGINAL_LAW",
+      "supporting": [
+        "d96-income-law33"
+      ],
+      "contradicting": [],
+      "insufficient": [
+        "원관보 이미지"
+      ],
+      "finding": "법률 제33호 원법 1949-07-15 제정·시행. 일부 후대 해제의 1945년 표기는 원문과 충돌"
+    }
+  ]
+}

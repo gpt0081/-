@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "run": 96,
+  "domains": [
+    {
+      "domain": "지방행정",
+      "status": "STRUCTURED",
+      "events": [
+        "evt96-local-0228",
+        "evt96-local-0303",
+        "evt96-local-law32"
+      ],
+      "note": "1949 지방자치법 제32호 제98조와 3월 수정안 차이"
+    },
+    {
+      "domain": "인사·공무원제도",
+      "status": "STRUCTURED",
+      "events": [
+        "evt96-civilservice-debate",
+        "evt96-civilservice-law44"
+      ],
+      "note": "1948 보류와 1949 법률 제44호 제정 분리"
+    },
+    {
+      "domain": "사회복지·구호",
+      "status": "STRUCTURED",
+      "events": [
+        "evt96-welfare-notice",
+        "evt96-welfare-draw"
+      ],
+      "note": "후생복표 2억원 발행계획·구호 목적·추첨"
+    },
+    {
+      "domain": "사법·조세·농정",
+      "status": "STRUCTURED",
+      "events": [
+        "evt96-court-law51",
+        "evt96-income-tax-law33",
+        "evt96-agri-law49"
+      ],
+      "note": "1949 법률 제51·33·49호 원법 확인"
+    }
+  ]
+}

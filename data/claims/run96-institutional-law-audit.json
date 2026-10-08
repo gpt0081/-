@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "run": 96,
+  "claims": [
+    {
+      "id": "c96-cho-statutory-authority",
+      "statement": "1949-02-12 감찰위원회 결정은 법 제43조에 따라 곧바로 대통령의 해임명령으로 효력이 발생했다",
+      "status": "CONTRADICTED_BY_STATUTE",
+      "supporting": [],
+      "contradicting": [
+        "d96-govorg-1948"
+      ],
+      "insufficient": [
+        "당시 소관 행정장관 이송·인사결재 원문"
+      ],
+      "finding": "1948년 제43조는 징계 의결 후 소관 행정장관에게 이송하여 시행. 1949년 4월15일 개정은 2월 결정에 소급적용 금지"
+    },
+    {
+      "id": "c96-local-election-procedure",
+      "statement": "1949-03-03 지방자치법안 수정안 표결 내용이 1949-07-04 최종 제32호 법률과 동일하다",
+      "status": "CONTRADICTED_BY_FINAL_TEXT",
+      "supporting": [],
+      "contradicting": [
+        "d96-local-0228",
+        "d96-local-0302",
+        "d96-local-0303",
+        "d96-local-law32"
+      ],
+      "finding": "3월 수정안과 7월 최종 제98조 분리: 도지사·서울시장은 대통령 임명, 시·읍·면장은 지방의회 간선"
+    },
+    {
+      "id": "c96-court-retroactive",
+      "statement": "1949-09-26 법원조직법 제51호 공포일과 부칙상 시행일은 동일하다",
+      "status": "CONTRADICTED_BY_GAZETTE",
+      "supporting": [],
+      "contradicting": [
+        "d96-court-law51"
+      ],
+      "finding": "관보 제184호 공포 9/26, 부칙 제79조 시행 8/15; 소급 시행 규정과 실제 적용 사례는 분리"
+    }
+  ]
+}
