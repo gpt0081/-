@@ -61,3 +61,9 @@ See `data/politicians/run113-prewar-network.json` for 12 sourced profiles. No ca
 - `data/annals/chang-myon-run118.md`: 장면 독립 실록.
 - `data/annals/baek-seong-uk-run118.md`: 백성욱 독립 실록.
 - 공식 한국 관보 신원 확인 전 신규 canonical 승격은 보류. 기존 canonical ID가 있는 조병옥·이범석·신성모를 재사용.
+
+### Run118 Korean source correction
+
+- `data/politicians/run118-identity-corrections.json`: FRUS Kim Kyo Suk의 김교석 후보 표기를 김효석(金孝錫) 동일인 가능성으로 정정. 기존 표기 및 검증 이력 보존.
+- `data/annals/kim-tae-seon-run118.md`: 김태선(金泰善) 독립 실록. 한국학중앙연구원·서울경찰청·FRUS를 교차검증.
+- 신규 정식 registry 승격은 임명 관보 확인 전 보류.

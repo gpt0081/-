@@ -1,0 +1,67 @@
+{
+  "run": 118,
+  "claims": [
+    {
+      "id": "cl118-candidate-count",
+      "statement": "The 1950 election had one uncontested candidate total",
+      "status": "NARROWED_DEFINITION_PENDING",
+      "evidence": [
+        "d118-press-election-19500531",
+        "d118-nec-election1950"
+      ],
+      "observations": [
+        "Seoul newspaper: 2230 initial, 2172 after withdrawals and death with three additional registrations",
+        "NEC later summary: 2209 candidates"
+      ],
+      "openQuestion": "Compare official candidate register dates and withdrawn/registered classifications; do not average totals.",
+      "reviewHistory": [
+        {
+          "date": "2026-10-09",
+          "action": "NEW_KOREAN_PROVENANCE_CHECK",
+          "status": "NARROWED_DEFINITION_PENDING"
+        }
+      ]
+    },
+    {
+      "id": "cl118-identity-kim-kyo-suk",
+      "statement": "FRUS spelling Kim Kyo Suk proves a distinct minister named 김교석",
+      "status": "REOPENED_CORRECTED",
+      "evidence": [
+        "d118-aks-kim-hyo-seok",
+        "d118-frus29"
+      ],
+      "observations": [
+        "AKS identifies third Home Minister Kim Hyo-seok (金孝錫) as Paek predecessor"
+      ],
+      "openQuestion": "Verify exact original transliteration and Korean gazette.",
+      "reviewHistory": [
+        {
+          "date": "2026-10-09",
+          "action": "NEW_KOREAN_PROVENANCE_CHECK",
+          "status": "REOPENED_CORRECTED"
+        }
+      ]
+    },
+    {
+      "id": "cl118-dual-police-post",
+      "statement": "Kim Tae-seon held only one police leadership office in spring 1950",
+      "status": "CONTRADICTED",
+      "evidence": [
+        "d118-frus30",
+        "d118-aks-kim-tae-seon",
+        "d118-seoul-police-roster"
+      ],
+      "observations": [
+        "FRUS identifies national police director in May; AKS says April appointment while Seoul Police official roster runs 1948-09-03 to 1950-08-11"
+      ],
+      "openQuestion": "Locate concurrent appointment order and delegation rules.",
+      "reviewHistory": [
+        {
+          "date": "2026-10-09",
+          "action": "NEW_KOREAN_PROVENANCE_CHECK",
+          "status": "CONTRADICTED"
+        }
+      ]
+    }
+  ]
+}

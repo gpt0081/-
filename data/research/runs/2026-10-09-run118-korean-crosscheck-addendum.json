@@ -1,0 +1,64 @@
+{
+  "run": 118,
+  "phase": "KOREAN_CROSSCHECK_EXTENSION",
+  "date": "2026-10-09",
+  "newDocsDirectlyFetched": 7,
+  "newEvents": 3,
+  "newClaims": 3,
+  "newLeads": 6,
+  "newIndependentAnnals": 1,
+  "newDebtItems": 4,
+  "corrections": [
+    {
+      "oldCandidate": "pol-kim-kyo-seok",
+      "correctedCandidate": "pol-kim-hyo-seok",
+      "status": "ALIAS_PENDING_OFFICIAL_GAZETTE"
+    },
+    {
+      "person": "pol-kim-tae-seon",
+      "change": "HANJA_BIRTH_DEATH_AND_DUAL_ROLE_VERIFIED"
+    }
+  ],
+  "newFacts": [
+    "1950-05-30 second Assembly election held in 210 constituencies; NEC 126 independent winners",
+    "Contemporary Seoul newspaper candidate counts initial 2230 and after withdrawals 2172; NEC retrospective count 2209",
+    "Seoul Police official roster Kim Tae-seon 1948-09-03 to 1950-08-11; AKS records 1950 April national police director appointment",
+    "1949-12-15 Local Autonomy Act amendment effective 1950-01-05 according to National Archives timeline",
+    "1950-05-11 Paek proposed village-level administration according to Seoul Sinmun"
+  ],
+  "totalMetricsCorrected": {
+    "researchLines": 20,
+    "domainsStrengthened": 8,
+    "uniqueNonPresidentPeople": 10,
+    "independentAnnals": 3,
+    "events": 13,
+    "claims": 13,
+    "openedDocumentPages": 47,
+    "closeReadPages": 21,
+    "officialOrContemporaneousPages": 45,
+    "originalLegislativeFacsimiles": 2,
+    "adversarialChecks": 13,
+    "priorLeadsTracked": 3,
+    "nextLeads": 42,
+    "strictThreeFamilyCrosschecks": 3,
+    "historyDebtItemsAdded": 10,
+    "canonicalPromotions": 0
+  },
+  "countCautions": [
+    "45 official/contemporary includes official retrospective institutional pages; only 2 are original legislative facsimiles",
+    "37 US FRUS pages are one compilation family",
+    "Identity correction supersedes one mistaken transliteration, not an 11th unique person",
+    "No full Sunday history debt review on Friday",
+    "No one-hour duration claimed"
+  ],
+  "sourceFiles": [
+    "data/documents/run118-korean-crosschecks.json",
+    "data/events/run118-korean-crosscheck-actions.json",
+    "data/claims/run118-korean-crosschecks.json",
+    "data/politicians/run118-identity-corrections.json",
+    "data/research/lead-queues/run118-next-c.json",
+    "data/research/history-debt/run118-korean-crosschecks.md",
+    "data/annals/kim-tae-seon-run118.md"
+  ],
+  "flootTouched": false
+}
