@@ -24,14 +24,26 @@
     },
     {
       "id": "clm125e-land-repayment-implementation",
-      "statement": "농지개혁의 상환제도와 실제 상환실적은 구별해야 한다.",
-      "status": "SUPPORTED_RETROSPECTIVE_WITH_PRIMARY_LEDGER_LEAD",
+      "statement": "농지개혁의 상환기준은 1949 제정법 12.5할에서 1950 개정법 보상액과 동액인 15할로 변경되었고, 실제 상환 실적은 법정 의무와 구별해야 한다.",
+      "status": "CORRECTED_PRIMARY_SOURCE",
       "supportingEvidence": [
+        "d125h-law31-1949",
+        "d125h-law108-1950",
         "d125e-land-ledger",
-        "d125e-land-history"
+        "d125h-aks-law-history"
       ],
       "contradictingEvidence": [],
-      "note": "Statutory 125% of annual yield over 5 years; 1954 completion 68.1% retrospective estimate, not 1952 single-year outcome."
+      "note": "Statutory 125% of annual yield over 5 years; 1954 completion 68.1% retrospective estimate, not 1952 single-year outcome.",
+      "notes": "1954 누적 상환실적 68.1%는 후대 추계로 1952 단년도 실적과 구분.",
+      "correctionHistory": [
+        {
+          "date": "2026-10-09",
+          "oldClaim": "농지개혁법 상환 125%를 5년간 납부",
+          "newClaim": "1949 제정법 125%, 1950 개정법 150%를 5년 균분",
+          "reason": "1950 법률108호 제13조 원개정문과 1949 법률31호 원문 교차확인",
+          "kind": "SUBSTANTIVE_CORRECTION"
+        }
+      ]
     },
     {
       "id": "clm125e-refugee-cabinet-document",
