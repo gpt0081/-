@@ -52,3 +52,12 @@ See `data/politicians/run113-prewar-network.json` for 12 sourced profiles. No ca
 ## Run113 extension · 1950-03-11 제헌국회 원속기록
 
 `data/politicians/run113-assembly-19500311-actors.json`의 윤치영(尹致暎)·주기용(朱基瑢)·이주형(李周衡)·유성갑(柳聖甲)·서정희(徐廷禧)는 국회 원속기록의 의사행위로 식별. 윤치영은 `data/annals/yun-chi-yeong-run113.md` 독립 실록을 시험 개설하고 ANNALS_ACTIVE 후보로 관리한다. 생몰·선거구·당적 원부 확인 전 canonical 승격하지 않는다.
+
+## Run118 (2026-10-09): 1950 미국 원조·내무행정 인물 연결
+
+- `data/politicians/run118-us-aid-actors-a.json`: 장면·백성욱·김교석·김태선·김성수.
+- `data/politicians/run118-us-aid-actors-b.json`: 신익희·이종린·조병옥.
+- `data/politicians/run118-us-aid-actors-c.json`: 이범석·신성모.
+- `data/annals/chang-myon-run118.md`: 장면 독립 실록.
+- `data/annals/baek-seong-uk-run118.md`: 백성욱 독립 실록.
+- 공식 한국 관보 신원 확인 전 신규 canonical 승격은 보류. 기존 canonical ID가 있는 조병옥·이범석·신성모를 재사용.
