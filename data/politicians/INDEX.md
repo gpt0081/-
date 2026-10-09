@@ -96,3 +96,9 @@ See `data/politicians/run113-prewar-network.json` for 12 sourced profiles. No ca
 - `data/politicians/run129-1952-parliamentary-actors.json`: 20명 독립 candidate ID, 당시 원속기록 한자·직책·행위·문서·미해결 신원질문. 전원 IDENTIFIED, 생몰·당선원부 미확인으로 VERIFIED 승격 없음.
 - `data/evidence/politicians/jo-ju-yeong-run129.json`, `lee-jong-hyeong-run129.json`: 정부측 개헌답변과 국회 출석요청·발췌표결을 분리한 독립 증거. 이종형은 기존 run128 후보 ID 재사용.
 - `data/annals/1952-june-july-parliament-run129.md`: 7개 원속기록과 별도 국가기록원 전시 교차확인. 6월14일 보류표결·7월4일 2독회/3독회 분리.
+
+### Run129 추가 교차검증 및 이름 충돌
+
+- `data/documents/run129-new-primary-and-crossfamily.json`: 1952-07-07 관보 제688호, 1952-08-07 문화보호법 법률 제248호, 1952-06-12 FRUS, 동시대 신문 2건.
+- `data/politicians/run129-minister-identity-conflict.json`: 법무장관 徐相權(국회 6/21) vs 徐相懽(관보 7/7) 원표기 충돌. canonical ID 확정 금지.
+- `data/research/runs/run129-correction-addendum.md`: 6월11일 심의지연 뒤 7월21일 문화보호법 통과 및 8월7일 제정 확인, 원문 근거 보존.
