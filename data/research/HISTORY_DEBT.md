@@ -350,3 +350,7 @@ run110d 신규 6건: `data/research/history-debt/run110-addendum.md`. `HD-RHEE-1
 - `HD-R129-LOCAL` OPEN: 이종형의 정선군 동원·조주영의 경남 면장선거 폐단은 각각 당사자 주장, 원행정기록 미확인.
 - `HD-R129-BILLS` NARROWED: 6월20일 정부환부 사실 원속기록 확인, 환부 이유·거부권 행사 원공문 미확보.
 - 상세: `data/research/history-debt/run129-parliament-process.md`. `last_full_review` 변경하지 않음. 역사부채 주간 전수조사 미실시.
+
+- `HD-R129-CULTURE` NARROWED: 1952-06-11 문교부 불출석으로 심의 지연됐으나 7/21 국회 통과 동아일보 보도, 8/7 법률 제248호 제정 국가법령정보센터 확인. 7/21 원속기록·8/7 관보 원면 필요.
+- `HD-R129-MINISTER-IDENTITY` CONFLICTED: 1952-06-21 법무장관 徐相權(국회 속기록) vs 7/7 徐相懽(관보). 임면 관보 확인 전 자동 병합 금지.
+- `HD-R129-GAZETTE` NARROWED: 관보 제688호 공포문 직접 열람, 양원 모두 국민 선거 규정 확인. 6/21 정부안 일부 관선 상원과 구분.
