@@ -32,16 +32,17 @@
     "nonPresidentPeopleEvidenceDeepened": 14,
     "verifiedPromotions": 0,
     "eventsStructured": 11,
-    "newDocumentRegistryEntries": 18,
+    "newDocumentRegistryEntries": 20,
     "uniqueContemporaneousFullTextTranscriptionsDirectlyOpened": 13,
     "officialRetrospectiveExhibitsDirectlyOpened": 3,
     "primaryOriginalFacsimilesObtained": 0,
-    "primaryArchiveFindingAidsOpened": 2,
+    "primaryArchiveFindingAidsOpened": 3,
     "adversarialClaims": 10,
     "priorLeadsFollowed": 8,
-    "concreteNewLeads": 25,
+    "concreteNewLeads": 30,
     "strictThreeIndependentProvenanceBundles": 0,
-    "twoOrMoreActorProvenanceCrosschecks": 2
+    "twoOrMoreActorProvenanceCrosschecks": 2,
+    "laterSecondaryCommentaryOpened": 1
   },
   "sourceMethod": "1950 신문 원문 디지털 전사와 원지면 이미지 구별. 한국은행 IT1233/1234는 목록 확인에 그쳐 직접 원문 개봉 수에 미포함. 기존 run119에서 연 d119 roster/NEC NIKH 중복은 신규 문서로 계상하지 않음.",
   "crosschecks": [
@@ -112,7 +113,7 @@
       "result": "Party executive minutes still unavailable"
     }
   ],
-  "newLeads": 25,
+  "newLeads": 30,
   "weeklyFullDebtReview": "역사부채 주간 전수조사 미실시",
   "flootTouched": false,
   "consistencyGate": "INTEGRATED_ADDITIVE_OVERLAYS",
@@ -132,6 +133,22 @@
     "data/research/history-debt/run120-june1950-audit.md",
     "data/research/lead-queues/run120-next-primary.json",
     "data/research/rhee-syngman-coverage-run120.json",
-    "data/research/runs/2026-10-09-run120-ledger.json"
+    "data/research/runs/2026-10-09-run120-ledger.json",
+    "data/organizations/run120-june1950-institutional-actors.json",
+    "data/research/runs/2026-10-09-run120-correction-history.md"
+  ],
+  "correctionHistory": [
+    {
+      "date": "2026-10-09",
+      "type": "ATTRIBUTION_AND_SOURCE_INTEGRITY",
+      "changes": [
+        "6/2 대통령 결재 moved from decided_by to reportedDecidedBy",
+        "union opposition removed as unverified",
+        "minister response executed_by instead of observed_by",
+        "plaintiff placeholder organization removed",
+        "bank name contradiction linked to actual BOK editorial photo caption"
+      ],
+      "priorCommit": "d9d2f2335c2b925f1d0fd9e04fc54fa8da2bdf04"
+    }
   ]
 }

@@ -7,9 +7,7 @@
       "title": "신문 보도: 금통위원 명단에 6월2일 대통령 결재",
       "domain": "banking",
       "proposed_by": [],
-      "decided_by": [
-        "president-rhee-syngman"
-      ],
+      "decided_by": [],
       "executed_by": [],
       "opposed_by": [],
       "legal_authority": null,
@@ -19,7 +17,10 @@
         "d119-dh_017_1950_06_02_0040",
         "d120-bok-official-history"
       ],
-      "attributionCaveat": "6월2일 결재는 서울신문의 전언, 6월5일 공식 임명과 동일 행위로 확정 불가"
+      "attributionCaveat": "대통령 결재는 서울신문 보도상 주장. 6월5일 원 임명장 미확보로 실제 결재 주체 확정 보류.",
+      "reportedDecidedBy": [
+        "president-rhee-syngman"
+      ]
     },
     {
       "id": "evt120-bank-0605-first-meeting",
@@ -28,7 +29,7 @@
       "domain": "banking",
       "proposed_by": [],
       "decided_by": [
-        "org-bank-of-korea-monetary-board"
+        "org120-bok-monetary-board"
       ],
       "executed_by": [],
       "opposed_by": [],
@@ -48,7 +49,7 @@
       "domain": "personnel",
       "proposed_by": [],
       "decided_by": [
-        "org-bank-of-korea-monetary-board"
+        "org120-bok-monetary-board"
       ],
       "executed_by": [],
       "opposed_by": [],
@@ -68,9 +69,7 @@
       "domain": "judiciary",
       "proposed_by": [],
       "decided_by": [],
-      "executed_by": [
-        "org-election-plaintiffs-1950"
-      ],
+      "executed_by": [],
       "opposed_by": [],
       "legal_authority": null,
       "observed_by": [],
@@ -78,7 +77,15 @@
       "documentIds": [
         "d120-kdb-0607-lawsuits"
       ],
-      "attributionCaveat": "제소 사실만 확인, 소송 인용·기각 미확인"
+      "attributionCaveat": "선거소송 제기자들은 보도상 명단이며 별도 인물 ID 검증 전; 소송 결과 미확인",
+      "reportedPlaintiffs": [
+        "李康賢",
+        "金昌濟",
+        "池昌宣",
+        "姜遂昌",
+        "金周慶",
+        "이석강"
+      ]
     },
     {
       "id": "evt120-party-0607-negotiation",
@@ -130,20 +137,18 @@
       "title": "광산연맹 체불임금·감원 대응 요구",
       "domain": "labor",
       "proposed_by": [
-        "org-kftu-miners"
+        "org120-kftu-miners"
       ],
       "decided_by": [],
       "executed_by": [],
-      "opposed_by": [
-        "org-commerce-ministry-1950"
-      ],
+      "opposed_by": [],
       "legal_authority": null,
       "observed_by": [],
       "later_finding": null,
       "documentIds": [
         "d120-kdb-0607-miners"
       ],
-      "attributionCaveat": "상공부의 공식 반대 의결 미확인, opposed_by는 요구서의 상대 기관으로서의 대립 구도이며 실제 반대표결 아님"
+      "attributionCaveat": "노조가 상공부 규정을 철회 요구했다는 사실만 확인. 상공부가 요구를 공식 거부한 기록은 아직 없음."
     },
     {
       "id": "evt120-labor-0607-minister-response",
@@ -152,12 +157,12 @@
       "domain": "welfare_budget",
       "proposed_by": [],
       "decided_by": [],
-      "executed_by": [],
-      "opposed_by": [],
-      "legal_authority": null,
-      "observed_by": [
+      "executed_by": [
         "pol-lee-yun-yeong"
       ],
+      "opposed_by": [],
+      "legal_authority": null,
+      "observed_by": [],
       "later_finding": null,
       "documentIds": [
         "d120-kdb-0607-welfare",
@@ -171,7 +176,7 @@
       "title": "사회부 국민 내핍생활 3개년 지침 발표 보도",
       "domain": "social_policy",
       "proposed_by": [
-        "org-ministry-social-affairs-1950"
+        "org120-ministry-social-affairs"
       ],
       "decided_by": [],
       "executed_by": [],
@@ -195,7 +200,7 @@
       "opposed_by": [],
       "legal_authority": null,
       "observed_by": [
-        "org-gyeonggi-property-office"
+        "org120-gyeonggi-property-office"
       ],
       "later_finding": null,
       "documentIds": [
@@ -209,14 +214,14 @@
       "title": "평양방송 정당사회단체 회의 제안 및 UNCOK 접촉 보도",
       "domain": "diplomacy_security",
       "proposed_by": [
-        "org-north-korea-unification-front"
+        "org120-north-unification-front"
       ],
       "decided_by": [],
       "executed_by": [],
       "opposed_by": [],
       "legal_authority": null,
       "observed_by": [
-        "org-uncok"
+        "org120-uncok"
       ],
       "later_finding": null,
       "documentIds": [
