@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-08",
+  "updatedAt": "2026-10-09",
   "purpose": "정치인 파일에 사건을 매몰시키지 않고 인물·기관·정당·법률·결정·집행·반대·후대판단을 cross-link하기 위한 사건 registry.",
   "events": [
     {
@@ -698,6 +698,120 @@
         "https://db.history.go.kr/item/cons/level.do?levelId=cons_003_0020_0030_0010_0080",
         "https://theme.archives.go.kr/next/rule/sub2_03.do",
         "https://theme.archives.go.kr/next/rediscovery/index2.do"
+      ]
+    },
+    {
+      "id": "evt-1950-0421-acting-pm-parliament-dispute",
+      "name": "1950년 4월 21일 국무총리서리 임명과 국회 통고서 반환 논쟁",
+      "date": "1950-04-21",
+      "politicians": [
+        "pol-rhee-syngman",
+        "pol-shin-sung-mo",
+        "pol-lee-beom-seok",
+        "pol-yun-chi-yeong",
+        "pol-cho-byeong-ok",
+        "pol-lee-sang-gyu-legal-adviser"
+      ],
+      "institutions": [
+        "대통령",
+        "국회",
+        "법제사법위원회",
+        "국방부",
+        "민국당",
+        "대한국민당"
+      ],
+      "evidenceState": "source-supported-legal-conflict-open",
+      "actions": [
+        "evt114-19500421-pm-appointment",
+        "evt114-19500421-pm-objection"
+      ],
+      "confirmed": [
+        "1950-04-22 한성일보는 이승만이 신성모를 총리서리로 임명하고 국회에 통고한 서한을 전사한다.",
+        "1950-04-22 서울신문은 제6회 제82차 본회의에서 서한 반환을 결정했다고 보도한다.",
+        "동 기사에는 국회의 정부조직법 제12조 적용반대와 법사위 전문위원 이상규의 반대 법률해석이 함께 실렸다."
+      ],
+      "openQuestions": [
+        "정부조직법 제12조 1950년 당시 원문과 임명 서한 원본",
+        "국회 제6회 제82차 속기록의 발언·표결 원문",
+        "총리서리 직무대리의 법적 효력에 대한 당대 법제처 해석"
+      ],
+      "sources": [
+        "https://db.history.go.kr/contemp/level.do?levelId=dh_017_1950_04_21_0050",
+        "https://db.history.go.kr/contemp/level.do?levelId=dh_017_1950_04_21_0090"
+      ],
+      "documentIds": [
+        "d114-hanseong-19500422",
+        "d114-seoul-19500422"
+      ],
+      "attributionGuardrails": [
+        "국회 통고서 반환은 임명 사실 부정이나 위법 판결과 다르다.",
+        "당대 전문위원 견해는 확정 법적 판단이 아니다."
+      ]
+    },
+    {
+      "id": "evt-1950-bank-legislation-setup",
+      "name": "1949~1950 한국은행 입법·설립·업무개시 단계",
+      "dateRange": [
+        "1949-06",
+        "1950-06-12"
+      ],
+      "politicians": [
+        "pol-rhee-syngman",
+        "pol-kim-do-yeon",
+        "pol-choi-soon-ju",
+        "pol-koo-yong-seo"
+      ],
+      "institutions": [
+        "재무부",
+        "조선은행",
+        "국무회의",
+        "국회",
+        "법제처",
+        "한국은행설립위원회",
+        "금융통화위원회",
+        "대법원"
+      ],
+      "evidenceState": "structured-mixed-primary-retrospective",
+      "actions": [
+        "evt114-194906-fed-request",
+        "evt114-19500314-bank-cabinet",
+        "evt114-19500421-bank-vote",
+        "evt114-19500511-bank-setup",
+        "evt114-19500523-bank-rules",
+        "evt114-19500605-mpc",
+        "evt114-19500609-transfer",
+        "evt114-19500612-opening"
+      ],
+      "confirmed": [
+        "1950-04-21 당대 연합신문은 한국은행법과 은행법 수정안 가결을 보도한다.",
+        "법제처 원법령 연혁은 한국은행법 제138호 1950-05-05 공포와 05-26 시행을 구분한다.",
+        "대통령령 제350호 05-11 설립위원회 설치와 05-23 제359호 시행령·대법원규칙 제1호 제정이 확인된다.",
+        "한국은행 후대 공식 연혁은 06-05 금융통화위원회 첫 회의, 06-09 계약서 기록군, 06-12 업무개시를 정리한다."
+      ],
+      "openQuestions": [
+        "1950-04-21 국회 102/78/6 원속기록과 수정안 제76조 대조",
+        "1950-05-11 설립위원장 최순주 임명 관보·위원명부",
+        "1950-06-05 금통위 제1회 회의록과 06-09 자산·부채 계약 원문"
+      ],
+      "sources": [
+        "https://db.history.go.kr/contemp/level.do?levelId=dh_017_1950_04_21_0100",
+        "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=4853",
+        "https://archives.bok.or.kr/content/exhibition/get/806/1242",
+        "https://archives.bok.or.kr/content/exhibition/get/806/1243"
+      ],
+      "documentIds": [
+        "d114-yonhap-19500423",
+        "d114-law138",
+        "d114-decree350",
+        "d114-decree359",
+        "d114-court-rule1",
+        "d114-bok-law-history",
+        "d114-bok-opening-history",
+        "d114-bok-transfer-index"
+      ],
+      "attributionGuardrails": [
+        "미 연준 자문과 재무부 정부안, 국회 수정, 대통령령 제정, 한국은행 실무집행을 구분한다.",
+        "이승만 재임 중 기관설립이라는 이유로 개인이 법안 전부를 직접 기안했다고 귀속하지 않는다."
       ]
     }
   ]

@@ -27,7 +27,10 @@
       "evidenceFile": "data/evidence/rhee-syngman.json",
       "annalsFile": "data/annals/rhee-syngman.md",
       "openLeadsFile": "data/research/rhee-syngman-open-leads.json",
-      "coverageFile": "data/research/rhee-syngman-coverage.json"
+      "coverageFile": "data/research/rhee-syngman-coverage.json",
+      "connections": [
+        "evt-1950-0421-acting-pm-parliament-dispute"
+      ]
     },
     {
       "id": "pol-yi-ki-pung",
@@ -279,7 +282,8 @@
       "researchStatus": "candidate",
       "backbone": false,
       "connections": [
-        "evt-1949-farmland-reform"
+        "evt-1949-farmland-reform",
+        "evt-1950-0421-acting-pm-parliament-dispute"
       ],
       "researchNotes": "1949-05-16 농지개혁법 환부이유서·소멸통고를 국회의장에게 발송한 정부 측 핵심 헌정 행위자로 확인. 대통령 재의권과 총리 명의 통고의 관계를 원문 결재선으로 추가 검증한다.",
       "researchUpdates": [
@@ -567,7 +571,8 @@
       "researchStatus": "candidate-cross-event",
       "backbone": false,
       "connections": [
-        "evt-1951-national-defense-corps"
+        "evt-1951-national-defense-corps",
+        "evt-1950-0421-acting-pm-parliament-dispute"
       ],
       "researchNotes": "국민방위군 사건 당시 국방부 책임선에 위치. 사건의 창설·운영 부실, 대통령의 1951-01-04 조사 지시, 사임·해산을 단계별로 분리해 검증."
     },
@@ -949,6 +954,209 @@
       ],
       "lifeDatesStatus": "not verified",
       "researchNotes": "1949-06-24 농림부 장관으로서 농지개혁 10월 완료 목표 발표"
+    },
+    {
+      "id": "pol-choi-soon-ju",
+      "name": "최순주",
+      "aliases": [
+        "崔淳周",
+        "Choi Sun-ju",
+        "Choe Sun-ju"
+      ],
+      "lifespan": {
+        "born": null,
+        "birthYearCandidates": [
+          "1904 (AKS)",
+          "1902 (unverified secondary)"
+        ],
+        "died": "1956-06-11",
+        "verification": "YEAR_CONFLICT_REQUIRES_PRIMARY_REGISTRY"
+      },
+      "roles": [
+        {
+          "period": "1949",
+          "title": "조선은행 총재",
+          "evidenceDocumentIds": [
+            "d114-aks-choi"
+          ]
+        },
+        {
+          "period": "1950-05-11",
+          "title": "재무부장관·한국은행설립위원회 위원장",
+          "evidenceDocumentIds": [
+            "d114-bok-opening-history"
+          ]
+        },
+        {
+          "period": "1954",
+          "title": "제3대 국회의원·국회부의장",
+          "evidenceDocumentIds": [
+            "d114-aks-choi"
+          ]
+        }
+      ],
+      "researchStatus": "IDENTIFIED",
+      "promotionReason": "한국은행 공식 설립위원장 기록과 한국학중앙연구원 인물 기록이 공직·동일인을 연결. 생년과 임명 관보 원면 미확보로 VERIFIED 보류.",
+      "connections": [
+        "evt-1950-bank-legislation-setup"
+      ],
+      "evidenceDocumentIds": [
+        "d114-bok-opening-history",
+        "d114-aks-choi"
+      ],
+      "openLeads": [
+        "L114-08",
+        "L114-09"
+      ],
+      "historyDebt": [
+        "HD-R114-03"
+      ],
+      "backbone": false
+    },
+    {
+      "id": "pol-koo-yong-seo",
+      "name": "구용서",
+      "aliases": [
+        "Koo Yong-seo",
+        "Ku Yong-sŏ"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "NOT_CHECKED"
+      },
+      "roles": [
+        {
+          "period": "1950-05-11",
+          "title": "조선은행 총재·한국은행설립위원회 부위원장",
+          "evidenceDocumentIds": [
+            "d114-bok-opening-history"
+          ]
+        },
+        {
+          "period": "1950-06-05",
+          "title": "초대 한국은행 총재",
+          "evidenceDocumentIds": [
+            "d114-bok-opening-history"
+          ]
+        }
+      ],
+      "researchStatus": "IDENTIFIED",
+      "promotionReason": "한국은행 공식 연혁의 두 시점 직책·임명 연결. 생몰과 임명 원문 미확보.",
+      "connections": [
+        "evt-1950-bank-legislation-setup"
+      ],
+      "evidenceDocumentIds": [
+        "d114-bok-opening-history"
+      ],
+      "openLeads": [
+        "L114-10"
+      ],
+      "backbone": false
+    },
+    {
+      "id": "pol-yun-chi-yeong",
+      "name": "윤치영",
+      "aliases": [
+        "尹致暎",
+        "Yun Chi-yeong",
+        "Yoon Chi-yung"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "NOT_CHECKED"
+      },
+      "roles": [
+        {
+          "period": "1950-04",
+          "title": "대한국민당의 총리 후보 추천 대상 (보도)",
+          "evidenceDocumentIds": [
+            "d114-seoul-19500422"
+          ]
+        }
+      ],
+      "researchStatus": "IDENTIFIED",
+      "promotionReason": "1950년 4월 당대 기사와 기존 run113 국회 인물자료가 동일 정치적 행위자를 가리킴. 정식 의원원부 미확인.",
+      "connections": [
+        "evt-1950-0421-acting-pm-parliament-dispute"
+      ],
+      "evidenceDocumentIds": [
+        "d114-seoul-19500422"
+      ],
+      "openLeads": [
+        "L114-11"
+      ],
+      "backbone": false
+    },
+    {
+      "id": "pol-cho-byeong-ok",
+      "name": "조병옥",
+      "aliases": [
+        "趙炳玉",
+        "Cho Byeong-ok",
+        "Jo Byeong-ok"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "NOT_CHECKED"
+      },
+      "roles": [
+        {
+          "period": "1950-04",
+          "title": "민국당의 총리 후보 추천 대상 (보도)",
+          "evidenceDocumentIds": [
+            "d114-seoul-19500422"
+          ]
+        }
+      ],
+      "researchStatus": "DISCOVERED",
+      "promotionReason": "동시대 기사에서 정당 추천 행위 확인; 원당무회의록과 인물등록 검증 전 DISCOVERED 유지.",
+      "connections": [
+        "evt-1950-0421-acting-pm-parliament-dispute"
+      ],
+      "evidenceDocumentIds": [
+        "d114-seoul-19500422"
+      ],
+      "openLeads": [
+        "L114-12"
+      ],
+      "backbone": false
+    },
+    {
+      "id": "pol-lee-sang-gyu-legal-adviser",
+      "name": "이상규",
+      "aliases": [
+        "李相圭",
+        "Lee Sang-gyu"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "IDENTITY_AMBIGUOUS"
+      },
+      "roles": [
+        {
+          "period": "1950-04-21",
+          "title": "국회 법제사법위원회 전문위원(당시 보도)",
+          "evidenceDocumentIds": [
+            "d114-seoul-19500422"
+          ]
+        }
+      ],
+      "researchStatus": "DISCOVERED",
+      "promotionReason": "서리 적법성 해석을 제시한 국회 전문위원으로 기록. 동명이인 가능성·인사원부 미확인.",
+      "connections": [
+        "evt-1950-0421-acting-pm-parliament-dispute"
+      ],
+      "evidenceDocumentIds": [
+        "d114-seoul-19500422"
+      ],
+      "openLeads": [
+        "L114-13"
+      ],
+      "backbone": false
     }
   ]
 }
