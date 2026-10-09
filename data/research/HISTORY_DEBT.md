@@ -342,3 +342,11 @@ run110d 신규 6건: `data/research/history-debt/run110-addendum.md`. `HD-RHEE-1
 ## 2026-10-09 run127 개별 부채 업데이트
 
 `data/research/history-debt/run127-addendum.md`에서 12개 미해결 질문의 신규 근거·상태·원문 표적을 기록. 6/5 특별조치령 폐지안의 6/20 정부 환부와 6/9 공업융자 합계 불일치를 새로 추적. `last_full_review` 불변. **역사부채 주간 전수조사 미실시.**
+
+
+### 2026-10-09 run129 의사절차·지방동원 개별 보강 (주간 전수조사 아님)
+- `HD-R129-QUORUM` CONFLICTED: 1952-06-14 95명→90명, 기존 보도 4인 퇴장. 출석·퇴장명부 필요.
+- `HD-R129-READINGS` NARROWED: 1952-07-04 2독회(151:0, 비발췌 0:141)와 3독회(163:0)를 원속기록으로 분리. '독회 생략' 후대 해제 문구와 충돌.
+- `HD-R129-LOCAL` OPEN: 이종형의 정선군 동원·조주영의 경남 면장선거 폐단은 각각 당사자 주장, 원행정기록 미확인.
+- `HD-R129-BILLS` NARROWED: 6월20일 정부환부 사실 원속기록 확인, 환부 이유·거부권 행사 원공문 미확보.
+- 상세: `data/research/history-debt/run129-parliament-process.md`. `last_full_review` 변경하지 않음. 역사부채 주간 전수조사 미실시.

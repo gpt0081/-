@@ -1,0 +1,68 @@
+{
+  "run": 129,
+  "date": "2026-10-09",
+  "branch": "research/run129-parliamentary-procedure-20261009",
+  "focus": "1952 June-July parliamentary procedure and cabinet-local policy claims, independent politician action graph",
+  "counts": {
+    "independentResearchLines": 7,
+    "policyDomainsSubstantivelyStrengthened": 6,
+    "nonPresidentCandidatesWithSourcedActions": 20,
+    "canonicalPromotions": 0,
+    "eventOrSubeventAdded": 20,
+    "documentsDirectlyOpenedUnique": 8,
+    "officialPrimaryTranscriptionsOpened": 7,
+    "officialRetrospectiveOpened": 1,
+    "originalFacsimileOpened": 0,
+    "adversarialComparisons": 13,
+    "independentAdversarialWebSearches": 3,
+    "priorOpenLeadsTracked": 11,
+    "newConcreteLeads": 35,
+    "independentProvenanceCrosschecksCompleted": 1
+  },
+  "crosscheck": {
+    "claim": "1952-07-04 final amendment vote 166 present, 163 yes",
+    "independentFamilies": [
+      "Korean National Assembly original plenary record",
+      "National Archives of Korea retrospective constitutional exhibit"
+    ],
+    "status": "SUPPORTED"
+  },
+  "additionalWithinFamilyChecks": [
+    "1952-06-11 89/97 passed versus 1952-06-14 no quorum",
+    "1952-06-21 government proposed appointed senators versus 1952-07-04 final compromise",
+    "1952-07-04 original readings versus editorial summary 'readings omitted'"
+  ],
+  "trackedLeadIds": [
+    "L128-01",
+    "L128-02",
+    "L128-03",
+    "L128-04",
+    "L128-05",
+    "L128-06",
+    "L128-12",
+    "L128-13",
+    "L128-14",
+    "L128-18",
+    "L127-02"
+  ],
+  "documents": "data/documents/run129-1952-parliamentary-originals.json",
+  "sourceAudit": "data/research/runs/run129-source-audit.json",
+  "politicians": "data/politicians/run129-1952-parliamentary-actors.json",
+  "events": "data/events/run129-1952-parliamentary-actions.json",
+  "claims": "data/claims/run129-1952-procedure-audit.json",
+  "annals": "data/annals/1952-june-july-parliament-run129.md",
+  "leads": "data/research/lead-queues/run129-next.json",
+  "historyDebt": "data/research/history-debt/run129-parliament-process.md",
+  "weeklyFullDebtReview": "NOT_PERFORMED_FRIDAY",
+  "flootModified": false,
+  "executionHoursClaimed": 0,
+  "limitations": [
+    "Only 8 distinct documents directly read, below 40 target; not padded with snippets or previously read FRUS",
+    "Only 7 official assembly primary transcriptions, below 20 target",
+    "Facsimile and gazette original not inspected",
+    "Birth/death and appointment/election identity registers not checked, no promotion",
+    "Only one completed cross-family provenance check, not three",
+    "Branch commits are research integration, not merged to main",
+    "No one-hour wall-clock duration claimed"
+  ]
+}

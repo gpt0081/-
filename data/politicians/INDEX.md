@@ -90,3 +90,9 @@ See `data/politicians/run113-prewar-network.json` for 12 sourced profiles. No ca
 ## 2026-10-09 run127 인물망
 
 `data/politicians/run127-civil-cabinet-network.json`: 선전대책위원회 차관급 12명과 이교선·정순조·김두한 3명 후보 IDENTIFIED, 기존 전진한·윤치영·김용택 3명 심화. 관보·생몰 미검증으로 canonical 승격 보류.
+
+## Run129 (2026-10-09): 1952년 6~7월 국회·내각 의사절차
+
+- `data/politicians/run129-1952-parliamentary-actors.json`: 20명 독립 candidate ID, 당시 원속기록 한자·직책·행위·문서·미해결 신원질문. 전원 IDENTIFIED, 생몰·당선원부 미확인으로 VERIFIED 승격 없음.
+- `data/evidence/politicians/jo-ju-yeong-run129.json`, `lee-jong-hyeong-run129.json`: 정부측 개헌답변과 국회 출석요청·발췌표결을 분리한 독립 증거. 이종형은 기존 run128 후보 ID 재사용.
+- `data/annals/1952-june-july-parliament-run129.md`: 7개 원속기록과 별도 국가기록원 전시 교차확인. 6월14일 보류표결·7월4일 2독회/3독회 분리.
