@@ -4,18 +4,18 @@
   "focus": "1952 지방의회-내각-국회-미국 외교기록, 1951~52 조선방직",
   "branch": "research/run125-local-elections-source-audit",
   "metrics": {
-    "independentResearchLines": 26,
+    "independentResearchLines": 30,
     "policyDomainsStrengthened": 11,
-    "nonPresidentCandidatesNewOrDeepened": 19,
+    "nonPresidentCandidatesNewOrDeepened": 21,
     "canonicalPoliticianPromotions": 0,
-    "eventsOrSubeventsStructured": 32,
-    "documentsDirectlyOpenedUnique": 43,
-    "contemporaneousOrPrimaryDocuments": 41,
-    "governmentPrimaryOriginals": 17,
-    "adversarialChecks": 22,
+    "eventsOrSubeventsStructured": 38,
+    "documentsDirectlyOpenedUnique": 50,
+    "contemporaneousOrPrimaryDocuments": 48,
+    "governmentPrimaryOriginals": 19,
+    "adversarialChecks": 26,
     "priorOpenLeadsTracked": 9,
-    "independentProvenanceCrosscheckBundles": 3,
-    "newConcreteLeads": 52
+    "independentProvenanceCrosscheckBundles": 4,
+    "newConcreteLeads": 60
   },
   "adversarialTopics": [
     "6개 도의회 결의 존재와 표결원부 구별",
@@ -35,7 +35,7 @@
     "6/3 장택상 전언을 미국대사관 기록, 6/25 이승만 자필 성격의 서한, 7/12 미대사 관찰과 시간선 비교; 동일 미 외교기록 수록이므로 완전 독립 아카이브 3계열로 계산하지 않음"
   ],
   "priorLead": "lead-1952-arrests: 국회해산을 둘러싼 6/3 국무회의 전언·이범석 제안으로 범위 축소, 실제 체포명령은 OPEN",
-  "sourceAudit": "43 distinct substantive source texts opened in this run (20 first-stage + 23 new 1952-05-29~31 items, after deduplicating 3 overlapping items); 41 contemporaneous/primary texts, including 17 US diplomatic/military/government originals or translated transcriptions. Two later scholarly texts. Search snippets, date indexes, failed PDFs excluded.",
+  "sourceAudit": "50 unique directly opened source documents registered; 48 contemporary/primary, 19 US official records (2 later scholarship). Additional June 1-3 sources opened but not yet registered are excluded from current ledger.",
   "nextPriorities": [
     "1952-05-29 국회 제67차 본회의 원속기록",
     "1952-05-24 계엄 임시국무회의 원의사록",
@@ -79,5 +79,15 @@
     "에너지",
     "언론"
   ],
-  "additionalPoliticianRegistry": "data/politicians/run126-kim-dong-seong.json"
+  "additionalPoliticianRegistry": "data/politicians/run126-kim-dong-seong.json",
+  "correctionHistory": [
+    "data/research/corrections/run126e-defense-minister.json"
+  ],
+  "identitySupersession": "data/politicians/run126e-supersession.json",
+  "latestEvidence": [
+    "data/documents/run126e-cabinet-roster.json",
+    "data/documents/run126e-june1-3-focus.json",
+    "data/documents/run126e-june1-3-focus-b.json"
+  ],
+  "noteCorrection": "1952-05-29 국방장관을 신성모로 연결한 오류는 신태영으로 정정. 원래 잘못된 정치인 overlay 항목은 supersession 규칙으로 무효화."
 }
