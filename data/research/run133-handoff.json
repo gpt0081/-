@@ -1,0 +1,35 @@
+{
+  "run": 133,
+  "date": "2026-10-10",
+  "branch": "research/run133-1952-provenance-repair-20261010",
+  "baseBranch": "research/run132-source-provenance-integrity-20261010",
+  "ledger": "data/research/runs/2026-10-10-run133-execution-ledger.json",
+  "readFirst": [
+    "data/research/corrections/run133-source-audit.json",
+    "data/research/lead-queues/run133-active.json",
+    "data/research/history-debt/run133-source-integrity.md",
+    "data/annals/1952-june-inquiry-provenance-run133.md"
+  ],
+  "nextHighPriority": [
+    "L133-01",
+    "L133-03",
+    "L133-04",
+    "L133-05",
+    "L133-06",
+    "L133-07",
+    "L133-08",
+    "L133-09",
+    "L133-10",
+    "L133-11",
+    "L133-12"
+  ],
+  "notes": [
+    "147 URLs syntax normalized, 141 not item-level checked",
+    "NIKH FRUS translation is same provenance as US FRUS",
+    "10 politician candidate nodes IDENTIFIED not VERIFIED",
+    "No main merge or Floot build",
+    "Saturday: no weekly full debt review"
+  ],
+  "status": "RESEARCH_BRANCH_NOT_MERGED",
+  "nextAction": "Verify original 1952 Assembly stenograms and official Gazette images, then review referential integrity and merge research branch separately."
+}
