@@ -75,3 +75,8 @@ See `data/politicians/run113-prewar-network.json` for 12 sourced profiles. No ca
 - `data/annals/lee-yun-yeong-run120.md` 및 `data/evidence/politicians/lee-yun-yeong-run120.json`: 이윤영 사회부장관의 광산임금 체불 인정과 노동조합 독립 자료 대조.
 - `data/organizations/run120-june1950-institutional-actors.json`: 1950년 반복 기관 stable ID overlay.
 - 생몰·관보 원면 미확보로 VERIFIED 승격 없음.
+
+## Run124a (2026-10-09): 1951년 원내·원외 자유당 분리 창당
+
+- `data/politicians/run124-1951-party-actor-index.json` 및 `run124-1951-party-actors-c/d/e/g.json`, `run124-yang-u-jeong.json`, `run124-kim-yong-u.json`, `run124-im-yeong-sin.json`: 1950년 후대 당선자 목록과 1951년 당대 창당 보도에 연결한 비대통령 인물 12명(IDENTIFIED). 생몰·당적 원부 미확보로 VERIFIED 승격 없음.
+- `data/annals/1951-liberty-two-foundings-run124.md`: 1950년 당적 소급 오류와 원내·원외 조직 혼동을 방지하는 실록.
