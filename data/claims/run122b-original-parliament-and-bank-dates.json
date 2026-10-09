@@ -1,0 +1,76 @@
+{
+  "run": "122b",
+  "date": "2026-10-09",
+  "claims": [
+    {
+      "id": "c122b-1954-vote-day",
+      "status": "RESOLVED_STAGE_DATES",
+      "statement": "Original 90th sitting occurred 1954-11-27 and 91st 1954-11-29; original vote and later reversal are different events",
+      "supporting": [
+        "d122b-1954-90",
+        "d122b-1954-91"
+      ],
+      "contradicting": [
+        "d122-jan"
+      ],
+      "note": "No longer treat Nov29 as initial vote date"
+    },
+    {
+      "id": "c122b-headcount",
+      "status": "NARROWED_CONFLICTED_TRANSCRIPTION",
+      "statement": "91st original says membership 203; 202 cast 135+60+7. Executive transmittal calls 202 membership",
+      "supporting": [
+        "d122b-1954-91"
+      ],
+      "contradicting": [
+        "d122-letter"
+      ],
+      "note": "Likely membership/attendance labeling confusion; image audit still open"
+    },
+    {
+      "id": "c122b-procedural-actors",
+      "status": "SUPPORTED_DIRECT_TRANSCRIPT",
+      "statement": "91st record identifies chair's reversal, vice-chair's opposing declaration and motion by Yu Sun-sik and 19 co-signers",
+      "supporting": [
+        "d122b-1954-91"
+      ],
+      "contradicting": [],
+      "note": "Role not equivalent to presidential instruction"
+    },
+    {
+      "id": "c122b-press-bank",
+      "status": "RESOLVED_DATE_DISTINCTION",
+      "statement": "Bank of Korea Act parliamentary amended passage 1950-04-21, promulgation 1950-05-05",
+      "supporting": [
+        "d122b-1950-press",
+        "d122b-bok"
+      ],
+      "contradicting": [],
+      "note": "Original assembly stenogram remains separate open lead"
+    },
+    {
+      "id": "c122b-91st-slip",
+      "status": "CONFLICTED_TRANSCRIPT_DATE",
+      "statement": "91st transcript says prior sitting was 'December 27' while source heading and 90th transcript say November 27",
+      "supporting": [
+        "d122b-1954-91"
+      ],
+      "contradicting": [
+        "d122b-1954-90"
+      ],
+      "note": "Retain literal transcription; original printed facsimile to check"
+    },
+    {
+      "id": "c122b-ballot-breakdown",
+      "status": "NARROWED",
+      "statement": "Original 91st speech states 135 yes, 60 no, 7 abstain, while later historiography sometimes separates 6 abstentions and 1 invalid",
+      "supporting": [
+        "d122b-1954-91"
+      ],
+      "contradicting": [
+        "https://db.history.go.kr/item/cons/level.do?levelId=cons_003_0010"
+      ],
+      "note": "Ballot image or original count sheet required"
+    }
+  ]
+}
