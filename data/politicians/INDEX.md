@@ -86,3 +86,9 @@ See `data/politicians/run113-prewar-network.json` for 12 sourced profiles. No ca
 - `data/politicians/run124c-party-military-actors-a.json`: 이활·이종찬, `run124c-police-secretariat-actors-b.json`: 김종삼·고재봉. 1951년 동시대 원문에 등장한 교섭·군사·경찰·비서 역할을 독립 IDENTIFIED 후보로 보존.
 - `data/politicians/run124-kim-yong-u.json`: 1951-12-21 귀속재산처리법 심의보류 동의 90:0 기록을 추가. 정부안 통과로 오인 금지.
 - 1951-12-21 정부안에 반대한 6명은 `d124d-0170` 원문에 기록. 의원등록원부·동명이인 대조 후 독립 후보 승격 검토.
+
+## Run127 · 제헌국회 원속기록 기반 비대통령 정치인 보강
+- 증거: `data/documents/run127-1948-1951-sources.json`
+- 후보 연결: `data/politicians/run127-actors-a.json`, `run127-actors-b.json`, `run127-actors-c.json`
+- 독립 실록: `data/annals/kim-gwang-jun-run127.json`
+- 제헌의원 개명계 원문 확인. 1949 농지개혁 24할 제안과 1950 시행법 15할을 분리. 기존 ID 유지.

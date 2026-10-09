@@ -338,3 +338,10 @@ run110d 신규 6건: `data/research/history-debt/run110-addendum.md`. `HD-RHEE-1
 - HD-R114B-05 | OPEN | 임병직 1950-04-21 UNCOK 초청 서한 원본·답신·참관결과 미확보.
 - HD-R114B-06 | OPEN | 이승만 1950-04-21 국채·복표·청년단·귀속재산 관련 발언의 실제 집행 확인 필요.
 - 역사부채 주간 전수조사 미실시. last_full_review 변경 없음.
+
+## 2026-10-10 run127 개별 검증 (토요일, 전수조사 아님)
+- [NARROWED] 제헌국회 개명계에 따른 인물 동일성: `data/research/history-debt/run127-identity-land-law.md` HD-R127-01.
+- [CONFLICTED] 1949 농지개혁법 의결일 4/25·4/27·4/28 표기: 원속기록의 의사단계 검증 전 병합 금지.
+- [NARROWED] 1949 산업위원회 24할/8년 제안과 1950 법률 제108호 15할/5년 시행 구분.
+- [OPEN] 1951 4만 포로 서약 보도와 실제 석방의 차이, 개명 법원등본, 반민법 특별재판부 조항 발언.
+- last_full_review 변경 없음. 역사부채 주간 전수조사 미실시.
