@@ -1,0 +1,32 @@
+{
+  "run": 132,
+  "phase": "tax-agriculture-local",
+  "politicianId": "pol-rhee-syngman",
+  "domainUpdates": [
+    {
+      "domain": "조세·재정",
+      "finding": "1954 법319 소득세 폐지제정·법320 법인세 일부개정·법332 지방세 개정",
+      "documents": [
+        "d132-tax319",
+        "d132-tax320",
+        "d132-tax332"
+      ]
+    },
+    {
+      "domain": "농정·인사",
+      "finding": "중앙농업기술원장 강정택·정구흥·채병석 재임과 농업기술 보급",
+      "documents": [
+        "d132-agri-agency"
+      ]
+    },
+    {
+      "domain": "지방행정·치안",
+      "finding": "1952 전북도지사 이성득 민방위사령관·9월 이요한 승계",
+      "documents": [
+        "d132-jeonbuk-police",
+        "d132-jeonbuk-governors"
+      ]
+    }
+  ],
+  "guardrail": "재임 중 발생 사실을 대통령 직접 명령으로 귀속하지 않음"
+}

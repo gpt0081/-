@@ -106,3 +106,7 @@ See `data/politicians/run113-prewar-network.json` for 12 sourced profiles. No ca
 ## Run132 (2026-10-10) · 1951 정부개헌안 발기자와 1952 선거법 대조
 
 `data/politicians/run132-cabinet-amendment-actors.json`: 허정·이순용·조진만 후보 3명(IDENTIFIED), 변영태·이기붕·백두진 기존 stable ID 3명에 1951-11-30 관보 제562호 정부개헌안 발기자 연결. 한자·생몰·서명 원면 미확보로 정식 승격 없음. 1952 법247 발의자와 동일시하지 않는다.
+
+## Run132 후속 농정·지방행정 관료 5명
+
+`data/politicians/run132-agriculture-bureaucrats.json`: 강정택·정구흥·채병석 중앙농업기술원장 재임기간을 국가기록원 기관연혁으로 연결. `data/politicians/run132-jeonbuk-governors.json`: 이성득·이요한 전북도지사 관선 임기와 1952-07-03 민방위행정 사건 연결. 전원 IDENTIFIED, 생몰·한자·임면관보 미확보로 정식 registry 승격 없음.
