@@ -3,9 +3,10 @@
   "project": "대한민국 역대 정치인 실록",
   "branchRef": "refs/heads/research/run89-audit-property-oversight",
   "branchHeadResolution": "READ_LIVE_REF_NOT_CACHED_SHA",
-  "lastCompletedRun": 122,
-  "latestRunReport": "data/research/runs/2026-10-09-run122-ledger.json",
+  "lastCompletedRun": 123,
+  "latestRunReport": "data/research/runs/2026-10-09-run123-ledger.json",
   "latestLeadQueue": [
+    "data/research/lead-queues/run123-aprmay1950-originals.json",
     "data/research/lead-queues/run122-1954-originals-a.json",
     "data/research/lead-queues/run122-1954-originals-b.json",
     "data/research/lead-queues/run122-1954-originals-c.json",
@@ -47,8 +48,8 @@
     "data/research/rhee-syngman-coverage-run118.json",
     "data/research/rhee-syngman-coverage-run120.json"
   ],
-  "latestRun": 121,
-  "latestRunLedger": "data/research/runs/2026-10-09-run121-ledger.json",
+  "latestRun": 123,
+  "latestRunLedger": "data/research/runs/2026-10-09-run123-ledger.json",
   "latestLeadAddendum": "data/research/lead-queues/run115-addendum.json",
   "latestFinalAddendum": "data/research/runs/2026-10-09-run115-final-addendum.json",
   "latestLeadFinalAddendum": "data/research/lead-queues/run115-press-addendum.json",
@@ -105,5 +106,16 @@
       "data/events/run122-1954-parliament-actions.json"
     ],
     "next": "Read 1954-11-27 and 11-29 Assembly originals and 1950 Bank Act original stenogram. Resolve 202/203 and 11/19/11/29 source conflicts."
+  },
+  "run123": {
+    "focus": "1950-04~05 parliamentary procedure, cabinet acting appointment, police staffing, US diplomatic original",
+    "documents": "data/documents/run123-apr1950-us-embassy.json",
+    "politicians": "data/politicians/run123-apr1950-parliament-network.json",
+    "events": "data/events/run123-aprmay1950-institutional-actions.json",
+    "claims": "data/claims/run123-1950-cabinet-police-adversarial.json",
+    "annals": "data/annals/1950-april-may-institutions-run123.md",
+    "debt": "data/research/history-debt/run123-april1950.md",
+    "next": "1950-04-10 제72차 국회 원속기록, 1950-05-02 경찰인사 원부, 1954 개헌 원표결",
+    "flootUntouched": true
   }
 }
