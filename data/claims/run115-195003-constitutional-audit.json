@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "run": 115,
+  "claims": [
+    {
+      "id": "c115-procedural-vs-substantive",
+      "statement": "1950-03-09 68:38은 개헌안 긴급 상정, 03-13 102:75:1은 투표방식, 03-14 79:33:66:1은 본안 부결이며 서로 다른 표결이다.",
+      "status": "SUPPORTED_BY_PRIMARY_TRANSCRIPT",
+      "supporting": [
+        "d115-assembly-19500309",
+        "d115-assembly-19500313",
+        "d115-assembly-19500314"
+      ],
+      "contradicting": [],
+      "insufficient": [],
+      "contemporaneousObservation": [
+        "d115-us-embassy-19500322"
+      ],
+      "laterFinding": [
+        "d113-nara-19500314-constitution-vote"
+      ]
+    },
+    {
+      "id": "c115-election-letter-march14",
+      "statement": "이승만은 1950-03-14 국회의장에게 6월 안으로 총선을 연기하자는 서한을 보냈고 신익희가 본회의에서 전문을 낭독했다. 이는 03-31 제안보다 앞선 문서화된 연기 요청이다.",
+      "status": "SUPPORTED_WITH_SCOPE_LIMIT",
+      "supporting": [
+        "d115-assembly-19500314"
+      ],
+      "contradicting": [],
+      "insufficient": [
+        "원서한 접수대장/관보, 03-31 후속안과 관계"
+      ],
+      "correctsOrNarrows": "c113-election",
+      "laterOutcome": "실제 총선은 1950-05-30, 제안과 법적 연기 결정 구분"
+    },
+    {
+      "id": "c115-ballot-secrecy-dispute",
+      "statement": "03-13 개헌안 본안 무기명 투표가 기표소 미이용·백지표 처리 논란으로 중단되어 다음날 다시 시작됐다. 절차 위반 여부는 당사자 간 논쟁이었다.",
+      "status": "SUPPORTED_DISPUTED_LEGAL_INTERPRETATION",
+      "supporting": [
+        "d115-assembly-19500313",
+        "d115-assembly-19500314"
+      ],
+      "contemporaneousObservation": [
+        "d115-us-embassy-19500322"
+      ],
+      "contradicting": [],
+      "insufficient": [
+        "국회법 제40조 등 당대 법률 해석/판결"
+      ]
+    },
+    {
+      "id": "c115-budget-ministerial-speech",
+      "statement": "홍성하는 03-14 예산 심의에 앞선 국무총리·각 부처의 시정연설 부재 및 수정예산 가능성을 문제 삼았다. 이는 국회의원의 주장이지 실제 수정안 제출의 증거가 아니다.",
+      "status": "PARTY_STATEMENT_VERIFIED_OUTCOME_OPEN",
+      "supporting": [
+        "d115-assembly-19500314"
+      ],
+      "insufficient": [
+        "1950 예산 수정안 제출·접수원부",
+        "국무총리 시정연설 기록"
+      ],
+      "contradicting": []
+    },
+    {
+      "id": "c115-civil-servant-electioneering",
+      "statement": "서우석은 03-14 지방 공무원들의 조기 선거운동과 단속 부재를 주장했다. 선거법 위반 사실의 독립 조사·처분기록은 아직 확인되지 않았다.",
+      "status": "ALLEGATION_ONLY",
+      "supporting": [
+        "d115-assembly-19500314"
+      ],
+      "insufficient": [
+        "내무부/경찰 단속기록, 지역별 선거범죄 기록"
+      ],
+      "contradicting": []
+    },
+    {
+      "id": "c115-abstention-not-presidential-endorsement",
+      "statement": "미국 대사관 03-22 분석은 66표 기권을 대통령에 대한 무조건적 지지로 보지 않았으며, 의원내각제 반대와 행정부 개혁 요구가 공존한다고 평가했다. 이는 미국측 해석이며 개별 의원의 의도를 확정하지 않는다.",
+      "status": "CONTEMPORANEOUS_ANALYSIS_NOT_FACT",
+      "supporting": [
+        "d115-us-embassy-19500322"
+      ],
+      "insufficient": [
+        "대한국민당 원내회의 원문/의원 개별 투표의도"
+      ],
+      "contradicting": []
+    }
+  ]
+}
