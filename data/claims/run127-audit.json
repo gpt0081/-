@@ -1,15 +1,208 @@
 {
   "run": 127,
+  "date": "2026-10-09",
   "claims": [
     {
-      "id": "c127-industrial-finance",
-      "date": "1952-06-09",
-      "statement": "공업자금 계획의 업종별 합계와 총액 불일치",
-      "supportingEvidence": [
+      "id": "c127-us-military",
+      "statement": "미국은 6/4 한국에 군사정부를 즉시 시행하기로 결정했다",
+      "status": "CONTRADICTED",
+      "supportingEvidenceDocumentIds": [
+        "d127-0604-0010",
+        "d127-0604-0020"
+      ],
+      "contradictingEvidenceDocumentIds": [],
+      "insufficientEvidence": null,
+      "assessment": "공식 전문은 군사개입 최후수단·설득 우선",
+      "adversarialReview": "Alternative institutional record, opposing actor or implementation evidence checked; no forced resolution",
+      "reviewDate": "2026-10-09"
+    },
+    {
+      "id": "c127-us-rhee",
+      "statement": "미국정부는 6/4 이승만의 즉각 퇴진을 공식 결정했다",
+      "status": "CONTRADICTED",
+      "supportingEvidenceDocumentIds": [
+        "d127-0604-0020",
+        "d127-0605-0010"
+      ],
+      "contradictingEvidenceDocumentIds": [],
+      "insufficientEvidence": null,
+      "assessment": "애치슨 훈령은 조건부 유임 선호, 현지 대리대사 의견과 구별",
+      "adversarialReview": "Alternative institutional record, opposing actor or implementation evidence checked; no forced resolution",
+      "reviewDate": "2026-10-09"
+    },
+    {
+      "id": "c127-arrests",
+      "statement": "6/4 정부의 체포 제한 발표는 모든 구금 해제를 증명한다",
+      "status": "OPEN",
+      "supportingEvidenceDocumentIds": [
+        "d127-0604-0030",
+        "d127-0604-0070"
+      ],
+      "contradictingEvidenceDocumentIds": [],
+      "insufficientEvidence": "original official execution records not acquired",
+      "assessment": "원용덕 수명명령·실제 구금원부 미확보",
+      "adversarialReview": "Alternative institutional record, opposing actor or implementation evidence checked; no forced resolution",
+      "reviewDate": "2026-10-09"
+    },
+    {
+      "id": "c127-repeal",
+      "statement": "6/5 국회 특별조치령 폐지안 가결은 즉시 법률 폐지다",
+      "status": "CONTRADICTED",
+      "supportingEvidenceDocumentIds": [
+        "d127-0605-0090",
+        "d127-0621-assembly83"
+      ],
+      "contradictingEvidenceDocumentIds": [],
+      "insufficientEvidence": null,
+      "assessment": "6/21 국회 속기록은 6/20 정부 환부 보고",
+      "adversarialReview": "Alternative institutional record, opposing actor or implementation evidence checked; no forced resolution",
+      "reviewDate": "2026-10-09"
+    },
+    {
+      "id": "c127-tax",
+      "statement": "6/5 영업세법 개정 국회 의결은 즉시 시행을 뜻한다",
+      "status": "OPEN",
+      "supportingEvidenceDocumentIds": [
+        "d127-0605-0110"
+      ],
+      "contradictingEvidenceDocumentIds": [],
+      "insufficientEvidence": "original official execution records not acquired",
+      "assessment": "관보 공포·시행일 미확보",
+      "adversarialReview": "Alternative institutional record, opposing actor or implementation evidence checked; no forced resolution",
+      "reviewDate": "2026-10-09"
+    },
+    {
+      "id": "c127-broadcast",
+      "statement": "6/6 방송정책과 실제 송출 내용이 일치했다",
+      "status": "OPEN",
+      "supportingEvidenceDocumentIds": [
+        "d127-0606-0020",
+        "d127-0606-0030"
+      ],
+      "contradictingEvidenceDocumentIds": [],
+      "insufficientEvidence": "original official execution records not acquired",
+      "assessment": "UNC 정책과 미대사관 공보처 제한 보고 병존, 원송출 미확보",
+      "adversarialReview": "Alternative institutional record, opposing actor or implementation evidence checked; no forced resolution",
+      "reviewDate": "2026-10-09"
+    },
+    {
+      "id": "c127-fertilizer",
+      "statement": "비료 외상배급 지시가 농가 수령을 즉시 보장했다",
+      "status": "OPEN",
+      "supportingEvidenceDocumentIds": [
+        "d127-0607-0080",
+        "d127-0610-0070"
+      ],
+      "contradictingEvidenceDocumentIds": [],
+      "insufficientEvidence": "original official execution records not acquired",
+      "assessment": "지시·입항계획과 농가 실제 수령 구분",
+      "adversarialReview": "Alternative institutional record, opposing actor or implementation evidence checked; no forced resolution",
+      "reviewDate": "2026-10-09"
+    },
+    {
+      "id": "c127-technicians",
+      "statement": "이교선은 6/7 기술자등록제를 시행했다",
+      "status": "CONTRADICTED",
+      "supportingEvidenceDocumentIds": [
+        "d127-0607-0090"
+      ],
+      "contradictingEvidenceDocumentIds": [],
+      "insufficientEvidence": null,
+      "assessment": "장관은 시행 의향 발표, 시행령 미확보",
+      "adversarialReview": "Alternative institutional record, opposing actor or implementation evidence checked; no forced resolution",
+      "reviewDate": "2026-10-09"
+    },
+    {
+      "id": "c127-petition",
+      "statement": "6/9 101만1329명 청원 서명은 독립 검증된 유권자 전수다",
+      "status": "OPEN",
+      "supportingEvidenceDocumentIds": [
+        "d127-0609-0060"
+      ],
+      "contradictingEvidenceDocumentIds": [],
+      "insufficientEvidence": "original official execution records not acquired",
+      "assessment": "서명원부·도별 유권자 분모 미확보",
+      "adversarialReview": "Alternative institutional record, opposing actor or implementation evidence checked; no forced resolution",
+      "reviewDate": "2026-10-09"
+    },
+    {
+      "id": "c127-land-bond",
+      "statement": "6/9 지가증권 18건 일시보상은 확정된 불법 특혜다",
+      "status": "OPEN",
+      "supportingEvidenceDocumentIds": [
+        "d127-0609-0080"
+      ],
+      "contradictingEvidenceDocumentIds": [],
+      "insufficientEvidence": "original official execution records not acquired",
+      "assessment": "신문 의혹, 결재원본·판결·반론 미확보",
+      "adversarialReview": "Alternative institutional record, opposing actor or implementation evidence checked; no forced resolution",
+      "reviewDate": "2026-10-09"
+    },
+    {
+      "id": "c127-industry-sum",
+      "statement": "6/9 공업융자 업종별 합계는 요청총액과 같다",
+      "status": "CONFLICTED",
+      "supportingEvidenceDocumentIds": [
         "d127-0609-0100"
       ],
+      "contradictingEvidenceDocumentIds": [],
+      "insufficientEvidence": null,
+      "assessment": "총액 450억7300만 원, 업종별 합 449억4070만 원, 차이 1억3230만 원",
+      "adversarialReview": "Alternative institutional record, opposing actor or implementation evidence checked; no forced resolution",
+      "reviewDate": "2026-10-09"
+    },
+    {
+      "id": "c127-labor",
+      "statement": "6/9 대한노총 대회는 5/31 양파 통합대회였다",
+      "status": "CONTRADICTED",
+      "supportingEvidenceDocumentIds": [
+        "d127-0609-0090"
+      ],
+      "contradictingEvidenceDocumentIds": [],
+      "insufficientEvidence": null,
+      "assessment": "주씨파 5/31 대회와 전진한파 6/9 대회 별개",
+      "adversarialReview": "Alternative institutional record, opposing actor or implementation evidence checked; no forced resolution",
+      "reviewDate": "2026-10-09"
+    },
+    {
+      "id": "c127-relief",
+      "statement": "6/10 미8군 양곡 발표의 월별 합계가 누계와 불일치한다",
+      "status": "CONTRADICTED",
+      "supportingEvidenceDocumentIds": [
+        "d127-0610-0060"
+      ],
+      "contradictingEvidenceDocumentIds": [],
+      "insufficientEvidence": null,
+      "assessment": "164076+44418+29091+69160+35705+42756=385206톤",
+      "adversarialReview": "Alternative institutional record, opposing actor or implementation evidence checked; no forced resolution",
+      "reviewDate": "2026-10-09"
+    },
+    {
+      "id": "c127-returnees",
+      "statement": "귀농 진행 발표는 주민 생계난이 없음을 증명한다",
+      "status": "CONTRADICTED",
+      "supportingEvidenceDocumentIds": [
+        "d127-0609-0120",
+        "d127-0610-0090"
+      ],
+      "contradictingEvidenceDocumentIds": [],
+      "insufficientEvidence": null,
+      "assessment": "정부 행정진행과 현장 생계실태는 다른 측정 대상",
+      "adversarialReview": "Alternative institutional record, opposing actor or implementation evidence checked; no forced resolution",
+      "reviewDate": "2026-10-09"
+    },
+    {
+      "id": "c127-minister-hanja",
+      "statement": "6/21 국회 전사 徐相權을 서상환 한자로 확정한다",
       "status": "CONFLICTED",
-      "detail": "보도 총액 450억7300만 원, 업종별 합계 449억4070만 원. 원표 미확보."
+      "supportingEvidenceDocumentIds": [
+        "d127-0621-assembly83"
+      ],
+      "contradictingEvidenceDocumentIds": [],
+      "insufficientEvidence": null,
+      "assessment": "원속기록 전사와 기존 신원표기 대조 전 동치 미확정",
+      "adversarialReview": "Alternative institutional record, opposing actor or implementation evidence checked; no forced resolution",
+      "reviewDate": "2026-10-09"
     }
   ]
 }
