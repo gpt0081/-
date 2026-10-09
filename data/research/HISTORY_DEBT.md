@@ -338,3 +338,7 @@ run110d 신규 6건: `data/research/history-debt/run110-addendum.md`. `HD-RHEE-1
 - HD-R114B-05 | OPEN | 임병직 1950-04-21 UNCOK 초청 서한 원본·답신·참관결과 미확보.
 - HD-R114B-06 | OPEN | 이승만 1950-04-21 국채·복표·청년단·귀속재산 관련 발언의 실제 집행 확인 필요.
 - 역사부채 주간 전수조사 미실시. last_full_review 변경 없음.
+
+## 2026-10-09 run127 개별 부채 업데이트
+
+`data/research/history-debt/run127-addendum.md`에서 12개 미해결 질문의 신규 근거·상태·원문 표적을 기록. 6/5 특별조치령 폐지안의 6/20 정부 환부와 6/9 공업융자 합계 불일치를 새로 추적. `last_full_review` 불변. **역사부채 주간 전수조사 미실시.**
