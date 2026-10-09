@@ -345,3 +345,5 @@ run110d 신규 6건: `data/research/history-debt/run110-addendum.md`. `HD-RHEE-1
 - [NARROWED] 1949 산업위원회 24할/8년 제안과 1950 법률 제108호 15할/5년 시행 구분.
 - [OPEN] 1951 4만 포로 서약 보도와 실제 석방의 차이, 개명 법원등본, 반민법 특별재판부 조항 발언.
 - last_full_review 변경 없음. 역사부채 주간 전수조사 미실시.
+
+Run127b addendum: `data/research/history-debt/run127b-original-corrections.md`. Apr25 80:3 vote is a 15-hal amendment; Jeju inquiry motion was not adopted; 1949 Law108 metadata error. Weekly full review not performed.
