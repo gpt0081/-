@@ -328,3 +328,13 @@ run110d 신규 6건: `data/research/history-debt/run110-addendum.md`. `HD-RHEE-1
 - HD-R114-05 | OPEN | 2020년 한국은행 간행물 검색결과에 한국은행법 시행령 '제539호'로 표기되나 법제처 제정원문과 한국은행 디지털아카이브는 '제359호'. PDF 원면 미열람, 단순 편집오류 가능성. 후대 검색결과만으로 CONFLICTED 확정 금지.
 - 관련: data/documents/run114-banking-cabinet-provenance.json, data/claims/run114-institutional-claims.json, data/events/run114-institutional-actions.json.
 - 역사부채 주간 전수조사 미실시. last_full_review 변경하지 않음.
+
+
+## 2026-10-09 run114b 후속 원문 감식
+- HD-R114B-01 | NARROWED | 1950-04-23 서울신문 기사 제목 '군정법령 제2호'와 본문 '포고 제2호·군정법령 제19호'의 법령 식별자 차이. 1945년 적산 관련 군정법령 제2호와 혼동 금지. 폐지 관보 미확보.
+- HD-R114B-02 | CONFLICTED | 법률 제128호 1950-04-21 공포, 법제처 1950-05-12 시행. 당대 신문 '즉일 시행'의 지칭 범위 미확인. 양쪽 기록 보존.
+- HD-R114B-03 | OPEN | 서상일의 조병옥 총리추천 140인 서명 주장, 국회 원서명부 미확보.
+- HD-R114B-04 | OPEN | 대구시 1950-04-21 경작권 보호 행정경고의 집행원부 미확보.
+- HD-R114B-05 | OPEN | 임병직 1950-04-21 UNCOK 초청 서한 원본·답신·참관결과 미확보.
+- HD-R114B-06 | OPEN | 이승만 1950-04-21 국채·복표·청년단·귀속재산 관련 발언의 실제 집행 확인 필요.
+- 역사부채 주간 전수조사 미실시. last_full_review 변경 없음.

@@ -29,7 +29,11 @@
       "openLeadsFile": "data/research/rhee-syngman-open-leads.json",
       "coverageFile": "data/research/rhee-syngman-coverage.json",
       "connections": [
-        "evt-1950-0421-acting-pm-parliament-dispute"
+        "evt-1950-0421-acting-pm-parliament-dispute",
+        "evt-1950-0421-rhee-administrative-remarks"
+      ],
+      "evidenceDocumentIds": [
+        "d114b-04"
       ]
     },
     {
@@ -459,9 +463,13 @@
       "researchStatus": "candidate-legislative-actor",
       "backbone": false,
       "connections": [
-        "evt-1949-farmland-reform"
+        "evt-1949-farmland-reform",
+        "evt-1950-0421-acting-pm-parliament-dispute"
       ],
-      "researchNotes": "농지개혁법 심의 당시 산업위원장으로 확인. 산업위원회 대안 작성·상정 과정의 개인 발언과 위원회 집단결정을 구분해 추가 검증한다."
+      "researchNotes": "농지개혁법 심의 당시 산업위원장으로 확인. 산업위원회 대안 작성·상정 과정의 개인 발언과 위원회 집단결정을 구분해 추가 검증한다.",
+      "evidenceDocumentIds": [
+        "d114b-01"
+      ]
     },
     {
       "id": "pol-yun-jae-geun",
@@ -574,7 +582,10 @@
         "evt-1951-national-defense-corps",
         "evt-1950-0421-acting-pm-parliament-dispute"
       ],
-      "researchNotes": "국민방위군 사건 당시 국방부 책임선에 위치. 사건의 창설·운영 부실, 대통령의 1951-01-04 조사 지시, 사임·해산을 단계별로 분리해 검증."
+      "researchNotes": "국민방위군 사건 당시 국방부 책임선에 위치. 사건의 창설·운영 부실, 대통령의 1951-01-04 조사 지시, 사임·해산을 단계별로 분리해 검증.",
+      "evidenceDocumentIds": [
+        "d114b-03"
+      ]
     },
     {
       "id": "pol-choi-duk-shin",
@@ -649,7 +660,8 @@
         "evt-1953-us-rok-mutual-defense-negotiation",
         "evt96-lim-letter-0711",
         "evt96-lim-1950-0626",
-        "evt96-lim-1950-0805"
+        "evt96-lim-1950-0805",
+        "evt-1950-0530-uncok-invitation"
       ],
       "researchNotes": "1953-05-27 휴전안 대응을 이승만에게 보고한 서한과 08-08 덜레스 최종회담 참가가 확인됨. 주유엔 대표 재임기간·외교부 직제 원문 확인 후 VERIFIED 검토.",
       "annalsFile": "data/annals/lim-byong-jik.md",
@@ -662,7 +674,8 @@
       "evidenceDocumentIds": [
         "d96-frus-236",
         "d96-lim-1950-0626",
-        "d96-lim-1950-0805"
+        "d96-lim-1950-0805",
+        "d114b-05"
       ],
       "researchUpdates": [
         {
@@ -1157,6 +1170,87 @@
         "L114-13"
       ],
       "backbone": false
+    },
+    {
+      "id": "pol-jin-heon-sik",
+      "name": "진헌식",
+      "aliases": [
+        "陳憲植",
+        "Jin Heon-sik"
+      ],
+      "roles": [
+        {
+          "period": "1950-04-21",
+          "title": "국민당 측 국무총리서리 임명에 대한 법률해석 견해"
+        }
+      ],
+      "researchStatus": "DISCOVERED",
+      "backbone": false,
+      "connections": [
+        "evt-1950-0421-acting-pm-parliament-dispute"
+      ],
+      "evidenceDocumentIds": [
+        "d114b-01"
+      ],
+      "openLeads": [
+        "국회 제헌의원 원명부·소속·생몰 대조"
+      ],
+      "lifeDatesStatus": "not verified",
+      "researchNotes": "1950-04-22 국도신문 동시대 전사. 동명이인 및 소속 원문 대조 전 승격 보류."
+    },
+    {
+      "id": "pol-kim-cheol-su-1950",
+      "name": "김철수",
+      "aliases": [
+        "金鐵洙",
+        "Kim Cheol-su"
+      ],
+      "roles": [
+        {
+          "period": "1950-04-21",
+          "title": "일민 측 총리 정식임명 견해"
+        }
+      ],
+      "researchStatus": "DISCOVERED",
+      "backbone": false,
+      "connections": [
+        "evt-1950-0421-acting-pm-parliament-dispute"
+      ],
+      "evidenceDocumentIds": [
+        "d114b-01"
+      ],
+      "openLeads": [
+        "국회 제헌의원 원명부·소속·생몰 대조"
+      ],
+      "lifeDatesStatus": "not verified",
+      "researchNotes": "1950-04-22 국도신문 동시대 전사. 동명이인 및 소속 원문 대조 전 승격 보류."
+    },
+    {
+      "id": "pol-cho-heon-yeong",
+      "name": "조헌영",
+      "aliases": [
+        "趙憲泳",
+        "Cho Heon-yeong"
+      ],
+      "roles": [
+        {
+          "period": "1950-04-21",
+          "title": "무소속 측 총리서리 임시조치 견해"
+        }
+      ],
+      "researchStatus": "DISCOVERED",
+      "backbone": false,
+      "connections": [
+        "evt-1950-0421-acting-pm-parliament-dispute"
+      ],
+      "evidenceDocumentIds": [
+        "d114b-01"
+      ],
+      "openLeads": [
+        "국회 제헌의원 원명부·소속·생몰 대조"
+      ],
+      "lifeDatesStatus": "not verified",
+      "researchNotes": "1950-04-22 국도신문 동시대 전사. 동명이인 및 소속 원문 대조 전 승격 보류."
     }
   ]
 }
