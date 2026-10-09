@@ -1,0 +1,253 @@
+{
+  "run": 120,
+  "claims": [
+    {
+      "id": "cl120-election-126-baseline",
+      "statement": "1950년 5·30 총선 무소속 당선자 수는 126명",
+      "status": "SUPPORTED",
+      "supportingEvidence": [
+        "d120-nec-1950-official",
+        "d119-nihk-election-table"
+      ],
+      "contradictingEvidence": [],
+      "insufficientEvidence": [
+        "1950-06-03 경향신문 128/130의 계산 기준 원면 미확인"
+      ],
+      "contemporaneousObservation": [],
+      "laterFinding": [
+        "d120-nec-1950-official"
+      ],
+      "finding": "선관위 공식 역사관과 국사편찬위원회 연표의 126이 일치. 신문 128/130은 contemporaneous provisional count로 별도 보존; HD-R119-01 CONFLICTED 유지",
+      "reviewHistory": [
+        {
+          "date": "2026-10-09",
+          "action": "RUN120_ADVERSARIAL_REVIEW",
+          "status": "SUPPORTED"
+        }
+      ]
+    },
+    {
+      "id": "cl120-kim-60-party",
+      "statement": "1950-06-07 김성수의 민주국민당 실질 60여명은 5·30 공천당선 60명이라는 의미",
+      "status": "CONTRADICTED",
+      "supportingEvidence": [
+        "d120-kdb-0607-kim"
+      ],
+      "contradictingEvidence": [
+        "d120-nec-1950-official"
+      ],
+      "insufficientEvidence": [],
+      "contemporaneousObservation": [
+        "d120-kdb-0607-kim"
+      ],
+      "laterFinding": [],
+      "finding": "김성수는 무소속 표방 인사를 포함한 정치적 세력 주장을 했음; 공식 당적별 당선자 24명과 다른 기준",
+      "reviewHistory": [
+        {
+          "date": "2026-10-09",
+          "action": "RUN120_ADVERSARIAL_REVIEW",
+          "status": "CONTRADICTED"
+        }
+      ]
+    },
+    {
+      "id": "cl120-board-date",
+      "statement": "1950-06-02 위원 대통령 결재 보도와 6월5일 공식 임명은 반드시 충돌한다",
+      "status": "INSUFFICIENT",
+      "supportingEvidence": [
+        "d119-dh_017_1950_06_02_0040",
+        "d120-bok-official-history"
+      ],
+      "contradictingEvidence": [],
+      "insufficientEvidence": [
+        "6월2일 결재 원부, 6월5일 임명장·관보 원면 미확보"
+      ],
+      "contemporaneousObservation": [
+        "d119-dh_017_1950_06_02_0040"
+      ],
+      "laterFinding": [
+        "d120-bok-official-history"
+      ],
+      "finding": "내신/결재와 발령/최초회의는 서로 다른 단계일 수 있음. 날짜 충돌 단정 금지",
+      "reviewHistory": [
+        {
+          "date": "2026-10-09",
+          "action": "RUN120_ADVERSARIAL_REVIEW",
+          "status": "INSUFFICIENT"
+        }
+      ]
+    },
+    {
+      "id": "cl120-bank-lee-name",
+      "statement": "1950-06-02 서울신문 李定卓과 후대 한국은행 사진 설명 이정재는 동일 인물이다",
+      "status": "CONFLICTED",
+      "supportingEvidence": [
+        "d119-dh_017_1950_06_02_0040"
+      ],
+      "contradictingEvidence": [
+        "d120-bok-official-history"
+      ],
+      "insufficientEvidence": [
+        "한국은행 1950-06-05 원 사진 뒷면 이름·임명장 원면"
+      ],
+      "contemporaneousObservation": [
+        "d119-dh_017_1950_06_02_0040"
+      ],
+      "laterFinding": [],
+      "finding": "한자·한글 인명이 상이하여 동일인 자동 병합 금지; 공식 사진 해설은 이정재로 별도 표기",
+      "reviewHistory": [
+        {
+          "date": "2026-10-09",
+          "action": "RUN120_ADVERSARIAL_REVIEW",
+          "status": "CONFLICTED"
+        }
+      ]
+    },
+    {
+      "id": "cl120-bank-deputy",
+      "statement": "1950-06-02 김도연 대리위원 보도는 6월7일 허민수 수석부총재 선임과 상충한다",
+      "status": "CONTRADICTED",
+      "supportingEvidence": [
+        "d119-dh_017_1950_06_02_0040",
+        "d120-kdb-0607-bank-appointments"
+      ],
+      "contradictingEvidence": [],
+      "insufficientEvidence": [],
+      "contemporaneousObservation": [
+        "d119-dh_017_1950_06_02_0040",
+        "d120-kdb-0607-bank-appointments"
+      ],
+      "laterFinding": [],
+      "finding": "금통위 대리위원과 한국은행 수석부총재는 다른 직위. 서로 충돌하지 않음",
+      "reviewHistory": [
+        {
+          "date": "2026-10-09",
+          "action": "RUN120_ADVERSARIAL_REVIEW",
+          "status": "CONTRADICTED"
+        }
+      ]
+    },
+    {
+      "id": "cl120-miners-wage",
+      "statement": "1950-06-07 광산노동자 체불임금은 노동조합의 일방 주장뿐이다",
+      "status": "CONTRADICTED",
+      "supportingEvidence": [
+        "d120-kdb-0607-miners",
+        "d120-kdb-0607-welfare"
+      ],
+      "contradictingEvidence": [],
+      "insufficientEvidence": [
+        "체불 임금대장·지급전표 미확보"
+      ],
+      "contemporaneousObservation": [
+        "d120-kdb-0607-miners",
+        "d120-kdb-0607-welfare"
+      ],
+      "laterFinding": [],
+      "finding": "노총의 요구와 사회부장관의 2~3개월 체불 인정이 서로 다른 당사자 계열에서 합치",
+      "reviewHistory": [
+        {
+          "date": "2026-10-09",
+          "action": "RUN120_ADVERSARIAL_REVIEW",
+          "status": "CONTRADICTED"
+        }
+      ]
+    },
+    {
+      "id": "cl120-rhee-election-clean",
+      "statement": "1950-06-07 대통령의 자유선거 성명은 선거소송이나 명부누락이 없었음을 증명한다",
+      "status": "CONTRADICTED",
+      "supportingEvidence": [
+        "d120-kdb-0607-rhee"
+      ],
+      "contradictingEvidence": [
+        "d120-kdb-0607-lawsuits"
+      ],
+      "insufficientEvidence": [],
+      "contemporaneousObservation": [
+        "d120-kdb-0607-rhee"
+      ],
+      "laterFinding": [],
+      "finding": "대통령 성명 자체가 명부누락과 당국 책임 일부 인정. 소송 제기와 선거 전체의 법적 무효는 별개",
+      "reviewHistory": [
+        {
+          "date": "2026-10-09",
+          "action": "RUN120_ADVERSARIAL_REVIEW",
+          "status": "CONTRADICTED"
+        }
+      ]
+    },
+    {
+      "id": "cl120-party-formed",
+      "statement": "1950-06-07 평민당이 공식 창당되었다",
+      "status": "INSUFFICIENT",
+      "supportingEvidence": [
+        "d120-kdb-0607-coalition"
+      ],
+      "contradictingEvidence": [],
+      "insufficientEvidence": [
+        "창당대회·당헌·정당 등록 원본 미확보"
+      ],
+      "contemporaneousObservation": [
+        "d120-kdb-0607-coalition"
+      ],
+      "laterFinding": [],
+      "finding": "7일 협의 재개와 대리참석 확인, 구체적 창당 완료 미확인",
+      "reviewHistory": [
+        {
+          "date": "2026-10-09",
+          "action": "RUN120_ADVERSARIAL_REVIEW",
+          "status": "INSUFFICIENT"
+        }
+      ]
+    },
+    {
+      "id": "cl120-welfare-wages-paid",
+      "statement": "이윤영 6월7일 기자회견은 광산 체불임금이 지급되었음을 증명한다",
+      "status": "INSUFFICIENT",
+      "supportingEvidence": [
+        "d120-kdb-0607-welfare"
+      ],
+      "contradictingEvidence": [],
+      "insufficientEvidence": [
+        "6월20일 이후 급여 지급 원부 및 상공광221 후속 통첩"
+      ],
+      "contemporaneousObservation": [
+        "d120-kdb-0607-welfare"
+      ],
+      "laterFinding": [],
+      "finding": "장관은 조속 지급 의사를 밝혔지만 지급실적 문서는 미확보",
+      "reviewHistory": [
+        {
+          "date": "2026-10-09",
+          "action": "RUN120_ADVERSARIAL_REVIEW",
+          "status": "INSUFFICIENT"
+        }
+      ]
+    },
+    {
+      "id": "cl120-austerity-enforced",
+      "statement": "사회부 3년 긴축운동 발표는 모든 소비제한이 강제 시행됐다는 증거다",
+      "status": "INSUFFICIENT",
+      "supportingEvidence": [
+        "d120-kdb-0607-austerity"
+      ],
+      "contradictingEvidence": [],
+      "insufficientEvidence": [
+        "부령/관보/지방 집행문서 미확보"
+      ],
+      "contemporaneousObservation": [
+        "d120-kdb-0607-austerity"
+      ],
+      "laterFinding": [],
+      "finding": "신문에 수록된 지침과 법적 효력·실행을 분리",
+      "reviewHistory": [
+        {
+          "date": "2026-10-09",
+          "action": "RUN120_ADVERSARIAL_REVIEW",
+          "status": "INSUFFICIENT"
+        }
+      ]
+    }
+  ]
+}
