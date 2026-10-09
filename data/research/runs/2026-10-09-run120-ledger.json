@@ -42,7 +42,8 @@
     "concreteNewLeads": 30,
     "strictThreeIndependentProvenanceBundles": 0,
     "twoOrMoreActorProvenanceCrosschecks": 2,
-    "laterSecondaryCommentaryOpened": 1
+    "laterSecondaryCommentaryOpened": 1,
+    "independentPoliticianAnnalsCreated": 2
   },
   "sourceMethod": "1950 신문 원문 디지털 전사와 원지면 이미지 구별. 한국은행 IT1233/1234는 목록 확인에 그쳐 직접 원문 개봉 수에 미포함. 기존 run119에서 연 d119 roster/NEC NIKH 중복은 신규 문서로 계상하지 않음.",
   "crosschecks": [
@@ -135,7 +136,13 @@
     "data/research/rhee-syngman-coverage-run120.json",
     "data/research/runs/2026-10-09-run120-ledger.json",
     "data/organizations/run120-june1950-institutional-actors.json",
-    "data/research/runs/2026-10-09-run120-correction-history.md"
+    "data/research/runs/2026-10-09-run120-correction-history.md",
+    "data/annals/kim-seong-su-run120.md",
+    "data/annals/lee-yun-yeong-run120.md",
+    "data/evidence/politicians/kim-seong-su-run120.json",
+    "data/evidence/politicians/lee-yun-yeong-run120.json",
+    "data/politicians/INDEX.md",
+    "data/research/ACTIVE_RESEARCH_HANDOFF.json"
   ],
   "correctionHistory": [
     {
@@ -150,5 +157,6 @@
       ],
       "priorCommit": "d9d2f2335c2b925f1d0fd9e04fc54fa8da2bdf04"
     }
-  ]
+  ],
+  "note": "No merge to main; research branch integration only."
 }

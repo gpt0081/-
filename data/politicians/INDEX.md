@@ -67,3 +67,11 @@ See `data/politicians/run113-prewar-network.json` for 12 sourced profiles. No ca
 - `data/politicians/run118-identity-corrections.json`: FRUS Kim Kyo Suk의 김교석 후보 표기를 김효석(金孝錫) 동일인 가능성으로 정정. 기존 표기 및 검증 이력 보존.
 - `data/annals/kim-tae-seon-run118.md`: 김태선(金泰善) 독립 실록. 한국학중앙연구원·서울경찰청·FRUS를 교차검증.
 - 신규 정식 registry 승격은 임명 관보 확인 전 보류.
+
+## Run120 (2026-10-09): 1950년 6월 제도·정당·노동 정치인
+
+- `data/politicians/run120-june1950-actor-overlays.json`: 동시대 자료에 역할·한자·행위가 등장한 14명 기존 ID 재사용/후보 연결. 한글·한자·로마자 동명이인 주의.
+- `data/annals/kim-seong-su-run120.md` 및 `data/evidence/politicians/kim-seong-su-run120.json`: 김성수 정당 지도부의 1950-06-07 발언과 공식 선거수치 분리.
+- `data/annals/lee-yun-yeong-run120.md` 및 `data/evidence/politicians/lee-yun-yeong-run120.json`: 이윤영 사회부장관의 광산임금 체불 인정과 노동조합 독립 자료 대조.
+- `data/organizations/run120-june1950-institutional-actors.json`: 1950년 반복 기관 stable ID overlay.
+- 생몰·관보 원면 미확보로 VERIFIED 승격 없음.

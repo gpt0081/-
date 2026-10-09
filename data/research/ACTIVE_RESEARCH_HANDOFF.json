@@ -3,65 +3,30 @@
   "project": "대한민국 역대 정치인 실록",
   "branchRef": "refs/heads/research/run89-audit-property-oversight",
   "branchHeadResolution": "READ_LIVE_REF_NOT_CACHED_SHA",
-  "lastCompletedRun": 118,
-  "latestRunReport": "data/research/runs/2026-10-09-run118-ledger.json",
-  "latestLeadQueue": "data/research/lead-queues/run118-next-a.json",
+  "lastCompletedRun": 120,
+  "latestRunReport": "data/research/runs/2026-10-09-run120-ledger.json",
+  "latestLeadQueue": "data/research/lead-queues/run120-next-primary.json",
   "latestDocumentRegistry": [
-    "data/documents/run117-civilservice-law103.json",
-    "data/documents/run117-decree277.json",
-    "data/documents/run117-secondary-refs.json",
-    "data/documents/run117-education-a.json",
-    "data/documents/run117-education-b.json",
-    "data/documents/run117-education-c.json",
-    "data/documents/run117-education-implementation-a.json",
-    "data/documents/run117-education-implementation-b.json",
-    "data/documents/run117-education-implementation-c.json"
+    "data/documents/run120-june1950-direct-audit.json"
   ],
   "latestEventOverlay": [
-    "data/events/run117-law103-actions.json",
-    "data/events/run117-decree277-actions-a.json",
-    "data/events/run117-decree277-actions-b.json",
-    "data/events/run117-decree277-actions-c.json",
-    "data/events/run117-later-judicial-finding.json",
-    "data/events/run117-education-actions.json",
-    "data/events/run117-education-actions-b.json",
-    "data/events/run117-education-implementation.json",
-    "data/events/run117-education-rhee-speech.json"
+    "data/events/run120-june1950-institutional-actions.json"
   ],
   "latestClaimOverlay": [
-    "data/claims/run117-civilservice-law103.json",
-    "data/claims/run117-decree277.json",
-    "data/claims/run117-jang-identity.json",
-    "data/claims/run117-education.json",
-    "data/claims/run117-education-b.json",
-    "data/claims/run117-education-c.json",
-    "data/claims/run117-education-implementation.json",
-    "data/claims/run117-education-rhee-speech.json",
-    "data/claims/run117-education-corrections.json"
+    "data/claims/run120-june1950-adversarial.json"
   ],
   "latestPoliticianOverlay": [
-    "data/politicians/run117-law103-actors.json",
-    "data/politicians/run117-decree277-signatories-a.json",
-    "data/politicians/run117-decree277-signatories-b.json",
-    "data/politicians/run117-decree277-signatories-c.json",
-    "data/politicians/run117-biography-verifications.json",
-    "data/politicians/run117-jang-separate-candidate.json",
-    "data/politicians/run117-education-actors.json",
-    "data/politicians/run117-baeknakjun.json"
+    "data/politicians/run120-june1950-actor-overlays.json"
   ],
   "latestDebtAddenda": [
-    "data/research/history-debt/run117-law103.md",
-    "data/research/history-debt/run117-decree277.md",
-    "data/research/history-debt/run117-education.md",
-    "data/research/history-debt/run117-education-implementation.md"
+    "data/research/history-debt/run120-june1950-audit.md"
   ],
   "latestAnnals": [
-    "data/annals/cho-heon-yeong-lee-sang-don-run117.md",
-    "data/annals/rhee-syngman-run117-decree277.md",
-    "data/annals/rhee-syngman-run117-education.md",
-    "data/annals/rhee-syngman-run117-education-implementation.md"
+    "data/annals/kim-seong-su-run120.md",
+    "data/annals/lee-yun-yeong-run120.md",
+    "data/annals/june1950-institutional-cross-annals-run120.md"
   ],
-  "next": "최우선: 1950-06-01 白문교장관=백낙준 귀속 관보 원면 확인, 이승만 1950-06-01 미국 채무자금 교육비 전용 주장 FRUS 교차검증, 법률103호 국어/외국어 충돌, 대통령령337호 제정일, 1950-02-10 국회 원속기록.",
+  "next": "Read run120 ledger and activeQueue first. Highest priorities: BOK IT1233/IT1234 original PDFs; 1950-06-02 vs 06-05 presidential appointment documents; election 126 vs 128/130 original returns; miner wage arrears/appropriation ledgers; 1950-06-07 Supreme Court election cases. Do not merge identities without original records.",
   "flootUntouched": true,
   "latestFileIndex": "data/research/runs/run110-file-index.json",
   "latestExtension": "data/research/runs/2026-10-09-run113-extension.json",
@@ -74,10 +39,11 @@
   ],
   "latestCoverageOverlays": [
     "data/research/rhee-syngman-coverage-run117.json",
-    "data/research/rhee-syngman-coverage-run118.json"
+    "data/research/rhee-syngman-coverage-run118.json",
+    "data/research/rhee-syngman-coverage-run120.json"
   ],
-  "latestRun": 118,
-  "latestRunLedger": "data/research/runs/2026-10-09-run118-ledger.json",
+  "latestRun": 120,
+  "latestRunLedger": "data/research/runs/2026-10-09-run120-ledger.json",
   "latestLeadAddendum": "data/research/lead-queues/run115-addendum.json",
   "latestFinalAddendum": "data/research/runs/2026-10-09-run115-final-addendum.json",
   "latestLeadFinalAddendum": "data/research/lead-queues/run115-press-addendum.json",
@@ -111,5 +77,15 @@
     "historyDebt": "data/research/history-debt/run118-aid-election.md",
     "coverage": "data/research/rhee-syngman-coverage-run118.json",
     "warning": "40 opened source pages; only 14 close-read. New candidate identity verification and Congressional Record original outstanding. Read live branch ref before next write."
+  },
+  "run120": {
+    "branch": "research/run89-audit-property-oversight",
+    "commits": [
+      "d9d2f2335c2b925f1d0fd9e04fc54fa8da2bdf04",
+      "56b3c100f812e87f36023f66a9d2f0e2a48cd627"
+    ],
+    "status": "RESEARCHED_INTEGRATED_ON_BRANCH_NOT_MERGED_TO_MAIN",
+    "flootUntouched": true,
+    "weeklyFullDebtReview": "NOT_PERFORMED_FRIDAY"
   }
 }
