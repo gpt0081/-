@@ -1,0 +1,33 @@
+{
+  "run": 132,
+  "claims": [
+    {
+      "id": "clm-r132-election-period",
+      "claim": "1952 선거운동기간 8일이라는 경찰박물관 설명과 법정 선거기간 19일은 반드시 충돌한다",
+      "status": "INSUFFICIENT",
+      "supportingEvidence": [
+        "d132-police-museum-1952-election",
+        "d132-law247"
+      ],
+      "analysis": "선거운동기간·공고~투표 법정 선거기간은 정의가 다름. 령660 원문 필요."
+    },
+    {
+      "id": "clm-r132-police-booklet-fraud",
+      "claim": "경찰서 선거독려 현수막과 치안국 선거법 책자만으로 특정 후보를 위한 불법 선거조작을 확정할 수 있다",
+      "status": "INSUFFICIENT",
+      "limitingEvidence": [
+        "d132-police-museum-1952-election"
+      ],
+      "analysis": "공공기관 선거행정·홍보 사실과 특정 후보 유리 집행·위법성 판단 분리."
+    },
+    {
+      "id": "clm-r132-vice-winner",
+      "claim": "1952-08-05 부통령 당선인은 자유당 이범석이었다",
+      "status": "CONTRADICTED",
+      "contradictingEvidence": [
+        "d132-police-museum-1952-election"
+      ],
+      "finding": "무소속 함태영이 유효표 41.3%로 당선."
+    }
+  ]
+}

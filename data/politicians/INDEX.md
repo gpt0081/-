@@ -110,3 +110,7 @@ See `data/politicians/run113-prewar-network.json` for 12 sourced profiles. No ca
 ## Run132 후속 농정·지방행정 관료 5명
 
 `data/politicians/run132-agriculture-bureaucrats.json`: 강정택·정구흥·채병석 중앙농업기술원장 재임기간을 국가기록원 기관연혁으로 연결. `data/politicians/run132-jeonbuk-governors.json`: 이성득·이요한 전북도지사 관선 임기와 1952-07-03 민방위행정 사건 연결. 전원 IDENTIFIED, 생몰·한자·임면관보 미확보로 정식 registry 승격 없음.
+
+## Run132 1952 정부통령선거 후보 네트워크
+
+`data/politicians/run132-election-presidential-candidates.json`, `run132-election-vice-a.json`, `run132-election-vice-b.json`, `run132-election-vice-c.json`: 경찰박물관 공식 유물해제에 실명·소속 확인된 대통령 후보 3명(이승만 제외)·부통령 후보 9명. 기존 조봉암·이범석·조병옥 stable ID는 evidence overlay, 그 밖은 IDENTIFIED 후보로만 유지. 1952 이범석 중복 ID `pol-lee-beom-seok`·`pol-lee-beom-seok-1900`은 원인 검증 전 병합 금지.
