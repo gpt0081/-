@@ -3,9 +3,14 @@
   "project": "대한민국 역대 정치인 실록",
   "branchRef": "refs/heads/research/run89-audit-property-oversight",
   "branchHeadResolution": "READ_LIVE_REF_NOT_CACHED_SHA",
-  "lastCompletedRun": 121,
-  "latestRunReport": "data/research/runs/2026-10-09-run120-ledger.json",
-  "latestLeadQueue": "data/research/lead-queues/run121-bok-originals-next.json",
+  "lastCompletedRun": 122,
+  "latestRunReport": "data/research/runs/2026-10-09-run122-ledger.json",
+  "latestLeadQueue": [
+    "data/research/lead-queues/run122-1954-originals-a.json",
+    "data/research/lead-queues/run122-1954-originals-b.json",
+    "data/research/lead-queues/run122-1954-originals-c.json",
+    "data/research/lead-queues/run122-1954-originals-d.json"
+  ],
   "latestDocumentRegistry": [
     "data/documents/run120-june1950-direct-audit.json"
   ],
@@ -89,5 +94,16 @@
     "weeklyFullDebtReview": "NOT_PERFORMED_FRIDAY",
     "metricCorrection": "9 genuinely independent lines, 19 subtopics; do not report 19 as independent"
   },
-  "latestClaimCorrection": "data/claims/run121b-vote-date-conflict.json"
+  "latestClaimCorrection": "data/claims/run121b-vote-date-conflict.json",
+  "latestRun122": {
+    "documents": "data/documents/run122-1954-constitutional-source-audit.json",
+    "claims": "data/claims/run122-1954-constitutional-source-conflicts.json",
+    "debt": "data/research/history-debt/run122-1954-source-conflicts.md",
+    "candidates": "data/research/candidates/run122-1954-january-ministers.json",
+    "events": [
+      "data/events/run122-1954-constitutional-actions.json",
+      "data/events/run122-1954-parliament-actions.json"
+    ],
+    "next": "Read 1954-11-27 and 11-29 Assembly originals and 1950 Bank Act original stenogram. Resolve 202/203 and 11/19/11/29 source conflicts."
+  }
 }
