@@ -6,6 +6,7 @@
   "lastCompletedRun": 123,
   "latestRunReport": "data/research/runs/2026-10-09-run123-ledger.json",
   "latestLeadQueue": [
+    "data/research/lead-queues/run123b-un-originals.json",
     "data/research/lead-queues/run123-aprmay1950-originals.json",
     "data/research/lead-queues/run122-1954-originals-a.json",
     "data/research/lead-queues/run122-1954-originals-b.json",
@@ -117,5 +118,14 @@
     "debt": "data/research/history-debt/run123-april1950.md",
     "next": "1950-04-10 제72차 국회 원속기록, 1950-05-02 경찰인사 원부, 1954 개헌 원표결",
     "flootUntouched": true
+  },
+  "run123b": {
+    "ledger": "data/research/runs/2026-10-09-run123b-ledger.json",
+    "documents": "data/documents/run123b-election-monitoring.json",
+    "claims": "data/claims/run123b-election-count-conflict.json",
+    "events": "data/events/run123b-election-observation.json",
+    "leads": "data/research/lead-queues/run123b-un-originals.json",
+    "priority": "UN A/1350 p23-25 직접 검증: 133 vs 선관위 126",
+    "commit": "f839c705ebade1030e8921744a52a33157829d4d"
   }
 }
