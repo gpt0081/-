@@ -1,0 +1,39 @@
+{
+  "run": 132,
+  "claims": [
+    {
+      "id": "clm-r132-senate-legal-vacuum",
+      "claim": "1952년 참의원이 없었으므로 법률247의 참의원의장 직무는 법적 대행 근거가 없었다",
+      "status": "CONTRADICTED",
+      "contradictingEvidence": [
+        "d132-const2",
+        "d132-law247"
+      ],
+      "laterFinding": [
+        "d132-aks-senate"
+      ],
+      "openQuestion": "1952-08-05 실제 공고자 서명원본"
+    },
+    {
+      "id": "clm-r132-law247-versus-bill",
+      "claim": "1952-07-07 정부안 106조는 7월18일 그대로 공포되었다",
+      "status": "CONTRADICTED_AS_TO_ARTICLE_COUNT",
+      "supportingEvidence": [
+        "d131-0707-0050"
+      ],
+      "contradictingEvidence": [
+        "d132-law247"
+      ],
+      "openQuestion": "106조 정부안과 102조 공포법의 실제 수정 조문 대조"
+    },
+    {
+      "id": "clm-r132-1963-retrojection",
+      "claim": "1963 선거법의 20세 선거권은 1952 법률247에도 있었다",
+      "status": "CONTRADICTED",
+      "contradictingEvidence": [
+        "d132-law247"
+      ],
+      "finding": "1952 법247 제1조는 만21세"
+    }
+  ]
+}
