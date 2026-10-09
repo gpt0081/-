@@ -1,0 +1,40 @@
+{
+  "run": 132,
+  "claims": [
+    {
+      "id": "clm-r132-bank-1952-exists",
+      "claim": "1952-07 산업은행 전환 준비 보도는 산업은행법이 이미 제정·시행되었음을 뜻한다",
+      "status": "CONTRADICTED",
+      "supportingEvidence": [
+        "d131-0701-0050"
+      ],
+      "contradictingEvidence": [
+        "d132-bank302",
+        "d132-bank-archive-history"
+      ],
+      "analysis": "1952 준비/1953 법302 제정/1954 시행령/1954 발족은 별도 시점."
+    },
+    {
+      "id": "clm-r132-bank-direct-command",
+      "claim": "산업은행 설립위원 9인은 대통령이 직접 선발·집행했다",
+      "status": "INSUFFICIENT",
+      "supportingEvidence": [],
+      "limitingEvidence": [
+        "d132-bank302",
+        "d132-bank860"
+      ],
+      "analysis": "법302 제55조 및 령860 제2~3조는 재무부장관과 설립위원회의 권한을 구분. 실제 임명원부·내각 의사록 필요."
+    },
+    {
+      "id": "clm-r132-bank-capital-currency",
+      "claim": "1953 법302의 자본금 4억환과 1954 후대 해제의 출자금 1,000만원은 동일 수치다",
+      "status": "INSUFFICIENT",
+      "supportingEvidence": [],
+      "contradictingOrLimitingEvidence": [
+        "d132-bank302",
+        "d132-bank-archive-history"
+      ],
+      "analysis": "법정 자본금·최초 납입액·화폐 단위와 환산을 구분; 동일시 금지."
+    }
+  ]
+}
