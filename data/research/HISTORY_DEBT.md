@@ -354,3 +354,7 @@ run110d 신규 6건: `data/research/history-debt/run110-addendum.md`. `HD-RHEE-1
 - `HD-R129-CULTURE` NARROWED: 1952-06-11 문교부 불출석으로 심의 지연됐으나 7/21 국회 통과 동아일보 보도, 8/7 법률 제248호 제정 국가법령정보센터 확인. 7/21 원속기록·8/7 관보 원면 필요.
 - `HD-R129-MINISTER-IDENTITY` CONFLICTED: 1952-06-21 법무장관 徐相權(국회 속기록) vs 7/7 徐相懽(관보). 임면 관보 확인 전 자동 병합 금지.
 - `HD-R129-GAZETTE` NARROWED: 관보 제688호 공포문 직접 열람, 양원 모두 국민 선거 규정 확인. 6/21 정부안 일부 관선 상원과 구분.
+
+## 2026-10-10 run132 법제·산업금융 개별 역사부채 (주간 전수조사 아님)
+
+기존 lead 8개 추적: `data/research/history-debt/run132-lead-followups.md`; 신규 쟁점: `data/research/history-debt/run132-new.md`. 참의원의장 법적 대행은 헌법 제2호 부칙으로 좁혀졌으나 실제 공고서명 미확보. 법302 자본금·초기 납입액·화폐단위 검증 보류. **역사부채 주간 전수조사 미실시.** `last_full_review` 불변.

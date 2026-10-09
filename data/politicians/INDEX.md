@@ -102,3 +102,7 @@ See `data/politicians/run113-prewar-network.json` for 12 sourced profiles. No ca
 - `data/documents/run129-new-primary-and-crossfamily.json`: 1952-07-07 관보 제688호, 1952-08-07 문화보호법 법률 제248호, 1952-06-12 FRUS, 동시대 신문 2건.
 - `data/politicians/run129-minister-identity-conflict.json`: 법무장관 徐相權(국회 6/21) vs 徐相懽(관보 7/7) 원표기 충돌. canonical ID 확정 금지.
 - `data/research/runs/run129-correction-addendum.md`: 6월11일 심의지연 뒤 7월21일 문화보호법 통과 및 8월7일 제정 확인, 원문 근거 보존.
+
+## Run132 (2026-10-10) · 1951 정부개헌안 발기자와 1952 선거법 대조
+
+`data/politicians/run132-cabinet-amendment-actors.json`: 허정·이순용·조진만 후보 3명(IDENTIFIED), 변영태·이기붕·백두진 기존 stable ID 3명에 1951-11-30 관보 제562호 정부개헌안 발기자 연결. 한자·생몰·서명 원면 미확보로 정식 승격 없음. 1952 법247 발의자와 동일시하지 않는다.
