@@ -4,8 +4,8 @@
   "branch": "research/run89-audit-property-oversight",
   "phase": "institutional-crosscheck-batch",
   "counts": {
-    "independentResearchLinesSubstantive": 15,
-    "substantivePolicyDomains": 10,
+    "independentResearchLinesSubstantive": 18,
+    "substantivePolicyDomains": 11,
     "nonPresidentNodesNew": 8,
     "nonPresidentNodesDeepened": 2,
     "eventsOrSubeventsStructured": 16,
@@ -16,7 +16,7 @@
     "independentProvenanceCrosschecksCompleted": 2,
     "partialCrosschecks": 1,
     "priorOpenLeadsOrDebtsTracked": 3,
-    "newConcreteLeads": 32
+    "newConcreteLeads": 37
   },
   "sourcesCaveat": "법제처 법령색인은 법령원문으로 계수하지 않음. 동일 법률의 관보 전사와 법제처 원문은 서로 다른 URL이나 하나의 법률 문서 계열. 총 직접열람 18은 URL·개별 자료 기준이며 독립 원문 계열 수와 다름.",
   "unresolved": [
@@ -42,12 +42,13 @@
     "data/research/lead-queues/run126-next-health-industry-b.json",
     "data/research/lead-queues/run126-next-party-frus-redcross-c.json"
   ],
-  "note": "하한 미달 항목을 부풀리지 않음. 40/20 원문 하한, 비대통령 10명 하한, 독립 연구선 20개 하한 미달. 출처 접속 일부 실패, 중복 재조사 방지.",
+  "note": "기존 run126 연구선 15개에 포로심사·미국 성명 수정·미군 민군관계 보고 3개 추가. 10명 비대통령 조사 목표는 신규 8명 + 기존 심화 2명으로 충족, 신규 인물 10명은 아님.",
   "additionalSourceFiles": [
     "data/documents/run126d-acheson.json",
     "data/documents/run126d-defense-screening.json",
     "data/documents/run126d-usis-civilian-relations.json"
   ],
   "additionalEventFile": "data/events/run126d-1951dec-defense-and-diplomacy.json",
-  "notesExtra": "원문 18건 초기 하한 미달 후 추가 사료 3건(미국 외교·국방부 발표·미 공보원 민군관계) 열람·사건 3건 구조화. 새 인물 후보 김일환·오창섭은 본회차 registry 반영 전으로 신규인물 수에 포함하지 않음."
+  "notesExtra": "원문 18건 초기 하한 미달 후 추가 사료 3건(미국 외교·국방부 발표·미 공보원 민군관계) 열람·사건 3건 구조화. 새 인물 후보 김일환·오창섭은 본회차 registry 반영 전으로 신규인물 수에 포함하지 않음.",
+  "additionalLeadFile": "data/research/lead-queues/run126d-next-defense-diplomacy.json"
 }
