@@ -86,3 +86,7 @@ See `data/politicians/run113-prewar-network.json` for 12 sourced profiles. No ca
 - `data/politicians/run124c-party-military-actors-a.json`: 이활·이종찬, `run124c-police-secretariat-actors-b.json`: 김종삼·고재봉. 1951년 동시대 원문에 등장한 교섭·군사·경찰·비서 역할을 독립 IDENTIFIED 후보로 보존.
 - `data/politicians/run124-kim-yong-u.json`: 1951-12-21 귀속재산처리법 심의보류 동의 90:0 기록을 추가. 정부안 통과로 오인 금지.
 - 1951-12-21 정부안에 반대한 6명은 `d124d-0170` 원문에 기록. 의원등록원부·동명이인 대조 후 독립 후보 승격 검토.
+
+## 2026-10-09 run127 인물망
+
+`data/politicians/run127-civil-cabinet-network.json`: 선전대책위원회 차관급 12명과 이교선·정순조·김두한 3명 후보 IDENTIFIED, 기존 전진한·윤치영·김용택 3명 심화. 관보·생몰 미검증으로 canonical 승격 보류.
