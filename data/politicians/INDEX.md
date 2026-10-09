@@ -80,3 +80,9 @@ See `data/politicians/run113-prewar-network.json` for 12 sourced profiles. No ca
 
 - `data/politicians/run124-1951-party-actor-index.json` 및 `run124-1951-party-actors-c/d/e/g.json`, `run124-yang-u-jeong.json`, `run124-kim-yong-u.json`, `run124-im-yeong-sin.json`: 1950년 후대 당선자 목록과 1951년 당대 창당 보도에 연결한 비대통령 인물 12명(IDENTIFIED). 생몰·당적 원부 미확보로 VERIFIED 승격 없음.
 - `data/annals/1951-liberty-two-foundings-run124.md`: 1950년 당적 소급 오류와 원내·원외 조직 혼동을 방지하는 실록.
+
+## Run124c/d 후속 인물·행위 (2026-10-09)
+
+- `data/politicians/run124c-party-military-actors-a.json`: 이활·이종찬, `run124c-police-secretariat-actors-b.json`: 김종삼·고재봉. 1951년 동시대 원문에 등장한 교섭·군사·경찰·비서 역할을 독립 IDENTIFIED 후보로 보존.
+- `data/politicians/run124-kim-yong-u.json`: 1951-12-21 귀속재산처리법 심의보류 동의 90:0 기록을 추가. 정부안 통과로 오인 금지.
+- 1951-12-21 정부안에 반대한 6명은 `d124d-0170` 원문에 기록. 의원등록원부·동명이인 대조 후 독립 후보 승격 검토.

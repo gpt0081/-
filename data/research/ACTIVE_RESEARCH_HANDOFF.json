@@ -4,7 +4,7 @@
   "branchRef": "refs/heads/research/run89-audit-property-oversight",
   "branchHeadResolution": "READ_LIVE_REF_NOT_CACHED_SHA",
   "lastCompletedRun": 124,
-  "latestRunReport": "data/research/runs/2026-10-09-run124-ledger.json",
+  "latestRunReport": "data/research/runs/2026-10-09-run124-final-ledger.json",
   "latestLeadQueue": [
     "data/research/lead-queues/run124-next-a-party-originals.json",
     "data/research/lead-queues/run124-next-b-election-un.json",
@@ -52,7 +52,7 @@
     "data/research/rhee-syngman-coverage-run124.json"
   ],
   "latestRun": 124,
-  "latestRunLedger": "data/research/runs/2026-10-09-run124-ledger.json",
+  "latestRunLedger": "data/research/runs/2026-10-09-run124-final-ledger.json",
   "latestLeadAddendum": "data/research/lead-queues/run115-addendum.json",
   "latestFinalAddendum": "data/research/runs/2026-10-09-run115-final-addendum.json",
   "latestLeadFinalAddendum": "data/research/lead-queues/run115-press-addendum.json",
@@ -131,8 +131,8 @@
     "commit": "f839c705ebade1030e8921744a52a33157829d4d"
   },
   "run124": {
-    "ledger": "data/research/runs/2026-10-09-run124-ledger.json",
-    "sourceAudit": "data/research/runs/2026-10-09-run124-source-access-audit.json",
+    "ledger": "data/research/runs/2026-10-09-run124-final-ledger.json",
+    "sourceAudit": "data/research/runs/2026-10-09-run124-final-source-audit.json",
     "partyNodes": "data/politicians/INDEX.md",
     "events": [
       "data/events/run124-1951-party-foundings.json",
@@ -146,6 +146,15 @@
     ],
     "priority": "UN A/1350 pp23-25, 1951 자유당 등록원부, 1954-11-27 원표결, 1951-02-26 총리연설 원면",
     "flootUntouched": true,
-    "weeklyHistoryDebtFullReview": "NOT_PERFORMED_FRIDAY"
+    "weeklyHistoryDebtFullReview": "NOT_PERFORMED_FRIDAY",
+    "additionalLeadQueues": [
+      "run124c-next-e-government-originals.json",
+      "run124c-next-f-welfare-agriculture.json",
+      "run124c-next-g-justice-foreign.json",
+      "run124c-next-h-fiscal-source-dates.json",
+      "run124d-next-i-1951-originals.json",
+      "run124d-next-j-1951-assembly-security.json"
+    ],
+    "newLeads": 62
   }
 }
