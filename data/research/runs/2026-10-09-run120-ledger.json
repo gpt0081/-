@@ -27,7 +27,7 @@
     "평양방송 남북정당회의 제안"
   ],
   "counts": {
-    "independentResearchLines": 19,
+    "independentResearchLines": 9,
     "domainsStrengthened": 9,
     "nonPresidentPeopleEvidenceDeepened": 14,
     "verifiedPromotions": 0,
@@ -43,7 +43,9 @@
     "strictThreeIndependentProvenanceBundles": 0,
     "twoOrMoreActorProvenanceCrosschecks": 2,
     "laterSecondaryCommentaryOpened": 1,
-    "independentPoliticianAnnalsCreated": 2
+    "independentPoliticianAnnalsCreated": 2,
+    "researchSubtopics": 19,
+    "independentResearchLinesCountingRule": "중앙은행, 선거집계, 선거소송, 정당재편, 광산노동, 산업재정, 소비정책, 지방재산행정, 남북회담제안 등 실질 독립 문제축 9개. 19개는 동일 문제축 내 하위질문 포함."
   },
   "sourceMethod": "1950 신문 원문 디지털 전사와 원지면 이미지 구별. 한국은행 IT1233/1234는 목록 확인에 그쳐 직접 원문 개봉 수에 미포함. 기존 run119에서 연 d119 roster/NEC NIKH 중복은 신규 문서로 계상하지 않음.",
   "crosschecks": [
@@ -123,7 +125,8 @@
     "20 independent research lines target unmet by one",
     "Original gazette, election returns and Bank of Korea original PDFs not directly opened",
     "Biographical dates unverified; no VERIFIED promotion",
-    "Three strictly independent primary provenance families for one claim not achieved"
+    "Three strictly independent primary provenance families for one claim not achieved",
+    "초기 19개 독립 연구선 표기는 하위질문 혼입으로 과대계상; 보수적 9개로 정정."
   ],
   "files": [
     "data/documents/run120-june1950-direct-audit.json",
@@ -156,6 +159,13 @@
         "bank name contradiction linked to actual BOK editorial photo caption"
       ],
       "priorCommit": "d9d2f2335c2b925f1d0fd9e04fc54fa8da2bdf04"
+    },
+    {
+      "date": "2026-10-09",
+      "type": "METRIC_DEDUPLICATION",
+      "before": 19,
+      "after": 9,
+      "reason": "Same thematic chain was split into several subtopics; independent lines must be deduplicated"
     }
   ],
   "note": "No merge to main; research branch integration only."

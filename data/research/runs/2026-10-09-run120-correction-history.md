@@ -10,3 +10,5 @@
 6. 위원회·노총·사회부·관재국·북측 단체·UNCOK의 반복 등장 기관을 `org120-*` stable ID로 등록. 단, 동시대 법적 기관의 실제 동일성은 계속 검증.
 
 관련: `data/documents/run120-june1950-direct-audit.json`, `data/claims/run120-june1950-adversarial.json`, `data/events/run120-june1950-institutional-actions.json`.
+
+7. **계량 감사**: 초기 '독립 연구선 19'는 금융통화위·선거·광산노동 내부 세부질문을 중복 계산한 값이다. **독립 연구선 9개, 하위질문 19개**로 정정한다. 사용자 요구의 최소 20개 미달을 그대로 보고한다.
