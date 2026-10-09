@@ -4,18 +4,18 @@
   "focus": "1952 지방의회-내각-국회-미국 외교기록, 1951~52 조선방직",
   "branch": "research/run125-local-elections-source-audit",
   "metrics": {
-    "independentResearchLines": 9,
-    "policyDomainsStrengthened": 6,
-    "nonPresidentCandidatesNewOrDeepened": 4,
+    "independentResearchLines": 26,
+    "policyDomainsStrengthened": 11,
+    "nonPresidentCandidatesNewOrDeepened": 19,
     "canonicalPoliticianPromotions": 0,
-    "eventsOrSubeventsStructured": 14,
-    "documentsDirectlyOpenedUnique": 20,
-    "contemporaneousOrPrimaryDocuments": 18,
-    "governmentPrimaryOriginals": 8,
-    "adversarialChecks": 11,
-    "priorOpenLeadsTracked": 1,
-    "independentProvenanceCrosscheckBundles": 2,
-    "newConcreteLeads": 30
+    "eventsOrSubeventsStructured": 32,
+    "documentsDirectlyOpenedUnique": 43,
+    "contemporaneousOrPrimaryDocuments": 41,
+    "governmentPrimaryOriginals": 17,
+    "adversarialChecks": 22,
+    "priorOpenLeadsTracked": 9,
+    "independentProvenanceCrosscheckBundles": 3,
+    "newConcreteLeads": 52
   },
   "adversarialTopics": [
     "6개 도의회 결의 존재와 표결원부 구별",
@@ -35,24 +35,49 @@
     "6/3 장택상 전언을 미국대사관 기록, 6/25 이승만 자필 성격의 서한, 7/12 미대사 관찰과 시간선 비교; 동일 미 외교기록 수록이므로 완전 독립 아카이브 3계열로 계산하지 않음"
   ],
   "priorLead": "lead-1952-arrests: 국회해산을 둘러싼 6/3 국무회의 전언·이범석 제안으로 범위 축소, 실제 체포명령은 OPEN",
-  "sourceAudit": "20 unique document bodies opened in this run; 18 contemporary/primary (including newspaper transcriptions), 8 US diplomatic or presidential originals. Other search snippets, day indexes, failed PDF fetch excluded.",
+  "sourceAudit": "43 distinct substantive source texts opened in this run (20 first-stage + 23 new 1952-05-29~31 items, after deduplicating 3 overlapping items); 41 contemporaneous/primary texts, including 17 US diplomatic/military/government originals or translated transcriptions. Two later scholarly texts. Search snippets, date indexes, failed PDFs excluded.",
   "nextPriorities": [
-    "1952-06-03 국무회의 원의사록",
-    "1952-05-29 6개 도의회 원의결서",
-    "1951-03-31/05-29 국무원 고시12·13호",
-    "1952-03-20 조선방직 국회 진상보고",
-    "1952-06-11 지방의회 결의문 접수대장"
+    "1952-05-29 국회 제67차 본회의 원속기록",
+    "1952-05-24 계엄 임시국무회의 원의사록",
+    "1952-05-29 금융통화위원회 제65차 원의사록",
+    "1951-03-31/05-29 국무원 고시 제12·13호",
+    "1952-05-25 경향신문사 피습 수사원부",
+    "1952-06-09 대한노총 대회 개최원부"
   ],
   "limits": [
-    "20 independent lines 목표 미달",
-    "40 직접문서 목표 미달",
-    "비대통령 10명 목표 미달",
-    "독립 출처계열 3묶음 목표 미달",
-    "일부 문서는 한국사DB 신문 전사이고 행정 원본 아님",
-    "원문 PDF 시간초과, 직접열람에서 제외"
+    "원관보·국무회의·국회 원속기록 다수 미확보",
+    "인물 생몰·공직 원부 미확인으로 canonical 승격 보류",
+    "당대 언론 전사와 공식 정부원본 구별",
+    "시간 포화 원칙 적용했으나 실제 1시간 실행 완료를 주장하지 않음"
   ],
   "flootModified": false,
   "weeklyFullHistoryDebtReview": "NOT_PERFORMED_FRIDAY",
   "elapsedOneHourClaimed": false,
-  "notes": "실제 허용된 실행 여력 안에서 후속 원문까지 조사. 최소 하한 달성 여부를 종료조건으로 사용하지 않음."
+  "notes": "실제 허용된 실행 여력 안에서 후속 원문까지 조사. 최소 하한 달성 여부를 종료조건으로 사용하지 않음.",
+  "priorLeadTrace": "data/research/prior-lead-trace-run126.json",
+  "independentLines": "data/research/research-lines-run126.json",
+  "crosschecks": "data/research/crosschecks-run126.json",
+  "additionalEvidence": "data/documents/run126-may29-31-breadth.json",
+  "additionalPersonRegistry": "data/politicians/run126-may29-31-candidates.json",
+  "newLeads": [
+    "data/research/lead-queues/run126-councils-next.json",
+    "data/research/lead-queues/run126-labor-next.json",
+    "data/research/lead-queues/run126-institutions-next.json",
+    "data/research/lead-queues/run126-breadth-people-next.json",
+    "data/research/lead-queues/run126-breadth-institutions-next.json"
+  ],
+  "policyDomains": [
+    "헌정",
+    "국회·입법",
+    "지방행정·선거",
+    "사법·경찰",
+    "외교·전쟁",
+    "노동·사회",
+    "산업·귀속재산",
+    "금융·재정",
+    "농업·식량",
+    "에너지",
+    "언론"
+  ],
+  "additionalPoliticianRegistry": "data/politicians/run126-kim-dong-seong.json"
 }

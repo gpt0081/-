@@ -1,40 +1,51 @@
 {
   "updated": "2026-10-09",
   "project": "대한민국 역대 정치인 실록",
-  "branchRef": "refs/heads/research/run89-audit-property-oversight",
+  "branchRef": "refs/heads/research/run125-local-elections-source-audit",
   "branchHeadResolution": "READ_LIVE_REF_NOT_CACHED_SHA",
-  "lastCompletedRun": 124,
-  "latestRunReport": "data/research/runs/2026-10-09-run124-final-ledger.json",
+  "lastCompletedRun": 126,
+  "latestRunReport": "data/research/runs/2026-10-09-run126-final-ledger.json",
   "latestLeadQueue": [
-    "data/research/lead-queues/run124-next-a-party-originals.json",
-    "data/research/lead-queues/run124-next-b-election-un.json",
-    "data/research/lead-queues/run124-next-c-bank-agriculture.json",
-    "data/research/lead-queues/run124-next-d-relief-constitution.json"
+    "data/research/lead-queues/run126-councils-next.json",
+    "data/research/lead-queues/run126-labor-next.json",
+    "data/research/lead-queues/run126-institutions-next.json",
+    "data/research/lead-queues/run126-breadth-people-next.json",
+    "data/research/lead-queues/run126-breadth-institutions-next.json"
   ],
   "latestDocumentRegistry": [
-    "data/documents/run120-june1950-direct-audit.json"
+    "data/documents/run126-councils.json",
+    "data/documents/run126-labor.json",
+    "data/documents/run126-councils-followup.json",
+    "data/documents/run126-may29-31-breadth.json"
   ],
   "latestEventOverlay": [
-    "data/events/run120-june1950-institutional-actions.json"
+    "data/events/run126-councils.json",
+    "data/events/run126-labor.json",
+    "data/events/run126-councils-followup.json",
+    "data/events/run126-may29-31-breadth.json"
   ],
   "latestClaimOverlay": [
-    "data/claims/run120-june1950-adversarial.json"
+    "data/claims/run126-councils.json",
+    "data/claims/run126-labor.json",
+    "data/claims/run126-councils-followup.json",
+    "data/claims/run126-may29-31-breadth.json"
   ],
   "latestPoliticianOverlay": [
-    "data/politicians/run120-june1950-actor-overlays.json"
+    "data/politicians/run126-councils.json",
+    "data/politicians/run126-labor.json",
+    "data/politicians/run126-may29-31-candidates.json"
   ],
   "latestDebtAddenda": [
-    "data/research/history-debt/run120-june1950-audit.md",
-    "data/research/history-debt/run124-party-statistics-1954.md"
+    "data/research/history-debt/run126-councils.md",
+    "data/research/history-debt/run126-labor.md",
+    "data/research/history-debt/run126-breadth.md"
   ],
   "latestAnnals": [
-    "data/annals/kim-seong-su-run120.md",
-    "data/annals/lee-yun-yeong-run120.md",
-    "data/annals/june1950-institutional-cross-annals-run120.md",
-    "data/annals/1951-liberty-two-foundings-run124.md",
-    "data/annals/1951-war-government-policy-run124.md"
+    "data/annals/1952-councils-run126.md",
+    "data/annals/1951-1952-textile-run126.md",
+    "data/annals/1952-may29-31-institutions-run126.md"
   ],
-  "next": "UN A/1350 pp23-25, 1951 자유당 등록원부, 1954-11-27 원표결, 1951-02-26 총리연설 원면",
+  "next": "1952-05-29 국회 제67차 원속기록; 1952-05-24~25 계엄 국무회의 원의사록; 한국은행 1952-05-29 제65차 금융통화위원회; 조방 1951 국무원 고시12·13호; 1952-06-09 대한노총 대회 원부",
   "flootUntouched": true,
   "latestFileIndex": "data/research/runs/run110-file-index.json",
   "latestExtension": "data/research/runs/2026-10-09-run113-extension.json",
@@ -49,10 +60,13 @@
     "data/research/rhee-syngman-coverage-run117.json",
     "data/research/rhee-syngman-coverage-run118.json",
     "data/research/rhee-syngman-coverage-run120.json",
-    "data/research/rhee-syngman-coverage-run124.json"
+    "data/research/rhee-syngman-coverage-run124.json",
+    "data/research/rhee-syngman-coverage-run126.json",
+    "data/research/rhee-syngman-coverage-run126-b.json",
+    "data/research/rhee-syngman-coverage-run126-d.json"
   ],
-  "latestRun": 124,
-  "latestRunLedger": "data/research/runs/2026-10-09-run124-final-ledger.json",
+  "latestRun": 126,
+  "latestRunLedger": "data/research/runs/2026-10-09-run126-final-ledger.json",
   "latestLeadAddendum": "data/research/lead-queues/run115-addendum.json",
   "latestFinalAddendum": "data/research/runs/2026-10-09-run115-final-addendum.json",
   "latestLeadFinalAddendum": "data/research/lead-queues/run115-press-addendum.json",
@@ -156,5 +170,20 @@
       "run124d-next-j-1951-assembly-security.json"
     ],
     "newLeads": 62
+  },
+  "run126": {
+    "metrics": {
+      "directDocuments": 43,
+      "contemporaneous": 41,
+      "officialOriginals": 17,
+      "researchLines": 26,
+      "nonPresidents": 19,
+      "events": 32,
+      "leads": 52,
+      "priorLeads": 9
+    },
+    "weeklyFullReview": false,
+    "flootUntouched": true,
+    "sourceAudit": "data/research/runs/2026-10-09-run126-final-ledger.json"
   }
 }
