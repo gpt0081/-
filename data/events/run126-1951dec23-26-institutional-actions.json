@@ -1,13 +1,24 @@
 {
+  "schemaVersion": 1,
   "run": 126,
   "events": [
     {
       "id": "evt126-1951-tobacco-law",
       "date": "1951-12-23",
       "title": "전매청 설치법 공포",
+      "domain": "재정·행정",
+      "documentIds": [
+        "d126-law232",
+        "d126-law232-cross"
+      ],
+      "politicians": [
+        "pol-rhee-syngman",
+        "pol-heo-jeong",
+        "pol-paik-too-chin"
+      ],
       "proposed_by": [],
       "decided_by": [
-        "국회"
+        "대한민국 국회"
       ],
       "executed_by": [
         "pol-rhee-syngman"
@@ -18,49 +29,280 @@
         "관보"
       ],
       "later_finding": null,
-      "documentIds": [
-        "d126-law232"
-      ]
+      "note": "법률 제232호 공포, 실제 지방 인사 발령과 구분"
     },
     {
       "id": "evt126-1951-gold-law",
       "date": "1951-12-23",
       "title": "금에 관한 임시조치법 공포",
+      "domain": "금융·무역",
+      "documentIds": [
+        "d126-law233",
+        "d126-law233-index",
+        "d126-court69"
+      ],
+      "politicians": [
+        "pol-rhee-syngman"
+      ],
       "proposed_by": [],
       "decided_by": [
-        "국회"
+        "대한민국 국회"
       ],
       "executed_by": [
         "pol-rhee-syngman"
       ],
       "opposed_by": [],
       "legal_authority": "법률 제233호",
-      "observed_by": [
-        "이승만대통령기록물"
-      ],
-      "later_finding": null,
-      "documentIds": [
-        "d126-law233"
-      ]
+      "observed_by": [],
+      "later_finding": "대법원 69도1888",
+      "note": "제233호 1951-12-23 공포, 1952-01-23 시행; 후대 대법원 판결은 적용 법리"
     },
     {
       "id": "evt126-1951-health-regulation",
       "date": "1951-12-25",
       "title": "국민의료법시행세칙 제정",
-      "proposed_by": [],
-      "decided_by": [
-        "보건부"
+      "domain": "보건·행정",
+      "documentIds": [
+        "d126-health11"
       ],
+      "politicians": [],
+      "proposed_by": [],
+      "decided_by": [],
       "executed_by": [],
       "opposed_by": [],
       "legal_authority": "보건부령 제11호",
+      "observed_by": [],
+      "later_finding": null,
+      "note": "보건부령 제11호의 의료행정 규정"
+    },
+    {
+      "id": "evt126-1951-tobacco-daegu",
+      "date": "1951-12-27",
+      "title": "대구지방전매국 전매청 개칭 통첩 보도",
+      "domain": "지방행정",
+      "documentIds": [
+        "d126-press-02"
+      ],
+      "politicians": [],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": null,
       "observed_by": [
-        "법제처"
+        "대구매일신문"
       ],
       "later_finding": null,
+      "note": "인사 지시는 당시 보도에 미확인"
+    },
+    {
+      "id": "evt126-1951-redcross-japan",
+      "date": "1951-12-23",
+      "title": "윤보선 일본 적십자 시찰 결과 회견",
+      "domain": "사회·외교",
       "documentIds": [
-        "d126-health11"
-      ]
+        "d126-press-01",
+        "d126-bio-yun"
+      ],
+      "politicians": [
+        "pol-yun-posun"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": null,
+      "observed_by": [
+        "대구매일신문"
+      ],
+      "later_finding": null,
+      "note": "개인 발언의 인용과 검증된 일본 산업 통계 구분"
+    },
+    {
+      "id": "evt126-1951-industrial-reconstruction",
+      "date": "1951-12-23",
+      "title": "상공차관 산업복구·발전시설 예산 계획 발표",
+      "domain": "산업·재정",
+      "documentIds": [
+        "d126-press-03"
+      ],
+      "politicians": [
+        "pol-lee-byeong-ho-1951"
+      ],
+      "proposed_by": [
+        "pol-lee-byeong-ho-1951"
+      ],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": null,
+      "observed_by": [],
+      "later_finding": null,
+      "note": "융자 신청과 계획일 뿐 확정 예산·집행 아님"
+    },
+    {
+      "id": "evt126-1951-un-statement-india",
+      "date": "1951-12-26",
+      "title": "미영 인도 참여 성명 협의 이견",
+      "domain": "외교·안보",
+      "documentIds": [
+        "d126-press-04"
+      ],
+      "politicians": [],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [
+        "미 국무부 히커슨(인도 협의 반대)"
+      ],
+      "legal_authority": null,
+      "observed_by": [
+        "영국 벨처(협의 주장)"
+      ],
+      "later_finding": null,
+      "note": "미국 국무부와 영국 대사관의 입장 차이"
+    },
+    {
+      "id": "evt126-1951-party-registration",
+      "date": "1951-12-26",
+      "title": "원내외 자유당 등록 선후 주장 보도",
+      "domain": "정당·행정",
+      "documentIds": [
+        "d126-press-05"
+      ],
+      "politicians": [
+        "pol-rhee-syngman"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": null,
+      "observed_by": [
+        "경향신문"
+      ],
+      "later_finding": null,
+      "note": "공보처 등록 원부로 법적 선후 확인 필요"
+    },
+    {
+      "id": "evt126-1951-fiscal-frus",
+      "date": "1951-12-26",
+      "title": "무초 미대사 물가·재정원조 상황 보고",
+      "domain": "재정·외교",
+      "documentIds": [
+        "d126-press-06"
+      ],
+      "politicians": [],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": null,
+      "observed_by": [
+        "미 대사 무초"
+      ],
+      "later_finding": null,
+      "note": "미대사관 관찰, 대통령의 직접 정책명령 아님"
+    },
+    {
+      "id": "evt126-1951-land-tax-oversight",
+      "date": "1951-12-26",
+      "title": "국회 토지수득세 국정감사 지역 보고",
+      "domain": "농정·국회",
+      "documentIds": [
+        "d126-press-07"
+      ],
+      "politicians": [
+        "pol-jeong-heon-ju",
+        "pol-choi-heon-gil-1951",
+        "pol-kang-gyeong-ok-1951",
+        "pol-yu-hong-1951",
+        "pol-gwak-ui-yeong-1951",
+        "pol-paik-too-chin"
+      ],
+      "proposed_by": [
+        "pol-gwak-ui-yeong-1951"
+      ],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": null,
+      "observed_by": [
+        "자유신문"
+      ],
+      "later_finding": null,
+      "note": "지역 의원 보고, 곽의영 처리위원회 동의, 장관 답변을 구분"
+    },
+    {
+      "id": "evt126-1951-land-repayment-proposal",
+      "date": "1951-12-26",
+      "title": "김종순 외 농지상환 5년에서 8년 연장 법안 제안",
+      "domain": "농정·입법",
+      "documentIds": [
+        "d126-press-08"
+      ],
+      "politicians": [
+        "pol-kim-jong-sun-1951"
+      ],
+      "proposed_by": [
+        "pol-kim-jong-sun-1951",
+        "동료 의원 10여 명"
+      ],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": null,
+      "observed_by": [
+        "자유신문"
+      ],
+      "later_finding": null,
+      "note": "제안·회부 단계로 보도, 법률 성립 아님"
+    },
+    {
+      "id": "evt126-1951-trade-market",
+      "date": "1951-12-26",
+      "title": "수출 부진과 물가 하락에 대한 언론 분석",
+      "domain": "무역·경제",
+      "documentIds": [
+        "d126-press-09",
+        "d126-press-06"
+      ],
+      "politicians": [
+        "pol-paik-too-chin"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": null,
+      "observed_by": [
+        "경향신문",
+        "미국 대사관"
+      ],
+      "later_finding": null,
+      "note": "언론 해석과 FRUS 지역 물가 관찰은 관측 시점·대상 차이"
+    },
+    {
+      "id": "evt126-1951-education-budget",
+      "date": "1951-12-26",
+      "title": "국민사상지도원 예산 계상 보도",
+      "domain": "교육·행정",
+      "documentIds": [
+        "d126-press-10"
+      ],
+      "politicians": [],
+      "proposed_by": [
+        "문교부"
+      ],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": null,
+      "observed_by": [
+        "조선일보"
+      ],
+      "later_finding": null,
+      "note": "추경 계획, 최종 예산·기관설치 미확인"
     }
   ]
 }
