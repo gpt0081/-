@@ -1,0 +1,59 @@
+{
+  "run": 150,
+  "pass": 3,
+  "claims": [
+    {
+      "id": "clm-r150c-cabinet7",
+      "statement": "1949-12-13 국무회의는 교육법·검찰청법·귀속재산처리법 등 7건 공포를 의결했다.",
+      "status": "SUPPORTED_WITH_SOURCE_TYPE_LIMIT",
+      "supportingEvidence": [
+        "d150c-cabinet109"
+      ],
+      "insufficientEvidence": [],
+      "interpretationGuard": "신문·초안·국무회의록·법률 공포를 구별"
+    },
+    {
+      "id": "clm-r150c-meeting-roles",
+      "statement": "제109회 국무회의 사회자는 대통령(후반 재무부장관), 보고자 전규홍, 기록자 목성표다.",
+      "status": "SUPPORTED_WITH_SOURCE_TYPE_LIMIT",
+      "supportingEvidence": [
+        "d150c-cabinet109"
+      ],
+      "insufficientEvidence": [],
+      "interpretationGuard": "신문·초안·국무회의록·법률 공포를 구별"
+    },
+    {
+      "id": "clm-r150c-veto-reasons",
+      "statement": "1949-06-03 정부 거부의 재정·노후재산 사유는 6월5일 2개 신문에 기록되었다.",
+      "status": "SUPPORTED_WITH_SOURCE_TYPE_LIMIT",
+      "supportingEvidence": [
+        "d150c-veto0603"
+      ],
+      "insufficientEvidence": [
+        "1949-06-03 국무회의록 원면"
+      ],
+      "interpretationGuard": "신문·초안·국무회의록·법률 공포를 구별"
+    },
+    {
+      "id": "clm-r150c-draft-date",
+      "statement": "1949-02-09 초안 제2조의 협정 날짜는 9월12일, 1949 최종법은 9월11일로 다르다.",
+      "status": "CONFLICTED_DRAFT_VS_FINAL",
+      "supportingEvidence": [
+        "d150c-draft0209",
+        "d150-law74-original"
+      ],
+      "insufficientEvidence": [],
+      "interpretationGuard": "신문·초안·국무회의록·법률 공포를 구별"
+    },
+    {
+      "id": "clm-r150c-ordinary-policy",
+      "statement": "1949-12-13 회의록은 식량매상 75% 보고, 5,300만원 교통특별회계 추가예산, 국영기업체 심정을 각각 기록한다.",
+      "status": "SUPPORTED_WITH_SOURCE_TYPE_LIMIT",
+      "supportingEvidence": [
+        "d150c-cabinet109"
+      ],
+      "insufficientEvidence": [],
+      "interpretationGuard": "신문·초안·국무회의록·법률 공포를 구별"
+    }
+  ]
+}
