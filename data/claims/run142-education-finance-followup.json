@@ -1,0 +1,40 @@
+{
+  "run": 142,
+  "claims": [
+    {
+      "id": "clm142-1950-seoul-classroom-math",
+      "statement": "1950 서울신문의 필요 2,700학급·기존 1,800교실·부족 990교실 수치가 산술적으로 일치한다",
+      "status": "CONFLICTED_SOURCE_ARITHMETIC",
+      "supportingEvidence": [
+        "d142-edu-1950-seoul-shortage"
+      ],
+      "contradictingEvidence": [
+        "d142-edu-1950-seoul-shortage"
+      ],
+      "analysis": "2700-1800=900, 기사 부족 990과 90 차이. 학급·교실 단위 차이 가능성, 원지면·서울시 통계 확인"
+    },
+    {
+      "id": "clm142-education-plans-distinct",
+      "statement": "1948 문교부 6개년 계획과 1953-11-13 문교부 1954~1959 계획은 동일 문서이다",
+      "status": "CONTRADICTED_BY_DATE_AND_PROVENANCE",
+      "supportingEvidence": [],
+      "contradictingEvidence": [
+        "d142-edu-1948-plan",
+        "d142-edu-1953-kdi-cabinet"
+      ],
+      "analysis": "1948 초기 계획과 전쟁 후 1953 재수립 안건 분리. 1953 60쪽 원문은 메타데이터만 확보"
+    },
+    {
+      "id": "clm142-1959-enrollment-vs-facilities",
+      "statement": "1959 의무교육 취학률 96.4% 달성은 교실·교원 확충 목표도 모두 달성했다는 뜻이다",
+      "status": "CONTRADICTED_BY_OFFICIAL_RETROSPECTIVE",
+      "supportingEvidence": [
+        "d142-edu-archives-outcome"
+      ],
+      "contradictingEvidence": [
+        "d142-edu-archives-outcome"
+      ],
+      "analysis": "국가기록원은 취학률 목표 달성과 시설·교원 목표 미달을 동시에 기록"
+    }
+  ]
+}
