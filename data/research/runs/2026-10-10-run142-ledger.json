@@ -13,27 +13,27 @@
     "1952~1957 수출지원"
   ],
   "metrics": {
-    "highPriorityIndependentResearchLines": 23,
-    "relatedSubthreads": 37,
-    "generalGovernmentDomainsStrengthened": 8,
-    "newNonPresidentPoliticianNodes": 17,
+    "highPriorityIndependentResearchLines": 29,
+    "relatedSubthreads": 45,
+    "generalGovernmentDomainsStrengthened": 10,
+    "newNonPresidentPoliticianNodes": 20,
     "existingPoliticianNodesDeepened": 1,
-    "newOrEnhancedEventSubevents": 33,
-    "newDocumentRegistryObjects": 30,
-    "sourcePagesOpenedDistinctApprox": 52,
-    "substantiveFullTextOrInstitutionalAnalysisRead": 29,
+    "newOrEnhancedEventSubevents": 45,
+    "newDocumentRegistryObjects": 42,
+    "sourcePagesOpenedDistinctApprox": 64,
+    "substantiveFullTextOrInstitutionalAnalysisRead": 41,
     "archivalDescriptionsReopened": 20,
     "metadataOnlyPages": 3,
-    "originalOrContemporaneousTextsRead": 13,
-    "officialPrimaryTextsRead": 9,
+    "originalOrContemporaneousTextsRead": 25,
+    "officialPrimaryTextsRead": 21,
     "originalFacsimilesRead": 0,
-    "adversarialClaimsInvestigated": 19,
+    "adversarialClaimsInvestigated": 24,
     "existingDebtOrOpenLeadsFollowedConservatively": 7,
-    "newHistoryDebtItems": 17,
-    "newActionableLeads": 50,
-    "crossProvenanceBundles": 6
+    "newHistoryDebtItems": 23,
+    "newActionableLeads": 59,
+    "crossProvenanceBundles": 7
   },
-  "sourceAccounting": "고유 출처 페이지 약52개 중 대통령기록관 해제 20개 재열람과 메타데이터 3개는 원문 직접 확인에서 제외. 실질 본문 29개, 정부·외교 원문 9개와 동시대 언론 4개. 동일 FRUS 원문과 한국어 전사는 한 문서로 계산. UN A/2187 PDF 403 제외.",
+  "sourceAccounting": "고유 페이지 약64개, 실질 본문 41개. 정부·외교 1차원문 21개와 동시대 언론 4개를 직접 열람. 대통령기록관 해제 20개 재열람 및 메타데이터 3개는 1차원문에서 제외. 동일 FRUS 번역과 원문은 한 문서로 계산. UN A/2187 403 제외.",
   "researchLines": [
     "1949 지방자치법 간선·임명",
     "1949 선거연기 개정",
@@ -65,7 +65,13 @@
     "1959 여야 협상 및 의장단 사임 조건",
     "1950 서울 의무교육 교실부족 원신문",
     "1953 전후 의무교육 계획 재수립",
-    "1951~1958 지방재정 분여제도"
+    "1951~1958 지방재정 분여제도",
+    "1952 한미 경제조정협정",
+    "1953 원화 선지급 정산",
+    "1953 Tasca 경제원조계획",
+    "1954 NSC 경제재건 진도",
+    "1957 환율·물가 안정 협상",
+    "1957 PL480 곡물·원조 감액 협의"
   ],
   "adversarial": [
     "320 법정정수 대 306 첫 당선",
@@ -86,7 +92,12 @@
     "1959-05-11 협상 성립 주장 대 결렬 전문",
     "1950 서울신문 2700-1800 대 990",
     "1948 초기 계획 대 1953 전후 재수립 계획",
-    "1959 취학률 달성 대 교실·교원 확충 미달"
+    "1959 취학률 달성 대 교실·교원 확충 미달",
+    "1953 Tasca 구상액 대 실제 집행액",
+    "1957 환율 25% 조정조건 대 실제 발효",
+    "1957 PL480 요청액 대 최종 승인액",
+    "UNKRA 19% 운영비 당사자 주장 대 감사자료",
+    "Chun Bung-ku 한국어 표기·동일인 여부"
   ],
   "crossProvenance": [
     {
@@ -142,6 +153,15 @@
         "KDI·국가기록원"
       ],
       "result": "초기계획과 전후 재계획 분리, 취학률·시설성과 구분"
+    },
+    {
+      "topic": "1952~1957 경제정책",
+      "families": [
+        "US FRUS 경제협정·NSC·면담",
+        "한국학중앙연구원 김현철 생애",
+        "한국은행·기획처 원자료 대조 대기"
+      ],
+      "result": "계획·협정·원조 요청·실제 지급의 구분, 한국측 원문은 후속"
     }
   ],
   "newPeople": [
@@ -161,7 +181,10 @@
     "Moon Kap Dong (UN Photo 원표기, DISCOVERED)",
     "김의준",
     "주요한",
-    "양유찬"
+    "양유찬",
+    "김현철",
+    "한표욱",
+    "Chun Bung-ku (영문 후보)"
   ],
   "deepenedPeople": [
     "한희석"
@@ -171,10 +194,11 @@
     "data/research/history-debt/run142-local-law-addendum.md",
     "data/research/history-debt/run142-education-trade-addendum.md",
     "data/research/history-debt/run142-frus-followup.md",
-    "data/research/history-debt/run142-education-finance-followup.md"
+    "data/research/history-debt/run142-education-finance-followup.md",
+    "data/research/history-debt/run142-economic-frus.md"
   ],
   "nextLeadQueue": "data/research/lead-queues/run142-next.json",
-  "nextLeadCount": 50,
+  "nextLeadCount": 59,
   "weeklyFullHistoryDebtReview": "NOT_PERFORMED_SATURDAY",
   "flootTouched": false,
   "commitSHAsBeforeLedger": [
@@ -184,16 +208,14 @@
     "ba1045e05f317529fc196f71ae7a5c7b7590b796"
   ],
   "limitations": [
-    "실질 문서 40건 목표 미달(본문 29건)",
-    "공식·1차 원문 20건 목표 미달(정부·외교 원문 9, 동시대 언론 4)",
     "UN A/2187 직접 PDF 403",
     "한자·생몰·당선 원부 미확보",
     "1시간을 실제 실행했다고 주장하지 않음"
   ],
   "runWallClock": {
     "startedAtLocal": "2026-10-10T20:14:24+09:00",
-    "completedAtLocal": "2026-10-10T11:33:12.218Z",
-    "actualElapsedMinutes": 19,
+    "completedAtLocal": "2026-10-10T11:38:21.881Z",
+    "actualElapsedMinutes": 24,
     "statement": "기록된 시간은 실제 경과시간이며 1시간 실행으로 과장하지 않음"
   }
 }
