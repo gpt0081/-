@@ -1,0 +1,126 @@
+{
+  "run": 142,
+  "claims": [
+    {
+      "id": "clm142-seat320-vs306",
+      "statement": "1952-02-25 대통령령 제610호 도별 의원 정수 320명과 1952-05-10 선관위 306명은 동일 시점·동일 범주의 수치 충돌이다",
+      "status": "NARROWED_NOT_DIRECT_CONFLICT",
+      "supportingEvidence": [
+        "d141-local-2036",
+        "d142-nec-provincial-1952",
+        "d142-jeonbuk-council-history"
+      ],
+      "contradictingEvidence": [],
+      "insufficientEvidence": [
+        "d142-un-a2187-index"
+      ],
+      "analysis": "대통령령 정수 320=28+46+46+59+61+60+20; 5/10 실제 당선 306=28+46+32+59+61+60+20. 차이 14는 전북의 5/30 후속 선거 14명과 정확히 일치. 다만 5/30 원당선인명부 미열람.",
+      "eventIds": [
+        "evt142-1952-provincial-seat-decree",
+        "evt142-1952-provincial-vote-306",
+        "evt142-1952-jeonbuk-supplement14"
+      ]
+    },
+    {
+      "id": "clm142-jeonbuk-32-plus14",
+      "statement": "전북 초대 도의원 정수 46명은 1952-05-10 32명 및 05-30 14명으로 단계적으로 채워졌다",
+      "status": "OFFICIAL_INSTITUTIONAL_RETROSPECTIVE",
+      "supportingEvidence": [
+        "d142-jeonbuk-council-history",
+        "d141-local-2036"
+      ],
+      "contradictingEvidence": [],
+      "insufficientEvidence": [
+        "d142-un-a2187-index"
+      ],
+      "eventIds": [
+        "evt142-1952-jeonbuk-vote32",
+        "evt142-1952-jeonbuk-supplement14"
+      ]
+    },
+    {
+      "id": "clm142-1949-1958-selection",
+      "statement": "1949 시읍면장 의회 간선→1956 주민 직선→1958 중앙 임명으로 제도가 변경되었다",
+      "status": "TWO_FAMILIES_CORROBORATE_ORIGINAL_LAW_PENDING",
+      "supportingEvidence": [
+        "d142-us-nis-1959",
+        "d141-local-2039",
+        "d141-local-2041",
+        "d141-local-2044"
+      ],
+      "contradictingEvidence": [],
+      "insufficientEvidence": [],
+      "eventIds": [
+        "evt142-1958-local-appointment-law-claims"
+      ]
+    },
+    {
+      "id": "clm142-1958-party-motives",
+      "statement": "1958 지방자치법 임명제 전환의 목적은 오직 1960 선거 조작이었다",
+      "status": "CONTESTED_INTERPRETATIONS_NOT_DIRECT_PROOF",
+      "supportingEvidence": [
+        "d142-us-nis-1959",
+        "d141-local-2044"
+      ],
+      "contradictingEvidence": [],
+      "insufficientEvidence": [
+        "d142-un-a2187-index"
+      ],
+      "analysis": "1959 NIS는 민주당의 1960 선거 장악 우려 주장과 자유당의 행정실무 효율성 주장을 구분해 기록. 사후 해제의 목적론적 해석을 동시대 법안 제안이유나 비공개 회의록과 혼동하지 않는다.",
+      "eventIds": [
+        "evt142-1958-local-appointment-law-claims"
+      ]
+    },
+    {
+      "id": "clm142-election-observer-scope",
+      "statement": "1952년 지방선거의 투표 당일 절차에 대한 긍정 관찰은 후보 등록·행정압력 부재까지 증명한다",
+      "status": "INSUFFICIENT_AND_SCOPE_MISMATCH",
+      "supportingEvidence": [
+        "d142-daegu-19520427"
+      ],
+      "contradictingEvidence": [
+        "d142-nec-first-elections"
+      ],
+      "insufficientEvidence": [
+        "d142-un-a2187-index"
+      ],
+      "analysis": "1952 대구 현장 방문자의 투표소 소감과 선관위의 UN 인용 후보자 차별·압력은 관찰대상과 시기가 다르므로 자동 상쇄되지 않는다. A/2187 직접 확인 필요."
+    },
+    {
+      "id": "clm142-jeonbuk-chair-term-date",
+      "statement": "초대 전북도의회 의장단 재임 종료일 1956-08-31은 초대의회 종료일 1956-08-12와 일치한다",
+      "status": "CONFLICTED_OFFICIAL_INTERNAL",
+      "supportingEvidence": [
+        "d142-jeonbuk-chair-terms"
+      ],
+      "contradictingEvidence": [
+        "d142-jeonbuk-council-history"
+      ],
+      "insufficientEvidence": [],
+      "analysis": "동일 도의회 공식 사이트 내부 날짜 차이 19일. 의원 임기와 의장 직책 임기, 잔무 처리, 단순 표기오류 중 무엇인지 미확인."
+    },
+    {
+      "id": "clm142-local-election-turnout",
+      "statement": "1952-05-10 도의회 선거 투표자 5,165,226명, 선거인 6,358,383명, 투표율 81.2%",
+      "status": "OFFICIAL_RETROSPECTIVE_VERIFIED",
+      "supportingEvidence": [
+        "d142-nec-first-elections"
+      ],
+      "contradictingEvidence": [],
+      "insufficientEvidence": [
+        "d142-un-a2187-index"
+      ]
+    },
+    {
+      "id": "clm142-party-nodes-nonpresident",
+      "statement": "1952~1960 전북도의회 의장단은 자유당 소속자와 무소속자가 함께 존재했다",
+      "status": "OFFICIAL_INSTITUTIONAL_RETROSPECTIVE",
+      "supportingEvidence": [
+        "d142-jeonbuk-chair-terms"
+      ],
+      "contradictingEvidence": [],
+      "insufficientEvidence": [],
+      "analysis": "의장단의 정당 표기는 도의회 후대 명부 기준이며 재임 전체 기간 당적 불변의 증거로 확대하지 않는다."
+    }
+  ]
+}
