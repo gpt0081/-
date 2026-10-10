@@ -1,0 +1,1 @@
+Run149 legal debt: Gazette originals for 1948 decree 2 and 1949 decree 202 remain uninspected. Decree 61 article 7 versus article 10 has a division-name discrepancy. Weekly full review not performed.
