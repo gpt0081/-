@@ -93,3 +93,6 @@ See `data/politicians/run113-prewar-network.json` for 12 sourced profiles. No ca
 
 ## 2026-10-10 run130
 1952년 중석불 국회감사 인물 노드 `data/politicians/run130-tungsten-actors-a.json`·`run130-tungsten-actors-b.json`, 선거 행위자 `run130-election-actors.json`. 백두진 독립 인물 실록 `data/annals/paik-too-chin-run130.md`와 증거 `data/evidence/paik-too-chin-run130.json`. 기존 ID 재사용, 생몰·동명이인 확인 전 후보 승격 금지.
+
+## run130b 1952년 중석불 조사위원과 국회 원속기록
+`data/politicians/run130b-committee-a.json`, `run130b-committee-b.json`: 1952-07-21 동아일보가 기록한 정파별 조사위원 10명 후보. `data/annals/cho-bong-am-run130b.md` 및 `data/evidence/cho-bong-am-run130b.json`: 1952-10-27 국회 제14회 임시회의 제8호 원속기록 기반 조봉암 독립 실록 시험 심화. 원본 registry 자동 승격·덮어쓰기 없음.
