@@ -1,0 +1,7 @@
+# Run149 second-pass: legislative investigation and agricultural policy
+
+The later newspaper retrospective (d149-retrospective) reproduces competing 1949 Assembly statements. Cho Bong-am disputed improper use of funds; a committee report distinguished expense categories. An Assembly member reportedly said the inspection began on a presidential special instruction. This is attributed testimony, NOT an independently verified presidential order. The same retrospective reports 1949-02-16 inquiry disposition (147 present, 100 yes, 10 no) and 1949-02-21 arrest-consent vote (152 present, 52 yes, 77 no). Original parliamentary records remain targets.
+
+A 1949-03-16 original Assembly farmland-bill reading was directly inspected through the National Institute of Korean History database (d149-assembly-march). It demonstrates legislative debate separate from the executive's agricultural draft. The National Archives catalog identifies 1948 Government Organization Act file AA0001662 item0001 (16 pages); its original image was not read. The 2011 retrial judgment (d149-retrial) concerns the separate Progressive Party case, not the 1949 spending prosecution.
+
+Additional cross-links: pol-lee-mun-won, pol-lee-hoon-gu, pol-seo-sang-il, pol-kim-bop-rin, pol-kang-uk-jung, pol-cho-bong-am. The source classes are secondary retrospective, official original transcript text, official catalog, and later court judgment. They must not be treated as interchangeable.
