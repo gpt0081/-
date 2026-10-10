@@ -111,3 +111,5 @@ See `data/politicians/run113-prewar-network.json` for 12 sourced profiles. No ca
 - `data/politicians/run148-cabinet-parliament-candidates.json`: 1954-11-29 부서명으로 백한성·이중재 2명 IDENTIFIED 후보. 원문은 `d147-0020-30`. 기존 손원일·박술음은 중복 생성하지 않음.
 - 나머지 1954년 부서명 및 국회 발언자는 `data/annals/1954-actor-source-run148.md`와 `data/events/run148-parliament-actions.json`에 인물 단서만 남김. 전체 신원·생몰·임명원부 검증 후 registry 승격.
 - 李光은 원문 두 글자만 확인, 전체 국문 이름 미확정.
+
+- run148 후속: `data/politicians/run148-minister-candidates-2.json`에 최규옥·강성태 2명 후보 추가. 총 신규 후보 4명, 정식 승격 0명.
