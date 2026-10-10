@@ -1,0 +1,52 @@
+{
+  "run": 150,
+  "pass": 7,
+  "claims": [
+    {
+      "id": "clm-r150g-date",
+      "statement": "1948-09-11 한미 재정 및 재산에 관한 최초협정이 서명되었다. FRUS는 9월20일 발효라고 별도로 기록한다.",
+      "supportingEvidence": [
+        "d150g-agreement",
+        "d150g-foreign",
+        "d150g-frus"
+      ],
+      "status": "RESOLVED_DATE",
+      "uncertainty": "1949 초안·서상일 보고의 상충 날짜는 별도 metadata debt로 유지"
+    },
+    {
+      "id": "clm-r150g-signers",
+      "statement": "1948-09-11 협정 서명자는 한국측 이범석 국무총리·장택상 외무장관, 미국측 무초·콜터로 동시대 공동성명에 기록된다.",
+      "supportingEvidence": [
+        "d150g-foreign"
+      ],
+      "status": "SUPPORTED_PRIMARY",
+      "uncertainty": null
+    },
+    {
+      "id": "clm-r150g-article5",
+      "statement": "1948 최초협정 제5조는 귀속된 구 일본인 재산과 그 미처분 재산 이양 및 정부 관리기관 설치를 규정한다.",
+      "supportingEvidence": [
+        "d150g-agreement",
+        "d150g-foreign"
+      ],
+      "status": "SUPPORTED_PRIMARY",
+      "uncertainty": null
+    },
+    {
+      "id": "clm-r150g-negotiation",
+      "statement": "1948-08-16 양국 협상단의 최초 회의는 미국 국무부 FRUS 8월17일 전문에 기록된다.",
+      "supportingEvidence": [
+        "d150g-frus"
+      ],
+      "status": "SUPPORTED_US_DIPLOMATIC",
+      "uncertainty": null
+    },
+    {
+      "id": "clm-r150g-identity",
+      "statement": "이범석 인물은 기존 registry에 pol-lee-beom-seok과 pol-lee-beom-seok-1900 두 ID가 있어 동일인 정합성 검증이 필요하다.",
+      "supportingEvidence": [],
+      "status": "OPEN_REGISTRY_DEDUP",
+      "uncertainty": null
+    }
+  ]
+}
