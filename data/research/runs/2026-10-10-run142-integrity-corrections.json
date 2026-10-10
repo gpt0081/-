@@ -1,0 +1,14 @@
+{
+  "run": 142,
+  "date": "2026-10-10",
+  "type": "REFERENTIAL_INTEGRITY_CORRECTION",
+  "reason": "검증 스크립트에서 16명 politician.openLeads와 7명 connections가 실제 registry에 없는 ID를 가리키는 문제 확인",
+  "action": "정식 lead queue L142-P-01~13, L142-FRUS-02/03/05로 연결. evt142-1958-jeonbuk-chair-transitions를 기존 evt142-1958-jeonbuk-chair-transition으로 정정.",
+  "originalsPreserved": true,
+  "politicianCount": 16,
+  "connectionCorrections": 7,
+  "affectedFiles": [
+    "data/politicians.json"
+  ],
+  "followup": "추가 원자료 확인과 별개로 참조 무결성 자동 검증 유지"
+}
