@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "run": 131,
+  "claims": [
+    {
+      "id": "c131-jeong-birth-contrast",
+      "statement": "정광호 출생연도에 관한 두 지역 학술자료가 1887과 1895-08-22로 불일치한다.",
+      "supportingEvidence": [
+        "d131-aks-jeong",
+        "d131-gwangju-jeong"
+      ],
+      "contradictingEvidence": [],
+      "insufficientEvidence": [
+        "1919 판결 신원란",
+        "1948 제헌의원 후보등록원부"
+      ],
+      "status": "CONFLICTED_SOURCE_ASSERTIONS_NOT_BIOGRAPHY_RESOLVED"
+    },
+    {
+      "id": "c131-salt-outcome-not-attribution",
+      "statement": "후대 학술자료는 1955 소금 생산 35만톤 및 자급자족을 기술하나 1949-01-27 보도된 계획의 직접 성과라는 인과 귀속은 미입증이다.",
+      "supportingEvidence": [
+        "d131-aks-salt-history",
+        "d131-siheung-salt"
+      ],
+      "contradictingEvidence": [],
+      "insufficientEvidence": [
+        "1949-1955 전매국 연차계획 변경 원부",
+        "1949-1955 생산통계·사업별 투입기록"
+      ],
+      "status": "LATER_OUTCOME_OBSERVED_CAUSAL_ATTRIBUTION_OPEN"
+    }
+  ]
+}
