@@ -113,3 +113,5 @@ See `data/politicians/run113-prewar-network.json` for 12 sourced profiles. No ca
 - 李光은 원문 두 글자만 확인, 전체 국문 이름 미확정.
 
 - run148 후속: `data/politicians/run148-minister-candidates-2.json`에 최규옥·강성태 2명 후보 추가. 총 신규 후보 4명, 정식 승격 0명.
+
+- run148 추가 후보 8명: `run148-parliament-candidates-a.json`, `run148-parliament-candidates-b.json`, `run148-minister-candidates-c.json`, `run148-minister-candidates-d.json`. 총 신규 후보 12명. 원면·생몰·임명장 확인 전 VERIFIED 승격 없음.
