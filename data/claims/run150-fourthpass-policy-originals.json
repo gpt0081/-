@@ -1,0 +1,81 @@
+{
+  "run": 150,
+  "pass": 4,
+  "claims": [
+    {
+      "id": "clm-r150d-local73",
+      "statement": "1949-12-06 신문은 지방자치법 개정 당일 공포와 국회 승인 조건을 전했으나 관보 제243호 법률 제73호는 12월15일 공포이며 해당 승인 문구가 없다.",
+      "status": "CONFLICTED_PRESS_VS_ENACTED",
+      "supportingEvidence": [
+        "d150d-local-press",
+        "d150d-local73"
+      ],
+      "insufficientEvidence": [
+        "신문 원면·국회 최종 수정안"
+      ],
+      "interpretationGuard": "발언·예상·법률 확정 사실을 분리"
+    },
+    {
+      "id": "clm-r150d-local-vote",
+      "statement": "1949-03-03 지방자치법 제98조 토론 종결 번안동의는 재석150 찬성78 반대7로 3분의2 미달 부결됐다. 도지사 선출방식 자체의 최종 표결과 구분한다.",
+      "status": "SUPPORTED_PRIMARY",
+      "supportingEvidence": [
+        "d150d-local-mar03"
+      ],
+      "insufficientEvidence": [],
+      "interpretationGuard": "발언·예상·법률 확정 사실을 분리"
+    },
+    {
+      "id": "clm-r150d-education",
+      "statement": "1949-09 교육법 초안들은 6·3·3·4 및 6·6·4/6·4·4 학제와 학년 시작일에서 의견이 달랐다.",
+      "status": "SUPPORTED_CONTEMPORARY",
+      "supportingEvidence": [
+        "d150d-edu-13",
+        "d150d-edu-10",
+        "d150d-edu-13b"
+      ],
+      "insufficientEvidence": [],
+      "interpretationGuard": "발언·예상·법률 확정 사실을 분리"
+    },
+    {
+      "id": "clm-r150d-prosecution",
+      "statement": "1949-12-03 권승렬 법무부장관은 검사178명·경찰5만명이라고 발언하며 경찰관 체임 요구권을 설명했다. 수치는 장관 발언이지 독립 통계가 아니다.",
+      "status": "ATTRIBUTED_SPEECH",
+      "supportingEvidence": [
+        "d150d-prosecutor-minister"
+      ],
+      "insufficientEvidence": [],
+      "interpretationGuard": "발언·예상·법률 확정 사실을 분리"
+    },
+    {
+      "id": "clm-r150d-tax84",
+      "statement": "1949-12-22 지방세법 제84호 부칙 제73조는 1949-11-01 이후 징수 지방세에 적용한다고 명시한다. 제정일과 적용기준일 차이는 실제 조문에 근거한다.",
+      "status": "SUPPORTED_PRIMARY_REPRINT",
+      "supportingEvidence": [
+        "d150d-localtax84"
+      ],
+      "insufficientEvidence": [],
+      "interpretationGuard": "발언·예상·법률 확정 사실을 분리"
+    },
+    {
+      "id": "clm-r150d-civil44",
+      "statement": "1949-08-12 국가공무원법 제44호는 공개 고시, 공무원 인사 공정, 증여·향응 금지, 정치운동 제한을 규정한다.",
+      "status": "SUPPORTED_PRIMARY_REPRINT",
+      "supportingEvidence": [
+        "d150d-civilservice44"
+      ],
+      "insufficientEvidence": [],
+      "interpretationGuard": "발언·예상·법률 확정 사실을 분리"
+    },
+    {
+      "id": "clm-r150d-food",
+      "statement": "1949-04-15 국회 식량임시긴급조치법 철회 토론에서 홍희종은 농림부 양정과 예산을 질의했다. 표결 수치는 별도 확인이 필요하다.",
+      "status": "SUPPORTED_PRIMARY",
+      "supportingEvidence": [
+        "d150d-food-apr15"
+      ],
+      "insufficientEvidence": [],
+      "interpretationGuard": "발언·예상·법률 확정 사실을 분리"
+    }
+  ]
+}
