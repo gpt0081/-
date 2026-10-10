@@ -2,12 +2,24 @@
   "run": 131,
   "date": "2026-10-10",
   "branch": "research/run89-audit-property-oversight",
-  "documents": "data/documents/run131-source-audit.json",
-  "claims": "data/claims/run131-legal-identity-industry.json",
-  "events": "data/events/run131-legal-identity-industry.json",
+  "documents": [
+    "data/documents/run131-source-audit.json",
+    "data/documents/run131-supplement-salt-jeong.json",
+    "data/documents/run131-industry-health.json"
+  ],
+  "claims": [
+    "data/claims/run131-legal-identity-industry.json",
+    "data/claims/run131-supplement.json",
+    "data/claims/run131-industry-health.json"
+  ],
+  "events": [
+    "data/events/run131-legal-identity-industry.json",
+    "data/events/run131-industry-health.json"
+  ],
   "actors": "data/politicians/run131-deepened-actors.json",
   "evidence": "data/evidence/politicians/run131-crosslinks.json",
-  "leadQueue": "data/research/lead-queues/run131-originals.json",
+  "leadQueue": "data/research/lead-queues/run131-INDEX.json",
+  "leadCount": 30,
   "ledger": "data/research/runs/2026-10-10-run131-ledger.json",
   "nextPriority": [
     "L131-1",
@@ -20,8 +32,5 @@
     "L131-17",
     "L131-19"
   ],
-  "flootUntouched": true,
-  "supplementDocuments": "data/documents/run131-supplement-salt-jeong.json",
-  "supplementClaims": "data/claims/run131-supplement.json",
-  "supplementLeads": "data/research/lead-queues/run131-supplement.json"
+  "flootUntouched": true
 }
