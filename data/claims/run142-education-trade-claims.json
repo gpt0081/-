@@ -1,0 +1,47 @@
+{
+  "run": 142,
+  "claims": [
+    {
+      "id": "clm142-education-plan-period",
+      "statement": "1948 문교부 6개년 계획 제목 1949~1956과 연도별 표 단기4282~4287(1949~1954)가 일치한다",
+      "status": "CONFLICTED_WITHIN_TRANSCRIPTION",
+      "supportingEvidence": [
+        "d142-edu-1948-plan"
+      ],
+      "contradictingEvidence": [
+        "d142-edu-1948-plan"
+      ],
+      "next": "시정월보 제2호 108~110쪽 원지면 확인"
+    },
+    {
+      "id": "clm142-education-classroom-sum",
+      "statement": "1948 계획 18,542교실과 연도별 신축표 마지막 해 3,037은 합계가 일치한다",
+      "status": "CONFLICTED_INTERNAL_TABLES",
+      "supportingEvidence": [
+        "d142-edu-1948-plan"
+      ],
+      "contradictingEvidence": [
+        "d142-edu-1948-plan"
+      ],
+      "analysis": "3,095+3,092+3,091+3,089+3,088+3,087=18,542; 다른 표 3,037을 대입하면 18,492"
+    },
+    {
+      "id": "clm142-education-unenrolled",
+      "statement": "1948 학령아동 2,971,712 중 재학생 2,708,031에 과령학생 262,613 포함되어 적령 미취학 526,294명",
+      "status": "ARITHMETICALLY_CORROBORATED_SOURCE_CLAIM",
+      "supportingEvidence": [
+        "d142-edu-1948-plan"
+      ],
+      "analysis": "2,971,712-(2,708,031-262,613)=526,294. 정부 통계 자체의 표본오차는 미검증"
+    },
+    {
+      "id": "clm142-export-subsidy-effect",
+      "statement": "1954~1956 수출장려금 규정 제정이 대규모 실제 지급을 증명한다",
+      "status": "NOT_SUPPORTED_BY_OFFICIAL_RETROSPECTIVE",
+      "supportingEvidence": [
+        "d142-trade-archives-policy"
+      ],
+      "analysis": "국가기록원은 1955말 5품목 보상액 약 1천만 환, 1956년 규칙 이후에도 집행 부진이라고 설명. 원결산 미확보"
+    }
+  ]
+}
