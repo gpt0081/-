@@ -1,33 +1,37 @@
 {
-  "updated": "2026-10-09",
+  "updated": "2026-10-11",
   "project": "대한민국 역대 정치인 실록",
-  "branchRef": "refs/heads/research/run125-local-elections-source-audit",
+  "branchRef": "refs/heads/research/run145-20261011-robertson-tasca-identity-audit",
   "branchHeadResolution": "READ_LIVE_REF_NOT_CACHED_SHA",
-  "lastCompletedRun": 126,
-  "latestRunReport": "data/research/runs/2026-10-09-run129-ledger.json",
-  "latestLeadQueue": "data/research/lead-queues/run129-next.json",
+  "lastCompletedRun": 145,
+  "latestRunReport": "data/research/runs/2026-10-11-run145-ledger.json",
+  "latestLeadQueue": "data/research/lead-queues/run145-next.json",
   "latestDocumentRegistry": [
     "data/documents/run126-councils.json",
     "data/documents/run126-labor.json",
     "data/documents/run126-councils-followup.json",
-    "data/documents/run126-may29-31-breadth.json"
+    "data/documents/run126-may29-31-breadth.json",
+    "data/documents/run145-june1953-multi-provenance.json"
   ],
   "latestEventOverlay": [
     "data/events/run126-councils.json",
     "data/events/run126-labor.json",
     "data/events/run126-councils-followup.json",
-    "data/events/run126-may29-31-breadth.json"
+    "data/events/run126-may29-31-breadth.json",
+    "data/events/run145-action-graph.json"
   ],
   "latestClaimOverlay": [
     "data/claims/run126-councils.json",
     "data/claims/run126-labor.json",
     "data/claims/run126-councils-followup.json",
-    "data/claims/run126-may29-31-breadth.json"
+    "data/claims/run126-may29-31-breadth.json",
+    "data/claims/run145-claims.json"
   ],
   "latestPoliticianOverlay": [
     "data/politicians/run126-councils.json",
     "data/politicians/run126-labor.json",
-    "data/politicians/run126-may29-31-candidates.json"
+    "data/politicians/run126-may29-31-candidates.json",
+    "data/politicians/run145-korean-actor-deepening.json"
   ],
   "latestDebtAddenda": [
     "data/research/history-debt/run126-councils.md",
@@ -37,7 +41,8 @@
   "latestAnnals": [
     "data/annals/1952-councils-run126.md",
     "data/annals/1951-1952-textile-run126.md",
-    "data/annals/1952-may29-31-institutions-run126.md"
+    "data/annals/1952-may29-31-institutions-run126.md",
+    "data/annals/shin-tae-young.md"
   ],
   "next": "1952-05-29 국회 제67차 원속기록; 1952-05-24~25 계엄 국무회의 원의사록; 한국은행 1952-05-29 제65차 금융통화위원회; 조방 1951 국무원 고시12·13호; 1952-06-09 대한노총 대회 원부",
   "flootUntouched": true,
@@ -59,7 +64,7 @@
     "data/research/rhee-syngman-coverage-run126-b.json",
     "data/research/rhee-syngman-coverage-run126-d.json"
   ],
-  "latestRun": 129,
+  "latestRun": 145,
   "latestRunLedger": "data/research/runs/2026-10-09-run126-final-ledger.json",
   "latestLeadAddendum": "data/research/lead-queues/run115-addendum.json",
   "latestFinalAddendum": "data/research/runs/2026-10-09-run115-final-addendum.json",
@@ -192,5 +197,25 @@
     "1952-06-20 정부환부 공문"
   ],
   "latestVerifiedDocuments": 13,
-  "latestOfficialOrPrimary": 10
+  "latestOfficialOrPrimary": 10,
+  "run145": {
+    "parentBranch": "research/run144-20261011-weekly-debt-pow-primary",
+    "branch": "research/run145-20261011-robertson-tasca-identity-audit",
+    "documentRegistry": "data/documents/run145-june1953-multi-provenance.json",
+    "newPolitician": "pol-shin-tae-young",
+    "centralDebtCountBeforeAdditions": 45,
+    "weeklyFullReview": false,
+    "fullReviewDateInCentralLedger": "2026-09-27",
+    "topLeadIds": [
+      "L145-01",
+      "L145-02",
+      "L145-03",
+      "L145-04",
+      "L145-05",
+      "L145-06",
+      "L145-07",
+      "L145-08"
+    ],
+    "sourceCorrection": "FRUS Shin Tai-Yong vs 한국사DB 신성모"
+  }
 }
