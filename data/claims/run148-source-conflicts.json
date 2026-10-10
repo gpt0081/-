@@ -1,0 +1,83 @@
+{
+  "run": 148,
+  "date": "2026-10-11",
+  "claims": [
+    {
+      "id": "cl148-01",
+      "status": "CONFLICTED",
+      "question": "1954-09-08 국무원공고 제55호 관보 제1174호 vs 제1170호",
+      "supporting": [
+        {
+          "source": "국사편찬위원회 원문 전사",
+          "url": "https://db.history.go.kr/item/cons/level.do?levelId=cons_003_0020_0020_0020"
+        },
+        {
+          "source": "국가기록원 제2차개헌 전시",
+          "url": "https://theme.archives.go.kr/next/rule/sub2_03.do"
+        }
+      ],
+      "contradicting": [
+        {
+          "source": "국가기록원 국무회의록 재발견 전시",
+          "url": "https://theme.archives.go.kr/next/rediscovery/index2.do"
+        }
+      ],
+      "next": "제1170·1174호 원면 표지; 동일 국가기록원 두 해제는 독립 provenance가 아님"
+    },
+    {
+      "id": "cl148-02",
+      "status": "CONFLICTED",
+      "question": "1954 총선 자유당 114·115·144 의석 수치",
+      "supporting": [
+        {
+          "source": "국사편찬위 본문 114, 표 144",
+          "url": "https://db.history.go.kr/id/tcct_1954_05_20_0010"
+        }
+      ],
+      "contradicting": [
+        {
+          "source": "Briggs 1954-05-24 영문각주 115",
+          "url": "https://db.history.go.kr/item/cons/level.do?levelId=cons_003_0020_0030_0020_0010"
+        }
+      ],
+      "arithmetic": "144+15+3+3+68=233 != 203; 114+15+3+3+68=203",
+      "next": "중앙선관위 원당선공고·1954-05-23 Briggs 1231·UN A/2711 pp7-10"
+    },
+    {
+      "id": "cl148-03",
+      "status": "CONFLICTED_TRANSLATION",
+      "question": "Briggs 전문 1235 각주 영문 소수정당 6석 vs 국역 7석",
+      "evidence": "https://db.history.go.kr/item/cons/level.do?levelId=cons_003_0020_0030_0020_0010",
+      "arithmetic": "영문 115+15+67+6=203; 국역 115+15+67+7=204",
+      "next": "5월23일 원전 1231 확인"
+    },
+    {
+      "id": "cl148-04",
+      "status": "NARROWED",
+      "question": "후대 국가기록원 전시 11월29일 표결 서술 vs 11월27일 제90차 표결과 11월29일 제91차 번복",
+      "evidence": [
+        "https://theme.archives.go.kr/next/rule/sub2_03.do",
+        "https://db.history.go.kr/item/cons/level.do?levelId=cons_003_0020_0010_0210",
+        "https://db.history.go.kr/item/cons/level.do?levelId=cons_003_0020_0010_0220"
+      ],
+      "next": "원면·회의록 정정원부"
+    },
+    {
+      "id": "cl148-05",
+      "status": "OPEN",
+      "question": "1954-01-22 국무회의 유시(8) 특정 민족집단 지칭 상인단속의 실제 집행",
+      "evidence": "https://db.history.go.kr/item/cons/level.do?levelId=cons_003_0020_0020_0040",
+      "next": "상공·내무·외무부 단속 원문 및 법적 근거; 원문 지시만으로 집행 추정 금지"
+    },
+    {
+      "id": "cl148-06",
+      "status": "OPEN",
+      "question": "1954-09-08·11-29 체신부장관 부서명 李光의 한글 전체 이름",
+      "evidence": [
+        "https://db.history.go.kr/item/cons/level.do?levelId=cons_003_0020_0020_0020",
+        "https://db.history.go.kr/item/cons/level.do?levelId=cons_003_0020_0020_0030"
+      ],
+      "next": "체신부 장관 인사원부·관보 원면; 이광의 등 임의 확장 금지"
+    }
+  ]
+}
