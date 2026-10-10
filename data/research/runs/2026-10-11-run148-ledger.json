@@ -1,23 +1,44 @@
 {
   "run": 148,
   "date": "2026-10-11",
-  "status": "PARTIAL_SOURCE_AUDIT",
-  "newDocumentsDirectlyOpened": 3,
+  "status": "COMMITTED_PARTIAL_RESEARCH",
+  "directlyOpenedDistinctWebResources": 9,
   "primaryTextsReopenedFromRun147": 6,
-  "primaryNewUnderlyingDocuments": 0,
-  "originalFacsimileVerified": 0,
+  "newlyOpenedOfficialContextualDocuments": 3,
+  "newOriginalPrimaryDocuments": 0,
+  "originalFacsimilesVerified": 0,
   "independentResearchLines": 5,
+  "domainsSubstantivelyLinked": 12,
+  "nonPresidentCandidatesStructured": 2,
+  "additionalNamesLinkedInAnnals": 11,
+  "newEventActionRecords": 16,
   "adversarialClaims": 6,
-  "historyDebtFollowed": 5,
+  "previousHistoryDebtsOrLeadsTracked": 5,
+  "newLeads": 12,
+  "crossProvenanceBundles": 2,
   "weeklyFullReview": false,
   "weeklyStatement": "역사부채 주간 전수조사 미실시",
   "lastFullReview": "2026-09-27",
-  "limits": [
+  "fullHourClaimed": false,
+  "limitations": [
+    "목표 40 직접 문서 및 20 공식 원문 신규 열람 미달",
     "UN A/2711 PDF 403",
-    "1954 관보 원면 미확인",
-    "원문 재열람을 신규문서로 계산하지 않음"
+    "나머지 11명은 후보 노드 승격 미완료",
+    "관보 원면 및 임명원부 미열람",
+    "central HISTORY_DEBT.md full audit not done"
   ],
   "flootModified": false,
-  "fullHourClaimed": false,
-  "commitType": "partial source-audit correction; follow-up politician graph pending"
+  "files": [
+    "data/claims/run148-source-conflicts.json",
+    "data/research/lead-queues/run148-next.json",
+    "data/politicians/run148-cabinet-parliament-candidates.json",
+    "data/events/run148-cabinet-actions.json",
+    "data/events/run148-parliament-actions.json",
+    "data/annals/1954-actor-source-run148.md",
+    "data/research/history-debt/run148-source-contradictions.md",
+    "data/documents/run148-source-audit.json",
+    "data/research/rhee-syngman-coverage-run148.json",
+    "data/evidence/politicians/run148-minister-countersignatures.json",
+    "data/politicians/INDEX.md"
+  ]
 }
