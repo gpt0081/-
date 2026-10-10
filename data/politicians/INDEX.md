@@ -90,3 +90,6 @@ See `data/politicians/run113-prewar-network.json` for 12 sourced profiles. No ca
 ## 2026-10-09 run127 인물망
 
 `data/politicians/run127-civil-cabinet-network.json`: 선전대책위원회 차관급 12명과 이교선·정순조·김두한 3명 후보 IDENTIFIED, 기존 전진한·윤치영·김용택 3명 심화. 관보·생몰 미검증으로 canonical 승격 보류.
+
+## 2026-10-10 run130
+1952년 중석불 국회감사 인물 노드 `data/politicians/run130-tungsten-actors-a.json`·`run130-tungsten-actors-b.json`, 선거 행위자 `run130-election-actors.json`. 백두진 독립 인물 실록 `data/annals/paik-too-chin-run130.md`와 증거 `data/evidence/paik-too-chin-run130.json`. 기존 ID 재사용, 생몰·동명이인 확인 전 후보 승격 금지.
