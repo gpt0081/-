@@ -1,0 +1,111 @@
+{
+  "run": 144,
+  "date": "2026-10-10",
+  "branch": "research/run144-1956-1960-local-law-actor-integration-20261010",
+  "base": "a8947349d333f3e75970195a2acfeb410e37ad38",
+  "status": "INTEGRATED_ON_RESEARCH_BRANCH_NOT_MERGED",
+  "metrics": {
+    "uniqueSubstantiveDocumentsDirectlyRead": 16,
+    "officialPrimaryLegalInstruments": 4,
+    "additionalOfficialTranscriptionOfSameLaws": 1,
+    "scholarlyBiographiesDirectlyRead": 11,
+    "officialGazetteFacsimilesRead": 0,
+    "independentHighPriorityResearchLines": 8,
+    "governmentDomainsMateriallyMapped": 6,
+    "nonPresidentPoliticiansNewlyStructured": 12,
+    "newOrEnhancedEventNodes": 12,
+    "adversarialClaimsExamined": 7,
+    "priorLeadsFollowed": 4,
+    "newActionableLeads": 20,
+    "crossProvenanceBundles": 1,
+    "weeklyFullDebtReview": "NOT_PERFORMED_SATURDAY"
+  },
+  "sourceAccounting": "국사편찬위 관보 4건의 전사원문, 법제처 동일 법령의 별도 전사 페이지 1건, AKS 인물 전기 본문 11건. 김용우 AKS 검색 결과는 열람 오류로 16건에 미포함. 관보 원면 0건. 독립 출처 계열 2: 대한민국 법령(2개 전사 플랫폼), AKS 후대 전기. 법제처 전사를 새로운 원법률로 중복 계산하지 않음.",
+  "verified": [
+    "1956 법률385 시읍면장 직선 및 가예산",
+    "1956 법률388 종전 당선자 임기 경과",
+    "1958 법률501 임명제·의회 감독",
+    "1960 법률563 지방자치단체장 직선·위임경비·서울시 국 분장",
+    "1956 장관 12명 부서와 AKS 전기 직책 연결"
+  ],
+  "conflicts": [
+    "법률563 제109조의2 5 대 6",
+    "법률563 제98조 읍 누락",
+    "법률501 제98조 대통령 대 대통령령",
+    "법률388 부칙 旅行 대 施行"
+  ],
+  "cautions": [
+    "법률 부서=정책 발의/찬성 아님",
+    "윤보선·장면 정부 1960 법률을 이승만 직접명령으로 연결 금지",
+    "원면 미확인; 전사본 충돌을 실재 법률의 충돌로 표현 금지",
+    "1956 장관 후보 12명 중 김용우 AKS 본문 미열람"
+  ],
+  "nextPriority": [
+    {
+      "id": "L144-FACSIMILE-563",
+      "institution": "국가기록원·관보",
+      "target": "1960-11-01 관보 제2702호 법률563호 제98조·제109조의2 원면",
+      "why": "2건 전사충돌 해결",
+      "status": "OPEN",
+      "priority": "HIGH"
+    },
+    {
+      "id": "L144-FACSIMILE-501",
+      "institution": "국가기록원·관보",
+      "target": "1958-12-26 관보 제2206호 법률501호 제98조 원면",
+      "why": "대통령/대통령령 충돌 해결",
+      "status": "OPEN",
+      "priority": "HIGH"
+    },
+    {
+      "id": "L144-FACSIMILE-388",
+      "institution": "국가기록원·관보",
+      "target": "1956-07-08 관보 제1591호 법률388호 부칙 원면",
+      "why": "旅行/施行 오독 검증",
+      "status": "OPEN",
+      "priority": "HIGH"
+    },
+    {
+      "id": "L144-1956-VOTE",
+      "institution": "국회도서관·국회회의록",
+      "target": "1956-02-10 제3대 국회 제82차 원속기록 지방자치법385호 표결",
+      "why": "발의·표결·부서 구별",
+      "status": "OPEN",
+      "priority": "HIGH"
+    },
+    {
+      "id": "L144-1960-COUNCIL",
+      "institution": "국회도서관·국회회의록",
+      "target": "1960-09-16 제5대 국회 제13차 지방자치법 기초특위 보고",
+      "why": "고담용·김창수·민관식 의원 원서명과 수정문",
+      "status": "OPEN",
+      "priority": "HIGH"
+    },
+    {
+      "id": "L144-1958-EXECUTION",
+      "institution": "국가기록원·내무부",
+      "target": "1958-12-26~1959-06 지방자치단체장 임명원부",
+      "why": "법률501호의 실제 임명제 집행",
+      "status": "OPEN",
+      "priority": "HIGH"
+    },
+    {
+      "id": "L144-1960-BUDGET",
+      "institution": "국가기록원·서울시기록원",
+      "target": "1960-11~1961-04 위임사무 경비부담 제131조 시행 예산원장",
+      "why": "법문과 실제 재정집행 구분",
+      "status": "OPEN",
+      "priority": "HIGH"
+    },
+    {
+      "id": "L144-1956-NO-CONFIDENCE",
+      "institution": "국회회의록",
+      "target": "1956-03-31 김형근 내무부장관 불신임안 원표결·출석부",
+      "why": "김형근 법률 부서와 국회 신임관계 분리",
+      "status": "OPEN",
+      "priority": "HIGH"
+    }
+  ],
+  "flootUntouched": true,
+  "weeklyFullReview": false
+}
