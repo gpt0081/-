@@ -1,0 +1,5 @@
+# Run151 second continuation: June–July 1952 diplomatic and administrative evidence
+
+Directly opened FRUS XV/1 documents 184–223 (40 additional distinct pages). New major sources: d189 British nine-point program; d192 JCS conditional intervention instruction; d194 Muccio rejection of immediate ultimatum; d206 FRUS editorial on police-assisted Assembly attendance and July 4 vote; d207 Clark's July 5 contingency plan; d219 Muccio's July 12 report of seven conditional and three unconditional releases, continuing martial law, and post-amendment political atmosphere. An intervention contingency is not evidence that intervention was executed. Six new adversarial comparisons, 15 concrete archival leads and two additional cross-family checks recorded. Updated cumulative run151 totals in execution ledger supersede prior reports.
+
+All new sources have direct FRUS URLs; later editorial notes are not counted as contemporaneous originals. No new politician promotion, and no full Sunday historical-debt audit.
