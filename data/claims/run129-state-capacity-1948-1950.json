@@ -1,0 +1,203 @@
+{
+  "schemaVersion": 1,
+  "run": 129,
+  "claims": [
+    {
+      "id": "c129-audit-draft-vs-law",
+      "statement": "심계원법 정부초안의 심계관 16인과 최종 법률 제12호의 7인 이내는 서로 다른 입법 단계이다.",
+      "supportingEvidence": [
+        "d129-audit-draft",
+        "d129-audit-enacted",
+        "d129-audit-lawmeta"
+      ],
+      "contradictingEvidence": [],
+      "insufficientEvidence": [
+        "1948-11-22 제헌국회 본회의 속기록 및 관보 제12호 원면"
+      ],
+      "status": "NARROWED_DIFFERENT_STAGES",
+      "relatedEvents": [
+        "evt129-audit-draft-1111",
+        "evt129-audit-enacted-1204"
+      ],
+      "reviewDate": "2026-10-10",
+      "correctionHistory": []
+    },
+    {
+      "id": "c129-audit-independence",
+      "statement": "법률 제12호의 심계원은 대통령 직속이면서 국무원에 대하여 직무상 독립이라는 두 조건을 동시에 규정했다.",
+      "supportingEvidence": [
+        "d129-audit-enacted"
+      ],
+      "contradictingEvidence": [],
+      "insufficientEvidence": [
+        "관보 원면, 실제 인사·예산 독립성"
+      ],
+      "status": "STATUTE_REPRINT_ONLY",
+      "relatedEvents": [
+        "evt129-audit-enacted-1204"
+      ],
+      "reviewDate": "2026-10-10",
+      "correctionHistory": []
+    },
+    {
+      "id": "c129-property-veto-motives",
+      "statement": "1949-06-03 정부 귀속재산 임시동결 거부 논거에는 세입확충과 노후재산 훼손 방지가 함께 제시되었다.",
+      "supportingEvidence": [
+        "d129-vested-veto"
+      ],
+      "contradictingEvidence": [],
+      "insufficientEvidence": [
+        "국무회의 의결서·정부 재의요구 공문, 불하 집행실적"
+      ],
+      "status": "CONTEMPORANEOUS_REPORTED_RATIONALE",
+      "relatedEvents": [
+        "evt129-property-cabinet-veto-0603"
+      ],
+      "reviewDate": "2026-10-10",
+      "correctionHistory": []
+    },
+    {
+      "id": "c129-labor-signature-vs-policy",
+      "statement": "노동조정위원회 직제 제126호에는 이범석과 이윤영 서명이 확인되나 서명만으로 개인별 입안·결정·집행의 전 과정을 귀속할 수 없다.",
+      "supportingEvidence": [
+        "d129-labor-126"
+      ],
+      "contradictingEvidence": [],
+      "insufficientEvidence": [
+        "기록번호 1A00614174532601 원면·국무회의 심의록"
+      ],
+      "status": "ARCHIVAL_DESCRIPTION_ONLY",
+      "relatedEvents": [
+        "evt129-labor-decree-0606"
+      ],
+      "reviewDate": "2026-10-10",
+      "correctionHistory": []
+    },
+    {
+      "id": "c129-court-promulgation-effective",
+      "statement": "법원조직법 제51호 관보 전사는 1949-09-26 공포하면서 제79조에 1949-08-15 시행을 명시한다.",
+      "supportingEvidence": [
+        "d129-court-law51"
+      ],
+      "contradictingEvidence": [],
+      "insufficientEvidence": [
+        "관보 원면, 법제처 최초시행 연혁, 소급적용 판례"
+      ],
+      "status": "NARROWED_EFFECTIVE_DATE_REVIEW",
+      "relatedEvents": [
+        "evt129-court-law51-0926"
+      ],
+      "reviewDate": "2026-10-10",
+      "correctionHistory": []
+    },
+    {
+      "id": "c129-court-appointment-chain",
+      "statement": "1949년 법원조직법 제37·38조는 대법관·판사 인사에서 법관회의·대법원장의 제청과 대통령 임명을 구분한다.",
+      "supportingEvidence": [
+        "d129-court-law51"
+      ],
+      "contradictingEvidence": [],
+      "insufficientEvidence": [
+        "법관회의 제청서 및 개별 임명장"
+      ],
+      "status": "SUPPORTED_STATUTORY_TEXT",
+      "relatedEvents": [
+        "evt129-court-law51-0926"
+      ],
+      "reviewDate": "2026-10-10",
+      "correctionHistory": []
+    },
+    {
+      "id": "c129-econ15-policy-not-outcome",
+      "statement": "1950년 경제안정 15원칙은 국무회의 안건 목록과 동시대 신문 보도로 확인되지만 각 조항의 실제 성과는 이들 자료만으로 확정되지 않는다.",
+      "supportingEvidence": [
+        "d129-cabinet-index",
+        "d129-econ15"
+      ],
+      "contradictingEvidence": [],
+      "insufficientEvidence": [
+        "1950-02-21 제16차 국무회의 원의결서·1950-03-02 대통령 재결문·물가통계"
+      ],
+      "status": "PARTIAL_CROSS_PROVENANCE",
+      "relatedEvents": [
+        "evt129-econ15-cabinet-0221",
+        "evt129-econ15-rhee-0302"
+      ],
+      "reviewDate": "2026-10-10",
+      "correctionHistory": []
+    },
+    {
+      "id": "c129-election-body-nonidentity",
+      "statement": "1950년 선거위원회 설치·위원 임명과 1963년 헌법기관 선관위 설립은 법적 근거와 시기가 달라 동일 기관의 단순 연속으로 간주하지 않는다.",
+      "supportingEvidence": [
+        "d129-election121",
+        "d129-nec2017",
+        "d97-dh_017_1950_04_14_0080"
+      ],
+      "contradictingEvidence": [],
+      "insufficientEvidence": [
+        "법률 제121호 원 조문·1950년 임명 원부·1963년 선관위 조직법"
+      ],
+      "status": "NARROWED_LAW_HISTORY",
+      "relatedEvents": [
+        "evt129-election-law121-0412",
+        "evt129-election-nine-0414"
+      ],
+      "reviewDate": "2026-10-10",
+      "correctionHistory": []
+    },
+    {
+      "id": "c129-us-aid-request-not-appropriation",
+      "statement": "미국의 1949년 한국 원조 1억5천만 달러 요청은 FY1950 실제 1억1천만 달러 세출승인액과 같지 않다.",
+      "supportingEvidence": [
+        "d129-frus260"
+      ],
+      "contradictingEvidence": [],
+      "insufficientEvidence": [
+        "P.L.343/430/447/583 원문, ECA 지출 장부"
+      ],
+      "status": "LATER_OFFICIAL_EDITORIAL",
+      "relatedEvents": [
+        "evt129-frus-aid-19490607"
+      ],
+      "reviewDate": "2026-10-10",
+      "correctionHistory": []
+    },
+    {
+      "id": "c129-us-threat-assessment-not-fact",
+      "statement": "1949-12-01 무초의 전면전 위험 수용 판단은 미국 대사관의 당시 분석이며 북한의 실제 전쟁 의도를 확정하는 증거가 아니다.",
+      "supportingEvidence": [
+        "d129-frus298"
+      ],
+      "contradictingEvidence": [],
+      "insufficientEvidence": [
+        "KMAG 569·714 원문, 1949-12-09 회신, 소련·북한 동시대 명령"
+      ],
+      "status": "CONTEMPORANEOUS_OBSERVATION_ONLY",
+      "relatedEvents": [
+        "evt129-frus-security-1201"
+      ],
+      "reviewDate": "2026-10-10",
+      "correctionHistory": []
+    },
+    {
+      "id": "c129-cabinet-agenda-not-enactment",
+      "statement": "국가기록원 BA0135047 안건목록의 개별 항목은 국무회의 부의 사실을 나타낼 뿐 해당 정책의 승인·법제화·집행을 증명하지 않는다.",
+      "supportingEvidence": [
+        "d129-cabinet-index"
+      ],
+      "contradictingEvidence": [],
+      "insufficientEvidence": [
+        "개별 안건 본문, 회의록, 결재문, 시행 관보"
+      ],
+      "status": "INDEX_ONLY",
+      "relatedEvents": [
+        "evt129-cabinet-agrarian-transfer-0111",
+        "evt129-cabinet-secrecy-0123",
+        "evt129-cabinet-flood-195001"
+      ],
+      "reviewDate": "2026-10-10",
+      "correctionHistory": []
+    }
+  ]
+}
