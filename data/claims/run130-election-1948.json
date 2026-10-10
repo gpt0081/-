@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "run": 130,
+  "claims": [
+    {
+      "id": "c130-election-ballot-observers",
+      "statement": "1948년 7월 20일 감표위원에 백관수와 신성균 등이 선임되었다는 동시대 신문 보도가 있다.",
+      "supportingEvidence": [
+        "d130-election-19480720"
+      ],
+      "contradictingEvidence": [],
+      "insufficientEvidence": [
+        "국회 제헌국회 1948-07-20 원속기록·감표위원 명부"
+      ],
+      "relatedEvents": [
+        "evt130-election-scrutineers-19480720"
+      ],
+      "status": "CONTEMPORANEOUS_REPORTED_NOT_OFFICIAL_ROLL",
+      "reviewDate": "2026-10-10",
+      "correctionHistory": []
+    },
+    {
+      "id": "c130-election-time-inconsistency",
+      "statement": "1948-07-21 신문 전사에서 개표 시작 11:20, 결과 기입 완료 11:15라는 시간 역전이 있다.",
+      "supportingEvidence": [
+        "d130-election-19480720"
+      ],
+      "contradictingEvidence": [],
+      "insufficientEvidence": [
+        "신문 4종 개별 원면과 국회 속기록"
+      ],
+      "relatedEvents": [
+        "evt130-election-scrutineers-19480720"
+      ],
+      "status": "OPEN_SOURCE_INTERNAL_INCONSISTENCY",
+      "reviewDate": "2026-10-10",
+      "correctionHistory": []
+    }
+  ]
+}
