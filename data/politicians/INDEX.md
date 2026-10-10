@@ -110,3 +110,8 @@ See `data/politicians/run113-prewar-network.json` for 12 sourced profiles. No ca
 ## Run148 (2026-10-11): 1953 참의원선거법 인물망
 
 `data/politicians/run148-1953-senate-actors.json`: 신규 후보 8명, 기존 ID 6명 심화. 1953-11-30 원속기록 기반 의사행위 확인, 생몰·당적·선거구 미검증. 1953 본회의 법안과 1958 법률 제469호 구별.
+
+## Run151 · 1952 부산정치파동 내각·계엄 행위자
+- `data/politicians/run151-1952-cabinet-command-actors.json`: 장택상·이범석·이종찬의 기존 ID와 1952년 외교문서 연결.
+- `data/politicians/run151-1952-martial-judicial-actors.json`: 원용덕·서민호 기존 후보 ID와 원문 연결.
+- 새 생몰·한자 검증 및 정식 승격은 한국 인사원부 대조 전까지 보류.
