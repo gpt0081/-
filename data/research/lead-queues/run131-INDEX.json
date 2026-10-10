@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "run": 131,
+  "total": 30,
+  "queues": [
+    {
+      "path": "data/research/lead-queues/run131-originals.json",
+      "count": 15,
+      "range": "L131-1..15"
+    },
+    {
+      "path": "data/research/lead-queues/run131-supplement.json",
+      "count": 4,
+      "range": "L131-16..19"
+    },
+    {
+      "path": "data/research/lead-queues/run131-industry-health.json",
+      "count": 3,
+      "range": "L131-20..22"
+    },
+    {
+      "path": "data/research/lead-queues/run131-archival-inventory.json",
+      "count": 8,
+      "range": "L131-23..30"
+    }
+  ],
+  "deduplication": "ID range nonoverlapping",
+  "archivalIndexNotOriginalDocument": true
+}
