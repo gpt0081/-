@@ -5,44 +5,59 @@
   "branchHeadResolution": "READ_LIVE_REF_NOT_CACHED_SHA",
   "lastCompletedRun": 148,
   "latestRunReport": "data/research/runs/2026-10-11-run148-ledger.json",
-  "latestLeadQueue": "data/research/lead-queues/run148-next.json",
+  "latestLeadQueue": "data/research/lead-queues/run148c-backbone-originals.json",
   "latestDocumentRegistry": [
     "data/documents/run126-councils.json",
     "data/documents/run126-labor.json",
     "data/documents/run126-councils-followup.json",
     "data/documents/run126-may29-31-breadth.json",
-    "data/documents/run145-june1953-multi-provenance.json"
+    "data/documents/run145-june1953-multi-provenance.json",
+    "data/documents/run148-source-audit.json",
+    "data/documents/run148b-cabinet-archival-index.json"
   ],
   "latestEventOverlay": [
     "data/events/run126-councils.json",
     "data/events/run126-labor.json",
     "data/events/run126-councils-followup.json",
     "data/events/run126-may29-31-breadth.json",
-    "data/events/run145-action-graph.json"
+    "data/events/run145-action-graph.json",
+    "data/events/run148-cabinet-actions.json",
+    "data/events/run148-parliament-actions.json",
+    "data/events/run148b-constitutional-cabinet-sequence.json"
   ],
   "latestClaimOverlay": [
     "data/claims/run126-councils.json",
     "data/claims/run126-labor.json",
     "data/claims/run126-councils-followup.json",
     "data/claims/run126-may29-31-breadth.json",
-    "data/claims/run145-claims.json"
+    "data/claims/run145-claims.json",
+    "data/claims/run148-source-conflicts.json",
+    "data/claims/run148b-archival-adversarial.json"
   ],
   "latestPoliticianOverlay": [
     "data/politicians/run126-councils.json",
     "data/politicians/run126-labor.json",
     "data/politicians/run126-may29-31-candidates.json",
-    "data/politicians/run145-korean-actor-deepening.json"
+    "data/politicians/run145-korean-actor-deepening.json",
+    "data/politicians/run148-cabinet-parliament-candidates.json",
+    "data/politicians/run148-minister-candidates-2.json",
+    "data/politicians/run148-parliament-candidates-a.json",
+    "data/politicians/run148-parliament-candidates-b.json",
+    "data/politicians/run148-minister-candidates-c.json",
+    "data/politicians/run148-minister-candidates-d.json"
   ],
   "latestDebtAddenda": [
     "data/research/history-debt/run126-councils.md",
     "data/research/history-debt/run126-labor.md",
-    "data/research/history-debt/run126-breadth.md"
+    "data/research/history-debt/run126-breadth.md",
+    "data/research/history-debt/run148-source-contradictions.md"
   ],
   "latestAnnals": [
     "data/annals/1952-councils-run126.md",
     "data/annals/1951-1952-textile-run126.md",
     "data/annals/1952-may29-31-institutions-run126.md",
-    "data/annals/shin-tae-young.md"
+    "data/annals/shin-tae-young.md",
+    "data/annals/1954-actor-source-run148.md"
   ],
   "next": "1952-05-29 국회 제67차 원속기록; 1952-05-24~25 계엄 국무회의 원의사록; 한국은행 1952-05-29 제65차 금융통화위원회; 조방 1951 국무원 고시12·13호; 1952-06-09 대한노총 대회 원부",
   "flootUntouched": true,
@@ -62,7 +77,8 @@
     "data/research/rhee-syngman-coverage-run124.json",
     "data/research/rhee-syngman-coverage-run126.json",
     "data/research/rhee-syngman-coverage-run126-b.json",
-    "data/research/rhee-syngman-coverage-run126-d.json"
+    "data/research/rhee-syngman-coverage-run126-d.json",
+    "data/research/rhee-syngman-coverage-run148.json"
   ],
   "latestRun": 148,
   "latestRunLedger": "data/research/runs/2026-10-11-run148-ledger.json",
@@ -190,11 +206,11 @@
   "latestRunCommit": "37e2af4f62438034947b91eac8710784894ed885",
   "latestCorrection": "data/research/runs/run129-correction-addendum.md",
   "nextPriority": [
-    "1954-09-08 관보 제1170·1174 원면",
-    "1954-05-23 Briggs 1231·UN A/2711",
-    "체신부장관 李光 임명원부",
-    "1954-01-22 유시(8) 후속 집행",
-    "1954-11-29 제91차 의사록 정정동의"
+    "국가기록원 1954-09-08 관보 제1170·1174 원면",
+    "미국 RG59 1954-05-23 Briggs 1231 및 UN A/2711 pp7-10",
+    "총무처 1954-11-29 제62회 국무회의 BG0000053 20-2 원면",
+    "1954-01-22 국무회의 유시(8) 상인단속 집행 원부",
+    "1954-11-27/29 제90·91차 국회 의사록 정정 원부"
   ],
   "latestVerifiedDocuments": 13,
   "latestOfficialOrPrimary": 10,
@@ -242,5 +258,11 @@
   "latestResearchFocus": "1954-01-22 국무회의 국정지시·1953 참의원선거법·1954 개헌 및 출처 메타데이터 충돌",
   "latestCommitPending": false,
   "weeklyFullReviewCompleted": false,
-  "lastFullReview": "2026-09-27"
+  "lastFullReview": "2026-09-27",
+  "latestLeadQueues": [
+    "data/research/lead-queues/run148-next.json",
+    "data/research/lead-queues/run148b-archive-originals.json",
+    "data/research/lead-queues/run148b-metadata-adversarial.json",
+    "data/research/lead-queues/run148c-backbone-originals.json"
+  ]
 }
