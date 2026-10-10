@@ -1,0 +1,37 @@
+{
+  "run": 129,
+  "date": "2026-10-10",
+  "finalPart": "B",
+  "supersedesMetricsOf": "data/research/runs/2026-10-10-run129-ledger.json",
+  "metrics": {
+    "directlyReadUniqueDocuments": 40,
+    "primaryOrContemporaneousDocuments": 36,
+    "independentResearchLines": 20,
+    "substantivelyUpdatedDomains": 11,
+    "nonPresidentPeopleNewOrDeepened": 19,
+    "eventsOrSubevents": 25,
+    "claims": 16,
+    "adversarialChecks": 16,
+    "trackedPriorLeads": 8,
+    "newConcreteLeads": 45,
+    "crossProvenanceGroups": 3,
+    "formalPromotions": 0
+  },
+  "additionalSources": "data/documents/run129b-1951-53-governance-economy.json",
+  "additionalEventGraph": "data/events/run129b-policy-actions.json",
+  "additionalClaims": "data/claims/run129b-policy-claims.json",
+  "additionalPoliticians": [
+    "data/politicians/run129b-new-actors.json",
+    "data/politicians/run129b-cabinet-action-overlay.json"
+  ],
+  "limitations": [
+    "Primary includes contemporaneous newspaper reports and archival transcriptions, not 36 original facsimiles",
+    "FRUS and US OIR are a provenance family, not independent confirmations of each other",
+    "1952-07-04 planned infrastructure proposals not verified as implemented",
+    "1952-07-05 Rhee election freedom promise is actor statement, not proof of free election",
+    "No full 1-hour wall-clock claim",
+    "Original HISTORY_DEBT.md not overwritten; run129 supplement preserved"
+  ],
+  "weeklyFullHistoryDebtReview": "NOT_PERFORMED_SATURDAY",
+  "flootModified": false
+}
