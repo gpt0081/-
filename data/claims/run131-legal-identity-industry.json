@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "run": 131,
+  "claims": [
+    {
+      "id": "c131-audit-final",
+      "statement": "1948-12-04 법률 제12호 심계원법 제2조 심계관은 원장·차장 포함 7인 이내다.",
+      "supportingEvidence": [
+        "d131-law12",
+        "d130-audit-second"
+      ],
+      "contradictingEvidence": [],
+      "insufficientEvidence": [
+        "1948-12-04 관보 원면"
+      ],
+      "relatedEvents": [
+        "evt131-audit-final"
+      ],
+      "status": "LEGAL_TEXT_CONFIRMED_FACSIMILE_OPEN"
+    },
+    {
+      "id": "c131-article-number",
+      "statement": "최종 제17조 출석답변 요구권, 제23조 재심, 제24조 징계요구. 기존 L130-23 '제24조 재심'은 최종 조문번호 오류다.",
+      "supportingEvidence": [
+        "d131-law12"
+      ],
+      "contradictingEvidence": [],
+      "insufficientEvidence": [
+        "11월22~23일 국회 원면"
+      ],
+      "relatedEvents": [
+        "evt131-audit-final"
+      ],
+      "status": "CORRECTED_WITH_HISTORY",
+      "correctionHistory": [
+        {
+          "date": "2026-10-10",
+          "from": "L130-23 제24조 재심",
+          "to": "최종법 제23조 재심; 제24조 징계"
+        }
+      ]
+    },
+    {
+      "id": "c131-audit-separation",
+      "statement": "심계원은 대통령 직속이면서 국무원에 대해 직무상 독립이고 사무총국은 심계원장 감독을 받는다. 이는 특정 대통령 명령의 존재를 뜻하지 않는다.",
+      "supportingEvidence": [
+        "d131-law12",
+        "d131-constitution95"
+      ],
+      "contradictingEvidence": [],
+      "insufficientEvidence": [
+        "실제 임명·운영 원부"
+      ],
+      "relatedEvents": [
+        "evt131-audit-final"
+      ],
+      "status": "NORMATIVE_TEXT_ONLY"
+    },
+    {
+      "id": "c131-jeong-identity",
+      "statement": "정광호 鄭光好의 1919 독립운동·1947 광주부윤·1948 제헌의원 신원 연속성과 생년은 원부 대조가 필요하다.",
+      "supportingEvidence": [
+        "d131-mpva-jeong",
+        "d131-aks-jeong",
+        "d130-audit-second"
+      ],
+      "contradictingEvidence": [],
+      "insufficientEvidence": [
+        "1919 판결",
+        "1947 인사원부",
+        "1948 후보등록원부",
+        "1887/1895 생년 불일치"
+      ],
+      "relatedEvents": [
+        "evt131-jeong-cross-period"
+      ],
+      "status": "NARROWED"
+    },
+    {
+      "id": "c131-salt-not-result",
+      "statement": "1949년 소금증산 5개년계획의 305000톤은 목표이며 실제 생산 실적이나 대통령 결재로 볼 수 없다.",
+      "supportingEvidence": [
+        "d131-salt1949"
+      ],
+      "contradictingEvidence": [],
+      "insufficientEvidence": [
+        "상공부 연차통계",
+        "ECA 승인문서"
+      ],
+      "relatedEvents": [
+        "evt131-salt-plan"
+      ],
+      "status": "PLAN_ONLY"
+    }
+  ]
+}
