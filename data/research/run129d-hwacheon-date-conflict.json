@@ -1,0 +1,48 @@
+{
+  "run": 129,
+  "part": "D",
+  "documents": [
+    {
+      "id": "d129d-aks-hwacheon",
+      "title": "화천수력발전소 해제",
+      "originalLocation": "https://encykorea.aks.ac.kr/Article/E0064899",
+      "sourceType": "AKS_LATER_SECONDARY",
+      "directRead": true,
+      "accessDate": "2026-10-10",
+      "finding": "제2호기 복구완료 1953년 7월 서술"
+    },
+    {
+      "id": "d129d-gangwon-2015",
+      "title": "정전 전후 강원도 경제현황",
+      "originalLocation": "https://www.kado.net/news/articleView.html?idxno=717288",
+      "sourceType": "REGIONAL_PRESS_LATER_SECONDARY",
+      "directRead": true,
+      "accessDate": "2026-10-10",
+      "finding": "화천 2호기 1954년 7월 발전 시작 서술"
+    }
+  ],
+  "claim": {
+    "id": "clm129d-hwacheon-unit2-date",
+    "statement": "화천발전소 2호기 복구완료·발전개시 연도 불일치",
+    "status": "CONFLICTED_METADATA",
+    "supportingEvidence": [
+      "d129d-aks-hwacheon"
+    ],
+    "contradictingEvidence": [
+      "d129d-gangwon-2015"
+    ],
+    "preciseDifference": "AKS 복구완료 1953-07 vs 강원도민일보 발전시작 1954-07; 복구와 상업운전은 서로 다른 단계일 가능성",
+    "insufficientEvidence": [
+      "한국전력 20년사 원면",
+      "1953~1954 준공검사/발전일지"
+    ],
+    "openLead": "L129D-01"
+  },
+  "lead": {
+    "id": "L129D-01",
+    "institution": "한국전력/국가기록원",
+    "document": "『한국전력 20년사』 1981 및 1953~1954 화천 2호기 준공·발전 일지",
+    "reason": "1953 복구완료와 1954 발전개시가 양립 가능한 단계인지 확인",
+    "status": "OPEN"
+  }
+}
