@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-09",
+  "updatedAt": "2026-10-10",
   "purpose": "대한민국 정치인 실록의 인물 registry. 대통령은 초기 backbone일 뿐이며 모든 인물은 독립된 정치인 노드로 취급한다.",
   "politicians": [
     {
@@ -1251,6 +1251,65 @@
       ],
       "lifeDatesStatus": "not verified",
       "researchNotes": "1950-04-22 국도신문 동시대 전사. 동명이인 및 소속 원문 대조 전 승격 보류."
+    },
+    {
+      "id": "pol-r139-heo-jeong",
+      "name": "허정",
+      "aliases": [
+        "許政",
+        "Heo Jeong",
+        "Huh Chung"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "NOT_RECHECKED"
+      },
+      "roles": [
+        "1952-01-15 국무총리서리(연설 표제)"
+      ],
+      "researchStatus": "IDENTIFIED",
+      "backbone": false,
+      "connections": [
+        "evt139-heo-program"
+      ],
+      "evidenceDocumentIds": [
+        "d139-1952-heo-speech"
+      ],
+      "annalsFile": "data/annals/heo-jeong-run139.md",
+      "openLeadsFile": "data/research/lead-queues/run139-next.json"
+    },
+    {
+      "id": "pol-r139-jang-taek-sang",
+      "name": "장택상",
+      "aliases": [
+        "張澤相",
+        "Chang Taek-sang",
+        "Jang Taek-sang"
+      ],
+      "legacyCandidateIds": [
+        "cand-r134-chang-taek-sang"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "NOT_RECHECKED"
+      },
+      "roles": [
+        "1952-06-18 국무총리(담화 표제)"
+      ],
+      "researchStatus": "IDENTIFIED",
+      "backbone": false,
+      "connections": [
+        "evt139-jang-statement",
+        "evt139-policy-critique"
+      ],
+      "evidenceDocumentIds": [
+        "d139-1952-jang",
+        "d139-1952-critique"
+      ],
+      "annalsFile": "data/annals/jang-taek-sang-run139.md",
+      "openLeadsFile": "data/research/lead-queues/run139-next.json"
     }
   ]
 }
