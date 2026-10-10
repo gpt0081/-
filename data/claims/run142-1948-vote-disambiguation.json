@@ -1,0 +1,26 @@
+{
+  "run": 142,
+  "claims": [
+    {
+      "id": "clm142-1948-appointment",
+      "status": "PARTIAL_PASS_PARTIAL_FAIL",
+      "question": "진헌식의 국무총리·국무위원 임명 수정안이 모두 가결되었는가",
+      "supporting": [
+        "d142-cons0460"
+      ],
+      "finding": "국무총리 국회 승인 117:19 가결, 총리의 국무위원 제청권 39:90 부결",
+      "guardrail": "한 의원의 단일 설명 안에 포함된 분리 표결을 혼합하지 않음"
+    },
+    {
+      "id": "clm142-1948-budget",
+      "status": "PRIMARY_VOTE_CONFIRMED",
+      "question": "진헌식의 예산 제출시점·가예산 수정안 통과 여부",
+      "supporting": [
+        "d142-cons0480",
+        "d142-cons0490"
+      ],
+      "finding": "정부예산 제출시점 87:10 가결, 가예산 112:21 가결",
+      "guardrail": "재석·찬성·반대 수 차이를 기권표로 단정하지 않음"
+    }
+  ]
+}
