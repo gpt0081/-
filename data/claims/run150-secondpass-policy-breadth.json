@@ -1,0 +1,70 @@
+{
+  "run": 150,
+  "pass": 2,
+  "claims": [
+    {
+      "id": "clm-r150b-education86-original",
+      "statement": "교육법 법률 제86호는 1949-12-31 제정·시행, 제정법 전사에는 제177조까지 존재한다. 제173조 종결이라는 2차 자료 표기와 충돌하므로 관보 원면 재검증이 필요하다.",
+      "status": "NARROWED",
+      "supportingEvidence": [
+        "d150b-edu86",
+        "d150b-edu86-text"
+      ],
+      "insufficientEvidence": [
+        "1949-12-31 관보 제86호 원면",
+        "2차자료 제173조 주장 정확한 문맥"
+      ],
+      "interpretationGuard": "전사 조문 수와 관보 원본 확정은 구분"
+    },
+    {
+      "id": "clm-r150b-local-election-delay",
+      "statement": "1949 지방자치법 제32호는 7월4일 제정·8월15일 시행했으나 첫 지방의원 선거는 1952년 4월25일과 5월10일이었다. 1949-12-15 개정으로 선거 연기·정지 권한이 추가되었다.",
+      "status": "SUPPORTED_WITH_SECONDARY_INSTITUTIONAL_HISTORY",
+      "supportingEvidence": [
+        "d150b-local32",
+        "d150b-local-archive"
+      ],
+      "insufficientEvidence": [
+        "1949-12-15 개정 법률 원면",
+        "1952 선거별 선관위 공보"
+      ],
+      "interpretationGuard": "법 시행일과 선거 실시일 구별"
+    },
+    {
+      "id": "clm-r150b-prosecution-institution",
+      "statement": "1949-12-03 제헌국회 제5회 제57차 백관수 법사위원장은 검찰청법 대안을 설명하며 검찰 조직·수사국·검사 신분·경찰관 체임 문제를 열거했다.",
+      "status": "SUPPORTED_PRIMARY_TRANSCRIPT",
+      "supportingEvidence": [
+        "d150b-prosecution-transcript",
+        "d150b-prosecution-archive"
+      ],
+      "interpretationGuard": "위원장 설명과 대통령 직접 지시를 혼동하지 않음"
+    },
+    {
+      "id": "clm-r150b-farm31-vs108",
+      "statement": "농지개혁법 최초 제정은 1949-06-21 법률 제31호이며 1950-03-10 법률 제108호는 개정법이다.",
+      "status": "SUPPORTED_OFFICIAL_LAW_HISTORY",
+      "supportingEvidence": [
+        "d150b-farm31",
+        "d150b-farm-law-history",
+        "d150b-farm-amendment"
+      ],
+      "contradictingEvidence": [],
+      "correctionHistory": [
+        {
+          "date": "2026-10-11",
+          "note": "Prior run149 had already identified a contradictory secondary heading; do not silently overwrite."
+        }
+      ]
+    },
+    {
+      "id": "clm-r150b-1950-committee-speaker",
+      "statement": "1950-01-28 농지개혁법 개정안 제1독회에서 산업위원장 대리 이병관이 위원회안을 설명하고 정부안·의원안을 종합했다고 밝혔다.",
+      "status": "SUPPORTED_PRIMARY_STENOGRAM",
+      "supportingEvidence": [
+        "d150b-farm-amendment"
+      ],
+      "interpretationGuard": "이병관 개인의 모든 위원회 결정으로 귀속하지 않음"
+    }
+  ]
+}
