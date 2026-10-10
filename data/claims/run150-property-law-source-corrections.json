@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "run": 150,
+  "claims": [
+    {
+      "id": "clm-r150-law74-date",
+      "statement": "귀속재산처리법 법률 제74호 제정·공포일은 1949-12-19이다. AKS 해제의 1949-12-29는 법제처 원 법령 연혁과 충돌한다.",
+      "status": "CORRECTED_METADATA",
+      "supportingEvidence": [
+        "d150-law74-original",
+        "d150-law74-reason",
+        "d150-nikh-1949-parliament"
+      ],
+      "contradictingEvidence": [
+        "d150-aks-law74"
+      ],
+      "uncertainty": "관보 원면 별도 미확보; 법제처 제정법 날짜는 12-19로 확인",
+      "correctionHistory": [
+        {
+          "date": "2026-10-11",
+          "priorStatement": "AKS 1949-12-29",
+          "action": "preserve contradictory metadata; prefer statutory date"
+        }
+      ]
+    },
+    {
+      "id": "clm-r150-law342-agency",
+      "statement": "1954-09-23 법률 제342호 개정 제17조의 매수자 결정권자는 관재청장이다. AKS 해제의 관세청장 표기는 법률 원문과 다르다.",
+      "status": "CORRECTED_METADATA",
+      "supportingEvidence": [
+        "d150-law342-amendment",
+        "d150-law74-reason"
+      ],
+      "contradictingEvidence": [
+        "d150-aks-law74"
+      ],
+      "correctionHistory": [
+        {
+          "date": "2026-10-11",
+          "priorStatement": "관세청장",
+          "correctedStatement": "관재청장"
+        }
+      ]
+    },
+    {
+      "id": "clm-r150-law1515-date",
+      "statement": "귀속재산처리법 법률 제1515호는 1963-12-14 공포, 1963-12-17 시행이며 AKS 해제의 1967-12-27과 다르다.",
+      "status": "CORRECTED_METADATA",
+      "supportingEvidence": [
+        "d150-law1515-history"
+      ],
+      "contradictingEvidence": [
+        "d150-aks-law74"
+      ],
+      "correctionHistory": [
+        {
+          "date": "2026-10-11",
+          "priorStatement": "1967-12-27",
+          "correctedStatement": "1963-12-14 공포 / 12-17 시행"
+        }
+      ]
+    },
+    {
+      "id": "clm-r150-1949-veto-vote",
+      "statement": "1949-12-03 제헌국회 귀속재산처리법 재의 시 재석 135명, 가 20, 부 49가 전사되며 3분의2 재의결 요건에 미달했다.",
+      "status": "SUPPORTED_WITH_VOTE_REMAINDER_OPEN",
+      "supportingEvidence": [
+        "d150-nikh-1949-parliament"
+      ],
+      "insufficientEvidence": [
+        "원면 재검수 및 가·부 외 66명의 기권/불참 처리 원부"
+      ],
+      "interpretationGuard": "135-20-49=66을 자동으로 기권이라고 단정하지 않음"
+    },
+    {
+      "id": "clm-r150-1949-committee-amendment",
+      "statement": "1949-11-16 국회 심의는 종업원·주택 없는 빈곤 근로자의 우선매수 범위를 다루었으며, 12-03 정부 재의에서는 종업원조합을 별도로 쟁점화했다.",
+      "status": "SUPPORTED_WITH_ROLE_SPLIT",
+      "supportingEvidence": [
+        "d150-nikh-nov16",
+        "d150-nikh-1949-parliament"
+      ],
+      "interpretationGuard": "종업원 일반과 종업원조합을 같은 법적 범주로 합치지 않음"
+    },
+    {
+      "id": "clm-r150-june15-revote",
+      "statement": "1949-06-15 귀속재산임시조치법 재의결은 국사편찬위원회 해제상 재석144 가132 부10이다. 동시대 130:3 전승과 원면 대조가 필요하다.",
+      "status": "CONFLICTED_UNRESOLVED",
+      "supportingEvidence": [
+        "d150-nikh-1949-parliament"
+      ],
+      "contradictingEvidence": [
+        "prior run149 contemporary 130:3 source not re-opened in run150"
+      ],
+      "insufficientEvidence": [
+        "제3회 제17차 원속기록 12면 이미지"
+      ],
+      "interpretationGuard": "해제 수치와 미확인 동시대 수치를 별도 층위로 보존"
+    },
+    {
+      "id": "clm-r150-post-rhee-later-finding",
+      "statement": "2000-06-01 헌재 98헌가13 위헌 판단은 1964-12-31 신설 제21조의3의 정당한 사유 있는 미납자 자동해제 부분에 관한 후대 판단이다.",
+      "status": "SUPPORTED_LEGAL_INDEX_ONLY",
+      "supportingEvidence": [
+        "d150-law-later-constitutional-note"
+      ],
+      "insufficientEvidence": [
+        "헌법재판소 결정문 공식 원문 직접 확보"
+      ],
+      "interpretationGuard": "1964 입법과 2000 위헌 판단을 1948~1960 이승만 개인 결정으로 귀속하지 않음"
+    },
+    {
+      "id": "clm-r150-1949-press-accord-date",
+      "statement": "1949-10-31 서상일 심의 설명 전사에 최초협정 날짜 1948-05-11로 표기되지만 1949 제정법 원문은 1948-09-11이다.",
+      "status": "CONFLICTED_SOURCE_TRANSCRIPTION",
+      "supportingEvidence": [
+        "d150-law74-reason",
+        "d150-nikh-1949-parliament"
+      ],
+      "contradictingEvidence": [
+        "d150-nikh-1949-10-31-seo"
+      ],
+      "insufficientEvidence": [
+        "1949-10-31 신문 원면 및 1948 최초협정 원본"
+      ],
+      "interpretationGuard": "서상일의 실제 발언 착오인지 신문/전사 오류인지 미판정"
+    }
+  ]
+}
