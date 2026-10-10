@@ -4,8 +4,8 @@
   "branchRef": "refs/heads/research/run145-20261011-robertson-tasca-identity-audit",
   "branchHeadResolution": "READ_LIVE_REF_NOT_CACHED_SHA",
   "lastCompletedRun": 145,
-  "latestRunReport": "data/research/runs/2026-10-11-run145-ledger.json",
-  "latestLeadQueue": "data/research/lead-queues/run145-next.json",
+  "latestRunReport": "data/research/runs/2026-10-11-run145b-extension.json",
+  "latestLeadQueue": "data/research/lead-queues/run145b-next-addendum.json",
   "latestDocumentRegistry": [
     "data/documents/run126-councils.json",
     "data/documents/run126-labor.json",
@@ -217,5 +217,16 @@
       "L145-08"
     ],
     "sourceCorrection": "FRUS Shin Tai-Yong vs 한국사DB 신성모"
+  },
+  "run145b": {
+    "extensionLedger": "data/research/runs/2026-10-11-run145b-extension.json",
+    "documents": "data/documents/run145b-domestic-policy.json",
+    "actors": "data/politicians/run145b-policy-actor-candidates.json",
+    "events": "data/events/run145b-domestic-policy.json",
+    "claims": "data/claims/run145b-domestic-policy.json",
+    "newDebt": "data/research/history-debt/run145b-domestic-policy.md",
+    "leadQueue": "data/research/lead-queues/run145b-next-addendum.json",
+    "directlyOpenedAdditional": 14,
+    "cumulativeDirectlyOpened": 40
   }
 }
