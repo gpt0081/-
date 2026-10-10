@@ -1,0 +1,81 @@
+{
+  "run": 129,
+  "date": "2026-10-10",
+  "scope": "1952-07-04~31 constitution, cabinet roster, POW policy and claim correction",
+  "metrics": {
+    "uniqueDocumentsDirectRead": 24,
+    "primaryOrContemporaneous": 21,
+    "independentResearchLines": 10,
+    "domainsSubstantivelyUpdated": 5,
+    "nonPresidentActorsIdentified": 14,
+    "eventsOrSubevents": 13,
+    "claims": 10,
+    "adversarialChecks": 10,
+    "priorOpenLeadsFollowed": 8,
+    "nextConcreteLeads": 33,
+    "crossProvenanceGroups": 3,
+    "formalPromotions": 0
+  },
+  "provenanceChecks": [
+    {
+      "subject": "7/4 의결과 7/7 공포",
+      "families": [
+        "국회 속기록 기존 자료",
+        "관보688 원문",
+        "국가기록원 해제",
+        "동시대 언론"
+      ]
+    },
+    {
+      "subject": "구금 의원 10명",
+      "families": [
+        "동시대 한국 신문",
+        "미 대사관 7/12 전문",
+        "AKS 후대 해제"
+      ],
+      "result": "기존 신규체포 claim supporting source was release news"
+    },
+    {
+      "subject": "김석관 이름",
+      "families": [
+        "관보 한자",
+        "법제처 전사",
+        "AKS 인물 해제"
+      ],
+      "result": "금석관/김석관 불일치 보존"
+    }
+  ],
+  "adversarialSubjects": [
+    "10명 신규체포",
+    "의결/공포 시점",
+    "서명 사진 시점",
+    "김석관 이름",
+    "각료 명단과 개별 찬성",
+    "계엄 즉시 해제",
+    "언론 검열 해제와 자유",
+    "포로안 시행",
+    "민간인 억류자 석방 중단",
+    "소련 중재 실행"
+  ],
+  "trackedPriorLeads": [
+    "L128-01",
+    "L128-03",
+    "L128-04",
+    "L128-05",
+    "L128-06",
+    "L128-39",
+    "L128-40",
+    "L128-41"
+  ],
+  "limitations": [
+    "FRUS d219 is reused, not new",
+    "FRUS d232 access failed, not counted",
+    "UN A/2187 metadata only, not counted",
+    "law.go.kr is same constitutional original, not counted twice",
+    "14 cabinet profiles have mostly unverified lifespans and party",
+    "not a full one-hour execution",
+    "run128 inconsistent historical count not added"
+  ],
+  "weeklyFullHistoryDebtReview": "NOT_PERFORMED_SATURDAY",
+  "flootModified": false
+}
