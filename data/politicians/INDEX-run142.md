@@ -5,3 +5,5 @@
 - `pol-jin-heon-sik` 진헌식(陳憲植): 기존 stable ID 재사용. 내무장관 당대 기자회견과 농민회 조정 지시 수신 관계 추가. `data/annals/jin-heon-sik-run142.md`.
 
 기존 루트 `data/politicians.json`은 변경하지 않았다. 루트 승격은 다음 일괄 migration에서 중복 ID 검사 후 수행.
+
+- `pol-r142-paik-nak-jun` 백낙준(白樂濬, L. George Paik): 1951년 문교부장관 당대 발언·한국민족문화대백과사전 교차확인. `data/annals/paik-nak-jun-run142.md`. VERIFIED 후보, 루트 승격 대기.
