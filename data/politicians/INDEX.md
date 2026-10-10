@@ -108,3 +108,4 @@ See `data/politicians/run113-prewar-network.json` for 12 sourced profiles. No ca
 `data/politicians/run133-1952-inquiry-roster-actors.json`: 동아일보 1952-06-21 기사에 기록된 이시목·유덕천·백남식·한국원·오성환·김판석·유승준·서상국·이진수·김익로의 한자, 로마자, 당일 파별, 조사위원 명단 등장행위를 개별 candidate ID로 분리했다. **10명 모두 IDENTIFIED / 공식 의원원부 미확인**, canonical 승격하지 않음. 관련 event: `evt-r133-19520619-inquiry-roster`. 본문 원문은 `d131-0619-0020`, 원문 대조 및 역사부채는 run133 ledger 참조.
 
 - Run148 (2026-10-11): 1954-01-23·09-08 관보와 3월 국회 원속기록에서 17명 IDENTIFIED 후보를 `run148-1954-cabinet-legislature.json`, `run148-cabinet-jan-a.json`, `run148-cabinet-jan-b.json`, `run148-cabinet-sep-a.json`, `run148-cabinet-sep-b.json`, `run148-cabinet-sep-c.json`, `run148-sep-and-assembly-a.json`에 연결. 생몰·영문표기·임명일 미검증. 공식 부서는 개인의 법안 기초를 입증하지 않음.
+- Run148 인물→사건/기관 관계: `run148-actor-links-a.json`부터 `run148-actor-links-e.json`까지 17개 candidate/stable ID 연결. 부서=직접 기초 아님, 영문/생몰 미검증을 유지.
