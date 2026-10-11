@@ -1,0 +1,60 @@
+{
+  "run": 172,
+  "claims": [
+    {
+      "id": "claim-r172-confidence-votes",
+      "statement": "1952-10-30 국무원 불신임 표결의 찬성표 수",
+      "status": "CONFLICTED",
+      "supporting_evidence": [
+        "doc-r172-dh_027_1952_10_30_0070: 앞부분 103표"
+      ],
+      "contradicting_evidence": [
+        "doc-r172-dh_027_1952_10_30_0070: 뒷부분 105표"
+      ],
+      "insufficient_evidence": [
+        "국회 본회의 속기록 미확보"
+      ],
+      "contemporaneous_observation": [
+        "민주신보 기사 내부 수치 불일치"
+      ],
+      "later_finding": [],
+      "next_test": "1952-10-30 제11차 국회 회의록 원표결 대조"
+    },
+    {
+      "id": "claim-r172-confidence-quorum",
+      "statement": "불신임결의는 과반수 찬성에도 3분의2 기준으로 부결되었다",
+      "status": "NARROWED",
+      "supporting_evidence": [
+        "doc-r172-dh_027_1952_10_30_0070"
+      ],
+      "contradicting_evidence": [],
+      "insufficient_evidence": [
+        "1952년 헌법 제70조 전문·당일 의결 정족수 기록"
+      ],
+      "contemporaneous_observation": [
+        "재적 3분의2 적용 논쟁과 표결 보도"
+      ],
+      "later_finding": [],
+      "next_test": "국회 정족수 의결문 및 1952-07-07 헌법 원문"
+    },
+    {
+      "id": "claim-r172-presale-statistics",
+      "statement": "1952-12-04 전북 입도선매 보고의 25,890건은 확정 통계인가",
+      "status": "NARROWED",
+      "supporting_evidence": [
+        "doc-r172-dh_027_1952_12_04_0080: 조사 전 집계"
+      ],
+      "contradicting_evidence": [
+        "동일 기사: 조사단은 다수 수치를 허위보고에 기인한다고 평가"
+      ],
+      "insufficient_evidence": [
+        "읍면별 원장·표본·수정집계"
+      ],
+      "contemporaneous_observation": [
+        "동아일보 전사"
+      ],
+      "later_finding": [],
+      "next_test": "12/4 조사위원회 원통계와 정정표 확보"
+    }
+  ]
+}
