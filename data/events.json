@@ -2090,7 +2090,7 @@
       ],
       "executed_by": [],
       "opposed_by": [
-        "pol-shin-seong-gyun-1949"
+        "org-r152-home-security-committee"
       ],
       "legal_authority": [],
       "observed_by": [],
@@ -2099,7 +2099,16 @@
         "d152-nikh-local"
       ],
       "evidenceState": "SECONDARY_STENOGRAM_CITED",
-      "attributionNote": "국회·정부 행위를 대통령 개인 직접지시로 자동 귀속하지 않음"
+      "attributionNote": "국회·정부 행위를 대통령 개인 직접지시로 자동 귀속하지 않음",
+      "committee_chair": [
+        "pol-shin-seong-gyun-1949"
+      ],
+      "reviewHistory": [
+        {
+          "date": "2026-10-11",
+          "correction": "위원회 차원의 정부안 수정과 위원장 개인의 명시적 반대 발언을 구분. 개인 opposed_by 철회."
+        }
+      ]
     },
     {
       "id": "evt152-1948-provisional-vote",
@@ -2193,17 +2202,24 @@
         "pol-kim-jae-hak-1949"
       ],
       "legal_authority": [],
-      "observed_by": [
-        "pol-park-yun-won-1949",
-        "pol-no-il-hwan-1949",
-        "pol-hwang-byeong-gyu-1949"
-      ],
+      "observed_by": [],
       "later_finding": [],
       "documentIds": [
         "d152-nikh-local"
       ],
       "evidenceState": "SECONDARY_STENOGRAM_CITED",
-      "attributionNote": "국회·정부 행위를 대통령 개인 직접지시로 자동 귀속하지 않음"
+      "attributionNote": "국회·정부 행위를 대통령 개인 직접지시로 자동 귀속하지 않음",
+      "supported_by": [
+        "pol-park-yun-won-1949",
+        "pol-no-il-hwan-1949",
+        "pol-hwang-byeong-gyu-1949"
+      ],
+      "reviewHistory": [
+        {
+          "date": "2026-10-11",
+          "correction": "찬성토론 인물을 observed_by로 잘못 입력. supported_by로 이동. 국회 원속기록 미확인."
+        }
+      ]
     },
     {
       "id": "evt152-1949-effective-date",
@@ -2245,8 +2261,7 @@
         "pol-seo-u-seok-1949"
       ],
       "proposed_by": [
-        "pol-kim-su-seon-1949",
-        "pol-seo-u-seok-1949"
+        "pol-kim-su-seon-1949"
       ],
       "decided_by": [
         "org-r146-constituent-assembly"
@@ -2260,7 +2275,16 @@
         "d152-nikh-local"
       ],
       "evidenceState": "SECONDARY_STENOGRAM_CITED",
-      "attributionNote": "국회·정부 행위를 대통령 개인 직접지시로 자동 귀속하지 않음"
+      "attributionNote": "국회·정부 행위를 대통령 개인 직접지시로 자동 귀속하지 않음",
+      "associated_with": [
+        "pol-seo-u-seok-1949"
+      ],
+      "reviewHistory": [
+        {
+          "date": "2026-10-11",
+          "correction": "서우석은 정파 관련자로 해제에 등장하지만 개별 수정안 직접 발의 여부 미확인. proposed_by에서 associated_with로 보수적 재분류."
+        }
+      ]
     },
     {
       "id": "evt152-1949-second-return",
