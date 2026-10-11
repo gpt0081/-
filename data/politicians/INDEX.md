@@ -126,3 +126,11 @@ See `data/politicians/run113-prewar-network.json` for 12 sourced profiles. No ca
 ## Run153 (2026-10-11): 여순·제주 계엄 행위자
 - 정식 registry IDENTIFIED 추가: pol-lee-in-1896(이인), pol-kim-baek-il-1917(김백일), pol-kim-dong-seong-1890(김동성). 김동성은 기존 run126 후보 ID 재사용. 모두 원속기록·원포고·원임명장 미확보로 VERIFIED 승격하지 않음.
 - 5개 action은 data/events.json 및 run153 overlay에 연결. 법제처/NIKH 대통령령13호는 동일 원법령으로 중복계수 금지.
+
+## Run165 (2026-10-12): 1950 헌정 발언·의정절차·인사관계
+
+- `data/politicians/run165-1950-actor-candidates.json`: 13명 행위자(기존 canonical ID 재사용 및 잠정 후보 혼합). 우덕순·김경배의 공직 여부 미검증이므로 정식 정치인으로 자동 승격하지 않는다.
+- `data/relationships/run165-time-scoped-speech-action.json`: 날짜·방향·원문이 있는 인물관계 6건과 발언-행동 대조 3건.
+- `data/annals/yun-chi-yeong-1950-run165.md`, `data/annals/shin-ik-hui-1950-run165.md`: 비대통령 인물의 독립 실록 보강.
+- `data/research/runs/2026-10-12-run165-ledger.json`: 원문·색인·기존 run164 중복을 구분한 실행 감사.
+- 중앙 `data/politicians.json` 승격은 생몰·직책·선거구 원부 확인 전 보류. Floot 미수정.
