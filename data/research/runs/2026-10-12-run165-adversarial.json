@@ -1,0 +1,66 @@
+{
+  "run": 165,
+  "checks": [
+    {
+      "id": "r165-adv01",
+      "claim": "1950-03-15 개헌 재투표",
+      "challenge": "3/14 제52차 최종 표결과 3/15 제53차 선거법 심의",
+      "sources": [
+        "r165-d02",
+        "r165-d03",
+        "r165-d14",
+        "r165-d15"
+      ],
+      "outcome": "CONFLICTED; March 15 original minutes still required"
+    },
+    {
+      "id": "r165-adv02",
+      "claim": "이승만은 1950년에 모든 개헌을 반대했다",
+      "challenge": "같은 3/14 담화의 양원제·직선제 제안",
+      "sources": [
+        "r165-d01"
+      ],
+      "outcome": "OVERBROAD INTERPRETATION REJECTED"
+    },
+    {
+      "id": "r165-adv03",
+      "claim": "1950 담화와 1952 개헌은 단순한 언행 불일치",
+      "challenge": "1950 담화의 양원제·직선제 동시 제안 및 전쟁기 조건변화",
+      "sources": [
+        "r165-d01",
+        "r165-d15"
+      ],
+      "outcome": "OPEN; original government drafting chain needed"
+    },
+    {
+      "id": "r165-adv04",
+      "claim": "3/18 공무원 감원안이 4/1 그대로 집행됐다",
+      "challenge": "3/18 35%·15% 제안과 4/1 30%·10%·경찰 5% 보도",
+      "sources": [
+        "r165-d04",
+        "r165-d05"
+      ],
+      "outcome": "NOT SAME RATIOS; implementation records needed"
+    },
+    {
+      "id": "r165-adv05",
+      "claim": "대한국민당 추천 인물이 총리로 임명됐다",
+      "challenge": "윤치영 추천서와 신성모 총리서리 임명 분리",
+      "sources": [
+        "r165-d06",
+        "r165-d16"
+      ],
+      "outcome": "NOT CONFIRMED; different persons and legal acts"
+    },
+    {
+      "id": "r165-adv06",
+      "claim": "국회는 총리서리 임명이 불법이라고 법적으로 확정했다",
+      "challenge": "국회 통고서 반환 결의와 전문위원 이상규의 상반 법률해석",
+      "sources": [
+        "r165-d16"
+      ],
+      "outcome": "CONFLICTED LEGAL INTERPRETATION; judicial holding absent"
+    }
+  ],
+  "claim_resolution_rule": "no silent overwrite"
+}

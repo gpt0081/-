@@ -1,0 +1,119 @@
+{
+  "run": 165,
+  "relationships": [
+    {
+      "id": "r165-rel01",
+      "occurred_at": "1950-03-13",
+      "from_id": "pol-cho-bong-am",
+      "to_id": "pol-r141-shin-ik-hui",
+      "relation_type": "urged_next_day_vote",
+      "event_id": "r165-e01",
+      "document_ids": [
+        "r165-d02"
+      ],
+      "status": "CONTEMPORARY_TRANSCRIPTION",
+      "limits": "의장이 실제로 해당 발언만을 이유로 연기했는지는 미확정"
+    },
+    {
+      "id": "r165-rel02",
+      "occurred_at": "1950-03-14",
+      "from_id": "pol-rhee-syngman",
+      "to_id": "pol-r141-shin-ik-hui",
+      "relation_type": "public_response_to_parliamentary_vote",
+      "event_id": "r165-e03",
+      "document_ids": [
+        "r165-d01",
+        "r165-d03"
+      ],
+      "status": "TRANSCRIPTION_CROSS_REFERENCE",
+      "limits": "개헌 부결 축하 담화는 개별 의원의 비밀투표 선택을 증명하지 않음"
+    },
+    {
+      "id": "r165-rel03",
+      "occurred_at": "1950-03-14",
+      "from_id": "pol-rhee-syngman",
+      "to_id": "pol-seo-sang-il",
+      "relation_type": "opposed_proposal_not_personal_hostility",
+      "event_id": "r165-e03",
+      "document_ids": [
+        "r165-d01",
+        "r165-d15"
+      ],
+      "status": "ISSUE_SCOPED",
+      "limits": "장기적 사적 대립·동기를 추정하지 않음"
+    },
+    {
+      "id": "r165-rel04",
+      "occurred_at": "1950-04-14",
+      "from_id": "pol-yun-chi-yeong",
+      "to_id": "pol-rhee-syngman",
+      "relation_type": "party_recommendation_delivered",
+      "event_id": "r165-e07",
+      "document_ids": [
+        "r165-d06"
+      ],
+      "status": "CONTEMPORARY_REPORT",
+      "limits": "추천은 임명이나 대통령 수락을 뜻하지 않음"
+    },
+    {
+      "id": "r165-rel05",
+      "occurred_at": "1950-04-21",
+      "from_id": "pol-rhee-syngman",
+      "to_id": "pol-shin-sung-mo",
+      "relation_type": "acting_prime_minister_appointment",
+      "event_id": "r165-e08",
+      "document_ids": [
+        "r165-d16"
+      ],
+      "status": "CONTEMPORARY_REPORT",
+      "limits": "임명 사실과 법적 적법성 논쟁은 별개"
+    },
+    {
+      "id": "r165-rel06",
+      "occurred_at": "1950-04-21",
+      "from_id": "pol-lim-byong-jik",
+      "to_id": "ORG_UNCOK_JAMIESON_UNRESOLVED",
+      "relation_type": "requested_election_observation",
+      "event_id": "r165-e09",
+      "document_ids": [
+        "r165-d07"
+      ],
+      "status": "REPRODUCED_LETTER",
+      "limits": "수신·실제 참관 결과는 미확인; 수신자 기관/개인 stable ID 미생성"
+    }
+  ],
+  "statement_action_links": [
+    {
+      "id": "r165-sal01",
+      "actor_id": "pol-rhee-syngman",
+      "statement_event_id": "r165-e03",
+      "later_action_event_id": null,
+      "comparison_source_id": "r165-d15",
+      "later_action": "1951-11-30 및 1952-05-14 정부 개헌안 제안(국회기록원 연혁)",
+      "relation": "POLICY_PROPOSAL_CONTINUITY_TO_VERIFY",
+      "status": "NARROWED",
+      "reason": "1950 담화에서 양원제·직선제를 동시에 주장. 1952 정부안의 개인 결재·집행은 아직 직접 확인되지 않음"
+    },
+    {
+      "id": "r165-sal02",
+      "actor_id": "pol-rhee-syngman",
+      "statement_event_id": "r165-e03",
+      "later_action_event_id": "r165-e03",
+      "comparison_source_id": "r165-d01",
+      "relation": "INTRA_STATEMENT_QUALIFICATION",
+      "status": "VERIFIED_TRANSCRIPTION",
+      "reason": "기본적 헌법 조건 변경 반대와 구체적 제도 개정 요구가 같은 담화에 공존. 전체 개헌 반대라고 단정하지 않음"
+    },
+    {
+      "id": "r165-sal03",
+      "actor_id": "pol-yun-chi-yeong",
+      "statement_event_id": null,
+      "later_action_event_id": "r165-e07",
+      "comparison_source_id": "r165-d06",
+      "relation": "PARTY_NOMINATION_NOT_APPOINTMENT",
+      "status": "VERIFIED_CONTEMPORARY_REPORT",
+      "reason": "대한국민당 추천과 신성모 총리서리 임명은 다른 행위자·다른 결과"
+    }
+  ],
+  "do_not_score_politicians": true
+}
