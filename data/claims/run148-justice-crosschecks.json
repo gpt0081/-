@@ -1,0 +1,49 @@
+{
+  "run": 148,
+  "part": "justice_addendum",
+  "claims": [
+    {
+      "id": "cl148c-criminal",
+      "status": "NARROWED",
+      "claim": "1954 형사소송법안 2/19 본회의 가결→3/13 정부 재의요구→3/19 국회 재가결→9/23 법률 제341호 공포, 당초 시행예정일 5/30 경과.",
+      "documents": [
+        "d148c-criminal"
+      ],
+      "next": "국회 본회의 속기록·법률 제341호 관보 원면·법적 효력 판단"
+    },
+    {
+      "id": "cl148c-bank",
+      "status": "CONFLICTED_METADATA",
+      "claim": "국가기록원 연표의 한국산업은행 발족일 4/1과 같은 기관 '오늘의 기록' 4/3이 다름.",
+      "documents": [
+        "d148b-chronology",
+        "d148c-bank-day"
+      ],
+      "next": "설립령 제860호·국무총리비서실 BA0135203·정부 출자금 납입일 원부"
+    },
+    {
+      "id": "cl148c-academy",
+      "status": "NARROWED",
+      "claim": "1954-07-17 학술원·예술원 개원은 1952 문화보호법을 토대로 함.",
+      "documents": [
+        "d148c-academy",
+        "d148b-chronology"
+      ],
+      "next": "문화보호법 제248호 원문 및 회원선거 원부"
+    }
+  ],
+  "adversarialSearches": [
+    {
+      "question": "형사소송법 2월 국회 통과=즉시 공포인가",
+      "counter": "정부 3월 재의요구·9월 공포"
+    },
+    {
+      "question": "한국산업은행 설립일 4월1일 확정인가",
+      "counter": "국가기록원 같은 기관 4월3일 표기"
+    },
+    {
+      "question": "학술원 1954 개원=1954 법률 제정인가",
+      "counter": "문화보호법 제248호 1952"
+    }
+  ]
+}

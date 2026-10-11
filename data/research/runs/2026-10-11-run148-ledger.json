@@ -2,18 +2,18 @@
   "run": 148,
   "date": "2026-10-11",
   "scope": "1953-1958 입법절차·1954 국무회의·선거 집계 검증",
-  "directDocumentsOpened": 14,
-  "officialOrPrimaryTextDocuments": 13,
+  "directDocumentsOpened": 31,
+  "officialOrPrimaryTextDocuments": 20,
   "facsimilesOpened": 0,
   "priorRunDocumentOverlap": true,
-  "independentResearchLines": 10,
+  "independentResearchLines": 21,
   "nonPresidentNodesNew": 12,
-  "nonPresidentExistingDeepened": 3,
-  "newEvents": 12,
-  "adversarialSearches": 10,
-  "crossProvenanceChecks": 3,
+  "nonPresidentExistingDeepened": 6,
+  "newEvents": 33,
+  "adversarialSearches": 21,
+  "crossProvenanceChecks": 5,
   "trackedOpenLeads": 8,
-  "newSpecificLeads": 38,
+  "newSpecificLeads": 58,
   "domains": [
     "헌정·입법",
     "선거",
@@ -28,12 +28,12 @@
   "lastFullReview": "2026-09-27",
   "weeklyReviewStatement": "역사부채 주간 전수조사 미실시",
   "limits": [
-    "원면 이미지 0건",
-    "run147 원문 중복 열람 존재",
-    "20개 독립 연구선 및 40개 문서 하한 미달",
-    "일요일 역사부채 중앙·위성 전수 재조사 미완료",
-    "1954 선관위 당선공고 원부 미확보",
-    "정확한 경과시간을 검증할 수 없어 1시간 실행 주장하지 않음"
+    "40 direct substantive documents threshold not reached (31 actual)",
+    "All official/primary direct texts 20; original facsimiles opened 0",
+    "Many source URLs overlap earlier runs, unique project-wide acquisitions lower",
+    "Full weekly history debt census not done, only targeted debts reviewed",
+    "No reliable wall-clock elapsed time recorded; do not claim 1h execution",
+    "Some official narrative pages conflict with other pages of same institution; unresolved metadata preserved"
   ],
   "correction": "canonical 1954 개헌 표결일 11/29→11/27, 원문구 correctionHistory 보존",
   "changedFiles": [
@@ -44,6 +44,70 @@
     "data/research/ACTIVE_RESEARCH_HANDOFF.json",
     "data/documents/run148-verified-openings.json",
     "data/claims/run148-adversarial-crosschecks.json",
+    "data/research/lead-queues/run148-next.json",
+    "data/research/runs/2026-10-11-run148-ledger.json"
+  ],
+  "corrections": [
+    "1954 개헌 원표결일 11/29→11/27",
+    "한국산업은행 설립일 4/1 vs 4/3 충돌 보존",
+    "어업자원보호법 제298호 1953/1954 공포일 충돌 보존",
+    "1954 형사소송법 재의요구·지연공포 절차 분리"
+  ],
+  "researchLineIds": [
+    "L01-1954-health-bills",
+    "L02-1954-quarantine-law",
+    "L03-1954-epidemic-law-effective",
+    "L04-1954-constitution-vote",
+    "L05-1954-constitution-motion",
+    "L06-1954-election-seat-tally",
+    "L07-1953-senate-bill",
+    "L08-1954-rice-storage",
+    "L09-1954-tungsten",
+    "L10-1954-foreign-capital-personnel",
+    "L11-1954-industrial-bank",
+    "L12-1954-fiscal-year",
+    "L13-1954-counterpart-fund",
+    "L14-1954-reconstruction-fund",
+    "L15-1954-admin-execution",
+    "L16-1954-literacy",
+    "L17-1954-unesco",
+    "L18-1954-unkra",
+    "L19-1954-fisheries-law",
+    "L20-1954-criminal-procedure",
+    "L21-1954-academies"
+  ],
+  "sourceCountsByBatch": [
+    {
+      "path": "data/documents/run148-verified-openings.json",
+      "meaningful": 14,
+      "officialPrimary": 13
+    },
+    {
+      "path": "data/documents/run148-breadth-openings.json",
+      "meaningful": 14,
+      "officialPrimary": 7
+    },
+    {
+      "path": "data/documents/run148-justice-openings.json",
+      "meaningful": 3,
+      "officialPrimary": 0
+    }
+  ],
+  "modifiedFiles": [
+    "data/events.json",
+    "data/politicians.json",
+    "data/research/HISTORY_DEBT.md",
+    "data/research/history-debt/run148-followup.md",
+    "data/research/run148-coverage-delta.json",
+    "data/research/run148-coverage-breadth-delta.json",
+    "data/research/ACTIVE_RESEARCH_HANDOFF.json",
+    "data/documents/run148-verified-openings.json",
+    "data/documents/run148-breadth-openings.json",
+    "data/documents/run148-justice-openings.json",
+    "data/claims/run148-adversarial-crosschecks.json",
+    "data/claims/run148-breadth-crosschecks.json",
+    "data/claims/run148-justice-crosschecks.json",
+    "data/organizations/run148-institutions.json",
     "data/research/lead-queues/run148-next.json",
     "data/research/runs/2026-10-11-run148-ledger.json"
   ]
