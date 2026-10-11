@@ -30,7 +30,10 @@
       "coverageFile": "data/research/rhee-syngman-coverage.json",
       "connections": [
         "evt-1950-0421-acting-pm-parliament-dispute",
-        "evt-1950-0421-rhee-administrative-remarks"
+        "evt-1950-0421-rhee-administrative-remarks",
+        "evt-r150-19550811-nnsc-meeting",
+        "evt-r150-19550903-rhee-letter",
+        "evt-r150-19550914-nnsc-field-observation"
       ],
       "evidenceDocumentIds": [
         "d114b-04",
@@ -40,7 +43,10 @@
         "doc145-frus-639",
         "doc145-frus-644",
         "doc145-frus-646",
-        "d150-pa-19550820"
+        "d150-pa-19550820",
+        "d150-frus-77",
+        "d150-frus-84",
+        "d150-frus-86"
       ],
       "researchNotes": [
         {
@@ -73,7 +79,10 @@
         }
       ],
       "eventIds": [
-        "evt-r150-19550820-nnsc-peace-statement"
+        "evt-r150-19550820-nnsc-peace-statement",
+        "evt-r150-19550811-nnsc-meeting",
+        "evt-r150-19550903-rhee-letter",
+        "evt-r150-19550914-nnsc-field-observation"
       ]
     },
     {
@@ -4341,18 +4350,10 @@
         "verification": "UNVERIFIED"
       },
       "roles": [
-        {
-          "period": "1955-09",
-          "title": "국민회 경상북도 본부 총무차장",
-          "verification": "retrospective_reference_only"
-        }
+        "국민회 경상북도 본부 총무차장"
       ],
       "affiliations": [
-        {
-          "organization": "자유당/국민회/국회",
-          "period": "1955-09",
-          "verification": "SEE_ROLE_TEXT_NOT_INDEPENDENTLY_CONFIRMED"
-        }
+        "국민회"
       ],
       "eventIds": [
         "evt-r150-19550914-daegu-press-attack"
@@ -4371,7 +4372,17 @@
       "historyDebtIds": [
         "HD-R150-02"
       ],
-      "backbone": false
+      "backbone": false,
+      "roleTimeline": [
+        {
+          "period": "1955-09",
+          "title": "국민회 경상북도 본부 총무차장",
+          "verification": "retrospective_reference_only"
+        }
+      ],
+      "connections": [
+        "evt-r150-19550914-daegu-press-attack"
+      ]
     },
     {
       "id": "pol-hong-yeong-seop-1955-daegu",
@@ -4387,18 +4398,10 @@
         "verification": "UNVERIFIED"
       },
       "roles": [
-        {
-          "period": "1955-09",
-          "title": "자유당 경상북도당 감찰부장",
-          "verification": "retrospective_reference_only"
-        }
+        "자유당 경상북도당 감찰부장"
       ],
       "affiliations": [
-        {
-          "organization": "자유당/국민회/국회",
-          "period": "1955-09",
-          "verification": "SEE_ROLE_TEXT_NOT_INDEPENDENTLY_CONFIRMED"
-        }
+        "자유당"
       ],
       "eventIds": [
         "evt-r150-19550914-daegu-press-attack"
@@ -4416,7 +4419,17 @@
       "historyDebtIds": [
         "HD-R150-02"
       ],
-      "backbone": false
+      "backbone": false,
+      "roleTimeline": [
+        {
+          "period": "1955-09",
+          "title": "자유당 경상북도당 감찰부장",
+          "verification": "retrospective_reference_only"
+        }
+      ],
+      "connections": [
+        "evt-r150-19550914-daegu-press-attack"
+      ]
     },
     {
       "id": "pol-choi-chang-seop-1955-inquiry",
@@ -4430,18 +4443,10 @@
         "verification": "UNVERIFIED"
       },
       "roles": [
-        {
-          "period": "1955-09",
-          "title": "대구매일신문 피습 국회 진상조사단장(후대 해제)",
-          "verification": "retrospective_reference_only"
-        }
+        "대구매일신문 피습 국회 진상조사단장(후대 해제)"
       ],
       "affiliations": [
-        {
-          "organization": "자유당/국민회/국회",
-          "period": "1955-09",
-          "verification": "SEE_ROLE_TEXT_NOT_INDEPENDENTLY_CONFIRMED"
-        }
+        "국회 진상조사단(정당 미확인)"
       ],
       "eventIds": [
         "evt-r150-19550920-assembly-inquiry"
@@ -4458,7 +4463,17 @@
       "historyDebtIds": [
         "HD-R150-02"
       ],
-      "backbone": false
+      "backbone": false,
+      "roleTimeline": [
+        {
+          "period": "1955-09",
+          "title": "대구매일신문 피습 국회 진상조사단장(후대 해제)",
+          "verification": "retrospective_reference_only"
+        }
+      ],
+      "connections": [
+        "evt-r150-19550920-assembly-inquiry"
+      ]
     },
     {
       "id": "pol-park-sun-seok-1955",
@@ -4472,18 +4487,10 @@
         "verification": "UNVERIFIED"
       },
       "roles": [
-        {
-          "period": "1955-09",
-          "title": "자유당 소속 국회의원(후대 해제)",
-          "verification": "retrospective_reference_only"
-        }
+        "자유당 소속 국회의원(후대 해제)"
       ],
       "affiliations": [
-        {
-          "organization": "자유당/국민회/국회",
-          "period": "1955-09",
-          "verification": "SEE_ROLE_TEXT_NOT_INDEPENDENTLY_CONFIRMED"
-        }
+        "자유당"
       ],
       "eventIds": [
         "evt-r150-19550920-assembly-inquiry"
@@ -4500,6 +4507,62 @@
       "historyDebtIds": [
         "HD-R150-02"
       ],
+      "backbone": false,
+      "roleTimeline": [
+        {
+          "period": "1955-09",
+          "title": "자유당 소속 국회의원(후대 해제)",
+          "verification": "retrospective_reference_only"
+        }
+      ],
+      "connections": [
+        "evt-r150-19550920-assembly-inquiry"
+      ]
+    },
+    {
+      "id": "pol-chung-il-kwon",
+      "name": "정일권",
+      "aliases": [
+        "丁一權",
+        "Chung Il Kwon"
+      ],
+      "roles": [
+        "1955년 육군참모총장"
+      ],
+      "roleTimeline": [
+        {
+          "period": "1955-09",
+          "title": "ROK Army Chief of Staff",
+          "sourceDocumentIds": [
+            "d150-frus-86"
+          ]
+        }
+      ],
+      "affiliations": [
+        "대한민국 육군"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "not_reviewed"
+      },
+      "researchStatus": "IDENTIFIED",
+      "eventIds": [
+        "evt-r150-19550914-nnsc-field-observation"
+      ],
+      "connections": [
+        "evt-r150-19550914-nnsc-field-observation"
+      ],
+      "evidenceDocumentIds": [
+        "d150-frus-86"
+      ],
+      "openLeads": [
+        "L150-32"
+      ],
+      "historyDebtIds": [
+        "HD-R150-10"
+      ],
+      "promotionReason": "1955-09-14 FRUS 동시대 외교문서에서 직책과 발언 확인",
       "backbone": false
     }
   ]
