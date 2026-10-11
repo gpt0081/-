@@ -478,3 +478,14 @@ run110d 신규 6건: `data/research/history-debt/run110-addendum.md`. `HD-RHEE-1
 - HD-R152-05 OPEN: 1949 법률 제73호 선거연기권의 1952년 실제 집행문서.
 - 기존 HD-R151-05는 법제처 원연혁 확인으로 NARROWED, 기관 metadata 충돌은 보존.
 - 역사부채 주간 전수조사 미실시. last_full_review 변경하지 않음.
+
+## Run152 (2026-10-11) 추가 미해결 기록
+연구 브랜치: research/run152-20261011-local-autonomy-legislative-actors.
+HD-R152-06 OPEN: 1949 지방행정 법률 효력 공백.
+HD-R152-07 CONFLICTED: 1949-05-16 vs 05-17 종료일.
+HD-R152-08 OPEN: 국가공무원법 노동권 해석.
+HD-R152-09 OPEN: 후생복표 실제 집행.
+HD-R152-10 OPEN: 농산물검사 지정지역.
+HD-R152-11 OPEN: 대통령령 제159·161호 원문 구별.
+HD-R152-12 OPEN: 후생복표 특별회계 결산.
+역사부채 주간 전수조사 미실시. last_full_review 불변.

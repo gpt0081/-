@@ -118,3 +118,6 @@ See `data/politicians/run113-prewar-network.json` for 12 sourced profiles. No ca
 
 ## Run152 (2026-10-11) 지방자치 입법행위자
 기본 registry에 제헌국회 12인 IDENTIFIED_CANDIDATE 추가. 생몰·한자·지역구 미검증. 기존 김수선·이주형 ID는 run95와 연결, 중복 생성 금지. 상세 data/politicians/run152-local-autonomy-crosslinks.json.
+
+## Run152 검증 승격·연계 (2026-10-11)
+신성균(申性均)은 1948-10-02 원속기록·신문으로 위원장 행위 VERIFIED. 백관수(白寬洙), 전규홍(全奎弘)은 1949-07-15 원속기록으로 당일 직책 확인, IDENTIFIED. 이번 회차 신규 14명·기존 6명 연계. 생몰·선거구 미검증. 연구 브랜치 research/run152-20261011-local-autonomy-legislative-actors.
