@@ -597,3 +597,8 @@ HD-R152-12 OPEN: 후생복표 특별회계 결산.
 - `HD-R173-007` OPEN: 한미 미곡예상고 차이 원산정표.
 - `HD-R173-008` NARROWED: 김태선 내무장관 면직·서울시장 복귀 정확일.
 - 근거·원문 표적: `data/research/history-debt/run173-addendum.json`.
+
+### run173 후속 산술 검증 (1952년 11월 말)
+- `HD-R173-009` CONFLICTED: 11/22 치안국 양곡사고 총 51,226석, 지역 합계 17,878.4석, 유형 합계 20,757.4석으로 불일치. 치안국 원통계·평화일보 원면 확인.
+- `HD-R173-010` CONFLICTED: 11/27 재정적자 기사에서 655억과 655만 표기가 혼재. 재무부 1952년 10월 재정수지 원표·동아일보 원면 확인.
+- 근거: `data/claims/run173-claims-addendum.json`, `data/documents/run173-1952-11-22.json`, `data/documents/run173-1952-11-27.json`.
