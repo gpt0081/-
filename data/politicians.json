@@ -2048,15 +2048,25 @@
           "evidenceDocumentIds": [
             "d114-seoul-19500422"
           ]
+        },
+        {
+          "period": "1949-11-24",
+          "title": "1949-11-24 제헌국회 제5회 제49차 본회의 부의장",
+          "evidenceDocumentIds": [
+            "d156-1949-1124-assembly-catalog"
+          ],
+          "verification": "OFFICIAL_CATALOG_ONLY"
         }
       ],
       "researchStatus": "IDENTIFIED",
       "promotionReason": "1950년 4월 당대 기사와 기존 run113 국회 인물자료가 동일 정치적 행위자를 가리킴. 정식 의원원부 미확인.",
       "connections": [
-        "evt-1950-0421-acting-pm-parliament-dispute"
+        "evt-1950-0421-acting-pm-parliament-dispute",
+        "evt156-1949-1124-education-second-reading"
       ],
       "evidenceDocumentIds": [
-        "d114-seoul-19500422"
+        "d114-seoul-19500422",
+        "d156-1949-1124-assembly-catalog"
       ],
       "openLeads": [
         "L114-11"
@@ -2275,15 +2285,25 @@
         {
           "period": "1950-04-21",
           "title": "무소속 측 총리서리 임시조치 견해"
+        },
+        {
+          "period": "1949-11-24",
+          "title": "1949-11-24 교육법 제2독회 발언자 색인 등재(입장·찬반 미확인)",
+          "evidenceDocumentIds": [
+            "d156-1949-1124-assembly-catalog"
+          ],
+          "verification": "OFFICIAL_CATALOG_ONLY"
         }
       ],
       "researchStatus": "DISCOVERED",
       "backbone": false,
       "connections": [
-        "evt-1950-0421-acting-pm-parliament-dispute"
+        "evt-1950-0421-acting-pm-parliament-dispute",
+        "evt156-1949-1124-education-second-reading"
       ],
       "evidenceDocumentIds": [
-        "d114b-01"
+        "d114b-01",
+        "d156-1949-1124-assembly-catalog"
       ],
       "openLeads": [
         "국회 제헌의원 원명부·소속·생몰 대조"
@@ -2412,7 +2432,15 @@
         "verification": "NOT_VERIFIED_IN_THIS_RUN"
       },
       "roles": [
-        "1953 국회의장; 노동조합법·근로기준법·전시근로동원법안 대통령 이송"
+        "1953 국회의장; 노동조합법·근로기준법·전시근로동원법안 대통령 이송",
+        {
+          "period": "1949-11-24",
+          "title": "1949-11-24 제헌국회 제5회 제49차 본회의 의장",
+          "evidenceDocumentIds": [
+            "d156-1949-1124-assembly-catalog"
+          ],
+          "verification": "OFFICIAL_CATALOG_ONLY"
+        }
       ],
       "rolePeriods": [
         {
@@ -2431,13 +2459,16 @@
       "backbone": false,
       "connections": [
         "evt-r141-05",
-        "evt-r141-06"
+        "evt-r141-06",
+        "evt156-1949-1124-education-second-reading",
+        "evt156-1949-1126-education-assembly-passage"
       ],
       "evidenceDocumentIds": [
         "d141-pa764",
         "d141-pa765",
         "d141-pa766",
-        "d141-pa767"
+        "d141-pa767",
+        "d156-1949-1124-assembly-catalog"
       ],
       "evidenceFile": "data/evidence/run141-actor-evidence.json",
       "openLeadsFile": "data/research/lead-queues/run141-next.json",
@@ -2679,7 +2710,15 @@
         "verification": "NOT_VERIFIED_IN_THIS_RUN"
       },
       "roles": [
-        "1950 문교부장관; 고용원규정 국무위원 서명"
+        "1950 문교부장관; 고용원규정 국무위원 서명",
+        {
+          "period": "1949-11-24",
+          "title": "1949-11-24 제헌국회 제5회 제49차 교육법 제2독회에 문교부장관으로 발언자 색인 등재",
+          "evidenceDocumentIds": [
+            "d156-1949-1124-assembly-catalog"
+          ],
+          "verification": "OFFICIAL_CATALOG_ONLY"
+        }
       ],
       "rolePeriods": [
         {
@@ -2694,10 +2733,13 @@
       "promotionReason": "명시된 인명·직책을 공식 기록관 해제 또는 동시대 기사와 연결. 생몰·당적은 미검증.",
       "backbone": false,
       "connections": [
-        "evt-r141-02"
+        "evt-r141-02",
+        "evt156-1949-0330-education-cabinet-draft",
+        "evt156-1949-1124-education-second-reading"
       ],
       "evidenceDocumentIds": [
-        "d141-pa769"
+        "d141-pa769",
+        "d156-1949-1124-assembly-catalog"
       ],
       "evidenceFile": "data/evidence/run141-actor-evidence.json",
       "openLeadsFile": "data/research/lead-queues/run141-next.json",
@@ -4081,6 +4123,14 @@
           "title": "제헌국회 입법 행위자",
           "period": "1948-1949",
           "verification": "SECONDARY_STENOGRAM_CITATION"
+        },
+        {
+          "period": "1949-11-24",
+          "title": "1949-11-24 교육법 제2독회 발언자 색인 등재(입장·찬반 미확인)",
+          "evidenceDocumentIds": [
+            "d156-1949-1124-assembly-catalog"
+          ],
+          "verification": "OFFICIAL_CATALOG_ONLY"
         }
       ],
       "affiliations": [
@@ -4101,12 +4151,14 @@
         }
       ],
       "connections": [
-        "evt152-1949-reconsideration"
+        "evt152-1949-reconsideration",
+        "evt156-1949-1124-education-second-reading"
       ],
       "researchStatus": "IDENTIFIED",
       "researchStatusReason": "Named in NIKH analysis with dated stenogram reference; original speech and biography not independently verified",
       "evidenceDocumentIds": [
-        "d152-nikh-local"
+        "d152-nikh-local",
+        "d156-1949-1124-assembly-catalog"
       ],
       "evidenceCoverage": "ONE_SECONDARY_FAMILY",
       "openLeads": [
@@ -4685,6 +4737,50 @@
       ],
       "backbone": false,
       "researchStatusReason": "1949 담당검사 실명과 1950 공판 검사 후대 명단 교차, 생몰·직급 원임명장 미확인"
+    },
+    {
+      "id": "pol-lee-yeong-jun-1949",
+      "name": "이영준",
+      "aliases": [
+        "Lee Yeong-jun",
+        "Yi Yŏng-jun"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "UNVERIFIED"
+      },
+      "roles": [
+        {
+          "period": "1949-11-24",
+          "title": "제헌국회 문교사회위원장(회의록 색인)",
+          "evidenceDocumentIds": [
+            "d156-1949-1124-assembly-catalog"
+          ],
+          "verification": "OFFICIAL_CATALOG"
+        }
+      ],
+      "researchStatus": "IDENTIFIED",
+      "researchStatusReason": "국회사무처 회의록 공식 색인에서 문교사회위원장 직책 확인. 한자·생몰·선거구·개별 발언은 미검증",
+      "backbone": false,
+      "connections": [
+        "evt156-1949-1124-education-second-reading",
+        "evt156-1949-1126-education-assembly-passage"
+      ],
+      "evidenceDocumentIds": [
+        "d156-1949-1124-assembly-catalog",
+        "d156-1949-1126-assembly-press"
+      ],
+      "annalsFile": "data/annals/lee-yeong-jun-1949.md",
+      "evidenceFile": "data/evidence/lee-yeong-jun-1949.json",
+      "openLeads": [
+        "L156-05",
+        "L156-06",
+        "L156-07"
+      ],
+      "historyDebt": [
+        "HD-R156-EDU-02"
+      ]
     }
   ]
 }

@@ -1,0 +1,133 @@
+{
+  "run": 156,
+  "date": "2026-10-11",
+  "claims": [
+    {
+      "id": "clm156-1949-government-proposal-633",
+      "statement": "1949-03-30 정부가 국회에 회부한 교육법안의 당시 보도상 학제는 6·3·3 구상이다",
+      "status": "CONTEMPORANEOUS_PROPOSAL_NOT_ENACTED",
+      "supportingEvidence": [
+        "d156-1949-0330-cabinet-press"
+      ],
+      "contradictingEvidence": [],
+      "insufficientEvidence": [
+        "1949-03-30 국무회의 원안/이송 공문"
+      ],
+      "eventIds": [
+        "evt156-1949-0330-education-cabinet-draft"
+      ]
+    },
+    {
+      "id": "clm156-1949-nov-passage-6424",
+      "statement": "1949-11-26 제헌국회 본회의 통과안에 관해 동시대 보도는 중학교 4년·고등학교 2~4년이라고 기록한다",
+      "status": "CONTEMPORANEOUS_PARLIAMENTARY_REPORT",
+      "supportingEvidence": [
+        "d156-1949-1126-assembly-press"
+      ],
+      "insufficientEvidence": [
+        "제5회 제51차 본회의 원속기록/자구수정본"
+      ],
+      "eventIds": [
+        "evt156-1949-1126-education-assembly-passage"
+      ]
+    },
+    {
+      "id": "clm156-1949-enacted-middle-four",
+      "statement": "1949-12-31 제정 교육법 제102조는 중학교 수업연한 4년, 제106조는 고등학교 2~4년으로 정했다",
+      "status": "ENACTED_LAW_VERIFIED",
+      "supportingEvidence": [
+        "d156-1949-law86-full",
+        "d154-education-law-86"
+      ],
+      "contradictingEvidence": [
+        "d156-1949-0330-cabinet-press"
+      ],
+      "contradictionScope": "3·3은 정부 제출안 보도이며 제정 최종법과 단계가 달라 진정한 동일시점 사실충돌은 아님",
+      "eventIds": [
+        "evt156-1949-1231-education-law86"
+      ]
+    },
+    {
+      "id": "clm156-1950-high-three-only",
+      "statement": "1950-03-10 법률 제118호는 고등학교 연한을 3년으로 바꾸고 중학교 3학년 수료자에게 고교 진학 경로를 허용했다; 중학교 자체 4년은 유지했다",
+      "status": "ENACTED_LAW_VERIFIED",
+      "supportingEvidence": [
+        "d156-1950-law118",
+        "d156-1949-law86-full"
+      ],
+      "eventIds": [
+        "evt156-1950-0310-education-law118"
+      ]
+    },
+    {
+      "id": "clm156-1951-middle-three",
+      "statement": "1951-03-20 법률 제178호에서 중학교 연한이 4년에서 3년으로 바뀌었다",
+      "status": "ENACTED_LAW_CROSSCHECKED",
+      "supportingEvidence": [
+        "d156-1951-law178",
+        "d156-1951-0320-amendment-press"
+      ],
+      "eventIds": [
+        "evt156-1951-0320-education-law178"
+      ]
+    },
+    {
+      "id": "clm156-1951-press-article-number",
+      "statement": "1951-03-24 부산일보 전사의 '제11조' 표기는 법제처 개정문 '제111조'와 다르다",
+      "status": "NARROWED_TRANSCRIPTION_DISCREPANCY",
+      "supportingEvidence": [
+        "d156-1951-0320-amendment-press",
+        "d156-1951-law178"
+      ],
+      "insufficientEvidence": [
+        "부산일보 1951-03-24 원지면"
+      ],
+      "eventIds": [
+        "evt156-1951-0320-education-law178"
+      ]
+    },
+    {
+      "id": "clm156-1949-education-districts",
+      "statement": "교육법 제16·20·29조는 교육구 지휘감독, 구교육위원회 구성, 교육감 임명경로를 규정했다",
+      "status": "NORMATIVE_LAW_NOT_EXECUTION",
+      "supportingEvidence": [
+        "d156-1949-law86-full"
+      ],
+      "insufficientEvidence": [
+        "지방의회 설치일·교육위원 임명대장"
+      ],
+      "eventIds": [
+        "evt156-1949-1231-education-district-law"
+      ]
+    },
+    {
+      "id": "clm156-1950-compulsory-applicability",
+      "statement": "제정 교육법 부칙 제167조는 의무교육을 1950-06-01 현재 취학시기 아동부터 적용한다고 규정했다",
+      "status": "NORMATIVE_LAW_NOT_EXECUTION",
+      "supportingEvidence": [
+        "d156-1949-law86-full",
+        "d154-education-law-86"
+      ],
+      "insufficientEvidence": [
+        "문교부 시행통첩·학교별 취학대장"
+      ],
+      "eventIds": [
+        "evt156-1950-0601-compulsory-education-applicability"
+      ]
+    },
+    {
+      "id": "clm156-1951-funding-guarantee",
+      "statement": "1951-12-01 제228호는 교육비 부족 교육구·시·특별시에 대한 국고 부족전액 보조 의무를 규정했다",
+      "status": "NORMATIVE_LAW_NOT_PAYMENT",
+      "supportingEvidence": [
+        "d156-1951-law228"
+      ],
+      "insufficientEvidence": [
+        "1951-1952 문교부 국고보조 교부원장"
+      ],
+      "eventIds": [
+        "evt156-1951-1201-education-funding-law228"
+      ]
+    }
+  ]
+}
