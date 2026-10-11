@@ -6,6 +6,8 @@
 
 각 사건은 가능한 범위에서 `proposed_by`, `decided_by`, `executed_by`, `opposed_by`, `legal_authority`, `observed_by`를 구분한다. 중앙 registry의 `politicians`은 정식 인물 ID만, `candidatePoliticians`은 미승격 후보 ID만 포함한다.
 
-관련 주장/반증: `data/claims/run172-*.json`의 13개. 문서 registry: `data/documents/run172-*.json`의 서로 다른 원문 위치 47건. 신문 전사·공식 관보 원문·FRUS 외교문서·후대 해설을 구별한다.
+관련 주장/반증: `data/claims/run172-*.json`의 13개. 문서 registry: `data/documents/run172-*.json`의 서로 다른 원문 위치 48건. 신문 전사·공식 관보 원문·FRUS 외교문서·후대 해설을 구별한다.
 
 **검증 유보:** 10/30 불신임 103/105표, 12/4 입도선매 통계, 11/8 미곡자금 집행, 전화 6000/5000대 발표, 영장 집행, 대통령 개인의 직접지시.
+
+- 추가 법령 검증: 헌법 제2호 제70조의2에 국무원 조직 후 1년 내 불신임 3분의2 예외가 명시됨. `doc-r172-constitution-1952-07-07`; 10/30 원표결과 조직완료일은 미확인.
