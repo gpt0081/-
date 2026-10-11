@@ -79,8 +79,8 @@
   "sourceCountsByBatch": [
     {
       "path": "data/documents/run148-verified-openings.json",
-      "meaningful": 14,
-      "officialPrimary": 13
+      "meaningful": 13,
+      "officialPrimary": 12
     },
     {
       "path": "data/documents/run148-breadth-openings.json",
@@ -89,8 +89,8 @@
     },
     {
       "path": "data/documents/run148-justice-openings.json",
-      "meaningful": 3,
-      "officialPrimary": 0
+      "meaningful": 4,
+      "officialPrimary": 1
     }
   ],
   "modifiedFiles": [
@@ -110,5 +110,19 @@
     "data/organizations/run148-institutions.json",
     "data/research/lead-queues/run148-next.json",
     "data/research/runs/2026-10-11-run148-ledger.json"
+  ],
+  "countCorrectionHistory": [
+    {
+      "date": "2026-10-11",
+      "prior": {
+        "firstBatch": 14,
+        "thirdBatch": 3
+      },
+      "corrected": {
+        "firstBatch": 13,
+        "thirdBatch": 4
+      },
+      "reason": "1958 law 469 list-only record duplicates full original; excluded. New substantive original official 1954 misdemeanor-law enactment reason directly read."
+    }
   ]
 }

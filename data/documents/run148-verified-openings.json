@@ -1,8 +1,8 @@
 {
   "run": 148,
   "date": "2026-10-11",
-  "uniqueDirectOpenings": 14,
-  "primaryOrOfficialText": 13,
+  "uniqueDirectOpenings": 13,
+  "primaryOrOfficialText": 12,
   "facsimilesOpened": 0,
   "priorRunOverlap": true,
   "documents": [
@@ -169,10 +169,13 @@
       "originalLocation": "https://www.law.go.kr/LSW/nwRvsLsPop.do?chrIdx=10&p_epubdt=19580430",
       "provenance": "법제처 공포 목록",
       "accessDate": "2026-10-11",
-      "originalTextOpened": true,
+      "originalTextOpened": false,
       "facsimileOpened": false,
-      "sourceType": "official_primary_text",
-      "originalFacsimileSecured": false
+      "sourceType": "metadata_only_duplicate",
+      "originalFacsimileSecured": false,
+      "excludedFromMeaningfulCount": true,
+      "duplicateOf": "d148b-senate-1958"
     }
-  ]
+  ],
+  "exclusionReason": "1958 law 469 promulgation list is metadata for the same law whose full original is counted once in d148b-senate-1958."
 }
