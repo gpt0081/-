@@ -1,0 +1,13 @@
+# Run166b additional findings | May 1950 police, military and diplomacy
+
+Newly directly read primary records: FRUS 1950 VII documents **24,25,26,28,29,30,31,32,33** (9 unique documents, same US publication provenance). Combined run166 total is **27** directly read contemporaneous records, 0 original images. FRUS 34-36 were opened but not close-read, and are **excluded**.
+
+1. **1950-04-20 military supply:** US Embassy reported the Korean arsenal budget was reduced from about 4 billion to 1.2 billion won and urged earlier delivery of spares, powder and primers. This narrows the February 10 pending defense-budget-cut lead but does not establish final defense accounts. FRUS d24.
+2. **1950-04-27 economic assessments:** Muccio told a US interdepartmental meeting that Korea had accepted stabilization recommendations. His favorable judgment is a contemporary observation, not proof that every measure was implemented. Figures about vested Japanese property, landholding, labor organizations and migration remain *his statements* pending domestic statistics. FRUS d26.
+3. **1950-04-30 acting premier:** Shin Sung-mo told the US mission police appointments had bypassed him and that he had offered to resign, but Rhee rejected the offer. DNP leader Kim Sung Soo separately voiced concern while acknowledging that campaigning had so far been free. FRUS d28.
+4. **1950-05-02 presidential explanation and administrative action:** Rhee argued police chief transfers would prevent partisan capture of elections; US diplomat Noble challenged public perceptions. Later the Home Minister reported **34 senior personnel changes, 5 resignations and 29 transfers**; Rhee directed no further dismissals and transfers only for proven political misconduct. Actual personnel orders and effects on voting remain unverified. FRUS d29/d30. **Paek's Korean identity is not assigned without appointment records.**
+5. **US public policy disagreement:** Rusk criticized Senator Connally's comments about Korea's strategic position (May 2); Acheson's clarification and Rhee's May 5 reaction are recorded separately. FRUS d31/d33.
+
+Sources: https://history.state.gov/historicaldocuments/frus1950v07/d24 ; https://history.state.gov/historicaldocuments/frus1950v07/d26 ; https://history.state.gov/historicaldocuments/frus1950v07/d28 ; https://history.state.gov/historicaldocuments/frus1950v07/d29 ; https://history.state.gov/historicaldocuments/frus1950v07/d30 ; https://history.state.gov/historicaldocuments/frus1950v07/d31 ; https://history.state.gov/historicaldocuments/frus1950v07/d33
+
+Central politician/event registries remain unchanged. Weekly full debt review not performed. Floot untouched. No claim of one-hour execution.
