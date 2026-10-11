@@ -2314,11 +2314,13 @@
       "researchStatus": "DISCOVERED",
       "backbone": false,
       "connections": [
-        "evt-1950-0421-acting-pm-parliament-dispute"
+        "evt-1950-0421-acting-pm-parliament-dispute",
+        "evt-r173-conscription-inquiry"
       ],
       "evidenceDocumentIds": [
         "d114b-01",
-        "d143-080060"
+        "d143-080060",
+        "doc-r173-dh_027_1952_11_16_0040"
       ],
       "openLeads": [
         "국회 제헌의원 원명부·소속·생몰 대조"
@@ -2380,6 +2382,12 @@
           "documentIds": [
             "d143-080060"
           ]
+        },
+        {
+          "date": "2026-10-12",
+          "role": "1952-11-16 내무장관 징용행정 조사방침 발표",
+          "document_id": "doc-r173-dh_027_1952_11_16_0040",
+          "verification": "CONTEMPORANEOUS_PRESS"
         }
       ]
     },
@@ -2819,18 +2827,28 @@
       "backbone": false,
       "connections": [
         "evt-r141-01",
-        "evt-r141-02"
+        "evt-r141-02",
+        "evt-r173-prior-pm-vote"
       ],
       "evidenceDocumentIds": [
         "d141-pa768",
-        "d141-pa769"
+        "d141-pa769",
+        "doc-r173-dh_027_1952_11_14_0050"
       ],
       "evidenceFile": "data/evidence/run141-actor-evidence.json",
       "openLeadsFile": "data/research/lead-queues/run141-next.json",
       "historyDebt": [
         "HD-R141-IDENTITY"
       ],
-      "attributionCaveat": "서명/이송은 법안 발의·표결·집행의 직접 증거가 아님"
+      "attributionCaveat": "서명/이송은 법안 발의·표결·집행의 직접 증거가 아님",
+      "researchNotes": [
+        {
+          "date": "2026-10-12",
+          "role": "1952-10-17 총리 인준 부결(11월 14일 기사 소급보도)",
+          "document_id": "doc-r173-dh_027_1952_11_14_0050",
+          "verification": "CONTEMPORANEOUS_PRESS"
+        }
+      ]
     },
     {
       "id": "pol-r141-gu-yeong-suk",
@@ -3864,12 +3882,14 @@
         }
       ],
       "connections": [
-        "evt152-1949-county-chief"
+        "evt152-1949-county-chief",
+        "evt-r173-un-speech-review"
       ],
       "researchStatus": "IDENTIFIED",
       "researchStatusReason": "Named in NIKH analysis with dated stenogram reference; original speech and biography not independently verified",
       "evidenceDocumentIds": [
-        "d152-nikh-local"
+        "d152-nikh-local",
+        "doc-r173-dh_027_1952_11_22_0060"
       ],
       "evidenceCoverage": "ONE_SECONDARY_FAMILY",
       "openLeads": [
@@ -3884,6 +3904,14 @@
         {
           "date": "2026-10-11",
           "change": "researchStatus normalized IDENTIFIED_CANDIDATE → IDENTIFIED; original action evidence and biographical completeness tracked separately"
+        }
+      ],
+      "researchNotes": [
+        {
+          "date": "2026-10-12",
+          "role": "1952-11-22 외무장관 유엔연설 검토 의원",
+          "document_id": "doc-r173-dh_027_1952_11_22_0060",
+          "verification": "CONTEMPORANEOUS_PRESS"
         }
       ]
     },
@@ -5797,11 +5825,13 @@
       ],
       "connections": [
         "evt-r167-03",
-        "evt-r167-12"
+        "evt-r167-12",
+        "evt-r173-pm-vote"
       ],
       "evidenceDocumentIds": [
         "doc-r167-party-1951-founding",
-        "doc-r167-party-1952-talks"
+        "doc-r167-party-1952-talks",
+        "doc-r173-dh_027_1952_11_20_0050"
       ],
       "researchStatus": "IDENTIFIED",
       "promotionReason": "Named time-specific action in dated contemporary document; no VERIFIED promotion",
@@ -6010,10 +6040,12 @@
         }
       ],
       "connections": [
-        "evt-r167-03"
+        "evt-r167-03",
+        "evt-r173-un-speech-review"
       ],
       "evidenceDocumentIds": [
-        "doc-r167-party-1951-founding"
+        "doc-r167-party-1951-founding",
+        "doc-r173-dh_027_1952_11_22_0060"
       ],
       "researchStatus": "IDENTIFIED",
       "promotionReason": "Named time-specific action in dated contemporary document; no VERIFIED promotion",
@@ -6030,6 +6062,12 @@
             "https://db.history.go.kr/id/dh_023_1951_12_23_0030"
           ],
           "caution": "Hanja/romanization and office status need identity verification; party role does not imply 1950 election affiliation."
+        },
+        {
+          "date": "2026-10-12",
+          "role": "1952-11-22 외무장관 유엔연설 검토 의원",
+          "document_id": "doc-r173-dh_027_1952_11_22_0060",
+          "verification": "CONTEMPORANEOUS_PRESS"
         }
       ]
     },
@@ -6685,11 +6723,13 @@
       "evidenceFile": "data/evidence/shin-jung-mok-run172.json",
       "connections": [
         "evt-r172-drought-inspection-1029",
-        "evt-r172-rice-cabinet-1108"
+        "evt-r172-rice-cabinet-1108",
+        "evt-r173-food-supply"
       ],
       "evidenceDocumentIds": [
         "doc-r172-dh_027_1952_10_29_0080",
-        "doc-r172-19521108-rice"
+        "doc-r172-19521108-rice",
+        "doc-r173-dh_027_1952_11_18_0080"
       ],
       "openLeads": [
         "관보 임면원부·생몰 인명록 검증"
@@ -6717,11 +6757,13 @@
       "annalsFile": "data/annals/kim-tae-seon-run118.md",
       "evidenceFile": "data/evidence/kim-tae-seon-run172.json",
       "connections": [
-        "evt-r172-police-recruitment-decree-0826"
+        "evt-r172-police-recruitment-decree-0826",
+        "evt-r173-local-education"
       ],
       "evidenceDocumentIds": [
         "doc-r172-police-decree-812",
-        "doc-r172-aks-kim-tae-seon"
+        "doc-r172-aks-kim-tae-seon",
+        "doc-r173-dh_027_1952_11_20_0060"
       ],
       "openLeads": [
         "1952년 내무부장관 임면 관보 원본"
@@ -6766,6 +6808,198 @@
         "1952 임명 관보",
         "1953 고시 시행공고"
       ]
+    },
+    {
+      "id": "pol-r173-kim-jae-hwa",
+      "name": "김재화",
+      "aliases": [
+        "金載華"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verificationStatus": "UNVERIFIED"
+      },
+      "roles": [
+        {
+          "title": "1952-11-14 재일거류민단 대표, 국회 발언권 청원",
+          "period": "1952",
+          "sourceDocumentIds": [
+            "doc-r173-dh_027_1952_11_14_0070"
+          ]
+        }
+      ],
+      "connections": [
+        "evt-r173-diaspora-petition"
+      ],
+      "evidenceDocumentIds": [
+        "doc-r173-dh_027_1952_11_14_0070"
+      ],
+      "researchStatus": "IDENTIFIED",
+      "promotionReason": "동시대 기사에서 특정 날짜의 행위·직책 확인; 원의사록·생몰 미확보",
+      "openLeads": [
+        "1952년 국회·관보 원인명록과 원회의록 확인"
+      ],
+      "historyDebt": []
+    },
+    {
+      "id": "pol-r173-yu-seung-jun",
+      "name": "유승준",
+      "aliases": [
+        "兪昇濬"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verificationStatus": "UNVERIFIED"
+      },
+      "roles": [
+        {
+          "title": "1952-11-14 국회의원, 청원 외무위 회부 동의",
+          "period": "1952",
+          "sourceDocumentIds": [
+            "doc-r173-dh_027_1952_11_14_0070"
+          ]
+        }
+      ],
+      "connections": [
+        "evt-r173-diaspora-petition"
+      ],
+      "evidenceDocumentIds": [
+        "doc-r173-dh_027_1952_11_14_0070"
+      ],
+      "researchStatus": "IDENTIFIED",
+      "promotionReason": "동시대 기사에서 특정 날짜의 행위·직책 확인; 원의사록·생몰 미확보",
+      "openLeads": [
+        "1952년 국회·관보 원인명록과 원회의록 확인"
+      ],
+      "historyDebt": []
+    },
+    {
+      "id": "pol-r173-eom-byeong-hak",
+      "name": "엄병학",
+      "aliases": [],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verificationStatus": "UNVERIFIED"
+      },
+      "roles": [
+        {
+          "title": "1952-11-28 농가부채 보증융자 반대 의원",
+          "period": "1952",
+          "sourceDocumentIds": [
+            "doc-r173-dh_027_1952_11_28_0050"
+          ]
+        }
+      ],
+      "connections": [
+        "evt-r173-farm-debt-1128"
+      ],
+      "evidenceDocumentIds": [
+        "doc-r173-dh_027_1952_11_28_0050"
+      ],
+      "researchStatus": "IDENTIFIED",
+      "promotionReason": "동시대 기사에서 특정 날짜의 행위·직책 확인; 원의사록·생몰 미확보",
+      "openLeads": [
+        "1952년 국회·관보 원인명록과 원회의록 확인"
+      ],
+      "historyDebt": []
+    },
+    {
+      "id": "pol-r173-ji-yeon-hae",
+      "name": "지연해",
+      "aliases": [
+        "池蓮海"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verificationStatus": "UNVERIFIED"
+      },
+      "roles": [
+        {
+          "title": "1952-11-28 농가부채 융자 수혜자 검증 요구 의원",
+          "period": "1952",
+          "sourceDocumentIds": [
+            "doc-r173-dh_027_1952_11_28_0050"
+          ]
+        }
+      ],
+      "connections": [
+        "evt-r173-farm-debt-1128"
+      ],
+      "evidenceDocumentIds": [
+        "doc-r173-dh_027_1952_11_28_0050"
+      ],
+      "researchStatus": "IDENTIFIED",
+      "promotionReason": "동시대 기사에서 특정 날짜의 행위·직책 확인; 원의사록·생몰 미확보",
+      "openLeads": [
+        "1952년 국회·관보 원인명록과 원회의록 확인"
+      ],
+      "historyDebt": []
+    },
+    {
+      "id": "pol-r173-song-bang-yong",
+      "name": "송방용",
+      "aliases": [],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verificationStatus": "UNVERIFIED"
+      },
+      "roles": [
+        {
+          "title": "1952-11-28 재정경제위 위원, 보증융자 찬성 설명",
+          "period": "1952",
+          "sourceDocumentIds": [
+            "doc-r173-dh_027_1952_11_28_0050"
+          ]
+        }
+      ],
+      "connections": [
+        "evt-r173-farm-debt-1128"
+      ],
+      "evidenceDocumentIds": [
+        "doc-r173-dh_027_1952_11_28_0050"
+      ],
+      "researchStatus": "IDENTIFIED",
+      "promotionReason": "동시대 기사에서 특정 날짜의 행위·직책 확인; 원의사록·생몰 미확보",
+      "openLeads": [
+        "1952년 국회·관보 원인명록과 원회의록 확인"
+      ],
+      "historyDebt": []
+    },
+    {
+      "id": "pol-r173-kim-ik-ro",
+      "name": "김익로",
+      "aliases": [],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verificationStatus": "UNVERIFIED"
+      },
+      "roles": [
+        {
+          "title": "1952-11-28 농가부채 보증융자 가결 동의 의원",
+          "period": "1952",
+          "sourceDocumentIds": [
+            "doc-r173-dh_027_1952_11_28_0050"
+          ]
+        }
+      ],
+      "connections": [
+        "evt-r173-farm-debt-1128"
+      ],
+      "evidenceDocumentIds": [
+        "doc-r173-dh_027_1952_11_28_0050"
+      ],
+      "researchStatus": "IDENTIFIED",
+      "promotionReason": "동시대 기사에서 특정 날짜의 행위·직책 확인; 원의사록·생몰 미확보",
+      "openLeads": [
+        "1952년 국회·관보 원인명록과 원회의록 확인"
+      ],
+      "historyDebt": []
     }
   ]
 }
