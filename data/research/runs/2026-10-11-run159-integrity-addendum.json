@@ -1,0 +1,25 @@
+{
+  "run": 159,
+  "date": "2026-10-11",
+  "status": "RESEARCHED_NOT_INTEGRATED_ROOT_REGISTRY_PENDING",
+  "checks": {
+    "subevents": 12,
+    "claims": 12,
+    "documentRows": 13,
+    "candidatePeople": 5,
+    "activeLeads": 12,
+    "backlogLeads": 22,
+    "missingActorOrDocumentOrParentReferences": 0
+  },
+  "issues": [],
+  "rootPoliticianRegistryUpdated": false,
+  "rootEventRegistryUpdated": false,
+  "annalsFilesCreated": [
+    "data/annals/yun-posun.md",
+    "data/annals/im-yeong-sin.md"
+  ],
+  "aliasCorrectionFile": "data/research/migrations/run159-document-aliases.json",
+  "historyDebtFullReview": false,
+  "lastFullReview": "2026-09-27",
+  "note": "New parent events are an overlay, not yet root data/events.json. Existing d114 source must be reused when deduplicating. No false claim of root integration."
+}
