@@ -19,7 +19,7 @@
     "substantiveDocumentsOpened": 18,
     "officialOrContemporaneousPrimaryOpened": 8,
     "adversarialClaimsInvestigated": 11,
-    "leadFollowups": 6,
+    "leadFollowups": 3,
     "newLeads": 37,
     "independentCrossProvenanceBundles": 2
   },
@@ -36,5 +36,22 @@
     "23d0f54f9372dac820cf6ae229ceec35aaba9efa",
     "98a33a2a41df426608f359a8d6288e8272901b33"
   ],
-  "next": "data/research/lead-queues/run149-next.json"
+  "next": "data/research/lead-queues/run149-next.json",
+  "corrections": [
+    {
+      "date": "2026-10-11",
+      "field": "evt-r149-geneva-131-claim.date",
+      "from": "1954-05-27",
+      "to": "1954-05-22",
+      "source": "FRUS vol16 d190"
+    },
+    {
+      "date": "2026-10-11",
+      "field": "d149-frus980.documentDate",
+      "value": "1954-12-30",
+      "eventDate": "1954-11-17",
+      "source": "FRUS d980"
+    }
+  ],
+  "metricCorrection": "Existing open-lead/history-debt followups corrected from 6 to 3, no artificial credit."
 }
