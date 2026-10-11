@@ -10,4 +10,4 @@ Prior run159 industry-oversight research retained. Central LATEST_RUN_POINTER.js
 
 Weekly full history-debt review not performed. Floot untouched.
 
-Execution: 21 directly opened original/contemporary documents (14 FRUS, 7 Korean), 4 later sources; 8 structured event overlays; 10 counterchecks; 3 independent-family comparison bundles; 30 specific leads. Existing debt HD-RHEE-002 narrowed without resolution. Canonical registry integration incomplete.
+Execution: 20 directly read original/contemporary texts (14 FRUS, 6 Korean), 1 Korean newspaper metadata-only record, 4 later sources; 8 structured event overlays; 10 counterchecks; 3 independent-family comparison bundles; 30 specific leads. Existing debt HD-RHEE-002 narrowed without resolution. Canonical registry integration incomplete.
