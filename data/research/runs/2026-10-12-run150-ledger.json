@@ -44,7 +44,7 @@
     "national_election_commission_catalog"
   ],
   "newPoliticians": 6,
-  "existingPoliticiansDeepened": 7,
+  "existingPoliticiansDeepened": 6,
   "newEvents": 28,
   "existingEventsUpdated": 3,
   "newClaims": 17,
@@ -94,7 +94,8 @@
     "9428b951ccc62b8ff9700eb13f0f3c5e9a4d1379",
     "9d7352ed105079f25194710005d99ef4c06b5fa3",
     "3830a5994f16bae61050938d892efc05c7f46233",
-    "15f8347cc3b71d4fa0fc593b3a7a8dc66e827193"
+    "15f8347cc3b71d4fa0fc593b3a7a8dc66e827193",
+    "e6e32ee322238ab82537ee1047aac9cde88fa912"
   ],
   "independentCrossProvenanceGroupsExplanation": "① 대통령기록관 담화↔FRUS d77 ② 대통령 서한↔FRUS d86 관찰 ③ KDemo↔AKS↔대구역사문화대전(후대 편집계열) ④ FRUS d78↔한국 국가법령정보센터 조약1152 원문 ⑤ FRUS d91↔AKS 백두진↔KTV 대한뉴스(영상목록) ⑥ KDemo 문경선 사진목록↔KTV 대한뉴스 영상목록(원영상 미열람)",
   "officialPrimaryIncludingExcerpt": 28,
@@ -118,5 +119,15 @@
     "AKS 백두진 1954-06~1956-05 경제조정관과 KTV 1955-08-20 귀국 소장기록으로 FRUS d91 Paik 식별 보강",
     "KTV 제66호 1955-09-15 문경선 개통과 이종림 교통부장관 축사 확인, 영상 자체 미열람"
   ],
-  "lastSignificantFinding": "국가기록원 BA0041904·BA0024906: 최석채 1956-05-08 대법원 검찰상고 기각 소장목록 확인, 판결 원면 미확보"
+  "lastSignificantFinding": "국가기록원 BA0041904·BA0024906: 최석채 1956-05-08 대법원 검찰상고 기각 소장목록 확인, 판결 원면 미확보",
+  "presidentDeepened": 1,
+  "metricCorrectionHistory": [
+    {
+      "date": "2026-10-12",
+      "field": "existingPoliticiansDeepened",
+      "previous": 7,
+      "corrected": 6,
+      "reason": "이승만 대통령 1명을 비대통령 기존 인물 심화 수치에 잘못 포함했다. 실제 비대통령 심화는 임병직·이기붕·신익희·신도성·백두진·이종림 6명."
+    }
+  ]
 }
