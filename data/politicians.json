@@ -4009,6 +4009,163 @@
           "change": "researchStatus normalized VERIFIED_ACTION_CANDIDATE → IDENTIFIED; original action evidence and biographical completeness tracked separately"
         }
       ]
+    },
+    {
+      "id": "pol-lee-in-1896",
+      "name": "이인",
+      "aliases": [
+        "李仁",
+        "Lee In",
+        "Yi In",
+        "愛山"
+      ],
+      "lifespan": {
+        "born": "1896",
+        "died": "1979",
+        "verification": "AKS_YEAR_ONLY"
+      },
+      "roles": [
+        {
+          "period": "1948-08~1949-06",
+          "title": "초대 법무부장관",
+          "documentIds": [
+            "d153-aks-in"
+          ]
+        },
+        {
+          "period": "1948-11-02",
+          "title": "국회 계엄 법적 근거 설명(후대 속기록 인용)",
+          "documentIds": [
+            "d153-nikh-1948-assembly"
+          ]
+        }
+      ],
+      "researchStatus": "IDENTIFIED",
+      "researchMaturity": "IDENTIFIED",
+      "backbone": false,
+      "connections": [
+        "evt153-nov02-assembly"
+      ],
+      "evidenceDocumentIds": [
+        "d153-aks-in",
+        "d153-nikh-1948-assembly"
+      ],
+      "openLeads": [
+        "L153-05"
+      ],
+      "historyDebt": [
+        "HD-R153-02"
+      ],
+      "promotionReason": "AKS 신원 확인, 1948 국회 발언은 원속기록 미열람으로 VERIFIED 보류"
+    },
+    {
+      "id": "pol-kim-baek-il-1917",
+      "name": "김백일",
+      "aliases": [
+        "金白一",
+        "金燦奎",
+        "김찬규",
+        "Kim Paek-il",
+        "Kim Baek-il"
+      ],
+      "lifespan": {
+        "born": "1917-01-30",
+        "died": "1951-03-28",
+        "verification": "AKS_BIOGRAPHY"
+      },
+      "roles": [
+        {
+          "period": "1948-10",
+          "title": "제5여단 지휘관·여순 진압 현지 사령관",
+          "documentIds": [
+            "d153-aks-baekil"
+          ]
+        },
+        {
+          "period": "1948-10-22",
+          "title": "현지 계엄 포고 당사자라는 후대 보도",
+          "documentIds": [
+            "d153-cbs"
+          ],
+          "actionType": "REPORTED_NOT_PRIMARY_VERIFIED"
+        }
+      ],
+      "researchStatus": "IDENTIFIED",
+      "researchMaturity": "IDENTIFIED",
+      "backbone": false,
+      "connections": [
+        "evt153-oct22-local"
+      ],
+      "evidenceDocumentIds": [
+        "d153-aks-baekil",
+        "d153-cbs"
+      ],
+      "openLeads": [
+        "L153-01",
+        "L153-02"
+      ],
+      "historyDebt": [
+        "HD-R95-004"
+      ],
+      "promotionReason": "AKS 한자·생몰·1948 지휘 신원 확인, 포고문 원면 미열람"
+    },
+    {
+      "id": "pol-kim-dong-seong-1890",
+      "name": "김동성",
+      "aliases": [
+        "金東成",
+        "Kim Dong-seong",
+        "Kim Dong-sung",
+        "千里駒"
+      ],
+      "lifespan": {
+        "born": "1890",
+        "died": null,
+        "verification": "AKS_DEATH_UNKNOWN"
+      },
+      "roles": [
+        {
+          "period": "1948~1949",
+          "title": "초대 공보처장",
+          "documentIds": [
+            "d153-aks-dong"
+          ]
+        },
+        {
+          "period": "1949-02-05",
+          "title": "미 G-2 재인용 비상상태 해제 발표",
+          "documentIds": [
+            "d153-jeju-4-3-report"
+          ],
+          "actionType": "REPORTED_SPEECH"
+        },
+        {
+          "period": "1952",
+          "title": "민의원 부의장",
+          "documentIds": [
+            "d153-aks-dong"
+          ]
+        }
+      ],
+      "researchStatus": "IDENTIFIED",
+      "researchMaturity": "IDENTIFIED",
+      "backbone": false,
+      "connections": [
+        "evt153-feb05-g2"
+      ],
+      "evidenceDocumentIds": [
+        "d153-aks-dong",
+        "d153-jeju-4-3-report"
+      ],
+      "openLeads": [
+        "L153-07",
+        "L153-08"
+      ],
+      "historyDebt": [
+        "HD-R153-03"
+      ],
+      "legacyOverlay": "data/politicians/run126-kim-dong-seong.json",
+      "promotionReason": "run126 동일인 ID 재사용, AKS 역할·한자 확인; 1949 발표 원문 미열람"
     }
   ]
 }

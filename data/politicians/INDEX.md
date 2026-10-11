@@ -121,3 +121,8 @@ See `data/politicians/run113-prewar-network.json` for 12 sourced profiles. No ca
 
 ## Run152 검증 승격·연계 (2026-10-11)
 신성균(申性均)은 1948-10-02 원속기록·신문으로 위원장 행위 VERIFIED. 백관수(白寬洙), 전규홍(全奎弘)은 1949-07-15 원속기록으로 당일 직책 확인, IDENTIFIED. 이번 회차 신규 14명·기존 6명 연계. 생몰·선거구 미검증. 연구 브랜치 research/run152-20261011-local-autonomy-legislative-actors.
+
+
+## Run153 (2026-10-11): 여순·제주 계엄 행위자
+- 정식 registry IDENTIFIED 추가: pol-lee-in-1896(이인), pol-kim-baek-il-1917(김백일), pol-kim-dong-seong-1890(김동성). 김동성은 기존 run126 후보 ID 재사용. 모두 원속기록·원포고·원임명장 미확보로 VERIFIED 승격하지 않음.
+- 5개 action은 data/events.json 및 run153 overlay에 연결. 법제처/NIKH 대통령령13호는 동일 원법령으로 중복계수 금지.
