@@ -1711,7 +1711,8 @@
       "researchStatus": "candidate-identifed-from-1949-primary",
       "backbone": false,
       "connections": [
-        "evt-1949-farmland-reform"
+        "evt-1949-farmland-reform",
+        "evt152d-1949-conscription"
       ],
       "evidenceDocumentIds": [
         "d79-assembly-june14"
@@ -1721,7 +1722,16 @@
         "관련 의안 원문·서명/표결 기록 확인"
       ],
       "lifeDatesStatus": "not verified",
-      "researchNotes": "1949-06-14 산업위원회 회부 동의"
+      "researchNotes": "1949-06-14 산업위원회 회부 동의",
+      "actions": [
+        {
+          "type": "proposed_article_1_amendment",
+          "eventId": "evt152d-1949-conscription",
+          "documentIds": [
+            "d152d-19490716-military-news"
+          ]
+        }
+      ]
     },
     {
       "id": "pol-lee-won-hong",
@@ -1761,7 +1771,8 @@
       "researchStatus": "candidate-identifed-from-1949-primary",
       "backbone": false,
       "connections": [
-        "evt-1949-farmland-reform"
+        "evt-1949-farmland-reform",
+        "evt152-1949-jul29-policy-bills"
       ],
       "evidenceDocumentIds": [
         "d79-assembly-june15"
@@ -1771,7 +1782,16 @@
         "관련 의안 원문·서명/표결 기록 확인"
       ],
       "lifeDatesStatus": "not verified",
-      "researchNotes": "1949-06-15 기립표결 제안 및 법률 후속 개정 촉구"
+      "researchNotes": "1949-06-15 기립표결 제안 및 법률 후속 개정 촉구",
+      "actions": [
+        {
+          "type": "moved_streamline_postal_bill_readings",
+          "eventId": "evt152-1949-jul29-policy-bills",
+          "documentIds": [
+            "d152c-19490730-newspaper"
+          ]
+        }
+      ]
     },
     {
       "id": "pol-lee-jong-hyeon",
@@ -2343,7 +2363,9 @@
       "researchStatus": "IDENTIFIED",
       "promotionReason": "명시된 인명·직책을 공식 기록관 해제 또는 동시대 기사와 연결. 생몰·당적은 미검증.",
       "backbone": false,
-      "connections": [],
+      "connections": [
+        "evt152d-1949-civil-service"
+      ],
       "evidenceDocumentIds": [
         "d140-l2",
         "d141-hm286"
@@ -2353,7 +2375,16 @@
       "historyDebt": [
         "HD-R141-IDENTITY"
       ],
-      "attributionCaveat": "서명/이송은 법안 발의·표결·집행의 직접 증거가 아님"
+      "attributionCaveat": "서명/이송은 법안 발의·표결·집행의 직접 증거가 아님",
+      "actions": [
+        {
+          "type": "questioned_civil_service_labor_rights",
+          "eventId": "evt152d-1949-civil-service",
+          "documentIds": [
+            "d152d-19490715-civil-stenogram"
+          ]
+        }
+      ]
     },
     {
       "id": "pol-r141-eom-sang-seop",
@@ -2419,7 +2450,9 @@
       "researchStatus": "IDENTIFIED",
       "promotionReason": "명시된 인명·직책을 공식 기록관 해제 또는 동시대 기사와 연결. 생몰·당적은 미검증.",
       "backbone": false,
-      "connections": [],
+      "connections": [
+        "evt152d-1949-conscription"
+      ],
       "evidenceDocumentIds": [
         "d140-l2"
       ],
@@ -2428,7 +2461,16 @@
       "historyDebt": [
         "HD-R141-IDENTITY"
       ],
-      "attributionCaveat": "서명/이송은 법안 발의·표결·집행의 직접 증거가 아님"
+      "attributionCaveat": "서명/이송은 법안 발의·표결·집행의 직접 증거가 아님",
+      "actions": [
+        {
+          "type": "moved_waive_third_reading",
+          "eventId": "evt152d-1949-conscription",
+          "documentIds": [
+            "d152d-19490716-military-news"
+          ]
+        }
+      ]
     },
     {
       "id": "pol-r141-lee-yun-yeong",
@@ -3790,6 +3832,92 @@
         "HD-R152-02"
       ],
       "backbone": false
+    },
+    {
+      "id": "pol-baek-gwan-su-1949",
+      "name": "백관수",
+      "aliases": [
+        "白寬洙"
+      ],
+      "hanja": "白寬洙",
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "UNKNOWN"
+      },
+      "roles": [
+        {
+          "title": "제헌국회 법제사법위원장",
+          "asOf": "1949-07-15",
+          "verification": "ORIGINAL_PARLIAMENTARY_STENOGRAM"
+        }
+      ],
+      "actions": [
+        {
+          "type": "official_response_to_legislative_question",
+          "eventId": "evt152d-1949-civil-service",
+          "documentIds": [
+            "d152d-19490715-civil-stenogram"
+          ]
+        }
+      ],
+      "connections": [
+        "evt152d-1949-civil-service"
+      ],
+      "researchStatus": "VERIFIED_ACTION_CANDIDATE",
+      "evidenceDocumentIds": [
+        "d152d-19490715-civil-stenogram"
+      ],
+      "evidenceCoverage": "PRIMARY_FOR_ROLE_AND_STATEMENT_BIOGRAPHY_PENDING",
+      "openLeads": [
+        "제헌국회·정부 인사원부 생몰·재임기간 검증"
+      ],
+      "historyDebt": [
+        "HD-R152-08"
+      ]
+    },
+    {
+      "id": "pol-jeon-gyu-hong-1949",
+      "name": "전규홍",
+      "aliases": [
+        "全奎弘"
+      ],
+      "hanja": "全奎弘",
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "UNKNOWN"
+      },
+      "roles": [
+        {
+          "title": "대한민국 총무처장",
+          "asOf": "1949-07-15",
+          "verification": "ORIGINAL_PARLIAMENTARY_STENOGRAM"
+        }
+      ],
+      "actions": [
+        {
+          "type": "official_response_to_legislative_question",
+          "eventId": "evt152d-1949-civil-service",
+          "documentIds": [
+            "d152d-19490715-civil-stenogram"
+          ]
+        }
+      ],
+      "connections": [
+        "evt152d-1949-civil-service"
+      ],
+      "researchStatus": "VERIFIED_ACTION_CANDIDATE",
+      "evidenceDocumentIds": [
+        "d152d-19490715-civil-stenogram"
+      ],
+      "evidenceCoverage": "PRIMARY_FOR_ROLE_AND_STATEMENT_BIOGRAPHY_PENDING",
+      "openLeads": [
+        "제헌국회·정부 인사원부 생몰·재임기간 검증"
+      ],
+      "historyDebt": [
+        "HD-R152-08"
+      ]
     }
   ]
 }
