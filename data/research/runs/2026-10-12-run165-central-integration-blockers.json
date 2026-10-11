@@ -1,0 +1,31 @@
+{
+  "run": 165,
+  "date": "2026-10-12",
+  "central_events_registry": {
+    "write": "BLOCKED",
+    "existing_known_equivalents": {
+      "r165-e08": "evt-1950-0421-acting-pm-parliament-dispute",
+      "r165-e09": "evt-1950-0530-uncok-invitation"
+    },
+    "other_overlay_events": "NOT_CENTRALLY_INTEGRATED"
+  },
+  "central_history_debt": {
+    "write": "BLOCKED",
+    "new_overlay_debts": [
+      "HD-R165-01",
+      "HD-R165-02",
+      "HD-R165-03"
+    ],
+    "last_full_review": "2026-09-27",
+    "missing_sunday_reviews": [
+      "2026-10-04",
+      "2026-10-11"
+    ]
+  },
+  "run164_prior_package": {
+    "status": "NOT_IMPORTED",
+    "local_artifact": "run164_1950_minutes_bank_premier.zip"
+  },
+  "next_safe_step": "Review central schema, merge deduplicated overlay events and debt entries with a smaller authorized patch. Do not overwrite or mark weekly full review as completed.",
+  "floot_untouched": true
+}
