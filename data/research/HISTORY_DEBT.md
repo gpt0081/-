@@ -428,3 +428,11 @@ run110d 신규 6건: `data/research/history-debt/run110-addendum.md`. `HD-RHEE-1
 
 - Run149의 HD-R149-01~04와 HD-RHEE-007은 별도 부채파일(data/research/history-debt/run149-followup.md) 그대로 유지. 법률388 7/6 상정·7/7 가결은 해제 단계까지 좁혔지만 국회 원속기록이 없으므로 RESOLVED로 변경하지 않음.
 - last_full_review: 2026-09-27 (변경 없음). **역사부채 주간 전수조사 미실시.**
+
+
+### 2026-10-12 FRUS 후속 역사부채 (주간 전수조사 아님)
+- HD-R150-10 | OPEN | 정일권이 확인했다는 시위 차량운송 제한 지시 원본·집행대장 미확보. FRUS d86, L150-32.
+- HD-R150-11 | CONFLICTED | 9월3일 이승만의 자발적 시위 설명과 9월14일 미군측 참여실태 평가 차이. FRUS d84/d86, L150-34·35.
+- HD-R150-12 | OPEN | 8월7일 대구 시위 사전정보의 실제 경과 미확인. FRUS d71, L150-37.
+- HD-R150-13 | NARROWED | 8월6일 외무장관대리 Chung W. Cho의 한글 신원·발송공문 미확보. FRUS d70, L150-36.
+- last_full_review=2026-09-27 유지. **역사부채 주간 전수조사 미실시.**

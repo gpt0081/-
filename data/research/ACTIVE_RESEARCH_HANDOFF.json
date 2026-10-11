@@ -1,9 +1,9 @@
 {
   "updated": "2026-10-12",
   "project": "대한민국 역대 정치인 실록",
-  "branchRef": "refs/heads/research/run145-20261011-robertson-tasca-identity-audit",
+  "branchRef": "refs/heads/research/run147-20261011-cabinet-senate-originals",
   "branchHeadResolution": "READ_LIVE_REF_NOT_CACHED_SHA",
-  "lastCompletedRun": 145,
+  "lastCompletedRun": 150,
   "latestRunReport": "data/research/runs/2026-10-12-run150-ledger.json",
   "latestLeadQueue": "data/research/lead-queues/run150-next.json",
   "latestDocumentRegistry": [
@@ -36,7 +36,8 @@
   "latestDebtAddenda": [
     "data/research/history-debt/run126-councils.md",
     "data/research/history-debt/run126-labor.md",
-    "data/research/history-debt/run126-breadth.md"
+    "data/research/history-debt/run126-breadth.md",
+    "data/research/HISTORY_DEBT.md"
   ],
   "latestAnnals": [
     "data/annals/1952-councils-run126.md",
@@ -65,7 +66,7 @@
     "data/research/rhee-syngman-coverage-run126-d.json"
   ],
   "latestRun": 150,
-  "latestRunLedger": "data/research/runs/2026-10-09-run126-final-ledger.json",
+  "latestRunLedger": "data/research/runs/2026-10-12-run150-ledger.json",
   "latestLeadAddendum": "data/research/lead-queues/run115-addendum.json",
   "latestFinalAddendum": "data/research/runs/2026-10-09-run115-final-addendum.json",
   "latestLeadFinalAddendum": "data/research/lead-queues/run115-press-addendum.json",
@@ -187,7 +188,7 @@
   },
   "updatedAt": "2026-10-11",
   "latestRunBranch": "research/run147-20261011-cabinet-senate-originals",
-  "latestRunCommit": "37e2af4f62438034947b91eac8710784894ed885",
+  "latestRunCommit": "45b928150940f66ec902a8d026649a66042fc06d",
   "latestCorrection": "data/research/runs/run129-correction-addendum.md",
   "nextPriority": [
     "제5회 국무회의록 웹 작성일과 본문 일자 원면 대조",
@@ -195,8 +196,8 @@
     "1954 제3대 총선 자유당 111/114/115 분류 검증",
     "국무회의 유시 후속 농림·상공·외무·법제처 집행문서"
   ],
-  "latestVerifiedDocuments": 13,
-  "latestOfficialOrPrimary": 10,
+  "latestVerifiedDocuments": 20,
+  "latestOfficialOrPrimary": 8,
   "run145": {
     "parentBranch": "research/run144-20261011-weekly-debt-pow-primary",
     "branch": "research/run145-20261011-robertson-tasca-identity-audit",
@@ -254,6 +255,10 @@
     "politicianRegistry": "data/politicians.json",
     "annals": "data/annals/1955-56-daegu-press-election-run150.md",
     "historyDebt": "data/research/HISTORY_DEBT.md",
-    "flootUntouched": true
+    "flootUntouched": true,
+    "frusOriginals": "data/documents/run150-frus-nnsc-originals.json",
+    "canonicalEvidence": "data/evidence/rhee-syngman.json",
+    "canonicalAnnals": "data/annals/rhee-syngman.md",
+    "canonicalLeads": "data/research/rhee-syngman-open-leads.json"
   }
 }
