@@ -5,19 +5,19 @@
   "baseCommit": "2bac8f854808eeadccfb66232784f4df5b572cbf",
   "status": "RESEARCH_BRANCH_NOT_MERGED",
   "metrics": {
-    "independentResearchLines": 6,
-    "governanceDomainsStrengthened": 3,
+    "independentResearchLines": 8,
+    "governanceDomainsStrengthened": 4,
     "nonPresidentPoliticiansNewOrDeepened": 1,
-    "eventsStructured": 4,
-    "distinctMeaningfulDocumentsOpened": 7,
-    "distinctOriginalOrContemporaneousTextsOpened": 2,
+    "eventsStructured": 6,
+    "distinctMeaningfulDocumentsOpened": 9,
+    "distinctOriginalOrContemporaneousTextsOpened": 4,
     "originalFacsimilesOpened": 0,
-    "adversarialChecks": 3,
+    "adversarialChecks": 4,
     "priorDebtsTracked": 1,
-    "newConcreteLeads": 16,
-    "independentSourceFamilyCrosschecks": 1
+    "newConcreteLeads": 18,
+    "independentSourceFamilyCrosschecks": 2
   },
-  "counting": "7 unique full texts read (AKS biography, NIKH 1949 Jul02/Jul11 transcriptions, AKS case, NIKH scholarly, NIKH constitutional commentary, NIKH anti-collaboration commentary). Only two contemporaneous newspaper transcriptions. NIKH reprint of existing 1948 analysis not counted as new underlying primary.",
+  "counting": "7 unique full texts read (AKS biography, NIKH 1949 Jul02/Jul11 transcriptions, AKS case, NIKH scholarly, NIKH constitutional commentary, NIKH anti-collaboration commentary). Only two contemporaneous newspaper transcriptions. NIKH reprint of existing 1948 analysis not counted as new underlying primary. Two additional primary US government documents directly opened: FRUS d266 and d209.",
   "adversarialSearches": [
     "1949 government allegations vs defendants' statements and later source criticism",
     "1950 voluntary movement vs unresolved abduction alternative",
@@ -55,5 +55,21 @@
     "30 new leads target unmet",
     "3 crosschecks target unmet",
     "one-hour execution not claimed"
-  ]
+  ],
+  "extension": {
+    "name": "FRUS withdrawal petition chronology",
+    "documents": [
+      "d155-frus266",
+      "d155-frus209"
+    ],
+    "events": [
+      "evt155-1949feb07-troop-withdrawal-vote",
+      "evt155-1949mar19-uncok-petition-alleged"
+    ],
+    "newLeads": [
+      "L155-17",
+      "L155-18"
+    ],
+    "provenanceNote": "1949-02-07 petition 71 signatures / 96:39 vote in US Army report is not 1949-03-19 62-signature petition in Korean government allegation; both underlying Korean originals remain pending"
+  }
 }
