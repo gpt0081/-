@@ -2138,7 +2138,8 @@
       "evidenceDocumentIds": [
         "d114-seoul-19500422",
         "d143-110040",
-        "doc145-kh-1953_06_20_0030"
+        "doc145-kh-1953_06_20_0030",
+        "d150-na-democratic-1955"
       ],
       "openLeads": [
         "L114-12"
@@ -2161,6 +2162,12 @@
             "doc145-kh-1953_06_20_0030"
           ]
         }
+      ],
+      "organizationIds": [
+        "org-r150-democratic-party-1955"
+      ],
+      "eventIds": [
+        "evt-r149-1955-democratic"
       ]
     },
     {
@@ -2483,7 +2490,8 @@
         "d141-pa765",
         "d141-pa766",
         "d141-pa767",
-        "d150-kdemo-nomination"
+        "d150-kdemo-nomination",
+        "d150-na-democratic-1955"
       ],
       "evidenceFile": "data/evidence/run141-actor-evidence.json",
       "openLeadsFile": "data/research/lead-queues/run141-next.json",
@@ -2492,7 +2500,8 @@
       ],
       "attributionCaveat": "서명/이송은 법안 발의·표결·집행의 직접 증거가 아님",
       "eventIds": [
-        "evt-r150-19560328-democratic-nomination"
+        "evt-r150-19560328-democratic-nomination",
+        "evt-r149-1955-democratic"
       ],
       "researchNotes": [
         {
@@ -2503,6 +2512,9 @@
             "d150-kdemo-nomination"
           ]
         }
+      ],
+      "organizationIds": [
+        "org-r150-democratic-party-1955"
       ]
     },
     {
@@ -3365,7 +3377,8 @@
         ]
       },
       "eventIds": [
-        "evt-r148-nov29"
+        "evt-r148-nov29",
+        "evt-r149-1955-democratic"
       ],
       "status": "IDENTIFIED",
       "researchStatus": "IDENTIFIED",
@@ -3380,7 +3393,13 @@
         "국회 제2·3대 의원명부·중앙선관위 당선원부에서 곽상훈의 생몰·선거구·정당·이명·동명이인 검증"
       ],
       "historyDebt": [],
-      "promotionReason": "동시대 원속기록/관보에서 직책과 특정 행위가 확인됨; 생몰 및 동일인 확인은 미완료."
+      "promotionReason": "동시대 원속기록/관보에서 직책과 특정 행위가 확인됨; 생몰 및 동일인 확인은 미완료.",
+      "organizationIds": [
+        "org-r150-democratic-party-1955"
+      ],
+      "evidenceDocumentIds": [
+        "d150-na-democratic-1955"
+      ]
     },
     {
       "id": "pol-r148-lee-cheol-seung",
@@ -4628,6 +4647,99 @@
       "promotionReason": "국가법령정보센터 원조약에 서명자 양유찬이 명시됨; 다른 직책·생몰은 미검증",
       "openLeads": [
         "L150-51"
+      ],
+      "historyDebtIds": [],
+      "backbone": false
+    },
+    {
+      "id": "pol-chang-myon",
+      "name": "장면",
+      "aliases": [
+        "張勉",
+        "Chang Myon",
+        "운석",
+        "雲石"
+      ],
+      "lifespan": {
+        "born": "1899-08-28",
+        "died": "1966-06-04",
+        "verification": "AKS biography"
+      },
+      "roles": [
+        "1949 초대 주미대사",
+        "1951 국무총리",
+        "1955 민주당 최고위원",
+        "1956 부통령",
+        "1960 국무총리"
+      ],
+      "affiliations": [
+        "민주당"
+      ],
+      "organizationIds": [
+        "org-r150-democratic-party-1955"
+      ],
+      "eventIds": [
+        "evt-r149-1955-democratic",
+        "evt-r150-19560328-democratic-nomination"
+      ],
+      "connections": [
+        "evt-r149-1955-democratic"
+      ],
+      "evidenceDocumentIds": [
+        "d150-aks-chang",
+        "d150-na-democratic-1955",
+        "d150-kdemo-nomination"
+      ],
+      "researchStatus": "VERIFIED",
+      "promotionReason": "국가기록원 정당지도부·AKS 인물해제·1956 후보지명 사진목록",
+      "openLeads": [
+        "L150-53"
+      ],
+      "historyDebtIds": [
+        "HD-R150-21"
+      ],
+      "backbone": false
+    },
+    {
+      "id": "pol-baek-nam-hun",
+      "name": "백남훈",
+      "aliases": [
+        "Baek Nam-hun",
+        "남훈",
+        "南勛",
+        "해온",
+        "解慍"
+      ],
+      "lifespan": {
+        "born": "1885",
+        "died": "1967",
+        "verification": "AKS year-only"
+      },
+      "roles": [
+        "1919 2·8독립운동 관련 활동",
+        "1955 민주당 최고위원",
+        "1960 제5대 민의원 의원"
+      ],
+      "affiliations": [
+        "민주당"
+      ],
+      "organizationIds": [
+        "org-r150-democratic-party-1955"
+      ],
+      "eventIds": [
+        "evt-r149-1955-democratic"
+      ],
+      "connections": [
+        "evt-r149-1955-democratic"
+      ],
+      "evidenceDocumentIds": [
+        "d150-aks-baek-nam-hun",
+        "d150-na-democratic-1955"
+      ],
+      "researchStatus": "VERIFIED",
+      "promotionReason": "국가기록원 정당 지도부·AKS 생애기록 교차",
+      "openLeads": [
+        "L150-54"
       ],
       "historyDebtIds": [],
       "backbone": false
