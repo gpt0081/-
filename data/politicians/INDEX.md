@@ -106,3 +106,8 @@ See `data/politicians/run113-prewar-network.json` for 12 sourced profiles. No ca
 ## Run133 (2026-10-10): 1952-06-19 국회 조사단 보도 명단
 
 `data/politicians/run133-1952-inquiry-roster-actors.json`: 동아일보 1952-06-21 기사에 기록된 이시목·유덕천·백남식·한국원·오성환·김판석·유승준·서상국·이진수·김익로의 한자, 로마자, 당일 파별, 조사위원 명단 등장행위를 개별 candidate ID로 분리했다. **10명 모두 IDENTIFIED / 공식 의원원부 미확인**, canonical 승격하지 않음. 관련 event: `evt-r133-19520619-inquiry-roster`. 본문 원문은 `d131-0619-0020`, 원문 대조 및 역사부채는 run133 ledger 참조.
+
+
+## Run148 (2026-10-11) · 1954 국무위원 1월 정부제안·11월 공포 부서
+
+`data/politicians/run148-1954-jan-nov-cabinet-signers.json`은 관보1049호(1954-01-23)에서 기존 run122의 10명 후보에 한자·실제 부서 행위·당시 직책을 추가하고, 관보1228호(1954-11-29)의 11명 고유 각료 명의표기를 날짜별로 분리한다. 고유 인물 18명 중 기존 canonical `pol-r141-park-sul-eum`, `pol-sohn-won-yil`을 재사용한다. 그 외 인물은 생몰·임명장 미확인 candidate로 보존한다. 1/22 회의 참석자 명단은 직책만 기재되어 있으므로 1/23 명의자가 반드시 1/22 참석자였다고 추론하지 않는다. 서명/부서명은 개헌안 초안작성·국회표결의 증거가 아니다.
