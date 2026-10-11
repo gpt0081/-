@@ -1,0 +1,14 @@
+# Run166d Korean-original and cross-provenance audit
+
+Nine Korean contemporary documents were read directly: four original First National Assembly stenograms (March 10, 11, 13, 14) and five Korean newspaper transcriptions (March 18, March 20, April 21 x3). Five additional institutional/legal records were read: Bank of Korea institutional histories x3, National Archives x1, historical Presidential Decree No.350 x1. **Cumulative run166 total 61 directly read substantive records, of which 57 original/contemporaneous and 5 later interpretations** (the later NIKH constitutional commentary was already counted in the 61). No original page images read.
+
+**Three provenance-comparison groups:**
+1. **1950-03-14 constitutional amendment vote:** National Assembly original stenogram, Hanseong Ilbo 3/18, and U.S. Embassy Seoul 295 agree on 79 yes/33 no/66 abstentions/1 invalid. This is a strict three-family agreement for the same proposition. The later 3/15 repeat-vote claim is not silently discarded: 3/15 original meeting still missing.
+2. **1950-04-21 acting-premier appointment:** Hanseong Ilbo reproduces Rhee's letter dated 4/21; Seoul Shinmun reports the Assembly's return resolution; FRUS d27 later editorial footnote says acting premiership began **4/22**. Thus appointment and institutional opposition are corroborated but exact appointment/effective date is **CONFLICTED**.
+3. **Bank of Korea founding chain:** Yeonhap Shinmun reports April21 amended Act passage, Bank of Korea archives detail May5 Act138 and May11 decree350, the historical decree appears in National Law Information Center, and National Archives confirms June12 commencement. These are **different stages corroborated across institutions**, not three independent confirmations of each stage. Original April21 vote sheet and June6 payment ledger still needed.
+
+**Specific action links:** April21 acting-premier appointment proposed/issued by Rhee, Assembly returned notification; May11 decree350 formed Bank of Korea founding committee chaired by Finance Minister Choi Soon-ju; Governor Koo Yong-seo and Monetary Board acted before June12 opening. Do not attribute all institution decisions to the President personally.
+
+Sources: https://db.history.go.kr/item/cons/level.do?levelId=cons_002_0020_0010_0080 ; https://db.history.go.kr/contemp/level.do?levelId=dh_016_1950_03_18_0010 ; https://db.history.go.kr/contemp/level.do?levelId=dh_017_1950_04_21_0050 ; https://db.history.go.kr/contemp/level.do?levelId=dh_017_1950_04_21_0090 ; https://archives.bok.or.kr/content/exhibition/get/806/1242 ; https://archives.bok.or.kr/content/exhibition/get/806/1243 ; https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=31116
+
+Central registries remain unmodified; additive overlays validated. Full weekly debt review not performed. Floot untouched. One-hour duration not claimed.
