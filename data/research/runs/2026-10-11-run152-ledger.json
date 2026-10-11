@@ -16,7 +16,9 @@
     "newConcreteLeads": 60,
     "sourceFamilyCrosschecks": 4,
     "governanceDomainsTouched": 9,
-    "governanceDomainsSubstantivelyStrengthened": 6
+    "governanceDomainsSubstantivelyStrengthened": 6,
+    "independentAdversarialSearches": 10,
+    "priorDebtOrLeadsTracked": 3
   },
   "documentsOpened": [
     {
@@ -117,5 +119,14 @@
     "후생복표 특별회계법 제46호 전문 확인; 법률 제45호와 분리",
     "대통령령 제161호는 동시대 신문 보도만 확보, 법령 제159호와 혼동 금지",
     "후보 14명 중 신성균은 원속기록·동시대 신문으로 Hanja/위원장 행위 검증, 나머지는 IDENTIFIED"
-  ]
+  ],
+  "researchLineAuditPath": "data/research/runs/2026-10-11-run152-research-lines.json",
+  "adversarialAuditPath": "data/research/runs/2026-10-11-run152-adversarial-audit.json",
+  "metricDefinitions": {
+    "researchLines": "21 distinct documented historical questions; includes secondary-only and agenda-only lines; not all primary verified",
+    "independentAdversarialSearches": "10 countersearch routes; 2 additional internal source comparisons not counted",
+    "meaningfulDocumentsOpened": "17 distinct substantive pages, excluding 4 index/header-only records",
+    "originalOrContemporaneousTextsOpened": "11 original statute, stenogram or contemporaneous newspaper documents",
+    "weeklyFullDebtReview": "NOT_COMPLETED; last_full_review unchanged"
+  }
 }
