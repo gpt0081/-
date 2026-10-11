@@ -352,12 +352,41 @@
       "roles": [
         "제헌국회의원"
       ],
-      "researchStatus": "candidate",
+      "researchStatus": "IDENTIFIED",
       "backbone": false,
       "connections": [
-        "evt-1949-farmland-reform"
+        "evt-1949-farmland-reform",
+        "evt155-1949jul02-defense-briefing",
+        "evt155-1950mar14-first-instance-judgment",
+        "evt155-1949mar19-uncok-petition-alleged"
       ],
-      "researchNotes": "1949-02-15 제헌국회 제2회 제31차에서 농지개혁법의 시급한 상정을 촉구하는 동의안을 제기한 입법 행위자로 국회 속기록에서 확인."
+      "researchNotes": "1949-02-15 제헌국회 제2회 제31차에서 농지개혁법의 시급한 상정을 촉구하는 동의안을 제기한 입법 행위자로 국회 속기록에서 확인.",
+      "evidenceDocumentIds": [
+        "d155-jul02",
+        "d155-aks-case"
+      ],
+      "actions": [
+        {
+          "type": "named_in_government_1949_account",
+          "eventId": "evt155-1949jul02-defense-briefing",
+          "documentIds": [
+            "d155-jul02"
+          ],
+          "attribution": "GOVERNMENT_ALLEGATION_NOT_ESTABLISHED_CONDUCT"
+        },
+        {
+          "type": "subject_of_reported_first_instance_judgment",
+          "eventId": "evt155-1950mar14-first-instance-judgment",
+          "documentIds": [
+            "d155-aks-case"
+          ]
+        }
+      ],
+      "openLeads": [
+        "L155-23",
+        "L155-24"
+      ],
+      "researchStatusReason": "1949 동시대 정부발표/송청 보도와 AKS 후대 사건 해제를 분리해 사건 단계 연결. 판결 정본 미열람"
     },
     {
       "id": "pol-lee-soon-taek",
@@ -1633,20 +1662,54 @@
       "roles": [
         "제헌국회 의원 또는 정부 주요 공직자"
       ],
-      "researchStatus": "candidate-identifed-from-1949-primary",
+      "researchStatus": "IDENTIFIED",
       "backbone": false,
       "connections": [
-        "evt-1949-farmland-reform"
+        "evt-1949-farmland-reform",
+        "evt155-1949jul02-defense-briefing",
+        "evt155-1949jul11-prosecutorial-transfer",
+        "evt155-1950mar14-first-instance-judgment",
+        "evt155-1949mar19-uncok-petition-alleged"
       ],
       "evidenceDocumentIds": [
-        "d79-assembly-june15"
+        "d79-assembly-june15",
+        "d155-jul02",
+        "d155-aks-case",
+        "d155-jul11"
       ],
       "openLeads": [
         "의원명부/관보의 한자·생몰·선거구·소속 대조",
-        "관련 의안 원문·서명/표결 기록 확인"
+        "관련 의안 원문·서명/표결 기록 확인",
+        "L155-23",
+        "L155-24"
       ],
       "lifeDatesStatus": "not verified",
-      "researchNotes": "1949-06-15 본회의 사회·표결 공고"
+      "researchNotes": "1949-06-15 본회의 사회·표결 공고",
+      "actions": [
+        {
+          "type": "named_in_government_1949_account",
+          "eventId": "evt155-1949jul02-defense-briefing",
+          "documentIds": [
+            "d155-jul02"
+          ],
+          "attribution": "GOVERNMENT_ALLEGATION_NOT_ESTABLISHED_CONDUCT"
+        },
+        {
+          "type": "reported_prosecutorial_transfer_subject",
+          "eventId": "evt155-1949jul11-prosecutorial-transfer",
+          "documentIds": [
+            "d155-jul11"
+          ]
+        },
+        {
+          "type": "subject_of_reported_first_instance_judgment",
+          "eventId": "evt155-1950mar14-first-instance-judgment",
+          "documentIds": [
+            "d155-aks-case"
+          ]
+        }
+      ],
+      "researchStatusReason": "1949 동시대 정부발표/송청 보도와 AKS 후대 사건 해제를 분리해 사건 단계 연결. 판결 정본 미열람"
     },
     {
       "id": "pol-kang-uk-jung",
@@ -1658,20 +1721,54 @@
       "roles": [
         "제헌국회 의원 또는 정부 주요 공직자"
       ],
-      "researchStatus": "candidate-identifed-from-1949-primary",
+      "researchStatus": "IDENTIFIED",
       "backbone": false,
       "connections": [
-        "evt-1949-farmland-reform"
+        "evt-1949-farmland-reform",
+        "evt155-1949jul02-defense-briefing",
+        "evt155-1949jul11-prosecutorial-transfer",
+        "evt155-1950mar14-first-instance-judgment",
+        "evt155-1949mar19-uncok-petition-alleged"
       ],
       "evidenceDocumentIds": [
-        "d79-assembly-june15"
+        "d79-assembly-june15",
+        "d155-jul02",
+        "d155-aks-case",
+        "d155-jul11"
       ],
       "openLeads": [
         "의원명부/관보의 한자·생몰·선거구·소속 대조",
-        "관련 의안 원문·서명/표결 기록 확인"
+        "관련 의안 원문·서명/표결 기록 확인",
+        "L155-23",
+        "L155-24"
       ],
       "lifeDatesStatus": "not verified",
-      "researchNotes": "1949-06-15 정부 소멸통고를 실질적 거부로 해석하고 2/3 표결 주장"
+      "researchNotes": "1949-06-15 정부 소멸통고를 실질적 거부로 해석하고 2/3 표결 주장",
+      "actions": [
+        {
+          "type": "named_in_government_1949_account",
+          "eventId": "evt155-1949jul02-defense-briefing",
+          "documentIds": [
+            "d155-jul02"
+          ],
+          "attribution": "GOVERNMENT_ALLEGATION_NOT_ESTABLISHED_CONDUCT"
+        },
+        {
+          "type": "reported_prosecutorial_transfer_subject",
+          "eventId": "evt155-1949jul11-prosecutorial-transfer",
+          "documentIds": [
+            "d155-jul11"
+          ]
+        },
+        {
+          "type": "subject_of_reported_first_instance_judgment",
+          "eventId": "evt155-1950mar14-first-instance-judgment",
+          "documentIds": [
+            "d155-aks-case"
+          ]
+        }
+      ],
+      "researchStatusReason": "1949 동시대 정부발표/송청 보도와 AKS 후대 사건 해제를 분리해 사건 단계 연결. 판결 정본 미열람"
     },
     {
       "id": "pol-hwang-ho-hyeon",
@@ -3275,7 +3372,10 @@
     {
       "id": "pol-park-yun-won-1949",
       "name": "박윤원",
-      "aliases": [],
+      "aliases": [
+        "朴允源",
+        "Park Yun-won"
+      ],
       "hanja": null,
       "romanizationCandidates": [
         {
@@ -3310,20 +3410,51 @@
           "documentIds": [
             "d152-nikh-local"
           ]
+        },
+        {
+          "type": "named_in_government_1949_account",
+          "eventId": "evt155-1949jul02-defense-briefing",
+          "documentIds": [
+            "d155-jul02"
+          ],
+          "attribution": "GOVERNMENT_ALLEGATION_NOT_ESTABLISHED_CONDUCT"
+        },
+        {
+          "type": "reported_prosecutorial_transfer_subject",
+          "eventId": "evt155-1949jul11-prosecutorial-transfer",
+          "documentIds": [
+            "d155-jul11"
+          ]
+        },
+        {
+          "type": "subject_of_reported_first_instance_judgment",
+          "eventId": "evt155-1950mar14-first-instance-judgment",
+          "documentIds": [
+            "d155-aks-case"
+          ]
         }
       ],
       "connections": [
-        "evt152-1949-county-chief"
+        "evt152-1949-county-chief",
+        "evt155-1949jul02-defense-briefing",
+        "evt155-1949jul11-prosecutorial-transfer",
+        "evt155-1950mar14-first-instance-judgment",
+        "evt155-1949mar19-uncok-petition-alleged"
       ],
       "researchStatus": "IDENTIFIED",
-      "researchStatusReason": "Named in NIKH analysis with dated stenogram reference; original speech and biography not independently verified",
+      "researchStatusReason": "1949 동시대 정부발표/송청 보도와 AKS 후대 사건 해제를 분리해 사건 단계 연결. 판결 정본 미열람",
       "evidenceDocumentIds": [
-        "d152-nikh-local"
+        "d152-nikh-local",
+        "d155-jul02",
+        "d155-aks-case",
+        "d155-jul11"
       ],
       "evidenceCoverage": "ONE_SECONDARY_FAMILY",
       "openLeads": [
         "제헌국회 의원총람 한자·생몰·선거구 확인",
-        "관련 본회의 원속기록 원문 확인"
+        "관련 본회의 원속기록 원문 확인",
+        "L155-23",
+        "L155-24"
       ],
       "historyDebt": [
         "HD-R152-02"
@@ -3339,7 +3470,10 @@
     {
       "id": "pol-no-il-hwan-1949",
       "name": "노일환",
-      "aliases": [],
+      "aliases": [
+        "盧鎰煥",
+        "No Il-hwan"
+      ],
       "hanja": null,
       "romanizationCandidates": [
         {
@@ -3374,20 +3508,51 @@
           "documentIds": [
             "d152-nikh-local"
           ]
+        },
+        {
+          "type": "named_in_government_1949_account",
+          "eventId": "evt155-1949jul02-defense-briefing",
+          "documentIds": [
+            "d155-jul02"
+          ],
+          "attribution": "GOVERNMENT_ALLEGATION_NOT_ESTABLISHED_CONDUCT"
+        },
+        {
+          "type": "reported_prosecutorial_transfer_subject",
+          "eventId": "evt155-1949jul11-prosecutorial-transfer",
+          "documentIds": [
+            "d155-jul11"
+          ]
+        },
+        {
+          "type": "subject_of_reported_first_instance_judgment",
+          "eventId": "evt155-1950mar14-first-instance-judgment",
+          "documentIds": [
+            "d155-aks-case"
+          ]
         }
       ],
       "connections": [
-        "evt152-1949-county-chief"
+        "evt152-1949-county-chief",
+        "evt155-1949jul02-defense-briefing",
+        "evt155-1949jul11-prosecutorial-transfer",
+        "evt155-1950mar14-first-instance-judgment",
+        "evt155-1949mar19-uncok-petition-alleged"
       ],
       "researchStatus": "IDENTIFIED",
-      "researchStatusReason": "Named in NIKH analysis with dated stenogram reference; original speech and biography not independently verified",
+      "researchStatusReason": "1949 동시대 정부발표/송청 보도와 AKS 후대 사건 해제를 분리해 사건 단계 연결. 판결 정본 미열람",
       "evidenceDocumentIds": [
-        "d152-nikh-local"
+        "d152-nikh-local",
+        "d155-jul02",
+        "d155-aks-case",
+        "d155-jul11"
       ],
       "evidenceCoverage": "ONE_SECONDARY_FAMILY",
       "openLeads": [
         "제헌국회 의원총람 한자·생몰·선거구 확인",
-        "관련 본회의 원속기록 원문 확인"
+        "관련 본회의 원속기록 원문 확인",
+        "L155-23",
+        "L155-24"
       ],
       "historyDebt": [
         "HD-R152-02"
@@ -3787,7 +3952,10 @@
     {
       "id": "pol-kim-ok-ju-1949",
       "name": "김옥주",
-      "aliases": [],
+      "aliases": [
+        "金沃周",
+        "Kim Ok-ju"
+      ],
       "hanja": null,
       "romanizationCandidates": [
         {
@@ -3822,20 +3990,50 @@
           "documentIds": [
             "d152-nikh-local"
           ]
+        },
+        {
+          "type": "named_in_government_1949_account",
+          "eventId": "evt155-1949jul02-defense-briefing",
+          "documentIds": [
+            "d155-jul02"
+          ],
+          "attribution": "GOVERNMENT_ALLEGATION_NOT_ESTABLISHED_CONDUCT"
+        },
+        {
+          "type": "reported_prosecutorial_transfer_subject",
+          "eventId": "evt155-1949jul11-prosecutorial-transfer",
+          "documentIds": [
+            "d155-jul11"
+          ]
+        },
+        {
+          "type": "subject_of_reported_first_instance_judgment",
+          "eventId": "evt155-1950mar14-first-instance-judgment",
+          "documentIds": [
+            "d155-aks-case"
+          ]
         }
       ],
       "connections": [
-        "evt152-1949-effective-date"
+        "evt152-1949-effective-date",
+        "evt155-1949jul02-defense-briefing",
+        "evt155-1949jul11-prosecutorial-transfer",
+        "evt155-1950mar14-first-instance-judgment"
       ],
       "researchStatus": "IDENTIFIED",
-      "researchStatusReason": "Named in NIKH analysis with dated stenogram reference; original speech and biography not independently verified",
+      "researchStatusReason": "1949 동시대 정부발표/송청 보도와 AKS 후대 사건 해제를 분리해 사건 단계 연결. 판결 정본 미열람",
       "evidenceDocumentIds": [
-        "d152-nikh-local"
+        "d152-nikh-local",
+        "d155-jul02",
+        "d155-aks-case",
+        "d155-jul11"
       ],
       "evidenceCoverage": "ONE_SECONDARY_FAMILY",
       "openLeads": [
         "제헌국회 의원총람 한자·생몰·선거구 확인",
-        "관련 본회의 원속기록 원문 확인"
+        "관련 본회의 원속기록 원문 확인",
+        "L155-23",
+        "L155-24"
       ],
       "historyDebt": [
         "HD-R152-02"
@@ -4344,6 +4542,135 @@
       "annalsFile": "data/annals/oh-je-do-run155.md",
       "backbone": false,
       "researchStatusReason": "AKS 신원·생몰과 1949 경향신문 전사 담당검사 명시 확인. 법원·검찰 원기록 미열람"
+    },
+    {
+      "id": "pol-hwang-yun-ho-1949",
+      "name": "황윤호",
+      "aliases": [
+        "黃潤鎬",
+        "Hwang Yun-ho",
+        "Hwang Yoon-ho"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "UNVERIFIED"
+      },
+      "roles": [
+        {
+          "title": "제헌국회의원",
+          "period": "1948-1950",
+          "verification": "1949_CONTEMPORANEOUS_NEWS_TRANSCRIPTION"
+        }
+      ],
+      "affiliations": [],
+      "actions": [
+        {
+          "type": "named_in_government_account",
+          "eventId": "evt155-1949jul02-defense-briefing",
+          "documentIds": [
+            "d155-jul02"
+          ]
+        },
+        {
+          "type": "reported_prosecutorial_transfer_subject",
+          "eventId": "evt155-1949jul11-prosecutorial-transfer",
+          "documentIds": [
+            "d155-jul11"
+          ]
+        },
+        {
+          "type": "subject_of_reported_first_instance_judgment",
+          "eventId": "evt155-1950mar14-first-instance-judgment",
+          "documentIds": [
+            "d155-aks-case"
+          ]
+        }
+      ],
+      "connections": [
+        "evt155-1949jul02-defense-briefing",
+        "evt155-1949jul11-prosecutorial-transfer",
+        "evt155-1950mar14-first-instance-judgment",
+        "evt155-1949mar19-uncok-petition-alleged"
+      ],
+      "researchStatus": "IDENTIFIED",
+      "researchMaturity": "IDENTIFIED",
+      "evidenceDocumentIds": [
+        "d155-jul02",
+        "d155-jul11",
+        "d155-aks-case"
+      ],
+      "openLeads": [
+        "L155-25",
+        "L155-26"
+      ],
+      "historyDebt": [
+        "HD-R155-04"
+      ],
+      "backbone": false,
+      "researchStatusReason": "1949 국회·검찰 단계 동시대 전사와 AKS 사건 해제에 한자명 등장, 생몰 미확인"
+    },
+    {
+      "id": "pol-jang-jae-gap-1949",
+      "name": "장재갑",
+      "aliases": [
+        "張載甲",
+        "Jang Jae-gap",
+        "Chang Chae-kap"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "UNVERIFIED"
+      },
+      "roles": [
+        {
+          "title": "서울지방검찰청 부장검사(동시대 보도 표기)",
+          "period": "1949-07",
+          "verification": "1949_CONTEMPORANEOUS_NEWS_TRANSCRIPTION"
+        },
+        {
+          "title": "국회프락치사건 공판 검사(후대 해제)",
+          "period": "1949-1950",
+          "verification": "AKS_SECONDARY"
+        }
+      ],
+      "affiliations": [],
+      "actions": [
+        {
+          "type": "prosecutor_named_in_contemporaneous_report",
+          "eventId": "evt155-1949jul11-prosecutorial-transfer",
+          "documentIds": [
+            "d155-jul11"
+          ]
+        },
+        {
+          "type": "prosecutor_named_in_retrospective",
+          "eventId": "evt155-1950mar14-first-instance-judgment",
+          "documentIds": [
+            "d155-aks-case"
+          ]
+        }
+      ],
+      "connections": [
+        "evt155-1949jul11-prosecutorial-transfer",
+        "evt155-1950mar14-first-instance-judgment"
+      ],
+      "researchStatus": "IDENTIFIED",
+      "researchMaturity": "IDENTIFIED",
+      "evidenceDocumentIds": [
+        "d155-jul11",
+        "d155-aks-case"
+      ],
+      "openLeads": [
+        "L155-27",
+        "L155-28"
+      ],
+      "historyDebt": [
+        "HD-R155-04"
+      ],
+      "backbone": false,
+      "researchStatusReason": "1949 담당검사 실명과 1950 공판 검사 후대 명단 교차, 생몰·직급 원임명장 미확인"
     }
   ]
 }
