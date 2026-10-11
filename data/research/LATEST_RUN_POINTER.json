@@ -1,14 +1,18 @@
 {
   "latestRun": 173,
   "date": "2026-10-12",
-  "branch": "research/run173-20261012-evidence-integrated",
+  "branch": "research/run173-20261012-actors-integrated",
   "ledger": "data/research/runs/2026-10-12-run173-ledger.json",
   "report": "data/research/runs/run173-brief.md",
   "leadQueues": [
     "data/research/lead-queues/run173-next-a.json",
-    "data/research/lead-queues/run173-next-b.json"
+    "data/research/lead-queues/run173-next-b.json",
+    "data/research/lead-queues/run173-next-c.json"
   ],
   "priorRunBranch": "research/run172-20261012-1952-governance-accountability",
-  "central_registry_status": "EVENTS_INTEGRATED_POLITICIANS_PENDING",
-  "weeklyFullReview": false
+  "central_registry_status": "POLITICIANS_AND_EVENTS_INTEGRATED",
+  "weeklyFullReview": false,
+  "extensions": [
+    "data/research/runs/2026-10-12-run173-integration-addendum.md"
+  ]
 }
