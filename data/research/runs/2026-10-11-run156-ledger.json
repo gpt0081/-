@@ -5,18 +5,18 @@
   "baseCommit": "466696c0fd6cdff51af1a65c0193aa195ed0ea76",
   "topic": "1949 교육법 정부안→국회안→제정법→1950·1951 개정 3단계 원문 검증",
   "metrics": {
-    "independentResearchLines": 5,
-    "governanceDomainsStrengthened": 3,
-    "nonPresidentPoliticiansNew": 1,
-    "nonPresidentPoliticiansDeepened": 5,
-    "eventsStructuredOrDeepened": 9,
-    "distinctMeaningfulDocumentsOpened": 7,
-    "officialOrContemporaneousTextsOpened": 6,
+    "independentResearchLines": 12,
+    "governanceDomainsStrengthened": 7,
+    "nonPresidentPoliticiansNew": 13,
+    "nonPresidentPoliticiansDeepened": 14,
+    "eventsStructuredOrDeepened": 23,
+    "distinctMeaningfulDocumentsOpened": 12,
+    "officialOrContemporaneousTextsOpened": 8,
     "originalFacsimilesOpened": 0,
-    "adversarialChecks": 5,
-    "priorLeadsTracked": 2,
-    "newConcreteLeads": 20,
-    "independentSourceFamilyCrosschecks": 3
+    "adversarialChecks": 9,
+    "priorLeadsTracked": 3,
+    "newConcreteLeads": 44,
+    "independentSourceFamilyCrosschecks": 6
   },
   "documentCountNotes": "1949-03-30,1949-11-26,1951-03-20 동시대 신문 전사 3; 법률 제86·118·178·228 조문/개정문 4; 국회 제49차 색인과 AKS 해제는 메타/2차 보조이며 7 직접 원문 수에 불산입",
   "crosschecks": [
@@ -43,6 +43,30 @@
         "Republic of Korea enacted statutes"
       ],
       "finding": "중학 4→3 일치, 기사 전사 제11조 vs 공식 제111조 차이"
+    },
+    {
+      "claim": "1949 법35 공포",
+      "sourceFamilies": [
+        "National Assembly",
+        "ROK enacted statutes"
+      ],
+      "finding": "4/15 본회의 표결 원속기록과 7/22 법35 공포 색인 분리"
+    },
+    {
+      "claim": "1950 대한석탄공사법 137",
+      "sourceFamilies": [
+        "ROK enacted statutes",
+        "US economic/legal memorandum"
+      ],
+      "finding": "법률 공포와 1954년 미국 측 법적 감독 해석을 분리"
+    },
+    {
+      "claim": "1949 관세법 67",
+      "sourceFamilies": [
+        "ROK enacted statutes",
+        "Korea Customs Service"
+      ],
+      "finding": "제정일·법률번호 일치"
     }
   ],
   "adversarial": [
@@ -65,6 +89,22 @@
     {
       "target": "교육구 제도·국고보조 규정만으로 실제 집행 확정",
       "finding": "설립·지급 원장 없어 OPEN"
+    },
+    {
+      "target": "정부 식량법 철회 요청은 승인됐는가",
+      "finding": "4/15 원속기록상 부결"
+    },
+    {
+      "target": "4/15 식량법 동의 가68로 통과됐는가",
+      "finding": "가68은 미결, 가74 재투표 가결"
+    },
+    {
+      "target": "식량법 제출일 단일 확정",
+      "finding": "해제 3/19 vs 김약수 발언 3/21 CONFLICTED"
+    },
+    {
+      "target": "미국측 1954 국유재산법 영문 해석 확정",
+      "finding": "작성자 스스로 영문 번역 모호함 경고"
     }
   ],
   "priorLeads": [
@@ -75,6 +115,10 @@
     {
       "id": "교육·문화·언어 coverage의 1950 의무교육 시행일",
       "outcome": "부칙 제167조 적용일 확인, 지방 시행원부 미확보"
+    },
+    {
+      "id": "이승만 경제·농지개혁 coverage의 양곡·국유재산 제도",
+      "outcome": "4/15 원속기록과 1950 법122·137·1949 관세법67 연결, 시행실적 OPEN"
     }
   ],
   "weeklyDebtFullReview": false,
@@ -86,6 +130,56 @@
     "국회 제49~51차 원속기록 원면 미열람",
     "원면 0건",
     "20 연구선·40 원문·10 신규 정치인·10 반증·8 과거부채 목표 미달",
-    "1951 보도는 공식 법령과 중복 내용을 가지므로 독립 법률문서로 세지 않음"
-  ]
+    "1951 보도는 공식 법령과 중복 내용을 가지므로 독립 법률문서로 세지 않음",
+    "Exa 계정 크레딧 402로 해당 경로 중단; TinyFish와 법제처/국사편찬위 원문 경로로 대체",
+    "법률 제35·66·97·122·137·67의 관보 원면·일부 조문은 미확보; 색인만 확인된 법률은 직접 원문 수에서 제외"
+  ],
+  "secondPass": {
+    "focus": "1949 식량임시긴급조치법 원속기록 + 1950 국유재산·석탄공사·관세 법률",
+    "newActorIds": [
+      "pol-hong-hui-jong-1949",
+      "pol-kwon-tae-hui-1949",
+      "pol-yu-jin-hong-1949",
+      "pol-hwang-du-yeon-1949",
+      "pol-cho-yeong-gyu-1949",
+      "pol-kim-myeong-dong-1949",
+      "pol-kim-gwang-jun-1949",
+      "pol-park-sang-yeong-1949",
+      "pol-baek-nam-chae-1949",
+      "pol-lee-jin-su-1949",
+      "pol-kim-yeong-dong-1949",
+      "pol-jang-byeong-man-1949"
+    ],
+    "events": [
+      "evt156-food-1949-0318-government-draft",
+      "evt156-food-1949-0329-committee-amendment",
+      "evt156-food-1949-0415-government-withdrawal-rejected",
+      "evt156-food-1949-0415-committee-alternative-passage",
+      "evt156-food-1949-0428-government-reconsideration",
+      "evt156-food-1949-0615-repassed",
+      "evt156-food-1949-0722-law35",
+      "evt156-food-1949-1031-park-amendment",
+      "evt156-food-1949-1105-park-amendment",
+      "evt156-food-1949-1117-law66",
+      "evt156-food-1950-0216-grain-law97",
+      "evt156-1950-0408-state-property-law122",
+      "evt156-1950-0504-coal-corporation-law137",
+      "evt156-1949-1123-customs-law67"
+    ],
+    "newDocuments": 11,
+    "newOriginalFullTextsOpened": [
+      "d156-food-1949-0415-stenogram",
+      "d156-1954-us-economic-law-memo",
+      "d156-customs-official-history",
+      "d156-hong-hui-jong-aks",
+      "d156-seo-sang-il-aks"
+    ],
+    "newLeads": 24,
+    "correction": "식량임시긴급조치법 제35호는 1950-02-16 법률 제97호 양곡관리법에 의해 폐지. 법제처 폐지대상 법률 화면을 양곡관리법 원문으로 오인하지 않음",
+    "conflicted": [
+      "1949 식량법 정부 제출일 3/19 vs 3/21",
+      "홍희종 성명 한자 洪熺種(속기록) vs 洪憘種(비공식 후대 표기), AKS 생몰 연도만 확인"
+    ],
+    "uncertainty": "미국 1954 문서의 법률 해석은 당시 미국 측 견해이며 한국 법령 조문 확정과 구분"
+  }
 }

@@ -1,0 +1,160 @@
+{
+  "run": 156,
+  "date": "2026-10-11",
+  "claims": [
+    {
+      "id": "clm156-food-withdrawal-rejected",
+      "statement": "1949-04-15 제헌국회에서 정부의 식량임시긴급조치법안 철회 요청이 부결되었다",
+      "supportingEvidence": [
+        "d156-food-1949-0415-stenogram"
+      ],
+      "status": "PRIMARY_TRANSCRIPT_VERIFIED",
+      "eventIds": [
+        "evt156-food-1949-0415-government-withdrawal-rejected"
+      ]
+    },
+    {
+      "id": "clm156-food-committee-vote",
+      "statement": "1949-04-15 산업위원회안 독회생략 무수정 통과 동의가 재석 138명, 가 74·부 20의 재투표 끝에 가결되었다",
+      "supportingEvidence": [
+        "d156-food-1949-0415-stenogram"
+      ],
+      "status": "PRIMARY_TRANSCRIPT_VERIFIED",
+      "note": "1차 표결 가 68·부 20은 의장이 미결로 처리; 2차 가74·부20 가결",
+      "eventIds": [
+        "evt156-food-1949-0415-committee-alternative-passage"
+      ]
+    },
+    {
+      "id": "clm156-food-grain-numbers",
+      "statement": "이종현 농림부장관은 1949-04-15 재고 138만석·720만명 대상 월 60만석 필요 등 수치를 주장했다",
+      "supportingEvidence": [
+        "d156-food-1949-0415-stenogram"
+      ],
+      "status": "ATTRIBUTED_MINISTERIAL_STATEMENT_NOT_AUDITED",
+      "insufficientEvidence": [
+        "1949-03 말 농림부 재고·배급 실적 원부"
+      ],
+      "eventIds": [
+        "evt156-food-1949-0415-government-withdrawal-rejected"
+      ]
+    },
+    {
+      "id": "clm156-food-government-vs-committee",
+      "statement": "산업위원회 대안은 정부안의 밀주 단속 조항을 삭제하고 맥류를 특례에 포함해 정부의 하곡수집 구상과 충돌했다",
+      "supportingEvidence": [
+        "d156-food-1949-0415-stenogram"
+      ],
+      "status": "PRIMARY_DRAFT_COMPARISON",
+      "eventIds": [
+        "evt156-food-1949-0329-committee-amendment",
+        "evt156-food-1949-0415-government-withdrawal-rejected"
+      ]
+    },
+    {
+      "id": "clm156-food-proposal-date-conflict",
+      "statement": "식량임시긴급조치법 정부 제출일은 해제 3월19일 vs 제76차 사회자 발언 3월21일로 불일치한다",
+      "supportingEvidence": [
+        "d156-food-1949-0415-stenogram"
+      ],
+      "status": "CONFLICTED",
+      "conflictPoint": "국사편찬위 해제의 1949-03-19 제출 서술과 김약수 부의장의 1949-03-21 제출 발언",
+      "insufficientEvidence": [
+        "국회 의안 접수대장",
+        "제2회 제60차 1949-03-22 원면"
+      ],
+      "eventIds": [
+        "evt156-food-1949-0318-government-draft"
+      ]
+    },
+    {
+      "id": "clm156-food-law35-passage",
+      "statement": "1949-06-15 국회 재의결 후 1949-07-22 제35호 공포로 이어졌다는 국사편찬위 해제는 원속기록 페이지를 제시한다",
+      "supportingEvidence": [
+        "d156-food-1949-0415-stenogram",
+        "d156-food-1949-0722-law35"
+      ],
+      "status": "SECONDARY_TIMELINE_PLUS_OFFICIAL_LAW_INDEX",
+      "insufficientEvidence": [
+        "제3회 제17차 1949-06-15 원면"
+      ],
+      "eventIds": [
+        "evt156-food-1949-0615-repassed",
+        "evt156-food-1949-0722-law35"
+      ]
+    },
+    {
+      "id": "clm156-food-law66-extension",
+      "statement": "1949-10-31 및 11-05 박상영 등의 개정안이 11-17 제66호로 공포됐다는 국사편찬위 해제",
+      "supportingEvidence": [
+        "d156-food-1949-1117-law66"
+      ],
+      "status": "RETROSPECTIVE_WITH_STENOGRAM_FOOTNOTES",
+      "insufficientEvidence": [
+        "1949-10-31 제5회 제28차 원면",
+        "1949-11-05 제33차 원면",
+        "1949-11-17 관보"
+      ],
+      "eventIds": [
+        "evt156-food-1949-1031-park-amendment",
+        "evt156-food-1949-1105-park-amendment",
+        "evt156-food-1949-1117-law66"
+      ]
+    },
+    {
+      "id": "clm156-1950-grain-law97",
+      "statement": "1950-02-16 양곡관리법 제97호 제정으로 식량임시긴급조치법 제35·66호가 폐지됐다",
+      "supportingEvidence": [
+        "d156-food-1950-0216-law97",
+        "d156-food-1949-0722-law35"
+      ],
+      "status": "STATUTORY_CROSSREFERENCE_VERIFIED",
+      "note": "법제처 식량임시긴급조치법 [1950-02-16 제97호 타법폐지]는 폐지 대상 법률의 화면임; 이를 제97호 법의 제목으로 오인하지 않는다",
+      "eventIds": [
+        "evt156-food-1950-0216-grain-law97"
+      ]
+    },
+    {
+      "id": "clm156-coal-1950-approval-roles",
+      "statement": "1950-05-04 제137호 대한석탄공사법은 미국 측 1954년 법률분석에 따르면 주무장관 감독과 국무회의·대통령 사업계획 승인선을 구분했다",
+      "supportingEvidence": [
+        "d156-1950-0504-coal-law137",
+        "d156-1954-us-economic-law-memo"
+      ],
+      "status": "LAW_INDEX_PLUS_FOREIGN_TRANSLATION",
+      "insufficientEvidence": [
+        "1950 제137호 제14조 한국어 원문·국무회의 사업계획 승인대장"
+      ],
+      "eventIds": [
+        "evt156-1950-0504-coal-corporation-law137"
+      ]
+    },
+    {
+      "id": "clm156-property-1950-translation-warning",
+      "statement": "1950-04-08 제122호 국유재산법은 미국 측 1954년 분석에서 행정재산·보통재산 구분을 다뤘으나 영문 번역의 모호함을 명시했다",
+      "supportingEvidence": [
+        "d156-1950-0408-state-property-law122",
+        "d156-1954-us-economic-law-memo"
+      ],
+      "status": "FOREIGN_ANALYST_CAUTION",
+      "insufficientEvidence": [
+        "제122호 한국어 원문 제1~3조"
+      ],
+      "eventIds": [
+        "evt156-1950-0408-state-property-law122"
+      ]
+    },
+    {
+      "id": "clm156-customs-law-67",
+      "statement": "1949-11-23 관세법 제67호와 부속세율표가 제정되었다",
+      "supportingEvidence": [
+        "d156-1949-1123-customs-law67",
+        "d156-customs-official-history"
+      ],
+      "status": "TWO_OFFICIAL_PROVENANCE_FAMILIES",
+      "eventIds": [
+        "evt156-1949-1123-customs-law67"
+      ]
+    }
+  ]
+}
