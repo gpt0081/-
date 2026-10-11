@@ -3073,8 +3073,10 @@
     {
       "id": "pol-shin-seong-gyun-1949",
       "name": "신성균",
-      "aliases": [],
-      "hanja": null,
+      "aliases": [
+        "申性均"
+      ],
+      "hanja": "申性均",
       "romanizationCandidates": [
         {
           "value": "Shin Seong-gyun",
@@ -3091,6 +3093,11 @@
           "title": "제헌국회 입법 행위자",
           "period": "1948-1949",
           "verification": "SECONDARY_STENOGRAM_CITATION"
+        },
+        {
+          "title": "제헌국회 내무치안위원장",
+          "asOf": "1948-10-02",
+          "verification": "ORIGINAL_STENOGRAM_AND_CONTEMPORANEOUS_NEWSPAPER"
         }
       ],
       "affiliations": [
@@ -3108,17 +3115,29 @@
           "documentIds": [
             "d152-nikh-local"
           ]
+        },
+        {
+          "type": "committee_report_and_debate",
+          "eventId": "evt152-1948-oct02-reading",
+          "description": "1948-10-02 지방행정조직법안의 임시성·지방자치 우선 원칙을 위원장으로 설명",
+          "documentIds": [
+            "d152b-19481002-assembly",
+            "d152b-19481003-newspaper"
+          ]
         }
       ],
       "connections": [
-        "evt152-1948-local-committee"
+        "evt152-1948-local-committee",
+        "evt152-1948-oct02-reading"
       ],
-      "researchStatus": "IDENTIFIED_CANDIDATE",
-      "researchStatusReason": "Named in NIKH analysis with dated stenogram reference; original speech and biography not independently verified",
+      "researchStatus": "VERIFIED_ACTION_CANDIDATE",
+      "researchStatusReason": "1948-10-02 original Assembly transcript spells 申性均 and identifies chair; lifespan and district still unverified",
       "evidenceDocumentIds": [
-        "d152-nikh-local"
+        "d152-nikh-local",
+        "d152b-19481002-assembly",
+        "d152b-19481003-newspaper"
       ],
-      "evidenceCoverage": "ONE_SECONDARY_FAMILY",
+      "evidenceCoverage": "PRIMARY_STENOGRAM_AND_CONTEMPORANEOUS_NEWS_FOR_1948_ROLE; BIOGRAPHY_PENDING",
       "openLeads": [
         "제헌국회 의원총람 한자·생몰·선거구 확인",
         "관련 본회의 원속기록 원문 확인"
@@ -3126,7 +3145,13 @@
       "historyDebt": [
         "HD-R152-02"
       ],
-      "backbone": false
+      "backbone": false,
+      "reviewHistory": [
+        {
+          "date": "2026-10-11",
+          "change": "Hanja 申性均 and 1948-10-02 chair role upgraded from unknown after original stenogram and contemporary report. Canonical full biography not verified."
+        }
+      ]
     },
     {
       "id": "pol-kim-jun-yeon-1949",
