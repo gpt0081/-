@@ -115,3 +115,6 @@ See `data/politicians/run113-prewar-network.json` for 12 sourced profiles. No ca
 - `data/politicians/run151-1952-cabinet-command-actors.json`: 장택상·이범석·이종찬의 기존 ID와 1952년 외교문서 연결.
 - `data/politicians/run151-1952-martial-judicial-actors.json`: 원용덕·서민호 기존 후보 ID와 원문 연결.
 - 새 생몰·한자 검증 및 정식 승격은 한국 인사원부 대조 전까지 보류.
+
+## Run152 (2026-10-11) 지방자치 입법행위자
+기본 registry에 제헌국회 12인 IDENTIFIED_CANDIDATE 추가. 생몰·한자·지역구 미검증. 기존 김수선·이주형 ID는 run95와 연결, 중복 생성 금지. 상세 data/politicians/run152-local-autonomy-crosslinks.json.
