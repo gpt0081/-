@@ -1,0 +1,35 @@
+{
+  "politicianId": "pol-rhee-syngman",
+  "run": 167,
+  "date": "2026-10-12",
+  "domains": [
+    {
+      "domain": "선거·정당",
+      "status": "STRUCTURED",
+      "evidence": [
+        "doc-r167-election-1950-nec",
+        "doc-r167-party-1951-founding",
+        "doc-r167-party-1952-rhee",
+        "doc-r167-party-1952-appointments"
+      ],
+      "unresolved": [
+        "1950 official candidate roster anachronistic party labels",
+        "1952 party merger original legal date"
+      ]
+    },
+    {
+      "domain": "행정·산업·농정·교통",
+      "status": "SEEDED",
+      "evidence": [
+        "doc-r167-defense-1952-gazette",
+        "doc-r167-farm-1952-plan",
+        "doc-r167-industry-1952-factories",
+        "doc-r167-transport-1952-bridges"
+      ],
+      "unresolved": [
+        "implementation ledgers"
+      ]
+    }
+  ],
+  "caution": "Presidency does not imply direct command of ministerial implementation."
+}

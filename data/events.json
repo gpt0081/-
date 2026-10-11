@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-11",
+  "updatedAt": "2026-10-12",
   "purpose": "정치인 파일에 사건을 매몰시키지 않고 인물·기관·정당·법률·결정·집행·반대·후대판단을 cross-link하기 위한 사건 registry.",
   "events": [
     {
@@ -3722,6 +3722,574 @@
       "run158SpeechActionGraph": "data/research/graph-patches/run158-speech-action.json",
       "evidenceState": "PRIMARY_TRANSCRIPTION",
       "caution": "대통령 담화 원문 미확보; 의원 의혹을 확정사실로 처리하지 않음"
+    },
+    {
+      "id": "evt-r167-01",
+      "name": "제2대 국회의원 총선",
+      "date": "1950-05-30",
+      "domain": "ELECTION",
+      "politicians": [],
+      "institutions": [
+        "국가 선거기관"
+      ],
+      "proposed_by": [],
+      "decided_by": [
+        "국가 선거기관"
+      ],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": null,
+      "observed_by": [
+        "contemporaneous_report"
+      ],
+      "later_finding": [],
+      "documentIds": [
+        "doc-r167-election-1950-nec",
+        "doc-r167-election-1950-nikh"
+      ],
+      "sources": [
+        "https://museum.nec.go.kr/museum2018/bbs/2/3/1/20170912155756377100_view.do?article_category=3&article_id=20171208135010295100&bbs_id=20170912155756377100&imgNum=%EA%B5%AD%ED%9A%8C%EC%9D%98%EC%9B%90%EC%84%A0%EA%B1%B0%EC%82%AC",
+        "https://db.history.go.kr/id/tcct_1950_05_30_0010"
+      ],
+      "evidenceState": "TIME_SCOPED_SOURCE_ATTRIBUTION",
+      "openQuestions": [
+        "후대 편찬 당선인 명단의 시점 혼합 가능성"
+      ]
+    },
+    {
+      "id": "evt-r167-02",
+      "name": "원외자유당 발당 및 이승만 선언 대독",
+      "date": "1951-12-23",
+      "domain": "PARTY_FORMATION",
+      "politicians": [
+        "pol-rhee-syngman",
+        "pol-lee-beom-seok"
+      ],
+      "institutions": [
+        "원외자유당"
+      ],
+      "proposed_by": [],
+      "decided_by": [
+        "원외자유당"
+      ],
+      "executed_by": [
+        "pol-rhee-syngman",
+        "pol-lee-beom-seok"
+      ],
+      "opposed_by": [],
+      "legal_authority": null,
+      "observed_by": [
+        "contemporaneous_report"
+      ],
+      "later_finding": [],
+      "documentIds": [
+        "doc-r167-party-1951-founding",
+        "doc-r167-party-1951-twins"
+      ],
+      "sources": [
+        "https://db.history.go.kr/id/dh_023_1951_12_23_0030",
+        "https://db.history.go.kr/id/dh_023_1951_12_26_0030"
+      ],
+      "evidenceState": "TIME_SCOPED_SOURCE_ATTRIBUTION",
+      "openQuestions": [
+        "당수 이승만 선언은 비서실장이 대독; 당사자 현장 직접 발언으로 오인 금지"
+      ]
+    },
+    {
+      "id": "evt-r167-03",
+      "name": "원내자유당 별도 발당·임시의장단 선출",
+      "date": "1951-12-23",
+      "domain": "PARTY_FORMATION",
+      "politicians": [
+        "pol-r167-lee-gap-seong",
+        "pol-kim-dong-seong-1890",
+        "pol-r167-kim-in-tae"
+      ],
+      "institutions": [
+        "원내자유당"
+      ],
+      "proposed_by": [],
+      "decided_by": [
+        "원내자유당"
+      ],
+      "executed_by": [
+        "pol-r167-lee-gap-seong",
+        "pol-kim-dong-seong-1890",
+        "pol-r167-kim-in-tae"
+      ],
+      "opposed_by": [],
+      "legal_authority": null,
+      "observed_by": [
+        "contemporaneous_report"
+      ],
+      "later_finding": [],
+      "documentIds": [
+        "doc-r167-party-1951-founding",
+        "doc-r167-party-1951-twins"
+      ],
+      "sources": [
+        "https://db.history.go.kr/id/dh_023_1951_12_23_0030",
+        "https://db.history.go.kr/id/dh_023_1951_12_26_0030"
+      ],
+      "evidenceState": "TIME_SCOPED_SOURCE_ATTRIBUTION",
+      "openQuestions": [
+        "의장 선출은 보류, 부의장 선출만 확인"
+      ]
+    },
+    {
+      "id": "evt-r167-04",
+      "name": "방공비상사태 전국 선포",
+      "date": "1952-01-10",
+      "domain": "ADMINISTRATION",
+      "politicians": [
+        "pol-rhee-syngman",
+        "pol-yi-ki-pung",
+        "pol-pyun-yong-tae",
+        "pol-r167-im-mun-hwan"
+      ],
+      "institutions": [
+        "국무회의"
+      ],
+      "proposed_by": [],
+      "decided_by": [
+        "국무회의"
+      ],
+      "executed_by": [
+        "pol-rhee-syngman",
+        "pol-yi-ki-pung",
+        "pol-pyun-yong-tae",
+        "pol-r167-im-mun-hwan"
+      ],
+      "opposed_by": [],
+      "legal_authority": "방공법 제2조 (관보 전사)",
+      "observed_by": [
+        "contemporaneous_report"
+      ],
+      "later_finding": [],
+      "documentIds": [
+        "doc-r167-defense-1952-gazette"
+      ],
+      "sources": [
+        "https://db.history.go.kr/id/dh_024_1952_01_10_0060"
+      ],
+      "evidenceState": "TIME_SCOPED_SOURCE_ATTRIBUTION",
+      "openQuestions": [
+        "관보 선포는 훈련 집행 성과와 별개"
+      ]
+    },
+    {
+      "id": "evt-r167-05",
+      "name": "이승만 원외자유당만 자신의 정당이라고 성명",
+      "date": "1952-01-13",
+      "domain": "SPEECH",
+      "politicians": [
+        "pol-rhee-syngman"
+      ],
+      "institutions": [
+        "공보처"
+      ],
+      "proposed_by": [],
+      "decided_by": [
+        "공보처"
+      ],
+      "executed_by": [
+        "pol-rhee-syngman"
+      ],
+      "opposed_by": [],
+      "legal_authority": null,
+      "observed_by": [
+        "contemporaneous_report"
+      ],
+      "later_finding": [],
+      "documentIds": [
+        "doc-r167-party-1952-rhee"
+      ],
+      "sources": [
+        "https://db.history.go.kr/id/dh_024_1952_01_13_0020"
+      ],
+      "evidenceState": "TIME_SCOPED_SOURCE_ATTRIBUTION",
+      "openQuestions": [
+        "당사자 공식 성명과 상대 조직의 법적 지위는 별개"
+      ]
+    },
+    {
+      "id": "evt-r167-06",
+      "name": "농림부 장관 증산계획 발표",
+      "date": "1952-01-18",
+      "domain": "POLICY_ANNOUNCEMENT",
+      "politicians": [
+        "pol-r167-im-mun-hwan"
+      ],
+      "institutions": [
+        "농림부"
+      ],
+      "proposed_by": [],
+      "decided_by": [
+        "농림부"
+      ],
+      "executed_by": [
+        "pol-r167-im-mun-hwan"
+      ],
+      "opposed_by": [],
+      "legal_authority": null,
+      "observed_by": [
+        "contemporaneous_report"
+      ],
+      "later_finding": [],
+      "documentIds": [
+        "doc-r167-farm-1952-plan"
+      ],
+      "sources": [
+        "https://db.history.go.kr/id/dh_024_1952_01_18_0040"
+      ],
+      "evidenceState": "TIME_SCOPED_SOURCE_ATTRIBUTION",
+      "openQuestions": [
+        "목표량·예산 발표와 생산 실적 분리"
+      ]
+    },
+    {
+      "id": "evt-r167-07",
+      "name": "상공부 공장 운영 현황 발표",
+      "date": "1952-01-24",
+      "domain": "STATISTICS_ANNOUNCEMENT",
+      "politicians": [],
+      "institutions": [
+        "상공부"
+      ],
+      "proposed_by": [],
+      "decided_by": [
+        "상공부"
+      ],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": null,
+      "observed_by": [
+        "contemporaneous_report"
+      ],
+      "later_finding": [],
+      "documentIds": [
+        "doc-r167-industry-1952-factories"
+      ],
+      "sources": [
+        "https://db.history.go.kr/id/dh_024_1952_01_24_0030"
+      ],
+      "evidenceState": "TIME_SCOPED_SOURCE_ATTRIBUTION",
+      "openQuestions": [
+        "공장 개수와 생산량·가동률 구분"
+      ]
+    },
+    {
+      "id": "evt-r167-08",
+      "name": "한일통상협정 갱신 예비회의",
+      "date": "1952-01-26",
+      "domain": "DIPLOMATIC_ADMIN",
+      "politicians": [],
+      "institutions": [
+        "상공부",
+        "재무부"
+      ],
+      "proposed_by": [],
+      "decided_by": [
+        "상공부",
+        "재무부"
+      ],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": null,
+      "observed_by": [
+        "contemporaneous_report"
+      ],
+      "later_finding": [],
+      "documentIds": [
+        "doc-r167-trade-1952-japan"
+      ],
+      "sources": [
+        "https://db.history.go.kr/id/dh_024_1952_01_26_0050"
+      ],
+      "evidenceState": "TIME_SCOPED_SOURCE_ATTRIBUTION",
+      "openQuestions": [
+        "합의안이 아닌 갱신 예비 논의"
+      ]
+    },
+    {
+      "id": "evt-r167-09",
+      "name": "교통부 장관 철교복구 기자회견",
+      "date": "1952-01-28",
+      "domain": "ADMINISTRATIVE_STATEMENT",
+      "politicians": [
+        "pol-r167-kim-seok-gwan"
+      ],
+      "institutions": [
+        "교통부"
+      ],
+      "proposed_by": [],
+      "decided_by": [
+        "교통부"
+      ],
+      "executed_by": [
+        "pol-r167-kim-seok-gwan"
+      ],
+      "opposed_by": [],
+      "legal_authority": null,
+      "observed_by": [
+        "contemporaneous_report"
+      ],
+      "later_finding": [],
+      "documentIds": [
+        "doc-r167-transport-1952-bridges"
+      ],
+      "sources": [
+        "https://db.history.go.kr/id/dh_024_1952_01_28_0100"
+      ],
+      "evidenceState": "TIME_SCOPED_SOURCE_ATTRIBUTION",
+      "openQuestions": [
+        "완공 발표와 미래 공사 계획 구분"
+      ]
+    },
+    {
+      "id": "evt-r167-10",
+      "name": "원내 자유당 합동파 교섭단체 명부 제출",
+      "date": "1952-05-19",
+      "domain": "PARLIAMENTARY_PROCEDURE",
+      "politicians": [],
+      "institutions": [
+        "원내자유당"
+      ],
+      "proposed_by": [],
+      "decided_by": [
+        "원내자유당"
+      ],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": null,
+      "observed_by": [
+        "contemporaneous_report"
+      ],
+      "later_finding": [],
+      "documentIds": [
+        "doc-r167-party-1952-caucus"
+      ],
+      "sources": [
+        "https://db.history.go.kr/id/dh_025_1952_05_19_0040"
+      ],
+      "evidenceState": "TIME_SCOPED_SOURCE_ATTRIBUTION",
+      "openQuestions": [
+        "제출과 국회 의사국 승인 구분"
+      ]
+    },
+    {
+      "id": "evt-r167-11",
+      "name": "국회 국방위 군사시찰단 파견 결의",
+      "date": "1952-09-04",
+      "domain": "PARLIAMENTARY_PROCEDURE",
+      "politicians": [],
+      "institutions": [
+        "국회 국방위원회"
+      ],
+      "proposed_by": [],
+      "decided_by": [
+        "국회 국방위원회"
+      ],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": null,
+      "observed_by": [
+        "contemporaneous_report"
+      ],
+      "later_finding": [],
+      "documentIds": [
+        "doc-r167-defense-1952-committee"
+      ],
+      "sources": [
+        "https://db.history.go.kr/id/dh_026_1952_09_04_0040"
+      ],
+      "evidenceState": "TIME_SCOPED_SOURCE_ATTRIBUTION",
+      "openQuestions": [
+        "본회의 상정 전; 실제 출국 미확인"
+      ]
+    },
+    {
+      "id": "evt-r167-12",
+      "name": "원내 자유당 합동파 5인 교섭 전권 부여",
+      "date": "1952-09-06",
+      "domain": "PARTY_NEGOTIATION",
+      "politicians": [
+        "pol-r167-lee-gap-seong",
+        "pol-r167-nam-song-hak",
+        "pol-r167-park-yeong-chul",
+        "pol-r167-seonu-gi-seong"
+      ],
+      "institutions": [
+        "원내자유당"
+      ],
+      "proposed_by": [],
+      "decided_by": [
+        "원내자유당"
+      ],
+      "executed_by": [
+        "pol-r167-lee-gap-seong",
+        "pol-r167-nam-song-hak",
+        "pol-r167-park-yeong-chul",
+        "pol-r167-seonu-gi-seong"
+      ],
+      "opposed_by": [],
+      "legal_authority": null,
+      "observed_by": [
+        "contemporaneous_report"
+      ],
+      "later_finding": [],
+      "documentIds": [
+        "doc-r167-party-1952-talks"
+      ],
+      "sources": [
+        "https://db.history.go.kr/id/dh_026_1952_09_06_0020"
+      ],
+      "evidenceState": "TIME_SCOPED_SOURCE_ATTRIBUTION",
+      "openQuestions": [
+        "DB 표제 9/5 vs 기사 본문 9/6; 원상집 의사록 필요"
+      ]
+    },
+    {
+      "id": "evt-r167-13",
+      "name": "5·30동지회 합당 참여 결정 보도",
+      "date": "1952-09-17",
+      "domain": "PARTY_NEGOTIATION",
+      "politicians": [],
+      "institutions": [
+        "5·30동지회"
+      ],
+      "proposed_by": [],
+      "decided_by": [
+        "5·30동지회"
+      ],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": null,
+      "observed_by": [
+        "contemporaneous_report"
+      ],
+      "later_finding": [],
+      "documentIds": [
+        "doc-r167-party-1952-530"
+      ],
+      "sources": [
+        "https://db.history.go.kr/id/dh_026_1952_09_17_0100"
+      ],
+      "evidenceState": "TIME_SCOPED_SOURCE_ATTRIBUTION",
+      "openQuestions": [
+        "약 60명 포섭은 기자 전망"
+      ]
+    },
+    {
+      "id": "evt-r167-14",
+      "name": "원외 자유당 전당대회 당내 분열 보도",
+      "date": "1952-09-28",
+      "domain": "PARTY_INTERNAL_CONFLICT",
+      "politicians": [
+        "pol-rhee-syngman",
+        "pol-lee-beom-seok"
+      ],
+      "institutions": [
+        "원외자유당"
+      ],
+      "proposed_by": [],
+      "decided_by": [
+        "원외자유당"
+      ],
+      "executed_by": [
+        "pol-rhee-syngman",
+        "pol-lee-beom-seok"
+      ],
+      "opposed_by": [],
+      "legal_authority": null,
+      "observed_by": [
+        "contemporaneous_report"
+      ],
+      "later_finding": [],
+      "documentIds": [
+        "doc-r167-party-1952-conflict"
+      ],
+      "sources": [
+        "https://db.history.go.kr/id/dh_026_1952_09_28_0010"
+      ],
+      "evidenceState": "TIME_SCOPED_SOURCE_ATTRIBUTION",
+      "openQuestions": [
+        "보도 시점에 일부 당헌·임원 결정 미완"
+      ]
+    },
+    {
+      "id": "evt-r167-15",
+      "name": "이승만 자유당 부장·차장 인선 결재",
+      "date": "1952-10-09",
+      "domain": "PARTY_APPOINTMENT",
+      "politicians": [
+        "pol-rhee-syngman",
+        "pol-r167-woo-mun",
+        "pol-r167-yeo-un-hong"
+      ],
+      "institutions": [
+        "자유당 중앙당부"
+      ],
+      "proposed_by": [],
+      "decided_by": [
+        "자유당 중앙당부"
+      ],
+      "executed_by": [
+        "pol-rhee-syngman",
+        "pol-r167-woo-mun",
+        "pol-r167-yeo-un-hong"
+      ],
+      "opposed_by": [],
+      "legal_authority": null,
+      "observed_by": [
+        "contemporaneous_report"
+      ],
+      "later_finding": [],
+      "documentIds": [
+        "doc-r167-party-1952-appointments"
+      ],
+      "sources": [
+        "https://db.history.go.kr/id/dh_027_1952_10_09_0080"
+      ],
+      "evidenceState": "TIME_SCOPED_SOURCE_ATTRIBUTION",
+      "openQuestions": [
+        "8개 부서만 결정, 나머지 재검토"
+      ]
+    },
+    {
+      "id": "evt-r167-16",
+      "name": "자유당 중앙당부 대통령 담화에 대한 당책 수립",
+      "date": "1952-12-15",
+      "domain": "PARTY_POLICY",
+      "politicians": [
+        "pol-rhee-syngman"
+      ],
+      "institutions": [
+        "자유당 중앙당부"
+      ],
+      "proposed_by": [],
+      "decided_by": [
+        "자유당 중앙당부"
+      ],
+      "executed_by": [
+        "pol-rhee-syngman"
+      ],
+      "opposed_by": [],
+      "legal_authority": null,
+      "observed_by": [
+        "contemporaneous_report"
+      ],
+      "later_finding": [],
+      "documentIds": [
+        "doc-r167-party-1952-statement-response"
+      ],
+      "sources": [
+        "https://db.history.go.kr/id/dh_027_1952_12_15_0080"
+      ],
+      "evidenceState": "TIME_SCOPED_SOURCE_ATTRIBUTION",
+      "openQuestions": [
+        "대통령 12/9 담화와 당 12/15 회의의 구체 연결은 신문 보도"
+      ]
     }
   ]
 }

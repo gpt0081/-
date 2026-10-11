@@ -134,3 +134,9 @@ See `data/politicians/run113-prewar-network.json` for 12 sourced profiles. No ca
 - `data/annals/yun-chi-yeong-1950-run165.md`, `data/annals/shin-ik-hui-1950-run165.md`: 비대통령 인물의 독립 실록 보강.
 - `data/research/runs/2026-10-12-run165-ledger.json`: 원문·색인·기존 run164 중복을 구분한 실행 감사.
 - 중앙 `data/politicians.json` 승격은 생몰·직책·선거구 원부 확인 전 보류. Floot 미수정.
+
+
+## Run167 (2026-10-12) · 1950 총선 원천비판과 자유당 인물망
+- 기본 정치인 registry에 IDENTIFIED 후보 17명 추가, 기존 인물 5명 사건 링크 보강. 출처·이명·생몰 미확정 범위는 `data/politicians/run167-1950-1952-party-actors.json`에 보존.
+- 원내/원외 자유당을 1951-12-23 별개 조직 ID로 유지. 1950-05-30 국사편찬위원회 당선인 명단의 후대 자유당 표기·동일 선거구 복수 인명은 검증 전 최초 당선자/당적 데이터로 사용 금지.
+- 인물 실록 `data/annals/lee-gap-seong-1951-1952.md`, 사건 `data/events/run167-election-party-subevents.json`, 문서 `data/documents/run167-election-party-governance.json`, 주장·반증 `data/claims/run167-election-source-criticism.json`.
