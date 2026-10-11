@@ -106,3 +106,7 @@ See `data/politicians/run113-prewar-network.json` for 12 sourced profiles. No ca
 ## Run133 (2026-10-10): 1952-06-19 국회 조사단 보도 명단
 
 `data/politicians/run133-1952-inquiry-roster-actors.json`: 동아일보 1952-06-21 기사에 기록된 이시목·유덕천·백남식·한국원·오성환·김판석·유승준·서상국·이진수·김익로의 한자, 로마자, 당일 파별, 조사위원 명단 등장행위를 개별 candidate ID로 분리했다. **10명 모두 IDENTIFIED / 공식 의원원부 미확인**, canonical 승격하지 않음. 관련 event: `evt-r133-19520619-inquiry-roster`. 본문 원문은 `d131-0619-0020`, 원문 대조 및 역사부채는 run133 ledger 참조.
+
+## Run149 · 김수선 동일인 검증
+- `pol-kim-su-seon-1949`(제헌국회 金壽善)와 `pol-r149-kim-su-seon`(1954 울산 갑 김수선)은 AKS·울산역사문화대전의 제헌·3대 의원 연속경력과 한자로 동일인 연결. 후보 ID는 삭제하지 않고 `legacyCandidateIds`에 보존.
+- 별도 `data/annals/kim-su-seon-run149.md` 및 `data/evidence/politicians/kim-su-seon-run149.json` 개설, `ANNALS_ACTIVE`로 승격. 1948 선거구 갑/을 후대 표기 충돌은 원당선공고 확인 전 유보.
