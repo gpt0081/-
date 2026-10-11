@@ -6,30 +6,56 @@
       "status": "CONFLICTED",
       "statement": "1952년 11월 CIA 쿠데타 첩보의 사실성",
       "supporting_evidence": [
-        "d174-frus-323: 첩보 수신 기록"
+        "d174-frus-323"
       ],
       "contradicting_evidence": [
-        "d174-frus-323: 미 대사관·군 정보부가 신빙성을 부정·회의적으로 평가"
+        "d174-frus-323"
       ],
       "insufficient_evidence": [
         "CIA 원보고",
         "Pusan telegram 628"
       ],
-      "note": "이름이 언급된 사람들의 관여 사실은 입증되지 않음"
+      "note": "이름이 언급된 사람들의 관여 사실은 입증되지 않음",
+      "evidence_annotations": [
+        {
+          "field": "supporting_evidence",
+          "documentId": "d174-frus-323",
+          "qualifier": ": 첩보 수신 기록"
+        },
+        {
+          "field": "contradicting_evidence",
+          "documentId": "d174-frus-323",
+          "qualifier": ": 미 대사관·군 정보부가 신빙성을 부정·회의적으로 평가"
+        }
+      ],
+      "same_document_internal_disagreement": true
     },
     {
       "id": "c174-02",
       "status": "NARROWED",
       "statement": "변영태 UN 제1위원회 연설일 1952-11-03",
       "supporting_evidence": [
-        "d174-frus-323 편집각주"
+        "d174-frus-323"
       ],
       "contradicting_evidence": [
-        "d174-frus-323 본문은 11월5일로 기재"
+        "d174-frus-323"
       ],
       "insufficient_evidence": [
         "UN A/C.1/SR.518 PDF 403 차단"
-      ]
+      ],
+      "evidence_annotations": [
+        {
+          "field": "supporting_evidence",
+          "documentId": "d174-frus-323",
+          "qualifier": "편집각주"
+        },
+        {
+          "field": "contradicting_evidence",
+          "documentId": "d174-frus-323",
+          "qualifier": "본문은 11월5일로 기재"
+        }
+      ],
+      "same_document_internal_disagreement": true
     },
     {
       "id": "c174-03",
@@ -62,12 +88,19 @@
       "status": "NARROWED",
       "statement": "1952년 부산 계엄 당시 사단 이동 요구·거부",
       "supporting_evidence": [
-        "d174-frus-296의 Lemnitzer 전언"
+        "d174-frus-296"
       ],
       "insufficient_evidence": [
         "당일 한국군·미8군 작전일지"
       ],
-      "note": "미측 사후 전언과 당일 명령 구별"
+      "note": "미측 사후 전언과 당일 명령 구별",
+      "evidence_annotations": [
+        {
+          "field": "supporting_evidence",
+          "documentId": "d174-frus-296",
+          "qualifier": "의 Lemnitzer 전언"
+        }
+      ]
     },
     {
       "id": "c174-06",
@@ -84,6 +117,13 @@
         "UN A/C.1/734",
         "UNGA 610(VII) 최종문안"
       ]
+    }
+  ],
+  "correctionHistory": [
+    {
+      "date": "2026-10-12",
+      "reason": "Reference-integrity audit found descriptive suffixes embedded in document IDs; normalized evidence links and retained qualifiers in evidence_annotations.",
+      "previous_commit": "b7d66a6d99ee88f660661d2f23ae3c3425b6fe1f"
     }
   ]
 }
