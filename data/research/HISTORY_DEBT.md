@@ -575,3 +575,8 @@ HD-R152-12 OPEN: 후생복표 특별회계 결산.
 - `HD-R172-005` NARROWED: 5/24 한미협정·6/13 미 내부 검토·7/22 한국 보도·8/26 상환준비를 분리.
 - `HD-R172-006` OPEN: 11/07 중석불 관련 구인장 실제 집행 여부.
 - 근거와 다음 원문 표적: `data/research/history-debt/run172-governance*.json`, `data/research/lead-queues/run172-next-*.json`.
+
+### run172 법령 원문 보강: 1952년 헌법 제70조의2
+- 국회 법률정보시스템 제공 1952-07-07 헌법 제2호 PDF 원문에서 제70조의2 확인: 일반 불신임은 재적 과반수, 국무원 조직완료 또는 총선거 후 신임결의로부터 1년 내에는 재적 3분의2 예외.
+- 1952-10-30 신문 보도상 정족수 122의 법적 설명은 보강됐지만, 해당 국무원 조직완료일과 표결 원부는 미확보. 103/105 충돌은 NARROWED 상태로 유지.
+- `doc-r172-constitution-1952-07-07`, `data/claims/run172-constitutional-rule-addendum.json`, `L172-56`~`L172-58`.
