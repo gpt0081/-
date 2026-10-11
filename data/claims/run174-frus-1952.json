@@ -35,7 +35,8 @@
       "status": "NARROWED",
       "statement": "변영태 UN 제1위원회 연설일 1952-11-03",
       "supporting_evidence": [
-        "d174-frus-323"
+        "d174-frus-323",
+        "d175-un-518"
       ],
       "contradicting_evidence": [
         "d174-frus-323"
@@ -55,7 +56,8 @@
           "qualifier": "본문은 11월5일로 기재"
         }
       ],
-      "same_document_internal_disagreement": true
+      "same_document_internal_disagreement": true,
+      "note": "UN 공식 518회 회의 색인으로 11/03 날짜 보강, PDF 직접 판독 미완"
     },
     {
       "id": "c174-03",
@@ -124,6 +126,11 @@
       "date": "2026-10-12",
       "reason": "Reference-integrity audit found descriptive suffixes embedded in document IDs; normalized evidence links and retained qualifiers in evidence_annotations.",
       "previous_commit": "b7d66a6d99ee88f660661d2f23ae3c3425b6fe1f"
+    },
+    {
+      "date": "2026-10-12",
+      "run": 175,
+      "reason": "Independent UN meeting catalog cross-link added without claiming PDF was read."
     }
   ]
 }

@@ -39,7 +39,9 @@
         "evt-r167-16",
         "e174-04",
         "e174-06",
-        "e174-07"
+        "e174-07",
+        "evt-r175-fx-approval",
+        "evt-r175-eisenhower-preparation"
       ],
       "evidenceDocumentIds": [
         "d114b-04",
@@ -48,7 +50,8 @@
         "d143-frus-592",
         "doc145-frus-639",
         "doc145-frus-644",
-        "doc145-frus-646"
+        "doc145-frus-646",
+        "d175-dh-0100"
       ],
       "researchNotes": [
         {
@@ -82,6 +85,11 @@
           ],
           "verification": "US_FRUS_EDITED_PRIMARY_WITH_SCOPE_LIMIT",
           "note": "미국 문서의 당시 관찰·전언과 한국측 직접행위·승인을 구분"
+        },
+        {
+          "run": 175,
+          "date": "2026-10-12",
+          "note": "동시대 보도는 관측·발언·결재·집행을 구분, 원행정문서 미확보"
         }
       ]
     },
@@ -102,7 +110,18 @@
       "backbone": false,
       "connections": [
         "evt-1960-315-election",
-        "evt-r167-04"
+        "evt-r167-04",
+        "evt-r175-pm-rumor"
+      ],
+      "evidenceDocumentIds": [
+        "d175-dh-0080"
+      ],
+      "researchUpdates": [
+        {
+          "run": 175,
+          "date": "2026-10-12",
+          "note": "동시대 보도는 관측·발언·결재·집행을 구분, 원행정문서 미확보"
+        }
       ]
     },
     {
@@ -2254,11 +2273,13 @@
       "promotionReason": "1950년 4월 당대 기사와 기존 run113 국회 인물자료가 동일 정치적 행위자를 가리킴. 정식 의원원부 미확인.",
       "connections": [
         "evt-1950-0421-acting-pm-parliament-dispute",
-        "evt156-1949-1124-education-second-reading"
+        "evt156-1949-1124-education-second-reading",
+        "evt-r175-pm-rumor"
       ],
       "evidenceDocumentIds": [
         "d114-seoul-19500422",
-        "d156-1949-1124-assembly-catalog"
+        "d156-1949-1124-assembly-catalog",
+        "d175-dh-0080"
       ],
       "openLeads": [
         "L114-11",
@@ -2270,6 +2291,13 @@
       ],
       "relationshipEvidence": [
         "rel158-010"
+      ],
+      "researchUpdates": [
+        {
+          "run": 175,
+          "date": "2026-10-12",
+          "note": "동시대 보도는 관측·발언·결재·집행을 구분, 원행정문서 미확보"
+        }
       ]
     },
     {
@@ -5889,12 +5917,14 @@
       "connections": [
         "evt-r167-03",
         "evt-r167-12",
-        "evt-r173-pm-vote"
+        "evt-r173-pm-vote",
+        "evt-r175-pm-rumor"
       ],
       "evidenceDocumentIds": [
         "doc-r167-party-1951-founding",
         "doc-r167-party-1952-talks",
-        "doc-r173-dh_027_1952_11_20_0050"
+        "doc-r173-dh_027_1952_11_20_0050",
+        "d175-dh-0080"
       ],
       "researchStatus": "IDENTIFIED",
       "promotionReason": "Named time-specific action in dated contemporary document; no VERIFIED promotion",
@@ -5912,6 +5942,13 @@
             "https://db.history.go.kr/id/dh_026_1952_09_06_0020"
           ],
           "caution": "Hanja/romanization and office status need identity verification; party role does not imply 1950 election affiliation."
+        }
+      ],
+      "researchUpdates": [
+        {
+          "run": 175,
+          "date": "2026-10-12",
+          "note": "동시대 보도는 관측·발언·결재·집행을 구분, 원행정문서 미확보"
         }
       ]
     },
@@ -6893,17 +6930,26 @@
         }
       ],
       "connections": [
-        "evt-r173-diaspora-petition"
+        "evt-r173-diaspora-petition",
+        "evt-r175-diaspora-vote"
       ],
       "evidenceDocumentIds": [
-        "doc-r173-dh_027_1952_11_14_0070"
+        "doc-r173-dh_027_1952_11_14_0070",
+        "d175-dh-0090"
       ],
       "researchStatus": "IDENTIFIED",
       "promotionReason": "동시대 기사에서 특정 날짜의 행위·직책 확인; 원의사록·생몰 미확보",
       "openLeads": [
         "1952년 국회·관보 원인명록과 원회의록 확인"
       ],
-      "historyDebt": []
+      "historyDebt": [],
+      "researchUpdates": [
+        {
+          "run": 175,
+          "date": "2026-10-12",
+          "note": "동시대 보도는 관측·발언·결재·집행을 구분, 원행정문서 미확보"
+        }
+      ]
     },
     {
       "id": "pol-r173-yu-seung-jun",
@@ -7196,6 +7242,43 @@
       "openLeads": [
         "L174-08",
         "L174-09"
+      ]
+    },
+    {
+      "id": "pol-r175-kim-jong-hwan",
+      "name": "김종환",
+      "aliases": [
+        "金鍾煥",
+        "Kim Jong-hwan"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verificationStatus": "OFFICIAL_ROSTER_NOT_READ"
+      },
+      "roles": [
+        {
+          "period": "1952-11-24",
+          "title": "대구시장으로 로동회 단속 방침 발표",
+          "sourceDocumentIds": [
+            "d175-dh-0110"
+          ]
+        }
+      ],
+      "partyAffiliations": [],
+      "connections": [
+        "evt-r175-daegu-administration"
+      ],
+      "evidenceDocumentIds": [
+        "d175-dh-0110"
+      ],
+      "researchStatus": "IDENTIFIED",
+      "promotionReason": "1952-11-24 대구매일 동시대 보도에 직책·행위가 특정됨; 공식 임명/생몰 미확보",
+      "openLeads": [
+        "L175-07"
+      ],
+      "historyDebt": [
+        "HD-R175-002"
       ]
     }
   ]
