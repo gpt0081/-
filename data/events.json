@@ -3360,9 +3360,12 @@
       "date": "1955-09-15",
       "name": "문경선 은성역 개통식 및 석탄 운송",
       "domain": "산업·교통",
-      "politicians": [],
+      "politicians": [
+        "pol-r149-cabinet-09"
+      ],
       "documentIds": [
-        "d150-kdemo-mungyeong"
+        "d150-kdemo-mungyeong",
+        "d150-ktv-mungyeong"
       ],
       "proposed_by": [],
       "decided_by": [],
@@ -3370,11 +3373,12 @@
       "opposed_by": [],
       "legal_authority": [],
       "observed_by": [
-        "경향신문사 생산 사진 00727567 소장목록"
+        "경향신문사 생산 사진 00727567 소장목록",
+        "대한뉴스 제66호 1955-09-26 제작목록"
       ],
       "later_finding": [],
       "status": "METADATA_ONLY",
-      "note": "교통부장관 참석 설명은 있으나 실명·사업 집행예산 미확인"
+      "note": "교통부장관 참석 설명은 있으나 실명·사업 집행예산 미확인 대한뉴스 목록에 1955-09-15 개통과 이종림 교통부장관 축사 기재. 영상 원면 미재생."
     },
     {
       "id": "evt-r150-19551001-industrial-expo",
@@ -3556,21 +3560,41 @@
       "date": "1955-08-12",
       "name": "US-ROK exchange rate amendment: 500 hwan per USD",
       "domain": "finance-foreign_aid",
-      "politicians": [],
+      "politicians": [
+        "pol-yang-yu-chan"
+      ],
       "documentIds": [
-        "d150-frus-78"
+        "d150-frus-78",
+        "d150-rok-treaty-1152",
+        "d150-aks-exchange"
       ],
       "proposed_by": [],
-      "decided_by": [],
+      "decided_by": [
+        "양유찬(대한민국 서명자)",
+        "Walter S. Robertson(미국 서명자)"
+      ],
       "executed_by": [],
       "opposed_by": [],
-      "legal_authority": [],
+      "legal_authority": [
+        "조약 제1152호 1955-08-12 수정문"
+      ],
       "observed_by": [
         "FRUS document 78"
       ],
       "later_finding": [],
       "status": "SOURCE_VERIFIED_OUTCOME_NOT_INFERRED",
-      "note": "Contemporaneous record confirms discussion or stated action; implementation requires separate Korean or foreign administrative records."
+      "note": "Contemporaneous record confirms discussion or stated action; implementation requires separate Korean or foreign administrative records.",
+      "effectiveDate": "1955-08-15",
+      "policyExceptions": [
+        "석탄 40% 이상",
+        "비료 50% 이상, 1956-01-01부터 공정환율"
+      ],
+      "reviewHistory": [
+        {
+          "date": "2026-10-12",
+          "reason": "국가법령정보센터 한국어 원조약으로 발효일·서명자·예외조항 확인"
+        }
+      ]
     },
     {
       "id": "evt-r150-19550824-policy-coordination",
@@ -3663,11 +3687,17 @@
       "date": "1955-10-08",
       "name": "US-ROK economic coordination meeting",
       "domain": "finance-industry-agriculture",
-      "politicians": [],
-      "documentIds": [
-        "d150-frus-91"
+      "politicians": [
+        "pol-paik-too-chin"
       ],
-      "proposed_by": [],
+      "documentIds": [
+        "d150-frus-91",
+        "d150-aks-paik",
+        "d150-ktv-paik"
+      ],
+      "proposed_by": [
+        "한국측 경제조정관 Paik(백두진 동정: AKS 재직기간·대한뉴스 확인), 원조 증액 요청"
+      ],
       "decided_by": [],
       "executed_by": [],
       "opposed_by": [],
@@ -3677,7 +3707,7 @@
       ],
       "later_finding": [],
       "status": "SOURCE_VERIFIED_OUTCOME_NOT_INFERRED",
-      "note": "Contemporaneous record confirms discussion or stated action; implementation requires separate Korean or foreign administrative records."
+      "note": "Contemporaneous record confirms discussion or stated action; implementation requires separate Korean or foreign administrative records. 경제조정관 Paik=백두진은 직책·기간 교차검증으로 강하게 지지되나 한국측 당일 참석원부는 미확보."
     },
     {
       "id": "evt-r150-19551009-visit",
@@ -3724,6 +3754,29 @@
       "later_finding": [],
       "status": "SOURCE_VERIFIED_OUTCOME_NOT_INFERRED",
       "note": "Contemporaneous record confirms discussion or stated action; implementation requires separate Korean or foreign administrative records."
+    },
+    {
+      "id": "evt-r150-19550820-paik-return",
+      "date": "1955-08-20",
+      "name": "백두진 한미합동경제위원회 한국대표 귀국 대한뉴스 기록",
+      "domain": "경제·외교",
+      "politicians": [
+        "pol-paik-too-chin"
+      ],
+      "documentIds": [
+        "d150-ktv-paik"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "대한뉴스 제64호 제작 1955-08-30 소장목록"
+      ],
+      "later_finding": [],
+      "status": "CATALOG_ONLY_FILM_NOT_VIEWED",
+      "note": "8/20 귀국 사건과 8/30 뉴스 제작일 구분"
     }
   ]
 }

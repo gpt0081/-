@@ -648,7 +648,9 @@
       "backbone": false,
       "connections": [
         "evt-1953-anti-communist-pow-release",
-        "evt-1953-us-rok-mutual-defense-negotiation"
+        "evt-1953-us-rok-mutual-defense-negotiation",
+        "evt-r150-19551008-economic",
+        "evt-r150-19550820-paik-return"
       ],
       "researchNotes": [
         "1",
@@ -832,7 +834,10 @@
       "evidenceDocumentIds": [
         "doc145-frus-632",
         "doc145-frus-639",
-        "doc145-frus-646"
+        "doc145-frus-646",
+        "d150-frus-91",
+        "d150-aks-paik",
+        "d150-ktv-paik"
       ],
       "evidenceCoverage": {
         "documentIds": [
@@ -842,7 +847,9 @@
         "reviewDate": "2026-10-11"
       },
       "eventIds": [
-        "evt-r148b-unkra-agreement"
+        "evt-r148b-unkra-agreement",
+        "evt-r150-19551008-economic",
+        "evt-r150-19550820-paik-return"
       ],
       "status": "IDENTIFIED",
       "openLeads": [
@@ -4158,17 +4165,22 @@
       ],
       "affiliations": [],
       "eventIds": [
-        "evt-r149-cabinet-signature-comparison"
+        "evt-r149-cabinet-signature-comparison",
+        "evt-r150-19550915-mungyeong-rail"
       ],
       "researchStatus": "IDENTIFIED",
       "evidenceDocumentIds": [
-        "d149-law-385"
+        "d149-law-385",
+        "d150-ktv-mungyeong"
       ],
       "openLeads": [
         "L149-cabinet-appointments"
       ],
       "historyDebtIds": [],
-      "note": "관보 서명란으로 재임 직책만 확인; 생몰·임명일·정당 미검증, 영문은 검색용 표기"
+      "note": "관보 서명란으로 재임 직책만 확인; 생몰·임명일·정당 미검증, 영문은 검색용 표기",
+      "connections": [
+        "evt-r150-19550915-mungyeong-rail"
+      ]
     },
     {
       "id": "pol-r149-cabinet-10",
@@ -4574,6 +4586,50 @@
         "HD-R150-10"
       ],
       "promotionReason": "1955-09-14 FRUS 동시대 외교문서에서 직책과 발언 확인",
+      "backbone": false
+    },
+    {
+      "id": "pol-yang-yu-chan",
+      "name": "양유찬",
+      "aliases": [
+        "Yang Yu-chan",
+        "Yang You-chan"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "not_checked"
+      },
+      "roles": [
+        "1955-08-12 대한민국 정부를 대표하여 한미 합의의사록 수정 서명"
+      ],
+      "roleTimeline": [
+        {
+          "period": "1955-08-12",
+          "title": "ROK signatory of amendment to Agreed Minute",
+          "sourceDocumentIds": [
+            "d150-rok-treaty-1152"
+          ]
+        }
+      ],
+      "affiliations": [
+        "대한민국 정부"
+      ],
+      "eventIds": [
+        "evt-r150-19550812-exchange500"
+      ],
+      "connections": [
+        "evt-r150-19550812-exchange500"
+      ],
+      "evidenceDocumentIds": [
+        "d150-rok-treaty-1152"
+      ],
+      "researchStatus": "VERIFIED",
+      "promotionReason": "국가법령정보센터 원조약에 서명자 양유찬이 명시됨; 다른 직책·생몰은 미검증",
+      "openLeads": [
+        "L150-51"
+      ],
+      "historyDebtIds": [],
       "backbone": false
     }
   ]
