@@ -1,0 +1,49 @@
+{
+  "run": 173,
+  "claims": [
+    {
+      "id": "claim-r173-food-arithmetic",
+      "status": "CONFLICTED",
+      "statement": "1952-11-18 식량공급 총량과 재원 산술",
+      "supporting_evidence": [
+        "doc-r173-dh_027_1952_11_18_0080: 수요 항목 합계 9024595석"
+      ],
+      "contradicting_evidence": [
+        "동일 기사 재원 6580000석+24445석=6604445석; 총량과 차이 2420150석"
+      ],
+      "insufficient_evidence": [
+        "농림부 원계획서·신문 원면"
+      ],
+      "next_test": "1952-11-20 대구매일 원면"
+    },
+    {
+      "id": "claim-r173-bond-date",
+      "status": "CONFLICTED",
+      "statement": "1952년 기사에서 구미위원부 독립공채를 1915년 발행으로 표기",
+      "supporting_evidence": [
+        "doc-r173-dh_027_1952_11_14_0090"
+      ],
+      "contradicting_evidence": [
+        "doc-r173-bond-study: 구미위원부 1919 설립·1920 공채조례"
+      ],
+      "insufficient_evidence": [
+        "1952년 국무회의 의안·공채 실물"
+      ],
+      "next_test": "1920 공채원장"
+    },
+    {
+      "id": "claim-r173-shipping-date",
+      "status": "CONFLICTED",
+      "statement": "1952-11 한국선박 우선이용 지시문 6일·16일 날짜 혼재",
+      "supporting_evidence": [
+        "doc-r173-busan-shipping",
+        "doc-r172-dh_027_1952_11_12_0050"
+      ],
+      "contradicting_evidence": [],
+      "insufficient_evidence": [
+        "1952-11-10 교통부 접수대장"
+      ],
+      "next_test": "11/6~16 대통령 지시문 원본"
+    }
+  ]
+}
