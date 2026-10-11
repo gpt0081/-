@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-11",
+  "updatedAt": "2026-10-12",
   "purpose": "정치인 파일에 사건을 매몰시키지 않고 인물·기관·정당·법률·결정·집행·반대·후대판단을 cross-link하기 위한 사건 registry.",
   "events": [
     {
@@ -2886,9 +2886,17 @@
       ],
       "later_finding": [],
       "documentIds": [
-        "d149-law-385"
+        "d149-law-385",
+        "d150-law385-review"
       ],
-      "status": "CONFIRMED_LAW_NOT_ELECTION_RESULT"
+      "status": "CONFIRMED_LAW_NOT_ELECTION_RESULT",
+      "reviewHistory": [
+        {
+          "date": "2026-10-12",
+          "run": 150,
+          "note": "법률385 원전사 제98조 제2~4항 삭제·신설로 주민직선 규정 확인; 국가기록원 해제 조문 차이는 원면 확인 전 유지"
+        }
+      ]
     },
     {
       "id": "evt-r149-local-law388",
@@ -2912,9 +2920,17 @@
       ],
       "later_finding": [],
       "documentIds": [
-        "d149-law-388"
+        "d149-law-388",
+        "d150-law388-review"
       ],
-      "status": "CONFIRMED_PROMULGATION_PASSAGE_DATE_CONFLICT"
+      "status": "CONFIRMED_PROMULGATION_PASSAGE_DATE_CONFLICT",
+      "reviewHistory": [
+        {
+          "date": "2026-10-12",
+          "run": 150,
+          "note": "7/6 제49차 상정과 7/7 제50차 가결을 국사편찬위원회 해제에서 분리; 원속기록 미열람이므로 CONFLICTED 유지"
+        }
+      ]
     },
     {
       "id": "evt-r149-cabinet-signature-comparison",
@@ -2976,10 +2992,18 @@
       "observed_by": [],
       "later_finding": [],
       "documentIds": [
-        "d149-constitution"
+        "d149-constitution",
+        "d150-party-chron-0618"
       ],
       "status": "NARROWED",
-      "note": "문서에서 확인한 발생·논의·공포를 분리. 구체적 결정권자 및 원기록이 확인되지 않은 항목은 공란 유지."
+      "note": "문서에서 확인한 발생·논의·공포를 분리. 구체적 결정권자 및 원기록이 확인되지 않은 항목은 공란 유지.",
+      "reviewHistory": [
+        {
+          "date": "2026-10-12",
+          "run": 150,
+          "note": "6/18 연표·9/18 민국당 결의·9/19 창당대회가 서로 다른 단계일 가능성; 6/18 연표의 단순 오류 여부 원보도 미확인"
+        }
+      ]
     },
     {
       "id": "evt-r149-1956-election",
@@ -3068,6 +3092,310 @@
       ],
       "status": "NARROWED",
       "note": "문서에서 확인한 발생·논의·공포를 분리. 구체적 결정권자 및 원기록이 확인되지 않은 항목은 공란 유지."
+    },
+    {
+      "id": "evt-r150-19550820-nnsc-peace-statement",
+      "date": "1955-08-20",
+      "name": "이승만 중립국감시위원단 축출시위 난동 경계 담화",
+      "domain": "외교·안보·치안",
+      "politicians": [
+        "pol-rhee-syngman"
+      ],
+      "documentIds": [
+        "d150-pa-19550820"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [
+        "pol-rhee-syngman (public statement)"
+      ],
+      "opposed_by": [],
+      "legal_authority": [
+        "담화는 법률·개별 체포명령과 다름"
+      ],
+      "observed_by": [
+        "대통령기록관 1956 담화집 전사"
+      ],
+      "later_finding": [],
+      "status": "CONFIRMED_SPEECH_NOT_ENFORCEMENT",
+      "note": "시위 중 폭력 금지와 내무부 예방·단속 책임 언명; 실제 집행과 타 사건 직접명령은 별도 확인"
+    },
+    {
+      "id": "evt-r150-19550910-daegu-visit",
+      "date": "1955-09-10",
+      "name": "임병직 대구 방문 환영행사 학생동원 주장",
+      "domain": "지방행정·교육·외교",
+      "politicians": [
+        "pol-lim-byong-jik"
+      ],
+      "documentIds": [
+        "d150-kdemo-daegu",
+        "d150-daegu-city"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "민주화운동기념사업회 후대 해제",
+        "대구역사문화대전 후대 해제"
+      ],
+      "later_finding": [],
+      "status": "NARROWED_DATE_CONFLICT",
+      "note": "9/10 방문과 9/12 방문 표기가 공존. 임병직의 동원 직접 지시는 미확인"
+    },
+    {
+      "id": "evt-r150-19550913-daegu-editorial",
+      "date": "1955-09-13",
+      "name": "최석채 학도동원 비판 사설 발표",
+      "domain": "언론·교육",
+      "politicians": [],
+      "documentIds": [
+        "d150-kdemo-daegu",
+        "d150-maeil-2004",
+        "d150-maeil-2026"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [
+        "학생 관제 동원에 대한 언론 비판"
+      ],
+      "legal_authority": [],
+      "observed_by": [
+        "대구매일신문 후대 지면 재인용"
+      ],
+      "later_finding": [],
+      "status": "NARROWED_ORIGINAL_PAGE_UNOPENED",
+      "note": "신문 원면 미열람. 최석채는 언론인·비정치인 행위자로 정치인 registry에 억지 승격하지 않음"
+    },
+    {
+      "id": "evt-r150-19550914-daegu-press-attack",
+      "date": "1955-09-14",
+      "name": "대구매일신문사 습격과 경찰 경호 대응",
+      "domain": "언론·정당·지방치안",
+      "politicians": [
+        "pol-kim-min-1955-daegu",
+        "pol-hong-yeong-seop-1955-daegu"
+      ],
+      "documentIds": [
+        "d150-kdemo-daegu",
+        "d150-aks-daegu",
+        "d150-daegu-city",
+        "d150-maeil-2015"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [
+        "pol-kim-min-1955-daegu (후대 해제의 가담/주도 귀속)",
+        "pol-hong-yeong-seop-1955-daegu (후대 해제의 가담/주도 귀속)"
+      ],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "민주화운동기념사업회 후대 해제",
+        "대구역사문화대전 후대 해제"
+      ],
+      "later_finding": [
+        "법원 판결 원문 미확보"
+      ],
+      "status": "NARROWED_NO_DIRECT_PRESIDENTIAL_ORDER",
+      "note": "경찰 2명 경호 파견은 후대 해제; 대통령 또는 임병직의 직접 피습 명령 증거 없음"
+    },
+    {
+      "id": "evt-r150-19550917-editor-arrest",
+      "date": "1955-09-17",
+      "name": "최석채 국가보안법 혐의 구속",
+      "domain": "사법·언론·치안",
+      "politicians": [],
+      "documentIds": [
+        "d150-kdemo-daegu",
+        "d150-maeil-2004"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [
+        "경찰·수사기관(개별 발령자 미확인)"
+      ],
+      "opposed_by": [],
+      "legal_authority": [
+        "당시 국가보안법 제4조 적용 주장"
+      ],
+      "observed_by": [],
+      "later_finding": [
+        "후대 보도상 무죄 확정"
+      ],
+      "status": "NARROWED_ARREST_ORDER_NOT_OBTAINED",
+      "note": "원구속영장·공소장·법원 판결문 미확보"
+    },
+    {
+      "id": "evt-r150-19550920-assembly-inquiry",
+      "date": "1955-09",
+      "name": "국회 대구매일신문 피습 진상조사 및 정치인 발언",
+      "domain": "국회·언론",
+      "politicians": [
+        "pol-choi-chang-seop-1955-inquiry",
+        "pol-park-sun-seok-1955"
+      ],
+      "documentIds": [
+        "d150-daegu-city"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [
+        "피습행위에 대한 여야 평가 대립(원회의록 미확보)"
+      ],
+      "legal_authority": [],
+      "observed_by": [
+        "대구역사문화대전 후대 해제"
+      ],
+      "later_finding": [],
+      "status": "NARROWED_ORIGINAL_MINUTES_MISSING",
+      "note": "최창섭 조사단장 발언과 박순석 의원 발언은 후대 해제 인용; 의회 원속기록 확인 전 직접 발언 확정 금지"
+    },
+    {
+      "id": "evt-r150-19551108-editor-first-trial",
+      "date": "1955-11-08",
+      "name": "최석채 대구지법 첫 공판 사진 기록",
+      "domain": "사법·언론",
+      "politicians": [],
+      "documentIds": [
+        "d150-kdemo-trial-photo"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "경향신문사 생산 사진 00732107 소장목록"
+      ],
+      "later_finding": [],
+      "status": "METADATA_CONFIRMED_IMAGE_UNOPENED",
+      "note": "원사진을 보지 않았으므로 소장목록의 생산일·설명만 확인"
+    },
+    {
+      "id": "evt-r150-19560508-editor-acquittal",
+      "date": "1956-05-08",
+      "name": "최석채 대법원 무죄 확정일의 출처 간 불일치",
+      "domain": "사법·언론",
+      "politicians": [],
+      "documentIds": [
+        "d150-kdemo-daegu",
+        "d150-daegu-city",
+        "d150-maeil-2004",
+        "d150-maeil-2026"
+      ],
+      "proposed_by": [],
+      "decided_by": [
+        "대법원(후대 출처 귀속)"
+      ],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [],
+      "later_finding": [
+        "1956-05-08 주장",
+        "1956-06-08 주장",
+        "1956-06-18 사건종결 메타"
+      ],
+      "status": "CONFLICTED_DATE",
+      "note": "판결 원문·사건번호 미확보. 5/8·6/8·6/18 중 확정하지 않음"
+    },
+    {
+      "id": "evt-r150-19560429-poster-directive",
+      "date": "1956-04-29",
+      "name": "자유당 이승만·이기붕 선거벽보 문구 변경 지시 소장기록",
+      "domain": "선거·정당·홍보",
+      "politicians": [
+        "pol-rhee-syngman",
+        "pol-yi-ki-pung"
+      ],
+      "documentIds": [
+        "d150-nec-poster"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [
+        "서울시선거대책위원회(선관위 소장목록의 설명)"
+      ],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "중앙선거관리위원회 사료 PE-03-00073"
+      ],
+      "later_finding": [],
+      "status": "CATALOG_DESCRIPTION_NOT_ORIGINAL_READ",
+      "note": "당명 배제 지시가 있었다는 소장목록, 후보 본인 지시·승인으로 귀속 금지"
+    },
+    {
+      "id": "evt-r150-19560328-democratic-nomination",
+      "date": "1956-03-28",
+      "name": "민주당 신익희·장면 정·부통령 후보지명대회 사진",
+      "domain": "정당·선거",
+      "politicians": [
+        "pol-r141-shin-ik-hui"
+      ],
+      "documentIds": [
+        "d150-kdemo-nomination"
+      ],
+      "proposed_by": [],
+      "decided_by": [
+        "민주당 후보지명대회(소장목록)"
+      ],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "경향신문사 생산 사진 00726129"
+      ],
+      "later_finding": [],
+      "status": "CATALOG_DESCRIPTION_NOT_ORIGINAL_READ",
+      "note": "사진 소장목록 확인; 표결·정족수 원의사록 미확보"
+    },
+    {
+      "id": "evt-r150-19550915-mungyeong-rail",
+      "date": "1955-09-15",
+      "name": "문경선 은성역 개통식 및 석탄 운송",
+      "domain": "산업·교통",
+      "politicians": [],
+      "documentIds": [
+        "d150-kdemo-mungyeong"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "경향신문사 생산 사진 00727567 소장목록"
+      ],
+      "later_finding": [],
+      "status": "METADATA_ONLY",
+      "note": "교통부장관 참석 설명은 있으나 실명·사업 집행예산 미확인"
+    },
+    {
+      "id": "evt-r150-19551001-industrial-expo",
+      "date": "1955-10-01",
+      "name": "해방 10주년 산업박람회 개막",
+      "domain": "산업·경제",
+      "politicians": [],
+      "documentIds": [
+        "d150-kdemo-expo"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "경향신문사 생산 사진 00733061 소장목록"
+      ],
+      "later_finding": [],
+      "status": "METADATA_ONLY",
+      "note": "종료일 11/30·12/20 메타데이터 충돌, 실제 행사일정 원부 필요"
     }
   ]
 }

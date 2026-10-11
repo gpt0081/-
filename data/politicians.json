@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-11",
+  "updatedAt": "2026-10-12",
   "purpose": "대한민국 정치인 실록의 인물 registry. 대통령은 초기 backbone일 뿐이며 모든 인물은 독립된 정치인 노드로 취급한다.",
   "politicians": [
     {
@@ -39,7 +39,8 @@
         "d143-frus-592",
         "doc145-frus-639",
         "doc145-frus-644",
-        "doc145-frus-646"
+        "doc145-frus-646",
+        "d150-pa-19550820"
       ],
       "researchNotes": [
         {
@@ -61,7 +62,18 @@
             "doc145-frus-644",
             "doc145-frus-646"
           ]
+        },
+        {
+          "date": "2026-10-12",
+          "run": 150,
+          "note": "대통령 직접 담화의 비폭력 시위·단속 지시와 한 달 뒤 지방 언론사 피습의 별도 행위자 분리; 피습 직접명령 귀속 금지",
+          "documentIds": [
+            "d150-pa-19550820"
+          ]
         }
+      ],
+      "eventIds": [
+        "evt-r150-19550820-nnsc-peace-statement"
       ]
     },
     {
@@ -92,12 +104,26 @@
       },
       "eventIds": [
         "evt-r148-sept8",
-        "evt-r148-nov29"
+        "evt-r148-nov29",
+        "evt-r150-19560429-poster-directive"
       ],
       "status": "IDENTIFIED",
       "promotionReason": "원문 확인: 9월 개헌 대표 제안 및 11월29일 의장 표결",
       "openLeads": [
         "1954 국회·선거 원부에서 이기붕의 시기별 공직과 서명 검증"
+      ],
+      "evidenceDocumentIds": [
+        "d150-nec-poster"
+      ],
+      "researchNotes": [
+        {
+          "date": "2026-10-12",
+          "run": 150,
+          "note": "선거 선전물 후보로 등장; 벽보 지시 직접 발신자로 귀속 금지",
+          "documentIds": [
+            "d150-nec-poster"
+          ]
+        }
       ]
     },
     {
@@ -1547,6 +1573,15 @@
           "documentIds": [
             "d143-100010"
           ]
+        },
+        {
+          "date": "2026-10-12",
+          "run": 150,
+          "note": "대구 방문·환영 동원은 후대 해제, 본인 동원지시 원문 미확인",
+          "documentIds": [
+            "d150-kdemo-daegu",
+            "d150-daegu-city"
+          ]
         }
       ],
       "annalsFile": "data/annals/lim-byong-jik.md",
@@ -1561,7 +1596,9 @@
         "d96-lim-1950-0626",
         "d96-lim-1950-0805",
         "d114b-05",
-        "d143-100010"
+        "d143-100010",
+        "d150-kdemo-daegu",
+        "d150-daegu-city"
       ],
       "researchUpdates": [
         {
@@ -1580,6 +1617,9 @@
         "L96-03",
         "L96-13",
         "L96-14"
+      ],
+      "eventIds": [
+        "evt-r150-19550910-daegu-visit"
       ]
     },
     {
@@ -2418,14 +2458,28 @@
         "d141-pa764",
         "d141-pa765",
         "d141-pa766",
-        "d141-pa767"
+        "d141-pa767",
+        "d150-kdemo-nomination"
       ],
       "evidenceFile": "data/evidence/run141-actor-evidence.json",
       "openLeadsFile": "data/research/lead-queues/run141-next.json",
       "historyDebt": [
         "HD-R141-IDENTITY"
       ],
-      "attributionCaveat": "서명/이송은 법안 발의·표결·집행의 직접 증거가 아님"
+      "attributionCaveat": "서명/이송은 법안 발의·표결·집행의 직접 증거가 아님",
+      "eventIds": [
+        "evt-r150-19560328-democratic-nomination"
+      ],
+      "researchNotes": [
+        {
+          "date": "2026-10-12",
+          "run": 150,
+          "note": "후보지명대회 동시대 사진 소장정보로 보강",
+          "documentIds": [
+            "d150-kdemo-nomination"
+          ]
+        }
+      ]
     },
     {
       "id": "pol-r141-jeon-jin-han",
@@ -2921,10 +2975,24 @@
       "backbone": false,
       "connections": [],
       "evidenceDocumentIds": [
-        "d141-gazette-388"
+        "d141-gazette-388",
+        "d150-law388-review"
       ],
       "openLeadsFile": "data/research/lead-queues/run141-next.json",
-      "promotionReason": "국사편찬위원회 헌정사DB 관보 전사와 국회 심의 해설의 실명·직책·행위 확인. 생몰 미검증."
+      "promotionReason": "국사편찬위원회 헌정사DB 관보 전사와 국회 심의 해설의 실명·직책·행위 확인. 생몰 미검증.",
+      "eventIds": [
+        "evt-r149-local-law388"
+      ],
+      "researchNotes": [
+        {
+          "date": "2026-10-12",
+          "run": 150,
+          "note": "1956-07-06 대표제출, 7/7 가결은 공식 해제; 원속기록 필요",
+          "documentIds": [
+            "d150-law388-review"
+          ]
+        }
+      ]
     },
     {
       "id": "pol-r141-hwang-nam-pal",
@@ -4259,6 +4327,180 @@
       ],
       "historyDebtIds": [],
       "note": "관보 서명란으로 재임 직책만 확인; 생몰·임명일·정당 미검증, 영문은 검색용 표기"
+    },
+    {
+      "id": "pol-kim-min-1955-daegu",
+      "name": "김민",
+      "aliases": [
+        "金民",
+        "Kim Min"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "UNVERIFIED"
+      },
+      "roles": [
+        {
+          "period": "1955-09",
+          "title": "국민회 경상북도 본부 총무차장",
+          "verification": "retrospective_reference_only"
+        }
+      ],
+      "affiliations": [
+        {
+          "organization": "자유당/국민회/국회",
+          "period": "1955-09",
+          "verification": "SEE_ROLE_TEXT_NOT_INDEPENDENTLY_CONFIRMED"
+        }
+      ],
+      "eventIds": [
+        "evt-r150-19550914-daegu-press-attack"
+      ],
+      "evidenceDocumentIds": [
+        "d150-kdemo-daegu",
+        "d150-aks-daegu",
+        "d150-daegu-city"
+      ],
+      "researchStatus": "IDENTIFIED",
+      "promotionReason": "독립 역할과 사건이 확인되는 후대 기관 해제; 생몰·원공직명부 미검증",
+      "openLeads": [
+        "L150-07",
+        "L150-08"
+      ],
+      "historyDebtIds": [
+        "HD-R150-02"
+      ],
+      "backbone": false
+    },
+    {
+      "id": "pol-hong-yeong-seop-1955-daegu",
+      "name": "홍영섭",
+      "aliases": [
+        "洪永燮",
+        "洪英燮",
+        "Hong Yeong-seop"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "UNVERIFIED"
+      },
+      "roles": [
+        {
+          "period": "1955-09",
+          "title": "자유당 경상북도당 감찰부장",
+          "verification": "retrospective_reference_only"
+        }
+      ],
+      "affiliations": [
+        {
+          "organization": "자유당/국민회/국회",
+          "period": "1955-09",
+          "verification": "SEE_ROLE_TEXT_NOT_INDEPENDENTLY_CONFIRMED"
+        }
+      ],
+      "eventIds": [
+        "evt-r150-19550914-daegu-press-attack"
+      ],
+      "evidenceDocumentIds": [
+        "d150-aks-daegu",
+        "d150-daegu-city"
+      ],
+      "researchStatus": "IDENTIFIED",
+      "promotionReason": "독립 역할과 사건이 확인되는 후대 기관 해제; 생몰·원공직명부 미검증",
+      "openLeads": [
+        "L150-07",
+        "L150-08"
+      ],
+      "historyDebtIds": [
+        "HD-R150-02"
+      ],
+      "backbone": false
+    },
+    {
+      "id": "pol-choi-chang-seop-1955-inquiry",
+      "name": "최창섭",
+      "aliases": [
+        "Choe Chang-seop"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "UNVERIFIED"
+      },
+      "roles": [
+        {
+          "period": "1955-09",
+          "title": "대구매일신문 피습 국회 진상조사단장(후대 해제)",
+          "verification": "retrospective_reference_only"
+        }
+      ],
+      "affiliations": [
+        {
+          "organization": "자유당/국민회/국회",
+          "period": "1955-09",
+          "verification": "SEE_ROLE_TEXT_NOT_INDEPENDENTLY_CONFIRMED"
+        }
+      ],
+      "eventIds": [
+        "evt-r150-19550920-assembly-inquiry"
+      ],
+      "evidenceDocumentIds": [
+        "d150-daegu-city"
+      ],
+      "researchStatus": "IDENTIFIED",
+      "promotionReason": "독립 역할과 사건이 확인되는 후대 기관 해제; 생몰·원공직명부 미검증",
+      "openLeads": [
+        "L150-07",
+        "L150-08"
+      ],
+      "historyDebtIds": [
+        "HD-R150-02"
+      ],
+      "backbone": false
+    },
+    {
+      "id": "pol-park-sun-seok-1955",
+      "name": "박순석",
+      "aliases": [
+        "Park Sun-seok"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "UNVERIFIED"
+      },
+      "roles": [
+        {
+          "period": "1955-09",
+          "title": "자유당 소속 국회의원(후대 해제)",
+          "verification": "retrospective_reference_only"
+        }
+      ],
+      "affiliations": [
+        {
+          "organization": "자유당/국민회/국회",
+          "period": "1955-09",
+          "verification": "SEE_ROLE_TEXT_NOT_INDEPENDENTLY_CONFIRMED"
+        }
+      ],
+      "eventIds": [
+        "evt-r150-19550920-assembly-inquiry"
+      ],
+      "evidenceDocumentIds": [
+        "d150-daegu-city"
+      ],
+      "researchStatus": "IDENTIFIED",
+      "promotionReason": "독립 역할과 사건이 확인되는 후대 기관 해제; 생몰·원공직명부 미검증",
+      "openLeads": [
+        "L150-07",
+        "L150-08"
+      ],
+      "historyDebtIds": [
+        "HD-R150-02"
+      ],
+      "backbone": false
     }
   ]
 }
