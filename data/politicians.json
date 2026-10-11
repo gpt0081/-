@@ -36,7 +36,10 @@
         "evt-r167-05",
         "evt-r167-14",
         "evt-r167-15",
-        "evt-r167-16"
+        "evt-r167-16",
+        "e174-04",
+        "e174-06",
+        "e174-07"
       ],
       "evidenceDocumentIds": [
         "d114b-04",
@@ -67,6 +70,18 @@
             "doc145-frus-644",
             "doc145-frus-646"
           ]
+        }
+      ],
+      "researchUpdates": [
+        {
+          "run": 174,
+          "date": "2026-10-12",
+          "documentIds": [
+            "d174-frus-296",
+            "d174-frus-323"
+          ],
+          "verification": "US_FRUS_EDITED_PRIMARY_WITH_SCOPE_LIMIT",
+          "note": "미국 문서의 당시 관찰·전언과 한국측 직접행위·승인을 구분"
         }
       ]
     },
@@ -294,7 +309,8 @@
       "researchStatus": "candidate-cross-event",
       "backbone": false,
       "connections": [
-        "evt-1949-farmland-reform"
+        "evt-1949-farmland-reform",
+        "e174-01"
       ],
       "researchUpdates": [
         {
@@ -304,6 +320,15 @@
             "d79-assembly-march10"
           ],
           "verification": "individual speech/office verified, biographical identity incomplete"
+        },
+        {
+          "run": 174,
+          "date": "2026-10-12",
+          "documentIds": [
+            "d174-frus-323"
+          ],
+          "verification": "US_FRUS_EDITED_PRIMARY_WITH_SCOPE_LIMIT",
+          "note": "미국 문서의 당시 관찰·전언과 한국측 직접행위·승인을 구분"
         }
       ],
       "evidenceDocumentIds": [
@@ -657,7 +682,8 @@
       "backbone": false,
       "connections": [
         "evt-1953-anti-communist-pow-release",
-        "evt-1953-us-rok-mutual-defense-negotiation"
+        "evt-1953-us-rok-mutual-defense-negotiation",
+        "e174-05"
       ],
       "researchNotes": [
         "1",
@@ -842,6 +868,18 @@
         "doc145-frus-632",
         "doc145-frus-639",
         "doc145-frus-646"
+      ],
+      "researchUpdates": [
+        {
+          "run": 174,
+          "date": "2026-10-12",
+          "documentIds": [
+            "d174-frus-323",
+            "d174-frus-296"
+          ],
+          "verification": "US_FRUS_EDITED_PRIMARY_WITH_SCOPE_LIMIT",
+          "note": "미국 문서의 당시 관찰·전언과 한국측 직접행위·승인을 구분"
+        }
       ]
     },
     {
@@ -861,7 +899,9 @@
       "connections": [
         "evt-1953-anti-communist-pow-release",
         "evt-1953-us-rok-mutual-defense-negotiation",
-        "evt-r167-04"
+        "evt-r167-04",
+        "e174-02",
+        "e174-03"
       ],
       "researchNotes": [
         "1",
@@ -1045,6 +1085,17 @@
         "d143-080050",
         "doc145-frus-639",
         "doc145-frus-646"
+      ],
+      "researchUpdates": [
+        {
+          "run": 174,
+          "date": "2026-10-12",
+          "documentIds": [
+            "d174-frus-323"
+          ],
+          "verification": "US_FRUS_EDITED_PRIMARY_WITH_SCOPE_LIMIT",
+          "note": "미국 문서의 당시 관찰·전언과 한국측 직접행위·승인을 구분"
+        }
       ]
     },
     {
@@ -1080,7 +1131,8 @@
       "backbone": false,
       "connections": [
         "evt-1951-national-defense-corps",
-        "evt-1950-0421-acting-pm-parliament-dispute"
+        "evt-1950-0421-acting-pm-parliament-dispute",
+        "e174-01"
       ],
       "researchNotes": [
         "국",
@@ -1178,6 +1230,17 @@
         "d114b-03",
         "doc145-frus-639",
         "doc145-kh-1953_06_26_0020"
+      ],
+      "researchUpdates": [
+        {
+          "run": 174,
+          "date": "2026-10-12",
+          "documentIds": [
+            "d174-frus-323"
+          ],
+          "verification": "US_FRUS_EDITED_PRIMARY_WITH_SCOPE_LIMIT",
+          "note": "미국 문서의 당시 관찰·전언과 한국측 직접행위·승인을 구분"
+        }
       ]
     },
     {
@@ -7000,6 +7063,140 @@
         "1952년 국회·관보 원인명록과 원회의록 확인"
       ],
       "historyDebt": []
+    },
+    {
+      "id": "pol-r162-chang-myon",
+      "name": "장면",
+      "aliases": [
+        "張勉",
+        "John M. Chang",
+        "Chang Myon"
+      ],
+      "roles": [
+        {
+          "title": "전 주미대사·전 국무총리(1952-11 미 국무부 문서 표현)",
+          "period": "1952-11",
+          "sourceDocumentIds": [
+            "d174-frus-323"
+          ]
+        }
+      ],
+      "researchStatus": "IDENTIFIED",
+      "connections": [
+        "e174-01"
+      ],
+      "researchNotes": "CIA발 미확인 첩보에 이름이 등장했으나 미 대사관이 신빙성을 부정. 관련 행위 확정 불가.",
+      "openLeads": [
+        "L174-01",
+        "L174-02"
+      ]
+    },
+    {
+      "id": "pol-r174-yi-jong-chan",
+      "name": "이종찬",
+      "aliases": [
+        "李鍾贊",
+        "Yi Chong Chan",
+        "Yi Jong-chan"
+      ],
+      "roles": [
+        {
+          "title": "전 육군참모총장, 1952-11 미국 군사학교 수학 중이라는 미측 보고",
+          "period": "1952-11",
+          "sourceDocumentIds": [
+            "d174-frus-323"
+          ]
+        }
+      ],
+      "researchStatus": "IDENTIFIED",
+      "connections": [
+        "e174-01"
+      ],
+      "researchNotes": "미확인 첩보에 등장하는 인물이며 참여 사실은 검증되지 않음.",
+      "openLeads": [
+        "L174-01",
+        "L174-03"
+      ]
+    },
+    {
+      "id": "pol-r174-chong-il-kwon",
+      "name": "정일권",
+      "aliases": [
+        "丁一權",
+        "Chong Il-Kwon",
+        "Chung Il-kwon"
+      ],
+      "roles": [
+        {
+          "title": "전 육군참모총장·당시 군단 부사령관이라는 미측 보고",
+          "period": "1952-11",
+          "sourceDocumentIds": [
+            "d174-frus-323"
+          ]
+        }
+      ],
+      "researchStatus": "IDENTIFIED",
+      "connections": [
+        "e174-01"
+      ],
+      "researchNotes": "미확인 첩보에 등장하는 인물이며 참여 사실은 검증되지 않음.",
+      "openLeads": [
+        "L174-01",
+        "L174-04"
+      ]
+    },
+    {
+      "id": "pol-r170-yang-yu-chan",
+      "name": "양유찬",
+      "aliases": [
+        "梁裕燦",
+        "Yang Yu-chan",
+        "You Chang Yang"
+      ],
+      "roles": [
+        {
+          "title": "대한민국 유엔대표로 연설 초안 검토 요청했다는 미측 보고",
+          "period": "1952-11",
+          "sourceDocumentIds": [
+            "d174-frus-323"
+          ]
+        }
+      ],
+      "researchStatus": "IDENTIFIED",
+      "connections": [
+        "e174-02"
+      ],
+      "researchNotes": "무초에게 연설 초안 사전 검토를 요청했다는 미국측 보고. 실제 수정은 미확인.",
+      "openLeads": [
+        "L174-07"
+      ]
+    },
+    {
+      "id": "pol-r174-sohn-won-il",
+      "name": "손원일",
+      "aliases": [
+        "孫元一",
+        "Sohn Won Il",
+        "Son Won-il"
+      ],
+      "roles": [
+        {
+          "title": "해군참모총장으로 미측 회의기록에 등장",
+          "period": "1952-11",
+          "sourceDocumentIds": [
+            "d174-frus-296"
+          ]
+        }
+      ],
+      "researchStatus": "IDENTIFIED",
+      "connections": [
+        "e174-06"
+      ],
+      "researchNotes": "미 해군이 1952년 12월 방미 계획을 언급했을 뿐 당사자 결정·동의 근거는 없음.",
+      "openLeads": [
+        "L174-08",
+        "L174-09"
+      ]
     }
   ]
 }
