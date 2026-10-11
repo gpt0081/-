@@ -1,0 +1,42 @@
+{
+  "run": 150,
+  "date": "2026-10-11",
+  "politicianId": "pol-rhee-syngman",
+  "domains": [
+    {
+      "domain": "선거·정당",
+      "status": "STRUCTURED",
+      "events": [
+        "evt-r150-party",
+        "evt-r150-endorse",
+        "evt-r150-poster",
+        "evt-r150-vote"
+      ]
+    },
+    {
+      "domain": "경찰·사회",
+      "status": "NARROWED",
+      "events": [
+        "evt-r150-clash",
+        "evt-r150-warrants"
+      ],
+      "caution": "대통령 개인 발포지시 미확인"
+    },
+    {
+      "domain": "사법",
+      "status": "NARROWED",
+      "events": [
+        "evt-r150-trial"
+      ],
+      "caution": "판결문 미확보"
+    },
+    {
+      "domain": "농정·입법",
+      "status": "DEBT_TRACKED",
+      "evidence": [
+        "d150-nLand"
+      ]
+    }
+  ],
+  "notes": "No numerical politician score or moral ranking"
+}
