@@ -1,0 +1,37 @@
+{
+  "run": 165,
+  "claims": [
+    {
+      "id": "r165a-c01",
+      "statement": "1950-03-14 양원제·직선제 공개 주장 후 1950-11-07 대통령이 법제처에 개헌안 입안을 직접 지시했다.",
+      "supports": [
+        "r165-d01",
+        "r165a-d01"
+      ],
+      "status": "NARROWED",
+      "limit": "시간적 연속성은 확인되나 공개 발언이 후속 지시를 유발했다는 인과는 미확정"
+    },
+    {
+      "id": "r165a-c02",
+      "statement": "1951-10-09 대통령 지시→10-16 법제처 요령 의결→11-06 신속추진 지시→1952-05-14 정부안 제출",
+      "supports": [
+        "r165a-d02",
+        "r165a-d03",
+        "r165a-d04",
+        "r165a-d06",
+        "r165a-d07"
+      ],
+      "status": "OFFICIAL_EXCERPT_CHAIN"
+    },
+    {
+      "id": "r165a-c03",
+      "statement": "1952-01-18 정부 개헌안 반대표: 국회기록원 143, 국사편찬위원회 해제 142",
+      "supports": [
+        "r165-d15"
+      ],
+      "contradicting_source": "https://db.history.go.kr/item/cons/level.do?levelId=cons_002_0010",
+      "status": "CONFLICTED",
+      "next": "제2대 국회 제12회 제9차 감표 원속기록"
+    }
+  ]
+}
