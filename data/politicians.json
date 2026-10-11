@@ -3000,14 +3000,24 @@
         "verification": "NOT_VERIFIED"
       },
       "roles": [
-        "1956 제3대 국회의원, 지방자치법 개정안 대표제출"
+        "1956 제3대 국회의원, 지방자치법 개정안 대표제출",
+        {
+          "period": "1956-08-03",
+          "title": "김수선과 양원제·내각불신임·총리제 공동 개헌안 발표",
+          "evidenceDocumentIds": [
+            "d149-oir7371"
+          ]
+        }
       ],
       "partyAffiliations": [],
       "researchStatus": "IDENTIFIED",
       "backbone": false,
-      "connections": [],
+      "connections": [
+        "evt-r149-1956-0803-kim-shin-amendment"
+      ],
       "evidenceDocumentIds": [
-        "d141-gazette-388"
+        "d141-gazette-388",
+        "d149-oir7371"
       ],
       "openLeadsFile": "data/research/lead-queues/run141-next.json",
       "promotionReason": "국사편찬위원회 헌정사DB 관보 전사와 국회 심의 해설의 실명·직책·행위 확인. 생몰 미검증."
@@ -4132,10 +4142,26 @@
           "evidenceDocumentIds": [
             "d149-ulsan-kimsuseon"
           ]
+        },
+        {
+          "period": "1956-05-26",
+          "title": "대통령·부통령 국회선출, 국무총리 도입 등 개헌안 제안(미 OIR 원보고)",
+          "evidenceDocumentIds": [
+            "d149-oir7371"
+          ]
+        },
+        {
+          "period": "1956-08-03",
+          "title": "신도성과 양원제·국무총리·승계제도 공동 개헌제안",
+          "evidenceDocumentIds": [
+            "d149-oir7371"
+          ]
         }
       ],
       "connections": [
-        "evt-r149-election-observation"
+        "evt-r149-election-observation",
+        "evt-r149-1956-0526-kim-amendment",
+        "evt-r149-1956-0803-kim-shin-amendment"
       ],
       "researchStatus": "ANNALS_ACTIVE",
       "evidenceDocumentIds": [
@@ -4143,7 +4169,9 @@
         "d149-frus893",
         "d149-aks-kimsuseon",
         "d149-ulsan-kimsuseon",
-        "d95c-local-19490302"
+        "d95c-local-19490302",
+        "d149-oir7371",
+        "d149-nikh-1957-expulsion"
       ],
       "openLeads": [
         "lead-r149-pol-r149-kim-su-seon"
