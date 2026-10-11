@@ -1,0 +1,71 @@
+{
+  "run": 170,
+  "updated_at": "2026-10-12T04:42:35+09:00",
+  "started_at": "2026-10-12T04:20:06+09:00",
+  "branch": "research/run170-20261012-judiciary-currency-frus",
+  "metrics": {
+    "independent_research_lines": 36,
+    "substantive_government_domains": 12,
+    "new_candidate_politician_ids": 11,
+    "existing_nonpresidential_actor_source_links": 15,
+    "full_verified_politician_promotions": 0,
+    "new_or_extended_event_subevents": 35,
+    "claim_records": 34,
+    "unique_meaningful_documents_directly_opened": 42,
+    "contemporaneous_primary_transcriptions_or_primary_excerpts": 33,
+    "original_page_images_read": 0,
+    "adversarial_research_questions": 16,
+    "prior_leads_tracked": 14,
+    "new_concrete_leads": 76,
+    "three_provenance_family_crosschecks": 2,
+    "two_or_more_family_comparisons": 4,
+    "unresolved_source_conflicts_identified": 8
+  },
+  "scope_note": "기존 정치인 15명은 날짜별 공식/동시대 역할 근거 추가 수준이며 모두 완숙 심층검증이 완료된 것은 아님. 새 후보 11명은 IDENTIFIED이며 생몰·한자 미확인 필드를 남김.",
+  "source_counting": "UN Yearbook 연속 PDF 8쪽은 하나의 문서로만 계산. UN 사진 2점 및 NEC 선전문은 메타데이터만 확인하여 42건에 불산입. 1952-09-25_0050 타임아웃은 불산입. 한국사DB 날짜별 목록 페이지도 불산입.",
+  "crosschecks": [
+    {
+      "event": "1952-01-18 개헌안 부결",
+      "families": [
+        "UN_YEARBOOK",
+        "NATIONAL_ASSEMBLY_ARCHIVE",
+        "NIKH_CONSTITUTIONAL_DB"
+      ],
+      "outcome": "CONFLICTED_142_VS_143"
+    },
+    {
+      "event": "1952-07-04 발췌개헌 표결",
+      "families": [
+        "UN_YEARBOOK",
+        "NATIONAL_ASSEMBLY_ARCHIVE",
+        "NEC"
+      ],
+      "outcome": "163_YES_3_ABSTAIN_CORROBORATED"
+    },
+    {
+      "event": "1952-08-05 대통령선거",
+      "families": [
+        "UN_YEARBOOK",
+        "NEC"
+      ],
+      "outcome": "CONFLICTED_86_VS_74_6_PERCENT"
+    },
+    {
+      "event": "1952-04-25 지방선거",
+      "families": [
+        "UN_PHOTO_METADATA",
+        "NEC"
+      ],
+      "outcome": "DATE_CORROBORATED_PHOTO_NEGATIVE_NOT_READ"
+    }
+  ],
+  "blocked": [
+    "한국사DB 1952-09-25_0050 원문 일시 타임아웃",
+    "한국은행 블룸필드 1952 원본 일부 미전승, 1965 재수록 미열람",
+    "국회·국무회의·선관위 원면 미열람",
+    "일부 GitHub 정치인 다중 쓰기 안전검사로 1개 후보 기록 미반영"
+  ],
+  "weekly_history_debt_full_review": "NOT_PERFORMED_MONDAY",
+  "floot_touched": false,
+  "notes": "1시간 완료 주장 금지. 실행 중간 coherent commit과 추가 commit으로 손실 방지. 중앙 canonical registry와 main 통합은 별도 검증 필요."
+}
