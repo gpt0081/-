@@ -14,7 +14,8 @@
     "data/documents/run145-june1953-multi-provenance.json",
     "data/documents/run150-frus-1955-extended.json",
     "data/documents/run150-korean-treaty-film-crosscheck.json",
-    "data/documents/run150-national-archives-choi-judgment.json"
+    "data/documents/run150-national-archives-choi-judgment.json",
+    "data/documents/run150-party-person-biographies.json"
   ],
   "latestEventOverlay": [
     "data/events/run126-councils.json",
@@ -195,7 +196,7 @@
   },
   "updatedAt": "2026-10-11",
   "latestRunBranch": "research/run147-20261011-cabinet-senate-originals",
-  "latestRunCommit": "15f8347cc3b71d4fa0fc593b3a7a8dc66e827193",
+  "latestRunCommit": "b5e1e78d06213a7e22afa21b2a859430f5aea3e4",
   "latestCorrection": "data/research/runs/run129-correction-addendum.md",
   "nextPriority": [
     "제5회 국무회의록 웹 작성일과 본문 일자 원면 대조",
@@ -203,7 +204,7 @@
     "1954 제3대 총선 자유당 111/114/115 분류 검증",
     "국무회의 유시 후속 농림·상공·외무·법제처 집행문서"
   ],
-  "latestVerifiedDocuments": 44,
+  "latestVerifiedDocuments": 49,
   "latestOfficialOrPrimary": 27,
   "run145": {
     "parentBranch": "research/run144-20261011-weekly-debt-pow-primary",
@@ -267,13 +268,20 @@
     "canonicalEvidence": "data/evidence/rhee-syngman.json",
     "canonicalAnnals": "data/annals/rhee-syngman.md",
     "canonicalLeads": "data/research/rhee-syngman-open-leads.json",
-    "cumulativeDocuments": 44,
+    "cumulativeDocuments": 49,
     "cumulativePrimary": 27,
     "additionalDocumentRegistry": "data/documents/run150-frus-1955-extended.json",
     "economicEvents": "data/events/run150-frus-economic-security.json",
     "economicClaims": "data/claims/run150-frus-economic-security.json",
     "latestLeadQueue": "data/research/lead-queues/run150-next.json",
     "koreanCrosscheck": "data/documents/run150-korean-treaty-film-crosscheck.json",
-    "finalLeadCount": 52
-  }
+    "finalLeadCount": 52,
+    "partyOrganizationRegistry": "data/organizations/run150-democratic-party-lineage.json",
+    "newNonpresidentialPoliticians": 8,
+    "deepenedNonpresidentialPoliticians": 9,
+    "nextLeads": 54
+  },
+  "latestOrganizationRegistry": [
+    "data/organizations/run150-democratic-party-lineage.json"
+  ]
 }
