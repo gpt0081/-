@@ -11,21 +11,24 @@
     "data/documents/run126-labor.json",
     "data/documents/run126-councils-followup.json",
     "data/documents/run126-may29-31-breadth.json",
-    "data/documents/run145-june1953-multi-provenance.json"
+    "data/documents/run145-june1953-multi-provenance.json",
+    "data/documents/run150-frus-1955-extended.json"
   ],
   "latestEventOverlay": [
     "data/events/run126-councils.json",
     "data/events/run126-labor.json",
     "data/events/run126-councils-followup.json",
     "data/events/run126-may29-31-breadth.json",
-    "data/events/run145-action-graph.json"
+    "data/events/run145-action-graph.json",
+    "data/events/run150-frus-economic-security.json"
   ],
   "latestClaimOverlay": [
     "data/claims/run126-councils.json",
     "data/claims/run126-labor.json",
     "data/claims/run126-councils-followup.json",
     "data/claims/run126-may29-31-breadth.json",
-    "data/claims/run145-claims.json"
+    "data/claims/run145-claims.json",
+    "data/claims/run150-frus-economic-security.json"
   ],
   "latestPoliticianOverlay": [
     "data/politicians/run126-councils.json",
@@ -43,7 +46,8 @@
     "data/annals/1952-councils-run126.md",
     "data/annals/1951-1952-textile-run126.md",
     "data/annals/1952-may29-31-institutions-run126.md",
-    "data/annals/shin-tae-young.md"
+    "data/annals/shin-tae-young.md",
+    "data/annals/1955-frus-economic-diplomatic-run150.md"
   ],
   "next": "1952-05-29 국회 제67차 원속기록; 1952-05-24~25 계엄 국무회의 원의사록; 한국은행 1952-05-29 제65차 금융통화위원회; 조방 1951 국무원 고시12·13호; 1952-06-09 대한노총 대회 원부",
   "flootUntouched": true,
@@ -188,7 +192,7 @@
   },
   "updatedAt": "2026-10-11",
   "latestRunBranch": "research/run147-20261011-cabinet-senate-originals",
-  "latestRunCommit": "45b928150940f66ec902a8d026649a66042fc06d",
+  "latestRunCommit": "22c324ecfac85dc98763fb7d6ddd07aec1a62ccb",
   "latestCorrection": "data/research/runs/run129-correction-addendum.md",
   "nextPriority": [
     "제5회 국무회의록 웹 작성일과 본문 일자 원면 대조",
@@ -196,8 +200,8 @@
     "1954 제3대 총선 자유당 111/114/115 분류 검증",
     "국무회의 유시 후속 농림·상공·외무·법제처 집행문서"
   ],
-  "latestVerifiedDocuments": 20,
-  "latestOfficialOrPrimary": 8,
+  "latestVerifiedDocuments": 40,
+  "latestOfficialOrPrimary": 26,
   "run145": {
     "parentBranch": "research/run144-20261011-weekly-debt-pow-primary",
     "branch": "research/run145-20261011-robertson-tasca-identity-audit",
@@ -239,7 +243,7 @@
     "weeklyFullReview": false
   },
   "currentRun": 150,
-  "latestResearchFocus": "1955-56 대구 언론·지역당/치안 책임선과 1955 민주당 창당·1956 지방자치법 날짜 충돌",
+  "latestResearchFocus": "1955 NNSC 당사자 진술 vs 미국 관찰; 1955-08 환율500환·10월 재정·산업·농정·원조 협의",
   "latestCommitPending": false,
   "weeklyFullReviewCompleted": false,
   "lastFullReview": "2026-09-27",
@@ -259,6 +263,12 @@
     "frusOriginals": "data/documents/run150-frus-nnsc-originals.json",
     "canonicalEvidence": "data/evidence/rhee-syngman.json",
     "canonicalAnnals": "data/annals/rhee-syngman.md",
-    "canonicalLeads": "data/research/rhee-syngman-open-leads.json"
+    "canonicalLeads": "data/research/rhee-syngman-open-leads.json",
+    "cumulativeDocuments": 40,
+    "cumulativePrimary": 26,
+    "additionalDocumentRegistry": "data/documents/run150-frus-1955-extended.json",
+    "economicEvents": "data/events/run150-frus-economic-security.json",
+    "economicClaims": "data/claims/run150-frus-economic-security.json",
+    "latestLeadQueue": "data/research/lead-queues/run150-next.json"
   }
 }
