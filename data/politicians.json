@@ -4166,6 +4166,94 @@
       ],
       "legacyOverlay": "data/politicians/run126-kim-dong-seong.json",
       "promotionReason": "run126 동일인 ID 재사용, AKS 역할·한자 확인; 1949 발표 원문 미열람"
+    },
+    {
+      "id": "pol-kim-byeong-hoe-1916",
+      "name": "김병회",
+      "aliases": [
+        "金秉會",
+        "Kim Byeong-hoe",
+        "Kim Pyeong-hoe"
+      ],
+      "lifespan": {
+        "born": "1916-09-28",
+        "died": "1987-10-15",
+        "verification": "AKS_BIOGRAPHY_SECONDARY"
+      },
+      "roles": [
+        {
+          "title": "제헌국회의원·헌법기초위원",
+          "period": "1948-1950",
+          "verification": "AKS_BIOGRAPHY"
+        },
+        {
+          "title": "1948-11-02 계엄 법적 근거에 관한 국회 발언",
+          "period": "1948-11-02",
+          "verification": "NIKH_RETROSPECTIVE_QUOTES_STENOGRAM"
+        },
+        {
+          "title": "1949-07-11 검찰 송청 대상 의원",
+          "period": "1949-07-11",
+          "verification": "CONTEMPORANEOUS_NEWSPAPER_TRANSCRIPTION"
+        }
+      ],
+      "affiliations": [
+        {
+          "name": "성인회",
+          "period": "1948",
+          "verification": "NIKH_RETROSPECTIVE"
+        }
+      ],
+      "actions": [
+        {
+          "type": "parliamentary_legal_objection",
+          "eventId": "evt153-nov02-assembly"
+        },
+        {
+          "type": "subject_of_prosecutorial_transfer",
+          "eventId": "evt155-1949jul11-prosecutorial-transfer"
+        },
+        {
+          "type": "subject_of_first_instance_judgment",
+          "eventId": "evt155-1950mar14-first-instance-judgment"
+        }
+      ],
+      "connections": [
+        "evt153-nov02-assembly",
+        "evt155-1949jul02-defense-briefing",
+        "evt155-1949jul11-prosecutorial-transfer",
+        "evt155-1950mar14-first-instance-judgment"
+      ],
+      "researchStatus": "IDENTIFIED",
+      "researchMaturity": "IDENTIFIED",
+      "researchStatusReason": "독립 전기 및 동시대 신문 전사 확보. 1948 국회 원속기록과 1950 판결 정본 미확보",
+      "evidenceDocumentIds": [
+        "d155-aks-bio",
+        "d153-nikh-1948-assembly",
+        "d155-jul02",
+        "d155-jul11",
+        "d155-aks-case"
+      ],
+      "openLeads": [
+        "L155-01",
+        "L155-04",
+        "L155-06",
+        "L155-09",
+        "L155-12"
+      ],
+      "historyDebt": [
+        "HD-R153-02",
+        "HD-R155-01",
+        "HD-R155-02"
+      ],
+      "annalsFile": "data/annals/kim-byeong-hoe-run155.md",
+      "backbone": false,
+      "reviewHistory": [
+        {
+          "date": "2026-10-11",
+          "change": "IDENTIFIED candidate, not VERIFIED pending original court/assembly records"
+        }
+      ]
     }
   ]
 }
