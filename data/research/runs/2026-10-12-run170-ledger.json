@@ -1,0 +1,39 @@
+{
+  "run": 170,
+  "started_at": "2026-10-12T04:20:06+09:00",
+  "recorded_at": "2026-10-12T04:27:18+09:00",
+  "branch": "research/run170-20261012-judiciary-currency-frus",
+  "base_commit": "93ee4248be049ffbcdd7ba0d8567be740cf8144c",
+  "metrics": {
+    "independent_research_lines": 11,
+    "substantively_touched_domains": 6,
+    "nonpresidential_politicians_newly_verified": 0,
+    "existing_politicians_crosslinked": 1,
+    "new_or_structurally_extended_event_subevents": 9,
+    "unique_meaningful_documents_directly_opened": 15,
+    "primary_contemporary_or_primary_excerpt": 12,
+    "original_scans_read": 0,
+    "adversarial_search_lines": 8,
+    "previous_leads_tracked": 5,
+    "new_concrete_leads": 35,
+    "completed_three_provenance_family_crosschecks": 0,
+    "partial_cross_family_comparisons": 2
+  },
+  "domains": [
+    "헌정",
+    "재정·금융",
+    "사법",
+    "외교",
+    "안보",
+    "농정"
+  ],
+  "blockers": [
+    "정치인 후보 대량 구조화 GitHub 쓰기 안전검사 차단; 작은 기존 인물 crosslink 1건만 반영",
+    "한국은행 원보고서 일부 미전승; 1965 편집 재수록집 미열람",
+    "국사편찬위원회 연표·법제처 법령색인은 직접 문서 수에서 제외",
+    "국회·국무회의 원문과 관보 원면 미확보"
+  ],
+  "weekly_history_debt_full_review": "NOT_PERFORMED_MONDAY",
+  "floot_touched": false,
+  "notes": "최소 하한은 종료조건으로 삼지 않았으며 기록된 실제 실행시간만 사용. 브랜치가 main과 분리되어 있음. 신규 정치인 검증 0, 과거 후보를 새 발견으로 재계산하지 않음."
+}
