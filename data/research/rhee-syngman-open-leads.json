@@ -1,6 +1,6 @@
 {
   "politicianId": "president-rhee-syngman",
-  "updatedAt": "2026-10-09",
+  "updatedAt": "2026-10-12",
   "rule": "새 회차는 기존 완료 자료를 재검색하지 않고 unresolved를 먼저 해결한다.",
   "queue": [
     {
@@ -156,6 +156,24 @@
       "id": "lead-1960-economic-plan-cabinet",
       "question": "BA0085193 제37회 국무회의 경제개발3개년계획안 심의 원문에서 1960-04-15 채택의 참석자·발언·의결·결재선을 추출할 것.",
       "priority": "high"
+    },
+    {
+      "id": "lead-1955-nnsc-government-response",
+      "question": "1955-08~09 NNSC 관련 대통령 발언·서한과 실제 학생 참여 및 차량 사용에 관한 행정문서를 연결할 것",
+      "priority": "highest",
+      "status": "NARROWED",
+      "evidenceSoFar": [
+        "대통령기록관 1955-08-20 담화",
+        "FRUS d77·d84·d86"
+      ],
+      "next": "L150-32·35·39"
+    },
+    {
+      "id": "lead-1955-fx-and-aid-budget",
+      "question": "1955-08 환율500환 합의·10월 한미 경제회의의 예산적자·식량부족·PL480 요구를 한국 정부 원예산·농업통계·원조협정과 대조",
+      "priority": "highest",
+      "status": "OPEN",
+      "next": "L150-41~48"
     }
   ],
   "completedThisPass": [

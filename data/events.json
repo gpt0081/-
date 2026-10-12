@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-11",
+  "updatedAt": "2026-10-12",
   "purpose": "정치인 파일에 사건을 매몰시키지 않고 인물·기관·정당·법률·결정·집행·반대·후대판단을 cross-link하기 위한 사건 registry.",
   "events": [
     {
@@ -681,7 +681,7 @@
       "evidenceState": "deep-crosschecked",
       "confirmed": [
         "1954-09-06 이기붕 의원 외 135인이 헌법개정안을 제안했다는 국회·국가기록원 기록이 존재한다.",
-        "1954-11-29 표결에서 찬성 135, 반대 60, 기권 7이 기록되었고, 당초 부결 선언 뒤 2/3 계산을 둘러싼 해석으로 가결이 선포되었다.",
+        "1954-11-27 제90차 국회에서 찬성 135·반대 60·기권 7로 부결이 선포되었다. 1954-11-29 제91차 국회에서 최순주가 번복하고 유순식 외 19인의 의사록 정정동의가 거수표결로 가결되었다.",
         "미 대사 Briggs의 1954-11-29 전문은 정부와 자유당 내부의 표결 실패 인식 및 이후 135표를 충분하다고 한 논리를 동시대 외부 관찰로 기록한다.",
         "개정헌법은 초대 대통령에 대한 중임제한 적용 제외 등을 포함했다."
       ],
@@ -698,6 +698,22 @@
         "https://db.history.go.kr/item/cons/level.do?levelId=cons_003_0020_0030_0010_0080",
         "https://theme.archives.go.kr/next/rule/sub2_03.do",
         "https://theme.archives.go.kr/next/rediscovery/index2.do"
+      ],
+      "correctionHistory": [
+        {
+          "run": 148,
+          "date": "2026-10-11",
+          "old": "1954-11-29 표결에서 찬성 135, 반대 60, 기권 7이 기록되었고, 당초 부결 선언 뒤 2/3 계산을 둘러싼 해석으로 가결이 선포되었다.",
+          "new": "1954-11-27 제90차 국회에서 찬성 135·반대 60·기권 7로 부결이 선포되었다. 1954-11-29 제91차 국회에서 최순주가 번복하고 유순식 외 19인의 의사록 정정동의가 거수표결로 가결되었다.",
+          "sourceIds": [
+            "d148-90",
+            "d148-91"
+          ]
+        }
+      ],
+      "subEventIds": [
+        "evt-r148-nov27",
+        "evt-r148-nov29"
       ]
     },
     {
@@ -2074,6 +2090,1866 @@
       "sources": [
         "https://history.state.gov/historicaldocuments/frus1952-54v15p2/d646"
       ]
+    },
+    {
+      "id": "evt-r148-senate-secret",
+      "date": "1953-11-30",
+      "domain": "입법·선거",
+      "name": "참의원선거법 비밀기표소 제50조·100m 규제 제63조·무효소송 제96조 수정",
+      "documentIds": [
+        "d148-senate"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "d148-senate"
+      ],
+      "later_finding": [],
+      "stage": "documented_action",
+      "attributionGuardrail": "대통령의 재임, 국무회의 의결, 실제 집행을 혼동하지 않는다.",
+      "politicians": [
+        "pol-r148-an-yong-dae",
+        "pol-yun-chi-yeong",
+        "pol-r148-park-yeong-chul"
+      ],
+      "organizationIds": [
+        "org-rok-national-assembly-1953"
+      ]
+    },
+    {
+      "id": "evt-r148-senate-schedule",
+      "date": "1953-11-30",
+      "domain": "입법·재정",
+      "name": "참의원·민의원 동시선거 부칙 수정안 23찬성 미결, 원안 60찬성 가결",
+      "documentIds": [
+        "d148-senate"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "d148-senate"
+      ],
+      "later_finding": [],
+      "stage": "documented_action",
+      "attributionGuardrail": "대통령의 재임, 국무회의 의결, 실제 집행을 혼동하지 않는다.",
+      "politicians": [
+        "pol-r148-choi-won-ho",
+        "pol-r148-yu-seung-jun",
+        "pol-yun-chi-yeong"
+      ],
+      "organizationIds": [
+        "org-rok-national-assembly-1953"
+      ]
+    },
+    {
+      "id": "evt-r148-health-cabinet",
+      "date": "1954-01-22",
+      "domain": "보건·행정",
+      "name": "국무회의 전염병예방법안·해공항검역법안 원안 의결",
+      "documentIds": [
+        "d148-cabinet"
+      ],
+      "proposed_by": [],
+      "decided_by": [
+        "제5회 국무회의"
+      ],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "d148-cabinet"
+      ],
+      "later_finding": [],
+      "stage": "documented_action",
+      "attributionGuardrail": "대통령의 재임, 국무회의 의결, 실제 집행을 혼동하지 않는다.",
+      "organizationIds": [
+        "org-rok-cabinet-1954"
+      ]
+    },
+    {
+      "id": "evt-r148-quarantine-law",
+      "date": "1954-02-02",
+      "domain": "보건·입법",
+      "name": "해공항검역법 법률 제307호 제정 공포 및 시행",
+      "documentIds": [
+        "d148-quarantine"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "d148-quarantine"
+      ],
+      "later_finding": [],
+      "stage": "documented_action",
+      "attributionGuardrail": "대통령의 재임, 국무회의 의결, 실제 집행을 혼동하지 않는다."
+    },
+    {
+      "id": "evt-r148-epidemic-law",
+      "date": "1954-02-02",
+      "domain": "보건·입법",
+      "name": "전염병예방법 제308호 제정 공포, 시행은 1957-02-28",
+      "documentIds": [
+        "d148-epidemic"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "d148-epidemic"
+      ],
+      "later_finding": [],
+      "stage": "documented_action",
+      "attributionGuardrail": "대통령의 재임, 국무회의 의결, 실제 집행을 혼동하지 않는다."
+    },
+    {
+      "id": "evt-r148-rice",
+      "date": "1954-01-22",
+      "domain": "농정",
+      "name": "미곡가격 조정·방충 저장설비 구매 지시",
+      "documentIds": [
+        "d148-cabinet"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "d148-cabinet"
+      ],
+      "later_finding": [],
+      "stage": "directive_not_execution",
+      "attributionGuardrail": "대통령의 재임, 국무회의 의결, 실제 집행을 혼동하지 않는다."
+    },
+    {
+      "id": "evt-r148-tungsten",
+      "date": "1954-01-22",
+      "domain": "무역·산업",
+      "name": "미국 중석 구매중단설 공식 조회 통첩 지시",
+      "documentIds": [
+        "d148-cabinet"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "d148-cabinet"
+      ],
+      "later_finding": [],
+      "stage": "directive_not_execution",
+      "attributionGuardrail": "대통령의 재임, 국무회의 의결, 실제 집행을 혼동하지 않는다."
+    },
+    {
+      "id": "evt-r148-capital",
+      "date": "1954-01-22",
+      "domain": "경제·외자",
+      "name": "외무·재무·상공·기획 4부처 외자도입 검토 지시",
+      "documentIds": [
+        "d148-cabinet"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "d148-cabinet"
+      ],
+      "later_finding": [],
+      "stage": "directive_not_execution",
+      "attributionGuardrail": "대통령의 재임, 국무회의 의결, 실제 집행을 혼동하지 않는다."
+    },
+    {
+      "id": "evt-r148-personnel",
+      "date": "1954-01-22",
+      "domain": "인사·행정",
+      "name": "인물추천함 약100명 심사·부처별 등용 지시",
+      "documentIds": [
+        "d148-cabinet"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "d148-cabinet"
+      ],
+      "later_finding": [],
+      "stage": "directive_not_execution",
+      "attributionGuardrail": "대통령의 재임, 국무회의 의결, 실제 집행을 혼동하지 않는다."
+    },
+    {
+      "id": "evt-r148-sept8",
+      "date": "1954-09-08",
+      "domain": "헌정·입법",
+      "name": "이기붕 외 135인 개헌제안 국무원공고 제55호",
+      "documentIds": [
+        "d148-sept8"
+      ],
+      "proposed_by": [
+        "이기붕 외 135인"
+      ],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "d148-sept8"
+      ],
+      "later_finding": [],
+      "stage": "documented_action",
+      "attributionGuardrail": "대통령의 재임, 국무회의 의결, 실제 집행을 혼동하지 않는다.",
+      "politicians": [
+        "pol-yi-ki-pung",
+        "pol-r148-yu-sun-sik",
+        "pol-r148-jo-sun",
+        "pol-r148-yun-seong-sun",
+        "pol-r148-park-yeong-chul",
+        "pol-r148-lee-jae-hak",
+        "pol-r148-jo-gyeong-gyu",
+        "pol-r148-kim-yeong-sam",
+        "pol-han-hui-seok"
+      ],
+      "organizationIds": [
+        "org-rok-national-assembly-1954"
+      ]
+    },
+    {
+      "id": "evt-r148-nov27",
+      "date": "1954-11-27",
+      "domain": "헌정·국회",
+      "name": "제90차 개헌안 표결 찬성135·반대60·기권7, 최순주 부결선포",
+      "documentIds": [
+        "d148-90"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "d148-90"
+      ],
+      "later_finding": [],
+      "stage": "documented_action",
+      "attributionGuardrail": "대통령의 재임, 국무회의 의결, 실제 집행을 혼동하지 않는다.",
+      "politicians": [
+        "pol-choi-soon-ju",
+        "pol-r148-jo-sun"
+      ],
+      "organizationIds": [
+        "org-rok-national-assembly-1954"
+      ]
+    },
+    {
+      "id": "evt-r148-nov29",
+      "date": "1954-11-29",
+      "domain": "헌정·국회",
+      "name": "최순주 번복, 곽상훈 반대, 유순식 외19인 정정동의, 이기붕 거수표결 선포",
+      "documentIds": [
+        "d148-91"
+      ],
+      "proposed_by": [
+        "유순식 외 19인"
+      ],
+      "decided_by": [
+        "제91차 국회 잔류 의원 거수표결"
+      ],
+      "executed_by": [],
+      "opposed_by": [
+        "곽상훈",
+        "이철승"
+      ],
+      "legal_authority": [],
+      "observed_by": [
+        "d148-91"
+      ],
+      "later_finding": [],
+      "stage": "documented_action",
+      "attributionGuardrail": "대통령의 재임, 국무회의 의결, 실제 집행을 혼동하지 않는다.",
+      "politicians": [
+        "pol-choi-soon-ju",
+        "pol-yi-ki-pung",
+        "pol-r148-kwak-sang-hun",
+        "pol-r148-lee-cheol-seung",
+        "pol-r148-yu-sun-sik",
+        "pol-r148-yun-seong-sun",
+        "pol-r148-park-yeong-chul"
+      ],
+      "organizationIds": [
+        "org-rok-national-assembly-1954"
+      ]
+    },
+    {
+      "id": "evt-r148b-kdb-law",
+      "date": "1953-12-30",
+      "domain": "경제·산업금융",
+      "name": "한국산업은행법 제302호 제정, 1954 설립의 법적 토대",
+      "documentIds": [
+        "d148b-bank-history"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "d148b-bank-history"
+      ],
+      "later_finding": [],
+      "researchStatus": "IDENTIFIED",
+      "attributionGuardrail": "정책·법률·예산·집행을 구별; 연표 요약을 직접 명령의 증거로 사용하지 않음"
+    },
+    {
+      "id": "evt-r148b-kdb-founding",
+      "date": "1954-04-01",
+      "domain": "경제·산업금융",
+      "name": "한국산업은행 발족, 설립령 제860호 및 정부 출자금",
+      "documentIds": [
+        "d148b-bank-history",
+        "d148b-chronology"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "d148b-bank-history",
+        "d148b-chronology"
+      ],
+      "later_finding": [],
+      "researchStatus": "IDENTIFIED",
+      "attributionGuardrail": "정책·법률·예산·집행을 구별; 연표 요약을 직접 명령의 증거로 사용하지 않음"
+    },
+    {
+      "id": "evt-r148b-fiscal-year",
+      "date": "1954-01-23",
+      "domain": "재정·회계",
+      "name": "재정법 제305호 회계연도 4월~3월에서 7월~6월로 변경, 과도기 1954.4~1955.6",
+      "documentIds": [
+        "d148b-fiscal"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [
+        "재정법 법률 제305호"
+      ],
+      "observed_by": [
+        "d148b-fiscal"
+      ],
+      "later_finding": [],
+      "researchStatus": "IDENTIFIED",
+      "attributionGuardrail": "정책·법률·예산·집행을 구별; 연표 요약을 직접 명령의 증거로 사용하지 않음"
+    },
+    {
+      "id": "evt-r148b-counterpart-fund",
+      "date": "1954-03-12",
+      "domain": "재정·원조",
+      "name": "대충자금특별회계법 제311호 제정, 원조물자 환화자금 계정화",
+      "documentIds": [
+        "d148b-counterpart"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "d148b-counterpart"
+      ],
+      "later_finding": [],
+      "researchStatus": "IDENTIFIED",
+      "attributionGuardrail": "정책·법률·예산·집행을 구별; 연표 요약을 직접 명령의 증거로 사용하지 않음"
+    },
+    {
+      "id": "evt-r148b-reconstruction-account",
+      "date": "1954-03-12",
+      "domain": "재정·산업",
+      "name": "경제부흥특별회계법 제312호 제정, 정부직영 복구시설 자금 회계",
+      "documentIds": [
+        "d148b-recovery"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "d148b-recovery"
+      ],
+      "later_finding": [],
+      "researchStatus": "IDENTIFIED",
+      "attributionGuardrail": "정책·법률·예산·집행을 구별; 연표 요약을 직접 명령의 증거로 사용하지 않음"
+    },
+    {
+      "id": "evt-r148b-administrative-execution",
+      "date": "1954-03-18",
+      "domain": "행정·사법",
+      "name": "행정대집행법 제314호 공포, 4/18 시행, 사전계고·영장 통지 절차",
+      "documentIds": [
+        "d148b-admin-law"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "d148b-admin-law"
+      ],
+      "later_finding": [],
+      "researchStatus": "IDENTIFIED",
+      "attributionGuardrail": "정책·법률·예산·집행을 구별; 연표 요약을 직접 명령의 증거로 사용하지 않음"
+    },
+    {
+      "id": "evt-r148b-literacy-plan",
+      "date": "1954-02-16",
+      "domain": "교육·사회",
+      "name": "국무회의 국민 완전 문맹퇴치 계획안 의결, 1954~1958 교육사업",
+      "documentIds": [
+        "d148b-literacy-history"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "d148b-literacy-history"
+      ],
+      "later_finding": [],
+      "researchStatus": "IDENTIFIED",
+      "attributionGuardrail": "정책·법률·예산·집행을 구별; 연표 요약을 직접 명령의 증거로 사용하지 않음"
+    },
+    {
+      "id": "evt-r148b-literacy-phase2",
+      "date": "1954-10",
+      "domain": "교육·지방행정",
+      "name": "문교부 2차 전국문맹퇴치교육 계획안 상정, 1954-12~1955-01 시행 계획",
+      "documentIds": [
+        "d148b-literacy-record"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "d148b-literacy-record"
+      ],
+      "later_finding": [],
+      "researchStatus": "IDENTIFIED",
+      "attributionGuardrail": "정책·법률·예산·집행을 구별; 연표 요약을 직접 명령의 증거로 사용하지 않음"
+    },
+    {
+      "id": "evt-r148b-unesco-committee",
+      "date": "1954-01-30",
+      "domain": "교육·외교",
+      "name": "한국유네스코위원회 창립총회, 설치령 제801호는 1953년 7월 공표",
+      "documentIds": [
+        "d148b-unesco",
+        "d148b-chronology"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "d148b-unesco",
+        "d148b-chronology"
+      ],
+      "later_finding": [],
+      "researchStatus": "IDENTIFIED",
+      "attributionGuardrail": "정책·법률·예산·집행을 구별; 연표 요약을 직접 명령의 증거로 사용하지 않음"
+    },
+    {
+      "id": "evt-r148b-unkra-agreement",
+      "date": "1954-05",
+      "domain": "경제·외교·복구",
+      "name": "한국·유엔한국재건단 UNKRA 경제원조계획 협약 체결",
+      "documentIds": [
+        "d148b-unkra",
+        "d148b-chronology"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "d148b-unkra",
+        "d148b-chronology"
+      ],
+      "later_finding": [],
+      "researchStatus": "IDENTIFIED",
+      "attributionGuardrail": "정책·법률·예산·집행을 구별; 연표 요약을 직접 명령의 증거로 사용하지 않음"
+    },
+    {
+      "id": "evt-r148b-tungsten-liberalization",
+      "date": "1954-11-14",
+      "domain": "산업·무역",
+      "name": "중석수출 자유화가 국가기록원 1954년 연표에 기재됨",
+      "documentIds": [
+        "d148b-chronology",
+        "d148b-tungsten"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "d148b-chronology",
+        "d148b-tungsten"
+      ],
+      "later_finding": [],
+      "researchStatus": "IDENTIFIED",
+      "attributionGuardrail": "정책·법률·예산·집행을 구별; 연표 요약을 직접 명령의 증거로 사용하지 않음"
+    },
+    {
+      "id": "evt-r148b-hangul-policy",
+      "date": "1954-06-26",
+      "domain": "교육·언어정책",
+      "name": "문교부 한글 간소화 방안 발표",
+      "documentIds": [
+        "d148b-chronology"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "d148b-chronology"
+      ],
+      "later_finding": [],
+      "researchStatus": "DISCOVERED",
+      "attributionGuardrail": "정책·법률·예산·집행을 구별; 연표 요약을 직접 명령의 증거로 사용하지 않음"
+    },
+    {
+      "id": "evt-r148b-fish-law-dispute",
+      "date": null,
+      "domain": "어업·해양법",
+      "name": "어업자원보호법 제298호 공포일: 국가기록원 연표 1954-02-20 vs 역사법령 전사 1953-12-12 충돌",
+      "documentIds": [
+        "d148b-chronology",
+        "d148b-fish-copy"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [
+        "법률 제298호, 공포일 CONFLICTED"
+      ],
+      "observed_by": [
+        "d148b-chronology",
+        "d148b-fish-copy"
+      ],
+      "later_finding": [],
+      "researchStatus": "CONFLICTED",
+      "attributionGuardrail": "정책·법률·예산·집행을 구별; 연표 요약을 직접 명령의 증거로 사용하지 않음"
+    },
+    {
+      "id": "evt-r148c-criminal-pass",
+      "date": "1954-02-19",
+      "domain": "사법·형사절차",
+      "name": "형사소송법안 국회 본회의 통과, 정부 이송",
+      "documentIds": [
+        "d148c-criminal"
+      ],
+      "politicians": [],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "d148c-criminal"
+      ],
+      "later_finding": [],
+      "researchStatus": "IDENTIFIED",
+      "attributionGuardrail": "입법절차·재의요구·공포·시행을 구분하며 집행 책임은 자동 귀속하지 않는다."
+    },
+    {
+      "id": "evt-r148c-criminal-reconsider",
+      "date": "1954-03-13",
+      "domain": "사법·행정",
+      "name": "정부가 형사소송법안 수사조서 증거능력·보석 등 조항 재의요구",
+      "documentIds": [
+        "d148c-criminal"
+      ],
+      "politicians": [],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "d148c-criminal"
+      ],
+      "later_finding": [],
+      "researchStatus": "IDENTIFIED",
+      "attributionGuardrail": "입법절차·재의요구·공포·시행을 구분하며 집행 책임은 자동 귀속하지 않는다."
+    },
+    {
+      "id": "evt-r148c-criminal-repass",
+      "date": "1954-03-19",
+      "domain": "사법·입법",
+      "name": "국회가 형사소송법 수정원안 재가결",
+      "documentIds": [
+        "d148c-criminal"
+      ],
+      "politicians": [],
+      "proposed_by": [],
+      "decided_by": [
+        "제2대 국회"
+      ],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "d148c-criminal"
+      ],
+      "later_finding": [],
+      "researchStatus": "IDENTIFIED",
+      "attributionGuardrail": "입법절차·재의요구·공포·시행을 구분하며 집행 책임은 자동 귀속하지 않는다."
+    },
+    {
+      "id": "evt-r148c-criminal-promulgate",
+      "date": "1954-09-23",
+      "domain": "사법·입법",
+      "name": "형사소송법 제341호 공포, 최초 예정 시행일 1954-05-30 경과",
+      "documentIds": [
+        "d148c-criminal"
+      ],
+      "politicians": [],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "d148c-criminal"
+      ],
+      "later_finding": [],
+      "researchStatus": "IDENTIFIED",
+      "attributionGuardrail": "입법절차·재의요구·공포·시행을 구분하며 집행 책임은 자동 귀속하지 않는다."
+    },
+    {
+      "id": "evt-r148c-academies-open",
+      "date": "1954-07-17",
+      "domain": "교육·학술·문화",
+      "name": "학술원·예술원 개원, 문화보호법 제248호(1952) 근거",
+      "documentIds": [
+        "d148c-academy"
+      ],
+      "politicians": [],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "d148c-academy"
+      ],
+      "later_finding": [],
+      "researchStatus": "IDENTIFIED",
+      "attributionGuardrail": "입법절차·재의요구·공포·시행을 구분하며 집행 책임은 자동 귀속하지 않는다."
+    },
+    {
+      "id": "evt-r148c-kdb-date-dispute",
+      "date": null,
+      "domain": "산업금융·기록감사",
+      "name": "산업은행 설립일 1954-04-01(연표) vs 04-03(국가기록원 오늘의 기록) 차이",
+      "documentIds": [
+        "d148b-chronology"
+      ],
+      "politicians": [],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "d148b-chronology"
+      ],
+      "later_finding": [],
+      "researchStatus": "CONFLICTED",
+      "attributionGuardrail": "입법절차·재의요구·공포·시행을 구분하며 집행 책임은 자동 귀속하지 않는다."
+    },
+    {
+      "id": "evt-r148c-misdemeanor-law",
+      "date": "1954-04-01",
+      "domain": "사법·경찰행정",
+      "name": "경범죄처벌법 제316호 1954-04-01 제정 공포, 04-21 시행. 법제처 제정 이유는 경범죄 31종 및 구류·과료를 명시.",
+      "documentIds": [
+        "d148c-misdemeanor",
+        "d148c-misdemeanor-reason"
+      ],
+      "politicians": [],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "d148c-misdemeanor",
+        "d148c-misdemeanor-reason"
+      ],
+      "later_finding": [],
+      "researchStatus": "IDENTIFIED",
+      "attributionGuardrail": "입법절차·재의요구·공포·시행을 구분하며 집행 책임은 자동 귀속하지 않는다."
+    },
+    {
+      "id": "evt-r148c-judicial-scrivener",
+      "date": "1954-04-03",
+      "domain": "사법·행정",
+      "name": "사법서사법 제317호 공포, 법무서류작성업무 제도화",
+      "documentIds": [
+        "d148c-scrivener"
+      ],
+      "politicians": [],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "d148c-scrivener"
+      ],
+      "later_finding": [],
+      "researchStatus": "DISCOVERED",
+      "attributionGuardrail": "입법절차·재의요구·공포·시행을 구분하며 집행 책임은 자동 귀속하지 않는다."
+    },
+    {
+      "id": "evt-r149-government-law384",
+      "date": "1956-02-01",
+      "name": "법률 제384호 정부조직법 개정과 공보실 설치",
+      "proposed_by": [
+        "정부"
+      ],
+      "decided_by": [
+        "국회"
+      ],
+      "executed_by": [],
+      "opposed_by": [
+        "국회 심의 중 야당 일부 의원 (헌정사DB 해제)"
+      ],
+      "legal_authority": [
+        "법률 제384호 제10조"
+      ],
+      "observed_by": [
+        "관보 제1477호"
+      ],
+      "later_finding": [],
+      "documentIds": [
+        "d149-law-384"
+      ],
+      "status": "CONFIRMED_LAW_NOT_EXECUTION"
+    },
+    {
+      "id": "evt-r149-local-law385",
+      "date": "1956-02-13",
+      "name": "법률 제385호 지방자치법 개정과 시읍면장 주민직선",
+      "proposed_by": [
+        "정부"
+      ],
+      "decided_by": [
+        "국회"
+      ],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [
+        "법률 제385호 제98·109·160조"
+      ],
+      "observed_by": [
+        "관보 제1486호"
+      ],
+      "later_finding": [],
+      "documentIds": [
+        "d149-law-385",
+        "d150-law385-review",
+        "d150-nec-1956-local",
+        "d150-na-local-law"
+      ],
+      "status": "CONFIRMED_LAW_NOT_ELECTION_RESULT",
+      "reviewHistory": [
+        {
+          "date": "2026-10-12",
+          "run": 150,
+          "note": "법률385 원전사 제98조 제2~4항 삭제·신설로 주민직선 규정 확인; 국가기록원 해제 조문 차이는 원면 확인 전 유지"
+        }
+      ]
+    },
+    {
+      "id": "evt-r149-local-law388",
+      "date": "1956-07-08",
+      "name": "법률 제388호 지방자치법 추가개정 공포",
+      "proposed_by": [
+        "신도성 외 10인 (해제)"
+      ],
+      "decided_by": [
+        "국회 (해제는 7월7일 가결)"
+      ],
+      "executed_by": [
+        "대통령 법률공포"
+      ],
+      "opposed_by": [],
+      "legal_authority": [
+        "법률 제388호"
+      ],
+      "observed_by": [
+        "관보 제1591호"
+      ],
+      "later_finding": [],
+      "documentIds": [
+        "d149-law-388",
+        "d150-law388-review",
+        "d150-nec-1956-local",
+        "d150-na-local-law"
+      ],
+      "status": "CONFIRMED_PROMULGATION_PASSAGE_DATE_CONFLICT",
+      "reviewHistory": [
+        {
+          "date": "2026-10-12",
+          "run": 150,
+          "note": "7/6 제49차 상정과 7/7 제50차 가결을 국사편찬위원회 해제에서 분리; 원속기록 미열람이므로 CONFLICTED 유지"
+        }
+      ]
+    },
+    {
+      "id": "evt-r149-cabinet-signature-comparison",
+      "date": "1956-07-08",
+      "name": "1956년 2월·7월 국무위원 서명란 직책변화",
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "관보 제1477·1486·1591호"
+      ],
+      "later_finding": [],
+      "documentIds": [
+        "d149-law-384",
+        "d149-law-385",
+        "d149-law-388"
+      ],
+      "status": "CONFIRMED_OFFICE_SNAPSHOTS_APPOINTMENT_DATES_OPEN"
+    },
+    {
+      "id": "evt-r149-1955-aid",
+      "date": "1955-06-21",
+      "name": "한미 원조·환율 워싱턴 협상",
+      "domain": "재정·외교",
+      "actorNames": [
+        "백두진",
+        "손원일"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [],
+      "later_finding": [],
+      "documentIds": [
+        "d149-frus-60",
+        "d149-frus-78"
+      ],
+      "status": "NARROWED",
+      "note": "문서에서 확인한 발생·논의·공포를 분리. 구체적 결정권자 및 원기록이 확인되지 않은 항목은 공란 유지."
+    },
+    {
+      "id": "evt-r149-1955-democratic",
+      "date": "1955-09-19",
+      "name": "민주당 창당대회와 6월18일 조직 단계 차이",
+      "domain": "정당·입법",
+      "actorNames": [
+        "신익희",
+        "조병옥"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [],
+      "later_finding": [],
+      "documentIds": [
+        "d149-constitution",
+        "d150-party-chron-0618",
+        "d150-na-democratic-1955",
+        "d150-na-dnp-1949"
+      ],
+      "status": "NARROWED",
+      "note": "문서에서 확인한 발생·논의·공포를 분리. 구체적 결정권자 및 원기록이 확인되지 않은 항목은 공란 유지.",
+      "reviewHistory": [
+        {
+          "date": "2026-10-12",
+          "run": 150,
+          "note": "6/18 연표·9/18 민국당 결의·9/19 창당대회가 서로 다른 단계일 가능성; 6/18 연표의 단순 오류 여부 원보도 미확인"
+        }
+      ]
+    },
+    {
+      "id": "evt-r149-1956-election",
+      "date": "1956-05-15",
+      "name": "제3대 대통령·부통령 선거",
+      "domain": "선거",
+      "actorNames": [
+        "이승만",
+        "조봉암",
+        "신익희",
+        "장면",
+        "이기붕"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [],
+      "later_finding": [],
+      "documentIds": [
+        "d149-election",
+        "d149-frus-146"
+      ],
+      "status": "NARROWED",
+      "note": "문서에서 확인한 발생·논의·공포를 분리. 구체적 결정권자 및 원기록이 확인되지 않은 항목은 공란 유지."
+    },
+    {
+      "id": "evt-r149-1956-progressive",
+      "date": "1956-11-10",
+      "name": "진보당 창당과 정강",
+      "domain": "정당·사회복지",
+      "actorNames": [
+        "조봉암",
+        "윤길중"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [],
+      "later_finding": [],
+      "documentIds": [
+        "d149-progressive"
+      ],
+      "status": "NARROWED",
+      "note": "문서에서 확인한 발생·논의·공포를 분리. 구체적 결정권자 및 원기록이 확인되지 않은 항목은 공란 유지."
+    },
+    {
+      "id": "evt-r149-1956-aid-review",
+      "date": "1956-06-08",
+      "name": "미국 대한 경제·군사원조 장기비용 검토",
+      "domain": "재정·국방",
+      "actorNames": [],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [],
+      "later_finding": [],
+      "documentIds": [
+        "d149-frus-155",
+        "d149-frus-162"
+      ],
+      "status": "NARROWED",
+      "note": "문서에서 확인한 발생·논의·공포를 분리. 구체적 결정권자 및 원기록이 확인되지 않은 항목은 공란 유지."
+    },
+    {
+      "id": "evt-r149-1956-local-election",
+      "date": "1956-08-15",
+      "name": "1956 지방선거 당선자 집계 공표",
+      "domain": "지방행정·선거",
+      "actorNames": [],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [],
+      "later_finding": [],
+      "documentIds": [
+        "d149-local",
+        "d149-law-385"
+      ],
+      "status": "NARROWED",
+      "note": "문서에서 확인한 발생·논의·공포를 분리. 구체적 결정권자 및 원기록이 확인되지 않은 항목은 공란 유지."
+    },
+    {
+      "id": "evt-r150-19550820-nnsc-peace-statement",
+      "date": "1955-08-20",
+      "name": "이승만 중립국감시위원단 축출시위 난동 경계 담화",
+      "domain": "외교·안보·치안",
+      "politicians": [
+        "pol-rhee-syngman"
+      ],
+      "documentIds": [
+        "d150-pa-19550820"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [
+        "pol-rhee-syngman (public statement)"
+      ],
+      "opposed_by": [],
+      "legal_authority": [
+        "담화는 법률·개별 체포명령과 다름"
+      ],
+      "observed_by": [
+        "대통령기록관 1956 담화집 전사"
+      ],
+      "later_finding": [],
+      "status": "CONFIRMED_SPEECH_NOT_ENFORCEMENT",
+      "note": "시위 중 폭력 금지와 내무부 예방·단속 책임 언명; 실제 집행과 타 사건 직접명령은 별도 확인"
+    },
+    {
+      "id": "evt-r150-19550910-daegu-visit",
+      "date": "1955-09-10",
+      "name": "임병직 대구 방문 환영행사 학생동원 주장",
+      "domain": "지방행정·교육·외교",
+      "politicians": [
+        "pol-lim-byong-jik"
+      ],
+      "documentIds": [
+        "d150-kdemo-daegu",
+        "d150-daegu-city"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "민주화운동기념사업회 후대 해제",
+        "대구역사문화대전 후대 해제"
+      ],
+      "later_finding": [],
+      "status": "NARROWED_DATE_CONFLICT",
+      "note": "9/10 방문과 9/12 방문 표기가 공존. 임병직의 동원 직접 지시는 미확인"
+    },
+    {
+      "id": "evt-r150-19550913-daegu-editorial",
+      "date": "1955-09-13",
+      "name": "최석채 학도동원 비판 사설 발표",
+      "domain": "언론·교육",
+      "politicians": [],
+      "documentIds": [
+        "d150-kdemo-daegu",
+        "d150-maeil-2004",
+        "d150-maeil-2026"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [
+        "학생 관제 동원에 대한 언론 비판"
+      ],
+      "legal_authority": [],
+      "observed_by": [
+        "대구매일신문 후대 지면 재인용"
+      ],
+      "later_finding": [],
+      "status": "NARROWED_ORIGINAL_PAGE_UNOPENED",
+      "note": "신문 원면 미열람. 최석채는 언론인·비정치인 행위자로 정치인 registry에 억지 승격하지 않음"
+    },
+    {
+      "id": "evt-r150-19550914-daegu-press-attack",
+      "date": "1955-09-14",
+      "name": "대구매일신문사 습격과 경찰 경호 대응",
+      "domain": "언론·정당·지방치안",
+      "politicians": [
+        "pol-kim-min-1955-daegu",
+        "pol-hong-yeong-seop-1955-daegu"
+      ],
+      "documentIds": [
+        "d150-kdemo-daegu",
+        "d150-aks-daegu",
+        "d150-daegu-city",
+        "d150-maeil-2015"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [
+        "pol-kim-min-1955-daegu (후대 해제의 가담/주도 귀속)",
+        "pol-hong-yeong-seop-1955-daegu (후대 해제의 가담/주도 귀속)"
+      ],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "민주화운동기념사업회 후대 해제",
+        "대구역사문화대전 후대 해제"
+      ],
+      "later_finding": [
+        "법원 판결 원문 미확보"
+      ],
+      "status": "NARROWED_NO_DIRECT_PRESIDENTIAL_ORDER",
+      "note": "경찰 2명 경호 파견은 후대 해제; 대통령 또는 임병직의 직접 피습 명령 증거 없음"
+    },
+    {
+      "id": "evt-r150-19550917-editor-arrest",
+      "date": "1955-09-17",
+      "name": "최석채 국가보안법 혐의 구속",
+      "domain": "사법·언론·치안",
+      "politicians": [],
+      "documentIds": [
+        "d150-kdemo-daegu",
+        "d150-maeil-2004"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [
+        "경찰·수사기관(개별 발령자 미확인)"
+      ],
+      "opposed_by": [],
+      "legal_authority": [
+        "당시 국가보안법 제4조 적용 주장"
+      ],
+      "observed_by": [],
+      "later_finding": [
+        "후대 보도상 무죄 확정"
+      ],
+      "status": "NARROWED_ARREST_ORDER_NOT_OBTAINED",
+      "note": "원구속영장·공소장·법원 판결문 미확보"
+    },
+    {
+      "id": "evt-r150-19550920-assembly-inquiry",
+      "date": "1955-09",
+      "name": "국회 대구매일신문 피습 진상조사 및 정치인 발언",
+      "domain": "국회·언론",
+      "politicians": [
+        "pol-choi-chang-seop-1955-inquiry",
+        "pol-park-sun-seok-1955"
+      ],
+      "documentIds": [
+        "d150-daegu-city"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [
+        "피습행위에 대한 여야 평가 대립(원회의록 미확보)"
+      ],
+      "legal_authority": [],
+      "observed_by": [
+        "대구역사문화대전 후대 해제"
+      ],
+      "later_finding": [],
+      "status": "NARROWED_ORIGINAL_MINUTES_MISSING",
+      "note": "최창섭 조사단장 발언과 박순석 의원 발언은 후대 해제 인용; 의회 원속기록 확인 전 직접 발언 확정 금지"
+    },
+    {
+      "id": "evt-r150-19551108-editor-first-trial",
+      "date": "1955-11-08",
+      "name": "최석채 대구지법 첫 공판 사진 기록",
+      "domain": "사법·언론",
+      "politicians": [],
+      "documentIds": [
+        "d150-kdemo-trial-photo"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "경향신문사 생산 사진 00732107 소장목록"
+      ],
+      "later_finding": [],
+      "status": "METADATA_CONFIRMED_IMAGE_UNOPENED",
+      "note": "원사진을 보지 않았으므로 소장목록의 생산일·설명만 확인"
+    },
+    {
+      "id": "evt-r150-19560508-editor-acquittal",
+      "date": "1956-05-08",
+      "name": "최석채 대법원 무죄 확정일의 출처 간 불일치",
+      "domain": "사법·언론",
+      "politicians": [],
+      "documentIds": [
+        "d150-kdemo-daegu",
+        "d150-daegu-city",
+        "d150-maeil-2004",
+        "d150-maeil-2026",
+        "d150-na-choi-court"
+      ],
+      "proposed_by": [],
+      "decided_by": [
+        "대법원(후대 출처 귀속)"
+      ],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [],
+      "later_finding": [
+        "1956-05-08 주장",
+        "1956-06-08 주장",
+        "1956-06-18 사건종결 메타"
+      ],
+      "status": "NARROWED_STRONG_OFFICIAL_CATALOG",
+      "note": "판결 원문·사건번호 미확보. 5/8·6/8·6/18 중 확정하지 않음",
+      "reviewHistory": [
+        {
+          "date": "2026-10-12",
+          "source": "d150-na-choi-court",
+          "reason": "국가기록원 원판결 소장목록이 1956-05-08 검찰 상고기각 명시; 후대 날짜 충돌 원인 미해명"
+        }
+      ]
+    },
+    {
+      "id": "evt-r150-19560429-poster-directive",
+      "date": "1956-04-29",
+      "name": "자유당 이승만·이기붕 선거벽보 문구 변경 지시 소장기록",
+      "domain": "선거·정당·홍보",
+      "politicians": [
+        "pol-rhee-syngman",
+        "pol-yi-ki-pung"
+      ],
+      "documentIds": [
+        "d150-nec-poster"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [
+        "서울시선거대책위원회(선관위 소장목록의 설명)"
+      ],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "중앙선거관리위원회 사료 PE-03-00073"
+      ],
+      "later_finding": [],
+      "status": "CATALOG_DESCRIPTION_NOT_ORIGINAL_READ",
+      "note": "당명 배제 지시가 있었다는 소장목록, 후보 본인 지시·승인으로 귀속 금지"
+    },
+    {
+      "id": "evt-r150-19560328-democratic-nomination",
+      "date": "1956-03-28",
+      "name": "민주당 신익희·장면 정·부통령 후보지명대회 사진",
+      "domain": "정당·선거",
+      "politicians": [
+        "pol-r141-shin-ik-hui"
+      ],
+      "documentIds": [
+        "d150-kdemo-nomination"
+      ],
+      "proposed_by": [],
+      "decided_by": [
+        "민주당 후보지명대회(소장목록)"
+      ],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "경향신문사 생산 사진 00726129"
+      ],
+      "later_finding": [],
+      "status": "CATALOG_DESCRIPTION_NOT_ORIGINAL_READ",
+      "note": "사진 소장목록 확인; 표결·정족수 원의사록 미확보"
+    },
+    {
+      "id": "evt-r150-19550915-mungyeong-rail",
+      "date": "1955-09-15",
+      "name": "문경선 은성역 개통식 및 석탄 운송",
+      "domain": "산업·교통",
+      "politicians": [
+        "pol-r149-cabinet-09"
+      ],
+      "documentIds": [
+        "d150-kdemo-mungyeong",
+        "d150-ktv-mungyeong"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "경향신문사 생산 사진 00727567 소장목록",
+        "대한뉴스 제66호 1955-09-26 제작목록"
+      ],
+      "later_finding": [],
+      "status": "METADATA_ONLY",
+      "note": "교통부장관 참석 설명은 있으나 실명·사업 집행예산 미확인 대한뉴스 목록에 1955-09-15 개통과 이종림 교통부장관 축사 기재. 영상 원면 미재생."
+    },
+    {
+      "id": "evt-r150-19551001-industrial-expo",
+      "date": "1955-10-01",
+      "name": "해방 10주년 산업박람회 개막",
+      "domain": "산업·경제",
+      "politicians": [],
+      "documentIds": [
+        "d150-kdemo-expo"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "경향신문사 생산 사진 00733061 소장목록"
+      ],
+      "later_finding": [],
+      "status": "METADATA_ONLY",
+      "note": "종료일 11/30·12/20 메타데이터 충돌, 실제 행사일정 원부 필요"
+    },
+    {
+      "id": "evt-r150-19550806-nnsc-notice",
+      "date": "1955-08-06",
+      "name": "한국정부 NNSC 철수요구 외교문서",
+      "domain": "외교",
+      "politicians": [],
+      "documentIds": [
+        "d150-frus-70"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "FRUS diplomatic document 70"
+      ],
+      "later_finding": [],
+      "status": "DOCUMENT_CONFIRMED_IMPLEMENTATION_OPEN",
+      "note": "외무장관대리 명의 외교문서의 통보내용과 후속 집행 구분"
+    },
+    {
+      "id": "evt-r150-19550807-nnsc-assessment",
+      "date": "1955-08-07",
+      "name": "미군 반NNSC 시위 정보평가",
+      "domain": "안보",
+      "politicians": [],
+      "documentIds": [
+        "d150-frus-71"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "FRUS diplomatic document 71"
+      ],
+      "later_finding": [],
+      "status": "DOCUMENT_CONFIRMED_IMPLEMENTATION_OPEN",
+      "note": "당대 정보보고는 계획·예측과 실제 발생을 구분"
+    },
+    {
+      "id": "evt-r150-19550811-nnsc-meeting",
+      "date": "1955-08-11",
+      "name": "이승만과 렘니처 시위 관련 회담",
+      "domain": "외교·치안",
+      "politicians": [
+        "pol-rhee-syngman"
+      ],
+      "documentIds": [
+        "d150-frus-77"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "FRUS diplomatic document 77"
+      ],
+      "later_finding": [],
+      "status": "DOCUMENT_CONFIRMED_IMPLEMENTATION_OPEN",
+      "note": "대통령 설명과 미국측 반론을 별도 주장으로 보존"
+    },
+    {
+      "id": "evt-r150-19550903-rhee-letter",
+      "date": "1955-09-03",
+      "name": "이승만 레이시 대사에게 보낸 시위 관련 서한",
+      "domain": "외교·언론",
+      "politicians": [
+        "pol-rhee-syngman"
+      ],
+      "documentIds": [
+        "d150-frus-84"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "FRUS diplomatic document 84"
+      ],
+      "later_finding": [],
+      "status": "DOCUMENT_CONFIRMED_IMPLEMENTATION_OPEN",
+      "note": "9월5일 외교전문에 9월3일 서한을 전사, 서명 원본 미열람"
+    },
+    {
+      "id": "evt-r150-19550914-nnsc-field-observation",
+      "date": "1955-09-14",
+      "name": "렘니처 NNSC 시위 현장관찰과 정일권 대화 보고",
+      "domain": "교육·외교·교통",
+      "politicians": [
+        "pol-rhee-syngman",
+        "pol-chung-il-kwon"
+      ],
+      "documentIds": [
+        "d150-frus-86"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "FRUS diplomatic document 86"
+      ],
+      "later_finding": [],
+      "status": "DOCUMENT_CONFIRMED_IMPLEMENTATION_OPEN",
+      "note": "직접 관찰과 타인에게서 들은 설명, 한국측 원행정명령을 구분"
+    },
+    {
+      "id": "evt-r150-19550808-unc-response",
+      "date": "1955-08-08",
+      "name": "UNC response to NNSC deadline",
+      "domain": "diplomacy-security",
+      "politicians": [],
+      "documentIds": [
+        "d150-frus-72"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "FRUS document 72"
+      ],
+      "later_finding": [],
+      "status": "SOURCE_VERIFIED_OUTCOME_NOT_INFERRED",
+      "note": "Contemporaneous record confirms discussion or stated action; implementation requires separate Korean or foreign administrative records."
+    },
+    {
+      "id": "evt-r150-19550810-sixteen",
+      "date": "1955-08-10",
+      "name": "Sixteen-country diplomatic consultation",
+      "domain": "multilateral-diplomacy",
+      "politicians": [],
+      "documentIds": [
+        "d150-frus-75"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "FRUS document 75"
+      ],
+      "later_finding": [],
+      "status": "SOURCE_VERIFIED_OUTCOME_NOT_INFERRED",
+      "note": "Contemporaneous record confirms discussion or stated action; implementation requires separate Korean or foreign administrative records."
+    },
+    {
+      "id": "evt-r150-19550812-exchange500",
+      "date": "1955-08-12",
+      "name": "US-ROK exchange rate amendment: 500 hwan per USD",
+      "domain": "finance-foreign_aid",
+      "politicians": [
+        "pol-yang-yu-chan"
+      ],
+      "documentIds": [
+        "d150-frus-78",
+        "d150-rok-treaty-1152",
+        "d150-aks-exchange"
+      ],
+      "proposed_by": [],
+      "decided_by": [
+        "양유찬(대한민국 서명자)",
+        "Walter S. Robertson(미국 서명자)"
+      ],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [
+        "조약 제1152호 1955-08-12 수정문"
+      ],
+      "observed_by": [
+        "FRUS document 78"
+      ],
+      "later_finding": [],
+      "status": "SOURCE_VERIFIED_OUTCOME_NOT_INFERRED",
+      "note": "Contemporaneous record confirms discussion or stated action; implementation requires separate Korean or foreign administrative records.",
+      "effectiveDate": "1955-08-15",
+      "policyExceptions": [
+        "석탄 40% 이상",
+        "비료 50% 이상, 1956-01-01부터 공정환율"
+      ],
+      "reviewHistory": [
+        {
+          "date": "2026-10-12",
+          "reason": "국가법령정보센터 한국어 원조약으로 발효일·서명자·예외조항 확인"
+        }
+      ]
+    },
+    {
+      "id": "evt-r150-19550824-policy-coordination",
+      "date": "1955-08-24",
+      "name": "US State-Defense NNSC policy coordination",
+      "domain": "administration-diplomacy",
+      "politicians": [],
+      "documentIds": [
+        "d150-frus-82"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "FRUS document 82"
+      ],
+      "later_finding": [],
+      "status": "SOURCE_VERIFIED_OUTCOME_NOT_INFERRED",
+      "note": "Contemporaneous record confirms discussion or stated action; implementation requires separate Korean or foreign administrative records."
+    },
+    {
+      "id": "evt-r150-19550826-swiss-swedish",
+      "date": "1955-08-26",
+      "name": "US-Swiss-Swedish NNSC consultation",
+      "domain": "diplomacy",
+      "politicians": [],
+      "documentIds": [
+        "d150-frus-83"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "FRUS document 83"
+      ],
+      "later_finding": [],
+      "status": "SOURCE_VERIFIED_OUTCOME_NOT_INFERRED",
+      "note": "Contemporaneous record confirms discussion or stated action; implementation requires separate Korean or foreign administrative records."
+    },
+    {
+      "id": "evt-r150-19550919-commonwealth",
+      "date": "1955-09-19",
+      "name": "Commonwealth Korea force reduction proposal",
+      "domain": "defense-diplomacy",
+      "politicians": [],
+      "documentIds": [
+        "d150-frus-87"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "FRUS document 87"
+      ],
+      "later_finding": [],
+      "status": "SOURCE_VERIFIED_OUTCOME_NOT_INFERRED",
+      "note": "Contemporaneous record confirms discussion or stated action; implementation requires separate Korean or foreign administrative records."
+    },
+    {
+      "id": "evt-r150-19551007-yi-hoover",
+      "date": "1955-10-07",
+      "name": "Yi Ki-pung and US Under Secretary Hoover luncheon",
+      "domain": "legislature-diplomacy",
+      "politicians": [
+        "pol-yi-ki-pung"
+      ],
+      "documentIds": [
+        "d150-frus-92"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "FRUS document 92"
+      ],
+      "later_finding": [],
+      "status": "SOURCE_VERIFIED_OUTCOME_NOT_INFERRED",
+      "note": "Contemporaneous record confirms discussion or stated action; implementation requires separate Korean or foreign administrative records."
+    },
+    {
+      "id": "evt-r150-19551008-economic",
+      "date": "1955-10-08",
+      "name": "US-ROK economic coordination meeting",
+      "domain": "finance-industry-agriculture",
+      "politicians": [
+        "pol-paik-too-chin"
+      ],
+      "documentIds": [
+        "d150-frus-91",
+        "d150-aks-paik",
+        "d150-ktv-paik"
+      ],
+      "proposed_by": [
+        "한국측 경제조정관 Paik(백두진 동정: AKS 재직기간·대한뉴스 확인), 원조 증액 요청"
+      ],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "FRUS document 91"
+      ],
+      "later_finding": [],
+      "status": "SOURCE_VERIFIED_OUTCOME_NOT_INFERRED",
+      "note": "Contemporaneous record confirms discussion or stated action; implementation requires separate Korean or foreign administrative records. 경제조정관 Paik=백두진은 직책·기간 교차검증으로 강하게 지지되나 한국측 당일 참석원부는 미확보."
+    },
+    {
+      "id": "evt-r150-19551009-visit",
+      "date": "1955-10-09",
+      "name": "US delegation meetings with Korean leaders",
+      "domain": "diplomacy-defense",
+      "politicians": [
+        "pol-rhee-syngman",
+        "pol-yi-ki-pung",
+        "pol-chung-il-kwon"
+      ],
+      "documentIds": [
+        "d150-frus-92"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "FRUS document 92"
+      ],
+      "later_finding": [],
+      "status": "SOURCE_VERIFIED_OUTCOME_NOT_INFERRED",
+      "note": "Contemporaneous record confirms discussion or stated action; implementation requires separate Korean or foreign administrative records."
+    },
+    {
+      "id": "evt-r150-19551010-policy",
+      "date": "1955-10-10",
+      "name": "US State-Defense procedural consultation",
+      "domain": "administration-diplomacy",
+      "politicians": [],
+      "documentIds": [
+        "d150-frus-93"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "FRUS document 93"
+      ],
+      "later_finding": [],
+      "status": "SOURCE_VERIFIED_OUTCOME_NOT_INFERRED",
+      "note": "Contemporaneous record confirms discussion or stated action; implementation requires separate Korean or foreign administrative records."
+    },
+    {
+      "id": "evt-r150-19550820-paik-return",
+      "date": "1955-08-20",
+      "name": "백두진 한미합동경제위원회 한국대표 귀국 대한뉴스 기록",
+      "domain": "경제·외교",
+      "politicians": [
+        "pol-paik-too-chin"
+      ],
+      "documentIds": [
+        "d150-ktv-paik"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "대한뉴스 제64호 제작 1955-08-30 소장목록"
+      ],
+      "later_finding": [],
+      "status": "CATALOG_ONLY_FILM_NOT_VIEWED",
+      "note": "8/20 귀국 사건과 8/30 뉴스 제작일 구분"
+    },
+    {
+      "id": "evt-r150-19550918-party-foundation",
+      "date": "1955-09-18",
+      "name": "1955 민주당 창당 기관연혁 기준일",
+      "domain": "정당·헌정",
+      "politicians": [
+        "pol-r141-shin-ik-hui",
+        "pol-cho-byeong-ok",
+        "pol-r148-kwak-sang-hun",
+        "pol-chang-myon",
+        "pol-baek-nam-hun"
+      ],
+      "organizationIds": [
+        "org-r150-democratic-party-1955"
+      ],
+      "documentIds": [
+        "d150-na-democratic-1955",
+        "d150-na-dnp-1949"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "official retrospective reference"
+      ],
+      "later_finding": [],
+      "status": "ORIGINAL_MINUTES_OPEN",
+      "note": "9월18일 조직 창당과 9월19일 대의원대회 기록을 구분"
+    },
+    {
+      "id": "evt-r150-19550919-party-convention",
+      "date": "1955-09-19",
+      "name": "1955 민주당 대의원 창당대회 해제일",
+      "domain": "정당·헌정",
+      "politicians": [
+        "pol-r141-shin-ik-hui",
+        "pol-cho-byeong-ok",
+        "pol-r148-kwak-sang-hun",
+        "pol-chang-myon",
+        "pol-baek-nam-hun"
+      ],
+      "organizationIds": [
+        "org-r150-democratic-party-1955"
+      ],
+      "documentIds": [
+        "d150-party-nih"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "official retrospective reference"
+      ],
+      "later_finding": [],
+      "status": "ORIGINAL_MINUTES_OPEN",
+      "note": "9월18일 조직 창당과 9월19일 대의원대회 기록을 구분"
+    },
+    {
+      "id": "evt-r150-19560808-local-election",
+      "date": "1956-08-08",
+      "name": "시·읍·면 의회의원 및 일부 시장 선거",
+      "domain": "지방자치·선거",
+      "politicians": [],
+      "documentIds": [
+        "d150-nec-1956-local",
+        "d150-na-local-law"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "official source or contemporaneous report"
+      ],
+      "later_finding": [],
+      "status": "CONFIRMED_OFFICIAL_RETROSPECTIVE",
+      "note": "선거 실시·의회 개원·미국측 전망을 서로 다른 사건·문서유형으로 분리"
+    },
+    {
+      "id": "evt-r150-19560813-seoul-election",
+      "date": "1956-08-13",
+      "name": "서울시의회의원 선거와 서울시장 선거공고 행정",
+      "domain": "지방자치·선거",
+      "politicians": [
+        "pol-go-jae-bong-1956",
+        "pol-song-chi-myeong-1956"
+      ],
+      "documentIds": [
+        "d150-na-seoul-1956",
+        "d150-nec-song",
+        "d150-nec-1956-local"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "official source or contemporaneous report"
+      ],
+      "later_finding": [],
+      "status": "CONFIRMED_ELECTION_CANDIDATE_RESULT_OPEN",
+      "note": "선거 실시·의회 개원·미국측 전망을 서로 다른 사건·문서유형으로 분리"
+    },
+    {
+      "id": "evt-r150-19560905-seoul-council",
+      "date": "1956-09-05",
+      "name": "서울특별시의회 제1대 개원일 출처 충돌",
+      "domain": "지방의회",
+      "politicians": [],
+      "documentIds": [
+        "d150-smc-2023",
+        "d150-smc-2026",
+        "d150-na-seoul-1956"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "official source or contemporaneous report"
+      ],
+      "later_finding": [],
+      "status": "CONFLICTED_OPENING_DATE",
+      "note": "선거 실시·의회 개원·미국측 전망을 서로 다른 사건·문서유형으로 분리"
+    },
+    {
+      "id": "evt-r150-19561109-oir-succession",
+      "date": "1956-11-09",
+      "name": "미 국무부 OIR 제7371호 1957 대통령직 승계 전망 보고",
+      "domain": "헌정·외교·안보",
+      "politicians": [
+        "pol-rhee-syngman",
+        "pol-chang-myon",
+        "pol-yi-hyeong-geun-1956",
+        "pol-cho-bong-am",
+        "pol-yi-ki-pung"
+      ],
+      "documentIds": [
+        "d150-oir-7371"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "official source or contemporaneous report"
+      ],
+      "later_finding": [],
+      "status": "CONFIRMED_REPORT_FORECAST_NOT_FACT",
+      "note": "선거 실시·의회 개원·미국측 전망을 서로 다른 사건·문서유형으로 분리"
     }
   ]
 }

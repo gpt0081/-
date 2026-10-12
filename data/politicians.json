@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-11",
+  "updatedAt": "2026-10-12",
   "purpose": "대한민국 정치인 실록의 인물 registry. 대통령은 초기 backbone일 뿐이며 모든 인물은 독립된 정치인 노드로 취급한다.",
   "politicians": [
     {
@@ -30,7 +30,11 @@
       "coverageFile": "data/research/rhee-syngman-coverage.json",
       "connections": [
         "evt-1950-0421-acting-pm-parliament-dispute",
-        "evt-1950-0421-rhee-administrative-remarks"
+        "evt-1950-0421-rhee-administrative-remarks",
+        "evt-r150-19550811-nnsc-meeting",
+        "evt-r150-19550903-rhee-letter",
+        "evt-r150-19550914-nnsc-field-observation",
+        "evt-r150-19551009-visit"
       ],
       "evidenceDocumentIds": [
         "d114b-04",
@@ -39,7 +43,12 @@
         "d143-frus-592",
         "doc145-frus-639",
         "doc145-frus-644",
-        "doc145-frus-646"
+        "doc145-frus-646",
+        "d150-pa-19550820",
+        "d150-frus-77",
+        "d150-frus-84",
+        "d150-frus-86",
+        "d150-frus-92"
       ],
       "researchNotes": [
         {
@@ -61,7 +70,22 @@
             "doc145-frus-644",
             "doc145-frus-646"
           ]
+        },
+        {
+          "date": "2026-10-12",
+          "run": 150,
+          "note": "대통령 직접 담화의 비폭력 시위·단속 지시와 한 달 뒤 지방 언론사 피습의 별도 행위자 분리; 피습 직접명령 귀속 금지",
+          "documentIds": [
+            "d150-pa-19550820"
+          ]
         }
+      ],
+      "eventIds": [
+        "evt-r150-19550820-nnsc-peace-statement",
+        "evt-r150-19550811-nnsc-meeting",
+        "evt-r150-19550903-rhee-letter",
+        "evt-r150-19550914-nnsc-field-observation",
+        "evt-r150-19551009-visit"
       ]
     },
     {
@@ -77,10 +101,46 @@
         "자유당 정치인",
         "1956·1960 부통령 후보"
       ],
-      "researchStatus": "candidate",
+      "researchStatus": "IDENTIFIED",
       "backbone": false,
       "connections": [
-        "evt-1960-315-election"
+        "evt-1960-315-election",
+        "evt-r150-19551007-yi-hoover",
+        "evt-r150-19551009-visit"
+      ],
+      "evidenceCoverage": {
+        "documentIds": [
+          "d148-sept8",
+          "d148-91",
+          "d148-frus"
+        ],
+        "reviewDate": "2026-10-11"
+      },
+      "eventIds": [
+        "evt-r148-sept8",
+        "evt-r148-nov29",
+        "evt-r150-19560429-poster-directive",
+        "evt-r150-19551007-yi-hoover",
+        "evt-r150-19551009-visit"
+      ],
+      "status": "IDENTIFIED",
+      "promotionReason": "원문 확인: 9월 개헌 대표 제안 및 11월29일 의장 표결",
+      "openLeads": [
+        "1954 국회·선거 원부에서 이기붕의 시기별 공직과 서명 검증"
+      ],
+      "evidenceDocumentIds": [
+        "d150-nec-poster",
+        "d150-frus-92"
+      ],
+      "researchNotes": [
+        {
+          "date": "2026-10-12",
+          "run": 150,
+          "note": "선거 선전물 후보로 등장; 벽보 지시 직접 발신자로 귀속 금지",
+          "documentIds": [
+            "d150-nec-poster"
+          ]
+        }
       ]
     },
     {
@@ -196,10 +256,25 @@
         "자유당 선거사무장",
         "자유당 기획위원회 위원장"
       ],
-      "researchStatus": "candidate",
+      "researchStatus": "IDENTIFIED",
       "backbone": false,
       "connections": [
         "evt-1960-315-election"
+      ],
+      "evidenceCoverage": {
+        "documentIds": [
+          "d148-sept8",
+          "d148-election"
+        ],
+        "reviewDate": "2026-10-11"
+      },
+      "eventIds": [
+        "evt-r148-sept8"
+      ],
+      "status": "IDENTIFIED",
+      "promotionReason": "원문 확인: 1954 개헌 제안 서명",
+      "openLeads": [
+        "1954 국회·선거 원부에서 한희석의 시기별 공직과 서명 검증"
       ]
     },
     {
@@ -558,13 +633,24 @@
         "재무부 장관",
         "기획처장",
         "국무총리",
-        "한미합동경제위원회 한국측 대표"
+        "한미합동경제위원회 한국측 대표",
+        {
+          "period": "1953 UNKRA",
+          "title": "1953 UNKRA 조인식 참석 사진이 국가기록원 색인에 있으며, 1954 UNKRA 협약도 기록됨",
+          "evidenceDocumentIds": [
+            "d148b-unkra",
+            "d148b-chronology"
+          ],
+          "attributionGuardrail": "1953 조인식과 1954 협약을 동일 서명행위로 단정하지 않음"
+        }
       ],
-      "researchStatus": "VERIFIED",
+      "researchStatus": "IDENTIFIED",
       "backbone": false,
       "connections": [
         "evt-1953-anti-communist-pow-release",
-        "evt-1953-us-rok-mutual-defense-negotiation"
+        "evt-1953-us-rok-mutual-defense-negotiation",
+        "evt-r150-19551008-economic",
+        "evt-r150-19550820-paik-return"
       ],
       "researchNotes": [
         "1",
@@ -748,8 +834,28 @@
       "evidenceDocumentIds": [
         "doc145-frus-632",
         "doc145-frus-639",
-        "doc145-frus-646"
-      ]
+        "doc145-frus-646",
+        "d150-frus-91",
+        "d150-aks-paik",
+        "d150-ktv-paik"
+      ],
+      "evidenceCoverage": {
+        "documentIds": [
+          "d148b-unkra",
+          "d148b-chronology"
+        ],
+        "reviewDate": "2026-10-11"
+      },
+      "eventIds": [
+        "evt-r148b-unkra-agreement",
+        "evt-r150-19551008-economic",
+        "evt-r150-19550820-paik-return"
+      ],
+      "status": "IDENTIFIED",
+      "openLeads": [
+        "국가기록원·국회 인명록에서 백두진의 해당 직책·인사발령·서명 원본 대조"
+      ],
+      "promotionReason": "원문/공식 기관 기록 기반 역할 심화, 법률 제정 책임은 추가 확인."
     },
     {
       "id": "pol-pyun-yong-tae",
@@ -1491,6 +1597,15 @@
           "documentIds": [
             "d143-100010"
           ]
+        },
+        {
+          "date": "2026-10-12",
+          "run": 150,
+          "note": "대구 방문·환영 동원은 후대 해제, 본인 동원지시 원문 미확인",
+          "documentIds": [
+            "d150-kdemo-daegu",
+            "d150-daegu-city"
+          ]
         }
       ],
       "annalsFile": "data/annals/lim-byong-jik.md",
@@ -1505,7 +1620,9 @@
         "d96-lim-1950-0626",
         "d96-lim-1950-0805",
         "d114b-05",
-        "d143-100010"
+        "d143-100010",
+        "d150-kdemo-daegu",
+        "d150-daegu-city"
       ],
       "researchUpdates": [
         {
@@ -1524,6 +1641,9 @@
         "L96-03",
         "L96-13",
         "L96-14"
+      ],
+      "eventIds": [
+        "evt-r150-19550910-daegu-visit"
       ]
     },
     {
@@ -1589,14 +1709,36 @@
         "Kim Pop-rin"
       ],
       "roles": [
-        "문교부 장관"
+        "문교부 장관",
+        {
+          "period": "1954-01-30",
+          "title": "1954-01-30 유네스코한국위원회 초대 위원장(공식 기관 연혁)",
+          "evidenceDocumentIds": [
+            "d148b-unesco"
+          ],
+          "attributionGuardrail": "1953 설치령 제801호 제정·서명 당사자로 자동 귀속하지 않음"
+        }
       ],
-      "researchStatus": "DISCOVERED",
+      "researchStatus": "IDENTIFIED",
       "backbone": false,
       "connections": [
         "evt-1953-us-rok-mutual-defense-negotiation"
       ],
-      "researchNotes": "1953-08 덜레스 회담 FRUS의 'Minister Kim'에 대해 국사편찬위원회 번역 주석이 당시 장관 중 유일한 김씨라는 이유로 김법린으로 추정. 아직 편집자 추정 단계이므로 관보·국무위원 명부·회담 한국측 기록으로 신원 확정 필요."
+      "researchNotes": "1953-08 덜레스 회담 FRUS의 'Minister Kim'에 대해 국사편찬위원회 번역 주석이 당시 장관 중 유일한 김씨라는 이유로 김법린으로 추정. 아직 편집자 추정 단계이므로 관보·국무위원 명부·회담 한국측 기록으로 신원 확정 필요.",
+      "evidenceCoverage": {
+        "documentIds": [
+          "d148b-unesco"
+        ],
+        "reviewDate": "2026-10-11"
+      },
+      "eventIds": [
+        "evt-r148b-unesco-committee"
+      ],
+      "status": "IDENTIFIED",
+      "openLeads": [
+        "국가기록원·국회 인명록에서 김법린의 해당 직책·인사발령·서명 원본 대조"
+      ],
+      "promotionReason": "원문/공식 기관 기록 기반 역할 심화, 법률 제정 책임은 추가 확인."
     },
     {
       "id": "pol-kim-bong-jo",
@@ -1839,7 +1981,7 @@
         }
       ],
       "researchStatus": "IDENTIFIED",
-      "promotionReason": "한국은행 공식 설립위원장 기록과 한국학중앙연구원 인물 기록이 공직·동일인을 연결. 생년과 임명 관보 원면 미확보로 VERIFIED 보류.",
+      "promotionReason": "원문 확인: 11월27일 부결선포·29일 번복",
       "connections": [
         "evt-1950-bank-legislation-setup"
       ],
@@ -1849,12 +1991,25 @@
       ],
       "openLeads": [
         "L114-08",
-        "L114-09"
+        "L114-09",
+        "1954 국회·선거 원부에서 최순주의 시기별 공직과 서명 검증"
       ],
       "historyDebt": [
         "HD-R114-03"
       ],
-      "backbone": false
+      "backbone": false,
+      "evidenceCoverage": {
+        "documentIds": [
+          "d148-90",
+          "d148-91"
+        ],
+        "reviewDate": "2026-10-11"
+      },
+      "eventIds": [
+        "evt-r148-nov27",
+        "evt-r148-nov29"
+      ],
+      "status": "IDENTIFIED"
     },
     {
       "id": "pol-koo-yong-seo",
@@ -1917,10 +2072,19 @@
           "evidenceDocumentIds": [
             "d114-seoul-19500422"
           ]
+        },
+        {
+          "period": "1953-11-30",
+          "title": "1953-11-30 국회부의장으로 참의원선거법 심의 진행; 1954 중구 갑 대한국민당 당선",
+          "evidenceDocumentIds": [
+            "d148-senate",
+            "d148-election"
+          ],
+          "attributionGuardrail": "정당 변동 원부 확인 필요"
         }
       ],
       "researchStatus": "IDENTIFIED",
-      "promotionReason": "1950년 4월 당대 기사와 기존 run113 국회 인물자료가 동일 정치적 행위자를 가리킴. 정식 의원원부 미확인.",
+      "promotionReason": "원문/공식 기관 기록 기반 역할 심화, 법률 제정 책임은 추가 확인.",
       "connections": [
         "evt-1950-0421-acting-pm-parliament-dispute"
       ],
@@ -1928,9 +2092,21 @@
         "d114-seoul-19500422"
       ],
       "openLeads": [
-        "L114-11"
+        "L114-11",
+        "국가기록원·국회 인명록에서 윤치영의 해당 직책·인사발령·서명 원본 대조"
       ],
-      "backbone": false
+      "backbone": false,
+      "evidenceCoverage": {
+        "documentIds": [
+          "d148-senate",
+          "d148-election"
+        ],
+        "reviewDate": "2026-10-11"
+      },
+      "eventIds": [
+        "evt-r148-senate-secret"
+      ],
+      "status": "IDENTIFIED"
     },
     {
       "id": "pol-cho-byeong-ok",
@@ -1962,7 +2138,8 @@
       "evidenceDocumentIds": [
         "d114-seoul-19500422",
         "d143-110040",
-        "doc145-kh-1953_06_20_0030"
+        "doc145-kh-1953_06_20_0030",
+        "d150-na-democratic-1955"
       ],
       "openLeads": [
         "L114-12"
@@ -1985,6 +2162,12 @@
             "doc145-kh-1953_06_20_0030"
           ]
         }
+      ],
+      "organizationIds": [
+        "org-r150-democratic-party-1955"
+      ],
+      "eventIds": [
+        "evt-r149-1955-democratic"
       ]
     },
     {
@@ -2306,14 +2489,33 @@
         "d141-pa764",
         "d141-pa765",
         "d141-pa766",
-        "d141-pa767"
+        "d141-pa767",
+        "d150-kdemo-nomination",
+        "d150-na-democratic-1955"
       ],
       "evidenceFile": "data/evidence/run141-actor-evidence.json",
       "openLeadsFile": "data/research/lead-queues/run141-next.json",
       "historyDebt": [
         "HD-R141-IDENTITY"
       ],
-      "attributionCaveat": "서명/이송은 법안 발의·표결·집행의 직접 증거가 아님"
+      "attributionCaveat": "서명/이송은 법안 발의·표결·집행의 직접 증거가 아님",
+      "eventIds": [
+        "evt-r150-19560328-democratic-nomination",
+        "evt-r149-1955-democratic"
+      ],
+      "researchNotes": [
+        {
+          "date": "2026-10-12",
+          "run": 150,
+          "note": "후보지명대회 동시대 사진 소장정보로 보강",
+          "documentIds": [
+            "d150-kdemo-nomination"
+          ]
+        }
+      ],
+      "organizationIds": [
+        "org-r150-democratic-party-1955"
+      ]
     },
     {
       "id": "pol-r141-jeon-jin-han",
@@ -2809,10 +3011,24 @@
       "backbone": false,
       "connections": [],
       "evidenceDocumentIds": [
-        "d141-gazette-388"
+        "d141-gazette-388",
+        "d150-law388-review"
       ],
       "openLeadsFile": "data/research/lead-queues/run141-next.json",
-      "promotionReason": "국사편찬위원회 헌정사DB 관보 전사와 국회 심의 해설의 실명·직책·행위 확인. 생몰 미검증."
+      "promotionReason": "국사편찬위원회 헌정사DB 관보 전사와 국회 심의 해설의 실명·직책·행위 확인. 생몰 미검증.",
+      "eventIds": [
+        "evt-r149-local-law388"
+      ],
+      "researchNotes": [
+        {
+          "date": "2026-10-12",
+          "run": 150,
+          "note": "1956-07-06 대표제출, 7/7 가결은 공식 해제; 원속기록 필요",
+          "documentIds": [
+            "d150-law388-review"
+          ]
+        }
+      ]
     },
     {
       "id": "pol-r141-hwang-nam-pal",
@@ -3069,6 +3285,1566 @@
         "L145-02"
       ],
       "promotionReason": "FRUS 원문 직책·영문명 + 한국학중앙연구원 한자·생몰 교차 확인. 국사편찬위 FRUS 한국어 전사에 신성모로 기록된 충돌을 독립 인물 ID로 보존."
+    },
+    {
+      "id": "pol-r148-yu-sun-sik",
+      "name": "유순식",
+      "aliases": [
+        "柳順植",
+        "Yu Sun-sik"
+      ],
+      "romanizationStatus": "provisional",
+      "birthDate": null,
+      "deathDate": null,
+      "lifeDatesVerification": "UNVERIFIED",
+      "roles": [
+        {
+          "period": "1954",
+          "title": "1954 서산군 을 자유당 민의원, 개헌 제안 서명; 11/29 정정동의 제안",
+          "evidenceDocumentIds": [
+            "d148-sept8",
+            "d148-91",
+            "d148-election"
+          ]
+        }
+      ],
+      "affiliations": [
+        {
+          "period": "1954",
+          "organization": "자유당",
+          "documentIds": [
+            "d148-sept8",
+            "d148-91",
+            "d148-election"
+          ]
+        }
+      ],
+      "electionOrAppointment": {
+        "status": "role_attested_in_original; further validation pending",
+        "documentIds": [
+          "d148-sept8",
+          "d148-91",
+          "d148-election"
+        ]
+      },
+      "eventIds": [
+        "evt-r148-sept8",
+        "evt-r148-nov29"
+      ],
+      "status": "IDENTIFIED",
+      "researchStatus": "IDENTIFIED",
+      "evidenceCoverage": {
+        "documentIds": [
+          "d148-sept8",
+          "d148-91",
+          "d148-election"
+        ],
+        "originalTextsOpened": true
+      },
+      "openLeads": [
+        "국회 제2·3대 의원명부·중앙선관위 당선원부에서 유순식의 생몰·선거구·정당·이명·동명이인 검증"
+      ],
+      "historyDebt": [],
+      "promotionReason": "동시대 원속기록/관보에서 직책과 특정 행위가 확인됨; 생몰 및 동일인 확인은 미완료."
+    },
+    {
+      "id": "pol-r148-kwak-sang-hun",
+      "name": "곽상훈",
+      "aliases": [
+        "郭尙勳",
+        "Kwak Sang-hun"
+      ],
+      "romanizationStatus": "provisional",
+      "birthDate": null,
+      "deathDate": null,
+      "lifeDatesVerification": "UNVERIFIED",
+      "roles": [
+        {
+          "period": "1954",
+          "title": "1954 인천시 을 무소속 민의원·국회부의장, 11/29 번복의 위법성을 주장",
+          "evidenceDocumentIds": [
+            "d148-91",
+            "d148-election"
+          ]
+        }
+      ],
+      "affiliations": [],
+      "electionOrAppointment": {
+        "status": "role_attested_in_original; further validation pending",
+        "documentIds": [
+          "d148-91",
+          "d148-election"
+        ]
+      },
+      "eventIds": [
+        "evt-r148-nov29",
+        "evt-r149-1955-democratic"
+      ],
+      "status": "IDENTIFIED",
+      "researchStatus": "IDENTIFIED",
+      "evidenceCoverage": {
+        "documentIds": [
+          "d148-91",
+          "d148-election"
+        ],
+        "originalTextsOpened": true
+      },
+      "openLeads": [
+        "국회 제2·3대 의원명부·중앙선관위 당선원부에서 곽상훈의 생몰·선거구·정당·이명·동명이인 검증"
+      ],
+      "historyDebt": [],
+      "promotionReason": "동시대 원속기록/관보에서 직책과 특정 행위가 확인됨; 생몰 및 동일인 확인은 미완료.",
+      "organizationIds": [
+        "org-r150-democratic-party-1955"
+      ],
+      "evidenceDocumentIds": [
+        "d150-na-democratic-1955"
+      ]
+    },
+    {
+      "id": "pol-r148-lee-cheol-seung",
+      "name": "이철승",
+      "aliases": [
+        "李哲承",
+        "Lee Cheol-seung"
+      ],
+      "romanizationStatus": "provisional",
+      "birthDate": null,
+      "deathDate": null,
+      "lifeDatesVerification": "UNVERIFIED",
+      "roles": [
+        {
+          "period": "1954",
+          "title": "1954 국회의원, 11/29 국회 의장석에서 최순주에게 항의",
+          "evidenceDocumentIds": [
+            "d148-91"
+          ]
+        }
+      ],
+      "affiliations": [],
+      "electionOrAppointment": {
+        "status": "role_attested_in_original; further validation pending",
+        "documentIds": [
+          "d148-91"
+        ]
+      },
+      "eventIds": [
+        "evt-r148-nov29"
+      ],
+      "status": "IDENTIFIED",
+      "researchStatus": "IDENTIFIED",
+      "evidenceCoverage": {
+        "documentIds": [
+          "d148-91"
+        ],
+        "originalTextsOpened": true
+      },
+      "openLeads": [
+        "국회 제2·3대 의원명부·중앙선관위 당선원부에서 이철승의 생몰·선거구·정당·이명·동명이인 검증"
+      ],
+      "historyDebt": [],
+      "promotionReason": "동시대 원속기록/관보에서 직책과 특정 행위가 확인됨; 생몰 및 동일인 확인은 미완료."
+    },
+    {
+      "id": "pol-r148-jo-sun",
+      "name": "조순",
+      "aliases": [
+        "趙淳",
+        "Cho Sun"
+      ],
+      "romanizationStatus": "provisional",
+      "birthDate": null,
+      "deathDate": null,
+      "lifeDatesVerification": "UNVERIFIED",
+      "roles": [
+        {
+          "period": "1954",
+          "title": "1954 국회의원, 9/8 개헌 제안 서명 및 11/27 즉시 표결 동의",
+          "evidenceDocumentIds": [
+            "d148-sept8",
+            "d148-90"
+          ]
+        }
+      ],
+      "affiliations": [],
+      "electionOrAppointment": {
+        "status": "role_attested_in_original; further validation pending",
+        "documentIds": [
+          "d148-sept8",
+          "d148-90"
+        ]
+      },
+      "eventIds": [
+        "evt-r148-sept8",
+        "evt-r148-nov27"
+      ],
+      "status": "IDENTIFIED",
+      "researchStatus": "IDENTIFIED",
+      "evidenceCoverage": {
+        "documentIds": [
+          "d148-sept8",
+          "d148-90"
+        ],
+        "originalTextsOpened": true
+      },
+      "openLeads": [
+        "국회 제2·3대 의원명부·중앙선관위 당선원부에서 조순의 생몰·선거구·정당·이명·동명이인 검증"
+      ],
+      "historyDebt": [],
+      "promotionReason": "동시대 원속기록/관보에서 직책과 특정 행위가 확인됨; 생몰 및 동일인 확인은 미완료."
+    },
+    {
+      "id": "pol-r148-yun-seong-sun",
+      "name": "윤성순",
+      "aliases": [
+        "尹珹淳",
+        "Yun Seong-sun"
+      ],
+      "romanizationStatus": "provisional",
+      "birthDate": null,
+      "deathDate": null,
+      "lifeDatesVerification": "UNVERIFIED",
+      "roles": [
+        {
+          "period": "1954",
+          "title": "1954 포천군 자유당 의원·개헌안 서명, 11/29 정족수 해석 발언",
+          "evidenceDocumentIds": [
+            "d148-sept8",
+            "d148-91",
+            "d148-election"
+          ]
+        }
+      ],
+      "affiliations": [
+        {
+          "period": "1954",
+          "organization": "자유당",
+          "documentIds": [
+            "d148-sept8",
+            "d148-91",
+            "d148-election"
+          ]
+        }
+      ],
+      "electionOrAppointment": {
+        "status": "role_attested_in_original; further validation pending",
+        "documentIds": [
+          "d148-sept8",
+          "d148-91",
+          "d148-election"
+        ]
+      },
+      "eventIds": [
+        "evt-r148-sept8",
+        "evt-r148-nov29"
+      ],
+      "status": "IDENTIFIED",
+      "researchStatus": "IDENTIFIED",
+      "evidenceCoverage": {
+        "documentIds": [
+          "d148-sept8",
+          "d148-91",
+          "d148-election"
+        ],
+        "originalTextsOpened": true
+      },
+      "openLeads": [
+        "국회 제2·3대 의원명부·중앙선관위 당선원부에서 윤성순의 생몰·선거구·정당·이명·동명이인 검증"
+      ],
+      "historyDebt": [],
+      "promotionReason": "동시대 원속기록/관보에서 직책과 특정 행위가 확인됨; 생몰 및 동일인 확인은 미완료."
+    },
+    {
+      "id": "pol-r148-park-yeong-chul",
+      "name": "박영출",
+      "aliases": [
+        "朴永出",
+        "Park Yeong-chul"
+      ],
+      "romanizationStatus": "provisional",
+      "birthDate": null,
+      "deathDate": null,
+      "lifeDatesVerification": "UNVERIFIED",
+      "roles": [
+        {
+          "period": "1953-11-30",
+          "title": "1953 참의원선거법 수정안, 1954 개헌 제안 서명·11/29 회의장 절차 발언",
+          "evidenceDocumentIds": [
+            "d148-senate",
+            "d148-sept8",
+            "d148-91"
+          ]
+        }
+      ],
+      "affiliations": [],
+      "electionOrAppointment": {
+        "status": "role_attested_in_original; further validation pending",
+        "documentIds": [
+          "d148-senate",
+          "d148-sept8",
+          "d148-91"
+        ]
+      },
+      "eventIds": [
+        "evt-r148-senate-secret",
+        "evt-r148-sept8"
+      ],
+      "status": "IDENTIFIED",
+      "researchStatus": "IDENTIFIED",
+      "evidenceCoverage": {
+        "documentIds": [
+          "d148-senate",
+          "d148-sept8",
+          "d148-91"
+        ],
+        "originalTextsOpened": true
+      },
+      "openLeads": [
+        "국회 제2·3대 의원명부·중앙선관위 당선원부에서 박영출의 생몰·선거구·정당·이명·동명이인 검증"
+      ],
+      "historyDebt": [],
+      "promotionReason": "동시대 원속기록/관보에서 직책과 특정 행위가 확인됨; 생몰 및 동일인 확인은 미완료."
+    },
+    {
+      "id": "pol-r148-lee-jae-hak",
+      "name": "이재학",
+      "aliases": [
+        "李在鶴",
+        "Lee Jae-hak"
+      ],
+      "romanizationStatus": "provisional",
+      "birthDate": null,
+      "deathDate": null,
+      "lifeDatesVerification": "UNVERIFIED",
+      "roles": [
+        {
+          "period": "1954",
+          "title": "1954 홍천군 자유당 민의원, 9/8 개헌 제안 서명",
+          "evidenceDocumentIds": [
+            "d148-sept8",
+            "d148-election"
+          ]
+        }
+      ],
+      "affiliations": [
+        {
+          "period": "1954",
+          "organization": "자유당",
+          "documentIds": [
+            "d148-sept8",
+            "d148-election"
+          ]
+        }
+      ],
+      "electionOrAppointment": {
+        "status": "role_attested_in_original; further validation pending",
+        "documentIds": [
+          "d148-sept8",
+          "d148-election"
+        ]
+      },
+      "eventIds": [
+        "evt-r148-sept8"
+      ],
+      "status": "IDENTIFIED",
+      "researchStatus": "IDENTIFIED",
+      "evidenceCoverage": {
+        "documentIds": [
+          "d148-sept8",
+          "d148-election"
+        ],
+        "originalTextsOpened": true
+      },
+      "openLeads": [
+        "국회 제2·3대 의원명부·중앙선관위 당선원부에서 이재학의 생몰·선거구·정당·이명·동명이인 검증"
+      ],
+      "historyDebt": [],
+      "promotionReason": "동시대 원속기록/관보에서 직책과 특정 행위가 확인됨; 생몰 및 동일인 확인은 미완료."
+    },
+    {
+      "id": "pol-r148-jo-gyeong-gyu",
+      "name": "조경규",
+      "aliases": [
+        "趙瓊奎",
+        "Jo Gyeong-gyu"
+      ],
+      "romanizationStatus": "provisional",
+      "birthDate": null,
+      "deathDate": null,
+      "lifeDatesVerification": "UNVERIFIED",
+      "roles": [
+        {
+          "period": "1954",
+          "title": "1954 제3대 국회의원, 9/8 개헌 제안 서명",
+          "evidenceDocumentIds": [
+            "d148-sept8"
+          ]
+        }
+      ],
+      "affiliations": [],
+      "electionOrAppointment": {
+        "status": "role_attested_in_original; further validation pending",
+        "documentIds": [
+          "d148-sept8"
+        ]
+      },
+      "eventIds": [
+        "evt-r148-sept8"
+      ],
+      "status": "IDENTIFIED",
+      "researchStatus": "IDENTIFIED",
+      "evidenceCoverage": {
+        "documentIds": [
+          "d148-sept8"
+        ],
+        "originalTextsOpened": true
+      },
+      "openLeads": [
+        "국회 제2·3대 의원명부·중앙선관위 당선원부에서 조경규의 생몰·선거구·정당·이명·동명이인 검증"
+      ],
+      "historyDebt": [],
+      "promotionReason": "동시대 원속기록/관보에서 직책과 특정 행위가 확인됨; 생몰 및 동일인 확인은 미완료."
+    },
+    {
+      "id": "pol-r148-kim-yeong-sam",
+      "name": "김영삼",
+      "aliases": [
+        "金泳三",
+        "Kim Young-sam"
+      ],
+      "romanizationStatus": "provisional",
+      "birthDate": null,
+      "deathDate": null,
+      "lifeDatesVerification": "UNVERIFIED",
+      "roles": [
+        {
+          "period": "1954",
+          "title": "1954 제3대 국회의원, 9/8 개헌 제안 서명",
+          "evidenceDocumentIds": [
+            "d148-sept8"
+          ]
+        }
+      ],
+      "affiliations": [],
+      "electionOrAppointment": {
+        "status": "role_attested_in_original; further validation pending",
+        "documentIds": [
+          "d148-sept8"
+        ]
+      },
+      "eventIds": [
+        "evt-r148-sept8"
+      ],
+      "status": "IDENTIFIED",
+      "researchStatus": "IDENTIFIED",
+      "evidenceCoverage": {
+        "documentIds": [
+          "d148-sept8"
+        ],
+        "originalTextsOpened": true
+      },
+      "openLeads": [
+        "국회 제2·3대 의원명부·중앙선관위 당선원부에서 김영삼의 생몰·선거구·정당·이명·동명이인 검증"
+      ],
+      "historyDebt": [],
+      "promotionReason": "동시대 원속기록/관보에서 직책과 특정 행위가 확인됨; 생몰 및 동일인 확인은 미완료."
+    },
+    {
+      "id": "pol-r148-an-yong-dae",
+      "name": "안용대",
+      "aliases": [
+        "安龍大",
+        "An Yong-dae"
+      ],
+      "romanizationStatus": "provisional",
+      "birthDate": null,
+      "deathDate": null,
+      "lifeDatesVerification": "UNVERIFIED",
+      "roles": [
+        {
+          "period": "1953-11-30",
+          "title": "1953-11-30 국회 내무위원장 대리, 참의원선거법 제50·63·96조 보고",
+          "evidenceDocumentIds": [
+            "d148-senate"
+          ]
+        }
+      ],
+      "affiliations": [],
+      "electionOrAppointment": {
+        "status": "role_attested_in_original; further validation pending",
+        "documentIds": [
+          "d148-senate"
+        ]
+      },
+      "eventIds": [
+        "evt-r148-senate-secret"
+      ],
+      "status": "IDENTIFIED",
+      "researchStatus": "IDENTIFIED",
+      "evidenceCoverage": {
+        "documentIds": [
+          "d148-senate"
+        ],
+        "originalTextsOpened": true
+      },
+      "openLeads": [
+        "국회 제2·3대 의원명부·중앙선관위 당선원부에서 안용대의 생몰·선거구·정당·이명·동명이인 검증"
+      ],
+      "historyDebt": [],
+      "promotionReason": "동시대 원속기록/관보에서 직책과 특정 행위가 확인됨; 생몰 및 동일인 확인은 미완료."
+    },
+    {
+      "id": "pol-r148-choi-won-ho",
+      "name": "최원호",
+      "aliases": [
+        "崔瑗浩",
+        "Choi Won-ho"
+      ],
+      "romanizationStatus": "provisional",
+      "birthDate": null,
+      "deathDate": null,
+      "lifeDatesVerification": "UNVERIFIED",
+      "roles": [
+        {
+          "period": "1953-11-30",
+          "title": "1953-11-30 참의원·민의원 동시선거 부칙 수정안 제안",
+          "evidenceDocumentIds": [
+            "d148-senate"
+          ]
+        }
+      ],
+      "affiliations": [],
+      "electionOrAppointment": {
+        "status": "role_attested_in_original; further validation pending",
+        "documentIds": [
+          "d148-senate"
+        ]
+      },
+      "eventIds": [
+        "evt-r148-senate-schedule"
+      ],
+      "status": "IDENTIFIED",
+      "researchStatus": "IDENTIFIED",
+      "evidenceCoverage": {
+        "documentIds": [
+          "d148-senate"
+        ],
+        "originalTextsOpened": true
+      },
+      "openLeads": [
+        "국회 제2·3대 의원명부·중앙선관위 당선원부에서 최원호의 생몰·선거구·정당·이명·동명이인 검증"
+      ],
+      "historyDebt": [],
+      "promotionReason": "동시대 원속기록/관보에서 직책과 특정 행위가 확인됨; 생몰 및 동일인 확인은 미완료."
+    },
+    {
+      "id": "pol-r148-yu-seung-jun",
+      "name": "유승준",
+      "aliases": [
+        "兪昇濬",
+        "Yu Seung-jun"
+      ],
+      "romanizationStatus": "provisional",
+      "birthDate": null,
+      "deathDate": null,
+      "lifeDatesVerification": "UNVERIFIED",
+      "roles": [
+        {
+          "period": "1953-11-30",
+          "title": "1953-11-30 참의원선거법 첫 선거 연고지 예외 부칙 수정안 제안",
+          "evidenceDocumentIds": [
+            "d148-senate"
+          ]
+        }
+      ],
+      "affiliations": [],
+      "electionOrAppointment": {
+        "status": "role_attested_in_original; further validation pending",
+        "documentIds": [
+          "d148-senate"
+        ]
+      },
+      "eventIds": [
+        "evt-r148-senate-schedule"
+      ],
+      "status": "IDENTIFIED",
+      "researchStatus": "IDENTIFIED",
+      "evidenceCoverage": {
+        "documentIds": [
+          "d148-senate"
+        ],
+        "originalTextsOpened": true
+      },
+      "openLeads": [
+        "국회 제2·3대 의원명부·중앙선관위 당선원부에서 유승준의 생몰·선거구·정당·이명·동명이인 검증"
+      ],
+      "historyDebt": [],
+      "promotionReason": "동시대 원속기록/관보에서 직책과 특정 행위가 확인됨; 생몰 및 동일인 확인은 미완료."
+    },
+    {
+      "id": "pol-r149-cabinet-01",
+      "name": "김형근",
+      "aliases": [
+        "金亨根",
+        "Kim Hyeong-geun"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "status": "UNVERIFIED"
+      },
+      "roles": [
+        {
+          "period": "1956",
+          "title": "내무부장관",
+          "evidenceDocumentIds": [
+            "d149-law-384"
+          ]
+        }
+      ],
+      "affiliations": [],
+      "eventIds": [
+        "evt-r149-cabinet-signature-comparison"
+      ],
+      "researchStatus": "IDENTIFIED",
+      "evidenceDocumentIds": [
+        "d149-law-384"
+      ],
+      "openLeads": [
+        "L149-cabinet-appointments"
+      ],
+      "historyDebtIds": [],
+      "note": "관보 서명란으로 재임 직책만 확인; 생몰·임명일·정당 미검증, 영문은 검색용 표기"
+    },
+    {
+      "id": "pol-r149-cabinet-02",
+      "name": "김현철",
+      "aliases": [
+        "金顯哲",
+        "Kim Hyeon-cheol"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "status": "UNVERIFIED"
+      },
+      "roles": [
+        {
+          "period": "1956",
+          "title": "2월 재무부장관, 7월 부흥부장관",
+          "evidenceDocumentIds": [
+            "d149-law-384"
+          ]
+        }
+      ],
+      "affiliations": [],
+      "eventIds": [
+        "evt-r149-cabinet-signature-comparison"
+      ],
+      "researchStatus": "IDENTIFIED",
+      "evidenceDocumentIds": [
+        "d149-law-384"
+      ],
+      "openLeads": [
+        "L149-cabinet-appointments"
+      ],
+      "historyDebtIds": [],
+      "note": "관보 서명란으로 재임 직책만 확인; 생몰·임명일·정당 미검증, 영문은 검색용 표기"
+    },
+    {
+      "id": "pol-r149-cabinet-03",
+      "name": "이호",
+      "aliases": [
+        "李澔",
+        "Yi Ho"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "status": "UNVERIFIED"
+      },
+      "roles": [
+        {
+          "period": "1956",
+          "title": "법무부장관",
+          "evidenceDocumentIds": [
+            "d149-law-384"
+          ]
+        }
+      ],
+      "affiliations": [],
+      "eventIds": [
+        "evt-r149-cabinet-signature-comparison"
+      ],
+      "researchStatus": "IDENTIFIED",
+      "evidenceDocumentIds": [
+        "d149-law-384"
+      ],
+      "openLeads": [
+        "L149-cabinet-appointments"
+      ],
+      "historyDebtIds": [],
+      "note": "관보 서명란으로 재임 직책만 확인; 생몰·임명일·정당 미검증, 영문은 검색용 표기"
+    },
+    {
+      "id": "pol-r149-cabinet-04",
+      "name": "이선근",
+      "aliases": [
+        "李瑄根",
+        "Yi Seon-geun"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "status": "UNVERIFIED"
+      },
+      "roles": [
+        {
+          "period": "1956",
+          "title": "2월 문교부장관",
+          "evidenceDocumentIds": [
+            "d149-law-384"
+          ]
+        }
+      ],
+      "affiliations": [],
+      "eventIds": [
+        "evt-r149-cabinet-signature-comparison"
+      ],
+      "researchStatus": "IDENTIFIED",
+      "evidenceDocumentIds": [
+        "d149-law-384"
+      ],
+      "openLeads": [
+        "L149-cabinet-appointments"
+      ],
+      "historyDebtIds": [],
+      "note": "관보 서명란으로 재임 직책만 확인; 생몰·임명일·정당 미검증, 영문은 검색용 표기"
+    },
+    {
+      "id": "pol-r149-cabinet-05",
+      "name": "유완창",
+      "aliases": [
+        "俞莞昌",
+        "Yu Wan-chang"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "status": "UNVERIFIED"
+      },
+      "roles": [
+        {
+          "period": "1956",
+          "title": "2월 부흥부장관",
+          "evidenceDocumentIds": [
+            "d149-law-384"
+          ]
+        }
+      ],
+      "affiliations": [],
+      "eventIds": [
+        "evt-r149-cabinet-signature-comparison"
+      ],
+      "researchStatus": "IDENTIFIED",
+      "evidenceDocumentIds": [
+        "d149-law-384"
+      ],
+      "openLeads": [
+        "L149-cabinet-appointments"
+      ],
+      "historyDebtIds": [],
+      "note": "관보 서명란으로 재임 직책만 확인; 생몰·임명일·정당 미검증, 영문은 검색용 표기"
+    },
+    {
+      "id": "pol-r149-cabinet-06",
+      "name": "정운갑",
+      "aliases": [
+        "鄭雲甲",
+        "Jeong Un-gap"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "status": "UNVERIFIED"
+      },
+      "roles": [
+        {
+          "period": "1956",
+          "title": "농림부장관",
+          "evidenceDocumentIds": [
+            "d149-law-385"
+          ]
+        }
+      ],
+      "affiliations": [],
+      "eventIds": [
+        "evt-r149-cabinet-signature-comparison"
+      ],
+      "researchStatus": "IDENTIFIED",
+      "evidenceDocumentIds": [
+        "d149-law-385"
+      ],
+      "openLeads": [
+        "L149-cabinet-appointments"
+      ],
+      "historyDebtIds": [],
+      "note": "관보 서명란으로 재임 직책만 확인; 생몰·임명일·정당 미검증, 영문은 검색용 표기"
+    },
+    {
+      "id": "pol-r149-cabinet-07",
+      "name": "김일환",
+      "aliases": [
+        "金一煥",
+        "Kim Il-hwan"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "status": "UNVERIFIED"
+      },
+      "roles": [
+        {
+          "period": "1956",
+          "title": "상공부장관",
+          "evidenceDocumentIds": [
+            "d149-law-385"
+          ]
+        }
+      ],
+      "affiliations": [],
+      "eventIds": [
+        "evt-r149-cabinet-signature-comparison"
+      ],
+      "researchStatus": "IDENTIFIED",
+      "evidenceDocumentIds": [
+        "d149-law-385"
+      ],
+      "openLeads": [
+        "L149-cabinet-appointments"
+      ],
+      "historyDebtIds": [],
+      "note": "관보 서명란으로 재임 직책만 확인; 생몰·임명일·정당 미검증, 영문은 검색용 표기"
+    },
+    {
+      "id": "pol-r149-cabinet-08",
+      "name": "최재유",
+      "aliases": [
+        "崔在裕",
+        "Choe Jae-yu"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "status": "UNVERIFIED"
+      },
+      "roles": [
+        {
+          "period": "1956",
+          "title": "2월 보건사회부장관",
+          "evidenceDocumentIds": [
+            "d149-law-385"
+          ]
+        }
+      ],
+      "affiliations": [],
+      "eventIds": [
+        "evt-r149-cabinet-signature-comparison"
+      ],
+      "researchStatus": "IDENTIFIED",
+      "evidenceDocumentIds": [
+        "d149-law-385"
+      ],
+      "openLeads": [
+        "L149-cabinet-appointments"
+      ],
+      "historyDebtIds": [],
+      "note": "관보 서명란으로 재임 직책만 확인; 생몰·임명일·정당 미검증, 영문은 검색용 표기"
+    },
+    {
+      "id": "pol-r149-cabinet-09",
+      "name": "이종림",
+      "aliases": [
+        "李鍾林",
+        "Yi Jong-rim"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "status": "UNVERIFIED"
+      },
+      "roles": [
+        {
+          "period": "1956",
+          "title": "교통부장관",
+          "evidenceDocumentIds": [
+            "d149-law-385"
+          ]
+        }
+      ],
+      "affiliations": [],
+      "eventIds": [
+        "evt-r149-cabinet-signature-comparison",
+        "evt-r150-19550915-mungyeong-rail"
+      ],
+      "researchStatus": "IDENTIFIED",
+      "evidenceDocumentIds": [
+        "d149-law-385",
+        "d150-ktv-mungyeong"
+      ],
+      "openLeads": [
+        "L149-cabinet-appointments"
+      ],
+      "historyDebtIds": [],
+      "note": "관보 서명란으로 재임 직책만 확인; 생몰·임명일·정당 미검증, 영문은 검색용 표기",
+      "connections": [
+        "evt-r150-19550915-mungyeong-rail"
+      ]
+    },
+    {
+      "id": "pol-r149-cabinet-10",
+      "name": "이응준",
+      "aliases": [
+        "李應俊",
+        "Yi Eung-jun"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "status": "UNVERIFIED"
+      },
+      "roles": [
+        {
+          "period": "1956",
+          "title": "체신부장관",
+          "evidenceDocumentIds": [
+            "d149-law-385"
+          ]
+        }
+      ],
+      "affiliations": [],
+      "eventIds": [
+        "evt-r149-cabinet-signature-comparison"
+      ],
+      "researchStatus": "IDENTIFIED",
+      "evidenceDocumentIds": [
+        "d149-law-385"
+      ],
+      "openLeads": [
+        "L149-cabinet-appointments"
+      ],
+      "historyDebtIds": [],
+      "note": "관보 서명란으로 재임 직책만 확인; 생몰·임명일·정당 미검증, 영문은 검색용 표기"
+    },
+    {
+      "id": "pol-r149-cabinet-11",
+      "name": "인태식",
+      "aliases": [
+        "印泰植",
+        "In Tae-sik"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "status": "UNVERIFIED"
+      },
+      "roles": [
+        {
+          "period": "1956",
+          "title": "7월 재무부장관",
+          "evidenceDocumentIds": [
+            "d149-law-388"
+          ]
+        }
+      ],
+      "affiliations": [],
+      "eventIds": [
+        "evt-r149-cabinet-signature-comparison"
+      ],
+      "researchStatus": "IDENTIFIED",
+      "evidenceDocumentIds": [
+        "d149-law-388"
+      ],
+      "openLeads": [
+        "L149-cabinet-appointments"
+      ],
+      "historyDebtIds": [],
+      "note": "관보 서명란으로 재임 직책만 확인; 생몰·임명일·정당 미검증, 영문은 검색용 표기"
+    },
+    {
+      "id": "pol-r149-cabinet-12",
+      "name": "김용우",
+      "aliases": [
+        "金用雨",
+        "Kim Yong-u"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "status": "UNVERIFIED"
+      },
+      "roles": [
+        {
+          "period": "1956",
+          "title": "7월 국방부장관",
+          "evidenceDocumentIds": [
+            "d149-law-388"
+          ]
+        }
+      ],
+      "affiliations": [],
+      "eventIds": [
+        "evt-r149-cabinet-signature-comparison"
+      ],
+      "researchStatus": "IDENTIFIED",
+      "evidenceDocumentIds": [
+        "d149-law-388"
+      ],
+      "openLeads": [
+        "L149-cabinet-appointments"
+      ],
+      "historyDebtIds": [],
+      "note": "관보 서명란으로 재임 직책만 확인; 생몰·임명일·정당 미검증, 영문은 검색용 표기"
+    },
+    {
+      "id": "pol-r149-cabinet-13",
+      "name": "최규남",
+      "aliases": [
+        "崔奎南",
+        "Choe Gyu-nam"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "status": "UNVERIFIED"
+      },
+      "roles": [
+        {
+          "period": "1956",
+          "title": "7월 문교부장관",
+          "evidenceDocumentIds": [
+            "d149-law-388"
+          ]
+        }
+      ],
+      "affiliations": [],
+      "eventIds": [
+        "evt-r149-cabinet-signature-comparison"
+      ],
+      "researchStatus": "IDENTIFIED",
+      "evidenceDocumentIds": [
+        "d149-law-388"
+      ],
+      "openLeads": [
+        "L149-cabinet-appointments"
+      ],
+      "historyDebtIds": [],
+      "note": "관보 서명란으로 재임 직책만 확인; 생몰·임명일·정당 미검증, 영문은 검색용 표기"
+    },
+    {
+      "id": "pol-r149-cabinet-14",
+      "name": "정준모",
+      "aliases": [
+        "鄭準模",
+        "Jeong Jun-mo"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "status": "UNVERIFIED"
+      },
+      "roles": [
+        {
+          "period": "1956",
+          "title": "7월 보건사회부장관",
+          "evidenceDocumentIds": [
+            "d149-law-388"
+          ]
+        }
+      ],
+      "affiliations": [],
+      "eventIds": [
+        "evt-r149-cabinet-signature-comparison"
+      ],
+      "researchStatus": "IDENTIFIED",
+      "evidenceDocumentIds": [
+        "d149-law-388"
+      ],
+      "openLeads": [
+        "L149-cabinet-appointments"
+      ],
+      "historyDebtIds": [],
+      "note": "관보 서명란으로 재임 직책만 확인; 생몰·임명일·정당 미검증, 영문은 검색용 표기"
+    },
+    {
+      "id": "pol-kim-min-1955-daegu",
+      "name": "김민",
+      "aliases": [
+        "金民",
+        "Kim Min"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "UNVERIFIED"
+      },
+      "roles": [
+        "국민회 경상북도 본부 총무차장"
+      ],
+      "affiliations": [
+        "국민회"
+      ],
+      "eventIds": [
+        "evt-r150-19550914-daegu-press-attack"
+      ],
+      "evidenceDocumentIds": [
+        "d150-kdemo-daegu",
+        "d150-aks-daegu",
+        "d150-daegu-city"
+      ],
+      "researchStatus": "IDENTIFIED",
+      "promotionReason": "독립 역할과 사건이 확인되는 후대 기관 해제; 생몰·원공직명부 미검증",
+      "openLeads": [
+        "L150-07",
+        "L150-08"
+      ],
+      "historyDebtIds": [
+        "HD-R150-02"
+      ],
+      "backbone": false,
+      "roleTimeline": [
+        {
+          "period": "1955-09",
+          "title": "국민회 경상북도 본부 총무차장",
+          "verification": "retrospective_reference_only"
+        }
+      ],
+      "connections": [
+        "evt-r150-19550914-daegu-press-attack"
+      ]
+    },
+    {
+      "id": "pol-hong-yeong-seop-1955-daegu",
+      "name": "홍영섭",
+      "aliases": [
+        "洪永燮",
+        "洪英燮",
+        "Hong Yeong-seop"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "UNVERIFIED"
+      },
+      "roles": [
+        "자유당 경상북도당 감찰부장"
+      ],
+      "affiliations": [
+        "자유당"
+      ],
+      "eventIds": [
+        "evt-r150-19550914-daegu-press-attack"
+      ],
+      "evidenceDocumentIds": [
+        "d150-aks-daegu",
+        "d150-daegu-city"
+      ],
+      "researchStatus": "IDENTIFIED",
+      "promotionReason": "독립 역할과 사건이 확인되는 후대 기관 해제; 생몰·원공직명부 미검증",
+      "openLeads": [
+        "L150-07",
+        "L150-08"
+      ],
+      "historyDebtIds": [
+        "HD-R150-02"
+      ],
+      "backbone": false,
+      "roleTimeline": [
+        {
+          "period": "1955-09",
+          "title": "자유당 경상북도당 감찰부장",
+          "verification": "retrospective_reference_only"
+        }
+      ],
+      "connections": [
+        "evt-r150-19550914-daegu-press-attack"
+      ]
+    },
+    {
+      "id": "pol-choi-chang-seop-1955-inquiry",
+      "name": "최창섭",
+      "aliases": [
+        "Choe Chang-seop"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "UNVERIFIED"
+      },
+      "roles": [
+        "대구매일신문 피습 국회 진상조사단장(후대 해제)"
+      ],
+      "affiliations": [
+        "국회 진상조사단(정당 미확인)"
+      ],
+      "eventIds": [
+        "evt-r150-19550920-assembly-inquiry"
+      ],
+      "evidenceDocumentIds": [
+        "d150-daegu-city"
+      ],
+      "researchStatus": "IDENTIFIED",
+      "promotionReason": "독립 역할과 사건이 확인되는 후대 기관 해제; 생몰·원공직명부 미검증",
+      "openLeads": [
+        "L150-07",
+        "L150-08"
+      ],
+      "historyDebtIds": [
+        "HD-R150-02"
+      ],
+      "backbone": false,
+      "roleTimeline": [
+        {
+          "period": "1955-09",
+          "title": "대구매일신문 피습 국회 진상조사단장(후대 해제)",
+          "verification": "retrospective_reference_only"
+        }
+      ],
+      "connections": [
+        "evt-r150-19550920-assembly-inquiry"
+      ]
+    },
+    {
+      "id": "pol-park-sun-seok-1955",
+      "name": "박순석",
+      "aliases": [
+        "Park Sun-seok"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "UNVERIFIED"
+      },
+      "roles": [
+        "자유당 소속 국회의원(후대 해제)"
+      ],
+      "affiliations": [
+        "자유당"
+      ],
+      "eventIds": [
+        "evt-r150-19550920-assembly-inquiry"
+      ],
+      "evidenceDocumentIds": [
+        "d150-daegu-city"
+      ],
+      "researchStatus": "IDENTIFIED",
+      "promotionReason": "독립 역할과 사건이 확인되는 후대 기관 해제; 생몰·원공직명부 미검증",
+      "openLeads": [
+        "L150-07",
+        "L150-08"
+      ],
+      "historyDebtIds": [
+        "HD-R150-02"
+      ],
+      "backbone": false,
+      "roleTimeline": [
+        {
+          "period": "1955-09",
+          "title": "자유당 소속 국회의원(후대 해제)",
+          "verification": "retrospective_reference_only"
+        }
+      ],
+      "connections": [
+        "evt-r150-19550920-assembly-inquiry"
+      ]
+    },
+    {
+      "id": "pol-chung-il-kwon",
+      "name": "정일권",
+      "aliases": [
+        "丁一權",
+        "Chung Il Kwon"
+      ],
+      "roles": [
+        "1955년 육군참모총장"
+      ],
+      "roleTimeline": [
+        {
+          "period": "1955-09",
+          "title": "ROK Army Chief of Staff",
+          "sourceDocumentIds": [
+            "d150-frus-86"
+          ]
+        }
+      ],
+      "affiliations": [
+        "대한민국 육군"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "not_reviewed"
+      },
+      "researchStatus": "IDENTIFIED",
+      "eventIds": [
+        "evt-r150-19550914-nnsc-field-observation",
+        "evt-r150-19551009-visit"
+      ],
+      "connections": [
+        "evt-r150-19550914-nnsc-field-observation",
+        "evt-r150-19551009-visit"
+      ],
+      "evidenceDocumentIds": [
+        "d150-frus-86",
+        "d150-frus-92"
+      ],
+      "openLeads": [
+        "L150-32"
+      ],
+      "historyDebtIds": [
+        "HD-R150-10"
+      ],
+      "promotionReason": "1955-09-14 FRUS 동시대 외교문서에서 직책과 발언 확인",
+      "backbone": false
+    },
+    {
+      "id": "pol-yang-yu-chan",
+      "name": "양유찬",
+      "aliases": [
+        "Yang Yu-chan",
+        "Yang You-chan"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "not_checked"
+      },
+      "roles": [
+        "1955-08-12 대한민국 정부를 대표하여 한미 합의의사록 수정 서명"
+      ],
+      "roleTimeline": [
+        {
+          "period": "1955-08-12",
+          "title": "ROK signatory of amendment to Agreed Minute",
+          "sourceDocumentIds": [
+            "d150-rok-treaty-1152"
+          ]
+        }
+      ],
+      "affiliations": [
+        "대한민국 정부"
+      ],
+      "eventIds": [
+        "evt-r150-19550812-exchange500"
+      ],
+      "connections": [
+        "evt-r150-19550812-exchange500"
+      ],
+      "evidenceDocumentIds": [
+        "d150-rok-treaty-1152"
+      ],
+      "researchStatus": "VERIFIED",
+      "promotionReason": "국가법령정보센터 원조약에 서명자 양유찬이 명시됨; 다른 직책·생몰은 미검증",
+      "openLeads": [
+        "L150-51"
+      ],
+      "historyDebtIds": [],
+      "backbone": false
+    },
+    {
+      "id": "pol-chang-myon",
+      "name": "장면",
+      "aliases": [
+        "張勉",
+        "Chang Myon",
+        "운석",
+        "雲石"
+      ],
+      "lifespan": {
+        "born": "1899-08-28",
+        "died": "1966-06-04",
+        "verification": "AKS biography"
+      },
+      "roles": [
+        "1949 초대 주미대사",
+        "1951 국무총리",
+        "1955 민주당 최고위원",
+        "1956 부통령",
+        "1960 국무총리"
+      ],
+      "affiliations": [
+        "민주당"
+      ],
+      "organizationIds": [
+        "org-r150-democratic-party-1955"
+      ],
+      "eventIds": [
+        "evt-r149-1955-democratic",
+        "evt-r150-19560328-democratic-nomination"
+      ],
+      "connections": [
+        "evt-r149-1955-democratic"
+      ],
+      "evidenceDocumentIds": [
+        "d150-aks-chang",
+        "d150-na-democratic-1955",
+        "d150-kdemo-nomination"
+      ],
+      "researchStatus": "VERIFIED",
+      "promotionReason": "국가기록원 정당지도부·AKS 인물해제·1956 후보지명 사진목록",
+      "openLeads": [
+        "L150-53"
+      ],
+      "historyDebtIds": [
+        "HD-R150-21"
+      ],
+      "backbone": false
+    },
+    {
+      "id": "pol-baek-nam-hun",
+      "name": "백남훈",
+      "aliases": [
+        "Baek Nam-hun",
+        "남훈",
+        "南勛",
+        "해온",
+        "解慍"
+      ],
+      "lifespan": {
+        "born": "1885",
+        "died": "1967",
+        "verification": "AKS year-only"
+      },
+      "roles": [
+        "1919 2·8독립운동 관련 활동",
+        "1955 민주당 최고위원",
+        "1960 제5대 민의원 의원"
+      ],
+      "affiliations": [
+        "민주당"
+      ],
+      "organizationIds": [
+        "org-r150-democratic-party-1955"
+      ],
+      "eventIds": [
+        "evt-r149-1955-democratic"
+      ],
+      "connections": [
+        "evt-r149-1955-democratic"
+      ],
+      "evidenceDocumentIds": [
+        "d150-aks-baek-nam-hun",
+        "d150-na-democratic-1955"
+      ],
+      "researchStatus": "VERIFIED",
+      "promotionReason": "국가기록원 정당 지도부·AKS 생애기록 교차",
+      "openLeads": [
+        "L150-54"
+      ],
+      "historyDebtIds": [],
+      "backbone": false
+    },
+    {
+      "id": "pol-go-jae-bong-1956",
+      "name": "고재봉",
+      "aliases": [
+        "Go Jae-bong"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "UNVERIFIED"
+      },
+      "roles": [
+        "1956 서울특별시장"
+      ],
+      "affiliations": [
+        "서울특별시"
+      ],
+      "eventIds": [
+        "evt-r150-19560813-seoul-election"
+      ],
+      "connections": [
+        "evt-r150-19560813-seoul-election"
+      ],
+      "evidenceDocumentIds": [
+        "d150-na-seoul-1956"
+      ],
+      "researchStatus": "IDENTIFIED",
+      "promotionReason": "공식 소장해제 또는 당대 외교보고에서 이름·직책/후보활동 확인, 생몰·후속행위 미검증",
+      "openLeads": [
+        "L150-55"
+      ],
+      "historyDebtIds": [],
+      "backbone": false
+    },
+    {
+      "id": "pol-song-chi-myeong-1956",
+      "name": "송치명",
+      "aliases": [
+        "Song Chi-myeong"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "UNVERIFIED"
+      },
+      "roles": [
+        "1956-08-13 서울 서대문구 시의원 선거 대한국민회 후보"
+      ],
+      "affiliations": [
+        "대한국민회"
+      ],
+      "eventIds": [
+        "evt-r150-19560813-seoul-election"
+      ],
+      "connections": [
+        "evt-r150-19560813-seoul-election"
+      ],
+      "evidenceDocumentIds": [
+        "d150-nec-song"
+      ],
+      "researchStatus": "IDENTIFIED_CANDIDATE",
+      "promotionReason": "공식 소장해제 또는 당대 외교보고에서 이름·직책/후보활동 확인, 생몰·후속행위 미검증",
+      "openLeads": [
+        "L150-55"
+      ],
+      "historyDebtIds": [],
+      "backbone": false
+    },
+    {
+      "id": "pol-yi-hyeong-geun-1956",
+      "name": "이형근",
+      "aliases": [
+        "Yi Hyong-kun"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "UNVERIFIED"
+      },
+      "roles": [
+        "1956-06 대한민국 육군 최고지휘관(미국 OIR 보고)"
+      ],
+      "affiliations": [
+        "대한민국 육군"
+      ],
+      "eventIds": [
+        "evt-r150-19561109-oir-succession"
+      ],
+      "connections": [
+        "evt-r150-19561109-oir-succession"
+      ],
+      "evidenceDocumentIds": [
+        "d150-oir-7371"
+      ],
+      "researchStatus": "IDENTIFIED_FOREIGN_OBSERVATION",
+      "promotionReason": "공식 소장해제 또는 당대 외교보고에서 이름·직책/후보활동 확인, 생몰·후속행위 미검증",
+      "openLeads": [
+        "L150-55"
+      ],
+      "historyDebtIds": [],
+      "backbone": false
     }
   ]
 }
