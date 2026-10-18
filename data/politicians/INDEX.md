@@ -106,3 +106,8 @@ See `data/politicians/run113-prewar-network.json` for 12 sourced profiles. No ca
 ## Run133 (2026-10-10): 1952-06-19 국회 조사단 보도 명단
 
 `data/politicians/run133-1952-inquiry-roster-actors.json`: 동아일보 1952-06-21 기사에 기록된 이시목·유덕천·백남식·한국원·오성환·김판석·유승준·서상국·이진수·김익로의 한자, 로마자, 당일 파별, 조사위원 명단 등장행위를 개별 candidate ID로 분리했다. **10명 모두 IDENTIFIED / 공식 의원원부 미확인**, canonical 승격하지 않음. 관련 event: `evt-r133-19520619-inquiry-roster`. 본문 원문은 `d131-0619-0020`, 원문 대조 및 역사부채는 run133 ledger 참조.
+
+
+## Run156 (2026-10-18): 1956 선거·군·경·정당 인물망
+
+`data/politicians/run156-1956-election-military-party-network.json`에 15명 기존 ID 심화/신규 candidate를 보존. 김종원·윤길중·조정환·김용식의 신규 candidate는 원임명/당직·한자·생몰 검증 전 canonical 승격 금지. 기존 이범석 두 ID는 병합하지 않음. 독립 사건·문서·주장: `data/events/run156-1956-institutional-actions.json`, `data/documents/run156-1956-election-aid-frus.json`, `data/claims/run156-1956-adversarial.json`.
