@@ -115,3 +115,7 @@ See `data/politicians/run113-prewar-network.json` for 12 sourced profiles. No ca
 - 원문 레지스트리: `data/documents/run156-frus1957-documents.json`; 사건/주장: `data/events/run156-1957-force-fiscal-judiciary.json`, `data/claims/run156-1957-defense-fiscal-adversarial.json`.
 
 - Run156 후속: 이기붕·조병옥 선거법 협상(후대 AKS 연구), 이기붕의 1957-11-04 제6군단 시찰 동행(KTV 소장설명). 원회의록·영상 미열람.
+
+
+## Run157 1958 정치인 독립 노드
+`data/politicians.json`에 김진만·김종철 IDENTIFIED 등록, 기존 김정렬·유재흥·백선엽·장면·이기붕·조봉암·조병옥·윤성순 8명 사건 연결. `data/politicians/run157-candidate-kim-tal-ho.json` 김달호는 한자·생몰·지역구 미확인 candidate로 보류. 선거 원당선자명부 미확보.
