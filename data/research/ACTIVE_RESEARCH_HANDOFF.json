@@ -1,11 +1,11 @@
 {
   "updated": "2026-10-26",
   "project": "대한민국 역대 정치인 실록",
-  "branchRef": "refs/heads/research/run156-20261026-frus1957-force-budget-actors",
+  "branchRef": "refs/heads/research/run158-20261026-election-local-autonomy-originals",
   "branchHeadResolution": "READ_LIVE_REF_NOT_CACHED_SHA",
-  "lastCompletedRun": 157,
-  "latestRunReport": "data/research/runs/2026-10-26-run157-ledger.json",
-  "latestLeadQueue": "data/research/lead-queues/run157-next.json",
+  "lastCompletedRun": 158,
+  "latestRunReport": "data/research/runs/2026-10-26-run158d-ledger.json",
+  "latestLeadQueue": "data/research/lead-queues/run158-next.json",
   "latestDocumentRegistry": [
     "data/documents/run126-councils.json",
     "data/documents/run126-labor.json",
@@ -18,7 +18,11 @@
     "data/documents/run150-party-person-biographies.json",
     "data/documents/run150-1956-local-election-oir.json",
     "data/documents/run156-frus1957-documents.json",
-    "data/documents/run157-frus1958-domestic-foreign.json"
+    "data/documents/run157-frus1958-domestic-foreign.json",
+    "data/documents/run158-1958-election-local-law.json",
+    "data/documents/run158b-frus1958-1960-244-297.json",
+    "data/documents/run158c-frus1960-298-336.json",
+    "data/documents/run158d-1960-constitutional-originals.json"
   ],
   "latestEventOverlay": [
     "data/events/run126-councils.json",
@@ -28,7 +32,10 @@
     "data/events/run145-action-graph.json",
     "data/events/run150-frus-economic-security.json",
     "data/events/run156-1957-force-fiscal-judiciary.json",
-    "data/events/run157-1958-actor-actions.json"
+    "data/events/run157-1958-actor-actions.json",
+    "data/events/run158-1958-election-local-law.json",
+    "data/events/run158b-1958-1960-us-rok-actions.json",
+    "data/events/run158c-1960-constitutional-transition.json"
   ],
   "latestClaimOverlay": [
     "data/claims/run126-councils.json",
@@ -38,7 +45,11 @@
     "data/claims/run145-claims.json",
     "data/claims/run150-frus-economic-security.json",
     "data/claims/run156-1957-defense-fiscal-adversarial.json",
-    "data/claims/run157-1958-conflict-graph.json"
+    "data/claims/run157-1958-conflict-graph.json",
+    "data/claims/run158-1958-law-election-adversarial.json",
+    "data/claims/run158b-1958-1960-adversarial.json",
+    "data/claims/run158c-1960-transition-adversarial.json",
+    "data/claims/run158d-1960-rollcall-consistency.json"
   ],
   "latestPoliticianOverlay": [
     "data/politicians/run126-councils.json",
@@ -46,7 +57,11 @@
     "data/politicians/run126-may29-31-candidates.json",
     "data/politicians/run145-korean-actor-deepening.json",
     "data/politicians.json",
-    "data/politicians/run157-candidate-kim-tal-ho.json"
+    "data/politicians/run157-candidate-kim-tal-ho.json",
+    "data/politicians/run158-1958-cabinet-legislative-candidates.json",
+    "data/politicians/run158b-1959-political-candidates.json",
+    "data/politicians/run158c-1960-transition-candidates.json",
+    "data/politicians/run158d-1960-debate-candidates.json"
   ],
   "latestDebtAddenda": [
     "data/research/history-debt/run126-councils.md",
@@ -61,9 +76,15 @@
     "data/annals/shin-tae-young.md",
     "data/annals/1955-frus-economic-diplomatic-run150.md",
     "data/annals/1955-treaty-rail-korean-crosscheck-run150.md",
-    "data/annals/1956-local-election-succession-run150.md"
+    "data/annals/1956-local-election-succession-run150.md",
+    "data/annals/kim-won-tae-run158.md",
+    "data/annals/1958-election-local-autonomy-run158.md",
+    "data/annals/rhee-1958-1960-frus-run158b.md",
+    "data/annals/huh-chung-run158c.md",
+    "data/annals/yun-posun-1960-seed.md",
+    "data/annals/1960-constitutional-rollcall-run158d.md"
   ],
-  "next": "L157-09/10 1958 election original counts; L157-01/03 Korean defense signed originals; L157-21~25 enacted budgets and export records",
+  "next": "L158D-05 Park Yong-il vs Park Yong-ik identity, L158D-06 Gazette original constitution, L158C-10/12 Aug presidential/PM rollcalls, L158B-01 signed Appendix B copy",
   "flootUntouched": true,
   "latestFileIndex": "data/research/runs/run110-file-index.json",
   "latestExtension": "data/research/runs/2026-10-09-run113-extension.json",
@@ -205,7 +226,7 @@
     "sourceAudit": "data/research/runs/2026-10-09-run126-final-ledger.json"
   },
   "updatedAt": "2026-10-11",
-  "latestRunBranch": "research/run147-20261011-cabinet-senate-originals",
+  "latestRunBranch": "research/run158-20261026-election-local-autonomy-originals",
   "latestRunCommit": "eb53d2d54f751c0abd06656d5b26add764aa755a",
   "latestCorrection": "data/research/runs/run129-correction-addendum.md",
   "nextPriority": [
@@ -256,7 +277,7 @@
     "cumulativeDirectlyOpened": 60,
     "weeklyFullReview": false
   },
-  "currentRun": 150,
+  "currentRun": 158,
   "latestResearchFocus": "1955 한미환율 조약1152 한국어 원문과 FRUS d78, 경제조정관 백두진·문경선 이종림 교차검증",
   "latestCommitPending": false,
   "weeklyFullReviewCompleted": false,
@@ -301,5 +322,6 @@
     "data/organizations/run150-seoul-council.json"
   ],
   "weeklyFullReview": false,
-  "weeklyReviewStatement": "역사부채 주간 전수조사 미실시"
+  "weeklyReviewStatement": "역사부채 주간 전수조사 미실시",
+  "latestAddendum": "158d"
 }

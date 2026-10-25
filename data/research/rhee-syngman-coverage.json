@@ -213,5 +213,125 @@
     ],
     "documentRegistry": "data/documents/run157-frus1958-domestic-foreign.json",
     "caution": "1958 경제·농정은 계획과 집행 구분; election statistics CONFLICTED"
+  },
+  "run158Addendum": {
+    "date": "2026-10-26",
+    "domains": [
+      "선거",
+      "입법",
+      "언론",
+      "지방행정",
+      "행정·인사",
+      "헌정질서"
+    ],
+    "documentIds": [
+      "doc158-gazette-469",
+      "doc158-gazette-470",
+      "doc158-gazette-501",
+      "doc158-nec-turnout"
+    ],
+    "eventIds": [
+      "evt-r158-04",
+      "evt-r158-05",
+      "evt-r158-07",
+      "evt-r158-12"
+    ],
+    "guardrail": "대통령 공포 행위와 국회 12/24 경호권 행사·의결·집행의 직접 명령을 구분",
+    "openLeads": [
+      "L158-05",
+      "L158-08",
+      "L158-23",
+      "L158-26"
+    ]
+  },
+  "run158bAddendum": {
+    "date": "2026-10-26",
+    "domains": [
+      "안보·국방",
+      "외교",
+      "재정·원조",
+      "산업·수출",
+      "선거",
+      "입법·정당",
+      "언론·공보",
+      "대통령 보좌·행정",
+      "사회·시위"
+    ],
+    "documentsOpened": 54,
+    "documentIds": [
+      "doc158b-frus-248",
+      "doc158b-frus-257",
+      "doc158b-frus-259",
+      "doc158b-frus-260",
+      "doc158b-frus-275",
+      "doc158b-frus-279",
+      "doc158b-frus-290",
+      "doc158b-frus-295"
+    ],
+    "guardrails": [
+      "미국 외교관 추정과 한국 정부 직접명령 분리",
+      "1958-11-29 합의서명 FRUS 편집주석, 원 서명사본 별도",
+      "1960 마산 초기 사상자 수치 미확인"
+    ]
+  },
+  "run158cAddendum": {
+    "date": "2026-10-26",
+    "domains": [
+      "헌정·개헌",
+      "국회·선거",
+      "대통령 인사·권한대행",
+      "경찰·계엄·사회",
+      "외교·한일관계",
+      "경제·재정",
+      "정당·의회",
+      "교육·학생운동"
+    ],
+    "documentCount": 39,
+    "primaryContemporaneous": 32,
+    "editorialNotes": 7,
+    "events": [
+      "evt-r158c-01",
+      "evt-r158c-02",
+      "evt-r158c-03",
+      "evt-r158c-04",
+      "evt-r158c-05",
+      "evt-r158c-06",
+      "evt-r158c-07",
+      "evt-r158c-08",
+      "evt-r158c-09",
+      "evt-r158c-10",
+      "evt-r158c-11",
+      "evt-r158c-12",
+      "evt-r158c-13",
+      "evt-r158c-14",
+      "evt-r158c-15",
+      "evt-r158c-16",
+      "evt-r158c-17",
+      "evt-r158c-18",
+      "evt-r158c-19",
+      "evt-r158c-20",
+      "evt-r158c-21"
+    ],
+    "guardrails": [
+      "4/19 대통령 승인 발언은 대사 보고, 구체 발포명령 미확보",
+      "FRUS 편집 해제의 6/15·8/11·8/19 표결은 국내 국회 원기록으로 교차 검증 필요",
+      "허정 권한대행과 윤보선 선출 대통령 구분"
+    ]
+  },
+  "run158dAddendum": {
+    "date": "2026-10-26",
+    "domain": "헌정·국회·개헌",
+    "originalDocumentIds": [
+      "doc158d-nih-assembly-36",
+      "doc158d-nih-assembly-37"
+    ],
+    "rollcallId": "rollcall-1960-06-15-third-constitutional-amendment",
+    "originalNamesStructured": 218,
+    "consistencyCases": 3,
+    "claimStatusChanged": "clm-r158c-06 OPEN→VERIFIED",
+    "openLeads": [
+      "L158D-05",
+      "L158D-06"
+    ]
   }
 }
