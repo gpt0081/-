@@ -119,3 +119,9 @@ See `data/politicians/run113-prewar-network.json` for 12 sourced profiles. No ca
 
 ## Run157 1958 정치인 독립 노드
 `data/politicians.json`에 김진만·김종철 IDENTIFIED 등록, 기존 김정렬·유재흥·백선엽·장면·이기붕·조봉암·조병옥·윤성순 8명 사건 연결. `data/politicians/run157-candidate-kim-tal-ho.json` 김달호는 한자·생몰·지역구 미확인 candidate로 보류. 선거 원당선자명부 미확보.
+
+
+## Run158 · 1958 선거법·지방자치법 원문
+- 김원태(1909) `pol-kim-won-tae-1909` ANNALS_ACTIVE: AKS 현대인 약전 + 관보 제2206호 내무위원장 절차 설명. 신라시대 동명이인 AKS E0010050과 병합 금지. `data/annals/kim-won-tae-run158.md`.
+- 박용일·이근직·정재설·손창환·문봉제 5명은 `data/politicians/run158-1958-cabinet-legislative-candidates.json`에서 생몰·한자 미확인 candidate로 보존. 1958-01-25 공포문 기명은 법안 개인 기초행위의 증거가 아니다.
+- 원문·사건·주장: `data/documents/run158-1958-election-local-law.json`, `data/events/run158-1958-election-local-law.json`, `data/claims/run158-1958-law-election-adversarial.json`.

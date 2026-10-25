@@ -9,10 +9,12 @@
         "doc157-kih"
       ],
       "contradictingEvidence": [
-        "doc157-frus-222"
+        "doc157-frus-222",
+        "doc158-nec-election",
+        "doc158-nih-election"
       ],
       "status": "CONFLICTED",
-      "finding": "국사편찬위원회 126/79/1/27; 집계시점과 무소속 입당 원부 미확인",
+      "finding": "1958-05-02 최초 당선 정당별 의석은 NEC·국사편찬위 각각 126/79/1/27로 일치. FRUS 137/79/17의 보고 기준시점·무소속 입당 등 변동 미확인, 원시점 차이를 별도 lead로 유지.",
       "reviewDate": "2026-10-26",
       "sourceFamilyLimit": "FRUS is one publication provenance even when distinct original authors; NIH/AKS independent only where specified"
     },
@@ -22,13 +24,23 @@
       "supportingEvidence": [
         "doc157-frus-222"
       ],
-      "contradictingEvidence": [],
-      "status": "OPEN",
-      "finding": "FRUS #222의 90.6%와 후대 87.8%는 차이가 있으나 87.8%의 원공식표를 직접 확인하지 못했다. CONFLICTED 확정이 아니라 OPEN 대조 과제.",
+      "contradictingEvidence": [
+        "doc158-nec-turnout"
+      ],
+      "status": "CONFLICTED",
+      "finding": "FRUS #222 90.6% vs 중앙선거관리위원회 공식 후대 공지 87.8%. 선관위의 87.8% 공식기관 자료 직접 열람으로 이전 OPEN 판정 보강. 동시대 원선거인수·투표자수 집계 미확보, 차이 원인은 CONFLICTED.",
       "reviewDate": "2026-10-26",
       "sourceFamilyLimit": "FRUS is one publication provenance even when distinct original authors; NIH/AKS independent only where specified",
       "insufficientEvidence": [
-        "87.8% appears in later election compendia and secondary accounts, but 1958 Korean original voter register was not directly opened; NIH timeline page cited here lists vote counts and seats, not turnout"
+        "1958 원선거인수·투표자수 및 FRUS 수치의 기준일/산식 미대조"
+      ],
+      "correctionHistory": [
+        {
+          "date": "2026-10-26",
+          "previousStatus": "OPEN",
+          "newStatus": "CONFLICTED",
+          "reason": "중앙선관위 공식 역대선거 투표율 공지(제4대 87.8%) 직접 열람. FRUS #222 90.6%와 서로 다른 수치이며 원집계표로 차이 원인을 확인하기 전까지 양쪽 수치 보존."
+        }
       ]
     },
     {
