@@ -1,6 +1,6 @@
 {
   "politicianId": "president-rhee-syngman",
-  "updatedAt": "2026-10-12",
+  "updatedAt": "2026-10-26",
   "purpose": "연구 범위의 빈칸을 추적하는 커버리지 표. 정치적 평가점수가 아니다.",
   "statuses": {
     "seeded": "기본 사건·출처 확보",
@@ -162,6 +162,16 @@
       "domain": "1950 국채·복표·청년단·귀속재산 행정",
       "status": "structured",
       "notes": "이승만 04-21 기자문답 원문 전사, 시행령·단속 실적 별도 미확인"
+    },
+    {
+      "domain": "1957 한미 군현대화·국군감축·재정 협상 run156",
+      "status": "deep",
+      "notes": "FRUS 213~265 전사 53건 직접 열람(원문 50·편집주석3), 한국 정부 조건부 입장·김정렬 비망록·미국 감군 기준 차이·1958 배치 예정 구분. 한국 국방부/재무부 원본 미확보로 실제 집행은 OPEN."
+    },
+    {
+      "domain": "1957~1958 선거법 협상",
+      "status": "secondary-only",
+      "notes": "AKS 후대 연구 직접 열람, 국회 본회의 원문 미열람. 선거공영제·참관인 확대·언론조항 상반 효과 구분."
     }
   ],
   "nextPriority": [
@@ -172,5 +182,36 @@
     "4·19 경찰 실탄 발포의 기관별 명령시각과 대통령 보고 연결",
     "진보당 대통령 직접개입",
     "경향신문 경무대 결재"
-  ]
+  ],
+  "run157Addendum": {
+    "date": "2026-10-26",
+    "domains": [
+      "국방",
+      "재정",
+      "행정",
+      "선거",
+      "사법",
+      "외교",
+      "농정",
+      "언론"
+    ],
+    "eventIds": [
+      "evt-r157-01",
+      "evt-r157-02",
+      "evt-r157-03",
+      "evt-r157-04",
+      "evt-r157-05",
+      "evt-r157-06",
+      "evt-r157-07",
+      "evt-r157-08",
+      "evt-r157-09",
+      "evt-r157-10",
+      "evt-r157-11",
+      "evt-r157-12",
+      "evt-r157-13",
+      "evt-r157-14"
+    ],
+    "documentRegistry": "data/documents/run157-frus1958-domestic-foreign.json",
+    "caution": "1958 경제·농정은 계획과 집행 구분; election statistics CONFLICTED"
+  }
 }

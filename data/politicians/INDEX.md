@@ -106,3 +106,16 @@ See `data/politicians/run113-prewar-network.json` for 12 sourced profiles. No ca
 ## Run133 (2026-10-10): 1952-06-19 국회 조사단 보도 명단
 
 `data/politicians/run133-1952-inquiry-roster-actors.json`: 동아일보 1952-06-21 기사에 기록된 이시목·유덕천·백남식·한국원·오성환·김판석·유승준·서상국·이진수·김익로의 한자, 로마자, 당일 파별, 조사위원 명단 등장행위를 개별 candidate ID로 분리했다. **10명 모두 IDENTIFIED / 공식 의원원부 미확인**, canonical 승격하지 않음. 관련 event: `evt-r133-19520619-inquiry-roster`. 본문 원문은 `d131-0619-0020`, 원문 대조 및 역사부채는 run133 ledger 참조.
+
+
+## 2026-10-26 Run156: 1957 국방·재정·정당·사법 인물
+- 정식 registry 신규 5명: `pol-kim-jeong-ryeol-1917`, `pol-yu-jae-heung-1921`, `pol-cho-jeong-hwan-1892`, `pol-lee-han-bin-1957`, 기존 run154 candidate `pol-r154-kim-tong-hyon`. VERIFIED 3명(원문·인물해제 대조), IDENTIFIED 2명(생몰·원임명장 미확보).
+- 기존 심화 5명: 김용우, 백선엽, 양유찬, 김현철, 장면. 중복 stable ID 생성하지 않음.
+- 독립 annals: `data/annals/kim-jeong-ryeol-run156.md`, `data/annals/yu-jae-heung-run156.md`.
+- 원문 레지스트리: `data/documents/run156-frus1957-documents.json`; 사건/주장: `data/events/run156-1957-force-fiscal-judiciary.json`, `data/claims/run156-1957-defense-fiscal-adversarial.json`.
+
+- Run156 후속: 이기붕·조병옥 선거법 협상(후대 AKS 연구), 이기붕의 1957-11-04 제6군단 시찰 동행(KTV 소장설명). 원회의록·영상 미열람.
+
+
+## Run157 1958 정치인 독립 노드
+`data/politicians.json`에 김진만·김종철 IDENTIFIED 등록, 기존 김정렬·유재흥·백선엽·장면·이기붕·조봉암·조병옥·윤성순 8명 사건 연결. `data/politicians/run157-candidate-kim-tal-ho.json` 김달호는 한자·생몰·지역구 미확인 candidate로 보류. 선거 원당선자명부 미확보.

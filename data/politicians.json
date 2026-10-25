@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-12",
+  "updatedAt": "2026-10-26",
   "purpose": "대한민국 정치인 실록의 인물 registry. 대통령은 초기 backbone일 뿐이며 모든 인물은 독립된 정치인 노드로 취급한다.",
   "politicians": [
     {
@@ -34,7 +34,9 @@
         "evt-r150-19550811-nnsc-meeting",
         "evt-r150-19550903-rhee-letter",
         "evt-r150-19550914-nnsc-field-observation",
-        "evt-r150-19551009-visit"
+        "evt-r150-19551009-visit",
+        "evt-r156-06",
+        "evt-r156-04"
       ],
       "evidenceDocumentIds": [
         "d114b-04",
@@ -85,7 +87,9 @@
         "evt-r150-19550811-nnsc-meeting",
         "evt-r150-19550903-rhee-letter",
         "evt-r150-19550914-nnsc-field-observation",
-        "evt-r150-19551009-visit"
+        "evt-r150-19551009-visit",
+        "evt-r156-06",
+        "evt-r156-04"
       ]
     },
     {
@@ -106,7 +110,10 @@
       "connections": [
         "evt-1960-315-election",
         "evt-r150-19551007-yi-hoover",
-        "evt-r150-19551009-visit"
+        "evt-r150-19551009-visit",
+        "evt-r156-16",
+        "evt-r156-17",
+        "evt-r156-18"
       ],
       "evidenceCoverage": {
         "documentIds": [
@@ -121,7 +128,12 @@
         "evt-r148-nov29",
         "evt-r150-19560429-poster-directive",
         "evt-r150-19551007-yi-hoover",
-        "evt-r150-19551009-visit"
+        "evt-r150-19551009-visit",
+        "evt-r156-16",
+        "evt-r156-17",
+        "evt-r156-18",
+        "evt-r157-06",
+        "evt-r157-09"
       ],
       "status": "IDENTIFIED",
       "promotionReason": "원문 확인: 9월 개헌 대표 제안 및 11월29일 의장 표결",
@@ -130,7 +142,11 @@
       ],
       "evidenceDocumentIds": [
         "d150-nec-poster",
-        "d150-frus-92"
+        "d150-frus-92",
+        "doc156-ktv-19571104",
+        "doc156-aks-election-law",
+        "doc157-frus-222",
+        "doc157-frus-226"
       ],
       "researchNotes": [
         {
@@ -140,7 +156,17 @@
           "documentIds": [
             "d150-nec-poster"
           ]
-        }
+        },
+        {
+          "date": "2026-10-26",
+          "run": 156,
+          "note": "1957 대한뉴스 소장설명에 민의원의장 동행, 1957~1958 선거법 협상 주요인물(후대 연구). 영상·원회의록 미열람.",
+          "documentIds": [
+            "doc156-ktv-19571104",
+            "doc156-aks-election-law"
+          ]
+        },
+        "run157 1958년 Fourth National Assembly election and disputed seat tallies: original US transcript or AKS source; do not infer direct presidential orders"
       ]
     },
     {
@@ -375,7 +401,9 @@
         }
       ],
       "evidenceDocumentIds": [
-        "d143-110040"
+        "d143-110040",
+        "doc157-frus-211",
+        "doc157-frus-226"
       ],
       "researchNotes": [
         {
@@ -385,7 +413,12 @@
           "documentIds": [
             "d143-110040"
           ]
-        }
+        },
+        "run157 1958년 Cho Bong-am and Progressive Party arrests: original US transcript or AKS source; do not infer direct presidential orders"
+      ],
+      "eventIds": [
+        "evt-r157-05",
+        "evt-r157-09"
       ]
     },
     {
@@ -1660,9 +1693,158 @@
       "researchStatus": "IDENTIFIED",
       "backbone": false,
       "connections": [
-        "evt-1953-us-rok-mutual-defense-negotiation"
+        "evt-1953-us-rok-mutual-defense-negotiation",
+        "evt-r156-08"
       ],
-      "researchNotes": "국가기록원 기관연혁에서 1952-07-23~1954-02-13 육군참모총장 재임 확인. 1953-08-06 경제·군사원조/한국군 회의 참가 및 1953-05 외무부의 기고문 전달 지시로 군사·외교 공론축 연결 확인."
+      "researchNotes": [
+        "국",
+        "가",
+        "기",
+        "록",
+        "원",
+        " ",
+        "기",
+        "관",
+        "연",
+        "혁",
+        "에",
+        "서",
+        " ",
+        "1",
+        "9",
+        "5",
+        "2",
+        "-",
+        "0",
+        "7",
+        "-",
+        "2",
+        "3",
+        "~",
+        "1",
+        "9",
+        "5",
+        "4",
+        "-",
+        "0",
+        "2",
+        "-",
+        "1",
+        "3",
+        " ",
+        "육",
+        "군",
+        "참",
+        "모",
+        "총",
+        "장",
+        " ",
+        "재",
+        "임",
+        " ",
+        "확",
+        "인",
+        ".",
+        " ",
+        "1",
+        "9",
+        "5",
+        "3",
+        "-",
+        "0",
+        "8",
+        "-",
+        "0",
+        "6",
+        " ",
+        "경",
+        "제",
+        "·",
+        "군",
+        "사",
+        "원",
+        "조",
+        "/",
+        "한",
+        "국",
+        "군",
+        " ",
+        "회",
+        "의",
+        " ",
+        "참",
+        "가",
+        " ",
+        "및",
+        " ",
+        "1",
+        "9",
+        "5",
+        "3",
+        "-",
+        "0",
+        "5",
+        " ",
+        "외",
+        "무",
+        "부",
+        "의",
+        " ",
+        "기",
+        "고",
+        "문",
+        " ",
+        "전",
+        "달",
+        " ",
+        "지",
+        "시",
+        "로",
+        " ",
+        "군",
+        "사",
+        "·",
+        "외",
+        "교",
+        " ",
+        "공",
+        "론",
+        "축",
+        " ",
+        "연",
+        "결",
+        " ",
+        "확",
+        "인",
+        ".",
+        {
+          "date": "2026-10-26",
+          "run": 156,
+          "note": "1957-08-09 군감축 협의에 육군참모총장으로 참석; 12월28일 협의에서는 관찰자 기록상 발언 없음",
+          "documentIds": [
+            "doc156-frus-242",
+            "doc156-frus-265"
+          ]
+        },
+        "run157 1958년 ROK troop cuts: Kim Jeong-ryeol negotiates, Rhee refuses: original US transcript or AKS source; do not infer direct presidential orders"
+      ],
+      "evidenceDocumentIds": [
+        "doc156-frus-242",
+        "doc156-frus-265",
+        "doc157-frus-206",
+        "doc157-frus-214",
+        "doc157-frus-217",
+        "doc157-frus-235"
+      ],
+      "openLeads": [
+        "L156-09"
+      ],
+      "eventIds": [
+        "evt-r156-08",
+        "evt-r157-01",
+        "evt-r157-03",
+        "evt-r157-04"
+      ]
     },
     {
       "id": "pol-park-ok-kyu",
@@ -2133,13 +2315,17 @@
       "researchStatus": "DISCOVERED",
       "promotionReason": "동시대 기사에서 정당 추천 행위 확인; 원당무회의록과 인물등록 검증 전 DISCOVERED 유지.",
       "connections": [
-        "evt-1950-0421-acting-pm-parliament-dispute"
+        "evt-1950-0421-acting-pm-parliament-dispute",
+        "evt-r156-17",
+        "evt-r156-18"
       ],
       "evidenceDocumentIds": [
         "d114-seoul-19500422",
         "d143-110040",
         "doc145-kh-1953_06_20_0030",
-        "d150-na-democratic-1955"
+        "d150-na-democratic-1955",
+        "doc156-aks-election-law",
+        "doc157-frus-222"
       ],
       "openLeads": [
         "L114-12"
@@ -2161,13 +2347,25 @@
           "documentIds": [
             "doc145-kh-1953_06_20_0030"
           ]
-        }
+        },
+        {
+          "date": "2026-10-26",
+          "run": 156,
+          "note": "1957~1958 민주당 선거법 협상 주요인물이라는 AKS 연구; 원회의록 미열람.",
+          "documentIds": [
+            "doc156-aks-election-law"
+          ]
+        },
+        "run157 1958년 Fourth National Assembly election and disputed seat tallies: original US transcript or AKS source; do not infer direct presidential orders"
       ],
       "organizationIds": [
         "org-r150-democratic-party-1955"
       ],
       "eventIds": [
-        "evt-r149-1955-democratic"
+        "evt-r149-1955-democratic",
+        "evt-r156-17",
+        "evt-r156-18",
+        "evt-r157-06"
       ]
     },
     {
@@ -3536,7 +3734,8 @@
       },
       "eventIds": [
         "evt-r148-sept8",
-        "evt-r148-nov29"
+        "evt-r148-nov29",
+        "evt-r157-06"
       ],
       "status": "IDENTIFIED",
       "researchStatus": "IDENTIFIED",
@@ -3552,7 +3751,14 @@
         "국회 제2·3대 의원명부·중앙선관위 당선원부에서 윤성순의 생몰·선거구·정당·이명·동명이인 검증"
       ],
       "historyDebt": [],
-      "promotionReason": "동시대 원속기록/관보에서 직책과 특정 행위가 확인됨; 생몰 및 동일인 확인은 미완료."
+      "promotionReason": "동시대 원속기록/관보에서 직책과 특정 행위가 확인됨; 생몰 및 동일인 확인은 미완료.",
+      "evidenceDocumentIds": [
+        "doc157-frus-222",
+        "doc157-aks-yun"
+      ],
+      "researchNotes": [
+        "run157 1958년 Fourth National Assembly election and disputed seat tallies: original US transcript or AKS source; do not infer direct presidential orders"
+      ]
     },
     {
       "id": "pol-r148-park-yeong-chul",
@@ -3939,17 +4145,34 @@
       ],
       "affiliations": [],
       "eventIds": [
-        "evt-r149-cabinet-signature-comparison"
+        "evt-r149-cabinet-signature-comparison",
+        "evt-r156-10"
       ],
       "researchStatus": "IDENTIFIED",
       "evidenceDocumentIds": [
-        "d149-law-384"
+        "d149-law-384",
+        "doc156-frus-249"
       ],
       "openLeads": [
-        "L149-cabinet-appointments"
+        "L149-cabinet-appointments",
+        "L156-19",
+        "L156-20"
       ],
       "historyDebtIds": [],
-      "note": "관보 서명란으로 재임 직책만 확인; 생몰·임명일·정당 미검증, 영문은 검색용 표기"
+      "note": "관보 서명란으로 재임 직책만 확인; 생몰·임명일·정당 미검증, 영문은 검색용 표기",
+      "researchNotes": [
+        {
+          "date": "2026-10-26",
+          "run": 156,
+          "note": "1957-09-21 김현철 재무부장관이 안정화·원조감액의 영향 설명. 20%는 미국 대외원조 전체 의회 삭감 설명",
+          "documentIds": [
+            "doc156-frus-249"
+          ]
+        }
+      ],
+      "connections": [
+        "evt-r156-10"
+      ]
     },
     {
       "id": "pol-r149-cabinet-03",
@@ -4294,17 +4517,33 @@
       ],
       "affiliations": [],
       "eventIds": [
-        "evt-r149-cabinet-signature-comparison"
+        "evt-r149-cabinet-signature-comparison",
+        "evt-r156-02"
       ],
       "researchStatus": "IDENTIFIED",
       "evidenceDocumentIds": [
-        "d149-law-388"
+        "d149-law-388",
+        "doc156-frus-215"
       ],
       "openLeads": [
-        "L149-cabinet-appointments"
+        "L149-cabinet-appointments",
+        "L156-01"
       ],
       "historyDebtIds": [],
-      "note": "관보 서명란으로 재임 직책만 확인; 생몰·임명일·정당 미검증, 영문은 검색용 표기"
+      "note": "관보 서명란으로 재임 직책만 확인; 생몰·임명일·정당 미검증, 영문은 검색용 표기",
+      "researchNotes": [
+        {
+          "date": "2026-10-26",
+          "run": 156,
+          "note": "1957-05-15 국방장관 김용우의 덜레스 서한은 FRUS 편집주석의 원문 소장처 단서이며 원서한 자체 미열람",
+          "documentIds": [
+            "doc156-frus-215"
+          ]
+        }
+      ],
+      "connections": [
+        "evt-r156-02"
+      ]
     },
     {
       "id": "pol-r149-cabinet-13",
@@ -4641,15 +4880,29 @@
         "evt-r150-19550812-exchange500"
       ],
       "evidenceDocumentIds": [
-        "d150-rok-treaty-1152"
+        "d150-rok-treaty-1152",
+        "doc156-frus-235",
+        "doc156-frus-229"
       ],
       "researchStatus": "VERIFIED",
       "promotionReason": "국가법령정보센터 원조약에 서명자 양유찬이 명시됨; 다른 직책·생몰은 미검증",
       "openLeads": [
-        "L150-51"
+        "L150-51",
+        "L156-33"
       ],
       "historyDebtIds": [],
-      "backbone": false
+      "backbone": false,
+      "researchNotes": [
+        {
+          "date": "2026-10-26",
+          "run": 156,
+          "note": "1957-07-26 양유찬 주미대사의 대미 원조·감군 우려 전달, 6월 말 미국측 군지휘관의 정보전달 경로 추정은 별도",
+          "documentIds": [
+            "doc156-frus-235",
+            "doc156-frus-229"
+          ]
+        }
+      ]
     },
     {
       "id": "pol-chang-myon",
@@ -4680,25 +4933,44 @@
       ],
       "eventIds": [
         "evt-r149-1955-democratic",
-        "evt-r150-19560328-democratic-nomination"
+        "evt-r150-19560328-democratic-nomination",
+        "evt-r156-09",
+        "evt-r157-08"
       ],
       "connections": [
-        "evt-r149-1955-democratic"
+        "evt-r149-1955-democratic",
+        "evt-r156-09"
       ],
       "evidenceDocumentIds": [
         "d150-aks-chang",
         "d150-na-democratic-1955",
-        "d150-kdemo-nomination"
+        "d150-kdemo-nomination",
+        "doc156-frus-248",
+        "doc156-aks-dem",
+        "doc157-frus-228"
       ],
       "researchStatus": "VERIFIED",
       "promotionReason": "국가기록원 정당지도부·AKS 인물해제·1956 후보지명 사진목록",
       "openLeads": [
-        "L150-53"
+        "L150-53",
+        "L156-22"
       ],
       "historyDebtIds": [
         "HD-R150-21"
       ],
-      "backbone": false
+      "backbone": false,
+      "researchNotes": [
+        {
+          "date": "2026-10-26",
+          "run": 156,
+          "note": "1957-09-18 부통령 장면이 미국 측에 정부 비판과 별도의 건설적 정당정책 문서를 전달했다는 미국측 기록",
+          "documentIds": [
+            "doc156-frus-248",
+            "doc156-aks-dem"
+          ]
+        },
+        "run157 1958년 Chang Myon and Dowling disagree on election irregularities: original US transcript or AKS source; do not infer direct presidential orders"
+      ]
     },
     {
       "id": "pol-baek-nam-hun",
@@ -4845,6 +5117,378 @@
       ],
       "historyDebtIds": [],
       "backbone": false
+    },
+    {
+      "id": "pol-kim-jeong-ryeol-1917",
+      "name": "김정렬",
+      "aliases": [
+        "金貞烈",
+        "Kim Chung-yul",
+        "Kim Jeong-ryeol",
+        "Kim Jong-ryul"
+      ],
+      "lifespan": {
+        "born": "1917",
+        "died": "1992",
+        "verification": "AKS year only"
+      },
+      "roles": [
+        {
+          "title": "공군참모총장",
+          "period": "1949~1957",
+          "evidenceIds": [
+            "doc156-aks-kim"
+          ]
+        },
+        {
+          "title": "국방부장관",
+          "period": "1957~1960",
+          "evidenceIds": [
+            "doc156-frus-233",
+            "doc156-frus-253",
+            "doc156-aks-kim"
+          ]
+        }
+      ],
+      "researchStatus": "VERIFIED",
+      "evidenceDocumentIds": [
+        "doc156-frus-233",
+        "doc156-frus-242",
+        "doc156-frus-253",
+        "doc156-frus-264",
+        "doc156-aks-kim",
+        "doc156-ktv-19571104",
+        "doc157-frus-205",
+        "doc157-frus-206",
+        "doc157-frus-214",
+        "doc157-frus-224",
+        "doc157-frus-234",
+        "doc157-frus-235",
+        "doc157-frus-243"
+      ],
+      "openLeads": [
+        "L156-09",
+        "L156-10",
+        "L156-36"
+      ],
+      "annalsFile": "data/annals/kim-jeong-ryeol-run156.md",
+      "promotionReason": "1957 국방부장관으로 한국측 군감축 역제안을 전달한 동시대 전문과 AKS 인물 해제를 직접 대조; 한국 원서명은 미확보",
+      "backbone": false,
+      "connections": [
+        "evt-r156-08",
+        "evt-r156-11",
+        "evt-r156-16"
+      ],
+      "eventIds": [
+        "evt-r156-08",
+        "evt-r156-11",
+        "evt-r156-16",
+        "evt-r157-01",
+        "evt-r157-03",
+        "evt-r157-07",
+        "evt-r157-10",
+        "evt-r157-13"
+      ],
+      "evidenceCoverage": {
+        "reviewDate": "2026-10-26",
+        "documentIds": [
+          "doc156-frus-233",
+          "doc156-frus-242",
+          "doc156-frus-253",
+          "doc156-frus-264",
+          "doc156-aks-kim"
+        ]
+      },
+      "researchNotes": [
+        {
+          "date": "2026-10-26",
+          "run": 156,
+          "note": "1957-11-04 국방부장관으로 이승만 제6군단 시찰 동행(KTV 소장설명, 영상 미시청).",
+          "documentIds": [
+            "doc156-ktv-19571104"
+          ]
+        },
+        "run157 1958년 ROK troop cuts: Kim Jeong-ryeol negotiates, Rhee refuses: original US transcript or AKS source; do not infer direct presidential orders"
+      ]
+    },
+    {
+      "id": "pol-yu-jae-heung-1921",
+      "name": "유재흥",
+      "aliases": [
+        "劉載興",
+        "Yu Jae-hung",
+        "Jae Hung Yu",
+        "Yoo Jae-heung"
+      ],
+      "lifespan": {
+        "born": "1921",
+        "died": "2011",
+        "verification": "AKS year only"
+      },
+      "roles": [
+        {
+          "title": "연합참모본부총장",
+          "period": "1957",
+          "evidenceIds": [
+            "doc156-frus-233",
+            "doc156-frus-242",
+            "doc156-aks-yu"
+          ]
+        },
+        {
+          "title": "국방부장관",
+          "period": "1971~1973",
+          "evidenceIds": [
+            "doc156-aks-yu"
+          ]
+        }
+      ],
+      "researchStatus": "VERIFIED",
+      "evidenceDocumentIds": [
+        "doc156-frus-233",
+        "doc156-frus-242",
+        "doc156-aks-yu",
+        "doc157-frus-206",
+        "doc157-frus-214"
+      ],
+      "openLeads": [
+        "L156-09",
+        "L156-40"
+      ],
+      "annalsFile": "data/annals/yu-jae-heung-run156.md",
+      "promotionReason": "1957-07-22·08-09 동시대 미군전문과 AKS 연합참모본부총장 이력 대조; 독립 정치행위 아닌 군정책 참여로 기록",
+      "backbone": false,
+      "connections": [
+        "evt-r156-08"
+      ],
+      "eventIds": [
+        "evt-r156-08",
+        "evt-r157-03"
+      ],
+      "evidenceCoverage": {
+        "reviewDate": "2026-10-26",
+        "documentIds": [
+          "doc156-frus-233",
+          "doc156-frus-242",
+          "doc156-aks-yu"
+        ]
+      },
+      "researchNotes": [
+        "run157 1958년 Kim, Yu and Paik discuss 18-division compromise: original US transcript or AKS source; do not infer direct presidential orders"
+      ]
+    },
+    {
+      "id": "pol-cho-jeong-hwan-1892",
+      "name": "조정환",
+      "aliases": [
+        "曺正煥",
+        "Cho Chong-hwan",
+        "Cho Chung-hwan",
+        "Cho Jeong-hwan"
+      ],
+      "lifespan": {
+        "born": "1892",
+        "died": "1967",
+        "verification": "AKS year only"
+      },
+      "roles": [
+        {
+          "title": "외무부차관",
+          "period": "1949 이후",
+          "evidenceIds": [
+            "doc156-aks-cho"
+          ]
+        },
+        {
+          "title": "외무부장관",
+          "period": "1956~1959",
+          "evidenceIds": [
+            "doc156-frus-236",
+            "doc156-aks-cho"
+          ]
+        }
+      ],
+      "researchStatus": "VERIFIED",
+      "evidenceDocumentIds": [
+        "doc156-frus-236",
+        "doc156-aks-cho"
+      ],
+      "openLeads": [
+        "L156-32"
+      ],
+      "promotionReason": "1957-07-27 기자회견 동시대 전문과 AKS 생몰·공직 이력 대조",
+      "backbone": false,
+      "connections": [],
+      "eventIds": [],
+      "evidenceCoverage": {
+        "reviewDate": "2026-10-26",
+        "documentIds": [
+          "doc156-frus-236",
+          "doc156-aks-cho"
+        ]
+      }
+    },
+    {
+      "id": "pol-lee-han-bin-1957",
+      "name": "이한빈",
+      "aliases": [
+        "Lee Hahn-bin",
+        "Lee Han-bin"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "not_checked"
+      },
+      "roles": [
+        {
+          "title": "재무부 관료, 1957-09-21 방미 재정협의 참석",
+          "period": "1957-09-21",
+          "evidenceIds": [
+            "doc156-frus-249"
+          ]
+        }
+      ],
+      "researchStatus": "IDENTIFIED",
+      "evidenceDocumentIds": [
+        "doc156-frus-249"
+      ],
+      "openLeads": [
+        "L156-19"
+      ],
+      "promotionReason": "동시대 1957-09-21 재무부 대표단 명부에서 직접 실명 확인; 한자·생몰·정식 직급 미확보",
+      "backbone": false,
+      "connections": [
+        "evt-r156-10"
+      ],
+      "eventIds": [
+        "evt-r156-10"
+      ],
+      "evidenceCoverage": {
+        "reviewDate": "2026-10-26",
+        "documentIds": [
+          "doc156-frus-249"
+        ]
+      }
+    },
+    {
+      "id": "pol-r154-kim-tong-hyon",
+      "name": "김동현",
+      "aliases": [
+        "Kim Tong-hyon",
+        "Kim Dong-hyeon"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "unverified"
+      },
+      "roles": [
+        {
+          "title": "대법원장 제청 후보",
+          "period": "1957-11~1958-01",
+          "evidenceIds": [
+            "doc156-nih-19580117",
+            "d154-us1957-annual"
+          ]
+        }
+      ],
+      "researchStatus": "IDENTIFIED",
+      "evidenceDocumentIds": [
+        "doc156-nih-19580117",
+        "d154-us1957-annual"
+      ],
+      "openLeads": [
+        "L156-26",
+        "L156-27"
+      ],
+      "promotionReason": "기존 run154 candidate를 독립 canonical registry로 연결. 1958-01-17 국사편찬위 연표와 1957 미대사관 관찰은 있으나 원제청·거부통지 원문 없어 VERIFIED 아님",
+      "backbone": false,
+      "connections": [],
+      "eventIds": [],
+      "evidenceCoverage": {
+        "reviewDate": "2026-10-26",
+        "documentIds": [
+          "doc156-nih-19580117",
+          "d154-us1957-annual"
+        ]
+      }
+    },
+    {
+      "id": "pol-kim-jin-man-1918",
+      "name": "김진만",
+      "aliases": [
+        "金振晩",
+        "Kim Jin-man",
+        "동곡",
+        "東谷"
+      ],
+      "lifespan": "1918-07-31/2006-05-10",
+      "roles": [
+        {
+          "period": "1958",
+          "title": "1958 제4대 자유당 민의원",
+          "evidenceDocumentIds": [
+            "doc157-aks-jinman"
+          ]
+        }
+      ],
+      "researchStatus": "IDENTIFIED",
+      "evidenceDocumentIds": [
+        "doc157-aks-jinman"
+      ],
+      "eventIds": [
+        "evt-r157-06"
+      ],
+      "openLeads": [
+        "L157-19"
+      ],
+      "historyDebtIds": [
+        "HD-R157-02"
+      ],
+      "promotionReason": "AKS direct biographical text; first-hand election register still needed",
+      "backbone": false,
+      "connections": [
+        "pol-rhee-syngman"
+      ]
+    },
+    {
+      "id": "pol-kim-jong-cheol-1920",
+      "name": "김종철",
+      "aliases": [
+        "金鍾哲",
+        "Kim Jong-cheol",
+        "백암",
+        "白巖"
+      ],
+      "lifespan": "1920/1986",
+      "roles": [
+        {
+          "period": "1958",
+          "title": "1958 제4대 천안 민의원; 당시 당적 원부 미대조",
+          "evidenceDocumentIds": [
+            "doc157-aks-jongcheol"
+          ]
+        }
+      ],
+      "researchStatus": "IDENTIFIED",
+      "evidenceDocumentIds": [
+        "doc157-aks-jongcheol"
+      ],
+      "eventIds": [
+        "evt-r157-06"
+      ],
+      "openLeads": [
+        "L157-19"
+      ],
+      "historyDebtIds": [
+        "HD-R157-02"
+      ],
+      "promotionReason": "AKS direct biographical text; first-hand election register still needed",
+      "backbone": false,
+      "connections": [
+        "pol-rhee-syngman"
+      ]
     }
   ]
 }
