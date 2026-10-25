@@ -75,5 +75,20 @@
     "data/annals/yu-jae-heung-run156.md",
     "data/research/runs/2026-10-26-run156-ledger.json"
   ],
-  "commitSha": "set_by_git_history"
+  "commitSha": "set_by_git_history",
+  "correctionHistory": [
+    {
+      "date": "2026-10-26",
+      "field": "actorIds",
+      "eventIds": [
+        "evt-r156-04",
+        "evt-r156-09"
+      ],
+      "problem": "annotation attached to stable IDs",
+      "fix": "normalized actor ID and retained role explanation in actionNotes"
+    }
+  ],
+  "commitShasKnownAtLedgerWrite": [
+    "ba6dab4e68497209c2cf5ff3324dda5bdb1b88e9"
+  ]
 }
