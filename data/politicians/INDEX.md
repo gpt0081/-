@@ -125,3 +125,9 @@ See `data/politicians/run113-prewar-network.json` for 12 sourced profiles. No ca
 - 김원태(1909) `pol-kim-won-tae-1909` ANNALS_ACTIVE: AKS 현대인 약전 + 관보 제2206호 내무위원장 절차 설명. 신라시대 동명이인 AKS E0010050과 병합 금지. `data/annals/kim-won-tae-run158.md`.
 - 박용일·이근직·정재설·손창환·문봉제 5명은 `data/politicians/run158-1958-cabinet-legislative-candidates.json`에서 생몰·한자 미확인 candidate로 보존. 1958-01-25 공포문 기명은 법안 개인 기초행위의 증거가 아니다.
 - 원문·사건·주장: `data/documents/run158-1958-election-local-law.json`, `data/events/run158-1958-election-local-law.json`, `data/claims/run158-1958-law-election-adversarial.json`.
+
+
+## Run158c · 1960 헌정 전환 비대통령 실록
+- 허정 `pol-r139-heo-jeong` ANNALS_ACTIVE: 1960-04 외무장관·대통령권한대행, 06-15 개헌 후 총리, 06월 한일외교 발언. `data/annals/huh-chung-run158c.md`.
+- 윤보선 `pol-yun-posun` IDENTIFIED: 기존 `president-yun-posun` backbone ID에 1960-08-11 합동회의 208:51 선출·8/17 김도연 부결·8/19 장면 인준 연결. 국내 원회의록 검증 전 MATURE 금지.
+- 백낙준·김도연·이수영·이재현·General Song 후보는 `data/politicians/run158c-1960-transition-candidates.json`에 한자·생몰·원인사기록 미확인으로 보존.
