@@ -110,7 +110,10 @@
       "connections": [
         "evt-1960-315-election",
         "evt-r150-19551007-yi-hoover",
-        "evt-r150-19551009-visit"
+        "evt-r150-19551009-visit",
+        "evt-r156-16",
+        "evt-r156-17",
+        "evt-r156-18"
       ],
       "evidenceCoverage": {
         "documentIds": [
@@ -125,7 +128,10 @@
         "evt-r148-nov29",
         "evt-r150-19560429-poster-directive",
         "evt-r150-19551007-yi-hoover",
-        "evt-r150-19551009-visit"
+        "evt-r150-19551009-visit",
+        "evt-r156-16",
+        "evt-r156-17",
+        "evt-r156-18"
       ],
       "status": "IDENTIFIED",
       "promotionReason": "원문 확인: 9월 개헌 대표 제안 및 11월29일 의장 표결",
@@ -134,7 +140,9 @@
       ],
       "evidenceDocumentIds": [
         "d150-nec-poster",
-        "d150-frus-92"
+        "d150-frus-92",
+        "doc156-ktv-19571104",
+        "doc156-aks-election-law"
       ],
       "researchNotes": [
         {
@@ -143,6 +151,15 @@
           "note": "선거 선전물 후보로 등장; 벽보 지시 직접 발신자로 귀속 금지",
           "documentIds": [
             "d150-nec-poster"
+          ]
+        },
+        {
+          "date": "2026-10-26",
+          "run": 156,
+          "note": "1957 대한뉴스 소장설명에 민의원의장 동행, 1957~1958 선거법 협상 주요인물(후대 연구). 영상·원회의록 미열람.",
+          "documentIds": [
+            "doc156-ktv-19571104",
+            "doc156-aks-election-law"
           ]
         }
       ]
@@ -2278,13 +2295,16 @@
       "researchStatus": "DISCOVERED",
       "promotionReason": "동시대 기사에서 정당 추천 행위 확인; 원당무회의록과 인물등록 검증 전 DISCOVERED 유지.",
       "connections": [
-        "evt-1950-0421-acting-pm-parliament-dispute"
+        "evt-1950-0421-acting-pm-parliament-dispute",
+        "evt-r156-17",
+        "evt-r156-18"
       ],
       "evidenceDocumentIds": [
         "d114-seoul-19500422",
         "d143-110040",
         "doc145-kh-1953_06_20_0030",
-        "d150-na-democratic-1955"
+        "d150-na-democratic-1955",
+        "doc156-aks-election-law"
       ],
       "openLeads": [
         "L114-12"
@@ -2306,13 +2326,23 @@
           "documentIds": [
             "doc145-kh-1953_06_20_0030"
           ]
+        },
+        {
+          "date": "2026-10-26",
+          "run": 156,
+          "note": "1957~1958 민주당 선거법 협상 주요인물이라는 AKS 연구; 원회의록 미열람.",
+          "documentIds": [
+            "doc156-aks-election-law"
+          ]
         }
       ],
       "organizationIds": [
         "org-r150-democratic-party-1955"
       ],
       "eventIds": [
-        "evt-r149-1955-democratic"
+        "evt-r149-1955-democratic",
+        "evt-r156-17",
+        "evt-r156-18"
       ]
     },
     {
@@ -5092,7 +5122,8 @@
         "doc156-frus-242",
         "doc156-frus-253",
         "doc156-frus-264",
-        "doc156-aks-kim"
+        "doc156-aks-kim",
+        "doc156-ktv-19571104"
       ],
       "openLeads": [
         "L156-09",
@@ -5104,11 +5135,13 @@
       "backbone": false,
       "connections": [
         "evt-r156-08",
-        "evt-r156-11"
+        "evt-r156-11",
+        "evt-r156-16"
       ],
       "eventIds": [
         "evt-r156-08",
-        "evt-r156-11"
+        "evt-r156-11",
+        "evt-r156-16"
       ],
       "evidenceCoverage": {
         "reviewDate": "2026-10-26",
@@ -5119,7 +5152,17 @@
           "doc156-frus-264",
           "doc156-aks-kim"
         ]
-      }
+      },
+      "researchNotes": [
+        {
+          "date": "2026-10-26",
+          "run": 156,
+          "note": "1957-11-04 국방부장관으로 이승만 제6군단 시찰 동행(KTV 소장설명, 영상 미시청).",
+          "documentIds": [
+            "doc156-ktv-19571104"
+          ]
+        }
+      ]
     },
     {
       "id": "pol-yu-jae-heung-1921",

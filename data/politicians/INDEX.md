@@ -113,3 +113,5 @@ See `data/politicians/run113-prewar-network.json` for 12 sourced profiles. No ca
 - 기존 심화 5명: 김용우, 백선엽, 양유찬, 김현철, 장면. 중복 stable ID 생성하지 않음.
 - 독립 annals: `data/annals/kim-jeong-ryeol-run156.md`, `data/annals/yu-jae-heung-run156.md`.
 - 원문 레지스트리: `data/documents/run156-frus1957-documents.json`; 사건/주장: `data/events/run156-1957-force-fiscal-judiciary.json`, `data/claims/run156-1957-defense-fiscal-adversarial.json`.
+
+- Run156 후속: 이기붕·조병옥 선거법 협상(후대 AKS 연구), 이기붕의 1957-11-04 제6군단 시찰 동행(KTV 소장설명). 원회의록·영상 미열람.
