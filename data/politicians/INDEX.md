@@ -131,3 +131,8 @@ See `data/politicians/run113-prewar-network.json` for 12 sourced profiles. No ca
 - 허정 `pol-r139-heo-jeong` ANNALS_ACTIVE: 1960-04 외무장관·대통령권한대행, 06-15 개헌 후 총리, 06월 한일외교 발언. `data/annals/huh-chung-run158c.md`.
 - 윤보선 `pol-yun-posun` IDENTIFIED: 기존 `president-yun-posun` backbone ID에 1960-08-11 합동회의 208:51 선출·8/17 김도연 부결·8/19 장면 인준 연결. 국내 원회의록 검증 전 MATURE 금지.
 - 백낙준·김도연·이수영·이재현·General Song 후보는 `data/politicians/run158c-1960-transition-candidates.json`에 한자·생몰·원인사기록 미확인으로 보존.
+
+
+## Run158d · 1960-06-15 국회 기명투표 원명부
+- 국사편찬위 헌정사DB 국회 제4대 제35회 제37차 `cons_004_0020_0010_0080` 원문에서 **218명 행위**(찬성208·반대3·불참7) 추출: `data/votes/1960-06-15-constitutional-amendment.json`. 208명 전체를 성급히 정치인 registry로 승격하지 않고 원문 한자·행위·identity status를 보존.
+- 이옥동·조일재·이영희 발언과 표결 일관성 증거, 반대3명 실명, 김원태·윤보선·곽상훈 직접 행위 연결. `data/annals/1960-constitutional-rollcall-run158d.md`.
