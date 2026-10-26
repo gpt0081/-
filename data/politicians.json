@@ -787,14 +787,27 @@
       "name": "조봉암",
       "aliases": [
         "曺奉岩",
-        "Cho Bong-am"
+        "Cho Bong-am",
+        "죽산",
+        "竹山"
       ],
       "roles": [
         "초대 농림부 장관",
         "제2대 국회 민의원 부의장",
-        "진보당 정치인"
+        "진보당 정치인",
+        {
+          "period": "1950-05-30",
+          "title": "제2대 국회의원 당선",
+          "constituency": "인천시 병",
+          "electionAffiliation": "무소속",
+          "actionType": "ELECTED_ROSTER_RECORDED",
+          "evidenceDocumentIds": [
+            "doc168-nih-1950-election"
+          ],
+          "sourceQualification": "NIH official compiled chronology, original election notice not yet viewed"
+        }
       ],
-      "researchStatus": "candidate-cross-event",
+      "researchStatus": "IDENTIFIED",
       "backbone": false,
       "connections": [
         "evt-1949-farmland-reform"
@@ -812,7 +825,9 @@
       "evidenceDocumentIds": [
         "d143-110040",
         "doc157-frus-211",
-        "doc157-frus-226"
+        "doc157-frus-226",
+        "doc168-nih-1950-election",
+        "doc168-aks-cho"
       ],
       "researchNotes": [
         {
@@ -827,7 +842,24 @@
       ],
       "eventIds": [
         "evt-r157-05",
-        "evt-r157-09"
+        "evt-r157-09",
+        "evt-r168-13"
+      ],
+      "lifespan": {
+        "born": "1899",
+        "died": "1959",
+        "verification": "AKS_RETROSPECTIVE_NOT_PRIMARY"
+      },
+      "openLeads": [
+        "L168-P-pol-cho-bong-am"
+      ],
+      "researchStatusHistory": [
+        {
+          "date": "2026-10-26",
+          "run": 168,
+          "status": "IDENTIFIED",
+          "reason": "국사편찬위 1950 선거명부와 AKS 인물자료 교차대조; 원당선공고 미확보로 VERIFIED 보류"
+        }
       ]
     },
     {
@@ -3451,15 +3483,28 @@
       "name": "신익희",
       "aliases": [
         "申翼熙",
-        "Shin Ik-hui"
+        "Shin Ik-hui",
+        "해공",
+        "海公"
       ],
       "lifespan": {
-        "born": null,
-        "died": null,
-        "verification": "NOT_VERIFIED_IN_THIS_RUN"
+        "born": "1894",
+        "died": "1956",
+        "verification": "AKS_RETROSPECTIVE_NOT_PRIMARY"
       },
       "roles": [
-        "1953 국회의장; 노동조합법·근로기준법·전시근로동원법안 대통령 이송"
+        "1953 국회의장; 노동조합법·근로기준법·전시근로동원법안 대통령 이송",
+        {
+          "period": "1950-05-30",
+          "title": "제2대 국회의원 당선",
+          "constituency": "경기 광주군",
+          "electionAffiliation": "민주국민당",
+          "actionType": "ELECTED_ROSTER_RECORDED",
+          "evidenceDocumentIds": [
+            "doc168-nih-1950-election"
+          ],
+          "sourceQualification": "NIH official compiled chronology, original election notice not yet viewed"
+        }
       ],
       "rolePeriods": [
         {
@@ -3491,7 +3536,9 @@
         "doc165-1008-0040",
         "doc166-1012-0080",
         "doc166-1016-0060",
-        "doc167-frus-746"
+        "doc167-frus-746",
+        "doc168-nih-1950-election",
+        "doc168-aks-shin"
       ],
       "evidenceFile": "data/evidence/run141-actor-evidence.json",
       "openLeadsFile": "data/research/lead-queues/run141-next.json",
@@ -3505,7 +3552,8 @@
         "evt-r165-08",
         "evt-r166-02",
         "evt-r166c-22",
-        "evt-r167-09"
+        "evt-r167-09",
+        "evt-r168-13"
       ],
       "researchNotes": [
         {
@@ -3556,7 +3604,16 @@
       ],
       "openLeads": [
         "L166-ID-pol-r141-shin-ik-hui",
-        "L167-actor-pol-r141-shin-ik-hui"
+        "L167-actor-pol-r141-shin-ik-hui",
+        "L168-P-pol-r141-shin-ik-hui"
+      ],
+      "researchStatusHistory": [
+        {
+          "date": "2026-10-26",
+          "run": 168,
+          "status": "IDENTIFIED",
+          "reason": "국사편찬위 1950 선거명부와 AKS 인물자료 교차대조; 원당선공고 미확보로 VERIFIED 보류"
+        }
       ]
     },
     {
@@ -4495,6 +4552,17 @@
             "doc159-na-0030",
             "doc159-na-0070"
           ]
+        },
+        {
+          "period": "1950-05-30",
+          "title": "제2대 국회의원 당선",
+          "constituency": "인천시 을",
+          "electionAffiliation": "무소속",
+          "actionType": "ELECTED_ROSTER_RECORDED",
+          "evidenceDocumentIds": [
+            "doc168-nih-1950-election"
+          ],
+          "sourceQualification": "NIH official compiled chronology, original election notice not yet viewed"
         }
       ],
       "affiliations": [],
@@ -4511,7 +4579,8 @@
         "evt-r158c-14",
         "evt-r159-06",
         "evt-r159-12",
-        "evt-r166b-03"
+        "evt-r166b-03",
+        "evt-r168-13"
       ],
       "status": "IDENTIFIED",
       "researchStatus": "IDENTIFIED",
@@ -4524,7 +4593,8 @@
       },
       "openLeads": [
         "국회 제2·3대 의원명부·중앙선관위 당선원부에서 곽상훈의 생몰·선거구·정당·이명·동명이인 검증",
-        "L166-ID-pol-r148-kwak-sang-hun"
+        "L166-ID-pol-r148-kwak-sang-hun",
+        "L168-P-pol-r148-kwak-sang-hun"
       ],
       "historyDebt": [],
       "promotionReason": "동시대 원속기록/관보에서 직책과 특정 행위가 확인됨; 생몰 및 동일인 확인은 미완료.",
@@ -4540,7 +4610,8 @@
         "doc159-us-0020",
         "doc159-na-0070",
         "doc159-us-0070",
-        "doc166-1011-0050"
+        "doc166-1011-0050",
+        "doc168-nih-1950-election"
       ],
       "researchUpdatedAt": "2026-10-26",
       "researchNotes": [
@@ -4551,6 +4622,19 @@
           "documentIds": [
             "doc166-1011-0050"
           ]
+        }
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "NOT_VERIFIED_THIS_RUN"
+      },
+      "researchStatusHistory": [
+        {
+          "date": "2026-10-26",
+          "run": 168,
+          "status": "IDENTIFIED",
+          "reason": "국사편찬위 1950 선거명부와 AKS 인물자료 교차대조; 원당선공고 미확보로 VERIFIED 보류"
         }
       ]
     },
@@ -8578,6 +8662,17 @@
           "evidenceDocumentIds": [
             "doc160-frus-211"
           ]
+        },
+        {
+          "period": "1950-05-30",
+          "title": "제2대 국회의원 당선",
+          "constituency": "서울 중구 을",
+          "electionAffiliation": "무소속",
+          "actionType": "ELECTED_ROSTER_RECORDED",
+          "evidenceDocumentIds": [
+            "doc168-nih-1950-election"
+          ],
+          "sourceQualification": "NIH official compiled chronology, original election notice not yet viewed"
         }
       ],
       "researchStatus": "IDENTIFIED",
@@ -8586,12 +8681,14 @@
         "independentIdentityVerification": "OPEN"
       },
       "openLeads": [
-        "L160-ID-chung-il-hyeong"
+        "L160-ID-chung-il-hyeong",
+        "L168-P-pol-chung-il-hyeong"
       ],
       "promotionReason": "공직·정치적 행위가 동시대 문서에 등장. 군 지휘관은 정치적 역할 확인 전 후보 유지",
       "eventIds": [
         "evt-r160-01",
-        "evt-r160-21"
+        "evt-r160-21",
+        "evt-r168-13"
       ],
       "evidenceFile": "data/politicians/run160-1961-transition-actors.json",
       "annalsFile": "data/annals/1961-transition-institutions-run160.md",
@@ -8604,6 +8701,17 @@
             "doc162-1961-busan-aid-original",
             "doc162-1961-kdemo-aid-protest"
           ]
+        }
+      ],
+      "evidenceDocumentIds": [
+        "doc168-nih-1950-election"
+      ],
+      "researchStatusHistory": [
+        {
+          "date": "2026-10-26",
+          "run": 168,
+          "status": "IDENTIFIED",
+          "reason": "국사편찬위 1950 선거명부와 AKS 인물자료 교차대조; 원당선공고 미확보로 VERIFIED 보류"
         }
       ]
     },
@@ -9972,12 +10080,24 @@
           "evidenceDocumentIds": [
             "doc164-0913-0040"
           ]
+        },
+        {
+          "period": "1950-05-30",
+          "title": "제2대 국회의원 당선",
+          "constituency": "서울 용산구 갑",
+          "electionAffiliation": "무소속",
+          "actionType": "ELECTED_ROSTER_RECORDED",
+          "evidenceDocumentIds": [
+            "doc168-nih-1950-election"
+          ],
+          "sourceQualification": "NIH official compiled chronology, original election notice not yet viewed"
         }
       ],
       "researchStatus": "IDENTIFIED",
       "backbone": false,
       "evidenceDocumentIds": [
-        "doc164-0913-0040"
+        "doc164-0913-0040",
+        "doc168-nih-1950-election"
       ],
       "evidenceCoverage": {
         "sourceDocumentIds": [
@@ -9986,10 +10106,12 @@
         "originalFacsimile": false
       },
       "eventIds": [
-        "evt-r164-09"
+        "evt-r164-09",
+        "evt-r168-13"
       ],
       "openLeads": [
-        "L164-ID-pol-r164-hwang-seong-su"
+        "L164-ID-pol-r164-hwang-seong-su",
+        "L168-P-pol-r164-hwang-seong-su"
       ],
       "historyDebt": [
         "HD-R164-ID"
@@ -10003,6 +10125,14 @@
           "documentIds": [
             "doc164-0913-0040"
           ]
+        }
+      ],
+      "researchStatusHistory": [
+        {
+          "date": "2026-10-26",
+          "run": 168,
+          "status": "IDENTIFIED",
+          "reason": "국사편찬위 1950 선거명부와 AKS 인물자료 교차대조; 원당선공고 미확보로 VERIFIED 보류"
         }
       ]
     },
@@ -10349,13 +10479,17 @@
       "name": "지청천",
       "aliases": [
         "池靑天",
-        "Ji Cheong-cheon"
+        "Ji Cheong-cheon",
+        "지대형",
+        "池大亨",
+        "이청천",
+        "李靑天"
       ],
       "aliasVerification": "HANJA_FROM_CONTEMPORANEOUS_REPORT_ROMANIZATION_PROVISIONAL",
       "lifespan": {
-        "born": null,
-        "died": null,
-        "verification": "OPEN_INDEPENDENT_BIOGRAPHY"
+        "born": "1888-01-25",
+        "died": "1957-01-15",
+        "verification": "AKS_RETROSPECTIVE_NOT_PRIMARY"
       },
       "roles": [
         {
@@ -10365,23 +10499,46 @@
           "evidenceDocumentIds": [
             "doc164b-0919-0050"
           ]
+        },
+        {
+          "period": "1950-05-30",
+          "title": "제2대 국회의원 당선",
+          "constituency": "서울 성동구 갑",
+          "electionAffiliation": "민주국민당",
+          "actionType": "ELECTED_ROSTER_RECORDED",
+          "evidenceDocumentIds": [
+            "doc168-nih-1950-election"
+          ],
+          "sourceQualification": "NIH official compiled chronology, original election notice not yet viewed"
         }
       ],
       "researchStatus": "IDENTIFIED",
       "backbone": false,
       "evidenceDocumentIds": [
-        "doc164b-0919-0050"
+        "doc164b-0919-0050",
+        "doc168-nih-1950-election",
+        "doc168-aks-ji"
       ],
       "eventIds": [
-        "evt-r164b-08"
+        "evt-r164b-08",
+        "evt-r168-13"
       ],
       "openLeads": [
-        "L164b-ID-pol-r164-ji-cheong-cheon"
+        "L164b-ID-pol-r164-ji-cheong-cheon",
+        "L168-P-pol-r164-ji-cheong-cheon"
       ],
       "historyDebt": [
         "HD-R164b-ID"
       ],
-      "promotionReason": "1950년 9월 국회 원행위 당대 보도에 직책과 제안 확인; 출생·당적·임기 독립확인 필요"
+      "promotionReason": "1950년 9월 국회 원행위 당대 보도에 직책과 제안 확인; 출생·당적·임기 독립확인 필요",
+      "researchStatusHistory": [
+        {
+          "date": "2026-10-26",
+          "run": 168,
+          "status": "IDENTIFIED",
+          "reason": "국사편찬위 1950 선거명부와 AKS 인물자료 교차대조; 원당선공고 미확보로 VERIFIED 보류"
+        }
+      ]
     },
     {
       "id": "pol-r164-kim-seong-su",
@@ -11555,6 +11712,209 @@
         "data/research/history-debt/run166-corrections.md"
       ],
       "backbone": false
+    },
+    {
+      "id": "pol-ahn-jae-hong",
+      "name": "안재홍",
+      "aliases": [
+        "安在鴻",
+        "Ahn Jae-hong",
+        "민세",
+        "民世"
+      ],
+      "lifespan": {
+        "born": "1891",
+        "died": "1965",
+        "verification": "AKS_RETROSPECTIVE_NOT_PRIMARY"
+      },
+      "roles": [
+        {
+          "period": "1950-05-30",
+          "title": "제2대 국회의원 당선",
+          "constituency": "경기 평택군",
+          "electionAffiliation": "무소속",
+          "actionType": "ELECTED_ROSTER_RECORDED",
+          "evidenceDocumentIds": [
+            "doc168-nih-1950-election"
+          ],
+          "sourceQualification": "NIH official compiled chronology, original election notice not yet viewed"
+        }
+      ],
+      "researchStatus": "IDENTIFIED",
+      "backbone": false,
+      "connections": [],
+      "evidenceDocumentIds": [
+        "doc168-nih-1950-election",
+        "doc168-aks-ahn"
+      ],
+      "eventIds": [
+        "evt-r168-13",
+        "evt-r168-16"
+      ],
+      "openLeads": [
+        "L168-P-pol-ahn-jae-hong"
+      ],
+      "annalsFile": "data/annals/ahn-jae-hong.md",
+      "evidenceFile": "data/evidence/ahn-jae-hong.json",
+      "researchStatusHistory": [
+        {
+          "date": "2026-10-26",
+          "run": 168,
+          "status": "IDENTIFIED",
+          "reason": "국사편찬위 1950 선거명부와 AKS 인물자료 교차대조; 원당선공고 미확보로 VERIFIED 보류"
+        }
+      ]
+    },
+    {
+      "id": "pol-cho-so-ang",
+      "name": "조소앙",
+      "aliases": [
+        "趙素昻",
+        "Cho So-ang",
+        "조용은",
+        "趙鏞殷",
+        "소앙",
+        "素昻"
+      ],
+      "lifespan": {
+        "born": "1887-04-10",
+        "died": "1958-09-10",
+        "verification": "AKS_RETROSPECTIVE_NOT_PRIMARY"
+      },
+      "roles": [
+        {
+          "period": "1950-05-30",
+          "title": "제2대 국회의원 당선",
+          "constituency": "서울 성북구",
+          "electionAffiliation": "사회당",
+          "actionType": "ELECTED_ROSTER_RECORDED",
+          "evidenceDocumentIds": [
+            "doc168-nih-1950-election"
+          ],
+          "sourceQualification": "NIH official compiled chronology, original election notice not yet viewed"
+        }
+      ],
+      "researchStatus": "IDENTIFIED",
+      "backbone": false,
+      "connections": [],
+      "evidenceDocumentIds": [
+        "doc168-nih-1950-election",
+        "doc168-aks-jo"
+      ],
+      "eventIds": [
+        "evt-r168-13",
+        "evt-r168-16"
+      ],
+      "openLeads": [
+        "L168-P-pol-cho-so-ang"
+      ],
+      "researchStatusHistory": [
+        {
+          "date": "2026-10-26",
+          "run": 168,
+          "status": "IDENTIFIED",
+          "reason": "국사편찬위 1950 선거명부와 AKS 인물자료 교차대조; 원당선공고 미확보로 VERIFIED 보류"
+        }
+      ]
+    },
+    {
+      "id": "pol-park-sun-cheon",
+      "name": "박순천",
+      "aliases": [
+        "朴順天",
+        "Park Sun-cheon",
+        "Park Soon-chun"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "AKS_RETROSPECTIVE_NOT_PRIMARY"
+      },
+      "roles": [
+        {
+          "period": "1950-05-30",
+          "title": "제2대 국회의원 당선",
+          "constituency": "서울 종로구 갑",
+          "electionAffiliation": "대한부인회(정당 아닌 여성단체 소속표기)",
+          "actionType": "ELECTED_ROSTER_RECORDED",
+          "evidenceDocumentIds": [
+            "doc168-nih-1950-election"
+          ],
+          "sourceQualification": "NIH official compiled chronology, original election notice not yet viewed"
+        }
+      ],
+      "researchStatus": "IDENTIFIED",
+      "backbone": false,
+      "connections": [],
+      "evidenceDocumentIds": [
+        "doc168-nih-1950-election",
+        "doc168-aks-womens-association"
+      ],
+      "eventIds": [
+        "evt-r168-13",
+        "evt-r168-14",
+        "evt-r168-15"
+      ],
+      "openLeads": [
+        "L168-P-pol-park-sun-cheon"
+      ],
+      "researchStatusHistory": [
+        {
+          "date": "2026-10-26",
+          "run": 168,
+          "status": "IDENTIFIED",
+          "reason": "국사편찬위 1950 선거명부와 AKS 인물자료 교차대조; 원당선공고 미확보로 VERIFIED 보류"
+        }
+      ]
+    },
+    {
+      "id": "pol-yeo-un-hong",
+      "name": "여운홍",
+      "aliases": [
+        "呂運弘",
+        "Yeo Un-hong",
+        "근농",
+        "勤農"
+      ],
+      "lifespan": {
+        "born": "1891",
+        "died": "1973",
+        "verification": "AKS_RETROSPECTIVE_NOT_PRIMARY"
+      },
+      "roles": [
+        {
+          "period": "1950-05-30",
+          "title": "제2대 국회의원 당선",
+          "constituency": "경기 양평군",
+          "electionAffiliation": "무소속",
+          "actionType": "ELECTED_ROSTER_RECORDED",
+          "evidenceDocumentIds": [
+            "doc168-nih-1950-election"
+          ],
+          "sourceQualification": "NIH official compiled chronology, original election notice not yet viewed"
+        }
+      ],
+      "researchStatus": "IDENTIFIED",
+      "backbone": false,
+      "connections": [],
+      "evidenceDocumentIds": [
+        "doc168-nih-1950-election",
+        "doc168-aks-yeo"
+      ],
+      "eventIds": [
+        "evt-r168-13"
+      ],
+      "openLeads": [
+        "L168-P-pol-yeo-un-hong"
+      ],
+      "researchStatusHistory": [
+        {
+          "date": "2026-10-26",
+          "run": 168,
+          "status": "IDENTIFIED",
+          "reason": "국사편찬위 1950 선거명부와 AKS 인물자료 교차대조; 원당선공고 미확보로 VERIFIED 보류"
+        }
+      ]
     }
   ]
 }

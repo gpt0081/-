@@ -170,3 +170,7 @@ See `data/politicians/run113-prewar-network.json` for 12 sourced profiles. No ca
 ## 2026-10-26 · Run167 북한 민정지침 승인·국무총리 인준 후속
 
 `data/politicians/run167-1950-cabinet-actors.json`: 기존 stable ID 9개 재사용. 백낙준·신성모·장택상·김성수·신익희 등 1950년 11월 국무총리 지명·국회 동의 사건 연결. 맥락상 등장만 하는 인물은 직접행위로 계수하지 않음. `data/events/run167-north-civil-cabinet-events.json` 및 `data/documents/run167-octnov-frus-primary.json` 교차 참조. 신규 신원 VERIFIED 승격 없음.
+
+## 2026-10-26 Run168 · 제2대 국회 선거구 기반 정치인 10명 독립 노드
+
+`data/politicians/run168-1950-election-network.json`에서 신익희·조봉암·안재홍·지청천·조소앙·박순천·정일형·곽상훈·여운홍·황성수의 1950-05-30 선거구/소속/행위 유형/문서/lead 연결. canonical 신규 4명 IDENTIFIED, 기존 6명 심화. NIH 후대 공식 편년자료와 AKS 후대 해설을 개별 선관위 원공고·의회 표결 원문으로 오인하지 않음. `data/annals/ahn-jae-hong.md` 기존 독립 실록 유지, 신규 안재홍 canonical ID에 연결. 지청천 AKS 사망연도 본문 1957 vs 이미지 캡션 1959 충돌 추적.
