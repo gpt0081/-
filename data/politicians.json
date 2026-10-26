@@ -2861,7 +2861,19 @@
         "Kim Bong-jo"
       ],
       "roles": [
-        "제헌국회 의원 또는 정부 주요 공직자"
+        "제헌국회 의원 또는 정부 주요 공직자",
+        {
+          "period": "1949-11-24",
+          "title": "제헌국회 의원·문교부 장관(동시대 보도)",
+          "actionType": "CONTEMPORANEOUS_REPORTED_ACTION_OR_STATEMENT",
+          "action": "1949-11-24 수정안 표결순서 의견",
+          "evidenceDocumentIds": [
+            "doc179b-edu-nov24"
+          ],
+          "eventIds": [
+            "evt-r179b-05"
+          ]
+        }
       ],
       "researchStatus": "candidate-identifed-from-1949-primary",
       "backbone": false,
@@ -2870,12 +2882,14 @@
       ],
       "evidenceDocumentIds": [
         "d79-assembly-june14",
-        "doc169-nih-farmland-55"
+        "doc169-nih-farmland-55",
+        "doc179b-edu-nov24"
       ],
       "openLeads": [
         "의원명부/관보의 한자·생몰·선거구·소속 대조",
         "관련 의안 원문·서명/표결 기록 확인",
-        "L169-P04"
+        "L169-P04",
+        "L179b-P-kim-bong-jo"
       ],
       "lifeDatesStatus": "not verified",
       "researchNotes": "1949-06-14 개의: 정부 소멸통고 위법·법률확정 주장",
@@ -2895,9 +2909,13 @@
         }
       ],
       "eventIds": [
-        "evt-r169-02"
+        "evt-r169-02",
+        "evt-r179b-05"
       ],
-      "run169Overlay": "data/politicians/run169-parliament-cabinet-actors.json"
+      "run169Overlay": "data/politicians/run169-parliament-cabinet-actors.json",
+      "historyDebt": [
+        "HD-R179b-02"
+      ]
     },
     {
       "id": "pol-kim-yak-su",
@@ -3380,6 +3398,18 @@
             "d148-election"
           ],
           "attributionGuardrail": "정당 변동 원부 확인 필요"
+        },
+        {
+          "period": "1949-11-24",
+          "title": "제헌국회 의원·문교부 장관(동시대 보도)",
+          "actionType": "CONTEMPORANEOUS_REPORTED_ACTION_OR_STATEMENT",
+          "action": "1949-11-24 제헌국회 부의장 학제 토론 진행",
+          "evidenceDocumentIds": [
+            "doc179b-edu-nov24"
+          ],
+          "eventIds": [
+            "evt-r179b-05"
+          ]
         }
       ],
       "researchStatus": "IDENTIFIED",
@@ -3388,11 +3418,13 @@
         "evt-1950-0421-acting-pm-parliament-dispute"
       ],
       "evidenceDocumentIds": [
-        "d114-seoul-19500422"
+        "d114-seoul-19500422",
+        "doc179b-edu-nov24"
       ],
       "openLeads": [
         "L114-11",
-        "국가기록원·국회 인명록에서 윤치영의 해당 직책·인사발령·서명 원본 대조"
+        "국가기록원·국회 인명록에서 윤치영의 해당 직책·인사발령·서명 원본 대조",
+        "L179b-P-yun-chi-yeong"
       ],
       "backbone": false,
       "evidenceCoverage": {
@@ -3403,9 +3435,13 @@
         "reviewDate": "2026-10-11"
       },
       "eventIds": [
-        "evt-r148-senate-secret"
+        "evt-r148-senate-secret",
+        "evt-r179b-05"
       ],
-      "status": "IDENTIFIED"
+      "status": "IDENTIFIED",
+      "historyDebt": [
+        "HD-R179b-02"
+      ]
     },
     {
       "id": "pol-cho-byeong-ok",
@@ -3624,6 +3660,18 @@
         {
           "period": "1950-04-21",
           "title": "국민당 측 국무총리서리 임명에 대한 법률해석 견해"
+        },
+        {
+          "period": "1949-11-24",
+          "title": "제헌국회 의원·문교부 장관(동시대 보도)",
+          "actionType": "CONTEMPORANEOUS_REPORTED_ACTION_OR_STATEMENT",
+          "action": "1949-11-24 김수선 재심의 의견 찬성",
+          "evidenceDocumentIds": [
+            "doc179b-edu-nov24"
+          ],
+          "eventIds": [
+            "evt-r179b-05"
+          ]
         }
       ],
       "researchStatus": "DISCOVERED",
@@ -3633,10 +3681,12 @@
       ],
       "evidenceDocumentIds": [
         "d114b-01",
-        "d143-080060"
+        "d143-080060",
+        "doc179b-edu-nov24"
       ],
       "openLeads": [
-        "국회 제헌의원 원명부·소속·생몰 대조"
+        "국회 제헌의원 원명부·소속·생몰 대조",
+        "L179b-P-jin-heon-sik"
       ],
       "lifeDatesStatus": "not verified",
       "researchNotes": [
@@ -3696,6 +3746,12 @@
             "d143-080060"
           ]
         }
+      ],
+      "eventIds": [
+        "evt-r179b-05"
+      ],
+      "historyDebt": [
+        "HD-R179b-02"
       ]
     },
     {
@@ -3747,6 +3803,18 @@
           "eventIds": [
             "evt-r178b-10"
           ]
+        },
+        {
+          "period": "1949-11-24",
+          "title": "제헌국회 의원·문교부 장관(동시대 보도)",
+          "actionType": "CONTEMPORANEOUS_REPORTED_ACTION_OR_STATEMENT",
+          "action": "1949-11-24 학제 수정안 36:22 미결·11/25 교원신분 조항 삭제 동의",
+          "evidenceDocumentIds": [
+            "doc179b-edu-nov24"
+          ],
+          "eventIds": [
+            "evt-r179b-05"
+          ]
         }
       ],
       "researchStatus": "DISCOVERED",
@@ -3756,15 +3824,21 @@
       ],
       "evidenceDocumentIds": [
         "d114b-01",
-        "doc178b-19480715-govorg-second"
+        "doc178b-19480715-govorg-second",
+        "doc179b-edu-nov24"
       ],
       "openLeads": [
-        "국회 제헌의원 원명부·소속·생몰 대조"
+        "국회 제헌의원 원명부·소속·생몰 대조",
+        "L179b-P-cho-heon-yeong"
       ],
       "lifeDatesStatus": "not verified",
       "researchNotes": "1950-04-22 국도신문 동시대 전사. 동명이인 및 소속 원문 대조 전 승격 보류.",
       "eventIds": [
-        "evt-r178b-10"
+        "evt-r178b-10",
+        "evt-r179b-05"
+      ],
+      "historyDebt": [
+        "HD-R179b-02"
       ]
     },
     {
@@ -4563,6 +4637,18 @@
             "doc159-na-0110",
             "doc159-na-0130"
           ]
+        },
+        {
+          "period": "1949-12-23",
+          "title": "제헌국회 의원·문교부 장관(동시대 보도)",
+          "actionType": "CONTEMPORANEOUS_REPORTED_ACTION_OR_STATEMENT",
+          "action": "1949-12-23 교육법 시행·교사·예산 서면답변",
+          "evidenceDocumentIds": [
+            "doc179b-edu-dec23"
+          ],
+          "eventIds": [
+            "evt-r179b-09"
+          ]
         }
       ],
       "rolePeriods": [
@@ -4583,15 +4669,23 @@
       "evidenceDocumentIds": [
         "d141-pa769",
         "doc159-na-0110",
-        "doc159-na-0130"
+        "doc159-na-0130",
+        "doc179b-edu-dec23"
       ],
       "evidenceFile": "data/evidence/run141-actor-evidence.json",
       "openLeadsFile": "data/research/lead-queues/run141-next.json",
       "historyDebt": [
-        "HD-R141-IDENTITY"
+        "HD-R141-IDENTITY",
+        "HD-R179b-02"
       ],
       "attributionCaveat": "서명/이송은 법안 발의·표결·집행의 직접 증거가 아님",
-      "researchUpdatedAt": "2026-10-26"
+      "researchUpdatedAt": "2026-10-26",
+      "eventIds": [
+        "evt-r179b-09"
+      ],
+      "openLeads": [
+        "L179b-P-r141-ahn-ho-sang"
+      ]
     },
     {
       "id": "pol-r141-kwon-seung-ryeol",
@@ -13927,6 +14021,18 @@
           "eventIds": [
             "evt-r179-01"
           ]
+        },
+        {
+          "period": "1949-11-24",
+          "title": "제헌국회 의원·문교부 장관(동시대 보도)",
+          "actionType": "CONTEMPORANEOUS_REPORTED_ACTION_OR_STATEMENT",
+          "action": "1949-11-24 문교사회위원장 교육법 수정안 재제출",
+          "evidenceDocumentIds": [
+            "doc179b-edu-nov24"
+          ],
+          "eventIds": [
+            "evt-r179b-05"
+          ]
         }
       ],
       "researchStatus": "IDENTIFIED_CANDIDATE",
@@ -13934,20 +14040,24 @@
       "evidenceDocumentIds": [
         "doc178-assembly-health-19490219",
         "doc178b-19480715-govorg-second",
-        "doc179-na51"
+        "doc179-na51",
+        "doc179b-edu-nov24"
       ],
       "eventIds": [
         "evt-r178-02",
         "evt-r178b-03",
-        "evt-r179-01"
+        "evt-r179-01",
+        "evt-r179b-05"
       ],
       "openLeads": [
         "L178-P-lee-yeong-jun",
-        "L179-P-r178-lee-yeong-jun"
+        "L179-P-r178-lee-yeong-jun",
+        "L179b-P-r178-lee-yeong-jun"
       ],
       "historyDebt": [
         "HD-R178-02",
-        "HD-R179-02"
+        "HD-R179-02",
+        "HD-R179b-02"
       ],
       "accessDate": "2026-10-27",
       "annalsFile": "data/annals/lee-yeong-jun-run178.md",
@@ -14284,21 +14394,37 @@
             "evt-r178-08"
           ],
           "attribution": "Primary parliamentary transcription; full biographical identity and constituency not verified"
+        },
+        {
+          "period": "1949-11-24",
+          "title": "제헌국회 의원·문교부 장관(동시대 보도)",
+          "actionType": "CONTEMPORANEOUS_REPORTED_ACTION_OR_STATEMENT",
+          "action": "1949-11-24 토론종결 동의",
+          "evidenceDocumentIds": [
+            "doc179b-edu-nov24"
+          ],
+          "eventIds": [
+            "evt-r179b-05"
+          ]
         }
       ],
       "researchStatus": "IDENTIFIED_CANDIDATE",
       "researchStatusReason": "1949-02-19 제헌국회 원속기록 전사에서 직책·개인행위 확인; 생몰·선거구·동명이인·후속 활동 미검증",
       "evidenceDocumentIds": [
-        "doc178-assembly-health-19490219"
+        "doc178-assembly-health-19490219",
+        "doc179b-edu-nov24"
       ],
       "eventIds": [
-        "evt-r178-08"
+        "evt-r178-08",
+        "evt-r179b-05"
       ],
       "openLeads": [
-        "L178-P-kwon-tae-hui"
+        "L178-P-kwon-tae-hui",
+        "L179b-P-r178-kwon-tae-hui"
       ],
       "historyDebt": [
-        "HD-R178-02"
+        "HD-R178-02",
+        "HD-R179b-02"
       ],
       "accessDate": "2026-10-27"
     },
@@ -15094,21 +15220,37 @@
           "eventIds": [
             "evt-r179-06"
           ]
+        },
+        {
+          "period": "1949-11-24",
+          "title": "제헌국회 의원·문교부 장관(동시대 보도)",
+          "actionType": "CONTEMPORANEOUS_REPORTED_ACTION_OR_STATEMENT",
+          "action": "1949-11-24 중학4년 고교2~4년 수정안 89:13 가결",
+          "evidenceDocumentIds": [
+            "doc179b-edu-nov24"
+          ],
+          "eventIds": [
+            "evt-r179b-05"
+          ]
         }
       ],
       "researchStatus": "IDENTIFIED_CANDIDATE",
       "researchStatusReason": "국회 원속기록 전사에서 실명·한자·행위 확인; 생몰·선거구·당적·동명이인 미검증",
       "evidenceDocumentIds": [
-        "doc179-na51"
+        "doc179-na51",
+        "doc179b-edu-nov24"
       ],
       "eventIds": [
-        "evt-r179-06"
+        "evt-r179-06",
+        "evt-r179b-05"
       ],
       "openLeads": [
-        "L179-P-r179-kim-su-seon"
+        "L179-P-r179-kim-su-seon",
+        "L179b-P-r179-kim-su-seon"
       ],
       "historyDebt": [
-        "HD-R179-02"
+        "HD-R179-02",
+        "HD-R179b-02"
       ],
       "accessDate": "2026-10-27"
     },
@@ -15396,6 +15538,252 @@
       ],
       "historyDebt": [
         "HD-R179-02"
+      ],
+      "accessDate": "2026-10-27"
+    },
+    {
+      "id": "pol-r179b-hong-hui-jong",
+      "name": "홍희종",
+      "aliases": [
+        "洪熺種"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "NOT_VERIFIED_THIS_RUN"
+      },
+      "roles": [
+        {
+          "period": "1949-11-25",
+          "title": "제헌국회 의원·문교부 장관(동시대 보도)",
+          "actionType": "CONTEMPORANEOUS_REPORTED_ACTION_OR_STATEMENT",
+          "action": "1949-11-25 교육비 국고보조 내무장관 협의 수정안 1:74 부결",
+          "evidenceDocumentIds": [
+            "doc179b-edu-nov25"
+          ],
+          "eventIds": [
+            "evt-r179b-06"
+          ]
+        }
+      ],
+      "researchStatus": "IDENTIFIED_CANDIDATE",
+      "researchStatusReason": "동시대 신문 전사에서 행위·한자 확인. 국회 원속기록·당선인 원명부·생몰 미확보; 정부 보도와 집행 분리",
+      "evidenceDocumentIds": [
+        "doc179b-edu-nov25"
+      ],
+      "eventIds": [
+        "evt-r179b-06"
+      ],
+      "openLeads": [
+        "L179b-P-r179b-hong-hui-jong"
+      ],
+      "historyDebt": [
+        "HD-R179b-02"
+      ],
+      "accessDate": "2026-10-27"
+    },
+    {
+      "id": "pol-r179b-jeong-gwang-ho",
+      "name": "정광호",
+      "aliases": [
+        "鄭光好"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "NOT_VERIFIED_THIS_RUN"
+      },
+      "roles": [
+        {
+          "period": "1949-11-25",
+          "title": "제헌국회 의원·문교부 장관(동시대 보도)",
+          "actionType": "CONTEMPORANEOUS_REPORTED_ACTION_OR_STATEMENT",
+          "action": "1949-11-25 교원 구내 체포 동의 조항 삭제 주장",
+          "evidenceDocumentIds": [
+            "doc179b-edu-nov25"
+          ],
+          "eventIds": [
+            "evt-r179b-06"
+          ]
+        }
+      ],
+      "researchStatus": "IDENTIFIED_CANDIDATE",
+      "researchStatusReason": "동시대 신문 전사에서 행위·한자 확인. 국회 원속기록·당선인 원명부·생몰 미확보; 정부 보도와 집행 분리",
+      "evidenceDocumentIds": [
+        "doc179b-edu-nov25"
+      ],
+      "eventIds": [
+        "evt-r179b-06"
+      ],
+      "openLeads": [
+        "L179b-P-r179b-jeong-gwang-ho"
+      ],
+      "historyDebt": [
+        "HD-R179b-02"
+      ],
+      "accessDate": "2026-10-27"
+    },
+    {
+      "id": "pol-r179b-seo-u-seok",
+      "name": "서우석",
+      "aliases": [
+        "徐禹錫"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "NOT_VERIFIED_THIS_RUN"
+      },
+      "roles": [
+        {
+          "period": "1949-11-24",
+          "title": "제헌국회 의원·문교부 장관(동시대 보도)",
+          "actionType": "CONTEMPORANEOUS_REPORTED_ACTION_OR_STATEMENT",
+          "action": "1949-11-24 교육법 수정안 표결 순서 발언",
+          "evidenceDocumentIds": [
+            "doc179b-edu-nov24"
+          ],
+          "eventIds": [
+            "evt-r179b-05"
+          ]
+        }
+      ],
+      "researchStatus": "IDENTIFIED_CANDIDATE",
+      "researchStatusReason": "동시대 신문 전사에서 행위·한자 확인. 국회 원속기록·당선인 원명부·생몰 미확보; 정부 보도와 집행 분리",
+      "evidenceDocumentIds": [
+        "doc179b-edu-nov24"
+      ],
+      "eventIds": [
+        "evt-r179b-05"
+      ],
+      "openLeads": [
+        "L179b-P-r179b-seo-u-seok"
+      ],
+      "historyDebt": [
+        "HD-R179b-02"
+      ],
+      "accessDate": "2026-10-27"
+    },
+    {
+      "id": "pol-r179b-hwang-du-yeon",
+      "name": "황두연",
+      "aliases": [
+        "黃斗淵"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "NOT_VERIFIED_THIS_RUN"
+      },
+      "roles": [
+        {
+          "period": "1949-11-24",
+          "title": "제헌국회 의원·문교부 장관(동시대 보도)",
+          "actionType": "CONTEMPORANEOUS_REPORTED_ACTION_OR_STATEMENT",
+          "action": "1949-11-24 교육법 수정안 표결 순서 발언",
+          "evidenceDocumentIds": [
+            "doc179b-edu-nov24"
+          ],
+          "eventIds": [
+            "evt-r179b-05"
+          ]
+        }
+      ],
+      "researchStatus": "IDENTIFIED_CANDIDATE",
+      "researchStatusReason": "동시대 신문 전사에서 행위·한자 확인. 국회 원속기록·당선인 원명부·생몰 미확보; 정부 보도와 집행 분리",
+      "evidenceDocumentIds": [
+        "doc179b-edu-nov24"
+      ],
+      "eventIds": [
+        "evt-r179b-05"
+      ],
+      "openLeads": [
+        "L179b-P-r179b-hwang-du-yeon"
+      ],
+      "historyDebt": [
+        "HD-R179b-02"
+      ],
+      "accessDate": "2026-10-27"
+    },
+    {
+      "id": "pol-r179b-jo-han-baek",
+      "name": "조한백",
+      "aliases": [
+        "趙漢栢"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "NOT_VERIFIED_THIS_RUN"
+      },
+      "roles": [
+        {
+          "period": "1949-11-24",
+          "title": "제헌국회 의원·문교부 장관(동시대 보도)",
+          "actionType": "CONTEMPORANEOUS_REPORTED_ACTION_OR_STATEMENT",
+          "action": "1949-11-24 전문학교 수정안 번안동의 보류 제안",
+          "evidenceDocumentIds": [
+            "doc179b-edu-nov24"
+          ],
+          "eventIds": [
+            "evt-r179b-05"
+          ]
+        }
+      ],
+      "researchStatus": "IDENTIFIED_CANDIDATE",
+      "researchStatusReason": "동시대 신문 전사에서 행위·한자 확인. 국회 원속기록·당선인 원명부·생몰 미확보; 정부 보도와 집행 분리",
+      "evidenceDocumentIds": [
+        "doc179b-edu-nov24"
+      ],
+      "eventIds": [
+        "evt-r179b-05"
+      ],
+      "openLeads": [
+        "L179b-P-r179b-jo-han-baek"
+      ],
+      "historyDebt": [
+        "HD-R179b-02"
+      ],
+      "accessDate": "2026-10-27"
+    },
+    {
+      "id": "pol-r179b-song-jae-su",
+      "name": "송재수",
+      "aliases": [
+        "宋載洙"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "NOT_VERIFIED_THIS_RUN"
+      },
+      "roles": [
+        {
+          "period": "1948-11-04",
+          "title": "문교부 총무과장(신문 재인용)",
+          "actionType": "CONTEMPORANEOUS_REPORTED_ACTION_OR_STATEMENT",
+          "action": "1948-11-04 문교부 총무과장으로 대학4년제 지지 논설, 1949-10-31 신문 재인용",
+          "evidenceDocumentIds": [
+            "doc179b-edu-oct31"
+          ],
+          "eventIds": [
+            "evt-r179b-04"
+          ]
+        }
+      ],
+      "researchStatus": "IDENTIFIED_CANDIDATE",
+      "researchStatusReason": "동시대 신문 전사에서 행위·한자 확인. 국회 원속기록·당선인 원명부·생몰 미확보; 정부 보도와 집행 분리",
+      "evidenceDocumentIds": [
+        "doc179b-edu-oct31"
+      ],
+      "eventIds": [
+        "evt-r179b-04"
+      ],
+      "openLeads": [
+        "L179b-P-r179b-song-jae-su"
+      ],
+      "historyDebt": [
+        "HD-R179b-02"
       ],
       "accessDate": "2026-10-27"
     }
