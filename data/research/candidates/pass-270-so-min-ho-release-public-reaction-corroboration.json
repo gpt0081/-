@@ -1,0 +1,162 @@
+{
+  "pass": 270,
+  "date": "2026-10-01",
+  "focus": "So Min-ho May 14-25 release/re-arrest chain: provenance-separated corroboration and public-reaction layer",
+  "floot_touched": false,
+  "continuation_from": "pass-269-so-min-ho-release-delay-and-judicial-actors.json",
+  "material_findings": [
+    {
+      "finding": "NIHK constitutional-history synthesis cites National Assembly Secretariat, 12th regular session stenographic record No.57 (1952-05-14) for the Assembly action; US FRUS document 135 independently states the Assembly acted May 14 under Constitution Article 49. This is cross-provenance corroboration of the parliamentary act, while the stenographic record itself remains the preferred Korean primary original.",
+      "evidence": ["NIHK-cons_002_0010", "FRUS-1952-54-v15p1-d135"],
+      "status": "CROSS_PROVENANCE_CORROBORATED_PRIMARY_TARGET_PENDING"
+    },
+    {
+      "finding": "NIHK's preserved Chosun Ilbo report states that So Min-ho was physically released on May 19, left prison at about 20:00, stopped at the National Assembly secretariat, and returned home. The physical release therefore remains distinct from the May 14 Assembly resolution.",
+      "evidence": ["NIHK-dh_025_1952_05_20_0090"],
+      "status": "CONTEMPORARY_REPORT_VERIFIED"
+    },
+    {
+      "finding": "A separate contemporaneous Minju Sinbo item preserved by NIHK records an estimated 4,500-person rally in Busan on May 19 attacking the Assembly's So Min-ho release decision and using slogans calling him a murderer. This is evidence of organized public/political pressure around the release, not evidence that the slogans' factual accusations were judicial findings.",
+      "evidence": ["NIHK-dh_025_1952_05_19_0050"],
+      "status": "CONTEMPORARY_PUBLIC_REACTION"
+    },
+    {
+      "finding": "NIHK's FRUS-derived Korean database records that martial law was proclaimed effective at midnight May 24/25 for Busan, South Gyeongsang and parts of the Jeolla provinces, and identifies the immediately preceding appointments of Yi Pom Suk as Home Minister, Hong Pom-hui as vice minister, and Yun U-gyeong as police chief. These appointments should be modeled as institutional context rather than automatically as proof of authorship for later arrests.",
+      "evidence": ["NIHK-frus_008r_0020_0280"],
+      "status": "FOREIGN_DIPLOMATIC_RECORD_CORROBORATED"
+    },
+    {
+      "finding": "The release-resolution controversy, the May 19 rally, physical release, martial-law proclamation, and May 25 re-arrest are analytically separate events. Collapsing them into a single 'Busan Political Crisis' node obscures which institution acted, when, and under what claimed authority.",
+      "evidence": ["NIHK-cons_002_0010", "NIHK-dh_025_1952_05_19_0050", "NIHK-dh_025_1952_05_20_0090", "FRUS-1952-54-v15p1-d135", "NIHK-frus_008r_0020_0280"],
+      "status": "EVENT_GRAPH_REFINEMENT"
+    }
+  ],
+  "actor_updates": [
+    {
+      "candidate_id": "pol-lee-beom-seok",
+      "name": "이범석",
+      "hanja": "李範奭",
+      "romanization": ["Yi Pom Suk", "Lee Beom-seok"],
+      "research_status": "VERIFIED_EXISTING_OR_PROMOTION_CANDIDATE",
+      "verified_role_in_branch": "Home Minister appointed immediately before the May 25 martial-law phase",
+      "event_connections": ["evt-1952-busan-martial-law-proclamation", "evt-1952-busan-political-crisis"],
+      "evidence": ["NIHK-frus_008r_0020_0280"],
+      "open_leads": ["Retrieve Korean appointment decree/Gazette record.", "Separate ministerial legal authority from operational arrest-order authorship."]
+    },
+    {
+      "candidate_id": "official-cand-hong-pom-hui",
+      "name": "홍범희",
+      "romanization": ["Hong Pom-Hi", "Hong Beom-hui"],
+      "research_status": "IDENTIFIED_OFFICIAL",
+      "verified_role_in_branch": "Vice Home Minister appointed immediately before the May 25 martial-law phase",
+      "event_connections": ["evt-1952-busan-martial-law-proclamation"],
+      "evidence": ["NIHK-frus_008r_0020_0280"],
+      "open_leads": ["Retrieve appointment decree and biographical/personnel record.", "Determine whether he appears in police/martial-law operational paperwork."]
+    },
+    {
+      "candidate_id": "official-cand-yun-u-gyeong",
+      "name": "윤우경",
+      "romanization": ["Yun U-gyeong", "Yun-Kyong"],
+      "research_status": "IDENTIFIED_OFFICIAL",
+      "verified_role_in_branch": "Chief of National Police appointed immediately before the May 25 martial-law phase",
+      "event_connections": ["evt-1952-busan-martial-law-proclamation", "evt-1952-busan-security-command-chain"],
+      "evidence": ["NIHK-frus_008r_0020_0280"],
+      "open_leads": ["Retrieve Korean police appointment/personnel record.", "Trace police orders for Assembly-member arrests without inferring authorship from office alone."]
+    }
+  ],
+  "event_updates": [
+    {
+      "event_id": "evt-1952-so-min-ho-release-resolution",
+      "date": "1952-05-14",
+      "decided_by": ["National Assembly"],
+      "legal_authority_reported": "1948 Constitution Article 49",
+      "primary_target": "국회사무처 제12회 국회정기회의속기록 제57호, 1952-05-14",
+      "status": "CROSS_PROVENANCE_CORROBORATED; ORIGINAL_STENOGRAM_PENDING"
+    },
+    {
+      "event_id": "evt-1952-so-min-ho-release-protest",
+      "date": "1952-05-19",
+      "observed_by": ["Minju Sinbo; NIHK preservation"],
+      "participants_reported": "approximately 4,500",
+      "action_type": "public_political_pressure",
+      "status": "CONTEMPORARY_REPORT; organizer/command chain OPEN"
+    },
+    {
+      "event_id": "evt-1952-so-min-ho-physical-release",
+      "date": "1952-05-19",
+      "observed_by": ["Chosun Ilbo; NIHK preservation"],
+      "time_reported": "about 20:00",
+      "status": "DATE_TIME_WINDOW_CONTEMPORARY_VERIFIED; legal/custodial execution chain OPEN"
+    },
+    {
+      "event_id": "evt-1952-busan-martial-law-proclamation",
+      "date": "1952-05-25",
+      "context_actors": ["이범석", "홍범희", "윤우경"],
+      "status": "FOREIGN_DIPLOMATIC_RECORD_CORROBORATED; Korean decree/order chain still required"
+    }
+  ],
+  "adversarial_checks": [
+    "May 14 parliamentary action was not silently equated with May 19 physical release.",
+    "Rally slogans calling So Min-ho a murderer were preserved as political speech, not converted into adjudicated fact.",
+    "Minister/police appointments immediately before martial law were not treated as proof that those officeholders personally authored each arrest order.",
+    "The existence of Article 49 authority in FRUS was not used as a substitute for opening the Korean constitutional text and Record No.57.",
+    "Secondary accounts of judge An Yun-chul were not promoted beyond the primary-evidence ceiling established in pass269.",
+    "The public-pressure layer was separated from the judicial/custodial release layer.",
+    "Martial-law proclamation was separated from the subsequent operational re-arrest chain.",
+    "NIHK synthesis citations were distinguished from underlying originals.",
+    "Contemporaneous press was treated as observation with provenance, not omniscient narration.",
+    "No claim was made that the May 19 rally was spontaneous or government-directed without organizer/command evidence."
+  ],
+  "documents_opened": [
+    {"id":"NIHK-cons_002_0010","title":"헌정사 자료 DB: 1952 부산정치파동/개헌 과정","provenance":"National Institute of Korean History","url":"https://db.history.go.kr/item/cons/level.do?levelId=cons_002_0010"},
+    {"id":"FRUS-1952-54-v15p1-d135","title":"Memorandum of Conversation, May 23 1952; editorial note on So Min-ho","provenance":"US Department of State, Office of the Historian","url":"https://history.state.gov/historicaldocuments/frus1952-54v15p1/d135"},
+    {"id":"NIHK-dh_025_1952_05_20_0090","title":"徐珉濠의원, 석방 후 기자회견","provenance":"NIHK / Chosun Ilbo 1952-05-22","url":"https://db.history.go.kr/id/dh_025_1952_05_20_0090"},
+    {"id":"NIHK-dh_025_1952_05_19_0050","title":"徐珉濠의원 석방 결의를 규탄하는 성토대회 개최","provenance":"NIHK / Minju Sinbo 1952-05-20","url":"https://db.history.go.kr/contemp/level.do?levelId=dh_025_1952_05_19_0050"},
+    {"id":"NIHK-frus_008r_0020_0280","title":"이승만의 계엄령 선포 조치와 이에 대한 주한대사관의 평가","provenance":"NIHK / FRUS 1952-1954","url":"https://db.history.go.kr/contemp/level.do?levelId=frus_008r_0020_0280"}
+  ],
+  "history_debt_updates": [
+    {"id":"HD-RHEE-006","status":"NARROWED","note":"May 14 parliamentary act, May 19 protest and physical release, and May 25 martial-law phase are now more sharply separated. Original Record No.57, court order, prosecution/corrections execution papers, and Korean martial-law/arrest orders remain required."}
+  ],
+  "next_leads": [
+    "National Assembly Library/Secretariat: open 제12회 국회정기회의속기록 제57호 (1952-05-14), capture motion text, mover, vote/procedure and Article 49 discussion.",
+    "National Assembly Library: inspect 제12회 속기록 제50호 (1952-05-06) for surrounding constitutional-crisis actors and compare names with May 14 debate.",
+    "National Archives of Korea: search 1952-05-19 Busan District Court detention-suspension order for So Min-ho; capture case number and judge signature.",
+    "Busan District Court judicial history/archive: verify An Yun-chul's May 1952 assignment and exact title.",
+    "Prosecution archives/NIHK: retrieve paperwork showing receipt and handling of the Assembly's May 14 release demand.",
+    "Corrections/prison archive: identify the official who executed So Min-ho's May 19 release and the written instrument authorizing it.",
+    "NARA Box 15: open Report No.1 committee investigation on the So Min-ho case.",
+    "NARA Box 15: open Report No.2 So Min-ho statement and distinguish defendant assertions from findings.",
+    "NARA Box 15: open Report No.3 prosecution investigation and compare chronology against April 25/May 10 Korean press.",
+    "NARA Box 15: open trial summary and extract court, judge, prosecutors, defense counsel and hearing dates.",
+    "National Archives/Gazette: retrieve appointment decree for Home Minister Yi Pom Suk immediately before May 25 martial law.",
+    "National Archives/Gazette: retrieve appointment decree for Vice Home Minister Hong Pom-hui.",
+    "National Police historical records: retrieve appointment/personnel record for police chief Yun U-gyeong.",
+    "Presidential/State Council records: retrieve Korean martial-law proclamation text effective 1952-05-25 and identify legal authority/signatories.",
+    "Military archive: identify Won Yong-deok's appointment/order as martial-law commander and operational jurisdiction.",
+    "Police/military archive: trace written order for So Min-ho's May 25 re-arrest; do not infer author from command position.",
+    "NIHK contemporary press: map May 19-25 demonstrations by date, organizer name, slogans and target institution.",
+    "Busan municipal/police records: test whether permits, transport, policing or mobilization records exist for the May 19 rally.",
+    "National Assembly records: identify formal Assembly response to May 19 anti-Assembly rally and threats.",
+    "Supreme Court/judicial archive: search contemporary records of attacks/threats against courts after So Min-ho release.",
+    "Constitution 1948 original text: open Article 49 and encode exact arrest/release privilege language as legal-authority object.",
+    "FRUS sequence after d135: trace embassy reporting on physical release, martial law and re-arrest with document IDs and dates.",
+    "UNCURK records: retrieve observations on May 19-25 political pressure and Assembly-member arrests.",
+    "UN document A/2187: open cited pages 6, 18-19, 36-38 on So Min-ho trial and political crisis.",
+    "Chosun Ilbo 1952-05-22 original image: verify transcription/context of So Min-ho's post-release statement.",
+    "Minju Sinbo 1952-05-20 original image: identify rally organizers/sponsors omitted or compressed in database transcription.",
+    "National Assembly personnel records: resolve Jeong Jin-dong specialist identity against same-name politician registry.",
+    "Prosecutor General personnel records: resolve Han Kyok-man birth/death variants and exact tenure dates.",
+    "Court personnel records: verify An Yun-chul 1911-1994 biographical fields from official registry rather than later press.",
+    "Claim graph: create explicit claim object for 'May 14 resolution caused immediate release' and mark contradicted by May 19 physical-release evidence.",
+    "Event graph: link May 19 rally to organizations only after organizer provenance is found; avoid retroactive 'government-directed' edge without evidence.",
+    "Organization registry: prepare stable IDs for National Assembly, Ministry of Home Affairs, National Police, Busan District Court, prosecution and prison authority.",
+    "Document registry: deduplicate FRUS d135 and NIHK's FRUS-derived copies while preserving edition/provenance relationship.",
+    "History debt HD-RHEE-006: keep NARROWED until Korean primary order chain is recovered.",
+    "Coverage: score this branch as improved for constitutional procedure, legislature, justice, prosecution, corrections, security and public-pressure politics, but not resolved.",
+    "Adversarial: search opposition/Assembly accounts disputing government characterization of So Min-ho case.",
+    "Adversarial: search government/Free Party accounts defending legality/necessity of martial law and arrests.",
+    "Adversarial: compare later judicial-history account of An Yun-chul with contemporaneous court reporting.",
+    "Adversarial: test whether May 19 crowd estimate 4,500 differs across newspapers/police/foreign diplomatic reporting.",
+    "Adversarial: test exact geographic scope and stated rationale of martial law against Korean proclamation, not secondary summaries."
+  ]
+}

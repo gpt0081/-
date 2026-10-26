@@ -1,0 +1,27 @@
+{
+  "pass": 96,
+  "date": "2026-09-23",
+  "scope": "1953 second Japan talks fisheries terminal series M11-M13 and proposal-document control",
+  "events": [
+    {"id":"EVT-JAPAN-TALKS-FISHERIES-1953-R2-M11","seriesOrder":11,"documentaryEditionPage":980,"status":"BIBLIOGRAPHICALLY_VERIFIED_METADATA_OPEN"},
+    {"id":"EVT-JAPAN-TALKS-FISHERIES-1953-R2-M12","seriesOrder":12,"documentaryEditionPage":989,"status":"BIBLIOGRAPHICALLY_VERIFIED_METADATA_OPEN"},
+    {"id":"EVT-JAPAN-TALKS-FISHERIES-1953-R2-M13","seriesOrder":13,"documentaryEditionPage":993,"status":"BIBLIOGRAPHICALLY_VERIFIED_METADATA_OPEN"}
+  ],
+  "documents": [
+    {"id":"DOC-R2-FISH-M11-REPORT","title":"한일회담 제11차 어업위원회 경과보고 건","documentaryEditionPage":980,"provenance":"동북아역사재단 2021 외교문서 자료총서; NIKH/National Assembly bibliographic cross-check","originalTextObtained":false,"status":"TARGET_FIXED"},
+    {"id":"DOC-R2-FISH-JP-DOMESTIC-REGULATION","title":"한일회담 어업위원회에서 제출될 일본 측의 저어 어업 및 부어 어업에 관한 국내 규제의 개황 설명서 송부의 건","documentaryEditionPage":984,"originalTextObtained":false,"status":"TARGET_FIXED"},
+    {"id":"DOC-R2-FISH-M12-REPORT","title":"한일회담 제12차 어업위원회 경과보고 건","documentaryEditionPage":989,"originalTextObtained":false,"status":"TARGET_FIXED"},
+    {"id":"DOC-R2-FISH-M13-REPORT","title":"한일회담 제13차 어업위원회 경과보고 건","documentaryEditionPage":993,"originalTextObtained":false,"status":"TARGET_FIXED"},
+    {"id":"DOC-R2-FISH-JP-OUTLINE-19530629","title":"일한 어업협정 요강(일본 측 안 원문)","date":"1953-06-29","provenance":"대한민국 외교문서/동북아역사넷 후대 공식 편철","originalTextObtained":false,"status":"OFFICIAL_COMPILATION_VERIFIED"},
+    {"id":"DOC-R2-FISH-KR-OUTLINE-19530717","title":"한일어업조약요강(대한민국안)","date":"1953-07-17","provenance":"대한민국 외교문서/동북아역사넷 후대 공식 편철","originalTextObtained":false,"status":"OFFICIAL_COMPILATION_VERIFIED_AUTHORSHIP_OPEN"},
+    {"id":"DOC-R2-FISH-JP-ARTICLE4-EXPLAIN-19530723","title":"일측 요강 제4항에 관한 일측의 설명","date":"1953-07-23","provenance":"대한민국 외교문서/동북아역사넷 후대 공식 편철","originalTextObtained":false,"status":"OFFICIAL_COMPILATION_VERIFIED_PRESENTER_OPEN"},
+    {"id":"DOC-PEACE-LINE-STATE-COUNCIL-NOTICE-14","title":"State Council Notice No. 14 / adjacent-seas sovereignty instrument","date":"1952-01-18","provenance":"U.S. Library of Congress legal-history citation; Korean original required","originalTextObtained":false,"status":"PRIMARY_TARGET_NARROWED"}
+  ],
+  "claims": [
+    {"id":"CLM-R2-FISH-TERMINAL-ORDER","statement":"제2차 한일회담 어업위원회 자료총서의 terminal sequence는 M11 보고, 일본 국내규제 설명서, M12 보고, M13 보고 순이다.","supportingEvidence":["DOC-R2-FISH-M11-REPORT","DOC-R2-FISH-JP-DOMESTIC-REGULATION","DOC-R2-FISH-M12-REPORT","DOC-R2-FISH-M13-REPORT"],"status":"SUPPORTED_BIBLIOGRAPHICALLY"},
+    {"id":"CLM-R2-FISH-KR-OUTLINE-DISTINCT","statement":"1953-07-17 대한민국안은 1953-06-29 일본측 안 및 1953-07-23 일본측 제4항 설명과 구별되는 별도 문서 객체다.","supportingEvidence":["DOC-R2-FISH-JP-OUTLINE-19530629","DOC-R2-FISH-KR-OUTLINE-19530717","DOC-R2-FISH-JP-ARTICLE4-EXPLAIN-19530723"],"status":"SUPPORTED"},
+    {"id":"CLM-R2-FISH-M13-DATE","statement":"M13 회의가 1953-07-23에 개최되었다.","supportingEvidence":[],"insufficientEvidence":["DOC-R2-FISH-JP-ARTICLE4-EXPLAIN-19530723"],"status":"OPEN_DO_NOT_INFER"},
+    {"id":"CLM-PEACE-LINE-JI-DRAFTER","statement":"지철근이 1952 평화선 문안을 주도적으로 작성했다.","supportingEvidence":[],"insufficientEvidence":["DOC-PEACE-LINE-STATE-COUNCIL-NOTICE-14"],"status":"OPEN_PRIMARY_CORROBORATION_REQUIRED"}
+  ],
+  "methodNote":"Bibliographic order can create event/document shells but cannot populate dates, participants or authorship. Later official compilations preserve document existence but original routing/signature provenance remains a separate field."
+}

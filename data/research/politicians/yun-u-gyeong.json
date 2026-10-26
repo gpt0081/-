@@ -1,0 +1,41 @@
+{
+  "id": "pol-yun-u-gyeong",
+  "candidateId": "cand-yun-u-gyeong",
+  "name": "윤우경",
+  "aliases": ["尹宇景", "Yun U-gyeong", "Yun U-gyong", "Yun-Kyong"],
+  "lifespan": {"born":"1900", "died":"1995", "verification":"한국민족문화대백과사전 2025-10-23 수정 항목"},
+  "researchStatus": "VERIFIED",
+  "promotionReason": "1952 부산정치파동기의 서울시경찰국장→내무부 치안국장 전환과 국회의원 감시 명제, 이후 구황실재산 관리까지 연결되는 경찰·행정 actor다. 국가기록원 기관연혁으로 치안국장 재임일을 직접 보강했다.",
+  "roles": [
+    {"title":"서울시경찰국장","period":"1951-06-24~1952-05-25","verification":"서울특별시경찰청 공식 역대 국장 연혁","confidence":"high"},
+    {"title":"내무부 치안국장","period":"1952-05-25~1952-09-16","verification":"국가기록원 내무부 치안국 기관연혁","confidence":"high","chronologyNote":"FRUS 편집자 노트는 1952-05-24 계엄 선포 직전 임명으로 서술한다. 국내 공식 기관연혁은 윤우경 취임일과 전임 홍순봉 퇴임일을 모두 1952-05-25로 기록하므로 정확한 발령·효력 시각은 CONFLICTED-NARROWED."},
+    {"title":"구왕궁재산관리위원회/구황실재산사무총국 계열 책임자","period":"1953 이후","verification":"AKS 인물항목 및 기관연혁 추가 검증 필요","confidence":"medium"}
+  ],
+  "eventConnections": [
+    {"event":"evt-1952-busan-political-crisis","role":"서울시경찰국장에서 중앙 치안국장으로 전환된 경찰 지휘 actor","attributionCaution":"FRUS의 5/24 서술과 국가기록원의 5/25 취임일 사이 하루 경계가 충돌한다. 5/24~25 개별 체포·계엄 집행은 발령원문과 집행기관 문서 확보 전 윤우경 개인에게 자동 귀속하지 않는다."},
+    {"event":"evt-1952-president-assassination-attempt","role":"national police chief during investigation","attributionCaution":"AKS는 암살미수사건 적발을 치안국장 재임 경력으로 연결하지만 피의자별 수사행위는 공판·수사기록 검증 필요."}
+  ],
+  "evidenceCoverage": {"identity":"high","seoul_police_chief_term":"high","1952_police_chief_term":"high with one-day appointment/effective-time conflict","busan_crisis_command_role":"medium-high","assembly_surveillance_order":"medium-low pending primary police document and unit-name correction","later_royal_property_role":"medium"},
+  "sourceNotes": [
+    {"type":"official archival institutional history","title":"국가기록원 기록물 생산기관 변천정보: 내무부 치안국","url":"https://theme.archives.go.kr/next/organ/viewDetailInfo.do?code=OG0007388&isProvince=&mapInfo=mapno1","accessed":"2026-09-29","finding":"홍순봉 1952-03-18~05-25, 윤우경 1952-05-25~09-16. 1952년 조직에는 정보수사과가 존재하고 사찰과는 1950-08 종료로 기술."},
+    {"type":"official police institutional history","title":"서울특별시경찰청 역대 국장/청장","url":"https://www.smpa.go.kr/user/nd13225.do","accessed":"2026-09-29","finding":"윤우경 서울시경찰국장 1951-06-24~1952-05-25."},
+    {"type":"official diplomatic primary/editorial","title":"FRUS 1952–1954 Korea XV Part 1, Editorial Note on May 24 martial law","url":"https://history.state.gov/historicaldocuments/frus1952-54v15p1/d138","accessed":"2026-09-29","finding":"계엄 직전 신임 내무팀 인사를 서술하나 국내 공식 기관연혁과 날짜 경계 재대조 필요."},
+    {"type":"scholarly encyclopedia","title":"한국민족문화대백과사전 윤우경","url":"https://encykorea.aks.ac.kr/Article/E0081287","accessed":"2026-09-29","finding":"생몰·경력 및 1952년 국회의원 감시 명제. '사찰과' 표현은 국가기록원 조직연혁과 충돌하므로 원출전 확인 필요."}
+  ],
+  "openLeads": [
+    "관보·내무부 인사철에서 1952-05-24~25 윤우경 치안국장 임명 발령번호·발령일·효력시각을 확정하고 FRUS와 국가기록원 날짜 차이를 해소한다.",
+    "1952년 6월 국회의원 감시 업무하달 원문을 찾아 발신명의·수신처·법적 근거와 담당부서를 전사한다. 국가기록원 기관연혁상 당시 사찰과가 아니라 정보수사과가 존속했으므로 부서명을 우선 검증한다.",
+    "1952-05-25 이후 국회의원 연행에서 치안국 경찰과 헌병·계엄사령부의 집행을 사건별로 분리한다.",
+    "1952-06-25 대통령저격사건 수사기록에서 윤우경 개인 지시와 치안국 조직행위를 분리한다.",
+    "전임 치안국장 홍순봉의 1952-05-25 퇴임 발령과 윤우경 취임 발령을 같은 관보/인사철에서 대조한다."
+  ],
+  "historyDebt": [
+    {"id":"HD-YUG-1952-APPOINTMENT-BOUNDARY","status":"CONFLICTED","question":"FRUS의 5월24일 계엄 직전 임명 서술과 국가기록원의 5월25일 공식 재임 시작일 사이 정확한 발령·효력시각"},
+    {"id":"HD-YUG-1952-ASSEMBLY-SURVEILLANCE","status":"REOPENED","question":"국회의원 감시 명령 원문, 윤우경 개인 결재·지시 범위, 실제 담당부서. AKS의 '사찰과' 표현은 국가기록원 조직연혁상 사찰과가 1950-08 종료되고 정보수사과가 1950-08~1955-02 존속했다는 기록과 충돌."}
+  ],
+  "reviewHistory": [
+    {"date":"2026-09-29","action":"correction","detail":"pass 230의 '5월24일 치안국장 전환' 표현을 국내 공식 기관연혁에 따라 재검토. 윤우경 공식 재임 시작일은 5월25일로 기록되며 전임 홍순봉도 5월25일까지로 나타나므로 하루 경계를 CONFLICTED로 보존."},
+    {"date":"2026-09-29","action":"reopen","detail":"AKS가 1952년 6월 국회의원 감시를 '사찰과' 업무로 서술하지만 국가기록원은 치안국 사찰과 존속을 1948.11~1950.08, 정보수사과를 1950.08~1955.02로 기록. 감시 명제의 담당부서·원문을 재검증하기 위해 REOPENED."}
+  ],
+  "lastUpdated":"2026-09-29"
+}

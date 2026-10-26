@@ -1,0 +1,33 @@
+{
+  "pass": 101,
+  "date": "2026-09-23",
+  "scope": "Peace Line policy prehistory, 1949-1951",
+  "migration_note": "Additive candidate layer only; do not overwrite established registries until document-level provenance is recovered.",
+  "documents": [
+    {"id":"doc-cand-1949-jp-kr-fisheries-agreement","date":"1949","title":"한일수산협정에 관한 건","provenance":"NAHF official diplomatic-document index","original_status":"INDEX_VERIFIED","open_lead":"recover text, author, sender, recipient and approval chain"},
+    {"id":"doc-cand-1949-fisheries-committee-rules","date":"1949","title":"한일수산협정위원회규정(안)","provenance":"NAHF official diplomatic-document index","original_status":"INDEX_VERIFIED","open_lead":"extract committee membership and organizations"},
+    {"id":"doc-cand-1949-05-03-oejeong-33","date":"1949-05-03","document_no":"외정 제33호","title":"맥아더선 漁區확정, 어장확장에 관한 건","provenance":"NAHF official diplomatic-document index","original_status":"INDEX_VERIFIED"},
+    {"id":"doc-cand-1951-03-29-haebon-84","date":"1951-03-29","document_no":"해본작발 제84호","title":"어업관계자료 모집에 관한 건","provenance":"NAHF official diplomatic-document index","original_status":"INDEX_VERIFIED","open_lead":"resolve issuing organization and signatory"},
+    {"id":"doc-cand-1951-04-03-oejeong-225","date":"1951-04-03","document_no":"외정 제225호","title":"대일강화 후의 한일간 어업에 관하여 미국의 양해요청에 관한 건","provenance":"NAHF official diplomatic-document index","original_status":"INDEX_VERIFIED","open_lead":"compare versions 1-5 and FRUS counterpart"},
+    {"id":"doc-cand-1951-04-12-hanildae-1829","date":"1951-04-12","document_no":"한일대 제1829호","title":"대일어업협정에 관한 상신의 건","provenance":"NAHF official diplomatic-document index","original_status":"INDEX_VERIFIED"},
+    {"id":"doc-cand-1951-04-12-basic-problems","date":"1951-04-12","title":"대일어업협정에 관한 기본문제","type":"report","provenance":"NAHF official diplomatic-document index","original_status":"INDEX_VERIFIED"},
+    {"id":"doc-cand-1951-04-14-navy-3423","date":"1951-04-14","document_no":"해군 제3423호","title":"한국근해에서 나포된 일본어부 및 어선의 처분에 관한 건","provenance":"NAHF official diplomatic-document index","original_status":"INDEX_VERIFIED","open_lead":"extract legal authority, executing unit, vessels and waters"},
+    {"id":"doc-cand-1951-04-26-hanildae-1902","date":"1951-04-26","document_no":"한일대 제1902호","title":"어업협정에 관한 참고자료 상달의 건","provenance":"NAHF official diplomatic-document index","original_status":"INDEX_VERIFIED"},
+    {"id":"doc-cand-1951-05-04-jurisdiction-report","date":"1951-05-04","title":"아국영해선 외의 어업보호관할권문제","type":"report","provenance":"NAHF contemporaneous record","original_status":"PARTIAL_TEXT_EXPOSED"}
+  ],
+  "actor_candidates": [
+    {"candidate_id":"pol-cand-jo-jeong-hwan","name_ko":"조정환","name_hanja":"曺正煥","name_en":"Cho Jeong-hwan","research_status":"IDENTIFIED","period_role":"외무부차관, 1949-03~1951-07 (official confirmation still required in this pass)","event_links":["peace-line-upstream-formation-1949-1951"],"action_type":"institutional-officeholder-context","evidence_coverage":"secondary/biographical lead plus temporal overlap; no document-level attribution yet","open_leads":["official MOFA appointment record","compare signature/approval lines on 외정 제33호, 제225호, 제302호 and 1951-05/06 files"],"history_debt":"Do not infer drafting or approval solely from vice-minister tenure."},
+    {"candidate_id":"pol-cand-ji-cheol-geun","name_ko":"지철근","research_status":"IDENTIFIED","event_links":["peace-line-upstream-formation-1949-1951"],"action_type":"fisheries-bureaucrat-context","evidence_coverage":"later accounts connect him to Peace Line; upstream document authorship unverified","open_leads":["1951 fisheries bureau personnel order","document-level signatures","1979 평화선 pp.111-129"],"history_debt":"drafted_by/proposed_by remains OPEN"},
+    {"candidate_id":"pol-cand-kim-dong-jo","name_ko":"김동조","name_hanja":"金東祚","name_en":"Kim Dong-jo","research_status":"IDENTIFIED","period_role":"외무부 정무국장 from 1951 according to biographical source","event_links":["peace-line-upstream-formation-1949-1951"],"action_type":"diplomatic-bureaucrat-context","evidence_coverage":"career overlap; no upstream document attribution recovered in this pass","open_leads":["MOFA personnel record","1951 diplomatic-document signatures"],"history_debt":"do not infer Dokdo/Peace Line drafting from later memoir claims without primary corroboration"}
+  ],
+  "event_candidates": [
+    {"event_id":"evt-cand-1949-fisheries-agreement-preparation","period":"1949","type":"policy_preparation","legal_authority":"OPEN","proposed_by":[],"decided_by":[],"executed_by":[],"observed_by":[],"status":"INDEX_VERIFIED"},
+    {"event_id":"evt-cand-1951-us-understanding-request","date":"1951-04-03","type":"diplomatic_action","document_refs":["doc-cand-1951-04-03-oejeong-225"],"status":"INDEX_VERIFIED"},
+    {"event_id":"evt-cand-1951-japanese-vessel-enforcement","date":"1951-04-14","type":"enforcement","document_refs":["doc-cand-1951-04-14-navy-3423"],"executed_by":["org-cand-rok-navy"],"legal_authority":"OPEN","status":"INDEX_VERIFIED"},
+    {"event_id":"evt-cand-1951-extra-territorial-fisheries-jurisdiction","date":"1951-05-04","type":"policy_analysis","document_refs":["doc-cand-1951-05-04-jurisdiction-report"],"status":"PARTIAL_TEXT_EXPOSED"}
+  ],
+  "claims": [
+    {"claim_id":"claim-pass101-prehistory-start","statement":"The Peace Line policy-production prehistory predates the 1951-05-04 report and is visible in official indexed records from at least 1949, with a dense preparation/enforcement phase by March-April 1951.","status":"SUPPORTED_AT_DOCUMENT_SERIES_LEVEL","supporting_evidence":["NAHF official series index"],"contradicting_evidence":[],"insufficient_evidence":["individual original texts for many indexed records remain unrecovered"]},
+    {"claim_id":"claim-pass101-single-author","statement":"Ji Cheol-geun or any single official personally originated/drafted the whole Peace Line policy chain.","status":"INSUFFICIENT_EVIDENCE","supporting_evidence":[],"contradicting_evidence":["multi-agency document series spans diplomatic, naval, fisheries and cabinet contexts"],"insufficient_evidence":["document signatures and approval chains"]}
+  ]
+}

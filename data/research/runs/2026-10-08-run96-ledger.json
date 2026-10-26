@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "run": 96,
+  "date": "2026-10-08",
+  "branch": "research/run89-audit-property-oversight",
+  "baseCommit": "da5691e784160ed47dcb1f9d7ea251b79b533e8d",
+  "scope": "1947 UN 결의 날짜 정정, 1949 NSC 철군 승인·UNCOK 감시권한, 임병직 1949-1950 독립 실록",
+  "actual": {
+    "independentResearchLines": 3,
+    "domainsStrengthened": [
+      "외교·안보",
+      "경제·교육 정책",
+      "국제기구·통일"
+    ],
+    "nonPresidentPoliticiansDeepened": 1,
+    "eventsStructured": 7,
+    "claimsStructured": 6,
+    "uniqueSubstantiveDocumentsDirectlyOpened": 8,
+    "officialPrimaryOrContemporaneousDirectlyOpened": 7,
+    "adversarialChecks": 3,
+    "priorOpenLeadsFollowed": 3,
+    "priorOpenLeadsResolved": 0,
+    "newLeads": 16,
+    "threeFamilyCrosschecksCompleted": 0,
+    "documentsRegistered": 8
+  },
+  "sourceCountMethod": "7개 원문 텍스트: NSC 8/2, Truman 1952 성명, FRUS d236, UN 결의 112/293, 1950 임병직 6/26 및 8/5 성명. 추가 1개 AKS 인물 해설 직접 열람. UN A/936 두 권은 메타데이터만, 직접 열람 수에서 제외. FRUS 1947 d660은 UN112 복제문서로 중복 계산하지 않음.",
+  "adversarial": [
+    {
+      "target": "트루먼 1952 회고의 1947-10-14 결의 채택일",
+      "counterEvidence": "UN A/RES/112(II) 1947-11-14",
+      "outcome": "DATE_ERROR_CONFIRMED"
+    },
+    {
+      "target": "1949 UN 군사감시원 권한 부재가 영구적이었다는 단순화",
+      "counterEvidence": "UN A/RES/293(IV) 1949-10-21 1(c)",
+      "outcome": "MANDATE_CHANGED"
+    },
+    {
+      "target": "1950 임병직 국군 전력 발언을 객관적 전력 판정으로 해석",
+      "counterEvidence": "NSC 8/2의 조건부 위험평가와 발언 성격 구분",
+      "outcome": "ATTRIBUTION_LIMITED"
+    }
+  ],
+  "followedPriorLeads": [
+    {
+      "id": "L95D-14",
+      "result": "NSC 8/2 3/22 보고서 및 3/23 승인 FRUS 전사 확인, 원본 NAID 이미지 미확보, NARROWED"
+    },
+    {
+      "id": "L95D-11",
+      "result": "A/936 서지 확인, PDF 403으로 원문 미열람, BLOCKED"
+    },
+    {
+      "id": "L95D-12",
+      "result": "A/936/Add.1 서지 확인, PDF 403으로 7/11 서한 미열람, BLOCKED"
+    }
+  ],
+  "corrections": [
+    {
+      "claimId": "c96-truman-1947-date-correction",
+      "description": "1952 Truman 성명 1947-10-14 vs UN 112(II) 1947-11-14"
+    }
+  ],
+  "limitations": [
+    "목표 20 연구선·10 비대통령·40 직접문서·20 1차문서 미달",
+    "UN A/936 원면 403",
+    "독립 3계열 교차검증 미완",
+    "1시간 실행 주장하지 않음"
+  ],
+  "weeklyFullReview": "역사부채 주간 전수조사 미실시",
+  "floot": "UNTOUCHED",
+  "integration": "INTEGRATED",
+  "commits": [
+    "ded442edaeb877581d44782acaea3b6243722852"
+  ],
+  "consistencyGate": {
+    "checkedAt": "2026-10-08",
+    "documentClaimEventLinks": true,
+    "politicianStableId": true,
+    "organizationStableIds": true,
+    "annalsEvidenceFiles": true,
+    "leadQueue": true,
+    "unresolvedOriginalsPreserved": true,
+    "notes": "branch-only research; main not merged. FRUS 1947 d660 same UN112 document family not double-counted."
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-09-30",
+  "politicianId": "pol-rhee-syngman",
+  "purpose": "기존 registry를 깨뜨리지 않는 append-only research delta. 검증 후 canonical registries에 병합한다.",
+  "documents": [
+    {"id":"doc-frus-1953-606","date":"1953-06-18","title":"FRUS Korea XV/2 doc.606 editorial note","provenance":"US Department of State FRUS","url":"https://history.state.gov/historicaldocuments/frus1952-54v15p2/d606","type":"official-edited-contemporaneous-record"},
+    {"id":"doc-frus-1953-607","date":"1953-06-18","title":"Rhee to Clark; ROK OPI S-61","provenance":"US Department of State FRUS / Mark W. Clark Collection","url":"https://history.state.gov/historicaldocuments/frus1952-54v15p2/d607","type":"primary-letter-and-press-release"},
+    {"id":"doc-frus-1953-611","date":"1953-06-18","title":"Dulles-Paek Tu Chin memorandum of conversation","provenance":"US Department of State FRUS","url":"https://history.state.gov/historicaldocuments/frus1952-54v15p2/d611","type":"contemporaneous-diplomatic-record"},
+    {"id":"doc-frus-1953-630","date":"1953","title":"ROK proposals during armistice crisis","provenance":"US Department of State FRUS","url":"https://history.state.gov/historicaldocuments/frus1952-54v15p2/d630","type":"contemporaneous-diplomatic-record"},
+    {"id":"doc-frus-1953-682","date":"1953-07-09","title":"Republic of Korea Draft of Mutual Defense Treaty","provenance":"US Department of State FRUS","url":"https://history.state.gov/historicaldocuments/frus1952-54v15p2/d682","type":"primary-draft"},
+    {"id":"doc-frus-1953-741","date":"1953","title":"Dulles-Rhee talks and initialing of Mutual Defense Treaty draft","provenance":"US Department of State FRUS","url":"https://history.state.gov/historicaldocuments/frus1952-54v15p2/d741","type":"contemporaneous-diplomatic-record"},
+    {"id":"doc-frus-1952-138","date":"1952-05-24/26","title":"Pusan martial law and Assembly arrests editorial note","provenance":"US Department of State FRUS","url":"https://history.state.gov/historicaldocuments/frus1952-54v15p1/d138","type":"official-edited-contemporaneous-record"},
+    {"id":"doc-frus-1952-206","date":"1952-07-02/04","title":"Assembly police escort and constitutional amendment editorial note","provenance":"US Department of State FRUS","url":"https://history.state.gov/historicaldocuments/frus1952-54v15p1/d206","type":"official-edited-contemporaneous-record"},
+    {"id":"doc-frus-1958-211","date":"1958-02-03","title":"Arrest of Cho Bong-am memorandum","provenance":"US Department of State FRUS","url":"https://history.state.gov/historicaldocuments/frus1958-60v18/d211","type":"contemporaneous-diplomatic-record"},
+    {"id":"doc-frus-1958-259","date":"1958-12-25","title":"Eisenhower to Rhee on National Security Law passage","provenance":"US Department of State FRUS","url":"https://history.state.gov/historicaldocuments/frus1958-60v18/d259","type":"primary-presidential-message"},
+    {"id":"doc-frus-1960-288","date":"1960-03-10","title":"1960 Presidential Elections in the ROK","provenance":"US Department of State FRUS","url":"https://history.state.gov/historicaldocuments/frus1958-60v18/d288","type":"contemporaneous-diplomatic-assessment"},
+    {"id":"doc-frus-1960-310","date":"1960-04-26/27","title":"National Assembly resignation resolution and Rhee resignation","provenance":"US Department of State FRUS","url":"https://history.state.gov/historicaldocuments/frus1958-60v18/d310","type":"official-edited-contemporaneous-record"}
+  ],
+  "claims": [
+    {"id":"claim-rhee-pow-direct-order","statement":"이승만은 1953-06-18 반공포로 석방을 자신의 책임으로 명령했고 한국 군사경찰에 즉시 석방을 지시했다고 직접 서술했다.","supportingEvidence":["doc-frus-1953-607"],"corroboratingEvidence":["doc-frus-1953-606","doc-frus-1953-611"],"status":"strongly-supported","caution":"수용소별 하위 전달명령은 별도 미확인"},
+    {"id":"claim-1952-individual-arrest-orders","statement":"1952 부산정치파동의 개별 국회의원 체포가 이승만의 개별 직접명령이었다.","supportingEvidence":[],"contextEvidence":["doc-frus-1952-138","doc-frus-1952-206"],"status":"insufficient-evidence","caution":"대통령의 정치적·헌정적 책임과 개별 체포명령 발신자 명제를 분리"},
+    {"id":"claim-rhee-cho-direct-judicial-intervention","statement":"이승만이 조봉암의 수사·유죄·사형을 직접 지시했다.","supportingEvidence":[],"status":"insufficient-evidence","caution":"체포·재판·집행 및 미국의 외교우려는 확인되나 대통령 직접지시 원문 미확보"},
+    {"id":"claim-treaty-individual-authorship","statement":"1953 한미상호방위조약의 세부 조문은 이승만 개인이 작성했다.","supportingEvidence":[],"contextEvidence":["doc-frus-1953-682","doc-frus-1953-741"],"status":"insufficient-evidence","caution":"한국정부 초안과 이승만의 정치적 요구를 개인 조문저작과 동일시하지 않음"}
+  ],
+  "events": [
+    {"id":"evt-1953-anti-communist-pow-release","date":"1953-06-18","proposed_by":[],"decided_by":["pol-rhee-syngman"],"executed_by":["org-rok-military-police"],"observed_by":["org-unc","org-us-state-department"],"documents":["doc-frus-1953-606","doc-frus-1953-607","doc-frus-1953-611"],"open":"수용소별 전달명령·실행자"},
+    {"id":"evt-1953-us-rok-mutual-defense-treaty-negotiation","date":"1953","proposed_by":["org-rok-government","org-us-government"],"negotiated_by":["pol-rhee-syngman","pol-pyun-yung-tai"],"documents":["doc-frus-1953-682","doc-frus-1953-741"],"open":"한국측 초안 작성자와 조문별 수정 provenance"},
+    {"id":"evt-1952-busan-constitutional-crisis","date":"1952-05-24/07-04","decided_by":["pol-rhee-syngman"],"executed_by":["pol-lee-beom-seok","pol-hong-pom-hui","pol-yun-kyong","org-rok-police","org-rok-military-police"],"opposed_or_targeted":["pol-so-min-ho","org-national-assembly-opposition"],"documents":["doc-frus-1952-138","doc-frus-1952-206"],"open":"개별 체포명령·경무대 지시"}
+  ],
+  "politicianCandidates": [
+    {"id":"pol-paek-tu-chin","name":"백두진","aliases":["Paek Tu Chin","Baek Du-jin"],"roles":["국무총리","경제조정 관련 고위직"],"status":"VERIFIED_CANDIDATE","connections":["evt-1953-anti-communist-pow-release"]},
+    {"id":"pol-pyun-yung-tai","name":"변영태","aliases":["Pyun Yung Tai","Byun Yeong-tae"],"roles":["외무부 장관"],"status":"VERIFIED_CANDIDATE","connections":["evt-1953-us-rok-mutual-defense-treaty-negotiation"]},
+    {"id":"pol-hong-pom-hui","name":"홍범희","aliases":["Hong Pom-Hi"],"roles":["내무부 차관"],"status":"IDENTIFIED","connections":["evt-1952-busan-constitutional-crisis"]},
+    {"id":"pol-yun-kyong","name":"윤경","aliases":["Yun-Kyong"],"roles":["치안 책임자"],"status":"IDENTIFIED","connections":["evt-1952-busan-constitutional-crisis"]},
+    {"id":"pol-so-min-ho","name":"소민호","aliases":["So Min-ho"],"roles":["국회의원"],"status":"IDENTIFIED","connections":["evt-1952-busan-constitutional-crisis"]},
+    {"id":"pol-kim-tal-ho","name":"김달호","aliases":["Kim Tal-ho"],"roles":["진보당 국회의원"],"status":"IDENTIFIED","connections":["evt-1958-progressive-party-case"]},
+    {"id":"pol-huh-chung","name":"허정","aliases":["Huh Chung","Heo Jeong"],"roles":["서울시장","외무장관","대통령 권한대행"],"status":"VERIFIED_CANDIDATE","connections":["evt-1960-rhee-resignation-transition"]}
+  ]
+}

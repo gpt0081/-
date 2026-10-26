@@ -1,0 +1,80 @@
+{
+  "pass": 234,
+  "date": "2026-09-29",
+  "parentEvent": "evt-1952-pusan-political-crisis",
+  "events": [
+    {
+      "id": "evt-1952-martial-law-state-council-decision",
+      "date": "before-or-on-1952-05-24",
+      "type": "state_council_decision",
+      "decided_by": ["State Council"],
+      "observed_by": ["Rhee statement recorded in FRUS"],
+      "legal_authority": ["1948 Constitution Article 72(6)"],
+      "status": "NARROWED",
+      "note": "Exact meeting date, vote and individual statements require minutes."
+    },
+    {
+      "id": "evt-1952-martial-law-presidential-approval-pusan-addition",
+      "date": "before-1952-05-25T00:00",
+      "type": "presidential_decision",
+      "decided_by": ["pol-rhee-syngman"],
+      "observed_by": ["FRUS telegram 1170 recording Rhee's own account"],
+      "status": "NARROWED",
+      "note": "Rhee said he approved the cabinet decision and suggested including Pusan."
+    },
+    {
+      "id": "evt-1952-martial-law-defense-minister-decree",
+      "date": "1952-05-24/25",
+      "type": "administrative_decree",
+      "executed_by": ["pol-shin-tae-young"],
+      "legal_authority": ["Law No.69"],
+      "status": "OPEN-NARROWED",
+      "note": "FRUS records that the defense minister would issue the decree; original decree remains a primary target."
+    },
+    {
+      "id": "evt-1952-won-yong-duk-appointment",
+      "date": "1952-05-24/25",
+      "type": "appointment",
+      "decided_by": ["pol-rhee-syngman", "State Council/defense administration pending original"],
+      "executed_by": ["pol-won-yong-duk"],
+      "status": "NARROWED",
+      "note": "Original appointment instrument remains open."
+    },
+    {
+      "id": "evt-1952-martial-law-direct-presidential-command-claim",
+      "date": "1952-05-24/27",
+      "type": "command_relationship",
+      "decided_by": ["pol-rhee-syngman"],
+      "executed_by": ["pol-won-yong-duk"],
+      "observed_by": ["Lightner/Van Fleet meeting record"],
+      "status": "NARROWED",
+      "note": "Rhee stated Won would take orders directly from him. Individual enforcement orders remain unproven."
+    },
+    {
+      "id": "evt-1952-army-chief-countermand-conflict",
+      "date": "1952-05-24/27",
+      "type": "command_conflict",
+      "opposed_by": ["pol-lee-jong-chan-army-chief"],
+      "executed_by": ["pol-won-yong-duk", "other officers unknown"],
+      "status": "NARROWED",
+      "note": "FRUS says Lee sent messages directing the martial-law commander not to act except on Lee's instructions. Original messages are not yet recovered."
+    },
+    {
+      "id": "evt-1952-uncurk-us-lift-martial-law-demand",
+      "date": "1952-05-28/30",
+      "type": "external_diplomatic_intervention",
+      "opposed_by": ["UNCURK", "United States Government"],
+      "observed_by": ["FRUS telegram 1200"],
+      "status": "VERIFIED",
+      "note": "UNCURK recommended lifting Pusan martial law and releasing Assemblymen; the US formally supported lifting where EUSAK found no military necessity."
+    },
+    {
+      "id": "evt-1952-martial-law-documentary-notice-dispute",
+      "date": "1952-05-24/29",
+      "type": "constitutional_compliance_question",
+      "legal_authority": ["1948 Constitution Article 64", "Article 72(6)", "Law No.69"],
+      "status": "OPEN-NARROWED",
+      "note": "Secondary archival research reports delayed documentary availability and a prior-notice requirement; primary Assembly receipt and Notice No.37 image are required before resolution."
+    }
+  ]
+}

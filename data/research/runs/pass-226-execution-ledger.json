@@ -1,0 +1,64 @@
+{
+  "pass": 226,
+  "date": "2026-09-28",
+  "focus": "국민보도연맹 예비검속 중앙 경찰 명령선의 공식 조사보고서 교차검증과 장석윤 독립 정치인 노드 승격",
+  "weekly_history_debt_full_review": false,
+  "weekly_history_debt_note": "역사부채 주간 전수조사 미실시. 월요일 회차이며 2026-09-27 일요일 전수조사 기록이 이미 존재한다.",
+  "counts": {
+    "independent_research_lines": 9,
+    "governance_domains_substantively_touched": 4,
+    "non_president_politicians_new_or_deepened": 3,
+    "events_or_subevents_structured_or_reinforced": 3,
+    "unique_historical_documents_or_records_directly_opened": 11,
+    "official_primary_contemporaneous_or_archive_documents": 5,
+    "adversarial_searches": 3,
+    "cross_provenance_verification_bundles_completed": 2,
+    "existing_open_leads_or_history_debt_followed": 4,
+    "new_specific_leads": 40
+  },
+  "governance_domains": ["치안", "행정", "안보/전쟁", "사법·과거사 조사"],
+  "key_findings": [
+    "2기 진실화해위 2023 하반기 대구 조사보고서는 1950-06-25 14:50 치안국장 명의 城署査 제1799호와 6/29·6/30·7/11 후속 통첩을 확인하고, 8월 경찰문서가 이 네 통첩을 상부 지시로 소급 인용한다고 적시한다.",
+    "전북 국민보도연맹 공식 조사보고서는 경찰 명령체계를 백성욱 내무부장관→장석윤 치안국장(1950-06-17~07-17)→도경→경찰서→지서로 명시한다. 동시에 군/CIC의 최초 사살명령권자는 구체적으로 확인하지 못했다고 밝혀 예비검속 명령과 사살명령의 기원을 분리한다.",
+    "국사편찬위원회 한국근대사료DB의 1950-06-21 동아일보 동시대 기사는 장석윤을 신임 치안국장, 김태선을 서울시 경찰국장 전임으로 명시한다. 직전 pass 225의 장석윤 귀속은 공식 후대 조사 + 동시대 언론이라는 독립 provenance로 더 강해졌다.",
+    "장석윤은 1950 치안국장뿐 아니라 대한관찰부/사정국, 내무부 차관·장관, 제3·4대 민의원 경력이 연결되어 독립 정치인 노드 ANNALS_ACTIVE로 시험 승격했다.",
+    "HD-RHEE-003은 중앙 경찰 예비검속 명령의 직위·문서번호·시각·전달단계가 좁혀졌으나, 중앙 최초 사살명령 발신자와 이승만 대통령의 직접명령 여부는 여전히 미확인이라 NARROWED를 유지한다."
+  ],
+  "politician_nodes_new_or_deepened": ["장석윤(ANNALS_ACTIVE 시험 승격)", "김태선(직책 분리 보강)", "백성욱(내무부장관 상위 지휘선 보강)"],
+  "events_or_subevents": [
+    "1950-06-25 城署査 제1799호 전국 요시찰인 단속·형무소 경비 통첩",
+    "1950-06-29~07-11 치안국장 후속 예비검속·석방금지 통첩 연쇄",
+    "지역 경찰 예비검속 명령선과 군/CIC 사살 실행·명령선의 attribution 분리"
+  ],
+  "claim_state_changes": [
+    "claim-june25-central-police-chief-identity: CONFLICTED-NARROWED -> VERIFIED-NARROWED",
+    "claim-bodo-police-preventive-detention-chain: NARROWED -> VERIFIED",
+    "claim-bodo-central-killing-order-origin: NARROWED 유지"
+  ],
+  "files_changed": [
+    "data/research/evidence/pass-226-bodo-central-command-primary-crosscheck.json",
+    "data/research/politicians/jang-seok-yun.json",
+    "data/research/leads/pass-226-next-lead-queue.json",
+    "data/research/runs/pass-226-execution-ledger.json"
+  ],
+  "commits": [
+    "a0316289eb561806c63a33d0f0c4360cd246bcc8",
+    "f8f1f503141baf6b5b87b132b6e624ab830c3d98",
+    "620c304de0adc2c2fa808d9a4a78a6a0ac6365f7"
+  ],
+  "minimums_not_met": [
+    "독립 연구선 20개",
+    "일반 국정영역 6개",
+    "비대통령 정치인 10명",
+    "event/sub-event 8개",
+    "직접 확인 문서 40건",
+    "공식 1차·동시대·아카이브 20건",
+    "adversarial search 10개",
+    "교차검증 3묶음",
+    "기존 open lead/history debt 8개 추적"
+  ],
+  "minimums_met": ["다음 회차 구체 lead 30개 이상(40개)"],
+  "limitations": "이번 실행은 pass 225의 직위 교정을 더 강한 공식 조사보고서와 동시대 기록으로 검증하고, 그 결과를 정치인 노드로 구조화하는 데 집중했다. 제1799호 자체 원문 이미지는 공식 보고서가 '진실화해위원회 입수 경찰문서'라고 식별한 단계까지 갔지만 이번 회차에 원문 이미지 파일 자체를 직접 열지는 못했다. 따라서 기안·결재선은 미확정이다. 수치 하한은 실제 확인량보다 부풀리지 않았다.",
+  "note": "Floot는 수정·빌드하지 않았다. 기존 pass 225 correction record를 덮어쓰지 않고 별도 pass 226 evidence와 politician node를 추가했다.",
+  "floot_touched": false
+}

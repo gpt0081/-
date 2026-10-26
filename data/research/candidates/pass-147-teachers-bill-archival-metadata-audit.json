@@ -1,0 +1,86 @@
+{
+  "pass": 147,
+  "date": "2026-09-25",
+  "scope": "Audit the 1960/1961 Teachers' Organization Bill lineage after pass 146, distinguishing official archival metadata from later synthesis and refusing same-title identity inference.",
+  "findings": [
+    {
+      "claim": "1960-10-08 Education Ministry pairing",
+      "status": "VERIFIED_OFFICIAL_METADATA",
+      "evidence": "National Archives 국무회의 안건 목록집 I lists item 287 교육공무원법 중 개정 법률(안), 3 pages, and item 288 교직단체법(안), 15 pages, both Education Ministry, 37th meeting, 1960-10-08, BA0084253."
+    },
+    {
+      "claim": "1961-06-21 same-title pairing",
+      "status": "VERIFIED_OFFICIAL_INDEX_METADATA",
+      "evidence": "National Archives cabinet search lists 교육공무원법중 개정법률(제25회) and 교직단체법(제25회), both deliberated 1961-06-21. The search result leaves proposing agency blank, so ministry attribution is not yet proven from this record."
+    },
+    {
+      "claim": "1961-02-12 terminal disposal",
+      "status": "CONFLICTED",
+      "evidence": "KDemo later synthesis says the Chang Myon-government bill was abandoned on 1961-02-12, while official National Archives metadata shows a same-title bill again on 1961-06-21. This is not a contradiction if the June item was a new draft, revival, carry-over, or archival reclassification; text and disposition records are required."
+    }
+  ],
+  "method_corrections": [
+    "Do not state that the 1961 bill was proposed by the Education Ministry until the original item or other official metadata supplies the proposer.",
+    "Do not state that the 1961 bill was enacted, adopted, or approved merely because it appears in cabinet deliberation metadata.",
+    "Do not state that the 1960 and 1961 bills were identical, revived, or continuous until their texts/document numbers are compared.",
+    "Treat the pairing of an Education Public Officials Act amendment and Teachers' Organization Bill in both 1960 and 1961 as a continuity signal only."
+  ],
+  "actor_nodes": [
+    {"id":"cand-mun-hui-seok","name":"문희석","research_status":"IDENTIFIED","connection":"education minister context on 1961-06-21; personal authorship unproven","open_lead":"original 25th-meeting item/minutes and appointment gazette"},
+    {"id":"cand-seo-myeong-won","name":"서명원","research_status":"IDENTIFIED","connection":"education vice-minister context; drafting role unproven","open_lead":"vice-minister chronology and ministry approval line"},
+    {"id":"cand-oh-cheon-seok","name":"오천석","research_status":"VERIFIED_CONTEXT","connection":"Education Ministry minister when 1960 items 287/288 entered State Council","open_lead":"1960 original approval/signature line"},
+    {"id":"cand-yun-taek-jung","name":"윤택중","research_status":"IDENTIFIED","connection":"transition-period education minister before post-coup cabinet","open_lead":"Feb-May 1961 bill custody/status"},
+    {"id":"cand-jang-myeon","name":"장면","research_status":"VERIFIED_CONTEXT","connection":"prime minister of cabinet in which 1960 bill was deliberated; personal direction unproven","open_lead":"37th State Council minutes"},
+    {"id":"cand-cho-jae-cheon","name":"조재천","research_status":"IDENTIFIED_CONTEXT","connection":"justice/legal-review context","open_lead":"Legislation Office/Justice Ministry opinions"},
+    {"id":"cand-kang-gi-cheol","name":"강기철","research_status":"IDENTIFIED_UNION_ACTOR","connection":"national teachers-union leadership and later prosecution","open_lead":"union response to bill text and military-trial record"},
+    {"id":"cand-kim-mun-sim","name":"김문심","research_status":"IDENTIFIED_UNION_ACTOR","connection":"Gyeongbuk union leadership and later prosecution","open_lead":"post-coup indictment and policy chronology"},
+    {"id":"cand-lee-mok","name":"이목","research_status":"IDENTIFIED_UNION_ACTOR","connection":"union executive/prosecution context","open_lead":"memoir citations and trial record"},
+    {"id":"cand-lee-jong-seok","name":"이종석","research_status":"IDENTIFIED_UNION_ACTOR","connection":"regional union/prosecution context","open_lead":"trial record and 1961 policy files"}
+  ],
+  "events": [
+    {"id":"evt-1960-10-08-state-council-teachers-organization-bill","status":"OFFICIAL_METADATA_VERIFIED"},
+    {"id":"evt-1960-10-08-education-public-officials-act-amendment","status":"OFFICIAL_METADATA_VERIFIED"},
+    {"id":"evt-1961-02-12-alleged-teachers-bill-disposal","status":"CONFLICTED_NEEDS_OFFICIAL_RECORD"},
+    {"id":"evt-1961-06-21-teachers-organization-bill-25th-meeting","status":"OFFICIAL_INDEX_VERIFIED_TEXT_BLOCKED"},
+    {"id":"evt-1961-06-21-education-public-officials-act-amendment-25th-meeting","status":"OFFICIAL_INDEX_VERIFIED_TEXT_BLOCKED"},
+    {"id":"evt-1960-1961-bill-text-comparison","status":"OPEN_HIGH_PRIORITY"},
+    {"id":"evt-1961-06-21-25th-meeting-disposition","status":"OPEN_HIGH_PRIORITY"},
+    {"id":"evt-1961-post-june-promulgation-check","status":"OPEN_HIGH_PRIORITY"}
+  ],
+  "adversarial_checks": 10,
+  "priority_leads": [
+    "국가기록원 1961-06-21 제25회 교직단체법 원문 이미지에서 문서번호·발의기관·작성일·제안이유·조문·처리결과 확보",
+    "동일 회차 교육공무원법중 개정법률 원문 확보 및 교직단체법과 companion 관계 검증",
+    "1961-06-21 제25회 국무회의록 원문에서 참석자·제안설명·토론·의결 확인",
+    "1961년 국무회의 안건목록집에서 두 안건의 관리번호·면수·기록물철 확정",
+    "BA0084253 item 288 15쪽 원문 확보",
+    "BA0084253 item 287 3쪽 원문 확보",
+    "1960 item 288과 1961 교직단체법 조문별 diff",
+    "1960 item 287과 1961 교육공무원법 개정안 조문별 diff",
+    "1961-02-12 국무회의·차관회의 기록에서 폐기/철회/보류 원문 확인",
+    "KDemo의 1961-02-12 폐기 서술 각주 원자료 역추적",
+    "1961-05-16~06-21 문교부 인계인수·미결법안 목록 검색",
+    "문희석 장관 임명 관보 원문 확보",
+    "서명원 차관 재임 공식 연혁/관보 검증",
+    "제25회 국무회의 참석자 명단 확보",
+    "1961 당시 군정 입법절차의 법적 권한 원문 확보",
+    "국가재건최고회의 회의록에서 교직단체법 이송/심의 검색",
+    "1961 관보에서 교직단체법 공포 여부 전수검색",
+    "1961 관보에서 교육공무원법 개정 공포 기록과 제25회 안건 연결",
+    "5·16 직후 교원노조 해산·체포 법적 근거 원문 확보",
+    "혁명재판 공소장/판결에서 교원노조 법적 지위 서술 추출",
+    "강기철 사건 기록에서 정부 법리 확인",
+    "김문심 사건 기록에서 정부 법리 확인",
+    "이목 사건 기록에서 정부 법리 확인",
+    "이종석 사건 기록에서 정부 법리 확인",
+    "1961년 6월 동아·경향·조선의 교직단체법 보도 원지면 확인",
+    "1961 문교부 업무보고에서 교직단체법 추진 목적 확인",
+    "1960-09-27 법제실 회부문서와 1961 법제심사 문서 비교",
+    "1960-10-08 제37회 국무회의 처리결과 원문 확보",
+    "대한교육연합회 1961 회보에서 군정 교직단체법 입장 확인",
+    "ICFTU/국제교원단체 자료에서 5·16 이후 한국 교원단체 법제 관찰 확인",
+    "1961-07~12 국무회의에서 교직단체법 재상정·시행령·후속안 검색",
+    "1962 국무회의/문교부 기록에서 교직단체법 후속 흔적 검색"
+  ],
+  "weekly_history_debt_full_review": "NOT_RUN; Friday, not Sunday in Asia/Seoul"
+}

@@ -1,0 +1,128 @@
+{
+  "run": 110,
+  "date": "2026-10-09",
+  "claims": [
+    {
+      "id": "clm110-decree350-report",
+      "statement": "1950-05-11 대통령령350호 제9조는 설립위원회의 종합경과보고서를 재무부장관을 거쳐 대통령에게 제출하도록 규정한다",
+      "status": "SUPPORTED_LEGAL_TEXT",
+      "supportingEvidence": [
+        "d110-law350"
+      ],
+      "insufficientEvidence": [
+        "제출보고서 실물·결재대장"
+      ],
+      "note": "제출 의무 존재와 실제 대통령 보고·결재를 혼동하지 않는다."
+    },
+    {
+      "id": "clm110-law-effective-timing",
+      "statement": "한국은행법 제138호 공포일은 1950-05-05, 법제처 연혁 시행일은 1950-05-26인 반면 설립위원회 대통령령350호는 1950-05-11 시행한다",
+      "status": "OPEN_LEGAL_INTERPRETATION",
+      "supportingEvidence": [
+        "d110-law138-meta",
+        "d110-law350"
+      ],
+      "contemporaneousObservation": [
+        "d110-press-bank-committee"
+      ],
+      "insufficientEvidence": [
+        "한국은행법 제138호 제정 부칙 전문",
+        "관보345호 원면"
+      ],
+      "note": "5월13일 상공일보의 '공포 시행'은 비법률적 표현일 수 있음. 시행 전 준비행위의 적법성은 원부칙과 법제자료 없이는 판단하지 않는다."
+    },
+    {
+      "id": "clm110-connelly-date",
+      "statement": "1954 Connelly 법률 메모는 법률138·139 공포일을 1950-05-04로 쓰지만 한국 공식 기록은 1950-05-05로 확인한다",
+      "status": "CONFLICTED_METADATA",
+      "supportingEvidence": [
+        "d110-us-connelly1954"
+      ],
+      "contradictingEvidence": [
+        "d110-law138-meta",
+        "d110-gazette345-catalog"
+      ],
+      "note": "1954 작성자는 법률138·139 번역문을 입수하지 못했다고 명시. 원문 부재의 한계를 기록하고 오류 원인을 단정하지 않는다."
+    },
+    {
+      "id": "clm110-committee-nine",
+      "statement": "1950-06-12 한미경제안정위원회는 13개 분과를 9개 상임위원회로 개편하고 한국측 위원장 실명을 보도했다",
+      "status": "NARROWED",
+      "supportingEvidence": [
+        "d110-press-economic9"
+      ],
+      "insufficientEvidence": [
+        "제48·50회 본회의 회의록",
+        "원임명부"
+      ],
+      "note": "신문 전사 단일 계열; 대통령·각료 개인의 사전 결정으로 귀속 금지."
+    },
+    {
+      "id": "clm110-election-invalid-arithmetic",
+      "statement": "1950-06-14 자유신문은 무효표 222451을 유권자 8434737의 8.1%로 서술하지만 실제 비율은 약 2.64%이다",
+      "status": "CONFLICTED_INTERNAL_ARITHMETIC",
+      "supportingEvidence": [
+        "d110-press-election-stats"
+      ],
+      "computed": {
+        "registered": 8434737,
+        "valid": 7530625,
+        "invalid": 222451,
+        "ballots": 7753076,
+        "turnoutPercent": 91.9184,
+        "invalidOfRegisteredPercent": 2.6373,
+        "abstentionPercent": 8.0816
+      },
+      "note": "8.1%는 등록 유권자 대비 기권율과 근접. 단순 전사오류/기자오류 어느 쪽인지 원지면 전까지 미확정."
+    },
+    {
+      "id": "clm110-child-ration-sum",
+      "statement": "1950-06-14 경향신문의 결식아동 특별배급 소요량 총계 46322석과 하위 13231+20091석은 일치하지 않는다",
+      "status": "CONFLICTED_INTERNAL_ARITHMETIC",
+      "supportingEvidence": [
+        "d110-press-child-ration"
+      ],
+      "computed": {
+        "headlineTotalSeok": 46322,
+        "urbanSeok": 13231,
+        "ruralSeok": 20091,
+        "subTotalSeok": 33322,
+        "differenceSeok": 13000
+      },
+      "note": "요청량이며 승인·집행 실적 아님. 원지면과 문교부 산출표 추적."
+    },
+    {
+      "id": "clm110-bank-inauguration-crosscheck",
+      "statement": "한국은행이 1950-06-12 업무를 시작했다",
+      "status": "SUPPORTED_TWO_PROVENANCE_FAMILIES",
+      "supportingEvidence": [
+        "d110-press-bank-opening",
+        "d109-bok-opening"
+      ],
+      "note": "당시 자유신문과 후대 한국은행 공식 기록. 같은 사실의 2계열 교차확인이지 3계열은 아님."
+    },
+    {
+      "id": "clm110-mpc-branch-crosscheck",
+      "statement": "1950-06-05 금융통화위원회가 6월12일 업무개시와 8개 지점 설치를 결정했다",
+      "status": "NARROWED_TWO_FAMILIES",
+      "supportingEvidence": [
+        "d110-press-mpc-first",
+        "d109-bok-opening"
+      ],
+      "insufficientEvidence": [
+        "금통위 제1회 의사록"
+      ],
+      "note": "서울신문은 지점명을 제시하고 BOK 공식 연혁은 지점 설치 의결을 요약."
+    },
+    {
+      "id": "clm110-presidential-nonattribution",
+      "statement": "한미경제안정위원회 1950-06-12 개편과 결식아동 배급 논의는 이승만 개인 직접 지시로 입증되었다",
+      "status": "INSUFFICIENT_EVIDENCE",
+      "insufficientEvidence": [
+        "d110-press-economic9",
+        "d110-press-child-ration"
+      ],
+      "note": "정부·위원회 활동 확인과 대통령 개인 지시의 존재는 서로 다른 명제."
+    }
+  ]
+}

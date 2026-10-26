@@ -1,0 +1,66 @@
+{
+  "run": 110,
+  "claims": [
+    {
+      "id": "c110-01",
+      "statement": "1950-05-30 roster is election-day winners only",
+      "status": "CONTRADICTED_BY_INTERNAL_TEMPORAL_LEAK",
+      "documentIds": [
+        "d110-nikh-1950-winners-list",
+        "d110-liberal1951",
+        "d110-oir5824"
+      ],
+      "reason": "1952 by-election names and 1951-founded party labels occur in 1950-dated table",
+      "adversarialSearchPerformed": true,
+      "nextOriginalTarget": "공식 원법령·국회속기록·선거 원명부 확인"
+    },
+    {
+      "id": "c110-02",
+      "statement": "1952-02-05 eight seats were replaced",
+      "status": "SUPPORTED_AGGREGATE_PERSON_MATCH_PROVISIONAL",
+      "documentIds": [
+        "d110-oir5824",
+        "d110-nikh-1950-winners-list"
+      ],
+      "reason": "US OIR contemporaneous aggregate 8 seats; individual names require original 1952 returns",
+      "adversarialSearchPerformed": true,
+      "nextOriginalTarget": "공식 원법령·국회속기록·선거 원명부 확인"
+    },
+    {
+      "id": "c110-03",
+      "statement": "1952 abducted MPs are the same eight vacancies",
+      "status": "CONTRADICTED_DISTINCT_LEGAL_CATEGORY",
+      "documentIds": [
+        "d110-missingmps1952",
+        "d110-oir5824"
+      ],
+      "reason": "27 missing MPs considered in August, unlike eight February replacements",
+      "adversarialSearchPerformed": true,
+      "nextOriginalTarget": "공식 원법령·국회속기록·선거 원명부 확인"
+    },
+    {
+      "id": "c110-04",
+      "statement": "1949 Land Reform Act law number 108",
+      "status": "CONFLICTED_METADATA",
+      "documentIds": [
+        "d110-landreading1950",
+        "d110-landmotion1949"
+      ],
+      "reason": "NIKH cons explanatory note labels 1949 act 108; independent NIKH/NAK later source says 1949 No31, 1950 amendment No108",
+      "adversarialSearchPerformed": true,
+      "nextOriginalTarget": "공식 원법령·국회속기록·선거 원명부 확인"
+    },
+    {
+      "id": "c110-05",
+      "statement": "1950 land notice plan proves completed distribution",
+      "status": "INSUFFICIENT",
+      "documentIds": [
+        "d110-landbudget1950",
+        "d110-landdelay1949"
+      ],
+      "reason": "March 22 press describes future notifications, not all delivered",
+      "adversarialSearchPerformed": true,
+      "nextOriginalTarget": "공식 원법령·국회속기록·선거 원명부 확인"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "pass":292,
+  "date":"2026-10-02",
+  "purpose":"동명이인 위험이 있는 거창사건 행위자를 정치인 registry에 잘못 합치지 않도록 identity gate 적용",
+  "candidates":[
+    {"id":"actor-han-dong-seok-geochang","name":"한동석","hanja":"韓東錫","rolesByPeriod":[{"period":"1951","role":"육군 제11사단 제9연대 제3대대장"}],"researchStatus":"VERIFIED_EVENT_ACTOR_IDENTITY_OPEN","eventLinks":["evt-1951-geochang-massacre","evt-1951-1216-geochang-final-judgment"],"evidence":["doc-p292-01","doc-p292-04"],"doNotMergeYetWith":"pol-han-dong-seok-gangneung","openLeads":["군 인사원부 생년·군번","1952 현역복귀 명령","1961 강릉시장 임명 인사기록과 생년 대조"]},
+    {"id":"pol-han-dong-seok-gangneung","name":"한동석","rolesByPeriod":[{"period":"~1963-01-25","role":"강릉시장"}],"researchStatus":"IDENTIFIED_LOCAL_EXECUTIVE_IDENTITY_OPEN","eventLinks":["evt-1961-1963-han-dong-seok-gangneung-mayor"],"evidence":["doc-p292-05"],"doNotMergeYetWith":"actor-han-dong-seok-geochang","openLeads":["강릉시장 취임 인사발령","강원도 인사카드 생년·본적","전임·후임 인수인계 기록"]},
+    {"id":"actor-kang-young-hoon-geochang-trial","name":"강영훈","hanja":"姜英勳","rolesByPeriod":[{"period":"1951-12","role":"거창사건 대구고등군법회의 재판장"}],"researchStatus":"VERIFIED_EVENT_ACTOR_IDENTITY_OPEN","eventLinks":["evt-1951-1216-geochang-final-judgment"],"evidence":["doc-p292-01"],"possiblePoliticianLink":"pol-kang-young-hoon-pm21","openLeads":["1951 군법회의 명령서의 계급·군번","강영훈 전 총리 군 인사원부의 1951 보직"]},
+    {"id":"pol-kang-young-hoon-pm21","name":"강영훈","hanja":"姜英勳","aliases":["Kang Young-hoon"],"lifespan":"1922-2016","rolesByPeriod":[{"period":"1946~1961","role":"대한민국 육군 장교"},{"period":"1953","role":"국방부 차관"},{"period":"1988","role":"제13대 국회의원"},{"period":"1988-1990","role":"제21대 국무총리"}],"researchStatus":"VERIFIED_POLITICIAN_IDENTITY_LINK_TO_1951_OPEN","evidence":["doc-p292-06","doc-p292-07"],"possibleEventActorLink":"actor-kang-young-hoon-geochang-trial","openLeads":["1951 재판장과 동일인임을 군번·보직으로 직접 확인"]},
+    {"id":"pol-kim-jong-won-1922","name":"김종원","hanja":"金宗元","aliases":["Kim Jong-won"],"lifespan":"1922-1964","rolesByPeriod":[{"period":"1951","role":"경남지구 계엄민사부장/육군 대령"},{"period":"1952-07~","role":"전북경찰국장 등"},{"period":"1956-05~1957-03","role":"치안국장"}],"researchStatus":"VERIFIED_CROSS_DOMAIN","eventLinks":["evt-1951-geochang-investigation-obstruction","evt-1951-1216-geochang-final-judgment","evt-1952-kim-jong-won-release","evt-1952-07-kim-jong-won-police-return"],"evidence":["doc-p292-01","doc-p292-02","doc-p292-04"],"openLeads":["1952-03 석방설 1차 원문","특별사면 번호·일자","1952-07 전북경찰국장 관보"]},
+    {"id":"actor-lee-jong-chan-1951","name":"이종찬","hanja":"李鍾贊","rolesByPeriod":[{"period":"1951-1952","role":"육군참모총장"}],"researchStatus":"IDENTIFIED_EVENT_ACTOR","eventLinks":["evt-1952-kim-jong-won-release","evt-1952-busan-political-crisis"],"evidence":["doc-p292-08"],"openLeads":["김종원 석방 관련 이종찬 회고 최초 출전","대통령 비서가 보여줬다는 성명 초안 원본/사본"]}
+  ],
+  "identityRule":"이름·한자·직책 연속성만으로 동일인을 확정하지 않는다. 생년, 군번/관보 인사발령, 본적, 인사카드, 동시대 이력 중 최소 하나의 직접 연결키와 독립 보조출처가 확보될 때 merge한다.",
+  "registryDecision":"김종원은 cross-domain 노드 유지. 강릉시장 한동석과 거창사건 한동석은 잠정 분리. 강영훈 총리와 1951 재판장도 잠정 분리하되 우선 검증한다."
+}

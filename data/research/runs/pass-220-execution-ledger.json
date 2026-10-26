@@ -1,0 +1,36 @@
+{
+  "pass":220,
+  "date":"2026-09-28",
+  "focus":"1949 농지개혁·재정안정·군사원조 actor chain 및 1950-01 후속 검증",
+  "weekly_history_debt_full_review":false,
+  "weekly_history_debt_note":"역사부채 주간 전수조사 미실시. 월요일 회차이며 일요일 전수조사 대상 회차가 아니다.",
+  "counts":{
+    "independent_research_lines":8,
+    "governance_domains_substantively_touched":6,
+    "non_president_politicians_new_or_deepened":3,
+    "events_or_subevents_structured_or_reinforced":6,
+    "unique_historical_documents_or_records_directly_opened":9,
+    "official_primary_contemporaneous_or_archive_documents":7,
+    "adversarial_searches":4,
+    "cross_provenance_verification_bundles":2,
+    "existing_open_leads_followed":9,
+    "new_specific_leads":40
+  },
+  "governance_domains":["농정/토지제도","재정/통화","경제원조/산업","외교","안보/군사원조","입법/헌정"],
+  "minimums_not_met":["독립 연구선 20개","비대통령 정치인 10명","event/sub-event 8개","직접 확인 문서 40건","공식 1차·동시대·아카이브 20건","adversarial search 10개","독립 provenance 교차검증 3묶음"],
+  "minimums_met":["일반 국정영역 6개","기존 open lead 8개 이상 추적","다음 회차 구체 lead 30개 이상"],
+  "key_findings":[
+    "UN A/1881은 미 국무부와 다른 기관 provenance로 미군정기 귀속농지 분배와 1949 농지개혁의 제도적 연속성을 제공한다. 다만 국내 actor-level 의사결정은 국회·관보 원문이 더 필요하다.",
+    "농지개혁은 국회 통과→대통령 거부→국회 재의결→대통령 공포→행정부 집행지연으로 권한을 분리해야 한다. FRUS는 시행예산 미통과와 대통령의 1,000억원 착수비 승인도 기록한다.",
+    "Bunce의 8개항 안정화안은 단순 환율정책이 아니라 세수·공공요금·정부지출·회계·귀속재산·배급·외환경매를 묶은 거시 안정화 패키지였다.",
+    "조병옥의 대미 군사원조 협상은 4월에서 7월까지 연속성이 확인되지만, 7월 40만명 무장 구상은 조병옥의 '대통령 지시' 설명과 이승만이 해당 수치를 처음 들었다는 Muccio 보고가 충돌한다. 직접지시 귀속은 CONFLICTED로 유지해야 한다.",
+    "1950-01-15 Muccio·Bunce의 이승만 면담은 1949-12-30 안정화 압력이 다음 해 실제 대통령 면담으로 이어졌음을 확인한다.",
+    "트루먼의 6월7일 원조 메시지는 1억5천만 달러를 단순 구호가 아니라 석탄·전력·비료 생산을 포함한 회복 프로그램으로 정당화했다."
+  ],
+  "cross_provenance_note":"농지개혁 배경은 UN A/1881과 미 국무부 FRUS d304를 교차했고, 경제원조 정책은 Truman 대통령 메시지와 FRUS 계열을 대조했다. 후자는 미국 정부 내부에서 기관계열이 가까워 강한 3계열 독립 검증으로 계산하지 않았다.",
+  "files_changed":["data/research/evidence/pass-220-landreform-stabilization-military-aid.json","data/research/leads/pass-220-next-lead-queue.json","data/research/runs/pass-220-execution-ledger.json"],
+  "commits":["a40ca39bb7de8ece8e03b7ca3f766c5772b174a2","36d734ce63919cbb36670d7eb68cee9de1b2a548"],
+  "limitations":"이번 실행창에서 확보 가능한 공식 원문을 우선했으나 국회회의록·관보·Statutes at Large와 A/1881 p.49 법률 전문은 직접 확보하지 못했다. 따라서 registry 본체에 생몰·정당·임명까지 불완전한 인물을 억지 승격하지 않고 pass evidence에서 VERIFIED 후보로만 구조화했다. 최소 하한 미달 수치는 부풀리지 않았다.",
+  "note":"Floot는 수정·빌드하지 않았다.",
+  "floot_touched":false
+}

@@ -1,0 +1,92 @@
+{
+  "run": 45,
+  "date": "2026-10-06",
+  "scope": "Run44의 백선엽-원용덕 지휘선 분리를 반증검색으로 재검토하고, JCS 공식사·미 육군 공식사·FRUS를 맞물려 백선엽의 6월18일 포로 재검거 명령과 상쇄명령을 구조화",
+  "flootTouched": false,
+  "materialAdvance": [
+    "미 합참 공식사 JCS and National Policy, vol. III part 2는 1953-06-18 백선엽 육군참모총장이 ROK troops에 탈출 포로를 검거하라고 명령했으나, 이 명령이 이승만에게서 나온 것으로 보이는 지시에 의해 신속히 상쇄(countermanded)되었다고 서술한다.",
+    "이 증거는 Run44에서 백선엽을 단순한 '미군 저지방침을 이해한 정규육군 비교 노드'로만 둔 설명을 수정한다. 현재 안전한 모델은 백선엽이 포로 재검거/UNC 통제복구 방향의 명령을 실제 발령했으나 대통령계통의 별도 지시가 이를 무력화한 것으로 두는 것이다.",
+    "미 육군 공식사 Truce Tent and Fighting Front는 6월18일 UNC 발표 원문과 월간 지휘보고서 출처를 제시한다. ROKA 경비대의 집단 이탈·공모, 미군 경비대체, 13시 기준 971명 재검거, 25,131명 탈출 수치를 연결하며 원출처를 UNC/FEC Command Report June 1953 Source Papers, Paper 217, message ZX 36907로 특정한다.",
+    "FRUS d612는 다음날 Herren이 백선엽에게 미군의 포로석방 저지 의도를 통보했고 백선엽은 이해했다고 보고하는 반면 원용덕은 이승만에게 직접 행동하며 별도 명령을 내렸다고 기록한다. JCS 공식사의 6월18일 roundup 명령과 결합하면 백선엽선과 원용덕선의 분리는 더 강해진다.",
+    "FRUS d607에서 이승만은 자신의 책임으로 석방을 명령했다고 직접 밝혔다. 따라서 백선엽의 roundup 명령이 상쇄된 사실은 대통령의 석방정책과 정규육군 참모총장선 사이에 실제 명령 충돌이 있었음을 시사하지만, 상쇄명령 원본과 전달자는 아직 확보되지 않았으므로 직접 수신관계는 NARROWED로 유지한다.",
+    "FRUS d613-d614는 6월19일 약 9,400명의 잔여포로를 8개 본토 수용소에서 미군이 전면 인수한 것을 확인한다. 백선엽의 18일 재검거 명령은 성공한 통제복구 결과와 동일시하면 안 되며, 실제 집행범위·부대·재검거 실적은 별도 미해결 질문이다."
+  ],
+  "actorUpdates": [
+    {"id":"pol-paik-sun-yup","name":"백선엽","recommendedStatus":"VERIFIED_CANDIDATE","newFinding":"1953-06-18 탈출 포로 재검거를 ROK troops에 명령했다는 미 합참 공식사 기록. 곧 대통령계통으로 보이는 지시에 의해 상쇄됨.","caution":"JCS 공식사는 후대 공식편찬물이며 roundup 명령 원문·상쇄명령 원문은 아직 미확보."},
+    {"id":"pol-won-yong-dok","name":"원용덕","recommendedStatus":"ANNALS_ACTIVE_CANDIDATE","newFinding":"백선엽의 재검거 명령선과 반대방향으로 6월19일 잔존 ROK 경비대에 미군 공격명령을 내렸다는 Herren→Clark 동시대 보고가 존재.","caution":"원용덕 공격명령 원본 미확보."},
+    {"id":"pol-rhee-syngman","name":"이승만","recommendedStatus":"ANNALS_ACTIVE","newFinding":"본인의 6월18일 서한은 석방명령 책임을 명시하며, JCS 공식사는 백선엽 재검거 명령을 상쇄한 지시가 대통령에게서 나온 것으로 보인다고 평가.","caution":"백선엽 명령을 상쇄한 특정 대통령 문서·전달경로는 미확보."}
+  ],
+  "eventActions": [
+    {"event":"evt-1953-pow-release","action":"paik-roundup-order","date":"1953-06-18","actor":"pol-paik-sun-yup","type":"ordered_recapure","evidence":"jcs-policy-v3p2","confidence":"official_secondary_strong"},
+    {"event":"evt-1953-pow-release","action":"roundup-countermand","date":"1953-06-18","actor":"presidential_chain_unresolved","type":"countermanded","evidence":"jcs-policy-v3p2","confidence":"official_secondary_narrowed"},
+    {"event":"evt-1953-pow-release","action":"us-security-takeover","date":"1953-06-18/19","actor":"UNC/Herren","type":"executed_control_recovery","evidence":"frus-d612,d613; army-history-truce-tent","confidence":"cross_provenance_strong"}
+  ],
+  "documentsOpened": [
+    {"id":"jcs-policy-v3p2","title":"JCS and National Policy, Volume III, 1951-1953, The Korean War Part Two","institution":"Joint Chiefs of Staff","url":"https://www.jcs.mil/Portals/36/Documents/History/Policy/Policy_V003_P002.pdf","finding":"백선엽 재검거 명령 및 대통령계통 추정 상쇄지시; 25,131 탈출/971 재검거"},
+    {"id":"army-truce-tent","title":"Truce Tent and Fighting Front","institution":"U.S. Army Center of Military History","url":"https://history.army.mil/portals/143/Images/Publications/catalog/20-3.pdf","finding":"UNC 6/18 발표와 ZX 36907, UNC/FEC June 1953 Command Report source trail"},
+    {"id":"frus-d606","title":"Editorial Note on mass escape","institution":"U.S. Department of State","url":"https://history.state.gov/historicaldocuments/frus1952-54v15p2/d606"},
+    {"id":"frus-d607","title":"Rhee to Clark, 1953-06-18","institution":"U.S. Department of State / Clark Collection","url":"https://history.state.gov/historicaldocuments/frus1952-54v15p2/d607"},
+    {"id":"frus-d608","title":"Editorial Note on high-level communications","institution":"U.S. Department of State","url":"https://history.state.gov/historicaldocuments/frus1952-54v15p2/d608"},
+    {"id":"frus-d611","title":"Dulles-Paek Tu Chin conversation","institution":"U.S. Department of State","url":"https://history.state.gov/historicaldocuments/frus1952-54v15p2/d611"},
+    {"id":"frus-d612","title":"Clark to JCS CX 63170","institution":"U.S. Department of State","url":"https://history.state.gov/historicaldocuments/frus1952-54v15p2/d612"},
+    {"id":"frus-d613","title":"Clark to JCS C 63176","institution":"U.S. Department of State","url":"https://history.state.gov/historicaldocuments/frus1952-54v15p2/d613"},
+    {"id":"frus-d614","title":"Murphy to Department 3958","institution":"U.S. Department of State","url":"https://history.state.gov/historicaldocuments/frus1952-54v15p2/d614"},
+    {"id":"frus-d620","title":"Clark to JCS quoting Taylor","institution":"U.S. Department of State","url":"https://history.state.gov/historicaldocuments/frus1952-54v15p2/d620"},
+    {"id":"frus-d622","title":"Clark to Department Army C 63250","institution":"U.S. Department of State","url":"https://history.state.gov/historicaldocuments/frus1952-54v15p2/d622"},
+    {"id":"frus-d624","title":"Chinese questions on released POWs","institution":"U.S. Department of State","url":"https://history.state.gov/historicaldocuments/frus1952-54v15p2/d624"}
+  ],
+  "adversarialChecks": [
+    "백선엽은 사건에서 수동적 관찰자였는가 → 반증 발견: 재검거 명령 기록",
+    "ROK Army 전체가 석방명령에 일률 복종했는가 → 반증: 참모총장 재검거 명령과 상쇄",
+    "백선엽 재검거 명령이 실제 지속 집행됐는가 → 반증/불확실: 신속 상쇄 기록",
+    "원용덕과 백선엽이 동일 지휘선이었는가 → 반증 강화",
+    "미군 경비 인수는 6월19일에 처음 시작됐는가 → 반증: 18일부터 교체 시작, 19일 전면 인수",
+    "25,131 탈출 수치와 971 재검거는 후대 추정뿐인가 → 반증: 동시대 ZX 36907 출처 trail",
+    "이승만의 석방 책임은 후대 귀속인가 → 반증: 당일 본인 서한",
+    "상쇄명령을 이승만이 직접 서면 발령했음이 확정됐는가 → 미확정",
+    "백선엽이 원용덕 공격명령을 승인했는가 → 반증 방향: Herren 보고는 백선엽 이해와 원용덕 별도지시를 분리",
+    "재검거 971명이 백선엽 명령 성과인가 → 미확정, 귀속 금지"
+  ],
+  "historyDebtUpdates": [
+    {"id":"HD-RHEE-013","status":"NARROWED","update":"명령사슬을 이승만 석방결정/원용덕 실행선뿐 아니라 백선엽 재검거명령→대통령계통 추정 상쇄명령이라는 반대방향 명령선까지 확장. 남은 핵심은 백선엽 원명령, 상쇄명령 원본, 전달자·수신부대·시각."}
+  ],
+  "leadQueue": [
+    "NARA/미 육군 기록에서 UNC/FEC Command Report June 1953 Source Papers 151-297 Paper 217, message ZX 36907 원문 확보",
+    "JCS 공식사 각주 20의 원출처를 확인해 백선엽 roundup/countermand 문장의 직접 사료를 특정",
+    "미8군/Eighth Army Provost Marshal June 18 situation report에서 백선엽 재검거 명령 수신 시각 확인",
+    "ROK Army Headquarters 1953-06-18 작전일지에서 탈출포로 검거명령 문구·발신번호 확인",
+    "육군본부 헌병감실/작전국 문서에서 백선엽 명령의 배포부대 확인",
+    "대통령비서실/국방부 6월18일 전문철에서 백선엽 명령 상쇄지시 원본 탐색",
+    "원용덕 헌병총사령부 6월18일 00:00 접수명령과 백선엽 재검거명령의 시간순 선후관계 확정",
+    "CX 63138 원문에서 18일 미군 경비교체와 한국측 재검거 지시 상세 추출",
+    "Herren 원보고에서 백선엽 통보 문구와 원용덕 별도명령 보고의 정보원 확인",
+    "Nonsan camp command log에서 ROK guard 교체·재검거 시도 확인",
+    "Pusan camp command log에서 ROK guard 교체·재검거 시도 확인",
+    "Masan camp command log에서 ROK guard 교체·재검거 시도 확인",
+    "Sang Mu Dai camp command log에서 ROK guard 교체·재검거 시도 확인",
+    "ZX 36907의 971 재검거를 camp별로 분해",
+    "UNC/FEC June 1953 Command Report p.46의 8,600 잔여자 산정 기준일 확인",
+    "6월19일 약 9,400과 6월말 8,600 사이 추가탈출 수치·camp별 내역 확인",
+    "한국 경찰사 자료에서 지방경찰의 석방포로 보호명령과 재검거명령 충돌 확인",
+    "경기도 경찰국 6월18일 지시철에서 미군 수색과 한국경찰 대응 확인",
+    "충남 경찰국/논산 지역 기록에서 탈출포로 보호·재검거 지시 확인",
+    "부산 경찰국 기록에서 탈출포로 보호·재검거 지시 확인",
+    "전남/광주 상무대 주변 경찰 기록에서 탈출포로 보호·재검거 지시 확인",
+    "백선엽 회고록 From Pusan to Panmunjom에서 1953-06-18 사건 자술 확인",
+    "백선엽 구술사/국방부 군사편찬연구소 인터뷰에서 roundup 명령 회고 확인",
+    "원용덕 회고·신문 인터뷰에서 백선엽/육군본부와의 명령 충돌 언급 탐색",
+    "변영태 6월18일 Clark 서한과 백선엽 상쇄명령의 정책 연계 여부 검증",
+    "신태영 국방장관의 6월18일 행적·명령권 행사 여부 확인",
+    "국방부 작전국장/육군본부 작전국장 당시 인물 식별 및 명령 전달 역할 조사",
+    "헌병총사령부 관하 지휘관 명단을 1953년 편제표에서 복원",
+    "8개 mainland camp별 6월19일 한국군/미군 경비부대 교대명단 확보",
+    "JCS history가 말한 'apparently emanating from President Rhee'의 불확실성 근거를 각주 원문에서 평가",
+    "FRUS Matthews files lot 53 D 413의 미수록 CX 63138 전문 원본 위치 확인",
+    "Department of Army incoming message index에서 CX 63138/63170/63176 연속철 확보",
+    "미 국립문서기록관리청 RG 218 JCS geographic Korea files에서 6월18일 한국군 명령충돌 보고 탐색",
+    "RG 338 Eighth Army records에서 Herren POW command reports 17-20 June 1953 탐색",
+    "한국사DB 6월18-21일 신문에서 백선엽 재검거명령 보도 유무 확인",
+    "국가기록원 국무회의/국방부 기록에서 포로 재검거 또는 보호 지침의 공식 결재선 확인"
+  ],
+  "executionLedger": {"independentResearchLines":12,"domainsStrengthened":["전쟁·안보","군 지휘","포로행정","경찰·지방행정","외교","대통령-군 관계"],"nonPresidentActorsDeepened":2,"eventsOrSubevents":3,"meaningfulDocumentsOpened":12,"officialPrimaryOrOfficialHistorical":12,"adversarialSearches":10,"crossProvenanceBundles":3,"historyDebtOrLeadFollowups":6,"newConcreteLeads":36,"weeklyFullDebtReview":"미실시: 화요일"}
+}

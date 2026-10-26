@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "pass": 118,
+  "updatedAt": "2026-09-24",
+  "scope": "1953 Tasca mission procurement/aid interface during Hwang Jong-ryul dual-office tenure",
+  "actors": [
+    {"id":"pol-hwang-jong-ryul","name":"황종률","hanja":"黃鍾律","type":"Korean politician/economic bureaucrat","status":"ANNALS_ACTIVE","periodRole":"제3대 외자구매처장·제3대 임시외자관리청장, 1952-12-26~1953-05-28","evidenceCoverage":"tenure + statutory authority + contemporaneous Tasca procurement-policy item overlap","actionStatus":"OPEN: not yet named in Nr 20 metadata","openLead":"CTA0001009 Nr 20 원문에서 이름·직책·입장 확인"},
+    {"id":"pol-rhee-syngman","name":"이승만","hanja":"李承晩","type":"President","status":"BACKBONE","periodRole":"대통령","evidenceCoverage":"1953-04-28 Tasca 접견 official photograph","actionStatus":"meeting confirmed; procurement instruction OPEN","openLead":"Tasca 21/Rhee conversation and Korean presidential records"},
+    {"id":"cand-baek-du-jin","name":"백두진","hanja":"白斗鎭","type":"Korean politician/economic bureaucrat","status":"IDENTIFIED","periodRole":"1953 경제정책·정부 고위 actor; Tasca/CEB counterpart candidate","evidenceCoverage":"contextual in current pass; direct Nr 20 role not established","actionStatus":"OPEN","openLead":"Tasca cables/CEB minutes에서 백두진 역할 확인"},
+    {"id":"cand-kang-il-mae-1906","name":"강일매","hanja":"姜一邁","type":"Korean industry/association actor","status":"IDENTIFIED_NON_POLITICIAN","lifespan":"1906-01-23~unknown","periodRole":"섬유·방직 업계 actor; 후대 방직협회 이사장 자료 확인","evidenceCoverage":"1953 Tasca에게 원조 원면 수입 서신 CTA0001480; 한국사DB 인물자료","actionStatus":"correspondence existence confirmed; request content/outcome OPEN","openLead":"CTA0001480 원문과 당시 정확 직함 확인"},
+    {"id":"cand-hyeon-geun","name":"현근","hanja":"玄槿","type":"Korean bureaucrat","status":"IDENTIFIED","periodRole":"황종률 전임 외자구매처장·임시외자관리청장","evidenceCoverage":"PPS officeholder history","actionStatus":"handover OPEN","openLead":"1952-12-26 인수인계·면직 원문"},
+    {"id":"cand-lee-sun-yong","name":"이순용","hanja":"李淳鎔","type":"Korean politician/bureaucrat","status":"IDENTIFIED","periodRole":"1953-05-28 황종률 후임 외자구매처장·임시외자관리청장","evidenceCoverage":"PPS officeholder history","actionStatus":"handover OPEN","openLead":"1953-05-28 인수인계·임명 원문"},
+    {"id":"foreign-henry-j-tasca","name":"Henry J. Tasca","type":"foreign government actor","status":"VERIFIED_EXTERNAL","periodRole":"U.S. President's Special Representative for Korean Economic Affairs / mission head","evidenceCoverage":"FRUS + NARA-origin cable series + NAK photograph","actionStatus":"mission mandate confirmed","openLead":"Nr 19/20/21, Tasca 5/9/21 full texts"},
+    {"id":"foreign-dwight-d-eisenhower","name":"Dwight D. Eisenhower","type":"foreign head of government","status":"VERIFIED_EXTERNAL","periodRole":"U.S. President","evidenceCoverage":"FRUS appointment of Tasca","actionStatus":"appointed Tasca 1953-04-09","openLead":"appointment directive full text"}
+  ],
+  "events": [
+    {"id":"evt-1953-tasca-mission-appointment","date":"1953-04-09","decided_by":["foreign-dwight-d-eisenhower"],"executed_by":["foreign-henry-j-tasca"],"evidence":["FRUS d632"]},
+    {"id":"evt-1953-tasca-mission-arrival","date":"1953-04-17","executed_by":["foreign-henry-j-tasca"],"evidence":["FRUS d632"]},
+    {"id":"evt-1953-tasca-procurement-participation-cable","date":"1953 exact date OPEN","observed_by":["foreign-henry-j-tasca"],"legal_authority_candidates":["pol-hwang-jong-ryul"],"evidence":["CTA0001009 Nr 20"],"warning":"legal-authority candidate is not an action attribution"},
+    {"id":"evt-1953-tasca-monetary-board-cable","date":"1953 exact date OPEN","evidence":["CTA0001009 Nr 19"]},
+    {"id":"evt-1953-tasca-aid-coordination-cable","date":"1953 exact date OPEN","evidence":["CTA0001009 Nr 21"]},
+    {"id":"evt-1953-rhee-tasca-meeting-0428","date":"1953-04-28","participants":["pol-rhee-syngman","foreign-henry-j-tasca"],"evidence":["CET0024489"],"warning":"meeting does not prove procurement discussion"},
+    {"id":"evt-1953-kang-il-mae-aid-cotton-letter","date":"1953 exact date OPEN","participants":["cand-kang-il-mae-1906","foreign-henry-j-tasca"],"evidence":["CTA0001480"],"warning":"outcome and government routing OPEN"},
+    {"id":"evt-1953-tasca-report-transmittal","date":"1953-06-23","participants":["foreign-henry-j-tasca"],"evidence":["FRUS/NSC 156 series"],"warning":"postdates Hwang Jong-ryul tenure; do not back-project recommendations"}
+  ]
+}

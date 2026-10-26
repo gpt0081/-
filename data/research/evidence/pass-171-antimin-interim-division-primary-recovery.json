@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "pass": 171,
+  "createdAt": "2026-09-26",
+  "topic": "반민족행위 임시특별부 실제 작동 여부: 원문 회수 경로와 법적 상태 정밀화",
+  "findings": [
+    {
+      "id": "ev-p171-001",
+      "claim": "법률 제78호는 임시특별부에 서기관 5인·서기 5인을 두고, 1949년도 특별재판부 예산을 승계하도록 명시했다.",
+      "status": "SUPPORTED",
+      "source": "법률 제78호 반민족행위재판기관임시조직법",
+      "sourceUrl": "https://ko.wikisource.org/wiki/반민족행위재판기관임시조직법_(제78호)",
+      "provenance": "public_law_transcription",
+      "primaryTarget": "국가법령정보센터/관보 법률 제78호 원문",
+      "significance": "제78호가 단순히 재판관 5인만을 선언한 법이 아니라 10인의 실무직원과 예산승계까지 예정한 운영조직법이었음을 보여준다. 실제 작동 여부는 인사·예산 집행자료로 별도 검증한다."
+    },
+    {
+      "id": "ev-p171-002",
+      "claim": "국가법령정보센터의 법률 제54호 개정이유는 1949-10-04 기존 특별기구 조항을 삭제하면서 계속중 사건은 단심으로 대법원에서 처리하도록 한 것이 개정 목적이었다고 명시한다.",
+      "status": "SUPPORTED",
+      "source": "국가법령정보센터 반민족행위처벌법 제정·개정이유",
+      "sourceUrl": "https://law.go.kr/LSW/lsRvsRsnListP.do?chrClsCd=010202&lsId=001161&lsRvsGubun=all",
+      "provenance": "official_law",
+      "significance": "10월4일을 모든 재판의 법적 소멸일로 보는 설명을 배제한다. 그날은 특별기구 폐지와 대법원 이관의 전환점이다."
+    },
+    {
+      "id": "ev-p171-003",
+      "claim": "국가법령정보센터 법률 제176호는 법률 제3·13·34·54호와 제78호를 폐지하고, 계속중 공소는 취소된 것으로 보며 기존 판결의 언도 효력을 상실시킨다.",
+      "status": "SUPPORTED",
+      "source": "국가법령정보센터 반민족행위처벌법등폐지에관한법률",
+      "sourceUrl": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=8349",
+      "provenance": "official_law",
+      "significance": "1951-02-14 직전의 실제 계속사건·유효판결 목록을 찾는 것이 법률효과를 사건 단위로 복원하는 핵심 과제가 된다."
+    },
+    {
+      "id": "ev-p171-004",
+      "claim": "국가기록원 발간 연구는 1951-02-08 국무회의에서 임시조직법 폐지를 논의했다고 서술하며, 1951-02-14 폐지와 공소취소·판결효력상실을 연결한다.",
+      "status": "OFFICIAL_SECONDARY_LEAD",
+      "source": "국가기록원 『기록과 역사』 수록 연구",
+      "sourceUrl": "https://www.archives.go.kr/archivesdata/upFile/palgan/20060627175509203.pdf",
+      "provenance": "official_archive_publication",
+      "primaryTarget": "1951-02-08 국무회의록 해당 안건 원문",
+      "significance": "제176호의 전시기 정부 의사결정선을 국무회의 원문으로 역추적할 날짜 좌표를 확보했다."
+    },
+    {
+      "id": "ev-p171-005",
+      "claim": "국사편찬위원회 헌정사 DB는 제78호 정부안의 국회 처리 좌표를 제5회 제44차(1949-11-18) 1-2면, 제50차(11-25) 1면, 제57차(12-03) 2면으로 특정한다.",
+      "status": "NARROWED_PRIMARY_TARGET",
+      "source": "국사편찬위원회 한국사데이터베이스 헌정사 자료 DB",
+      "sourceUrl": "https://db.history.go.kr/item/cons/levelByForm.do?form=속기록&levelId=cons_001_0020_0020_0030_0020_0060",
+      "provenance": "official_public_history_db",
+      "significance": "다음 회차에서 검색어 반복 없이 원 속기록의 정확한 회차·면을 직접 회수할 수 있다."
+    },
+    {
+      "id": "ev-p171-006",
+      "claim": "1950년 4월 임시특별부 재판 재개 및 미결자 1명 판결이라는 우리역사넷 서술은 이번 회차에서도 원 판결문·사건대장·재판관 인사발령으로 직접 검증되지 않았다.",
+      "status": "CONFLICTED_PENDING_PRIMARY",
+      "supportingSource": "국사편찬위원회 우리역사넷",
+      "contradictingOrLimitingSource": "국사편찬위원회 헌정사 DB의 '형식적인 조치' 평가",
+      "nextEvidence": [
+        "1950-03~04 관보 대통령 인사발령",
+        "김병로 대법원장 재판관 상신문",
+        "대법원 임시특별부 사건대장",
+        "1950년 실제 판결 1건 원문",
+        "서기관·서기 임명기록",
+        "1949 특별재판부 예산 인계·1950 집행자료"
+      ],
+      "note": "검색결과 부재를 부존재 증거로 취급하지 않는다. 원문 확보 전까지 VERIFIED 승격 금지."
+    }
+  ],
+  "eventCandidates": [
+    {"id":"evt-1949-antimin-special-org-transfer","date":"1949-10-04","action":"legal_authority","actors":["국회","대한민국 정부","대법원"],"status":"VERIFIED_LAW"},
+    {"id":"evt-1949-antimin-interim-staff-budget-authorized","date":"1949-12-19","action":"legal_authority","actors":["대법원","대법원장","대한민국 대통령"],"status":"VERIFIED_LAW_ACTUAL_EXECUTION_OPEN"},
+    {"id":"evt-1950-antimin-interim-division-operational","date":"1950-04","action":"executed_by","actors":["대법원 임시특별부"],"status":"CONFLICTED_PENDING_PRIMARY"},
+    {"id":"evt-1951-antimin-repeal-cabinet","date":"1951-02-08","action":"decided_by","actors":["대한민국 국무회의"],"status":"NARROWED_PRIMARY_TARGET"},
+    {"id":"evt-1951-antimin-final-extinguishment","date":"1951-02-14","action":"legal_authority","actors":["국회","대한민국 정부"],"status":"VERIFIED_LAW"}
+  ],
+  "actorLeads": [
+    {"candidateId":"kim-byeong-ro-1887","name":"김병로","role":"대법원장; 제78호상 재판관 상신권자","status":"IDENTIFIED_ROLE_ONLY","openLead":"실제 상신문과 후보자 5인 확인"},
+    {"candidateId":"rhee-syngman-1875","name":"이승만","role":"대통령; 제78호상 재판관 임면권자 및 법률 공포권자","status":"VERIFIED_LEGAL_ROLE_ACTUAL_APPOINTMENT_OPEN","openLead":"1950-03~04 인사발령과 1951-02-14 공포 결재"}
+  ],
+  "adversarialChecks": [
+    "10월4일 모든 재판 법적 종료설 ↔ 법률 제54호의 대법원 계속사건 처리",
+    "제78호 순수 선언법설 ↔ 직원 10인·예산승계 조항",
+    "제78호 실제 즉시가동설 ↔ 인사발령·사건대장 미확보",
+    "1950년4월 재판재개설 ↔ 원 판결 미확보",
+    "재판관 대통령 단독선정설 ↔ 대법원장 상신 규정",
+    "재판관 대법원장 단독임명설 ↔ 대통령 임면 규정",
+    "1951 폐지 순수 형식정리설 ↔ 공소취소·판결효력상실 부칙",
+    "1951 당시 미결사건 부존재설 ↔ 부칙 문언은 존재 가능성을 전제하나 실제 건수는 미확인",
+    "제176호 국회 단독발의선 확정설 ↔ 2월8일 국무회의 원문 미확보",
+    "우리역사넷 1명 판결 수치 확정설 ↔ 사건번호·피고인·판결문 미확보"
+  ],
+  "researchLines": 14,
+  "directDocumentsOrPages": 12,
+  "officialOrPrimaryLike": 8,
+  "crossValidationBundles": 3,
+  "trackedOpenLeads": 12,
+  "notes": "이번 pass는 5인 실명 복원에는 실패했으나, 제78호의 직원·예산 조항과 제54호의 대법원 이관, 1951-02-08 국무회의 원문 좌표를 결합해 실제 작동 여부를 검증할 행정 흔적의 종류를 좁혔다."
+}

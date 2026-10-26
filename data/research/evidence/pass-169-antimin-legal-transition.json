@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "pass": 169,
+  "accessDate": "2026-09-26",
+  "focus": "반민특위의 공소시효 만료, 특별기관 폐지, 일반 대법원 이관, 임시특별부 재설치, 1951년 최종 폐지를 서로 다른 법적 단계로 분리",
+  "documents": [
+    {"id":"doc169-law34","type":"official-statute","title":"반민족행위처벌법 법률 제34호","date":"1949-07-20","documentNumber":"법률 제34호","url":"https://www.law.go.kr/","provenance":"국가법령정보센터; 조문은 위키문헌 공개 법령 전사로 대조","directlyOpened":true,"notes":"제29조 공소시효를 단기 4282년 8월말일로 규정. 공포일부터 시행."},
+    {"id":"doc169-law54","type":"official-statute","title":"반민족행위처벌법 법률 제54호","date":"1949-10-04","documentNumber":"법률 제54호","url":"https://www.law.go.kr/lsInfoP.do?lsiSeq=3401","provenance":"법제처 국가법령정보센터","directlyOpened":true,"notes":"특별조사위원회·특별재판부·특별검찰부 관계 조항 제9조~제27조를 삭제하고 계속중 사건은 단심으로 대법원에서 처리하도록 한 개정."},
+    {"id":"doc169-law55","type":"official-statute","title":"반민족행위특별조사기관조직법급반민족행위특별재판부부속기관조직법폐지에관한법률","date":"1949-10-04","documentNumber":"법률 제55호","url":"https://www.law.go.kr/LSW/lsRvsDocListP.do?chrClsCd=010202&lsId=001305&lsRvsGubun=all","provenance":"법제처 국가법령정보센터","directlyOpened":true,"notes":"반민족행위특별조사기관조직법과 반민족행위특별재판부부속기관조직법을 별도로 폐지. 공포일부터 시행."},
+    {"id":"doc169-law78","type":"official-statute","title":"반민족행위재판기관임시조직법","date":"1949-12-19","documentNumber":"법률 제78호","url":"https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=&chrClsCd=010202&efYd=19491219&lsiSeq=2677&urlMode=lsInfoP","provenance":"법제처 국가법령정보센터; 조문은 위키문헌 공개 법령 전사로 대조","directlyOpened":true,"notes":"대법원에 5인 임시특별부를 설치. 재판관은 7년 이상 판사·검사·변호사 경력자 중 대법원장 상신으로 대통령이 임면. 기존 특별재판부 예산을 인계."},
+    {"id":"doc169-law176","type":"official-statute","title":"반민족행위처벌법등폐지에관한법률","date":"1951-02-14","documentNumber":"법률 제176호","url":"https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=8349","provenance":"법제처 국가법령정보센터","directlyOpened":true,"notes":"법률 제3·13·34·54호와 법률 제78호를 폐지. 계속중 공소는 시행일에 취소된 것으로 보고 기존 판결은 시행일부터 언도의 효력을 상실."}
+  ],
+  "events": [
+    {"id":"evt-1949-antimin-limitations-effective","date":"1949-07-20/08-31","type":"legislation-to-limitations","summary":"법률 제34호 공포로 공소시효를 1949년 8월31일로 단축","decided_by":["대한민국 국회"],"executed_by":["대한민국 정부"],"legal_authority":["doc169-law34"]},
+    {"id":"evt-1949-antimin-special-organs-abolished","date":"1949-10-04","type":"institutional-abolition","summary":"법률 제54호가 반민법의 특별기관 관련 조항을 삭제하고 법률 제55호가 두 조직법을 폐지","decided_by":["대한민국 국회"],"executed_by":["대한민국 정부"],"legal_authority":["doc169-law54","doc169-law55"]},
+    {"id":"evt-1949-antimin-pending-cases-supreme-court","date":"1949-10-04","type":"judicial-transfer","summary":"10월4일 개정은 계속중 사건을 단심으로 대법원에서 처리하는 경로를 남김","executed_by":["대한민국 대법원"],"legal_authority":["doc169-law54"]},
+    {"id":"evt-1949-antimin-interim-special-division","date":"1949-12-19","type":"judicial-reorganization","summary":"법률 제78호가 반민족행위 사건 심판을 위해 대법원에 임시특별부를 설치","proposed_by":[],"decided_by":["대한민국 국회"],"executed_by":["대한민국 대법원"],"legal_authority":["doc169-law78"],"appointment_authority":{"recommendation":"대법원장","appointment":"대통령"}},
+    {"id":"evt-1951-antimin-final-repeal","date":"1951-02-14","type":"statutory-repeal","summary":"법률 제176호가 반민법 계열과 임시특별부 조직법을 폐지하고 계속중 공소와 기존 판결의 효력을 법률상 정리","decided_by":["대한민국 국회"],"executed_by":["대한민국 정부"],"legal_authority":["doc169-law176"]}
+  ],
+  "claims": [
+    {"id":"claim169-01","text":"1949년 8월31일 공소시효 만료와 동시에 반민법 자체가 폐지되었다","status":"CONTRADICTED","contradictingEvidence":["doc169-law54","doc169-law176"]},
+    {"id":"claim169-02","text":"1949년 10월4일 특별기관 폐지로 반민족행위 관련 모든 재판 경로가 즉시 소멸했다","status":"CONTRADICTED","contradictingEvidence":["doc169-law54","doc169-law78"],"notes":"10월4일 개정은 계속중 사건의 대법원 단심 처리를 예정했고 12월19일에는 임시특별부가 법률로 설치됐다."},
+    {"id":"claim169-03","text":"1951년 2월14일 폐지법은 단순히 더 이상 쓰이지 않던 법률을 형식적으로 정리했을 뿐이다","status":"CONTRADICTED","contradictingEvidence":["doc169-law176"],"notes":"법문은 계속중 공소를 취소된 것으로 보고 기존 판결의 언도 효력을 상실시키는 구체적 사법효과를 규정한다."},
+    {"id":"claim169-04","text":"1949년 12월19일 임시특별부 재판관 임명에는 대통령의 법정 역할이 없었다","status":"CONTRADICTED","contradictingEvidence":["doc169-law78"],"notes":"법률 제78호 제3조는 대법원장 상신과 대통령 임면을 명시한다. 실제 임명자 명단과 임명 행위는 별도 원문 회수 필요."},
+    {"id":"claim169-05","text":"1949년 10월4일의 반민특위 해체는 단일 법률 하나로만 이루어졌다","status":"CONTRADICTED","contradictingEvidence":["doc169-law54","doc169-law55"],"notes":"반민법 제54호의 조항 삭제와 조직법 폐지 제55호를 분리해야 한다."}
+  ],
+  "adversarialChecks": [
+    "8월31일을 반민법 자체 폐지일로 보는 서술을 후속 법률 제54·176호와 대조",
+    "10월4일을 모든 재판기능의 종점으로 보는 서술을 법률 제54호의 대법원 계속사건 처리 규정과 대조",
+    "10월4일 기관폐지를 하나의 법률행위로 보는 서술을 법률 제54호와 제55호로 분해",
+    "12월19일 임시특별부를 기존 특별재판부의 단순 존속으로 보는 해석을 별도 법률 제78호의 조직·임명구조와 대조",
+    "1951년 폐지를 형식적 정리로만 보는 해석을 공소취소·판결효력상실 부칙과 대조",
+    "대통령에게 임시특별부 재판관 구성 권한이 전혀 없었다는 가설을 제78호 제3조와 대조",
+    "대통령이 재판관을 단독 선정했다는 반대 가설도 대법원장 상신 요건 때문에 배제",
+    "공소시효 만료 뒤 신규 공소와 기존 계속사건을 같은 범주로 취급하지 않음",
+    "특별조사위원회 폐지와 반민족행위처벌법 죄조항 폐지를 동일 시점으로 취급하지 않음",
+    "법률 제176호가 법률 제78호까지 명시적으로 폐지하는지 국가법령정보센터 본문으로 재확인"
+  ],
+  "openQuestions": [
+    "법률 제78호에 따라 실제 임명된 임시특별부 재판관 5인의 명단·임명일·상신 문서번호는 무엇인가",
+    "1949-10-04부터 1949-12-19 사이 대법원이 계속중 사건을 어떤 내부 조직으로 처리했는가",
+    "임시특별부가 실제로 선고한 판결과 결정은 몇 건이며 마지막 생산일은 언제인가",
+    "1951-02-14 당시 공소 계속중이어서 법률상 취소된 사건의 사건번호·피고인은 누구인가",
+    "기존 판결 효력상실이 형집행·공민권정지·몰수에 실제로 어떻게 집행되었는가"
+  ]
+}

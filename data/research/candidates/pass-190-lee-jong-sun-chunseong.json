@@ -1,0 +1,39 @@
+{
+  "pass": 193,
+  "date": "2026-09-27",
+  "candidate_id": "cand-lee-jong-sun-antimin-1949",
+  "name_ko": "이종순",
+  "name_hanja": "李鍾淳",
+  "name_en": "Lee/Yi Jong-sun (romanization provisional)",
+  "research_status": "VERIFIED-PARTIAL-CONFLICT-GUARDED",
+  "identity": {"constituency":"강원도 춘성군","elected":"1948 제헌국회의원","election_affiliation":"대한독립촉성국민회 (secondary election table; official register pending)","birth_death":"unverified in primary register"},
+  "roles": [
+    {"period":"1948-1950","role":"제헌국회의원, 강원 춘성군","status":"strongly-supported; official election register pending"},
+    {"period":"1948-1949","role":"반민족행위특별조사위원회 조사위원","status":"primary-supported: 1949-06-10 resignation report and 1949-06-21 committee document"},
+    {"period":"1949-02-04","role":"남북화평통일 긴급동의안 찬성자","status":"primary-supported: 제2회 국회속기록 제22호"},
+    {"period":"1949-02-22","role":"농지개혁 임시조치법안 찬성자","status":"contemporary-supported: 서울신문/자료대한민국사"},
+    {"period":"1949-04-15","role":"청구회계 이종순의 일민구락부 이동","status":"secondary AKS 신정회 entry; target 李鍾淳과 동일인인지 미확정"},
+    {"period":"1949-06","role":"이정회 부회장으로 정리된 이종순","status":"secondary AKS 이정회 entry; 1949-04-15 일민 이동 서술과 충돌하므로 CONFLICTED until contemporary hanja/constituency roster"},
+    {"period":"1949-07-23","role":"일민구락부 정식 가입 의원","status":"contemporary-supported: 동아일보/자료대한민국사; roster explicitly prints 李鍾淳"},
+    {"period":"1949-07-29","role":"제4회 국회 제22차 본회의 발언자","status":"official National Assembly Library metadata; speech content not yet transcribed"},
+    {"period":"1949-09-22","role":"일민구락부 교섭회 명부 수록","status":"contemporary-supported: 동광신문/National Library newspaper archive; roster prints 李鍾淳"}
+  ],
+  "do_not_merge": [
+    {"name":"이종순","hanja":"李鍾純","note":"1908/1909 충남 부여 출생, 제2·5대 국회의원. 한국사DB 근현대인물자료와 한국민족문화대백과가 충남 관료·후대 의원 경력을 별도로 확인. 별인."},
+    {"name":"이종순","hanja":"李鍾諄","note":"1906 부산 출생, 제6대 국회의원. 별인."},
+    {"name":"이종순","hanja":"李鍾淳","note":"1949-08 경기도조사부 조사관으로 후대 조직표에 등장. 춘성 제헌의원/중앙 조사위원과 동일인이라는 증거 없음. SAME-HANJA COLLISION."},
+    {"name":"이종순","hanja":"李鍾淳","note":"1949-09-08 불기소 반민 피의자 명단에도 등장. 춘성 제헌의원과 동일인으로 병합 금지. SAME-HANJA COLLISION."}
+  ],
+  "identity_guard":"李鍾淳 문자열만으로 중앙 조사위원·경기도조사부 조사관·반민 피의자를 자동 병합하지 않는다. 원내단체 서술도 한글 동명이인 가능성이 있으므로 한자·선거구·직책·사건철·주소/연령을 추가 키로 요구한다.",
+  "event_links":["evt-1949-02-04-peace-unification-motion","evt-1949-02-22-farmland-interim-bill","evt-1949-06-10-antimin-resignations","evt-1949-06-21-antimin-opinion-signature","evt-1949-07-23-ilmin-club-roster","evt-1949-07-29-na-plenary-22","evt-1949-09-22-ilmin-caucus-roster"],
+  "new_evidence_pass_193":[
+    {"source":"National Assembly Library PROC2014000264","date":"1949-07-29","finding":"본회의 공식 메타데이터에서 이종순은 발언자로 확인되지만 4개 안건 중 어느 안건의 발언인지 공개 색인만으로는 확정할 수 없다.","provenance":"official parliamentary metadata"},
+    {"source":"AKS Encyclopedia E0073445 (신정회)","date":"1949-04-15","finding":"청구회 내 독촉 출신 원용한·이성학·이종순 등이 일민구락부 결성에 참여했다는 서술이 확인된다. 한자/선거구가 없어 춘성 李鍾淳과의 동일성은 보류한다.","provenance":"academic encyclopedia secondary"},
+    {"source":"AKS Encyclopedia E0081338 (이정회)","date":"1949-06","finding":"6월 중순 이정회 개편에서 이종순이 김교현과 부회장으로 선출됐다는 서술이 확인된다. 4월 일민 이동 서술과 시간상 충돌 가능성이 있어 동시대 명부로 식별해야 한다.","provenance":"academic encyclopedia secondary"},
+    {"source":"National Library newspaper archive CNTS-00076903377","date":"1949-09-22","finding":"일민구락부 교섭회 명부 키워드에 李鍾淳이 명시되어 7월 명부 이후에도 같은 한자의 일민 소속이 재확인된다.","provenance":"contemporary Donggwang newspaper in official archive"},
+    {"source":"National Library newspaper archive CNTS-00065278070","date":"1949-09-08","finding":"불기소 반민자 명단에 李鍾淳이 별도로 등장한다. 신원 식별자가 없어 춘성 의원과 병합하지 않는다.","provenance":"contemporary newspaper in official archive"}
+  ],
+  "conflicts":[{"id":"CONFLICT-FACTION-1949-LEE-JONG-SUN","status":"CONFLICTED","question":"1949-04 일민구락부 이동자로 서술된 이종순과 1949-06 이정회 부회장 이종순 중 어느 쪽이 춘성 李鍾淳인가?","evidence_for_a":"AKS 신정회 entry: 청구회계 이종순의 4/15 일민 합류","evidence_for_b":"AKS 이정회 entry: 6월 중순 부회장 이종순","anchor":"7/23 및 9/22 동시대 일민 명부는 李鍾淳을 확인","resolution_target":"1949-04~06 청구회·일민구락부·이정회 동시대 원지면에서 한자와 선거구를 추출"}],
+  "promotion_hold":"stable data/politicians.json 승격은 공식 제헌의원 인명록/당선인 명부로 춘성 李鍾淳의 생몰·주소·직업을 닫고, 동일 한자 별인 노드 및 1949 원내단체 동명이인 충돌을 해소한 뒤 수행한다.",
+  "open_leads":["국회 공식 제헌의원 인명록에서 춘성 李鍾淳 생몰·주소·직업 확인","1948 공식 당선인 명부 원문 확보","PROC2014000264 원문에서 1949-07-29 이종순 발언 안건·발언문 전사","1949-04-15 일민구락부 결성 동시대 명부에서 이종순 한자·선거구 확인","1949-06 이정회 총회 동시대 명부에서 부회장 이종순 한자·선거구 확인","1949-08 경기 조사부 李鍾淳 조사관의 주소·연령·임명장 확인","1949-09-08 불기소 李鍾淳 사건철에서 주소·직업·사건번호 확인","1949-06-21 중앙 조사위원 李鍾淳 서명 원형 확인"]
+}

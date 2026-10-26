@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "pass": 170,
+  "createdAt": "2026-09-26",
+  "topic": "반민족행위 임시특별부의 입법 provenance와 실제 작동 여부",
+  "findings": [
+    {
+      "id": "ev-p170-001",
+      "claim": "법률 제78호 반민족행위재판기관임시조직법안은 정부가 1949-11-08 국무회의에서 가결한 뒤 11-17 국회에 제출한 정부안이었다.",
+      "status": "SUPPORTED",
+      "source": "국사편찬위원회 한국사데이터베이스 헌정사 자료 DB",
+      "sourceUrl": "https://db.history.go.kr/item/cons/level.do?levelId=cons_001_0020_0020_0030_0020_0040",
+      "provenance": "official_public_history_db",
+      "primaryTargets": ["제5회 국회 제44차 1949-11-18 속기록 1-2면", "1949-11-08 국무회의록"],
+      "note": "법률 제78호를 단순 사법부 자체조직으로 보지 않고 정부안 형성→국회 제출→법사위→공포 사슬로 분리한다."
+    },
+    {
+      "id": "ev-p170-002",
+      "claim": "법률 제78호는 대법원에 5인의 임시특별부를 두고 재판관을 7년 이상 판사·검사·변호사 경력자 중 대법원장 상신으로 대통령이 임면하도록 규정했다.",
+      "status": "SUPPORTED",
+      "source": "국가법령정보센터 법률 제78호",
+      "sourceUrl": "https://www.law.go.kr/LSW/lsInfoP.do?efYd=19491219&lsiSeq=2677&urlMode=lsInfoP",
+      "provenance": "official_law",
+      "note": "법정 권한구조와 실제 인선은 별도 claim으로 유지한다."
+    },
+    {
+      "id": "ev-p170-003",
+      "claim": "국사편찬위원회 헌정사 서술의 '법률 제78호는 순전히 형식적인 조치' 평가는 실제 작동 여부에 대한 최종 결론으로 사용하기 어렵다.",
+      "status": "CONFLICTED",
+      "supportingSource": "국사편찬위원회 헌정사 자료 DB",
+      "supportingSourceUrl": "https://db.history.go.kr/item/cons/level.do?levelId=cons_001_0020_0020_0030_0020_0040",
+      "contradictingSource": "국사편찬위원회 우리역사넷",
+      "contradictingSourceUrl": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_o500500",
+      "conflict": "헌정사 DB는 제78호를 형식적 조치로 평가하지만 우리역사넷은 1950년 4월부터 임시특별부 재판부가 설치되어 재판이 재개되었고 미결자 중 1명이 판결을 받았다고 서술한다.",
+      "nextEvidence": ["1950년 4월 임시특별부 재판관 임명 발령", "대법원 임시특별부 사건대장", "1950년 실제 판결문"],
+      "note": "pass 169의 '실제 사람과 사건' lead를 단순 미확인에서 CONFLICTED/REOPENED 성격으로 강화한다."
+    },
+    {
+      "id": "ev-p170-004",
+      "claim": "우리역사넷은 1950년 4월부터 임시특별부 재판부가 설치되어 재판이 재개되었으며 미결자 중 실제 판결을 받은 자가 1명이라고 서술한다.",
+      "status": "SECONDARY_OFFICIAL_LEAD",
+      "source": "국사편찬위원회 우리역사넷",
+      "sourceUrl": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_o500500",
+      "provenance": "official_public_history_db",
+      "note": "원 재판기록·인사발령을 확보하기 전까지 사건·재판관 실명은 확정하지 않는다."
+    },
+    {
+      "id": "ev-p170-005",
+      "claim": "법률 제176호는 반민법 계열과 법률 제78호를 폐지하고 계속중 공소를 취소된 것으로 보며 기존 판결의 언도 효력을 상실시켰다.",
+      "status": "SUPPORTED",
+      "source": "국가법령정보센터 법률 제176호",
+      "sourceUrl": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=8349",
+      "provenance": "official_law",
+      "note": "1951-02-14 직전에도 법률상 계속중 공소와 효력을 가진 판결이 존재할 수 있음을 전제로 한 부칙이므로 실제 적용 사건 목록을 추적한다."
+    }
+  ],
+  "eventCandidates": [
+    {"id":"evt-1949-antimin-interim-bill-cabinet","date":"1949-11-08","action":"decided_by","actors":["대한민국 국무회의"],"status":"NARROWED"},
+    {"id":"evt-1949-antimin-interim-bill-submitted","date":"1949-11-17","action":"proposed_by","actors":["대한민국 정부"],"status":"NARROWED"},
+    {"id":"evt-1949-antimin-interim-bill-assembly-referral","date":"1949-11-18","action":"observed_by","actors":["제헌국회"],"status":"NARROWED"},
+    {"id":"evt-1949-antimin-interim-bill-committee","date":"1949-11-25","action":"decided_by","actors":["국회 법제사법위원회"],"status":"NARROWED"},
+    {"id":"evt-1949-antimin-interim-bill-final","date":"1949-12-03","action":"decided_by","actors":["제헌국회"],"status":"NARROWED"},
+    {"id":"evt-1949-antimin-interim-law-promulgated","date":"1949-12-19","action":"legal_authority","actors":["대한민국 대통령","대한민국 정부"],"status":"VERIFIED"},
+    {"id":"evt-1950-antimin-interim-division-operational","date":"1950-04","action":"executed_by","actors":["대법원 임시특별부"],"status":"CONFLICTED_PENDING_PRIMARY"},
+    {"id":"evt-1951-antimin-pending-cases-extinguished","date":"1951-02-14","action":"legal_authority","actors":["대한민국"],"status":"VERIFIED"}
+  ],
+  "adversarialChecks": [
+    "제78호가 형식적 법률에 그쳤다는 설명 반증 탐색",
+    "10월4일 이후 재판이 전혀 없었다는 설명 반증 탐색",
+    "임시특별부가 1949년 12월 즉시 실제 가동됐다는 설명 반증 탐색",
+    "1950년 4월 재판 재개 서술의 원 판결 존재 여부 탐색",
+    "재판관을 대통령이 단독 선정했다는 설명 반증",
+    "대법원장이 단독 임명했다는 설명 반증",
+    "제78호가 의원입법이었다는 설명 반증",
+    "1951년 폐지가 순수 형식적 정리였다는 설명 반증",
+    "1951년 당시 계속중 공소가 없었다는 설명 반증",
+    "기존 판결 효력이 이미 모두 소멸했다는 설명 반증"
+  ]
+}

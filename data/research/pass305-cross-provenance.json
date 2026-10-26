@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-10-02",
+  "bundles": [
+    {
+      "id":"xprov-1953-pow-decision",
+      "claim":"이승만은 1953-06-18 반공포로 석방의 대통령 결정 수준 책임을 공개적으로 인수했다.",
+      "supporting":["doc-frus-1953-607","doc-nihd-dh-1953-0618-pow"],
+      "context":["doc-nihd-rheeletters-1953-0617","doc-nihd-rheeletters-1953-0619","doc-nihd-rheeletters-1953-0622-pyun"],
+      "finding":"대통령 결정 자체는 한국측 동시대 보도/서한계열과 미국 외교문서가 수렴한다. 다만 수용소별 최초 집행명령의 발신·수신·시각은 별도 미해결이며 대통령 결정 증거로 이를 대체하지 않는다.",
+      "state":"NARROWED"
+    },
+    {
+      "id":"xprov-1953-treaty-signature",
+      "claim":"변영태는 한미상호방위조약 협상에서 단순 의전 인물이 아니라 외무장관 협상·가조인·서명 당사자였다.",
+      "supporting":["doc-frus-1953-741","doc-mofa-rok-us-alliance-overview","doc-nihd-rheeletters-1953-0622-pyun"],
+      "finding":"미국측 회담기록, 한국 외교부 공식 설명, 한국측 외무장관 발신 문서가 독립 계열에서 역할을 보강한다. 조문별 문구의 제안자 귀속은 아직 별도 검증이 필요하다.",
+      "state":"VERIFIED-role/NARROWED-clause-attribution"
+    },
+    {
+      "id":"xprov-1958-nsl-passage",
+      "claim":"1958-12-24 국가보안법 개정안은 강제적 질서유지·야당 배제 논란 속에 처리되었다.",
+      "supporting":["doc-nihd-chronology-1958-1224-nsl","doc-nihd-chronology-1958-1224-opposition","doc-nak-national-security-law-500-gazette","doc-nak-presidential-national-security-law-500","doc-frus-1959-265","doc-frus-1959-272"],
+      "finding":"법률의 존재·공포는 관보/대통령기록으로 고정되고, 처리 절차의 강압성 논란은 한국 동시대 자료와 미국 외교관찰이 교차한다. 그러나 이승만의 세부 현장 작전 직접명령은 여전히 입증되지 않았다.",
+      "state":"NARROWED"
+    }
+  ],
+  "adversarialChecks": [
+    {"question":"반공포로 석방이 미국측 평가에만 의존하는가?","result":"아님. 한국사DB의 이승만 6월18일 지시 보도와 한국측 서한철을 추가 확보."},
+    {"question":"변영태가 조약 서명식에만 등장하는가?","result":"아님. 6월22일 외무장관 발신 포로정책 설명과 FRUS 협상·가조인 기록이 역할을 분리 확인."},
+    {"question":"1958 국가보안법의 법률 실체가 후대 서술뿐인가?","result":"아님. 국가기록원 관보 BA0187924와 대통령기록 AA0002161 확인."},
+    {"question":"12·24 처리 비판이 야당 서술만인가?","result":"아님. 야당 성명은 당사자 주장으로 보존하되 국사편찬위 동시대 기사 묶음과 미국 외교기록을 별도 계열로 유지."},
+    {"question":"강압적 처리 정황이 곧 대통령 직접 세부명령을 뜻하는가?","result":"아님. 현재 한국측 새 자료도 세부 작전 지시자를 특정하지 못해 strong command claim은 미확정 유지."},
+    {"question":"반공포로 대통령 결정 증거가 곧 수용소별 실행명령 증거인가?","result":"아님. decision/execution을 분리하고 camp-level paperwork를 open lead로 유지."},
+    {"question":"한미상호방위조약 체결일·서명자가 FRUS에만 의존하는가?","result":"아님. 대한민국 외교부 공식 설명으로 1953-10-01 변영태-Dulles 서명 확인."},
+    {"question":"1953 포로석방 전날 한국측 정보흐름에 원용덕·백두진이 나타나는가?","result":"그렇다. 6월17일 임병직→이승만 서한 색인에 원용덕·백두진이 함께 등장. 다만 색인 등장만으로 사전공모를 추론하지 않음."},
+    {"question":"국가보안법 공포 기록이 12월24일 처리 당일과 동일한가?","result":"아님. 처리일 12월24일과 관보 제2206호 12월26일을 분리 기록."},
+    {"question":"공식 기록 메타데이터만으로 12·24 경위권 세부 지휘선을 확정할 수 있는가?","result":"불가. 국회 속기록·사무처 질서유지 기록·내무부 경찰문서가 다음 표적."}
+  ]
+}

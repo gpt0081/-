@@ -1,0 +1,18 @@
+{
+  "pass":185,
+  "date":"2026-09-27",
+  "focus":"반민특위 각 도 조사부 책임자 roster를 기관 자료로 고정하고 Pass 184 신원충돌을 정정",
+  "documents_directly_opened":12,
+  "official_or_institutional":4,
+  "findings":[
+    {"claim":"각 도 조사부 책임자 명단","status":"CORROBORATED_INSTITUTIONAL","source":"한국민족문화대백과사전 반민족행위특별조사위원회","url":"https://encykorea.aks.ac.kr/Article/E0021478","accessed":"2026-09-27","finding":"경기 이기룡(李起龍), 충북 경혜춘(慶惠春), 충남 윤세중(尹世重), 전북 손주탁(孫周卓), 전남 최종섭(崔鍾涉), 경북 정운일(鄭雲馹), 경남 강홍렬(姜弘烈), 강원 김우종(金宇鍾), 황해·제주 송창섭(宋昌燮)을 각 도 조사부 책임자로 명시한다."},
+    {"actor":"정운일","status":"IDENTITY_LINK_STRONGLY_NARROWED","sources":["https://encykorea.aks.ac.kr/Article/E0021478","https://encykorea.aks.ac.kr/Article/E0050653"],"finding":"기관 백과의 반민특위 항목이 경북 책임자를 鄭雲馹로 표기하고, 인물 항목도 대한광복회 독립운동가 鄭雲馹(1884~1956, 대구)로 표기한다. 동명이인 가능성은 크게 낮아졌으나 임명 원문 회수 전 VERIFIED 승격은 보류한다."},
+    {"actor":"강홍렬","status":"IDENTITY_LINK_STRONGLY_NARROWED","sources":["https://encykorea.aks.ac.kr/Article/E0021478","https://search.i815.or.kr/dictionary/detail/print.do?id=54"],"finding":"반민특위 기관 백과는 경남 책임자를 姜弘烈로 명시하고, 독립기념관 인명사전은 姜弘烈(1895-05-08~1958-01-28, 합천, 이명 姜逸, 호 鸛巖)의 독립운동 경력을 제공한다. 직책-인물 동일성은 매우 유력하지만 임명·서명 원문으로 최종 고정한다."},
+    {"actor":"윤세중","status":"CONFLICT_CONFIRMED_NOT_RESOLVED","sources":["https://encykorea.aks.ac.kr/Article/E0021478","https://encykorea.aks.ac.kr/Article/E0042409"],"finding":"반민특위 충남 책임자의 한자가 尹世重임이 확인되어 북한 소설가 윤세중(尹世重, 1912~1966)과 한자까지 일치한다. 따라서 한자만으로 동명이인을 분리할 수 없으며, 1949년 직책·주소·서명 원문이 필요하다."},
+    {"actor":"손주탁","status":"NAME_HANJA_FIXED","sources":["https://encykorea.aks.ac.kr/Article/E0021478","https://www.yna.co.kr/view/AKR20190430058700055"],"finding":"전북 책임자 표기가 孫周卓으로 고정됐다. 후대 전주시 기반 유해발굴 보도는 전주교도소 수감·전쟁기 희생 맥락을 독립적으로 재확인한다. 생몰·수감사유는 미확정이다."},
+    {"actor":"김우종","status":"ROLE_HANJA_FIXED_IDENTITY_OPEN","source":"https://encykorea.aks.ac.kr/Article/E0021478","finding":"강원 책임자는 金宇鍾으로 고정됐다. 현대 동명이인 검색 오염이 심해 별도 신원 원문이 필요하다."},
+    {"claim":"강원 조사부 폭력압력","status":"SECONDARY_PRIMARY_POINTER","source":"https://v.daum.net/v/20250316161200409","finding":"후대 기사에서 1949-03-19 강원도지부 김우종 조사부장 총격과 3월24일 이기용 조사관의 장준영 체포를 조선일보 동시대 기사와 연결한다. 원지면 회수 전 사건 확정도는 제한한다."}
+  ],
+  "adversarial_checks":["정운일 동명이인 가능성","강홍렬 동명이인 가능성","윤세중 한자만으로 신원 분리 가능한지","손주탁 직함 표현 오염","김우종 현대 동명이인 오염","도 조사부 책임자와 중앙 조사위원 혼동","황해·제주 송창섭 겸임 표기의 의미","서울·경기 이기룡 관할 표현","강원 김우종 총격의 원기사 존재","후대 전주 희생자 보도의 손주탁 직함 정확성"],
+  "correction_note":"Pass 184에서 '윤세중 북한 소설가와 동명이인 가능성이 높다'고 했으나 이번 자료는 한자까지 동일함을 보여준다. 동일인/동명이인 어느 쪽도 아직 확정하지 않고 CONFLICTED를 유지한다."
+}

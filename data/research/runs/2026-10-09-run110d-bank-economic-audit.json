@@ -1,0 +1,148 @@
+{
+  "run": "110d",
+  "date": "2026-10-09",
+  "branch": "research/run89-audit-property-oversight",
+  "executionTimeMinutes": null,
+  "executionTimeNote": "실제 계측된 1시간 경과시간 없음; 실행시간을 과장하지 않는다. 기존 동시진행 run110 ledger를 덮어쓴 문제를 즉시 정정하고 원본 복구; 본 작업은 run110d 보충으로 기록.",
+  "independentResearchLines": [
+    "1950 한국은행법 공포·시행일 및 대통령령350 권한",
+    "1950 한국은행 설립위원회 실제 회의·인사",
+    "1950 금융통화위원회 1차 의결과 개업식",
+    "1954 미국 법률 메모와 한국 관보 공포일 대조",
+    "1950 제2대 총선 투표율·무효표 산술 검증",
+    "1950 한미경제안정위원회 13→9 상임개편 및 위원장 신원",
+    "1950 문교부·농림부 결식아동 특별배급안",
+    "1950 선거 무소속 의석 분류와 선거관리기관 자료 대조"
+  ],
+  "counts": {
+    "independentResearchLines": 8,
+    "domainsStrengthened": 4,
+    "nonPresidentPeopleExamined": 10,
+    "verifiedPromotions": 0,
+    "eventsStructured": 10,
+    "uniqueDocumentsDirectlyOpened": 8,
+    "officialOrContemporaneousDirectDocuments": 8,
+    "officialOriginalLegalTextsDirectlyOpened": 1,
+    "contemporaneousPressTexts": 6,
+    "foreignContemporaneousMemo": 1,
+    "archiveMetadataOnly": 4,
+    "adversarialChecks": 5,
+    "priorOpenLeadsTracked": 5,
+    "newLeads": 37,
+    "threeIndependentProvenanceClaimBundles": 0,
+    "twoFamilyCrosscheckBundles": 2,
+    "existingPoliticiansDeepened": 4,
+    "newIdentifiedCandidates": 6,
+    "independentLinesClaimedInInitialLedgerButNotIndependentlyResearched": 12
+  },
+  "provenanceNote": "법제처 원법령 + 당시 상공일보/자유신문/서울신문/국도신문/경향신문 + 한국은행 후대 공식 해설 + 1954 미국 원메모를 구분. 동일 문서 중복계수 없음. 한국은행 공식 전시와 1950-04-21 연합신문은 이전 run109에서 이미 열었으므로 신규 직접열람 문서로 세지 않음.",
+  "adversarialChecks": [
+    {
+      "claim": "법률 제138호 5월5일 공포",
+      "counter": "1954 Connelly May4",
+      "result": "CONFLICTED_METADATA"
+    },
+    {
+      "claim": "1950-05-11 설립위 설치=은행법 이미 시행",
+      "counter": "법제처 시행일 5월26일",
+      "result": "OPEN_INTERPRETATION"
+    },
+    {
+      "claim": "5·30 무효표 8.1%",
+      "counter": "222451/8434737=2.64%",
+      "result": "INTERNAL_ARITHMETIC_CONFLICT"
+    },
+    {
+      "claim": "결식아동 배급 총계 46322석",
+      "counter": "13231+20091=33322",
+      "result": "INTERNAL_ARITHMETIC_CONFLICT"
+    },
+    {
+      "claim": "이승만이 1950-06-12 한미 위원회 개편 직접 지시",
+      "counter": "국도신문은 위원회 제48·50회 결정만 제시",
+      "result": "INSUFFICIENT"
+    }
+  ],
+  "priorLeads": [
+    {
+      "prior": "L109-07/L109-51",
+      "result": "국회 4월21일 표결원부 여전히 미확보; 한국은행 공식 날짜와 연합신문 일치, 후대 칼럼은 불일치"
+    },
+    {
+      "prior": "L109-08",
+      "result": "관보345호 공보처 원본의 한국은행 디지털아카이브 소장색인 IT27643 특정; 부분제한 원면 미열람"
+    },
+    {
+      "prior": "L109-09",
+      "result": "대통령령350 제1~9조 직접 확인, 제9조 종합경과보고서 새 표적 도출"
+    },
+    {
+      "prior": "L109-10",
+      "result": "1950-06-07 서울신문 전사에서 제1회 금통위 의결·지점명 확인, 회의록 원면 미확보"
+    },
+    {
+      "prior": "L109-49/L109-50",
+      "result": "6월12일 선거 통계 발표 원문 추가, 무소속 의석 분류 차이는 계속 미해결"
+    }
+  ],
+  "crossProvenance": [
+    {
+      "topic": "은행 6월12일 개업",
+      "families": [
+        "1950 자유신문",
+        "한국은행 공식 후대 연혁"
+      ],
+      "count": 2
+    },
+    {
+      "topic": "5월11일 설립위원회",
+      "families": [
+        "대통령령 제350호 원문",
+        "1950 상공일보"
+      ],
+      "count": 2
+    }
+  ],
+  "weeklyFullDebtReview": "역사부채 주간 전수조사 미실시",
+  "flootTouched": false,
+  "files": [
+    "data/documents/run110-1950-institutional-primary.json",
+    "data/events/run110-1950-institutional-actions.json",
+    "data/politicians/run110-1950-administrative-actors.json",
+    "data/claims/run110-source-critical-claims.json",
+    "data/research/lead-queues/run110-next.json",
+    "data/research/runs/2026-10-09-run110d-bank-economic-audit.json",
+    "data/annals/rhee-syngman-run110d.md",
+    "data/research/history-debt/run110-addendum.md",
+    "data/research/rhee-syngman-coverage-run110d.json"
+  ],
+  "limitations": [
+    "직접 열람 8건으로 40건 하한 미달: 고유 원문 확보와 숫자·날짜 충돌 정밀감식에 집중",
+    "공식 1차 원면은 대통령령 제350호 전사 1건, 관보345호·위원회 회의록·미국 메모 원면 이미지 미확보",
+    "한국은행법 제138호 제정 부칙 전문 접근 미완",
+    "정치인 6명은 신문 단일 근거 candidate이며 VERIFIED 승격하지 않음",
+    "3개 독립 provenance 동일 명제 검증 미달"
+  ],
+  "nextPriority": [
+    "L110-01",
+    "L110-02",
+    "L110-03",
+    "L110-04",
+    "L110-05",
+    "L110-06",
+    "L110-07",
+    "L110-08",
+    "L110-09",
+    "L110-10",
+    "L110-11",
+    "L110-12",
+    "L110-13",
+    "L110-14",
+    "L110-15"
+  ],
+  "correctiveHistory": {
+    "incident": "첫 커밋에서 동시 실행된 run110 기존 ledger 경로를 중복 사용",
+    "action": "부모 commit afbda708에서 기존 ledger 정확히 복원; 별도 run110d ledger 작성",
+    "originalCommit": "88c2e116d23a7b8cfdf5e4e67d8a91358b8a273c"
+  }
+}

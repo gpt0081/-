@@ -1,0 +1,263 @@
+{
+  "pass": 269,
+  "date": "2026-10-01",
+  "focus": "So Min-ho May 14-19 release-delay chain, prosecution framing, and judicial/prosecutorial actor expansion",
+  "floot_touched": false,
+  "continuation_from": "pass-268-so-min-ho-committee-composition-audit.json",
+  "material_findings": [
+    {
+      "finding": "NIHK's constitutional-history DB identifies the exact Korean primary target for the Assembly release action as National Assembly Secretariat, 12th regular session stenographic record No.57, 1952-05-14. FRUS document 135 independently states that the Assembly acted on May 14 under Constitution Article 49.",
+      "evidence": ["NIHK-cons002-0010", "FRUS-1952-54-v15p1-d135"],
+      "status": "CROSS_PROVENANCE_CORROBORATED; stenographic original still pending"
+    },
+    {
+      "finding": "A contemporaneous Chosun Ilbo report preserved by NIHK fixes physical release on 1952-05-19, followed by So Min-ho leaving prison at about 20:00, visiting the National Assembly secretariat, and returning home. This confirms a real gap between the May 14 Assembly action and May 19 physical release.",
+      "evidence": ["NIHK-dh025-19520520-0090"],
+      "status": "CONTEMPORARY_REPORT"
+    },
+    {
+      "finding": "The current evidence does not yet identify the legal/custodial cause of the five-day gap. Later historical accounts attribute the release to Busan District Court judge An Yun-chul's suspension-of-detention decision after prosecutors did not execute the Assembly demand, but the original court order and prosecution/corrections paperwork remain the required primary targets.",
+      "evidence": ["secondary-An-Yun-chul-judicial-history"],
+      "status": "NARROWED_NOT_RESOLVED"
+    },
+    {
+      "finding": "Prosecutor General Han Kyok-man publicly announced on 1952-05-10 that the shooting was a simple individual criminal act without political character. His published charging narrative names So's Interior/Security Committee specialist Jeong Jin-dong and escorts Seo Won-ryong, Kim Cheo-jung and Lee Jong-seok, creating additional institutional actor leads independent of the later political interpretation of the case.",
+      "evidence": ["NIHK-dh025-19520510-0080"],
+      "status": "CONTEMPORARY_PROSECUTION_POSITION"
+    },
+    {
+      "finding": "The April 25 Seoul Shinmun account and May 10 prosecution announcement conflict on important incident details, including reported shooting time (21:30 versus 20:40) and arrest framing. These should remain source-specific observations until Report Nos.1-3, police records and trial evidence are opened.",
+      "evidence": ["NIHK-dh025-19520425-0100", "NIHK-dh025-19520510-0080"],
+      "status": "CONFLICTED_DETAIL"
+    },
+    {
+      "finding": "The April 25 contemporary report explicitly explains the Article 49 issue: a member could be arrested in flagrante, while release during session could follow an Assembly demand. This is useful contemporaneous legal framing but must still be checked against the 1948 constitutional text and Record No.57 debate.",
+      "evidence": ["NIHK-dh025-19520425-0100"],
+      "status": "CONTEMPORARY_LEGAL_FRAME"
+    },
+    {
+      "finding": "NIHK modern-person data identifies Han Kyok-man 韓格晩 and preserves conflicting birth-date/year variants. His identity can be promoted as a verified institutional actor while the lifespan conflict remains explicit.",
+      "evidence": ["NIHK-im114-00067", "NIHK-dh025-19520510-0080"],
+      "status": "VERIFIED_PERSON_WITH_CONFLICTED_BIRTH_FIELD"
+    },
+    {
+      "finding": "A modern judicial-history source identifies An Yun-chul 安潤出 as the judge who ordered suspension of detention and reports subsequent threats; another biographical source gives 1911-1994 and a post-liberation judicial career. Because the original 1952 order has not been opened, his event role is candidate/strong-lead rather than primary-verified.",
+      "evidence": ["secondary-An-Yun-chul-judicial-history", "secondary-An-Yun-chul-biography"],
+      "status": "IDENTIFIED_STRONG_LEAD_PRIMARY_PENDING"
+    },
+    {
+      "finding": "FRUS document 138 independently establishes that the first government act under martial law was So Min-ho's re-arrest early May 25, followed by arrests of opposition legislators. This remains separate from the unresolved authorship of the Korean re-arrest order.",
+      "evidence": ["FRUS-1952-54-v15p1-d138"],
+      "status": "FOREIGN_DIPLOMATIC_CORROBORATION"
+    },
+    {
+      "finding": "The archival catalog for NARA Box 15 confirms three distinct Korean investigation-report objects (Report No.1 committee investigation, No.2 So Min-ho statement, No.3 prosecution investigation), plus trial summary, photographs and scene/weapon photographs. These are the highest-value originals for separating committee findings, defendant claims and prosecution claims.",
+      "evidence": ["NIHK-fs002-box15-so-min-ho-trial"],
+      "status": "ARCHIVAL_OBJECT_MAP"
+    }
+  ],
+  "actor_updates": [
+    {
+      "candidate_id": "pol-cand-han-kyok-man",
+      "name": "한격만",
+      "hanja": "韓格晩",
+      "romanization": ["Han Kyok-man", "Han Gyeok-man"],
+      "research_status": "VERIFIED",
+      "life_dates": "NIHK sources conflict: 1899-07, 1899-08-05, 1899-07-05, or 1902 birth variants; death not established in this pass",
+      "verified_roles": ["1952 검찰총장", "1952-05-10 서민호 사건 기소사실 공개 발표자"],
+      "event_connections": ["evt-1952-so-min-ho-prosecution-announcement", "evt-1952-so-min-ho-judicial-chain"],
+      "action_types": ["prosecutorial_public_statement", "charging_narrative"],
+      "evidence": ["NIHK-im114-00067", "NIHK-dh025-19520510-0080"],
+      "open_leads": ["Open official Prosecutor General appointment/tenure record.", "Retrieve prosecution case file and compare it line-by-line with Report No.3.", "Resolve birth/death dates without silently choosing among NIHK variants."]
+    },
+    {
+      "candidate_id": "pol-cand-an-yun-chul",
+      "name": "안윤출",
+      "hanja": "安潤出",
+      "romanization": ["An Yun-chul", "Ahn Yoon-chul"],
+      "research_status": "IDENTIFIED",
+      "life_dates": "secondary biography: 1911-1994; primary registry pending",
+      "reported_roles": ["Busan District Court judge", "reported decision-maker on 1952-05-19 suspension of So Min-ho detention"],
+      "event_connections": ["evt-1952-so-min-ho-physical-release", "evt-1952-so-min-ho-release-delay"],
+      "action_types": ["judicial_detention_review"],
+      "evidence": ["secondary-An-Yun-chul-judicial-history", "secondary-An-Yun-chul-biography"],
+      "open_leads": ["Retrieve the original 1952-05-19 detention-suspension order and case number.", "Retrieve Busan District Court personnel/assignment record for May 1952.", "Verify later threat/attack chronology from contemporary press or court records before encoding as fact."]
+    },
+    {
+      "candidate_id": "official-cand-jeong-jin-dong-1952",
+      "name": "정진동",
+      "hanja": "鄭鎭東",
+      "research_status": "IDENTIFIED_OFFICIAL",
+      "verified_roles": ["국회 내무치안전문위원; named in 1952-05-10 prosecution narrative as accompanying So Min-ho to Suncheon"],
+      "event_connections": ["evt-1952-so-min-ho-suncheon-inspection"],
+      "evidence": ["NIHK-dh025-19520510-0080"],
+      "identity_note": "NIHK has a politician/person entry for a Jeong Jin-dong born c.1910/1912, but identity equivalence with this Assembly specialist is not yet proven.",
+      "open_leads": ["Resolve whether the Assembly specialist and later politician/person-registry 鄭鎭東 are the same person using National Assembly personnel records."]
+    },
+    {
+      "candidate_id": "official-cand-seo-won-ryong",
+      "name": "서원룡",
+      "hanja": "徐元龍",
+      "research_status": "IDENTIFIED_OFFICIAL",
+      "verified_roles": ["서민호 장남", "국회특별경비대 경사; named in prosecution narrative"],
+      "event_connections": ["evt-1952-so-min-ho-shooting", "evt-1952-so-min-ho-trial"],
+      "evidence": ["NIHK-dh025-19520510-0080", "NIHK-fs002-box15-so-min-ho-trial"],
+      "open_leads": ["Open the NARA folder item on Seo Won-ryong's alleged offense and preserve defendant/prosecution distinction."]
+    },
+    {
+      "candidate_id": "official-cand-kim-cheo-jung",
+      "name": "김처중",
+      "hanja": "金處中",
+      "research_status": "DISCOVERED",
+      "verified_roles": ["국회특별경비대 순경; named in prosecution narrative"],
+      "event_connections": ["evt-1952-so-min-ho-shooting"],
+      "evidence": ["NIHK-dh025-19520510-0080"],
+      "open_leads": ["Retrieve police/Assembly personnel record and witness statement before any politician-registry promotion."]
+    },
+    {
+      "candidate_id": "official-cand-lee-jong-seok-1952",
+      "name": "이종석",
+      "hanja": "李鍾錫",
+      "research_status": "DISCOVERED",
+      "verified_roles": ["국회특별경비대 순경; named in prosecution narrative"],
+      "event_connections": ["evt-1952-so-min-ho-shooting"],
+      "evidence": ["NIHK-dh025-19520510-0080"],
+      "open_leads": ["Retrieve police/Assembly personnel record and witness statement; guard against namesake conflation."]
+    }
+  ],
+  "event_updates": [
+    {
+      "event_id": "evt-1952-so-min-ho-prosecution-announcement",
+      "date": "1952-05-10",
+      "proposed_by": [],
+      "decided_by": ["검찰 당국"],
+      "executed_by": ["검찰총장 한격만 as public announcer"],
+      "observed_by": ["Chosun Ilbo; NIHK preservation"],
+      "later_finding": "Political context must not be erased by the prosecution's contemporaneous nonpolitical characterization; treat it as a party/institution position.",
+      "status": "CONTEMPORARY_SOURCE_VERIFIED"
+    },
+    {
+      "event_id": "evt-1952-so-min-ho-release-resolution",
+      "date": "1952-05-14",
+      "decided_by": ["National Assembly"],
+      "legal_authority_reported": "1948 Constitution Article 49",
+      "observed_by": ["FRUS", "NIHK constitutional-history synthesis"],
+      "original_target": "국회사무처 제12회 국회정기회의속기록 제57호, 1952-05-14",
+      "status": "PRIMARY_TARGET_EXACTLY_IDENTIFIED"
+    },
+    {
+      "event_id": "evt-1952-so-min-ho-release-delay",
+      "date_range": ["1952-05-14", "1952-05-19"],
+      "proposed_by": ["National Assembly release demand"],
+      "decided_by": ["National Assembly on May 14; reported judicial detention-suspension decision on May 19"],
+      "executed_by": ["custodial authority unresolved"],
+      "opposed_by": ["prosecution resistance alleged in later judicial history; primary paperwork pending"],
+      "legal_authority": ["Constitution Article 49; exact procedural instrument pending"],
+      "status": "NARROWED_OPEN"
+    },
+    {
+      "event_id": "evt-1952-so-min-ho-physical-release",
+      "date": "1952-05-19",
+      "observed_by": ["contemporary Chosun Ilbo report"],
+      "executed_by": ["custodial authority unresolved"],
+      "reported_judicial_actor": ["안윤출; primary order pending"],
+      "status": "DATE_VERIFIED; decision chain partially unresolved"
+    },
+    {
+      "event_id": "evt-1952-so-min-ho-martial-law-rearrest",
+      "date": "1952-05-25",
+      "executed_by": ["ROK military/security apparatus"],
+      "observed_by": ["US Embassy/FRUS"],
+      "status": "REARREST_SEQUENCE_CORROBORATED; author/order chain OPEN"
+    }
+  ],
+  "documents_opened": [
+    {"id":"NIHK-cons002-0010","title":"헌정사 자료 DB: 1952년 1차 개헌/부산정치파동","provenance":"National Institute of Korean History","url":"https://db.history.go.kr/item/cons/level.do?levelId=cons_002_0010"},
+    {"id":"FRUS-1952-54-v15p1-d135","title":"Memorandum of Conversation; editorial note on So Min-ho","provenance":"US Department of State FRUS","url":"https://history.state.gov/historicaldocuments/frus1952-54v15p1/d135"},
+    {"id":"FRUS-1952-54-v15p1-d138","title":"Editorial Note on martial law and arrests","provenance":"US Department of State FRUS","url":"https://history.state.gov/historicaldocuments/frus1952-54v15p1/d138"},
+    {"id":"NIHK-dh025-19520520-0090","title":"徐珉濠의원, 석방 후 기자회견","date":"1952-05-20","provenance":"NIHK / Chosun Ilbo 1952-05-22","url":"https://db.history.go.kr/id/dh_025_1952_05_20_0090"},
+    {"id":"NIHK-dh025-19520519-0050","title":"徐珉濠의원 석방 결의를 규탄하는 성토대회 개최","date":"1952-05-19","provenance":"NIHK / Minju Sinbo 1952-05-20","url":"https://db.history.go.kr/contemp/level.do?levelId=dh_025_1952_05_19_0050"},
+    {"id":"NIHK-dh025-19520510-0080","title":"韓格晩 검찰총장, 徐珉濠의원 사건 기소사실 발표","date":"1952-05-10","provenance":"NIHK / Chosun Ilbo 1952-05-12","url":"https://db.history.go.kr/id/dh_025_1952_05_10_0080"},
+    {"id":"NIHK-dh025-19520425-0100","title":"국회의원 徐珉濠, 살인혐의로 체포","date":"1952-04-25","provenance":"NIHK / Seoul Shinmun 1952-04-27","url":"https://db.history.go.kr/id/dh_025_1952_04_25_0100"},
+    {"id":"NIHK-fs002-box15-so-min-ho-trial","title":"NARA Box 15 363.11-So, Min Ho Trial. 1952 archival catalog","provenance":"NIHK overseas-source guide / NARA","url":"https://db.history.go.kr/id/fs_002_0030_0020_0010"},
+    {"id":"NIHK-im114-00067","title":"한격만 韓格晩 근현대인물자료","provenance":"NIHK person registry","url":"https://db.history.go.kr/id/im_114_00067"},
+    {"id":"NIHK-npfp-19500602-0070","title":"각 지방 당선자","date":"1950-06-02","provenance":"NIHK / Jayu Sinmun","url":"https://db.history.go.kr/id/npfp_1950_06_02_v0001_0070"},
+    {"id":"secondary-An-Yun-chul-judicial-history","title":"Judicial-history account of An Yun-chul and So Min-ho release","provenance":"later secondary account; primary order required","url":"https://kjw77.tistory.com/13755309"},
+    {"id":"secondary-An-Yun-chul-biography","title":"안윤출 biographical note","provenance":"secondary local/biographical compilation","url":"https://h9567.tistory.com/16155578"}
+  ],
+  "adversarial_checks": [
+    "Did not equate the May 14 Assembly resolution with physical release; the May 19 contemporary report proves a five-day execution gap.",
+    "Did not accept later claims that prosecutors refused release as primary fact; original prosecution/court/corrections records remain required.",
+    "Did not treat An Yun-chul's reported role as primary-verified without the original detention-suspension order.",
+    "Kept Han Kyok-man's statement that the case was nonpolitical as a contemporaneous prosecution position rather than objective resolution of political context.",
+    "Compared April 25 press and May 10 prosecution accounts and preserved conflicting shooting-time details instead of harmonizing them.",
+    "Did not infer that the May 25 martial-law declaration was solely for So Min-ho from the fact that his re-arrest was the first reported act.",
+    "Did not infer the author of the May 25 re-arrest order from FRUS's sequence description.",
+    "Did not merge the Assembly specialist Jeong Jin-dong with a NIHK politician/person entry of the same Hanja without personnel evidence.",
+    "Did not promote So Min-ho's escorts to politician nodes; they remain institutional-official/witness candidates pending evidence of political office.",
+    "Did not use later summaries to resolve guilt/self-defense; Report Nos.1-3 and trial evidence remain separate provenance objects."
+  ],
+  "history_debt_updates": [
+    {
+      "id": "HD-RHEE-006",
+      "status": "NARROWED",
+      "update": "The So Min-ho branch now separates May 14 Assembly release resolution, May 14-19 execution gap, May 19 physical release, and May 25 martial-law re-arrest. An Yun-chul is a strong candidate judicial actor for the May 19 release decision, but original court/prosecution/corrections records are still missing. Re-arrest order authorship and presidential command link remain unresolved."
+    }
+  ],
+  "next_leads": [
+    "National Assembly Secretariat, 12th regular session stenographic record No.57, 1952-05-14: retrieve full debate, proposer, Article 49 wording, vote tally and any transmission order to prosecution/corrections.",
+    "National Assembly Secretariat, 12th regular session stenographic record No.50, 1952-05-06: inspect earlier So Min-ho debate and committee-report handling referenced by NIHK constitutional-history notes.",
+    "Busan District Court, 1952-05-19: retrieve An Yun-chul's detention-suspension order, case number, legal grounds, service time and recipients.",
+    "Supreme Court/National Archives judicial personnel records: verify An Yun-chul's May 1952 court assignment and exact title.",
+    "Busan prosecution records, 1952-05-14 through 1952-05-19: determine whether/when prosecutors received the Assembly demand and whether a formal objection/appeal was filed.",
+    "Busan prison/corrections register, 1952-05-19: retrieve release time, release instrument, signing official and custody destination.",
+    "NARA Box 15 363.11-So, Min Ho Trial: open Investigation Report No.1 and transcribe cover, committee title, signatures, witness list and attachments.",
+    "NARA Box 15 same folder: open Investigation Report No.2 and preserve So Min-ho's statement as party testimony rather than committee finding.",
+    "NARA Box 15 same folder: open Investigation Report No.3 and compare prosecution facts with Han Kyok-man's May 10 public announcement.",
+    "NARA Box 15 same folder: open Summary of the So Min Ho Trial and establish author, date and source basis.",
+    "NARA Box 15 same folder: open June 20 Sunchon scene/weapon photographs and captions; map weapon positions to Report Nos.1-3 testimony.",
+    "1948 Constitution official text, Article 49: retrieve promulgated Korean wording and compare with April 25 press explanation and May 14 Assembly interpretation.",
+    "National Assembly Interior Committee minutes, 1952-04-25 to 1952-05-09: resolve five-person planned delegation versus six-person Report No.1 committee transition.",
+    "National Assembly member/committee registry: identify who chaired the Interior Committee during So Min-ho's detention and who formally moved the release resolution.",
+    "National Assembly personnel file for 鄭鎭東: establish whether the Interior/Security specialist accompanying So is identical to the later politician/person-registry entry.",
+    "National Assembly Special Guard personnel file for 徐元龍: verify rank, appointment and duty status during the Suncheon inspection.",
+    "National Assembly Special Guard personnel file for 金處中: verify identity, rank and obtain witness statement if preserved.",
+    "National Assembly Special Guard personnel file for 李鍾錫: verify identity, rank and obtain witness statement if preserved.",
+    "Suncheon police first incident report, 1952-04-24/25: extract exact shooting time, arrest/surrender chronology, weapon seizure and witness list.",
+    "Suncheon/Jeonnam military-police record, 1952-04-24/25: compare arrest authority and custody chain with Seoul Shinmun and prosecution accounts.",
+    "Forensic/autopsy record for Seo Chang-seon: determine whether an autopsy occurred and reconcile later claims that the body was cremated without autopsy.",
+    "Prosecutor General Han Kyok-man official appointment/tenure record: anchor office dates and institutional authority from government source.",
+    "Han Kyok-man personnel file: resolve 1899/1902 and July/August birth variants and death date with primary registry.",
+    "FRUS telegram 1160 from Pusan, 1952-05-26, file 795B.00/5-2652: retrieve full text for So Min-ho re-arrest and opposition-legislator arrest sourcing.",
+    "UN document A/2187 pp.6,18-19,36-38: retrieve complete passages on detention, trial, martial law and parliamentary privilege.",
+    "ROK martial-law proclamation/order, 1952-05-25: identify legal scope, issuing authority, commander and powers relevant to legislator detention.",
+    "Military Police arrest order for So Min-ho, early 1952-05-25: identify sender, recipient, time and stated legal basis.",
+    "Presidential/Blue House records, 1952-05-24/25: search for So Min-ho-specific arrest instructions separately from general martial-law policy.",
+    "Contemporary newspapers 1952-05-14 through 1952-05-20: reconstruct daily chronology of release demand, court action, demonstrations and physical release without relying on retrospective summaries.",
+    "Contemporary reports on threats/attack against An Yun-chul: verify date, location, organizations and police response before encoding later judicial-history claims.",
+    "Supreme Court/Kim Byung-ro papers: retrieve any contemporaneous correspondence or statement about the So Min-ho case and executive criticism of the judiciary.",
+    "1953 civilian retrial/case file after martial-law proceedings: identify judge, holdings and relationship to the earlier military judgment.",
+    "Daegu High Court 1955 appellate record: retrieve case number and exact res judicata/double-jeopardy reasoning concerning the military sentence.",
+    "Supreme Court final appeal record in the So Min-ho case: retrieve case number, date and holding rather than relying on later news summaries.",
+    "1952 military-court records: identify each presiding officer and distinguish first judgment, review, commander action and any retrial order.",
+    "National Assembly petitions after military death sentence: retrieve the reported legislator petition, signer count and text, and compare with contemporaneous press.",
+    "So Min-ho family petition after military sentence: retrieve original petition to President/Defense Minister/Chief of Staff and identify Seo Won-ryong's role.",
+    "1952 local-election inspection authorization: retrieve the Interior Committee mandate that placed So Min-ho and Jeong Jin-dong in Suncheon.",
+    "1950-1952 So Min-ho Interior Committee record: map ordinary oversight work, including Yeosu-Suncheon, National Defense Corps and Geochang, separately from the shooting case.",
+    "National Assembly stenographic records around 1952-05-19: identify discussion of the actual release and any complaint over the five-day delay."
+  ],
+  "execution_counts": {
+    "independent_research_lines_materially_advanced": 12,
+    "meaningful_documents_pages_directly_opened_or_inspected": 12,
+    "official_primary_contemporary_public_institution_items": 10,
+    "non_president_politician_or_institutional_actor_nodes_new_or_deepened": 6,
+    "event_sub_event_lines_new_or_sharpened": 5,
+    "explicit_adversarial_checks": 10,
+    "existing_history_debt_open_lead_lines_pursued": 7,
+    "cross_provenance_bundles": 3,
+    "new_concrete_next_run_leads": 40,
+    "general_domains_touched": ["legislature", "constitutional procedure", "justice", "prosecution", "corrections", "security/martial law", "local-election oversight"]
+  },
+  "floor_note": "The requested 40-document, 20-line, 10-politician, 8-event and 8-existing-debt floors were not reached in this execution window. Counts are not padded. The main advance is separation of the May 14 legislative act from the May 19 physical release, plus creation of a testable judicial/prosecutorial chain rather than a single undifferentiated 'release' event.",
+  "weekly_history_debt_review": "역사부채 주간 전수조사 미실시. Thursday run; HD-RHEE-006 pursued in ordinary loop and remains NARROWED."
+}

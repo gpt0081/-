@@ -1,0 +1,148 @@
+{
+  "pass": 149,
+  "date": "2026-09-25",
+  "scope": "Test the unresolved relationship between the 1961 teachers-organization legislative line and promulgated Law No.708 by reading the official enactment/amendment reasons, without claiming textual lineage that has not been demonstrated.",
+  "findings": [
+    {
+      "claim": "Law No.708 directly addressed teacher labor activity",
+      "status": "VERIFIED_PRIMARY_LEGAL_RECORD",
+      "evidence": "The National Law Information Center's official enactment reason for 교육에관한임시특례법 (Law No.708, effective 1961-09-01) explicitly lists as item 7 a ban on teachers' labor movement and collective acts, together with a five-year reduction of teacher retirement age.",
+      "significance": "This closes the weaker Pass 148 formulation that the later omnibus act was only broadly adjacent to the teachers-union question. Law No.708 itself had a teacher-labor-control component. It still does not prove that the 1961-06-21 교직단체법 was renamed, merged, or textually absorbed into Law No.708."
+    },
+    {
+      "claim": "Law No.708 was a broad education-governance instrument rather than a teachers-union-only statute",
+      "status": "VERIFIED_PRIMARY_LEGAL_RECORD",
+      "evidence": "The same official enactment reason enumerates a temporary Ministry reconstruction advisory body, school/department consolidation and enrollment adjustment powers, compulsory-education school exchange powers, two-year education colleges, altered education-superintendent appointment rules, stronger supervisory authority over university faculty appointment, teacher labor/collective-action prohibition and retirement-age reduction, suspension of vice-principal rules below universities, a national examination condition for bachelor's degrees, and criminal penalties for specified violations."
+    },
+    {
+      "claim": "The original stated purpose included private-school supervision and restoration of educational order",
+      "status": "VERIFIED_PRIMARY_LEGAL_RECORD",
+      "evidence": "The official enactment reason says private schools were organized as Civil Act nonprofit corporations under insufficiently active state supervision and states an aim of eliminating corruption/pathologies, restoring normal national-education order, and improving quality."
+    },
+    {
+      "claim": "Law No.708 remained static until repeal",
+      "status": "CONTRADICTED_PRIMARY_LEGAL_RECORD",
+      "evidence": "Official amendment history records amendments effective 1962-04-24 (Law 1062), 1962-09-24 (Law 1157), 1963-02-28 (Law 1285), and 1963-04-11 (Law 1319) before repeal."
+    },
+    {
+      "claim": "Law No.708 was repealed immediately after civilian transition in 1963",
+      "status": "NARROWED_PRIMARY_LEGAL_RECORD",
+      "evidence": "National Law Information Center records repeal by Law No.1466 dated 1963-12-05, effective 1964-01-01. The repeal reason states that the special measures were considered no longer necessary after educational order had largely recovered."
+    },
+    {
+      "claim": "The 1961-06-21 교직단체법 became or was absorbed into Law No.708",
+      "status": "OPEN_NOT_PROVEN",
+      "evidence": "Law No.708's teacher-labor prohibition creates substantive policy overlap, but no original June bill text or disposition record has yet established textual or procedural lineage."
+    }
+  ],
+  "documents": [
+    {
+      "id": "doc-law708-official-enactment-amendment-reasons",
+      "type": "primary_legal_record",
+      "title": "교육에관한임시특례법 전체 제정·개정이유",
+      "institution": "법제처 국가법령정보센터",
+      "law_no_initial": "708",
+      "initial_effective_date": "1961-09-01",
+      "repeal_law_no": "1466",
+      "repeal_date": "1963-12-05",
+      "repeal_effective_date": "1964-01-01",
+      "access_date": "2026-09-25"
+    },
+    {
+      "id": "doc-na-law708-subject-registry-pass149",
+      "type": "official_archive_registry",
+      "title": "교육에 관한 임시특례법 기록물 목록",
+      "institution": "국가기록원",
+      "notable_records": ["BA0084271 제55회 교육에 관한 임시특례법(안)", "BA0084336 제77회 개정법률 공포(안)", "BA0084361 제29회 개정법률 공포(안)"],
+      "access_date": "2026-09-25"
+    },
+    {
+      "id": "doc-khdb-donga-1962-04-14-law708-amendment",
+      "type": "contemporaneous_newspaper_archive",
+      "title": "學校法人 監督權을 强化 理事·監事를 承認制로 敎育臨時特例法을 改正",
+      "publication": "동아일보",
+      "date": "1962-04-14",
+      "repository": "국사편찬위원회 한국사데이터베이스",
+      "access_date": "2026-09-25"
+    },
+    {
+      "id": "doc-moe-policy-history-1961-education",
+      "type": "official_institutional_history",
+      "title": "교육정책: 총괄 · 대학정책 연혁",
+      "institution": "교육부 조직연혁정보시스템",
+      "access_date": "2026-09-25"
+    }
+  ],
+  "events": [
+    {"id":"evt-1961-09-01-law708-teacher-labor-ban","status":"PRIMARY_LAW_REASON_VERIFIED","relation":"executed_by/institutional responsibility remains to be decomposed from personal responsibility"},
+    {"id":"evt-1961-09-01-law708-education-governance-package","status":"PRIMARY_LAW_REASON_VERIFIED"},
+    {"id":"evt-1962-04-24-law708-amendment-school-foundation-supervision","status":"PRIMARY_LAW_HISTORY_VERIFIED"},
+    {"id":"evt-1962-09-24-law708-amendment-superintendent-cleanup","status":"PRIMARY_LAW_HISTORY_VERIFIED"},
+    {"id":"evt-1963-02-28-law708-amendment-faculty-review-retirement","status":"PRIMARY_LAW_HISTORY_VERIFIED"},
+    {"id":"evt-1963-04-11-law708-amendment-degree-exam-abolition","status":"PRIMARY_LAW_HISTORY_VERIFIED"},
+    {"id":"evt-1963-12-05-law708-repeal","status":"PRIMARY_LAW_HISTORY_VERIFIED","effective":"1964-01-01"},
+    {"id":"evt-1961-june-bills-to-law708-textual-lineage","status":"OPEN_HIGH_PRIORITY"}
+  ],
+  "actor_nodes_to_deepen": [
+    {"id":"cand-mun-hui-seok","name":"문희석","status":"IDENTIFIED_CONTEXT","open":"determine formal proposer/signatory chain for Law 708 and distinguish ministerial office responsibility from personal drafting"},
+    {"id":"cand-seo-myeong-won","name":"서명원","status":"IDENTIFIED_CONTEXT","open":"verify vice-ministerial role and bill-processing record"},
+    {"id":"cand-kim-yong-sun","name":"김용순","status":"DISCOVERED","open":"verify Supreme Council education/social committee role and dates"},
+    {"id":"cand-kang-gi-cheol","name":"강기철","status":"IDENTIFIED_UNION_ACTOR","open":"test whether prosecution/judgment referenced Law 708 or separate coup-era instruments"},
+    {"id":"cand-kim-mun-sim","name":"김문심","status":"IDENTIFIED_UNION_ACTOR","open":"same"},
+    {"id":"cand-lee-mok","name":"이목","status":"IDENTIFIED_UNION_ACTOR","open":"same"},
+    {"id":"cand-lee-jong-seok","name":"이종석","status":"IDENTIFIED_UNION_ACTOR","open":"same"},
+    {"id":"cand-oh-cheon-seok","name":"오천석","status":"VERIFIED_CONTEXT","open":"compare 1960 bill policy architecture against Law 708 without back-projecting responsibility"},
+    {"id":"cand-jang-myeon","name":"장면","status":"VERIFIED_CONTEXT","open":"keep 1960 cabinet track separate from post-coup Law 708"},
+    {"id":"cand-yun-taek-jung","name":"윤택중","status":"IDENTIFIED_CONTEXT","open":"verify transitional education-administration record"}
+  ],
+  "adversarial_checks": [
+    "explicit teacher-labor prohibition in Law 708 does not prove the June 교직단체법 was absorbed",
+    "official enactment reason is authoritative for stated legislative rationale but does not identify every drafter",
+    "ministerial proposal does not equal minister personal authorship",
+    "institutional military-government responsibility does not equal Park Chung-hee personal directive without evidence",
+    "teacher labor movement and collective acts must not be silently rewritten as all teacher associations",
+    "a broad education-control statute must not be reduced to a union-suppression statute",
+    "later amendment history shows the statute evolved and must be versioned by date",
+    "1962 private-school amendment addresses a distinct governance problem and is not evidence of union lineage",
+    "repeal date and effective date must be distinguished",
+    "later historical summaries must be checked against the official legal lifecycle"
+  ],
+  "priority_leads": [
+    "BA0084271 item20 full 28-page original: identify exact article banning teacher labor/collective action and compare wording with promulgated Law 708",
+    "1961-06-21 제25회 교직단체법 original: compare definitions, prohibited acts, organization form and sanctions with Law 708",
+    "1961-06-21 교육공무원법중 개정법률 original: compare retirement, status and collective-action clauses with Law 708",
+    "제25회 국무회의록: identify proposer, debate, amendments and disposition for both June education bills",
+    "제55회 국무회의록: identify Law 708 proposal explanation, amendments and voting/disposition",
+    "BA0188689 Gazette 2946 original: capture promulgation text and signatures",
+    "Law 708 original full text: map each article to the ten-item official enactment-reason summary",
+    "Law 708 article on teacher labor movement: determine statutory terminology and sanctions",
+    "Law 708 article on education superintendent: compare with Education Act before/after",
+    "Law 708 university faculty appointment articles: compare with Education Public Officials Act",
+    "Law 708 school consolidation provisions: identify implementing decisions and affected institutions",
+    "Law 708 education-college provision: trace implementing decree and 1962 installations",
+    "Law 708 bachelor's national examination provision: trace 시행령/first exam and repeal rationale",
+    "Law 708 criminal penalty provision: identify offenses and actual prosecutions if any",
+    "BA0084336 제77회 1962 amendment promulgation file: inspect school-foundation supervision amendment chain",
+    "1962-04-14 Dong-A original image: extract actors and institutional statements around Law 1062",
+    "BA0084361 제29회 1963 amendment promulgation file: identify final pre-repeal change chain",
+    "Law 1157 legislative file: trace education-superintendent abolition cleanup and actors",
+    "Law 1285 legislative file: trace university faculty performance-review/retirement-age changes and actors",
+    "Law 1319 legislative file: trace abolition of bachelor's qualification examination and actors",
+    "Law 1466 repeal bill original: identify proposer and legislative processing before 1964-01-01 repeal",
+    "1963-12-05 repeal contemporaneous press: test official 'order recovered' rationale against education-sector reactions",
+    "대한교육연합회 1961-1963 bulletins: search reaction to teacher labor ban and education autonomy provisions",
+    "teacher-union leadership coup-era judgments: test whether Law 708 was cited or whether prosecution rested on other instruments",
+    "강기철 judgment/indictment original: search Law 708 references",
+    "김문심 judgment/indictment original: search Law 708 references",
+    "이목 judgment/indictment original: search Law 708 references",
+    "이종석 judgment/indictment original: search Law 708 references",
+    "National Reconstruction Supreme Council education/social committee records: search Law 708 draft and teacher labor clause",
+    "Ministry of Education 1961 pending-bill/transfer files: trace whether June 교직단체법 was withdrawn, merged or abandoned",
+    "Legislation Ministry/legal-review files for BA0084271: identify clause-level edits before promulgation",
+    "compare 1960 Jang Myeon government 교직단체법 draft against Law 708 teacher-labor clause if BA0084253 original becomes available",
+    "1964 education-autonomy restoration legal package: map which Law 708 temporary provisions were reversed and which survived",
+    "1963 Private School Act drafting materials: test which Law 708 private-school provisions migrated into permanent law"
+  ],
+  "weekly_history_debt_full_review": "NOT_RUN; Friday, not Sunday in Asia/Seoul",
+  "floot": "NOT_TOUCHED"
+}

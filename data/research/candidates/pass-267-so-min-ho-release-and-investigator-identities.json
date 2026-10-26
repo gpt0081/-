@@ -1,0 +1,102 @@
+{
+  "pass": 267,
+  "date": "2026-10-01",
+  "focus": "So Min-ho custody chronology correction and identity resolution for the 1952 National Assembly special-investigation committee",
+  "floot_touched": false,
+  "continuation_from": "pass-266-so-min-ho-judicial-chain.json",
+  "correction_history": [
+    {
+      "target": "pass-266 event evt-1952-so-min-ho-release",
+      "previous": "date 1952-05-24/25; original custody record pending",
+      "corrected": "contemporary Chosun Ilbo record preserved by NIHK states So Min-ho was released on 1952-05-19 and gave a press interview on 1952-05-20; May 25 is the martial-law re-arrest turn, not the initial release",
+      "reason": "newly opened contemporaneous report dh_025_1952_05_20_0090",
+      "status": "CORRECTED_WITH_CONTEMPORARY_SOURCE",
+      "remaining_uncertainty": "exact hour, warrant/custody paperwork, and relationship between the May 14 Assembly resolution and May 19 physical release still require original Assembly/corrections records"
+    }
+  ],
+  "documents_opened": [
+    {"id":"NIHK-dh025-19520520-0090","date":"1952-05-20","title":"徐珉濠의원, 석방 후 기자회견","provenance":"NIHK contemporary-source DB / Chosun Ilbo 1952-05-22","url":"https://db.history.go.kr/id/dh_025_1952_05_20_0090"},
+    {"id":"FRUS-1952-54-v15p1-d135","date":"1952-05-23 context","title":"Memorandum of Conversation / editorial footnote on So Min-ho","provenance":"US Department of State FRUS","url":"https://history.state.gov/historicaldocuments/frus1952-54v15p1/d135"},
+    {"id":"FRUS-1952-54-v15p1-d138","date":"1952-05-24/26 context","title":"Editorial Note on martial law and arrests","provenance":"US Department of State FRUS","url":"https://history.state.gov/historicaldocuments/frus1952-54v15p1/d138"},
+    {"id":"NIHK-tcct-19500530-0010","date":"1950-05-30","title":"제2대 국회의원 선거 결과/당선인 명단","provenance":"NIHK chronology/election compilation","url":"https://db.history.go.kr/id/tcct_1950_05_30_0010"},
+    {"id":"NIHK-im-yu-hong","title":"유홍 (柳鴻) 근현대인물자료","provenance":"NIHK modern-person database","url":"https://db.history.go.kr/id/im_108_01413"},
+    {"id":"NIHK-im-kim-jeong-gi","title":"김정기 (金正基) 근현대인물자료","provenance":"NIHK modern-person database","url":"https://db.history.go.kr/id/im_101_21542"},
+    {"id":"NIHK-im-lee-seok-gi","title":"이석기 (李錫基) 근현대인물자료","provenance":"NIHK modern-person database","url":"https://db.history.go.kr/id/im_108_02928"},
+    {"id":"NIHK-tcct-19500904-0010","date":"1950-09-04","title":"헌법위원·심판관 선발","provenance":"NIHK chronology","url":"https://db.history.go.kr/id/tcct_1950_09_04_0010"},
+    {"id":"NIHK-tcct-19510724-0050","date":"1951-07-24","title":"탄핵재판소 구성","provenance":"NIHK chronology","url":"https://db.history.go.kr/id/tcct_1951_07_24_0050"},
+    {"id":"NIHK-tcct-19510706-0040","date":"1951-07-06","title":"이승만 대통령과 서민호 국회 내무위원장의 갈등","provenance":"NIHK chronology / US Embassy report","url":"https://db.history.go.kr/id/tcct_1951_07_06_0040"},
+    {"id":"NIHK-tcct-19500623-0020","date":"1950-06-23","title":"서민호 외 19명 여순사건 복역자 재심 요구","provenance":"NIHK chronology","url":"https://db.history.go.kr/id/tcct_1950_06_23_0020"}
+  ],
+  "actor_updates": [
+    {"candidate_id":"pol-cand-yu-hong-1952","name":"유홍","hanja":"柳鴻","birth":"1899-11-05 (one NIHK source variant; other entries give 1899 only)","status":"VERIFIED","verified_roles":["국회의원","1952 서민호 사건 특별조사위원"],"evidence":["NIHK-im-yu-hong","pass266 archival catalog"],"open_lead":"Verify exact second-Assembly constituency/party from National Assembly member registry and death date."},
+    {"candidate_id":"pol-cand-kim-gwang-jun-1952","name":"김광준","status":"VERIFIED","verified_roles":["제2대 국회의원, 강원 울진군, 무소속","헌법위원 예비위원","1952 서민호 사건 특별조사위원"],"evidence":["NIHK-tcct-19500530-0010","NIHK-tcct-19500904-0010","pass266 archival catalog"],"open_lead":"Resolve Hanja and life dates from member/person registry before MATURE promotion."},
+    {"candidate_id":"pol-cand-jo-sun-1952","name":"조순","status":"VERIFIED","verified_roles":["제2대 국회의원, 전남 곡성군, 대한청년단","1952 서민호 사건 특별조사위원"],"evidence":["NIHK-tcct-19500530-0010","pass266 archival catalog"],"identity_note":"This 1950s legislator is resolved by constituency/party context; do not conflate with later economist-politician Cho Soon.","open_lead":"Retrieve Hanja, life dates and Assembly biography."},
+    {"candidate_id":"pol-cand-kim-jeong-gi-1952","name":"김정기","hanja":"金正基","birth":"1893 (NIHK person sources)","status":"VERIFIED","verified_roles":["제2대 국회의원, 전남 승주군, 무소속","순천군수","목포부윤/시장","국민방위군·조방·서민호 사건 조사위원"],"evidence":["NIHK-im-kim-jeong-gi","NIHK-tcct-19500530-0010","pass266 archival catalog"],"open_lead":"Resolve death date and exact appointment dates for local-government offices."},
+    {"candidate_id":"pol-cand-jo-jeong-hun-1952","name":"조정훈","status":"VERIFIED","verified_roles":["제2대 국회의원, 전북 남원군, 무소속","1952 서민호 사건 특별조사위원"],"evidence":["NIHK-tcct-19500530-0010","pass266 archival catalog"],"identity_note":"Resolved as the Namwon second-Assembly member; explicitly distinct from modern namesake.","open_lead":"Retrieve Hanja, life dates and Assembly biography."},
+    {"candidate_id":"pol-cand-lee-seok-gi-1952","name":"이석기","hanja":"李錫基","birth":"1908-01-02 in one NIHK source; other source variants give 1907","status":"VERIFIED","verified_roles":["제2대 국회의원, 충남 부여군 갑, 무소속","헌법상 심판관/탄핵재판소 국회측 구성원","1952 서민호 사건 특별조사위원"],"evidence":["NIHK-im-lee-seok-gi","NIHK-tcct-19500530-0010","NIHK-tcct-19500904-0010","NIHK-tcct-19510724-0050","pass266 archival catalog"],"identity_note":"Resolved as the Buyeo legislator 李錫基; explicitly distinct from modern namesake.","open_lead":"Resolve birth-year discrepancy and death date before higher maturity."},
+    {"candidate_id":"pol-cand-so-min-ho","name":"서민호","hanja":"徐珉濠","status":"ANNALS_ACTIVE","new_links":["1950 여순사건 복역자 재심 긴급동의안","1951 국회 내무위원장으로서 정부와 갈등","1952 지방선거 시찰","1952 서민호 사건"],"evidence":["NIHK-tcct-19500623-0020","NIHK-tcct-19510706-0040","NIHK-dh025-19520520-0090"],"open_lead":"Keep policy/oversight career separate from the shooting-case guilt question."}
+  ],
+  "event_updates": [
+    {"event_id":"evt-1952-so-min-ho-release-resolution","date":"1952-05-14","decided_by":["National Assembly"],"status":"FRUS footnote independently corroborates Assembly action under Constitution Article 49; original Korean resolution/roll call still pending"},
+    {"event_id":"evt-1952-so-min-ho-physical-release","date":"1952-05-19","executed_by":["custodial authority unresolved"],"observed_by":["contemporary press"],"status":"contemporary report verifies physical release; custody document pending"},
+    {"event_id":"evt-1952-so-min-ho-press-interview","date":"1952-05-20","participants":["서민호"],"status":"contemporary report verified"},
+    {"event_id":"evt-1952-so-min-ho-martial-law-rearrest","date":"1952-05-25","executed_by":["ROK security/military apparatus"],"observed_by":["US Embassy/FRUS editorial note"],"status":"re-arrest date strongly corroborated; Korean arrest order and author remain unresolved"}
+  ],
+  "adversarial_checks": [
+    "Corrected the prior 24/25 May release date rather than silently overwriting it.",
+    "The May 14 Assembly action and May 19 physical release are encoded separately; a five-day gap requires custody records.",
+    "FRUS says the Assembly acted under Constitution Article 49, but the Korean resolution and constitutional text must still be opened before treating the US footnote as the sole legal interpretation.",
+    "The May 19 release does not prove May 25 martial law was declared solely to re-arrest So Min-ho.",
+    "The May 25 re-arrest being the first martial-law act in US reporting does not by itself identify the Korean official who authored the arrest order.",
+    "Investigator identity resolution uses constituency/party context to prevent modern-name conflation, but Hanja/life dates remain open where not independently verified.",
+    "Committee membership does not imply each investigator agreed with every finding in Report No.1; signatures/minority views must be checked in the original.",
+    "Kim Jeong-gi's repeated investigative roles establish institutional centrality, not neutrality or correctness.",
+    "So Min-ho's prior oversight activity and conflict with Rhee establish political context but do not determine the shooting-case merits.",
+    "The prosecution's 'nonpolitical' characterization and the government's political conflict with So can coexist as competing contemporaneous frames; neither is silently privileged."
+  ],
+  "history_debt_updates": [
+    {"id":"HD-RHEE-006","status":"NARROWED","update":"So Min-ho custody sequence narrowed to Assembly release action 1952-05-14 -> physical release 1952-05-19 -> martial-law re-arrest 1952-05-25. The individual re-arrest order author and presidential command link remain unresolved."}
+  ],
+  "next_leads": [
+    "National Assembly stenographic record No.57, 1952-05-14: retrieve full So Min-ho release resolution text, proposer, Article 49 argument and vote tally.",
+    "National Assembly archive, 1952-05-09: retrieve appointment motion/resolution for Yu Hong, Kim Gwang-jun, Jo Sun, Kim Jeong-gi, Jo Jeong-hun and Lee Seok-gi as special investigators.",
+    "NIHK/NARA Box 15 folder 363.11-So, Min Ho Trial. 1952: retrieve Report No.1 and transcribe signatures, witness list and attachment index.",
+    "Same folder: retrieve Report No.2 and separate So Min-ho's statement from committee findings.",
+    "Same folder: retrieve Report No.3 and compare prosecution evidence with Han Kyok-man's May 10 public announcement.",
+    "Same folder: retrieve Summary of the So Min Ho Trial and establish author/date/provenance.",
+    "Same folder: retrieve June 20 Sunchon scene/weapon photographs and captions; map each item to testimony.",
+    "Corrections/prison records, Busan, 1952-05-14 to 1952-05-19: identify legal instrument and exact time of So Min-ho's physical release.",
+    "Military-police/martial-law records, 1952-05-25: identify the written or oral order for So Min-ho's re-arrest and its sender/recipient chain.",
+    "FRUS telegram 1160 from Pusan, 1952-05-26 (795B.00/5-2652): retrieve full text for arrest chronology and Embassy sourcing.",
+    "UN document A/2187 pp.6,18-19,36-38: retrieve full pages on So Min-ho detention, trial and martial-law sequence.",
+    "National Assembly member registry: retrieve Yu Hong 柳鴻 second-Assembly constituency, party, committee assignments and death date.",
+    "National Assembly/NIHK person registry: retrieve Kim Gwang-jun's Hanja, life dates and Ulchin constituency biography.",
+    "National Assembly/NIHK person registry: retrieve the Gokseong legislator Jo Sun's Hanja, life dates and committee assignments.",
+    "National Assembly/NIHK person registry: retrieve the Namwon legislator Jo Jeong-hun's Hanja, life dates and committee assignments.",
+    "NIHK person sources for Lee Seok-gi 李錫基: reconcile 1907 versus 1908-01-02 birth variants and locate death date.",
+    "NIHK/Assembly biography for Kim Jeong-gi 金正基: retrieve death date and exact dates as Suncheon county head and Mokpo mayor/buyeon.",
+    "National Assembly 1950-06-23 record: retrieve the full emergency motion by So Min-ho and 19 members seeking retrial for Yeosu-Suncheon prisoners and identify co-sponsors.",
+    "US Embassy report underlying NIHK 1951-07-06 chronology: retrieve original cable on Rhee-So Min-ho conflict and distinguish So's statement from Embassy inference.",
+    "National Assembly Interior Committee minutes 1950-1952: map So Min-ho's chairmanship dates and oversight agenda before the shooting case.",
+    "1952 local-election inspection authorization: retrieve Assembly/Interior Committee document showing why So Min-ho and Jeong Jin-dong were in Suncheon.",
+    "Jeong Jin-dong personnel record: determine whether he belongs in politician registry or institutional-official registry.",
+    "1952-04-23/24 Suncheon police records: retrieve first incident report, weapon seizure record and witness list.",
+    "1952-04-24/25 prosecution/court custody records: establish surrender/arrest time and initial charge before Assembly intervention.",
+    "1952-05-22 Pusan District Court docket: verify FRUS statement that trial began May 22 and identify judge/prosecutor/case number.",
+    "1952-07-01 court-martial signed judgment: retrieve panel roster, findings, statutory reasoning and sentence confirmation procedure.",
+    "Martial Law Act text effective 1952-07-01: open Article 16 and related jurisdiction provisions; compare with press characterization.",
+    "Penal Code text cited as Article 199 in 1952 reporting: identify the then-effective code and exact offense wording.",
+    "Court-martial convening order: identify appointing authority, date and legal basis for Park Dong-gyun's panel.",
+    "Post-1952 review record: identify when/how the death sentence changed and whether the reported later eight-year sentence belongs to review, civil retrial or another stage.",
+    "1953 Busan District Court record on So Min-ho: retrieve docket/judgment and connect it to the military-trial chain without assuming continuity.",
+    "1955 Daegu High Court record on So Min-ho: retrieve docket/judgment and appellate disposition.",
+    "Supreme Court record for So Min-ho shooting case: identify final disposition and exact legal reasoning.",
+    "US Embassy Richard W. Petrie files/cables around 1952-07-01: retrieve his actual trial assessment rather than inferring from attendance.",
+    "British legation dispatches, 1952-07-01: search FO records for So Min-ho trial observations.",
+    "UNCURK/UN Commission records, June-July 1952: retrieve observer notes on So Min-ho trial and custody.",
+    "AP dispatch, 1952-07-01, So Min-ho: retrieve contemporaneous English report and compare factual details with Dong-A report.",
+    "UP dispatch, 1952-07-01, So Min-ho: retrieve contemporaneous English report and compare panel/sentence details.",
+    "1950-09-04 constitutional adjudicator selection record: verify Kim Gwang-jun and Lee Seok-gi roles from stenographic original, not chronology alone.",
+    "1951-07-24 impeachment tribunal formation record: verify Lee Seok-gi's role and institutional status from original Assembly record."
+  ]
+}

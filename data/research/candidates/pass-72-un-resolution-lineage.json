@@ -1,0 +1,57 @@
+{
+  "pass": 72,
+  "accessDate": "2026-09-22",
+  "focus": "UN document/version lineage from armistice paragraph 60 through Resolution 711(VII)",
+  "koreanPoliticianUpdates": [
+    {
+      "id": "pol-rhee-syngman",
+      "status": "ANNALS_ACTIVE",
+      "finding": "UN procedural records do not by themselves establish Rhee's exact instructions to the ROK UN representation; retain attribution boundary.",
+      "openLead": "Retrieve ROK Foreign Ministry, cabinet and Observer Mission instructions for Aug. 17-28, 1953."
+    },
+    {
+      "id": "cand-limb-ben",
+      "nameKo": "임병직",
+      "nameHanja": "林炳稷",
+      "nameEn": "Ben C. Limb / Yim Pyong-jik",
+      "status": "IDENTIFIED",
+      "eventLinks": ["EVT-KOREA-1953-08-17-UNGA-RECONVENES", "EVT-KOREA-1953-08-28-UNGA-711-VII"],
+      "openLead": "Locate A/PV.430 or ROK Observer Mission records establishing whether Limb spoke or transmitted instructions in the final plenary disposition."
+    },
+    {
+      "id": "pol-pyun-yongtae",
+      "nameKo": "변영태",
+      "nameHanja": "卞榮泰",
+      "nameEn": "Pyun Yung Tai",
+      "status": "VERIFIED",
+      "openLead": "Find Foreign Ministry outgoing instructions to the ROK UN mission before Aug. 28; do not infer personal authorship from final UN position."
+    }
+  ],
+  "documents": [
+    {"id":"UN-A-2386","symbol":"A/2386","date":"1953-04","type":"committee_report_or_draft_lineage_target","status":"OPEN","relation":"basis for Resolution 705(VII) reconvening trigger"},
+    {"id":"UN-A-RES-705-VII","symbol":"A/RES/705(VII)","date":"1953-04-18","type":"resolution","status":"VERIFIED_METADATA","relation":"pre-armistice procedural trigger for resumed Korean-question consideration"},
+    {"id":"UN-A-2431","symbol":"A/2431","date":"1953-08-07","type":"armistice_reproduction","status":"IDENTIFIED","relation":"UN reproduction of Korean Armistice Agreement; verify original PDF"},
+    {"id":"UN-S-3079","symbol":"S/3079","date":"1953-08-07","type":"armistice_reproduction","status":"IDENTIFIED","relation":"Security Council-series reproduction of Korean Armistice Agreement; verify original PDF"},
+    {"id":"UN-A-L-158","symbol":"A/L.158","date":"1953-08-28","type":"plenary_amendment","status":"IDENTIFIED","relation":"amends final 711A/package according to UN metadata; original text still target"},
+    {"id":"UN-A-RES-711-VII-A","symbol":"A/RES/711(VII)[A]","date":"1953-08-28","type":"resolution_component","status":"VERIFIED_METADATA","vote":"43-5-10","relations":{"committeeReport":"UN-A-2450","amendedBy":"UN-A-L-158","implementsClauseOf":["UN-A-2431","UN-S-3079"]}},
+    {"id":"UN-A-RES-711-VII-B","symbol":"A/RES/711(VII)[B]","date":"1953-08-28","type":"resolution_component","status":"VERIFIED_METADATA","vote":"55-1-1","relations":{"committeeReport":"UN-A-2450"}},
+    {"id":"UN-A-RES-711-VII-C","symbol":"A/RES/711(VII)[C]","date":"1953-08-28","type":"resolution_component","status":"VERIFIED_METADATA","vote":"54-3-1","relations":{"committeeReport":"UN-A-2450","semanticPredecessor":"committee resolution D, not committee resolution C"}}
+  ],
+  "claims": [
+    {"id":"CLM-1953-FINAL-711C-EQUALS-COMMITTEE-C","status":"CONTRADICTED","finding":"Committee C was India participation and was withdrawn before plenary vote; final 711C descends semantically from committee D communication component."},
+    {"id":"CLM-1953-711-SINGLE-VOTE","status":"CONTRADICTED","finding":"Final components A/B/C have separate vote totals 43-5-10, 55-1-1, 54-3-1."},
+    {"id":"CLM-1953-POLITICAL-CONFERENCE-PROCEDURE-STARTED-AFTER-ARMISTICE","status":"CONTRADICTED_NARROWED","finding":"Resolution 705(VII) on 1953-04-18 pre-authorized reconvening/resumption upon armistice notification."}
+  ],
+  "eventCandidates": [
+    "EVT-KOREA-1953-04-18-UNGA-705-RECONVENING-TRIGGER",
+    "EVT-KOREA-1953-07-27-ARMISTICE-PARA60-POLITICAL-CONFERENCE",
+    "EVT-KOREA-1953-08-07-ARMISTICE-UN-DOCUMENT-REPRODUCTION",
+    "EVT-KOREA-1953-08-17-UNGA-RECONVENES",
+    "EVT-KOREA-1953-08-27-FIRST-COMMITTEE-INDIA-ADOPTION",
+    "EVT-KOREA-1953-08-28-MENON-INDIA-WITHDRAWAL",
+    "EVT-KOREA-1953-08-28-UNGA-711A",
+    "EVT-KOREA-1953-08-28-UNGA-711B",
+    "EVT-KOREA-1953-08-28-UNGA-711C"
+  ],
+  "schemaMigrationCandidates": ["derived_from","amended_by","withdrawn_before_plenary","plenary_successor","reproduces_document","implements_clause_of"]
+}

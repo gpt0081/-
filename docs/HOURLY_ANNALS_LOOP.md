@@ -1,0 +1,234 @@
+# Hourly Korean Politician Annals Research Policy v2
+
+> v2 핵심: **숫자 채우기보다 정보가치, 독립 provenance, 정치인 승격, 책임관계 분해, 데이터 통합 완결성을 우선한다.** 대량채굴은 유지하되 정량 목표는 종료조건이 아니라 경고선·진단지표로 사용한다.
+
+## 목적
+
+최종 목표는 대통령만의 실록이 아니라 **대한민국 역대 주요 정치인 전체의 검증 가능한 디지털 실록**이다. 대통령 임기순 조사는 chronological backbone이지만 연구의 상위 계층이 아니다. 전체 연구 좌표는 `docs/KOREA_POLITICAL_FOREST.md`의 **시대 × 구조층** 매트릭스를 따른다.
+
+대통령 조사에서 등장하는 총리·장관·국회의원·정당 지도부·관료·지방정치인·독립운동/정부수립기 정치인·경쟁자·협력자를 독립 정치인 노드로 구조화한다. 국회·정당·관료·사법·군·경찰·정보기관·지방정치·정치경제·노동·시민사회·언론·사회균열·외교안보도 독립 연구선으로 병행한다.
+
+## 실행 최적화 원칙
+
+### 1. 정보가치 우선
+실행시간과 허용된 도구 호출 여력을 최대한 연구에 사용한다. 다만 문서 수·인물 수·검색 수를 채우기 위해 낮은 가치의 검색을 반복하지 않는다.
+
+우선순위는 대체로 다음을 따른다.
+
+`결정적 원문 확보 > 독립 provenance 교차검증 > 기존 명제 반증/축소 > 핵심 정치인 승격 > 사건 책임선 분해 > 새로운 후보 대량발견`
+
+정량 목표를 달성해도 실행 여력이 남으면 다음 고정보가치 연구선으로 이동한다. 반대로 정량 목표를 못 채웠더라도 중요한 원문을 깊게 검증한 회차를 실패로 간주하지 않는다.
+
+### 2. 주 연구선 + 교차검증선
+매 회차는 가능하면 **주 연구선 1개**를 명시하고, 이를 검증하는 **독립 교차검증선 2~4개**를 둔다.
+
+예:
+- 주 연구선: 한미상호방위조약 협상
+- 교차검증선: 한국 외무부/정부 기록, 국회 기록, 미국 FRUS/상원 기록, 당사자 기록
+
+같은 질문의 검색어 변형이나 같은 기관의 연속 문서는 별도 연구선으로 부풀리지 않는다.
+
+### 3. provenance 다양성
+문서 개수와 provenance family 개수를 분리해 기록한다. FRUS 40건은 문서 40건이지만 미국 국무부 편찬 외교문서라는 provenance family는 기본적으로 1계열이다.
+
+핵심 사건·주장은 가능한 경우 다음처럼 서로 독립된 계열을 붙인다.
+- 한국 정부·관보·행정기록
+- 국회 회의록·법안·표결
+- 사법부·판결·공식 진상조사
+- 외국 정부·외교·군 기록
+- 당사자 개인 기록
+- 동시대 언론·사회단체 기록
+
+독립 provenance가 부족하면 확정 강도를 낮추고 다음 교차검증 표적을 lead로 남긴다.
+
+### 4. 발견보다 승격
+비대통령 정치인의 신규 발견 수보다 **연구성숙도 승격**을 더 높은 성과로 본다.
+
+`DISCOVERED → IDENTIFIED → VERIFIED → ANNALS_ACTIVE → MATURE`
+
+승격에는 근거 문서와 이유를 남긴다. 이름만 많이 추가하는 것보다 연결중심성이 높은 정치인 몇 명을 VERIFIED/ANNALS_ACTIVE로 만드는 것을 우선할 수 있다.
+
+### 5. 수확체감 기반 이동
+한 대통령·사건·시대를 완전히 해결할 때까지 머물지 않는다. 핵심 구조가 STRUCTURED 이상이고 남은 불확실성을 HISTORY_DEBT/open lead로 안전하게 보존할 수 있으며 추가 조사 정보가치가 급격히 낮아지면 다음 고우선순위 노드로 이동한다.
+
+새 원문·반증 신호가 나타나면 이전 연구선으로 돌아온다.
+
+## 정량 지표의 위치
+
+아래 숫자는 **강제 종료조건이나 체크리스트가 아니라 대량채굴이 지나치게 얕거나 좁아졌는지 탐지하는 경고선**이다.
+
+자료와 접근성이 충분한 일반 대량조사 회차의 참고선:
+- 독립 연구선 약 20개
+- 일반 국정영역 약 6개
+- 비대통령 정치인 신규/심화 약 10명
+- event/sub-event 신규/보강 약 8개
+- 직접 확인 문서 약 40개, 공식·1차·동시대 자료 약 20개
+- adversarial check 약 10개
+- history-debt/open-lead 추적 약 8개
+- 독립 provenance 교차검증 약 3묶음
+
+그러나 위 수치를 맞추기 위해 이미 충분히 검증된 문서를 반복하거나, 같은 provenance의 연속문서를 의미 없이 열거나, 얕은 정치인 후보를 양산하거나, 불필요한 lead를 만들어서는 안 된다.
+
+실행 보고에는 실제 수치를 그대로 기록한다.
+
+## Lead budget
+
+새로 발생한 유효 lead는 버리지 않고 기록한다. 그러나 매 회차 30개를 기계적으로 생성하지 않는다.
+
+다음 실행의 **active queue는 원칙적으로 상위 10~15개**를 유지한다. 각 active lead에는 가능하면 다음을 기록한다.
+- target institution/archive
+- document/record/date/document number/person
+- 해결하려는 claim 또는 관계
+- expected information value
+- accessibility
+- graph impact
+- current status: OPEN / NARROWED / BLOCKED / CONFLICTED / REOPENED
+
+나머지는 backlog로 보존한다. 해결된 lead를 active queue에 계속 남겨두지 않는다.
+
+## Forest-first 원칙
+
+연구 순서는 기본적으로 다음과 같이 둔다.
+
+`시대/체제 → 제도 → 기관 → 정치·사회 세력 → 균열/정책영역 → 사건 → 행위자 → 문서 → 주장/반증`
+
+`대통령 → 주변인물 → 사건`만을 반복하지 않는다. 전국 coverage의 기본 단위는 `시대 × 구조층` 셀이고, 상태는 `UNMAPPED → SEEDED → STRUCTURED → VERIFIED / DEBT_TRACKED`를 사용한다.
+
+전국 breadth가 이미 SEEDED에 도달한 영역에서는 단순 seed 추가보다 STRUCTURED/VERIFIED 승격을 우선한다.
+
+## 매 실행 시작
+
+1. README와 최근 commits, open issues/PRs를 확인한다.
+2. `data/presidents.json`, `data/politicians.json`, registry/index, `data/events.json`을 확인한다.
+3. 현재 인물 evidence/annals/open-leads/coverage를 확인한다.
+4. `data/research/HISTORY_DEBT.md`, 직전 run report, active lead queue를 확인한다.
+5. document/claim registry와 관련 방법론 문서를 확인한다.
+6. 이미 해결된 검색을 기계적으로 반복하지 않는다.
+7. 주 연구선과 교차검증선을 선정한다.
+
+## 조사 사슬
+
+가능한 범위에서 다음을 반복한다.
+
+`검색어 확장 → 2차 자료에서 원문 단서 추출 → 공식/1차 아카이브 역추적 → 날짜·인물·기관·사건명 변형 → 상반 자료 탐색 → 원문 교차검증 → 새 인물/기관/사건/문서/claim 단서 생성`
+
+한국어·영어·한자·과거 표기·로마자 변형을 활용한다. 대형 PDF나 아카이브 접근이 막히면 같은 URL을 반복하지 말고 문서명·문서번호·작성일·작성기관·색인·인용문을 확보해 대체 소장처와 인용 연구를 역추적한 뒤 다른 연구선으로 이동한다.
+
+## 출처와 주장 강도
+
+공식 1차 자료, 동시대 기록, 법령, 판결문, 국회·정부·대통령기록, 선거기록, 관보, 공식 진상조사, FRUS와 해외 국가기록을 우선한다. 언론·논문·전기·회고록은 원문 단서와 맥락에 활용하되 중대한 사실을 단독 확정하지 않는다.
+
+확인된 사건, 당사자 주장, 정부/기관 행동, 동시대 관찰, 후대 판결·진상조사, 정치적·법적·행정적 책임, 직접명령을 분리한다.
+
+신뢰 가능한 자료가 충돌하면 `CONFLICTED`, 현재 접근 가능한 원문으로 해결할 수 없으면 `BLOCKED`를 사용한다. 새 증거가 기존 기록을 흔들면 silent overwrite하지 않고 correction/review history를 남긴다.
+
+## 정치인 중심 확장
+
+모든 정치인은 stable ID를 가진 독립 노드다. 대통령 여부는 역할 속성일 뿐이다.
+
+정치인 registry는 가능한 범위에서 다음을 표현한다.
+- stable ID
+- 이름·이명·한자·영문/로마자 변형
+- 생몰과 검증 수준
+- 시기별 공직·정당/정파
+- 선출/임명
+- event/action 연결
+- research status와 승격 이유
+- evidence coverage
+- open leads
+- history debt
+
+중요도는 역사적 영향범위·공직 수준·제도변화 관여·주요사건 관여·자료 연결중심성으로만 관리한다. 정치적 호불호·선악·위선·영웅/독재자·추천/반대 점수를 만들지 않는다.
+
+## 사건과 책임선
+
+큰 사건은 필요하면 sub-event/action으로 분해한다. 가능한 경우 다음 관계를 분리한다.
+
+- proposed_by
+- decided_by
+- executed_by
+- opposed_by
+- legal_authority
+- observed_by
+- later_finding
+
+대통령 재임 중 발생했다는 이유만으로 대통령 직접 지시로 귀속하지 않는다.
+
+## 문서·claim 그래프
+
+문서는 재사용 가능한 1급 객체로 관리한다. 가능한 경우 문서번호, 날짜, 작성자/발신자, 수신자, 기관, 언어, 원문 위치, 원문 확보 여부, 공개상태, provenance, access date를 저장한다.
+
+claim은 supporting / contradicting / insufficient evidence와 contemporaneous observation / later finding을 구분한다. 하나의 문서를 여러 정치인·사건·claim이 공유할 수 있게 하며 URL 중복을 줄인다.
+
+## Consistency Gate
+
+연구 결과를 두 상태로 구분한다.
+
+- `RESEARCHED`: 유의미한 원문·사실·반증·관계를 확보했으나 데이터 계층 동기화가 끝나지 않음.
+- `INTEGRATED`: 영향을 받는 데이터 계층이 동기화되고 참조관계가 점검됨.
+
+실질적 연구 진전이 있으면 회차 종료 전 가능한 범위에서 다음을 검사한다.
+
+`document → claim/evidence → event/action → politician/organization → annals/coverage → open lead/history debt`
+
+모든 회차가 모든 계층을 수정할 필요는 없다. **실제로 영향을 받은 계층이 빠짐없이 반영되었는지**가 기준이다.
+
+검사 항목:
+1. 새 document가 document registry에 존재하는가.
+2. 핵심 claim이 supporting/contradicting/insufficient evidence와 연결되는가.
+3. 사건이 필요한 경우 event/action으로 연결되는가.
+4. 관련 정치인 stable ID가 존재하고 사건과 연결되는가.
+5. 승격 조건을 충족한 정치인의 research status와 이유가 갱신되었는가.
+6. 새 증거가 기존 coverage/open lead/history debt를 바꾸는가.
+7. 존재하지 않는 ID, 깨진 참조, 중복 문서/URL이 생기지 않았는가.
+8. run report의 수치가 실제 파일 변경 및 조사기록과 일치하는가.
+
+GitHub 쓰기 제한 등으로 동기화가 끝나지 않으면 완료했다고 기록하지 않고 `RESEARCHED_NOT_INTEGRATED` 또는 동등한 상태와 누락 계층을 명시한다.
+
+## 역사부채 주간 전수조사
+
+전체 역사부채 전수조사는 **매주 일요일 Asia/Seoul 기준 그날의 첫 조사 회차에서만** 수행한다. `OPEN`, `NARROWED`, `BLOCKED`, `CONFLICTED`, `REOPENED` 전체를 모든 등록 정치인·사건에 걸쳐 확인한다.
+
+`last_full_review`로 같은 날 중복을 막는다. 새 디지털화·기록물 해제·판결/국회/정부 추가공개·해외 외교문서·학술연구·회고록·archive access 변화를 확인한다. `RESOLVED`는 새 반증 신호가 있을 때만 `REOPENED`한다.
+
+주간 전수조사 파일이 존재하지만 `HISTORY_DEBT.md`의 `last_full_review` 또는 상태변경이 동기화되지 않았다면 완료로 간주하지 않고 consistency audit 대상으로 둔다.
+
+## 대통령 backbone과 이동 기준
+
+현재 이승만 연구는 계속 심화하되 완전성 자체를 종료조건으로 삼지 않는다.
+
+다음 대통령·시대·고중심성 정치인으로 이동할 수 있는 조건:
+1. 핵심 국정영역과 주요 사건 구조가 대체로 STRUCTURED 이상이다.
+2. 연결중심성이 높은 비대통령 행위자가 registry에 포착되어 있다.
+3. 결정적 미해결 사항이 HISTORY_DEBT/open lead에 보존되어 있다.
+4. 추가 검색의 한계정보가치가 낮아지고 있다.
+5. 다른 시대/인물/구조층의 기대정보가치가 더 높다.
+
+이동은 연구 종료를 의미하지 않는다. 새 증거가 나타나면 이전 backbone으로 돌아온다.
+
+## Floot
+
+Floot는 조사 데이터 계층과 분리한다. 연구 회차에서 Floot를 수정하거나 빌드하지 않는다. 충분한 데이터/스키마/UI 변화가 축적되고 사용자가 별도로 요청했을 때만 배포 계층을 다룬다.
+
+## 실행 보고
+
+매 실행 종료 시 실제값으로 보고한다.
+- 주 연구선과 교차검증선
+- 새 사실/문서 및 provenance
+- 반증·충돌자료
+- 좁힌 미해결 질문
+- 새로 연결/승격한 정치인과 승격 이유
+- 보강 국정영역
+- 신규/보강 event/action
+- 직접 확인 문서 수와 공식·1차·동시대 자료 수
+- provenance family 수와 독립 교차검증 묶음
+- 독립 연구선/adversarial check/history-debt 추적 수
+- 새 lead 수와 active queue
+- Consistency Gate 결과: INTEGRATED / RESEARCHED_NOT_INTEGRATED
+- 실제 수정 파일
+- 모든 해당 GitHub commit SHA
+- 다음 최우선 연구선
+
+정량 경고선에 못 미치면 이유를 기록하되 숫자를 만들지 않는다. 반대로 경고선을 넘겼다는 이유로 조기 종료하지 않는다.
+
+주간 전수조사를 실행하지 않은 회차는 **역사부채 주간 전수조사 미실시**라고 명시한다.

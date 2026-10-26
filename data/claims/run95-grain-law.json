@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "run": 95,
+  "claims": [
+    {
+      "id": "c95-penalty-five-vs-six",
+      "statement": "연합신문 1949-06-16 법안 전재의 제3조 징역은 5개월, 1949-07-22 관보 제35호 제3조는 6개월로 불일치한다.",
+      "status": "CONFLICTED_SOURCE_TEXT",
+      "supportingEvidence": [
+        "d95-yeonhap0616:5개월",
+        "d95-gazette35:6개월"
+      ],
+      "contradictingEvidence": [
+        "d95-yeonhap0616",
+        "d95-gazette35"
+      ],
+      "insufficientEvidence": [
+        "1949-06-15 속기록 11면·연합신문 원지면·관보 원면·정오표"
+      ],
+      "relatedEvents": [
+        "evt95-grain-revote-0615",
+        "evt95-grain-law35-0722"
+      ],
+      "reviewDate": "2026-10-08"
+    },
+    {
+      "id": "c95-grain-revote",
+      "statement": "식량임시긴급조치법 정부 재의요구안은 1949-06-15 국회에서 재석136·찬성128·반대1로 재의결되었다.",
+      "status": "NARROWED_NEWS_AND_LATER_HISTORY",
+      "supportingEvidence": [
+        "d95-yeonhap0616",
+        "d95-constitutional"
+      ],
+      "contradictingEvidence": [],
+      "insufficientEvidence": [
+        "제3회 제17차 1949-06-15 국회 속기록 11면"
+      ],
+      "relatedEvents": [
+        "evt95-grain-revote-0615"
+      ],
+      "reviewDate": "2026-10-08"
+    },
+    {
+      "id": "c95-promulgation-lag",
+      "statement": "1949-06-15 식량법 재의결과 1949-07-22 공포 사이 37일 시차가 있다. 대통령의 구체적 공포지연 지시 여부는 확인되지 않았다.",
+      "status": "SUPPORTED_CHRONOLOGY_CAUSALITY_OPEN",
+      "supportingEvidence": [
+        "d95-yeonhap0616",
+        "d95-gazette35"
+      ],
+      "contradictingEvidence": [],
+      "insufficientEvidence": [
+        "1949-07-19 국회 질의와 경무대 공포 결재문서"
+      ],
+      "relatedEvents": [
+        "evt95-grain-revote-0615",
+        "evt95-grain-law35-0722"
+      ],
+      "reviewDate": "2026-10-08"
+    },
+    {
+      "id": "c95-law66-amendment",
+      "statement": "국사편찬위원회 헌정사 해제는 박상영 외 의원들이 1949-10-31과 11-05 수정안을 발의해 11-17 법률 제66호로 공포되었다고 설명한다.",
+      "status": "NARROWED_LATER_HISTORY_ONLY",
+      "supportingEvidence": [
+        "d95-constitutional",
+        "d95-law97reprint"
+      ],
+      "contradictingEvidence": [],
+      "insufficientEvidence": [
+        "제5회 제28·30·33차 원속기록·법률 제66호 관보"
+      ],
+      "relatedEvents": [
+        "evt95-grain-extension-1031",
+        "evt95-grain-scope-1105",
+        "evt95-grain-law66-1117"
+      ],
+      "reviewDate": "2026-10-08"
+    },
+    {
+      "id": "c95-law97-repeal",
+      "statement": "1950-02-16 법률 제97호 부칙 제26조는 양곡매입법 제7호 및 식량임시긴급조치법 제35·66호를 폐지했다.",
+      "status": "SUPPORTED_LEGAL_HISTORY_AND_REPRINT",
+      "supportingEvidence": [
+        "d95-law7repeal",
+        "d95-law97reprint",
+        "d95-law97"
+      ],
+      "contradictingEvidence": [],
+      "insufficientEvidence": [
+        "제97호 관보 부칙 제26조 제4호 원면"
+      ],
+      "relatedEvents": [
+        "evt95-grain-law97-0216"
+      ],
+      "reviewDate": "2026-10-08"
+    },
+    {
+      "id": "c95-grain-policy-design",
+      "statement": "제35호는 양곡매입의무를 한시 정지하되 매점매석 처벌을 병행했고 제97호는 제한적 정부매입과 국회동의를 규정했다. 실제 집행성과는 별도 검증이 필요하다.",
+      "status": "SUPPORTED_STATUTORY_TEXT_REPRINT_CAVEAT",
+      "supportingEvidence": [
+        "d95-gazette35",
+        "d95-law97reprint",
+        "d95-seoul0725"
+      ],
+      "contradictingEvidence": [],
+      "insufficientEvidence": [
+        "제97호 관보 원면·농림부 실제 수집량·소매가격"
+      ],
+      "relatedEvents": [
+        "evt95-grain-law35-0722",
+        "evt95-grain-law97-0216"
+      ],
+      "reviewDate": "2026-10-08"
+    },
+    {
+      "id": "c95-law86-date",
+      "statement": "교육법 제86호 공식 제정·시행일은 1949-12-31이며 1950-01-05 미공포 신문 보도와 날짜가 충돌한다.",
+      "status": "NARROWED_OFFICIAL_DATE_NEWS_UNRESOLVED",
+      "supportingEvidence": [
+        "d95-law86"
+      ],
+      "contradictingEvidence": [
+        "d92-dh_016_1950_01_05_0030"
+      ],
+      "insufficientEvidence": [
+        "1949-12-31 관보 원면·신문 원지면·마감일"
+      ],
+      "relatedEvents": [
+        "evt95-education-law86-1231"
+      ],
+      "reviewDate": "2026-10-08"
+    },
+    {
+      "id": "c95-law56-date",
+      "statement": "대한해운공사법 제56호 공식 제정·시행일은 1949-10-08이며 해외 목록의 1949-06-08 표기는 미해결이다.",
+      "status": "NARROWED_OFFICIAL_DATE_ALTERNATE_UNVERIFIED",
+      "supportingEvidence": [
+        "d95-law56"
+      ],
+      "contradictingEvidence": [],
+      "insufficientEvidence": [
+        "해외 목록 원자료·1949-10-08 관보 원면"
+      ],
+      "relatedEvents": [
+        "evt95-shipping-law56-1008"
+      ],
+      "reviewDate": "2026-10-08"
+    }
+  ]
+}

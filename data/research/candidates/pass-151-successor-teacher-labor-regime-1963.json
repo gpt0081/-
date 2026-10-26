@@ -1,0 +1,136 @@
+{
+  "pass": 151,
+  "date": "2026-09-25",
+  "scope": "Map the legal successor regime after Law No.708 by separating national/public teachers from private-school teachers, and test whether the temporary Article 13 prohibition simply vanished on repeal.",
+  "findings": [
+    {
+      "claim": "The 1963 State Public Officials Act independently prohibited public officials from labor movements and other collective activity outside public duties.",
+      "status": "VERIFIED_PRIMARY_LEGAL_TEXT",
+      "evidence": "Law No.1325, promulgated 1963-04-17 and effective 1963-06-01, contains Article 66(1): public officials shall not engage in labor movements or other collective acts for matters other than public duties, except officials engaged in de facto labor.",
+      "source": "https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&chrClsCd=010202&efYd=19630601&joNo=006800&lsiSeq=53074&urlMode=lsInfoP",
+      "access_date": "2026-09-25",
+      "significance": "The general public-service restriction existed before Law No.708 was repealed, so repeal cannot be modeled as a return to the 1960 legal position."
+    },
+    {
+      "claim": "National/public teachers were connected to the general public-service duty regime through the Education Public Officials Act.",
+      "status": "SUPPORTED_PRIMARY_LEGAL_TEXT_NEEDS_EXACT_CROSS_REFERENCE_TRANSCRIPTION",
+      "evidence": "The 1963-1964 Education Public Officials Act version identifies national/public school teachers as education public officials; historical Article 43 is titled State Public Officials Act mutatis-mutandis application. Exact incorporated article range should still be transcribed from the official promulgated version/Gazette.",
+      "source": "https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=&chrClsCd=010202&efYd=19640101&lsiSeq=5378&urlMode=lsInfoP",
+      "access_date": "2026-09-25"
+    },
+    {
+      "claim": "The 1963 Private School Act created a separate successor bridge for private-school teachers rather than making them public officials.",
+      "status": "VERIFIED_LEGAL_STRUCTURE",
+      "evidence": "Private School Act Law No.1362 was enacted 1963-06-26 and effective 1963-07-27. Article 55 provides that rules concerning duties of national/public school teachers apply mutatis mutandis to private-school teachers. This is a service-rule bridge, not conversion of private teachers into public officials.",
+      "source": "https://www.law.go.kr/LSW/lsInfoP.do?docType=JO&joNo=000200&lsiSeq=3218",
+      "access_date": "2026-09-25"
+    },
+    {
+      "claim": "The successor regime preserved the specific collective class-refusal concept for private-school teachers.",
+      "status": "STRONGLY_SUPPORTED_NEEDS_1963_GAZETTE_VERSION_PIN",
+      "evidence": "Private School Act Article 58(1)(4) provides dismissal grounds for political movement, collective refusal of classes, or directing/agitating students for or against a political party. Current consolidated text retains this formulation; secondary legal-history material states the private-teacher service structure dates from the 1963 enactment. The exact 1963 promulgated Article 58 text remains a priority transcription target.",
+      "access_date": "2026-09-25",
+      "caution": "Do not claim exact word-for-word inheritance from Law No.708 Article 13 until the 1963 original Gazette text is pinned."
+    },
+    {
+      "claim": "Law No.708 repeal on 1964-01-01 restored unrestricted teacher labor activity.",
+      "status": "CONTRADICTED",
+      "evidence": "By repeal, State Public Officials Act Article 66 already supplied a general public-official labor/collective-action restriction, while the Private School Act supplied a private-teacher service/dismissal framework. The successor architecture therefore split by employment status instead of disappearing.",
+      "access_date": "2026-09-25"
+    },
+    {
+      "claim": "The 1961-06-21 Teachers Organization Bill supplied the wording of State Public Officials Act Article 66, Private School Act Articles 55/58, or Law No.708 Article 13.",
+      "status": "OPEN_NOT_PROVEN",
+      "evidence": "The semantic overlap is now broader, but no June 1961 bill original has been obtained. No textual genealogy is asserted."
+    }
+  ],
+  "events": [
+    {"id":"evt-1963-04-17-state-public-officials-act-1325","status":"PRIMARY_TEXT_VERIFIED","effective":"1963-06-01","legal_authority":"Law No.1325"},
+    {"id":"evt-1963-06-01-state-public-officials-art66-effective","status":"PRIMARY_TEXT_VERIFIED","legal_authority":"State Public Officials Act Art.66"},
+    {"id":"evt-1963-06-26-private-school-act-1362-enacted","status":"PRIMARY_TEXT_VERIFIED","effective":"1963-07-27"},
+    {"id":"evt-1963-private-school-teacher-duty-bridge","status":"VERIFIED_STRUCTURE","legal_authority":"Private School Act Art.55"},
+    {"id":"evt-1963-private-school-collective-class-refusal-dismissal","status":"NEEDS_ORIGINAL_VERSION_PIN","legal_authority":"Private School Act Art.58(1)(4)"},
+    {"id":"evt-1963-12-05-education-public-officials-act-revision","status":"PRIMARY_METADATA_VERIFIED","effective":"1964-01-01"},
+    {"id":"evt-1964-01-01-law708-repeal-successor-split","status":"NARROWED_SUCCESSOR_MAPPING"},
+    {"id":"evt-1992-constitutional-court-art66-teacher-application","status":"LATER_FINDING","note":"90헌바27 later confirms Article 66 was treated as applicable to education public officials; useful for legal lineage, not evidence of 1961 intent."}
+  ],
+  "actor_nodes_to_deepen": [
+    {"id":"cand-mun-hui-seok","name":"문희석","status":"IDENTIFIED_CONTEXT","open":"proposal/signature chain for Law 708 and transition to 1963 permanent statutes"},
+    {"id":"cand-seo-myeong-won","name":"서명원","status":"IDENTIFIED_CONTEXT","open":"vice-ministerial processing records"},
+    {"id":"cand-kim-yong-sun","name":"김용순","status":"DISCOVERED","open":"Supreme Council education/social committee minutes"},
+    {"id":"cand-kang-gi-cheol","name":"강기철","status":"IDENTIFIED_UNION_ACTOR","open":"indictment/judgment and actual charging statute"},
+    {"id":"cand-kim-mun-sim","name":"김문심","status":"IDENTIFIED_UNION_ACTOR","open":"indictment/judgment and actual charging statute"},
+    {"id":"cand-lee-mok","name":"이목","status":"IDENTIFIED_UNION_ACTOR","open":"indictment/judgment and actual charging statute"},
+    {"id":"cand-lee-jong-seok","name":"이종석","status":"IDENTIFIED_UNION_ACTOR","open":"indictment/judgment and actual charging statute"},
+    {"id":"cand-oh-cheon-seok","name":"오천석","status":"VERIFIED_CONTEXT","open":"1960 Teachers Organization Bill original comparison"},
+    {"id":"cand-jang-myeon","name":"장면","status":"VERIFIED_CONTEXT","open":"preserve Second Republic/post-coup bill separation"},
+    {"id":"cand-yun-taek-jung","name":"윤택중","status":"IDENTIFIED_CONTEXT","open":"transition-period education administration records"}
+  ],
+  "adversarial_checks": [
+    "Repeal of a temporary statute does not imply restoration when overlapping permanent statutes are already effective.",
+    "State Public Officials Act Article 66 applies through public-official status; it must not be silently generalized to all private teachers.",
+    "Private School Act Article 55 is a mutatis-mutandis service-rule bridge, not a declaration that private teachers are public officials.",
+    "Later constitutional cases confirm application history but cannot prove the drafters' 1961 intent.",
+    "Semantic similarity between Law 708 Article 13 and State Public Officials Act Article 66 does not establish copying.",
+    "Semantic similarity between Law 708 Article 13 and Private School Act collective-class-refusal language does not establish copying without the promulgated 1963 version and drafting file.",
+    "The June 1961 Teachers Organization Bill remains a missing ancestor candidate, not a proven ancestor.",
+    "Ministerial office does not establish personal authorship of the successor statutes.",
+    "A dismissal ground and a criminal prohibition are different legal mechanisms and must remain separate in the event graph.",
+    "Public-school and private-school teachers require separate enforcement histories after 1963."
+  ],
+  "priority_leads": [
+    "National Law Information Center/Gazette: transcribe original 1963 State Public Officials Act Article 66 and Article 84 penalty text from Law No.1325.",
+    "1963 State Public Officials Act drafting file: identify proposer, review body, Article 66 amendment history and explanatory memorandum.",
+    "1963 Education Public Officials Act Law No.1463 original: transcribe Article 43 exact State Public Officials Act cross-reference range.",
+    "Education Public Officials Act drafting file: determine why Article 43 incorporated the general service regime.",
+    "Private School Act Law No.1362 original Gazette: pin Article 55 wording at enactment.",
+    "Private School Act Law No.1362 original Gazette: pin Article 58(1)(4) wording at enactment.",
+    "Private School Act enactment reasons: identify rationale for applying national/public teacher duty rules to private teachers.",
+    "Private School Act drafting/review file: identify whether Law No.708 Articles 11,12,17-20 were copied, revised or independently redrafted.",
+    "Private School Act drafting/review file: test whether Article 13 concepts migrated into Articles 55/58.",
+    "Law No.708 repeal Law No.1466 bill file: identify explicit successor-statute rationale.",
+    "Law No.708 repeal Law No.1466 Cabinet/Supreme Council minutes: identify whether teacher labor provisions were discussed.",
+    "1961-06-21 25th Cabinet Teachers Organization Bill original: obtain full text.",
+    "1961-06-21 Education Public Officials amendment original: obtain full text.",
+    "25th Cabinet minutes: identify disposition and amendment of both June education bills.",
+    "BA0084271 item20 Law No.708 bill: transcribe draft Article 13 and proposal cover sheet.",
+    "55th Cabinet minutes: compare draft Article 13 discussion with promulgated version.",
+    "BA0188689 Gazette No.2946: capture Law No.708 promulgation signatures/countersignatures.",
+    "1960 BA0084253 Teachers Organization Bill: transcribe labor/association/collective-action clauses.",
+    "1960 BA0084253 Education Public Officials amendment: transcribe relevant service clauses.",
+    "1963 Gazette index around Law Nos.1325,1362,1463,1466: build exact enactment/effective-date timeline.",
+    "Constitutional Court 90헌바27 full decision: extract historical account of Article 66 enactment/amendments and education-public-official application.",
+    "Supreme Court 90도332 and 90도2310: map later judicial definition of teacher labor movement under Article 66 without back-projecting it to 1961.",
+    "1963 private-school legal commentary by Han Seok-beom in Beopje Wolbo: recover contemporaneous explanation of Article 55.",
+    "1963 Kim Kang-hyeon Private School Act commentary in Saegyoyuk: recover contemporaneous legislative rationale.",
+    "National Archives Private School Act topic bibliography: trace cited drafting and ministry records.",
+    "National Archives 1963 Cabinet agenda list: locate Private School Act, Education Public Officials Act, Law 708 repeal agenda identifiers.",
+    "Supreme Council plenary/committee minutes for Law No.1325: search Article 66 debate.",
+    "Supreme Council plenary/committee minutes for Law No.1362: search teacher service and collective-class-refusal provisions.",
+    "Supreme Council plenary/committee minutes for Law No.1463: search Education Public Officials Act Article 43.",
+    "Teacher-union activist judgments 1961-1964: distinguish revolutionary-court/national-security charges from Law 708 Article 13 enforcement.",
+    "강기철 case file: identify court, case number, indictment date and statutes charged.",
+    "김문심 case file: identify court, case number, indictment date and statutes charged.",
+    "이목 case file: identify court, case number, indictment date and statutes charged.",
+    "이종석 case file: identify court, case number, indictment date and statutes charged.",
+    "Korean Education Association 1963-1964 bulletins: compare permitted professional association activity with statutory labor restrictions.",
+    "US Embassy/FRUS 1963 education/public-service reporting: seek independent observation of permanent successor regime."
+  ],
+  "execution_ledger": {
+    "independent_research_lines": 20,
+    "substantive_domains": 8,
+    "non_presidential_nodes_deepened": 10,
+    "events_or_subevents": 8,
+    "meaningful_documents_directly_opened": 15,
+    "official_primary_or_archive_class": 8,
+    "adversarial_checks": 10,
+    "open_leads_or_history_debt_followed": 10,
+    "new_concrete_leads": 36,
+    "cross_provenance_bundles": 3,
+    "document_floor_40_met": false,
+    "primary_floor_20_met": false,
+    "counting_note": "Counts exclude duplicate views, repeated find operations and mere search-result snippets."
+  },
+  "weekly_history_debt": "역사부채 주간 전수조사 미실시. Friday in Asia/Seoul.",
+  "floot": "NOT_MODIFIED_OR_BUILT"
+}

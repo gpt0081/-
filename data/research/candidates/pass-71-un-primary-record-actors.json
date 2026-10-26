@@ -1,0 +1,75 @@
+{
+  "pass": 71,
+  "accessDate": "2026-09-22",
+  "focus": "UN primary-record crosscheck of 1953 Korean political-conference composition",
+  "koreanPoliticianUpdates": [
+    {
+      "id": "pol-rhee-syngman",
+      "status": "ANNALS_ACTIVE",
+      "eventLinks": ["EVT-KOREA-1953-08-27-FIRST-COMMITTEE-INDIA-VOTE", "EVT-KOREA-1953-08-28-MENON-INDIA-NONVOTE", "EVT-KOREA-1953-08-28-UNGA-711-VII"],
+      "finding": "UN records strengthen the distinction between ROK participation leverage and a nonexistent/unproven formal Rhee veto.",
+      "openLead": "Find Korean cabinet/Foreign Ministry primary records tying Rhee personally to exact conference-membership instructions."
+    },
+    {
+      "id": "cand-limb-ben",
+      "nameKo": "임병직",
+      "nameEn": "Ben C. Limb",
+      "status": "IDENTIFIED",
+      "openLead": "Search resumed seventh-session meeting records and ROK Observer Mission correspondence for Limb statements on India and conference composition."
+    },
+    {
+      "id": "pol-pyun-yongtae",
+      "nameKo": "변영태",
+      "nameHanja": "卞榮泰",
+      "nameEn": "Pyun Yung Tai",
+      "status": "VERIFIED",
+      "openLead": "Locate Aug. 1953 Foreign Ministry instructions to the ROK UN mission before attributing delegation positions personally to Pyun."
+    }
+  ],
+  "externalActorUpdates": [
+    {
+      "id": "ext-vk-krishna-menon",
+      "name": "V. K. Krishna Menon",
+      "role": "Indian UN actor; requested that the India-participation proposal not be forced to a plenary vote",
+      "evidence": ["UN-GA7-INDEX-1953", "UN-YEARBOOK-1953", "FRUS-XV2-d752"]
+    },
+    {
+      "id": "ext-henry-cabot-lodge-jr",
+      "name": "Henry Cabot Lodge Jr.",
+      "role": "USUN actor; U.S. public rationale against non-belligerent conference participation requires exact meeting-record attribution",
+      "evidence": ["UN-YEARBOOK-1953", "FRUS-XV2-d752"]
+    }
+  ],
+  "organizationCandidates": [
+    {"id":"org-un-ga","name":"United Nations General Assembly","type":"international_body"},
+    {"id":"org-un-ga-first-committee","name":"UN General Assembly First Committee","type":"international_body"},
+    {"id":"org-rok-un-observer-mission","name":"Republic of Korea Observer Mission to the United Nations","type":"diplomatic_mission"},
+    {"id":"org-usun","name":"United States Mission to the United Nations","type":"diplomatic_mission"},
+    {"id":"org-india-un-delegation","name":"Indian delegation to the United Nations","type":"diplomatic_delegation"},
+    {"id":"org-ussr-un-delegation","name":"USSR delegation to the United Nations","type":"diplomatic_delegation"}
+  ],
+  "documents": [
+    {"id":"UN-A-2450","symbol":"A/2450","date":"1953-08-27","type":"committee_report","provenance":"United Nations","originalLocation":"https://digitallibrary.un.org/record/831346/files/A_2450-EN.pdf","accessState":"indexed_text_seen; direct PDF open 403"},
+    {"id":"UN-A-RES-711-VII-A","symbol":"A/RES/711(VII)[A]","date":"1953-08-28","type":"resolution_component","provenance":"United Nations Digital Library","vote":"43-5-10"},
+    {"id":"UN-A-RES-711-VII-B","symbol":"A/RES/711(VII)[B]","date":"1953-08-28","type":"resolution_component","provenance":"United Nations Digital Library","vote":"55-1-1"},
+    {"id":"UN-A-RES-711-VII-C","symbol":"A/RES/711(VII)[C]","date":"1953-08-28","type":"resolution_component","provenance":"United Nations Digital Library","vote":"54-3-1","note":"Do not confuse final component C with A/2450 committee resolution C on India; committee C was not voted in plenary."},
+    {"id":"UN-GA7-INDEX-1953","title":"Index to Proceedings of the General Assembly, resumed 7th session, 1953","provenance":"United Nations","accessState":"direct web/PDF indexed text checked"},
+    {"id":"UN-YEARBOOK-1953","title":"Yearbook of the United Nations 1953","provenance":"United Nations","accessState":"direct web/PDF indexed text checked"}
+  ],
+  "claims": [
+    {"id":"CLM-1953-INDIA-VOTED-DOWN-BY-UN","status":"CONTRADICTED","finding":"First Committee adopted A/L.153 27-21-11; India then requested no plenary vote.","evidence":["UN-YEARBOOK-1953","UN-GA7-INDEX-1953","FRUS-XV2-d752"]},
+    {"id":"CLM-1953-US-INDIA-OPPOSITION-SOLELY-DEFERENCE-TO-RHEE","status":"CONTRADICTED_NARROWED","finding":"UN Yearbook records a belligerent-only public rationale and multinational opposition; private Rhee pressure remains a separate evidenced factor.","evidence":["UN-YEARBOOK-1953","FRUS-XV2-d749","FRUS-XV2-d750"]},
+    {"id":"CLM-1953-711C-MEANS-INDIA-PROPOSAL","status":"CONTRADICTED","finding":"A/2450 committee resolution C concerned India and was not voted in plenary; final A/RES/711(VII)[C] is a different lineage position after committee D communication was adopted.","evidence":["UN-GA7-INDEX-1953","UN-A-RES-711-VII-C","FRUS-XV2-d752"]},
+    {"id":"CLM-1953-UN-SIDE-WAS-SINGLE-BOUND-BLOC","status":"CONTRADICTED","finding":"A/L.151/Rev.1 as summarized in A/2450 specified independent action and adherence only to decisions/agreements each government accepted.","evidence":["UN-A-2450"]}
+  ],
+  "eventCandidates": [
+    "EVT-KOREA-1953-08-16-A-L151-TROOP-CONTRIBUTOR-DRAFT",
+    "EVT-KOREA-1953-08-18-SOVIET-11-POWER-DRAFT",
+    "EVT-KOREA-1953-08-27-FIRST-COMMITTEE-USSR-PARTICIPATION",
+    "EVT-KOREA-1953-08-27-FIRST-COMMITTEE-INDIA-VOTE",
+    "EVT-KOREA-1953-08-28-MENON-INDIA-NONVOTE",
+    "EVT-KOREA-1953-08-28-UNGA-711A",
+    "EVT-KOREA-1953-08-28-UNGA-711B",
+    "EVT-KOREA-1953-08-28-UNGA-COMMUNICATION-COMPONENT"
+  ]
+}

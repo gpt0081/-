@@ -1,0 +1,83 @@
+{
+  "pass": 233,
+  "date": "2026-09-29",
+  "parentEvent": "evt-1952-pusan-political-crisis",
+  "subEvents": [
+    {
+      "id":"evt-1952-0524-notice37-cabinet-resolution",
+      "date":"1952-05-24",
+      "type":"constitutional-administrative",
+      "description":"국무회의 결의에 근거한 State Council Public Notice No.37 문서행위",
+      "proposed_by":[],
+      "decided_by":["org-rok-state-council"],
+      "executed_by":[],
+      "signed_by":["pol-rhee-syngman","cand-1952-chang-taik-sang","cand-1952-lee-beom-seok","cand-1952-pyun-young-tae","cand-1952-shin-tai-yong","cand-1952-suh-sang-kwon","cand-1952-paik-rak-jun","cand-1952-ham-in-sup","cand-1952-lee-kyo-sun","cand-1952-choi-chang-soon","cand-1952-choi-jae-yu","cand-1952-kim-suk-kwan","cand-1952-cho-ju-yong","cand-1952-lee-yun-yong"],
+      "legal_authority":"계엄 관련 헌법·법률. 정확 조문과 24시간 사전통고 요건은 원문 재검증 필요",
+      "observed_by":["org-us-embassy-seoul","org-australian-external-affairs"],
+      "status":"NARROWED_ORIGINAL_SCAN_OPEN"
+    },
+    {
+      "id":"evt-1952-0525-mp-arrests-five-assemblymen",
+      "date":"1952-05-25",
+      "type":"military-police-enforcement",
+      "description":"새벽 야당계 국회의원 5명 체포. 호주 외교기록 인용 연구는 ROK military police 집행으로 서술",
+      "decided_by":[],
+      "executed_by":["org-rok-military-police"],
+      "opposed_by":["org-uncurk"],
+      "observed_by":["James Plimsoll and other foreign representatives in subsequent arrests"],
+      "status":"OPEN_INDIVIDUAL_ORDERER"
+    },
+    {
+      "id":"evt-1952-0527-assemblymen-detention-40",
+      "date":"1952-05-27",
+      "type":"legislative-coercion",
+      "description":"Munro/Yea가 인용한 호주 기록은 40명의 의원이 입장을 거부당하고 약 26시간 억류됐다고 서술",
+      "executed_by":[],
+      "status":"OPEN_EXECUTING_UNIT_AND_ORDER_CHAIN"
+    },
+    {
+      "id":"evt-1952-0620-international-club-attack",
+      "date":"1952-06-20",
+      "type":"political-violence",
+      "description":"부산 국제구락부 반정부 성향 모임 습격. 동시대 보도는 약 50명 청년의 난입, 기물파손·폭행, 경찰의 뒤늦은 질서회복과 체포를 보도. 조직적 지휘·경찰 연계는 추가 원문 필요",
+      "executed_by":["unknown-youth-group"],
+      "observed_by":["contemporary foreign press"],
+      "status":"OPEN_ATTRIBUTION"
+    },
+    {
+      "id":"evt-1952-0702-police-assembly-escort",
+      "date":"1952-07-02",
+      "type":"police-legislative-coercion",
+      "description":"정부가 불참 의원을 경찰이 의사당으로 안내·호송하겠다고 발표하고 경찰 수색으로 의원들을 집결시킴",
+      "decided_by":["org-rok-government"],
+      "executed_by":["org-rok-national-police"],
+      "status":"OPEN_INDIVIDUAL_ORDERER"
+    },
+    {
+      "id":"evt-1952-0704-selected-amendment-vote",
+      "date":"1952-07-04",
+      "type":"constitutional-legislative",
+      "description":"166명 출석 상태에서 발췌개헌 내용이 163 찬성, 3 기권으로 채택됐다고 FRUS 편집주가 UN A/2187을 인용해 기록",
+      "decided_by":["org-rok-national-assembly"],
+      "legal_authority":"헌법개정 절차",
+      "status":"SUPPORTED_VOTE_COUNT; ABSTAINER_IDENTITIES_OPEN"
+    },
+    {
+      "id":"evt-1952-0715-amendment-implementation-legislation",
+      "date":"1952-07-15",
+      "type":"legislation",
+      "description":"FRUS는 개정 헌법조항 시행을 위한 입법이 통과됐다고 기록",
+      "decided_by":["org-rok-national-assembly"],
+      "status":"OPEN_EXACT_LAW_TITLE_NUMBER"
+    },
+    {
+      "id":"evt-1952-0805-direct-presidential-election",
+      "date":"1952-08-05",
+      "type":"election",
+      "description":"개헌 뒤 직접선거로 대통령 선거 실시. 선거 결과·UN 관찰평가·경찰개입 여부는 별도 선거 event로 확장 필요",
+      "decided_by":["rok-electorate"],
+      "status":"ANNALS_EXPANSION_OPEN"
+    }
+  ],
+  "attributionRule":"재임·서명·기관장 지위만으로 각 집행행위의 직접명령을 귀속하지 않는다. 선포/결의/서명/현장집행/개인명령을 별도 action으로 유지한다."
+}

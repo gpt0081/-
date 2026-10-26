@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "pass": 111,
+  "date": "2026-09-24",
+  "event": "evt-1960-315-election",
+  "candidates": [
+    {"candidateId":"cand-mun-hak-dong-chungbuk-police","name":"문학동","aliases":["Mun Hak-dong","Moon Hak-dong"],"roles":[{"title":"충청북도 경찰국장","period":"1960-03","verification":"secondary-source-citing-Chungbuk-Sinbo"}],"researchStatus":"DISCOVERED","actionTypes":["provincial-police-command"],"evidence":["2026-04-06 Chungbuk local-history article citing 충북신보 1960-07-13"],"openLeads":["충북신보 1960-07-13 원문","관보 인사발령","특별재판/혁명재판 공소장"]},
+    {"candidateId":"cand-lee-hwa-sik-gyeongnam-intelligence","name":"이화식","aliases":["Lee Hwa-sik"],"roles":[{"title":"경남도경 사찰과장","period":"1960-03"}],"researchStatus":"IDENTIFIED","actionTypes":["provincial-police-intelligence","prosecuted-election-case"],"evidence":["KDemo AAP_1960_06_13_n007"],"openLeads":["1960 공소장","후속 특별/혁명재판 판결","한자·생몰"]},
+    {"candidateId":"cand-jeong-dong-sik-jeonnam-intelligence","name":"정동식","aliases":["Jeong Dong-sik"],"roles":[{"title":"전남경찰국 사찰과장","period":"1960-03"}],"researchStatus":"IDENTIFIED","actionTypes":["provincial-police-intelligence","special-court-defendant"],"evidence":["KDemo 00732955"],"openLeads":["1961-02-13 이후 공판","판결","한자·생몰"]},
+    {"candidateId":"cand-woo-yong-chul-chungnam-intelligence","name":"우용출","aliases":["Woo Yong-chul"],"roles":[{"title":"충남 사찰과장","period":"1960-03"}],"researchStatus":"IDENTIFIED","actionTypes":["provincial-police-intelligence","special-court-defendant"],"evidence":["KDemo 00732963"],"openLeads":["도주 이후 신병/재판 처리","정확 소속·직급","한자·생몰"]},
+    {"candidateId":"cand-nam-jeong-sang-chungnam-liberal","name":"남정상","aliases":["Nam Jeong-sang"],"roles":[{"title":"자유당 선거참관인","period":"1960-03"}],"researchStatus":"DISCOVERED","actionTypes":["party-election-network","special-court-defendant"],"evidence":["KDemo 00732963"],"openLeads":["자유당 공식 직책","공소장상 행위","정치인 registry 포함 기준 검토"]},
+    {"candidateId":"cand-hwang-jong-yul-chungbuk-governor-1960","name":"황종율","aliases":["황종률","Hwang Jong-yul"],"roles":[{"title":"충청북도지사","period":"1960-05~1960-10","verification":"needs-gazette"}],"researchStatus":"DISCOVERED","actionTypes":["post-april-provincial-administration","personnel-reorganization"],"evidence":["2026-04-20 Chungbuk local-history article"],"openLeads":["관보 취임일","시장·군수 12명 해임 발령","경찰서장 10명 면직 명단"]},
+    {"candidateId":"cand-son-seok-rae-masan-police","name":"손석래","aliases":["Son Seok-rae"],"roles":[{"title":"마산경찰서장","period":"1960-03"}],"researchStatus":"IDENTIFIED","actionTypes":["masan-protest-police-command","contemporaneous-testimony"],"evidence":["KDemo 00758831"],"openLeads":["국회 조사위 증언 원문","발포 지휘선 하위 명령","선거행정 사건과 분리"]},
+    {"candidateId":"cand-lee-heon-gu-chungbuk-security","name":"이헌구","aliases":["Lee Heon-gu","이헌영?"],"roles":[{"title":"충북 경찰 보안과장","period":"1960-03","verification":"CONFLICTED-name"}],"researchStatus":"IDENTIFIED","actionTypes":["provincial-police-security","special-court-prosecution"],"evidence":["KDemo 00732939 names 이헌구","KDemo 00732978 names 이헌영"],"openLeads":["원 공소장으로 이헌구/이헌영 동일인 여부 확인","관보 경찰 인사"]},
+    {"candidateId":"cand-jeong-in-taek-chungbuk-governor","name":"정인택","aliases":["鄭麟澤","Jeong In-taek"],"roles":[{"title":"충청북도지사","period":"1960-03"}],"researchStatus":"IDENTIFIED","actionTypes":["provincial-election-administration","special-court-prosecution","later-judgment"],"evidence":["KDemo 00732939","KDemo 00732978","KDemo democracy dictionary 3.15 election"],"openLeads":["시장·군수 회의 원자료","혁명재판 판결문 등록번호","해임 관보"]},
+    {"candidateId":"cand-shin-do-seong-gyeongnam-governor","name":"신도성","aliases":["愼道晟","Shin Do-seong"],"roles":[{"title":"신당 강령기초위원","period":"1954"},{"title":"경상남도지사","period":"1960-03"}],"researchStatus":"VERIFIED","actionTypes":["party-formation","provincial-election-administration","contemporaneous-testimony","later-judgment"],"evidence":["Korean History DB constitutional-history result","KDemo 00758831","KDemo AAP_1960_06_13_n007","National Archives/KDemo 00849928"],"openLeads":["1954 신당 강령 원문","1960 국회 증언 원문","70쪽 판결 인정사실"]}
+  ],
+  "conflicts":[
+    {"id":"conflict-lee-heon-gu-yeong","status":"CONFLICTED","question":"충북 경찰 보안과장 이헌구와 이헌영이 동일인인가?","evidenceForVariants":["00732939: 이헌구","00732978: 이헌영"],"nextTarget":"특별재판소 공소장/관보"}
+  ],
+  "notes":["구형, 기소, 피고 진술, 판결, 확정형을 별도 증거 층위로 취급한다.","문학동·황종율은 원 관보/당시 신문을 회수하기 전 VERIFIED로 승격하지 않는다.","신도성은 1954 정당형성 경력과 1960 지방행정 사건을 하나의 장기 정치인 노드에 cross-link한다."]
+}

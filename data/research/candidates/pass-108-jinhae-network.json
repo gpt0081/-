@@ -1,0 +1,71 @@
+{
+  "pass": 108,
+  "date": "2026-09-24",
+  "focusEvent": "evt-1954-1955-jinhae-city-establishment",
+  "candidates": [
+    {
+      "candidateId": "cand-kim-cheol-an-1912",
+      "name": "김철안",
+      "aliases": ["金喆安", "金哲安", "Kim Cheol-an"],
+      "aliasState": "CONFLICTED_NEEDS_OFFICIAL_MEMBER_ROSTER",
+      "lifespan": {"born": "1912-04-04", "died": null},
+      "researchStatus": "IDENTIFIED_CONFLICTED_ALIAS",
+      "roles": ["제3·4대 민의원", "자유당 금릉군당 위원장", "1955 진해시승격 현지 조사단 후보"],
+      "connections": ["evt-1954-1955-jinhae-city-establishment", "evt-1960-315-election"],
+      "evidenceNotes": [
+        "진해 지역사 locator가 동아일보 1955-02-22를 인용해 김철안 의원 등 조사단의 1955-02-15 진해 방문을 기록",
+        "민주화운동기념사업회 일지는 1961-04-14 특별재판소 공판의 피고인을 김철안 전 자유당 경북 금릉군당 위원장(전 민의원)으로 식별",
+        "경북여성정책개발원 계열 PDF는 1912-04-04 출생, 대구경북 첫 여성 국회의원 및 재선 의원으로 서술"
+      ],
+      "openLeads": [
+        "1955-02-22 동아일보 원면에서 조사단 전체 명단 확인",
+        "국회 제3·4대 의원 인물록에서 한자·생몰·선거구 공식 고정",
+        "중앙선관위 제3·4·5대 금릉 개인별 선거결과 회수",
+        "특별재판소 판결문에서 1960 부정선거 행위·판단 확인"
+      ]
+    },
+    {
+      "candidateId": "cand-joo-geum-yong-1908",
+      "name": "주금용",
+      "aliases": ["朱金用", "Joo Geum-yong", "Chu Kum-yong"],
+      "lifespan": {"born": "1908-02-15", "died": "1984-10-19", "verification": "SECONDARY"},
+      "researchStatus": "IDENTIFIED_SECONDARY",
+      "roles": ["진해읍장 후보경력", "경상남도의원 후보경력", "제4대 진해시 민의원"],
+      "connections": ["evt-1958-jinhae-election"],
+      "evidenceNotes": [
+        "공개 인물·선거 자료가 1958 진해시 무소속 당선 및 김성삼 패배를 일관되게 지시",
+        "공개 제4대 총선 자료가 1959-08-22 무소속 주금용의 자유당 입당을 지시"
+      ],
+      "openLeads": [
+        "중앙선관위 1958 진해시 개인별 득표 원문 회수",
+        "국회 제4대 의원 인물록에서 신원·경력 공식 고정",
+        "1959-08-22 자유당 입당 동시대 원문 회수"
+      ]
+    },
+    {
+      "candidateId": "cand-kim-chung-nam-navy",
+      "name": "김충남",
+      "aliases": ["Kim Chung-nam", "Kim Choong-nam"],
+      "researchStatus": "DISCOVERED_IDENTITY_GUARD",
+      "roles": ["1955 해군통제부사령관 준장 lead", "1959~1960 제2대 해군참모차장 소장 lead"],
+      "connections": ["evt-1954-1955-jinhae-city-establishment"],
+      "identityGuard": "현대 정치학자·야구감독·시인 등 동명이인과 병합 금지. 1955 준장과 1959 해군참모차장의 동일성도 공식 해군 인사자료 전에는 NARROWED.",
+      "openLeads": [
+        "해군 공식 역대 참모차장 자료에서 한자·재임기간 회수",
+        "1955 해군 인사명령/관보에서 통제부사령관 보직 확인"
+      ]
+    }
+  ],
+  "eventCandidate": {
+    "id": "evt-1954-1955-jinhae-city-establishment",
+    "name": "1954~1955 진해시 설치 입법·조사·공포",
+    "subEvents": [
+      {"date": "1954-12-17", "type": "legislative_proposal", "actors": ["cand-kim-seong-sam-1906"], "state": "NARROWED"},
+      {"date": "1955-02-15", "type": "field_investigation", "actors": ["cand-kim-cheol-an-1912", "cand-kim-seong-sam-1906", "cand-kim-chung-nam-navy"], "state": "NARROWED"},
+      {"date": "1955-07-27", "type": "legislative_passage", "actors": [], "state": "NARROWED_PRIMARY_NEEDED"},
+      {"date": "1955-08-02", "type": "transmittal", "actors": ["pol-yi-ki-pung"], "state": "NARROWED_PRIMARY_NEEDED"},
+      {"date": "1955-08-05", "type": "cabinet_promulgation_decision", "actors": ["pol-rhee-syngman"], "state": "NARROWED_PRIMARY_NEEDED"},
+      {"date": "1955-09-01", "type": "effective_date", "actors": [], "state": "NARROWED_PRIMARY_NEEDED"}
+    ]
+  }
+}

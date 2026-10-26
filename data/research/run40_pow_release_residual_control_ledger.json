@@ -1,0 +1,53 @@
+{
+  "run": 40,
+  "date": "2026-10-05",
+  "scope": "1953-06-18~19 반공포로 석방 후 잔여수용소 통제권 전환과 한국측 지휘선 재검증",
+  "flootTouched": false,
+  "documents": [
+    {"id":"frus-1953-606","date":"1953-06-18","url":"https://history.state.gov/historicaldocuments/frus1952-54v15p2/d606","provenance":"미 국무부 FRUS editorial note","finding":"자정~새벽 부산·마산·논산·상무대에서 약 25,000명이 탈출했고 UNC는 한국정부 상층의 계획·조정과 ROK 경비대 공모 증거가 있다고 발표했다."},
+    {"id":"frus-1953-607","date":"1953-06-18","url":"https://history.state.gov/historicaldocuments/frus1952-54v15p2/d607","provenance":"이승만→Clark 직접서신/ROK OPI 성명","finding":"이승만은 사전 공개가 계획을 망쳤을 것이라 쓰고 자신의 책임으로 석방을 명령했다고 공개했다. 도지사·경찰에는 석방자 보호 지시를 밝혔다."},
+    {"id":"khd-dh-029-1953-06-18-0080","date":"1953-06-18","url":"https://db.history.go.kr/id/dh_029_1953_06_18_0080","provenance":"국사편찬위원회 자료대한민국사/부산일보","finding":"원용덕은 6월18일 0시 관하 지휘관에게 한인 포로수용소 접수를 명했다고 당일 담화에서 밝혔다."},
+    {"id":"khd-dh-029-1953-06-18-0090","date":"1953-06-18","url":"https://db.history.go.kr/id/dh_029_1953_06_18_0090","provenance":"국사편찬위원회 자료대한민국사/서울신문","finding":"변영태 국무총리 서리는 Clark에게 한국정부 입장을 공개서한으로 전달하고 잔여 반공포로 인도를 요구했다."},
+    {"id":"frus-1953-611","date":"1953-06-18","url":"https://history.state.gov/historicaldocuments/frus1952-54v15p2/d611","provenance":"미 국무부 회담기록","finding":"백두진 총리와 Dulles 회담에서 미국은 이승만의 일방조치가 UNC 권위와 군사 지휘통일을 훼손한다고 문제삼았다."},
+    {"id":"frus-1953-612","date":"1953-06-19","url":"https://history.state.gov/historicaldocuments/frus1952-54v15p2/d612","provenance":"Clark→JCS 전문 CX 63170","finding":"Herren 보고에 따르면 원용덕은 추가 석방을 저지하는 미군을 공격하라는 지시를 ROK 경비부대에 내렸고, Clark는 백선엽 정규 육군 지휘선과 원용덕의 별도 지시선을 구분했다."},
+    {"id":"frus-1953-613","date":"1953-06-19","url":"https://history.state.gov/historicaldocuments/frus1952-54v15p2/d613","provenance":"Clark→JCS 전문 C 63176","finding":"미군이 8개 본토 수용소의 잔여 약 9,400명에 대한 완전 경비를 인수했다고 보고했다. 이는 석방 뒤 통제권이 ROK 경비에서 미군으로 전환된 sub-event를 특정한다."},
+    {"id":"frus-1953-614","date":"1953-06-19","url":"https://history.state.gov/historicaldocuments/frus1952-54v15p2/d614","provenance":"Murphy→미 국무부 전문","finding":"ROK 경비를 미군이 대체한 뒤 잔여 포로의 추가 집단탈출을 어떤 강도로 저지할지 논의했다."},
+    {"id":"frus-1953-616","date":"1953-06-19","url":"https://history.state.gov/historicaldocuments/frus1952-54v15p2/d616","provenance":"Briggs→미 국무부 전문","finding":"Briggs는 이승만·변영태 면담 뒤 두 사람이 사전에 행동 결과와 미국측 반응을 숙고한 정황을 관찰했다고 보고했다. 이는 관찰기록이지 사전회의 원문은 아니다."},
+    {"id":"khd-dh-029-1953-06-18-0110","date":"1953-06-18","url":"https://db.history.go.kr/contemp/level.do?levelId=dh_029_1953_06_18_0110","provenance":"국사편찬위원회 자료대한민국사/조선일보","finding":"UNC 수석대표 Harrison이 공산측에 대규모 석방 경위를 공식 통보한 외교·휴전협상 후속선을 확인한다."}
+  ],
+  "subEvents": [
+    {"id":"evt-1953-pow-release-decision","decided_by":["pol-rhee-syngman"],"evidence":["frus-1953-607"]},
+    {"id":"evt-1953-pow-camp-takeover-order","executed_by":["pol-won-yong-dok"],"evidence":["khd-dh-029-1953-06-18-0080"],"status":"command-layer-confirmed-camp-recipients-open"},
+    {"id":"evt-1953-pow-residual-us-security-takeover","executed_by":["UNC US troops"],"observed_by":["Clark","Herren","Murphy"],"evidence":["frus-1953-612","frus-1953-613","frus-1953-614"]},
+    {"id":"evt-1953-pow-release-diplomatic-notification","executed_by":["pol-pyoun-yung-tai","Harrison"],"evidence":["khd-dh-029-1953-06-18-0090","khd-dh-029-1953-06-18-0110"]}
+  ],
+  "actorUpdates": [
+    {"id":"pol-won-yong-dok","status":"IDENTIFIED","role":"헌병총사령관/Provost Marshal","openLead":"관하 지휘관 수신 원문과 camp별 명령 수신시각"},
+    {"id":"pol-paik-sun-yup","status":"IDENTIFIED","role":"육군참모총장","openLead":"백선엽이 원용덕 별도지시를 인지한 시각과 대응명령"},
+    {"id":"pol-pyoun-yung-tai","status":"IDENTIFIED","role":"외무장관·국무총리 서리","openLead":"6월17~18일 대통령과의 사전 협의 원문"},
+    {"id":"pol-paek-tu-chin","status":"IDENTIFIED","role":"국무총리","openLead":"방미 중 석방계획 사전인지 여부와 귀국 후 대응"}
+  ],
+  "adversarialChecks": [
+    "석방이 자발적 동시탈출에 불과했다는 가설은 대통령 자기책임 명령, 원용덕 접수명령, UNC의 상층 조정 관찰과 충돌한다.",
+    "모든 현장행위가 이승만 개인의 직접 지시였다는 가설은 camp별 수신 명령서가 없어 과잉귀속이다.",
+    "ROK 정규 육군참모총장 지휘선만 작동했다는 가설은 원용덕 별도 지시를 기록한 FRUS와 충돌한다.",
+    "6월18일 이후에도 ROK 경비가 잔여 포로를 계속 완전히 통제했다는 가설은 6월19일 미군의 8개 수용소 완전 경비 인수 보고로 반박된다.",
+    "변영태가 석방의 독립 결정자였다는 직접근거는 없다. 외교적 통보·정당화 역할과 결정권을 분리한다.",
+    "Briggs의 사전 숙고 관찰을 사전회의 원문과 동일시할 수 없다. 사전 협의 범위는 계속 NARROWED로 둔다."
+  ],
+  "openLeads": [
+    "Matthews files lot 53 D 413의 CX 63138 원문과 camp별 첨부표 확보",
+    "Herren 1953-06-18~19 상황보고 원전에서 8개 수용소별 ROK 경비부대·미군 인수부대 추출",
+    "헌병총사령부 1953-06-17~19 명령철에서 원용덕 발신 수용소 접수 명령 번호·수신자 확보",
+    "부산 수용소 경비대 작전일지의 개문·경비해제 시각 확인",
+    "마산 수용소 경비대 작전일지의 개문·경비해제 시각 확인",
+    "논산 수용소 경비대 작전일지의 개문·경비해제 시각 확인",
+    "상무대 수용소 경비대 작전일지의 개문·경비해제 시각 확인",
+    "나머지 4개 본토 수용소 명칭과 6월19일 잔여포로 분포를 CX 63170/63176 부속자료에서 확인",
+    "백선엽 육군본부 상황일지에서 원용덕 별도명령 인지시각 확인",
+    "원용덕-대통령 직속 관계를 규정한 1953년 헌병 편제·국방부 명령 확인",
+    "6월18~19일 각 도지사·경찰국 석방자 보호 지시 접수문 확인",
+    "변영태·이승만 6월17~18일 면담·결재·서신철에서 사전 협의 범위 확인"
+  ],
+  "historyDebtImpact":{"id":"HD-RHEE-013","status":"NARROWED","narrowing":"결정자 이승만, 중간 집행지휘 원용덕, 6월19일 잔여 8개 수용소 미군 경비 인수까지 분리. camp별 ROK 명령 수신자·개문행위자는 미확정."}
+}

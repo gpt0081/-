@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "pass": 311,
+  "date": "2026-10-03",
+  "researchFrontier": "1960-04-27/1961-05-18 transition and Second Republic",
+  "backbone": "president-yun-posun",
+  "executiveCenter": ["pol-yun-posun", "pol-chang-myon"],
+  "rheeStatus": "BACKBONE_COMPLETE_DEBT_ONLY",
+  "methodNote": "Rhee-era unresolved questions remain in HISTORY_DEBT/open leads and no longer block chronological advance. The Second Republic is modeled as a dual-centered parliamentary system: President Yun Po-sun is the chronological presidential backbone, while Prime Minister Chang Myon is an independent executive-center politician node.",
+  "verifiedFindings": [
+    {
+      "id": "p311-f01",
+      "date": "1960-04-27",
+      "claim": "After Rhee's resignation, Foreign Minister Huh Chung became Acting President under the then succession arrangement and headed the caretaker transition.",
+      "sources": ["FRUS 1958-1960 XVIII doc 310", "FRUS 1958-1960 XVIII doc 313"],
+      "provenance": ["US diplomatic/intelligence official record"]
+    },
+    {
+      "id": "p311-f02",
+      "date": "1960-06-15",
+      "claim": "The constitutional amendment adopted 208-3 established a bicameral legislature and cabinet system; Huh Chung became Prime Minister and Assembly Speaker Kwak Sang-hun concurrently served as Acting President pending elections.",
+      "sources": ["FRUS 1958-1960 XVIII doc 322", "NIKH constitutional chronology 1960-06-15"],
+      "provenance": ["US diplomatic official record", "NIKH official historical database"]
+    },
+    {
+      "id": "p311-f03",
+      "date": "1960-07-29",
+      "claim": "The Fifth House of Representatives and first House of Councillors elections were held; NIKH records 175 of 233 House seats for the Democratic Party.",
+      "sources": ["NIKH chronology 1960-07-29"],
+      "provenance": ["NIKH official historical database"]
+    },
+    {
+      "id": "p311-f04",
+      "date": "1960-08-11/1960-08-19",
+      "claim": "The joint legislature elected Yun Po-sun president 208-51; Yun first nominated Kim Do-yon for prime minister, who lost 112-111, then nominated Chang Myon, confirmed 117-107.",
+      "sources": ["FRUS 1958-1960 XVIII doc 327"],
+      "provenance": ["US diplomatic official record"]
+    },
+    {
+      "id": "p311-f05",
+      "date": "1960-08/09",
+      "claim": "Democratic Party old/new faction conflict shaped cabinet formation; Chang's initial 14-member cabinet allotted only two positions to the old faction, followed by revisions adding old-faction ministers.",
+      "sources": ["FRUS 1958-1960 XVIII doc 327", "NIKH chronology 1960-08-21", "NIKH chronology 1960-09-11"],
+      "provenance": ["US diplomatic official record", "NIKH official historical database"]
+    },
+    {
+      "id": "p311-f06",
+      "date": "1960-10-13/1960-12-31",
+      "claim": "The Second Republic created post-April accountability legislation, including the temporary handling law for democratic-traitor criminal cases and Law No.586 punishing March 15 election-related wrongdoing.",
+      "sources": ["NIKH chronology 1960-10-13", "Official Gazette No.2750 / NIKH constitutional DB"],
+      "provenance": ["NIKH official historical database", "National Archives Official Gazette"]
+    },
+    {
+      "id": "p311-f07",
+      "date": "1960-11/1961-03",
+      "claim": "The Chang government pursued a national construction/public works program and a five-year economic development draft; the development-plan lineage predates the May 16 coup and also has First Republic antecedents.",
+      "sources": ["NIKH/National Institute of Korean History study on Second Republic economic policy", "FRUS 1961-1963 XXII doc 206"],
+      "provenance": ["NIKH scholarly archive", "US official intelligence/diplomatic record"]
+    },
+    {
+      "id": "p311-f08",
+      "date": "1961-02/03",
+      "claim": "The government faced organized opposition to the Korea-US economic agreement and a unanimous Assembly resolution seeking an early status-of-forces agreement; these are separate foreign-policy and domestic-mobilization event chains.",
+      "sources": ["NIKH study on April Revolution/innovation forces", "FRUS 1961-1963 XXII doc 206"],
+      "provenance": ["NIKH scholarly archive", "US official intelligence/diplomatic record"]
+    },
+    {
+      "id": "p311-f09",
+      "date": "1961-04-21/26",
+      "claim": "US intelligence reported coup planning by Park Chung Hee before May 16; the same record says Chang Myon was aware of coup rumors by April 26 but assessed them as not dangerous.",
+      "sources": ["FRUS 1961-1963 XXII doc 217"],
+      "provenance": ["declassified CIA memorandum in FRUS"]
+    },
+    {
+      "id": "p311-f10",
+      "date": "1961-05-16/18",
+      "claim": "The May 16 military coup seized key state facilities under forces led by Park Chung Hee; contemporary US records initially described Chang Myon's government as the lawful constitutional government. On May 18 the Chang cabinet resigned and the transition to military rule accelerated.",
+      "sources": ["FRUS XXII docs 213, 215, 216, 220", "NIKH chronology 1961-05-16 and 1961-05-18"],
+      "provenance": ["US military/diplomatic official records", "NIKH official historical database"]
+    }
+  ],
+  "eventGraph": [
+    {"id":"evt-1960-rhee-resignation-transition","type":"constitutional-transition","proposed_by":[],"decided_by":["National Assembly","Rhee Syngman"],"executed_by":["Huh Chung caretaker government"],"open":"Exact Korean cabinet/appointment instruments and succession documents."},
+    {"id":"evt-1960-third-constitutional-amendment","type":"constitutional-legislation","decided_by":["National Assembly"],"executed_by":["Huh Chung government"],"legal_authority":"1960 Third Constitutional Amendment","open":"Recover full National Assembly stenographic debate and promulgation gazette."},
+    {"id":"evt-1960-fifth-general-election","type":"election","executed_by":["caretaker government","election administration"],"observed_by":["NIKH chronology"],"open":"CEC district-level official returns and dispute files."},
+    {"id":"evt-1960-yun-president-election","type":"legislative-presidential-election","decided_by":["joint session of House and Council"],"executed_by":[],"open":"Korean joint-session stenographic record and ballot procedure."},
+    {"id":"evt-1960-prime-minister-formation","type":"government-formation","proposed_by":["Yun Po-sun"],"decided_by":["House of Representatives"],"executed_by":["Chang Myon cabinet"],"opposed_by":["factional blocs within Democratic Party"],"open":"Korean confirmation stenograms for Kim Do-yon and Chang Myon."},
+    {"id":"evt-1960-democratic-party-factional-split","type":"party-politics","actors":["Yun Po-sun","Chang Myon","Kim Do-yon","Kwak Sang-hun","Yu Chin-san"],"open":"Party convention/minutes and formal split chronology."},
+    {"id":"evt-1960-april-accountability-legislation","type":"justice-legislation","decided_by":["National Assembly"],"executed_by":["Chang Myon government","courts/prosecutors"],"legal_authority":["Law No.586 and related special legislation"],"open":"Separate enactment, prosecution, trial, and later findings."},
+    {"id":"evt-1960-61-economic-development-planning","type":"economic-policy","proposed_by":["Chang Myon government ministries"],"executed_by":["Ministry of Construction and other agencies"],"open":"Recover March 1961 Five-Year Plan draft and cabinet approval trail; distinguish First Republic antecedents."},
+    {"id":"evt-1961-us-rok-economic-agreement-opposition","type":"foreign-policy-domestic-opposition","decided_by":["Chang Myon government"],"opposed_by":["student and civic organizations"],"open":"Treat treaty negotiation, ratification politics, and demonstrations separately."},
+    {"id":"evt-1961-may16-coup","type":"military-coup","proposed_by":["coup network - attribution requires actor-specific evidence"],"executed_by":["Park Chung Hee-led coup forces"],"opposed_by":["lawful government supporters; degree varied"],"observed_by":["USFK","US Embassy","CIA"],"later_finding":[],"open":"Resolve Chang Do-yong role, Yun Po-sun actions, Chang Myon response, command chains, and military-unit participation without retrospective simplification."}
+  ],
+  "politicianCandidates": [
+    {"id":"pol-yun-posun","name":"윤보선","aliases":["尹潽善","Yun Po-sun","Yun Posun"],"lifespan":{"born":"1897-08-26","died":"1990-07-18"},"roles":["제4대 대통령","민주당 구파 정치인"],"status":"VERIFIED","connections":["evt-1960-yun-president-election","evt-1960-prime-minister-formation","evt-1960-democratic-party-factional-split","evt-1961-may16-coup"],"openLead":"Presidential diary/statements and May 16-18 decision record."},
+    {"id":"pol-chang-myon","name":"장면","aliases":["張勉","Chang Myon","John M. Chang"],"lifespan":{"born":"1899-08-28","died":"1966-06-04"},"roles":["제2공화국 국무총리","전 부통령","민주당 신파 지도자"],"status":"VERIFIED","connections":["evt-1960-prime-minister-formation","evt-1960-democratic-party-factional-split","evt-1960-61-economic-development-planning","evt-1961-may16-coup"],"openLead":"Cabinet minutes, economic-plan approval, April coup-warning handling, May 16-18 chronology."},
+    {"id":"pol-huh-chung","name":"허정","aliases":["許政","Huh Chung","Heo Jeong"],"lifespan":{"born":"1896-04-08","died":"1988-09-18"},"roles":["외무부장관","대통령 권한대행","과도정부 수반"],"status":"IDENTIFIED","connections":["evt-1960-rhee-resignation-transition","evt-1960-third-constitutional-amendment","evt-1960-fifth-general-election"],"openLead":"Official appointment instruments and caretaker cabinet minutes."},
+    {"id":"pol-kwak-sanghun","name":"곽상훈","aliases":["郭尙勳","Kwak Sang-hun"],"roles":["민의원 의장","대통령 권한대행"],"status":"IDENTIFIED","connections":["evt-1960-third-constitutional-amendment","evt-1960-democratic-party-factional-split"],"openLead":"National Assembly leadership records and acting-presidency instruments."},
+    {"id":"pol-kim-do-yon","name":"김도연","aliases":["金度演","Kim Do-yon","Kim Do-yeon"],"roles":["민주당 구파 정치인","국무총리 지명자"],"status":"IDENTIFIED","connections":["evt-1960-prime-minister-formation","evt-1960-democratic-party-factional-split"],"openLead":"Aug 1960 nomination and 112-111 rejection stenogram."},
+    {"id":"pol-paek-nakjun","name":"백낙준","aliases":["白樂濬","Paek Nak-jun","L. George Paik"],"roles":["초대 참의원 의장"],"status":"IDENTIFIED","connections":["evt-1960-yun-president-election"],"openLead":"Council election record and constitutional role."},
+    {"id":"pol-yu-chinsan","name":"유진산","aliases":["柳珍山","Yu Chin-san","Yoo Jin-san"],"roles":["민주당 구파 정치인"],"status":"IDENTIFIED","connections":["evt-1960-democratic-party-factional-split"],"openLead":"Sept 1960 old-faction cabinet recommendations and later New Democratic Party formation."},
+    {"id":"pol-cho-jaechon","name":"조재천","aliases":["曺在千","Cho Jae-chun","Jo Jae-cheon"],"roles":["법무부장관"],"status":"IDENTIFIED","connections":["evt-1960-april-accountability-legislation"],"openLead":"Justice Ministry drafting/prosecution records for special accountability laws."},
+    {"id":"pol-chang-doyong","name":"장도영","aliases":["張都暎","Chang Do-yong","Chang To-yong"],"roles":["육군참모총장","군사혁명위원회 명의상 의장"],"status":"IDENTIFIED_CONFLICTED_ROLE","connections":["evt-1961-may16-coup"],"openLead":"Resolve pre-coup knowledge, attempted suppression, and later participation using Korean military records versus US contemporary reports."},
+    {"id":"pol-park-chunghee","name":"박정희","aliases":["朴正熙","Park Chung Hee","Pak Chong-hui"],"lifespan":{"born":"1917-11-14","died":"1979-10-26"},"roles":["육군 소장","5·16 주도세력","후일 대통령"],"status":"VERIFIED_TRANSITION_ACTOR","connections":["evt-1961-may16-coup"],"openLead":"Pre-coup network, orders, participating units, and transition from deputy to effective leadership."}
+  ],
+  "adversarialChecks": [
+    "Do not treat Yun Po-sun as the sole executive center merely because he was president under a parliamentary constitution.",
+    "Do not treat Chang Myon as powerless merely because the presidency remained visible; recover formal cabinet powers and actual decisions.",
+    "Test whether Democratic Party factional conflict alone explains governmental instability against economic, protest, military, and institutional evidence.",
+    "Test claims that the Second Republic had no economic-development plan against Construction Ministry plan records and First Republic antecedents.",
+    "Separate continuity from appropriation when comparing Second Republic and post-coup five-year plans.",
+    "Test whether Chang Myon had no coup warning against April 21-26 CIA reports, while distinguishing rumor awareness from actionable intelligence.",
+    "Do not infer Chang Do-yong's voluntary leadership from coup broadcasts using his name; contemporary US military reporting questioned authorization.",
+    "Do not infer complete Yun Po-sun support for the coup from later outcomes; reconstruct May 16-18 actions chronologically.",
+    "Separate US initial support for the lawful government from subsequent recognition/working relations with the military regime.",
+    "Separate post-April accountability legislation from individual guilt; preserve prosecution, judgment, appeal, and later findings independently."
+  ],
+  "crossChecks": [
+    {"topic":"1960 constitutional transition","families":["NIKH constitutional/chronology DB","FRUS diplomatic records"],"thirdFamilyTarget":"National Assembly stenograms/Official Gazette"},
+    {"topic":"Second Republic government formation","families":["FRUS diplomatic records","NIKH chronology"],"thirdFamilyTarget":"National Assembly joint-session and confirmation stenograms"},
+    {"topic":"May 16 coup onset","families":["FRUS USFK military reporting","FRUS State/CIA reporting","NIKH chronology"],"status":"three-family contemporaneous/official cross-check established"}
+  ],
+  "coverageDomains": ["constitutional order","elections","cabinet/personnel","party politics","justice/accountability","economy/development","foreign relations","social protest","military/security","local/electoral administration"],
+  "openLeadDisposition": "Rhee-only leads remain debt/open-lead material. Transition leads that cross 1960-04-27 are promoted to the active frontier."
+}

@@ -1,0 +1,49 @@
+{
+  "pass": 91,
+  "date": "2026-09-23",
+  "scope": "KIB leadership succession, liquidation-chair identity, and Japan-talks actor network",
+  "actors": [
+    {"id":"cand-im-song-bon","name":"임송본","hanja":"林松本","english":["Im Song-bon","Lim Song-bon"],"status":"VERIFIED","roles":[{"role":"한국식산은행 두취","attested":"1951-10-20","document":"kj.d_0001_0020_0052"},{"role":"한일회담 한국측 대표","attested":"1951-10-20/1952"},{"role":"대한석탄공사 사장","period":"1954-03-31/1957-09-04","source":"National Archives institution history"}],"connections":["EVT-KIB-1951-1020-JAPAN-TALKS-DELEGATION","EVT-KJ-1952-CLAIMS-NEGOTIATION","EVT-KIB-1954-LEADERSHIP-TRANSITION"],"openLead":"verify exact KIB president resignation/end date and whether he summoned the April 1954 extraordinary shareholders meeting"},
+    {"id":"cand-paik-too-chin","name":"백두진","hanja":"白斗鎭","english":["Paik Too-chin","Baek Du-jin"],"status":"VERIFIED","roles":[{"role":"한국식산은행 두취","attested":"1951-02-15"},{"role":"재무부 장관","period":"later 1951-1952"},{"role":"국무총리","period":"1952-1954"}],"connections":["EVT-KIB-1951-WARTIME-FINANCE-ROUNDTABLE","EVT-KDB-FOUNDING-POLICY-CONTEST"],"openLead":"primary cabinet and National Assembly record for his exact position on the KDB bill"},
+    {"id":"cand-yu-wan-chang","name":"유완창","hanja":"兪莞昌","english":["Yu Wan-chang","Ryu Wan-chang"],"status":"VERIFIED_PUBLIC_OFFICES_LIQUIDATION_DATE_OPEN","roles":[{"role":"임시관재총국 차장","attested":"1949-09-29"},{"role":"부흥부 장관","attested":"1955-02-18"},{"role":"한국식산은행 청산위원장","period":"OPEN","evidence":"secondary biographical lead; primary appointment record required"}],"connections":["EVT-KIB-LIQUIDATION-CHAIR-SUCCESSION"],"openLead":"appointment/dismissal date as KIB liquidation chair"},
+    {"id":"cand-yang-yu-chan","name":"양유찬","hanja":"梁裕燦","status":"IDENTIFIED","role":"한일회담 수석대표/주미대사","document":"kj.d_0001_0020_0052"},
+    {"id":"cand-kim-yong-shik","name":"김용식","hanja":"金溶植","status":"IDENTIFIED","role":"한일회담 교체수석대표/주일대표부 공사","document":"kj.d_0001_0020_0052"},
+    {"id":"cand-im-chol-ho","name":"임철호","hanja":"任哲鎬","status":"IDENTIFIED","role":"한일회담 대표/외교위원·변호사","document":"kj.d_0001_0020_0052"},
+    {"id":"pol-yu-jin-o","name":"유진오","hanja":"兪鎭午","status":"EXISTING_NODE_DEEPENED","role":"한일회담 대표/고려대 총장","document":"kj.d_0001_0020_0052"},
+    {"id":"pol-hong-chin-ki","name":"홍진기","hanja":"洪璡基","status":"EXISTING_NODE_DEEPENED","role":"한일회담 대표/법무부 법무국장","document":"kj.d_0001_0020_0052"},
+    {"id":"cand-ryu-tae-ha","name":"류태하","hanja":"柳泰夏","status":"IDENTIFIED","role":"한일회담 전문위원/주일대표부 참사관","document":"kj.d_0001_0020_0052"},
+    {"id":"cand-kim-dong-jo","name":"김동조","hanja":"金東祚","status":"IDENTIFIED","role":"한일회담 전문위원/외무부 정무국장","document":"kj.d_0001_0020_0052"},
+    {"id":"cand-choi-kyu-hah","name":"최규하","hanja":"崔圭夏","english":["Choi Kyu-hah"],"status":"IDENTIFIED_CROSS_ERA","role":"한일회담 전문위원/주일대표부 1등서기관","document":"kj.d_0001_0020_0052","futureBackbone":true}
+  ],
+  "events": [
+    {"id":"EVT-KIB-1951-WARTIME-FINANCE-ROUNDTABLE","date":"1951-02-15","actors":["cand-paik-too-chin","pol-gu-yong-seo"],"status":"VERIFIED"},
+    {"id":"EVT-KIB-1951-1020-JAPAN-TALKS-DELEGATION","date":"1951-10-20","actors":["cand-im-song-bon","cand-yang-yu-chan","cand-kim-yong-shik","cand-im-chol-ho","pol-yu-jin-o","pol-hong-chin-ki","cand-ryu-tae-ha","cand-kim-dong-jo","cand-choi-kyu-hah"],"document":"kj.d_0001_0020_0052","status":"VERIFIED"},
+    {"id":"EVT-KJ-1952-CLAIMS-NEGOTIATION","dateRange":"1952-02-20/1952","actors":["cand-im-song-bon"],"status":"DOCUMENT_SERIES_LOCATED"},
+    {"id":"EVT-KIB-1954-LEADERSHIP-TRANSITION","dateRange":"1954-03-30/1954-04-01","actors":["cand-im-song-bon"],"status":"NARROWED_HIGH_CONFIDENCE_NOT_RESOLVED"},
+    {"id":"EVT-KIB-1954-SHAREHOLDER-LIQUIDATOR-SELECTION","dateRange":"1954-04-01/1954-04-10","proposedActor":"cand-im-song-bon","actorAttributionStatus":"OPEN_HIGH_CONFIDENCE","status":"ORIGINAL_MINUTES_REQUIRED"},
+    {"id":"EVT-KIB-1958-FIRST-INTERIM-DISTRIBUTION","dateRange":"1958-09-30/1958-10-25","documents":["DA0423876","gov-achievements-1957-1958-p114"],"status":"CROSS_CHECKED_OFFICIAL"},
+    {"id":"EVT-KIB-LIQUIDATION-CHAIR-SUCCESSION","dateRange":"1954/1970s","actors":["cand-kib-liquidation-chair-o-1958","cand-yu-wan-chang"],"status":"OPEN_MULTIPLE_CHAIRS"},
+    {"id":"EVT-KDB-FOUNDING-POLICY-CONTEST","dateRange":"1951/1954","actors":["cand-paik-too-chin"],"status":"NARROWED_PRIMARY_DEBATE_RECORD_REQUIRED"}
+  ],
+  "documents": [
+    {"id":"doc-kib-finance-roundtable-19510215","title":"경제재건과 금융재정정책 좌담회","date":"1951-02-15","provenance":"국사편찬위원회 자료대한민국사","originalType":"contemporary newspaper transcription"},
+    {"id":"doc-japan-talks-attendees-19511020","title":"한일회담 양국 출석자 명부","date":"1951-10-20","recordId":"kj.d_0001_0020_0052","provenance":"동북아역사재단 한일회담외교문서","originalType":"diplomatic document"},
+    {"id":"doc-japan-side-korean-delegate-bios-19520222","title":"한국 측 대표약력","date":"1952-02-22","recordId":"kjj.d_0091_0110","provenance":"동북아역사재단 일본문서","originalType":"Japanese internal document"},
+    {"id":"doc-kcc-president-history-im-song-bon","title":"대한석탄공사 기록물 생산기관 변천정보","provenance":"국가기록원","finding":"임송본 1954-03-31 취임"},
+    {"id":"doc-kib-distribution-DA0423876","title":"청산분배관계문서철","recordId":"DA0423876","provenance":"국가기록원"},
+    {"id":"doc-gov-achievements-1957-1958-p114","title":"정부 시정업적 1957-1958","producer":"공보실","page":114,"finding":"한국식산은행 제1차 청산잔여재산 중간분배"}
+  ],
+  "claims": [
+    {"id":"CLM-KIB-PAIK-LAST-PRESIDENT-1954","text":"백두진이 1954 해산 직전 KIB 두취였다","status":"CONTRADICTED_AS_CONTINUITY_ASSUMPTION","evidence":["doc-kib-finance-roundtable-19510215","doc-japan-talks-attendees-19511020"]},
+    {"id":"CLM-KIB-IM-LAST-PRESIDENT-1954","text":"임송본이 1954 해산 직전 KIB 두취였다","status":"NARROWED_HIGH_CONFIDENCE_NOT_PROVEN","support":["doc-japan-talks-attendees-19511020","doc-kcc-president-history-im-song-bon"],"missing":"1954 resignation/succession or extraordinary shareholders meeting original"},
+    {"id":"CLM-KIB-YU-WAN-CHANG-CHAIR-19581025","text":"유완창이 1958-10-25 청산위원장 오○○이다","status":"CONTRADICTED_SURNAME_MISMATCH","missing":"full name of O○○ and Yu tenure dates"},
+    {"id":"CLM-KIB-FIRST-DISTRIBUTION-OFFICIAL-POLICY","text":"1958 제1차 청산잔여재산 중간분배는 정부의 공식 이재행정 실적으로 기록됐다","status":"SUPPORTED_TWO_OFFICIAL_CHAINS","support":["doc-kib-distribution-DA0423876","doc-gov-achievements-1957-1958-p114"]}
+  ],
+  "historyDebtUpdates": [
+    {"topic":"1954 KIB pre-dissolution president","from":"OPEN_NAME","to":"NARROWED_IM_SONG_BON_HIGH_CONFIDENCE"},
+    {"topic":"1958 liquidation chair identity","from":"OPEN_PARTIAL_NAME","to":"OPEN_PARTIAL_NAME_YU_WAN_CHANG_SEPARATED"},
+    {"topic":"Yu Wan-chang liquidation-chair tenure","from":"UNTRACKED","to":"OPEN_DATE_RANGE"},
+    {"topic":"KIB Japan-claims actor continuity","from":"UNTRACKED","to":"OPEN_ANCHORED_1951_1952"},
+    {"topic":"Paik Too-chin KDB founding attribution","from":"BROAD_ASSOCIATION","to":"NARROWED_CONTESTED_POLICY_ROLE"}
+  ]
+}

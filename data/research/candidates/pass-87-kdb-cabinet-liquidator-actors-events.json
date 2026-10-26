@@ -1,0 +1,42 @@
+{
+  "pass": 87,
+  "date": "2026-09-23",
+  "scope": "KDB 1951 cabinet path, 1953 MOF-BOK bargain claims, later KIB liquidation actor narrowing",
+  "politicianCandidates": [
+    {"id":"pol-baek-du-jin","name":"백두진","status":"VERIFIED","roles":[{"office":"재무부장관","period":"1951","relation":"context for EVT-KDB-1951-CABINET-102"}],"claimGuardrail":"Do not attribute personal authorship of the KDB bill without BA0084187 drafting/approval evidence."},
+    {"id":"pol-park-hui-hyeon","name":"박희현","status":"IDENTIFIED","roles":[{"office":"재무부장관","period":"1953"}],"openLead":"Verify BOK institutional-history claim about tying KDB Act to Banking Act implementation in primary minutes."},
+    {"id":"pol-kim-yu-taek","name":"김유택","status":"VERIFIED","roles":[{"office":"한국은행 총재","period":"1951-1956"}],"openLead":"Recover 1953 Monetary Board minutes for conditional agreement on KDB Act."},
+    {"id":"pol-park-dong-gyu","name":"박동규","hanja":"朴東奎","status":"IDENTIFIED","roles":[{"office":"한국산업은행 총재","period":"1963"},{"office":"재무부장관","period":"1963-1964"}],"candidateLinks":[{"event":"EVT-KIB-1963-KYUNGCHUN-FILING","relation":"candidate representative liquidator","confidence":"NARROWED","reason":"NAK says then-KDB governor Park; AKS confirms Park Dong-gyu was KDB governor in 1963, but exact filing/tenure dates not yet matched."}]},
+    {"id":"pol-kim-yeong-chan","name":"김영찬","hanja":"金永燦","status":"VERIFIED","roles":[{"office":"한국산업은행 총재","period":"1958-1960"},{"office":"상공부장관","period":"1960"}],"eventLinks":[{"event":"EVT-KDB-1960-ELECTION-FUND-PROSECUTION","relation":"indicted; outcome not implied"}]},
+    {"id":"pol-kim-yeong-hwi","name":"김영휘","status":"IDENTIFIED","roles":[{"office":"한국산업은행 총재","period":"1960"}],"eventLinks":[{"event":"EVT-KDB-1960-ELECTION-FUND-PROSECUTION","relation":"indicted; outcome not implied"}]},
+    {"id":"pol-kim-se-ryeon","name":"김세련","hanja":"金世鍊","status":"VERIFIED","roles":[{"office":"한국산업은행 총재","period":"1962"},{"office":"재무부장관","period":"1962-1963"},{"office":"한국은행 총재","period":"1963-1967"}]},
+    {"id":"pol-seo-jin-su","name":"서진수","hanja":"徐軫銖","status":"VERIFIED","roles":[{"office":"한국산업은행 총재","period":"1962"},{"office":"한국은행 총재","period":"1967-1970"}]},
+    {"id":"pol-na-ik-jin","name":"나익진","hanja":"羅翼鎭","status":"VERIFIED","roles":[{"office":"조선식산은행 직원","period":"1941-1945"},{"office":"한국산업은행 총재","period":"1961-1962"}],"openLead":"Verify whether any personnel/institutional succession from KIB to KDB applies to him; do not infer continuity from career alone."},
+    {"id":"pol-gu-yong-seo","name":"구용서","hanja":"具鎔書","status":"VERIFIED","roles":[{"office":"초대 한국산업은행 총재","period":"1954-1958"}],"claimGuardrail":"Successor-bank founding governor, not automatically a 1954 KIB liquidator."}
+  ],
+  "events": [
+    {"id":"EVT-KDB-1951-DRAFTING-START","date":"1951-05","proposedByOrg":"대한민국 재무부","individualDrafters":[],"status":"OPEN_IDENTITIES"},
+    {"id":"EVT-KDB-1951-CABINET-102","date":"1951-09-21","proposedByOrg":"대한민국 재무부","legalAuthority":"국무회의","document":"BA0084187 / 한국산업은행법안 / 22 pages","status":"VERIFIED_DOCKET"},
+    {"id":"EVT-KDB-1951-ASSEMBLY-TRANSMISSION","date":"1951-10","status":"NARROWED_MONTH","open":"exact receipt date and bill number"},
+    {"id":"EVT-KDB-1953-MOF-BOK-BARGAIN","date":"1953-11","actors":["pol-park-hui-hyeon","pol-kim-yu-taek"],"status":"LATER_INSTITUTIONAL_INTERPRETATION","open":"primary Monetary Board/MOF/Assembly evidence"},
+    {"id":"EVT-KIB-1963-KYUNGCHUN-FILING","date":"1963","executedBy":["actor-redacted-park-kdb-governor"],"candidateIdentity":"pol-park-dong-gyu","identityStatus":"NARROWED_NOT_VERIFIED"},
+    {"id":"EVT-KIB-1979-KYUNGCHUN-FINAL","date":"1979","status":"VERIFIED_YEAR_ONLY","open":"Supreme Court case number and full judgment"},
+    {"id":"EVT-KDB-1960-ELECTION-FUND-PROSECUTION","date":"1960-05-31","actors":["pol-kim-yeong-chan","pol-kim-yeong-hwi"],"actionType":"prosecution","status":"CHARGED_ONLY_OUTCOME_OPEN"},
+    {"id":"EVT-KDB-PRESIDENTIAL-SUCCESSION-GRAPH","dateRange":"1954 onward","status":"ACTIVE_RESEARCH","rule":"Model each governor as a time-bounded actor-office relation; never transfer one governor's liquidation/legal role to another period."}
+  ],
+  "documents": [
+    {"id":"doc-nak-ba0084187-kdb-bill-19510921","institution":"국가기록원","recordId":"BA0084187","title":"한국산업은행법안","date":"1951-09-21","pages":22,"originalObtained":false,"metadataVerified":true},
+    {"id":"doc-nak-kib-liquidation-explanatory-v","institution":"국가기록원","title":"중요 공개기록물 해설집 V - 국세청·성업공사 편","provenance":"official archival explanatory volume","originalObtained":true},
+    {"id":"doc-bok-central-bank-odyssey-43","institution":"한국은행","title":"중앙은행 오디세이 <43> 부활한 일본식 관치금융","provenance":"later institutional historical interpretation","primary":false}
+  ],
+  "claims": [
+    {"id":"CLM-KDB-1951-CABINET-DATE","text":"재무부의 한국산업은행법안이 1951-09-21 제102회 국무회의 안건으로 심의되었다.","status":"SUPPORTED","support":["doc-nak-ba0084187-kdb-bill-19510921"]},
+    {"id":"CLM-KDB-BAEK-AUTHORSHIP","text":"백두진이 1951 산은법안을 직접 작성 또는 개인 명의로 제안했다.","status":"INSUFFICIENT","contraryContext":["doc-bok-central-bank-odyssey-43"]},
+    {"id":"CLM-KIB-1963-PARK-DONG-GYU","text":"경춘철도 보상소송 당시 식산은행 대표청산인 박○○은 박동규였다.","status":"NARROWED","supportReason":"NAK says then-KDB governor Park; independent biography places Park Dong-gyu as KDB governor in 1963.","missing":"exact complaint date, appointment dates, unredacted complaint"}
+  ],
+  "historyDebtUpdates": [
+    {"topic":"1951 KDB bill individual drafters","status":"NARROWED","next":"BA0084187 22-page original and cabinet minutes"},
+    {"topic":"1963 redacted Park representative liquidator","status":"NARROWED","next":"Kyungchun complaint + KDB appointment gazette"},
+    {"topic":"1953 MOF-BOK bargain","status":"OPEN","next":"Monetary Board minutes and MOF papers"}
+  ]
+}

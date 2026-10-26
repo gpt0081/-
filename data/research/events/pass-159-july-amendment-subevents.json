@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "pass": 159,
+  "accessedAt": "2026-09-26",
+  "parentEvent": "evt-1949-706-anti-national-law-limitations-amendment",
+  "subevents": [
+    {
+      "id": "evt-1949-702-anti-national-law-cho-proposal",
+      "date": "1949-07-02",
+      "name": "조영규 외 20인 반민법 개정안 본회의 보고·원안 확인",
+      "proposed_by": ["pol-cho-yeong-gyu-1913", "20 co-sponsors pending extraction"],
+      "legal_authority": ["국회 입법절차"],
+      "observed_by": ["제4회 국회 제1차 속기록"],
+      "evidenceState": "verified-proposal-cosponsors-open",
+      "sources": ["https://db.history.go.kr/item/cons/levelByForm.do?form=%EC%86%8D%EA%B8%B0%EB%A1%9D&levelId=cons_001_0020_0020_0030_0020_0060"]
+    },
+    {
+      "id": "evt-1949-706-anti-national-law-kwak-amendment",
+      "date": "1949-07-06",
+      "name": "곽상훈의 공소시효 8월 말 추가 단축 수정안",
+      "proposed_by": ["pol-kwak-sang-hoon"],
+      "decided_by": ["제헌국회"],
+      "legal_authority": ["국회 입법절차"],
+      "observed_by": ["제4회 국회 제3차 속기록"],
+      "vote": {"present": 136, "yes": 74, "no": 9},
+      "evidenceState": "verified-official-stenographic-index",
+      "guardrail": "곽상훈이 반민특위 특별검찰관이었다는 직책과 공소시효 단축 수정안 제출이라는 입법행동을 서로 모순으로 평가하지 않고 별도 사실로 기록한다.",
+      "sources": ["https://db.history.go.kr/item/cons/levelByForm.do?form=%EC%86%8D%EA%B8%B0%EB%A1%9D&levelId=cons_001_0020_0020_0030_0020_0060"]
+    },
+    {
+      "id": "evt-1949-720-anti-national-law-promulgation-34",
+      "date": "1949-07-20",
+      "name": "반민족행위처벌법 제2차 개정 법률 제34호 공포",
+      "executed_by": ["대한민국 정부"],
+      "legal_authority": ["법률 제34호"],
+      "evidenceState": "verified-official-legislative-history",
+      "sources": ["https://db.history.go.kr/item/cons/levelByForm.do?form=%EC%86%8D%EA%B8%B0%EB%A1%9D&levelId=cons_001_0020_0020_0030_0020_0060"]
+    }
+  ],
+  "claimGraph": [
+    {
+      "claimId": "claim-1949-july-amendment-multistage",
+      "statement": "1949년 7월 반민법 공소시효 단축은 단일 정부행위가 아니라 의원 원안, 법사위 수정, 곽상훈 추가수정, 본회의 의결, 정부 공포의 다단계 과정이었다.",
+      "supportingEvidence": ["doc-cons-anti-national-law-1949-amendment"],
+      "contradictingEvidence": [],
+      "status": "SUPPORTED"
+    },
+    {
+      "claimId": "claim-1949-june10-police-discipline-implemented",
+      "statement": "이승만이 6월 10일 약속한 경찰 불법행위 조사·징벌이 실제로 시행되었다.",
+      "supportingEvidence": [],
+      "insufficientEvidence": ["doc-rhee-letter-1949-06-10"],
+      "status": "OPEN",
+      "note": "현재 문서는 약속만 증명하며 집행은 증명하지 않는다."
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-09",
+  "politicianId": "pol-rhee-syngman",
+  "run": 110,
+  "domains": [
+    {
+      "domain": "금융·중앙은행",
+      "status": "STRUCTURED",
+      "documents": [
+        "d110-law350",
+        "d110-press-bank-committee",
+        "d110-press-mpc-first",
+        "d110-press-bank-opening"
+      ],
+      "note": "대통령령 제350호 제2·3·9조, 설립위·금통위 행위 분리"
+    },
+    {
+      "domain": "선거·대표성",
+      "status": "DEBT_TRACKED",
+      "documents": [
+        "d110-press-election-stats"
+      ],
+      "note": "1950 제2대 총선 91.9% 투표율 원보도와 무효표 8.1% 서술 오류 분리"
+    },
+    {
+      "domain": "재정·경제조정",
+      "status": "STRUCTURED",
+      "documents": [
+        "d110-press-economic9"
+      ],
+      "note": "1950 한미경제안정위원회 9상임과 관료 인명망 추가"
+    },
+    {
+      "domain": "교육·복지·농정",
+      "status": "DEBT_TRACKED",
+      "documents": [
+        "d110-press-child-ration"
+      ],
+      "note": "결식아동 배급 요청과 숫자 충돌, 시행 미확인"
+    },
+    {
+      "domain": "헌정·외국자료비판",
+      "status": "DEBT_TRACKED",
+      "documents": [
+        "d110-us-connelly1954",
+        "d110-law138-meta"
+      ],
+      "note": "1954 미국 법률 메모 공포일 오기; 번역문 미확보 자기기술"
+    }
+  ],
+  "overall": "additive-run-layer; root coverage unchanged"
+}

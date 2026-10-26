@@ -1,0 +1,95 @@
+{
+  "run": 48,
+  "date": "2026-10-06",
+  "scope": "run47의 DA IN 278617/775359/278743/278759 우선 lead를 공식 JCS/Army 역사서의 각주 사슬까지 역추적",
+  "flootTouched": false,
+  "materialAdvance": [
+    "공식 JCS 역사서의 본문은 백선엽 육군참모총장이 한국군에 탈출 포로를 재검거하라고 명령했으나, 대통령 이승만에게서 나온 것으로 보이는 지시가 이를 신속히 상쇄했다고 명시한다. 이는 run45의 'Paik countermand'를 단순 후대 서술이 아니라 특정 동시대 전문군(CX63128/CX63138/C63145/ZX36907)에 연결한다.",
+    "같은 JCS 각주는 최초 실행 국면의 핵심 전문을 CINCFE CX63128=DA IN 278617(6/17), CINCFE ZX36907=DA IN 775359(6/18), CINCUNC CX63138=DA IN 278743(6/18), CINCFE C63145=DA IN 278759(6/18)로 특정한다. 이제 NARA/JCS 원문 청구 표적이 문서번호·날짜·DA IN까지 좁혀졌다.",
+    "JCS 각주는 Clark 항의/후속 지휘선의 CX63156=DA IN278812, CX63157=278820, C63162=278850, C63182=279172도 특정한다. Rhee-Clark 6/18 서한이 C63182로 JCS에 전달됐다는 FRUS 편집주석과 맞물린다.",
+    "국사편찬위원회 한국현대사료DB의 FRUS mirror에서 이승만 6/18 Clark 서한을 직접 재확인했다. 이승만은 한국 헌병에게 즉시 석방을 명령했다고 자인하고, 지방 도지사와 경찰에게 석방자를 돌보도록 지시했다고 밝혔다. 따라서 결정자·집행자·사후 지방지원 행위는 분리해야 한다.",
+    "국사편찬위원회 mirror의 CX63170에서 Clark는 6/19 원용덕의 대미 공격 지시와 백선엽의 미군 저지 의도 이해를 동시에 기록한다. 백선엽-원용덕 계통 분리는 6/18 재검거/countermand 사슬과 6/19 별도명령 사슬 양쪽에서 일관되게 나타난다.",
+    "미 육군 공식 Truce Tent and Fighting Front 검색본문은 ZX36907을 UNC/FEC June 1953 Command Report Source Paper 217에 연결하며, 이 보고서 계열이 6/18 미군의 ROK 경비대 교체와 25,131명 미회수 수치를 뒷받침함을 확인했다."
+  ],
+  "eventUpdates": [
+    {
+      "id": "evt-1953-0618-paik-roundup-countermand",
+      "name": "1953-06-18 백선엽 재검거 명령과 대통령측 상쇄지시",
+      "proposed_by": [],
+      "decided_by": ["cand-paik-sun-yup: escaped POW roundup order", "presidential-side instruction: countermand; exact issuer/document not yet directly opened"],
+      "executed_by": ["ROK troops; exact recipient units pending original telegrams"],
+      "opposed_by": ["presidential-side instruction apparently emanating from Rhee, per official JCS history"],
+      "observed_by": ["UNC/FEC command chain", "JCS historical study"],
+      "evidenceState": "NARROWED",
+      "caution": "JCS official history synthesizes contemporaneous messages, but DA IN 278743/278759 originals remain unopened. Do not upgrade 'apparently emanating from President Rhee' to a signed/direct Rhee counterorder until originals are inspected."
+    },
+    {
+      "id": "evt-1953-0618-pow-release-local-support",
+      "name": "반공포로 석방 후 지방 도지사·경찰 지원지시",
+      "decided_by": ["pol-rhee-syngman"],
+      "executed_by": ["provincial governors", "police officers"],
+      "legal_authority": [],
+      "observed_by": ["Rhee public statement transmitted to Clark/JCS"],
+      "evidenceState": "VERIFIED_STATEMENT / EXECUTION_PENDING",
+      "caution": "지시의 존재는 대통령 본인 발표로 확인되나 도별 실제 집행문서·행위는 별도 검증 필요."
+    }
+  ],
+  "actorUpdates": [
+    {"candidate_id":"cand-paik-sun-yup","name":"백선엽","aliases":["Paik Sun Yup","Paik Sun-yup","白善燁"],"roles":["육군참모총장"],"research_status":"VERIFIED_EVENT_ACTOR","eventLinks":["evt-1953-0618-paik-roundup-countermand","evt-1953-0619-pow-command-crisis"],"actionTypes":["counter-response","military command","UNC coordination"],"openLead":"DA IN278743/278759 원문에서 재검거 명령의 정확한 시각·수신부대·countermand 발신자를 확인"},
+    {"candidate_id":"cand-won-yong-duk","name":"원용덕","aliases":["Won Yong Duk","Won Yung Dok","元容德"],"roles":["Provost Marshal General / 헌병총사령관"],"research_status":"VERIFIED_EVENT_ACTOR","eventLinks":["evt-1953-0618-pow-release","evt-1953-0619-pow-command-crisis"],"actionTypes":["execution planning/command candidate","separate military-police command"],"openLead":"6/18 최초 명령철과 6/19 대미 공격지시의 한국측 명령번호·수신부대를 분리 확인"},
+    {"candidate_id":"cand-provincial-governors-1953-pow","name":"1953년 관련 도지사군","aliases":[],"roles":["지방행정 책임자"],"research_status":"DISCOVERED_GROUP_NEEDS_DISAGGREGATION","eventLinks":["evt-1953-0618-pow-release-local-support"],"actionTypes":["local administration/support"],"openLead":"부산·경남·전남·충남·경북 등 수용소 소재지별 도지사 실명과 6/18 경찰·도청 지시문 확인"}
+  ],
+  "adversarialChecks": [
+    "'백선엽도 포로석방 실행에 동조했다' → 공식 JCS 역사는 오히려 백선엽이 재검거를 명령했다고 기록. 원문 전문 확인 전까지 동조 명제는 지지되지 않음.",
+    "'백선엽의 재검거명령은 정상 집행됐다' → 같은 공식 역사서가 대통령측으로 보이는 지시에 의해 신속히 countermand됐다고 기록. 실행범위는 불명.",
+    "'countermand는 이승만의 직접 서명 명령으로 확정됐다' → JCS 문구는 apparently emanating from President Rhee. 원문 C63145 미열람이므로 직접명령 확정 금지.",
+    "'6/18 사건은 원용덕 계통만의 군사행동' → Rhee 본인 서한은 헌병에 직접 석방 명령을 내렸다고 자인하고 지방 도지사·경찰 지원지시도 발표. 군사·경찰·지방행정 층을 함께 봐야 함.",
+    "'ROK Army 전체가 석방을 한 방향으로 집행했다' → 백선엽 재검거 명령과 원용덕 별도 지휘 보고가 반례. 조직 내부 지휘선 충돌을 보존해야 함.",
+    "'미군은 6/18 즉시 완전통제를 회복했다' → Army 공식사는 ROK 경비대 교체에도 추가 탈출이 이어졌고 6월말 8,600명만 남았다고 기록.",
+    "'25,131명은 최종 석방자 총수다' → Army 공식사는 6/18 당시 still at large 수치로 제시. 최종 누계와 구분해야 함.",
+    "'Rhee의 지방지원 지시는 실제 각 도에서 동일하게 시행됐다' → 현재는 대통령 발표만 확인. 도청·경찰 원문 없으므로 실행을 자동 귀속하지 않음.",
+    "'Clark의 원용덕 대통령 직속 평가는 한국군 법제 자체를 증명한다' → 동시대 미군 관찰일 뿐 조직법규 검증은 여전히 필요.",
+    "'JCS 공식 역사서는 1차자료와 동일하다' → 공식 2차 편찬물이다. 장점은 각주가 DA IN 원문 식별자를 제공한다는 점이며, 원문을 대체하지 않는다."
+  ],
+  "historyDebtUpdates": [
+    {"id":"HD-RHEE-013","status":"NARROWED","update":"백선엽 재검거명령과 이를 상쇄한 대통령측 지시가 공식 JCS 역사서 본문 및 DA IN 278743/278759 등 구체 원문 식별자로 좁혀짐. 그러나 해당 원문 전문을 직접 열지 못했으므로 countermand의 정확한 발신자·문구·수신부대는 미확정."}
+  ],
+  "leadQueue": [
+    "NARA RG 218 또는 JCS message files에서 DA IN 278743 / CINCUNC CX63138 (1953-06-18) 원문을 확보해 백선엽 재검거명령의 시각·수신부대·표현을 확인",
+    "NARA RG 218/JCS files에서 DA IN 278759 / CINCFE C63145 (1953-06-18) 원문을 확보해 countermand 발신자를 실명·직위 단위로 확인",
+    "NARA에서 DA IN 278617 / CINCFE CX63128 (1953-06-17) 원문을 확보해 석방 전날 UNC가 파악한 사전경보·한국측 행위자 확인",
+    "NARA에서 DA IN 775359 / CINCFE ZX36907 (1953-06-18) 원문을 확보해 camp별 최초 실행시간·ROK 경비대 교체·미회수 수치의 생성근거 확인",
+    "UNC/FEC Command Report June 1953 Source Papers 151-297 Paper 217 원본을 확보해 ZX36907과 부속표 확인",
+    "Hq AFFE Korean Armistice Negotiations May 1952-July 1953 pt.4 pp.239-245를 확보해 Clark 항의와 6/18 지휘대응 원문 묶음 확인",
+    "DA IN278812 / CX63156 원문에서 Clark의 최초 항의 수신자·전달경로 확인",
+    "DA IN278820 / CX63157 원문에서 6/18 후속 한국군/UNC 지휘조치 확인",
+    "DA IN278850 / C63162 원문에서 6/18 저녁 지휘상황과 ROK 협조/불복종 구분",
+    "DA IN279172 / C63182 원문에서 Rhee·Pyun 서한의 JCS 전달본과 FRUS 편집본 누락 여부 대조",
+    "육군본부 1953-06-18 작전일지·참모총장 지시철에서 백선엽의 포로 재검거 명령 원문 탐색",
+    "헌병총사령부 1953-06-17~20 명령철에서 원용덕 명령번호·수신 경비부대 확인",
+    "대통령기록/경무대 문서 중 1953-06-18 헌병·국방부·내무부 발신 지시를 찾아 countermand와 연결",
+    "국무회의록 1953-06-18 전후에서 포로석방 사전·사후 보고 여부 확인",
+    "내무부 치안국 1953-06-18 지시철에서 석방포로 보호·미군 재검거 방해 관련 중앙지시 확인",
+    "부산 수용소 소재 경남도청·경찰국 6/18 상황일지에서 Rhee의 도지사/경찰 지원지시 실제 수신·집행 확인",
+    "마산 수용소 소재 경남 경찰 지시철에서 석방자 은닉·이송·보호 관련 문서 확인",
+    "광주/상무대 수용소 소재 전남도청·경찰국 6/18 상황일지에서 지방지원 지시 확인",
+    "논산 수용소 소재 충남도청·경찰국 6/18 상황일지에서 지방지원 지시 확인",
+    "대구 수용소 소재 경북도청·경찰국 6/18 상황일지에서 지방지원 지시 확인",
+    "1953년 각 수용소 한국인 경비부대 편제표로 'ROK security units'를 실제 부대·지휘관 노드로 분해",
+    "백선엽 회고록 해당 장의 한국어 원문과 영문판을 대조해 재검거명령·countermand 기억의 시각과 행위자를 추출",
+    "원용덕 관련 군 인사기록에서 1953년 헌병총사령관의 법적 지휘권·육군참모총장과의 관계 확인",
+    "1953년 국군조직법·육군본부 직제·헌병 관련 규정에서 Provost Marshal의 대통령 직속 여부 검증",
+    "FRUS doc.609 Allen Dulles의 지휘구조 이의를 한국군 조직법규와 대조해 CONFLICTED 상태 축소",
+    "DA IN279091 / CX63170 원문과 FRUS doc.612 편집본을 대조해 원용덕 대미 공격지시 문맥의 생략 여부 확인",
+    "DA IN279102 / CX63171 원문에서 6/19 추가 탈출과 현장 한국군 행위자 확인",
+    "DA IN279124 / C63176 원문에서 6/19 포로 통제·추가 석방 위험 확인",
+    "DA IN279903 / EX18733 원문에서 8개 camp별 35,472명 표와 경비부대 확인",
+    "DA IN279977 / C63239 원문에서 6/21 잔여포로·경비상태와 Rhee 제한동의의 현장 반영 여부 확인",
+    "6/21 이후 한국 헌병 명령철에서 중국인 비송환포로 추가석방 금지 명령이 실제 하달됐는지 확인",
+    "미 8군/Eighth Army Herren papers에서 백선엽과의 6/18 연락 기록·전화시각 확인",
+    "Mark W. Clark Collection에서 6/18 Rhee letter 원본과 수신시각·부속물 확인",
+    "국사편찬위원회 전자사료관에서 '반공포로 석방' '백선엽' '원용덕' 1953-06-18 동시대 한국어 문서를 문서번호 단위로 역추적",
+    "국회 속기록 1953-06-18~22에서 포로석방·경찰지원·군 지휘충돌을 언급한 의원과 정부 답변자를 독립 정치인 노드로 추출",
+    "도지사군을 당시 실명별 stable candidate로 분해하고 생몰·임명기간·정당/관료 경력·6/18 사건 연결을 공식 인사자료로 검증"
+  ]
+}

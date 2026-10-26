@@ -1,0 +1,118 @@
+{
+  "run": 142,
+  "politicians": [
+    {
+      "id": "pol-r142-shin-jung-mok",
+      "name": "신중목",
+      "hanja": "愼重穆",
+      "aliases": [
+        "Shin Jung-mok",
+        "Sin Jung-mok"
+      ],
+      "birth": "1902",
+      "death": "1982-12-31",
+      "lifeVerification": "YEAR_ONLY_BIRTH_SECONDARY_AKS",
+      "roles": [
+        {
+          "office": "제2대 국회의원",
+          "start": "1950",
+          "source": "d142-aks-shin"
+        },
+        {
+          "office": "제7대 농림부장관",
+          "start": "1952-08",
+          "end": "1953-09",
+          "source": "d142-aks-shin"
+        }
+      ],
+      "events": [
+        "act142-agri-1953-directive",
+        "act142-agri-1953-cash"
+      ],
+      "actionTypes": [
+        "MINISTER_TARGET_OF_DIRECTIVE",
+        "PUBLIC_POLICY_PROPOSAL"
+      ],
+      "evidence": [
+        "d142-pa388",
+        "d142-news-agrarian",
+        "d142-aks-shin"
+      ],
+      "researchStatus": "VERIFIED",
+      "openLeads": [
+        "L142-31",
+        "L142-32"
+      ],
+      "promotionReason": "독립 대통령 지시 전사·당대 보도·후대 인물사전 교차확인"
+    },
+    {
+      "id": "cand-r142-chae-gyu-hang",
+      "name": "채규항",
+      "hanja": "蔡奎恒",
+      "aliases": [
+        "Chae Gyu-hang",
+        "Chae Kyu-hang"
+      ],
+      "birth": null,
+      "death": null,
+      "lifeVerification": "NOT_VERIFIED",
+      "roles": [
+        {
+          "office": "농민회 조직 관련 당사자",
+          "date": "1953-02-18",
+          "source": "d142-pa388",
+          "certainty": "ROLE_UNSPECIFIED"
+        }
+      ],
+      "events": [
+        "act142-agri-1953-directive"
+      ],
+      "actionTypes": [
+        "NAMED_PARTY_IN_DIRECTIVE"
+      ],
+      "evidence": [
+        "d142-pa388"
+      ],
+      "researchStatus": "DISCOVERED",
+      "openLeads": [
+        "L142-33"
+      ],
+      "promotionReason": "대통령 지시문 실명 확인, 정치적 공직·생몰 미검증으로 candidate 유지"
+    },
+    {
+      "id": "pol-jin-heon-sik",
+      "name": "진헌식",
+      "hanja": "陳憲植",
+      "aliases": [
+        "Jin Heon-sik"
+      ],
+      "birth": "1902",
+      "death": "1980",
+      "lifeVerification": "YEAR_ONLY_SECONDARY_AKS",
+      "roles": [
+        {
+          "office": "내무부장관",
+          "period": "1952-1953",
+          "source": "d142-aks-jin"
+        }
+      ],
+      "events": [
+        "act142-agri-1953-directive",
+        "act142-interior-1953-briefing"
+      ],
+      "actionTypes": [
+        "RECIPIENT_MINISTER",
+        "PUBLIC_POLICY_STATEMENT"
+      ],
+      "evidence": [
+        "d142-pa388",
+        "d142-news-interior",
+        "d142-aks-jin"
+      ],
+      "researchStatus": "EXISTING_VERIFIED",
+      "openLeads": [
+        "L142-34"
+      ]
+    }
+  ]
+}
