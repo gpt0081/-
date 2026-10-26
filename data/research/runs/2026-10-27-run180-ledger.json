@@ -6,10 +6,10 @@
   "branch": "research/run180-20261027-1949-frus-legislature-evidence-crosscheck",
   "baseCommit": "2c81172dd0253afea0217a34a8f38063aa44166e",
   "researchPrimaryTheme": "1949 FRUS + Korean National Assembly primary crosscheck",
-  "independentResearchLines": 18,
-  "domainsSubstantiallyCovered": 10,
-  "nonPresidentProfilesReviewed": 10,
-  "newPoliticianCandidates": 16,
+  "independentResearchLines": 30,
+  "domainsSubstantiallyCovered": 13,
+  "nonPresidentProfilesReviewed": 31,
+  "newPoliticianCandidates": 15,
   "promotions": [
     {
       "id": "pol-cho-byeong-ok",
@@ -19,6 +19,16 @@
         "doc180-frus-268",
         "doc180-frus-269"
       ]
+    },
+    {
+      "id": "pol-kim-jang-yeol-1949",
+      "from": "OVERLAY_IDENTIFIED",
+      "to": "BASE_IDENTIFIED",
+      "basis": [
+        "d95b-martial-assembly1025",
+        "doc180b-1026-0070"
+      ],
+      "caveat": "사회당 동명이인 후보 병합 금지"
     }
   ],
   "eventsAdded": 56,
@@ -48,7 +58,7 @@
     "HD-R95-005 OPEN→NARROWED"
   ],
   "newDebtItems": 12,
-  "newLeadCount": 118,
+  "newLeadCount": 119,
   "weeklyFullDebtReviewPerformed": false,
   "executionDurationMinutes": null,
   "executionDurationNotClaimed": true,
@@ -66,7 +76,8 @@
     "8714c685fde7a158ddb2bdad92d08feeb93378d6",
     "b8c9c609a660d30683cc0f58775cb4dc1dc7e13c",
     "167ba2f7b10aec15ca619ffc79ce39d1be92bb7b",
-    "68c07561aed1fcd4438cd2023e3669c1bfa08c87"
+    "68c07561aed1fcd4438cd2023e3669c1bfa08c87",
+    "7915ef25276169aa4ed01a06f9e42b69a7b767b9"
   ],
   "finalIntegrationState": "INTEGRATED_WITH_UNRESOLVED_PROVENANCE_LIMITS",
   "modifiedFiles": [
@@ -125,7 +136,13 @@
     "run180ClaimIdsUnique": true,
     "run180LeadIdsUnique": true,
     "newReferencesResolved": true,
-    "wholeRepositoryHistoricalReferencesAudited": false
+    "wholeRepositoryHistoricalReferencesAudited": false,
+    "run180bReferencesResolved": true,
+    "run180bPoliticianIdsUnique": true,
+    "run180bEventIdsUnique": true,
+    "run180bDocumentIdsUnique": true,
+    "run180bClaimIdsUnique": true,
+    "run180bLeadIdsUnique": true
   },
   "nonDirectContextDocumentsRegistered": 1,
   "totalNewDocumentRegistryRecords": 80,
@@ -153,9 +170,9 @@
     }
   ],
   "followupDetails": "Four additional old debts cross-checked against FRUS d261,d304,d281,d272 without forcing resolution",
-  "independentAdversarialSourceSearches": 6,
+  "independentAdversarialSourceSearches": 9,
   "independentAdversarialSearchGoal": 10,
-  "adversarialSearchShortfall": 4,
+  "adversarialSearchShortfall": 1,
   "independentAdversarialSearchPaths": [
     "농지개혁법 공포일: 한국 관보 vs 미국 외교문서",
     "제주4·3 군사성과 서술 vs 후대 정부 진상조사 요약",
@@ -169,5 +186,6 @@
   "claimsAdded": 37,
   "nonPresidentProfilesReviewedUniqueNotYetAudited": true,
   "additionalActorProfilesReviewed": 32,
-  "additionalNewBasePoliticians": 14
+  "additionalNewBasePoliticians": 14,
+  "run180bLeadCount": 63
 }
