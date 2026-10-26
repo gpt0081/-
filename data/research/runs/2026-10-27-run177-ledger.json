@@ -25,6 +25,27 @@
   "weeklyFullReview": "역사부채 주간 전수조사 미실시",
   "floot": "untouched/unbuilt",
   "executionTime": "NOT_MEASURED",
-  "consistencyGate": "PENDING_CANONICAL_SYNC",
-  "commitSha": "SEE_GIT_HISTORY_NOT_SELF_EMBEDDED"
+  "consistencyGate": "INTEGRATED",
+  "commitSha": "SEE_GIT_HISTORY_NOT_SELF_EMBEDDED",
+  "countsBefore": {
+    "politicians": 244,
+    "events": 644
+  },
+  "countsAfter": {
+    "politicians": 244,
+    "events": 652
+  },
+  "changedCanonical": [
+    "data/events.json",
+    "data/politicians.json",
+    "data/research/HISTORY_DEBT.md"
+  ],
+  "validation": {
+    "newEventIdsUnique": true,
+    "newEventPoliticianRefsValid": true,
+    "documentRefsChecked": true,
+    "existingPowEventNotDuplicated": true,
+    "shinExistingStableIdReused": true,
+    "weeklyReviewNotRepeated": true
+  }
 }

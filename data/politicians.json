@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-26",
+  "updatedAt": "2026-10-27",
   "purpose": "대한민국 정치인 실록의 인물 registry. 대통령은 초기 backbone일 뿐이며 모든 인물은 독립된 정치인 노드로 취급한다.",
   "politicians": [
     {
@@ -4070,6 +4070,14 @@
             "doc176-press-0123"
           ],
           "sourceQualification": "PA archival description or contemporary press transcription, not original facsimile"
+        },
+        {
+          "period": "1953-05-10",
+          "title": "국사편찬위원회 후대 사료해설에 노동관계법 제정 추진 인물로 언급",
+          "actionType": "RETROSPECTIVE_CONTEXT_NOT_ORIGINAL_VOTE",
+          "evidenceDocumentIds": [
+            "doc177-nih-law286-source"
+          ]
         }
       ],
       "rolePeriods": [
@@ -4093,7 +4101,8 @@
       "evidenceDocumentIds": [
         "d140-l2",
         "d141-hm286",
-        "doc171-nec-pres-1952"
+        "doc171-nec-pres-1952",
+        "doc177-nih-law286-source"
       ],
       "evidenceFile": "data/evidence/jeon-jin-han-run176.json",
       "openLeadsFile": "data/research/lead-queues/run141-next.json",
@@ -13403,23 +13412,73 @@
           "evidenceDocumentIds": [
             "doc175-nih-0429-0070"
           ]
+        },
+        {
+          "period": "1953-01-05",
+          "title": "농림부장관 농민회 대표성·조직 관련 담화",
+          "actionType": "CONTEMPORANEOUS_REPORTED_ACTION",
+          "evidenceDocumentIds": [
+            "doc177-nih-1953-0105-farmers"
+          ],
+          "eventIds": [
+            "evt-r177-01"
+          ],
+          "sourceQualification": "당대 신문 전사, 부처 원결재 미확보"
+        },
+        {
+          "period": "1953-04-06",
+          "title": "농림부장관 영농자금 직접융자·특별회계 구상 발표",
+          "actionType": "CONTEMPORANEOUS_REPORTED_ACTION",
+          "evidenceDocumentIds": [
+            "doc177-nih-1953-0406-farm-credit"
+          ],
+          "eventIds": [
+            "evt-r177-04"
+          ],
+          "sourceQualification": "당대 신문 전사, 부처 원결재 미확보"
+        },
+        {
+          "period": "1953-06-05",
+          "title": "농림부장관 농사보급회 농민회 연계 권고(신문 보도)",
+          "actionType": "CONTEMPORANEOUS_REPORTED_ACTION",
+          "evidenceDocumentIds": [
+            "doc177-nih-1953-0605-extension"
+          ],
+          "eventIds": [
+            "evt-r177-07"
+          ],
+          "sourceQualification": "당대 신문 전사, 부처 원결재 미확보"
         }
       ],
       "researchStatus": "VERIFIED",
       "researchStatusReason": "기존 data/annals/shin-jung-mok-run142.md 및 국사편찬위원회 인물자료, 1953-04-29 장관 당대 담화. 원 임명장 미확보",
       "evidenceDocumentIds": [
-        "doc175-nih-0429-0070"
+        "doc175-nih-0429-0070",
+        "doc177-nih-1953-0105-farmers",
+        "doc177-nih-1953-0406-farm-credit",
+        "doc177-nih-1953-0605-extension"
       ],
       "eventIds": [
         "evt-r175-05",
-        "evt-r175-06"
+        "evt-r175-06",
+        "evt-r177-01",
+        "evt-r177-04",
+        "evt-r177-07"
       ],
       "openLeads": [
-        "L175-14"
+        "L175-14",
+        "L177-08",
+        "L177-14",
+        "L177-17"
       ],
-      "historyDebt": [],
-      "accessDate": "2026-10-26",
-      "annalsFile": "data/annals/shin-jung-mok-run142.md"
+      "historyDebt": [
+        "HD-R177-02",
+        "HD-R177-03",
+        "HD-R177-04"
+      ],
+      "accessDate": "2026-10-27",
+      "annalsFile": "data/annals/shin-jung-mok-run142.md",
+      "annalsSupplement": "data/annals/shin-jung-mok-run177.md"
     },
     {
       "id": "pol-r175-kim-yu-taek",
