@@ -36,7 +36,19 @@
         "evt-r150-19550914-nnsc-field-observation",
         "evt-r150-19551009-visit",
         "evt-r156-06",
-        "evt-r156-04"
+        "evt-r156-04",
+        "evt-r171-01",
+        "evt-r171-02",
+        "evt-r171-07",
+        "evt-r171-08",
+        "evt-r171-09",
+        "evt-r171-10",
+        "evt-r171-11",
+        "evt-r171-12",
+        "evt-r171-13",
+        "evt-r171-14",
+        "evt-r171-15",
+        "evt-r162-20"
       ],
       "evidenceDocumentIds": [
         "d114b-04",
@@ -76,7 +88,15 @@
         "doc166-1020-0020",
         "doc166-1021-0030",
         "doc167-frus-751",
-        "doc167-frus-770"
+        "doc167-frus-770",
+        "doc171-na-02",
+        "doc171-na-07",
+        "doc171-na-08",
+        "doc171-na-09",
+        "doc171-frus-d171",
+        "doc171-frus-d190",
+        "doc171-na-13",
+        "doc171-nec-pres-1952"
       ],
       "researchNotes": [
         {
@@ -819,7 +839,8 @@
       "researchStatus": "IDENTIFIED",
       "backbone": false,
       "connections": [
-        "evt-1949-farmland-reform"
+        "evt-1949-farmland-reform",
+        "evt-r162-20"
       ],
       "researchUpdates": [
         {
@@ -836,7 +857,8 @@
         "doc157-frus-211",
         "doc157-frus-226",
         "doc168-nih-1950-election",
-        "doc168-aks-cho"
+        "doc168-aks-cho",
+        "doc171-nec-pres-1952"
       ],
       "researchNotes": [
         {
@@ -869,7 +891,16 @@
           "status": "IDENTIFIED",
           "reason": "국사편찬위 1950 선거명부와 AKS 인물자료 교차대조; 원당선공고 미확보로 VERIFIED 보류"
         }
-      ]
+      ],
+      "run171Addendum": {
+        "researchStatusUnchanged": true,
+        "datedRolesAndActions": [
+          "1952-08-05 대통령선거 무소속 후보"
+        ],
+        "sourceOverlay": "data/politicians/run171-1952-constitutional-election-actors.json",
+        "attributionCaution": "Evidence of participation or candidate registration is not proof of alleged motive or execution.",
+        "openLead": "당시 등록원서·지역별 득표 원자료 확보 필요"
+      }
     },
     {
       "id": "pol-lee-beom-seok",
@@ -886,7 +917,10 @@
       "backbone": false,
       "connections": [
         "evt-1949-farmland-reform",
-        "evt-1950-0421-acting-pm-parliament-dispute"
+        "evt-1950-0421-acting-pm-parliament-dispute",
+        "evt-r171-10",
+        "evt-r171-11",
+        "evt-r171-20"
       ],
       "researchNotes": "1949-05-16 농지개혁법 환부이유서·소멸통고를 국회의장에게 발송한 정부 측 핵심 헌정 행위자로 확인. 대통령 재의권과 총리 명의 통고의 관계를 원문 결재선으로 추가 검증한다.",
       "researchUpdates": [
@@ -898,7 +932,23 @@
           ],
           "verification": "individual speech/office verified, biographical identity incomplete"
         }
-      ]
+      ],
+      "evidenceDocumentIds": [
+        "doc171-frus-d138",
+        "doc171-frus-d163",
+        "doc171-nec-pres-1952"
+      ],
+      "run171Addendum": {
+        "researchStatusUnchanged": true,
+        "datedRolesAndActions": [
+          "1952-05-24 내무장관 임명 FRUS 편집주석",
+          "1952-06-03 국회의원 전원 구금 제안은 장택상 전언",
+          "1952-08-05 부통령 후보 중앙선관위 해제"
+        ],
+        "sourceOverlay": "data/politicians/run171-1952-constitutional-election-actors.json",
+        "attributionCaution": "Evidence of participation or candidate registration is not proof of alleged motive or execution.",
+        "openLead": "pol-lee-beom-seok-1900 중복 의심 기존 참조 병합 금지"
+      }
     },
     {
       "id": "pol-lee-mun-won",
@@ -3153,7 +3203,8 @@
         "evt-1950-0421-acting-pm-parliament-dispute",
         "evt-r156-17",
         "evt-r156-18",
-        "evt-r167-11"
+        "evt-r167-11",
+        "evt-r171-20"
       ],
       "evidenceDocumentIds": [
         "d114-seoul-19500422",
@@ -3170,7 +3221,8 @@
         "doc165-1010-0120",
         "doc166-frus669",
         "doc166-1019-0050",
-        "doc167-frus-747"
+        "doc167-frus-747",
+        "doc171-nec-pres-1952"
       ],
       "openLeads": [
         "L114-12",
@@ -3276,7 +3328,16 @@
         "evt-r166-01",
         "evt-r166d-01",
         "evt-r167-11"
-      ]
+      ],
+      "run171Addendum": {
+        "researchStatusUnchanged": true,
+        "datedRolesAndActions": [
+          "1952-08-05 제3대 부통령 민주국민당 후보"
+        ],
+        "sourceOverlay": "data/politicians/run171-1952-constitutional-election-actors.json",
+        "attributionCaution": "Evidence of participation or candidate registration is not proof of alleged motive or execution.",
+        "openLead": "1952 후보자 등록원서·정당 원부 검증 필요"
+      }
     },
     {
       "id": "pol-lee-sang-gyu-legal-adviser",
@@ -3555,14 +3616,18 @@
         "evt139-jang-statement",
         "evt139-policy-critique",
         "evt-r167-09",
-        "evt-r167-10"
+        "evt-r167-10",
+        "evt-r171-09",
+        "evt-r171-11"
       ],
       "evidenceDocumentIds": [
         "d139-1952-jang",
         "d139-1952-critique",
         "doc163-55",
         "doc166-1011-0030",
-        "doc167-frus-746"
+        "doc167-frus-746",
+        "doc171-na-09",
+        "doc171-frus-d163"
       ],
       "annalsFile": "data/annals/jang-taek-sang-run139.md",
       "openLeadsFile": "data/research/lead-queues/run139-next.json",
@@ -3602,7 +3667,17 @@
       "openLeads": [
         "L166-ID-pol-r139-jang-taek-sang",
         "L167-actor-pol-r139-jang-taek-sang"
-      ]
+      ],
+      "run171Addendum": {
+        "researchStatusUnchanged": true,
+        "datedRolesAndActions": [
+          "1952-05-14 정부 개헌안 국회 제출·총리 부서",
+          "1952-06-03 내각 회의에서 타협안 초안·해산 반대 전언"
+        ],
+        "sourceOverlay": "data/politicians/run171-1952-constitutional-election-actors.json",
+        "attributionCaution": "Evidence of participation or candidate registration is not proof of alleged motive or execution.",
+        "openLead": "장택상의 6월3일 구술은 미 대사관 2인 경유 전언. 내각 원회의록 확보 필요"
+      }
     },
     {
       "id": "pol-r141-park-sul-eum",
@@ -3699,7 +3774,9 @@
       "connections": [
         "evt-r141-05",
         "evt-r141-06",
-        "evt-r167-09"
+        "evt-r167-09",
+        "evt-r171-05",
+        "evt-r171-09"
       ],
       "evidenceDocumentIds": [
         "d141-pa764",
@@ -3713,7 +3790,9 @@
         "doc166-1016-0060",
         "doc167-frus-746",
         "doc168-nih-1950-election",
-        "doc168-aks-shin"
+        "doc168-aks-shin",
+        "doc171-na-05",
+        "doc171-na-09"
       ],
       "evidenceFile": "data/evidence/run141-actor-evidence.json",
       "openLeadsFile": "data/research/lead-queues/run141-next.json",
@@ -3789,7 +3868,17 @@
           "status": "IDENTIFIED",
           "reason": "국사편찬위 1950 선거명부와 AKS 인물자료 교차대조; 원당선공고 미확보로 VERIFIED 보류"
         }
-      ]
+      ],
+      "run171Addendum": {
+        "researchStatusUnchanged": true,
+        "datedRolesAndActions": [
+          "1952-04-17 국회 의장 명의 국회 개헌안 제의",
+          "1952-05-14 정부 개헌안 국회 수신자"
+        ],
+        "sourceOverlay": "data/politicians/run171-1952-constitutional-election-actors.json",
+        "attributionCaution": "Evidence of participation or candidate registration is not proof of alleged motive or execution.",
+        "openLead": "국회 발의자 개별 서명·발언 원면 확인 필요"
+      }
     },
     {
       "id": "pol-r141-jeon-jin-han",
@@ -3819,17 +3908,29 @@
       "researchStatus": "IDENTIFIED",
       "promotionReason": "명시된 인명·직책을 공식 기록관 해제 또는 동시대 기사와 연결. 생몰·당적은 미검증.",
       "backbone": false,
-      "connections": [],
+      "connections": [
+        "evt-r171-20"
+      ],
       "evidenceDocumentIds": [
         "d140-l2",
-        "d141-hm286"
+        "d141-hm286",
+        "doc171-nec-pres-1952"
       ],
       "evidenceFile": "data/evidence/run141-actor-evidence.json",
       "openLeadsFile": "data/research/lead-queues/run141-next.json",
       "historyDebt": [
         "HD-R141-IDENTITY"
       ],
-      "attributionCaveat": "서명/이송은 법안 발의·표결·집행의 직접 증거가 아님"
+      "attributionCaveat": "서명/이송은 법안 발의·표결·집행의 직접 증거가 아님",
+      "run171Addendum": {
+        "researchStatusUnchanged": true,
+        "datedRolesAndActions": [
+          "1952-08-05 제3대 부통령 대한노동총연맹 후보"
+        ],
+        "sourceOverlay": "data/politicians/run171-1952-constitutional-election-actors.json",
+        "attributionCaution": "Evidence of participation or candidate registration is not proof of alleged motive or execution.",
+        "openLead": "노총 후보추천 회의록과 조직 소속 확인"
+      }
     },
     {
       "id": "pol-r141-eom-sang-seop",
@@ -3936,13 +4037,15 @@
       "backbone": false,
       "connections": [
         "evt-r141-01",
-        "evt-r141-02"
+        "evt-r141-02",
+        "evt-r171-20"
       ],
       "evidenceDocumentIds": [
         "d141-pa768",
         "d141-pa769",
         "doc162-1950-nih-lee-housing",
-        "doc163-28"
+        "doc163-28",
+        "doc171-nec-pres-1952"
       ],
       "evidenceFile": "data/evidence/run141-actor-evidence.json",
       "openLeadsFile": "data/research/lead-queues/run141-next.json",
@@ -3972,7 +4075,16 @@
       "eventIds": [
         "evt-r162-55",
         "evt-r163-22"
-      ]
+      ],
+      "run171Addendum": {
+        "researchStatusUnchanged": true,
+        "datedRolesAndActions": [
+          "1952-08-05 제3대 부통령 조선민주당 후보"
+        ],
+        "sourceOverlay": "data/politicians/run171-1952-constitutional-election-actors.json",
+        "attributionCaution": "Evidence of participation or candidate registration is not proof of alleged motive or execution.",
+        "openLead": "정당명과 후보등록 서류 대조 필요"
+      }
     },
     {
       "id": "pol-r141-gu-yeong-suk",
@@ -4195,16 +4307,28 @@
       "researchStatus": "IDENTIFIED",
       "promotionReason": "명시된 인명·직책을 공식 기록관 해제 또는 동시대 기사와 연결. 생몰·당적은 미검증.",
       "backbone": false,
-      "connections": [],
+      "connections": [
+        "evt-r171-20"
+      ],
       "evidenceDocumentIds": [
-        "d141-pa769"
+        "d141-pa769",
+        "doc171-nec-pres-1952"
       ],
       "evidenceFile": "data/evidence/run141-actor-evidence.json",
       "openLeadsFile": "data/research/lead-queues/run141-next.json",
       "historyDebt": [
         "HD-R141-IDENTITY"
       ],
-      "attributionCaveat": "서명/이송은 법안 발의·표결·집행의 직접 증거가 아님"
+      "attributionCaveat": "서명/이송은 법안 발의·표결·집행의 직접 증거가 아님",
+      "run171Addendum": {
+        "researchStatusUnchanged": true,
+        "datedRolesAndActions": [
+          "1952-08-05 제3대 부통령 무소속 후보"
+        ],
+        "sourceOverlay": "data/politicians/run171-1952-constitutional-election-actors.json",
+        "attributionCaution": "Evidence of participation or candidate registration is not proof of alleged motive or execution.",
+        "openLead": "후보자 등록원서 및 인물 동일성 확인"
+      }
     },
     {
       "id": "pol-r141-lee-ik-heung",
@@ -4818,7 +4942,9 @@
         "doc159-na-0070",
         "doc159-us-0070",
         "doc166-1011-0050",
-        "doc168-nih-1950-election"
+        "doc168-nih-1950-election",
+        "doc170-assembly-1952-0417",
+        "doc171-na-05"
       ],
       "researchUpdatedAt": "2026-10-26",
       "researchNotes": [
@@ -4843,7 +4969,20 @@
           "status": "IDENTIFIED",
           "reason": "국사편찬위 1950 선거명부와 AKS 인물자료 교차대조; 원당선공고 미확보로 VERIFIED 보류"
         }
-      ]
+      ],
+      "connections": [
+        "evt-r171-05"
+      ],
+      "run171Addendum": {
+        "researchStatusUnchanged": true,
+        "datedRolesAndActions": [
+          "1952-04-17 국회 개헌안 대표 제안자",
+          "1952-04-21 국회안 접수·회부 관련 문서"
+        ],
+        "sourceOverlay": "data/politicians/run171-1952-constitutional-election-actors.json",
+        "attributionCaution": "Evidence of participation or candidate registration is not proof of alleged motive or execution.",
+        "openLead": "국가기록원 123명 vs AKS 122명 서명 수 산정 기준 검증"
+      }
     },
     {
       "id": "pol-r148-lee-cheol-seung",
@@ -6552,7 +6691,8 @@
       ],
       "connections": [
         "evt-r149-1955-democratic",
-        "evt-r156-09"
+        "evt-r156-09",
+        "evt-r171-09"
       ],
       "evidenceDocumentIds": [
         "d150-aks-chang",
@@ -6578,7 +6718,8 @@
         "doc162-fs017-52",
         "doc163-15",
         "doc163-44",
-        "doc167-frus-746"
+        "doc167-frus-746",
+        "doc171-na-09"
       ],
       "researchStatus": "VERIFIED",
       "promotionReason": "국가기록원 정당지도부·AKS 인물해제·1956 후보지명 사진목록",
@@ -6636,7 +6777,16 @@
           "attribution": "CONTEXTUAL_ONLY_NOT_DIRECT_ACTION"
         }
       ],
-      "researchUpdatedAt": "2026-10-26"
+      "researchUpdatedAt": "2026-10-26",
+      "run171Addendum": {
+        "researchStatusUnchanged": true,
+        "datedRolesAndActions": [
+          "1952-04-20 국무총리 해임 후 5월6일 장택상 인준에 이르는 인사 변경(후대 AKS 해제)"
+        ],
+        "sourceOverlay": "data/politicians/run171-1952-constitutional-election-actors.json",
+        "attributionCaution": "Evidence of participation or candidate registration is not proof of alleged motive or execution.",
+        "openLead": "당시 대통령 해임문서·국회 인준표결 원속기록 필요"
+      }
     },
     {
       "id": "pol-baek-nam-hun",
@@ -10425,7 +10575,8 @@
       "researchStatus": "IDENTIFIED",
       "backbone": false,
       "evidenceDocumentIds": [
-        "doc164-0913-0040"
+        "doc164-0913-0040",
+        "doc171-nec-pres-1952"
       ],
       "evidenceCoverage": {
         "sourceDocumentIds": [
@@ -10452,7 +10603,19 @@
             "doc164-0913-0040"
           ]
         }
-      ]
+      ],
+      "connections": [
+        "evt-r171-20"
+      ],
+      "run171Addendum": {
+        "researchStatusUnchanged": true,
+        "datedRolesAndActions": [
+          "1952-08-05 제3대 부통령 여자국민당 후보"
+        ],
+        "sourceOverlay": "data/politicians/run171-1952-constitutional-election-actors.json",
+        "attributionCaution": "Evidence of participation or candidate registration is not proof of alleged motive or execution.",
+        "openLead": "여자국민당 당시 공식 조직·후보등록 원문 확인"
+      }
     },
     {
       "id": "pol-r164-kim-hwal-lan",
@@ -10783,7 +10946,8 @@
       "backbone": false,
       "evidenceDocumentIds": [
         "doc164c-0925-0040",
-        "doc167-frus-746"
+        "doc167-frus-746",
+        "doc171-frus-d179"
       ],
       "eventIds": [
         "evt-r164c-11",
@@ -11102,7 +11266,8 @@
       ],
       "researchStatus": "IDENTIFIED",
       "evidenceDocumentIds": [
-        "doc164d-0930-0060"
+        "doc164d-0930-0060",
+        "doc171-frus-d138"
       ],
       "eventIds": [
         "evt-r164d-10"
@@ -11110,7 +11275,20 @@
       "openLeads": [
         "L164d-ID-seo-min-ho"
       ],
-      "promotionReason": "당대 국회 보도 확인, 원속기록·생몰 미확보"
+      "promotionReason": "당대 국회 보도 확인, 원속기록·생몰 미확보",
+      "connections": [
+        "evt-r171-10"
+      ],
+      "run171Addendum": {
+        "researchStatusUnchanged": true,
+        "datedRolesAndActions": [
+          "1952-05-25 계엄 직후 체포 FRUS 편집주석",
+          "1952-05~06 의원 체포와 구속사유 한국 원기록 미확보"
+        ],
+        "sourceOverlay": "data/politicians/run171-1952-constitutional-election-actors.json",
+        "attributionCaution": "Evidence of participation or candidate registration is not proof of alleged motive or execution.",
+        "openLead": "체포·재구속 시점과 법적 근거를 경찰·군사법원 기록으로 확인"
+      }
     },
     {
       "id": "pol-r164-yang-seong-bong",
