@@ -24,3 +24,6 @@
 
 ## 1950-10-20~23 · 북한행정 협상 발언의 변동
 [10/20 무쵸 전문 d696](https://history.state.gov/historicaldocuments/frus1950v07/d696)은 이승만이 독자적 북한 경찰·관리 파견을 자제한다고 보고한다. [10/21 d701](https://history.state.gov/historicaldocuments/frus1950v07/d701)은 이승만이 북한 관료 후보3배수 추천을 검토하면서도 미8군 비밀 민정명령26A의 공산관료 재기용 가능성을 우려했다고 기록한다. [10/23 d704](https://history.state.gov/historicaldocuments/frus1950v07/d704)는 이승만의 임시민정권·도지사 파견 재주장이라는 UP 인터뷰를 국무부가 전달한 것이다. **외교관 면담 보고와 언론인터뷰의 전언을 동일 수준의 독립 목격으로 간주하지 않는다.** 실제 임명·파견원부와 26A 원문이 다음 검증 표적이다.
+
+## 1950-10-03~25 · 북한 민정지침 초안과 승인단계
+미 육군 [FRUS d601](https://history.state.gov/historicaldocuments/frus1950v07/d601)은 북한 점령 3단계·유엔군사령관 민정권한·기존 토지개혁·국유화 현상유지를 제안한 **초안**이다. 이승만이 10/21 사본을 갖고 있었다는 민정명령26A([FRUS d701](https://history.state.gov/historicaldocuments/frus1950v07/d701))는 [10/25 FRUS d708](https://history.state.gov/historicaldocuments/frus1950v07/d708)에 따르면 아직 최종 승인 전이다. 초안에 대한 대통령 우려와 실제 시행된 군정명령을 구별한다.
