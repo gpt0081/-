@@ -150,3 +150,19 @@ See `data/politicians/run113-prewar-network.json` for 12 sourced profiles. No ca
 - 인물 상세: `data/politicians/run165-1950-october-actors.json`; 사건 원장 `data/events.json`에 17개 신규 ID 추가, 상세 overlay `data/events/run165-october-governance.json`.
 - 문서 25개 `data/documents/run165-october-governance.json`; 주장 16개 `data/claims/run165-october-adversarial.json`; 실록 `data/annals/rhee-syngman-run165.md`; 연구선 35개 `data/research/lead-queues/run165-next.json`.
 - 외국 정치인 로무로는 대한민국 정치인 registry에 편입하지 않고 국제기구 사건의 외부 참여자로만 구별한다.
+
+
+## Run166 (2026-10-26) · 1950-10-12~15 전시 행정·경찰·국회
+`data/politicians/run166-october-actors.json`: 기존 stable ID 7명(신익희·신성모·조병옥·이준식·손원일·윤영선·김훈)의 시점별 발언·행동을 `evt-r166-*` 및 `doc166-*`에 연결. 한자·생몰·임명 원부를 이번 회차에 독립 재확인하지 않았으므로 VERIFIED 승격 없음. 기사에서 성씨만 표기된 윤·김 장관의 동일인 식별은 OPEN.
+
+
+### Run166 확장 · 1950-10-11~14
+`data/politicians/run166-october-actors.json`에 임병직·장택상·곽상훈·조정환·백낙준·정일권 기존 ID 6명 보강, 김석관(`pol-r166-kim-seok-gwan`), 지연해(`pol-r166-ji-yeon-hae`), 정재완(`pol-r166-jeong-jae-wan`) 신규 IDENTIFIED 후보 3명 추가. 신원 생몰·임명/당선원부 미확보로 VERIFIED 승격 없음. 김석관·조정환은 독립 annals/evidence 실험 파일 개설.
+
+
+### Run166 1950-10-16~18 추가 후보
+주석균(`pol-r166-joo-seok-gyun`, 朱碩均)은 1950-10-17 농림부차관 기자회견에서 추곡 520만석·경기 15만석·인천 외곡 6000톤을 설명한 행위로 IDENTIFIED 후보 등록. 생몰·임명원부 미확인. 기존 신익희·윤영선·김석관·백낙준·김훈 등 시기별 발언·행위 보강.
+
+
+### Run166 평양 UN군정 12인·김용중
+평양시정위원회 12명(`pol-r166-pyongyang-*`)은 1950-10-20~22 밀번 소장의 **군정 임명** 보도에 따라 IDENTIFIED 후보화. 임정득·우제순·오진환·김영일·이용서·선우요·이헌주·안병섭·전여찬·윤도성·이학천·김기엽. 임명일 기사 충돌, 생몰·재임원부 미확보. 김용중(`pol-r166-kim-yong-jung`)은 1950-10-20 분류 오스틴 유엔대사 서한의 전국총선 주장 당사자로 IDENTIFIED 후보화, 정통성 비판을 역사적 사실로 확정하지 않음.
