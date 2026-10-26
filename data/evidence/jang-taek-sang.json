@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "politicianId": "pol-r139-jang-taek-sang",
+  "name": "장택상",
+  "aliases": [
+    "張澤相",
+    "Chang Taek-sang",
+    "Jang Taek-sang"
+  ],
+  "researchStatus": "ANNALS_ACTIVE",
+  "promotionReason": "1952-05-14 정부안 제출이라는 공식 원기록 전사 기반 행동, 1952-06-03 총리 전언에 따른 이승만·이범석과의 시점별 관계 및 미해결 질문을 독립 annals/evidence로 구성. 생몰·발언 직접원면 미검증.",
+  "datedEvidence": [
+    {
+      "date": "1952-05-14",
+      "eventId": "evt-r171-09",
+      "documentIds": [
+        "doc171-na-09",
+        "doc171-na-10",
+        "doc171-na-11"
+      ],
+      "role": "GOVERNMENT_BILL_SUBMISSION",
+      "verification": "OFFICIAL_ARCHIVAL_TRANSCRIPTION"
+    },
+    {
+      "date": "1952-06-03",
+      "eventId": "evt-r171-11",
+      "documentIds": [
+        "doc171-frus-d163"
+      ],
+      "role": "PM_CABINET_ACCOUNT_RELAY",
+      "verification": "MULTIHOP_RELAY_NOT_DIRECT_CABINET_RECORD"
+    }
+  ],
+  "relationships": [
+    {
+      "targetId": "pol-rhee-syngman",
+      "date": "1952-06-03",
+      "type": "CABINET_CONSTITUTIONAL_DISAGREEMENT_REPORTED",
+      "documentIds": [
+        "doc171-frus-d163"
+      ],
+      "verification": "RELAY_ONLY"
+    },
+    {
+      "targetId": "pol-lee-beom-seok",
+      "date": "1952-06-03",
+      "type": "CABINET_DISCUSSION_REPORTED",
+      "documentIds": [
+        "doc171-frus-d163"
+      ],
+      "verification": "RELAY_ONLY"
+    }
+  ],
+  "openLeads": [
+    "L171-09",
+    "L171-14",
+    "L171-01"
+  ],
+  "accessDate": "2026-10-26",
+  "facsimileViewed": false
+}
