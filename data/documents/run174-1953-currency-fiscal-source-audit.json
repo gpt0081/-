@@ -622,11 +622,28 @@
       "originalLocator": "https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&chrClsCd=010202&efYd=19530227&lsiSeq=1747&urlMode=lsInfoP",
       "creator": "KOREAN_LEGAL_REGISTRY",
       "provenanceFamily": "KOREAN_LEGAL_REGISTRY",
-      "evidenceRole": "OFFICIAL_RETROSPECTIVE_OR_LEGAL_METADATA",
-      "readStatus": "LEGAL_METADATA_DIRECTLY_READ",
+      "evidenceRole": "LEGAL_TEXT_THIRD_PARTY_REPRINT_WITH_OFFICIAL_METADATA",
+      "readStatus": "LEGAL_TEXT_DIRECTLY_READ_IN_THIRD_PARTY_REPRINT_OFFICIAL_METADATA_CROSSCHECKED",
       "originalFacsimileViewed": false,
       "accessDate": "2026-10-26",
-      "notes": "법률번호 277호는 공식 연혁 표제로 확인, 조문 본문은 동적 렌더링으로 미확보"
+      "notes": "법률번호 277호는 공식 연혁 표제로 확인, 조문 본문은 동적 렌더링으로 미확보; Run175 본문 제3조 직접 확인: 1953-02-26부터 원화표시 재산·채권·채무 환화환산. 한국은행 2/17 신권유통과 구분. 관보 원면 미열람.; Run175 최종 provenance 교정: 제3조 본문은 빅케이스 1953-02-27 법률 재수록 텍스트 직접 확인, 법제처 원사이트는 법률번호·시행일 메타데이터만 직접 확인. 원관보 원면 미열람.",
+      "correctionHistory": [
+        {
+          "date": "2026-10-26",
+          "run": 175,
+          "previousReadStatus": "LEGAL_METADATA_DIRECTLY_READ",
+          "reason": "1953-02-27 제정법 본문 제3조 직접 확인. 원관보 원면은 미확보"
+        },
+        {
+          "date": "2026-10-26",
+          "run": 175,
+          "reason": "추가 확인: 법제처 포털은 법률번호·시행일 메타데이터만 정적 추출 가능. 제3조 본문은 빅케이스에 재수록된 제277호 1953-02-27 법률 원문을 직접 읽었음. 원관보와 법제처 직접 조문 검증은 미완.",
+          "previousReadStatus": "OFFICIAL_LEGAL_TEXT_TRANSCRIPTION_DIRECTLY_READ",
+          "correctedReadStatus": "LEGAL_TEXT_DIRECTLY_READ_IN_THIRD_PARTY_REPRINT_OFFICIAL_METADATA_CROSSCHECKED"
+        }
+      ],
+      "additionalTextSource": "https://law.go.kr/LSW/lsInfoP.do?lsiSeq=1747&viewCls=lsRvsDocInfoR",
+      "textMirror": "https://bigcase.ai/law/%EA%B8%B4%EA%B8%89%EA%B8%88%EC%9C%B5%EC%A1%B0%EC%B9%98%EB%B2%95?refDate=19530227"
     },
     {
       "id": "doc174-pa-labor",
