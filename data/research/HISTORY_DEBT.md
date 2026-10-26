@@ -757,3 +757,9 @@ run110d 신규 6건: `data/research/history-debt/run110-addendum.md`. `HD-RHEE-1
 - 1950-10-11 분류 육본훈령130 본문은 1950-12-11, CONFLICTED_DATE. 10/13 회담기사 제목 하와이/본문 웨이크섬, CONFLICTED_TITLE.
 - 1950-10-13 공보처 성명과 10/14 재수록은 같은 정부성명 계열로 중복 원문 주의. 10/13 문교부 문화재 보도 민족박물관 20% 행방미상.
 - 상세: `data/research/history-debt/run166-corrections.md`. 주간 전수조사 미실시, last_full_review 유지.
+
+
+### 2026-10-26 · Run166 미국 FRUS 원문 날짜교정·서명전문
+- FRUS d681 [Undated.]로 한국사DB 10/14 분류와 실제 10/15 웨이크섬 회의 이후 대화 충돌. 기존 event `evt-r166b-15` correctionHistory 기록.
+- FRUS d682 1950-10-16 이승만 서명 전문이 맥아더를 통해 트루먼에게 전달. 북한 5도 도지사 임명·파견은 이승만 주장, 원인사문서 미확보. 조건부 사임 발언을 실제 사임으로 처리하지 않음.
+- 기존 L165-13/24/28/33 추가 추적, 상태 임의 RESOLVED 전환 없음. 주간 전수조사 미실시.

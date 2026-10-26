@@ -1392,10 +1392,11 @@
     },
     {
       "id": "evt-r166b-15",
-      "date": "1950-10-14",
+      "date": "1950-10-15",
       "name": "러스크 맥아더 전범재판 견해 보고",
       "sourceDocumentIds": [
-        "doc166-1014-0010"
+        "doc166-1014-0010",
+        "doc166-frus681"
       ],
       "politicianIds": [],
       "actionRoles": {
@@ -1411,12 +1412,13 @@
           "김일성의 잔혹행위 명령 증거를 당시 맥아더가 확보하지 못했다고 진술"
         ]
       },
-      "evidenceState": "NARROWED",
-      "attributionNote": "당시 증거 부재는 후대 책임 부정과 다름",
+      "evidenceState": "CONFLICTED_DATE",
+      "attributionNote": "한국사DB 10/14 분류를 사건일로 기입했던 초기 기록 정정: FRUS d681은 [Undated.]이며 웨이크섬 본회의(10/15) 이후 대화. 10/15는 가능한 최조일이며 실제 작성일 미확정.",
       "accessDate": "2026-10-26",
       "politicians": [],
       "documentIds": [
-        "doc166-1014-0010"
+        "doc166-1014-0010",
+        "doc166-frus681"
       ],
       "roleGraph": {
         "proposed_by": [],
@@ -1430,7 +1432,15 @@
         "later_finding": [
           "김일성의 잔혹행위 명령 증거를 당시 맥아더가 확보하지 못했다고 진술"
         ]
-      }
+      },
+      "correctionHistory": [
+        {
+          "date": "2026-10-26",
+          "previousDate": "1950-10-14",
+          "correctedEarliestPossibleDate": "1950-10-15",
+          "basis": "doc166-frus681"
+        }
+      ]
     },
     {
       "id": "evt-r166b-16",
@@ -1562,6 +1572,120 @@
           "트루먼 공식 성명 웨이크섬"
         ],
         "later_finding": []
+      }
+    },
+    {
+      "id": "evt-r166b-19",
+      "date": "1950-10-16",
+      "name": "맥아더가 트루먼에게 이승만 서명 유엔 북한행정 반대 전문 전달",
+      "sourceDocumentIds": [
+        "doc166-frus682",
+        "doc166-1014-0040",
+        "doc166-1013-0010"
+      ],
+      "politicianIds": [
+        "pol-rhee-syngman"
+      ],
+      "actionRoles": {
+        "proposed_by": [
+          "이승만: 북한 5도 기임명 도지사 파견·북한 민정 인수 주장"
+        ],
+        "decided_by": [],
+        "executed_by": [
+          "맥아더: 이승만 서명 메시지를 트루먼에게 전달"
+        ],
+        "opposed_by": [
+          "이승만: UN 과도한위 북한행정 권고 반대"
+        ],
+        "legal_authority": [],
+        "observed_by": [
+          "FRUS 1950 VII d682 미국 공식 전송기록"
+        ],
+        "later_finding": [
+          "이승만의 사임 언급은 조건부 정치적 의사표명, 실제 사임이 아님"
+        ]
+      },
+      "evidenceState": "NARROWED",
+      "attributionNote": "미측 수신시각 10/16 03:45. Rhee 서명문 직접 인용 존재. 북한 도지사 실제 파견원부·사임 의도/실행 별개",
+      "accessDate": "2026-10-26",
+      "politicians": [
+        "pol-rhee-syngman"
+      ],
+      "documentIds": [
+        "doc166-frus682",
+        "doc166-1014-0040",
+        "doc166-1013-0010"
+      ],
+      "roleGraph": {
+        "proposed_by": [
+          "이승만: 북한 5도 기임명 도지사 파견·북한 민정 인수 주장"
+        ],
+        "decided_by": [],
+        "executed_by": [
+          "맥아더: 이승만 서명 메시지를 트루먼에게 전달"
+        ],
+        "opposed_by": [
+          "이승만: UN 과도한위 북한행정 권고 반대"
+        ],
+        "legal_authority": [],
+        "observed_by": [
+          "FRUS 1950 VII d682 미국 공식 전송기록"
+        ],
+        "later_finding": [
+          "이승만의 사임 언급은 조건부 정치적 의사표명, 실제 사임이 아님"
+        ]
+      }
+    },
+    {
+      "id": "evt-r166b-20",
+      "date": "1950-10-15",
+      "name": "웨이크섬 회담 뒤 러스크의 맥아더 전범처리 추가 대화 메모",
+      "sourceDocumentIds": [
+        "doc166-1014-0010",
+        "doc166-frus681"
+      ],
+      "politicianIds": [],
+      "actionRoles": {
+        "proposed_by": [],
+        "decided_by": [],
+        "executed_by": [],
+        "opposed_by": [],
+        "legal_authority": [],
+        "observed_by": [
+          "러스크: 맥아더와 웨이크섬 본회의 후 추가 대화 기록"
+        ],
+        "later_finding": [
+          "당시 김일성 직접 잔혹행위 명령 증거를 맥아더가 확보하지 못했다는 발언"
+        ]
+      },
+      "evidenceState": "CONFLICTED_DATE",
+      "attributionNote": "FRUS 원문 [Undated.], 회의 뒤라는 본문 근거로 earliest possible 10/15. 한국사DB 10/14 분류와 불일치. 정확한 작성일 미확정",
+      "correctionHistory": [
+        {
+          "date": "2026-10-26",
+          "previousEventId": "evt-r166b-15",
+          "previousIndexDate": "1950-10-14",
+          "reason": "FRUS d681 original explicitly undated and describes post-Wake-conference discussion"
+        }
+      ],
+      "accessDate": "2026-10-26",
+      "politicians": [],
+      "documentIds": [
+        "doc166-1014-0010",
+        "doc166-frus681"
+      ],
+      "roleGraph": {
+        "proposed_by": [],
+        "decided_by": [],
+        "executed_by": [],
+        "opposed_by": [],
+        "legal_authority": [],
+        "observed_by": [
+          "러스크: 맥아더와 웨이크섬 본회의 후 추가 대화 기록"
+        ],
+        "later_finding": [
+          "당시 김일성 직접 잔혹행위 명령 증거를 맥아더가 확보하지 못했다는 발언"
+        ]
       }
     }
   ]
