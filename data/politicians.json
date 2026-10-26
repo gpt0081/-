@@ -96,7 +96,9 @@
         "doc171-frus-d171",
         "doc171-frus-d190",
         "doc171-na-13",
-        "doc171-nec-pres-1952"
+        "doc171-nec-pres-1952",
+        "doc172-frus-d135",
+        "doc172-frus-d144"
       ],
       "researchNotes": [
         {
@@ -183,6 +185,15 @@
             "doc167-frus-751",
             "doc167-frus-770"
           ]
+        },
+        {
+          "date": "2026-10-26",
+          "run": 172,
+          "note": "FRUS d135 records Rhee saying he authorized Paek to sign 1952 economic treaty; FRUS d144 records Rhee saying he approved martial law and proposed Pusan inclusion and Won direct command. Contemporaneous US records of Rhee statements, not original ROK signed orders.",
+          "documentIds": [
+            "doc172-frus-d135",
+            "doc172-frus-d144"
+          ]
         }
       ],
       "eventIds": [
@@ -213,7 +224,10 @@
         "evt-r166c-35",
         "evt-r166d-01",
         "evt-r166d-04",
-        "evt-r167-14"
+        "evt-r167-14",
+        "evt-r172-12",
+        "evt-r172-13",
+        "evt-r172-14"
       ]
     },
     {
@@ -1302,6 +1316,14 @@
           "documentIds": [
             "doc162-frus-734"
           ]
+        },
+        {
+          "date": "2026-10-26",
+          "run": 172,
+          "note": "Late FRUS d135 direct reading: Rhee self-reported authorizing Paek signature on May23. Written Korean presidential authorization still unverified.",
+          "documentIds": [
+            "doc172-frus-d135"
+          ]
         }
       ],
       "evidenceDocumentIds": [
@@ -1314,7 +1336,8 @@
         "doc162-frus-734",
         "doc172-unts2353-agreement",
         "doc172-unts2353-notes",
-        "doc172-unts2353-minutes"
+        "doc172-unts2353-minutes",
+        "doc172-frus-d135"
       ],
       "evidenceCoverage": {
         "documentIds": [
@@ -1330,14 +1353,17 @@
         "evt-r162-01",
         "evt-r172-03",
         "evt-r172-04",
-        "evt-r172-10"
+        "evt-r172-10",
+        "evt-r172-12",
+        "evt-r172-13"
       ],
       "status": "ANNALS_ACTIVE",
       "openLeads": [
         "국가기록원·국회 인명록에서 백두진의 해당 직책·인사발령·서명 원본 대조",
         "L172-01",
         "L172-11",
-        "L172-17"
+        "L172-17",
+        "L172-36"
       ],
       "promotionReason": "원문/공식 기관 기록 기반 역할 심화, 법률 제정 책임은 추가 확인.",
       "researchUpdatedAt": "2026-10-26",
@@ -12361,7 +12387,8 @@
       "id": "cand172-won-yong-tok",
       "name": "WON Yong Tok",
       "aliases": [
-        "WON Yong Tok"
+        "WON Yong Tok",
+        "Wong Yong-tok"
       ],
       "backbone": false,
       "researchStatus": "IDENTIFIED",
@@ -12374,6 +12401,14 @@
           "evidenceDocumentIds": [
             "doc172-unts2353-minutes"
           ]
+        },
+        {
+          "period": "1952-05-27",
+          "title": "계엄사령관으로 임명되고 대통령 직속 명령을 받도록 했다는 이승만 자기진술의 미국 외교관 기록",
+          "actionType": "REPORTED_APPOINTMENT_AND_COMMAND_CHAIN_NOT_ORIGINAL_ORDER",
+          "evidenceDocumentIds": [
+            "doc172-frus-d144"
+          ]
         }
       ],
       "lifespan": {
@@ -12385,16 +12420,29 @@
       "hangulVerification": "UNKNOWN_DO_NOT_INFER_FROM_ROMANIZATION",
       "partyAffiliationVerification": "UNKNOWN",
       "evidenceDocumentIds": [
-        "doc172-unts2353-minutes"
+        "doc172-unts2353-minutes",
+        "doc172-frus-d144"
       ],
       "eventIds": [
-        "evt-r172-03"
+        "evt-r172-03",
+        "evt-r172-14",
+        "evt-r172-15"
       ],
       "openLeads": [
-        "L172-06"
+        "L172-06",
+        "L172-37",
+        "L172-38"
       ],
       "researchUpdatedAt": "2026-10-26",
-      "promotionReason": "UNTS No.2353 1952-05-24 signed official minutes independently identifies Romanized name and dated government office; only attendance, no attributed policy decision."
+      "promotionReason": "UNTS No.2353 1952-05-24 signed official minutes independently identifies Romanized name and dated government office; only attendance, no attributed policy decision.",
+      "annalsFile": "data/annals/won-yong-tok.md",
+      "evidenceFile": "data/evidence/won-yong-tok.json",
+      "researchNotes": [
+        {
+          "date": "2026-10-26",
+          "note": "UNTS WON Yong Tok and FRUS Wong Yong-tok spelling variation; Korean spelling remains unverified; do not infer legal command order from interview alone."
+        }
+      ]
     },
     {
       "id": "cand172-han-hong-i",
