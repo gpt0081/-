@@ -150,3 +150,7 @@ See `data/politicians/run113-prewar-network.json` for 12 sourced profiles. No ca
 - 인물 상세: `data/politicians/run165-1950-october-actors.json`; 사건 원장 `data/events.json`에 17개 신규 ID 추가, 상세 overlay `data/events/run165-october-governance.json`.
 - 문서 25개 `data/documents/run165-october-governance.json`; 주장 16개 `data/claims/run165-october-adversarial.json`; 실록 `data/annals/rhee-syngman-run165.md`; 연구선 35개 `data/research/lead-queues/run165-next.json`.
 - 외국 정치인 로무로는 대한민국 정치인 registry에 편입하지 않고 국제기구 사건의 외부 참여자로만 구별한다.
+
+
+## Run166 (2026-10-26) · 1950-10-12~15 전시 행정·경찰·국회
+`data/politicians/run166-october-actors.json`: 기존 stable ID 7명(신익희·신성모·조병옥·이준식·손원일·윤영선·김훈)의 시점별 발언·행동을 `evt-r166-*` 및 `doc166-*`에 연결. 한자·생몰·임명 원부를 이번 회차에 독립 재확인하지 않았으므로 VERIFIED 승격 없음. 기사에서 성씨만 표기된 윤·김 장관의 동일인 식별은 OPEN.
