@@ -431,24 +431,104 @@
     },
     {
       "id": "claim-r160-17",
-      "claim": "국가재건최고회의는 1961-05-19에만 정식 출범했다",
-      "status": "CONFLICTED",
-      "supportingEvidence": [
-        "doc160-naa-press"
-      ],
+      "claim": "1961-05-18 최고회의 운영 시작과 05-19 명칭 개칭은 같은 사건·동일 날짜라는 주장",
+      "status": "NARROWED",
+      "supportingEvidence": [],
       "contradictingEvidence": [
-        "doc160-pa-scnr"
+        "doc160-pa-scnr",
+        "doc160-aks-scnr"
       ],
-      "laterFinding": [],
-      "insufficientEvidence": [],
+      "laterFinding": [
+        "doc160-aks-scnr"
+      ],
+      "insufficientEvidence": [
+        "doc160-naa-constitution"
+      ],
       "contextEvidence": [],
       "contemporaneousAllegation": [],
-      "evidenceQualification": "대통령기록관 5/18, 국가기록원 해제 5/19. 원관보·원설치령 미열람으로 날짜 미확정.",
+      "evidenceQualification": "5/18 계엄 추인·정권 인수, 5/19 명칭 개칭이라는 후대 AKS 서술로 개념 분리. 원관보·원회의록 미열람, 완전 RESOLVED 아님.",
       "reviewHistory": [
         {
           "date": "2026-10-26",
           "run": 160,
           "reason": "new presidential archive contradictory date",
+          "silentOverwrite": false
+        },
+        {
+          "date": "2026-10-26",
+          "run": 160,
+          "reason": "AKS distinguishes 5/18 transfer and 5/19 renaming, so apparent PA 5/18 vs NAA 5/19 contradiction may be different referents. Reclassify from CONFLICTED to NARROWED pending original decree.",
+          "previousStatus": "CONFLICTED",
+          "silentOverwrite": false
+        }
+      ]
+    },
+    {
+      "id": "claim-r160-18",
+      "claim": "1961-06-06 비상조치법은 헌법재판소 규정을 정지하지 않았다",
+      "status": "CONTRADICTED",
+      "supportingEvidence": [],
+      "contradictingEvidence": [
+        "doc160-wikisource-decree42"
+      ],
+      "contextEvidence": [
+        "doc160-law-decree42-catalog"
+      ],
+      "laterFinding": [],
+      "insufficientEvidence": [],
+      "contemporaneousAllegation": [],
+      "evidenceQualification": "제42호 부칙⑤는 헌법재판소 규정의 효력정지를 명시. 실제 재판관 임명·사건 처리는 별도 원기록 추적.",
+      "reviewHistory": [
+        {
+          "date": "2026-10-26",
+          "run": 160,
+          "reason": "1961 original statutory text directly read and crosschecked decree number",
+          "silentOverwrite": false
+        }
+      ]
+    },
+    {
+      "id": "claim-r160-19",
+      "claim": "1961 군정기 국회의 입법권과 예산안 의결은 최고회의가 행사할 수 없었다",
+      "status": "CONTRADICTED",
+      "supportingEvidence": [],
+      "contradictingEvidence": [
+        "doc160-wikisource-decree42"
+      ],
+      "contextEvidence": [
+        "doc160-law-decree42-catalog"
+      ],
+      "laterFinding": [],
+      "insufficientEvidence": [],
+      "contemporaneousAllegation": [],
+      "evidenceQualification": "제42호 제9조 국회의 권한, 제10조 예산안 2/3 출석·과반 의결. 법률 규정과 실제 집행 분리.",
+      "reviewHistory": [
+        {
+          "date": "2026-10-26",
+          "run": 160,
+          "reason": "full 24-article primary law transcription read",
+          "silentOverwrite": false
+        }
+      ]
+    },
+    {
+      "id": "claim-r160-20",
+      "claim": "1961 군정기 지방자치단체장은 모두 주민 직접선거로 선출하도록 정해졌다",
+      "status": "CONTRADICTED",
+      "supportingEvidence": [],
+      "contradictingEvidence": [
+        "doc160-wikisource-decree42"
+      ],
+      "contextEvidence": [],
+      "laterFinding": [],
+      "insufficientEvidence": [],
+      "contemporaneousAllegation": [],
+      "evidenceQualification": "제42호 제20조 도지사·서울시장·15만 이상 시장은 최고회의 승인 뒤 내각 임명, 그 외 단체장은 도지사 임명.",
+      "reviewHistory": [
+        {
+          "date": "2026-10-26",
+          "run": 160,
+          "reason": "primary law Article20 read",
           "silentOverwrite": false
         }
       ]
