@@ -1,3 +1,0 @@
-# Run136 event authority correction
-
-In `data/events/run136-1952-procedural-actions.json`, the `legal_authority` field is overly broad. The 1948 Constitution article 98 relates to constitutional amendment approval and is explicitly relevant to the final vote. It does **not** itself authorize appointment of vote tellers, debate procedure, or committee reporting. For those sub-events, the applicable Assembly Rules/Standing Orders must be verified. Treat the generic field as a research pointer, not an established legal authority. Preserve this correction rather than silently rewriting earlier assertions.
