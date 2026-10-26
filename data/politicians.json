@@ -2650,14 +2650,16 @@
         "doc158c-frus-310",
         "doc158c-frus-312",
         "doc158c-frus-322",
-        "doc158c-frus-323"
+        "doc158c-frus-323",
+        "doc159-na-0003"
       ],
       "annalsFile": "data/annals/huh-chung-run158c.md",
       "openLeadsFile": "data/research/lead-queues/run139-next.json",
       "eventIds": [
         "evt-r158c-11",
         "evt-r158c-14",
-        "evt-r158c-15"
+        "evt-r158c-15",
+        "evt-r159-02"
       ],
       "openLeads": [
         "L158C-06",
@@ -3023,7 +3025,15 @@
         "verification": "NOT_VERIFIED_IN_THIS_RUN"
       },
       "roles": [
-        "1950 문교부장관; 고용원규정 국무위원 서명"
+        "1950 문교부장관; 고용원규정 국무위원 서명",
+        {
+          "period": "1960-11-23",
+          "title": "참의원 소급입법의 정치보복 위험 발언; 11/28 반대표 3인에 미포함",
+          "evidenceDocumentIds": [
+            "doc159-na-0110",
+            "doc159-na-0130"
+          ]
+        }
       ],
       "rolePeriods": [
         {
@@ -3041,14 +3051,17 @@
         "evt-r141-02"
       ],
       "evidenceDocumentIds": [
-        "d141-pa769"
+        "d141-pa769",
+        "doc159-na-0110",
+        "doc159-na-0130"
       ],
       "evidenceFile": "data/evidence/run141-actor-evidence.json",
       "openLeadsFile": "data/research/lead-queues/run141-next.json",
       "historyDebt": [
         "HD-R141-IDENTITY"
       ],
-      "attributionCaveat": "서명/이송은 법안 발의·표결·집행의 직접 증거가 아님"
+      "attributionCaveat": "서명/이송은 법안 발의·표결·집행의 직접 증거가 아님",
+      "researchUpdatedAt": "2026-10-26"
     },
     {
       "id": "pol-r141-kwon-seung-ryeol",
@@ -3427,7 +3440,15 @@
         "verification": "NOT_VERIFIED"
       },
       "roles": [
-        "1956 국회의원, 공보실 설치 논쟁·반대 토론"
+        "1956 국회의원, 공보실 설치 논쟁·반대 토론",
+        {
+          "period": "1960-12-31",
+          "title": "법무장관 법률586·587 공포문 연명",
+          "evidenceDocumentIds": [
+            "doc159-gaz-0030",
+            "doc159-gaz-0040"
+          ]
+        }
       ],
       "partyAffiliations": [
         {
@@ -3440,10 +3461,17 @@
       "backbone": false,
       "connections": [],
       "evidenceDocumentIds": [
-        "d141-gazette-384"
+        "d141-gazette-384",
+        "doc159-gaz-0040",
+        "doc159-gaz-0030"
       ],
       "openLeadsFile": "data/research/lead-queues/run141-next.json",
-      "promotionReason": "국사편찬위원회 헌정사DB 관보 전사와 국회 심의 해설의 실명·직책·행위 확인. 생몰 미검증."
+      "promotionReason": "국사편찬위원회 헌정사DB 관보 전사와 국회 심의 해설의 실명·직책·행위 확인. 생몰 미검증.",
+      "eventIds": [
+        "evt-r159-16",
+        "evt-r159-17"
+      ],
+      "researchUpdatedAt": "2026-10-26"
     },
     {
       "id": "pol-r141-han-dong-seok",
@@ -3678,6 +3706,14 @@
             "doc158d-nih-assembly-37"
           ],
           "voteId": "rollcall-1960-06-15-third-constitutional-amendment"
+        },
+        {
+          "period": "1960-10-11~11-23",
+          "title": "민의원 의장, 학생 국회 진입 때 의사진행·개헌 기명표결 주재",
+          "evidenceDocumentIds": [
+            "doc159-na-0030",
+            "doc159-na-0070"
+          ]
         }
       ],
       "affiliations": [],
@@ -3691,7 +3727,9 @@
       "eventIds": [
         "evt-r148-nov29",
         "evt-r149-1955-democratic",
-        "evt-r158c-14"
+        "evt-r158c-14",
+        "evt-r159-06",
+        "evt-r159-12"
       ],
       "status": "IDENTIFIED",
       "researchStatus": "IDENTIFIED",
@@ -3713,8 +3751,14 @@
       "evidenceDocumentIds": [
         "d150-na-democratic-1955",
         "doc158c-frus-322",
-        "doc158d-nih-assembly-37"
-      ]
+        "doc158d-nih-assembly-37",
+        "doc159-na-0030",
+        "doc159-us-0010",
+        "doc159-us-0020",
+        "doc159-na-0070",
+        "doc159-us-0070"
+      ],
+      "researchUpdatedAt": "2026-10-26"
     },
     {
       "id": "pol-r148-lee-cheol-seung",
@@ -5190,6 +5234,17 @@
             "doc158c-frus-330"
           ],
           "sourceQualification": "FRUS original report or editor note, original Korean record pending"
+        },
+        {
+          "period": "1960-10-17~12-31",
+          "title": "국무총리 공고·공포 연명, 미국 외교관의 소급처벌 범위 우려 보고(당사자 직접 발언 원본 아님)",
+          "evidenceDocumentIds": [
+            "doc159-gaz-0010",
+            "doc159-us-0050",
+            "doc159-gaz-0020",
+            "doc159-gaz-0030",
+            "doc159-gaz-0040"
+          ]
         }
       ],
       "affiliations": [
@@ -5202,7 +5257,12 @@
         "evt-r149-1955-democratic",
         "evt-r150-19560328-democratic-nomination",
         "evt-r156-09",
-        "evt-r157-08"
+        "evt-r157-08",
+        "evt-r159-10",
+        "evt-r159-11",
+        "evt-r159-15",
+        "evt-r159-16",
+        "evt-r159-17"
       ],
       "connections": [
         "evt-r149-1955-democratic",
@@ -5218,7 +5278,17 @@
         "doc158b-frus-285",
         "doc158c-frus-305",
         "doc158c-frus-327",
-        "doc158c-frus-330"
+        "doc158c-frus-330",
+        "doc159-na-0050",
+        "doc159-gaz-0010",
+        "doc159-us-0030",
+        "doc159-us-0060",
+        "doc159-us-0050",
+        "doc159-gaz-0020",
+        "doc159-na-0070",
+        "doc159-na-0130",
+        "doc159-gaz-0040",
+        "doc159-gaz-0030"
       ],
       "researchStatus": "VERIFIED",
       "promotionReason": "국가기록원 정당지도부·AKS 인물해제·1956 후보지명 사진목록",
@@ -5241,7 +5311,8 @@
           ]
         },
         "run157 1958년 Chang Myon and Dowling disagree on election irregularities: original US transcript or AKS source; do not infer direct presidential orders"
-      ]
+      ],
+      "researchUpdatedAt": "2026-10-26"
     },
     {
       "id": "pol-baek-nam-hun",
@@ -5941,6 +6012,17 @@
             "doc158d-nih-assembly-37"
           ],
           "voteId": "rollcall-1960-06-15-third-constitutional-amendment"
+        },
+        {
+          "period": "1960-10-11~12-31",
+          "title": "대통령 국회 의견제시·개헌 공고·법률 공포(입법 제안·표결과 구분)",
+          "evidenceDocumentIds": [
+            "doc159-na-0090",
+            "doc159-gaz-0010",
+            "doc159-gaz-0020",
+            "doc159-gaz-0030",
+            "doc159-gaz-0040"
+          ]
         }
       ],
       "affiliations": [
@@ -5956,11 +6038,25 @@
         "evt-r158c-17",
         "evt-r158c-18",
         "evt-r158c-19",
-        "evt-r158c-14"
+        "evt-r158c-14",
+        "evt-r159-08",
+        "evt-r159-10",
+        "evt-r159-15",
+        "evt-r159-16",
+        "evt-r159-17"
       ],
       "evidenceDocumentIds": [
         "doc158c-frus-327",
-        "doc158d-nih-assembly-37"
+        "doc158d-nih-assembly-37",
+        "doc159-na-0090",
+        "doc159-na-0050",
+        "doc159-gaz-0010",
+        "doc159-us-0030",
+        "doc159-gaz-0020",
+        "doc159-na-0070",
+        "doc159-na-0130",
+        "doc159-gaz-0040",
+        "doc159-gaz-0030"
       ],
       "researchStatus": "IDENTIFIED",
       "backbone": true,
@@ -5972,7 +6068,734 @@
       "historyDebtIds": [
         "HD-R158C-02"
       ],
-      "promotionReason": "기존 대통령 backbone ID와 1960 합동회의·국무총리 인준 사건 연결. 원 국회 표결 전 VERIFIED/MATURE 승격 보류"
+      "promotionReason": "기존 대통령 backbone ID와 1960 합동회의·국무총리 인준 사건 연결. 원 국회 표결 전 VERIFIED/MATURE 승격 보류",
+      "researchUpdatedAt": "2026-10-26"
+    },
+    {
+      "id": "pol-yun-hyeong-nam-r159",
+      "name": "윤형남",
+      "aliases": [
+        "尹亨南",
+        "Yun Hyeong-nam"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "UNVERIFIED_IN_PRIMARY_PERSONAL_REGISTRY"
+      },
+      "roles": [
+        {
+          "period": "1960-10-15~11-19",
+          "title": "민의원 법제사법위원장·제4차 개헌안 보고·제안설명",
+          "evidenceDocumentIds": [
+            "doc159-na-0040",
+            "doc159-na-0050",
+            "doc159-na-0060",
+            "doc159-gaz-0010"
+          ]
+        }
+      ],
+      "researchStatus": "ANNALS_ACTIVE",
+      "evidenceDocumentIds": [
+        "doc159-na-0040",
+        "doc159-na-0050",
+        "doc159-na-0060",
+        "doc159-gaz-0010",
+        "doc159-us-0030"
+      ],
+      "eventIds": [
+        "evt-r159-09",
+        "evt-r159-10"
+      ],
+      "openLeads": [
+        "L159-21",
+        "L159-22"
+      ],
+      "historyDebtIds": [
+        "HD-R159-03"
+      ],
+      "backbone": false,
+      "promotionReason": "Korean National Assembly contemporary transcript identifies named office or action; biographical birth/death and district remain unverified. VERIFIED means verified action, not full biography.",
+      "researchUpdatedAt": "2026-10-26"
+    },
+    {
+      "id": "pol-kim-chae-yong-r159",
+      "name": "김채용",
+      "aliases": [
+        "金采庸",
+        "Kim Chae-yong"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "UNVERIFIED_IN_PRIMARY_PERSONAL_REGISTRY"
+      },
+      "roles": [
+        {
+          "period": "1960-09-24~1961-01-20",
+          "title": "민의원 개헌촉진안 제안·헌법재판소법안 김채용 외20인 발의",
+          "evidenceDocumentIds": [
+            "doc159-na-0010",
+            "doc159-na-0150"
+          ]
+        }
+      ],
+      "researchStatus": "ANNALS_ACTIVE",
+      "evidenceDocumentIds": [
+        "doc159-na-0010",
+        "doc159-na-0150",
+        "doc159-na-0020",
+        "doc159-gaz-0050"
+      ],
+      "eventIds": [
+        "evt-r159-05",
+        "evt-r159-18"
+      ],
+      "openLeads": [
+        "L159-21",
+        "L159-22"
+      ],
+      "historyDebtIds": [
+        "HD-R159-03"
+      ],
+      "backbone": false,
+      "promotionReason": "Korean National Assembly contemporary transcript identifies named office or action; biographical birth/death and district remain unverified. VERIFIED means verified action, not full biography.",
+      "researchUpdatedAt": "2026-10-26"
+    },
+    {
+      "id": "pol-kim-chang-su-r159",
+      "name": "김창수",
+      "aliases": [
+        "金昌洙",
+        "Kim Chang-su"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "UNVERIFIED_IN_PRIMARY_PERSONAL_REGISTRY"
+      },
+      "roles": [
+        {
+          "period": "1960-10-11",
+          "title": "민의원 특별입법 촉진 결의안 제안·설명",
+          "evidenceDocumentIds": [
+            "doc159-na-0030"
+          ]
+        }
+      ],
+      "researchStatus": "VERIFIED",
+      "evidenceDocumentIds": [
+        "doc159-na-0030",
+        "doc159-us-0010",
+        "doc159-us-0020"
+      ],
+      "eventIds": [
+        "evt-r159-06"
+      ],
+      "openLeads": [
+        "L159-21",
+        "L159-22"
+      ],
+      "historyDebtIds": [
+        "HD-R159-03"
+      ],
+      "backbone": false,
+      "promotionReason": "Korean National Assembly contemporary transcript identifies named office or action; biographical birth/death and district remain unverified. VERIFIED means verified action, not full biography.",
+      "researchUpdatedAt": "2026-10-26"
+    },
+    {
+      "id": "pol-ju-do-yun-r159",
+      "name": "주도윤",
+      "aliases": [
+        "朱燾允",
+        "Ju Do-yun"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "UNVERIFIED_IN_PRIMARY_PERSONAL_REGISTRY"
+      },
+      "roles": [
+        {
+          "period": "1960-10-15",
+          "title": "민의원 법제사법위원회 개헌안 초안 작업 관련 의원",
+          "evidenceDocumentIds": [
+            "doc159-na-0040",
+            "doc159-nih-fourth-commentary"
+          ]
+        }
+      ],
+      "researchStatus": "IDENTIFIED",
+      "evidenceDocumentIds": [
+        "doc159-na-0040",
+        "doc159-nih-fourth-commentary"
+      ],
+      "eventIds": [
+        "evt-r159-09"
+      ],
+      "openLeads": [
+        "L159-21",
+        "L159-22"
+      ],
+      "historyDebtIds": [
+        "HD-R159-03"
+      ],
+      "backbone": false,
+      "promotionReason": "Korean National Assembly contemporary transcript identifies named office or action; biographical birth/death and district remain unverified. VERIFIED means verified action, not full biography.",
+      "researchUpdatedAt": "2026-10-26"
+    },
+    {
+      "id": "pol-paek-nak-jun-1960-candidate",
+      "name": "백낙준",
+      "aliases": [
+        "白樂濬",
+        "Paek Nak-jun"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "UNVERIFIED_IN_PRIMARY_PERSONAL_REGISTRY"
+      },
+      "roles": [
+        {
+          "period": "1960-10-11~11-28",
+          "title": "참의원 의장·특별입법 협력 촉구·11월28일 찬성 기명투표",
+          "evidenceDocumentIds": [
+            "doc159-na-0080",
+            "doc159-na-0130"
+          ]
+        }
+      ],
+      "researchStatus": "ANNALS_ACTIVE",
+      "evidenceDocumentIds": [
+        "doc159-na-0080",
+        "doc159-na-0130",
+        "doc159-us-0080",
+        "doc159-us-0090"
+      ],
+      "eventIds": [
+        "evt-r159-07",
+        "evt-r159-13",
+        "evt-r159-14"
+      ],
+      "openLeads": [
+        "L159-21",
+        "L159-22"
+      ],
+      "historyDebtIds": [
+        "HD-R159-03"
+      ],
+      "backbone": false,
+      "promotionReason": "Korean National Assembly contemporary transcript identifies named office or action; biographical birth/death and district remain unverified. VERIFIED means verified action, not full biography.",
+      "researchUpdatedAt": "2026-10-26"
+    },
+    {
+      "id": "pol-kim-si-hyeon-r159",
+      "name": "김시현",
+      "aliases": [
+        "金始顯",
+        "Kim Si-hyeon"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "UNVERIFIED_IN_PRIMARY_PERSONAL_REGISTRY"
+      },
+      "roles": [
+        {
+          "period": "1960-11-23",
+          "title": "민의원 제4차 개헌안 기명표결 반대 1명",
+          "evidenceDocumentIds": [
+            "doc159-na-0070",
+            "doc159-us-0070"
+          ]
+        }
+      ],
+      "researchStatus": "VERIFIED",
+      "evidenceDocumentIds": [
+        "doc159-na-0070",
+        "doc159-us-0070"
+      ],
+      "eventIds": [
+        "evt-r159-12"
+      ],
+      "openLeads": [
+        "L159-21",
+        "L159-22"
+      ],
+      "historyDebtIds": [
+        "HD-R159-03"
+      ],
+      "backbone": false,
+      "promotionReason": "Korean National Assembly contemporary transcript identifies named office or action; biographical birth/death and district remain unverified. VERIFIED means verified action, not full biography.",
+      "researchUpdatedAt": "2026-10-26"
+    },
+    {
+      "id": "pol-kang-gyeong-ok-r159",
+      "name": "강경옥",
+      "aliases": [
+        "康慶玉",
+        "Kang Gyeong-ok"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "UNVERIFIED_IN_PRIMARY_PERSONAL_REGISTRY"
+      },
+      "roles": [
+        {
+          "period": "1960-11-28",
+          "title": "참의원 제4차 개헌안 기명표결 반대",
+          "evidenceDocumentIds": [
+            "doc159-na-0130",
+            "doc159-us-0090"
+          ]
+        }
+      ],
+      "researchStatus": "VERIFIED",
+      "evidenceDocumentIds": [
+        "doc159-na-0130",
+        "doc159-us-0090"
+      ],
+      "eventIds": [
+        "evt-r159-14"
+      ],
+      "openLeads": [
+        "L159-21",
+        "L159-22"
+      ],
+      "historyDebtIds": [
+        "HD-R159-03"
+      ],
+      "backbone": false,
+      "promotionReason": "Korean National Assembly contemporary transcript identifies named office or action; biographical birth/death and district remain unverified. VERIFIED means verified action, not full biography.",
+      "researchUpdatedAt": "2026-10-26"
+    },
+    {
+      "id": "pol-park-cheol-ung-r159",
+      "name": "박철웅",
+      "aliases": [
+        "朴哲雄",
+        "Park Cheol-ung"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "UNVERIFIED_IN_PRIMARY_PERSONAL_REGISTRY"
+      },
+      "roles": [
+        {
+          "period": "1960-11-28",
+          "title": "참의원 제4차 개헌안 기명표결 반대",
+          "evidenceDocumentIds": [
+            "doc159-na-0130",
+            "doc159-us-0090"
+          ]
+        }
+      ],
+      "researchStatus": "VERIFIED",
+      "evidenceDocumentIds": [
+        "doc159-na-0130",
+        "doc159-us-0090"
+      ],
+      "eventIds": [
+        "evt-r159-14"
+      ],
+      "openLeads": [
+        "L159-21",
+        "L159-22"
+      ],
+      "historyDebtIds": [
+        "HD-R159-03"
+      ],
+      "backbone": false,
+      "promotionReason": "Korean National Assembly contemporary transcript identifies named office or action; biographical birth/death and district remain unverified. VERIFIED means verified action, not full biography.",
+      "researchUpdatedAt": "2026-10-26"
+    },
+    {
+      "id": "pol-o-beom-su-r159",
+      "name": "오범수",
+      "aliases": [
+        "吳範秀",
+        "Oh Beom-su"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "UNVERIFIED_IN_PRIMARY_PERSONAL_REGISTRY"
+      },
+      "roles": [
+        {
+          "period": "1960-11-28",
+          "title": "참의원 표결일 의사진행 문제 제기·제4차 개헌안 반대 기명투표",
+          "evidenceDocumentIds": [
+            "doc159-na-0130",
+            "doc159-us-0090"
+          ]
+        }
+      ],
+      "researchStatus": "VERIFIED",
+      "evidenceDocumentIds": [
+        "doc159-na-0130",
+        "doc159-us-0090"
+      ],
+      "eventIds": [
+        "evt-r159-14"
+      ],
+      "openLeads": [
+        "L159-21",
+        "L159-22"
+      ],
+      "historyDebtIds": [
+        "HD-R159-03"
+      ],
+      "backbone": false,
+      "promotionReason": "Korean National Assembly contemporary transcript identifies named office or action; biographical birth/death and district remain unverified. VERIFIED means verified action, not full biography.",
+      "researchUpdatedAt": "2026-10-26"
+    },
+    {
+      "id": "pol-kim-nam-jung-r159",
+      "name": "김남중",
+      "aliases": [
+        "金南中",
+        "Kim Nam-jung"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "UNVERIFIED_IN_PRIMARY_PERSONAL_REGISTRY"
+      },
+      "roles": [
+        {
+          "period": "1960-11-23~11-28",
+          "title": "참의원 개헌안 토론·11월28일 찬성 기명투표",
+          "evidenceDocumentIds": [
+            "doc159-na-0110",
+            "doc159-na-0130"
+          ]
+        }
+      ],
+      "researchStatus": "VERIFIED",
+      "evidenceDocumentIds": [
+        "doc159-na-0110",
+        "doc159-na-0130",
+        "doc159-us-0090"
+      ],
+      "eventIds": [
+        "evt-r159-14"
+      ],
+      "openLeads": [
+        "L159-21",
+        "L159-22"
+      ],
+      "historyDebtIds": [
+        "HD-R159-03"
+      ],
+      "backbone": false,
+      "promotionReason": "Korean National Assembly contemporary transcript identifies named office or action; biographical birth/death and district remain unverified. VERIFIED means verified action, not full biography.",
+      "researchUpdatedAt": "2026-10-26"
+    },
+    {
+      "id": "pol-yun-gil-jung-r159",
+      "name": "윤길중",
+      "aliases": [
+        "尹吉重",
+        "Yun Gil-jung"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "UNVERIFIED_IN_PRIMARY_PERSONAL_REGISTRY"
+      },
+      "roles": [
+        {
+          "period": "1960-10-11",
+          "title": "사회대중당 소속 개헌촉진 결의 지지(후대 해제), 원발언 재확인 필요",
+          "evidenceDocumentIds": [
+            "doc159-nih-fourth-commentary"
+          ]
+        }
+      ],
+      "researchStatus": "IDENTIFIED",
+      "evidenceDocumentIds": [
+        "doc159-nih-fourth-commentary"
+      ],
+      "eventIds": [],
+      "openLeads": [
+        "L159-21",
+        "L159-22"
+      ],
+      "historyDebtIds": [
+        "HD-R159-03"
+      ],
+      "backbone": false,
+      "promotionReason": "Korean National Assembly contemporary transcript identifies named office or action; biographical birth/death and district remain unverified. VERIFIED means verified action, not full biography.",
+      "researchUpdatedAt": "2026-10-26"
+    },
+    {
+      "id": "pol-seo-beom-seok-r159",
+      "name": "서범석",
+      "aliases": [
+        "徐範錫",
+        "Seo Beom-seok"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "UNVERIFIED_IN_PRIMARY_PERSONAL_REGISTRY"
+      },
+      "roles": [
+        {
+          "period": "1960-04-26",
+          "title": "민의원 개헌기초위원회 구성 제안",
+          "evidenceDocumentIds": [
+            "doc159-na-0001"
+          ]
+        }
+      ],
+      "researchStatus": "VERIFIED",
+      "evidenceDocumentIds": [
+        "doc159-na-0001"
+      ],
+      "eventIds": [],
+      "openLeads": [
+        "L159-21",
+        "L159-22"
+      ],
+      "historyDebtIds": [
+        "HD-R159-03"
+      ],
+      "backbone": false,
+      "promotionReason": "Korean National Assembly contemporary transcript identifies named office or action; biographical birth/death and district remain unverified. VERIFIED means verified action, not full biography.",
+      "researchUpdatedAt": "2026-10-26"
+    },
+    {
+      "id": "pol-cho-yeong-gyu-r159",
+      "name": "조영규",
+      "aliases": [
+        "曺泳珪",
+        "Jo Yeong-gyu"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "UNVERIFIED_IN_PRIMARY_PERSONAL_REGISTRY"
+      },
+      "roles": [
+        {
+          "period": "1960-05-02",
+          "title": "민의원 개헌안 제출기한·보궐선거 유보 긴급동의",
+          "evidenceDocumentIds": [
+            "doc159-na-0003"
+          ]
+        }
+      ],
+      "researchStatus": "VERIFIED",
+      "evidenceDocumentIds": [
+        "doc159-na-0003"
+      ],
+      "eventIds": [],
+      "openLeads": [
+        "L159-21",
+        "L159-22"
+      ],
+      "historyDebtIds": [
+        "HD-R159-03"
+      ],
+      "backbone": false,
+      "promotionReason": "Korean National Assembly contemporary transcript identifies named office or action; biographical birth/death and district remain unverified. VERIFIED means verified action, not full biography.",
+      "researchUpdatedAt": "2026-10-26"
+    },
+    {
+      "id": "pol-jeong-heon-ju-r159",
+      "name": "정헌주",
+      "aliases": [
+        "鄭憲柱",
+        "Jeong Heon-ju"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "UNVERIFIED_IN_PRIMARY_PERSONAL_REGISTRY"
+      },
+      "roles": [
+        {
+          "period": "1960-05-04~06-10",
+          "title": "개헌안 기초위원장 선출·개헌안 제안이유 설명",
+          "evidenceDocumentIds": [
+            "doc159-na-0004",
+            "doc159-na-0007"
+          ]
+        }
+      ],
+      "researchStatus": "ANNALS_ACTIVE",
+      "evidenceDocumentIds": [
+        "doc159-na-0004",
+        "doc159-na-0007"
+      ],
+      "eventIds": [],
+      "openLeads": [
+        "L159-21",
+        "L159-22"
+      ],
+      "historyDebtIds": [
+        "HD-R159-03"
+      ],
+      "backbone": false,
+      "promotionReason": "Korean National Assembly contemporary transcript identifies named office or action; biographical birth/death and district remain unverified. VERIFIED means verified action, not full biography.",
+      "researchUpdatedAt": "2026-10-26"
+    },
+    {
+      "id": "pol-lee-seong-ju-r159",
+      "name": "이성주",
+      "aliases": [
+        "李成柱",
+        "Lee Seong-ju"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "UNVERIFIED_IN_PRIMARY_PERSONAL_REGISTRY"
+      },
+      "roles": [
+        {
+          "period": "1960-04-27",
+          "title": "민의원 운영위원회 개헌기초위원 구성 논의 주재",
+          "evidenceDocumentIds": [
+            "doc159-na-0002"
+          ]
+        }
+      ],
+      "researchStatus": "VERIFIED",
+      "evidenceDocumentIds": [
+        "doc159-na-0002"
+      ],
+      "eventIds": [],
+      "openLeads": [
+        "L159-21",
+        "L159-22"
+      ],
+      "historyDebtIds": [
+        "HD-R159-03"
+      ],
+      "backbone": false,
+      "promotionReason": "Korean National Assembly contemporary transcript identifies named office or action; biographical birth/death and district remain unverified. VERIFIED means verified action, not full biography.",
+      "researchUpdatedAt": "2026-10-26"
+    },
+    {
+      "id": "pol-park-se-gyeong-r159",
+      "name": "박세경",
+      "aliases": [
+        "朴世俓",
+        "Park Se-gyeong"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "UNVERIFIED_IN_PRIMARY_PERSONAL_REGISTRY"
+      },
+      "roles": [
+        {
+          "period": "1960-05-04",
+          "title": "개헌기초위원회 공개청문회 접근·안전 논의",
+          "evidenceDocumentIds": [
+            "doc159-na-0004"
+          ]
+        }
+      ],
+      "researchStatus": "VERIFIED",
+      "evidenceDocumentIds": [
+        "doc159-na-0004"
+      ],
+      "eventIds": [],
+      "openLeads": [
+        "L159-21",
+        "L159-22"
+      ],
+      "historyDebtIds": [
+        "HD-R159-03"
+      ],
+      "backbone": false,
+      "promotionReason": "Korean National Assembly contemporary transcript identifies named office or action; biographical birth/death and district remain unverified. VERIFIED means verified action, not full biography.",
+      "researchUpdatedAt": "2026-10-26"
+    },
+    {
+      "id": "pol-lee-ho-jin-r159",
+      "name": "이호진",
+      "aliases": [
+        "李鎬賑",
+        "Lee Ho-jin"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "UNVERIFIED_IN_PRIMARY_PERSONAL_REGISTRY"
+      },
+      "roles": [
+        {
+          "period": "1960-10-17~11-23",
+          "title": "국회 의사국장, 개헌안 보고·기명투표 절차 설명",
+          "evidenceDocumentIds": [
+            "doc159-na-0050",
+            "doc159-na-0070"
+          ]
+        }
+      ],
+      "researchStatus": "VERIFIED",
+      "evidenceDocumentIds": [
+        "doc159-na-0050",
+        "doc159-na-0070"
+      ],
+      "eventIds": [],
+      "openLeads": [
+        "L159-21",
+        "L159-22"
+      ],
+      "historyDebtIds": [
+        "HD-R159-03"
+      ],
+      "backbone": false,
+      "promotionReason": "Korean National Assembly contemporary transcript identifies named office or action; biographical birth/death and district remain unverified. VERIFIED means verified action, not full biography.",
+      "researchUpdatedAt": "2026-10-26"
+    },
+    {
+      "id": "pol-kim-do-yeon-1960-candidate",
+      "name": "김도연",
+      "aliases": [
+        "金度演",
+        "Kim Do-yeon"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "UNVERIFIED_IN_PRIMARY_PERSONAL_REGISTRY"
+      },
+      "roles": [
+        {
+          "period": "1960-10-17~11-23",
+          "title": "민의원 개헌안 발의 서명·11월23일 찬성 기명투표",
+          "evidenceDocumentIds": [
+            "doc159-gaz-0010",
+            "doc159-na-0070"
+          ]
+        }
+      ],
+      "researchStatus": "VERIFIED",
+      "evidenceDocumentIds": [
+        "doc159-gaz-0010",
+        "doc159-na-0070"
+      ],
+      "eventIds": [],
+      "openLeads": [
+        "L159-21",
+        "L159-22"
+      ],
+      "historyDebtIds": [
+        "HD-R159-03"
+      ],
+      "backbone": false,
+      "promotionReason": "Korean National Assembly contemporary transcript identifies named office or action; biographical birth/death and district remain unverified. VERIFIED means verified action, not full biography.",
+      "researchUpdatedAt": "2026-10-26"
     }
   ]
 }
