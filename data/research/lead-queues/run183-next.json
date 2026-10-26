@@ -13,7 +13,10 @@
     "L183-09",
     "L183-10",
     "L183-11",
-    "L183-12"
+    "L183-12",
+    "L183-17",
+    "L183-18",
+    "L183-20"
   ],
   "leads": [
     {
@@ -143,10 +146,17 @@
       "target": "1950-03-17 대통령령285호 최초 제1~25조 및 별지 원문",
       "linkedClaimOrEvent": "claim183-06",
       "why": "1953 개정본을 1950 원본으로 소급하지 않기 위한 대조",
-      "status": "OPEN",
+      "status": "NARROWED",
       "accessDate": "2026-10-27",
       "expectedInformationValue": "HIGH",
-      "next": "해당 원문·문서번호·원면·결재선·시행일을 확보하여 기존 법문 전사와 대조"
+      "next": "1950 최초 원령 lsiSeq=25665 확보, 제1·3·10·12·13·16·21·23·25조 브라우저 판독. 원관보·서식 원면·수수료 한글 문구 검증 필요.",
+      "reviewHistory": [
+        {
+          "date": "2026-10-27",
+          "run": 183,
+          "note": "Official original text URL located and selected articles read"
+        }
+      ]
     },
     {
       "id": "L183-12",
@@ -207,6 +217,50 @@
       "accessDate": "2026-10-27",
       "expectedInformationValue": "MEDIUM",
       "next": "해당 원문·문서번호·원면·결재선·시행일을 확보하여 기존 법문 전사와 대조"
+    },
+    {
+      "id": "L183-17",
+      "priority": "high",
+      "institution": "국가기록원·대한민국 전자관보",
+      "target": "1950-03-17 대통령령285 원관보·원본 제21조 수수료 표·제23조 경유 문구",
+      "linkedClaimOrEvent": "claim183-08",
+      "why": "브라우저 에이전트 영문 요약의 정확한 한글 법령 원문·금액 재검증",
+      "status": "OPEN",
+      "accessDate": "2026-10-27",
+      "next": "원관보·원부·공문 번호·날짜·기관 결재선을 확인하고 법률과 집행을 구분"
+    },
+    {
+      "id": "L183-18",
+      "priority": "high",
+      "institution": "IOM 이민정책연구원·법무부",
+      "target": "2012 김원숙 WP 2012-04 제II장 3쪽 및 인용 법무부 출입국관리 40년사(2003)",
+      "linkedClaimOrEvent": "claim183-09",
+      "why": "3월7일 대 3월17일 날짜차·30만환 대 30만원 화폐단위 혼용의 전파 경로 확인",
+      "status": "OPEN",
+      "accessDate": "2026-10-27",
+      "next": "원관보·원부·공문 번호·날짜·기관 결재선을 확인하고 법률과 집행을 구분"
+    },
+    {
+      "id": "L183-19",
+      "priority": "high",
+      "institution": "대한민국 전자관보",
+      "target": "1949-11-17 법률65 제3조 30만원 원관보 및 1953 화폐개혁 이전 환 표기",
+      "linkedClaimOrEvent": "claim183-09",
+      "why": "당시 법률 화폐단위와 후대 연구의 환 환산 서술 분리",
+      "status": "OPEN",
+      "accessDate": "2026-10-27",
+      "next": "원관보·원부·공문 번호·날짜·기관 결재선을 확인하고 법률과 집행을 구분"
+    },
+    {
+      "id": "L183-20",
+      "priority": "high",
+      "institution": "외무부·국가기록원",
+      "target": "1950-01-07~03-16 법65 시행 후 시행령285 전의 사열·외국인등록·외무부 예규",
+      "linkedClaimOrEvent": "evt-r183-11",
+      "why": "법률과 하위 시행령 사이 69일 행정 운영 실제 확인",
+      "status": "OPEN",
+      "accessDate": "2026-10-27",
+      "next": "원관보·원부·공문 번호·날짜·기관 결재선을 확인하고 법률과 집행을 구분"
     }
   ],
   "carryForward": [

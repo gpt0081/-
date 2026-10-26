@@ -72,16 +72,24 @@
     {
       "id": "claim183-06",
       "statement": "1950-03-17 대통령령285호 제정 이후 1953 개정 시행령에는 외무부출장소/세관과 지방등록청의 세부 절차가 보인다",
-      "status": "OPEN",
+      "status": "NARROWED",
       "supportingEvidence": [
         "doc183-decree285-official-index",
-        "doc183-decree830-official"
+        "doc183-decree830-official",
+        "doc183-decree285-official-index"
       ],
       "contradictingEvidence": [],
       "insufficientEvidence": [],
-      "analysis": "1953 법문을 1950 원제정령으로 소급해 단정하지 말 것; 최초 원문 필요.",
+      "analysis": "1953 법문을 1950 원제정령으로 소급해 단정하지 말 것; 최초 원문 필요.\nRun183 추가: 법제처 1950 최초 원령 lsiSeq=25665 브라우저 본문에서 제1·3·10·12·13·16·21·23·25조·부칙 선택 열람. 제3조 출장소 없는 곳 세관 공무원, 제13·16조 지방등록부·상향보고 확인. 원관보 원면 및 조문 전체 수수료·세부표현은 미검증.",
       "adversarialSearchCompleted": false,
-      "accessDate": "2026-10-27"
+      "accessDate": "2026-10-27",
+      "reviewHistory": [
+        {
+          "date": "2026-10-27",
+          "run": 183,
+          "change": "Original 1950 decree identified and selected clauses read; prior 1953-only extrapolation risk narrowed"
+        }
+      ]
     },
     {
       "id": "claim183-07",
@@ -94,6 +102,40 @@
       "insufficientEvidence": [],
       "analysis": "제목·색인만 확인, 실제 기사 본문·미등록 인원·외무부 명령 존재는 미확인.",
       "adversarialSearchCompleted": false,
+      "accessDate": "2026-10-27"
+    },
+    {
+      "id": "claim183-08",
+      "statement": "1950-03-17 대통령령 제285호 원제정령 제3·13·16조는 외무부출장소/세관과 지방등록청·상향보고의 절차를 규정한다",
+      "status": "NARROWED",
+      "supportingEvidence": [
+        "doc183-decree285-official-index"
+      ],
+      "contradictingEvidence": [],
+      "insufficientEvidence": [
+        "original 1950 Gazette facsimile not read",
+        "full 25 articles and original forms not manually line-verified"
+      ],
+      "analysis": "법제처 lsiSeq25665 공식 원문을 브라우저로 직접 열어 선택 조문을 확인. 반환은 영문 요약이므로 정확한 조문 한글 문구·수수료는 원면 추가 대조 필요. 1953 개정본 소급이 아니라 1950 원제정 본문을 확인한 것.",
+      "adversarialSearchCompleted": false,
+      "accessDate": "2026-10-27"
+    },
+    {
+      "id": "claim183-09",
+      "statement": "2012 IOM 이민정책연구원 워킹페이퍼의 시행령285호 공포일 1950-03-07 및 법65 휴대금 30만환 표기는 법제처 공식 법문(1950-03-17·30만원)과 다르다",
+      "status": "NARROWED",
+      "supportingEvidence": [
+        "doc182-law65-official-history-metadata",
+        "doc183-decree285-official-index"
+      ],
+      "contradictingEvidence": [
+        "doc183-iom-2012-immigration-history"
+      ],
+      "insufficientEvidence": [
+        "IOM 논문의 2003 법무부 출입국관리 40년사 원문 미열람"
+      ],
+      "analysis": "서로 독립된 2012 학술 연구의 서술과 1949/1950 법제처 원문 불일치. 공식 제정법령을 우선하되 연구문헌 오기/후대 화폐단위 혼용의 원인을 추가 검증. 두 자료가 같은 역사적 사건을 다른 날짜로 적었으나 공식 1차자료로 법적 날짜가 확정되므로 무조건 CONFLICTED로 격상하지 않음.",
+      "adversarialSearchCompleted": true,
       "accessDate": "2026-10-27"
     }
   ]
