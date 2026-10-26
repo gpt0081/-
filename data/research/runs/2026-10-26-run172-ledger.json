@@ -53,11 +53,12 @@
     "378c2dcd3a19510257193a12206f0f2da1e27c62",
     "95e1a8faf9359150befad9969414d3d0ac24bb65",
     "3ee2885ed90c091423a241e0253ed4e80a30851b",
-    "8313d6f058177eba203c0aa73ebd57b59030a01b"
+    "8313d6f058177eba203c0aa73ebd57b59030a01b",
+    "b42a430eb30d1e015e5076fd9aeffae14f390a9c"
   ],
-  "commitCountBeforeLedger": 47,
+  "commitCountBeforeLedger": 48,
   "ledgerCommit": "SELF_COMMIT_REPORTED_SEPARATELY",
-  "commitAudit": "GitHub compare ahead_by=47 before ledger commit. Every SHA above is a connector-returned write commit; ledger itself will be the final extra commit.",
+  "commitAudit": "GitHub compare ahead_by=48 prior to this final audit correction. List contains all 48 preceding commit SHAs. Final audit correction commit itself is reported in run response.",
   "metrics": {
     "researchLines": 13,
     "domains": 6,
@@ -106,7 +107,7 @@
   ],
   "consistencyGate": {
     "status": "RESEARCHED_NOT_FULLY_INTEGRATED",
-    "checks": "New event, politician, document, claim and lead ID references checked; initial missing doc172-frus-d137 alias fixed in claim registry; final recheck pending.",
+    "checks": "PASS: 19 new event/action IDs in canonical registry, 10 actor profiles and all six new IDs, 31 new document IDs, 24 claim references, 50 lead IDs, and Rhee/Paek/Won evidence links all resolve. No missing new-layer refs. This is not a global historic database audit.",
     "blocked": [
       {
         "path": "data/research/HISTORY_DEBT.md",
@@ -118,5 +119,18 @@
   },
   "weeklyFullReview": "역사부채 주간 전수조사 미실시",
   "elapsedTime": "NOT_MEASURED; do not claim one full hour",
-  "floot": "UNTOUCHED"
+  "floot": "UNTOUCHED",
+  "finalAudit": {
+    "date": "2026-10-26",
+    "newLayerReferenceErrors": 0,
+    "politicians": 228,
+    "events": 574,
+    "documentEntries": 31,
+    "claims": 24,
+    "leads": 50,
+    "readDocuments": 26,
+    "primaryOriginalDocuments": 22,
+    "gitCompareAheadBeforeThisCommit": 48,
+    "gitChangedFilesBeforeThisCommit": 20
+  }
 }
