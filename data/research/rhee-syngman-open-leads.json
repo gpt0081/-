@@ -324,5 +324,34 @@
     "active": 12,
     "blockedOrUnresolved": "1952-07-04 국무회의/국회 시각충돌·원면 미열람",
     "corrections": "data/research/corrections/run171-1952-chronology-provenance.md"
+  },
+  "run172Followup": {
+    "queue": "data/research/lead-queues/run172-next.json",
+    "newSpecificLeads": 50,
+    "trackedPriorLeadIds": [
+      "L171-01",
+      "L171-02",
+      "L171-10",
+      "L171-11",
+      "L171-12",
+      "L171-23",
+      "L171-29",
+      "L171-32"
+    ],
+    "criticalDebts": [
+      "HD-R172-ECON-01",
+      "HD-R172-ECON-02",
+      "HD-R172-ECON-03",
+      "HD-R171-CONST-01",
+      "HD-R172-CONST-02"
+    ],
+    "sourceCorrection": "UNTS No2353 Article III(9)(a) Korean government sole control of newly earned export forex; NAA retrospective one-third presidentially appointed senators not in promulgated Article32.",
+    "status": "UNRESOLVED_PRIOR_LEADS_RETAINED",
+    "lateSourceCorrections": [
+      "FRUS d135 Rhee self-reported Paek authorization",
+      "FRUS d144 Rhee self-reported martial-law approval and Won command",
+      "FRUS d149 delivered US request vs d153 only planned Clark intervention"
+    ],
+    "blockedIntegration": "HISTORY_DEBT May30 addendum write rejected by safety checks; source claim and event layers integrated; do not treat addendum as written."
   }
 }

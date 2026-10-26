@@ -1,0 +1,98 @@
+{
+  "politicianId": "pol-rhee-syngman",
+  "run": 172,
+  "date": "2026-10-26",
+  "sourceScope": "1952 economic coordination treaty and constitutional promulgation chronology",
+  "evidence": [
+    {
+      "documentId": "doc172-unts2353-agreement",
+      "claim": "1952-05-24 economic agreement signed by Paek and Meyer, not Rhee",
+      "attribution": "PRESIDENT_IN_OFFICE_NOT_DIRECT_SIGNATORY",
+      "eventIds": [
+        "evt-1952-meyer-economic-coordination",
+        "evt-r172-04"
+      ]
+    },
+    {
+      "documentId": "doc172-unts2353-minutes",
+      "claim": "Paek says cabinet approved amended draft; no direct Rhee instruction shown",
+      "attribution": "KOREAN_CABINET_APPROVAL_REPORTED_NOT_RHEE_PERSONAL_ORDER",
+      "eventIds": [
+        "evt-r172-03"
+      ]
+    },
+    {
+      "documentId": "doc172-na-1952-gazette-688",
+      "claim": "1952-07-07 Rhee promulgated amendment with Chang countersignature; Article32 direct election of both chambers",
+      "attribution": "PRESIDENT_PROMULGATION_CONFIRMED",
+      "eventIds": [
+        "evt-r170-14"
+      ]
+    },
+    {
+      "documentId": "doc172-na-1952-57-cabinet",
+      "claim": "1952-07-08 Rhee directed presidential-centered operation of revised constitution",
+      "attribution": "DIRECT_PRESIDENTIAL_INSTRUCTION_IN_ARCHIVAL_TRANSCRIPTION_NOT_EXECUTION",
+      "eventIds": [
+        "evt-r172-11"
+      ]
+    },
+    {
+      "documentId": "doc172-frus-d135",
+      "claim": "1952-05-23 Rhee told Muccio he authorized Paek to sign economic agreement and demanded dollar settlement backing currency reform",
+      "attribution": "PRESIDENT_SELF_REPORTED_AUTHORIZATION_AND_POLICY_PREFERENCE_NOT_WRITTEN_ORDER",
+      "eventIds": [
+        "evt-r172-12",
+        "evt-r172-13"
+      ]
+    },
+    {
+      "documentId": "doc172-frus-d144",
+      "claim": "1952-05-27 Rhee told Van Fleet cabinet decided martial law, he approved and suggested Pusan inclusion, and Won would take orders directly from him",
+      "attribution": "PRESIDENT_SELF_REPORTED_APPROVAL_AND_COMMAND_NOT_ORIGINAL_MARTIAL_LAW_ORDER",
+      "eventIds": [
+        "evt-r172-14",
+        "evt-r172-15"
+      ]
+    },
+    {
+      "documentId": "doc172-frus-d178",
+      "claim": "US policy staff considered delaying economic payments and forming board but warned of treaty breach",
+      "attribution": "US_INTERNAL_PROPOSAL_NOT_ACTION_BY_RHEE",
+      "eventIds": [
+        "evt-r172-16"
+      ]
+    }
+  ],
+  "contradictions": [
+    {
+      "claimId": "claim172-10",
+      "description": "National Archives curator dates 55th cabinet 7/4 09:30 while vote was 7/4 night; originals needed",
+      "status": "CONFLICTED"
+    },
+    {
+      "claimId": "claim172-11",
+      "description": "NAA curator appears to carry May draft one-third appointed senators into July promulgation analysis, despite Article32 direct election",
+      "status": "NARROWED_TO_DRAFT_VS_FINAL"
+    }
+  ],
+  "openLeads": [
+    "L172-10",
+    "L172-25",
+    "L172-26",
+    "L172-27",
+    "L172-28",
+    "L172-29"
+  ],
+  "guardrail": "US diplomats' records of Rhee's statements are strong evidence of what he said, not equivalent to original ROK authorization/appointment instruments or proof of actual implementation.",
+  "correctionHistory": [
+    {
+      "date": "2026-10-26",
+      "note": "Late direct reading FRUS d135 narrows prior 'no Rhee direct authorization' to 'Rhee reported approving Paek signature, no Korean written order'."
+    },
+    {
+      "date": "2026-10-26",
+      "note": "FRUS d144 provides Rhee self-reported martial-law approval and Won direct command; still no original ROK order."
+    }
+  ]
+}
