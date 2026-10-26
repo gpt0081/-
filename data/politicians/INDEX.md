@@ -187,3 +187,10 @@ See `data/politicians/run113-prewar-network.json` for 12 sourced profiles. No ca
 - `pol-cho-jin-man`: 기본 registry에 **IDENTIFIED** 등록, 독립 실록 `data/annals/cho-jin-man.md`, 증거 `data/evidence/cho-jin-man.json`. 인천광역시 약력 표제의 사망연도 1972와 AKS 1979-02-12가 충돌해 `died=null` 유지. 직접 사망증빙 확보 전 VERIFIED 금지.
 - `cand-r170-lee-sun-yong`: 1951-11-30 개헌제의 국무위원 발기자 명단에 실명만 확인. 한자·생몰·당시 부처 확인 전 canonical 승격 금지.
 - 관련 사건 `evt-r170-01`~`evt-r170-14`, 문서 `data/documents/run170-constitutional-process.json`, 미해결 `data/research/lead-queues/run170-next.json`.
+
+## Run171 (2026-10-26) · 1952 헌정위기·선거 독립 정치인 실록
+- `data/politicians/run171-1952-constitutional-election-actors.json`: 기존 14명과 1952 선거 신규 후보 5명(후보 ID, 한자·생몰 원본 미확인). 후보 수집과 심층 연구를 구분.
+- `pol-r139-jang-taek-sang`: 1952-05-14 정부 개헌안 제출의 공식 전사와 06-03 총리 전언을 구분하여 `ANNALS_ACTIVE` 시범 승격. `data/annals/jang-taek-sang.md`, `data/evidence/jang-taek-sang.json`.
+- `pol-lee-beom-seok`: 1952 내무장관 임명 편집주석, 06-03 의원 구금 제안 전언, 08-05 부통령 후보 공식 선거사로 `IDENTIFIED` 승격. `data/annals/lee-beom-seok.md`, `data/evidence/lee-beom-seok.json`. 중복 의심 `pol-lee-beom-seok-1900`은 참조 감사 전 병합 금지.
+- 사건 18개 신규 + 기존 `evt-r141-local-2035`(1952-05-10 지방선거), `evt-r162-20`(1952-08-05 대통령선거) 2개 보강. `data/events/run171-1952-decision-actions.json`.
+- 원문·출처 충돌: `data/documents/run171-1952-constitutional-election-and-frus.json`, `data/claims/run171-1952-adversarial-source-criticism.json`, `data/research/corrections/run171-1952-chronology-provenance.md`.
