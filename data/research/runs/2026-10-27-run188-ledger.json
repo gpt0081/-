@@ -13,11 +13,13 @@
   "events": 18,
   "claims": 14,
   "nextLeads": 42,
-  "oldLeadsPartiallyTraced": 6,
+  "oldLeadsPartiallyTraced": 2,
   "completedAdversarialChecks": 0,
   "strictThreePrimaryProvenanceCrosschecks": 0,
   "partialMixedProvenanceCrosschecks": 1,
   "weeklyFullHistoryDebtReview": false,
   "oneHourClaim": false,
-  "validation": "Document/event/claim/actor IDs cross-referenced in this run; full repository-wide URL dedup not performed."
+  "validation": "Document/event/claim/actor IDs cross-referenced in this run; full repository-wide URL dedup not performed.",
+  "claimEvidenceRelationCorrection": "a046 initial commit had contradictory evidence in supportingEvidenceDocumentIds; second audit commit corrected",
+  "newHistoryDebtItems": 4
 }

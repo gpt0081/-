@@ -18,3 +18,6 @@ Run187 PR #38 head 65bbe6169e301f4932feeb3dc4d201b5b37e6d4c 기반 stacked branc
 
 ## 인물 귀속 주의
 의회 동의·표결은 대통령의 직접 명령이 아니다. 정부안 제출과 실제 공포·집행, 외교문서 관찰과 법원 판결을 분리한다.
+
+## 2차 감사 정정
+반증 명제의 증거는 claim188 registry에서 supporting이 아닌 contradicting/insufficient로 재분류. 기존 L187 실질 추적 2건으로 정정.
