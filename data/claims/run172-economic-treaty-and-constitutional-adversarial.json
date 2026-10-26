@@ -350,10 +350,42 @@
       "sourceRole": "US_JCS_DRAFT_NOT_FINAL_ORDER",
       "reviewedAt": "2026-10-26",
       "correctionHistory": []
+    },
+    {
+      "id": "claim172-23",
+      "statement": "미국 대사관은 1952-05-30 이승만에게 부산 계엄 해제 요구 서한을 실제 전달했다",
+      "status": "SUPPORTED_DELIVERY_NOT_ROK_COMPLIANCE",
+      "supportingEvidence": [
+        "doc172-frus-d149"
+      ],
+      "contradictingEvidence": [],
+      "insufficientEvidence": [
+        "한국 계엄 해제 원공고 및 회답 미확보"
+      ],
+      "openLead": "L172-49",
+      "sourceRole": "US_DIPLOMATIC_DELIVERY_REPORT",
+      "reviewedAt": "2026-10-26",
+      "correctionHistory": []
+    },
+    {
+      "id": "claim172-24",
+      "statement": "1952-06-02 Clark는 한국 정부에 최후통첩을 실행하고 유엔군으로 국회를 보호했다",
+      "status": "UNSUPPORTED_US_PLANNING_NOT_EXECUTION",
+      "supportingEvidence": [],
+      "contradictingEvidence": [
+        "doc172-frus-d153"
+      ],
+      "insufficientEvidence": [
+        "doc172-frus-d147 earlier Lightner proposal, doc172-frus-d154 planning; actual June2 after-action report unavailable"
+      ],
+      "openLead": "L172-50",
+      "sourceRole": "US_MILITARY_PLANNING_AND_PROPOSED_INTERVENTION",
+      "reviewedAt": "2026-10-26",
+      "correctionHistory": []
     }
   ],
-  "claimsReviewed": 22,
-  "independentAdversarialSearches": 8,
+  "claimsReviewed": 24,
+  "independentAdversarialSearches": 10,
   "adversarialSearchAudit": [
     "UNTS original Article I vs AKS and prior event summary on CEB authority",
     "UNTS Article III(9) vs AKS blanket forex-coordination characterization",
@@ -362,7 +394,9 @@
     "FRUS d135 Rhee self-reported Paek authorization vs UNTS actual signature and absence of Korean written authorization",
     "FRUS d144 Rhee self-reported martial-law approval and Won command vs Van Fleet/ROKA Chief not consulted",
     "FRUS d178 proposed $35m delay vs UNTS contractual obligation and absence of actual payment proof",
-    "FRUS d140 draft both-direction POW coercion concerns vs earlier field-report concerns; draft not case-level finding"
+    "FRUS d140 draft both-direction POW coercion concerns vs earlier field-report concerns; draft not case-level finding",
+    "FRUS d149 confirmed delivery of 5/30 martial-law lifting demand, but no original ROK compliance order",
+    "FRUS d147 proposed ultimatum contrasted with Clark d153 explicitly planned no final ultimatum; US planning not execution"
   ],
   "fullyIndependentThreePrimaryFamilyBundles": 0,
   "partialTwoFamilyBundles": 3,
