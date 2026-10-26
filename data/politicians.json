@@ -18172,6 +18172,17 @@
             "evt-r181-1201-0130"
           ],
           "sourceQualification": "press transcription"
+        },
+        {
+          "period": "1949-06-07",
+          "title": "서울시경찰국장 반민특위 특경대 석방·검찰총장 무기 반환 회견",
+          "actionType": "CONTEMPORANEOUS_REPORTED_PERSONAL_STATEMENT",
+          "evidenceDocumentIds": [
+            "doc183d-kimtaeseon-19490607"
+          ],
+          "eventIds": [
+            "evt-r183d-03"
+          ]
         }
       ],
       "researchStatus": "IDENTIFIED_CANDIDATE",
@@ -18179,15 +18190,18 @@
       "evidenceDocumentIds": [
         "doc181-1201-0030",
         "doc181-1106-0070",
-        "doc181-1201-0130"
+        "doc181-1201-0130",
+        "doc183d-kimtaeseon-19490607"
       ],
       "eventIds": [
         "evt-r181-1201-0030",
         "evt-r181-1106-0070",
-        "evt-r181-1201-0130"
+        "evt-r181-1201-0130",
+        "evt-r183d-03"
       ],
       "openLeads": [
-        "L181-P-pol-kim-tae-seon"
+        "L181-P-pol-kim-tae-seon",
+        "L183d-04"
       ],
       "historyDebt": [
         "HD-R181-IDENTITY"
@@ -18538,35 +18552,80 @@
           "eventIds": [
             "evt-r183c-16"
           ]
+        },
+        {
+          "period": "1949-02-16",
+          "title": "대법원장 반민법 헌법판단 권한·국회 개정권 발언",
+          "actionType": "CONTEMPORANEOUS_REPORTED_PERSONAL_STATEMENT",
+          "evidenceDocumentIds": [
+            "doc183d-kimbyeongro-19490216"
+          ],
+          "eventIds": [
+            "evt-r183d-01"
+          ]
+        },
+        {
+          "period": "1949-06-07",
+          "title": "대법원장 경찰 반민특위 습격 내무부 지휘 추정·불법 압수 비판",
+          "actionType": "CONTEMPORANEOUS_REPORTED_PERSONAL_STATEMENT",
+          "evidenceDocumentIds": [
+            "doc183d-kimbyeongro-19490607"
+          ],
+          "eventIds": [
+            "evt-r183d-02"
+          ]
         }
       ],
-      "researchStatus": "IDENTIFIED",
-      "promotionReason": "1949-09-23 한성일보 당사자 기자회견 전사에서 성명·한자·대법원장 직책·행위 확인. 생몰·임명원부 미확보이므로 VERIFIED 아님.",
+      "researchStatus": "ANNALS_ACTIVE",
+      "promotionReason": "Run183d: 1949-02-16·06-07·09-23 세 시기 독립 동시대 기자회견 전사에서 동일 한자 金炳魯·대법원장 직책·헌법해석·경찰습격 평가·사법기관 이관 반응 확인. 별도 annals/evidence/coverage/open leads 파일 생성. 생몰·원임명원부 미확보로 MATURE 아님.",
       "connections": [
         "pol-r181-kim-ik-jin",
         "pol-r179-lee-in"
       ],
       "evidenceDocumentIds": [
-        "doc183c-kimbyeongro-kimikjin-19490923"
+        "doc183c-kimbyeongro-kimikjin-19490923",
+        "doc183d-kimbyeongro-19490216",
+        "doc183d-kimbyeongro-19490607"
       ],
       "eventIds": [
-        "evt-r183c-16"
+        "evt-r183c-16",
+        "evt-r183d-01",
+        "evt-r183d-02"
       ],
       "openLeads": [
         "L183c-16",
         "L183c-18"
       ],
       "historyDebt": [
-        "HD-R183c-02"
+        "HD-R183c-02",
+        "HD-R183d-01",
+        "HD-R183d-02"
       ],
-      "backbone": "NON_PRESIDENT_INDEPENDENT_CANDIDATE"
+      "backbone": "NON_PRESIDENT_INDEPENDENT_CANDIDATE",
+      "annalsFile": "data/annals/kim-byeong-ro.md",
+      "evidenceFile": "data/evidence/kim-byeong-ro-run183d.json",
+      "openLeadsFile": "data/research/kim-byeong-ro-open-leads.json",
+      "evidenceCoverage": {
+        "domains": [
+          "헌정·위헌심사",
+          "반민특위 경찰습격",
+          "사법기관 재편"
+        ],
+        "sourceFamilies": [
+          "서울신문",
+          "조선중앙일보",
+          "한성일보"
+        ],
+        "status": "ANNALS_ACTIVE_ORIGINAL_PRESS_TRANSCRIPTS_NOT_FACSIMILE"
+      }
     },
     {
       "id": "pol-r183c-jang-gyeong-geun",
       "name": "장경근",
       "aliases": [
         "張暻根",
-        "Jang Gyeong-geun (transliteration, unverified)"
+        "Jang Gyeong-geun (transliteration, unverified)",
+        "張璟根 (AKS 2012/2024 variant; conflicts with 張暻根 in 1949 Assembly transcript)"
       ],
       "lifespan": {
         "born": null,
@@ -18584,6 +18643,19 @@
           "eventIds": [
             "evt-r183c-04"
           ]
+        },
+        {
+          "period": "1949-06-06",
+          "title": "반민특위 경찰습격 주도 인물이라는 후대 학술 서술",
+          "actionType": "LATER_SCHOLARLY_ATTRIBUTION_NOT_PRIMARY_ORDER",
+          "evidenceDocumentIds": [
+            "doc183d-aks-anticollab-2012",
+            "doc183d-nikh-anticollab-history"
+          ],
+          "eventIds": [
+            "evt-r183d-03"
+          ],
+          "sourceQualification": "NOT_VERIFIED_DIRECT_ORDER; second-hand historiography, original 1949 police/minister order needed"
         }
       ],
       "researchStatus": "IDENTIFIED",
@@ -18592,19 +18664,26 @@
         "pol-r141-ahn-ho-sang"
       ],
       "evidenceDocumentIds": [
-        "doc183c-jang-ahn-19491109"
+        "doc183c-jang-ahn-19491109",
+        "doc183d-aks-anticollab-2012",
+        "doc183d-nikh-anticollab-history"
       ],
       "eventIds": [
-        "evt-r183c-04"
+        "evt-r183c-04",
+        "evt-r183d-03"
       ],
       "openLeads": [
         "L183c-04",
-        "L183c-17"
+        "L183c-17",
+        "L183d-07",
+        "L183d-08"
       ],
       "historyDebt": [
-        "HD-R183c-01"
+        "HD-R183c-01",
+        "HD-R183d-03"
       ],
-      "backbone": "NON_PRESIDENT_INDEPENDENT_CANDIDATE"
+      "backbone": "NON_PRESIDENT_INDEPENDENT_CANDIDATE",
+      "aliasVerification": "CONFLICTED_HANJA: original 1949 assembly transcription 張暻根; AKS retrospective 張璟根; original appointment register needed"
     }
   ]
 }

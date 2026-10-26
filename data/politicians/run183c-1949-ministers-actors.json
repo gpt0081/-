@@ -214,17 +214,21 @@
           ]
         }
       ],
-      "researchStatus": "IDENTIFIED",
+      "researchStatus": "ANNALS_ACTIVE",
       "promotionReason": "1949-09-23 한성일보 당사자 기자회견 전사에서 성명·한자·대법원장 직책·행위 확인. 생몰·임명원부 미확보이므로 VERIFIED 아님.",
       "connections": [
         "pol-r181-kim-ik-jin",
         "pol-r179-lee-in"
       ],
       "evidenceDocumentIds": [
-        "doc183c-kimbyeongro-kimikjin-19490923"
+        "doc183c-kimbyeongro-kimikjin-19490923",
+        "doc183d-kimbyeongro-19490216",
+        "doc183d-kimbyeongro-19490607"
       ],
       "eventIds": [
-        "evt-r183c-16"
+        "evt-r183c-16",
+        "evt-r183d-01",
+        "evt-r183d-02"
       ],
       "openLeads": [
         "L183c-16",
@@ -233,14 +237,17 @@
       "historyDebt": [
         "HD-R183c-02"
       ],
-      "backbone": "NON_PRESIDENT_INDEPENDENT_CANDIDATE"
+      "backbone": "NON_PRESIDENT_INDEPENDENT_CANDIDATE",
+      "promotionDecision": "ANNALS_ACTIVE_AFTER_THREE_INDEPENDENT_CONTEMPORANEOUS_STATEMENTS_RUN183d",
+      "annalsFile": "data/annals/kim-byeong-ro.md"
     },
     {
       "id": "pol-r183c-jang-gyeong-geun",
       "name": "장경근",
       "aliases": [
         "張暻根",
-        "Jang Gyeong-geun (transliteration, unverified)"
+        "Jang Gyeong-geun (transliteration, unverified)",
+        "張璟根 (AKS 2012/2024 variant; conflicts with 張暻根 in 1949 Assembly transcript)"
       ],
       "lifespan": {
         "born": null,
@@ -266,7 +273,9 @@
         "pol-r141-ahn-ho-sang"
       ],
       "evidenceDocumentIds": [
-        "doc183c-jang-ahn-19491109"
+        "doc183c-jang-ahn-19491109",
+        "doc183d-aks-anticollab-2012",
+        "doc183d-nikh-anticollab-history"
       ],
       "eventIds": [
         "evt-r183c-04"
@@ -278,7 +287,8 @@
       "historyDebt": [
         "HD-R183c-01"
       ],
-      "backbone": "NON_PRESIDENT_INDEPENDENT_CANDIDATE"
+      "backbone": "NON_PRESIDENT_INDEPENDENT_CANDIDATE",
+      "aliasVerification": "CONFLICTED_HANJA: original 1949 assembly transcription 張暻根; AKS retrospective 張璟根; original appointment register needed"
     }
   ]
 }
