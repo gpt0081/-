@@ -28,9 +28,32 @@
         "doc184-assembly-19490606"
       ],
       "insufficientEvidence": [],
-      "analysis": "장경근 당사자 설명과 같은 원국회 기록의 김상덕·김명동 진술이 압수·위협·폭행 여부에서 충돌. 같은 문서의 상반 진술이므로 독립 provenance 두 계열 충돌이라고 과장하지 않는다.",
+      "analysis": "장경근 당사자 설명과 같은 원국회 기록의 김상덕·김명동 진술이 압수·위협·폭행 여부에서 충돌. 같은 문서의 상반 진술이므로 독립 provenance 두 계열 충돌이라고 과장하지 않는다. [Run184 기관그래프 보강] 동일 원속기록의 서로 다른 발언자·발언구간을 evidenceAssertions로 분리했으며 독립 문서로 중복 계수하지 않음.",
       "adversarialSearchCompleted": true,
-      "accessDate": "2026-10-27"
+      "accessDate": "2026-10-27",
+      "evidenceAssertions": [
+        {
+          "documentId": "doc184-assembly-19490606",
+          "speaker": "장경근(張暻根)",
+          "sourcePosition": "1949-06-06 제헌국회 제3회 제13차 속기록 내무차관 보고",
+          "relation": "supports_government_account",
+          "statement": "40명 동원·22명 무장해제, 일부 서류 오인 압수 후 반환, 폭행 없었다는 정부 설명"
+        },
+        {
+          "documentId": "doc184-assembly-19490606",
+          "speaker": "김상덕(金尙德)",
+          "sourcePosition": "동일 회의 오전 현장보고",
+          "relation": "contradicts_no_force_and_complete_return",
+          "statement": "경찰이 총을 겨누고 조사 서류를 가져갔다는 현장 증언"
+        },
+        {
+          "documentId": "doc184-assembly-19490606",
+          "speaker": "김명동(金明東)",
+          "sourcePosition": "동일 회의 오후 질의",
+          "relation": "contradicts_proper_receipt",
+          "statement": "물건을 가져가며 영수증을 발급하지 않았다는 주장"
+        }
+      ]
     },
     {
       "id": "claim184-03",
@@ -43,9 +66,32 @@
         "doc184-assembly-19490606"
       ],
       "insufficientEvidence": [],
-      "analysis": "김상덕 직접 목격 진술과 장경근 정부 설명 대립. 현장 압수물 목록·수색영장·감정기록 없음.",
+      "analysis": "김상덕 직접 목격 진술과 장경근 정부 설명 대립. 현장 압수물 목록·수색영장·감정기록 없음. [Run184 기관그래프 보강] 동일 원속기록의 서로 다른 발언자·발언구간을 evidenceAssertions로 분리했으며 독립 문서로 중복 계수하지 않음.",
       "adversarialSearchCompleted": true,
-      "accessDate": "2026-10-27"
+      "accessDate": "2026-10-27",
+      "evidenceAssertions": [
+        {
+          "documentId": "doc184-assembly-19490606",
+          "speaker": "장경근(張暻根)",
+          "sourcePosition": "1949-06-06 제헌국회 제3회 제13차 속기록 내무차관 보고",
+          "relation": "supports_government_account",
+          "statement": "40명 동원·22명 무장해제, 일부 서류 오인 압수 후 반환, 폭행 없었다는 정부 설명"
+        },
+        {
+          "documentId": "doc184-assembly-19490606",
+          "speaker": "김상덕(金尙德)",
+          "sourcePosition": "동일 회의 오전 현장보고",
+          "relation": "contradicts_no_force_and_complete_return",
+          "statement": "경찰이 총을 겨누고 조사 서류를 가져갔다는 현장 증언"
+        },
+        {
+          "documentId": "doc184-assembly-19490606",
+          "speaker": "김명동(金明東)",
+          "sourcePosition": "동일 회의 오후 질의",
+          "relation": "contradicts_proper_receipt",
+          "statement": "물건을 가져가며 영수증을 발급하지 않았다는 주장"
+        }
+      ]
     },
     {
       "id": "claim184-04",
