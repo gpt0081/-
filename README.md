@@ -94,3 +94,7 @@ Floot는 조사 저장소가 아니라 충분히 축적된 데이터를 보여�
 ## Run163 evidence increment (2026-10-26)
 
 1950-09-14 군 미결수 검찰이관·고문금지 하달의 **당대 발표**와 1950-09-25 부산형무소 희생 **후대 조사**를 분리했고, 1960-01-01 공무원연금법 제533호·특별회계법 제534호 공포와 1/5 국무위원 연명 선언을 연결했다. 김해 한림면장 최대성 등 비대통령 인물 후보는 독립 노드로 보존한다. 원명령·원관보·집행기록은 OPEN. See `data/research/runs/2026-10-26-run163-report.md`. Floot unchanged.
+
+### 164회 (2026-10-26): 1950년 9월 전시 국정·비대통령 정치인 확장
+
+[실록](data/annals/rhee-syngman-run164.md) · [문서 60건 신규](data/documents/run164-1950-september-governance.json) · [14명 후보](data/politicians/run164-1950-september-candidates.json) · [15개 사건](data/events/run164-1950-september-actions.json) · [12개 반증검토](data/claims/run164-1950-september-adversarial.json) · [다음 52개 원문 표적](data/research/lead-queues/run164-next.json). **대통령은 시간순 backbone이며 대한민국 역대 주요 정치인 전체가 최종 코퍼스**다. 1950년 9/8 국무회의 피난민법 개정 결정과 9/25 법률 제146호 공포를 분리한다. Floot 미변경.
