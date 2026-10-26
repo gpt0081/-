@@ -194,3 +194,11 @@ See `data/politicians/run113-prewar-network.json` for 12 sourced profiles. No ca
 - `pol-lee-beom-seok`: 1952 내무장관 임명 편집주석, 06-03 의원 구금 제안 전언, 08-05 부통령 후보 공식 선거사로 `IDENTIFIED` 승격. `data/annals/lee-beom-seok.md`, `data/evidence/lee-beom-seok.json`. 중복 의심 `pol-lee-beom-seok-1900`은 참조 감사 전 병합 금지.
 - 사건 18개 신규 + 기존 `evt-r141-local-2035`(1952-05-10 지방선거), `evt-r162-20`(1952-08-05 대통령선거) 2개 보강. `data/events/run171-1952-decision-actions.json`.
 - 원문·출처 충돌: `data/documents/run171-1952-constitutional-election-and-frus.json`, `data/claims/run171-1952-adversarial-source-criticism.json`, `data/research/corrections/run171-1952-chronology-provenance.md`.
+
+
+## 2026-10-27 · Run180 FRUS·국회 1949 인물 11명
+
+- 기본 등록부: 김구 `pol-r180-kim-gu` IDENTIFIED_CANDIDATE, 차경모 `pol-r180-cha-gyeong-mo` DISCOVERED. 차경모 관련 1949-10-28 발언은 대통령의 주장이지 유죄 확정이 아님.
+- 조병옥 `pol-cho-byeong-ok` DISCOVERED→IDENTIFIED: 1949-07-11 조병옥·장면의 미국 국무장관 회동 및 07-13 무초 후속서한. 기존 별도 후보 `pol-cho-pyeong-ok`과 참조 전수감사 전 자동병합 금지.
+- 이범석·임병직·손원일·장면·이호·신익희·정준 및 대통령 이승만의 사건 연결 보강. `data/politicians/run180-1949-actor-audit.json`.
+- 독립 실록: `data/annals/cho-byeong-ok-run180.md`, `sohn-won-yil-run180.md`, `kim-gu-run180.md`, `lee-beom-seok-run180.md` 및 대응 evidence. 중복 의심 ID는 보존.

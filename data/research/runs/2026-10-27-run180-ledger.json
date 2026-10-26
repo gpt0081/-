@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "run": 180,
+  "date": "2026-10-27",
+  "baseBranch": "research/run179-20261027-government-org-original-votes",
+  "branch": "research/run180-20261027-1949-frus-legislature-evidence-crosscheck",
+  "baseCommit": "2c81172dd0253afea0217a34a8f38063aa44166e",
+  "researchPrimaryTheme": "1949 FRUS + Korean National Assembly primary crosscheck",
+  "independentResearchLines": 18,
+  "domainsSubstantiallyCovered": 10,
+  "nonPresidentProfilesReviewed": 10,
+  "newPoliticianCandidates": 2,
+  "promotions": [
+    {
+      "id": "pol-cho-byeong-ok",
+      "from": "DISCOVERED",
+      "to": "IDENTIFIED",
+      "basis": [
+        "doc180-frus-268",
+        "doc180-frus-269"
+      ]
+    }
+  ],
+  "eventsAdded": 24,
+  "documentsReadSubstantive": 44,
+  "officialOrContemporaneousDocumentsRead": 44,
+  "originalFacsimileViewed": 0,
+  "frusDocuments": 42,
+  "sourceFamilies": [
+    "US State Department FRUS original correspondence and republished Korean/UN documents",
+    "Korean National Assembly stenographic record transcription",
+    "Korean contemporary newspaper transcription"
+  ],
+  "adversarialSubjectsExamined": 12,
+  "completeIndependentThreeFamilyCrossChecks": 0,
+  "partialTwoFamilyCrossChecks": 3,
+  "oldDebtTracked": [
+    "HD-R95-005",
+    "HD-R95-007",
+    "HD-R170-LAND-01",
+    "HD-RHEE-002"
+  ],
+  "oldDebtStatusChanged": [
+    "HD-R95-005 OPEN→NARROWED"
+  ],
+  "newDebtItems": 12,
+  "newLeadCount": 52,
+  "weeklyFullDebtReviewPerformed": false,
+  "executionDurationMinutes": null,
+  "executionDurationNotClaimed": true,
+  "limitations": [
+    "No original facsimile examined",
+    "Three-family independent corroboration absent",
+    "No Korean original ministerial meeting notes for reported China base talks",
+    "Two of 20 target research lines unmet",
+    "Only four pre-existing debts traced, below target eight",
+    "Several politician links remain allegations or secondhand observations"
+  ],
+  "commits": [
+    "0b59d03dcddbeaa978e873377c7c6542f160df62"
+  ],
+  "finalIntegrationState": "TO_BE_VALIDATED",
+  "modifiedFiles": [
+    "data/documents/run180-1949-frus-korean-assembly.json",
+    "data/events/run180-1949-decision-chains.json",
+    "data/claims/run180-1949-adversarial.json",
+    "data/politicians/run180-1949-actor-audit.json",
+    "data/research/lead-queues/run180-next.json",
+    "data/annals/1949-frus-national-assembly-run180.md",
+    "data/politicians.json",
+    "data/events.json",
+    "data/research/HISTORY_DEBT.md",
+    "data/research/rhee-syngman-coverage.json",
+    "data/politicians/INDEX.md",
+    "data/annals/cho-byeong-ok-run180.md",
+    "data/annals/sohn-won-yil-run180.md",
+    "data/annals/kim-gu-run180.md",
+    "data/annals/lee-beom-seok-run180.md",
+    "data/annals/rhee-syngman-run180.md",
+    "data/evidence/cho-byeong-ok-run180.json",
+    "data/evidence/sohn-won-yil-run180.json",
+    "data/evidence/kim-gu-run180.json",
+    "data/evidence/rhee-syngman-run180.json",
+    "data/research/runs/2026-10-27-run180-report.md",
+    "data/research/runs/2026-10-27-run180-ledger.json"
+  ]
+}

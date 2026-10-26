@@ -54,6 +54,24 @@
           "eventIds": [
             "evt-r178c-05"
           ]
+        },
+        {
+          "period": "1949",
+          "title": "대한민국 대통령",
+          "actionType": "SOURCE_ATTRIBUTED_1949_ACTION",
+          "action": "1949 군사원조 직접 서한, 국회 직접 발언, 북진 발언 해명, 공군지원 공식요청",
+          "evidenceDocumentIds": [
+            "doc180-frus-278",
+            "doc180-assembly-19491028",
+            "doc180-frus-291",
+            "doc180-frus-300"
+          ],
+          "eventIds": [
+            "evt-r180-08",
+            "evt-r180-14",
+            "evt-r180-15",
+            "evt-r180-17"
+          ]
         }
       ],
       "researchStatus": "active-deep",
@@ -147,7 +165,11 @@
         "doc174-nih-028-1953-02-27-0040",
         "doc174-nih-028-1953-02-27-0060",
         "doc178b-19480715-govorg-second",
-        "doc178c-pmc-who-history"
+        "doc178c-pmc-who-history",
+        "doc180-frus-278",
+        "doc180-assembly-19491028",
+        "doc180-frus-291",
+        "doc180-frus-300"
       ],
       "researchNotes": [
         {
@@ -291,12 +313,20 @@
         "evt-r174-11",
         "evt-r174-17",
         "evt-r178b-04",
-        "evt-r178c-05"
+        "evt-r178c-05",
+        "evt-r180-08",
+        "evt-r180-14",
+        "evt-r180-15",
+        "evt-r180-17"
       ],
       "openLeads": [
         "L173-05",
         "L173-06",
-        "L173-08"
+        "L173-08",
+        "L180-P-pol-rhee-syngman"
+      ],
+      "historyDebt": [
+        "HD-R180-01"
       ]
     },
     {
@@ -1008,11 +1038,28 @@
       "name": "이범석",
       "aliases": [
         "李範奭",
-        "Lee Beom-seok"
+        "Lee Beom-seok",
+        "Lee Bum-suk"
       ],
       "roles": [
         "초대 국무총리",
-        "국방부 장관"
+        "국방부 장관",
+        {
+          "period": "1949",
+          "title": "국무총리",
+          "actionType": "SOURCE_ATTRIBUTED_1949_ACTION",
+          "action": "국무총리 1949 대미 원조환산율 답신, 한중 협상 전언 및 미국 법안 반응",
+          "evidenceDocumentIds": [
+            "doc180-frus-281",
+            "doc180-frus-294",
+            "doc180-frus-267"
+          ],
+          "eventIds": [
+            "evt-r180-09",
+            "evt-r180-16",
+            "evt-r180-23"
+          ]
+        }
       ],
       "researchStatus": "IDENTIFIED",
       "backbone": false,
@@ -1037,7 +1084,10 @@
       "evidenceDocumentIds": [
         "doc171-frus-d138",
         "doc171-frus-d163",
-        "doc171-nec-pres-1952"
+        "doc171-nec-pres-1952",
+        "doc180-frus-281",
+        "doc180-frus-294",
+        "doc180-frus-267"
       ],
       "run171Addendum": {
         "researchStatusUnchanged": true,
@@ -1053,7 +1103,18 @@
       "annalsFile": "data/annals/lee-beom-seok.md",
       "evidenceFile": "data/evidence/lee-beom-seok.json",
       "promotionReason": "1952 내무장관 FRUS 편집기록·국무회의 장택상 전언·중앙선관위 부통령 후보 공식 해제에서 신원·시기별 행위 확인. 직접 원임명장·발언 미확보로 VERIFIED 아님.",
-      "duplicateCandidateId": "pol-lee-beom-seok-1900"
+      "duplicateCandidateId": "pol-lee-beom-seok-1900",
+      "eventIds": [
+        "evt-r180-09",
+        "evt-r180-16",
+        "evt-r180-23"
+      ],
+      "openLeads": [
+        "L180-P-pol-lee-beom-seok"
+      ],
+      "historyDebt": [
+        "HD-R180-01"
+      ]
     },
     {
       "id": "pol-lee-mun-won",
@@ -2172,7 +2233,8 @@
       "aliases": [
         "孫元一",
         "Sohn Won-il",
-        "Son Won Il"
+        "Son Won Il",
+        "Son Won-il"
       ],
       "roles": [
         "해군 총참모장",
@@ -2188,6 +2250,18 @@
             "doc173-frus-741"
           ],
           "attribution": "US contemporaneous meeting record; Korean counterpart original outstanding"
+        },
+        {
+          "period": "1949",
+          "title": "해군 수뇌부",
+          "actionType": "SOURCE_ATTRIBUTED_1949_ACTION",
+          "action": "해군 고위관료 진해회담 참여 전언, 당사자 원회의록 미확보",
+          "evidenceDocumentIds": [
+            "doc180-frus-281"
+          ],
+          "eventIds": [
+            "evt-r180-09"
+          ]
         }
       ],
       "researchStatus": "IDENTIFIED",
@@ -2364,18 +2438,24 @@
         "doc173-frus-734",
         "doc173-frus-737",
         "doc173-frus-739",
-        "doc173-frus-741"
+        "doc173-frus-741",
+        "doc180-frus-281"
       ],
       "eventIds": [
         "evt-r162-01",
         "evt-r165-10",
-        "evt-r166-07"
+        "evt-r166-07",
+        "evt-r180-09"
       ],
       "openLeads": [
         "L166-ID-pol-sohn-won-yil",
         "L173-05",
         "L173-06",
-        "L173-08"
+        "L173-08",
+        "L180-P-pol-sohn-won-yil"
+      ],
+      "historyDebt": [
+        "HD-R180-01"
       ]
     },
     {
@@ -2385,7 +2465,8 @@
         "林炳稷",
         "Ben C. Limb",
         "Ben Limb",
-        "Lim Byong-jik"
+        "Lim Byong-jik",
+        "任炳稷"
       ],
       "roles": [
         "주유엔 대한민국 대표",
@@ -2409,6 +2490,20 @@
           ],
           "eventIds": [
             "evt-r179d-08"
+          ]
+        },
+        {
+          "period": "1949",
+          "title": "외무부장관",
+          "actionType": "SOURCE_ATTRIBUTED_1949_ACTION",
+          "action": "외무장관 군수목록 비공개 동의(미국보고), 진해회담 참여 전언",
+          "evidenceDocumentIds": [
+            "doc180-frus-264",
+            "doc180-frus-281"
+          ],
+          "eventIds": [
+            "evt-r180-02",
+            "evt-r180-09"
           ]
         }
       ],
@@ -2574,7 +2669,9 @@
         "doc166-1011-0040",
         "doc169-frus-839",
         "doc173-frus-739",
-        "doc179d-0070"
+        "doc179d-0070",
+        "doc180-frus-264",
+        "doc180-frus-281"
       ],
       "researchUpdates": [
         {
@@ -2598,7 +2695,8 @@
         "L173-05",
         "L173-06",
         "L173-08",
-        "L179d-P-lim-byong-jik"
+        "L179d-P-lim-byong-jik",
+        "L180-P-pol-lim-byong-jik"
       ],
       "eventIds": [
         "evt-r150-19550910-daegu-visit",
@@ -2606,7 +2704,9 @@
         "evt-r166b-01",
         "evt-r166b-02",
         "evt-r169-11",
-        "evt-r179d-08"
+        "evt-r179d-08",
+        "evt-r180-02",
+        "evt-r180-09"
       ],
       "periodRoles": [
         {
@@ -2625,7 +2725,8 @@
       ],
       "run169Overlay": "data/politicians/run169-parliament-cabinet-actors.json",
       "historyDebt": [
-        "HD-R179d-01"
+        "HD-R179d-01",
+        "HD-R180-01"
       ]
     },
     {
@@ -3467,7 +3568,8 @@
       "aliases": [
         "趙炳玉",
         "Cho Byeong-ok",
-        "Jo Byeong-ok"
+        "Jo Byeong-ok",
+        "Cho Pyung-ok"
       ],
       "lifespan": {
         "born": null,
@@ -3489,9 +3591,22 @@
             "doc158b-frus-285"
           ],
           "caution": "FRUS participant statement or editorial note; original Korean record pending"
+        },
+        {
+          "period": "1949",
+          "title": "대통령 특사",
+          "actionType": "SOURCE_ATTRIBUTED_1949_ACTION",
+          "action": "1949 대통령 특사로 미국 국무장관과 군사원조 협의, 병력수치 충돌",
+          "evidenceDocumentIds": [
+            "doc180-frus-268",
+            "doc180-frus-269"
+          ],
+          "eventIds": [
+            "evt-r180-04"
+          ]
         }
       ],
-      "researchStatus": "DISCOVERED",
+      "researchStatus": "IDENTIFIED",
       "promotionReason": "동시대 기사에서 정당 추천 행위 확인; 원당무회의록과 인물등록 검증 전 DISCOVERED 유지.",
       "connections": [
         "evt-1950-0421-acting-pm-parliament-dispute",
@@ -3516,12 +3631,15 @@
         "doc166-frus669",
         "doc166-1019-0050",
         "doc167-frus-747",
-        "doc171-nec-pres-1952"
+        "doc171-nec-pres-1952",
+        "doc180-frus-268",
+        "doc180-frus-269"
       ],
       "openLeads": [
         "L114-12",
         "L166-ID-pol-cho-byeong-ok",
-        "L167-actor-pol-cho-byeong-ok"
+        "L167-actor-pol-cho-byeong-ok",
+        "L180-P-pol-cho-byeong-ok"
       ],
       "backbone": false,
       "researchNotes": [
@@ -3621,7 +3739,8 @@
         "evt-r165-15",
         "evt-r166-01",
         "evt-r166d-01",
-        "evt-r167-11"
+        "evt-r167-11",
+        "evt-r180-04"
       ],
       "run171Addendum": {
         "researchStatusUnchanged": true,
@@ -3631,7 +3750,22 @@
         "sourceOverlay": "data/politicians/run171-1952-constitutional-election-actors.json",
         "attributionCaution": "Evidence of participation or candidate registration is not proof of alleged motive or execution.",
         "openLead": "1952 후보자 등록원서·정당 원부 검증 필요"
-      }
+      },
+      "historyDebt": [
+        "HD-R180-01"
+      ],
+      "researchStatusHistory": [
+        {
+          "date": "2026-10-27",
+          "from": "DISCOVERED",
+          "to": "IDENTIFIED",
+          "reason": "1949-07-11 조병옥 대통령특사·장면 동행 미국무장관 면담록 원문 및 7-13 무초 서한에서 동일 인물 교차확인. 1949-05 별도 후보 pol-cho-pyeong-ok 자동병합 보류",
+          "documentIds": [
+            "doc180-frus-268",
+            "doc180-frus-269"
+          ]
+        }
+      ]
     },
     {
       "id": "pol-lee-sang-gyu-legal-adviser",
@@ -4208,6 +4342,18 @@
           "eventIds": [
             "evt-r178c-05"
           ]
+        },
+        {
+          "period": "1949",
+          "title": "국회의장",
+          "actionType": "SOURCE_ATTRIBUTED_1949_ACTION",
+          "action": "1949 국회의장, 이승만 대통령의 공개 국회설명 상대·수신자",
+          "evidenceDocumentIds": [
+            "doc180-assembly-19491028"
+          ],
+          "eventIds": [
+            "evt-r180-14"
+          ]
         }
       ],
       "rolePeriods": [
@@ -4262,12 +4408,14 @@
         "doc174-pa-labor",
         "doc174-pa-mobilization",
         "doc178-assembly-health-19490219",
-        "doc178c-pmc-who-history"
+        "doc178c-pmc-who-history",
+        "doc180-assembly-19491028"
       ],
       "evidenceFile": "data/evidence/shin-ik-hui-run176.json",
       "openLeadsFile": "data/research/lead-queues/run141-next.json",
       "historyDebt": [
-        "HD-R141-IDENTITY"
+        "HD-R141-IDENTITY",
+        "HD-R180-01"
       ],
       "attributionCaveat": "서명/이송은 법안 발의·표결·집행의 직접 증거가 아님",
       "eventIds": [
@@ -4283,7 +4431,8 @@
         "evt-r174-16",
         "evt-r174-17",
         "evt-r178-02",
-        "evt-r178c-05"
+        "evt-r178c-05",
+        "evt-r180-14"
       ],
       "researchNotes": [
         {
@@ -4345,7 +4494,8 @@
       "openLeads": [
         "L166-ID-pol-r141-shin-ik-hui",
         "L167-actor-pol-r141-shin-ik-hui",
-        "L168-P-pol-r141-shin-ik-hui"
+        "L168-P-pol-r141-shin-ik-hui",
+        "L180-P-pol-r141-shin-ik-hui"
       ],
       "researchStatusHistory": [
         {
@@ -6290,7 +6440,8 @@
       "name": "이호",
       "aliases": [
         "李澔",
-        "Yi Ho"
+        "Yi Ho",
+        "Lee Ho"
       ],
       "lifespan": {
         "born": null,
@@ -6325,6 +6476,20 @@
           "eventIds": [
             "evt-r179d-10"
           ]
+        },
+        {
+          "period": "1949",
+          "title": "치안국장",
+          "actionType": "SOURCE_ATTRIBUTED_1949_ACTION",
+          "action": "1949 치안국장 기자체포 관련 경찰 주장 전달자; 자백 진실성 미검증",
+          "evidenceDocumentIds": [
+            "doc180-frus-272",
+            "doc180-frus-275"
+          ],
+          "eventIds": [
+            "evt-r180-05",
+            "evt-r180-06"
+          ]
         }
       ],
       "affiliations": [],
@@ -6332,23 +6497,29 @@
         "evt-r149-cabinet-signature-comparison",
         "evt-r158-04",
         "evt-r158-05",
-        "evt-r179d-10"
+        "evt-r179d-10",
+        "evt-r180-05",
+        "evt-r180-06"
       ],
       "researchStatus": "IDENTIFIED",
       "evidenceDocumentIds": [
         "d149-law-384",
         "doc158-gazette-469",
         "doc158-gazette-470",
-        "doc179d-0090"
+        "doc179d-0090",
+        "doc180-frus-272",
+        "doc180-frus-275"
       ],
       "openLeads": [
         "L149-cabinet-appointments",
-        "L179d-P-r149-cabinet-03"
+        "L179d-P-r149-cabinet-03",
+        "L180-P-pol-r149-cabinet-03"
       ],
       "historyDebtIds": [],
       "note": "관보 서명란으로 재임 직책만 확인; 생몰·임명일·정당 미검증, 영문은 검색용 표기",
       "historyDebt": [
-        "HD-R179d-01"
+        "HD-R179d-01",
+        "HD-R180-01"
       ]
     },
     {
@@ -7279,7 +7450,8 @@
         "張勉",
         "Chang Myon",
         "운석",
-        "雲石"
+        "雲石",
+        "John M. Chang"
       ],
       "lifespan": {
         "born": "1899-08-28",
@@ -7334,6 +7506,18 @@
           "evidenceDocumentIds": [
             "doc160-frus-210"
           ]
+        },
+        {
+          "period": "1949",
+          "title": "주미대사",
+          "actionType": "SOURCE_ATTRIBUTED_1949_ACTION",
+          "action": "1949 주미대사 자격으로 조병옥과 미 국무장관 회동",
+          "evidenceDocumentIds": [
+            "doc180-frus-268"
+          ],
+          "eventIds": [
+            "evt-r180-04"
+          ]
         }
       ],
       "affiliations": [
@@ -7357,7 +7541,8 @@
         "evt-r160-25",
         "evt-r162-16",
         "evt-r163-10",
-        "evt-r163-30"
+        "evt-r163-30",
+        "evt-r180-04"
       ],
       "connections": [
         "evt-r149-1955-democratic",
@@ -7389,14 +7574,16 @@
         "doc163-15",
         "doc163-44",
         "doc167-frus-746",
-        "doc171-na-09"
+        "doc171-na-09",
+        "doc180-frus-268"
       ],
       "researchStatus": "VERIFIED",
       "promotionReason": "국가기록원 정당지도부·AKS 인물해제·1956 후보지명 사진목록",
       "openLeads": [
         "L150-53",
         "L156-22",
-        "L167-actor-pol-chang-myon"
+        "L167-actor-pol-chang-myon",
+        "L180-P-pol-chang-myon"
       ],
       "historyDebtIds": [
         "HD-R150-21"
@@ -7456,7 +7643,10 @@
         "sourceOverlay": "data/politicians/run171-1952-constitutional-election-actors.json",
         "attributionCaution": "Evidence of participation or candidate registration is not proof of alleged motive or execution.",
         "openLead": "당시 대통령 해임문서·국회 인준표결 원속기록 필요"
-      }
+      },
+      "historyDebt": [
+        "HD-R180-01"
+      ]
     },
     {
       "id": "pol-baek-nam-hun",
@@ -14607,21 +14797,37 @@
             "evt-r178-10"
           ],
           "attribution": "Primary parliamentary transcription; full biographical identity and constituency not verified"
+        },
+        {
+          "period": "1949",
+          "title": "국회의원(대통령 언급, 신원 재확인 필요)",
+          "actionType": "SOURCE_ATTRIBUTED_1949_ACTION",
+          "action": "구금 의원 석방 요청 동의 제안자라는 대통령 발언 확인, 실제 발의·표결 원속기록 미검증",
+          "evidenceDocumentIds": [
+            "doc180-assembly-19491028"
+          ],
+          "eventIds": [
+            "evt-r180-14"
+          ]
         }
       ],
       "researchStatus": "IDENTIFIED_CANDIDATE",
       "researchStatusReason": "1949-02-19 제헌국회 원속기록 전사에서 직책·개인행위 확인; 생몰·선거구·동명이인·후속 활동 미검증",
       "evidenceDocumentIds": [
-        "doc178-assembly-health-19490219"
+        "doc178-assembly-health-19490219",
+        "doc180-assembly-19491028"
       ],
       "eventIds": [
-        "evt-r178-10"
+        "evt-r178-10",
+        "evt-r180-14"
       ],
       "openLeads": [
-        "L178-P-jeong-jun"
+        "L178-P-jeong-jun",
+        "L180-P-pol-r178-jeong-jun"
       ],
       "historyDebt": [
-        "HD-R178-02"
+        "HD-R178-02",
+        "HD-R180-01"
       ],
       "accessDate": "2026-10-27"
     },
@@ -16059,6 +16265,116 @@
       "accessDate": "2026-10-27",
       "annalsFile": "data/annals/lee-nyeong-jin-run179d.md",
       "evidenceFile": "data/evidence/lee-nyeong-jin-run179d.json"
+    },
+    {
+      "id": "pol-r180-kim-gu",
+      "name": "김구",
+      "aliases": [
+        "Kim Koo",
+        "金九",
+        "Kim Ku"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": "1949-06-26",
+        "verification": "DEATH_DATE_CONTEMPORANEOUS_FOREIGN_REPORT"
+      },
+      "roles": [
+        {
+          "period": "1949",
+          "title": "한국독립당 지도자",
+          "actionType": "SOURCE_ATTRIBUTED_1949_ACTION",
+          "action": "1949-06-26 피살된 한국독립당 지도자, 미국 외교문서에 당대 사건·국장계획 기록",
+          "evidenceDocumentIds": [
+            "doc180-frus-265"
+          ],
+          "eventIds": [
+            "evt-r180-03"
+          ]
+        }
+      ],
+      "researchStatus": "IDENTIFIED_CANDIDATE",
+      "backbone": false,
+      "evidenceFile": "data/evidence/kim-gu-run180.json",
+      "annalsFile": "data/annals/kim-gu-run180.md",
+      "connections": [],
+      "evidenceDocumentIds": [
+        "doc180-frus-265"
+      ],
+      "eventIds": [
+        "evt-r180-03"
+      ],
+      "openLeads": [
+        "L180-P-pol-r180-kim-gu"
+      ],
+      "historyDebt": [
+        "HD-R180-01"
+      ],
+      "researchStatusHistory": [
+        {
+          "date": "2026-10-27",
+          "from": "UNREGISTERED",
+          "to": "IDENTIFIED_CANDIDATE",
+          "reason": "1949-06-26 피살과 한국독립당 지도자 역할을 6월27일 미국 외교전문에서 확인, 생몰·직책 원명부 미검증",
+          "documentIds": [
+            "doc180-frus-265"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pol-r180-cha-gyeong-mo",
+      "name": "차경모",
+      "aliases": [
+        "車庚模",
+        "Cha Gyeong-mo"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "UNVERIFIED"
+      },
+      "roles": [
+        {
+          "period": "1949-10-28",
+          "title": "국회의원으로 이승만이 국회에서 지칭",
+          "actionType": "PRESIDENT_ALLEGATION_NOT_INDEPENDENT_FACT",
+          "action": "이승만이 보석·국회출석을 주장한 대상자. 혐의·보석·출석·판결은 별도 원기록 미검증",
+          "evidenceDocumentIds": [
+            "doc180-assembly-19491028"
+          ],
+          "eventIds": [
+            "evt-r180-14"
+          ]
+        }
+      ],
+      "researchStatus": "DISCOVERED",
+      "backbone": false,
+      "evidenceFile": "data/politicians/run180-1949-actor-audit.json",
+      "connections": [],
+      "evidenceDocumentIds": [
+        "doc180-assembly-19491028"
+      ],
+      "eventIds": [
+        "evt-r180-14"
+      ],
+      "openLeads": [
+        "L180-33"
+      ],
+      "historyDebt": [
+        "HD-R180-06"
+      ],
+      "researchStatusHistory": [
+        {
+          "date": "2026-10-27",
+          "from": "UNREGISTERED",
+          "to": "DISCOVERED",
+          "reason": "1949-10-28 국회속기록에 대통령의 실명 발언. 혐의 사실 인정 금지",
+          "documentIds": [
+            "doc180-assembly-19491028"
+          ]
+        }
+      ]
     }
   ]
 }
