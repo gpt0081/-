@@ -210,3 +210,8 @@ See `data/politicians/run113-prewar-network.json` for 12 sourced profiles. No ca
 - 사회당 교섭자 김장열(`pol-r180b-kim-jang-yeol-socialist`)과 계엄법 수정안 국회의원 김장열(`pol-kim-jang-yeol-1949`)은 동일인 미확인, 자동병합 금지.
 - 반민특위: 김효석·이인·신익희·이범석·권승렬. 재정금융위: 김도연·장희창·홍성하·백두진. 한독당·사회당: 최명식·조경한·나재하·신창균·백홍균·양우조. 계엄법: 윤치영·신현모·정광호·김장열·나용균·박찬현.
 - 독립 annals/evidence: 김효석·김훈·안호상·한통숙·최명식·김장열. 36개 동시대 전사에서 기사상 주장과 실제 행정 집행을 분리.
+
+
+## Run181 (2026-10-27) · 1949년 11~12월 평시 국정·비대통령 정치인
+
+`data/politicians/run181-1949-domestic-actor-network.json`에 13명 역할/행위 근거 연결. 기존 ID 재사용, 김태선 `pol-kim-tae-seon` Run118 overlay ID 유지·기본 registry 연결. 신규 백기호·이철원·도석균·박준섭은 생몰·임명원부 미확보 IDENTIFIED_CANDIDATE. `data/annals/*-run181.md` 및 `data/evidence/*-run181.json` 독립 실록·증거. 신규 사건은 `data/events/run181-1949-domestic-actions.json`, 문서·주장·후속단서는 동명 run181 파일. 신원 미검증 승격 금지.
