@@ -1,465 +1,213 @@
 {
-  "run": 161,
-  "date": "2026-10-26",
-  "leads": [
+  "politicianId": "president-rhee-syngman",
+  "updatedAt": "2026-10-26",
+  "rule": "새 회차는 기존 완료 자료를 재검색하지 않고 unresolved를 먼저 해결한다.",
+  "queue": [
     {
-      "id": "L161-01",
-      "institution": "국가기록원",
-      "target": "1962-03-16 법률1032 정치활동정화법 원관보",
-      "why": "대상·예외·정치권 제한",
-      "status": "OPEN",
-      "priority": "HIGH"
+      "id": "lead-1925-date",
+      "question": "1925년 임시대통령 탄핵·심판서의 정확한 의결·작성·공표 일자와 절차를 원문별로 재구성할 것.",
+      "priority": "high"
     },
     {
-      "id": "L161-02",
-      "institution": "국가기록원",
-      "target": "DA0000731 정치활동정화법 공포 23면",
-      "why": "결재·서명",
-      "status": "OPEN",
-      "priority": "HIGH"
+      "id": "lead-jeju-command",
+      "question": "제주4·3 시기 대통령·국방부·경찰 지휘선과 개별 작전·민간인 희생 사이의 명령·보고 관계를 공식 진상보고서와 대통령기록으로 분해할 것.",
+      "priority": "high",
+      "status": "substantially_narrowed",
+      "evidenceSoFar": [
+        "대통령령으로 제주도지구 계엄 선포.",
+        "정부 진상조사보고서가 1949년 1월 국무회의의 이승만 강경 탄압 취지 발언을 확인했다고 정리.",
+        "보고서는 현장 연대장 1차 책임과 대통령 최종 책임을 구분해 제시."
+      ],
+      "next": "개별 초토화작전·민간인 희생에 관한 작전명령 및 경무대/국방부 보고 원문 추적."
     },
     {
-      "id": "L161-03",
-      "institution": "민주화운동기념사업회",
-      "target": "1962-05 정치활동 적격자1336명 명단",
-      "why": "김종필 진술 대조",
-      "status": "OPEN",
-      "priority": "HIGH"
+      "id": "lead-bodo-league",
+      "question": "국민보도연맹 가입·관리 및 한국전쟁 초기 희생 사건에서 대통령의 직접 지시·보고·인지 여부를 진실화해위·군경 문서 중심으로 확인할 것.",
+      "priority": "high",
+      "status": "substantially_narrowed",
+      "evidenceSoFar": [
+        "진실화해위원회가 경찰·CIC 등 국가기관의 조직적 예비검속·집단희생을 확인.",
+        "위원회가 국가책임 및 당시 행정부 수반·군통수권자로서 이승만의 책임을 적시.",
+        "위원회 스스로 구체적 사살명령의 발신자·시점·단위는 밝히지 못했다고 명시."
+      ],
+      "next": "군·경 정보기관 원문에서 최초 예비검속/사살명령 발신자와 명령단위를 추적."
     },
     {
-      "id": "L161-04",
-      "institution": "국가기록원",
-      "target": "1962-06-09 법률1088 긴급통화조치법 원관보",
-      "why": "법적 근거",
-      "status": "OPEN",
-      "priority": "HIGH"
+      "id": "lead-han-bridge-command",
+      "question": "한강교 폭파의 직접 명령·승인·보고 계통과 정부·군의 대피 공지 시간순서를 1차 자료로 재구성할 것.",
+      "priority": "high",
+      "status": "substantially_narrowed",
+      "evidenceSoFar": [
+        "6/26 밤 정부 대전 이전 결정 회담기록 확보.",
+        "6/27 대통령·대부분 각료 서울 이탈 무초 전문 확보.",
+        "신성모가 무초에게 채병덕에 군사 전권을 위임했다고 설명한 기록 확보.",
+        "6/28 국군 공병대 교량 폭파 확인.",
+        "이승만의 후일 연설에서 폭파 군사목적 설명 확인.",
+        "최창식 대령에 대한 초기 책임귀속이 1962·1964 무죄로 뒤집힌 사실 확인."
+      ],
+      "next": "작전명령·군사재판·공병 지휘문서에서 실제 명령 발신자와 시각을 찾고, 당시 방송·공지로 시민 안내 시간선을 복원."
     },
     {
-      "id": "L161-05",
-      "institution": "한국은행",
-      "target": "1962-06-09 금융통화운영위원회 6종 발권 의결",
-      "why": "발권 결정자",
-      "status": "OPEN",
-      "priority": "HIGH"
+      "id": "lead-defense-corps-chain",
+      "question": "국민방위군 사건에서 대통령의 초기 인지 시점, 조사 지시 이후 후속 조치, 관련 정치자금 의혹을 판결·국회기록까지 연결할 것.",
+      "priority": "medium",
+      "status": "substantially_narrowed",
+      "evidenceSoFar": [
+        "1951-01-04 대통령의 직접 조사·처벌 지시 확보.",
+        "국회 조사와 7월 군법회의 사형선고 연결.",
+        "정치자금 제공 의혹에 대한 국회 공방 자료 연결."
+      ],
+      "next": "창설·운영부실·정치자금 유용을 대통령이 최초로 인지한 시점과 보고 문서 추적."
     },
     {
-      "id": "L161-06",
-      "institution": "한국은행",
-      "target": "1962-06-16 통화조치대책본부장 지시일지",
-      "why": "동결 집행자",
-      "status": "OPEN",
-      "priority": "HIGH"
+      "id": "lead-geochang-before-after",
+      "question": "거창사건 발생 전 작전명령과 사건 후 대통령 지시, 조사 방해 의혹, 군법회의 결과를 하나의 체인으로 정리할 것.",
+      "priority": "high",
+      "status": "substantially_narrowed",
+      "evidenceSoFar": [
+        "1951-04-30 대통령 결재 징계·감찰체계 강화 지시 확보.",
+        "군법회의에서 작전명령 제5호·현장지휘·조사방해 문제가 심리된 기록 연결.",
+        "연말 군법회의 판정 이유서 연결."
+      ],
+      "next": "사건 전 작전명령 제5호의 국방부·경무대 사전 보고·승인 여부 추적."
     },
     {
-      "id": "L161-07",
-      "institution": "국가기록원",
-      "target": "1962-07-13 봉쇄예금 특별조치법 원문",
-      "why": "해제 범위",
-      "status": "OPEN",
-      "priority": "HIGH"
+      "id": "lead-1952-arrests",
+      "question": "1952년 부산정치파동에서 계엄 선포, 국회의원 체포, 헌병·특무기관 활동, 개헌안 처리의 시간순서와 대통령 직접 지시를 국내·미국 자료로 교차검증할 것.",
+      "priority": "high",
+      "status": "substantially_narrowed",
+      "evidenceSoFar": [
+        "계엄 선포와 헌병의 야당계 국회의원 체포가 동시대 FRUS 자료로 확인됨.",
+        "이승만의 5/27, 5/28, 5/31 자료에서 치안·공산혐의 수사라는 공식 설명 확인.",
+        "이승만의 6/8 성명에서 직선제·양원제 개헌 요구 재확인.",
+        "미국 외교·정보기관은 계엄·체포를 국회 압박 및 대통령 선출방식 갈등과 연결해 평가."
+      ],
+      "next": "개별 의원 체포명령·헌병대 명령계통·경무대 내부문서 확보."
     },
     {
-      "id": "L161-08",
-      "institution": "국가기록원",
-      "target": "1962 5개년계획 BA0246469",
-      "why": "원계획 성장률",
-      "status": "OPEN",
-      "priority": "HIGH"
+      "id": "lead-cho-intervention",
+      "question": "진보당·조봉암 사건에서 수사 개시와 재판 과정에 대한 대통령의 직접 발언·지시·인사 개입 자료를 찾아 사법부 판단과 구분할 것.",
+      "priority": "high",
+      "status": "substantially_narrowed",
+      "evidenceSoFar": [
+        "정부의 진보당 등록취소 확인.",
+        "서울시경·특무부대·검찰 수사와 법원 공판기록 구조 확인.",
+        "미국 정부가 사형 가능성과 집행에 우려를 전달한 외교문서 확보.",
+        "1959년 사형집행과 2011년 재심 무죄 연결."
+      ],
+      "next": "대통령 개인의 수사·기소·형량·재판 직접 개입을 보여주는 1차 문서 탐색."
     },
     {
-      "id": "L161-09",
-      "institution": "국가기록원",
-      "target": "1962 경제시책 BA0084297",
-      "why": "재원 조달",
-      "status": "OPEN",
-      "priority": "HIGH"
+      "id": "lead-press-directive",
+      "question": "경향신문 폐간 결정에서 공보실·내각·대통령 사이의 의사결정 문서를 확인해 정부 조치와 대통령 직접 관여를 구분할 것.",
+      "priority": "medium",
+      "status": "narrowed",
+      "evidenceSoFar": [
+        "1959-04-30 공보실의 발행허가 취소와 정부 제시 사유 확인.",
+        "직후 미국측이 한국 정부에 폐간 우려를 표시한 외교기록 확인."
+      ],
+      "next": "공보실 결정의 경무대 보고·결재·지시 문서 확보."
     },
     {
-      "id": "L161-10",
-      "institution": "국가기록원",
-      "target": "1962 제8회 각의 BA0084468",
-      "why": "계획 수정",
-      "status": "OPEN",
-      "priority": "HIGH"
+      "id": "lead-315-knowledge",
+      "question": "3·15 부정선거에서 최인규·내무부·자유당 지도부의 기획은 확인되지만 이승만의 사전 인지·승인·구체 지시 범위를 5만여 쪽 수사·공판기록과 국무회의 자료에서 추적할 것.",
+      "priority": "highest",
+      "status": "narrowed",
+      "evidenceSoFar": [
+        "선거 전 주한미대사관이 경찰·행정부의 불공정 선거개입을 관찰해 보고함.",
+        "국가기록원 수사·공판 기록은 최인규 등 핵심 관료의 구체적인 부정선거 기획·집행을 수록함.",
+        "이승만은 1960-04-19 매카나기 대사에게 자신은 선거부정 혐의를 몰랐다고 주장함."
+      ],
+      "next": "선거 전 경무대 보고·국무회의·자유당 지도부 자료에서 대통령에게 전달된 정보의 시간선을 복원한다."
     },
     {
-      "id": "L161-11",
-      "institution": "국가기록원",
-      "target": "1962-09 헌법 의견종합보고 BA0085239",
-      "why": "부처별 의견",
-      "status": "OPEN",
-      "priority": "HIGH"
+      "id": "lead-419-fire-command",
+      "question": "4·19 경찰 발포의 구체적 지휘·명령 책임을 사건별 수사·판결 기록으로 분해하고 대통령의 보고·지시 시점을 대조할 것.",
+      "priority": "highest",
+      "status": "narrowed",
+      "evidenceSoFar": [
+        "이승만은 4월 19일 밤 강한 군중통제를 승인한 것은 옳았다는 취지로 말함.",
+        "같은 면담에서 학생들을 쏘고 싶지는 않다고 말함.",
+        "후대 사건기록은 홍진기·곽영주·유충렬·백남규 등의 구체적인 지휘·경비·발포 관계를 다룸."
+      ],
+      "next": "경무대·내무부·서울시경·경찰의 당일 명령/보고 문서에서 대통령 승인 범위와 발포명령 사이의 연결고리를 찾는다."
     },
     {
-      "id": "L161-12",
-      "institution": "국가기록원",
-      "target": "1962 제75회 각의 BG0000307",
-      "why": "헌법 기본권 논쟁",
-      "status": "OPEN",
-      "priority": "HIGH"
+      "id": "lead-1958-security-law-command",
+      "question": "1958-12-24 국회 경위 증원·경찰 차출·경호권 행사에서 한희석, 내무부, 자유당 지도부, 경무대 사이 사전 의사결정·명령선을 국회/내무부/국무회의 원문으로 복원할 것.",
+      "priority": "highest"
     },
     {
-      "id": "L161-13",
-      "institution": "국회기록원",
-      "target": "1962 헌법개정심의록 제1집 66~67쪽",
-      "why": "고문금지 발언",
-      "status": "OPEN",
-      "priority": "HIGH"
+      "id": "lead-1953-pow-execution-chain",
+      "question": "1953-06-18 이승만의 반공포로 석방 직접 지시가 국방부·헌병·수용소별 실행자에게 전달된 문서/구두 명령의 시간선을 복원할 것.",
+      "priority": "highest"
     },
     {
-      "id": "L161-14",
-      "institution": "국회기록원",
-      "target": "1962-07-26 헌법전문위원 9인 소위원회 회의록",
-      "why": "위원별 행위",
-      "status": "OPEN",
-      "priority": "HIGH"
+      "id": "lead-1953-defense-treaty-diff",
+      "question": "1953-07 한국측 상호방위조약 초안과 10-01 서명문을 조문별 diff하여 이승만·변영태·미국 측 협상 수정 흔적을 구분할 것.",
+      "priority": "high"
     },
     {
-      "id": "L161-15",
-      "institution": "국회기록원",
-      "target": "1962-08-23~28 헌법공청회 10회 회의록",
-      "why": "반대의견",
-      "status": "OPEN",
-      "priority": "HIGH"
+      "id": "lead-1958-aid-management",
+      "question": "외자관리법과 산업개발위원회 설치의 BA0085180 국무회의 원문에서 제안자·토론·수정·의결·대통령 재가선을 추출할 것.",
+      "priority": "high"
     },
     {
-      "id": "L161-16",
-      "institution": "국회기록원",
-      "target": "1962-10-12~23 헌법심의 요강안 원회의록",
-      "why": "최종 결정자",
-      "status": "OPEN",
-      "priority": "HIGH"
+      "id": "lead-1960-economic-plan-cabinet",
+      "question": "BA0085193 제37회 국무회의 경제개발3개년계획안 심의 원문에서 1960-04-15 채택의 참석자·발언·의결·결재선을 추출할 것.",
+      "priority": "high"
     },
     {
-      "id": "L161-17",
-      "institution": "국회기록원",
-      "target": "1962-11-05 박정희 외22인 헌법제안 서명원면",
-      "why": "23명 실명",
-      "status": "OPEN",
-      "priority": "HIGH"
+      "id": "lead-1955-nnsc-government-response",
+      "question": "1955-08~09 NNSC 관련 대통령 발언·서한과 실제 학생 참여 및 차량 사용에 관한 행정문서를 연결할 것",
+      "priority": "highest",
+      "status": "NARROWED",
+      "evidenceSoFar": [
+        "대통령기록관 1955-08-20 담화",
+        "FRUS d77·d84·d86"
+      ],
+      "next": "L150-32·35·39"
     },
     {
-      "id": "L161-18",
-      "institution": "국가기록원",
-      "target": "1962-11-05 관보 제3287호",
-      "why": "개헌안 원문",
+      "id": "lead-1955-fx-and-aid-budget",
+      "question": "1955-08 환율500환 합의·10월 한미 경제회의의 예산적자·식량부족·PL480 요구를 한국 정부 원예산·농업통계·원조협정과 대조",
+      "priority": "highest",
       "status": "OPEN",
-      "priority": "HIGH"
-    },
-    {
-      "id": "L161-19",
-      "institution": "국가기록원",
-      "target": "1962-12-06 관보 제3314호",
-      "why": "국민투표 부의",
-      "status": "OPEN",
-      "priority": "HIGH"
-    },
-    {
-      "id": "L161-20",
-      "institution": "중앙선관위",
-      "target": "1962-12-17 제1회 국민투표 원개표 집계",
-      "why": "기관 수치 충돌",
-      "status": "OPEN",
-      "priority": "HIGH"
-    },
-    {
-      "id": "L161-21",
-      "institution": "국회기록원",
-      "target": "1962-12-22 최고회의 제28차 회의록",
-      "why": "가결선포",
-      "status": "OPEN",
-      "priority": "HIGH"
-    },
-    {
-      "id": "L161-22",
-      "institution": "국가기록원",
-      "target": "1962-12-26 제105회 각의 BG0000324 6-2",
-      "why": "공포안",
-      "status": "OPEN",
-      "priority": "HIGH"
-    },
-    {
-      "id": "L161-23",
-      "institution": "국가기록원",
-      "target": "1962-12-26 관보 제3330호 BA0189090",
-      "why": "헌법 제6호",
-      "status": "OPEN",
-      "priority": "HIGH"
-    },
-    {
-      "id": "L161-24",
-      "institution": "국사편찬위",
-      "target": "조시형 im_109_30531 의원총람 원전",
-      "why": "생몰·공직",
-      "status": "OPEN",
-      "priority": "HIGH"
-    },
-    {
-      "id": "L161-25",
-      "institution": "국가기록원",
-      "target": "1962-07-11 헌법심의위원 위촉원부",
-      "why": "인사 결정",
-      "status": "OPEN",
-      "priority": "HIGH"
-    },
-    {
-      "id": "L161-26",
-      "institution": "미 국무부",
-      "target": "1961-11-14 FRUS246 참석자 한국 인사원부",
-      "why": "천병규·박병권 동일인",
-      "status": "OPEN",
-      "priority": "MEDIUM"
-    },
-    {
-      "id": "L161-27",
-      "institution": "미 국무부",
-      "target": "1962-01-18 NSC Action2447 원회의록",
-      "why": "군축 결정",
-      "status": "OPEN",
-      "priority": "MEDIUM"
-    },
-    {
-      "id": "L161-28",
-      "institution": "미 국무부",
-      "target": "1962-06-15 State-JCS Minutes 원본",
-      "why": "통화개혁 사전협의",
-      "status": "OPEN",
-      "priority": "MEDIUM"
-    },
-    {
-      "id": "L161-29",
-      "institution": "미 국무부",
-      "target": "1962-07-23 Seoul telegram66 원본",
-      "why": "KCIA 증권의혹",
-      "status": "OPEN",
-      "priority": "MEDIUM"
-    },
-    {
-      "id": "L161-30",
-      "institution": "대한민국 법원",
-      "target": "1962-05~07 증권파동 수사·판결 원문",
-      "why": "김종필 연루 여부",
-      "status": "OPEN",
-      "priority": "MEDIUM"
-    },
-    {
-      "id": "L161-31",
-      "institution": "미 국무부",
-      "target": "1962-10-29 FRUS282·283 회담 초고",
-      "why": "청구권·선거 진술",
-      "status": "OPEN",
-      "priority": "MEDIUM"
-    },
-    {
-      "id": "L161-32",
-      "institution": "일본 외무성",
-      "target": "1962-10 김종필-오히라·이케다 회담록",
-      "why": "독립 출처",
-      "status": "OPEN",
-      "priority": "MEDIUM"
-    },
-    {
-      "id": "L161-33",
-      "institution": "문교부/국가기록원",
-      "target": "1962-04 한글전용특별심의회 위촉장",
-      "why": "정책 결정",
-      "status": "OPEN",
-      "priority": "MEDIUM"
-    },
-    {
-      "id": "L161-34",
-      "institution": "문교부/국가기록원",
-      "target": "1962-07~1963-07 심의어휘 14159개 대장",
-      "why": "실제 시행",
-      "status": "OPEN",
-      "priority": "MEDIUM"
-    },
-    {
-      "id": "L161-35",
-      "institution": "미 국무부",
-      "target": "1963-02-18 Seoul telegram577 원본",
-      "why": "불출마 조건",
-      "status": "OPEN",
-      "priority": "MEDIUM"
-    },
-    {
-      "id": "L161-36",
-      "institution": "미 국무부",
-      "target": "1963-03-16 Seoul telegram645 원본",
-      "why": "군정연장",
-      "status": "OPEN",
-      "priority": "MEDIUM"
-    },
-    {
-      "id": "L161-37",
-      "institution": "미 국무부",
-      "target": "1963-03-29 박정희-Kennedy 서한 원본",
-      "why": "정일권 전달",
-      "status": "OPEN",
-      "priority": "MEDIUM"
-    },
-    {
-      "id": "L161-38",
-      "institution": "미 국무부",
-      "target": "1963-04-08 Seoul telegram787·789 원본",
-      "why": "연장안 유보",
-      "status": "OPEN",
-      "priority": "MEDIUM"
-    },
-    {
-      "id": "L161-39",
-      "institution": "중앙선관위",
-      "target": "1963 대통령·국회선거 후보등록원부",
-      "why": "정화법 실제 적용",
-      "status": "OPEN",
-      "priority": "MEDIUM"
-    },
-    {
-      "id": "L161-40",
-      "institution": "국회기록원",
-      "target": "1963 선거법 원문·후보제한 심사기록",
-      "why": "정당·독립출마",
-      "status": "OPEN",
-      "priority": "MEDIUM"
-    },
-    {
-      "id": "L161-ID-pol-lee-ju-il",
-      "institution": "국가기록원/국회기록원",
-      "target": "1961~1963 이주일 인사명부·위원위촉장·공직 원기록",
-      "why": "생몰·이명·한자·직책·발언 개별 검증",
-      "status": "OPEN",
-      "priority": "HIGH"
-    },
-    {
-      "id": "L161-ID-pol-kim-dong-ha",
-      "institution": "국가기록원/국회기록원",
-      "target": "1961~1963 김동하 인사명부·위원위촉장·공직 원기록",
-      "why": "생몰·이명·한자·직책·발언 개별 검증",
-      "status": "OPEN",
-      "priority": "HIGH"
-    },
-    {
-      "id": "L161-ID-pol-cho-si-hyeong",
-      "institution": "국가기록원/국회기록원",
-      "target": "1961~1963 조시형 인사명부·위원위촉장·공직 원기록",
-      "why": "생몰·이명·한자·직책·발언 개별 검증",
-      "status": "OPEN",
-      "priority": "HIGH"
-    },
-    {
-      "id": "L161-ID-pol-kim-yong-sun-1962",
-      "institution": "국가기록원/국회기록원",
-      "target": "1961~1963 김용순 인사명부·위원위촉장·공직 원기록",
-      "why": "생몰·이명·한자·직책·발언 개별 검증",
-      "status": "OPEN",
-      "priority": "HIGH"
-    },
-    {
-      "id": "L161-ID-pol-oh-chi-seong",
-      "institution": "국가기록원/국회기록원",
-      "target": "1961~1963 오치성 인사명부·위원위촉장·공직 원기록",
-      "why": "생몰·이명·한자·직책·발언 개별 검증",
-      "status": "OPEN",
-      "priority": "HIGH"
-    },
-    {
-      "id": "L161-ID-pol-gil-jae-ho",
-      "institution": "국가기록원/국회기록원",
-      "target": "1961~1963 길재호 인사명부·위원위촉장·공직 원기록",
-      "why": "생몰·이명·한자·직책·발언 개별 검증",
-      "status": "OPEN",
-      "priority": "HIGH"
-    },
-    {
-      "id": "L161-ID-pol-lee-seok-je",
-      "institution": "국가기록원/국회기록원",
-      "target": "1961~1963 이석제 인사명부·위원위촉장·공직 원기록",
-      "why": "생몰·이명·한자·직책·발언 개별 검증",
-      "status": "OPEN",
-      "priority": "HIGH"
-    },
-    {
-      "id": "L161-ID-cand-r161-park-il-gyeong",
-      "institution": "국가기록원/국회기록원",
-      "target": "1961~1963 박일경 인사명부·위원위촉장·공직 원기록",
-      "why": "생몰·이명·한자·직책·발언 개별 검증",
-      "status": "OPEN",
-      "priority": "HIGH"
-    },
-    {
-      "id": "L161-ID-cand-r161-han-tae-yeon",
-      "institution": "국가기록원/국회기록원",
-      "target": "1961~1963 한태연 인사명부·위원위촉장·공직 원기록",
-      "why": "생몰·이명·한자·직책·발언 개별 검증",
-      "status": "OPEN",
-      "priority": "HIGH"
-    },
-    {
-      "id": "L161-ID-cand-r161-lee-gyeong-ho",
-      "institution": "국가기록원/국회기록원",
-      "target": "1961~1963 이경호 인사명부·위원위촉장·공직 원기록",
-      "why": "생몰·이명·한자·직책·발언 개별 검증",
-      "status": "OPEN",
-      "priority": "HIGH"
-    },
-    {
-      "id": "L161-ID-cand-r161-cheon-byeong-gyu",
-      "institution": "국가기록원/국회기록원",
-      "target": "1961~1963 천병규 인사명부·위원위촉장·공직 원기록",
-      "why": "생몰·이명·한자·직책·발언 개별 검증",
-      "status": "OPEN",
-      "priority": "HIGH"
-    },
-    {
-      "id": "L161-ID-cand-r161-park-byeong-gwon",
-      "institution": "국가기록원/국회기록원",
-      "target": "1961~1963 박병권 인사명부·위원위촉장·공직 원기록",
-      "why": "생몰·이명·한자·직책·발언 개별 검증",
-      "status": "OPEN",
-      "priority": "HIGH"
-    },
-    {
-      "id": "L161-53",
-      "institution": "국가기록원",
-      "target": "1962 제1차 경제개발 5개년 계획(안) 각의상정 BA0084283 원면",
-      "why": "1962 최초 목표 7.1%, 재정·산업·농정 원안과 1964 보완계획 비교",
-      "status": "OPEN",
-      "priority": "HIGH"
-    },
-    {
-      "id": "L161-54",
-      "institution": "국가기록원",
-      "target": "1967-03 제1차 경제개발 5개년 계획 평가보고서 C11M30451 원면",
-      "why": "8.5% 실질성장률·투자율11.5%·저축률6.1% 집계 방법·원자료 확인",
-      "status": "OPEN",
-      "priority": "HIGH"
-    },
-    {
-      "id": "L161-55",
-      "institution": "미 국무부 FRUS 1952–1954·미국 국립문서기록관리청",
-      "target": "1953-08 Dulles–Rhee 공동성명 SOFA 'promptly' 협상 약속 원문·서명본",
-      "why": "FRUS1961-63 XXII #262·263의 1953 약속 인용을 당시 문서와 대조해 이승만 정부의 직접 행위 검증",
-      "status": "OPEN",
-      "priority": "CRITICAL_RHEE_BACKBONE"
-    },
-    {
-      "id": "L161-56",
-      "institution": "대한민국 외교부 외교사료관·일본 외무성 외교사료관",
-      "target": "1952~1960 한일 국교정상화 회담 회의록·대표단 훈령·어업/재산청구권 교섭 원문",
-      "why": "FRUS #261의 '이승만 비타협이 정상화 불가능 원인'이라는 미측 평가에 대한 한일 당사자 반증",
-      "status": "OPEN",
-      "priority": "CRITICAL_RHEE_BACKBONE"
-    },
-    {
-      "id": "L161-57",
-      "institution": "국가기록원·미 국무부·주한미군 문서보관소",
-      "target": "1950 대전협정·1952 경제조정협정 원문 및 1953 SOFA 협상 기록",
-      "why": "FRUS #262·263의 형사관할 독점·1953 협상 약속의 법적 범위와 이승만 책임선 구분",
-      "status": "OPEN",
-      "priority": "CRITICAL_RHEE_BACKBONE"
+      "next": "L150-41~48"
     }
   ],
+  "completedThisPass": [
+    "3·15 부정선거 사전 인지 문제를 '행정부 차원 조직적 부정 확인 / 대통령 개인 사전인지 미확정'으로 좁힘.",
+    "4·19 책임 문제를 '강경 군중통제 승인 발언 확인 / 직접 발포명령 미확정'으로 좁힘.",
+    "제주4·3에서 계엄 선포뿐 아니라 1949년 국무회의 강경 탄압 취지 발언과 정부 진상조사보고서의 책임 판단까지 연결.",
+    "국민보도연맹에서 국가책임과 국가수반 책임 판단을 확보하되 구체적 사살명령 발신자는 미확정으로 분리.",
+    "부산정치파동을 계엄·의원체포·대통령 공식설명·미국측 동시대 평가·직선제 개헌요구의 병렬 시간선으로 재구성.",
+    "진보당 사건을 정부 등록취소→수사기관→법원→사형집행→2011 재심의 제도별 시간선으로 분리.",
+    "경향신문 발행허가 취소를 정부조치로 확정하되 대통령 직접지시는 미확정으로 유지.",
+    "국민방위군 부정사건의 대통령 조사명령→국회조사→군법회의 흐름 연결.",
+    "거창사건의 대통령 사후 징계지시→군법회의 흐름 연결.",
+    "정부 이전 결정부터 대통령 이동·채병덕 권한 설명·한강교 폭파·후대 최창식 무죄까지 시간선을 연결."
+  ],
   "additionalQueues": [
+    "data/research/lead-queues/run110-next.json",
+    "data/research/lead-queues/run110e-next.json",
+    {
+      "run": 160,
+      "date": "2026-10-26",
+      "scope": "1961 제1공화국 사후 재판·헌정책임",
+      "leadIds": [
+        "L159-26",
+        "L159-29",
+        "L159-39",
+        "L159-40",
+        "L159-46",
+        "L159-47",
+        "L159-48",
+        "L159-49",
+        "L159-50"
+      ],
+      "nextLeadQueue": "data/research/lead-queues/run160-next.json"
+    },
     "data/research/lead-queues/run162-next.json"
   ]
 }
