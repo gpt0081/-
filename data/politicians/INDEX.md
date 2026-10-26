@@ -174,3 +174,9 @@ See `data/politicians/run113-prewar-network.json` for 12 sourced profiles. No ca
 ## 2026-10-26 Run168 · 제2대 국회 선거구 기반 정치인 10명 독립 노드
 
 `data/politicians/run168-1950-election-network.json`에서 신익희·조봉암·안재홍·지청천·조소앙·박순천·정일형·곽상훈·여운홍·황성수의 1950-05-30 선거구/소속/행위 유형/문서/lead 연결. canonical 신규 4명 IDENTIFIED, 기존 6명 심화. NIH 후대 공식 편년자료와 AKS 후대 해설을 개별 선관위 원공고·의회 표결 원문으로 오인하지 않음. `data/annals/ahn-jae-hong.md` 기존 독립 실록 유지, 신규 안재홍 canonical ID에 연결. 지청천 AKS 사망연도 본문 1957 vs 이미지 캡션 1959 충돌 추적.
+
+
+## 2026-10-26 Run169 · 제헌국회 농지개혁·사법·전시외교 인물 12명
+- `data/politicians/run169-parliament-cabinet-actors.json`: 기존 canonical 7명(이문원·서상일·황호현·김봉조·최운교·임병직·권승렬)의 날짜별 행위 보강, 새 candidate 5명(정준·김동원·이정래·김수선·김병로). 이름/한자/원속기록 행위·근거문서·event·lead 기록. 생몰/당적 미확인, 정식 승격 0명.
+- 독립 annals: `data/annals/seo-sang-il-run169.md`, `data/annals/lim-byong-jik-run169.md`, `data/annals/jeong-jun-run169.md`. 기존 ID 중복 생성 금지.
+- `data/events/run169-cabinet-parliament-diplomacy.json`: 절차 동의·정책안·명령·집행·반론 분리. base `data/events.json`은 canonical ID만 `politicians`에 넣고 신규 후보는 `candidatePoliticianIds`로 overlay 참조.
