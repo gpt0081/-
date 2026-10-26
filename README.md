@@ -94,3 +94,15 @@ Floot는 조사 저장소가 아니라 충분히 축적된 데이터를 보여�
 ## Run163 evidence increment (2026-10-26)
 
 1950-09-14 군 미결수 검찰이관·고문금지 하달의 **당대 발표**와 1950-09-25 부산형무소 희생 **후대 조사**를 분리했고, 1960-01-01 공무원연금법 제533호·특별회계법 제534호 공포와 1/5 국무위원 연명 선언을 연결했다. 김해 한림면장 최대성 등 비대통령 인물 후보는 독립 노드로 보존한다. 원명령·원관보·집행기록은 OPEN. See `data/research/runs/2026-10-26-run163-report.md`. Floot unchanged.
+
+### 164회 (2026-10-26): 1950년 9월 전시 국정·비대통령 정치인 확장
+
+[실록](data/annals/rhee-syngman-run164.md) · [문서 60건 신규](data/documents/run164-1950-september-governance.json) · [14명 후보](data/politicians/run164-1950-september-candidates.json) · [15개 사건](data/events/run164-1950-september-actions.json) · [12개 반증검토](data/claims/run164-1950-september-adversarial.json) · [다음 52개 원문 표적](data/research/lead-queues/run164-next.json). **대통령은 시간순 backbone이며 대한민국 역대 주요 정치인 전체가 최종 코퍼스**다. 1950년 9/8 국무회의 피난민법 개정 결정과 9/25 법률 제146호 공포를 분리한다. Floot 미변경.
+
+164회 추가 심층검증: [법제·지방복구·전재민 배급 문서 25건](data/documents/run164b-1950-september-recovery-and-law.json), [국회의원 4명](data/politicians/run164b-parliamentary-actors.json), [사건 9건](data/events/run164b-1950-recovery-law.json), [법률156·157 반증검토](data/claims/run164b-1950-law-and-rationing.json), [원문표적 20건](data/research/lead-queues/run164b-next.json). 9/18 국회 가결과 9/25 공포 분리, 사형금지법은 법정절차 없는 처형 금지임을 확인.
+
+164회 3차 보강: [9/21~25 정당·군사사법·통화 자료 37건](data/documents/run164c-1950-september-party-justice-economy.json), [정치인 6명·비정치인 군법회의 actor](data/politicians/run164c-party-government-candidates.json), [사건 14건](data/events/run164c-1950-september-policies-and-party.json), [충돌·수정 이력](data/claims/run164c-primary-corrections-and-conflicts.json), [다음 24개 원문표적](data/research/lead-queues/run164c-next.json). 국사편찬위 1962년 무죄 vs 서울기록원 1964년 무죄, 법률146 전사 '10일/10월' 충돌을 삭제하지 않고 보존.
+
+164회 4차: [9/26·29·30 원문 26건](data/documents/run164d-1950-september-recovery-decisions.json), [서민호](data/politicians/run164d-assembly-candidate.json), [사건 12건](data/events/run164d-1950-recovery-decisions.json), [반증 10건](data/claims/run164d-1950-budget-conscription-diplomacy.json), [다음 원문표적 21건](data/research/lead-queues/run164d-next.json). 사회부·재무부 구호예산 이견·징병불응 제재·북진 승인단계 구분.
+
+164회 5차 보강: [1950-10-01/04/05 문서 25건](data/documents/run164e-1950-october-reconstruction.json), [양성봉 도지사](data/politicians/run164e-governor-candidate.json), [사건 11건](data/events/run164e-1950-october-administration.json), [주장 10건](data/claims/run164e-1950-education-relief.json), [원문표적 20건](data/research/lead-queues/run164e-next.json). 교육·귀향·식량·귀속재산 행정 복원.
