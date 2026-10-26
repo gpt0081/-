@@ -913,7 +913,7 @@
         "초대 국무총리",
         "국방부 장관"
       ],
-      "researchStatus": "candidate",
+      "researchStatus": "IDENTIFIED",
       "backbone": false,
       "connections": [
         "evt-1949-farmland-reform",
@@ -948,7 +948,11 @@
         "sourceOverlay": "data/politicians/run171-1952-constitutional-election-actors.json",
         "attributionCaution": "Evidence of participation or candidate registration is not proof of alleged motive or execution.",
         "openLead": "pol-lee-beom-seok-1900 중복 의심 기존 참조 병합 금지"
-      }
+      },
+      "annalsFile": "data/annals/lee-beom-seok.md",
+      "evidenceFile": "data/evidence/lee-beom-seok.json",
+      "promotionReason": "1952 내무장관 FRUS 편집기록·국무회의 장택상 전언·중앙선관위 부통령 후보 공식 해제에서 신원·시기별 행위 확인. 직접 원임명장·발언 미확보로 VERIFIED 아님.",
+      "duplicateCandidateId": "pol-lee-beom-seok-1900"
     },
     {
       "id": "pol-lee-mun-won",
@@ -3610,7 +3614,7 @@
           "attribution": "FRUS contemporaneous report; original Korean record outstanding"
         }
       ],
-      "researchStatus": "IDENTIFIED",
+      "researchStatus": "ANNALS_ACTIVE",
       "backbone": false,
       "connections": [
         "evt139-jang-statement",
@@ -3629,7 +3633,7 @@
         "doc171-na-09",
         "doc171-frus-d163"
       ],
-      "annalsFile": "data/annals/jang-taek-sang-run139.md",
+      "annalsFile": "data/annals/jang-taek-sang.md",
       "openLeadsFile": "data/research/lead-queues/run139-next.json",
       "eventIds": [
         "evt-r163-35",
@@ -3677,7 +3681,9 @@
         "sourceOverlay": "data/politicians/run171-1952-constitutional-election-actors.json",
         "attributionCaution": "Evidence of participation or candidate registration is not proof of alleged motive or execution.",
         "openLead": "장택상의 6월3일 구술은 미 대사관 2인 경유 전언. 내각 원회의록 확보 필요"
-      }
+      },
+      "evidenceFile": "data/evidence/jang-taek-sang.json",
+      "promotionReason": "1952-05-14 국가기록원 공개 정부 개헌안 원기록 전사 기반 제출 행동 + 1952-06-03 국무회의 전언의 불확실성 분리 + 독립 annals/evidence 및 관계·open lead 구축. 원면 미열람, 전생애 검증 미완."
     },
     {
       "id": "pol-r141-park-sul-eum",
