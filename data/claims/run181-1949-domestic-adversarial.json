@@ -119,13 +119,16 @@
       "statement": "장도영 군기관 무관 주장과 윤재근 국회 고문치사 의혹의 사실관계",
       "status": "CONFLICTED",
       "supportingEvidence": [
+        "doc181-1201-0080",
+        "doc181-1130-0070"
+      ],
+      "contradictingEvidence": [
         "doc181-1201-0080"
       ],
-      "contradictingEvidence": [],
       "insufficientEvidence": [
         "doc181-1201-0080"
       ],
-      "analysis": "당대 보도는 기관 결정·발언의 존재를 증언하지만 정책 집행·유죄판결·개별 지시의 직접증거는 아니다.",
+      "analysis": "11/30 윤재근 의원 보고·국회 조사결의와 12/01 장도영 정보국장 부인은 서로 다른 발언 주체. 국회 원속기록·군 수사원장·법원 판결로 검증해야 함.",
       "adversarialSearchTarget": "제헌국회 11/30 회의록·인천헌병대 수사철·군법회의 판결문 대조",
       "adversarialSearchCompleted": false,
       "accessDate": "2026-10-27"
@@ -247,16 +250,30 @@
       "statement": "외자구매청 정부제출 법안이 1949-12-01 이미 최종 통과·공포됐다는 주장",
       "status": "NARROWED",
       "supportingEvidence": [
-        "doc181-1201-0100"
+        "doc181-1201-0100",
+        "doc181-1102-0140",
+        "doc181-law-72-19491210"
       ],
       "contradictingEvidence": [],
       "insufficientEvidence": [
         "doc181-1201-0100"
       ],
-      "analysis": "공식 발언·의혹·기소·판결, 건의안·최종 의결, 원조배정·실제 집행을 구분한다. 산술차이는 원면 확인 전 정정하지 않는다.",
+      "analysis": "11/02 정부안 제출→12/01 국회 제55차 심의→12/10 법률72호 제정·시행 공식 원문으로 확인. 제55차 당일 가결 아님. 국회 최종 표결 날짜와 수정 주체는 미확보.",
       "adversarialSearchTarget": "제5회 국회 제55차 이후 원속기록·관보 법률 연혁 확인",
       "adversarialSearchCompleted": false,
-      "accessDate": "2026-10-27"
+      "accessDate": "2026-10-27",
+      "reviewHistory": [
+        {
+          "date": "2026-10-27",
+          "previousStatus": "NARROWED",
+          "newStatus": "NARROWED",
+          "newEvidence": [
+            "doc181-1102-0140",
+            "doc181-law-72-19491210"
+          ],
+          "reason": "법제처 제정·시행 연혁과 4조 본문 직접 확인, 최종 표결/수정 주체는 미해결"
+        }
+      ]
     },
     {
       "id": "claim181-17",
@@ -448,6 +465,43 @@
       "analysis": "공식 발언·의혹·기소·판결, 건의안·최종 의결, 원조배정·실제 집행을 구분한다. 산술차이는 원면 확인 전 정정하지 않는다.",
       "adversarialSearchTarget": "비확률 거리표본, 지역·시간 제한. 원설문지·응답자 구성 미확인",
       "adversarialSearchCompleted": false,
+      "accessDate": "2026-10-27"
+    },
+    {
+      "id": "claim181-29",
+      "statement": "외자구매처 11/02 정부초안 청장·차장/동격과 12/10 제72호 처장 별정직·차장 1급의 조문 변경",
+      "status": "NARROWED",
+      "supportingEvidence": [
+        "doc181-1102-0140",
+        "doc181-1201-0100",
+        "doc181-law-72-19491210"
+      ],
+      "contradictingEvidence": [],
+      "insufficientEvidence": [
+        "doc181-1201-0100"
+      ],
+      "analysis": "법안 제출(11/02)→국회 토론(12/01)→법률72호 제정(12/10). 명칭·직급 변경 확인. 누가 언제 수정했는지는 미확인.",
+      "adversarialSearchCompleted": true,
+      "adversarialSearchTarget": "제헌국회 12/02~12/10 외자구매처 수정안·최종표결 원속기록",
+      "accessDate": "2026-10-27"
+    },
+    {
+      "id": "claim181-30",
+      "statement": "강화 교동면장 고문치사 사건 국회 조사결의와 장도영 군기관 무관 주장 간 책임 귀속",
+      "status": "CONFLICTED",
+      "supportingEvidence": [
+        "doc181-1130-0070"
+      ],
+      "contradictingEvidence": [
+        "doc181-1201-0080"
+      ],
+      "insufficientEvidence": [
+        "doc181-1130-0070",
+        "doc181-1201-0080"
+      ],
+      "analysis": "윤재근 의원 국회보고·내무치안위원회 조사결의와 장도영 정보국장 부인은 병렬로 보존. 국회 조사결의는 형사 확정판결이 아니다.",
+      "adversarialSearchCompleted": true,
+      "adversarialSearchTarget": "국회 원속기록·인천헌병대 수사원장·군사법원 판결",
       "accessDate": "2026-10-27"
     }
   ]
