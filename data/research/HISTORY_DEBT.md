@@ -1068,3 +1068,6 @@ KDI 대외원조역사 시계열 원페이지는 최초 접근 HTTP502였으나 
 - 원문·상태·표적 상세: `data/research/debt-addenda/run177.md`; 관련 claim: `data/claims/run177-adversarial-audit.json`.
 - 일요일 전수 재조사 아님; `last_full_review`는 변경하지 않음.
 
+
+- HD-R177-08 `OPEN`: 신중목의 1960-07-11 농협중앙회장 당선 및 1981 민주농민당 창당준비위원장 활동은 후대 인물해설로 확인되나 농협 원총회·정당등록부 미확보. 1950-05-30 제2대 국회의원 당선은 국편 공식 편년명단으로 NARROWED, 원개표록 미확보. [claim177-11/12; L177-32~34]
+
