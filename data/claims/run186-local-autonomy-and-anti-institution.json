@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "run": "run186",
+  "date": "2026-10-27",
+  "claims": [
+    {
+      "id": "claim186-01",
+      "statement": "1949-12-15 법률 제73호는 지방자치법을 개정했고 법제처 연혁상 1950-01-05 시행이다",
+      "status": "NARROWED",
+      "supportingEvidence": [
+        "doc186-law73-19491215"
+      ],
+      "contradictingEvidence": [],
+      "insufficientEvidence": [
+        "관보 원면 및 1950-01-05 시행기산 근거·시행공문 미확보"
+      ],
+      "analysis": "제정·공포 1949-12-15, 시행 1950-01-05 분리. 국편 분류 1949-12-06은 원출전 12-15와 메타데이터 날짜가 달라 조용히 정정하지 않음."
+    },
+    {
+      "id": "claim186-02",
+      "statement": "법률 제73호의 제75조 제2항 신설은 비상사태 시 지방선거 연기·정지 권한을 대통령에게 부여하나 실제 발동을 입증하지 않는다",
+      "status": "NARROWED",
+      "supportingEvidence": [
+        "doc186-law73-19491215"
+      ],
+      "contradictingEvidence": [],
+      "insufficientEvidence": [
+        "1950~1952 특정 선거 연기 대통령령·내무부 지시·선관위 통지 원문 미확보"
+      ],
+      "analysis": "법적 권한과 특정 행위·발동 원인 구분. 당시 전쟁에 따른 1952 선거 일정 변동의 개별 인과는 별도."
+    },
+    {
+      "id": "claim186-03",
+      "statement": "1949 법률 제73호 부칙 제4·5조는 지방의회 미구성 시 승인·임명 임시행정을 규정했다",
+      "status": "NARROWED",
+      "supportingEvidence": [
+        "doc186-law73-19491215",
+        "doc185d-mois-local-history"
+      ],
+      "contradictingEvidence": [],
+      "insufficientEvidence": [
+        "시·읍·면장 실제 임명장·지방의회 성립일·적용범위 확인 필요"
+      ],
+      "analysis": "도·서울시 의결대체 내무부장관, 시읍면 의결대체 도지사, 시장 대통령 임명, 읍면장 도지사 임명. 지방의회가 구성된 후 일반규칙과 구분."
+    },
+    {
+      "id": "claim186-04",
+      "statement": "1949 법률73호 제111조/제101조 수정대상 번호가 법제처와 국편 관보 전사에서 다르다",
+      "status": "CONFLICTED",
+      "supportingEvidence": [
+        "doc186-law73-19491215"
+      ],
+      "contradictingEvidence": [
+        "국편 전사 제101조 vs 법제처 제정·개정문 제111조"
+      ],
+      "insufficientEvidence": [
+        "1949-12-15 관보 제243호 원면 해당 줄 직접 판독 필요"
+      ],
+      "analysis": "서로 다른 디지털 전사본의 이형이지 별개 입법행위가 아님. 문서내 제112·113조 부지사 삭제 맥락상 제111조 가능성이 있으나 원면 확인 전 확정 금지."
+    },
+    {
+      "id": "claim186-05",
+      "statement": "반민특위 조직법 제14호 제정이유는 조사관의 조사사무 관련 사법경찰관 직무권한을 명시한다",
+      "status": "NARROWED",
+      "supportingEvidence": [
+        "doc186-law14-official-rationale",
+        "doc185-cons-cons_001_0020_0020_0030_0020_0060"
+      ],
+      "contradictingEvidence": [],
+      "insufficientEvidence": [
+        "법률14호 원조문 제6조 및 조사관 임명장·실제 지휘체계 미확보"
+      ],
+      "analysis": "법사위 원안과 제정 취지가 연결되지만 경찰의 1949-06-06 해산명령 합법성은 별개 질문."
+    },
+    {
+      "id": "claim186-06",
+      "statement": "반민특위 해체 사건일 1949-09-06과 조사기관조직법의 법률55호 폐지 1949-10-04는 별개의 시간 단계다",
+      "status": "NARROWED",
+      "supportingEvidence": [
+        "doc186-nara-anti-chronology",
+        "doc186-law14-official-rationale"
+      ],
+      "contradictingEvidence": [],
+      "insufficientEvidence": [
+        "1949-09-06 조직 해체 의결·실제 업무중단 원문 및 1949-10-04 법률55호 원관보 미확보"
+      ],
+      "analysis": "국가기록원 페이지 안의 '1949-09-06 해체'와 '1949년 말 사실상 해체'도 서로 다른 의미/단계인지 재확인. 법률폐지일을 실무중단일로 치환하지 않음."
+    }
+  ]
+}
