@@ -515,21 +515,50 @@
         "유엔군사령부",
         "한미합동경제위원회"
       ],
-      "evidenceState": "deep-seeded",
+      "evidenceState": "STRUCTURED_PRIMARY_TREATY_AND_SIGNED_MINUTES",
       "confirmed": [
         "1952-05-24 부산에서 대한민국과 통합사령부 사이 경제조정협정이 체결되었다.",
         "FRUS의 마이어 보고는 협정이 한국 경제 안정과 유엔군 군사작전 지원을 위한 경제조정, 외환·외자 사용, 합동경제위원회 설치를 포함했다고 설명한다.",
-        "한국민족문화대백과사전은 한국 측 대표를 백두진 재무부장관, 미국 측 대표를 대통령 특사 Clarence E. Meyer로 정리한다."
+        "한국민족문화대백과사전은 한국 측 대표를 백두진 재무부장관, 미국 측 대표를 대통령 특사 Clarence E. Meyer로 정리한다.",
+        "UNTS Vol.179 No.2353 원협정·교환각서·서명된 제10차 경제회의 공식회의록 확인. 백두진 재무부장관과 Clarence E. Meyer가 서명. Article I(3) CEB는 자문·조정기관이지 집행기관이 아님.",
+        "Article III(9)(a)는 신규 수출 외환의 한국 정부 단독 통제, (b)는 특정 외환의 CEB 권고에 따른 사용, (c)는 수입계획상의 조정을 각각 규정한다."
       ],
       "openQuestions": [
-        "TIAS 2593/3 UST 4420 협정 전문을 문서 registry에 편입할 것.",
+        "UNTS Vol.179 No.2353 협정·교환각서·공식회의록 원문은 확보. TIAS 2593/3 UST 4420의 판본 차이·원본 서명철 대조는 미완료.",
         "백두진의 협상 지시·수정안과 대통령 승인 과정을 국내 원문으로 확인할 것.",
         "1953-12-14 백두진-Tyler Wood 후속 합의와 1952 협정의 조항별 연결을 복원할 것."
       ],
       "sources": [
         "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d137",
         "https://encykorea.aks.ac.kr/Article/E0075720",
-        "https://history.state.gov/historicaldocuments/frus1952-54v15p2/d882"
+        "https://history.state.gov/historicaldocuments/frus1952-54v15p2/d882",
+        "https://treaties.un.org/doc/Publication/UNTS/Volume%20179/v179.pdf"
+      ],
+      "documentIds": [
+        "doc172-unts2353-agreement",
+        "doc172-unts2353-notes",
+        "doc172-unts2353-minutes"
+      ],
+      "childEventIds": [
+        "evt-r172-01",
+        "evt-r172-02",
+        "evt-r172-03",
+        "evt-r172-04",
+        "evt-r172-05",
+        "evt-r172-06",
+        "evt-r172-07",
+        "evt-r172-08",
+        "evt-r172-09",
+        "evt-r172-10",
+        "evt-r172-11"
+      ],
+      "reviewHistory": [
+        {
+          "date": "2026-10-26",
+          "run": 172,
+          "action": "UPGRADED_TO_ORIGINAL",
+          "reason": "UNTS 179 No2353 full original and signed minutes acquired; no inference of executed assistance or personal presidential order."
+        }
       ]
     },
     {
@@ -19667,6 +19696,371 @@
       "accessDate": "2026-10-26",
       "provenanceCaution": "Official transcript/excerpt or diplomatic record; no Korean original facsimile viewed. Participant allegation/relay not treated as proven outcome.",
       "sourceOverlay": "data/events/run171-1952-decision-actions.json"
+    },
+    {
+      "parentEventId": "evt-1952-meyer-economic-coordination",
+      "sourceDocumentIds": [
+        "doc172-unts2353-minutes"
+      ],
+      "provenanceFamily": "BILATERAL_TREATY_REGISTERED_UNTS",
+      "legalAuthority": "1952-05-24 bilateral economic coordination agreement No.2353",
+      "observed_by": [
+        "UN Treaty Series published 1953"
+      ],
+      "later_finding": [],
+      "accessDate": "2026-10-26",
+      "id": "evt-r172-01",
+      "name": "한미 경제조정협정 초안 협의(5월24일 회의록의 회고)",
+      "date": "1952-05-17",
+      "domain": "외교·경제",
+      "stage": "NEGOTIATION_REPORTED",
+      "politicians": [
+        "pol-paik-too-chin"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "confirmed": [
+        "1952-05-24 공식회의록에서 5월17일 초안 협의가 있었다고 기록. 5월17일 개별 원속기록은 미열람."
+      ],
+      "openQuestions": [
+        "국내 원문 결재·예산·집행대장과 원회의록 확보"
+      ],
+      "sourceQualification": "5/24 회의록의 과거 시점 보고, 해당 날짜 원회의록 아님"
+    },
+    {
+      "parentEventId": "evt-1952-meyer-economic-coordination",
+      "sourceDocumentIds": [
+        "doc172-unts2353-minutes"
+      ],
+      "provenanceFamily": "BILATERAL_TREATY_REGISTERED_UNTS",
+      "legalAuthority": "1952-05-24 bilateral economic coordination agreement No.2353",
+      "observed_by": [
+        "UN Treaty Series published 1953"
+      ],
+      "later_finding": [],
+      "accessDate": "2026-10-26",
+      "id": "evt-r172-02",
+      "name": "한미 경제조정협정 초안 상호 수정 완료 보고",
+      "date": "1952-05-23",
+      "domain": "외교·경제",
+      "stage": "NEGOTIATION_REPORTED",
+      "politicians": [
+        "pol-paik-too-chin"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "confirmed": [
+        "5월24일 공식회의록에서 5월23일까지 상호 수정했다고 진술. 5월23일 서명된 합의문 자체는 미열람."
+      ],
+      "openQuestions": [
+        "국내 원문 결재·예산·집행대장과 원회의록 확보"
+      ],
+      "sourceQualification": "5/24 회의록의 과거 시점 보고, 해당 날짜 원회의록 아님"
+    },
+    {
+      "parentEventId": "evt-1952-meyer-economic-coordination",
+      "sourceDocumentIds": [
+        "doc172-unts2353-minutes"
+      ],
+      "provenanceFamily": "BILATERAL_TREATY_REGISTERED_UNTS",
+      "legalAuthority": "1952-05-24 bilateral economic coordination agreement No.2353",
+      "observed_by": [
+        "UN Treaty Series published 1953"
+      ],
+      "later_finding": [],
+      "accessDate": "2026-10-26",
+      "id": "evt-r172-03",
+      "name": "제10차 한미 경제회의와 국무회의 수정안 승인 보고",
+      "date": "1952-05-24",
+      "domain": "국무회의·외교",
+      "stage": "APPROVAL_REPORTED",
+      "politicians": [
+        "pol-paik-too-chin",
+        "pol-shin-tae-young",
+        "pol-song-in-sang"
+      ],
+      "proposed_by": [],
+      "decided_by": [
+        "대한민국 국무회의(백두진 보고, 원결의 미열람)"
+      ],
+      "executed_by": [],
+      "opposed_by": [],
+      "confirmed": [
+        "5월24일 오전10시 대한민국 국무회의실 제10차 회의. 백두진은 수정 협정안이 국무회의 승인을 받았다고 보고. 국무회의 원결의·서명부 미확보."
+      ],
+      "openQuestions": [
+        "국내 원문 결재·예산·집행대장과 원회의록 확보"
+      ],
+      "sourceQualification": "원문은 조약·회의록의 규범·진술. 집행 사실과 구분"
+    },
+    {
+      "parentEventId": "evt-1952-meyer-economic-coordination",
+      "sourceDocumentIds": [
+        "doc172-unts2353-agreement",
+        "doc172-unts2353-notes"
+      ],
+      "provenanceFamily": "BILATERAL_TREATY_REGISTERED_UNTS",
+      "legalAuthority": "1952-05-24 bilateral economic coordination agreement No.2353",
+      "observed_by": [
+        "UN Treaty Series published 1953"
+      ],
+      "later_finding": [],
+      "accessDate": "2026-10-26",
+      "id": "evt-r172-04",
+      "name": "백두진·마이어 경제조정협정 및 교환각서 서명·발효",
+      "date": "1952-05-24",
+      "domain": "외교·경제",
+      "stage": "SIGNED_AND_ENTERED_INTO_FORCE",
+      "politicians": [
+        "pol-paik-too-chin"
+      ],
+      "proposed_by": [],
+      "decided_by": [
+        "대한민국 정부",
+        "미국 정부"
+      ],
+      "executed_by": [],
+      "opposed_by": [],
+      "confirmed": [
+        "UNTS 원협정 Article VI(2) 서명과 동시에 발효; 백두진과 Meyer 서명, 교환각서가 1948 원조협정 일부를 대체."
+      ],
+      "openQuestions": [
+        "국내 원문 결재·예산·집행대장과 원회의록 확보"
+      ],
+      "sourceQualification": "원문은 조약·회의록의 규범·진술. 집행 사실과 구분"
+    },
+    {
+      "parentEventId": "evt-1952-meyer-economic-coordination",
+      "sourceDocumentIds": [
+        "doc172-unts2353-agreement"
+      ],
+      "provenanceFamily": "BILATERAL_TREATY_REGISTERED_UNTS",
+      "legalAuthority": "1952-05-24 bilateral economic coordination agreement No.2353",
+      "observed_by": [
+        "UN Treaty Series published 1953"
+      ],
+      "later_finding": [],
+      "accessDate": "2026-10-26",
+      "id": "evt-r172-05",
+      "name": "합동경제위원회 설치와 자문기능 규정",
+      "date": "1952-05-24",
+      "domain": "행정제도·경제",
+      "stage": "LEGAL_MANDATE_NOT_IMPLEMENTATION",
+      "politicians": [
+        "pol-paik-too-chin"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "confirmed": [
+        "Article I(1-3): 한미 각 1명, 상호 동의한 대표, 경제정책 자문·조정, 집행기관이 아님. 실제 최초 회의·대표 임명은 미확인."
+      ],
+      "openQuestions": [
+        "국내 원문 결재·예산·집행대장과 원회의록 확보"
+      ],
+      "sourceQualification": "원문은 조약·회의록의 규범·진술. 집행 사실과 구분"
+    },
+    {
+      "parentEventId": "evt-1952-meyer-economic-coordination",
+      "sourceDocumentIds": [
+        "doc172-unts2353-agreement"
+      ],
+      "provenanceFamily": "BILATERAL_TREATY_REGISTERED_UNTS",
+      "legalAuthority": "1952-05-24 bilateral economic coordination agreement No.2353",
+      "observed_by": [
+        "UN Treaty Series published 1953"
+      ],
+      "later_finding": [],
+      "accessDate": "2026-10-26",
+      "id": "evt-r172-06",
+      "name": "유엔군사령관 긴급구호물자 재배분 권한과 한국 주권 보존 조항",
+      "date": "1952-05-24",
+      "domain": "안보·행정",
+      "stage": "LEGAL_MANDATE_NOT_EXECUTION",
+      "politicians": [
+        "pol-paik-too-chin"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "confirmed": [
+        "Article I(4)(c): 유엔군사령관의 작전상 구호물자 회수·재분배 권한과 한국 정부의 독립 주권을 함께 명시. 실제 재배분 사건은 별도 증빙 필요."
+      ],
+      "openQuestions": [
+        "국내 원문 결재·예산·집행대장과 원회의록 확보"
+      ],
+      "sourceQualification": "원문은 조약·회의록의 규범·진술. 집행 사실과 구분"
+    },
+    {
+      "parentEventId": "evt-1952-meyer-economic-coordination",
+      "sourceDocumentIds": [
+        "doc172-unts2353-agreement"
+      ],
+      "provenanceFamily": "BILATERAL_TREATY_REGISTERED_UNTS",
+      "legalAuthority": "1952-05-24 bilateral economic coordination agreement No.2353",
+      "observed_by": [
+        "UN Treaty Series published 1953"
+      ],
+      "later_finding": [],
+      "accessDate": "2026-10-26",
+      "id": "evt-r172-07",
+      "name": "한미 경제조정협정의 민간 구호·전염병 방지·생활필수품 지원 의무",
+      "date": "1952-05-24",
+      "domain": "사회복지·보건",
+      "stage": "SOCIAL_WELFARE_PUBLIC_HEALTH_OBLIGATION",
+      "politicians": [
+        "pol-paik-too-chin"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "confirmed": [
+        "Article II: 식량·의복·주택 구호, 전염병·질병 예방, 필수품 생산지원 의무. 실제 구호량·지역별 집행은 미확인."
+      ],
+      "openQuestions": [
+        "국내 원문 결재·예산·집행대장과 원회의록 확보"
+      ],
+      "sourceQualification": "원문은 조약·회의록의 규범·진술. 집행 사실과 구분"
+    },
+    {
+      "parentEventId": "evt-1952-meyer-economic-coordination",
+      "sourceDocumentIds": [
+        "doc172-unts2353-agreement",
+        "doc172-unts2353-minutes"
+      ],
+      "provenanceFamily": "BILATERAL_TREATY_REGISTERED_UNTS",
+      "legalAuthority": "1952-05-24 bilateral economic coordination agreement No.2353",
+      "observed_by": [
+        "UN Treaty Series published 1953"
+      ],
+      "later_finding": [],
+      "accessDate": "2026-10-26",
+      "id": "evt-r172-08",
+      "name": "한국은행 원조물자 판매대금 특별계정과 통화안정 사용 순위 규정",
+      "date": "1952-05-24",
+      "domain": "재정·금융",
+      "stage": "FISCAL_MONETARY_OBLIGATION",
+      "politicians": [
+        "pol-paik-too-chin",
+        "pol-song-in-sang"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "confirmed": [
+        "Article III(7)(c-d): 판매대금 원화 특별계정, 위원회 권고에 따른 구호비·운영비·한국은행 채무상환 순위. 실제 입출금 장부 미확인."
+      ],
+      "openQuestions": [
+        "국내 원문 결재·예산·집행대장과 원회의록 확보"
+      ],
+      "sourceQualification": "원문은 조약·회의록의 규범·진술. 집행 사실과 구분"
+    },
+    {
+      "parentEventId": "evt-1952-meyer-economic-coordination",
+      "sourceDocumentIds": [
+        "doc172-unts2353-agreement"
+      ],
+      "provenanceFamily": "BILATERAL_TREATY_REGISTERED_UNTS",
+      "legalAuthority": "1952-05-24 bilateral economic coordination agreement No.2353",
+      "observed_by": [
+        "UN Treaty Series published 1953"
+      ],
+      "later_finding": [],
+      "accessDate": "2026-10-26",
+      "id": "evt-r172-09",
+      "name": "경제조정협정 외환 통제와 조정의 구별",
+      "date": "1952-05-24",
+      "domain": "외환·무역",
+      "stage": "FOREIGN_EXCHANGE_LEGAL_DISTINCTION",
+      "politicians": [
+        "pol-paik-too-chin",
+        "pol-song-in-sang"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "confirmed": [
+        "Article III(9)(a): 장래 국내 수출 외환은 한국 정부가 단독 통제, (b): 기존 보유·유엔군 원화 선급금 정산 외환은 위원회 권고에 따라 사용, (c): 양쪽 모두 수입계획상 위원회 조정. 전 외환의 소유·통제권 이전으로 요약 금지."
+      ],
+      "openQuestions": [
+        "국내 원문 결재·예산·집행대장과 원회의록 확보"
+      ],
+      "sourceQualification": "원문은 조약·회의록의 규범·진술. 집행 사실과 구분"
+    },
+    {
+      "parentEventId": "evt-1952-meyer-economic-coordination",
+      "sourceDocumentIds": [
+        "doc172-unts2353-minutes"
+      ],
+      "provenanceFamily": "BILATERAL_TREATY_REGISTERED_UNTS",
+      "legalAuthority": "1952-05-24 bilateral economic coordination agreement No.2353",
+      "observed_by": [
+        "UN Treaty Series published 1953"
+      ],
+      "later_finding": [],
+      "accessDate": "2026-10-26",
+      "id": "evt-r172-10",
+      "name": "백두진·마이어 공식회의록의 원조품 판매비·내국세 공동해석",
+      "date": "1952-05-24",
+      "domain": "원조·조세",
+      "stage": "DIRECT_STATEMENT_AND_MUTUAL_INTERPRETATION",
+      "politicians": [
+        "pol-paik-too-chin"
+      ],
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "confirmed": [
+        "공식회의록 Article III(5)(a), (5)(e), (7)(d)(1): 운영비를 원조물자 판매대금으로 충당, 일부 내국세 지속, 판매·배급 비용 포함을 양측이 확인. 시행실적 미확인."
+      ],
+      "openQuestions": [
+        "국내 원문 결재·예산·집행대장과 원회의록 확보"
+      ],
+      "sourceQualification": "원문은 조약·회의록의 규범·진술. 집행 사실과 구분"
+    },
+    {
+      "parentEventId": "evt-1952-meyer-economic-coordination",
+      "sourceDocumentIds": [
+        "doc172-na-1952-57-cabinet"
+      ],
+      "provenanceFamily": "BILATERAL_TREATY_REGISTERED_UNTS",
+      "legalAuthority": "1952-05-24 bilateral economic coordination agreement No.2353",
+      "observed_by": [
+        "UN Treaty Series published 1953"
+      ],
+      "later_finding": [],
+      "accessDate": "2026-10-26",
+      "id": "evt-r172-11",
+      "name": "제57회 국무회의 개정헌법 대통령중심 운용 대통령 유시",
+      "date": "1952-07-08",
+      "domain": "헌정·행정",
+      "stage": "PRESIDENT_DIRECTIVE",
+      "politicians": [
+        "pol-rhee-syngman"
+      ],
+      "proposed_by": [],
+      "decided_by": [
+        "pol-rhee-syngman"
+      ],
+      "executed_by": [],
+      "opposed_by": [],
+      "confirmed": [
+        "BA0085167/4-1 국가기록원 전사: 개정헌법을 대통령중심제로 운용하고 행정부 권한 분산을 경계하라는 이승만 지시. 실제 법률 해석·집행 영향 별도 확인."
+      ],
+      "openQuestions": [
+        "제57회 국무회의 원면·이후 집행 공문 확보"
+      ],
+      "sourceQualification": "원문은 조약·회의록의 규범·진술. 집행 사실과 구분"
     }
   ]
 }
