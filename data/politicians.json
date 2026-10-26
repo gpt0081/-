@@ -62,7 +62,9 @@
         "doc158c-frus-309",
         "doc158c-frus-310",
         "doc163-01",
-        "doc163-09"
+        "doc163-09",
+        "doc163-32",
+        "doc163-47"
       ],
       "researchNotes": [
         {
@@ -101,6 +103,15 @@
             "doc163-01",
             "doc163-09"
           ]
+        },
+        {
+          "date": "2026-10-26",
+          "run": 163,
+          "note": "1950-08-29~09-21 동시대 행정·입법·외교·군법회의 기록 연결. 발언·집행·후대 판결 분리.",
+          "documentIds": [
+            "doc163-32",
+            "doc163-47"
+          ]
         }
       ],
       "eventIds": [
@@ -121,7 +132,9 @@
         "evt-r158c-08",
         "evt-r158c-10",
         "evt-r163-03",
-        "evt-r163-08"
+        "evt-r163-08",
+        "evt-r163-25",
+        "evt-r163-31"
       ]
     },
     {
@@ -1584,16 +1597,26 @@
           "documentIds": [
             "doc163-01"
           ]
+        },
+        {
+          "date": "2026-10-26",
+          "run": 163,
+          "note": "1950-08-29~09-21 동시대 행정·입법·외교·군법회의 기록 연결. 발언·집행·후대 판결 분리.",
+          "documentIds": [
+            "doc163-27"
+          ]
         }
       ],
       "evidenceDocumentIds": [
         "d114b-03",
         "doc145-frus-639",
         "doc145-kh-1953_06_26_0020",
-        "doc163-01"
+        "doc163-01",
+        "doc163-27"
       ],
       "eventIds": [
-        "evt-r163-03"
+        "evt-r163-03",
+        "evt-r163-21"
       ]
     },
     {
@@ -1720,7 +1743,22 @@
       "connections": [
         "evt-1950-han-river-bridge"
       ],
-      "researchNotes": "한강교 폭파 명령선의 핵심 군 지휘자 후보. 후대 재심 판단과 육군본부 작전일지·공병 지휘문서를 우선해 정확한 명령 시각과 상급 승인 여부를 검증."
+      "researchNotes": [
+        {
+          "date": "2026-10-26",
+          "run": 163,
+          "note": "1950-08-29~09-21 동시대 행정·입법·외교·군법회의 기록 연결. 발언·집행·후대 판결 분리.",
+          "documentIds": [
+            "doc163-50"
+          ]
+        }
+      ],
+      "eventIds": [
+        "evt-r163-34"
+      ],
+      "evidenceDocumentIds": [
+        "doc163-50"
+      ]
     },
     {
       "id": "pol-sohn-won-yil",
@@ -3375,7 +3413,8 @@
       "evidenceDocumentIds": [
         "d141-pa768",
         "d141-pa769",
-        "doc162-1950-nih-lee-housing"
+        "doc162-1950-nih-lee-housing",
+        "doc163-28"
       ],
       "evidenceFile": "data/evidence/run141-actor-evidence.json",
       "openLeadsFile": "data/research/lead-queues/run141-next.json",
@@ -3392,10 +3431,19 @@
             "doc162-1950-nih-lee-housing"
           ],
           "sourceType": "CONTEMPORANEOUS_NOTICE"
+        },
+        {
+          "date": "2026-10-26",
+          "run": 163,
+          "note": "1950-08-29~09-21 동시대 행정·입법·외교·군법회의 기록 연결. 발언·집행·후대 판결 분리.",
+          "documentIds": [
+            "doc163-28"
+          ]
         }
       ],
       "eventIds": [
-        "evt-r162-55"
+        "evt-r162-55",
+        "evt-r163-22"
       ]
     },
     {
@@ -4405,7 +4453,8 @@
       },
       "eventIds": [
         "evt-r148-senate-secret",
-        "evt-r148-sept8"
+        "evt-r148-sept8",
+        "evt-r163-26"
       ],
       "status": "IDENTIFIED",
       "researchStatus": "IDENTIFIED",
@@ -4421,7 +4470,20 @@
         "국회 제2·3대 의원명부·중앙선관위 당선원부에서 박영출의 생몰·선거구·정당·이명·동명이인 검증"
       ],
       "historyDebt": [],
-      "promotionReason": "동시대 원속기록/관보에서 직책과 특정 행위가 확인됨; 생몰 및 동일인 확인은 미완료."
+      "promotionReason": "동시대 원속기록/관보에서 직책과 특정 행위가 확인됨; 생몰 및 동일인 확인은 미완료.",
+      "evidenceDocumentIds": [
+        "doc163-35"
+      ],
+      "researchNotes": [
+        {
+          "date": "2026-10-26",
+          "run": 163,
+          "note": "1950-08-29~09-21 동시대 행정·입법·외교·군법회의 기록 연결. 발언·집행·후대 판결 분리.",
+          "documentIds": [
+            "doc163-35"
+          ]
+        }
+      ]
     },
     {
       "id": "pol-r148-lee-jae-hak",
@@ -4471,7 +4533,8 @@
       },
       "eventIds": [
         "evt-r148-sept8",
-        "evt-r163-08"
+        "evt-r163-08",
+        "evt-r163-26"
       ],
       "status": "IDENTIFIED",
       "researchStatus": "IDENTIFIED",
@@ -4489,7 +4552,8 @@
       "promotionReason": "동시대 원속기록/관보에서 직책과 특정 행위가 확인됨; 생몰 및 동일인 확인은 미완료.",
       "evidenceDocumentIds": [
         "doc158b-frus-269",
-        "doc163-09"
+        "doc163-09",
+        "doc163-35"
       ],
       "researchNotes": [
         {
@@ -4498,6 +4562,14 @@
           "note": "1950 전시 사법·계엄 / 1960 행정·연금 / 1961 장면 정부 행위의 시점별 문서 연결. 당대 발표와 실제 집행·후대 조사 구분.",
           "documentIds": [
             "doc163-09"
+          ]
+        },
+        {
+          "date": "2026-10-26",
+          "run": 163,
+          "note": "1950-08-29~09-21 동시대 행정·입법·외교·군법회의 기록 연결. 발언·집행·후대 판결 분리.",
+          "documentIds": [
+            "doc163-35"
           ]
         }
       ]
@@ -5627,7 +5699,8 @@
         "evt-r163-01",
         "evt-r163-02",
         "evt-r163-03",
-        "evt-r163-12"
+        "evt-r163-12",
+        "evt-r163-18"
       ],
       "connections": [
         "evt-r150-19550914-nnsc-field-observation",
@@ -5642,7 +5715,8 @@
         "doc163-04",
         "doc163-02",
         "doc163-01",
-        "doc163-18"
+        "doc163-18",
+        "doc163-24"
       ],
       "openLeads": [
         "L150-32"
@@ -5679,6 +5753,14 @@
           "note": "1950-08-24 국사편찬위원회 원신문 전사에서 개별 장관·군인 행위 직접 확인. 계획·당사자 주장과 집행을 구분.",
           "documentIds": [
             "doc163-18"
+          ]
+        },
+        {
+          "date": "2026-10-26",
+          "run": 163,
+          "note": "1950-08-29~09-21 동시대 행정·입법·외교·군법회의 기록 연결. 발언·집행·후대 판결 분리.",
+          "documentIds": [
+            "doc163-24"
           ]
         }
       ]
@@ -5843,7 +5925,8 @@
         "evt-r160-08",
         "evt-r160-25",
         "evt-r162-16",
-        "evt-r163-10"
+        "evt-r163-10",
+        "evt-r163-30"
       ],
       "connections": [
         "evt-r149-1955-democratic",
@@ -5871,7 +5954,8 @@
         "doc159-gaz-0040",
         "doc159-gaz-0030",
         "doc162-fs017-52",
-        "doc163-15"
+        "doc163-15",
+        "doc163-44"
       ],
       "researchStatus": "VERIFIED",
       "promotionReason": "국가기록원 정당지도부·AKS 인물해제·1956 후보지명 사진목록",
@@ -5908,6 +5992,14 @@
           "note": "1950 전시 사법·계엄 / 1960 행정·연금 / 1961 장면 정부 행위의 시점별 문서 연결. 당대 발표와 실제 집행·후대 조사 구분.",
           "documentIds": [
             "doc163-15"
+          ]
+        },
+        {
+          "date": "2026-10-26",
+          "run": 163,
+          "note": "1950-08-29~09-21 동시대 행정·입법·외교·군법회의 기록 연결. 발언·집행·후대 판결 분리.",
+          "documentIds": [
+            "doc163-44"
           ]
         }
       ],
@@ -7203,9 +7295,12 @@
       "researchStatus": "IDENTIFIED",
       "evidenceDocumentIds": [
         "doc159-nih-fourth-commentary",
-        "doc159-aks-E0068344"
+        "doc159-aks-E0068344",
+        "doc163-35"
       ],
-      "eventIds": [],
+      "eventIds": [
+        "evt-r163-26"
+      ],
       "openLeads": [
         "L159-21",
         "L159-22"
@@ -7215,7 +7310,17 @@
       ],
       "backbone": false,
       "promotionReason": "Korean National Assembly contemporary transcript identifies named office or action; biographical birth/death and district remain unverified. VERIFIED means verified action, not full biography.",
-      "researchUpdatedAt": "2026-10-26"
+      "researchUpdatedAt": "2026-10-26",
+      "researchNotes": [
+        {
+          "date": "2026-10-26",
+          "run": 163,
+          "note": "1950-08-29~09-21 동시대 행정·입법·외교·군법회의 기록 연결. 발언·집행·후대 판결 분리.",
+          "documentIds": [
+            "doc163-35"
+          ]
+        }
+      ]
     },
     {
       "id": "pol-seo-beom-seok-r159",
