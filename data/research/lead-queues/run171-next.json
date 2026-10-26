@@ -350,11 +350,13 @@
       "agency": "유엔 디지털도서관",
       "target": "A/2187 1952 UNCURK 보고서 지방선거 압력·도의회 결의 관련 단락",
       "why": "선관위 후대 인용을 유엔 원문과 교차검증",
-      "status": "OPEN",
+      "status": "NARROWED_ACCESS_PATH",
       "priority": "MEDIUM",
-      "expectedInformationValue": "MEDIUM",
+      "expectedInformationValue": "HIGH",
       "accessDate": "2026-10-26",
-      "sourceRun": 171
+      "sourceRun": 171,
+      "alternateHolding": "국회도서관 『입법참고자료 31-35』, 소장 상세 MONO1198017705; A/2187 한국어본 목차: 정치발전, 지방선거, 소환운동, 부산계엄, 타협개정, 서민호·공산주의 음모 혐의 재판. 본문 원면 아직 미열람.",
+      "alternateLocation": "https://dl.nanet.go.kr/detail/MONO1198017705"
     },
     {
       "id": "L171-33",
@@ -485,8 +487,8 @@
     },
     {
       "id": "L170-13",
-      "state": "OPEN",
-      "result": "중앙선관위 후대 해제의 UNCURK 지방선거 압력 인용을 찾았으나 A/2187 원 PDF 9~11쪽 미확보.",
+      "state": "NARROWED",
+      "result": "중앙선관위 후대 해제의 UNCURK 지방선거 압력 인용을 찾았으나 A/2187 원 PDF 9~11쪽 미확보. 국회도서관 『입법참고자료 31-35』 MONO1198017705의 A/2187 한국어본 목차·쪽 색인을 새 대체 소장처로 발견. 보고서 본문·UN 원 PDF는 미열람.",
       "accessDate": "2026-10-26"
     },
     {
@@ -504,5 +506,6 @@
   ],
   "priorLeadsTracked": 9,
   "policy": "Do not treat unresolved lead as RESOLVED. Active 12, remaining backlog. Avoid mechanical duplication of Run170 targets; overlapping records are tied to distinct new chronological/actor/provenance questions.",
-  "weeklyFullReview": false
+  "weeklyFullReview": false,
+  "catalogueDiscoveryDocumentId": "doc171-nal-a2187-catalogue"
 }
