@@ -5193,9 +5193,7 @@
       "id": "evt-r160-01",
       "name": "SOFA 협상",
       "date": "1961-03-02",
-      "politicians": [
-        "pol-chung-il-hyeong"
-      ],
+      "politicians": [],
       "domain": "외교·사법",
       "evidenceState": "OPEN_OR_NARROWED",
       "documentIds": [
@@ -5226,7 +5224,9 @@
       "id": "evt-r160-02",
       "name": "장면 내각 환율·전력 개혁",
       "date": "1961-04-11",
-      "politicians": [],
+      "politicians": [
+        "pol-chang-myon"
+      ],
       "domain": "경제·산업",
       "evidenceState": "OPEN_OR_NARROWED",
       "documentIds": [
@@ -5286,7 +5286,8 @@
       "name": "정변군 한강교 진입",
       "date": "1961-05-16",
       "politicians": [
-        "pol-kim-yun-geun"
+        "pol-kim-yun-geun",
+        "pol-park-chung-hee"
       ],
       "domain": "안보·헌정",
       "evidenceState": "OPEN_OR_NARROWED",
@@ -5321,7 +5322,8 @@
       "name": "장도영 명의 05시 방송",
       "date": "1961-05-16",
       "politicians": [
-        "pol-chang-do-yeong"
+        "pol-chang-do-yeong",
+        "pol-park-chung-hee"
       ],
       "domain": "언론·헌정",
       "evidenceState": "OPEN_OR_NARROWED",
@@ -5358,7 +5360,8 @@
       "name": "계엄·국회·지방의회 해산",
       "date": "1961-05-16",
       "politicians": [
-        "pol-chang-do-yeong"
+        "pol-chang-do-yeong",
+        "pol-park-chung-hee"
       ],
       "domain": "입법·지방행정",
       "evidenceState": "OPEN_OR_NARROWED",
@@ -5433,7 +5436,9 @@
       "date": "1961-05-17",
       "politicians": [
         "pol-chang-do-yeong",
-        "pol-lee-han-lim"
+        "pol-lee-han-lim",
+        "pol-yun-posun",
+        "pol-chang-myon"
       ],
       "domain": "헌정·인사",
       "evidenceState": "OPEN_OR_NARROWED",
@@ -5495,7 +5500,10 @@
       "id": "evt-r160-10",
       "name": "특별재판소 정지·이관",
       "date": "1961-05-27",
-      "politicians": [],
+      "politicians": [
+        "pol-choi-in-kyu",
+        "pol-lee-kang-hak"
+      ],
       "domain": "사법·입법",
       "evidenceState": "OPEN_OR_NARROWED",
       "documentIds": [
@@ -5529,9 +5537,7 @@
       "id": "evt-r160-11",
       "name": "재건국민운동법 제622호 공포",
       "date": "1961-06-12",
-      "politicians": [
-        "pol-song-yo-chan"
-      ],
+      "politicians": [],
       "domain": "사회·교육",
       "evidenceState": "OPEN_OR_NARROWED",
       "documentIds": [
@@ -5629,7 +5635,8 @@
       "name": "박정희 권력집중·장도영 배제",
       "date": "1961-07-09",
       "politicians": [
-        "pol-chang-do-yeong"
+        "pol-chang-do-yeong",
+        "pol-park-chung-hee"
       ],
       "domain": "헌정·인사",
       "evidenceState": "OPEN_OR_NARROWED",
@@ -5661,7 +5668,8 @@
       "name": "1963 민정이양 계획",
       "date": "1961-08-12",
       "politicians": [
-        "pol-kim-jong-pil"
+        "pol-kim-jong-pil",
+        "pol-park-chung-hee"
       ],
       "domain": "헌정·선거",
       "evidenceState": "OPEN_OR_NARROWED",
@@ -5693,7 +5701,9 @@
       "id": "evt-r160-16",
       "name": "윤보선 유선방송법 결재",
       "date": "1961-08-24",
-      "politicians": [],
+      "politicians": [
+        "pol-yun-posun"
+      ],
       "domain": "행정·언론",
       "evidenceState": "OPEN_OR_NARROWED",
       "documentIds": [
@@ -5725,7 +5735,10 @@
       "id": "evt-r160-17",
       "name": "혁명재판소 3·15 판결",
       "date": "1961-09-20",
-      "politicians": [],
+      "politicians": [
+        "pol-choi-in-kyu",
+        "pol-lee-kang-hak"
+      ],
       "domain": "사법·책임",
       "evidenceState": "OPEN_OR_NARROWED",
       "documentIds": [
@@ -5786,6 +5799,35 @@
         "later_finding": []
       },
       "attributionGuardrail": "주체·문서의 명의·실제 결재·집행·후대 평가를 분리. 증거 없는 대통령 직접명령 귀속 금지."
+    },
+    {
+      "id": "evt-r160-19",
+      "name": "박정희·Rusk 1961-11-05 대면 외교면담",
+      "date": "1961-11-05",
+      "politicians": [
+        "pol-park-chung-hee"
+      ],
+      "domain": "외교·경제·행정",
+      "evidenceState": "OPEN_OR_NARROWED",
+      "documentIds": [
+        "doc160-frus-245"
+      ],
+      "roleGraph": {
+        "proposed_by": [
+          "미 국무부·국가재건최고회의 면담 조율(세부 원문 미확보)"
+        ],
+        "decided_by": [],
+        "executed_by": [
+          "박정희·Rusk·Berger 면담"
+        ],
+        "opposed_by": [],
+        "legal_authority": [],
+        "observed_by": [
+          "FRUS245 미국 회담록"
+        ],
+        "later_finding": []
+      },
+      "attributionGuardrail": "미국 회담록의 발언은 당사자 주장·평가로 분리"
     }
   ]
 }

@@ -320,7 +320,8 @@
       "openLeads": [
         "L160-ID-kim-yun-geun"
       ],
-      "promotionReason": "공직·정치적 행위가 동시대 문서에 등장. 군 지휘관은 정치적 역할 확인 전 후보 유지"
+      "promotionReason": "공직·정치적 행위가 동시대 문서에 등장. 군 지휘관은 정치적 역할 확인 전 후보 유지",
+      "identityGuardrail": "1961 해병여단장 김윤근과 1951 국민방위군 사건에서 처형된 동명이인 김윤근의 병합 금지. 1961 군직 원부 확인 필요."
     },
     {
       "id": "pol-chung-il-hyeong",
@@ -352,6 +353,63 @@
         "L160-ID-chung-il-hyeong"
       ],
       "promotionReason": "공직·정치적 행위가 동시대 문서에 등장. 군 지휘관은 정치적 역할 확인 전 후보 유지"
+    },
+    {
+      "id": "pol-park-chung-hee",
+      "legacyIds": [
+        "president-park-chunghee"
+      ],
+      "name": "박정희",
+      "aliases": [
+        "朴正熙",
+        "Park Chung-hee",
+        "Pak Chong-hui",
+        "Pak Chung-hi"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "REQUIRES_INDEPENDENT_BIOGRAPHICAL_SOURCE"
+      },
+      "roles": [
+        {
+          "period": "1961-05-16",
+          "title": "군사정변 주도 인물로 미군·국무부 보고에 등장",
+          "actType": "REPORTED_COUP_LEADERSHIP",
+          "evidenceDocumentIds": [
+            "doc160-frus-213",
+            "doc160-frus-215",
+            "doc160-frus-217"
+          ]
+        },
+        {
+          "period": "1961-11-05",
+          "title": "Rusk 국무장관과 회담",
+          "actType": "DIRECT_MEETING_REPORTED",
+          "evidenceDocumentIds": [
+            "doc160-frus-245"
+          ]
+        }
+      ],
+      "researchStatus": "IDENTIFIED",
+      "backbone": true,
+      "evidenceFile": "data/politicians/run160-1961-transition-actors.json",
+      "annalsFile": "data/annals/1961-transition-institutions-run160.md",
+      "eventIds": [
+        "evt-r160-04",
+        "evt-r160-05",
+        "evt-r160-06",
+        "evt-r160-14",
+        "evt-r160-15",
+        "evt-r160-19"
+      ],
+      "openLeads": [
+        "L160-ID-park-chung-hee"
+      ],
+      "historyDebt": [
+        "HD-R160-IDENTITY"
+      ],
+      "promotionReason": "1961 당시에는 대통령이 아니었으나 이후 대통령 backbone 인물. 1961 정치적 행위와 1963 이후 대통령 임기를 구분"
     }
   ]
 }
