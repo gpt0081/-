@@ -5307,7 +5307,8 @@
       "eventIds": [
         "evt-r150-19550914-nnsc-field-observation",
         "evt-r150-19551009-visit",
-        "evt-r160-15"
+        "evt-r160-15",
+        "evt-r160-22"
       ],
       "connections": [
         "evt-r150-19550914-nnsc-field-observation",
@@ -7276,7 +7277,8 @@
         "evt-r160-06",
         "evt-r160-08",
         "evt-r160-14",
-        "evt-r160-20"
+        "evt-r160-20",
+        "evt-r160-24"
       ],
       "evidenceFile": "data/politicians/run160-1961-transition-actors.json",
       "annalsFile": "data/annals/1961-transition-institutions-run160.md"
@@ -7699,7 +7701,8 @@
         "evt-r160-06",
         "evt-r160-14",
         "evt-r160-15",
-        "evt-r160-19"
+        "evt-r160-19",
+        "evt-r160-24"
       ],
       "openLeads": [
         "L160-ID-park-chung-hee"
@@ -7708,6 +7711,71 @@
         "HD-R160-IDENTITY"
       ],
       "promotionReason": "1961 당시에는 대통령이 아니었으나 이후 대통령 backbone 인물. 1961 정치적 행위와 1963 이후 대통령 임기를 구분"
+    },
+    {
+      "id": "pol-yu-yang-su",
+      "name": "유양수",
+      "aliases": [
+        "Yang Soo Yoo",
+        "Yu Yang-su",
+        "Yoo Yang-soo"
+      ],
+      "lifespan": {
+        "born": "1923",
+        "died": "2007",
+        "verification": "AKS_RETROSPECTIVE_YEAR"
+      },
+      "roles": [
+        {
+          "period": "1961-07-07",
+          "title": "국가재건최고회의 외무국방위원장·미주친선사절단장으로 Rusk 회담",
+          "actType": "FOREIGN_POLICY_NEGOTIATION",
+          "evidenceDocumentIds": [
+            "doc160-frus-234",
+            "doc160-aks-yu"
+          ]
+        },
+        {
+          "period": "1961-11-01",
+          "title": "국가재건최고회의 외무국방위원장, 외국 제486호 건의서 이첩 발신",
+          "actType": "DOCUMENTED_ADMINISTRATIVE_TRANSMITTAL",
+          "evidenceDocumentIds": [
+            "doc160-nahf-486"
+          ]
+        },
+        {
+          "period": "1963~1980",
+          "title": "필리핀·오스트리아·베트남 대사, 교통부·동력자원부 장관",
+          "actType": "OFFICE_BIOGRAPHICAL_CONTEXT",
+          "evidenceDocumentIds": [
+            "doc160-aks-yu"
+          ]
+        }
+      ],
+      "researchStatus": "VERIFIED",
+      "evidenceCoverage": {
+        "sourceFamilies": [
+          "US_FRUS",
+          "NAHF_DIPLOMATIC_ARCHIVE",
+          "AKS"
+        ],
+        "primaryDocumentCount": 2,
+        "biographicalSourceCount": 1
+      },
+      "eventIds": [
+        "evt-r160-22",
+        "evt-r160-23"
+      ],
+      "openLeads": [
+        "L160-ID-yu-yang-su",
+        "L160-NAHF-410",
+        "L160-YU-HANJA"
+      ],
+      "historyDebt": [
+        "HD-R160-IDENTITY"
+      ],
+      "promotionReason": "FRUS234 영문명 Yang Soo Yoo를 국사편찬위원회 한국어 전사 '유양수'로 식별, 1961-11-01 한국 외무국방위원장 서명 원문과 AKS 약전으로 교차검증. 양유찬과 병합 금지.",
+      "identityGuardrail": "Yang Soo Yoo=유양수, 기존 pol-yang-yu-chan(양유찬)과 다른 사람. 한자 표기는 원인사기록 확인 전 공란."
     }
   ]
 }

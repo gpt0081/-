@@ -323,9 +323,38 @@
       ],
       "status": "SUBSTANTIVE_DOCUMENT_OPENED",
       "distinctQuestion": true
+    },
+    {
+      "id": "line160-31",
+      "name": "1961-07-07 미주친선사절단 유양수·정일권의 대미외교",
+      "domain": "외교",
+      "documentIds": [
+        "doc160-frus-234",
+        "doc160-aks-yu"
+      ],
+      "status": "DIRECT_DOCUMENT_AND_IDENTITY_VERIFIED"
+    },
+    {
+      "id": "line160-32",
+      "name": "1961-11-01 국가재건최고회의 외무국방위원장 공한 이첩",
+      "domain": "외교·행정",
+      "documentIds": [
+        "doc160-nahf-486"
+      ],
+      "status": "ORIGINAL_TEXT_TRANSCRIPTION_OPENED"
+    },
+    {
+      "id": "line160-33",
+      "name": "1961-05-18/19 국가재건최고회의 개칭일 교차검증",
+      "domain": "헌정·행정",
+      "documentIds": [
+        "doc160-pa-scnr",
+        "doc160-naa-press"
+      ],
+      "status": "CONFLICTED_NOT_RESOLVED"
     }
   ],
-  "adversarialPropositions": 15,
+  "adversarialPropositions": 17,
   "adversarialKeywordSearchCount": "NOT_INDEPENDENTLY_COUNTED",
   "crossProvenance": [
     {
@@ -352,14 +381,23 @@
         "NIH",
         "NAA_RETROSPECTIVE"
       ]
+    },
+    {
+      "claim": "유양수 외무국방위원장 직책·대미사절단 활동",
+      "families": [
+        "US_FRUS",
+        "NAHF_DIPLOMATIC_ARCHIVE",
+        "AKS"
+      ],
+      "limitation": "AKS는 후대 약전, 한국사DB FRUS 번역은 독립 원본으로 계산하지 않음"
     }
   ],
-  "directMeaningfulDocuments": 58,
-  "contemporaneousOrOriginalTranscription": 46,
+  "directMeaningfulDocuments": 61,
+  "contemporaneousOrOriginalTranscription": 47,
   "facsimileOpened": 0,
-  "actorCandidatesAdded": 11,
+  "actorCandidatesAdded": 12,
   "existingActorsDeepened": 5,
-  "eventsAdded": 21,
+  "eventsAdded": 24,
   "priorLeadsTracked": [
     {
       "id": "L159-26",
@@ -434,7 +472,7 @@
       "facsimileOpened": false
     }
   ],
-  "nextLeadsCreated": 57,
+  "nextLeadsCreated": 60,
   "weeklyFullReview": "NOT_RUN_MONDAY",
   "flootUntouched": true,
   "sourceCountGuardrail": "FRUS 45 documents are one provenance family, not 45 independent institutions",
@@ -460,5 +498,12 @@
   "claimEvidenceQACorrected": 15,
   "claimStatusPolicy": "No claim is supported merely by context or by an allegation; FRUS source roles separated",
   "identityLeadsAdded": 12,
-  "actorEventLinksQA": true
+  "actorEventLinksQA": true,
+  "additionalPrimaryDiscovery": {
+    "documentId": "doc160-nahf-486",
+    "date": "1961-11-01",
+    "documentNumber": "외국 제486호",
+    "person": "유양수",
+    "sourceFamily": "NAHF_DIPLOMATIC_ARCHIVE"
+  }
 }
