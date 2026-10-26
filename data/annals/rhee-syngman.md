@@ -705,3 +705,16 @@ FRUS 1955–1957 한국권 제23권 2부 문서 70·71·77·84·86을 직접 열
 - **6월25일~7월5일 미국 비상계획:** JCS·Clark의 개입계획 작성·준비는 실제 군사개입 집행과 다르다. `FRUS d192`, `d207`.
 
 자료·주장·사건: `data/documents/run171-1952-constitutional-election-and-frus.json`, `data/claims/run171-1952-adversarial-source-criticism.json`, `data/events/run171-1952-decision-actions.json`. 출처 정정 이력: `data/research/corrections/run171-1952-chronology-provenance.md`. 원면 시각검증 0.
+
+
+## Run173 · 1953~54 전후 경제재건과 내각의 독립 행위 (2026-10-26)
+
+- **1953-06-23 NSC156:** 미국 Tasca 경제사절단 보고서는 원조 규모와 산업·농정·금융 안정화를 **제안**했다. 원조금의 실제 지출 확정은 아니다. [FRUS d632](https://history.state.gov/historicaldocuments/frus1952-54v15p2/d632).
+- **7월29일·31일:** 미국 정부는 경제조정관 임명과 군의 민간재건 역할을 논의했다. 7월31일 아이젠하워 메모는 **초안**이며 실제 발송명령이 아니다. [d729](https://history.state.gov/historicaldocuments/frus1952-54v15p2/d729), [d731](https://history.state.gov/historicaldocuments/frus1952-54v15p2/d731).
+- **8월5~8일:** 이승만과 덜레스의 연속 회담에는 국무총리 백두진·외무장관 변영태·국방장관 손원일 등이 참여했다. 이승만은 미국 원조의 기간·규모를 명확히 하라고 요청했고, 백두진은 별도로 Stevens 장관에게 제출한 경제 질문의 답변을 요구했다. 이승만 요구와 백두진의 실무 협상을 동일 행위로 합치지 않는다. [d734](https://history.state.gov/historicaldocuments/frus1952-54v15p2/d734), [d737](https://history.state.gov/historicaldocuments/frus1952-54v15p2/d737), [d739](https://history.state.gov/historicaldocuments/frus1952-54v15p2/d739).
+- **8월8일:** 이승만·덜레스 공동성명은 서명됐고 변영태·덜레스의 상호방위조약은 **초안 가서명** 단계였다. 정식 서명·비준·발효와 구분한다. [d741](https://history.state.gov/historicaldocuments/frus1952-54v15p2/d741).
+- **11월9~20일:** NSC170 초안→국무부 수정→NSC 토의→170/1 승인 과정이 확인된다. 한국이 독자적으로 전투를 재개하면 미국이 원조를 중단한다는 조항은 **미국의 조건부 정책**이며 실제 제재가 집행됐다는 증거가 아니다. [d797](https://history.state.gov/historicaldocuments/frus1952-54v15p2/d797), [d802](https://history.state.gov/historicaldocuments/frus1952-54v15p2/d802), [d804](https://history.state.gov/historicaldocuments/frus1952-54v15p2/d804), [d805](https://history.state.gov/historicaldocuments/frus1952-54v15p2/d805).
+- **12월14일:** 백두진 국무총리와 C. Tyler Wood 경제조정관이 재건·재정안정 합동경제위원회 협약을 서명했다고 1954년 미국 OCB 보고가 기술하며, 1961년 유엔 조약집은 이 협약을 별도로 인용한다. 1953 협약의 **한국어 서명정본·집행대장**은 아직 없다. [d882](https://history.state.gov/historicaldocuments/frus1952-54v15p2/d882), [UNTS Vol405](https://treaties.un.org/doc/Publication/UNTS/Volume%20405/v405.pdf).
+- **1954년3월26일:** 미국 OCB는 FOA 사업이 계획보다 지연됐다고 보고한다. 2억 달러 예산, 약 5천만 달러 확정 요청, 6월말 1억5천만 달러 약정 예상은 서로 다른 회계 단계다. 미국의 신규건설 제한과 한국 측 안정화 합의 지연을 모두 원인으로 적었다.
+
+자료 계층: `data/documents/run173-postarmistice-economy-source-audit.json`, `data/events/run173-postarmistice-economic-action-graph.json`, `data/claims/run173-postarmistice-economic-adversarial.json`, `data/evidence/rhee/run173-postarmistice-economic-policy.json`. 직접 열람 문서 37건(원문·전사·후대 서술 포함), 27건 공식 1차·동시대 원문; 원면 시각검증 0건. 원문 미확보와 부분 검증은 `L173-*`로 유지한다.
