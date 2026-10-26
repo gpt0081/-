@@ -1,0 +1,35 @@
+{
+  "run": "run187",
+  "date": "2026-10-27",
+  "validatedAt": "2026-10-27",
+  "checks": {
+    "uniqueEventIds": true,
+    "uniqueDocumentIds": true,
+    "uniqueClaimIds": true,
+    "canonicalPoliticianIdsExistForEventLinks": true,
+    "documentIdsExistForEventLinks": true,
+    "existingActorEdgesReferenceExistingEventIds": true,
+    "canonicalPoliticianCandidateIdsRegistered": true,
+    "changedFilesOutsideData": false,
+    "flootTouched": false,
+    "weeklyDebtFullReview": false
+  },
+  "metricsCorrections": {
+    "strictSpecificLeads": 39,
+    "generalIdentityFollowups": 15,
+    "totalLeads": 54,
+    "meaningfullyFollowedOldDebtsOrLeads": 2
+  },
+  "priorCommitShas": [
+    "c2f4fa24f333b387ce2d47c4938768c35b183c90",
+    "e853601de8149323a126666e5b40f665bce38bd0",
+    "960794922823a28c43649cde7274473d6fd259ee"
+  ],
+  "finalCommitSha": "see branch HEAD / PR #38; cannot self-embed current commit SHA before commit creation",
+  "notes": [
+    "No full-hour runtime claimed.",
+    "No original gazette facsimile read.",
+    "No 3 independent original source-family crosschecks completed.",
+    "No false RESOLVED status."
+  ]
+}

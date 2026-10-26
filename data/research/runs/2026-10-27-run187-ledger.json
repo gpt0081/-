@@ -25,11 +25,13 @@
     "newClaims": 12,
     "adversarialComparisonRoutes": 12,
     "fullyIndependentAdversarialSearchesCompleted": 0,
-    "existingDebtOrLeadTraced": 4,
+    "existingDebtOrLeadTraced": 2,
     "newHistoryDebt": 3,
-    "newSpecificLeads": 54,
+    "newSpecificLeads": 39,
     "strictThreeIndependentPrimaryFamilyCrossChecks": 0,
-    "partialTwoFamilyCrossChecks": 2
+    "partialTwoFamilyCrossChecks": 2,
+    "actorIdentityFollowupLeads": 15,
+    "totalQueuedLeads": 54
   },
   "sourceIds": [
     "doc187-rhee-security-statement",
@@ -55,7 +57,7 @@
     "doc187-local-law-commentary",
     "doc187-security-law85-official"
   ],
-  "filesExpected": 9,
+  "filesExpected": 16,
   "commitSha": null,
   "limitations": [
     "No original page images read",
@@ -63,5 +65,18 @@
     "No formal party registry or appointment originals",
     "No full-hour claim",
     "No weekly debt census Tuesday"
+  ],
+  "modifiedFileCount": 16,
+  "commitsBeforeFinalLedgerCommit": [
+    "c2f4fa24f333b387ce2d47c4938768c35b183c90",
+    "e853601de8149323a126666e5b40f665bce38bd0",
+    "960794922823a28c43649cde7274473d6fd259ee"
+  ],
+  "prUrl": "https://github.com/gpt0081/-/pull/38",
+  "auditCorrections": [
+    "Strict specific-lead count is 39 institution/date/record targets; 15 templated identity followups excluded from strict count.",
+    "Only HD-R185d-01 and L186-02 meaningfully followed; previous figure 4 reduced to 2.",
+    "Canonical registry now updated with 5 candidates and 10 existing actor edges.",
+    "15 events after FRUS meeting separated and judge IDs removed."
   ]
 }
