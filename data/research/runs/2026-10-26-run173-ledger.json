@@ -3,15 +3,15 @@
   "date": "2026-10-26",
   "branch": "research/run173-20261026-postarmistice-economic-reconstruction",
   "base": "research/run172-20261026-unts2353-economic-cabinet-source-audit",
-  "executionStatus": "COMMITTED_PARTIAL_TARGETS_MET",
+  "executionStatus": "RESEARCHED_NOT_FULLY_INTEGRATED",
   "metrics": {
-    "researchLines": 15,
+    "researchLines": 18,
     "domains": 7,
     "nonpresidentialProfilesReviewed": 10,
     "newlySubstantiveNonpresidentialActors": 1,
-    "newEvents": 17,
-    "substantiveDocsRead": 37,
-    "primaryOrContemporaneousDocs": 27,
+    "newEvents": 23,
+    "substantiveDocsRead": 46,
+    "primaryOrContemporaneousDocs": 34,
     "facsimiles": 0,
     "adversarialTopics": 12,
     "priorLeadsFollowed": 17,
@@ -19,7 +19,7 @@
     "partialCrossChecks": 3,
     "completeThreePrimaryCrossChecks": 0,
     "politiciansTotal": 228,
-    "eventsTotal": 591
+    "eventsTotal": 597
   },
   "commitsBeforeLedger": [
     "0cf3c61b9805c626b149175768701ed642727903",
@@ -50,13 +50,22 @@
   "ledgerCreationCommit": "SELF_NOT_INCLUDED_IN_CONTENT; SEE_GITHUB_PR_AND_FINAL_REPORT",
   "changedFilesBeforeLedger": 20,
   "verifiedBy": "GitHub compare_commits base...head ahead=23 files=20 prior to ledger",
-  "readCountRule": "Unique substantial documents opened; previously read UNTS179 was reopened, not new corpus. Search-only KDI HTTP502 not counted. US FRUS not counted as 22 independent provenance families.",
+  "readCountRule": "46 distinct substantive opened documents (30 FRUS including 2 editorials, 2 UNTS, 4 ROK laws, 7 AKS, 1 NAA, 1 academic PDF, 1 KDI official retrospective). 34 primary/contemporaneous original transcriptions: 28 FRUS +2 UNTS +4 law. 1952 UNTS previously seen and reopened. KDI direct full page read after initial HTTP502; 1952 establishment original still OPEN. No invented independent provenance count.",
   "researchConstraints": [
-    "KDI 1952-07-03 page HTTP502",
+    "KDI chronology initially HTTP502, subsequently successfully opened through alternate content fetch",
     "Exa web fetch 402 credit exhaustion",
-    "National Archives viewer source image not visually inspected"
+    "National Archives original viewer not visually inspected",
+    "Additional claim and lead integration write blocked by safety checks; not retried or bypassed"
   ],
   "weeklyFullReview": "역사부채 주간 전수조사 미실시",
   "next": "data/research/lead-queues/run173-next.json",
-  "floot": "NOT_TOUCHED_OR_BUILT"
+  "floot": "NOT_TOUCHED_OR_BUILT",
+  "postLedgerCommitsBeforeFinalUpdate": [
+    "73271255c5cad27ec4eb07e9d4fa20e73398f324",
+    "75467a96b97111053b11b44471c42ef9258e5098",
+    "3358798c37ae95ca820f39d856270d6397d2ccb3",
+    "a4b670926b4e51dba9f9a3e7ff34347b5dae6b08",
+    "ff06de8f1fbd129a5f979bad9a76302e9a0f352a"
+  ],
+  "finalLedgerUpdateCommit": "SELF_NOT_INCLUDED; SEE_GITHUB_PR_HEAD"
 }
