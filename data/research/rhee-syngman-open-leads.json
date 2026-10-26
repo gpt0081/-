@@ -209,7 +209,8 @@
       "nextLeadQueue": "data/research/lead-queues/run160-next.json"
     },
     "data/research/lead-queues/run162-next.json",
-    "data/research/lead-queues/run169-next.json"
+    "data/research/lead-queues/run169-next.json",
+    "data/research/lead-queues/run170-next.json"
   ],
   "run163NewQueuePath": "data/research/lead-queues/run163-next.json",
   "run163Followup": {
@@ -291,5 +292,18 @@
     ],
     "guardrail": "Do not resolve without original order and implementation records"
   },
-  "run169Followup": "data/research/history-debt/run169-followup.md"
+  "run169Followup": "data/research/history-debt/run169-followup.md",
+  "run170Followup": {
+    "scope": "1950~1952 정부개헌안·국회안 단계별 원문 및 1949 농지법",
+    "queue": "data/research/lead-queues/run170-next.json",
+    "historyDebt": "data/research/HISTORY_DEBT.md#run170-개별-역사부채-갱신-2026-10-26",
+    "corrections": "data/research/corrections/run170-provenance-and-date.md",
+    "trackedInheritedLeadIds": [
+      "L169-02",
+      "L169-04",
+      "L169-12",
+      "L169-16"
+    ],
+    "note": "4 inherited leads narrowed, none RESOLVED. 35 concrete new leads; active 15, backlog 20."
+  }
 }
