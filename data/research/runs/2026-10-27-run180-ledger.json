@@ -57,9 +57,10 @@
     "Several politician links remain allegations or secondhand observations"
   ],
   "commits": [
-    "0b59d03dcddbeaa978e873377c7c6542f160df62"
+    "0b59d03dcddbeaa978e873377c7c6542f160df62",
+    "9b8b26c1c42c8770be56f90366b8e03610d7e9c7"
   ],
-  "finalIntegrationState": "TO_BE_VALIDATED",
+  "finalIntegrationState": "INTEGRATED_WITH_UNRESOLVED_PROVENANCE_LIMITS",
   "modifiedFiles": [
     "data/documents/run180-1949-frus-korean-assembly.json",
     "data/events/run180-1949-decision-chains.json",
@@ -83,5 +84,21 @@
     "data/evidence/rhee-syngman-run180.json",
     "data/research/runs/2026-10-27-run180-report.md",
     "data/research/runs/2026-10-27-run180-ledger.json"
-  ]
+  ],
+  "newDocumentsRegistered": 43,
+  "reusedExistingDocumentIds": [
+    "d95d-frus-248"
+  ],
+  "finalAuditCommitShaSource": "research/run180-20261027-1949-frus-legislature-evidence-crosscheck HEAD",
+  "pullRequest": 31,
+  "pullRequestUrl": "https://github.com/gpt0081/-/pull/31",
+  "validation": {
+    "run180PoliticianIdsUnique": true,
+    "run180EventIdsUnique": true,
+    "run180DocumentIdsUnique": true,
+    "run180ClaimIdsUnique": true,
+    "run180LeadIdsUnique": true,
+    "newReferencesResolved": true,
+    "wholeRepositoryHistoricalReferencesAudited": false
+  }
 }
