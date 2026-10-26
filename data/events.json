@@ -405,6 +405,16 @@
         "https://history.state.gov/historicaldocuments/frus1952-54v15p2/d651",
         "https://history.state.gov/historicaldocuments/frus1952-54v15p2/d662",
         "https://history.state.gov/historicaldocuments/frus1952-54v15p2/d682"
+      ],
+      "relatedSubevents": [
+        "evt-r173-10"
+      ],
+      "reviewHistory": [
+        {
+          "date": "2026-10-26",
+          "run": 173,
+          "change": "Added staged subevents; earlier confirmed facts preserved"
+        }
       ]
     },
     {
@@ -499,6 +509,17 @@
         "https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&chrClsCd=010202&efYd=19530215&lsiSeq=1617&urlMode=lsInfoP",
         "https://archives.bok.or.kr/content/exhibition/get/805/1076",
         "https://www.bok.or.kr/portal/main/contents.do?menuNo=200381"
+      ],
+      "relatedSubevents": [
+        "evt-r173-02",
+        "evt-r173-03"
+      ],
+      "reviewHistory": [
+        {
+          "date": "2026-10-26",
+          "run": 173,
+          "change": "Added staged subevents; earlier confirmed facts preserved"
+        }
       ]
     },
     {
@@ -568,7 +589,16 @@
           "run": 172,
           "action": "LATE_EVIDENCE_NARROWING",
           "reason": "FRUS d135 directly opened after UNTS source audit; reported presidential authorization added, earlier no-evidence wording qualified."
+        },
+        {
+          "date": "2026-10-26",
+          "run": 173,
+          "change": "Added staged subevents; earlier confirmed facts preserved"
         }
+      ],
+      "relatedSubevents": [
+        "evt-r173-01",
+        "evt-r173-14"
       ]
     },
     {
@@ -2541,7 +2571,17 @@
       ],
       "later_finding": [],
       "researchStatus": "IDENTIFIED",
-      "attributionGuardrail": "정책·법률·예산·집행을 구별; 연표 요약을 직접 명령의 증거로 사용하지 않음"
+      "attributionGuardrail": "정책·법률·예산·집행을 구별; 연표 요약을 직접 명령의 증거로 사용하지 않음",
+      "relatedSubevents": [
+        "evt-r173-15"
+      ],
+      "reviewHistory": [
+        {
+          "date": "2026-10-26",
+          "run": 173,
+          "change": "Added staged subevents; earlier confirmed facts preserved"
+        }
+      ]
     },
     {
       "id": "evt-r148b-counterpart-fund",
@@ -9149,7 +9189,17 @@
           "US FRUS·한국 당대 조약 전사·후대 기관해제 분리"
         ],
         "later_finding": []
-      }
+      },
+      "relatedSubevents": [
+        "evt-r173-17"
+      ],
+      "reviewHistory": [
+        {
+          "date": "2026-10-26",
+          "run": 173,
+          "change": "Added staged subevents; earlier confirmed facts preserved"
+        }
+      ]
     },
     {
       "id": "evt-r162-41",
@@ -20372,6 +20422,611 @@
       ],
       "provenanceFamily": "US_FRUS_1952_DIPLOMATIC_ORIGINAL",
       "sourceQualification": "미국의 외교행동·계획이며 한국 정부가 이를 수용하거나 실제 군사개입이 발생했다는 증거가 아님."
+    },
+    {
+      "id": "evt-r173-01",
+      "name": "합동경제위원회 설치일 KDI 연표의 후대 기록",
+      "date": "1952-07-03",
+      "domain": "경제·행정",
+      "stage": "SECONDARY_REPORTED_ESTABLISHMENT",
+      "politicians": [
+        "pol-paik-too-chin"
+      ],
+      "sourceDocumentIds": [
+        "doc173-aks-ceb",
+        "doc173-unts-1952-reference"
+      ],
+      "sources": [
+        "https://encykorea.aks.ac.kr/Article/E0081259",
+        "https://treaties.un.org/doc/Publication/UNTS/Volume%20179/v179.pdf"
+      ],
+      "parentEventId": "evt-1952-meyer-economic-coordination",
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": "UNKNOWN",
+      "observed_by": [
+        "doc173-aks-ceb",
+        "doc173-unts-1952-reference"
+      ],
+      "later_finding": [],
+      "confirmed": [
+        "1952-05-24 협정 발효와 1952-07-03 실제 기구 설치 주장은 서로 다른 단계. KDI 연표 검색 색인에는 7/3 설치, 원회의록 미열람."
+      ],
+      "openQuestions": [
+        "해당 단계의 원문 원면·집행대장·한국 측 독립 출처 확보"
+      ],
+      "evidenceState": "narrowed",
+      "accessDate": "2026-10-26",
+      "sourceQualification": "Source proves the stated stage, not unrecorded execution, assent or individual culpability."
+    },
+    {
+      "id": "evt-r173-02",
+      "name": "긴급통화조치령 제13호 제정·공포",
+      "date": "1953-02-15",
+      "domain": "금융·헌정",
+      "stage": "LEGAL_PROMULGATION",
+      "politicians": [
+        "pol-rhee-syngman"
+      ],
+      "sourceDocumentIds": [
+        "doc173-law-1953-currency"
+      ],
+      "sources": [
+        "https://law.go.kr/LSW/lsInfoP.do?lsiSeq=1617"
+      ],
+      "parentEventId": "evt-1953-currency-reform",
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": "대한민국 법령 원문",
+      "observed_by": [
+        "doc173-law-1953-currency"
+      ],
+      "later_finding": [],
+      "confirmed": [
+        "대통령긴급명령 제13호 1953-02-15 제정·시행, 법률적 효력과 국회 승인절차는 별도 검증."
+      ],
+      "openQuestions": [
+        "해당 단계의 원문 원면·집행대장·한국 측 독립 출처 확보"
+      ],
+      "evidenceState": "documented",
+      "accessDate": "2026-10-26",
+      "sourceQualification": "Source proves the stated stage, not unrecorded execution, assent or individual culpability."
+    },
+    {
+      "id": "evt-r173-03",
+      "name": "긴급통화조치령에 따른 원→환 100대1 전환 효력",
+      "date": "1953-02-17",
+      "domain": "금융·재정",
+      "stage": "LEGAL_EFFECT_DATE",
+      "politicians": [
+        "pol-rhee-syngman"
+      ],
+      "sourceDocumentIds": [
+        "doc173-law-1953-currency"
+      ],
+      "sources": [
+        "https://law.go.kr/LSW/lsInfoP.do?lsiSeq=1617"
+      ],
+      "parentEventId": "evt-1953-currency-reform",
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": "대한민국 법령 원문",
+      "observed_by": [
+        "doc173-law-1953-currency"
+      ],
+      "later_finding": [],
+      "confirmed": [
+        "명령 발령 2/15와 통화단위 효력 2/17 구분; 실제 구권 교환 실적 미확인."
+      ],
+      "openQuestions": [
+        "해당 단계의 원문 원면·집행대장·한국 측 독립 출처 확보"
+      ],
+      "evidenceState": "narrowed",
+      "accessDate": "2026-10-26",
+      "sourceQualification": "Source proves the stated stage, not unrecorded execution, assent or individual culpability."
+    },
+    {
+      "id": "evt-r173-04",
+      "name": "Tasca Mission 한국 재건·안보 결합 경제원조 보고",
+      "date": "1953-06-15",
+      "domain": "경제·산업·농정·복지",
+      "stage": "POLICY_RECOMMENDATION",
+      "politicians": [],
+      "sourceDocumentIds": [
+        "doc173-frus-632"
+      ],
+      "sources": [
+        "https://history.state.gov/historicaldocuments/frus1952-54v15p2/d632"
+      ],
+      "parentEventId": null,
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": "UNKNOWN",
+      "observed_by": [
+        "doc173-frus-632"
+      ],
+      "later_finding": [],
+      "confirmed": [
+        "미국 대통령 특별대표 보고: 1954회계연도 신규 3억달러 제안; 물가·식량·광물·생산 계획은 추정, 한국 정책결정 아님."
+      ],
+      "openQuestions": [
+        "해당 단계의 원문 원면·집행대장·한국 측 독립 출처 확보"
+      ],
+      "evidenceState": "narrowed",
+      "accessDate": "2026-10-26",
+      "sourceQualification": "Source proves the stated stage, not unrecorded execution, assent or individual culpability."
+    },
+    {
+      "id": "evt-r173-05",
+      "name": "미국 정부 한국 원조조직 조정 회의",
+      "date": "1953-07-29",
+      "domain": "행정·외교",
+      "stage": "US_POLICY_DISCUSSION",
+      "politicians": [],
+      "sourceDocumentIds": [
+        "doc173-frus-729"
+      ],
+      "sources": [
+        "https://history.state.gov/historicaldocuments/frus1952-54v15p2/d729"
+      ],
+      "parentEventId": null,
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": "UNKNOWN",
+      "observed_by": [
+        "doc173-frus-729"
+      ],
+      "later_finding": [],
+      "confirmed": [
+        "Wood 파견·Taylor 지휘권 위임 검토, 실제 임명·발령 미확인."
+      ],
+      "openQuestions": [
+        "해당 단계의 원문 원면·집행대장·한국 측 독립 출처 확보"
+      ],
+      "evidenceState": "narrowed",
+      "accessDate": "2026-10-26",
+      "sourceQualification": "Source proves the stated stage, not unrecorded execution, assent or individual culpability."
+    },
+    {
+      "id": "evt-r173-06",
+      "name": "아이젠하워 한국 재건 군참여 지시 초안",
+      "date": "1953-07-31",
+      "domain": "행정·교육·복지",
+      "stage": "DRAFT_NOT_ISSUED",
+      "politicians": [],
+      "sourceDocumentIds": [
+        "doc173-frus-731"
+      ],
+      "sources": [
+        "https://history.state.gov/historicaldocuments/frus1952-54v15p2/d731"
+      ],
+      "parentEventId": null,
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": "UNKNOWN",
+      "observed_by": [
+        "doc173-frus-731"
+      ],
+      "later_finding": [],
+      "confirmed": [
+        "학교·병원·도로 복구 군참여 제안. draft와 발령 구분."
+      ],
+      "openQuestions": [
+        "해당 단계의 원문 원면·집행대장·한국 측 독립 출처 확보"
+      ],
+      "evidenceState": "narrowed",
+      "accessDate": "2026-10-26",
+      "sourceQualification": "Source proves the stated stage, not unrecorded execution, assent or individual culpability."
+    },
+    {
+      "id": "evt-r173-07",
+      "name": "이승만·덜레스 1차 회담과 한국측 내각 참석",
+      "date": "1953-08-05",
+      "domain": "외교·안보",
+      "stage": "MEETING_RECORDED",
+      "politicians": [
+        "pol-rhee-syngman",
+        "pol-paik-too-chin",
+        "pol-pyun-yong-tae",
+        "pol-sohn-won-yil"
+      ],
+      "sourceDocumentIds": [
+        "doc173-frus-734"
+      ],
+      "sources": [
+        "https://history.state.gov/historicaldocuments/frus1952-54v15p2/d734"
+      ],
+      "parentEventId": null,
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": "UNKNOWN",
+      "observed_by": [
+        "doc173-frus-734"
+      ],
+      "later_finding": [],
+      "confirmed": [
+        "정치회담의 참가국·의제 협의. 회담 참석은 개별 제안·찬성으로 자동 귀속하지 않음."
+      ],
+      "openQuestions": [
+        "해당 단계의 원문 원면·집행대장·한국 측 독립 출처 확보"
+      ],
+      "evidenceState": "narrowed",
+      "accessDate": "2026-10-26",
+      "sourceQualification": "Source proves the stated stage, not unrecorded execution, assent or individual culpability."
+    },
+    {
+      "id": "evt-r173-08",
+      "name": "이승만·덜레스 2차 회담 경제원조 기간·예산 논의",
+      "date": "1953-08-06",
+      "domain": "경제·외교·재정",
+      "stage": "MEETING_RECORDED",
+      "politicians": [
+        "pol-rhee-syngman",
+        "pol-paik-too-chin",
+        "pol-pyun-yong-tae",
+        "pol-sohn-won-yil"
+      ],
+      "sourceDocumentIds": [
+        "doc173-frus-737"
+      ],
+      "sources": [
+        "https://history.state.gov/historicaldocuments/frus1952-54v15p2/d737"
+      ],
+      "parentEventId": null,
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": "UNKNOWN",
+      "observed_by": [
+        "doc173-frus-737"
+      ],
+      "later_finding": [],
+      "confirmed": [
+        "2억달러 초기 원조와 Tasca 약 10억달러 장기계획 구분. 이승만은 기간 명확화 요구."
+      ],
+      "openQuestions": [
+        "해당 단계의 원문 원면·집행대장·한국 측 독립 출처 확보"
+      ],
+      "evidenceState": "narrowed",
+      "accessDate": "2026-10-26",
+      "sourceQualification": "Source proves the stated stage, not unrecorded execution, assent or individual culpability."
+    },
+    {
+      "id": "evt-r173-09",
+      "name": "백두진의 미국측 원조계획 질의와 CEB 조정 제안",
+      "date": "1953-08-07",
+      "domain": "경제·외교·행정",
+      "stage": "MEETING_RECORDED",
+      "politicians": [
+        "pol-rhee-syngman",
+        "pol-paik-too-chin",
+        "pol-pyun-yong-tae",
+        "pol-sohn-won-yil",
+        "pol-lim-byong-jik"
+      ],
+      "sourceDocumentIds": [
+        "doc173-frus-739"
+      ],
+      "sources": [
+        "https://history.state.gov/historicaldocuments/frus1952-54v15p2/d739"
+      ],
+      "parentEventId": null,
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": "UNKNOWN",
+      "observed_by": [
+        "doc173-frus-739"
+      ],
+      "later_finding": [],
+      "confirmed": [
+        "백두진은 Stevens 답변을 요구; Dulles는 Tasca/Wood 후속협의 제안; CEB 실제 결정과 분리."
+      ],
+      "openQuestions": [
+        "해당 단계의 원문 원면·집행대장·한국 측 독립 출처 확보"
+      ],
+      "evidenceState": "narrowed",
+      "accessDate": "2026-10-26",
+      "sourceQualification": "Source proves the stated stage, not unrecorded execution, assent or individual culpability."
+    },
+    {
+      "id": "evt-r173-10",
+      "name": "이승만·덜레스 공동성명 서명과 변영태 방위조약 가서명",
+      "date": "1953-08-08",
+      "domain": "외교·안보·헌정",
+      "stage": "SIGNED_JOINT_STATEMENT_INITIALLED_TREATY",
+      "politicians": [
+        "pol-rhee-syngman",
+        "pol-pyun-yong-tae",
+        "pol-paik-too-chin",
+        "pol-sohn-won-yil"
+      ],
+      "sourceDocumentIds": [
+        "doc173-frus-741"
+      ],
+      "sources": [
+        "https://history.state.gov/historicaldocuments/frus1952-54v15p2/d741"
+      ],
+      "parentEventId": "evt-1953-us-rok-mutual-defense-negotiation",
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": "UNKNOWN",
+      "observed_by": [
+        "doc173-frus-741"
+      ],
+      "later_finding": [],
+      "confirmed": [
+        "공동성명 서명과 변영태-덜레스 조약 초안 가서명(initialing) 별개. 조약 정식 서명·비준·발효는 후속 단계."
+      ],
+      "openQuestions": [
+        "해당 단계의 원문 원면·집행대장·한국 측 독립 출처 확보"
+      ],
+      "evidenceState": "narrowed",
+      "accessDate": "2026-10-26",
+      "sourceQualification": "Source proves the stated stage, not unrecorded execution, assent or individual culpability."
+    },
+    {
+      "id": "evt-r173-11",
+      "name": "미국 NSC170 한국정책 초안",
+      "date": "1953-11-09",
+      "domain": "외교·안보·경제",
+      "stage": "US_POLICY_DRAFT",
+      "politicians": [],
+      "sourceDocumentIds": [
+        "doc173-frus-797"
+      ],
+      "sources": [
+        "https://history.state.gov/historicaldocuments/frus1952-54v15p2/d797"
+      ],
+      "parentEventId": null,
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": "UNKNOWN",
+      "observed_by": [
+        "doc173-frus-797"
+      ],
+      "later_finding": [],
+      "confirmed": [
+        "한국 단독공격 시 원조중단 조건 제안과 경제지원 설계, 11/20 승인본과 구분."
+      ],
+      "openQuestions": [
+        "해당 단계의 원문 원면·집행대장·한국 측 독립 출처 확보"
+      ],
+      "evidenceState": "narrowed",
+      "accessDate": "2026-10-26",
+      "sourceQualification": "Source proves the stated stage, not unrecorded execution, assent or individual culpability."
+    },
+    {
+      "id": "evt-r173-12",
+      "name": "미국 NSC 제171차 회의에서 한국정책·경제원조 수정",
+      "date": "1953-11-19",
+      "domain": "외교·경제·행정",
+      "stage": "US_POLICY_REVISION",
+      "politicians": [],
+      "sourceDocumentIds": [
+        "doc173-frus-802",
+        "doc173-frus-804"
+      ],
+      "sources": [
+        "https://history.state.gov/historicaldocuments/frus1952-54v15p2/d802",
+        "https://history.state.gov/historicaldocuments/frus1952-54v15p2/d804"
+      ],
+      "parentEventId": null,
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": "UNKNOWN",
+      "observed_by": [
+        "doc173-frus-802",
+        "doc173-frus-804"
+      ],
+      "later_finding": [],
+      "confirmed": [
+        "경제원조 생산성·안정성 우선순위 및 중립화 조항 논의. 국무부 권고와 최종 결정 구분."
+      ],
+      "openQuestions": [
+        "해당 단계의 원문 원면·집행대장·한국 측 독립 출처 확보"
+      ],
+      "evidenceState": "narrowed",
+      "accessDate": "2026-10-26",
+      "sourceQualification": "Source proves the stated stage, not unrecorded execution, assent or individual culpability."
+    },
+    {
+      "id": "evt-r173-13",
+      "name": "NSC170/1 승인 및 한국 단독공격 원조중단 조건 채택",
+      "date": "1953-11-20",
+      "domain": "외교·안보·경제",
+      "stage": "US_POLICY_APPROVED",
+      "politicians": [],
+      "sourceDocumentIds": [
+        "doc173-frus-805",
+        "doc173-frus-882"
+      ],
+      "sources": [
+        "https://history.state.gov/historicaldocuments/frus1952-54v15p2/d805",
+        "https://history.state.gov/historicaldocuments/frus1952-54v15p2/d882"
+      ],
+      "parentEventId": null,
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": "미국 국가안보회의·대통령 승인",
+      "observed_by": [
+        "doc173-frus-805",
+        "doc173-frus-882"
+      ],
+      "later_finding": [],
+      "confirmed": [
+        "미 대통령 승인된 조건부 정책. 실제 한국 원조 중단은 확인되지 않음."
+      ],
+      "openQuestions": [
+        "해당 단계의 원문 원면·집행대장·한국 측 독립 출처 확보"
+      ],
+      "evidenceState": "documented",
+      "accessDate": "2026-10-26",
+      "sourceQualification": "Source proves the stated stage, not unrecorded execution, assent or individual culpability."
+    },
+    {
+      "id": "evt-r173-14",
+      "name": "백두진·C. Tyler Wood 합동경제위원회 재건·재정안정협약 서명",
+      "date": "1953-12-14",
+      "domain": "경제·재정·외교",
+      "stage": "BILATERAL_AGREEMENT_SIGNED_REPORTED",
+      "politicians": [
+        "pol-paik-too-chin"
+      ],
+      "sourceDocumentIds": [
+        "doc173-frus-882",
+        "doc173-unts-1961-supersession"
+      ],
+      "sources": [
+        "https://history.state.gov/historicaldocuments/frus1952-54v15p2/d882",
+        "https://treaties.un.org/doc/Publication/UNTS/Volume%20405/v405.pdf"
+      ],
+      "parentEventId": "evt-1952-meyer-economic-coordination",
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": "UNKNOWN",
+      "observed_by": [
+        "doc173-frus-882",
+        "doc173-unts-1961-supersession"
+      ],
+      "later_finding": [],
+      "confirmed": [
+        "1954 OCB 보고와 1961 UNTS가 1953-12-14 협약 존재를 각각 명시. 1953 협약 원서명본 미열람."
+      ],
+      "openQuestions": [
+        "해당 단계의 원문 원면·집행대장·한국 측 독립 출처 확보"
+      ],
+      "evidenceState": "narrowed",
+      "accessDate": "2026-10-26",
+      "sourceQualification": "Source proves the stated stage, not unrecorded execution, assent or individual culpability."
+    },
+    {
+      "id": "evt-r173-15",
+      "name": "재정법 제305호 회계연도 개정",
+      "date": "1954-01-23",
+      "domain": "재정·입법",
+      "stage": "LEGISLATION_PROMULGATED",
+      "politicians": [],
+      "sourceDocumentIds": [
+        "doc173-law-1951-fiscal",
+        "doc173-law-1954-fiscal"
+      ],
+      "sources": [
+        "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=3736",
+        "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=3737"
+      ],
+      "parentEventId": "evt-r148b-fiscal-year",
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": "UNKNOWN",
+      "observed_by": [
+        "doc173-law-1951-fiscal",
+        "doc173-law-1954-fiscal"
+      ],
+      "later_finding": [],
+      "confirmed": [
+        "1951 4~3월에서 1954 7~6월로 변경. 이미 evt-r148b-fiscal-year 존재하므로 기존 사건 보강 참조용 subevent."
+      ],
+      "openQuestions": [
+        "해당 단계의 원문 원면·집행대장·한국 측 독립 출처 확보"
+      ],
+      "evidenceState": "narrowed",
+      "accessDate": "2026-10-26",
+      "sourceQualification": "Source proves the stated stage, not unrecorded execution, assent or individual culpability."
+    },
+    {
+      "id": "evt-r173-16",
+      "name": "미 OCB 한국 재건·원조 집행점검 및 지연 보고",
+      "date": "1954-03-26",
+      "domain": "경제·산업·교육·복지·재정",
+      "stage": "CONTEMPORANEOUS_PROGRESS_REPORT",
+      "politicians": [],
+      "sourceDocumentIds": [
+        "doc173-frus-882"
+      ],
+      "sources": [
+        "https://history.state.gov/historicaldocuments/frus1952-54v15p2/d882"
+      ],
+      "parentEventId": null,
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": "UNKNOWN",
+      "observed_by": [
+        "doc173-frus-882"
+      ],
+      "later_finding": [],
+      "confirmed": [
+        "2억달러 FOA 사업 첫 반기 firm requests 약 5천만달러, 6월말 commitment 최대 1억5천만 전망; 실제 지급 아님. 학교·도로·부산화재 복구 미군사업 보고."
+      ],
+      "openQuestions": [
+        "해당 단계의 원문 원면·집행대장·한국 측 독립 출처 확보"
+      ],
+      "evidenceState": "narrowed",
+      "accessDate": "2026-10-26",
+      "sourceQualification": "Source proves the stated stage, not unrecorded execution, assent or individual culpability."
+    },
+    {
+      "id": "evt-r173-17",
+      "name": "1961 한미 경제기술원조 각서교환에 따른 1952·1953 협정 대체",
+      "date": "1961-02-08",
+      "domain": "경제·외교·법률",
+      "stage": "BILATERAL_TREATY_SUPERSESSION",
+      "politicians": [],
+      "sourceDocumentIds": [
+        "doc173-unts-1961-supersession"
+      ],
+      "sources": [
+        "https://treaties.un.org/doc/Publication/UNTS/Volume%20405/v405.pdf"
+      ],
+      "parentEventId": "evt-r162-40",
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": "UNKNOWN",
+      "observed_by": [
+        "doc173-unts-1961-supersession"
+      ],
+      "later_finding": [],
+      "confirmed": [
+        "UNTS 405 No5821에 두 협정 대체 및 1952 협정 III(13) 별도 처리 명시. 1961 정일형 행위자는 기존 evt-r162-40 참조."
+      ],
+      "openQuestions": [
+        "해당 단계의 원문 원면·집행대장·한국 측 독립 출처 확보"
+      ],
+      "evidenceState": "narrowed",
+      "accessDate": "2026-10-26",
+      "sourceQualification": "Source proves the stated stage, not unrecorded execution, assent or individual culpability."
     }
   ]
 }
