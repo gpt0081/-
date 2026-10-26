@@ -1,6 +1,6 @@
 {
   "politicianId": "president-rhee-syngman",
-  "updatedAt": "2026-10-12",
+  "updatedAt": "2026-10-26",
   "rule": "새 회차는 기존 완료 자료를 재검색하지 않고 unresolved를 먼저 해결한다.",
   "queue": [
     {
@@ -190,6 +190,23 @@
   ],
   "additionalQueues": [
     "data/research/lead-queues/run110-next.json",
-    "data/research/lead-queues/run110e-next.json"
+    "data/research/lead-queues/run110e-next.json",
+    {
+      "run": 160,
+      "date": "2026-10-26",
+      "scope": "1961 제1공화국 사후 재판·헌정책임",
+      "leadIds": [
+        "L159-26",
+        "L159-29",
+        "L159-39",
+        "L159-40",
+        "L159-46",
+        "L159-47",
+        "L159-48",
+        "L159-49",
+        "L159-50"
+      ],
+      "nextLeadQueue": "data/research/lead-queues/run160-next.json"
+    }
   ]
 }
