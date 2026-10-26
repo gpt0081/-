@@ -211,7 +211,8 @@
     "data/research/lead-queues/run162-next.json",
     "data/research/lead-queues/run169-next.json",
     "data/research/lead-queues/run170-next.json",
-    "data/research/lead-queues/run171-next.json"
+    "data/research/lead-queues/run171-next.json",
+    "data/research/lead-queues/run173-next.json"
   ],
   "run163NewQueuePath": "data/research/lead-queues/run163-next.json",
   "run163Followup": {
@@ -353,5 +354,27 @@
       "FRUS d149 delivered US request vs d153 only planned Clark intervention"
     ],
     "blockedIntegration": "HISTORY_DEBT May30 addendum write rejected by safety checks; source claim and event layers integrated; do not treat addendum as written."
+  },
+  "run173Followup": {
+    "queue": "data/research/lead-queues/run173-next.json",
+    "newSpecificLeads": 40,
+    "trackedPriorLeadCount": 17,
+    "priority": [
+      "L173-11",
+      "L173-14",
+      "L173-16",
+      "L173-18",
+      "L173-22",
+      "L173-33",
+      "L173-34"
+    ],
+    "criticalDebts": [
+      "HD-R173-ECON-01",
+      "HD-R173-ECON-02",
+      "HD-R173-MONEY-01",
+      "HD-R173-CONST-01"
+    ],
+    "status": "UNRESOLVED_PRIOR_LEADS_RETAINED",
+    "notes": "KDI CEB installation date is indexed but source full text HTTP502; no forced RESOLVED"
   }
 }
