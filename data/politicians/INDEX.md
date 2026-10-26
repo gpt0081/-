@@ -136,3 +136,10 @@ See `data/politicians/run113-prewar-network.json` for 12 sourced profiles. No ca
 ## Run158d · 1960-06-15 국회 기명투표 원명부
 - 국사편찬위 헌정사DB 국회 제4대 제35회 제37차 `cons_004_0020_0010_0080` 원문에서 **218명 행위**(찬성208·반대3·불참7) 추출: `data/votes/1960-06-15-constitutional-amendment.json`. 208명 전체를 성급히 정치인 registry로 승격하지 않고 원문 한자·행위·identity status를 보존.
 - 이옥동·조일재·이영희 발언과 표결 일관성 증거, 반대3명 실명, 김원태·윤보선·곽상훈 직접 행위 연결. `data/annals/1960-constitutional-rollcall-run158d.md`.
+
+
+## Run162 · 1953~1961 한미행정협정과 정치인 독립 노드
+- 기존 노드 심화: 백두진, 변영태, 손원일, 임병직, 조정환, 장면. 기존 stable ID 유지.
+- 신규 candidate: 김동조 `pol-kim-dong-jo`, 현석호 `pol-hyon-seok-ho`, 김용식 `pol-kim-yong-shik`, 유동한 `cand-r162-you-dong-han`; 최규하 `pol-choi-kyu-hah`는 후대 대통령 backbone과 병합 검토. 동명이인 방지·생몰·임명원부 검증 전 본 registry 승격 보류.
+- 각 후보는 `data/politicians/run162-sofa-actors.json`에 시기별 역할, 원문, 사건, lead, 검증상태 기록. 1957 'Minister Han'은 성명 미확정이므로 인물 노드 미생성.
+- 자료 `data/documents/run162-sofa-primary.json`; 사건 `data/events/run162-sofa-actions.json`; 주장 `data/claims/run162-sofa-adversarial.json`; 실록 `data/annals/rhee-sofa-diplomacy-run162.md`.
