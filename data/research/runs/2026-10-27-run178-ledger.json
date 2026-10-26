@@ -16,17 +16,18 @@
     "newEvents": 17,
     "newClaims": 14,
     "strictAdversarialSearches": 5,
-    "priorLeadsTracked": 8,
-    "priorLeadsNarrowed": 3,
+    "priorLeadsTracked": 3,
+    "priorLeadsNarrowed": 1,
     "priorLeadsResolved": 0,
     "newLeads": 46,
     "twoFamilyPartialCrosschecks": 3,
-    "threeFamilyPrimaryCrosschecks": 0
+    "threeFamilyPrimaryCrosschecks": 0,
+    "priorLeadsCarriedForward": 5
   },
   "weeklyFullReview": "역사부채 주간 전수조사 미실시",
   "floot": "untouched/unbuilt",
   "executionTime": "NOT_MEASURED_NOT_CLAIMED_ONE_HOUR",
-  "integrity": "TO_BE_VERIFIED",
+  "integrity": "VERIFIED_NEW_ID_REFERENCES_ONLY",
   "countsBefore": {
     "politicians": 244,
     "events": 655
@@ -45,5 +46,18 @@
     "doc178-naa-1949-cabinet-volume-index"
   ],
   "sourceAccess": "web opened substantive full text or institutional history; no image facsimiles",
-  "newEvidenceCorrection": "1954 Connelly 5/15 date explicitly flagged as original-text error by NIH Korean editorial translator; keep primary original pending."
+  "newEvidenceCorrection": "1954 Connelly 5/15 date explicitly flagged as original-text error by NIH Korean editorial translator; keep primary original pending.",
+  "validation": {
+    "date": "2026-10-27",
+    "politicianCount": 258,
+    "eventCount": 672,
+    "newEventReferencesMissing": 0,
+    "newPoliticianReferencesMissing": 0,
+    "newDocumentReferencesMissing": 0,
+    "allHistoricalFilesAudited": false
+  },
+  "commitsRecorded": [
+    "697dd093b5d8eb08d02c3d993ddab10807a9f2a6"
+  ],
+  "latestCommitLookup": "Read live branch ref; follow-up audit commit cannot self-reference its own SHA in immutable commit body."
 }
