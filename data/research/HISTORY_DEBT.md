@@ -830,3 +830,10 @@ run110d 신규 6건: `data/research/history-debt/run110-addendum.md`. `HD-RHEE-1
 - **L167-17/18 OPEN**: 백낙준 총리 11/3 국회 원속기록 미확보. 후속 L168-08/09.
 - **Run168 correction OPEN**: FRUS d781~789 9개 URL은 본문 응답이 실행 컨텍스트에 보존되지 않아 실질 검증에서 제외. 원폭·NIE-2 세부 주장도 재열람 전 확정 보류. `data/research/corrections/run168-source-access-audit.md`.
 - **last_full_review 변경 없음**. 월요일이므로 역사부채 주간 전수조사 미실시.
+
+
+## 2026-10-26 · Run169 개별 역사부채·source repair
+- Run168 미검증 FRUS d781–789 9건을 **Run169에서 새로 직접 열어 본문 검증**. Run168 당시 미검증 판단·당시 계수는 소급 변경하지 않는다. `data/research/corrections/run169-source-repair.md`.
+- 기존 lead 10개(L168-01/04/08/09/11/12/13, L167-29/36/42)를 원문 확인 또는 구체 차단 사유로 추적. UN S/PV.519 오전 회의 원문 확보, NIE-2 실제 병력 확정 보류, 원폭 검토·사용승인 구분, JCS96060 임무 재검토 확인.
+- 신규 부채 HD-R169-01~06: 1950-11-07 법제처 개헌 기안철, 1950-07-10 피난민 행정 실제 집행, 1949 농지개혁법 절차·최종 조문, 임병직 완충지대 한국 원발신문, 중국군 원전투서열·중소 지휘선, 1950-11-18 적 항공활동 보고의 11/20 자기정정.
+- `data/research/history-debt/run169-followup.md`에 양쪽 근거·상태·다음 원문 표적 보존. **역사부채 주간 전수조사 미실시**. `last_full_review` 변경 없음.
