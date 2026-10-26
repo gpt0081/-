@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "run": 180,
+  "date": "2026-10-27",
+  "baseBranch": "research/run179-20261027-government-org-original-votes",
+  "branch": "research/run180-20261027-1949-frus-legislature-evidence-crosscheck",
+  "baseCommit": "2c81172dd0253afea0217a34a8f38063aa44166e",
+  "researchPrimaryTheme": "1949 FRUS + Korean National Assembly primary crosscheck",
+  "independentResearchLines": 30,
+  "domainsSubstantiallyCovered": 13,
+  "nonPresidentProfilesReviewed": 31,
+  "newPoliticianCandidates": 15,
+  "promotions": [
+    {
+      "id": "pol-cho-byeong-ok",
+      "from": "DISCOVERED",
+      "to": "IDENTIFIED",
+      "basis": [
+        "doc180-frus-268",
+        "doc180-frus-269"
+      ]
+    },
+    {
+      "id": "pol-kim-jang-yeol-1949",
+      "from": "OVERLAY_IDENTIFIED",
+      "to": "BASE_IDENTIFIED",
+      "basis": [
+        "d95b-martial-assembly1025",
+        "doc180b-1026-0070"
+      ],
+      "caveat": "사회당 동명이인 후보 병합 금지"
+    }
+  ],
+  "eventsAdded": 56,
+  "documentsReadSubstantive": 80,
+  "officialOrContemporaneousDocumentsRead": 80,
+  "originalFacsimileViewed": 0,
+  "frusDocuments": 42,
+  "sourceFamilies": [
+    "US State Department FRUS original correspondence and republished Korean/UN documents",
+    "Korean National Assembly stenographic record transcription",
+    "Korean contemporary newspaper transcription"
+  ],
+  "adversarialSubjectsExamined": 32,
+  "completeIndependentThreeFamilyCrossChecks": 0,
+  "partialTwoFamilyCrossChecks": 6,
+  "oldDebtTracked": [
+    "HD-R95-005",
+    "HD-R95-006",
+    "HD-R95-007",
+    "HD-R107-02",
+    "HD-R170-LAND-01",
+    "HD-RHEE-002",
+    "HD-R179d-05",
+    "HD-R179d-07"
+  ],
+  "oldDebtStatusChanged": [
+    "HD-R95-005 OPEN→NARROWED"
+  ],
+  "newDebtItems": 12,
+  "newLeadCount": 119,
+  "weeklyFullDebtReviewPerformed": false,
+  "executionDurationMinutes": null,
+  "executionDurationNotClaimed": true,
+  "limitations": [
+    "No original facsimile examined",
+    "Three-family independent corroboration absent",
+    "No Korean original ministerial meeting notes for reported China base talks",
+    "Two of 20 target research lines unmet",
+    "Several politician links remain allegations or secondhand observations",
+    "Only six independently targeted adversarial source searches, short of ten goal; twelve claim topics analyzed"
+  ],
+  "commits": [
+    "0b59d03dcddbeaa978e873377c7c6542f160df62",
+    "9b8b26c1c42c8770be56f90366b8e03610d7e9c7",
+    "8714c685fde7a158ddb2bdad92d08feeb93378d6",
+    "b8c9c609a660d30683cc0f58775cb4dc1dc7e13c",
+    "167ba2f7b10aec15ca619ffc79ce39d1be92bb7b",
+    "68c07561aed1fcd4438cd2023e3669c1bfa08c87",
+    "7915ef25276169aa4ed01a06f9e42b69a7b767b9"
+  ],
+  "finalIntegrationState": "INTEGRATED_WITH_UNRESOLVED_PROVENANCE_LIMITS",
+  "modifiedFiles": [
+    "data/documents/run180-1949-frus-korean-assembly.json",
+    "data/events/run180-1949-decision-chains.json",
+    "data/claims/run180-1949-adversarial.json",
+    "data/politicians/run180-1949-actor-audit.json",
+    "data/research/lead-queues/run180-next.json",
+    "data/annals/1949-frus-national-assembly-run180.md",
+    "data/politicians.json",
+    "data/events.json",
+    "data/research/HISTORY_DEBT.md",
+    "data/research/rhee-syngman-coverage.json",
+    "data/politicians/INDEX.md",
+    "data/annals/cho-byeong-ok-run180.md",
+    "data/annals/sohn-won-yil-run180.md",
+    "data/annals/kim-gu-run180.md",
+    "data/annals/lee-beom-seok-run180.md",
+    "data/annals/rhee-syngman-run180.md",
+    "data/evidence/cho-byeong-ok-run180.json",
+    "data/evidence/sohn-won-yil-run180.json",
+    "data/evidence/kim-gu-run180.json",
+    "data/evidence/rhee-syngman-run180.json",
+    "data/research/runs/2026-10-27-run180-report.md",
+    "data/research/runs/2026-10-27-run180-ledger.json",
+    "data/politicians/run180b-1949-korean-actor-network.json",
+    "data/events/run180b-1949-korean-peacetime-actions.json",
+    "data/claims/run180b-1949-korean-adversarial.json",
+    "data/documents/run180b-1949-korean-peacetime-primary.json",
+    "data/research/lead-queues/run180b-next.json",
+    "data/annals/1949-korean-peacetime-run180b.md",
+    "data/annals/kim-hyo-seok-run180b.md",
+    "data/evidence/kim-hyo-seok-run180b.json",
+    "data/annals/kim-hun-run180b.md",
+    "data/evidence/kim-hun-run180b.json",
+    "data/annals/ahn-ho-sang-run180b.md",
+    "data/evidence/ahn-ho-sang-run180b.json",
+    "data/annals/han-tong-suk-run180b.md",
+    "data/evidence/han-tong-suk-run180b.json",
+    "data/annals/choi-myeong-sik-run180b.md",
+    "data/evidence/choi-myeong-sik-run180b.json",
+    "data/annals/kim-jang-yeol-run180b.md",
+    "data/evidence/kim-jang-yeol-run180b.json"
+  ],
+  "newDocumentsRegistered": 79,
+  "reusedExistingDocumentIds": [
+    "d95d-frus-248"
+  ],
+  "finalAuditCommitShaSource": "research/run180-20261027-1949-frus-legislature-evidence-crosscheck HEAD",
+  "pullRequest": 31,
+  "pullRequestUrl": "https://github.com/gpt0081/-/pull/31",
+  "validation": {
+    "run180PoliticianIdsUnique": true,
+    "run180EventIdsUnique": true,
+    "run180DocumentIdsUnique": true,
+    "run180ClaimIdsUnique": true,
+    "run180LeadIdsUnique": true,
+    "newReferencesResolved": true,
+    "wholeRepositoryHistoricalReferencesAudited": false,
+    "run180bReferencesResolved": true,
+    "run180bPoliticianIdsUnique": true,
+    "run180bEventIdsUnique": true,
+    "run180bDocumentIdsUnique": true,
+    "run180bClaimIdsUnique": true,
+    "run180bLeadIdsUnique": true
+  },
+  "nonDirectContextDocumentsRegistered": 1,
+  "totalNewDocumentRegistryRecords": 80,
+  "corrections": [
+    {
+      "date": "2026-10-27",
+      "action": "Separate president contextual links from institutional acts",
+      "eventIds": [
+        "evt-r180-01",
+        "evt-r180-11",
+        "evt-r180-12",
+        "evt-r180-19",
+        "evt-r180-20"
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "action": "Use date range for UNCOK press suspension/resumption",
+      "eventId": "evt-r180-24"
+    },
+    {
+      "date": "2026-10-27",
+      "action": "Tag Jeju official retrospective excerpt as not directly read",
+      "documentId": "doc180-jeju43-foundation-context"
+    }
+  ],
+  "followupDetails": "Four additional old debts cross-checked against FRUS d261,d304,d281,d272 without forcing resolution",
+  "independentAdversarialSourceSearches": 9,
+  "independentAdversarialSearchGoal": 10,
+  "adversarialSearchShortfall": 1,
+  "independentAdversarialSearchPaths": [
+    "농지개혁법 공포일: 한국 관보 vs 미국 외교문서",
+    "제주4·3 군사성과 서술 vs 후대 정부 진상조사 요약",
+    "이승만 북진 발언: 한국인 친서 vs 미국 외교관 회담·면담 기록",
+    "한중기지 합의설 vs 한국측 거부 공한의 미측 보고",
+    "조병옥 병력 확대·웨더마이어 지지 주장 vs 미국 회의록·후속 서한",
+    "언론인 자백 주장 vs 미국 국무부 반대 의견·미대사관 증거 한계"
+  ],
+  "additionalPhase": "run180b Korean contemporary policy corpus",
+  "koreanNewDocumentsDirectlyRead": 36,
+  "claimsAdded": 37,
+  "nonPresidentProfilesReviewedUniqueNotYetAudited": true,
+  "additionalActorProfilesReviewed": 32,
+  "additionalNewBasePoliticians": 14,
+  "run180bLeadCount": 63
+}
