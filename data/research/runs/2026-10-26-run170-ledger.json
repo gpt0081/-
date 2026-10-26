@@ -29,6 +29,8 @@
     "859709bbabaaa819600ee77f4c6724b4b07c7efd",
     "c50442548f569ff4575149355a86ffc4934fe91e",
     "98e191b421559adc017053e91b0f6dfe7d397840",
+    "7e7672a7f40910583d87b975caefc7dc02fca596",
+    "1f9137d1e0bea344a6be1cd47d31bfd1ee4c280f",
     "79cb58020d5e41420eaa99cdfacd5864ea1d885d",
     "482f1685d5b6ff9edeaace885c542f642a1ac535",
     "bb7a15d97854f07b4b260c39b3fddb3687c74074",
@@ -55,9 +57,10 @@
     "77897899c063eabe14f80fa88a593fedafbf752a",
     "5a8309204048392f622588f2f9e0f7472a21295e",
     "1111785c5654f32720431619c82fd79e0c419b64",
-    "65c64e96898b0d6398cd19a572c6822895af7dfb"
+    "65c64e96898b0d6398cd19a572c6822895af7dfb",
+    "547eeaa84618b2b8676eb255332f7d36e7ffb2ad"
   ],
-  "commitCountBeforeLedger": 32,
+  "commitCountBeforeLedger": 35,
   "modifiedFiles": [
     "data/documents/run170-constitutional-process.json",
     "data/events/run170-constitutional-process.json",
@@ -90,5 +93,6 @@
   "weeklyReviewNote": "역사부채 주간 전수조사 미실시",
   "flootModified": false,
   "flootBuilt": false,
-  "consistencyGate": "INTEGRATED_RUN170_REFERENCES_ZERO_MISSING"
+  "consistencyGate": "INTEGRATED_RUN170_REFERENCES_ZERO_MISSING",
+  "commitAuditNote": "PR #21 ahead count was 35 before this correction. Two omitted commit SHAs (actor overlay creation and FRUS/constitution document registry update) were identified by adjacent GitHub compare and added. This correction commit itself is reported externally."
 }
