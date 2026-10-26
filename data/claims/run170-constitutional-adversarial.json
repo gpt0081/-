@@ -156,14 +156,52 @@
         "US_FRUS"
       ],
       "accessDate": "2026-10-26"
+    },
+    {
+      "id": "claim-r170-10",
+      "claim": "조진만의 사망연도는 현재 공개된 두 기관 약력에서 일치한다",
+      "status": "CONFLICTED",
+      "supportingEvidence": [],
+      "contradictingEvidence": [
+        "doc170-cho-incheon-bio",
+        "doc170-cho-aks-bio"
+      ],
+      "insufficientEvidence": [
+        "인천광역시사 표제 1903~1972 vs 한국민족문화대백과사전 1979-02-12. 사망신고·묘적·당시 부고 등 원증빙 필요"
+      ],
+      "sourceFamilies": [
+        "INCHEON_LOCAL_HISTORY",
+        "AKS_BIOGRAPHY"
+      ],
+      "accessDate": "2026-10-26"
+    },
+    {
+      "id": "claim-r170-11",
+      "claim": "1952-07-04 국회 개헌안 가결과 1952-01-18 정부안 부결은 같은 표결이다",
+      "status": "CONTRADICTED",
+      "supportingEvidence": [],
+      "contradictingEvidence": [
+        "doc170-assembly-1952-0118",
+        "doc170-frus-1952-0704-editorial",
+        "doc170-na-1952-0707-constitution"
+      ],
+      "insufficientEvidence": [],
+      "sourceFamilies": [
+        "KOREA_NATIONAL_ASSEMBLY",
+        "US_FRUS_EDITORIAL_DERIVED_UN",
+        "KOREA_EXECUTIVE_LAW"
+      ],
+      "assessment": "1952-01-18 정부안 19:143:1 부결; 1952-07-04 발췌안 163:0:3 가결; 1952-07-07 공포. FRUS는 UN A/2187 파생 편집주석.",
+      "accessDate": "2026-10-26"
     }
   ],
-  "independentAdversarialSearches": 4,
+  "independentAdversarialSearches": 5,
   "executedAdversarialSearchTopics": [
     "1950 지시 vs 1951 국무회의 의결 및 1952 국회 부결 원기록",
     "1951 10월 개헌 요령 초안 이본의 구성 차이",
     "1952 1월 개헌안 표결과 3월 국회 당사자 반론",
-    "1949 농지개혁법 공포·조문과 시행·분배 시점 차이"
+    "1949 농지개혁법 공포·조문과 시행·분배 시점 차이",
+    "조진만 사망연도 인천시사 1972 vs AKS 1979 상충 역추적"
   ],
   "crossProvenanceCaution": "국회기록원 후대 요약과 1952 국회 성명은 원생산기관 국회 한 계열이다. 국가기록원 전시 페이지에 실린 국무회의록과 관보는 서로 다른 원문서이나 모두 한국 행정부 생산 계열. FRUS 1952 문서는 별도 미국 외교 계열이나 1월 표결 수치를 직접 입증하지 않는다."
 }
