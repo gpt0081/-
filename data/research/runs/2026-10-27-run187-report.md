@@ -26,3 +26,6 @@ Run186 PR #37 head 4c48cae 기반 stacked 연구 브랜치. 기존 L186-01/02/03
 
 ### Run187 사후 내부참조 검증 정정
 초기 event04에 판사 2명의 미등록 정치인 ID가 붙고, 조병옥의 1949-01-05 외교 면담을 1949-12 법조인 사건과 잘못 연결한 참조 오류를 발견했다. 판사는 정치인 registry에 무근거 승격하지 않고 사건04의 정치인 링크를 제거했다. 조병옥은 신규 사건15로 분리했다. 대통령 ID도 기존 `president-rhee-syngman`을 재사용한다. correction commit으로 보존하며 초기 기록을 침묵 덮어쓰기하지 않는다.
+
+### Run187 정치인 registry 실동기화
+기존 canonical `data/politicians.json`에 비대통령 후보 5명 신규 추가, 기존 10명에게 기간별 source-attributed 행위·사건·문서 관계를 보강했다. 이승만 canonical `pol-rhee-syngman`과 대통령 backbone 별칭을 구분해 공개담화 행위를 연결했다. 명제세·안호상 독립 annals 후속장을 추가했다. 기존 자료는 삭제하지 않았다. 연구성숙도 승격은 0명이다.
