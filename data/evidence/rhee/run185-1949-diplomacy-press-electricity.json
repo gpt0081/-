@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "run": 185,
+  "date": "2026-10-27",
+  "politicianId": "pol-rhee-syngman",
+  "focus": "1949-05~06 외교·대외원조·언론·에너지 기록의 개인행위와 기관행위 분리",
+  "sourceDocumentIds": [
+    "doc185-frus-255",
+    "doc185-frus-256",
+    "doc185-frus-257",
+    "doc185-frus-258",
+    "doc185-frus-259",
+    "doc185-frus-260",
+    "doc185-frus-263",
+    "doc180-frus-264",
+    "doc185-nara-seoul-shinmun",
+    "doc185-nih-frus263-translation"
+  ],
+  "assertions": [
+    {
+      "id": "e185-rhee-01",
+      "date": "1949-06-06",
+      "actorId": "pol-rhee-syngman",
+      "kind": "CONTEMPORANEOUS_DIPLOMATIC_REPORTED_SELF_STATEMENT",
+      "summary": "무초 면담에서 조병옥에게 미군 주둔연기 요구 자제를 지시했다고 이승만이 진술",
+      "support": [
+        "doc185-frus-259"
+      ],
+      "limits": "경무대 원발신 전문·조병옥 수신본 부재; 실제 수신과 이행 미확정",
+      "eventId": "evt-r185-05"
+    },
+    {
+      "id": "e185-rhee-02",
+      "date": "1949-06-06",
+      "actorId": "pol-rhee-syngman",
+      "kind": "CONTEMPORANEOUS_DIPLOMATIC_REPORTED_POLICY_PREFERENCE",
+      "summary": "미군 주둔 연장보다 미국의 공개적인 대한민국 지원보장을 선호한다고 무초에게 진술",
+      "support": [
+        "doc185-frus-259"
+      ],
+      "limits": "무초의 미국측 면담기록; 한국측 독립 메모 미확보",
+      "eventId": "evt-r185-05"
+    },
+    {
+      "id": "e185-rhee-03",
+      "date": "1949-05-04",
+      "actorId": null,
+      "kind": "OFFICIAL_ARCHIVAL_RETROSPECTIVE_INSTITUTIONAL_ACTION",
+      "summary": "국가기록원 서울신문 정간 설명은 공보처 기관행위를 기술하며 대통령 개인 결재를 확인하지 않는다",
+      "support": [
+        "doc185-nara-seoul-shinmun"
+      ],
+      "limits": "공식 콘텐츠 내부 날짜 충돌 및 원결재 부재",
+      "eventId": "evt-r185-01",
+      "actorInstitution": "공보처 (organization ID not yet reconciled)"
+    },
+    {
+      "id": "e185-rhee-04",
+      "date": "1949-06-13",
+      "actorId": null,
+      "kind": "TREATY_SIGNING_INSTITUTIONAL_NOT_PRESIDENT_PERSONAL",
+      "summary": "한미 전력청구권 협정 체결은 정부간 조약행위이며 이승만 개인 서명 여부는 미확인",
+      "support": [
+        "doc185-frus-263"
+      ],
+      "limits": "TIAS 4026 원서명본 미확보, 번역 송전기간 1948/1949 충돌",
+      "eventId": "evt-r185-08",
+      "actorInstitution": "대한민국 정부 (signatories unresolved)"
+    }
+  ],
+  "adversarial": [
+    {
+      "claimId": "claim185-03",
+      "target": "조병옥 원수신 전문"
+    },
+    {
+      "claimId": "claim185-08",
+      "target": "TIAS4026 영문 원조약"
+    },
+    {
+      "claimId": "claim185-09",
+      "target": "서울신문 정간 원명령"
+    }
+  ],
+  "originalFacsimilesViewed": 0,
+  "accessDate": "2026-10-27"
+}

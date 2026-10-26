@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 1,
+  "run": "185",
+  "date": "2026-10-27",
+  "timezone": "Asia/Seoul",
+  "automationStartLocal": "2026-10-27T06:23:15+09:00",
+  "endLocal": null,
+  "elapsedMinutes": null,
+  "fullHourClaimed": false,
+  "weeklyFullHistoryDebtReview": false,
+  "weeklyFullHistoryDebtReviewNote": "역사부채 주간 전수조사 미실시",
+  "sourceAudit": {
+    "substantiveUniqueDocumentsOpened": 12,
+    "officialContemporaneousPrimaryDocumentsOpened": 9,
+    "officialRetrospectiveOrEditorialDocumentsOpened": 3,
+    "facsimilePagesVerified": 0,
+    "originalSignedDocumentsObtained": 0,
+    "previouslyRegisteredReused": [
+      "doc180-frus-261",
+      "doc180-frus-262",
+      "doc180-frus-264",
+      "doc180-frus-265"
+    ],
+    "sameDocumentTranslationNotDoubleCounted": "doc185-nih-frus263-translation",
+    "indexedButNotRead": [
+      "doc185-uncok-a936-index"
+    ],
+    "primaryIds": [
+      "doc185-frus-255",
+      "doc185-frus-256",
+      "doc185-frus-257",
+      "doc185-frus-258",
+      "doc185-frus-259",
+      "doc180-frus-261",
+      "doc180-frus-262",
+      "doc180-frus-264",
+      "doc180-frus-265"
+    ]
+  },
+  "metrics": {
+    "independentResearchLines": 8,
+    "generalGovernmentDomainsSubstantivelyStrengthened": 6,
+    "nonPresidentPoliticiansDeepened": 2,
+    "newNonPresidentPoliticians": 0,
+    "presidentPoliticiansDeepened": 1,
+    "newEvents": 9,
+    "existingEventsSubstantivelyDeepened": 2,
+    "newClaims": 12,
+    "adversarialIndependentSearches": 4,
+    "existingDebtOrLeadDistinctQuestionsFollowed": 2,
+    "newHistoryDebt": 4,
+    "newSpecificLeads": 39,
+    "strictThreeIndependentPrimaryFamilyCrossChecksCompleted": 0,
+    "twoFamilyPartialCrossChecks": 1,
+    "rootPoliticianCount": 321,
+    "rootEventCount": 919
+  },
+  "goalTargets": {
+    "independentResearchLines": 20,
+    "generalGovernmentDomains": 6,
+    "nonPresidentPoliticians": 10,
+    "events": 8,
+    "documents": 40,
+    "primaryDocuments": 20,
+    "adversarialSearches": 10,
+    "existingLeads": 8,
+    "newLeads": 30,
+    "threeFamilyCrossChecks": 3
+  },
+  "provenanceCaveats": [
+    "FRUS editorial d260 and d263 are not contemporaneous original telegrams",
+    "FRUS d261,d262,d264,d265 reused Run180 stable document IDs",
+    "국사편찬위원회 d263 번역은 동일 FRUS의 번역으로 독립 자료가 아님",
+    "국가기록원 서울신문 해제의 자체 4월·5월 날짜 불일치 보존",
+    "유엔 A/936 원문 PDF 403: 검색색인만으로 문서 직접확인 또는 독립 교차검증 주장 금지",
+    "1949-06-06 대통령 발언은 무초의 면담보고에 기록된 자기진술이며 원지시 수신은 미확인"
+  ],
+  "existingDebtFollowed": [
+    {
+      "id": "HD-R184-03",
+      "outcome": "NARROWED strengthened by FRUS d257; 1949-06-02 Assembly original still open"
+    },
+    {
+      "id": "HD-R95-007",
+      "outcome": "UNCOK A/936 original blocked 403; target pages and alternative documentary citations identified"
+    }
+  ],
+  "newDebtIds": [
+    "HD-R185-01",
+    "HD-R185-02",
+    "HD-R185-03",
+    "HD-R185-04"
+  ],
+  "keyNextLeads": [
+    "L185-02",
+    "L185-05",
+    "L185-08",
+    "L185-09",
+    "L185-20",
+    "L185-29",
+    "L185-32",
+    "L185-33"
+  ],
+  "modifiedFiles": [
+    "data/documents/run185-1949-june-diplomacy-and-press.json",
+    "data/events/run185-1949-june-foreign-policy-press-electricity.json",
+    "data/claims/run185-1949-june-adversarial-and-corrections.json",
+    "data/events.json",
+    "data/politicians.json",
+    "data/research/lead-queues/run185-next.json",
+    "data/research/HISTORY_DEBT.md",
+    "data/evidence/rhee/run185-1949-diplomacy-press-electricity.json",
+    "data/annals/cho-byeong-ok-run185-diplomatic-pilot.md",
+    "data/annals/rhee-syngman.md",
+    "data/evidence/rhee-syngman.json",
+    "data/research/rhee-syngman-coverage.json",
+    "data/research/runs/2026-10-27-run185-report.md",
+    "data/research/runs/2026-10-27-run185-ledger.json"
+  ],
+  "commitsBeforeLedger": [
+    "11c3ffb0c9791d98dbd53b633e2548f3855214a8",
+    "748bc79de08ceac046f30319c239b31e09bec833",
+    "5f4a7b87f84a1d3d72bc9c09bd92ff484ad091e6",
+    "21d173b179ed1bce3719acccc938721745374522",
+    "479d78f107550a48002b59793b1e94f705f6e6ef",
+    "9aca207031855b5feb401588ca5599253b8eedc1",
+    "72801c21d78c34b78ef8ed429343a96c61a257b4",
+    "288f2b7357164b1d5ae0055f416d11d0bfd9195c",
+    "f355f125a7534fe83e7f14ba2903f29ed77bf934",
+    "d00ddc29370c1615ff3824a04607072d5994442a",
+    "df769c2144e308ee88aa587206f333011f7daecd",
+    "617dbc677e9b2c977ed8849867d0803862fe7edb",
+    "70e5b2edea8477b9ac703a5111fd95b12244099b",
+    "3c43d15aaeaa774207c7b6d5f407486eb613ea80",
+    "11af689bff670ba650eb6ea72469a5f6eb56ee14",
+    "d332ac72c455b4741a4254d0c8aefe45fb5cd3bb",
+    "bf51afdaed5511b82bfb4e866e647165b035bd45",
+    "6cb8732b985b4f8cd4c975877a85e078e7af8050"
+  ],
+  "ledgerCommitSelfReference": "The commit that creates this ledger cannot be self-recorded; see branch history/PR",
+  "flootTouched": false
+}
