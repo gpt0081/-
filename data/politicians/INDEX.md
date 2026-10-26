@@ -154,3 +154,7 @@ See `data/politicians/run113-prewar-network.json` for 12 sourced profiles. No ca
 
 ## Run166 (2026-10-26) · 1950-10-12~15 전시 행정·경찰·국회
 `data/politicians/run166-october-actors.json`: 기존 stable ID 7명(신익희·신성모·조병옥·이준식·손원일·윤영선·김훈)의 시점별 발언·행동을 `evt-r166-*` 및 `doc166-*`에 연결. 한자·생몰·임명 원부를 이번 회차에 독립 재확인하지 않았으므로 VERIFIED 승격 없음. 기사에서 성씨만 표기된 윤·김 장관의 동일인 식별은 OPEN.
+
+
+### Run166 확장 · 1950-10-11~14
+`data/politicians/run166-october-actors.json`에 임병직·장택상·곽상훈·조정환·백낙준·정일권 기존 ID 6명 보강, 김석관(`pol-r166-kim-seok-gwan`), 지연해(`pol-r166-ji-yeon-hae`), 정재완(`pol-r166-jeong-jae-wan`) 신규 IDENTIFIED 후보 3명 추가. 신원 생몰·임명/당선원부 미확보로 VERIFIED 승격 없음. 김석관·조정환은 독립 annals/evidence 실험 파일 개설.

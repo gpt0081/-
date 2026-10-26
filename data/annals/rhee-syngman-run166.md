@@ -9,3 +9,6 @@
 - **10/15 보건·치안**: 조병옥은 위생·풍기영업 업무를 내무부/경찰로 옮긴다고 발표. 법적 이관 완료·지방 집행과 구분. [당대 보도](https://db.history.go.kr/contemp/level.do?levelId=dh_019_1950_10_15_0090).
 - **10/15 웨이크섬**: 브래들리 편찬 내부 회의록에는 트루먼의 이승만 선거 반응 질문, 맥아더의 낮은 중국 개입 전망, 무쵸·러스크의 기존 국회 정당성 고려가 있다. 이는 이승만 직접 발언이 아니다. [FRUS 680](https://history.state.gov/historicaldocuments/frus1950v07/d680). [트루먼 공개 성명](https://www.trumanlibrary.gov/library/public-papers/268/statement-president-his-meeting-general-macarthur-wake-island)과 대조.
 - **검증 경고**: 10/12 서울 전재민 구별 집계 52,581세대·316,668명은 인쇄 총계 61,581세대·309,838명과 충돌. [당대 표](https://db.history.go.kr/contemp/level.do?levelId=dh_019_1950_10_12_0130). 원지면·원조사표 대기.
+
+## 10/12~14 북한행정·선거의 법적 갈등 (추가)
+유엔과도한위의 북한 행정권 UN군 귀속 권고([문서](https://db.history.go.kr/contemp/level.do?levelId=dh_019_1950_10_12_0030))는 한국정부의 38선 이북 직접행정 구상과 충돌. 10/13 이승만의 공개 반대([AP 전사](https://db.history.go.kr/contemp/level.do?levelId=dh_019_1950_10_13_0010))와 공보처의 '공식 확인 전 조건부' 성명([원전사](https://db.history.go.kr/contemp/level.do?levelId=dh_019_1950_10_13_0040)), 10/14 조정환 외무장관서리의 UN사무총장 항의전문([문서](https://db.history.go.kr/contemp/level.do?levelId=dh_019_1950_10_14_0040))을 별도 행위로 기록한다. 미국 대사관은 북한 한정 추가의원 선거를 선호([문서](https://db.history.go.kr/contemp/level.do?levelId=dh_019_1950_10_13_0030))했고, 웨이크섬 미국 회의록에서도 한국 국회의 정당성을 고려했다. 정책제안·반대·공식 결정·현장 집행은 구분한다.
