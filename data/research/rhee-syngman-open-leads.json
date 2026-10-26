@@ -210,7 +210,8 @@
     },
     "data/research/lead-queues/run162-next.json",
     "data/research/lead-queues/run169-next.json",
-    "data/research/lead-queues/run170-next.json"
+    "data/research/lead-queues/run170-next.json",
+    "data/research/lead-queues/run171-next.json"
   ],
   "run163NewQueuePath": "data/research/lead-queues/run163-next.json",
   "run163Followup": {
@@ -305,5 +306,23 @@
       "L169-16"
     ],
     "note": "4 inherited leads narrowed, none RESOLVED. 35 concrete new leads; active 15, backlog 20."
+  },
+  "run171Followup": {
+    "queue": "data/research/lead-queues/run171-next.json",
+    "priorLeadIds": [
+      "L170-02",
+      "L170-03",
+      "L170-09",
+      "L170-10",
+      "L170-11",
+      "L170-12",
+      "L170-13",
+      "L170-14",
+      "L170-15"
+    ],
+    "newSpecificLeads": 40,
+    "active": 12,
+    "blockedOrUnresolved": "1952-07-04 국무회의/국회 시각충돌·원면 미열람",
+    "corrections": "data/research/corrections/run171-1952-chronology-provenance.md"
   }
 }
