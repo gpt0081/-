@@ -143,3 +143,10 @@ See `data/politicians/run113-prewar-network.json` for 12 sourced profiles. No ca
 - 신규 candidate: 김동조 `pol-kim-dong-jo`, 현석호 `pol-hyon-seok-ho`, 김용식 `pol-kim-yong-shik`, 유동한 `cand-r162-you-dong-han`; 최규하 `pol-choi-kyu-hah`는 후대 대통령 backbone과 병합 검토. 동명이인 방지·생몰·임명원부 검증 전 본 registry 승격 보류.
 - 각 후보는 `data/politicians/run162-sofa-actors.json`에 시기별 역할, 원문, 사건, lead, 검증상태 기록. 1957 'Minister Han'은 성명 미확정이므로 인물 노드 미생성.
 - 자료 `data/documents/run162-sofa-primary.json`; 사건 `data/events/run162-sofa-actions.json`; 주장 `data/claims/run162-sofa-adversarial.json`; 실록 `data/annals/rhee-sofa-diplomacy-run162.md`.
+
+## Run165: 1950년 10월 7~10일 유엔 결의와 행정복구
+
+- 정식 registry `data/politicians.json`에 **이준식**(`pol-r165-lee-jun-sik`)을 IDENTIFIED 후보로 신규 추가하고 이승만·신익희·신성모·조병옥·정일권·손원일의 1950년 10월 근거와 사건 연결을 보강했다.
+- 인물 상세: `data/politicians/run165-1950-october-actors.json`; 사건 원장 `data/events.json`에 17개 신규 ID 추가, 상세 overlay `data/events/run165-october-governance.json`.
+- 문서 25개 `data/documents/run165-october-governance.json`; 주장 16개 `data/claims/run165-october-adversarial.json`; 실록 `data/annals/rhee-syngman-run165.md`; 연구선 35개 `data/research/lead-queues/run165-next.json`.
+- 외국 정치인 로무로는 대한민국 정치인 registry에 편입하지 않고 국제기구 사건의 외부 참여자로만 구별한다.

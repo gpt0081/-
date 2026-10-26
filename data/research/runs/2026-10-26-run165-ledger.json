@@ -3,7 +3,7 @@
   "date": "2026-10-26",
   "timezone": "Asia/Seoul",
   "elapsedMinutes": null,
-  "executionNote": "실제 실행 시작·종료 시간 확정 불가, 1시간 실행 주장하지 않음. 웹 직접 열람 문서만 수량 집계.",
+  "executionNote": "실제 실행 시작·종료 시간 확정 불가, 1시간 실행 주장하지 않음. 웹 직접 열람 문서만 수량 집계. 47:5:7 관련 별도 검색 외 본문 내부 반증은 '독립 adversarial search'에 포함하지 않음.",
   "researchFocus": "1950-10-04~10 UN 결의 절차, 한국정부 헌정 반응, 국회, 계엄·언론·교통·물가 평시/전시 행정",
   "directlyOpenedUniqueUnderlyingDocuments": 25,
   "officialOrContemporaneousTranscriptsOrExcerpts": 25,
@@ -33,7 +33,7 @@
   "newPoliticianCandidates": 1,
   "eventSubeventsStructured": 17,
   "adversarialClaimsStructured": 16,
-  "independentlyExecutedAdversarialSearches": 3,
+  "independentlyExecutedAdversarialSearches": 1,
   "priorOpenLeadsFollowed": 4,
   "newSpecificLeads": 35,
   "fullyIndependentCrossProvenanceConfirmedBundles": 0,
@@ -48,5 +48,22 @@
   ],
   "duplicateRule": "FRUS d640 and 한국사DB 1950-10-07_0020 are one underlying UN resolution; not double-counted",
   "flootModified": false,
-  "commitStrategy": "single coherent graph overlay commit"
+  "commitStrategy": "single coherent graph overlay commit",
+  "filesModified": [
+    "data/documents/run165-october-governance.json",
+    "data/events/run165-october-governance.json",
+    "data/events.json",
+    "data/claims/run165-october-adversarial.json",
+    "data/politicians/run165-1950-october-actors.json",
+    "data/politicians.json",
+    "data/politicians/INDEX.md",
+    "data/evidence/rhee/run165-october-constitutional-response.json",
+    "data/annals/rhee-syngman-run165.md",
+    "data/research/rhee-syngman-coverage-run165.json",
+    "data/research/lead-queues/run165-next.json",
+    "data/research/runs/2026-10-26-run165-ledger.json",
+    "data/research/runs/2026-10-26-run165-report.md",
+    "data/research/history-debt/run165-un-october-corrections.md",
+    "data/research/ACTIVE_RESEARCH_HANDOFF.json"
+  ]
 }
