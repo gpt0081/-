@@ -36,6 +36,32 @@
       "eventIds": [
         "evt-r172-11"
       ]
+    },
+    {
+      "documentId": "doc172-frus-d135",
+      "claim": "1952-05-23 Rhee told Muccio he authorized Paek to sign economic agreement and demanded dollar settlement backing currency reform",
+      "attribution": "PRESIDENT_SELF_REPORTED_AUTHORIZATION_AND_POLICY_PREFERENCE_NOT_WRITTEN_ORDER",
+      "eventIds": [
+        "evt-r172-12",
+        "evt-r172-13"
+      ]
+    },
+    {
+      "documentId": "doc172-frus-d144",
+      "claim": "1952-05-27 Rhee told Van Fleet cabinet decided martial law, he approved and suggested Pusan inclusion, and Won would take orders directly from him",
+      "attribution": "PRESIDENT_SELF_REPORTED_APPROVAL_AND_COMMAND_NOT_ORIGINAL_MARTIAL_LAW_ORDER",
+      "eventIds": [
+        "evt-r172-14",
+        "evt-r172-15"
+      ]
+    },
+    {
+      "documentId": "doc172-frus-d178",
+      "claim": "US policy staff considered delaying economic payments and forming board but warned of treaty breach",
+      "attribution": "US_INTERNAL_PROPOSAL_NOT_ACTION_BY_RHEE",
+      "eventIds": [
+        "evt-r172-16"
+      ]
     }
   ],
   "contradictions": [
@@ -58,5 +84,15 @@
     "L172-28",
     "L172-29"
   ],
-  "guardrail": "Rhee presidential tenure does not imply individual direction of Paek-Meyer treaty negotiations, bank disbursements, or CEB implementation."
+  "guardrail": "US diplomats' records of Rhee's statements are strong evidence of what he said, not equivalent to original ROK authorization/appointment instruments or proof of actual implementation.",
+  "correctionHistory": [
+    {
+      "date": "2026-10-26",
+      "note": "Late direct reading FRUS d135 narrows prior 'no Rhee direct authorization' to 'Rhee reported approving Paek signature, no Korean written order'."
+    },
+    {
+      "date": "2026-10-26",
+      "note": "FRUS d144 provides Rhee self-reported martial-law approval and Won direct command; still no original ROK order."
+    }
+  ]
 }
