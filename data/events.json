@@ -16237,9 +16237,7 @@
       "sourceDocumentIds": [
         "doc166-frus601"
       ],
-      "politicianIds": [
-        "pol-rhee-syngman"
-      ],
+      "politicianIds": [],
       "actionRoles": {
         "proposed_by": [
           "미 육군부: 점령3단계·북한 현지 토지개혁 국유화 현상유지·유엔군사령관 최고권한"
@@ -16256,11 +16254,9 @@
         "later_finding": []
       },
       "evidenceState": "NARROWED",
-      "attributionNote": "ROK 정부 북부 주권 자동승인 불가 문구는 미국 초안, 국제법 확정 판결 아님",
+      "attributionNote": "ROK 정부 북부 주권 자동승인 불가 문구는 미국 초안, 국제법 확정 판결 아님 이승만은 해당 미 육군·국무부 초안의 제안·승인 행위자가 아니므로 actor link 제거.",
       "accessDate": "2026-10-26",
-      "politicians": [
-        "pol-rhee-syngman"
-      ],
+      "politicians": [],
       "documentIds": [
         "doc166-frus601"
       ],
@@ -16278,7 +16274,15 @@
           "FRUS d601"
         ],
         "later_finding": []
-      }
+      },
+      "correctionHistory": [
+        {
+          "date": "2026-10-26",
+          "type": "ATTRIBUTION_CORRECTION",
+          "removedActorId": "pol-rhee-syngman",
+          "reason": "US government draft/approval process does not establish Rhee as an actor"
+        }
+      ]
     },
     {
       "id": "evt-r166f-12",
@@ -16386,9 +16390,7 @@
         "doc166-frus708",
         "doc166-frus601"
       ],
-      "politicianIds": [
-        "pol-rhee-syngman"
-      ],
+      "politicianIds": [],
       "actionRoles": {
         "proposed_by": [
           "지방·도정부 유지/재설치 조항 삭제 예정"
@@ -16407,11 +16409,9 @@
         "later_finding": []
       },
       "evidenceState": "NARROWED",
-      "attributionNote": "미래 승인 일정은 예상이지 승인 완료 증거 아님",
+      "attributionNote": "미래 승인 일정은 예상이지 승인 완료 증거 아님 이승만은 해당 미 육군·국무부 초안의 제안·승인 행위자가 아니므로 actor link 제거.",
       "accessDate": "2026-10-26",
-      "politicians": [
-        "pol-rhee-syngman"
-      ],
+      "politicians": [],
       "documentIds": [
         "doc166-frus708",
         "doc166-frus601"
@@ -16432,7 +16432,15 @@
           "FRUS d708"
         ],
         "later_finding": []
-      }
+      },
+      "correctionHistory": [
+        {
+          "date": "2026-10-26",
+          "type": "ATTRIBUTION_CORRECTION",
+          "removedActorId": "pol-rhee-syngman",
+          "reason": "US government draft/approval process does not establish Rhee as an actor"
+        }
+      ]
     }
   ]
 }
