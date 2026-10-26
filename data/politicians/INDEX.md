@@ -180,3 +180,10 @@ See `data/politicians/run113-prewar-network.json` for 12 sourced profiles. No ca
 - `data/politicians/run169-parliament-cabinet-actors.json`: 기존 canonical 7명(이문원·서상일·황호현·김봉조·최운교·임병직·권승렬)의 날짜별 행위 보강, 새 candidate 5명(정준·김동원·이정래·김수선·김병로). 이름/한자/원속기록 행위·근거문서·event·lead 기록. 생몰/당적 미확인, 정식 승격 0명.
 - 독립 annals: `data/annals/seo-sang-il-run169.md`, `data/annals/lim-byong-jik-run169.md`, `data/annals/jeong-jun-run169.md`. 기존 ID 중복 생성 금지.
 - `data/events/run169-cabinet-parliament-diplomacy.json`: 절차 동의·정책안·명령·집행·반론 분리. base `data/events.json`은 canonical ID만 `politicians`에 넣고 신규 후보는 `candidatePoliticianIds`로 overlay 참조.
+
+
+## Run170 (2026-10-26) · 1951~1952 개헌안 결정과 국회 행위자
+- `data/politicians/run170-constitutional-actors.json`: 기존 8명과 신규 식별 조진만·후보 이순용 등 10명 프로필. 기존 인물은 원문 기반 날짜별 행위·공식 해제 명단을 추가했으나 연구성숙도 자동 승격 없음.
+- `pol-cho-jin-man`: 기본 registry에 **IDENTIFIED** 등록, 독립 실록 `data/annals/cho-jin-man.md`, 증거 `data/evidence/cho-jin-man.json`. 인천광역시 약력 표제의 사망연도 1972와 AKS 1979-02-12가 충돌해 `died=null` 유지. 직접 사망증빙 확보 전 VERIFIED 금지.
+- `cand-r170-lee-sun-yong`: 1951-11-30 개헌제의 국무위원 발기자 명단에 실명만 확인. 한자·생몰·당시 부처 확인 전 canonical 승격 금지.
+- 관련 사건 `evt-r170-01`~`evt-r170-14`, 문서 `data/documents/run170-constitutional-process.json`, 미해결 `data/research/lead-queues/run170-next.json`.
