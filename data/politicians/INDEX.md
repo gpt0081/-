@@ -202,3 +202,11 @@ See `data/politicians/run113-prewar-network.json` for 12 sourced profiles. No ca
 - 조병옥 `pol-cho-byeong-ok` DISCOVERED→IDENTIFIED: 1949-07-11 조병옥·장면의 미국 국무장관 회동 및 07-13 무초 후속서한. 기존 별도 후보 `pol-cho-pyeong-ok`과 참조 전수감사 전 자동병합 금지.
 - 이범석·임병직·손원일·장면·이호·신익희·정준 및 대통령 이승만의 사건 연결 보강. `data/politicians/run180-1949-actor-audit.json`.
 - 독립 실록: `data/annals/cho-byeong-ok-run180.md`, `sohn-won-yil-run180.md`, `kim-gu-run180.md`, `lee-beom-seok-run180.md` 및 대응 evidence. 중복 의심 ID는 보존.
+
+
+## 2026-10-27 · Run180b 한국 1949 동시대 기사 정치인망
+
+- `data/politicians/run180b-1949-korean-actor-network.json`: 비대통령 신규/기존 30명, 대통령 1명. 신규 기본 registry 13명(기존 run95 overlay `pol-kim-jang-yeol-1949` 정식 IDENTIFIED 포함).
+- 사회당 교섭자 김장열(`pol-r180b-kim-jang-yeol-socialist`)과 계엄법 수정안 국회의원 김장열(`pol-kim-jang-yeol-1949`)은 동일인 미확인, 자동병합 금지.
+- 반민특위: 김효석·이인·신익희·이범석·권승렬. 재정금융위: 김도연·장희창·홍성하·백두진. 한독당·사회당: 최명식·조경한·나재하·신창균·백홍균·양우조. 계엄법: 윤치영·신현모·정광호·김장열·나용균·박찬현.
+- 독립 annals/evidence: 김효석·김훈·안호상·한통숙·최명식·김장열. 36개 동시대 전사에서 기사상 주장과 실제 행정 집행을 분리.
