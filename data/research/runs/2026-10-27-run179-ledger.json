@@ -24,7 +24,8 @@
     "069e79222a5bc1fb29e07cfdd394302e403e39ee",
     "a1b933850bfff32aa698b14ff1fea0510a592e30",
     "6463c90209be5e0487a299860b4168778eb11560",
-    "c157d4f6464cef018bc4c28cb389b96d88204656"
+    "c157d4f6464cef018bc4c28cb389b96d88204656",
+    "a65f293bd4e77ee3c735d3a46a832182c0572495"
   ],
   "limitations": [
     "WHO IRIS 403",
@@ -66,6 +67,15 @@
         "Remove misleading blanket minister role",
         "Add romanized name variants",
         "AKS article publication date unknown"
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "reason": "Correct plan-year synthetic event date and lead-claim semantic links",
+      "changes": [
+        "1950 loan target year is not event date: event evt-r179d-01 now dated 1949-09-03 with policyTargetYear 1950",
+        "Map 20 leads to matching claims rather than numeric heuristic",
+        "Kim Hyo-seok security and election remarks linked to separate events"
       ]
     }
   ],
