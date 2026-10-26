@@ -650,3 +650,9 @@ FRUS 1955–1957 한국권 제23권 2부 문서 70·71·77·84·86을 직접 열
 - **1960-01-01** [공무원연금법 제533호](https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=5583&efYd=19600101) 및 [관보 제2480호](https://theme.archives.go.kr/next/gazette/viewGazetteDetail.do?actionType=keyword&gazetteEventId=0027975939)에서 법률533·534 공포를 확인했다. **1960-01-05** [국무위원 11명 연명 공직윤리 선언](https://archives.kdemo.or.kr/workoutlog/workoutlog/view/APR_1960_01_05_n002)은 공포 이후의 공무원 연금·징계 정책표명이다. 집행·연금지급은 미확인. `evt-r163-06/07`.
 - **1960-01-05** [동일티켓 개헌 논의](https://archives.kdemo.or.kr/workoutlog/workoutlog/view/APR_1960_01_05_n001)에서 이승만 발언은 단독 개헌과 연계 개헌을 구별하며 최인규·자유당 간부들의 입장은 별도 행위로 보존한다. `evt-r163-08`.
 - **1961-02** 부산 경제협정 반대 집회와 장면의 대응은 **이승만 재임 이후** 사건이다. [집회](https://archives.kdemo.or.kr/workoutlog/workoutlog/view/AAP_1961_02_22_n008) · [장면 기자회견](https://archives.kdemo.or.kr/workoutlog/workoutlog/view/AAP_1961_02_23_n013). `evt-r163-09/10`.
+
+
+### 1950-08-24 원신문 전사 신규 확보
+- [국무회의 구호요강](https://db.history.go.kr/contemp/level.do?levelId=dh_018_1950_08_24_0030)은 중앙 4부처 구호위원회와 군수·피난민 대표의 지방위원회, 1만~2만명 수용소를 **설계**했다. [도지사회의](https://db.history.go.kr/contemp/level.do?levelId=dh_018_1950_08_24_0050)는 100명 이상 준수용소에 2합 무상배급, 가정 피난민은 유상배급 **방침**을 정했다. [조병옥 내무부장관 문답](https://db.history.go.kr/contemp/level.do?levelId=dh_018_1950_08_24_0040)은 내무부 공무원 구호 전용과 지방행정 재건위원회 **준비**를 설명한다. 집행실적 미확보. `evt-r163-13~15`.
+- [이선근 정훈국장](https://db.history.go.kr/contemp/level.do?levelId=dh_018_1950_08_24_0060)은 병역법 제58조 제2국민병 소집을 근거로 강제모병을 부인했다. 당사자 발언이지 현장 강제성의 확정 판정이 아니다. [정일권 계엄사령관](https://db.history.go.kr/contemp/level.do?levelId=dh_018_1950_08_24_0020)은 대구 소개 관공리·금융기관 직원 8/28 복귀 명령을 발표했다. `evt-r163-12/16`.
+- [유엔 한국난민특별고문 임명](https://db.history.go.kr/contemp/level.do?levelId=dh_018_1950_08_24_0010)은 리 UN 사무총장·하트 사포 국제기구 인물 연결이다. 한국 대통령의 직접 임명으로 귀속하지 않는다. `evt-r163-17`.
