@@ -5,7 +5,7 @@
     {
       "id": "claim181-01",
       "statement": "1949 국영기업체 개편안 21사 심정과 31사 열거의 범위 차이",
-      "status": "CONFLICTED",
+      "status": "NARROWED",
       "supportingEvidence": [
         "doc181-1106-0030"
       ],
@@ -13,10 +13,20 @@
       "insufficientEvidence": [
         "doc181-1106-0030"
       ],
-      "analysis": "당대 보도는 기관 결정·발언의 존재를 증언하지만 정책 집행·유죄판결·개별 지시의 직접증거는 아니다.",
+      "analysis": "당대 보도는 기관 결정·발언의 존재를 증언하지만 정책 집행·유죄판결·개별 지시의 직접증거는 아니다. 신문 1건 안의 21사/31사 대상 범위 차이. 독립 2계열 자료 충돌이 아니므로 CONFLICTED 사용 보류.",
       "adversarialSearchTarget": "국무회의·국회 원안에서 심정대상/전체대상 구분 검증",
       "adversarialSearchCompleted": false,
-      "accessDate": "2026-10-27"
+      "accessDate": "2026-10-27",
+      "reviewHistory": [
+        {
+          "date": "2026-10-27",
+          "previousStatus": "CONFLICTED",
+          "newStatus": "NARROWED",
+          "reason": "신문 1건 안의 21사/31사 대상 범위 차이. 독립 2계열 자료 충돌이 아니므로 CONFLICTED 사용 보류.",
+          "originalStatementPreserved": true
+        }
+      ],
+      "discrepancyType": "INTERNAL_SCOPE_AMBIGUITY"
     },
     {
       "id": "claim181-02",
@@ -168,7 +178,7 @@
     {
       "id": "claim181-11",
       "statement": "대구 인촌회사 관리권 7/23 경북도 임명과 12/6 관재총국 복귀요청의 최종 효력",
-      "status": "CONFLICTED",
+      "status": "OPEN",
       "supportingEvidence": [
         "doc181-1215-0040"
       ],
@@ -176,10 +186,20 @@
       "insufficientEvidence": [
         "doc181-1215-0040"
       ],
-      "analysis": "당대 보도는 기관 결정·발언의 존재를 증언하지만 정책 집행·유죄판결·개별 지시의 직접증거는 아니다.",
+      "analysis": "당대 보도는 기관 결정·발언의 존재를 증언하지만 정책 집행·유죄판결·개별 지시의 직접증거는 아니다. 도지사 관리자 임명과 관재총국 복귀요청은 서로 다른 단계로 반드시 모순은 아님. 최종 법적 효력 미확인.",
       "adversarialSearchTarget": "경북도 관리인 임명철·관재총국 12/6 공문·12월말 관리자대장 대조",
       "adversarialSearchCompleted": false,
-      "accessDate": "2026-10-27"
+      "accessDate": "2026-10-27",
+      "reviewHistory": [
+        {
+          "date": "2026-10-27",
+          "previousStatus": "CONFLICTED",
+          "newStatus": "OPEN",
+          "reason": "도지사 관리자 임명과 관재총국 복귀요청은 서로 다른 단계로 반드시 모순은 아님. 최종 법적 효력 미확인.",
+          "originalStatementPreserved": true
+        }
+      ],
+      "discrepancyType": "INSTITUTIONAL_AUTHORITY_UNRESOLVED"
     },
     {
       "id": "claim181-12",
@@ -232,7 +252,7 @@
     {
       "id": "claim181-15",
       "statement": "전향자 자수 전국 총수 39986명과 지역별 합계 38986명 불일치",
-      "status": "CONFLICTED",
+      "status": "NARROWED",
       "supportingEvidence": [
         "doc181-1201-0130"
       ],
@@ -240,10 +260,20 @@
       "insufficientEvidence": [
         "doc181-1201-0130"
       ],
-      "analysis": "공식 발언·의혹·기소·판결, 건의안·최종 의결, 원조배정·실제 집행을 구분한다. 산술차이는 원면 확인 전 정정하지 않는다.",
+      "analysis": "공식 발언·의혹·기소·판결, 건의안·최종 의결, 원조배정·실제 집행을 구분한다. 산술차이는 원면 확인 전 정정하지 않는다. 동일 동아일보 전사 안의 전국총계 39986과 지역합계38986 차이1000. 두 독립 출처의 충돌로 오인하지 않음.",
       "adversarialSearchTarget": "내무부 원집계표·동아일보 원면에서 1000명 오기/누락 확인",
       "adversarialSearchCompleted": false,
-      "accessDate": "2026-10-27"
+      "accessDate": "2026-10-27",
+      "reviewHistory": [
+        {
+          "date": "2026-10-27",
+          "previousStatus": "CONFLICTED",
+          "newStatus": "NARROWED",
+          "reason": "동일 동아일보 전사 안의 전국총계 39986과 지역합계38986 차이1000. 두 독립 출처의 충돌로 오인하지 않음.",
+          "originalStatementPreserved": true
+        }
+      ],
+      "discrepancyType": "INTERNAL_ARITHMETIC_DISCREPANCY"
     },
     {
       "id": "claim181-16",
