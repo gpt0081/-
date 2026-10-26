@@ -74,7 +74,9 @@
         "doc166-1018-0070",
         "doc166-1019-0050",
         "doc166-1020-0020",
-        "doc166-1021-0030"
+        "doc166-1021-0030",
+        "doc167-frus-751",
+        "doc167-frus-770"
       ],
       "researchNotes": [
         {
@@ -152,6 +154,15 @@
             "doc166-1020-0020",
             "doc166-1021-0030"
           ]
+        },
+        {
+          "run": 167,
+          "date": "2026-10-26",
+          "note": "11/6 UN임시위원회 민정인사 비공개 채택원칙은 이승만 10/30 인사추천 구상과의 관계를 검증하는 맥락, 대통령 직접 결정 아님",
+          "documentIds": [
+            "doc167-frus-751",
+            "doc167-frus-770"
+          ]
         }
       ],
       "eventIds": [
@@ -181,7 +192,8 @@
         "evt-r166c-28",
         "evt-r166c-35",
         "evt-r166d-01",
-        "evt-r166d-04"
+        "evt-r166d-04",
+        "evt-r167-14"
       ]
     },
     {
@@ -1538,13 +1550,24 @@
       ],
       "roles": [
         "국방부 장관",
-        "국무총리 서리"
+        "국무총리 서리",
+        {
+          "period": "1950-10-29~1950-11-04",
+          "title": "1950-10-29 국무총리 서리로 대통령 평양 방문 동행; 11/3 내각개편·사임 제안 전언",
+          "evidenceDocumentIds": [
+            "doc167-frus-722",
+            "doc167-frus-746"
+          ],
+          "attribution": "FRUS contemporaneous report; original Korean record outstanding"
+        }
       ],
       "researchStatus": "candidate-cross-event",
       "backbone": false,
       "connections": [
         "evt-1951-national-defense-corps",
-        "evt-1950-0421-acting-pm-parliament-dispute"
+        "evt-1950-0421-acting-pm-parliament-dispute",
+        "evt-r167-04",
+        "evt-r167-09"
       ],
       "researchNotes": [
         "국",
@@ -1669,6 +1692,16 @@
           "documentIds": [
             "doc166-1012-0090"
           ]
+        },
+        {
+          "run": 167,
+          "date": "2026-10-26",
+          "note": "1950-10-29 국무총리 서리로 대통령 평양 방문 동행; 11/3 내각개편·사임 제안 전언",
+          "documentIds": [
+            "doc167-frus-722",
+            "doc167-frus-746"
+          ],
+          "attribution": "US DIPLOMATIC REPORT WITH PROVENANCE CAUTION"
         }
       ],
       "evidenceDocumentIds": [
@@ -1678,16 +1711,21 @@
         "doc163-01",
         "doc163-27",
         "doc165-1010-0130",
-        "doc166-1012-0090"
+        "doc166-1012-0090",
+        "doc167-frus-722",
+        "doc167-frus-746"
       ],
       "eventIds": [
         "evt-r163-03",
         "evt-r163-21",
         "evt-r165-16",
-        "evt-r166-04"
+        "evt-r166-04",
+        "evt-r167-04",
+        "evt-r167-09"
       ],
       "openLeads": [
-        "L166-ID-pol-shin-sung-mo"
+        "L166-ID-pol-shin-sung-mo",
+        "L167-actor-pol-shin-sung-mo"
       ]
     },
     {
@@ -2916,7 +2954,8 @@
       "connections": [
         "evt-1950-0421-acting-pm-parliament-dispute",
         "evt-r156-17",
-        "evt-r156-18"
+        "evt-r156-18",
+        "evt-r167-11"
       ],
       "evidenceDocumentIds": [
         "d114-seoul-19500422",
@@ -2932,11 +2971,13 @@
         "doc163-21",
         "doc165-1010-0120",
         "doc166-frus669",
-        "doc166-1019-0050"
+        "doc166-1019-0050",
+        "doc167-frus-747"
       ],
       "openLeads": [
         "L114-12",
-        "L166-ID-pol-cho-byeong-ok"
+        "L166-ID-pol-cho-byeong-ok",
+        "L167-actor-pol-cho-byeong-ok"
       ],
       "backbone": false,
       "researchNotes": [
@@ -3010,6 +3051,15 @@
           "documentIds": [
             "doc166-1019-0050"
           ]
+        },
+        {
+          "run": 167,
+          "date": "2026-10-26",
+          "note": "문서 내 배경/외교관 추정 연결이며 이 인물의 새 직접행위로 인정하지 않음: 1950-11-04 서울 부역혐의자 경찰·사법처리 논쟁 당시 내무부 장관; 개별 처분 명령 미확인",
+          "documentIds": [
+            "doc167-frus-747"
+          ],
+          "attribution": "CONTEXTUAL_ONLY_NOT_DIRECT_ACTION"
         }
       ],
       "organizationIds": [
@@ -3026,7 +3076,8 @@
         "evt-r163-15",
         "evt-r165-15",
         "evt-r166-01",
-        "evt-r166d-01"
+        "evt-r166d-01",
+        "evt-r167-11"
       ]
     },
     {
@@ -3281,25 +3332,38 @@
         "verification": "NOT_RECHECKED"
       },
       "roles": [
-        "1952-06-18 국무총리(담화 표제)"
+        "1952-06-18 국무총리(담화 표제)",
+        {
+          "period": "1950-10-29~1950-11-04",
+          "title": "1950-11-04 국회 부의장, 내각 총사직 건의안 토론일 결정 진행",
+          "evidenceDocumentIds": [
+            "doc167-frus-746"
+          ],
+          "attribution": "FRUS contemporaneous report; original Korean record outstanding"
+        }
       ],
       "researchStatus": "IDENTIFIED",
       "backbone": false,
       "connections": [
         "evt139-jang-statement",
-        "evt139-policy-critique"
+        "evt139-policy-critique",
+        "evt-r167-09",
+        "evt-r167-10"
       ],
       "evidenceDocumentIds": [
         "d139-1952-jang",
         "d139-1952-critique",
         "doc163-55",
-        "doc166-1011-0030"
+        "doc166-1011-0030",
+        "doc167-frus-746"
       ],
       "annalsFile": "data/annals/jang-taek-sang-run139.md",
       "openLeadsFile": "data/research/lead-queues/run139-next.json",
       "eventIds": [
         "evt-r163-35",
-        "evt-r166b-01"
+        "evt-r166b-01",
+        "evt-r167-09",
+        "evt-r167-10"
       ],
       "researchNotes": [
         {
@@ -3317,10 +3381,20 @@
           "documentIds": [
             "doc166-1011-0030"
           ]
+        },
+        {
+          "run": 167,
+          "date": "2026-10-26",
+          "note": "1950-11-04 국회 부의장, 내각 총사직 건의안 토론일 결정 진행",
+          "documentIds": [
+            "doc167-frus-746"
+          ],
+          "attribution": "US DIPLOMATIC REPORT WITH PROVENANCE CAUTION"
         }
       ],
       "openLeads": [
-        "L166-ID-pol-r139-jang-taek-sang"
+        "L166-ID-pol-r139-jang-taek-sang",
+        "L167-actor-pol-r139-jang-taek-sang"
       ]
     },
     {
@@ -3404,7 +3478,8 @@
       "backbone": false,
       "connections": [
         "evt-r141-05",
-        "evt-r141-06"
+        "evt-r141-06",
+        "evt-r167-09"
       ],
       "evidenceDocumentIds": [
         "d141-pa764",
@@ -3415,7 +3490,8 @@
         "d150-na-democratic-1955",
         "doc165-1008-0040",
         "doc166-1012-0080",
-        "doc166-1016-0060"
+        "doc166-1016-0060",
+        "doc167-frus-746"
       ],
       "evidenceFile": "data/evidence/run141-actor-evidence.json",
       "openLeadsFile": "data/research/lead-queues/run141-next.json",
@@ -3428,7 +3504,8 @@
         "evt-r149-1955-democratic",
         "evt-r165-08",
         "evt-r166-02",
-        "evt-r166c-22"
+        "evt-r166c-22",
+        "evt-r167-09"
       ],
       "researchNotes": [
         {
@@ -3463,13 +3540,23 @@
           "documentIds": [
             "doc166-1016-0060"
           ]
+        },
+        {
+          "run": 167,
+          "date": "2026-10-26",
+          "note": "문서 내 배경/외교관 추정 연결이며 이 인물의 새 직접행위로 인정하지 않음: 1950-11-02 백낙준 총리 지명 사전통보 추정 대상(미국측 정보, 직접행위 미확인)",
+          "documentIds": [
+            "doc167-frus-746"
+          ],
+          "attribution": "CONTEXTUAL_ONLY_NOT_DIRECT_ACTION"
         }
       ],
       "organizationIds": [
         "org-r150-democratic-party-1955"
       ],
       "openLeads": [
-        "L166-ID-pol-r141-shin-ik-hui"
+        "L166-ID-pol-r141-shin-ik-hui",
+        "L167-actor-pol-r141-shin-ik-hui"
       ]
     },
     {
@@ -6199,13 +6286,15 @@
         "doc159-gaz-0030",
         "doc162-fs017-52",
         "doc163-15",
-        "doc163-44"
+        "doc163-44",
+        "doc167-frus-746"
       ],
       "researchStatus": "VERIFIED",
       "promotionReason": "국가기록원 정당지도부·AKS 인물해제·1956 후보지명 사진목록",
       "openLeads": [
         "L150-53",
-        "L156-22"
+        "L156-22",
+        "L167-actor-pol-chang-myon"
       ],
       "historyDebtIds": [
         "HD-R150-21"
@@ -6245,6 +6334,15 @@
           "documentIds": [
             "doc163-44"
           ]
+        },
+        {
+          "run": 167,
+          "date": "2026-10-26",
+          "note": "문서 내 배경/외교관 추정 연결이며 이 인물의 새 직접행위로 인정하지 않음: 1950-11-03 총리 인준 부결 후 후속 후보 가능성; 본 회차 직접 임명행위 미확인",
+          "documentIds": [
+            "doc167-frus-746"
+          ],
+          "attribution": "CONTEXTUAL_ONLY_NOT_DIRECT_ACTION"
         }
       ],
       "researchUpdatedAt": "2026-10-26"
@@ -6657,11 +6755,14 @@
         "doc158-gazette-470",
         "doc158b-frus-248",
         "doc162-fs017-29",
-        "doc166-1014-0040"
+        "doc166-1014-0040",
+        "doc167-frus-715",
+        "doc167-frus-716"
       ],
       "openLeads": [
         "L156-32",
-        "L166-ID-pol-cho-jeong-hwan-1892"
+        "L166-ID-pol-cho-jeong-hwan-1892",
+        "L167-actor-pol-cho-jeong-hwan-1892"
       ],
       "promotionReason": "1957-07-27 기자회견 동시대 전문과 AKS 생몰·공직 이력 대조",
       "backbone": false,
@@ -6695,6 +6796,16 @@
           "documentIds": [
             "doc166-1014-0040"
           ]
+        },
+        {
+          "run": 167,
+          "date": "2026-10-26",
+          "note": "문서 내 배경/외교관 추정 연결이며 이 인물의 새 직접행위로 인정하지 않음: 1950-10-28 북한민정지침 관련 한국 외무부 외교 교섭 맥락; 이 문서에서 직접 발언 미확인",
+          "documentIds": [
+            "doc167-frus-715",
+            "doc167-frus-716"
+          ],
+          "attribution": "CONTEXTUAL_ONLY_NOT_DIRECT_ACTION"
         }
       ]
     },
@@ -7260,6 +7371,14 @@
             "doc159-aks-E0022020"
           ],
           "attribution": "AKS retrospective biography; not an original appointment/party register"
+        },
+        {
+          "period": "1950-10-29~1950-11-04",
+          "title": "1950-11-03 문교부장관·국무총리 지명자, 국회 인준 부결",
+          "evidenceDocumentIds": [
+            "doc167-frus-746"
+          ],
+          "attribution": "FRUS contemporaneous report; original Korean record outstanding"
         }
       ],
       "researchStatus": "ANNALS_ACTIVE",
@@ -7272,7 +7391,8 @@
         "doc166-1014-0060",
         "doc166-1016-0070",
         "doc166-1016-0110",
-        "doc166-1021-0110"
+        "doc166-1021-0110",
+        "doc167-frus-746"
       ],
       "eventIds": [
         "evt-r159-07",
@@ -7281,12 +7401,14 @@
         "evt-r166b-13",
         "evt-r166c-23",
         "evt-r166c-26",
-        "evt-r166d-16"
+        "evt-r166d-16",
+        "evt-r167-09"
       ],
       "openLeads": [
         "L159-21",
         "L159-22",
-        "L166-ID-pol-paek-nak-jun-1960-candidate"
+        "L166-ID-pol-paek-nak-jun-1960-candidate",
+        "L167-actor-pol-paek-nak-jun-1960-candidate"
       ],
       "historyDebtIds": [
         "HD-R159-03"
@@ -7319,7 +7441,19 @@
           "documentIds": [
             "doc166-1021-0110"
           ]
+        },
+        {
+          "run": 167,
+          "date": "2026-10-26",
+          "note": "1950-11-03 문교부장관·국무총리 지명자, 국회 인준 부결",
+          "documentIds": [
+            "doc167-frus-746"
+          ],
+          "attribution": "US DIPLOMATIC REPORT WITH PROVENANCE CAUTION"
         }
+      ],
+      "connections": [
+        "evt-r167-09"
       ]
     },
     {
@@ -10275,21 +10409,38 @@
       "researchStatus": "IDENTIFIED",
       "backbone": false,
       "evidenceDocumentIds": [
-        "doc164c-0925-0040"
+        "doc164c-0925-0040",
+        "doc167-frus-746"
       ],
       "eventIds": [
-        "evt-r164c-11"
+        "evt-r164c-11",
+        "evt-r167-09"
       ],
       "organizationIds": [
         "org-r150-democratic-national-party-1949"
       ],
       "openLeads": [
-        "L164c-ID-pol-r164-kim-seong-su"
+        "L164c-ID-pol-r164-kim-seong-su",
+        "L167-actor-pol-r164-kim-seong-su"
       ],
       "historyDebt": [
         "HD-R164c-ID"
       ],
-      "promotionReason": "당대 공식직책·정당대회 행위 문서 확보; 생몰·임명장·당적 독립확인 전 VERIFIED 보류"
+      "promotionReason": "당대 공식직책·정당대회 행위 문서 확보; 생몰·임명장·당적 독립확인 전 VERIFIED 보류",
+      "connections": [
+        "evt-r167-09"
+      ],
+      "researchNotes": [
+        {
+          "run": 167,
+          "date": "2026-10-26",
+          "note": "문서 내 배경/외교관 추정 연결이며 이 인물의 새 직접행위로 인정하지 않음: 1950-11-02 민주국민당 지도자로 총리지명 사전통보 추정 대상",
+          "documentIds": [
+            "doc167-frus-746"
+          ],
+          "attribution": "CONTEXTUAL_ONLY_NOT_DIRECT_ACTION"
+        }
+      ]
     },
     {
       "id": "pol-r164-kim-jun-yeon",
@@ -10491,7 +10642,8 @@
         "doc166-1017-0050",
         "doc166-1019-0040",
         "doc166-1021-0040",
-        "doc166-1021-0080"
+        "doc166-1021-0080",
+        "doc167-frus-717"
       ],
       "eventIds": [
         "evt-r164c-05",
@@ -10499,12 +10651,14 @@
         "evt-r166c-27",
         "evt-r166c-29",
         "evt-r166d-03",
-        "evt-r166d-14"
+        "evt-r166d-14",
+        "evt-r167-03"
       ],
       "organizationIds": [],
       "openLeads": [
         "L164c-ID-pol-r164-yun-yeong-seon",
-        "L166-ID-pol-r164-yun-yeong-seon"
+        "L166-ID-pol-r164-yun-yeong-seon",
+        "L167-actor-pol-r164-yun-yeong-seon"
       ],
       "historyDebt": [
         "HD-R164c-ID"
@@ -10537,7 +10691,19 @@
             "doc166-1021-0040",
             "doc166-1021-0080"
           ]
+        },
+        {
+          "run": 167,
+          "date": "2026-10-26",
+          "note": "문서 내 배경/외교관 추정 연결이며 이 인물의 새 직접행위로 인정하지 않음: 1950-10-28 농지개혁 진행 평가와 정책 연속성의 관련 농림장관; 개인 명령 미확인",
+          "documentIds": [
+            "doc167-frus-717"
+          ],
+          "attribution": "CONTEXTUAL_ONLY_NOT_DIRECT_ACTION"
         }
+      ],
+      "connections": [
+        "evt-r167-03"
       ]
     },
     {

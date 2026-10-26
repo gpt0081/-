@@ -166,3 +166,7 @@ See `data/politicians/run113-prewar-network.json` for 12 sourced profiles. No ca
 
 ### Run166 평양 UN군정 12인·김용중
 평양시정위원회 12명(`pol-r166-pyongyang-*`)은 1950-10-20~22 밀번 소장의 **군정 임명** 보도에 따라 IDENTIFIED 후보화. 임정득·우제순·오진환·김영일·이용서·선우요·이헌주·안병섭·전여찬·윤도성·이학천·김기엽. 임명일 기사 충돌, 생몰·재임원부 미확보. 김용중(`pol-r166-kim-yong-jung`)은 1950-10-20 분류 오스틴 유엔대사 서한의 전국총선 주장 당사자로 IDENTIFIED 후보화, 정통성 비판을 역사적 사실로 확정하지 않음.
+
+## 2026-10-26 · Run167 북한 민정지침 승인·국무총리 인준 후속
+
+`data/politicians/run167-1950-cabinet-actors.json`: 기존 stable ID 9개 재사용. 백낙준·신성모·장택상·김성수·신익희 등 1950년 11월 국무총리 지명·국회 동의 사건 연결. 맥락상 등장만 하는 인물은 직접행위로 계수하지 않음. `data/events/run167-north-civil-cabinet-events.json` 및 `data/documents/run167-octnov-frus-primary.json` 교차 참조. 신규 신원 VERIFIED 승격 없음.
