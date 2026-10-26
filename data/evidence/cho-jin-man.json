@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "politicianId": "pol-cho-jin-man",
+  "name": "조진만",
+  "aliases": [
+    "趙鎭滿",
+    "Jo Jin-man",
+    "Cho Chin-man"
+  ],
+  "researchStatus": "IDENTIFIED",
+  "updatedAt": "2026-10-26",
+  "sources": [
+    {
+      "documentId": "doc170-na-1951-1130-gazette",
+      "claim": "1951-11-30 정부 개헌제의 국무위원 발기자 명단에 열거",
+      "sourceRole": "OFFICIAL_ARCHIVE_RETROSPECTIVE_TRANSCRIPTION"
+    },
+    {
+      "documentId": "doc170-cho-incheon-bio",
+      "claim": "인천 출신, 1951 법무장관, 후일 대법원장; 표제 사망연도 1972",
+      "sourceRole": "LOCAL_GOVERNMENT_RETROSPECTIVE"
+    },
+    {
+      "documentId": "doc170-cho-aks-bio",
+      "claim": "1903-10-20 출생, 1979-02-12 사망, 1951 법무부장관, 1961 대법원장",
+      "sourceRole": "ACADEMIC_RETROSPECTIVE"
+    }
+  ],
+  "events": [
+    {
+      "eventId": "evt-r170-06",
+      "actorRole": "LISTED_SPONSOR",
+      "verification": "ARCHIVE_EDITORIAL_LIST_NOT_FACSIMILE"
+    }
+  ],
+  "conflicts": [
+    {
+      "id": "cho-death-year-conflict",
+      "state": "CONFLICTED",
+      "left": {
+        "value": "1972",
+        "documentId": "doc170-cho-incheon-bio"
+      },
+      "right": {
+        "value": "1979-02-12",
+        "documentId": "doc170-cho-aks-bio"
+      },
+      "resolution": "OPEN_PRIMARY_VITAL_OR_OBITUARY_RECORD"
+    }
+  ],
+  "openLeads": [
+    "L170-CHO-DEATH",
+    "L170-SIGNATURES"
+  ],
+  "notes": "동명이인 여부, 임명·면직 원문, 개헌안 서명 원면, 생몰 원증빙 확보 전 VERIFIED로 승격하지 않음."
+}
