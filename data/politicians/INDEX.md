@@ -219,3 +219,9 @@ See `data/politicians/run113-prewar-network.json` for 12 sourced profiles. No ca
 ### Run181 추가: 제헌국회 원속기록·무역·통계
 
 `data/politicians/run181-1949-domestic-actor-network.json`에 강선명·김상돈·노일환·서정희·지대형·김익진 신규 candidate를 추가. 신태익·김훈·김약수·김준연·임영신·장희창 등 기존 ID 재사용. 공식 원속기록 12/01 제55차 1350~1352쪽에 근거한 신태익·서정희·김훈 행위를 별도 기록. 신규 인물 생몰/임명원부 미검증으로 VERIFIED 승격 보류.
+
+## Run182 (2026-10-27) · 1948~1949 출입국·국적·법률 의사단계
+
+- `data/politicians/run182-immigration-legal-actors.json`: 조정환(曺正煥) 외무처장대리 원관보 전사 서명에 기반한 IDENTIFIED 후보 1명, 기존 박상영·권승렬·이종현·서상일·조영규 재사용 5명. 생몰·임명원부 미확보로 신규 VERIFIED 승격 없음.
+- `data/documents/run182-immigration-legal-documents.json`, `data/events/run182-immigration-legal-actions.json`, `data/claims/run182-immigration-legal-claims.json`: 원관보 전사·신문·후대 해제의 증거 등급을 분리. 기존 `d95-constitutional` 재사용.
+- `data/annals/1948-1963-immigration-legal-transition-run182.md`: 출입국법 제65호 국회·내각·공포·집행 단계 분리.
