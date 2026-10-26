@@ -5086,6 +5086,18 @@
             "doc176-press-0121"
           ],
           "sourceQualification": "PA archival description or contemporary press transcription, not original facsimile"
+        },
+        {
+          "period": "1949-06-06",
+          "title": "1949-06-06 강욱중 대통령 출석요구 동의 재청(李鎭洙)",
+          "actionType": "PARLIAMENTARY_PROCEDURAL_SECONDING",
+          "evidenceDocumentIds": [
+            "doc184-assembly-19490606"
+          ],
+          "eventIds": [
+            "evt-r184-12"
+          ],
+          "identityGuardrail": "Same Chinese-character name in 1949 original and later records; same person across dates still requires original member roster"
         }
       ],
       "rolePeriods": [
@@ -5105,7 +5117,8 @@
       ],
       "evidenceDocumentIds": [
         "d140-l2",
-        "doc174-nih-028-1953-02-27-0050"
+        "doc174-nih-028-1953-02-27-0050",
+        "doc184-assembly-19490606"
       ],
       "evidenceFile": "data/evidence/run141-actor-evidence.json",
       "openLeadsFile": "data/research/lead-queues/run141-next.json",
@@ -5114,7 +5127,8 @@
       ],
       "attributionCaveat": "서명/이송은 법안 발의·표결·집행의 직접 증거가 아님",
       "eventIds": [
-        "evt-r174-10"
+        "evt-r174-10",
+        "evt-r184-12"
       ],
       "openLeads": [
         "L174-33"
@@ -16514,17 +16528,31 @@
           "eventIds": [
             "evt-r179b-05"
           ]
+        },
+        {
+          "period": "1949-06-06",
+          "title": "1949-06-06 강욱중 대통령 출석요구 동의 삼청(金壽善)",
+          "actionType": "PARLIAMENTARY_PROCEDURAL_SECONDING",
+          "evidenceDocumentIds": [
+            "doc184-assembly-19490606"
+          ],
+          "eventIds": [
+            "evt-r184-12"
+          ],
+          "identityGuardrail": "Same Chinese-character name in 1949 original and later records; same person across dates still requires original member roster"
         }
       ],
       "researchStatus": "IDENTIFIED_CANDIDATE",
       "researchStatusReason": "국회 원속기록 전사에서 실명·한자·행위 확인; 생몰·선거구·당적·동명이인 미검증; Run179b 별도 annals/evidence 개설, 선거구·생몰·원속기록 미확보로 VERIFIED 승격 보류",
       "evidenceDocumentIds": [
         "doc179-na51",
-        "doc179b-edu-nov24"
+        "doc179b-edu-nov24",
+        "doc184-assembly-19490606"
       ],
       "eventIds": [
         "evt-r179-06",
-        "evt-r179b-05"
+        "evt-r179b-05",
+        "evt-r184-12"
       ],
       "openLeads": [
         "L179-P-r179-kim-su-seon",
@@ -19121,6 +19149,45 @@
       ],
       "historyDebt": [],
       "backbone": "NON_PRESIDENT_INDEPENDENT_CANDIDATE",
+      "accessDate": "2026-10-27"
+    },
+    {
+      "id": "pol-r184-yu-seong-gap",
+      "name": "유성갑",
+      "aliases": [
+        "柳聖甲",
+        "Yu Seong-gap (Romanization, unverified)"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "NOT_VERIFIED"
+      },
+      "roles": [
+        {
+          "period": "1949-06-06",
+          "title": "제헌국회 의원, 강욱중 대통령 출석 동의 제청·삼청 뒤 경찰조치 관련 발언",
+          "actionType": "PARLIAMENTARY_SPEECH_NOT_VERIFIED_ALLEGATION",
+          "evidenceDocumentIds": [
+            "doc184-assembly-19490606"
+          ],
+          "eventIds": [
+            "evt-r184-13"
+          ]
+        }
+      ],
+      "researchStatus": "IDENTIFIED",
+      "promotionReason": "1949-06-06 제헌국회 제3회 제13차 국회 원속기록의 柳聖甲 의원 직접 발언 확인. 생몰·선거구·정파·원당선원부는 미확보.",
+      "evidenceDocumentIds": [
+        "doc184-assembly-19490606"
+      ],
+      "eventIds": [
+        "evt-r184-13"
+      ],
+      "openLeads": [
+        "L184-33"
+      ],
+      "historyDebt": [],
       "accessDate": "2026-10-27"
     }
   ]
