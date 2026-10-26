@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-26",
+  "run": 170,
+  "branch": "research/run170-20261026-constitutional-process-crosscheck",
+  "baseline": {
+    "run": 169,
+    "politicians": 221,
+    "events": 523,
+    "source": "data/research/runs/2026-10-26-run169-report.md",
+    "comparable": "SAME_CANONICAL_REGISTRY"
+  },
+  "canonical": {
+    "politicians": 222,
+    "events": 537,
+    "politicianStatusRaw": {
+      "active-deep": 1,
+      "IDENTIFIED": 149,
+      "candidate": 8,
+      "candidate-cross-event": 3,
+      "candidate-event-actor": 3,
+      "candidate-policy-actor": 3,
+      "candidate-legislative-actor": 5,
+      "VERIFIED": 25,
+      "candidate-cross-domain": 1,
+      "candidate-war-command": 1,
+      "ANNALS_ACTIVE": 8,
+      "candidate-identifed-from-1949-primary": 8,
+      "DISCOVERED": 5,
+      "IDENTIFIED_CANDIDATE": 1,
+      "IDENTIFIED_FOREIGN_OBSERVATION": 1
+    },
+    "independentAnnalsMature": 0,
+    "annalsActive": 8,
+    "verified": 25
+  },
+  "deltas": {
+    "politicians": 1,
+    "events": 14
+  },
+  "thisRun": {
+    "documentRegistryItems": 22,
+    "primaryOrContemporaneousSubstantiveExcerptsRead": 13,
+    "officialMetadataOnly": 6,
+    "secondaryOrEditorialRead": 3,
+    "facsimilesViewed": 0,
+    "claims": 11,
+    "eventsNew": 14,
+    "nonpresidentialProfiles": 10,
+    "canonicalNewIdentified": 1,
+    "independentAdversarialSearchTopics": 5,
+    "priorLeadsFollowed": 4,
+    "newSpecificLeads": 35,
+    "provenanceFamiliesDistinctInResearch": [
+      "KOREA_CABINET",
+      "KOREA_NATIONAL_ASSEMBLY",
+      "KOREA_GAZETTE",
+      "KOREA_EXECUTIVE_LAW",
+      "US_FRUS",
+      "AKS_BIOGRAPHY",
+      "INCHEON_LOCAL_HISTORY"
+    ],
+    "fullyThreeIndependentPrimaryFamilyClaims": 0
+  },
+  "unknownMetrics": {
+    "totalUniqueDocumentRegistryItemsAcrossAllRuns": "UNKNOWN_NOT_AUDITED",
+    "fullTextAcquisitionRate": "UNKNOWN_DENOMINATOR",
+    "crossVerifiedClaimsRate": "UNKNOWN_DENOMINATOR",
+    "allEventsStageCompletionRate": "UNKNOWN_NOT_AUDITED",
+    "historyDebtTotalByState": "UNKNOWN_NOT_AUDITED",
+    "forestVerifiedCellCount": "UNKNOWN_NOT_AUDITED",
+    "overallCompletionPercentage": "NOT_DEFINED"
+  },
+  "forest": {
+    "uniqueEraLayerCellsSeeded": 187,
+    "totalCells": 187,
+    "seededAudit": "data/research/forest-v1-uniqueness-audit.json",
+    "verifiedCount": "UNKNOWN"
+  },
+  "measurementRules": "No made-up denominators. Official exhibition excerpt is not facsimile or complete original. Multiple documents on same archive page are distinct original records but not automatically independent provenance. Baseline main branch is not same as unmerged PR chain.",
+  "flootModified": false,
+  "flootBuilt": false
+}
