@@ -1,0 +1,142 @@
+{
+  "run": 171,
+  "date": "2026-10-26",
+  "politicianId": "pol-rhee-syngman",
+  "scope": "1952 constitutional bill stages, direct statements, cabinet decision and elections",
+  "verifiedActorActions": [
+    {
+      "date": "1952-04-08",
+      "eventId": "evt-r171-02",
+      "documentIds": [
+        "doc171-na-02"
+      ],
+      "action": "직선·양원 조기 실시 유시",
+      "basis": "NARA_PUBLISHED_CABINET_TRANSCRIPTION"
+    },
+    {
+      "date": "1952-05-13",
+      "eventId": "evt-r171-07",
+      "documentIds": [
+        "doc171-na-07"
+      ],
+      "action": "직선·양원 외 인준 논의 제한 유시",
+      "basis": "NARA_PUBLISHED_CABINET_TRANSCRIPTION"
+    },
+    {
+      "date": "1952-05-14",
+      "eventId": "evt-r171-08",
+      "documentIds": [
+        "doc171-na-08"
+      ],
+      "action": "상원 인준 협의 가능으로 입장 조정",
+      "basis": "NARA_PUBLISHED_CABINET_TRANSCRIPTION"
+    },
+    {
+      "date": "1952-06-05",
+      "eventId": "evt-r171-12",
+      "documentIds": [
+        "doc171-frus-d171"
+      ],
+      "action": "트루먼에게 국회해산 요구와 대중여론 주장 서한 발신",
+      "basis": "ROK_AUTHOR_TEXT_IN_FRUS",
+      "caution": "대중서명 수치 사실성은 미확인"
+    },
+    {
+      "date": "1952-06-25",
+      "eventId": "evt-r171-14",
+      "documentIds": [
+        "doc171-frus-d190"
+      ],
+      "action": "트루먼에게 국회의원 공산주의 음모 혐의 주장 서한 발신",
+      "basis": "ROK_AUTHOR_TEXT_IN_FRUS",
+      "caution": "혐의의 사실 여부·재판결과는 미확인"
+    }
+  ],
+  "constitutionalDocumentChanges": [
+    {
+      "date": "1952-05-14",
+      "eventId": "evt-r171-09",
+      "documentIds": [
+        "doc171-na-09",
+        "doc171-na-10",
+        "doc171-na-11"
+      ],
+      "claim": "정부안 상원의원 대통령 임명 조항과 최종 헌법 조문 차이"
+    },
+    {
+      "date": "1952-07-04",
+      "eventId": "evt-r171-15",
+      "documentIds": [
+        "doc171-na-13",
+        "doc170-assembly-1952-0704"
+      ],
+      "claim": "국무회의 오전 공포 의결과 국회 야간 가결 해제 시간순 충돌"
+    }
+  ],
+  "contemporaneousExternalReports": [
+    {
+      "date": "1952-06-03",
+      "eventId": "evt-r171-11",
+      "documentIds": [
+        "doc171-frus-d163"
+      ],
+      "type": "PM_ACCOUNT_VIA_US_EMBASSY",
+      "caution": "장택상 구술 2단계 이상 전언"
+    },
+    {
+      "date": "1952-06-25",
+      "eventId": "evt-r171-16",
+      "documentIds": [
+        "doc171-frus-d192",
+        "doc171-frus-d207"
+      ],
+      "type": "US_INTERVENTION_CONTINGENCY",
+      "caution": "미국 군사계획 수립, 실제 집행 아님"
+    }
+  ],
+  "crossChecks": [
+    {
+      "id": "bundle-r171-01",
+      "families": [
+        "KOREA_CABINET",
+        "KOREA_ASSEMBLY"
+      ],
+      "claimIds": [
+        "claim-r171-01"
+      ],
+      "result": "CONFLICTED: 1952-07-04 time ordering"
+    },
+    {
+      "id": "bundle-r171-02",
+      "families": [
+        "KOREA_CABINET",
+        "KOREA_GAZETTE"
+      ],
+      "claimIds": [
+        "claim-r171-06"
+      ],
+      "result": "GOVERNMENT_PROPOSAL_DIFFERS_FROM_ENACTED_TEXT"
+    },
+    {
+      "id": "bundle-r171-03",
+      "families": [
+        "ROK_PARTICIPANT_US_FRUS",
+        "NEC_RETROSPECTIVE"
+      ],
+      "claimIds": [
+        "claim-r171-08"
+      ],
+      "result": "PARTIAL: statement vs retrospective; not three independent primary sources"
+    }
+  ],
+  "unresolvedClaimIds": [
+    "claim-r171-01",
+    "claim-r171-04",
+    "claim-r171-08",
+    "claim-r171-09",
+    "claim-r171-11"
+  ],
+  "nextQueue": "data/research/lead-queues/run171-next.json",
+  "facsimileViewed": false,
+  "attributionRule": "Presidential statements are not proof of the claims stated; Cabinet actions and US policy deliberations are not automatically Rhee direct orders."
+}
