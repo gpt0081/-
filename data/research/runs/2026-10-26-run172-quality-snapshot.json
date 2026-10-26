@@ -1,0 +1,73 @@
+{
+  "run": 172,
+  "date": "2026-10-26",
+  "branch": "research/run172-20261026-unts2353-economic-cabinet-source-audit",
+  "baseline": {
+    "run": 171,
+    "politicians": 222,
+    "events": 555,
+    "branch": "research/run171-20261026-1952-constitutional-election-provenance"
+  },
+  "current": {
+    "politicians": 228,
+    "events": 571,
+    "politicianStatusRawDistribution": {
+      "active-deep": 1,
+      "IDENTIFIED": 154,
+      "candidate": 7,
+      "candidate-cross-event": 3,
+      "candidate-event-actor": 3,
+      "candidate-policy-actor": 3,
+      "candidate-legislative-actor": 5,
+      "ANNALS_ACTIVE": 10,
+      "VERIFIED": 25,
+      "candidate-cross-domain": 1,
+      "candidate-war-command": 1,
+      "candidate-identifed-from-1949-primary": 8,
+      "DISCOVERED": 5,
+      "IDENTIFIED_CANDIDATE": 1,
+      "IDENTIFIED_FOREIGN_OBSERVATION": 1
+    },
+    "newDocumentRegistryEntries": 25,
+    "newSubstantivelyReadDocuments": 20,
+    "newPrimaryOriginalInstruments": 16,
+    "newPrimaryExcerpts": 2,
+    "originalFacsimileViewed": 0,
+    "claimsReviewed": 22,
+    "independentAdversarialChecks": 8,
+    "newLeads": 48,
+    "trackedPriorLeads": 8,
+    "newPoliticianCandidateNodes": 6,
+    "politiciansEnriched": 4,
+    "politicianMaturityPromotions": 1,
+    "eventsAdded": 16,
+    "existingEventsEnriched": 2,
+    "domainsSubstantivelyTouched": [
+      "foreign affairs",
+      "fiscal policy",
+      "monetary and foreign exchange",
+      "civilian relief and public health",
+      "military logistics and martial law",
+      "constitutional law and administration"
+    ],
+    "independentResearchQuestions": "8-12, not all treaty subclauses independent; conservative ledger 9",
+    "independentPrimaryProvenanceFamilies": "UNKNOWN_UNTIL_COMPLETE_DEPENDENCY_AUDIT",
+    "partialTwoFamilyCrossChecks": 3,
+    "completeThreeIndependentPrimaryCrossChecks": 0
+  },
+  "delta": {
+    "politicians": 6,
+    "events": 16
+  },
+  "rates": {
+    "allPoliticiansMatureRate": "UNKNOWN_NO_STABLE_DENOMINATOR_OR_MATURITY_NORMALIZATION",
+    "originalFullTextAcquisitionRate": "UNKNOWN_NO_GLOBAL_TARGET_DOCUMENT_DENOMINATOR",
+    "verifiedClaimRate": "UNKNOWN_NO_STABLE_CRITICAL_CLAIM_DENOMINATOR",
+    "eventPhaseCompletionRate": "UNKNOWN_NO_APPLICABLE_STAGE_DENOMINATOR",
+    "historyDebtResolutionRate": "UNKNOWN_NO_COMPLETE_DEBT_AUDIT",
+    "forestVerifiedCellRate": "UNKNOWN_NOT_RECALCULATED"
+  },
+  "method": "Counts directly from data/politicians.json, data/events.json, run172 documents/claims/lead registry. Raw status distribution not interpreted as uniform maturity. Treaty agreement, notes and minutes count as 3 unique instruments but one provenance family. FRUS editorial d206 inherits UN A/2187, not independent.",
+  "consistencyGate": "PENDING_FINAL_RECHECK",
+  "weeklyFullReview": "역사부채 주간 전수조사 미실시"
+}
