@@ -215,3 +215,7 @@ See `data/politicians/run113-prewar-network.json` for 12 sourced profiles. No ca
 ## Run181 (2026-10-27) · 1949년 11~12월 평시 국정·비대통령 정치인
 
 `data/politicians/run181-1949-domestic-actor-network.json`에 13명 역할/행위 근거 연결. 기존 ID 재사용, 김태선 `pol-kim-tae-seon` Run118 overlay ID 유지·기본 registry 연결. 신규 백기호·이철원·도석균·박준섭은 생몰·임명원부 미확보 IDENTIFIED_CANDIDATE. `data/annals/*-run181.md` 및 `data/evidence/*-run181.json` 독립 실록·증거. 신규 사건은 `data/events/run181-1949-domestic-actions.json`, 문서·주장·후속단서는 동명 run181 파일. 신원 미검증 승격 금지.
+
+### Run181 추가: 제헌국회 원속기록·무역·통계
+
+`data/politicians/run181-1949-domestic-actor-network.json`에 강선명·김상돈·노일환·서정희·지대형·김익진 신규 candidate를 추가. 신태익·김훈·김약수·김준연·임영신·장희창 등 기존 ID 재사용. 공식 원속기록 12/01 제55차 1350~1352쪽에 근거한 신태익·서정희·김훈 행위를 별도 기록. 신규 인물 생몰/임명원부 미검증으로 VERIFIED 승격 보류.
