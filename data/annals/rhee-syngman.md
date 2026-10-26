@@ -717,4 +717,10 @@ FRUS 1955–1957 한국권 제23권 2부 문서 70·71·77·84·86을 직접 열
 - **12월14일:** 백두진 국무총리와 C. Tyler Wood 경제조정관이 재건·재정안정 합동경제위원회 협약을 서명했다고 1954년 미국 OCB 보고가 기술하며, 1961년 유엔 조약집은 이 협약을 별도로 인용한다. 1953 협약의 **한국어 서명정본·집행대장**은 아직 없다. [d882](https://history.state.gov/historicaldocuments/frus1952-54v15p2/d882), [UNTS Vol405](https://treaties.un.org/doc/Publication/UNTS/Volume%20405/v405.pdf).
 - **1954년3월26일:** 미국 OCB는 FOA 사업이 계획보다 지연됐다고 보고한다. 2억 달러 예산, 약 5천만 달러 확정 요청, 6월말 1억5천만 달러 약정 예상은 서로 다른 회계 단계다. 미국의 신규건설 제한과 한국 측 안정화 합의 지연을 모두 원인으로 적었다.
 
-자료 계층: `data/documents/run173-postarmistice-economy-source-audit.json`, `data/events/run173-postarmistice-economic-action-graph.json`, `data/claims/run173-postarmistice-economic-adversarial.json`, `data/evidence/rhee/run173-postarmistice-economic-policy.json`. 직접 열람 문서 37건(원문·전사·후대 서술 포함), 27건 공식 1차·동시대 원문; 원면 시각검증 0건. 원문 미확보와 부분 검증은 `L173-*`로 유지한다.
+자료 계층: `data/documents/run173-postarmistice-economy-source-audit.json`, `data/events/run173-postarmistice-economic-action-graph.json`, `data/claims/run173-postarmistice-economic-adversarial.json`, `data/evidence/rhee/run173-postarmistice-economic-policy.json`. 직접 열람 문서 46건(원문·전사·후대 서술 포함), 34건 공식 1차·동시대 원문; 원면 시각검증 0건. 원문 미확보와 부분 검증은 `L173-*`로 유지한다.
+
+### Run173 후속 원문 교정 (2026-10-26)
+- FRUS XV/2 d726은 1953-07-27 미국 대통령의 **실제 원조 조정 메모**다. 의회가 재건 원조 약 2억달러를 승인할 것으로 **예상**했지 이미 지급했다고 기록하지 않았다. 7월31일 별도 초안(d731)과 구분한다.
+- d728은 7월29일 경제원조 조직의 직원수준 합의와 최종 승인 미완료를 구분한다. d740은 변영태가 8월7일 공동성명에 주권 관련 문구를 제안했으나 덜레스가 반대한 과정을 기록한다. 이 변영태 행위는 기존 독립 실록에도 있어 신규 발견으로 중복 계산하지 않는다.
+- KDI 공식 대외원조 연표 원페이지를 직접 열람해 **1952-05-24 협정 체결과 1952-07-03 CEB 설치를 서로 다른 행위**로 기재했음을 확인했다. 원설치 공문은 미확보.
+- 최종 문서 **46건**, 1차·동시대 **34건**, 사건 **23건**. 추가 claim·lead 동기화 시도는 안전검사 차단으로 중단하여 전체 통합은 부분완료다.
