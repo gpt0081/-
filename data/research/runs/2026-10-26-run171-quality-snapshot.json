@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "run": 171,
+  "date": "2026-10-26",
+  "branch": "research/run171-20261026-1952-constitutional-election-provenance",
+  "baseline": {
+    "run": 170,
+    "politicians": 222,
+    "events": 537,
+    "annalsActive": 8,
+    "verified": 25,
+    "source": "data/research/runs/2026-10-26-run170-quality-snapshot.json",
+    "comparable": "SAME_CANONICAL_REGISTRY_UNMERGED_PR_CHAIN"
+  },
+  "canonical": {
+    "politicians": 222,
+    "events": 555,
+    "politicianStatusRaw": {
+      "active-deep": 1,
+      "IDENTIFIED": 149,
+      "candidate": 7,
+      "candidate-cross-event": 3,
+      "candidate-event-actor": 3,
+      "candidate-policy-actor": 3,
+      "candidate-legislative-actor": 5,
+      "VERIFIED": 25,
+      "candidate-cross-domain": 1,
+      "candidate-war-command": 1,
+      "ANNALS_ACTIVE": 9,
+      "candidate-identifed-from-1949-primary": 8,
+      "DISCOVERED": 5,
+      "IDENTIFIED_CANDIDATE": 1,
+      "IDENTIFIED_FOREIGN_OBSERVATION": 1
+    },
+    "independentAnnalsMature": 0,
+    "annalsActive": 9,
+    "verified": 25
+  },
+  "deltas": {
+    "politicians": 0,
+    "events": 18,
+    "existingEventsEnhanced": 2,
+    "annalsActive": 1,
+    "verified": 0
+  },
+  "thisRun": {
+    "documentRegistryItems": 60,
+    "substantiveDocumentsRead": 56,
+    "primaryOrContemporaneousTranscriptionExcerpts": 49,
+    "frusOriginalTranscriptions": 37,
+    "frusEditorialNotes": 3,
+    "koreanCabinetOrGazetteSubstantiveExcerpts": 12,
+    "officialRetrospectives": 4,
+    "nonSubstantiveOneLineAgenda": 1,
+    "photoMetadataOnly": 2,
+    "facsimilesViewed": 0,
+    "claims": 16,
+    "newEvents": 18,
+    "enhancedEvents": 2,
+    "nonpresidentialDatedActionProfiles": 12,
+    "newCandidateProfiles": 5,
+    "politiciansPromoted": 2,
+    "priorLeadsFollowed": 9,
+    "newSpecificLeads": 40,
+    "independentAdversarialSearchTopics": 8,
+    "crossDocumentAdversarialChecks": 16,
+    "twoFamilyPartialCrossChecks": 3,
+    "threeIndependentPrimaryFamilyCrossChecks": 0,
+    "metadataOnlyAlternateHoldingDiscovered": 1,
+    "nationalAssemblyLibraryAlternativeForA2187": "doc171-nal-a2187-catalogue"
+  },
+  "unknownMetrics": {
+    "originalFullTextAcquisitionRate": "UNKNOWN_DENOMINATOR_NOT_AUDITED",
+    "claimCrossValidationRate": "UNKNOWN_DENOMINATOR_NOT_AUDITED",
+    "eventStageCompletionRate": "UNKNOWN_DENOMINATOR_NOT_AUDITED",
+    "historicalDebtNetReductionRate": "UNKNOWN_ALL_DEBTS_NOT_AUDITED",
+    "forestVerifiedCellCount": "UNKNOWN_NOT_AUDITED",
+    "overallCompletionPercentage": "NOT_DEFINED"
+  },
+  "forest": {
+    "uniqueEraLayerCellsSeeded": 187,
+    "totalCells": 187,
+    "verifiedCount": "UNKNOWN",
+    "source": "data/research/forest-v1-uniqueness-audit.json"
+  },
+  "referenceAudit": {
+    "newOverlayPoliticianRefsMissing": 0,
+    "newOverlayDocumentRefsMissing": 0,
+    "newClaimsDocumentRefsMissing": 0,
+    "newPoliticianActorRefsMissing": 0,
+    "scope": "run171 overlay + Run170 explicit source IDs; not full repository graph audit"
+  },
+  "measurementRules": "Document counts exclude one-line agenda and photo captions. US FRUS 40 documents are not 40 independent provenance families. The same archival exhibition hosts separate original documents; individual source texts counted once. Official retrospective NEC/NIKH not counted as primary originals. Original facsimiles viewed 0. No invented elapsed time.",
+  "flootModified": false,
+  "flootBuilt": false,
+  "weeklyFullReview": false
+}

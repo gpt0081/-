@@ -1344,7 +1344,32 @@
       ],
       "attributionGuardrails": [
         "기록관 해제의 역사적 평가를 원문 사실과 분리"
-      ]
+      ],
+      "run171Addendum": {
+        "date": "1952-05-10",
+        "documentIds": [
+          "doc171-nec-local-1952",
+          "doc171-nec-local-turnout"
+        ],
+        "roleGraph": {
+          "proposed_by": [],
+          "decided_by": [],
+          "executed_by": [],
+          "opposed_by": [],
+          "legal_authority": [
+            "1949 지방자치법(선관위 해제)"
+          ],
+          "observed_by": [
+            "중앙선관위 선거사: 투표자 5,165,226, 선거인 6,358,383"
+          ],
+          "later_finding": [
+            "정당별 실제 당선자와 지방의회 국회해산 결의 원회의록 필요"
+          ]
+        },
+        "evidenceState": "NARROWED",
+        "sourceOverlay": "data/events/run171-1952-decision-actions.json",
+        "accessDate": "2026-10-26"
+      }
     },
     {
       "id": "evt-r141-local-2036",
@@ -8201,7 +8226,32 @@
         ],
         "later_finding": []
       },
-      "evidenceState": "CONTEMPORANEOUS_DIPLOMATIC_TRANSCRIPTION_OR_RETROSPECTIVE_AS_NOTED"
+      "evidenceState": "CONTEMPORANEOUS_DIPLOMATIC_TRANSCRIPTION_OR_RETROSPECTIVE_AS_NOTED",
+      "run171Addendum": {
+        "date": "1952-08-05",
+        "documentIds": [
+          "doc171-nec-pres-1952",
+          "doc170-na-1952-0707-constitution"
+        ],
+        "roleGraph": {
+          "proposed_by": [],
+          "decided_by": [],
+          "executed_by": [],
+          "opposed_by": [],
+          "legal_authority": [
+            "1952 제1차 개정헌법"
+          ],
+          "observed_by": [
+            "중앙선관위 공식 선거사: 선거인 8,259,428·투표자 7,275,883·이승만 5,238,769"
+          ],
+          "later_finding": [
+            "이시영·신흥우는 정식 정치인 ID 미확보 후보 노드 연결 대기"
+          ]
+        },
+        "evidenceState": "NARROWED",
+        "sourceOverlay": "data/events/run171-1952-decision-actions.json",
+        "accessDate": "2026-10-26"
+      }
     },
     {
       "id": "evt-r162-21",
@@ -18999,6 +19049,624 @@
       "researchStatus": "OFFICIAL_EXCERPT_OR_ARCHIVAL_SUMMARY",
       "accessDate": "2026-10-26",
       "sourceOverlay": "data/events/run170-constitutional-process.json"
+    },
+    {
+      "id": "evt-r171-01",
+      "date": "1952-01-18",
+      "name": "국무원고시 제14호 인접해양 주권 선언과 개헌안 부결 동시기 별개 조치",
+      "domain": "해양·외교",
+      "politicians": [
+        "pol-rhee-syngman"
+      ],
+      "documentIds": [
+        "doc171-nih-1952-0118"
+      ],
+      "evidenceState": "OPEN",
+      "researchStatus": "PUBLISHED_PRIMARY_TRANSCRIPTION_OR_OFFICIAL_RETROSPECTIVE",
+      "roleGraph": {
+        "proposed_by": [],
+        "decided_by": [
+          "대한민국 정부, 국무원고시 제14호(원관보 미열람)"
+        ],
+        "executed_by": [],
+        "opposed_by": [],
+        "legal_authority": [
+          "국무원고시 제14호; 원문 확인 필요"
+        ],
+        "observed_by": [
+          "국사편찬위원회 공식 연표"
+        ],
+        "later_finding": []
+      },
+      "accessDate": "2026-10-26",
+      "provenanceCaution": "Official transcript/excerpt or diplomatic record; no Korean original facsimile viewed. Participant allegation/relay not treated as proven outcome.",
+      "sourceOverlay": "data/events/run171-1952-decision-actions.json"
+    },
+    {
+      "id": "evt-r171-02",
+      "date": "1952-04-08",
+      "name": "제27회 국무회의 대통령 직선제·양원제 조기실시 유시",
+      "domain": "헌정·행정",
+      "politicians": [
+        "pol-rhee-syngman"
+      ],
+      "documentIds": [
+        "doc171-na-02"
+      ],
+      "evidenceState": "NARROWED",
+      "researchStatus": "PUBLISHED_PRIMARY_TRANSCRIPTION_OR_OFFICIAL_RETROSPECTIVE",
+      "roleGraph": {
+        "proposed_by": [
+          "이승만: 대통령직선제·상하 양원제 조기실시 유시"
+        ],
+        "decided_by": [],
+        "executed_by": [],
+        "opposed_by": [],
+        "legal_authority": [],
+        "observed_by": [
+          "총무처 국무회의록 BA0085166/27-1"
+        ],
+        "later_finding": [
+          "국가기록원 설명은 4월 8일을 금요일로 적으나 달력상 화요일; 요일 해제 오류 의심"
+        ]
+      },
+      "accessDate": "2026-10-26",
+      "provenanceCaution": "Official transcript/excerpt or diplomatic record; no Korean original facsimile viewed. Participant allegation/relay not treated as proven outcome.",
+      "sourceOverlay": "data/events/run171-1952-decision-actions.json"
+    },
+    {
+      "id": "evt-r171-03",
+      "date": "1952-04-11",
+      "name": "제28회 국무회의 국회 개헌안 반박문·외부 기고 지시",
+      "domain": "헌정·언론·행정",
+      "politicians": [
+        "pol-rhee-syngman"
+      ],
+      "documentIds": [
+        "doc171-na-03"
+      ],
+      "evidenceState": "NARROWED",
+      "researchStatus": "PUBLISHED_PRIMARY_TRANSCRIPTION_OR_OFFICIAL_RETROSPECTIVE",
+      "roleGraph": {
+        "proposed_by": [
+          "법제처·법무부: 국회 개헌안 반박문"
+        ],
+        "decided_by": [
+          "공보처: 외부 필자 반대 논문 신문·잡지 게재 조치"
+        ],
+        "executed_by": [],
+        "opposed_by": [],
+        "legal_authority": [
+          "국무회의 합의사항(개별 언론 게재 집행은 별도)"
+        ],
+        "observed_by": [
+          "총무처 BA0085166/28-1"
+        ],
+        "later_finding": []
+      },
+      "accessDate": "2026-10-26",
+      "provenanceCaution": "Official transcript/excerpt or diplomatic record; no Korean original facsimile viewed. Participant allegation/relay not treated as proven outcome.",
+      "sourceOverlay": "data/events/run171-1952-decision-actions.json"
+    },
+    {
+      "id": "evt-r171-04",
+      "date": "1952-04-16",
+      "name": "제29회 국무회의 법무부·법제처 반박문 발표 합의",
+      "domain": "헌정·언론·행정",
+      "politicians": [
+        "pol-rhee-syngman"
+      ],
+      "documentIds": [
+        "doc171-na-04"
+      ],
+      "evidenceState": "NARROWED",
+      "researchStatus": "PUBLISHED_PRIMARY_TRANSCRIPTION_OR_OFFICIAL_RETROSPECTIVE",
+      "roleGraph": {
+        "proposed_by": [],
+        "decided_by": [
+          "국무회의: 법무부·법제처 반박문 발표 합의"
+        ],
+        "executed_by": [],
+        "opposed_by": [],
+        "legal_authority": [],
+        "observed_by": [
+          "총무처 BA0085166/31-1"
+        ],
+        "later_finding": [
+          "국가기록원은 4월 16일을 목요일로 표기하지만 달력상 수요일"
+        ]
+      },
+      "accessDate": "2026-10-26",
+      "provenanceCaution": "Official transcript/excerpt or diplomatic record; no Korean original facsimile viewed. Participant allegation/relay not treated as proven outcome.",
+      "sourceOverlay": "data/events/run171-1952-decision-actions.json"
+    },
+    {
+      "id": "evt-r171-05",
+      "date": "1952-04-21",
+      "name": "총무처 국회 개헌안 접수·법제처 회부",
+      "domain": "헌정·행정",
+      "politicians": [
+        "pol-r141-shin-ik-hui",
+        "pol-r148-kwak-sang-hun",
+        "pol-r139-jang-taek-sang"
+      ],
+      "documentIds": [
+        "doc171-na-05",
+        "doc170-assembly-1952-0417"
+      ],
+      "evidenceState": "NARROWED",
+      "researchStatus": "PUBLISHED_PRIMARY_TRANSCRIPTION_OR_OFFICIAL_RETROSPECTIVE",
+      "roleGraph": {
+        "proposed_by": [
+          "국회: 4월 17일 의원내각제 개헌안"
+        ],
+        "decided_by": [],
+        "executed_by": [
+          "총무처장: 4월 21일 추송 명부 법제처 회부"
+        ],
+        "opposed_by": [],
+        "legal_authority": [],
+        "observed_by": [
+          "BG0000034/81-1 원문 발췌"
+        ],
+        "later_finding": [
+          "국가기록원 설명은 4월18일 접수라고 하나 인용문은 4월21일 추송명부 회부; 접수·추송 별개 단계"
+        ]
+      },
+      "accessDate": "2026-10-26",
+      "provenanceCaution": "Official transcript/excerpt or diplomatic record; no Korean original facsimile viewed. Participant allegation/relay not treated as proven outcome.",
+      "sourceOverlay": "data/events/run171-1952-decision-actions.json"
+    },
+    {
+      "id": "evt-r171-06",
+      "date": "1952-05-07",
+      "name": "국무원공고 제35호 국회 제출 개헌안 공고",
+      "domain": "헌정·관보",
+      "politicians": [
+        "pol-rhee-syngman",
+        "pol-r139-jang-taek-sang"
+      ],
+      "documentIds": [
+        "doc171-na-06"
+      ],
+      "evidenceState": "NARROWED",
+      "researchStatus": "PUBLISHED_PRIMARY_TRANSCRIPTION_OR_OFFICIAL_RETROSPECTIVE",
+      "roleGraph": {
+        "proposed_by": [],
+        "decided_by": [],
+        "executed_by": [
+          "정부: 국무원공고 제35호, 관보651호"
+        ],
+        "opposed_by": [],
+        "legal_authority": [
+          "헌법 제98조 제2항"
+        ],
+        "observed_by": [
+          "BA0185988/1-1 전사"
+        ],
+        "later_finding": []
+      },
+      "accessDate": "2026-10-26",
+      "provenanceCaution": "Official transcript/excerpt or diplomatic record; no Korean original facsimile viewed. Participant allegation/relay not treated as proven outcome.",
+      "sourceOverlay": "data/events/run171-1952-decision-actions.json"
+    },
+    {
+      "id": "evt-r171-07",
+      "date": "1952-05-13",
+      "name": "제38회 국무회의 대통령 개헌안 원칙 두 항목 제한",
+      "domain": "헌정·인사",
+      "politicians": [
+        "pol-rhee-syngman"
+      ],
+      "documentIds": [
+        "doc171-na-07"
+      ],
+      "evidenceState": "NARROWED",
+      "researchStatus": "PUBLISHED_PRIMARY_TRANSCRIPTION_OR_OFFICIAL_RETROSPECTIVE",
+      "roleGraph": {
+        "proposed_by": [
+          "이승만: 직선제·양원제만 개헌, 내각책임제·국무위원 인준 제외 유시"
+        ],
+        "decided_by": [],
+        "executed_by": [],
+        "opposed_by": [],
+        "legal_authority": [],
+        "observed_by": [
+          "BG0000028/38-1 전사"
+        ],
+        "later_finding": []
+      },
+      "accessDate": "2026-10-26",
+      "provenanceCaution": "Official transcript/excerpt or diplomatic record; no Korean original facsimile viewed. Participant allegation/relay not treated as proven outcome.",
+      "sourceOverlay": "data/events/run171-1952-decision-actions.json"
+    },
+    {
+      "id": "evt-r171-08",
+      "date": "1952-05-14",
+      "name": "제39회 국무회의 인준 검토 허용 및 정부안 원칙 의결",
+      "domain": "헌정·인사·외교",
+      "politicians": [
+        "pol-rhee-syngman",
+        "pol-r139-jang-taek-sang"
+      ],
+      "documentIds": [
+        "doc171-na-08"
+      ],
+      "evidenceState": "NARROWED",
+      "researchStatus": "PUBLISHED_PRIMARY_TRANSCRIPTION_OR_OFFICIAL_RETROSPECTIVE",
+      "roleGraph": {
+        "proposed_by": [
+          "이승만: 상원 인준 문제 국무회의 협의 가능으로 입장 조정"
+        ],
+        "decided_by": [
+          "제39회 국무회의: 대통령직선제·양원제·대사·공사 상원 인준 원칙 의결"
+        ],
+        "executed_by": [],
+        "opposed_by": [],
+        "legal_authority": [],
+        "observed_by": [
+          "BA0085166/41-1 전사"
+        ],
+        "later_finding": [
+          "5월13일 제한 유시와 5월14일 수정 유시를 구분"
+        ]
+      },
+      "accessDate": "2026-10-26",
+      "provenanceCaution": "Official transcript/excerpt or diplomatic record; no Korean original facsimile viewed. Participant allegation/relay not treated as proven outcome.",
+      "sourceOverlay": "data/events/run171-1952-decision-actions.json"
+    },
+    {
+      "id": "evt-r171-09",
+      "date": "1952-05-14",
+      "name": "장택상 정부 개헌안 국회 제출 및 국무원공고 제36호",
+      "domain": "헌정·행정·관보",
+      "politicians": [
+        "pol-rhee-syngman",
+        "pol-r139-jang-taek-sang",
+        "pol-r141-shin-ik-hui"
+      ],
+      "documentIds": [
+        "doc171-na-09",
+        "doc171-na-10",
+        "doc171-na-11"
+      ],
+      "evidenceState": "NARROWED",
+      "researchStatus": "PUBLISHED_PRIMARY_TRANSCRIPTION_OR_OFFICIAL_RETROSPECTIVE",
+      "roleGraph": {
+        "proposed_by": [
+          "정부: 대통령 직선·양원제와 국무위원·대사·공사 임명 승인 관련 조항"
+        ],
+        "decided_by": [
+          "국무회의: 정부안 의결"
+        ],
+        "executed_by": [
+          "국무총리 장택상: 국회 제출",
+          "정부: 관보654호 국무원공고 제36호"
+        ],
+        "opposed_by": [],
+        "legal_authority": [],
+        "observed_by": [
+          "대통령기록관 1A00614174534950 및 국가기록원 전사"
+        ],
+        "later_finding": [
+          "정부안의 상원의원 대통령 임명 조항은 7월7일 최종 헌법과 구분"
+        ]
+      },
+      "accessDate": "2026-10-26",
+      "provenanceCaution": "Official transcript/excerpt or diplomatic record; no Korean original facsimile viewed. Participant allegation/relay not treated as proven outcome.",
+      "sourceOverlay": "data/events/run171-1952-decision-actions.json"
+    },
+    {
+      "id": "evt-r171-10",
+      "date": "1952-05-24",
+      "name": "부산·영남·호남 일부 계엄 선포와 의원 체포 보고",
+      "domain": "치안·헌정·사법",
+      "politicians": [
+        "pol-rhee-syngman",
+        "pol-lee-beom-seok",
+        "pol-r164-seo-min-ho"
+      ],
+      "documentIds": [
+        "doc171-frus-d138"
+      ],
+      "evidenceState": "NARROWED",
+      "researchStatus": "PUBLISHED_PRIMARY_TRANSCRIPTION_OR_OFFICIAL_RETROSPECTIVE",
+      "roleGraph": {
+        "proposed_by": [],
+        "decided_by": [
+          "대한민국 정부: 부산 및 일부 지역 계엄 선포(FRUS 편집주석)"
+        ],
+        "executed_by": [
+          "경찰·헌병: 일부 국회의원 체포(편집주석)"
+        ],
+        "opposed_by": [],
+        "legal_authority": [],
+        "observed_by": [
+          "미국 대사관 관찰을 요약한 FRUS 편집주석"
+        ],
+        "later_finding": [
+          "서민호 5월25일 체포·이범석 내무장관 임명 날짜는 한국 원명령·인사원부 재확인 필요"
+        ]
+      },
+      "accessDate": "2026-10-26",
+      "provenanceCaution": "Official transcript/excerpt or diplomatic record; no Korean original facsimile viewed. Participant allegation/relay not treated as proven outcome.",
+      "sourceOverlay": "data/events/run171-1952-decision-actions.json"
+    },
+    {
+      "id": "evt-r171-11",
+      "date": "1952-06-03",
+      "name": "장택상 국무총리의 국무회의 경과 전언과 국회해산 대안 논의",
+      "domain": "헌정·인사·치안",
+      "politicians": [
+        "pol-rhee-syngman",
+        "pol-r139-jang-taek-sang",
+        "pol-lee-beom-seok"
+      ],
+      "documentIds": [
+        "doc171-frus-d163"
+      ],
+      "evidenceState": "NARROWED",
+      "researchStatus": "PUBLISHED_PRIMARY_TRANSCRIPTION_OR_OFFICIAL_RETROSPECTIVE",
+      "roleGraph": {
+        "proposed_by": [
+          "이승만: 국회해산 요구(장택상 전언)",
+          "이범석: 의원 전원 구금 제안(장택상 전언)",
+          "장택상: 대통령 직선·총리 인준 등 타협안 초안(전언)"
+        ],
+        "decided_by": [],
+        "executed_by": [],
+        "opposed_by": [
+          "다수 국무위원: 해산안 반대(장택상 전언)"
+        ],
+        "legal_authority": [],
+        "observed_by": [
+          "미 대사관 직원에게 전달된 장택상 구술을 Lightner가 6월3일 보고"
+        ],
+        "later_finding": [
+          "한국 국무회의 원회의록 확보 전 직접 발언·명령으로 확정 금지"
+        ]
+      },
+      "accessDate": "2026-10-26",
+      "provenanceCaution": "Official transcript/excerpt or diplomatic record; no Korean original facsimile viewed. Participant allegation/relay not treated as proven outcome.",
+      "sourceOverlay": "data/events/run171-1952-decision-actions.json"
+    },
+    {
+      "id": "evt-r171-12",
+      "date": "1952-06-05",
+      "name": "이승만의 트루먼 답신: 지방의회 결의와 국회해산 여론 주장",
+      "domain": "외교·헌정·지방정치",
+      "politicians": [
+        "pol-rhee-syngman"
+      ],
+      "documentIds": [
+        "doc171-frus-d171"
+      ],
+      "evidenceState": "NARROWED",
+      "researchStatus": "PUBLISHED_PRIMARY_TRANSCRIPTION_OR_OFFICIAL_RETROSPECTIVE",
+      "roleGraph": {
+        "proposed_by": [
+          "이승만: 대중 직선·국회해산 요구를 국민 뜻으로 주장"
+        ],
+        "decided_by": [],
+        "executed_by": [],
+        "opposed_by": [],
+        "legal_authority": [],
+        "observed_by": [
+          "이승만이 작성·전달 요청한 대미 서한"
+        ],
+        "later_finding": [
+          "거의 모든 유권자 서명·지방의회 결의 주장 사실성은 독립 원자료 미검증"
+        ]
+      },
+      "accessDate": "2026-10-26",
+      "provenanceCaution": "Official transcript/excerpt or diplomatic record; no Korean original facsimile viewed. Participant allegation/relay not treated as proven outcome.",
+      "sourceOverlay": "data/events/run171-1952-decision-actions.json"
+    },
+    {
+      "id": "evt-r171-13",
+      "date": "1952-06-10",
+      "name": "제48회 국무회의 국민투표 검토와 선거법 3안 의결",
+      "domain": "헌정·선거·입법",
+      "politicians": [
+        "pol-rhee-syngman"
+      ],
+      "documentIds": [
+        "doc171-na-12"
+      ],
+      "evidenceState": "NARROWED",
+      "researchStatus": "PUBLISHED_PRIMARY_TRANSCRIPTION_OR_OFFICIAL_RETROSPECTIVE",
+      "roleGraph": {
+        "proposed_by": [
+          "이승만: 중대문제 국민투표제도 검토 유시"
+        ],
+        "decided_by": [
+          "국무회의: 대통령·부통령 선거법안 등 3안 원안 의결, 무투표 당선제 삭제"
+        ],
+        "executed_by": [],
+        "opposed_by": [],
+        "legal_authority": [],
+        "observed_by": [
+          "BA0085166/54-1 전사"
+        ],
+        "later_finding": [
+          "국민투표제도가 1952년에 실제 시행됐다는 증거가 아님"
+        ]
+      },
+      "accessDate": "2026-10-26",
+      "provenanceCaution": "Official transcript/excerpt or diplomatic record; no Korean original facsimile viewed. Participant allegation/relay not treated as proven outcome.",
+      "sourceOverlay": "data/events/run171-1952-decision-actions.json"
+    },
+    {
+      "id": "evt-r171-14",
+      "date": "1952-06-25",
+      "name": "이승만의 트루먼 서한: 국회의원 공산주의 연루 주장",
+      "domain": "외교·사법·치안",
+      "politicians": [
+        "pol-rhee-syngman"
+      ],
+      "documentIds": [
+        "doc171-frus-d190",
+        "doc171-frus-d151"
+      ],
+      "evidenceState": "OPEN",
+      "researchStatus": "PUBLISHED_PRIMARY_TRANSCRIPTION_OR_OFFICIAL_RETROSPECTIVE",
+      "roleGraph": {
+        "proposed_by": [
+          "이승만: 일부 국회의원 공산주의 음모 연루 혐의 주장"
+        ],
+        "decided_by": [],
+        "executed_by": [],
+        "opposed_by": [],
+        "legal_authority": [],
+        "observed_by": [
+          "당사자 서한 원문, FRUS d190"
+        ],
+        "later_finding": [
+          "주장 사실 여부·기소 및 판결 결과 별도 확인 필요; 미국은 5월30일 혐의 타당성 검토 요청"
+        ]
+      },
+      "accessDate": "2026-10-26",
+      "provenanceCaution": "Official transcript/excerpt or diplomatic record; no Korean original facsimile viewed. Participant allegation/relay not treated as proven outcome.",
+      "sourceOverlay": "data/events/run171-1952-decision-actions.json"
+    },
+    {
+      "id": "evt-r171-15",
+      "date": "1952-07-04",
+      "name": "제55회 국무회의 개헌 공포 의결 기록의 시간순 충돌",
+      "domain": "헌정·행정·문헌비판",
+      "politicians": [
+        "pol-rhee-syngman",
+        "pol-r139-jang-taek-sang"
+      ],
+      "documentIds": [
+        "doc171-na-13",
+        "doc170-assembly-1952-0704"
+      ],
+      "evidenceState": "CONFLICTED",
+      "researchStatus": "PUBLISHED_PRIMARY_TRANSCRIPTION_OR_OFFICIAL_RETROSPECTIVE",
+      "roleGraph": {
+        "proposed_by": [],
+        "decided_by": [
+          "제55회 국무회의: 국회 통과안 공포 의결(전사)"
+        ],
+        "executed_by": [],
+        "opposed_by": [],
+        "legal_authority": [],
+        "observed_by": [
+          "BA0085167/2-1 국가기록원 전사·해제"
+        ],
+        "later_finding": [
+          "국가기록원 해제는 7월4일 오전 9:30 회의라고 기술하나 국회 가결은 같은 날 야간. 회의 원면 날짜·시각 또는 해제 날짜 오류 가능성. 결론 보류"
+        ]
+      },
+      "accessDate": "2026-10-26",
+      "provenanceCaution": "Official transcript/excerpt or diplomatic record; no Korean original facsimile viewed. Participant allegation/relay not treated as proven outcome.",
+      "sourceOverlay": "data/events/run171-1952-decision-actions.json"
+    },
+    {
+      "id": "evt-r171-16",
+      "date": "1952-07-05",
+      "name": "유엔군사령관 클라크 한국 정치개입 비상계획 작성 보고",
+      "domain": "안보·군사·외교",
+      "politicians": [
+        "pol-rhee-syngman"
+      ],
+      "documentIds": [
+        "doc171-frus-d192",
+        "doc171-frus-d207"
+      ],
+      "evidenceState": "NARROWED",
+      "researchStatus": "PUBLISHED_PRIMARY_TRANSCRIPTION_OR_OFFICIAL_RETROSPECTIVE",
+      "roleGraph": {
+        "proposed_by": [
+          "미국 합참: 비상사태 발생 시 개입계획 작성 지시"
+        ],
+        "decided_by": [],
+        "executed_by": [
+          "클라크: 계획 수립·협의 보고"
+        ],
+        "opposed_by": [],
+        "legal_authority": [],
+        "observed_by": [
+          "JCS 912098 및 Clark CX 51399"
+        ],
+        "later_finding": [
+          "계획 수립과 실제 한국 정치 개입 집행은 구별; 실제 실행 입증 없음"
+        ]
+      },
+      "accessDate": "2026-10-26",
+      "provenanceCaution": "Official transcript/excerpt or diplomatic record; no Korean original facsimile viewed. Participant allegation/relay not treated as proven outcome.",
+      "sourceOverlay": "data/events/run171-1952-decision-actions.json"
+    },
+    {
+      "id": "evt-r171-17",
+      "date": "1952-04-25",
+      "name": "제1차 시·읍·면 지방의회의원 선거 실시",
+      "domain": "선거·지방행정",
+      "politicians": [
+        "pol-rhee-syngman"
+      ],
+      "documentIds": [
+        "doc171-nec-local-1952",
+        "doc171-nec-local-turnout"
+      ],
+      "evidenceState": "NARROWED",
+      "researchStatus": "PUBLISHED_PRIMARY_TRANSCRIPTION_OR_OFFICIAL_RETROSPECTIVE",
+      "roleGraph": {
+        "proposed_by": [],
+        "decided_by": [],
+        "executed_by": [],
+        "opposed_by": [],
+        "legal_authority": [
+          "1949 지방자치법 및 당시 국회의원선거법 준용(중앙선관위 해제)"
+        ],
+        "observed_by": [
+          "중앙선거관리위원회 공식 선거사"
+        ],
+        "later_finding": [
+          "서울·경기·강원 등 전쟁 영향 지역 일부 미실시. 원당선공고·투표록은 별도 확인"
+        ]
+      },
+      "accessDate": "2026-10-26",
+      "provenanceCaution": "Official transcript/excerpt or diplomatic record; no Korean original facsimile viewed. Participant allegation/relay not treated as proven outcome.",
+      "sourceOverlay": "data/events/run171-1952-decision-actions.json"
+    },
+    {
+      "id": "evt-r171-20",
+      "date": "1952-08-05",
+      "name": "제3대 부통령 국민직선 선거",
+      "domain": "선거·헌정",
+      "politicians": [
+        "pol-lee-beom-seok",
+        "pol-cho-byeong-ok",
+        "pol-r141-lee-yun-yeong",
+        "pol-r164-lim-yeong-sin",
+        "pol-r141-jeon-jin-han",
+        "pol-r141-baek-seong-uk"
+      ],
+      "documentIds": [
+        "doc171-nec-pres-1952"
+      ],
+      "evidenceState": "NARROWED",
+      "researchStatus": "PUBLISHED_PRIMARY_TRANSCRIPTION_OR_OFFICIAL_RETROSPECTIVE",
+      "roleGraph": {
+        "proposed_by": [],
+        "decided_by": [],
+        "executed_by": [],
+        "opposed_by": [],
+        "legal_authority": [
+          "1952 제1차 개정헌법"
+        ],
+        "observed_by": [
+          "중앙선관위 공식 선거사: 무소속 함태영 당선, 유효표 중 41.3%"
+        ],
+        "later_finding": [
+          "이갑성·함태영·정기원 후보 ID 및 개표 원장 추가 검증 필요"
+        ]
+      },
+      "accessDate": "2026-10-26",
+      "provenanceCaution": "Official transcript/excerpt or diplomatic record; no Korean original facsimile viewed. Participant allegation/relay not treated as proven outcome.",
+      "sourceOverlay": "data/events/run171-1952-decision-actions.json"
     }
   ]
 }
