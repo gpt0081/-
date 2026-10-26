@@ -600,6 +600,46 @@
       "publisher": "US State Department",
       "url": "https://history.state.gov/historicaldocuments/frus1955-57v23p2/d94",
       "grade": "B"
+    },
+    "S1950-SEP14-MILITARY-DETENTION": {
+      "title": "1950-09-14 미결수 검찰이관·고문금지 하달 총사령부 발표",
+      "publisher": "국사편찬위원회/민주화운동기념사업회 당대 기록 전사",
+      "url": "https://db.history.go.kr/contemp/level.do?levelId=dh_018_1950_09_15_0100",
+      "grade": "B",
+      "accessDate": "2026-10-26",
+      "qualification": "contemporaneous_military_announcement_not_signed_presidential_order"
+    },
+    "S1950-SEP25-BUSAN-TJR": {
+      "title": "부산형무소 재소자 희생 진실화해위 후대 조사",
+      "publisher": "국가기록원/진실화해위/민주화운동기념사업회 후대 기록",
+      "url": "https://www.jinsil.go.kr/KoreanWar/28.do",
+      "grade": "C",
+      "accessDate": "2026-10-26",
+      "qualification": "source_type_as_label"
+    },
+    "S1960-JAN05-CABINET-ETHICS": {
+      "title": "1960-01-05 국무위원 공무원에게 고함 11명 서명 전사",
+      "publisher": "국사편찬위원회/민주화운동기념사업회 당대 기록 전사",
+      "url": "https://archives.kdemo.or.kr/workoutlog/workoutlog/view/APR_1960_01_05_n002",
+      "grade": "B",
+      "accessDate": "2026-10-26",
+      "qualification": "source_type_as_label"
+    },
+    "S1960-JAN01-PENSION-GAZETTE": {
+      "title": "1960-01-01 관보2480호 법률533·534 색인",
+      "publisher": "국가기록원/진실화해위/민주화운동기념사업회 후대 기록",
+      "url": "https://theme.archives.go.kr/next/gazette/viewGazetteDetail.do?actionType=keyword&gazetteEventId=0027975939",
+      "grade": "C",
+      "accessDate": "2026-10-26",
+      "qualification": "catalog_only_original_image_not_opened"
+    },
+    "S1960-JAN05-CONSTITUTION": {
+      "title": "1960-01-05 동일티켓제 개헌 국무회의·자유당 회합 해제",
+      "publisher": "국가기록원/진실화해위/민주화운동기념사업회 후대 기록",
+      "url": "https://archives.kdemo.or.kr/workoutlog/workoutlog/view/APR_1960_01_05_n001",
+      "grade": "C",
+      "accessDate": "2026-10-26",
+      "qualification": "source_type_as_label"
     }
   },
   "chronology": [
@@ -1451,6 +1491,69 @@
         "S1955-FRUS-92"
       ],
       "confidence": "verified_report_not_motive"
+    },
+    {
+      "id": "rhee-1950-sep14-military-detention-directive",
+      "date": "1950-09-14",
+      "phase": "제1공화국 한국전쟁",
+      "kind": "reported_presidential_to_military_instruction",
+      "topic": [
+        "사법",
+        "군경",
+        "미결수",
+        "고문금지"
+      ],
+      "summary": "1950-09-15 육해공군총사령부 당대 발표는 대통령→국방부장관→정일권→부대장 미결수 검찰이관·고문금지 하달을 언급한다. 원서명 지시와 부대별 집행은 미확인. 진실화해위는 부산 9/25 희생 정황을 후대 판단하므로 즉시 준수 일반화 금지.",
+      "sourceIds": [
+        "S1950-SEP14-MILITARY-DETENTION",
+        "S1950-SEP25-BUSAN-TJR"
+      ],
+      "eventIds": [
+        "evt-r163-03",
+        "evt-r163-04"
+      ],
+      "confidence": "contemporaneous_announced_chain_verified_original_order_and_implementation_open"
+    },
+    {
+      "id": "rhee-1960-jan01-pension-jan05-cabinet",
+      "date": "1960-01-05",
+      "phase": "제1공화국",
+      "kind": "cabinet_pledge_vs_enacted_statute",
+      "topic": [
+        "복지",
+        "행정",
+        "재정",
+        "공직윤리"
+      ],
+      "summary": "1960-01-01 법률533 공무원연금법과 534 특별회계법 공포 색인이 존재하며 1/5 11명 국무위원 연명 선언은 이미 공포된 연금제도와 부패엄단 방침을 설명. 실제 지급·징계 실적 미확인.",
+      "sourceIds": [
+        "S1960-JAN05-CABINET-ETHICS",
+        "S1960-JAN01-PENSION-GAZETTE"
+      ],
+      "eventIds": [
+        "evt-r163-06",
+        "evt-r163-07"
+      ],
+      "confidence": "statute_promulgation_catalog_and_signed_press_transcription_verified_implementation_open"
+    },
+    {
+      "id": "rhee-1960-jan05-ticket-amendment",
+      "date": "1960-01-05",
+      "phase": "제1공화국",
+      "kind": "constitutional_policy_discussion",
+      "topic": [
+        "개헌",
+        "선거",
+        "정당"
+      ],
+      "summary": "이승만의 선거 직전 개헌 반대 발언은 동일티켓 단독 개헌과 총리제·선거법 연계 개헌을 구분. 최인규와 자유당 간부 회합의 행위는 별개.",
+      "sourceIds": [
+        "S1960-JAN05-CONSTITUTION"
+      ],
+      "eventIds": [
+        "evt-r163-08"
+      ],
+      "confidence": "retrospective_cabinet_notes_and_newspaper_original_minutes_pending"
     }
   ],
   "comparisonCandidates": [
@@ -1638,7 +1741,9 @@
       "status": "narrowed",
       "evidenceSoFar": "이승만은 4월 19일 밤 강한 군중 통제를 승인한 것이 옳았다는 취지와 학생들을 쏘고 싶지는 않았다는 취지를 모두 말했다. 후대 사건기록은 홍진기·곽영주·유충렬·백남규 등의 구체적 지휘관계를 다룬다.",
       "remainingQuestion": "대통령의 강경조치 승인과 실제 경찰 발포 사이를 연결하는 명령·보고 문서가 존재하는지 확인한다."
-    }
+    },
+    "1950-09-14 대통령 서명 미결수 이관 지시문·각 부대 수신대장·1950-09-25 부산 이감원장 확보(HD-R163-01)",
+    "1960-01-01 관보 제2480호 법률533/534 원면·연금 첫 지급·1960-01-05 국무회의 원회의록 확보(HD-R163-03)"
   ],
   "nextPass": {
     "target": "이승만",
