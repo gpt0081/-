@@ -641,3 +641,27 @@ FRUS 1955–1957 한국권 제23권 2부 문서 70·71·77·84·86을 직접 열
 국가기록원 7개 후대 공식 기록해제와 1960-03-04 동아일보의 민주당 발표 재수록 1건을 추가로 직접 열람했다. 3/4 기사는 **민주당이 확보했다고 주장한 선거지령**을 인용한 것이지 원경찰 지시서의 진위가 확정된 것은 아니다. 국가기록원 1960-04-29 최인규 진술 소개는 이승만·이기붕 사전협의 부인을 담고, 05-02 안승관과 05-04 이강학 진술은 계획선에 대한 반대·확장 설명을 담는다. 대통령 개인 지시 여부는 계속 미해결.
 
 1960-10-08 원판결 소장번호 **BA0222070·BA0804624**, 1961-04-17 특별재판소 판결 **BA0803269**를 확보했지만 판결 원면은 미열람. 후대 해제 기준 10/08 유충렬 사형·백남규 무기·홍진기 9월, 1961-04-17 최인규 사형·이강학 15년·이성우 7년·최병환 5년. 5·16 이후 법원·검찰조직과 판결이 다시 변경되어 서로 다른 단계로 기록한다. 1961-05-27 최고회의령17, 06-21 법률630, 09-20·12-06 혁명재판, 12-21 감형·집행을 각각 분리했다. 공식 후대 해제의 1960-11-29 법률586 '제정' 표현과 관보의 12/31 공포, 1950-05-21 기소 표기는 별도 CONFLICTED/SUSPECTED_TYPO.
+
+
+## 2026-10-26 Run163: 1950 전시 사법 지시와 1960 행정·연금
+
+- **1950-09-14** 정일권은 9/15 총사령부 발표에서 대통령→국방부장관 지시에 따라 9/14 미결수 검찰이관·CIC/헌병/HID 무명령 조사검거 금지·고문금지를 부대장에 하달했다고 밝혔다. [당대 전사](https://db.history.go.kr/contemp/level.do?levelId=dh_018_1950_09_15_0100). 원 대통령 서명명령·부대 수신대장은 미확보. 진실화해위는 [부산형무소 9/25 희생](https://www.jinsil.go.kr/KoreanWar/28.do)을 후대 조사하므로 명령 발표와 집행을 분리한다. `evt-r163-03/04`.
+- **1950 김해 한림면** 면장 최대성의 주민 구명 행위는 [진실화해위 후대 조사](https://www.jinsil.go.kr/KoreanWar/54.do)에 따른 독립 지방행정 노드다. 출생연도 1903/1906 내부 충돌은 `HD-R163-02`에 보존. `evt-r163-05`.
+- **1960-01-01** [공무원연금법 제533호](https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=5583&efYd=19600101) 및 [관보 제2480호](https://theme.archives.go.kr/next/gazette/viewGazetteDetail.do?actionType=keyword&gazetteEventId=0027975939)에서 법률533·534 공포를 확인했다. **1960-01-05** [국무위원 11명 연명 공직윤리 선언](https://archives.kdemo.or.kr/workoutlog/workoutlog/view/APR_1960_01_05_n002)은 공포 이후의 공무원 연금·징계 정책표명이다. 집행·연금지급은 미확인. `evt-r163-06/07`.
+- **1960-01-05** [동일티켓 개헌 논의](https://archives.kdemo.or.kr/workoutlog/workoutlog/view/APR_1960_01_05_n001)에서 이승만 발언은 단독 개헌과 연계 개헌을 구별하며 최인규·자유당 간부들의 입장은 별도 행위로 보존한다. `evt-r163-08`.
+- **1961-02** 부산 경제협정 반대 집회와 장면의 대응은 **이승만 재임 이후** 사건이다. [집회](https://archives.kdemo.or.kr/workoutlog/workoutlog/view/AAP_1961_02_22_n008) · [장면 기자회견](https://archives.kdemo.or.kr/workoutlog/workoutlog/view/AAP_1961_02_23_n013). `evt-r163-09/10`.
+
+
+### 1950-08-24 원신문 전사 신규 확보
+- [국무회의 구호요강](https://db.history.go.kr/contemp/level.do?levelId=dh_018_1950_08_24_0030)은 중앙 4부처 구호위원회와 군수·피난민 대표의 지방위원회, 1만~2만명 수용소를 **설계**했다. [도지사회의](https://db.history.go.kr/contemp/level.do?levelId=dh_018_1950_08_24_0050)는 100명 이상 준수용소에 2합 무상배급, 가정 피난민은 유상배급 **방침**을 정했다. [조병옥 내무부장관 문답](https://db.history.go.kr/contemp/level.do?levelId=dh_018_1950_08_24_0040)은 내무부 공무원 구호 전용과 지방행정 재건위원회 **준비**를 설명한다. 집행실적 미확보. `evt-r163-13~15`.
+- [이선근 정훈국장](https://db.history.go.kr/contemp/level.do?levelId=dh_018_1950_08_24_0060)은 병역법 제58조 제2국민병 소집을 근거로 강제모병을 부인했다. 당사자 발언이지 현장 강제성의 확정 판정이 아니다. [정일권 계엄사령관](https://db.history.go.kr/contemp/level.do?levelId=dh_018_1950_08_24_0020)은 대구 소개 관공리·금융기관 직원 8/28 복귀 명령을 발표했다. `evt-r163-12/16`.
+- [유엔 한국난민특별고문 임명](https://db.history.go.kr/contemp/level.do?levelId=dh_018_1950_08_24_0010)은 리 UN 사무총장·하트 사포 국제기구 인물 연결이다. 한국 대통령의 직접 임명으로 귀속하지 않는다. `evt-r163-17`.
+
+
+### 1950-08-29~09-21 원문 28건 직접 열람 (Run163 추가)
+- [육군본부 훈령 제53호](https://db.history.go.kr/contemp/level.do?levelId=dh_018_1950_08_29_0020)는 정일권 총참모장 명의 8/29 16:00 기습방지·강등 경고 원문 전사다. [김종원 경남 계엄사령관](https://db.history.go.kr/contemp/level.do?levelId=dh_018_1950_08_29_0040)은 CIC 민사사건·청년단 불법구속 단속·지원병제·물가조정 계획을 설명한다. [미 CIA 신성모 보고](https://db.history.go.kr/contemp/level.do?levelId=dh_018_1950_08_29_0050)의 25만은 **징집연령 대상** 규모다.
+- [이승만 9/16 원조물자 횡령 공개 포살 경고](https://db.history.go.kr/contemp/level.do?levelId=dh_018_1950_09_16_0010)는 실제 처형 집행 증거가 아니다. [국회 경찰원호법](https://db.history.go.kr/contemp/level.do?levelId=dh_018_1950_09_16_0040)의 48:9는 심의연기 동의 표결이며 본안 통과가 아니다. [국군임시계급령384](https://db.history.go.kr/contemp/level.do?levelId=dh_018_1950_09_16_0050)는 해임시 원계급 복귀를 명시한다.
+- [장면 주미대사 북진·통일 서한](https://db.history.go.kr/contemp/level.do?levelId=dh_018_1950_09_21_0010)은 **한국 정부를 대표해** 애치슨에게 발송한 당대 외교문서다. [미 OIR](https://db.history.go.kr/contemp/level.do?levelId=dh_018_1950_09_21_0040)의 피난민150~200만·쌀 부족40만t은 당대 **추정치**다. [재무부령 특제2호](https://db.history.go.kr/contemp/level.do?levelId=dh_018_1950_09_21_0050)는 전시 세출특례를 6/25로 소급한다. [김훈 상공부장관](https://db.history.go.kr/contemp/level.do?levelId=dh_018_1950_09_21_0060)의 광목 50만필은 수입 **계획**이다. [최창식 군법회의](https://db.history.go.kr/contemp/level.do?levelId=dh_018_1950_09_21_0070)는 9/15 사형언도와 9/21 집행 **예정**을 구별하며 후대 무죄판결과 병렬 보존한다.
+
+### 1950-09-06 당대 원문 추가
+- [김종원 경남계엄사령관 포고](https://db.history.go.kr/contemp/level.do?levelId=dh_018_1950_09_06_0060)는 3개 사설수사기관 해산을 명했다. '상부의 명' 발신자는 미상이다. [신규식 관재처장](https://db.history.go.kr/contemp/level.do?levelId=dh_018_1950_09_06_0070)은 귀속주택 피난민 수용과 임대차 취소 조건을 발표했다. [장택상·황성수·김동성 국회 견미사절단](https://db.history.go.kr/contemp/level.do?levelId=dh_018_1950_09_06_0050)의 외교 목적도 각 인물별로 보존한다.
