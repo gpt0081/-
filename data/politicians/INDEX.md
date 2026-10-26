@@ -158,3 +158,7 @@ See `data/politicians/run113-prewar-network.json` for 12 sourced profiles. No ca
 
 ### Run166 확장 · 1950-10-11~14
 `data/politicians/run166-october-actors.json`에 임병직·장택상·곽상훈·조정환·백낙준·정일권 기존 ID 6명 보강, 김석관(`pol-r166-kim-seok-gwan`), 지연해(`pol-r166-ji-yeon-hae`), 정재완(`pol-r166-jeong-jae-wan`) 신규 IDENTIFIED 후보 3명 추가. 신원 생몰·임명/당선원부 미확보로 VERIFIED 승격 없음. 김석관·조정환은 독립 annals/evidence 실험 파일 개설.
+
+
+### Run166 1950-10-16~18 추가 후보
+주석균(`pol-r166-joo-seok-gyun`, 朱碩均)은 1950-10-17 농림부차관 기자회견에서 추곡 520만석·경기 15만석·인천 외곡 6000톤을 설명한 행위로 IDENTIFIED 후보 등록. 생몰·임명원부 미확인. 기존 신익희·윤영선·김석관·백낙준·김훈 등 시기별 발언·행위 보강.
