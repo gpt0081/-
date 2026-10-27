@@ -268,3 +268,9 @@ See `data/politicians/run113-prewar-network.json` for 12 sourced profiles. No ca
 - 신규 DISCOVERED 4명: 김창룡(합동수사), 이정일(8사단 군령), 장두관(경남 계엄민사), 김윤근(1950 대한청년단장). 생몰·임명원부·한자 일부 미확인, VERIFIED 승격 0.
 - **신원교정**: 기존 `pol-kim-yun-geun`은 1961 해병지휘관 기록. 1950 청년단장 金潤根과 동일인임이 입증되지 않아 `cand-r198-kim-yun-geun-youth1950` 별도 후보. `data/politicians/run198-october-actor-network.json`의 correctionHistory를 참조. 기존 이범석 중복 ID도 병합하지 않음.
 - 독립 비대통령 실록 `data/annals/nonpresidential-october-run198.md`; 대통령 실록 `data/annals/rhee-syngman-run198.md`. 연구상태 점수·정치적 평가 없음.
+
+
+### Run198b · 1950-11-01~07 (2026-10-27)
+- 국편 신규 문서 87건, canonical 사건 36건 추가, 기존 비대통령 18명 보강, 신규 DISCOVERED 후보 8명. `data/politicians/run198b-nov-actor-network.json`.
+- **번역 교정**: `dh_019_1950_11_04_0060`은 George Paek를 백두진으로 번역했으나 FRUS d746 교육장관 각주와 경향신문 1950-11-03 白樂濬은 **백낙준**. claim-r198b-01에 양쪽 원문·교정 이력 보존.
+- **절차 구분**: 11/2 계엄해제 국회 요구, 11/7 새 경비계엄(11/10 시행), 11/3 총리인준 부결, 11/7 내각사임 건의 조건부 보류. 사건·주장·법적효력을 구분한다.
