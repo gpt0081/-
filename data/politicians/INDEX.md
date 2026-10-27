@@ -278,3 +278,7 @@ See `data/politicians/run113-prewar-network.json` for 12 sourced profiles. No ca
 ## Run200 · 1950-11-22~28 비대통령 네트워크
 
 기존 장면·백낙준·신익희·이기붕·서범석·김준연·허정·김수학·박영출 등 20개 연결 노드와 신규 DISCOVERED 6명(이우익, 공진항, 전득수, 이광선, 정희택, 이하성)을 별도 오버레이에 연결. 김치안국장 성만 기록은 김태선 신원으로 자동확정 금지. 인사 원관보 미확보, 신규 VERIFIED 승격0. `data/politicians/run200-nov22-28-actor-network.json`, `data/annals/nonpresidential-nov-run200.md` 참조.
+
+## Run200b · 1950-11-29~12-03 인물 확장
+
+허정 사회부장관 구호통계·신성모 국방장관 원폭 희망 발언·김창룡 합동수사본부장 대통령 표창을 별도 annals로 연결했다. 경기 張春河·權炳漢·李範昇 및 경북 吳完洙는 부역심사위원 **추천** 단계의 신규 DISCOVERED 후보이며 위촉·생몰 미검증. 張春河와 張俊河 자동병합 금지. `data/politicians/run200b-nov29-dec3-actor-network.json` 참조.
