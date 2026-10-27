@@ -2350,3 +2350,8 @@ Run210 추가 좁힘: FRUS d428(1951-07-11) UNC-UNKRA 2단계 지휘권 원제�
 | HD-R211-24 | OPEN | 7/24 석탄 목표 12만1000톤, 광산별 일부 누락·영월25톤 표기 | 상공부 6광산 생산계획 원표 |
 
 근거 문서: [FRUS d429~456·국편 7/10~15](../documents/run211-july10-20-source-registry.json), [7/16~20](../documents/run211-july16-20-source-addendum.json), [7/21~31](../documents/run211-july21-31-source-addendum.json). 전체 상태·교정내역은 [Run211 history debt JSON](history-debt/run211-july10-31.json)을 기준으로 한다.
+
+### Run211 개별 부채 후속 교정 (2026-10-28, 법제처 연혁법령)
+
+- **HD-R211-08: OPEN → NARROWED**. 앞 표의 OPEN은 최초 조사 시점 상태이다. 법제처 [국민의료법 법률 제221호](https://www.law.go.kr/lsEfInfoP.do?lsiSeq=8000)에서 **1951-09-25 제정·공포, 1951-12-25 시행**을 추가 확인했다. 7월 심의 원안·수정안과 최종 조문 비교, 원관보 이미지 확보는 미완이다. 이전 상태를 지우지 않고 교정 이력으로 남긴다.
+- 법제처 [군법회의 재판권 법률 제210호](https://law.go.kr/LSW/lsInfoP.do?lsiSeq=3646)에서 **1951-07-29 제정·시행**을 독립 관리기관 연혁 메타데이터로 재확인했다. 법률 전문은 국편 관보 전사와 별도 원관보 원면 확보 대상이다.
