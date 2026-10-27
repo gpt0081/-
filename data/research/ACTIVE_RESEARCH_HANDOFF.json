@@ -1,17 +1,17 @@
 {
-  "updated": "2026-10-27",
+  "updated": "2026-10-28",
   "project": "대한민국 역대 정치인 실록",
-  "branchRef": "refs/heads/research/run206-1951-may29-june01-governance",
+  "branchRef": "refs/heads/research/run213-1951-augsep-source-contradictions",
   "branchHeadResolution": "READ_LIVE_REF_NOT_CACHED_SHA",
-  "lastCompletedRun": 206,
-  "latestRunReport": "data/research/runs/2026-10-27-run206-report.md",
-  "latestLeadQueue": "data/research/lead-queues/run206d-next.json",
-  "latestDocumentRegistry": "data/documents/run206d-economic-presidential-archives.json",
-  "latestEventOverlay": "data/events/run206d-economic-policy-actions.json",
-  "latestClaimOverlay": "data/claims/run206d-economic-adversarial.json",
-  "latestPoliticianOverlay": "data/politicians/run206-may-june1951-actor-network.json",
-  "latestDebtAddenda": "data/research/history-debt/run206d-economic-biography.json",
-  "latestAnnals": "data/annals/run206d-rhee-economy-lee-jong-uk.md",
+  "lastCompletedRun": 213,
+  "latestRunReport": "data/research/runs/2026-10-28-run213-report.md",
+  "latestLeadQueue": "data/research/lead-queues/run213-next.json",
+  "latestDocumentRegistry": "data/documents/run213-augsep-source-registry.json",
+  "latestEventOverlay": "data/events/run213-augsep-actions.json",
+  "latestClaimOverlay": "data/claims/run213-adversarial.json",
+  "latestPoliticianOverlay": "data/politicians/run213-augsep-actor-network.json",
+  "latestDebtAddenda": "data/research/history-debt/run213-augsep.json",
+  "latestAnnals": "data/annals/run213-1951-augsep-institutions-and-contradictions.md",
   "next": [
     "L206d-01",
     "L206d-02",
@@ -37,8 +37,8 @@
     "data/research/coverage/run204de.json",
     "data/research/coverage/run206.json"
   ],
-  "latestRun": 201,
-  "latestRunLedger": "data/research/runs/2026-10-27-run205-ledger.json",
+  "latestRun": 213,
+  "latestRunLedger": "data/research/runs/2026-10-28-run213-ledger.json",
   "latestLeadAddendum": "data/research/lead-queues/run115-addendum.json",
   "latestFinalAddendum": "data/research/runs/2026-10-09-run115-final-addendum.json",
   "latestLeadFinalAddendum": "data/research/lead-queues/run115-press-addendum.json",
@@ -417,5 +417,11 @@
     "firstCommit": "a5bb5022fa0f836636216f35bc7375aa492fabdb",
     "extension": "e",
     "crosschecksThreeFamily": 2
+  },
+  "run213": {
+    "baseBranch": "research/run212-1951-august-institutions-adversarial",
+    "report": "data/research/runs/2026-10-28-run213-report.md",
+    "leadQueue": "data/research/lead-queues/run213-next.json",
+    "warning": "Stacked draft PR; do not merge ahead of upstream PR #61; no original signed facsimiles; strict 3-family verification 0."
   }
 }

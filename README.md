@@ -201,3 +201,7 @@ Run211 법제처 후속 확인: 국민의료법은 1951-09-25 법률 제221호�
 ### Run212 8/11~15 추가 대량채굴
 
 [국편 40건 추가](data/documents/run212-aug11-15-source-addendum.json), [전시 계엄·산업·정당 후속 실록](data/annals/1951-august11-15-governance-conflicts-run212.md). 최종 직접 확인 본문 171개 URL(국편131, FRUS40), 비대통령 36명, 신규 candidate 11명, 사건 38개, 반증 38개, 후속 원문 표적 55개. 8/11 국무원공고 제18·19호의 같은 시각 비상계엄 해제·경비계엄 선포, 백선엽 8/3 서한의 이승만 계속참석 지시, 김종원 증언 시인·부인 충돌, 조폐공사법 국회 통과·공포일 구분을 추가했다. [최종 보고](data/research/runs/2026-10-28-run212-report.md).
+
+## Run213 · 1951년 8월 말~9월 정전·국정 원문 반증 (2026-10-28)
+
+[보고](data/research/runs/2026-10-28-run213-report.md) · [문서 51건](data/documents/run213-augsep-source-registry.json) · [14개 사건](data/events/run213-augsep-actions.json) · [17개 반증](data/claims/run213-adversarial.json) · [11개 정치인 연결](data/politicians/run213-augsep-actor-network.json) · [33개 원문 표적](data/research/lead-queues/run213-next.json). 1951-08-24 정부조직법 1독회 미결, 전력 1,000kW 합계 충돌, 1951-09-10 유엔군 개성 오폭 인정, 미 국무·국방부 포로·원화계정 이견을 원문으로 분리. FRUS 편집원문 39건은 미국 단일 provenance 계열, 원면 이미지 0건. Floot 미변경.

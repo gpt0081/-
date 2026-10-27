@@ -335,3 +335,6 @@ Run208 신원검증: `cand-r207-kim-su-hak` 金秀學(1950 고창갑 당선, AKS
 
 
 Run212 8/11~15 후속으로 [계엄 공고 국무위원·이종찬·김종원·김석관·백낙준·이활·김대운 등](run212-august-constitutional-reform-actor-network.json)을 연결해 **37 actor records(비대통령 36)**, 신규 candidate 11개로 확장. 이름/생몰/동명이인 원전거 미확인 시 정식 승격 보류.
+
+### Run213 (2026-10-28)
+[11명 정치인·후보 증거 연결](run213-augsep-actor-network.json) · [행위별 근거](../evidence/politicians/run213-augsep-evidence.json) · [국정·외교·사법 사건](../events/run213-augsep-actions.json). 직접 발언/행위 7명과 기관 맥락만 4명을 분리하며 무근거 승격하지 않는다.
