@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-27",
+  "updatedAt": "2026-10-28",
   "purpose": "대한민국 정치인 실록의 인물 registry. 대통령은 초기 backbone일 뿐이며 모든 인물은 독립된 정치인 노드로 취급한다.",
   "politicians": [
     {
@@ -426,6 +426,45 @@
           ],
           "sourceQualification": "1950 newspaper or 1951 compiled speech transcription, original presidential archive facsimile not inspected; rhetoric and legal/direct command distinct",
           "accessDate": "2026-10-27"
+        },
+        {
+          "period": "1951-08-21",
+          "title": "제주도지사에 군수 인사 제보 내사·검토 지시(인사발령 직접명령 아님)",
+          "actionType": "PRESIDENTIAL_WRITTEN_DIRECTIVE",
+          "evidenceDocumentIds": [
+            "doc-r213-dh-1951-08-21-0010"
+          ],
+          "eventIds": [
+            "evt-r213-16"
+          ],
+          "sourceQualification": "NIKH presidential records text; original signed facsimile not opened",
+          "accessDate": "2026-10-28"
+        },
+        {
+          "period": "1951-08-24",
+          "title": "대통령령523호 학도호국단 규정 개정(법령 직제와 개인 집행 분리)",
+          "actionType": "PRESIDENTIAL_DECREE",
+          "evidenceDocumentIds": [
+            "doc-r213-dh-1951-08-24-0100"
+          ],
+          "eventIds": [
+            "evt-r213-26"
+          ],
+          "sourceQualification": "NIKH presidential records text; original signed facsimile not opened",
+          "accessDate": "2026-10-28"
+        },
+        {
+          "period": "1951-08-25",
+          "title": "이승만 신당 조직 후원·직접 운영 비관여 주장 원문",
+          "actionType": "PRESIDENTIAL_ORIGINAL_PUBLIC_STATEMENT",
+          "evidenceDocumentIds": [
+            "doc-r213-dh-1951-08-25-0030"
+          ],
+          "eventIds": [
+            "evt-r213-31"
+          ],
+          "sourceQualification": "Run213 August25-31 source; source's report/claim/observation separated from final administrative act",
+          "accessDate": "2026-10-28"
         }
       ],
       "researchStatus": "active-deep",
@@ -558,7 +597,10 @@
         "doc-r200b-27_0030",
         "doc-r201-frus-988",
         "doc-r201-nikh-dh_019_1950_12_02_0060",
-        "doc-r201-nikh-dh_019_1950_12_02_0070"
+        "doc-r201-nikh-dh_019_1950_12_02_0070",
+        "doc-r213-dh-1951-08-21-0010",
+        "doc-r213-dh-1951-08-24-0100",
+        "doc-r213-dh-1951-08-25-0030"
       ],
       "researchNotes": [
         {
@@ -755,7 +797,10 @@
         "evt-r200b-09",
         "evt-r201-35",
         "evt-r201-45",
-        "evt-r201-48"
+        "evt-r201-48",
+        "evt-r213-16",
+        "evt-r213-26",
+        "evt-r213-31"
       ],
       "openLeads": [
         "L173-05",
@@ -768,7 +813,8 @@
         "L192-07",
         "L194-02",
         "L194B-20",
-        "L201-59"
+        "L201-59",
+        "L213-A25-pol-rhee-syngman"
       ],
       "historyDebt": [
         "HD-R180-01",
@@ -777,7 +823,7 @@
         "data/research/history-debt/run194b-constitutional-social.md",
         "data/research/history-debt/run194c-decree-crosswalk.md"
       ],
-      "researchUpdatedAt": "2026-10-27"
+      "researchUpdatedAt": "2026-10-28"
     },
     {
       "id": "pol-yi-ki-pung",
@@ -1695,6 +1741,19 @@
           "sourceQualification": "run198 contemporaneous source attribution; original appointment, order implementation, and political responsibility not automatically inferred",
           "run": 198,
           "accessDate": "2026-10-27"
+        },
+        {
+          "period": "1951-08-25",
+          "title": "미 대사관이 신당 준비를 이범석이 이끈다고 보고(전언)",
+          "actionType": "US_DIPLOMATIC_REPORTED_ROLE_NOT_DIRECT_COMMAND",
+          "evidenceDocumentIds": [
+            "doc-r213-dh-1951-08-25-0020"
+          ],
+          "eventIds": [
+            "evt-r213-33"
+          ],
+          "sourceQualification": "Run213 August25-31 source; source's report/claim/observation separated from final administrative act",
+          "accessDate": "2026-10-28"
         }
       ],
       "researchStatus": "IDENTIFIED",
@@ -1732,7 +1791,8 @@
         "doc187-budget-supplement",
         "doc191-frus1950v07-d76",
         "doc194b-0804-0040",
-        "doc-r198-1027-0050"
+        "doc-r198-1027-0050",
+        "doc-r213-dh-1951-08-25-0020"
       ],
       "run171Addendum": {
         "researchStatusUnchanged": true,
@@ -1761,7 +1821,8 @@
         "evt-r187-09",
         "evt-r191-21",
         "evt-r194b-09",
-        "evt-r198-12"
+        "evt-r198-12",
+        "evt-r213-33"
       ],
       "openLeads": [
         "L180-P-pol-lee-beom-seok",
@@ -1769,13 +1830,15 @@
         "L183b-04",
         "L184-P-pol-lee-beom-seok",
         "L187-A-pol-lee-beom-seok",
-        "L194B-17"
+        "L194B-17",
+        "L213-A25-pol-lee-beom-seok"
       ],
       "historyDebt": [
         "HD-R180-01",
         "HD-R180b-IDENTITY",
         "data/research/history-debt/run194b-constitutional-social.md"
-      ]
+      ],
+      "researchUpdatedAt": "2026-10-28"
     },
     {
       "id": "pol-lee-mun-won",
@@ -2461,6 +2524,19 @@
             "evt-r188b-07"
           ],
           "sourceQualification": "신문 전사, 직접 발언과 타인 언급 구분"
+        },
+        {
+          "period": "1951-08-24",
+          "title": "1952년도 예산편성방침 재정당국 연결 검토",
+          "actionType": "INSTITUTIONAL_CONTEXT_ONLY_NOT_PERSONAL_COMMAND",
+          "evidenceDocumentIds": [
+            "doc-r213-dh-1951-08-24-0110"
+          ],
+          "eventIds": [
+            "evt-r213-04"
+          ],
+          "sourceQualification": "RUN213: INSTITUTIONAL_CONTEXT_ONLY_NOT_PERSONAL_COMMAND; not proof of individual command when institutional context only",
+          "accessDate": "2026-10-28"
         }
       ],
       "researchStatus": "ANNALS_ACTIVE",
@@ -2542,7 +2618,8 @@
         "doc174-nih-028-1953-02-19-0030",
         "doc174-nih-028-1953-02-28-0040",
         "doc180b-0905-0110",
-        "doc188b-011-1949-03-10-0120"
+        "doc188b-011-1949-03-10-0120",
+        "doc-r213-dh-1951-08-24-0110"
       ],
       "evidenceCoverage": {
         "documentIds": [
@@ -2569,7 +2646,8 @@
         "evt-r174-11",
         "evt-r174-12",
         "evt-r180b-0905-0110",
-        "evt-r188b-07"
+        "evt-r188b-07",
+        "evt-r213-04"
       ],
       "status": "ANNALS_ACTIVE",
       "openLeads": [
@@ -2581,10 +2659,11 @@
         "L173-05",
         "L173-06",
         "L173-08",
-        "L180b-P-pol-paik-too-chin"
+        "L180b-P-pol-paik-too-chin",
+        "국무회의 8/24 회의록·재무부 예산안 결재 원부"
       ],
       "promotionReason": "원문/공식 기관 기록 기반 역할 심화, 법률 제정 책임은 추가 확인.",
-      "researchUpdatedAt": "2026-10-26",
+      "researchUpdatedAt": "2026-10-28",
       "researchMaturity": "ANNALS_ACTIVE",
       "annalsFile": "data/annals/paik-too-chin.md",
       "evidenceFile": "data/evidence/paik-too-chin.json",
@@ -2628,6 +2707,46 @@
             "doc173-frus-741"
           ],
           "attribution": "US contemporaneous meeting record; Korean counterpart original outstanding"
+        },
+        {
+          "period": "1951-08-21~1951-09-08",
+          "title": "대일강화조약 한국 외교노선 맥락 검토",
+          "actionType": "INSTITUTIONAL_CONTEXT_ONLY_NOT_PERSONAL_COMMAND",
+          "evidenceDocumentIds": [
+            "doc-r213-dh-1951-08-21-0080",
+            "doc-r213-treaty-sf1951-nikh"
+          ],
+          "eventIds": [
+            "evt-r213-07"
+          ],
+          "sourceQualification": "RUN213: INSTITUTIONAL_CONTEXT_ONLY_NOT_PERSONAL_COMMAND; not proof of individual command when institutional context only",
+          "accessDate": "2026-10-28"
+        },
+        {
+          "period": "1951-08-20~21",
+          "title": "대일강화 및 지역 안보동맹 배제 항의 담화",
+          "actionType": "DIRECT_REPORTED_FOREIGN_MINISTER_STATEMENT",
+          "evidenceDocumentIds": [
+            "doc-r213-dh-1951-08-21-0020"
+          ],
+          "eventIds": [
+            "evt-r213-17"
+          ],
+          "sourceQualification": "Run213 primary-origin or contemporary transcription; direct reported speech/observed role, not automatic final policy",
+          "accessDate": "2026-10-28"
+        },
+        {
+          "period": "1951-08-26",
+          "title": "변영태 정전 결렬 입장 미 대사관 보고",
+          "actionType": "CONTEMPORANEOUS_REPORTED_ACTOR_ACTION",
+          "evidenceDocumentIds": [
+            "doc-r213-dh-1951-08-26-0040"
+          ],
+          "eventIds": [
+            "evt-r213-40"
+          ],
+          "sourceQualification": "Run213 August25-31 source; source's report/claim/observation separated from final administrative act",
+          "accessDate": "2026-10-28"
         }
       ],
       "researchStatus": "VERIFIED",
@@ -2831,16 +2950,27 @@
         "doc145-frus-639",
         "doc145-frus-646",
         "doc162-fs017-13",
-        "doc173-frus-741"
+        "doc173-frus-741",
+        "doc-r213-dh-1951-08-21-0080",
+        "doc-r213-treaty-sf1951-nikh",
+        "doc-r213-dh-1951-08-21-0020",
+        "doc-r213-dh-1951-08-26-0040"
       ],
       "eventIds": [
-        "evt-r162-05"
+        "evt-r162-05",
+        "evt-r213-07",
+        "evt-r213-17",
+        "evt-r213-40"
       ],
       "openLeads": [
         "L173-05",
         "L173-06",
-        "L173-08"
-      ]
+        "L173-08",
+        "공보처장 실명·변영태 외무장관 원전문 분리",
+        "1951-08-20 외무부 담화 원고",
+        "L213-A25-pol-pyun-yong-tae"
+      ],
+      "researchUpdatedAt": "2026-10-28"
     },
     {
       "id": "pol-lee-beom-seok-1900",
@@ -4197,7 +4327,20 @@
         "Paek Sun yup"
       ],
       "roles": [
-        "육군 참모총장"
+        "육군 참모총장",
+        {
+          "period": "1951-08-21",
+          "title": "정전 수석대표 조이·크레이지 귀환시 김포 영접·전선기지 동행",
+          "actionType": "OBSERVED_MILITARY_DIPLOMATIC_PRESENCE",
+          "evidenceDocumentIds": [
+            "doc-r213-dh-1951-08-21-0060"
+          ],
+          "eventIds": [
+            "evt-r213-19"
+          ],
+          "sourceQualification": "Run213 primary-origin or contemporary transcription; direct reported speech/observed role, not automatic final policy",
+          "accessDate": "2026-10-28"
+        }
       ],
       "researchStatus": "IDENTIFIED",
       "backbone": false,
@@ -4343,17 +4486,21 @@
         "doc157-frus-206",
         "doc157-frus-214",
         "doc157-frus-217",
-        "doc157-frus-235"
+        "doc157-frus-235",
+        "doc-r213-dh-1951-08-21-0060"
       ],
       "openLeads": [
-        "L156-09"
+        "L156-09",
+        "미8군 항공운항일지·백선엽 공식 수행일지"
       ],
       "eventIds": [
         "evt-r156-08",
         "evt-r157-01",
         "evt-r157-03",
-        "evt-r157-04"
-      ]
+        "evt-r157-04",
+        "evt-r213-19"
+      ],
+      "researchUpdatedAt": "2026-10-28"
     },
     {
       "id": "pol-park-ok-kyu",
@@ -4947,6 +5094,19 @@
             "evt-r183b-07"
           ],
           "sourceQualification": "CONTEMPORANEOUS_NEWSPAPER_TRANSCRIPTION_NOT_FACSIMILE"
+        },
+        {
+          "period": "1951-08-29",
+          "title": "이종현 정부조직법 대안 반대발언 보도",
+          "actionType": "CONTEMPORANEOUS_REPORTED_ACTOR_ACTION",
+          "evidenceDocumentIds": [
+            "doc-r213-dh-1951-08-29-0030"
+          ],
+          "eventIds": [
+            "evt-r213-52"
+          ],
+          "sourceQualification": "Run213 August25-31 source; source's report/claim/observation separated from final administrative act",
+          "accessDate": "2026-10-28"
         }
       ],
       "researchStatus": "candidate-identifed-from-1949-primary",
@@ -4957,18 +5117,22 @@
       ],
       "evidenceDocumentIds": [
         "d79-minister-june24",
-        "doc183b-19490719-lee-farm"
+        "doc183b-19490719-lee-farm",
+        "doc-r213-dh-1951-08-29-0030"
       ],
       "openLeads": [
         "의원명부/관보의 한자·생몰·선거구·소속 대조",
         "관련 의안 원문·서명/표결 기록 확인",
-        "L183b-03"
+        "L183b-03",
+        "L213-A25-pol-lee-jong-hyeon"
       ],
       "lifeDatesStatus": "not verified",
       "researchNotes": "1949-06-24 농림부 장관으로서 농지개혁 10월 완료 목표 발표",
       "eventIds": [
-        "evt-r183b-07"
-      ]
+        "evt-r183b-07",
+        "evt-r213-52"
+      ],
+      "researchUpdatedAt": "2026-10-28"
     },
     {
       "id": "pol-choi-soon-ju",
@@ -6114,6 +6278,19 @@
           ],
           "sourceQualification": "Korean History Database contemporary newspaper transcription; original appointment instrument not inspected",
           "accessDate": "2026-10-27"
+        },
+        {
+          "period": "1952-01-15",
+          "title": "국무총리서리 시정방침 연설",
+          "actionType": "GOVERNMENT_SPEECH_REPRINT",
+          "evidenceDocumentIds": [
+            "doc-r213-dh-1952-01-15-0060"
+          ],
+          "eventIds": [
+            "evt-r213-14"
+          ],
+          "sourceQualification": "RUN213: GOVERNMENT_SPEECH_REPRINT; not proof of individual command when institutional context only",
+          "accessDate": "2026-10-28"
         }
       ],
       "researchStatus": "ANNALS_ACTIVE",
@@ -6131,7 +6308,8 @@
         "doc183c-heo-19490211",
         "doc183c-heo-19490729",
         "doc183c-heo-19490610",
-        "doc-r200b-23_0070"
+        "doc-r200b-23_0070",
+        "doc-r213-dh-1952-01-15-0060"
       ],
       "annalsFile": "data/annals/huh-chung-run158c.md",
       "openLeadsFile": "data/research/lead-queues/run139-next.json",
@@ -6141,18 +6319,21 @@
         "evt-r158c-15",
         "evt-r159-02",
         "evt-r161-19",
-        "evt-r200b-11"
+        "evt-r200b-11",
+        "evt-r213-14"
       ],
       "openLeads": [
         "L158C-06",
         "L158C-14",
         "L183c-02",
-        "L200B-ID-03"
+        "L200B-ID-03",
+        "국회 원속기록과 예산 원안·시행 원장 대조"
       ],
       "promotionReason": "FRUS #312 당사자 외무장관·권한대행 면담, #323 허정 총리 직접 외교발언과 #322 편집 해제; 국내 임명원부 미확보로 MATURE 보류",
       "historyDebt": [
         "HD-R200B-ID-03"
-      ]
+      ],
+      "researchUpdatedAt": "2026-10-28"
     },
     {
       "id": "pol-r139-jang-taek-sang",
@@ -6218,6 +6399,32 @@
           ],
           "sourceQualification": "장택상 원발언 미확보, 러스크 측의 부정만 기록. 장택상이 실제 비평했다고 확정하지 않음.",
           "accessDate": "2026-10-27"
+        },
+        {
+          "period": "1951-08-20~21",
+          "title": "국회 부의장으로 차관 답변 추궁",
+          "actionType": "DIRECT_REPORTED_SPEECH",
+          "evidenceDocumentIds": [
+            "doc-r213-dh-1951-08-21-0030"
+          ],
+          "eventIds": [
+            "evt-r213-01"
+          ],
+          "sourceQualification": "RUN213: DIRECT_REPORTED_SPEECH; not proof of individual command when institutional context only",
+          "accessDate": "2026-10-28"
+        },
+        {
+          "period": "1951-08-25",
+          "title": "미 대사관 장택상 국회 질의 발언 관련 평가",
+          "actionType": "CONTEMPORANEOUS_REPORTED_ACTOR_ACTION",
+          "evidenceDocumentIds": [
+            "doc-r213-dh-1951-08-25-0020"
+          ],
+          "eventIds": [
+            "evt-r213-33"
+          ],
+          "sourceQualification": "Run213 August25-31 source; source's report/claim/observation separated from final administrative act",
+          "accessDate": "2026-10-28"
         }
       ],
       "researchStatus": "ANNALS_ACTIVE",
@@ -6244,7 +6451,9 @@
         "doc-r198b-1104-0070",
         "doc-r198b-1103-0130",
         "doc-r201-frus-988",
-        "doc-r201-nikh-dh_019_1950_12_06_0040"
+        "doc-r201-nikh-dh_019_1950_12_06_0040",
+        "doc-r213-dh-1951-08-21-0030",
+        "doc-r213-dh-1951-08-25-0020"
       ],
       "annalsFile": "data/annals/jang-taek-sang.md",
       "openLeadsFile": "data/research/lead-queues/run139-next.json",
@@ -6257,7 +6466,9 @@
         "evt-r174-15",
         "evt-r198b-09",
         "evt-r198b-32",
-        "evt-r201-36"
+        "evt-r201-36",
+        "evt-r213-01",
+        "evt-r213-33"
       ],
       "researchNotes": [
         {
@@ -6298,7 +6509,9 @@
         "L166-ID-pol-r139-jang-taek-sang",
         "L167-actor-pol-r139-jang-taek-sang",
         "L172-10",
-        "L201-57"
+        "L201-57",
+        "국회 원속기록에서 발언 순서와 법무/내무 답변 확인",
+        "L213-A25-pol-r139-jang-taek-sang"
       ],
       "run171Addendum": {
         "researchStatusUnchanged": true,
@@ -6312,7 +6525,7 @@
       },
       "evidenceFile": "data/evidence/jang-taek-sang.json",
       "promotionReason": "1952-05-14 국가기록원 공개 정부 개헌안 원기록 전사 기반 제출 행동 + 1952-06-03 국무회의 전언의 불확실성 분리 + 독립 annals/evidence 및 관계·open lead 구축. 원면 미열람, 전생애 검증 미완.",
-      "researchUpdatedAt": "2026-10-27"
+      "researchUpdatedAt": "2026-10-28"
     },
     {
       "id": "pol-r141-park-sul-eum",
@@ -7515,6 +7728,19 @@
             "evt-r185c-14"
           ],
           "attribution": "제헌국회 원속기록 전사; 구두발언·제안자 인용·출석요구 대상은 구분"
+        },
+        {
+          "period": "1951-08-28",
+          "title": "권승렬 조선방직 신 이사진 예정자 언급",
+          "actionType": "PROPOSED_BOARD_MEMBERSHIP_NOT_CONFIRMED",
+          "evidenceDocumentIds": [
+            "doc-r213-dh-1951-08-28-0040"
+          ],
+          "eventIds": [
+            "evt-r213-50"
+          ],
+          "sourceQualification": "Run213 August25-31 source; source's report/claim/observation separated from final administrative act",
+          "accessDate": "2026-10-28"
         }
       ],
       "rolePeriods": [
@@ -7539,7 +7765,8 @@
         "doc180b-0905-0080",
         "doc183b-19491221-kwon-nsa",
         "doc185c-cons-cons_001_0020_0020_0020_0030_0030",
-        "doc185c-cons-cons_001_0020_0020_0020_0070_0020"
+        "doc185c-cons-cons_001_0020_0020_0020_0070_0020",
+        "doc-r213-dh-1951-08-28-0040"
       ],
       "evidenceFile": "data/evidence/run141-actor-evidence.json",
       "openLeadsFile": "data/research/lead-queues/run141-next.json",
@@ -7568,14 +7795,17 @@
         "evt-r180b-0905-0080",
         "evt-r183b-11",
         "evt-r185c-11",
-        "evt-r185c-14"
+        "evt-r185c-14",
+        "evt-r213-50"
       ],
       "openLeads": [
         "L169-P07",
         "L180b-P-pol-r141-kwon-seung-ryeol",
-        "L183b-06"
+        "L183b-06",
+        "L213-A25-pol-r141-kwon-seung-ryeol"
       ],
-      "run169Overlay": "data/politicians/run169-parliament-cabinet-actors.json"
+      "run169Overlay": "data/politicians/run169-parliament-cabinet-actors.json",
+      "researchUpdatedAt": "2026-10-28"
     },
     {
       "id": "pol-r141-jang-gi-yeong",
@@ -8692,6 +8922,19 @@
           "sourceQualification": "Run198b original-transcription or contemporary press; appointment and actual implementation not presumed",
           "run": "198b",
           "accessDate": "2026-10-27"
+        },
+        {
+          "period": "1951-08-29",
+          "title": "사회보건위원장 박영출 미 의회 난민구호 감사메시지 동의",
+          "actionType": "CONTEMPORANEOUS_REPORTED_ACTOR_ACTION",
+          "evidenceDocumentIds": [
+            "doc-r213-dh-1951-08-29-0030"
+          ],
+          "eventIds": [
+            "evt-r213-52"
+          ],
+          "sourceQualification": "Run213 August25-31 source; source's report/claim/observation separated from final administrative act",
+          "accessDate": "2026-10-28"
         }
       ],
       "affiliations": [],
@@ -8708,7 +8951,8 @@
         "evt-r148-sept8",
         "evt-r163-26",
         "evt-r174-15",
-        "evt-r198b-30"
+        "evt-r198b-30",
+        "evt-r213-52"
       ],
       "status": "IDENTIFIED",
       "researchStatus": "IDENTIFIED",
@@ -8722,14 +8966,16 @@
       },
       "openLeads": [
         "국회 제2·3대 의원명부·중앙선관위 당선원부에서 박영출의 생몰·선거구·정당·이명·동명이인 검증",
-        "L174-34"
+        "L174-34",
+        "L213-A25-pol-r148-park-yeong-chul"
       ],
       "historyDebt": [],
       "promotionReason": "동시대 원속기록/관보에서 직책과 특정 행위가 확인됨; 생몰 및 동일인 확인은 미완료.",
       "evidenceDocumentIds": [
         "doc163-35",
         "doc174-nih-028-1953-03-05-0030",
-        "doc-r198b-1107-0050"
+        "doc-r198b-1107-0050",
+        "doc-r213-dh-1951-08-29-0030"
       ],
       "researchNotes": [
         {
@@ -8740,7 +8986,8 @@
             "doc163-35"
           ]
         }
-      ]
+      ],
+      "researchUpdatedAt": "2026-10-28"
     },
     {
       "id": "pol-r148-lee-jae-hak",
@@ -8781,6 +9028,19 @@
           "eventIds": [
             "evt-r179-05"
           ]
+        },
+        {
+          "period": "1951-08-25",
+          "title": "이재학 신당 준비회합 참석 보도",
+          "actionType": "CONTEMPORANEOUS_REPORTED_ACTOR_ACTION",
+          "evidenceDocumentIds": [
+            "doc-r213-dh-1951-08-25-0040"
+          ],
+          "eventIds": [
+            "evt-r213-32"
+          ],
+          "sourceQualification": "Run213 August25-31 source; source's report/claim/observation separated from final administrative act",
+          "accessDate": "2026-10-28"
         }
       ],
       "affiliations": [
@@ -8804,7 +9064,8 @@
         "evt-r148-sept8",
         "evt-r163-08",
         "evt-r163-26",
-        "evt-r179-05"
+        "evt-r179-05",
+        "evt-r213-32"
       ],
       "status": "IDENTIFIED",
       "researchStatus": "IDENTIFIED",
@@ -8817,7 +9078,8 @@
       },
       "openLeads": [
         "국회 제2·3대 의원명부·중앙선관위 당선원부에서 이재학의 생몰·선거구·정당·이명·동명이인 검증",
-        "L179-P-r148-lee-jae-hak"
+        "L179-P-r148-lee-jae-hak",
+        "L213-A25-pol-r148-lee-jae-hak"
       ],
       "historyDebt": [
         "HD-R179-02"
@@ -8827,7 +9089,8 @@
         "doc158b-frus-269",
         "doc163-09",
         "doc163-35",
-        "doc179-na51"
+        "doc179-na51",
+        "doc-r213-dh-1951-08-25-0040"
       ],
       "researchNotes": [
         {
@@ -8847,7 +9110,8 @@
           ]
         }
       ],
-      "accessDate": "2026-10-27"
+      "accessDate": "2026-10-27",
+      "researchUpdatedAt": "2026-10-28"
     },
     {
       "id": "pol-r148-jo-gyeong-gyu",
@@ -8867,6 +9131,19 @@
           "evidenceDocumentIds": [
             "d148-sept8"
           ]
+        },
+        {
+          "period": "1951-08-25",
+          "title": "조경규 신당 준비회합 참석 보도",
+          "actionType": "CONTEMPORANEOUS_REPORTED_ACTOR_ACTION",
+          "evidenceDocumentIds": [
+            "doc-r213-dh-1951-08-25-0040"
+          ],
+          "eventIds": [
+            "evt-r213-32"
+          ],
+          "sourceQualification": "Run213 August25-31 source; source's report/claim/observation separated from final administrative act",
+          "accessDate": "2026-10-28"
         }
       ],
       "affiliations": [],
@@ -8877,7 +9154,8 @@
         ]
       },
       "eventIds": [
-        "evt-r148-sept8"
+        "evt-r148-sept8",
+        "evt-r213-32"
       ],
       "status": "IDENTIFIED",
       "researchStatus": "IDENTIFIED",
@@ -8888,10 +9166,15 @@
         "originalTextsOpened": true
       },
       "openLeads": [
-        "국회 제2·3대 의원명부·중앙선관위 당선원부에서 조경규의 생몰·선거구·정당·이명·동명이인 검증"
+        "국회 제2·3대 의원명부·중앙선관위 당선원부에서 조경규의 생몰·선거구·정당·이명·동명이인 검증",
+        "L213-A25-pol-r148-jo-gyeong-gyu"
       ],
       "historyDebt": [],
-      "promotionReason": "동시대 원속기록/관보에서 직책과 특정 행위가 확인됨; 생몰 및 동일인 확인은 미완료."
+      "promotionReason": "동시대 원속기록/관보에서 직책과 특정 행위가 확인됨; 생몰 및 동일인 확인은 미완료.",
+      "evidenceDocumentIds": [
+        "doc-r213-dh-1951-08-25-0040"
+      ],
+      "researchUpdatedAt": "2026-10-28"
     },
     {
       "id": "pol-r148-kim-yeong-sam",
@@ -9690,21 +9973,37 @@
           "evidenceDocumentIds": [
             "d149-law-388"
           ]
+        },
+        {
+          "period": "1951-08-25",
+          "title": "김용우 신당 준비회합 참석 보도",
+          "actionType": "CONTEMPORANEOUS_REPORTED_ACTOR_ACTION",
+          "evidenceDocumentIds": [
+            "doc-r213-dh-1951-08-25-0040"
+          ],
+          "eventIds": [
+            "evt-r213-32"
+          ],
+          "sourceQualification": "Run213 August25-31 source; source's report/claim/observation separated from final administrative act",
+          "accessDate": "2026-10-28"
         }
       ],
       "affiliations": [],
       "eventIds": [
         "evt-r149-cabinet-signature-comparison",
-        "evt-r156-02"
+        "evt-r156-02",
+        "evt-r213-32"
       ],
       "researchStatus": "IDENTIFIED",
       "evidenceDocumentIds": [
         "d149-law-388",
-        "doc156-frus-215"
+        "doc156-frus-215",
+        "doc-r213-dh-1951-08-25-0040"
       ],
       "openLeads": [
         "L149-cabinet-appointments",
-        "L156-01"
+        "L156-01",
+        "L213-A25-pol-r149-cabinet-12"
       ],
       "historyDebtIds": [],
       "note": "관보 서명란으로 재임 직책만 확인; 생몰·임명일·정당 미검증, 영문은 검색용 표기",
@@ -9720,7 +10019,8 @@
       ],
       "connections": [
         "evt-r156-02"
-      ]
+      ],
+      "researchUpdatedAt": "2026-10-28"
     },
     {
       "id": "pol-r149-cabinet-13",
@@ -10253,6 +10553,20 @@
           ],
           "attribution": "AKS 1951-04 Korean appointment; US Chief of Protocol 1951-05-22 appointment list and 06-06 credentials; Korean appointment original not inspected",
           "accessDate": "2026-10-27"
+        },
+        {
+          "period": "1951-08-27~31",
+          "title": "주미대사 Yang 다국적 외교 브리핑 참석",
+          "actionType": "CONTEMPORANEOUS_US_DIPLOMATIC_OBSERVATION",
+          "evidenceDocumentIds": [
+            "doc-r213-frus-d533",
+            "doc-r213-frus-d539"
+          ],
+          "eventIds": [
+            "evt-r213-10"
+          ],
+          "sourceQualification": "RUN213: CONTEMPORANEOUS_US_DIPLOMATIC_OBSERVATION; not proof of individual command when institutional context only",
+          "accessDate": "2026-10-28"
         }
       ],
       "roleTimeline": [
@@ -10270,7 +10584,8 @@
       "eventIds": [
         "evt-r150-19550812-exchange500",
         "evt-r201-24",
-        "evt-r201-25"
+        "evt-r201-25",
+        "evt-r213-10"
       ],
       "connections": [
         "evt-r150-19550812-exchange500"
@@ -10282,14 +10597,17 @@
         "doc158b-frus-262",
         "doc158c-frus-303",
         "doc-r201-aks-yang-biography",
-        "doc-r201-us-state-protocol-korea"
+        "doc-r201-us-state-protocol-korea",
+        "doc-r213-frus-d533",
+        "doc-r213-frus-d539"
       ],
       "researchStatus": "VERIFIED",
       "promotionReason": "국가법령정보센터 원조약에 서명자 양유찬이 명시됨; 다른 직책·생몰은 미검증",
       "openLeads": [
         "L150-51",
         "L156-33",
-        "L201-51"
+        "L201-51",
+        "미국 명단의 Ambassador Yang과 한국 외무부 인사원부 대조"
       ],
       "historyDebtIds": [],
       "backbone": false,
@@ -10317,7 +10635,7 @@
           ]
         }
       ],
-      "researchUpdatedAt": "2026-10-27"
+      "researchUpdatedAt": "2026-10-28"
     },
     {
       "id": "pol-chang-myon",
@@ -11936,6 +12254,32 @@
           ],
           "sourceQualification": "Korean History Database contemporary newspaper transcription; original appointment instrument not inspected",
           "accessDate": "2026-10-27"
+        },
+        {
+          "period": "1951-08-24",
+          "title": "문교부 학교 개편 조치령의 당시 정책 책임 범위 조사",
+          "actionType": "INSTITUTIONAL_CONTEXT_ONLY_NOT_PERSONAL_COMMAND",
+          "evidenceDocumentIds": [
+            "doc-r213-dh-1951-08-24-0120"
+          ],
+          "eventIds": [
+            "evt-r213-05"
+          ],
+          "sourceQualification": "RUN213: INSTITUTIONAL_CONTEXT_ONLY_NOT_PERSONAL_COMMAND; not proof of individual command when institutional context only",
+          "accessDate": "2026-10-28"
+        },
+        {
+          "period": "1951-08-24",
+          "title": "대통령령523호에서 문교부장관이 중앙학도호국단 단장으로 규정",
+          "actionType": "LEGAL_OFFICE_DESIGNATION_NOT_PERSONAL_COMMAND",
+          "evidenceDocumentIds": [
+            "doc-r213-dh-1951-08-24-0100"
+          ],
+          "eventIds": [
+            "evt-r213-26"
+          ],
+          "sourceQualification": "Run213 primary-origin or contemporary transcription; direct reported speech/observed role, not automatic final policy",
+          "accessDate": "2026-10-28"
         }
       ],
       "researchStatus": "ANNALS_ACTIVE",
@@ -11960,7 +12304,9 @@
         "doc-r199b-1117-0050",
         "doc-r199b-1118-0030",
         "doc-r199b-1121-0050",
-        "doc-r200b-23_0060"
+        "doc-r200b-23_0060",
+        "doc-r213-dh-1951-08-24-0120",
+        "doc-r213-dh-1951-08-24-0100"
       ],
       "eventIds": [
         "evt-r159-07",
@@ -11981,7 +12327,9 @@
         "evt-r199b-21",
         "evt-r199b-27",
         "evt-r199b-45",
-        "evt-r200b-10"
+        "evt-r200b-10",
+        "evt-r213-05",
+        "evt-r213-26"
       ],
       "openLeads": [
         "L159-21",
@@ -11989,14 +12337,16 @@
         "L166-ID-pol-paek-nak-jun-1960-candidate",
         "L167-actor-pol-paek-nak-jun-1960-candidate",
         "L179d-P-paek-nak-jun-1960-candidate",
-        "L200B-ID-15"
+        "L200B-ID-15",
+        "조치령 관보·문교부장관 서명/결재·학교별 인가원부",
+        "대통령령 523호 원관보와 1951-08 문교부장관 임명 원관보"
       ],
       "historyDebtIds": [
         "HD-R159-03"
       ],
       "backbone": false,
       "promotionReason": "Korean National Assembly contemporary transcript identifies named office or action; biographical birth/death and district remain unverified. VERIFIED means verified action, not full biography.",
-      "researchUpdatedAt": "2026-10-26",
+      "researchUpdatedAt": "2026-10-28",
       "researchNotes": [
         {
           "run": 166,
@@ -12300,27 +12650,43 @@
             "doc159-aks-E0068344"
           ],
           "attribution": "AKS retrospective biography; not an original appointment/party register"
+        },
+        {
+          "period": "1951-08-29",
+          "title": "윤길중 정부조직법 정무관·부흥원 관련 반대발언",
+          "actionType": "CONTEMPORANEOUS_REPORTED_ACTOR_ACTION",
+          "evidenceDocumentIds": [
+            "doc-r213-dh-1951-08-29-0030"
+          ],
+          "eventIds": [
+            "evt-r213-52"
+          ],
+          "sourceQualification": "Run213 August25-31 source; source's report/claim/observation separated from final administrative act",
+          "accessDate": "2026-10-28"
         }
       ],
       "researchStatus": "IDENTIFIED",
       "evidenceDocumentIds": [
         "doc159-nih-fourth-commentary",
         "doc159-aks-E0068344",
-        "doc163-35"
+        "doc163-35",
+        "doc-r213-dh-1951-08-29-0030"
       ],
       "eventIds": [
-        "evt-r163-26"
+        "evt-r163-26",
+        "evt-r213-52"
       ],
       "openLeads": [
         "L159-21",
-        "L159-22"
+        "L159-22",
+        "L213-A25-pol-yun-gil-jung-r159"
       ],
       "historyDebtIds": [
         "HD-R159-03"
       ],
       "backbone": false,
       "promotionReason": "Korean National Assembly contemporary transcript identifies named office or action; biographical birth/death and district remain unverified. VERIFIED means verified action, not full biography.",
-      "researchUpdatedAt": "2026-10-26",
+      "researchUpdatedAt": "2026-10-28",
       "researchNotes": [
         {
           "date": "2026-10-26",
@@ -14436,13 +14802,27 @@
           "eventIds": [],
           "sourceQualification": "Korean History Database contemporary newspaper transcription; original appointment instrument not inspected",
           "accessDate": "2026-10-27"
+        },
+        {
+          "period": "1951-08-21",
+          "title": "거창사건 관련 체포·조사 대상",
+          "actionType": "CONTEMPORANEOUS_REPORTED_PROCEDURAL_STATUS",
+          "evidenceDocumentIds": [
+            "doc-r213-dh-1951-08-21-0100"
+          ],
+          "eventIds": [
+            "evt-r213-02"
+          ],
+          "sourceQualification": "RUN213: CONTEMPORANEOUS_REPORTED_PROCEDURAL_STATUS; not proof of individual command when institutional context only",
+          "accessDate": "2026-10-28"
         }
       ],
       "researchStatus": "IDENTIFIED",
       "backbone": false,
       "evidenceDocumentIds": [
         "doc164-0910-0030",
-        "doc-r200b-27_0090"
+        "doc-r200b-27_0090",
+        "doc-r213-dh-1951-08-21-0100"
       ],
       "evidenceCoverage": {
         "sourceDocumentIds": [
@@ -14451,11 +14831,13 @@
         "originalFacsimile": false
       },
       "eventIds": [
-        "evt-r164-06"
+        "evt-r164-06",
+        "evt-r213-02"
       ],
       "openLeads": [
         "L164-ID-pol-r164-kim-jong-won",
-        "L200B-NEW-10"
+        "L200B-NEW-10",
+        "헌병대 체포영장·군법회의 증인조서·최종 판결"
       ],
       "historyDebt": [
         "HD-R164-ID",
@@ -14471,7 +14853,8 @@
             "doc164-0910-0030"
           ]
         }
-      ]
+      ],
+      "researchUpdatedAt": "2026-10-28"
     },
     {
       "id": "pol-r164-kim-su-hak",
@@ -14594,6 +14977,19 @@
             "evt-r189-04"
           ],
           "sourceQualification": "1963 중앙선관위 후대 공식 집계; 후보등록·원개표원부 미열람"
+        },
+        {
+          "period": "1951-08-27",
+          "title": "남송학 국민방위군사건 불구속 검찰 신문 대상",
+          "actionType": "CONTEMPORANEOUS_REPORTED_ACTOR_ACTION",
+          "evidenceDocumentIds": [
+            "doc-r213-dh-1951-08-27-0080"
+          ],
+          "eventIds": [
+            "evt-r213-46"
+          ],
+          "sourceQualification": "Run213 August25-31 source; source's report/claim/observation separated from final administrative act",
+          "accessDate": "2026-10-28"
         }
       ],
       "researchStatus": "IDENTIFIED",
@@ -14601,7 +14997,8 @@
       "evidenceDocumentIds": [
         "doc164-0908-0070",
         "doc187-party-jan1949",
-        "doc189-nec1963-roster"
+        "doc189-nec1963-roster",
+        "doc-r213-dh-1951-08-27-0080"
       ],
       "evidenceCoverage": {
         "sourceDocumentIds": [
@@ -14612,12 +15009,14 @@
       "eventIds": [
         "evt-r164-05",
         "evt-r187-10",
-        "evt-r189-04"
+        "evt-r189-04",
+        "evt-r213-46"
       ],
       "openLeads": [
         "L164-ID-pol-r164-nam-song-hak",
         "L187-A-pol-r164-nam-song-hak",
-        "L189-01"
+        "L189-01",
+        "L213-A25-pol-r164-nam-song-hak"
       ],
       "historyDebt": [
         "HD-R164-ID"
@@ -14632,7 +15031,8 @@
             "doc164-0908-0070"
           ]
         }
-      ]
+      ],
+      "researchUpdatedAt": "2026-10-28"
     },
     {
       "id": "pol-r164-shin-tae-ik",
@@ -15028,6 +15428,19 @@
             "evt-r181-1215-0110"
           ],
           "sourceQualification": "press transcription"
+        },
+        {
+          "period": "1951-08-24",
+          "title": "국회의원 대일강화조약 맥아더라인·재일동포 권익 견해",
+          "actionType": "DIRECT_REPORTED_ASSEMBLY_MEMBER_STATEMENT",
+          "evidenceDocumentIds": [
+            "doc-r213-dh-1951-08-24-0070"
+          ],
+          "eventIds": [
+            "evt-r213-24"
+          ],
+          "sourceQualification": "Run213 primary-origin or contemporary transcription; direct reported speech/observed role, not automatic final policy",
+          "accessDate": "2026-10-28"
         }
       ],
       "researchStatus": "IDENTIFIED",
@@ -15036,7 +15449,8 @@
         "doc164-0913-0040",
         "doc168-nih-1950-election",
         "doc181-1215-0110",
-        "doc189-nec1963-roster"
+        "doc189-nec1963-roster",
+        "doc-r213-dh-1951-08-24-0070"
       ],
       "evidenceCoverage": {
         "sourceDocumentIds": [
@@ -15048,12 +15462,14 @@
         "evt-r164-09",
         "evt-r168-13",
         "evt-r181-1215-0110",
-        "evt-r189-04"
+        "evt-r189-04",
+        "evt-r213-24"
       ],
       "openLeads": [
         "L164-ID-pol-r164-hwang-seong-su",
         "L168-P-pol-r164-hwang-seong-su",
-        "L189-01"
+        "L189-01",
+        "황성수 1951-08-24 의원 명부·본인 발언 원고"
       ],
       "historyDebt": [
         "HD-R164-ID"
@@ -15076,7 +15492,8 @@
           "status": "IDENTIFIED",
           "reason": "국사편찬위 1950 선거명부와 AKS 인물자료 교차대조; 원당선공고 미확보로 VERIFIED 보류"
         }
-      ]
+      ],
+      "researchUpdatedAt": "2026-10-28"
     },
     {
       "id": "pol-r164-lee-jin-uk",
@@ -16215,6 +16632,32 @@
           ],
           "sourceQualification": "Korean History Database contemporary newspaper transcription; original appointment instrument not inspected",
           "accessDate": "2026-10-27"
+        },
+        {
+          "period": "1951-08-24",
+          "title": "정무관제 선행 제안자로 언급",
+          "actionType": "CONTEMPORANEOUS_REPORTED_LEGISLATIVE_PROPOSAL",
+          "evidenceDocumentIds": [
+            "doc-r213-dh-1951-08-24-0130"
+          ],
+          "eventIds": [
+            "evt-r213-03"
+          ],
+          "sourceQualification": "RUN213: CONTEMPORANEOUS_REPORTED_LEGISLATIVE_PROPOSAL; not proof of individual command when institutional context only",
+          "accessDate": "2026-10-28"
+        },
+        {
+          "period": "1951-08-25",
+          "title": "서민호 8/25 신문받았다는 보도 부인",
+          "actionType": "CONTEMPORANEOUS_REPORTED_ACTOR_ACTION",
+          "evidenceDocumentIds": [
+            "doc-r213-dh-1951-08-25-0050"
+          ],
+          "eventIds": [
+            "evt-r213-34"
+          ],
+          "sourceQualification": "Run213 August25-31 source; source's report/claim/observation separated from final administrative act",
+          "accessDate": "2026-10-28"
         }
       ],
       "researchStatus": "IDENTIFIED",
@@ -16222,16 +16665,22 @@
         "doc164d-0930-0060",
         "doc171-frus-d138",
         "doc-r198b-1102-0040",
-        "doc-r200b-25_0080"
+        "doc-r200b-25_0080",
+        "doc-r213-dh-1951-08-24-0130",
+        "doc-r213-dh-1951-08-25-0050"
       ],
       "eventIds": [
         "evt-r164d-10",
         "evt-r198b-06",
-        "evt-r200b-21"
+        "evt-r200b-21",
+        "evt-r213-03",
+        "evt-r213-34"
       ],
       "openLeads": [
         "L164d-ID-seo-min-ho",
-        "L200B-ID-11"
+        "L200B-ID-11",
+        "1951-01-30 서민호 외59인 원법안과 8/24 법사위 대안 비교",
+        "L213-A25-pol-r164-seo-min-ho"
       ],
       "promotionReason": "당대 국회 보도 확인, 원속기록·생몰 미확보",
       "connections": [
@@ -16249,7 +16698,8 @@
       },
       "historyDebt": [
         "HD-R200B-ID-11"
-      ]
+      ],
+      "researchUpdatedAt": "2026-10-28"
     },
     {
       "id": "pol-r164-yang-seong-bong",
@@ -16574,17 +17024,33 @@
           "evidenceDocumentIds": [
             "doc166-1011-0050"
           ]
+        },
+        {
+          "period": "1951-08-25",
+          "title": "지연해 신당 준비회합 참석 보도",
+          "actionType": "CONTEMPORANEOUS_REPORTED_ACTOR_ACTION",
+          "evidenceDocumentIds": [
+            "doc-r213-dh-1951-08-25-0040"
+          ],
+          "eventIds": [
+            "evt-r213-32"
+          ],
+          "sourceQualification": "Run213 August25-31 source; source's report/claim/observation separated from final administrative act",
+          "accessDate": "2026-10-28"
         }
       ],
       "researchStatus": "IDENTIFIED",
       "evidenceDocumentIds": [
-        "doc166-1011-0050"
+        "doc166-1011-0050",
+        "doc-r213-dh-1951-08-25-0040"
       ],
       "eventIds": [
-        "evt-r166b-03"
+        "evt-r166b-03",
+        "evt-r213-32"
       ],
       "openLeads": [
-        "L166-ID-pol-r166-ji-yeon-hae"
+        "L166-ID-pol-r166-ji-yeon-hae",
+        "L213-A25-pol-r166-ji-yeon-hae"
       ],
       "promotionReason": "동시대 기사/전사에 실명·한자·시기별 공직 및 행위가 확인되어 후보 식별, 생몰·임명원부 미확인으로 VERIFIED 승격 보류",
       "backbone": false,
@@ -16596,7 +17062,8 @@
           "doc166-1011-0050"
         ],
         "originalFacsimile": false
-      }
+      },
+      "researchUpdatedAt": "2026-10-28"
     },
     {
       "id": "pol-r166-jeong-jae-wan",
@@ -19824,23 +20291,40 @@
           "eventIds": [
             "evt-r178b-08"
           ]
+        },
+        {
+          "period": "1951-08-25",
+          "title": "정현모 제헌동지회 연락대표로 신당 준비회합 참석",
+          "actionType": "CONTEMPORANEOUS_REPORTED_ACTOR_ACTION",
+          "evidenceDocumentIds": [
+            "doc-r213-dh-1951-08-25-0040"
+          ],
+          "eventIds": [
+            "evt-r213-32"
+          ],
+          "sourceQualification": "Run213 August25-31 source; source's report/claim/observation separated from final administrative act",
+          "accessDate": "2026-10-28"
         }
       ],
       "researchStatus": "IDENTIFIED_CANDIDATE",
       "researchStatusReason": "1948-07-15 원속기록에서 개인 발언·동의 확인, 생몰·선거구·정파 미검증",
       "evidenceDocumentIds": [
-        "doc178b-19480715-govorg-second"
+        "doc178b-19480715-govorg-second",
+        "doc-r213-dh-1951-08-25-0040"
       ],
       "eventIds": [
-        "evt-r178b-08"
+        "evt-r178b-08",
+        "evt-r213-32"
       ],
       "openLeads": [
-        "L178b-P-jeong-hyeon-mo"
+        "L178b-P-jeong-hyeon-mo",
+        "L213-A25-pol-r178b-jeong-hyeon-mo"
       ],
       "historyDebt": [
         "HD-R178b-02"
       ],
-      "accessDate": "2026-10-27"
+      "accessDate": "2026-10-27",
+      "researchUpdatedAt": "2026-10-28"
     },
     {
       "id": "pol-r178b-lee-jeong-rae",
@@ -22331,6 +22815,19 @@
           ],
           "sourceQualification": "Korean History Database contemporary newspaper transcription; original appointment instrument not inspected",
           "accessDate": "2026-10-27"
+        },
+        {
+          "period": "1951-08-29",
+          "title": "이철원 공보처장 불량만화 단속 방침 발표",
+          "actionType": "CONTEMPORANEOUS_REPORTED_ACTOR_ACTION",
+          "evidenceDocumentIds": [
+            "doc-r213-dh-1951-08-29-0040"
+          ],
+          "eventIds": [
+            "evt-r213-53"
+          ],
+          "sourceQualification": "Run213 August25-31 source; source's report/claim/observation separated from final administrative act",
+          "accessDate": "2026-10-28"
         }
       ],
       "researchStatus": "IDENTIFIED_CANDIDATE",
@@ -22338,24 +22835,28 @@
       "evidenceDocumentIds": [
         "doc181-1201-0070",
         "doc194b-0803-0090",
-        "doc-r200b-27_0040"
+        "doc-r200b-27_0040",
+        "doc-r213-dh-1951-08-29-0040"
       ],
       "eventIds": [
         "evt-r181-1201-0070",
         "evt-r194b-20",
-        "evt-r200b-31"
+        "evt-r200b-31",
+        "evt-r213-53"
       ],
       "openLeads": [
         "L181-P-pol-r181-lee-cheol-won",
         "L194B-15",
-        "L200B-NEW-9"
+        "L200B-NEW-9",
+        "L213-A25-pol-r181-lee-cheol-won"
       ],
       "historyDebt": [
         "HD-R181-IDENTITY",
         "data/research/history-debt/run194b-constitutional-social.md",
         "HD-R200B-NEW-9"
       ],
-      "accessDate": "2026-10-27"
+      "accessDate": "2026-10-27",
+      "researchUpdatedAt": "2026-10-28"
     },
     {
       "id": "pol-r181-do-seok-gyun",
@@ -22581,6 +23082,19 @@
           "sourceQualification": "동시대 보도/외교원문: 주장·제안·결정·집행·법적 효력·사법 판단은 별개. 1차 인사·회의·원관보 후속 대조 필요.",
           "run": "199b",
           "accessDate": "2026-10-27"
+        },
+        {
+          "period": "1951-08-28",
+          "title": "서울시장 김태선 밴플리트 8군사령관 면담",
+          "actionType": "CONTEMPORANEOUS_REPORTED_ACTOR_ACTION",
+          "evidenceDocumentIds": [
+            "doc-r213-dh-1951-08-28-0020"
+          ],
+          "eventIds": [
+            "evt-r213-48"
+          ],
+          "sourceQualification": "Run213 August25-31 source; source's report/claim/observation separated from final administrative act",
+          "accessDate": "2026-10-28"
         }
       ],
       "researchStatus": "IDENTIFIED_CANDIDATE",
@@ -22597,7 +23111,8 @@
         "doc194b-0805-0050",
         "doc-r198-1023-0060",
         "doc-r199b-1120-0090",
-        "doc-r199b-aks-kim-tae-seon"
+        "doc-r199b-aks-kim-tae-seon",
+        "doc-r213-dh-1951-08-28-0020"
       ],
       "eventIds": [
         "evt-r181-1201-0030",
@@ -22610,13 +23125,15 @@
         "evt-r189x-13",
         "evt-r194b-15",
         "evt-r198-08",
-        "evt-r199b-41"
+        "evt-r199b-41",
+        "evt-r213-48"
       ],
       "openLeads": [
         "L181-P-pol-kim-tae-seon",
         "L183d-04",
         "L184-P-pol-kim-tae-seon",
-        "L194B-19"
+        "L194B-19",
+        "L213-A25-pol-kim-tae-seon"
       ],
       "historyDebt": [
         "HD-R181-IDENTITY",
@@ -22632,7 +23149,8 @@
           "documentId": "doc-r199b-aks-kim-tae-seon",
           "disposition": "DO_NOT_ASSUME_CAND_R199_KIM_TAE_SUN_IDENTICAL"
         }
-      ]
+      ],
+      "researchUpdatedAt": "2026-10-28"
     },
     {
       "id": "pol-r181-kang-seon-myeong",
@@ -24353,12 +24871,26 @@
             "evt-r188-03"
           ],
           "verification": "ORIGINAL_ASSEMBLY_MINUTES_OR_COURT_RECORD_NOT_YET_OPENED"
+        },
+        {
+          "period": "1951-08-20~21",
+          "title": "국회 질의 제기",
+          "actionType": "DIRECT_REPORTED_SPEECH",
+          "evidenceDocumentIds": [
+            "doc-r213-dh-1951-08-21-0030"
+          ],
+          "eventIds": [
+            "evt-r213-01"
+          ],
+          "sourceQualification": "RUN213: DIRECT_REPORTED_SPEECH; not proof of individual command when institutional context only",
+          "accessDate": "2026-10-28"
         }
       ],
       "researchStatus": "IDENTIFIED_CANDIDATE",
       "promotionReason": "동시대 1949-11-28 보도에서 의정행위 확인, 의원 원부·생몰 미확인",
       "openLeads": [
-        "L188-ID-pol-r188-seo-i-hwan"
+        "L188-ID-pol-r188-seo-i-hwan",
+        "국회 제2대 1951-08-20 원속기록과 인사관계 답변"
       ],
       "historyDebt": [
         "HD-R188-IDENTITY"
@@ -24366,12 +24898,15 @@
       "accessDate": "2026-10-27",
       "annalsFile": null,
       "evidenceDocumentIds": [
-        "doc188-015-1949-11-28-0080"
+        "doc188-015-1949-11-28-0080",
+        "doc-r213-dh-1951-08-21-0030"
       ],
       "eventIds": [
         "evt-r188-02",
-        "evt-r188-03"
-      ]
+        "evt-r188-03",
+        "evt-r213-01"
+      ],
+      "researchUpdatedAt": "2026-10-28"
     },
     {
       "id": "pol-r188b-lee-jong-rin",
@@ -26309,18 +26844,50 @@
             "evt-r198b-07"
           ],
           "sourceQualification": "birth/death and election or appointment original not read"
+        },
+        {
+          "period": "1951-08-24",
+          "title": "정부조직법 개정 제안군 맥락 재검토",
+          "actionType": "INSTITUTIONAL_CONTEXT_ONLY_NOT_PERSONAL_COMMAND",
+          "evidenceDocumentIds": [
+            "doc-r213-dh-1951-08-24-0130"
+          ],
+          "eventIds": [
+            "evt-r213-03"
+          ],
+          "sourceQualification": "RUN213: INSTITUTIONAL_CONTEXT_ONLY_NOT_PERSONAL_COMMAND; not proof of individual command when institutional context only",
+          "accessDate": "2026-10-28"
+        },
+        {
+          "period": "1951-08-25",
+          "title": "오위영 신당 준비회합 참석 보도",
+          "actionType": "CONTEMPORANEOUS_REPORTED_ACTOR_ACTION",
+          "evidenceDocumentIds": [
+            "doc-r213-dh-1951-08-25-0040"
+          ],
+          "eventIds": [
+            "evt-r213-32"
+          ],
+          "sourceQualification": "Run213 August25-31 source; source's report/claim/observation separated from final administrative act",
+          "accessDate": "2026-10-28"
         }
       ],
       "researchStatus": "DISCOVERED",
       "registryScope": "POLITICAL_ADMINISTRATIVE_OR_MILITARY_CANDIDATE",
       "evidenceDocumentIds": [
-        "doc-r198b-1102-0050"
+        "doc-r198b-1102-0050",
+        "doc-r213-dh-1951-08-24-0130",
+        "doc-r213-dh-1951-08-25-0040"
       ],
       "eventIds": [
-        "evt-r198b-07"
+        "evt-r198b-07",
+        "evt-r213-03",
+        "evt-r213-32"
       ],
       "openLeads": [
-        "L198B-ID-cand-r198b-oh-wi-yeong"
+        "L198B-ID-cand-r198b-oh-wi-yeong",
+        "8/9 오위영 원법안과 8/24 대안 대조",
+        "L213-A25-cand-r198b-oh-wi-yeong"
       ],
       "historyDebt": [
         "HD-R198B-ID"
@@ -26335,7 +26902,8 @@
           ]
         }
       ],
-      "promotionReason": "동시대 자료에서 한자·직책·행위 확인. 생몰·당선원부·신원 연속성 미확보"
+      "promotionReason": "동시대 자료에서 한자·직책·행위 확인. 생몰·당선원부·신원 연속성 미확보",
+      "researchUpdatedAt": "2026-10-28"
     },
     {
       "id": "cand-r198b-so-seon-gyu",
@@ -26361,18 +26929,34 @@
             "evt-r198b-02"
           ],
           "sourceQualification": "birth/death and election or appointment original not read"
+        },
+        {
+          "period": "1951-08-29",
+          "title": "소선규 정부조직법 대안 반대발언",
+          "actionType": "CONTEMPORANEOUS_REPORTED_ACTOR_ACTION",
+          "evidenceDocumentIds": [
+            "doc-r213-dh-1951-08-29-0030"
+          ],
+          "eventIds": [
+            "evt-r213-52"
+          ],
+          "sourceQualification": "Run213 August25-31 source; source's report/claim/observation separated from final administrative act",
+          "accessDate": "2026-10-28"
         }
       ],
       "researchStatus": "DISCOVERED",
       "registryScope": "POLITICAL_ADMINISTRATIVE_OR_MILITARY_CANDIDATE",
       "evidenceDocumentIds": [
-        "doc-r198b-1101-0060"
+        "doc-r198b-1101-0060",
+        "doc-r213-dh-1951-08-29-0030"
       ],
       "eventIds": [
-        "evt-r198b-02"
+        "evt-r198b-02",
+        "evt-r213-52"
       ],
       "openLeads": [
-        "L198B-ID-cand-r198b-so-seon-gyu"
+        "L198B-ID-cand-r198b-so-seon-gyu",
+        "L213-A25-cand-r198b-so-seon-gyu"
       ],
       "historyDebt": [
         "HD-R198B-ID"
@@ -26387,7 +26971,8 @@
           ]
         }
       ],
-      "promotionReason": "동시대 자료에서 한자·직책·행위 확인. 생몰·당선원부·신원 연속성 미확보"
+      "promotionReason": "동시대 자료에서 한자·직책·행위 확인. 생몰·당선원부·신원 연속성 미확보",
+      "researchUpdatedAt": "2026-10-28"
     },
     {
       "id": "cand-r198b-kang-chang-yong",
@@ -26829,22 +27414,38 @@
           ],
           "sourceQualification": "Korean History Database contemporary newspaper transcription; original appointment instrument not inspected",
           "accessDate": "2026-10-27"
+        },
+        {
+          "period": "1951-08-25",
+          "title": "경기도지사 이해익 연평도 피난민 수송 착수 설명",
+          "actionType": "CONTEMPORANEOUS_REPORTED_ACTOR_ACTION",
+          "evidenceDocumentIds": [
+            "doc-r213-dh-1951-08-25-0090"
+          ],
+          "eventIds": [
+            "evt-r213-38"
+          ],
+          "sourceQualification": "Run213 August25-31 source; source's report/claim/observation separated from final administrative act",
+          "accessDate": "2026-10-28"
         }
       ],
       "researchStatus": "DISCOVERED",
       "evidenceDocumentIds": [
         "doc-r199-1111-0050",
         "doc-r199b-1115-0050",
-        "doc-r200b-25_0090"
+        "doc-r200b-25_0090",
+        "doc-r213-dh-1951-08-25-0090"
       ],
       "eventIds": [
         "evt-r199-18",
         "evt-r199b-05",
-        "evt-r200b-22"
+        "evt-r200b-22",
+        "evt-r213-38"
       ],
       "openLeads": [
         "L199-ID-cand-r199-lee-hae-ik",
-        "L200B-ID-12"
+        "L200B-ID-12",
+        "L213-A25-cand-r199-lee-hae-ik"
       ],
       "historyDebt": [
         "HD-R199-ID-cand-r199-lee-hae-ik",
@@ -26852,7 +27453,8 @@
       ],
       "identityCaveat": "생몰·임명원부·동명이인 검증 전 정식 승격 금지",
       "promotionReason": "동시대 원문에서 이름·직책·행위 및 일자를 확인. 생몰·임명원부·신원 연속성 부족으로 candidate 유지.",
-      "accessDate": "2026-10-27"
+      "accessDate": "2026-10-27",
+      "researchUpdatedAt": "2026-10-28"
     },
     {
       "id": "cand-r199-park-chang-rok",
@@ -27820,6 +28422,464 @@
         }
       ],
       "researchUpdatedAt": "2026-10-27"
+    },
+    {
+      "id": "cand-r213-kim-il-hwan-1951-defense",
+      "name": "김일환",
+      "aliases": [
+        "Kim Il-hwan"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "UNVERIFIED"
+      },
+      "roles": [
+        {
+          "period": "1951-08-21",
+          "title": "국방부차관으로 김종원 체포·헌병조사 발언(동시대 보도)",
+          "actionType": "DIRECT_REPORTED_STATEMENT",
+          "evidenceDocumentIds": [
+            "doc-r213-dh-1951-08-21-0100"
+          ],
+          "eventIds": [
+            "evt-r213-02"
+          ],
+          "sourceQualification": "1951-08-23 서울신문 동시대 보도, 인사원부 미확보; 1959 교통부장관 김일환과 동일인 여부 불명",
+          "accessDate": "2026-10-28"
+        }
+      ],
+      "researchStatus": "DISCOVERED",
+      "possibleSameAs": [
+        "pol-r149-cabinet-07"
+      ],
+      "identityVerification": "SAME_NAME_NOT_ENOUGH_TO_MERGE",
+      "evidenceDocumentIds": [
+        "doc-r213-dh-1951-08-21-0100"
+      ],
+      "eventIds": [
+        "evt-r213-02"
+      ],
+      "openLeads": [
+        "L213-034"
+      ],
+      "historyDebtIds": [
+        "HD-R213-11"
+      ],
+      "accessDate": "2026-10-28",
+      "promotionReason": "NOT_PROMOTED; identity disambiguation pending"
+    },
+    {
+      "id": "cand-r213-kang-yong-ok",
+      "name": "강용옥",
+      "aliases": [
+        "康龍玉",
+        "Kang Yong-ok"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "UNKNOWN"
+      },
+      "roles": [
+        {
+          "period": "1951-05-30~08-24",
+          "title": "대통령령 제523호 학도호국단 규정 개정 심의 법제관",
+          "actionType": "NAMED_LEGAL_REVIEW_OFFICER",
+          "evidenceDocumentIds": [
+            "doc-r213-dh-1951-08-24-0100"
+          ],
+          "eventIds": [
+            "evt-r213-26"
+          ],
+          "sourceQualification": "대통령기록 심의경과표에 康龍玉 명시, 생몰·별도 인사원부 미확보"
+        }
+      ],
+      "researchStatus": "IDENTIFIED",
+      "evidenceDocumentIds": [
+        "doc-r213-dh-1951-08-24-0100"
+      ],
+      "eventIds": [
+        "evt-r213-26"
+      ],
+      "openLeads": [
+        "L213-043"
+      ],
+      "historyDebtIds": [
+        "HD-R213-19"
+      ],
+      "accessDate": "2026-10-28",
+      "promotionReason": "CANDIDATE_ONLY: legal officer, not verified political party/ministerial appointment"
+    },
+    {
+      "id": "cand-r213-son-young-su-busan",
+      "name": "손영수",
+      "aliases": [
+        "Son Young-su",
+        "Sohn Young-soo"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "UNKNOWN"
+      },
+      "roles": [
+        {
+          "period": "1951-08-24",
+          "title": "부산시 부시장으로 대일강화조약 귀속재산·한국 대표 참가 견해 발표",
+          "actionType": "CONTEMPORANEOUS_REPORTED_LOCAL_OFFICIAL_STATEMENT",
+          "evidenceDocumentIds": [
+            "doc-r213-dh-1951-08-24-0070"
+          ],
+          "eventIds": [
+            "evt-r213-24"
+          ],
+          "sourceQualification": "부산일보 다중발언 전사, 부시장 임명 원관보·생몰 미확보"
+        }
+      ],
+      "researchStatus": "IDENTIFIED",
+      "evidenceDocumentIds": [
+        "doc-r213-dh-1951-08-24-0070"
+      ],
+      "eventIds": [
+        "evt-r213-24"
+      ],
+      "openLeads": [
+        "L213-044"
+      ],
+      "historyDebtIds": [
+        "HD-R213-20"
+      ],
+      "accessDate": "2026-10-28",
+      "promotionReason": "CANDIDATE_ONLY: deputy mayor role original appointment not yet checked"
+    },
+    {
+      "id": "cand-r213-yang-woo-jeong",
+      "name": "양우정",
+      "aliases": [
+        "梁又正",
+        "양우정 (Romanization unverified)"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "NOT_VERIFIED"
+      },
+      "roles": [
+        {
+          "period": "1951-08-17",
+          "title": "1951-08-17 신당 준비회합 참가 국회의원",
+          "actionType": "CONTEMPORANEOUS_REPORTED_POLITICAL_ACTOR",
+          "evidenceDocumentIds": [
+            "doc-r213-dh-1951-08-25-0040"
+          ],
+          "eventIds": [
+            "evt-r213-32"
+          ],
+          "sourceQualification": "Contemporary newspaper transcription; election, appointment and birth/death primary register not inspected",
+          "accessDate": "2026-10-28"
+        }
+      ],
+      "researchStatus": "IDENTIFIED",
+      "evidenceDocumentIds": [
+        "doc-r213-dh-1951-08-25-0040"
+      ],
+      "eventIds": [
+        "evt-r213-32"
+      ],
+      "openLeads": [
+        "L213-A25-cand-r213-yang-woo-jeong"
+      ],
+      "historyDebtIds": [],
+      "accessDate": "2026-10-28",
+      "promotionReason": "CANDIDATE_ONLY; identity and legal status primary sources outstanding"
+    },
+    {
+      "id": "cand-r213-tae-wan-seon",
+      "name": "태완선",
+      "aliases": [
+        "太完善",
+        "태완선 (Romanization unverified)"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "NOT_VERIFIED"
+      },
+      "roles": [
+        {
+          "period": "1951-08-17",
+          "title": "1951-08-17 신당 준비회합 참가 국회의원",
+          "actionType": "CONTEMPORANEOUS_REPORTED_POLITICAL_ACTOR",
+          "evidenceDocumentIds": [
+            "doc-r213-dh-1951-08-25-0040"
+          ],
+          "eventIds": [
+            "evt-r213-32"
+          ],
+          "sourceQualification": "Contemporary newspaper transcription; election, appointment and birth/death primary register not inspected",
+          "accessDate": "2026-10-28"
+        }
+      ],
+      "researchStatus": "IDENTIFIED",
+      "evidenceDocumentIds": [
+        "doc-r213-dh-1951-08-25-0040"
+      ],
+      "eventIds": [
+        "evt-r213-32"
+      ],
+      "openLeads": [
+        "L213-A25-cand-r213-tae-wan-seon"
+      ],
+      "historyDebtIds": [],
+      "accessDate": "2026-10-28",
+      "promotionReason": "CANDIDATE_ONLY; identity and legal status primary sources outstanding"
+    },
+    {
+      "id": "cand-r213-hong-chang-seop",
+      "name": "홍창섭",
+      "aliases": [
+        "洪昌燮",
+        "홍창섭 (Romanization unverified)"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "NOT_VERIFIED"
+      },
+      "roles": [
+        {
+          "period": "1951-08-17",
+          "title": "1951-08-17 신당 준비회합 참가 국회의원",
+          "actionType": "CONTEMPORANEOUS_REPORTED_POLITICAL_ACTOR",
+          "evidenceDocumentIds": [
+            "doc-r213-dh-1951-08-25-0040"
+          ],
+          "eventIds": [
+            "evt-r213-32"
+          ],
+          "sourceQualification": "Contemporary newspaper transcription; election, appointment and birth/death primary register not inspected",
+          "accessDate": "2026-10-28"
+        }
+      ],
+      "researchStatus": "IDENTIFIED",
+      "evidenceDocumentIds": [
+        "doc-r213-dh-1951-08-25-0040"
+      ],
+      "eventIds": [
+        "evt-r213-32"
+      ],
+      "openLeads": [
+        "L213-A25-cand-r213-hong-chang-seop"
+      ],
+      "historyDebtIds": [],
+      "accessDate": "2026-10-28",
+      "promotionReason": "CANDIDATE_ONLY; identity and legal status primary sources outstanding"
+    },
+    {
+      "id": "cand-r213-lee-hwal",
+      "name": "이활",
+      "aliases": [
+        "李活",
+        "이활 (Romanization unverified)"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "NOT_VERIFIED"
+      },
+      "roles": [
+        {
+          "period": "1951-08-17",
+          "title": "1951-08-17 신당 준비회합 국민회 연락대표",
+          "actionType": "CONTEMPORANEOUS_REPORTED_POLITICAL_ACTOR",
+          "evidenceDocumentIds": [
+            "doc-r213-dh-1951-08-25-0040"
+          ],
+          "eventIds": [
+            "evt-r213-32"
+          ],
+          "sourceQualification": "Contemporary newspaper transcription; election, appointment and birth/death primary register not inspected",
+          "accessDate": "2026-10-28"
+        }
+      ],
+      "researchStatus": "IDENTIFIED",
+      "evidenceDocumentIds": [
+        "doc-r213-dh-1951-08-25-0040"
+      ],
+      "eventIds": [
+        "evt-r213-32"
+      ],
+      "openLeads": [
+        "L213-A25-cand-r213-lee-hwal"
+      ],
+      "historyDebtIds": [],
+      "accessDate": "2026-10-28",
+      "promotionReason": "CANDIDATE_ONLY; identity and legal status primary sources outstanding"
+    },
+    {
+      "id": "cand-r213-lee-yu-seon",
+      "name": "이유선",
+      "aliases": [
+        "李裕善",
+        "이유선 (Romanization unverified)"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "NOT_VERIFIED"
+      },
+      "roles": [
+        {
+          "period": "1951-08-17",
+          "title": "1951-08-17 신당 준비회합 대한국민당 연락대표",
+          "actionType": "CONTEMPORANEOUS_REPORTED_POLITICAL_ACTOR",
+          "evidenceDocumentIds": [
+            "doc-r213-dh-1951-08-25-0040"
+          ],
+          "eventIds": [
+            "evt-r213-32"
+          ],
+          "sourceQualification": "Contemporary newspaper transcription; election, appointment and birth/death primary register not inspected",
+          "accessDate": "2026-10-28"
+        }
+      ],
+      "researchStatus": "IDENTIFIED",
+      "evidenceDocumentIds": [
+        "doc-r213-dh-1951-08-25-0040"
+      ],
+      "eventIds": [
+        "evt-r213-32"
+      ],
+      "openLeads": [
+        "L213-A25-cand-r213-lee-yu-seon"
+      ],
+      "historyDebtIds": [],
+      "accessDate": "2026-10-28",
+      "promotionReason": "CANDIDATE_ONLY; identity and legal status primary sources outstanding"
+    },
+    {
+      "id": "cand-r213-park-seung-ha",
+      "name": "박승하",
+      "aliases": [
+        "朴勝夏",
+        "박승하 (Romanization unverified)"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "NOT_VERIFIED"
+      },
+      "roles": [
+        {
+          "period": "1951-08-27",
+          "title": "1951-08-27 국민방위군사건 검찰 불구속 신문 대상 국회의원",
+          "actionType": "CONTEMPORANEOUS_REPORTED_POLITICAL_ACTOR",
+          "evidenceDocumentIds": [
+            "doc-r213-dh-1951-08-27-0080"
+          ],
+          "eventIds": [
+            "evt-r213-46"
+          ],
+          "sourceQualification": "Contemporary newspaper transcription; election, appointment and birth/death primary register not inspected",
+          "accessDate": "2026-10-28"
+        }
+      ],
+      "researchStatus": "IDENTIFIED",
+      "evidenceDocumentIds": [
+        "doc-r213-dh-1951-08-27-0080"
+      ],
+      "eventIds": [
+        "evt-r213-46"
+      ],
+      "openLeads": [
+        "L213-A25-cand-r213-park-seung-ha"
+      ],
+      "historyDebtIds": [],
+      "accessDate": "2026-10-28",
+      "promotionReason": "CANDIDATE_ONLY; identity and legal status primary sources outstanding"
+    },
+    {
+      "id": "cand-r213-jo-byeong-mun",
+      "name": "조병문",
+      "aliases": [
+        "曺秉雯",
+        "조병문 (Romanization unverified)"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "NOT_VERIFIED"
+      },
+      "roles": [
+        {
+          "period": "1951-08-29",
+          "title": "1951-08-29 정부조직법 법사위 대안 반대발언 국회의원",
+          "actionType": "CONTEMPORANEOUS_REPORTED_POLITICAL_ACTOR",
+          "evidenceDocumentIds": [
+            "doc-r213-dh-1951-08-29-0030"
+          ],
+          "eventIds": [
+            "evt-r213-52"
+          ],
+          "sourceQualification": "Contemporary newspaper transcription; election, appointment and birth/death primary register not inspected",
+          "accessDate": "2026-10-28"
+        }
+      ],
+      "researchStatus": "IDENTIFIED",
+      "evidenceDocumentIds": [
+        "doc-r213-dh-1951-08-29-0030"
+      ],
+      "eventIds": [
+        "evt-r213-52"
+      ],
+      "openLeads": [
+        "L213-A25-cand-r213-jo-byeong-mun"
+      ],
+      "historyDebtIds": [],
+      "accessDate": "2026-10-28",
+      "promotionReason": "CANDIDATE_ONLY; identity and legal status primary sources outstanding"
+    },
+    {
+      "id": "cand-r213-kim-yong-hwa",
+      "name": "김용화",
+      "aliases": [
+        "金鏞化",
+        "김용화 (Romanization unverified)"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "NOT_VERIFIED"
+      },
+      "roles": [
+        {
+          "period": "1951-08-29",
+          "title": "1951-08-29 대전 임시천도 건의안 외58인 제안 국회의원",
+          "actionType": "CONTEMPORANEOUS_REPORTED_POLITICAL_ACTOR",
+          "evidenceDocumentIds": [
+            "doc-r213-dh-1951-08-29-0030"
+          ],
+          "eventIds": [
+            "evt-r213-52"
+          ],
+          "sourceQualification": "Contemporary newspaper transcription; election, appointment and birth/death primary register not inspected",
+          "accessDate": "2026-10-28"
+        }
+      ],
+      "researchStatus": "IDENTIFIED",
+      "evidenceDocumentIds": [
+        "doc-r213-dh-1951-08-29-0030"
+      ],
+      "eventIds": [
+        "evt-r213-52"
+      ],
+      "openLeads": [
+        "L213-A25-cand-r213-kim-yong-hwa"
+      ],
+      "historyDebtIds": [],
+      "accessDate": "2026-10-28",
+      "promotionReason": "CANDIDATE_ONLY; identity and legal status primary sources outstanding"
     }
   ]
 }

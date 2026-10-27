@@ -1,17 +1,17 @@
 {
-  "updated": "2026-10-27",
+  "updated": "2026-10-28",
   "project": "대한민국 역대 정치인 실록",
-  "branchRef": "refs/heads/research/run206-1951-may29-june01-governance",
+  "branchRef": "refs/heads/research/run213-1951-augsep-source-contradictions",
   "branchHeadResolution": "READ_LIVE_REF_NOT_CACHED_SHA",
-  "lastCompletedRun": 206,
-  "latestRunReport": "data/research/runs/2026-10-27-run206-report.md",
-  "latestLeadQueue": "data/research/lead-queues/run206d-next.json",
-  "latestDocumentRegistry": "data/documents/run206d-economic-presidential-archives.json",
-  "latestEventOverlay": "data/events/run206d-economic-policy-actions.json",
-  "latestClaimOverlay": "data/claims/run206d-economic-adversarial.json",
-  "latestPoliticianOverlay": "data/politicians/run206-may-june1951-actor-network.json",
-  "latestDebtAddenda": "data/research/history-debt/run206d-economic-biography.json",
-  "latestAnnals": "data/annals/run206d-rhee-economy-lee-jong-uk.md",
+  "lastCompletedRun": 213,
+  "latestRunReport": "data/research/runs/2026-10-28-run213-final-report.md",
+  "latestLeadQueue": "data/research/lead-queues/run213-final-next.json",
+  "latestDocumentRegistry": "data/documents/run213-aug25-31-addendum.json",
+  "latestEventOverlay": "data/events/run213-aug25-31-actions.json",
+  "latestClaimOverlay": "data/claims/run213-aug25-31-adversarial.json",
+  "latestPoliticianOverlay": "data/politicians/run213-aug25-31-actor-network.json",
+  "latestDebtAddenda": "data/research/history-debt/run213-aug25-31.json",
+  "latestAnnals": "data/annals/run213-aug25-31.md",
   "next": [
     "L206d-01",
     "L206d-02",
@@ -37,8 +37,8 @@
     "data/research/coverage/run204de.json",
     "data/research/coverage/run206.json"
   ],
-  "latestRun": 201,
-  "latestRunLedger": "data/research/runs/2026-10-27-run205-ledger.json",
+  "latestRun": 213,
+  "latestRunLedger": "data/research/runs/2026-10-28-run213-final-ledger.json",
   "latestLeadAddendum": "data/research/lead-queues/run115-addendum.json",
   "latestFinalAddendum": "data/research/runs/2026-10-09-run115-final-addendum.json",
   "latestLeadFinalAddendum": "data/research/lead-queues/run115-press-addendum.json",
@@ -250,7 +250,7 @@
     "claimsStructured": 20,
     "localElectionRegistry": "data/documents/run150-1956-local-election-oir.json"
   },
-  "latestOrganizationRegistry": "data/organizations/run204c-local-state-orgs.json",
+  "latestOrganizationRegistry": "data/organizations/run213-organization-nodes.json",
   "weeklyFullReview": "NOT_RUN_TUESDAY",
   "weeklyReviewStatement": "역사부채 주간 전수조사 미실시",
   "latestAddendum": "158d",
@@ -417,5 +417,27 @@
     "firstCommit": "a5bb5022fa0f836636216f35bc7375aa492fabdb",
     "extension": "e",
     "crosschecksThreeFamily": 2
+  },
+  "run213": {
+    "baseBranch": "research/run212-1951-august-institutions-adversarial",
+    "report": "data/research/runs/2026-10-28-run213-report.md",
+    "leadQueue": "data/research/lead-queues/run213-next.json",
+    "warning": "Run213 Korean-source expansion: 71 full bodies (FRUS40 NIKH27 Hansard2 treaty1 IOC1), 45 conservative primary, 30 events, 32 claims, 51 leads, 20 debts; identity candidates Kang Yong-ok, Son Young-su, Kim Il-hwan. Stacked PR #62 on #61; no weekly full review.",
+    "correctionCommitPending": false,
+    "finalAddendum": {
+      "documents": 36,
+      "events": 27,
+      "claims": 21,
+      "leads": 21,
+      "debts": 10,
+      "report": "data/research/runs/2026-10-28-run213-final-report.md",
+      "sourceFamilies": [
+        "KOREAN_PRESIDENTIAL_RECORDS",
+        "KOREAN_CONTEMPORANEOUS_PRESS",
+        "US_EMBASSY_KOREA_PROJECT",
+        "US_ARMY_RG554"
+      ],
+      "note": "New party-formation three independent contemporaneous provenance families compared, direct control unresolved."
+    }
   }
 }
