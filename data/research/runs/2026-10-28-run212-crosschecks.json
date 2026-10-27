@@ -1,0 +1,92 @@
+{
+  "run": 212,
+  "crosschecks": [
+    {
+      "claim": "주류업조합법 8/6 국회 통과 vs 9/14 공포시행",
+      "documents": [
+        "doc-r212-dh-1951-08-06-0100",
+        "doc-r212-law219"
+      ],
+      "families": [
+        "CONTEMPORANEOUS_KOREAN_PRESS",
+        "KOREAN_OFFICIAL_LEGAL_HISTORY"
+      ],
+      "result": "LEGISLATIVE_STAGE_VS_ENACTMENT_SEPARATED",
+      "strictThreeIndependentPrimaryFamilySources": false
+    },
+    {
+      "claim": "행정소송법 8/8 국회 통과 vs 8/24 공포 9/14 시행",
+      "documents": [
+        "doc-r212-dh-1951-08-08-0080",
+        "doc-r212-law213"
+      ],
+      "families": [
+        "CONTEMPORANEOUS_KOREAN_PRESS",
+        "KOREAN_OFFICIAL_LEGAL_HISTORY"
+      ],
+      "result": "LEGISLATIVE_STAGE_VS_ENACTMENT_SEPARATED",
+      "strictThreeIndependentPrimaryFamilySources": false
+    },
+    {
+      "claim": "기부금품 금지법 8/7 제출 vs 11/17 법률224; 후대 11/7 인용 충돌",
+      "documents": [
+        "doc-r212-dh-1951-08-07-0020",
+        "doc-r212-law224",
+        "doc-r212-court-96heonga5"
+      ],
+      "families": [
+        "CONTEMPORANEOUS_KOREAN_PRESS",
+        "KOREAN_OFFICIAL_LEGAL_HISTORY",
+        "KOREAN_CONSTITUTIONAL_COURT_LATER_FINDING"
+      ],
+      "result": "THREE_PROVENANCE_FAMILIES_NOT_THREE_PRIMARY_AGREEING_ON_SINGLE_DATE",
+      "strictThreeIndependentPrimaryFamilySources": false
+    },
+    {
+      "claim": "백선엽 철수 명령 주장·부인·참석지속 지시",
+      "documents": [
+        "doc-r212-frus1951v7p1-d483",
+        "doc-r212-frus1951v7p1-d496",
+        "doc-r212-dh-1951-08-01-0070",
+        "doc-r212-dh-1951-08-04-0050"
+      ],
+      "families": [
+        "US_EMBASSY_ORIGINAL",
+        "KOREAN_PRESS_REPORT",
+        "KOREAN_TRANSLATION_OF_SAME_US_EMBASSY"
+      ],
+      "result": "INFERENCE_VS_DENIAL_VS_LATER_REPORTED_CONTINUE_INSTRUCTION",
+      "strictThreeIndependentPrimaryFamilySources": false
+    },
+    {
+      "claim": "개성 트럭 공습 주장·UN 응답·내부조사",
+      "documents": [
+        "doc-r212-dh-1951-08-09-0010",
+        "doc-r212-dh-1951-08-09-0020",
+        "doc-r212-frus1951v7p1-d504"
+      ],
+      "families": [
+        "NORTH_KOREAN_DELEGATE_AUTHORED_VIA_US_ARCHIVE",
+        "UNC_RESPONSE_VIA_US_ARCHIVE",
+        "US_8TH_ARMY_INVESTIGATION_VIA_FRUS"
+      ],
+      "result": "MULTI_PARTY_STATEMENTS_PRESERVED_NO_INDEPENDENT_NEUTRAL_FINDING",
+      "strictThreeIndependentPrimaryFamilySources": false
+    },
+    {
+      "claim": "정전후 정치회담 계획 국편 8/2 분류 vs FRUS 8/3 원문",
+      "documents": [
+        "doc-r212-dh-1951-08-02-0080",
+        "doc-r212-frus1951v7p1-d489"
+      ],
+      "families": [
+        "KOREAN_TRANSLATION_US_ORIGINAL",
+        "US_FRUS_SAME_UNDERLYING_ORIGINAL"
+      ],
+      "result": "DATE_METADATA_CONFLICT_NOT_INDEPENDENT_DOCUMENT",
+      "strictThreeIndependentPrimaryFamilySources": false
+    }
+  ],
+  "threeIndependentPrimaryFamilyCrosschecks": 0,
+  "independentMultiProvenanceComparisonBundles": 6
+}
