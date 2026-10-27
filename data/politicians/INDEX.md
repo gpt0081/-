@@ -299,3 +299,11 @@ data/politicians/run205b-assembly-cabinet-actors.json: 김준연·조병옥·신
 ## Run205e · 1951-05-22 농정·재정·사법 인물
 
 data/politicians/run205e-may22-governance-actors.json: 장면(pol-chang-myon), 백두진(pol-paik-too-chin), 임문환(pol-r175-im-mun-hwan), 이재형 등 기존 인물의 구체적 부서·담화·표결 심화. 백남식·태완선·홍창섭·우문·정인승·김효섭을 개별 candidate로 식별. 우문(禹文)처럼 짧은 이름은 동명이인 합병 금지. 각 인물은 원문 ID·행위 유형·생몰 미검증·다음 조사원부를 보유.
+
+
+## Run208 (2026-10-28) · 1951년 6월 외교·환율·재건행정
+`data/politicians/run208-1951-june-korean-actors.json`: 이승만 `pol-rhee-syngman`, 장면 `pol-chang-myon`, 백두진 `pol-paik-too-chin` 기존 ID 재사용, 김세선 `cand-r205-kim-se-sun`, 한표욱 `cand-r205-han-pyo-wook` 기존 후보 심화. 한국 비대통령 **4명**만 신규 문서 근거로 심화; 영국·미국·인도 외교관은 한국 정치인으로 허위 계산하지 않음. FRUS d332/d339 환율 교섭 및 d356 정전교섭 참여요청을 event ID로 연결. 생몰·임명 원본 미확보, 후보 VERIFIED 승격 0. `data/annals/run208-1951-june-cabinet-diplomacy.md`.
+
+Run208 기관명부 후속: 김훈 `pol-r164-kim-hun` 1950-05-09~1952-03-27 상공부장관 공식 재임명부와 FRUS d332 익명 상공부장관 환율 반대 보고 연결(본인 서명 없음). 조병옥 `pol-cho-byeong-ok` 1951-05-06 내무장관 퇴임, 이순용 `cand-r208-lee-soon-yong-interior1951` 1951-05-07 취임, 청주사건 문책 개인결재 미확인. `evt-r208-19`~`20`, `claim-r208-21`~`22`.
+
+Run208 신원검증: `cand-r207-kim-su-hak` 金秀學(1950 고창갑 당선, AKS 1896~1967), `cand-r207-lee-jong-uk-caucus` 李鍾郁(1950 평창 국민회 승려 67세, AKS 1884~1969), `cand-r198b-so-seon-gyu` 蘇宣奎(1950 익산갑 민주국민당 당선) 기존 후보 ID 심화. canonical 金洙鶴·李宗郁와 원의원명부 대조 전 자동병합 금지. `data/annals/run208-1950-election-identity.md` 및 `data/evidence/run208-1950-election-identity.json`.
