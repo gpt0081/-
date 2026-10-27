@@ -378,3 +378,7 @@ Run212 8/11~15 후속으로 [계엄 공고 국무위원·이종찬·김종원·�
 ## Run221c: 국회 상임위원장·장관·노동쟁의 정치인
 - data/politicians/run221c-jan1952-actors.json: 기존 stable/candidate 26명 증거 심화. 상임위원장 선거, 조선방직 국회질의, 조병창 군법회의 무죄 보고, 내무장관 인사·고문근절 발언을 독립 event로 연결.
 - data/documents/run221c-jan1952-oversight-industry.json / data/events/run221c-oversight-industry-actions.json / data/claims/run221c-adversarial.json / data/evidence/politicians/run221c-evidence.json.
+
+## Run221d: 1952-01-28 내각 법령 공동서명자와 지방행정
+- data/politicians/run221d-jan1952-actors.json: 21개 독립 인물 노드(대통령 포함), 신규 후보 이홍직·노진설·김동선 3명. 조진만·오한영·이순용·이윤영 등 계엄·기부·양곡 시행령 공동서명 증거를 대통령 행위와 분리.
+- 기존 이범석 2개 root ID(pol-lee-beom-seok / pol-lee-beom-seok-1900) 동일인 가능성을 기록하되 근거 없는 병합 금지.
