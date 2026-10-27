@@ -310,13 +310,28 @@
           "eventIds": [
             "evt-r213-05"
           ]
+        },
+        {
+          "period": "1951-08-24",
+          "title": "대통령령523호에서 문교부장관이 중앙학도호국단 단장으로 규정",
+          "actionType": "LEGAL_OFFICE_DESIGNATION_NOT_PERSONAL_COMMAND",
+          "evidenceDocumentIds": [
+            "doc-r213-dh-1951-08-24-0100"
+          ],
+          "eventIds": [
+            "evt-r213-26"
+          ],
+          "sourceQualification": "Run213 primary-origin or contemporary transcription; direct reported speech/observed role, not automatic final policy",
+          "accessDate": "2026-10-28"
         }
       ],
       "linkedDocumentIds": [
-        "doc-r213-dh-1951-08-24-0120"
+        "doc-r213-dh-1951-08-24-0120",
+        "doc-r213-dh-1951-08-24-0100"
       ],
       "linkedEventIds": [
-        "evt-r213-05"
+        "evt-r213-05",
+        "evt-r213-26"
       ],
       "openLead": "조치령 관보·문교부장관 서명/결재·학교별 인가원부",
       "historyDebtIds": [],
@@ -381,19 +396,38 @@
           "eventIds": [
             "evt-r213-07"
           ]
+        },
+        {
+          "period": "1951-08-20~21",
+          "title": "대일강화 및 지역 안보동맹 배제 항의 담화",
+          "actionType": "DIRECT_REPORTED_FOREIGN_MINISTER_STATEMENT",
+          "evidenceDocumentIds": [
+            "doc-r213-dh-1951-08-21-0020"
+          ],
+          "eventIds": [
+            "evt-r213-17"
+          ],
+          "sourceQualification": "Run213 primary-origin or contemporary transcription; direct reported speech/observed role, not automatic final policy",
+          "accessDate": "2026-10-28"
         }
       ],
       "linkedDocumentIds": [
         "doc-r213-dh-1951-08-21-0080",
-        "doc-r213-treaty-sf1951-nikh"
+        "doc-r213-treaty-sf1951-nikh",
+        "doc-r213-dh-1951-08-21-0020"
       ],
       "linkedEventIds": [
-        "evt-r213-07"
+        "evt-r213-07",
+        "evt-r213-17"
       ],
       "openLead": "공보처장 실명·변영태 외무장관 원전문 분리",
       "historyDebtIds": [],
       "promotion": "NO_PROMOTION_THIS_RUN; individual authority not inferred from institutional policy",
-      "accessDate": "2026-10-28"
+      "accessDate": "2026-10-28",
+      "contextToDirectCorrection": {
+        "date": "2026-10-28",
+        "reason": "8/21 0020 directly attributes public statement to Foreign Minister Byun"
+      }
     },
     {
       "id": "cand-r198b-oh-wi-yeong",
@@ -431,6 +465,165 @@
       "openLead": "8/9 오위영 원법안과 8/24 대안 대조",
       "historyDebtIds": [],
       "promotion": "NO_PROMOTION_THIS_RUN; individual authority not inferred from institutional policy",
+      "accessDate": "2026-10-28"
+    },
+    {
+      "id": "cand-r213-kang-yong-ok",
+      "name": "강용옥",
+      "aliases": [
+        "康龍玉",
+        "Kang Yong-ok"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "UNKNOWN"
+      },
+      "birthDeathVerification": "UNKNOWN",
+      "researchStatus": "IDENTIFIED",
+      "periodRoles": [
+        {
+          "period": "1951-05-30~08-24",
+          "title": "대통령령 제523호 학도호국단 규정 개정 심의 법제관",
+          "actionType": "NAMED_LEGAL_REVIEW_OFFICER",
+          "evidenceDocumentIds": [
+            "doc-r213-dh-1951-08-24-0100"
+          ],
+          "eventIds": [
+            "evt-r213-26"
+          ],
+          "sourceQualification": "대통령기록 심의경과표에 康龍玉 명시, 생몰·별도 인사원부 미확보"
+        }
+      ],
+      "linkedDocumentIds": [
+        "doc-r213-dh-1951-08-24-0100"
+      ],
+      "linkedEventIds": [
+        "evt-r213-26"
+      ],
+      "openLead": "L213-043",
+      "historyDebtIds": [
+        "HD-R213-19"
+      ],
+      "promotion": "CANDIDATE_ONLY",
+      "accessDate": "2026-10-28"
+    },
+    {
+      "id": "cand-r213-son-young-su-busan",
+      "name": "손영수",
+      "aliases": [
+        "Son Young-su",
+        "Sohn Young-soo"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "UNKNOWN"
+      },
+      "birthDeathVerification": "UNKNOWN",
+      "researchStatus": "IDENTIFIED",
+      "periodRoles": [
+        {
+          "period": "1951-08-24",
+          "title": "부산시 부시장으로 대일강화조약 귀속재산·한국 대표 참가 견해 발표",
+          "actionType": "CONTEMPORANEOUS_REPORTED_LOCAL_OFFICIAL_STATEMENT",
+          "evidenceDocumentIds": [
+            "doc-r213-dh-1951-08-24-0070"
+          ],
+          "eventIds": [
+            "evt-r213-24"
+          ],
+          "sourceQualification": "부산일보 다중발언 전사, 부시장 임명 원관보·생몰 미확보"
+        }
+      ],
+      "linkedDocumentIds": [
+        "doc-r213-dh-1951-08-24-0070"
+      ],
+      "linkedEventIds": [
+        "evt-r213-24"
+      ],
+      "openLead": "L213-044",
+      "historyDebtIds": [
+        "HD-R213-20"
+      ],
+      "promotion": "CANDIDATE_ONLY",
+      "accessDate": "2026-10-28"
+    },
+    {
+      "id": "pol-r164-hwang-seong-su",
+      "name": "황성수",
+      "aliases": [
+        "黃聖秀",
+        "Hwang Seong-su"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "OPEN_IDENTITY_AND_ROSTER"
+      },
+      "birthDeathVerification": "NOT_RECHECKED",
+      "researchStatus": "IDENTIFIED",
+      "periodRoles": [
+        {
+          "period": "1951-08-24",
+          "title": "국회의원 대일강화조약 맥아더라인·재일동포 권익 견해",
+          "actionType": "DIRECT_REPORTED_ASSEMBLY_MEMBER_STATEMENT",
+          "evidenceDocumentIds": [
+            "doc-r213-dh-1951-08-24-0070"
+          ],
+          "eventIds": [
+            "evt-r213-24"
+          ],
+          "sourceQualification": "Run213 primary-origin or contemporary transcription; direct reported speech/observed role, not automatic final policy",
+          "accessDate": "2026-10-28"
+        }
+      ],
+      "linkedDocumentIds": [
+        "doc-r213-dh-1951-08-24-0070"
+      ],
+      "linkedEventIds": [
+        "evt-r213-24"
+      ],
+      "openLead": "황성수 1951-08-24 의원 명부·본인 발언 원고",
+      "historyDebtIds": [],
+      "promotion": "NO_PROMOTION",
+      "accessDate": "2026-10-28"
+    },
+    {
+      "id": "pol-paik-sun-yup",
+      "name": "백선엽",
+      "aliases": [
+        "白善燁",
+        "Paik Sun-yup",
+        "Paek Sun yup"
+      ],
+      "lifespan": null,
+      "birthDeathVerification": "NOT_RECHECKED",
+      "researchStatus": "IDENTIFIED",
+      "periodRoles": [
+        {
+          "period": "1951-08-21",
+          "title": "정전 수석대표 조이·크레이지 귀환시 김포 영접·전선기지 동행",
+          "actionType": "OBSERVED_MILITARY_DIPLOMATIC_PRESENCE",
+          "evidenceDocumentIds": [
+            "doc-r213-dh-1951-08-21-0060"
+          ],
+          "eventIds": [
+            "evt-r213-19"
+          ],
+          "sourceQualification": "Run213 primary-origin or contemporary transcription; direct reported speech/observed role, not automatic final policy",
+          "accessDate": "2026-10-28"
+        }
+      ],
+      "linkedDocumentIds": [
+        "doc-r213-dh-1951-08-21-0060"
+      ],
+      "linkedEventIds": [
+        "evt-r213-19"
+      ],
+      "openLead": "미8군 항공운항일지·백선엽 공식 수행일지",
+      "historyDebtIds": [],
+      "promotion": "NO_PROMOTION",
       "accessDate": "2026-10-28"
     }
   ],
