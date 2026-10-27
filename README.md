@@ -15,6 +15,11 @@
 기존 `data/presidents.json`은 시간순 대통령 overlay, `data/politicians.json`은 정치인 registry, `data/events.json`은 사건 cross-link registry 역할을 합니다. 기존 대통령 중심 ID와 파일은 깨뜨리지 않고 `legacyIds`와 연결 필드로 점진적으로 일반화합니다.
 
 
+
+## Run199 · 1950년 11월 8~14일 국회·법률·평시국정과 인물망 확장
+
+2026-10-27: [실행보고](data/research/runs/2026-10-27-run199-report.md) · [실행계정](data/research/runs/2026-10-27-run199-ledger.json) · [직접 열람 86개 문서](data/documents/run199-nov8-14-sources.json) · [36개 사건](data/events/run199-nov8-14-actions.json) · [비대통령 22명 연결](data/politicians/run199-nov-actor-network.json) · [16개 주장·반증](data/claims/run199-nov8-14-adversarial.json) · [55개 다음 원문 표적](data/research/lead-queues/run199-next.json). **법률 제156호 '사형'은 私刑**(법외 제재)이며 사형제 폐지법이 아님. 국회 11/13 재의결과 12/1 법률156·157 공포를 분리, 법률157 원본 소실·1963 재작성 보존. 11/14 대통령령393 확인, 부산 공장 합계22개·소금30t 차이를 CONFLICTED 기록. 64개 동시대 신문 전사, 공식 원문·법령 9, 영인면 0. Floot 미변경.
+
 ## Run197 · 1950년 9월 전시 국정·국회·피난민 행정 대량채굴
 
 2026-10-27: [실행보고서](data/research/runs/2026-10-27-run197-report.md) · [검증 장부](data/research/runs/2026-10-27-run197-ledger.json) · [국편 개별본문 75개 문서 registry](data/documents/run197-1950-september-contemporary.json) · [33개 사건](data/events/run197-1950-september-governance.json) · [25명 기존 인물 및 4 후보](data/politicians/run197-1950-september-actor-network.json) · [17개 주장·반증](data/claims/run197-1950-september-adversarial-claims.json) · [45개 다음 원문 표적](data/research/lead-queues/run197-next.json). 21개 공식/1차 기원 전사, 원면 0. 국회 법안통과와 공포, 내각결정과 집행, 미·소 상반주장, 동명이인 충돌을 분리. Floot 미변경.

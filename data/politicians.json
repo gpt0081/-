@@ -272,6 +272,77 @@
           ],
           "sourceQualification": "신문 전사/공문 발췌; 직접명령·참석·실제 집행은 별도 검증",
           "accessDate": "2026-10-27"
+        },
+        {
+          "period": "1950-11-08",
+          "title": "대통령 국회의원 초청 다과회",
+          "actionType": "PRESIDENT_HOSTED_REPORTED",
+          "evidenceDocumentIds": [
+            "doc-r199-1108-0050"
+          ],
+          "eventIds": [
+            "evt-r199-01"
+          ],
+          "sourceQualification": "대통령 주최, 국회의장·국무총리서리 참석 보도. 정책결정·표결로 해석하지 않음.",
+          "run": 199,
+          "accessDate": "2026-10-27"
+        },
+        {
+          "period": "1950-11-13",
+          "title": "이승만 부역자·군경 비행·고아구호 기자회견",
+          "actionType": "PRESIDENT_PUBLIC_STATEMENT",
+          "evidenceDocumentIds": [
+            "doc-r199-1113-0030"
+          ],
+          "eventIds": [
+            "evt-r199-27"
+          ],
+          "sourceQualification": "발언·정부방침과 구체 명령·실제 군경 조치 구분.",
+          "run": 199,
+          "accessDate": "2026-10-27"
+        },
+        {
+          "period": "1950-11-13",
+          "title": "국회 사형금지법·부역행위특별처리법 재의결",
+          "actionType": "ASSEMBLY_VETO_OVERRIDE_REPORTED",
+          "evidenceDocumentIds": [
+            "doc-r199-1113-0040"
+          ],
+          "eventIds": [
+            "evt-r199-28"
+          ],
+          "sourceQualification": "국회 정부 재심 거부 134:1, 128:2 보도; 12/1 공포와 구분, 표결 원본 미확인.",
+          "run": 199,
+          "accessDate": "2026-10-27"
+        },
+        {
+          "period": "1950-11-14",
+          "title": "대통령령393 양곡관리법시행령 공포",
+          "actionType": "EXECUTIVE_DECREE_PROMULGATION",
+          "evidenceDocumentIds": [
+            "doc-r199-1114-0070",
+            "doc-decree-r199-393"
+          ],
+          "eventIds": [
+            "evt-r199-32"
+          ],
+          "sourceQualification": "법제처 원문과 동시대 신문 대조, 대통령 직접 정책설계는 미확인.",
+          "run": 199,
+          "accessDate": "2026-10-27"
+        },
+        {
+          "period": "1950-11-14",
+          "title": "서훈 수여권 일부 위임 특례 보도",
+          "actionType": "AWARD_DELEGATION_REPORTED",
+          "evidenceDocumentIds": [
+            "doc-r199-1114-0080"
+          ],
+          "eventIds": [
+            "evt-r199-36"
+          ],
+          "sourceQualification": "대통령 명에 따른 장관·참모장 위임 보도, 개별 서훈 원명령 미확인.",
+          "run": 199,
+          "accessDate": "2026-10-27"
         }
       ],
       "researchStatus": "active-deep",
@@ -390,7 +461,13 @@
         "doc194b-0804-0040",
         "doc194c-decree7-wikisource-transcription",
         "doc194b-0804-0050",
-        "doc194d-decree7-nikh-warbook"
+        "doc194d-decree7-nikh-warbook",
+        "doc-r199-1108-0050",
+        "doc-r199-1113-0030",
+        "doc-r199-1113-0040",
+        "doc-r199-1114-0070",
+        "doc-decree-r199-393",
+        "doc-r199-1114-0080"
       ],
       "researchNotes": [
         {
@@ -562,7 +639,12 @@
         "evt-r194b-09",
         "evt-r194b-10",
         "evt-r194b-14",
-        "evt-r194c-01"
+        "evt-r194c-01",
+        "evt-r199-01",
+        "evt-r199-27",
+        "evt-r199-28",
+        "evt-r199-32",
+        "evt-r199-36"
       ],
       "openLeads": [
         "L173-05",
@@ -2763,6 +2845,20 @@
           "sourceQualification": "Run198b original-transcription or contemporary press; appointment and actual implementation not presumed",
           "run": "198b",
           "accessDate": "2026-10-27"
+        },
+        {
+          "period": "1950-11-08",
+          "title": "대통령 국회의원 초청 다과회",
+          "actionType": "PRESIDENT_HOSTED_REPORTED",
+          "evidenceDocumentIds": [
+            "doc-r199-1108-0050"
+          ],
+          "eventIds": [
+            "evt-r199-01"
+          ],
+          "sourceQualification": "대통령 주최, 국회의장·국무총리서리 참석 보도. 정책결정·표결로 해석하지 않음.",
+          "run": 199,
+          "accessDate": "2026-10-27"
         }
       ],
       "researchStatus": "VERIFIED",
@@ -2926,7 +3022,8 @@
         "doc-r198-1030-0100",
         "doc-r198-1030-0050",
         "doc-r198b-1103-0020",
-        "doc-r198b-1104-0060"
+        "doc-r198b-1104-0060",
+        "doc-r199-1108-0050"
       ],
       "eventIds": [
         "evt-r163-03",
@@ -2946,7 +3043,8 @@
         "evt-r192-35",
         "evt-r194-02",
         "evt-r198-13",
-        "evt-r198b-08"
+        "evt-r198b-08",
+        "evt-r199-01"
       ],
       "openLeads": [
         "L166-ID-pol-shin-sung-mo",
@@ -4733,6 +4831,20 @@
           "sourceQualification": "Run198b original-transcription or contemporary press; appointment and actual implementation not presumed",
           "run": "198b",
           "accessDate": "2026-10-27"
+        },
+        {
+          "period": "1950-11-09",
+          "title": "재무부 ECA 원조물자 관세 과세방침",
+          "actionType": "FINANCE_MINISTRY_CIRCULAR_REPORTED",
+          "evidenceDocumentIds": [
+            "doc-r199-1109-0040"
+          ],
+          "eventIds": [
+            "evt-r199-06"
+          ],
+          "sourceQualification": "10/17 국무회의 의결로 보고; 재무부장관 시달·세관 시행일 분리.",
+          "run": 199,
+          "accessDate": "2026-10-27"
         }
       ],
       "researchStatus": "IDENTIFIED",
@@ -4751,7 +4863,8 @@
         "doc-r198-1031-0040",
         "doc-r198b-1103-0030",
         "doc-r198b-1103-0040",
-        "doc-r198b-1102-0070"
+        "doc-r198b-1102-0070",
+        "doc-r199-1109-0040"
       ],
       "openLeads": [
         "L114-08",
@@ -4783,7 +4896,8 @@
         "evt-r198-21",
         "evt-r198b-11",
         "evt-r198b-12",
-        "evt-r198b-13"
+        "evt-r198b-13",
+        "evt-r199-06"
       ],
       "status": "IDENTIFIED",
       "researchNotes": [
@@ -6170,6 +6284,20 @@
           "sourceQualification": "Run198b original-transcription or contemporary press; appointment and actual implementation not presumed",
           "run": "198b",
           "accessDate": "2026-10-27"
+        },
+        {
+          "period": "1950-11-08",
+          "title": "대통령 국회의원 초청 다과회",
+          "actionType": "PRESIDENT_HOSTED_REPORTED",
+          "evidenceDocumentIds": [
+            "doc-r199-1108-0050"
+          ],
+          "eventIds": [
+            "evt-r199-01"
+          ],
+          "sourceQualification": "대통령 주최, 국회의장·국무총리서리 참석 보도. 정책결정·표결로 해석하지 않음.",
+          "run": 199,
+          "accessDate": "2026-10-27"
         }
       ],
       "rolePeriods": [
@@ -6237,7 +6365,8 @@
         "doc189x-19500530-0080",
         "doc194b-0803-0060",
         "doc-r198-1028-0020",
-        "doc-r198b-1107-0050"
+        "doc-r198b-1107-0050",
+        "doc-r199-1108-0050"
       ],
       "evidenceFile": "data/evidence/shin-ik-hui-run176.json",
       "openLeadsFile": "data/research/lead-queues/run141-next.json",
@@ -6275,7 +6404,8 @@
         "evt-r189x-04",
         "evt-r194b-07",
         "evt-r198-17",
-        "evt-r198b-10"
+        "evt-r198b-10",
+        "evt-r199-01"
       ],
       "researchNotes": [
         {
@@ -6762,7 +6892,21 @@
         "verification": "NOT_VERIFIED_IN_THIS_RUN"
       },
       "roles": [
-        "1950 보건부장관; 고용원규정 국무위원 서명"
+        "1950 보건부장관; 고용원규정 국무위원 서명",
+        {
+          "period": "1950-11-11",
+          "title": "보건부장관 5개 병원 무료치료와 의료품 반입 발표",
+          "actionType": "HEALTH_MINISTER_PUBLIC_STATEMENT",
+          "evidenceDocumentIds": [
+            "doc-r199-1111-0020"
+          ],
+          "eventIds": [
+            "evt-r199-15"
+          ],
+          "sourceQualification": "무료치료 개시 주장과 실제 병원 접수·재고는 별도.",
+          "run": 199,
+          "accessDate": "2026-10-27"
+        }
       ],
       "rolePeriods": [
         {
@@ -6780,14 +6924,18 @@
         "evt-r141-02"
       ],
       "evidenceDocumentIds": [
-        "d141-pa769"
+        "d141-pa769",
+        "doc-r199-1111-0020"
       ],
       "evidenceFile": "data/evidence/run141-actor-evidence.json",
       "openLeadsFile": "data/research/lead-queues/run141-next.json",
       "historyDebt": [
         "HD-R141-IDENTITY"
       ],
-      "attributionCaveat": "서명/이송은 법안 발의·표결·집행의 직접 증거가 아님"
+      "attributionCaveat": "서명/이송은 법안 발의·표결·집행의 직접 증거가 아님",
+      "eventIds": [
+        "evt-r199-15"
+      ]
     },
     {
       "id": "pol-r141-ahn-ho-sang",
@@ -9503,6 +9651,20 @@
           "sourceQualification": "Run198b original-transcription or contemporary press; appointment and actual implementation not presumed",
           "run": "198b",
           "accessDate": "2026-10-27"
+        },
+        {
+          "period": "1950-11-13",
+          "title": "정일권·장두관 남한 여행증명서 완화 공동포고",
+          "actionType": "JOINT_MARTIAL_ADMINISTRATIVE_PROCLAMATION",
+          "evidenceDocumentIds": [
+            "doc-r199-1113-0080"
+          ],
+          "eventIds": [
+            "evt-r199-30"
+          ],
+          "sourceQualification": "11/13 공동명의, 시민·도민증 소지자 여행증명서 면제; 시행실적 미확인.",
+          "run": 199,
+          "accessDate": "2026-10-27"
         }
       ],
       "roleTimeline": [
@@ -9541,7 +9703,8 @@
         "evt-r194b-03",
         "evt-r194b-05",
         "evt-r194b-19",
-        "evt-r198b-21"
+        "evt-r198b-21",
+        "evt-r199-30"
       ],
       "connections": [
         "evt-r150-19550914-nnsc-field-observation",
@@ -9564,7 +9727,8 @@
         "doc194b-0802-0040",
         "doc194b-0804-0060",
         "doc194b-0805-0020",
-        "doc-r198b-1107-0070"
+        "doc-r198b-1107-0070",
+        "doc-r199-1113-0080"
       ],
       "openLeads": [
         "L150-32",
@@ -10193,6 +10357,20 @@
             "doc158c-frus-309"
           ],
           "sourceQualification": "FRUS original report or editor note, original Korean record pending"
+        },
+        {
+          "period": "1950-11-11",
+          "title": "공군총참모장 공군력 증강 기자회견",
+          "actionType": "AIR_FORCE_COMMANDER_PRESS_BRIEFING",
+          "evidenceDocumentIds": [
+            "doc-r199-1111-0090"
+          ],
+          "eventIds": [
+            "evt-r199-20"
+          ],
+          "sourceQualification": "김정렬 승진·전투기 운용 보도, 공식 인사명령·실제 기체 수 미확인.",
+          "run": 199,
+          "accessDate": "2026-10-27"
         }
       ],
       "researchStatus": "VERIFIED",
@@ -10217,7 +10395,8 @@
         "doc158c-frus-309",
         "doc163-10",
         "doc163-11",
-        "doc163-12"
+        "doc163-12",
+        "doc-r199-1111-0090"
       ],
       "openLeads": [
         "L156-09",
@@ -10243,7 +10422,8 @@
         "evt-r157-13",
         "evt-r158-04",
         "evt-r158-05",
-        "evt-r163-07"
+        "evt-r163-07",
+        "evt-r199-20"
       ],
       "evidenceCoverage": {
         "reviewDate": "2026-10-26",
@@ -11122,6 +11302,20 @@
           "sourceQualification": "Run198b original-transcription or contemporary press; appointment and actual implementation not presumed",
           "run": "198b",
           "accessDate": "2026-10-27"
+        },
+        {
+          "period": "1950-11-11",
+          "title": "문교부 대학교 통합개강 발표",
+          "actionType": "EDUCATION_MINISTER_PUBLIC_STATEMENT",
+          "evidenceDocumentIds": [
+            "doc-r199-1111-0100"
+          ],
+          "eventIds": [
+            "evt-r199-21"
+          ],
+          "sourceQualification": "11/11 대학 개교 발표, 대학별 학사일정 확인 필요.",
+          "run": 199,
+          "accessDate": "2026-10-27"
         }
       ],
       "researchStatus": "ANNALS_ACTIVE",
@@ -11140,7 +11334,8 @@
         "doc-r198-1026-0100",
         "doc-r198b-1102-0050",
         "doc-r198b-1103-0020",
-        "doc-r198b-1104-0060"
+        "doc-r198b-1104-0060",
+        "doc-r199-1111-0100"
       ],
       "eventIds": [
         "evt-r159-07",
@@ -11155,7 +11350,8 @@
         "evt-r198-10",
         "evt-r198b-07",
         "evt-r198b-08",
-        "evt-r198b-29"
+        "evt-r198b-29",
+        "evt-r199-21"
       ],
       "openLeads": [
         "L159-21",
@@ -13403,6 +13599,34 @@
           ],
           "sourceQualification": "신문 전사/공문 발췌; 직접명령·참석·실제 집행은 별도 검증",
           "accessDate": "2026-10-27"
+        },
+        {
+          "period": "1950-11-10",
+          "title": "상공부 전쟁피해 1440억9989만원 추산",
+          "actionType": "MINISTERIAL_DAMAGE_ESTIMATE",
+          "evidenceDocumentIds": [
+            "doc-r199-1110-0080"
+          ],
+          "eventIds": [
+            "evt-r199-13"
+          ],
+          "sourceQualification": "상공장관 발표, 집계 기준·명목가격·복구비 분리.",
+          "run": 199,
+          "accessDate": "2026-10-27"
+        },
+        {
+          "period": "1950-11-12",
+          "title": "상공부 무허가시장 철거·기존시장 재편",
+          "actionType": "COMMERCE_MINISTER_CIRCULAR_REPORTED",
+          "evidenceDocumentIds": [
+            "doc-r199-1112-0040"
+          ],
+          "eventIds": [
+            "evt-r199-24"
+          ],
+          "sourceQualification": "10/24 통첩의 11/12 보도, 집행·철거 피해 별도.",
+          "run": 199,
+          "accessDate": "2026-10-27"
         }
       ],
       "researchStatus": "IDENTIFIED",
@@ -13418,7 +13642,9 @@
         "doc189x-19500530-0040",
         "doc194-daegu-aug1-cabinet",
         "doc194b-0801-0110",
-        "doc194b-0803-0110"
+        "doc194b-0803-0110",
+        "doc-r199-1110-0080",
+        "doc-r199-1112-0040"
       ],
       "evidenceCoverage": {
         "sourceDocumentIds": [
@@ -13437,7 +13663,9 @@
         "evt-r189x-05",
         "evt-r194-02",
         "evt-r194b-01",
-        "evt-r194b-13"
+        "evt-r194b-13",
+        "evt-r199-13",
+        "evt-r199-24"
       ],
       "openLeads": [
         "L164-ID-pol-r164-kim-hun",
@@ -15598,15 +15826,49 @@
             "doc166-1017-0050",
             "doc166-1011-0050"
           ]
+        },
+        {
+          "period": "1950-11-11",
+          "title": "농림부 추곡 520만석 수집·강제매상 가능성 발표",
+          "actionType": "VICE_MINISTER_POLICY_STATEMENT",
+          "evidenceDocumentIds": [
+            "doc-r199-1111-0040"
+          ],
+          "eventIds": [
+            "evt-r199-17"
+          ],
+          "sourceQualification": "주석균 발표·부락연대책임·집행과 농민 반응 별도.",
+          "run": 199,
+          "accessDate": "2026-10-27"
+        },
+        {
+          "period": "1950-11-14",
+          "title": "대통령령393 양곡관리법시행령 공포",
+          "actionType": "EXECUTIVE_DECREE_PROMULGATION",
+          "evidenceDocumentIds": [
+            "doc-r199-1114-0070",
+            "doc-decree-r199-393"
+          ],
+          "eventIds": [
+            "evt-r199-32"
+          ],
+          "sourceQualification": "법제처 원문과 동시대 신문 대조, 대통령 직접 정책설계는 미확인.",
+          "run": 199,
+          "accessDate": "2026-10-27"
         }
       ],
       "researchStatus": "IDENTIFIED",
       "evidenceDocumentIds": [
         "doc166-1017-0050",
-        "doc166-1011-0050"
+        "doc166-1011-0050",
+        "doc-r199-1111-0040",
+        "doc-r199-1114-0070",
+        "doc-decree-r199-393"
       ],
       "eventIds": [
-        "evt-r166c-27"
+        "evt-r166c-27",
+        "evt-r199-17",
+        "evt-r199-32"
       ],
       "openLeads": [
         "L166-ID-pol-r166-joo-seok-gyun"
@@ -24698,6 +24960,20 @@
           "sourceQualification": "Run198b original-transcription or contemporary press; appointment and actual implementation not presumed",
           "run": "198b",
           "accessDate": "2026-10-27"
+        },
+        {
+          "period": "1950-11-08",
+          "title": "합동수사본부 사설단체의 사적 구금·폭행 금지 경고",
+          "actionType": "INVESTIGATIVE_COMMANDER_PUBLIC_WARNING",
+          "evidenceDocumentIds": [
+            "doc-r199-1108-0120"
+          ],
+          "eventIds": [
+            "evt-r199-02"
+          ],
+          "sourceQualification": "김창룡 담화, 단속실적이나 대통령 명령은 미확인.",
+          "run": 199,
+          "accessDate": "2026-10-27"
         }
       ],
       "researchStatus": "DISCOVERED",
@@ -24707,12 +24983,14 @@
         "doc-r198-1025-0170",
         "doc-r198-1028-0060",
         "doc-r198b-1101-0010",
-        "doc-r198b-1106-0120"
+        "doc-r198b-1106-0120",
+        "doc-r199-1108-0120"
       ],
       "eventIds": [
         "evt-r198-20",
         "evt-r198b-01",
-        "evt-r198b-26"
+        "evt-r198b-26",
+        "evt-r199-02"
       ],
       "openLeads": [
         "L198-29"
@@ -24818,6 +25096,48 @@
           "sourceQualification": "Run198b original-transcription or contemporary press; appointment and actual implementation not presumed",
           "run": "198b",
           "accessDate": "2026-10-27"
+        },
+        {
+          "period": "1950-11-08",
+          "title": "경남 계엄민사부 민간인 무기휴대증 재발행 발표",
+          "actionType": "REGIONAL_MARTIAL_CIVIL_ANNOUNCEMENT",
+          "evidenceDocumentIds": [
+            "doc-r199-1108-0060"
+          ],
+          "eventIds": [
+            "evt-r199-03"
+          ],
+          "sourceQualification": "장두관 발표, 기존 휴대증 무효 및 11/20 재발행 계획.",
+          "run": 199,
+          "accessDate": "2026-10-27"
+        },
+        {
+          "period": "1950-11-10",
+          "title": "경남 계엄민사부 종업원 10명 이상 공장 등록",
+          "actionType": "REGIONAL_FACTORY_REGISTRATION_NOTICE",
+          "evidenceDocumentIds": [
+            "doc-r199-1110-0070"
+          ],
+          "eventIds": [
+            "evt-r199-12"
+          ],
+          "sourceQualification": "11/14~18 등록명령 보도, 실제 등록부 미확인.",
+          "run": 199,
+          "accessDate": "2026-10-27"
+        },
+        {
+          "period": "1950-11-13",
+          "title": "정일권·장두관 남한 여행증명서 완화 공동포고",
+          "actionType": "JOINT_MARTIAL_ADMINISTRATIVE_PROCLAMATION",
+          "evidenceDocumentIds": [
+            "doc-r199-1113-0080"
+          ],
+          "eventIds": [
+            "evt-r199-30"
+          ],
+          "sourceQualification": "11/13 공동명의, 시민·도민증 소지자 여행증명서 면제; 시행실적 미확인.",
+          "run": 199,
+          "accessDate": "2026-10-27"
         }
       ],
       "researchStatus": "DISCOVERED",
@@ -24827,13 +25147,19 @@
         "doc-r198-1030-0120",
         "doc-r198b-1104-0110",
         "doc-r198b-1106-0130",
-        "doc-r198b-1107-0100"
+        "doc-r198b-1107-0100",
+        "doc-r199-1108-0060",
+        "doc-r199-1110-0070",
+        "doc-r199-1113-0080"
       ],
       "eventIds": [
         "evt-r198-23",
         "evt-r198b-18",
         "evt-r198b-27",
-        "evt-r198b-35"
+        "evt-r198b-35",
+        "evt-r199-03",
+        "evt-r199-12",
+        "evt-r199-30"
       ],
       "openLeads": [
         "L198-31"
@@ -25202,16 +25528,32 @@
             "evt-r198b-23"
           ],
           "sourceQualification": "birth/death and election or appointment original not read"
+        },
+        {
+          "period": "1950-11-12",
+          "title": "헌병사령관 장창국 합동헌병대 본부장 겸임",
+          "actionType": "MILITARY_APPOINTMENT_REPORTED",
+          "evidenceDocumentIds": [
+            "doc-r199-1112-0030"
+          ],
+          "eventIds": [
+            "evt-r199-23"
+          ],
+          "sourceQualification": "예관수 중령 합동헌병대장 임명 보도; 임명 원명령 필요.",
+          "run": 199,
+          "accessDate": "2026-10-27"
         }
       ],
       "researchStatus": "DISCOVERED",
       "registryScope": "POLITICAL_ADMINISTRATIVE_OR_MILITARY_CANDIDATE",
       "evidenceDocumentIds": [
         "doc-r198b-1102-0080",
-        "doc-r198b-1107-0150"
+        "doc-r198b-1107-0150",
+        "doc-r199-1112-0030"
       ],
       "eventIds": [
-        "evt-r198b-23"
+        "evt-r198b-23",
+        "evt-r199-23"
       ],
       "openLeads": [
         "L198B-ID-cand-r198b-jang-chang-guk"
@@ -25335,6 +25677,324 @@
         }
       ],
       "promotionReason": "동시대 자료에서 한자·직책·행위 확인. 생몰·당선원부·신원 연속성 미확보"
+    },
+    {
+      "id": "cand-r199-seo-sang-hwan",
+      "name": "서상환",
+      "aliases": [
+        "Seo Sang-hwan (provisional)"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "NOT_VERIFIED"
+      },
+      "roles": [
+        {
+          "period": "1950-11",
+          "title": "1950-11-09 검찰총장·부역자 관용처리 방침과 기소/판결 집계 발표",
+          "appointmentEvidence": "NOT_VERIFIED_SEPARATELY"
+        }
+      ],
+      "researchStatus": "DISCOVERED",
+      "evidenceDocumentIds": [
+        "doc-r199-1109-0050"
+      ],
+      "eventIds": [
+        "evt-r199-07"
+      ],
+      "openLeads": [
+        "L199-ID-cand-r199-seo-sang-hwan"
+      ],
+      "historyDebt": [
+        "HD-R199-ID-cand-r199-seo-sang-hwan"
+      ],
+      "identityCaveat": "생몰·임명원부·동명이인 검증 전 정식 승격 금지",
+      "promotionReason": "동시대 원문에서 이름·직책·행위 및 일자를 확인. 생몰·임명원부·신원 연속성 부족으로 candidate 유지.",
+      "accessDate": "2026-10-27"
+    },
+    {
+      "id": "cand-r199-han-gyeok-man",
+      "name": "한격만",
+      "aliases": [
+        "韓格晩",
+        "Han Gyeok-man (provisional)"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "NOT_VERIFIED"
+      },
+      "roles": [
+        {
+          "period": "1950-11",
+          "title": "1950-11-11~14 서울지방법원장·법관 인력난·UN위원단 면담",
+          "appointmentEvidence": "NOT_VERIFIED_SEPARATELY"
+        }
+      ],
+      "researchStatus": "DISCOVERED",
+      "evidenceDocumentIds": [
+        "doc-r199-1111-0060",
+        "doc-r199-1113-0070",
+        "doc-r199-1114-0030"
+      ],
+      "eventIds": [
+        "evt-r199-19",
+        "evt-r199-31",
+        "evt-r199-34"
+      ],
+      "openLeads": [
+        "L199-ID-cand-r199-han-gyeok-man"
+      ],
+      "historyDebt": [
+        "HD-R199-ID-cand-r199-han-gyeok-man"
+      ],
+      "identityCaveat": "생몰·임명원부·동명이인 검증 전 정식 승격 금지",
+      "promotionReason": "동시대 원문에서 이름·직책·행위 및 일자를 확인. 생몰·임명원부·신원 연속성 부족으로 candidate 유지.",
+      "accessDate": "2026-10-27"
+    },
+    {
+      "id": "cand-r199-lee-hae-ik",
+      "name": "이해익",
+      "aliases": [
+        "李海翼",
+        "Lee Hae-ik (provisional)"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "NOT_VERIFIED"
+      },
+      "roles": [
+        {
+          "period": "1950-11",
+          "title": "1950-11-11 경기도지사·도청 이전 연기·학교 재개 설명",
+          "appointmentEvidence": "NOT_VERIFIED_SEPARATELY"
+        }
+      ],
+      "researchStatus": "DISCOVERED",
+      "evidenceDocumentIds": [
+        "doc-r199-1111-0050"
+      ],
+      "eventIds": [
+        "evt-r199-18"
+      ],
+      "openLeads": [
+        "L199-ID-cand-r199-lee-hae-ik"
+      ],
+      "historyDebt": [
+        "HD-R199-ID-cand-r199-lee-hae-ik"
+      ],
+      "identityCaveat": "생몰·임명원부·동명이인 검증 전 정식 승격 금지",
+      "promotionReason": "동시대 원문에서 이름·직책·행위 및 일자를 확인. 생몰·임명원부·신원 연속성 부족으로 candidate 유지.",
+      "accessDate": "2026-10-27"
+    },
+    {
+      "id": "cand-r199-park-chang-rok",
+      "name": "박창록",
+      "aliases": [
+        "朴昌錄",
+        "Park Chang-rok (provisional)"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "NOT_VERIFIED"
+      },
+      "roles": [
+        {
+          "period": "1950-11",
+          "title": "1950-11-09 부산지구헌병대장·불법 군사단체 단속 발표",
+          "appointmentEvidence": "NOT_VERIFIED_SEPARATELY"
+        }
+      ],
+      "researchStatus": "DISCOVERED",
+      "evidenceDocumentIds": [
+        "doc-r199-1109-0060"
+      ],
+      "eventIds": [],
+      "openLeads": [
+        "L199-ID-cand-r199-park-chang-rok"
+      ],
+      "historyDebt": [
+        "HD-R199-ID-cand-r199-park-chang-rok"
+      ],
+      "identityCaveat": "생몰·임명원부·동명이인 검증 전 정식 승격 금지",
+      "promotionReason": "동시대 원문에서 이름·직책·행위 및 일자를 확인. 생몰·임명원부·신원 연속성 부족으로 candidate 유지.",
+      "accessDate": "2026-10-27"
+    },
+    {
+      "id": "cand-r199-ye-gwan-su",
+      "name": "예관수",
+      "aliases": [
+        "芮琯壽",
+        "Ye Gwan-su (provisional)"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "NOT_VERIFIED"
+      },
+      "roles": [
+        {
+          "period": "1950-11",
+          "title": "1950-11-12 합동헌병대장 중령 임명 보도",
+          "appointmentEvidence": "NOT_VERIFIED_SEPARATELY"
+        }
+      ],
+      "researchStatus": "DISCOVERED",
+      "evidenceDocumentIds": [
+        "doc-r199-1112-0030"
+      ],
+      "eventIds": [
+        "evt-r199-23"
+      ],
+      "openLeads": [
+        "L199-ID-cand-r199-ye-gwan-su"
+      ],
+      "historyDebt": [
+        "HD-R199-ID-cand-r199-ye-gwan-su"
+      ],
+      "identityCaveat": "생몰·임명원부·동명이인 검증 전 정식 승격 금지",
+      "promotionReason": "동시대 원문에서 이름·직책·행위 및 일자를 확인. 생몰·임명원부·신원 연속성 부족으로 candidate 유지.",
+      "accessDate": "2026-10-27"
+    },
+    {
+      "id": "cand-r199-kim-ho-u",
+      "name": "김호우",
+      "aliases": [
+        "金虎羽",
+        "Kim Ho-u (provisional)"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "NOT_VERIFIED"
+      },
+      "roles": [
+        {
+          "period": "1950-11",
+          "title": "1950-11-12 충청남도 경찰국장·부역혐의 검거 상황 발표",
+          "appointmentEvidence": "NOT_VERIFIED_SEPARATELY"
+        }
+      ],
+      "researchStatus": "DISCOVERED",
+      "evidenceDocumentIds": [
+        "doc-r199-1112-0070"
+      ],
+      "eventIds": [],
+      "openLeads": [
+        "L199-ID-cand-r199-kim-ho-u"
+      ],
+      "historyDebt": [
+        "HD-R199-ID-cand-r199-kim-ho-u"
+      ],
+      "identityCaveat": "생몰·임명원부·동명이인 검증 전 정식 승격 금지",
+      "promotionReason": "동시대 원문에서 이름·직책·행위 및 일자를 확인. 생몰·임명원부·신원 연속성 부족으로 candidate 유지.",
+      "accessDate": "2026-10-27"
+    },
+    {
+      "id": "cand-r199-kim-seong-sam",
+      "name": "김성삼",
+      "aliases": [
+        "金省三",
+        "Kim Seong-sam (provisional)"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "NOT_VERIFIED"
+      },
+      "roles": [
+        {
+          "period": "1950-11",
+          "title": "1950-11-08 해군통제부사령관 준장·함정 운용 및 진해 동상 건립 계획 언급",
+          "appointmentEvidence": "NOT_VERIFIED_SEPARATELY"
+        }
+      ],
+      "researchStatus": "DISCOVERED",
+      "evidenceDocumentIds": [
+        "doc-r199-1108-0130"
+      ],
+      "eventIds": [],
+      "openLeads": [
+        "L199-ID-cand-r199-kim-seong-sam"
+      ],
+      "historyDebt": [
+        "HD-R199-ID-cand-r199-kim-seong-sam"
+      ],
+      "identityCaveat": "생몰·임명원부·동명이인 검증 전 정식 승격 금지",
+      "promotionReason": "동시대 원문에서 이름·직책·행위 및 일자를 확인. 생몰·임명원부·신원 연속성 부족으로 candidate 유지.",
+      "accessDate": "2026-10-27"
+    },
+    {
+      "id": "cand-r199-kim-tae-sun",
+      "name": "김태순",
+      "aliases": [
+        "Kim Tae-sun (provisional)"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "NOT_VERIFIED"
+      },
+      "roles": [
+        {
+          "period": "1950-11",
+          "title": "1950-11-13 치안국장·언론문화인 신분보장·경찰 인사공정 발표",
+          "appointmentEvidence": "NOT_VERIFIED_SEPARATELY"
+        }
+      ],
+      "researchStatus": "DISCOVERED",
+      "evidenceDocumentIds": [
+        "doc-r199-1113-0050"
+      ],
+      "eventIds": [],
+      "openLeads": [
+        "L199-ID-cand-r199-kim-tae-sun"
+      ],
+      "historyDebt": [
+        "HD-R199-ID-cand-r199-kim-tae-sun"
+      ],
+      "identityCaveat": "1950년 신문 김태순과 기존 김태선(pol-kim-tae-seon) 동일인 여부 미확인; 절대 자동병합 금지",
+      "promotionReason": "동시대 원문에서 이름·직책·행위 및 일자를 확인. 생몰·임명원부·신원 연속성 부족으로 candidate 유지.",
+      "accessDate": "2026-10-27"
+    },
+    {
+      "id": "cand-r199-lee-ho-1950",
+      "name": "이호",
+      "aliases": [
+        "李澔",
+        "Lee Ho (provisional)"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "NOT_VERIFIED"
+      },
+      "roles": [
+        {
+          "period": "1950-11",
+          "title": "1950-11-10 계엄사령부 부사령관 준장·경비계엄/비상계엄 관할 차이 설명",
+          "appointmentEvidence": "NOT_VERIFIED_SEPARATELY"
+        }
+      ],
+      "researchStatus": "DISCOVERED",
+      "evidenceDocumentIds": [
+        "doc-r199-1110-0050"
+      ],
+      "eventIds": [
+        "evt-r199-10"
+      ],
+      "openLeads": [
+        "L199-ID-cand-r199-lee-ho-1950"
+      ],
+      "historyDebt": [
+        "HD-R199-ID-cand-r199-lee-ho-1950"
+      ],
+      "identityCaveat": "李澔 1950 계엄사령부 부사령관과 기존 이호(pol-r149-cabinet-03) 동일인 여부 미확인",
+      "promotionReason": "동시대 원문에서 이름·직책·행위 및 일자를 확인. 생몰·임명원부·신원 연속성 부족으로 candidate 유지.",
+      "accessDate": "2026-10-27"
     }
   ]
 }
