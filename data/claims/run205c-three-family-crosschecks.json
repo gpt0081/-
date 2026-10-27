@@ -1,0 +1,55 @@
+{
+  "run": 205,
+  "extension": "c",
+  "crossChecks": [
+    {
+      "id": "cross-r205c-01",
+      "claim": "By 1951-04-12 Matthew Ridgway had succeeded Douglas MacArthur as United Nations Commander in Korea",
+      "status": "CROSSCHECKED_THREE_PROVENANCE_FAMILIES",
+      "evidence": [
+        {
+          "family": "US Presidential original",
+          "documentId": "doc-r205-truman0411",
+          "fact": "Truman April11 order replaces MacArthur with Ridgway immediately"
+        },
+        {
+          "family": "UK Parliament contemporaneous original",
+          "documentId": "doc-r205-hansard0411policy",
+          "fact": "Morrison April11 states change of command and Ridgway new UN Commander"
+        },
+        {
+          "family": "ROK presidential public statement transcribed from 1951 Ministry of Defense",
+          "documentId": "doc-r205-rhee0412",
+          "fact": "Rhee April12 recognizes Ridgway successor and welcomes appointment"
+        }
+      ],
+      "limitations": "Korean statement says 사임 whereas binding US order says 해임. Three institutional records but UK and ROK learned of US action from announcement, not three independent eyewitness observations."
+    },
+    {
+      "id": "cross-r205c-02",
+      "claim": "Security Council resolution 84 established a recommendation for a US-led unified command and requested US designation of its commander",
+      "status": "CROSSCHECKED_THREE_PROVENANCE_FAMILIES",
+      "evidence": [
+        {
+          "family": "United Nations Security Council original",
+          "documentId": "doc-r205c-un-sc84-1950",
+          "fact": "Resolution84 paragraphs 3-4 under United States, requests US commander designation"
+        },
+        {
+          "family": "UK House of Commons original",
+          "documentId": "doc-r205-hansard0411policy",
+          "fact": "Morrison describes US as executive of unified command and president designation"
+        },
+        {
+          "family": "US Joint Chiefs of Staff original",
+          "documentId": "doc-r205b-0501-0010",
+          "fact": "May1 command directive recites July7 UN SC recommendation and operational delegation"
+        }
+      ],
+      "limitations": "UN resolution uses recommends/requests, not a freestanding unlimited authorization for all future military actions. UK and US statements rely on the same UN resolution; provenance separate but source dependence declared."
+    }
+  ],
+  "strictThreeFamilyProvenanceBundles": 2,
+  "epistemicallyIndependentEyewitnessSets": 0,
+  "nonDuplication": "Succession and 1950 legal basis are distinct atomic claims; do not count 3 more just by splitting same command event."
+}
