@@ -4800,7 +4800,9 @@
       "name": "조헌영",
       "aliases": [
         "趙憲泳",
-        "Cho Heon-yeong"
+        "Cho Heon-yeong",
+        "해산(海山)",
+        "응문(應文)"
       ],
       "roles": [
         {
@@ -4853,9 +4855,55 @@
           "eventIds": [
             "evt-r179d-05"
           ]
+        },
+        {
+          "period": "1950-05-30",
+          "title": "제2대 국회의원(경북 영양·무소속, 후대 국편 선거연표)",
+          "actionType": "RETROSPECTIVE_OFFICIAL_ELECTION_ROSTER",
+          "evidenceDocumentIds": [
+            "doc191-nikh-19500530-election-chronology"
+          ],
+          "eventIds": [],
+          "sourceQualification": "국편 신문전사 또는 후대 공식 편찬; 원속기록 미확인"
+        },
+        {
+          "period": "1950-06-20",
+          "title": "국회 교섭단체 명부 제출기한 동의 제안(신문 보도)",
+          "actionType": "REPORTED_PARLIAMENTARY_PROPOSAL",
+          "evidenceDocumentIds": [
+            "doc191-0620-0110"
+          ],
+          "eventIds": [
+            "evt-r191-06"
+          ],
+          "sourceQualification": "국편 신문전사 또는 후대 공식 편찬; 원속기록 미확인"
+        },
+        {
+          "period": "1950-06-22",
+          "title": "국회 식량긴급미가대책위원으로 선임 보도",
+          "actionType": "REPORTED_PARLIAMENTARY_COMMITTEE_MEMBER",
+          "evidenceDocumentIds": [
+            "doc191-0622-0060"
+          ],
+          "eventIds": [
+            "evt-r191-08"
+          ],
+          "sourceQualification": "국편 신문전사 또는 후대 공식 편찬; 원속기록 미확인"
+        },
+        {
+          "period": "1950-06-22",
+          "title": "귀속재산 경매가 입법정신에 배치된다는 의견 발표(신문 보도)",
+          "actionType": "REPORTED_PARLIAMENTARY_OBJECTION",
+          "evidenceDocumentIds": [
+            "doc191-0622-0020"
+          ],
+          "eventIds": [
+            "evt-r191-11"
+          ],
+          "sourceQualification": "국편 신문전사 또는 후대 공식 편찬; 원속기록 미확인"
         }
       ],
-      "researchStatus": "DISCOVERED",
+      "researchStatus": "ANNALS_ACTIVE",
       "backbone": false,
       "connections": [
         "evt-1950-0421-acting-pm-parliament-dispute"
@@ -4865,24 +4913,59 @@
         "doc178b-19480715-govorg-second",
         "doc179b-edu-nov24",
         "doc179b-edu-nov25",
-        "doc179d-0040"
+        "doc179d-0040",
+        "doc191-nikh-19500530-election-chronology",
+        "doc191-0620-0110",
+        "doc191-0622-0060",
+        "doc191-0622-0020",
+        "doc191-aks-cho-heon-yeong"
       ],
       "openLeads": [
         "국회 제헌의원 원명부·소속·생몰 대조",
         "L179b-P-cho-heon-yeong",
-        "L179d-P-cho-heon-yeong"
+        "L179d-P-cho-heon-yeong",
+        "L191-ID-cho-heon-yeong",
+        "L191-ASSEMBLY-0620",
+        "L191-ASSEMBLY-0622"
       ],
       "lifeDatesStatus": "not verified",
-      "researchNotes": "1950-04-22 국도신문 동시대 전사. 동명이인 및 소속 원문 대조 전 승격 보류.",
+      "researchNotes": "1950-04-22 국도신문 동시대 전사. 동명이인 및 소속 원문 대조 전 승격 보류. | 2026-10-27 Run191: AKS 1900~1988-05-23, 공식 후대 당선자명부와 6/20·6/22 동시대 행위 교차로 독립 실록 활성화. 1949-11-24 기존 '문교부 장관' 혼재 표기는 원기사 재확인 전 장관 재임 확정 금지.",
       "eventIds": [
         "evt-r178b-10",
         "evt-r179b-05",
         "evt-r179b-07",
-        "evt-r179d-05"
+        "evt-r179d-05",
+        "evt-r191-06",
+        "evt-r191-08",
+        "evt-r191-11"
       ],
       "historyDebt": [
         "HD-R179b-02",
-        "HD-R179d-01"
+        "HD-R179d-01",
+        "HD-R191-ID-08"
+      ],
+      "lifespan": {
+        "born": "1900",
+        "died": "1988-05-23",
+        "verification": "AKS_LATER_BIOGRAPHY_NOT_PRIMARY_VITAL_REGISTER"
+      },
+      "annalsPath": "data/annals/cho-heon-yeong.md",
+      "evidencePath": "data/evidence/cho-heon-yeong.json",
+      "promotionHistory": [
+        {
+          "date": "2026-10-27",
+          "from": "DISCOVERED",
+          "to": "ANNALS_ACTIVE",
+          "reason": "1948·1949·1950 여러 시기 국회 행위, 1950 후대 공식 선거명부, 한국학중앙연구원 생몰/정치경력 대조, 별도 annals/evidence 작성",
+          "sources": [
+            "doc191-aks-cho-heon-yeong",
+            "doc191-nikh-19500530-election-chronology",
+            "doc191-0620-0110",
+            "doc191-0622-0060",
+            "doc191-0622-0020"
+          ],
+          "caveat": "원속기록·생몰원부 미확보; 기존 문교부장관 표현 재검증 필요"
+        }
       ]
     },
     {
