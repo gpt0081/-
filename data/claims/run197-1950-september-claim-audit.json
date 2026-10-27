@@ -157,7 +157,9 @@
       "status": "INSUFFICIENT",
       "evidenceDocumentIds": [
         "doc-r197-frus-504",
-        "doc-r197-nikh-08_26_0040"
+        "doc-r197-nikh-08_26_0040",
+        "doc-r197g-constitution-1948",
+        "doc-r197g-martial-law-1949"
       ],
       "supportingEvidenceDocumentIds": [
         "doc-r197-nikh-08_26_0040"
@@ -169,7 +171,7 @@
         "doc-r197-frus-504"
       ],
       "laterFindingDocumentIds": [],
-      "assessment": "Ministerial accusations and constitutional argument do not equal verdict; same-arrest identity link Kim Choon Tae remains reviewable.",
+      "assessment": "Ministerial accusations and constitutional argument do not equal verdict; same-arrest identity link Kim Choon Tae remains reviewable. Original 1948 Constitution Art49 and 1949 Martial Law Act Art17 now opened: both except current offenses; whether arrest factually qualified remains unadjudicated.",
       "sourceIndependenceCaveat": "FRUS US family not independent per document; Korean contemporary press, government-law reprint, and later truth commission separately labeled.",
       "accessDate": "2026-10-27"
     },
@@ -277,7 +279,8 @@
       "status": "CONFLICTED_INTERPRETATION",
       "evidenceDocumentIds": [
         "doc-r197-frus-511",
-        "doc-r197-frus-515"
+        "doc-r197-frus-515",
+        "doc-r197g-un-ares293iv"
       ],
       "supportingEvidenceDocumentIds": [
         "doc-r197-frus-515"
@@ -290,7 +293,7 @@
         "doc-r197-frus-515"
       ],
       "laterFindingDocumentIds": [],
-      "assessment": "Commission questions competence; US State interprets 1949 mandate broadly; UN authoritative ruling needed.",
+      "assessment": "Commission questions competence; US State interprets 1949 mandate broadly; UN authoritative ruling needed. UNGA 293(IV) 1949 mandate para1(a) military-conflict observation opened; external foreign assistance not explicit in that phrase.",
       "sourceIndependenceCaveat": "FRUS US family not independent per document; Korean contemporary press, government-law reprint, and later truth commission separately labeled.",
       "accessDate": "2026-10-27"
     },
@@ -584,7 +587,9 @@
         "doc-r197b-frus-547",
         "doc-r197b-frus-548",
         "doc-r197b-frus-550",
-        "doc-r197b-frus-551"
+        "doc-r197b-frus-551",
+        "doc-r197g-un-ares195iii",
+        "doc-r197g-un-ares293iv"
       ],
       "supportingEvidenceDocumentIds": [],
       "contradictingEvidenceDocumentIds": [
@@ -599,7 +604,7 @@
         "doc-r197b-frus-551"
       ],
       "laterFindingDocumentIds": [],
-      "assessment": "Lim's claim conflicts with Allison's UN recognition reading; preserve separate authorship and legal claims.",
+      "assessment": "Lim's claim conflicts with Allison's UN recognition reading; preserve separate authorship and legal claims. UNGA 195(III) territorial scope and 293(IV) commission continuation independently verified.",
       "accessDate": "2026-10-27",
       "sourceIndependenceCaveat": "US FRUS publication is one provenance family; authored Korean letters are distinguished from US policy."
     },
@@ -909,22 +914,39 @@
       "statement": "Marshall's Sept29 JCS 92985 eliminated all earlier conditions on northward operations",
       "status": "INSUFFICIENT",
       "evidenceDocumentIds": [
-        "doc-r197d-frus-553",
+        "doc-r197b-frus-553",
         "doc-r197d-frus-573",
-        "doc-r197d-frus-553"
+        "doc-r197b-frus-553"
       ],
       "supportingEvidenceDocumentIds": [],
       "contradictingEvidenceDocumentIds": [
-        "doc-r197d-frus-553"
+        "doc-r197b-frus-553"
       ],
       "contemporaneousObservationDocumentIds": [
-        "doc-r197d-frus-553",
+        "doc-r197b-frus-553",
         "doc-r197d-frus-573"
       ],
       "laterFindingDocumentIds": [],
       "assessment": "Sept29 tactical freedom should be read alongside Sept27 conditional authorization; new explicit repeal not found.",
       "accessDate": "2026-10-27",
-      "sourceIndependenceCaveat": "UN official adopted document separate provenance from US FRUS drafts; Korean government proposals originate from ROK representatives in US-held records."
+      "sourceIndependenceCaveat": "UN official adopted document separate provenance from US FRUS drafts; Korean government proposals originate from ROK representatives in US-held records.",
+      "reviewHistory": [
+        {
+          "date": "2026-10-27",
+          "type": "REFERENCE_CORRECTION",
+          "priorIds": [
+            "doc-r197d-frus-553",
+            "doc-r197d-frus-573",
+            "doc-r197d-frus-553"
+          ],
+          "newIds": [
+            "doc-r197b-frus-553",
+            "doc-r197d-frus-573",
+            "doc-r197b-frus-553"
+          ],
+          "reason": "FRUS d553 belongs to run197b range 536–555, not run197d 556–574."
+        }
+      ]
     },
     {
       "id": "claim-r197-41",
@@ -1183,6 +1205,186 @@
       "assessment": "Assembly passage reported; promulgation, implementation and staffing files missing.",
       "accessDate": "2026-10-27",
       "sourceIndependenceCaveat": "These contemporary Korean pages were already registered in run164 and are not counted as new underlying documents."
+    },
+    {
+      "id": "claim-r197-54",
+      "statement": "UN 1948 recognition expressly established ROK effective jurisdiction over all Korea",
+      "status": "CONTRADICTED",
+      "evidenceDocumentIds": [
+        "doc-r197g-un-ares195iii"
+      ],
+      "contemporaneousObservationDocumentIds": [
+        "doc-r197g-un-ares195iii"
+      ],
+      "supportingEvidenceDocumentIds": [],
+      "contradictingEvidenceDocumentIds": [
+        "doc-r197g-un-ares195iii"
+      ],
+      "assessment": "A/RES/195(III) para2 qualifies effective control to part where commission observed; 'only such Government' is not unconditional all-territory administrative control.",
+      "accessDate": "2026-10-27",
+      "sourceIndependenceCaveat": "UN resolutions are distinct years but same UN institutional family; Korean constitution and statute are separate domestic legal texts."
+    },
+    {
+      "id": "claim-r197-55",
+      "statement": "1949 UNCOK mandate explicitly empowered investigation of all foreign military assistance",
+      "status": "INSUFFICIENT",
+      "evidenceDocumentIds": [
+        "doc-r197g-un-ares293iv"
+      ],
+      "contemporaneousObservationDocumentIds": [
+        "doc-r197g-un-ares293iv"
+      ],
+      "supportingEvidenceDocumentIds": [],
+      "contradictingEvidenceDocumentIds": [
+        "doc-r197g-un-ares293iv"
+      ],
+      "assessment": "A/RES/293(IV) para1(a) authorizes observing developments leading to/involving military conflict; explicit aid-investigation power not stated.",
+      "accessDate": "2026-10-27",
+      "sourceIndependenceCaveat": "UN resolutions are distinct years but same UN institutional family; Korean constitution and statute are separate domestic legal texts."
+    },
+    {
+      "id": "claim-r197-56",
+      "statement": "Kim Jun-tae arrest was constitutionally lawful merely because minister said it was ongoing crime",
+      "status": "INSUFFICIENT",
+      "evidenceDocumentIds": [
+        "doc-r197g-constitution-1948",
+        "doc-r197g-martial-law-1949",
+        "doc-r197-nikh-08_26_0040"
+      ],
+      "contemporaneousObservationDocumentIds": [
+        "doc-r197g-constitution-1948",
+        "doc-r197g-martial-law-1949",
+        "doc-r197-nikh-08_26_0040"
+      ],
+      "supportingEvidenceDocumentIds": [],
+      "contradictingEvidenceDocumentIds": [
+        "doc-r197g-constitution-1948",
+        "doc-r197g-martial-law-1949",
+        "doc-r197-nikh-08_26_0040"
+      ],
+      "assessment": "Art49 and Art17 except flagrante delicto, but actual crime timing, Assembly session and judicial findings are not proven by minister's characterization.",
+      "accessDate": "2026-10-27",
+      "sourceIndependenceCaveat": "UN resolutions are distinct years but same UN institutional family; Korean constitution and statute are separate domestic legal texts."
+    },
+    {
+      "id": "claim-r197-57",
+      "statement": "Kim Jong-won's local martial-law actions automatically prove direct presidential command",
+      "status": "CONTRADICTED",
+      "evidenceDocumentIds": [
+        "doc-r197g-martial-law-1949",
+        "doc-r197e-nikh-09_26_0070"
+      ],
+      "contemporaneousObservationDocumentIds": [
+        "doc-r197g-martial-law-1949",
+        "doc-r197e-nikh-09_26_0070"
+      ],
+      "supportingEvidenceDocumentIds": [],
+      "contradictingEvidenceDocumentIds": [
+        "doc-r197g-martial-law-1949",
+        "doc-r197e-nikh-09_26_0070"
+      ],
+      "assessment": "1949 Art9 places commanders under Defense Minister except nationwide martial-law region; actual declaration geography/command orders still needed.",
+      "accessDate": "2026-10-27",
+      "sourceIndependenceCaveat": "UN resolutions are distinct years but same UN institutional family; Korean constitution and statute are separate domestic legal texts."
+    },
+    {
+      "id": "claim-r197-58",
+      "statement": "1949 Martial Law Act allowed unlimited unannounced regional restrictions",
+      "status": "CONTRADICTED",
+      "evidenceDocumentIds": [
+        "doc-r197g-martial-law-1949"
+      ],
+      "contemporaneousObservationDocumentIds": [
+        "doc-r197g-martial-law-1949"
+      ],
+      "supportingEvidenceDocumentIds": [],
+      "contradictingEvidenceDocumentIds": [
+        "doc-r197g-martial-law-1949"
+      ],
+      "assessment": "Art13 requires advance public notice of special measures; legality of any particular proclamation and area needs original announcement.",
+      "accessDate": "2026-10-27",
+      "sourceIndependenceCaveat": "UN resolutions are distinct years but same UN institutional family; Korean constitution and statute are separate domestic legal texts."
+    },
+    {
+      "id": "claim-r197-59",
+      "statement": "National Assembly lacked legal power to request lifting martial law in 1950",
+      "status": "CONTRADICTED",
+      "evidenceDocumentIds": [
+        "doc-r197g-martial-law-1949"
+      ],
+      "contemporaneousObservationDocumentIds": [
+        "doc-r197g-martial-law-1949"
+      ],
+      "supportingEvidenceDocumentIds": [],
+      "contradictingEvidenceDocumentIds": [
+        "doc-r197g-martial-law-1949"
+      ],
+      "assessment": "1949 Act Art21 requires president to lift martial law if Assembly demands it.",
+      "accessDate": "2026-10-27",
+      "sourceIndependenceCaveat": "UN resolutions are distinct years but same UN institutional family; Korean constitution and statute are separate domestic legal texts."
+    },
+    {
+      "id": "claim-r197-60",
+      "statement": "1948 Constitution allowed executive detention of legislators without any immunity",
+      "status": "CONTRADICTED",
+      "evidenceDocumentIds": [
+        "doc-r197g-constitution-1948"
+      ],
+      "contemporaneousObservationDocumentIds": [
+        "doc-r197g-constitution-1948"
+      ],
+      "supportingEvidenceDocumentIds": [],
+      "contradictingEvidenceDocumentIds": [
+        "doc-r197g-constitution-1948"
+      ],
+      "assessment": "1948 Art49 sets immunity and Assembly release demand; current-offense exception requires facts.",
+      "accessDate": "2026-10-27",
+      "sourceIndependenceCaveat": "UN resolutions are distinct years but same UN institutional family; Korean constitution and statute are separate domestic legal texts."
+    },
+    {
+      "id": "claim-r197-61",
+      "statement": "1947, 1948, 1949 and 1950 UN Korea resolutions are one unchanged legal mandate",
+      "status": "CONTRADICTED",
+      "evidenceDocumentIds": [
+        "doc-r197g-un-ares112ii",
+        "doc-r197g-un-ares195iii",
+        "doc-r197g-un-ares293iv",
+        "doc-r197-un-ares376v"
+      ],
+      "contemporaneousObservationDocumentIds": [
+        "doc-r197g-un-ares112ii",
+        "doc-r197g-un-ares195iii",
+        "doc-r197g-un-ares293iv",
+        "doc-r197-un-ares376v"
+      ],
+      "supportingEvidenceDocumentIds": [],
+      "contradictingEvidenceDocumentIds": [
+        "doc-r197g-un-ares112ii",
+        "doc-r197g-un-ares195iii",
+        "doc-r197g-un-ares293iv",
+        "doc-r197-un-ares376v"
+      ],
+      "assessment": "1947 temporary commission, 1948 geographically qualified ROK recognition, 1949 continuing UNCOK, 1950 new UNCURK/reconstruction mandate are distinct.",
+      "accessDate": "2026-10-27",
+      "sourceIndependenceCaveat": "UN resolutions are distinct years but same UN institutional family; Korean constitution and statute are separate domestic legal texts."
+    },
+    {
+      "id": "claim-r197-62",
+      "statement": "1949 UNCOK had no duty to observe possible military conflict",
+      "status": "CONTRADICTED",
+      "evidenceDocumentIds": [
+        "doc-r197g-un-ares293iv"
+      ],
+      "contemporaneousObservationDocumentIds": [
+        "doc-r197g-un-ares293iv"
+      ],
+      "supportingEvidenceDocumentIds": [],
+      "contradictingEvidenceDocumentIds": [
+        "doc-r197g-un-ares293iv"
+      ],
+      "assessment": "A/RES/293(IV) operative para1(a) explicitly directs observing and reporting developments that might involve military conflict.",
+      "accessDate": "2026-10-27",
+      "sourceIndependenceCaveat": "UN resolutions are distinct years but same UN institutional family; Korean constitution and statute are separate domestic legal texts."
     }
   ]
 }
