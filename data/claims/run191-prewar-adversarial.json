@@ -363,7 +363,8 @@
       "statement": "6/26 이승만은 정부의 대전 이전을 내각 결정이라고 설명했으나 신성모 국무총리대행은 자신과 사전 협의가 없었다고 별도 진술했다. 내각 절차의 실제 진행은 미확정이다.",
       "verificationStatus": "CONFLICTED_DECISION_PROCESS",
       "supportingEvidenceDocumentIds": [
-        "doc191-frus1950v07-d76"
+        "doc191-frus1950v07-d76",
+        "doc191-nikh-0625-cabinet"
       ],
       "contradictingEvidenceDocumentIds": [],
       "insufficientEvidenceDocumentIds": [
@@ -399,6 +400,50 @@
         "S/PV.473 원속기록",
         "S/1497 미국초안",
         "S/1501 최종 결의"
+      ],
+      "accessDate": "2026-10-27"
+    },
+    {
+      "id": "claim-r191-24",
+      "statement": "6/25 이승만이 경무대 긴급 국무회의를 소집했다는 보도는 확인되나 그 회의에서 대전 이전을 의결했는지는 미확인.",
+      "verificationStatus": "CABINET_CONVENED_RELOCATION_VOTE_UNKNOWN",
+      "supportingEvidenceDocumentIds": [
+        "doc191-nikh-0625-cabinet",
+        "doc191-frus1950v07-d76"
+      ],
+      "contradictingEvidenceDocumentIds": [],
+      "insufficientEvidenceDocumentIds": [
+        "6/25~26 국무회의 원회의록"
+      ],
+      "accessDate": "2026-10-27"
+    },
+    {
+      "id": "claim-r191-25",
+      "statement": "6/25 안보리 제473차 회의 개최는 미국 FRUS·한국 신문·UN 공식 표결 메타데이터 3계열에서 부분 확인되나 원속기록 본문은 미확보.",
+      "verificationStatus": "THREE_FAMILY_PARTIAL_EVENT_CORROBORATION",
+      "supportingEvidenceDocumentIds": [
+        "doc191-frus1950v07-d78",
+        "doc191-nikh-0625-session",
+        "doc191-un-sc82-vote"
+      ],
+      "contradictingEvidenceDocumentIds": [],
+      "insufficientEvidenceDocumentIds": [
+        "UN S/PV.473 원속기록·장면 출석명부"
+      ],
+      "accessDate": "2026-10-27"
+    },
+    {
+      "id": "claim-r191-26",
+      "statement": "UN 결의82 공식 표결은 찬성9 반대0 기권1 불참1. 미국 S/1497 초안은 S/1499로 수정됐으므로 S/1501 채택문과 동일시할 수 없다.",
+      "verificationStatus": "OFFICIAL_VOTE_METADATA_NOT_TEXT_DIFF",
+      "supportingEvidenceDocumentIds": [
+        "doc191-un-sc82-vote",
+        "doc191-un-sc82-draft",
+        "doc191-un-sc82-final"
+      ],
+      "contradictingEvidenceDocumentIds": [],
+      "insufficientEvidenceDocumentIds": [
+        "UN S/1497 S/1499 S/1501 원문"
       ],
       "accessDate": "2026-10-27"
     }
