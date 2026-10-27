@@ -7,23 +7,27 @@
   "weeklyHistoryDebtFullReview": false,
   "weeklyHistoryDebtStatement": "역사부채 주간 전수조사 미실시",
   "counts": {
-    "independentResearchLines": 25,
-    "governanceDomains": 15,
-    "nonPresidentActors": 13,
-    "newPoliticianCandidates": 4,
+    "independentResearchLines": 49,
+    "governanceDomains": 18,
+    "nonPresidentActors": 31,
+    "newPoliticianCandidates": 10,
     "formalPromotions": 0,
-    "eventsOrSubevents": 24,
-    "openedSubstantiveDocumentPages": 64,
-    "deduplicatedUnderlyingDocuments": 60,
+    "eventsOrSubevents": 50,
+    "openedSubstantiveDocumentPages": 125,
+    "deduplicatedUnderlyingDocuments": 120,
     "officialUSPrimaryOriginEditedDocuments": 31,
     "uncCommuniqueReprint": 1,
-    "contemporaneousKoreanPressDocuments": 28,
+    "contemporaneousKoreanPressDocuments": 84,
     "originalFacsimilesInspected": 0,
-    "adversarialClaimChecks": 19,
-    "contextualCrossFamilyComparisons": 3,
+    "adversarialClaimChecks": 38,
+    "contextualCrossFamilyComparisons": 4,
     "strictThreeIndependentPrimaryFamilyConfirmations": 0,
     "priorLeadsTracked": 9,
-    "newSpecificLeads": 41
+    "newSpecificLeads": 68,
+    "officialPrimaryOriginEditedDocumentsTotal": 36,
+    "newOtherOfficialPrimaryOriginDocuments": 5,
+    "totalRegistryDocumentEntries": 126,
+    "archivalMetadataPagesExcludedFromBodyCount": 1
   },
   "researchLines": [
     "16개국 경고성명 프랑스 동의",
@@ -110,5 +114,55 @@
     "sourceOriginalAcquisitionRate": null,
     "documentFamilyDiversityRate": null,
     "reason": "Whole-forest and entire claim denominators not reenumerated; do not invent completion percentages"
-  }
+  },
+  "additionalResearchLines": [
+    "이승만 유엔군 원화대여 서한",
+    "1952-01 대통령령589호 소급시행",
+    "정부 개헌안 상정·부결",
+    "이승만 자유당 원내외 정통 논쟁",
+    "이승만 인접해양 주권 선언",
+    "허정 공무원 현물대우·지방선거",
+    "국회 포로석방 건의 결의",
+    "1952-02 보궐선거 후보등록",
+    "국회 보선 관권감시단",
+    "조선방직 여성노동자 국회청원",
+    "밀양 소작인27명 농지소유권 항고",
+    "한강 도강증 이관·피난민 익사",
+    "서울시 구호미 통계",
+    "학교재건 자재132교실",
+    "의무교육 취학적령 조사",
+    "서울고법 토지소유권 소송224건",
+    "농림부 농산물 증산계획",
+    "축우 금융지원30% 집행",
+    "귀속 도정공장 지주 우선불하",
+    "일반회계 흑자 통계",
+    "대구 전력도용 단속",
+    "서울 쌀값·수송난",
+    "경북도 직업소개소",
+    "서남구호대 시료·의류 수치충돌"
+  ],
+  "additionalComparisons": [
+    {
+      "topic": "1952-01-18 정부 개헌안 부결",
+      "families": [
+        "동아일보 동시대",
+        "민주신보 동시대",
+        "국회기록원 공식 큐레이션"
+      ],
+      "finding": "찬성19 반대143 기권1 재석163 일치. 원회의록 전체 본문 미열람",
+      "strictThreeIndependentPrimaryFamilies": false,
+      "officialReference": "https://www.nara.go.kr/bbs/bbsView.do?bbs_id=5&bbs_no=66&curr_menu_cd=0102020000&pageIndex=1"
+    }
+  ],
+  "corrections": [
+    {
+      "id": "correction-r221b-001",
+      "date": "2026-10-28",
+      "previousObservation": "국편 관보 전사 제목 제589호·본문 제587호 충돌",
+      "newFinding": "법제처 공포연혁 대통령령 제589호(1952-01-16), 시행 1952-01-01",
+      "action": "전사 원문 제587호는 유지하고 공포번호를 589로 정규화. 관보 원면 미열람",
+      "status": "CORRECTED_NUMBER_OFFICIAL_REGISTRY"
+    }
+  ],
+  "hourDurationNotClaimed": true
 }

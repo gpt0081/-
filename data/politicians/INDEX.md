@@ -370,3 +370,7 @@ Run212 8/11~15 후속으로 [계엄 공고 국무위원·이종찬·김종원·�
 ## Run221: 1952년 1월 독립 정치인·관료 evidence
 - data/politicians/run221-jan1952-actors.json: 기존 9명 심화, 신규 후보 4명 이헌구·백홍석·이호석·이정희. 공식 생몰·임명원부 미검증, 정식 승격 0명.
 - data/evidence/politicians/run221-evidence.json / data/events/run221-jan1952-actions.json / data/documents/run221-jan1952-sources.json / data/claims/run221-adversarial.json에 ID로 교차 연결. 별도 annals: data/annals/rhee-jan1952-run221.md.
+
+## Run221b · 1952년 1월 국회·지방정치인 확대
+- data/politicians/run221b-jan1952-actors.json: 22개 행위자 노드(대통령 포함), 신규 후보 곽태진·백남식·변광호·이춘기·김정두·김성화 6명. 김성화 한자는 원문 미확인으로 보류.
+- 공식법령·개헌안 표결·국회/농정/노동 사건은 run221b document/claim/event/evidence에 연결. 별도 후보 승격은 공식 임명·생몰 확인 뒤.
