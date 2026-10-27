@@ -436,6 +436,59 @@
       "sourceStatus": "RETROSPECTIVE_GOVERNMENT_SUMMARY_ORIGINAL_MOFA_LEDGER_NOT_READ",
       "attributionLimit": "해당 차관상환에 적용한 환율이며 모든 공식거래의 1951-06 환율을 직접 입증하지 않는다",
       "accessDate": "2026-10-28"
+    },
+    {
+      "id": "evt-r208-19",
+      "date": "1951-06-06",
+      "title": "상공부장관의 대충자금 환율 변경 반대가 미국대사 보고에 등장",
+      "parentEventId": "evt-r208-08",
+      "domain": "finance-cabinet",
+      "actorIds": [
+        "pol-r164-kim-hun"
+      ],
+      "actionEdges": {
+        "opposed_by": [
+          "pol-r164-kim-hun (official minister-tenure identification; reported by Muccio, not direct signed statement)"
+        ],
+        "observed_by": [
+          "John J. Muccio"
+        ]
+      },
+      "evidenceDocumentIds": [
+        "doc-r208-frus51v7p1-d332",
+        "doc-r208-motir-commerce-minister-list"
+      ],
+      "attributionLimit": "동시대 미국전문은 이름 대신 상공부장관 직책을 적고, 현대 공식 재임명부로 인물 추정. 본인 원진술 미확인",
+      "accessDate": "2026-10-28"
+    },
+    {
+      "id": "evt-r208-20",
+      "date": "1951-05-07",
+      "title": "내무부장관 조병옥에서 이순용으로 교체된 공식 재임기간",
+      "domain": "personnel-interior",
+      "actorIds": [
+        "pol-cho-byeong-ok",
+        "cand-r208-lee-soon-yong-interior1951"
+      ],
+      "actionEdges": {
+        "preceded_by": [
+          "pol-cho-byeong-ok"
+        ],
+        "succeeded_by": [
+          "cand-r208-lee-soon-yong-interior1951"
+        ],
+        "legal_authority": [
+          "Ministerial appointment instrument not read"
+        ],
+        "observed_by": [
+          "Ministry of Interior and Safety retrospective roster"
+        ]
+      },
+      "evidenceDocumentIds": [
+        "doc-r208-mois-interior-minister-list"
+      ],
+      "attributionLimit": "공식 재임기간만 확인. 청주사건의 경찰 지휘·징계 개인 결재는 별도 원기록 필요",
+      "accessDate": "2026-10-28"
     }
   ]
 }
