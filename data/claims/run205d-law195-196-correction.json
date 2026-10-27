@@ -1,0 +1,61 @@
+{
+  "run": 205,
+  "extension": "d",
+  "correctionHistory": [
+    {
+      "claimId": "claim-r205b-02",
+      "previousStatus": "UNPROVEN",
+      "newStatus": "CONTRADICTED_AS_IMMEDIATE_EFFECT",
+      "date": "2026-10-27",
+      "why": "Original Law195 and Law196 both promulgated and effective 1951-05-12, not April30; no silent overwrite.",
+      "supportingDocuments": [
+        "doc-r205d-law195",
+        "doc-r205d-law196",
+        "doc-r205b-0430-0110",
+        "doc-r205b-0501-0050"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-r205d-01",
+      "statement": "1951-04-30 Assembly passage immediately abolished National Defense Corps in law",
+      "status": "CONTRADICTED",
+      "contradictingEvidence": [
+        "doc-r205d-law195",
+        "doc-r205b-0430-0110"
+      ],
+      "preciseConflict": "April30 Assembly vote versus May12 official promulgation/effect date"
+    },
+    {
+      "id": "claim-r205d-02",
+      "statement": "Emergency home-defense decree No9 was also repealed under Law195",
+      "status": "CONTRADICTED",
+      "contradictingEvidence": [
+        "doc-r205d-law196",
+        "doc-r205d-law195"
+      ],
+      "preciseConflict": "Distinct laws: Law195 repeals Defense Corps Act; Law196 repeals emergency home-defense decree9."
+    },
+    {
+      "id": "claim-r205d-03",
+      "statement": "May1 Defense Corps staff statement proves the Act had already ceased legal effect",
+      "status": "CONTRADICTED",
+      "contradictingEvidence": [
+        "doc-r205d-law195",
+        "doc-r205b-0501-0050"
+      ],
+      "preciseConflict": "May1 pre-promulgation statement is consistent with May12 law effect; physical compliance remains open."
+    },
+    {
+      "id": "claim-r205d-04",
+      "statement": "1951-05-12 legal repeal alone proves every Defense Corps unit immediately physically disbanded",
+      "status": "INSUFFICIENT",
+      "insufficientEvidence": [
+        "doc-r205d-law195",
+        "doc-r205d-law196"
+      ],
+      "preciseConflict": "Legal effect date is not an implementation roster or demobilization order."
+    }
+  ]
+}
