@@ -307,15 +307,39 @@
     {
       "id": "claim-r201-20",
       "statement": "Sae Sun Kim은 1950년 12월 장면 후임 주미대사로 실제 발령되었는가?",
-      "status": "OPEN",
-      "assessment": "Truman 대통령 일정표에는 후임이 될 것이라는 계획만 적혀 있음. AKS 우남C-6-1-0061은 Sae Sun Kim이 1950-04-11 이승만에게 서한을 보낸 기록물 색인, 실제 후임 임명·취임과는 무관. 발령원면 필요.",
+      "status": "NARROWED",
+      "assessment": "1950-12-06 트루먼 의전일지의 Sae Sun Kim 후임대사 예정은 실제 발령이 아님. 미 국무부 공식 의전목록은 다음 정식 신임장 대사를 양유찬으로 기재(1951-05-22 임명 표기, 06-06 신임장). 다만 Kim이 그 사이 임시대리대사(Chargé d'affaires)를 했는지는 이 명부만으로 배제 불가.",
       "supportingEvidenceDocumentIds": [
         "doc-r201-truman-calendar-19501206",
         "doc-r201-aks-rhee-0061",
-        "doc-r201-frus-989"
+        "doc-r201-frus-989",
+        "doc-r201-us-state-protocol-korea",
+        "doc-r201-aks-yang-biography"
       ],
       "contradictingOrQualifyingEvidenceDocumentIds": [],
-      "nextPrimaryTarget": "대한민국 1950-12~1951-01 주미대사 임명 관보, 외무부 인사기록, 미국 국무부 접수 의전서한",
+      "nextPrimaryTarget": "1950-12~1951-06 대한민국 대사관 직원록·외무부 대리대사 발령·미 국무부 diplomatic list monthly issues",
+      "reviewedAt": "2026-10-27",
+      "silentOverwriteForbidden": true,
+      "reviewHistory": [
+        {
+          "date": "2026-10-27",
+          "oldStatus": "OPEN",
+          "newStatus": "NARROWED",
+          "reason": "US Chief of Protocol official retrospective list names Yang You Chan, not Sae Sun Kim, as next accredited ambassador after Chang; 1950 Truman calendar describes only prospective plan."
+        }
+      ]
+    },
+    {
+      "id": "claim-r201-21",
+      "statement": "양유찬의 1951-04 임명(한국학중앙연구원)과 1951-05-22 미국 의전명부 임명·06-06 신임장 날짜는 서로 모순인가?",
+      "status": "NARROWED",
+      "assessment": "1951-04는 한국측 임명 보도, 미국 의전목록 05-22·06-06은 미국의 인정·신임장 단계일 수 있다. 정확한 절차 구분을 위해 한국 임명장과 미국 접수서한 원본 필요. 날짜를 동일 법률행위로 강제 일치시키지 않음.",
+      "supportingEvidenceDocumentIds": [
+        "doc-r201-us-state-protocol-korea",
+        "doc-r201-aks-yang-biography"
+      ],
+      "contradictingOrQualifyingEvidenceDocumentIds": [],
+      "nextPrimaryTarget": "대한민국 1951-04 양유찬 주미대사 임명장·미국 1951-05-22 accreditation letter·06-06 credentials ceremony",
       "reviewedAt": "2026-10-27",
       "silentOverwriteForbidden": true
     }
