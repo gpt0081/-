@@ -21,7 +21,7 @@
   "weeklyFullReviewPerformed": false,
   "actualOneHourElapsedVerified": false,
   "flootModified": false,
-  "warning": "53 contemporaneous source texts include press transcription, translated excerpt, later reprint of original law/order; not 53 original facsimiles.",
+  "warning": "54 contemporaneous source texts include press transcriptions, translated excerpts, and later reprints of original laws/orders; none are confirmed original facsimiles.",
   "blocked": [
     "1950 emergency decree 7 original gazette",
     "1950 decree 9 original gazette",
@@ -42,5 +42,52 @@
     "unlawful arrest penalty 3y preserved",
     "Act 145 promulgated Aug4 with Aug1 effective date officially confirmed"
   ],
-  "documentCountingCaveat": "58 substantive texts: 57 prior + one unofficial Wikisource transcription of 1950 decree7; 2 additional law.go.kr pages only metadata and excluded from substantive count."
+  "documentCountingCaveat": "58 substantive texts: 57 prior + one unofficial Wikisource transcription of 1950 decree7; 2 additional law.go.kr pages only metadata and excluded from substantive count.",
+  "primaryOriginRecordOrOfficialSpeechExcerptIds": [
+    "doc194-muccio-aug1-budget",
+    "doc194-warbook-decree7-repeal",
+    "doc194b-0801-0050",
+    "doc194b-0731-0060",
+    "doc194b-0802-0030",
+    "doc194b-0802-0040",
+    "doc194b-0802-0050",
+    "doc194b-0803-0040",
+    "doc194b-0803-0050",
+    "doc194b-0803-0070",
+    "doc194b-0803-0080",
+    "doc194b-0804-0020",
+    "doc194b-0804-0030",
+    "doc194b-0804-0040",
+    "doc194b-0804-0050",
+    "doc194b-0804-0060",
+    "doc194b-0804-0070",
+    "doc194b-0805-0020",
+    "doc194b-0805-0060",
+    "doc194b-0803-0100"
+  ],
+  "primaryOriginExcerptsCount": 20,
+  "primaryOriginCountQualification": "20 items authored by state officials, military commands, foreign diplomats/intelligence offices or official public speeches, preserved as Korean transcriptions/translated excerpts or later reprints. Not 20 original facsimiles, not 20 independently sourced claims.",
+  "graphIntegrityAudit": {
+    "documents": 55,
+    "events": 34,
+    "claims": 40,
+    "politicianOverlayEntries": 26,
+    "uniquePoliticianIds": 23,
+    "missingReferences": 0,
+    "duplicateDocumentIds": 0,
+    "duplicateDocumentUrls": 0,
+    "checkedDate": "2026-10-27"
+  },
+  "commitsBeforeFinalLedgerAudit": [
+    "1cd19bc3ad96cdacf198a136153bc52f4886fe1d",
+    "ef40d335870f4f03107d10c7a04f214ee0f9246c",
+    "a5948bb35db1a4eb50811b17459e892bf2c3abd3",
+    "7a4911fa29fbaa4d0012892b4e7aa1eaf559394d",
+    "095912abd08ebcfa0c9a0908eadb18c13635631a",
+    "0e87738fc307aeafd651eff27ef6d65f7c52f349",
+    "6cc8fcb55728e302a807f2f0b38108b3556b14e3",
+    "69059be1bdd6a9a5fd117b783422ee70b6b6a932",
+    "0f3147626df1f21934d1c6fe866fbddfc3fe0a66"
+  ],
+  "finalAuditCommit": "See current head of PR #45; self-referential commit SHA cannot be embedded into its own tree."
 }
