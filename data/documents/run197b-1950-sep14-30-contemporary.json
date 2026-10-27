@@ -1690,12 +1690,22 @@
       "originalLocation": "https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200300955166&rc_ritem_no=000000000001&sitePage=0-0-0",
       "institution": "ROK_NATIONAL_ARCHIVES",
       "provenanceFamily": "ROK_NATIONAL_ARCHIVES",
-      "sourceType": "OFFICIAL_ARCHIVAL_METADATA_ONLY",
+      "sourceType": "OFFICIAL_ORIGINAL_GAZETTE_FACSIMILE_RENDERED_AND_READ_BY_BROWSER_AGENT",
       "documentNumber": "BA0158845",
       "finding": "원문보기 뷰어 PDF 500/접근 불가, 원면 미열람",
-      "originalFacsimileViewed": false,
-      "substantiveTextViewed": false,
-      "accessDate": "2026-10-27"
+      "originalFacsimileViewed": true,
+      "substantiveTextViewed": true,
+      "accessDate": "2026-10-27",
+      "facsimileViewerUrl": "https://www.archives.go.kr/next/viewer/getPdfFile.do?rc_rfile_no=200300955166&rc_ritem_no=000000000001&type=P",
+      "facsimileReading": {
+        "article5ReferralPeriod": "10일",
+        "article6FineCurrency": "원",
+        "verification": "BROWSER_AUTOMATION_AGENT_RENDERED_ORIGINAL_PAGE_AND_READ",
+        "pageCount": 1,
+        "accessDate": "2026-10-27",
+        "runUrl": "https://agent.tinyfish.ai/runs/eac07ffe-e06e-4ffa-b995-581a37bd6f95"
+      },
+      "provenanceNote": "Original official gazette page read via browser agent. Independent corroboration: law.go.kr has 10일; NIKH reproduction has 원. The other variant in each transcription is not original."
     },
     {
       "id": "doc-r197b-bok-currency",
@@ -1747,9 +1757,10 @@
     "officialLegalFullText": 1,
     "bokInstitutionalRetrospective": 1,
     "nationalArchiveGazetteMetadataOnly": 1,
-    "originalFacsimiles": 0,
+    "originalFacsimiles": 1,
     "priorRun196b196cDuplicatesExcluded": 75,
     "strictOfficialOriginTexts": 31,
-    "compilationOfficialReprintsExcludedFromStrict": 10
+    "compilationOfficialReprintsExcludedFromStrict": 10,
+    "nationalArchiveGazetteOriginalPagesRead": 1
   }
 }

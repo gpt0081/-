@@ -24,6 +24,9 @@
 
 2026-10-27: [추가 보고서](data/research/runs/2026-10-27-run197b-report.md) · [국편 신규시기 98개](data/documents/run197b-1950-sep14-30-contemporary.json) · [37개 사건](data/events/run197b-1950-sep14-30-actions.json) · [18개 주장](data/claims/run197b-1950-legal-money-relief-claims.json) · [27명 기존 정치인/4 후보](data/politicians/run197b-1950-party-cabinet-military.json) · [42개 후속 원문](data/research/lead-queues/run197b-next.json). run197의 9/1~13 75개는 run196b/c 선등록 자료이므로 저장소 신규 0개로 정정. 9/25 법률146, 은행권교환, 구호예산 충돌, FRUS 9/26 초안과 9/29 승인 분리. Floot 미변경.
 
+
+**run197c 원면 교정**: 국가기록원 관보394호 법률146 1면을 브라우저 자동화 에이전트가 렌더링·판독한 결과 제5조 **10일**, 제6조 **원**. 법제처 온라인 백만환·국편 전사 10월과 차이를 필드별 보존. [대조기록](data/claims/run197c-law146-original-collation.json). 3개 호스트는 동일 기초법령이므로 독립 원문 3건으로 세지 않음.
+
 ## 최신 연구 실행 (Run194)
 
 2026-10-27: [Run194 보고서](data/research/runs/2026-10-27-run194-report.md) · [검증 가능한 실행계정](data/research/runs/2026-10-27-run194-ledger.json) · [문서 registry](data/documents/run194-1950-budget-defence-bok.json) · [주장·반증](data/claims/run194-1950-budget-defence-bok-claims.json) · [사건](data/events/run194-1950-budget-defence-bok-actions.json) · [정치인](data/politicians/run194-1950-cabinet-bok-local-actors.json) · [후속 18개 원문 표적](data/research/lead-queues/run194-next.json). 1950년 8월 공보처 예산 출처 차이, 긴급명령7 국회 승인 부결, 금융통화위원 정원 7인 교차검증을 기록. 출처 불일치와 인명·날짜 불확실성은 해소된 것처럼 처리하지 않음. Floot 미변경.

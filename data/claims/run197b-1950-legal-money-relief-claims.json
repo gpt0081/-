@@ -29,11 +29,12 @@
     {
       "id": "claim-r197b-02",
       "statement": "피난민수용법 제146호 제5조 관재위원회 회부 기한은 10개월이다",
-      "status": "CONFLICTED_TRANSCRIPTION",
-      "assessment": "국편 한국전란1년지 재수록 10월 vs 법제처 개정문 10일, 원관보 제394호 원면 필요",
+      "status": "CONTRADICTED",
+      "assessment": "국가기록원 관보 제394호 법률146 원면 자동 브라우저 판독 결과 10일. 법제처 10일과 일치, 국편 한국전란1년지 전사 10월은 원면과 불일치. 원면 이미지 판독은 브라우저 에이전트 보고로 한정.",
       "evidenceDocumentIds": [
         "doc-r197b-0925-06",
-        "doc-r197b-law-146"
+        "doc-r197b-law-146",
+        "doc-r197b-archives-146"
       ],
       "supportingEvidenceDocumentIds": [
         "doc-r197b-0925-06",
@@ -41,23 +42,37 @@
       ],
       "contradictingEvidenceDocumentIds": [
         "doc-r197b-0925-06",
-        "doc-r197b-law-146"
+        "doc-r197b-law-146",
+        "doc-r197b-archives-146"
       ],
       "insufficientEvidenceDocumentIds": [],
       "contemporaneousObservationDocumentIds": [
         "doc-r197b-0925-06"
       ],
       "laterFindingDocumentIds": [],
-      "accessDate": "2026-10-27"
+      "accessDate": "2026-10-27",
+      "correctionHistory": [
+        {
+          "date": "2026-10-27",
+          "previousStatus": "CONFLICTED_TRANSCRIPTION",
+          "newStatus": "CONTRADICTED",
+          "reason": "Official Gazette original facsimile rendered by browser agent shows 10일; independent official law.go.kr also 10일",
+          "sourceIds": [
+            "doc-r197b-archives-146",
+            "doc-r197b-law-146"
+          ]
+        }
+      ]
     },
     {
       "id": "claim-r197b-03",
       "statement": "1950-09-25 법률146 벌금단위는 백만원/백만환 어느 하나로 무조건 확정할 수 있다",
-      "status": "CONFLICTED_TRANSCRIPTION",
-      "assessment": "국편 재수록 100만원 vs 법제처 100만환, 1953 환 도입 전이라는 역사적 단위 충돌. 원관보 원면 대조",
+      "status": "NARROWED_ORIGINAL_READING",
+      "assessment": "관보 제394호 원면 자동 브라우저 판독은 벌금 '원'. 국편 전사 '100만원'과 일치. 법제처 현행 온라인 제개정문 '백만환'과 불일치하므로 1953 화폐단위 변환 또는 법제처 데이터 정규화 경위는 별도 검증.",
       "evidenceDocumentIds": [
         "doc-r197b-0925-06",
-        "doc-r197b-law-146"
+        "doc-r197b-law-146",
+        "doc-r197b-archives-146"
       ],
       "supportingEvidenceDocumentIds": [
         "doc-r197b-0925-06",
@@ -72,7 +87,15 @@
         "doc-r197b-0925-06"
       ],
       "laterFindingDocumentIds": [],
-      "accessDate": "2026-10-27"
+      "accessDate": "2026-10-27",
+      "correctionHistory": [
+        {
+          "date": "2026-10-27",
+          "previousStatus": "CONFLICTED_TRANSCRIPTION",
+          "newStatus": "NARROWED_ORIGINAL_READING",
+          "reason": "Original gazette facsimile agent reads 원; reason for law.go.kr 환 text unresolved"
+        }
+      ]
     },
     {
       "id": "claim-r197b-04",
