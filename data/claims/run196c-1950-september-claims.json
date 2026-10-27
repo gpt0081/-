@@ -139,18 +139,39 @@
     {
       "id": "claim-r196c-09",
       "statement": "9/08 피난민 수용 임시법 개정안은 당일 관보에 공포됐다",
-      "status": "INSUFFICIENT",
-      "analysis": "국무회의 개정결정과 관보 공포 구분",
+      "status": "CONTRADICTED",
+      "analysis": "9/08은 국무회의 개정결정 보도, 실제 법률 제146호 공포·시행은 1950-09-25. 9/25 국편 법령 전문 확보. 원관보 원면 미확인.",
       "evidenceDocumentIds": [
-        "doc-r196c-nikh-09_08_0090"
+        "doc-r196c-nikh-09_08_0090",
+        "doc-r196d-nikh-law-146"
       ],
       "supportingEvidenceDocumentIds": [],
-      "contradictingEvidenceDocumentIds": [],
+      "contradictingEvidenceDocumentIds": [
+        "doc-r196d-nikh-law-146"
+      ],
       "insufficientEvidenceDocumentIds": [
         "doc-r196c-nikh-09_08_0090"
       ],
       "contendingEvidenceDocumentIds": [],
-      "accessDate": "2026-10-27"
+      "accessDate": "2026-10-27",
+      "correctionHistory": [
+        {
+          "date": "2026-10-27",
+          "previous": {
+            "status": "INSUFFICIENT",
+            "analysis": "국무회의 개정결정과 관보 공포 구분",
+            "evidenceDocumentIds": [
+              "doc-r196c-nikh-09_08_0090"
+            ]
+          },
+          "changedTo": {
+            "status": "CONTRADICTED",
+            "analysis": "9/08은 국무회의 개정결정 보도, 실제 법률 제146호 공포·시행은 1950-09-25. 9/25 국편 법령 전문 확보. 원관보 원면 미확인."
+          },
+          "reason": "Later law no.146 promulgation date independently traced after initial insufficient-evidence record",
+          "newDocumentId": "doc-r196d-nikh-law-146"
+        }
+      ]
     },
     {
       "id": "claim-r196c-10",
