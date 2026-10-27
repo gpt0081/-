@@ -181,24 +181,6 @@
       "openLead": "L198-ACTOR-IDENTITY-AND-APPOINTMENT"
     },
     {
-      "id": "pol-kim-yun-geun",
-      "name": "김윤근",
-      "researchStatus": "UNCHANGED_EXISTING_CANONICAL",
-      "dateRange": "1950-10-22/31",
-      "periodRole": "1950-10-25 대한청년단 단장 선임",
-      "actionType": "PARTY_CIVIC_ORGANIZATION_ELECTION",
-      "evidenceDocumentIds": [
-        "doc-r198-1025-0130",
-        "doc-r198-1030-0100"
-      ],
-      "eventIds": [
-        "evt-r198-13"
-      ],
-      "aliasAndLifespan": "INHERIT_CANONICAL_REGISTRY_NOT_REVERIFIED",
-      "researchNote": "이번 문서로 행위 또는 기관맥락 연결. 발표·검토·집행·개인명령을 분리. 본문에 실명 없는 기관행위는 개인 직접행위로 귀속하지 않음.",
-      "openLead": "L198-ACTOR-IDENTITY-AND-APPOINTMENT"
-    },
-    {
       "id": "pol-chang-myon",
       "name": "장면",
       "researchStatus": "UNCHANGED_EXISTING_CANONICAL",
@@ -422,8 +404,50 @@
       "historyDebt": [
         "HD-R198-10"
       ]
+    },
+    {
+      "id": "cand-r198-kim-yun-geun-youth1950",
+      "name": "김윤근",
+      "aliases": [
+        "金潤根",
+        "Kim Yun-geun (romanization provisional)"
+      ],
+      "lifespan": {
+        "birth": null,
+        "death": null,
+        "verification": "NOT_VERIFIED"
+      },
+      "researchStatus": "DISCOVERED",
+      "periodRoles": [
+        {
+          "period": "1950-10-25",
+          "title": "대한청년단 부단장에서 단장 선출(신문 보도)",
+          "actionType": "YOUTH_ORGANIZATION_LEADERSHIP"
+        }
+      ],
+      "evidenceDocumentIds": [
+        "doc-r198-1025-0130",
+        "doc-r198-1030-0100"
+      ],
+      "eventIds": [
+        "evt-r198-13"
+      ],
+      "openLeads": [
+        "L198-32"
+      ],
+      "historyDebt": [
+        "HD-R198-11"
+      ],
+      "promotionReason": "1961 해병 지휘관 동명 김윤근(pol-kim-yun-geun)과 신원 동일성 미확인, 자동병합 금지"
     }
   ],
-  "nonPresidentExistingActors": 18,
-  "identityAndPromotionPolicy": "Do not automatically promote candidates or merge duplicate IDs; carry canonical aliases/lifespan from data/politicians.json and preserve provenance."
+  "nonPresidentExistingActors": 17,
+  "identityAndPromotionPolicy": "Do not automatically promote candidates or merge duplicate IDs; carry canonical aliases/lifespan from data/politicians.json and preserve provenance.",
+  "identityCollisionCorrection": {
+    "date": "2026-10-27",
+    "previousProvisionalLink": "pol-kim-yun-geun",
+    "correctedCandidate": "cand-r198-kim-yun-geun-youth1950",
+    "reason": "1950 대한청년단장 金潤根과 기존 1961 해병 지휘관 김윤근 동일인 증거 부재; 이명·시기만으로 병합 불가",
+    "silentOverwrite": false
+  }
 }

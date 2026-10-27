@@ -259,3 +259,12 @@ See `data/politicians/run113-prewar-network.json` for 12 sourced profiles. No ca
 ## 2026-10-27 · run197b 정당·재정·입법·군정 인물 overlay
 
 `data/politicians/run197b-1950-party-cabinet-military.json`: 기존 정치인 27명과 후보 4명(최창식 공병감·양정수 법무감·이종찬 3사단장·신상철 7사단장). 민주국민당 9/25 전국대회 신익희·지청천·김성수·백남훈·함상훈·김준연·최두선·나용균·서상일의 발언·낭독·의장 역할과 당론 구분. 원면·생몰·인사원부 미검증 후보 자동 승격 보류. 법률·통화·군정 cross-link: `data/events/run197b-1950-sep14-30-actions.json`.
+
+
+## Run198 (2026-10-27) · 1950-10-22~31 일상국정·행정·UN군정
+
+- 원문 전사 89건 + 법제처 대통령령391 + CIA 1950-10-30 원문 발췌, 사건 29개, 주장 20개를 교차 연결. 상세 `data/documents/run198-oct22-31-contemporary.json`, `data/events/run198-oct22-31-state-actions.json`, `data/claims/run198-october-adversarial.json`.
+- 기존 비대통령 17명 실질 보강: 최순주·이기붕·이익흥·양성봉·김태선·조병옥·백낙준·윤영선·이범석·신성모·장면·손원일·임정득·오진환·신익희·이윤영·김석관. **기관맥락만인 김석관과 신원 불확실 이윤영은 개인 직접명령으로 귀속 금지.**
+- 신규 DISCOVERED 4명: 김창룡(합동수사), 이정일(8사단 군령), 장두관(경남 계엄민사), 김윤근(1950 대한청년단장). 생몰·임명원부·한자 일부 미확인, VERIFIED 승격 0.
+- **신원교정**: 기존 `pol-kim-yun-geun`은 1961 해병지휘관 기록. 1950 청년단장 金潤根과 동일인임이 입증되지 않아 `cand-r198-kim-yun-geun-youth1950` 별도 후보. `data/politicians/run198-october-actor-network.json`의 correctionHistory를 참조. 기존 이범석 중복 ID도 병합하지 않음.
+- 독립 비대통령 실록 `data/annals/nonpresidential-october-run198.md`; 대통령 실록 `data/annals/rhee-syngman-run198.md`. 연구상태 점수·정치적 평가 없음.
