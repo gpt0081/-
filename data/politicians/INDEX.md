@@ -294,3 +294,8 @@ Run202 12/15~17 후속 행위자: 이시영(`pol-r189-lee-si-yeong`), 이진수(
 ## Run205b · 1951년 4~5월 국회·내각·행정 정치인 20명
 
 data/politicians/run205b-assembly-cabinet-actors.json: 김준연·조병옥·신성모·김종회·서민호·엄상섭·이재형·최국현·박철웅·황성수·김태선·손원일·박만원 등 기존 stable ID 심화, 김의준·박경구·김종순·장홍염·김정식·이상철 등 후보 식별. 1951 국민방위군사령관 金潤根은 1961 해병지휘관 pol-kim-yun-geun과 신원 병합하지 않는다. 생몰·인사원부·원속기록 검증 전 신규 정식 승격 없음.
+
+
+## Run205e · 1951-05-22 농정·재정·사법 인물
+
+data/politicians/run205e-may22-governance-actors.json: 장면(pol-chang-myon), 백두진(pol-paik-too-chin), 임문환(pol-r175-im-mun-hwan), 이재형 등 기존 인물의 구체적 부서·담화·표결 심화. 백남식·태완선·홍창섭·우문·정인승·김효섭을 개별 candidate로 식별. 우문(禹文)처럼 짧은 이름은 동명이인 합병 금지. 각 인물은 원문 ID·행위 유형·생몰 미검증·다음 조사원부를 보유.
