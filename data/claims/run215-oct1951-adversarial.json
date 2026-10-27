@@ -9,10 +9,9 @@
       "id": "claim-r215-01",
       "statement": "1951-10-01 조건부 수락 즉시 10/01 현금 지급 완료",
       "status": "CONTRADICTED",
-      "supportingEvidence": [
-        "doc-r215-frus-d605"
-      ],
+      "supportingEvidence": [],
       "contradictingEvidence": [
+        "doc-r214-frus-d605",
         "doc-r215-frus-d625"
       ],
       "insufficientEvidence": [],
@@ -23,6 +22,11 @@
         {
           "date": "2026-10-28",
           "action": "DOCUMENT_ADVERSARIAL_REVIEW"
+        },
+        {
+          "date": "2026-10-28",
+          "action": "CORRECTION",
+          "note": "Replace invalid run215 d605 document reference with actual run214 d605; 10/1 conditional acceptance does not support same-day delivery."
         }
       ]
     },
