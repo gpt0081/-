@@ -2081,3 +2081,12 @@ Run202 12/15~17 추가: [HD-R202-20~24](history-debt/run202.md) 국민방위군�
 - **HD-R204-05 OPEN:** NIKH Rhee correspondence le_003_0300, le_003_0480, le_003_0730, le_003_1480 cataloged. Original image contents, delivery and recipient response unverified.
 - **HD-R204-06 NARROWED:** FRUS d169 1951-03-17 records Clarence Ryee draft handoff and reports language differences; Cabinet discussion and causal attribution are Muccio inference, not proven government orders. Target ROK 1951-03-13 cabinet minutes and 1951-03-15 bilingual releases.
 - Revisited L203D-01/02/03/04/05/06/08/10 without forced RESOLVED. **역사부채 주간 전수조사 미실시** (Tuesday Asia/Seoul). `last_full_review` unchanged.
+
+### 2026-10-27 run204b normal-governance targeted leads (NOT weekly full review)
+
+- **HD-R204-07 OPEN:** 1951-01-17 전시 예금인출 무제한 담화(민주신보)와 실제 은행 지급실적 구분. 한국은행·재무부 지시 및 1951-01-05 대체지급 특별조치령 원문 확인.
+- **HD-R204-08 OPEN:** 백낙준 1951-01-26 전시 개학·전시독본 계획과 1951-02-10 실제 학교 개학·배포 실적 분리.
+- **HD-R204-09 OPEN:** 1951-01-18 국회 귀속재산소청심의회 후보 **金秀學**과 기존 canonical **金洙鶴**의 한자 충돌. `cand-r200b-kim-su-hak`과 `pol-r164-kim-su-hak` 자동 병합 금지.
+- **HD-R204-10 OPEN:** 김준연 1951-04-26 거창사건 관련 사임 요청 자기진술. 1951-04-24 국무회의록과 4월25일 서면사표 미확인; 대통령 직접명령 확정 보류.
+- **HD-R204-11 OPEN:** 농림부 1951-11-01 비료-식량 교환요강의 실물 배급 여부, 1949-03-16 대통령비서실 양곡지시 AA0000032-0001 원면 검증.
+- **역사부채 주간 전수조사 미실시** (Tuesday); last_full_review unchanged.
