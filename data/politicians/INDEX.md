@@ -246,3 +246,8 @@ See `data/politicians/run113-prewar-network.json` for 12 sourced profiles. No ca
 ## 2026-10-27 · run197 전시 국정·국회·복지·치안 정치인 overlay
 
 `data/politicians/run197-1950-september-actor-network.json`: 기존 stable ID 정치인 25명(대통령 1명 포함)의 1950-09-01~11 시기별 행위·문서·사건 연결과 별도 후보 4명(헌병 이윤영 소령, 서상덕 의원, 손창섭 징병책임관, 선전위원 박종만). 이윤영 사회부장관과 헌병소령의 한자 동명, 박종만 3역할 충돌을 병합하지 않는다. 생몰·당적·임명원부 미검증이면 자동 VERIFIED/MATURE 승격하지 않는다. 원문 목록 `data/documents/run197-1950-september-contemporary.json`, 사건 `data/events/run197-1950-september-governance.json`, 부채 `data/research/HISTORY_DEBT.md`, 후속 `data/research/lead-queues/run197-next.json`.
+
+
+## 2026-10-27 · run197b 정당·재정·입법·군정 인물 overlay
+
+`data/politicians/run197b-1950-party-cabinet-military.json`: 기존 정치인 27명과 후보 4명(최창식 공병감·양정수 법무감·이종찬 3사단장·신상철 7사단장). 민주국민당 9/25 전국대회 신익희·지청천·김성수·백남훈·함상훈·김준연·최두선·나용균·서상일의 발언·낭독·의장 역할과 당론 구분. 원면·생몰·인사원부 미검증 후보 자동 승격 보류. 법률·통화·군정 cross-link: `data/events/run197b-1950-sep14-30-actions.json`.

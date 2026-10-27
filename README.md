@@ -19,6 +19,11 @@
 
 2026-10-27: [실행보고서](data/research/runs/2026-10-27-run197-report.md) · [검증 장부](data/research/runs/2026-10-27-run197-ledger.json) · [국편 개별본문 75개 문서 registry](data/documents/run197-1950-september-contemporary.json) · [33개 사건](data/events/run197-1950-september-governance.json) · [25명 기존 인물 및 4 후보](data/politicians/run197-1950-september-actor-network.json) · [17개 주장·반증](data/claims/run197-1950-september-adversarial-claims.json) · [45개 다음 원문 표적](data/research/lead-queues/run197-next.json). 21개 공식/1차 기원 전사, 원면 0. 국회 법안통과와 공포, 내각결정과 집행, 미·소 상반주장, 동명이인 충돌을 분리. Floot 미변경.
 
+
+## Run197b · 9월 14~30일 신규 98개 원문 및 법률·금융 원문 대조
+
+2026-10-27: [추가 보고서](data/research/runs/2026-10-27-run197b-report.md) · [국편 신규시기 98개](data/documents/run197b-1950-sep14-30-contemporary.json) · [37개 사건](data/events/run197b-1950-sep14-30-actions.json) · [18개 주장](data/claims/run197b-1950-legal-money-relief-claims.json) · [27명 기존 정치인/4 후보](data/politicians/run197b-1950-party-cabinet-military.json) · [42개 후속 원문](data/research/lead-queues/run197b-next.json). run197의 9/1~13 75개는 run196b/c 선등록 자료이므로 저장소 신규 0개로 정정. 9/25 법률146, 은행권교환, 구호예산 충돌, FRUS 9/26 초안과 9/29 승인 분리. Floot 미변경.
+
 ## 최신 연구 실행 (Run194)
 
 2026-10-27: [Run194 보고서](data/research/runs/2026-10-27-run194-report.md) · [검증 가능한 실행계정](data/research/runs/2026-10-27-run194-ledger.json) · [문서 registry](data/documents/run194-1950-budget-defence-bok.json) · [주장·반증](data/claims/run194-1950-budget-defence-bok-claims.json) · [사건](data/events/run194-1950-budget-defence-bok-actions.json) · [정치인](data/politicians/run194-1950-cabinet-bok-local-actors.json) · [후속 18개 원문 표적](data/research/lead-queues/run194-next.json). 1950년 8월 공보처 예산 출처 차이, 긴급명령7 국회 승인 부결, 금융통화위원 정원 7인 교차검증을 기록. 출처 불일치와 인명·날짜 불확실성은 해소된 것처럼 처리하지 않음. Floot 미변경.

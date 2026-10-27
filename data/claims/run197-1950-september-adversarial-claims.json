@@ -5,17 +5,22 @@
     {
       "id": "claim-r197-01",
       "statement": "1950-09-08 국무회의 결정은 즉시 법률 공포·민간주택 강제수용을 의미한다",
-      "status": "INSUFFICIENT",
-      "assessment": "결정·개정안 전사와 9/10 건물등록 공고는 있으나 관보 공포일·법률번호·개별 명령 미확인",
+      "status": "CONTRADICTED",
+      "assessment": "9/8 cabinet decision is not promulgation; 9/18 assembly passed, 9/25 law no.146 promulgated and effective. Actual housing requisitions still unverified.",
       "evidenceDocumentIds": [
         "doc-r197-090809",
-        "doc-r197-091003"
+        "doc-r197-091003",
+        "doc-r197b-0918-07",
+        "doc-r197b-0925-06",
+        "doc-r197b-law-146"
       ],
       "supportingEvidenceDocumentIds": [
         "doc-r197-090809",
         "doc-r197-091003"
       ],
-      "contradictingEvidenceDocumentIds": [],
+      "contradictingEvidenceDocumentIds": [
+        "doc-r197b-law-146"
+      ],
       "insufficientEvidenceDocumentIds": [
         "doc-r197-090809",
         "doc-r197-091003"
@@ -27,7 +32,15 @@
       "laterFindingDocumentIds": [],
       "accessDate": "2026-10-27",
       "adversarialChecked": true,
-      "provenanceWarning": "국편 FRUS 번역과 FRUS 영문은 동일 원기록; 국편 신문 전사는 원지면 미열람"
+      "provenanceWarning": "국편 FRUS 번역과 FRUS 영문은 동일 원기록; 국편 신문 전사는 원지면 미열람",
+      "correctionHistory": [
+        {
+          "date": "2026-10-27",
+          "previousStatus": "INSUFFICIENT",
+          "newStatus": "CONTRADICTED",
+          "reason": "1950-09-25 law 146 official full text and 9/18 assembly report located"
+        }
+      ]
     },
     {
       "id": "claim-r197-02",
