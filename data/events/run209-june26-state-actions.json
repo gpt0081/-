@@ -727,7 +727,8 @@
       "title": "양유찬 주미대사 한국정부 휴전 5개항 전달",
       "domain": "foreign-affairs",
       "actorIds": [
-        "pol-yang-yu-chan"
+        "pol-yang-yu-chan",
+        "cand-r209-han-pyo-wook"
       ],
       "actionEdges": {
         "delivered_by": [
@@ -735,6 +736,9 @@
         ],
         "responded_by": [
           "Dean Rusk"
+        ],
+        "attended_by": [
+          "cand-r209-han-pyo-wook"
         ]
       },
       "evidenceDocumentIds": [
@@ -1099,6 +1103,95 @@
         "doc-r209-dh_022-1951_07_01-0070"
       ],
       "attributionLimit": "대회 개최와 '전국민 의사' 대표성·참가자 수는 구분",
+      "accessDate": "2026-10-28"
+    },
+    {
+      "id": "evt-r209-52",
+      "date": "1951-06-30",
+      "title": "유엔 법률고문 Feller 유엔군사령부 정전협정 체결권 법률의견",
+      "domain": "international-law",
+      "actorIds": [],
+      "actionEdges": {
+        "authored_by": [
+          "UN legal adviser Abraham Feller"
+        ],
+        "transmitted_by": [
+          "US Deputy Representative Gross"
+        ],
+        "legal_authority": [
+          "UN Security Council resolutions 25 June,27 June,7 July 1950"
+        ]
+      },
+      "evidenceDocumentIds": [
+        "doc-r209-frus51v7p1-d395"
+      ],
+      "attributionLimit": "유엔 사무국 법률검토 의견, 안보리의 신규 결의·법원 판결이 아님",
+      "accessDate": "2026-10-28"
+    },
+    {
+      "id": "evt-r209-53",
+      "date": "1951-06-30",
+      "title": "한표욱 주미대사관 1등서기관 양유찬·러스크 면담 참석",
+      "domain": "foreign-affairs-personnel",
+      "actorIds": [
+        "cand-r209-han-pyo-wook",
+        "pol-yang-yu-chan"
+      ],
+      "actionEdges": {
+        "attended_by": [
+          "cand-r209-han-pyo-wook",
+          "pol-yang-yu-chan"
+        ],
+        "spoke_by": [
+          "pol-yang-yu-chan",
+          "Dean Rusk"
+        ]
+      },
+      "evidenceDocumentIds": [
+        "doc-r209-dh_021-1951_06_30-0020"
+      ],
+      "attributionLimit": "한표욱 참석은 확인, 개인 정책 발언·결정은 확인 안 됨",
+      "accessDate": "2026-10-28"
+    },
+    {
+      "id": "evt-r209-54",
+      "date": "1951-07-02",
+      "title": "릿지웨이 공산측 회답의 협상 개시 즉시 전투중지 해석에 반대",
+      "domain": "armistice-process",
+      "actorIds": [],
+      "actionEdges": {
+        "assessed_by": [
+          "Matthew Ridgway"
+        ],
+        "requested_approval_from": [
+          "US Joint Chiefs of Staff"
+        ]
+      },
+      "evidenceDocumentIds": [
+        "doc-r209-frus51v7p1-d399"
+      ],
+      "attributionLimit": "리지웨이의 해석·정보판단과 공산측 실제 의도 구분",
+      "accessDate": "2026-10-28"
+    },
+    {
+      "id": "evt-r209-55",
+      "date": "1951-07-02",
+      "title": "릿지웨이 김일성·팽덕회 북경방송 회답 원문 JCS 전달",
+      "domain": "armistice-process",
+      "actorIds": [],
+      "actionEdges": {
+        "transmitted_by": [
+          "Matthew Ridgway"
+        ],
+        "attributed_to": [
+          "Kim Il-sung",
+          "Peng Dehuai"
+        ]
+      },
+      "evidenceDocumentIds": [
+        "doc-r209-frus51v7p1-d398"
+      ],
+      "attributionLimit": "북경방송 전재본, 서명된 공산측 원공문 미확보",
       "accessDate": "2026-10-28"
     }
   ]
