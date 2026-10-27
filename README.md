@@ -205,3 +205,6 @@ Run211 법제처 후속 확인: 국민의료법은 1951-09-25 법률 제221호�
 ## Run213 · 1951년 8월 말~9월 정전·국정 원문 반증 (2026-10-28)
 
 [보고](data/research/runs/2026-10-28-run213-report.md) · [문서 71건](data/documents/run213-augsep-source-registry.json) · [30개 사건](data/events/run213-augsep-actions.json) · [32개 반증](data/claims/run213-adversarial.json) · [11개 정치인 연결](data/politicians/run213-augsep-actor-network.json) · [51개 원문 표적](data/research/lead-queues/run213-next.json). 1951-08-24 정부조직법 1독회 미결, 전력 1,000kW 합계 충돌, 1951-09-10 유엔군 개성 오폭 인정, 미 국무·국방부 포로·원화계정 이견을 원문으로 분리. FRUS 편집원문 40건은 미국 단일 provenance 계열, 원면 이미지 0건. Floot 미변경.
+
+### Run213 후반: 1951년 8월25~31일 신당·국정·경제 대량채굴
+[최종 보고](data/research/runs/2026-10-28-run213-final-report.md) · [누적 107문서 실행원장](data/research/runs/2026-10-28-run213-final-ledger.json) · [추가 36문서](data/documents/run213-aug25-31-addendum.json) · [추가 27사건](data/events/run213-aug25-31-actions.json) · [추가 21반증](data/claims/run213-aug25-31-adversarial.json) · [통합 72개 원문 표적](data/research/lead-queues/run213-final-next.json). 이승만 8/25 신당 후원·실무비개입 발언, 부산일보 8/17 준비회합, 미국 대사관의 이범석 주도 보고를 **서로 다른 세 출처계열로 대조**했으나 지휘관계 미확정. 8/29 정부조직법 1독회 지속·전시 재정·주택·노동·교육·피난민·농정도 보강. Floot 미변경.

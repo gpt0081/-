@@ -338,3 +338,6 @@ Run212 8/11~15 후속으로 [계엄 공고 국무위원·이종찬·김종원·�
 
 ### Run213 (2026-10-28)
 [11명 정치인·후보 증거 연결](run213-augsep-actor-network.json) · [행위별 근거](../evidence/politicians/run213-augsep-evidence.json) · [국정·외교·사법 사건](../events/run213-augsep-actions.json). 직접 발언/행위 7명과 기관 맥락만 4명을 분리하며 무근거 승격하지 않는다.
+
+### Run213 후반 1951-08-25~31
+[신규 후보 8명·기존 인물 심화](run213-aug25-31-actor-network.json) · [신당 준비회합 네트워크](../events/run213-aug25-31-actions.json) · [미대사관·대통령·언론 3계열 비교](../research/runs/2026-10-28-run213-final-report.md). 1951-08-17 준비회합 참석을 정식 창당·정당가입으로 오인하지 않는다.
