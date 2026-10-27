@@ -374,3 +374,7 @@ Run212 8/11~15 후속으로 [계엄 공고 국무위원·이종찬·김종원·�
 ## Run221b · 1952년 1월 국회·지방정치인 확대
 - data/politicians/run221b-jan1952-actors.json: 22개 행위자 노드(대통령 포함), 신규 후보 곽태진·백남식·변광호·이춘기·김정두·김성화 6명. 김성화 한자는 원문 미확인으로 보류.
 - 공식법령·개헌안 표결·국회/농정/노동 사건은 run221b document/claim/event/evidence에 연결. 별도 후보 승격은 공식 임명·생몰 확인 뒤.
+
+## Run221c: 국회 상임위원장·장관·노동쟁의 정치인
+- data/politicians/run221c-jan1952-actors.json: 기존 stable/candidate 26명 증거 심화. 상임위원장 선거, 조선방직 국회질의, 조병창 군법회의 무죄 보고, 내무장관 인사·고문근절 발언을 독립 event로 연결.
+- data/documents/run221c-jan1952-oversight-industry.json / data/events/run221c-oversight-industry-actions.json / data/claims/run221c-adversarial.json / data/evidence/politicians/run221c-evidence.json.
