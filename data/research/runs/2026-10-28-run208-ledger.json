@@ -55,11 +55,11 @@
   "weeklyFullHistoryDebtReview": "역사부채 주간 전수조사 미실시",
   "flootTouched": false,
   "limitations": [
-    "US FRUS 41-page cluster shares one archival compilation; no original facsimiles",
-    "Korean Cabinet minutes, 1951 National Assembly secret-session roster and June7 US Senate transcript not read",
-    "10 nonpresidential people researched/contextualized, but only 8 have substantive new evidence beyond tenure",
-    "22 independent lines include 3 distinct identity-verification lines; full three-independent-primary-family claim verification remains 0",
-    "Some prior leads narrowed by official election results, others still blocked on original National Assembly records"
+    "All FRUS 41 pages from one US archival compilation; translation is derivative not independent",
+    "No original facsimiles; no Korean Cabinet minutes or 1951 Assembly secret-session roster",
+    "10 nonpresidential actors researched, 8 substantively deepened, 2 office-tenure only",
+    "22 independent lines, but no strict three-independent-primary-family completed verification",
+    "9 prior leads followed, 5 with new source narrowing and 4 original targets still unavailable"
   ],
   "derivativeTranslationPagesNotIndependent": 1,
   "corrections": [
@@ -80,5 +80,18 @@
   ],
   "laterSecondaryDocuments": 4,
   "crossFamilyPartialChecks": 3,
-  "nonPresidentKoreanActorsResearchedOrContextualized": 10
+  "nonPresidentKoreanActorsResearchedOrContextualized": 10,
+  "priorLeadsActuallyInvestigated": 9,
+  "priorLeadsNarrowedOrNewEvidence": 5,
+  "priorLeadsOriginalUnlocated": 4,
+  "historicalDebtStatusTransitions": [
+    {
+      "id": "HD-R206D-03",
+      "from": "OPEN",
+      "to": "NARROWED",
+      "reason": "1950 NEC Pyeongchang 李鍾郁 and AKS monk Lee Jong-uk biography cross-check; 1951 caucus original still unverified"
+    }
+  ],
+  "commitStatus": "all new overlays and main debt/index synchronized",
+  "validation": "All local event/claim/politician document references and event IDs checked; no missing references"
 }

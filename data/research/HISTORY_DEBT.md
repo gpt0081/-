@@ -2220,7 +2220,7 @@ data/research/history-debt/run205e-may22.md의 HD-R205E-01~11 참조. 법률 제
 ### Run206d 대통령 경제정책·정전담화 날짜부채 (2026-10-27)
 - `HD-R206D-01` **CONFLICTED**: 1951 파철수출 6/7 발표 vs 9/25 대통령 직접지시 날짜. 국가기록원 연표 6/7, AA0000411 해제 9/25. 다른 단계일 수 있음. 다음 L206d-04.
 - `HD-R206D-02` **CONFLICTED**: 1951 정전설 중대성명 6/25 연표 vs 6/27 원고. AA0000653 대통령비서실 6/27 원고 해제, 6/25 연표 사건. 다음 L206d-03.
-- `HD-R206D-03` **OPEN**: 이종욱 李鍾郁 1884-1969 vs 1951 공화민정회 대표간사 동일인. AKS confirms 1950 Pyeongchang Assembly and 1951 Liberty Party, but does not identify May29 caucus; canonical 李宗郁 mismatch. 다음 L206d-09.
+- `HD-R206D-03` **NARROWED (2026-10-28 review; formerly OPEN)**: 이종욱 李鍾郁 1884-1969 vs 1951 공화민정회 대표간사 동일인. AKS confirms 1950 Pyeongchang Assembly and 1951 Liberty Party, but does not identify May29 caucus; canonical 李宗郁 mismatch. 다음 L206d-09.
 - 주간 전수조사 미실시, last_full_review 유지.
 
 
@@ -2254,5 +2254,5 @@ data/research/history-debt/run205e-may22.md의 HD-R205E-01~11 참조. 법률 제
 
 ### Run208 1950 선관위 원표로 신원충돌 범위 축소 (2026-10-28)
 - 기존 `HD-R207-04` **CONFLICTED 유지·범위 축소**: 1950 선관위 고창갑 金秀學, AKS 金秀學(1896~1967)·재경위원장 경력 확인. canonical `pol-r164-kim-su-hak` 金洙鶴 원증거·1951 조사위원 원명부 미확보. `L208-41`.
-- 기존 `HD-R206D-03` **OPEN→NARROWED 제안, 원문 대기**: 1950 선관위 평창 李鍾郁 67세 승려 당선, AKS 1884~1969 승려 이종욱·평창 당선 경력 부합. 그러나 1951 공화민정회 간사 원서명 없으므로 canonical 李宗郁 병합 금지. `L208-42`.
+- 기존 `HD-R206D-03` **OPEN→NARROWED 변경, 원문 대기**: 1950 선관위 평창 李鍾郁 67세 승려 당선, AKS 1884~1969 승려 이종욱·평창 당선 경력 부합. 그러나 1951 공화민정회 간사 원서명 없으므로 canonical 李宗郁 병합 금지. `L208-42`.
 - 소선규 蘇宣奎 1950 익산갑 민국당 당선 확인, 1951 6/2 법안 원속기록 필요. **역사부채 주간 전수조사 미실시**. last_full_review 변경 없음.

@@ -154,3 +154,5 @@ Floot는 조사 저장소가 아니라 충분히 축적된 데이터를 보여�
 [실행보고](data/research/runs/2026-10-28-run208-report.md) · [FRUS 원문 41개 + 국편 3개](data/documents/run208-1951-june-frus-d318-d358.json) · [17개 사건](data/events/run208-1951-june-diplomacy-fiscal-actions.json) · [18개 주장·반증](data/claims/run208-1951-june-adversarial.json) · [한국인 정치·외교관 5명 연결](data/politicians/run208-1951-june-korean-actors.json) · [다음 36개 원문 표적](data/research/lead-queues/run208-next.json). 영문 FRUS 수입가격 최저 6,000원 vs 국편 번역 최고 6,000원 **의미 반전**과 공식환율 22,500/2,500원 충돌을 미해결로 보존. 원면 0건·3계열 교차검증 0건. Floot 미변경.
 
 Run208 후속: [AKS·ODA Korea 환율 대조 및 외교사료관 원표 표적](data/research/runs/2026-10-28-run208-report.md) 추가. 1951년 5월 대충자금 6000원 책정, 6월 미국대사 승인 보고, 11월 일반시세 적용은 **동일한 단일 결정으로 병합 금지**. 환율 22500/2500 충돌과 국편 영한 번역 하한/상한 역전은 유지.
+
+Run208 최종 검증: **51개 열람 페이지·50개 근원문서/저작, 23개 사건, 25개 주장·반증, 비대통령 10명 조사(실질 심화 8), 후속 표적 42개, 커밋 6개**. `HD-R206D-03` OPEN→NARROWED, `HD-R207-04` CONFLICTED 유지. 상세는 [최종 실행 계정](data/research/runs/2026-10-28-run208-ledger.json).
