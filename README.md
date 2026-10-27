@@ -175,3 +175,5 @@ Run209 추가 시기 검증: 말리크 6/23 연설 **이전**인 6/5 국회 정�
 ## Run210 · 1951년 7월 2~7일 전시군법·농정·UNKRA 지휘권 감사
 
 [실행보고](data/research/runs/2026-10-28-run210-report.md) · [48개 직접열람 페이지](data/documents/run210-july02-07-source-registry.json) · [24개 사건](data/events/run210-july02-07-governance-actions.json) · [17개 반증](data/claims/run210-july02-07-adversarial.json) · [43개 원문표적](data/research/lead-queues/run210-next.json). 육본훈령191의 7/10 직결처분권 취소, UNKRA/UNC 전시 지휘권 분리, 하곡수집 지역합계 충돌을 보존. 엄격한 3계열 원문 완결 0, Floot 미변경.
+
+Run210 후속 확장: 최초 48개 원문 이후 FRUS 7/8~11 9개 추가 직접 열람, 합계 **57개**. 7/11 Hickerson→Kingsley UNC-UNKRA 2단계 권한안, 7/10 Acheson 특별계정 달러 방출 건의, 7/10 JCS95977 작전권한, 7/8~10 정전회담 합의·불일치를 사건 그래프에 추가. [실행보고](data/research/runs/2026-10-28-run210-report.md).
