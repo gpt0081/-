@@ -233,3 +233,19 @@ See `data/politicians/run113-prewar-network.json` for 12 sourced profiles. No ca
 - 독립 인물 보충 실록: `data/annals/lee-beom-seok-run193-fiscal.md`, `data/annals/ahn-jae-hong-run193-caucus.md`.
 - 증거·사건·주장: `data/documents/run193-1950-caucus-budget-bank.json`, `data/events/run193-1950-parliament-fiscal-actions.json`, `data/claims/run193-1950-party-budget-claims.json`.
 - 6/26 신문상 교섭단체 가입·연합은 공식 당적과 별개. 8/1 예산표 금액은 원표 확보 전 신문 전사 수치임.
+
+
+## Run196 · 1950-08-17~09-01 외교·내각이전 인물 관계
+`data/politicians/run196-1950-actor-crosslinks.json`에서 기존 인물 10명(비대통령 9명)을 재연결했다. FRUS d441의 직책명만으로 신성모·조병옥·임병직 개인의 원결재를 확정하지 않는다. 신규 승격 없음.
+
+
+### Run196 신원충돌 유보
+`cand-r196-park-jong-man-assembly` (1950-08-17 국회사무총장으로 무초 보고)와 `cand-r195b-19` (1950-08-09 대한통신 사장 보도)는 동일한 '박종만' 이름이나 개인 동일성 미확인. `IDCOL-R196-01`로 자동병합 금지. `cand-r195e-02` 김준태도 국회 원속기록 대기.
+
+
+### Run196B · 1950-08-22~09-07 국편 국내행정·전시선전대책위원회
+`data/politicians/run196b-1950-domestic-actors.json`: 기존 24명(비대통령 23)의 동시대 실명발언·위원명단 연결, 새 후보 이윤영 헌병대장 소령은 사회부장관 동명이인 여부 미확인. 김도연/이범석 중복 canonical ID는 자동 통합하지 않았다. 개인 참석·표결·법원유죄 추정 금지.
+
+
+### Run196C · 9월 헌법위원·UN대표단·여성의용군
+`data/politicians/run196c-1950-september-actors.json` 기존 인물 27명, 신규 후보 손창섭·박승하 DISCOVERED. 임병직·장면·장택상·김동성·임영신·황성수 UN대표단은 후보→국회/정부 갈등→공식임명으로 분리.

@@ -1873,3 +1873,47 @@ Run180에서 기존 부채 8건(`HD-R95-005/006/007`, `HD-R107-02`, `HD-R170-LAN
 - **HD-R195D-ECA · 자코나 발전선 계획치 차이**: `CONFLICTED_PROJECTION`. 8/15 경남위원회 1만kW 예상 vs 8/20 김훈 2만kW 계획, 실제 발전량 미확인.
 - **HD-R195D-RICE · 부산 쌀값**: `NARROWED`. 8/6·8/11 2립 470원으로 안정했으나 8/19·8/21 650원으로 상승, 같은 시장·단위. 이전 안정 설명은 8/11까지만 유효.
 - **HD-R195E-KIM-JONG-WON · 헌병대장 한자 표기**: `CONFLICTED_TRANSCRIPTION`. 8/17 기사 제목 金宗元·본문 金完元, 8/18 기사 金宗元. 원지면·군 인사대장 확인.
+
+
+## Run196 (2026-10-27, 화요일, 개별 추적만)
+- HD-R195-03 [NARROWED]: d441 cabinet Aug17 agreement vs d447 Aug18 movement. 다음 원문: Cabinet original order and departmental train roster.
+- HD-R195E-DAEGU-EVAC [CONFLICTED]: d447 governor handbill and US Army protest; ministerial statements still diverge. 다음 원문: Governor original handbill and correction.
+- HD-R195-NAJIN [CONFLICTED]: d453 no logistics confirmation vs d454 Defense military target assertion. 다음 원문: JCS target order and intelligence imagery.
+- HD-R195-UNCOK [NARROWED]: d452 committee draft, d467 Soviet objection, d470 UNCOK statement deferral. 다음 원문: S/PV.488-490 and UNCOK minutes.
+- HD-R195-38PARALLEL [NARROWED]: d457/466/479/481 competing drafts, d482/484 UN direction. 다음 원문: NSC decision and MacArthur order.
+- HD-R195E-REQUISITION [OPEN_UNCHANGED]: No new compensation payment record in US FRUS batch. 다음 원문: 1950-08-21 decree 381 and compensation ledger.
+- HD-R195D-ECA [OPEN_UNCHANGED]: No Jacona generating record in US FRUS batch. 다음 원문: ECA procurement and generation logs.
+- HD-R195E-PERSON-KIM-DONG-SAN [OPEN_UNCHANGED]: No CIC case judicial finding in reviewed records. 다음 원문: CIC detention and prosecutor case file.
+주간 전수조사 미실시. last_full_review 불변. 자세한 자료 data/research/runs/2026-10-27-run196-debt-tracking.json.
+
+
+### Run196 추가 신원부채: HD-R196-PARK-JONG-MAN (OPEN)
+1950-08-09 대한통신 사장 박종만과 1950-08-17 국회사무총장 박종만의 이름 충돌. 동명이인/동일인/오보 판단 보류. 원문: doc-r195b-nikh-08_09_0060 및 doc-r195e-nikh-08_18_0070. 국회사무처 인사원부와 대한통신 임원 임명공문·한자·생몰을 대조할 것. last_full_review 불변.
+
+
+## Run196B 2026-10-27 개별 역사부채 추적 (주간 전수조사 아님)
+- **HD-R195D-ECA** `NARROWED`: 8/23 경남 공업위 Jacona 발전선 귀항·23억 융자계획 보도 확보, 발전량/대출실적 미확인. 다음 원문: Jacona 선박 발전일지·한국은행 융자원장
+- **HD-R195-03** `NARROWED`: 8/24 정일권의 대구 지방직원 복귀명령과 중앙부처 부산이전은 대상·권한이 다름. 다음 원문: 대구 지방청 복귀 출근부
+- **HD-R195E-DAEGU-EVAC** `NARROWED`: 8/27 구영숙 장관은 8/18 경북지사 소개를 비전투원 대상으로 해석하고 대구 의사 복귀 요구. 다음 원문: 경북지사 원전단·의사 복귀 현황
+- **HD-R195E-REQUISITION** `NARROWED`: 8/22 국방부 보상사정위원회 직제 확인, 8/25 김종원 불법차량징발 수사발표 확보. 다음 원문: 보상지급장부·군법회의 실제 판결
+- **HD-R195-UNCOK** `NARROWED`: 8/27 진해 UN한국위원단 공개회의 보도 확보, 8/24 미국의 UNCOK 문서공식화 보류와 별개. 다음 원문: UN한국위원단 8/27 자체 회의록
+- **HD-R195D-RICE** `NARROWED`: 8/29 부산 부평동 쌀 2립 770원 보도 확인. 다음 원문: 8/11·19·21·29 동일시장 시세표 원면
+- **HD-R195E-PERSON-KIM-JONG-WON** `NARROWED`: 8/22 金宗元 헌병부사령관, 8/28 부산 계엄사령관, 8/29 경남 사령관 통합 유임 시계열. 다음 원문: 관보·헌병 인사원부 및 金完元 신원대조
+- **HD-R196B-LEE-YUN-YEONG** `OPEN`: 8/29 사회부장관 이윤영과 8/31 헌병대장 李允榮 소령 동명이인 여부 미확인. 다음 원문: 사회부·헌병 인사원부와 생몰·한자 대조
+주간 전수조사 미실시, last_full_review 불변. 원문 상세: data/research/runs/2026-10-27-run196b-domestic-report.md.
+
+
+## Run196C 개별 부채 추적 (2026-10-27, 주간 전수조사 아님)
+- HD-R195-NAJIN [CONFLICTED]: 9/11 국방부 석유저장28% 추정·9/13 CIA 수송경로 추정, 전선 물동량은 미확인; 다음 원문 USAF/JCS 표적명령·유류재고
+- HD-R195-38PARALLEL [NARROWED]: 9/04 무초 이승만 북진입장 경고·9/11 애치슨 정책발언 자제 지시; 다음 원문 NSC 최종결정
+- HD-R195D-RICE [NARROWED]: 9/05 수용소 2합 일부 실제수령 인터뷰, 9/11 잡곡50% 혼식 시행요강; 다음 원문 수용소 배급원장
+- HD-R196C-SOVIET-AIRCRAFT [CONFLICTED]: 미국 공격기 주장 vs 소련 비무장 훈련기 항의; 다음 원문 UN 속기록·교전기록
+- HD-R196C-SANITATION [NARROWED]: 부산 오물수거 13000/19800석·국회 오물소제법 정부반환; 다음 원문 부산 원통계·국회 표결
+- HD-R196C-UN_DELEGATION [NARROWED]: 국회 후보→정부 갈등→9/13 공식대표단 임명; 다음 원문 국회 투표원부·임명장
+- HD-R196C-WAR_DISABLED_BILL [OPEN]: 9/08 국회 98/190 상이군경구호법 가결, 공포 미확인; 다음 원문 관보 공포·지급원장
+- HD-R196B-LEE-YUN-YEONG [OPEN]: 9/03 李允榮 헌병소령 차량등록 발표 추가, 사회부장관 동명이인 여부 미확인; 다음 원문 헌병/사회부 인사원부
+last_full_review 불변.
+
+
+## Run196D 법령공포일 정정 (2026-10-27)
+법률145 1950-08-04 공포(법제처 표기 08-01 시행), 대통령령382·긴급명령10 1950-08-28 제정시행, 피난민수용법 개정146 1950-09-25 공포시행 확인. 9/08은 내각 개정결정 단계. claim-r196c-09 correctionHistory에 구판 보존. 관보 원면·실제 집행은 OPEN. 주간 전수조사 미실시, last_full_review 불변.
