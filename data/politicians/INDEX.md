@@ -233,3 +233,7 @@ See `data/politicians/run113-prewar-network.json` for 12 sourced profiles. No ca
 - 독립 인물 보충 실록: `data/annals/lee-beom-seok-run193-fiscal.md`, `data/annals/ahn-jae-hong-run193-caucus.md`.
 - 증거·사건·주장: `data/documents/run193-1950-caucus-budget-bank.json`, `data/events/run193-1950-parliament-fiscal-actions.json`, `data/claims/run193-1950-party-budget-claims.json`.
 - 6/26 신문상 교섭단체 가입·연합은 공식 당적과 별개. 8/1 예산표 금액은 원표 확보 전 신문 전사 수치임.
+
+
+## Run196 · 1950-08-17~09-01 외교·내각이전 인물 관계
+`data/politicians/run196-1950-actor-crosslinks.json`에서 기존 인물 10명(비대통령 9명)을 재연결했다. FRUS d441의 직책명만으로 신성모·조병옥·임병직 개인의 원결재를 확정하지 않는다. 신규 승격 없음.

@@ -1873,3 +1873,15 @@ Run180에서 기존 부채 8건(`HD-R95-005/006/007`, `HD-R107-02`, `HD-R170-LAN
 - **HD-R195D-ECA · 자코나 발전선 계획치 차이**: `CONFLICTED_PROJECTION`. 8/15 경남위원회 1만kW 예상 vs 8/20 김훈 2만kW 계획, 실제 발전량 미확인.
 - **HD-R195D-RICE · 부산 쌀값**: `NARROWED`. 8/6·8/11 2립 470원으로 안정했으나 8/19·8/21 650원으로 상승, 같은 시장·단위. 이전 안정 설명은 8/11까지만 유효.
 - **HD-R195E-KIM-JONG-WON · 헌병대장 한자 표기**: `CONFLICTED_TRANSCRIPTION`. 8/17 기사 제목 金宗元·본문 金完元, 8/18 기사 金宗元. 원지면·군 인사대장 확인.
+
+
+## Run196 (2026-10-27, 화요일, 개별 추적만)
+- HD-R195-03 [NARROWED]: d441 cabinet Aug17 agreement vs d447 Aug18 movement. 다음 원문: Cabinet original order and departmental train roster.
+- HD-R195E-DAEGU-EVAC [CONFLICTED]: d447 governor handbill and US Army protest; ministerial statements still diverge. 다음 원문: Governor original handbill and correction.
+- HD-R195-NAJIN [CONFLICTED]: d453 no logistics confirmation vs d454 Defense military target assertion. 다음 원문: JCS target order and intelligence imagery.
+- HD-R195-UNCOK [NARROWED]: d452 committee draft, d467 Soviet objection, d470 UNCOK statement deferral. 다음 원문: S/PV.488-490 and UNCOK minutes.
+- HD-R195-38PARALLEL [NARROWED]: d457/466/479/481 competing drafts, d482/484 UN direction. 다음 원문: NSC decision and MacArthur order.
+- HD-R195E-REQUISITION [OPEN_UNCHANGED]: No new compensation payment record in US FRUS batch. 다음 원문: 1950-08-21 decree 381 and compensation ledger.
+- HD-R195D-ECA [OPEN_UNCHANGED]: No Jacona generating record in US FRUS batch. 다음 원문: ECA procurement and generation logs.
+- HD-R195E-PERSON-KIM-DONG-SAN [OPEN_UNCHANGED]: No CIC case judicial finding in reviewed records. 다음 원문: CIC detention and prosecutor case file.
+주간 전수조사 미실시. last_full_review 불변. 자세한 자료 data/research/runs/2026-10-27-run196-debt-tracking.json.
