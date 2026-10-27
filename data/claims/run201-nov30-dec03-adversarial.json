@@ -1,0 +1,570 @@
+{
+  "schemaVersion": 1,
+  "run": 201,
+  "date": "2026-10-27",
+  "claims": [
+    {
+      "id": "claim-r201-01",
+      "statement": "트루먼 11/30 원폭 관련 발언이 사용 승인에 해당하는가?",
+      "status": "NARROWED",
+      "assessment": "11/30 백악관 공식 정정은 승인 없음, 사용 권한은 대통령에게 있다고 명시. FRUS 편집주의 인용이므로 백악관 발표 원문 별도 확인.",
+      "supportingEvidenceDocumentIds": [
+        "doc-r201-frus-909",
+        "doc-r201-frus-912"
+      ],
+      "contradictingOrQualifyingEvidenceDocumentIds": [
+        "doc-r201-frus-932"
+      ],
+      "nextPrimaryTarget": "White House Nov30 press release / Truman presidential papers",
+      "provenanceCaveat": "FRUS items constitute one editorial provenance family despite different authors; UN index and Korean archive are separate, but are metadata rather than original minutes/facsimiles.",
+      "reviewedAt": "2026-10-27",
+      "silentOverwriteForbidden": true
+    },
+    {
+      "id": "claim-r201-02",
+      "statement": "1950년 11월 말 미국 NSC 81/2가 승인된 정책이었는가?",
+      "status": "CONTRADICTED_PREMISE",
+      "assessment": "11/30 Lay 메모는 NSC 81/2를 고려 대상에서 철회한다고 명시.",
+      "supportingEvidenceDocumentIds": [
+        "doc-r201-frus-910"
+      ],
+      "contradictingOrQualifyingEvidenceDocumentIds": [],
+      "nextPrimaryTarget": "NSC 81/2 original and NSC Action389 minutes",
+      "provenanceCaveat": "FRUS items constitute one editorial provenance family despite different authors; UN index and Korean archive are separate, but are metadata rather than original minutes/facsimiles.",
+      "reviewedAt": "2026-10-27",
+      "silentOverwriteForbidden": true
+    },
+    {
+      "id": "claim-r201-03",
+      "statement": "1950년 11/30 유엔 안보리에서 중국 개입 관련 6개국 결의안이 채택되었는가?",
+      "status": "CONTRADICTED_PREMISE",
+      "assessment": "S/1894 9-1-0 소련 거부권으로 미채택. UN 공식 index와 FRUS 후대 편집주 교차확인, S/PV.530 원문은 403.",
+      "supportingEvidenceDocumentIds": [
+        "doc-r201-frus-914",
+        "doc-r201-un-sc1950-index"
+      ],
+      "contradictingOrQualifyingEvidenceDocumentIds": [],
+      "nextPrimaryTarget": "UN S/PV.530 original",
+      "provenanceCaveat": "FRUS items constitute one editorial provenance family despite different authors; UN index and Korean archive are separate, but are metadata rather than original minutes/facsimiles.",
+      "reviewedAt": "2026-10-27",
+      "silentOverwriteForbidden": true
+    },
+    {
+      "id": "claim-r201-04",
+      "statement": "11/30 인도와 중국 대표단은 접촉을 완전히 거절·단절했는가?",
+      "status": "CONTRADICTED_PREMISE",
+      "assessment": "11/30 접촉 난항 보고 후 12/1 Rau-Wu 약 1시간 회동 보고. 날짜별로 양립 가능.",
+      "supportingEvidenceDocumentIds": [
+        "doc-r201-frus-920",
+        "doc-r201-frus-922",
+        "doc-r201-frus-931"
+      ],
+      "contradictingOrQualifyingEvidenceDocumentIds": [],
+      "nextPrimaryTarget": "India MEA / Chinese delegation notes",
+      "provenanceCaveat": "FRUS items constitute one editorial provenance family despite different authors; UN index and Korean archive are separate, but are metadata rather than original minutes/facsimiles.",
+      "reviewedAt": "2026-10-27",
+      "silentOverwriteForbidden": true
+    },
+    {
+      "id": "claim-r201-05",
+      "statement": "1950년 11월 중국군 전력 추정 10만/20만은 동일 시점·범위의 단순 오류인가?",
+      "status": "NARROWED",
+      "assessment": "11/30 8군 정보부는 6개 군 약20만 추산, 이전 11/28 전선 10만1천 추산과 날짜·전선·모집단 다름.",
+      "supportingEvidenceDocumentIds": [
+        "doc-r201-frus-908",
+        "doc-r201-frus-907"
+      ],
+      "contradictingOrQualifyingEvidenceDocumentIds": [],
+      "nextPrimaryTarget": "Eighth Army G2 Nov28-30 daily situation",
+      "provenanceCaveat": "FRUS items constitute one editorial provenance family despite different authors; UN index and Korean archive are separate, but are metadata rather than original minutes/facsimiles.",
+      "reviewedAt": "2026-10-27",
+      "silentOverwriteForbidden": true
+    },
+    {
+      "id": "claim-r201-06",
+      "statement": "중국군 개입은 소련이 미리 설계한 단일 전면전 계획으로 확정되었는가?",
+      "status": "CONFLICTED_ANALYTIC_VIEWS",
+      "assessment": "12/2 CIA는 소련 지원 가능성을 추정하면서 세계대전 의도 불확실, 12/3 Kennan은 총체적 마스터플랜 견해에 반대. 양쪽 모두 당시 미국 내부 판단.",
+      "supportingEvidenceDocumentIds": [
+        "doc-r201-frus-927",
+        "doc-r201-frus-939"
+      ],
+      "contradictingOrQualifyingEvidenceDocumentIds": [
+        "doc-r201-frus-951"
+      ],
+      "nextPrimaryTarget": "Soviet/Chinese original archival decisions",
+      "provenanceCaveat": "FRUS items constitute one editorial provenance family despite different authors; UN index and Korean archive are separate, but are metadata rather than original minutes/facsimiles.",
+      "reviewedAt": "2026-10-27",
+      "silentOverwriteForbidden": true
+    },
+    {
+      "id": "claim-r201-07",
+      "statement": "1950년 11/30~12/3 미국이 즉시 38선 휴전을 확정·집행했는가?",
+      "status": "CONTRADICTED_PREMISE",
+      "assessment": "12/2 제안된 휴전 경로는 선택지, 12/3 백악관 보고에는 외교·군사 상황과 영국 회담을 기다린다고 기록.",
+      "supportingEvidenceDocumentIds": [
+        "doc-r201-frus-938",
+        "doc-r201-frus-940",
+        "doc-r201-frus-952"
+      ],
+      "contradictingOrQualifyingEvidenceDocumentIds": [
+        "doc-r201-frus-949"
+      ],
+      "nextPrimaryTarget": "US JCS instructions / ROK response / UK FO originals",
+      "provenanceCaveat": "FRUS items constitute one editorial provenance family despite different authors; UN index and Korean archive are separate, but are metadata rather than original minutes/facsimiles.",
+      "reviewedAt": "2026-10-27",
+      "silentOverwriteForbidden": true
+    },
+    {
+      "id": "claim-r201-08",
+      "statement": "UN 한국구호재건기구 설립 결의 채택이 곧 실제 원조 집행을 뜻하는가?",
+      "status": "NARROWED",
+      "assessment": "12/1 총회 410(V) 채택과 이후 기구운영·재원·집행은 별개. 결의 원문·예산계정·첫 집행일 확인 필요.",
+      "supportingEvidenceDocumentIds": [
+        "doc-r201-frus-929"
+      ],
+      "contradictingOrQualifyingEvidenceDocumentIds": [],
+      "nextPrimaryTarget": "UN A/RES/410(V) original, A/PV.314, UNKRA first financial report",
+      "provenanceCaveat": "FRUS items constitute one editorial provenance family despite different authors; UN index and Korean archive are separate, but are metadata rather than original minutes/facsimiles.",
+      "reviewedAt": "2026-10-27",
+      "silentOverwriteForbidden": true
+    },
+    {
+      "id": "claim-r201-09",
+      "statement": "UN 한국통일부흥위원단의 11/29 일본 이전이 실제 완료되었는가?",
+      "status": "NARROWED",
+      "assessment": "11/30 미 국무부는 특별보고 요청, 12/2 UNCURK 초안은 존재. 이전 실행을 입증하지 않음; UN 후대 보고서 검색 색인은 1951-01-04 서울→부산 이전이라고 하나 원 PDF 403.",
+      "supportingEvidenceDocumentIds": [
+        "doc-r201-frus-919",
+        "doc-r201-frus-946"
+      ],
+      "contradictingOrQualifyingEvidenceDocumentIds": [],
+      "nextPrimaryTarget": "UNCURK original minutes Nov20-Dec7; UN A/1844 original",
+      "provenanceCaveat": "FRUS items constitute one editorial provenance family despite different authors; UN index and Korean archive are separate, but are metadata rather than original minutes/facsimiles.",
+      "reviewedAt": "2026-10-27",
+      "silentOverwriteForbidden": true
+    },
+    {
+      "id": "claim-r201-10",
+      "statement": "1950년 법률 제157호 현존 기록은 1950년 공포 당시 원본인가?",
+      "status": "CONTRADICTED_PREMISE",
+      "assessment": "국가기록원 AA0001818 설명은 원본 소실 후 관보 등에 근거한 1963-08-15 재작성본이라고 명시.",
+      "supportingEvidenceDocumentIds": [
+        "doc-r201-archives-AA0001818"
+      ],
+      "contradictingOrQualifyingEvidenceDocumentIds": [],
+      "nextPrimaryTarget": "National Archives AA0001818 10-page reconstructed copy and 1950 gazette",
+      "provenanceCaveat": "FRUS items constitute one editorial provenance family despite different authors; UN index and Korean archive are separate, but are metadata rather than original minutes/facsimiles.",
+      "reviewedAt": "2026-10-27",
+      "silentOverwriteForbidden": true
+    },
+    {
+      "id": "claim-r201-11",
+      "statement": "영국·캐나다·인도·프랑스는 중국 개입에 대해 단일한 군사확대 방침을 지지했는가?",
+      "status": "CONTRADICTED_PREMISE",
+      "assessment": "Jebb·Pearson·Bajpai·프랑스 외무부의 입장과 일정이 달랐고 미국 보고문에 국별 구분 기록.",
+      "supportingEvidenceDocumentIds": [
+        "doc-r201-frus-921",
+        "doc-r201-frus-935",
+        "doc-r201-frus-936",
+        "doc-r201-frus-943",
+        "doc-r201-frus-944"
+      ],
+      "contradictingOrQualifyingEvidenceDocumentIds": [],
+      "nextPrimaryTarget": "UK FO371, Canada Pearson cabinet, India MEA, France Quai d'Orsay",
+      "provenanceCaveat": "FRUS items constitute one editorial provenance family despite different authors; UN index and Korean archive are separate, but are metadata rather than original minutes/facsimiles.",
+      "reviewedAt": "2026-10-27",
+      "silentOverwriteForbidden": true
+    },
+    {
+      "id": "claim-r201-12",
+      "statement": "MacArthur의 8군·X군단 통합 불가능 진술은 JCS가 최종 확정한 작전명령인가?",
+      "status": "NARROWED",
+      "assessment": "11/30·12/3 MacArthur의 주장 및 JCS 권고가 별도 문서; 실제 명령·집행과 분리.",
+      "supportingEvidenceDocumentIds": [
+        "doc-r201-frus-906",
+        "doc-r201-frus-907",
+        "doc-r201-frus-947"
+      ],
+      "contradictingOrQualifyingEvidenceDocumentIds": [],
+      "nextPrimaryTarget": "JCS 97592, 97594 and Eighth Army/X Corps war diaries",
+      "provenanceCaveat": "FRUS items constitute one editorial provenance family despite different authors; UN index and Korean archive are separate, but are metadata rather than original minutes/facsimiles.",
+      "reviewedAt": "2026-10-27",
+      "silentOverwriteForbidden": true
+    },
+    {
+      "id": "claim-r201-13",
+      "statement": "12/1 Rau-Wu 회담의 우호적 분위기가 합의된 휴전조건을 입증하는가?",
+      "status": "CONTRADICTED_PREMISE",
+      "assessment": "Rau의 전달에 따르면 Wu는 평화적 해결 의사만 말했고 구체조건은 제시하지 않음.",
+      "supportingEvidenceDocumentIds": [
+        "doc-r201-frus-931",
+        "doc-r201-frus-950"
+      ],
+      "contradictingOrQualifyingEvidenceDocumentIds": [],
+      "nextPrimaryTarget": "India MEA Wu-Rau original notes; PRC delegation archive",
+      "provenanceCaveat": "FRUS items constitute one editorial provenance family despite different authors; UN index and Korean archive are separate, but are metadata rather than original minutes/facsimiles.",
+      "reviewedAt": "2026-10-27",
+      "silentOverwriteForbidden": true
+    },
+    {
+      "id": "claim-r201-14",
+      "statement": "1950년 12월 1일 사형금지법 공포가 일반 사형제 폐지를 뜻하는가?",
+      "status": "NARROWED",
+      "assessment": "국편 dh_019_1950_12_01_0090에 한국전란 1년지 C69-70의 법률156호 私刑禁止法 제1~4조·부칙 전사가 확인됨. 제2조는 법률상 수속·재판 없이 생명·신체·자유·재산을 침해하는 私刑으로 정의, 제3조 군인·경찰관·청년방위대원·자위대원 등에 대한 형벌, 제4조 계엄지역 적용. 국가 법원 사형제 일반 폐지와 무관. 1950 관보 원면 대조 미완료.",
+      "supportingEvidenceDocumentIds": [
+        "doc-r201-nikh-19501201",
+        "doc-r201-law156-official",
+        "doc-r201-nikh-dh_019_1950_12_01_0090"
+      ],
+      "contradictingOrQualifyingEvidenceDocumentIds": [],
+      "nextPrimaryTarget": "1950-12-01 관보 법률156호 영인과 한국전란 1년지 C69-70 대조",
+      "provenanceCaveat": "FRUS items constitute one editorial provenance family despite different authors; UN index and Korean archive are separate, but are metadata rather than original minutes/facsimiles.",
+      "reviewedAt": "2026-10-27",
+      "silentOverwriteForbidden": true,
+      "reviewHistory": [
+        {
+          "date": "2026-10-27",
+          "oldStatus": "OPEN",
+          "oldAssessment": "Only NIKH title and promulgation confirmed",
+          "newStatus": "NARROWED",
+          "reason": "Official law portal metadata confirms Law156; independent historical research and official search-index article 1-3 references show 私刑 prohibition rather than 死刑 abolition. Full article text remains unextracted."
+        },
+        {
+          "date": "2026-10-27",
+          "oldStatus": "NARROWED",
+          "newStatus": "NARROWED",
+          "reason": "Full four-article text of 私刑禁止法 now directly opened at NIKH dh_019_1950_12_01_0090 (source 한국전란 1년지 C69-70), not original 1950 gazette. Article2 explicitly defines unlawful punishment without lawful procedure/trial; article4 applies even in martial-law areas."
+        }
+      ]
+    },
+    {
+      "id": "claim-r201-15",
+      "statement": "1950-12-04 장면이 국무총리로 이미 취임·귀국해 있었는가?",
+      "status": "CONTRADICTED_PREMISE",
+      "assessment": "미국 국무부 d962에 따르면 12/4 장면은 여전히 주미대사로 워싱턴에서 Rusk를 면담하며 12/9 귀국 예정이라 진술. 11/23 인준과 실무 취임·귀국 구분.",
+      "supportingEvidenceDocumentIds": [
+        "doc-r201-frus-962"
+      ],
+      "contradictingOrQualifyingEvidenceDocumentIds": [],
+      "nextPrimaryTarget": "한국 국무총리 임명장/귀국일자/국무회의 참석원장",
+      "provenanceCaveat": "FRUS contemporaneous US record; original ROK, Indian or British records still needed",
+      "reviewedAt": "2026-10-27",
+      "silentOverwriteForbidden": true
+    },
+    {
+      "id": "claim-r201-16",
+      "statement": "장면이 12/4 주장한 청년단 50만 명은 검증된 실전 무장병력인가?",
+      "status": "OPEN",
+      "assessment": "d962는 장면이 '무장하면 전투에 활용 가능'하다고 말한 것만 증명. 청년단 인원·훈련·실제 무장·동원 증거는 별도. 12/6 d989 장면의 '무장 의사 약100만명' 발언은 12/4 청년단 50만명과 모집단이 달라 동일 병력수의 직접 모순으로 단정하지 않는다.",
+      "supportingEvidenceDocumentIds": [
+        "doc-r201-frus-962",
+        "doc-r201-frus-989"
+      ],
+      "contradictingOrQualifyingEvidenceDocumentIds": [],
+      "nextPrimaryTarget": "대한청년단 1950 12월 회원원장·국방부 무기배정명령",
+      "provenanceCaveat": "FRUS contemporaneous US record; original ROK, Indian or British records still needed",
+      "reviewedAt": "2026-10-27",
+      "silentOverwriteForbidden": true
+    },
+    {
+      "id": "claim-r201-17",
+      "statement": "인도 라우는 12/1 중국 대표에게 구체적인 서면 휴전 제안을 전달했는가?",
+      "status": "NARROWED",
+      "assessment": "12/4 Rau가 미·영 대표에게 12/1 서면안을 건넸다고 보고(d964). 원 서면안과 중국 접수기록 미확보; 중국측 합의가 아님.",
+      "supportingEvidenceDocumentIds": [
+        "doc-r201-frus-964",
+        "doc-r201-frus-970"
+      ],
+      "contradictingOrQualifyingEvidenceDocumentIds": [],
+      "nextPrimaryTarget": "India MEA 1950-12-01 Rau written ceasefire proposal; PRC MFA incoming correspondence",
+      "provenanceCaveat": "FRUS contemporaneous US record; original ROK, Indian or British records still needed",
+      "reviewedAt": "2026-10-27",
+      "silentOverwriteForbidden": true
+    },
+    {
+      "id": "claim-r201-18",
+      "statement": "12/3 미국 국무부가 영국 반대에도 유엔총회 의제를 단독 강행하도록 지시했는가?",
+      "status": "CONTRADICTED_PREMISE",
+      "assessment": "Acheson d954는 UK 동의 없이는 의제상정·결의안 제출을 하지 말라고 명시.",
+      "supportingEvidenceDocumentIds": [
+        "doc-r201-frus-954",
+        "doc-r201-frus-963"
+      ],
+      "contradictingOrQualifyingEvidenceDocumentIds": [],
+      "nextPrimaryTarget": "UN A/1618 original and UK Foreign Office instructions",
+      "provenanceCaveat": "FRUS contemporaneous US record; original ROK, Indian or British records still needed",
+      "reviewedAt": "2026-10-27",
+      "silentOverwriteForbidden": true
+    },
+    {
+      "id": "claim-r201-19",
+      "statement": "1950-12-06 장면이 트루먼에게 대만 국부군 참전을 요청했고 대통령이 이를 승인했는가?",
+      "status": "NARROWED",
+      "assessment": "FRUS d989에 장면 요청과 트루먼의 어려움 설명이 기록. 국부군 사용 승인은 확인되지 않음. 군사원조 계속 의사와 타이완군 파병 허가를 구분.",
+      "supportingEvidenceDocumentIds": [
+        "doc-r201-frus-989",
+        "doc-r201-truman-calendar-19501206"
+      ],
+      "contradictingOrQualifyingEvidenceDocumentIds": [],
+      "nextPrimaryTarget": "1950-12-06 Korean Embassy aide-memoire not printed in FRUS d989, Truman Library protocol file",
+      "reviewedAt": "2026-10-27",
+      "silentOverwriteForbidden": true
+    },
+    {
+      "id": "claim-r201-20",
+      "statement": "Sae Sun Kim은 1950년 12월 장면 후임 주미대사로 실제 발령되었는가?",
+      "status": "NARROWED",
+      "assessment": "1950-12-06 트루먼 의전일지의 Sae Sun Kim 후임대사 예정은 실제 발령이 아님. 미 국무부 공식 의전목록은 다음 정식 신임장 대사를 양유찬으로 기재(1951-05-22 임명 표기, 06-06 신임장). 다만 Kim이 그 사이 임시대리대사(Chargé d'affaires)를 했는지는 이 명부만으로 배제 불가.",
+      "supportingEvidenceDocumentIds": [
+        "doc-r201-truman-calendar-19501206",
+        "doc-r201-aks-rhee-0061",
+        "doc-r201-frus-989",
+        "doc-r201-us-state-protocol-korea",
+        "doc-r201-aks-yang-biography"
+      ],
+      "contradictingOrQualifyingEvidenceDocumentIds": [],
+      "nextPrimaryTarget": "1950-12~1951-06 대한민국 대사관 직원록·외무부 대리대사 발령·미 국무부 diplomatic list monthly issues",
+      "reviewedAt": "2026-10-27",
+      "silentOverwriteForbidden": true,
+      "reviewHistory": [
+        {
+          "date": "2026-10-27",
+          "oldStatus": "OPEN",
+          "newStatus": "NARROWED",
+          "reason": "US Chief of Protocol official retrospective list names Yang You Chan, not Sae Sun Kim, as next accredited ambassador after Chang; 1950 Truman calendar describes only prospective plan."
+        }
+      ]
+    },
+    {
+      "id": "claim-r201-21",
+      "statement": "양유찬의 1951-04 임명(한국학중앙연구원)과 1951-05-22 미국 의전명부 임명·06-06 신임장 날짜는 서로 모순인가?",
+      "status": "NARROWED",
+      "assessment": "1951-04는 한국측 임명 보도, 미국 의전목록 05-22·06-06은 미국의 인정·신임장 단계일 수 있다. 정확한 절차 구분을 위해 한국 임명장과 미국 접수서한 원본 필요. 날짜를 동일 법률행위로 강제 일치시키지 않음.",
+      "supportingEvidenceDocumentIds": [
+        "doc-r201-us-state-protocol-korea",
+        "doc-r201-aks-yang-biography"
+      ],
+      "contradictingOrQualifyingEvidenceDocumentIds": [],
+      "nextPrimaryTarget": "대한민국 1951-04 양유찬 주미대사 임명장·미국 1951-05-22 accreditation letter·06-06 credentials ceremony",
+      "reviewedAt": "2026-10-27",
+      "silentOverwriteForbidden": true
+    },
+    {
+      "id": "claim-r201-22",
+      "statement": "법률157호는 부역 혐의자 모두를 자동 처벌하고 감형·면제 심사 없이 군사재판으로 보내도록 했는가?",
+      "status": "CONTRADICTED_PREMISE",
+      "assessment": "국편 1951 편찬 법률157호 16조 전사: 제2·3조 감형·면제, 제5조 중앙위원 법무장관·국회5·대통령5, 제7조 24시간 보고, 제15조 전투 직접 관련 외 군기관 관여 금지, 제16조 계엄지역 적용. 실제 집행은 별도.",
+      "supportingEvidenceDocumentIds": [
+        "doc-r201-nikh-dh_019_1950_12_01_0080"
+      ],
+      "contradictingOrQualifyingEvidenceDocumentIds": [],
+      "nextPrimaryTarget": "1950 관보 법률157 원면·각 심사위원회 설치령·집행통계",
+      "provenanceCaveat": "NIKH is modern digital transcription of contemporaneous newspaper or 1951 law compilation; allegations and executive claims need independent original orders and judgments.",
+      "reviewedAt": "2026-10-27",
+      "silentOverwriteForbidden": true
+    },
+    {
+      "id": "claim-r201-23",
+      "statement": "1950-12-01 지세 현물징수는 국회의 현금제 수정과 관계없이 법적 논란이 없었는가?",
+      "status": "NARROWED",
+      "assessment": "12/1 서울신문은 대통령령 현물징수 시행을 보도, 12/6 부산일보는 국회 현금제 수정안과 정부의 헌법57조 원안 시행 주장·양성봉 도지사 설명을 보도. 조문·의결·헌법해석의 직접 검증 필요.",
+      "supportingEvidenceDocumentIds": [
+        "doc-r201-nikh-dh_019_1950_12_01_0070",
+        "doc-r201-nikh-dh_019_1950_12_06_0080"
+      ],
+      "contradictingOrQualifyingEvidenceDocumentIds": [],
+      "nextPrimaryTarget": "1950 국회 지세현물징수 수정표결·대통령령 번호·헌법57조 당시 본문",
+      "provenanceCaveat": "NIKH is modern digital transcription of contemporaneous newspaper or 1951 law compilation; allegations and executive claims need independent original orders and judgments.",
+      "reviewedAt": "2026-10-27",
+      "silentOverwriteForbidden": true
+    },
+    {
+      "id": "claim-r201-24",
+      "statement": "전시 공무원 3할 감원은 모든 해고자가 실제 실업 상태가 됐음을 뜻하는가?",
+      "status": "CONTRADICTED_PREMISE",
+      "assessment": "12/4 민주신보 도청285명중79명 감원 중 전출·임시직 전환, 부산철도6613명중2445명 감원 중 기술직 약800명 인부임 재고용 보고. 명목 감원과 실직·재고용 분리.",
+      "supportingEvidenceDocumentIds": [
+        "doc-r201-nikh-dh_019_1950_12_04_0060"
+      ],
+      "contradictingOrQualifyingEvidenceDocumentIds": [],
+      "nextPrimaryTarget": "경남도청 1950-11-10 인사명령 및 부산철도국 1950-11 인원명부",
+      "provenanceCaveat": "NIKH is modern digital transcription of contemporaneous newspaper or 1951 law compilation; allegations and executive claims need independent original orders and judgments.",
+      "reviewedAt": "2026-10-27",
+      "silentOverwriteForbidden": true
+    },
+    {
+      "id": "claim-r201-25",
+      "statement": "장면은 1950-12-04 밝힌 12-09 귀국계획을 12-06에도 유지했는가?",
+      "status": "CONTRADICTED_PREMISE",
+      "assessment": "12/4 FRUS d962 장면 12/9 귀국 예정. 12/6 d988 장면은 이승만 대통령이 한국상황 명확해질 때까지 수주간 귀국 연기하라고 새 지시했다고 전언. 날짜가 다른 계획변경이지 상호 배타적 증언 아님.",
+      "supportingEvidenceDocumentIds": [
+        "doc-r201-frus-962",
+        "doc-r201-frus-988",
+        "doc-r201-nikh-dh_019_1950_12_06_0040"
+      ],
+      "contradictingOrQualifyingEvidenceDocumentIds": [],
+      "nextPrimaryTarget": "대통령 이승만 1950-12-05~06 장면 귀국연기 훈령 원문",
+      "provenanceCaveat": "NIKH is modern digital transcription of contemporaneous newspaper or 1951 law compilation; allegations and executive claims need independent original orders and judgments.",
+      "reviewedAt": "2026-10-27",
+      "silentOverwriteForbidden": true
+    },
+    {
+      "id": "claim-r201-26",
+      "statement": "장택상이 러스크를 비난한 발언은 12-06 미국 회담록으로 진실이라고 확정되는가?",
+      "status": "OPEN",
+      "assessment": "d988은 러스크가 서울에서 전해진 장택상 귀국후 발언을 허위라고 비판했고 장면이 원발언을 확인하겠다고 약속한 기록. 장택상 직접 발언 원문과 보도 경로 미확보.",
+      "supportingEvidenceDocumentIds": [
+        "doc-r201-frus-988",
+        "doc-r201-nikh-dh_019_1950_12_06_0040"
+      ],
+      "contradictingOrQualifyingEvidenceDocumentIds": [],
+      "nextPrimaryTarget": "1950-11 말~12-06 장택상 귀국후 기자회견·국회 발언·서울 미대사관 원전문",
+      "provenanceCaveat": "NIKH is modern digital transcription of contemporaneous newspaper or 1951 law compilation; allegations and executive claims need independent original orders and judgments.",
+      "reviewedAt": "2026-10-27",
+      "silentOverwriteForbidden": true
+    },
+    {
+      "id": "claim-r201-27",
+      "statement": "경남 전재민 구호의류 수집 목표110% 달성은 수혜자 배분 완료를 뜻하는가?",
+      "status": "CONTRADICTED_PREMISE",
+      "assessment": "12/1 金문교사회국장은 23만4900여점 수집을 보고하며 아직 전재지구 수송중이라고 설명. 수집과 실제 수령·품질·분배는 별개.",
+      "supportingEvidenceDocumentIds": [
+        "doc-r201-nikh-dh_019_1950_12_01_0150"
+      ],
+      "contradictingOrQualifyingEvidenceDocumentIds": [],
+      "nextPrimaryTarget": "경남도 문교사회국 1950-12 배분 인수증·군별 실적",
+      "provenanceCaveat": "NIKH is modern digital transcription of contemporaneous newspaper or 1951 law compilation; allegations and executive claims need independent original orders and judgments.",
+      "reviewedAt": "2026-10-27",
+      "silentOverwriteForbidden": true
+    },
+    {
+      "id": "claim-r201-28",
+      "statement": "12/6 서울 화랑대 불법감금·고문 혐의 보도는 관련자 모두의 확정판결인가?",
+      "status": "OPEN",
+      "assessment": "서울신문 12/12는 12/6 합동수사본부 검거 및 朴承鳳·崔載根 혐의를 보도. 수사기관 발표와 유죄판결 구분, 재판·수사기록 원문 필요.",
+      "supportingEvidenceDocumentIds": [
+        "doc-r201-nikh-dh_019_1950_12_06_0110"
+      ],
+      "contradictingOrQualifyingEvidenceDocumentIds": [],
+      "nextPrimaryTarget": "1950-12~1951 서울 형사법원·군법회의 화랑대 사건 판결문",
+      "provenanceCaveat": "NIKH is modern digital transcription of contemporaneous newspaper or 1951 law compilation; allegations and executive claims need independent original orders and judgments.",
+      "reviewedAt": "2026-10-27",
+      "silentOverwriteForbidden": true
+    },
+    {
+      "id": "claim-r201-29",
+      "statement": "경남경찰국 12/4 외국인 예절·구두닦이 감찰제는 이승만의 직접 서면명령으로 확인되는가?",
+      "status": "OPEN",
+      "assessment": "민주신보는 대통령 유시와 내무장관 지시를 전언하지만 원 대통령 문서·내무부 지시문 미열람. 경찰국 발표는 확인, 대통령 직접 명령 확정 불가.",
+      "supportingEvidenceDocumentIds": [
+        "doc-r201-nikh-dh_019_1950_12_04_0070"
+      ],
+      "contradictingOrQualifyingEvidenceDocumentIds": [],
+      "nextPrimaryTarget": "대통령기록관 1950-12 외국인 응대 유시·내무부 경남경찰국 훈령",
+      "provenanceCaveat": "NIKH is modern digital transcription of contemporaneous newspaper or 1951 law compilation; allegations and executive claims need independent original orders and judgments.",
+      "reviewedAt": "2026-10-27",
+      "silentOverwriteForbidden": true
+    },
+    {
+      "id": "claim-r201-30",
+      "statement": "이기붕 서울시장의 7대 시정방향은 12/6 모두 시행·예산집행되었는가?",
+      "status": "NARROWED",
+      "assessment": "서울신문은 7대 방향 발표(구동 행정·치안·전재민구호·교육·생업·도시계획·재정)만 보도. 실제 사무이양·예산·우마차등록 실적 미확인.",
+      "supportingEvidenceDocumentIds": [
+        "doc-r201-nikh-dh_019_1950_12_06_0070"
+      ],
+      "contradictingOrQualifyingEvidenceDocumentIds": [],
+      "nextPrimaryTarget": "서울시 1950-12 구청 사무이양 훈령·우마차등록 장부·전재민구호 지출",
+      "provenanceCaveat": "NIKH is modern digital transcription of contemporaneous newspaper or 1951 law compilation; allegations and executive claims need independent original orders and judgments.",
+      "reviewedAt": "2026-10-27",
+      "silentOverwriteForbidden": true
+    },
+    {
+      "id": "claim-r201-31",
+      "statement": "1950-12-02 신성모 국방장관의 원폭 조기사용 희망은 트루먼 대통령의 사용 승인인가?",
+      "status": "CONTRADICTED_PREMISE",
+      "assessment": "신성모 기자회견(경향신문12/4)은 개인 희망 '하루바삐 썼으면'을 기록, 트루먼 11/30 백악관 정정은 승인 없다고 밝힘. 한국 장관 선호와 미국 대통령 권한·명령 분리.",
+      "supportingEvidenceDocumentIds": [
+        "doc-r201-nikh-dh_019_1950_12_02_0090",
+        "doc-r201-frus-909"
+      ],
+      "contradictingOrQualifyingEvidenceDocumentIds": [],
+      "nextPrimaryTarget": "신성모 국방부 회견 속기·백악관 11/30 원발표·JCS 핵명령",
+      "provenanceCaveat": "Contemporary newspaper transcription and US FRUS editorial are different evidentiary levels; direct presidential order, legal commencement and judicial outcomes need originals.",
+      "reviewedAt": "2026-10-27",
+      "silentOverwriteForbidden": true
+    },
+    {
+      "id": "claim-r201-32",
+      "statement": "김창룡 대령에게 12/2 이승만 표창장 수여 보도가 대통령의 각 수사 직접지시를 증명하는가?",
+      "status": "CONTRADICTED_PREMISE",
+      "assessment": "경향신문은 대통령 명의 표창장 전문과 김창룡 답사를 보도. 공로 인정·정치적 지원은 기록되지만 개별 체포·심문·처벌 직접명령은 별도 원본 필요.",
+      "supportingEvidenceDocumentIds": [
+        "doc-r201-nikh-dh_019_1950_12_02_0060"
+      ],
+      "contradictingOrQualifyingEvidenceDocumentIds": [],
+      "nextPrimaryTarget": "대통령기록관 1950-12-02 표창장 원면·김창룡 합동수사본부 수사지휘일지",
+      "provenanceCaveat": "Contemporary newspaper transcription and US FRUS editorial are different evidentiary levels; direct presidential order, legal commencement and judicial outcomes need originals.",
+      "reviewedAt": "2026-10-27",
+      "silentOverwriteForbidden": true
+    },
+    {
+      "id": "claim-r201-33",
+      "statement": "1950-11-23 국회가 비상사태 범죄처벌 특별조치령 개정을 통과시켰다는 보도가 12/2 이미 시행되었다는 뜻인가?",
+      "status": "NARROWED",
+      "assessment": "동아일보 12/2은 11/23 통과와 수일 내 공포 예정이라고 보도, 완화·재심 제도 설명. 원관보 시행일·법률번호 확인 전 소급 적용 불가.",
+      "supportingEvidenceDocumentIds": [
+        "doc-r201-nikh-dh_019_1950_12_02_0110"
+      ],
+      "contradictingOrQualifyingEvidenceDocumentIds": [],
+      "nextPrimaryTarget": "1950-11-23 국회 회의록·1950-12 법률 공포 관보·군법회의 재심 신청 원장",
+      "provenanceCaveat": "Contemporary newspaper transcription and US FRUS editorial are different evidentiary levels; direct presidential order, legal commencement and judicial outcomes need originals.",
+      "reviewedAt": "2026-10-27",
+      "silentOverwriteForbidden": true
+    },
+    {
+      "id": "claim-r201-34",
+      "statement": "1950년 고성 전재 가옥 피해 5300여 호와 전소4508·반소808 등 숫자는 같은 기준의 모순인가?",
+      "status": "NARROWED",
+      "assessment": "12/1 부산일보는 가옥 파괴 5300여 호, 12/2 민주신보 현지 시찰은 전소4508·반소808·전파24·반파318 등 다른 범주·날짜를 보도. 표본·피해정의 확인 필요.",
+      "supportingEvidenceDocumentIds": [
+        "doc-r201-nikh-dh_019_1950_12_01_0230",
+        "doc-r201-nikh-dh_019_1950_12_02_0150"
+      ],
+      "contradictingOrQualifyingEvidenceDocumentIds": [],
+      "nextPrimaryTarget": "고성군 1950-11~12 가옥 피해조사 원장·도 재건예산",
+      "provenanceCaveat": "Contemporary newspaper transcription and US FRUS editorial are different evidentiary levels; direct presidential order, legal commencement and judicial outcomes need originals.",
+      "reviewedAt": "2026-10-27",
+      "silentOverwriteForbidden": true
+    },
+    {
+      "id": "claim-r201-35",
+      "statement": "1950-12-02 서울-부산 철도전화 직통선이 완전히 개통되었는가?",
+      "status": "CONTRADICTED_PREMISE",
+      "assessment": "부산일보는 대전-부산 구간 시험통화 성공과 서울-대전 통화 가능, 대전-대구 직통공사 진행을 구분. 직통 완공 아님.",
+      "supportingEvidenceDocumentIds": [
+        "doc-r201-nikh-dh_019_1950_12_02_0130"
+      ],
+      "contradictingOrQualifyingEvidenceDocumentIds": [],
+      "nextPrimaryTarget": "교통부 1950-12 통신복구 공사 준공일지",
+      "provenanceCaveat": "Contemporary newspaper transcription and US FRUS editorial are different evidentiary levels; direct presidential order, legal commencement and judicial outcomes need originals.",
+      "reviewedAt": "2026-10-27",
+      "silentOverwriteForbidden": true
+    },
+    {
+      "id": "claim-r201-36",
+      "statement": "서울시 화교 14세 이상 5400명 시민증 발급계획은 5400명에게 실제 교부되었다는 뜻인가?",
+      "status": "OPEN",
+      "assessment": "경향신문은 약5400명 대상 발급 계획만 기록. 실제 발급장부·대상 범위·거절·법적근거 미확인.",
+      "supportingEvidenceDocumentIds": [
+        "doc-r201-nikh-dh_019_1950_12_02_0100"
+      ],
+      "contradictingOrQualifyingEvidenceDocumentIds": [],
+      "nextPrimaryTarget": "서울시 1950-12 화교 시민증 교부대장·주한중국대사관 공문",
+      "provenanceCaveat": "Contemporary newspaper transcription and US FRUS editorial are different evidentiary levels; direct presidential order, legal commencement and judicial outcomes need originals.",
+      "reviewedAt": "2026-10-27",
+      "silentOverwriteForbidden": true
+    }
+  ]
+}
