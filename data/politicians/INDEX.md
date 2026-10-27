@@ -366,3 +366,19 @@ Run212 8/11~15 후속으로 [계엄 공고 국무위원·이종찬·김종원·�
 `data/politicians/run220-jan1952-actor-addendum.json`: 기존 장면·허정·신익희·김병로 4개 ID에 직접 확인한 신년행사·유엔가입 신청서한 보도·사회부 피난민/군경원호 계획·국회의장 신년사를 연결. 정순조는 당대 신문에서 개헌 추진자로 등장하나 생몰·원의안 미확보로 신규 stable 승격 보류. 관련 문서/사건/주장/실록은 run220-jan1952 addendum 참조.
 
 - Run220 12명 비대통령 독립 증거 객체: `data/evidence/politicians/run220-actor-evidence.json`. 역사부채 10건은 `data/research/HISTORY_DEBT.md`에 상태·다음 원문표적과 함께 동기화.
+
+## Run221: 1952년 1월 독립 정치인·관료 evidence
+- data/politicians/run221-jan1952-actors.json: 기존 9명 심화, 신규 후보 4명 이헌구·백홍석·이호석·이정희. 공식 생몰·임명원부 미검증, 정식 승격 0명.
+- data/evidence/politicians/run221-evidence.json / data/events/run221-jan1952-actions.json / data/documents/run221-jan1952-sources.json / data/claims/run221-adversarial.json에 ID로 교차 연결. 별도 annals: data/annals/rhee-jan1952-run221.md.
+
+## Run221b · 1952년 1월 국회·지방정치인 확대
+- data/politicians/run221b-jan1952-actors.json: 22개 행위자 노드(대통령 포함), 신규 후보 곽태진·백남식·변광호·이춘기·김정두·김성화 6명. 김성화 한자는 원문 미확인으로 보류.
+- 공식법령·개헌안 표결·국회/농정/노동 사건은 run221b document/claim/event/evidence에 연결. 별도 후보 승격은 공식 임명·생몰 확인 뒤.
+
+## Run221c: 국회 상임위원장·장관·노동쟁의 정치인
+- data/politicians/run221c-jan1952-actors.json: 기존 stable/candidate 26명 증거 심화. 상임위원장 선거, 조선방직 국회질의, 조병창 군법회의 무죄 보고, 내무장관 인사·고문근절 발언을 독립 event로 연결.
+- data/documents/run221c-jan1952-oversight-industry.json / data/events/run221c-oversight-industry-actions.json / data/claims/run221c-adversarial.json / data/evidence/politicians/run221c-evidence.json.
+
+## Run221d: 1952-01-28 내각 법령 공동서명자와 지방행정
+- data/politicians/run221d-jan1952-actors.json: 21개 독립 인물 노드(대통령 포함), 신규 후보 이홍직·노진설·김동선 3명. 조진만·오한영·이순용·이윤영 등 계엄·기부·양곡 시행령 공동서명 증거를 대통령 행위와 분리.
+- 기존 이범석 2개 root ID(pol-lee-beom-seok / pol-lee-beom-seok-1900) 동일인 가능성을 기록하되 근거 없는 병합 금지.
