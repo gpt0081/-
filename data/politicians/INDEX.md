@@ -237,3 +237,7 @@ See `data/politicians/run113-prewar-network.json` for 12 sourced profiles. No ca
 
 ## Run196 · 1950-08-17~09-01 외교·내각이전 인물 관계
 `data/politicians/run196-1950-actor-crosslinks.json`에서 기존 인물 10명(비대통령 9명)을 재연결했다. FRUS d441의 직책명만으로 신성모·조병옥·임병직 개인의 원결재를 확정하지 않는다. 신규 승격 없음.
+
+
+### Run196 신원충돌 유보
+`cand-r196-park-jong-man-assembly` (1950-08-17 국회사무총장으로 무초 보고)와 `cand-r195b-19` (1950-08-09 대한통신 사장 보도)는 동일한 '박종만' 이름이나 개인 동일성 미확인. `IDCOL-R196-01`로 자동병합 금지. `cand-r195e-02` 김준태도 국회 원속기록 대기.

@@ -178,10 +178,11 @@
       "id": "pol-r141-shin-ik-hui",
       "name": "신익희",
       "period": "1950-08~09",
-      "role": "국회 집단 이동, 개인 명령 귀속 금지",
+      "role": "국회 집단 이동, 개인 명령 귀속 금지; 8/17 국회 9/1 재소집 결정을 무초가 보고, 국회 원속기록 미확보",
       "actionType": "SOURCE_ATTRIBUTED_CONTEXT_OR_OPEN_LEAD",
       "evidenceDocumentIds": [
-        "doc-r196-frus-441"
+        "doc-r196-frus-441",
+        "doc-r195e-nikh-08_18_0070"
       ],
       "verificationScope": "COLLECTIVE_ONLY",
       "researchStatusChange": "NONE",
@@ -388,5 +389,100 @@
       "promotionReason": "No promotion. Independent Korean personnel or role evidence remains needed where office only is reported."
     }
   ],
-  "note": "Non-presidential actors: 9. Only four have new FRUS office/context links; five carry forward prior Korean evidence, not newly verified."
+  "note": "Non-presidential actors: 9. Only four have new FRUS office/context links; five carry forward prior Korean evidence, not newly verified.",
+  "candidates": [
+    {
+      "id": "cand-r196-park-jong-man-assembly",
+      "name": "박종만",
+      "aliases": [
+        "Park Jong-man",
+        "漢字 未確認"
+      ],
+      "birth": {
+        "value": null,
+        "verification": "UNVERIFIED"
+      },
+      "death": {
+        "value": null,
+        "verification": "UNVERIFIED"
+      },
+      "researchStatus": "DISCOVERED",
+      "periodRoles": [
+        {
+          "period": "1950-08-17~18",
+          "officeOrAffiliation": "국회사무총장으로 무초 보고에 등장",
+          "actionType": "US_DIPLOMAT_REPORTED_POSITION_OR_CONSENT",
+          "evidenceDocumentIds": [
+            "doc-r195e-nikh-08_18_0070"
+          ],
+          "eventIds": [
+            "evt-r196-17"
+          ]
+        }
+      ],
+      "partyAffiliations": [],
+      "identityGuardrail": "NOT_MERGED with cand-r195b-19 Park Jong-man, 1950-08-09 Daehan News Agency president; same Hangul is insufficient to prove identity.",
+      "openLeads": [
+        "L196-36"
+      ],
+      "historyDebt": [
+        "HD-R196-PARK-JONG-MAN"
+      ],
+      "accessDate": "2026-10-27"
+    },
+    {
+      "id": "cand-r195e-02",
+      "name": "김준태",
+      "aliases": [
+        "Kim Jun-tae",
+        "漢字 未確認"
+      ],
+      "birth": {
+        "value": null,
+        "verification": "UNVERIFIED"
+      },
+      "death": {
+        "value": null,
+        "verification": "UNVERIFIED"
+      },
+      "researchStatus": "IDENTIFIED_CANDIDATE_UNCHANGED",
+      "periodRoles": [
+        {
+          "period": "1950-08-17~18",
+          "officeOrAffiliation": "국회의원으로 체포/석방 논란에 언급",
+          "actionType": "SUBJECT_OF_DISCUSSION_NOT_GUILT_FINDING",
+          "evidenceDocumentIds": [
+            "doc-r195e-nikh-08_18_0070"
+          ],
+          "eventIds": [
+            "evt-r196-17"
+          ]
+        }
+      ],
+      "partyAffiliations": [],
+      "identityGuardrail": "US Muccio report transcribed by NIKH, not independent National Assembly minutes; charges/conviction not established.",
+      "openLeads": [
+        "L196-37"
+      ],
+      "historyDebt": [],
+      "accessDate": "2026-10-27"
+    }
+  ],
+  "identityCollision": {
+    "id": "IDCOL-R196-01",
+    "status": "OPEN",
+    "name": "박종만",
+    "comparedIds": [
+      "cand-r195b-19",
+      "cand-r196-park-jong-man-assembly"
+    ],
+    "sourceDocumentIds": [
+      "doc-r195b-nikh-08_09_0060",
+      "doc-r195e-nikh-08_18_0070"
+    ],
+    "preciseConflict": "1950-08-09 대한통신 사장 취임 보도 vs 1950-08-17 국회사무총장으로 무초 보고 등장; identical Korean spelling but personal identity not established.",
+    "guardrail": "Do not merge, assume two people, or declare source error without official personnel/assembly records.",
+    "nextOriginalTarget": "1950-08 대한통신 등기·공보처 임명공문과 국회사무처 사무총장 임명/출근 원부",
+    "accessDate": "2026-10-27"
+  }
 }

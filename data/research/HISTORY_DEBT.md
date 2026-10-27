@@ -1885,3 +1885,7 @@ Run180에서 기존 부채 8건(`HD-R95-005/006/007`, `HD-R107-02`, `HD-R170-LAN
 - HD-R195D-ECA [OPEN_UNCHANGED]: No Jacona generating record in US FRUS batch. 다음 원문: ECA procurement and generation logs.
 - HD-R195E-PERSON-KIM-DONG-SAN [OPEN_UNCHANGED]: No CIC case judicial finding in reviewed records. 다음 원문: CIC detention and prosecutor case file.
 주간 전수조사 미실시. last_full_review 불변. 자세한 자료 data/research/runs/2026-10-27-run196-debt-tracking.json.
+
+
+### Run196 추가 신원부채: HD-R196-PARK-JONG-MAN (OPEN)
+1950-08-09 대한통신 사장 박종만과 1950-08-17 국회사무총장 박종만의 이름 충돌. 동명이인/동일인/오보 판단 보류. 원문: doc-r195b-nikh-08_09_0060 및 doc-r195e-nikh-08_18_0070. 국회사무처 인사원부와 대한통신 임원 임명공문·한자·생몰을 대조할 것. last_full_review 불변.

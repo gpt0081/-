@@ -46,15 +46,21 @@
     {
       "id": "claim-r196-03",
       "statement": "Najin supply importance independently confirmed",
-      "status": "CONFLICTED",
+      "status": "CONFLICTED_ASSERTIONS",
       "assessment": "Kennan could not obtain logistics confirmation; Johnson asserts petroleum military value.",
       "evidenceDocumentIds": [
         "doc-r196-frus-453",
         "doc-r196-frus-454"
       ],
-      "supportingEvidenceDocumentIds": [],
-      "contradictingEvidenceDocumentIds": [],
-      "insufficientEvidenceDocumentIds": [],
+      "supportingEvidenceDocumentIds": [
+        "doc-r196-frus-454"
+      ],
+      "contradictingEvidenceDocumentIds": [
+        "doc-r196-frus-453"
+      ],
+      "insufficientEvidenceDocumentIds": [
+        "doc-r196-frus-444"
+      ],
       "contemporaneousObservationDocumentIds": [
         "doc-r196-frus-453",
         "doc-r196-frus-454"
@@ -331,6 +337,28 @@
       "contemporaneousObservationDocumentIds": [
         "doc-r196-frus-445",
         "doc-r196-frus-478"
+      ],
+      "laterFindingDocumentIds": [],
+      "accessDate": "2026-10-27"
+    },
+    {
+      "id": "claim-r196-16",
+      "statement": "1950-08-09 대한통신 사장 박종만과 1950-08-17 국회사무총장 박종만은 동일인이다",
+      "status": "INSUFFICIENT_EVIDENCE",
+      "assessment": "Two distinct office reports share Hangul name. Original appointment records, Hanja, dates of birth, and overlapping employment records absent. Preserve separate candidate nodes without asserting they are distinct persons.",
+      "evidenceDocumentIds": [
+        "doc-r195b-nikh-08_09_0060",
+        "doc-r195e-nikh-08_18_0070"
+      ],
+      "supportingEvidenceDocumentIds": [],
+      "contradictingEvidenceDocumentIds": [],
+      "insufficientEvidenceDocumentIds": [
+        "doc-r195b-nikh-08_09_0060",
+        "doc-r195e-nikh-08_18_0070"
+      ],
+      "contemporaneousObservationDocumentIds": [
+        "doc-r195b-nikh-08_09_0060",
+        "doc-r195e-nikh-08_18_0070"
       ],
       "laterFindingDocumentIds": [],
       "accessDate": "2026-10-27"
