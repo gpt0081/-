@@ -16,6 +16,11 @@
 
 
 
+
+## Run199b · 11월 15~21일 법관·부역통계·농지개혁·전시재정 추가 대량채굴
+
+2026-10-27: [추가 보고](data/research/runs/2026-10-27-run199b-report.md) · [69개 추가 직접열람](data/documents/run199b-nov15-21-sources.json) · [50개 사건](data/events/run199b-nov15-21-actions.json) · [기존 14명/후보 6명](data/politicians/run199b-nov-actor-network.json) · [19개 주장·반증](data/claims/run199b-nov15-21-adversarial.json) · [51개 원문 표적](data/research/lead-queues/run199b-next.json). **내무부 검거 통계 55,509/55,909 및 송치·석방 합계 오류**, 부산서 범죄 발생379/377·검거141/265, 김태순/김태선 치안국장 신원충돌을 CONFLICTED/NARROWED로 보존. 1951 지가증권 국가기록원 후속 원문, FRUS d847·d864, 1950 도시계획과 실제 시공 구분. Floot 미변경.
+
 ## Run199 · 1950년 11월 8~14일 국회·법률·평시국정과 인물망 확장
 
 2026-10-27: [실행보고](data/research/runs/2026-10-27-run199-report.md) · [실행계정](data/research/runs/2026-10-27-run199-ledger.json) · [직접 열람 86개 문서](data/documents/run199-nov8-14-sources.json) · [36개 사건](data/events/run199-nov8-14-actions.json) · [비대통령 22명 연결](data/politicians/run199-nov-actor-network.json) · [16개 주장·반증](data/claims/run199-nov8-14-adversarial.json) · [55개 다음 원문 표적](data/research/lead-queues/run199-next.json). **법률 제156호 '사형'은 私刑**(법외 제재)이며 사형제 폐지법이 아님. 국회 11/13 재의결과 12/1 법률156·157 공포를 분리, 법률157 원본 소실·1963 재작성 보존. 11/14 대통령령393 확인, 부산 공장 합계22개·소금30t 차이를 CONFLICTED 기록. 64개 동시대 신문 전사, 공식 원문·법령 9, 영인면 0. Floot 미변경.

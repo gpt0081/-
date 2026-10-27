@@ -1,0 +1,397 @@
+{
+  "run": "199b",
+  "date": "2026-10-27",
+  "claims": [
+    {
+      "id": "claim-r199b-01",
+      "statement": "11/15 내무부 검거 통계: 지역별 검거 합55909은 기사 총55909와 일치하지만 송치 행 합12375 vs 총2377, 석방 행 합13890 vs 총15891 불일치",
+      "status": "CONFLICTED_INTERNAL_ARITHMETIC",
+      "supportingEvidenceDocumentIds": [
+        "doc-r199b-1115-0040"
+      ],
+      "contradictingEvidenceDocumentIds": [
+        "doc-r199b-1115-0040"
+      ],
+      "insufficientEvidence": [
+        "송치 차9998, 석방 차2001. 원지면 이미지·원보고 재검증. 빈칸 '-'은 0/미상 여부도 미확인."
+      ],
+      "provenanceFamilies": [
+        "CONTEMPORARY_PRESS"
+      ],
+      "contemporaneousObservation": true,
+      "laterFinding": "PENDING_INDEPENDENT_ORIGINAL_WHEN_NEEDED",
+      "reviewDate": "2026-10-27",
+      "silentOverwriteForbidden": true
+    },
+    {
+      "id": "claim-r199b-02",
+      "statement": "11/15 기사 '9월28일부터 12월13일까지'는 11월15일 발표라는 시간상 미래일자 오류 가능성이 있다",
+      "status": "CONFLICTED_IMPOSSIBLE_REPORTING_PERIOD",
+      "supportingEvidenceDocumentIds": [
+        "doc-r199b-1115-0040"
+      ],
+      "contradictingEvidenceDocumentIds": [
+        "doc-r199b-1115-0040"
+      ],
+      "insufficientEvidence": [
+        "1950-11-15 발표가 1950-12-13까지 집계했다고 볼 수 없음. 11/13의 오기인지 원면 확인."
+      ],
+      "provenanceFamilies": [
+        "CONTEMPORARY_PRESS"
+      ],
+      "contemporaneousObservation": true,
+      "laterFinding": "PENDING_INDEPENDENT_ORIGINAL_WHEN_NEEDED",
+      "reviewDate": "2026-10-27",
+      "silentOverwriteForbidden": true
+    },
+    {
+      "id": "claim-r199b-03",
+      "statement": "11/13 경향신문 부역검거 55509 vs 11/15 조선일보 55909은 400명 차이; 두 보도 기준일·행정통계 원표가 미확인",
+      "status": "CONFLICTED_CROSS_PRESS",
+      "supportingEvidenceDocumentIds": [
+        "doc-r199b-1115-0040",
+        "doc-r199-1113-0100"
+      ],
+      "contradictingEvidenceDocumentIds": [
+        "doc-r199b-1115-0040",
+        "doc-r199-1113-0100"
+      ],
+      "insufficientEvidence": [
+        "경향신문 충남11893 vs 조선일보11993, 100 차이. 11/15 기사 기준일 12/13 오류 가능성."
+      ],
+      "provenanceFamilies": [
+        "CONTEMPORARY_PRESS_KYUNGHYANG",
+        "CONTEMPORARY_PRESS_CHOSUN"
+      ],
+      "contemporaneousObservation": true,
+      "laterFinding": "PENDING_INDEPENDENT_ORIGINAL_WHEN_NEEDED",
+      "reviewDate": "2026-10-27",
+      "silentOverwriteForbidden": true
+    },
+    {
+      "id": "claim-r199b-04",
+      "statement": "11/13 김태순 치안국장과 11/20 김태선(金泰善) 치안국장 보도는 직책이 같지만 이름 표기가 다르다",
+      "status": "CONFLICTED_IDENTITY_NOT_MERGED",
+      "supportingEvidenceDocumentIds": [
+        "doc-r199b-1120-0090",
+        "doc-r199-1113-0050",
+        "doc-r199b-aks-kim-tae-seon"
+      ],
+      "contradictingEvidenceDocumentIds": [
+        "doc-r199b-1120-0090",
+        "doc-r199-1113-0050"
+      ],
+      "insufficientEvidence": [
+        "같은 사람의 전사·오보 가능성 높아도 인사발령원본 전까지 candidate 김태순과 stable 김태선 자동병합 금지.",
+        "한국민족문화대백과는 김태선 1950-04 치안국장 취임·8월부터 전념으로 확인. 김태순 기사 오기 가능성은 강하나 11/13 원지면 미확인."
+      ],
+      "provenanceFamilies": [
+        "CONTEMPORARY_PRESS_DONGA",
+        "CONTEMPORARY_PRESS_KYUNGHYANG"
+      ],
+      "contemporaneousObservation": true,
+      "laterFinding": "PENDING_INDEPENDENT_ORIGINAL_WHEN_NEEDED",
+      "reviewDate": "2026-10-27",
+      "silentOverwriteForbidden": true
+    },
+    {
+      "id": "claim-r199b-05",
+      "statement": "11/17 군법회의 관할 계속 사건 처리 보도는 11/10 대통령령395 공포일과 시간상 충돌 소지가 있다",
+      "status": "NARROWED_LEGAL_PUBLICATION_CONFLICT",
+      "supportingEvidenceDocumentIds": [
+        "doc-r199b-1117-0070"
+      ],
+      "contradictingEvidenceDocumentIds": [],
+      "insufficientEvidence": [
+        "11/17 신문은 곧 대통령령 공포 예정이라 했지만 법제처 공식 목록은 11/10 제395호 공포·시행. 조문·관보 원면 필요."
+      ],
+      "provenanceFamilies": [
+        "CONTEMPORARY_PRESS",
+        "KOREAN_LAW_OFFICIAL_INDEX"
+      ],
+      "contemporaneousObservation": true,
+      "laterFinding": "PENDING_INDEPENDENT_ORIGINAL_WHEN_NEEDED",
+      "reviewDate": "2026-10-27",
+      "silentOverwriteForbidden": true
+    },
+    {
+      "id": "claim-r199b-06",
+      "statement": "11/15 법원 실종 판사 6개월 후 퇴직 간주안은 초안이며 1951-02-09 전국 42명 일괄 퇴직과 자동 동일하지 않다",
+      "status": "DRAFT_VS_LATER_IMPLEMENTATION",
+      "supportingEvidenceDocumentIds": [
+        "doc-r199b-1115-0020",
+        "doc-r199-scourt-2025-judge-history"
+      ],
+      "contradictingEvidenceDocumentIds": [],
+      "insufficientEvidence": [
+        "서울 21명/전국 42명, 초안 6개월 규정/1951 법원조직법 제40조 조치 비교 필요."
+      ],
+      "provenanceFamilies": [
+        "CONTEMPORARY_PRESS",
+        "KOREAN_JUDICIARY_LATER_INSTITUTIONAL_HISTORY"
+      ],
+      "contemporaneousObservation": true,
+      "laterFinding": "PENDING_INDEPENDENT_ORIGINAL_WHEN_NEEDED",
+      "reviewDate": "2026-10-27",
+      "silentOverwriteForbidden": true
+    },
+    {
+      "id": "claim-r199b-07",
+      "statement": "11/16 양곡 사설은 520만석 수집+외미70만석+하곡80만석=670만석 연수요를 정확히 합산하지만 정부 원안 자체는 별도",
+      "status": "INTERNAL_ARITHMETIC_CONSISTENT",
+      "supportingEvidenceDocumentIds": [
+        "doc-r199b-1116-0070",
+        "doc-r199-1111-0040"
+      ],
+      "contradictingEvidenceDocumentIds": [],
+      "insufficientEvidence": [
+        "520만석=상환미200+현물세140+매상180. 신문 사설은 독립 국무회의 의결문이 아님."
+      ],
+      "provenanceFamilies": [
+        "CONTEMPORARY_PRESS"
+      ],
+      "contemporaneousObservation": true,
+      "laterFinding": "PENDING_INDEPENDENT_ORIGINAL_WHEN_NEEDED",
+      "reviewDate": "2026-10-27",
+      "silentOverwriteForbidden": true
+    },
+    {
+      "id": "claim-r199b-08",
+      "statement": "11/19 서울시 40만명 구호양곡 1인1일 2홉 계획이 수송난으로 1홉4작(70%) 1차배급으로 축소되었다",
+      "status": "NARROWED_PLAN_VS_DISTRIBUTION",
+      "supportingEvidenceDocumentIds": [
+        "doc-r199b-1119-0040"
+      ],
+      "contradictingEvidenceDocumentIds": [],
+      "insufficientEvidence": [
+        "6작 추가배급 예정은 시행실적 아님. 개인당 2홉 계획과 실제 1.4홉 구분."
+      ],
+      "provenanceFamilies": [
+        "CONTEMPORARY_PRESS"
+      ],
+      "contemporaneousObservation": true,
+      "laterFinding": "PENDING_INDEPENDENT_ORIGINAL_WHEN_NEEDED",
+      "reviewDate": "2026-10-27",
+      "silentOverwriteForbidden": true
+    },
+    {
+      "id": "claim-r199b-09",
+      "statement": "11/21 부산경찰서 범죄 18개 유형 발생 합379 vs 기사 총377, 검거 합141 vs 기사 총265",
+      "status": "CONFLICTED_INTERNAL_ARITHMETIC",
+      "supportingEvidenceDocumentIds": [
+        "doc-r199b-1121-0090"
+      ],
+      "contradictingEvidenceDocumentIds": [
+        "doc-r199b-1121-0090"
+      ],
+      "insufficientEvidence": [
+        "절도 검거 13이 137이었다면 합265가 되지만 이는 계산상 가설, 원지면 확인 전 고치지 않음. 발생 합은 2 차이."
+      ],
+      "provenanceFamilies": [
+        "CONTEMPORARY_PRESS"
+      ],
+      "contemporaneousObservation": true,
+      "laterFinding": "PENDING_INDEPENDENT_ORIGINAL_WHEN_NEEDED",
+      "reviewDate": "2026-10-27",
+      "silentOverwriteForbidden": true
+    },
+    {
+      "id": "claim-r199b-10",
+      "statement": "11/20 경찰 치안국장의 유언비어·학생운동 단속 발언은 단속 결과나 법원 판결을 확정하지 않는다",
+      "status": "OPEN_ANNOUNCEMENT_VS_ACTION",
+      "supportingEvidenceDocumentIds": [
+        "doc-r199b-1120-0090"
+      ],
+      "contradictingEvidenceDocumentIds": [],
+      "insufficientEvidence": [
+        "검거·기소·재판 원장과 언론자유/학생표현권 관련 반대기록 필요."
+      ],
+      "provenanceFamilies": [
+        "CONTEMPORARY_PRESS"
+      ],
+      "contemporaneousObservation": true,
+      "laterFinding": "PENDING_INDEPENDENT_ORIGINAL_WHEN_NEEDED",
+      "reviewDate": "2026-10-27",
+      "silentOverwriteForbidden": true
+    },
+    {
+      "id": "claim-r199b-11",
+      "statement": "11/21 북한 세균전 기도 기사 내용은 UP 기자의 주장·심문 전언이며 실증된 세균전 계획으로 확정할 수 없다",
+      "status": "UNVERIFIED_WARTIME_ALLEGATION",
+      "supportingEvidenceDocumentIds": [
+        "doc-r199b-1121-0030"
+      ],
+      "contradictingEvidenceDocumentIds": [],
+      "insufficientEvidence": [
+        "미군 제187 공수부대 조사보고·의사 심문원문·현장 검증자료·반대 자료 미확보."
+      ],
+      "provenanceFamilies": [
+        "CONTEMPORARY_PRESS_UP_WIRE"
+      ],
+      "contemporaneousObservation": true,
+      "laterFinding": "PENDING_INDEPENDENT_ORIGINAL_WHEN_NEEDED",
+      "reviewDate": "2026-10-27",
+      "silentOverwriteForbidden": true
+    },
+    {
+      "id": "claim-r199b-12",
+      "statement": "11/21 서울 지하철 신설은 도시계획 구상이지 1950년 건설 착공이나 개통의 증거가 아니다",
+      "status": "NARROWED_PLAN_NOT_IMPLEMENTATION",
+      "supportingEvidenceDocumentIds": [
+        "doc-r199b-1121-0060"
+      ],
+      "contradictingEvidenceDocumentIds": [],
+      "insufficientEvidence": [
+        "시 도시계획 원안·예산·착공기록 필요."
+      ],
+      "provenanceFamilies": [
+        "CONTEMPORARY_PRESS"
+      ],
+      "contemporaneousObservation": true,
+      "laterFinding": "PENDING_INDEPENDENT_ORIGINAL_WHEN_NEEDED",
+      "reviewDate": "2026-10-27",
+      "silentOverwriteForbidden": true
+    },
+    {
+      "id": "claim-r199b-13",
+      "statement": "11/18 이승만 기술자협회 조직 권고는 정부 발표이며 협회 실제 설립·예산지출 확인과 구분해야 한다",
+      "status": "NARROWED_PRESIDENTIAL_APPEAL",
+      "supportingEvidenceDocumentIds": [
+        "doc-r199b-1118-0020"
+      ],
+      "contradictingEvidenceDocumentIds": [],
+      "insufficientEvidence": [
+        "협회 창립총회·등록·예산·정부 공문 확인 필요."
+      ],
+      "provenanceFamilies": [
+        "CONTEMPORARY_PRESS"
+      ],
+      "contemporaneousObservation": true,
+      "laterFinding": "PENDING_INDEPENDENT_ORIGINAL_WHEN_NEEDED",
+      "reviewDate": "2026-10-27",
+      "silentOverwriteForbidden": true
+    },
+    {
+      "id": "claim-r199b-14",
+      "statement": "11/20 서범석 등 공무원 급여 50% 현물지급은 국회 건의안 제출 단계다",
+      "status": "NARROWED_PROPOSAL_NOT_LAW",
+      "supportingEvidenceDocumentIds": [
+        "doc-r199b-1120-0030"
+      ],
+      "contradictingEvidenceDocumentIds": [],
+      "insufficientEvidence": [
+        "의안번호·국회 본회의 가결·정부 수용 여부 미확인."
+      ],
+      "provenanceFamilies": [
+        "CONTEMPORARY_PRESS"
+      ],
+      "contemporaneousObservation": true,
+      "laterFinding": "PENDING_INDEPENDENT_ORIGINAL_WHEN_NEEDED",
+      "reviewDate": "2026-10-27",
+      "silentOverwriteForbidden": true
+    },
+    {
+      "id": "claim-r199b-15",
+      "statement": "11/20 지주신고서 전쟁 소실 후 재접수·1951-02 지가증권 발급계획은 실제 교부 완료가 아니다",
+      "status": "NARROWED_PLAN_VS_REALIZATION",
+      "supportingEvidenceDocumentIds": [
+        "doc-r199b-1120-0050",
+        "doc-r199b-archives-land-bond",
+        "doc-r199b-nikh-land-reform-overview"
+      ],
+      "contradictingEvidenceDocumentIds": [],
+      "insufficientEvidence": [
+        "원토지대장·지가증권 발행원장·수취인명부 미확보."
+      ],
+      "provenanceFamilies": [
+        "CONTEMPORARY_PRESS"
+      ],
+      "contemporaneousObservation": true,
+      "laterFinding": "국가기록원은 1951-07-29 지가증권 발급 품의·누계 기록을 소장. 1950-11 발표 이후 일부 집행의 후대 증거지만 1951-02 목표 완수 여부는 별개.",
+      "reviewDate": "2026-10-27",
+      "silentOverwriteForbidden": true
+    },
+    {
+      "id": "claim-r199b-16",
+      "statement": "11/17 맥아더 중국군 25000~30000명 추정은 당시 발언이며 확정 병력 규모가 아니다",
+      "status": "CONTEMPORANEOUS_ESTIMATE_NOT_FACT",
+      "supportingEvidenceDocumentIds": [
+        "doc-r199b-1117-0020",
+        "doc-frus-r199b-d847"
+      ],
+      "contradictingEvidenceDocumentIds": [],
+      "insufficientEvidence": [
+        "원문 FRUS d847 대조. 추정 당시 전투접촉·후대 병력 산정 분리."
+      ],
+      "provenanceFamilies": [
+        "US_EMBASSY_ORIGINAL",
+        "US_GOV_FRUS_KOREAN_TRANSLATION"
+      ],
+      "contemporaneousObservation": true,
+      "laterFinding": "PENDING_INDEPENDENT_ORIGINAL_WHEN_NEEDED",
+      "reviewDate": "2026-10-27",
+      "silentOverwriteForbidden": true
+    },
+    {
+      "id": "claim-r199b-17",
+      "statement": "11/21 미국 국무·국방 수뇌부는 맥아더 계획과 유엔 우방의 전쟁확대 우려를 함께 논의했다",
+      "status": "POLICY_OPTIONS_NOT_FINAL_DECISION",
+      "supportingEvidenceDocumentIds": [
+        "doc-r199b-1121-0020",
+        "doc-frus-r199b-d864"
+      ],
+      "contradictingEvidenceDocumentIds": [],
+      "insufficientEvidence": [
+        "회의록 d864 원문, 실제 작전명령·영국 등 우방 공식반응은 별도."
+      ],
+      "provenanceFamilies": [
+        "US_STATE_DEPARTMENT_ORIGINAL",
+        "US_GOV_FRUS_KOREAN_TRANSLATION"
+      ],
+      "contemporaneousObservation": true,
+      "laterFinding": "PENDING_INDEPENDENT_ORIGINAL_WHEN_NEEDED",
+      "reviewDate": "2026-10-27",
+      "silentOverwriteForbidden": true
+    },
+    {
+      "id": "claim-r199b-18",
+      "statement": "11/21 조병옥 경찰 고문·복수행위 금지 성명은 정부 고위직의 공개 경고이지 실제 인권침해 중단 증거가 아니다",
+      "status": "NARROWED_PUBLIC_WARNING",
+      "supportingEvidenceDocumentIds": [
+        "doc-r199b-1121-0040",
+        "doc-r199-1113-0030"
+      ],
+      "contradictingEvidenceDocumentIds": [],
+      "insufficientEvidence": [
+        "경찰 징계·검찰 수사·진실화해위 사건별 기록으로 이행 확인 필요."
+      ],
+      "provenanceFamilies": [
+        "CONTEMPORARY_PRESS"
+      ],
+      "contemporaneousObservation": true,
+      "laterFinding": "PENDING_INDEPENDENT_ORIGINAL_WHEN_NEEDED",
+      "reviewDate": "2026-10-27",
+      "silentOverwriteForbidden": true
+    },
+    {
+      "id": "claim-r199b-19",
+      "statement": "11/21 이구하 함경남도 민정장관은 제10군단 발표에 따라 전형위원회 지명 보도되며 대한민국 정부 임명원부와는 구분해야 한다",
+      "status": "NARROWED_MILITARY_CIVIL_AUTHORITY",
+      "supportingEvidenceDocumentIds": [
+        "doc-r199b-1121-0100"
+      ],
+      "contradictingEvidenceDocumentIds": [],
+      "insufficientEvidence": [
+        "위원회 10명·시군 대표37명 원명부와 미 제10군단 군정/민정 권한 확인."
+      ],
+      "provenanceFamilies": [
+        "CONTEMPORARY_PRESS_UP_WIRE"
+      ],
+      "contemporaneousObservation": true,
+      "laterFinding": "PENDING_INDEPENDENT_ORIGINAL_WHEN_NEEDED",
+      "reviewDate": "2026-10-27",
+      "silentOverwriteForbidden": true
+    }
+  ],
+  "method": "독립 출처 계열 충돌과 동일 기사 내부 산술오류를 구분. 미확인 집행·혐의는 확정 사실로 전환하지 않음."
+}
