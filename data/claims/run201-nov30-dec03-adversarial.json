@@ -210,16 +210,26 @@
     {
       "id": "claim-r201-14",
       "statement": "1950년 12월 1일 사형금지법 공포가 일반 사형제 폐지를 뜻하는가?",
-      "status": "OPEN",
-      "assessment": "국사편찬위원회 연표에서 법률156호 명칭·공포만 확인. 법조문·적용범위·시행시점 미확인.",
+      "status": "NARROWED",
+      "assessment": "사형금지법의 사형은 私刑(자의적 처벌·린치)으로, 死刑(법원 사형선고) 일반폐지가 아님. 국가법령정보센터 법률156 시행·제정 확인, 원 조문은 동적 페이지에서 미추출. 제3조 적용대상 등은 원문 재검증 필요.",
       "supportingEvidenceDocumentIds": [
-        "doc-r201-nikh-19501201"
+        "doc-r201-nikh-19501201",
+        "doc-r201-law156-official"
       ],
       "contradictingOrQualifyingEvidenceDocumentIds": [],
-      "nextPrimaryTarget": "법제처 법률156호 관보 원문, 국회 심의 회의록",
+      "nextPrimaryTarget": "법률 제156호 私刑禁止法 1950-12-01 관보 원문, 제1~3조 및 법제처 법령 본문 전체",
       "provenanceCaveat": "FRUS items constitute one editorial provenance family despite different authors; UN index and Korean archive are separate, but are metadata rather than original minutes/facsimiles.",
       "reviewedAt": "2026-10-27",
-      "silentOverwriteForbidden": true
+      "silentOverwriteForbidden": true,
+      "reviewHistory": [
+        {
+          "date": "2026-10-27",
+          "oldStatus": "OPEN",
+          "oldAssessment": "Only NIKH title and promulgation confirmed",
+          "newStatus": "NARROWED",
+          "reason": "Official law portal metadata confirms Law156; independent historical research and official search-index article 1-3 references show 私刑 prohibition rather than 死刑 abolition. Full article text remains unextracted."
+        }
+      ]
     },
     {
       "id": "claim-r201-15",
@@ -239,9 +249,10 @@
       "id": "claim-r201-16",
       "statement": "장면이 12/4 주장한 청년단 50만 명은 검증된 실전 무장병력인가?",
       "status": "OPEN",
-      "assessment": "d962는 장면이 '무장하면 전투에 활용 가능'하다고 말한 것만 증명. 청년단 인원·훈련·실제 무장·동원 증거는 별도.",
+      "assessment": "d962는 장면이 '무장하면 전투에 활용 가능'하다고 말한 것만 증명. 청년단 인원·훈련·실제 무장·동원 증거는 별도. 12/6 d989 장면의 '무장 의사 약100만명' 발언은 12/4 청년단 50만명과 모집단이 달라 동일 병력수의 직접 모순으로 단정하지 않는다.",
       "supportingEvidenceDocumentIds": [
-        "doc-r201-frus-962"
+        "doc-r201-frus-962",
+        "doc-r201-frus-989"
       ],
       "contradictingOrQualifyingEvidenceDocumentIds": [],
       "nextPrimaryTarget": "대한청년단 1950 12월 회원원장·국방부 무기배정명령",
@@ -276,6 +287,35 @@
       "contradictingOrQualifyingEvidenceDocumentIds": [],
       "nextPrimaryTarget": "UN A/1618 original and UK Foreign Office instructions",
       "provenanceCaveat": "FRUS contemporaneous US record; original ROK, Indian or British records still needed",
+      "reviewedAt": "2026-10-27",
+      "silentOverwriteForbidden": true
+    },
+    {
+      "id": "claim-r201-19",
+      "statement": "1950-12-06 장면이 트루먼에게 대만 국부군 참전을 요청했고 대통령이 이를 승인했는가?",
+      "status": "NARROWED",
+      "assessment": "FRUS d989에 장면 요청과 트루먼의 어려움 설명이 기록. 국부군 사용 승인은 확인되지 않음. 군사원조 계속 의사와 타이완군 파병 허가를 구분.",
+      "supportingEvidenceDocumentIds": [
+        "doc-r201-frus-989",
+        "doc-r201-truman-calendar-19501206"
+      ],
+      "contradictingOrQualifyingEvidenceDocumentIds": [],
+      "nextPrimaryTarget": "1950-12-06 Korean Embassy aide-memoire not printed in FRUS d989, Truman Library protocol file",
+      "reviewedAt": "2026-10-27",
+      "silentOverwriteForbidden": true
+    },
+    {
+      "id": "claim-r201-20",
+      "statement": "Sae Sun Kim은 1950년 12월 장면 후임 주미대사로 실제 발령되었는가?",
+      "status": "OPEN",
+      "assessment": "Truman 대통령 일정표에는 후임이 될 것이라는 계획만 적혀 있음. AKS 우남C-6-1-0061은 Sae Sun Kim이 1950-04-11 이승만에게 서한을 보낸 기록물 색인, 실제 후임 임명·취임과는 무관. 발령원면 필요.",
+      "supportingEvidenceDocumentIds": [
+        "doc-r201-truman-calendar-19501206",
+        "doc-r201-aks-rhee-0061",
+        "doc-r201-frus-989"
+      ],
+      "contradictingOrQualifyingEvidenceDocumentIds": [],
+      "nextPrimaryTarget": "대한민국 1950-12~1951-01 주미대사 임명 관보, 외무부 인사기록, 미국 국무부 접수 의전서한",
       "reviewedAt": "2026-10-27",
       "silentOverwriteForbidden": true
     }
