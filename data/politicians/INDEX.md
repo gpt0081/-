@@ -321,3 +321,9 @@ Run208 신원검증: `cand-r207-kim-su-hak` 金秀學(1950 고창갑 당선, AKS
 ## Run210 · 1951-07-02~07 비대통령 행위자
 
 `data/politicians/run210-july02-07-actor-network.json`: 기존 stable 인물 재사용 및 안만복·양유정·손성겸 candidate ID 신설. 국회 질의, 군 지휘, 농정·재정, 지방 구호, 외교 행위를 사건·문서로 연결. `cand-r209-lee-jong-chan`은 Run209 기존 candidate ID 재사용, 한자 李鍾贊은 육본훈령191에서 직접 확인했으나 동명이인·생몰·원임명장 확인 전 canonical 병합 금지.
+
+## Run211 (2026-10-28): 이승만 시대 1951년 7월 독립 비대통령 네트워크
+
+[초기 인물 27기록](run211-july10-20-actor-network.json), [중기 22기록](run211-july16-20-actor-addendum.json), [후기 32기록](run211-july21-31-actor-addendum.json). 합계 81 evidence-linked actor records, 중복 제거한 비대통령 64명, 신규 provisional candidate 21명. 정식 registry 승격 **0명**: 신문 단독 등장과 생몰 미검증을 MATURE로 만들지 않음. 각각 ID, 이명·한자(확인 가능한 경우), 시기별 직책, 사건·문서, 확인수준, open lead를 보유.
+
+인물 동일성 방어선: 1951 방위군 김윤근 / 1950 청년단장 김윤근 / 1961 해병 김윤근은 별도 노드로 유지; 1951 국방차관 김일환과 1956 상공장관 김일환도 검증 전 병합 금지. 엄상섭의 嚴祥燮/嚴詳燮 한자 표기는 CONFLICTED. 탄핵재판소 5+5 심판관, 1951 의료법 의원, 경찰 인사, 은행·재정위원, 정당인, 총리·장관·외교관을 이승만 대통령의 단순 부속 인물이 아닌 독립 actor로 취급한다.
