@@ -225,3 +225,12 @@ See `data/politicians/run113-prewar-network.json` for 12 sourced profiles. No ca
 - `data/politicians/run182-immigration-legal-actors.json`: 조정환(曺正煥) 외무처장대리 원관보 전사 서명에 기반한 IDENTIFIED 후보 1명, 기존 박상영·권승렬·이종현·서상일·조영규 재사용 5명. 생몰·임명원부 미확보로 신규 VERIFIED 승격 없음.
 - `data/documents/run182-immigration-legal-documents.json`, `data/events/run182-immigration-legal-actions.json`, `data/claims/run182-immigration-legal-claims.json`: 원관보 전사·신문·후대 해제의 증거 등급을 분리. 기존 `d95-constitutional` 재사용.
 - `data/annals/1948-1963-immigration-legal-transition-run182.md`: 출입국법 제65호 국회·내각·공포·집행 단계 분리.
+
+
+## Run191 독립 인물 실록 활성화 (2026-10-27)
+
+- **조헌영** `pol-cho-heon-yeong`: `ANNALS_ACTIVE` (1948~50 국회·농정·귀속재산, 한국학중앙연구원 생몰 대조). `data/annals/cho-heon-yeong.md`, `data/evidence/cho-heon-yeong.json`.
+- **신성모** `pol-shin-sung-mo`: `ANNALS_ACTIVE` (6/25~27 총리서리·국방장관과 대통령의 정부이동 결정절차 상반 진술). `data/annals/shin-sung-mo.md`, `data/evidence/shin-sung-mo.json`.
+- **장면** `pol-chang-myon`: 기존 `VERIFIED` 유지, 6/26 트루먼 회담 주미대사 독립행위 보강. `data/annals/chang-myon-1950-war-onset.md`.
+- **신규 13명 후보**: `data/politicians/run191-1950-june-network.json`. 생몰·당선원부 미확보로 자동 승격하지 않음.
+- 문서·사건·주장 연결: `data/documents/run191-1950-june18-24-frus.json`, `data/documents/run191d-frus-war-onset.json`, `data/events/run191-1950-june18-24.json`, `data/events/run191d-war-onset.json`, `data/claims/run191-1950-june18-24.json`, `data/claims/run191d-war-onset.json`.
