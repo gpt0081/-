@@ -2429,7 +2429,11 @@
       "name": "신성모",
       "aliases": [
         "申性模",
-        "Shin Sung-mo"
+        "Shin Sung-mo",
+        "소창",
+        "少滄",
+        "신달모",
+        "申達模"
       ],
       "roles": [
         "국방부 장관",
@@ -2506,9 +2510,21 @@
           ],
           "attribution": "미 대사관이 기록한 신성모 진술; 위임장과 대통령 승인원문은 별도",
           "accessDate": "2026-10-27"
+        },
+        {
+          "period": "1921-04",
+          "title": "베이징 군사통일회의 통일당 측 서무·이승만 위임통치 청원 비판 성토문 서명자로 AKS 전기 기술",
+          "actionType": "SECONDARY_REPORTED_INDEPENDENCE_MOVEMENT_OPPOSITION",
+          "evidenceDocumentIds": [
+            "doc192-aks-shin"
+          ],
+          "eventIds": [
+            "evt-r192-17"
+          ],
+          "attribution": "AKS scholarly biography, 1921 signed petition original not yet seen"
         }
       ],
-      "researchStatus": "IDENTIFIED",
+      "researchStatus": "VERIFIED",
       "backbone": false,
       "connections": [
         "evt-1951-national-defense-corps",
@@ -2677,7 +2693,8 @@
         "evt-r181-1106-0050",
         "evt-r191-14",
         "evt-r191-21",
-        "evt-r192-07"
+        "evt-r192-07",
+        "evt-r192-17"
       ],
       "openLeads": [
         "L166-ID-pol-shin-sung-mo",
@@ -2697,8 +2714,23 @@
           "documentIds": [
             "doc192-frus1950v07-d101"
           ]
+        },
+        {
+          "date": "2026-10-27",
+          "from": "IDENTIFIED",
+          "to": "VERIFIED",
+          "reason": "US FRUS d101 named contemporary action + AKS independent biography corroborates identity and 1949-50 offices; 1921 claim remains secondary only",
+          "documentIds": [
+            "doc192-frus1950v07-d101",
+            "doc192-aks-shin"
+          ]
         }
-      ]
+      ],
+      "lifespan": {
+        "born": "1891-05-26",
+        "died": "1960-05-29",
+        "verification": "AKS scholarly biography; birth/death civil register not yet viewed"
+      }
     },
     {
       "id": "pol-choi-duk-shin",
@@ -2814,7 +2846,8 @@
       "aliases": [
         "蔡秉德",
         "Chae Byong-duk",
-        "Chae Pyong-dok"
+        "Chae Pyong-dok",
+        "大島秉德"
       ],
       "roles": [
         "육군 총참모장",
@@ -2856,7 +2889,7 @@
           "accessDate": "2026-10-27"
         }
       ],
-      "researchStatus": "IDENTIFIED",
+      "researchStatus": "VERIFIED",
       "backbone": false,
       "connections": [
         "evt-1950-han-river-bridge"
@@ -2901,8 +2934,23 @@
           "documentIds": [
             "doc192-frus1950v07-d101"
           ]
+        },
+        {
+          "date": "2026-10-27",
+          "from": "IDENTIFIED",
+          "to": "VERIFIED",
+          "reason": "US FRUS d101 identifies contemporary Chief of Army Staff + AKS independent compiled biography confirms 1950 April appointment and death",
+          "documentIds": [
+            "doc192-frus1950v07-d101",
+            "doc192-aks-chae"
+          ]
         }
-      ]
+      ],
+      "lifespan": {
+        "born": "1915",
+        "died": "1950-07-27",
+        "verification": "AKS scholarly biography; original family/casualty registry outstanding"
+      }
     },
     {
       "id": "pol-sohn-won-yil",
@@ -13505,13 +13553,15 @@
       "name": "김석원",
       "aliases": [
         "金錫源",
-        "Kim Suk-won"
+        "Kim Suk-won",
+        "金山錫源",
+        "Kaneyama Shakugen (AKS Japanese-style name; Romanization provisional)"
       ],
       "aliasVerification": "HANJA_FROM_CONTEMPORANEOUS_TEXT_ROMANIZATION_PROVISIONAL",
       "lifespan": {
-        "born": null,
-        "died": null,
-        "verification": "OPEN_IDENTITY_AND_ROSTER"
+        "born": "1893-09-29",
+        "died": "1978-08-06",
+        "verification": "AKS compiled biography; civil register not read"
       },
       "roles": [
         {
@@ -13521,12 +13571,35 @@
           "evidenceDocumentIds": [
             "doc164-0907-0060"
           ]
+        },
+        {
+          "period": "1950-06-26",
+          "title": "국방부장관 주재 군사유경험자회담 참가(학술전기 전언)",
+          "actionType": "SECONDARY_REPORTED_ADVISORY_MEETING_PARTICIPATION",
+          "evidenceDocumentIds": [
+            "doc192-aks-kim-seok-won"
+          ],
+          "eventIds": [
+            "evt-r192-18"
+          ],
+          "attribution": "AKS scholarly biography, meeting original roster not read"
+        },
+        {
+          "period": "1960-07",
+          "title": "제5대 민의원 선거 당선(학술전기 전언)",
+          "actionType": "SECONDARY_REPORTED_ELECTED_OFFICE",
+          "evidenceDocumentIds": [
+            "doc192-aks-kim-seok-won"
+          ],
+          "eventIds": [],
+          "attribution": "선관위 원선거록·관보 미열람"
         }
       ],
       "researchStatus": "IDENTIFIED",
       "backbone": false,
       "evidenceDocumentIds": [
-        "doc164-0907-0060"
+        "doc164-0907-0060",
+        "doc192-aks-kim-seok-won"
       ],
       "evidenceCoverage": {
         "sourceDocumentIds": [
@@ -13535,7 +13608,8 @@
         "originalFacsimile": false
       },
       "eventIds": [
-        "evt-r164-02"
+        "evt-r164-02",
+        "evt-r192-18"
       ],
       "openLeads": [
         "L164-ID-pol-r164-kim-seok-won"
@@ -13551,6 +13625,14 @@
           "note": "동명이인 및 생몰·공직 임명 원문 추가 대조 필요",
           "documentIds": [
             "doc164-0907-0060"
+          ]
+        },
+        {
+          "date": "2026-10-27",
+          "run": 192,
+          "note": "AKS 인물항목으로 생몰·이명·1950 군사회의·1960 국회의원 연결. 선거 원부 미확보로 IDENTIFIED 유지.",
+          "documentIds": [
+            "doc192-aks-kim-seok-won"
           ]
         }
       ]
