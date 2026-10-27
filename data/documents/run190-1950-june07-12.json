@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "run": "run190",
   "date": "2026-10-27",
-  "documentCount": 20,
+  "documentCount": 18,
   "documents": [
     {
       "id": "doc190-06070010",
@@ -119,25 +119,6 @@
       "originalPrintNotChecked": true
     },
     {
-      "id": "doc190-06070070",
-      "date": "1950-06-07",
-      "title": "안재홍·원세훈 등 평민당 재교섭",
-      "publication": "서울신문 1950-06-09",
-      "domain": "정당·헌정",
-      "originalLocation": "https://db.history.go.kr/contemp/level.do?levelId=dh_017_1950_06_07_0070",
-      "originalDocumentId": "dh_017_1950_06_07_0070",
-      "language": "ko",
-      "provenanceFamily": "KOREAN_CONTEMPORANEOUS_PRESS_TRANSCRIPTION",
-      "archive": "국사편찬위원회 자료대한민국사 제17권",
-      "accessDate": "2026-10-27",
-      "accessLevel": "SUBSTANTIVE_TEXT_DIRECTLY_OPENED",
-      "originalFacsimileViewed": false,
-      "originalNewspaperPageViewed": false,
-      "sourceType": "contemporaneous press reprint",
-      "summary": "조소앙 대리 조시원 참석; 재교섭은 정식 창당 아님",
-      "originalPrintNotChecked": true
-    },
-    {
       "id": "doc190-06070080",
       "date": "1950-06-07",
       "title": "이승만 5·30 선거 결과 담화",
@@ -154,25 +135,6 @@
       "originalNewspaperPageViewed": false,
       "sourceType": "contemporaneous press reprint",
       "summary": "92% 투표율 주장·유권자명부 누락 인정·정당후원설 부인; 자기발언",
-      "originalPrintNotChecked": true
-    },
-    {
-      "id": "doc190-06070090",
-      "date": "1950-06-07",
-      "title": "이시영 부통령 총선·신당설 문답",
-      "publication": "연합신문 1950-06-08",
-      "domain": "정당·인사",
-      "originalLocation": "https://db.history.go.kr/contemp/level.do?levelId=dh_017_1950_06_07_0090",
-      "originalDocumentId": "dh_017_1950_06_07_0090",
-      "language": "ko",
-      "provenanceFamily": "KOREAN_CONTEMPORANEOUS_PRESS_TRANSCRIPTION",
-      "archive": "국사편찬위원회 자료대한민국사 제17권",
-      "accessDate": "2026-10-27",
-      "accessLevel": "SUBSTANTIVE_TEXT_DIRECTLY_OPENED",
-      "originalFacsimileViewed": false,
-      "originalNewspaperPageViewed": false,
-      "sourceType": "contemporaneous press reprint",
-      "summary": "이시영 공개 문답, 기존 run189 등록 문서와 underlying URL 중복 가능성 주의",
       "originalPrintNotChecked": true
     },
     {
@@ -385,5 +347,9 @@
       "originalPrintNotChecked": true
     }
   ],
-  "strictCountPolicy": "20 unique substantive individual NIKH press transcription pages opened; source is contemporary but original facsimile not viewed; no claim of 20 original printed-page readings."
+  "strictCountPolicy": "20 distinct substantive NIKH pages directly opened in this run; 2 were already registered in prior runs and are reused by stable IDs; 18 new registry objects. Original newspaper facsimile 0.",
+  "existingStableDocumentIdsReused": {
+    "doc190-06070070": "doc187-party-jun7",
+    "doc190-06070090": "doc189-vp-0608"
+  }
 }
