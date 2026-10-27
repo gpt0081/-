@@ -177,3 +177,15 @@ Run209 추가 시기 검증: 말리크 6/23 연설 **이전**인 6/5 국회 정�
 [실행보고](data/research/runs/2026-10-28-run210-report.md) · [48개 직접열람 페이지](data/documents/run210-july02-07-source-registry.json) · [24개 사건](data/events/run210-july02-07-governance-actions.json) · [17개 반증](data/claims/run210-july02-07-adversarial.json) · [43개 원문표적](data/research/lead-queues/run210-next.json). 육본훈령191의 7/10 직결처분권 취소, UNKRA/UNC 전시 지휘권 분리, 하곡수집 지역합계 충돌을 보존. 엄격한 3계열 원문 완결 0, Floot 미변경.
 
 Run210 후속 확장: 최초 48개 원문 이후 FRUS 7/8~11 9개 추가 직접 열람, 합계 **57개**. 7/11 Hickerson→Kingsley UNC-UNKRA 2단계 권한안, 7/10 Acheson 특별계정 달러 방출 건의, 7/10 JCS95977 작전권한, 7/8~10 정전회담 합의·불일치를 사건 그래프에 추가. [실행보고](data/research/runs/2026-10-28-run210-report.md).
+
+## Run211: 1951년 7월 10~31일 대량채굴과 독립 정치인 노드 (2026-10-28)
+
+이 저장소의 최종 목적은 **대한민국 역대 주요 정치인 전체의 검증 가능한 실록**이다. 대통령은 시계열 backbone이지 연구대상의 경계가 아니다. Run211에서는 이승만 재임기의 전쟁·외교뿐 아니라 군법회의 법률 제210호, 육본훈령 제194호, 탄핵재판소, 제2국민병, 의료법, 산업은행, 국회, 재건, 무역·재정·고무제품 관리 등 평시 국정행위를 확장했다. **원문 본문 237개, event/action 98개, claim audit 85개, 비대통령 고유 노드 64개(신규 candidate 21개)**. 번역 오류·산술 충돌·증언 충돌을 삭제하지 않고 별도 provenance와 역사부채로 보존한다. 검색 스니펫이나 빈 날짜 페이지는 문서 수에 포함하지 않는다. 원면 이미지는 아직 0건이므로 판독완료로 표시하지 않는다.
+
+- [Run211 연구 보고](data/research/runs/2026-10-28-run211-report.md) · [실행 ledger](data/research/runs/2026-10-28-run211-ledger.json) · [다음 원문 표적 68개](data/research/lead-queues/run211-next.json)
+- [7/10~20 FRUS+국편 문서 registry](data/documents/run211-july10-20-source-registry.json) · [7/16~20 보강](data/documents/run211-july16-20-source-addendum.json) · [7/21~31 보강](data/documents/run211-july21-31-source-addendum.json)
+- [인물 관계](data/politicians/run211-july10-20-actor-network.json) · [후속 인물 1](data/politicians/run211-july16-20-actor-addendum.json) · [후속 인물 2](data/politicians/run211-july21-31-actor-addendum.json) · [claim 반증](data/claims/run211-july21-31-adversarial-addendum.json) · [역사부채](data/research/history-debt/run211-july10-31.json)
+
+주간 역사부채 전수조사는 일요일 Asia/Seoul 첫 실행에서만 시행한다. **2026-10-28 수요일: 역사부채 주간 전수조사 미실시.**
+
+Run211 법제처 후속 확인: 국민의료법은 1951-09-25 법률 제221호로 공포되어 1951-12-25 시행되었다. 7월 심의 단계와 공포·시행을 혼동하지 않는다. 공식 법령 메타데이터는 본문 237개에 추가 계상하지 않았다.
