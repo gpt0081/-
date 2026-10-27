@@ -1,23 +1,23 @@
 {
   "updated": "2026-10-27",
   "project": "대한민국 역대 정치인 실록",
-  "branchRef": "refs/heads/research/run203-20261027-dec18-31-governance-legal",
+  "branchRef": "refs/heads/research/run204-20261027-un-vote-korean-correspondence",
   "branchHeadResolution": "READ_LIVE_REF_NOT_CACHED_SHA",
-  "lastCompletedRun": 203,
-  "latestRunReport": "data/research/runs/2026-10-27-run203-report.md",
-  "latestLeadQueue": "data/research/lead-queues/run203-next.json",
-  "latestDocumentRegistry": "data/documents/run203-dec18-31-originals.json",
-  "latestEventOverlay": "data/events/run203-dec18-31-actions.json",
-  "latestClaimOverlay": "data/claims/run203-dec18-31-adversarial.json",
-  "latestPoliticianOverlay": "data/politicians/run203-dec18-31-actors.json",
-  "latestDebtAddenda": "data/research/history-debt/run203.md",
-  "latestAnnals": "data/annals/run203-dec18-31-statecraft.md",
+  "lastCompletedRun": 204,
+  "latestRunReport": "data/research/runs/2026-10-27-run204-report.md",
+  "latestLeadQueue": "data/research/lead-queues/run204-next.json",
+  "latestDocumentRegistry": "data/documents/run204-korean-correspondence-frus.json",
+  "latestEventOverlay": "data/events/run204-korean-diplomacy-actions.json",
+  "latestClaimOverlay": "data/claims/run204-korean-source-adversarial.json",
+  "latestPoliticianOverlay": "data/politicians/run204-korean-diplomacy-actors.json",
+  "latestDebtAddenda": "data/research/history-debt/run204-un-vote.md",
+  "latestAnnals": "data/annals/run204-rhee-1951-38th-parallel-cross-provenance.md",
   "next": [
-    "L203-10",
-    "L203-12",
-    "L203-14",
-    "L203-01",
-    "L203-36"
+    "L204-01",
+    "L204-13",
+    "L204-14",
+    "L204-19",
+    "L204-09"
   ],
   "flootUntouched": true,
   "latestFileIndex": "data/research/runs/run110-file-index.json",
@@ -30,10 +30,11 @@
     "data/research/runs/2026-10-09-run110f-ledger.json"
   ],
   "latestCoverageOverlays": [
-    "data/research/coverage/run203.json"
+    "data/research/coverage/run203.json",
+    "data/research/coverage/run204.json"
   ],
   "latestRun": 201,
-  "latestRunLedger": "data/research/runs/2026-10-27-run201-ledger.json",
+  "latestRunLedger": "data/research/runs/2026-10-27-run204-ledger.json",
   "latestLeadAddendum": "data/research/lead-queues/run115-addendum.json",
   "latestFinalAddendum": "data/research/runs/2026-10-09-run115-final-addendum.json",
   "latestLeadFinalAddendum": "data/research/lead-queues/run115-press-addendum.json",
@@ -152,8 +153,8 @@
     "sourceAudit": "data/research/runs/2026-10-09-run126-final-ledger.json"
   },
   "updatedAt": "2026-10-27",
-  "latestRunBranch": "research/run198-20261027-oct18-21-adversarial-governance",
-  "latestRunCommit": "083aab8c3f3d77a75a04583486dd0e78bc693b11",
+  "latestRunBranch": "research/run204-20261027-un-vote-korean-correspondence",
+  "latestRunCommit": "2810abfcad567ab463db056fb4223c75d0379951",
   "latestCorrection": "data/research/corrections/run189-election-table.md",
   "nextPriority": [
     "L198-01",
@@ -213,7 +214,7 @@
   "lastRun": 198,
   "lastRunDate": "2026-10-27",
   "lastRunReport": "data/research/runs/2026-10-27-run198-report.md",
-  "nextLeadQueue": "data/research/lead-queues/run198-next.json",
+  "nextLeadQueue": "data/research/lead-queues/run204-next.json",
   "run150": {
     "ledger": "data/research/runs/2026-10-12-run150-ledger.json",
     "documentRegistry": "data/documents/run150-1955-56-press-local.json",
@@ -378,5 +379,22 @@
     "flootUntouched": true,
     "canonicalPoliticianRootSynced": false,
     "canonicalEventRootSynced": false
+  },
+  "run204": {
+    "date": "2026-10-27",
+    "branch": "research/run204-20261027-un-vote-korean-correspondence",
+    "commits": [
+      "b25e6105b0fb82e6c85243be3e9d51e65c9dbe6f",
+      "2810abfcad567ab463db056fb4223c75d0379951"
+    ],
+    "documentsOpenedFull": 17,
+    "primaryOrContemporaneous": 16,
+    "unVoteConflict": "HD-R204-01 CONFLICTED",
+    "actorsDeepened": 5,
+    "events": 15,
+    "claims": 9,
+    "leads": 30,
+    "weeklyFullReview": "NOT_RUN_TUESDAY",
+    "flootUntouched": true
   }
 }

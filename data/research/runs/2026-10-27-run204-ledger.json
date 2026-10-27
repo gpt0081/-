@@ -11,8 +11,8 @@
   ],
   "nonPresidentActorsDeepened": 5,
   "eventsOrSubevents": 15,
-  "directDocumentsContentOpened": 12,
-  "originalOrContemporaneousOfThose": 11,
+  "directDocumentsContentOpened": 17,
+  "originalOrContemporaneousOfThose": 16,
   "metadataOnlyCatalogsOpened": 6,
   "unreadableOriginalPdf": 1,
   "adversarialClaimAudits": 9,
@@ -26,8 +26,11 @@
     "A/C.1/SR.438 scanned PDF text unavailable",
     "NIKH correspondence images not inspected",
     "No Korean cabinet minutes read",
-    "Prior run203d FRUS d120/d125/d129/d134/d135 reused but not counted as newly opened documents"
+    "Existing FRUS d120/d125/d129/d134/d135 reopened and counted as unique full documents, but not re-registered"
   ],
-  "commits": [],
-  "note": "Ledger counts are conservative; separate PDF full-text extraction from catalog-only access."
+  "commits": [
+    "b25e6105b0fb82e6c85243be3e9d51e65c9dbe6f",
+    "2810abfcad567ab463db056fb4223c75d0379951"
+  ],
+  "note": "17 unique full-text documents reviewed; original/near-contemporaneous 16; UN SR438 scan text unavailable and 6 NIKH catalog-only pages excluded."
 }

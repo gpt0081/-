@@ -2071,3 +2071,13 @@ Run202 12/15~17 추가: [HD-R202-20~24](history-debt/run202.md) 국민방위군�
 ## Run203 증분 역사부채 연결 (2026-10-27, 화요일)
 
 [Run203 역사부채 15건](history-debt/run203.md): 영국군 목격 12/20 총살 17명/20명 충돌, 12/15 홍제리 39명 별도, 12/22 특사 10년/12년 충돌, 법률172호 공포와 12/16 표결 분리, 국회 남하안 부결·휴회, 서울정부 잔류발언 대 부처별 이전, 피난·계엄·병역·도로·농정·조세 실제집행 검증. 기존 HD-R202-13/14/15/16/19/20/21/23/24 추적. **역사부채 주간 전수조사 미실시**, `last_full_review` 불변.
+
+### 2026-10-27 run204 targeted review: UN committee-vote conflict (NOT weekly full review)
+
+- **HD-R204-01 CONFLICTED:** FRUS 1951 VII/1 d118 editor says First Committee 1951-01-30 **45-7-8**; contemporaneous UN A/1770 paragraph 18 says **44-7-8** and enumerates 44 affirmative states. A/C.1/SR.438 original scan found but text extraction null. Preserve both and inspect original roll call; do not silently correct.
+- **HD-R204-02 NARROWED:** UN plenary A/PV.327 1951-02-01 records 44-7-9. Saudi delegate Haliq said nonparticipation; chair ruled abstention. Distinct date/body from committee.
+- **HD-R204-03 NARROWED:** UK Hansard 1951-02-01 original vs amended draft and UN A/1771 establish 'rejected all' changed to 'has not accepted' and good-offices deferral.
+- **HD-R204-04 NARROWED:** UK Hansard 1951-03-22 major-advance consultation vs FRUS d135 rejection of per-state veto. UK Cabinet/Bevin 1951-02-14 original and 1951-02-21 Rusk memorandum still needed.
+- **HD-R204-05 OPEN:** NIKH Rhee correspondence le_003_0300, le_003_0480, le_003_0730, le_003_1480 cataloged. Original image contents, delivery and recipient response unverified.
+- **HD-R204-06 NARROWED:** FRUS d169 1951-03-17 records Clarence Ryee draft handoff and reports language differences; Cabinet discussion and causal attribution are Muccio inference, not proven government orders. Target ROK 1951-03-13 cabinet minutes and 1951-03-15 bilingual releases.
+- Revisited L203D-01/02/03/04/05/06/08/10 without forced RESOLVED. **역사부채 주간 전수조사 미실시** (Tuesday Asia/Seoul). `last_full_review` unchanged.
