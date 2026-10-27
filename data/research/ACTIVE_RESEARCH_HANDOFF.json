@@ -1,23 +1,23 @@
 {
   "updated": "2026-10-28",
   "project": "대한민국 역대 정치인 실록",
-  "branchRef": "refs/heads/research/run213-1951-augsep-source-contradictions",
+  "branchRef": "refs/heads/research/run222-febmar1952-frus-policy-actor-crosscheck",
   "branchHeadResolution": "READ_LIVE_REF_NOT_CACHED_SHA",
-  "lastCompletedRun": 213,
-  "latestRunReport": "data/research/runs/2026-10-28-run213-final-report.md",
-  "latestLeadQueue": "data/research/lead-queues/run213-final-next.json",
-  "latestDocumentRegistry": "data/documents/run213-aug25-31-addendum.json",
-  "latestEventOverlay": "data/events/run213-aug25-31-actions.json",
-  "latestClaimOverlay": "data/claims/run213-aug25-31-adversarial.json",
-  "latestPoliticianOverlay": "data/politicians/run213-aug25-31-actor-network.json",
-  "latestDebtAddenda": "data/research/history-debt/run213-aug25-31.json",
-  "latestAnnals": "data/annals/run213-aug25-31.md",
+  "lastCompletedRun": 222,
+  "latestRunReport": "data/research/runs/2026-10-28-run222-report.md",
+  "latestLeadQueue": "data/research/lead-queues/run222-next.json",
+  "latestDocumentRegistry": "data/documents/run222-febmar1952-frus-korean.json",
+  "latestEventOverlay": "data/events/run222-febmar1952-actions.json",
+  "latestClaimOverlay": "data/claims/run222-febmar1952-adversarial.json",
+  "latestPoliticianOverlay": "data/politicians/run222-febmar1952-actors.json",
+  "latestDebtAddenda": "data/research/history-debt/run222.json",
+  "latestAnnals": "data/annals/rhee-febmar1952-run222.md",
   "next": [
-    "L206d-01",
-    "L206d-02",
-    "L206d-03",
-    "L206d-04",
-    "L206d-05"
+    "L222-001",
+    "L222-002",
+    "L222-004",
+    "L222-011",
+    "L222-014"
   ],
   "flootUntouched": true,
   "latestFileIndex": "data/research/runs/run110-file-index.json",
@@ -37,15 +37,15 @@
     "data/research/coverage/run204de.json",
     "data/research/coverage/run206.json"
   ],
-  "latestRun": 213,
-  "latestRunLedger": "data/research/runs/2026-10-28-run213-final-ledger.json",
+  "latestRun": 222,
+  "latestRunLedger": "data/research/runs/2026-10-28-run222-ledger.json",
   "latestLeadAddendum": "data/research/lead-queues/run115-addendum.json",
   "latestFinalAddendum": "data/research/runs/2026-10-09-run115-final-addendum.json",
   "latestLeadFinalAddendum": "data/research/lead-queues/run115-press-addendum.json",
   "latestMetricCorrection": "data/research/runs/2026-10-09-run115-metric-correction.json",
   "latestRunAddendum": "data/research/history-debt/run193-parliament-budget.md",
   "latestLawCrosscheck": "data/claims/run116b-final-law-crosscheck.json",
-  "latestEvidenceOverlay": "data/evidence/rhee/run198-october-governance.json",
+  "latestEvidenceOverlay": "data/evidence/politicians/run222-evidence.json",
   "latestRunAddenda": [
     "data/research/runs/2026-10-09-run117-biography-addendum.json",
     "data/research/runs/2026-10-09-run117-law44-addendum.json",
@@ -439,5 +439,14 @@
       ],
       "note": "New party-formation three independent contemporaneous provenance families compared, direct control unresolved."
     }
+  },
+  "latestCoverageOverlay": "data/research/coverage/run222.json",
+  "run222Handoff": {
+    "basePR": 70,
+    "headPR": 71,
+    "commit": "c96c9d9a3e29d17e0b7bfa11e631fe48c5ae94ed",
+    "note": "Continue from run222 specific original-document targets; prior 213 handoff metadata was stale, legacy historical fields preserved",
+    "sourceFamilyWarning": "US FRUS 43 records are not 43 independent provenance families",
+    "weeklyHistoryDebtFullReview": false
   }
 }
