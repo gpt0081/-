@@ -1,7 +1,7 @@
 {
   "run": 212,
   "accessDate": "2026-10-28",
-  "nonPresidentActorsDeepened": 36,
+  "nonPresidentActorsDeepened": 38,
   "newCandidateIds": 11,
   "politicians": [
     {
@@ -603,14 +603,27 @@
           "eventIds": [
             "evt-r212-25"
           ]
+        },
+        {
+          "period": "1951-08-17",
+          "title": "대일강화 초안 국회 보고",
+          "actionType": "CONTEMPORANEOUS_SPEECH_REPORT",
+          "evidenceDocumentIds": [
+            "doc-r212-dh-1951-08-17-0070"
+          ],
+          "eventIds": [
+            "evt-r212-42"
+          ]
         }
       ],
       "linkedDocumentIds": [
         "doc-r212-dh-1951-08-01-0080",
-        "doc-r212-dh-1951-08-11-0050"
+        "doc-r212-dh-1951-08-11-0050",
+        "doc-r212-dh-1951-08-17-0070"
       ],
       "linkedEventIds": [
-        "evt-r212-05"
+        "evt-r212-05",
+        "evt-r212-42"
       ],
       "openLead": "국회·대법원·관보 원명부/임명장 및 생몰 공적 전거 확인; 동명이인 자동병합 금지",
       "promotion": "EXISTING_ID_REUSED_OR_CANDIDATE_ONLY",
@@ -767,14 +780,27 @@
           "eventIds": [
             "evt-r212-25"
           ]
+        },
+        {
+          "period": "1951-08-17",
+          "title": "제주도 순시 훈시 보도",
+          "actionType": "CONTEMPORANEOUS_SPEECH_REPORT",
+          "evidenceDocumentIds": [
+            "doc-r212-dh-1951-08-17-0060"
+          ],
+          "eventIds": [
+            "evt-r212-41"
+          ]
         }
       ],
       "linkedDocumentIds": [
         "doc-r212-frus1951v7p1-d483",
-        "doc-r212-dh-1951-08-11-0050"
+        "doc-r212-dh-1951-08-11-0050",
+        "doc-r212-dh-1951-08-17-0060"
       ],
       "linkedEventIds": [
-        "evt-r212-07"
+        "evt-r212-07",
+        "evt-r212-41"
       ],
       "openLead": "국회·대법원·관보 원명부/임명장 및 생몰 공적 전거 확인; 동명이인 자동병합 금지",
       "promotion": "EXISTING_ID_REUSED_OR_CANDIDATE_ONLY",
@@ -1258,6 +1284,64 @@
       ],
       "openLead": "1951-08 원임명장·공적 인명전거·생몰·동명이인 원부 확인",
       "promotion": "CANDIDATE_ONLY",
+      "accessDate": "2026-10-28"
+    },
+    {
+      "id": "pol-yang-yu-chan",
+      "name": "양유찬",
+      "aliases": [],
+      "birthDeathVerification": "EXISTING_REGISTRY_ID_REUSED",
+      "researchStatus": "IDENTIFIED",
+      "periodRoles": [
+        {
+          "period": "1951-08",
+          "title": "주미대사 조약 수정초안 전달 보도",
+          "actionType": "SOURCE_REPORTED_ROLE",
+          "evidenceDocumentIds": [
+            "doc-r212-dh-1951-08-17-0070"
+          ],
+          "eventIds": [
+            "evt-r212-42"
+          ]
+        }
+      ],
+      "linkedDocumentIds": [
+        "doc-r212-dh-1951-08-17-0070"
+      ],
+      "linkedEventIds": [
+        "evt-r212-42"
+      ],
+      "openLead": "국회·외교사료관 해당 시기 원전문 및 임명원부 확인",
+      "promotion": "EXISTING_STABLE_ID_REUSED",
+      "accessDate": "2026-10-28"
+    },
+    {
+      "id": "pol-r139-jang-taek-sang",
+      "name": "장택상",
+      "aliases": [],
+      "birthDeathVerification": "EXISTING_REGISTRY_ID_REUSED",
+      "researchStatus": "IDENTIFIED",
+      "periodRoles": [
+        {
+          "period": "1951-08",
+          "title": "국회 부의장 국민방위군 진정 접수(8/15 보도)",
+          "actionType": "SOURCE_REPORTED_ROLE",
+          "evidenceDocumentIds": [
+            "doc-r212-dh-1951-08-15-0070"
+          ],
+          "eventIds": [
+            "evt-r212-34"
+          ]
+        }
+      ],
+      "linkedDocumentIds": [
+        "doc-r212-dh-1951-08-15-0070"
+      ],
+      "linkedEventIds": [
+        "evt-r212-34"
+      ],
+      "openLead": "국회·외교사료관 해당 시기 원전문 및 임명원부 확인",
+      "promotion": "EXISTING_STABLE_ID_REUSED",
       "accessDate": "2026-10-28"
     }
   ],
