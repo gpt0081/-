@@ -10070,12 +10070,16 @@
       "name": "양유찬",
       "aliases": [
         "Yang Yu-chan",
-        "Yang You-chan"
+        "Yang You-chan",
+        "You Chan Yang",
+        "양유찬",
+        "梁裕燦"
       ],
       "lifespan": {
-        "born": null,
-        "died": null,
-        "verification": "not_checked"
+        "born": "1897",
+        "bornPrecision": "year",
+        "died": "1975-10-20",
+        "verification": "AKS 2023 revised biography, not vital record"
       },
       "roles": [
         "1955-08-12 대한민국 정부를 대표하여 한미 합의의사록 수정 서명",
@@ -10094,6 +10098,21 @@
             "doc158c-frus-303"
           ],
           "sourceQualification": "FRUS original report or editor note, original Korean record pending"
+        },
+        {
+          "period": "1951-04..1951-06-06",
+          "title": "장면 후임 주미대사 임명·미국 신임장 수리",
+          "actionType": "DIPLOMATIC_APPOINTMENT_AND_CREDENTIALS",
+          "evidenceDocumentIds": [
+            "doc-r201-aks-yang-biography",
+            "doc-r201-us-state-protocol-korea"
+          ],
+          "eventIds": [
+            "evt-r201-24",
+            "evt-r201-25"
+          ],
+          "attribution": "AKS 1951-04 Korean appointment; US Chief of Protocol 1951-05-22 appointment list and 06-06 credentials; Korean appointment original not inspected",
+          "accessDate": "2026-10-27"
         }
       ],
       "roleTimeline": [
@@ -10109,7 +10128,9 @@
         "대한민국 정부"
       ],
       "eventIds": [
-        "evt-r150-19550812-exchange500"
+        "evt-r150-19550812-exchange500",
+        "evt-r201-24",
+        "evt-r201-25"
       ],
       "connections": [
         "evt-r150-19550812-exchange500"
@@ -10119,13 +10140,16 @@
         "doc156-frus-235",
         "doc156-frus-229",
         "doc158b-frus-262",
-        "doc158c-frus-303"
+        "doc158c-frus-303",
+        "doc-r201-aks-yang-biography",
+        "doc-r201-us-state-protocol-korea"
       ],
       "researchStatus": "VERIFIED",
       "promotionReason": "국가법령정보센터 원조약에 서명자 양유찬이 명시됨; 다른 직책·생몰은 미검증",
       "openLeads": [
         "L150-51",
-        "L156-33"
+        "L156-33",
+        "L201-51"
       ],
       "historyDebtIds": [],
       "backbone": false,
@@ -10138,8 +10162,22 @@
             "doc156-frus-235",
             "doc156-frus-229"
           ]
+        },
+        {
+          "date": "2026-10-27",
+          "run": 201,
+          "note": "1950-12-06 트루먼 일정표에는 Sae Sun Kim이 장면 후임으로 예정되어 있었으나, 미국 공식 의전목록에는 1951-05-22/06-06 양유찬이 후임 정식 주미대사로 등장. 한국 AKS 전기는 1951-04 임명으로 서술. 국내 임명·미국 인정·신임장 단계를 분리.",
+          "documentIds": [
+            "doc-r201-us-state-protocol-korea",
+            "doc-r201-aks-yang-biography"
+          ],
+          "eventIds": [
+            "evt-r201-24",
+            "evt-r201-25"
+          ]
         }
-      ]
+      ],
+      "researchUpdatedAt": "2026-10-27"
     },
     {
       "id": "pol-chang-myon",
@@ -10363,7 +10401,8 @@
         "evt-r198-14",
         "evt-r200b-10",
         "evt-r201-17",
-        "evt-r201-22"
+        "evt-r201-22",
+        "evt-r201-25"
       ],
       "connections": [
         "evt-r149-1955-democratic",
@@ -10403,7 +10442,8 @@
         "doc-r200b-23_0060",
         "doc-r201-frus-962",
         "doc-r201-frus-989",
-        "doc-r201-truman-calendar-19501206"
+        "doc-r201-truman-calendar-19501206",
+        "doc-r201-us-state-protocol-korea"
       ],
       "researchStatus": "VERIFIED",
       "promotionReason": "국가기록원 정당지도부·AKS 인물해제·1956 후보지명 사진목록",
@@ -27424,24 +27464,28 @@
       "organizationIds": [],
       "eventIds": [
         "evt-r201-17",
-        "evt-r201-22"
+        "evt-r201-22",
+        "evt-r201-25"
       ],
       "connections": [
         "pol-chang-myon",
-        "pol-rhee-syngman"
+        "pol-rhee-syngman",
+        "pol-yang-yu-chan"
       ],
       "evidenceDocumentIds": [
         "doc-r201-frus-962",
         "doc-r201-frus-989",
         "doc-r201-truman-calendar-19501206",
-        "doc-r201-aks-rhee-0061"
+        "doc-r201-aks-rhee-0061",
+        "doc-r201-us-state-protocol-korea"
       ],
       "researchStatus": "IDENTIFIED",
       "promotionReason": "1950-04-11 Korean AKS Rhee letter catalog and 1950-12-04/06 US diplomatic/presidential records independently identify same romanized name and embassy office; Korean spelling and actual successor appointment still unknown; IDENTIFIED only",
       "openLeads": [
         "L201-41",
         "L201-48",
-        "L201-49"
+        "L201-49",
+        "L201-52"
       ],
       "historyDebtIds": [],
       "backbone": false,
@@ -27467,6 +27511,18 @@
             "evt-r201-22"
           ],
           "maturityChange": "DISCOVERED->IDENTIFIED; verified Korean spelling still pending"
+        },
+        {
+          "date": "2026-10-27",
+          "run": 201,
+          "note": "트루먼 일정표 1950-12-06 Sae Sun Kim 후임 예정 ↔ 미국 의전목록의 실제 후임 정식 대사는 양유찬. Kim의 정식 대사 임명 증거 없음. 1950-12~1951-06 임시 대리대사 재직 가능성은 OPEN.",
+          "documentIds": [
+            "doc-r201-truman-calendar-19501206",
+            "doc-r201-us-state-protocol-korea"
+          ],
+          "eventIds": [
+            "evt-r201-25"
+          ]
         }
       ],
       "researchUpdatedAt": "2026-10-27"
