@@ -1069,5 +1069,82 @@
     "claimRegistry": "data/claims/run190b-1950-june17.json",
     "newLeads": 12,
     "guardrail": "6/17 정부미 결의·6/18 재조정·6/19 계획 시행과 실제 배급원부 구분"
+  },
+  "run191Addendum": {
+    "date": "2026-10-27",
+    "domains": [
+      "외교·안보",
+      "군수·재정",
+      "정당·국제기구",
+      "치안·사법",
+      "금융·행정",
+      "전쟁·국회",
+      "정보·언론"
+    ],
+    "documentRegistry": "data/documents/run191-prewar-primary-and-institutional.json",
+    "claimRegistry": "data/claims/run191-prewar-adversarial.json",
+    "eventRegistry": "data/events/run191-prewar-actor-chain.json",
+    "nonPresidentActorCandidates": [
+      "pol-r191-lee-in-gyu",
+      "pol-r191-kim-tae-hong",
+      "pol-r191-kim-chae-chang"
+    ],
+    "sourceGuardrails": [
+      "FRUS d56의 대통령 발언은 외교 회담 자기진술이며 한국군 선제공격 명령 아님",
+      "1951년 KMAG 감축안과 1950년 실제 병력구성 구분",
+      "CIA 6/19 서울 점령 가능성 평가와 6/25 공격시각 사전인지 구분",
+      "북측 사절 전향 방송과 자발성 미확인 구분",
+      "금통위 공식 후대 연혁과 원회의록 구분"
+    ],
+    "extraDomains": [
+      "민간인 대피",
+      "군수 조달",
+      "국제기구 문안 협상"
+    ],
+    "extraDocuments": [
+      "doc191-frus1950v07-d65",
+      "doc191-frus1950v07-d66",
+      "doc191-frus1950v07-d68",
+      "doc191-frus1950v07-d69",
+      "doc191-frus1950v07-d70",
+      "doc191-frus1950v07-d71",
+      "doc191-frus1950v07-d72",
+      "doc191-frus1950v07-d73",
+      "doc191-frus1950v07-d74",
+      "doc191-frus1950v07-d75",
+      "doc191-frus1950v07-d76",
+      "doc191-frus1950v07-d78"
+    ],
+    "extraEvents": [
+      "evt-r191-15",
+      "evt-r191-16",
+      "evt-r191-17",
+      "evt-r191-18",
+      "evt-r191-19",
+      "evt-r191-20",
+      "evt-r191-21",
+      "evt-r191-22",
+      "evt-r191-23"
+    ],
+    "koreanCrossFamilyAddendum": {
+      "date": "2026-10-27",
+      "documents": [
+        "doc191-nikh-0625-cabinet",
+        "doc191-nikh-0625-session",
+        "doc191-nikh-0625-convocation"
+      ],
+      "UNMetadata": [
+        "doc191-un-sc82-vote",
+        "doc191-un-sc82-final",
+        "doc191-un-sc82-draft"
+      ],
+      "events": [
+        "evt-r191-24",
+        "evt-r191-25",
+        "evt-r191-26"
+      ],
+      "politician": "pol-chang-myon",
+      "guardrail": "UN 원속기록 본문 미열람"
+    }
   }
 }

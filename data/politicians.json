@@ -160,6 +160,58 @@
             "evt-r190b-04"
           ],
           "accessDate": "2026-10-27"
+        },
+        {
+          "period": "1950-06-19",
+          "title": "덜레스 회담에서 적극적인 통일정책·지속적 미국원조를 논의; 적극적 조치가 반드시 군사행동은 아니라고 설명",
+          "actionType": "PRESIDENT_RECORDED_DIPLOMATIC_STATEMENT",
+          "evidenceDocumentIds": [
+            "doc191-frus1950v07-d56"
+          ],
+          "eventIds": [
+            "evt-r191-08"
+          ],
+          "sourceQualification": "Run191 source; direct command or vote not inferred",
+          "accessDate": "2026-10-27"
+        },
+        {
+          "period": "1950-06-25",
+          "title": "무초 면담에서 소총·탄약 긴급 지원 요청, 실제 수송/명령 미확정",
+          "actionType": "PRESIDENT_RECORDED_AID_REQUEST",
+          "evidenceDocumentIds": [
+            "doc191-frus1950v07-d66"
+          ],
+          "eventIds": [
+            "evt-r191-15"
+          ],
+          "sourceQualification": "FRUS 1950 contemporaneous telegram, Korean government original minutes outstanding",
+          "accessDate": "2026-10-27"
+        },
+        {
+          "period": "1950-06-25~26",
+          "title": "무초·신성모·이범석 면담에서 정부 대전 이전은 내각 결정이라 설명; 신성모 사전협의 부인과 절차 불일치",
+          "actionType": "PRESIDENT_RECORDED_CABINET_CLAIM",
+          "evidenceDocumentIds": [
+            "doc191-frus1950v07-d76"
+          ],
+          "eventIds": [
+            "evt-r191-21"
+          ],
+          "sourceQualification": "FRUS 1950 contemporaneous telegram, Korean government original minutes outstanding",
+          "accessDate": "2026-10-27"
+        },
+        {
+          "period": "1950-06-25",
+          "title": "경무대 긴급 국무회의 소집 보도, 이전 의결은 미확인",
+          "actionType": "PRESIDENT_CABINET_CONVENING_REPORTED",
+          "evidenceDocumentIds": [
+            "doc191-nikh-0625-cabinet"
+          ],
+          "eventIds": [
+            "evt-r191-24"
+          ],
+          "sourceQualification": "동시대 신문 전사; 원회의록·출석명부 미열람",
+          "accessDate": "2026-10-27"
         }
       ],
       "researchStatus": "active-deep",
@@ -266,7 +318,11 @@
         "doc184-assembly-19490606",
         "doc184-ap-19490607",
         "doc184-president-letter-19490610",
-        "doc187-rhee-security-statement"
+        "doc187-rhee-security-statement",
+        "doc191-frus1950v07-d56",
+        "doc191-frus1950v07-d66",
+        "doc191-frus1950v07-d76",
+        "doc191-nikh-0625-cabinet"
       ],
       "researchNotes": [
         {
@@ -421,7 +477,11 @@
         "evt-r184-04",
         "evt-r184-08",
         "evt-r184-09",
-        "evt-r187-05"
+        "evt-r187-05",
+        "evt-r191-08",
+        "evt-r191-15",
+        "evt-r191-21",
+        "evt-r191-24"
       ],
       "openLeads": [
         "L173-05",
@@ -1240,6 +1300,19 @@
             "evt-r187-09"
           ],
           "sourceQualification": "SOURCE_TEXT_OPENED_NOT_ALL_ROLE_DATES_ORIGINALS"
+        },
+        {
+          "period": "1950-06-25~26",
+          "title": "전 국무총리로 이승만-무초 면담 현장에 참석, 전황에 대한 의견 전달",
+          "actionType": "FORMER_PM_RECORDED_MEETING_PARTICIPATION",
+          "evidenceDocumentIds": [
+            "doc191-frus1950v07-d76"
+          ],
+          "eventIds": [
+            "evt-r191-21"
+          ],
+          "sourceQualification": "FRUS 1950 contemporaneous telegram, Korean government original minutes outstanding",
+          "accessDate": "2026-10-27"
         }
       ],
       "researchStatus": "IDENTIFIED",
@@ -1274,7 +1347,8 @@
         "doc181-1215-0110",
         "doc183b-19491206-pm-election",
         "doc184-assembly-19490606",
-        "doc187-budget-supplement"
+        "doc187-budget-supplement",
+        "doc191-frus1950v07-d76"
       ],
       "run171Addendum": {
         "researchStatusUnchanged": true,
@@ -1300,7 +1374,8 @@
         "evt-r181-1215-0110",
         "evt-r183b-09",
         "evt-r184-06",
-        "evt-r187-09"
+        "evt-r187-09",
+        "evt-r191-21"
       ],
       "openLeads": [
         "L180-P-pol-lee-beom-seok",
@@ -2373,6 +2448,32 @@
             "evt-r181-1106-0050"
           ],
           "attribution": "newspaper transcription; action/mention not presidential command"
+        },
+        {
+          "period": "1950-06-26",
+          "title": "국회 전쟁대응 비공개 연석회의 참석 국방장관으로 동시대 보도; 구체적 명령 발언 미확보",
+          "actionType": "CONTEMPORANEOUS_REPORTED_ATTENDANCE_ONLY",
+          "evidenceDocumentIds": [
+            "doc191-nikh-assembly"
+          ],
+          "eventIds": [
+            "evt-r191-14"
+          ],
+          "sourceQualification": "Run191 source; direct command or vote not inferred",
+          "accessDate": "2026-10-27"
+        },
+        {
+          "period": "1950-06-25~26",
+          "title": "국무총리대행으로 무초와 이승만 면담, 정부 대전 이전 결정에 자신은 사전 협의되지 않았다고 진술",
+          "actionType": "ACTING_PM_RECORDED_OBJECTION_TO_PROCESS",
+          "evidenceDocumentIds": [
+            "doc191-frus1950v07-d76"
+          ],
+          "eventIds": [
+            "evt-r191-21"
+          ],
+          "sourceQualification": "FRUS 1950 contemporaneous telegram, Korean government original minutes outstanding",
+          "accessDate": "2026-10-27"
         }
       ],
       "researchStatus": "candidate-cross-event",
@@ -2529,7 +2630,9 @@
         "doc167-frus-722",
         "doc167-frus-746",
         "doc180b-0918-0060",
-        "doc181-1106-0050"
+        "doc181-1106-0050",
+        "doc191-nikh-assembly",
+        "doc191-frus1950v07-d76"
       ],
       "eventIds": [
         "evt-r163-03",
@@ -2539,7 +2642,9 @@
         "evt-r167-04",
         "evt-r167-09",
         "evt-r180b-0918-0060",
-        "evt-r181-1106-0050"
+        "evt-r181-1106-0050",
+        "evt-r191-14",
+        "evt-r191-21"
       ],
       "openLeads": [
         "L166-ID-pol-shin-sung-mo",
@@ -3028,6 +3133,19 @@
             "doc183c-lim-19490322"
           ],
           "sourceQualification": "CONTEMPORANEOUS_NEWS_TRANSCRIPTION_NOT_FACSIMILE"
+        },
+        {
+          "period": "1950-06-19",
+          "title": "이승만-덜레스 회담에 외무장관으로 참석; 발언·독자 결정은 별도 확인 필요",
+          "actionType": "FOREIGN_MINISTER_ATTENDANCE_ONLY",
+          "evidenceDocumentIds": [
+            "doc191-frus1950v07-d56"
+          ],
+          "eventIds": [
+            "evt-r191-08"
+          ],
+          "sourceQualification": "Run191 source; direct command or vote not inferred",
+          "accessDate": "2026-10-27"
         }
       ],
       "researchStatus": "ANNALS_ACTIVE",
@@ -3199,7 +3317,8 @@
         "doc183c-lim-19490416",
         "doc183c-lim-19490307",
         "doc183c-lim-19490628",
-        "doc183c-lim-19490322"
+        "doc183c-lim-19490322",
+        "doc191-frus1950v07-d56"
       ],
       "researchUpdates": [
         {
@@ -3236,7 +3355,8 @@
         "evt-r179d-08",
         "evt-r180-02",
         "evt-r180-09",
-        "evt-r181-1215-0090"
+        "evt-r181-1215-0090",
+        "evt-r191-08"
       ],
       "periodRoles": [
         {
@@ -4103,6 +4223,19 @@
             "evt-r189x-07"
           ],
           "sourceQualification": "동시대 신문 전사, 발언·보고·임명·실행 구분"
+        },
+        {
+          "period": "1950-05-11~06-12",
+          "title": "재무부장관·한국은행 설립위원장으로 공식 후대 연혁에 등장; 6월 금융통화위원회 개별 발언·표결 미확인",
+          "actionType": "OFFICIAL_RETROSPECTIVE_INSTITUTIONAL_ROLE",
+          "evidenceDocumentIds": [
+            "doc191-bok-foundation"
+          ],
+          "eventIds": [
+            "evt-r191-11"
+          ],
+          "sourceQualification": "Run191 source; direct command or vote not inferred",
+          "accessDate": "2026-10-27"
         }
       ],
       "researchStatus": "IDENTIFIED",
@@ -4114,7 +4247,8 @@
         "d114-bok-opening-history",
         "d114-aks-choi",
         "doc189x-19500529-0090",
-        "doc189x-19500602-0040"
+        "doc189x-19500602-0040",
+        "doc191-bok-foundation"
       ],
       "openLeads": [
         "L114-08",
@@ -4136,7 +4270,8 @@
         "evt-r148-nov27",
         "evt-r148-nov29",
         "evt-r189x-17",
-        "evt-r189x-07"
+        "evt-r189x-07",
+        "evt-r191-11"
       ],
       "status": "IDENTIFIED",
       "researchNotes": [
@@ -4235,6 +4370,20 @@
           ],
           "sourceQualification": "신문 전사, 원문 원면·당적/명령/집행원부 미확보",
           "accessDate": "2026-10-27"
+        },
+        {
+          "period": "1950-06-05~12",
+          "title": "초대 한국은행 총재 및 금융통화위원회 구성·업무개시 공식 연혁; 원임명·회의록 별도 확인",
+          "actionType": "OFFICIAL_RETROSPECTIVE_INSTITUTIONAL_ROLE",
+          "evidenceDocumentIds": [
+            "doc191-bok-foundation",
+            "doc191-bok-history"
+          ],
+          "eventIds": [
+            "evt-r191-11"
+          ],
+          "sourceQualification": "Run191 source; direct command or vote not inferred",
+          "accessDate": "2026-10-27"
         }
       ],
       "researchStatus": "IDENTIFIED",
@@ -4250,7 +4399,9 @@
         "doc183b-national-archives-bok",
         "doc188c-bok-archive",
         "doc188c-bok-lecture",
-        "doc189x-19500605-0120"
+        "doc189x-19500605-0120",
+        "doc191-bok-foundation",
+        "doc191-bok-history"
       ],
       "openLeads": [
         "L114-10",
@@ -4282,7 +4433,8 @@
         "evt-r183b-17",
         "evt-r188c-03",
         "evt-r188c-05",
-        "evt-r189x-08"
+        "evt-r189x-08",
+        "evt-r191-11"
       ]
     },
     {
@@ -8805,6 +8957,19 @@
             "evt-r185-03"
           ],
           "attribution": "미 국무부 측 접촉기록이며 장면 개인의 동의·반박은 미확인"
+        },
+        {
+          "period": "1950-06-25",
+          "title": "대한민국 대사로 UN 안보리 제473차 회의 옵서버 참석 보도",
+          "actionType": "DIPLOMATIC_OBSERVER_ATTENDANCE_REPORTED",
+          "evidenceDocumentIds": [
+            "doc191-nikh-0625-session"
+          ],
+          "eventIds": [
+            "evt-r191-25"
+          ],
+          "sourceQualification": "동시대 신문 전사; 원회의록·출석명부 미열람",
+          "accessDate": "2026-10-27"
         }
       ],
       "affiliations": [
@@ -8829,7 +8994,8 @@
         "evt-r162-16",
         "evt-r163-10",
         "evt-r163-30",
-        "evt-r180-04"
+        "evt-r180-04",
+        "evt-r191-25"
       ],
       "connections": [
         "evt-r149-1955-democratic",
@@ -8863,7 +9029,8 @@
         "doc163-44",
         "doc167-frus-746",
         "doc171-na-09",
-        "doc180-frus-268"
+        "doc180-frus-268",
+        "doc191-nikh-0625-session"
       ],
       "researchStatus": "VERIFIED",
       "promotionReason": "국가기록원 정당지도부·AKS 인물해제·1956 후보지명 사진목록",
@@ -22843,6 +23010,144 @@
       ],
       "historyDebt": [
         "HD-R190-COURT-01"
+      ],
+      "accessDate": "2026-10-27"
+    },
+    {
+      "id": "pol-r191-lee-in-gyu",
+      "name": "이인규",
+      "aliases": [
+        "Lee In Kyu (FRUS transliteration)"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "NOT_VERIFIED"
+      },
+      "roles": [
+        {
+          "period": "1950-06-11~15",
+          "title": "북측 민주전선 사절로 남하·한국군 구금 및 6/15 서울 방송 발언자로 미국 외교전문에 등장",
+          "actionType": "FOREIGN_SIDE_POLITICAL_EMISSARY_REPORTED",
+          "evidenceDocumentIds": [
+            "doc191-frus1950v07-d55",
+            "doc191-frus1950v07-d51"
+          ],
+          "eventIds": [
+            "evt-r191-05",
+            "evt-r191-06"
+          ],
+          "sourceQualification": "미 대사관 전문에 의한 이름·행위; 한국정부 신원원부 및 자발성 미검증"
+        }
+      ],
+      "researchStatus": "DISCOVERED",
+      "promotionReason": "1950년 분단 정치행위의 비대한민국 측 사절, 대한민국 정치인 정식 분류·신원 검증 전",
+      "evidenceDocumentIds": [
+        "doc191-frus1950v07-d55",
+        "doc191-frus1950v07-d51"
+      ],
+      "eventIds": [
+        "evt-r191-05",
+        "evt-r191-06"
+      ],
+      "openLeads": [
+        "L191-10",
+        "L191-11"
+      ],
+      "historyDebt": [
+        "HD-R191-02"
+      ],
+      "accessDate": "2026-10-27"
+    },
+    {
+      "id": "pol-r191-kim-tae-hong",
+      "name": "김태홍",
+      "aliases": [
+        "Kim Tae Hong (FRUS transliteration)"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "NOT_VERIFIED"
+      },
+      "roles": [
+        {
+          "period": "1950-06-11~15",
+          "title": "북측 민주전선 사절·한국군 구금 및 서울 방송 발언자로 미국 외교전문에 등장",
+          "actionType": "FOREIGN_SIDE_POLITICAL_EMISSARY_REPORTED",
+          "evidenceDocumentIds": [
+            "doc191-frus1950v07-d55",
+            "doc191-frus1950v07-d51"
+          ],
+          "eventIds": [
+            "evt-r191-05",
+            "evt-r191-06"
+          ],
+          "sourceQualification": "미 대사관 전문에 의한 이름·행위; 한국정부 신원원부 및 자발성 미검증"
+        }
+      ],
+      "researchStatus": "DISCOVERED",
+      "promotionReason": "남북 정치교섭의 사절 후보이며 국내 정치인과 동일 지위로 자동 분류하지 않음",
+      "evidenceDocumentIds": [
+        "doc191-frus1950v07-d55",
+        "doc191-frus1950v07-d51"
+      ],
+      "eventIds": [
+        "evt-r191-05",
+        "evt-r191-06"
+      ],
+      "openLeads": [
+        "L191-10",
+        "L191-11"
+      ],
+      "historyDebt": [
+        "HD-R191-02"
+      ],
+      "accessDate": "2026-10-27"
+    },
+    {
+      "id": "pol-r191-kim-chae-chang",
+      "name": "김채창",
+      "aliases": [
+        "Kim Chae Chang (FRUS transliteration)"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "NOT_VERIFIED"
+      },
+      "roles": [
+        {
+          "period": "1950-06-11~16",
+          "title": "북측 민주전선 사절·전향했다는 전언은 있으나 공개방송에는 참여하지 않았다는 미 대사관 보고",
+          "actionType": "FOREIGN_SIDE_EMISSARY_ALLEGED_DEFECTION",
+          "evidenceDocumentIds": [
+            "doc191-frus1950v07-d55",
+            "doc191-frus1950v07-d51"
+          ],
+          "eventIds": [
+            "evt-r191-05",
+            "evt-r191-06"
+          ],
+          "sourceQualification": "가족이 평양에 있어 방송을 꺼린다는 전언; 신원·자발성·정당 직위 미검증"
+        }
+      ],
+      "researchStatus": "DISCOVERED",
+      "promotionReason": "남북 정치교섭에 등장하는 인물이나 정당 소속·생몰·한자 미검증",
+      "evidenceDocumentIds": [
+        "doc191-frus1950v07-d55",
+        "doc191-frus1950v07-d51"
+      ],
+      "eventIds": [
+        "evt-r191-05",
+        "evt-r191-06"
+      ],
+      "openLeads": [
+        "L191-10",
+        "L191-11"
+      ],
+      "historyDebt": [
+        "HD-R191-02"
       ],
       "accessDate": "2026-10-27"
     }
