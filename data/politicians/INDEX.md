@@ -327,3 +327,8 @@ Run208 신원검증: `cand-r207-kim-su-hak` 金秀學(1950 고창갑 당선, AKS
 [초기 인물 27기록](run211-july10-20-actor-network.json), [중기 22기록](run211-july16-20-actor-addendum.json), [후기 32기록](run211-july21-31-actor-addendum.json). 합계 81 evidence-linked actor records, 중복 제거한 비대통령 64명, 신규 provisional candidate 21명. 정식 registry 승격 **0명**: 신문 단독 등장과 생몰 미검증을 MATURE로 만들지 않음. 각각 ID, 이명·한자(확인 가능한 경우), 시기별 직책, 사건·문서, 확인수준, open lead를 보유.
 
 인물 동일성 방어선: 1951 방위군 김윤근 / 1950 청년단장 김윤근 / 1961 해병 김윤근은 별도 노드로 유지; 1951 국방차관 김일환과 1956 상공장관 김일환도 검증 전 병합 금지. 엄상섭의 嚴祥燮/嚴詳燮 한자 표기는 CONFLICTED. 탄핵재판소 5+5 심판관, 1951 의료법 의원, 경찰 인사, 은행·재정위원, 정당인, 총리·장관·외교관을 이승만 대통령의 단순 부속 인물이 아닌 독립 actor로 취급한다.
+
+
+## Run212 · 1951-08 헌법위원회·정부조직개편 인물 22명
+
+[독립 actor 22건](run212-august-constitutional-reform-actor-network.json), 신규 candidate ID 8건, 기존 stable ID 재사용 14건(이승만 1건 포함). 국회측 헌법위원 소선규·정헌주·남송학·김봉조·이도영과 대법관측 김병로·김찬영·백한성·김두일·김우식을 별개 노드로 연결했다. 8/9 정부조직법 개정 제안자 오위영·서민호·방만수·양우정·김정실도 제안자별 독립 노드로 연결했다. 신문 전사로 확인된 직책을 원임명장 확인과 혼동하지 않고 생몰 미확인 후보는 승격하지 않는다. [비대통령 실록](../annals/politicians-1951-constitutional-committee-reform-run212.md), [22 사건](../events/run212-august01-10-actions.json).
