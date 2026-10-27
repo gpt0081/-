@@ -156,3 +156,7 @@ Floot는 조사 저장소가 아니라 충분히 축적된 데이터를 보여�
 Run208 후속: [AKS·ODA Korea 환율 대조 및 외교사료관 원표 표적](data/research/runs/2026-10-28-run208-report.md) 추가. 1951년 5월 대충자금 6000원 책정, 6월 미국대사 승인 보고, 11월 일반시세 적용은 **동일한 단일 결정으로 병합 금지**. 환율 22500/2500 충돌과 국편 영한 번역 하한/상한 역전은 유지.
 
 Run208 최종 검증: **51개 열람 페이지·50개 근원문서/저작, 23개 사건, 25개 주장·반증, 비대통령 10명 조사(실질 심화 8), 후속 표적 42개, 커밋 6개**. `HD-R206D-03` OPEN→NARROWED, `HD-R207-04` CONFLICTED 유지. 상세는 [최종 실행 계정](data/research/runs/2026-10-28-run208-ledger.json).
+
+
+## Run209 · 1951년 6월 26일 인사·구호·전시경제 감사 (2026-10-28)
+[실행보고](data/research/runs/2026-10-28-run209-report.md) · [직접 확인 실질문서 13건](data/documents/run209-june26-crossprovenance.json) · [사건 15개](data/events/run209-june26-state-actions.json) · [주장 14개](data/claims/run209-june26-adversarial.json) · [비대통령 7명 연결](data/politicians/run209-june26-actors.json) · [후속 40개 원문 표적](data/research/lead-queues/run209-next.json). 6/26 서울시장·치안국장·서울시 경찰국장·내무차관 연쇄 인사, ECA PR 5~10% 보증금, 7/1 대일수출 신용장 규제 예정, 허정 구호 연인원 단위 구분. 미국 G-2·영국 Hansard·북한 관보도 출처 성격을 분리해 수록. 40개 본문 목표 미달, 원면 0, 3계열 동일 명제 검증 0. Floot 미변경.
