@@ -664,6 +664,87 @@
       },
       "status": "SOURCE_METADATA_VERIFIED_TEXT_PENDING",
       "accessDate": "2026-10-27"
+    },
+    {
+      "id": "evt-r201-24",
+      "date": "1951-04..1951-06-06",
+      "name": "양유찬 제2대 주미대사 한국측 임명·미국측 신임장 단계",
+      "domain": "외교·인사·신임장",
+      "politicianIds": [
+        "pol-yang-yu-chan"
+      ],
+      "documentIds": [
+        "doc-r201-us-state-protocol-korea",
+        "doc-r201-aks-yang-biography"
+      ],
+      "actorAttributionNote": "AKS 전기 1951-04 한국측 임명, 미국 국무부 의전목록 1951-05-22 임명표기 및 06-06 신임장; 서로 다른 행정단계·기록방식. 한국 임명장 원본은 미확보.",
+      "actions": [
+        {
+          "date": "1951-04",
+          "action": "Korean appointment reported in later AKS biography",
+          "status": "SECONDARY_BIOGRAPHY"
+        },
+        {
+          "date": "1951-05-22",
+          "action": "US protocol appointment list entry",
+          "status": "OFFICIAL_RETROSPECTIVE"
+        },
+        {
+          "date": "1951-06-06",
+          "action": "US protocol accreditation/credential entry",
+          "status": "OFFICIAL_RETROSPECTIVE"
+        }
+      ],
+      "roles": {
+        "proposed_by": [],
+        "decided_by": [],
+        "executed_by": [
+          "pol-yang-yu-chan: 미국측 신임장 수리 명부"
+        ],
+        "opposed_by": [],
+        "legal_authority": [],
+        "observed_by": [
+          "doc-r201-us-state-protocol-korea",
+          "doc-r201-aks-yang-biography"
+        ],
+        "later_finding": []
+      },
+      "status": "SOURCE_DOCUMENTED_WITH_APPOINTMENT_ORIGINAL_PENDING",
+      "accessDate": "2026-10-27"
+    },
+    {
+      "id": "evt-r201-25",
+      "date": "1950-12-06..1951-06-06",
+      "name": "Sae Sun Kim 주미대사 승계 예정과 실제 양유찬 대사 신임장 수리의 차이",
+      "domain": "외교·인사·기록충돌",
+      "politicianIds": [
+        "cand-r201-kim-sae-sun",
+        "pol-yang-yu-chan",
+        "pol-chang-myon"
+      ],
+      "documentIds": [
+        "doc-r201-truman-calendar-19501206",
+        "doc-r201-us-state-protocol-korea"
+      ],
+      "actorAttributionNote": "Truman 12/6 calendar said Sae Sun Kim expected to succeed Chang, US protocol actual accredited ambassador list next records You Chan Yang 1951-05-22/06-06. This is a change from plan, not two incompatible final appointment records; interim chargé role not excluded.",
+      "roles": {
+        "proposed_by": [
+          "Truman protocol calendar: prospective Sae Sun Kim succession"
+        ],
+        "decided_by": [],
+        "executed_by": [
+          "pol-yang-yu-chan: later accredited ambassador"
+        ],
+        "opposed_by": [],
+        "legal_authority": [],
+        "observed_by": [
+          "doc-r201-truman-calendar-19501206",
+          "doc-r201-us-state-protocol-korea"
+        ],
+        "later_finding": []
+      },
+      "status": "PROSPECTIVE_VS_ACTUAL_NARROWED",
+      "accessDate": "2026-10-27"
     }
   ]
 }
