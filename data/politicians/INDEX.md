@@ -299,3 +299,7 @@ data/politicians/run205b-assembly-cabinet-actors.json: 김준연·조병옥·신
 ## Run205e · 1951-05-22 농정·재정·사법 인물
 
 data/politicians/run205e-may22-governance-actors.json: 장면(pol-chang-myon), 백두진(pol-paik-too-chin), 임문환(pol-r175-im-mun-hwan), 이재형 등 기존 인물의 구체적 부서·담화·표결 심화. 백남식·태완선·홍창섭·우문·정인승·김효섭을 개별 candidate로 식별. 우문(禹文)처럼 짧은 이름은 동명이인 합병 금지. 각 인물은 원문 ID·행위 유형·생몰 미검증·다음 조사원부를 보유.
+
+
+## Run208 (2026-10-28) · 1951년 6월 외교·환율·재건행정
+`data/politicians/run208-1951-june-korean-actors.json`: 이승만 `pol-rhee-syngman`, 장면 `pol-chang-myon`, 백두진 `pol-paik-too-chin` 기존 ID 재사용, 김세선 `cand-r205-kim-se-sun`, 한표욱 `cand-r205-han-pyo-wook` 기존 후보 심화. 한국 비대통령 **4명**만 신규 문서 근거로 심화; 영국·미국·인도 외교관은 한국 정치인으로 허위 계산하지 않음. FRUS d332/d339 환율 교섭 및 d356 정전교섭 참여요청을 event ID로 연결. 생몰·임명 원본 미확보, 후보 VERIFIED 승격 0. `data/annals/run208-1951-june-cabinet-diplomacy.md`.

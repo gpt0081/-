@@ -149,3 +149,6 @@ Floot는 조사 저장소가 아니라 충분히 축적된 데이터를 보여�
 164회 4차: [9/26·29·30 원문 26건](data/documents/run164d-1950-september-recovery-decisions.json), [서민호](data/politicians/run164d-assembly-candidate.json), [사건 12건](data/events/run164d-1950-recovery-decisions.json), [반증 10건](data/claims/run164d-1950-budget-conscription-diplomacy.json), [다음 원문표적 21건](data/research/lead-queues/run164d-next.json). 사회부·재무부 구호예산 이견·징병불응 제재·북진 승인단계 구분.
 
 164회 5차 보강: [1950-10-01/04/05 문서 25건](data/documents/run164e-1950-october-reconstruction.json), [양성봉 도지사](data/politicians/run164e-governor-candidate.json), [사건 11건](data/events/run164e-1950-october-administration.json), [주장 10건](data/claims/run164e-1950-education-relief.json), [원문표적 20건](data/research/lead-queues/run164e-next.json). 교육·귀향·식량·귀속재산 행정 복원.
+
+## Run208 · 1951년 6월 외교·전시재정·UNKRA 사료 교차감사 (2026-10-28)
+[실행보고](data/research/runs/2026-10-28-run208-report.md) · [FRUS 원문 41개 + 국편 3개](data/documents/run208-1951-june-frus-d318-d358.json) · [17개 사건](data/events/run208-1951-june-diplomacy-fiscal-actions.json) · [18개 주장·반증](data/claims/run208-1951-june-adversarial.json) · [한국인 정치·외교관 5명 연결](data/politicians/run208-1951-june-korean-actors.json) · [다음 36개 원문 표적](data/research/lead-queues/run208-next.json). 영문 FRUS 수입가격 최저 6,000원 vs 국편 번역 최고 6,000원 **의미 반전**과 공식환율 22,500/2,500원 충돌을 미해결로 보존. 원면 0건·3계열 교차검증 0건. Floot 미변경.
