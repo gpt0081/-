@@ -2288,3 +2288,11 @@ data/research/history-debt/run205e-may22.md의 HD-R205E-01~11 참조. 법률 제
 - `HD-R209-21` **OPEN**: 7/1 밀주 주세 456억 vs 추정 1000만원 이상 세수 문구의 단위·오자 의심, 원신문·재무부 세입원표 필요.
 
 근거: `data/documents/run209-june26-crossprovenance.json`; 주장·반증: `data/claims/run209-june26-adversarial.json`; 후속 81개 원문표적: `data/research/lead-queues/run209-next.json`. **역사부채 주간 전수조사 미실시**. `last_full_review` 변경 없음.
+
+
+### Run209 영문 FRUS 원문 추가 검증 (2026-10-28)
+- `HD-R209-22` OPEN: 유엔 법률고문 Feller의 1951-06-30 정전교섭권 비망록은 미 국무부 Gross 전문 FRUS d395에서 확인. 군사적 정전권과 한국 정치·영토합의권은 분리. 유엔 법률국 원비망록 미확보.
+- `HD-R209-23` OPEN: 1951-07-02 릿지웨이 CX66188 FRUS d399에서 공산측 '교섭 개시 즉시 전투중지' 해석에 반대. 상대측 실제 의도·합참 승인 답신 미확보.
+- `HD-R209-24` NARROWED: FRUS d393 영문 참가자명단에서 한표욱(Pyo Wook Han) 주미대사관 1등서기관 참석 확인. 6/12 서한 본문·한자·생몰 미확보.
+- `HD-R209-25` OPEN: 6/30 한국정부 정전 5개항 양유찬 대사 전달 서한 첨부는 FRUS d393에서 'Not printed'. RG59 795.00/6-3051 원첨부 필요.
+후속: `data/research/lead-queues/run209-next.json` (91개). 역사부채 주간 전수조사 미실시, `last_full_review` 변경 없음.
