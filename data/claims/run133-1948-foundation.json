@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "run": 133,
+  "claims": [
+    {
+      "id": "c133-decree3-temporary",
+      "statement": "1948-09-13 대통령령 제3호의 기구 인수는 각 부처의 최종 직무분장 확정을 뜻한다",
+      "status": "CONTRADICTED",
+      "supportingEvidence": [],
+      "contradictingEvidence": [
+        "d133-gazette3-decree3"
+      ],
+      "insufficientEvidence": [
+        "1948년 이후 각 부처 직제의 시행 원문"
+      ],
+      "laterFinding": [],
+      "reviewHistory": [
+        {
+          "date": "2026-10-27",
+          "action": "SOURCE_TEXT_CHECK",
+          "reason": "제2조는 직제 확정까지 잠정적이라고 명시"
+        }
+      ]
+    },
+    {
+      "id": "c133-amnesty-effect-time",
+      "statement": "1948-09-27 대사령의 법적 발효 시각과 실제 출옥 개시 시각이 같다",
+      "status": "CONFLICTED",
+      "supportingEvidence": [],
+      "contradictingEvidence": [
+        "d133-seoul-amnesty",
+        "d133-kyunghyang-amnesty"
+      ],
+      "insufficientEvidence": [
+        "대통령령 제6~10호 관보 원면·부칙",
+        "형무소 1948-09-27~28 출감대장"
+      ],
+      "contemporaneousObservation": [
+        "d133-seoul-amnesty",
+        "d133-kyunghyang-amnesty"
+      ],
+      "finding": "서울신문은 9/28 00:00 발효와 9/27 14:00 출옥 개시를 한 기사에 병기하고 경향신문은 9/27 15:00 이후 출옥을 보도. 서로 다른 법적 단계일 수 있으며 동일 시각으로 단정 불가.",
+      "reviewHistory": [
+        {
+          "date": "2026-10-27",
+          "action": "ADVERSARIAL_NEWSPAPER_COMPARE",
+          "status": "CONFLICTED"
+        }
+      ]
+    },
+    {
+      "id": "c133-amnesty-numbers",
+      "statement": "1948-09-27 대사령으로 5,700명이 당일 실제 석방되었다",
+      "status": "INSUFFICIENT",
+      "supportingEvidence": [
+        "d133-seoul-amnesty"
+      ],
+      "contradictingEvidence": [],
+      "insufficientEvidence": [
+        "형무소별 출감대장",
+        "사면 대상자 결정 원부"
+      ],
+      "finding": "5,700은 동시대 보도상 예상/발표 수치로 취급. 개별 출감 집계로 검증하지 못함."
+    },
+    {
+      "id": "c133-textile-action",
+      "statement": "1948-10-25 동대문 방직 노동자의 요구가 상공부에서 최종 수용되었다",
+      "status": "OPEN",
+      "supportingEvidence": [],
+      "contradictingEvidence": [],
+      "insufficientEvidence": [
+        "d133-textile-finding",
+        "상공부 1948-10-28 회답 공문",
+        "공장 임금대장"
+      ],
+      "finding": "검색결과 발췌는 진정과 회답 약속만 제시. 승인·지급·정상화 확정 금지."
+    }
+  ]
+}
