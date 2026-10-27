@@ -239,6 +239,39 @@
             "evt-r192-24"
           ],
           "attribution": "미 대사관 전문; 구체적 대통령 명령으로 확장하지 않음"
+        },
+        {
+          "period": "1950-08-01~28",
+          "title": "긴급 국무회의 참석(신문); 긴급명령7·10 관련 법적 행위(후대 전사·기관 해제)",
+          "actionType": "DOCUMENTED_ROLE_OR_PRESS_ATTRIBUTION",
+          "evidenceDocumentIds": [
+            "doc194-daegu-aug1-cabinet",
+            "doc194-warbook-decree7-repeal",
+            "doc194-bok-currency-exchange"
+          ],
+          "eventIds": [
+            "evt-r194-01",
+            "evt-r194-02",
+            "evt-r194-11"
+          ],
+          "sourceQualification": "RUN194_REVIEWED_SOURCE; presidential direct order and individual vote not inferred",
+          "accessDate": "2026-10-27"
+        },
+        {
+          "period": "1950-07~08",
+          "title": "1950-08-05 대구 자위대 결성식 공개 훈시; CIA가 전시대책위 제안 전언",
+          "actionType": "SOURCE_ATTRIBUTED_ACTION_OR_PUBLIC_OFFICE",
+          "evidenceDocumentIds": [
+            "doc194b-0805-0040",
+            "doc194b-0804-0040"
+          ],
+          "eventIds": [
+            "evt-r194b-09",
+            "evt-r194b-10",
+            "evt-r194b-14"
+          ],
+          "sourceQualification": "신문 전사/공문 발췌; 직접명령·참석·실제 집행은 별도 검증",
+          "accessDate": "2026-10-27"
         }
       ],
       "researchStatus": "active-deep",
@@ -349,7 +382,15 @@
         "doc191-frus1950v07-d56",
         "doc191-frus1950v07-d66",
         "doc191-frus1950v07-d76",
-        "doc191-nikh-0625-cabinet"
+        "doc191-nikh-0625-cabinet",
+        "doc194-daegu-aug1-cabinet",
+        "doc194-warbook-decree7-repeal",
+        "doc194-bok-currency-exchange",
+        "doc194b-0805-0040",
+        "doc194b-0804-0040",
+        "doc194c-decree7-wikisource-transcription",
+        "doc194b-0804-0050",
+        "doc194d-decree7-nikh-warbook"
       ],
       "researchNotes": [
         {
@@ -514,7 +555,14 @@
         "evt-r192-23",
         "evt-r192-24",
         "evt-r192-35",
-        "evt-r192-37"
+        "evt-r192-37",
+        "evt-r194-01",
+        "evt-r194-02",
+        "evt-r194-11",
+        "evt-r194b-09",
+        "evt-r194b-10",
+        "evt-r194b-14",
+        "evt-r194c-01"
       ],
       "openLeads": [
         "L173-05",
@@ -524,11 +572,16 @@
         "L180b-P-pol-rhee-syngman",
         "L184-P-pol-rhee-syngman",
         "L185-08",
-        "L192-07"
+        "L192-07",
+        "L194-02",
+        "L194B-20"
       ],
       "historyDebt": [
         "HD-R180-01",
-        "HD-R180b-IDENTITY"
+        "HD-R180b-IDENTITY",
+        "data/research/history-debt/run194-budget-constitutional-health.md",
+        "data/research/history-debt/run194b-constitutional-social.md",
+        "data/research/history-debt/run194c-decree-crosswalk.md"
       ]
     },
     {
@@ -1347,6 +1400,19 @@
           ],
           "sourceQualification": "FRUS 1950 contemporaneous telegram, Korean government original minutes outstanding",
           "accessDate": "2026-10-27"
+        },
+        {
+          "period": "1950-07~08",
+          "title": "1950-08-04 CIA 보고서에서 국방장관 선호 여론 관련 언급; 임명·참석 아님",
+          "actionType": "SOURCE_ATTRIBUTED_ACTION_OR_PUBLIC_OFFICE",
+          "evidenceDocumentIds": [
+            "doc194b-0804-0040"
+          ],
+          "eventIds": [
+            "evt-r194b-09"
+          ],
+          "sourceQualification": "신문 전사/공문 발췌; 직접명령·참석·실제 집행은 별도 검증",
+          "accessDate": "2026-10-27"
         }
       ],
       "researchStatus": "IDENTIFIED",
@@ -1382,7 +1448,8 @@
         "doc183b-19491206-pm-election",
         "doc184-assembly-19490606",
         "doc187-budget-supplement",
-        "doc191-frus1950v07-d76"
+        "doc191-frus1950v07-d76",
+        "doc194b-0804-0040"
       ],
       "run171Addendum": {
         "researchStatusUnchanged": true,
@@ -1409,18 +1476,21 @@
         "evt-r183b-09",
         "evt-r184-06",
         "evt-r187-09",
-        "evt-r191-21"
+        "evt-r191-21",
+        "evt-r194b-09"
       ],
       "openLeads": [
         "L180-P-pol-lee-beom-seok",
         "L180b-P-pol-lee-beom-seok",
         "L183b-04",
         "L184-P-pol-lee-beom-seok",
-        "L187-A-pol-lee-beom-seok"
+        "L187-A-pol-lee-beom-seok",
+        "L194B-17"
       ],
       "historyDebt": [
         "HD-R180-01",
-        "HD-R180b-IDENTITY"
+        "HD-R180b-IDENTITY",
+        "data/research/history-debt/run194b-constitutional-social.md"
       ]
     },
     {
@@ -2598,6 +2668,19 @@
             "evt-r192-30"
           ],
           "attribution": "UN A/1350 §190 회고, 원기자회견 원문 미열람"
+        },
+        {
+          "period": "1950-08-01",
+          "title": "8/1 국무 전시대책위원회 국방부장관(공보처 전언)",
+          "actionType": "DOCUMENTED_ROLE_OR_PRESS_ATTRIBUTION",
+          "evidenceDocumentIds": [
+            "doc194-daegu-aug1-cabinet"
+          ],
+          "eventIds": [
+            "evt-r194-02"
+          ],
+          "sourceQualification": "RUN194_REVIEWED_SOURCE; presidential direct order and individual vote not inferred",
+          "accessDate": "2026-10-27"
         }
       ],
       "researchStatus": "VERIFIED",
@@ -2756,7 +2839,8 @@
         "doc180b-0918-0060",
         "doc181-1106-0050",
         "doc191-nikh-assembly",
-        "doc191-frus1950v07-d76"
+        "doc191-frus1950v07-d76",
+        "doc194-daegu-aug1-cabinet"
       ],
       "eventIds": [
         "evt-r163-03",
@@ -2773,16 +2857,19 @@
         "evt-r192-17",
         "evt-r192-29",
         "evt-r192-30",
-        "evt-r192-35"
+        "evt-r192-35",
+        "evt-r194-02"
       ],
       "openLeads": [
         "L166-ID-pol-shin-sung-mo",
         "L167-actor-pol-shin-sung-mo",
         "L180b-P-pol-shin-sung-mo",
-        "L192-09"
+        "L192-09",
+        "L194-06"
       ],
       "historyDebt": [
-        "HD-R180b-IDENTITY"
+        "HD-R180b-IDENTITY",
+        "data/research/history-debt/run194-budget-constitutional-health.md"
       ],
       "researchPromotionHistory": [
         {
@@ -3382,6 +3469,19 @@
             "evt-r192-40"
           ],
           "attribution": "FRUS d195 편집주, S/1571 단독 원문 미열람"
+        },
+        {
+          "period": "1950-07~08",
+          "title": "1950-08-05 외무부장관 대소련 성명",
+          "actionType": "SOURCE_ATTRIBUTED_ACTION_OR_PUBLIC_OFFICE",
+          "evidenceDocumentIds": [
+            "doc194b-0805-0010"
+          ],
+          "eventIds": [
+            "evt-r194b-17"
+          ],
+          "sourceQualification": "신문 전사/공문 발췌; 직접명령·참석·실제 집행은 별도 검증",
+          "accessDate": "2026-10-27"
         }
       ],
       "researchStatus": "ANNALS_ACTIVE",
@@ -3554,7 +3654,8 @@
         "doc183c-lim-19490307",
         "doc183c-lim-19490628",
         "doc183c-lim-19490322",
-        "doc191-frus1950v07-d56"
+        "doc191-frus1950v07-d56",
+        "doc194b-0805-0010"
       ],
       "researchUpdates": [
         {
@@ -3580,7 +3681,8 @@
         "L173-08",
         "L179d-P-lim-byong-jik",
         "L180-P-pol-lim-byong-jik",
-        "L183c-04"
+        "L183c-04",
+        "L194B-25"
       ],
       "eventIds": [
         "evt-r150-19550910-daegu-visit",
@@ -3595,7 +3697,8 @@
         "evt-r191-08",
         "evt-r192-29",
         "evt-r192-31",
-        "evt-r192-40"
+        "evt-r192-40",
+        "evt-r194b-17"
       ],
       "periodRoles": [
         {
@@ -3615,7 +3718,8 @@
       "run169Overlay": "data/politicians/run169-parliament-cabinet-actors.json",
       "historyDebt": [
         "HD-R179d-01",
-        "HD-R180-01"
+        "HD-R180-01",
+        "data/research/history-debt/run194b-constitutional-social.md"
       ],
       "aliasVerification": "CONFLICTED_HANJA_IN_EXISTING_REGISTRY 林炳稷 vs 任炳稷; Korean appointment original required"
     },
@@ -4476,6 +4580,21 @@
           ],
           "sourceQualification": "Run191 source; direct command or vote not inferred",
           "accessDate": "2026-10-27"
+        },
+        {
+          "period": "1950-05-11~08-01",
+          "title": "5/11 한국은행 설립위원회 위원장; 8/1 재무부장관(공보처 전언)",
+          "actionType": "DOCUMENTED_ROLE_OR_PRESS_ATTRIBUTION",
+          "evidenceDocumentIds": [
+            "doc191-bok-foundation",
+            "doc194-daegu-aug1-cabinet"
+          ],
+          "eventIds": [
+            "evt-r194-02",
+            "evt-r194-09"
+          ],
+          "sourceQualification": "RUN194_REVIEWED_SOURCE; presidential direct order and individual vote not inferred",
+          "accessDate": "2026-10-27"
         }
       ],
       "researchStatus": "IDENTIFIED",
@@ -4488,15 +4607,18 @@
         "d114-aks-choi",
         "doc189x-19500529-0090",
         "doc189x-19500602-0040",
-        "doc191-bok-foundation"
+        "doc191-bok-foundation",
+        "doc194-daegu-aug1-cabinet"
       ],
       "openLeads": [
         "L114-08",
         "L114-09",
-        "1954 국회·선거 원부에서 최순주의 시기별 공직과 서명 검증"
+        "1954 국회·선거 원부에서 최순주의 시기별 공직과 서명 검증",
+        "L194-11"
       ],
       "historyDebt": [
-        "HD-R114-03"
+        "HD-R114-03",
+        "data/research/history-debt/run194-budget-constitutional-health.md"
       ],
       "backbone": false,
       "evidenceCoverage": {
@@ -4511,7 +4633,9 @@
         "evt-r148-nov29",
         "evt-r189x-17",
         "evt-r189x-07",
-        "evt-r191-11"
+        "evt-r191-11",
+        "evt-r194-02",
+        "evt-r194-09"
       ],
       "status": "IDENTIFIED",
       "researchNotes": [
@@ -4624,6 +4748,21 @@
           ],
           "sourceQualification": "Run191 source; direct command or vote not inferred",
           "accessDate": "2026-10-27"
+        },
+        {
+          "period": "1950-05-11~06-05",
+          "title": "5/11 설립위원회 부위원장·6/5 초대 한국은행 총재(기관 공식 해제)",
+          "actionType": "DOCUMENTED_ROLE_OR_PRESS_ATTRIBUTION",
+          "evidenceDocumentIds": [
+            "doc191-bok-foundation",
+            "doc191-bok-history"
+          ],
+          "eventIds": [
+            "evt-r194-09",
+            "evt-r194-10"
+          ],
+          "sourceQualification": "RUN194_REVIEWED_SOURCE; presidential direct order and individual vote not inferred",
+          "accessDate": "2026-10-27"
         }
       ],
       "researchStatus": "IDENTIFIED",
@@ -4645,7 +4784,8 @@
       ],
       "openLeads": [
         "L114-10",
-        "L183b-07"
+        "L183b-07",
+        "L194-12"
       ],
       "backbone": false,
       "researchNotes": [
@@ -4674,7 +4814,12 @@
         "evt-r188c-03",
         "evt-r188c-05",
         "evt-r189x-08",
-        "evt-r191-11"
+        "evt-r191-11",
+        "evt-r194-09",
+        "evt-r194-10"
+      ],
+      "historyDebt": [
+        "data/research/history-debt/run194-budget-constitutional-health.md"
       ]
     },
     {
@@ -4851,6 +4996,38 @@
             "evt-r187-15"
           ],
           "sourceQualification": "SOURCE_TEXT_OPENED_NOT_ALL_ROLE_DATES_ORIGINALS"
+        },
+        {
+          "period": "1950-08-01",
+          "title": "8/1 전시대책위원회 내무부장관(신문); 경찰 관할 향보단 제안은 기관 귀속",
+          "actionType": "DOCUMENTED_ROLE_OR_PRESS_ATTRIBUTION",
+          "evidenceDocumentIds": [
+            "doc194-daegu-aug1-cabinet",
+            "doc194-muccio-aug1-budget"
+          ],
+          "eventIds": [
+            "evt-r194-02",
+            "evt-r194-04"
+          ],
+          "sourceQualification": "RUN194_REVIEWED_SOURCE; presidential direct order and individual vote not inferred",
+          "accessDate": "2026-10-27"
+        },
+        {
+          "period": "1950-07~08",
+          "title": "1950-08-05 내무부장관 전재민 전단 서명·향토방위 행정",
+          "actionType": "SOURCE_ATTRIBUTED_ACTION_OR_PUBLIC_OFFICE",
+          "evidenceDocumentIds": [
+            "doc194b-0805-0060",
+            "doc194b-0802-0050"
+          ],
+          "eventIds": [
+            "evt-r194b-06",
+            "evt-r194b-08",
+            "evt-r194b-10",
+            "evt-r194b-16"
+          ],
+          "sourceQualification": "신문 전사/공문 발췌; 직접명령·참석·실제 집행은 별도 검증",
+          "accessDate": "2026-10-27"
         }
       ],
       "researchStatus": "IDENTIFIED",
@@ -4884,7 +5061,14 @@
         "doc171-nec-pres-1952",
         "doc180-frus-268",
         "doc180-frus-269",
-        "doc187-frus-cho"
+        "doc187-frus-cho",
+        "doc194-daegu-aug1-cabinet",
+        "doc194-muccio-aug1-budget",
+        "doc194b-0805-0060",
+        "doc194b-0802-0050",
+        "doc194c-decree7-wikisource-transcription",
+        "doc194b-0804-0050",
+        "doc194d-decree7-nikh-warbook"
       ],
       "openLeads": [
         "L114-12",
@@ -4892,7 +5076,9 @@
         "L167-actor-pol-cho-byeong-ok",
         "L180-P-pol-cho-byeong-ok",
         "L185-02",
-        "L187-A-pol-cho-byeong-ok"
+        "L187-A-pol-cho-byeong-ok",
+        "L194-03",
+        "L194B-18"
       ],
       "backbone": false,
       "researchNotes": [
@@ -4994,7 +5180,14 @@
         "evt-r166d-01",
         "evt-r167-11",
         "evt-r180-04",
-        "evt-r187-15"
+        "evt-r187-15",
+        "evt-r194-02",
+        "evt-r194-04",
+        "evt-r194b-06",
+        "evt-r194b-08",
+        "evt-r194b-10",
+        "evt-r194b-16",
+        "evt-r194c-01"
       ],
       "run171Addendum": {
         "researchStatusUnchanged": true,
@@ -5006,7 +5199,10 @@
         "openLead": "1952 후보자 등록원서·정당 원부 검증 필요"
       },
       "historyDebt": [
-        "HD-R180-01"
+        "HD-R180-01",
+        "data/research/history-debt/run194-budget-constitutional-health.md",
+        "data/research/history-debt/run194b-constitutional-social.md",
+        "data/research/history-debt/run194c-decree-crosswalk.md"
       ],
       "researchStatusHistory": [
         {
@@ -5745,6 +5941,19 @@
           ],
           "sourceQualification": "신문 전사, 원문 원면·당적/명령/집행원부 미확보",
           "accessDate": "2026-10-27"
+        },
+        {
+          "period": "1950-07~08",
+          "title": "1950-08-03 국회의장 휴회 담화",
+          "actionType": "SOURCE_ATTRIBUTED_ACTION_OR_PUBLIC_OFFICE",
+          "evidenceDocumentIds": [
+            "doc194b-0803-0060"
+          ],
+          "eventIds": [
+            "evt-r194b-07"
+          ],
+          "sourceQualification": "신문 전사/공문 발췌; 직접명령·참석·실제 집행은 별도 검증",
+          "accessDate": "2026-10-27"
         }
       ],
       "rolePeriods": [
@@ -5809,14 +6018,16 @@
         "doc185c-cons-cons_001_0020_0020_0020_0030_0030",
         "doc185c-cons-cons_001_0020_0020_0030_0030_0110",
         "doc188-015-1949-11-28-0080",
-        "doc189x-19500530-0080"
+        "doc189x-19500530-0080",
+        "doc194b-0803-0060"
       ],
       "evidenceFile": "data/evidence/shin-ik-hui-run176.json",
       "openLeadsFile": "data/research/lead-queues/run141-next.json",
       "historyDebt": [
         "HD-R141-IDENTITY",
         "HD-R180-01",
-        "HD-R180b-IDENTITY"
+        "HD-R180b-IDENTITY",
+        "data/research/history-debt/run194b-constitutional-social.md"
       ],
       "attributionCaveat": "서명/이송은 법안 발의·표결·집행의 직접 증거가 아님",
       "eventIds": [
@@ -5843,7 +6054,8 @@
         "evt-r185c-15",
         "evt-r188-02",
         "evt-r188-03",
-        "evt-r189x-04"
+        "evt-r189x-04",
+        "evt-r194b-07"
       ],
       "researchNotes": [
         {
@@ -5908,7 +6120,8 @@
         "L168-P-pol-r141-shin-ik-hui",
         "L180-P-pol-r141-shin-ik-hui",
         "L180b-P-pol-r141-shin-ik-hui",
-        "L185b-P06"
+        "L185b-P06",
+        "L194B-04"
       ],
       "researchStatusHistory": [
         {
@@ -5962,6 +6175,20 @@
           "evidenceDocumentIds": [
             "doc177-nih-law286-source"
           ]
+        },
+        {
+          "period": "1950-07~08",
+          "title": "1950-08-03 전시근로의용단 단장",
+          "actionType": "SOURCE_ATTRIBUTED_ACTION_OR_PUBLIC_OFFICE",
+          "evidenceDocumentIds": [
+            "doc194b-0803-0120",
+            "doc194b-0803-0130"
+          ],
+          "eventIds": [
+            "evt-r194b-12"
+          ],
+          "sourceQualification": "신문 전사/공문 발췌; 직접명령·참석·실제 집행은 별도 검증",
+          "accessDate": "2026-10-27"
         }
       ],
       "rolePeriods": [
@@ -5986,12 +6213,15 @@
         "d140-l2",
         "d141-hm286",
         "doc171-nec-pres-1952",
-        "doc177-nih-law286-source"
+        "doc177-nih-law286-source",
+        "doc194b-0803-0120",
+        "doc194b-0803-0130"
       ],
       "evidenceFile": "data/evidence/jeon-jin-han-run176.json",
       "openLeadsFile": "data/research/lead-queues/run141-next.json",
       "historyDebt": [
-        "HD-R141-IDENTITY"
+        "HD-R141-IDENTITY",
+        "data/research/history-debt/run194b-constitutional-social.md"
       ],
       "attributionCaveat": "서명/이송은 법안 발의·표결·집행의 직접 증거가 아님",
       "run171Addendum": {
@@ -6004,7 +6234,13 @@
         "openLead": "노총 후보추천 회의록과 조직 소속 확인"
       },
       "researchStatusReason": "Run176: 개별 공문·법령 서명 또는 국회 수정안의 구체적 행위를 대통령기록관 소장기록 해제/동시대 보도로 확인; 원면 직접 검증 아님",
-      "annalsFile": "data/annals/jeon-jin-han-run176.md"
+      "annalsFile": "data/annals/jeon-jin-han-run176.md",
+      "eventIds": [
+        "evt-r194b-12"
+      ],
+      "openLeads": [
+        "L194B-12"
+      ]
     },
     {
       "id": "pol-r141-eom-sang-seop",
@@ -6987,6 +7223,19 @@
             "evt-r181-1119-0060"
           ],
           "sourceQualification": "press transcription"
+        },
+        {
+          "period": "1950-07~08",
+          "title": "1950-08-05 경북도지사 전재민 전단 서명",
+          "actionType": "SOURCE_ATTRIBUTED_ACTION_OR_PUBLIC_OFFICE",
+          "evidenceDocumentIds": [
+            "doc194b-0805-0060"
+          ],
+          "eventIds": [
+            "evt-r194b-16"
+          ],
+          "sourceQualification": "신문 전사/공문 발췌; 직접명령·참석·실제 집행은 별도 검증",
+          "accessDate": "2026-10-27"
         }
       ],
       "partyAffiliations": [
@@ -7003,16 +7252,24 @@
         "d141-gazette-384",
         "doc159-gaz-0040",
         "doc159-gaz-0030",
-        "doc181-1119-0060"
+        "doc181-1119-0060",
+        "doc194b-0805-0060"
       ],
       "openLeadsFile": "data/research/lead-queues/run141-next.json",
       "promotionReason": "국사편찬위원회 헌정사DB 관보 전사와 국회 심의 해설의 실명·직책·행위 확인. 생몰 미검증.",
       "eventIds": [
         "evt-r159-16",
         "evt-r159-17",
-        "evt-r181-1119-0060"
+        "evt-r181-1119-0060",
+        "evt-r194b-16"
       ],
-      "researchUpdatedAt": "2026-10-26"
+      "researchUpdatedAt": "2026-10-26",
+      "openLeads": [
+        "L194B-18"
+      ],
+      "historyDebt": [
+        "data/research/history-debt/run194b-constitutional-social.md"
+      ]
     },
     {
       "id": "pol-r141-han-dong-seok",
@@ -8928,6 +9185,24 @@
             "evt-r192-38"
           ],
           "attribution": "원임명장·관보 미열람"
+        },
+        {
+          "period": "1950-07~08",
+          "title": "1950-07-31~08-05 육군 총참모장 훈령16·19·21·23",
+          "actionType": "SOURCE_ATTRIBUTED_ACTION_OR_PUBLIC_OFFICE",
+          "evidenceDocumentIds": [
+            "doc194b-0731-0060",
+            "doc194b-0802-0040",
+            "doc194b-0804-0060",
+            "doc194b-0805-0020"
+          ],
+          "eventIds": [
+            "evt-r194b-03",
+            "evt-r194b-05",
+            "evt-r194b-19"
+          ],
+          "sourceQualification": "신문 전사/공문 발췌; 직접명령·참석·실제 집행은 별도 검증",
+          "accessDate": "2026-10-27"
         }
       ],
       "roleTimeline": [
@@ -8962,7 +9237,10 @@
         "evt-r163-18",
         "evt-r165-03",
         "evt-r166b-06",
-        "evt-r192-38"
+        "evt-r192-38",
+        "evt-r194b-03",
+        "evt-r194b-05",
+        "evt-r194b-19"
       ],
       "connections": [
         "evt-r150-19550914-nnsc-field-observation",
@@ -8980,11 +9258,16 @@
         "doc163-18",
         "doc163-24",
         "doc165-1007-0060",
-        "doc166-1011-0060"
+        "doc166-1011-0060",
+        "doc194b-0731-0060",
+        "doc194b-0802-0040",
+        "doc194b-0804-0060",
+        "doc194b-0805-0020"
       ],
       "openLeads": [
         "L150-32",
-        "L166-ID-pol-chung-il-kwon"
+        "L166-ID-pol-chung-il-kwon",
+        "L194B-07"
       ],
       "historyDebtIds": [
         "HD-R150-10"
@@ -9045,6 +9328,9 @@
             "doc166-1011-0060"
           ]
         }
+      ],
+      "historyDebt": [
+        "data/research/history-debt/run194b-constitutional-social.md"
       ]
     },
     {
@@ -12731,6 +13017,34 @@
           ],
           "sourceQualification": "동시대 기사 상공장관 언급; 인사원부·원공고 별도",
           "accessDate": "2026-10-27"
+        },
+        {
+          "period": "1950-08-01",
+          "title": "8/1 전시대책위원회 상공부장관(공보처 전언)",
+          "actionType": "DOCUMENTED_ROLE_OR_PRESS_ATTRIBUTION",
+          "evidenceDocumentIds": [
+            "doc194-daegu-aug1-cabinet"
+          ],
+          "eventIds": [
+            "evt-r194-02"
+          ],
+          "sourceQualification": "RUN194_REVIEWED_SOURCE; presidential direct order and individual vote not inferred",
+          "accessDate": "2026-10-27"
+        },
+        {
+          "period": "1950-07~08",
+          "title": "1950-08-01 ECA 주문 방송·08-03 일본 경유 수출 담화",
+          "actionType": "SOURCE_ATTRIBUTED_ACTION_OR_PUBLIC_OFFICE",
+          "evidenceDocumentIds": [
+            "doc194b-0801-0110",
+            "doc194b-0803-0110"
+          ],
+          "eventIds": [
+            "evt-r194b-01",
+            "evt-r194b-13"
+          ],
+          "sourceQualification": "신문 전사/공문 발췌; 직접명령·참석·실제 집행은 별도 검증",
+          "accessDate": "2026-10-27"
         }
       ],
       "researchStatus": "IDENTIFIED",
@@ -12743,7 +13057,10 @@
         "doc180b-0905-0060",
         "doc181-1201-0100",
         "doc183b-19491212-kim-hun",
-        "doc189x-19500530-0040"
+        "doc189x-19500530-0040",
+        "doc194-daegu-aug1-cabinet",
+        "doc194b-0801-0110",
+        "doc194b-0803-0110"
       ],
       "evidenceCoverage": {
         "sourceDocumentIds": [
@@ -12759,17 +13076,24 @@
         "evt-r180b-0905-0060",
         "evt-r181-1201-0100",
         "evt-r183b-10",
-        "evt-r189x-05"
+        "evt-r189x-05",
+        "evt-r194-02",
+        "evt-r194b-01",
+        "evt-r194b-13"
       ],
       "openLeads": [
         "L164-ID-pol-r164-kim-hun",
         "L166-ID-pol-r164-kim-hun",
         "L180b-P-pol-r164-kim-hun",
-        "L183b-05"
+        "L183b-05",
+        "L194-06",
+        "L194B-10"
       ],
       "historyDebt": [
         "HD-R164-ID",
-        "HD-R180b-IDENTITY"
+        "HD-R180b-IDENTITY",
+        "data/research/history-debt/run194-budget-constitutional-health.md",
+        "data/research/history-debt/run194b-constitutional-social.md"
       ],
       "promotionReason": "1950년 9월 당대 기사/문서에서 실명과 시기별 직책·행위가 확인됨. 생몰·이명 독립확인 전 VERIFIED 보류",
       "researchNotes": [
@@ -14546,19 +14870,38 @@
           "evidenceDocumentIds": [
             "doc164e-1001-0050"
           ]
+        },
+        {
+          "period": "1950-07~08",
+          "title": "1950-08-05 경남도지사 구국부녀대회 연설(기사 성만 표기)",
+          "actionType": "SOURCE_ATTRIBUTED_ACTION_OR_PUBLIC_OFFICE",
+          "evidenceDocumentIds": [
+            "doc194b-0805-0080"
+          ],
+          "eventIds": [
+            "evt-r194b-18"
+          ],
+          "sourceQualification": "신문 전사/공문 발췌; 직접명령·참석·실제 집행은 별도 검증",
+          "accessDate": "2026-10-27"
         }
       ],
       "researchStatus": "IDENTIFIED",
       "evidenceDocumentIds": [
-        "doc164e-1001-0050"
+        "doc164e-1001-0050",
+        "doc194b-0805-0080"
       ],
       "eventIds": [
-        "evt-r164e-02"
+        "evt-r164e-02",
+        "evt-r194b-18"
       ],
       "openLeads": [
-        "L164e-ID-yang-seong-bong"
+        "L164e-ID-yang-seong-bong",
+        "L194B-28"
       ],
-      "promotionReason": "공동발표에 도지사 직책·실명 확인, 임명원문·생몰 미확보"
+      "promotionReason": "공동발표에 도지사 직책·실명 확인, 임명원문·생몰 미확보",
+      "historyDebt": [
+        "data/research/history-debt/run194b-constitutional-social.md"
+      ]
     },
     {
       "id": "pol-r165-lee-jun-sik",
@@ -14677,6 +15020,14 @@
           "documentIds": [
             "doc166-1019-0050"
           ]
+        },
+        {
+          "date": "2026-10-27",
+          "note": "8/1 공보처 보도 金교통부장관은 성만 기재, 김석관과 동일인 확정 보류",
+          "evidenceDocumentIds": [
+            "doc194-daegu-aug1-cabinet"
+          ],
+          "openLead": "L194-07"
         }
       ]
     },
@@ -20265,21 +20616,38 @@
           "eventIds": [
             "evt-r181-1201-0070"
           ]
+        },
+        {
+          "period": "1950-07~08",
+          "title": "1950-08-03 공보처장/차장 직함 충돌 언론 담화",
+          "actionType": "SOURCE_ATTRIBUTED_ACTION_OR_PUBLIC_OFFICE",
+          "evidenceDocumentIds": [
+            "doc194b-0803-0090"
+          ],
+          "eventIds": [
+            "evt-r194b-20"
+          ],
+          "sourceQualification": "신문 전사/공문 발췌; 직접명령·참석·실제 집행은 별도 검증",
+          "accessDate": "2026-10-27"
         }
       ],
       "researchStatus": "IDENTIFIED_CANDIDATE",
       "researchStatusReason": "동시대 신문 전사에서 성명·한자·직책/행동 확인, 공직임명 원장·생몰·동명이인 미검증",
       "evidenceDocumentIds": [
-        "doc181-1201-0070"
+        "doc181-1201-0070",
+        "doc194b-0803-0090"
       ],
       "eventIds": [
-        "evt-r181-1201-0070"
+        "evt-r181-1201-0070",
+        "evt-r194b-20"
       ],
       "openLeads": [
-        "L181-P-pol-r181-lee-cheol-won"
+        "L181-P-pol-r181-lee-cheol-won",
+        "L194B-15"
       ],
       "historyDebt": [
-        "HD-R181-IDENTITY"
+        "HD-R181-IDENTITY",
+        "data/research/history-debt/run194b-constitutional-social.md"
       ],
       "accessDate": "2026-10-27"
     },
@@ -20463,6 +20831,19 @@
             "evt-r189x-13"
           ],
           "sourceQualification": "동시대 신문 전사, 발언·보고·임명·실행 구분"
+        },
+        {
+          "period": "1950-07~08",
+          "title": "1950-08-05 치안국장 소개·일제검색·도민증 담화",
+          "actionType": "SOURCE_ATTRIBUTED_ACTION_OR_PUBLIC_OFFICE",
+          "evidenceDocumentIds": [
+            "doc194b-0805-0050"
+          ],
+          "eventIds": [
+            "evt-r194b-15"
+          ],
+          "sourceQualification": "신문 전사/공문 발췌; 직접명령·참석·실제 집행은 별도 검증",
+          "accessDate": "2026-10-27"
         }
       ],
       "researchStatus": "IDENTIFIED_CANDIDATE",
@@ -20475,7 +20856,8 @@
         "doc184-police-19490606",
         "doc184-police-complaint-19490618",
         "doc189x-19500529-0020",
-        "doc189x-19500605-0020"
+        "doc189x-19500605-0020",
+        "doc194b-0805-0050"
       ],
       "eventIds": [
         "evt-r181-1201-0030",
@@ -20485,15 +20867,18 @@
         "evt-r184-02",
         "evt-r184-10",
         "evt-r189x-01",
-        "evt-r189x-13"
+        "evt-r189x-13",
+        "evt-r194b-15"
       ],
       "openLeads": [
         "L181-P-pol-kim-tae-seon",
         "L183d-04",
-        "L184-P-pol-kim-tae-seon"
+        "L184-P-pol-kim-tae-seon",
+        "L194B-19"
       ],
       "historyDebt": [
-        "HD-R181-IDENTITY"
+        "HD-R181-IDENTITY",
+        "data/research/history-debt/run194b-constitutional-social.md"
       ],
       "accessDate": "2026-10-27"
     },

@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "run": "run194b",
+  "cases": [
+    {
+      "id": "ADV194-01",
+      "question": "공보처 960만원이 확정액인가",
+      "comparedDocumentIds": [
+        "doc193-nikh-daegu-19500803-budget",
+        "doc194-muccio-aug1-budget"
+      ],
+      "provenanceRelationship": "PRESS_VS_US_DIPLOMAT",
+      "status": "CONFLICTED_SCOPE",
+      "finding": "2460만원 승인·960만원 정부신문 삭감의 세목·시점 미확인",
+      "adversarialSearchExecuted": true,
+      "threeIndependentFamiliesVerified": false,
+      "accessDate": "2026-10-27",
+      "next": "각 자료 원면·법령 원관보·국회 원속기록·해외 원영문 대조"
+    },
+    {
+      "id": "ADV194-02",
+      "question": "한국은행 정부안 금통위원 정원이 8인인가",
+      "comparedDocumentIds": [
+        "doc193-nikh-seoul-19500319-bok-bill",
+        "doc191-bok-history"
+      ],
+      "provenanceRelationship": "PRESS_VS_BANK_INSTITUTIONAL",
+      "status": "NARROWED",
+      "finding": "상세7명+기관7명, 기사 서두 외7인 상충",
+      "adversarialSearchExecuted": true,
+      "threeIndependentFamiliesVerified": false,
+      "accessDate": "2026-10-27",
+      "next": "각 자료 원면·법령 원관보·국회 원속기록·해외 원영문 대조"
+    },
+    {
+      "id": "ADV194-03",
+      "question": "향토방위령 7호 폐기 후 9호가 존재하지 않는가",
+      "comparedDocumentIds": [
+        "doc194-warbook-decree7-repeal",
+        "doc194b-0804-0050"
+      ],
+      "provenanceRelationship": "TWO_REPRINTED_LEGAL_ACTS",
+      "status": "REFUTED_NONEXISTENCE",
+      "finding": "8/4 9호 18조 존재, 동일 조문·재발령 합헌성 미확인",
+      "adversarialSearchExecuted": true,
+      "threeIndependentFamiliesVerified": false,
+      "accessDate": "2026-10-27",
+      "next": "각 자료 원면·법령 원관보·국회 원속기록·해외 원영문 대조"
+    },
+    {
+      "id": "ADV194-04",
+      "question": "8/5 자위대 결성의 유효 법적 근거가 7호인가",
+      "comparedDocumentIds": [
+        "doc194b-0805-0030",
+        "doc194b-0804-0050"
+      ],
+      "provenanceRelationship": "PRESS_VS_LEGAL_REPRINT",
+      "status": "CONFLICTED_REFERENCE",
+      "finding": "7호 폐기와 9호 시행을 보도에서 혼동했을 가능성, 행사 명부 확인 필요",
+      "adversarialSearchExecuted": true,
+      "threeIndependentFamiliesVerified": false,
+      "accessDate": "2026-10-27",
+      "next": "각 자료 원면·법령 원관보·국회 원속기록·해외 원영문 대조"
+    },
+    {
+      "id": "ADV194-05",
+      "question": "국회가 긴급명령을 모두 승인했는가",
+      "comparedDocumentIds": [
+        "doc194b-0803-0060",
+        "doc194-warbook-decree7-repeal"
+      ],
+      "provenanceRelationship": "PARLIAMENT_SPEECH_VS_REPRINTED_DECREE",
+      "status": "REFUTED_ALL",
+      "finding": "일부 긴급명령 승인과 7호 불승인은 양립",
+      "adversarialSearchExecuted": true,
+      "threeIndependentFamiliesVerified": false,
+      "accessDate": "2026-10-27",
+      "next": "각 자료 원면·법령 원관보·국회 원속기록·해외 원영문 대조"
+    },
+    {
+      "id": "ADV194-06",
+      "question": "5장관 전시대책위 대통령 제안이 독립 두 출처에서 입증되는가",
+      "comparedDocumentIds": [
+        "doc194-daegu-aug1-cabinet",
+        "doc194b-0804-0040"
+      ],
+      "provenanceRelationship": "PRESS_VS_CIA_DERIVATIVE_MUCCIO",
+      "status": "NARROWED_NOT_INDEPENDENT_PROPOSER",
+      "finding": "구성·회의 확인, 제안자 명시는 CIA의 무초 전언만",
+      "adversarialSearchExecuted": true,
+      "threeIndependentFamiliesVerified": false,
+      "accessDate": "2026-10-27",
+      "next": "각 자료 원면·법령 원관보·국회 원속기록·해외 원영문 대조"
+    },
+    {
+      "id": "ADV194-07",
+      "question": "전시근로의용단 8/3 장소가 송림극장으로 확정인가",
+      "comparedDocumentIds": [
+        "doc194b-0803-0120",
+        "doc194b-0803-0130"
+      ],
+      "provenanceRelationship": "SAME_NEWSPAPER_DIFFERENT_REPORTS",
+      "status": "CONFLICTED_VENUE",
+      "finding": "예고 송림극장·사후 대구극장",
+      "adversarialSearchExecuted": true,
+      "threeIndependentFamiliesVerified": false,
+      "accessDate": "2026-10-27",
+      "next": "각 자료 원면·법령 원관보·국회 원속기록·해외 원영문 대조"
+    },
+    {
+      "id": "ADV194-08",
+      "question": "UN 안보리 5:5:1과 8:1:2는 같은 표결의 모순인가",
+      "comparedDocumentIds": [
+        "doc194b-0803-0010",
+        "doc194b-0803-0020"
+      ],
+      "provenanceRelationship": "TWO_PRESS_SOURCES_DISTINCT_MOTIONS",
+      "status": "DISAMBIGUATED",
+      "finding": "중국대표권 상정·미국안 우선심의 등 다른 동의",
+      "adversarialSearchExecuted": true,
+      "threeIndependentFamiliesVerified": false,
+      "accessDate": "2026-10-27",
+      "next": "각 자료 원면·법령 원관보·국회 원속기록·해외 원영문 대조"
+    },
+    {
+      "id": "ADV194-09",
+      "question": "한국전쟁을 내전이라고 미국도 법적으로 확정했는가",
+      "comparedDocumentIds": [
+        "doc194b-0802-0030",
+        "doc194b-0804-0020"
+      ],
+      "provenanceRelationship": "US_POLICY_VS_SOVIET_SPEECH_REPORTED_BY_US",
+      "status": "REFUTED_SHARED_POSITION",
+      "finding": "미국은 분류 유보, 소련은 내전 주장. 같은 사실판정 아님",
+      "adversarialSearchExecuted": true,
+      "threeIndependentFamiliesVerified": false,
+      "accessDate": "2026-10-27",
+      "next": "각 자료 원면·법령 원관보·국회 원속기록·해외 원영문 대조"
+    },
+    {
+      "id": "ADV194-10",
+      "question": "피난민 수용법 시행일이 기사 수록일 8/4인가",
+      "comparedDocumentIds": [
+        "doc194b-0804-0070",
+        "doc194b-0801-0130"
+      ],
+      "provenanceRelationship": "LEGAL_REPRINT_VS_CONTEMPORARY_RELIEF_REPORT",
+      "status": "NARROWED",
+      "finding": "법률145 조문 시행일 8/1, 공포일·법효력 별도 검증",
+      "adversarialSearchExecuted": true,
+      "threeIndependentFamiliesVerified": false,
+      "accessDate": "2026-10-27",
+      "next": "각 자료 원면·법령 원관보·국회 원속기록·해외 원영문 대조"
+    },
+    {
+      "id": "ADV194-11",
+      "question": "이승만의 공개 자위대 훈시가 개별 체포명령과 동일한가",
+      "comparedDocumentIds": [
+        "doc194b-0805-0040",
+        "doc194b-0805-0050"
+      ],
+      "provenanceRelationship": "PRESIDENTIAL_SPEECH_VS_POLICE_CHIEF_STATEMENT",
+      "status": "NOT_ESTABLISHED",
+      "finding": "발언·치안행정·현장 집행명령을 분리",
+      "adversarialSearchExecuted": true,
+      "threeIndependentFamiliesVerified": false,
+      "accessDate": "2026-10-27",
+      "next": "각 자료 원면·법령 원관보·국회 원속기록·해외 원영문 대조"
+    },
+    {
+      "id": "ADV194-12",
+      "question": "육군 교량파괴 현장시각 경고가 한강인도교 책임자를 특정하는가",
+      "comparedDocumentIds": [
+        "doc194b-0804-0060",
+        "doc194b-0805-0060"
+      ],
+      "provenanceRelationship": "MILITARY_ORDER_VS_CIVILIAN_FLYER",
+      "status": "NOT_ESTABLISHED",
+      "finding": "8/4 지침에 한강교 특정 없음, 8/5 전단은 낙동강 교량 언급",
+      "adversarialSearchExecuted": true,
+      "threeIndependentFamiliesVerified": false,
+      "accessDate": "2026-10-27",
+      "next": "각 자료 원면·법령 원관보·국회 원속기록·해외 원영문 대조"
+    }
+  ],
+  "notes": "12 distinct hypotheses challenged with alternative documents; independence and completeness vary. No three-family full crosscheck."
+}

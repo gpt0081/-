@@ -14,6 +14,22 @@
 
 기존 `data/presidents.json`은 시간순 대통령 overlay, `data/politicians.json`은 정치인 registry, `data/events.json`은 사건 cross-link registry 역할을 합니다. 기존 대통령 중심 ID와 파일은 깨뜨리지 않고 `legacyIds`와 연결 필드로 점진적으로 일반화합니다.
 
+## 최신 연구 실행 (Run194)
+
+2026-10-27: [Run194 보고서](data/research/runs/2026-10-27-run194-report.md) · [검증 가능한 실행계정](data/research/runs/2026-10-27-run194-ledger.json) · [문서 registry](data/documents/run194-1950-budget-defence-bok.json) · [주장·반증](data/claims/run194-1950-budget-defence-bok-claims.json) · [사건](data/events/run194-1950-budget-defence-bok-actions.json) · [정치인](data/politicians/run194-1950-cabinet-bok-local-actors.json) · [후속 18개 원문 표적](data/research/lead-queues/run194-next.json). 1950년 8월 공보처 예산 출처 차이, 긴급명령7 국회 승인 부결, 금융통화위원 정원 7인 교차검증을 기록. 출처 불일치와 인명·날짜 불확실성은 해소된 것처럼 처리하지 않음. Floot 미변경.
+
+## Run194b 추가 원문 대량채굴
+
+2026-10-27: [확장 보고서](data/research/runs/2026-10-27-run194b-report.md) · [57개 직접 열람 실행장부](data/research/runs/2026-10-27-run194b-ledger.json) · [42개 추가 문서](data/documents/run194b-1950-jul31-aug05-contemporary.json) · [22개 사건](data/events/run194b-1950-emergency-law-and-social-actions.json) · [20개 주장/충돌](data/claims/run194b-1950-legal-contradictions.json) · [12개 반증검토](data/research/runs/2026-10-27-run194b-adversarial.json) · [34개 후속 원문 표적](data/research/lead-queues/run194b-next.json). 핵심: 국회 불승인 긴급명령7(7/22)과 8/4 긴급명령9를 구분하고, 전시 국정·사회정치조직을 비대통령 인물 노드로 연결. Floot 미변경.
+
+## Run194c 조문 비교
+
+[긴급명령7·9 조문별 변경표](data/claims/run194c-decree7-vs9-crosswalk.json) · [법제처 연혁과 7호 비공식 전사](data/documents/run194c-1950-decree-legal-index.json). 1950년 7호의 경찰서장 임명권이 8월 9호에서 도지사·대한청년단 추천 구조로 바뀌고, 자위대 체포 후 경찰 인도 시한이 48시간에서 24시간으로 단축됨. 원관보 대조·법적 평가는 미완.
+
+## Run194d 국편 7호 원문 보강
+
+[국편 1950-07-22 긴급명령7 19조 전문](data/documents/run194c-1950-decree-legal-index.json) 확인으로 **총 59건 실질 열람**, 신규 document **56건**, 공식 발신 기록·연설 전사 **21건**, 사건 **34건**, 주장 **40건**, 구체 lead **54건**. 법령 원관보 원면은 아직 미확보. [실행 감사](data/research/runs/2026-10-27-run194-final-audit.md).
+
 ## 핵심 원칙
 
 **AI가 정치인을 심판하지 않습니다.** 시스템은 관련 기록을 공격적으로 찾되 공개·확정은 보수적으로 처리합니다. 원문·날짜·당시 맥락·후속 설명·반증·불확실성을 함께 보여주고 최종 판단은 사용자에게 남깁니다.
