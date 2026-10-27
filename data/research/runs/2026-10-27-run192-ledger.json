@@ -3,27 +3,27 @@
   "date": "2026-10-27",
   "timezone": "Asia/Seoul",
   "startedAt": "2026-10-27T11:20:14+09:00",
-  "reportedAt": "2026-10-27T02:33:48.987Z",
-  "elapsedMinutesAtReport": 14,
+  "reportedAt": "2026-10-27T02:36:55.900Z",
+  "elapsedMinutesAtReport": 17,
   "hourClaim": false,
   "metrics": {
-    "independentResearchLines": 12,
-    "governmentDomainsStrengthened": 11,
-    "nonPresidentialPoliticiansDeepened": 5,
+    "independentResearchLines": 26,
+    "governmentDomainsStrengthened": 15,
+    "nonPresidentialPoliticiansDeepened": 6,
     "presidentsDeepened": 1,
-    "newOrStrengthenedEvents": 18,
-    "uniqueSubstantiveDocumentsOpened": 47,
-    "officialOrContemporaneousTextsOpened": 44,
+    "newOrStrengthenedEvents": 28,
+    "uniqueSubstantiveDocumentsOpened": 67,
+    "officialOrContemporaneousTextsOpened": 63,
     "originalFacsimilesRead": 0,
-    "adversarialComparisonAxes": 11,
-    "independentAdversarialSearchesCompleted": 1,
+    "adversarialComparisonAxes": 15,
+    "independentAdversarialSearchesCompleted": 5,
     "existingOpenLeadsTracked": 11,
-    "concreteNewLeads": 44,
+    "concreteNewLeads": 54,
     "partialCrossProvenanceBundles": 3,
     "fullThreeOriginalFamilyCrossChecks": 3,
-    "newDocumentsRegistered": 49,
-    "newClaims": 21,
-    "newHistoryDebts": 7
+    "newDocumentsRegistered": 69,
+    "newClaims": 31,
+    "newHistoryDebts": 9
   },
   "verifiedDocuments": [
     "FRUS 1950 VII d79-d94,d96-d109,d119",
@@ -38,7 +38,10 @@
     "UK House of Lords Hansard 1950-06-27",
     "AKS E0033106 Shin Sung-mo",
     "AKS E0055598 Chae Byong-deok",
-    "AKS E0009415 Kim Seok-won"
+    "AKS E0009415 Kim Seok-won",
+    "FRUS VII d112,122,127,128,135,138,142,145,146,140,149,154,157,159,161,163,165,166,167 (19 unique)",
+    "AKS E0046663 Lee Hoon-gu",
+    "FRUS d130 S/1511 reprint duplicate not counted"
   ],
   "blocked": [
     "UN S/1509 original PDF 403",
@@ -53,7 +56,8 @@
     "c6af5c6ad38c9022131e18801ed83747b20f01c6",
     "4e74418723525d93742a3811cb8931666ff8b065",
     "0be5972505203972d5712defbfbd7e0d5d09e60d",
-    "2e31f7ea7648a9bbc8a5efdbdd62bfce56c3103f"
+    "2e31f7ea7648a9bbc8a5efdbdd62bfce56c3103f",
+    "e42139bb3bf4c122b9659bcbf1a10e41ba301c3b"
   ],
   "researchStatus": "INCOMPLETE_TARGETS_HONESTLY_RECORDED",
   "pullRequest": {
@@ -62,5 +66,137 @@
     "draft": true,
     "base": "research/run191-20261027-prewar-frus-uncok-bank",
     "head": "research/run192-20261027-unsc-uk-parliament-cabinet-chain"
-  }
+  },
+  "researchLines": [
+    {
+      "id": "RL192-01",
+      "topic": "이승만 6/26 항공기·포병 장비 요청",
+      "documentId": "doc192-frus1950v07-d80"
+    },
+    {
+      "id": "RL192-02",
+      "topic": "국회 6/26 구호·비상군사기금",
+      "documentId": "doc192-frus1950v07-d90"
+    },
+    {
+      "id": "RL192-03",
+      "topic": "장면 6/26 트루먼 청원 전달",
+      "documentId": "doc192-frus1950v07-d97"
+    },
+    {
+      "id": "RL192-04",
+      "topic": "신성모 6/27 채병덕 지휘위임 진술",
+      "documentId": "doc192-frus1950v07-d101"
+    },
+    {
+      "id": "RL192-05",
+      "topic": "정부 6/27 남하 시각·교통",
+      "documentId": "doc192-frus1950v07-d101"
+    },
+    {
+      "id": "RL192-06",
+      "topic": "미국인·UNCOK 민간인 피난",
+      "documentId": "doc192-frus1950v07-d91"
+    },
+    {
+      "id": "RL192-07",
+      "topic": "UNCOK 6/26 중재 제안",
+      "documentId": "doc192-frus1950v07-d92"
+    },
+    {
+      "id": "RL192-08",
+      "topic": "UNCOK 6/27 기습 관찰",
+      "documentId": "doc192-un-sc83-meeting"
+    },
+    {
+      "id": "RL192-09",
+      "topic": "안보리 6/25 결의82·유고 S1500",
+      "documentId": "doc192-un-sc82-meeting"
+    },
+    {
+      "id": "RL192-10",
+      "topic": "안보리 6/27 결의83·유고 S1509",
+      "documentId": "doc192-un-sc83-meeting"
+    },
+    {
+      "id": "RL192-11",
+      "topic": "인도 결의83 투표보류 지시",
+      "documentId": "doc192-frus1950v07-d122"
+    },
+    {
+      "id": "RL192-12",
+      "topic": "소련 대표 말리크 법적 이의",
+      "documentId": "doc192-frus1950v07-d127"
+    },
+    {
+      "id": "RL192-13",
+      "topic": "유고 티토 블록독립 외교",
+      "documentId": "doc192-frus1950v07-d135"
+    },
+    {
+      "id": "RL192-14",
+      "topic": "미국 6/26 공해군 작전 결정",
+      "documentId": "doc192-frus1950v07-d105"
+    },
+    {
+      "id": "RL192-15",
+      "topic": "미 합참 6/29 JCS84681",
+      "documentId": "doc192-frus1950v07-d161"
+    },
+    {
+      "id": "RL192-16",
+      "topic": "중화민국 6/29 33,000명 지원 제안",
+      "documentId": "doc192-frus1950v07-d159"
+    },
+    {
+      "id": "RL192-17",
+      "topic": "UN 회원국 원조 전달행정",
+      "documentId": "doc192-frus1950v07-d146"
+    },
+    {
+      "id": "RL192-18",
+      "topic": "영국 하원 7/5 정부안·반대수정안",
+      "documentId": "doc192-uk-hansard-0705"
+    },
+    {
+      "id": "RL192-19",
+      "topic": "북한 박헌영 S/1527 반박",
+      "documentId": "doc192-un-dprk-response"
+    },
+    {
+      "id": "RL192-20",
+      "topic": "서울 6/27 조기 함락 오보 교정",
+      "documentId": "doc192-frus1950v07-d109"
+    },
+    {
+      "id": "RL192-21",
+      "topic": "1921 신성모 이승만 청원 비판",
+      "documentId": "doc192-aks-shin"
+    },
+    {
+      "id": "RL192-22",
+      "topic": "김석원 1950 군사유경험자회담",
+      "documentId": "doc192-aks-kim-seok-won"
+    },
+    {
+      "id": "RL192-23",
+      "topic": "이훈구 1948 농지개혁·6/30 증언",
+      "documentId": "doc192-frus1950v07-d166"
+    },
+    {
+      "id": "RL192-24",
+      "topic": "이승만 맥아더 6/29 수원 회담",
+      "documentId": "doc192-frus1950v07-d149"
+    },
+    {
+      "id": "RL192-25",
+      "topic": "무초 대전 정부·국회 접촉",
+      "documentId": "doc192-frus1950v07-d140"
+    },
+    {
+      "id": "RL192-26",
+      "topic": "덜레스·맥아더 초기 전력평가",
+      "documentId": "doc192-frus1950v07-d157"
+    }
+  ]
 }

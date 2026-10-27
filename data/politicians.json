@@ -227,6 +227,18 @@
           ],
           "attribution": "미 대사관 원전문; 지원요청은 인도확인 아님, 이동시간은 신성모 전언",
           "accessDate": "2026-10-27"
+        },
+        {
+          "period": "1950-06-29",
+          "title": "수원에서 맥아더·무초와 한강 전선 관련 회담",
+          "actionType": "CONTEMPORANEOUS_REPORTED_DIPLOMATIC_MILITARY_MEETING",
+          "evidenceDocumentIds": [
+            "doc192-frus1950v07-d149"
+          ],
+          "eventIds": [
+            "evt-r192-24"
+          ],
+          "attribution": "미 대사관 전문; 구체적 대통령 명령으로 확장하지 않음"
         }
       ],
       "researchStatus": "active-deep",
@@ -498,7 +510,9 @@
         "evt-r191-21",
         "evt-r191-24",
         "evt-r192-02",
-        "evt-r192-07"
+        "evt-r192-07",
+        "evt-r192-23",
+        "evt-r192-24"
       ],
       "openLeads": [
         "L173-05",
@@ -1589,7 +1603,10 @@
       "name": "이훈구",
       "aliases": [
         "李勳求",
-        "Lee Hoon-gu"
+        "Lee Hoon-gu",
+        "心堂",
+        "심당",
+        "Lee Hun Ku (FRUS d166)"
       ],
       "roles": [
         "제헌국회의원",
@@ -1617,9 +1634,32 @@
           ],
           "sourceQualification": "신문 전사, 원문 원면·당적/명령/집행원부 미확보",
           "accessDate": "2026-10-27"
+        },
+        {
+          "period": "1950-06-29~30",
+          "title": "전 제헌의원으로 서울 탈출 후 수원에서 미국대사관에 전황·행정 소문 진술",
+          "actionType": "CONTEMPORANEOUS_MIXED_EYEWITNESS_AND_HEARSAY_REPORT",
+          "evidenceDocumentIds": [
+            "doc192-frus1950v07-d166",
+            "doc192-aks-lee-hoon-gu"
+          ],
+          "eventIds": [
+            "evt-r192-27"
+          ],
+          "attribution": "US chargé Drumright telegram; original interview recording not available, hearsay claims not verified"
+        },
+        {
+          "period": "1960",
+          "title": "제5대 국회 참의원 활동(후대 전기)",
+          "actionType": "SECONDARY_REPORTED_ELECTED_OFFICE",
+          "evidenceDocumentIds": [
+            "doc192-aks-lee-hoon-gu"
+          ],
+          "eventIds": [],
+          "attribution": "선관위 원당선인 명부 미열람"
         }
       ],
-      "researchStatus": "candidate-legislative-actor",
+      "researchStatus": "IDENTIFIED",
       "backbone": false,
       "connections": [
         "evt-1949-farmland-reform"
@@ -1636,13 +1676,35 @@
         }
       ],
       "evidenceDocumentIds": [
-        "doc187-party-jun7"
+        "doc187-party-jun7",
+        "doc192-frus1950v07-d166",
+        "doc192-aks-lee-hoon-gu"
       ],
       "eventIds": [
-        "evt-r187-12"
+        "evt-r187-12",
+        "evt-r192-27"
       ],
       "openLeads": [
-        "L187-A-pol-lee-hoon-gu"
+        "L187-A-pol-lee-hoon-gu",
+        "L192-45",
+        "L192-46"
+      ],
+      "lifespan": {
+        "born": "1896",
+        "died": "1961-06-13",
+        "verification": "AKS biography E0046663; 1960 5·16 표기 오기 의심, 민간 원부 미열람"
+      },
+      "researchPromotionHistory": [
+        {
+          "date": "2026-10-27",
+          "from": "candidate-legislative-actor",
+          "to": "IDENTIFIED",
+          "reason": "AKS compiled biography (birth/death, 1948 land reform, 1960 senator) and 1950 US contemporary report of former MP Lee Hun Ku; signature identity original outstanding",
+          "documentIds": [
+            "doc192-aks-lee-hoon-gu",
+            "doc192-frus1950v07-d166"
+          ]
+        }
       ]
     },
     {
