@@ -18,6 +18,10 @@
 
 2026-10-27: [Run194 보고서](data/research/runs/2026-10-27-run194-report.md) · [검증 가능한 실행계정](data/research/runs/2026-10-27-run194-ledger.json) · [문서 registry](data/documents/run194-1950-budget-defence-bok.json) · [주장·반증](data/claims/run194-1950-budget-defence-bok-claims.json) · [사건](data/events/run194-1950-budget-defence-bok-actions.json) · [정치인](data/politicians/run194-1950-cabinet-bok-local-actors.json) · [후속 18개 원문 표적](data/research/lead-queues/run194-next.json). 1950년 8월 공보처 예산 출처 차이, 긴급명령7 국회 승인 부결, 금융통화위원 정원 7인 교차검증을 기록. 출처 불일치와 인명·날짜 불확실성은 해소된 것처럼 처리하지 않음. Floot 미변경.
 
+## Run194b 추가 원문 대량채굴
+
+2026-10-27: [확장 보고서](data/research/runs/2026-10-27-run194b-report.md) · [57개 직접 열람 실행장부](data/research/runs/2026-10-27-run194b-ledger.json) · [42개 추가 문서](data/documents/run194b-1950-jul31-aug05-contemporary.json) · [22개 사건](data/events/run194b-1950-emergency-law-and-social-actions.json) · [20개 주장/충돌](data/claims/run194b-1950-legal-contradictions.json) · [12개 반증검토](data/research/runs/2026-10-27-run194b-adversarial.json) · [34개 후속 원문 표적](data/research/lead-queues/run194b-next.json). 핵심: 국회 불승인 긴급명령7(7/22)과 8/4 긴급명령9를 구분하고, 전시 국정·사회정치조직을 비대통령 인물 노드로 연결. Floot 미변경.
+
 ## 핵심 원칙
 
 **AI가 정치인을 심판하지 않습니다.** 시스템은 관련 기록을 공격적으로 찾되 공개·확정은 보수적으로 처리합니다. 원문·날짜·당시 맥락·후속 설명·반증·불확실성을 함께 보여주고 최종 판단은 사용자에게 남깁니다.
