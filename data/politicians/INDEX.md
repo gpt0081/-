@@ -317,3 +317,7 @@ Run208 신원검증: `cand-r207-kim-su-hak` 金秀學(1950 고창갑 당선, AKS
 - [윤우경](../annals/politicians/cand-r209-yun-woo-gyeong.md): 서울경찰청 1951-06-24 재임시작 vs 민주신보 6/26 발령, 신원 1900~1995 AKS 확인, 정확한 취임일 CONFLICTED.
 - [홍범희](../annals/politicians/cand-r209-hong-beom-hui.md): 제헌의원·1951 6~11 내무차관, 1917~1972 AKS 인물전기 확인, 원임명관보 미확보.
 - 6/27~7/1 장면·이철원·이종찬·곽태진·양우정·김종회·양유찬·신성모·신현돈·조재천·부산특별시법안 발의자 등을 독립 ID로 연결. 원문 미확보 후보의 정식 승격은 보류.
+
+## Run210 · 1951-07-02~07 비대통령 행위자
+
+`data/politicians/run210-july02-07-actor-network.json`: 기존 stable 인물 재사용 및 안만복·양유정·손성겸 candidate ID 신설. 국회 질의, 군 지휘, 농정·재정, 지방 구호, 외교 행위를 사건·문서로 연결. `cand-r209-lee-jong-chan`은 Run209 기존 candidate ID 재사용, 한자 李鍾贊은 육본훈령191에서 직접 확인했으나 동명이인·생몰·원임명장 확인 전 canonical 병합 금지.

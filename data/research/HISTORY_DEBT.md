@@ -2308,3 +2308,7 @@ data/research/history-debt/run205e-may22.md의 HD-R205E-01~11 참조. 법률 제
 - `HD-R209-31` **OPEN**: 6/5 국회 유엔군 통화대여금 약1600억·6/10 장면 총리 명의 CAC 중간청산 요구 약1800억. 시간차·환율별 누적 차이 가능, 청산원장 미확보.
 - `HD-R209-32` **OPEN**: 6/5 1952년 대한원조 5억·4억 기사 표현과 2.5+1.6=4.1억 산술 불일치, 기획처 원예산표 미확보.
 후속 `data/research/lead-queues/run209-next.json` 128개. **역사부채 주간 전수조사 미실시**. `last_full_review` 불변.
+
+## Run210 개별 검토 (2026-10-28, 주간 전수 아님)
+
+`data/research/history-debt/run210-july02-07.json`에 기존 HD-R209-26을 UNKRA/UNC 전시 지휘권 문서로 NARROWED(해결 아님), 신규 11개 OPEN/CONFLICTED를 기록. 육본훈령191의 7/10 취소, 하곡 도별 합계 421000 vs 350000, 서울 농민 87670 vs 87680, 신성모 임명 국무회의 상반 진술, 국민방위군 재심을 원자료로 재검증 필요. **역사부채 주간 전수조사 미실시**; last_full_review 변경 없음.
