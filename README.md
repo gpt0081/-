@@ -17,6 +17,10 @@
 
 
 
+## Run217 · 1951년 12월 자유당 원내외 분화·포로·휴전감시
+
+2026-10-28: [보고](data/research/runs/2026-10-28-run217-report.md) · [실행장부](data/research/runs/2026-10-28-run217-ledger.json) · FRUS 정부원문 전사 48건과 한국 동시대 기사 3건 · 13명 정치인 행위 · 12개 사건 · [40개 후속 문서](data/research/lead-queues/run217-next.json). 신규 후보 김주학 1명, 기존 인물 12명 ID 재사용. Floot 변경 없음.
+
 ## Run215 · 1951년 10월 외교·휴전·국정·정당 대량채굴
 
 2026-10-28: [실행보고](data/research/runs/2026-10-28-run215-report.md) · [실행장부](data/research/runs/2026-10-28-run215-ledger.json) · 73개 고유 본문 직접열람(45 FRUS, 28 한국/공식 문서) · 34개 사건·31개 주장검토 · [다음 72개 구체적 lead](data/research/lead-queues/run215-next.json). 대통령기록관 원담화·신성모 외교공한·선관위 실제 지방선거·1957 최초 저작권법 대조. 임흥순 사망일·비료 교환 산술 충돌을 보존. Floot 변경 없음.

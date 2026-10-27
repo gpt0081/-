@@ -349,3 +349,7 @@ Run212 8/11~15 후속으로 [계엄 공고 국무위원·이종찬·김종원·�
 ## Run216 (2026-10-28): 1951년 11월 정부개헌 관보·전시 국정
 
 [관보 제562호 13 국무위원과 6명 추가 정치인, 총 19명](run216-nov1951-actors.json) · [21개 사건](../events/run216-nov1951-actions.json) · [정부개헌·외환·정전·농정 실록](../annals/run216-1951-nov-constitutional-economy.md). **이순용**(李淳鎔) 신규 candidate, **오한영·임문환** IDENTIFIED로 승격. 부서는 개별 개헌조문 발의·찬성을 증명하지 않는다. 변영태 외무부장관 한자는 관보 전사에서 일부 깨짐, 원면 확인 필요. 생몰 미확인 유지.
+
+## 2026-10-28 · Run217 1951-12-23 자유당 원내·원외 발당
+
+`data/politicians/run217-dec1951-party-actors.json`: 부산일보 1951-12-25에 기록된 개인별 역할 13명. 기존 stable/candidate ID 12명 재사용, 김주학만 신규 `cand-r217-kim-ju-hak`. 임시 ID 10개가 기존 registry와 중복됨을 발견해 교정했으며 대응표는 `canonicalIdReconciliation`에 보존. 원내·원외 별도 발당과 지도부 선출을 대통령 직접행동과 구분.
