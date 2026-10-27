@@ -41,7 +41,7 @@
       "promotionReason": "법무부 장관 담화 보도를 법률·행정 사건과 연결하되 한글 이름의 원문 확인 전 VERIFIED 금지"
     },
     {
-      "id": "pol-im-yeong-sin-1948-candidate",
+      "id": "pol-im-yeong-sin",
       "name": "임영신",
       "aliases": [
         "任永信",
@@ -53,7 +53,7 @@
         "died": null,
         "verification": "official biographical register pending"
       },
-      "researchStatus": "DISCOVERED",
+      "researchStatus": "IDENTIFIED",
       "roles": [
         {
           "title": "상공부 장관",
@@ -76,7 +76,18 @@
         "L133-09",
         "L133-10"
       ],
-      "promotionReason": "평시 산업·노동 행정 수신자 노드로 발견, 출처 단계 미달로 승격 보류"
+      "promotionReason": "평시 산업·노동 행정 수신자 노드로 발견, 출처 단계 미달로 승격 보류",
+      "identityReusedFrom": "data/politicians/run124-im-yeong-sin.json",
+      "researchNotes": "기존 1951 IDENTIFIED 노드에 1948 산업노동 행정 색인 단서를 추가. 1948 임명 원부·기사 원면 미확보이므로 새 1948 행위는 잠정.",
+      "reviewHistory": [
+        {
+          "date": "2026-10-27",
+          "action": "REUSE_EXISTING_STABLE_ID",
+          "previousProvisionalId": "pol-im-yeong-sin-1948-candidate",
+          "canonicalExistingId": "pol-im-yeong-sin",
+          "reason": "run124-im-yeong-sin.json has already identified same person; duplicate provisional ID deprecated, original creation retained in prior commit history"
+        }
+      ]
     }
   ]
 }

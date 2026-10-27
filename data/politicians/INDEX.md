@@ -92,3 +92,10 @@ See `data/politicians/run113-prewar-network.json` for 12 sourced profiles. No ca
 - 후보 연결: `data/politicians/run127-actors-a.json`, `run127-actors-b.json`, `run127-actors-c.json`
 - 독립 실록: `data/annals/kim-gwang-jun-run127.json`
 - 제헌의원 개명계 원문 확인. 1949 농지개혁 24할 제안과 1950 시행법 15할을 분리. 기존 ID 유지.
+
+## Run133 (2026-10-27): 1948 초기 법무·상공 행정 연결
+
+- `data/politicians/run133-1948-candidates.json`: 이인(법무부장관, 원 임명원부 미확인) 신규 DISCOVERED 후보 1명. 임영신은 run124 기존 `pol-im-yeong-sin` IDENTIFIED ID 재사용, 1948 노동 민원은 색인 단서만 추가.
+- `data/evidence/politicians/run133-1948-candidates.json`: 동시대 신문 전사와 색인 발췌의 접근등급 구분.
+- `data/annals/1948-foundation-institutions-run133.md`: 부처 인수·사면·노동 행정 사건 연결.
+- 2026-10-27 정정: 최초 run133 커밋의 임영신 중복 임시 ID `pol-im-yeong-sin-1948-candidate`를 폐기하고 기존 `pol-im-yeong-sin`으로 연결. 이전 기록은 commit history 및 `data/research/runs/2026-10-27-run133-correction-and-final.md`에 보존.
