@@ -512,7 +512,9 @@
         "evt-r192-02",
         "evt-r192-07",
         "evt-r192-23",
-        "evt-r192-24"
+        "evt-r192-24",
+        "evt-r192-35",
+        "evt-r192-37"
       ],
       "openLeads": [
         "L173-05",
@@ -2584,6 +2586,18 @@
             "evt-r192-17"
           ],
           "attribution": "AKS scholarly biography, 1921 signed petition original not yet seen"
+        },
+        {
+          "period": "1950-05-10",
+          "title": "외신기자회견에서 북한군 증강·침공 위험 경고(UN 보고서)",
+          "actionType": "PUBLIC_DEFENSE_WARNING",
+          "evidenceDocumentIds": [
+            "doc192-un-a1350"
+          ],
+          "eventIds": [
+            "evt-r192-30"
+          ],
+          "attribution": "UN A/1350 §190 회고, 원기자회견 원문 미열람"
         }
       ],
       "researchStatus": "VERIFIED",
@@ -2756,7 +2770,10 @@
         "evt-r191-14",
         "evt-r191-21",
         "evt-r192-07",
-        "evt-r192-17"
+        "evt-r192-17",
+        "evt-r192-29",
+        "evt-r192-30",
+        "evt-r192-35"
       ],
       "openLeads": [
         "L166-ID-pol-shin-sung-mo",
@@ -3329,6 +3346,42 @@
           ],
           "sourceQualification": "Run191 source; direct command or vote not inferred",
           "accessDate": "2026-10-27"
+        },
+        {
+          "period": "1950-02",
+          "title": "UNCOK 38선·치안·게릴라 상황 청문에 외무장관으로 출석",
+          "actionType": "MINISTER_UNCOK_HEARING",
+          "evidenceDocumentIds": [
+            "doc192-un-a1350"
+          ],
+          "eventIds": [
+            "evt-r192-29"
+          ],
+          "attribution": "UN A/1350 §76 기관보고서"
+        },
+        {
+          "period": "1950-06-27",
+          "title": "UNCOK 서울→수원 철수에 외무장관으로 동행, 대전 정부이동 가능성 제시",
+          "actionType": "FOREIGN_MINISTER_ESCORT_UN_COMMISSION",
+          "evidenceDocumentIds": [
+            "doc192-un-a1350"
+          ],
+          "eventIds": [
+            "evt-r192-31"
+          ],
+          "attribution": "UN A/1350 §194 위원단 직접기록"
+        },
+        {
+          "period": "1950-07-04",
+          "title": "UN S/1571 한국정부 감사성명 발신자로 FRUS 편집주에 명시",
+          "actionType": "FOREIGN_MINISTER_UN_COMMUNICATION",
+          "evidenceDocumentIds": [
+            "doc192-frus1950v07-d195"
+          ],
+          "eventIds": [
+            "evt-r192-40"
+          ],
+          "attribution": "FRUS d195 편집주, S/1571 단독 원문 미열람"
         }
       ],
       "researchStatus": "ANNALS_ACTIVE",
@@ -3539,7 +3592,10 @@
         "evt-r180-02",
         "evt-r180-09",
         "evt-r181-1215-0090",
-        "evt-r191-08"
+        "evt-r191-08",
+        "evt-r192-29",
+        "evt-r192-31",
+        "evt-r192-40"
       ],
       "periodRoles": [
         {
@@ -3560,7 +3616,8 @@
       "historyDebt": [
         "HD-R179d-01",
         "HD-R180-01"
-      ]
+      ],
+      "aliasVerification": "CONFLICTED_HANJA_IN_EXISTING_REGISTRY 林炳稷 vs 任炳稷; Korean appointment original required"
     },
     {
       "id": "pol-paik-sun-yup",
@@ -8859,6 +8916,18 @@
           "evidenceDocumentIds": [
             "doc160-frus-241"
           ]
+        },
+        {
+          "period": "1950-06-30",
+          "title": "채병덕 후임 육군참모총장 임명(미 FRUS 편집주)",
+          "actionType": "EDITORIAL_NOTE_REPORTED_APPOINTMENT",
+          "evidenceDocumentIds": [
+            "doc192-frus1950v07-d189"
+          ],
+          "eventIds": [
+            "evt-r192-38"
+          ],
+          "attribution": "원임명장·관보 미열람"
         }
       ],
       "roleTimeline": [
@@ -8892,7 +8961,8 @@
         "evt-r163-12",
         "evt-r163-18",
         "evt-r165-03",
-        "evt-r166b-06"
+        "evt-r166b-06",
+        "evt-r192-38"
       ],
       "connections": [
         "evt-r150-19550914-nnsc-field-observation",
@@ -11285,6 +11355,18 @@
             "evt-r181-1201-0080"
           ],
           "attribution": "newspaper transcription; action/mention not presidential command"
+        },
+        {
+          "period": "1950-05-12",
+          "title": "육군 정보책임자 대령으로 UNCOK에 북한군 병력·전차·항공기 증강 보고",
+          "actionType": "CONTEMPORANEOUS_MILITARY_INTELLIGENCE_HEARING",
+          "evidenceDocumentIds": [
+            "doc192-un-a1350"
+          ],
+          "eventIds": [
+            "evt-r192-30"
+          ],
+          "attribution": "UN A/1350 §191에 원청문 A/AC.26/II/CW.1/SR.9 인용"
         }
       ],
       "researchStatus": "IDENTIFIED",
@@ -11307,7 +11389,8 @@
         "evt-r160-25",
         "evt-r160-26",
         "evt-r160-27",
-        "evt-r181-1201-0080"
+        "evt-r181-1201-0080",
+        "evt-r192-30"
       ],
       "evidenceFile": "data/politicians/run160-1961-transition-actors.json",
       "annalsFile": "data/annals/1961-transition-institutions-run160.md",
@@ -19207,9 +19290,21 @@
           "eventIds": [
             "evt-r180-03"
           ]
+        },
+        {
+          "period": "1948-05",
+          "title": "남한 단독선거가 분단 고착을 초래할 우려로 반대했다는 UN 위원단 회고",
+          "actionType": "POLITICAL_GROUP_OPPOSITION_TO_SEPARATE_ELECTION",
+          "evidenceDocumentIds": [
+            "doc192-un-a1350"
+          ],
+          "eventIds": [
+            "evt-r192-32"
+          ],
+          "attribution": "UN A/1350 §37 후대 기관보고서; 개인 원성명 미확보"
         }
       ],
-      "researchStatus": "IDENTIFIED_CANDIDATE",
+      "researchStatus": "IDENTIFIED",
       "backbone": false,
       "evidenceFile": "data/evidence/kim-gu-run180.json",
       "annalsFile": "data/annals/kim-gu-run180.md",
@@ -19218,7 +19313,8 @@
         "doc180-frus-265"
       ],
       "eventIds": [
-        "evt-r180-03"
+        "evt-r180-03",
+        "evt-r192-32"
       ],
       "openLeads": [
         "L180-P-pol-r180-kim-gu"
@@ -19234,6 +19330,17 @@
           "reason": "1949-06-26 피살과 한국독립당 지도자 역할을 6월27일 미국 외교전문에서 확인, 생몰·직책 원명부 미검증",
           "documentIds": [
             "doc180-frus-265"
+          ]
+        }
+      ],
+      "researchPromotionHistory": [
+        {
+          "date": "2026-10-27",
+          "from": "IDENTIFIED_CANDIDATE",
+          "to": "IDENTIFIED",
+          "reason": "UN institutional report explicitly names group leadership and position on 1948 election; existing contemporary Korean/US sources establish identity; original personal declaration pending",
+          "documentIds": [
+            "doc192-un-a1350"
           ]
         }
       ]
@@ -22903,16 +23010,29 @@
             "evt-r189x-04"
           ],
           "sourceQualification": "투표원부 미확보"
+        },
+        {
+          "period": "1948-05",
+          "title": "남한 단독선거가 분단 고착을 초래할 우려로 반대했다는 UN 위원단 회고",
+          "actionType": "POLITICAL_GROUP_OPPOSITION_TO_SEPARATE_ELECTION",
+          "evidenceDocumentIds": [
+            "doc192-un-a1350"
+          ],
+          "eventIds": [
+            "evt-r192-32"
+          ],
+          "attribution": "UN A/1350 §37 후대 기관보고서; 개인 원성명 미확보"
         }
       ],
-      "researchStatus": "IDENTIFIED_CANDIDATE",
+      "researchStatus": "IDENTIFIED",
       "promotionReason": "한자·시기·공직 또는 정당행위·원문 URL 확인, 신원원부 미검증",
       "evidenceDocumentIds": [
         "doc189x-19500605-0030",
         "doc189x-19500530-0080"
       ],
       "eventIds": [
-        "evt-r189x-14"
+        "evt-r189x-14",
+        "evt-r192-32"
       ],
       "openLeads": [
         "L189x-ID-kim-gyu-sik"
@@ -22921,7 +23041,18 @@
         "HD-R189x-IDENTITY-01"
       ],
       "accessDate": "2026-10-27",
-      "annalsFile": "data/annals/kim-gyu-sik-run189x-party.md"
+      "annalsFile": "data/annals/kim-gyu-sik-run189x-party.md",
+      "researchPromotionHistory": [
+        {
+          "date": "2026-10-27",
+          "from": "IDENTIFIED_CANDIDATE",
+          "to": "IDENTIFIED",
+          "reason": "UN institutional report explicitly names group leadership and position on 1948 election; existing contemporary Korean/US sources establish identity; original personal declaration pending",
+          "documentIds": [
+            "doc192-un-a1350"
+          ]
+        }
+      ]
     },
     {
       "id": "pol-r189x-u-deok-sun",
@@ -23452,6 +23583,130 @@
           "to": "IDENTIFIED",
           "reason": "UN S/1527 original English text signed Pak Hen Ien; DPRK foreign minister attribution, not ROK official"
         }
+      ]
+    },
+    {
+      "id": "pol-kim-baek-il",
+      "name": "김백일",
+      "aliases": [
+        "金白一",
+        "김찬규",
+        "金燦奎",
+        "Kim Paik Il (UN A/1350)"
+      ],
+      "lifespan": {
+        "born": "1917-01-30",
+        "died": "1951-03-28",
+        "verification": "AKS biography E0009185; civil register not read"
+      },
+      "roles": [
+        {
+          "period": "1950-04",
+          "title": "육군본부 행정참모부장 임명(후대 전기)",
+          "actionType": "SECONDARY_REPORTED_APPOINTMENT",
+          "evidenceDocumentIds": [
+            "doc192-aks-kim-baek-il"
+          ],
+          "eventIds": [],
+          "attribution": "AKS biography"
+        },
+        {
+          "period": "1950-05-12",
+          "title": "육군 참모차장 직무대행 대령으로 UNCOK에 북한군 전력·사기 평가 보고",
+          "actionType": "MILITARY_INTELLIGENCE_BRIEFING",
+          "evidenceDocumentIds": [
+            "doc192-un-a1350"
+          ],
+          "eventIds": [
+            "evt-r192-30"
+          ],
+          "attribution": "UN A/1350 §191 원청문 재인용"
+        }
+      ],
+      "researchStatus": "IDENTIFIED",
+      "jurisdiction": "ROK",
+      "registryScope": "MILITARY_OFFICIAL_AND_HISTORICAL_POLITICAL_ACTOR",
+      "evidenceCoverage": {
+        "documentIds": [
+          "doc192-un-a1350",
+          "doc192-aks-kim-baek-il"
+        ],
+        "originalAppointment": false
+      },
+      "eventIds": [
+        "evt-r192-30"
+      ],
+      "openLeads": [
+        "L192-57",
+        "L192-58"
+      ],
+      "historyDebt": [
+        "HD-R192-010"
+      ],
+      "researchPromotionHistory": [
+        {
+          "date": "2026-10-27",
+          "from": "DISCOVERED",
+          "to": "IDENTIFIED",
+          "reason": "UN primary institutional hearing + independent AKS biography identify same military officer and office; original appointment not read"
+        }
+      ]
+    },
+    {
+      "id": "pol-song-byeong-seop",
+      "name": "송병섭",
+      "aliases": [
+        "Song Pyung Sup (UN A/1350)",
+        "宋丙燮 (한자 미검증)"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "NOT_VERIFIED"
+      },
+      "roles": [
+        {
+          "period": "1948-09-21~1949-06-18",
+          "title": "강원도 제5대 경찰국장",
+          "actionType": "OFFICIAL_POLICE_ROSTER_OFFICE",
+          "evidenceDocumentIds": [
+            "doc192-police-gangwon-song"
+          ],
+          "eventIds": [],
+          "attribution": "강원경찰청 공식 역대청장"
+        },
+        {
+          "period": "1950-02",
+          "title": "국가치안 부책임자 Police Captain Song Pyung Sup으로 UNCOK 청문 참석",
+          "actionType": "UN_COMMISSION_SECURITY_HEARING",
+          "evidenceDocumentIds": [
+            "doc192-un-a1350"
+          ],
+          "eventIds": [
+            "evt-r192-29"
+          ],
+          "attribution": "UN A/1350 §76; 강원 경찰국장 송병섭과 동일인 인사원부 미확보"
+        }
+      ],
+      "researchStatus": "DISCOVERED",
+      "jurisdiction": "ROK",
+      "registryScope": "POLICE_AND_PUBLIC_ADMINISTRATION_CANDIDATE",
+      "evidenceCoverage": {
+        "documentIds": [
+          "doc192-un-a1350",
+          "doc192-police-gangwon-song"
+        ],
+        "identityMatch": "PROVISIONAL_HANGUL_ROMANIZATION"
+      },
+      "eventIds": [
+        "evt-r192-29"
+      ],
+      "openLeads": [
+        "L192-55",
+        "L192-56"
+      ],
+      "historyDebt": [
+        "HD-R192-011"
       ]
     }
   ]
