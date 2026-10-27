@@ -2071,3 +2071,66 @@ Run202 12/15~17 추가: [HD-R202-20~24](history-debt/run202.md) 국민방위군�
 ## Run203 증분 역사부채 연결 (2026-10-27, 화요일)
 
 [Run203 역사부채 15건](history-debt/run203.md): 영국군 목격 12/20 총살 17명/20명 충돌, 12/15 홍제리 39명 별도, 12/22 특사 10년/12년 충돌, 법률172호 공포와 12/16 표결 분리, 국회 남하안 부결·휴회, 서울정부 잔류발언 대 부처별 이전, 피난·계엄·병역·도로·농정·조세 실제집행 검증. 기존 HD-R202-13/14/15/16/19/20/21/23/24 추적. **역사부채 주간 전수조사 미실시**, `last_full_review` 불변.
+
+### 2026-10-27 run204 targeted review: UN committee-vote conflict (NOT weekly full review)
+
+- **HD-R204-01 CONFLICTED:** FRUS 1951 VII/1 d118 editor says First Committee 1951-01-30 **45-7-8**; contemporaneous UN A/1770 paragraph 18 says **44-7-8** and enumerates 44 affirmative states. A/C.1/SR.438 original scan found but text extraction null. Preserve both and inspect original roll call; do not silently correct.
+- **HD-R204-02 NARROWED:** UN plenary A/PV.327 1951-02-01 records 44-7-9. Saudi delegate Haliq said nonparticipation; chair ruled abstention. Distinct date/body from committee.
+- **HD-R204-03 NARROWED:** UK Hansard 1951-02-01 original vs amended draft and UN A/1771 establish 'rejected all' changed to 'has not accepted' and good-offices deferral.
+- **HD-R204-04 NARROWED:** UK Hansard 1951-03-22 major-advance consultation vs FRUS d135 rejection of per-state veto. UK Cabinet/Bevin 1951-02-14 original and 1951-02-21 Rusk memorandum still needed.
+- **HD-R204-05 OPEN:** NIKH Rhee correspondence le_003_0300, le_003_0480, le_003_0730, le_003_1480 cataloged. Original image contents, delivery and recipient response unverified.
+- **HD-R204-06 NARROWED:** FRUS d169 1951-03-17 records Clarence Ryee draft handoff and reports language differences; Cabinet discussion and causal attribution are Muccio inference, not proven government orders. Target ROK 1951-03-13 cabinet minutes and 1951-03-15 bilingual releases.
+- Revisited L203D-01/02/03/04/05/06/08/10 without forced RESOLVED. **역사부채 주간 전수조사 미실시** (Tuesday Asia/Seoul). `last_full_review` unchanged.
+
+### 2026-10-27 run204b normal-governance targeted leads (NOT weekly full review)
+
+- **HD-R204-07 OPEN:** 1951-01-17 전시 예금인출 무제한 담화(민주신보)와 실제 은행 지급실적 구분. 한국은행·재무부 지시 및 1951-01-05 대체지급 특별조치령 원문 확인.
+- **HD-R204-08 OPEN:** 백낙준 1951-01-26 전시 개학·전시독본 계획과 1951-02-10 실제 학교 개학·배포 실적 분리.
+- **HD-R204-09 OPEN:** 1951-01-18 국회 귀속재산소청심의회 후보 **金秀學**과 기존 canonical **金洙鶴**의 한자 충돌. `cand-r200b-kim-su-hak`과 `pol-r164-kim-su-hak` 자동 병합 금지.
+- **HD-R204-10 OPEN:** 김준연 1951-04-26 거창사건 관련 사임 요청 자기진술. 1951-04-24 국무회의록과 4월25일 서면사표 미확인; 대통령 직접명령 확정 보류.
+- **HD-R204-11 OPEN:** 농림부 1951-11-01 비료-식량 교환요강의 실물 배급 여부, 1949-03-16 대통령비서실 양곡지시 AA0000032-0001 원면 검증.
+- **역사부채 주간 전수조사 미실시** (Tuesday); last_full_review unchanged.
+
+### 2026-10-27 run204c local administration / health targeted review (not weekly full review)
+
+- **HD-R204-12 OPEN:** 1951-03-07 이승만 토탄·석탄 관련 특별지시 발언(경향신문 전사)과 실제 토탄 채굴량·일본산 석탄 수입통계 구분.
+- **HD-R204-13 OPEN:** 1951-03-07 장면 도로교량·농업투입재·문교·구호 훈시와 각 부처 예산·집행 공문 분리.
+- **HD-R204-14 OPEN:** 1951-03-07 조병옥 내무장관 불법기부금 단속·경찰 인권침해 감찰·피난민 귀환 발언. 원래 기부통제법 허가대장·감찰기록·귀환명령 미열람.
+- **HD-R204-15 OPEN:** 1951-03-24 귀환장정 환자 1만2000명과 약품 500만원 구호협의 보도. 실제 인수·치료·지출 확인 필요.
+- **역사부채 주간 전수조사 미실시** (Tuesday), last_full_review unchanged.
+
+### 2026-10-27 run204d/e targeted follow-up (not weekly full review)
+
+- **HD-R204-16 NARROWED:** 1951-01-26 백낙준 2월10일 개학 계획과 1951-02-15 崔문교부차관의 개학·야외교실 후속 보고 연결. 실제 학교별 출석자료 미확인.
+- **HD-R204-17 OPEN:** 1951-03-07 국회 9월 학기안 폐기 보도 vs 1951-03-24 백낙준 임시조치법 국회 제출 발언. 재발의인지 법안 변경인지 회의록으로 확인.
+- **HD-R204-18 OPEN:** 1951-03-24 조세특례법 국회 통과 보도와 관보 공포·실제 시행 분리. 장면의 국세징수본부 신설 담화 집행 검증.
+- **HD-R204-19 OPEN:** 1951-03-24 마샬 신무기·원자병기 관련 보도는 실제 한국 핵무기 배치 입증이 아님. 원 미 국방부 보고·배치명령 검증.
+- **HD-R204-20 NARROWED:** 1951-03-07 張建相·呂運弘·金正實 부역 혐의에 대해 동아일보는 증거 부족 무징계를 보도. 혐의는 확정 사실 아님. 국회 비공개 원회의록·인물 신원 미확인.
+- **HD-R204-21 OPEN:** 1951-02-28 사회부차관 수복지역 33만 vs 보고 피난민 60만은 다른 모집단일 가능성. 조사표·집계 기준 확보.
+- **HD-R204-22 OPEN:** 1951-03-24 국채·복권 발행, 면사 수입 가격 하락, 대구전매국 단속, 국방부 후원 공연은 보도·광고와 실제 발행·통관·압수·예산 구분.
+- **역사부채 주간 전수조사 미실시** (Tuesday Asia/Seoul), last_full_review unchanged.
+
+
+## 2026-10-27 Run205 · 1951년 맥아더 해임·외교 교차기록
+
+HD-R205-01~06은 `data/research/history-debt/run205-april-command.md`에 추가되었다. 핵심: 1951-04-11 미국 대통령의 맥아더 **해임**과 4/12 이승만 공개 담화의 **'사임' 표현**은 서로 다른 기록 층위다. 임병직 4/9 서한의 영국 관련 제목만으로 해임 주도국을 추론하지 않는다. 4/16 김세선 한국측 원서한, 임병직 면직 관보, 10개 사단 추가편성 집행자료는 미확보. 주간 전수조사가 아닌 개별 부채 보강.
+
+
+## Run205b · 2026-10-27 일반국정 개별 부채
+
+data/research/history-debt/run205b-domestic.md에 HD-R205B-01~11 추가. 4/12 보고서 날짜 충돌, 국민방위군 폐지안 공포, 10개 사단 승인, 전시구호 집계와 영월발전소 실배전 추적. 주간 전수조사 아님.
+
+
+## 2026-10-27 Run205c · 유엔군 지휘권 원문 교차검증
+
+S/RES/84(1950) 원문 PDF 제3~4항, 영국 하원 1951-04-11 모리슨 성명, 미국 합참 1951-05-01 지침을 교차검증했다. '미국 지휘하 통합사령부 권고 및 미국에 사령관 지명 요청'은 원문 확인. 지휘권의 무제한 위임이나 영국의 해임 지시로 확대 금지. 4/11 트루먼 해임명령과 4/12 이승만 담화의 사임 어휘 충돌 HD-R205-02는 유지. 역사부채 주간 전수조사 미실시.
+
+
+## Run205d · 법률 제195·196호 1951-05-12 원문 검증
+
+HD-R205B-03은 공식 폐지법 공포·시행일이 1951-05-12임을 확인하여 NARROWED로 축소. 4/30 국회 표결은 시행일이 아님. 5/1 미통첩 진술과도 시점상 모순되지 않음. 실제 부대 해산 집행원부는 OPEN. 상세 data/research/history-debt/run205b-domestic.md. 주간 전수조사 미실시.
+
+
+## Run205e · 1951-05-22 대통령 직접지시 및 법률197 충돌
+
+data/research/history-debt/run205e-may22.md의 HD-R205E-01~11 참조. 법률 제97/197호 불일치, 1951/1956 당첨금 비율 변화, 국방 제44호·농 제15호 지시 집행 미확인, 대만 첩보 국제여단 주장과 US NIE 교차검증 한계를 기록. 역사부채 주간 전수조사 미실시.
