@@ -5,19 +5,19 @@
   "branchHeadResolution": "READ_LIVE_REF_NOT_CACHED_SHA",
   "lastCompletedRun": 204,
   "latestRunReport": "data/research/runs/2026-10-27-run204-report.md",
-  "latestLeadQueue": "data/research/lead-queues/run204b-next.json",
-  "latestDocumentRegistry": "data/documents/run204-general-governance-originals.json",
-  "latestEventOverlay": "data/events/run204-general-governance-actions.json",
-  "latestClaimOverlay": "data/claims/run204-general-governance-adversarial.json",
-  "latestPoliticianOverlay": "data/politicians/run204-general-governance-actors.json",
+  "latestLeadQueue": "data/research/lead-queues/run204c-next.json",
+  "latestDocumentRegistry": "data/documents/run204c-local-state-originals.json",
+  "latestEventOverlay": "data/events/run204c-local-state-actions.json",
+  "latestClaimOverlay": "data/claims/run204c-policy-versus-execution.json",
+  "latestPoliticianOverlay": "data/politicians/run204c-rhee-chang-cho-roles.json",
   "latestDebtAddenda": "data/research/history-debt/run204-un-vote.md",
-  "latestAnnals": "data/annals/run204-rhee-ordinary-governance.md",
+  "latestAnnals": "data/annals/run204c-local-statecraft.md",
   "next": [
     "L204-01",
-    "L204-35",
-    "L204-42",
-    "L204-13",
-    "L204-19"
+    "L204-46",
+    "L204-50",
+    "L204-52",
+    "L204-35"
   ],
   "flootUntouched": true,
   "latestFileIndex": "data/research/runs/run110-file-index.json",
@@ -32,7 +32,8 @@
   "latestCoverageOverlays": [
     "data/research/coverage/run203.json",
     "data/research/coverage/run204.json",
-    "data/research/coverage/run204b.json"
+    "data/research/coverage/run204b.json",
+    "data/research/coverage/run204c.json"
   ],
   "latestRun": 201,
   "latestRunLedger": "data/research/runs/2026-10-27-run204-ledger.json",
@@ -155,7 +156,7 @@
   },
   "updatedAt": "2026-10-27",
   "latestRunBranch": "research/run204-20261027-un-vote-korean-correspondence",
-  "latestRunCommit": "8143b254a941d426c527429e29039a94eb0fe934",
+  "latestRunCommit": "fe7ecd673b8078c289697710f5a23cfa555f227b",
   "latestCorrection": "data/research/corrections/run189-election-table.md",
   "nextPriority": [
     "L198-01",
@@ -215,7 +216,7 @@
   "lastRun": 198,
   "lastRunDate": "2026-10-27",
   "lastRunReport": "data/research/runs/2026-10-27-run198-report.md",
-  "nextLeadQueue": "data/research/lead-queues/run204b-next.json",
+  "nextLeadQueue": "data/research/lead-queues/run204c-next.json",
   "run150": {
     "ledger": "data/research/runs/2026-10-12-run150-ledger.json",
     "documentRegistry": "data/documents/run150-1955-56-press-local.json",
@@ -247,10 +248,7 @@
     "claimsStructured": 20,
     "localElectionRegistry": "data/documents/run150-1956-local-election-oir.json"
   },
-  "latestOrganizationRegistry": [
-    "data/organizations/run150-democratic-party-lineage.json",
-    "data/organizations/run150-seoul-council.json"
-  ],
+  "latestOrganizationRegistry": "data/organizations/run204c-local-state-orgs.json",
   "weeklyFullReview": "NOT_RUN_TUESDAY",
   "weeklyReviewStatement": "역사부채 주간 전수조사 미실시",
   "latestAddendum": "158d",
@@ -387,18 +385,19 @@
     "commits": [
       "b25e6105b0fb82e6c85243be3e9d51e65c9dbe6f",
       "2810abfcad567ab463db056fb4223c75d0379951",
-      "8143b254a941d426c527429e29039a94eb0fe934"
+      "8143b254a941d426c527429e29039a94eb0fe934",
+      "fe7ecd673b8078c289697710f5a23cfa555f227b"
     ],
-    "documentsOpenedFull": 25,
-    "primaryOrContemporaneous": 24,
+    "documentsOpenedFull": 28,
+    "primaryOrContemporaneous": 27,
     "unVoteConflict": "HD-R204-01 CONFLICTED",
     "actorsDeepened": 13,
-    "events": 25,
-    "claims": 15,
-    "leads": 45,
+    "events": 34,
+    "claims": 20,
+    "leads": 53,
     "weeklyFullReview": "NOT_RUN_TUESDAY",
     "flootUntouched": true,
-    "extension": "run204b",
-    "domains": 9
+    "extension": "run204c",
+    "domains": 13
   }
 }
