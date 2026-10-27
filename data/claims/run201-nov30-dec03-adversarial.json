@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 1,
+  "run": 201,
+  "date": "2026-10-27",
+  "claims": [
+    {
+      "id": "claim-r201-01",
+      "statement": "트루먼 11/30 원폭 관련 발언이 사용 승인에 해당하는가?",
+      "status": "NARROWED",
+      "assessment": "11/30 백악관 공식 정정은 승인 없음, 사용 권한은 대통령에게 있다고 명시. FRUS 편집주의 인용이므로 백악관 발표 원문 별도 확인.",
+      "supportingEvidenceDocumentIds": [
+        "doc-r201-frus-909",
+        "doc-r201-frus-912"
+      ],
+      "contradictingOrQualifyingEvidenceDocumentIds": [
+        "doc-r201-frus-932"
+      ],
+      "nextPrimaryTarget": "White House Nov30 press release / Truman presidential papers",
+      "provenanceCaveat": "FRUS items constitute one editorial provenance family despite different authors; UN index and Korean archive are separate, but are metadata rather than original minutes/facsimiles.",
+      "reviewedAt": "2026-10-27",
+      "silentOverwriteForbidden": true
+    },
+    {
+      "id": "claim-r201-02",
+      "statement": "1950년 11월 말 미국 NSC 81/2가 승인된 정책이었는가?",
+      "status": "CONTRADICTED_PREMISE",
+      "assessment": "11/30 Lay 메모는 NSC 81/2를 고려 대상에서 철회한다고 명시.",
+      "supportingEvidenceDocumentIds": [
+        "doc-r201-frus-910"
+      ],
+      "contradictingOrQualifyingEvidenceDocumentIds": [],
+      "nextPrimaryTarget": "NSC 81/2 original and NSC Action389 minutes",
+      "provenanceCaveat": "FRUS items constitute one editorial provenance family despite different authors; UN index and Korean archive are separate, but are metadata rather than original minutes/facsimiles.",
+      "reviewedAt": "2026-10-27",
+      "silentOverwriteForbidden": true
+    },
+    {
+      "id": "claim-r201-03",
+      "statement": "1950년 11/30 유엔 안보리에서 중국 개입 관련 6개국 결의안이 채택되었는가?",
+      "status": "CONTRADICTED_PREMISE",
+      "assessment": "S/1894 9-1-0 소련 거부권으로 미채택. UN 공식 index와 FRUS 후대 편집주 교차확인, S/PV.530 원문은 403.",
+      "supportingEvidenceDocumentIds": [
+        "doc-r201-frus-914",
+        "doc-r201-un-sc1950-index"
+      ],
+      "contradictingOrQualifyingEvidenceDocumentIds": [],
+      "nextPrimaryTarget": "UN S/PV.530 original",
+      "provenanceCaveat": "FRUS items constitute one editorial provenance family despite different authors; UN index and Korean archive are separate, but are metadata rather than original minutes/facsimiles.",
+      "reviewedAt": "2026-10-27",
+      "silentOverwriteForbidden": true
+    },
+    {
+      "id": "claim-r201-04",
+      "statement": "11/30 인도와 중국 대표단은 접촉을 완전히 거절·단절했는가?",
+      "status": "CONTRADICTED_PREMISE",
+      "assessment": "11/30 접촉 난항 보고 후 12/1 Rau-Wu 약 1시간 회동 보고. 날짜별로 양립 가능.",
+      "supportingEvidenceDocumentIds": [
+        "doc-r201-frus-920",
+        "doc-r201-frus-922",
+        "doc-r201-frus-931"
+      ],
+      "contradictingOrQualifyingEvidenceDocumentIds": [],
+      "nextPrimaryTarget": "India MEA / Chinese delegation notes",
+      "provenanceCaveat": "FRUS items constitute one editorial provenance family despite different authors; UN index and Korean archive are separate, but are metadata rather than original minutes/facsimiles.",
+      "reviewedAt": "2026-10-27",
+      "silentOverwriteForbidden": true
+    },
+    {
+      "id": "claim-r201-05",
+      "statement": "1950년 11월 중국군 전력 추정 10만/20만은 동일 시점·범위의 단순 오류인가?",
+      "status": "NARROWED",
+      "assessment": "11/30 8군 정보부는 6개 군 약20만 추산, 이전 11/28 전선 10만1천 추산과 날짜·전선·모집단 다름.",
+      "supportingEvidenceDocumentIds": [
+        "doc-r201-frus-908",
+        "doc-r201-frus-907"
+      ],
+      "contradictingOrQualifyingEvidenceDocumentIds": [],
+      "nextPrimaryTarget": "Eighth Army G2 Nov28-30 daily situation",
+      "provenanceCaveat": "FRUS items constitute one editorial provenance family despite different authors; UN index and Korean archive are separate, but are metadata rather than original minutes/facsimiles.",
+      "reviewedAt": "2026-10-27",
+      "silentOverwriteForbidden": true
+    },
+    {
+      "id": "claim-r201-06",
+      "statement": "중국군 개입은 소련이 미리 설계한 단일 전면전 계획으로 확정되었는가?",
+      "status": "CONFLICTED_ANALYTIC_VIEWS",
+      "assessment": "12/2 CIA는 소련 지원 가능성을 추정하면서 세계대전 의도 불확실, 12/3 Kennan은 총체적 마스터플랜 견해에 반대. 양쪽 모두 당시 미국 내부 판단.",
+      "supportingEvidenceDocumentIds": [
+        "doc-r201-frus-927",
+        "doc-r201-frus-939"
+      ],
+      "contradictingOrQualifyingEvidenceDocumentIds": [
+        "doc-r201-frus-951"
+      ],
+      "nextPrimaryTarget": "Soviet/Chinese original archival decisions",
+      "provenanceCaveat": "FRUS items constitute one editorial provenance family despite different authors; UN index and Korean archive are separate, but are metadata rather than original minutes/facsimiles.",
+      "reviewedAt": "2026-10-27",
+      "silentOverwriteForbidden": true
+    },
+    {
+      "id": "claim-r201-07",
+      "statement": "1950년 11/30~12/3 미국이 즉시 38선 휴전을 확정·집행했는가?",
+      "status": "CONTRADICTED_PREMISE",
+      "assessment": "12/2 제안된 휴전 경로는 선택지, 12/3 백악관 보고에는 외교·군사 상황과 영국 회담을 기다린다고 기록.",
+      "supportingEvidenceDocumentIds": [
+        "doc-r201-frus-938",
+        "doc-r201-frus-940",
+        "doc-r201-frus-952"
+      ],
+      "contradictingOrQualifyingEvidenceDocumentIds": [
+        "doc-r201-frus-949"
+      ],
+      "nextPrimaryTarget": "US JCS instructions / ROK response / UK FO originals",
+      "provenanceCaveat": "FRUS items constitute one editorial provenance family despite different authors; UN index and Korean archive are separate, but are metadata rather than original minutes/facsimiles.",
+      "reviewedAt": "2026-10-27",
+      "silentOverwriteForbidden": true
+    },
+    {
+      "id": "claim-r201-08",
+      "statement": "UN 한국구호재건기구 설립 결의 채택이 곧 실제 원조 집행을 뜻하는가?",
+      "status": "NARROWED",
+      "assessment": "12/1 총회 410(V) 채택과 이후 기구운영·재원·집행은 별개. 결의 원문·예산계정·첫 집행일 확인 필요.",
+      "supportingEvidenceDocumentIds": [
+        "doc-r201-frus-929"
+      ],
+      "contradictingOrQualifyingEvidenceDocumentIds": [],
+      "nextPrimaryTarget": "UN A/RES/410(V) original, A/PV.314, UNKRA first financial report",
+      "provenanceCaveat": "FRUS items constitute one editorial provenance family despite different authors; UN index and Korean archive are separate, but are metadata rather than original minutes/facsimiles.",
+      "reviewedAt": "2026-10-27",
+      "silentOverwriteForbidden": true
+    },
+    {
+      "id": "claim-r201-09",
+      "statement": "UN 한국통일부흥위원단의 11/29 일본 이전이 실제 완료되었는가?",
+      "status": "NARROWED",
+      "assessment": "11/30 미 국무부는 특별보고 요청, 12/2 UNCURK 초안은 존재. 이전 실행을 입증하지 않음; UN 후대 보고서 검색 색인은 1951-01-04 서울→부산 이전이라고 하나 원 PDF 403.",
+      "supportingEvidenceDocumentIds": [
+        "doc-r201-frus-919",
+        "doc-r201-frus-946"
+      ],
+      "contradictingOrQualifyingEvidenceDocumentIds": [],
+      "nextPrimaryTarget": "UNCURK original minutes Nov20-Dec7; UN A/1844 original",
+      "provenanceCaveat": "FRUS items constitute one editorial provenance family despite different authors; UN index and Korean archive are separate, but are metadata rather than original minutes/facsimiles.",
+      "reviewedAt": "2026-10-27",
+      "silentOverwriteForbidden": true
+    },
+    {
+      "id": "claim-r201-10",
+      "statement": "1950년 법률 제157호 현존 기록은 1950년 공포 당시 원본인가?",
+      "status": "CONTRADICTED_PREMISE",
+      "assessment": "국가기록원 AA0001818 설명은 원본 소실 후 관보 등에 근거한 1963-08-15 재작성본이라고 명시.",
+      "supportingEvidenceDocumentIds": [
+        "doc-r201-archives-AA0001818"
+      ],
+      "contradictingOrQualifyingEvidenceDocumentIds": [],
+      "nextPrimaryTarget": "National Archives AA0001818 10-page reconstructed copy and 1950 gazette",
+      "provenanceCaveat": "FRUS items constitute one editorial provenance family despite different authors; UN index and Korean archive are separate, but are metadata rather than original minutes/facsimiles.",
+      "reviewedAt": "2026-10-27",
+      "silentOverwriteForbidden": true
+    },
+    {
+      "id": "claim-r201-11",
+      "statement": "영국·캐나다·인도·프랑스는 중국 개입에 대해 단일한 군사확대 방침을 지지했는가?",
+      "status": "CONTRADICTED_PREMISE",
+      "assessment": "Jebb·Pearson·Bajpai·프랑스 외무부의 입장과 일정이 달랐고 미국 보고문에 국별 구분 기록.",
+      "supportingEvidenceDocumentIds": [
+        "doc-r201-frus-921",
+        "doc-r201-frus-935",
+        "doc-r201-frus-936",
+        "doc-r201-frus-943",
+        "doc-r201-frus-944"
+      ],
+      "contradictingOrQualifyingEvidenceDocumentIds": [],
+      "nextPrimaryTarget": "UK FO371, Canada Pearson cabinet, India MEA, France Quai d'Orsay",
+      "provenanceCaveat": "FRUS items constitute one editorial provenance family despite different authors; UN index and Korean archive are separate, but are metadata rather than original minutes/facsimiles.",
+      "reviewedAt": "2026-10-27",
+      "silentOverwriteForbidden": true
+    },
+    {
+      "id": "claim-r201-12",
+      "statement": "MacArthur의 8군·X군단 통합 불가능 진술은 JCS가 최종 확정한 작전명령인가?",
+      "status": "NARROWED",
+      "assessment": "11/30·12/3 MacArthur의 주장 및 JCS 권고가 별도 문서; 실제 명령·집행과 분리.",
+      "supportingEvidenceDocumentIds": [
+        "doc-r201-frus-906",
+        "doc-r201-frus-907",
+        "doc-r201-frus-947"
+      ],
+      "contradictingOrQualifyingEvidenceDocumentIds": [],
+      "nextPrimaryTarget": "JCS 97592, 97594 and Eighth Army/X Corps war diaries",
+      "provenanceCaveat": "FRUS items constitute one editorial provenance family despite different authors; UN index and Korean archive are separate, but are metadata rather than original minutes/facsimiles.",
+      "reviewedAt": "2026-10-27",
+      "silentOverwriteForbidden": true
+    },
+    {
+      "id": "claim-r201-13",
+      "statement": "12/1 Rau-Wu 회담의 우호적 분위기가 합의된 휴전조건을 입증하는가?",
+      "status": "CONTRADICTED_PREMISE",
+      "assessment": "Rau의 전달에 따르면 Wu는 평화적 해결 의사만 말했고 구체조건은 제시하지 않음.",
+      "supportingEvidenceDocumentIds": [
+        "doc-r201-frus-931",
+        "doc-r201-frus-950"
+      ],
+      "contradictingOrQualifyingEvidenceDocumentIds": [],
+      "nextPrimaryTarget": "India MEA Wu-Rau original notes; PRC delegation archive",
+      "provenanceCaveat": "FRUS items constitute one editorial provenance family despite different authors; UN index and Korean archive are separate, but are metadata rather than original minutes/facsimiles.",
+      "reviewedAt": "2026-10-27",
+      "silentOverwriteForbidden": true
+    },
+    {
+      "id": "claim-r201-14",
+      "statement": "1950년 12월 1일 사형금지법 공포가 일반 사형제 폐지를 뜻하는가?",
+      "status": "OPEN",
+      "assessment": "국사편찬위원회 연표에서 법률156호 명칭·공포만 확인. 법조문·적용범위·시행시점 미확인.",
+      "supportingEvidenceDocumentIds": [
+        "doc-r201-nikh-19501201"
+      ],
+      "contradictingOrQualifyingEvidenceDocumentIds": [],
+      "nextPrimaryTarget": "법제처 법률156호 관보 원문, 국회 심의 회의록",
+      "provenanceCaveat": "FRUS items constitute one editorial provenance family despite different authors; UN index and Korean archive are separate, but are metadata rather than original minutes/facsimiles.",
+      "reviewedAt": "2026-10-27",
+      "silentOverwriteForbidden": true
+    }
+  ]
+}
