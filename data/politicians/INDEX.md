@@ -249,3 +249,9 @@ See `data/politicians/run113-prewar-network.json` for 12 sourced profiles. No ca
 
 ### Run196C · 9월 헌법위원·UN대표단·여성의용군
 `data/politicians/run196c-1950-september-actors.json` 기존 인물 27명, 신규 후보 손창섭·박승하 DISCOVERED. 임병직·장면·장택상·김동성·임영신·황성수 UN대표단은 후보→국회/정부 갈등→공식임명으로 분리.
+
+
+## Run197 (2026-10-27) 정치인 중심 교차실록
+- 기존 정치인 32명과 김준태 후보 1명: `data/politicians/run197-1950-september-actor-crosslinks.json`.
+- 이승만 재임 중 대통령 명령과 국회·장관·정당·관료·외국정부 결정을 분리한 46개 event: `data/events/run197-1950-september-multiactor-actions.json`.
+- 임병직·장면의 북부주권 외교, 신익희·지청천 등 민주국민당 및 국회 북진결의, 김종원 계엄·구용서 금융·김훈 무역·정일권 훈령74 등을 별도 노드로 교차연결. 생몰/승격 미검증은 그대로 보존.

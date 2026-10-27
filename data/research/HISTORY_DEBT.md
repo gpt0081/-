@@ -1917,3 +1917,21 @@ last_full_review 불변.
 
 ## Run196D 법령공포일 정정 (2026-10-27)
 법률145 1950-08-04 공포(법제처 표기 08-01 시행), 대통령령382·긴급명령10 1950-08-28 제정시행, 피난민수용법 개정146 1950-09-25 공포시행 확인. 9/08은 내각 개정결정 단계. claim-r196c-09 correctionHistory에 구판 보존. 관보 원면·실제 집행은 OPEN. 주간 전수조사 미실시, last_full_review 불변.
+
+
+## Run197 2026-10-27 개별 역사부채 추적 (화요일, 주간 전수조사 아님)
+- **HD-R195-38PARALLEL** [NARROWED] (NARROWED→NARROWED): NSC81/1 final, Sept27 Marshall request and FRUS footnote Truman approval/JCS92801, Sept29 Marshall JCS92985; signed original not opened. 다음 원문: NARA JCS 92801 and Truman Library NAID313172728.
+- **HD-R196C-UN_DELEGATION** [NARROWED] (NARROWED→NARROWED): Sept13 appointment, Sept18 meeting, Sept26 Lim letter and Sept28 Chang proposed clause linked. 다음 원문: ROK appointment original and UN credentials list.
+- **HD-R196C-SANITATION** [NARROWED] (NARROWED→NARROWED): Sept13 waste bill returned; city collection administration distinct. 다음 원문: Assembly original roll call and Busan removal ledger.
+- **HD-R196C-WAR_DISABLED_BILL** [OPEN] (OPEN→OPEN): Sept8 98/190 vote source reopened, still no law promulgation or payouts. 다음 원문: Gazette law number and disbursement register.
+- **HD-R195D-RICE** [NARROWED] (NARROWED→NARROWED): Sept11 50% mixed grain rule and Sept26 cattle restriction indicate local food policy, not enforcement. 다음 원문: Gyeongnam inspection records.
+- **HD-R196C-SOVIET-AIRCRAFT** [CONFLICTED] (CONFLICTED→CONFLICTED): FRUS Sept6 US/Soviet aircraft accounts directly reviewed, no flight/radar log. 다음 원문: UN S/PV.495-499 and flight logs.
+- **HD-R195-NAJIN** [CONFLICTED] (CONFLICTED→CONFLICTED): Sept11 Acheson warns of renewed Najin bombing, operational approval absent. 다음 원문: JCS target directive and FEAF sortie log.
+- **HD-R195-UNCOK** [NARROWED] (NARROWED→NARROWED): Sept13 UNCOK mandate doubts and Sept15 US interpretation, Oct7 UNCURK adopted but earlier UNCOK record still missing. 다음 원문: UNCOK Sept13 original minutes and GA 293(IV).
+- **HD-RHEE-003** [NARROWED] (NARROWED→NARROWED): Shin Sung-mo Sept22 denial versus later official 2010 Daejeon findings; army order74 Sept25 forbids reprisals. No direct presidential kill order proven. 다음 원문: TRC full report and NARA RG407 Box3758.
+- **HD-R197-KIM-JUNTAE** [NARROWED] (NEW→NARROWED): FRUS Kim Choon Tae and 8/26 Korean 김준태 likely same arrest; judicial guilt and biographical identity not proven. 다음 원문: 1950 Aug16 assembly record and criminal case judgment.
+- **HD-R197-REFUGEE-TEXT** [CONFLICTED] (NEW→CONFLICTED): Sept8 newspaper 10일 vs Sept25 law reprint 10월; no original gazette facsimile. 다음 원문: 1950 Sept25 Gazette Law146 original.
+- **HD-R197-FRUS-TRANSLATION** [CONFLICTED] (NEW→CONFLICTED): English FRUS d488 Sept1 meeting vs Korean translation Aug1, probable transcription error retained. 다음 원문: NARA RG59 795B.00/9-250 original.
+- **HD-R197-RELIEF-BUDGET** [OPEN] (NEW→OPEN): Social Affairs 14.764bn won proposal vs Finance 2.7bn screened; final appropriation/payment missing. 다음 원문: 1950 Sept29 original ministry budget files.
+- **HD-R197-CONSCRIPTION** [NARROWED] (NEW→NARROWED): Sept26 no street forced drafting but food sanctions and nighttime search simultaneously announced; actual enforcement unknown. 다음 원문: Gyeongnam martial law register and ration sanctions log.
+**역사부채 주간 전수조사 미실시**. last_full_review: 2026-09-27 불변. 상세 data/research/runs/2026-10-27-run197-history-debt.json.
