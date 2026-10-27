@@ -14,6 +14,10 @@
 
 기존 `data/presidents.json`은 시간순 대통령 overlay, `data/politicians.json`은 정치인 registry, `data/events.json`은 사건 cross-link registry 역할을 합니다. 기존 대통령 중심 ID와 파일은 깨뜨리지 않고 `legacyIds`와 연결 필드로 점진적으로 일반화합니다.
 
+## 최신 연구 실행 (Run194)
+
+2026-10-27: [Run194 보고서](data/research/runs/2026-10-27-run194-report.md) · [검증 가능한 실행계정](data/research/runs/2026-10-27-run194-ledger.json) · [문서 registry](data/documents/run194-1950-budget-defence-bok.json) · [주장·반증](data/claims/run194-1950-budget-defence-bok-claims.json) · [사건](data/events/run194-1950-budget-defence-bok-actions.json) · [정치인](data/politicians/run194-1950-cabinet-bok-local-actors.json) · [후속 18개 원문 표적](data/research/lead-queues/run194-next.json). 1950년 8월 공보처 예산 출처 차이, 긴급명령7 국회 승인 부결, 금융통화위원 정원 7인 교차검증을 기록. 출처 불일치와 인명·날짜 불확실성은 해소된 것처럼 처리하지 않음. Floot 미변경.
+
 ## 핵심 원칙
 
 **AI가 정치인을 심판하지 않습니다.** 시스템은 관련 기록을 공격적으로 찾되 공개·확정은 보수적으로 처리합니다. 원문·날짜·당시 맥락·후속 설명·반증·불확실성을 함께 보여주고 최종 판단은 사용자에게 남깁니다.
