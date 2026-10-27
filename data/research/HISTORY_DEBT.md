@@ -2215,3 +2215,10 @@ data/research/history-debt/run205e-may22.md의 HD-R205E-01~11 참조. 법률 제
 - 신규 `HD-R206C-01` OPEN: 1951-03-18 대통령비서실 AA0000294 38선 돌파 지령과 국군 실제 작전명령·수신 경로 구분. 원면 미판독.
 - 신규 `HD-R206C-02` OPEN: 1951-05-12 대통령비서실 AA0000349 대비지 국방39 해산 지시와 법률195·196 실제 집행 대조. 원면 미판독.
 - **주간 역사부채 전수조사 미실시**, last_full_review 변경 없음.
+
+
+### Run206d 대통령 경제정책·정전담화 날짜부채 (2026-10-27)
+- `HD-R206D-01` **CONFLICTED**: 1951 파철수출 6/7 발표 vs 9/25 대통령 직접지시 날짜. 국가기록원 연표 6/7, AA0000411 해제 9/25. 다른 단계일 수 있음. 다음 L206d-04.
+- `HD-R206D-02` **CONFLICTED**: 1951 정전설 중대성명 6/25 연표 vs 6/27 원고. AA0000653 대통령비서실 6/27 원고 해제, 6/25 연표 사건. 다음 L206d-03.
+- `HD-R206D-03` **OPEN**: 이종욱 李鍾郁 1884-1969 vs 1951 공화민정회 대표간사 동일인. AKS confirms 1950 Pyeongchang Assembly and 1951 Liberty Party, but does not identify May29 caucus; canonical 李宗郁 mismatch. 다음 L206d-09.
+- 주간 전수조사 미실시, last_full_review 유지.
