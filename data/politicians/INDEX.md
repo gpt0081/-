@@ -307,3 +307,13 @@ data/politicians/run205e-may22-governance-actors.json: 장면(pol-chang-myon), �
 Run208 기관명부 후속: 김훈 `pol-r164-kim-hun` 1950-05-09~1952-03-27 상공부장관 공식 재임명부와 FRUS d332 익명 상공부장관 환율 반대 보고 연결(본인 서명 없음). 조병옥 `pol-cho-byeong-ok` 1951-05-06 내무장관 퇴임, 이순용 `cand-r208-lee-soon-yong-interior1951` 1951-05-07 취임, 청주사건 문책 개인결재 미확인. `evt-r208-19`~`20`, `claim-r208-21`~`22`.
 
 Run208 신원검증: `cand-r207-kim-su-hak` 金秀學(1950 고창갑 당선, AKS 1896~1967), `cand-r207-lee-jong-uk-caucus` 李鍾郁(1950 평창 국민회 승려 67세, AKS 1884~1969), `cand-r198b-so-seon-gyu` 蘇宣奎(1950 익산갑 민주국민당 당선) 기존 후보 ID 심화. canonical 金洙鶴·李宗郁와 원의원명부 대조 전 자동병합 금지. `data/annals/run208-1950-election-identity.md` 및 `data/evidence/run208-1950-election-identity.json`.
+
+
+## Run209 (2026-10-28) · 1951-06-26 인사·전시행정 독립 인물
+- `data/politicians/run209-june26-actors.json`: 김태선·이익흥·허정 기존 ID, 윤우경(尹宇景)·홍범희(洪範憙) 후보 ID, 백두진·김훈의 공동성명 당시 재임맥락을 분리. 신규 후보 2명은 관보·생몰 미확보로 VERIFIED 승격하지 않음.
+- `data/evidence/politicians/run209-june26-actor-evidence.json`, `data/annals/run209-1951-june26-government-relief.md`: 보도된 인사/구호/정책과 실제 집행 분리. 기존 HD-R199B-04 김태순/김태선 충돌은 원신문 대조 전 NARROWED 유지.
+
+### Run209 후속 독립 인물 실록
+- [윤우경](../annals/politicians/cand-r209-yun-woo-gyeong.md): 서울경찰청 1951-06-24 재임시작 vs 민주신보 6/26 발령, 신원 1900~1995 AKS 확인, 정확한 취임일 CONFLICTED.
+- [홍범희](../annals/politicians/cand-r209-hong-beom-hui.md): 제헌의원·1951 6~11 내무차관, 1917~1972 AKS 인물전기 확인, 원임명관보 미확보.
+- 6/27~7/1 장면·이철원·이종찬·곽태진·양우정·김종회·양유찬·신성모·신현돈·조재천·부산특별시법안 발의자 등을 독립 ID로 연결. 원문 미확보 후보의 정식 승격은 보류.
