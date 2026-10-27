@@ -204,4 +204,4 @@ Run211 법제처 후속 확인: 국민의료법은 1951-09-25 법률 제221호�
 
 ## Run213 · 1951년 8월 말~9월 정전·국정 원문 반증 (2026-10-28)
 
-[보고](data/research/runs/2026-10-28-run213-report.md) · [문서 51건](data/documents/run213-augsep-source-registry.json) · [14개 사건](data/events/run213-augsep-actions.json) · [17개 반증](data/claims/run213-adversarial.json) · [11개 정치인 연결](data/politicians/run213-augsep-actor-network.json) · [33개 원문 표적](data/research/lead-queues/run213-next.json). 1951-08-24 정부조직법 1독회 미결, 전력 1,000kW 합계 충돌, 1951-09-10 유엔군 개성 오폭 인정, 미 국무·국방부 포로·원화계정 이견을 원문으로 분리. FRUS 편집원문 39건은 미국 단일 provenance 계열, 원면 이미지 0건. Floot 미변경.
+[보고](data/research/runs/2026-10-28-run213-report.md) · [문서 52건](data/documents/run213-augsep-source-registry.json) · [15개 사건](data/events/run213-augsep-actions.json) · [18개 반증](data/claims/run213-adversarial.json) · [11개 정치인 연결](data/politicians/run213-augsep-actor-network.json) · [35개 원문 표적](data/research/lead-queues/run213-next.json). 1951-08-24 정부조직법 1독회 미결, 전력 1,000kW 합계 충돌, 1951-09-10 유엔군 개성 오폭 인정, 미 국무·국방부 포로·원화계정 이견을 원문으로 분리. FRUS 편집원문 40건은 미국 단일 provenance 계열, 원면 이미지 0건. Floot 미변경.
