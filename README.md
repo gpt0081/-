@@ -222,3 +222,8 @@ Run211 법제처 후속 확인: 국민의료법은 1951-09-25 법률 제221호�
 [조사보고](data/research/runs/2026-10-28-run214-report.md) · [49개 본문](data/documents/run214-sep19-oct02-sources.json) · [20개 사건](data/events/run214-september-actions.json) · [16개 주장 반증](data/claims/run214-september-adversarial.json) · [정치인 9명 근거 심화](data/politicians/run214-september-actors.json) · [41개 원문 표적](data/research/lead-queues/run214-next.json). 1951년 9월 조민당 당론 의혹/부결 해명, 대秘指內55 전재민 분산 지시, 경북 토지수득세 회의, 원화 유보계정 조건부 지급을 행위단계별로 기록. 미국 FRUS 40건은 단일 편집 출처계열. Floot 변경 없음.
 
 Run214 추가: [1951-09-18 정부조직법 개정안 국무회의 거부](data/annals/run214-1951-september-institutions.md), 50개 본문·21개 사건·17개 주장 문서반증·42개 후속 lead. 이전 집계 49/20/16/41은 이 추가 문서 이전의 수치.
+
+
+## Run220 · 1951년 12월 말~1952년 1월 초 농정·사회복지·외교 원문 (2026-10-28)
+
+[최종 연구보고](data/research/runs/2026-10-28-run220-report.md) · [검증 execution ledger](data/research/runs/2026-10-28-run220-ledger.json) · [차기 46개 원문 표적](data/research/lead-queues/run220-next.json). 미국 FRUS·미 국무부 원작성 외교문서 편집/번역 31건과 한국 동시대 신문전사 13건, **고유 원문 44건**을 직접 확인했다. 비대통령 12명(기존 11 ID 재사용·곽의영 신규 후보 1명)의 날짜별 행위를 21개 사건에 연결. 1951-12-26 토지수득세 감사와 농지개혁법 개정안 **제안**을 법률 **성립**으로 오인하지 않는다. 12/29 포로 자발송환안 내부승인과 1952-01-01 민간인교환 원칙합의를 구분한다. 원면 3계열 독립교차검증은 아직 미달. Floot 무수정.

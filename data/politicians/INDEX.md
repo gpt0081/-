@@ -364,3 +364,5 @@ Run212 8/11~15 후속으로 [계엄 공고 국무위원·이종찬·김종원·�
 ## Run220 2차 (2026-10-28) · 1952-01-01~03 비대통령 국정
 
 `data/politicians/run220-jan1952-actor-addendum.json`: 기존 장면·허정·신익희·김병로 4개 ID에 직접 확인한 신년행사·유엔가입 신청서한 보도·사회부 피난민/군경원호 계획·국회의장 신년사를 연결. 정순조는 당대 신문에서 개헌 추진자로 등장하나 생몰·원의안 미확보로 신규 stable 승격 보류. 관련 문서/사건/주장/실록은 run220-jan1952 addendum 참조.
+
+- Run220 12명 비대통령 독립 증거 객체: `data/evidence/politicians/run220-actor-evidence.json`. 역사부채 10건은 `data/research/HISTORY_DEBT.md`에 상태·다음 원문표적과 함께 동기화.
