@@ -11,3 +11,6 @@
 30개 서로 다른 국정·선거·사회 연구선을 초동 원문확인했고, 이 중 20개 이상이 서로 독립 주제다. **20개 완결 검증**으로 주장하지 않는다. 주간 역사부채 전수조사 미실시, Floot 변경 없음.
 
 추가 구조화: 26 claim, 20 event, 5 candidate, 41 lead, 17 adversarial comparison, 30 distinct research-line entries. Canonical 정치인·annals·coverage·history-debt 동기화 완료.
+
+### 검증 감사
+기존 심화 인물 중복 제거 후 **20명 고유 인물**. 연구선 30개 각각 고유 증거 문서 ID 연결. 17개 adversarial comparison도 명시 문서 ID 연결. 원면0, 강제 RESOLVED0, Floot0.
