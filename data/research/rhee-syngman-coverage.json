@@ -917,5 +917,121 @@
       "claim187-04"
     ],
     "qualification": "국회 심의·정부안·대통령 공개발언·실제 명령/법적 효력은 구분; 평시 장관/차관 행위는 대통령 지시로 귀속하지 않음"
+  },
+  "run189": {
+    "date": "2026-10-27",
+    "domains": [
+      "선거·정당·헌정",
+      "금융·행정·인사",
+      "산업·염전",
+      "농정·지방행정"
+    ],
+    "eventIds": [
+      "evt-r189-01",
+      "evt-r189-02",
+      "evt-r189-03",
+      "evt-r189-04",
+      "evt-r189-05",
+      "evt-r189-06",
+      "evt-r189-07",
+      "evt-r189-08",
+      "evt-r189-09",
+      "evt-r189-10"
+    ],
+    "documentIds": [
+      "doc189-field-0525",
+      "doc189-seoul-0531",
+      "doc189-kyunghyang-0603",
+      "doc189-vp-0608",
+      "doc189-salt-0201",
+      "doc189-nec1963-roster",
+      "d111d-nec-election1950",
+      "doc189-law350-index",
+      "doc189-law359-index",
+      "doc189-court1-index",
+      "doc189-land275-index",
+      "doc189-land294-index"
+    ],
+    "claimIds": [
+      "claim189-01",
+      "claim189-02",
+      "claim189-03",
+      "claim189-04",
+      "claim189-05",
+      "claim189-06",
+      "claim189-07",
+      "claim189-08",
+      "claim189-09",
+      "claim189-10",
+      "claim189-11"
+    ],
+    "nonPresidentCandidates": [
+      "pol-r189-jang-yeon-song",
+      "pol-r189-yun-gi-seop",
+      "pol-r189-o-seong-hwan",
+      "pol-r189-jo-gwang-seop",
+      "pol-r189-yu-hong",
+      "pol-r189-lee-si-yeong"
+    ],
+    "sourceGuardrails": [
+      "신문 초동 의석수와 후대 공식 분류 충돌 보존",
+      "국사편찬위 전사 학력표 산술오류 원책 확인 전 미수정",
+      "한국은행 법령 메타데이터와 원조문 열람 구분",
+      "이승만 재임 중 선거/부처행정=직접명령 아님"
+    ]
+  },
+  "run189x": {
+    "date": "2026-10-27",
+    "domains": [
+      "선거·치안·헌정",
+      "정당·인사",
+      "금융·무역·외환",
+      "산업·전력",
+      "농정·지방행정",
+      "교육·재정",
+      "사회·복지·보도연맹",
+      "외교·안보"
+    ],
+    "directOpenedNewUniqueDocuments": 56,
+    "totalDirectOpenedThisRun": 65,
+    "contemporaneousOrOriginalText": 62,
+    "originalFacsimileViewed": 0,
+    "newEvents": [
+      "evt-r189x-01",
+      "evt-r189x-02",
+      "evt-r189x-03",
+      "evt-r189x-04",
+      "evt-r189x-05",
+      "evt-r189x-06",
+      "evt-r189x-07",
+      "evt-r189x-08",
+      "evt-r189x-09",
+      "evt-r189x-10",
+      "evt-r189x-11",
+      "evt-r189x-12",
+      "evt-r189x-13",
+      "evt-r189x-14",
+      "evt-r189x-15",
+      "evt-r189x-16",
+      "evt-r189x-17",
+      "evt-r189x-18",
+      "evt-r189x-19",
+      "evt-r189x-20"
+    ],
+    "newClaims": "claim189x-01..26",
+    "newPoliticianCandidates": [
+      "pol-r189x-lee-jong-il",
+      "pol-r189x-park-seung-su",
+      "pol-r189x-kim-gyu-sik",
+      "pol-r189x-u-deok-sun",
+      "pol-r189x-kim-gwang-seop"
+    ],
+    "leadQueue": "data/research/lead-queues/run189x-next-addendum.json",
+    "guardrails": [
+      "대통령 6/2 기자회견 자기진술과 실제 경찰 인사명령서 구분",
+      "신문 숫자 내부 산술과 공식 원부 구분",
+      "정당 교섭을 입당으로 단정 금지",
+      "국민보도연맹 탈맹명부와 후일 희생자 동일시 금지"
+    ]
   }
 }

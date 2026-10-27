@@ -1,6 +1,6 @@
 {
   "politicianId": "president-rhee-syngman",
-  "updatedAt": "2026-10-26",
+  "updatedAt": "2026-10-27",
   "rule": "새 회차는 기존 완료 자료를 재검색하지 않고 unresolved를 먼저 해결한다.",
   "queue": [
     {
@@ -412,5 +412,50 @@
       "L174-18"
     ],
     "notes": "Narrowed monetary-law and 1953 agreement leads with original press and US Treasury, none resolved. Need National Assembly minutes, Gazette, BOK ledgers."
+  },
+  "run189Followup": {
+    "queue": "data/research/lead-queues/run189-next.json",
+    "trackedInherited": [
+      "L168-12",
+      "L168-13",
+      "L168-14",
+      "L168-18",
+      "L168-19",
+      "L168-22",
+      "L188-18",
+      "L188-20"
+    ],
+    "newLeads": 46,
+    "conflictedDebts": [
+      "HD-R189-ELECTION-01",
+      "HD-R189-ELECTION-02",
+      "HD-R189-ELECTION-03"
+    ],
+    "nextPriority": [
+      "L189-02",
+      "L189-03",
+      "L189-04",
+      "L189-07",
+      "L189-14",
+      "L189-17"
+    ],
+    "weeklyFullReview": false
+  },
+  "run189xFollowup": {
+    "date": "2026-10-27",
+    "newLeads": 41,
+    "queue": "data/research/lead-queues/run189x-next-addendum.json",
+    "priority": [
+      "L189x-01",
+      "L189x-02",
+      "L189x-03",
+      "L189x-07",
+      "L189x-11",
+      "L189x-12",
+      "L189x-23",
+      "L189x-24"
+    ],
+    "status": "OPEN_OR_NARROWED_NO_FORCED_RESOLUTION",
+    "weeklyFullReview": false
   }
 }
