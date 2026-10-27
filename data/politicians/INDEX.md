@@ -345,3 +345,7 @@ Run212 8/11~15 후속으로 [계엄 공고 국무위원·이종찬·김종원·�
 ## Run214 (2026-10-28)
 
 `data/politicians/run214-september-actors.json`: 양유찬·백두진·장면·이종현·이윤영 5명과 김종순·주요한·한근조·신현돈 신규 후보 4명의 개별 문서·사건·행위유형·open lead. 성명 미확정 내무장관은 office-only, 이승만은 대통령 맥락. 비대통령 개인근거 9명, 정식 승격 0. `data/evidence/politicians/run214-september-evidence.json` 연동.
+
+## Run216 (2026-10-28): 1951년 11월 정부개헌 관보·전시 국정
+
+[관보 제562호 13 국무위원과 6명 추가 정치인, 총 19명](run216-nov1951-actors.json) · [21개 사건](../events/run216-nov1951-actions.json) · [정부개헌·외환·정전·농정 실록](../annals/run216-1951-nov-constitutional-economy.md). **이순용**(李淳鎔) 신규 candidate, **오한영·임문환** IDENTIFIED로 승격. 부서는 개별 개헌조문 발의·찬성을 증명하지 않는다. 변영태 외무부장관 한자는 관보 전사에서 일부 깨짐, 원면 확인 필요. 생몰 미확인 유지.
