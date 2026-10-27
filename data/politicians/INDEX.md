@@ -278,3 +278,7 @@ See `data/politicians/run113-prewar-network.json` for 12 sourced profiles. No ca
 ## 2026-10-27 · Run202 한국인 행위자 증분 연결
 
 [run202 한국 정치인 기존 stable ID overlay](run202-dec07-12-korean-actors.json): 장면(`pol-chang-myon`)의 1950-12-11 정부 훈령 전언, 조병옥(`pol-cho-byeong-ok`)의 12-07 내무부 피난 관련 담화는 본문 직접 확인. 허정(`pol-r139-heo-jeong`)의 사회부 전시기구 개편은 날짜 색인만 확인되어 실질 심화 수에 미포함. 이기붕(`pol-yi-ki-pung`)과 무초 전문의 무명 서울시장 연결은 **잠정 신원추론**이며 새 승격 아님. `data/politicians.json` 원본 772KB는 이번 회차에서 변경하지 않았고 overlay 소비자 병합이 필요하다.
+
+### Run202 추가 국편 본문 검증 (12월 7~14일)
+
+기존 stable/candidate ID를 보존하며 총 19명의 한국 공직·정당·입법·행정 행위자에 대해 직책·행위·원문·다음 원문 표적을 추가했다. 허정·신익희·정일권·이호(동명이인 미확인)·양성봉·김주학(신규 후보)·장흥(신규 후보)·이범석·김창룡·장두관·곽상훈·강경옥·임병직·이성주·오제도·박문기(신규 후보)·신성모·장면·조병옥. [상세 overlay](run202-dec07-12-korean-actors.json). 생몰·임명원본 검증 전 canonical 승격 없음.

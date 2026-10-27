@@ -19,7 +19,7 @@
 
 ## Run202 · 1950년 12월 6~14일 한국전쟁 외교·전시행정 교차검증
 
-2026-10-27: [조사 보고](data/research/runs/2026-10-27-run202-report.md) · [고유 자료 56페이지](data/documents/run202-dec07-12-frus-korean-uk.json) · [20개 사건 overlay](data/events/run202-dec07-12-policy-actions.json) · [17개 반증 명제](data/claims/run202-dec07-12-adversarial.json) · [한국 정치인 ID 연결](data/politicians/run202-dec07-12-korean-actors.json) · [다음 42개 원문 표적](data/research/lead-queues/run202-next.json). 미국 FRUS 중심 자료편향·영국 의회/한국 동시대 신문 교차의 한계와 미검증 직접명령을 명시. Floot 변경 없음.
+2026-10-27: [조사 보고](data/research/runs/2026-10-27-run202-report.md) · [고유 자료 122페이지](data/documents/run202-dec07-12-frus-korean-uk.json) · [50개 사건 overlay](data/events/run202-dec07-12-policy-actions.json) · [33개 반증 명제](data/claims/run202-dec07-12-adversarial.json) · [한국 정치인 ID 연결](data/politicians/run202-dec07-12-korean-actors.json) · [다음 75개 원문 표적](data/research/lead-queues/run202-next.json). 미국 FRUS 중심 자료편향·영국 의회/한국 동시대 신문 교차의 한계와 미검증 직접명령을 명시. Floot 변경 없음.
 
 ## Run199b · 11월 15~21일 법관·부역통계·농지개혁·전시재정 추가 대량채굴
 
