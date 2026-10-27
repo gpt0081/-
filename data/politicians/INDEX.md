@@ -382,3 +382,8 @@ Run212 8/11~15 후속으로 [계엄 공고 국무위원·이종찬·김종원·�
 ## Run221d: 1952-01-28 내각 법령 공동서명자와 지방행정
 - data/politicians/run221d-jan1952-actors.json: 21개 독립 인물 노드(대통령 포함), 신규 후보 이홍직·노진설·김동선 3명. 조진만·오한영·이순용·이윤영 등 계엄·기부·양곡 시행령 공동서명 증거를 대통령 행위와 분리.
 - 기존 이범석 2개 root ID(pol-lee-beom-seok / pol-lee-beom-seok-1900) 동일인 가능성을 기록하되 근거 없는 병합 금지.
+
+## Run222: 1952-02~03 헌정·정전·경제 정책 비대통령 네트워크
+- `data/politicians/run222-febmar1952-actors.json`: 10명 기존 stable/candidate ID 심화·신원검토, `cand-r222-kim-chong-won` 잠정 신규. `pol-r164-kim-seok-won`과 자동 병합 금지.
+- 증거 `data/evidence/politicians/run222-evidence.json`; 문서 `data/documents/run222-febmar1952-frus-korean.json`; 사건 `data/events/run222-febmar1952-actions.json`; 주장 `data/claims/run222-febmar1952-adversarial.json`.
+- 전진한·배은희 보선 당선 관련 1952-02-07 자유신문 자료는 **색인만 열람**, 본문·선관위 원당선자명부 확보 전 승격 금지. 무초의 1952-02-15 장면·허정·이범석·신익희 평가는 미국 대사의 개인 판단이며 한국 인물 본인 행위로 귀속 금지.

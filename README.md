@@ -17,6 +17,11 @@
 
 
 
+
+## Run222 · 1952년 2~3월 정전·헌정·전시재정·비대통령 관계망 (2026-10-28)
+
+[실행보고](data/research/runs/2026-10-28-run222-report.md) · [실행장부](data/research/runs/2026-10-28-run222-ledger.json) · [40개 원문 표적](data/research/lead-queues/run222-next.json). FRUS 43개 미국 정부 원작성 편집전사와 한국 동시대 신문 2건·미군 보고서 번역 1건, **실질 본문 46건** 직접 확인. 사건 19건, 반증 17건, 비대통령 10명 신원·행위 심화 및 김종원 잠정 후보 1명. 미국 1차계열 집중으로 엄격한 3독립계열 확증 0건. FRUS Kim Chongwon과 국편 미군보고 번역 김석원 신원충돌은 미병합. Floot 무수정.
+
 ## Run217 · 1951년 12월 자유당 원내외 분화·포로·휴전감시
 
 2026-10-28: [보고](data/research/runs/2026-10-28-run217-report.md) · [실행장부](data/research/runs/2026-10-28-run217-ledger.json) · FRUS 정부원문 전사 48건과 한국 동시대 기사 3건 · 13명 정치인 행위 · 12개 사건 · [40개 후속 문서](data/research/lead-queues/run217-next.json). 신규 후보 김주학 1명, 기존 인물 12명 ID 재사용. Floot 변경 없음.
