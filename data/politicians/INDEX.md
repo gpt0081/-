@@ -225,3 +225,11 @@ See `data/politicians/run113-prewar-network.json` for 12 sourced profiles. No ca
 - `data/politicians/run182-immigration-legal-actors.json`: 조정환(曺正煥) 외무처장대리 원관보 전사 서명에 기반한 IDENTIFIED 후보 1명, 기존 박상영·권승렬·이종현·서상일·조영규 재사용 5명. 생몰·임명원부 미확보로 신규 VERIFIED 승격 없음.
 - `data/documents/run182-immigration-legal-documents.json`, `data/events/run182-immigration-legal-actions.json`, `data/claims/run182-immigration-legal-claims.json`: 원관보 전사·신문·후대 해제의 증거 등급을 분리. 기존 `d95-constitutional` 재사용.
 - `data/annals/1948-1963-immigration-legal-transition-run182.md`: 출입국법 제65호 국회·내각·공포·집행 단계 분리.
+
+
+## Run193 · 1950-01~08 정당 재편·예산·한국은행 정부안
+
+- `data/politicians/run193-1950-caucus-actor-network.json`: 기존 canonical 17명은 1950-06-26 서울신문 교섭단체 교섭 또는 1950-07-04 국편 연표의 비상위원 명단에 문서·사건 연결만 추가. 연구상태 자동 승격 0명. 신규 `cand-r193-kim-beom-bu`는 金凡夫 신원 미확인 DISCOVERED 후보.
+- 독립 인물 보충 실록: `data/annals/lee-beom-seok-run193-fiscal.md`, `data/annals/ahn-jae-hong-run193-caucus.md`.
+- 증거·사건·주장: `data/documents/run193-1950-caucus-budget-bank.json`, `data/events/run193-1950-parliament-fiscal-actions.json`, `data/claims/run193-1950-party-budget-claims.json`.
+- 6/26 신문상 교섭단체 가입·연합은 공식 당적과 별개. 8/1 예산표 금액은 원표 확보 전 신문 전사 수치임.
