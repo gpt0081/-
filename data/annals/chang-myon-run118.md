@@ -15,3 +15,6 @@ FRUS 1950 VII doc 20에서 장면은 국회의원 선거 연기가 확정되었�
 국회 1950-02-10 감사전문이 실제 송신되었는지, 장면이 이를 수신·전달했는지, 1950-04-03 이후 본국 전달 결과는 OPEN.
 
 자료: https://history.state.gov/historicaldocuments/frus1949v07p2/d215 ; https://history.state.gov/historicaldocuments/frus1950v07/d3 ; https://history.state.gov/historicaldocuments/frus1950v07/d20
+
+## 1950-11-23 국무총리 인준 · Run200 추가
+경향신문 1950-11-24 전사는 장면이 11/23 국회 제56차 본회의에서 재석154·찬성148·반대6으로 인준됐다고 보도한다. 같은 기사의 이승만 공함은 앞서 백낙준 지명·사퇴 경위를 설명한다. 지명, 국회 승인, 정식 임명은 각각 별도 절차다. 국회 원속기록·관보 인사원면 미열람. 출처: https://db.history.go.kr/contemp/level.do?levelId=dh_019_1950_11_23_0060 ; 사건 evt-r200-10, 주장 claim-r200-03. 2026-10-27 열람. 기존 연구상태 유지.

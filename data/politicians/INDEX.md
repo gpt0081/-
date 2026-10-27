@@ -274,3 +274,7 @@ See `data/politicians/run113-prewar-network.json` for 12 sourced profiles. No ca
 - 국편 신규 문서 87건, canonical 사건 36건 추가, 기존 비대통령 18명 보강, 신규 DISCOVERED 후보 8명. `data/politicians/run198b-nov-actor-network.json`.
 - **번역 교정**: `dh_019_1950_11_04_0060`은 George Paek를 백두진으로 번역했으나 FRUS d746 교육장관 각주와 경향신문 1950-11-03 白樂濬은 **백낙준**. claim-r198b-01에 양쪽 원문·교정 이력 보존.
 - **절차 구분**: 11/2 계엄해제 국회 요구, 11/7 새 경비계엄(11/10 시행), 11/3 총리인준 부결, 11/7 내각사임 건의 조건부 보류. 사건·주장·법적효력을 구분한다.
+
+## Run200 · 1950-11-22~28 비대통령 네트워크
+
+기존 장면·백낙준·신익희·이기붕·서범석·김준연·허정·김수학·박영출 등 20개 연결 노드와 신규 DISCOVERED 6명(이우익, 공진항, 전득수, 이광선, 정희택, 이하성)을 별도 오버레이에 연결. 김치안국장 성만 기록은 김태선 신원으로 자동확정 금지. 인사 원관보 미확보, 신규 VERIFIED 승격0. `data/politicians/run200-nov22-28-actor-network.json`, `data/annals/nonpresidential-nov-run200.md` 참조.

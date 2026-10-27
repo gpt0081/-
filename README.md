@@ -17,6 +17,10 @@
 
 
 
+## Run200 연구 업데이트 (2026-10-27)
+
+1950-11-22~28 국편 동시대 기사 62건과 11/22~29 FRUS 공식문서 30건을 직접 확인했다(총 92개 페이지, FRUS 원생산 1차문서 27개, 편집주석 3개 별도). 국회 추경 2428억/2438억 충돌, 장면 인준 148:6, 국민방위군 제출안과 법률효력, 영국·미국 국경완충 이견, 무초 포로대우 초기·후속 보고를 분리했다. 비대통령 20개 기존 노드 연결(이 중 치안국장 성만 표기 1개 신원 미확정), 신규 후보 6개, 사건 41개, 독립 연구선 33개, 구체 다음 lead 46개. 국회 원속기록·관보·영인면 미열람. 자세한 내용: `data/research/runs/2026-10-27-run200-report.md`, `data/research/runs/2026-10-27-run200-ledger.json`. 역사부채 주간 전수조사 미실시.
+
 ## Run199b · 11월 15~21일 법관·부역통계·농지개혁·전시재정 추가 대량채굴
 
 2026-10-27: [추가 보고](data/research/runs/2026-10-27-run199b-report.md) · [69개 추가 직접열람](data/documents/run199b-nov15-21-sources.json) · [50개 사건](data/events/run199b-nov15-21-actions.json) · [기존 14명/후보 6명](data/politicians/run199b-nov-actor-network.json) · [19개 주장·반증](data/claims/run199b-nov15-21-adversarial.json) · [51개 원문 표적](data/research/lead-queues/run199b-next.json). **내무부 검거 통계 55,509/55,909 및 송치·석방 합계 오류**, 부산서 범죄 발생379/377·검거141/265, 김태순/김태선 치안국장 신원충돌을 CONFLICTED/NARROWED로 보존. 1951 지가증권 국가기록원 후속 원문, FRUS d847·d864, 1950 도시계획과 실제 시공 구분. Floot 미변경.
