@@ -5,19 +5,20 @@
   "branchHeadResolution": "READ_LIVE_REF_NOT_CACHED_SHA",
   "lastCompletedRun": 205,
   "latestRunReport": "data/research/runs/2026-10-27-run205-report.md",
-  "latestLeadQueue": "data/research/lead-queues/run205-next.json",
-  "latestDocumentRegistry": "data/documents/run205-april-command-diplomacy.json",
-  "latestEventOverlay": "data/events/run205-april-command-actions.json",
-  "latestClaimOverlay": "data/claims/run205-april-command-adversarial.json",
-  "latestPoliticianOverlay": "data/politicians/run205-april-embassy-actors.json",
-  "latestDebtAddenda": "data/research/history-debt/run205-april-command.md",
-  "latestAnnals": "data/annals/run205-rhee-command-diplomacy.md",
+  "latestLeadQueue": "data/research/lead-queues/run205b-next.json",
+  "latestDocumentRegistry": "data/documents/run205b-domestic-originals.json",
+  "latestEventOverlay": "data/events/run205b-domestic-actions.json",
+  "latestClaimOverlay": "data/claims/run205b-domestic-adversarial.json",
+  "latestPoliticianOverlay": "data/politicians/run205b-assembly-cabinet-actors.json",
+  "latestDebtAddenda": "data/research/history-debt/run205b-domestic.md",
+  "latestAnnals": "data/annals/run205b-ordinary-governance.md",
   "next": [
-    "L205-01",
-    "L205-03",
-    "L205-06",
-    "L205-08",
-    "L205-09"
+    "L205b-03",
+    "L205b-04",
+    "L205b-07",
+    "L205b-08",
+    "L205b-09",
+    "L205b-10"
   ],
   "flootUntouched": true,
   "latestFileIndex": "data/research/runs/run110-file-index.json",
@@ -217,7 +218,7 @@
   "lastRun": 198,
   "lastRunDate": "2026-10-27",
   "lastRunReport": "data/research/runs/2026-10-27-run198-report.md",
-  "nextLeadQueue": "data/research/lead-queues/run205-next.json",
+  "nextLeadQueue": "data/research/lead-queues/run205b-next.json",
   "run150": {
     "ledger": "data/research/runs/2026-10-12-run150-ledger.json",
     "documentRegistry": "data/documents/run150-1955-56-press-local.json",
@@ -404,15 +405,16 @@
     "additionalUnverifiedCandidates": 2
   },
   "run205": {
-    "documents": 11,
-    "primary": 11,
-    "nonPresidentActors": 3,
-    "events": 9,
-    "claims": 10,
-    "leads": 20,
+    "documents": 43,
+    "primary": 43,
+    "nonPresidentActors": 23,
+    "events": 32,
+    "claims": 25,
+    "leads": 40,
     "weeklyFullReview": false,
     "flootUntouched": true,
-    "previousLeadsTracked": 2,
-    "firstCommit": "a5bb5022fa0f836636216f35bc7375aa492fabdb"
+    "previousLeadsTracked": 8,
+    "firstCommit": "a5bb5022fa0f836636216f35bc7375aa492fabdb",
+    "extension": "b"
   }
 }

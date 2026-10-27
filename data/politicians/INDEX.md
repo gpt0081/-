@@ -289,3 +289,8 @@ Run202 12/15~17 후속 행위자: 이시영(`pol-r189-lee-si-yeong`), 이진수(
 ## Run205 · 1951년 3~6월 외교·군사지휘 전환 (2026-10-27)
 
 `data/politicians/run205-april-embassy-actors.json`에서 임병직(`pol-lim-byong-jik`) 기존 독립 실록을 FRUS d181·d243으로 심화하고, 김세선(`cand-r205-kim-se-sun`, Sae Sun Kim)과 한표욱(`cand-r205-han-pyo-wook`, Pyo Wook Han)을 1951-03-22·04-18·06-25 외교 접촉별 독립 후보로 구조화했다. 김세선은 run201의 대사 후임 예정 언급과 같은 영문 인명으로 보이나, 공식 주미대사 신임장 수여로 오인하지 않는다. 두 후보의 생몰·한자·임명 원부는 미확인으로 정식 승격 보류. 관련 annals `data/annals/run205-rhee-command-diplomacy.md`, event `data/events/run205-april-command-actions.json`, claim `data/claims/run205-april-command-adversarial.json`.
+
+
+## Run205b · 1951년 4~5월 국회·내각·행정 정치인 20명
+
+data/politicians/run205b-assembly-cabinet-actors.json: 김준연·조병옥·신성모·김종회·서민호·엄상섭·이재형·최국현·박철웅·황성수·김태선·손원일·박만원 등 기존 stable ID 심화, 김의준·박경구·김종순·장홍염·김정식·이상철 등 후보 식별. 1951 국민방위군사령관 金潤根은 1961 해병지휘관 pol-kim-yun-geun과 신원 병합하지 않는다. 생몰·인사원부·원속기록 검증 전 신규 정식 승격 없음.
