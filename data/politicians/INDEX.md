@@ -241,3 +241,8 @@ See `data/politicians/run113-prewar-network.json` for 12 sourced profiles. No ca
 
 ### Run196 신원충돌 유보
 `cand-r196-park-jong-man-assembly` (1950-08-17 국회사무총장으로 무초 보고)와 `cand-r195b-19` (1950-08-09 대한통신 사장 보도)는 동일한 '박종만' 이름이나 개인 동일성 미확인. `IDCOL-R196-01`로 자동병합 금지. `cand-r195e-02` 김준태도 국회 원속기록 대기.
+
+
+## 2026-10-27 · run197 전시 국정·국회·복지·치안 정치인 overlay
+
+`data/politicians/run197-1950-september-actor-network.json`: 기존 stable ID 정치인 25명(대통령 1명 포함)의 1950-09-01~11 시기별 행위·문서·사건 연결과 별도 후보 4명(헌병 이윤영 소령, 서상덕 의원, 손창섭 징병책임관, 선전위원 박종만). 이윤영 사회부장관과 헌병소령의 한자 동명, 박종만 3역할 충돌을 병합하지 않는다. 생몰·당적·임명원부 미검증이면 자동 VERIFIED/MATURE 승격하지 않는다. 원문 목록 `data/documents/run197-1950-september-contemporary.json`, 사건 `data/events/run197-1950-september-governance.json`, 부채 `data/research/HISTORY_DEBT.md`, 후속 `data/research/lead-queues/run197-next.json`.
