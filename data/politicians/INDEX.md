@@ -245,3 +245,7 @@ See `data/politicians/run113-prewar-network.json` for 12 sourced profiles. No ca
 
 ### Run196B · 1950-08-22~09-07 국편 국내행정·전시선전대책위원회
 `data/politicians/run196b-1950-domestic-actors.json`: 기존 24명(비대통령 23)의 동시대 실명발언·위원명단 연결, 새 후보 이윤영 헌병대장 소령은 사회부장관 동명이인 여부 미확인. 김도연/이범석 중복 canonical ID는 자동 통합하지 않았다. 개인 참석·표결·법원유죄 추정 금지.
+
+
+### Run196C · 9월 헌법위원·UN대표단·여성의용군
+`data/politicians/run196c-1950-september-actors.json` 기존 인물 27명, 신규 후보 손창섭·박승하 DISCOVERED. 임병직·장면·장택상·김동성·임영신·황성수 UN대표단은 후보→국회/정부 갈등→공식임명으로 분리.

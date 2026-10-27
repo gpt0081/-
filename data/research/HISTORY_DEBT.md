@@ -1901,3 +1901,15 @@ Run180에서 기존 부채 8건(`HD-R95-005/006/007`, `HD-R107-02`, `HD-R170-LAN
 - **HD-R195E-PERSON-KIM-JONG-WON** `NARROWED`: 8/22 金宗元 헌병부사령관, 8/28 부산 계엄사령관, 8/29 경남 사령관 통합 유임 시계열. 다음 원문: 관보·헌병 인사원부 및 金完元 신원대조
 - **HD-R196B-LEE-YUN-YEONG** `OPEN`: 8/29 사회부장관 이윤영과 8/31 헌병대장 李允榮 소령 동명이인 여부 미확인. 다음 원문: 사회부·헌병 인사원부와 생몰·한자 대조
 주간 전수조사 미실시, last_full_review 불변. 원문 상세: data/research/runs/2026-10-27-run196b-domestic-report.md.
+
+
+## Run196C 개별 부채 추적 (2026-10-27, 주간 전수조사 아님)
+- HD-R195-NAJIN [CONFLICTED]: 9/11 국방부 석유저장28% 추정·9/13 CIA 수송경로 추정, 전선 물동량은 미확인; 다음 원문 USAF/JCS 표적명령·유류재고
+- HD-R195-38PARALLEL [NARROWED]: 9/04 무초 이승만 북진입장 경고·9/11 애치슨 정책발언 자제 지시; 다음 원문 NSC 최종결정
+- HD-R195D-RICE [NARROWED]: 9/05 수용소 2합 일부 실제수령 인터뷰, 9/11 잡곡50% 혼식 시행요강; 다음 원문 수용소 배급원장
+- HD-R196C-SOVIET-AIRCRAFT [CONFLICTED]: 미국 공격기 주장 vs 소련 비무장 훈련기 항의; 다음 원문 UN 속기록·교전기록
+- HD-R196C-SANITATION [NARROWED]: 부산 오물수거 13000/19800석·국회 오물소제법 정부반환; 다음 원문 부산 원통계·국회 표결
+- HD-R196C-UN_DELEGATION [NARROWED]: 국회 후보→정부 갈등→9/13 공식대표단 임명; 다음 원문 국회 투표원부·임명장
+- HD-R196C-WAR_DISABLED_BILL [OPEN]: 9/08 국회 98/190 상이군경구호법 가결, 공포 미확인; 다음 원문 관보 공포·지급원장
+- HD-R196B-LEE-YUN-YEONG [OPEN]: 9/03 李允榮 헌병소령 차량등록 발표 추가, 사회부장관 동명이인 여부 미확인; 다음 원문 헌병/사회부 인사원부
+last_full_review 불변.
