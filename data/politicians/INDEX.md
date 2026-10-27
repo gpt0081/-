@@ -243,6 +243,14 @@ See `data/politicians/run113-prewar-network.json` for 12 sourced profiles. No ca
 `cand-r196-park-jong-man-assembly` (1950-08-17 국회사무총장으로 무초 보고)와 `cand-r195b-19` (1950-08-09 대한통신 사장 보도)는 동일한 '박종만' 이름이나 개인 동일성 미확인. `IDCOL-R196-01`로 자동병합 금지. `cand-r195e-02` 김준태도 국회 원속기록 대기.
 
 
+### Run196B · 1950-08-22~09-07 국편 국내행정·전시선전대책위원회
+`data/politicians/run196b-1950-domestic-actors.json`: 기존 24명(비대통령 23)의 동시대 실명발언·위원명단 연결, 새 후보 이윤영 헌병대장 소령은 사회부장관 동명이인 여부 미확인. 김도연/이범석 중복 canonical ID는 자동 통합하지 않았다. 개인 참석·표결·법원유죄 추정 금지.
+
+
+### Run196C · 9월 헌법위원·UN대표단·여성의용군
+`data/politicians/run196c-1950-september-actors.json` 기존 인물 27명, 신규 후보 손창섭·박승하 DISCOVERED. 임병직·장면·장택상·김동성·임영신·황성수 UN대표단은 후보→국회/정부 갈등→공식임명으로 분리.
+
+
 ## 2026-10-27 · run197 전시 국정·국회·복지·치안 정치인 overlay
 
 `data/politicians/run197-1950-september-actor-network.json`: 기존 stable ID 정치인 25명(대통령 1명 포함)의 1950-09-01~11 시기별 행위·문서·사건 연결과 별도 후보 4명(헌병 이윤영 소령, 서상덕 의원, 손창섭 징병책임관, 선전위원 박종만). 이윤영 사회부장관과 헌병소령의 한자 동명, 박종만 3역할 충돌을 병합하지 않는다. 생몰·당적·임명원부 미검증이면 자동 VERIFIED/MATURE 승격하지 않는다. 원문 목록 `data/documents/run197-1950-september-contemporary.json`, 사건 `data/events/run197-1950-september-governance.json`, 부채 `data/research/HISTORY_DEBT.md`, 후속 `data/research/lead-queues/run197-next.json`.
