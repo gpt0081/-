@@ -284,3 +284,8 @@ See `data/politicians/run113-prewar-network.json` for 12 sourced profiles. No ca
 기존 stable/candidate ID를 보존하며 총 19명의 한국 공직·정당·입법·행정 행위자에 대해 직책·행위·원문·다음 원문 표적을 추가했다. 허정·신익희·정일권·이호(동명이인 미확인)·양성봉·김주학(신규 후보)·장흥(신규 후보)·이범석·김창룡·장두관·곽상훈·강경옥·임병직·이성주·오제도·박문기(신규 후보)·신성모·장면·조병옥. [상세 overlay](run202-dec07-12-korean-actors.json). 생몰·임명원본 검증 전 canonical 승격 없음.
 
 Run202 12/15~17 후속 행위자: 이시영(`pol-r189-lee-si-yeong`), 이진수(`pol-r141-lee-jin-su`), 이재형(`pol-r184-lee-jae-hyeong`), 장영근(`cand-r202-jang-yeong-geun`), 김천수(`cand-r202-kim-cheon-su`). 총 24명 비대통령 실질 행위자, 정식 후보 승격 없음.
+
+
+## Run205 · 1951년 3~6월 외교·군사지휘 전환 (2026-10-27)
+
+`data/politicians/run205-april-embassy-actors.json`에서 임병직(`pol-lim-byong-jik`) 기존 독립 실록을 FRUS d181·d243으로 심화하고, 김세선(`cand-r205-kim-se-sun`, Sae Sun Kim)과 한표욱(`cand-r205-han-pyo-wook`, Pyo Wook Han)을 1951-03-22·04-18·06-25 외교 접촉별 독립 후보로 구조화했다. 김세선은 run201의 대사 후임 예정 언급과 같은 영문 인명으로 보이나, 공식 주미대사 신임장 수여로 오인하지 않는다. 두 후보의 생몰·한자·임명 원부는 미확인으로 정식 승격 보류. 관련 annals `data/annals/run205-rhee-command-diplomacy.md`, event `data/events/run205-april-command-actions.json`, claim `data/claims/run205-april-command-adversarial.json`.
