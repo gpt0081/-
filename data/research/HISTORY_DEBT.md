@@ -2312,3 +2312,5 @@ data/research/history-debt/run205e-may22.md의 HD-R205E-01~11 참조. 법률 제
 ## Run210 개별 검토 (2026-10-28, 주간 전수 아님)
 
 `data/research/history-debt/run210-july02-07.json`에 기존 HD-R209-26을 UNKRA/UNC 전시 지휘권 문서로 NARROWED(해결 아님), 신규 11개 OPEN/CONFLICTED를 기록. 육본훈령191의 7/10 취소, 하곡 도별 합계 421000 vs 350000, 서울 농민 87670 vs 87680, 신성모 임명 국무회의 상반 진술, 국민방위군 재심을 원자료로 재검증 필요. **역사부채 주간 전수조사 미실시**; last_full_review 변경 없음.
+
+Run210 추가 교정: `HD-R210-12 CONFLICTED_RANK` 육본훈령191(7/6) 이종찬 '육군대장' vs 함상회의 보도(7/7) '소장'. 원면·인사원부 필요. 기존 Run209 lead 실제 추적 7개로 정정, RESOLVED 0.

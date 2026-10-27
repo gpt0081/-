@@ -1,7 +1,19 @@
 {
   "run": 210,
   "accessDate": "2026-10-28",
-  "sourceDocuments": [
+  "uniqueSubstantivePagesOpened": 48,
+  "underlyingOriginDedupEstimate": 47,
+  "facsimilesRead": 0,
+  "sourceFamilies": [
+    "US_STATE_DEPARTMENT_FRUS_COMPILATION",
+    "US_CIA_DOCUMENT",
+    "US_DIPLOMATIC_RG59",
+    "ROK_ARMY_ORDER",
+    "UK_PARLIAMENT",
+    "KOREAN_PRESS_MULTIPLE_PUBLISHERS"
+  ],
+  "caveat": "NIKH 1951-07-07 item0020 and FRUS d414 share one US originating telegram. Directly opened distinct pages are not distinct origin institutions. Korean newspaper transcriptions are not facsimiles.",
+  "documents": [
     {
       "id": "doc-r210-dh_022_1951_07_05_0010",
       "title": "유엔 사무총장, 한국 원조에 47개국 참가 등을 보고",
@@ -252,7 +264,7 @@
       "accessStatus": "FULL_BODY_READ",
       "originalFacsimileRead": false,
       "accessDate": "2026-10-28",
-      "sourceQualification": "Army HQ order No.191 original wording reprinted; no facsimile"
+      "sourceQualification": "Army HQ order No.191 original wording reprinted; no facsimile; order signer 李鍾贊 listed 육군대장 vs next-day press 7/7 item0060 소장: rank CONFLICTED"
     },
     {
       "id": "doc-r210-dh_022_1951_07_06_0090",
@@ -434,7 +446,7 @@
       "accessStatus": "FULL_BODY_READ",
       "originalFacsimileRead": false,
       "accessDate": "2026-10-28",
-      "sourceQualification": "Original publisher attribution follows NIKH source heading; article event date distinct from newspaper publication date"
+      "sourceQualification": "Original publisher attribution follows NIKH source heading; article event date distinct from newspaper publication date; Lee Jong-chan rank 소장 differs from Army order 191 육군대장"
     },
     {
       "id": "doc-r210-dh_022_1951_07_07_0070",
@@ -674,16 +686,5 @@
       "accessDate": "2026-10-28"
     }
   ],
-  "uniqueSubstantivePagesOpened": 48,
-  "underlyingOriginDedupEstimate": 47,
-  "facsimilesRead": 0,
-  "sourceFamilies": [
-    "US_STATE_DEPARTMENT_FRUS_COMPILATION",
-    "US_CIA_DOCUMENT",
-    "US_DIPLOMATIC_RG59",
-    "ROK_ARMY_ORDER",
-    "UK_PARLIAMENT",
-    "KOREAN_PRESS_MULTIPLE_PUBLISHERS"
-  ],
-  "caveat": "NIKH 1951-07-07 item0020 and FRUS d414 share one US originating telegram. Directly opened distinct pages are not distinct origin institutions. Korean newspaper transcriptions are not facsimiles."
+  "schemaVersion": 1
 }
