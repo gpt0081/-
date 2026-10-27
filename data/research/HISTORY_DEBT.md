@@ -2375,3 +2375,21 @@ Run210 추가 좁힘: FRUS d428(1951-07-11) UNC-UNKRA 2단계 지휘권 원제�
 - **HD-R212-12** · `OPEN` · 8/9 중립지대 차량 공습 양측 진술과 실제 출격·조사 원장. 다음 원문: 미 8군 작전일지 1951-08-07.
 
 관련 [Run212 상세](history-debt/run212-august.json), [40개 lead](lead-queues/run212-next.json), [FRUS·국편 문서 레지스트리](../documents/run212-frus-august-original-transcriptions.json).
+
+
+### Run212 8/11~15 추가 원문 반증 (2026-10-28, 주간 전수 아님)
+
+8/1~10 HD-R212-01~12는 보존하고, 8/11~15 조사로 아래 부채를 추가한다. **역사부채 주간 전수조사 미실시**, last_full_review 불변.
+
+- **HD-R212-13** `CONFLICTED`: 공고18 단기4284년12월7일 선포일이 8/11보다 미래. [다음 원문 표적](lead-queues/run212-next.json).
+- **HD-R212-14** `CONFLICTED`: 이종찬 7/24 육군대장 vs 8/11 육군소장. [다음 원문 표적](lead-queues/run212-next.json).
+- **HD-R212-15** `CONFLICTED`: 거창 김종원 8/12 법정 시인 vs 8/14 기자회견 부인. [다음 원문 표적](lead-queues/run212-next.json).
+- **HD-R212-16** `CONFLICTED`: 외환 수입 총액355.5만달러 vs 품목합계331.5만달러. [다음 원문 표적](lead-queues/run212-next.json).
+- **HD-R212-17** `NARROWED`: 8/13 조폐공사법 의결 vs 9/2 공포·시행. [다음 원문 표적](lead-queues/run212-next.json).
+- **HD-R212-18** `OPEN`: 국민회 8/13 비공식 신당 발족 합의와 정당등록 관계. [다음 원문 표적](lead-queues/run212-next.json).
+- **HD-R212-19** `CONFLICTED`: 김대운 7000만원 혐의 vs 본인·민국당 부인. [다음 원문 표적](lead-queues/run212-next.json).
+- **HD-R212-20** `CONFLICTED`: 염전 2000정보·미수복1200·가동1900 수치. [다음 원문 표적](lead-queues/run212-next.json).
+- **HD-R212-21** `NARROWED`: 백선엽 편지 대통령 계속참석 지시 인용·원서명 미확보. [다음 원문 표적](lead-queues/run212-next.json).
+- **HD-R212-22** `OPEN`: 8/15 산금법안 자유거래 구상 실제 제정 여부. [다음 원문 표적](lead-queues/run212-next.json).
+
+HD-R212-06은 백선엽 8/3 편지의 계속참석 지시 문구로 추가 좁혔지만 원서명 확인 전 RESOLVED 아님. HD-R212-10은 김종원 8/14 부인으로 CONFLICTED 관점 추가. [상세](history-debt/run212-august.json).

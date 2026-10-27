@@ -332,3 +332,6 @@ Run208 신원검증: `cand-r207-kim-su-hak` 金秀學(1950 고창갑 당선, AKS
 ## Run212 · 1951-08 헌법위원회·정부조직개편 인물 22명
 
 [독립 actor 22건](run212-august-constitutional-reform-actor-network.json), 신규 candidate ID 8건, 기존 stable ID 재사용 14건(이승만 1건 포함). 국회측 헌법위원 소선규·정헌주·남송학·김봉조·이도영과 대법관측 김병로·김찬영·백한성·김두일·김우식을 별개 노드로 연결했다. 8/9 정부조직법 개정 제안자 오위영·서민호·방만수·양우정·김정실도 제안자별 독립 노드로 연결했다. 신문 전사로 확인된 직책을 원임명장 확인과 혼동하지 않고 생몰 미확인 후보는 승격하지 않는다. [비대통령 실록](../annals/politicians-1951-constitutional-committee-reform-run212.md), [22 사건](../events/run212-august01-10-actions.json).
+
+
+Run212 8/11~15 후속으로 [계엄 공고 국무위원·이종찬·김종원·김석관·백낙준·이활·김대운 등](run212-august-constitutional-reform-actor-network.json)을 연결해 **37 actor records(비대통령 36)**, 신규 candidate 11개로 확장. 이름/생몰/동명이인 원전거 미확인 시 정식 승격 보류.
