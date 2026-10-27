@@ -159,4 +159,7 @@ Run208 최종 검증: **51개 열람 페이지·50개 근원문서/저작, 23개
 
 
 ## Run209 · 1951년 6월 26일 인사·구호·전시경제 감사 (2026-10-28)
-[실행보고](data/research/runs/2026-10-28-run209-report.md) · [직접 확인 실질문서 13건](data/documents/run209-june26-crossprovenance.json) · [사건 15개](data/events/run209-june26-state-actions.json) · [주장 14개](data/claims/run209-june26-adversarial.json) · [비대통령 7명 연결](data/politicians/run209-june26-actors.json) · [후속 40개 원문 표적](data/research/lead-queues/run209-next.json). 6/26 서울시장·치안국장·서울시 경찰국장·내무차관 연쇄 인사, ECA PR 5~10% 보증금, 7/1 대일수출 신용장 규제 예정, 허정 구호 연인원 단위 구분. 미국 G-2·영국 Hansard·북한 관보도 출처 성격을 분리해 수록. 40개 본문 목표 미달, 원면 0, 3계열 동일 명제 검증 0. Floot 미변경.
+[실행보고](data/research/runs/2026-10-28-run209-report.md) · [직접 확인 실질문서 13건](data/documents/run209-june26-crossprovenance.json) · [사건 15개](data/events/run209-june26-state-actions.json) · [주장 14개](data/claims/run209-june26-adversarial.json) · [비대통령 7명 연결](data/politicians/run209-june26-actors.json) · [후속 41개 원문 표적](data/research/lead-queues/run209-next.json). 6/26 서울시장·치안국장·서울시 경찰국장·내무차관 연쇄 인사, ECA PR 5~10% 보증금, 7/1 대일수출 신용장 규제 예정, 허정 구호 연인원 단위 구분. 미국 G-2·영국 Hansard·북한 관보도 출처 성격을 분리해 수록. 40개 본문 목표 미달, 원면 0, 3계열 동일 명제 검증 0. Floot 미변경.
+
+### Run209 추가 심화(6/27~7/1)
+고유 실질자료 페이지 **70건**, 공식·동시대 1차 기록 및 원문 전사 **20건**(원면 직접 0), 국정·외교·사법·농정·구호·재정 등 17개 영역, 독립 연구선 34개. [추가 문서 registry](data/documents/run209-june26-crossprovenance.json) · [사건 51개](data/events/run209-june26-state-actions.json) · [반증 34개](data/claims/run209-june26-adversarial.json) · [후속 81개](data/research/lead-queues/run209-next.json). **윤우경 경찰국장 6/24 vs 6/26**, **국회 정전반대 결의 6/28 vs 6/29**, **부산 절도비율 96% vs 계산상 89.13%**, **전선도난 압수 500 vs 200톤** 충돌 보존. 6/27 이승만 반대담화와 6/30 정부 5개 정전조건을 별도 사건으로 기록. 엄격한 독립 3계열 동일명제 검증은 0건.

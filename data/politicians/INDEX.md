@@ -312,3 +312,8 @@ Run208 신원검증: `cand-r207-kim-su-hak` 金秀學(1950 고창갑 당선, AKS
 ## Run209 (2026-10-28) · 1951-06-26 인사·전시행정 독립 인물
 - `data/politicians/run209-june26-actors.json`: 김태선·이익흥·허정 기존 ID, 윤우경(尹宇景)·홍범희(洪範憙) 후보 ID, 백두진·김훈의 공동성명 당시 재임맥락을 분리. 신규 후보 2명은 관보·생몰 미확보로 VERIFIED 승격하지 않음.
 - `data/evidence/politicians/run209-june26-actor-evidence.json`, `data/annals/run209-1951-june26-government-relief.md`: 보도된 인사/구호/정책과 실제 집행 분리. 기존 HD-R199B-04 김태순/김태선 충돌은 원신문 대조 전 NARROWED 유지.
+
+### Run209 후속 독립 인물 실록
+- [윤우경](../annals/politicians/cand-r209-yun-woo-gyeong.md): 서울경찰청 1951-06-24 재임시작 vs 민주신보 6/26 발령, 신원 1900~1995 AKS 확인, 정확한 취임일 CONFLICTED.
+- [홍범희](../annals/politicians/cand-r209-hong-beom-hui.md): 제헌의원·1951 6~11 내무차관, 1917~1972 AKS 인물전기 확인, 원임명관보 미확보.
+- 6/27~7/1 장면·이철원·이종찬·곽태진·양우정·김종회·양유찬·신성모·신현돈·조재천·부산특별시법안 발의자 등을 독립 ID로 연결. 원문 미확보 후보의 정식 승격은 보류.
