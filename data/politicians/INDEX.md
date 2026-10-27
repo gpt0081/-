@@ -353,3 +353,16 @@ Run212 8/11~15 후속으로 [계엄 공고 국무위원·이종찬·김종원·�
 ## 2026-10-28 · Run217 1951-12-23 자유당 원내·원외 발당
 
 `data/politicians/run217-dec1951-party-actors.json`: 부산일보 1951-12-25에 기록된 개인별 역할 13명. 기존 stable/candidate ID 12명 재사용, 김주학만 신규 `cand-r217-kim-ju-hak`. 임시 ID 10개가 기존 registry와 중복됨을 발견해 교정했으며 대응표는 `canonicalIdReconciliation`에 보존. 원내·원외 별도 발당과 지도부 선출을 대통령 직접행동과 구분.
+
+
+## Run220 (2026-10-28) · 1951-12-26 국회 농지·토지수득세·장관 답변
+
+- `data/politicians/run220-dec1951-land-tax-actors.json`: 기존 ID 7명(정헌주·최헌길·강경옥·유홍·김종순·백두진·임문환) 재사용 및 곽의영(郭義榮) `cand-r220-kwak-ui-yeong` 신규 후보. 각자 동시대 기사에서의 감사보고·법안제안·동의·장관답변을 분리했다. 신원·생몰·원속기록 미확보로 VERIFIED 승격 0명.
+- `data/documents/run220-dec1951-primary-and-press.json`, `data/events/run220-dec1951-actor-actions.json`, `data/claims/run220-dec1951-adversarial.json`, `data/annals/rhee-dec26-31-run220.md` 참조. 1951-12-26 김종순 개정안은 법률 성립으로 간주하지 않는다.
+
+
+## Run220 2차 (2026-10-28) · 1952-01-01~03 비대통령 국정
+
+`data/politicians/run220-jan1952-actor-addendum.json`: 기존 장면·허정·신익희·김병로 4개 ID에 직접 확인한 신년행사·유엔가입 신청서한 보도·사회부 피난민/군경원호 계획·국회의장 신년사를 연결. 정순조는 당대 신문에서 개헌 추진자로 등장하나 생몰·원의안 미확보로 신규 stable 승격 보류. 관련 문서/사건/주장/실록은 run220-jan1952 addendum 참조.
+
+- Run220 12명 비대통령 독립 증거 객체: `data/evidence/politicians/run220-actor-evidence.json`. 역사부채 10건은 `data/research/HISTORY_DEBT.md`에 상태·다음 원문표적과 함께 동기화.
