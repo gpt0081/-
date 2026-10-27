@@ -98,16 +98,22 @@
       "status": "CONTRADICTED",
       "supportingEvidence": [],
       "contradictingEvidence": [
-        "doc-r216-dh_023_1951_11_28_0060"
+        "doc-r216-dh_023_1951_11_28_0060",
+        "doc-r216-mining-law-234"
       ],
       "insufficientEvidence": [],
       "exactConflict": null,
-      "reason": "제103차 본회의 제2독회 80조 중 59조까지 통과 기사, 최종 제정·공포 불명",
-      "nextOriginalTarget": "국회 1951-11-26 제103차 속기록·광업법 제정 관보",
+      "reason": "11/26 제103차 본회의 제2독회 59/80조 단계, 실제 광업법 제정은 1951-12-23 법률 제234호, 시행 1952-02-22(국가법령정보센터).",
+      "nextOriginalTarget": "국회 1951-11-26~12-23 광업법 제2·3독회 원회의록과 최종 조문 대비",
       "reviewHistory": [
         {
           "date": "2026-10-28",
           "action": "SECOND_WAVE_ADVERSARIAL_REVIEW"
+        },
+        {
+          "date": "2026-10-28",
+          "action": "NARROWED_BY_OFFICIAL_ENACTMENT",
+          "documentId": "doc-r216-mining-law-234"
         }
       ]
     },
@@ -252,6 +258,25 @@
         {
           "date": "2026-10-28",
           "action": "SECOND_WAVE_ADVERSARIAL_REVIEW"
+        }
+      ]
+    },
+    {
+      "id": "claim-r216b-13",
+      "statement": "1951-11-20 국회 관세법 개정안 가결 당일 법률 공포·시행됐다",
+      "status": "CONTRADICTED",
+      "supportingEvidence": [],
+      "contradictingEvidence": [
+        "doc-r216-dh_023_1951_11_20_0040",
+        "doc-r216-customs-law-229"
+      ],
+      "insufficientEvidence": [],
+      "reason": "국회 제98차 11/20 가결 보도와 별개로 관세법중개정법률 제229호는 1951-12-06 공포, 12-27 시행. 자선·구제용 기증물품 면세, 장치기간 3개월, 밀수 처벌 강화, 세관관리 사법경찰 직무 규정.",
+      "nextOriginalTarget": "국회 1951-11-20 제98차 본회의 원안·재경분위 수정안과 법률229호 조문 대비",
+      "reviewHistory": [
+        {
+          "date": "2026-10-28",
+          "action": "OFFICIAL_LAW_CROSSCHECK"
         }
       ]
     }
