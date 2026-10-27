@@ -1679,3 +1679,14 @@ Run180에서 기존 부채 8건(`HD-R95-005/006/007`, `HD-R107-02`, `HD-R170-LAN
 - **HD-R191-WAR-21 [OPEN]** 이승만 6/25 계엄 고려와 실제 선포·긴급명령 시점 혼동 가능. 다음 원문 표적: 관보 1950-06-25~28 계엄 선포원문. 근거: `data/documents/run191-1950-june18-24-frus.json`, `data/documents/run191d-frus-war-onset.json`, `data/claims/run191-1950-june18-24.json`, `data/claims/run191d-war-onset.json`.
 - **HD-R191-WAR-22 [NARROWED]** UN S/1496 군사정보 삭제 공개판과 FRUS 완전판 비교 필요. 다음 원문 표적: UN S/1496 원공개본·UN S/PV.473. 근거: `data/documents/run191-1950-june18-24-frus.json`, `data/documents/run191d-frus-war-onset.json`, `data/claims/run191-1950-june18-24.json`, `data/claims/run191d-war-onset.json`.
 - **HD-R191-WAR-23 [OPEN]** 이승만 장면 대사에 3회 원조전화·트루먼 장비명령 진술, 실제 수송인도 미확보. 다음 원문 표적: 한국대사관 1950-06-26 전보·KMAG 수송원장. 근거: `data/documents/run191-1950-june18-24-frus.json`, `data/documents/run191d-frus-war-onset.json`, `data/claims/run191-1950-june18-24.json`, `data/claims/run191d-war-onset.json`.
+
+
+### Run191 follow-up corrections (2026-10-27, not weekly full review)
+
+- **HD-R191-WAR-19 [NARROWED, NOT RESOLVED]** 무초 FRUS d101에 따르면 6/27 07시 신성모가 이승만 03시 진해행 특별열차·내각 07시 남하를 보고했다. d129는 6/28 대통령·대다수 내각 대전 지역 도착을 보고한다. 실제 경유지·출발시각은 경무대/철도 원부 미확보. 이전의 6/26 05시~6/27 06시 시간창을 좁힌 correction history.
+- **HD-R191-ELECTION-10 [NARROWED, NOT RESOLVED]** UN A/1350 §§150-160: 높은 투표율·대체로 비밀투표 준수와 일부 후보·운동원 체포·위협 미확인 제보를 동시에 기록. UN 선거감시는 법적 인증이 아님. 원선거위원회·경찰·법원 기록 미확보.
+- **HD-R191-PROPERTY-12 [NARROWED, NOT RESOLVED]** 한국학중앙연구원 후대 법사로 1949 법률74 제15조 연고자 우선매각·1954 법률342 개정 시점 분리. 1950 시행령·관보·국회 원회의록은 미확보.
+- **HD-R191-WAR-20 [NARROWED, NOT RESOLVED]** UN A/1350 §9 침공 전48시간 남측 방어태세 직접 관찰과 북측 방송 주장을 대조. 북측 원방송·UN S/1507 원전문 미확보.
+- **HD-R191-WAR-22 [NARROWED, NOT RESOLVED]** UN 공식 결의82·83 PDF는 직접 텍스트 확인. UNCOK S/1496 공개·비공개 이본은 아직 원문 미확보.
+- **HD-R191-WAR-24 [CONFLICTED]** 미 국무부 1950-06-27 대영전문 d109는 서울 함락을 이미 완료했다고 기재하나 FRUS 후대 편집주석은 6/28 오후 서울 중심부 함락으로 정정. 원작전일지 확인 필요.
+- **HD-R191-WAR-25 [BLOCKED_AT_FRUS_PUBLICATION_NOT_CURRENTLY_CONFIRMED]** FRUS d136은 1950-06-28 NSC 회의 원비망록이 편집 당시 미해제여서 미수록이라고 명시. 2026 공개상태는 확인 전이며 현재 BLOCKED로 확정하지 않는다.

@@ -5,15 +5,21 @@
   "accessDate": "2026-10-27",
   "documentRegistryPaths": [
     "data/documents/run191-1950-june18-24-frus.json",
-    "data/documents/run191d-frus-war-onset.json"
+    "data/documents/run191d-frus-war-onset.json",
+    "data/documents/run191e-frus-june27-28.json",
+    "data/documents/run191f-un-election-law-originals.json"
   ],
   "eventRegistryPaths": [
     "data/events/run191-1950-june18-24.json",
-    "data/events/run191d-war-onset.json"
+    "data/events/run191d-war-onset.json",
+    "data/events/run191e-june27-28.json",
+    "data/events/run191f-un-election-law.json"
   ],
   "claimRegistryPaths": [
     "data/claims/run191-1950-june18-24.json",
-    "data/claims/run191d-war-onset.json"
+    "data/claims/run191d-war-onset.json",
+    "data/claims/run191e-june27-28.json",
+    "data/claims/run191f-un-election-law.json"
   ],
   "directStatements": [
     {
@@ -45,6 +51,18 @@
       "doc": "doc191d-frus1950v07-d97",
       "kind": "US SECRETARY OF STATE MEMO",
       "note": "장면 대사 통해 3회 원조 요청 전언"
+    },
+    {
+      "date": "1950-06-27",
+      "doc": "doc191e-frus1950v07-d101",
+      "kind": "ACTING_PRIME_MINISTER_REPORT_TO_US_AMBASSADOR",
+      "note": "신성모 07시 보고 대통령03시 진해행 특별열차, 원열차명부 미확보"
+    },
+    {
+      "date": "1950-06-28",
+      "doc": "doc191e-frus1950v07-d129",
+      "kind": "US_EMBASSY_REPORT",
+      "note": "대통령·대다수 내각 대전지역 도착, 진해 최종행선지 미확정"
     }
   ],
   "independentNonPresidentActors": [
@@ -63,5 +81,17 @@
     "HD-R191-PROPERTY-12",
     "HD-R191-DULLES-11"
   ],
-  "attributionGuardrail": "미국 외교관의 진술·대통령 자기주장·실제 법적 명령과 집행·UN 채택 결의를 분리한다"
+  "attributionGuardrail": "미국 외교관의 진술·대통령 자기주장·실제 법적 명령과 집행·UN 채택 결의를 분리한다",
+  "institutionalLaterFindings": [
+    {
+      "doc": "doc191f-un-a1350",
+      "subject": "1950-05-30 election",
+      "note": "UN positive procedural assessment and unverified interference allegations both retained"
+    },
+    {
+      "doc": "doc191f-aks-vested-property-law",
+      "subject": "1949 law74 priority rights",
+      "note": "1954 amendment must not be applied to 1950 auction"
+    }
+  ]
 }

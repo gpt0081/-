@@ -151,17 +151,28 @@
     {
       "id": "claim-r191d-11",
       "statement": "6/26 05시 무초는 이승만이 서울을 떠나지 않았다고 보고했고 6/27 06시에는 대통령·대다수 내각이 남하했다고 보고했다.",
-      "verificationStatus": "NARROWED_DEPARTURE_WINDOW",
+      "verificationStatus": "NARROWED_REPORTED_03AM_6_27_AND_TAEJON_6_28_NOT_ORIGINAL_TRAIN_LOG",
       "supportingEvidenceDocumentIds": [
         "doc191d-frus1950v07-d80",
-        "doc191d-frus1950v07-d98"
+        "doc191d-frus1950v07-d98",
+        "doc191e-frus1950v07-d101",
+        "doc191e-frus1950v07-d129"
       ],
       "contradictingEvidenceDocumentIds": [],
       "insufficientEvidenceDocumentIds": [
         "경무대 수행일지·열차/차량 이동기록"
       ],
       "accessDate": "2026-10-27",
-      "evidenceLayer": "contemporaneous US original / UN primary reprint / editorial note distinguished"
+      "evidenceLayer": "contemporaneous US original / UN primary reprint / editorial note distinguished",
+      "correctionHistory": [
+        {
+          "date": "2026-10-27",
+          "previous": "6/26 05시 서울 체류와 6/27 06시 남하 사이 시간경계",
+          "newEvidence": "doc191e-frus1950v07-d101",
+          "narrowed": "6/27 07시 신성모가 03시 대통령 진해행 특별열차·07시 내각 남하를 무초에게 진술; 6/28 대전 도착 별도 확인",
+          "remaining": "원수송명부·진해행 의도와 실제 대전 경로"
+        }
+      ]
     },
     {
       "id": "claim-r191d-12",
