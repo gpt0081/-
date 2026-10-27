@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "run": "run192",
+  "updated": "2026-10-27",
+  "politicians": [
+    {
+      "id": "pol-rhee-syngman",
+      "name": "이승만",
+      "aliases": [
+        "李承晩",
+        "Syngman Rhee",
+        "Rhee Syng-man"
+      ],
+      "lifespan": {
+        "born": "1875-03-26",
+        "died": "1965-07-19"
+      },
+      "researchStatus": "active-deep",
+      "action": {
+        "period": "1950-06-26~27",
+        "title": "6/26 미측에 F-51·포병 장비 지원 요청 및 6/27 오전3시 진해행(신성모의 전언)",
+        "actionType": "ROK_PRESIDENT_REQUEST_AND_REPORTED_MOVEMENT",
+        "evidenceDocumentIds": [
+          "doc192-frus1950v07-d80",
+          "doc192-frus1950v07-d101"
+        ],
+        "eventIds": [
+          "evt-r192-02",
+          "evt-r192-07"
+        ],
+        "attribution": "미 대사관 원전문; 지원요청은 인도확인 아님, 이동시간은 신성모 전언"
+      },
+      "openLeads": [
+        "L184-P-pol-rhee-syngman",
+        "L185-08",
+        "L192-07"
+      ],
+      "historyDebt": [
+        "HD-R180-01",
+        "HD-R180b-IDENTITY"
+      ],
+      "promotionHistory": []
+    },
+    {
+      "id": "pol-shin-sung-mo",
+      "name": "신성모",
+      "aliases": [
+        "申性模",
+        "Shin Sung-mo"
+      ],
+      "lifespan": null,
+      "researchStatus": "IDENTIFIED",
+      "action": {
+        "period": "1950-06-27",
+        "title": "무초 대사에게 채병덕 전권 위임·서울 잔류·방송·일본 망명정부 문의 진술",
+        "actionType": "REPORTED_ACTING_PM_DEFENSE_MINISTER_STATEMENT",
+        "evidenceDocumentIds": [
+          "doc192-frus1950v07-d98",
+          "doc192-frus1950v07-d101"
+        ],
+        "eventIds": [
+          "evt-r192-07"
+        ],
+        "attribution": "미 대사관이 기록한 신성모 진술; 위임장과 대통령 승인원문은 별도"
+      },
+      "openLeads": [
+        "L167-actor-pol-shin-sung-mo",
+        "L180b-P-pol-shin-sung-mo",
+        "L192-09"
+      ],
+      "historyDebt": [
+        "HD-R180b-IDENTITY"
+      ],
+      "promotionHistory": [
+        {
+          "date": "2026-10-27",
+          "from": "candidate-cross-event",
+          "to": "IDENTIFIED",
+          "reason": "FRUS1950 VII d101 contemporary named-office and action attribution; Korean appointment/order original remains open",
+          "documentIds": [
+            "doc192-frus1950v07-d101"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pol-chae-byong-duk",
+      "name": "채병덕",
+      "aliases": [
+        "蔡秉德",
+        "Chae Byong-duk",
+        "Chae Pyong-dok"
+      ],
+      "lifespan": null,
+      "researchStatus": "IDENTIFIED",
+      "action": {
+        "period": "1950-06-27",
+        "title": "신성모가 전권을 위임했다고 무초에게 언급한 육군참모총장",
+        "actionType": "NAMED_RECIPIENT_OF_REPORTED_DELEGATION",
+        "evidenceDocumentIds": [
+          "doc192-frus1950v07-d101"
+        ],
+        "eventIds": [
+          "evt-r192-07"
+        ],
+        "attribution": "미 대사관 전언, 채병덕의 수락·실제 명령 원문 미열람"
+      },
+      "openLeads": [
+        "L192-10"
+      ],
+      "historyDebt": [],
+      "promotionHistory": [
+        {
+          "date": "2026-10-27",
+          "from": "candidate-war-command",
+          "to": "IDENTIFIED",
+          "reason": "FRUS1950 VII d101 contemporary named-office and action attribution; Korean appointment/order original remains open",
+          "documentIds": [
+            "doc192-frus1950v07-d101"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pol-chang-myon",
+      "name": "장면",
+      "aliases": [
+        "張勉",
+        "Chang Myon",
+        "운석",
+        "雲石",
+        "John M. Chang"
+      ],
+      "lifespan": {
+        "born": "1899-08-28",
+        "died": "1966-06-04",
+        "verification": "AKS biography"
+      },
+      "researchStatus": "VERIFIED",
+      "action": {
+        "period": "1950-06-26",
+        "title": "주미대사로 트루먼·애치슨 접견, 한국 국회 원조 청원 전달과 이승만 전화 요청 전언",
+        "actionType": "DIPLOMATIC_PETITION_DELIVERY",
+        "evidenceDocumentIds": [
+          "doc192-frus1950v07-d90",
+          "doc192-frus1950v07-d97"
+        ],
+        "eventIds": [
+          "evt-r192-04"
+        ],
+        "attribution": "FRUS 미 국무장관 회담록, 한국 외무부 발송원본 미확보"
+      },
+      "openLeads": [
+        "L180-P-pol-chang-myon",
+        "L185-05",
+        "L192-04"
+      ],
+      "historyDebt": [
+        "HD-R180-01"
+      ],
+      "promotionHistory": []
+    }
+  ]
+}
