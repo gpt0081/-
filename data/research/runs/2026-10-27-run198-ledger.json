@@ -1,0 +1,441 @@
+{
+  "run": 198,
+  "date": "2026-10-27",
+  "timezone": "Asia/Seoul",
+  "executionStart": "2026-10-27T16:18:30+09:00 (automation-provided)",
+  "executionEnd": "NOT_INSTRUMENTED",
+  "elapsedMinutes": "NOT_CLAIMED",
+  "minimumTargetsAreNotStopCondition": true,
+  "continuedAfterThreshold": "Read 1950-10-27..31 additional 42 source articles after 10/22..26, and official law/CIA counterchecks",
+  "priorRunDedupCorrection": "Oct18-21 32 articles already registered in run166. Reopened but not counted as new; pivoted to Oct22-31 new 89.",
+  "metrics": {
+    "newNikhDocuments": 89,
+    "officialLawPages": 1,
+    "ciaOriginalAnthologyItems": 1,
+    "newUniqueRegistryDocuments": 91,
+    "revisitedPreviouslyRegisteredOct18to21": 32,
+    "nonduplicateOriginalProductionFamilies": "Source translations may share FRUS/CIA underlying records",
+    "officialOriginPrimaryStrict": 18,
+    "reprintedPrimaryTextItems": 5,
+    "contemporaneousPress": 68,
+    "primaryIncludingLaterOriginalTextReprints": 23,
+    "originalFacsimilesActuallyViewed": 0,
+    "independentResearchLines": 33,
+    "domainsSubstantivelyReinforced": 19,
+    "existingNonPresidentActors": 17,
+    "newPoliticianCandidates": 4,
+    "verifiedPromotions": 0,
+    "newOrReinforcedEvents": 29,
+    "claims": 20,
+    "adversarialResearchTopics": 12,
+    "oldLeadsTracked": 15,
+    "newConcreteLeads": 45,
+    "crossProvenanceBundles": 3,
+    "fullyIndependentTripleOriginalFacsimileBundles": 0
+  },
+  "researchLines": [
+    "북한민정권한 10/22 대통령 유시",
+    "10/23 UP 인터뷰와 10/30 유엔협력 담화",
+    "UNGA 376(V) 장면 외교",
+    "UN 경제사회이사회 한국구호 5원칙",
+    "미호주 UNKRA 제안·소련 수정논쟁·ECOSOC 표결",
+    "재무부 대통령령391 통화교환",
+    "한국은행 10/25 구권교환 공고",
+    "서울경찰 식량매점 단속",
+    "제5회 추가경정예산 제출",
+    "지세 물납·지방재정 개편",
+    "농림부 추곡520만석·지가상환",
+    "경남 대지주 귀속기업체 우선매수",
+    "서울 귀속사업체 관리복귀",
+    "서울 무허가시장 철거",
+    "경남 위생행정 경찰이관",
+    "총무처 공무원 30% 감원·급여 3배",
+    "경남도지사 행정인사·전재보고",
+    "사회부 군사원호법 시행세칙",
+    "서울 동회 구호위원회 구성",
+    "부산 경부선 피난민 수송",
+    "경남 공업 가동률·화학공업",
+    "ECA 존슨 산업피해 추정",
+    "문교부 전시 교육과정 개편",
+    "문화재 전재복구 예산",
+    "평양시정위원 임정득 행정역량 평가",
+    "국회 10/28 정족수 미달",
+    "대한청년단 김윤근 선출·신성모 사임",
+    "중국군 포로와 CIA 정보평가",
+    "군경 합동수사본부 부역혐의 심사",
+    "경남 계엄민사부 축우 도살 제한",
+    "해군 손원일 선박 운항 제한 해제",
+    "제8사단 작전명령80 연대기 교정",
+    "기획처 20종 긴급물자·부흥종합조사본부"
+  ],
+  "adversarial": [
+    {
+      "id": "ADV198-01",
+      "claim": "조선은행권 교환액 제391호의 제정일·월 한도",
+      "adversarialPath": "법제처 대통령령391 공식 원문 vs 10/24 재무부 기사",
+      "result": "LAW_AND_PRESS_ORIGINAL_TEXT_COMPARED",
+      "status": "SUPPORTED_WITH_ORIGINAL_GAZETTE_PENDING",
+      "originalTargetNeeded": true,
+      "externalSearchExecuted": true,
+      "notes": "2026-10-27 별도 한국어·영어/공식 원문 검색 시도. 검색결과가 원문을 대체하지 않음."
+    },
+    {
+      "id": "ADV198-02",
+      "claim": "한국은행 공고 유통금지 1월3일 vs 법령 11월3일",
+      "adversarialPath": "한국은행 10/25 성명 전사 vs 법제처 제391호·재무부 고시18",
+      "result": "EXPLICIT_CONFLICT",
+      "status": "CONFLICTED",
+      "originalTargetNeeded": true,
+      "externalSearchExecuted": true,
+      "notes": "2026-10-27 별도 한국어·영어/공식 원문 검색 시도. 검색결과가 원문을 대체하지 않음."
+    },
+    {
+      "id": "ADV198-03",
+      "claim": "긴급명령10 제2조 중복",
+      "adversarialPath": "국편 10/24 전사 제2조 2회 vs 법제처 제391호 제3조 참조",
+      "result": "EXPLICIT_TEXTUAL_CONFLICT",
+      "status": "CONFLICTED",
+      "originalTargetNeeded": true,
+      "externalSearchExecuted": true,
+      "notes": "2026-10-27 별도 한국어·영어/공식 원문 검색 시도. 검색결과가 원문을 대체하지 않음."
+    },
+    {
+      "id": "ADV198-04",
+      "claim": "1950 대한청년단 김윤근과 1961 해병 김윤근 동일인",
+      "adversarialPath": "1950 10/25·30 동시대 신문 vs 기존 1961 군 지휘관 registry",
+      "result": "IDENTITY_MERGE_REJECTED_UNTIL_SOURCE",
+      "status": "OPEN",
+      "originalTargetNeeded": true,
+      "externalSearchExecuted": true,
+      "notes": "2026-10-27 별도 한국어·영어/공식 원문 검색 시도. 검색결과가 원문을 대체하지 않음."
+    },
+    {
+      "id": "ADV198-05",
+      "claim": "서울시 귀속사업체 공고 단기4282년 vs 1950",
+      "adversarialPath": "1950 10/25 서울시 공고 제1호 전사 vs 국편 1950 사건일",
+      "result": "EXPLICIT_DATE_CONFLICT",
+      "status": "CONFLICTED",
+      "originalTargetNeeded": true,
+      "externalSearchExecuted": true,
+      "notes": "2026-10-27 별도 한국어·영어/공식 원문 검색 시도. 검색결과가 원문을 대체하지 않음."
+    },
+    {
+      "id": "ADV198-06",
+      "claim": "국군 8사단 작전명령 10/25 vs 8/28 부대복귀",
+      "adversarialPath": "작명80 전사 본문과 명령 발행시각 대조",
+      "result": "EXPLICIT_DATE_CONFLICT",
+      "status": "CONFLICTED",
+      "originalTargetNeeded": true,
+      "externalSearchExecuted": true,
+      "notes": "2026-10-27 별도 한국어·영어/공식 원문 검색 시도. 검색결과가 원문을 대체하지 않음."
+    },
+    {
+      "id": "ADV198-07",
+      "claim": "이승만 북한 민정권 주장 vs 유엔 결의 협력",
+      "adversarialPath": "10/23 UP 인터뷰 vs 10/30 대통령 담화 vs 10/30 미대사관 보고",
+      "result": "TIME_SERIES_DISAMBIGUATION",
+      "status": "NARROWED",
+      "originalTargetNeeded": true,
+      "externalSearchExecuted": true,
+      "notes": "2026-10-27 별도 한국어·영어/공식 원문 검색 시도. 검색결과가 원문을 대체하지 않음."
+    },
+    {
+      "id": "ADV198-08",
+      "claim": "중국군 참전 미정보기관 판단",
+      "adversarialPath": "CIA 10/27·30 정보평가 vs 미대사관 10/29 포로보고 vs CIA 해제 원문203",
+      "result": "CONTEMPORANEOUS_COUNTER_EVIDENCE",
+      "status": "NARROWED",
+      "originalTargetNeeded": true,
+      "externalSearchExecuted": true,
+      "notes": "2026-10-27 별도 한국어·영어/공식 원문 검색 시도. 검색결과가 원문을 대체하지 않음."
+    },
+    {
+      "id": "ADV198-09",
+      "claim": "10/25 평양 대통령 환영회와 10/29 실제 방문",
+      "adversarialPath": "10/25 대통령 불참 보도 vs 10/29 실제 방문 원보도",
+      "result": "TWO_EVENTS_NOT_CONFLICT",
+      "status": "SUPPORTED",
+      "originalTargetNeeded": true,
+      "externalSearchExecuted": true,
+      "notes": "2026-10-27 별도 한국어·영어/공식 원문 검색 시도. 검색결과가 원문을 대체하지 않음."
+    },
+    {
+      "id": "ADV198-10",
+      "claim": "10/27 평양동포 연설문과 10/29 방문 시차",
+      "adversarialPath": "국편 10/27 분류 연설문 vs 10/29 방문일",
+      "result": "POSSIBLE_INDEX_VS_SPEECH_DATE",
+      "status": "CONFLICTED",
+      "originalTargetNeeded": true,
+      "externalSearchExecuted": true,
+      "notes": "2026-10-27 별도 한국어·영어/공식 원문 검색 시도. 검색결과가 원문을 대체하지 않음."
+    },
+    {
+      "id": "ADV198-11",
+      "claim": "국회 10/28 66명 출석은 법안 부결인가",
+      "adversarialPath": "경향신문 유회 원문 vs 국회 의사정족수·표결 분리",
+      "result": "DISPROVES_EQUIVALENCE",
+      "status": "NARROWED",
+      "originalTargetNeeded": true,
+      "externalSearchExecuted": true,
+      "notes": "2026-10-27 별도 한국어·영어/공식 원문 검색 시도. 검색결과가 원문을 대체하지 않음."
+    },
+    {
+      "id": "ADV198-12",
+      "claim": "제5회 추경 2257억은 확정예산인가",
+      "adversarialPath": "정부 제출 기사 vs 10/31 최순주 지방장관회의 예산 언급",
+      "result": "DISPROVES_FINAL_BUDGET_INFERENCE",
+      "status": "NARROWED",
+      "originalTargetNeeded": true,
+      "externalSearchExecuted": true,
+      "notes": "2026-10-27 별도 한국어·영어/공식 원문 검색 시도. 검색결과가 원문을 대체하지 않음."
+    }
+  ],
+  "crossProvenance": [
+    {
+      "id": "X198-01",
+      "topic": "구권교환 법적효력·공고 날짜",
+      "families": [
+        "대한민국 법제처 공식 법령 제391호",
+        "재무부 장관/차관 동시대 발언 전사",
+        "한국은행 독립 기관 공고 동시대 전사"
+      ],
+      "documentIds": [
+        "doc-r198-law-391-official",
+        "doc-r198-1024-0080",
+        "doc-r198-1025-0070",
+        "doc-r198-1027-0090"
+      ],
+      "finding": "10/24 시행·11/3 금지 근거는 공식 법령과 재무부 고시에서 일치; 한국은행 기사 1월3일 충돌 보존",
+      "strength": "THREE_PRODUCING_INSTITUTIONS_BUT_BANK_ORIGINAL_FACSIMILE_NOT_VIEWED"
+    },
+    {
+      "id": "X198-02",
+      "topic": "중국군 포로와 정규군 개입 평가",
+      "families": [
+        "CIA 원문 10/30",
+        "미 국무부 주한대사관 전문 번역",
+        "미8군 포로 보고(대사관/정보기관에 인용)"
+      ],
+      "documentIds": [
+        "doc-r198-cia-19501030-original",
+        "doc-r198-1029-0010",
+        "doc-r198-1030-0010",
+        "doc-r198-1030-0020"
+      ],
+      "finding": "포로 존재는 보고됐으나 CIA의 정규군 개입 미확인 판단과 당시 정보 시차를 분리",
+      "strength": "MULTI_AGENCY_BUT_SHARED_EIGHTH_ARMY_UNDERLYING_REPORT; NOT_THREE_FULLY_INDEPENDENT_FACTS"
+    },
+    {
+      "id": "X198-03",
+      "topic": "이승만 북한민정 권한·UN협력",
+      "families": [
+        "이승만 10/30 직접 성명 신문전사",
+        "미 국무부 드럼라이트 외교전문",
+        "CIA/주한미대사관 북한 민정 현장 평가"
+      ],
+      "documentIds": [
+        "doc-r198-1030-0040",
+        "doc-r198-1030-0030",
+        "doc-r198-1030-0020",
+        "doc-r198-1023-0050"
+      ],
+      "finding": "10/23 강한 실효통치 주장→10/30 UN 결의 협력 선언. 실제 군정 인사권은 별도",
+      "strength": "THREE_PRODUCING_GENRES_WITH_EMBASSY_CIA_DEPENDENCE; PARTIAL_INDEPENDENCE"
+    }
+  ],
+  "trackedOldLeads": [
+    {
+      "id": "L166-63",
+      "status": "NARROWED",
+      "progress": "10/25 농림부 520만석 수집 계획·200만석 지가상환미·140만석 현물세·180만석 현찰 매상 재확인. 국회 인준은 기사상 미완.",
+      "evidenceDocumentIds": [
+        "doc-r198-1025-0100"
+      ],
+      "nextOriginalTarget": "국회 10/25~11월 원속기록·매상원장",
+      "reviewDate": "2026-10-27",
+      "weeklyFullReview": false
+    },
+    {
+      "id": "L166-64",
+      "status": "OPEN",
+      "progress": "10/25 520만석 계획 반복, 실제 경기 15만석 수매·인천 6000t 하역 원부 미확보.",
+      "evidenceDocumentIds": [
+        "doc-r198-1025-0100"
+      ],
+      "nextOriginalTarget": "경기도 수매원장·인천항 양곡하역원부",
+      "reviewDate": "2026-10-27",
+      "weeklyFullReview": false
+    },
+    {
+      "id": "L166-65",
+      "status": "NARROWED",
+      "progress": "10/28 윤영선 농지개혁 계속·불법 소작료 징수 금지 재강조, 법집행 증거와 별개.",
+      "evidenceDocumentIds": [
+        "doc-r198-1028-0050"
+      ],
+      "nextOriginalTarget": "농림부 농지개혁 원결재·지주 징수 처분원부",
+      "reviewDate": "2026-10-27",
+      "weeklyFullReview": false
+    },
+    {
+      "id": "L166-66",
+      "status": "NARROWED",
+      "progress": "10/25 CIA는 평양시장의 몰수토지 원소유주 환원 주장 전언. 북한 점령지 정책 명령 아님.",
+      "evidenceDocumentIds": [
+        "doc-r198-1025-0020"
+      ],
+      "nextOriginalTarget": "미8군 민정 토지명령·평양시정위원회 토지행정 대장",
+      "reviewDate": "2026-10-27",
+      "weeklyFullReview": false
+    },
+    {
+      "id": "L166-79",
+      "status": "OPEN",
+      "progress": "10/28 농림부 계속 담화 추가 확인, 10/19·21 CIA 상반 보고의 원수신시간 여전히 미확보.",
+      "evidenceDocumentIds": [
+        "doc-r198-1028-0050"
+      ],
+      "nextOriginalTarget": "CIA Daily Summary 원면·주한미대사관 농지 전문",
+      "reviewDate": "2026-10-27",
+      "weeklyFullReview": false
+    },
+    {
+      "id": "L166-80",
+      "status": "OPEN",
+      "progress": "10/28 농림장관 입장과 10/25 계획 확인, 내각 연기·재개 결재 원문 없음.",
+      "evidenceDocumentIds": [
+        "doc-r198-1028-0050"
+      ],
+      "nextOriginalTarget": "국무회의 1950-10-18~28 의사록",
+      "reviewDate": "2026-10-27",
+      "weeklyFullReview": false
+    },
+    {
+      "id": "L166-92",
+      "status": "NARROWED",
+      "progress": "10/25 평양 시장 CIA 관찰·10/30 미대사관 12인 행정평가 추가, 20/21/22 임명일 미해결.",
+      "evidenceDocumentIds": [
+        "doc-r198-1030-0020"
+      ],
+      "nextOriginalTarget": "밀번 평양시정위원회 임명포고 원면",
+      "reviewDate": "2026-10-27",
+      "weeklyFullReview": false
+    },
+    {
+      "id": "L166-100",
+      "status": "NARROWED",
+      "progress": "10/25 ECOSOC 5원칙·10/26 미호주안·10/30 설치조항 가결 보도 확인, E/SR.421/422 원문 미열람.",
+      "evidenceDocumentIds": [
+        "doc-r198-1031-0010"
+      ],
+      "nextOriginalTarget": "ECOSOC E/SR.421/422 및 10/30 회의 원속기록",
+      "reviewDate": "2026-10-27",
+      "weeklyFullReview": false
+    },
+    {
+      "id": "L166-103",
+      "status": "NARROWED",
+      "progress": "10/30 이승만 376(V) 협력 발표와 미국 외교관 반응 비교, 북한 구정당원 공직배제 지침 충돌 미해결.",
+      "evidenceDocumentIds": [
+        "doc-r198-1030-0040"
+      ],
+      "nextOriginalTarget": "미8군 민정명령26A 승인원본",
+      "reviewDate": "2026-10-27",
+      "weeklyFullReview": false
+    },
+    {
+      "id": "L166-105",
+      "status": "NARROWED",
+      "progress": "10/30 CIA 미대사관 평양시정 12인 역량 부족 평가, 실제 후보 3배수 임명 절차 미확인.",
+      "evidenceDocumentIds": [
+        "doc-r198-1030-0020"
+      ],
+      "nextOriginalTarget": "UN군 민정인사 3배수 추천·임명원부",
+      "reviewDate": "2026-10-27",
+      "weeklyFullReview": false
+    },
+    {
+      "id": "L166-106",
+      "status": "NARROWED",
+      "progress": "10/22 맥아더 수풍댐 공개성명 유보 번역 확보, 현상유지 전력배분 집행 미확인.",
+      "evidenceDocumentIds": [
+        "doc-r198-1022-0010"
+      ],
+      "nextOriginalTarget": "FRUS d702 원전보·전력배분 실제 지시",
+      "reviewDate": "2026-10-27",
+      "weeklyFullReview": false
+    },
+    {
+      "id": "L167-08",
+      "status": "NARROWED",
+      "progress": "10/30 이승만 공개담화의 한국어 전문을 동시대 경향신문 전사로 확인, 공보처 원발표문은 미확보.",
+      "evidenceDocumentIds": [
+        "doc-r198-1030-0040"
+      ],
+      "nextOriginalTarget": "공보처 1950-10-30 성명 원면",
+      "reviewDate": "2026-10-27",
+      "weeklyFullReview": false
+    },
+    {
+      "id": "L167-09",
+      "status": "NARROWED",
+      "progress": "10/23 UP 인터뷰 한글 전사 두 경로를 확인, 원 U.S. News & World Report 녹취 미확보.",
+      "evidenceDocumentIds": [
+        "doc-r198-1023-0050"
+      ],
+      "nextOriginalTarget": "US News 1950-10-23 인터뷰 원지면",
+      "reviewDate": "2026-10-27",
+      "weeklyFullReview": false
+    },
+    {
+      "id": "L167-23",
+      "status": "NARROWED",
+      "progress": "10/24 국편 재무부 담화에 긴급명령10 전문 재수록, 법제처 대통령령391 원문 확보; 긴급명령10 원관보 미확보.",
+      "evidenceDocumentIds": [
+        "doc-r198-1024-0080"
+      ],
+      "nextOriginalTarget": "1950-08-28 긴급명령10 원관보",
+      "reviewDate": "2026-10-27",
+      "weeklyFullReview": false
+    },
+    {
+      "id": "L167-25",
+      "status": "NARROWED",
+      "progress": "10/27 재무차관 교환·예금 설명 확보, 10/25~11/3 교환 실적표 미확보.",
+      "evidenceDocumentIds": [
+        "doc-r198-1027-0090"
+      ],
+      "nextOriginalTarget": "한국은행 1950-10/11 교환실적 원장",
+      "reviewDate": "2026-10-27",
+      "weeklyFullReview": false
+    }
+  ],
+  "updatedFiles": [
+    "data/documents/run198-oct22-31-contemporary.json",
+    "data/events/run198-oct22-31-state-actions.json",
+    "data/claims/run198-october-adversarial.json",
+    "data/politicians/run198-october-actor-network.json",
+    "data/evidence/rhee/run198-october-governance.json",
+    "data/annals/rhee-syngman-run198.md",
+    "data/annals/nonpresidential-october-run198.md",
+    "data/politicians.json",
+    "data/events.json",
+    "data/politicians/INDEX.md",
+    "data/organizations/run198-october-institutions.json",
+    "data/research/lead-queues/run198-next.json",
+    "data/research/history-debt/run198-corrections.md",
+    "data/research/HISTORY_DEBT.md",
+    "data/research/rhee-syngman-coverage-run198.json",
+    "data/research/runs/2026-10-27-run198-report.md",
+    "data/research/runs/2026-10-27-run198-ledger.json",
+    "data/research/ACTIVE_RESEARCH_HANDOFF.json"
+  ],
+  "commitsAlreadyCreated": [
+    "a2755d56e2e0c24482bec1421f4b9d37209b1426",
+    "1dce5031e72610f09f7026e0de5a3796d3ca8168"
+  ],
+  "closingCommit": "RESOLVE_FROM_CURRENT_BRANCH_HEAD",
+  "flootModified": false,
+  "weeklyFullReviewPerformed": false,
+  "weeklyStatement": "역사부채 주간 전수조사 미실시"
+}
