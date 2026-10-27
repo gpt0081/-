@@ -2296,3 +2296,5 @@ data/research/history-debt/run205e-may22.md의 HD-R205E-01~11 참조. 법률 제
 - `HD-R209-24` NARROWED: FRUS d393 영문 참가자명단에서 한표욱(Pyo Wook Han) 주미대사관 1등서기관 참석 확인. 6/12 서한 본문·한자·생몰 미확보.
 - `HD-R209-25` OPEN: 6/30 한국정부 정전 5개항 양유찬 대사 전달 서한 첨부는 FRUS d393에서 'Not printed'. RG59 795.00/6-3051 원첨부 필요.
 후속: `data/research/lead-queues/run209-next.json` (91개). 역사부채 주간 전수조사 미실시, `last_full_review` 변경 없음.
+
+- `HD-R209-26` **CONFLICTED_SCOPE** (2026-10-28): 1951-07-01 신문 CAC 사무권한 UNKRA 완전포섭 보도 vs 유엔군사령부 공식 후대 연혁 UNCACK 구호조직 1953-09까지 지속. CAC/UNCACK/UNKRA 기관 동일성·업무이관 범위·UNSC S/RES/85(1950) 원면 미확보. 1950년 안보리 결의82·83·84 원문은 FRUS 전재로 확인, Feller 1951 법률의견과 구분. `data/research/history-debt/run209-addendum.md` 참조. 역사부채 주간 전수조사 미실시.
