@@ -189,3 +189,15 @@ Run210 후속 확장: 최초 48개 원문 이후 FRUS 7/8~11 9개 추가 직접 
 주간 역사부채 전수조사는 일요일 Asia/Seoul 첫 실행에서만 시행한다. **2026-10-28 수요일: 역사부채 주간 전수조사 미실시.**
 
 Run211 법제처 후속 확인: 국민의료법은 1951-09-25 법률 제221호로 공포되어 1951-12-25 시행되었다. 7월 심의 단계와 공포·시행을 혼동하지 않는다. 공식 법령 메타데이터는 본문 237개에 추가 계상하지 않았다.
+
+
+## Run212 (2026-10-28) · 1951년 8월 전시 행정·헌정·정전과 독립 정치인 네트워크
+
+[연구 보고](data/research/runs/2026-10-28-run212-report.md) · [검증 ledger](data/research/runs/2026-10-28-run212-ledger.json) · [원문표적 40개](data/research/lead-queues/run212-next.json) · [22명 정치인](data/politicians/run212-august-constitutional-reform-actor-network.json) · [22개 사건](data/events/run212-august01-10-actions.json) · [22개 반증 명제](data/claims/run212-august-adversarial-audit.json).
+
+국편 1951-08-01~10 직접 확인 본문 91건과 FRUS 1951 VII/1 d481~520 공식 편집원문 40건을 원자료 링크로 구조화했다. 8/3 헌법위원회 국회·대법관측 10인, 8/9 법사위 정부조직개편 제안자 5인, 재정·교육·입법·군지휘·국제구호·포로정책의 결정단계를 분리했다. 법률213·219·224의 국회 심의·공포·시행 날짜를 공식 연혁과 대조했으며, 법률224 공포일 11/7 vs 11/17은 원관보 확인 전까지 CONFLICTED로 보존한다. [이승만 시대 실록](data/annals/1951-august-institutions-armistice-run212.md)과 [비대통령 인물 실록](data/annals/politicians-1951-constitutional-committee-reform-run212.md)을 분리한다. **역사부채 주간 전수조사 미실시**.
+
+
+### Run212 8/11~15 추가 대량채굴
+
+[국편 40건 추가](data/documents/run212-aug11-15-source-addendum.json), [전시 계엄·산업·정당 후속 실록](data/annals/1951-august11-15-governance-conflicts-run212.md). 최종 직접 확인 본문 171개 URL(국편131, FRUS40), 비대통령 36명, 신규 candidate 11명, 사건 38개, 반증 38개, 후속 원문 표적 55개. 8/11 국무원공고 제18·19호의 같은 시각 비상계엄 해제·경비계엄 선포, 백선엽 8/3 서한의 이승만 계속참석 지시, 김종원 증언 시인·부인 충돌, 조폐공사법 국회 통과·공포일 구분을 추가했다. [최종 보고](data/research/runs/2026-10-28-run212-report.md).
