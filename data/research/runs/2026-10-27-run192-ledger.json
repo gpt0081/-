@@ -3,27 +3,27 @@
   "date": "2026-10-27",
   "timezone": "Asia/Seoul",
   "startedAt": "2026-10-27T11:20:14+09:00",
-  "reportedAt": "2026-10-27T02:41:42.650Z",
-  "elapsedMinutesAtReport": 21,
+  "reportedAt": "2026-10-27T02:44:26.641Z",
+  "elapsedMinutesAtReport": 24,
   "hourClaim": false,
   "metrics": {
-    "independentResearchLines": 43,
-    "governmentDomainsStrengthened": 22,
+    "independentResearchLines": 48,
+    "governmentDomainsStrengthened": 24,
     "nonPresidentialPoliticiansDeepened": 13,
     "presidentsDeepened": 1,
-    "newOrStrengthenedEvents": 44,
-    "uniqueSubstantiveDocumentsOpened": 80,
-    "officialOrContemporaneousTextsOpened": 75,
+    "newOrStrengthenedEvents": 48,
+    "uniqueSubstantiveDocumentsOpened": 85,
+    "officialOrContemporaneousTextsOpened": 78,
     "originalFacsimilesRead": 0,
-    "adversarialComparisonAxes": 20,
-    "independentAdversarialSearchesCompleted": 8,
+    "adversarialComparisonAxes": 22,
+    "independentAdversarialSearchesCompleted": 10,
     "existingOpenLeadsTracked": 11,
-    "concreteNewLeads": 74,
+    "concreteNewLeads": 84,
     "partialCrossProvenanceBundles": 3,
     "fullThreeOriginalFamilyCrossChecks": 3,
-    "newDocumentsRegistered": 82,
-    "newClaims": 44,
-    "newHistoryDebts": 13
+    "newDocumentsRegistered": 88,
+    "newClaims": 49,
+    "newHistoryDebts": 15
   },
   "verifiedDocuments": [
     "FRUS 1950 VII d79-d94,d96-d109,d119",
@@ -45,7 +45,13 @@
     "UN A/1350 original full 1950-09 report",
     "FRUS VII d187-192,d194-197 (10 original docs)",
     "AKS E0009185 Kim Baek-il",
-    "Gangwon Police official past chiefs roster"
+    "Gangwon Police official past chiefs roster",
+    "1950 Law108 original amendment law.go.kr",
+    "1949 Law31 metadata only not substantive",
+    "AKS E0080662 land reform law history",
+    "National Archives land reform official policy timeline",
+    "NIKH Korean History land reform explainer",
+    "Prime Minister Office historical PM roster"
   ],
   "blocked": [
     "UN S/1509 original PDF 403",
@@ -62,7 +68,8 @@
     "0be5972505203972d5712defbfbd7e0d5d09e60d",
     "2e31f7ea7648a9bbc8a5efdbdd62bfce56c3103f",
     "e42139bb3bf4c122b9659bcbf1a10e41ba301c3b",
-    "0d9a780484f5dba7d651bae4a4c63b203a31e561"
+    "0d9a780484f5dba7d651bae4a4c63b203a31e561",
+    "9ed367f38807df71441b710f6360efd317265499"
   ],
   "researchStatus": "INCOMPLETE_TARGETS_HONESTLY_RECORDED",
   "pullRequest": {
@@ -287,6 +294,114 @@
       "id": "RL192-43",
       "topic": "1950 July2 인도 대사 소련 교섭",
       "documentId": "doc192-frus1950v07-d197"
+    },
+    {
+      "id": "RL192-44",
+      "topic": "농지개혁법 1949 법31과 1950 법108 상환액 버전",
+      "documentId": "doc192-law1950-108"
+    },
+    {
+      "id": "RL192-45",
+      "topic": "1949 농지개혁법 정부 소멸통고·국회 절차 갈등",
+      "documentId": "doc192-aks-land-reform-law"
+    },
+    {
+      "id": "RL192-46",
+      "topic": "1950 농지분배 착수·진행 시점 차이",
+      "documentId": "doc192-nara-land-reform"
+    },
+    {
+      "id": "RL192-47",
+      "topic": "1950 총리서리 공식 재임과 절차 논쟁",
+      "documentId": "doc192-opm-pm-roster"
+    },
+    {
+      "id": "RL192-48",
+      "topic": "1951 분배완료 vs 1969 상환완료 구분",
+      "documentId": "doc192-nikh-land-reform"
+    }
+  ],
+  "adversarialSearches": [
+    {
+      "axis": "1950-06-27 Seoul premature capture",
+      "sources": [
+        "doc192-frus1950v07-d109",
+        "doc192-uk-hansard-27a"
+      ],
+      "result": "CORRECTED_CONTEMPORANEOUS_ERROR"
+    },
+    {
+      "axis": "India/Egypt vote not anti-US",
+      "sources": [
+        "doc192-un-sc83-meeting",
+        "doc192-frus1950v07-d122",
+        "doc192-frus1950v07-d142"
+      ],
+      "result": "COUNTER_INTERPRETATION_FOUND"
+    },
+    {
+      "axis": "Yugoslav draft S1500/S1509",
+      "sources": [
+        "doc192-un-sc82-yugoslav-draft",
+        "doc192-un-sc83-meeting",
+        "doc192-frus1950v07-d135"
+      ],
+      "result": "OPPOSING_PROPOSALS_ORIGINAL_READ"
+    },
+    {
+      "axis": "DPRK S1527 counterclaim",
+      "sources": [
+        "doc192-un-dprk-response",
+        "doc192-un-sc83-meeting"
+      ],
+      "result": "OPPOSING_PARTY_ORIGINAL_READ_NOT_EQUATED_WITH_FACT"
+    },
+    {
+      "axis": "Soviet Malik UNSC legal challenge",
+      "sources": [
+        "doc192-frus1950v07-d127",
+        "doc192-un-sc83-meeting"
+      ],
+      "result": "ATTRIBUTED_STATE_CLAIM"
+    },
+    {
+      "axis": "UK House Commons S O Davies dissent",
+      "sources": [
+        "doc192-uk-hansard-0705",
+        "doc192-uk-hansard-28"
+      ],
+      "result": "PARLIAMENTARY_DISSENT_READ"
+    },
+    {
+      "axis": "Shin delegation vs direct bridge order",
+      "sources": [
+        "doc192-frus1950v07-d101"
+      ],
+      "result": "SECONDHAND_DELEGATION_DIRECT_ORDER_NOT_FOUND"
+    },
+    {
+      "axis": "1950 May10 warning vs no warning",
+      "sources": [
+        "doc192-un-a1350",
+        "doc192-frus1950v07-d82"
+      ],
+      "result": "WARNING_FOUND_DATE_SPECIFIC_PREDICTION_NOT_FOUND"
+    },
+    {
+      "axis": "1949-50 assembly budget vs government",
+      "sources": [
+        "doc192-un-a1350"
+      ],
+      "result": "LEGISLATIVE_COUNTER_POSITION_READ_ORIGINAL_MINUTES_PENDING"
+    },
+    {
+      "axis": "1949 law125 vs 1950 law150",
+      "sources": [
+        "doc192-un-a1350",
+        "doc192-law1950-108",
+        "doc192-aks-land-reform-law"
+      ],
+      "result": "VERSIONED_LAW_RECONCILED"
     }
   ]
 }
