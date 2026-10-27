@@ -1,17 +1,17 @@
 {
   "updated": "2026-10-27",
   "project": "대한민국 역대 정치인 실록",
-  "branchRef": "refs/heads/research/run198-20261027-oct18-21-adversarial-governance",
+  "branchRef": "refs/heads/research/run200-20261027-nov21-29-diplomacy",
   "branchHeadResolution": "READ_LIVE_REF_NOT_CACHED_SHA",
-  "lastCompletedRun": 198,
-  "latestRunReport": "data/research/runs/2026-10-27-run198b-addendum.md",
-  "latestLeadQueue": "data/research/lead-queues/run198-next.json",
-  "latestDocumentRegistry": "data/documents/run198b-nov1-7-contemporary.json",
-  "latestEventOverlay": "data/events/run198b-nov1-7-governance.json",
-  "latestClaimOverlay": "data/claims/run198b-nov-translation-corrections.json",
-  "latestPoliticianOverlay": "data/politicians/run198b-nov-actor-network.json",
+  "lastCompletedRun": 200,
+  "latestRunReport": "data/research/runs/2026-10-27-run200-report.md",
+  "latestLeadQueue": "data/research/lead-queues/run200b-next.json",
+  "latestDocumentRegistry": "data/documents/run200b-nov22-29-korean-sources.json",
+  "latestEventOverlay": "data/events/run200b-korean-governance.json",
+  "latestClaimOverlay": "data/claims/run200b-korean-adversarial.json",
+  "latestPoliticianOverlay": "data/politicians/run200b-korean-actor-deepening.json",
   "latestDebtAddenda": "data/research/debt-addenda/run178.md",
-  "latestAnnals": "data/annals/rhee-syngman-run198b.md",
+  "latestAnnals": "data/annals/nonpresidential-run200b.md",
   "next": [
     "L193-01",
     "L193-02",
@@ -37,11 +37,12 @@
     "data/research/runs/2026-10-09-run110f-ledger.json"
   ],
   "latestCoverageOverlays": [
+    "data/research/coverage/run200.json",
     "data/research/coverage/run193.json",
     "data/research/coverage/run178.json"
   ],
-  "latestRun": 193,
-  "latestRunLedger": "data/research/runs/2026-10-27-run198b-ledger.json",
+  "latestRun": 200,
+  "latestRunLedger": "data/research/runs/2026-10-27-run200-ledger.json",
   "latestLeadAddendum": "data/research/lead-queues/run115-addendum.json",
   "latestFinalAddendum": "data/research/runs/2026-10-09-run115-final-addendum.json",
   "latestLeadFinalAddendum": "data/research/lead-queues/run115-press-addendum.json",
@@ -307,5 +308,21 @@
     "newCandidates": 8,
     "translationCorrection": "FRUS d746 Paek Nak-jun mistranslated as Paek Du-jin",
     "weeklyFullReview": false
+  },
+  "latestRun200": {
+    "branch": "research/run200-20261027-nov21-29-diplomacy",
+    "commits": [
+      "0ccf78c35f17166d9d9f288bb0e34ab0b3878871",
+      "ad32bfce7132549672707249d32c623194bee294",
+      "SEE_NEXT_COMMIT"
+    ],
+    "documentsDistinct": 105,
+    "actorsDeepened": 19,
+    "newCandidates": 7,
+    "events": 51,
+    "claims": 28,
+    "leadQueue": "data/research/lead-queues/run200b-next.json",
+    "canonicalPoliticiansUpdated": true,
+    "canonicalEventsOverlayOnly": true
   }
 }

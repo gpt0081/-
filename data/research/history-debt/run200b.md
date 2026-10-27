@@ -11,3 +11,5 @@
 - HD-R200B-09 **OPEN**: 1950-11-26 rice notice '54㎞' printed unit; kg assumption needs original notice. dh_019_1950_11_26_0060.
 
 Weekly history-debt full review not conducted; last_full_review unchanged.
+
+- HD-R200B-10 **CONFLICTED_IDENTITY**: 1950-11-25 국회 재정경제위원장 金秀學 (NIKH dh_019_1950_11_26_0040) vs preexisting pol-r164-kim-su-hak alias 金洙鶴. Do not merge until 국회 인명록·원속기록.
