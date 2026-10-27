@@ -82,19 +82,19 @@
       "accessDate": "2026-10-28"
     },
     {
-      "id": "pol-r149-cabinet-07",
+      "id": "cand-r213-kim-il-hwan-1951-defense",
       "name": "김일환",
       "aliases": [
-        "金一煥",
-        "Kim Il-hwan"
+        "Kim Il-hwan",
+        "金一煥 (漢字 未確認, 사용 금지)"
       ],
       "lifespan": {
         "born": null,
         "died": null,
-        "status": "UNVERIFIED"
+        "verification": "NOT_VERIFIED; do not merge with 1959 minister without independent appointment records"
       },
-      "birthDeathVerification": "NOT_RECHECKED_THIS_RUN",
-      "researchStatus": "VERIFIED",
+      "birthDeathVerification": "UNVERIFIED_IDENTITY_DISTINCT_FROM_pol-r149-cabinet-07",
+      "researchStatus": "DISCOVERED",
       "periodRoles": [
         {
           "period": "1951-08-21",
@@ -114,10 +114,13 @@
       "linkedEventIds": [
         "evt-r213-02"
       ],
-      "openLead": "국방부 기자회견 속기·체포명령 원문",
+      "openLead": "국방부 1951-08-21 국방부차관 인사원부와 1959-03 교통부장관 김일환 인사원부를 비교해 동일인 여부 확인",
       "historyDebtIds": [],
-      "promotion": "NO_PROMOTION_THIS_RUN; individual authority not inferred from institutional policy",
-      "accessDate": "2026-10-28"
+      "promotion": "CANDIDATE_ONLY; same-name identity conflation proactively prevented",
+      "accessDate": "2026-10-28",
+      "possibleSameAs": [
+        "pol-r149-cabinet-07"
+      ]
     },
     {
       "id": "pol-r164-kim-jong-won",
@@ -432,5 +435,15 @@
       "accessDate": "2026-10-28"
     }
   ],
-  "identityGuardrail": "No birth/death or personal command inferred from a shared name, an institution's act, or a contemporaneous allegation."
+  "identityGuardrail": "No birth/death or personal command inferred from a shared name, an institution's act, or a contemporaneous allegation.",
+  "newCandidateIds": 1,
+  "correctionHistory": [
+    {
+      "date": "2026-10-28",
+      "reason": "Earlier overlay provisionally reused 1959 minister ID for 1951 deputy defense minister based only on name; separated as candidate to prevent identity conflation.",
+      "oldId": "pol-r149-cabinet-07",
+      "newId": "cand-r213-kim-il-hwan-1951-defense",
+      "source": "doc-r213-dh-1951-08-21-0100"
+    }
+  ]
 }
