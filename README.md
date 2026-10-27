@@ -208,3 +208,9 @@ Run211 법제처 후속 확인: 국민의료법은 1951-09-25 법률 제221호�
 
 ### Run213 후반: 1951년 8월25~31일 신당·국정·경제 대량채굴
 [최종 보고](data/research/runs/2026-10-28-run213-final-report.md) · [누적 107문서 실행원장](data/research/runs/2026-10-28-run213-final-ledger.json) · [추가 36문서](data/documents/run213-aug25-31-addendum.json) · [추가 27사건](data/events/run213-aug25-31-actions.json) · [추가 21반증](data/claims/run213-aug25-31-adversarial.json) · [통합 72개 원문 표적](data/research/lead-queues/run213-final-next.json). 이승만 8/25 신당 후원·실무비개입 발언, 부산일보 8/17 준비회합, 미국 대사관의 이범석 주도 보고를 **서로 다른 세 출처계열로 대조**했으나 지휘관계 미확정. 8/29 정부조직법 1독회 지속·전시 재정·주택·노동·교육·피난민·농정도 보강. Floot 미변경.
+
+## Run214 · 1951년 9월 국정·정당·재정·정전협상
+
+[조사보고](data/research/runs/2026-10-28-run214-report.md) · [49개 본문](data/documents/run214-sep19-oct02-sources.json) · [20개 사건](data/events/run214-september-actions.json) · [16개 주장 반증](data/claims/run214-september-adversarial.json) · [정치인 9명 근거 심화](data/politicians/run214-september-actors.json) · [41개 원문 표적](data/research/lead-queues/run214-next.json). 1951년 9월 조민당 당론 의혹/부결 해명, 대秘指內55 전재민 분산 지시, 경북 토지수득세 회의, 원화 유보계정 조건부 지급을 행위단계별로 기록. 미국 FRUS 40건은 단일 편집 출처계열. Floot 변경 없음.
+
+Run214 추가: [1951-09-18 정부조직법 개정안 국무회의 거부](data/annals/run214-1951-september-institutions.md), 50개 본문·21개 사건·17개 주장 문서반증·42개 후속 lead. 이전 집계 49/20/16/41은 이 추가 문서 이전의 수치.
