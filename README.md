@@ -17,6 +17,10 @@
 
 
 
+## Run202 · 1950년 12월 6~14일 한국전쟁 외교·전시행정 교차검증
+
+2026-10-27: [조사 보고](data/research/runs/2026-10-27-run202-report.md) · [고유 자료 56페이지](data/documents/run202-dec07-12-frus-korean-uk.json) · [20개 사건 overlay](data/events/run202-dec07-12-policy-actions.json) · [17개 반증 명제](data/claims/run202-dec07-12-adversarial.json) · [한국 정치인 ID 연결](data/politicians/run202-dec07-12-korean-actors.json) · [다음 42개 원문 표적](data/research/lead-queues/run202-next.json). 미국 FRUS 중심 자료편향·영국 의회/한국 동시대 신문 교차의 한계와 미검증 직접명령을 명시. Floot 변경 없음.
+
 ## Run199b · 11월 15~21일 법관·부역통계·농지개혁·전시재정 추가 대량채굴
 
 2026-10-27: [추가 보고](data/research/runs/2026-10-27-run199b-report.md) · [69개 추가 직접열람](data/documents/run199b-nov15-21-sources.json) · [50개 사건](data/events/run199b-nov15-21-actions.json) · [기존 14명/후보 6명](data/politicians/run199b-nov-actor-network.json) · [19개 주장·반증](data/claims/run199b-nov15-21-adversarial.json) · [51개 원문 표적](data/research/lead-queues/run199b-next.json). **내무부 검거 통계 55,509/55,909 및 송치·석방 합계 오류**, 부산서 범죄 발생379/377·검거141/265, 김태순/김태선 치안국장 신원충돌을 CONFLICTED/NARROWED로 보존. 1951 지가증권 국가기록원 후속 원문, FRUS d847·d864, 1950 도시계획과 실제 시공 구분. Floot 미변경.

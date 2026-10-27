@@ -274,3 +274,7 @@ See `data/politicians/run113-prewar-network.json` for 12 sourced profiles. No ca
 - 국편 신규 문서 87건, canonical 사건 36건 추가, 기존 비대통령 18명 보강, 신규 DISCOVERED 후보 8명. `data/politicians/run198b-nov-actor-network.json`.
 - **번역 교정**: `dh_019_1950_11_04_0060`은 George Paek를 백두진으로 번역했으나 FRUS d746 교육장관 각주와 경향신문 1950-11-03 白樂濬은 **백낙준**. claim-r198b-01에 양쪽 원문·교정 이력 보존.
 - **절차 구분**: 11/2 계엄해제 국회 요구, 11/7 새 경비계엄(11/10 시행), 11/3 총리인준 부결, 11/7 내각사임 건의 조건부 보류. 사건·주장·법적효력을 구분한다.
+
+## 2026-10-27 · Run202 한국인 행위자 증분 연결
+
+[run202 한국 정치인 기존 stable ID overlay](run202-dec07-12-korean-actors.json): 장면(`pol-chang-myon`)의 1950-12-11 정부 훈령 전언, 조병옥(`pol-cho-byeong-ok`)의 12-07 내무부 피난 관련 담화는 본문 직접 확인. 허정(`pol-r139-heo-jeong`)의 사회부 전시기구 개편은 날짜 색인만 확인되어 실질 심화 수에 미포함. 이기붕(`pol-yi-ki-pung`)과 무초 전문의 무명 서울시장 연결은 **잠정 신원추론**이며 새 승격 아님. `data/politicians.json` 원본 772KB는 이번 회차에서 변경하지 않았고 overlay 소비자 병합이 필요하다.
