@@ -62,3 +62,6 @@
 
 ### Pass235E 1953-01-29 국회 위원장 선거 보도 검증
 - `data/politicians/pass-235-addendum-e-committee-chairs.json`: 당선·낙선·후보 양보·민간어업 협의·불신임안 발의 관련 12명 잠정 노드. 1/20 후보명단과 2/1 선거보도 cross-link, 원개표표 검증 전 최종 승격 금지.
+
+### Pass235I 1953-03 금융·정당·내각 행위자
+- `data/politicians/pass-235-addendum-i-bok-party.json`: 김유택 한국은행총재와 원내 자유당 이동 계획·장택상 당내 논쟁 관련 9명 잠정 후보. 10명 주장 vs 실명9명 보존, 실제 입당 확인 전 승격 금지.
