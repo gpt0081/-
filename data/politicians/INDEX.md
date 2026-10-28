@@ -56,3 +56,6 @@
 
 ### Pass235B 국내 예산·문화외교 보강
 - `data/politicians/pass-235-addendum-b-culture-speaker-minister.json`: 신익희 1953 신년사, 이범석 중복 ID review, 이철원 공보처장 문화사절단. 신문상 사절단 3명은 정치인 자동승격하지 않음.
+
+### Pass235C 1953-02-17 통화개혁·진헌식·정일권·이형근
+- `data/politicians/pass-235-addendum-c-jin-chung-lee.json`: 진헌식 VERIFIED 근거 보강, 정일권 2군단장, 이형근 제1군단장 신규 후보. 이범석 직함 충돌은 history debt.

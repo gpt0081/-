@@ -1,0 +1,54 @@
+{
+  "pass": "235C",
+  "claims": [
+    {
+      "id": "CLM-P235C-CURRENCY-TRIPLE",
+      "statement": "환 신권 1953-02-17 부산 현장 실제 교환 시작",
+      "status": "SUPPORTED_WITH_SCOPE",
+      "supporting_evidence": [
+        "DOC-P235C-NIKH-02_17_0050",
+        "DOC-P235-BOK-1",
+        "DOC-P235-BOK-2"
+      ],
+      "contradicting_evidence": [
+        "FRUS-d406-editorial-date-2/26"
+      ],
+      "analysis": "한국은행 공식 2/17 + 동시대 동아일보 2/18 전사(2/17 지정은행 1·5·10·100환 지급·버스 구권 임시사용) 독립 일치. FRUS 편집주석 2/26은 별도 충돌로 유지."
+    },
+    {
+      "id": "CLM-P235C-INTERIOR-MINISTER",
+      "statement": "1953-02-17 이범석이 현직 내무부장관이었다",
+      "status": "CONFLICTED",
+      "supporting_evidence": [
+        "DOC-P235B-NIKH-02_17_0010"
+      ],
+      "contradicting_evidence": [
+        "DOC-P235C-NIKH-02_17_0050",
+        "DOC-P235C-AKS-JIN"
+      ],
+      "analysis": "미대사 보고는 이범석을 내무장관이라 지칭, 동시대 동아일보는 陳 내무장관 경고, AKS는 진헌식 1952·53 내무장관. 정확한 임면일 확인 전 어느 한쪽 문서 수정 금지."
+    },
+    {
+      "id": "CLM-P235C-ATOMIC-REQUEST",
+      "statement": "밴플리트가 한국전 원자포 사용을 공식 요청했다",
+      "status": "CONFLICTED",
+      "supporting_evidence": [
+        "DOC-P235C-NIKH-02_17_0040: 이전 Honolulu 보좌관 전언"
+      ],
+      "contradicting_evidence": [
+        "DOC-P235C-NIKH-02_17_0040: 미 육군 공식 부인"
+      ],
+      "analysis": "보좌관 전언과 미 육군 부인 동일 신문에 병기. 공식 건의문·의회증언 원문 미확보."
+    },
+    {
+      "id": "CLM-P235C-COURT-LAW",
+      "statement": "1953-02-18 부산 쌀 폭리 사건 징역8개월의 법적 근거는 1953 긴급명령13호 단독이다",
+      "status": "CONTRADICTED",
+      "supporting_evidence": [],
+      "contradicting_evidence": [
+        "DOC-P235C-NIKH-02_18_0030"
+      ],
+      "analysis": "신문은 법령19호 제3조 적용이라고 명시. 1953 통화개혁 시행 직후 재판이라는 시기와 법적 근거는 다름. 원판결·법령 원면 필요."
+    }
+  ]
+}

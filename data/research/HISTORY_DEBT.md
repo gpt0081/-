@@ -492,3 +492,13 @@
 - 상태: `OPEN`. data/politicians.json에 pol-lee-beom-seok 및 pol-lee-beom-seok-1900 두 노드가 동일 한자 李範奭·영문 Lee Beom-seok을 사용. 1953-02-17 브릭스 내무장관 언급은 한 인물로 보이나 생몰·관직·출처 일치 전 자동 병합하지 않음. correction/migration history 필요.
 - 출처: https://db.history.go.kr/contemp/level.do?levelId=dh_028_1953_02_17_0010
 > 2026-10-28 수요일 개별 역사부채 추가. 역사부채 주간 전수조사 미실시. last_full_review 불변.
+
+
+### HD-P235C-INTERIOR-MINISTER-1953-0217 · 이범석 vs 진헌식 내무장관 직함
+- 상태: `CONFLICTED` (2026-10-28 pass235C). 국편 1953-02-17 브릭스 미대사 보고 번역은 이범석 내무장관, 동아일보 2/18(2/17 현장) 전사는 '陳내무부장관' 물가경고. AKS 진헌식 인명록은 1952·53 내무부장관 재임. 국편 1952-05-24 이범석 내무장관 임명 보도는 이전 재임 확인. 1953-02-17 현직을 원관보로 확정할 때까지 미대사 보고 직함을 현재직으로 자동귀속하지 않음.
+- 출처: https://encykorea.aks.ac.kr/Article/E0055001 ; https://db.history.go.kr/contemp/level.do?levelId=dh_028_1953_02_17_0010 ; https://db.history.go.kr/contemp/level.do?levelId=dh_028_1953_02_17_0050 ; https://db.history.go.kr/contemp/level.do?levelId=dh_025_1952_05_24_0070
+### HD-P235C-VANFLEET-ATOMIC · 1953-02 밴플리트 원자포 권고 보도·부인
+- 상태: `CONFLICTED`. 부산일보 1953-02-19 전사: 호놀룰루 보좌관 전언으로 원자포 사용 권고 보도, 미 육군은 권고·요청 사실 부인. 원의회증언·육군 공보 원문 필요. https://db.history.go.kr/contemp/level.do?levelId=dh_028_1953_02_17_0040
+### HD-P235C-PROFITEERING-LAW · 1953-02-18 쌀 폭리 판결의 법령19호
+- 상태: `OPEN`. 부산일보 전사 법령19호 제3조 적용·징역8개월 선고. 긴급명령13호와 법적 근거 혼동 금지. 원판결·법령19호 원공포문 미확보. https://db.history.go.kr/contemp/level.do?levelId=dh_028_1953_02_18_0030
+> 2026-10-28 수요일 개별 부채 보강. 역사부채 주간 전수조사 미실시. last_full_review 불변.

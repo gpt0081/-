@@ -724,7 +724,8 @@
       "backbone": false,
       "connections": [
         "evt-1953-us-rok-mutual-defense-negotiation",
-        "evt-p235-general-promotions"
+        "evt-p235-general-promotions",
+        "evt-p235c-taylor-commanders"
       ],
       "researchNotes": "국가기록원 기관연혁에서 1952-07-23~1954-02-13 육군참모총장 재임 확인. 1953-08-06 경제·군사원조/한국군 회의 참가 및 1953-05 외무부의 기고문 전달 지시로 군사·외교 공론축 연결 확인.",
       "evidenceCoverage": [
@@ -1240,30 +1241,34 @@
       "roles": [
         "1952-09-18 내무부장관"
       ],
-      "researchStatus": "IDENTIFIED",
+      "researchStatus": "VERIFIED",
       "backbone": false,
       "connections": [
         "evt-p232-0918-interior-police",
         "evt-p232-0916-governors",
-        "evt-p234b-1211-jin-statement"
+        "evt-p234b-1211-jin-statement",
+        "evt-p235c-currency-market-controls"
       ],
       "evidenceFile": "data/politicians/pass-232-1952-september-actors.json",
       "openLeadsFile": "data/research/leads/pass-232-20261028-next-lead-queue.json",
       "researchNote": "2026-10-28 pass232 event-scoped identity; birth/death/appointment/party official originals pending",
       "lifespan": {
-        "born": null,
-        "died": null,
-        "verification": "not independently checked this pass"
+        "born": "1902",
+        "died": "1980"
       },
       "hanjaVerification": "CONFLICTED: dh_026_1952_09_18_0050 기사 제목 陣憲植, 본문 陳내무장관; dh_026_1952_09_18_0040 陳憲植. 공식 인사발령 원문 확인 전 canonical Hanja 잠정",
       "partyAffiliationEvidence": "unknown",
       "evidenceCoverage": [
-        "DOC-P234B-NIKH-1211-0040"
+        "DOC-P234B-NIKH-1211-0040",
+        "DOC-P235C-AKS-JIN",
+        "DOC-P235C-NIKH-02_17_0050"
       ],
       "researchNotes": "pass234B: 1952-12-11 내무장관으로 대통령 12/9 담화의 반정부자 정의 해석·가정부 음모 주장",
       "researchRefs": [
-        "data/politicians/pass-234-addendum-1952-dec-actors.json"
-      ]
+        "data/politicians/pass-234-addendum-1952-dec-actors.json",
+        "data/politicians/pass-235-addendum-c-jin-chung-lee.json"
+      ],
+      "promotionReason": "AKS 공식 학술인명록 + 1953-02-17 동아일보 진 내무부장관 경고담화, 1952~53 직책 교차"
     },
     {
       "id": "cand-1952-sep-police-mun-bong-je",
@@ -1818,16 +1823,21 @@
       "researchStatus": "IDENTIFIED",
       "backbone": false,
       "connections": [
-        "evt-p233-1110-coup-rumor"
+        "evt-p233-1110-coup-rumor",
+        "evt-p235c-taylor-commanders"
       ],
       "researchRefs": [
-        "data/politicians/pass-233-1952-rok-diplomacy-network.json"
+        "data/politicians/pass-233-1952-rok-diplomacy-network.json",
+        "data/politicians/pass-235-addendum-c-jin-chung-lee.json"
       ],
       "lifespan": {
         "born": null,
         "died": null,
         "verification": "이번 회차 생몰 원기록 미확인; 기존 canonical 정보는 변경하지 않음"
-      }
+      },
+      "evidenceCoverage": [
+        "DOC-P235C-NIKH-02_15_0020"
+      ]
     },
     {
       "id": "cand-1952-nov-kim-yong-sik",
@@ -2524,6 +2534,28 @@
       ],
       "openLeads": [
         "LEAD-P235B-005"
+      ]
+    },
+    {
+      "id": "cand-p235c-lee-hyung-keun",
+      "name": "이형근",
+      "aliases": [
+        "李亨根",
+        "Lee Hyung-geun (provisional)"
+      ],
+      "roles": [
+        "1953-02-15 제1군단장(신문)"
+      ],
+      "researchStatus": "candidate-identified",
+      "backbone": false,
+      "connections": [
+        "evt-p235c-taylor-commanders"
+      ],
+      "evidenceCoverage": [
+        "DOC-P235C-NIKH-02_15_0020"
+      ],
+      "researchRefs": [
+        "data/politicians/pass-235-addendum-c-jin-chung-lee.json"
       ]
     }
   ],
