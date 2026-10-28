@@ -853,3 +853,16 @@
 - 외교부 공식 한국어 역대장관 명단: 조정환(曺正煥), 1955-07-28~1959-12-21. AKS 인물백과: 1955 장관서리·1956 정식 장관. 1953-01 영국공사 Graham 답신 원문은 조정환을 Acting Foreign Minister로 호칭. 1953-10 FRUS d764에서도 Acting Foreign Minister.
 - 남은 문제: 1955/1956 정식 임명 법적 시점, 1953 대리 발령기간, 정확한 생몰일. 인사원부·관보 원본 추적.
 - https://contents.nahf.or.kr/item/level.do?levelId=kj.d_0007_0020_0022 ; https://www.mofa.go.kr/minister/wpge/m_20036/contents.do ; https://encykorea.aks.ac.kr/Article/E0052594
+
+
+## 2026-10-29 pass239J · 1954–1955 조약·합의의사록·재정·안보 개별 부채
+- **HD-P239J-TREATY-TIME · CONFLICTED (표기/시각)**: UNTS No.3363은 1954-11-17 워싱턴 비준서 교환·발효, 법제처 조약 제34호 trtySeq3315는 1954-11-18 한국 공포 및 발효를 표기. 같은 사건의 법적 효력일·현지시각·공포일 차이 미확정. 다음: 1954-11-17 워싱턴 교환서 시각, 한국 외무부 11/18 공포상신.
+- **HD-P239J-MINUTE-SEPARATE-NOTES · NARROWED**: 1954-11-17 변영태·Briggs 서울 합의의사록은 1953-10-01 변영태·Dulles 워싱턴 조약과 별개임을 한국 조약 원문 및 FRUS d942/d967/d980으로 확인. 미국의 평화적 통일 제5항 삭제와 별도 교환각서 원본은 미확보. 다음: 1954-11-17 한미 side notes 원본.
+- **HD-P239J-AUCTION-ORIGINAL · NARROWED**: FRUS 1955 d3 OIR 후주에 1954-11-29 1차 공매 불성립, 12/12 2차 공매 1,958,000달러 평균 426환. 한국은행 원입찰·낙찰원장은 미확보. 다음: 한국은행 1954년 11~12월 미군 달러공매 장부.
+- **HD-P239J-WON-COMMAND · OPEN**: FRUS d929–931은 1954-07-30 원용덕 NNSC 경고, 변영태의 대통령 직속 발언, 이후 행동 유보 지시 보도와 7/31~8/1 검사반 사건을 분리한다. 직접 공격명령/가해자 미확인. 다음: 원용덕 7/30 발표·헌병총사령부 지시, 8/7 변영태 서한 원본.
+- **HD-P239J-UNC-ZONE-TRANSFER · OPEN**: FRUS d924 7/28 민정이양 협의와 d932 편집자 주석의 UNCURK 8/9 권고를 확인했으나 실제 이양·한국측 인수인계·농지/광산 실적 미확인. 다음: UN A/2711 pp4–7, 국가기록원 8/12 이양문서.
+- **HD-P239J-AID-IMPLEMENTATION · OPEN**: 1954-11-17 최대 7억달러는 1955회계연도 프로그램이며 1954 즉시지급 아님. 실제 원조 계약·선적·원화 대충자금·예산 집행은 미확보. 다음: FOA FY55 Korean program expenditure ledgers, 재무부 예산원장.
+- **HD-P239J-JCS-CONTINGENCY · OPEN**: FRUS d960 1954-11-08 Hull 4단계 압박안, d974 12/7 JCS 작전계획 수정 검토는 구상·검토 단계. 실제 이승만 교체·계엄 명령으로 해석 금지. 다음: C70208에 대한 상급 승인·반려 회신, JCS CCS 383.21 Korea 원본.
+- **HD-P239I-RATIFICATION-DATE 재검토 · CONFLICTED 유지**: 기존 부채의 한국 11/18 기록은 이번에 법제처 조약 제34호 원문으로 직접 보강. UNTS 11/17 기록도 공식 유지. silent overwrite하지 않는다.
+- **HD-P239I-CHO-APPOINTMENT 재검토 · NARROWED 유지**: 1954-09-01 FRUS d934에서 외무차관 조정환 확인. 1953 장관대리·1955 장관서리/정식 임명원부 여전히 미확보.
+- **주간 전수조사:** 목요일 개별 10개 기존 lead만 추적. **역사부채 주간 전수조사 미실시**. `last_full_review` 값 불변.

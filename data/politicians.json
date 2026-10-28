@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-28",
+  "updatedAt": "2026-10-29",
   "purpose": "대한민국 정치인 실록의 인물 registry. 대통령은 초기 backbone일 뿐이며 모든 인물은 독립된 정치인 노드로 취급한다.",
   "politicians": [
     {
@@ -83,7 +83,14 @@
         "evt-p237-1953-04-28-clark-rhee",
         "evt-p237-1953-04-30-rhee-eight",
         "evt-p237b-1953-04-29-rhee-press",
-        "evt-p237b-1953-04-29-rhee-farmers"
+        "evt-p237b-1953-04-29-rhee-farmers",
+        "evt-p239j-02",
+        "evt-p239j-04",
+        "evt-p239j-08",
+        "evt-p239j-10",
+        "evt-p239j-13",
+        "evt-p239j-14",
+        "evt-p239j-15"
       ],
       "researchRefs": [
         "data/politicians/pass-233-1952-rok-diplomacy-network.json",
@@ -104,7 +111,30 @@
         "DOC-P235I-NIKH-03_01_0040",
         "DOC-P239B-PA-1310825"
       ],
-      "lastResearchPass": 237
+      "lastResearchPass": 237,
+      "recentResearchPass239J": {
+        "date": "2026-10-29",
+        "documents": [
+          "DOC-P239J-FRUS-923",
+          "DOC-P239J-FRUS-927",
+          "DOC-P239J-FRUS-946",
+          "DOC-P239J-FRUS-953",
+          "DOC-P239J-FRUS-965",
+          "DOC-P239J-FRUS-967",
+          "DOC-P239J-KOREA-TREATY-34"
+        ],
+        "events": [
+          "evt-p239j-02",
+          "evt-p239j-04",
+          "evt-p239j-08",
+          "evt-p239j-10",
+          "evt-p239j-13",
+          "evt-p239j-14",
+          "evt-p239j-15"
+        ],
+        "role_note": "Negotiation, acceptance and Korean promulgation separated",
+        "overlay": "data/politicians/pass-239j-1954-diplomacy-economy-actors.json"
+      }
     },
     {
       "id": "pol-yi-ki-pung",
@@ -380,7 +410,8 @@
       "backbone": false,
       "connections": [
         "evt-1949-farmland-reform",
-        "evt-p235b-lee-beom-seok-diplomacy"
+        "evt-p235b-lee-beom-seok-diplomacy",
+        "evt-p239j-21"
       ],
       "researchNotes": "1949-05-16 농지개혁법 환부이유서·소멸통고를 국회의장에게 발송한 정부 측 핵심 헌정 행위자로 확인. 대통령 재의권과 총리 명의 통고의 관계를 원문 결재선으로 추가 검증한다.",
       "researchUpdates": [
@@ -398,7 +429,18 @@
       ],
       "researchRefs": [
         "data/politicians/pass-235-addendum-b-culture-speaker-minister.json"
-      ]
+      ],
+      "recentResearchPass239J": {
+        "date": "2026-10-29",
+        "documents": [
+          "DOC-P239J-FRUS-939"
+        ],
+        "events": [
+          "evt-p239j-21"
+        ],
+        "role_note": "FRUS person index mentions Yi Pom-suk but exact meeting role unclear; do not infer role",
+        "overlay": "data/politicians/pass-239j-1954-diplomacy-economy-actors.json"
+      }
     },
     {
       "id": "pol-lee-mun-won",
@@ -630,7 +672,12 @@
         "evt-p239h-july09-paik-private-meeting",
         "evt-p239i-04",
         "evt-p239i-05",
-        "evt-p239i-06"
+        "evt-p239i-06",
+        "evt-p239j-02",
+        "evt-p239j-04",
+        "evt-p239j-07",
+        "evt-p239j-08",
+        "evt-p239j-10"
       ],
       "researchNotes": "1\n9\n5\n2\n~\n5\n3\n \n재\n정\n·\n원\n조\n·\n휴\n전\n외\n교\n \n교\n차\n \n행\n위\n자\n.\n \n1\n9\n5\n3\n-\n0\n8\n-\n0\n6\n \n경\n제\n·\n군\n사\n원\n조\n \n회\n의\n에\n서\n \n통\n합\n \n경\n제\n기\n구\n를\n \n통\n한\n \n원\n조\n \n프\n로\n그\n램\n \nM\nO\nU\n의\n \n미\n국\n \n최\n종\n승\n인\n을\n \n직\n접\n \n요\n청\n한\n \n기\n록\n과\n \n덜\n레\n스\n \n회\n담\n \n참\n여\n가\n \n확\n인\n되\n어\n \nV\nE\nR\nI\nF\nI\nE\nD\n로\n \n승\n격\n.\n \nC\nE\nB\n/\n환\n율\n/\n재\n건\n원\n조\n \n한\n국\n측\n \n문\n서\n \n확\n보\n \n후\n \nA\nN\nN\nA\nL\nS\n_\nA\nC\nT\nI\nV\nE\n \n검\n토\n.\n2026-10-28 pass233 정정: 직접 출처 없이 연결된 event edge 제거, 인물 candidate 연구 단서는 보존\npass234B: 1952-12-12 부흥부 신설 구상·유엔 원화대여금 4580억원 주장·11/13 현금교환 요청 공한, 12/15 450만석 양곡수입 합의 주장",
       "pass232Overlay": "data/politicians/pass-232-1952-september-actors.json",
@@ -705,7 +752,26 @@
           "after": "Decrees 783/784 and newly checked 782; date 4/14 vs 4/20 remains CONFLICTED",
           "source": "https://www.pa.go.kr/research/contents/policy/index07.jsp?poMode=view&policySeq=772"
         }
-      ]
+      ],
+      "recentResearchPass239J": {
+        "date": "2026-10-29",
+        "documents": [
+          "DOC-P239J-FRUS-923",
+          "DOC-P239J-FRUS-927",
+          "DOC-P239J-FRUS-943",
+          "DOC-P239J-FRUS-946",
+          "DOC-P239J-FRUS-953"
+        ],
+        "events": [
+          "evt-p239j-02",
+          "evt-p239j-04",
+          "evt-p239j-07",
+          "evt-p239j-08",
+          "evt-p239j-10"
+        ],
+        "role_note": "1954 economic coordinator and bilateral aid negotiator; not 1954 prime minister",
+        "overlay": "data/politicians/pass-239j-1954-diplomacy-economy-actors.json"
+      }
     },
     {
       "id": "pol-pyun-yong-tae",
@@ -740,7 +806,15 @@
         "evt-p239i-06",
         "evt-p239i-07",
         "evt-p239i-08",
-        "evt-p239i-09"
+        "evt-p239i-09",
+        "evt-p239j-06",
+        "evt-p239j-08",
+        "evt-p239j-10",
+        "evt-p239j-12",
+        "evt-p239j-13",
+        "evt-p239j-14",
+        "evt-p239j-15",
+        "evt-p239j-22"
       ],
       "researchNotes": "1953 휴전·반공포로·한미상호방위조약에서 반복 확인. 1953-08-07 공동성명 문구 수정 제안과 08-08 덜레스와 조약 초안 가조인이라는 직접 행위가 공식 외교기록으로 확인되어 VERIFIED로 승격. 향후 외무부 한국측 회의록·서명훈령 확보 시 ANNALS_ACTIVE 검토.",
       "pass232Overlay": "data/politicians/pass-232-1952-september-actors.json",
@@ -773,7 +847,32 @@
         "DOC-P239I-FRUS-740",
         "DOC-P239I-FRUS-741"
       ],
-      "lastResearchPass": "239I"
+      "lastResearchPass": "239I",
+      "recentResearchPass239J": {
+        "date": "2026-10-29",
+        "documents": [
+          "DOC-P239J-FRUS-935",
+          "DOC-P239J-FRUS-938",
+          "DOC-P239J-FRUS-946",
+          "DOC-P239J-FRUS-958",
+          "DOC-P239J-FRUS-963",
+          "DOC-P239J-FRUS-965",
+          "DOC-P239J-FRUS-967",
+          "DOC-P239J-FRUS-977"
+        ],
+        "events": [
+          "evt-p239j-06",
+          "evt-p239j-08",
+          "evt-p239j-10",
+          "evt-p239j-12",
+          "evt-p239j-13",
+          "evt-p239j-14",
+          "evt-p239j-15",
+          "evt-p239j-22"
+        ],
+        "role_note": "1954-09 PM/FM letter author; 1954-11 Seoul agreed-minute signatory and treaty promulgation minister; not assumed treaty ratification exchange actor",
+        "overlay": "data/politicians/pass-239j-1954-diplomacy-economy-actors.json"
+      }
     },
     {
       "id": "pol-lee-beom-seok-1900",
@@ -839,7 +938,9 @@
         "evt-p238-1953-05-12-choi-delay",
         "evt-p238c-1953-05-25-rok-cabinet",
         "evt-p238c-1953-05-27-choi-letter",
-        "evt-p239h-july27-armistice-signature"
+        "evt-p239h-july27-armistice-signature",
+        "evt-p239j-03",
+        "evt-p239j-04"
       ],
       "researchNotes": "거창사건 군법회의에서 작전명령 제5호 관련 증언이 동시대 보도로 확인됨. 사단장 책임과 연대·대대 실행책임, 상급 국방부 보고선을 분리 검증.",
       "researchRefs": [
@@ -877,7 +978,20 @@
             "DOC-P238-NIKH-CAT-PN_002_1150"
           ]
         }
-      ]
+      ],
+      "recentResearchPass239J": {
+        "date": "2026-10-29",
+        "documents": [
+          "DOC-P239J-FRUS-924",
+          "DOC-P239J-FRUS-927"
+        ],
+        "events": [
+          "evt-p239j-03",
+          "evt-p239j-04"
+        ],
+        "role_note": "1954 military delegation participant, no automatically inferred proposal",
+        "overlay": "data/politicians/pass-239j-1954-diplomacy-economy-actors.json"
+      }
     },
     {
       "id": "pol-chae-byong-duk",
@@ -915,7 +1029,13 @@
         "evt-1953-us-rok-mutual-defense-negotiation",
         "evt-p232-0912-japanese-fishing-seizure",
         "evt-p239i-04",
-        "evt-p239i-05"
+        "evt-p239i-05",
+        "evt-p239j-02",
+        "evt-p239j-03",
+        "evt-p239j-04",
+        "evt-p239j-08",
+        "evt-p239j-13",
+        "evt-p239j-15"
       ],
       "researchNotes": "1953-08-06 경제·군사원조 및 한국군 회의와 08-08 최종회담의 한국측 참가자로 공식 외교기록에서 확인. 해군 총참모장 시기와 국방부장관 취임일의 정확한 경계를 관보/기관연혁으로 검증 후 VERIFIED 검토.",
       "pass232Overlay": "data/politicians/pass-232-1952-september-actors.json",
@@ -930,7 +1050,27 @@
         "data/politicians/pass-239h-july1953-actors.json",
         "data/politicians/pass-239i-postarmistice-actors.json"
       ],
-      "lastResearchPass": "239I"
+      "lastResearchPass": "239I",
+      "recentResearchPass239J": {
+        "date": "2026-10-29",
+        "documents": [
+          "DOC-P239J-FRUS-923",
+          "DOC-P239J-FRUS-924",
+          "DOC-P239J-FRUS-927",
+          "DOC-P239J-FRUS-946",
+          "DOC-P239J-FRUS-965"
+        ],
+        "events": [
+          "evt-p239j-02",
+          "evt-p239j-03",
+          "evt-p239j-04",
+          "evt-p239j-08",
+          "evt-p239j-13",
+          "evt-p239j-15"
+        ],
+        "role_note": "1954 defense minister, military aid talks and treaty promulgation minister",
+        "overlay": "data/politicians/pass-239j-1954-diplomacy-economy-actors.json"
+      }
     },
     {
       "id": "pol-lim-byong-jik",
@@ -965,7 +1105,8 @@
         "evt-p236g-1953-03-28-reporter-trip",
         "evt-p236h-1953-04-06-im-antiarmistice",
         "evt-p239i-07",
-        "evt-p239i-08"
+        "evt-p239i-08",
+        "evt-p239j-04"
       ],
       "researchNotes": "1953-05-27 휴전안 대응을 이승만에게 보고한 서한과 08-08 덜레스 최종회담 참가가 확인됨. 주유엔 대표 재임기간·외교부 직제 원문 확인 후 VERIFIED 검토.\npass234B: 1952-12-15 UN 인도안 거부 후 대한민국 대표로 발언(신문 보도, 공식 UN verbatim 기록 미확보)",
       "researchRefs": [
@@ -1023,7 +1164,18 @@
           ]
         }
       ],
-      "lastResearchPass": "239I"
+      "lastResearchPass": "239I",
+      "recentResearchPass239J": {
+        "date": "2026-10-29",
+        "documents": [
+          "DOC-P239J-FRUS-927"
+        ],
+        "events": [
+          "evt-p239j-04"
+        ],
+        "role_note": "1954-07-30 Ambassador Limb participant only, no attributed policy decision",
+        "overlay": "data/politicians/pass-239j-1954-diplomacy-economy-actors.json"
+      }
     },
     {
       "id": "pol-paik-sun-yup",
@@ -2136,7 +2288,10 @@
         "evt-p236h-1953-04-16-rhee-armistice",
         "evt-p236h-1953-04-03-library-korea",
         "evt-p237-1953-04-24-yang-robertson",
-        "evt-p239d-paek-pyun-acting"
+        "evt-p239d-paek-pyun-acting",
+        "evt-p239j-02",
+        "evt-p239j-04",
+        "evt-p239j-19"
       ],
       "evidenceFile": "data/politicians/pass-232-1952-september-actors.json",
       "openLeadsFile": "data/research/leads/pass-232-20261028-next-lead-queue.json",
@@ -2180,7 +2335,22 @@
         "DOC-P239D-FRUS-605",
         "DOC-P239I-FRUS-727"
       ],
-      "lastResearchPass": "239I"
+      "lastResearchPass": "239I",
+      "recentResearchPass239J": {
+        "date": "2026-10-29",
+        "documents": [
+          "DOC-P239J-FRUS-923",
+          "DOC-P239J-FRUS-927",
+          "DOC-P239J-KOREA-MINUTE-1152"
+        ],
+        "events": [
+          "evt-p239j-02",
+          "evt-p239j-04",
+          "evt-p239j-19"
+        ],
+        "role_note": "1954 US ambassador negotiation; 1955-08-12 signed exchange amendment; Korean law primary text",
+        "overlay": "data/politicians/pass-239j-1954-diplomacy-economy-actors.json"
+      }
     },
     {
       "id": "cand-1952-minister-lee-yun-yeong",
@@ -2371,7 +2541,10 @@
       "backbone": false,
       "connections": [
         "evt-p233-1110-coup-rumor",
-        "evt-p235c-taylor-commanders"
+        "evt-p235c-taylor-commanders",
+        "evt-p239j-03",
+        "evt-p239j-04",
+        "evt-p239j-21"
       ],
       "researchRefs": [
         "data/politicians/pass-233-1952-rok-diplomacy-network.json",
@@ -2384,7 +2557,22 @@
       },
       "evidenceCoverage": [
         "DOC-P235C-NIKH-02_15_0020"
-      ]
+      ],
+      "recentResearchPass239J": {
+        "date": "2026-10-29",
+        "documents": [
+          "DOC-P239J-FRUS-924",
+          "DOC-P239J-FRUS-927",
+          "DOC-P239J-FRUS-939"
+        ],
+        "events": [
+          "evt-p239j-03",
+          "evt-p239j-04",
+          "evt-p239j-21"
+        ],
+        "role_note": "1954 army chief delegation and Hull reported consultations; check office appointment original",
+        "overlay": "data/politicians/pass-239j-1954-diplomacy-economy-actors.json"
+      }
     },
     {
       "id": "cand-1952-nov-kim-yong-sik",
@@ -3516,7 +3704,10 @@
       "researchStatus": "candidate-identified",
       "backbone": false,
       "connections": [
-        "evt-p235i-bok-deposit-release"
+        "evt-p235i-bok-deposit-release",
+        "evt-p239j-16",
+        "evt-p239j-17",
+        "evt-p239j-18"
       ],
       "evidenceCoverage": [
         "DOC-P235I-NIKH-03_01_0060"
@@ -3527,7 +3718,20 @@
       "openLeads": [
         "LEAD-P235I-004",
         "LEAD-P235I-006"
-      ]
+      ],
+      "recentResearchPass239J": {
+        "date": "2026-10-29",
+        "documents": [
+          "DOC-P239J-FRUS-1955-003"
+        ],
+        "events": [
+          "evt-p239j-16",
+          "evt-p239j-17",
+          "evt-p239j-18"
+        ],
+        "role_note": "1955 Bank of Korea governor in FRUS d3 footnote; actual auction ledger not seen",
+        "overlay": "data/politicians/pass-239j-1954-diplomacy-economy-actors.json"
+      }
     },
     {
       "id": "cand-p235i-tae-wan-seon",
@@ -4711,7 +4915,9 @@
       "backbone": false,
       "connections": [
         "evt-p239d-pow-direct-order",
-        "evt-p239d-camp-clash-restraint"
+        "evt-p239d-camp-clash-restraint",
+        "evt-p239j-05",
+        "evt-p239j-22"
       ],
       "evidenceCoverage": [
         "doc-frus-1953-clark-cx63170",
@@ -4735,7 +4941,22 @@
           "to": "VERIFIED",
           "reason": "FRUS d607 Rhee letter, NIKH June18 Won statement, FRUS d612 Clark report; original camp orders OPEN"
         }
-      ]
+      ],
+      "recentResearchPass239J": {
+        "date": "2026-10-29",
+        "documents": [
+          "DOC-P239J-FRUS-929",
+          "DOC-P239J-FRUS-930",
+          "DOC-P239J-FRUS-931",
+          "DOC-P239J-FRUS-969"
+        ],
+        "events": [
+          "evt-p239j-05",
+          "evt-p239j-22"
+        ],
+        "role_note": "1954-07-30 press release and reported restraint, chain remains open",
+        "overlay": "data/politicians/pass-239j-1954-diplomacy-economy-actors.json"
+      }
     },
     {
       "id": "cand-p239e-kim-jun-yeon",
@@ -5094,7 +5315,9 @@
       "backbone": false,
       "connections": [
         "evt-p239i-12",
-        "evt-p239i-17"
+        "evt-p239i-17",
+        "evt-p239j-06",
+        "evt-p239j-21"
       ],
       "evidenceCoverage": [
         "DOC-P239I-FRUS-764",
@@ -5115,7 +5338,94 @@
       ],
       "lastResearchPass": "239I",
       "birthYear": 1892,
-      "deathYear": 1967
+      "deathYear": 1967,
+      "recentResearchPass239J": {
+        "date": "2026-10-29",
+        "documents": [
+          "DOC-P239J-FRUS-934",
+          "DOC-P239J-FRUS-939"
+        ],
+        "events": [
+          "evt-p239j-06",
+          "evt-p239j-21"
+        ],
+        "role_note": "1954-09-01 vice foreign minister; new dated role complements 1953 acting FM",
+        "overlay": "data/politicians/pass-239j-1954-diplomacy-economy-actors.json"
+      }
+    },
+    {
+      "id": "cand-p239j-1954-choe-sun-chu",
+      "name": "최순주 (Choe Sun-chu, 표기 미확정)",
+      "aliases": [
+        "Choe Sun-chu",
+        "Choe Sun-ju"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "not verified"
+      },
+      "roles": [
+        {
+          "date": "1954-07-28~30",
+          "title": "ROK bilateral military/economic delegation participant",
+          "source": "FRUS XV/2 d924/d927"
+        }
+      ],
+      "researchStatus": "DISCOVERED",
+      "connections": [
+        "evt-p239j-03",
+        "evt-p239j-04"
+      ],
+      "openLeads": [
+        "LEAD-P239J-ACTOR-CHOE"
+      ],
+      "researchNotes": "Name-only FRUS romanization; verify Korean spelling, political-office status and Hanja before promotion",
+      "evidenceCoverage": {
+        "documentIds": [
+          "DOC-P239J-FRUS-924",
+          "DOC-P239J-FRUS-927"
+        ],
+        "source": "US FRUS original-origin transcription only"
+      },
+      "researchOverlay": "data/politicians/pass-239j-1954-diplomacy-economy-actors.json"
+    },
+    {
+      "id": "cand-p239j-1954-kim-chong-yol",
+      "name": "김정렬 (Kim Chong-yol, 잠정)",
+      "aliases": [
+        "Kim Chong-yol",
+        "Kim Chong-yul"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "not verified"
+      },
+      "roles": [
+        {
+          "date": "1954-07-28~30",
+          "title": "ROK military delegation general",
+          "source": "FRUS XV/2 d924/d927"
+        }
+      ],
+      "researchStatus": "DISCOVERED",
+      "connections": [
+        "evt-p239j-03",
+        "evt-p239j-04"
+      ],
+      "openLeads": [
+        "LEAD-P239J-ACTOR-KIM"
+      ],
+      "researchNotes": "Identity and office appointment not verified from Korean source; do not merge automatically",
+      "evidenceCoverage": {
+        "documentIds": [
+          "DOC-P239J-FRUS-924",
+          "DOC-P239J-FRUS-927"
+        ],
+        "source": "US FRUS original-origin transcription only"
+      },
+      "researchOverlay": "data/politicians/pass-239j-1954-diplomacy-economy-actors.json"
     }
   ],
   "recentResearchPass232": {
@@ -5200,5 +5510,12 @@
     "eventGraph": "data/events/pass-239i-postarmistice-actions.json",
     "evidence": "data/documents/pass-239i-postarmistice-treaty.json",
     "newPolitician": "pol-cho-chung-whan"
+  },
+  "recentResearchPass239J": {
+    "date": "2026-10-29",
+    "actorOverlay": "data/politicians/pass-239j-1954-diplomacy-economy-actors.json",
+    "deepened_nonpresident": 10,
+    "new_discovered_candidates": 2,
+    "do_not_auto_merge": true
   }
 }

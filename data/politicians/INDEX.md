@@ -110,3 +110,8 @@
 - 박술음 `cand-p236-park-sul-eum`을 기존 ID 유지한 채 ANNALS_ACTIVE로 승격: `data/annals/park-sul-eum.md`, `data/evidence/park-sul-eum.json`.
 - 신형식의 논쟁적 발언은 `CONFLICTED` 유지, 형사·정치적 유죄판정이나 순위화 금지.
 - 정당·사회부·농림부·관재청·대한노총 등 기관 9개 stable ID: `data/organizations/pass-239e-1953-institutions.json`.
+
+## 2026-10-29 pass239J · 1954–1955 조약·경제협정·군사원조 행위자
+- 1954-07~1955-08 비대통령 12명 심화/후보: `data/politicians/pass-239j-1954-diplomacy-economy-actors.json` (기존 10명 + 신원 미확정 후보 최순주·김정렬 2명; 승격 전 한글/한자/임명원부 필요).
+- 외무차관 조정환 1954-09-01 FRUS d934 확인. 변영태 1954-11-17 합의의사록 서명, 손원일 11/18 조약 공포, 백두진 7월 경제조정관, 양유찬 1955-08-12 500:1 수정 서명으로 각각 독립 행위 분리.
+- 문서 `data/documents/pass-239j-1954-agreed-minute-ratification.json`, 사건 `data/events/pass-239j-1954-1955-actions.json`, 주장 `data/claims/pass-239j-treaty-aid-currency-adversarial.json`, 실록 `data/annals/1954-1955-treaty-minute-currency-actor-chain.md`. FRUS는 한 편찬계열, 한국 법제처는 별도 정부 원문계열.
