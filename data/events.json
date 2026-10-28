@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-08",
+  "updatedAt": "2026-10-28",
   "purpose": "정치인 파일에 사건을 매몰시키지 않고 인물·기관·정당·법률·결정·집행·반대·후대판단을 cross-link하기 위한 사건 registry.",
   "events": [
     {
@@ -699,6 +699,888 @@
         "https://theme.archives.go.kr/next/rule/sub2_03.do",
         "https://theme.archives.go.kr/next/rediscovery/index2.do"
       ]
+    },
+    {
+      "id": "evt-p232-0902-cabinet-amendment",
+      "name": "대통령의 후속 개헌조목 국회 제출형식 유시",
+      "date": "1952-09-02",
+      "politicians": [
+        "pol-rhee-syngman"
+      ],
+      "institutions": [],
+      "evidenceState": "open",
+      "confirmed": [
+        "1952-09 동시대 자료 및 공식 기록에 기록된 대통령의 후속 개헌조목 국회 제출형식 유시의 행위 단계. 제안·결정·집행은 data/events/pass-232-1952-september-governance.json 참조."
+      ],
+      "openQuestions": [
+        "대통령 유시가 실제 의원 발의안으로 집행되었는지 미확인"
+      ],
+      "sources": [],
+      "documentIds": [
+        "DOC-P232-ARCHIVE-CABINET-19520902"
+      ],
+      "domain": "헌정·입법",
+      "proposed_by": [
+        "이승만"
+      ],
+      "decided_by": [
+        "대통령 유시"
+      ],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [
+        "제71회 국무회의록 BG0000029"
+      ],
+      "observed_by": [
+        "국가기록원"
+      ],
+      "overlayFile": "data/events/pass-232-1952-september-governance.json",
+      "attributionCaution": "행위별로 기관·장관·대통령 책임을 구분; 대통령 직접명령은 명시된 원문에만 귀속"
+    },
+    {
+      "id": "evt-p232-0916-governors",
+      "name": "충북·전북 지사 인사 국무회의 보도",
+      "date": "1952-09-16",
+      "politicians": [
+        "cand-1952-sep-interior-jin-heon-sik",
+        "cand-1952-sep-chungbuk-jeong-hyeon-mo",
+        "cand-1952-sep-jeonbuk-lee-yo-han",
+        "cand-1952-sep-chungnam-seong-rak-seo",
+        "cand-1952-sep-gyeonggi-kim-yeong-gi"
+      ],
+      "institutions": [
+        "국무회의"
+      ],
+      "evidenceState": "open",
+      "confirmed": [
+        "1952-09 동시대 자료 및 공식 기록에 기록된 충북·전북 지사 인사 국무회의 보도의 행위 단계. 제안·결정·집행은 data/events/pass-232-1952-september-governance.json 참조."
+      ],
+      "openQuestions": [
+        "정현모 충북 인선과 이요한 전북 보류 보도 불일치; 임명효력일 미확인"
+      ],
+      "sources": [],
+      "documentIds": [
+        "DOC-P232-DH-19520917-003",
+        "DOC-P232-DH-19520918-004"
+      ],
+      "domain": "인사·지방행정",
+      "proposed_by": [],
+      "decided_by": [
+        "국무회의"
+      ],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [
+        "지방자치/임명 관계법령 미확인"
+      ],
+      "observed_by": [
+        "서울신문·동아일보"
+      ],
+      "overlayFile": "data/events/pass-232-1952-september-governance.json",
+      "attributionCaution": "행위별로 기관·장관·대통령 책임을 구분; 대통령 직접명령은 명시된 원문에만 귀속"
+    },
+    {
+      "id": "evt-p232-0917-reconstruction-bonds",
+      "name": "산업부흥국채 1천억원 복구자금 부처별 계획 요청",
+      "date": "1952-09-17",
+      "politicians": [],
+      "institutions": [
+        "재무부",
+        "관계 부처에 9월20일 계획제출 요청"
+      ],
+      "evidenceState": "open",
+      "confirmed": [
+        "1952-09 동시대 자료 및 공식 기록에 기록된 산업부흥국채 1천억원 복구자금 부처별 계획 요청의 행위 단계. 제안·결정·집행은 data/events/pass-232-1952-september-governance.json 참조."
+      ],
+      "openQuestions": [
+        "계획과 실제 발행·배정·지출 분리"
+      ],
+      "sources": [],
+      "documentIds": [
+        "DOC-P232-DH-19520917-004"
+      ],
+      "domain": "경제·재정",
+      "proposed_by": [
+        "재무부"
+      ],
+      "decided_by": [],
+      "executed_by": [
+        "관계 부처에 9월20일 계획제출 요청"
+      ],
+      "opposed_by": [],
+      "legal_authority": [
+        "산업부흥국채발행법(조문 미확보)"
+      ],
+      "observed_by": [
+        "동아일보"
+      ],
+      "overlayFile": "data/events/pass-232-1952-september-governance.json",
+      "attributionCaution": "행위별로 기관·장관·대통령 책임을 구분; 대통령 직접명령은 명시된 원문에만 귀속"
+    },
+    {
+      "id": "evt-p232-0917-fertilizer",
+      "name": "농림부 신비료년도 52만3천톤 수급계획 검토",
+      "date": "1952-09-17",
+      "politicians": [
+        "cand-1952-sep-agri-shin-jung-mok"
+      ],
+      "institutions": [
+        "농림부",
+        "국무회의 검토(최종의결 미확인)"
+      ],
+      "evidenceState": "open",
+      "confirmed": [
+        "1952-09 동시대 자료 및 공식 기록에 기록된 농림부 신비료년도 52만3천톤 수급계획 검토의 행위 단계. 제안·결정·집행은 data/events/pass-232-1952-september-governance.json 참조."
+      ],
+      "openQuestions": [
+        "유엔원조32.3만톤·상환불10만톤·정부수입10만톤 계획, 실수입 아님"
+      ],
+      "sources": [],
+      "documentIds": [
+        "DOC-P232-DH-19520917-005"
+      ],
+      "domain": "농정",
+      "proposed_by": [
+        "농림부"
+      ],
+      "decided_by": [
+        "국무회의 검토(최종의결 미확인)"
+      ],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "부산일보"
+      ],
+      "overlayFile": "data/events/pass-232-1952-september-governance.json",
+      "attributionCaution": "행위별로 기관·장관·대통령 책임을 구분; 대통령 직접명령은 명시된 원문에만 귀속"
+    },
+    {
+      "id": "evt-p232-0917-relief-grain-control",
+      "name": "구호양곡 도정·분배권한 금련·CAC·농림부 갈등",
+      "date": "1952-09-17",
+      "politicians": [],
+      "institutions": [
+        "금융조합연합회/CAC 요청 주장"
+      ],
+      "evidenceState": "open",
+      "confirmed": [
+        "1952-09 동시대 자료 및 공식 기록에 기록된 구호양곡 도정·분배권한 금련·CAC·농림부 갈등의 행위 단계. 제안·결정·집행은 data/events/pass-232-1952-september-governance.json 참조."
+      ],
+      "openQuestions": [
+        "CAC 실제 결정서와 외자관리청 통첩 미확보"
+      ],
+      "sources": [],
+      "documentIds": [
+        "DOC-P232-DH-19520917-006",
+        "DOC-P232-DH-19520919-009"
+      ],
+      "domain": "구호·행정",
+      "proposed_by": [
+        "금융조합연합회/CAC 요청 주장"
+      ],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [
+        "농림부"
+      ],
+      "legal_authority": [],
+      "observed_by": [
+        "부산일보·동아일보"
+      ],
+      "overlayFile": "data/events/pass-232-1952-september-governance.json",
+      "attributionCaution": "행위별로 기관·장관·대통령 책임을 구분; 대통령 직접명령은 명시된 원문에만 귀속"
+    },
+    {
+      "id": "evt-p232-0917-monopoly-price",
+      "name": "담배·소금 전매가격 인상",
+      "date": "1952-09-17",
+      "politicians": [],
+      "institutions": [
+        "재무부",
+        "정부 발표"
+      ],
+      "evidenceState": "open",
+      "confirmed": [
+        "1952-09 동시대 자료 및 공식 기록에 기록된 담배·소금 전매가격 인상의 행위 단계. 제안·결정·집행은 data/events/pass-232-1952-september-governance.json 참조."
+      ],
+      "openQuestions": [
+        "백구 1000→2500원 확인; 법적 국회 의결·긴급명령 여부 미확인"
+      ],
+      "sources": [],
+      "documentIds": [
+        "DOC-P232-DH-19520917-021",
+        "DOC-P232-DH-19520917-022",
+        "DOC-P232-DH-19520917-025"
+      ],
+      "domain": "재정·물가",
+      "proposed_by": [
+        "재무부"
+      ],
+      "decided_by": [
+        "정부 발표"
+      ],
+      "executed_by": [
+        "전매판매기관"
+      ],
+      "opposed_by": [
+        "일부 국회의원·언론"
+      ],
+      "legal_authority": [
+        "재정법 제3조(당시 원조문 확인 필요)"
+      ],
+      "observed_by": [
+        "민주신보·경향신문·대구매일"
+      ],
+      "overlayFile": "data/events/pass-232-1952-september-governance.json",
+      "attributionCaution": "행위별로 기관·장관·대통령 책임을 구분; 대통령 직접명령은 명시된 원문에만 귀속"
+    },
+    {
+      "id": "evt-p232-0917-government-rice",
+      "name": "국무회의 정부관리 양곡가격 2.08배·1.82배 인상안",
+      "date": "1952-09-17",
+      "politicians": [],
+      "institutions": [
+        "관계 부처",
+        "국무회의"
+      ],
+      "evidenceState": "open",
+      "confirmed": [
+        "1952-09 동시대 자료 및 공식 기록에 기록된 국무회의 정부관리 양곡가격 2.08배·1.82배 인상안의 행위 단계. 제안·결정·집행은 data/events/pass-232-1952-september-governance.json 참조."
+      ],
+      "openQuestions": [
+        "백미2.08배·정맥1.82배, 대통령 결재와 8/1 소급실시 실제 미확인"
+      ],
+      "sources": [],
+      "documentIds": [
+        "DOC-P232-DH-19520917-026"
+      ],
+      "domain": "농정·물가",
+      "proposed_by": [
+        "관계 부처"
+      ],
+      "decided_by": [
+        "국무회의"
+      ],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "서울신문"
+      ],
+      "overlayFile": "data/events/pass-232-1952-september-governance.json",
+      "attributionCaution": "행위별로 기관·장관·대통령 책임을 구분; 대통령 직접명령은 명시된 원문에만 귀속"
+    },
+    {
+      "id": "evt-p232-0917-election-law-draft",
+      "name": "내무부 지방국 선거법 종합개정 초안 149조 작성",
+      "date": "1952-09-17",
+      "politicians": [],
+      "institutions": [
+        "내무부 지방국"
+      ],
+      "evidenceState": "open",
+      "confirmed": [
+        "1952-09 동시대 자료 및 공식 기록에 기록된 내무부 지방국 선거법 종합개정 초안 149조 작성의 행위 단계. 제안·결정·집행은 data/events/pass-232-1952-september-governance.json 참조."
+      ],
+      "openQuestions": [
+        "초안 작성 보도와 국회 제정·공포 혼동 금지"
+      ],
+      "sources": [],
+      "documentIds": [
+        "DOC-P232-DH-19520917-020"
+      ],
+      "domain": "선거·입법",
+      "proposed_by": [
+        "내무부 지방국"
+      ],
+      "decided_by": [],
+      "executed_by": [
+        "선거기초위원회 예정"
+      ],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "부산일보"
+      ],
+      "overlayFile": "data/events/pass-232-1952-september-governance.json",
+      "attributionCaution": "행위별로 기관·장관·대통령 책임을 구분; 대통령 직접명령은 명시된 원문에만 귀속"
+    },
+    {
+      "id": "evt-p232-0917-cooperative-policy",
+      "name": "농림부 협동조합·농림위원회 및 모범부락 구상",
+      "date": "1952-09-17",
+      "politicians": [
+        "cand-1952-sep-agri-shin-jung-mok"
+      ],
+      "institutions": [
+        "신중목 농림장관",
+        "농림위원회 설치 예정"
+      ],
+      "evidenceState": "open",
+      "confirmed": [
+        "1952-09 동시대 자료 및 공식 기록에 기록된 농림부 협동조합·농림위원회 및 모범부락 구상의 행위 단계. 제안·결정·집행은 data/events/pass-232-1952-september-governance.json 참조."
+      ],
+      "openQuestions": [
+        "계획·장관 발언과 실제 설치·법률 성립 분리"
+      ],
+      "sources": [],
+      "documentIds": [
+        "DOC-P232-DH-19520917-023",
+        "DOC-P232-DH-19520917-027"
+      ],
+      "domain": "농정·조직",
+      "proposed_by": [
+        "신중목 농림장관"
+      ],
+      "decided_by": [],
+      "executed_by": [
+        "농림위원회 설치 예정"
+      ],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "경향신문"
+      ],
+      "overlayFile": "data/events/pass-232-1952-september-governance.json",
+      "attributionCaution": "행위별로 기관·장관·대통령 책임을 구분; 대통령 직접명령은 명시된 원문에만 귀속"
+    },
+    {
+      "id": "evt-p232-0917-industry-survey",
+      "name": "상공부 서울 제외 10인 이상 생산업체 2649개 조사",
+      "date": "1952-09-17",
+      "politicians": [],
+      "institutions": [
+        "상공부",
+        "상공부 조사"
+      ],
+      "evidenceState": "open",
+      "confirmed": [
+        "1952-09 동시대 자료 및 공식 기록에 기록된 상공부 서울 제외 10인 이상 생산업체 2649개 조사의 행위 단계. 제안·결정·집행은 data/events/pass-232-1952-september-governance.json 참조."
+      ],
+      "openQuestions": [
+        "1943년 5인 이상 업체와 1952년 10인 이상 업체 비교로 파괴율 추론 불가; 서울 누락"
+      ],
+      "sources": [],
+      "documentIds": [
+        "DOC-P232-DH-19520917-024"
+      ],
+      "domain": "산업·통계",
+      "proposed_by": [
+        "상공부"
+      ],
+      "decided_by": [],
+      "executed_by": [
+        "상공부 조사"
+      ],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "대구매일"
+      ],
+      "overlayFile": "data/events/pass-232-1952-september-governance.json",
+      "attributionCaution": "행위별로 기관·장관·대통령 책임을 구분; 대통령 직접명령은 명시된 원문에만 귀속"
+    },
+    {
+      "id": "evt-p232-0917-japanese-korean-delegation",
+      "name": "재일거류민단 간부 본국 정부·국회 참정권 등 요구",
+      "date": "1952-09-17",
+      "politicians": [
+        "cand-1952-speaker-shin-ik-hui",
+        "cand-1952-sep-zainichi-kim-gwang-nam",
+        "cand-1952-sep-zainichi-kim-jae-geun"
+      ],
+      "institutions": [],
+      "evidenceState": "open",
+      "confirmed": [
+        "1952-09 동시대 자료 및 공식 기록에 기록된 재일거류민단 간부 본국 정부·국회 참정권 등 요구의 행위 단계. 제안·결정·집행은 data/events/pass-232-1952-september-governance.json 참조."
+      ],
+      "openQuestions": [
+        "요구 전달과 정부 채택/입법 분리"
+      ],
+      "sources": [],
+      "documentIds": [
+        "DOC-P232-DH-19520917-009"
+      ],
+      "domain": "재외국민·선거",
+      "proposed_by": [
+        "김광남·김재근"
+      ],
+      "decided_by": [],
+      "executed_by": [
+        "신익희·장택상 면담 보도"
+      ],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "부산일보"
+      ],
+      "overlayFile": "data/events/pass-232-1952-september-governance.json",
+      "attributionCaution": "행위별로 기관·장관·대통령 책임을 구분; 대통령 직접명령은 명시된 원문에만 귀속"
+    },
+    {
+      "id": "evt-p232-0917-party-sketches",
+      "name": "1952 정당 8개 계열 동시대 정치지형 기사",
+      "date": "1952-09-17",
+      "politicians": [
+        "cand-1952-sep-women-party-im-yeong-sin",
+        "cand-1952-sep-independent-labor-yu-rim",
+        "cand-chang-taek-sang-1952",
+        "pol-cho-bong-am",
+        "cand-1952-minister-lee-yun-yeong",
+        "cand-1952-vice-jeong-gi-won"
+      ],
+      "institutions": [],
+      "evidenceState": "open",
+      "confirmed": [
+        "1952-09 동시대 자료 및 공식 기록에 기록된 1952 정당 8개 계열 동시대 정치지형 기사의 행위 단계. 제안·결정·집행은 data/events/pass-232-1952-september-governance.json 참조."
+      ],
+      "openQuestions": [
+        "신문의 풍자·의견·전언은 확정 사실과 구분"
+      ],
+      "sources": [],
+      "documentIds": [
+        "DOC-P232-DH-19520917-011",
+        "DOC-P232-DH-19520917-012",
+        "DOC-P232-DH-19520917-013",
+        "DOC-P232-DH-19520917-014",
+        "DOC-P232-DH-19520917-015",
+        "DOC-P232-DH-19520917-016",
+        "DOC-P232-DH-19520917-017",
+        "DOC-P232-DH-19520917-018"
+      ],
+      "domain": "정당·대표성",
+      "proposed_by": [
+        "동시대 언론"
+      ],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "경향신문·조선일보"
+      ],
+      "overlayFile": "data/events/pass-232-1952-september-governance.json",
+      "attributionCaution": "행위별로 기관·장관·대통령 책임을 구분; 대통령 직접명령은 명시된 원문에만 귀속"
+    },
+    {
+      "id": "evt-p232-0918-interior-police",
+      "name": "진헌식 내무장관·문봉제 치안국장 경찰행정 발언",
+      "date": "1952-09-18",
+      "politicians": [
+        "cand-1952-sep-interior-jin-heon-sik",
+        "cand-1952-sep-police-mun-bong-je",
+        "cand-1952-sep-vice-interior-hwang-ho-heon"
+      ],
+      "institutions": [],
+      "evidenceState": "open",
+      "confirmed": [
+        "1952-09 동시대 자료 및 공식 기록에 기록된 진헌식 내무장관·문봉제 치안국장 경찰행정 발언의 행위 단계. 제안·결정·집행은 data/events/pass-232-1952-september-governance.json 참조."
+      ],
+      "openQuestions": [
+        "경찰 고문 단속은 향후 의향; 실제 징계 실적 미확인"
+      ],
+      "sources": [],
+      "documentIds": [
+        "DOC-P232-DH-19520918-004",
+        "DOC-P232-DH-19520918-005",
+        "DOC-P232-DH-19520918-006"
+      ],
+      "domain": "치안·인사",
+      "proposed_by": [
+        "진헌식·문봉제"
+      ],
+      "decided_by": [],
+      "executed_by": [
+        "치안국장 기자회견"
+      ],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "대구매일·부산일보"
+      ],
+      "overlayFile": "data/events/pass-232-1952-september-governance.json",
+      "attributionCaution": "행위별로 기관·장관·대통령 책임을 구분; 대통령 직접명령은 명시된 원문에만 귀속"
+    },
+    {
+      "id": "evt-p232-0918-disabled-veterans",
+      "name": "상이군인 원호 한미합동위원회 한국측 위원 보도",
+      "date": "1952-09-18",
+      "politicians": [],
+      "institutions": [
+        "정부·UNCAC"
+      ],
+      "evidenceState": "open",
+      "confirmed": [
+        "1952-09 동시대 자료 및 공식 기록에 기록된 상이군인 원호 한미합동위원회 한국측 위원 보도의 행위 단계. 제안·결정·집행은 data/events/pass-232-1952-september-governance.json 참조."
+      ],
+      "openQuestions": [
+        "위원 명단과 회의 실적·수혜 실적 미확인"
+      ],
+      "sources": [],
+      "documentIds": [
+        "DOC-P232-DH-19520918-008"
+      ],
+      "domain": "사회복지·원호",
+      "proposed_by": [
+        "정부·UNCAC"
+      ],
+      "decided_by": [
+        "1952-07-20 조직결정 보도"
+      ],
+      "executed_by": [
+        "최창순 장관·차관급 대표 지명"
+      ],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "서울신문"
+      ],
+      "overlayFile": "data/events/pass-232-1952-september-governance.json",
+      "attributionCaution": "행위별로 기관·장관·대통령 책임을 구분; 대통령 직접명령은 명시된 원문에만 귀속"
+    },
+    {
+      "id": "evt-p232-0918-reimbursement-split",
+      "name": "유엔대여금 상환 3500만달러 중 2100만달러 양곡도입안 이견",
+      "date": "1952-09-18",
+      "politicians": [
+        "cand-1952-cabinet-lee-kyo-seon",
+        "pol-paik-too-chin"
+      ],
+      "institutions": [],
+      "evidenceState": "open",
+      "confirmed": [
+        "1952-09 동시대 자료 및 공식 기록에 기록된 유엔대여금 상환 3500만달러 중 2100만달러 양곡도입안 이견의 행위 단계. 제안·결정·집행은 data/events/pass-232-1952-september-governance.json 참조."
+      ],
+      "openQuestions": [
+        "상공장관의 반대발언과 합동경제위원회 결정·실제 지출 분리"
+      ],
+      "sources": [],
+      "documentIds": [
+        "DOC-P232-DH-19520918-007",
+        "DOC-P232-DH-19520917-001",
+        "DOC-P232-DH-19520917-005"
+      ],
+      "domain": "경제·원조",
+      "proposed_by": [
+        "합동경제위원회 합의 보도"
+      ],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [
+        "이교선 상공장관"
+      ],
+      "legal_authority": [
+        "한미경제조정협정 원문 대조 필요"
+      ],
+      "observed_by": [
+        "동아일보·부산일보·민주신보"
+      ],
+      "overlayFile": "data/events/pass-232-1952-september-governance.json",
+      "attributionCaution": "행위별로 기관·장관·대통령 책임을 구분; 대통령 직접명령은 명시된 원문에만 귀속"
+    },
+    {
+      "id": "evt-p232-0918-party-merger",
+      "name": "원내 자유당 합동파와 원외 자유당 합당 서명 보도",
+      "date": "1952-09-18",
+      "politicians": [
+        "cand-1952-sep-women-party-im-yeong-sin",
+        "cand-1952-sep-yun-chi-yeong"
+      ],
+      "institutions": [],
+      "evidenceState": "open",
+      "confirmed": [
+        "1952-09 동시대 자료 및 공식 기록에 기록된 원내 자유당 합동파와 원외 자유당 합당 서명 보도의 행위 단계. 제안·결정·집행은 data/events/pass-232-1952-september-governance.json 참조."
+      ],
+      "openQuestions": [
+        "서명·정당 등록·의원 교섭단체 출범은 별도 단계; 의원수 50/57/64~65 날짜별 다름"
+      ],
+      "sources": [],
+      "documentIds": [
+        "DOC-P232-DH-19520919-008",
+        "DOC-P232-DH-19520918-003",
+        "DOC-P232-DH-19520918-004",
+        "DOC-P232-DH-19520917-010"
+      ],
+      "domain": "정당·의회",
+      "proposed_by": [
+        "자유당 합동파·5·30동지회"
+      ],
+      "decided_by": [
+        "당사자 합당 찬동 서명 보도"
+      ],
+      "executed_by": [],
+      "opposed_by": [
+        "윤치영·임영신 등 합당 불응 보도"
+      ],
+      "legal_authority": [],
+      "observed_by": [
+        "부산일보·동아일보"
+      ],
+      "overlayFile": "data/events/pass-232-1952-september-governance.json",
+      "attributionCaution": "행위별로 기관·장관·대통령 책임을 구분; 대통령 직접명령은 명시된 원문에만 귀속"
+    },
+    {
+      "id": "evt-p232-0919-gatt-intent",
+      "name": "한국정부 GATT 가입서명 결정 보도와 1967 가입 구분",
+      "date": "1952-09-19",
+      "politicians": [],
+      "institutions": [
+        "한국 정부"
+      ],
+      "evidenceState": "open",
+      "confirmed": [
+        "1952-09 동시대 자료 및 공식 기록에 기록된 한국정부 GATT 가입서명 결정 보도와 1967 가입 구분의 행위 단계. 제안·결정·집행은 data/events/pass-232-1952-september-governance.json 참조."
+      ],
+      "openQuestions": [
+        "1952 결정은 실제 서명·가입이 아님; 1967년 4월14일 정식 가입"
+      ],
+      "sources": [],
+      "documentIds": [
+        "DOC-P232-DH-19520919-004",
+        "DOC-P232-ROK-GATT-1967-PROTOCOL"
+      ],
+      "domain": "통상·외교",
+      "proposed_by": [
+        "한국 정부"
+      ],
+      "decided_by": [
+        "1952 가입서명 결정 보도"
+      ],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [
+        "1967 GATT 가입 의정서"
+      ],
+      "observed_by": [
+        "조선일보·법제처"
+      ],
+      "overlayFile": "data/events/pass-232-1952-september-governance.json",
+      "attributionCaution": "행위별로 기관·장관·대통령 책임을 구분; 대통령 직접명령은 명시된 원문에만 귀속"
+    },
+    {
+      "id": "evt-p232-0912-japanese-fishing-seizure",
+      "name": "일본어선 2척 나포 관련 한국 해군·외무부 성명",
+      "date": "1952-09-12",
+      "politicians": [
+        "pol-pyun-yong-tae",
+        "pol-sohn-won-yil"
+      ],
+      "institutions": [
+        "한국 해군·상공부",
+        "해군경비정 나포(해군 발표)"
+      ],
+      "evidenceState": "open",
+      "confirmed": [
+        "1952-09 동시대 자료 및 공식 기록에 기록된 일본어선 2척 나포 관련 한국 해군·외무부 성명의 행위 단계. 제안·결정·집행은 data/events/pass-232-1952-september-governance.json 참조."
+      ],
+      "openQuestions": [
+        "나포 좌표·영해 주장과 일본측 원문 법적 평가 분리"
+      ],
+      "sources": [],
+      "documentIds": [
+        "DOC-P232-DH-19520919-005",
+        "DOC-P232-DH-19520919-006",
+        "DOC-P232-ARCHIVE-FISHERY-BA0084189"
+      ],
+      "domain": "해양·외교",
+      "proposed_by": [
+        "한국 해군·상공부"
+      ],
+      "decided_by": [],
+      "executed_by": [
+        "해군경비정 나포(해군 발표)"
+      ],
+      "opposed_by": [
+        "일본정부 항의(한국측 인용)"
+      ],
+      "legal_authority": [
+        "대통령 인접해양 선언·상공부 BA0084189"
+      ],
+      "observed_by": [
+        "해군본부·변영태·국가기록원"
+      ],
+      "overlayFile": "data/events/pass-232-1952-september-governance.json",
+      "attributionCaution": "행위별로 기관·장관·대통령 책임을 구분; 대통령 직접명령은 명시된 원문에만 귀속"
+    },
+    {
+      "id": "evt-p232-0919-bank-policy",
+      "name": "한국은행 총재 신권·금리·대출방침 기자회견",
+      "date": "1952-09-19",
+      "politicians": [],
+      "institutions": [
+        "한국은행"
+      ],
+      "evidenceState": "open",
+      "confirmed": [
+        "1952-09 동시대 자료 및 공식 기록에 기록된 한국은행 총재 신권·금리·대출방침 기자회견의 행위 단계. 제안·결정·집행은 data/events/pass-232-1952-september-governance.json 참조."
+      ],
+      "openQuestions": [
+        "발행예정과 실제 발행 여부 분리; 총재 성명 김 한자 미확정"
+      ],
+      "sources": [],
+      "documentIds": [
+        "DOC-P232-DH-19520919-010"
+      ],
+      "domain": "통화·금융",
+      "proposed_by": [
+        "한국은행"
+      ],
+      "decided_by": [],
+      "executed_by": [
+        "10월1일 신권 발행 예정"
+      ],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "대구매일"
+      ],
+      "overlayFile": "data/events/pass-232-1952-september-governance.json",
+      "attributionCaution": "행위별로 기관·장관·대통령 책임을 구분; 대통령 직접명령은 명시된 원문에만 귀속"
+    },
+    {
+      "id": "evt-p232-0919-opposition-talks",
+      "name": "신익희·장면·조봉암 등 신당·야당 통합 논의 보도",
+      "date": "1952-09-19",
+      "politicians": [
+        "cand-chang-taek-sang-1952",
+        "cand-1952-sep-yun-chi-yeong",
+        "cand-1952-speaker-shin-ik-hui",
+        "pol-cho-bong-am"
+      ],
+      "institutions": [],
+      "evidenceState": "open",
+      "confirmed": [
+        "1952-09 동시대 자료 및 공식 기록에 기록된 신익희·장면·조봉암 등 신당·야당 통합 논의 보도의 행위 단계. 제안·결정·집행은 data/events/pass-232-1952-september-governance.json 참조."
+      ],
+      "openQuestions": [
+        "언론의 추측·전언과 실제 창당 구분"
+      ],
+      "sources": [],
+      "documentIds": [
+        "DOC-P232-DH-19520917-019",
+        "DOC-P232-DH-19520919-007"
+      ],
+      "domain": "정당·의회",
+      "proposed_by": [
+        "신익희·장면·조봉암 등 보도"
+      ],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "동아일보·조선일보"
+      ],
+      "overlayFile": "data/events/pass-232-1952-september-governance.json",
+      "attributionCaution": "행위별로 기관·장관·대통령 책임을 구분; 대통령 직접명령은 명시된 원문에만 귀속"
+    },
+    {
+      "id": "evt-p232-0917-exchange-oir",
+      "name": "미 국무부 OIR 환율 6000:1 현실성 분석",
+      "date": "1952-09-16",
+      "politicians": [],
+      "institutions": [
+        "미 국무부 정보조사국"
+      ],
+      "evidenceState": "open",
+      "confirmed": [
+        "1952-09 동시대 자료 및 공식 기록에 기록된 미 국무부 OIR 환율 6000:1 현실성 분석의 행위 단계. 제안·결정·집행은 data/events/pass-232-1952-september-governance.json 참조."
+      ],
+      "openQuestions": [
+        "시장 환율과 정책환율·지수추정치 정의 구분; 발췌 번역본"
+      ],
+      "sources": [],
+      "documentIds": [
+        "DOC-P232-DH-19520917-002"
+      ],
+      "domain": "외환·경제",
+      "proposed_by": [
+        "미 국무부 정보조사국"
+      ],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "OIR Report No.6013"
+      ],
+      "overlayFile": "data/events/pass-232-1952-september-governance.json",
+      "attributionCaution": "행위별로 기관·장관·대통령 책임을 구분; 대통령 직접명령은 명시된 원문에만 귀속"
+    },
+    {
+      "id": "evt-p232-0917-finance-critique",
+      "name": "민주신보 김지윤 백두진 재정정책 통화팽창 비판",
+      "date": "1952-09-17",
+      "politicians": [
+        "pol-paik-too-chin"
+      ],
+      "institutions": [],
+      "evidenceState": "open",
+      "confirmed": [
+        "1952-09 동시대 자료 및 공식 기록에 기록된 민주신보 김지윤 백두진 재정정책 통화팽창 비판의 행위 단계. 제안·결정·집행은 data/events/pass-232-1952-september-governance.json 참조."
+      ],
+      "openQuestions": [
+        "기사 2668/4070 및 2189/4070 비율이 서술된 55.9%,45.9%와 불일치, 원통계 확인"
+      ],
+      "sources": [],
+      "documentIds": [
+        "DOC-P232-DH-19520917-001"
+      ],
+      "domain": "재정·언론",
+      "proposed_by": [
+        "김지윤"
+      ],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "민주신보"
+      ],
+      "overlayFile": "data/events/pass-232-1952-september-governance.json",
+      "attributionCaution": "행위별로 기관·장관·대통령 책임을 구분; 대통령 직접명령은 명시된 원문에만 귀속"
+    },
+    {
+      "id": "evt-p232-0919-unc-foreign-policy",
+      "name": "미국 국무부 유엔총회 정전협상 의제 전략",
+      "date": "1952-09-19",
+      "politicians": [
+        "cand-1952-sep-us-ambassador-yang-yu-chan"
+      ],
+      "institutions": [
+        "미국 국무부"
+      ],
+      "evidenceState": "open",
+      "confirmed": [
+        "1952-09 동시대 자료 및 공식 기록에 기록된 미국 국무부 유엔총회 정전협상 의제 전략의 행위 단계. 제안·결정·집행은 data/events/pass-232-1952-september-governance.json 참조."
+      ],
+      "openQuestions": [
+        "미국 정부 입장과 한국 정부 입장 구분; 발췌문"
+      ],
+      "sources": [],
+      "documentIds": [
+        "DOC-P232-DH-19520919-001",
+        "DOC-P232-DH-19520917-007"
+      ],
+      "domain": "전쟁·외교",
+      "proposed_by": [
+        "미국 국무부"
+      ],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "FRUS 1952"
+      ],
+      "overlayFile": "data/events/pass-232-1952-september-governance.json",
+      "attributionCaution": "행위별로 기관·장관·대통령 책임을 구분; 대통령 직접명령은 명시된 원문에만 귀속"
     }
-  ]
+  ],
+  "recentResearchPass232": {
+    "eventsAdded": 23,
+    "source": "data/events/pass-232-1952-september-governance.json",
+    "note": "Original document IDs resolved in separate registry; Rhee direct attribution only for 1952-09-02 explicit cabinet utterance"
+  }
 }
