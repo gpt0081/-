@@ -111,7 +111,8 @@
       "statement": "FRUS doc751의 국무회의는 1954-08-27이었다",
       "evidence": [
         "DOC-P239I-FRUS-751",
-        "DOC-P239I-CABINET-FINDING"
+        "DOC-P239I-CABINET-FINDING",
+        "DOC-P239I-EISENHOWER-CABINET-STAFF-FINDING"
       ],
       "status": "CONFLICTED",
       "review_date": "2026-10-28",
@@ -120,7 +121,8 @@
         "DOC-P239I-FRUS-751"
       ],
       "contradicting_evidence": [
-        "DOC-P239I-CABINET-FINDING"
+        "DOC-P239I-CABINET-FINDING",
+        "DOC-P239I-EISENHOWER-CABINET-STAFF-FINDING"
       ],
       "insufficient_evidence": [],
       "contemporaneous_observation": [],
@@ -130,7 +132,8 @@
           "date": "2026-10-28",
           "reason": "Normalize statement polarity and evidence semantics; preserve correction history"
         }
-      ]
+      ],
+      "uncertainty": "Two separate Eisenhower Library archival finding aids concur 1953-08-27; FRUS d751 heading 1954-08-27 likely typo but underlying original minutes not yet opened"
     },
     {
       "id": "CLM-P239I-land-cash",
@@ -328,16 +331,22 @@
     },
     {
       "id": "CLM-P239I-treaty-date",
-      "statement": "한미상호방위조약의 한국 일부 후대 문헌상 1954-11-18 발효일은 UNTS의 1954-11-17 워싱턴 발효일과 법적으로 충돌한다",
+      "statement": "조약 발효일은 UNTS 1954-11-17 워싱턴 비준서 교환과 국가기록원 정책연혁 1954-11-18로 달리 표기된다",
       "evidence": [
-        "DOC-P239I-UNTS"
+        "DOC-P239I-UNTS",
+        "DOC-P239I-NARA-POLICY501"
       ],
-      "status": "INSUFFICIENT",
+      "status": "CONFLICTED",
       "review_date": "2026-10-28",
       "adversarial_review": "Looked for original draft, signed treaty, Korean contemporary account, alternative archive where available; no inference of presidential direct order from tenure alone",
-      "supporting_evidence": [],
-      "contradicting_evidence": [],
+      "supporting_evidence": [
+        "DOC-P239I-NARA-POLICY501"
+      ],
+      "contradicting_evidence": [
+        "DOC-P239I-UNTS"
+      ],
       "insufficient_evidence": [
+        "DOC-P239I-NARA-POLICY501",
         "DOC-P239I-UNTS"
       ],
       "contemporaneous_observation": [],
@@ -346,8 +355,13 @@
         {
           "date": "2026-10-28",
           "reason": "Normalize statement polarity and evidence semantics; preserve correction history"
+        },
+        {
+          "date": "2026-10-28",
+          "reason": "Found independent Korean National Archives official retrospective policy page explicitly saying 1954-11-18; preserve discrepant date without silent overwrite"
         }
-      ]
+      ],
+      "uncertainty": "Original UNTS treaty registry is authoritative for Washington exchange date; timezone conversion or Korean publication convention not established; do not assert legal contradiction"
     },
     {
       "id": "CLM-P239I-pow-relief",

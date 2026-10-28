@@ -29,3 +29,8 @@ FRUS d751은 1954-08-27 국무회의로 표기하지만 Eisenhower Library Cabin
 
 역사부채 주간 전수조사 미실시. Floot 미수정.
 
+
+
+### 2026-10-28 추가 독립 소장목록 및 한국 국가기록원 날짜 대조
+- 국가기록원 정책변천사(https://theme.archives.go.kr/next/govpo/detail.do?policySeq=501)는 1953-08-08 가조인·1953-10-01 정식 조인·1954-11-18 발효로 기록한다. UNTS No.3363은 1954-11-17 워싱턴 비준서 교환 발효로 기록한다. 두 표기를 그대로 보존하며 한국 날짜 변환 근거를 확인하기 전 법적 충돌로 단정하지 않는다.
+- Eisenhower Library White House Staff Secretary Cabinet Minutes Series(https://www.eisenhowerlibrary.gov/sites/default/files/finding-aids/pdf/who-oss/cabinet-minutes-series.pdf) Box1 'Cabinet Minutes, May 1-August 27, 1953 (1)'도 1953-08-27 회의를 명시한다. Ann Whitman Cabinet Series Box2와 일치하지만 같은 회의의 거의 중복된 소장본이므로 독립된 회의 두 건으로 계산하지 않는다. FRUS d751의 1954-08-27 표제는 원본 미열람으로 CONFLICTED 유지.
