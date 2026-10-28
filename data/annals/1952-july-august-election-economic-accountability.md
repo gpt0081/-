@@ -21,3 +21,12 @@ FRUS d193·d200·d208의 Manhard 조사에는 강제문신·폭력·정보차단
 FRUS d188은 6월 23일 수풍 수력발전소 폭격 승인선을 **미국 대통령·국방부·국무부·합참·클라크**로 설명한다. 이승만의 직접 폭격 명령으로 귀속하지 않는다. UNCURK A/2187·A/2441 PDF는 원문 접속 403으로, 검색 색인의 서민호 군법회의 후속·김시현/유시태 항소 관련 문장은 **본문 직접 확인으로 계산하지 않았다**.
 
 주요 원문: https://history.state.gov/historicaldocuments/frus1952-54v15p1/d192 ; https://history.state.gov/historicaldocuments/frus1952-54v15p1/d208 ; https://history.state.gov/historicaldocuments/frus1952-54v15p1/d227 ; https://db.history.go.kr/id/dh_026_1952_07_04_0030 ; https://db.history.go.kr/id/dh_026_1952_08_26_0070 ; https://db.history.go.kr/id/dh_026_1952_09_06_0030 ; https://pa.go.kr/online_contents/inauguration/president02.jsp
+
+## 7. 8월 15일 이후: 대통령 발언과 독립 국정기록
+이승만 제2대 취임사(공보처 발표, 국편 `dh_026_1952_08_15_0020`)는 전쟁과 통일뿐 아니라 물가를 전답·공장·광산의 생산 회복과 국제원조에 연결했다. 그는 1952 정치파동을 외국 기자와 정치적 반대자가 오해한 사건으로 해석했다. 이는 대통령의 **자기평가**이며 FRUS의 개입계획·의원 경찰출석 기록과 병치한다. 신익희 의장은 같은 날 전쟁완수, 유가족·상이군경·피난민·빈민 구호, 공무원 생활보장·인사정화를 요청했다. 요청은 이행과 다르다.
+
+8/15 부산일보는 김찬수 검사가 담당한 국제구락부 사건 관련 30명 불기소를 보도한다. 혐의가 전혀 없었다는 확정판결로 해석하지 않는다. 농림부 1952~53 식량복안은 추곡 950만석, 잡곡 500만석, 외곡 540만석 도입으로 보도됐지만 가뭄 수확 5할 이하라는 전문가 비판이 있었다. 예측과 실측을 분리한다.
+
+8/31 부산일보 사설은 UN군 대여금 3500만달러의 8/28 교부 및 월 440만달러 상환 요청을 보도하고, 기획처의 생산원료·시설복구·소규모 신설·긴급물자 우선순위를 언급한다. 은행 수령장부는 미확보. 7/22 동아일보는 중석불 특위의 재무·농림·총무처 조사를, 경향신문은 박정근 농림분과위원장의 국무원 공동책임 견해를 기록한다. 9/17 삼우장 풍자는 정당 여론자료일 뿐 개별 비리의 입증이 아니다.
+
+원문: https://db.history.go.kr/contemp/level.do?levelId=dh_026_1952_08_15_0020&types=o ; https://db.history.go.kr/contemp/level.do?levelId=dh_026_1952_08_15_0040&types=o ; https://db.history.go.kr/contemp/level.do?levelId=dh_026_1952_08_15_0050&types=o ; https://db.history.go.kr/contemp/level.do?levelId=dh_026_1952_08_15_0060&types=o ; https://db.history.go.kr/contemp/level.do?levelId=dh_026_1952_08_31_0070&types=o
