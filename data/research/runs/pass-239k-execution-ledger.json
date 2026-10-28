@@ -6,15 +6,15 @@
   "first_commit": "00a150277f52722dbfe9d4618b6941f3edec831e",
   "second_commit": "3c72a4f04098620fe946aed1c2b99e66ebaf793a",
   "third_commit": "e232659d309d294cbe004de3ecaf1896eb459082",
-  "meaningful_documents_opened": 70,
+  "meaningful_documents_opened": 73,
   "frus_original_origin_pages": 63,
   "korean_official_law_partial": 1,
   "korean_official_retrospective": 3,
-  "aks_secondary": 3,
-  "un_a2711_403_excluded": 1,
-  "official_original_origin_opened": 64,
+  "aks_secondary": 4,
+  "un_a2711_403_excluded": 0,
+  "official_original_origin_opened": 65,
   "original_facsimiles_opened": 0,
-  "independent_research_lines": 26,
+  "independent_research_lines": 30,
   "governance_domains": [
     "헌정·입법",
     "행정·인사",
@@ -26,18 +26,19 @@
     "치안·정보",
     "정당·정치행정"
   ],
-  "nonpresident_actors": 14,
-  "new_candidate_nodes": 5,
+  "nonpresident_actors": 20,
+  "new_candidate_nodes": 10,
   "politician_promotions": [
-    "pol-sohn-won-yil"
+    "pol-sohn-won-yil ANNALS_ACTIVE",
+    "cand-p235-kwak-sang-hun VERIFIED"
   ],
-  "new_or_deepened_events": 20,
-  "adversarial_claims": 16,
-  "tracked_prior_leads": 11,
-  "new_specific_leads": 40,
+  "new_or_deepened_events": 28,
+  "adversarial_claims": 21,
+  "tracked_prior_leads": 14,
+  "new_specific_leads": 50,
   "active_queue": 15,
-  "backlog_queue": 25,
-  "cross_provenance_comparison_attempts": 3,
+  "backlog_queue": 35,
+  "cross_provenance_comparison_attempts": 5,
   "strict_three_independent_original_confirmations": 0,
   "weekly_full_review": false,
   "one_hour_verified": false,
@@ -115,7 +116,7 @@
     "https://history.state.gov/historicaldocuments/frus1955-57v23p2/d64",
     "https://history.state.gov/historicaldocuments/frus1955-57v23p2/d65"
   ],
-  "source_audit_note": "FRUS d1 editorial excluded; d3 previously read in pass239J excluded; 63 direct original-origin pages; 7 Korean institutional pages; UN A2711 not counted",
+  "source_audit_note": "FRUS d2,d4..d65 63 directly opened; ROK law1, NIKH chronologies3, AKS4, NEC1, UN original PDF1 = 73. UN A2711 OCR retrieved after initial 403, original text directly inspected; no facsimile visual validation. NEC 114 elected vs UN 136 later parliamentary group not conflicting same-time data.",
   "final_integration_commit": "see main ref after this ledger update",
   "integrated_files": [
     "data/politicians.json",
@@ -134,11 +135,22 @@
     "data/annals/yu-wan-chang.md"
   ],
   "validation": {
-    "politicians_total": 153,
-    "events_total": 494,
-    "new_candidate_ids": 5,
+    "politicians_total": 158,
+    "events_total": 502,
+    "new_candidate_ids": 10,
     "actor_event_refs_missing": 0,
-    "primary_document_count": 64,
+    "primary_document_count": 65,
     "original_facsimiles_opened": 0
-  }
+  },
+  "nec_official_retrospective": 1,
+  "un_a2711_original_pdf_text": 1,
+  "primary_source_families": [
+    "US FRUS original-origin transcripts",
+    "ROK official 1955 law",
+    "UN UNCURK original 1954 report"
+  ],
+  "additional_commits": [
+    "8a01d0c6bcabc96613787834b33bea39a16ee759",
+    "09f85c15c1b83e80a10d7e3c8de70ac34e0bfa8c"
+  ]
 }

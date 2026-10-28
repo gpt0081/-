@@ -877,3 +877,12 @@
 - **HD-P239K-HOHEON-DATE · CONFLICTED**: AKS 호헌동지회 1954/1955 설립일 내부 불일치. 다음: National Assembly Nov29-30 1954 original.
 - 기존 pass239J 11개 lead 개별 추적: LEAD-P239J-14, LEAD-P239J-15, LEAD-P239J-19, LEAD-P239J-20, LEAD-P239J-21, LEAD-P239J-26, LEAD-P239J-27, LEAD-P239J-28, LEAD-P239J-33, LEAD-P239J-40, LEAD-P239J-46. RESOLVED 강제변경 없음.
 - **역사부채 주간 전수조사 미실시**. last_full_review 불변.
+
+
+## 2026-10-29 pass239K UN A/2711 원문 확보 후 역사부채 축소
+- **HD-P239K-UNC-TRANSFER · NARROWED**: UNCURK 1954-08-09 5-1 recommendation and 08-12 UNC readiness established; actual ROK civil handover date unverified. 다음 원문: UNC 1954 Aug-Sept handover orders and ROK Interior Ministry receipt.
+- **HD-P239K-ELECTION-TIMEBASE · NARROWED**: NEC 114 Liberal elected vs UN 136 Liberal parliamentary group reflect different dates, roster changes untraced. 다음 원문: National Election Committee elected roster and 1954 Aug Assembly party registration.
+- **HD-P239K-CABINET-CONTINUITY · NARROWED**: 1954 UN names Kang Sung-Tae and Lee Joong-Jai; whether 1955 FRUS Kang/Lee are same continuous ministers. 다음 원문: 1954-07 to 1955-03 ROK gazette cabinet changes.
+- **HD-P239K-INDEPENDENT-GROUP · OPEN**: 1954 Aug Independent Comrades Association 31 members under Kwak vs Nov Hoheon organization identity. 다음 원문: 1954 Aug and Nov Assembly negotiating-group registration original.
+- 기존 LEAD-P239J-33은 UN 원문 확보로 OPEN→NARROWED. LEAD-P239J-34/35/39도 개별 추적. 실제 인계·당적변동·1955 인사연속성은 미해결.
+- 역사부채 주간 전수조사 미실시. last_full_review 불변.
