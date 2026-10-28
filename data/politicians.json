@@ -5037,6 +5037,64 @@
       "researchRefs": [
         "data/politicians/pass-239e-actors.json"
       ]
+    },
+    {
+      "id": "pol-cho-chung-whan",
+      "name": "조정환",
+      "aliases": [
+        "Cho Chung-whan",
+        "Cho Chung Whan",
+        "Cho Chŏnghwan",
+        "Jo Jeonghwan"
+      ],
+      "hanja": null,
+      "hanjaVerification": "OPEN: official Korean archival identity record needed",
+      "birthDate": null,
+      "deathDate": null,
+      "biographicalClaims": [
+        {
+          "birth": "1892-12-10",
+          "death": "1967-11-25",
+          "status": "UNVERIFIED_SINGLE_SECONDARY_SOURCE",
+          "source": "https://en.wikipedia.org/wiki/Cho_Chung-whan"
+        }
+      ],
+      "roles": [
+        "1953-10-03 외무장관 대리(acting foreign minister)",
+        "1955-07-28~1959-12-21 외무부 장관(외교부 공식 역대 장관 명단)"
+      ],
+      "officeHistory": [
+        {
+          "office": "외무장관 대리",
+          "date": "1953-10-03",
+          "verification": "FRUS XV/2 doc.764 footnote; acting tenure bounds unknown"
+        },
+        {
+          "office": "외무부 장관",
+          "start": "1955-07-28",
+          "end": "1959-12-21",
+          "verification": "Korean Ministry of Foreign Affairs official Former Ministers list"
+        }
+      ],
+      "researchStatus": "VERIFIED",
+      "promotionReason": "1953 acting office in contemporaneous US diplomatic record, 1955-1959 ministerial tenure independently confirmed by Korean MOFA official registry; Hanja and birth/death not promoted",
+      "backbone": false,
+      "connections": [
+        "evt-p239i-12"
+      ],
+      "evidenceCoverage": [
+        "DOC-P239I-FRUS-764",
+        "DOC-P239I-FRUS-770",
+        "DOC-P239I-MOFA-CHO"
+      ],
+      "researchRefs": [
+        "data/politicians/pass-239i-postarmistice-actors.json",
+        "data/annals/cho-chung-whan.md"
+      ],
+      "openLeads": [
+        "LEAD-P239I-41"
+      ],
+      "lastResearchPass": "239I"
     }
   ],
   "recentResearchPass232": {
@@ -5119,6 +5177,7 @@
     "date": "2026-10-28",
     "actorOverlays": "data/politicians/pass-239i-postarmistice-actors.json",
     "eventGraph": "data/events/pass-239i-postarmistice-actions.json",
-    "evidence": "data/documents/pass-239i-postarmistice-treaty.json"
+    "evidence": "data/documents/pass-239i-postarmistice-treaty.json",
+    "newPolitician": "pol-cho-chung-whan"
   }
 }
