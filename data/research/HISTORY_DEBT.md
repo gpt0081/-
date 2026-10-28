@@ -481,3 +481,14 @@
 ### HD-P235-UNKRA-DISBURSEMENT · UNKRA 70m 승인과 실제 집행
 - 상태: `NARROWED`. FRUS d379 장기계획 제안 vs d395 1953-02 집행지연 내부보고. 다음: UNKRA 사업별 계약·지급원장.
 > 2026-10-28 수요일 개별 부채 보강. 역사부채 주간 전수조사 미실시. last_full_review 불변.
+
+
+### HD-P235B-BUDGET-1953-0131 · 국회 적자예산 보도 채택시제·산술 불일치
+- 상태: `CONFLICTED` (2026-10-28 pass235B). 국편 dh_028_1953_01_31_0040 제목은 요청서 채택, 본문은 31일 본회의 상정예정. 총액7조2520억-세입2조9600억=4조2920억인데 기사 첫머리 적자4조2930억, 본문 '4,930억'. 10억 차이와 큰 전사불일치 모두 보존. 원국회 속기록·원예산서·원신문 확인 전 수치 정정 금지.
+- 출처: https://db.history.go.kr/contemp/level.do?levelId=dh_028_1953_01_31_0040
+### HD-P235B-COAL-CURRENCY-UNIT · 1953-01-09 부산일보 석탄 가격 '환' 단위
+- 상태: `OPEN`. 국편 dh_028_1953_01_09_0050 전사 '톤당 3만2천환' vs 한국은행 1953-02-17 환 신권 법정통용. 원지면 미확보. 원문 '원/圓' 오자·편집상 환산·당시 용어 사용을 구분해야 함. 단위 임의 환산 금지.
+### HD-P235B-LEE-BEOM-SEOK-IDENTITY · 이범석 중복 정치인 stable ID
+- 상태: `OPEN`. data/politicians.json에 pol-lee-beom-seok 및 pol-lee-beom-seok-1900 두 노드가 동일 한자 李範奭·영문 Lee Beom-seok을 사용. 1953-02-17 브릭스 내무장관 언급은 한 인물로 보이나 생몰·관직·출처 일치 전 자동 병합하지 않음. correction/migration history 필요.
+- 출처: https://db.history.go.kr/contemp/level.do?levelId=dh_028_1953_02_17_0010
+> 2026-10-28 수요일 개별 역사부채 추가. 역사부채 주간 전수조사 미실시. last_full_review 불변.

@@ -1,0 +1,68 @@
+{
+  "pass": "235B",
+  "claims": [
+    {
+      "id": "CLM-P235B-BUDGET-ARITHMETIC",
+      "statement": "1953년 국회 메시지 보도 예산 총액7조2520억·세입2조9600억·적자4조2930억은 완전히 일치한다",
+      "status": "CONFLICTED",
+      "supporting_evidence": [
+        "DOC-P235B-NIKH-01_31_0040"
+      ],
+      "contradicting_evidence": [
+        "arithmetic: 7조2520억 - 2조9600억 = 4조2920억"
+      ],
+      "insufficient_evidence": [],
+      "analysis": "제목 근처 적자4조2930억과 산술 4조2920억 10억원 차이. 본문 중 '4,930억'은 앞 수치와 큰 차이. 원예산표·신문 원지면·OCR 오류 검증 전 조용한 교정 금지."
+    },
+    {
+      "id": "CLM-P235B-BUDGET-ADOPTED",
+      "statement": "1953-01-31 국회 대미·유엔 적자예산 요청서가 확정 채택됐다",
+      "status": "CONFLICTED",
+      "supporting_evidence": [
+        "DOC-P235B-NIKH-01_31_0040: title '채택'"
+      ],
+      "contradicting_evidence": [
+        "DOC-P235B-NIKH-01_31_0040: body '31일 본회의 상정 예정'"
+      ],
+      "insufficient_evidence": [],
+      "analysis": "동일 신문 편집제목·본문의 확정시제 불일치. 원속기록 필요."
+    },
+    {
+      "id": "CLM-P235B-RHEE-AID-SPENT",
+      "statement": "1953-01-01 이승만 신년사 7000만달러 UNKRA·1억4300만달러 구호금은 이미 전액 집행됐다",
+      "status": "CONTRADICTED",
+      "supporting_evidence": [],
+      "contradicting_evidence": [
+        "DOC-P235B-NIKH-01_01_0010",
+        "DOC-P235-FRUS-395"
+      ],
+      "insufficient_evidence": [],
+      "analysis": "대통령 연설은 계획·예정, 미 국무부 2/13 보고는 UNKRA 집행지연. 출처계열 한국 대통령 발언 vs 미국 내부보고 교차."
+    },
+    {
+      "id": "CLM-P235B-COAL-UNIT",
+      "statement": "1953-01-09 석탄 톤당 가격 단위가 환(圜)으로 기록된 전사는 당시 합법 통화단위를 정확히 반영한다",
+      "status": "OPEN",
+      "supporting_evidence": [
+        "DOC-P235-NIKH-01_09_0050"
+      ],
+      "contradicting_evidence": [
+        "DOC-P235-BOK-1",
+        "DOC-P235-BOK-2"
+      ],
+      "insufficient_evidence": [],
+      "analysis": "1953-01-09 부산일보 전사에는 '톤당 3만 2,000환'이라 적지만 한국은행은 2/17 환 도입. 원신문 인쇄 '원/圓'인지 전사 오류·당시 용어 혼용인지 확인 전 단위 환산 금지."
+    },
+    {
+      "id": "CLM-P235B-TAX-GUILTY",
+      "statement": "1953-01-31 부산 세무서 관리들은 공금횡령 유죄가 법원에서 확정됐다",
+      "status": "INSUFFICIENT",
+      "supporting_evidence": [],
+      "contradicting_evidence": [],
+      "insufficient_evidence": [
+        "DOC-P235B-NIKH-01_31_0050"
+      ],
+      "analysis": "신문은 경찰 조사·혐의·자백 주장만 전달. 원수사기록·판결 확인 전 형사책임 확정 불가."
+    }
+  ]
+}

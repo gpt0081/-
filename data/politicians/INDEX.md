@@ -53,3 +53,6 @@
 ## Pass235: 1953-01~03 국회·군정·재정 행위자 (2026-10-28)
 - `data/politicians/pass-235-1953-assembly-cabinet-actors.json`: 기존7명 심화 + 국회 위원장 **후보 보도** 8명 잠정 신규. 후보와 실제 당선은 구별. 원선거 기록 필요.
 - 관련: `data/events/pass-235-1953-governance-currency-pow.json`, `data/claims/pass-235-1953-adversarial.json`, `data/annals/1953-jan-mar-governance-currency-pow.md`.
+
+### Pass235B 국내 예산·문화외교 보강
+- `data/politicians/pass-235-addendum-b-culture-speaker-minister.json`: 신익희 1953 신년사, 이범석 중복 ID review, 이철원 공보처장 문화사절단. 신문상 사절단 3명은 정치인 자동승격하지 않음.

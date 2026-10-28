@@ -1,0 +1,121 @@
+{
+  "pass": "235B",
+  "politicians": [
+    {
+      "id": "cand-1952-speaker-shin-ik-hui",
+      "name": "신익희",
+      "aliases": [
+        "申翼熙",
+        "Shin Ik-hui"
+      ],
+      "researchStatus": "IDENTIFIED_existing_deepened",
+      "rolesByPeriod": [
+        {
+          "date": "1953-01-01",
+          "role": "국회의장 신년사 발표",
+          "actionType": "contemporaneous_speech",
+          "evidence": "DOC-P235B-NIKH-01_01_0030"
+        }
+      ],
+      "eventIds": [
+        "evt-p235b-shin-democracy-speech"
+      ],
+      "openLeads": [
+        "LEAD-P235B-003"
+      ],
+      "lifespan": {
+        "verified_this_pass": false
+      }
+    },
+    {
+      "id": "pol-lee-beom-seok",
+      "name": "이범석",
+      "aliases": [
+        "李範奭",
+        "Lee Beom-seok"
+      ],
+      "researchStatus": "IDENTIFIED_existing_identity_review_needed",
+      "rolesByPeriod": [
+        {
+          "date": "1953-02-17",
+          "role": "내무장관 발언에 대한 미국 대사 보고",
+          "actionType": "foreign_observation_not_direct_order",
+          "evidence": "DOC-P235B-NIKH-02_17_0010"
+        }
+      ],
+      "eventIds": [
+        "evt-p235b-lee-beom-seok-diplomacy"
+      ],
+      "openLeads": [
+        "LEAD-P235B-009"
+      ],
+      "possibleSameAs": [
+        "pol-lee-beom-seok-1900"
+      ],
+      "lifespan": {
+        "verified_this_pass": false
+      }
+    },
+    {
+      "id": "pol-lee-beom-seok-1900",
+      "name": "이범석",
+      "aliases": [
+        "李範奭",
+        "Lee Beom-seok"
+      ],
+      "researchStatus": "IDENTIFIED_duplicate_candidate_review",
+      "rolesByPeriod": [
+        {
+          "date": "1953-02-17",
+          "role": "내무장관 발언에 대한 미국 대사 보고",
+          "actionType": "foreign_observation_not_direct_order",
+          "evidence": "DOC-P235B-NIKH-02_17_0010"
+        }
+      ],
+      "eventIds": [
+        "evt-p235b-lee-beom-seok-diplomacy"
+      ],
+      "openLeads": [
+        "LEAD-P235B-009"
+      ],
+      "possibleSameAs": [
+        "pol-lee-beom-seok"
+      ],
+      "lifespan": {
+        "verified_this_pass": false
+      }
+    },
+    {
+      "id": "cand-p235-lee-cheol-won",
+      "name": "이철원",
+      "aliases": [
+        "李哲源",
+        "Lee Cheol-won (romanization provisional)"
+      ],
+      "researchStatus": "IDENTIFIED_provisional",
+      "rolesByPeriod": [
+        {
+          "date": "1953-01-01",
+          "role": "공보처장으로 영국 문화사절단 출발",
+          "actionType": "reported_official_public_diplomacy",
+          "evidence": "DOC-P235B-NIKH-01_01_0020"
+        }
+      ],
+      "eventIds": [
+        "evt-p235b-uk-cultural-delegation"
+      ],
+      "openLeads": [
+        "LEAD-P235B-002"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verified_this_pass": false
+      }
+    }
+  ],
+  "duplicate_identity_warning": [
+    "pol-lee-beom-seok",
+    "pol-lee-beom-seok-1900"
+  ]
+}
