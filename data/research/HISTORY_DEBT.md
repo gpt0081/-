@@ -634,3 +634,15 @@
 ### HD-P236H-1953-APRIL-POW-FOREIGN-MINISTER · 4/14 변영태의 상병포로 교환 서한
 - 상태: `NARROWED`. `le_005_0960` 4/14 변영태 외무장관→Clark 상병포로교환 관련 서한 목록 확인. FRUS d454의 4/11 Little Switch 합의와 4/20 집행 예정 사이에 한국 외무부가 별도 서한을 보낸 사실을 연결. 원문 내용·찬반·법적 권한 미확인.
 > 2026-10-28 수요일 개별 역사부채 검토. 역사부채 주간 전수조사 미실시. last_full_review 불변.
+
+
+## Pass237 / Pass237B (2026-10-28, Wednesday): targeted debt review, NOT weekly full review
+- **HD-P237-ROK-POW-OBSERVERS** [NARROWED]: FRUS d467 reports 1953-04-16 National Assembly six-observer resolution, Pyun/McGarr/Briggs discussion and three ROK representatives at initial Munsan processing. Assembly stenogram, names, and original ROK foreign ministry memo absent. See `data/events/pass-237-armistice-actions.json` and LEAD-P237-001~005.
+- **HD-P237-EVERREADY-EXECUTION** [OPEN]: Taylor 1953-05-04 Outline Plan EVERREADY (FRUS d492) is a contingency plan, NOT proof of activation or any actual arrest/disarmament. Seek Annex 1 and JCS activation/cancellation orders, LEAD-P237-015~017.
+- **HD-P237-RHEE-APR30-LETTER** [NARROWED]: FRUS d487 contains Rhee's 1953-04-30 eight conditional terms for simultaneous withdrawal; 1953-04-29 Korean press conference (NIKH dh_029_1953_04_29_0030) contains different two headline conditions. Do not collapse 4/8 five points, 4/29 public remarks and 4/30 eight terms. Korean signed original remains OPEN.
+- **HD-P237-TASCA-ECONOMY** [OPEN]: 부산일보 1953-04-29 reports 4/21~25 Tasca delegation economic talks and 429억원 budget deficit. This is NOT confirmed aid disbursement. Seek Korean cabinet minutes, Tasca report, financial ledger.
+- **HD-P237-FERTILIZER-CREDIT** [OPEN]: 4/29 愼농림장관 (registry candidate `cand-1952-sep-agri-shin-jung-mok`) stated cash/credit choice in fertilizer allocation but some financial cooperatives demanded cash only. Need joint economic commission minutes, county distribution ledger.
+- **HD-P237-RELIEF-GRAIN** [OPEN]: 민주신보 1953-04-29 reports relief grain 70,000 tons needed monthly vs 26,000 allocated, 5 million intended recipients, Pohang 1,743/2,229 grain-short households. Press figures, not official audited ledger.
+- **HD-P237-COOP-LAW** [OPEN]: 민주신보 1953-05-01 reports agricultural cooperative bill still in parliamentary committee and competing farmers' groups' May 7/8 Daejeon conventions planned. Actual enactment, registration and asset transfer not established.
+- **HD-P237-COUNTERFEIT-NOTE** [OPEN]: 조선일보 1953-05-01 mentions forged '천원권' in Mokpo after Feb currency reform. Currency denomination, old note, and police evidence unresolved.
+- Review status: 8 prior leads narrowed (not RESOLVED) in `data/research/debt/pass-237-targeted-debt-review.json`. 34 FRUS and 12 domestic document-specific leads recorded. **역사부채 주간 전수조사 미실시**. last_full_review unchanged.
