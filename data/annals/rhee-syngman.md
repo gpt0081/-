@@ -655,3 +655,8 @@
 - 1953-06-22 인도 외교관은 중국측의 석방포로 강제징집 우려를 전달했다(FRUS d624). 이는 외교적 의혹이지 강제징집 입증자료가 아니다.
 
 상세 근거와 상반 명제: `data/annals/1953-june8-22-pow-diplomacy-civilian-governance.md`. 대통령 재임 중 발생했다는 이유만으로 개별 부처 실행을 대통령 직접 지시로 귀속하지 않는다.
+
+### Pass239D 원문 전량 fetch 후 교정
+- Briggs FRUS d593 'ROK Forces 관련 단독행동' vs Rhee/Pyun d616 'UNC 철수에 한정' 해석 차이.
+- Clark FRUS d582 UNC 군정수립 금지 명시. Clark d623 6/22 휴전 조건부 지지 가능성과 미승인 절충안.
+- Murphy d614와 Johnson d624 미군·한국군 발포 보고, 책임명령 원문 미확인.

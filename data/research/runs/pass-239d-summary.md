@@ -33,3 +33,8 @@
 - `data/annals/won-yong-duk.md`, `data/evidence/won-yong-duk.json`.
 
 역사부채 주간 전수조사 미실시. 최종 커밋은 main 브랜치에서 확인(자기 SHA를 커밋 본문에 삽입하지 않음).
+
+## 2026-10-28 full-text validation correction
+- FRUS d582-d624 전체 43개 페이지의 전문을 별도 추출·대조. 문서 604/606/608은 편집주석, d607에는 한국 대통령 공보처 S-61이 첨부됨.
+- 따라서 59개 직접 연 문서페이지에서 고유 원작성 **53개**, 공식·당사자 원작성 **47개**, 독립 신문 원작성 **6개**. 초기 54/48 집계는 원작성 중복으로 정정.
+- 기존 사건 16→19개, 반증 주장 14→18개, 다음 원문표적 38→42개. `data/research/runs/pass-239d-execution-ledger.json`의 correction history 참조.

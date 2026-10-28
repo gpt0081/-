@@ -10,23 +10,25 @@
     "frus_pages": 43,
     "nikh_pages": 16,
     "frus_editorial_notes_excluded": 3,
-    "duplicate_original_derivatives_excluded": 2,
-    "unique_original_origin_documents": 54,
-    "official_primary_or_actor_original_origin": 48,
+    "duplicate_original_derivatives_excluded": 3,
+    "unique_original_origin_documents": 53,
+    "official_primary_or_actor_original_origin": 47,
     "contemporary_press_original_origin": 6,
     "facsimiles_opened": 0,
-    "independent_research_lines": 28,
+    "independent_research_lines": 31,
     "governance_domains": 9,
     "nonpresidential_nodes_reviewed": 10,
     "substantively_deepened_with_personal_action": 7,
     "context_only_not_counted_deepened": 3,
     "verified_promotions": 1,
-    "events_added": 16,
-    "adversarial_claims": 14,
+    "events_added": 19,
+    "adversarial_claims": 18,
     "prior_debts_tracked": 8,
-    "new_concrete_leads": 38,
+    "new_concrete_leads": 42,
     "contextual_multi_provenance_bundles": 3,
-    "strict_three_independent_same_claim_confirmations": 0
+    "strict_three_independent_same_claim_confirmations": 0,
+    "frus_full_text_pages_fetched": 43,
+    "korean_full_transcription_pages_fetched": 7
   },
   "independent_research_lines": [
     "Everready June8 revised contingency",
@@ -56,7 +58,10 @@
     "Tongyeong gender education",
     "Uiryeong wartime school loss",
     "UNC 2500/25000 transcription",
-    "India forced recruitment allegations"
+    "India forced recruitment allegations",
+    "US-ROK gunfire reports and restraint",
+    "June22 conditional armistice compromise",
+    "Jinyang school-age vs enrolled numerical definition"
   ],
   "governance_domains": [
     "외교",
@@ -176,10 +181,23 @@
     {
       "issue": "NIKH 6/18 US Young conversation duplicate pointer",
       "action": "Replace nonexistent DOC-P239D-FRUS-611 with existing doc-frus-1953-paek-yang-dulles"
+    },
+    {
+      "issue": "Full FRUS d607 includes OPI S-61 as enclosure",
+      "action": "Correct NIKH 0080 original duplicate; 54→53 unique origins, 48→47 official originals."
+    },
+    {
+      "issue": "Briggs d593 actual promise wording",
+      "action": "Replace 'any unilateral act' with 'unilateral action with ROK forces'; preserve Rhee/Pyun narrower withdrawal-only reading."
+    },
+    {
+      "issue": "Earlier no-clash implication incomplete",
+      "action": "d614 and d624 explicitly report some firing; register separately without attributing shooters or casualties."
     }
   ],
   "commits": [
     "212165b012b8e6cae922ba7c3fdb9896ab2b6482"
   ],
-  "last_commit_note": "Final synchronization SHA intentionally omitted to avoid self-referential commit."
+  "last_commit_note": "Final synchronization SHA intentionally omitted to avoid self-referential commit.",
+  "validation_note": "After full-text fetch of all FRUS d582-d624, corrected original-count, scope of notice and firing evidence. No unqualified final verdict on contradictory assertions."
 }
