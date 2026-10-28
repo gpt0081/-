@@ -23,5 +23,25 @@
   "weekly_full_review": "NOT_PERFORMED",
   "last_full_review": "2026-09-27",
   "full_hour_execution_claim": false,
-  "Floot": "not touched"
+  "Floot": "not touched",
+  "corrections": [
+    {
+      "date": "2026-10-29",
+      "file": "data/politicians.json",
+      "action": "restored structured evidenceCoverage for Kim Yong-chan and moved pass240 references to evidenceCoveragePass240"
+    },
+    {
+      "date": "2026-10-29",
+      "file": "data/documents/pass-240-1955-originals.json",
+      "action": "FRUS doc62 marked undated; meeting dates retained separately"
+    }
+  ],
+  "base_commit": "d0d706306c0bc15ed379548497e7cb9b756cd933",
+  "research_commit": "1f3591cab0f2acb8585c551f0c71d6eb9f64fb3b",
+  "validated_at": "2026-10-29",
+  "validation": {
+    "politician_id_uniqueness": true,
+    "document_id_uniqueness": true,
+    "legacy_evidence_coverage_restored": true
+  }
 }

@@ -5979,9 +5979,12 @@
         "evt-p239k-15",
         "evt-p240-02"
       ],
-      "evidenceCoverage": [
-        "DOC-P240-FRUS-60"
-      ],
+      "evidenceCoverage": {
+        "documentIds": [
+          "DOC-P239K-FRUS-60"
+        ],
+        "source": "US FRUS originals and AKS only for Lee Hu-rak"
+      },
       "openLeads": [
         "LEAD-P239K-08"
       ],
@@ -6001,7 +6004,18 @@
           "evt-p240-02"
         ],
         "openLead": "한국 인사관보·원발신·원회의록으로 재무차관 6/21 회담 검증"
-      }
+      },
+      "evidenceCoveragePass240": [
+        "DOC-P240-FRUS-60"
+      ],
+      "correctionHistory": [
+        {
+          "date": "2026-10-29",
+          "type": "SCHEMA_REPAIR",
+          "reason": "pass240 append converted a structured legacy evidenceCoverage object to array; restore original object and preserve new evidence separately",
+          "sourceCommit": "1f3591cab0f2acb8585c551f0c71d6eb9f64fb3b"
+        }
+      ]
     },
     {
       "id": "cand-p239k-kang-commerce",

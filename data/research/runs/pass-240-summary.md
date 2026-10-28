@@ -25,3 +25,6 @@ FRUS 원문 페이지 46개(동시대 원작성 43, 편집주석 3), 국편 후�
 - LEAD-P240-08: 외교부 1955-08-12 양유찬 한미 합의 한국측 서명문
 
 자료: https://history.state.gov/historicaldocuments/frus1955-57v23p2/d64 ; https://history.state.gov/historicaldocuments/frus1955-57v23p2/d70 ; https://history.state.gov/historicaldocuments/frus1955-57v23p2/d77 ; https://history.state.gov/historicaldocuments/frus1955-57v23p2/d78 ; https://history.state.gov/historicaldocuments/frus1955-57v23p2/d86 ; https://history.state.gov/historicaldocuments/frus1955-57v23p2/d91 ; https://history.state.gov/historicaldocuments/frus1955-57v23p2/d99 ; https://history.state.gov/historicaldocuments/frus1955-57v23p2/d103
+
+## 2026-10-29 후속 스키마 검증 정정
+중앙 정치인 registry의 김용찬 후보 기존 `evidenceCoverage` 객체를 보존하고 이번 회차의 신규 증거 ID는 `evidenceCoveragePass240`로 분리했다. FRUS d62 원문 작성일은 'undated'이므로 문서 날짜를 공란으로 수정하고 6/30~7/1은 회의일로만 보존했다. 기존 사실관계 변경이 아닌 비파괴적 데이터 정정이다.
