@@ -56,6 +56,15 @@
       "new_primaryOrContemporaneous": false,
       "reason": "FRUS page heading is Editorial Note, not a transcribed contemporaneous original document",
       "review_date": "2026-10-29"
+    },
+    {
+      "path": "data/documents/run69-election-control-documents.json",
+      "id": "doc-run69-frus-305",
+      "document_number": 305,
+      "previous_primaryOrContemporaneous": true,
+      "new_primaryOrContemporaneous": false,
+      "reason": "FRUS editorial note misclassified as original",
+      "review_date": "2026-10-29"
     }
   ],
   "duplicate_url_aliases": [
@@ -270,5 +279,12 @@
       "original_location": "https://history.state.gov/historicaldocuments/frus1958-60v18/d331"
     }
   ],
-  "primary_source_count_caveat": "Earlier legacy registry flags overstated original primary count; per-run direct opening counts remain independent from repository-unique document count."
+  "primary_source_count_caveat": "Earlier legacy registry flags overstated original primary count; per-run direct opening counts remain independent from repository-unique document count.",
+  "audit_scope": {
+    "shards_indexed": 121,
+    "method": "121 document index paths fetched and scanned for known FRUS XVIII editorial note d278,d285,d293,d299,d305,d310,d313,d319,d322,d327 within documents[] or records[]",
+    "limitation": "Other editorial note numbers and nonstandard nested document schemas not audited",
+    "additional_corrected_this_commit": 1,
+    "total_corrected_this_run": 7
+  }
 }
