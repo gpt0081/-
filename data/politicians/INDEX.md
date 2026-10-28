@@ -104,3 +104,9 @@
 - `data/politicians/pass-239d-actors.json`: 10명 검토, 7명 구체행위 심화, 3명 직책 맥락만 확인(직접행위 단정 금지).
 - 원용덕 `pol-won-yong-duk`은 기존 pass53/pass65 후보를 canonical로 승격. `data/annals/won-yong-duk.md`, `data/evidence/won-yong-duk.json` 별도 독립 실록.
 - 사건·원문·주장: `data/events/pass-239d-june8-22-actions.json`, `data/documents/pass-239d-june8-22-source-registry.json`, `data/claims/pass-239d-adversarial.json`.
+
+## Pass239E 1953-06-22~30 비대통령 인물 확장
+- `data/politicians/pass-239e-actors.json`: 16명, 신규 IDENTIFIED 후보 7명. 국회 6/30 신형식 사건의 발언자·이견을 별도 노드로 보존.
+- 박술음 `cand-p236-park-sul-eum`을 기존 ID 유지한 채 ANNALS_ACTIVE로 승격: `data/annals/park-sul-eum.md`, `data/evidence/park-sul-eum.json`.
+- 신형식의 논쟁적 발언은 `CONFLICTED` 유지, 형사·정치적 유죄판정이나 순위화 금지.
+- 정당·사회부·농림부·관재청·대한노총 등 기관 9개 stable ID: `data/organizations/pass-239e-1953-institutions.json`.

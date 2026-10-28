@@ -3647,7 +3647,7 @@
         "died": null,
         "verified_this_pass": false
       },
-      "researchStatus": "VERIFIED_role_identity_only",
+      "researchStatus": "ANNALS_ACTIVE",
       "rolesByPeriod": [
         {
           "date": "1953-04-20",
@@ -3666,7 +3666,9 @@
       ],
       "openLeads": [
         "LEAD-P236-006",
-        "LEAD-P236-007"
+        "LEAD-P236-007",
+        "LEAD-P239E-001",
+        "LEAD-P239E-007"
       ],
       "historyDebt": [
         "HD-P236-LABOR-SIGNATURE"
@@ -3692,6 +3694,16 @@
           "from": null,
           "to": "朴術音",
           "source": "대통령기록관 1A00614174533605·33607"
+        }
+      ],
+      "annalsFile": "data/annals/park-sul-eum.md",
+      "evidenceFile": "data/evidence/park-sul-eum.json",
+      "promotionHistory": [
+        {
+          "date": "2026-10-28",
+          "from": "VERIFIED_role_identity_only",
+          "to": "ANNALS_ACTIVE",
+          "reason": "Official April20 minister countersign plus June22 resettlement and June24 labor-policy ministry reports; full personal policy attribution remains limited."
         }
       ]
     },
@@ -4949,6 +4961,9 @@
       "cand-p239e-jo-gyeong-gyu",
       "cand-p239e-jo-gwang-seop"
     ],
-    "overlay": "data/politicians/pass-239e-actors.json"
+    "overlay": "data/politicians/pass-239e-actors.json",
+    "annals_activated": [
+      "cand-p236-park-sul-eum"
+    ]
   }
 }
