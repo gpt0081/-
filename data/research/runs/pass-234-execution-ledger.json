@@ -8,22 +8,22 @@
   "execution_duration_minutes": null,
   "execution_duration_note": "실제 경과시간 측정치 없음. 도구 호출 여력 내 직접 문서 열람·교차검증·파일 커밋을 수행했으며 1시간 수행 주장하지 않음.",
   "metrics": {
-    "independent_research_lines": 29,
+    "independent_research_lines": 31,
     "general_governance_domains_reinforced": 14,
     "non_presidential_politician_nodes_deepened": 11,
     "new_candidate_nodes": 6,
-    "new_or_enriched_event_actions": 41,
-    "source_pages_directly_opened_substantive": 50,
-    "primary_or_contemporary_original_origin": 49,
+    "new_or_enriched_event_actions": 44,
+    "source_pages_directly_opened_substantive": 54,
+    "primary_or_contemporary_original_origin": 51,
     "original_facsimile_images": 0,
-    "adversarial_claim_checks": 37,
+    "adversarial_claim_checks": 43,
     "tracked_prior_open_leads": 8,
-    "new_specific_leads": 75,
-    "provenance_cross_checks_contextual": 3,
+    "new_specific_leads": 85,
+    "provenance_cross_checks_contextual": 4,
     "strict_three_independent_primary_families": 0,
     "history_debts_resolved": 0,
-    "official_later_editorial": 1,
-    "independent_adversarial_search_queries": 1
+    "official_later_editorial": 3,
+    "independent_adversarial_search_queries": 4
   },
   "independent_research_lines": [
     "국회 추가예산 심의",
@@ -62,7 +62,9 @@
     "유엔 인도안 거부 이후 대응",
     "450만석 양곡 합의 주장·500억원 미방출",
     "자유당 중앙당부 대통령 담화 대응",
-    "태평양 동맹 구상"
+    "태평양 동맹 구상",
+    "1950 이승만 공통3조 상징적 서명과 1966 정식 조약가입",
+    "1952 UN 411차 봉암도 소련 결의안 심의일 21/22 차이"
   ],
   "adversarial_claim_ids": [
     "CLM-P234-UNKRA-RHEE-SPEND",
@@ -149,6 +151,16 @@
         "미 FRUS 후대 편집노트"
       ],
       "caveat": "발행계열은 달라도 초기 유엔군 원자료 공통 가능. 독립 3중 원자료 교차검증 미달"
+    },
+    {
+      "subject": "봉암도 UN 심의와 사망자 보고의 분리",
+      "families": [
+        "UN GA official resolutions A/2361",
+        "UN AV official 411th plenary metadata",
+        "US State FRUS historical editorial note",
+        "1952 Korean press UN Command announcement"
+      ],
+      "caveat": "UN 공식 2개는 동일 기관, FRUS와 한국 신문은 동일 유엔군 발표를 재인용할 수 있어 엄격한 3개 독립 1차 사상자 계열은 미달"
     }
   ],
   "files_created": [
@@ -170,7 +182,12 @@
     "data/research/HISTORY_DEBT.md",
     "data/research/rhee-syngman-coverage.json",
     "data/politicians/INDEX.md",
-    "data/research/ACTIVE_RESEARCH_HANDOFF.json"
+    "data/research/ACTIVE_RESEARCH_HANDOFF.json",
+    "data/events/pass-234-addendum-1950-icrc-un-1952.json",
+    "data/documents/pass-234-addendum-1950-icrc-un-1952.json",
+    "data/claims/pass-234-addendum-1950-icrc-un-1952.json",
+    "data/research/leads/pass-234-addendum-c-20261028-next-lead-queue.json",
+    "data/annals/1950-icrc-1952-un-pongam-crossprovenance.md"
   ],
   "floot_touched": false,
   "addendumB": {
@@ -191,5 +208,21 @@
     ],
     "original_facsimile_images": 0
   },
-  "independent_research_lines_counting_note": "세부 기록에는 37개 줄이 있으나 주제 중복을 제거한 보수적 독립 연구선 29개만 계상."
+  "independent_research_lines_counting_note": "세부 기록에는 37개 줄이 있으나 주제 중복을 제거한 보수적 독립 연구선 29개만 계상.",
+  "addendumC": {
+    "source_pages_directly_opened_substantive": 4,
+    "primary_or_contemporary_or_official_original": 2,
+    "official_institutional_retrospective": 2,
+    "UN_AV_metadata_pages_excluded": 2,
+    "added_event_actions": 3,
+    "added_claim_checks": 6,
+    "added_leads": 10,
+    "findings": [
+      "ICRC 1950-07-03 이승만 공통3조 서명은 상징적 준수선언, 정식 제3협약 가입은 1966-08-16",
+      "ICRC 조약등록부 대한민국 1966 가입 당시 제118조 강제송환 해석선언 확인",
+      "UN A/2361 의제76 봉암도 소련 결의안 기각, 포로 사망 부정의 판결 아님",
+      "UN AV 411차 본회의 1952-12-21 vs FRUS d364 12-22 날짜 충돌"
+    ],
+    "original_facsímile_pdf_directly_opened": 1
+  }
 }
