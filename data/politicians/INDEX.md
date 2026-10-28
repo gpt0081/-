@@ -115,3 +115,5 @@
 - 1954-07~1955-08 비대통령 12명 심화/후보: `data/politicians/pass-239j-1954-diplomacy-economy-actors.json` (기존 10명 + 신원 미확정 후보 최순주·김정렬 2명; 승격 전 한글/한자/임명원부 필요).
 - 외무차관 조정환 1954-09-01 FRUS d934 확인. 변영태 1954-11-17 합의의사록 서명, 손원일 11/18 조약 공포, 백두진 7월 경제조정관, 양유찬 1955-08-12 500:1 수정 서명으로 각각 독립 행위 분리.
 - 문서 `data/documents/pass-239j-1954-agreed-minute-ratification.json`, 사건 `data/events/pass-239j-1954-1955-actions.json`, 주장 `data/claims/pass-239j-treaty-aid-currency-adversarial.json`, 실록 `data/annals/1954-1955-treaty-minute-currency-actor-chain.md`. FRUS는 한 편찬계열, 한국 법제처는 별도 정부 원문계열.
+
+- pass239J 증거원장 최종 동기화(2026-10-29): `data/evidence/pyun-yong-tae.json`, `data/evidence/cho-chung-whan.json` 신규 독립 원장; 기존 `data/evidence/rhee-syngman.json` chronology 3건·source 5건 추가. 변영태와 조정환은 증거원장+개인 annals 확보를 근거로 연구상태 ANNALS_ACTIVE 승격. 출생/사망·임명원부 미확인은 그대로 OPEN.

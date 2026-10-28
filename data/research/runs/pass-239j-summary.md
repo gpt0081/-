@@ -17,3 +17,8 @@
 - `data/politicians/pass-239j-1954-diplomacy-economy-actors.json`
 - `data/annals/1954-1955-treaty-minute-currency-actor-chain.md`
 - `data/research/leads/pass-239j-next-queue.json`
+
+## 최종 증거원장 동기화·성숙도 승격
+- 이승만 기존 evidence 원장에 새 5개 원문 출처와 1954년 chronology 3건, 기존 실록에 외교·헌정·환율 행위 추가.
+- 변영태·조정환 독립 evidence 원장을 신설하고 기존 개인 annals를 보강. 두 인물 모두 `VERIFIED → ANNALS_ACTIVE`로 조사성숙도 승격했으며 출처·이유·미확인 인사원부를 registry promotionHistory에 보존.
+- 검증 시 base politician 148명, central event 474개, pass239J 문서 registry 67개(63건만 유의미 문서 수에 산입), pass239J event 25개, claim 18개, 46개 lead. 참조 누락 0. GitHub 모든 SHA는 execution ledger의 commit list 및 최종 HEAD 참조로 추적.

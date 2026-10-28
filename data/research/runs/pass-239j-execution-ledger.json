@@ -159,5 +159,47 @@
   ],
   "source_audit_note": "d932,d948 editorial; d78 editorial; UNTS index only. No double count for repeat page opens. Yale Avalon State Department 1957 later official reproduction counted as 1 meaningful document, not as independently opened Senate original or additional provenance family.",
   "additional_later_official_primary_text_reproductions": 1,
-  "second_commit": "e5739695719e0bc716bc3700285075f631096a23"
+  "second_commit": "e5739695719e0bc716bc3700285075f631096a23",
+  "commits_before_ledger_finalization": [
+    "a121d61d744e28de8ce5662bff9ce8ffedf1cd71",
+    "e5739695719e0bc716bc3700285075f631096a23",
+    "0518d7ef47c66045229166b8e80e9f72527db881",
+    "06fb2173c0523f867d273eb2647ad05397bdd2b7"
+  ],
+  "ledger_finalization_commit": "see refs/heads/main current tip after this commit",
+  "politician_promotions": [
+    {
+      "id": "pol-pyun-yong-tae",
+      "from": "VERIFIED",
+      "to": "ANNALS_ACTIVE",
+      "reason": "Independent original-source evidence file and annals with signed Korean 1954 agreed minute and US-origin 1954 letter"
+    },
+    {
+      "id": "pol-cho-chung-whan",
+      "from": "VERIFIED",
+      "to": "ANNALS_ACTIVE",
+      "reason": "1953 British original, 1954 US vice-minister evidence and 1955 Korean official minister register; birth/death and exact appointment still OPEN"
+    }
+  ],
+  "evidence_files_synced": [
+    "data/evidence/rhee-syngman.json",
+    "data/evidence/pyun-yong-tae.json",
+    "data/evidence/cho-chung-whan.json"
+  ],
+  "annals_files_synced": [
+    "data/annals/rhee-syngman.md",
+    "data/annals/pyun-yong-tae.md",
+    "data/annals/cho-chung-whan.md",
+    "data/annals/1954-1955-treaty-minute-currency-actor-chain.md"
+  ],
+  "final_main_ref": "refs/heads/main",
+  "validation": {
+    "json_cross_references_missing": 0,
+    "checked_2026_10_29": true,
+    "politicians_total": 148,
+    "central_events_total": 474,
+    "pass_documents_registry_total": 67,
+    "pass_events": 25,
+    "pass_claims": 18
+  }
 }
