@@ -3,7 +3,7 @@
   "pass": 231,
   "date": "2026-10-28",
   "focus": "1952 June-July constitutional crisis/POW diplomacy; August election and tungsten parliamentary accountability",
-  "status": "COMMITTED_AND_AUDITED",
+  "status": "PASS231B_COMMITTED_RESEARCH_LEDGER_UPDATED",
   "weekly_history_debt_full_review": false,
   "weekly_history_debt_note": "역사부채 주간 전수조사 미실시",
   "floot_touched": false,
@@ -14,19 +14,20 @@
     "legal_originals": 2,
     "retrospective_opened": 3,
     "un_pdf_catalog_only": 2,
-    "facsimile_images": 0
+    "facsimile_images": 0,
+    "additional_korean_contemporary_fulltexts": 10
   },
   "counts": {
-    "independent_research_lines": 24,
-    "governance_domains": 9,
-    "nonpresident_new_candidate_nodes": 10,
-    "nonpresident_existing_nodes_deepened": 9,
-    "events_structured": 13,
-    "substantive_documents_directly_opened": 60,
-    "original_or_contemporaneous": 57,
-    "adversarial_claim_checks": 15,
+    "independent_research_lines": 30,
+    "governance_domains": 11,
+    "nonpresident_new_candidate_nodes": 14,
+    "nonpresident_existing_nodes_deepened": 13,
+    "events_structured": 20,
+    "substantive_documents_directly_opened": 70,
+    "original_or_contemporaneous": 67,
+    "adversarial_claim_checks": 21,
     "existing_open_leads_followed": 9,
-    "new_document_specific_leads": 38,
+    "new_document_specific_leads": 52,
     "cross_provenance_bundles": 3,
     "strict_three_independent_primary_families_same_claim": 0
   },
@@ -54,7 +55,13 @@
     "민간인 수용자 석방",
     "중립국 감시단 초청",
     "인도-중국-소련 정전교섭",
-    "수풍 수력발전소 폭격 승인"
+    "수풍 수력발전소 폭격 승인",
+    "8/15 대통령 취임사와 정치파동 자기평가",
+    "신익희 사회복지·공무원 생계 요청",
+    "국제구락부 검찰 불기소",
+    "농림부 가뭄 식량수급계획",
+    "UN군 대여금 3500만달러 상환",
+    "중석불 현장조사·삼우장 풍자 검증"
   ],
   "governance_domains": [
     "헌정·입법",
@@ -65,7 +72,9 @@
     "경제·재정",
     "농정·비료",
     "사법·국회감사",
-    "정당·조직"
+    "정당·조직",
+    "사회·복지·원호",
+    "식량안보·수급계획"
   ],
   "adversarial_checks": [
     "CLM-P231-US-INTERVENTION-IMPLEMENTED",
@@ -82,7 +91,13 @@
     "CLM-P231-RHEE-INAUGURATION",
     "CLM-P231-AIR-STRIKE-ORDER",
     "CLM-P231-ELECTION-LAW-DATE",
-    "CLM-P231-POW-OBSERVER-UNANIMOUS"
+    "CLM-P231-POW-OBSERVER-UNANIMOUS",
+    "CLM-P231B-RHEE-CRISIS-SELF-ACCOUNT",
+    "CLM-P231B-CLUB-30-NONINDICT",
+    "CLM-P231B-FOOD-FORECAST",
+    "CLM-P231B-REPAYMENT-3500",
+    "CLM-P231B-TUNGSTEN-SELF-INQUIRY",
+    "CLM-P231B-SAMWOO-ALLEGATION"
   ],
   "tracked_prior_leads": [
     "LEAD-P229C-003",
@@ -131,17 +146,25 @@
     "8/26 Baek attended plenary and replied; 9/6 paper alleges no committee attendance, different bodies possible",
     "8/26 tungsten 350eok exchange difference and 3943005 USD are MP questions, not audited accounting",
     "Manhard POW coercion directly contradicts blanket free screening",
-    "7/18 U.S. Army suggested halting civilian internee releases, Clark rejected 7/19"
+    "7/18 U.S. Army suggested halting civilian internee releases, Clark rejected 7/19",
+    "8/15 이승만 취임사에서 정치파동 자기평가·물가와 농업·공업·광산 생산 회복 정책을 직접 확인",
+    "8/15 신익희 의장 유가족·상이군경·피난민·공무원 구호·인사정화 요청 확인",
+    "8/15 국제구락부 30명 불기소 보도, 공식 불기소이유서 미확보",
+    "농림부 추곡950만·잡곡500만·외곡540만석 수급 복안과 가뭄 5할 수확 우려 구분",
+    "UN군 대여금 3500만달러 8/28 지급 보도, 한은 수령 원장 미확인",
+    "7/21~22 중석불 특위 재무·농림·총무처 조사 보도 확인"
   ],
   "limitations": [
     "UN A/2187 and A/2441 PDFs returned 403, catalog indexed only and excluded from original count",
     "FRUS 48 documents mostly U.S. diplomatic/military provenance, not 48 independent families",
     "Korean election legal promulgation date 7/18 vs 7/19 conflicted in official overview",
     "candidate biographical dates and Hanja not verified; no maturity upgrade beyond event-specific evidence",
-    "no claim that one hour elapsed"
+    "no claim that one hour elapsed",
+    "Exa 402 quota reached; used TinyFish for 10 Korean primary-source texts. No claim of full-hour elapsed."
   ],
   "commit_shas": [
-    "f66ae48987b29a7a2f00ec4918525ca2cf4531b9"
+    "f66ae48987b29a7a2f00ec4918525ca2cf4531b9",
+    "292520b09782c8a802dfa5b26de7354538114b3c"
   ],
   "execution_time": {
     "actual_elapsed_minutes": null,
