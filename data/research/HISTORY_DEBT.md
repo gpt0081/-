@@ -443,3 +443,16 @@
 - 다음: 사회부 1952-12-15 과장회의록, 구호물자·폐결핵약품 장부, 서울 동회 CAC 모포 7만장 배급대장 및 감사결과.
 
 > 2026-10-28 수요일 개별 부채 보강. 역사부채 주간 전수조사 미실시. last_full_review 불변.
+
+
+### HD-UN-411-1952-PONGAM-DATE · 유엔총회 411차 봉암도 심의일 12/21 vs 12/22
+- 상태: `CONFLICTED` (2026-10-28 pass234C). UN AV 공식 411차 본회의 part1/2는 1952-12-21 제작·회의일로 기록, 미 FRUS XV/1 d364는 1952-12-22 심의·소련 결의안 기각이라고 서술. UN A/2361 공식 결의집 의제76 주석은 소련 결의안 초안 기각을 확인. 사망 사건의 사실 판단과 결의안 기각을 동일시 금지.
+- 출처: https://media.un.org/avlibrary/en/asset/d218/d2185203 ; https://media.un.org/avlibrary/en/asset/d212/d2124551 ; https://digitallibrary.un.org/record/228955/files/A_2361-EN.pdf ; https://history.state.gov/historicaldocuments/frus1952-54v15p1/d364
+- 다음: UN A/PV.411 1952-12-21 원속기록, UN 시청각 스크립트 09-258.pdf/09-259.pdf, 미 국무부 Bulletin 1953-01-05 pp16–20.
+
+### HD-RHEE-1950-GENEVA-SYMBOLIC · 1950 이승만 공통3조 서명과 1966 정식 조약가입
+- 상태: `NARROWED` (2026-10-28 pass234C). ICRC 공식 역사연표는 1950-07-03 이승만의 공통제3조 상징적 서명·포로대우 준수선언을 기록. ICRC 제3협약 원등록부는 대한민국 정식 가입 1966-08-16 및 118조 강제송환 해석선언을 확인. 상징적 서명은 법적 조약가입이 아니며, 원서명·1950 동시대 신문 미확보. 일부 2차 문헌의 7/7 표기는 추가 확인 필요.
+- 출처: https://www.icrc.org/en/article/historical-timeline-icrc-geneva-conventions-korea ; https://ihl-databases.icrc.org/en/ihl-treaties/gciii-1949/state-parties/KR
+- 다음: ICRC Archives B G 17 (172) 1950-06-26 권고 전문, 1950-07-03 서명 원지면, 1966 대한민국 조약가입 관보·비준서.
+
+> 2026-10-28 수요일 개별 부채 보강. 역사부채 주간 전수조사 미실시, last_full_review 불변.
