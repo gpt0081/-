@@ -621,5 +621,11 @@
       "status": "OPEN",
       "note": "Both already occur in data/politicians.json; 1949 PM and 1952 interior minister appear to be same historical person. No deletion/automatic merge until downstream references checked."
     }
+  ],
+  "merge_semantics": "upsert_by_stable_id: records with existing data/politicians.json IDs add dated research/evidence, do not create second identity. Canonical ID for Lee Beom-seok remains OPEN due existing two IDs.",
+  "validation_notes": [
+    "Stable/candidate ID separated from action explanation in event role arrays.",
+    "Foreign historical person 'Chang Taek-sang' candidate ID matches new overlay, no fabricated base ID.",
+    "Existing pass228 documentary source references explicitly mapped in claims external_document_registry_refs."
   ]
 }

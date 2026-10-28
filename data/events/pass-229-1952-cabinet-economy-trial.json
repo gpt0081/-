@@ -36,7 +36,7 @@
         "ROK finance negotiators"
       ],
       "decided_by": [
-        "pol-rhee-syngman (reported authorization)"
+        "pol-rhee-syngman"
       ],
       "executed_by": [
         "pol-paik-too-chin"
@@ -79,7 +79,7 @@
         "cand-chang-taek-sang-1952"
       ],
       "executed_by": [
-        "pol-jang-seok-yun (reported)"
+        "pol-jang-seok-yun"
       ],
       "observed_by": [
         "US JOINT WEEKA / OIR"
@@ -101,7 +101,7 @@
       ],
       "executed_by": [
         "pol-lee-beom-seok",
-        "cand-hong-beom-hui"
+        "cand-hong-beom-hui-1952"
       ],
       "observed_by": [
         "서울신문",
@@ -143,9 +143,9 @@
       "name": "국회 해산과 대안 논쟁·이범석 체포 제안·장택상 타협안",
       "parent_event_id": "evt-1952-pusan-political-crisis",
       "proposed_by": [
-        "pol-rhee-syngman (dissolution)",
-        "pol-lee-beom-seok (mass detention; reported)",
-        "pol-chang-taek-sang (compromise amendment)"
+        "pol-rhee-syngman",
+        "pol-lee-beom-seok",
+        "cand-chang-taek-sang-1952"
       ],
       "opposed_by": [
         "cand-chang-taek-sang-1952",
@@ -244,7 +244,7 @@
       "name": "조선방직 총파업과 전진한 의원의 노동권 주장",
       "parent_event_id": null,
       "proposed_by": [
-        "pol-jeon-jin-han (international appeal intention)"
+        "cand-jeon-jin-han-1952"
       ],
       "executed_by": [
         "조선방직 노동자"
@@ -255,5 +255,53 @@
       "uncertainty": "newspaper report; union minutes and actual international submissions missing",
       "verification": "source-attributed action graph; proposed/decided/executed not conflated"
     }
-  ]
+  ],
+  "actor_id_repair_history": {
+    "date": "2026-10-28",
+    "rule": "IDs in actor role arrays must be stable/candidate ID only; explanatory role belongs in uncertainty/notes, not concatenated into ID",
+    "fixed": [
+      {
+        "event": "evt-1952-meyer-0523-authorization",
+        "field": "decided_by",
+        "from": "pol-rhee-syngman (reported authorization)",
+        "to": "pol-rhee-syngman"
+      },
+      {
+        "event": "evt-1952-busan-0523-protest-control",
+        "field": "executed_by",
+        "from": "pol-jang-seok-yun (reported)",
+        "to": "pol-jang-seok-yun"
+      },
+      {
+        "event": "evt-1952-busan-0524-interior-transition",
+        "field": "executed_by",
+        "from": "cand-hong-beom-hui",
+        "to": "cand-hong-beom-hui-1952"
+      },
+      {
+        "event": "evt-1952-busan-0603-cabinet-dispute",
+        "field": "proposed_by",
+        "from": "pol-rhee-syngman (dissolution)",
+        "to": "pol-rhee-syngman"
+      },
+      {
+        "event": "evt-1952-busan-0603-cabinet-dispute",
+        "field": "proposed_by",
+        "from": "pol-lee-beom-seok (mass detention; reported)",
+        "to": "pol-lee-beom-seok"
+      },
+      {
+        "event": "evt-1952-busan-0603-cabinet-dispute",
+        "field": "proposed_by",
+        "from": "pol-chang-taek-sang (compromise amendment)",
+        "to": "cand-chang-taek-sang-1952"
+      },
+      {
+        "event": "evt-1952-textile-0312-strike",
+        "field": "proposed_by",
+        "from": "pol-jeon-jin-han (international appeal intention)",
+        "to": "cand-jeon-jin-han-1952"
+      }
+    ]
+  }
 }

@@ -200,17 +200,26 @@
   ],
   "floot_touched": false,
   "commits_verified": [
-    "0bae0fd2c2ce592e6699095fbe4593d07e9b778e"
+    "0bae0fd2c2ce592e6699095fbe4593d07e9b778e",
+    "6be585e9bebb3a044bbc67ec492e0c5cad53d623",
+    "99b5cfd1ec92ac677c3fd628ed901242791fd36e",
+    "eca6b3ce2f996522d9658041012d81772e129906"
   ],
   "validation_history": [
     {
       "date": "2026-10-28",
       "action": "normalized claim status; repaired dangling actor references and event root; recorded existing duplicate Lee Beom-seok ID; kept primary/secondary source distinction"
+    },
+    {
+      "date": "2026-10-28",
+      "action": "Post-commit graph audit across base and pass229 a/b/c: fixed 8 actor-role identifiers and 1 wrong NIKH 1952-06-17 document code, preserved external pass228 document registry reference. No event parent or event-document missing after repair."
     }
   ],
   "execution_time": {
     "started_at_local": "2026-10-28T12:11:30+09:00",
-    "note": "No claim of one hour elapsed; run constrained by web tool quota and Exa 402 credit exhaustion."
+    "note": "Actual wall time recorded at QA checkpoint; not one-hour claim. Further research may follow.",
+    "actual_elapsed_minutes_at_qa": 18,
+    "ended_at_qa_utc": "2026-10-28T03:29:06.386Z"
   },
   "tool_access_limitations": [
     "Web tool query/open budget exhausted after 67 distinct document bodies.",
@@ -316,5 +325,19 @@
       "1952-07~08 내무부장관 재임일 충돌",
       "1952-01~10 최창순 사회부 원호의 계획·집행·제약"
     ]
+  },
+  "qa": {
+    "audited_files": 14,
+    "unique_new_document_ids": 91,
+    "unique_new_event_ids": 35,
+    "unique_new_claim_ids": 36,
+    "role_reference_errors_before": 8,
+    "role_reference_errors_after": 0,
+    "local_document_reference_errors_before": 1,
+    "local_document_reference_errors_after": 0,
+    "external_document_reference_count": 1,
+    "existing_base_overlay_upserts": 4,
+    "known_base_duplicate_person_identity": "pol-lee-beom-seok vs pol-lee-beom-seok-1900; not auto-merged",
+    "date": "2026-10-28"
   }
 }
