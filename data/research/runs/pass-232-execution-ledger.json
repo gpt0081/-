@@ -6,7 +6,7 @@
   "weekly_full_history_debt_review": false,
   "weekly_full_history_debt_review_statement": "역사부채 주간 전수조사 미실시",
   "execution_duration_minutes": null,
-  "execution_duration_note": "실제 시작·종료시각의 검증 가능한 wall-clock 계측 부재; 1시간 실행 주장하지 않음. 허용된 도구 호출 동안 새 연구선을 계속 조사했고 최소 목표 도달 뒤 GATT·일본어선·헌정 반증과 registry 보완을 수행.",
+  "execution_duration_note": "실제 시작·종료시각의 검증 가능한 wall-clock 계측 부재; 1시간 실행 주장하지 않음. 허용된 도구 호출 동안 새 연구선을 계속 조사했고 최소 목표 도달 뒤 GATT·일본어선·헌정 반증과 registry 보완을 수행. 최소하한을 채운 뒤에도 법제처 1952-09-28 법률254·255호, 1954 첫 국채발행, 1952 GATT 복명서까지 후속 반증 연구를 이어갔다.",
   "start_state": {
     "handoff": "pass231",
     "readme_checked": true,
@@ -21,32 +21,33 @@
     "prior_status_note": "기존 pass232라는 이름의 2026-09-29 lead 파일이 발견되어 충돌 회피용 20261028 suffix로 신규 queue 저장. 기존 파일 미덮어쓰기."
   },
   "metrics": {
-    "independent_research_lines": 23,
+    "independent_research_lines": 26,
     "general_governance_domains_reinforced": 12,
-    "non_presidential_politician_nodes_deepened": 23,
-    "new_candidate_nodes": 14,
+    "non_presidential_politician_nodes_deepened": 24,
+    "new_candidate_nodes": 15,
     "existing_node_overlays": 9,
-    "new_or_enriched_event_actions": 23,
-    "source_pages_directly_opened_substantive": 48,
+    "new_or_enriched_event_actions": 26,
+    "source_pages_directly_opened_substantive": 52,
     "contemporary_newspaper_transcriptions": 40,
     "translated_contemporaneous_US_record_excerpts": 5,
     "official_full_treaty": 1,
     "official_cabinet_record_excerpt": 1,
-    "retrospective_scholarly_source": 1,
-    "archive_catalog_only_excluded_from_substantive": 1,
-    "document_registry_entries": 49,
-    "adversarial_claim_checks": 18,
+    "retrospective_scholarly_source": 3,
+    "archive_catalog_only_excluded_from_substantive": 2,
+    "document_registry_entries": 54,
+    "adversarial_claim_checks": 23,
     "tracked_prior_open_leads": 9,
-    "new_specific_leads": 49,
-    "provenance_cross_checks": 4,
+    "new_specific_leads": 54,
+    "provenance_cross_checks": 5,
     "strict_three_independent_primary_source_crosschecks": 0,
-    "history_debts_new": 8,
+    "history_debts_new": 10,
     "history_debts_resolved": 0,
-    "canonical_politician_candidates_added": 18,
+    "canonical_politician_candidates_added": 19,
     "canonical_existing_politicians_crosslinked": 5,
-    "canonical_event_nodes_added": 23,
-    "canonical_politician_total_after": 67,
-    "canonical_event_total_after": 40
+    "canonical_event_nodes_added": 26,
+    "canonical_politician_total_after": 68,
+    "canonical_event_total_after": 43,
+    "official_historical_statute_full_text": 2
   },
   "independent_research_lines": [
     "1952-09-02 대통령 개헌 유시와 후속 발의",
@@ -71,7 +72,10 @@
     "1952-09-19 신당·야당 통합 협의",
     "1952-09-16 OIR 환율",
     "1952-09-17 백재정 통화증발 통계",
-    "1952-09-19 유엔 정전전술 미국 외교문서"
+    "1952-09-19 유엔 정전전술 미국 외교문서",
+    "1952-09-28 산업부흥국채법254·특별회계법255 공포·국회동의 요건",
+    "1954-03 제1회 산업부흥국채 발행 후대 주제집필 대조",
+    "1952-02 전규홍 GATT회의 복명서·토키의정서 서명 지연"
   ],
   "domains": [
     "헌정·입법",
@@ -105,7 +109,12 @@
     "CLM-P232-BANKNOTE-10000",
     "CLM-P232-CONSTITUTION-AFTER-1952",
     "CLM-P232-PARTY-SKETCH-FACT",
-    "CLM-P232-WELFARE-COMMITTEE-PAID"
+    "CLM-P232-WELFARE-COMMITTEE-PAID",
+    "CLM-P232-BOND-LAW-EFFECTIVE-SEPT17",
+    "CLM-P232-BOND-NO-PARLIAMENT",
+    "CLM-P232-BOND-FIRST-ISSUED-1952",
+    "CLM-P232-GATT-TORQUAY-ROK-SIGNED",
+    "CLM-P232-GATT-1952-IGNORANCE"
   ],
   "cross_checks": [
     {
@@ -140,6 +149,15 @@
         "민주신보 김지윤 동시대 경제 비판"
       ],
       "result": "공식환율·시장환율 분리, 통화증발 통계의 산술충돌 신규 발견"
+    },
+    {
+      "subject": "1952-09 산업부흥국채법 제정·공포·실제 발행 시차",
+      "families": [
+        "동아일보 1952-09-16 contemporaneous",
+        "법제처 법률254·255호 원문 1952-09-28",
+        "국가기록원 2007 주제집필·관보748호 소장목록"
+      ],
+      "result": "국회 통과와 9/28 공포·시행 구분, 제2조 국회동의 의무, 최초 발행 1954-03은 후대 해설로 원장 재검증 필요"
     }
   ],
   "key_findings": [
@@ -153,13 +171,18 @@
     "이교선 상공장관 3500만달러 전액 산업부흥 주장과 2100만달러 양곡도입 합의 보도는 다른 행위",
     "자유당 합당 보도에도 윤치영·임영신 등 불응자 존재",
     "국가기록원 BA0084189 상공부 1952-05-12 일본어선 대책 4면 문서번호 확보",
-    "Canonical data/politicians.json에 18개 candidate ID 등록·5개 기존 노드 사건연결; data/events.json에 23개 action과 원문 URL 통합"
+    "Canonical data/politicians.json에 18개 candidate ID 등록·5개 기존 노드 사건연결; data/events.json에 23개 action과 원문 URL 통합",
+    "1952-09-28 법률254·255호 공포·시행, 법률254 제2조 국회동의 요건 확인; 국가기록원은 1954-03 최초 국채발행으로 설명",
+    "국가기록원 관보 제748호 BA0186095 소장번호 확보",
+    "1952-02 전규홍 GATT회의 복명서가 2017 연구초록에서 인용됨, 1951 토키의정서 한국 미서명 주장 원본 대기"
   ],
   "limits": [
     "주요 국정기록은 신문 전사와 국가기록원 발췌 위주, 원 관보·국회속기록·일본 외교문서·미 OIR 전체 원문 미확보",
     "1952-09 정당스케치는 풍자·전언·일부 중략이 있어 확정 사실로 승격하지 않음",
     "원 인사발령·당원명부·생몰 정보는 미확보; candidate/IDENTIFIED 상태 유지",
-    "독립적인 3개 공식 원출처 계열로 동일 주장 완전 삼각검증한 건수는 0"
+    "독립적인 3개 공식 원출처 계열로 동일 주장 완전 삼각검증한 건수는 0",
+    "1954 첫 국채 발행은 국가기록원 후대 주제집필에 근거하며 한국은행 원장 미확보",
+    "1952 전규홍 GATT 복명서는 논문 초록만 확인, 보고서 원문 미확보"
   ],
   "new_lead_queue": "data/research/leads/pass-232-20261028-next-lead-queue.json",
   "modified_files": [
@@ -243,6 +266,50 @@
     {
       "file": "data/events.json",
       "sha": "84ac2eb07749736db9a1684e17878b1187ce71c1"
+    },
+    {
+      "file": "data/documents/pass-232-1952-september-governance.json",
+      "sha": "5ac99a117cd024486cc9596e3925ed970812aec9"
+    },
+    {
+      "file": "data/events/pass-232-1952-september-governance.json",
+      "sha": "a316568f07a50eda9ac157feaddd0a3b2163a55f"
+    },
+    {
+      "file": "data/claims/pass-232-1952-september-governance.json",
+      "sha": "2758d5ba54882836404f28bed7932723fd4417a8"
+    },
+    {
+      "file": "data/politicians/pass-232-1952-september-actors.json",
+      "sha": "76a95b4ab09a8e97e0e17cadcd4af66d0db00cd6"
+    },
+    {
+      "file": "data/politicians.json",
+      "sha": "c991485b6c84f139abba07e959a034819a83533d"
+    },
+    {
+      "file": "data/events.json",
+      "sha": "0b212c85742220c86f2f0859b3e0c8d5b749e018"
+    },
+    {
+      "file": "data/research/leads/pass-232-20261028-next-lead-queue.json",
+      "sha": "edd1071ba9cb28821b3b9b6af37561162b61c4c2"
+    },
+    {
+      "file": "data/annals/1952-september-state-party-economy.md",
+      "sha": "c87f5eb9866669539f0de52f2e8f733a674d4485"
+    },
+    {
+      "file": "data/research/HISTORY_DEBT.md",
+      "sha": "69de78d52958ce284336d52491a3ffe22a459fb2"
+    },
+    {
+      "file": "data/research/rhee-syngman-coverage.json",
+      "sha": "eef3c1852c994d88ab0b88be1409492c94c9df8f"
+    },
+    {
+      "file": "data/politicians/INDEX.md",
+      "sha": "1054e3c0469c3dc0bfda411aad91846b3eebbf50"
     }
   ],
   "validation": {
@@ -253,7 +320,10 @@
     "checked_by": "fetch/parse/referential integrity comparison",
     "floot_touched": false,
     "canonical_registry_crosslinked": true,
-    "canonical_event_sources_resolved": true
+    "canonical_event_sources_resolved": true,
+    "canonical_politician_total": 68,
+    "canonical_event_total": 43,
+    "reference_integrity_rechecked_after_addendum": true
   },
   "next_priority": [
     "1952-09 GATT 가입 국무회의 결재와 1951 Torquay 의정서",
