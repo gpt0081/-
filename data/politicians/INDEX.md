@@ -41,3 +41,7 @@
 
 ## Pass233 1952-12-01 UNKRA 재무부 인선
 - `data/politicians/pass-233-dec1-unkra-liaisons.json`: 이병호(李丙虎, 전 상공·내무 차관)와 원용석(元容奭, 전 농림차관)을 1952-12-01 재무부 발표에 근거해 candidate `IDENTIFIED`로 추가. 정식 인사발령·생몰 미확인.
+
+
+## 2026-10-28 pass234: 1952년 12월 국회 재정·농정 인물
+- `data/politicians/pass-234-1952-dec-legislative-actors.json`: 오위영(재경위원장), 정재완·엄상섭(추경 질의), 윤담(가마니 가격 수정), 임흥순(한국인 전범자 석방 건의). 신문전사에 실명·한자·행위가 확인되어 IDENTIFIED, 생몰·원속기록은 OPEN.
