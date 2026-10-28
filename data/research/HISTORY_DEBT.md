@@ -509,3 +509,15 @@
 - 출처: https://ko.wikisource.org/wiki/군정법령_제19호 ; https://db.history.go.kr/contemp/level.do?levelId=dh_028_1953_02_18_0030
 - 다음: 미군정 관보 1945-10-30 원면, 1948~53 법령승계·폐지 목록, 부산지법 1953-02-18 원판결.
 > 2026-10-28 수요일 개별 부채 보강. 역사부채 주간 전수조사 미실시. last_full_review 불변.
+
+
+### HD-P235E-1953-0129-ASSEMBLY-RESULTS · 1/20 후보와 1/29 위원장 선거 결과 대조
+- 상태: `NARROWED` (2026-10-28 pass235E, 기존 HD-P235-ASSEMBLY-RESULT 후속). 민주신보 1953-02-01 1판에 1/29 출석177명, 야당연합 전원 포함11석·원외자유당3석, 당선·낙선·후보양보 실명 기록. 정일형 7표 차 낙선, 박만원·김수학·김종순 낙선, 김의준 양보, 곽상훈·윤길중·임흥순·오위영·박정근 당선 보도. 원국회 개표표·회의록 확보 전 VERIFIED/MATURE 승격은 보류.
+- 출처: https://db.history.go.kr/contemp/level.do?levelId=dh_028_1953_02_01_0020
+### HD-P235E-JIN-CENSURE-1953-0202 · 진헌식 불신임안 제출·표결 미확인
+- 상태: `NARROWED`. 이종형 외29명 2/2 제출, 진헌식 같은 날 국제시장 화재·기장사건·감찰국장 고문 의혹 부인. 제출과 통과·사임 분리. 헌법 제70조·70조의2 원문 및 국회 본회의 표결원장 필요.
+- 출처: https://db.history.go.kr/contemp/level.do?levelId=dh_028_1953_02_02_0040 ; https://db.history.go.kr/contemp/level.do?levelId=dh_028_1953_02_02_0030
+### HD-P235E-UNC-ELECTRICITY-700EOK · 1953-02 전력대금 결정·실제 지급
+- 상태: `NARROWED`. 한미합동경제위 재정분과 700억원(남전450·경전250) 지불 결정 보도. 미 국무부 지시 대기 및 정부담보융자 추진, 실제 지급·발전소 공사착공은 미확인.
+- 출처: https://db.history.go.kr/contemp/level.do?levelId=dh_028_1953_02_01_0030
+> 2026-10-28 수요일 개별 역사부채 보강. 역사부채 주간 전수조사 미실시. last_full_review 불변.

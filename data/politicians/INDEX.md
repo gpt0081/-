@@ -59,3 +59,6 @@
 
 ### Pass235C 1953-02-17 통화개혁·진헌식·정일권·이형근
 - `data/politicians/pass-235-addendum-c-jin-chung-lee.json`: 진헌식 VERIFIED 근거 보강, 정일권 2군단장, 이형근 제1군단장 신규 후보. 이범석 직함 충돌은 history debt.
+
+### Pass235E 1953-01-29 국회 위원장 선거 보도 검증
+- `data/politicians/pass-235-addendum-e-committee-chairs.json`: 당선·낙선·후보 양보·민간어업 협의·불신임안 발의 관련 12명 잠정 노드. 1/20 후보명단과 2/1 선거보도 cross-link, 원개표표 검증 전 최종 승격 금지.
