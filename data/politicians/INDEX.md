@@ -65,3 +65,5 @@
 
 ### Pass235I 1953-03 금융·정당·내각 행위자
 - `data/politicians/pass-235-addendum-i-bok-party.json`: 김유택 한국은행총재와 원내 자유당 이동 계획·장택상 당내 논쟁 관련 9명 잠정 후보. 10명 주장 vs 실명9명 보존, 실제 입당 확인 전 승격 금지.
+
+- 2026-10-28 pass236A: 노동 3법 국회 의결·이송·공포·시행령과 신익희·백두진·박술음 독립 인물 노드: `data/politicians/pass-236-labor-actors.json`, `data/events/pass-236-labor-laws.json`, `data/documents/pass-236-labor-law-registry.json`, `data/claims/pass-236-labor-adversarial.json`.
