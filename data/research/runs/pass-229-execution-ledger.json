@@ -7,16 +7,16 @@
   "weekly_history_debt_full_review": false,
   "weekly_history_debt_note": "역사부채 주간 전수조사 미실시",
   "counts": {
-    "independent_research_lines_substantively_followed": 26,
-    "governance_domains_substantively_touched": 13,
-    "non_president_actor_nodes_new_or_deepened": 39,
-    "events_or_subevents_structured_or_reinforced": 35,
-    "unique_document_bodies_directly_opened": 91,
-    "primary_or_contemporaneous_document_texts_opened": 82,
-    "adversarial_claim_checks": 34,
+    "independent_research_lines_substantively_followed": 33,
+    "governance_domains_substantively_touched": 15,
+    "non_president_actor_nodes_new_or_deepened": 56,
+    "events_or_subevents_structured_or_reinforced": 50,
+    "unique_document_bodies_directly_opened": 105,
+    "primary_or_contemporaneous_document_texts_opened": 93,
+    "adversarial_claim_checks": 48,
     "existing_leads_followed": 12,
-    "new_specific_leads": 85,
-    "cross_provenance_bundles": 4
+    "new_specific_leads": 112,
+    "cross_provenance_bundles": 5
   },
   "domains": [
     "헌정",
@@ -32,7 +32,9 @@
     "사회복지",
     "농정·비료",
     "국회 국정감사",
-    "계엄·법적 권한 분리"
+    "계엄·법적 권한 분리",
+    "지방선거",
+    "인권·형사절차"
   ],
   "research_lines": [
     "장석윤 5/23 시위통제",
@@ -60,7 +62,14 @@
     "1952-05-25 계엄 적법절차 미확인",
     "1952-05-07 제안 vs 7/07 최종 개헌",
     "1952-07~08 내무부장관 재임일 충돌",
-    "1952-01~10 최창순 사회부 원호의 계획·집행·제약"
+    "1952-01~10 최창순 사회부 원호의 계획·집행·제약",
+    "서민호 4/24 총격사건 검찰 주장",
+    "5/14 국회 석방결의·5/19 법원 석방",
+    "5/25 군법회의 이관·계엄 법적 근거",
+    "7/1 사형선고와 UNCURK/US 반증",
+    "5/10 장택상 고문수사 근절·행정징계",
+    "5/10 도의원선거 지역별 투표율·숫자검증",
+    "5/10 서울 쌀배급·외환거래소 검토·한일재산권"
   ],
   "cross_provenance_bundles": [
     {
@@ -96,6 +105,15 @@
         "AKS retrospective scholarly biography"
       ],
       "result": "same minister, concrete aid handover and stated budget constraints cross-dated; outcomes not inferred"
+    },
+    {
+      "topic": "1952-07-01 서민호 군법회의 사형선고·절차 논쟁",
+      "families": [
+        "Dong-A Ilbo Korean contemporary courtroom reporting",
+        "UNCURK chair Van Ittersum first-person letter",
+        "US Ambassador Muccio and JOINT WEEKA diplomatic records"
+      ],
+      "result": "Sentence and military transfer corroborated; underlying shooting motive and court interference must be separately attributed; no final execution inferred"
     }
   ],
   "not_counted_as_independent": [
@@ -116,7 +134,11 @@
     "대통령령 598·599호 원문 확보: 계엄 선포 요청·사령관 임명·국무회의 추인·특별조치 승인 절차 분리.",
     "관보 제688호 헌법 제2호 최종문은 5/7 국회 제안 공고와 다르며, 총리 재승인 조건은 새 국회 총선거 후 신국회 개회.",
     "행정안전부 장석윤 종료 5/23 vs 동시대 5/24, 김태선 7/24 취임 vs 8/31 기사 8/28 기재, 날짜 충돌 보존.",
-    "최창순 7월 구호쌀 10톤 인수와 10월 재정부족·원호 미흡 자기평가를 함께 연결."
+    "최창순 7월 구호쌀 10톤 인수와 10월 재정부족·원호 미흡 자기평가를 함께 연결.",
+    "1952-07-01 서민호 군법회의 사형선고는 최종 사형집행이 아니며, UNCURK 의장 7/3 서한은 군재 이관·재판관 교체를 비판.",
+    "장택상 5/10 고문수사 근절 선언과 실제 고문 근절은 별개; 이교선 적산 의혹은 조사약속일 뿐 확정 아님.",
+    "1952-05-10 대구 투표율 기사 9,500/173,517=5.47% vs 56%, 달성 48,254/59,238=81.46% vs 87% 숫자 불일치 보존.",
+    "서울시 쌀 보유 2,000석/월 필요 15,000석은 13.3%, 보도 '2할'과 차이. 재무부 외환거래소는 계획 단계."
   ],
   "adversarial_checks": [
     {
@@ -196,7 +218,8 @@
     "Lead count is 38 durable document targets, active 15. Minimum 20 independent research lines not reached; 3 provenance bundles not reached.",
     "Existing data/politicians.json contains two Lee Beom-seok IDs; no destructive merge made.",
     "1952 7/24 newspaper numerical line items inconsistent; original paper images and bank/customs records not yet obtained.",
-    "May25 actual cabinet minutes and martial law approvals not yet obtained; normative legal procedure cannot establish actual compliance."
+    "May25 actual cabinet minutes and martial law approvals not yet obtained; normative legal procedure cannot establish actual compliance.",
+    "UN General Assembly A/2187 original not yet retrieved; NEC retrospective quotes UNCURK election pressure, not substitute for original UN report."
   ],
   "floot_touched": false,
   "commits_verified": [
@@ -343,5 +366,22 @@
     "existing_base_overlay_upserts": 4,
     "known_base_duplicate_person_identity": "pol-lee-beom-seok vs pol-lee-beom-seok-1900; not auto-merged",
     "date": "2026-10-28"
+  },
+  "tranche_d": {
+    "documents": 14,
+    "primary_or_contemporaneous": 11,
+    "actors": 17,
+    "events": 15,
+    "claims": 14,
+    "leads": 27,
+    "lines": [
+      "서민호 4/24 총격사건 검찰 주장",
+      "5/14 국회 석방결의·5/19 법원 석방",
+      "5/25 군법회의 이관·계엄 법적 근거",
+      "7/1 사형선고와 UNCURK/US 반증",
+      "5/10 장택상 고문수사 근절·행정징계",
+      "5/10 도의원선거 지역별 투표율·숫자검증",
+      "5/10 서울 쌀배급·외환거래소 검토·한일재산권"
+    ]
   }
 }
