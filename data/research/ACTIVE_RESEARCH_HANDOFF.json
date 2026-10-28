@@ -4,7 +4,7 @@
   "activeBranch": "main",
   "branchHead": "moving-ref:refs/heads/main",
   "baseMain": "0bae0fd2c2ce592e6699095fbe4593d07e9b778e",
-  "status": "PASS234C_54_DIRECT_DOCS_INTEGRATED",
+  "status": "PASS234D_58_DOCS_10_INDEPENDENT_ADVERSARIAL_SEARCHES",
   "summary": {
     "pass229DocumentsOpened": 105,
     "pass229PrimaryOrContemporary": 93,
@@ -56,7 +56,7 @@
     "pass233NewLeads": 85,
     "pass233StrictTripleProvenance": 3
   },
-  "nextAction": "UN A/PV.411·09-258/09-259 대본으로 1952-12-21/22 회의일 검증, FRUS d364 FE files lot55 D128 봉암도 사망82/85명 원명부, ICRC 1950-07-03 이승만 공통3조 서명 원지면, 국회 가마니 287/387억·예산 200억 충돌.",
+  "nextAction": "1955-02-07 법률354호 원개정문·관보, 1952-12-01 가마니 287/387억 원속기록, 봉암도 82/85 사망원장·UN A/PV.411 21/22일, 백두진 11/13 달러교환 공한, 1952 공무원 수당 실제 지급대장.",
   "mainDataModified": true,
   "latestRun": {
     "pass": 234,
@@ -65,22 +65,26 @@
     "leadQueues": [
       "data/research/leads/pass-234-20261028-next-lead-queue.json",
       "data/research/leads/pass-234-addendum-20261028-next-lead-queue.json",
-      "data/research/leads/pass-234-addendum-c-20261028-next-lead-queue.json"
+      "data/research/leads/pass-234-addendum-c-20261028-next-lead-queue.json",
+      "data/research/leads/pass-234-addendum-d-20261028-next-lead-queue.json"
     ],
     "documentRegistries": [
       "data/documents/pass-234-1952-dec-state-finance.json",
       "data/documents/pass-234-addendum-1952-dec-11-15.json",
-      "data/documents/pass-234-addendum-1950-icrc-un-1952.json"
+      "data/documents/pass-234-addendum-1950-icrc-un-1952.json",
+      "data/documents/pass-234-addendum-d-1952-1955-economic.json"
     ],
     "eventRegistries": [
       "data/events/pass-234-1952-dec-state-finance.json",
       "data/events/pass-234-addendum-1952-dec-11-15.json",
-      "data/events/pass-234-addendum-1950-icrc-un-1952.json"
+      "data/events/pass-234-addendum-1950-icrc-un-1952.json",
+      "data/events/pass-234-addendum-d-1952-1955-economic.json"
     ],
     "claimRegistries": [
       "data/claims/pass-234-1952-dec-state-finance.json",
       "data/claims/pass-234-addendum-1952-dec-11-15.json",
-      "data/claims/pass-234-addendum-1950-icrc-un-1952.json"
+      "data/claims/pass-234-addendum-1950-icrc-un-1952.json",
+      "data/claims/pass-234-addendum-d-1952-1955-economic.json"
     ],
     "actorOverlays": [
       "data/politicians/pass-234-1952-dec-legislative-actors.json",
@@ -89,20 +93,23 @@
     "annals": [
       "data/annals/1952-dec-state-finance-education-relief.md",
       "data/annals/1952-dec-11-15-state-operations-adversarial.md",
-      "data/annals/1950-icrc-1952-un-pongam-crossprovenance.md"
+      "data/annals/1950-icrc-1952-un-pongam-crossprovenance.md",
+      "data/annals/1952-1955-institutional-adversarial-verification.md"
     ],
+    "adversarialSearchLog": "data/research/adversarial/pass-234d-independent-search-audit.json",
     "metrics": {
-      "documents_directly_opened": 54,
-      "primary_or_contemporary_or_official_original": 51,
-      "official_later_secondary": 3,
+      "documents_directly_opened": 58,
+      "primary_or_contemporary_or_official_original": 52,
+      "official_or_academic_later_secondary": 6,
       "new_nonpresidential_candidates": 6,
       "existing_nonpresidential_deepened": 5,
-      "event_actions": 44,
-      "claims_tested": 43,
-      "new_specific_leads": 85,
+      "event_actions": 46,
+      "claims_tested": 49,
+      "new_specific_leads": 95,
       "prior_leads_tracked": 8,
-      "independent_research_lines_conservative": 31,
-      "governance_domains": 14
+      "independent_research_lines_conservative": 32,
+      "governance_domains": 14,
+      "independent_adversarial_searches": 14
     },
     "weeklyDebtFullReview": false
   },
@@ -293,5 +300,13 @@
     "data/claims/pass-234-addendum-1950-icrc-un-1952.json",
     "data/research/leads/pass-234-addendum-c-20261028-next-lead-queue.json",
     "data/annals/1950-icrc-1952-un-pongam-crossprovenance.md"
+  ],
+  "pass234AddendumDFiles": [
+    "data/events/pass-234-addendum-d-1952-1955-economic.json",
+    "data/documents/pass-234-addendum-d-1952-1955-economic.json",
+    "data/claims/pass-234-addendum-d-1952-1955-economic.json",
+    "data/research/leads/pass-234-addendum-d-20261028-next-lead-queue.json",
+    "data/research/adversarial/pass-234d-independent-search-audit.json",
+    "data/annals/1952-1955-institutional-adversarial-verification.md"
   ]
 }
