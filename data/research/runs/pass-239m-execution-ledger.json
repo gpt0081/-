@@ -7,7 +7,7 @@
   "elapsed_minutes": null,
   "elapsed_note": "종료시각 미계측. 1시간 실행했다고 주장하지 않음.",
   "research_scope": "1954 constitutional amendment: original Assembly minutes, Gazette No.1228, US embassy RG84 and UN A/2947",
-  "independent_research_lines": 22,
+  "independent_research_lines": 30,
   "substantively_strengthened_domains": [
     "헌정·입법",
     "행정·인사",
@@ -17,19 +17,19 @@
     "외교·주권·국민투표",
     "언론·공보"
   ],
-  "nonpresidential_actors_deepened": 30,
-  "new_central_politicians": 15,
+  "nonpresidential_actors_deepened": 45,
+  "new_central_politicians": 26,
   "promoted_to_verified": 1,
-  "new_or_strengthened_events": 24,
-  "opened_meaningful_unique_documents": 29,
-  "opened_original_or_contemporaneous_documents": 21,
+  "new_or_strengthened_events": 32,
+  "opened_meaningful_unique_documents": 40,
+  "opened_original_or_contemporaneous_documents": 32,
   "original_facsimile_pages_visually_checked": 0,
-  "adversarial_searches_count_conservative": 11,
-  "claims_recorded_with_counterevidence": 23,
+  "adversarial_searches_count_conservative": 17,
+  "claims_recorded_with_counterevidence": 32,
   "crossprovenance_three_family_claim_bundles": 3,
-  "existing_history_debt_or_leads_followed": 4,
-  "new_history_debts": 8,
-  "new_next_leads": 60,
+  "existing_history_debt_or_leads_followed": 6,
+  "new_history_debts": 13,
+  "new_next_leads": 75,
   "history_debt_full_weekly_review": "NOT_PERFORMED",
   "last_full_review_unchanged": "2026-09-27",
   "research_limits": [
@@ -42,7 +42,10 @@
     "1954 제82차 개헌안 원명부 7/7과 9/6 정식 제출 차이 미해결",
     "원본 속기록·관보 이미지는 시각 검증하지 않음",
     "1955 한국 회계연도 18개월은 AKS 후대 연구로 확인, 예산법 원문은 미확보",
-    "외교부·UN·FRUS의 1955 조정환/변영태 날짜 7/28·7/30·8/1 법적 의미 미해결"
+    "외교부·UN·FRUS의 1955 조정환/변영태 날짜 7/28·7/30·8/1 법적 의미 미해결",
+    "1954 경제개헌 철회 원속기록 3/15 확증, 정부 내부 결정 동기 미확정",
+    "1954 제3대 국무원 신임안 본안 투표는 확인되지 않음",
+    "국편 1954 경제개헌 철회 해제의 '1960년' 오기 발견, 정오표 미확보"
   ],
   "commit_parent_sha": "aebb9c028c124a490e97adbf195e9c5114ed772f",
   "commit_sha": "See GitHub commit history after commit",
@@ -74,11 +77,21 @@
     "data/events/pass-239m2-fiscal-administration.json",
     "data/claims/pass-239m2-fiscal-year-period-review.json",
     "data/evidence/cho-chung-whan.json",
-    "data/annals/cho-chung-whan.md"
+    "data/annals/cho-chung-whan.md",
+    "data/documents/pass-239m3-1954-economic-assembly-originals.json",
+    "data/events/pass-239m3-1954-economy-parliament-justice.json",
+    "data/claims/pass-239m3-march-withdrawal-adversarial.json",
+    "data/politicians/pass-239m3-1954-economic-parliament-actors.json",
+    "data/annals/1954-march-economic-amendment-withdrawal.md",
+    "data/evidence/seo-beom-seok.json",
+    "data/annals/seo-beom-seok.md",
+    "data/evidence/cho-bong-am.json",
+    "data/annals/cho-bong-am.md",
+    "data/annals/paik-too-chin.md"
   ],
   "floot": "NOT_TOUCHED",
   "additional_pass": "239M2",
-  "nonpresidential_annals_active_new": 1,
+  "nonpresidential_annals_active_new": 2,
   "research_line_details": [
     "1954-11-27 표결 날짜 원속기록",
     "1954-11-27 기권·무효 분류 충돌",
@@ -101,7 +114,15 @@
     "1952~53 대통령 국민투표 촉진 유시",
     "1954 Connelly 미국 법률검토",
     "1954 Briggs No.396 대통령 11/12 언론성명",
-    "1954 Briggs No.441 개헌 후 한미외교 긴장"
+    "1954 Briggs No.441 개헌 후 한미외교 긴장",
+    "1954-03 정부 경제개헌안 총리 설명",
+    "1954-03 경제개헌 반대·사회적 균등 논쟁",
+    "1954-03-09 서범석 총리 설명요구 표결",
+    "1954-03-13 국회 철회심사 연기",
+    "1954-03-15 경제개헌 철회 승인",
+    "1954 참의원 선거법 제2독회",
+    "1954 제3대 국무원 신임 의사일정 표결",
+    "1954 헌법위원회·탄핵재판소 인선·참의원 미구성"
   ],
   "adversarial_paths": [
     "국회 제90차 vs 법제처 11/19",
@@ -114,7 +135,13 @@
     "김영삼 11/27 찬성 추정 vs 비밀투표 원칙",
     "1954 초안 7/7 vs 정식 접수 9/6",
     "1954 제33조2항 1/3 vs 1/2",
-    "UN 12개월 예산 해석 vs AKS 18개월 FY"
+    "UN 12개월 예산 해석 vs AKS 18개월 FY",
+    "3/9 총리설명 요구 vs 3/15 철회 승인",
+    "정부 철회 동기 단일설 vs 백두진·서범석·장홍염 상반 발언",
+    "국편 1960년 후대 해제 vs 1954년 국회 원속기록",
+    "국무원 신임 본안 표결 오인 vs 의사일정 변경 40/103",
+    "참의원 미구성 인선 위헌 확정 오인 vs 국회 법리논쟁·보류",
+    "경제개헌 반대토론 부재설 vs 3월 4회차 대체토론"
   ],
   "crossprovenance_bundles": [
     {
@@ -144,6 +171,7 @@
   ],
   "coherent_commits": [
     "f4773659cb53f725e4186040740dc2daf8141b7b",
-    "second commit pending"
+    "b23b048af34cfabcc914807106c6860b4d5742b1",
+    "third commit pending"
   ]
 }
