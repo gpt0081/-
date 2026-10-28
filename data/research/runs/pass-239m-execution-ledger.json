@@ -7,7 +7,7 @@
   "elapsed_minutes": null,
   "elapsed_note": "종료시각 미계측. 1시간 실행했다고 주장하지 않음.",
   "research_scope": "1954 constitutional amendment: original Assembly minutes, Gazette No.1228, US embassy RG84 and UN A/2947",
-  "independent_research_lines": 12,
+  "independent_research_lines": 22,
   "substantively_strengthened_domains": [
     "헌정·입법",
     "행정·인사",
@@ -17,19 +17,19 @@
     "외교·주권·국민투표",
     "언론·공보"
   ],
-  "nonpresidential_actors_deepened": 16,
-  "new_central_politicians": 5,
+  "nonpresidential_actors_deepened": 30,
+  "new_central_politicians": 15,
   "promoted_to_verified": 1,
-  "new_or_strengthened_events": 10,
-  "opened_meaningful_unique_documents": 14,
-  "opened_original_or_contemporaneous_documents": 11,
+  "new_or_strengthened_events": 24,
+  "opened_meaningful_unique_documents": 29,
+  "opened_original_or_contemporaneous_documents": 21,
   "original_facsimile_pages_visually_checked": 0,
-  "adversarial_searches_count_conservative": 6,
-  "claims_recorded_with_counterevidence": 10,
+  "adversarial_searches_count_conservative": 11,
+  "claims_recorded_with_counterevidence": 23,
   "crossprovenance_three_family_claim_bundles": 3,
-  "existing_history_debt_or_leads_followed": 2,
-  "new_history_debts": 3,
-  "new_next_leads": 42,
+  "existing_history_debt_or_leads_followed": 4,
+  "new_history_debts": 8,
+  "new_next_leads": 60,
   "history_debt_full_weekly_review": "NOT_PERFORMED",
   "last_full_review_unchanged": "2026-09-27",
   "research_limits": [
@@ -37,7 +37,12 @@
     "11/27 표수 원속기록 7기권 vs 국편 해제 6기권+1무효",
     "대통령의 11/28 국무회의 원발언·직접 지시문서 미확보",
     "원본 PDF/속기록 이미지 시각검증 0쪽",
-    "원래 목표 40문서·20연구선 미달: 웹 조회 한도와 1954 개헌 집중 검증"
+    "원래 목표 40문서·20연구선 미달: 웹 조회 한도와 1954 개헌 집중 검증",
+    "1954-11-27 개헌안은 비밀투표: 김영삼·현석호 개인 표결 미확정",
+    "1954 제82차 개헌안 원명부 7/7과 9/6 정식 제출 차이 미해결",
+    "원본 속기록·관보 이미지는 시각 검증하지 않음",
+    "1955 한국 회계연도 18개월은 AKS 후대 연구로 확인, 예산법 원문은 미확보",
+    "외교부·UN·FRUS의 1955 조정환/변영태 날짜 7/28·7/30·8/1 법적 의미 미해결"
   ],
   "commit_parent_sha": "aebb9c028c124a490e97adbf195e9c5114ed772f",
   "commit_sha": "See GitHub commit history after commit",
@@ -55,7 +60,90 @@
     "data/research/leads/pass-239l2-next-queue.json",
     "data/research/leads/pass-239m-next-queue.json",
     "data/research/runs/pass-239m-execution-ledger.json",
-    "data/research/runs/pass-239m-summary.md"
+    "data/research/runs/pass-239m-summary.md",
+    "data/documents/pass-239m2-1954-proposal-and-reversal-signers.json",
+    "data/documents/pass-239m2-expanded-primary-registry.json",
+    "data/events/pass-239m2-proposal-speeches-motion.json",
+    "data/claims/pass-239m2-signatures-and-counterevidence.json",
+    "data/politicians/pass-239m2-constitutional-speakers-and-signers.json",
+    "data/evidence/lee-jae-hak.json",
+    "data/annals/lee-jae-hak.md",
+    "data/evidence/kim-youngsam.json",
+    "data/annals/kim-youngsam.md",
+    "data/documents/pass-239m2-fiscal-foreign-addendum.json",
+    "data/events/pass-239m2-fiscal-administration.json",
+    "data/claims/pass-239m2-fiscal-year-period-review.json",
+    "data/evidence/cho-chung-whan.json",
+    "data/annals/cho-chung-whan.md"
   ],
-  "floot": "NOT_TOUCHED"
+  "floot": "NOT_TOUCHED",
+  "additional_pass": "239M2",
+  "nonpresidential_annals_active_new": 1,
+  "research_line_details": [
+    "1954-11-27 표결 날짜 원속기록",
+    "1954-11-27 기권·무효 분류 충돌",
+    "1954-11-29 번복 의사절차",
+    "1954-11-29 관보 공포일",
+    "법제처 11/19 전사 이상치",
+    "제91차 12/27 전사 이상치",
+    "1954-11-28 정부 정족수 해석·국무회의",
+    "1954 국민투표제·주권 논거",
+    "1954 사영기업·자원특허 경제헌법",
+    "1954 군법회의·대법관 인준",
+    "1954 국무총리 폐지·개별 불신임",
+    "1954 국회 야당 반대 및 교섭단체",
+    "1954 136인 원발의 서명명부",
+    "1954 11/29 정정동의 20인 명부",
+    "김영삼 후대 회고 대 원서명",
+    "김영삼 11/27 개인 비밀투표 식별한계",
+    "1954 9/8 대통령 공고 대 국회 발의",
+    "1954 이재학 경제개헌 제안설명",
+    "1952~53 대통령 국민투표 촉진 유시",
+    "1954 Connelly 미국 법률검토",
+    "1954 Briggs No.396 대통령 11/12 언론성명",
+    "1954 Briggs No.441 개헌 후 한미외교 긴장"
+  ],
+  "adversarial_paths": [
+    "국회 제90차 vs 법제처 11/19",
+    "국회 표수 vs 국편 후대 6기권+1무효",
+    "관보 11/29 vs 법제처 온라인",
+    "제91차 12/27 vs 제90차 11/27",
+    "대통령 직접지시 추정 vs 유순식 20인 명부",
+    "정부 발의 추정 vs 관보1174 국회의원 발의",
+    "김영삼 일관 반대 회고 vs 9월 원서명",
+    "김영삼 11/27 찬성 추정 vs 비밀투표 원칙",
+    "1954 초안 7/7 vs 정식 접수 9/6",
+    "1954 제33조2항 1/3 vs 1/2",
+    "UN 12개월 예산 해석 vs AKS 18개월 FY"
+  ],
+  "crossprovenance_bundles": [
+    {
+      "claim": "1954-11-27 vote",
+      "families": [
+        "ROK National Assembly original",
+        "US Embassy RG84 No.431",
+        "UN A/2947"
+      ]
+    },
+    {
+      "claim": "1954-11-29 reversal",
+      "families": [
+        "ROK National Assembly original",
+        "US Embassy RG84 No.433",
+        "UN A/2947"
+      ]
+    },
+    {
+      "claim": "1954-11-29 promulgation",
+      "families": [
+        "ROK Gazette No.1228",
+        "UN A/2947",
+        "US Embassy RG84 No.433 contemporaneous context"
+      ]
+    }
+  ],
+  "coherent_commits": [
+    "f4773659cb53f725e4186040740dc2daf8141b7b",
+    "second commit pending"
+  ]
 }
