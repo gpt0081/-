@@ -252,7 +252,9 @@
       "researchStatus": "candidate-cross-event",
       "backbone": false,
       "connections": [
-        "evt-1949-farmland-reform"
+        "evt-1949-farmland-reform",
+        "evt-p232-0919-opposition-talks",
+        "evt-p232-0917-party-sketches"
       ],
       "researchUpdates": [
         {
@@ -263,7 +265,8 @@
           ],
           "verification": "individual speech/office verified, biographical identity incomplete"
         }
-      ]
+      ],
+      "pass232Overlay": "data/politicians/pass-232-1952-september-actors.json"
     },
     {
       "id": "pol-lee-beom-seok",
@@ -487,9 +490,12 @@
       "backbone": false,
       "connections": [
         "evt-1953-anti-communist-pow-release",
-        "evt-1953-us-rok-mutual-defense-negotiation"
+        "evt-1953-us-rok-mutual-defense-negotiation",
+        "evt-p232-0917-finance-critique",
+        "evt-p232-0918-reimbursement-split"
       ],
-      "researchNotes": "1952~53 재정·원조·휴전외교 교차 행위자. 1953-08-06 경제·군사원조 회의에서 통합 경제기구를 통한 원조 프로그램 MOU의 미국 최종승인을 직접 요청한 기록과 덜레스 회담 참여가 확인되어 VERIFIED로 승격. CEB/환율/재건원조 한국측 문서 확보 후 ANNALS_ACTIVE 검토."
+      "researchNotes": "1952~53 재정·원조·휴전외교 교차 행위자. 1953-08-06 경제·군사원조 회의에서 통합 경제기구를 통한 원조 프로그램 MOU의 미국 최종승인을 직접 요청한 기록과 덜레스 회담 참여가 확인되어 VERIFIED로 승격. CEB/환율/재건원조 한국측 문서 확보 후 ANNALS_ACTIVE 검토.",
+      "pass232Overlay": "data/politicians/pass-232-1952-september-actors.json"
     },
     {
       "id": "pol-pyun-yong-tae",
@@ -507,9 +513,11 @@
       "backbone": false,
       "connections": [
         "evt-1953-anti-communist-pow-release",
-        "evt-1953-us-rok-mutual-defense-negotiation"
+        "evt-1953-us-rok-mutual-defense-negotiation",
+        "evt-p232-0912-japanese-fishing-seizure"
       ],
-      "researchNotes": "1953 휴전·반공포로·한미상호방위조약에서 반복 확인. 1953-08-07 공동성명 문구 수정 제안과 08-08 덜레스와 조약 초안 가조인이라는 직접 행위가 공식 외교기록으로 확인되어 VERIFIED로 승격. 향후 외무부 한국측 회의록·서명훈령 확보 시 ANNALS_ACTIVE 검토."
+      "researchNotes": "1953 휴전·반공포로·한미상호방위조약에서 반복 확인. 1953-08-07 공동성명 문구 수정 제안과 08-08 덜레스와 조약 초안 가조인이라는 직접 행위가 공식 외교기록으로 확인되어 VERIFIED로 승격. 향후 외무부 한국측 회의록·서명훈령 확보 시 ANNALS_ACTIVE 검토.",
+      "pass232Overlay": "data/politicians/pass-232-1952-september-actors.json"
     },
     {
       "id": "pol-lee-beom-seok-1900",
@@ -597,9 +605,11 @@
       "researchStatus": "IDENTIFIED",
       "backbone": false,
       "connections": [
-        "evt-1953-us-rok-mutual-defense-negotiation"
+        "evt-1953-us-rok-mutual-defense-negotiation",
+        "evt-p232-0912-japanese-fishing-seizure"
       ],
-      "researchNotes": "1953-08-06 경제·군사원조 및 한국군 회의와 08-08 최종회담의 한국측 참가자로 공식 외교기록에서 확인. 해군 총참모장 시기와 국방부장관 취임일의 정확한 경계를 관보/기관연혁으로 검증 후 VERIFIED 검토."
+      "researchNotes": "1953-08-06 경제·군사원조 및 한국군 회의와 08-08 최종회담의 한국측 참가자로 공식 외교기록에서 확인. 해군 총참모장 시기와 국방부장관 취임일의 정확한 경계를 관보/기관연혁으로 검증 후 VERIFIED 검토.",
+      "pass232Overlay": "data/politicians/pass-232-1952-september-actors.json"
     },
     {
       "id": "pol-lim-byong-jik",
@@ -1057,7 +1067,8 @@
       "id": "cand-1952-speaker-shin-ik-hui",
       "name": "신익희",
       "aliases": [
-        "Shin Ik-hui"
+        "Shin Ik-hui",
+        "申翼熙"
       ],
       "hanja": null,
       "hanjaVerification": "not yet checked against original personnel/election record",
@@ -1091,7 +1102,490 @@
       "backbone": false,
       "sourceFile": "data/politicians/pass-231-1952-election-accountability.json",
       "evidenceFile": "data/politicians/pass-231-1952-election-accountability.json",
-      "annalsFile": "data/annals/1952-july-august-election-economic-accountability.md"
+      "annalsFile": "data/annals/1952-july-august-election-economic-accountability.md",
+      "connections": [
+        "evt-p232-0917-japanese-korean-delegation",
+        "evt-p232-0919-opposition-talks"
+      ],
+      "pass232Overlay": "data/politicians/pass-232-1952-september-actors.json"
+    },
+    {
+      "id": "cand-1952-sep-interior-jin-heon-sik",
+      "name": "진헌식",
+      "aliases": [
+        "Jin Heon-sik",
+        "陳憲植",
+        "陣憲植 (1952 newspaper headline variant)"
+      ],
+      "roles": [
+        "1952-09-18 내무부장관"
+      ],
+      "researchStatus": "IDENTIFIED",
+      "backbone": false,
+      "connections": [
+        "evt-p232-0918-interior-police",
+        "evt-p232-0916-governors"
+      ],
+      "evidenceFile": "data/politicians/pass-232-1952-september-actors.json",
+      "openLeadsFile": "data/research/leads/pass-232-20261028-next-lead-queue.json",
+      "researchNote": "2026-10-28 pass232 event-scoped identity; birth/death/appointment/party official originals pending",
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "not independently checked this pass"
+      },
+      "hanjaVerification": "CONFLICTED: dh_026_1952_09_18_0050 기사 제목 陣憲植, 본문 陳내무장관; dh_026_1952_09_18_0040 陳憲植. 공식 인사발령 원문 확인 전 canonical Hanja 잠정",
+      "partyAffiliationEvidence": "unknown"
+    },
+    {
+      "id": "cand-1952-sep-police-mun-bong-je",
+      "name": "문봉제",
+      "aliases": [
+        "Mun Bong-je",
+        "文鳳濟"
+      ],
+      "roles": [
+        "1952-09-17~18 치안국장"
+      ],
+      "researchStatus": "IDENTIFIED",
+      "backbone": false,
+      "connections": [
+        "evt-p232-0918-interior-police"
+      ],
+      "evidenceFile": "data/politicians/pass-232-1952-september-actors.json",
+      "openLeadsFile": "data/research/leads/pass-232-20261028-next-lead-queue.json",
+      "researchNote": "2026-10-28 pass232 event-scoped identity; birth/death/appointment/party official originals pending",
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "not independently checked this pass"
+      },
+      "hanjaVerification": "1952 contemporaneous text or existing canonical registry",
+      "partyAffiliationEvidence": "unknown"
+    },
+    {
+      "id": "cand-1952-sep-agri-shin-jung-mok",
+      "name": "신중목",
+      "aliases": [
+        "Shin Jung-mok",
+        "愼重穆"
+      ],
+      "roles": [
+        "1952-09 농림부장관"
+      ],
+      "researchStatus": "IDENTIFIED",
+      "backbone": false,
+      "connections": [
+        "evt-p232-0917-cooperative-policy",
+        "evt-p232-0917-fertilizer"
+      ],
+      "evidenceFile": "data/politicians/pass-232-1952-september-actors.json",
+      "openLeadsFile": "data/research/leads/pass-232-20261028-next-lead-queue.json",
+      "researchNote": "2026-10-28 pass232 event-scoped identity; birth/death/appointment/party official originals pending",
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "not independently checked this pass"
+      },
+      "hanjaVerification": "1952 contemporaneous text or existing canonical registry",
+      "partyAffiliationEvidence": "unknown"
+    },
+    {
+      "id": "cand-1952-cabinet-lee-kyo-seon",
+      "name": "이교선",
+      "aliases": [
+        "Yi Gyo-seon",
+        "李敎善"
+      ],
+      "roles": [
+        "1952-09-18 상공부장관"
+      ],
+      "researchStatus": "IDENTIFIED",
+      "backbone": false,
+      "connections": [
+        "evt-p232-0918-reimbursement-split"
+      ],
+      "evidenceFile": "data/politicians/pass-232-1952-september-actors.json",
+      "openLeadsFile": "data/research/leads/pass-232-20261028-next-lead-queue.json",
+      "researchNote": "2026-10-28 pass232 event-scoped identity; birth/death/appointment/party official originals pending",
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "not independently checked this pass"
+      },
+      "hanjaVerification": "1952 contemporaneous text or existing canonical registry",
+      "partyAffiliationEvidence": "unknown"
+    },
+    {
+      "id": "cand-1952-sep-chungbuk-jeong-hyeon-mo",
+      "name": "정현모",
+      "aliases": [
+        "Jeong Hyeon-mo",
+        "鄭顯模"
+      ],
+      "roles": [
+        "1952-09-16~18 충북도지사 인선 대상·자유당 사무국장"
+      ],
+      "researchStatus": "IDENTIFIED",
+      "backbone": false,
+      "connections": [
+        "evt-p232-0916-governors"
+      ],
+      "evidenceFile": "data/politicians/pass-232-1952-september-actors.json",
+      "openLeadsFile": "data/research/leads/pass-232-20261028-next-lead-queue.json",
+      "researchNote": "2026-10-28 pass232 event-scoped identity; birth/death/appointment/party official originals pending",
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "not independently checked this pass"
+      },
+      "hanjaVerification": "1952 contemporaneous text or existing canonical registry",
+      "partyAffiliationEvidence": "자유당(동시대 보도)"
+    },
+    {
+      "id": "cand-1952-sep-jeonbuk-lee-yo-han",
+      "name": "이요한",
+      "aliases": [
+        "Yi Yo-han",
+        "李要漢"
+      ],
+      "roles": [
+        "1952-09-16~18 전북도지사 인선 대상·자유당 전북도위원장"
+      ],
+      "researchStatus": "IDENTIFIED",
+      "backbone": false,
+      "connections": [
+        "evt-p232-0916-governors"
+      ],
+      "evidenceFile": "data/politicians/pass-232-1952-september-actors.json",
+      "openLeadsFile": "data/research/leads/pass-232-20261028-next-lead-queue.json",
+      "researchNote": "2026-10-28 pass232 event-scoped identity; birth/death/appointment/party official originals pending",
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "not independently checked this pass"
+      },
+      "hanjaVerification": "1952 contemporaneous text or existing canonical registry",
+      "partyAffiliationEvidence": "자유당(동시대 보도)"
+    },
+    {
+      "id": "cand-1952-sep-vice-interior-hwang-ho-heon",
+      "name": "황호헌",
+      "aliases": [
+        "Hwang Ho-heon"
+      ],
+      "roles": [
+        "1952-09-17 내무부차관 보직 보도"
+      ],
+      "researchStatus": "IDENTIFIED",
+      "backbone": false,
+      "connections": [
+        "evt-p232-0918-interior-police"
+      ],
+      "evidenceFile": "data/politicians/pass-232-1952-september-actors.json",
+      "openLeadsFile": "data/research/leads/pass-232-20261028-next-lead-queue.json",
+      "researchNote": "2026-10-28 pass232 event-scoped identity; birth/death/appointment/party official originals pending",
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "not independently checked this pass"
+      },
+      "hanjaVerification": "not confirmed",
+      "partyAffiliationEvidence": "unknown"
+    },
+    {
+      "id": "cand-1952-sep-chungnam-seong-rak-seo",
+      "name": "성락서",
+      "aliases": [
+        "Seong Rak-seo",
+        "成樂緖"
+      ],
+      "roles": [
+        "1952-09 충남도지사 인사보도"
+      ],
+      "researchStatus": "IDENTIFIED",
+      "backbone": false,
+      "connections": [
+        "evt-p232-0916-governors"
+      ],
+      "evidenceFile": "data/politicians/pass-232-1952-september-actors.json",
+      "openLeadsFile": "data/research/leads/pass-232-20261028-next-lead-queue.json",
+      "researchNote": "2026-10-28 pass232 event-scoped identity; birth/death/appointment/party official originals pending",
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "not independently checked this pass"
+      },
+      "hanjaVerification": "1952 contemporaneous text or existing canonical registry",
+      "partyAffiliationEvidence": "unknown"
+    },
+    {
+      "id": "cand-1952-sep-gyeonggi-kim-yeong-gi",
+      "name": "김영기",
+      "aliases": [
+        "Kim Yeong-gi",
+        "金英基"
+      ],
+      "roles": [
+        "1952-09 경기도지사 인사보도"
+      ],
+      "researchStatus": "IDENTIFIED",
+      "backbone": false,
+      "connections": [
+        "evt-p232-0916-governors"
+      ],
+      "evidenceFile": "data/politicians/pass-232-1952-september-actors.json",
+      "openLeadsFile": "data/research/leads/pass-232-20261028-next-lead-queue.json",
+      "researchNote": "2026-10-28 pass232 event-scoped identity; birth/death/appointment/party official originals pending",
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "not independently checked this pass"
+      },
+      "hanjaVerification": "1952 contemporaneous text or existing canonical registry",
+      "partyAffiliationEvidence": "unknown"
+    },
+    {
+      "id": "cand-1952-sep-women-party-im-yeong-sin",
+      "name": "임영신",
+      "aliases": [
+        "Im Yeong-sin",
+        "任永信"
+      ],
+      "roles": [
+        "1952-08~09 여자국민당 당수·1952 부통령 후보"
+      ],
+      "researchStatus": "IDENTIFIED",
+      "backbone": false,
+      "connections": [
+        "evt-p232-0917-party-sketches",
+        "evt-p232-0918-party-merger"
+      ],
+      "evidenceFile": "data/politicians/pass-232-1952-september-actors.json",
+      "openLeadsFile": "data/research/leads/pass-232-20261028-next-lead-queue.json",
+      "researchNote": "2026-10-28 pass232 event-scoped identity; birth/death/appointment/party official originals pending",
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "not independently checked this pass"
+      },
+      "hanjaVerification": "1952 contemporaneous text or existing canonical registry",
+      "partyAffiliationEvidence": "여자국민당"
+    },
+    {
+      "id": "cand-1952-sep-independent-labor-yu-rim",
+      "name": "유림",
+      "aliases": [
+        "Yu Rim",
+        "柳林"
+      ],
+      "roles": [
+        "1945~1952 독립노농당(기사 표기 독립노동당) 지도자"
+      ],
+      "researchStatus": "IDENTIFIED",
+      "backbone": false,
+      "connections": [
+        "evt-p232-0917-party-sketches"
+      ],
+      "evidenceFile": "data/politicians/pass-232-1952-september-actors.json",
+      "openLeadsFile": "data/research/leads/pass-232-20261028-next-lead-queue.json",
+      "researchNote": "2026-10-28 pass232 event-scoped identity; birth/death/appointment/party official originals pending",
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "not independently checked this pass"
+      },
+      "hanjaVerification": "1952 contemporaneous text or existing canonical registry",
+      "partyAffiliationEvidence": "독립노농당/독립노동당 명칭 원문 충돌"
+    },
+    {
+      "id": "cand-chang-taek-sang-1952",
+      "name": "장택상",
+      "aliases": [
+        "Chang Taek-sang",
+        "張澤相"
+      ],
+      "roles": [
+        "1952-09 국무총리"
+      ],
+      "researchStatus": "IDENTIFIED",
+      "backbone": false,
+      "connections": [
+        "evt-p232-0919-opposition-talks",
+        "evt-p232-0917-party-sketches"
+      ],
+      "evidenceFile": "data/politicians/pass-232-1952-september-actors.json",
+      "openLeadsFile": "data/research/leads/pass-232-20261028-next-lead-queue.json",
+      "researchNote": "2026-10-28 pass232 event-scoped identity; birth/death/appointment/party official originals pending",
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "not independently checked this pass"
+      },
+      "hanjaVerification": "1952 contemporaneous text or existing canonical registry",
+      "partyAffiliationEvidence": "신라회 관련(정당 아님)"
+    },
+    {
+      "id": "cand-1952-sep-yun-chi-yeong",
+      "name": "윤치영",
+      "aliases": [
+        "Yun Chi-yeong",
+        "尹致暎"
+      ],
+      "roles": [
+        "1952-09 국회부의장·대한국민당 지도부·자유당 원내 활동"
+      ],
+      "researchStatus": "IDENTIFIED",
+      "backbone": false,
+      "connections": [
+        "evt-p232-0918-party-merger",
+        "evt-p232-0919-opposition-talks"
+      ],
+      "evidenceFile": "data/politicians/pass-232-1952-september-actors.json",
+      "openLeadsFile": "data/research/leads/pass-232-20261028-next-lead-queue.json",
+      "researchNote": "2026-10-28 pass232 event-scoped identity; birth/death/appointment/party official originals pending",
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "not independently checked this pass"
+      },
+      "hanjaVerification": "1952 contemporaneous text or existing canonical registry",
+      "partyAffiliationEvidence": "대한국민당/자유당 관련 동시대 상충 전언"
+    },
+    {
+      "id": "cand-1952-sep-us-ambassador-yang-yu-chan",
+      "name": "양유찬",
+      "aliases": [
+        "Yang Yu-chan",
+        "梁裕燦"
+      ],
+      "roles": [
+        "1952-09-19 주미대사"
+      ],
+      "researchStatus": "IDENTIFIED",
+      "backbone": false,
+      "connections": [
+        "evt-p232-0919-unc-foreign-policy"
+      ],
+      "evidenceFile": "data/politicians/pass-232-1952-september-actors.json",
+      "openLeadsFile": "data/research/leads/pass-232-20261028-next-lead-queue.json",
+      "researchNote": "2026-10-28 pass232 event-scoped identity; birth/death/appointment/party official originals pending",
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "not independently checked this pass"
+      },
+      "hanjaVerification": "1952 contemporaneous text or existing canonical registry",
+      "partyAffiliationEvidence": "unknown"
+    },
+    {
+      "id": "cand-1952-minister-lee-yun-yeong",
+      "name": "이윤영",
+      "aliases": [
+        "Yi Yun-yeong",
+        "李允榮"
+      ],
+      "roles": [
+        "1952-09 조선민주당 수석최고위원"
+      ],
+      "researchStatus": "IDENTIFIED",
+      "backbone": false,
+      "connections": [
+        "evt-p232-0917-party-sketches"
+      ],
+      "evidenceFile": "data/politicians/pass-232-1952-september-actors.json",
+      "openLeadsFile": "data/research/leads/pass-232-20261028-next-lead-queue.json",
+      "researchNote": "2026-10-28 pass232 event-scoped identity; birth/death/appointment/party official originals pending",
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "not independently checked this pass"
+      },
+      "hanjaVerification": "1952 contemporaneous text or existing canonical registry",
+      "partyAffiliationEvidence": "조선민주당"
+    },
+    {
+      "id": "cand-1952-vice-jeong-gi-won",
+      "name": "정기원",
+      "aliases": [
+        "Jeong Gi-won",
+        "鄭基元"
+      ],
+      "roles": [
+        "1952-08~09 1952 부통령 후보·조선민주당 관련 인사"
+      ],
+      "researchStatus": "IDENTIFIED",
+      "backbone": false,
+      "connections": [
+        "evt-p232-0917-party-sketches"
+      ],
+      "evidenceFile": "data/politicians/pass-232-1952-september-actors.json",
+      "openLeadsFile": "data/research/leads/pass-232-20261028-next-lead-queue.json",
+      "researchNote": "2026-10-28 pass232 event-scoped identity; birth/death/appointment/party official originals pending",
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "not independently checked this pass"
+      },
+      "hanjaVerification": "1952 contemporaneous text or existing canonical registry",
+      "partyAffiliationEvidence": "조선민주당 관련, 공식 당적 미확인"
+    },
+    {
+      "id": "cand-1952-sep-zainichi-kim-gwang-nam",
+      "name": "김광남",
+      "aliases": [
+        "Kim Gwang-nam"
+      ],
+      "roles": [
+        "1952-09-17 재일거류민단 간부·단장 표기 불명확"
+      ],
+      "researchStatus": "IDENTIFIED",
+      "backbone": false,
+      "connections": [
+        "evt-p232-0917-japanese-korean-delegation"
+      ],
+      "evidenceFile": "data/politicians/pass-232-1952-september-actors.json",
+      "openLeadsFile": "data/research/leads/pass-232-20261028-next-lead-queue.json",
+      "researchNote": "2026-10-28 pass232 event-scoped identity; birth/death/appointment/party official originals pending",
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "not independently checked this pass"
+      },
+      "hanjaVerification": "not confirmed",
+      "partyAffiliationEvidence": "재일거류민단"
+    },
+    {
+      "id": "cand-1952-sep-zainichi-kim-jae-geun",
+      "name": "김재근",
+      "aliases": [
+        "Kim Jae-geun"
+      ],
+      "roles": [
+        "1952-09-17 재일거류민단 간부·단장 표기 불명확"
+      ],
+      "researchStatus": "IDENTIFIED",
+      "backbone": false,
+      "connections": [
+        "evt-p232-0917-japanese-korean-delegation"
+      ],
+      "evidenceFile": "data/politicians/pass-232-1952-september-actors.json",
+      "openLeadsFile": "data/research/leads/pass-232-20261028-next-lead-queue.json",
+      "researchNote": "2026-10-28 pass232 event-scoped identity; birth/death/appointment/party official originals pending",
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "not independently checked this pass"
+      },
+      "hanjaVerification": "not confirmed",
+      "partyAffiliationEvidence": "재일거류민단"
     }
-  ]
+  ],
+  "recentResearchPass232": {
+    "newCanonicalCandidates": 18,
+    "existingCanonicalNodesCrosslinked": 5,
+    "actorOverlay": "data/politicians/pass-232-1952-september-actors.json",
+    "sourceRegistry": "data/documents/pass-232-1952-september-governance.json",
+    "promotionPolicy": "event-specific IDENTIFIED is not global VERIFIED; independent appointment and lifespan documents pending"
+  }
 }
