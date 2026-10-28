@@ -68,15 +68,18 @@
       ],
       "opposed_by": [],
       "legal_authority": [
-        "산업부흥국채발행법(조문 미확보)"
+        "산업부흥국채법 법률 제254호 1952-09-28 공포·시행(9/17 시점 미공포)",
+        "산업부흥국채금특별회계법 법률 제255호 1952-09-28 공포·시행(9/17 시점 미공포)"
       ],
       "observed_by": [
         "동아일보"
       ],
       "document_ids": [
-        "DOC-P232-DH-19520917-004"
+        "DOC-P232-DH-19520917-004",
+        "DOC-P232-LAW-254-19520928",
+        "DOC-P232-LAW-255-19520928"
       ],
-      "uncertainty": "계획과 실제 발행·배정·지출 분리",
+      "uncertainty": "계획과 실제 발행·배정·지출 분리 9/17 국회통과 보도와 9/28 법률 공포·시행 시점 분리. 국가기록원 후대 설명에 따르면 제1회 국채 발행은 1954년 3월, 1952년 현금 방출과 혼동 금지.",
       "parent_event_id": null,
       "attribution_rule": "행위별로 기관·장관·대통령 책임을 구분; 대통령 직접명령은 명시된 원문에만 귀속"
     },
@@ -590,6 +593,88 @@
       "uncertainty": "미국 정부 입장과 한국 정부 입장 구분; 발췌문",
       "parent_event_id": null,
       "attribution_rule": "행위별로 기관·장관·대통령 책임을 구분; 대통령 직접명령은 명시된 원문에만 귀속"
+    },
+    {
+      "id": "evt-p232-0928-industrial-bond-laws",
+      "date": "1952-09-28",
+      "name": "산업부흥국채법 제254호·산업부흥국채금특별회계법 제255호 공포·시행",
+      "domain": "재정·산업·입법",
+      "proposed_by": [
+        "정부·국회 법률안 원안 제출자 미확인"
+      ],
+      "decided_by": [
+        "국회 입법"
+      ],
+      "executed_by": [
+        "정부 법률 공포"
+      ],
+      "opposed_by": [],
+      "legal_authority": [
+        "법률 제254호 제2조: 발행한도·조건·융자대상 개별계획·운용 및 대출방법 국회동의",
+        "법률 제255호 제3·4조: 금융기관 전대·보고검사·대출즉시회수"
+      ],
+      "observed_by": [
+        "법제처 역사법령 원문",
+        "국가기록원 관보 제748호 BA0186095 소장목록"
+      ],
+      "document_ids": [
+        "DOC-P232-LAW-254-19520928",
+        "DOC-P232-LAW-255-19520928",
+        "DOC-P232-ARCHIVE-GAZETTE-748"
+      ],
+      "uncertainty": "법률 공포 확인. 개별 발행한도 국회 동의와 실제 국채 발행은 별도 원문 확인 필요.",
+      "parent_event_id": "evt-p232-0917-reconstruction-bonds",
+      "attribution_rule": "법률 제정·공포는 국회와 정부 기관별 행위로 분리"
+    },
+    {
+      "id": "evt-p232-1954-first-industrial-bond-issue",
+      "date": "1954-03",
+      "name": "국가기록원 주제집필상 제1회 산업부흥국채 50억환 발행",
+      "domain": "재정·산업",
+      "proposed_by": [],
+      "decided_by": [
+        "정부 발행 원결재 미확인"
+      ],
+      "executed_by": [
+        "한국은행 전액 인수로 기술(후대 주제집필)"
+      ],
+      "opposed_by": [],
+      "legal_authority": [
+        "법률 제254호"
+      ],
+      "observed_by": [
+        "국가기록원 후대 산업부흥국채 주제집필"
+      ],
+      "document_ids": [
+        "DOC-P232-ARCHIVES-BOND-HISTORY",
+        "DOC-P232-LAW-254-19520928"
+      ],
+      "uncertainty": "1954년 제1회 발행은 후대 주제해설, 1954 한국은행 발행원장·국회 동의문 원본 미확보.",
+      "parent_event_id": "evt-p232-0917-reconstruction-bonds",
+      "attribution_rule": "후대 연구와 실제 1954년 발행 원문 구분"
+    },
+    {
+      "id": "evt-p232-1952-feb-gatt-report",
+      "date": "1952-02",
+      "name": "전규홍 주불공사의 GATT회의 복명서 작성(2017 연구 초록에 인용)",
+      "domain": "외교·통상",
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [
+        "전규홍 주불공사 복명서 작성으로 후대 연구가 기술"
+      ],
+      "opposed_by": [],
+      "legal_authority": [],
+      "observed_by": [
+        "2017 안암법학 논문 초록"
+      ],
+      "document_ids": [
+        "DOC-P232-KOREA-GATT-1952-REPORT-STUDY",
+        "DOC-P232-AKS-GATT-ACCESSION"
+      ],
+      "uncertainty": "1952-02 복명서 원문·정확한 작성일·문서번호 미확보, 후대 초록으로만 확인.",
+      "parent_event_id": "evt-p232-0919-gatt-intent",
+      "attribution_rule": "외교관 보고와 정부의 정식 가입결정 및 1967 조약서명은 별개"
     }
   ]
 }
