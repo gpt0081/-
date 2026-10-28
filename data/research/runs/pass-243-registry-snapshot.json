@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-29",
+  "baseline_commit": "411914d936cde035eaa50d90cda45227a59242f0",
+  "source_files": {
+    "politicians": "data/politicians.json",
+    "events": "data/events.json",
+    "pass243_docs": "data/documents/pass-243-1958-statecraft.json",
+    "pass243_events": "data/events/pass-243-1958-statecraft.json",
+    "pass243_claims": "data/claims/pass-243-1958-adversarial.json"
+  },
+  "base_politician_count": 211,
+  "base_event_count": 654,
+  "shard_file_counts": {
+    "documents": 119,
+    "events": 76,
+    "claims": 86,
+    "politicians": 58
+  },
+  "pass243": {
+    "document_objects": 58,
+    "contemporaneous_US_FRUS": 50,
+    "non_US_contemporary_press": 1,
+    "korean_judicial_originals": 2,
+    "editorial_secondary_catalog": 5,
+    "event_nodes": 18,
+    "claim_nodes": 17,
+    "lead_queue": 50,
+    "missing_reference_count": 0,
+    "missing_reference_details": []
+  },
+  "uncomputed": {
+    "unique_document_registry_count": "UNKNOWN (119 shards not deduplicated)",
+    "unique_event_graph_count": "UNKNOWN (76 shards not deduplicated)",
+    "unique_claim_count": "UNKNOWN (86 shards not deduplicated)",
+    "evidence_coverage_ratio": "UNKNOWN",
+    "historical_debt_status_totals": "UNKNOWN",
+    "politician_maturity_distribution": "UNKNOWN"
+  },
+  "counting_rule": "base registry counts exclude shard-only records. Do not add raw shard counts as unique entities without ID deduplication."
+}
