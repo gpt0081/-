@@ -4,8 +4,8 @@
   "events": [
     {
       "id": "evt-p244-1959-0108-gao",
-      "date": null,
-      "name": "미 GAO 한국군 군사원조 감사보고서: 1959-01-23 외교문서에서 최근 보고서로 언급",
+      "date": "1959-01-08",
+      "name": "GAO 한국 군사원조 감사보고서 미 하원 상호안보사업검토 소위원회 발표",
       "domain": "재정·감사",
       "politicians": [
         "cand-p242-kim-jeong-ryeol"
@@ -20,13 +20,14 @@
       "opposed_by": [],
       "legal_authority": [],
       "observed_by": [
-        "US Embassy/State original or editorial, see document type"
+        "US Embassy/State original or editorial, see document type",
+        "FRUS d265 editorial footnote (later source note), NOT direct GAO hearing record"
       ],
       "later_finding": [],
       "evidenceState": "NARROWED",
-      "uncertainty": "GAO 감사보고서의 작성일·의회 제출일·보고서 번호 원본 미확보; 1959-01-08은 근거 없이 기입된 날짜이므로 철회",
+      "uncertainty": "FRUS d265 각주: 1959-01-08 GAO가 Korean Military Assistance Program 보고서를 House Subcommittee on Review of the Mutual Security Program에 발표. 1959-01-18 Robertson 국무장관 앞 메모 요약. 원 GAO 보고서 발행일·원본문·위원회 청문회 속기 미확보.",
       "provenance_warning": "US documents establish US observation/assessment; not direct ROK decision or instruction.",
-      "date_range": "1958-12 to 1959-01-23 (tentative, not original report date)",
+      "date_range": null,
       "review_history": [
         {
           "date": "2026-10-29",
@@ -37,8 +38,22 @@
           },
           "new_date": null,
           "next_original": "US GAO 1958-12~1959-01 Korea military assistance audit original report"
+        },
+        {
+          "date": "2026-10-29",
+          "action": "REOPENED_AND_NARROWED",
+          "previous": {
+            "date": null,
+            "date_range": "1958-12 to 1959-01-23 (tentative, not original report date)",
+            "name": "미 GAO 한국군 군사원조 감사보고서: 1959-01-23 외교문서에서 최근 보고서로 언급"
+          },
+          "new_date": "1959-01-08",
+          "reason": "Full FRUS d265 editorial footnote explicitly dates the GAO presentation Jan 8; prior retraction incorrectly ignored footnote. Distinguish presentation from report issue date.",
+          "evidence_id": "DOC-P244-FRUS-265",
+          "evidence_locator": "FRUS d265 editorial footnote 3"
         }
-      ]
+      ],
+      "date_precision": "presentation_date_confirmed_by_FRUS_d265_editorial_footnote; original_report_issue_date_unknown"
     },
     {
       "id": "evt-p244-1959-0123-dowling",

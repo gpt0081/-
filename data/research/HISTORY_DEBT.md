@@ -1101,3 +1101,11 @@
 - 국가법령정보센터 원법령 메타데이터 직접 확인: 1958-01-25 참의원의원선거법 제469호, 1958-12-26 시행에 관한 법률 제502호, 1960-06-23 참의원의원선거법 타법폐지 제551호.
 - 확인 미완: 법률 제502호 부칙의 정확한 선거일 대통령령 위임 조문, 미발령의 행정 경위, 법률 제551호 통합 선거법 전체 조문 및 원관보.
 - 원 위치: https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=3701 ; https://www.law.go.kr/lsInfoP.do?lsiSeq=3700 ; https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=3703
+
+
+### HD-P244-GAO-DATE-REOPEN · 1959-01-08 GAO 보고서 발표일 재확인
+- 상태: `NARROWED` (2026-10-29). 기존 HD-P244-GAO-DATE의 '1959-01-08 철회'는 지나친 정정이었음을 인정하고 재정정. 이력을 삭제하지 않는다.
+- FRUS d265 **편집각주**에 GAO 보고서 1959-01-08 미 하원 상호안보사업검토 소위원회 발표, Robertson의 1959-01-18 국무장관 보고메모가 명시되어 있다.
+- 구분: 1월8일은 **의회 발표일**, 원 보고서의 실제 작성·발행일은 미확인. FRUS 편집각주는 GAO 원문 자체가 아님.
+- 다음 원문: 1959-01-08 House Subcommittee on Review of Mutual Security Program 청문회 속기·GAO 보고서 원본·Robertson 1959-01-18 메모; Eisenhower Library Draper Committee Box17 January 1959 Korea.
+- 출처: https://history.state.gov/historicaldocuments/frus1958-60v18/d265
