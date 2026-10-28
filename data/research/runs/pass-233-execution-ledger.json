@@ -6,9 +6,9 @@
   "weekly_full_history_debt_review": false,
   "weekly_full_history_debt_review_statement": "역사부채 주간 전수조사 미실시",
   "execution_duration_minutes": null,
-  "execution_duration_note": "시계로 1시간 경과를 측정·증명하지 않음. 이용 가능한 조사·검증·커밋 작업을 수행. 기존 pass232에 이어 새 1952년 10~12월 문서군으로 전환. 원문에 직접 등장하지 않는 인물 4명의 사건 귀속 링크를 검토 후 제거; 같은 협상 연속 단계를 독립 연구선으로 중복계산하지 않도록 23개 세부주제를 14개 독립선으로 재집계.",
+  "execution_duration_note": "시계로 1시간 경과를 측정·증명하지 않음. 이용 가능한 조사·검증·커밋 작업을 수행. 기존 pass232에 이어 새 1952년 10~12월 문서군으로 전환. 원문에 직접 등장하지 않는 인물 4명의 사건 귀속 링크를 검토 후 제거; 같은 협상 연속 단계를 독립 연구선으로 중복계산하지 않도록 23개 세부주제를 14개 독립선으로 재집계. 후속 원문이 이전 연구선을 좁힌 경우 독립 연구선으로 재계산하지 않고 32개 세부 추적에서 28개 독립 질문으로 축소.",
   "metrics": {
-    "independent_research_lines": 32,
+    "independent_research_lines": 28,
     "general_governance_domains_reinforced": 10,
     "non_presidential_politician_nodes_deepened": 20,
     "new_candidate_nodes": 12,
@@ -22,7 +22,7 @@
     "provenance_cross_checks_contextual": 6,
     "strict_three_independent_primary_families": 3,
     "history_debts_resolved": 0,
-    "non_presidential_candidate_catalog_or_context_only": 4,
+    "non_presidential_candidate_catalog_or_context_only": 1,
     "official_retrospective_direct_read": 2,
     "unique_source_families": [
       "US FRUS",
@@ -62,11 +62,7 @@
     "일본인 귀국희망자 인수교섭",
     "1953 정부양곡 수급·농정",
     "재해농가 구호·공공사업·학비면제",
-    "1952-11-24 UNKRA 7000만달러 계획 실제 채택 원문",
-    "1952-01~12 한일미 3국 해양주권 외교문서",
-    "1952-10 UNCURK A/2187 국내 보도·UN 연감 대조",
-    "1952-11 UN 제1위원회 524차 회의 소련·페루 주장 원문",
-    "1952-11-24 UNKRA 승인 11/27 한국 재무부 통달·12/1 발표 3계열 검증"
+    "1952-11 UN 제1위원회 524차 회의 소련·페루 주장 원문"
   ],
   "source_counts_by_family": {
     "US_FRUS_edited_originals": 43,
@@ -286,6 +282,16 @@
         "한일미 3국 외교각서 원문 발췌 교차",
         "UNCURK A/2187 대체 UN 공식연감과 한국 동시대 신문 확보",
         "비대통령 중복인물 2명 제거해 unique deepened 18명으로 재집계"
+      ]
+    },
+    {
+      "date": "2026-10-28",
+      "type": "final_conservative_audit",
+      "changes": [
+        "INSUFFICIENT 주장 8개 지지근거→불충분근거 이동",
+        "해외재산반입 한도 충돌기사 2건을 상반근거로 분리",
+        "UN/해상선/UNKRA 후속 원문 검증 중복연구선 제거 32→28",
+        "추가 한국 원문으로 함상훈·김용식·백두진이 검증되어 catalog-only/context-only 4→1"
       ]
     }
   ],
