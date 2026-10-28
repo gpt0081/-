@@ -149,5 +149,27 @@
     "Article 1953-05-15-0070 contains inconsistent municipal bond amount 3000만 vs 13000만, not silently corrected"
   ],
   "weekly_full_history_debt_review": false,
-  "floot": "untouched"
+  "floot": "untouched",
+  "correction_history": [
+    {
+      "date": "2026-10-28",
+      "id": "evt-p238e-1953-05-06-press-acquittal",
+      "correction": "Court acquittal reported May6 refers to Apr28 judgment; record both dates, official verdict original pending."
+    }
+  ],
+  "execution_timing": {
+    "wall_clock_start": null,
+    "wall_clock_end": null,
+    "elapsed_minutes": null,
+    "measurement_status": "not independently instrumented; do not claim full hour",
+    "continuation_after_minimum": "Pass238A already 48 substantive documents and 34 leads; Pass238C added 13, Pass238E added 30 more. Subsequent commits continued expanding domains and candidates rather than stopping at threshold."
+  },
+  "commit_sha_before_final": [
+    "4b0cbab965a372f9daafa0ad9b644ab35fd25dc1",
+    "7e97a47d8a97f02dd28f87aa17e252afbbe4c297",
+    "b73838875abfe3124e0e201a9dfe64173b42b4e1",
+    "31141eb1cb67bfe074157e51a2de6aae83e71d26",
+    "ffff896dd296370f686104ae755fd3785f7c0f7e",
+    "a8652693a63d2eae98c96c3aa1fad63cb25e50f6"
+  ]
 }
