@@ -828,3 +828,18 @@
 - **HD-P239H-90DAY-PRESS · NARROWED:** FRUS d681·690·707·713·715 비교. 정치회의 90일 경과 후 대응과 '정전을 90일만 준수' 언론발언은 별개. 7/11~12 Scripps-Howard Lucas 기사 원문 미확보. 다음: 원 기사·공동성명 한영 원본.
 - **기존 10개 lead 추적:** `data/research/debt/pass-239h-targeted-review.json`. 1953-04-07 농림부직제 개정안 NO.69/BA0084193을 확인했으나 제776호 기안과 동일한지 미확정. 7/6 제798·800·804호의 국무회의 등재 미확인은 부재 증거가 아님.
 - **주간 전수조사:** 미실시(수요일). `last_full_review` 기존 값 보존. FRUS 51개 웹 문서 중 47개 원문 전사·4개 편집자 주석을 열람했으나 FRUS는 단일 미국 국무부 편찬 계열이다. 국편 FRUS 번역은 독립 계열로 중복 계산하지 않는다.
+
+### HD-P239I-DEFENSE-TREATY · NARROWED (2026-10-28)
+- FRUS d682 한국측 1953-07-09 초안의 압록강·두만강 관할권과 자동군사원조 문구는 UNTS No.3363 1953-10-01 최종 제III·IV조와 다름. 1953-08-08 가조인 중간 초안은 미확보. https://history.state.gov/historicaldocuments/frus1952-54v15p2/d682 ; https://treaties.un.org/doc/Publication/UNTS/Volume%20238/v238.pdf
+
+### HD-P239I-US-CABINET-DATE · CONFLICTED (2026-10-28)
+- FRUS d751 표제는 1954-08-27, Eisenhower Library Cabinet Series Box2 소장목록은 동일 한국·이란·모로코 안건을 1953-08-27로 기록. 원 회의록 표지·정오표 미확보. https://history.state.gov/historicaldocuments/frus1952-54v15p2/d751 ; https://www.eisenhowerlibrary.gov/sites/default/files/research/finding-aids/pdf/eisenhower-dwight-papers-as-president/cabinet-series.pdf
+
+### HD-P239I-LAND-REFORM-CASH · CONFLICTED (2026-10-28)
+- 1953-06-27 신중목 농지개혁 현금수납 국무회의 보도에 '의결'과 '백두진 불참으로 최종 결정 못함' 병존. 국무회의 원안·의결서·국회 법안접수 기록 확인 필요. https://db.history.go.kr/id/dh_029_1953_06_27_0040
+
+### HD-P239I-RATIFICATION-DATE · OPEN (2026-10-28)
+- UNTS No.3363은 워싱턴 1954-11-17 비준서 교환 발효를 명시. 한국 일부 후대 자료의 11/18 표기는 시차/통보 날짜 여부 미확정. 외무부 공고·양국 교환 원문 확인 필요.
+
+- pass239I 기존 10개 open lead 추적: `data/research/debt/pass-239i-targeted-review.json`. 주간 전수조사 미실시, `last_full_review` 보존.
+

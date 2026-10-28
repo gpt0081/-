@@ -4,11 +4,11 @@
   "activeBranch": "main",
   "branchHead": "moving-ref:refs/heads/main",
   "baseMain": "0bae0fd2c2ce592e6699095fbe4593d07e9b778e",
-  "status": "PASS239H_1953_JULY_FRUS_47_PRIMARY_AND_KOREAN_CABINET_INDEX",
+  "status": "PASS239I_TREATY_DIFF_ORIGINAL_AND_DATE_CONFLICT",
   "summary": "1953 labor statutes, decree 782 publication date CONFLICTED (PA 4/14 vs law.go.kr 4/20), Park 773/774 policySeq vs 783/784 decree-number correction",
-  "nextAction": "Read pass-239h-summary.md and pass-239h-next-queue.json; prioritize CA0005972 ROK noncooperation directive original, BA0084193 July14/21 cabinet agendas, FRUS d682 treaty draft vs final signed treaty",
+  "nextAction": "Read pass-239i-summary and 40-lead queue; prioritize 1953-08-08 treaty initialed Korean text, CA0005972 directive, 1953-08-27 Eisenhower Cabinet Box2 original, 1953-06-27 land-reform cabinet minutes",
   "mainDataModified": true,
-  "latestRun": "pass-239H",
+  "latestRun": "pass-239I",
   "latestCorrections": [
     {
       "run": 93,
@@ -65,7 +65,7 @@
     "latestRun": 97
   },
   "mainRef": "refs/heads/main",
-  "latestVerifiedMainCommit": "212165b012b8e6cae922ba7c3fdb9896ab2b6482",
+  "latestVerifiedMainCommit": "8624494d7fb98de2f688f94daa3af1a727b710fe",
   "pass231Files": {
     "documents": "data/documents/pass-231-1952-june-july-diplomacy-election.json",
     "events": "data/events/pass-231-1952-constitutional-election-pow.json",
@@ -410,5 +410,13 @@
     "weekly_full_review": false,
     "new_leads": 38,
     "validation": "145 politicians; 449 events; 58 document registry objects; 19 new events; 13 claims; 38 leads; 0 dangling references"
+  },
+  "latestResearchPass239I": {
+    "date": "2026-10-28",
+    "files": [
+      "data/research/leads/pass-239i-next-queue.json",
+      "data/research/debt/pass-239i-targeted-review.json",
+      "data/annals/1953-postarmistice-treaty-implementation.md"
+    ]
   }
 }
