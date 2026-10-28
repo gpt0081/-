@@ -88,3 +88,14 @@
 - `data/annals/1953-april-may-armistice-command.md`, `data/research/debt/pass-237-targeted-debt-review.json`, `data/research/coverage/pass-237-coverage-overlay.json` 및 34개 문서특정 후속 lead 참조. 원문전사 47건, 원본이미지 0건, 엄격 3계열 교차확증 0건.
 
 - Pass237B 1953-04-29 국내 동시대 신문 6개 원문전사: 신중목 농림장관 비료배급 담화, 백두진 대변인 타스카 회담, 이승만 환도·농민회·휴전 기자회견을 `data/politicians/pass-237b-korean-actors.json`로 연결. 농민회 통합/농협법 제정·비료배급·구호양곡 실제 집행은 OPEN. `data/research/debt/pass-237b-domestic-debt.json`.
+
+## Pass239 1953년 5월26일~6월7일 정치인·기관 그래프 (2026-10-28)
+- Actor overlay A: `data/politicians/pass-239-actors.json`. 기존 10명 심화, 신규 candidate 6명(소선규·박충식·김완용·이상덕·이임도·유재흥). 신원·생몰·정식 임명은 별도 원본 확인 전 승격 금지.
+- Actor overlay B: `data/politicians/pass-239b-actors.json`. 유완창(兪莞昌, 1906년생·사망 미상) AKS E0081271과 1953-06-06 관재청장 기자회견을 근거로 `pol-yu-wan-chang` 독립 실록·증거 활성화. 1953년 9월 사령 원본 등 OPEN.
+- 독립 실록 `data/annals/yu-wan-chang.md`, `data/annals/pyun-yong-tae.md`, `data/annals/choi-duk-shin.md`에 1953년 5~6월 개별 행위와 주장·대통령 명령 귀속의 한계를 분리했다.
+- 대통령기록관 1953-06-05 이승만 환율 원담화의 부정어 '아니요'와 동시대 신문 전사의 부정어 누락은 `CLM-P239B-fx-opposite`로 CONFLICTED 보존. 정치적 평가가 아닌 텍스트 대조다.
+- 문서 `data/documents/pass-239-may-june-source-registry.json` 및 `data/documents/pass-239b-june2-6-sources.json`: 직접 열린 114개 페이지 중 동일 원작성 9개, 원본 아닌 기록해설 2개, 2차 인명항목 1개를 제외한 고유 102개. PDF 원본 이미지 0건.
+- 사건 `data/events/pass-239-may-june-governance.json`, `data/events/pass-239b-june-policy-graph.json`, `data/events/pass-239c-actor-corrections.json`: 신규 55개, 국회·재정·농정·교육·노동·보건·복지·산업·치안·문화·수산·국유재산·외교안보.
+- 주장 `data/claims/pass-239-adversarial.json`, `data/claims/pass-239b-adversarial.json`: 반증/산술/시기차이 31건. 출처 계열의 엄격한 3중 독립확증 0건은 과장하지 않는다.
+- 후속 조사 `data/research/leads/pass-239-next-queue.json`: 초기 37개+추가 40개=77개. 처음 실행요약의 '35개'는 계산 착오이며 correction ledger와 HISTORY_DEBT에 이력 보존.
+- 실행결과 `data/research/runs/pass-239-summary.md`와 `data/research/runs/pass-239-execution-ledger.json`. 기존 stable ID와 데이터 API 유지, Floot 미수정.

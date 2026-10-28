@@ -28,3 +28,13 @@
 - 86db14d082fffa5bb516b6d3bab2b52a6b371085
 - d052930f377803dd665f3ce6352fa04ce87f552b
 - Final synchronization commit: inspect refs/heads/main.
+
+## Structural validation
+GitHub JSON readback: politicians 137, central events 367, pass239 event IDs 55, claims 31, next original targets 77. All pass239/239B/239C event-to-document, event-to-politician, claim-to-document and candidate-to-event references resolve; duplicate central event IDs 0. One earlier fiscal-year claim had an invalid document prefix; corrected with explicit correction history.
+
+## Commit history before final index synchronization
+- `71344b158262db26d5612484397e3958778f81b5` source/actor/event/claim graph
+- `86db14d082fffa5bb516b6d3bab2b52a6b371085` 37 original targets and targeted debt ledger
+- `d052930f377803dd665f3ce6352fa04ce87f552b` 1953 June policy original documents and Yu Wan-chang annals
+- `8f915b37046cc386b63b62e9dc926d852c606f02` 77 original targets, corrections and final metrics
+- Latest index/validation synchronization: `refs/heads/main` (self SHA not embedded to avoid circular commit).

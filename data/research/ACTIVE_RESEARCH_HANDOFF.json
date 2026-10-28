@@ -144,7 +144,7 @@
     "latestRun": 97
   },
   "mainRef": "refs/heads/main",
-  "latestVerifiedMainCommit": "refs/heads/main",
+  "latestVerifiedMainCommit": "8f915b37046cc386b63b62e9dc926d852c606f02",
   "pass231Files": {
     "documents": "data/documents/pass-231-1952-june-july-diplomacy-election.json",
     "events": "data/events/pass-231-1952-constitutional-election-pow.json",
@@ -441,5 +441,19 @@
       "official_or_academic_retrospective": 5,
       "independent_research_lines": 41
     }
-  }
+  },
+  "lastValidation": {
+    "date": "2026-10-28",
+    "central_politicians": 137,
+    "central_events": 367,
+    "pass239_event_ids": 55,
+    "pass239_claims": 31,
+    "next_leads": 77,
+    "missing_document_references": 0,
+    "missing_politician_references": 0,
+    "missing_candidate_event_references": 0,
+    "duplicate_central_event_ids": 0,
+    "method": "Fetched live GitHub JSON and checked all pass239/pass239B/pass239C event-document-actor and claim-document references; fixed 1 wrong source prefix in pass239B fiscal-year claim."
+  },
+  "lastKnownCommit": "8f915b37046cc386b63b62e9dc926d852c606f02"
 }
