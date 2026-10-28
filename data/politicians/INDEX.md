@@ -23,3 +23,5 @@
 
 - 2026-10-28 pass232: 1952년 9월 16~19일 내각·도지사 인사·경찰·정당 통합·해양주권·재외국민 정치인 23명(신규 candidate 14, 기존 ID 9 심화)을 `data/politicians/pass-232-1952-september-actors.json`에 독립 노드로 연결. 한자 확인은 동시대 보도 범위, 생몰·임명 효력일·당적은 원본 대기. 1952 GATT 가입 '결정'과 1967 정식 가입은 별도 event/claim으로 보존.
 - pass232 문서·사건·주장·실록: `data/documents/pass-232-1952-september-governance.json`, `data/events/pass-232-1952-september-governance.json`, `data/claims/pass-232-1952-september-governance.json`, `data/annals/1952-september-state-party-economy.md`. 1952년 9월 정당스케치의 풍자·전언을 검증된 사실로 승격하지 않음.
+
+- pass232 후속: 전규홍 주불공사(1952-02 GATT 복명서 작성자로 2017 학술초록에서 언급)를 `DISCOVERED` 독립 candidate로 추가. 외무부 원본·한자·생몰·재임 원장 확보 전 검증 승격 금지. 산업부흥국채법 제254호·특별회계법 제255호(1952-09-28) 및 1954년 최초 발행의 시차는 event/claim에 연결.
