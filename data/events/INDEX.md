@@ -96,3 +96,6 @@
 
 ## pass247c (2026-10-29)
 - `data/events/pass-247c-june1960-legislative-and-social.json`: 1960 개헌·추경·농촌여론 사건11개.
+
+## pass247d (2026-10-29)
+- `data/events/pass-247d-domestic-legislative-actions.json`: 개헌·방송관리·지방의회·정족수 사건10개.

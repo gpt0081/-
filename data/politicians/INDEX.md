@@ -182,3 +182,6 @@
 
 ## pass247c (2026-10-29)
 - `data/politicians/pass-247c-june1960-original-actors.json`: 신규5명·기존 원전 심화.
+
+## pass247d (2026-10-29)
+- `data/politicians/pass-247d-assembly-actors.json`: 민장식·변진갑·최규남·고담룡 신규4명, 기존 심화.

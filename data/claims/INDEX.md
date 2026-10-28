@@ -109,3 +109,6 @@
 
 ## pass247c (2026-10-29)
 - `data/claims/pass-247c-june1960-adversarial.json`: 6/17 사임안부결·6/15 공포·표본편향 반증8개.
+
+## pass247d (2026-10-29)
+- `data/claims/pass-247d-domestic-adversarial.json`: 반대자3명 RESOLVED·지방의회 합헌 논쟁 등8개.

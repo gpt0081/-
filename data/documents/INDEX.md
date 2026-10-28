@@ -146,3 +146,6 @@
 
 ## pass247c (2026-10-29)
 - `data/documents/pass-247c-june1960-original-diplomacy.json`: 1960 미대사관·USIS 원전8건.
+
+## pass247d (2026-10-29)
+- `data/documents/pass-247d-korean-assembly-originals.json`: 국회 원회의록 12건, 6/15 개헌208:3 국내원문.
