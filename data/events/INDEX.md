@@ -87,3 +87,6 @@
 - `data/events/pass-244b-1960-transition-actions.json` (pass244; 2026-10-29)
 
 - `data/events/pass-244d-1958-1960-bicameral-and-drafting.json` (pass244g; 2026-10-29)
+
+## pass247 (2026-10-29)
+- `data/events/pass-247-1960-transition-party-actions.json`: 1960 과도헌정·혁신정당 사건 9건.

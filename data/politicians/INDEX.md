@@ -173,3 +173,6 @@
 - cand-p245-oh-jeong-su: 5/11·6/23 吳楨洙 대 7/1 吳植洙 충돌.
 - 허정/곽상훈 개헌 후 권한대행 즉시승계는 원관보 반증으로 CONFLICTED.
 - 자료: data/politicians/pass-246-1956-1960-actor-deepening.json ; data/events/pass-246-1956-1960-constitutional-institutional-actions.json ; data/claims/pass-246-1956-1960-adversarial.json.
+
+## pass247 (2026-10-29)
+- `data/politicians/pass-247-1960-party-network.json`: 신규 후보 6명·기존 4명 심화.

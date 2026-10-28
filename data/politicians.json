@@ -755,18 +755,40 @@
       "backbone": false,
       "connections": [
         "evt-1949-farmland-reform",
-        "evt-p239l2-22"
+        "evt-p239l2-22",
+        "evt-p247-0202-coalition",
+        "evt-p247-0617-mass-leadership"
       ],
       "researchNotes": "농지개혁법 심의 당시 산업위원장으로 확인. 산업위원회 대안 작성·상정 과정의 개인 발언과 위원회 집단결정을 구분해 추가 검증한다.",
       "researchRefs": [
-        "data/politicians/pass-239l2-1955-cabinet-election-actors.json"
+        "data/politicians/pass-239l2-1955-cabinet-election-actors.json",
+        "data/politicians/pass-247-1960-party-network.json"
       ],
       "openLeads": [
         "LEAD-P239L2-15"
       ],
       "evidenceCoverage": [
-        "DOC-P239L2-UN-A2947"
-      ]
+        "DOC-P239L2-UN-A2947",
+        "DOC-P247-AKS-SEO",
+        "DOC-P247-AKS-MASS"
+      ],
+      "recentResearchPass247": {
+        "date": "2026-10-29",
+        "documents": [
+          "DOC-P247-AKS-SEO",
+          "DOC-P247-AKS-MASS"
+        ],
+        "events": [
+          "evt-p247-0202-coalition",
+          "evt-p247-0617-mass-leadership"
+        ],
+        "verification": "AKS/KDEMO; originals pending"
+      },
+      "lifespan": {
+        "born": "1887",
+        "died": "1962",
+        "verification": "AKS secondary"
+      }
     },
     {
       "id": "pol-yun-jae-geun",
@@ -3760,8 +3782,9 @@
         "Yun Gil-jung"
       ],
       "lifespan": {
-        "born": null,
-        "died": null
+        "born": "1916-09-11",
+        "died": "2001-10-11",
+        "verification": "AKS secondary"
       },
       "roles": [
         "법제사법위원장 후보",
@@ -3772,16 +3795,21 @@
       "connections": [
         "evt-p235-assembly-caucus",
         "evt-p235e-assembly-election-results",
-        "evt-p239l-20"
+        "evt-p239l-20",
+        "evt-p247-0608-expulsion",
+        "evt-p247-0617-mass-leadership"
       ],
       "evidenceCoverage": [
         "DOC-P235-NIKH-01_20_0040",
-        "DOC-P235E-NIKH-02_01_0020"
+        "DOC-P235E-NIKH-02_01_0020",
+        "DOC-P247-AKS-YUN",
+        "DOC-P247-KDEMO-0608"
       ],
       "researchRefs": [
         "data/politicians/pass-235-1953-assembly-cabinet-actors.json",
         "data/politicians/pass-235-addendum-e-committee-chairs.json",
-        "data/politicians/pass-239l-1956-actors.json"
+        "data/politicians/pass-239l-1956-actors.json",
+        "data/politicians/pass-247-1960-party-network.json"
       ],
       "openLeads": [
         "LEAD-P235-009",
@@ -3802,6 +3830,18 @@
         ],
         "openLead": "LEAD-P242-12",
         "provenance": "Original FRUS or NIKH chronology; see pass242 actor overlay"
+      },
+      "recentResearchPass247": {
+        "date": "2026-10-29",
+        "documents": [
+          "DOC-P247-AKS-YUN",
+          "DOC-P247-KDEMO-0608"
+        ],
+        "events": [
+          "evt-p247-0608-expulsion",
+          "evt-p247-0617-mass-leadership"
+        ],
+        "verification": "AKS/KDEMO; originals pending"
       }
     },
     {
@@ -6735,17 +6775,22 @@
       "evidenceCoverage": [
         "DOC-P239L-NEC-1956-ELECTION",
         "DOC-P239L2-UN-A2947",
-        "DOC-P239L2-KDEMO-ELECTION-1956"
+        "DOC-P239L2-KDEMO-ELECTION-1956",
+        "DOC-P247-AKS-COALITION",
+        "DOC-P247-KDEMO-0608"
       ],
       "connections": [
         "evt-p239l-11",
         "evt-p239l2-22",
         "evt-p239l2-23",
-        "evt-p239l2-25"
+        "evt-p239l2-25",
+        "evt-p247-0202-coalition",
+        "evt-p247-0608-expulsion"
       ],
       "researchRefs": [
         "data/politicians/pass-239l-1956-actors.json",
-        "data/politicians/pass-239l2-1955-cabinet-election-actors.json"
+        "data/politicians/pass-239l2-1955-cabinet-election-actors.json",
+        "data/politicians/pass-247-1960-party-network.json"
       ],
       "openLeads": [
         "LEAD-P239L-12",
@@ -6763,7 +6808,19 @@
           "to": "IDENTIFIED",
           "reason": "KDemo official later collection documents nomination, registration and May7 withdrawal; original NEC receipt still pending"
         }
-      ]
+      ],
+      "recentResearchPass247": {
+        "date": "2026-10-29",
+        "documents": [
+          "DOC-P247-AKS-COALITION",
+          "DOC-P247-KDEMO-0608"
+        ],
+        "events": [
+          "evt-p247-0202-coalition",
+          "evt-p247-0608-expulsion"
+        ],
+        "verification": "AKS/KDEMO; originals pending"
+      }
     },
     {
       "id": "cand-p239l-in-tae-sik",
@@ -8156,9 +8213,9 @@
         "錢鎭漢"
       ],
       "lifespan": {
-        "born": null,
-        "died": null,
-        "verification": "OPEN"
+        "born": "1901",
+        "died": "1972-04-22",
+        "verification": "AKS secondary"
       },
       "roles": [
         "1954 제2대 국회의원"
@@ -8166,7 +8223,8 @@
       "researchStatus": "IDENTIFIED",
       "backbone": false,
       "connections": [
-        "evt-p239m3-02"
+        "evt-p239m3-02",
+        "evt-p247-0521-korean-social"
       ],
       "evidenceCoverage": {
         "documentIds": [
@@ -8174,12 +8232,24 @@
         ]
       },
       "researchRefs": [
-        "data/politicians/pass-239m3-1954-economic-parliament-actors.json"
+        "data/politicians/pass-239m3-1954-economic-parliament-actors.json",
+        "data/politicians/pass-247-1960-party-network.json"
       ],
       "openLeads": [
         "LEAD-P239M3-IDENTITY-cand-p239m3-jeon-jin-han"
       ],
-      "historyDebt": []
+      "historyDebt": [],
+      "recentResearchPass247": {
+        "date": "2026-10-29",
+        "documents": [
+          "DOC-P247-AKS-JEON",
+          "DOC-P247-AKS-KOREAN"
+        ],
+        "events": [
+          "evt-p247-0521-korean-social"
+        ],
+        "verification": "AKS/KDEMO; originals pending"
+      }
     },
     {
       "id": "cand-p239m3-park-cheol-ung",
@@ -10038,6 +10108,294 @@
         "HD-P246-DISSENT-NAMES"
       ],
       "identityCaution": "원기명표·동시대 신문 원면 미대조"
+    },
+    {
+      "id": "cand-p247-kim-seong-suk-jeju",
+      "name": "김성숙",
+      "aliases": [
+        "金成淑",
+        "회을",
+        "Kim Seong-suk (Jeju)"
+      ],
+      "lifespan": {
+        "born": "1896",
+        "died": "1979",
+        "verification": "AKS secondary; civil original pending"
+      },
+      "roles": [
+        "1955 진보당 창당 추진",
+        "1960 한국사회당 조직",
+        "1960-07-29 남제주 제5대 민의원 당선"
+      ],
+      "roleHistory": [
+        {
+          "description": "1955 진보당 창당 추진",
+          "evidenceLevel": "secondary_or_newspaper_digest"
+        },
+        {
+          "description": "1960 한국사회당 조직",
+          "evidenceLevel": "secondary_or_newspaper_digest"
+        },
+        {
+          "description": "1960-07-29 남제주 제5대 민의원 당선",
+          "evidenceLevel": "secondary_or_newspaper_digest"
+        }
+      ],
+      "researchStatus": "IDENTIFIED",
+      "backbone": false,
+      "connections": [
+        "evt-p247-0521-korean-social",
+        "evt-p247-1961-unification"
+      ],
+      "evidenceCoverage": [
+        "DOC-P247-AKS-JEJU",
+        "DOC-P247-AKS-KOREAN"
+      ],
+      "researchRefs": [
+        "data/politicians/pass-247-1960-party-network.json"
+      ],
+      "openLeads": [
+        "LEAD-P247-IDENTITY-cand-p247-kim-seong-suk-jeju"
+      ],
+      "identityCaveat": "1960 original records pending; two Kim Seong-suk IDs never merge; 金成璹 unverified"
+    },
+    {
+      "id": "cand-p247-kim-seong-suk-unam",
+      "name": "김성숙",
+      "aliases": [
+        "金星淑",
+        "운암",
+        "Kim Seong-suk (Unam)"
+      ],
+      "lifespan": {
+        "born": "1898",
+        "died": "1969",
+        "verification": "AKS secondary; civil original pending"
+      },
+      "roles": [
+        "임시정부 국무위원",
+        "1955 진보당 추진 관련",
+        "1960 사회대중당 총무위원"
+      ],
+      "roleHistory": [
+        {
+          "description": "임시정부 국무위원",
+          "evidenceLevel": "secondary_or_newspaper_digest"
+        },
+        {
+          "description": "1955 진보당 추진 관련",
+          "evidenceLevel": "secondary_or_newspaper_digest"
+        },
+        {
+          "description": "1960 사회대중당 총무위원",
+          "evidenceLevel": "secondary_or_newspaper_digest"
+        }
+      ],
+      "researchStatus": "IDENTIFIED",
+      "backbone": false,
+      "connections": [
+        "evt-p247-0202-coalition",
+        "evt-p247-0608-expulsion",
+        "evt-p247-0901-split"
+      ],
+      "evidenceCoverage": [
+        "DOC-P247-AKS-UNAM",
+        "DOC-P247-KDEMO-0608"
+      ],
+      "researchRefs": [
+        "data/politicians/pass-247-1960-party-network.json"
+      ],
+      "openLeads": [
+        "LEAD-P247-IDENTITY-cand-p247-kim-seong-suk-unam"
+      ],
+      "identityCaveat": "1960 original records pending; two Kim Seong-suk IDs never merge; 金成璹 unverified"
+    },
+    {
+      "id": "cand-p247-kim-dal-ho",
+      "name": "김달호",
+      "aliases": [
+        "金達鎬",
+        "Kim Dal-ho"
+      ],
+      "lifespan": {
+        "born": "1912",
+        "died": "1979",
+        "verification": "AKS secondary; civil original pending"
+      },
+      "roles": [
+        "1954 제3대 민의원",
+        "1956 진보당 부위원장",
+        "1960 사회대중당·제5대 민의원"
+      ],
+      "roleHistory": [
+        {
+          "description": "1954 제3대 민의원",
+          "evidenceLevel": "secondary_or_newspaper_digest"
+        },
+        {
+          "description": "1956 진보당 부위원장",
+          "evidenceLevel": "secondary_or_newspaper_digest"
+        },
+        {
+          "description": "1960 사회대중당·제5대 민의원",
+          "evidenceLevel": "secondary_or_newspaper_digest"
+        }
+      ],
+      "researchStatus": "IDENTIFIED",
+      "backbone": false,
+      "connections": [
+        "evt-p247-0608-expulsion",
+        "evt-p247-0901-split"
+      ],
+      "evidenceCoverage": [
+        "DOC-P247-AKS-DALHO",
+        "DOC-P247-KDEMO-0608"
+      ],
+      "researchRefs": [
+        "data/politicians/pass-247-1960-party-network.json"
+      ],
+      "openLeads": [
+        "LEAD-P247-IDENTITY-cand-p247-kim-dal-ho"
+      ],
+      "identityCaveat": "1960 original records pending; two Kim Seong-suk IDs never merge; 金成璹 unverified"
+    },
+    {
+      "id": "cand-p247-lee-dong-hwa",
+      "name": "이동화",
+      "aliases": [
+        "李東華",
+        "Lee Dong-hwa"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "OPEN"
+      },
+      "roles": [
+        "1955 진보당 창당 추진",
+        "1960 사회대중당 6/8 발기인회 참여 보도",
+        "1960 9월 비진보당계 결별성명"
+      ],
+      "roleHistory": [
+        {
+          "description": "1955 진보당 창당 추진",
+          "evidenceLevel": "secondary_or_newspaper_digest"
+        },
+        {
+          "description": "1960 사회대중당 6/8 발기인회 참여 보도",
+          "evidenceLevel": "secondary_or_newspaper_digest"
+        },
+        {
+          "description": "1960 9월 비진보당계 결별성명",
+          "evidenceLevel": "secondary_or_newspaper_digest"
+        }
+      ],
+      "researchStatus": "IDENTIFIED",
+      "backbone": false,
+      "connections": [
+        "evt-p247-0608-expulsion",
+        "evt-p247-0901-split"
+      ],
+      "evidenceCoverage": [
+        "DOC-P247-KDEMO-0608",
+        "DOC-P247-AKS-UNITED"
+      ],
+      "researchRefs": [
+        "data/politicians/pass-247-1960-party-network.json"
+      ],
+      "openLeads": [
+        "LEAD-P247-IDENTITY-cand-p247-lee-dong-hwa"
+      ],
+      "identityCaveat": "1960 original records pending; two Kim Seong-suk IDs never merge; 金成璹 unverified"
+    },
+    {
+      "id": "cand-p247-jeong-hwa-am",
+      "name": "정화암",
+      "aliases": [
+        "鄭華岩",
+        "鄭華巖",
+        "Jeong Hwa-am"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "OPEN"
+      },
+      "roles": [
+        "1960-02-02 반독재민주수호연맹 참여",
+        "1960-05-11 혁신동지협의회 7인 회합",
+        "1960 9월 비진보당계 결별성명"
+      ],
+      "roleHistory": [
+        {
+          "description": "1960-02-02 반독재민주수호연맹 참여",
+          "evidenceLevel": "secondary_or_newspaper_digest"
+        },
+        {
+          "description": "1960-05-11 혁신동지협의회 7인 회합",
+          "evidenceLevel": "secondary_or_newspaper_digest"
+        },
+        {
+          "description": "1960 9월 비진보당계 결별성명",
+          "evidenceLevel": "secondary_or_newspaper_digest"
+        }
+      ],
+      "researchStatus": "IDENTIFIED",
+      "backbone": false,
+      "connections": [
+        "evt-p247-0202-coalition",
+        "evt-p247-0511-reform-network",
+        "evt-p247-0901-split"
+      ],
+      "evidenceCoverage": [
+        "DOC-P247-AKS-COALITION",
+        "DOC-P247-KDEMO-0511",
+        "DOC-P247-AKS-UNITED"
+      ],
+      "researchRefs": [
+        "data/politicians/pass-247-1960-party-network.json"
+      ],
+      "openLeads": [
+        "LEAD-P247-IDENTITY-cand-p247-jeong-hwa-am"
+      ],
+      "identityCaveat": "1960 original records pending; two Kim Seong-suk IDs never merge; 金成璹 unverified"
+    },
+    {
+      "id": "cand-p247-jang-geon-sang",
+      "name": "장건상",
+      "aliases": [
+        "張建相",
+        "Jang Geon-sang"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "OPEN"
+      },
+      "roles": [
+        "1960-05-11 혁신동지협의회 결성합의 7인 중 한 명(신문인용)"
+      ],
+      "roleHistory": [
+        {
+          "description": "1960-05-11 혁신동지협의회 결성합의 7인 중 한 명(신문인용)",
+          "evidenceLevel": "secondary_or_newspaper_digest"
+        }
+      ],
+      "researchStatus": "DISCOVERED",
+      "backbone": false,
+      "connections": [
+        "evt-p247-0511-reform-network"
+      ],
+      "evidenceCoverage": [
+        "DOC-P247-KDEMO-0511"
+      ],
+      "researchRefs": [
+        "data/politicians/pass-247-1960-party-network.json"
+      ],
+      "openLeads": [
+        "LEAD-P247-IDENTITY-cand-p247-jang-geon-sang"
+      ],
+      "identityCaveat": "1960 original records pending; two Kim Seong-suk IDs never merge; 金成璹 unverified"
     }
   ],
   "recentResearchPass232": {
