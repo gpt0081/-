@@ -130,3 +130,5 @@
 - `data/documents/pass-244b-1960-transition-originals.json` (pass244; 2026-10-29)
 
 - `data/documents/pass-244c-official-crosschecks.json` (pass244f; NEC/NIKH/Eisenhower archival finding aid)
+
+- `data/documents/pass-244d-constitutional-sources.json` (pass244g; 2026-10-29)

@@ -85,3 +85,5 @@
 
 - `data/events/pass-244-1959-1960-statecraft.json` (pass244; 2026-10-29)
 - `data/events/pass-244b-1960-transition-actions.json` (pass244; 2026-10-29)
+
+- `data/events/pass-244d-1958-1960-bicameral-and-drafting.json` (pass244g; 2026-10-29)

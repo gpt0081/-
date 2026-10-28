@@ -95,3 +95,5 @@
 
 - `data/claims/pass-244-1959-1960-adversarial.json` (pass244; 2026-10-29)
 - `data/claims/pass-244b-1960-transition-contradictions.json` (pass244; 2026-10-29)
+
+- `data/claims/pass-244d-constitutional-adversarial.json` (pass244g; 2026-10-29)

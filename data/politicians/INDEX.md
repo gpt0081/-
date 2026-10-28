@@ -164,3 +164,5 @@
 
 - `data/politicians/pass-244-1959-1960-actors.json` (2026-10-29; 16 actor evidence overlays)
 - `data/politicians/id-aliases-pass244.json` (legacy ID resolver; not additional people)
+
+- `data/politicians/pass-244g-1960-drafting-actors.json` (pass244g; 2026-10-29)
