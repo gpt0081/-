@@ -1,0 +1,49 @@
+{
+  "pass": "235G",
+  "claims": [
+    {
+      "id": "CLM-P235G-GRAIN-ARITH",
+      "statement": "농림부 1953 양곡 수요2490만6343석에서 공급1774만28석을 빼면 부족717만6315석이다",
+      "status": "CONFLICTED",
+      "supporting_evidence": [
+        "DOC-P235G-NIKH-02_08_0030: 신문 기재 부족717만6315석"
+      ],
+      "contradicting_evidence": [
+        "arithmetic 24,906,343 - 17,740,028 = 7,166,315석 (716만6315석)"
+      ],
+      "analysis": "신문 수급총량과 부족량 사이 1만석 차이. 원농림부 표·원지면·전사 확인 전 숫자 조용히 교정 금지."
+    },
+    {
+      "id": "CLM-P235G-TRAFFIC-ARITH",
+      "statement": "1952 교통사고 3869건·자동차사고37992건·하루40건이 모두 같은 모집단의 일관된 통계다",
+      "status": "CONFLICTED",
+      "supporting_evidence": [
+        "DOC-P235G-NIKH-02_08_0050"
+      ],
+      "contradicting_evidence": [
+        "37992 > 3869; 3869/365≈10.6 not 40; 50127/365≈137 not 14"
+      ],
+      "analysis": "전사/OCR·원자료 집계단위 불명. 자동차 숫자와 일평균·부상수 동시 확정 금지."
+    },
+    {
+      "id": "CLM-P235G-ARMY-14-READY",
+      "statement": "1953-02-08 한국군 14개 사단은 이미 완편되어 즉시 전투 투입됐다",
+      "status": "CONTRADICTED",
+      "supporting_evidence": [],
+      "contradicting_evidence": [
+        "DOC-P235G-NIKH-02_08_0010"
+      ],
+      "analysis": "미 육군성 2개 사단 추가 편성 권한 발표, 실제 전투준비·투입·미군 철수 즉시성은 기사에서 부정."
+    },
+    {
+      "id": "CLM-P235G-FISH-FOREX-PAID",
+      "statement": "1953-02 재무부가 유엔군 납품 수산물 차액보상 외환을 전액 지급했다",
+      "status": "CONTRADICTED",
+      "supporting_evidence": [],
+      "contradicting_evidence": [
+        "DOC-P235G-NIKH-02_08_0040"
+      ],
+      "analysis": "재무부 추천취소·상공부 재협의 보도, 국무회의 1951년 의결과 실제 외환매각 집행 구분."
+    }
+  ]
+}
