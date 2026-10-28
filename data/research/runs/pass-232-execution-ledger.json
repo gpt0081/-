@@ -1,0 +1,237 @@
+{
+  "schemaVersion": 1,
+  "pass": 232,
+  "run_date": "2026-10-28",
+  "run_timezone": "Asia/Seoul",
+  "weekly_full_history_debt_review": false,
+  "weekly_full_history_debt_review_statement": "역사부채 주간 전수조사 미실시",
+  "execution_duration_minutes": null,
+  "execution_duration_note": "실제 시작·종료시각의 검증 가능한 wall-clock 계측 부재; 1시간 실행 주장하지 않음. 허용된 도구 호출 동안 새 연구선을 계속 조사했고 최소 목표 도달 뒤 GATT·일본어선·헌정 반증과 registry 보완을 수행.",
+  "start_state": {
+    "handoff": "pass231",
+    "readme_checked": true,
+    "commits_checked": true,
+    "open_issues_checked": true,
+    "open_prs_checked": true,
+    "politician_registry_checked": true,
+    "events_checked": true,
+    "history_debt_checked": true,
+    "prior_lead_queue_checked": true,
+    "methodology_checked": true,
+    "prior_status_note": "기존 pass232라는 이름의 2026-09-29 lead 파일이 발견되어 충돌 회피용 20261028 suffix로 신규 queue 저장. 기존 파일 미덮어쓰기."
+  },
+  "metrics": {
+    "independent_research_lines": 23,
+    "general_governance_domains_reinforced": 12,
+    "non_presidential_politician_nodes_deepened": 23,
+    "new_candidate_nodes": 14,
+    "existing_node_overlays": 9,
+    "new_or_enriched_event_actions": 23,
+    "source_pages_directly_opened_substantive": 48,
+    "contemporary_newspaper_transcriptions": 40,
+    "translated_contemporaneous_US_record_excerpts": 5,
+    "official_full_treaty": 1,
+    "official_cabinet_record_excerpt": 1,
+    "retrospective_scholarly_source": 1,
+    "archive_catalog_only_excluded_from_substantive": 1,
+    "document_registry_entries": 49,
+    "adversarial_claim_checks": 18,
+    "tracked_prior_open_leads": 9,
+    "new_specific_leads": 49,
+    "provenance_cross_checks": 4,
+    "strict_three_independent_primary_source_crosschecks": 0,
+    "history_debts_new": 8,
+    "history_debts_resolved": 0
+  },
+  "independent_research_lines": [
+    "1952-09-02 대통령 개헌 유시와 후속 발의",
+    "1952-09-16 충북·전북 지사 인사",
+    "1952-09-17 산업부흥국채 특별회계",
+    "1952-09-17 비료 52.3만톤 수급계획",
+    "1952-09-17 구호양곡 도정 관할",
+    "1952-09-17 전매가격·재정법",
+    "1952-09-17 정부관리 양곡가격",
+    "1952-09-17 선거법 149조 초안",
+    "1952-09-17 농림위원회·협동조합",
+    "1952-09-17 상공부 산업체조사",
+    "1952-09-17 재일동포 참정권 요구",
+    "1952-09-17 8개 정당 정치지형",
+    "1952-09-18 치안국장·내무장관 발언",
+    "1952-09-18 상이군인 원호위원회",
+    "1952-09-18 3500만달러 상환불 배분",
+    "1952-09-18 자유당 원내외 합당",
+    "1952-09-19 GATT 가입결정과 1967 가입",
+    "1952-09-12 어선 나포와 한일 해양주권",
+    "1952-09-19 한국은행 신권·금리",
+    "1952-09-19 신당·야당 통합 협의",
+    "1952-09-16 OIR 환율",
+    "1952-09-17 백재정 통화증발 통계",
+    "1952-09-19 유엔 정전전술 미국 외교문서"
+  ],
+  "domains": [
+    "헌정·입법",
+    "선거",
+    "인사·지방행정",
+    "경찰·치안",
+    "재정·물가",
+    "통화·외환",
+    "산업·통계",
+    "농정·비료",
+    "식량·구호",
+    "사회복지·원호",
+    "정당·의회",
+    "외교·해양·통상·안보"
+  ],
+  "adversarial_claim_ids": [
+    "CLM-P232-GATT-1952-JOINED",
+    "CLM-P232-INDUSTRY-ONE-THIRD",
+    "CLM-P232-PRICE-LEGALITY",
+    "CLM-P232-PRICE-2500",
+    "CLM-P232-FERTILIZER-DELIVERED",
+    "CLM-P232-GRAIN-REIMBURSEMENT",
+    "CLM-P232-GOVERNOR-JEONBU",
+    "CLM-P232-PARTY-MERGER-ALL",
+    "CLM-P232-RICE-RETROACTIVE",
+    "CLM-P232-BOND-1000-DISBURSED",
+    "CLM-P232-TORTURE-ENDED",
+    "CLM-P232-FISHING-UNCONTESTED",
+    "CLM-P232-EXCHANGE-6000-MARKET",
+    "CLM-P232-FINANCE-PERCENTAGES",
+    "CLM-P232-BANKNOTE-10000",
+    "CLM-P232-CONSTITUTION-AFTER-1952",
+    "CLM-P232-PARTY-SKETCH-FACT",
+    "CLM-P232-WELFARE-COMMITTEE-PAID"
+  ],
+  "cross_checks": [
+    {
+      "subject": "1952 GATT 가입결정 vs 실제 1967 가입",
+      "families": [
+        "조선일보 1952 동시대 보도",
+        "법제처 1967 조약 제243호",
+        "한국민족문화대백과사전 학술 해설"
+      ],
+      "result": "1952 가입완료 주장 반증, 1952 가입 의향/결정으로 한정"
+    },
+    {
+      "subject": "1952-09-02 개헌 대통령 유시 vs 9월 신개헌안 보도",
+      "families": [
+        "국가기록원 국무회의록 BG0000029",
+        "동아일보 1952-09-18"
+      ],
+      "result": "대통령 유시 확인, 국회 발의·법률 성립은 미확인"
+    },
+    {
+      "subject": "1952-09-12 일본어선 나포와 해양경비",
+      "families": [
+        "한국 해군·외무부 동시대 성명 재록",
+        "국가기록원 BA0084189 정부기록 소장 해제"
+      ],
+      "result": "한국 측 정책 존재 교차; 일본측 독립 원문 미확보"
+    },
+    {
+      "subject": "1952-09 통화·외환 불균형",
+      "families": [
+        "미국무부 OIR 6013 동시대 분석 번역발췌",
+        "민주신보 김지윤 동시대 경제 비판"
+      ],
+      "result": "공식환율·시장환율 분리, 통화증발 통계의 산술충돌 신규 발견"
+    }
+  ],
+  "key_findings": [
+    "1952-09 GATT 가입서명 결정 보도와 1967-04-14 공식 가입의 15년 간극 구조화",
+    "1952 산업통계 10인 이상·서울 제외 대 1943 5인 이상·서울 포함 비교 불가",
+    "전매가격 백구 1000→2500원은 3개 신문 계열로 확인하되 재정법상 의결 여부 OPEN",
+    "전북지사 이요한 국무회의 인선과 보류? 보도 충돌 CONFLICTED",
+    "1952-09-02 제71회 국무회의 이승만 개헌조목 국회제출 유시 확인",
+    "김지윤 통화증발 비중 55.9/45.9%는 같은 기사 수치와 산술 불일치",
+    "1952 비료수급 52.3만톤은 계획, 9/15 실제 도착 3.2만톤",
+    "이교선 상공장관 3500만달러 전액 산업부흥 주장과 2100만달러 양곡도입 합의 보도는 다른 행위",
+    "자유당 합당 보도에도 윤치영·임영신 등 불응자 존재",
+    "국가기록원 BA0084189 상공부 1952-05-12 일본어선 대책 4면 문서번호 확보"
+  ],
+  "limits": [
+    "주요 국정기록은 신문 전사와 국가기록원 발췌 위주, 원 관보·국회속기록·일본 외교문서·미 OIR 전체 원문 미확보",
+    "1952-09 정당스케치는 풍자·전언·일부 중략이 있어 확정 사실로 승격하지 않음",
+    "원 인사발령·당원명부·생몰 정보는 미확보; candidate/IDENTIFIED 상태 유지",
+    "독립적인 3개 공식 원출처 계열로 동일 주장 완전 삼각검증한 건수는 0"
+  ],
+  "new_lead_queue": "data/research/leads/pass-232-20261028-next-lead-queue.json",
+  "modified_files": [
+    "data/documents/pass-232-1952-september-governance.json",
+    "data/events/pass-232-1952-september-governance.json",
+    "data/claims/pass-232-1952-september-governance.json",
+    "data/politicians/pass-232-1952-september-actors.json",
+    "data/research/leads/pass-232-20261028-next-lead-queue.json",
+    "data/annals/1952-september-state-party-economy.md",
+    "data/research/HISTORY_DEBT.md",
+    "data/research/rhee-syngman-coverage.json",
+    "data/politicians/INDEX.md"
+  ],
+  "commit_sha_log": [
+    {
+      "file": "data/documents/pass-232-1952-september-governance.json",
+      "sha": "4d2d23f3d7584eafda5fdef9a7d86b5d76fdc4c8"
+    },
+    {
+      "file": "data/events/pass-232-1952-september-governance.json",
+      "sha": "3f9d99b286192a00d96832b0985feea484199dff"
+    },
+    {
+      "file": "data/claims/pass-232-1952-september-governance.json",
+      "sha": "4dfd22a77e524ea6ffdfe8adaa7f0ed9e8a60ba3"
+    },
+    {
+      "file": "data/politicians/pass-232-1952-september-actors.json",
+      "sha": "06824b46a1b1ed9bbd0f926eba5cca49eb941ca6"
+    },
+    {
+      "file": "data/research/leads/pass-232-20261028-next-lead-queue.json",
+      "sha": "6c2e391d0ff7974cb3d92bf063fc3b11a7680953"
+    },
+    {
+      "file": "data/annals/1952-september-state-party-economy.md",
+      "sha": "642a316133c89e20f5af832c4b7248bb48f8dda8"
+    },
+    {
+      "file": "data/research/HISTORY_DEBT.md",
+      "sha": "a72bf3780107a2700f2b1c31eae66dbb7a6589fa"
+    },
+    {
+      "file": "data/research/rhee-syngman-coverage.json",
+      "sha": "5db46b121b187163cd10ca44f86b03c2419ecc52"
+    },
+    {
+      "file": "data/documents/pass-232-1952-september-governance.json",
+      "sha": "8cb3052616640864835fabd4655b31a2cc9927e3"
+    },
+    {
+      "file": "data/claims/pass-232-1952-september-governance.json",
+      "sha": "96205dd188d8868cfd0661c29eebd565d2c7dd78"
+    },
+    {
+      "file": "data/politicians/INDEX.md",
+      "sha": "7ba3a8a3cb491de7c1f8c19a9bd7f91dc2f67117"
+    },
+    {
+      "file": "data/politicians/pass-232-1952-september-actors.json",
+      "sha": "8e752e8f685b304dfb342f0ecec4f71e88b03799"
+    }
+  ],
+  "validation": {
+    "all_event_document_ids_resolve": true,
+    "all_claim_document_ids_resolve": true,
+    "all_actor_event_ids_resolve": true,
+    "unique_document_ids": true,
+    "checked_by": "fetch/parse/referential integrity comparison",
+    "floot_touched": false
+  },
+  "next_priority": [
+    "1952-09 GATT 가입 국무회의 결재와 1951 Torquay 의정서",
+    "1952-09 전매가격 인상 재정법3조·관보·국회 의결",
+    "1952-09-16~18 전북 이요한 지사 임명 보류 관보",
+    "1952-05-12 BA0084189 원문과 9/14 일본 외무성 항의전문",
+    "1952 상공부 산업조사 10인 이상 원표와 1943 5인 이상 원표",
+    "1952-09-17 신비료년도 523000톤 승인·실도착 대장",
+    "1952-09-18 3500만달러 상환불 CEB 회의록·한은 입금전표"
+  ]
+}
