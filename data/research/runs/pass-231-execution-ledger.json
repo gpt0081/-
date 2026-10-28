@@ -3,7 +3,7 @@
   "pass": 231,
   "date": "2026-10-28",
   "focus": "1952 June-July constitutional crisis/POW diplomacy; August election and tungsten parliamentary accountability",
-  "status": "PASS231_COMPLETE_COMMITS_VERIFIED",
+  "status": "PASS231_VALIDATED_FINAL",
   "weekly_history_debt_full_review": false,
   "weekly_history_debt_note": "역사부채 주간 전수조사 미실시",
   "floot_touched": false,
@@ -21,7 +21,7 @@
     "independent_research_lines": 30,
     "governance_domains": 11,
     "nonpresident_new_candidate_nodes": 14,
-    "nonpresident_existing_nodes_deepened": 13,
+    "nonpresident_existing_nodes_deepened": 9,
     "events_structured": 20,
     "substantive_documents_directly_opened": 70,
     "original_or_contemporaneous": 67,
@@ -29,7 +29,8 @@
     "existing_open_leads_followed": 9,
     "new_document_specific_leads": 52,
     "cross_provenance_bundles": 3,
-    "strict_three_independent_primary_families_same_claim": 0
+    "strict_three_independent_primary_families_same_claim": 0,
+    "existing_actor_crosslink_records": 13
   },
   "research_lines": [
     "헌법 7/4 표결",
@@ -166,7 +167,8 @@
     "f66ae48987b29a7a2f00ec4918525ca2cf4531b9",
     "e70c92f5440b86a766ce5fcb1633a894217b0b66",
     "292520b09782c8a802dfa5b26de7354538114b3c",
-    "ddbd129f03a2041dc38350a17da58df5c63350d7"
+    "ddbd129f03a2041dc38350a17da58df5c63350d7",
+    "08bc6506946324540c0ed5a550fa382b752c5491"
   ],
   "execution_time": {
     "actual_elapsed_minutes": null,
@@ -224,7 +226,8 @@
     "Research line list is 24 distinct topics, corrected 23→24",
     "Replaced two unrelated prior-lead IDs with nine actual previously queued leads and outcomes",
     "Removed unverified parent event IDs and dangling P229C-CONSTITUTION-0707 document reference",
-    "Central politician registry roles normalized to preexisting string role convention"
+    "Central politician registry roles normalized to preexisting string role convention",
+    "Unique non-president existing actor IDs deepened=9 (not 13); 13 is repeated crosslink records including president. Separate unique people from link counts."
   ],
   "validation": {
     "document_ids_unique": true,
