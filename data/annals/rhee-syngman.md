@@ -617,3 +617,11 @@
 **저격미수와 사법 단계:** 6월25일 유시태의 발사 실패는 6월27일 평화신문에, 8월22일 김시현 첫 공판 진술과 12인 피고인 명단은 8월24일 서울신문에 기록된다. 김시현의 고의 불발탄 설명은 법정에서 한 *피고인 주장*이다. 최양옥은 해당 공판 보도에서 피고인으로 등재되며 장석윤의 사전경고 인지 여부는 여전히 미확인.
 
 원문: https://history.state.gov/historicaldocuments/frus1952-54v15p1/d135 ; https://history.state.gov/historicaldocuments/frus1952-54v15p1/d137 ; https://history.state.gov/historicaldocuments/frus1952-54v15p1/d163 ; https://history.state.gov/historicaldocuments/frus1952-54v15p1/d166 ; https://db.history.go.kr/contemp/level.do?levelId=dh_025_1952_05_24_0030 ; https://db.history.go.kr/contemp/level.do?levelId=dh_026_1952_08_22_0070 .
+
+
+### 2026-10-28 추가 보강 · 국회 발의/정부 공고·문교부·중석불
+- 1952-05-07 국무원공고 제35호는 국회 의원 123인이 제안한 개헌안의 헌법 제98조 제2항 공고. 이승만·장석윤·백두진 등 국무위원의 공고상 명기와 국회 제안행위는 별개다.
+- 1952-06-18 분류 문교부 4년 업적보고서는 노천수업·ECA 가교사·전시 연합대학·교육자치와 국민사상지도원을 설명한다. 문서 내부 7/1 통계 때문에 작성일 OPEN.
+- 1952-07 중석불 불하에 관한 농림·재무·상공 정책과 국회 특별조사위원회의 조사 단계를 구분했다. 기사에 등장하는 정치자금 유입·위법 주장과 확정된 사법책임을 혼동하지 않는다. 비료 합계 9,345톤·거래 포대 1,670포 불일치를 검증부채로 기록.
+- 1952-01-24 사회부의 상이군인 기술학교 계획·고아원 이전·구호품 배정은 국정의 복지 영역으로 보강, 실제 집행 확인은 별도.
+- 상세 원문·정치인·사건·주장: `data/annals/1952-governance-education-welfare-tungsten.md`.

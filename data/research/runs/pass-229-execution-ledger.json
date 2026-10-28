@@ -7,16 +7,16 @@
   "weekly_history_debt_full_review": false,
   "weekly_history_debt_note": "역사부채 주간 전수조사 미실시",
   "counts": {
-    "independent_research_lines_substantively_followed": 13,
-    "governance_domains_substantively_touched": 9,
-    "non_president_actor_nodes_new_or_deepened": 14,
-    "events_or_subevents_structured_or_reinforced": 12,
-    "unique_document_bodies_directly_opened": 67,
-    "primary_or_contemporaneous_document_texts_opened": 63,
-    "adversarial_claim_checks": 12,
+    "independent_research_lines_substantively_followed": 21,
+    "governance_domains_substantively_touched": 12,
+    "non_president_actor_nodes_new_or_deepened": 37,
+    "events_or_subevents_structured_or_reinforced": 27,
+    "unique_document_bodies_directly_opened": 82,
+    "primary_or_contemporaneous_document_texts_opened": 76,
+    "adversarial_claim_checks": 24,
     "existing_leads_followed": 12,
-    "new_specific_leads": 39,
-    "cross_provenance_bundles": 2
+    "new_specific_leads": 69,
+    "cross_provenance_bundles": 3
   },
   "domains": [
     "헌정",
@@ -27,7 +27,11 @@
     "경제·재정",
     "산업·복구",
     "노동",
-    "지방행정"
+    "지방행정",
+    "교육·문교",
+    "사회복지",
+    "농정·비료",
+    "국회 국정감사"
   ],
   "research_lines": [
     "장석윤 5/23 시위통제",
@@ -42,7 +46,15 @@
     "유엔군 원화 차입금 상환·환율",
     "6/25 유시태 저격미수 현장",
     "8/22 김시현 공판·최양옥 피고 신분",
-    "서울시 산업복구·조선방직 노동쟁의"
+    "서울시 산업복구·조선방직 노동쟁의",
+    "1952 4/19 의원 개헌안 서명·비서명",
+    "1952 5/07 국무원 공고와 의원 발의권",
+    "1952 4/25 지방의원선거 지역 결과",
+    "1952 6/18 전시 교육 복구·대학·교육자치",
+    "1952 1/24 상이군인·고아원 복지",
+    "1952 6/25~7/5 중석불 비료가격 국무회의",
+    "1952 7/18~8/25 국회 중석불 조사위원회",
+    "1952 7/24 상공부 생필품 통제계획"
   ],
   "cross_provenance_bundles": [
     {
@@ -60,19 +72,31 @@
         "US Meyer mission official report FRUS"
       ],
       "result": "signature and committee establishment agreement corroborated"
+    },
+    {
+      "topic": "1952-04-17 123인 개헌 제안",
+      "families": [
+        "Dong-A Ilbo contemporary 4/19 signer roster",
+        "ROK 국무원공고 제35호 official notice reproduced in Minju Shinbo 5/7"
+      ],
+      "result": "123 Assembly sponsors and executive publication confirmed; cabinet member listed as promulgator not proposer"
     }
   ],
   "not_counted_as_independent": [
     "FRUS 56 documents share a US diplomatic editorial provenance family; multiple telegrams not independent countries",
     "JOINT WEEKA and OIR may share US intelligence upstream",
-    "1952-06-25 incident and Aug22 trial Korean newspapers are two reports but court original missing"
+    "1952-06-25 incident and Aug22 trial Korean newspapers are two reports but court original missing",
+    "1952 tungsten issue: Dong-A and Minju Shinbo independent newspapers, but newspaper allegations not equal parliamentary findings."
   ],
   "key_findings": [
     "1952-05-24 인사발표의 依願免本官과 5/29 미국 보고의 dismissed는 퇴임 동기 차원에서 충돌 가능; 결재원본 전 미확정.",
     "1952-06-03 장택상 증언을 미국 전문이 전달하며 이범석의 의원 전원 체포 제안 및 시위대 유입 불차단 지시를 보고하나 국무회의 원본 부재.",
     "1952-05-24 마이어협정은 한국측 신문과 미국 사절단장 보고의 독립 계열이 체결을 교차 확인. 이승만의 백두진 서명 승인 자기진술을 별도 claim으로 구조화.",
     "1952-08-22 첫 공판에서 최양옥은 증인만이 아닌 12명 피고인 중 한 명으로 열거. 사전경고 사실 여부는 미해결.",
-    "1952-05-24 서울시 7,920억 원 산업복구 계상은 승인·집행이 아니므로 구별."
+    "1952-05-24 서울시 7,920억 원 산업복구 계상은 승인·집행이 아니므로 구별.",
+    "5월7일 국무원공고 제35호는 국회 123인 발의 개헌안의 정부 공고일 뿐 정부 발의가 아니다.",
+    "중석불 국회 조사위원 12인·조사권 요청 의원을 1950 선거·4월 개헌서명 명단과 교차연결.",
+    "문교부 6/18 보고의 7/1 현재 수치, 7/3 비료 합계 9345톤, 7/24 판매 포대 1670포 내부 불일치를 원문 그대로 보존."
   ],
   "adversarial_checks": [
     {
@@ -150,7 +174,8 @@
     "No Korean cabinet original, 1952 court stenogram or original gazette scan.",
     "Some 1952 FRUS documents are POW diplomacy context and not standalone novel findings.",
     "Lead count is 38 durable document targets, active 15. Minimum 20 independent research lines not reached; 3 provenance bundles not reached.",
-    "Existing data/politicians.json contains two Lee Beom-seok IDs; no destructive merge made."
+    "Existing data/politicians.json contains two Lee Beom-seok IDs; no destructive merge made.",
+    "1952 7/24 newspaper numerical line items inconsistent; original paper images and bank/customs records not yet obtained."
   ],
   "floot_touched": false,
   "commits_verified": [
@@ -232,5 +257,28 @@
       "status": "NARROWED",
       "finding": "FRUS June 3/4 command-policy conflict read; police orders still missing"
     }
-  ]
+  ],
+  "tranche_b": {
+    "documents": 15,
+    "primary_or_contemporaneous": 13,
+    "politician_nodes": 23,
+    "events": 15,
+    "claims": 12,
+    "leads": 30,
+    "research_lines": [
+      "1952 4/19 의원 개헌안 서명·비서명",
+      "1952 5/07 국무원 공고와 의원 발의권",
+      "1952 4/25 지방의원선거 지역 결과",
+      "1952 6/18 전시 교육 복구·대학·교육자치",
+      "1952 1/24 상이군인·고아원 복지",
+      "1952 6/25~7/5 중석불 비료가격 국무회의",
+      "1952 7/18~8/25 국회 중석불 조사위원회",
+      "1952 7/24 상공부 생필품 통제계획"
+    ],
+    "data_quality_findings": [
+      "June18 ministry report includes July1 as-of data; date/compilation discrepancy.",
+      "277325+37655=314980, not 324325, difference 9345 tonnes.",
+      "July24 20 sale line items total 27542 bags vs printed 25872, difference 1670."
+    ]
+  }
 }
