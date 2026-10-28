@@ -12,3 +12,9 @@
 - 국편 원문: https://db.history.go.kr/id/dh_029_1953_06_06_0050
 - 1953년 5월15일·6월4일 경성궤도 입찰공고, 6월6일 관재청 기자회견 원고, 9월 퇴임 사령 및 1955년 부흥부장관 임명관보 확인 필요.
 
+
+
+## 1955-02 부흥부 제도 및 장관 검증 (pass239K)
+- 법률 제354호(1955-02-07) 정부조직법 전부개정으로 부흥부 설치. 한국학중앙연구원 부흥부 해설은 경제부흥 종합계획·외자청 소관을 기록한다.
+- 유완창 초대 부흥부장관이라는 AKS 인명자료와 FRUS d28의 1955-03 'Yuh' Reconstruction Minister는 잠정 연결만 한다. 한국 관보 사령 확인 전 3월 회담자 신원·임명일 확정하지 않는다.
+- 법률: https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=5753&viewCls=lsRvsDocInfoR ; 기관: https://encykorea.aks.ac.kr/Article/E0024623 ; FRUS: https://history.state.gov/historicaldocuments/frus1955-57v23p2/d28

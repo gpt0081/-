@@ -5,7 +5,7 @@
   "previous_main_head": "bbed49810bbf6212b4d021bcf926fbc321402cf4",
   "first_commit": "00a150277f52722dbfe9d4618b6941f3edec831e",
   "second_commit": "3c72a4f04098620fe946aed1c2b99e66ebaf793a",
-  "third_commit": "pending",
+  "third_commit": "e232659d309d294cbe004de3ecaf1896eb459082",
   "meaningful_documents_opened": 70,
   "frus_original_origin_pages": 63,
   "korean_official_law_partial": 1,
@@ -115,5 +115,30 @@
     "https://history.state.gov/historicaldocuments/frus1955-57v23p2/d64",
     "https://history.state.gov/historicaldocuments/frus1955-57v23p2/d65"
   ],
-  "source_audit_note": "FRUS d1 editorial excluded; d3 previously read in pass239J excluded; 63 direct original-origin pages; 7 Korean institutional pages; UN A2711 not counted"
+  "source_audit_note": "FRUS d1 editorial excluded; d3 previously read in pass239J excluded; 63 direct original-origin pages; 7 Korean institutional pages; UN A2711 not counted",
+  "final_integration_commit": "see main ref after this ledger update",
+  "integrated_files": [
+    "data/politicians.json",
+    "data/events.json",
+    "data/evidence/rhee-syngman.json",
+    "data/evidence/sohn-won-yil.json",
+    "data/evidence/lee-hu-rak.json",
+    "data/annals/sohn-won-yil.md",
+    "data/annals/lee-hu-rak.md",
+    "data/research/HISTORY_DEBT.md",
+    "data/research/rhee-syngman-coverage.json",
+    "data/research/rhee-syngman-open-leads.json",
+    "data/research/ACTIVE_RESEARCH_HANDOFF.json",
+    "data/politicians/INDEX.md",
+    "data/annals/rhee-syngman.md",
+    "data/annals/yu-wan-chang.md"
+  ],
+  "validation": {
+    "politicians_total": 153,
+    "events_total": 494,
+    "new_candidate_ids": 5,
+    "actor_event_refs_missing": 0,
+    "primary_document_count": 64,
+    "original_facsimiles_opened": 0
+  }
 }

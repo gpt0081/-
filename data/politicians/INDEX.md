@@ -117,3 +117,10 @@
 - 문서 `data/documents/pass-239j-1954-agreed-minute-ratification.json`, 사건 `data/events/pass-239j-1954-1955-actions.json`, 주장 `data/claims/pass-239j-treaty-aid-currency-adversarial.json`, 실록 `data/annals/1954-1955-treaty-minute-currency-actor-chain.md`. FRUS는 한 편찬계열, 한국 법제처는 별도 정부 원문계열.
 
 - pass239J 증거원장 최종 동기화(2026-10-29): `data/evidence/pyun-yong-tae.json`, `data/evidence/cho-chung-whan.json` 신규 독립 원장; 기존 `data/evidence/rhee-syngman.json` chronology 3건·source 5건 추가. 변영태와 조정환은 증거원장+개인 annals 확보를 근거로 연구상태 ANNALS_ACTIVE 승격. 출생/사망·임명원부 미확인은 그대로 OPEN.
+
+
+## 2026-10-29 pass239K · 1955년 국정·경제·안보·정당
+- 정치인 14명 심화, 신원 미확정 신규 후보 5명: data/politicians/pass-239k-1955-actors.json. 이후락 Hu Rak Lee 신원은 군무관 사령 전 잠정.
+- 손원일 ANNALS_ACTIVE 승격: data/annals/sohn-won-yil.md, data/evidence/sohn-won-yil.json. 한국 공식 조약 제34호와 미국 FRUS 1955 회담 기록을 분리.
+- 이후락 후보 독립원장: data/annals/lee-hu-rak.md, data/evidence/lee-hu-rak.json.
+- 문서 71 객체(70개 직접 열람, UN A/2711 1개 미열람): data/documents/pass-239k-1955-first-half.json; 사건 20: data/events/pass-239k-1955-first-half.json; 주장 16: data/claims/pass-239k-1955-adversarial.json; 기관 4: data/organizations/pass-239k-1955-reconstruction.json.
