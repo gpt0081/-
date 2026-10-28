@@ -8,20 +8,22 @@
   "execution_duration_minutes": null,
   "execution_duration_note": "실제 경과시간 측정치 없음. 도구 호출 여력 내 직접 문서 열람·교차검증·파일 커밋을 수행했으며 1시간 수행 주장하지 않음.",
   "metrics": {
-    "independent_research_lines": 13,
-    "general_governance_domains_reinforced": 9,
-    "non_presidential_politician_nodes_deepened": 5,
-    "new_candidate_nodes": 5,
-    "new_or_enriched_event_actions": 14,
-    "source_pages_directly_opened_substantive": 20,
-    "primary_or_contemporary_original_origin": 20,
+    "independent_research_lines": 29,
+    "general_governance_domains_reinforced": 14,
+    "non_presidential_politician_nodes_deepened": 11,
+    "new_candidate_nodes": 6,
+    "new_or_enriched_event_actions": 41,
+    "source_pages_directly_opened_substantive": 50,
+    "primary_or_contemporary_original_origin": 49,
     "original_facsimile_images": 0,
-    "adversarial_claim_checks": 17,
+    "adversarial_claim_checks": 37,
     "tracked_prior_open_leads": 8,
-    "new_specific_leads": 34,
-    "provenance_cross_checks_contextual": 2,
+    "new_specific_leads": 75,
+    "provenance_cross_checks_contextual": 3,
     "strict_three_independent_primary_families": 0,
-    "history_debts_resolved": 0
+    "history_debts_resolved": 0,
+    "official_later_editorial": 1,
+    "independent_adversarial_search_queries": 1
   },
   "independent_research_lines": [
     "국회 추가예산 심의",
@@ -36,7 +38,31 @@
     "한국인 전범자 석방 외교건의",
     "4286년 예산안 재정 결손",
     "한미 원화대여금 정산 1953-02",
-    "서울 환도·만주기지 공격 권한 구분"
+    "서울 환도·만주기지 공격 권한 구분",
+    "미국 정권교체기 한국전쟁 전략 공방",
+    "일본 어선 한국수역 출어",
+    "진헌식 반정부자 정의와 가정부 주장",
+    "정부보유외화 3000만달러 생필품 수입계획",
+    "중석불 형사재판 준비절차",
+    "부산 화재 이재민 구호",
+    "서울 동회 구호물자 공과금 연계",
+    "미국 포로증언 선전계획",
+    "백두진 부흥부 신설·원화대여 공한",
+    "사회부 구호물자 유출·감사",
+    "요소수지 수입쿼터 배분 의혹",
+    "봉암도 포로 사상자 집계",
+    "국무총리 후임 후보와 미지명",
+    "공무원 전시수당",
+    "대한농총·농민회 조직 갈등",
+    "문교재단 귀속재산 우선불하",
+    "경북 결핵예방 지방재정",
+    "서울 교풍친목회 회비강요 조사",
+    "대구 문화극장 국립극장화 갈등",
+    "미 CIA 소련 블록 군사력 평가",
+    "유엔 인도안 거부 이후 대응",
+    "450만석 양곡 합의 주장·500억원 미방출",
+    "자유당 중앙당부 대통령 담화 대응",
+    "태평양 동맹 구상"
   ],
   "adversarial_claim_ids": [
     "CLM-P234-UNKRA-RHEE-SPEND",
@@ -115,6 +141,14 @@
         "민주신보 12/16"
       ],
       "caveat": "독립 신문 2계열이지만 국회 원회의록 없어 CONFLICTED"
+    },
+    {
+      "subject": "봉암도 포로 사망자 1952-12-14",
+      "families": [
+        "한국 동시대 신문에 실린 유엔군 발표",
+        "미 FRUS 후대 편집노트"
+      ],
+      "caveat": "발행계열은 달라도 초기 유엔군 원자료 공통 가능. 독립 3중 원자료 교차검증 미달"
     }
   ],
   "files_created": [
@@ -124,7 +158,38 @@
     "data/claims/pass-234-1952-dec-state-finance.json",
     "data/research/leads/pass-234-20261028-next-lead-queue.json",
     "data/annals/1952-dec-state-finance-education-relief.md",
-    "data/research/runs/pass-234-execution-ledger.json"
+    "data/research/runs/pass-234-execution-ledger.json",
+    "data/politicians/pass-234-addendum-1952-dec-actors.json",
+    "data/events/pass-234-addendum-1952-dec-11-15.json",
+    "data/documents/pass-234-addendum-1952-dec-11-15.json",
+    "data/claims/pass-234-addendum-1952-dec-11-15.json",
+    "data/research/leads/pass-234-addendum-20261028-next-lead-queue.json",
+    "data/annals/1952-dec-11-15-state-operations-adversarial.md",
+    "data/politicians.json",
+    "data/events.json",
+    "data/research/HISTORY_DEBT.md",
+    "data/research/rhee-syngman-coverage.json",
+    "data/politicians/INDEX.md",
+    "data/research/ACTIVE_RESEARCH_HANDOFF.json"
   ],
-  "floot_touched": false
+  "floot_touched": false,
+  "addendumB": {
+    "source_pages_directly_opened_substantive": 30,
+    "primary_or_contemporary": 29,
+    "official_later_editorial": 1,
+    "added_event_actions": 27,
+    "added_claim_checks": 20,
+    "added_leads": 41,
+    "added_new_candidate": 1,
+    "existing_nonpresidential_deepened": 5,
+    "findings": [
+      "봉암도 사망 82/85 CONFLICTED; 부상 120/입원113 분모 분리",
+      "백두진 1952-12-12 원화대여 4580억원=발행고56% 주장과 11/13 현금교환 공한",
+      "부흥부 신설·450만석 수입은 계획/합의, 시장미 자금 500억원 미방출",
+      "구호물자 감독·요소수지 쿼터 의혹·경북 결핵예방 예산 부족",
+      "진헌식 반정부자 정의는 당사자 발언, 가정부 음모는 미검증 주장"
+    ],
+    "original_facsimile_images": 0
+  },
+  "independent_research_lines_counting_note": "세부 기록에는 37개 줄이 있으나 주제 중복을 제거한 보수적 독립 연구선 29개만 계상."
 }
