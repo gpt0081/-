@@ -502,7 +502,8 @@
         "evt-1953-anti-communist-pow-release",
         "evt-1953-us-rok-mutual-defense-negotiation",
         "evt-p232-0917-finance-critique",
-        "evt-p232-0918-reimbursement-split"
+        "evt-p232-0918-reimbursement-split",
+        "evt-p233-add-rhee-parliament-agenda"
       ],
       "researchNotes": [
         "1",
@@ -676,7 +677,8 @@
       ],
       "pass232Overlay": "data/politicians/pass-232-1952-september-actors.json",
       "researchRefs": [
-        "data/politicians/pass-233-1952-rok-diplomacy-network.json"
+        "data/politicians/pass-233-1952-rok-diplomacy-network.json",
+        "data/politicians/pass-233-addendum-1952-domestic-actors.json"
       ]
     },
     {
@@ -817,11 +819,13 @@
       "backbone": false,
       "connections": [
         "evt-1953-us-rok-mutual-defense-negotiation",
-        "evt-p233-1017-uncurk"
+        "evt-p233-1017-uncurk",
+        "evt-p233-add-rhee-lim-media"
       ],
       "researchNotes": "1953-05-27 휴전안 대응을 이승만에게 보고한 서한과 08-08 덜레스 최종회담 참가가 확인됨. 주유엔 대표 재임기간·외교부 직제 원문 확인 후 VERIFIED 검토.",
       "researchRefs": [
-        "data/politicians/pass-233-1952-rok-diplomacy-network.json"
+        "data/politicians/pass-233-1952-rok-diplomacy-network.json",
+        "data/politicians/pass-233-addendum-1952-domestic-actors.json"
       ]
     },
     {
@@ -1371,7 +1375,8 @@
       "backbone": false,
       "connections": [
         "evt-p232-0917-cooperative-policy",
-        "evt-p232-0917-fertilizer"
+        "evt-p232-0917-fertilizer",
+        "evt-p233-add-grain-supply"
       ],
       "evidenceFile": "data/politicians/pass-232-1952-september-actors.json",
       "openLeadsFile": "data/research/leads/pass-232-20261028-next-lead-queue.json",
@@ -1382,7 +1387,10 @@
         "verification": "not independently checked this pass"
       },
       "hanjaVerification": "1952 contemporaneous text or existing canonical registry",
-      "partyAffiliationEvidence": "unknown"
+      "partyAffiliationEvidence": "unknown",
+      "researchRefs": [
+        "data/politicians/pass-233-addendum-1952-domestic-actors.json"
+      ]
     },
     {
       "id": "cand-1952-cabinet-lee-kyo-seon",
@@ -1666,7 +1674,8 @@
       "backbone": false,
       "connections": [
         "evt-p232-0919-unc-foreign-policy",
-        "evt-p233-1017-un-admission"
+        "evt-p233-1017-un-admission",
+        "evt-p233-add-rhee-maritime-letter"
       ],
       "evidenceFile": "data/politicians/pass-232-1952-september-actors.json",
       "openLeadsFile": "data/research/leads/pass-232-20261028-next-lead-queue.json",
@@ -1679,7 +1688,8 @@
       "hanjaVerification": "1952 contemporaneous text or existing canonical registry",
       "partyAffiliationEvidence": "unknown",
       "researchRefs": [
-        "data/politicians/pass-233-1952-rok-diplomacy-network.json"
+        "data/politicians/pass-233-1952-rok-diplomacy-network.json",
+        "data/politicians/pass-233-addendum-1952-domestic-actors.json"
       ]
     },
     {
@@ -1695,7 +1705,8 @@
       "researchStatus": "IDENTIFIED",
       "backbone": false,
       "connections": [
-        "evt-p232-0917-party-sketches"
+        "evt-p232-0917-party-sketches",
+        "evt-p233-add-rhee-parliament-agenda"
       ],
       "evidenceFile": "data/politicians/pass-232-1952-september-actors.json",
       "openLeadsFile": "data/research/leads/pass-232-20261028-next-lead-queue.json",
@@ -1706,7 +1717,10 @@
         "verification": "not independently checked this pass"
       },
       "hanjaVerification": "1952 contemporaneous text or existing canonical registry",
-      "partyAffiliationEvidence": "조선민주당"
+      "partyAffiliationEvidence": "조선민주당",
+      "researchRefs": [
+        "data/politicians/pass-233-addendum-1952-domestic-actors.json"
+      ]
     },
     {
       "id": "cand-1952-vice-jeong-gi-won",
@@ -1888,11 +1902,14 @@
       "roles": [
         "1952-10-15 주일공사 발언은 국사편찬위원회 색인만 확보"
       ],
-      "researchStatus": "DISCOVERED",
+      "researchStatus": "IDENTIFIED",
       "backbone": false,
-      "connections": [],
+      "connections": [
+        "evt-p233-add-kim-japan-statement"
+      ],
       "researchRefs": [
-        "data/politicians/pass-233-1952-rok-diplomacy-network.json"
+        "data/politicians/pass-233-1952-rok-diplomacy-network.json",
+        "data/politicians/pass-233-addendum-1952-domestic-actors.json"
       ],
       "lifespan": {
         "born": null,
@@ -1914,11 +1931,14 @@
       "roles": [
         "1952-10-01 민주국민당 선전부장 전당대회 관련 발언 색인만 확보"
       ],
-      "researchStatus": "DISCOVERED",
+      "researchStatus": "IDENTIFIED",
       "backbone": false,
-      "connections": [],
+      "connections": [
+        "evt-p233-add-opposition-convention"
+      ],
       "researchRefs": [
-        "data/politicians/pass-233-1952-rok-diplomacy-network.json"
+        "data/politicians/pass-233-1952-rok-diplomacy-network.json",
+        "data/politicians/pass-233-addendum-1952-domestic-actors.json"
       ],
       "lifespan": {
         "born": null,
@@ -1928,6 +1948,130 @@
       "researchNotes": [
         "2026-10-28 pass233 정정: 직접 출처 없이 연결된 event edge 제거, 인물 candidate 연구 단서는 보존"
       ]
+    },
+    {
+      "id": "cand-1952-oct-cho-byeong-ok",
+      "name": "조병옥",
+      "aliases": [
+        "조병옥",
+        "趙炳玉",
+        "Cho Byeong-ok"
+      ],
+      "researchStatus": "IDENTIFIED",
+      "backbone": false,
+      "roles": [
+        "1952-10 민주국민당 전당대회 준비위원장"
+      ],
+      "connections": [
+        "evt-p233-add-opposition-convention"
+      ],
+      "researchRefs": [
+        "data/politicians/pass-233-addendum-1952-domestic-actors.json"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "이번 회차 생몰 원기록 미확인"
+      }
+    },
+    {
+      "id": "cand-1952-oct-yu-jin-san",
+      "name": "유진산",
+      "aliases": [
+        "유진산",
+        "柳珍山",
+        "Yu Jin-san"
+      ],
+      "researchStatus": "IDENTIFIED",
+      "backbone": false,
+      "roles": [
+        "1952-10 민주국민당 전당대회 준비 총무"
+      ],
+      "connections": [
+        "evt-p233-add-opposition-convention"
+      ],
+      "researchRefs": [
+        "data/politicians/pass-233-addendum-1952-domestic-actors.json"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "이번 회차 생몰 원기록 미확인"
+      }
+    },
+    {
+      "id": "cand-1952-oct-yun-jae-uk",
+      "name": "윤재욱",
+      "aliases": [
+        "윤재욱",
+        "Yoon Jai-Wook"
+      ],
+      "researchStatus": "IDENTIFIED",
+      "backbone": false,
+      "roles": [
+        "1952-10 서울시의원·UN 관련 집회 연설자"
+      ],
+      "connections": [
+        "evt-p233-add-seoul-protest"
+      ],
+      "researchRefs": [
+        "data/politicians/pass-233-addendum-1952-domestic-actors.json"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "이번 회차 생몰 원기록 미확인"
+      }
+    },
+    {
+      "id": "cand-1952-nov-lee-gap-seong",
+      "name": "이갑성",
+      "aliases": [
+        "이갑성",
+        "李甲成",
+        "Lee Gap-seong"
+      ],
+      "researchStatus": "IDENTIFIED",
+      "backbone": false,
+      "roles": [
+        "1952-11 국무총리 지명자·자유당 의원총회 발언"
+      ],
+      "connections": [
+        "evt-p233-add-lee-gap-seong-nomination"
+      ],
+      "researchRefs": [
+        "data/politicians/pass-233-addendum-1952-domestic-actors.json"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "이번 회차 생몰 원기록 미확인"
+      }
+    },
+    {
+      "id": "cand-1952-nov-bae-eun-hui",
+      "name": "배은희",
+      "aliases": [
+        "배은희",
+        "裵恩希",
+        "Bae Eun-hui"
+      ],
+      "researchStatus": "IDENTIFIED",
+      "backbone": false,
+      "roles": [
+        "1952-11 자유당 원외 의원부·67인 교섭단체 관련"
+      ],
+      "connections": [
+        "evt-p233-add-lee-gap-seong-nomination"
+      ],
+      "researchRefs": [
+        "data/politicians/pass-233-addendum-1952-domestic-actors.json"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "이번 회차 생몰 원기록 미확인"
+      }
     }
   ],
   "recentResearchPass232": {

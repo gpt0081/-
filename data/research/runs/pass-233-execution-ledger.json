@@ -8,18 +8,18 @@
   "execution_duration_minutes": null,
   "execution_duration_note": "시계로 1시간 경과를 측정·증명하지 않음. 이용 가능한 조사·검증·커밋 작업을 수행. 기존 pass232에 이어 새 1952년 10~12월 문서군으로 전환. 원문에 직접 등장하지 않는 인물 4명의 사건 귀속 링크를 검토 후 제거; 같은 협상 연속 단계를 독립 연구선으로 중복계산하지 않도록 23개 세부주제를 14개 독립선으로 재집계.",
   "metrics": {
-    "independent_research_lines": 14,
-    "general_governance_domains_reinforced": 6,
-    "non_presidential_politician_nodes_deepened": 8,
-    "new_candidate_nodes": 5,
-    "new_or_enriched_event_actions": 12,
-    "source_pages_directly_opened_substantive": 45,
-    "primary_or_contemporary_original_origin": 45,
+    "independent_research_lines": 27,
+    "general_governance_domains_reinforced": 10,
+    "non_presidential_politician_nodes_deepened": 20,
+    "new_candidate_nodes": 10,
+    "new_or_enriched_event_actions": 29,
+    "source_pages_directly_opened_substantive": 69,
+    "primary_or_contemporary_original_origin": 69,
     "original_facsimile_images": 0,
-    "adversarial_claim_checks": 14,
-    "tracked_prior_open_leads": 9,
-    "new_specific_leads": 44,
-    "provenance_cross_checks_contextual": 2,
+    "adversarial_claim_checks": 28,
+    "tracked_prior_open_leads": 12,
+    "new_specific_leads": 78,
+    "provenance_cross_checks_contextual": 4,
     "strict_three_independent_primary_families": 0,
     "history_debts_resolved": 0,
     "non_presidential_candidate_catalog_or_context_only": 4
@@ -38,7 +38,20 @@
     "1952-11 영국·캐나다·미국 간 포로송환 결의 외교협상",
     "1952-11 중국·인도 외교접촉 정보의 전언 계통",
     "1952-12-03 유엔 결의 610 채택과 실제 집행 구분",
-    "1952-11 미국 Truman-Eisenhower 행정부 이양과 한국정책 연속성"
+    "1952-11 미국 Truman-Eisenhower 행정부 이양과 한국정책 연속성",
+    "세입보충국채 상환·법정재원",
+    "해외동포 재산반입 통관행정",
+    "민주국민당 야당연합 조직",
+    "전시 요구호 인구통계 산술 검증",
+    "서울시의회 유엔 집회·지방정치",
+    "이승만 평화선과 UN군 임시 방위선",
+    "김용식 주일공사 대일 성명과 재일교포",
+    "국무총리 지명·인준의 헌정절차",
+    "재무부 미납물품세 몰수계획",
+    "UN군 선박 국산 대체·해운산업",
+    "일본인 귀국희망자 인수교섭",
+    "1953 정부양곡 수급·농정",
+    "재해농가 구호·공공사업·학비면제"
   ],
   "source_counts_by_family": {
     "US_FRUS_edited_originals": 43,
@@ -204,7 +217,7 @@
   ],
   "blocked": [
     "FRUS d308 403",
-    "국사편찬위원회 1952-10-15/11-18 개별 기사 URL 접근 실패; 색인만 확보",
+    "국사편찬위원회 1952-10-15/11-18 개별 기사: TinyFish로 접근 성공, 차단 해소; 개별 원관보·UN 원문은 여전히 미확보",
     "UN 회의록 원면은 목록·색인까지만 확보",
     "한국 외무부·한국은행 원문 미확보"
   ],
@@ -214,7 +227,18 @@
     "data/claims/pass-233-1952-un-diplomacy-adversarial.json",
     "data/politicians/pass-233-1952-rok-diplomacy-network.json",
     "data/research/leads/pass-233-20261028-next-lead-queue.json",
-    "data/annals/1952-oct-nov-un-diplomacy-reconstruction.md"
+    "data/annals/1952-oct-nov-un-diplomacy-reconstruction.md",
+    "data/documents/pass-233-addendum-1952-nikh-press-letters.json",
+    "data/events/pass-233-addendum-1952-domestic-state.json",
+    "data/claims/pass-233-addendum-1952-domestic-adversarial.json",
+    "data/politicians/pass-233-addendum-1952-domestic-actors.json",
+    "data/research/leads/pass-233-addendum-20261028-next-lead-queue.json",
+    "data/annals/1952-oct-nov-domestic-state-addendum.md",
+    "data/politicians.json",
+    "data/events.json",
+    "data/research/HISTORY_DEBT.md",
+    "data/research/rhee-syngman-coverage.json",
+    "data/politicians/INDEX.md"
   ],
   "floot_touched": false,
   "correction_history": [
@@ -229,5 +253,30 @@
         "new canonical candidate count 4→5"
       ]
     }
-  ]
+  ],
+  "addendum": {
+    "date": "2026-10-28",
+    "openedNIKHArticles": 27,
+    "uniqueNewDocuments": 24,
+    "duplicatesExcluded": 3,
+    "newEvents": 17,
+    "newClaims": 14,
+    "newPoliticianOverlays": 12,
+    "newCanonicalPeople": 5,
+    "newLeads": 34,
+    "provenanceFamilies": [
+      "US FRUS",
+      "UN General Assembly",
+      "Korean 1952 contemporary press",
+      "ROK President original letters",
+      "US State originals translated in NIKH"
+    ],
+    "sourceChecks": [
+      "신문 기사 vs 국회 의결·정부 집행 구분",
+      "당사자 편지 vs 타국 정부 입장 구분",
+      "재난구호 인구 500만 산술충돌",
+      "국채 세입보충 vs 산업부흥 구분",
+      "1953 식량계획 합계 검산"
+    ]
+  }
 }
