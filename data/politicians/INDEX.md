@@ -19,3 +19,7 @@
 
 - 2026-10-28 pass231 1952년 8월 대통령·부통령 후보, 중석불 국회감사·검찰 불기소·지방행정 등 비대통령 후보 14명과 기존 노드 13개 연결 보강: `data/politicians/pass-231-1952-election-accountability.json`. 5개 신원확인 단계 후보는 기본 `data/politicians.json`에도 additive 등록. 생몰·한자 미확인, 동일인 자동병합 금지.
 - 이들 독립 행위·증거·문서 연결: `data/events/pass-231-1952-constitutional-election-pow.json`, `data/documents/pass-231-1952-june-july-diplomacy-election.json`, `data/claims/pass-231-1952-election-pow-accountability.json`, `data/annals/1952-july-august-election-economic-accountability.md`.
+
+
+- 2026-10-28 pass232: 1952년 9월 16~19일 내각·도지사 인사·경찰·정당 통합·해양주권·재외국민 정치인 23명(신규 candidate 14, 기존 ID 9 심화)을 `data/politicians/pass-232-1952-september-actors.json`에 독립 노드로 연결. 한자 확인은 동시대 보도 범위, 생몰·임명 효력일·당적은 원본 대기. 1952 GATT 가입 '결정'과 1967 정식 가입은 별도 event/claim으로 보존.
+- pass232 문서·사건·주장·실록: `data/documents/pass-232-1952-september-governance.json`, `data/events/pass-232-1952-september-governance.json`, `data/claims/pass-232-1952-september-governance.json`, `data/annals/1952-september-state-party-economy.md`. 1952년 9월 정당스케치의 풍자·전언을 검증된 사실로 승격하지 않음.
