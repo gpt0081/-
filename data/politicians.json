@@ -1039,7 +1039,7 @@
         "해군 총참모장",
         "국방부 장관"
       ],
-      "researchStatus": "IDENTIFIED",
+      "researchStatus": "ANNALS_ACTIVE",
       "backbone": false,
       "connections": [
         "evt-1953-us-rok-mutual-defense-negotiation",
@@ -1051,7 +1051,9 @@
         "evt-p239j-04",
         "evt-p239j-08",
         "evt-p239j-13",
-        "evt-p239j-15"
+        "evt-p239j-15",
+        "evt-p239k-09",
+        "evt-p239k-15"
       ],
       "researchNotes": "1953-08-06 경제·군사원조 및 한국군 회의와 08-08 최종회담의 한국측 참가자로 공식 외교기록에서 확인. 해군 총참모장 시기와 국방부장관 취임일의 정확한 경계를 관보/기관연혁으로 검증 후 VERIFIED 검토.",
       "pass232Overlay": "data/politicians/pass-232-1952-september-actors.json",
@@ -1086,7 +1088,18 @@
         ],
         "role_note": "1954 defense minister, military aid talks and treaty promulgation minister",
         "overlay": "data/politicians/pass-239j-1954-diplomacy-economy-actors.json"
-      }
+      },
+      "evidenceFile": "data/evidence/sohn-won-yil.json",
+      "annalsFile": "data/annals/sohn-won-yil.md",
+      "promotionReason": "1954 Korean treaty promulgation and 1955 FRUS d28,d60 first-hand ministerial actions; separate evidence and annals; office dates remain open",
+      "promotionHistory": [
+        {
+          "date": "2026-10-29",
+          "from": "IDENTIFIED",
+          "to": "ANNALS_ACTIVE",
+          "reason": "1954 Korean treaty promulgation and 1955 FRUS d28,d60 first-hand ministerial actions; separate evidence and annals; office dates remain open"
+        }
+      ]
     },
     {
       "id": "pol-lim-byong-jik",
@@ -5457,6 +5470,167 @@
         "source": "US FRUS original-origin transcription only"
       },
       "researchOverlay": "data/politicians/pass-239j-1954-diplomacy-economy-actors.json"
+    },
+    {
+      "id": "cand-p239k-lee-hu-rak",
+      "name": "이후락 (동일인 잠정)",
+      "aliases": [
+        "Hu Rak Lee"
+      ],
+      "lifespan": {
+        "born": "1924-02-23",
+        "died": "2009-10-31",
+        "verification": "AKS retrospective; 1955 FRUS identity not fully merged"
+      },
+      "roles": [
+        "1955 주미 군무관, AKS 1924-2009 신원 잠정대조"
+      ],
+      "researchStatus": "IDENTIFIED",
+      "backbone": false,
+      "connections": [
+        "evt-p239k-14"
+      ],
+      "evidenceCoverage": {
+        "documentIds": [
+          "DOC-P239K-FRUS-59",
+          "DOC-P239K-AKS-LEE-HURAK"
+        ],
+        "source": "US FRUS originals and AKS only for Lee Hu-rak"
+      },
+      "openLeads": [
+        "LEAD-P239K-06"
+      ],
+      "historyDebt": [],
+      "researchOverlay": "data/politicians/pass-239k-1955-actors.json",
+      "identityCaveat": "No automatic merge; verify Korean roster and appointment"
+    },
+    {
+      "id": "cand-p239k-kim-yong-chan",
+      "name": "김용찬 (잠정)",
+      "aliases": [
+        "Kim Yong Chan"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "not reverified"
+      },
+      "roles": [
+        "1955 재무차관"
+      ],
+      "researchStatus": "DISCOVERED",
+      "backbone": false,
+      "connections": [
+        "evt-p239k-15"
+      ],
+      "evidenceCoverage": {
+        "documentIds": [
+          "DOC-P239K-FRUS-60"
+        ],
+        "source": "US FRUS originals and AKS only for Lee Hu-rak"
+      },
+      "openLeads": [
+        "LEAD-P239K-08"
+      ],
+      "historyDebt": [],
+      "researchOverlay": "data/politicians/pass-239k-1955-actors.json",
+      "identityCaveat": "No automatic merge; verify Korean roster and appointment"
+    },
+    {
+      "id": "cand-p239k-kang-commerce",
+      "name": "강(성명미확정) 상공부장관",
+      "aliases": [
+        "Kang"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "not reverified"
+      },
+      "roles": [
+        "1955 3월 상공부장관 성만 확인"
+      ],
+      "researchStatus": "DISCOVERED",
+      "backbone": false,
+      "connections": [
+        "evt-p239k-09"
+      ],
+      "evidenceCoverage": {
+        "documentIds": [
+          "DOC-P239K-FRUS-28"
+        ],
+        "source": "US FRUS originals and AKS only for Lee Hu-rak"
+      },
+      "openLeads": [
+        "LEAD-P239K-09"
+      ],
+      "historyDebt": [],
+      "researchOverlay": "data/politicians/pass-239k-1955-actors.json",
+      "identityCaveat": "No automatic merge; verify Korean roster and appointment"
+    },
+    {
+      "id": "cand-p239k-lee-finance",
+      "name": "이(성명미확정) 재무부장관",
+      "aliases": [
+        "Lee"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "not reverified"
+      },
+      "roles": [
+        "1955 3월 재무부장관 성만 확인"
+      ],
+      "researchStatus": "DISCOVERED",
+      "backbone": false,
+      "connections": [
+        "evt-p239k-09"
+      ],
+      "evidenceCoverage": {
+        "documentIds": [
+          "DOC-P239K-FRUS-28"
+        ],
+        "source": "US FRUS originals and AKS only for Lee Hu-rak"
+      },
+      "openLeads": [
+        "LEAD-P239K-10"
+      ],
+      "historyDebt": [],
+      "researchOverlay": "data/politicians/pass-239k-1955-actors.json",
+      "identityCaveat": "No automatic merge; verify Korean roster and appointment"
+    },
+    {
+      "id": "cand-p239k-minister-han",
+      "name": "한(성명미확정) 대표",
+      "aliases": [
+        "Minister Han"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "not reverified"
+      },
+      "roles": [
+        "1955 6월 한국대표단 회의 사회"
+      ],
+      "researchStatus": "DISCOVERED",
+      "backbone": false,
+      "connections": [
+        "evt-p239k-15"
+      ],
+      "evidenceCoverage": {
+        "documentIds": [
+          "DOC-P239K-FRUS-60"
+        ],
+        "source": "US FRUS originals and AKS only for Lee Hu-rak"
+      },
+      "openLeads": [
+        "LEAD-P239K-11"
+      ],
+      "historyDebt": [],
+      "researchOverlay": "data/politicians/pass-239k-1955-actors.json",
+      "identityCaveat": "No automatic merge; verify Korean roster and appointment"
     }
   ],
   "recentResearchPass232": {
@@ -5553,5 +5727,17 @@
       "data/evidence/cho-chung-whan.json",
       "data/evidence/pyun-yong-tae.json"
     ]
+  },
+  "recentResearchPass239K": {
+    "date": "2026-10-29",
+    "actorOverlay": "data/politicians/pass-239k-1955-actors.json",
+    "newCandidateIds": [
+      "cand-p239k-lee-hu-rak",
+      "cand-p239k-kim-yong-chan",
+      "cand-p239k-kang-commerce",
+      "cand-p239k-lee-finance",
+      "cand-p239k-minister-han"
+    ],
+    "promotion": "pol-sohn-won-yil"
   }
 }

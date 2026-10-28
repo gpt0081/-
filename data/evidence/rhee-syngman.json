@@ -480,6 +480,24 @@
       "publisher": "UN Treaty Collection official metadata",
       "url": "https://treaties.un.org/Pages/showDetails.aspx?objid=0800000280146bb3",
       "grade": "A; official metadata only, not signed original"
+    },
+    "S1955-P239K-NSC170": {
+      "title": "1955-02-18 NSC170/1 Annex A conditional revision",
+      "publisher": "US State Department FRUS d21",
+      "url": "https://history.state.gov/historicaldocuments/frus1955-57v23p2/d21",
+      "grade": "A; US policy approval, not executed coup"
+    },
+    "S1955-P239K-STASSEN": {
+      "title": "1955-03-07~08 Stassen Rhee economic talks",
+      "publisher": "US State Department FRUS d28",
+      "url": "https://history.state.gov/historicaldocuments/frus1955-57v23p2/d28",
+      "grade": "A; contemporaneous US account, Korean original pending"
+    },
+    "S1955-P239K-ENVOYS": {
+      "title": "1955-06-01 Rhee instructions to envoys summarized",
+      "publisher": "US State Department FRUS d55",
+      "url": "https://history.state.gov/historicaldocuments/frus1955-57v23p2/d55",
+      "grade": "B; US summary of unavailable Korean originals"
     }
   },
   "chronology": [
@@ -1343,6 +1361,52 @@
         "S1954-P239J-UNTS-3363"
       ],
       "confidence": "official_conflicted_date_context"
+    },
+    {
+      "id": "rhee-p239k-1955-02-18-us-contingency",
+      "date": "1955-02-18",
+      "phase": "전후 국정운영",
+      "kind": "foreign-policy",
+      "topic": [
+        "안보",
+        "헌정"
+      ],
+      "summary": "미국 NSC의 조건부 새 한국 지도부 지원 정책 승인. 이승만 직접명령이나 실제 교체작전 실행으로 해석하지 않음.",
+      "sourceIds": [
+        "S1955-P239K-NSC170"
+      ],
+      "confidence": "verified_us_policy_only"
+    },
+    {
+      "id": "rhee-p239k-1955-03-07-stassen",
+      "date": "1955-03-07",
+      "phase": "전후 국정운영",
+      "kind": "economic-diplomacy",
+      "topic": [
+        "재정",
+        "외교"
+      ],
+      "summary": "Stassen 회담에서 공매 지속·백두진 항의서 철회가 미측 보고에 기록됨. 한국측 회의록·이행 확인 필요.",
+      "sourceIds": [
+        "S1955-P239K-STASSEN"
+      ],
+      "confidence": "contemporaneous_us_report"
+    },
+    {
+      "id": "rhee-p239k-1955-06-01-envoys",
+      "date": "1955-06-01",
+      "phase": "전후 국정운영",
+      "kind": "diplomacy",
+      "topic": [
+        "외교",
+        "안보",
+        "통화"
+      ],
+      "summary": "미 외교문서는 양유찬 및 주일 김 공사에게 내린 군사원조·환율 관련 지시를 요약. 한국측 원지시 미확보.",
+      "sourceIds": [
+        "S1955-P239K-ENVOYS"
+      ],
+      "confidence": "reported_not_original"
     }
   ],
   "comparisonCandidates": [
@@ -1731,5 +1795,23 @@
     "event_graph": "data/events/pass-239j-1954-1955-actions.json",
     "claim_graph": "data/claims/pass-239j-treaty-aid-currency-adversarial.json",
     "uncertainty": "No presidential original order proving NNSC violence or executed coup"
+  },
+  "recentResearchPass239K": {
+    "date": "2026-10-29",
+    "documents": [
+      "S1955-P239K-NSC170",
+      "S1955-P239K-STASSEN",
+      "S1955-P239K-ENVOYS"
+    ],
+    "chronology": [
+      "rhee-p239k-1955-02-18-us-contingency",
+      "rhee-p239k-1955-03-07-stassen",
+      "rhee-p239k-1955-06-01-envoys"
+    ],
+    "eventGraph": "data/events/pass-239k-1955-first-half.json",
+    "relatedActorEvidence": [
+      "data/evidence/sohn-won-yil.json",
+      "data/evidence/lee-hu-rak.json"
+    ]
   }
 }
