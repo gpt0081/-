@@ -4,7 +4,7 @@
   "activeBranch": "main",
   "branchHead": "moving-ref:refs/heads/main",
   "baseMain": "0bae0fd2c2ce592e6699095fbe4593d07e9b778e",
-  "status": "MAIN_RESEARCH_COMMITTED_PASS234; PREVIOUS_RUN89_REVIEW_BRANCH_STILL_PENDING",
+  "status": "PASS234B_50_DOCS_INTEGRATED",
   "summary": {
     "pass229DocumentsOpened": 105,
     "pass229PrimaryOrContemporary": 93,
@@ -56,28 +56,48 @@
     "pass233NewLeads": 85,
     "pass233StrictTripleProvenance": 3
   },
-  "nextAction": "pass234: 1952-12-01 가마니 융자 287억/387억 원속기록, 4286년 예산안 200억 내부 차이, 1953-02-09 NSC 118 8700만달러 결정과 한국은행 정산원장 확인. pass233 UN A/2187·UNKRA 집행 미해결 계속.",
+  "nextAction": "봉암도 FRUS d364 FE files lot 55 D 128의 사망82/85 차이, 백두진 1952-11-13 달러교환 원공한·4580억원 56% 한국은행 원장, 국회 가마니 287/387억원 원속기록, 4286년 예산안 200억원 산술 충돌 원표 추적.",
   "mainDataModified": true,
   "latestRun": {
     "pass": 234,
     "date": "2026-10-28",
     "ledger": "data/research/runs/pass-234-execution-ledger.json",
-    "leadQueue": "data/research/leads/pass-234-20261028-next-lead-queue.json",
-    "documentRegistry": "data/documents/pass-234-1952-dec-state-finance.json",
-    "eventRegistry": "data/events/pass-234-1952-dec-state-finance.json",
-    "claimRegistry": "data/claims/pass-234-1952-dec-state-finance.json",
-    "actorOverlay": "data/politicians/pass-234-1952-dec-legislative-actors.json",
-    "annals": "data/annals/1952-dec-state-finance-education-relief.md",
+    "leadQueues": [
+      "data/research/leads/pass-234-20261028-next-lead-queue.json",
+      "data/research/leads/pass-234-addendum-20261028-next-lead-queue.json"
+    ],
+    "documentRegistries": [
+      "data/documents/pass-234-1952-dec-state-finance.json",
+      "data/documents/pass-234-addendum-1952-dec-11-15.json"
+    ],
+    "eventRegistries": [
+      "data/events/pass-234-1952-dec-state-finance.json",
+      "data/events/pass-234-addendum-1952-dec-11-15.json"
+    ],
+    "claimRegistries": [
+      "data/claims/pass-234-1952-dec-state-finance.json",
+      "data/claims/pass-234-addendum-1952-dec-11-15.json"
+    ],
+    "actorOverlays": [
+      "data/politicians/pass-234-1952-dec-legislative-actors.json",
+      "data/politicians/pass-234-addendum-1952-dec-actors.json"
+    ],
+    "annals": [
+      "data/annals/1952-dec-state-finance-education-relief.md",
+      "data/annals/1952-dec-11-15-state-operations-adversarial.md"
+    ],
     "metrics": {
-      "documents_directly_opened": 20,
-      "primary_or_contemporary": 20,
-      "non_presidential_candidates": 5,
-      "event_actions": 14,
-      "claims": 17,
-      "leads": 34,
+      "documents_directly_opened": 50,
+      "primary_or_contemporary": 49,
+      "official_later_editorial": 1,
+      "new_nonpresidential_candidates": 6,
+      "existing_nonpresidential_deepened": 5,
+      "event_actions": 41,
+      "claims_tested": 37,
+      "new_specific_leads": 75,
       "prior_leads_tracked": 8,
-      "independent_lines": 13,
-      "domains": 9
+      "independent_research_lines_conservative": 29,
+      "governance_domains": 14
     },
     "weeklyDebtFullReview": false
   },
@@ -253,5 +273,13 @@
     "data/research/rhee-syngman-coverage.json",
     "data/politicians/INDEX.md",
     "data/research/ACTIVE_RESEARCH_HANDOFF.json"
+  ],
+  "pass234AddendumFiles": [
+    "data/politicians/pass-234-addendum-1952-dec-actors.json",
+    "data/events/pass-234-addendum-1952-dec-11-15.json",
+    "data/documents/pass-234-addendum-1952-dec-11-15.json",
+    "data/claims/pass-234-addendum-1952-dec-11-15.json",
+    "data/research/leads/pass-234-addendum-20261028-next-lead-queue.json",
+    "data/annals/1952-dec-11-15-state-operations-adversarial.md"
   ]
 }
