@@ -456,3 +456,16 @@
 - 다음: ICRC Archives B G 17 (172) 1950-06-26 권고 전문, 1950-07-03 서명 원지면, 1966 대한민국 조약가입 관보·비준서.
 
 > 2026-10-28 수요일 개별 부채 보강. 역사부채 주간 전수조사 미실시, last_full_review 불변.
+
+
+### HD-MINISTRY-1952-1955-ESTABLISHMENT · 백두진 부흥부 신설계획과 1955 법적 설치
+- 상태: `NARROWED` (2026-10-28 pass234D). 1952-12-12 백두진의 부흥부 신설 발표는 추진·협의 중인 계획이었고 국회 과거 비토도 언급. 국가기록원과 AKS는 기획처→부흥부 개편을 1955-02로 기록. 국가법령정보센터 공식 색인에서 정부조직법 법률 제354호 1955-02-07 전부개정 확인. 1952 설치 완료설은 반증되었지만 1952~55 국회 법안의 정확한 연속성·최초 제출일 미확보.
+- 출처: https://db.history.go.kr/contemp/level.do?levelId=dh_027_1952_12_12_0040 ; https://theme.archives.go.kr/next/economicDevelopment/reconstruction.do?page=4 ; https://encykorea.aks.ac.kr/Article/E0024623 ; https://www.law.go.kr/lsInfoP.do?lsiSeq=5753&ancYd=19550207&ancNo=00354&efYd=19550207&nwJoYnInfo=N&efGubun=Y&chrClsCd=010202&ancYnChk=0
+- 다음: 1955-02-07 법률354호 원개정문·관보, 1952 부흥부 신설 국회 부결안·기획처 조직개편 원안.
+
+### HD-1952-1953-CIVIL-SALARY-GRAIN · 1952 전시수당 결정과 1953 이승만 양곡임금 담화
+- 상태: `OPEN` (2026-10-28 pass234D). 1952-12-15 대구매일은 공무원 기본급 두배 임시수당·양곡 7승2합을 보도. 1953-09-08 대통령기록관 이승만 원담화는 공무원 생활비 부족·현금인상 인플레 우려·양곡급여를 설명. 동일한 제도·지급원장으로 확정하지 않음.
+- 출처: https://db.history.go.kr/contemp/level.do?levelId=dh_027_1952_12_15_0070 ; https://dams.pa.go.kr/dams/DOCUMENT/2009/11/26/DOC/SRC/0104200911264038900040389012356.PDF
+- 다음: 총무처 1952-12~1953-09 공무원 수당·양곡 지급대장, 대통령 1953-09-08 담화 원이미지 OCR 교정.
+
+> 2026-10-28 수요일 개별 부채 보강. 역사부채 주간 전수조사 미실시, last_full_review 불변.
