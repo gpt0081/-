@@ -30,13 +30,13 @@
     "지방행정",
     "선거제도"
   ],
-  "nonpresidential_actor_overlays": 16,
+  "nonpresidential_actor_overlays": 20,
   "new_politician_candidate_ids": 10,
   "events_or_subevents": 45,
   "adversarial_claim_checks": 29,
   "tracked_prior_leads": 9,
-  "prior_leads_narrowed": 6,
-  "new_leads": 72,
+  "prior_leads_narrowed": 3,
+  "new_leads": 67,
   "provenance_comparison_bundles": 5,
   "strict_three_independent_primary_family_confirmations": 0,
   "weekly_full_review": "역사부채 주간 전수조사 미실시",
@@ -82,5 +82,21 @@
   "original_law_full_text_opened": 0,
   "gao_jan8_presentation_reverified_from_FRUS_d265_footnote": true,
   "gao_original_report_opened": false,
-  "correction_history_reopened": true
+  "correction_history_reopened": true,
+  "same_run_leads_narrowed": 3,
+  "count_audit": {
+    "date": "2026-10-29",
+    "previous": {
+      "new_leads": 72,
+      "prior_leads_narrowed": 6,
+      "nonpresidential_actor_overlays": 16
+    },
+    "corrected": {
+      "new_leads": 67,
+      "prior_leads_narrowed": 3,
+      "same_run_leads_narrowed": 3,
+      "nonpresidential_actor_overlays": 20
+    },
+    "method": "Count unique lead IDs from active_leads+backlog, distinguish 9 tracked P243 leads from newly created P244 leads, and actor overlays 16+4."
+  }
 }
