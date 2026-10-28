@@ -93,3 +93,6 @@
 
 ## pass247b (2026-10-29)
 - `data/events/pass-247b-succession-economic-administration.json`: 헌정승계·1952 인구통계·1955/56 국무회의 유시·1952 경제부흥계획.
+
+## pass247c (2026-10-29)
+- `data/events/pass-247c-june1960-legislative-and-social.json`: 1960 개헌·추경·농촌여론 사건11개.

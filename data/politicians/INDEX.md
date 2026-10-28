@@ -179,3 +179,6 @@
 
 ## pass247b (2026-10-29)
 - `data/politicians/pass-247b-succession-and-administration.json`: 백낙준 신규·곽상훈 권한대행 이력 NARROWED.
+
+## pass247c (2026-10-29)
+- `data/politicians/pass-247c-june1960-original-actors.json`: 신규5명·기존 원전 심화.

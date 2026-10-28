@@ -143,3 +143,6 @@
 
 ## pass247b (2026-10-29)
 - `data/documents/pass-247b-succession-and-administration.json`: 1960 미국대사관 원전·국가기록원 국무회의·1952 인구/경제·AKS 곽상훈/백낙준.
+
+## pass247c (2026-10-29)
+- `data/documents/pass-247c-june1960-original-diplomacy.json`: 1960 미대사관·USIS 원전8건.
