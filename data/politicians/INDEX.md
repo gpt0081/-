@@ -150,3 +150,12 @@
 ### pass242 (2026-10-29): 1957 감군·재정·평시 국정
 - `data/politicians/pass-242-1957-actors.json`: 김정렬(1957 국방장관, 金貞烈, Kim Chung-yul), 유재흥, 백선엽, 조정환, 장면, 김현철, 양유찬, 윤길중, 조봉암, 송인상, 이한빈, 정재설, 손창환, 이기붕, 조병옥, 장택상 등 16명 연구 심화.
 - 김정렬(1957)과 기존 잠정 1954 Kim Chong-yol 후보는 동일인 검증 원문 확보 전까지 silent merge하지 않는다. 인물 점수·선악판정 없음.
+
+
+### pass243 (2026-10-29): 1958 감군·선거·신국가보안법·지방행정
+- 원작성 미국 외교·군사·NSC 문서 50건: `data/documents/pass-243-1958-statecraft.json`. 이 50건은 미국 FRUS 단일 provenance 계열이며 facsimile 미확인.
+- 한국 동시대 조선일보 1958-12-25 기사 전사, 국사편찬위원회 선거결과, 국가기록원 AA0002161 색인, 대법원 1959·2010 결정, AKS 후대 해제: 위 문서 registry에 별도 provenance 분리.
+- 정치인 14명 overlay: `data/politicians/pass-243-1958-actor-evidence.json` (1차 원문 직접 이름 확인 9명, 2차 해제 확인 3명, 문서상 익명 각료 추정 2명은 미확정 후보로 격하). 기존 stable ID 유지.
+- 사건/하위사건 18개: `data/events/pass-243-1958-statecraft.json` (기존 1958-12-24 상위 사건과 교차연결).
+- 상충 명제·반증 17개: `data/claims/pass-243-1958-adversarial.json`. 1958 선거 FRUS d222 편집주석 137석·90.6%와 국편 126석·87.8% 충돌; 조봉암 1/13 체포는 2010 대법원 결정의 국가기록원 형사사건기록 인용으로 강하게 좁힘.
+- 후속 원문 표적 48건: `data/research/leads/pass-243-1958-next.json`. 독립 3계열 원문 확증은 0, 미해결은 역사부채로 보존.
