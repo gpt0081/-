@@ -8814,7 +8814,7 @@
         "1957~1959 서울특별시장·한일회담 대표",
         "1960-04 외무부장관·대통령권한대행"
       ],
-      "researchStatus": "IDENTIFIED",
+      "researchStatus": "ANNALS_ACTIVE",
       "backbone": false,
       "connections": [
         "evt-p244-1960-0426-four-points",
@@ -8823,9 +8823,29 @@
         "evt-p244b-1960-0615-constitutional-amendment",
         "evt-p244b-1960-0620-huh-eisenhower"
       ],
-      "evidenceCoverage": "pass244 primary-text role evidence, original Korean appointment/identity pending",
+      "evidenceCoverage": "Separate politician annals + evidence 2026-10-29; 7 referenced sources, primary/secondary clearly separated.",
       "openLeadsFile": "data/research/leads/pass-244-1959-1960-next.json",
-      "researchNote": "AKS biography plus FRUS d309/d312"
+      "researchNote": "AKS biography plus FRUS d309/d312",
+      "annalsFile": "data/annals/huh-chung.md",
+      "evidenceFile": "data/evidence/huh-chung.json",
+      "researchPromotionHistory": [
+        {
+          "date": "2026-10-29",
+          "from": "IDENTIFIED",
+          "to": "ANNALS_ACTIVE",
+          "reason": "독립운동·지방행정·입법·중앙행정·권한대행·외교의 다중 시기/기관 연결과 최소 3개 동시대 원작성 문서의 행위가 확인됨.",
+          "evidence_ids": [
+            "DOC-P244-AKS-HUH",
+            "DOC-P244-FRUS-309",
+            "DOC-P244-FRUS-312",
+            "DOC-P244-FRUS-317",
+            "DOC-P244-FRUS-319",
+            "DOC-P244-FRUS-322",
+            "DOC-P244-FRUS-323"
+          ],
+          "limitations": "birth/death vital originals and some Korean administrative originals pending"
+        }
+      ]
     },
     {
       "id": "cand-p244-chu-yo-han",
@@ -8845,15 +8865,31 @@
         "1959-05-09 민주당 협상 전략에 관한 미국 외교관 대화",
         "1960 부흥부·상공부 장관(정확한 임명 원관보 미확인)"
       ],
-      "researchStatus": "IDENTIFIED",
+      "researchStatus": "ANNALS_ACTIVE",
       "backbone": false,
       "connections": [
         "evt-p244-1959-0511-party-talks",
         "evt-p244b-1960-0820-chang-economic-agenda"
       ],
-      "evidenceCoverage": "pass244 primary-text role evidence, original Korean appointment/identity pending",
+      "evidenceCoverage": "Separate politician annals + evidence 2026-10-29; 3 referenced sources, primary/secondary clearly separated.",
       "openLeadsFile": "data/research/leads/pass-244-1959-1960-next.json",
-      "researchNote": "FRUS d272 and LTI Korea author authority"
+      "researchNote": "FRUS d272 and LTI Korea author authority",
+      "annalsFile": "data/annals/chu-yo-han.md",
+      "evidenceFile": "data/evidence/chu-yo-han.json",
+      "researchPromotionHistory": [
+        {
+          "date": "2026-10-29",
+          "from": "IDENTIFIED",
+          "to": "ANNALS_ACTIVE",
+          "reason": "1959 입법·정당협상과 1960 경제행정이라는 서로 다른 직무 단계가 독립된 동시대 FRUS 원작성 기록에 연결됨.",
+          "evidence_ids": [
+            "DOC-P244-LTI-CHU",
+            "DOC-P244-FRUS-272",
+            "DOC-P244-FRUS-330"
+          ],
+          "limitations": "birth/death vital originals and some Korean administrative originals pending"
+        }
+      ]
     },
     {
       "id": "cand-p244-chong-un-gap",
