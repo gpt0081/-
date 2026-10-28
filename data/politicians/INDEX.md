@@ -81,3 +81,8 @@
 - 2026-10-28 pass236G: 이승만서한철 1953-03-18~04-02 서지 30건, 교육·원조·한미재단·언론·대일외교 actor graph: `data/documents/pass-236g-march-april-correspondence-catalog.json`, `data/events/pass-236g-correspondence-actions.json`, `data/annals/1953-late-march-april-correspondence.md`. 원문이미지 미열람, 전문 수에 불산입.
 
 - 2026-10-28 pass236H: 이승만서한철 1953-04-02~17 서지30건, UNKRA 대표권·Tasca 임명·신태영 국방장관 8240/8242부대·변영태 포로서한의 기관별 책임 분리: `data/documents/pass-236h-april-correspondence-catalog.json`, `data/events/pass-236h-april-actions.json`, `data/annals/1953-april-aid-military-correspondence.md`. 원문이미지 미열람.
+
+## Pass237 1953-04~05 원문 추적 (2026-10-28)
+- 한국 정치인 변영태·양유찬의 1953-04-16 포로교환 참관협의 및 4/24 안보면담 원문 기반 심화: `data/politicians/pass-237-actor-overlays.json`.
+- 이승만 4/30 Clark 친서 8조건, 한국 국회 6인 참관결의(미군 보고), 미국 EVERREADY 계획(실행 미확인)을 `data/events/pass-237-armistice-actions.json`, `data/claims/pass-237-adversarial.json`, `data/documents/pass-237-frus-april-may.json`로 연결.
+- `data/annals/1953-april-may-armistice-command.md`, `data/research/debt/pass-237-targeted-debt-review.json`, `data/research/coverage/pass-237-coverage-overlay.json` 및 34개 문서특정 후속 lead 참조. 원문전사 47건, 원본이미지 0건, 엄격 3계열 교차확증 0건.
