@@ -699,3 +699,17 @@
 - **HD-P239-SCHOOL-EXAM** [OPEN]: 6/1 ministry proposal/central committee approval to abolish middle-school common entrance exam next year is not proof of implemented rule.
 - **HD-P239-SMALLPOX** [OPEN]: 6/1 Gyeongbuk 719 cases (Yeongju 117, Daegu 50) press figure, official morbidity and vaccination registers not yet acquired.
 - Targeted prior lead tracking: data/research/debt/pass-239-targeted-review.json (11). 35 specific new original targets queued. **역사부채 주간 전수조사 미실시**. last_full_review unchanged.
+
+## Pass239B follow-up corrections and unresolved originals (2026-10-28)
+- **HD-P239B-FX-NEGATION** [CONFLICTED]: 대통령기록관 1953-06-05 연설 ID 1310827은 180:1은 '공정환율이 아니요'라고 말한다. 민주신보 6월8일 전사(국편 dh_029_1953_06_05_0040)는 '공정환율인 것이며'라고 정반대로 기록. 원 신문 지면 이미지 및 공보처 원본 PDF로 오류 발생 층위를 판정할 것.
+- **HD-P239B-CHOI-PRESIDENT-ORDER** [CONFLICTED]: 최덕신 1953-06-01 대통령 보고(국편 dh_029_1953_06_03_0010)는 무승인 기자회견을 스스로 책임지겠다고 설명. 이승만 6월7일 담화(대통령기록관 ID1310745)는 자신이 계속 참석을 명령했으나 최덕신이 불복했다고 주장. 언론 발표 승인과 협상 참석 명령은 다른 행위; 군법재판 여부 미확인.
+- **HD-P239B-INHA-DONATION** [CONFLICTED]: 이승만 6월4일 인하대학 설립담화(대통령기록관 ID1310825) 민간 모금 310만1400원 vs 6월6일 서울신문(국편 dh_029_1953_06_06_0040) 31만1400원. 회계원장 확보 전 숫자 확정 금지.
+- **HD-P239B-LABOR-LAW-CHRONOLOGY** [NARROWED]: 법률 제292호 1953-06-03 공포, 1953-07-04 시행(법제처). 대통령기록관 법안철 1A00614174532011은 1953-05-07 국회 수정가결·5월15일 신익희 이송·5월26일 국무회의 의결. 1951-05-30 대통령의 제2국민병 폐해 우려 재고지시도 별도 기록. 1951-04-31이라는 불가능 날짜는 카탈로그 오기 의심, 원기록 확인.
+- **HD-P239B-UNKRA-ACCOUNT** [OPEN]: 변영태의 UNKRA 전년도 관리비16% 주장은 6월4일 서한의 당사자 주장. 금년도 500만/6000만=8.33% 산술은 맞으나, 4400호 주택자재 287만8000달러의 40% 현지 부담 및 국제시장 102만5000달러 전용 여부는 UNKRA 원협정 필요.
+- **HD-P239B-SCHOOL-LUNCH** [NARROWED]: 1953-06-03 결식아동 급식 지역별 합계 300000명, 유상4500석+무상4500석=9000석, 서울 9240명/277석은 배분비율과 일관. 다만 수령·취사·실제 급식기록 미확보.
+- **HD-P239B-LAND-BOND-PROBE** [OPEN]: 1953-06-02 지가증권 위조 피의자 김재열 수사와 정당 정치자금 유입 의혹은 동아일보 보도만으로 유죄·정당 수수 확정 불가. 검찰기록·판결 원문 필요.
+- **HD-P239B-HAENYEO-PETITION** [OPEN]: 제주 해녀 55명 수산물법안 독립어업자 인정 청원(6월5일 보도)과 최종 법률 조문·국회 심의표결 구분.
+- **HD-P239B-ASSET-AUCTION** [CONFLICTED]: 경성궤도 공매연기 종업원 항의(6월4일) vs 관재청장 유완창의 관리부실·사무사정 해명(6월6일). 사유 확정·비리 단정 금지.
+- **HD-P239B-TRIPITAKA-FUNDING** [OPEN]: 1953-06-06 장경각 누수 13곳·보수 예산 구화 1억3000만 요구·60억 신청/5억 사정 등은 서로 다른 사업·통화 범주일 수 있다. 국보 보수 원예산·공사계약 필요.
+- **Correction ledger**: Pass239 initial lead count was **37**, not 35 as stated in earlier narrative; Pass239B adds **40**, cumulative **77**. This correction is appended, not silently overwritten.
+- **역사부채 주간 전수조사 미실시**; Wednesday, last_full_review unchanged.

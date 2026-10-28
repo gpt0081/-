@@ -5,24 +5,27 @@
   "base_commit": "ab4d3b4296d8d3ad35e402419997f3b56c45564a",
   "first_commit": "71344b158262db26d5612484397e3958778f81b5",
   "metrics": {
-    "directly_opened_unique_web_pages": 67,
-    "unique_original_origin_documents": 61,
-    "original_origin_or_contemporary": 61,
-    "official_original_origin": 26,
-    "contemporary_korean_press": 35,
+    "directly_opened_unique_web_pages": 114,
+    "unique_original_origin_documents": 102,
+    "original_origin_or_contemporary": 102,
+    "official_original_origin": 32,
+    "contemporary_korean_press": 70,
     "facsimile_opened": 0,
-    "frus_duplicate_nikh_derivatives_excluded": 6,
-    "independent_research_lines": 27,
-    "governance_domains": 15,
-    "nonpresidential_nodes_deepened": 10,
+    "frus_duplicate_nikh_derivatives_excluded": 9,
+    "independent_research_lines": 55,
+    "governance_domains": 21,
+    "nonpresidential_nodes_deepened": 13,
     "new_nonpresidential_candidates": 6,
-    "nonpresidential_nodes_touched": 16,
-    "events_added": 23,
-    "adversarial_claims": 14,
+    "nonpresidential_nodes_touched": 20,
+    "events_added": 55,
+    "adversarial_claims": 31,
     "prior_leads_tracked": 11,
-    "new_concrete_leads": 37,
-    "contextual_multi_provenance_bundles": 3,
-    "strict_three_independent_same_claim_confirmations": 0
+    "new_concrete_leads": 77,
+    "contextual_multi_provenance_bundles": 5,
+    "strict_three_independent_same_claim_confirmations": 0,
+    "new_nonpresidential_verified_promotions": 1,
+    "archival_descriptions_read_not_counted_as_full_originals": 2,
+    "secondary_biography_read_not_counted": 1
   },
   "independent_research_lines": [
     "1953-05-26 국회 면담대표 선출",
@@ -51,7 +54,35 @@
     "1953-06-01 군경원호",
     "1953-06-01 여름철 행정시간",
     "1953-06-03 미군·경제원조 조건",
-    "1953-06-05 조약 정식제안 보류"
+    "1953-06-05 조약 정식제안 보류",
+    "전시근로동원법 1951~1953 입법사슬",
+    "최덕신 6월1일 무승인 기자회견 보고",
+    "대통령 환율담화 부정어 누락",
+    "인하대학 공학교육 설립·모금",
+    "UNKRA 운영비 16% 주장·8.33% 계획",
+    "사회부 UNKRA 주택원조 전용 논쟁",
+    "30만 결식아동 급식 지역별 배분",
+    "농가 가마니 강제저축 책임 공방",
+    "지가증권 위조 혐의와 정치자금 미확정",
+    "외자관리청 운송 수의계약 추진",
+    "보건부 의약품 5개년 자급계획",
+    "청계천변 상가 건축 불허",
+    "경남 이순신 동상 고증",
+    "국회 계류의안·출석률",
+    "금융통화위원회 제130차",
+    "유엔군 대여금 680만달러 상환",
+    "정부 구호양곡 실효가격",
+    "경성궤도 귀속재산 공매연기",
+    "부산역 암표·위조승차권",
+    "자유당 당원6명 제명",
+    "제주 해녀 수산물법 청원",
+    "농사보급회 160명 농협 연계 거부",
+    "문화인 등록 0건",
+    "팔만대장경 장경각 보수",
+    "유완창 관재청 귀속재산 불하",
+    "유엔 참전17국 전후 정치협상",
+    "정부 금은 자율매상·광산개발",
+    "UNKRA 농촌 5개 재건계획"
   ],
   "contextual_crossprovenance": [
     {
@@ -169,5 +200,50 @@
   "time_note": "No wall-clock 1-hour execution claim; tool time not independently measured.",
   "weekly_full_debt_review": false,
   "weekly_full_debt_note": "역사부채 주간 전수조사 미실시",
-  "floot_modified": false
+  "floot_modified": false,
+  "subpasses": [
+    {
+      "name": "239A",
+      "documents": 61,
+      "events": 23,
+      "claims": 14,
+      "leads": 37,
+      "commit": "71344b158262db26d5612484397e3958778f81b5"
+    },
+    {
+      "name": "239A-ledger",
+      "commit": "86db14d082fffa5bb516b6d3bab2b52a6b371085"
+    },
+    {
+      "name": "239B",
+      "documents": 41,
+      "events": 30,
+      "claims": 17,
+      "leads": 40,
+      "commit": "d052930f377803dd665f3ce6352fa04ce87f552b"
+    }
+  ],
+  "corrections": [
+    {
+      "date": "2026-10-28",
+      "old": "35 new leads",
+      "new": "37 initial leads +40 additional=77",
+      "reason": "Counted actual JSON array rather than summary prose"
+    },
+    {
+      "date": "2026-10-28",
+      "old": "DOC-P239B-NIKH-06_01_0060",
+      "new": "DOC-P239-NIKH-06_01_0060",
+      "reason": "Fixed fiscal-year claim broken document reference"
+    }
+  ],
+  "high_value_findings": [
+    "Official Rhee June5 exchange-rate speech explicitly negates 180:1 fair rate, whereas contemporary newspaper omits negation and reverses policy",
+    "Rhee June7 publicly claimed Choi disobeyed order to keep attending; Choi June1 own letter acknowledges unauthorized press conference, separate action chains",
+    "Official War Labor Mobilization Law no.292 promulgated June3, effective July4; implementing decree 805 promulgated July12",
+    "Rhee June4 Inha founding speech official archive donation 3,101,400 won vs newspaper 311,400 won",
+    "June3 300000 school meals planned allocation arithmetically consistent, not evidence of actual deliveries",
+    "Yu Wan-chang independently corroborated and activated as standalone nonpresidential politician annals"
+  ],
+  "wallClockClaim": "Not independently measured; do not assert one-hour elapsed"
 }
