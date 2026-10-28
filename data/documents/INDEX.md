@@ -134,3 +134,6 @@
 - `data/documents/pass-244d-constitutional-sources.json` (pass244g; 2026-10-29)
 
 - `data/documents/pass-244e-senate-election-law-metadata.json` (pass244h; law469/502/551 metadata)
+
+## pass246 (2026-10-29)
+- data/documents/pass-246-1956-1960-law-and-identity.json : 관보 법률385·388·470·공고91·548·551·552·557·563, 민주화운동기념사업회 6/15 신문인용일지, 국편 3/15 선거표. 기존 DOC-P245-GAZ-05(469), DOC-P245-GAZ-09(헌법4호), DOC-P245-NA-08(국회37차)는 중복 생성하지 않고 재사용. 같은 관보 URL에 서로 다른 법률469·470이 포함될 수 있음.

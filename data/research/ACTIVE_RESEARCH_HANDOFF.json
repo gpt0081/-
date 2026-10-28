@@ -4,11 +4,11 @@
   "activeBranch": "main",
   "branchHead": "moving-ref:refs/heads/main",
   "baseMain": "0bae0fd2c2ce592e6699095fbe4593d07e9b778e",
-  "status": "PASS242_1957_FORCE_BASELINE_UN_PEACETIME",
-  "summary": "FRUS d216-265 50 opened, 48 contemporaneous, UN resolution 1180 primary text, Korean peacetime chronology; 32 events and 16 actor enrichments, 42 next leads; actual vs authorized troop strengths distinguished.",
-  "nextAction": "Acquire 1958-01 full battalion/warhead receipt and BG0000074 original, Korean defense force roll and parliament originals.",
+  "status": "PASS246_1956_1960_GAZETTE_SUCCESSION_CONFLICTED",
+  "summary": "1956~1960 원관보 법률11개·국회 원속기1개·후대 공식2개 직접 대조. 1960-06-23/07-01 허정 권한대행 공포명의가 곽상훈 즉시승계 FRUS 편집주석과 충돌. 1958 이옹준/이응준·1960 오정수 한자·1960 3/15 투표율 충돌 보존. 정치인 237명·사건 667개, 다음 원문 lead 35개.",
+  "nextAction": "LEAD-P246-01 국회 1960-06-15 제35회37차 기명표 원명부; LEAD-P246-03 법제처 헌법52조 권한대행 해석; LEAD-P246-07 1958 관보1965 원면; LEAD-P246-12 1960 상공부 吳楨洙/吳植洙 원면; LEAD-P246-31 선관위 1960 3·15 원집계",
   "mainDataModified": true,
-  "latestRun": "data/research/runs/pass-242-execution-ledger.json",
+  "latestRun": "data/research/pass-246-execution-report.md",
   "latestCorrections": [
     {
       "run": 93,
@@ -55,7 +55,22 @@
     "pass232: 1952-09-16 governor appointment reports conflict for Lee Yo-han; no forced RESOLVED.",
     "pass232: Jin Heon-sik Hanja 陳憲植 vs 陣憲植 headline variant retained.",
     "pass232: industrial reconstruction bond law 254 and special account law 255 promulgated 1952-09-28, not 1952-09-17; National Assembly consent required under law 254 art2.",
-    "pass232: National Archives retrospective describes first industrial reconstruction bond issue March 1954; original BOK ledger pending."
+    "pass232: National Archives retrospective describes first industrial reconstruction bond issue March 1954; original BOK ledger pending.",
+    {
+      "run": 246,
+      "topic": "1960-06-15 presidential acting succession",
+      "finding": "FRUS 후대 편집주석 곽상훈 즉시승계 vs 6/23·7/1 원관보 허정 권한대행 공포명의 CONFLICTED"
+    },
+    {
+      "run": 246,
+      "topic": "1958-01-25 minister name",
+      "finding": "같은 관보1965 법률469 이옹준 vs 법률470 이응준; 1956 李應俊 원면 대조 필요"
+    },
+    {
+      "run": 246,
+      "topic": "1960 minister Hanja",
+      "finding": "吳楨洙 5/11·6/23 vs 吳植洙 7/1 CONFLICTED"
+    }
   ],
   "parallelPendingReview": {
     "activeBranch": "research/run89-audit-property-oversight",
@@ -421,7 +436,7 @@
     "newPolitician": "pol-cho-chung-whan"
   },
   "latestResearchLedger": "data/research/runs/pass-239l2-execution-ledger.json",
-  "latestLeadQueue": "data/research/leads/pass-239l2-next-queue.json",
+  "latestLeadQueue": "data/research/leads/pass-246-next-originals.json",
   "latestEvidenceSync": [
     "data/evidence/rhee-syngman.json",
     "data/evidence/sohn-won-yil.json",
@@ -452,5 +467,10 @@
     "data/annals/chang-myon.md",
     "data/politicians/INDEX.md"
   ],
-  "latestAddendum": "data/documents/pass-242b-1958-followthrough.json"
+  "latestAddendum": "data/documents/pass-242b-1958-followthrough.json",
+  "latestCommits": [
+    "d95732651087e2e06a30c25f95ca1e4f403c2837",
+    "bc0d733621fcd40604c15029e8fb12a46beeab18",
+    "0000bf94be976fa96cb3d534ea1639790460ef67"
+  ]
 }

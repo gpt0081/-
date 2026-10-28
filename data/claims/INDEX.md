@@ -97,3 +97,6 @@
 - `data/claims/pass-244b-1960-transition-contradictions.json` (pass244; 2026-10-29)
 
 - `data/claims/pass-244d-constitutional-adversarial.json` (pass244g; 2026-10-29)
+
+## pass246 (2026-10-29)
+- data/claims/pass-246-1956-1960-adversarial.json : 12개 claim. 허정/곽상훈 권한대행, 이옹준/이응준, 吳楨洙/吳植洙, 개헌 반대표, 선거권·피선거권, 정부조직법 권한, 3/15 투표율을 반증·불충분·후대 관찰로 분리.
