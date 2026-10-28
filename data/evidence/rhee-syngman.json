@@ -4,7 +4,7 @@
   "name": "이승만",
   "termLabel": "제1~3대",
   "researchStatus": "deep-pass-6",
-  "updatedAt": "2026-09-19",
+  "updatedAt": "2026-10-29",
   "editorialRule": "수집은 공격적으로, 공개는 보수적으로. 사건·발언·제도 변화와 출처를 기록하되 정치적 판정은 하지 않는다.",
   "evidenceGrades": {
     "A": "당사자 원문·법령·판결·대통령기록·당시 공문 등 1차 자료",
@@ -450,6 +450,36 @@
       "publisher": "국사편찬위원회 대한민국사연표",
       "url": "https://db.history.go.kr/id/tcct_1964_11_14_0020",
       "grade": "C"
+    },
+    "S1954-P239J-JUL30-FRUS": {
+      "title": "1954-07-30 ROK-US fourth meeting: Rhee did not initial draft agreed minute",
+      "publisher": "US State Department FRUS original-origin minutes",
+      "url": "https://history.state.gov/historicaldocuments/frus1952-54v15p2/d927",
+      "grade": "A; contemporaneous US official record, Korean original pending"
+    },
+    "S1954-P239J-NOV15-FRUS": {
+      "title": "1954-11-15 Briggs reports Rhee authorized exchange of treaty ratifications and aid minute compromise",
+      "publisher": "US State Department FRUS original-origin telegram",
+      "url": "https://history.state.gov/historicaldocuments/frus1952-54v15p2/d965",
+      "grade": "A; contemporaneous US observation, Korean original pending"
+    },
+    "S1954-P239J-TREATY-34": {
+      "title": "1954-11-18 대한민국과 미합중국간의 상호방위조약 제34호 공포",
+      "publisher": "대한민국 국가법령정보센터 공식 조약원문",
+      "url": "https://law.go.kr/LSW/trtyBInfoP.do?trtySeq=3315",
+      "grade": "A; official Korean treaty promulgation"
+    },
+    "S1954-P239J-MINUTE-1152": {
+      "title": "1954-11-17 한미 합의의사록과 1955-08-12 수정",
+      "publisher": "대한민국 국가법령정보센터 공식 합의의사록",
+      "url": "https://law.go.kr/trtyBInfoP.do?trtySeq=1377",
+      "grade": "A; official Korean bilateral agreement text"
+    },
+    "S1954-P239J-UNTS-3363": {
+      "title": "UN Treaty Collection No.3363 1954-11-17 Washington exchange metadata",
+      "publisher": "UN Treaty Collection official metadata",
+      "url": "https://treaties.un.org/Pages/showDetails.aspx?objid=0800000280146bb3",
+      "grade": "A; official metadata only, not signed original"
     }
   },
   "chronology": [
@@ -1265,6 +1295,54 @@
         "S2011-CHO"
       ],
       "confidence": "verified"
+    },
+    {
+      "id": "rhee-p239j-1954-07-30-draft-not-initialed",
+      "date": "1954-07-30",
+      "phase": "전후 국정운영",
+      "kind": "foreign-policy-negotiation",
+      "topic": [
+        "외교",
+        "국방",
+        "재정"
+      ],
+      "summary": "미국측 회의록은 한국측 참모진의 합의의사록 초안 검토 후에도 이승만이 직접 가조인하지 않았다고 기록한다. 미국측 보고이며 한국측 회의록 원본은 대기.",
+      "sourceIds": [
+        "S1954-P239J-JUL30-FRUS"
+      ],
+      "confidence": "qualified_original_origin"
+    },
+    {
+      "id": "rhee-p239j-1954-11-15-ratification-instruction",
+      "date": "1954-11-15",
+      "phase": "전후 국정운영",
+      "kind": "treaty-ratification-procedure",
+      "topic": [
+        "외교",
+        "헌정"
+      ],
+      "summary": "미국대사 Briggs는 이승만이 워싱턴 비준서 교환 지시와 합의의사록 수정 타협을 수락했다고 보고했다. 실제 한국측 지시 전보 원본은 미확보.",
+      "sourceIds": [
+        "S1954-P239J-NOV15-FRUS"
+      ],
+      "confidence": "qualified_original_origin"
+    },
+    {
+      "id": "rhee-p239j-1954-11-18-korean-promulgation",
+      "date": "1954-11-18",
+      "phase": "전후 국정운영",
+      "kind": "treaty-promulgation",
+      "topic": [
+        "헌정",
+        "외교",
+        "행정"
+      ],
+      "summary": "한국 공식 조약 제34호 공포문에 대통령 이승만과 국무총리겸 외무부장관 변영태·국방부장관 손원일이 표시된다. UNTS 워싱턴 비준서 교환 11/17과 한국 발효표기 11/18을 구별한다.",
+      "sourceIds": [
+        "S1954-P239J-TREATY-34",
+        "S1954-P239J-UNTS-3363"
+      ],
+      "confidence": "official_conflicted_date_context"
     }
   ],
   "comparisonCandidates": [
@@ -1631,5 +1709,27 @@
       "ingestionStatus": "indexed_for_future_full_ingestion",
       "note": "판별 후보뿐 아니라 일관된 정책·일상적 국정 발언까지 포함해 전수 수집할 원천 목록."
     }
-  ]
+  ],
+  "recentResearchPass239J": {
+    "date": "2026-10-29",
+    "documents": [
+      "S1954-P239J-JUL30-FRUS",
+      "S1954-P239J-NOV15-FRUS",
+      "S1954-P239J-TREATY-34",
+      "S1954-P239J-MINUTE-1152",
+      "S1954-P239J-UNTS-3363"
+    ],
+    "chronology": [
+      "rhee-p239j-1954-07-30-draft-not-initialed",
+      "rhee-p239j-1954-11-15-ratification-instruction",
+      "rhee-p239j-1954-11-18-korean-promulgation"
+    ],
+    "related_actor_evidence": [
+      "data/evidence/pyun-yong-tae.json",
+      "data/evidence/cho-chung-whan.json"
+    ],
+    "event_graph": "data/events/pass-239j-1954-1955-actions.json",
+    "claim_graph": "data/claims/pass-239j-treaty-aid-currency-adversarial.json",
+    "uncertainty": "No presidential original order proving NNSC violence or executed coup"
+  }
 }

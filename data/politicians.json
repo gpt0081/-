@@ -785,7 +785,7 @@
         "외무부 장관",
         "국무총리 서리"
       ],
-      "researchStatus": "VERIFIED",
+      "researchStatus": "ANNALS_ACTIVE",
       "backbone": false,
       "connections": [
         "evt-1953-anti-communist-pow-release",
@@ -872,7 +872,23 @@
         ],
         "role_note": "1954-09 PM/FM letter author; 1954-11 Seoul agreed-minute signatory and treaty promulgation minister; not assumed treaty ratification exchange actor",
         "overlay": "data/politicians/pass-239j-1954-diplomacy-economy-actors.json"
-      }
+      },
+      "evidenceFile": "data/evidence/pyun-yong-tae.json",
+      "annalsFile": "data/annals/pyun-yong-tae.md",
+      "promotionHistory": [
+        {
+          "date": "2026-10-29",
+          "from": "VERIFIED",
+          "to": "ANNALS_ACTIVE",
+          "reason": "Signed Korean treaty originals and contemporaneous US diplomatic letter plus independent annals; no claim of all offices/vital dates resolved",
+          "evidenceIds": [
+            "PYUN1954-SEP1",
+            "PYUN1954-NOV17",
+            "PYUN1954-NOV18",
+            "PYUN1954-JUL30"
+          ]
+        }
+      ]
     },
     {
       "id": "pol-lee-beom-seok-1900",
@@ -5310,7 +5326,7 @@
           "verification": "Contemporary British Legation W.G. Graham reply to Cho Chung Whan preserved by Northeast Asian History Foundation"
         }
       ],
-      "researchStatus": "VERIFIED",
+      "researchStatus": "ANNALS_ACTIVE",
       "promotionReason": "1953 acting office in contemporaneous US diplomatic record, 1955-1959 ministerial tenure independently confirmed by Korean MOFA official registry; Hanja and birth/death not promoted",
       "backbone": false,
       "connections": [
@@ -5351,7 +5367,22 @@
         ],
         "role_note": "1954-09-01 vice foreign minister; new dated role complements 1953 acting FM",
         "overlay": "data/politicians/pass-239j-1954-diplomacy-economy-actors.json"
-      }
+      },
+      "evidenceFile": "data/evidence/cho-chung-whan.json",
+      "annalsFile": "data/annals/cho-chung-whan.md",
+      "promotionHistory": [
+        {
+          "date": "2026-10-29",
+          "from": "VERIFIED",
+          "to": "ANNALS_ACTIVE",
+          "reason": "Independent annals plus three distinct provenance families documenting three chronological offices; promotion concerns research activity, not complete vital or appointment verification",
+          "evidenceIds": [
+            "CHO1953-BRITISH",
+            "CHO1954-VICE",
+            "CHO1955-MOFA"
+          ]
+        }
+      ]
     },
     {
       "id": "cand-p239j-1954-choe-sun-chu",
@@ -5516,6 +5547,11 @@
     "actorOverlay": "data/politicians/pass-239j-1954-diplomacy-economy-actors.json",
     "deepened_nonpresident": 10,
     "new_discovered_candidates": 2,
-    "do_not_auto_merge": true
+    "do_not_auto_merge": true,
+    "evidenceFileSync": [
+      "data/evidence/rhee-syngman.json",
+      "data/evidence/cho-chung-whan.json",
+      "data/evidence/pyun-yong-tae.json"
+    ]
   }
 }

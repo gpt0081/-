@@ -16,3 +16,8 @@
 - https://contents.nahf.or.kr/item/level.do?levelId=kj.d_0007_0020_0022
 - https://www.mofa.go.kr/minister/wpge/m_20036/contents.do
 - https://encykorea.aks.ac.kr/Article/E0052594
+
+
+## 2026-10-29 · 1954-09-01 외무차관 조정환과 외교부 역할 변화
+- FRUS XV/2 d934 (Briggs 1954-09-01 서울 전문)은 `Vice Foreign Minister Cho`와 면담한 뒤 국무총리 변영태가 합석했다고 기록한다. 1953 외무장관 대리, 1954 외무차관, 1955 외무장관을 하나의 지속적 직함으로 처리하지 않는다. 이 원문은 성만 표기하므로 한국 인사원부 확인은 OPEN.
+- 독립 증거원장: `data/evidence/cho-chung-whan.json` (영국공사 1953 원문, 미국 FRUS 1954, 한국 외교부 장관명부). 조사성숙도 `VERIFIED → ANNALS_ACTIVE`는 증거원장·실록과 3계열의 시기별 직책 근거가 갖춰졌다는 의미이지 생몰·인사 발령 원본을 모두 확인했다는 의미가 아니다.
