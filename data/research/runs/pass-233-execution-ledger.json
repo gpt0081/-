@@ -8,21 +8,31 @@
   "execution_duration_minutes": null,
   "execution_duration_note": "시계로 1시간 경과를 측정·증명하지 않음. 이용 가능한 조사·검증·커밋 작업을 수행. 기존 pass232에 이어 새 1952년 10~12월 문서군으로 전환. 원문에 직접 등장하지 않는 인물 4명의 사건 귀속 링크를 검토 후 제거; 같은 협상 연속 단계를 독립 연구선으로 중복계산하지 않도록 23개 세부주제를 14개 독립선으로 재집계.",
   "metrics": {
-    "independent_research_lines": 27,
+    "independent_research_lines": 31,
     "general_governance_domains_reinforced": 10,
-    "non_presidential_politician_nodes_deepened": 20,
+    "non_presidential_politician_nodes_deepened": 18,
     "new_candidate_nodes": 10,
-    "new_or_enriched_event_actions": 29,
-    "source_pages_directly_opened_substantive": 69,
-    "primary_or_contemporary_original_origin": 69,
+    "new_or_enriched_event_actions": 34,
+    "source_pages_directly_opened_substantive": 78,
+    "primary_or_contemporary_original_origin": 76,
     "original_facsimile_images": 0,
-    "adversarial_claim_checks": 28,
+    "adversarial_claim_checks": 37,
     "tracked_prior_open_leads": 12,
     "new_specific_leads": 78,
-    "provenance_cross_checks_contextual": 4,
-    "strict_three_independent_primary_families": 0,
+    "provenance_cross_checks_contextual": 5,
+    "strict_three_independent_primary_families": 2,
     "history_debts_resolved": 0,
-    "non_presidential_candidate_catalog_or_context_only": 4
+    "non_presidential_candidate_catalog_or_context_only": 4,
+    "official_retrospective_direct_read": 2,
+    "unique_source_families": [
+      "US FRUS",
+      "UN original report and meeting",
+      "Korean contemporary newspaper",
+      "ROK President correspondence",
+      "Japanese government original note",
+      "US diplomatic note through Japan archive",
+      "UN and ROK retrospective official"
+    ]
   },
   "independent_research_lines": [
     "1952-10-17 UNCURK 정치파동 보고와 한국정부 반론권",
@@ -51,7 +61,11 @@
     "UN군 선박 국산 대체·해운산업",
     "일본인 귀국희망자 인수교섭",
     "1953 정부양곡 수급·농정",
-    "재해농가 구호·공공사업·학비면제"
+    "재해농가 구호·공공사업·학비면제",
+    "1952-11-24 UNKRA 7000만달러 계획 실제 채택 원문",
+    "1952-01~12 한일미 3국 해양주권 외교문서",
+    "1952-10 UNCURK A/2187 국내 보도·UN 연감 대조",
+    "1952-11 UN 제1위원회 524차 회의 소련·페루 주장 원문"
   ],
   "source_counts_by_family": {
     "US_FRUS_edited_originals": 43,
@@ -238,7 +252,11 @@
     "data/events.json",
     "data/research/HISTORY_DEBT.md",
     "data/research/rhee-syngman-coverage.json",
-    "data/politicians/INDEX.md"
+    "data/politicians/INDEX.md",
+    "data/documents/pass-233-followup-un-japan-primary.json",
+    "data/events/pass-233-followup-un-japan-crossprovenance.json",
+    "data/claims/pass-233-followup-un-japan-crossprovenance.json",
+    "data/annals/1952-unkra-uncurk-maritime-three-way.md"
   ],
   "floot_touched": false,
   "correction_history": [
@@ -251,6 +269,16 @@
         "independent research lines 23→14 중복제거",
         "FRUS 직접 심화 비대통령 12→8로 보수적 재계산",
         "new canonical candidate count 4→5"
+      ]
+    },
+    {
+      "date": "2026-10-28",
+      "type": "source_followup",
+      "changes": [
+        "UN 1952-11-24 7000만달러 승인 원문 확보, 기존 심의예정 상태 좁힘",
+        "한일미 3국 외교각서 원문 발췌 교차",
+        "UNCURK A/2187 대체 UN 공식연감과 한국 동시대 신문 확보",
+        "비대통령 중복인물 2명 제거해 unique deepened 18명으로 재집계"
       ]
     }
   ],
@@ -278,5 +306,33 @@
       "국채 세입보충 vs 산업부흥 구분",
       "1953 식량계획 합계 검산"
     ]
+  },
+  "followup": {
+    "date": "2026-10-28",
+    "openedDocs": 9,
+    "primaryOrContemporary": 7,
+    "newEvents": 5,
+    "newClaims": 9,
+    "strictTripleProvenanceBundles": [
+      {
+        "topic": "1952 해양주권·외교적 분쟁 존재",
+        "sources": [
+          "DOC-P233-NIKH-1015-0030",
+          "DOC-P233-JP-19520128-PROTEST",
+          "DOC-P233-US-19521204-NOTE187"
+        ],
+        "finding": "한국·일본·미국 3국 외교적 입장 문서가 실제 존재하며 서로 다른 입장을 기술; 영유권 판정 금지"
+      },
+      {
+        "topic": "1952 UN 제1위원회 포로송환 제안과 동맹국 이견",
+        "sources": [
+          "DOC-P233-FRUS-XV1-D328",
+          "DOC-P233-UN-AC1-SR524",
+          "DOC-P233-NIKH-1118-0040"
+        ],
+        "finding": "미국 정부 내부보고, UN 공식 회의록, 한국 동시대 언론이 복수 제안과 입장차를 각각 기록; 구체적 조항 동일성은 원문 대조 필요"
+      }
+    ],
+    "shortfall": "3개 엄격 독립 출처 묶음 목표 중 2개, UNCURK 보고서는 한국신문이 UN 원문을 재전달한 것이므로 독립 3계열로 부풀리지 않음"
   }
 }

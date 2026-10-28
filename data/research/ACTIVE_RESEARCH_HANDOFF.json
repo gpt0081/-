@@ -45,17 +45,18 @@
     "pass233OriginalOrContemporary": 45,
     "pass233ActorNodes": 13,
     "pass233Events": 12,
-    "pass233Claims": 28,
+    "pass233Claims": 37,
     "pass233Leads": 44,
     "pass233Adversarial": 14,
-    "pass233IndependentLines": 27,
+    "pass233IndependentLines": 31,
     "pass233Domains": 6,
-    "pass233UniqueDirectDocuments": 69,
+    "pass233UniqueDirectDocuments": 78,
     "pass233NIKHArticlesOpened": 27,
-    "pass233NewEvents": 29,
-    "pass233NewLeads": 78
+    "pass233NewEvents": 34,
+    "pass233NewLeads": 78,
+    "pass233StrictTripleProvenance": 2
   },
-  "nextAction": "Read pass233 main+addendum ledgers, prioritize 1952-10-01 bond repayment, 1952-10-15 maritime letter/Japan note, 1952-11-18 grain and Lee Gap-seong PM confirmation; keep UN A/C.1/SR.514/524 and CIA Pusan 628 active.",
+  "nextAction": "Read pass233 followup A/2222 UNKRA approval and Korean/Japanese/US maritime notes; get 1952 UNCURK A/2187 original, 1952-10-14 Murphy note, 1952-11 UNKRA disbursement ledger, 1952-10-01 relief population original; maintain unresolved status.",
   "mainDataModified": true,
   "latestRun": {
     "pass": 233,
@@ -68,27 +69,38 @@
     "actorOverlay": "data/politicians/pass-233-1952-rok-diplomacy-network.json",
     "annals": "data/annals/1952-oct-nov-un-diplomacy-reconstruction.md",
     "metrics": {
-      "independent_research_lines": 27,
+      "independent_research_lines": 31,
       "general_governance_domains_reinforced": 10,
-      "non_presidential_politician_nodes_deepened": 20,
+      "non_presidential_politician_nodes_deepened": 18,
       "new_candidate_nodes": 10,
-      "new_or_enriched_event_actions": 29,
-      "source_pages_directly_opened_substantive": 69,
-      "primary_or_contemporary_original_origin": 69,
+      "new_or_enriched_event_actions": 34,
+      "source_pages_directly_opened_substantive": 78,
+      "primary_or_contemporary_original_origin": 76,
       "original_facsimile_images": 0,
-      "adversarial_claim_checks": 28,
+      "adversarial_claim_checks": 37,
       "tracked_prior_open_leads": 12,
       "new_specific_leads": 78,
-      "provenance_cross_checks_contextual": 4,
-      "strict_three_independent_primary_families": 0,
+      "provenance_cross_checks_contextual": 5,
+      "strict_three_independent_primary_families": 2,
       "history_debts_resolved": 0,
-      "non_presidential_candidate_catalog_or_context_only": 4
+      "non_presidential_candidate_catalog_or_context_only": 4,
+      "official_retrospective_direct_read": 2,
+      "unique_source_families": [
+        "US FRUS",
+        "UN original report and meeting",
+        "Korean contemporary newspaper",
+        "ROK President correspondence",
+        "Japanese government original note",
+        "US diplomatic note through Japan archive",
+        "UN and ROK retrospective official"
+      ]
     },
     "weeklyDebtFullReview": false,
     "correction": "pass233 immediate provenance and counting audit: 7 claim-edge corrections, 4 unsupported actor edges removed, independent lines 14, 8 source-grounded non-presidential deepening",
     "addendum": "data/annals/1952-oct-nov-domestic-state-addendum.md",
     "addendumLeadQueue": "data/research/leads/pass-233-addendum-20261028-next-lead-queue.json",
-    "addendumDocuments": "data/documents/pass-233-addendum-1952-nikh-press-letters.json"
+    "addendumDocuments": "data/documents/pass-233-addendum-1952-nikh-press-letters.json",
+    "unJapanFollowup": "data/annals/1952-unkra-uncurk-maritime-three-way.md"
   },
   "latestCorrections": [
     {
@@ -235,6 +247,17 @@
     "data/research/HISTORY_DEBT.md",
     "data/research/rhee-syngman-coverage.json",
     "data/politicians/INDEX.md",
+    "data/research/runs/pass-233-execution-ledger.json"
+  ],
+  "pass233FollowupFiles": [
+    "data/documents/pass-233-followup-un-japan-primary.json",
+    "data/events/pass-233-followup-un-japan-crossprovenance.json",
+    "data/claims/pass-233-followup-un-japan-crossprovenance.json",
+    "data/annals/1952-unkra-uncurk-maritime-three-way.md",
+    "data/events.json",
+    "data/events/pass-233-1952-un-diplomacy-reconstruction.json",
+    "data/research/HISTORY_DEBT.md",
+    "data/research/rhee-syngman-coverage.json",
     "data/research/runs/pass-233-execution-ledger.json"
   ]
 }
