@@ -64,14 +64,14 @@
     {
       "id": "CLM-P243-05",
       "statement": "1958년 총선 투표율은 90.6%로 확정됐다",
-      "status": "CONFLICTED_SOURCE_NUMBERS",
+      "status": "UNRESOLVED_DENOMINATOR_AND_SOURCE",
       "supporting_evidence": [
         "DOC-P243-FRUS-222"
       ],
       "contradicting_or_limiting_evidence": [
         "DOC-P243-NIKH-1958-ELECTION"
       ],
-      "caveat": "FRUS d222 editorial 90.6% vs commonly cited official 87.8%: 8.9m ballots consistent in numerator; 90.6 may use a different eligible-electorate denominator, but source population not verified. Do not silently choose.",
+      "caveat": "FRUS d222 editorial 90.6% eligible voters, 8.9m ballots. 87.8% is found in later secondary election summaries, NOT in the directly opened NIKH party-seat table. NEC registered-voter/turnout original not yet opened. Do not attribute 87.8% to NIKH.",
       "review_date": "2026-10-29"
     },
     {
@@ -231,6 +231,13 @@
       "prior_status": "CONFLICTED_SOURCE_NUMBERS",
       "new_status": "NARROWED_POSSIBLE_TEMPORAL_BASELINE",
       "reason": "Arithmetic 126+11=137, 27-11+1=17 suggests 11 independent defections plus minor-party reclassification, not same-date vote-count conflict. Pending National Assembly original membership register."
+    },
+    {
+      "date": "2026-10-29",
+      "claim_id": "CLM-P243-05",
+      "prior_status": "CONFLICTED_SOURCE_NUMBERS",
+      "new_status": "UNRESOLVED_DENOMINATOR_AND_SOURCE",
+      "reason": "NIKH party seat table does not itself show 87.8 turnout; later secondary sources do. Correct attribution and seek NEC original."
     }
   ]
 }

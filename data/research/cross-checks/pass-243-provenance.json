@@ -1,0 +1,132 @@
+{
+  "pass": 243,
+  "date": "2026-10-29",
+  "adversarial_checks": [
+    {
+      "id": "X01",
+      "claim": "1958-05-02 선거 당선의석 126 대 6/4 137",
+      "source_family_a": "FRUS d222 editorial",
+      "source_family_b": "NIKH 1958-05-02 election table",
+      "result": "NARROWED",
+      "next_original_target": "11 independent defections and one minor-party grouping hypothesis; original membership change records LEAD-P243-49",
+      "reviewed_date": "2026-10-29"
+    },
+    {
+      "id": "X02",
+      "claim": "1958 election 90.6 vs87.8 turnout",
+      "source_family_a": "FRUS d222 editorial",
+      "source_family_b": "later secondary summaries (not NIKH original table)",
+      "result": "UNRESOLVED",
+      "next_original_target": "NEC original electorate/turnout denominator LEAD-P243-50",
+      "reviewed_date": "2026-10-29"
+    },
+    {
+      "id": "X03",
+      "claim": "1958 troop reduction 90000 vs 59000",
+      "source_family_a": "FRUS d209 US ceiling directive",
+      "source_family_b": "FRUS d214 US–ROK joint memo",
+      "result": "NARROWED_SINGLE_FAMILY",
+      "next_original_target": "Authorized slots vs actual personnel; Korean MND monthly roster LEAD-P243-14",
+      "reviewed_date": "2026-10-29"
+    },
+    {
+      "id": "X04",
+      "claim": "US F86 authorization vs delivery",
+      "source_family_a": "FRUS d237 NSC5817",
+      "source_family_b": "FRUS d245–246 delay and storage",
+      "result": "NARROWED_SINGLE_FAMILY",
+      "next_original_target": "ROK Air Force receipt LEAD-P243-16",
+      "reviewed_date": "2026-10-29"
+    },
+    {
+      "id": "X05",
+      "claim": "Cho arrest 1958-01-13 vs01-14",
+      "source_family_a": "FRUS d211",
+      "source_family_b": "Korean Supreme Court 2010 2008재도11; AKS chronology",
+      "result": "NARROWED_TWO_FAMILIES",
+      "next_original_target": "Court says Jan13 based on NAK court records; arrest warrant LEAD-P243-18",
+      "reviewed_date": "2026-10-29"
+    },
+    {
+      "id": "X06",
+      "claim": "Army intelligence authority to investigate Cho",
+      "source_family_a": "1958 prosecution and Army interrogations reported in AKS",
+      "source_family_b": "Korean Supreme Court 2010 2008재도11",
+      "result": "CONTRADICTED_BY_LATER_COURT",
+      "next_original_target": "Military intelligence had no jurisdiction over civilians; separate from presidential order",
+      "reviewed_date": "2026-10-29"
+    },
+    {
+      "id": "X07",
+      "claim": "Article17(5) allegedly amended before enactment",
+      "source_family_a": "FRUS d262 Yang's claim",
+      "source_family_b": "FRUS d255 committee unchanged and AKS law history",
+      "result": "CONFLICTED_DIFFERENT_STAGES",
+      "next_original_target": "Law500 original AA0002161 and draft comparison LEAD-P243-36",
+      "reviewed_date": "2026-10-29"
+    },
+    {
+      "id": "X08",
+      "claim": "12/24 opposition confinement only hearsay",
+      "source_family_a": "FRUS d257 US Embassy cable",
+      "source_family_b": "1958-12-25 Chosun Ilbo transcribed by NIKH",
+      "result": "CONFIRMED_TWO_INDEPENDENT_FAMILIES",
+      "next_original_target": "Confirms confinement/expulsion, not direct Rhee order LEAD-P243-34",
+      "reviewed_date": "2026-10-29"
+    },
+    {
+      "id": "X09",
+      "claim": "200000t rice export completed",
+      "source_family_a": "FRUS d240 Korean ministerial plan",
+      "source_family_b": "Korean agriculture/customs original NOT FOUND",
+      "result": "OPEN",
+      "next_original_target": "Export customs records LEAD-P243-41",
+      "reviewed_date": "2026-10-29"
+    },
+    {
+      "id": "X10",
+      "claim": "15000 civil servant cuts completed",
+      "source_family_a": "FRUS d240 Korean ministerial plan",
+      "source_family_b": "Korean personnel original NOT FOUND",
+      "result": "OPEN",
+      "next_original_target": "Civil service headcount LEAD-P243-40",
+      "reviewed_date": "2026-10-29"
+    }
+  ],
+  "comparison_bundles": [
+    {
+      "id": "BUNDLE-P243-ELECTION",
+      "topic": "1958 election returns versus June party membership",
+      "families": [
+        "US_FRUS_EDITORIAL_DERIVED",
+        "KOREA_NIKH_RETROSPECTIVE"
+      ],
+      "status": "NARROWED_NOT_CONFIRMED",
+      "primary_family_count": 0
+    },
+    {
+      "id": "BUNDLE-P243-DEC24",
+      "topic": "1958-12-24 physical exclusion and subsequent law promulgation",
+      "families": [
+        "US_FRUS_1958_60_XVIII",
+        "KOREAN_CONTEMPORARY_PRESS",
+        "KOREA_JUDICIARY"
+      ],
+      "status": "Two primary families directly corroborate confinement; third judiciary confirms law chronology only",
+      "strict_same_claim_three_primary": false
+    },
+    {
+      "id": "BUNDLE-P243-CHO",
+      "topic": "Cho Bong-am arrest, prosecution and later legality of military investigation",
+      "families": [
+        "US_FRUS_1958_60_XVIII",
+        "KOREA_JUDICIARY",
+        "KOREA_AKS_SECONDARY"
+      ],
+      "status": "Cross-temporal triangulation; 2010 Court's finding is later legal judgment, not 1958 eyewitness",
+      "strict_same_claim_three_primary": false
+    }
+  ],
+  "strict_three_independent_original_families_confirmations": 0,
+  "method": "An original in FRUS remains US provenance even if it quotes Korean statements; do not inflate family count."
+}
