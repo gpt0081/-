@@ -1074,3 +1074,11 @@
 - 이전 기록 pass244의 1959-01-08은 원문 근거가 없어 철회(정정이력: data/research/corrections/pass-244-date-precision-review.json).
 - 확인된 것은 FRUS d265/d266에서 'recent GAO report'로 언급된 사실뿐. 원 보고서 제목·발행일·제출일·감사대상·피감기관 반론 모두 미확보.
 - 다음 원문: 미 GAO 1958-12~1959-01 한국군 군사원조 감사보고서와 미 의회 제출원장.
+
+
+### HD-P244-1960-SEATS-NEC · 1960-07-29 선거 한국 공식 두 계열 교차
+- 상태: `NARROWED` (기존 HD-P244-1960-SEATS의 CONFLICTED 유지; 2026-10-29)
+- 국편 대한민국사연표 원페이지: 민주당175·자유당2·무소속49·기타7(총233), 당선자 명단에는 보궐선거 당선자 추가표기 주의.
+- 중앙선관위 사이버선거역사관 공식 설명: 민의원 민주당175·무소속49, 참의원 민주당31·자유당4·무소속20.
+- FRUS d327 후대 편집주석: 민주당177·자유당12. 국편과 NEC는 민주당175에 일치하지만 FRUS 편집주석의 원근거·집계기준 미확인. 원 선거관리위원회 당선인별 집계·국회 당적변경 원장을 추적.
+- 원 위치: https://db.history.go.kr/id/tcct_1960_07_29_0010 ; https://museum.nec.go.kr/eng/eexh/eexh_1960_07_29.html ; https://history.state.gov/historicaldocuments/frus1958-60v18/d327

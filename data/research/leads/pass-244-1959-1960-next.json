@@ -18,6 +18,10 @@
           "previous_target": "1959-01-08 GAO Korean Military Assistance Program 감사보고서 원문",
           "reason": "1959-01-08 unsupported exact date removed"
         }
+      ],
+      "alternate_archive_target": "Draper Committee Records 1958-1959 Box17 Category V Central Files Military Assistance January 1959 (1)-(3) Korea (Eisenhower Library finding aid); GAO original NOT located",
+      "evidence_ids": [
+        "DOC-P244C-EISENHOWER-FINDING-AID"
       ]
     },
     {
@@ -455,9 +459,14 @@
       "institution": "중앙선관위",
       "original_target": "1960-07-29 제5대 민의원 당선인 233명 정당별 원명부",
       "verification_question": "국편 175/2 vs FRUS 177/12 의석 충돌",
-      "status": "OPEN",
+      "status": "NARROWED",
       "created_at": "2026-10-29",
-      "accessibility": "target original not opened this run"
+      "accessibility": "target original not opened this run",
+      "evidence_ids": [
+        "DOC-P244C-NIKH-1960-JUL29",
+        "DOC-P244C-NEC-1960-JUL29"
+      ],
+      "next": "원 233명 당선인별 정당 명부, FRUS d327 편집주석 원전문114"
     },
     {
       "id": "LEAD-P244B-04",
@@ -568,6 +577,61 @@
       "status": "OPEN",
       "created_at": "2026-10-29",
       "accessibility": "target original not opened this run"
+    },
+    {
+      "id": "LEAD-P244F-01",
+      "priority": "P0",
+      "institution": "Dwight D. Eisenhower Presidential Library",
+      "original_target": "Draper Committee Records (1958-1959), Box 17 Category V Central Files Military Assistance January 1959 (1)-(3) Korea",
+      "verification_question": "1959 초 한국군 군사원조 감사·대충자금 협상 문서에 GAO 보고서 번호/날짜 단서가 있는지",
+      "status": "OPEN",
+      "created_at": "2026-10-29",
+      "source_pointer": "DOC-P244C-EISENHOWER-FINDING-AID or DOC-P244C-NEC-1960-JUL29",
+      "original_record_opened": false
+    },
+    {
+      "id": "LEAD-P244F-02",
+      "priority": "P0",
+      "institution": "Dwight D. Eisenhower Presidential Library",
+      "original_target": "Draper Committee Records Box 19 Study on Korea; Model Military Plan 1959-1964",
+      "verification_question": "한국군 63만 허가정원과 실제 병력·군사원조의 원문 수치",
+      "status": "OPEN",
+      "created_at": "2026-10-29",
+      "source_pointer": "DOC-P244C-EISENHOWER-FINDING-AID or DOC-P244C-NEC-1960-JUL29",
+      "original_record_opened": false
+    },
+    {
+      "id": "LEAD-P244F-03",
+      "priority": "P0",
+      "institution": "Dwight D. Eisenhower Presidential Library",
+      "original_target": "Draper Committee Records Box 10 General G.H. Decker May 7 1959 letter",
+      "verification_question": "한국군 감군·원조비 집행 및 GAO 지적에 대한 미국군 지휘부 입장",
+      "status": "OPEN",
+      "created_at": "2026-10-29",
+      "source_pointer": "DOC-P244C-EISENHOWER-FINDING-AID or DOC-P244C-NEC-1960-JUL29",
+      "original_record_opened": false
+    },
+    {
+      "id": "LEAD-P244F-04",
+      "priority": "P0",
+      "institution": "국사편찬위원회/중앙선거관리위원회",
+      "original_target": "1960-07-29 제5대 민의원 233명 당선자 정당별 원집계 및 보궐선거 포함 여부",
+      "verification_question": "국편 선거표175/2/49와 FRUS d327 177/12 차이, 보궐선거 명단 추가가 총계에 영향 있는지",
+      "status": "OPEN",
+      "created_at": "2026-10-29",
+      "source_pointer": "DOC-P244C-EISENHOWER-FINDING-AID or DOC-P244C-NEC-1960-JUL29",
+      "original_record_opened": false
+    },
+    {
+      "id": "LEAD-P244F-05",
+      "priority": "P0",
+      "institution": "중앙선거관리위원회",
+      "original_target": "1960-03-15 정·부통령 투표율 94.3 vs97.015 원표와 후보 득표율88.7/79 구분",
+      "verification_question": "득표율과 투표율의 분모 혼동 방지",
+      "status": "OPEN",
+      "created_at": "2026-10-29",
+      "source_pointer": "DOC-P244C-EISENHOWER-FINDING-AID or DOC-P244C-NEC-1960-JUL29",
+      "original_record_opened": false
     }
   ],
   "tracked_prior_leads": [
