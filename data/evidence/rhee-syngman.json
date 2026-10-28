@@ -528,6 +528,12 @@
       "publisher": "FRUS d158",
       "url": "https://history.state.gov/historicaldocuments/frus1955-57v23p2/d158",
       "grade": "A; contemporary US memorandum"
+    },
+    "S1955-P239L2-UN-A2947": {
+      "title": "UNCURK report A/2947 signed 1955-09-07",
+      "publisher": "UN General Assembly Official Records Tenth Session Supplement 13",
+      "url": "https://digitallibrary.un.org/record/712877/files/A_2947-EN.pdf",
+      "grade": "A; UN original PDF text, OCR two-column caveat"
     }
   },
   "chronology": [
@@ -1509,6 +1515,51 @@
         "S1956-P239L-NNSC"
       ],
       "confidence": "narrowed"
+    },
+    {
+      "id": "rhee-p239l2-1954-north-admin",
+      "date": "1954-11-17",
+      "phase": "지방행정",
+      "kind": "UN_reported_completed_transfer",
+      "topic": [
+        "민정이양"
+      ],
+      "summary": "UNCURK A/2947 para11: 1954-11-15 and 11-17 UNC-administered northern areas civil administration handed over to ROK; not evidence of every local inventory transfer.",
+      "sourceIds": [
+        "S1955-P239L2-UN-A2947"
+      ],
+      "confidence": "verified_as_UN_official_observation"
+    },
+    {
+      "id": "rhee-p239l2-1955-reorg",
+      "date": "1955-02-07",
+      "phase": "행정",
+      "kind": "law_promulgation",
+      "topic": [
+        "정부조직법",
+        "부흥부",
+        "총리직폐지"
+      ],
+      "summary": "UNCURK A/2947 para33: National Assembly Jan22 adoption, Feb7 promulgation; Cabinet reorganization and redistribution of PM functions.",
+      "sourceIds": [
+        "S1955-P239L2-UN-A2947"
+      ],
+      "confidence": "verified_UN_and_prior_Korean_law"
+    },
+    {
+      "id": "rhee-p239l2-1955-08-13-nnsc",
+      "date": "1955-08-13",
+      "phase": "외교·치안",
+      "kind": "reported_public_appeal",
+      "topic": [
+        "NNSC",
+        "시위"
+      ],
+      "summary": "UNCURK para18: Rhee asked demonstrators to postpone deadline and avoid violence; this does not settle alleged earlier mobilization orders.",
+      "sourceIds": [
+        "S1955-P239L2-UN-A2947"
+      ],
+      "confidence": "verified_as_UN_reported_statement"
     }
   ],
   "comparisonCandidates": [
@@ -1934,5 +1985,15 @@
       "rhee-p239l-nnsc"
     ],
     "event_graph": "data/events/pass-239l-1955-56-nnsc-election.json"
+  },
+  "recentResearchPass239L2": {
+    "date": "2026-10-29",
+    "UNoriginal": "S1955-P239L2-UN-A2947",
+    "chronology": [
+      "rhee-p239l2-1954-north-admin",
+      "rhee-p239l2-1955-reorg",
+      "rhee-p239l2-1955-08-13-nnsc"
+    ],
+    "important_correction": "1954 northern administrative transfer actual handover Nov15 and Nov17 now verified, not only recommended"
   }
 }

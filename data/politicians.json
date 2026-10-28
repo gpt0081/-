@@ -163,18 +163,23 @@
         "evt-1960-315-election",
         "evt-p234b-1215-prime-minister",
         "evt-p239l-11",
-        "evt-p239l-12"
+        "evt-p239l-12",
+        "evt-p239l2-07",
+        "evt-p239l2-23"
       ],
       "evidenceCoverage": [
-        "DOC-P234B-NIKH-1215-0060"
+        "DOC-P234B-NIKH-1215-0060",
+        "DOC-P239L2-UN-A2947"
       ],
       "researchNotes": "pass234B: 1952-12-15 전 국방부장관으로 총리 후임 물망에 언급, 실제 지명 아님",
       "researchRefs": [
         "data/politicians/pass-234-addendum-1952-dec-actors.json",
-        "data/politicians/pass-239l-1956-actors.json"
+        "data/politicians/pass-239l-1956-actors.json",
+        "data/politicians/pass-239l2-1955-cabinet-election-actors.json"
       ],
       "openLeads": [
-        "LEAD-P239L-13"
+        "LEAD-P239L-13",
+        "LEAD-P239L2-14"
       ]
     },
     {
@@ -441,7 +446,8 @@
       "connections": [
         "evt-1949-farmland-reform",
         "evt-p235b-lee-beom-seok-diplomacy",
-        "evt-p239j-21"
+        "evt-p239j-21",
+        "evt-p239l2-23"
       ],
       "researchNotes": "1949-05-16 농지개혁법 환부이유서·소멸통고를 국회의장에게 발송한 정부 측 핵심 헌정 행위자로 확인. 대통령 재의권과 총리 명의 통고의 관계를 원문 결재선으로 추가 검증한다.",
       "researchUpdates": [
@@ -455,10 +461,12 @@
         }
       ],
       "evidenceCoverage": [
-        "DOC-P235B-NIKH-02_17_0010"
+        "DOC-P235B-NIKH-02_17_0010",
+        "DOC-P239L2-UN-A2947"
       ],
       "researchRefs": [
-        "data/politicians/pass-235-addendum-b-culture-speaker-minister.json"
+        "data/politicians/pass-235-addendum-b-culture-speaker-minister.json",
+        "data/politicians/pass-239l2-1955-cabinet-election-actors.json"
       ],
       "recentResearchPass239J": {
         "date": "2026-10-29",
@@ -470,7 +478,10 @@
         ],
         "role_note": "FRUS person index mentions Yi Pom-suk but exact meeting role unclear; do not infer role",
         "overlay": "data/politicians/pass-239j-1954-diplomacy-economy-actors.json"
-      }
+      },
+      "openLeads": [
+        "LEAD-P239L2-12"
+      ]
     },
     {
       "id": "pol-lee-mun-won",
@@ -610,9 +621,19 @@
       "researchStatus": "candidate-legislative-actor",
       "backbone": false,
       "connections": [
-        "evt-1949-farmland-reform"
+        "evt-1949-farmland-reform",
+        "evt-p239l2-22"
       ],
-      "researchNotes": "농지개혁법 심의 당시 산업위원장으로 확인. 산업위원회 대안 작성·상정 과정의 개인 발언과 위원회 집단결정을 구분해 추가 검증한다."
+      "researchNotes": "농지개혁법 심의 당시 산업위원장으로 확인. 산업위원회 대안 작성·상정 과정의 개인 발언과 위원회 집단결정을 구분해 추가 검증한다.",
+      "researchRefs": [
+        "data/politicians/pass-239l2-1955-cabinet-election-actors.json"
+      ],
+      "openLeads": [
+        "LEAD-P239L2-15"
+      ],
+      "evidenceCoverage": [
+        "DOC-P239L2-UN-A2947"
+      ]
     },
     {
       "id": "pol-yun-jae-geun",
@@ -850,7 +871,8 @@
         "evt-p239j-13",
         "evt-p239j-14",
         "evt-p239j-15",
-        "evt-p239j-22"
+        "evt-p239j-22",
+        "evt-p239l2-13"
       ],
       "researchNotes": "1953 휴전·반공포로·한미상호방위조약에서 반복 확인. 1953-08-07 공동성명 문구 수정 제안과 08-08 덜레스와 조약 초안 가조인이라는 직접 행위가 공식 외교기록으로 확인되어 VERIFIED로 승격. 향후 외무부 한국측 회의록·서명훈령 확보 시 ANNALS_ACTIVE 검토.",
       "pass232Overlay": "data/politicians/pass-232-1952-september-actors.json",
@@ -866,7 +888,8 @@
         "data/politicians/pass-239b-actors.json",
         "data/politicians/pass-239d-actors.json",
         "data/politicians/pass-239h-july1953-actors.json",
-        "data/politicians/pass-239i-postarmistice-actors.json"
+        "data/politicians/pass-239i-postarmistice-actors.json",
+        "data/politicians/pass-239l2-1955-cabinet-election-actors.json"
       ],
       "evidenceCoverage": [
         "DOC-P236-FRUS-452",
@@ -881,7 +904,8 @@
         "DOC-P239H-FRUS-691",
         "DOC-P239H-FRUS-703",
         "DOC-P239I-FRUS-740",
-        "DOC-P239I-FRUS-741"
+        "DOC-P239I-FRUS-741",
+        "DOC-P239L2-UN-A2947"
       ],
       "lastResearchPass": "239I",
       "recentResearchPass239J": {
@@ -924,6 +948,9 @@
             "PYUN1954-JUL30"
           ]
         }
+      ],
+      "openLeads": [
+        "LEAD-P239K2-01"
       ]
     },
     {
@@ -2306,7 +2333,8 @@
         "evt-p232-0919-opposition-talks",
         "evt-p234b-1215-prime-minister",
         "evt-p238c-1953-05-27-assembly-harrison",
-        "evt-p239e-rally-officials"
+        "evt-p239e-rally-officials",
+        "evt-p239l2-23"
       ],
       "evidenceFile": "data/politicians/pass-232-1952-september-actors.json",
       "openLeadsFile": "data/research/leads/pass-232-20261028-next-lead-queue.json",
@@ -2322,7 +2350,8 @@
         "DOC-P234B-NIKH-1215-0060",
         "DOC-P238-KOR-05_27_0020",
         "DOC-P239-NIKH-05_26_0070",
-        "DOC-P239E-NIKH-0625-0070"
+        "DOC-P239E-NIKH-0625-0070",
+        "DOC-P239L2-UN-A2947"
       ],
       "researchNotes": "pass234B: 1952-12-15 총리 후임 물망으로 언론에 언급, 실제 지명 아님",
       "researchRefs": [
@@ -2330,9 +2359,13 @@
         "data/politicians/pass-238c-korean-actors.json",
         "data/annals/1953-may8-25-armistice-fiscal-agriculture.md",
         "data/politicians/pass-239-actors.json",
-        "data/politicians/pass-239e-actors.json"
+        "data/politicians/pass-239e-actors.json",
+        "data/politicians/pass-239l2-1955-cabinet-election-actors.json"
       ],
-      "lastResearchPass": 238
+      "lastResearchPass": 238,
+      "openLeads": [
+        "LEAD-P239L2-12"
+      ]
     },
     {
       "id": "cand-1952-sep-us-ambassador-yang-yu-chan",
@@ -2439,7 +2472,8 @@
       "backbone": false,
       "connections": [
         "evt-p232-0917-party-sketches",
-        "evt-p233-add-rhee-parliament-agenda"
+        "evt-p233-add-rhee-parliament-agenda",
+        "evt-p239l2-23"
       ],
       "evidenceFile": "data/politicians/pass-232-1952-september-actors.json",
       "openLeadsFile": "data/research/leads/pass-232-20261028-next-lead-queue.json",
@@ -2452,7 +2486,14 @@
       "hanjaVerification": "1952 contemporaneous text or existing canonical registry",
       "partyAffiliationEvidence": "조선민주당",
       "researchRefs": [
-        "data/politicians/pass-233-addendum-1952-domestic-actors.json"
+        "data/politicians/pass-233-addendum-1952-domestic-actors.json",
+        "data/politicians/pass-239l2-1955-cabinet-election-actors.json"
+      ],
+      "openLeads": [
+        "LEAD-P239L2-12"
+      ],
+      "evidenceCoverage": [
+        "DOC-P239L2-UN-A2947"
       ]
     },
     {
@@ -4989,15 +5030,20 @@
       "annalsFile": "data/annals/yu-wan-chang.md",
       "connections": [
         "evt-p239b-asset-disposal",
-        "evt-p239b-rail-auction"
+        "evt-p239b-rail-auction",
+        "evt-p239l2-06",
+        "evt-p239l2-09",
+        "evt-p239l2-19"
       ],
       "evidenceCoverage": [
         "DOC-P239B-NIKH-06_06_0050",
-        "DOC-P239B-AKS-YU"
+        "DOC-P239B-AKS-YU",
+        "DOC-P239L2-UN-A2947"
       ],
       "openLeads": [
         "1953년 6월 귀속재산 원 공매장부",
-        "1953년 9월 관재청장 퇴임 사령"
+        "1953년 9월 관재청장 퇴임 사령",
+        "LEAD-P239L2-13"
       ],
       "promotionHistory": [
         {
@@ -5008,7 +5054,8 @@
         }
       ],
       "researchRefs": [
-        "data/politicians/pass-239b-actors.json"
+        "data/politicians/pass-239b-actors.json",
+        "data/politicians/pass-239l2-1955-cabinet-election-actors.json"
       ]
     },
     {
@@ -5441,7 +5488,10 @@
         "evt-p239i-17",
         "evt-p239j-06",
         "evt-p239j-21",
-        "evt-p239l-07"
+        "evt-p239l-07",
+        "evt-p239l2-13",
+        "evt-p239l2-14",
+        "evt-p239l2-15"
       ],
       "evidenceCoverage": [
         "DOC-P239I-FRUS-764",
@@ -5449,12 +5499,14 @@
         "DOC-P239I-MOFA-CHO",
         "DOC-P239I-NAHF-GRAHAM-1953",
         "DOC-P239I-MOFA-CHO-KO",
-        "DOC-P239I-AKS-CHO"
+        "DOC-P239I-AKS-CHO",
+        "DOC-P239L2-UN-A2947"
       ],
       "researchRefs": [
         "data/politicians/pass-239i-postarmistice-actors.json",
         "data/annals/cho-chung-whan.md",
-        "data/politicians/pass-239l-1956-actors.json"
+        "data/politicians/pass-239l-1956-actors.json",
+        "data/politicians/pass-239l2-1955-cabinet-election-actors.json"
       ],
       "openLeads": [
         "LEAD-P239I-41",
@@ -5938,16 +5990,22 @@
       "partyHistory": [],
       "researchStatus": "DISCOVERED",
       "evidenceCoverage": [
-        "DOC-P239L-NEC-1956-ELECTION"
+        "DOC-P239L-NEC-1956-ELECTION",
+        "DOC-P239L2-UN-A2947"
       ],
       "connections": [
-        "evt-p239l-11"
+        "evt-p239l-11",
+        "evt-p239l2-22",
+        "evt-p239l2-23",
+        "evt-p239l2-25"
       ],
       "researchRefs": [
-        "data/politicians/pass-239l-1956-actors.json"
+        "data/politicians/pass-239l-1956-actors.json",
+        "data/politicians/pass-239l2-1955-cabinet-election-actors.json"
       ],
       "openLeads": [
-        "LEAD-P239L-12"
+        "LEAD-P239L-12",
+        "LEAD-P239L2-15"
       ],
       "historyDebt": [
         "HD-P239L-1956-APPOINTMENTS"
@@ -6016,24 +6074,36 @@
         }
       ],
       "partyHistory": [],
-      "researchStatus": "DISCOVERED",
+      "researchStatus": "VERIFIED",
       "evidenceCoverage": [
-        "DOC-P239L-FRUS-146-EDITORIAL"
+        "DOC-P239L-FRUS-146-EDITORIAL",
+        "DOC-P239L2-UN-A2947"
       ],
       "connections": [
-        "evt-p239l-12"
+        "evt-p239l-12",
+        "evt-p239l2-11"
       ],
       "researchRefs": [
-        "data/politicians/pass-239l-1956-actors.json"
+        "data/politicians/pass-239l-1956-actors.json",
+        "data/politicians/pass-239l2-1955-cabinet-election-actors.json"
       ],
       "openLeads": [
-        "LEAD-P239L-16"
+        "LEAD-P239L-16",
+        "LEAD-P239L2-06"
       ],
       "historyDebt": [
         "HD-P239L-1956-APPOINTMENTS"
       ],
       "identityCaveat": "Hanja unverified; do not promote from editorial note",
-      "lastResearchPass": "239L"
+      "lastResearchPass": "239L",
+      "researchMaturityHistory": [
+        {
+          "date": "2026-10-29",
+          "from": "DISCOVERED",
+          "to": "VERIFIED",
+          "reason": "1955-07-11 Finance Minister appointment in official UNCURK A/2947 Annex II; 1956 role in later FRUS editorial, lifespan and gazette still open"
+        }
+      ]
     },
     {
       "id": "cand-p239l-yi-ik-heung",
@@ -6115,6 +6185,499 @@
       ],
       "identityCaveat": "Separate candidate; NOT automatically same as cand-p236-han-pyo-wook. Obtain 1955/1956 ROK delegation rosters.",
       "lastResearchPass": "239L"
+    },
+    {
+      "id": "cand-p239l2-paik-han-sung",
+      "name": "백한성",
+      "aliases": [
+        "Paik Han Sung"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "not yet checked"
+      },
+      "roles": [
+        "Home Minister, resignation 1955-04-23"
+      ],
+      "roleHistory": [
+        {
+          "period": "1953-09-19 to 1955-04-23",
+          "description": "Home Minister, resignation 1955-04-23"
+        }
+      ],
+      "partyHistory": [],
+      "researchStatus": "IDENTIFIED",
+      "evidenceCoverage": [
+        "DOC-P239L2-UN-A2947"
+      ],
+      "connections": [
+        "evt-p239l2-08"
+      ],
+      "researchRefs": [
+        "data/politicians/pass-239l2-1955-cabinet-election-actors.json"
+      ],
+      "openLeads": [
+        "LEAD-P239L2-03"
+      ],
+      "historyDebt": [
+        "HD-P239L2-CABINET"
+      ],
+      "identityCaveat": "Hanja, birth/death and Korean gazette original pending; do not auto-merge homonyms.",
+      "originalRoster": "DOC-P239L2-UN-A2947",
+      "lastResearchPass": "239L2"
+    },
+    {
+      "id": "cand-p239l2-kim-hyung-kun",
+      "name": "김형근",
+      "aliases": [
+        "Kim Hyung Kun"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "not yet checked"
+      },
+      "roles": [
+        "Home Minister successor"
+      ],
+      "roleHistory": [
+        {
+          "period": "1955-04-23 onward",
+          "description": "Home Minister successor"
+        }
+      ],
+      "partyHistory": [],
+      "researchStatus": "IDENTIFIED",
+      "evidenceCoverage": [
+        "DOC-P239L2-UN-A2947"
+      ],
+      "connections": [
+        "evt-p239l2-08"
+      ],
+      "researchRefs": [
+        "data/politicians/pass-239l2-1955-cabinet-election-actors.json"
+      ],
+      "openLeads": [
+        "LEAD-P239L2-03"
+      ],
+      "historyDebt": [
+        "HD-P239L2-CABINET"
+      ],
+      "identityCaveat": "Hanja, birth/death and Korean gazette original pending; do not auto-merge homonyms.",
+      "originalRoster": "DOC-P239L2-UN-A2947",
+      "lastResearchPass": "239L2"
+    },
+    {
+      "id": "cand-p239l2-choi-jai-yoo",
+      "name": "최재유",
+      "aliases": [
+        "Choi Jai Yoo"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "not yet checked"
+      },
+      "roles": [
+        "Public Health and Welfare Minister"
+      ],
+      "roleHistory": [
+        {
+          "period": "1955-02-16 onward",
+          "description": "Public Health and Welfare Minister"
+        }
+      ],
+      "partyHistory": [],
+      "researchStatus": "IDENTIFIED",
+      "evidenceCoverage": [
+        "DOC-P239L2-UN-A2947"
+      ],
+      "connections": [
+        "evt-p239l2-09"
+      ],
+      "researchRefs": [
+        "data/politicians/pass-239l2-1955-cabinet-election-actors.json"
+      ],
+      "openLeads": [
+        "LEAD-P239L2-04"
+      ],
+      "historyDebt": [
+        "HD-P239L2-CABINET"
+      ],
+      "identityCaveat": "Hanja, birth/death and Korean gazette original pending; do not auto-merge homonyms.",
+      "originalRoster": "DOC-P239L2-UN-A2947",
+      "lastResearchPass": "239L2"
+    },
+    {
+      "id": "cand-p239l2-im-chui-ho",
+      "name": "임철호",
+      "aliases": [
+        "Im Chui Ho"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "not yet checked"
+      },
+      "roles": [
+        "Agriculture Minister, no-confidence resignation"
+      ],
+      "roleHistory": [
+        {
+          "period": "1955-02-16 to 1955-07-27",
+          "description": "Agriculture Minister, no-confidence resignation"
+        }
+      ],
+      "partyHistory": [],
+      "researchStatus": "IDENTIFIED",
+      "evidenceCoverage": [
+        "DOC-P239L2-UN-A2947"
+      ],
+      "connections": [
+        "evt-p239l2-09",
+        "evt-p239l2-12"
+      ],
+      "researchRefs": [
+        "data/politicians/pass-239l2-1955-cabinet-election-actors.json"
+      ],
+      "openLeads": [
+        "LEAD-P239L2-05"
+      ],
+      "historyDebt": [
+        "HD-P239L2-CABINET"
+      ],
+      "identityCaveat": "Hanja, birth/death and Korean gazette original pending; do not auto-merge homonyms.",
+      "originalRoster": "DOC-P239L2-UN-A2947",
+      "lastResearchPass": "239L2"
+    },
+    {
+      "id": "cand-p239l2-lee-joong-jai",
+      "name": "이중재",
+      "aliases": [
+        "Lee Joong Jai"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "not yet checked"
+      },
+      "roles": [
+        "Finance Minister resigned"
+      ],
+      "roleHistory": [
+        {
+          "period": "1954-06-30 to 1955-07-07",
+          "description": "Finance Minister resigned"
+        }
+      ],
+      "partyHistory": [],
+      "researchStatus": "IDENTIFIED",
+      "evidenceCoverage": [
+        "DOC-P239L2-UN-A2947"
+      ],
+      "connections": [
+        "evt-p239l2-10"
+      ],
+      "researchRefs": [
+        "data/politicians/pass-239l2-1955-cabinet-election-actors.json"
+      ],
+      "openLeads": [
+        "LEAD-P239L2-06"
+      ],
+      "historyDebt": [
+        "HD-P239L2-CABINET"
+      ],
+      "identityCaveat": "Hanja, birth/death and Korean gazette original pending; do not auto-merge homonyms.",
+      "originalRoster": "DOC-P239L2-UN-A2947",
+      "lastResearchPass": "239L2"
+    },
+    {
+      "id": "cand-p239l2-chung-nak-hoon",
+      "name": "정낙훈",
+      "aliases": [
+        "Chung Nak Hoon"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "not yet checked"
+      },
+      "roles": [
+        "Agriculture Minister"
+      ],
+      "roleHistory": [
+        {
+          "period": "1955-08-30 onward",
+          "description": "Agriculture Minister"
+        }
+      ],
+      "partyHistory": [],
+      "researchStatus": "IDENTIFIED",
+      "evidenceCoverage": [
+        "DOC-P239L2-UN-A2947"
+      ],
+      "connections": [
+        "evt-p239l2-16"
+      ],
+      "researchRefs": [
+        "data/politicians/pass-239l2-1955-cabinet-election-actors.json"
+      ],
+      "openLeads": [
+        "LEAD-P239L2-07"
+      ],
+      "historyDebt": [
+        "HD-P239L2-CABINET"
+      ],
+      "identityCaveat": "Hanja, birth/death and Korean gazette original pending; do not auto-merge homonyms.",
+      "originalRoster": "DOC-P239L2-UN-A2947",
+      "lastResearchPass": "239L2"
+    },
+    {
+      "id": "cand-p239l2-kang-sung-tae",
+      "name": "강성태",
+      "aliases": [
+        "Kang Sung Tae"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "not yet checked"
+      },
+      "roles": [
+        "Commerce and Industry Minister"
+      ],
+      "roleHistory": [
+        {
+          "period": "1954-07-05 to at least 1955-09-07",
+          "description": "Commerce and Industry Minister"
+        }
+      ],
+      "partyHistory": [],
+      "researchStatus": "IDENTIFIED",
+      "evidenceCoverage": [
+        "DOC-P239L2-UN-A2947"
+      ],
+      "connections": [
+        "evt-p239l2-19"
+      ],
+      "researchRefs": [
+        "data/politicians/pass-239l2-1955-cabinet-election-actors.json"
+      ],
+      "openLeads": [
+        "LEAD-P239L2-08"
+      ],
+      "historyDebt": [
+        "HD-P239L2-CABINET"
+      ],
+      "identityCaveat": "Hanja, birth/death and Korean gazette original pending; do not auto-merge homonyms.",
+      "originalRoster": "DOC-P239L2-UN-A2947",
+      "lastResearchPass": "239L2"
+    },
+    {
+      "id": "cand-p239l2-cho-yong-soon",
+      "name": "조용순",
+      "aliases": [
+        "Cho Yong Soon"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "not yet checked"
+      },
+      "roles": [
+        "Justice Minister"
+      ],
+      "roleHistory": [
+        {
+          "period": "1954-06-30 to at least 1955-09-07",
+          "description": "Justice Minister"
+        }
+      ],
+      "partyHistory": [],
+      "researchStatus": "IDENTIFIED",
+      "evidenceCoverage": [
+        "DOC-P239L2-UN-A2947"
+      ],
+      "connections": [
+        "evt-p239l2-06"
+      ],
+      "researchRefs": [
+        "data/politicians/pass-239l2-1955-cabinet-election-actors.json"
+      ],
+      "openLeads": [
+        "LEAD-P239L2-09"
+      ],
+      "historyDebt": [
+        "HD-P239L2-CABINET"
+      ],
+      "identityCaveat": "Hanja, birth/death and Korean gazette original pending; do not auto-merge homonyms.",
+      "originalRoster": "DOC-P239L2-UN-A2947",
+      "lastResearchPass": "239L2"
+    },
+    {
+      "id": "cand-p239l2-lee-sun-keun",
+      "name": "이선근",
+      "aliases": [
+        "Lee Sun Keun"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "not yet checked"
+      },
+      "roles": [
+        "Education Minister"
+      ],
+      "roleHistory": [
+        {
+          "period": "1954-04-21 to at least 1955-09-07",
+          "description": "Education Minister"
+        }
+      ],
+      "partyHistory": [],
+      "researchStatus": "IDENTIFIED",
+      "evidenceCoverage": [
+        "DOC-P239L2-UN-A2947"
+      ],
+      "connections": [
+        "evt-p239l2-06"
+      ],
+      "researchRefs": [
+        "data/politicians/pass-239l2-1955-cabinet-election-actors.json"
+      ],
+      "openLeads": [
+        "LEAD-P239L2-10"
+      ],
+      "historyDebt": [
+        "HD-P239L2-CABINET"
+      ],
+      "identityCaveat": "Hanja, birth/death and Korean gazette original pending; do not auto-merge homonyms.",
+      "originalRoster": "DOC-P239L2-UN-A2947",
+      "lastResearchPass": "239L2"
+    },
+    {
+      "id": "cand-p239l2-lee-jong-lim",
+      "name": "이종림",
+      "aliases": [
+        "Lee Jong Lim"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "not yet checked"
+      },
+      "roles": [
+        "Transportation Minister"
+      ],
+      "roleHistory": [
+        {
+          "period": "1954-02-10 to at least 1955-09-07",
+          "description": "Transportation Minister"
+        }
+      ],
+      "partyHistory": [],
+      "researchStatus": "IDENTIFIED",
+      "evidenceCoverage": [
+        "DOC-P239L2-UN-A2947"
+      ],
+      "connections": [
+        "evt-p239l2-19"
+      ],
+      "researchRefs": [
+        "data/politicians/pass-239l2-1955-cabinet-election-actors.json"
+      ],
+      "openLeads": [
+        "LEAD-P239L2-11"
+      ],
+      "historyDebt": [
+        "HD-P239L2-CABINET"
+      ],
+      "identityCaveat": "Hanja, birth/death and Korean gazette original pending; do not auto-merge homonyms.",
+      "originalRoster": "DOC-P239L2-UN-A2947",
+      "lastResearchPass": "239L2"
+    },
+    {
+      "id": "cand-p239l2-lee-jong-tae",
+      "name": "이종태",
+      "aliases": [
+        "Lee Jong-tae"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "not yet checked"
+      },
+      "roles": [
+        "Vice-presidential registered candidate"
+      ],
+      "roleHistory": [
+        {
+          "period": "1956-04-07",
+          "description": "Vice-presidential registered candidate"
+        }
+      ],
+      "partyHistory": [],
+      "researchStatus": "DISCOVERED",
+      "evidenceCoverage": [
+        "DOC-P239L2-UN-A2947"
+      ],
+      "connections": [
+        "evt-p239l2-23"
+      ],
+      "researchRefs": [
+        "data/politicians/pass-239l2-1955-cabinet-election-actors.json"
+      ],
+      "openLeads": [
+        "LEAD-P239L2-12"
+      ],
+      "historyDebt": [
+        "HD-P239L2-CABINET"
+      ],
+      "identityCaveat": "Hanja, birth/death and Korean gazette original pending; do not auto-merge homonyms.",
+      "originalRoster": "DOC-P239L2-UN-A2947",
+      "lastResearchPass": "239L2"
+    },
+    {
+      "id": "cand-p239l2-paik-seong-uk",
+      "name": "백성욱",
+      "aliases": [
+        "Paik Seong-uk"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "not yet checked"
+      },
+      "roles": [
+        "Vice-presidential registered candidate"
+      ],
+      "roleHistory": [
+        {
+          "period": "1956-04-07",
+          "description": "Vice-presidential registered candidate"
+        }
+      ],
+      "partyHistory": [],
+      "researchStatus": "DISCOVERED",
+      "evidenceCoverage": [
+        "DOC-P239L2-UN-A2947"
+      ],
+      "connections": [
+        "evt-p239l2-23"
+      ],
+      "researchRefs": [
+        "data/politicians/pass-239l2-1955-cabinet-election-actors.json"
+      ],
+      "openLeads": [
+        "LEAD-P239L2-12"
+      ],
+      "historyDebt": [
+        "HD-P239L2-CABINET"
+      ],
+      "identityCaveat": "Hanja, birth/death and Korean gazette original pending; do not auto-merge homonyms.",
+      "originalRoster": "DOC-P239L2-UN-A2947",
+      "lastResearchPass": "239L2"
     }
   ],
   "recentResearchPass232": {
@@ -6277,5 +6840,27 @@
       "cand-1952-nov-chang-myon"
     ],
     "events_added": 22
+  },
+  "recentResearchPass239L2": {
+    "date": "2026-10-29",
+    "overlay": "data/politicians/pass-239l2-1955-cabinet-election-actors.json",
+    "new_candidates": [
+      "cand-p239l2-paik-han-sung",
+      "cand-p239l2-kim-hyung-kun",
+      "cand-p239l2-choi-jai-yoo",
+      "cand-p239l2-im-chui-ho",
+      "cand-p239l2-lee-joong-jai",
+      "cand-p239l2-chung-nak-hoon",
+      "cand-p239l2-kang-sung-tae",
+      "cand-p239l2-cho-yong-soon",
+      "cand-p239l2-lee-sun-keun",
+      "cand-p239l2-lee-jong-lim",
+      "cand-p239l2-lee-jong-tae",
+      "cand-p239l2-paik-seong-uk"
+    ],
+    "verified_promotion": [
+      "cand-p239l-kim-hyeon-cheol"
+    ],
+    "identity_warning": "Korean Hanja and gazette originals pending"
   }
 }
