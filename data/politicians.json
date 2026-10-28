@@ -766,18 +766,23 @@
       "backbone": false,
       "connections": [
         "evt-1951-geochang",
-        "evt-p238-1953-05-12-choi-delay"
+        "evt-p238-1953-05-12-choi-delay",
+        "evt-p238c-1953-05-25-rok-cabinet",
+        "evt-p238c-1953-05-27-choi-letter"
       ],
       "researchNotes": "거창사건 군법회의에서 작전명령 제5호 관련 증언이 동시대 보도로 확인됨. 사단장 책임과 연대·대대 실행책임, 상급 국방부 보고선을 분리 검증.",
       "researchRefs": [
         "data/politicians/pass-238-actor-overlays.json",
-        "data/annals/1953-may8-25-armistice-fiscal-agriculture.md"
+        "data/annals/1953-may8-25-armistice-fiscal-agriculture.md",
+        "data/politicians/pass-238c-korean-actors.json"
       ],
       "evidenceCoverage": [
         "DOC-P238-FRUS-512",
         "DOC-P238-FRUS-513",
         "DOC-P238-NIKH-CAT-LE_005_1530",
-        "DOC-P238-NIKH-CAT-PN_002_1150"
+        "DOC-P238-NIKH-CAT-PN_002_1150",
+        "DOC-P238-KOR-05_25_0030",
+        "DOC-P238-KOR-05_27_0030"
       ],
       "lastResearchPass": 238,
       "evidenceFile": "data/evidence/choi-duk-shin-1953.json",
@@ -1869,7 +1874,8 @@
       "connections": [
         "evt-p232-0918-party-merger",
         "evt-p232-0919-opposition-talks",
-        "evt-p234b-1215-prime-minister"
+        "evt-p234b-1215-prime-minister",
+        "evt-p238c-1953-05-27-assembly-harrison"
       ],
       "evidenceFile": "data/politicians/pass-232-1952-september-actors.json",
       "openLeadsFile": "data/research/leads/pass-232-20261028-next-lead-queue.json",
@@ -1882,12 +1888,16 @@
       "hanjaVerification": "1952 contemporaneous text or existing canonical registry",
       "partyAffiliationEvidence": "대한국민당/자유당 관련 동시대 상충 전언",
       "evidenceCoverage": [
-        "DOC-P234B-NIKH-1215-0060"
+        "DOC-P234B-NIKH-1215-0060",
+        "DOC-P238-KOR-05_27_0020"
       ],
       "researchNotes": "pass234B: 1952-12-15 총리 후임 물망으로 언론에 언급, 실제 지명 아님",
       "researchRefs": [
-        "data/politicians/pass-234-addendum-1952-dec-actors.json"
-      ]
+        "data/politicians/pass-234-addendum-1952-dec-actors.json",
+        "data/politicians/pass-238c-korean-actors.json",
+        "data/annals/1953-may8-25-armistice-fiscal-agriculture.md"
+      ],
+      "lastResearchPass": 238
     },
     {
       "id": "cand-1952-sep-us-ambassador-yang-yu-chan",
@@ -3722,6 +3732,190 @@
       "researchRefs": [
         "data/politicians/pass-236h-april-actors.json"
       ]
+    },
+    {
+      "id": "cand-p238-seo-min-ho",
+      "name": "서민호",
+      "aliases": [
+        "徐珉濠",
+        "Seo Min-ho (provisional)"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "1953 contemporary press only; exact birth/other dates require official registry"
+      },
+      "rolesByPeriod": [
+        {
+          "date": "1953-05-25",
+          "office": "국회의원·형사피고인",
+          "actionType": "자신의 정당방위 주장과 변호인 증거절차 이의는 별개"
+        }
+      ],
+      "eventIds": [
+        "evt-p238c-1953-05-25-seo-trial"
+      ],
+      "evidenceCoverage": [
+        "DOC-P238-KOR-05_25_0060"
+      ],
+      "openLeads": [
+        "LEAD-P238C-011"
+      ],
+      "historyDebt": [
+        "original official roster/stenogram pending"
+      ],
+      "researchStatus": "IDENTIFIED_CANDIDATE",
+      "promotionReason": "Contemporary dated original press transcription with name and institutional role; official personnel register still needed",
+      "backbone": false,
+      "connections": [
+        "evt-p238c-1953-05-25-seo-trial"
+      ],
+      "researchRefs": [
+        "data/politicians/pass-238c-korean-actors.json",
+        "data/annals/1953-may8-25-armistice-fiscal-agriculture.md"
+      ],
+      "lastResearchPass": 238,
+      "partyAffiliationEvidence": "unknown",
+      "evidenceFile": null,
+      "annalsFile": null
+    },
+    {
+      "id": "cand-p238-kim-jong-hoe",
+      "name": "김종회",
+      "aliases": [
+        "金從會",
+        "Kim Jong-hoe (provisional)"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": "1953-05-27",
+        "verification": "1953 contemporary press only; exact birth/other dates require official registry"
+      },
+      "rolesByPeriod": [
+        {
+          "date": "1953-05-27",
+          "office": "자유당 국회의원(충남 대덕), 과거 국방위원장이라는 보도",
+          "actionType": "심장마비 사망 보도; 생년은 기사상 31세만, 출생일 미확인"
+        }
+      ],
+      "eventIds": [
+        "evt-p238c-1953-05-27-kim-death"
+      ],
+      "evidenceCoverage": [
+        "DOC-P238-KOR-05_27_0060"
+      ],
+      "openLeads": [
+        "LEAD-P238C-010"
+      ],
+      "historyDebt": [
+        "original official roster/stenogram pending"
+      ],
+      "researchStatus": "IDENTIFIED_CANDIDATE",
+      "promotionReason": "Contemporary dated original press transcription with name and institutional role; official personnel register still needed",
+      "backbone": false,
+      "connections": [
+        "evt-p238c-1953-05-27-kim-death"
+      ],
+      "researchRefs": [
+        "data/politicians/pass-238c-korean-actors.json",
+        "data/annals/1953-may8-25-armistice-fiscal-agriculture.md"
+      ],
+      "lastResearchPass": 238,
+      "partyAffiliationEvidence": "1953-05-29 연합신문 contemporary report, official party roster pending",
+      "evidenceFile": null,
+      "annalsFile": null
+    },
+    {
+      "id": "cand-p238-choi-heon-gil",
+      "name": "최헌길",
+      "aliases": [
+        "崔獻吉",
+        "Choi Heon-gil (provisional)"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "1953 contemporary press only; exact birth/other dates require official registry"
+      },
+      "rolesByPeriod": [
+        {
+          "date": "1953-05-27",
+          "office": "국회 농촌 식량대책 논의 참여 인사",
+          "actionType": "농림부 수송 발표에 현지 미도착 반박 보도"
+        }
+      ],
+      "eventIds": [
+        "evt-p238c-1953-05-27-relief-dispute"
+      ],
+      "evidenceCoverage": [
+        "DOC-P238-KOR-05_27_0040"
+      ],
+      "openLeads": [
+        "LEAD-P238C-006"
+      ],
+      "historyDebt": [
+        "original official roster/stenogram pending"
+      ],
+      "researchStatus": "IDENTIFIED_CANDIDATE",
+      "promotionReason": "Contemporary dated original press transcription with name and institutional role; official personnel register still needed",
+      "backbone": false,
+      "connections": [
+        "evt-p238c-1953-05-27-relief-dispute"
+      ],
+      "researchRefs": [
+        "data/politicians/pass-238c-korean-actors.json",
+        "data/annals/1953-may8-25-armistice-fiscal-agriculture.md"
+      ],
+      "lastResearchPass": 238,
+      "partyAffiliationEvidence": "unknown",
+      "evidenceFile": null,
+      "annalsFile": null
+    },
+    {
+      "id": "cand-p238-baek-nam-sik",
+      "name": "백남식",
+      "aliases": [
+        "白南軾",
+        "Baek Nam-sik (provisional)"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "1953 contemporary press only; exact birth/other dates require official registry"
+      },
+      "rolesByPeriod": [
+        {
+          "date": "1953-05-27",
+          "office": "국회 농촌 식량대책 논의 참여 인사",
+          "actionType": "농림부 수송 발표에 현지 미도착 반박 보도"
+        }
+      ],
+      "eventIds": [
+        "evt-p238c-1953-05-27-relief-dispute"
+      ],
+      "evidenceCoverage": [
+        "DOC-P238-KOR-05_27_0040"
+      ],
+      "openLeads": [
+        "LEAD-P238C-007"
+      ],
+      "historyDebt": [
+        "original official roster/stenogram pending"
+      ],
+      "researchStatus": "IDENTIFIED_CANDIDATE",
+      "promotionReason": "Contemporary dated original press transcription with name and institutional role; official personnel register still needed",
+      "backbone": false,
+      "connections": [
+        "evt-p238c-1953-05-27-relief-dispute"
+      ],
+      "researchRefs": [
+        "data/politicians/pass-238c-korean-actors.json",
+        "data/annals/1953-may8-25-armistice-fiscal-agriculture.md"
+      ],
+      "lastResearchPass": 238,
+      "partyAffiliationEvidence": "unknown",
+      "evidenceFile": null,
+      "annalsFile": null
     }
   ],
   "recentResearchPass232": {
