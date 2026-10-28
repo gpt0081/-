@@ -1,0 +1,36 @@
+{
+  "pass": 244,
+  "date": "2026-10-29",
+  "comparison_bundles": [
+    {
+      "claim": "1959-04-30 경향신문 폐간행정처분",
+      "family_a": "1959-05-01 동아일보 원기사(국편 전사)",
+      "family_b": "1959-09-28 미대사관 FRUS d282",
+      "result": "TWO_FAMILIES_CONTEXTUAL",
+      "limitation": "동시대 한국 행정처분 사실은 교차; 대통령 결재·법원 최종판결 미확인"
+    },
+    {
+      "claim": "1960-03-15 선거 투표율",
+      "family_a": "국편 대한민국사연표 94.3% 표제와 10862272/11196490 표",
+      "family_b": "국가기록원 4.19 전개과정 97%",
+      "result": "CONFLICTED_WITHIN_NIKH_TABLE; NAK SUPPORTS_CALCULATED_97",
+      "limitation": "둘 다 후대 국가기관 큐레이션, 원 개표록 미열람"
+    },
+    {
+      "claim": "1960-04-26 이승만 4개항 성명",
+      "family_a": "FRUS d308/309 미 대사관 현장 기록",
+      "family_b": "조선일보 1960-04-26 원기사(국편 전사)",
+      "result": "TWO_FAMILIES_CONFIRM_PUBLICATION_AND_TEXT",
+      "limitation": "동일 대통령 발표의 파생 전사; 4/27 사퇴서 원본 미확보"
+    },
+    {
+      "claim": "1960-04-11~19 마산·서울 시위",
+      "family_a": "FRUS d295/d298 미국 동시대 현장 전문",
+      "family_b": "국가기록원 4.19 공식 연표",
+      "result": "TWO_FAMILIES_EVENT_OCCURRENCE",
+      "limitation": "국가기록원 후대 요약은 독립 동시대 1차 출처가 아님"
+    }
+  ],
+  "strict_three_independent_primary_family_confirmations": 0,
+  "method": "No duplicate family count; Korean later archival curation is not contemporaneous primary."
+}

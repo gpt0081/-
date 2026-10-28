@@ -97,7 +97,11 @@
         "evt-p239l-11",
         "evt-p243-1958-0122-ceiling",
         "evt-p243-1958-0224-rhee",
-        "evt-p243-1958-1227-rhee-briefing"
+        "evt-p243-1958-1227-rhee-briefing",
+        "evt-p244-1959-0815-rhee-office",
+        "evt-p244-1960-0419-martial-law",
+        "evt-p244-1960-0426-four-points",
+        "evt-p244-1960-0427-resignation"
       ],
       "researchRefs": [
         "data/politicians/pass-233-1952-rok-diplomacy-network.json",
@@ -176,7 +180,9 @@
         "evt-p240-19",
         "evt-p241-07",
         "evt-p243-1958-1118-security-draft",
-        "evt-p243-1958-1224-confinement"
+        "evt-p243-1958-1224-confinement",
+        "evt-p244-1959-0629-lp-convention",
+        "evt-p244-1960-0426-four-points"
       ],
       "evidenceCoverage": [
         "DOC-P234B-NIKH-1215-0060",
@@ -304,7 +310,8 @@
       "backbone": false,
       "connections": [
         "evt-1960-315-election",
-        "evt-1960-419-protests"
+        "evt-1960-419-protests",
+        "evt-p244-1960-0419-martial-law"
       ]
     },
     {
@@ -359,7 +366,9 @@
       "connections": [
         "evt-1960-315-election",
         "evt-p243-1958-1224-confinement",
-        "evt-p243-1958-1224-local"
+        "evt-p243-1958-1224-local",
+        "evt-p244-1959-0211-assembly-deadlock",
+        "evt-p244-1959-0511-party-talks"
       ],
       "researchOverlays": [
         "data/politicians/pass-243-1958-actor-evidence.json"
@@ -2877,7 +2886,10 @@
         "evt-p241-02",
         "evt-p241-03",
         "evt-p241-07",
-        "evt-p243-1958-0502-election"
+        "evt-p243-1958-0502-election",
+        "evt-p244-1959-0202-opposition-negotiation",
+        "evt-p244-1960-0315-election",
+        "evt-p244-1960-0423-chang-resignation"
       ],
       "researchRefs": [
         "data/politicians/pass-233-1952-rok-diplomacy-network.json",
@@ -3131,7 +3143,9 @@
         "evt-p239e-cho-rebuttal",
         "evt-p239e-cho-assault",
         "evt-p241-07",
-        "evt-p243-1958-1118-security-draft"
+        "evt-p243-1958-1118-security-draft",
+        "evt-p244-1959-0202-opposition-negotiation",
+        "evt-p244-1959-1127-dp-nomination"
       ],
       "researchRefs": [
         "data/politicians/pass-233-addendum-1952-domestic-actors.json",
@@ -3823,7 +3837,8 @@
       "backbone": false,
       "connections": [
         "evt-p235-assembly-caucus",
-        "evt-p235e-assembly-election-results"
+        "evt-p235e-assembly-election-results",
+        "evt-p244-1959-0511-party-talks"
       ],
       "evidenceCoverage": [
         "DOC-P235-NIKH-01_20_0040",
@@ -4433,7 +4448,8 @@
       "backbone": false,
       "connections": [
         "evt-p235i-party-realignment",
-        "evt-p239m2-04"
+        "evt-p239m2-04",
+        "evt-p244-1959-0211-assembly-deadlock"
       ],
       "evidenceCoverage": [
         "DOC-P235I-NIKH-03_01_0050"
@@ -4726,7 +4742,8 @@
         "evt-p236f-1953-03-16-yang-criticism",
         "evt-p236g-1953-03-20-han-pyo-wook",
         "evt-p236h-1953-04-08-student-association",
-        "evt-p241-09"
+        "evt-p241-09",
+        "evt-p244-1959-0603-foreign-minister"
       ],
       "researchRefs": [
         "data/politicians/pass-236-frus-diplomacy-actors.json",
@@ -6057,7 +6074,8 @@
         "evt-p239l2-15",
         "evt-p240-08",
         "evt-p240-11",
-        "evt-p241-08"
+        "evt-p241-08",
+        "evt-p244-1959-0603-foreign-minister"
       ],
       "evidenceCoverage": [
         "DOC-P239I-FRUS-764",
@@ -8629,7 +8647,9 @@
       "connections": [
         "evt-p242-13",
         "evt-p243-1958-0212-rok-mnd",
-        "evt-p243-1958-0224-rhee"
+        "evt-p243-1958-0224-rhee",
+        "evt-p244-1960-0419-martial-law",
+        "evt-p244-1960-0426-four-points"
       ],
       "evidenceCoverage": [
         "DOC-P242-FRUS-233"
@@ -8769,6 +8789,167 @@
       "researchOverlays": [
         "data/politicians/pass-243-1958-actor-evidence.json"
       ]
+    },
+    {
+      "id": "cand-p244-huh-chung",
+      "name": "허정",
+      "aliases": [
+        "許政",
+        "Huh Chung",
+        "Heo Jeong"
+      ],
+      "lifespan": {
+        "born": "1896",
+        "died": "1988",
+        "verification": "secondary biography; primary vital register pending"
+      },
+      "roles": [
+        "1919 상해임시정부 관련 독립운동",
+        "1948 제헌국회의원·교통부 장관",
+        "1950~1952 사회부장관",
+        "1957~1959 서울특별시장·한일회담 대표",
+        "1960-04 외무부장관·대통령권한대행"
+      ],
+      "researchStatus": "IDENTIFIED",
+      "backbone": false,
+      "connections": [
+        "evt-p244-1960-0426-four-points",
+        "evt-p244-1960-0427-resignation"
+      ],
+      "evidenceCoverage": "pass244 primary-text role evidence, original Korean appointment/identity pending",
+      "openLeadsFile": "data/research/leads/pass-244-1959-1960-next.json",
+      "researchNote": "AKS biography plus FRUS d309/d312"
+    },
+    {
+      "id": "cand-p244-chu-yo-han",
+      "name": "주요한",
+      "aliases": [
+        "朱耀翰",
+        "Chu Yo-han",
+        "Joo Yohan"
+      ],
+      "lifespan": {
+        "born": "1900",
+        "died": "1979",
+        "verification": "secondary biography; primary vital register pending"
+      },
+      "roles": [
+        "1958~1960 제4대 국회의원·민주당 신파",
+        "1959-05-09 민주당 협상 전략에 관한 미국 외교관 대화",
+        "1960 부흥부·상공부 장관(정확한 임명 원관보 미확인)"
+      ],
+      "researchStatus": "IDENTIFIED",
+      "backbone": false,
+      "connections": [
+        "evt-p244-1959-0511-party-talks"
+      ],
+      "evidenceCoverage": "pass244 primary-text role evidence, original Korean appointment/identity pending",
+      "openLeadsFile": "data/research/leads/pass-244-1959-1960-next.json",
+      "researchNote": "FRUS d272 and LTI Korea author authority"
+    },
+    {
+      "id": "cand-p244-chong-un-gap",
+      "name": "정운갑",
+      "aliases": [
+        "鄭雲甲",
+        "Chong Un-gap",
+        "Chung Woon-gap"
+      ],
+      "lifespan": {
+        "born": "1913",
+        "died": "1985",
+        "verification": "secondary biography; primary vital register pending"
+      },
+      "roles": [
+        "1953~1955 총무처장",
+        "1955~1957 농림부장관",
+        "1958 제4대 자유당 국회의원",
+        "1959-04-29 국회 협상위원 대표 접촉"
+      ],
+      "researchStatus": "IDENTIFIED",
+      "backbone": false,
+      "connections": [
+        "evt-p244-1959-0429-rhee-statement"
+      ],
+      "evidenceCoverage": "pass244 primary-text role evidence, original Korean appointment/identity pending",
+      "openLeadsFile": "data/research/leads/pass-244-1959-1960-next.json",
+      "researchNote": "FRUS d271; vital dates secondary only"
+    },
+    {
+      "id": "cand-p244-song-yo-chan",
+      "name": "송요찬",
+      "aliases": [
+        "宋堯讚",
+        "Song Yo-chan"
+      ],
+      "lifespan": {
+        "born": "1918",
+        "died": "1980",
+        "verification": "secondary biography; primary vital register pending"
+      },
+      "roles": [
+        "1959~1960 육군참모총장",
+        "1960-04-19 군 병력 동원 협의 관련자",
+        "1961 국방부장관·내각수반(후대 이력 원관보 미확인)"
+      ],
+      "researchStatus": "IDENTIFIED",
+      "backbone": false,
+      "connections": [
+        "evt-p244-1960-0419-martial-law"
+      ],
+      "evidenceCoverage": "pass244 primary-text role evidence, original Korean appointment/identity pending",
+      "openLeadsFile": "data/research/leads/pass-244-1959-1960-next.json",
+      "researchNote": "FRUS d299 editorial referring original cable; independent Korean military record pending"
+    },
+    {
+      "id": "cand-p244-park-chan-il",
+      "name": "박찬일",
+      "aliases": [
+        "Park Chan-il",
+        "Pak Chan-il"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "unverified"
+      },
+      "roles": [
+        "1959-08 대통령 비서 역할에 관한 미대사관 평가",
+        "1960-04-26 대통령 면담 연결 관련 경무대 비서"
+      ],
+      "researchStatus": "DISCOVERED",
+      "backbone": false,
+      "connections": [
+        "evt-p244-1959-0815-rhee-office",
+        "evt-p244-1960-0426-four-points"
+      ],
+      "evidenceCoverage": "pass244 primary-text role evidence, original Korean appointment/identity pending",
+      "openLeadsFile": "data/research/leads/pass-244-1959-1960-next.json",
+      "researchNote": "FRUS d280, d308; 한자·생몰·정식 직급 미확인"
+    },
+    {
+      "id": "cand-p244-yun-chesul",
+      "name": "윤채설(표기 잠정)",
+      "aliases": [
+        "Yun Chesul",
+        "Yun Chae-sul"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "unverified"
+      },
+      "roles": [
+        "1959-05 민주당 구파 협상위원으로 미대사관에 발언"
+      ],
+      "researchStatus": "DISCOVERED",
+      "backbone": false,
+      "connections": [
+        "evt-p244-1959-0511-party-talks"
+      ],
+      "evidenceCoverage": "pass244 primary-text role evidence, original Korean appointment/identity pending",
+      "openLeadsFile": "data/research/leads/pass-244-1959-1960-next.json",
+      "researchNote": "FRUS d272 English romanization only; Korean spelling and same-person identity UNVERIFIED"
     }
   ],
   "recentResearchPass232": {
