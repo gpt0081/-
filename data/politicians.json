@@ -51,7 +51,17 @@
       "researchStatus": "candidate",
       "backbone": false,
       "connections": [
-        "evt-1960-315-election"
+        "evt-1960-315-election",
+        "evt-p234b-1215-prime-minister"
+      ],
+      "evidenceCoverage": [
+        "DOC-P234B-NIKH-1215-0060"
+      ],
+      "researchNotes": [
+        "pass234B: 1952-12-15 전 국방부장관으로 총리 후임 물망에 언급, 실제 지명 아님"
+      ],
+      "researchRefs": [
+        "data/politicians/pass-234-addendum-1952-dec-actors.json"
       ]
     },
     {
@@ -503,7 +513,9 @@
         "evt-1953-us-rok-mutual-defense-negotiation",
         "evt-p232-0917-finance-critique",
         "evt-p232-0918-reimbursement-split",
-        "evt-p233-add-rhee-parliament-agenda"
+        "evt-p233-add-rhee-parliament-agenda",
+        "evt-p234b-1212-paik-ministry",
+        "evt-p234b-1215-rice-supply"
       ],
       "researchNotes": [
         "1",
@@ -673,12 +685,18 @@
         "검",
         "토",
         ".",
-        "2026-10-28 pass233 정정: 직접 출처 없이 연결된 event edge 제거, 인물 candidate 연구 단서는 보존"
+        "2026-10-28 pass233 정정: 직접 출처 없이 연결된 event edge 제거, 인물 candidate 연구 단서는 보존",
+        "pass234B: 1952-12-12 부흥부 신설 구상·유엔 원화대여금 4580억원 주장·11/13 현금교환 요청 공한, 12/15 450만석 양곡수입 합의 주장"
       ],
       "pass232Overlay": "data/politicians/pass-232-1952-september-actors.json",
       "researchRefs": [
         "data/politicians/pass-233-1952-rok-diplomacy-network.json",
-        "data/politicians/pass-233-addendum-1952-domestic-actors.json"
+        "data/politicians/pass-233-addendum-1952-domestic-actors.json",
+        "data/politicians/pass-234-addendum-1952-dec-actors.json"
+      ],
+      "evidenceCoverage": [
+        "DOC-P234B-NIKH-1212-0040",
+        "DOC-P234B-NIKH-1215-0100"
       ]
     },
     {
@@ -820,12 +838,20 @@
       "connections": [
         "evt-1953-us-rok-mutual-defense-negotiation",
         "evt-p233-1017-uncurk",
-        "evt-p233-add-rhee-lim-media"
+        "evt-p233-add-rhee-lim-media",
+        "evt-p234b-1215-un-debate"
       ],
-      "researchNotes": "1953-05-27 휴전안 대응을 이승만에게 보고한 서한과 08-08 덜레스 최종회담 참가가 확인됨. 주유엔 대표 재임기간·외교부 직제 원문 확인 후 VERIFIED 검토.",
+      "researchNotes": [
+        "1953-05-27 휴전안 대응을 이승만에게 보고한 서한과 08-08 덜레스 최종회담 참가가 확인됨. 주유엔 대표 재임기간·외교부 직제 원문 확인 후 VERIFIED 검토.",
+        "pass234B: 1952-12-15 UN 인도안 거부 후 대한민국 대표로 발언(신문 보도, 공식 UN verbatim 기록 미확보)"
+      ],
       "researchRefs": [
         "data/politicians/pass-233-1952-rok-diplomacy-network.json",
-        "data/politicians/pass-233-addendum-1952-domestic-actors.json"
+        "data/politicians/pass-233-addendum-1952-domestic-actors.json",
+        "data/politicians/pass-234-addendum-1952-dec-actors.json"
+      ],
+      "evidenceCoverage": [
+        "DOC-P234B-NIKH-1215-0020"
       ]
     },
     {
@@ -1322,7 +1348,8 @@
       "backbone": false,
       "connections": [
         "evt-p232-0918-interior-police",
-        "evt-p232-0916-governors"
+        "evt-p232-0916-governors",
+        "evt-p234b-1211-jin-statement"
       ],
       "evidenceFile": "data/politicians/pass-232-1952-september-actors.json",
       "openLeadsFile": "data/research/leads/pass-232-20261028-next-lead-queue.json",
@@ -1333,7 +1360,16 @@
         "verification": "not independently checked this pass"
       },
       "hanjaVerification": "CONFLICTED: dh_026_1952_09_18_0050 기사 제목 陣憲植, 본문 陳내무장관; dh_026_1952_09_18_0040 陳憲植. 공식 인사발령 원문 확인 전 canonical Hanja 잠정",
-      "partyAffiliationEvidence": "unknown"
+      "partyAffiliationEvidence": "unknown",
+      "evidenceCoverage": [
+        "DOC-P234B-NIKH-1211-0040"
+      ],
+      "researchNotes": [
+        "pass234B: 1952-12-11 내무장관으로 대통령 12/9 담화의 반정부자 정의 해석·가정부 음모 주장"
+      ],
+      "researchRefs": [
+        "data/politicians/pass-234-addendum-1952-dec-actors.json"
+      ]
     },
     {
       "id": "cand-1952-sep-police-mun-bong-je",
@@ -1647,7 +1683,8 @@
       "backbone": false,
       "connections": [
         "evt-p232-0918-party-merger",
-        "evt-p232-0919-opposition-talks"
+        "evt-p232-0919-opposition-talks",
+        "evt-p234b-1215-prime-minister"
       ],
       "evidenceFile": "data/politicians/pass-232-1952-september-actors.json",
       "openLeadsFile": "data/research/leads/pass-232-20261028-next-lead-queue.json",
@@ -1658,7 +1695,16 @@
         "verification": "not independently checked this pass"
       },
       "hanjaVerification": "1952 contemporaneous text or existing canonical registry",
-      "partyAffiliationEvidence": "대한국민당/자유당 관련 동시대 상충 전언"
+      "partyAffiliationEvidence": "대한국민당/자유당 관련 동시대 상충 전언",
+      "evidenceCoverage": [
+        "DOC-P234B-NIKH-1215-0060"
+      ],
+      "researchNotes": [
+        "pass234B: 1952-12-15 총리 후임 물망으로 언론에 언급, 실제 지명 아님"
+      ],
+      "researchRefs": [
+        "data/politicians/pass-234-addendum-1952-dec-actors.json"
+      ]
     },
     {
       "id": "cand-1952-sep-us-ambassador-yang-yu-chan",
@@ -2259,6 +2305,35 @@
       ],
       "openLeads": [
         "임흥순: 제2대 국회 의원명부·1952-12-01 원속기록에서 직책/발언과 생몰을 독립 검증"
+      ]
+    },
+    {
+      "id": "cand-1952-dec-yun-myeong-un",
+      "name": "윤명운",
+      "aliases": [
+        "윤명운",
+        "尹明運",
+        "Yun Myeong-un"
+      ],
+      "roles": [
+        "서울특별시 경찰국장"
+      ],
+      "researchStatus": "candidate-identified",
+      "researchMaturity": "IDENTIFIED",
+      "researchStatusReason": "실명·한자·경찰국장 직책·구체 발언이 동시대 보도에 확인",
+      "backbone": false,
+      "connections": [
+        "evt-p234b-1215-seoul-police-fees"
+      ],
+      "researchRefs": [
+        "data/politicians/pass-234-addendum-1952-dec-actors.json"
+      ],
+      "evidenceCoverage": [
+        "DOC-P234B-NIKH-1215-0140"
+      ],
+      "openLeads": [
+        "서울시 경찰국 1952-12-14 윤명운 기자회견 원문 및 교풍친목회 조사 결과 확인",
+        "1952년 서울특별시 경찰국장 임면관보와 윤명운 생몰·이명 확인"
       ]
     }
   ],
