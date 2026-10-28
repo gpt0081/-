@@ -23,4 +23,4 @@
 - 이승만 7/27 정전 불방해: 국편 민주신보 당시 담화 전사 + FRUS d722·d724·d725. 한국 당시 공개발언과 미 외교·군 보고 계열 교차.
 - 백두진·변영태 7/21 네 요구: FRUS d703 동시대 미측 보고와 국편 이승만서한철 7/21 변영태 문서 **목록**. 한국측 서한 원문 미열람으로 2차 독립 확증 보류.
 
-불확실성·반증은 `data/claims/pass-239h-july1953-adversarial.json`, 37개 원문 표적은 `data/research/leads/pass-239h-next-queue.json` 참조. Floot 미수정. 역사부채 주간 전수조사 미실시.
+불확실성·반증은 `data/claims/pass-239h-july1953-adversarial.json`, 38개 원문 표적은 `data/research/leads/pass-239h-next-queue.json` 참조. Floot 미수정. 역사부채 주간 전수조사 미실시.

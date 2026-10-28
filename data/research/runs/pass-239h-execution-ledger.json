@@ -49,5 +49,25 @@
   ],
   "execution_note": "Continued from pass239G to July 1953; moved from diplomatic text to Korean press and cabinet agenda index instead of repeating blocked gazette searches.",
   "new_document_registry_entries": 58,
-  "correction": "Post-commit provenance and role audit: fixed 13 adversarial claim evidence polarities, 7 event actor attributions, ministerial tenure links, Sohn Won-il misattributed document ref, split Paik July9 and Gal July21 actions."
+  "correction": "Post-commit provenance and role audit: fixed 13 adversarial claim evidence polarities, 7 event actor attributions, ministerial tenure links, Sohn Won-il misattributed document ref, split Paik July9 and Gal July21 actions.",
+  "commits_completed_before_final_validation": [
+    "3fec787925395aa154689071dc743d8c16260c3e",
+    "3d9a0d174f070923e93bba3de48a8317bc45a8c3",
+    "c6bc12f88a3a21c71bd8b772bcc8f770f4abf744"
+  ],
+  "validation": {
+    "central_politicians": 145,
+    "central_events": 449,
+    "pass_documents": 58,
+    "pass_events": 19,
+    "pass_claims": 13,
+    "lead_count": 38,
+    "missing_politician_references": 0,
+    "missing_document_references": 0,
+    "missing_event_references": 0,
+    "missing_lead_references": 0,
+    "duplicate_event_ids": 0,
+    "duplicate_document_ids": 0
+  },
+  "provenance_audit_note": "Document supporting_evidence now means evidence for the claim as worded, not merely related source; negative hypotheses refuted by originals use contradicting_evidence. The FRUS series remains one source family."
 }
