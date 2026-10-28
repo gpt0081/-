@@ -1,6 +1,6 @@
 # Event registry shard index
 
-자동 생성 기준: 2026-10-29, GitHub main 411914d936cd. 총 **76개 JSON shard**. 이 목록은 발견 가능한 파일 경로의 전수 색인이며, 개별 레코드 수·독립 원문 수·검증 완료 수를 뜻하지 않는다. 파일 내 중복 문서/사건/주장 ID가 있을 수 있으므로 검증 시 ID·provenance_family로 중복 제거한다.
+갱신 기준: 2026-10-29, pass244 추가. 경로 색인이며 전수 중복 URL/ID 정규화는 별도 과제.
 
 호환용 중앙 registry: `data/events.json`. 개별 event shard는 중앙 registry에 모두 포함된 것이 아니므로 base와 shard를 함께 조회한다.
 
@@ -82,3 +82,6 @@
 - `data/events/run88-grain-busan.json`
 - `data/events/run88-health-local-actions.json`
 - `data/events/run88-who-accession.json`
+
+- `data/events/pass-244-1959-1960-statecraft.json` (pass244; 2026-10-29)
+- `data/events/pass-244b-1960-transition-actions.json` (pass244; 2026-10-29)

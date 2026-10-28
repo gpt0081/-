@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "created_at": "2026-10-29",
+  "method": "legacy shard ID aliases map to a single canonical registry identity, not duplicate politician objects",
+  "aliases": [
+    {
+      "legacy_id": "pol-huh-chung",
+      "canonical_id": "cand-p244-huh-chung",
+      "source": "data/events/run75-second-republic-transition-events.json",
+      "review_status": "IDENTIFIED; existing run75 event references legacy ID"
+    },
+    {
+      "legacy_id": "pol-kwak-sang-hun",
+      "canonical_id": "cand-p235-kwak-sang-hun",
+      "source": "data/events/run75-second-republic-transition-events.json",
+      "review_status": "VERIFIED"
+    }
+  ]
+}

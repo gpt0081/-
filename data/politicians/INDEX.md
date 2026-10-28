@@ -161,3 +161,6 @@
 - 후속 원문 표적 48건: `data/research/leads/pass-243-1958-next.json`. 독립 3계열 원문 확증은 0, 미해결은 역사부채로 보존.
 
 - pass243 추가 검증: FRUS d222 편집주석을 원문과 별개 2차 편집자료로 등록. 자유당 137(6/4 평가)과 126(5/2 당선)의 차이는 무소속 11명 입당 가설로 NARROWED, 원 국회 소속변동원장 확보 전 미확정. 원문표적 50개.
+
+- `data/politicians/pass-244-1959-1960-actors.json` (2026-10-29; 16 actor evidence overlays)
+- `data/politicians/id-aliases-pass244.json` (legacy ID resolver; not additional people)
