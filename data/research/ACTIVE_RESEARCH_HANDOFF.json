@@ -4,7 +4,7 @@
   "activeBranch": "main",
   "branchHead": "moving-ref:refs/heads/main",
   "baseMain": "0bae0fd2c2ce592e6699095fbe4593d07e9b778e",
-  "status": "MAIN_RESEARCH_COMMITTED_PASS233; PREVIOUS_RUN89_REVIEW_BRANCH_STILL_PENDING",
+  "status": "MAIN_RESEARCH_COMMITTED_PASS234; PREVIOUS_RUN89_REVIEW_BRANCH_STILL_PENDING",
   "summary": {
     "pass229DocumentsOpened": 105,
     "pass229PrimaryOrContemporary": 93,
@@ -56,53 +56,30 @@
     "pass233NewLeads": 85,
     "pass233StrictTripleProvenance": 3
   },
-  "nextAction": "Read 1952-dec01-unkra-korean-confirmation.md; UNKRA 11/24 approval + 11/27 Korean finance notice established. Next: Korean Ministry of Finance receipt, 5m food import, Lee Byeong-ho/Won Yong-seok appointments, monthly actual spending; keep 1952 A/2187 and Japanese 10/14 note open.",
+  "nextAction": "pass234: 1952-12-01 가마니 융자 287억/387억 원속기록, 4286년 예산안 200억 내부 차이, 1953-02-09 NSC 118 8700만달러 결정과 한국은행 정산원장 확인. pass233 UN A/2187·UNKRA 집행 미해결 계속.",
   "mainDataModified": true,
   "latestRun": {
-    "pass": 233,
+    "pass": 234,
     "date": "2026-10-28",
-    "ledger": "data/research/runs/pass-233-execution-ledger.json",
-    "leadQueue": "data/research/leads/pass-233-20261028-next-lead-queue.json",
-    "documentRegistry": "data/documents/pass-233-1952-oct-nov-frus-un.json",
-    "eventRegistry": "data/events/pass-233-1952-un-diplomacy-reconstruction.json",
-    "claimRegistry": "data/claims/pass-233-1952-un-diplomacy-adversarial.json",
-    "actorOverlay": "data/politicians/pass-233-1952-rok-diplomacy-network.json",
-    "annals": "data/annals/1952-oct-nov-un-diplomacy-reconstruction.md",
+    "ledger": "data/research/runs/pass-234-execution-ledger.json",
+    "leadQueue": "data/research/leads/pass-234-20261028-next-lead-queue.json",
+    "documentRegistry": "data/documents/pass-234-1952-dec-state-finance.json",
+    "eventRegistry": "data/events/pass-234-1952-dec-state-finance.json",
+    "claimRegistry": "data/claims/pass-234-1952-dec-state-finance.json",
+    "actorOverlay": "data/politicians/pass-234-1952-dec-legislative-actors.json",
+    "annals": "data/annals/1952-dec-state-finance-education-relief.md",
     "metrics": {
-      "independent_research_lines": 28,
-      "general_governance_domains_reinforced": 10,
-      "non_presidential_politician_nodes_deepened": 20,
-      "new_candidate_nodes": 12,
-      "new_or_enriched_event_actions": 36,
-      "source_pages_directly_opened_substantive": 80,
-      "primary_or_contemporary_original_origin": 78,
-      "original_facsimile_images": 0,
-      "adversarial_claim_checks": 39,
-      "tracked_prior_open_leads": 12,
-      "new_specific_leads": 85,
-      "provenance_cross_checks_contextual": 6,
-      "strict_three_independent_primary_families": 3,
-      "history_debts_resolved": 0,
-      "non_presidential_candidate_catalog_or_context_only": 1,
-      "official_retrospective_direct_read": 2,
-      "unique_source_families": [
-        "US FRUS",
-        "UN original report and meeting",
-        "Korean contemporary newspaper",
-        "ROK President correspondence",
-        "Japanese government original note",
-        "US diplomatic note through Japan archive",
-        "UN and ROK retrospective official"
-      ]
+      "documents_directly_opened": 20,
+      "primary_or_contemporary": 20,
+      "non_presidential_candidates": 5,
+      "event_actions": 14,
+      "claims": 17,
+      "leads": 34,
+      "prior_leads_tracked": 8,
+      "independent_lines": 13,
+      "domains": 9
     },
-    "weeklyDebtFullReview": false,
-    "correction": "pass233 immediate provenance and counting audit: 7 claim-edge corrections, 4 unsupported actor edges removed, independent lines 14, 8 source-grounded non-presidential deepening",
-    "addendum": "data/annals/1952-oct-nov-domestic-state-addendum.md",
-    "addendumLeadQueue": "data/research/leads/pass-233-addendum-20261028-next-lead-queue.json",
-    "addendumDocuments": "data/documents/pass-233-addendum-1952-nikh-press-letters.json",
-    "unJapanFollowup": "data/annals/1952-unkra-uncurk-maritime-three-way.md",
-    "dec1Confirmation": "data/annals/1952-dec01-unkra-korean-confirmation.md",
-    "finalAudit": "Conservative independent research line de-dup 28, insufficient-evidence edge corrections, remaining contextual actor 1"
+    "weeklyDebtFullReview": false
   },
   "latestCorrections": [
     {
@@ -261,5 +238,20 @@
     "data/research/HISTORY_DEBT.md",
     "data/research/rhee-syngman-coverage.json",
     "data/research/runs/pass-233-execution-ledger.json"
+  ],
+  "pass234Files": [
+    "data/documents/pass-234-1952-dec-state-finance.json",
+    "data/politicians/pass-234-1952-dec-legislative-actors.json",
+    "data/events/pass-234-1952-dec-state-finance.json",
+    "data/claims/pass-234-1952-dec-state-finance.json",
+    "data/research/leads/pass-234-20261028-next-lead-queue.json",
+    "data/annals/1952-dec-state-finance-education-relief.md",
+    "data/research/runs/pass-234-execution-ledger.json",
+    "data/politicians.json",
+    "data/events.json",
+    "data/research/HISTORY_DEBT.md",
+    "data/research/rhee-syngman-coverage.json",
+    "data/politicians/INDEX.md",
+    "data/research/ACTIVE_RESEARCH_HANDOFF.json"
   ]
 }
