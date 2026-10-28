@@ -3236,7 +3236,10 @@
       "documentIds": [
         "DOC-P234B-NIKH-1212-0040"
       ],
-      "domain": "행정·재정"
+      "domain": "행정·재정",
+      "laterFindingRefs": [
+        "evt-p234d-1955-reconstruction-ministry"
+      ]
     },
     {
       "id": "evt-p234b-1212-welfare-audit",
@@ -3444,7 +3447,10 @@
       "documentIds": [
         "DOC-P234B-NIKH-1215-0110"
       ],
-      "domain": "농정·정당·지방행정"
+      "domain": "농정·정당·지방행정",
+      "laterFindingRefs": [
+        "DOC-P234D-AKS-FARM-MOVEMENT"
+      ]
     },
     {
       "id": "evt-p234b-1215-vested-property",
@@ -3745,6 +3751,54 @@
         "DOC-P234C-ICRC-GCIII-KR"
       ],
       "domain": "외교·국제인도법"
+    },
+    {
+      "id": "evt-p234d-1953-rhee-wage-rice",
+      "name": "이승만 공무원 월급 양곡 인상과 인플레이션 우려 담화",
+      "date": "1953-09-08",
+      "politicians": [
+        "pol-rhee-syngman"
+      ],
+      "institutions": [],
+      "evidenceState": "structured-with-open-leads",
+      "confirmed": [
+        "직접 확인 문서 DOC-P234D-PA-1953-WAGE-RICE에 해당 시기 행위·제도변화 기록"
+      ],
+      "openQuestions": [
+        "대통령 발언과 공무원 실제 수당지급 원장은 별개. 1952-12 전시수당 결정과 동일 사건 아님."
+      ],
+      "sources": [
+        "https://dams.pa.go.kr/dams/DOCUMENT/2009/11/26/DOC/SRC/0104200911264038900040389012356.PDF"
+      ],
+      "actionRegistryFile": "data/events/pass-234-addendum-d-1952-1955-economic.json",
+      "documentIds": [
+        "DOC-P234D-PA-1953-WAGE-RICE"
+      ],
+      "domain": "행정·재정·노동"
+    },
+    {
+      "id": "evt-p234d-1955-reconstruction-ministry",
+      "name": "정부조직법 법률 제354호 전부개정에 따른 부흥부 신설",
+      "date": "1955-02-07",
+      "politicians": [],
+      "institutions": [],
+      "evidenceState": "structured-with-open-leads",
+      "confirmed": [
+        "직접 확인 문서 DOC-P234D-NARA-RECONSTRUCTION, DOC-P234D-AKS-RECONSTRUCTION에 해당 시기 행위·제도변화 기록"
+      ],
+      "openQuestions": [
+        "법제처 공식 법률 색인에서 법률번호·시행일 확인, 법률 개정문 본문·관보 원면은 미열람."
+      ],
+      "sources": [
+        "https://theme.archives.go.kr/next/economicDevelopment/reconstruction.do?page=4",
+        "https://encykorea.aks.ac.kr/Article/E0024623"
+      ],
+      "actionRegistryFile": "data/events/pass-234-addendum-d-1952-1955-economic.json",
+      "documentIds": [
+        "DOC-P234D-NARA-RECONSTRUCTION",
+        "DOC-P234D-AKS-RECONSTRUCTION"
+      ],
+      "domain": "행정·산업·경제"
     }
   ],
   "recentResearchPass232": {
