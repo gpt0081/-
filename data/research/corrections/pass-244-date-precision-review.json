@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-29",
+  "pass": "244e",
+  "method": "No silent overwrite; preserve previous date and correct temporal granularity",
+  "corrections": [
+    {
+      "id": "evt-p244-1959-0108-gao",
+      "previous_date": "1959-01-08",
+      "new_date": null,
+      "reason": "FRUS d265/d266 only refer to a recent GAO report; exact January 8 date was unsupported"
+    },
+    {
+      "id": "evt-p244-1960-0423-chang-resignation",
+      "previous_single_date": "1960-04-23",
+      "new_date_range": "1960-04-23/24",
+      "reason": "FRUS d305 editorial distinguishes Chang resignation Apr23 and Rhee cabinet resignations Apr24"
+    }
+  ],
+  "status": "corrected_in_central_event_shard_and_lead_queue"
+}

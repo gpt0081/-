@@ -4,8 +4,8 @@
   "events": [
     {
       "id": "evt-p244-1959-0108-gao",
-      "date": "1959-01-08",
-      "name": "GAO 한국 군사원조 감사보고서 미 의회 보고",
+      "date": null,
+      "name": "미 GAO 한국군 군사원조 감사보고서: 1959-01-23 외교문서에서 최근 보고서로 언급",
       "domain": "재정·감사",
       "politicians": [
         "cand-p242-kim-jeong-ryeol"
@@ -24,8 +24,21 @@
       ],
       "later_finding": [],
       "evidenceState": "NARROWED",
-      "uncertainty": "미 회계감사 보고 존재를 외교문서 각주가 지시; 원 보고서 미열람",
-      "provenance_warning": "US documents establish US observation/assessment; not direct ROK decision or instruction."
+      "uncertainty": "GAO 감사보고서의 작성일·의회 제출일·보고서 번호 원본 미확보; 1959-01-08은 근거 없이 기입된 날짜이므로 철회",
+      "provenance_warning": "US documents establish US observation/assessment; not direct ROK decision or instruction.",
+      "date_range": "1958-12 to 1959-01-23 (tentative, not original report date)",
+      "review_history": [
+        {
+          "date": "2026-10-29",
+          "correction": "Removed unsupported precise 1959-01-08 event date",
+          "previous": {
+            "date": "1959-01-08",
+            "name": "GAO 한국 군사원조 감사보고서 미 의회 보고"
+          },
+          "new_date": null,
+          "next_original": "US GAO 1958-12~1959-01 Korea military assistance audit original report"
+        }
+      ]
     },
     {
       "id": "evt-p244-1959-0123-dowling",
@@ -607,8 +620,29 @@
       ],
       "later_finding": [],
       "evidenceState": "NARROWED",
-      "uncertainty": "편집주석에 원 전문번호; 한국 원 사표·수리 관보 미확보",
-      "provenance_warning": "US documents establish US observation/assessment; not direct ROK decision or instruction."
+      "uncertainty": "장면 4/23 발표와 내각 4/24 사퇴 수리 날짜를 별도 sub-event로 분리; 원 사표·관보 미열람",
+      "provenance_warning": "US documents establish US observation/assessment; not direct ROK decision or instruction.",
+      "date_range": "1960-04-23/1960-04-24",
+      "sub_events": [
+        {
+          "date": "1960-04-23",
+          "action": "장면 부통령 사임 발표",
+          "actor_ids": [
+            "cand-1952-nov-chang-myon"
+          ],
+          "source": "DOC-P244-FRUS-305",
+          "source_kind": "editorial_note_pointer_to_telegram_944"
+        },
+        {
+          "date": "1960-04-24",
+          "action": "이승만 내각 사표 수리 및 정당활동에서 물러나겠다는 방침 발표",
+          "actor_ids": [
+            "pol-rhee-syngman"
+          ],
+          "source": "DOC-P244-FRUS-305",
+          "source_kind": "editorial_note_pointer_to_telegram_957"
+        }
+      ]
     },
     {
       "id": "evt-p244-1960-0426-four-points",
