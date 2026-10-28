@@ -686,3 +686,16 @@
 - 역사부채 주간 전수조사 미실시. last_full_review 변경 없음.
 
 - **Pass238G chronology correction** (2026-10-28): 수원지원 피난민 보도 인심혹란죄 무죄판결 기사 `dh_029_1953_05_06_0090`의 게재·색인일은 1953-05-06, 기사상 '지난 28일' 판결일은 1953-04-28로 분리하여 event `evt-p238e-1953-05-06-press-acquittal`의 date를 교정. 법원 판결 원본은 여전히 OPEN. silent overwrite 금지에 따라 review_history 기록. 주간 전수조사 미실시.
+
+## Pass239 targeted review (2026-10-28 Wednesday), not weekly full review
+- **HD-P238C-CHOI-LETTER-APPROVAL** [NARROWED]: FRUS d562 footnote identifies 1953-05-28 Choi Duk-shin→Harrison letter CX62717; its final sentence labels views personal. 5/27 anonymous presidential approval report remains unproven; compare 5/27 vs 5/28 originals before status resolution.
+- **HD-P238C-RELIEF-DELIVERY** [CONFLICTED maintained]: 5/26 cabinet rice loan 5만석 versus 5/27 4만석, plus 6/1 Seoul warehouse 10만여석. Shipment, warehousing and farmer receipt are separate. No signed cabinet or final receipt records.
+- **HD-P238E-BOND-MATH** [CONFLICTED maintained]: new 5/26 105억 Seoul national bond report vs 5/29 Bank of Korea Seoul 1억535만7880환. The earlier 20억 nationwide report's 14/3/3 percentage mismatch remains; do not merge city bond and national bond.
+- **HD-P238E-SEOUL-MUNICIPAL-BOND** [CONFLICTED maintained]: 5/26 서울시채 3000만환 supports one variant of 5/15 article, but 13000만환 variant still requires city council resolution.
+- **HD-P237-EVERREADY-EXECUTION** [NARROWED]: May29 State-JCS discussion d559 (DRAFT NOT CLEARED), May29 DA940238 preliminary force protection, May30 DA940242 explicit rejection of UNC military government. Everready planning not proof of execution or coup authorization.
+- **HD-P239-PYUN-ACTING-PM** [OPEN]: 5/26 FRUS d552 and 5/28 Korean Assembly newspaper style Pyun acting PM; 5/19 Paek still PM. Seek formal acting delegation, not assume succession.
+- **HD-P239-CURRENCY-ARITHMETIC** [CONFLICTED]: 5/26 부산일보 issuance 150억→112억 described as rising and 54-37.2=17.8억 stated, arithmetically 16.8억. Original Bank of Korea statistics required.
+- **HD-P239-COAL-TARIFF-MATH** [CONFLICTED]: 6/1 경향신문 reports 600→3500환 bituminous coal and 2.2x; calculated 5.83x. Actual Commerce Ministry rate order still OPEN.
+- **HD-P239-SCHOOL-EXAM** [OPEN]: 6/1 ministry proposal/central committee approval to abolish middle-school common entrance exam next year is not proof of implemented rule.
+- **HD-P239-SMALLPOX** [OPEN]: 6/1 Gyeongbuk 719 cases (Yeongju 117, Daegu 50) press figure, official morbidity and vaccination registers not yet acquired.
+- Targeted prior lead tracking: data/research/debt/pass-239-targeted-review.json (11). 35 specific new original targets queued. **역사부채 주간 전수조사 미실시**. last_full_review unchanged.

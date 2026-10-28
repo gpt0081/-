@@ -1,6 +1,6 @@
 {
   "politicianId": "president-rhee-syngman",
-  "updatedAt": "2026-09-20",
+  "updatedAt": "2026-10-28",
   "rule": "새 회차는 기존 완료 자료를 재검색하지 않고 unresolved를 먼저 해결한다.",
   "queue": [
     {
@@ -184,6 +184,62 @@
       "priority": "high",
       "status": "narrowed",
       "next": "FRUS d417 및 한국은행 1953년 정산원장"
+    },
+    {
+      "id": "LEAD-P239-001",
+      "question": "Distinguish preliminary force security authority from government removal authority",
+      "priority": "high",
+      "status": "open",
+      "next": "1953-05-29 DA 940238 signed outgoing telegram and May30 DA 940242 delivery receipt"
+    },
+    {
+      "id": "LEAD-P239-002",
+      "question": "Verify conditional treaty authorization and exact executive approval",
+      "priority": "high",
+      "status": "open",
+      "next": "1953-05-30 DA 940241 signed instructions and President May30 meeting decision memorandum"
+    },
+    {
+      "id": "LEAD-P239-003",
+      "question": "Test draft not-cleared status and participants' disagreements",
+      "priority": "high",
+      "status": "open",
+      "next": "1953-05-29 State-JCS meeting d559 participant-cleared minutes or revisions"
+    },
+    {
+      "id": "LEAD-P239-004",
+      "question": "Check exact public disclosure and whether PM acting title recorded",
+      "priority": "high",
+      "status": "open",
+      "next": "1953-05-28 제15회 정기국회 본회의 변영태 외무장관 휴전안 발언 속기록"
+    },
+    {
+      "id": "LEAD-P239-005",
+      "question": "Separate May25 protest from May28 letter and presidential approval",
+      "priority": "high",
+      "status": "open",
+      "next": "1953-05-25 le_005_1530 최덕신 서한 원문 이미지"
+    },
+    {
+      "id": "LEAD-P239-006",
+      "question": "Test personal-view final sentence against anonymous presidential approval claim",
+      "priority": "high",
+      "status": "open",
+      "next": "1953-05-28 CX 62717 최덕신→해리슨 서한 원문"
+    },
+    {
+      "id": "LEAD-P239-007",
+      "question": "Compare Rhee side minutes with Clark's FRUS d555",
+      "priority": "high",
+      "status": "open",
+      "next": "1953-05-26 le_005_1500 이승만·클라크 회담 원문 이미지"
+    },
+    {
+      "id": "LEAD-P239-008",
+      "question": "Resolve 5만석 vs 4만석 and legal authority",
+      "priority": "high",
+      "status": "open",
+      "next": "1953-05-26 임시 국무회의 재해농가 국산미 대여안 의결서"
     }
   ],
   "completedThisPass": [
@@ -197,5 +253,21 @@
     "국민방위군 부정사건의 대통령 조사명령→국회조사→군법회의 흐름 연결.",
     "거창사건의 대통령 사후 징계지시→군법회의 흐름 연결.",
     "정부 이전 결정부터 대통령 이동·채병덕 권한 설명·한강교 폭파·후대 최창식 무죄까지 시간선을 연결."
-  ]
+  ],
+  "recentPass239": {
+    "newLeadQueue": "data/research/leads/pass-239-next-queue.json",
+    "priorLeadsReviewed": [
+      "LEAD-P238-003",
+      "LEAD-P238-004",
+      "LEAD-P238-006",
+      "LEAD-P238-007",
+      "LEAD-P238-010",
+      "LEAD-P238-015",
+      "LEAD-P238-020",
+      "LEAD-P238-022",
+      "LEAD-P238-025",
+      "LEAD-P238-029",
+      "LEAD-P238-030"
+    ]
+  }
 }
