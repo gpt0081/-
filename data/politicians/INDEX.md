@@ -45,3 +45,7 @@
 
 ## 2026-10-28 pass234: 1952년 12월 국회 재정·농정 인물
 - `data/politicians/pass-234-1952-dec-legislative-actors.json`: 오위영(재경위원장), 정재완·엄상섭(추경 질의), 윤담(가마니 가격 수정), 임흥순(한국인 전범자 석방 건의). 신문전사에 실명·한자·행위가 확인되어 IDENTIFIED, 생몰·원속기록은 OPEN.
+
+
+## 2026-10-28 pass234B 행정·인사 후속
+- `data/politicians/pass-234-addendum-1952-dec-actors.json`: 윤명운 서울특별시 경찰국장 IDENTIFIED 신규. 백두진·진헌식·윤치영·이기붕·임병직 5명 기존 노드 심화. 후보 물망/실제 지명 및 수사계획/유죄 확정 분리.
