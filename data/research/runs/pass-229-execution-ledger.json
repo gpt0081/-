@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "pass": 229,
+  "date": "2026-10-28",
+  "base_commit": "524fd34ec0515e874e52400faedeee5ddcb29069",
+  "focus": "1952-05-24 personnel and Meyer economic agreement; June 3 cabinet chain; June 25 assassination attempt and Aug 22 trial; peacetime industry/labor",
+  "weekly_history_debt_full_review": false,
+  "weekly_history_debt_note": "역사부채 주간 전수조사 미실시",
+  "counts": {
+    "independent_research_lines_substantively_followed": 13,
+    "governance_domains_substantively_touched": 9,
+    "non_president_actor_nodes_new_or_deepened": 14,
+    "events_or_subevents_structured_or_reinforced": 11,
+    "unique_document_bodies_directly_opened": 67,
+    "primary_or_contemporaneous_document_texts_opened": 63,
+    "adversarial_claim_checks": 12,
+    "existing_leads_followed": 10,
+    "new_specific_leads": 38,
+    "cross_provenance_bundles": 2
+  },
+  "domains": [
+    "헌정",
+    "국무회의·인사",
+    "치안·경찰",
+    "사법",
+    "외교",
+    "경제·재정",
+    "산업·복구",
+    "노동",
+    "지방행정"
+  ],
+  "research_lines": [
+    "장석윤 5/23 시위통제",
+    "장석윤 5/24 퇴임 형식·동기",
+    "이범석 내무장관 취임",
+    "홍범희·윤 치안국장 인사",
+    "5/25 계엄",
+    "6/3 국무회의 해산·체포 논쟁",
+    "미국 개입/비개입 정책 상충",
+    "5/23 대통령 백두진 서명승인 진술",
+    "5/24 마이어 경제조정협정",
+    "유엔군 원화 차입금 상환·환율",
+    "6/25 유시태 저격미수 현장",
+    "8/22 김시현 공판·최양옥 피고 신분",
+    "서울시 산업복구·조선방직 노동쟁의"
+  ],
+  "cross_provenance_bundles": [
+    {
+      "topic": "1952-05-24 인사",
+      "families": [
+        "Korean government personnel announcement via Seoul Shinmun",
+        "US contemporary JOINT WEEKA report"
+      ],
+      "result": "office boundary corroborated; motivation not resolved"
+    },
+    {
+      "topic": "1952-05-24 경제조정협정",
+      "families": [
+        "Korean government communiqué via Minju Shinbo",
+        "US Meyer mission official report FRUS"
+      ],
+      "result": "signature and committee establishment agreement corroborated"
+    }
+  ],
+  "not_counted_as_independent": [
+    "FRUS 56 documents share a US diplomatic editorial provenance family; multiple telegrams not independent countries",
+    "JOINT WEEKA and OIR may share US intelligence upstream",
+    "1952-06-25 incident and Aug22 trial Korean newspapers are two reports but court original missing"
+  ],
+  "key_findings": [
+    "1952-05-24 인사발표의 依願免本官과 5/29 미국 보고의 dismissed는 퇴임 동기 차원에서 충돌 가능; 결재원본 전 미확정.",
+    "1952-06-03 장택상 증언을 미국 전문이 전달하며 이범석의 의원 전원 체포 제안 및 시위대 유입 불차단 지시를 보고하나 국무회의 원본 부재.",
+    "1952-05-24 마이어협정은 한국측 신문과 미국 사절단장 보고의 독립 계열이 체결을 교차 확인. 이승만의 백두진 서명 승인 자기진술을 별도 claim으로 구조화.",
+    "1952-08-22 첫 공판에서 최양옥은 증인만이 아닌 12명 피고인 중 한 명으로 열거. 사전경고 사실 여부는 미해결.",
+    "1952-05-24 서울시 7,920억 원 산업복구 계상은 승인·집행이 아니므로 구별."
+  ],
+  "adversarial_checks": [
+    {
+      "claim": "CLM-P229-JSY-RESIGN-MOTIVE",
+      "route": "정부발표 vs 미측 동시대 보고, 5/23 총리 장택상 진술을 비교.",
+      "conclusion": "CONFLICTED_NARROWED_INTERPRETATION"
+    },
+    {
+      "claim": "CLM-P229-JSY-MAY23-CROWD",
+      "route": "미국 OIR/JOINT WEEKA는 동일 정보원에서 파생 가능. 두 URL을 독립 family로 세지 않음.",
+      "conclusion": "NARROWED"
+    },
+    {
+      "claim": "CLM-P229-JUNE3-CABINET-YI",
+      "route": "장택상이 미대사관 직원에게 전달한 회의 설명; 미국 전문은 관찰자가 회의 내부에 있지 않았으므로 직접 목격 아님.",
+      "conclusion": "REPORTED_BY_PRIME_MINISTER_NOT_INDEPENDENTLY_VERIFIED"
+    },
+    {
+      "claim": "CLM-P229-JUNE3-RHEE-YI-CROWD",
+      "route": "장택상→미대사관→라이트너 전문 전언 계층. 대통령 직접 명령문과 구분.",
+      "conclusion": "REPORTED_NOT_FINAL"
+    },
+    {
+      "claim": "CLM-P229-US-UN-INTERVENTION",
+      "route": "개입 방안 검토·대사관 제안은 존재하나 국무부 지시는 군사개입 미결정과 비군사적 타협 우선. 6/4 문서는 이승만 유임을 선호하는 대안까지 명시.",
+      "conclusion": "CONTRADICTED"
+    },
+    {
+      "claim": "CLM-P229-RHEE-JUNE5-POPULAR-MANDATE",
+      "route": "대통령 본인의 정치적 주장이지 '거의 모든 유권자가 서명'의 독립 증거가 아님.",
+      "conclusion": "VERIFIED_AS_STATEMENT"
+    },
+    {
+      "claim": "CLM-P229-KIM-SIHYEON-INTENT",
+      "route": "1952-08-22 김시현 법정 진술을 기록한 신문. 의도에 대한 법원 사실인정과 구별.",
+      "conclusion": "CONTESTED_DEFENSE_STATEMENT"
+    },
+    {
+      "claim": "CLM-P229-ADVANCE-WARNING",
+      "route": "신문 첫 공판에서 최양옥이 피고인으로 등재됨을 직접 확인, 단순 중립 신고자로 고정 금지.",
+      "conclusion": "OPEN_NARROWED"
+    },
+    {
+      "claim": "CLM-P229-SEOUL-INDUSTRY-BUDGET",
+      "route": "계상과 배정·집행은 다름. 보도 내 세부 업종 합계 및 오탈자(식품공원) 재검증 필요.",
+      "conclusion": "CONTEMPORANEOUS_REPORTED_PROPOSAL"
+    },
+    {
+      "claim": "CLM-P229-TEXTILE-STRIKE",
+      "route": "발언 의향과 실제 제출·국제 반응 분리.",
+      "conclusion": "CONTEMPORANEOUS_REPORTED"
+    }
+  ],
+  "claim_review": {
+    "registered": 14,
+    "independent_2_family_direct_crosschecked": 2,
+    "independent_3_family_direct_crosschecked": 0,
+    "rate": "2/14; 3-family 0/14; denominator this pass's registered 14 claims only"
+  },
+  "research_maturity": {
+    "this_pass_nodes": 14,
+    "status_counts": {
+      "ANNALS_ACTIVE": 1,
+      "VERIFIED": 3,
+      "IDENTIFIED": 8,
+      "DISCOVERED": 2
+    },
+    "note": "No automatic MATURE promotion; main registry total not recalculated"
+  },
+  "event_stage": {
+    "registered": 11,
+    "stage_completion_rate": "UNKNOWN: applicability matrix and denominator not audited"
+  },
+  "limitations": [
+    "No Korean cabinet original, 1952 court stenogram or original gazette scan.",
+    "Some 1952 FRUS documents are POW diplomacy context and not standalone novel findings.",
+    "Lead count is 38 durable document targets, active 15. Minimum 20 independent research lines not reached; 3 provenance bundles not reached."
+  ],
+  "floot_touched": false
+}
