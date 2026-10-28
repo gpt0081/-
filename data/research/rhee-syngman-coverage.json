@@ -1,6 +1,6 @@
 {
   "politicianId": "president-rhee-syngman",
-  "updatedAt": "2026-10-27",
+  "updatedAt": "2026-10-28",
   "purpose": "연구 범위의 빈칸을 추적하는 커버리지 표. 정치적 평가점수가 아니다.",
   "statuses": {
     "seeded": "기본 사건·출처 확보",
@@ -1146,5 +1146,26 @@
       "politician": "pol-chang-myon",
       "guardrail": "UN 원속기록 본문 미열람"
     }
+  },
+  "run223Addendum": {
+    "date": "2026-10-28",
+    "domains": [
+      "헌정·입법",
+      "국방·인사",
+      "지방자치·선거",
+      "경제·외환",
+      "농정·식량",
+      "복지·구호",
+      "노동·사회",
+      "치안·사법",
+      "정전·외교",
+      "전쟁·포로",
+      "안보·정보"
+    ],
+    "eventRegistry": "data/events/run223-apr1952-actions.json",
+    "documentRegistry": "data/documents/run223-apr1952-frus-korean.json",
+    "politicianRegistry": "data/politicians/run223-apr1952-actors.json",
+    "note": "1952-04-25 시읍면/05-10 도의회 구분, Operation Scatter 심사/재심사, 농지상환·쌀수입·외환관리, 원면/판결/공고 미확보",
+    "guardrail": "미국 FRUS 외교·군사문서는 한국 대통령 직접 명령 증거 아님"
   }
 }
