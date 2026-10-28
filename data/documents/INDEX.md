@@ -132,3 +132,5 @@
 - `data/documents/pass-244c-official-crosschecks.json` (pass244f; NEC/NIKH/Eisenhower archival finding aid)
 
 - `data/documents/pass-244d-constitutional-sources.json` (pass244g; 2026-10-29)
+
+- `data/documents/pass-244e-senate-election-law-metadata.json` (pass244h; law469/502/551 metadata)
