@@ -587,7 +587,7 @@
         "국무총리",
         "한미합동경제위원회 한국측 대표"
       ],
-      "researchStatus": "VERIFIED",
+      "researchStatus": "ANNALS_ACTIVE",
       "backbone": false,
       "connections": [
         "evt-1953-anti-communist-pow-release",
@@ -606,7 +606,8 @@
         "evt-p236f-1953-03-17-aid-commission-consolidation",
         "evt-p236g-1953-03-19-paik-aid-letter",
         "evt-p236h-1953-04-10-unkra-representation",
-        "evt-p237b-1953-04-21-tasca-meetings"
+        "evt-p237b-1953-04-21-tasca-meetings",
+        "evt-p238-1953-05-19-tasca-budget"
       ],
       "researchNotes": "1\n9\n5\n2\n~\n5\n3\n \n재\n정\n·\n원\n조\n·\n휴\n전\n외\n교\n \n교\n차\n \n행\n위\n자\n.\n \n1\n9\n5\n3\n-\n0\n8\n-\n0\n6\n \n경\n제\n·\n군\n사\n원\n조\n \n회\n의\n에\n서\n \n통\n합\n \n경\n제\n기\n구\n를\n \n통\n한\n \n원\n조\n \n프\n로\n그\n램\n \nM\nO\nU\n의\n \n미\n국\n \n최\n종\n승\n인\n을\n \n직\n접\n \n요\n청\n한\n \n기\n록\n과\n \n덜\n레\n스\n \n회\n담\n \n참\n여\n가\n \n확\n인\n되\n어\n \nV\nE\nR\nI\nF\nI\nE\nD\n로\n \n승\n격\n.\n \nC\nE\nB\n/\n환\n율\n/\n재\n건\n원\n조\n \n한\n국\n측\n \n문\n서\n \n확\n보\n \n후\n \nA\nN\nN\nA\nL\nS\n_\nA\nC\nT\nI\nV\nE\n \n검\n토\n.\n2026-10-28 pass233 정정: 직접 출처 없이 연결된 event edge 제거, 인물 candidate 연구 단서는 보존\npass234B: 1952-12-12 부흥부 신설 구상·유엔 원화대여금 4580억원 주장·11/13 현금교환 요청 공한, 12/15 450만석 양곡수입 합의 주장",
       "pass232Overlay": "data/politicians/pass-232-1952-september-actors.json",
@@ -622,7 +623,9 @@
         "data/politicians/pass-236f-correspondence-actors.json",
         "data/politicians/pass-236g-march-april-actors.json",
         "data/politicians/pass-236h-april-actors.json",
-        "data/politicians/pass-237b-korean-actors.json"
+        "data/politicians/pass-237b-korean-actors.json",
+        "data/politicians/pass-238-actor-overlays.json",
+        "data/annals/1953-may8-25-armistice-fiscal-agriculture.md"
       ],
       "evidenceCoverage": [
         "DOC-P234B-NIKH-1212-0040",
@@ -635,9 +638,27 @@
         "DOC-P236E-PA-LABOR-773",
         "DOC-P236F-LE-0380",
         "DOC-P236G-LE-0430",
-        "DOC-P236H-LE-0880"
+        "DOC-P236H-LE-0880",
+        "DOC-P238-NIKH-19530519-BAEK",
+        "DOC-P238-NIKH-CAT-LE_005_1350",
+        "DOC-P238-NIKH-CAT-LE_005_1360"
       ],
-      "lastResearchPass": 237
+      "lastResearchPass": 238,
+      "evidenceFile": "data/evidence/paik-too-chin-1953.json",
+      "annalsFile": "data/annals/paik-too-chin.md",
+      "promotionHistory": [
+        {
+          "date": "2026-10-28",
+          "from": "VERIFIED",
+          "to": "ANNALS_ACTIVE",
+          "reason": "Contemporary May19 press transcription records PM Baek's own account of Tasca and budget-execution restraint, while two May11 Baek-to-Tasca original letters are independently catalogued at NIKH; original letters pending.",
+          "evidence": [
+            "DOC-P238-NIKH-19530519-BAEK",
+            "DOC-P238-NIKH-CAT-LE_005_1350",
+            "DOC-P238-NIKH-CAT-LE_005_1360"
+          ]
+        }
+      ]
     },
     {
       "id": "pol-pyun-yong-tae",
@@ -661,7 +682,8 @@
         "evt-p236-1953-04-08-dulles-yang",
         "evt-p236f-1953-03-11-aid-control",
         "evt-p236h-1953-04-14-pyun-pow",
-        "evt-p237-1953-04-16-assembly-pow"
+        "evt-p237-1953-04-16-assembly-pow",
+        "evt-p238-1953-05-25-rhee-pyun"
       ],
       "researchNotes": "1953 휴전·반공포로·한미상호방위조약에서 반복 확인. 1953-08-07 공동성명 문구 수정 제안과 08-08 덜레스와 조약 초안 가조인이라는 직접 행위가 공식 외교기록으로 확인되어 VERIFIED로 승격. 향후 외무부 한국측 회의록·서명훈령 확보 시 ANNALS_ACTIVE 검토.",
       "pass232Overlay": "data/politicians/pass-232-1952-september-actors.json",
@@ -670,14 +692,18 @@
         "data/politicians/pass-236-frus-diplomacy-actors.json",
         "data/politicians/pass-236f-correspondence-actors.json",
         "data/politicians/pass-236h-april-actors.json",
-        "data/politicians/pass-237-actor-overlays.json"
+        "data/politicians/pass-237-actor-overlays.json",
+        "data/politicians/pass-238-actor-overlays.json",
+        "data/annals/1953-may8-25-armistice-fiscal-agriculture.md"
       ],
       "evidenceCoverage": [
         "DOC-P236-FRUS-452",
         "DOC-P236F-LE-0280",
-        "DOC-P236H-LE-0960"
+        "DOC-P236H-LE-0960",
+        "DOC-P238-FRUS-549",
+        "DOC-P238-NIKH-CAT-LE_005_1540"
       ],
-      "lastResearchPass": 237
+      "lastResearchPass": 238
     },
     {
       "id": "pol-lee-beom-seok-1900",
@@ -736,12 +762,40 @@
       "roles": [
         "육군 제11사단장"
       ],
-      "researchStatus": "candidate-event-actor",
+      "researchStatus": "ANNALS_ACTIVE",
       "backbone": false,
       "connections": [
-        "evt-1951-geochang"
+        "evt-1951-geochang",
+        "evt-p238-1953-05-12-choi-delay"
       ],
-      "researchNotes": "거창사건 군법회의에서 작전명령 제5호 관련 증언이 동시대 보도로 확인됨. 사단장 책임과 연대·대대 실행책임, 상급 국방부 보고선을 분리 검증."
+      "researchNotes": "거창사건 군법회의에서 작전명령 제5호 관련 증언이 동시대 보도로 확인됨. 사단장 책임과 연대·대대 실행책임, 상급 국방부 보고선을 분리 검증.",
+      "researchRefs": [
+        "data/politicians/pass-238-actor-overlays.json",
+        "data/annals/1953-may8-25-armistice-fiscal-agriculture.md"
+      ],
+      "evidenceCoverage": [
+        "DOC-P238-FRUS-512",
+        "DOC-P238-FRUS-513",
+        "DOC-P238-NIKH-CAT-LE_005_1530",
+        "DOC-P238-NIKH-CAT-PN_002_1150"
+      ],
+      "lastResearchPass": 238,
+      "evidenceFile": "data/evidence/choi-duk-shin-1953.json",
+      "annalsFile": "data/annals/choi-duk-shin.md",
+      "openLeadsFile": "data/research/leads/pass-238-next-queue.json",
+      "promotionHistory": [
+        {
+          "date": "2026-10-28",
+          "from": "candidate-event-actor",
+          "to": "ANNALS_ACTIVE",
+          "reason": "FRUS d512/513 directly records Choi as ROK armistice delegate and request for postponement; NIKH pn_002_1150 catalog independently lists him in May16 armistice meeting. Korean transcript body and personal birth/death still open.",
+          "evidence": [
+            "DOC-P238-FRUS-512",
+            "DOC-P238-FRUS-513",
+            "DOC-P238-NIKH-CAT-PN_002_1150"
+          ]
+        }
+      ]
     },
     {
       "id": "pol-chae-byong-duk",
@@ -823,7 +877,9 @@
         "data/politicians/pass-236-frus-diplomacy-actors.json",
         "data/politicians/pass-236f-correspondence-actors.json",
         "data/politicians/pass-236g-march-april-actors.json",
-        "data/politicians/pass-236h-april-actors.json"
+        "data/politicians/pass-236h-april-actors.json",
+        "data/politicians/pass-238-actor-overlays.json",
+        "data/annals/1953-may8-25-armistice-fiscal-agriculture.md"
       ],
       "evidenceCoverage": [
         "DOC-P234B-NIKH-1215-0020",
@@ -865,7 +921,8 @@
             "DOC-P236F-LE-0320"
           ]
         }
-      ]
+      ],
+      "lastResearchPass": 238
     },
     {
       "id": "pol-paik-sun-yup",
@@ -893,14 +950,18 @@
         "DOC-P235-NIKH-01_31_0030",
         "DOC-P235F-NIKH-02_05_0040",
         "DOC-P235H-NIKH-02_10_0060",
-        "DOC-P236F-LE-0330"
+        "DOC-P236F-LE-0330",
+        "DOC-P238-NIKH-CAT-LE_005_1610"
       ],
       "researchRefs": [
         "data/politicians/pass-235-1953-assembly-cabinet-actors.json",
         "data/annals/1953-feb3-7-yalta-unkra-welfare.md",
         "data/annals/1953-feb10-13-foreign-policy-soldier-welfare.md",
-        "data/politicians/pass-236f-correspondence-actors.json"
-      ]
+        "data/politicians/pass-236f-correspondence-actors.json",
+        "data/politicians/pass-238-actor-overlays.json",
+        "data/annals/1953-may8-25-armistice-fiscal-agriculture.md"
+      ],
+      "lastResearchPass": 238
     },
     {
       "id": "pol-park-ok-kyu",
@@ -1874,7 +1935,9 @@
         "data/politicians/pass-236f-correspondence-actors.json",
         "data/politicians/pass-236g-march-april-actors.json",
         "data/politicians/pass-236h-april-actors.json",
-        "data/politicians/pass-237-actor-overlays.json"
+        "data/politicians/pass-237-actor-overlays.json",
+        "data/politicians/pass-238-actor-overlays.json",
+        "data/annals/1953-may8-25-armistice-fiscal-agriculture.md"
       ],
       "evidenceCoverage": [
         "DOC-P235H-NIKH-02_11_0030",
@@ -1887,9 +1950,10 @@
         "DOC-P236G-LE-0680",
         "DOC-P236H-LE-0870",
         "DOC-P236H-LE-0970",
-        "DOC-P236H-LE-0720"
+        "DOC-P236H-LE-0720",
+        "DOC-P238-NIKH-CAT-LE_005_1510"
       ],
-      "lastResearchPass": 237
+      "lastResearchPass": 238
     },
     {
       "id": "cand-1952-minister-lee-yun-yeong",
@@ -3519,8 +3583,11 @@
         "data/politicians/pass-236-frus-diplomacy-actors.json",
         "data/politicians/pass-236f-correspondence-actors.json",
         "data/politicians/pass-236g-march-april-actors.json",
-        "data/politicians/pass-236h-april-actors.json"
-      ]
+        "data/politicians/pass-236h-april-actors.json",
+        "data/politicians/pass-238-actor-overlays.json",
+        "data/annals/1953-may8-25-armistice-fiscal-agriculture.md"
+      ],
+      "lastResearchPass": 238
     },
     {
       "id": "cand-p236e-shin-tae-ak",

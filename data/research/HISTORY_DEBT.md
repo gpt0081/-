@@ -646,3 +646,15 @@
 - **HD-P237-COOP-LAW** [OPEN]: 민주신보 1953-05-01 reports agricultural cooperative bill still in parliamentary committee and competing farmers' groups' May 7/8 Daejeon conventions planned. Actual enactment, registration and asset transfer not established.
 - **HD-P237-COUNTERFEIT-NOTE** [OPEN]: 조선일보 1953-05-01 mentions forged '천원권' in Mokpo after Feb currency reform. Currency denomination, old note, and police evidence unresolved.
 - Review status: 8 prior leads narrowed (not RESOLVED) in `data/research/debt/pass-237-targeted-debt-review.json`. 34 FRUS and 12 domestic document-specific leads recorded. **역사부채 주간 전수조사 미실시**. last_full_review unchanged.
+
+
+## Pass238 (2026-10-28 Wednesday) targeted debt review, NOT weekly full review
+- **HD-P237-TASCA-ECONOMY** [NARROWED]: 1953-05-19 백두진 기자회견(조선일보 5/21, NIKH dh_029_1953_05_19_0040)은 타스카 서한의 예산지출 위험 경고와 전란수습특별회계 집행억제 결정 발표를 담는다. NIKH le_005_1350/1360에서 백두진→타스카 5/11 원서한 및 첨부문건 목록을 찾았으나 원문이미지 미열람. **정부 발표와 실제 예산 집행 장부 구분**. 다음: 4286년도 국회 예산심의·전란수습특별회계 집행원장.
+- **HD-P237-FERTILIZER-CREDIT** [NARROWED]: 1953-04-03 농림부 산업국장회의 지시 보도(NIKH dh_029_1953_04_03_0070)에서 작물별 사전할당, 도착후 읍면 2일·금융조합 3일 배급 지침을 확인. 4/29 외상/현금 배급 민원과 같은 집행 문제일 수 있으나 동일 행정명령 또는 실제 배급 실적이라는 증거는 없음. 다음: 농림부 원훈령, 시군 금융조합 배급대장.
+- **HD-P238-CHOI-NEGOTIATOR** [NARROWED]: Clark 1953-05-12 C 62369(d512)는 최덕신 한국대표의 회담연기 요구를 전한다. NIKH pn_002_1150(5/16 회의록 목록)은 최덕신을 한국측 대표로 기재한다. 원속기록 내용, 지시 발신자, 한국정부 내부 결재는 OPEN. 후보를 독립 인물 실록으로 활성화했지만 개인명령·한국정부 공식 거부권을 단정하지 않는다.
+- **HD-P238-POW-GUARD-CONTROL** [OPEN]: Clark 5/25 250610Z(d550)는 9개 본토 수용소에 미국 행정요원 소수와 한국군 경비대 다수가 있다고 보고했다. 이는 6/18 석방의 사전 승인·직접 명령을 증명하지 않음. 다음: 5/25 McGarr 지시, 한국군 경비대대 명령, 6/18 석방 시각별 기록.
+- **HD-P238-DAM-AIR-STRIKE** [OPEN]: 5/14 Clark C 62419(d519)에서 관개댐 폭격을 **구상·요청**. 실제 허가·실행 여부는 미확정. 다음: JCS 회신과 1953년 5~6월 미 공군 sortie log.
+- **HD-P237-EVERREADY-EXECUTION** [OPEN 유지]: d550의 수용소 경계강화 조치는 5/4 EVERREADY 계획 발동과 별개. 승인/발동 원문 없이 동일 작전으로 병합 금지.
+- **HD-P237-ROK-POW-OBSERVERS** [OPEN 유지]: 4/16 국회 6인 참관 결의 원속기록 미확보. 5/16 판문점 회의록 pn_002_1150은 다른 날짜/행위로 동일 사건 대체 불가.
+- **HD-P238-RHEE-MAY25-STATEMENT** [NARROWED]: d549는 5/25 이승만·변영태·Briggs·Clark 면담에서 별도 휴전안 **검토**를 전함. NIKH le_005_1530(최덕신 항의), le_005_1540(미국 외교각서), le_005_1500(5/26 회담) 메타데이터를 추가. 원문이미지 미열람으로 조건별 최종 공식입장과 직접 집행명령은 미확정.
+- 검토한 기존 OPEN/NARROWED lead 8건의 추적 결과는 `data/research/debt/pass-238-targeted-review.json`에 기록. 원본 이미지 0건. **역사부채 주간 전수조사 미실시**, last_full_review 변경 없음.
