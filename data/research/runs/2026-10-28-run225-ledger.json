@@ -24,7 +24,7 @@
     "independentAdversarialRoutesVerified": 10,
     "priorHistoryDebtsTracked": 8,
     "newHistoryDebts": 6,
-    "newSpecificLeads": 47,
+    "newSpecificLeads": 48,
     "crossProvenanceContextualBundles": 3,
     "strictThreeIndependentPrimaryFamilyConfirmationNew": 0,
     "possibleDuplicateCandidateNodes": 2,
@@ -207,5 +207,12 @@
     "CORR-R225-02: no conversion of proposal into implemented arrest, release, intervention or budget spending",
     "CORR-R225-03: Lee Jae-hyeong 1952 candidate possibly same as pol-r184-lee-jae-hyeong; not merged",
     "CORR-R225-04: Seo Yi-hwan 1952 candidate possibly same as pol-r188-seo-i-hwan; not merged"
-  ]
+  ],
+  "additionalSourceLead": {
+    "id": "L225-048",
+    "source": "https://db.history.go.kr/id/tcct_1952_06_28_0030",
+    "status": "SECONDARY_INDEX_ONLY_NOT_COUNTED_AS_PRIMARY",
+    "reason": "Need official censorship decree and implementation records"
+  },
+  "graphMigration": "Run225 events now preserve display strings and add typed *_refs pointing to politician/organization stable IDs; unresolved foreign actors explicitly marked."
 }
