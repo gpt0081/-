@@ -1,0 +1,44 @@
+{
+  "run": 225,
+  "date": "2026-10-28",
+  "domains": [
+    "헌정·입법",
+    "행정·계엄",
+    "국방·군령",
+    "사법·체포",
+    "재정·예비비",
+    "선거·법제",
+    "경제조정·원조",
+    "포로·인권",
+    "정전·외교",
+    "국제기구",
+    "언론·공론장",
+    "지방행정",
+    "산업·전력",
+    "인사·정당"
+  ],
+  "substantiveDocumentCount": 66,
+  "events": 24,
+  "nonPresidentActors": 14,
+  "newCandidates": 4,
+  "adversarialClaimComparisons": 17,
+  "historyDebtsTracked": 8,
+  "leadCount": 47,
+  "sourceFamilies": [
+    "US_FRUS",
+    "US_OIR_ORIGIN",
+    "ROK_EXECUTIVE_CABINET",
+    "ROK_ASSEMBLY",
+    "ROK_GAZETTE",
+    "ROK_CONTEMPORANEOUS_PRESS"
+  ],
+  "caveat": "Domain touched != comprehensive coverage. FRUS editorial not counted. Original facsimiles 0. Existing Assembly document reopened not novel globally.",
+  "files": {
+    "documents": "data/documents/run225-june1952-us-cabinet-korean.json",
+    "events": "data/events/run225-june1952-actor-decision-graph.json",
+    "claims": "data/claims/run225-june1952-adversarial.json",
+    "actors": "data/politicians/run225-june1952-actors.json",
+    "debt": "data/research/history-debt/run225.json",
+    "leads": "data/research/lead-queues/run225-next.json"
+  }
+}
