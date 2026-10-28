@@ -99,3 +99,8 @@
 - 주장 `data/claims/pass-239-adversarial.json`, `data/claims/pass-239b-adversarial.json`: 반증/산술/시기차이 31건. 출처 계열의 엄격한 3중 독립확증 0건은 과장하지 않는다.
 - 후속 조사 `data/research/leads/pass-239-next-queue.json`: 초기 37개+추가 40개=77개. 처음 실행요약의 '35개'는 계산 착오이며 correction ledger와 HISTORY_DEBT에 이력 보존.
 - 실행결과 `data/research/runs/pass-239-summary.md`와 `data/research/runs/pass-239-execution-ledger.json`. 기존 stable ID와 데이터 API 유지, Floot 미수정.
+
+## Pass239D 1953-06-08~22 행위자·명령 그래프 (2026-10-28)
+- `data/politicians/pass-239d-actors.json`: 10명 검토, 7명 구체행위 심화, 3명 직책 맥락만 확인(직접행위 단정 금지).
+- 원용덕 `pol-won-yong-duk`은 기존 pass53/pass65 후보를 canonical로 승격. `data/annals/won-yong-duk.md`, `data/evidence/won-yong-duk.json` 별도 독립 실록.
+- 사건·원문·주장: `data/events/pass-239d-june8-22-actions.json`, `data/documents/pass-239d-june8-22-source-registry.json`, `data/claims/pass-239d-adversarial.json`.

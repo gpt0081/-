@@ -713,3 +713,36 @@
 - **HD-P239B-TRIPITAKA-FUNDING** [OPEN]: 1953-06-06 장경각 누수 13곳·보수 예산 구화 1억3000만 요구·60억 신청/5억 사정 등은 서로 다른 사업·통화 범주일 수 있다. 국보 보수 원예산·공사계약 필요.
 - **Correction ledger**: Pass239 initial lead count was **37**, not 35 as stated in earlier narrative; Pass239B adds **40**, cumulative **77**. This correction is appended, not silently overwritten.
 - **역사부채 주간 전수조사 미실시**; Wednesday, last_full_review unchanged.
+
+## Pass239D 1953-06-08~22 개별 역사부채 추적 (2026-10-28)
+- **HD-P239-PYUN-ACTING-PM** [NARROWED]: FRUS d605/d611 place PM Paek in Washington 6/17-18; d616 and Korean Pyun 6/18 letter identify acting PM in Seoul. Temporary acting strongly indicated. 다음 원문: 1953-05-25~06-22 국무총리실 출장·서리 지정 공문.
+- **HD-P237-EVERREADY-EXECUTION** [NARROWED]: FRUS d582 June8 revises Clark contingency plans; explicitly requires personal execution order. No takeover execution found. 다음 원문: JCS C62910 follow-up execute/cancel telegram.
+- **HD-P236-POW-MARCH-RELEASE-PROPOSAL** [NARROWED]: June8 UNC/Communist POW agreement d588, June18 Rhee direct order d607 and UNC response d612 clarify separate legal decision chains. 다음 원문: March Clark proposal approval, June18 ROK camp-level orders.
+- **HD-P236-APRIL-ROK-FIVE-POINTS** [NARROWED]: FRUS d586 June9 Taylor meeting identifies Rhee four conditions and d602 May30 US treaty offer; April conditions vs June demands remain distinct. 다음 원문: Rhee handwritten June9 four-condition memorandum and ROK Foreign Ministry instruction.
+- **HD-P239B-LABOR-LAW-CHRONOLOGY** [OPEN]: Rhee June18 letter to Taylor explicitly concerns conscription evasion; distinct from June3 wartime labor mobilization law. No proof that law292 governed these instructions. 다음 원문: Defense and Interior June18-30 conscription directives.
+- **HD-P239B-SCHOOL-LUNCH** [NARROWED]: June20 Uiryeong press describes hungry pupils 68% and 4,000 unenrolled; corroborates unmet need but not June3 300,000 meal program delivery. 다음 원문: June3-30 school meal recipient and grain warehouse ledgers.
+- **HD-P239B-UNKRA-ACCOUNT** [OPEN]: June20 Ministry plan to buy 205k USD agricultural equipment is distinct from Pyun June4 60m USD UNKRA program and housing funds; no expenditure record. 다음 원문: UNKRA education procurement and 1953 program accounts.
+- **HD-P236H-1953-APRIL-POW-FOREIGN-MINISTER** [NARROWED]: Pyun June18 Clark letter opened, supports continuation of POW diplomatic position; April14 letter still only index, cannot close original gap. 다음 원문: 1953-04-14 Pyun→Clark original image le_005_0960.
+
+### HD-P239D-WON-ORIGINAL-ORDER · 원용덕 수용소별 명령과 미군 공격명령 원본
+- 상태: `NARROWED`. 이승만 d607의 대통령 직접 명령 인정, 6/18 원용덕 공보발표, Clark d612의 원용덕 공격명령 보고를 분리. 원용덕 원명령서와 수용소 수신자, 공격명령 실재·승인 여부는 아직 미확인.
+- 다음: 헌병총사령부 1953-06-18~19 원명령철, CINCUNC CX63138/C63145와 한국 육군본부 대응.
+
+### HD-P239D-UNC-POW-NUMBER · UNC 한국어 전사의 2500 대 25000
+- 상태: `CONFLICTED`. 국편 dh_029_1953_06_18_0070 한국어 첫 문장 약 2500명, FRUS d606·당일 Harrison→Nam Il 문서 약 25000명. 문서 전사 오탈자 가능성이 있으나 원 UNC 영문 공보 미대조.
+- 다음: 1953-06-18 UNC English press release and Korean press facsimile.
+
+### HD-P239D-CABINET-RELIEF-PAYMENT · 6/20 포로구호 예비비 의결 대 실지급
+- 상태: `OPEN`. 평화신문 6/22는 국무회의 86,308,860환·월 3000환·광목10마·양곡5홉×10일·진료·교통 지원을 보도. 의결서·재무부 지출원장·수령증 없음.
+- 다음: 국무회의 6/20 원의결서, 재무부 지급전표, 사회부 수급대장.
+
+### HD-P239D-EDUCATION-UNKRA-PROCUREMENT · 문교부 205000달러 농기구 계획과 집행
+- 상태: `OPEN`. 부산일보 6/22는 UNKRA 문교원조 20만5000달러 농기구 구입 방침을 보도. 구매계약·선적·학교 인도·장관 결재 미확인.
+- 다음: 문교부 1953 UNKRA 사업철 및 UNKRA 조달계약 원본.
+
+### HD-P239D-ADVANCE-NOTICE-PROMISE · 사전통지 약속 범위
+- 상태: `CONFLICTED`. FRUS d593의 Briggs 6/12 광범위 약속 서술과 d616의 이승만·변영태 6/19 한국군 철수에 한정된 약속 주장이 충돌. 당사자 서명 약속 원문 필요.
+- 다음: 6/12 Rhee-Briggs meeting original minutes and 6/19 Korean government rebuttal.
+
+> 2026-10-28 수요일: **역사부채 주간 전수조사 미실시**. `last_full_review` 필드는 변경하지 않음.
+

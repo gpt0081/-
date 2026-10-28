@@ -1,13 +1,19 @@
 {
   "politicianId": "pol-rhee-syngman",
-  "period": "1953-05-30/1953-06-07",
+  "period": "1953-05-30/1953-06-22",
   "sources": [
     "DOC-P239-FRUS-565",
     "DOC-P239B-PA-1310825",
     "DOC-P239B-PA-1310827",
     "DOC-P239B-PA-1310745",
     "DOC-P239B-NIKH-06_05_0040",
-    "DOC-P239B-NIKH-06_06_0040"
+    "DOC-P239B-NIKH-06_06_0040",
+    "DOC-P239D-FRUS-586",
+    "DOC-P239D-FRUS-594",
+    "doc-frus-1953-rhee-clark-pow-letter",
+    "DOC-P239D-NIKH-0618-0080",
+    "DOC-P239D-NIKH-0618-0040",
+    "DOC-P239D-NIKH-0620-0020"
   ],
   "actions": [
     {
@@ -34,13 +40,58 @@
       "date": "1953-06-07",
       "type": "public_claim_about_subordinate",
       "detail": "Claims Choi disobeyed his order to continue attending armistice talks; unverified command original"
+    },
+    {
+      "date": "1953-06-09",
+      "type": "reported_armistice_conditions",
+      "detail": "Taylor reports four conditions in FRUS d586; not signed ROK offer",
+      "sources": [
+        "DOC-P239D-FRUS-586"
+      ]
+    },
+    {
+      "date": "1953-06-14",
+      "type": "presidential_letter",
+      "detail": "Rhee declines Washington invitation and invites Dulles to Korea",
+      "sources": [
+        "DOC-P239D-FRUS-594"
+      ]
+    },
+    {
+      "date": "1953-06-18",
+      "type": "presidential_order_admission",
+      "detail": "Rhee acknowledges he ordered ROK military police to release nonrepatriate POWs; camp-level chain unresolved",
+      "sources": [
+        "doc-frus-1953-rhee-clark-pow-letter",
+        "DOC-P239D-NIKH-0618-0080"
+      ]
+    },
+    {
+      "date": "1953-06-18",
+      "type": "conscription_administration_letter",
+      "detail": "Rhee tells Taylor of conscription evasion and plans Defense/Interior instructions; actual orders unverified",
+      "sources": [
+        "DOC-P239D-NIKH-0618-0040"
+      ]
+    },
+    {
+      "date": "1953-06-20",
+      "type": "presidential_letter",
+      "detail": "Rhee explains release rationale and conditional UNC withdrawal threat to Clark; claims not operational orders",
+      "sources": [
+        "DOC-P239D-NIKH-0620-0020"
+      ]
     }
   ],
   "provenance_rule": "Actor assertion, institutional order, execution, and later outcome separate",
   "openLeads": [
     "LEAD-P239B-001",
     "LEAD-P239B-003",
-    "LEAD-P239B-006"
+    "LEAD-P239B-006",
+    "LEAD-P239D-001",
+    "LEAD-P239D-012",
+    "LEAD-P239D-015",
+    "LEAD-P239D-024"
   ],
   "access_date": "2026-10-28"
 }
