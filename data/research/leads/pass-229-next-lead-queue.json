@@ -382,6 +382,16 @@
       "status": "OPEN",
       "information_value": "high",
       "next_step": "원문·이미지·문서번호 확보 후 claim/event/actor 연결 검증"
+    },
+    {
+      "id": "LEAD-P229-039",
+      "institution": "GitHub politician registry",
+      "document": "data/politicians.json pol-lee-beom-seok 및 pol-lee-beom-seok-1900 참조 목록",
+      "purpose": "동일인 후보 2개의 기존 event/document 참조를 무손실 canonical ID로 병합할지 검증",
+      "claim_id": "identity-merge-debt",
+      "status": "OPEN",
+      "information_value": "high",
+      "next_step": "전체 참조 검색 후 alias/redirect migration 설계"
     }
   ],
   "activeQueue": [
@@ -401,6 +411,6 @@
     "LEAD-P229-014",
     "LEAD-P229-015"
   ],
-  "total": 38,
+  "total": 39,
   "priority_rule": "Top 15 active; rest durable backlog, no keyword-only leads"
 }

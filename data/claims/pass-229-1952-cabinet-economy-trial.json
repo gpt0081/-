@@ -5,7 +5,7 @@
     {
       "id": "CLM-P229-JSY-RESIGN-MOTIVE",
       "statement": "장석윤의 1952-05-24 퇴임은 자발적 사임이었다.",
-      "status": "CONFLICTED_NARROWED_INTERPRETATION",
+      "status": "CONFLICTED",
       "supporting_evidence": [
         "DOC-NIKH-P229-dh_025_1952_05_24_0070"
       ],
@@ -16,7 +16,9 @@
         "1952-05-23 사표·경무대 인사결재 원본 미확보"
       ],
       "analysis": "정부 발표 依願免本官과 미국측 'dismissed' 평가는 동시 존재할 수 있다(압박에 따른 사표 가능). 행정처분 형식과 실질 정치적 원인을 분리.",
-      "adversarial_search": "정부발표 vs 미측 동시대 보고, 5/23 총리 장택상 진술을 비교."
+      "adversarial_search": "정부발표 vs 미측 동시대 보고, 5/23 총리 장택상 진술을 비교.",
+      "previous_status": "CONFLICTED_NARROWED_INTERPRETATION",
+      "verification_scope": "See source-role and caveat fields"
     },
     {
       "id": "CLM-P229-JSY-MAY23-CROWD",
@@ -47,7 +49,7 @@
     {
       "id": "CLM-P229-RHEE-PAEK-AUTHORIZATION",
       "statement": "이승만이 백두진 재무부장관에게 마이어 협정 문서 서명을 승인했다고 밝혔다.",
-      "status": "SUPPORTED_AS_PARTY_STATEMENT",
+      "status": "SUPPORTED",
       "supporting_evidence": [
         "DOC-FRUS-1952-XV1-135"
       ],
@@ -55,22 +57,26 @@
         "DOC-NIKH-P229-dh_025_1952_05_24_0030",
         "DOC-FRUS-1952-XV1-137"
       ],
-      "analysis": "무초 회담기록에 기록된 대통령의 자기진술은 직접 결재문서와 구별. 백두진의 실제 협정 체결은 별도 계열로 교차 확인."
+      "analysis": "무초 회담기록에 기록된 대통령의 자기진술은 직접 결재문서와 구별. 백두진의 실제 협정 체결은 별도 계열로 교차 확인.",
+      "previous_status": "SUPPORTED_AS_PARTY_STATEMENT",
+      "verification_scope": "Rhee's statement as reported by Muccio, not a signed Korean approval document"
     },
     {
       "id": "CLM-P229-ECON-REPAYS-EXCHANGE",
       "statement": "마이어협정 보도는 6,000원/달러 환율, 민간매각 원화의 월 약 40만 달러, 군사용 원화 월 400만 달러 한도 상환을 명시한다.",
-      "status": "SOURCE_REPORTED",
+      "status": "NARROWED",
       "supporting_evidence": [
         "DOC-NIKH-P229-dh_025_1952_05_24_0030",
         "DOC-FRUS-1952-XV1-137"
       ],
-      "analysis": "원화 상환 약정액과 실제 집행액은 다르며, 협정문 첨부 원본·결제대장 확인 전 이행 확정 불가."
+      "analysis": "원화 상환 약정액과 실제 집행액은 다르며, 협정문 첨부 원본·결제대장 확인 전 이행 확정 불가.",
+      "previous_status": "SOURCE_REPORTED",
+      "verification_scope": "See source-role and caveat fields"
     },
     {
       "id": "CLM-P229-JUNE3-CABINET-YI",
       "statement": "1952-06-03 이범석이 국회의원 전원 체포·구금을 국무회의에서 제안했다.",
-      "status": "REPORTED_BY_PRIME_MINISTER_NOT_INDEPENDENTLY_VERIFIED",
+      "status": "NARROWED",
       "supporting_evidence": [
         "DOC-FRUS-1952-XV1-163"
       ],
@@ -80,19 +86,23 @@
       "insufficient_evidence": [
         "국무회의 원 회의록·이범석 반론 미확보"
       ],
-      "analysis": "장택상이 미대사관 직원에게 전달한 회의 설명; 미국 전문은 관찰자가 회의 내부에 있지 않았으므로 직접 목격 아님."
+      "analysis": "장택상이 미대사관 직원에게 전달한 회의 설명; 미국 전문은 관찰자가 회의 내부에 있지 않았으므로 직접 목격 아님.",
+      "previous_status": "REPORTED_BY_PRIME_MINISTER_NOT_INDEPENDENTLY_VERIFIED",
+      "verification_scope": "See source-role and caveat fields"
     },
     {
       "id": "CLM-P229-JUNE3-RHEE-YI-CROWD",
       "statement": "이승만이 1952-06-03 이범석에게 부산 유입 시위대를 막지 말라고 지시했다.",
-      "status": "REPORTED_NOT_FINAL",
+      "status": "NARROWED",
       "supporting_evidence": [
         "DOC-FRUS-1952-XV1-163"
       ],
       "insufficient_evidence": [
         "국무회의록·내무부 치안국 지시문"
       ],
-      "analysis": "장택상→미대사관→라이트너 전문 전언 계층. 대통령 직접 명령문과 구분."
+      "analysis": "장택상→미대사관→라이트너 전문 전언 계층. 대통령 직접 명령문과 구분.",
+      "previous_status": "REPORTED_NOT_FINAL",
+      "verification_scope": "See source-role and caveat fields"
     },
     {
       "id": "CLM-P229-US-UN-INTERVENTION",
@@ -114,7 +124,7 @@
     {
       "id": "CLM-P229-RHEE-JUNE5-POPULAR-MANDATE",
       "statement": "이승만은 1952-06-05 트루먼에게 지방의회 결의와 국민대회를 근거로 국회해산 요구를 정당화했다.",
-      "status": "VERIFIED_AS_STATEMENT",
+      "status": "SUPPORTED",
       "supporting_evidence": [
         "DOC-FRUS-1952-XV1-171"
       ],
@@ -123,34 +133,40 @@
         "DOC-FRUS-1952-XV1-162",
         "DOC-FRUS-1952-XV1-163"
       ],
-      "analysis": "대통령 본인의 정치적 주장이지 '거의 모든 유권자가 서명'의 독립 증거가 아님."
+      "analysis": "대통령 본인의 정치적 주장이지 '거의 모든 유권자가 서명'의 독립 증거가 아님.",
+      "previous_status": "VERIFIED_AS_STATEMENT",
+      "verification_scope": "See source-role and caveat fields"
     },
     {
       "id": "CLM-P229-ASSASSINATION-ATTEMPT",
       "statement": "1952-06-25 부산 기념식에서 유시태가 이승만을 향해 권총을 발사하려 했고 불발됐다.",
-      "status": "SUPPORTED_EVENT",
+      "status": "SUPPORTED",
       "supporting_evidence": [
         "DOC-NIKH-P229-dh_025_1952_06_25_0050",
         "DOC-NIKH-P229-dh_026_1952_08_22_0070"
       ],
-      "analysis": "현장 보도와 두 달 뒤 재판 보도가 별개 신문 계열; 다만 공판 보도는 사법 원본이 아님."
+      "analysis": "현장 보도와 두 달 뒤 재판 보도가 별개 신문 계열; 다만 공판 보도는 사법 원본이 아님.",
+      "previous_status": "SUPPORTED_EVENT",
+      "verification_scope": "See source-role and caveat fields"
     },
     {
       "id": "CLM-P229-KIM-SIHYEON-INTENT",
       "statement": "김시현이 불발탄을 의도적으로 준비하여 실제 살해 의도가 없었다.",
-      "status": "CONTESTED_DEFENSE_STATEMENT",
+      "status": "OPEN",
       "supporting_evidence": [
         "DOC-NIKH-P229-dh_026_1952_08_22_0070"
       ],
       "insufficient_evidence": [
         "권총·탄환 감정서, 유시태 진술, 판결문"
       ],
-      "analysis": "1952-08-22 김시현 법정 진술을 기록한 신문. 의도에 대한 법원 사실인정과 구별."
+      "analysis": "1952-08-22 김시현 법정 진술을 기록한 신문. 의도에 대한 법원 사실인정과 구별.",
+      "previous_status": "CONTESTED_DEFENSE_STATEMENT",
+      "verification_scope": "The fact of a defendant's statement is confirmed; the underlying intent is not"
     },
     {
       "id": "CLM-P229-ADVANCE-WARNING",
       "statement": "최양옥·박춘개 경로로 1952년 1월 장석윤에게 암살계획이 사전 통보됐다.",
-      "status": "OPEN_NARROWED",
+      "status": "NARROWED",
       "supporting_evidence": [
         "DOC-HOENGSEONG-JANG-P256-ASSASSINATION-TRIAL"
       ],
@@ -160,31 +176,37 @@
       "insufficient_evidence": [
         "8/22 김시현은 최양옥·유시태 외 다른 사람에게 말한 적 없다고 주장; 이는 경찰 신고 자체의 불가능성을 확정하지 않음. 장석윤 증언·최양옥 증언 원문 미확보."
       ],
-      "analysis": "신문 첫 공판에서 최양옥이 피고인으로 등재됨을 직접 확인, 단순 중립 신고자로 고정 금지."
+      "analysis": "신문 첫 공판에서 최양옥이 피고인으로 등재됨을 직접 확인, 단순 중립 신고자로 고정 금지.",
+      "previous_status": "OPEN_NARROWED",
+      "verification_scope": "See source-role and caveat fields"
     },
     {
       "id": "CLM-P229-SEOUL-INDUSTRY-BUDGET",
       "statement": "1952-05-24 서울시 산업국은 산업재건에 7,920억 원을 계상했다.",
-      "status": "CONTEMPORANEOUS_REPORTED_PROPOSAL",
+      "status": "SUPPORTED",
       "supporting_evidence": [
         "DOC-NIKH-P229-dh_025_1952_05_24_0100"
       ],
       "insufficient_evidence": [
         "중앙 예산 승인·실제 지출 원장"
       ],
-      "analysis": "계상과 배정·집행은 다름. 보도 내 세부 업종 합계 및 오탈자(식품공원) 재검증 필요."
+      "analysis": "계상과 배정·집행은 다름. 보도 내 세부 업종 합계 및 오탈자(식품공원) 재검증 필요.",
+      "previous_status": "CONTEMPORANEOUS_REPORTED_PROPOSAL",
+      "verification_scope": "Contemporaneous newspaper reporting of a municipal budget proposal, not approved expenditure"
     },
     {
       "id": "CLM-P229-TEXTILE-STRIKE",
       "statement": "1952-03-12 조선방직 총파업 보도는 전진한 의원의 국제 노동단체 호소 계획을 전한다.",
-      "status": "CONTEMPORANEOUS_REPORTED",
+      "status": "SUPPORTED",
       "supporting_evidence": [
         "DOC-NIKH-P229-dh_024_1952_03_12_0120"
       ],
       "insufficient_evidence": [
         "전진한 발언 원문·노조 결의문·실제 국제기구 제출 문서"
       ],
-      "analysis": "발언 의향과 실제 제출·국제 반응 분리."
+      "analysis": "발언 의향과 실제 제출·국제 반응 분리.",
+      "previous_status": "CONTEMPORANEOUS_REPORTED",
+      "verification_scope": "See source-role and caveat fields"
     }
   ]
 }

@@ -3,6 +3,30 @@
   "pass": 229,
   "events": [
     {
+      "id": "evt-1952-president-assassination-attempt",
+      "date": "1952-06-25",
+      "name": "1952-06-25 대통령 저격미수 및 1952-08-22 공판",
+      "parent_event_id": null,
+      "actorRoles": {
+        "attempted_by": [
+          "cand-yu-si-tae-1952"
+        ],
+        "alleged_planner": [
+          "cand-kim-si-hyeon-1952"
+        ],
+        "judicially_processed": [
+          "cand-choi-yang-ok-1952",
+          "pol-seo-sang-il",
+          "cand-no-gi-yong-1952"
+        ]
+      },
+      "document_ids": [
+        "DOC-NIKH-P229-dh_025_1952_06_25_0050",
+        "DOC-NIKH-P229-dh_026_1952_08_22_0070"
+      ],
+      "caution": "Attempt contemporaneously reported; individual guilt, conspiracy extent, advance warnings require original verdict and testimony."
+    },
+    {
       "id": "evt-1952-meyer-0523-authorization",
       "date": "1952-05-23",
       "name": "마이어 협정 백두진 서명 승인 진술",
@@ -52,7 +76,7 @@
       "name": "장택상 총리의 국회앞 시위통제 지시와 장석윤 이행 관찰",
       "parent_event_id": "evt-1952-pusan-political-crisis",
       "proposed_by": [
-        "pol-chang-taek-sang"
+        "cand-chang-taek-sang-1952"
       ],
       "executed_by": [
         "pol-jang-seok-yun (reported)"
@@ -124,7 +148,7 @@
         "pol-chang-taek-sang (compromise amendment)"
       ],
       "opposed_by": [
-        "pol-chang-taek-sang",
+        "cand-chang-taek-sang-1952",
         "most cabinet ministers (as Chang reported)"
       ],
       "decided_by": [

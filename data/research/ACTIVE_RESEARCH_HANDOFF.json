@@ -1,26 +1,25 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-08",
-  "activeBranch": "research/run89-audit-property-oversight",
-  "branchHead": "0f5b7c02de1a2dc77c3be0202ef0e98b73cf1a4b",
-  "baseMain": "34361bdcc8a895ed556b873aae6bd59ce3faa1c6",
-  "status": "RESEARCH_REVIEW_PENDING",
+  "updatedAt": "2026-10-28",
+  "activeBranch": "main",
+  "branchHead": "0bae0fd2c2ce592e6699095fbe4593d07e9b778e",
+  "baseMain": "0bae0fd2c2ce592e6699095fbe4593d07e9b778e",
+  "status": "MAIN_RESEARCH_COMMITTED; PREVIOUS_RUN89_REVIEW_BRANCH_STILL_PENDING",
   "summary": {
-    "openedDocuments": 49,
-    "formalDocuments": 32,
-    "formalEvents": 24,
-    "formalClaims": 17,
-    "leadQueue": 52,
-    "followedPriorLeads": 8,
-    "run97NewDocuments": 15,
-    "run97NewEvents": 13,
-    "run97NewCandidateNodes": 18,
-    "run97NewClaims": 7,
-    "run97NewLeads": 38
+    "pass229DocumentsOpened": 67,
+    "pass229PrimaryOrContemporary": 63,
+    "pass229ActorNodes": 14,
+    "pass229Events": 12,
+    "pass229Claims": 14,
+    "pass229Leads": 39,
+    "pass229Adversarial": 12,
+    "pass229CrossProvenance": 2,
+    "pass229IndependentLines": 13,
+    "pass229Domains": 9
   },
-  "nextAction": "Read research/run89-audit-property-oversight run97 ledger and lead queue. Verify original parliamentary vote counts and gazette appointments before merge. Floot untouched.",
-  "mainDataModified": false,
-  "latestRun": 97,
+  "nextAction": "Read data/research/runs/pass-229-execution-ledger.json and data/research/leads/pass-229-next-lead-queue.json; prioritize 1952-06-03 Korean cabinet minutes, 1952-08-22 court originals, 1952-05-24 Meyer annex; preserve pending run89 review branch. Floot untouched.",
+  "mainDataModified": true,
+  "latestRun": 229,
   "latestCorrections": [
     {
       "run": 93,
@@ -36,6 +35,23 @@
       "run": 97,
       "topic": "1949-06-15 property-law revote",
       "finding": "Contemporary newspaper 130:3 vs later constitutional commentary 132:10; stenogram needed"
+    },
+    {
+      "run": 229,
+      "topic": "1952 May24 resignation semantics",
+      "finding": "依願免本官 official form vs US dismissed description; no automatic voluntary/forced conclusion"
+    },
+    {
+      "run": 229,
+      "topic": "1952 June25 attempt",
+      "finding": "Choi Yang-ok appears as a defendant in 1952 Aug22 trial report, not merely neutral informant"
     }
-  ]
+  ],
+  "parallelPendingReview": {
+    "activeBranch": "research/run89-audit-property-oversight",
+    "branchHead": "0f5b7c02de1a2dc77c3be0202ef0e98b73cf1a4b",
+    "baseMain": "34361bdcc8a895ed556b873aae6bd59ce3faa1c6",
+    "status": "RESEARCH_REVIEW_PENDING",
+    "latestRun": 97
+  }
 }

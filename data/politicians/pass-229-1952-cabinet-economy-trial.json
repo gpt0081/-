@@ -79,7 +79,8 @@
         "DOC-NIKH-P229-dh_025_1952_05_24_0070"
       ],
       "openLeads": [
-        "1952-06-03 국무회의 원회의록과 당사자 해명"
+        "1952-06-03 국무회의 원회의록과 당사자 해명",
+        "기존 pol-lee-beom-seok와 pol-lee-beom-seok-1900 동일인 여부 및 참조 ID 병합 검사."
       ],
       "promotionReason": "At least one specific dated action supported by contemporaneous text; does not imply mature life coverage",
       "historyDebt": null
@@ -549,5 +550,13 @@
       "historyDebt": "identity incomplete"
     }
   ],
-  "warning": "Military officers, police and judges appearing as event actors are not automatically declared political office-holders. Candidates need independent office and identity verification."
+  "warning": "Military officers, police and judges appearing as event actors are not automatically declared political office-holders. Candidates need independent office and identity verification.",
+  "identity_merge_debt": [
+    {
+      "canonical_candidate": "pol-lee-beom-seok",
+      "possible_duplicate": "pol-lee-beom-seok-1900",
+      "status": "OPEN",
+      "note": "Both already occur in data/politicians.json; 1949 PM and 1952 interior minister appear to be same historical person. No deletion/automatic merge until downstream references checked."
+    }
+  ]
 }

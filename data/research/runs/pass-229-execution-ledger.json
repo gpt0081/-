@@ -10,12 +10,12 @@
     "independent_research_lines_substantively_followed": 13,
     "governance_domains_substantively_touched": 9,
     "non_president_actor_nodes_new_or_deepened": 14,
-    "events_or_subevents_structured_or_reinforced": 11,
+    "events_or_subevents_structured_or_reinforced": 12,
     "unique_document_bodies_directly_opened": 67,
     "primary_or_contemporaneous_document_texts_opened": 63,
     "adversarial_claim_checks": 12,
-    "existing_leads_followed": 10,
-    "new_specific_leads": 38,
+    "existing_leads_followed": 12,
+    "new_specific_leads": 39,
     "cross_provenance_bundles": 2
   },
   "domains": [
@@ -149,7 +149,88 @@
   "limitations": [
     "No Korean cabinet original, 1952 court stenogram or original gazette scan.",
     "Some 1952 FRUS documents are POW diplomacy context and not standalone novel findings.",
-    "Lead count is 38 durable document targets, active 15. Minimum 20 independent research lines not reached; 3 provenance bundles not reached."
+    "Lead count is 38 durable document targets, active 15. Minimum 20 independent research lines not reached; 3 provenance bundles not reached.",
+    "Existing data/politicians.json contains two Lee Beom-seok IDs; no destructive merge made."
   ],
-  "floot_touched": false
+  "floot_touched": false,
+  "commits_verified": [
+    "0bae0fd2c2ce592e6699095fbe4593d07e9b778e"
+  ],
+  "validation_history": [
+    {
+      "date": "2026-10-28",
+      "action": "normalized claim status; repaired dangling actor references and event root; recorded existing duplicate Lee Beom-seok ID; kept primary/secondary source distinction"
+    }
+  ],
+  "execution_time": {
+    "started_at_local": "2026-10-28T12:11:30+09:00",
+    "note": "No claim of one hour elapsed; run constrained by web tool quota and Exa 402 credit exhaustion."
+  },
+  "tool_access_limitations": [
+    "Web tool query/open budget exhausted after 67 distinct document bodies.",
+    "Exa web search returned HTTP 402 credits exceeded; no retry.",
+    "Direct container outbound HTTP DNS unavailable; no external requests possible from shell."
+  ],
+  "prior_lead_audit": [
+    {
+      "pass228_index": 3,
+      "status": "NARROWED",
+      "finding": "5/24 official announcement directly read, gazette original remains missing"
+    },
+    {
+      "pass228_index": 4,
+      "status": "OPEN",
+      "finding": "US 5/29 analysis adds political dismissal interpretation; Korean resignation letter missing"
+    },
+    {
+      "pass228_index": 5,
+      "status": "NARROWED",
+      "finding": "NIKH transcribed Seoul Shinmun text read; original paper image missing"
+    },
+    {
+      "pass228_index": 7,
+      "status": "NARROWED",
+      "finding": "8/22 contemporaneous trial press account read, court original remains missing"
+    },
+    {
+      "pass228_index": 8,
+      "status": "OPEN",
+      "finding": "8/22 report identifies 12 defendants, indictment original not found"
+    },
+    {
+      "pass228_index": 10,
+      "status": "NARROWED",
+      "finding": "Choi Yang-ok identified as former juvenile prison warden and defendant in first-trial report; service roster missing"
+    },
+    {
+      "pass228_index": 11,
+      "status": "NARROWED",
+      "finding": "Kim Si-hyeon identified as lawmaker and defendant in first-trial report; official membership and judgment missing"
+    },
+    {
+      "pass228_index": 12,
+      "status": "NARROWED",
+      "finding": "Yu Si-tae identified in contemporaneous scene and trial reporting; identity records pending"
+    },
+    {
+      "pass228_index": 13,
+      "status": "NARROWED",
+      "finding": "Seo Sang-il appears among defendants, finance transfer alleged in defendant statement; verdict missing"
+    },
+    {
+      "pass228_index": 14,
+      "status": "NARROWED",
+      "finding": "No Gi-yong appears among defendants; office/conviction unverified"
+    },
+    {
+      "pass228_index": 20,
+      "status": "NARROWED",
+      "finding": "FRUS/US JOINT WEEKA accessed; personnel timing and attribution refined"
+    },
+    {
+      "pass228_index": 21,
+      "status": "NARROWED",
+      "finding": "FRUS June 3/4 command-policy conflict read; police orders still missing"
+    }
+  ]
 }
