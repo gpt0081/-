@@ -76,8 +76,7 @@
       ],
       "document_ids": [
         "DOC-P231-KOR-0704",
-        "DOC-P231-FRUS-XV1-206",
-        "P229C-CONSTITUTION-0707"
+        "DOC-P231-FRUS-XV1-206"
       ],
       "uncertainty": "기립표결, 개인별 찬반 원표 부재; 찬성 163과 기권 3, 반대 0은 동시대 기사/편집주",
       "parent_event_id": null,
@@ -177,12 +176,13 @@
         "DOC-P231-NIKH-ELECTION-0813"
       ],
       "uncertainty": "부산일보 투표 당일 자유 분위기 보도는 기자의 서술이며 선거공정성의 독립 판정 아님",
-      "parent_event_id": "evt-1952-0805-presidential-election",
+      "parent_event_id": null,
       "politician_ids": [
         "pol-rhee-syngman",
         "pol-cho-bong-am",
         "pol-lee-beom-seok"
-      ]
+      ],
+      "parent_event_label": "1952 direct presidential election"
     },
     {
       "id": "evt-p231-0813-election-tally",
@@ -197,8 +197,9 @@
         "DOC-P231-PA-INAUGURATION"
       ],
       "uncertainty": "이승만 5,238,769표·74.60%, 함태영 2,943,813표 등; 투개표 원표 미열람",
-      "parent_event_id": "evt-1952-0805-presidential-election",
-      "politician_ids": []
+      "parent_event_id": null,
+      "politician_ids": [],
+      "parent_event_label": "1952 direct presidential election"
     },
     {
       "id": "evt-p231-0815-inauguration",
@@ -234,13 +235,14 @@
         "DOC-P231-KOR-0826"
       ],
       "uncertainty": "이석기 의원 350억 차액·13개 상사 394만3005달러 등은 질의상 주장, 원 회계확정 아님",
-      "parent_event_id": "evt-1952-0718-tungsten-investigation",
+      "parent_event_id": null,
       "politician_ids": [
         "pol-paik-too-chin",
         "cand-1952-cabinet-ham-in-seop",
         "cand-1952-mp-lee-seok-gi",
         "cand-1952-tungsten-1"
-      ]
+      ],
+      "parent_event_label": "1952 tungsten-dollar investigation"
     },
     {
       "id": "evt-p231-0906-tungsten-investigation",
@@ -254,8 +256,9 @@
         "DOC-P231-KOR-0826"
       ],
       "uncertainty": "9/6 '백 장관 한 번도 출석 안함'은 8/26 출석·답변 기사와 문자 그대로 충돌; 회차별 출석요구 또는 기사 오류 가능성",
-      "parent_event_id": "evt-1952-0718-tungsten-investigation",
-      "politician_ids": []
+      "parent_event_id": null,
+      "politician_ids": [],
+      "parent_event_label": "1952 tungsten-dollar investigation"
     }
   ],
   "warning": "Unverified role holders are literal institutions, not invented person IDs. Event parent IDs may be external pre-existing registry references and must be checked."

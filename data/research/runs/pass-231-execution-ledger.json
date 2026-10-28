@@ -3,7 +3,7 @@
   "pass": 231,
   "date": "2026-10-28",
   "focus": "1952 June-July constitutional crisis/POW diplomacy; August election and tungsten parliamentary accountability",
-  "status": "INTEGRATED_PENDING_GIT_COMMIT",
+  "status": "COMMITTED_AND_AUDITED",
   "weekly_history_debt_full_review": false,
   "weekly_history_debt_note": "역사부채 주간 전수조사 미실시",
   "floot_touched": false,
@@ -17,7 +17,7 @@
     "facsimile_images": 0
   },
   "counts": {
-    "independent_research_lines": 23,
+    "independent_research_lines": 24,
     "governance_domains": 9,
     "nonpresident_new_candidate_nodes": 10,
     "nonpresident_existing_nodes_deepened": 9,
@@ -25,7 +25,7 @@
     "substantive_documents_directly_opened": 60,
     "original_or_contemporaneous": 57,
     "adversarial_claim_checks": 15,
-    "existing_open_leads_followed": 8,
+    "existing_open_leads_followed": 9,
     "new_document_specific_leads": 38,
     "cross_provenance_bundles": 3,
     "strict_three_independent_primary_families_same_claim": 0
@@ -85,13 +85,14 @@
     "CLM-P231-POW-OBSERVER-UNANIMOUS"
   ],
   "tracked_prior_leads": [
+    "LEAD-P229C-003",
     "LEAD-P229C-006",
     "LEAD-P229C-007",
-    "LEAD-P229D-022",
-    "LEAD-P229D-023",
     "LEAD-P229B-003",
     "LEAD-P229B-004",
-    "LEAD-P229D-006",
+    "LEAD-P229B-005",
+    "LEAD-P229B-009",
+    "LEAD-P229B-012",
     "LEAD-P229D-009"
   ],
   "cross_provenance_bundles": [
@@ -139,9 +140,64 @@
     "candidate biographical dates and Hanja not verified; no maturity upgrade beyond event-specific evidence",
     "no claim that one hour elapsed"
   ],
-  "commit_shas": [],
+  "commit_shas": [
+    "f66ae48987b29a7a2f00ec4918525ca2cf4531b9"
+  ],
   "execution_time": {
     "actual_elapsed_minutes": null,
     "one_hour_claimed": false
-  }
+  },
+  "tracked_lead_results": [
+    {
+      "id": "LEAD-P229C-003",
+      "status": "NARROWED",
+      "finding": "FRUS JCS 912098 조건부 지침 확보, 한국 경찰 명령원본 여전히 미확보"
+    },
+    {
+      "id": "LEAD-P229C-006",
+      "status": "NARROWED",
+      "finding": "7/4 166/163/3 동아일보 동시대 보도 확보, 국회 원속기록 미확보"
+    },
+    {
+      "id": "LEAD-P229C-007",
+      "status": "NARROWED",
+      "finding": "헌법 제2호 7/7 국가법령정보센터 본문 확인, 원지면·서명 미확보"
+    },
+    {
+      "id": "LEAD-P229B-003",
+      "status": "NARROWED",
+      "finding": "8/26 중간조사 보고 뒤 국회 질의 전사 확보, 특위 보고 원본 미확보"
+    },
+    {
+      "id": "LEAD-P229B-004",
+      "status": "OPEN",
+      "finding": "9/6 조사 계속·출석논쟁 확인, 최종보고서 미확보"
+    },
+    {
+      "id": "LEAD-P229B-005",
+      "status": "NARROWED",
+      "finding": "8/26 함인섭 답변으로 농림부 의결 날짜·비료 수입신청 추가, 의결문 미확보"
+    },
+    {
+      "id": "LEAD-P229B-009",
+      "status": "NARROWED",
+      "finding": "8/26 이석기 의원 3943005달러/13개 상사 주장 확보, 불하대장 미확보"
+    },
+    {
+      "id": "LEAD-P229B-012",
+      "status": "NARROWED",
+      "finding": "8/26 함인섭 장관 답변 본문 확보, 원 국회 속기록 미확보"
+    },
+    {
+      "id": "LEAD-P229D-009",
+      "status": "BLOCKED",
+      "finding": "UN A/2441 PDF 403, 후대 재판 결과 검색색인만 확인; 원문 읽기 미계상"
+    }
+  ],
+  "audit_corrections": [
+    "Research line list is 24 distinct topics, corrected 23→24",
+    "Replaced two unrelated prior-lead IDs with nine actual previously queued leads and outcomes",
+    "Removed unverified parent event IDs and dangling P229C-CONSTITUTION-0707 document reference",
+    "Central politician registry roles normalized to preexisting string role convention"
+  ]
 }
