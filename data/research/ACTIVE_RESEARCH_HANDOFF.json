@@ -4,11 +4,11 @@
   "activeBranch": "main",
   "branchHead": "moving-ref:refs/heads/main",
   "baseMain": "0bae0fd2c2ce592e6699095fbe4593d07e9b778e",
-  "status": "PASS239_COMPLETE_102_UNIQUE_ORIGINS_55_EVENTS_31_CLAIMS_77_LEADS",
-  "summary": "June22-30 Korean governance: 35 full contemporary transcriptions, 26 events, 17 claims, 16 politicians, 7 new candidates, Park Sul-eum independent annals",
-  "nextAction": "Read pass-239e-summary.md, pass-239e-next-queue.json; prioritize 6/30 National Assembly official minutes, Shin speech disputed testimony, labor wage ledger, land reform cabinet minutes, social minister resettlement execution.",
+  "status": "PASS239F_1953_LABOR_LEGAL_DATE_CONFLICT_AND_9_EVENTS_33_LEADS",
+  "summary": "1953 labor statutes, decree 782 publication date CONFLICTED (PA 4/14 vs law.go.kr 4/20), Park 773/774 policySeq vs 783/784 decree-number correction",
+  "nextAction": "Read pass-239f-summary.md and pass-239f-next-queue.json; prioritize PA 1A00614174533603 and 1953-04-20 Gazette, then 1953-06 union re-registration ledger and 1953 labor court registration rule",
   "mainDataModified": true,
-  "latestRun": "pass-239E",
+  "latestRun": "pass-239F",
   "latestCorrections": [
     {
       "run": 93,
@@ -388,5 +388,14 @@
     "first_commit": "b3d04413849517bb2a707a8da7fad238a31ef136",
     "next_leads": 42,
     "report": "data/research/runs/pass-239e-execution-ledger.json"
+  },
+  "latestResearchPass239F": {
+    "date": "2026-10-28",
+    "first_commit": "2b082e7a7408efbc7ff68efa712622ff4d5d7a34",
+    "report": "data/research/runs/pass-239f-execution-ledger.json",
+    "leads": "data/research/leads/pass-239f-next-queue.json",
+    "new_events": 9,
+    "new_claims": 8,
+    "open_date_conflict": "CLM-P239F-782-DATE"
   }
 }
