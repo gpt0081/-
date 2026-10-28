@@ -3,7 +3,7 @@
   "pass": 231,
   "date": "2026-10-28",
   "focus": "1952 June-July constitutional crisis/POW diplomacy; August election and tungsten parliamentary accountability",
-  "status": "PASS231B_COMMITTED_RESEARCH_LEDGER_UPDATED",
+  "status": "PASS231_COMPLETE_COMMITS_VERIFIED",
   "weekly_history_debt_full_review": false,
   "weekly_history_debt_note": "역사부채 주간 전수조사 미실시",
   "floot_touched": false,
@@ -164,11 +164,14 @@
   ],
   "commit_shas": [
     "f66ae48987b29a7a2f00ec4918525ca2cf4531b9",
-    "292520b09782c8a802dfa5b26de7354538114b3c"
+    "e70c92f5440b86a766ce5fcb1633a894217b0b66",
+    "292520b09782c8a802dfa5b26de7354538114b3c",
+    "ddbd129f03a2041dc38350a17da58df5c63350d7"
   ],
   "execution_time": {
     "actual_elapsed_minutes": null,
-    "one_hour_claimed": false
+    "one_hour_claimed": false,
+    "note": "Actual elapsed not independently clocked; one-hour duration not claimed. Research continued after first 60 substantive documents to 70 and after first 38 leads to 52. No Floot writes/builds."
   },
   "tracked_lead_results": [
     {
@@ -222,5 +225,15 @@
     "Replaced two unrelated prior-lead IDs with nine actual previously queued leads and outcomes",
     "Removed unverified parent event IDs and dangling P229C-CONSTITUTION-0707 document reference",
     "Central politician registry roles normalized to preexisting string role convention"
-  ]
+  ],
+  "validation": {
+    "document_ids_unique": true,
+    "pass231_new_document_registry_records": 75,
+    "primary_or_contemporaneous_directly_opened": 67,
+    "document_family_warning": "48 FRUS original-origin transcriptions share one U.S. editorial series; count is document count, not independent origin families",
+    "research_line_count": 30,
+    "lead_count": 52,
+    "un_original_pdf_access": "403, catalog only",
+    "last_full_history_debt_review_unchanged": true
+  }
 }

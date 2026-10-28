@@ -16,3 +16,6 @@
 - 2026-10-28 계엄 598·599호·헌법 제2호·최창순 원호·김태선/이윤영 인물노드: `data/annals/1952-martial-constitution-welfare.md`, `data/politicians/pass-229b-1952-cabinet-oversight.json`.
 
 - 2026-10-28 서민호 독립 실록·재판/검찰/군법회의 actor 9인, 1952-05-10 도의원 당선자 8인: `data/annals/seo-min-ho.md`, `data/politicians/pass-229d-1952-local-justice-actors.json`. 대통령 재임 사건과 직접 지시를 분리.
+
+- 2026-10-28 pass231 1952년 8월 대통령·부통령 후보, 중석불 국회감사·검찰 불기소·지방행정 등 비대통령 후보 14명과 기존 노드 13개 연결 보강: `data/politicians/pass-231-1952-election-accountability.json`. 5개 신원확인 단계 후보는 기본 `data/politicians.json`에도 additive 등록. 생몰·한자 미확인, 동일인 자동병합 금지.
+- 이들 독립 행위·증거·문서 연결: `data/events/pass-231-1952-constitutional-election-pow.json`, `data/documents/pass-231-1952-june-july-diplomacy-election.json`, `data/claims/pass-231-1952-election-pow-accountability.json`, `data/annals/1952-july-august-election-economic-accountability.md`.

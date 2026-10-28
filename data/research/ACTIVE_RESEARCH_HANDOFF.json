@@ -4,7 +4,7 @@
   "activeBranch": "main",
   "branchHead": "moving-ref:refs/heads/main",
   "baseMain": "0bae0fd2c2ce592e6699095fbe4593d07e9b778e",
-  "status": "MAIN_RESEARCH_COMMITTED; PREVIOUS_RUN89_REVIEW_BRANCH_STILL_PENDING",
+  "status": "MAIN_RESEARCH_COMMITTED_PASS231B; PREVIOUS_RUN89_REVIEW_BRANCH_STILL_PENDING",
   "summary": {
     "pass229DocumentsOpened": 105,
     "pass229PrimaryOrContemporary": 93,
@@ -15,11 +15,24 @@
     "pass229Adversarial": 48,
     "pass229CrossProvenance": 5,
     "pass229IndependentLines": 33,
-    "pass229Domains": 15
+    "pass229Domains": 15,
+    "pass231NewDocumentRegistryRecords": 75,
+    "pass231DirectSubstantiveRead": 70,
+    "pass231OriginalOrContemporary": 67,
+    "pass231NewActorCandidates": 14,
+    "pass231ExistingActorDeepened": 13,
+    "pass231Events": 20,
+    "pass231Claims": 21,
+    "pass231Leads": 52,
+    "pass231Adversarial": 21,
+    "pass231CrossProvenanceBundles": 3,
+    "pass231StrictThreeIndependentPrimaryFamilies": 0,
+    "pass231IndependentLines": 30,
+    "pass231Domains": 11
   },
-  "nextAction": "Read pass229 a/b/c/d queues and ledgers. Priority: 1952-07-01 Seo Min-ho military sentence and UNCURK letter, 1952-05-10 local turnout original tables and UN A/2187, 1952-05-25 martial approval originals, 1952-07-18 tungsten investigation report. Floot untouched.",
+  "nextAction": "Read data/research/runs/pass-231-execution-ledger.json and data/research/leads/pass-231-next-lead-queue.json FIRST. Highest priority: National Assembly 1952-07-04 vote stenogram, 1952 election law no.247 original Gazette July18/19, 1952-08-26 tungsten plenary vs 1952-09-06 committee attendance record, UN A/2187 and A/2441 alternate depository (direct PDF 403), Seoul High Prosecutors Office Aug15 International Club 30-person nonindictment decision, ROK 1952 crop forecast and 3500m USD reimbursement payment records. Floot untouched.",
   "mainDataModified": true,
-  "latestRun": 229,
+  "latestRun": 231,
   "latestCorrections": [
     {
       "run": 93,
@@ -45,6 +58,21 @@
       "run": 229,
       "topic": "1952 June25 attempt",
       "finding": "Choi Yang-ok appears as a defendant in 1952 Aug22 trial report, not merely neutral informant"
+    },
+    {
+      "run": 231,
+      "topic": "1952 tungsten minister attendance",
+      "finding": "Aug26 plenary Baek answered vs Sept6 special committee nonattendance reported; do not merge venues or assume false testimony"
+    },
+    {
+      "run": 231,
+      "topic": "1952 election law 247 date",
+      "finding": "NIKH overview gives July18 and July19; Gazette original needed"
+    },
+    {
+      "run": 231,
+      "topic": "1952 presidential speech vs political crisis",
+      "finding": "Aug15 Rhee speech attributed self-assessment, not overriding FRUS or Korean contemporaneous observation"
     }
   ],
   "parallelPendingReview": {
@@ -55,5 +83,20 @@
     "latestRun": 97
   },
   "mainRef": "refs/heads/main",
-  "latestVerifiedMainCommit": "eca6b3ce2f996522d9658041012d81772e129906"
+  "latestVerifiedMainCommit": "ddbd129f03a2041dc38350a17da58df5c63350d7",
+  "pass231Files": {
+    "documents": "data/documents/pass-231-1952-june-july-diplomacy-election.json",
+    "events": "data/events/pass-231-1952-constitutional-election-pow.json",
+    "claims": "data/claims/pass-231-1952-election-pow-accountability.json",
+    "politicians": "data/politicians/pass-231-1952-election-accountability.json",
+    "annals": "data/annals/1952-july-august-election-economic-accountability.md",
+    "leads": "data/research/leads/pass-231-next-lead-queue.json",
+    "ledger": "data/research/runs/pass-231-execution-ledger.json"
+  },
+  "pass231Commits": [
+    "f66ae48987b29a7a2f00ec4918525ca2cf4531b9",
+    "e70c92f5440b86a766ce5fcb1633a894217b0b66",
+    "292520b09782c8a802dfa5b26de7354538114b3c",
+    "ddbd129f03a2041dc38350a17da58df5c63350d7"
+  ]
 }
