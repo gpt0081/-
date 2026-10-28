@@ -3715,7 +3715,8 @@
         "LEAD-P239M3-IDENTITY-cand-p235-kwak-sang-hun"
       ],
       "historyDebt": [
-        "HD-P235-ASSEMBLY-RESULT"
+        "HD-P235-ASSEMBLY-RESULT",
+        "HD-P246-ACTING-SUCCESSION"
       ],
       "evidenceFile": "data/evidence/kwak-sang-hun.json",
       "annalsFile": "data/annals/kwak-sang-hun.md",
@@ -3740,6 +3741,15 @@
           "evt-p241-07"
         ],
         "interpretation": "contemporaneous report/assessment separated from proved individual order or implementation"
+      },
+      "researchPass246": {
+        "date": "2026-10-29",
+        "documents": [
+          "DOC-P246-GAZ-551",
+          "DOC-P246-GAZ-552"
+        ],
+        "status": "CONFLICTED",
+        "note": "6/23·7/1 허정 대통령권한대행 명의 관보와 6/15 곽상훈 즉시 승계 FRUS 편집주석 상충"
       }
     },
     {
@@ -8886,7 +8896,19 @@
       ],
       "researchRefs": [
         "data/documents/pass-245-1960-constitutional-originals.json"
-      ]
+      ],
+      "historyDebt": [
+        "HD-P246-ACTING-SUCCESSION"
+      ],
+      "researchPass246": {
+        "date": "2026-10-29",
+        "documents": [
+          "DOC-P246-GAZ-551",
+          "DOC-P246-GAZ-552"
+        ],
+        "status": "CONFLICTED",
+        "note": "6/23·7/1 허정 대통령권한대행 명의 관보와 6/15 곽상훈 즉시 승계 FRUS 편집주석 상충"
+      }
     },
     {
       "id": "cand-p244-chu-yo-han",
@@ -9190,7 +9212,8 @@
       "id": "cand-p245-lee-ho",
       "name": "이호",
       "aliases": [
-        "Lee Ho (provisional)"
+        "Lee Ho (provisional)",
+        "李澔"
       ],
       "lifespan": {
         "born": null,
@@ -9205,9 +9228,15 @@
           "period": "1960-06-15",
           "office": "내무부장관",
           "basis": "원관보 공포문 직책 표기, 실제 임명일 미확인"
+        },
+        {
+          "period": "1960-05-11",
+          "office": "내무부장관",
+          "basis": "DOC-P246-GAZ-2576",
+          "caution": "임명일/생몰/동명이인 미확인"
         }
       ],
-      "researchStatus": "DISCOVERED",
+      "researchStatus": "IDENTIFIED",
       "evidenceCoverage": {
         "documents": [
           "DOC-P245-GAZ-09"
@@ -9222,13 +9251,29 @@
         "LEAD-P245-ID-01"
       ],
       "historyDebt": [],
-      "identityCaution": "한글 이름·직책은 원관보 확인, 생몰·한자·동명이인 미확인. 이름만으로 병합 금지."
+      "identityCaution": "한글 이름·직책은 원관보 확인, 생몰·한자·동명이인 미확인. 이름만으로 병합 금지.",
+      "evidenceCoveragePass246": {
+        "documentIds": [
+          "DOC-P246-GAZ-2576"
+        ],
+        "original_transcription": true,
+        "facsimile": false
+      },
+      "promotionHistory": [
+        {
+          "date": "2026-10-29",
+          "from": "DISCOVERED",
+          "to": "IDENTIFIED",
+          "reason": "1956/1960 원관보 한자+부처+시기 확인, 생몰·임명원부 미확인"
+        }
+      ]
     },
     {
       "id": "cand-p245-yun-ho-byeong",
       "name": "윤호병",
       "aliases": [
-        "Yun Ho-byeong (provisional)"
+        "Yun Ho-byeong (provisional)",
+        "尹皥炳"
       ],
       "lifespan": {
         "born": null,
@@ -9243,9 +9288,15 @@
           "period": "1960-06-15",
           "office": "재무부장관",
           "basis": "원관보 공포문 직책 표기, 실제 임명일 미확인"
+        },
+        {
+          "period": "1960-05-11",
+          "office": "재무부장관",
+          "basis": "DOC-P246-GAZ-2576",
+          "caution": "임명일/생몰/동명이인 미확인"
         }
       ],
-      "researchStatus": "DISCOVERED",
+      "researchStatus": "IDENTIFIED",
       "evidenceCoverage": {
         "documents": [
           "DOC-P245-GAZ-09"
@@ -9260,13 +9311,29 @@
         "LEAD-P245-ID-02"
       ],
       "historyDebt": [],
-      "identityCaution": "한글 이름·직책은 원관보 확인, 생몰·한자·동명이인 미확인. 이름만으로 병합 금지."
+      "identityCaution": "한글 이름·직책은 원관보 확인, 생몰·한자·동명이인 미확인. 이름만으로 병합 금지.",
+      "evidenceCoveragePass246": {
+        "documentIds": [
+          "DOC-P246-GAZ-2576"
+        ],
+        "original_transcription": true,
+        "facsimile": false
+      },
+      "promotionHistory": [
+        {
+          "date": "2026-10-29",
+          "from": "DISCOVERED",
+          "to": "IDENTIFIED",
+          "reason": "1956/1960 원관보 한자+부처+시기 확인, 생몰·임명원부 미확인"
+        }
+      ]
     },
     {
       "id": "cand-p245-kwon-seung-ryeol",
       "name": "권승렬",
       "aliases": [
-        "Kwon Seung-ryeol (provisional)"
+        "Kwon Seung-ryeol (provisional)",
+        "權承烈"
       ],
       "lifespan": {
         "born": null,
@@ -9281,9 +9348,15 @@
           "period": "1960-06-15",
           "office": "법무부장관",
           "basis": "원관보 공포문 직책 표기, 실제 임명일 미확인"
+        },
+        {
+          "period": "1960-05-11",
+          "office": "법무부장관",
+          "basis": "DOC-P246-GAZ-2576",
+          "caution": "임명일/생몰/동명이인 미확인"
         }
       ],
-      "researchStatus": "DISCOVERED",
+      "researchStatus": "IDENTIFIED",
       "evidenceCoverage": {
         "documents": [
           "DOC-P245-GAZ-09"
@@ -9298,13 +9371,29 @@
         "LEAD-P245-ID-03"
       ],
       "historyDebt": [],
-      "identityCaution": "한글 이름·직책은 원관보 확인, 생몰·한자·동명이인 미확인. 이름만으로 병합 금지."
+      "identityCaution": "한글 이름·직책은 원관보 확인, 생몰·한자·동명이인 미확인. 이름만으로 병합 금지.",
+      "evidenceCoveragePass246": {
+        "documentIds": [
+          "DOC-P246-GAZ-2576"
+        ],
+        "original_transcription": true,
+        "facsimile": false
+      },
+      "promotionHistory": [
+        {
+          "date": "2026-10-29",
+          "from": "DISCOVERED",
+          "to": "IDENTIFIED",
+          "reason": "1956/1960 원관보 한자+부처+시기 확인, 생몰·임명원부 미확인"
+        }
+      ]
     },
     {
       "id": "cand-p245-lee-byeong-do",
       "name": "이병도",
       "aliases": [
-        "Lee Byeong-do (provisional)"
+        "Lee Byeong-do (provisional)",
+        "李丙燾"
       ],
       "lifespan": {
         "born": null,
@@ -9319,9 +9408,15 @@
           "period": "1960-06-15",
           "office": "문교부장관",
           "basis": "원관보 공포문 직책 표기, 실제 임명일 미확인"
+        },
+        {
+          "period": "1960-05-11",
+          "office": "문교부장관",
+          "basis": "DOC-P246-GAZ-2576",
+          "caution": "임명일/생몰/동명이인 미확인"
         }
       ],
-      "researchStatus": "DISCOVERED",
+      "researchStatus": "IDENTIFIED",
       "evidenceCoverage": {
         "documents": [
           "DOC-P245-GAZ-09"
@@ -9336,13 +9431,29 @@
         "LEAD-P245-ID-04"
       ],
       "historyDebt": [],
-      "identityCaution": "한글 이름·직책은 원관보 확인, 생몰·한자·동명이인 미확인. 이름만으로 병합 금지."
+      "identityCaution": "한글 이름·직책은 원관보 확인, 생몰·한자·동명이인 미확인. 이름만으로 병합 금지.",
+      "evidenceCoveragePass246": {
+        "documentIds": [
+          "DOC-P246-GAZ-2576"
+        ],
+        "original_transcription": true,
+        "facsimile": false
+      },
+      "promotionHistory": [
+        {
+          "date": "2026-10-29",
+          "from": "DISCOVERED",
+          "to": "IDENTIFIED",
+          "reason": "1956/1960 원관보 한자+부처+시기 확인, 생몰·임명원부 미확인"
+        }
+      ]
     },
     {
       "id": "cand-p245-jeon-ye-yong",
       "name": "전예용",
       "aliases": [
-        "Jeon Ye-yong (provisional)"
+        "Jeon Ye-yong (provisional)",
+        "全禮鎔"
       ],
       "lifespan": {
         "born": null,
@@ -9357,9 +9468,15 @@
           "period": "1960-06-15",
           "office": "부흥부장관",
           "basis": "원관보 공포문 직책 표기, 실제 임명일 미확인"
+        },
+        {
+          "period": "1960-05-11",
+          "office": "부흥부장관",
+          "basis": "DOC-P246-GAZ-2576",
+          "caution": "임명일/생몰/동명이인 미확인"
         }
       ],
-      "researchStatus": "DISCOVERED",
+      "researchStatus": "IDENTIFIED",
       "evidenceCoverage": {
         "documents": [
           "DOC-P245-GAZ-09"
@@ -9374,13 +9491,29 @@
         "LEAD-P245-ID-05"
       ],
       "historyDebt": [],
-      "identityCaution": "한글 이름·직책은 원관보 확인, 생몰·한자·동명이인 미확인. 이름만으로 병합 금지."
+      "identityCaution": "한글 이름·직책은 원관보 확인, 생몰·한자·동명이인 미확인. 이름만으로 병합 금지.",
+      "evidenceCoveragePass246": {
+        "documentIds": [
+          "DOC-P246-GAZ-2576"
+        ],
+        "original_transcription": true,
+        "facsimile": false
+      },
+      "promotionHistory": [
+        {
+          "date": "2026-10-29",
+          "from": "DISCOVERED",
+          "to": "IDENTIFIED",
+          "reason": "1956/1960 원관보 한자+부처+시기 확인, 생몰·임명원부 미확인"
+        }
+      ]
     },
     {
       "id": "cand-p245-lee-hae-ik",
       "name": "이해익",
       "aliases": [
-        "Lee Hae-ik (provisional)"
+        "Lee Hae-ik (provisional)",
+        "李海翼"
       ],
       "lifespan": {
         "born": null,
@@ -9395,9 +9528,15 @@
           "period": "1960-06-15",
           "office": "농림부장관",
           "basis": "원관보 공포문 직책 표기, 실제 임명일 미확인"
+        },
+        {
+          "period": "1960-05-11",
+          "office": "농림부장관",
+          "basis": "DOC-P246-GAZ-2576",
+          "caution": "임명일/생몰/동명이인 미확인"
         }
       ],
-      "researchStatus": "DISCOVERED",
+      "researchStatus": "IDENTIFIED",
       "evidenceCoverage": {
         "documents": [
           "DOC-P245-GAZ-09"
@@ -9412,13 +9551,29 @@
         "LEAD-P245-ID-06"
       ],
       "historyDebt": [],
-      "identityCaution": "한글 이름·직책은 원관보 확인, 생몰·한자·동명이인 미확인. 이름만으로 병합 금지."
+      "identityCaution": "한글 이름·직책은 원관보 확인, 생몰·한자·동명이인 미확인. 이름만으로 병합 금지.",
+      "evidenceCoveragePass246": {
+        "documentIds": [
+          "DOC-P246-GAZ-2576"
+        ],
+        "original_transcription": true,
+        "facsimile": false
+      },
+      "promotionHistory": [
+        {
+          "date": "2026-10-29",
+          "from": "DISCOVERED",
+          "to": "IDENTIFIED",
+          "reason": "1956/1960 원관보 한자+부처+시기 확인, 생몰·임명원부 미확인"
+        }
+      ]
     },
     {
       "id": "cand-p245-oh-jeong-su",
       "name": "오정수",
       "aliases": [
-        "Oh Jeong-su (provisional)"
+        "Oh Jeong-su (provisional)",
+        "吳楨洙"
       ],
       "lifespan": {
         "born": null,
@@ -9433,9 +9588,15 @@
           "period": "1960-06-15",
           "office": "상공부장관",
           "basis": "원관보 공포문 직책 표기, 실제 임명일 미확인"
+        },
+        {
+          "period": "1960-05-11",
+          "office": "5/11 체신부·6/23 상공부",
+          "basis": "DOC-P246-GAZ-2576",
+          "caution": "임명일/생몰/동명이인 미확인"
         }
       ],
-      "researchStatus": "DISCOVERED",
+      "researchStatus": "IDENTIFIED",
       "evidenceCoverage": {
         "documents": [
           "DOC-P245-GAZ-09"
@@ -9444,19 +9605,38 @@
         "facsimile": false
       },
       "connections": [
-        "evt-p245-1960-0615-promulgation"
+        "evt-p245-1960-0615-promulgation",
+        "evt-p246-1960-0701-oh-hanja-discrepancy"
       ],
       "openLeads": [
         "LEAD-P245-ID-07"
       ],
-      "historyDebt": [],
-      "identityCaution": "한글 이름·직책은 원관보 확인, 생몰·한자·동명이인 미확인. 이름만으로 병합 금지."
+      "historyDebt": [
+        "HD-P246-OH-HANJA"
+      ],
+      "identityCaution": "5/11·6/23 吳楨洙 대 7/1 吳植洙 원관보 전사충돌. 동일인·오탈자 원면 확인 전 확정금지",
+      "evidenceCoveragePass246": {
+        "documentIds": [
+          "DOC-P246-GAZ-2576"
+        ],
+        "original_transcription": true,
+        "facsimile": false
+      },
+      "promotionHistory": [
+        {
+          "date": "2026-10-29",
+          "from": "DISCOVERED",
+          "to": "IDENTIFIED",
+          "reason": "1956/1960 원관보 한자+부처+시기 확인, 생몰·임명원부 미확인"
+        }
+      ]
     },
     {
       "id": "cand-p245-kim-seong-jin",
       "name": "김성진",
       "aliases": [
-        "Kim Seong-jin (provisional)"
+        "Kim Seong-jin (provisional)",
+        "金晟鎭"
       ],
       "lifespan": {
         "born": null,
@@ -9471,9 +9651,15 @@
           "period": "1960-06-15",
           "office": "보건사회부장관",
           "basis": "원관보 공포문 직책 표기, 실제 임명일 미확인"
+        },
+        {
+          "period": "1960-05-11",
+          "office": "보건사회부장관",
+          "basis": "DOC-P246-GAZ-2576",
+          "caution": "임명일/생몰/동명이인 미확인"
         }
       ],
-      "researchStatus": "DISCOVERED",
+      "researchStatus": "IDENTIFIED",
       "evidenceCoverage": {
         "documents": [
           "DOC-P245-GAZ-09"
@@ -9488,13 +9674,29 @@
         "LEAD-P245-ID-08"
       ],
       "historyDebt": [],
-      "identityCaution": "한글 이름·직책은 원관보 확인, 생몰·한자·동명이인 미확인. 이름만으로 병합 금지."
+      "identityCaution": "한글 이름·직책은 원관보 확인, 생몰·한자·동명이인 미확인. 이름만으로 병합 금지.",
+      "evidenceCoveragePass246": {
+        "documentIds": [
+          "DOC-P246-GAZ-2576"
+        ],
+        "original_transcription": true,
+        "facsimile": false
+      },
+      "promotionHistory": [
+        {
+          "date": "2026-10-29",
+          "from": "DISCOVERED",
+          "to": "IDENTIFIED",
+          "reason": "1956/1960 원관보 한자+부처+시기 확인, 생몰·임명원부 미확인"
+        }
+      ]
     },
     {
       "id": "cand-p245-seok-sang-ok",
       "name": "석상옥",
       "aliases": [
-        "Seok Sang-ok (provisional)"
+        "Seok Sang-ok (provisional)",
+        "石常玉"
       ],
       "lifespan": {
         "born": null,
@@ -9509,9 +9711,15 @@
           "period": "1960-06-15",
           "office": "교통부장관",
           "basis": "원관보 공포문 직책 표기, 실제 임명일 미확인"
+        },
+        {
+          "period": "1960-05-11",
+          "office": "교통부장관",
+          "basis": "DOC-P246-GAZ-2576",
+          "caution": "임명일/생몰/동명이인 미확인"
         }
       ],
-      "researchStatus": "DISCOVERED",
+      "researchStatus": "IDENTIFIED",
       "evidenceCoverage": {
         "documents": [
           "DOC-P245-GAZ-09"
@@ -9526,7 +9734,22 @@
         "LEAD-P245-ID-09"
       ],
       "historyDebt": [],
-      "identityCaution": "한글 이름·직책은 원관보 확인, 생몰·한자·동명이인 미확인. 이름만으로 병합 금지."
+      "identityCaution": "한글 이름·직책은 원관보 확인, 생몰·한자·동명이인 미확인. 이름만으로 병합 금지.",
+      "evidenceCoveragePass246": {
+        "documentIds": [
+          "DOC-P246-GAZ-2576"
+        ],
+        "original_transcription": true,
+        "facsimile": false
+      },
+      "promotionHistory": [
+        {
+          "date": "2026-10-29",
+          "from": "DISCOVERED",
+          "to": "IDENTIFIED",
+          "reason": "1956/1960 원관보 한자+부처+시기 확인, 생몰·임명원부 미확인"
+        }
+      ]
     },
     {
       "id": "cand-p245-lee-geun-jik",
@@ -9570,7 +9793,8 @@
       "id": "cand-p245-kim-il-hwan",
       "name": "김일환",
       "aliases": [
-        "Kim Il-hwan (provisional)"
+        "Kim Il-hwan (provisional)",
+        "金一煥"
       ],
       "lifespan": {
         "born": null,
@@ -9585,9 +9809,15 @@
           "period": "1958-01-25",
           "office": "상공부장관; 1958-12-26 내무부장관",
           "basis": "원관보 공포문 직책 표기, 실제 임명일 미확인"
+        },
+        {
+          "period": "1956-02-13",
+          "office": "1956·1958 상공부장관",
+          "basis": "DOC-P246-GAZ-385",
+          "caution": "임명일/생몰/동명이인 미확인"
         }
       ],
-      "researchStatus": "DISCOVERED",
+      "researchStatus": "IDENTIFIED",
       "evidenceCoverage": {
         "documents": [
           "DOC-P245-GAZ-05"
@@ -9596,19 +9826,37 @@
         "facsimile": false
       },
       "connections": [
-        "evt-p245-1958-0125-senate-law"
+        "evt-p245-1958-0125-senate-law",
+        "evt-p246-1956-0213-local385"
       ],
       "openLeads": [
         "LEAD-P245-ID-11"
       ],
       "historyDebt": [],
-      "identityCaution": "한글 이름·직책은 원관보 확인, 생몰·한자·동명이인 미확인. 이름만으로 병합 금지."
+      "identityCaution": "한글 이름·직책은 원관보 확인, 생몰·한자·동명이인 미확인. 이름만으로 병합 금지.",
+      "evidenceCoveragePass246": {
+        "documentIds": [
+          "DOC-P246-GAZ-385"
+        ],
+        "original_transcription": true,
+        "facsimile": false
+      },
+      "promotionHistory": [
+        {
+          "date": "2026-10-29",
+          "from": "DISCOVERED",
+          "to": "IDENTIFIED",
+          "reason": "1956/1960 원관보 한자+부처+시기 확인, 생몰·임명원부 미확인"
+        }
+      ]
     },
     {
       "id": "cand-p245-lee-ong-jun",
       "name": "이옹준",
       "aliases": [
-        "Lee Ong-jun (provisional)"
+        "Lee Ong-jun (provisional)",
+        "이응준",
+        "李應俊"
       ],
       "lifespan": {
         "born": null,
@@ -9639,9 +9887,157 @@
       "openLeads": [
         "LEAD-P245-ID-12"
       ],
-      "historyDebt": [],
-      "identityCaution": "원관보 전사 '이옹준'은 전사 오탈자 또는 '이응준' 등 이표기 가능성이 있어 인명 원면 확인 전 독립 실존인물로 VERIFIED 승격 금지. 현재는 원전사 문자열을 보존하는 DISCOVERED 후보.",
-      "possibleTranscriptionVariant": "이응준 (동일인 여부 미확인)"
+      "historyDebt": [
+        "HD-P245-LEE-ONG-JUN-SPELLING"
+      ],
+      "identityCaution": "동일 1958 관보1965 법률469 '이옹준' 대 법률470 '이응준', 1956 법률385·388 李應俊. 신원·오탈자 원면 확인 전 DISCOVERED 유지",
+      "possibleTranscriptionVariant": "이응준 (동일인 여부 미확인)",
+      "evidenceCoveragePass246": {
+        "documentIds": [
+          "DOC-P245-GAZ-05",
+          "DOC-P246-GAZ-470",
+          "DOC-P246-GAZ-385",
+          "DOC-P246-GAZ-388"
+        ],
+        "status": "CONFLICTED_TRANSCRIPTION"
+      }
+    },
+    {
+      "id": "cand-p246-jeon-taek-bo",
+      "name": "전택보",
+      "aliases": [
+        "全澤珤",
+        "Jeon Taek-bo (provisional)"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "원호적·생몰 미확인"
+      },
+      "roles": [
+        "1960-05-11 상공부장관 국무원공고91호 서명"
+      ],
+      "rolesByPeriod": [
+        {
+          "period": "1960-05-11",
+          "office": "상공부장관",
+          "documentIds": [
+            "DOC-P246-GAZ-2576"
+          ]
+        }
+      ],
+      "researchStatus": "IDENTIFIED",
+      "connections": [
+        "evt-p246-1960-0511-amendment-proposal"
+      ],
+      "evidenceCoverage": {
+        "documentIds": [
+          "DOC-P246-GAZ-2576"
+        ],
+        "facsimile": false
+      },
+      "openLeads": [
+        "LEAD-P246-13"
+      ],
+      "historyDebt": [
+        "HD-P246-COMMERCE-SUCCESSION"
+      ]
+    },
+    {
+      "id": "cand-p246-lee-ok-dong",
+      "name": "이옥동",
+      "aliases": [
+        "Lee Ok-dong (provisional)"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "원당선인명부 미확인"
+      },
+      "roles": [
+        "1960-06-15 개헌 반대표 3인 중 한 명으로 동시대 신문에 보도됨(후대 전사)"
+      ],
+      "researchStatus": "DISCOVERED",
+      "connections": [
+        "evt-p246-1960-0615-dissent-three"
+      ],
+      "evidenceCoverage": {
+        "documentIds": [
+          "DOC-P246-KDEMO-0615"
+        ],
+        "facsimile": false
+      },
+      "openLeads": [
+        "LEAD-P246-15"
+      ],
+      "historyDebt": [
+        "HD-P246-DISSENT-NAMES"
+      ],
+      "identityCaution": "원기명표·동시대 신문 원면 미대조"
+    },
+    {
+      "id": "cand-p246-kim-gong-pyeong",
+      "name": "김공평",
+      "aliases": [
+        "Kim Gong-pyeong (provisional)"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "원당선인명부 미확인"
+      },
+      "roles": [
+        "1960-06-15 개헌 반대표 3인 중 한 명으로 동시대 신문에 보도됨(후대 전사)"
+      ],
+      "researchStatus": "DISCOVERED",
+      "connections": [
+        "evt-p246-1960-0615-dissent-three"
+      ],
+      "evidenceCoverage": {
+        "documentIds": [
+          "DOC-P246-KDEMO-0615"
+        ],
+        "facsimile": false
+      },
+      "openLeads": [
+        "LEAD-P246-15"
+      ],
+      "historyDebt": [
+        "HD-P246-DISSENT-NAMES"
+      ],
+      "identityCaution": "원기명표·동시대 신문 원면 미대조"
+    },
+    {
+      "id": "cand-p246-kim-chang-dong",
+      "name": "김창동",
+      "aliases": [
+        "Kim Chang-dong (provisional)"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "원당선인명부 미확인"
+      },
+      "roles": [
+        "1960-06-15 개헌 반대표 3인 중 한 명으로 동시대 신문에 보도됨(후대 전사)"
+      ],
+      "researchStatus": "DISCOVERED",
+      "connections": [
+        "evt-p246-1960-0615-dissent-three"
+      ],
+      "evidenceCoverage": {
+        "documentIds": [
+          "DOC-P246-KDEMO-0615"
+        ],
+        "facsimile": false
+      },
+      "openLeads": [
+        "LEAD-P246-15"
+      ],
+      "historyDebt": [
+        "HD-P246-DISSENT-NAMES"
+      ],
+      "identityCaution": "원기명표·동시대 신문 원면 미대조"
     }
   ],
   "recentResearchPass232": {
@@ -9863,5 +10259,11 @@
     "existingActorsDeepened": 8,
     "actorShard": "data/politicians/pass-245-gazette-ministers.json",
     "policy": "No name-only merge; 1960 defense minister Yi Jong-chan identity OPEN"
+  },
+  "recentResearchPass246": {
+    "date": "2026-10-29",
+    "deepened": 10,
+    "newActors": 4,
+    "overlay": "data/politicians/pass-246-1956-1960-actor-deepening.json"
   }
 }

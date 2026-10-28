@@ -6,3 +6,6 @@ UN 원문: https://digitallibrary.un.org/record/712124/files/A_2711-EN.pdf
 AKS: https://encykorea.aks.ac.kr/Article/E0004663
 
 OPEN: 1954-06-09 국회 부의장 표결, 무소속동지회 원내등록 31인, 1955 민주당 최고위원 선출원부, 호헌동지회와 조직 구별.
+
+## pass246 1960-06 권한대행 지위 재검토
+곽상훈 국회의장직과 대통령권한대행 지위는 별개. 6/23·7/1 관보 허정 권한대행 공포명의가 FRUS 후대 편집주석의 즉시승계 주장과 충돌하므로 개헌 당일 자동승계 단정 보류. HD-P246-ACTING-SUCCESSION.

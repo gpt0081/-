@@ -166,3 +166,10 @@
 - `data/politicians/id-aliases-pass244.json` (legacy ID resolver; not additional people)
 
 - `data/politicians/pass-244g-1960-drafting-actors.json` (pass244g; 2026-10-29)
+
+## pass246 1956~1960 인물·관보·선거법 (2026-10-29)
+- 중앙 정치인 registry: 기존 10명 한자·부처·시기별 직책 IDENTIFIED, 신규 전택보(全澤珤) IDENTIFIED, 6/15 개헌 반대표 보도 이옥동·김공평·김창동 DISCOVERED. 생몰·임면원장 미확인.
+- cand-p245-lee-ong-jun: 동일 관보1965 법률469 이옹준/470 이응준 및 1956 李應俊 충돌, 기존 ID 유지·자동병합 금지.
+- cand-p245-oh-jeong-su: 5/11·6/23 吳楨洙 대 7/1 吳植洙 충돌.
+- 허정/곽상훈 개헌 후 권한대행 즉시승계는 원관보 반증으로 CONFLICTED.
+- 자료: data/politicians/pass-246-1956-1960-actor-deepening.json ; data/events/pass-246-1956-1960-constitutional-institutional-actions.json ; data/claims/pass-246-1956-1960-adversarial.json.
