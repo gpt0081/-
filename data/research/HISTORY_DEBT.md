@@ -544,3 +544,14 @@
 ### HD-P235G-FISHERY-FOREX · 1953 유엔군 수산물 납품 외환매각 취소
 - 상태: `NARROWED`. 경향신문 1953-02-08 재무부의 상공부 추천 외환매각 취소·재검토 통보 보도. 1951 국무회의 보상 의결 원본·1953 재무부 공문·회사별 실제 외환매각 미확보.
 > 2026-10-28 수요일 개별 부채 보강. 역사부채 주간 전수조사 미실시. last_full_review 불변.
+
+
+### HD-P235H-1953-CHINA-BLOCKADE · 이승만 2/12 지지성명과 미국 봉쇄 미결정
+- 상태: `NARROWED` (2026-10-28 pass235H). 경향신문 2/13 전사 이승만 2/12 중국해안봉쇄 지지성명. Briggs 2/13 미대사관 영문전달은 동일 발언 번역. Dulles 2/10 상원 증언은 중국봉쇄·만주폭격·원자탄 사용 미결정. 한국 대통령의 정책 선호와 미국 대통령의 법적 결정 구분.
+- 출처: https://db.history.go.kr/contemp/level.do?levelId=dh_028_1953_02_12_0040 ; https://db.history.go.kr/contemp/level.do?levelId=dh_028_1953_02_13_0030 ; https://db.history.go.kr/contemp/level.do?levelId=dh_028_1953_02_10_0040
+### HD-P235H-ROK-RATIONS · 백선엽 2/10 한국군 급식비 지원요청
+- 상태: `OPEN`. 서울신문 UP/AP 보도 한국군 하루 미곡6합·부식비1200원, 포로 급식 비교와 백선엽 지원요청. 미 제8군 실제 지급·한국군 군량 원장·제네바협약 적용관할 미확인.
+- 출처: https://db.history.go.kr/contemp/level.do?levelId=dh_028_1953_02_10_0060
+### HD-P235H-TAIWAN-TROOPS-RUMOR · 대만군 1개사단 파병 합의설·공식 부인
+- 상태: `CONFLICTED`. 경향신문 1953-02-12 전사 익명 합의설과 대만 군사대변인 공식 부인을 동일 기사에 기록. 원대만 외교전문·미 국무부 검토문 미확보.
+> 2026-10-28 수요일 개별 부채 보강. 역사부채 주간 전수조사 미실시. last_full_review 불변.
