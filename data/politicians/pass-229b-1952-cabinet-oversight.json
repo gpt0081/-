@@ -982,9 +982,9 @@
         "崔昌順"
       ],
       "lifespan": {
-        "birth": null,
-        "death": null,
-        "verification": "not verified in this pass"
+        "birth": "1907-11-21 (AKS biography, original civil record not obtained)",
+        "death": "unknown",
+        "verification": "secondary academic biographical source"
       },
       "roles": [
         {
@@ -992,6 +992,16 @@
           "office": "사회부장관",
           "appointment_basis": "listed as cabinet minister in 국무원공고 35호; original appointment gazette not read",
           "source": "DOC-NIKH-P229B-dh_025_1952_05_07_0030"
+        },
+        {
+          "period": "1952-01-28",
+          "office": "사회부장관",
+          "source": "P229C-GAZETTE-598"
+        },
+        {
+          "period": "1952-10-09",
+          "office": "전 사회부장관, 이임담",
+          "source": "P229C-BUSAN-CHOI-1010"
         }
       ],
       "eventConnections": [
@@ -1001,13 +1011,28 @@
           "documentIds": [
             "DOC-NIKH-P229B-dh_025_1952_05_07_0030"
           ]
+        },
+        {
+          "eventId": "evt-1952-0713-refugee-rice-aid",
+          "actionType": "received_10_tonnes_aid_reported",
+          "documentIds": [
+            "P229C-BUSAN-RICE-0713"
+          ]
+        },
+        {
+          "eventId": "evt-1952-1009-choi-welfare-resignation",
+          "actionType": "outgoing_self_assessment",
+          "documentIds": [
+            "P229C-BUSAN-CHOI-1010"
+          ]
         }
       ],
-      "researchStatus": "IDENTIFIED",
-      "evidenceCoverage": "dated ministerial office, specific action if noted; exact life dates and tenure boundaries open",
+      "researchStatus": "VERIFIED",
+      "evidenceCoverage": "1952 January official cabinet identity, July aid receipt, October outgoing statement; exact benefit outcomes still open",
       "openLeads": [
         "1952-05-07 관보 국무원공고 제35호 원지면 및 최창순 사회부장관 임명 발령을 대조",
-        "1952-01-24 최 사회부장관과 동일인인지 1월 인사명부 확인"
+        "1952-01-24 최 사회부장관과 동일인인지 1월 인사명부 확인",
+        "1952-07-11 중화민국 구호쌀 10톤 배분대장과 10월 사회부 예산 미집행내역 확인"
       ],
       "promotionReason": "Official notice identifies office, no inferred direct constitutional proposal authorship"
     },
@@ -1050,7 +1075,8 @@
       "id": "cand-1952-cabinet-kim-seok-gwan",
       "name": "김석관",
       "aliases": [
-        "金錫寬"
+        "金錫寬",
+        "금석관 (law.go.kr Korean index rendering, conflicts with gazette 金錫寬)"
       ],
       "lifespan": {
         "birth": null,
@@ -1063,6 +1089,16 @@
           "office": "교통부장관",
           "appointment_basis": "listed as cabinet minister in 국무원공고 35호; original appointment gazette not read",
           "source": "DOC-NIKH-P229B-dh_025_1952_05_07_0030"
+        },
+        {
+          "period": "1952-01-28",
+          "office": "교통부장관",
+          "source": "P229C-GAZETTE-598"
+        },
+        {
+          "period": "1952-07-07",
+          "office": "교통부장관",
+          "source": "P229C-CONSTITUTION-0707"
         }
       ],
       "eventConnections": [
@@ -1077,7 +1113,8 @@
       "researchStatus": "IDENTIFIED",
       "evidenceCoverage": "dated ministerial office, specific action if noted; exact life dates and tenure boundaries open",
       "openLeads": [
-        "1952-05-07 관보 국무원공고 제35호 원지면 및 김석관 교통부장관 임명 발령을 대조"
+        "1952-05-07 관보 국무원공고 제35호 원지면 및 김석관 교통부장관 임명 발령을 대조",
+        "1952-07-07 국가법령정보센터 금석관 한글 색인과 관보 金錫寬 원문 전사 오류 확인"
       ],
       "promotionReason": "Official notice identifies office, no inferred direct constitutional proposal authorship"
     },
@@ -1115,6 +1152,79 @@
         "1952-05-07 관보 국무원공고 제35호 원지면 및 조주영 체신부장관 임명 발령을 대조"
       ],
       "promotionReason": "Official notice identifies office, no inferred direct constitutional proposal authorship"
+    },
+    {
+      "id": "cand-1952-interior-kim-tae-seon",
+      "name": "김태선",
+      "aliases": [
+        "金泰善",
+        "Kim Tae-seon"
+      ],
+      "lifespan": {
+        "birth": null,
+        "death": null,
+        "verification": "not checked"
+      },
+      "roles": [
+        {
+          "period": "1952-07-24/08-28",
+          "office": "제9대 내무부장관",
+          "source": "P229C-MOIS-MINISTERS"
+        }
+      ],
+      "eventConnections": [
+        {
+          "eventId": "evt-1952-0724-kim-tae-seon-interior",
+          "actionType": "assumed_office",
+          "documentIds": [
+            "P229C-MOIS-MINISTERS"
+          ]
+        }
+      ],
+      "researchStatus": "IDENTIFIED",
+      "evidenceCoverage": "official ministry tenure; contemporary 8/31 article has conflicting date",
+      "openLeads": [
+        "1952-07-22~24 관보 김태선 임명발령과 8/28 퇴임발령 대조"
+      ]
+    },
+    {
+      "id": "cand-1952-minister-lee-yun-yeong",
+      "name": "이윤영",
+      "aliases": [
+        "李允榮",
+        "Lee Yun-yeong"
+      ],
+      "lifespan": {
+        "birth": null,
+        "death": null,
+        "verification": "not checked"
+      },
+      "roles": [
+        {
+          "period": "1952-01-28",
+          "office": "무임소 국무위원",
+          "source": "P229C-GAZETTE-598"
+        },
+        {
+          "period": "1952-07-07",
+          "office": "국무위원",
+          "source": "P229C-CONSTITUTION-0707"
+        }
+      ],
+      "eventConnections": [
+        {
+          "eventId": "evt-1952-0707-amended-constitution-promulgation",
+          "actionType": "named_cabinet_member_not_proposer",
+          "documentIds": [
+            "P229C-CONSTITUTION-0707"
+          ]
+        }
+      ],
+      "researchStatus": "VERIFIED",
+      "evidenceCoverage": "two official dated documents, biography incomplete",
+      "openLeads": [
+        "1952-01~10 무임소장관·국무총리서리·총리지명 시기별 임명장 확인"
+      ]
     }
   ],
   "candidate_count": 23,

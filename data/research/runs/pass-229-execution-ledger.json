@@ -7,16 +7,16 @@
   "weekly_history_debt_full_review": false,
   "weekly_history_debt_note": "역사부채 주간 전수조사 미실시",
   "counts": {
-    "independent_research_lines_substantively_followed": 21,
-    "governance_domains_substantively_touched": 12,
-    "non_president_actor_nodes_new_or_deepened": 37,
-    "events_or_subevents_structured_or_reinforced": 27,
-    "unique_document_bodies_directly_opened": 82,
-    "primary_or_contemporaneous_document_texts_opened": 76,
-    "adversarial_claim_checks": 24,
+    "independent_research_lines_substantively_followed": 26,
+    "governance_domains_substantively_touched": 13,
+    "non_president_actor_nodes_new_or_deepened": 39,
+    "events_or_subevents_structured_or_reinforced": 35,
+    "unique_document_bodies_directly_opened": 91,
+    "primary_or_contemporaneous_document_texts_opened": 82,
+    "adversarial_claim_checks": 34,
     "existing_leads_followed": 12,
-    "new_specific_leads": 69,
-    "cross_provenance_bundles": 3
+    "new_specific_leads": 85,
+    "cross_provenance_bundles": 4
   },
   "domains": [
     "헌정",
@@ -31,7 +31,8 @@
     "교육·문교",
     "사회복지",
     "농정·비료",
-    "국회 국정감사"
+    "국회 국정감사",
+    "계엄·법적 권한 분리"
   ],
   "research_lines": [
     "장석윤 5/23 시위통제",
@@ -54,7 +55,12 @@
     "1952 1/24 상이군인·고아원 복지",
     "1952 6/25~7/5 중석불 비료가격 국무회의",
     "1952 7/18~8/25 국회 중석불 조사위원회",
-    "1952 7/24 상공부 생필품 통제계획"
+    "1952 7/24 상공부 생필품 통제계획",
+    "1952-01-28 계엄법 시행령 598·599",
+    "1952-05-25 계엄 적법절차 미확인",
+    "1952-05-07 제안 vs 7/07 최종 개헌",
+    "1952-07~08 내무부장관 재임일 충돌",
+    "1952-01~10 최창순 사회부 원호의 계획·집행·제약"
   ],
   "cross_provenance_bundles": [
     {
@@ -80,6 +86,16 @@
         "ROK 국무원공고 제35호 official notice reproduced in Minju Shinbo 5/7"
       ],
       "result": "123 Assembly sponsors and executive publication confirmed; cabinet member listed as promulgator not proposer"
+    },
+    {
+      "topic": "1952-01~10 최창순 사회부 정책과 재임",
+      "families": [
+        "ROK 1952-01-28 presidential decree 598 original",
+        "Daegu Maeil Jan24 social minister interview",
+        "Busan Ilbo July13 and Oct10 original reporting",
+        "AKS retrospective scholarly biography"
+      ],
+      "result": "same minister, concrete aid handover and stated budget constraints cross-dated; outcomes not inferred"
     }
   ],
   "not_counted_as_independent": [
@@ -96,7 +112,11 @@
     "1952-05-24 서울시 7,920억 원 산업복구 계상은 승인·집행이 아니므로 구별.",
     "5월7일 국무원공고 제35호는 국회 123인 발의 개헌안의 정부 공고일 뿐 정부 발의가 아니다.",
     "중석불 국회 조사위원 12인·조사권 요청 의원을 1950 선거·4월 개헌서명 명단과 교차연결.",
-    "문교부 6/18 보고의 7/1 현재 수치, 7/3 비료 합계 9345톤, 7/24 판매 포대 1670포 내부 불일치를 원문 그대로 보존."
+    "문교부 6/18 보고의 7/1 현재 수치, 7/3 비료 합계 9345톤, 7/24 판매 포대 1670포 내부 불일치를 원문 그대로 보존.",
+    "대통령령 598·599호 원문 확보: 계엄 선포 요청·사령관 임명·국무회의 추인·특별조치 승인 절차 분리.",
+    "관보 제688호 헌법 제2호 최종문은 5/7 국회 제안 공고와 다르며, 총리 재승인 조건은 새 국회 총선거 후 신국회 개회.",
+    "행정안전부 장석윤 종료 5/23 vs 동시대 5/24, 김태선 7/24 취임 vs 8/31 기사 8/28 기재, 날짜 충돌 보존.",
+    "최창순 7월 구호쌀 10톤 인수와 10월 재정부족·원호 미흡 자기평가를 함께 연결."
   ],
   "adversarial_checks": [
     {
@@ -175,7 +195,8 @@
     "Some 1952 FRUS documents are POW diplomacy context and not standalone novel findings.",
     "Lead count is 38 durable document targets, active 15. Minimum 20 independent research lines not reached; 3 provenance bundles not reached.",
     "Existing data/politicians.json contains two Lee Beom-seok IDs; no destructive merge made.",
-    "1952 7/24 newspaper numerical line items inconsistent; original paper images and bank/customs records not yet obtained."
+    "1952 7/24 newspaper numerical line items inconsistent; original paper images and bank/customs records not yet obtained.",
+    "May25 actual cabinet minutes and martial law approvals not yet obtained; normative legal procedure cannot establish actual compliance."
   ],
   "floot_touched": false,
   "commits_verified": [
@@ -279,6 +300,21 @@
       "June18 ministry report includes July1 as-of data; date/compilation discrepancy.",
       "277325+37655=314980, not 324325, difference 9345 tonnes.",
       "July24 20 sale line items total 27542 bags vs printed 25872, difference 1670."
+    ]
+  },
+  "tranche_c": {
+    "documents": 9,
+    "primary_or_contemporaneous": 6,
+    "new_actor_nodes": 2,
+    "events": 8,
+    "claims": 10,
+    "leads": 16,
+    "lines": [
+      "1952-01-28 계엄법 시행령 598·599",
+      "1952-05-25 계엄 적법절차 미확인",
+      "1952-05-07 제안 vs 7/07 최종 개헌",
+      "1952-07~08 내무부장관 재임일 충돌",
+      "1952-01~10 최창순 사회부 원호의 계획·집행·제약"
     ]
   }
 }

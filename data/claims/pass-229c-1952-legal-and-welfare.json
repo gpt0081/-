@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "pass": 229,
+  "tranche": "c",
+  "claims": [
+    {
+      "id": "CLM-P229C-MARTIAL-598-CHAIN",
+      "statement": "1952-01-28 계엄법 시행령 제598호는 계엄 요청·계엄사령관 임명·비상계엄 추인에 별도 국무회의·국무총리·국방장관·대통령 역할을 정했다.",
+      "status": "SUPPORTED",
+      "evidence": [
+        "P229C-GAZETTE-598"
+      ],
+      "analysis": "Article 1 request via PM, article 2 commander nomination/decision/appointment, article 5 emergency ratification cabinet decision; 1952 May25 actual compliance remains unverified.",
+      "adversarial_check": true,
+      "review_date": "2026-10-28"
+    },
+    {
+      "id": "CLM-P229C-MAY25-LEGALITY",
+      "statement": "1952-05-25 부산 계엄은 대통령령 598호의 절차를 모두 준수했다.",
+      "status": "OPEN",
+      "evidence": [
+        "P229C-GAZETTE-598",
+        "DOC-FRUS-1952-XV1-138"
+      ],
+      "analysis": "Normative law read; actual cabinet vote, approval and local orders not read. Neither compliance nor violation proven.",
+      "adversarial_check": true,
+      "review_date": "2026-10-28"
+    },
+    {
+      "id": "CLM-P229C-MAY07-JUL07-SAME",
+      "statement": "1952-05-07 국회 발의 개헌안 공고문과 7월7일 공포 헌법 제2호의 내용은 동일하다.",
+      "status": "CONTRADICTED",
+      "evidence": [
+        "P229C-CONSTITUTION-0707",
+        "DOC-NIKH-P229B-dh_025_1952_05_07_0030"
+      ],
+      "analysis": "May draft proposed parliamentary cabinet system with dissolution; July compromise includes direct presidential election and bicameral arrangements.",
+      "adversarial_check": true,
+      "review_date": "2026-10-28"
+    },
+    {
+      "id": "CLM-P229C-PM-RECONFIRMATION",
+      "statement": "1952년 8월 대통령 재선 직후 장택상 총리는 헌법 제69조에 따라 즉시 국회 재인준을 받아야 했다.",
+      "status": "CONTRADICTED_AS_LITERAL_TEXT",
+      "evidence": [
+        "P229C-CONSTITUTION-0707",
+        "DOC-NIKH-P229B-dh_026_1952_08_26_0110"
+      ],
+      "analysis": "Art69 explicitly requires reapproval after NEW general election and newly convened Assembly, not simply president re-election; political legitimacy argument separate.",
+      "adversarial_check": true,
+      "review_date": "2026-10-28"
+    },
+    {
+      "id": "CLM-P229C-JANG-END-DATE",
+      "statement": "장석윤 내무부장관 임기 종료일은 모든 공식 자료에서 1952-05-24로 일치한다.",
+      "status": "CONFLICTED",
+      "evidence": [
+        "P229C-MOIS-MINISTERS",
+        "DOC-NIKH-P229-dh_025_1952_05_24_0070",
+        "P229C-CABINET-0831"
+      ],
+      "analysis": "MOIS gives 1952-05-23, contemporary personnel notice and Aug31 retrospective give 5/24. May23 last full day vs May24 announcement may reconcile, but not proven.",
+      "adversarial_check": true,
+      "review_date": "2026-10-28"
+    },
+    {
+      "id": "CLM-P229C-KIM-GEUM-SPELLING",
+      "statement": "1952-07-07 교통부장관 이름은 금석관이 확정이며 김석관과 다른 인물이다.",
+      "status": "CONTRADICTED_AS_IDENTITY_SPLIT",
+      "evidence": [
+        "P229C-CONSTITUTION-0707",
+        "P229C-GAZETTE-598",
+        "DOC-NIKH-P229B-dh_025_1952_05_07_0030"
+      ],
+      "analysis": "Official July7 gazette Hanja 金錫寬 matches January/May gazette, while law.go.kr search index Korean rendition 금석관; same Hanzi supports Kim, index transcription conflict. Preserve index variant.",
+      "adversarial_check": true,
+      "review_date": "2026-10-28"
+    },
+    {
+      "id": "CLM-P229C-CHOI-WELFARE-OUTCOMES",
+      "statement": "최창순 사회부장관은 1952-01의 상이군인·피난민 원호계획을 충분히 달성했다고 평가했다.",
+      "status": "CONTRADICTED_BY_LATER_PARTY_STATEMENT",
+      "evidence": [
+        "DOC-NIKH-P229B-dh_024_1952_01_24_0020",
+        "P229C-BUSAN-CHOI-1010"
+      ],
+      "analysis": "Jan24 planned school and reported aid; Oct9 outgoing Choi explicitly apologizes for inadequate support due to weak finances. Neither statement substitutes independent outcome evaluation.",
+      "adversarial_check": true,
+      "review_date": "2026-10-28"
+    },
+    {
+      "id": "CLM-P229C-ROC-RICE",
+      "statement": "1952-07-11 최창순은 중화민국 왕동원 대사로부터 구호쌀 10톤을 인수하고 표창장을 수여했다고 보도됐다.",
+      "status": "SUPPORTED_AS_CONTEMPORARY_REPORT",
+      "evidence": [
+        "P229C-BUSAN-RICE-0713"
+      ],
+      "analysis": "Rice transfer ceremony and six aid rounds as reported; downstream distribution to displaced persons not verified.",
+      "adversarial_check": true,
+      "review_date": "2026-10-28"
+    },
+    {
+      "id": "CLM-P229C-KIM-TAE-SEON-TENURE",
+      "statement": "김태선 내무부장관은 1952-08-28부터 재임했다.",
+      "status": "CONFLICTED",
+      "evidence": [
+        "P229C-MOIS-MINISTERS",
+        "P229C-CABINET-0831"
+      ],
+      "analysis": "MOIS says 7/24–8/28; 1952 Aug31 press retrospective lists 김태선(85.8.28) only. Different date may represent editorial omission or confusion with later successor 진헌식.",
+      "adversarial_check": true,
+      "review_date": "2026-10-28"
+    },
+    {
+      "id": "CLM-P229C-CHOI-ID",
+      "statement": "1952-01-24 최 사회부장관과 1952-05-07 최창순은 동일 인물이다.",
+      "status": "SUPPORTED_WITH_CONTEXT",
+      "evidence": [
+        "P229C-AKS-CHOI",
+        "P229C-GAZETTE-598",
+        "DOC-NIKH-P229B-dh_024_1952_01_24_0020"
+      ],
+      "analysis": "Jan28 official gazette names 崔昌順, matching Jan24 surname-only social minister; Jan 1952 appointment supported by AKS biography. Full Jan24 article still lacks given name.",
+      "adversarial_check": true,
+      "review_date": "2026-10-28"
+    }
+  ]
+}

@@ -12,3 +12,5 @@
 - 장석윤 독립 실록: `data/annals/jang-seok-yun.md`; 원문 및 주장·사건 그래프: `data/documents/pass-229-1952-cabinet-economy-trial.json`, `data/claims/pass-229-1952-cabinet-economy-trial.json`, `data/events/pass-229-1952-cabinet-economy-trial.json`.
 
 - 2026-10-28 추가 1952년 중석불 국회 조사위원 12인·정순조 조사권 요청 및 5월7일 각료 10인: `data/politicians/pass-229b-1952-cabinet-oversight.json`. 국회 123인 서명과 1950 총선의 시기별 정당소속을 구분하며 鄭順朝/鄭純朝 불일치 보존.
+
+- 2026-10-28 계엄 598·599호·헌법 제2호·최창순 원호·김태선/이윤영 인물노드: `data/annals/1952-martial-constitution-welfare.md`, `data/politicians/pass-229b-1952-cabinet-oversight.json`.
