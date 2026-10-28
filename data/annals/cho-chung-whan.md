@@ -8,3 +8,11 @@
 - 원문: https://history.state.gov/historicaldocuments/frus1952-54v15p2/d764 ; https://history.state.gov/historicaldocuments/frus1952-54v15p2/d770 ; https://www.mofa.go.kr/eng/wpge/m_5740/contents.do
 
 직책 확인은 역사적·정치적 평가가 아니다.
+
+
+## 1953년 1월 평화선 서한 추가 (독립 영국 외교기록)
+동북아역사재단 한일회담외교문서 `kj.d_0007_0020_0022`는 1953년 1월 주한영국공사 W. G. Graham이 외무장관 대리 조정환에게 보낸 원문 답신을 제공한다. 1월 22일 조정환 발신 선행서한에 대해 'conservation line'에 관한 한국 정부의 설명을 영국 정부에 전달하겠다고 적었다. 따라서 조정환의 외무장관 대리 활동은 1953년 10월뿐 아니라 1월에도 독립적으로 확인된다. 외교부 공식 한국어 역대 장관명단은 이름·한자 `조정환(曺正煥)`을 확인한다. 한국학중앙연구원은 생몰 연도 1892–1967을 기록하나 정확한 일자는 공식 1차 인사기록이 없어 공란으로 유지한다. 외교부 명단의 1955-07-28 임기 시작과 AKS의 1955 서리·1956 정식 장관 구분은 인사발령 원문으로 해결해야 한다.
+
+- https://contents.nahf.or.kr/item/level.do?levelId=kj.d_0007_0020_0022
+- https://www.mofa.go.kr/minister/wpge/m_20036/contents.do
+- https://encykorea.aks.ac.kr/Article/E0052594

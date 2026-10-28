@@ -848,3 +848,8 @@
 ### 2026-10-28 추가 독립 소장목록 및 한국 국가기록원 날짜 대조
 - 국가기록원 정책변천사(https://theme.archives.go.kr/next/govpo/detail.do?policySeq=501)는 1953-08-08 가조인·1953-10-01 정식 조인·1954-11-18 발효로 기록한다. UNTS No.3363은 1954-11-17 워싱턴 비준서 교환 발효로 기록한다. 두 표기를 그대로 보존하며 한국 날짜 변환 근거를 확인하기 전 법적 충돌로 단정하지 않는다.
 - Eisenhower Library White House Staff Secretary Cabinet Minutes Series(https://www.eisenhowerlibrary.gov/sites/default/files/finding-aids/pdf/who-oss/cabinet-minutes-series.pdf) Box1 'Cabinet Minutes, May 1-August 27, 1953 (1)'도 1953-08-27 회의를 명시한다. Ann Whitman Cabinet Series Box2와 일치하지만 같은 회의의 거의 중복된 소장본이므로 독립된 회의 두 건으로 계산하지 않는다. FRUS d751의 1954-08-27 표제는 원본 미열람으로 CONFLICTED 유지.
+
+### HD-P239I-CHO-APPOINTMENT · NARROWED (2026-10-28)
+- 외교부 공식 한국어 역대장관 명단: 조정환(曺正煥), 1955-07-28~1959-12-21. AKS 인물백과: 1955 장관서리·1956 정식 장관. 1953-01 영국공사 Graham 답신 원문은 조정환을 Acting Foreign Minister로 호칭. 1953-10 FRUS d764에서도 Acting Foreign Minister.
+- 남은 문제: 1955/1956 정식 임명 법적 시점, 1953 대리 발령기간, 정확한 생몰일. 인사원부·관보 원본 추적.
+- https://contents.nahf.or.kr/item/level.do?levelId=kj.d_0007_0020_0022 ; https://www.mofa.go.kr/minister/wpge/m_20036/contents.do ; https://encykorea.aks.ac.kr/Article/E0052594
