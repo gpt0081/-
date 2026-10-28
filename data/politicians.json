@@ -1197,27 +1197,6 @@
       ],
       "researchStatus": "IDENTIFIED",
       "evidenceCoverage": [
-        "e",
-        "v",
-        "n",
-        "t",
-        "-",
-        "s",
-        "p",
-        "c",
-        "i",
-        "f",
-        " ",
-        "o",
-        "r",
-        "g",
-        "a",
-        "l",
-        "/",
-        ";",
-        "m",
-        "d",
-        "y",
         "DOC-P235E-NIKH-02_01_0020"
       ],
       "openLeads": [
@@ -1233,7 +1212,8 @@
       "annalsFile": "data/annals/1952-july-august-election-economic-accountability.md",
       "connections": [
         "evt-p235e-assembly-election-results"
-      ]
+      ],
+      "legacyEvidenceCoverageDataIssue": "기존 단문자 evidenceCoverage 배열은 원문 문자열 migration 오류. 2026-10-28 pass236D 단문자 토큰 제거, 원문 문자열 복원은 보류."
     },
     {
       "id": "cand-1952-speaker-shin-ik-hui",
@@ -1262,36 +1242,19 @@
           ]
         }
       ],
-      "researchStatus": "IDENTIFIED",
+      "researchStatus": "ANNALS_ACTIVE",
       "evidenceCoverage": [
-        "e",
-        "v",
-        "n",
-        "t",
-        "-",
-        "s",
-        "p",
-        "c",
-        "i",
-        "f",
-        " ",
-        "o",
-        "r",
-        "g",
-        "a",
-        "l",
-        "/",
-        ";",
-        "m",
-        "d",
-        "y",
         "DOC-P235B-NIKH-01_01_0030",
         "DOC-P236-PA-LABOR-763",
         "DOC-P236-PA-LABOR-764",
         "DOC-P236-PA-LABOR-765"
       ],
       "openLeads": [
-        "신익희의 1952년 당시 선거관리위원회·국회 속기록·관보 원문으로 생몰/한자/정당/행위 확인"
+        "신익희의 1952년 당시 선거관리위원회·국회 속기록·관보 원문으로 생몰/한자/정당/행위 확인",
+        "LEAD-P236-001",
+        "LEAD-P236-002",
+        "LEAD-P236-004",
+        "LEAD-P236-005"
       ],
       "historyDebt": [
         "identity/tenure primary record pending"
@@ -1299,8 +1262,8 @@
       "promotionReason": "1952 specific dated public office/candidacy/action, no moral ranking",
       "backbone": false,
       "sourceFile": "data/politicians/pass-231-1952-election-accountability.json",
-      "evidenceFile": "data/politicians/pass-231-1952-election-accountability.json",
-      "annalsFile": "data/annals/1952-july-august-election-economic-accountability.md",
+      "evidenceFile": "data/evidence/shin-ik-hui.json",
+      "annalsFile": "data/annals/shin-ik-hui.md",
       "connections": [
         "evt-p232-0917-japanese-korean-delegation",
         "evt-p232-0919-opposition-talks",
@@ -1314,7 +1277,25 @@
       "researchRefs": [
         "data/politicians/pass-235-addendum-b-culture-speaker-minister.json",
         "data/politicians/pass-236-labor-actors.json",
-        "data/politicians/pass-236-frus-diplomacy-actors.json"
+        "data/politicians/pass-236-frus-diplomacy-actors.json",
+        "data/annals/shin-ik-hui.md",
+        "data/evidence/shin-ik-hui.json"
+      ],
+      "legacyEvidenceCoverageDataIssue": "기존 문자열 evidenceCoverage가 과거 migration에서 문자 단위 배열로 변환·중복제거됨. 2026-10-28 pass236D에서 단문자 토큰 제거; 정확한 원문 설명 문자열은 재구성하지 않음.",
+      "promotionHistory": [
+        {
+          "date": "2026-10-28",
+          "from": "IDENTIFIED",
+          "to": "ANNALS_ACTIVE",
+          "reason": "1952-07-04 국회의장 개헌표결 진행, 1953-01-01 신년사, 1953-02-18 노동3법 이송에 서로 다른 시기·행위 유형의 근거 확보. 공식 인명·생몰·정당 명부 미검증으로 기존 candidate ID 유지",
+          "evidence": [
+            "DOC-P231-KOR-0704",
+            "DOC-P235B-NIKH-01_01_0030",
+            "DOC-P236-PA-LABOR-763",
+            "DOC-P236-PA-LABOR-764",
+            "DOC-P236-PA-LABOR-765"
+          ]
+        }
       ]
     },
     {

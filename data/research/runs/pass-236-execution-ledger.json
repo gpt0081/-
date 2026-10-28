@@ -38,7 +38,8 @@
     "strict_three_independent_original_author_families_same_claim": 0,
     "three_institutional_catalog_law_number_check": 1,
     "legacy_orphan_event_ids_backfilled": 3,
-    "root_event_total_added_this_run": 23
+    "root_event_total_added_this_run": 23,
+    "nonpresidential_independent_annals_pilots": 1
   },
   "research_lines": [
     "국제인도법 포로재판권",
@@ -202,7 +203,8 @@
   "github_commits": [
     "e1c9a36d678ccc20bfef7ecac74e76236c6935b4",
     "169dbc7c4e6af0c3598b34068ad6fe6d2c538414",
-    "bb22840af2350b9efe67a791af95a729a47aba91"
+    "bb22840af2350b9efe67a791af95a729a47aba91",
+    "bcc86032a5d9fd609b9bff46c15c41792cfb80dc"
   ],
   "next_priority": [
     "LEAD-P236-013",
@@ -224,6 +226,8 @@
     "claims": "15 FRUS claim evidence references resolve",
     "schema": "JSON parsed; additive root registry updates",
     "floot_modified": false,
-    "legacy_orphan_refs": "3 preexisting missing event IDs backfilled from existing Rhee evidence; no new documents claimed"
+    "legacy_orphan_refs": "3 preexisting missing event IDs backfilled from existing Rhee evidence; no new documents claimed",
+    "shin_independent_annals": "ANNALS_ACTIVE pilot; candidate ID preserved to avoid broken references",
+    "coverage_character_token_migration": "2 legacy politician records had evidenceCoverage split into single characters; removed unrecoverable single-character tokens with correction note, preserved valid DOC IDs"
   }
 }

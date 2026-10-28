@@ -71,3 +71,5 @@
 - 2026-10-28 pass236B: FRUS 1953년 3~4월 43개 고유 문서(원작성 41·편집주석2), 포로·환도·통화정산·정전·한미외교 인물·사건·주장·문서 그래프: `data/politicians/pass-236-frus-diplomacy-actors.json`, `data/events/pass-236-frus-march-april.json`, `data/claims/pass-236-frus-adversarial.json`, `data/documents/pass-236-frus-march-april-registry.json`, `data/research/runs/pass-236-execution-ledger.json`.
 
 - 2026-10-28 pass236C: 기존 evidence에 있던 한강교·국민방위군·거창사건 3개 event ID를 누락된 root event registry에 재연결: `data/events/pass-236-legacy-command-backfill.json`, `data/annals/1950-1951-command-event-backfill.md`. 새 사료 수로 계산하지 않음.
+
+- 2026-10-28 pass236D: 신익희 첫 독립 국회의장 실록 시험 승격 `ANNALS_ACTIVE`: `data/annals/shin-ik-hui.md`, `data/evidence/shin-ik-hui.json`. 기존 candidate ID 보존, 생몰·당적·표결 미확인. 구 evidenceCoverage 단문자 migration 오류 2건 교정.
