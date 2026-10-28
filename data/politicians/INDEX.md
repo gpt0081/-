@@ -145,3 +145,8 @@
 - `data/events/pass-239l2-1954-56-un-economic-cabinet-election.json`: 민정이양 실제 완료, 헌법개정, 정부조직법, 각료 인사, 예산·물가·산업·농정, 1956 후보등록·사퇴·취임 등 사건 28개.
 - `data/claims/pass-239l2-un-adversarial.json`: UN vs FRUS 변영태 사임 07-30/08-01 충돌, 1954 개헌 날짜 충돌, 1955 농림장관 불신임 여당 참여, 환율조정 전 인플레이션 등 반증명제 12개.
 - `data/research/leads/pass-239l2-next-queue.json`: 새 원문 표적 30개. A/2947 접근부채 RESOLVED, OCR 원PDF 이미지 대조 별도 OPEN. 주간 전수조사 미실시.
+
+
+### pass242 (2026-10-29): 1957 감군·재정·평시 국정
+- `data/politicians/pass-242-1957-actors.json`: 김정렬(1957 국방장관, 金貞烈, Kim Chung-yul), 유재흥, 백선엽, 조정환, 장면, 김현철, 양유찬, 윤길중, 조봉암, 송인상, 이한빈, 정재설, 손창환, 이기붕, 조병옥, 장택상 등 16명 연구 심화.
+- 김정렬(1957)과 기존 잠정 1954 Kim Chong-yol 후보는 동일인 검증 원문 확보 전까지 silent merge하지 않는다. 인물 점수·선악판정 없음.
