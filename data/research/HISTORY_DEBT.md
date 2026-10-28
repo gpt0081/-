@@ -469,3 +469,15 @@
 - 다음: 총무처 1952-12~1953-09 공무원 수당·양곡 지급대장, 대통령 1953-09-08 담화 원이미지 OCR 교정.
 
 > 2026-10-28 수요일 개별 부채 보강. 역사부채 주간 전수조사 미실시, last_full_review 불변.
+
+
+### HD-P235-CURRENCY-DATE · 1953 환 법정통용일 2/17 vs FRUS d406 2/26
+- 상태: `CONFLICTED` (2026-10-28 pass235). 한국은행 공식 자료는 1953-02-15 긴급명령13호, 2/17 환 신권 법정통용, 2/27 금융조치법227호. FRUS d406 후대 편집주석은 2/26 전환으로 기술. 미국 군대 환 매입 개시 2/25와 국내 법적 효력일을 구별. 원관보·미군 매입계약 원문 필요.
+- 출처: https://archives.bok.or.kr/content/exhibition/get/805/1076 ; https://www.bok.or.kr/portal/main/contents.do?menuNo=200381 ; https://history.state.gov/historicaldocuments/frus1952-54v15p1/d406
+### HD-P235-WON-SETTLEMENT · 2/21 82.8m 잠정 vs 2/25 85.8m 총정산
+- 상태: `NARROWED`. Clark FRUS d403은 2/21 이승만→백두진 82.8m(1952-12-16 이전분) 구두수용, FRUS d406 후대 편집주석은 2/25 총85.8m(이전분82.8m+이후분3m). 숫자차는 기간 차이로 잠정해명, 최종 교환공문 미확보. 다음: McClurkin 895B.131/2-2553 및 한국은행 정산원장.
+### HD-P235-ASSEMBLY-RESULT · 1953-01-20 위원장 후보와 실제 당선
+- 상태: `OPEN`. 동아일보 전사상 원내정파 여당73·야당110과 후보명단은 선거결과 아님. 국회 1953-01-29~31 상임위원장 개표·의원등록부 확인 전 승격 금지. https://db.history.go.kr/contemp/level.do?levelId=dh_028_1953_01_20_0040
+### HD-P235-UNKRA-DISBURSEMENT · UNKRA 70m 승인과 실제 집행
+- 상태: `NARROWED`. FRUS d379 장기계획 제안 vs d395 1953-02 집행지연 내부보고. 다음: UNKRA 사업별 계약·지급원장.
+> 2026-10-28 수요일 개별 부채 보강. 역사부채 주간 전수조사 미실시. last_full_review 불변.

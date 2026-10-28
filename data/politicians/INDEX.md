@@ -49,3 +49,7 @@
 
 ## 2026-10-28 pass234B 행정·인사 후속
 - `data/politicians/pass-234-addendum-1952-dec-actors.json`: 윤명운 서울특별시 경찰국장 IDENTIFIED 신규. 백두진·진헌식·윤치영·이기붕·임병직 5명 기존 노드 심화. 후보 물망/실제 지명 및 수사계획/유죄 확정 분리.
+
+## Pass235: 1953-01~03 국회·군정·재정 행위자 (2026-10-28)
+- `data/politicians/pass-235-1953-assembly-cabinet-actors.json`: 기존7명 심화 + 국회 위원장 **후보 보도** 8명 잠정 신규. 후보와 실제 당선은 구별. 원선거 기록 필요.
+- 관련: `data/events/pass-235-1953-governance-currency-pow.json`, `data/claims/pass-235-1953-adversarial.json`, `data/annals/1953-jan-mar-governance-currency-pow.md`.
