@@ -9,3 +9,6 @@ Stable ID `cand-1952-sep-agri-shin-jung-mok`. Shin Jung-mok / Shin Joong-mok(이
 자료: https://encykorea.aks.ac.kr/Article/E0074780 ; https://www.law.go.kr/LSW/lsRvsDocListP.do?chrClsCd=010102&lsId=003179 ; https://korea.nabo.go.kr/board/file/down.do?fid=33317525
 
 Open leads: LEAD-P239G-01~04,13~14. Debt: HD-P239G-HORT-OPENING / HD-P239G-798-DELAY. 원문 관보·기안·집행대장 미확보.
+
+## 1953-07 농림부 평시 정책 안건 원문표적 (pass239H)
+국가기록원 16면 '1953년도 국무회의 안건 목록'은 7/14 제55회 국무회의의 도입비료 판매가격 개정(NO.86, 7면), 수도 수해피해 직파용 종조 대여(NO.87, 2면), 7/21 제57회 국무회의의 4286년산 하곡 수납가격 결정(NO.90, 13면)을 농림부 발의로 적는다. 모두 BA0084193. 이는 신중목 장관 재임기 부처 발의라는 사실일 뿐 개인 기안·회의 발언·가격 확정·집행 실적은 아니다. 원안과 의결서 추적 필요.
