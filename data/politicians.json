@@ -90,7 +90,11 @@
         "evt-p239j-10",
         "evt-p239j-13",
         "evt-p239j-14",
-        "evt-p239j-15"
+        "evt-p239j-15",
+        "evt-p239l-02",
+        "evt-p239l-04",
+        "evt-p239l-07",
+        "evt-p239l-11"
       ],
       "researchRefs": [
         "data/politicians/pass-233-1952-rok-diplomacy-network.json",
@@ -101,7 +105,8 @@
         "data/annals/1953-march-april-armistice-labor-finance.md",
         "data/annals/1953-rhee-correspondence-catalog-network.md",
         "data/politicians/pass-237b-korean-actors.json",
-        "data/politicians/pass-239b-actors.json"
+        "data/politicians/pass-239b-actors.json",
+        "data/politicians/pass-239l-1956-actors.json"
       ],
       "evidenceCoverage": [
         "DOC-P234C-ICRC-2024-TIMELINE",
@@ -134,7 +139,10 @@
         ],
         "role_note": "Negotiation, acceptance and Korean promulgation separated",
         "overlay": "data/politicians/pass-239j-1954-diplomacy-economy-actors.json"
-      }
+      },
+      "openLeads": [
+        "LEAD-P239L-09"
+      ]
     },
     {
       "id": "pol-yi-ki-pung",
@@ -153,14 +161,20 @@
       "backbone": false,
       "connections": [
         "evt-1960-315-election",
-        "evt-p234b-1215-prime-minister"
+        "evt-p234b-1215-prime-minister",
+        "evt-p239l-11",
+        "evt-p239l-12"
       ],
       "evidenceCoverage": [
         "DOC-P234B-NIKH-1215-0060"
       ],
       "researchNotes": "pass234B: 1952-12-15 전 국방부장관으로 총리 후임 물망에 언급, 실제 지명 아님",
       "researchRefs": [
-        "data/politicians/pass-234-addendum-1952-dec-actors.json"
+        "data/politicians/pass-234-addendum-1952-dec-actors.json",
+        "data/politicians/pass-239l-1956-actors.json"
+      ],
+      "openLeads": [
+        "LEAD-P239L-13"
       ]
     },
     {
@@ -364,14 +378,16 @@
         "제2대 국회 민의원 부의장",
         "진보당 정치인"
       ],
-      "researchStatus": "candidate-cross-event",
+      "researchStatus": "ANNALS_ACTIVE",
       "backbone": false,
       "connections": [
         "evt-1949-farmland-reform",
         "evt-p232-0919-opposition-talks",
         "evt-p232-0917-party-sketches",
         "evt-p233-1110-coup-rumor",
-        "evt-p238e-1953-05-06-tasca-assembly"
+        "evt-p238e-1953-05-06-tasca-assembly",
+        "evt-p239l-11",
+        "evt-p239l-20"
       ],
       "researchUpdates": [
         {
@@ -387,13 +403,27 @@
       "researchRefs": [
         "data/politicians/pass-233-1952-rok-diplomacy-network.json",
         "data/annals/1953-may8-25-armistice-fiscal-agriculture.md",
-        "data/politicians/pass-239-actors.json"
+        "data/politicians/pass-239-actors.json",
+        "data/politicians/pass-239l-1956-actors.json"
       ],
       "evidenceCoverage": [
         "DOC-P238-KOR-05_06_0060",
         "DOC-P239-NIKH-06_01_0060"
       ],
-      "lastResearchPass": 238
+      "lastResearchPass": 238,
+      "openLeads": [
+        "LEAD-P239L-29"
+      ],
+      "evidenceFile": "data/evidence/cho-bong-am.json",
+      "annalsFile": "data/annals/cho-bong-am.md",
+      "researchMaturityHistory": [
+        {
+          "date": "2026-10-29",
+          "from": "candidate-cross-event",
+          "to": "ANNALS_ACTIVE",
+          "reason": "Independent dated election and party record with evidence file and explicit open leads, not a moral ranking"
+        }
+      ]
     },
     {
       "id": "pol-lee-beom-seok",
@@ -677,7 +707,9 @@
         "evt-p239j-04",
         "evt-p239j-07",
         "evt-p239j-08",
-        "evt-p239j-10"
+        "evt-p239j-10",
+        "evt-p239l-07",
+        "evt-p239l-18"
       ],
       "researchNotes": "1\n9\n5\n2\n~\n5\n3\n \n재\n정\n·\n원\n조\n·\n휴\n전\n외\n교\n \n교\n차\n \n행\n위\n자\n.\n \n1\n9\n5\n3\n-\n0\n8\n-\n0\n6\n \n경\n제\n·\n군\n사\n원\n조\n \n회\n의\n에\n서\n \n통\n합\n \n경\n제\n기\n구\n를\n \n통\n한\n \n원\n조\n \n프\n로\n그\n램\n \nM\nO\nU\n의\n \n미\n국\n \n최\n종\n승\n인\n을\n \n직\n접\n \n요\n청\n한\n \n기\n록\n과\n \n덜\n레\n스\n \n회\n담\n \n참\n여\n가\n \n확\n인\n되\n어\n \nV\nE\nR\nI\nF\nI\nE\nD\n로\n \n승\n격\n.\n \nC\nE\nB\n/\n환\n율\n/\n재\n건\n원\n조\n \n한\n국\n측\n \n문\n서\n \n확\n보\n \n후\n \nA\nN\nN\nA\nL\nS\n_\nA\nC\nT\nI\nV\nE\n \n검\n토\n.\n2026-10-28 pass233 정정: 직접 출처 없이 연결된 event edge 제거, 인물 candidate 연구 단서는 보존\npass234B: 1952-12-12 부흥부 신설 구상·유엔 원화대여금 4580억원 주장·11/13 현금교환 요청 공한, 12/15 450만석 양곡수입 합의 주장",
       "pass232Overlay": "data/politicians/pass-232-1952-september-actors.json",
@@ -699,7 +731,8 @@
         "data/politicians/pass-239d-actors.json",
         "data/politicians/pass-239f-labor-actors.json",
         "data/politicians/pass-239h-july1953-actors.json",
-        "data/politicians/pass-239i-postarmistice-actors.json"
+        "data/politicians/pass-239i-postarmistice-actors.json",
+        "data/politicians/pass-239l-1956-actors.json"
       ],
       "evidenceCoverage": [
         "DOC-P234B-NIKH-1212-0040",
@@ -771,7 +804,10 @@
         ],
         "role_note": "1954 economic coordinator and bilateral aid negotiator; not 1954 prime minister",
         "overlay": "data/politicians/pass-239j-1954-diplomacy-economy-actors.json"
-      }
+      },
+      "openLeads": [
+        "LEAD-P239L-08"
+      ]
     },
     {
       "id": "pol-pyun-yong-tae",
@@ -1053,7 +1089,8 @@
         "evt-p239j-13",
         "evt-p239j-15",
         "evt-p239k-09",
-        "evt-p239k-15"
+        "evt-p239k-15",
+        "evt-p239l-07"
       ],
       "researchNotes": "1953-08-06 경제·군사원조 및 한국군 회의와 08-08 최종회담의 한국측 참가자로 공식 외교기록에서 확인. 해군 총참모장 시기와 국방부장관 취임일의 정확한 경계를 관보/기관연혁으로 검증 후 VERIFIED 검토.",
       "pass232Overlay": "data/politicians/pass-232-1952-september-actors.json",
@@ -1066,7 +1103,8 @@
       "researchRefs": [
         "data/politicians/pass-239d-actors.json",
         "data/politicians/pass-239h-july1953-actors.json",
-        "data/politicians/pass-239i-postarmistice-actors.json"
+        "data/politicians/pass-239i-postarmistice-actors.json",
+        "data/politicians/pass-239l-1956-actors.json"
       ],
       "lastResearchPass": "239I",
       "recentResearchPass239J": {
@@ -1099,6 +1137,9 @@
           "to": "ANNALS_ACTIVE",
           "reason": "1954 Korean treaty promulgation and 1955 FRUS d28,d60 first-hand ministerial actions; separate evidence and annals; office dates remain open"
         }
+      ],
+      "openLeads": [
+        "LEAD-P239L-07"
       ]
     },
     {
@@ -1776,7 +1817,8 @@
         "LEAD-P236-001",
         "LEAD-P236-002",
         "LEAD-P236-004",
-        "LEAD-P236-005"
+        "LEAD-P236-005",
+        "LEAD-P239L-10"
       ],
       "historyDebt": [
         "identity/tenure primary record pending"
@@ -1794,7 +1836,8 @@
         "evt-p236-labor-1953-01-31-dispute",
         "evt-p236-labor-1953-02-18-transmission",
         "evt-p236-labor-1953-03-08-triad",
-        "evt-p238e-1953-05-14-assembly-return"
+        "evt-p238e-1953-05-14-assembly-return",
+        "evt-p239l-11"
       ],
       "pass232Overlay": "data/politicians/pass-232-1952-september-actors.json",
       "researchRefs": [
@@ -1803,7 +1846,8 @@
         "data/politicians/pass-236-frus-diplomacy-actors.json",
         "data/annals/shin-ik-hui.md",
         "data/evidence/shin-ik-hui.json",
-        "data/annals/1953-may8-25-armistice-fiscal-agriculture.md"
+        "data/annals/1953-may8-25-armistice-fiscal-agriculture.md",
+        "data/politicians/pass-239l-1956-actors.json"
       ],
       "legacyEvidenceCoverageDataIssue": "기존 문자열 evidenceCoverage가 과거 migration에서 문자 단위 배열로 변환·중복제거됨. 2026-10-28 pass236D에서 단문자 토큰 제거; 정확한 원문 설명 문자열은 재구성하지 않음.",
       "promotionHistory": [
@@ -2516,19 +2560,34 @@
       "roles": [
         "1952-11 미국 첩보에서 전 국무총리로 지칭; 쿠데타 혐의 불확정"
       ],
-      "researchStatus": "IDENTIFIED",
+      "researchStatus": "ANNALS_ACTIVE",
       "backbone": false,
       "connections": [
-        "evt-p233-1110-coup-rumor"
+        "evt-p233-1110-coup-rumor",
+        "evt-p239l-11"
       ],
       "researchRefs": [
-        "data/politicians/pass-233-1952-rok-diplomacy-network.json"
+        "data/politicians/pass-233-1952-rok-diplomacy-network.json",
+        "data/politicians/pass-239l-1956-actors.json"
       ],
       "lifespan": {
         "born": null,
         "died": null,
         "verification": "이번 회차 생몰 원기록 미확인; 기존 canonical 정보는 변경하지 않음"
-      }
+      },
+      "openLeads": [
+        "LEAD-P239L-11"
+      ],
+      "evidenceFile": "data/evidence/chang-myon.json",
+      "annalsFile": "data/annals/chang-myon.md",
+      "researchMaturityHistory": [
+        {
+          "date": "2026-10-29",
+          "from": "IDENTIFIED",
+          "to": "ANNALS_ACTIVE",
+          "reason": "Independent dated election and party record with evidence file and explicit open leads, not a moral ranking"
+        }
+      ]
     },
     {
       "id": "cand-1952-nov-yi-chong-chan",
@@ -2573,11 +2632,13 @@
         "evt-p235c-taylor-commanders",
         "evt-p239j-03",
         "evt-p239j-04",
-        "evt-p239j-21"
+        "evt-p239j-21",
+        "evt-p239l-12"
       ],
       "researchRefs": [
         "data/politicians/pass-233-1952-rok-diplomacy-network.json",
-        "data/politicians/pass-235-addendum-c-jin-chung-lee.json"
+        "data/politicians/pass-235-addendum-c-jin-chung-lee.json",
+        "data/politicians/pass-239l-1956-actors.json"
       ],
       "lifespan": {
         "born": null,
@@ -2601,7 +2662,10 @@
         ],
         "role_note": "1954 army chief delegation and Hull reported consultations; check office appointment original",
         "overlay": "data/politicians/pass-239j-1954-diplomacy-economy-actors.json"
-      }
+      },
+      "openLeads": [
+        "LEAD-P239L-19"
+      ]
     },
     {
       "id": "cand-1952-nov-kim-yong-sik",
@@ -3235,7 +3299,8 @@
       "backbone": false,
       "connections": [
         "evt-p235-assembly-caucus",
-        "evt-p235e-assembly-election-results"
+        "evt-p235e-assembly-election-results",
+        "evt-p239l-20"
       ],
       "evidenceCoverage": [
         "DOC-P235-NIKH-01_20_0040",
@@ -3243,11 +3308,13 @@
       ],
       "researchRefs": [
         "data/politicians/pass-235-1953-assembly-cabinet-actors.json",
-        "data/politicians/pass-235-addendum-e-committee-chairs.json"
+        "data/politicians/pass-235-addendum-e-committee-chairs.json",
+        "data/politicians/pass-239l-1956-actors.json"
       ],
       "openLeads": [
         "LEAD-P235-009",
-        "LEAD-P235-010"
+        "LEAD-P235-010",
+        "LEAD-P239L-30"
       ],
       "historyDebt": [
         "HD-P235-ASSEMBLY-RESULT"
@@ -3402,13 +3469,18 @@
       "researchStatus": "candidate-identified",
       "backbone": false,
       "connections": [
-        "evt-p235c-taylor-commanders"
+        "evt-p235c-taylor-commanders",
+        "evt-p239l-12"
       ],
       "evidenceCoverage": [
         "DOC-P235C-NIKH-02_15_0020"
       ],
       "researchRefs": [
-        "data/politicians/pass-235-addendum-c-jin-chung-lee.json"
+        "data/politicians/pass-235-addendum-c-jin-chung-lee.json",
+        "data/politicians/pass-239l-1956-actors.json"
+      ],
+      "openLeads": [
+        "LEAD-P239L-18"
       ]
     },
     {
@@ -3584,17 +3656,20 @@
       "researchStatus": "candidate-identified",
       "backbone": false,
       "connections": [
-        "evt-p235e-assembly-election-results"
+        "evt-p235e-assembly-election-results",
+        "evt-p239l-12"
       ],
       "evidenceCoverage": [
         "DOC-P235E-NIKH-02_01_0020"
       ],
       "researchRefs": [
-        "data/politicians/pass-235-addendum-e-committee-chairs.json"
+        "data/politicians/pass-235-addendum-e-committee-chairs.json",
+        "data/politicians/pass-239l-1956-actors.json"
       ],
       "openLeads": [
         "LEAD-P235E-001",
-        "LEAD-P235E-002"
+        "LEAD-P235E-002",
+        "LEAD-P239L-15"
       ],
       "historyDebt": []
     },
@@ -5365,7 +5440,8 @@
         "evt-p239i-12",
         "evt-p239i-17",
         "evt-p239j-06",
-        "evt-p239j-21"
+        "evt-p239j-21",
+        "evt-p239l-07"
       ],
       "evidenceCoverage": [
         "DOC-P239I-FRUS-764",
@@ -5377,12 +5453,14 @@
       ],
       "researchRefs": [
         "data/politicians/pass-239i-postarmistice-actors.json",
-        "data/annals/cho-chung-whan.md"
+        "data/annals/cho-chung-whan.md",
+        "data/politicians/pass-239l-1956-actors.json"
       ],
       "openLeads": [
         "LEAD-P239I-41",
         "LEAD-P239I-42",
-        "LEAD-P239I-43"
+        "LEAD-P239I-43",
+        "LEAD-P239K2-01"
       ],
       "lastResearchPass": "239I",
       "birthYear": 1892,
@@ -5836,6 +5914,207 @@
       "historyDebt": [],
       "researchOverlay": "data/politicians/pass-239k-1955-actors.json",
       "identityCaveat": "Korean official gazette needed before full promotion"
+    },
+    {
+      "id": "cand-p239l-park-gi-chul",
+      "name": "박기출",
+      "aliases": [
+        "Park Gi-chul"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "unverified"
+      },
+      "roles": [
+        "Progressive Party promotion committee vice-presidential candidate"
+      ],
+      "roleHistory": [
+        {
+          "period": "1956-05",
+          "description": "Progressive Party promotion committee vice-presidential candidate"
+        }
+      ],
+      "partyHistory": [],
+      "researchStatus": "DISCOVERED",
+      "evidenceCoverage": [
+        "DOC-P239L-NEC-1956-ELECTION"
+      ],
+      "connections": [
+        "evt-p239l-11"
+      ],
+      "researchRefs": [
+        "data/politicians/pass-239l-1956-actors.json"
+      ],
+      "openLeads": [
+        "LEAD-P239L-12"
+      ],
+      "historyDebt": [
+        "HD-P239L-1956-APPOINTMENTS"
+      ],
+      "identityCaveat": "Hanja is unverified, provisional only",
+      "lastResearchPass": "239L"
+    },
+    {
+      "id": "cand-p239l-in-tae-sik",
+      "name": "인태식",
+      "aliases": [
+        "In Tae-sik"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "unverified"
+      },
+      "roles": [
+        "Finance Minister according to FRUS editorial d146"
+      ],
+      "roleHistory": [
+        {
+          "period": "1956 post-election",
+          "description": "Finance Minister according to FRUS editorial d146"
+        }
+      ],
+      "partyHistory": [],
+      "researchStatus": "DISCOVERED",
+      "evidenceCoverage": [
+        "DOC-P239L-FRUS-146-EDITORIAL"
+      ],
+      "connections": [
+        "evt-p239l-12"
+      ],
+      "researchRefs": [
+        "data/politicians/pass-239l-1956-actors.json"
+      ],
+      "openLeads": [
+        "LEAD-P239L-14"
+      ],
+      "historyDebt": [
+        "HD-P239L-1956-APPOINTMENTS"
+      ],
+      "identityCaveat": "Hanja unverified; do not promote from editorial note",
+      "lastResearchPass": "239L"
+    },
+    {
+      "id": "cand-p239l-kim-hyeon-cheol",
+      "name": "김현철",
+      "aliases": [
+        "Kim Hyon-chol"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "unverified"
+      },
+      "roles": [
+        "Former Finance Minister; Reconstruction Minister and economic coordinator in FRUS editorial d146"
+      ],
+      "roleHistory": [
+        {
+          "period": "1956 post-election",
+          "description": "Former Finance Minister; Reconstruction Minister and economic coordinator in FRUS editorial d146"
+        }
+      ],
+      "partyHistory": [],
+      "researchStatus": "DISCOVERED",
+      "evidenceCoverage": [
+        "DOC-P239L-FRUS-146-EDITORIAL"
+      ],
+      "connections": [
+        "evt-p239l-12"
+      ],
+      "researchRefs": [
+        "data/politicians/pass-239l-1956-actors.json"
+      ],
+      "openLeads": [
+        "LEAD-P239L-16"
+      ],
+      "historyDebt": [
+        "HD-P239L-1956-APPOINTMENTS"
+      ],
+      "identityCaveat": "Hanja unverified; do not promote from editorial note",
+      "lastResearchPass": "239L"
+    },
+    {
+      "id": "cand-p239l-yi-ik-heung",
+      "name": "이익흥",
+      "aliases": [
+        "Yi Ik-hung"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "unverified"
+      },
+      "roles": [
+        "Home Minister successor to Kim Hyong-gun per FRUS editorial d146"
+      ],
+      "roleHistory": [
+        {
+          "period": "1956 post-election",
+          "description": "Home Minister successor to Kim Hyong-gun per FRUS editorial d146"
+        }
+      ],
+      "partyHistory": [],
+      "researchStatus": "DISCOVERED",
+      "evidenceCoverage": [
+        "DOC-P239L-FRUS-146-EDITORIAL"
+      ],
+      "connections": [
+        "evt-p239l-12"
+      ],
+      "researchRefs": [
+        "data/politicians/pass-239l-1956-actors.json"
+      ],
+      "openLeads": [
+        "LEAD-P239L-17"
+      ],
+      "historyDebt": [
+        "HD-P239L-1956-APPOINTMENTS"
+      ],
+      "identityCaveat": "Hanja unverified; do not promote from editorial note",
+      "lastResearchPass": "239L"
+    },
+    {
+      "id": "cand-p239l-pw-han-1956",
+      "name": "P. W. Han (한씨 성만 확인)",
+      "aliases": [
+        "P.W. Han",
+        "Han, P.W."
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "unverified"
+      },
+      "roles": [
+        "P.W. Han listed as ROK Minister in Sixteen-country meeting"
+      ],
+      "roleHistory": [
+        {
+          "period": "1956-05-04",
+          "description": "P.W. Han listed as ROK Minister in Sixteen-country meeting"
+        }
+      ],
+      "partyHistory": [],
+      "researchStatus": "DISCOVERED",
+      "evidenceCoverage": [
+        "DOC-P239L-FRUS-141"
+      ],
+      "connections": [
+        "evt-p239l-10"
+      ],
+      "researchRefs": [
+        "data/politicians/pass-239l-1956-actors.json"
+      ],
+      "openLeads": [
+        "LEAD-P239K2-09"
+      ],
+      "historyDebt": [
+        "HD-P239L-1956-APPOINTMENTS"
+      ],
+      "identityCaveat": "Separate candidate; NOT automatically same as cand-p236-han-pyo-wook. Obtain 1955/1956 ROK delegation rosters.",
+      "lastResearchPass": "239L"
     }
   ],
   "recentResearchPass232": {
@@ -5982,5 +6261,21 @@
     ],
     "UNcabinetOriginal": "DOC-P239K-UN-A2711",
     "KwakStatus": "VERIFIED"
+  },
+  "recentResearchPass239L": {
+    "date": "2026-10-29",
+    "overlay": "data/politicians/pass-239l-1956-actors.json",
+    "new_candidates": [
+      "cand-p239l-park-gi-chul",
+      "cand-p239l-in-tae-sik",
+      "cand-p239l-kim-hyeon-cheol",
+      "cand-p239l-yi-ik-heung",
+      "cand-p239l-pw-han-1956"
+    ],
+    "independent_annals_promoted": [
+      "pol-cho-bong-am",
+      "cand-1952-nov-chang-myon"
+    ],
+    "events_added": 22
   }
 }

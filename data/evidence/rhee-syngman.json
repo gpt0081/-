@@ -504,6 +504,30 @@
       "publisher": "United Nations original report",
       "url": "https://digitallibrary.un.org/record/712124/files/A_2711-EN.pdf",
       "grade": "A; UN original PDF extracted text, OCR may affect exact line formatting"
+    },
+    "S1955-P239L-MORATORIUM": {
+      "title": "Rhee demonstration suspension reported 1955-12-08",
+      "publisher": "FRUS d106",
+      "url": "https://history.state.gov/historicaldocuments/frus1955-57v23p2/d106",
+      "grade": "A; US contemporary memo of conditional pledge"
+    },
+    "S1956-P239L-DULLES": {
+      "title": "Dulles Rhee cabinet 1956-03-17",
+      "publisher": "FRUS d127",
+      "url": "https://history.state.gov/historicaldocuments/frus1955-57v23p2/d127",
+      "grade": "A; contemporary US Embassy account"
+    },
+    "S1956-P239L-ELECTION": {
+      "title": "1956 presidential tally",
+      "publisher": "NIKH later official",
+      "url": "https://db.history.go.kr/id/tcct_1956_05_15_0010",
+      "grade": "B; later official statistic"
+    },
+    "S1956-P239L-NNSC": {
+      "title": "Lemnitzer Murphy meeting June 26",
+      "publisher": "FRUS d158",
+      "url": "https://history.state.gov/historicaldocuments/frus1955-57v23p2/d158",
+      "grade": "A; contemporary US memorandum"
     }
   },
   "chronology": [
@@ -1429,6 +1453,62 @@
         "S1954-P239K-UN-A2711"
       ],
       "confidence": "UN_original_recommendation_and_notification_only"
+    },
+    {
+      "id": "rhee-p239l-moratorium",
+      "date": "1955-12-08",
+      "phase": "외교·치안",
+      "kind": "reported_conditional_pledge",
+      "topic": [
+        "외교·치안"
+      ],
+      "summary": "3개월 반NNIT 시위중단을 위해 최선을 다하겠다는 취지의 보고; 확정 보장 아님.",
+      "sourceIds": [
+        "S1955-P239L-MORATORIUM"
+      ],
+      "confidence": "narrowed"
+    },
+    {
+      "id": "rhee-p239l-cabinet",
+      "date": "1956-03-17",
+      "phase": "재정·안보",
+      "kind": "meeting",
+      "topic": [
+        "재정·안보"
+      ],
+      "summary": "손원일 추가 군사원조 요청·백두진 5개년 재건 구상은 각료 제안이며 대통령 집행명령 아님.",
+      "sourceIds": [
+        "S1956-P239L-DULLES"
+      ],
+      "confidence": "narrowed"
+    },
+    {
+      "id": "rhee-p239l-election",
+      "date": "1956-05-15",
+      "phase": "선거",
+      "kind": "elected",
+      "topic": [
+        "선거"
+      ],
+      "summary": "이승만 5,046,437표, 전체 투표 대비 55.6568%, 유효표 대비 69.9898%.",
+      "sourceIds": [
+        "S1956-P239L-ELECTION"
+      ],
+      "confidence": "narrowed"
+    },
+    {
+      "id": "rhee-p239l-nnsc",
+      "date": "1956-06-26",
+      "phase": "외교·안보",
+      "kind": "US_report_of_execution",
+      "topic": [
+        "외교·안보"
+      ],
+      "summary": "미국 회고에 따르면 남측 NNIT 철수 완료; 이승만 직접 철수 명령으로 귀속 금지.",
+      "sourceIds": [
+        "S1956-P239L-NNSC"
+      ],
+      "confidence": "narrowed"
     }
   ],
   "comparisonCandidates": [
@@ -1838,5 +1918,21 @@
     "UNoriginal": "S1954-P239K-UN-A2711",
     "newChronology": "rhee-p239k-1954-08-12-uncurknorth",
     "uncertainty": "Recommendation and preparedness notification are not handover completion"
+  },
+  "recentResearchPass239L": {
+    "date": "2026-10-29",
+    "sources": [
+      "S1955-P239L-MORATORIUM",
+      "S1956-P239L-DULLES",
+      "S1956-P239L-ELECTION",
+      "S1956-P239L-NNSC"
+    ],
+    "chronology": [
+      "rhee-p239l-moratorium",
+      "rhee-p239l-cabinet",
+      "rhee-p239l-election",
+      "rhee-p239l-nnsc"
+    ],
+    "event_graph": "data/events/pass-239l-1955-56-nnsc-election.json"
   }
 }

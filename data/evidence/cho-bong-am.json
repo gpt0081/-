@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "politicianId": "pol-cho-bong-am",
+  "name": "조봉암",
+  "aliases": [
+    "曺奉岩",
+    "Cho Bong-am"
+  ],
+  "lifespan": {
+    "born": null,
+    "died": null,
+    "verification": "original biographical register not checked"
+  },
+  "researchStatus": "ANNALS_ACTIVE",
+  "backbone": false,
+  "editorialRule": "Separate party platform from enacted state policy; separate original actions from later summaries.",
+  "sources": [
+    {
+      "id": "CB-P239L-ELECTION",
+      "document_id": "DOC-P239L-NIKH-1956-ELECTION",
+      "title": "1956 presidential votes",
+      "date": "1956-05-15",
+      "url": "https://db.history.go.kr/id/tcct_1956_05_15_0010",
+      "status": "official retrospective tally, not original ballot",
+      "provenance": "NIKH"
+    },
+    {
+      "id": "CB-P239L-NEC",
+      "document_id": "DOC-P239L-NEC-1956-ELECTION",
+      "title": "1956 election history",
+      "date": "1956-05-15",
+      "url": "https://museum.nec.go.kr/museum2018/bbs/2/2/1/20170912155756377100_view.do?article_category=2&article_id=20171208135727496100&bbs_id=20170912155756377100&imgNum=%EB%8C%80%ED%86%B5%EB%A0%B9%EC%84%A0%EA%B1%B0%EC%82%AC",
+      "status": "official later museum",
+      "provenance": "NEC"
+    },
+    {
+      "id": "CB-P239L-PLATFORM",
+      "document_id": "DOC-P239L-NIKH-PROGRESSIVE-PLATFORM",
+      "title": "Progressive Party 1956 founding platform",
+      "date": "1956-11-10",
+      "url": "https://db.history.go.kr/id/tcct_1956_11_10_0010",
+      "status": "original-origin excerpt via 1985 anthology",
+      "provenance": "party text via NIKH"
+    }
+  ],
+  "chronology": [
+    {
+      "date": "1956-05-15",
+      "action": "Cho Bong-am received 2,163,808 presidential votes",
+      "type": "election_result",
+      "evidenceIds": [
+        "CB-P239L-ELECTION"
+      ],
+      "uncertainty": "Precinct original tally uninspected"
+    },
+    {
+      "date": "1956-11-10",
+      "action": "Progressive Party founding chair and program",
+      "type": "party_policy_proposal",
+      "evidenceIds": [
+        "CB-P239L-PLATFORM"
+      ],
+      "uncertainty": "Full original party minutes uninspected"
+    }
+  ],
+  "openLeads": [
+    "LEAD-P239L-09",
+    "LEAD-P239L-29",
+    "LEAD-P239L-31"
+  ],
+  "historyDebt": [
+    "HD-P239L-1956-APPOINTMENTS"
+  ],
+  "reviewHistory": [
+    {
+      "date": "2026-10-29",
+      "action": "independent non-president annals activated",
+      "reason": "separate evidence and open leads; no historical value score"
+    }
+  ]
+}
