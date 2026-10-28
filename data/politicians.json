@@ -1670,7 +1670,8 @@
         "evt-p232-0917-fertilizer",
         "evt-p233-add-grain-supply",
         "evt-p237b-1953-04-29-fertilizer",
-        "evt-p238e-1953-05-12-agriculture"
+        "evt-p238e-1953-05-12-agriculture",
+        "evt-p239e-land-reform-cash"
       ],
       "evidenceFile": "data/politicians/pass-232-1952-september-actors.json",
       "openLeadsFile": "data/research/leads/pass-232-20261028-next-lead-queue.json",
@@ -1687,13 +1688,15 @@
         "data/politicians/pass-237b-korean-actors.json",
         "data/annals/1953-may8-25-armistice-fiscal-agriculture.md",
         "data/politicians/pass-239-actors.json",
-        "data/politicians/pass-239b-actors.json"
+        "data/politicians/pass-239b-actors.json",
+        "data/politicians/pass-239e-actors.json"
       ],
       "lastResearchPass": 238,
       "evidenceCoverage": [
         "DOC-P238-KOR-05_12_0030",
         "DOC-P239-NIKH-05_26_0090",
-        "DOC-P239B-NIKH-06_05_0080"
+        "DOC-P239B-NIKH-06_05_0080",
+        "DOC-P239E-NIKH-0627-0040"
       ]
     },
     {
@@ -1709,7 +1712,8 @@
       "researchStatus": "IDENTIFIED",
       "backbone": false,
       "connections": [
-        "evt-p232-0918-reimbursement-split"
+        "evt-p232-0918-reimbursement-split",
+        "evt-p239e-shin-assembly"
       ],
       "evidenceFile": "data/politicians/pass-232-1952-september-actors.json",
       "openLeadsFile": "data/research/leads/pass-232-20261028-next-lead-queue.json",
@@ -1720,7 +1724,13 @@
         "verification": "not independently checked this pass"
       },
       "hanjaVerification": "1952 contemporaneous text or existing canonical registry",
-      "partyAffiliationEvidence": "unknown"
+      "partyAffiliationEvidence": "unknown",
+      "evidenceCoverage": [
+        "DOC-P239E-NIKH-0630-0040"
+      ],
+      "researchRefs": [
+        "data/politicians/pass-239e-actors.json"
+      ]
     },
     {
       "id": "cand-1952-sep-chungbuk-jeong-hyeon-mo",
@@ -1964,7 +1974,8 @@
         "evt-p232-0918-party-merger",
         "evt-p232-0919-opposition-talks",
         "evt-p234b-1215-prime-minister",
-        "evt-p238c-1953-05-27-assembly-harrison"
+        "evt-p238c-1953-05-27-assembly-harrison",
+        "evt-p239e-rally-officials"
       ],
       "evidenceFile": "data/politicians/pass-232-1952-september-actors.json",
       "openLeadsFile": "data/research/leads/pass-232-20261028-next-lead-queue.json",
@@ -1979,14 +1990,16 @@
       "evidenceCoverage": [
         "DOC-P234B-NIKH-1215-0060",
         "DOC-P238-KOR-05_27_0020",
-        "DOC-P239-NIKH-05_26_0070"
+        "DOC-P239-NIKH-05_26_0070",
+        "DOC-P239E-NIKH-0625-0070"
       ],
       "researchNotes": "pass234B: 1952-12-15 총리 후임 물망으로 언론에 언급, 실제 지명 아님",
       "researchRefs": [
         "data/politicians/pass-234-addendum-1952-dec-actors.json",
         "data/politicians/pass-238c-korean-actors.json",
         "data/annals/1953-may8-25-armistice-fiscal-agriculture.md",
-        "data/politicians/pass-239-actors.json"
+        "data/politicians/pass-239-actors.json",
+        "data/politicians/pass-239e-actors.json"
       ],
       "lastResearchPass": 238
     },
@@ -2346,11 +2359,14 @@
       ],
       "connections": [
         "evt-p233-add-opposition-convention",
-        "evt-p239d-cho-opposition"
+        "evt-p239d-cho-opposition",
+        "evt-p239e-cho-rebuttal",
+        "evt-p239e-cho-assault"
       ],
       "researchRefs": [
         "data/politicians/pass-233-addendum-1952-domestic-actors.json",
-        "data/politicians/pass-239d-actors.json"
+        "data/politicians/pass-239d-actors.json",
+        "data/politicians/pass-239e-actors.json"
       ],
       "lifespan": {
         "born": null,
@@ -2358,7 +2374,9 @@
         "verification": "이번 회차 생몰 원기록 미확인"
       },
       "evidenceCoverage": [
-        "DOC-P239D-NIKH-0620-0030"
+        "DOC-P239D-NIKH-0620-0030",
+        "DOC-P239E-NIKH-0622-0080",
+        "DOC-P239E-NIKH-0623-0040"
       ]
     },
     {
@@ -3249,13 +3267,16 @@
       "researchStatus": "candidate-identified",
       "backbone": false,
       "connections": [
-        "evt-p235e-assembly-election-results"
+        "evt-p235e-assembly-election-results",
+        "evt-p239e-shin-assembly"
       ],
       "evidenceCoverage": [
-        "DOC-P235E-NIKH-02_01_0020"
+        "DOC-P235E-NIKH-02_01_0020",
+        "DOC-P239E-NIKH-0630-0040"
       ],
       "researchRefs": [
-        "data/politicians/pass-235-addendum-e-committee-chairs.json"
+        "data/politicians/pass-235-addendum-e-committee-chairs.json",
+        "data/politicians/pass-239e-actors.json"
       ],
       "openLeads": [
         "LEAD-P235E-001",
@@ -3330,13 +3351,16 @@
       "researchStatus": "candidate-identified",
       "backbone": false,
       "connections": [
-        "evt-p235e-jin-censure"
+        "evt-p235e-jin-censure",
+        "evt-p239e-shin-assembly"
       ],
       "evidenceCoverage": [
-        "DOC-P235E-NIKH-02_02_0040"
+        "DOC-P235E-NIKH-02_02_0040",
+        "DOC-P239E-NIKH-0630-0040"
       ],
       "researchRefs": [
-        "data/politicians/pass-235-addendum-e-committee-chairs.json"
+        "data/politicians/pass-235-addendum-e-committee-chairs.json",
+        "data/politicians/pass-239e-actors.json"
       ],
       "openLeads": [
         "LEAD-P235E-001",
@@ -3594,13 +3618,16 @@
       "researchStatus": "candidate-identified",
       "backbone": false,
       "connections": [
-        "evt-p235i-chang-party-dispute"
+        "evt-p235i-chang-party-dispute",
+        "evt-p239e-shin-assembly"
       ],
       "evidenceCoverage": [
-        "DOC-P235I-NIKH-03_05_0030"
+        "DOC-P235I-NIKH-03_05_0030",
+        "DOC-P239E-NIKH-0630-0040"
       ],
       "researchRefs": [
-        "data/politicians/pass-235-addendum-i-bok-party.json"
+        "data/politicians/pass-235-addendum-i-bok-party.json",
+        "data/politicians/pass-239e-actors.json"
       ],
       "openLeads": [
         "LEAD-P235I-004",
@@ -3633,7 +3660,9 @@
       ],
       "evidenceCoverage": [
         "DOC-P236-PA-LABOR-774",
-        "DOC-P236E-PA-LABOR-773"
+        "DOC-P236E-PA-LABOR-773",
+        "DOC-P239E-NIKH-0622-0070",
+        "DOC-P239E-NIKH-0624-0060"
       ],
       "openLeads": [
         "LEAD-P236-006",
@@ -3646,11 +3675,14 @@
       "backbone": false,
       "connections": [
         "evt-p236-labor-1953-04-20-commission-decree",
-        "evt-p236-labor-1953-04-20-dispute-decree"
+        "evt-p236-labor-1953-04-20-dispute-decree",
+        "evt-p239e-park-resettlement",
+        "evt-p239e-union-neutrality"
       ],
       "researchRefs": [
         "data/politicians/pass-236-labor-actors.json",
-        "data/politicians/pass-236-frus-diplomacy-actors.json"
+        "data/politicians/pass-236-frus-diplomacy-actors.json",
+        "data/politicians/pass-239e-actors.json"
       ],
       "hanjaVerification": "대통령기록관 정책기록 773·774 해제에서 朴術音 확인",
       "correctionHistory": [
@@ -4012,7 +4044,8 @@
         "evt-p238c-1953-05-27-relief-dispute"
       ],
       "evidenceCoverage": [
-        "DOC-P238-KOR-05_27_0040"
+        "DOC-P238-KOR-05_27_0040",
+        "DOC-P239E-NIKH-0630-0040"
       ],
       "openLeads": [
         "LEAD-P238C-007"
@@ -4024,11 +4057,13 @@
       "promotionReason": "Contemporary dated original press transcription with name and institutional role; official personnel register still needed",
       "backbone": false,
       "connections": [
-        "evt-p238c-1953-05-27-relief-dispute"
+        "evt-p238c-1953-05-27-relief-dispute",
+        "evt-p239e-shin-assembly"
       ],
       "researchRefs": [
         "data/politicians/pass-238c-korean-actors.json",
-        "data/annals/1953-may8-25-armistice-fiscal-agriculture.md"
+        "data/annals/1953-may8-25-armistice-fiscal-agriculture.md",
+        "data/politicians/pass-239e-actors.json"
       ],
       "lastResearchPass": 238,
       "partyAffiliationEvidence": "unknown",
@@ -4564,6 +4599,304 @@
           "reason": "FRUS d607 Rhee letter, NIKH June18 Won statement, FRUS d612 Clark report; original camp orders OPEN"
         }
       ]
+    },
+    {
+      "id": "cand-p239e-kim-jun-yeon",
+      "name": "김준연",
+      "aliases": [
+        "金俊淵",
+        "Kim Jun-yeon"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "Not checked this pass; retain existing verified values if available"
+      },
+      "researchStatus": "IDENTIFIED",
+      "backbone": false,
+      "rolesByPeriod": [
+        {
+          "period": "1953-06",
+          "role": "민국당 선전부장·전 법무부장관; 6/24 당적 공격 및 6/25 자택 습격 피해자",
+          "evidence": [
+            "DOC-P239E-NIKH-0624-0050",
+            "DOC-P239E-NIKH-0625-0050"
+          ]
+        }
+      ],
+      "connections": [
+        "evt-p239e-party-denunciation",
+        "evt-p239e-kim-assault"
+      ],
+      "evidenceCoverage": [
+        "DOC-P239E-NIKH-0624-0050",
+        "DOC-P239E-NIKH-0625-0050"
+      ],
+      "openLeads": [
+        "민국당 인사명부·6/25 경찰 수사기록"
+      ],
+      "historyDebt": [
+        "HD-P239E-SHIN-QUOTE",
+        "HD-P239E-POLITICAL-ASSAULT"
+      ],
+      "identity_note": "Press contemporary only; official roster, birth/death, aliases pending.",
+      "researchRefs": [
+        "data/politicians/pass-239e-actors.json"
+      ]
+    },
+    {
+      "id": "cand-p239e-shin-hyeong-sik",
+      "name": "신형식",
+      "aliases": [
+        "申亨植",
+        "Shin Hyeong-sik"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "Not checked this pass; retain existing verified values if available"
+      },
+      "researchStatus": "IDENTIFIED",
+      "backbone": false,
+      "rolesByPeriod": [
+        {
+          "period": "1953-06",
+          "role": "자유당 충북도당/청주시당 부위원장, 징계자격위원장; 6/25 연설 발언 진위 논쟁",
+          "evidence": [
+            "DOC-P239E-NIKH-0625-0060",
+            "DOC-P239E-NIKH-0627-0050",
+            "DOC-P239E-NIKH-0630-0040"
+          ]
+        }
+      ],
+      "connections": [
+        "evt-p239e-shin-accusation",
+        "evt-p239e-shin-assembly"
+      ],
+      "evidenceCoverage": [
+        "DOC-P239E-NIKH-0625-0060",
+        "DOC-P239E-NIKH-0627-0050",
+        "DOC-P239E-NIKH-0630-0040"
+      ],
+      "openLeads": [
+        "당 징계 원회의록·연설 녹취·경찰수사"
+      ],
+      "historyDebt": [
+        "HD-P239E-SHIN-QUOTE",
+        "HD-P239E-POLITICAL-ASSAULT"
+      ],
+      "identity_note": "Press contemporary only; official roster, birth/death, aliases pending.",
+      "researchRefs": [
+        "data/politicians/pass-239e-actors.json"
+      ]
+    },
+    {
+      "id": "cand-p239e-kim-tae-seon",
+      "name": "김태선",
+      "aliases": [
+        "金泰善",
+        "Kim Tae-seon"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "Not checked this pass; retain existing verified values if available"
+      },
+      "researchStatus": "IDENTIFIED",
+      "backbone": false,
+      "rolesByPeriod": [
+        {
+          "period": "1953-06",
+          "role": "서울특별시장 6/25 집회 주최자 대표 식사",
+          "evidence": [
+            "DOC-P239E-NIKH-0625-0070"
+          ]
+        }
+      ],
+      "connections": [
+        "evt-p239e-rally-officials"
+      ],
+      "evidenceCoverage": [
+        "DOC-P239E-NIKH-0625-0070"
+      ],
+      "openLeads": [
+        "서울시 행사문서·시장 임명원부"
+      ],
+      "historyDebt": [
+        "HD-P239E-SHIN-QUOTE",
+        "HD-P239E-POLITICAL-ASSAULT"
+      ],
+      "identity_note": "Press contemporary only; official roster, birth/death, aliases pending.",
+      "researchRefs": [
+        "data/politicians/pass-239e-actors.json"
+      ]
+    },
+    {
+      "id": "cand-p239e-gal-hong-gi",
+      "name": "갈홍기",
+      "aliases": [
+        "葛弘基",
+        "Gal Hong-gi"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "Not checked this pass; retain existing verified values if available"
+      },
+      "researchStatus": "IDENTIFIED",
+      "backbone": false,
+      "rolesByPeriod": [
+        {
+          "period": "1953-06",
+          "role": "정부 대변인 6/28 방위협정 합의 임박 언급",
+          "evidence": [
+            "DOC-P239E-NIKH-0628-0030"
+          ]
+        }
+      ],
+      "connections": [
+        "evt-p239e-treaty-near"
+      ],
+      "evidenceCoverage": [
+        "DOC-P239E-NIKH-0628-0030"
+      ],
+      "openLeads": [
+        "정부 대변인 공식 브리핑·한미 조약 교섭문서"
+      ],
+      "historyDebt": [
+        "HD-P239E-SHIN-QUOTE",
+        "HD-P239E-POLITICAL-ASSAULT"
+      ],
+      "identity_note": "Press contemporary only; official roster, birth/death, aliases pending.",
+      "researchRefs": [
+        "data/politicians/pass-239e-actors.json"
+      ]
+    },
+    {
+      "id": "cand-p239e-lee-chung-hwan",
+      "name": "이충환",
+      "aliases": [
+        "李忠煥",
+        "Lee Chung-hwan"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "Not checked this pass; retain existing verified values if available"
+      },
+      "researchStatus": "IDENTIFIED",
+      "backbone": false,
+      "rolesByPeriod": [
+        {
+          "period": "1953-06",
+          "role": "자유당 국회의원 6/27 목격 주장, 6/30 국회 사건 진술",
+          "evidence": [
+            "DOC-P239E-NIKH-0627-0050",
+            "DOC-P239E-NIKH-0630-0040"
+          ]
+        }
+      ],
+      "connections": [
+        "evt-p239e-shin-accusation",
+        "evt-p239e-shin-assembly"
+      ],
+      "evidenceCoverage": [
+        "DOC-P239E-NIKH-0627-0050",
+        "DOC-P239E-NIKH-0630-0040"
+      ],
+      "openLeads": [
+        "6/30 국회 회의록 및 6/25 현장 증인"
+      ],
+      "historyDebt": [
+        "HD-P239E-SHIN-QUOTE",
+        "HD-P239E-POLITICAL-ASSAULT"
+      ],
+      "identity_note": "Press contemporary only; official roster, birth/death, aliases pending.",
+      "researchRefs": [
+        "data/politicians/pass-239e-actors.json"
+      ]
+    },
+    {
+      "id": "cand-p239e-jo-gyeong-gyu",
+      "name": "조경규",
+      "aliases": [
+        "趙瓊奎",
+        "Jo Gyeong-gyu"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "Not checked this pass; retain existing verified values if available"
+      },
+      "researchStatus": "IDENTIFIED",
+      "backbone": false,
+      "rolesByPeriod": [
+        {
+          "period": "1953-06",
+          "role": "자유당 국회의원 6/30 신형식 과거 좌익경력 주장",
+          "evidence": [
+            "DOC-P239E-NIKH-0630-0040"
+          ]
+        }
+      ],
+      "connections": [
+        "evt-p239e-shin-assembly"
+      ],
+      "evidenceCoverage": [
+        "DOC-P239E-NIKH-0630-0040"
+      ],
+      "openLeads": [
+        "6/30 본회의 원문·신형식 인사기록"
+      ],
+      "historyDebt": [
+        "HD-P239E-SHIN-QUOTE",
+        "HD-P239E-POLITICAL-ASSAULT"
+      ],
+      "identity_note": "Press contemporary only; official roster, birth/death, aliases pending.",
+      "researchRefs": [
+        "data/politicians/pass-239e-actors.json"
+      ]
+    },
+    {
+      "id": "cand-p239e-jo-gwang-seop",
+      "name": "조광섭",
+      "aliases": [
+        "趙光燮",
+        "Jo Gwang-seop"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "Not checked this pass; retain existing verified values if available"
+      },
+      "researchStatus": "IDENTIFIED",
+      "backbone": false,
+      "rolesByPeriod": [
+        {
+          "period": "1953-06",
+          "role": "자유당 국회의원 6/30 정부 진상보고 요구 동의",
+          "evidence": [
+            "DOC-P239E-NIKH-0630-0040"
+          ]
+        }
+      ],
+      "connections": [
+        "evt-p239e-shin-assembly"
+      ],
+      "evidenceCoverage": [
+        "DOC-P239E-NIKH-0630-0040"
+      ],
+      "openLeads": [
+        "6/30 국회 본회의 원안·표결"
+      ],
+      "historyDebt": [
+        "HD-P239E-SHIN-QUOTE",
+        "HD-P239E-POLITICAL-ASSAULT"
+      ],
+      "identity_note": "Press contemporary only; official roster, birth/death, aliases pending.",
+      "researchRefs": [
+        "data/politicians/pass-239e-actors.json"
+      ]
     }
   ],
   "recentResearchPass232": {
@@ -4603,5 +4936,19 @@
       "pol-won-yong-duk"
     ],
     "overlay": "data/politicians/pass-239d-actors.json"
+  },
+  "recentResearchPass239E": {
+    "date": "2026-10-28",
+    "actors": 16,
+    "new_candidate_ids": [
+      "cand-p239e-kim-jun-yeon",
+      "cand-p239e-shin-hyeong-sik",
+      "cand-p239e-kim-tae-seon",
+      "cand-p239e-gal-hong-gi",
+      "cand-p239e-lee-chung-hwan",
+      "cand-p239e-jo-gyeong-gyu",
+      "cand-p239e-jo-gwang-seop"
+    ],
+    "overlay": "data/politicians/pass-239e-actors.json"
   }
 }
