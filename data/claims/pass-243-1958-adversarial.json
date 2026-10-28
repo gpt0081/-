@@ -51,14 +51,14 @@
     {
       "id": "CLM-P243-04",
       "statement": "1958년 5월 선거에서 자유당이 137석을 획득했다",
-      "status": "CONFLICTED_SOURCE_NUMBERS",
+      "status": "NARROWED_POSSIBLE_TEMPORAL_BASELINE",
       "supporting_evidence": [
         "DOC-P243-FRUS-222"
       ],
       "contradicting_or_limiting_evidence": [
         "DOC-P243-NIKH-1958-ELECTION"
       ],
-      "caveat": "FRUS d222는 편집주석(원본 아님), 한국사DB 126석; 선관위 원선거통계 재검증",
+      "caveat": "FRUS d222 June 4 retrospective 137 may reflect May25–26 independent-member switches after May2 election-day official 126. 126+11=137; 27−11+1 Unification=17, matching FRUS independent/other total. This is a numerical reconciliation hypothesis, NOT verified without 11 membership-change originals.",
       "review_date": "2026-10-29"
     },
     {
@@ -71,7 +71,7 @@
       "contradicting_or_limiting_evidence": [
         "DOC-P243-NIKH-1958-ELECTION"
       ],
-      "caveat": "FRUS d222 편집주석 90.6%, 선거원장 87.8% 대조 필요",
+      "caveat": "FRUS d222 editorial 90.6% vs commonly cited official 87.8%: 8.9m ballots consistent in numerator; 90.6 may use a different eligible-electorate denominator, but source population not verified. Do not silently choose.",
       "review_date": "2026-10-29"
     },
     {
@@ -140,7 +140,7 @@
       "statement": "국가보안법 제500호는 1958-12-24에 시행되었다",
       "status": "CONTRADICTED_BY_LAW_DATE",
       "supporting_evidence": [
-        "DOC-P243-NIKH-1958-ELECTION"
+        "DOC-P243-CHOSUN-1958-1225"
       ],
       "contradicting_or_limiting_evidence": [
         "DOC-P243-ROK-SC-4292-168"
@@ -223,5 +223,14 @@
       "review_date": "2026-10-29"
     }
   ],
-  "rule": "Absence of a primary order is not proof of no order; source disagreement preserved without silent overwrite."
+  "rule": "Absence of a primary order is not proof of no order; source disagreement preserved without silent overwrite.",
+  "review_history": [
+    {
+      "date": "2026-10-29",
+      "claim_id": "CLM-P243-04",
+      "prior_status": "CONFLICTED_SOURCE_NUMBERS",
+      "new_status": "NARROWED_POSSIBLE_TEMPORAL_BASELINE",
+      "reason": "Arithmetic 126+11=137, 27-11+1=17 suggests 11 independent defections plus minor-party reclassification, not same-date vote-count conflict. Pending National Assembly original membership register."
+    }
+  ]
 }
