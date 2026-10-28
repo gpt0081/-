@@ -242,21 +242,29 @@
     },
     {
       "id": "CLM-P241-13",
-      "statement": "1956 장면 선거득표율 55.6%와 70%는 같은 분모의 수치다",
-      "status": "INSUFFICIENT",
-      "supporting_evidence": [
+      "statement": "1956년 이승만 대통령의 55.6%와 약 70% 득표율이 동일 분모를 사용한다",
+      "status": "NARROWED_DENOMINATOR_DISCREPANCY",
+      "supporting_evidence": [],
+      "contradicting_evidence": [
         "DOC-P241-FRUS-177"
       ],
-      "contradicting_evidence": [],
       "insufficient_evidence": [
-        "중앙선관위 1956 유효투표·전체투표·선거인수 원표; FRUS 55.6은 이승만 득표율"
+        "FRUS d177의 55.6%는 이승만의 총투표수 기준 수치로 보이며, 선관위 후대 자료의 약70%는 유효투표 기준. 1956 중앙선관위 원개표표·정확한 분모 확인 필요"
       ],
       "contemporaneous_observation": [
         "DOC-P241-FRUS-177"
       ],
       "later_finding": [],
       "review_date": "2026-10-29",
-      "adversarial_review": "Alternative actor record and/or original authorization record targeted; a source reporting a proposal does not prove implementation."
+      "adversarial_review": "Alternative actor record and/or original authorization record targeted; a source reporting a proposal does not prove implementation.",
+      "correction_history": [
+        {
+          "date": "2026-10-29",
+          "before": "장면 득표율 55.6%와 70%",
+          "after": "이승만 대통령 득표율 분모차이",
+          "reason": "FRUS d177 explicitly names Rhee; never attribute his votes to Chang Myon."
+        }
+      ]
     },
     {
       "id": "CLM-P241-14",
