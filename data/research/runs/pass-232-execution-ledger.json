@@ -41,7 +41,12 @@
     "provenance_cross_checks": 4,
     "strict_three_independent_primary_source_crosschecks": 0,
     "history_debts_new": 8,
-    "history_debts_resolved": 0
+    "history_debts_resolved": 0,
+    "canonical_politician_candidates_added": 18,
+    "canonical_existing_politicians_crosslinked": 5,
+    "canonical_event_nodes_added": 23,
+    "canonical_politician_total_after": 67,
+    "canonical_event_total_after": 40
   },
   "independent_research_lines": [
     "1952-09-02 대통령 개헌 유시와 후속 발의",
@@ -147,7 +152,8 @@
     "1952 비료수급 52.3만톤은 계획, 9/15 실제 도착 3.2만톤",
     "이교선 상공장관 3500만달러 전액 산업부흥 주장과 2100만달러 양곡도입 합의 보도는 다른 행위",
     "자유당 합당 보도에도 윤치영·임영신 등 불응자 존재",
-    "국가기록원 BA0084189 상공부 1952-05-12 일본어선 대책 4면 문서번호 확보"
+    "국가기록원 BA0084189 상공부 1952-05-12 일본어선 대책 4면 문서번호 확보",
+    "Canonical data/politicians.json에 18개 candidate ID 등록·5개 기존 노드 사건연결; data/events.json에 23개 action과 원문 URL 통합"
   ],
   "limits": [
     "주요 국정기록은 신문 전사와 국가기록원 발췌 위주, 원 관보·국회속기록·일본 외교문서·미 OIR 전체 원문 미확보",
@@ -165,7 +171,9 @@
     "data/annals/1952-september-state-party-economy.md",
     "data/research/HISTORY_DEBT.md",
     "data/research/rhee-syngman-coverage.json",
-    "data/politicians/INDEX.md"
+    "data/politicians/INDEX.md",
+    "data/politicians.json",
+    "data/events.json"
   ],
   "commit_sha_log": [
     {
@@ -215,6 +223,26 @@
     {
       "file": "data/politicians/pass-232-1952-september-actors.json",
       "sha": "8e752e8f685b304dfb342f0ecec4f71e88b03799"
+    },
+    {
+      "file": "data/research/runs/pass-232-execution-ledger.json",
+      "sha": "e40d70ffbf7abd0f3061d546eab373639304d4b0"
+    },
+    {
+      "file": "data/research/ACTIVE_RESEARCH_HANDOFF.json",
+      "sha": "3fe3e5ceb30f1ac44eee2d8db483573026017a82"
+    },
+    {
+      "file": "data/politicians.json",
+      "sha": "a97b2fcac6aa18551390b2365e5644deb7a32995"
+    },
+    {
+      "file": "data/events.json",
+      "sha": "da9d85627787cde2cd7ac91bf0cb30752e5e384e"
+    },
+    {
+      "file": "data/events.json",
+      "sha": "84ac2eb07749736db9a1684e17878b1187ce71c1"
     }
   ],
   "validation": {
@@ -223,7 +251,9 @@
     "all_actor_event_ids_resolve": true,
     "unique_document_ids": true,
     "checked_by": "fetch/parse/referential integrity comparison",
-    "floot_touched": false
+    "floot_touched": false,
+    "canonical_registry_crosslinked": true,
+    "canonical_event_sources_resolved": true
   },
   "next_priority": [
     "1952-09 GATT 가입 국무회의 결재와 1951 Torquay 의정서",
