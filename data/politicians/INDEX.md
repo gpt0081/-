@@ -25,3 +25,9 @@
 - pass232 문서·사건·주장·실록: `data/documents/pass-232-1952-september-governance.json`, `data/events/pass-232-1952-september-governance.json`, `data/claims/pass-232-1952-september-governance.json`, `data/annals/1952-september-state-party-economy.md`. 1952년 9월 정당스케치의 풍자·전언을 검증된 사실로 승격하지 않음.
 
 - pass232 후속: 전규홍 주불공사(1952-02 GATT 복명서 작성자로 2017 학술초록에서 언급)를 `DISCOVERED` 독립 candidate로 추가. 외무부 원본·한자·생몰·재임 원장 확보 전 검증 승격 금지. 산업부흥국채법 제254호·특별회계법 제255호(1952-09-28) 및 1954년 최초 발행의 시차는 event/claim에 연결.
+
+
+## Pass233 1952년 10~11월 외교·재건·정보 네트워크 (2026-10-28)
+- actor overlay: `data/politicians/pass-233-1952-rok-diplomacy-network.json` (13명, 신규 후보 5명; 기존 8명 교차연결).
+- 1952-10-17 변영태·양유찬·임병직 UNCURK/UN 가입·조약 요청은 FRUS d288 원문으로 연결. 장면·조봉암·이종찬·정일권·신성모 관련 d323 첩보는 **동시대 강한 부정평가가 병기된 미확정 의혹**이며 인물 혐의 사실이 아님.
+- 김용식·함상훈은 국편 목록만 확인, 본문 미열람 상태 `DISCOVERED`로 유지. 이름·한자·생몰은 원관보 확인 전 임의 VERIFIED 승격 금지.

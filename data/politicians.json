@@ -27,7 +27,13 @@
       "evidenceFile": "data/evidence/rhee-syngman.json",
       "annalsFile": "data/annals/rhee-syngman.md",
       "openLeadsFile": "data/research/rhee-syngman-open-leads.json",
-      "coverageFile": "data/research/rhee-syngman-coverage.json"
+      "coverageFile": "data/research/rhee-syngman-coverage.json",
+      "connections": [
+        "evt-p233-1110-unkra-plan"
+      ],
+      "researchRefs": [
+        "data/politicians/pass-233-1952-rok-diplomacy-network.json"
+      ]
     },
     {
       "id": "pol-yi-ki-pung",
@@ -254,7 +260,8 @@
       "connections": [
         "evt-1949-farmland-reform",
         "evt-p232-0919-opposition-talks",
-        "evt-p232-0917-party-sketches"
+        "evt-p232-0917-party-sketches",
+        "evt-p233-1110-coup-rumor"
       ],
       "researchUpdates": [
         {
@@ -266,7 +273,10 @@
           "verification": "individual speech/office verified, biographical identity incomplete"
         }
       ],
-      "pass232Overlay": "data/politicians/pass-232-1952-september-actors.json"
+      "pass232Overlay": "data/politicians/pass-232-1952-september-actors.json",
+      "researchRefs": [
+        "data/politicians/pass-233-1952-rok-diplomacy-network.json"
+      ]
     },
     {
       "id": "pol-lee-beom-seok",
@@ -492,10 +502,14 @@
         "evt-1953-anti-communist-pow-release",
         "evt-1953-us-rok-mutual-defense-negotiation",
         "evt-p232-0917-finance-critique",
-        "evt-p232-0918-reimbursement-split"
+        "evt-p232-0918-reimbursement-split",
+        "evt-p233-1107-won-payment"
       ],
       "researchNotes": "1952~53 재정·원조·휴전외교 교차 행위자. 1953-08-06 경제·군사원조 회의에서 통합 경제기구를 통한 원조 프로그램 MOU의 미국 최종승인을 직접 요청한 기록과 덜레스 회담 참여가 확인되어 VERIFIED로 승격. CEB/환율/재건원조 한국측 문서 확보 후 ANNALS_ACTIVE 검토.",
-      "pass232Overlay": "data/politicians/pass-232-1952-september-actors.json"
+      "pass232Overlay": "data/politicians/pass-232-1952-september-actors.json",
+      "researchRefs": [
+        "data/politicians/pass-233-1952-rok-diplomacy-network.json"
+      ]
     },
     {
       "id": "pol-pyun-yong-tae",
@@ -514,10 +528,14 @@
       "connections": [
         "evt-1953-anti-communist-pow-release",
         "evt-1953-us-rok-mutual-defense-negotiation",
-        "evt-p232-0912-japanese-fishing-seizure"
+        "evt-p232-0912-japanese-fishing-seizure",
+        "evt-p233-1017-uncurk"
       ],
       "researchNotes": "1953 휴전·반공포로·한미상호방위조약에서 반복 확인. 1953-08-07 공동성명 문구 수정 제안과 08-08 덜레스와 조약 초안 가조인이라는 직접 행위가 공식 외교기록으로 확인되어 VERIFIED로 승격. 향후 외무부 한국측 회의록·서명훈령 확보 시 ANNALS_ACTIVE 검토.",
-      "pass232Overlay": "data/politicians/pass-232-1952-september-actors.json"
+      "pass232Overlay": "data/politicians/pass-232-1952-september-actors.json",
+      "researchRefs": [
+        "data/politicians/pass-233-1952-rok-diplomacy-network.json"
+      ]
     },
     {
       "id": "pol-lee-beom-seok-1900",
@@ -551,9 +569,13 @@
       "researchStatus": "candidate-cross-event",
       "backbone": false,
       "connections": [
-        "evt-1951-national-defense-corps"
+        "evt-1951-national-defense-corps",
+        "evt-p233-1110-coup-rumor"
       ],
-      "researchNotes": "국민방위군 사건 당시 국방부 책임선에 위치. 사건의 창설·운영 부실, 대통령의 1951-01-04 조사 지시, 사임·해산을 단계별로 분리해 검증."
+      "researchNotes": "국민방위군 사건 당시 국방부 책임선에 위치. 사건의 창설·운영 부실, 대통령의 1951-01-04 조사 지시, 사임·해산을 단계별로 분리해 검증.",
+      "researchRefs": [
+        "data/politicians/pass-233-1952-rok-diplomacy-network.json"
+      ]
     },
     {
       "id": "pol-choi-duk-shin",
@@ -626,9 +648,13 @@
       "researchStatus": "IDENTIFIED",
       "backbone": false,
       "connections": [
-        "evt-1953-us-rok-mutual-defense-negotiation"
+        "evt-1953-us-rok-mutual-defense-negotiation",
+        "evt-p233-1017-uncurk"
       ],
-      "researchNotes": "1953-05-27 휴전안 대응을 이승만에게 보고한 서한과 08-08 덜레스 최종회담 참가가 확인됨. 주유엔 대표 재임기간·외교부 직제 원문 확인 후 VERIFIED 검토."
+      "researchNotes": "1953-05-27 휴전안 대응을 이승만에게 보고한 서한과 08-08 덜레스 최종회담 참가가 확인됨. 주유엔 대표 재임기간·외교부 직제 원문 확인 후 VERIFIED 검토.",
+      "researchRefs": [
+        "data/politicians/pass-233-1952-rok-diplomacy-network.json"
+      ]
     },
     {
       "id": "pol-paik-sun-yup",
@@ -1412,7 +1438,8 @@
       "backbone": false,
       "connections": [
         "evt-p232-0919-opposition-talks",
-        "evt-p232-0917-party-sketches"
+        "evt-p232-0917-party-sketches",
+        "evt-p233-1017-uncurk"
       ],
       "evidenceFile": "data/politicians/pass-232-1952-september-actors.json",
       "openLeadsFile": "data/research/leads/pass-232-20261028-next-lead-queue.json",
@@ -1423,7 +1450,10 @@
         "verification": "not independently checked this pass"
       },
       "hanjaVerification": "1952 contemporaneous text or existing canonical registry",
-      "partyAffiliationEvidence": "신라회 관련(정당 아님)"
+      "partyAffiliationEvidence": "신라회 관련(정당 아님)",
+      "researchRefs": [
+        "data/politicians/pass-233-1952-rok-diplomacy-network.json"
+      ]
     },
     {
       "id": "cand-1952-sep-yun-chi-yeong",
@@ -1465,7 +1495,8 @@
       "researchStatus": "IDENTIFIED",
       "backbone": false,
       "connections": [
-        "evt-p232-0919-unc-foreign-policy"
+        "evt-p232-0919-unc-foreign-policy",
+        "evt-p233-1017-un-admission"
       ],
       "evidenceFile": "data/politicians/pass-232-1952-september-actors.json",
       "openLeadsFile": "data/research/leads/pass-232-20261028-next-lead-queue.json",
@@ -1476,7 +1507,10 @@
         "verification": "not independently checked this pass"
       },
       "hanjaVerification": "1952 contemporaneous text or existing canonical registry",
-      "partyAffiliationEvidence": "unknown"
+      "partyAffiliationEvidence": "unknown",
+      "researchRefs": [
+        "data/politicians/pass-233-1952-rok-diplomacy-network.json"
+      ]
     },
     {
       "id": "cand-1952-minister-lee-yun-yeong",
@@ -1597,6 +1631,131 @@
       "evidenceFile": "data/politicians/pass-232-1952-september-actors.json",
       "openLeadsFile": "data/research/leads/pass-232-20261028-next-lead-queue.json",
       "researchNote": "2017 학술논문 초록만 확인, 외무부 1952-02 복명서 원문 미확보"
+    },
+    {
+      "id": "cand-1952-nov-chang-myon",
+      "name": "장면",
+      "aliases": [
+        "張勉",
+        "John Chang",
+        "Chang Myon"
+      ],
+      "roles": [
+        "1952-11 미국 첩보에서 전 국무총리로 지칭; 쿠데타 혐의 불확정"
+      ],
+      "researchStatus": "IDENTIFIED",
+      "backbone": false,
+      "connections": [
+        "evt-p233-1110-coup-rumor"
+      ],
+      "researchRefs": [
+        "data/politicians/pass-233-1952-rok-diplomacy-network.json"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "이번 회차 생몰 원기록 미확인; 기존 canonical 정보는 변경하지 않음"
+      }
+    },
+    {
+      "id": "cand-1952-nov-yi-chong-chan",
+      "name": "이종찬",
+      "aliases": [
+        "李鍾贊",
+        "Yi Chong Chan",
+        "Lee Jong-chan"
+      ],
+      "roles": [
+        "1952-11 미국 정보보고상 전 육군참모총장·미 육군참모학교 수학"
+      ],
+      "researchStatus": "IDENTIFIED",
+      "backbone": false,
+      "connections": [
+        "evt-p233-1110-coup-rumor"
+      ],
+      "researchRefs": [
+        "data/politicians/pass-233-1952-rok-diplomacy-network.json"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "이번 회차 생몰 원기록 미확인; 기존 canonical 정보는 변경하지 않음"
+      }
+    },
+    {
+      "id": "cand-1952-nov-chong-il-kwon",
+      "name": "정일권",
+      "aliases": [
+        "丁一權",
+        "Chong Il-Kwon",
+        "Chung Il-kwon"
+      ],
+      "roles": [
+        "1952-11 미국 첩보상 전 육군참모총장·군 고위직"
+      ],
+      "researchStatus": "IDENTIFIED",
+      "backbone": false,
+      "connections": [
+        "evt-p233-1110-coup-rumor"
+      ],
+      "researchRefs": [
+        "data/politicians/pass-233-1952-rok-diplomacy-network.json"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "이번 회차 생몰 원기록 미확인; 기존 canonical 정보는 변경하지 않음"
+      }
+    },
+    {
+      "id": "cand-1952-nov-kim-yong-sik",
+      "name": "김용식",
+      "aliases": [
+        "金溶植",
+        "Kim Yong-sik",
+        "Kim Yong Shik"
+      ],
+      "roles": [
+        "1952-10-15 주일공사 발언은 국사편찬위원회 색인만 확보"
+      ],
+      "researchStatus": "DISCOVERED",
+      "backbone": false,
+      "connections": [
+        "evt-p233-1017-security-pact"
+      ],
+      "researchRefs": [
+        "data/politicians/pass-233-1952-rok-diplomacy-network.json"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "이번 회차 생몰 원기록 미확인; 기존 canonical 정보는 변경하지 않음"
+      }
+    },
+    {
+      "id": "cand-1952-oct-ham-sang-hun",
+      "name": "함상훈",
+      "aliases": [
+        "咸尙勳",
+        "Ham Sang-hun",
+        "Hahm Sang-hoon"
+      ],
+      "roles": [
+        "1952-10-01 민주국민당 선전부장 전당대회 관련 발언 색인만 확보"
+      ],
+      "researchStatus": "DISCOVERED",
+      "backbone": false,
+      "connections": [
+        "evt-p233-1017-uncurk"
+      ],
+      "researchRefs": [
+        "data/politicians/pass-233-1952-rok-diplomacy-network.json"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "이번 회차 생몰 원기록 미확인; 기존 canonical 정보는 변경하지 않음"
+      }
     }
   ],
   "recentResearchPass232": {
