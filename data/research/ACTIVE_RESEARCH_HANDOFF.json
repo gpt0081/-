@@ -4,7 +4,7 @@
   "activeBranch": "main",
   "branchHead": "moving-ref:refs/heads/main",
   "baseMain": "0bae0fd2c2ce592e6699095fbe4593d07e9b778e",
-  "status": "MAIN_RESEARCH_COMMITTED_PASS231B; PREVIOUS_RUN89_REVIEW_BRANCH_STILL_PENDING",
+  "status": "MAIN_RESEARCH_COMMITTED_PASS232; PREVIOUS_RUN89_REVIEW_BRANCH_STILL_PENDING",
   "summary": {
     "pass229DocumentsOpened": 105,
     "pass229PrimaryOrContemporary": 93,
@@ -29,11 +29,47 @@
     "pass231StrictThreeIndependentPrimaryFamilies": 0,
     "pass231IndependentLines": 30,
     "pass231Domains": 11,
-    "pass231ExistingActorCrosslinkRecords": 13
+    "pass231ExistingActorCrosslinkRecords": 13,
+    "pass232DirectSubstantiveRead": 48,
+    "pass232OriginalOrContemporaryIncludingExcerpt": 47,
+    "pass232ActorNodes": 23,
+    "pass232Events": 23,
+    "pass232Claims": 18,
+    "pass232Leads": 49,
+    "pass232Adversarial": 18,
+    "pass232CrossProvenanceBundles": 4,
+    "pass232StrictThreeIndependentPrimaryFamilies": 0,
+    "pass232IndependentLines": 23,
+    "pass232Domains": 12
   },
-  "nextAction": "Read data/research/runs/pass-231-execution-ledger.json and data/research/leads/pass-231-next-lead-queue.json FIRST. Highest priority: National Assembly 1952-07-04 vote stenogram, 1952 election law no.247 original Gazette July18/19, 1952-08-26 tungsten plenary vs 1952-09-06 committee attendance record, UN A/2187 and A/2441 alternate depository (direct PDF 403), Seoul High Prosecutors Office Aug15 International Club 30-person nonindictment decision, ROK 1952 crop forecast and 3500m USD reimbursement payment records. Floot untouched.",
+  "nextAction": "Read data/research/runs/pass-232-execution-ledger.json and data/research/leads/pass-232-20261028-next-lead-queue.json FIRST; focus on 1952-09 GATT decision vs 1967 accession, 1952-09 tobacco/salt legal authority, Chungbuk/Jeonbuk governor appointment contradiction, BA0084189 original + Japan protest, 1943/1952 industrial census denominator mismatch, fertilizer 523k planned vs 32k delivered, and 35m reimbursement allocation. Preserve unresolved pass231 July election and tungsten original leads.",
   "mainDataModified": true,
-  "latestRun": 231,
+  "latestRun": {
+    "pass": 232,
+    "date": "2026-10-28",
+    "ledger": "data/research/runs/pass-232-execution-ledger.json",
+    "leadQueue": "data/research/leads/pass-232-20261028-next-lead-queue.json",
+    "documentRegistry": "data/documents/pass-232-1952-september-governance.json",
+    "eventRegistry": "data/events/pass-232-1952-september-governance.json",
+    "claimRegistry": "data/claims/pass-232-1952-september-governance.json",
+    "actorOverlay": "data/politicians/pass-232-1952-september-actors.json",
+    "annals": "data/annals/1952-september-state-party-economy.md",
+    "metrics": {
+      "substantiveDocuments": 48,
+      "primaryOrContemporaryIncludingExcerpt": 47,
+      "actorNodes": 23,
+      "events": 23,
+      "claims": 18,
+      "independentLines": 23,
+      "domains": 12,
+      "adversarial": 18,
+      "priorLeadsTracked": 9,
+      "newLeads": 49,
+      "strictThreePrimaryFamilies": 0
+    },
+    "importantCorrection": "1952 GATT 가입 결정 보도는 정식 가입이 아니며 공식 조약은 1967-03-15 서명·1967-04-14 관보; 산업통계 1943 5인+와 1952 10인+ 직접 파괴율 비교 금지",
+    "weeklyDebtFullReview": false
+  },
   "latestCorrections": [
     {
       "run": 93,
@@ -74,7 +110,11 @@
       "run": 231,
       "topic": "1952 presidential speech vs political crisis",
       "finding": "Aug15 Rhee speech attributed self-assessment, not overriding FRUS or Korean contemporaneous observation"
-    }
+    },
+    "pass232: 1952 GATT join decision reported; official accession 1967-04-14 (treaty 243).",
+    "pass232: 1952 10+ employees excluding Seoul vs 1943 5+ employees including Seoul not directly comparable.",
+    "pass232: 1952-09-16 governor appointment reports conflict for Lee Yo-han; no forced RESOLVED.",
+    "pass232: Jin Heon-sik Hanja 陳憲植 vs 陣憲植 headline variant retained."
   ],
   "parallelPendingReview": {
     "activeBranch": "research/run89-audit-property-oversight",
@@ -100,5 +140,32 @@
     "292520b09782c8a802dfa5b26de7354538114b3c",
     "ddbd129f03a2041dc38350a17da58df5c63350d7",
     "08bc6506946324540c0ed5a550fa382b752c5491"
+  ],
+  "pass232Files": [
+    "data/documents/pass-232-1952-september-governance.json",
+    "data/events/pass-232-1952-september-governance.json",
+    "data/claims/pass-232-1952-september-governance.json",
+    "data/politicians/pass-232-1952-september-actors.json",
+    "data/annals/1952-september-state-party-economy.md",
+    "data/research/leads/pass-232-20261028-next-lead-queue.json",
+    "data/research/runs/pass-232-execution-ledger.json",
+    "data/research/HISTORY_DEBT.md",
+    "data/research/rhee-syngman-coverage.json",
+    "data/politicians/INDEX.md"
+  ],
+  "pass232Commits": [
+    "4d2d23f3d7584eafda5fdef9a7d86b5d76fdc4c8",
+    "3f9d99b286192a00d96832b0985feea484199dff",
+    "4dfd22a77e524ea6ffdfe8adaa7f0ed9e8a60ba3",
+    "06824b46a1b1ed9bbd0f926eba5cca49eb941ca6",
+    "6c2e391d0ff7974cb3d92bf063fc3b11a7680953",
+    "642a316133c89e20f5af832c4b7248bb48f8dda8",
+    "a72bf3780107a2700f2b1c31eae66dbb7a6589fa",
+    "5db46b121b187163cd10ca44f86b03c2419ecc52",
+    "8cb3052616640864835fabd4655b31a2cc9927e3",
+    "96205dd188d8868cfd0661c29eebd565d2c7dd78",
+    "7ba3a8a3cb491de7c1f8c19a9bd7f91dc2f67117",
+    "8e752e8f685b304dfb342f0ecec4f71e88b03799",
+    "e40d70ffbf7abd0f3061d546eab373639304d4b0"
   ]
 }
