@@ -363,7 +363,7 @@
       },
       "roleAtTime": "1952-07-04 발췌·나머지 조항 일괄표결 동의",
       "roleVerification": "DOCUMENT_ATTRIBUTED",
-      "researchStatus": "DISCOVERED",
+      "researchStatus": "POSSIBLE_DUPLICATE_IDENTITY_PENDING",
       "formalPromotionThisRun": false,
       "eventIds": [
         "evt-r225-assembly-vote"
@@ -374,7 +374,10 @@
       "openLeadId": "L225-ACTOR-cand-r225-lee-jae-hyeong-1952",
       "historyDebtIds": [],
       "accessDate": "2026-10-28",
-      "identityCaution": "Existing stable ID reused where available; new candidate never auto-merged on name alone."
+      "identityCaution": "1952 의원 이름이 기존 1949~51 registry 인물과 같으나 동일인임을 선거구/인명록으로 확인하기 전까지 병합하지 않는다.",
+      "possibleSameAs": [
+        "pol-r184-lee-jae-hyeong"
+      ]
     },
     {
       "id": "cand-r225-seo-yi-hwan-1952",
@@ -390,7 +393,7 @@
       },
       "roleAtTime": "1952-07-04 개헌안 공고기간/명칭 문제 논의",
       "roleVerification": "DOCUMENT_ATTRIBUTED",
-      "researchStatus": "DISCOVERED",
+      "researchStatus": "POSSIBLE_DUPLICATE_IDENTITY_PENDING",
       "formalPromotionThisRun": false,
       "eventIds": [
         "evt-r225-assembly-vote"
@@ -401,10 +404,31 @@
       "openLeadId": "L225-ACTOR-cand-r225-seo-yi-hwan-1952",
       "historyDebtIds": [],
       "accessDate": "2026-10-28",
-      "identityCaution": "Existing stable ID reused where available; new candidate never auto-merged on name alone."
+      "identityCaution": "1952 의원 이름이 기존 1949~51 registry 인물과 같으나 동일인임을 선거구/인명록으로 확인하기 전까지 병합하지 않는다.",
+      "possibleSameAs": [
+        "pol-r188-seo-i-hwan"
+      ]
     }
   ],
   "formalPromotions": 0,
-  "newCandidateCount": 4,
-  "identityPolicy": "Never merge name-only candidates across sessions."
+  "newCandidateCount": 2,
+  "identityPolicy": "Never merge name-only candidates across sessions.",
+  "possibleDuplicateCandidates": 2,
+  "registeredCentrallyThisRun": 12,
+  "identityCollisionCorrections": [
+    {
+      "id": "CORR-R225-03",
+      "name": "이재형",
+      "candidate": "cand-r225-lee-jae-hyeong-1952",
+      "possibleSameAs": "pol-r184-lee-jae-hyeong",
+      "action": "NO_MERGE_PENDING_MEMBER_ROSTER"
+    },
+    {
+      "id": "CORR-R225-04",
+      "name": "서이환",
+      "candidate": "cand-r225-seo-yi-hwan-1952",
+      "possibleSameAs": "pol-r188-seo-i-hwan",
+      "action": "NO_MERGE_PENDING_MEMBER_ROSTER"
+    }
+  ]
 }
