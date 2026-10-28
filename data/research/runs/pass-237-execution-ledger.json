@@ -4,19 +4,23 @@
   "actual_elapsed_minutes": null,
   "actual_elapsed_note": "실제 경과시간 실측 불가, 1시간 실행 주장하지 않음.",
   "metrics": {
-    "independent_research_lines": 12,
-    "governance_domains_substantively_strengthened": 5,
-    "nonpresidential_korean_politicians_deepened": 2,
+    "independent_research_lines": 18,
+    "governance_domains_substantively_strengthened": 9,
+    "nonpresidential_korean_politicians_deepened": 4,
     "new_korean_politicians": 0,
-    "events": 13,
+    "events": 19,
     "unique_substantive_original_origin_transcripts_opened": 47,
     "official_original_origin_transcripts": 47,
     "original_facsimiles": 0,
-    "adversarial_claims": 12,
+    "adversarial_claims": 18,
     "prior_leads_followed": 8,
-    "new_document_specific_leads": 34,
+    "new_document_specific_leads": 46,
     "strict_three_independent_primary_family_bundles": 0,
-    "within_FRUS_cross_author_comparisons": 5
+    "within_FRUS_cross_author_comparisons": 5,
+    "unique_contemporary_korean_newspaper_transcripts_opened": 6,
+    "total_unique_substantive_documents_opened": 53,
+    "total_original_origin_or_contemporary": 53,
+    "two_family_contextual_comparisons": 1
   },
   "research_lines": [
     "한국정부 정전반대·5조건",
@@ -108,9 +112,21 @@
     "data/research/runs/pass-237-execution-ledger.json",
     "data/research/debt/pass-237-targeted-debt-review.json",
     "data/research/coverage/pass-237-coverage-overlay.json",
-    "data/politicians/INDEX.md"
+    "data/politicians/INDEX.md",
+    "data/documents/pass-237b-korean-contemporary.json",
+    "data/events/pass-237b-korean-governance.json",
+    "data/claims/pass-237b-korean-adversarial.json",
+    "data/politicians/pass-237b-korean-actors.json",
+    "data/research/leads/pass-237b-korean-next-queue.json",
+    "data/research/runs/pass-237b-addendum-ledger.json",
+    "data/research/debt/pass-237b-domestic-debt.json"
   ],
   "weekly_full_history_debt_review": "역사부채 주간 전수조사 미실시",
   "reason": "Wednesday, 2026-10-28 Asia/Seoul",
-  "floot": "untouched"
+  "floot": "untouched",
+  "corrections": [
+    "CORR-P237B-001: d468 보고일 4/20과 첫 교환일 4/19 분리",
+    "CORR-P237B-002: 집행 미확인은 반증이 아니므로 일부 claim status INSUFFICIENT로 정정",
+    "CORR-P237B-003: 국편 경향신문 기사 마지막 '4월40일' 전사 오탈자 보존"
+  ]
 }

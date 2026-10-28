@@ -86,3 +86,5 @@
 - 한국 정치인 변영태·양유찬의 1953-04-16 포로교환 참관협의 및 4/24 안보면담 원문 기반 심화: `data/politicians/pass-237-actor-overlays.json`.
 - 이승만 4/30 Clark 친서 8조건, 한국 국회 6인 참관결의(미군 보고), 미국 EVERREADY 계획(실행 미확인)을 `data/events/pass-237-armistice-actions.json`, `data/claims/pass-237-adversarial.json`, `data/documents/pass-237-frus-april-may.json`로 연결.
 - `data/annals/1953-april-may-armistice-command.md`, `data/research/debt/pass-237-targeted-debt-review.json`, `data/research/coverage/pass-237-coverage-overlay.json` 및 34개 문서특정 후속 lead 참조. 원문전사 47건, 원본이미지 0건, 엄격 3계열 교차확증 0건.
+
+- Pass237B 1953-04-29 국내 동시대 신문 6개 원문전사: 신중목 농림장관 비료배급 담화, 백두진 대변인 타스카 회담, 이승만 환도·농민회·휴전 기자회견을 `data/politicians/pass-237b-korean-actors.json`로 연결. 농민회 통합/농협법 제정·비료배급·구호양곡 실제 집행은 OPEN. `data/research/debt/pass-237b-domestic-debt.json`.
