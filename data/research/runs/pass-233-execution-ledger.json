@@ -6,12 +6,12 @@
   "weekly_full_history_debt_review": false,
   "weekly_full_history_debt_review_statement": "역사부채 주간 전수조사 미실시",
   "execution_duration_minutes": null,
-  "execution_duration_note": "시계로 1시간 경과를 측정·증명하지 않음. 이용 가능한 조사·검증·커밋 작업을 수행. 기존 pass232에 이어 새 1952년 10~12월 문서군으로 전환.",
+  "execution_duration_note": "시계로 1시간 경과를 측정·증명하지 않음. 이용 가능한 조사·검증·커밋 작업을 수행. 기존 pass232에 이어 새 1952년 10~12월 문서군으로 전환. 원문에 직접 등장하지 않는 인물 4명의 사건 귀속 링크를 검토 후 제거; 같은 협상 연속 단계를 독립 연구선으로 중복계산하지 않도록 23개 세부주제를 14개 독립선으로 재집계.",
   "metrics": {
-    "independent_research_lines": 23,
+    "independent_research_lines": 14,
     "general_governance_domains_reinforced": 6,
-    "non_presidential_politician_nodes_deepened": 12,
-    "new_candidate_nodes": 4,
+    "non_presidential_politician_nodes_deepened": 8,
+    "new_candidate_nodes": 5,
     "new_or_enriched_event_actions": 12,
     "source_pages_directly_opened_substantive": 45,
     "primary_or_contemporary_original_origin": 45,
@@ -21,32 +21,24 @@
     "new_specific_leads": 44,
     "provenance_cross_checks_contextual": 2,
     "strict_three_independent_primary_families": 0,
-    "history_debts_resolved": 0
+    "history_debts_resolved": 0,
+    "non_presidential_candidate_catalog_or_context_only": 4
   },
   "independent_research_lines": [
-    "1952-10-17 한국 외무장관 UNCURK 보고서 대응과 유엔가입 요청",
-    "1952-10-17 조기 한미안보조약 요청과 미국의 비확약",
-    "1952-11-03 전시 수도 서울 복귀 논쟁과 대구 대안 발언",
-    "1952-11-03 미국 방위부처의 한국 공군 증강 논의",
-    "1952-11-05 한국 외무장관 UN 연설과 미국 평가",
-    "1952-11-07 미국의 1800만달러 원화대여 관련 지급 보고",
-    "1952-11-10 장면·조봉암 등 쿠데타 첩보와 동시대 반증",
-    "1952-11-10 UNKRA 7000만달러 재건계획과 집행권 갈등",
-    "1952-11-08 인도 Menon 포로송환 10개항",
-    "1952-11-12 영국 Lloyd 수정안과 미국의 반대",
-    "1952-11-13 미국 대통령 보고 및 결의 협상 권한",
-    "1952-11-14 인도 결의안 조항17과 두 번째 선택권",
-    "1952-11-15 국무부·합참 합동 협의",
-    "1952-11-16 영국·캐나다·미국 고위 회의",
-    "1952-11-17 21개 공동제안국 내 입장차",
-    "1952-11-18 미 국방장관·합참 포로문제 조건",
-    "1952-11-19 8개국 소위 포로석방 기한",
-    "1952-12-03 UN 결의 610(VII) 채택",
-    "1952-10-01 한국 관료 정전·대일외교 반응 미국 연구 발췌",
-    "1952-10~11 한국의 유엔 비회원국 관찰대표 지위",
-    "1952-11 중국·인도 외교 접촉의 영국 경유 전달",
-    "1952-11 미군정책 인플레이션·외환 안정화",
-    "1952-11 UNKRA 사업과 미군 협력기관 조정"
+    "1952-10-17 UNCURK 정치파동 보고와 한국정부 반론권",
+    "1952-10-17 대한민국 UN 가입 요청과 안보리 거부권",
+    "1952-10-17 한미 안보조약 조기 체결 요구와 미국 답변",
+    "1952-11-03 수도 서울 복귀 및 미국 국방부 검토",
+    "1952-11-03 한국 공군 증강과 군사통신 조정",
+    "1952-11-05 변영태 유엔연설과 미 외교평가",
+    "1952-11-07 미국 1800만달러 원화대여 관련 지급",
+    "1952-11-10 국내 쿠데타 첩보 및 미대사관 반증",
+    "1952-11-10 UNKRA 7000만달러 재건계획 집행권",
+    "1952-11 인도 Menon 포로송환 중재안의 법적·인도적 쟁점",
+    "1952-11 영국·캐나다·미국 간 포로송환 결의 외교협상",
+    "1952-11 중국·인도 외교접촉 정보의 전언 계통",
+    "1952-12-03 유엔 결의 610 채택과 실제 집행 구분",
+    "1952-11 미국 Truman-Eisenhower 행정부 이양과 한국정책 연속성"
   ],
   "source_counts_by_family": {
     "US_FRUS_edited_originals": 43,
@@ -224,5 +216,18 @@
     "data/research/leads/pass-233-20261028-next-lead-queue.json",
     "data/annals/1952-oct-nov-un-diplomacy-reconstruction.md"
   ],
-  "floot_touched": false
+  "floot_touched": false,
+  "correction_history": [
+    {
+      "date": "2026-10-28",
+      "type": "self_audit",
+      "changes": [
+        "7 CONTRADICTED claim evidence edges 방향 정정",
+        "4 actor-event unsupported edges 삭제",
+        "independent research lines 23→14 중복제거",
+        "FRUS 직접 심화 비대통령 12→8로 보수적 재계산",
+        "new canonical candidate count 4→5"
+      ]
+    }
+  ]
 }
