@@ -132,3 +132,9 @@
 - 1954 UN 내각명단 이중재·강성태 실명확인(1955 3월 연속재임 잠정), 최규옥·조용순·이선근·백한성·이광 신규 후보. data/politicians/pass-239k-1955-actors.json.
 - 곽상훈 VERIFIED 독립 원장: data/evidence/kwak-sang-hun.json, data/annals/kwak-sang-hun.md. 손원일 ANNALS_ACTIVE 유지.
 - 총 문서 객체 73개 모두 직접 열람, 원문/공식1차 65개, 비대통령 20명 보강, 사건 28개, 명제 21개, 새 lead 50개, 기존 14개 추적. FRUS 63개는 하나의 미국 편찬계열.
+
+## Pass239L · 1955~1956 NNSC·선거·정당 독립 인물 확장 (2026-10-29)
+- `data/politicians/pass-239l-1956-actors.json`: 17명 actor overlay, 신규 candidate 5명(인태식·김현철·이익흥·박기출·P.W. Han). 한자·생몰·임명일 미확인. P.W. Han과 한표욱 **자동병합 금지**.
+- 조봉암·장면 `ANNALS_ACTIVE` 독립 실록: `data/annals/cho-bong-am.md`, `data/evidence/cho-bong-am.json`, `data/annals/chang-myon.md`, `data/evidence/chang-myon.json`. 신익희 기존 실록에 1956 선거·사망 후속 추가.
+- 1956 선거 득표율 분모, FRUS 원작성 55건, UNGA 결의 910(X), 진보당 강령을 문서/사건/주장 그래프로 연결. FRUS 편집자 주석 d105·116·146·159는 원작성 문서 계수에서 제외.
+- `data/research/leads/pass-239l-next-queue.json`: 구체 원문 표적 45개, 기존 lead 11개 추적. 주간 전수조사 미실시.

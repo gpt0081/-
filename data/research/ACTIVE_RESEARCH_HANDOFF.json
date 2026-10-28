@@ -4,11 +4,11 @@
   "activeBranch": "main",
   "branchHead": "moving-ref:refs/heads/main",
   "baseMain": "0bae0fd2c2ce592e6699095fbe4593d07e9b778e",
-  "status": "PASS239K_1954_UN_ORIGINAL_1955_GOVERNANCE",
-  "summary": "73 directly opened meaningful sources: 63 FRUS US originals, 1 UN A/2711 original, 1 ROK law, 8 Korean later institutional documents; 28 events, 21 adversarial claims, 20 nonpresident actor overlays, 10 new candidates, Sohn ANNALS_ACTIVE and Kwak VERIFIED; 50 leads, 14 prior tracked",
-  "nextAction": "First read pass-239k-summary and 50-lead queue. UN A/2711 now opened: 9 Aug 1954 5-1 administrative transfer recommendation, 12 Aug UNC readiness notification, not actual handover. Obtain ROK/UNC signed handover, 1954 post-election party membership shifts, 1955 cabinet gazettes and BOK auctions.",
+  "status": "PASS239L_1955_1956_NNSC_ELECTION_PARTY",
+  "summary": "1955-56 FRUS 55 originals plus UNGA, NEC and NIKH, 22 events, 14 adversarial claims, 17 actor overlays, 5 new candidate IDs, Cho Bong-am and Chang Myon independent annals, 45 new leads; UN A/2947 original HTTP403.",
+  "nextAction": "1956 NEC original returns; 1956 cabinet Gazette; 1956 June MAC minutes; UN A/2947 alternative original; 1955 Dec Rhee-Zablocki telegrams.",
   "mainDataModified": true,
-  "latestRun": "pass-239K",
+  "latestRun": "data/research/runs/pass-239l-execution-ledger.json",
   "latestCorrections": [
     {
       "run": 93,
@@ -65,7 +65,7 @@
     "latestRun": 97
   },
   "mainRef": "refs/heads/main",
-  "latestVerifiedMainCommit": "4c88281bc10bfd930fc34da7b0985b8009e32c27",
+  "latestVerifiedMainCommit": "736d383d3f6fb257c0a3d81c68eac9e70d0630cd",
   "pass231Files": {
     "documents": "data/documents/pass-231-1952-june-july-diplomacy-election.json",
     "events": "data/events/pass-231-1952-constitutional-election-pow.json",
@@ -376,7 +376,7 @@
     "duplicate_central_event_ids": 0,
     "method": "Fetched live GitHub JSON and checked all pass239/pass239B/pass239C event-document-actor and claim-document references; fixed 1 wrong source prefix in pass239B fiscal-year claim."
   },
-  "lastKnownCommit": "4c88281bc10bfd930fc34da7b0985b8009e32c27",
+  "lastKnownCommit": "736d383d3f6fb257c0a3d81c68eac9e70d0630cd",
   "latestResearchPass239D": {
     "date": "2026-10-28",
     "first_commit": "212165b012b8e6cae922ba7c3fdb9896ab2b6482",
@@ -420,8 +420,8 @@
     ],
     "newPolitician": "pol-cho-chung-whan"
   },
-  "latestResearchLedger": "data/research/runs/pass-239k-execution-ledger.json",
-  "latestLeadQueue": "data/research/leads/pass-239k-next-queue.json",
+  "latestResearchLedger": "data/research/runs/pass-239l-execution-ledger.json",
+  "latestLeadQueue": "data/research/leads/pass-239l-next-queue.json",
   "latestEvidenceSync": [
     "data/evidence/rhee-syngman.json",
     "data/evidence/sohn-won-yil.json",
@@ -429,7 +429,7 @@
     "data/evidence/kwak-sang-hun.json"
   ],
   "latestPromotions": [
-    "pol-sohn-won-yil ANNALS_ACTIVE",
-    "cand-p235-kwak-sang-hun VERIFIED"
+    "pol-cho-bong-am",
+    "cand-1952-nov-chang-myon"
   ]
 }

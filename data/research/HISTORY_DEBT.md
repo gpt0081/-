@@ -886,3 +886,25 @@
 - **HD-P239K-INDEPENDENT-GROUP · OPEN**: 1954 Aug Independent Comrades Association 31 members under Kwak vs Nov Hoheon organization identity. 다음 원문: 1954 Aug and Nov Assembly negotiating-group registration original.
 - 기존 LEAD-P239J-33은 UN 원문 확보로 OPEN→NARROWED. LEAD-P239J-34/35/39도 개별 추적. 실제 인계·당적변동·1955 인사연속성은 미해결.
 - 역사부채 주간 전수조사 미실시. last_full_review 불변.
+
+
+## 2026-10-29 pass239L · 1955~1956 개별 역사부채 추적 (주간 전수조사 아님)
+- **LEAD-P239K2-01 · OPEN**: 1956-03 FRUS d127 confirms Cho as acting minister; 1955-08 personnel gazette still missing. 다음 원문: 1955-08-01 Foreign Ministry Gazette resignation and acting appointment.
+- **LEAD-P239K2-02 · OPEN**: FRUS d106/d108 shows later Rhee NNIT protest moratorium, not original Cho 1955 ultimatum. 다음 원문: 1955-08-06 Foreign Ministry ultimatum signed original.
+- **LEAD-P239K2-04 · OPEN**: FRUS d102 succession risk and d146 later Speaker role do not verify 1955 military delegation allegation. 다음 원문: 1955-07-24 ROK military decision records and Yi Ki-pung correspondence.
+- **LEAD-P239K2-07 · OPEN**: FRUS d127 1956 March Paek $2.4bn plan does not prove 1955 Oct rate aid memo. 다음 원문: 1955-10-08 Korean Economic Coordination Office original letter.
+- **LEAD-P239K2-09 · NARROWED**: FRUS d141 names P.W. Han as ROK minister May 1956, but 1955 Minister Han identity not yet confirmed. 다음 원문: 1955-09-26 and 1956-05-04 ROK delegation personnel lists.
+- **LEAD-P239K2-10 · OPEN**: FRUS d117 and d155 contain US aid-cost estimates, not ROK 50bn-hwan deficit ledger. 다음 원문: 1955-10-08 ROK Ministry of Finance budget worksheet.
+- **LEAD-P239K2-11 · NARROWED**: FRUS d103 says force reduction out of question in Dec 1955; d155 June 1956 lists reduction as option, not execution. 다음 원문: 1955-10-24 JCS proposal and 1956 ROK military division strength roster.
+- **LEAD-P239K2-12 · NARROWED**: FRUS editorial d146 lists post-May 1956 military reshuffle; not 1955 Nov authorization. 다음 원문: 1955 Nov and 1956 May ROK Defense Ministry appointment orders.
+- **LEAD-P239K2-18 · NARROWED**: FRUS d141 confirms 1955 5-to-3 teams; d158 confirms southern teams removed by 1956-06-26; exact day open. 다음 원문: 1955 Aug reduction instrument and 1956 June UNC movement orders.
+- **LEAD-P239K2-19 · NARROWED**: FRUS d102 US succession contingency, d117 NSC 276; not evidence of implemented regime-change plan. 다음 원문: NSC 1290-d and 1956 Feb NIE original annexes.
+- **LEAD-P239K2-20 · BLOCKED**: A/2947 original PDF direct open returned HTTP403; UNGA 910(X) confirms report dated 1955-09-07 but not its contents. 다음 원문: UN Depository A/2947 print scan or accessible alternate original.
+- **HD-P239L-NNSC-MORATORIUM · NARROWED**: FRUS d106/d108의 1955-12-08 이승만 'do my best' 시위중단 약속과 d113의 확정적 3개월 보장 부재를 병기. 12/7 면담·시위단체 원문 미확보.
+- **HD-P239L-ALLIED-CONSENT · CONFLICTED**: FRUS d149 1956-05-25 16개국 철수 절차 합의와 d154 1956-06-08 영국 집행절차 항의, d156 미 법률고문 비판을 함께 보존. 영국 외교부 원서한·MAC 회의록 필요.
+- **HD-P239L-1956-ELECTION-DENOMINATOR · NARROWED**: 국편 후대 선거집계 이승만 5,046,437/9,067,063=55.6568% 전체 투표, 5,046,437/7,210,245=69.9898% 유효표. FRUS d146 편집자 55.6%는 분모 미기재·한자리 표기. 원개표표 미확보.
+- **HD-P239L-1956-APPOINTMENTS · OPEN**: FRUS d146 편집자 주석의 김용우·인태식·김현철·이익흥·이형근·정일권 인사 및 이기붕 의장직은 한국 관보·군 인사사령 원문으로 날짜·권한 확인 전 잠정 연결.
+- **HD-P239L-PW-HAN-IDENTITY · OPEN**: 1956-05-04 FRUS d141의 P.W. Han을 1955 Minister Han 또는 기존 한표욱과 동일인으로 자동병합하지 않고 독립 candidate `cand-p239l-pw-han-1956`으로 보존. 원대표단 명부 대기.
+- **HD-P239L-UNCURK-A2947 · BLOCKED**: UN A/2947 PDF 위치와 UNGA 결의 910(X)의 1955-09-07 보고서 인용은 확인. PDF 직접 열기는 HTTP403. 본문 읽은 것으로 계수하지 않음. UN Depository 대체 스캔 확보 필요.
+- **출처 감사**: FRUS 55개 원작성은 미국 정부 단일 provenance family. NEC·NIKH 선거자료는 독립 기관의 후대 자료이고 FRUS d146은 편집자 주석이므로 독립 1차자료 3계열 교차확증으로 계수하지 않는다.
+- **역사부채 주간 전수조사 미실시**. 기존 `last_full_review: 2026-09-27` 유지.
