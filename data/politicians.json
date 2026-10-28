@@ -3171,19 +3171,26 @@
       },
       "roles": [
         "국방·징계자격위원장 후보",
-        "1953-01-29 전원위원장 당선 보도"
+        "1953-01-29 전원위원장 당선 보도",
+        "1954-06-09 National Assembly vice-chair per UN original",
+        "1954-08 Independent Comrades Association leader 31 members per UN",
+        "1955 Democratic Party executive per AKS"
       ],
-      "researchStatus": "candidate-identified",
+      "researchStatus": "VERIFIED",
       "backbone": false,
       "connections": [
         "evt-p235-assembly-caucus",
-        "evt-p235e-assembly-election-results"
+        "evt-p235e-assembly-election-results",
+        "evt-p239k-22",
+        "evt-p239k-27"
       ],
-      "evidenceCoverage": [
-        "DOC-P235-NIKH-01_20_0040",
-        "DOC-P235E-NIKH-02_01_0020",
-        "DOC-P239-NIKH-05_26_0070"
-      ],
+      "evidenceCoverage": {
+        "documentIds": [
+          "DOC-P239K-UN-A2711",
+          "DOC-P239K-AKS-KWAK"
+        ],
+        "source": "UN original and AKS later biographical synthesis"
+      },
       "researchRefs": [
         "data/politicians/pass-235-1953-assembly-cabinet-actors.json",
         "data/politicians/pass-235-addendum-e-committee-chairs.json",
@@ -3195,6 +3202,17 @@
       ],
       "historyDebt": [
         "HD-P235-ASSEMBLY-RESULT"
+      ],
+      "evidenceFile": "data/evidence/kwak-sang-hun.json",
+      "annalsFile": "data/annals/kwak-sang-hun.md",
+      "promotionReason": "1954 UN original cabinet/parliament annex + 1955 AKS independent biography; Korean Assembly minutes remain open",
+      "promotionHistory": [
+        {
+          "date": "2026-10-29",
+          "from": "candidate-identified",
+          "to": "VERIFIED",
+          "reason": "1954 UN original cabinet/parliament annex + 1955 AKS independent biography; Korean Assembly minutes remain open"
+        }
       ]
     },
     {
@@ -5538,9 +5556,11 @@
     },
     {
       "id": "cand-p239k-kang-commerce",
-      "name": "강(성명미확정) 상공부장관",
+      "name": "강성태 (Kang Sung-Tae, 1955 연속성 잠정)",
       "aliases": [
-        "Kang"
+        "Kang",
+        "강성태",
+        "Kang Sung-Tae"
       ],
       "lifespan": {
         "born": null,
@@ -5548,31 +5568,44 @@
         "verification": "not reverified"
       },
       "roles": [
-        "1955 3월 상공부장관 성만 확인"
+        "1955 3월 상공부장관 성만 확인",
+        "Minister of Commerce and Industry appointed, UNCURK A/2711 Annex II"
       ],
-      "researchStatus": "DISCOVERED",
+      "researchStatus": "IDENTIFIED",
       "backbone": false,
       "connections": [
-        "evt-p239k-09"
+        "evt-p239k-09",
+        "evt-p239k-24"
       ],
       "evidenceCoverage": {
         "documentIds": [
-          "DOC-P239K-FRUS-28"
+          "DOC-P239K-FRUS-28",
+          "DOC-P239K-UN-A2711"
         ],
-        "source": "US FRUS originals and AKS only for Lee Hu-rak"
+        "source": "1954 UN original cabinet roster + 1955 US FRUS surname, continuity pending"
       },
       "openLeads": [
         "LEAD-P239K-09"
       ],
       "historyDebt": [],
       "researchOverlay": "data/politicians/pass-239k-1955-actors.json",
-      "identityCaveat": "No automatic merge; verify Korean roster and appointment"
+      "identityCaveat": "1954 UN full name and 1955 US surname matched by office, but 1955 continuous appointment original still pending",
+      "correctionHistory": [
+        {
+          "date": "2026-10-29",
+          "reason": "UN A/2711 Annex II newly opened; full 1954 cabinet name added without silently treating 1955 continuity as proven",
+          "previous": "surname-only candidate",
+          "new": "강성태 (Kang Sung-Tae, 1955 연속성 잠정)"
+        }
+      ]
     },
     {
       "id": "cand-p239k-lee-finance",
-      "name": "이(성명미확정) 재무부장관",
+      "name": "이중재 (Lee Joong-Jai, 1955 연속성 잠정)",
       "aliases": [
-        "Lee"
+        "Lee",
+        "이중재",
+        "Lee Joong-Jai"
       ],
       "lifespan": {
         "born": null,
@@ -5580,25 +5613,36 @@
         "verification": "not reverified"
       },
       "roles": [
-        "1955 3월 재무부장관 성만 확인"
+        "1955 3월 재무부장관 성만 확인",
+        "Minister of Finance appointed, UNCURK A/2711 Annex II"
       ],
-      "researchStatus": "DISCOVERED",
+      "researchStatus": "IDENTIFIED",
       "backbone": false,
       "connections": [
-        "evt-p239k-09"
+        "evt-p239k-09",
+        "evt-p239k-23"
       ],
       "evidenceCoverage": {
         "documentIds": [
-          "DOC-P239K-FRUS-28"
+          "DOC-P239K-FRUS-28",
+          "DOC-P239K-UN-A2711"
         ],
-        "source": "US FRUS originals and AKS only for Lee Hu-rak"
+        "source": "1954 UN original cabinet roster + 1955 US FRUS surname, continuity pending"
       },
       "openLeads": [
         "LEAD-P239K-10"
       ],
       "historyDebt": [],
       "researchOverlay": "data/politicians/pass-239k-1955-actors.json",
-      "identityCaveat": "No automatic merge; verify Korean roster and appointment"
+      "identityCaveat": "1954 UN full name and 1955 US surname matched by office, 1955 appointment continuity not independently verified",
+      "correctionHistory": [
+        {
+          "date": "2026-10-29",
+          "reason": "UN A/2711 Annex II newly opened; full 1954 cabinet name added without silently treating 1955 continuity as proven",
+          "previous": "surname-only candidate",
+          "new": "이중재 (Lee Joong-Jai, 1955 연속성 잠정)"
+        }
+      ]
     },
     {
       "id": "cand-p239k-minister-han",
@@ -5631,6 +5675,166 @@
       "historyDebt": [],
       "researchOverlay": "data/politicians/pass-239k-1955-actors.json",
       "identityCaveat": "No automatic merge; verify Korean roster and appointment"
+    },
+    {
+      "id": "cand-p239k-choi-kyoo-ok",
+      "name": "최규옥 (Choi Kyoo-Ok, 잠정)",
+      "aliases": [
+        "Choi Kyoo-Ok"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "UN 1954 roster only; Korean hanja and lifespan unknown"
+      },
+      "roles": [
+        "농림부장관 1954-06-30"
+      ],
+      "researchStatus": "IDENTIFIED",
+      "backbone": false,
+      "connections": [
+        "evt-p239k-28"
+      ],
+      "evidenceCoverage": {
+        "documentIds": [
+          "DOC-P239K-UN-A2711"
+        ],
+        "source": "UNCURK 1954 original cabinet roster"
+      },
+      "openLeads": [
+        "LEAD-P239K-41"
+      ],
+      "historyDebt": [],
+      "researchOverlay": "data/politicians/pass-239k-1955-actors.json",
+      "identityCaveat": "Korean official gazette needed before full promotion"
+    },
+    {
+      "id": "cand-p239k-cho-yong-soon",
+      "name": "조용순 (Cho Yong-Soon, 잠정)",
+      "aliases": [
+        "Cho Yong-Soon"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "UN 1954 roster only; Korean hanja and lifespan unknown"
+      },
+      "roles": [
+        "법무부장관 1954-06-30"
+      ],
+      "researchStatus": "IDENTIFIED",
+      "backbone": false,
+      "connections": [
+        "evt-p239k-28"
+      ],
+      "evidenceCoverage": {
+        "documentIds": [
+          "DOC-P239K-UN-A2711"
+        ],
+        "source": "UNCURK 1954 original cabinet roster"
+      },
+      "openLeads": [
+        "LEAD-P239K-41"
+      ],
+      "historyDebt": [],
+      "researchOverlay": "data/politicians/pass-239k-1955-actors.json",
+      "identityCaveat": "Korean official gazette needed before full promotion"
+    },
+    {
+      "id": "cand-p239k-lee-sun-kun",
+      "name": "이선근 (Lee Sun-Kun, 잠정)",
+      "aliases": [
+        "Lee Sun-Kun"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "UN 1954 roster only; Korean hanja and lifespan unknown"
+      },
+      "roles": [
+        "문교부장관 1954-04-21"
+      ],
+      "researchStatus": "IDENTIFIED",
+      "backbone": false,
+      "connections": [
+        "evt-p239k-27"
+      ],
+      "evidenceCoverage": {
+        "documentIds": [
+          "DOC-P239K-UN-A2711"
+        ],
+        "source": "UNCURK 1954 original cabinet roster"
+      },
+      "openLeads": [
+        "LEAD-P239K-41"
+      ],
+      "historyDebt": [],
+      "researchOverlay": "data/politicians/pass-239k-1955-actors.json",
+      "identityCaveat": "Korean official gazette needed before full promotion"
+    },
+    {
+      "id": "cand-p239k-paik-han-sung",
+      "name": "백한성 (Paik Han-Sung, 잠정)",
+      "aliases": [
+        "Paik Han-Sung"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "UN 1954 roster only; Korean hanja and lifespan unknown"
+      },
+      "roles": [
+        "내무부장관 1953-09-19"
+      ],
+      "researchStatus": "IDENTIFIED",
+      "backbone": false,
+      "connections": [
+        "evt-p239k-27"
+      ],
+      "evidenceCoverage": {
+        "documentIds": [
+          "DOC-P239K-UN-A2711"
+        ],
+        "source": "UNCURK 1954 original cabinet roster"
+      },
+      "openLeads": [
+        "LEAD-P239K-41"
+      ],
+      "historyDebt": [],
+      "researchOverlay": "data/politicians/pass-239k-1955-actors.json",
+      "identityCaveat": "Korean official gazette needed before full promotion"
+    },
+    {
+      "id": "cand-p239k-lee-kwang",
+      "name": "이광 (Lee Kwang, 잠정)",
+      "aliases": [
+        "Lee Kwang"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "UN 1954 roster only; Korean hanja and lifespan unknown"
+      },
+      "roles": [
+        "체신부장관 1954-06-30"
+      ],
+      "researchStatus": "IDENTIFIED",
+      "backbone": false,
+      "connections": [
+        "evt-p239k-27"
+      ],
+      "evidenceCoverage": {
+        "documentIds": [
+          "DOC-P239K-UN-A2711"
+        ],
+        "source": "UNCURK 1954 original cabinet roster"
+      },
+      "openLeads": [
+        "LEAD-P239K-41"
+      ],
+      "historyDebt": [],
+      "researchOverlay": "data/politicians/pass-239k-1955-actors.json",
+      "identityCaveat": "Korean official gazette needed before full promotion"
     }
   ],
   "recentResearchPass232": {
@@ -5738,6 +5942,20 @@
       "cand-p239k-lee-finance",
       "cand-p239k-minister-han"
     ],
-    "promotion": "pol-sohn-won-yil"
+    "promotion": "pol-sohn-won-yil",
+    "additionalNewCandidates": [
+      "cand-p239k-choi-kyoo-ok",
+      "cand-p239k-cho-yong-soon",
+      "cand-p239k-lee-sun-kun",
+      "cand-p239k-paik-han-sung",
+      "cand-p239k-lee-kwang"
+    ],
+    "identityNarrowed": [
+      "cand-p239k-kang-commerce",
+      "cand-p239k-lee-finance"
+    ],
+    "verificationPromotion": "cand-p235-kwak-sang-hun",
+    "UNsource": "DOC-P239K-UN-A2711",
+    "primaryProvenance": "US FRUS + UN original + ROK law original; no three-way original on one event"
   }
 }

@@ -498,6 +498,12 @@
       "publisher": "US State Department FRUS d55",
       "url": "https://history.state.gov/historicaldocuments/frus1955-57v23p2/d55",
       "grade": "B; US summary of unavailable Korean originals"
+    },
+    "S1954-P239K-UN-A2711": {
+      "title": "1954 UNCURK report A/2711 9 Aug recommendation, 12 Aug UNC notification",
+      "publisher": "United Nations original report",
+      "url": "https://digitallibrary.un.org/record/712124/files/A_2711-EN.pdf",
+      "grade": "A; UN original PDF extracted text, OCR may affect exact line formatting"
     }
   },
   "chronology": [
@@ -1407,6 +1413,22 @@
         "S1955-P239K-ENVOYS"
       ],
       "confidence": "reported_not_original"
+    },
+    {
+      "id": "rhee-p239k-1954-08-12-uncurknorth",
+      "date": "1954-08-12",
+      "phase": "전후 국정운영",
+      "kind": "UN-civil-administration",
+      "topic": [
+        "지방행정",
+        "외교",
+        "헌정"
+      ],
+      "summary": "UNCURK 8/9 5대1 민정이양 권고 후 UNC 사령관이 8/12 이승만에게 이양 준비를 통지. 실제 인계완료·영토 최종 귀속과 구분.",
+      "sourceIds": [
+        "S1954-P239K-UN-A2711"
+      ],
+      "confidence": "UN_original_recommendation_and_notification_only"
     }
   ],
   "comparisonCandidates": [
@@ -1812,6 +1834,9 @@
     "relatedActorEvidence": [
       "data/evidence/sohn-won-yil.json",
       "data/evidence/lee-hu-rak.json"
-    ]
+    ],
+    "UNoriginal": "S1954-P239K-UN-A2711",
+    "newChronology": "rhee-p239k-1954-08-12-uncurknorth",
+    "uncertainty": "Recommendation and preparedness notification are not handover completion"
   }
 }
