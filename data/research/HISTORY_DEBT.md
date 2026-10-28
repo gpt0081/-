@@ -866,3 +866,14 @@
 - **HD-P239I-RATIFICATION-DATE 재검토 · CONFLICTED 유지**: 기존 부채의 한국 11/18 기록은 이번에 법제처 조약 제34호 원문으로 직접 보강. UNTS 11/17 기록도 공식 유지. silent overwrite하지 않는다.
 - **HD-P239I-CHO-APPOINTMENT 재검토 · NARROWED 유지**: 1954-09-01 FRUS d934에서 외무차관 조정환 확인. 1953 장관대리·1955 장관서리/정식 임명원부 여전히 미확보.
 - **주간 전수조사:** 목요일 개별 10개 기존 lead만 추적. **역사부채 주간 전수조사 미실시**. `last_full_review` 값 불변.
+
+
+## 2026-10-29 pass239K · 1955년 상반기 개별 역사부채
+- **HD-P239K-NSC-EXECUTION · OPEN**: 1955-02-18 미국 NSC 조건부 교체 정책 승인과 실제 집행 여부. 다음: Eisenhower Library NSC implementation and Korean-side contemporaneous files.
+- **HD-P239K-AUCTION · OPEN**: 1955-02-28 106.8만달러 평균485환 낙찰 한국은행 원장. 다음: Bank of Korea Feb28 auction original.
+- **HD-P239K-FERTILIZER · OPEN**: 제2비료공장 2천만달러 제안 실제 계약·준공 여부. 다음: FOA Congressional approval and procurement.
+- **HD-P239K-RESERVE · NARROWED**: 예비사단 8/10 활성화와 장비완비 차이. 다음: ROK Army June 1955 orders.
+- **HD-P239K-CABINET · OPEN**: 1955 Kang/Lee/Yuh/Han 정식 신원·임명. 다음: ROK March cabinet gazette and June delegation roster.
+- **HD-P239K-HOHEON-DATE · CONFLICTED**: AKS 호헌동지회 1954/1955 설립일 내부 불일치. 다음: National Assembly Nov29-30 1954 original.
+- 기존 pass239J 11개 lead 개별 추적: LEAD-P239J-14, LEAD-P239J-15, LEAD-P239J-19, LEAD-P239J-20, LEAD-P239J-21, LEAD-P239J-26, LEAD-P239J-27, LEAD-P239J-28, LEAD-P239J-33, LEAD-P239J-40, LEAD-P239J-46. RESOLVED 강제변경 없음.
+- **역사부채 주간 전수조사 미실시**. last_full_review 불변.
