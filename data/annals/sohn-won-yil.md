@@ -7,3 +7,8 @@ FRUS d28: https://history.state.gov/historicaldocuments/frus1955-57v23p2/d28
 FRUS d60: https://history.state.gov/historicaldocuments/frus1955-57v23p2/d60
 
 OPEN: 장관 임명관보, 한국측 1955-06-21 회의록, 군사원조 인수대장. 미측 요청·협의와 실제 지급 분리.
+
+
+## UN 1954 내각 명단 원문 보강
+- UNCURK A/2711 부록 II는 손원일 국방부장관 임명일을 **1953-06-30**으로 기록한다. 한국 임명관보 원본은 별도 확인 대상.
+- 원문: https://digitallibrary.un.org/record/712124/files/A_2711-EN.pdf

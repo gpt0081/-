@@ -124,3 +124,11 @@
 - 손원일 ANNALS_ACTIVE 승격: data/annals/sohn-won-yil.md, data/evidence/sohn-won-yil.json. 한국 공식 조약 제34호와 미국 FRUS 1955 회담 기록을 분리.
 - 이후락 후보 독립원장: data/annals/lee-hu-rak.md, data/evidence/lee-hu-rak.json.
 - 문서 71 객체(70개 직접 열람, UN A/2711 1개 미열람): data/documents/pass-239k-1955-first-half.json; 사건 20: data/events/pass-239k-1955-first-half.json; 주장 16: data/claims/pass-239k-1955-adversarial.json; 기관 4: data/organizations/pass-239k-1955-reconstruction.json.
+
+
+## 2026-10-29 pass239K · UNCURK A/2711 원문 교차검증
+- UN 1954 원문 A/2711: data/annals/1954-uncurk-assembly-election-administration.md. 1954-08-09 민정이양 권고 5:1, 08-12 UNC 이승만 준비 통지, 실제 인계 미확정.
+- 1954 총선 자유당 **당선 114**(선관위)와 1954년 8월 자유당 **원내 136**(UN)는 시점·모집단 차이. 무소속동지회 31명 지도자 곽상훈은 호헌동지회와 병합하지 않음.
+- 1954 UN 내각명단 이중재·강성태 실명확인(1955 3월 연속재임 잠정), 최규옥·조용순·이선근·백한성·이광 신규 후보. data/politicians/pass-239k-1955-actors.json.
+- 곽상훈 VERIFIED 독립 원장: data/evidence/kwak-sang-hun.json, data/annals/kwak-sang-hun.md. 손원일 ANNALS_ACTIVE 유지.
+- 총 문서 객체 73개 모두 직접 열람, 원문/공식1차 65개, 비대통령 20명 보강, 사건 28개, 명제 21개, 새 lead 50개, 기존 14개 추적. FRUS 63개는 하나의 미국 편찬계열.
