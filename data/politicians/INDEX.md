@@ -77,3 +77,5 @@
 - 2026-10-28 pass236E: 부산일보 1953-03-05·03-08 자유당 입당심사 원기사, 신태악·양우정 신규 후보, 장택상 심화; 대통령기록관 시행령783호 박술음 朴術音 확인; 신익희 1952-07-04 임시의장 직무 정정. `data/annals/1953-march-party-admission-dispute.md`.
 
 - 2026-10-28 pass236F: 국편 이승만서한철 1953-02~03 개별 서지 30건(원문이미지 미열람), 임병직·양유찬·변영태·백두진 원조·언론·군사·반대자 관련 발수신 네트워크: `data/documents/pass-236f-rhee-correspondence-catalog.json`, `data/events/pass-236f-correspondence-actions.json`, `data/annals/1953-rhee-correspondence-catalog-network.md`. 기존 부산일보·대통령기록관 문서 registry 중복 1건 제거.
+
+- 2026-10-28 pass236G: 이승만서한철 1953-03-18~04-02 서지 30건, 교육·원조·한미재단·언론·대일외교 actor graph: `data/documents/pass-236g-march-april-correspondence-catalog.json`, `data/events/pass-236g-correspondence-actions.json`, `data/annals/1953-late-march-april-correspondence.md`. 원문이미지 미열람, 전문 수에 불산입.
