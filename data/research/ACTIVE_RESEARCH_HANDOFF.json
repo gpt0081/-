@@ -4,11 +4,11 @@
   "activeBranch": "main",
   "branchHead": "moving-ref:refs/heads/main",
   "baseMain": "0bae0fd2c2ce592e6699095fbe4593d07e9b778e",
-  "status": "PASS239L_1955_1956_NNSC_ELECTION_PARTY",
-  "summary": "1955-56 FRUS 55 originals plus UNGA, NEC and NIKH, 22 events, 14 adversarial claims, 17 actor overlays, 5 new candidate IDs, Cho Bong-am and Chang Myon independent annals, 45 new leads; UN A/2947 original HTTP403.",
-  "nextAction": "1956 NEC original returns; 1956 cabinet Gazette; 1956 June MAC minutes; UN A/2947 alternative original; 1955 Dec Rhee-Zablocki telegrams.",
+  "status": "PASS239L2_UN_A2947_RECOVERED_1954_56_GOVERNANCE",
+  "summary": "UN original A/2947 27-page 115022-char OCR recovered after 403; 1954 Nov 15/17 civil transfer verified; 1955 Pyun date 7/30 UN vs 8/1 FRUS conflict; 1955 budget/industrial/agriculture/cabinet source; 1956 Park Gi-chul withdrew May7; 12 new candidate nodes and 28 new events.",
+  "nextAction": "Inspect UN A/2947 original page images; verify Pyun July30 versus FRUS Aug1 via ROK gazette; obtain Nov1954 actual civil handover originals, 1955 budget, 1956 NEC withdrawals and appointments.",
   "mainDataModified": true,
-  "latestRun": "data/research/runs/pass-239l-execution-ledger.json",
+  "latestRun": "data/research/runs/pass-239l2-execution-ledger.json",
   "latestCorrections": [
     {
       "run": 93,
@@ -65,7 +65,7 @@
     "latestRun": 97
   },
   "mainRef": "refs/heads/main",
-  "latestVerifiedMainCommit": "736d383d3f6fb257c0a3d81c68eac9e70d0630cd",
+  "latestVerifiedMainCommit": "5fcb6bfb77fba1bf0c005d232057375f5d505476",
   "pass231Files": {
     "documents": "data/documents/pass-231-1952-june-july-diplomacy-election.json",
     "events": "data/events/pass-231-1952-constitutional-election-pow.json",
@@ -376,7 +376,7 @@
     "duplicate_central_event_ids": 0,
     "method": "Fetched live GitHub JSON and checked all pass239/pass239B/pass239C event-document-actor and claim-document references; fixed 1 wrong source prefix in pass239B fiscal-year claim."
   },
-  "lastKnownCommit": "736d383d3f6fb257c0a3d81c68eac9e70d0630cd",
+  "lastKnownCommit": "5fcb6bfb77fba1bf0c005d232057375f5d505476",
   "latestResearchPass239D": {
     "date": "2026-10-28",
     "first_commit": "212165b012b8e6cae922ba7c3fdb9896ab2b6482",
@@ -420,8 +420,8 @@
     ],
     "newPolitician": "pol-cho-chung-whan"
   },
-  "latestResearchLedger": "data/research/runs/pass-239l-execution-ledger.json",
-  "latestLeadQueue": "data/research/leads/pass-239l-next-queue.json",
+  "latestResearchLedger": "data/research/runs/pass-239l2-execution-ledger.json",
+  "latestLeadQueue": "data/research/leads/pass-239l2-next-queue.json",
   "latestEvidenceSync": [
     "data/evidence/rhee-syngman.json",
     "data/evidence/sohn-won-yil.json",
@@ -429,7 +429,9 @@
     "data/evidence/kwak-sang-hun.json"
   ],
   "latestPromotions": [
-    "pol-cho-bong-am",
-    "cand-1952-nov-chang-myon"
+    "pol-cho-bong-am ANNALS_ACTIVE",
+    "cand-1952-nov-chang-myon ANNALS_ACTIVE",
+    "cand-p239l-kim-hyeon-cheol VERIFIED",
+    "cand-p239l-park-gi-chul IDENTIFIED"
   ]
 }

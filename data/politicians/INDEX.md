@@ -138,3 +138,10 @@
 - 조봉암·장면 `ANNALS_ACTIVE` 독립 실록: `data/annals/cho-bong-am.md`, `data/evidence/cho-bong-am.json`, `data/annals/chang-myon.md`, `data/evidence/chang-myon.json`. 신익희 기존 실록에 1956 선거·사망 후속 추가.
 - 1956 선거 득표율 분모, FRUS 원작성 55건, UNGA 결의 910(X), 진보당 강령을 문서/사건/주장 그래프로 연결. FRUS 편집자 주석 d105·116·146·159는 원작성 문서 계수에서 제외.
 - `data/research/leads/pass-239l-next-queue.json`: 구체 원문 표적 45개, 기존 lead 11개 추적. 주간 전수조사 미실시.
+
+## Pass239L2 · UN A/2947 원문·1955 내각·1956 선거 보강 (2026-10-29)
+- `data/documents/pass-239l2-1955-un-original-election-catalog.json`: UN A/2947 원문 PDF OCR 115,022자 직접 확인, 민주화운동기념사업회 선거 컬렉션·경향신문 사진목록 2개·서울기록원 주제해제. 사진 목록과 원사진 시각검증은 다름.
+- `data/politicians/pass-239l2-1955-cabinet-election-actors.json`: 1955 정부 각료 및 1956 선거 인물 22명, 그중 신규 candidate 12명. UN 공식 부록에 근거한 각료는 IDENTIFIED, 후대 선거등록 후보는 DISCOVERED로 보수적으로 관리. 김현철은 UN 1955 재무장관 임명 근거로 VERIFIED(생몰·한자 미검증).
+- `data/events/pass-239l2-1954-56-un-economic-cabinet-election.json`: 민정이양 실제 완료, 헌법개정, 정부조직법, 각료 인사, 예산·물가·산업·농정, 1956 후보등록·사퇴·취임 등 사건 28개.
+- `data/claims/pass-239l2-un-adversarial.json`: UN vs FRUS 변영태 사임 07-30/08-01 충돌, 1954 개헌 날짜 충돌, 1955 농림장관 불신임 여당 참여, 환율조정 전 인플레이션 등 반증명제 12개.
+- `data/research/leads/pass-239l2-next-queue.json`: 새 원문 표적 30개. A/2947 접근부채 RESOLVED, OCR 원PDF 이미지 대조 별도 OPEN. 주간 전수조사 미실시.
