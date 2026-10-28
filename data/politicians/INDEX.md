@@ -73,3 +73,5 @@
 - 2026-10-28 pass236C: 기존 evidence에 있던 한강교·국민방위군·거창사건 3개 event ID를 누락된 root event registry에 재연결: `data/events/pass-236-legacy-command-backfill.json`, `data/annals/1950-1951-command-event-backfill.md`. 새 사료 수로 계산하지 않음.
 
 - 2026-10-28 pass236D: 신익희 첫 독립 국회의장 실록 시험 승격 `ANNALS_ACTIVE`: `data/annals/shin-ik-hui.md`, `data/evidence/shin-ik-hui.json`. 기존 candidate ID 보존, 생몰·당적·표결 미확인. 구 evidenceCoverage 단문자 migration 오류 2건 교정.
+
+- 2026-10-28 pass236E: 부산일보 1953-03-05·03-08 자유당 입당심사 원기사, 신태악·양우정 신규 후보, 장택상 심화; 대통령기록관 시행령783호 박술음 朴術音 확인; 신익희 1952-07-04 임시의장 직무 정정. `data/annals/1953-march-party-admission-dispute.md`.

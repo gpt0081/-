@@ -45,7 +45,8 @@
         "evt-p236-1953-04-06-rok-armistice-risk",
         "evt-1951-national-defense-corps",
         "evt-1951-geochang",
-        "evt-1950-han-river-bridge"
+        "evt-1950-han-river-bridge",
+        "evt-p236e-1953-03-03-party-admission-vote"
       ],
       "researchRefs": [
         "data/politicians/pass-233-1952-rok-diplomacy-network.json",
@@ -560,7 +561,8 @@
         "evt-p235f-fiscal-disbursement-freeze",
         "evt-p235i-cabinet-resignation-rejected",
         "evt-p236-labor-1953-04-20-commission-decree",
-        "evt-p236-1953-03-07-rhee-relocation"
+        "evt-p236-1953-03-07-rhee-relocation",
+        "evt-p236-labor-1953-04-20-dispute-decree"
       ],
       "researchNotes": "1\n9\n5\n2\n~\n5\n3\n \n재\n정\n·\n원\n조\n·\n휴\n전\n외\n교\n \n교\n차\n \n행\n위\n자\n.\n \n1\n9\n5\n3\n-\n0\n8\n-\n0\n6\n \n경\n제\n·\n군\n사\n원\n조\n \n회\n의\n에\n서\n \n통\n합\n \n경\n제\n기\n구\n를\n \n통\n한\n \n원\n조\n \n프\n로\n그\n램\n \nM\nO\nU\n의\n \n미\n국\n \n최\n종\n승\n인\n을\n \n직\n접\n \n요\n청\n한\n \n기\n록\n과\n \n덜\n레\n스\n \n회\n담\n \n참\n여\n가\n \n확\n인\n되\n어\n \nV\nE\nR\nI\nF\nI\nE\nD\n로\n \n승\n격\n.\n \nC\nE\nB\n/\n환\n율\n/\n재\n건\n원\n조\n \n한\n국\n측\n \n문\n서\n \n확\n보\n \n후\n \nA\nN\nN\nA\nL\nS\n_\nA\nC\nT\nI\nV\nE\n \n검\n토\n.\n2026-10-28 pass233 정정: 직접 출처 없이 연결된 event edge 제거, 인물 candidate 연구 단서는 보존\npass234B: 1952-12-12 부흥부 신설 구상·유엔 원화대여금 4580억원 주장·11/13 현금교환 요청 공한, 12/15 450만석 양곡수입 합의 주장",
       "pass232Overlay": "data/politicians/pass-232-1952-september-actors.json",
@@ -581,7 +583,8 @@
         "DOC-P235F-NIKH-02_07_0060",
         "DOC-P235I-NIKH-03_01_0040",
         "DOC-P236-PA-LABOR-774",
-        "DOC-P236-FRUS-416"
+        "DOC-P236-FRUS-416",
+        "DOC-P236E-PA-LABOR-773"
       ]
     },
     {
@@ -1296,6 +1299,23 @@
             "DOC-P236-PA-LABOR-765"
           ]
         }
+      ],
+      "rolesByPeriod": [
+        {
+          "date": "1952-07-04",
+          "office": "국회 임시의장",
+          "actionType": "presided_and_proclaimed_amendment_vote",
+          "evidence": "DOC-P231-KOR-0704"
+        }
+      ],
+      "correctionHistory": [
+        {
+          "date": "2026-10-28",
+          "field": "1952-07-04 presiding capacity",
+          "before": "국회의장으로 포괄 기재",
+          "after": "동아일보 1952-07-05 원문은 '申翼熙 임시의장'이라고 명시",
+          "source": "https://db.history.go.kr/id/dh_026_1952_07_04_0030"
+        }
       ]
     },
     {
@@ -1626,7 +1646,9 @@
       "connections": [
         "evt-p232-0919-opposition-talks",
         "evt-p232-0917-party-sketches",
-        "evt-p235i-chang-party-dispute"
+        "evt-p235i-chang-party-dispute",
+        "evt-p236e-1953-03-03-party-admission-vote",
+        "evt-p236e-1953-03-08-party-hearing-delayed"
       ],
       "evidenceFile": "data/politicians/pass-232-1952-september-actors.json",
       "openLeadsFile": "data/research/leads/pass-232-20261028-next-lead-queue.json",
@@ -1641,13 +1663,16 @@
       "researchRefs": [
         "data/politicians/pass-233-1952-rok-diplomacy-network.json",
         "data/annals/1953-march-financial-law-cabinet-party.md",
-        "data/politicians/pass-236-frus-diplomacy-actors.json"
+        "data/politicians/pass-236-frus-diplomacy-actors.json",
+        "data/politicians/pass-236e-party-actors.json"
       ],
       "researchNotes": [
         "2026-10-28 pass233 정정: 직접 출처 없이 연결된 event edge 제거, 인물 candidate 연구 단서는 보존"
       ],
       "evidenceCoverage": [
-        "DOC-P235I-NIKH-03_05_0030"
+        "DOC-P235I-NIKH-03_05_0030",
+        "DOC-P236E-BUSAN-1953-0305",
+        "DOC-P236E-BUSAN-1953-0308"
       ]
     },
     {
@@ -3254,15 +3279,16 @@
       "id": "cand-p236-park-sul-eum",
       "name": "박술음",
       "aliases": [
-        "Park Sul-eum (romanization provisional)"
+        "Park Sul-eum (romanization provisional)",
+        "朴術音"
       ],
-      "hanja": null,
+      "hanja": "朴術音",
       "lifespan": {
         "born": null,
         "died": null,
         "verified_this_pass": false
       },
-      "researchStatus": "IDENTIFIED",
+      "researchStatus": "VERIFIED_role_identity_only",
       "rolesByPeriod": [
         {
           "date": "1953-04-20",
@@ -3274,7 +3300,8 @@
         "evt-p236-labor-1953-04-20-commission-decree"
       ],
       "evidenceCoverage": [
-        "DOC-P236-PA-LABOR-774"
+        "DOC-P236-PA-LABOR-774",
+        "DOC-P236E-PA-LABOR-773"
       ],
       "openLeads": [
         "LEAD-P236-006",
@@ -3286,11 +3313,22 @@
       "promotionReason": "대통령기록관 기록번호 1A00614174533607에 직함·서명 기록, 생몰·한자 미검증으로 후보 유지",
       "backbone": false,
       "connections": [
-        "evt-p236-labor-1953-04-20-commission-decree"
+        "evt-p236-labor-1953-04-20-commission-decree",
+        "evt-p236-labor-1953-04-20-dispute-decree"
       ],
       "researchRefs": [
         "data/politicians/pass-236-labor-actors.json",
         "data/politicians/pass-236-frus-diplomacy-actors.json"
+      ],
+      "hanjaVerification": "대통령기록관 정책기록 773·774 해제에서 朴術音 확인",
+      "correctionHistory": [
+        {
+          "date": "2026-10-28",
+          "field": "hanja",
+          "from": null,
+          "to": "朴術音",
+          "source": "대통령기록관 1A00614174533605·33607"
+        }
       ]
     },
     {
@@ -3330,6 +3368,97 @@
       ],
       "researchRefs": [
         "data/politicians/pass-236-frus-diplomacy-actors.json"
+      ]
+    },
+    {
+      "id": "cand-p236e-shin-tae-ak",
+      "name": "신태악",
+      "aliases": [
+        "Shin Tae-ak (romanization provisional)"
+      ],
+      "hanja": null,
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "unverified"
+      },
+      "researchStatus": "IDENTIFIED",
+      "rolesByPeriod": [
+        {
+          "date": "1953-03-02",
+          "office": "자유당 감찰부장",
+          "actionType": "issued_party_admission_rejection_statement"
+        },
+        {
+          "date": "1953-03-05",
+          "office": "자유당 감찰부장",
+          "actionType": "requested_to_explain_decision_to_caucus"
+        }
+      ],
+      "eventIds": [
+        "evt-p236e-1953-03-03-party-admission-vote",
+        "evt-p236e-1953-03-08-party-hearing-delayed"
+      ],
+      "evidenceCoverage": [
+        "DOC-P236E-BUSAN-1953-0305",
+        "DOC-P236E-BUSAN-1953-0308"
+      ],
+      "openLeads": [
+        "LEAD-P236E-001",
+        "LEAD-P236E-002"
+      ],
+      "historyDebt": [
+        "HD-P236E-PARTY-ADMISSION"
+      ],
+      "promotionReason": "부산일보 1953-03-05·03-08 원문 두 건에서 실명·직책·행위 확인, 한자·생몰·최종결정 미확인",
+      "backbone": false,
+      "connections": [
+        "evt-p236e-1953-03-03-party-admission-vote",
+        "evt-p236e-1953-03-08-party-hearing-delayed"
+      ],
+      "researchRefs": [
+        "data/politicians/pass-236e-party-actors.json"
+      ]
+    },
+    {
+      "id": "cand-p236e-yang-woo-jeong",
+      "name": "양우정",
+      "aliases": [
+        "Yang Woo-jeong (romanization provisional)"
+      ],
+      "hanja": null,
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "unverified"
+      },
+      "researchStatus": "IDENTIFIED",
+      "rolesByPeriod": [
+        {
+          "date": "1953-03-08",
+          "office": "자유당 의원부 4인 위원회 위원(기사상)",
+          "actionType": "returned_from_travel_prior_to_hearing"
+        }
+      ],
+      "eventIds": [
+        "evt-p236e-1953-03-08-party-hearing-delayed"
+      ],
+      "evidenceCoverage": [
+        "DOC-P236E-BUSAN-1953-0308"
+      ],
+      "openLeads": [
+        "LEAD-P236E-003"
+      ],
+      "historyDebt": [
+        "HD-P236E-PARTY-ADMISSION"
+      ],
+      "promotionReason": "부산일보 1953-03-08 원문에서 의원부 위원회 연관과 귀부 언급; 생몰·한자·선출여부 미확인",
+      "backbone": false,
+      "connections": [
+        "evt-p236e-1953-03-08-party-hearing-delayed"
+      ],
+      "researchRefs": [
+        "data/politicians/pass-236e-party-actors.json"
       ]
     }
   ],
