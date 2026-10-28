@@ -5,10 +5,13 @@
     {
       "id": "CLM-P247-ACTING",
       "statement": "1960 개헌 즉시 곽상훈이 허정을 완전히 대체해 모든 법률을 공포",
-      "status": "CONFLICTED",
+      "status": "NARROWED",
       "supporting_evidence": [
         "DOC-P244-FRUS-322",
-        "DOC-P247-CONST"
+        "DOC-P247-CONST",
+        "DOC-P247B-AKS-KWAK",
+        "DOC-P247B-YONHAP-2016",
+        "DOC-P247B-NIKH-EMB-19600601"
       ],
       "contradicting_evidence": [
         "DOC-P246-GAZ-551",
@@ -20,7 +23,21 @@
       "contemporaneous_observation": [],
       "later_finding": [],
       "adversarial_search": "제52조·부칙과 FRUS 편집주석 대 6/23·7/1 관보; BA0000158 5면·전문1369 대기",
-      "review_date": "2026-10-29"
+      "review_date": "2026-10-29",
+      "reviewHistory": [
+        {
+          "date": "2026-10-29",
+          "from": "CONFLICTED",
+          "to": "NARROWED",
+          "reason": "1960-06-16~22 Kwak (AKS, Yonhap), 6/23 Huh (Yonhap+contemporaneous Gazette). Apparent contradiction due to nonoverlapping dates; official succession instruments still missing"
+        }
+      ],
+      "chronological_reconciliation": {
+        "kwak": "1960-06-16 through 1960-06-22",
+        "huh_resumes": "1960-06-23",
+        "supporting": "AKS biography + Yonhap later chronology + contemporaneous Gazette 551/552",
+        "not_yet_confirmed": "1960-06-22 resignation and 1960-06-23 assumption original instruments"
+      }
     },
     {
       "id": "CLM-P247-SENATE",

@@ -176,3 +176,6 @@
 
 ## pass247 (2026-10-29)
 - `data/politicians/pass-247-1960-party-network.json`: 신규 후보 6명·기존 4명 심화.
+
+## pass247b (2026-10-29)
+- `data/politicians/pass-247b-succession-and-administration.json`: 백낙준 신규·곽상훈 권한대행 이력 NARROWED.

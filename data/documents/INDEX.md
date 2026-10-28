@@ -140,3 +140,6 @@
 
 ## pass247 (2026-10-29)
 - `data/documents/pass-247-1960-constitutional-party-sources.json`: 헌법제52조·부칙, 2명 김성숙, 당무 사료 16건(색인 1 제외).
+
+## pass247b (2026-10-29)
+- `data/documents/pass-247b-succession-and-administration.json`: 1960 미국대사관 원전·국가기록원 국무회의·1952 인구/경제·AKS 곽상훈/백낙준.

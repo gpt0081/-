@@ -3686,8 +3686,9 @@
         "Kwak Sang-hun"
       ],
       "lifespan": {
-        "born": null,
-        "died": null
+        "born": "1896",
+        "died": "1980",
+        "verification": "AKS later biography; civil original pending"
       },
       "roles": [
         "국방·징계자격위원장 후보",
@@ -3710,7 +3711,9 @@
         "evt-p239m3-07",
         "evt-p241-07",
         "evt-p244b-1960-0615-constitutional-amendment",
-        "evt-p245-1960-0502-speaker"
+        "evt-p245-1960-0502-speaker",
+        "evt-p247b-1960-0616-kwak-acting",
+        "evt-p247b-1960-0623-huh-resumes"
       ],
       "evidenceCoverage": {
         "documentIds": [
@@ -3772,6 +3775,19 @@
         ],
         "status": "CONFLICTED",
         "note": "6/23·7/1 허정 대통령권한대행 명의 관보와 6/15 곽상훈 즉시 승계 FRUS 편집주석 상충"
+      },
+      "researchPass247b": {
+        "date": "2026-10-29",
+        "priorStatus": "CONFLICTED",
+        "currentStatus": "NARROWED",
+        "timeline": "1960-06-16~22 Kwak (AKS+Yonhap), 1960-06-23 Huh resumed (Yonhap+Gazette551), no simultaneous contradiction",
+        "sources": [
+          "DOC-P247B-AKS-KWAK",
+          "DOC-P247B-YONHAP-2016",
+          "DOC-P247B-NIKH-EMB-19600601",
+          "DOC-P246-GAZ-551"
+        ],
+        "open": "원국회 의장 사퇴·권한대행 승계 공고 원문"
       }
     },
     {
@@ -10396,6 +10412,64 @@
         "LEAD-P247-IDENTITY-cand-p247-jang-geon-sang"
       ],
       "identityCaveat": "1960 original records pending; two Kim Seong-suk IDs never merge; 金成璹 unverified"
+    },
+    {
+      "id": "cand-p247b-baek-nak-jun",
+      "name": "백낙준",
+      "aliases": [
+        "白樂濬",
+        "백성빈(白成彬)",
+        "용재(庸齋)",
+        "L. George Paik",
+        "Baek Nak-jun"
+      ],
+      "lifespan": {
+        "born": "1896-03-09",
+        "died": "1985-01-13",
+        "verification": "AKS secondary; civil registry not checked"
+      },
+      "roles": [
+        "1950~1952 문교부장관",
+        "1960-07 제5대 참의원 무소속 당선",
+        "1960-08 초대 참의원 의장",
+        "1960-08-08~12 대통령권한대행(연합뉴스 후대 연표, 정확한 시작시각 원문 미검증)"
+      ],
+      "roleHistory": [
+        {
+          "period": "1950-05~1952-10",
+          "role": "문교부장관",
+          "source": "DOC-P247B-AKS-BAEK"
+        },
+        {
+          "period": "1960-08",
+          "role": "초대 참의원의장",
+          "source": "DOC-P247B-AKS-BAEK"
+        },
+        {
+          "period": "1960-08-08~1960-08-12",
+          "role": "대통령권한대행",
+          "source": "DOC-P247B-YONHAP-2016",
+          "verification": "secondary_only"
+        }
+      ],
+      "researchStatus": "IDENTIFIED",
+      "backbone": false,
+      "connections": [
+        "evt-p247b-1960-0808-baek-acting",
+        "evt-p247b-1960-0812-president-election"
+      ],
+      "evidenceCoverage": [
+        "DOC-P247B-AKS-BAEK",
+        "DOC-P247B-YONHAP-2016"
+      ],
+      "researchRefs": [
+        "data/politicians/pass-247b-succession-and-administration.json"
+      ],
+      "openLeads": [
+        "LEAD-P247B-BAEK-08-AUG",
+        "LEAD-P247B-BAEK-1952-EDUCATION"
+      ],
+      "identityCaveat": "일부 후대 출처 생년 1895 vs AKS 1896; 원호적 검증 전 AKS 기준 잠정"
     }
   ],
   "recentResearchPass232": {

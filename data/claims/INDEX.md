@@ -103,3 +103,6 @@
 
 ## pass247 (2026-10-29)
 - `data/claims/pass-247-1960-transition-party-adversarial.json`: 권한대행·동명이인·분열일 등 반증 9건.
+
+## pass247b (2026-10-29)
+- `data/claims/pass-247b-succession-economy-adversarial.json`: 권한대행 시간차 정정·개헌 공포일·경제계획 합계 불일치.

@@ -90,3 +90,6 @@
 
 ## pass247 (2026-10-29)
 - `data/events/pass-247-1960-transition-party-actions.json`: 1960 과도헌정·혁신정당 사건 9건.
+
+## pass247b (2026-10-29)
+- `data/events/pass-247b-succession-economic-administration.json`: 헌정승계·1952 인구통계·1955/56 국무회의 유시·1952 경제부흥계획.
