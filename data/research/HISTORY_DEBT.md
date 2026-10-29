@@ -2045,3 +2045,10 @@
 - `HD-P258B-POWER-CONTRACT` [OPEN]: 1954-06-13 3개 증기발전소 계약과 5월 FOA 부산·서울 발전시설 계획의 사업번호 일치 여부 다음 원문: FOA 1954 June steam power contract list and ROK electric utility construction ledger.
 - `HD-P258B-FERTILIZER-23M` [OPEN]: 1954-06-13 비료공장 약2300만달러 자금배정 추진과 5월 FOA 800만달러 계획의 관계 다음 원문: FOA FY54 fertilizer plant appropriations amendment, plant names, construction records.
 - 기존 lead 9개는 `data/research/history-debt/pass-258b-1953-54-aid-control-unresolved.json`에 후속 상태와 증거를 기록. RESOLVED 0. `last_full_review` 변경 없음.
+
+## Pass258B FY55 후속 역사부채 (2026-10-30, 일요일 전수 아님)
+- `HD-P258B-DRAFT-VS-SIGNED` [NARROWED]: 9/4 한미 합의 초안과 11/17 최종 서명본 조항별 차이; 다음 원문 11/17 원서명본과 9/4 CAMG 초안.
+- `HD-P258B-CEB-PAIK-WOOD` [NARROWED]: 백두진·우드 합동경제위원회 안건별 승인권한; 다음 원문 1954 CEB 원회의록·총리실 결재.
+- `HD-P258B-1954-254-180-HWAN` [NARROWED]: 1954 6월 180환 군사환율과 10월 254환 충돌; 다음 원문 1954-10 한미 외환정산 공문·한국은행 원장.
+- `HD-P258B-ROK-VESTED-53` [OPEN]: 귀속기업 53개 처분계획과 이승만 민간기업 지지 발언; 다음 원문 1954 귀속재산처리청 처분원장·공보처 성명.
+- 기존 lead 032·033·034는 NARROWED, RESOLVED 0. last_full_review 미변경. 역사부채 주간 전수조사 미실시.
