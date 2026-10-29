@@ -5,7 +5,7 @@
   "timezone": "Asia/Seoul",
   "previousCommit": "172811a3a765142e52fb1ba6b7e35015840df709",
   "firstCoherentCommit": "7514cba7834951ed5e83082ca35e9caaad27bed9",
-  "secondCoherentCommit": null,
+  "secondCoherentCommit": "0b27e33d0c2f291a51d909eb65888f3b98939ede",
   "oneHourExecutionClaimed": false,
   "elapsedMinutesVerified": null,
   "flootTouched": false,
@@ -133,5 +133,18 @@
     "40 original pages: 9",
     "3 independent source family crosschecks: 1"
   ],
-  "stoppingReason": "Available research and connector execution segment completed after coherent GitHub writes; no assertion of one-hour duration."
+  "stoppingReason": "Available research and connector execution segment completed after coherent GitHub writes; no assertion of one-hour duration.",
+  "correctionHistory": [
+    {
+      "date": "2026-10-30",
+      "reason": "Five NIKH document URLs had extra zero padding; corrected in subsequent commit, original evidence content unchanged",
+      "affectedDocumentIds": [
+        "DOC-P258B-NIKH-FS023-0270-01",
+        "DOC-P258B-NIKH-FS023-0270-02",
+        "DOC-P258B-NIKH-FS023-0270-03",
+        "DOC-P258B-NIKH-FS023-0270-04",
+        "DOC-P258B-NIKH-FS023-0270-05"
+      ]
+    }
+  ]
 }
