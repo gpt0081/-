@@ -161,3 +161,5 @@
 - 2026-10-29 Pass257O3: `data/claims/pass-257o3-finance-law-number-and-effects.json` (법277/227 번호충돌, 별표2 미열람, 이식제한령 처벌, 예금동결 계정, BOK 통계).
 
 - 2026-10-29 Pass257O4: `data/claims/pass-257o4-uncurk-election-aid-adversarial.json` (UN 115 vs NEC114, UN vs US 선거절차 평가, UNKRA 약정/도착/준공 단계).
+
+- 2026-10-29 Pass257P: `data/claims/pass-257p-unkra-housing-finance-adversarial.json` (1953 주택 5500호 계획 대 1954 9000~9500호 계획의 분모, 안암49호와 서울330호 중복, 1953 조인식 사진 대 1954 기본협정, 1945/1954 목록오류, 828(IX) 공약금 납부 미확정 등 12개 반증검사).
