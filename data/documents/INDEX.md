@@ -176,3 +176,5 @@
 - data/documents/pass-253f-september-sept12-15.json (pass253F, 2026-10-29)
 
 - 2026-10-29 Pass255H: `data/documents/pass-255h-oct13-17-assembly-economy.json` (원문 출처·불확실성 보존).
+
+- 2026-10-29 Pass257J: `data/documents/pass-257j-un-plenary-finance.json` 12건(UN 원속기/원수정안4, 한국 동시대 신문2, 후대 기관/법제처6). 법률277호 원면은 아직 미확보; 검색발췌는 원문 열람 수에 불포함.

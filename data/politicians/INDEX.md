@@ -220,3 +220,5 @@
 - `data/annals/1952nov-1953feb-crossprovenance-governance.md`, `data/documents/pass-257-1952nov-1953feb-crossprovenance.json`, `data/events/pass-257-pow-economy-governance.json`, `data/claims/pass-257-adversarial-crossprovenance.json`에 증거·사건·반증을 분리. 1952-11-24 중국 거부 각서는 인도/미국 2계열, UN 610 채택은 인도/미국/UN 3계열. UN PDF 접근 403은 BLOCKED lead로 유지.
 
 - **Pass257C 국내 원문 확장**: 1953-02-06 민주신보에 직접 실명 확인된 조정훈·조순·서이환·이동환 의원 4명을 `IDENTIFIED` 후보로, 1953-02-06 조선일보의 진승국·박용만·김창민 3명을 정치사회단체 결성준비 `DISCOVERED`로 분리. 기존 이갑성·배은희·신중목·진헌식 심화, 김석관은 1952-11 원기사에 성씨 金만 있어 기존 ID에 `OPEN` identity bridge만 남김. 1953 조순과 1954 조순은 동일인 원명부 확인 전 병합하지 않음. 김일수 독립 evidence: `data/evidence/kim-il-su-1953.json`.
+
+- **Pass257J 김유택 독립 실록 활성화**: `cand-p235i-kim-yu-taek` 후보 ID 유지(기존 참조 호환), 한국은행 공식 총재약력으로 1951-1956 총재·1961 장관·1963 국회의원 경력 검증. `data/annals/kim-yu-taek.md`, `data/evidence/kim-yu-taek-1953-currency.json` 추가. `data/politicians/pass-257j-actor-evidence.json`에 백두진·이승만과 직책별 책임 분리.

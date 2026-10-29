@@ -128,3 +128,5 @@
 
 - 2026-10-29 Pass255H: `data/events/pass-255h-oct13-17-actions.json` (원문 출처·불확실성 보존).
 - 2026-10-29 Pass255H2: `data/events/pass-255h2-frus-un-options.json` (FRUS d291~d300 추가 검증).
+
+- 2026-10-29 Pass257J: `data/events/pass-257j-un-finance-actions.json` 10개 UN 제안·수정·표결 및 1953 통화·재정·국회수정 세부사건, 중앙 `data/events.json`에 additive 동기화.

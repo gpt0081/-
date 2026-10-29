@@ -143,3 +143,5 @@
 
 - 2026-10-29 Pass255H: `data/claims/pass-255h-1952-oct-governance.json` (원문 출처·불확실성 보존).
 - 2026-10-29 Pass255H2: `data/claims/pass-255h2-frus-adversarial.json` (포로송환·정화안 제안과 결정 분리).
+
+- 2026-10-29 Pass257J: `data/claims/pass-257j-currency-un-counterevidence.json` 8개 독립 반증 질문, UN 53:0:5/54:5:1/53:5:1 분리 및 법률277/227 후대 충돌·2/17/2/26/2/27 범위 분리.
