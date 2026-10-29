@@ -5,21 +5,23 @@
   "weekly_full_debt_review": false,
   "floot_touched": false,
   "counts": {
-    "directly_opened_documents": 42,
+    "directly_opened_documents": 60,
     "official_US_original_texts": 31,
-    "contemporary_Korean_press_texts": 11,
+    "contemporary_Korean_press_texts": 27,
     "original_facsimiles": 0,
-    "independent_research_lines": 22,
-    "governance_domains": 14,
-    "nonpresidential_actors_linked": 10,
-    "events": 22,
-    "adversarial_claims": 17,
-    "adversarial_routes": 13,
+    "independent_research_lines": 30,
+    "governance_domains": 18,
+    "nonpresidential_actors_linked": 11,
+    "events": 40,
+    "adversarial_claims": 29,
+    "adversarial_routes": 25,
     "prior_leads_tracked": 10,
-    "new_original_leads": 36,
-    "cross_provenance_contextual_bundles": 3,
+    "new_original_leads": 54,
+    "cross_provenance_contextual_bundles": 4,
     "three_family_primary_confirmations": 0,
-    "new_candidate_nodes": 4
+    "new_candidate_nodes": 4,
+    "edited_US_original_translations": 2,
+    "new_history_debts": 5
   },
   "documentIds": [
     "DOC-P253-FRUS-253",
@@ -114,7 +116,9 @@
     "9/8 색인만 읽고 개별 원문은 열지 않아 직접문서 수에서 제외",
     "계획·당사자 주장·실행·후대평가 분리",
     "진헌식 공식 재임 시작 1952-08-29와 9/4 발언 일치; 9/18 registry는 관찰일",
-    "장택상 중앙 중복ID는 무단 병합하지 않음"
+    "장택상 중앙 중복ID는 무단 병합하지 않음",
+    "미국정부 한국어 편집발췌 2건은 영어 완전 원문 직접 확인 31건과 구분",
+    "부산세관·산청군 방위비·변영태 담화는 동시대 언론 전사, 관보·공문 원본 아님"
   ],
   "correction_history": [
     {
@@ -123,6 +127,11 @@
       "from": "CONFLICTED",
       "to": "CONTRADICTED",
       "reason": "MOIS official 1952-08-29 start; no source conflict with 9/4 report"
+    },
+    {
+      "date": "2026-10-29",
+      "claim": "CLM-P253-grain",
+      "reason": "5.08배는 가격배수로 기존 508% 추가인상 표현을 정정; 농림위 9/8 원안 부결 확인"
     }
   ],
   "integrationFiles": [
@@ -146,7 +155,10 @@
   ],
   "commit_history": [
     "9696a1f93f333527ae3859c9e3d69ef0dd7f38ff",
-    "379e95477b8313e2118840f3809893c9237ea0ca"
+    "379e95477b8313e2118840f3809893c9237ea0ca",
+    "c45962c41698b538090f00d800c1b9d2e6edb004",
+    "0365dacbe4cf5e4c7feae56b9ab947ac0c4ecb21",
+    "3bb898352d833d17a9b6c7aa5999c8c6a3fa4987"
   ],
   "validation": {
     "document_count": 42,
@@ -161,5 +173,10 @@
     "broken_claim_document_refs": 0,
     "broken_lead_event_refs": 0,
     "notes": "미국정부 원문 31건은 provenance 계열 1개. claim 문장형 메모 2건 ID 필드에서 이동."
-  }
+  },
+  "additionalDocuments": 18,
+  "additionalEvents": 18,
+  "additionalClaims": 12,
+  "additionalLeads": 18,
+  "nextQueueAddendum": "data/research/leads/pass-253d-next-originals.json"
 }
