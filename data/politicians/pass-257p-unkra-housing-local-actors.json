@@ -1,0 +1,76 @@
+{
+  "pass": "257P",
+  "accessDate": "2026-10-29",
+  "policy": "Reuse central stable/candidate IDs; no automatic promotion on photo caption; do not identify photographed people by appearance.",
+  "actors": [
+    {
+      "id": "pol-rhee-syngman",
+      "name": "이승만",
+      "existing_status": "active-deep",
+      "alias_ref": "data/politicians.json",
+      "new_event_ids": [
+        "evt-p257p-195309-rhee-brick-demo",
+        "evt-p257p-19540118-kdb-decree860"
+      ],
+      "act_types": [
+        "archival-caption-reported-attendance",
+        "institutional-decree-context-not-personal-loan-approval"
+      ],
+      "evidence_ids": [
+        "DOC-P257P-SEOUL-UNKRA-PHOTO-3",
+        "DOC-P257P-NAK-1954-LAW-METADATA"
+      ],
+      "open_lead": "Locate 1953-09 presidential itinerary and housing demonstration minutes; no procurement order attributed."
+    },
+    {
+      "id": "pol-paik-too-chin",
+      "name": "백두진",
+      "aliases": [
+        "白斗鎭",
+        "Paik Too-chin",
+        "Baek Du-jin"
+      ],
+      "existing_status": "ANNALS_ACTIVE",
+      "new_event_ids": [
+        "evt-p257p-1953-aid-signing-photo"
+      ],
+      "act_types": [
+        "archival-caption-reported-treaty-ceremony"
+      ],
+      "evidence_ids": [
+        "DOC-P257P-SEOUL-UNKRA-PHOTO-1"
+      ],
+      "open_lead": "Identify exact 1953 agreement signed with Coulter and distinguish 1954-05-31 basic treaty CA0002578; photo caption not original signature page."
+    },
+    {
+      "id": "cand-p239e-kim-tae-seon",
+      "name": "김태선",
+      "aliases": [
+        "金泰善",
+        "Kim Tae-seon"
+      ],
+      "lifespan_verification": "existing registry unverified, do not invent",
+      "existing_status": "IDENTIFIED",
+      "new_event_ids": [
+        "evt-p257p-1955-kim-mayor-unkra-award"
+      ],
+      "roles_by_period": [
+        {
+          "period": "1955",
+          "role": "서울시장",
+          "appointment_or_election": "appointment file not inspected",
+          "evidence": "National Archives CET0047717 1-1 catalog caption"
+        }
+      ],
+      "act_types": [
+        "municipal-ceremonial-diplomacy"
+      ],
+      "evidence_ids": [
+        "DOC-P257P-NAK-UNKRA-RECORD-INDEX"
+      ],
+      "open_lead": "Open original CET0047717 photo, find 1955 award date and mayoral office dispatch; do not infer housing project management."
+    }
+  ],
+  "new_stable_politicians": 0,
+  "existing_deepened": 3
+}
