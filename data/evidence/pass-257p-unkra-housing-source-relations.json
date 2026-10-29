@@ -1,0 +1,69 @@
+{
+  "pass": "257P",
+  "accessDate": "2026-10-29",
+  "policy": "Archival image presence is not individual face identification. Institution-caption assertion is recorded separately. Catalog metadata is not original body.",
+  "relations": [
+    {
+      "politician_id": "pol-rhee-syngman",
+      "event_id": "evt-p257p-195309-rhee-brick-demo",
+      "document_id": "DOC-P257P-SEOUL-UNKRA-PHOTO-3",
+      "evidence_type": "archive_caption_reports_attendance",
+      "evidence_grade": "C official archive caption + A visual image for existence only",
+      "cannot_prove": "direct procurement/financing order"
+    },
+    {
+      "politician_id": "pol-paik-too-chin",
+      "event_id": "evt-p257p-1953-aid-signing-photo",
+      "document_id": "DOC-P257P-SEOUL-UNKRA-PHOTO-1",
+      "evidence_type": "archive_caption_reports_ceremony",
+      "evidence_grade": "C official caption + A visual image for ceremony only",
+      "cannot_prove": "signatory to 1954-05-31 treaty"
+    },
+    {
+      "politician_id": "cand-p239e-kim-tae-seon",
+      "event_id": "evt-p257p-1955-kim-mayor-unkra-award",
+      "document_id": "DOC-P257P-NAK-UNKRA-RECORD-INDEX",
+      "evidence_type": "official_primary_catalog_caption_only",
+      "evidence_grade": "C metadata",
+      "cannot_prove": "award photograph original verified or specific housing allocation"
+    },
+    {
+      "politician_id": "pol-rhee-syngman",
+      "event_id": "evt-p257p-19540118-kdb-decree860",
+      "document_id": "DOC-P257P-NAK-1954-LAW-METADATA",
+      "evidence_type": "institutional_promulgation_context",
+      "evidence_grade": "C official historical law metadata",
+      "cannot_prove": "president personally authorized particular bank loan"
+    }
+  ],
+  "cross_source_tests": [
+    {
+      "claim_id": "CL-P257P-04",
+      "families": [
+        "ROK_FOREIGN_MINISTRY_ORIGINAL_CATALOG",
+        "NATIONAL_ARCHIVES_KOREA_CURATED",
+        "UN_OFFICIAL_CONTEMPORANEOUS_YEARBOOK"
+      ],
+      "outcome": "Treaty date triangulated at metadata/synthesis level; no original signed pages",
+      "strict_three_primary_families": false
+    },
+    {
+      "claim_id": "CL-P257P-05",
+      "families": [
+        "UN_GENERAL_ASSEMBLY",
+        "UN_OFFICIAL_CONTEMPORANEOUS_YEARBOOK"
+      ],
+      "outcome": "Resolution pledge request contrasts with reported 1954 goods arrival",
+      "strict_three_primary_families": false
+    },
+    {
+      "claim_id": "CL-P257P-02",
+      "families": [
+        "SEOUL_ARCHIVES_CURATED",
+        "UN_OFFICIAL_CONTEMPORANEOUS_YEARBOOK"
+      ],
+      "outcome": "Different reporting date and scope; overlap unknown",
+      "strict_three_primary_families": false
+    }
+  ]
+}
