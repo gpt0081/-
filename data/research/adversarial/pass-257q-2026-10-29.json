@@ -1,9 +1,9 @@
 {
   "pass": "257Q",
   "date": "2026-10-29",
-  "independent_question_count": 14,
-  "distinct_web_search_attempts": 12,
-  "strict_three_family_triangulations": 2,
+  "independent_question_count": 15,
+  "distinct_web_search_attempts": 13,
+  "strict_three_family_triangulations": 3,
   "tracks": [
     {
       "id": "1954-election-party-seats",
@@ -158,6 +158,16 @@
       "search_attempted": true,
       "independent_question": true,
       "source_lineage_caution": "Search attempt ≠ finding counterevidence; secondary/index ≠ original facsimile"
+    },
+    {
+      "id": "1954-tungsten-un-three-family",
+      "question": "1954 미국 중석구매협정 만료 및 생산 감소는 미측 전망뿐인가",
+      "method": "web-search+UN-original-PDF-cross",
+      "checked_sources": "1954-01-22 ROK cabinet original, 1954-02-02 and 02-25 US FRUS originals, 1956 UN ECAFE Survey original and UNKRA A/3195 original",
+      "result": "NARROWED_THREE_FAMILY",
+      "next_original_target": "1952-03-28 계약 원본·1954-03-31 최종 인도증·UN ECAFE 각주3/4",
+      "search_attempted": true,
+      "independent_question": true
     }
   ]
 }

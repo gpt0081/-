@@ -208,3 +208,5 @@
 - Pass257Q health addendum: 법률307·308호 official metadata, KDCA 검역사, later judicial judgment, National Archives 1954 timeline (full original statutes not extracted).
 
 - Pass257Q diplomatic addendum: four FRUS originals d692/d737/d871/v14p2-d606 for 1953 aid complaints, Feb1954 letter withdrawal and 1952 maritime tensions.
+
+- Pass257Q UN original addendum: ECAFE Economic Survey1956 and UNKRA A/3195 primary original PDF texts, independent tungsten agreement expiry/exports.

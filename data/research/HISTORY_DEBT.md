@@ -1939,3 +1939,8 @@
 ### HD-1954-RHEE-LETTER-WITHDRAWAL · 1954-02 이승만 서한 정식철회·비공식열람
 - 상태: NARROWED (2026-10-29 pass257Q). [1954-02-09 Robertson 메모](https://history.state.gov/historicaldocuments/frus1952-54v15p2/d869)는 정식전달 보류, 사진복사본의 대통령 비공식 열람을 각주로 기록. [1954-02-15 양유찬 면담](https://history.state.gov/historicaldocuments/frus1952-54v15p2/d871) 각주는 2/24 덜레스가 아이젠하워에게 서한 철회를 통보했다고 기재. 정식 철회와 비공식 열람을 동시에 보존.
 - 미해결: 2/24 O'Connor→Robertson 원비망록(795B.11/2-2554), 양유찬 본국 보고서, 이승만 수정/철회 원서한.
+
+
+### HD-1954-TUNGSTEN-UN-CROSSCHECK · 1954 한미중석협정 만료의 제3출처 검증
+- 상태: NARROWED (2026-10-29 pass257Q). 한국 국무회의 1954-01-22 중석매입중단설 확인 유시, 미 국무부 FRUS 1954-02-02 계약 4/1 종료 전망·2/25 추가구매 불가 회신 승인, [UN ECAFE 1956 경제조사](https://digitallibrary.un.org/record/3939787/files/Survey1956.pdf)의 '1954년 3월 협정 만료로 생산 감소' 서술을 **세 출처 계열**로 대조. UN 조사서는 1955-01 국제경매 세계시장 판매 개시를 기록. [UN A/3195](https://digitallibrary.un.org/record/711516/files/A_3195-EN.pdf)는 한국 전체 상품수출 1954 2424.6만달러→1955 1760.2만달러, 1956 상반기 회복을 기록.
+- 미해결: 계약 원종료확인서·최종 인도일, 3월말/4월1일 표기 정합, UN 각주 원자료, 광산별 실제 생산·수출량. 전체 상품수출액을 중석 단독 수출액으로 오기 금지.

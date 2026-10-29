@@ -161,3 +161,5 @@
 - Pass257Q Archives addendum: 1954-01-03/01-20 POW groups and 1954-11-14 tungsten export liberalization, later official chronology index only, not original facsimile.
 
 - Pass257Q diplomatic addendum: six original-source events on 1953 aid, 1954 letter handling, 1952 maritime claim.
+
+- Pass257Q UN original addendum: 1954 tungsten expiry, 1955 international auctions, 1954/55 export decline, 1956 recovery 5 events.

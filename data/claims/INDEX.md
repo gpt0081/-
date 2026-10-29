@@ -175,3 +175,5 @@
 - Pass257Q health addendum: 8 claim reviews on 1954 law307/308 promulgation/effectiveness and later judicial findings.
 
 - Pass257Q diplomatic addendum: 4 claims preserving 1953/1954 consistency and speaker-allegation versus proven maritime action.
+
+- Pass257Q UN original addendum: five claims, third strict ROK Cabinet+US FRUS+UN original three-family crosscheck.
