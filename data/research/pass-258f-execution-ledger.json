@@ -2,23 +2,26 @@
   "pass": "258F",
   "date": "2026-10-30",
   "metrics": {
-    "independentResearchLines": 8,
-    "governanceDomains": 6,
+    "independentResearchLines": 12,
+    "governanceDomains": 8,
     "nonPresidentExistingPoliticiansLinked": 11,
-    "newPoliticianIds": 0,
-    "eventActionOverlays": 6,
+    "newPoliticianIds": 1,
+    "eventActionOverlays": 11,
     "documentRegistryObjects": 9,
-    "contemporaneousOriginalStatutesRead": 2,
+    "contemporaneousOriginalStatutesRead": 3,
     "officialSecondaryOriginalBodyRead": 1,
     "meaningfulPagesDirectOpenedApprox": 9,
-    "adversarialChecks": 12,
+    "adversarialChecks": 17,
     "previousLeadsTracked": 8,
-    "nextSpecificLeads": 39,
+    "nextSpecificLeads": 47,
     "crossProvenanceFamiliesAttempted": 3,
     "threeIndependentPrimaryFamiliesCompleted": 0,
     "canonicalEventsEnhanced": 7,
     "canonicalDocumentsReused": 4,
-    "newPrimaryLegalObjects": 1
+    "newPrimaryLegalObjects": 1,
+    "originalGazetteBodiesReread": 2,
+    "originalGazetteMinistersLinked": 16,
+    "additionalLegislativeProposerLinked": 1
   },
   "limitations": "40/20 source minimum not met; many catalog descriptions only. No claim of full 1h. Floot untouched. No Sunday sweep.",
   "gitCommitShas": [],
@@ -26,6 +29,10 @@
     {
       "date": "2026-10-30",
       "reason": "Initial pass reported 13 new action IDs and 13 source objects; 7 event and 4 document duplicates retired after comparison with Pass239L2/Pass246/Pass258E. Net new events 6, net new documents 9."
+    },
+    {
+      "date": "2026-10-30",
+      "reason": "TinyFish original Gazette read: law385 and law388 re-read, law387 revision text direct read; 5 distinct clause/procedural sub-events, 1 new minister candidate, 5 adversarial claims."
     }
   ]
 }

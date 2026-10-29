@@ -214,9 +214,95 @@
         "finding": "후대 해설만 확보, 사건번호·판결 원문 미확보."
       },
       "review_date": "2026-10-30"
+    },
+    {
+      "id": "CLM-P258F-13",
+      "statement": "법률387호 개정문 내 날짜는 공식 공포일과 완전히 일치한다",
+      "status": "NARROWED",
+      "supporting_evidence": [
+        "DOC-P258F-LAW387"
+      ],
+      "contradicting_evidence": [],
+      "insufficient_evidence": [
+        "원관보 facsimile 및 국회 표결 원속기 미확보"
+      ],
+      "adversarial_search": {
+        "counter_hypothesis": "원법률·관보와 후대 편집해제의 모순을 찾아 기존 해석을 검증",
+        "finding": "공식 표제 1956-06-27 vs 개정문 내 '[1956.1.27]' 충돌. 원관보 확인 전 내부 날짜 오기 가능성 보존."
+      },
+      "review_date": "2026-10-30"
+    },
+    {
+      "id": "CLM-P258F-14",
+      "statement": "1956 지방자치법385호는 선거제도만 바꿨다",
+      "status": "NARROWED",
+      "supporting_evidence": [
+        "DOC-P246-GAZ-385"
+      ],
+      "contradicting_evidence": [],
+      "insufficient_evidence": [
+        "원관보 facsimile 및 국회 표결 원속기 미확보"
+      ],
+      "adversarial_search": {
+        "counter_hypothesis": "원법률·관보와 후대 편집해제의 모순을 찾아 기존 해석을 검증",
+        "finding": "제109조 징계위원회, 제116·117조 도/서울 행정국, 제132조의2 수입·지출원, 제160조 가예산 규정도 확인."
+      },
+      "review_date": "2026-10-30"
+    },
+    {
+      "id": "CLM-P258F-15",
+      "statement": "1956 지방자치법388호는 이승만이 직접 발의했다",
+      "status": "NARROWED",
+      "supporting_evidence": [
+        "DOC-P246-GAZ-388"
+      ],
+      "contradicting_evidence": [],
+      "insufficient_evidence": [
+        "원관보 facsimile 및 국회 표결 원속기 미확보"
+      ],
+      "adversarial_search": {
+        "counter_hypothesis": "원법률·관보와 후대 편집해제의 모순을 찾아 기존 해석을 검증",
+        "finding": "국편 해제는 7/6 신도성 외10인 발의, 7/7 국회 가결, 7/8 이승만·각료 공포. 발의·의결·공포 분리."
+      },
+      "review_date": "2026-10-30"
+    },
+    {
+      "id": "CLM-P258F-16",
+      "statement": "1956년 2월과 7월 관보 서명 각료 차이는 곧 각 인사의 정확한 임명일이다",
+      "status": "NARROWED",
+      "supporting_evidence": [
+        "DOC-P246-GAZ-385",
+        "DOC-P246-GAZ-388"
+      ],
+      "contradicting_evidence": [],
+      "insufficient_evidence": [
+        "원관보 facsimile 및 국회 표결 원속기 미확보"
+      ],
+      "adversarial_search": {
+        "counter_hypothesis": "원법률·관보와 후대 편집해제의 모순을 찾아 기존 해석을 검증",
+        "finding": "두 날짜에 공직 수행 증명, 실제 발령일은 인사 원관보 필요. 동명이인 자동병합 금지."
+      },
+      "review_date": "2026-10-30"
+    },
+    {
+      "id": "CLM-P258F-17",
+      "statement": "1954 재정법305호 경과 회계연도는 12개월이다",
+      "status": "NARROWED",
+      "supporting_evidence": [
+        "DOC-P258F-LAW387"
+      ],
+      "contradicting_evidence": [],
+      "insufficient_evidence": [
+        "원관보 facsimile 및 국회 표결 원속기 미확보"
+      ],
+      "adversarial_search": {
+        "counter_hypothesis": "원법률·관보와 후대 편집해제의 모순을 찾아 기존 해석을 검증",
+        "finding": "법제처 개정연혁상 단기4287 회계연도 1954-04-01~1955-06-30 15개월. 1956 18개월과 구분."
+      },
+      "review_date": "2026-10-30"
     }
   ],
-  "adversarialSearchCount": 12,
+  "adversarialSearchCount": 17,
   "crossProvenance": [
     {
       "subject": "재정법387호",
@@ -249,6 +335,10 @@
     {
       "date": "2026-10-30",
       "action": "source references migrated to canonical document IDs"
+    },
+    {
+      "date": "2026-10-30",
+      "action": "Added 5 original-law adversarial checks including 1956-01-27 vs 1956-06-27 metadata conflict"
     }
   ]
 }
