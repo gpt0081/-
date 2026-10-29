@@ -1244,3 +1244,27 @@
 - 역사부채 주간 전수조사 미실시(목요일), last_full_review 불변.
 
 - pass249 adversarial audit: 12개 명제 반증경로·4개 독립 provenance 교차묶음 문서화. 3개 독립 원문계열 엄격 확증은 0개. 기존 OPEN/CONFLICTED를 강제 RESOLVED 처리하지 않음.
+
+### HD-P250-CENSOR
+- 상태: `NARROWED` (2026-10-29 신규)
+- 문제: 1952-06-26 이승만의 검열현황 보고명령 언급과 실제 계엄사령부·내무부·공보실 발신·접수·이행 사이 증거 공백
+- 다음 원문: LEAD-P250-11~14
+- 참고: `data/research/pass-250-execution-report.md`.
+
+### HD-P250-PLOT
+- 상태: `NARROWED` (2026-10-29 신규)
+- 문제: 6/9 이승만의 음모·증인 주장과 Plimsoll의 UNCURK 은닉 부인; 재판·원증거 미확인
+- 다음 원문: LEAD-P250-04~08
+- 참고: `data/research/pass-250-execution-report.md`.
+
+### HD-P250-REFERENDUM
+- 상태: `OPEN` (2026-10-29 신규)
+- 문제: 6/28 Vinocour 조건부 국민투표 구상의 정식 법적 권한·집행 여부 미확인
+- 다음 원문: LEAD-P250-15~16
+- 참고: `data/research/pass-250-execution-report.md`.
+
+### HD-P250-JI-DATE
+- 상태: `CONFLICTED` (2026-10-29 신규)
+- 문제: 지청천 독립기념관 메타데이터 1888-01-25와 본문 음력 날짜, 후대 양력 표기의 환산 불일치
+- 다음 원문: LEAD-P250-20
+- 참고: `data/research/pass-250-execution-report.md`.

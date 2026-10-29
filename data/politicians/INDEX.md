@@ -193,3 +193,8 @@
 - 2026-10-29 pass249: `data/politicians/pass-249-civil-rights-actors.json` (신규 후보 16명; 1961 공민권 제한·의회 이의, 동명이인 병합 보류).
 
 - pass249 1961-02-02 심사위원 후보는 직접 열린 DOC-P249-KD-0202 전사로 연결; 실제 위촉원부는 OPEN.
+
+
+## Pass250 (2026-10-29)
+- 신규 VERIFIED 독립 정치인 `pol-ji-cheong-cheon`: 독립기념관 인명사전과 미 OIR No.5824로 확인. 생일 음력/양력·실제 출마는 OPEN.
+- `data/politicians/pass-250-1952-actors.json`: 기존 정치인 10명 동시대 문서 연결 후보. 단순 언급과 직접 행위는 구분. 이범석 중복 ID는 자동병합하지 않음.

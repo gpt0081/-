@@ -111,3 +111,5 @@
 - pass249 1952 UNCURK/이승만 개헌·계엄·대선통계·피난민·구호 10개 sub-event 추가, 중앙 events.json 동기화.
 
 - pass249 FRUS 1952 Meyer 협정·계엄협의·미국 내부 대응·포로재심사·원조위험 10건 신규 사건 중앙 registry 동기화. 월 단위 난민추계 event ID에서 임의 19일 제거.
+
+- `data/events/pass-250-1952-primary.json`: 1952년 OIR 간선제 전망·UNCURK 회담·검열·국민투표 구상 등 12개 action, 제안과 실행 분리.
