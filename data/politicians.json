@@ -136,7 +136,11 @@
         "evt-p257k-19510530-presidential-reconsider-mobil",
         "evt-p257m-19530304-rhee-reimbursement-statement",
         "evt-p257p-195309-rhee-brick-demo",
-        "evt-p257p-19540118-kdb-decree860"
+        "evt-p257p-19540118-kdb-decree860",
+        "evt-p257r-19540302-laos",
+        "evt-p257r-19540519-aid",
+        "evt-p257r-19540604-treaty-letter",
+        "evt-p257r-19540702-rhee-letter"
       ],
       "researchRefs": [
         "data/politicians/pass-233-1952-rok-diplomacy-network.json",
@@ -152,7 +156,8 @@
         "data/annals/1952dec-1953feb-un-finance-provenance.md",
         "data/politicians/pass-257k-labor-institution-actors.json",
         "data/politicians/pass-257m-finance-public-claims.json",
-        "data/politicians/pass-257p-unkra-housing-local-actors.json"
+        "data/politicians/pass-257p-unkra-housing-local-actors.json",
+        "data/politicians/pass-257r-1954-election-governance-actors.json"
       ],
       "evidenceCoverage": [
         "DOC-P234C-ICRC-2024-TIMELINE",
@@ -262,7 +267,19 @@
           ],
           "attribution": "신문 전사 또는 미국대사관의 동시대 평가. 당사자 직접행위·법적 책임과 구분"
         }
-      ]
+      ],
+      "recentResearchPass257R": {
+        "date": "2026-10-29",
+        "scope": "1954 US diplomacy, ROK elections and cabinet archival agendas",
+        "documents": [
+          "DOC-P257R-FRUS-D875",
+          "DOC-P257R-FRUS-D882",
+          "DOC-P257R-FRUS-D892",
+          "DOC-P257R-FRUS-D898",
+          "DOC-P257R-FRUS-D909"
+        ],
+        "caveat": "U.S. observations not Rhee personal direct orders"
+      }
     },
     {
       "id": "pol-yi-ki-pung",
@@ -295,7 +312,8 @@
         "evt-p243-1958-1118-security-draft",
         "evt-p243-1958-1224-confinement",
         "evt-p244-1959-0629-lp-convention",
-        "evt-p244-1960-0426-four-points"
+        "evt-p244-1960-0426-four-points",
+        "evt-p257r-19540520-election"
       ],
       "evidenceCoverage": [
         "DOC-P234B-NIKH-1215-0060",
@@ -304,7 +322,8 @@
         "DOC-P240-FRUS-92",
         "DOC-P240-FRUS-98",
         "DOC-P241-NIKH-OIR7371",
-        "DOC-P241-NEC-PE0300010"
+        "DOC-P241-NEC-PE0300010",
+        "DOC-P257R-NIKH-ELECTION"
       ],
       "researchNotes": "pass234B: 1952-12-15 전 국방부장관으로 총리 후임 물망에 언급, 실제 지명 아님",
       "researchRefs": [
@@ -312,12 +331,14 @@
         "data/politicians/pass-239l-1956-actors.json",
         "data/politicians/pass-239l2-1955-cabinet-election-actors.json",
         "data/politicians/pass-239m-1954-constitutional-actors.json",
-        "data/politicians/pass-240-1955-policy-actors.json"
+        "data/politicians/pass-240-1955-policy-actors.json",
+        "data/politicians/pass-257r-1954-election-governance-actors.json"
       ],
       "openLeads": [
         "LEAD-P239L-13",
         "LEAD-P239L2-14",
-        "LEAD-P239M-IDENTITY-pol-yi-ki-pung"
+        "LEAD-P239M-IDENTITY-pol-yi-ki-pung",
+        "LEAD-P257R-ACTOR-pol-yi-ki-pung"
       ],
       "recentResearchPass240": {
         "date": "2026-10-29",
@@ -358,7 +379,15 @@
       },
       "researchOverlays": [
         "data/politicians/pass-243-1958-actor-evidence.json"
-      ]
+      ],
+      "recentResearchPass257R": {
+        "date": "2026-10-29",
+        "role": "1954-05-20 3rd National Assembly winner (later official roster)",
+        "district": "서울 서대문 을",
+        "party": "자유당",
+        "source": "DOC-P257R-NIKH-ELECTION",
+        "status": "original election certificate pending; no maturity promotion"
+      }
     },
     {
       "id": "pol-choi-in-kyu",
@@ -852,13 +881,15 @@
         "evt-1949-farmland-reform",
         "evt-p244b-1960-0820-chang-economic-agenda",
         "evt-p247e-0625-government-law",
-        "evt-p248-1960-0729-results"
+        "evt-p248-1960-0729-results",
+        "evt-p257r-19540520-election"
       ],
       "researchNotes": "농지개혁 재원·보상 논쟁에서 재무부 책임자로 정책형성 네트워크에 연결. 구체적 발언·수정 역할은 국무회의 및 국회 원문으로 검증 필요.",
       "researchRefs": [
         "data/politicians/pass-247c-june1960-original-actors.json",
         "data/politicians/pass-247d-assembly-actors.json",
-        "data/politicians/pass-247e-1960-legislative-actors.json"
+        "data/politicians/pass-247e-1960-legislative-actors.json",
+        "data/politicians/pass-257r-1954-election-governance-actors.json"
       ],
       "researchPass247c": {
         "date": "2026-10-29",
@@ -874,12 +905,19 @@
         ],
         "verification": "국회 원회의록 본문 전사 직접 확인"
       },
-      "evidenceCoverage": {
-        "legacyDescription": null,
-        "documentIds": [
-          "DOC-P247D-NA-120",
-          "DOC-P248-NIKH"
-        ]
+      "evidenceCoverage": [
+        "DOC-P257R-NIKH-ELECTION"
+      ],
+      "openLeads": [
+        "LEAD-P257R-ACTOR-pol-kim-do-yeon"
+      ],
+      "recentResearchPass257R": {
+        "date": "2026-10-29",
+        "role": "1954-05-20 3rd National Assembly winner (later official roster)",
+        "district": "서울 서대문 갑",
+        "party": "민주국민당",
+        "source": "DOC-P257R-NIKH-ELECTION",
+        "status": "original election certificate pending; no maturity promotion"
       }
     },
     {
@@ -2101,23 +2139,37 @@
       "backbone": false,
       "connections": [
         "evt-1953-us-rok-mutual-defense-negotiation",
-        "evt-p239d-agri-vocational"
+        "evt-p239d-agri-vocational",
+        "evt-p257r-19540520-election"
       ],
       "researchNotes": "1953-08 덜레스 회담 FRUS의 'Minister Kim'에 대해 국사편찬위원회 번역 주석이 당시 장관 중 유일한 김씨라는 이유로 김법린으로 추정. 아직 편집자 추정 단계이므로 관보·국무위원 명부·회담 한국측 기록으로 신원 확정 필요.",
       "evidenceCoverage": [
         "DOC-P239B-NIKH-06_02_0030",
         "DOC-P239D-NIKH-0620-0080",
         "DOC-P239I-FRUS-734",
-        "DOC-P239I-FRUS-737"
+        "DOC-P239I-FRUS-737",
+        "DOC-P257R-NIKH-ELECTION"
       ],
       "researchRefs": [
         "data/politicians/pass-239b-actors.json",
         "data/politicians/pass-239d-actors.json",
         "data/politicians/pass-239i-postarmistice-actors.json",
-        "data/politicians/pass-257q-1954-cabinet-actors.json"
+        "data/politicians/pass-257q-1954-cabinet-actors.json",
+        "data/politicians/pass-257r-1954-election-governance-actors.json"
       ],
       "lastResearchPass": "239I",
-      "identityVerificationCaveat": "FRUS Minister Kim remains unidentified; no automatic identity promotion"
+      "identityVerificationCaveat": "FRUS Minister Kim remains unidentified; no automatic identity promotion",
+      "openLeads": [
+        "LEAD-P257R-ACTOR-pol-kim-bop-rin"
+      ],
+      "recentResearchPass257R": {
+        "date": "2026-10-29",
+        "role": "1954-05-20 3rd National Assembly winner (later official roster)",
+        "district": "동래군",
+        "party": "자유당",
+        "source": "DOC-P257R-NIKH-ELECTION",
+        "status": "original election certificate pending; no maturity promotion"
+      }
     },
     {
       "id": "pol-kim-bong-jo",
@@ -2691,7 +2743,8 @@
         "DOC-P253E-DH-0910-0040",
         "DOC-P257K-PA-LABOR-766",
         "DOC-P257K-PA-MOBIL-767",
-        "DOC-P257N-DH-028-1953-02-19-0060"
+        "DOC-P257N-DH-028-1953-02-19-0060",
+        "DOC-P257R-NIKH-ELECTION"
       ],
       "openLeads": [
         "신익희의 1952년 당시 선거관리위원회·국회 속기록·관보 원문으로 생몰/한자/정당/행위 확인",
@@ -2705,7 +2758,8 @@
         "LEAD-P257K-01",
         "LEAD-P257K-02",
         "LEAD-P257N-03",
-        "LEAD-P257N-11"
+        "LEAD-P257N-11",
+        "LEAD-P257R-ACTOR-cand-1952-speaker-shin-ik-hui"
       ],
       "historyDebt": [
         "identity/tenure primary record pending"
@@ -2736,7 +2790,8 @@
         "evt-p254b-education-unesco",
         "evt-p257k-19530415-labor-standard-amend",
         "evt-p257k-19530515-wartime-mobil-transmit",
-        "evt-p257n-19530219-assembly-procedure-vote"
+        "evt-p257n-19530219-assembly-procedure-vote",
+        "evt-p257r-19540520-election"
       ],
       "pass232Overlay": "data/politicians/pass-232-1952-september-actors.json",
       "researchRefs": [
@@ -2749,7 +2804,8 @@
         "data/politicians/pass-239l-1956-actors.json",
         "data/politicians/pass-239m3-1954-economic-parliament-actors.json",
         "data/politicians/pass-257k-labor-institution-actors.json",
-        "data/politicians/pass-257n-1953-finance-legislators.json"
+        "data/politicians/pass-257n-1953-finance-legislators.json",
+        "data/politicians/pass-257r-1954-election-governance-actors.json"
       ],
       "legacyEvidenceCoverageDataIssue": "기존 문자열 evidenceCoverage가 과거 migration에서 문자 단위 배열로 변환·중복제거됨. 2026-10-28 pass236D에서 단문자 토큰 제거; 정확한 원문 설명 문자열은 재구성하지 않음.",
       "promotionHistory": [
@@ -2801,7 +2857,15 @@
           "source": "https://db.history.go.kr/id/dh_026_1952_07_04_0030"
         }
       ],
-      "lastResearchPass": "257N"
+      "lastResearchPass": "257N",
+      "recentResearchPass257R": {
+        "date": "2026-10-29",
+        "role": "1954-05-20 3rd National Assembly winner (later official roster)",
+        "district": "광주군",
+        "party": "민주국민당",
+        "source": "DOC-P257R-NIKH-ELECTION",
+        "status": "original election certificate pending; no maturity promotion"
+      }
     },
     {
       "id": "cand-1952-sep-interior-jin-heon-sik",
@@ -3429,7 +3493,8 @@
         "evt-p252-pm-reapproval",
         "evt-p253e-yun-aid",
         "evt-p254a-democratic-association",
-        "evt-p255g-yun"
+        "evt-p255g-yun",
+        "evt-p257r-19540520-election"
       ],
       "evidenceFile": "data/politicians/pass-232-1952-september-actors.json",
       "openLeadsFile": "data/research/leads/pass-232-20261028-next-lead-queue.json",
@@ -3448,7 +3513,8 @@
         "DOC-P239E-NIKH-0625-0070",
         "DOC-P239L2-UN-A2947",
         "DOC-P252-0820-0060",
-        "DOC-P253E-DH-0910-0020"
+        "DOC-P253E-DH-0910-0020",
+        "DOC-P257R-NIKH-ELECTION"
       ],
       "researchNotes": "pass234B: 1952-12-15 총리 후임 물망으로 언론에 언급, 실제 지명 아님",
       "researchRefs": [
@@ -3458,13 +3524,15 @@
         "data/politicians/pass-239-actors.json",
         "data/politicians/pass-239e-actors.json",
         "data/politicians/pass-239l2-1955-cabinet-election-actors.json",
-        "data/politicians/pass-239m3-1954-economic-parliament-actors.json"
+        "data/politicians/pass-239m3-1954-economic-parliament-actors.json",
+        "data/politicians/pass-257r-1954-election-governance-actors.json"
       ],
       "lastResearchPass": 253,
       "openLeads": [
         "LEAD-P239L2-12",
         "LEAD-P239M3-IDENTITY-cand-1952-sep-yun-chi-yeong",
-        "LEAD-P253E-13"
+        "LEAD-P253E-13",
+        "LEAD-P257R-ACTOR-cand-1952-sep-yun-chi-yeong"
       ],
       "rolesByPeriod": [
         {
@@ -3476,7 +3544,15 @@
           ],
           "attribution": "직접 원문 서한·발언 또는 동시대 언론 보도. 발언의 진위·계획 집행 분리"
         }
-      ]
+      ],
+      "recentResearchPass257R": {
+        "date": "2026-10-29",
+        "role": "1954-05-20 3rd National Assembly winner (later official roster)",
+        "district": "서울 중구 갑",
+        "party": "대한국민당",
+        "source": "DOC-P257R-NIKH-ELECTION",
+        "status": "original election certificate pending; no maturity promotion"
+      }
     },
     {
       "id": "cand-1952-sep-us-ambassador-yang-yu-chan",
@@ -4760,22 +4836,26 @@
       "connections": [
         "evt-p235-assembly-caucus",
         "evt-p235e-assembly-election-results",
-        "evt-p253e-tungsten-parliament-final"
+        "evt-p253e-tungsten-parliament-final",
+        "evt-p257r-19540520-election"
       ],
       "evidenceCoverage": [
         "DOC-P235-NIKH-01_20_0040",
         "DOC-P235E-NIKH-02_01_0020",
-        "DOC-P253E-DH-0910-0080"
+        "DOC-P253E-DH-0910-0080",
+        "DOC-P257R-NIKH-ELECTION"
       ],
       "researchRefs": [
         "data/politicians/pass-235-1953-assembly-cabinet-actors.json",
-        "data/politicians/pass-235-addendum-e-committee-chairs.json"
+        "data/politicians/pass-235-addendum-e-committee-chairs.json",
+        "data/politicians/pass-257r-1954-election-governance-actors.json"
       ],
       "openLeads": [
         "LEAD-P235-009",
         "LEAD-P235-010",
         "LEAD-P253E-07",
-        "LEAD-P253E-25"
+        "LEAD-P253E-25",
+        "LEAD-P257R-ACTOR-cand-p235-park-man-won"
       ],
       "historyDebt": [
         "HD-P235-ASSEMBLY-RESULT"
@@ -4791,7 +4871,15 @@
           "attribution": "직접 원문 서한·발언 또는 동시대 언론 보도. 발언의 진위·계획 집행 분리"
         }
       ],
-      "lastResearchPass": 253
+      "lastResearchPass": 253,
+      "recentResearchPass257R": {
+        "date": "2026-10-29",
+        "role": "1954-05-20 3rd National Assembly winner (later official roster)",
+        "district": "군위군",
+        "party": "자유당",
+        "source": "DOC-P257R-NIKH-ELECTION",
+        "status": "original election certificate pending; no maturity promotion"
+      }
     },
     {
       "id": "cand-p235-kim-jong-sun",
@@ -4868,22 +4956,26 @@
       "connections": [
         "evt-p235-assembly-caucus",
         "evt-p235e-assembly-election-results",
-        "evt-p248-1960-0729-results"
+        "evt-p248-1960-0729-results",
+        "evt-p257r-19540520-election"
       ],
       "evidenceCoverage": [
         "DOC-P235-NIKH-01_20_0040",
         "DOC-P235E-NIKH-02_01_0020",
         "DOC-P247C-NIKH-210",
-        "DOC-P248-NIKH"
+        "DOC-P248-NIKH",
+        "DOC-P257R-NIKH-ELECTION"
       ],
       "researchRefs": [
         "data/politicians/pass-235-1953-assembly-cabinet-actors.json",
         "data/politicians/pass-235-addendum-e-committee-chairs.json",
-        "data/politicians/pass-247c-june1960-original-actors.json"
+        "data/politicians/pass-247c-june1960-original-actors.json",
+        "data/politicians/pass-257r-1954-election-governance-actors.json"
       ],
       "openLeads": [
         "LEAD-P235-009",
-        "LEAD-P235-010"
+        "LEAD-P235-010",
+        "LEAD-P257R-ACTOR-cand-p235-jung-il-hyung"
       ],
       "historyDebt": [
         "HD-P235-ASSEMBLY-RESULT"
@@ -4894,6 +4986,14 @@
           "DOC-P247C-NIKH-210"
         ],
         "verification": "US diplomatic contemporary original; Korean parliamentary primary pending"
+      },
+      "recentResearchPass257R": {
+        "date": "2026-10-29",
+        "role": "1954-05-20 3rd National Assembly winner (later official roster)",
+        "district": "서울 중구 을",
+        "party": "무소속",
+        "source": "DOC-P257R-NIKH-ELECTION",
+        "status": "original election certificate pending; no maturity promotion"
       }
     },
     {
@@ -4940,20 +5040,12 @@
         "evt-p247e-0622-election-law",
         "evt-p248-1960-0729-results",
         "evt-p252-abducted-mps",
-        "evt-p253e-secret-ballot"
+        "evt-p253e-secret-ballot",
+        "evt-p257r-19540520-election"
       ],
-      "evidenceCoverage": {
-        "documentIds": [
-          "DOC-P239K-UN-A2711",
-          "DOC-P239K-AKS-KWAK",
-          "DOC-P239M-NARA-91",
-          "DOC-P239M3-ASSEMBLY-0100",
-          "DOC-P247D-NA-110",
-          "DOC-P248-NIKH",
-          "DOC-P253E-DH-0910-0050"
-        ],
-        "source": "UN original and AKS later biographical synthesis"
-      },
+      "evidenceCoverage": [
+        "DOC-P257R-NIKH-ELECTION"
+      ],
       "researchRefs": [
         "data/politicians/pass-235-1953-assembly-cabinet-actors.json",
         "data/politicians/pass-235-addendum-e-committee-chairs.json",
@@ -4963,7 +5055,8 @@
         "data/documents/pass-245-1960-constitutional-originals.json",
         "data/politicians/pass-247c-june1960-original-actors.json",
         "data/politicians/pass-247d-assembly-actors.json",
-        "data/politicians/pass-247e-1960-legislative-actors.json"
+        "data/politicians/pass-247e-1960-legislative-actors.json",
+        "data/politicians/pass-257r-1954-election-governance-actors.json"
       ],
       "openLeads": [
         "LEAD-P235-009",
@@ -4971,7 +5064,8 @@
         "LEAD-P239K-46",
         "LEAD-P239M-IDENTITY-cand-p235-kwak-sang-hun",
         "LEAD-P239M3-IDENTITY-cand-p235-kwak-sang-hun",
-        "LEAD-P253E-13"
+        "LEAD-P253E-13",
+        "LEAD-P257R-ACTOR-cand-p235-kwak-sang-hun"
       ],
       "historyDebt": [
         "HD-P235-ASSEMBLY-RESULT",
@@ -5056,7 +5150,15 @@
           ],
           "attribution": "직접 원문 서한·발언 또는 동시대 언론 보도. 발언의 진위·계획 집행 분리"
         }
-      ]
+      ],
+      "recentResearchPass257R": {
+        "date": "2026-10-29",
+        "role": "1954-05-20 3rd National Assembly winner (later official roster)",
+        "district": "인천시 을",
+        "party": "무소속",
+        "source": "DOC-P257R-NIKH-ELECTION",
+        "status": "original election certificate pending; no maturity promotion"
+      }
     },
     {
       "id": "cand-p235-yun-gil-jung",
@@ -9258,25 +9360,23 @@
         "evt-p239m-07",
         "evt-p239m2-07",
         "evt-p244g-1960-0429-committee-members",
-        "evt-p247e-0622-exclusion"
+        "evt-p247e-0622-exclusion",
+        "evt-p257r-19540520-election"
       ],
-      "evidenceCoverage": {
-        "documentIds": [
-          "DOC-P239M-NARA-91",
-          "DOC-P239M2-ASSEMBLY-86",
-          "DOC-P247D-NA-110"
-        ],
-        "source": "Original National Assembly stenogram"
-      },
+      "evidenceCoverage": [
+        "DOC-P257R-NIKH-ELECTION"
+      ],
       "researchRefs": [
         "data/politicians/pass-239m-1954-constitutional-actors.json",
         "data/politicians/pass-239m2-constitutional-speakers-and-signers.json",
         "data/politicians/pass-247c-june1960-original-actors.json",
-        "data/politicians/pass-247e-1960-legislative-actors.json"
+        "data/politicians/pass-247e-1960-legislative-actors.json",
+        "data/politicians/pass-257r-1954-election-governance-actors.json"
       ],
       "openLeads": [
         "LEAD-P239M-IDENTITY-cand-p239m-lee-cheol-seung",
-        "LEAD-P239M2-IDENTITY-cand-p239m-lee-cheol-seung"
+        "LEAD-P239M2-IDENTITY-cand-p239m-lee-cheol-seung",
+        "LEAD-P257R-ACTOR-cand-p239m-lee-cheol-seung"
       ],
       "historyDebt": [],
       "promotionReason": "직접 열린 1954년 국회 속기록의 발언자·직책 확인, 생몰 미확인",
@@ -9286,6 +9386,14 @@
           "DOC-P247C-NIKH-200"
         ],
         "verification": "US diplomatic contemporary original; Korean parliamentary primary pending"
+      },
+      "recentResearchPass257R": {
+        "date": "2026-10-29",
+        "role": "1954-05-20 3rd National Assembly winner (later official roster)",
+        "district": "전주시",
+        "party": "무소속",
+        "source": "DOC-P257R-NIKH-ELECTION",
+        "status": "original election certificate pending; no maturity promotion"
       }
     },
     {
@@ -9467,19 +9575,19 @@
       "backbone": true,
       "connections": [
         "evt-p239m2-04",
-        "evt-p239m2-08"
+        "evt-p239m2-08",
+        "evt-p257r-19540520-election"
       ],
-      "evidenceCoverage": {
-        "documentIds": [
-          "DOC-P239M2-ASSEMBLY-82",
-          "DOC-P239M2-AKS-KIM"
-        ]
-      },
+      "evidenceCoverage": [
+        "DOC-P257R-NIKH-ELECTION"
+      ],
       "researchRefs": [
-        "data/politicians/pass-239m2-constitutional-speakers-and-signers.json"
+        "data/politicians/pass-239m2-constitutional-speakers-and-signers.json",
+        "data/politicians/pass-257r-1954-election-governance-actors.json"
       ],
       "openLeads": [
-        "LEAD-P239M2-IDENTITY-pol-kim-youngsam"
+        "LEAD-P239M2-IDENTITY-pol-kim-youngsam",
+        "LEAD-P257R-ACTOR-pol-kim-youngsam"
       ],
       "historyDebt": [],
       "identityReview": {
@@ -9489,7 +9597,15 @@
       "presidentBackboneId": "president-kim-youngsam",
       "evidenceFile": "data/evidence/kim-youngsam.json",
       "annalsFile": "data/annals/kim-youngsam.md",
-      "promotionReason": "1954 국회 제82·91차 원속기록의 두 별도 서명과 AKS 김영삼 인물항목 교차"
+      "promotionReason": "1954 국회 제82·91차 원속기록의 두 별도 서명과 AKS 김영삼 인물항목 교차",
+      "recentResearchPass257R": {
+        "date": "2026-10-29",
+        "role": "1954-05-20 3rd National Assembly winner (later official roster)",
+        "district": "통영군 을",
+        "party": "자유당",
+        "source": "DOC-P257R-NIKH-ELECTION",
+        "status": "original election certificate pending; no maturity promotion"
+      }
     },
     {
       "id": "cand-p239m2-hyun-seok-ho",
@@ -9550,23 +9666,22 @@
         "evt-p239m2-05",
         "evt-p239m2-06",
         "evt-p243-1958-1219-committee",
-        "evt-p244g-1960-0429-committee-members"
+        "evt-p244g-1960-0429-committee-members",
+        "evt-p257r-19540520-election"
       ],
-      "evidenceCoverage": {
-        "documentIds": [
-          "DOC-P239M2-ASSEMBLY-83",
-          "DOC-P239M2-ASSEMBLY-84",
-          "DOC-P247D-NA-120"
-        ]
-      },
+      "evidenceCoverage": [
+        "DOC-P257R-NIKH-ELECTION"
+      ],
       "researchRefs": [
         "data/politicians/pass-239m2-constitutional-speakers-and-signers.json",
         "data/politicians/pass-247c-june1960-original-actors.json",
         "data/politicians/pass-247d-assembly-actors.json",
-        "data/politicians/pass-247e-1960-legislative-actors.json"
+        "data/politicians/pass-247e-1960-legislative-actors.json",
+        "data/politicians/pass-257r-1954-election-governance-actors.json"
       ],
       "openLeads": [
-        "LEAD-P239M2-IDENTITY-cand-p239m2-cho-jae-cheon"
+        "LEAD-P239M2-IDENTITY-cand-p239m2-cho-jae-cheon",
+        "LEAD-P257R-ACTOR-cand-p239m2-cho-jae-cheon"
       ],
       "historyDebt": [],
       "researchOverlays": [
@@ -9586,6 +9701,14 @@
           "DOC-P247D-NA-120"
         ],
         "verification": "국회 원회의록 본문 전사 직접 확인"
+      },
+      "recentResearchPass257R": {
+        "date": "2026-10-29",
+        "role": "1954-05-20 3rd National Assembly winner (later official roster)",
+        "district": "달성군",
+        "party": "민주국민당",
+        "source": "DOC-P257R-NIKH-ELECTION",
+        "status": "original election certificate pending; no maturity promotion"
       }
     },
     {
@@ -10219,20 +10342,29 @@
       "researchStatus": "IDENTIFIED",
       "backbone": false,
       "connections": [
-        "evt-p239m3-07"
+        "evt-p239m3-07",
+        "evt-p257r-19540520-election"
       ],
-      "evidenceCoverage": {
-        "documentIds": [
-          "DOC-P239M3-ASSEMBLY-0100"
-        ]
-      },
+      "evidenceCoverage": [
+        "DOC-P257R-NIKH-ELECTION"
+      ],
       "researchRefs": [
-        "data/politicians/pass-239m3-1954-economic-parliament-actors.json"
+        "data/politicians/pass-239m3-1954-economic-parliament-actors.json",
+        "data/politicians/pass-257r-1954-election-governance-actors.json"
       ],
       "openLeads": [
-        "LEAD-P239M3-IDENTITY-cand-p239m3-lee-in"
+        "LEAD-P239M3-IDENTITY-cand-p239m3-lee-in",
+        "LEAD-P257R-ACTOR-cand-p239m3-lee-in"
       ],
-      "historyDebt": []
+      "historyDebt": [],
+      "recentResearchPass257R": {
+        "date": "2026-10-29",
+        "role": "1954-05-20 3rd National Assembly winner (later official roster)",
+        "district": "서울 영등포 을",
+        "party": "대한국민당",
+        "source": "DOC-P257R-NIKH-ELECTION",
+        "status": "original election certificate pending; no maturity promotion"
+      }
     },
     {
       "id": "cand-p239m3-yun-man-seok",
@@ -12312,19 +12444,31 @@
       "backbone": false,
       "connections": [
         "evt-p247-0608-expulsion",
-        "evt-p247-0901-split"
+        "evt-p247-0901-split",
+        "evt-p257r-19540520-election"
       ],
       "evidenceCoverage": [
         "DOC-P247-AKS-DALHO",
-        "DOC-P247-KDEMO-0608"
+        "DOC-P247-KDEMO-0608",
+        "DOC-P257R-NIKH-ELECTION"
       ],
       "researchRefs": [
-        "data/politicians/pass-247-1960-party-network.json"
+        "data/politicians/pass-247-1960-party-network.json",
+        "data/politicians/pass-257r-1954-election-governance-actors.json"
       ],
       "openLeads": [
-        "LEAD-P247-IDENTITY-cand-p247-kim-dal-ho"
+        "LEAD-P247-IDENTITY-cand-p247-kim-dal-ho",
+        "LEAD-P257R-ACTOR-cand-p247-kim-dal-ho"
       ],
-      "identityCaveat": "1960 original records pending; two Kim Seong-suk IDs never merge; 金成璹 unverified"
+      "identityCaveat": "1960 original records pending; two Kim Seong-suk IDs never merge; 金成璹 unverified",
+      "recentResearchPass257R": {
+        "date": "2026-10-29",
+        "role": "1954-05-20 3rd National Assembly winner (later official roster)",
+        "district": "상주군 갑",
+        "party": "무소속",
+        "source": "DOC-P257R-NIKH-ELECTION",
+        "status": "original election certificate pending; no maturity promotion"
+      }
     },
     {
       "id": "cand-p247-lee-dong-hwa",
@@ -16067,6 +16211,141 @@
       "researchRefs": [
         "data/politicians/pass-257q-1954-cabinet-actors.json"
       ]
+    },
+    {
+      "id": "cand-p257r-kim-ji-tae-1954",
+      "name": "김지태",
+      "aliases": [
+        "Kim Ji-tae (provisional)"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "OPEN: original civil registry not checked"
+      },
+      "roles": [
+        "제3대 민의원 부산시 갑 당선 (자유당, later official NIKH list)"
+      ],
+      "rolesByPeriod": [
+        {
+          "date": "1954-05-20",
+          "role": "민의원 선거구 당선자",
+          "constituency": "부산시 갑",
+          "party": "자유당",
+          "selection": "election",
+          "evidence": [
+            "DOC-P257R-NIKH-ELECTION"
+          ]
+        }
+      ],
+      "researchStatus": "IDENTIFIED",
+      "connections": [
+        "evt-p257r-19540520-election"
+      ],
+      "evidenceCoverage": [
+        "DOC-P257R-NIKH-ELECTION",
+        "DOC-P257R-NEC"
+      ],
+      "researchRefs": [
+        "data/politicians/pass-257r-1954-election-governance-actors.json"
+      ],
+      "openLeads": [
+        "LEAD-P257R-ACTOR-cand-p257r-kim-ji-tae-1954"
+      ],
+      "historyDebt": [
+        "HD-1954-ELECTION-CLASSIFICATION"
+      ],
+      "lastResearchPass": "257R"
+    },
+    {
+      "id": "cand-p257r-seo-dong-jin-1954",
+      "name": "서동진",
+      "aliases": [
+        "Seo Dong-jin (provisional)"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "OPEN: original civil registry not checked"
+      },
+      "roles": [
+        "제3대 민의원 대구시 갑 당선 (민주국민당, later official NIKH list)"
+      ],
+      "rolesByPeriod": [
+        {
+          "date": "1954-05-20",
+          "role": "민의원 선거구 당선자",
+          "constituency": "대구시 갑",
+          "party": "민주국민당",
+          "selection": "election",
+          "evidence": [
+            "DOC-P257R-NIKH-ELECTION"
+          ]
+        }
+      ],
+      "researchStatus": "IDENTIFIED",
+      "connections": [
+        "evt-p257r-19540520-election"
+      ],
+      "evidenceCoverage": [
+        "DOC-P257R-NIKH-ELECTION",
+        "DOC-P257R-NEC"
+      ],
+      "researchRefs": [
+        "data/politicians/pass-257r-1954-election-governance-actors.json"
+      ],
+      "openLeads": [
+        "LEAD-P257R-ACTOR-cand-p257r-seo-dong-jin-1954"
+      ],
+      "historyDebt": [
+        "HD-1954-ELECTION-CLASSIFICATION"
+      ],
+      "lastResearchPass": "257R"
+    },
+    {
+      "id": "cand-p257r-kim-du-han-1954",
+      "name": "김두한",
+      "aliases": [
+        "Kim Du-han (provisional)"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "OPEN: original civil registry not checked"
+      },
+      "roles": [
+        "제3대 민의원 서울 종로 을 당선 (무소속, later official NIKH list)"
+      ],
+      "rolesByPeriod": [
+        {
+          "date": "1954-05-20",
+          "role": "민의원 선거구 당선자",
+          "constituency": "서울 종로 을",
+          "party": "무소속",
+          "selection": "election",
+          "evidence": [
+            "DOC-P257R-NIKH-ELECTION"
+          ]
+        }
+      ],
+      "researchStatus": "IDENTIFIED",
+      "connections": [
+        "evt-p257r-19540520-election"
+      ],
+      "evidenceCoverage": [
+        "DOC-P257R-NIKH-ELECTION",
+        "DOC-P257R-NEC"
+      ],
+      "researchRefs": [
+        "data/politicians/pass-257r-1954-election-governance-actors.json"
+      ],
+      "openLeads": [
+        "LEAD-P257R-ACTOR-cand-p257r-kim-du-han-1954"
+      ],
+      "historyDebt": [
+        "HD-1954-ELECTION-CLASSIFICATION"
+      ],
+      "lastResearchPass": "257R"
     }
   ],
   "recentResearchPass232": {
@@ -16506,5 +16785,12 @@
     "actor_overlays": 21,
     "source": "data/politicians/pass-257q-1954-cabinet-actors.json",
     "evidence_role_correction": "2026-10-29 claim support/contradiction corrected, provisional English variants supplied for 5 new candidates"
+  },
+  "recentResearchPass257R": {
+    "date": "2026-10-29",
+    "overlay": "data/politicians/pass-257r-1954-election-governance-actors.json",
+    "existing_deepened": 13,
+    "new_candidates": 3,
+    "original_birth_death_verified": 0
   }
 }
