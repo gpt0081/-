@@ -168,3 +168,6 @@
 - 2026-10-29 Pass257S: `data/events/pass-257s-1954-visit-nnsc-actions.json` 방미초청·한미회담·원용덕 발언·인천/부산/군산 3개 별도 사건·변영태 발언 19개.
 - 2026-10-29 Pass257T 1954 공개발언·한미합의의사록·방위조약 발효 14개 event.
 - 2026-10-29 Pass257U 주거·신문·한글·정당 공개정책 4개 event.
+
+- 2026-10-29 Pass257W 1954 총선/개헌준비/제네바 4개 action `data/events/pass-257w-1954-election-geneva-actions.json`; 국무회의 4/10·4/26·6/11·8/31 4개 발췌기반 action `data/events/pass-257w2-1954-cabinet-constitutional-actions.json`.
+- Pass257W3 UNCURK 1954 원문에 근거한 13개 행위: 1953 자유당 제명, 1954 UN 선거관찰 서한·경찰 불개입 공개지시, 5/31 UNKRA 협정, 국회 지도부 선출, 총리·내각 신임 및 임면, 원조 조정 `data/events/pass-257w3-uncurk-1954-election-aid-cabinet-actions.json`.
