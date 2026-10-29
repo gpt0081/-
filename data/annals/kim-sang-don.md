@@ -15,3 +15,13 @@
 - https://archives.seoul.go.kr/contents/seoul-photo-archive/12
 - https://db.history.go.kr/id/tcct_1960_07_29_0010
 - https://www.donga.com/news/amp/all/20050104/8146183/1
+
+
+## pass249 · 1961년 1~3월 서울시정 원기록 색인(2026-10-29 조사)
+- 1961-01-05 서울시청 간부 접견 RG5-SR58-IT8215, 국군묘지 참배 RG5-SR60-IT1778, 4월혁명 유족회 방문 RG5-SR70-IT3414. **원사진은 미열람**, 사진목록 설명만 확인. 1961-01-05 취임 회고의 주변 행정행위는 보강되지만 원취임공고를 대체하지 않는다.
+- 1961-01-06 USIS 뉴스 인터뷰 RG5-SR64-IT4121. 발언 원문 미확보.
+- 1961-02-06 중구청 초도순시 RG5-SR56-IT8502: 기록 제목·설명은 '중구청', 키워드·연관기관은 '종로구청'. 기록원 메타데이터 자체의 **CONFLICTED**를 보존한다.
+- 1961-02-22 서대문구청 기술요원 교양강좌 RG5-SR86-IT919. 강연문·예산 미확보.
+- 1961-03-31 월남어민 10명에 서울특별시 시민증 수여 RG5-SR53-IT8949(경향신문 1961-03-31 3면 인용). **국적 취득·귀화 증거로 확대하지 않는다**.
+- 서울기록원 1961-01-01 대통령 윤보선 방문 RG5-SR58-IT8213, 장면 국무총리 방문 RG5-SR100-IT6232의 사진목록 생산일은 1/5 취임 회고와 표면상 충돌한다. 실제 촬영일·사진목록 날짜 관행 미확인. 이승만 퇴임 이후 윤보선·장면 시기 사건으로 처리.
+- 새 문서 registry: data/documents/pass-249-civic-rights-seoul.json; 사건: data/events/pass-249-civil-rights-and-seoul.json; 원문 표적: data/research/leads/pass-249-next-originals.json.

@@ -151,3 +151,5 @@
 - `data/documents/pass-247d-korean-assembly-originals.json`: 국회 원회의록 12건, 6/15 개헌208:3 국내원문.
 
 - 2026-10-29 pass248: `data/documents/pass-248-1960-local-election-crosscheck.json` (1960 지방선거·김상돈·출처충돌 검증).
+
+- 2026-10-29 pass249: `data/documents/pass-249-civic-rights-seoul.json` (법률원문 전사·공문서 색인·신문전사·서울시 사진목록; original_text_opened 구분).

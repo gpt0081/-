@@ -189,3 +189,5 @@
 - 2026-10-29 pass247e 중앙 registry 호환 통합: `data/politicians/pass-247e-1960-legislative-actors.json` 후보5명/기존14명 보강. 최규남 두 노드는 신원 미확인으로 병합하지 않음.
 
 - 2026-10-29 pass248: `data/politicians/pass-248-1960-election-actors.json` (1960 지방선거·김상돈·출처충돌 검증).
+
+- 2026-10-29 pass249: `data/politicians/pass-249-civil-rights-actors.json` (신규 후보 16명; 1961 공민권 제한·의회 이의, 동명이인 병합 보류).

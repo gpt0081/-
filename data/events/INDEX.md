@@ -103,3 +103,5 @@
 - 2026-10-29 pass247e 중앙 registry 호환 통합: `data/events/pass-247e-1960-election-administration-actions.json` 13건. 사건 원형은 shard, 호환 조회는 `data/events.json`.
 
 - 2026-10-29 pass248: `data/events/pass-248-1960-local-elections.json` (1960 지방선거·김상돈·출처충돌 검증).
+
+- 2026-10-29 pass249: `data/events/pass-249-civil-rights-and-seoul.json` (사건 16건, 중앙 registry additive 통합).
