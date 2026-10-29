@@ -12,10 +12,7 @@
         "DOC-P258E-ROK-AID-BG0000076",
         "DOC-P239L-FRUS-103"
       ],
-      "related_politicians": [
-        "pol-paik-too-chin",
-        "cand-p239l-kim-hyeon-cheol"
-      ],
+      "related_politicians": [],
       "proposed_by": [],
       "decided_by": [],
       "executed_by": [],
@@ -26,7 +23,7 @@
         "DOC-P239L-FRUS-103"
       ],
       "later_finding": [],
-      "qualification": "1956-02-27 부흥부 문서 해제는 협상/합의 존재를 설명하나 항목별 승인·집행 실적은 미확인."
+      "qualification": "1956-02-27 부흥부 문서 해제는 협상/합의 존재를 설명하나 항목별 승인·집행 실적은 미확인. BG0000076 해제에는 한국측 부흥부·재무부·한국은행·외자청 기관만 명시되므로 백두진·김현철 개인 참석·서명은 귀속하지 않는다."
     },
     {
       "id": "evt-p258e-02",
@@ -75,34 +72,6 @@
       "qualification": "5월20일~9월29일 시행계획과 실제 시행 확인은 구분."
     },
     {
-      "id": "evt-p258e-04",
-      "date": "1956-05-15",
-      "name": "대통령 선거 개표표: 이승만 5046437 조봉암 2163808",
-      "domain": "선거",
-      "source_document_ids": [
-        "DOC-P258E-NIKH-ELECTION-1956",
-        "DOC-P239L-FRUS-146-EDITORIAL"
-      ],
-      "related_politicians": [
-        "pol-rhee-syngman",
-        "pol-cho-bong-am",
-        "cand-1952-speaker-shin-ik-hui",
-        "cand-1952-nov-chang-myon",
-        "pol-yi-ki-pung"
-      ],
-      "proposed_by": [],
-      "decided_by": [],
-      "executed_by": [],
-      "opposed_by": [],
-      "legal_authority": [],
-      "observed_by": [
-        "DOC-P258E-NIKH-ELECTION-1956",
-        "DOC-P239L-FRUS-146-EDITORIAL"
-      ],
-      "later_finding": [],
-      "qualification": "FRUS 55.6%는 투표자수 기준 약55.66%, 국편 유효표 기준 약69.99%. 신익희 0표는 사망에 따른 미투표이며 부통령 선거 별도."
-    },
-    {
       "id": "evt-p258e-05",
       "date": "1956-05-20",
       "name": "일광절약시간 개시일 (기록물 해제)",
@@ -121,36 +90,6 @@
       ],
       "later_finding": [],
       "qualification": "안건이 지정한 개시일. 실제 전국 시간변경의 시행명령/관보 원면 미확인."
-    },
-    {
-      "id": "evt-p258e-06",
-      "date": "1956-06",
-      "name": "1956 선거 후 외무·국방·재무·부흥부 및 육군 지휘 인사변경의 미국측 요약",
-      "domain": "인사·행정",
-      "source_document_ids": [
-        "DOC-P239L-FRUS-146-EDITORIAL"
-      ],
-      "related_politicians": [
-        "pol-cho-chung-whan",
-        "pol-sohn-won-yil",
-        "cand-p241-kim-yong-u-defense-1956",
-        "cand-p239l-in-tae-sik",
-        "cand-p239l-kim-hyeon-cheol",
-        "pol-paik-too-chin",
-        "cand-p235c-lee-hyung-keun",
-        "cand-1952-nov-chong-il-kwon",
-        "pol-yi-ki-pung"
-      ],
-      "proposed_by": [],
-      "decided_by": [],
-      "executed_by": [],
-      "opposed_by": [],
-      "legal_authority": [],
-      "observed_by": [
-        "DOC-P239L-FRUS-146-EDITORIAL"
-      ],
-      "later_finding": [],
-      "qualification": "미국 편집주 요약만으로 개별 임명일·결재권자·한국측 발령원문 확정 불가."
     },
     {
       "id": "evt-p258e-07",
@@ -253,32 +192,17 @@
       ],
       "later_finding": [],
       "qualification": "색인상 상정만 확인, 관보 시행일 미확인."
-    },
+    }
+  ],
+  "canonicalReused": [
+    "evt-p239l-11",
+    "evt-p239l-12",
+    "evt-p239l-13"
+  ],
+  "correctionHistory": [
     {
-      "id": "evt-p258e-12",
-      "date": "1956-05-25",
-      "name": "16개국 협의 NNSC 단계별 이동안 합의",
-      "domain": "외교·안보",
-      "source_document_ids": [
-        "DOC-P239L-FRUS-149",
-        "DOC-P239L-FRUS-154"
-      ],
-      "related_politicians": [
-        "pol-rhee-syngman",
-        "pol-cho-chung-whan",
-        "cand-1952-sep-us-ambassador-yang-yu-chan"
-      ],
-      "proposed_by": [],
-      "decided_by": [],
-      "executed_by": [],
-      "opposed_by": [],
-      "legal_authority": [],
-      "observed_by": [
-        "DOC-P239L-FRUS-149",
-        "DOC-P239L-FRUS-154"
-      ],
-      "later_finding": [],
-      "qualification": "미국 국무부 원전: 발표·이동 간 시차, 6월 영국의 집행방식 이의제기 분리."
+      "date": "2026-10-30",
+      "reason": "Existing pass239l already has election result, post-election cabinet changes and May25 NNSC 16-country agreement. Retire duplicate pass258e-04/06/12; reference existing canonical events instead."
     }
   ]
 }

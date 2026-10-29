@@ -11,3 +11,6 @@
 1956-07-06 제62회 국무회의의 월동연료대책, 조선전업·대한석탄공사 손실금 보전, 전력확보 안건은 평시 경제·에너지 운영의 새로운 원문 추적선이다. 1956-07-07 제63회 농림부 직제 개정안은 조직행정 조사선이다. 목록 PDF 직접 접근이 차단되어 색인정보만 확보했고 결의·시행으로 계산하지 않는다.
 
 자료: https://theme.archives.go.kr/next/chronology/archiveDetail.do?evntId=0049272233&flag=2&page=146&sort= ; https://theme.archives.go.kr/next/chronology/archiveDetail.do?evntId=0049272301&flag=2&page=33&sort=year ; https://theme.archives.go.kr/next/chronology/archiveDetail.do?evntId=0049272167&flag=2&page=208&sort= ; https://db.history.go.kr/id/tcct_1956_05_15_0010 ; https://encykorea.aks.ac.kr/Article/E0080923 ; https://history.state.gov/historicaldocuments/frus1955-57v23p2/d127 ; https://history.state.gov/historicaldocuments/frus1955-57v23p2/d155 .
+
+## 중복·귀속 감사
+Pass239L에 이미 있는 선거 결과·선거 후 인사·NNSC 5/25 사건은 별도 신규 사건으로 세지 않는다. 1956-01 원조 회담의 한국측 참석 개인은 BG0000076 원면이 열리기 전 미확인으로 유지한다.

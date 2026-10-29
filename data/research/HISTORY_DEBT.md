@@ -2087,3 +2087,7 @@
 - `HD-P258E-INDUSTRY-OWNERSHIP` [OPEN]: BA0084206 제61회 상공부 공장운영체 결정요령 9면 색인과 문경시멘트 1957 준공·1959 인수 후대 해설 확인. 1956 제안은 1959 계약이 아님.
 - `HD-P258E-CABINET-CATALOG-ACCESS` [BLOCKED]: 1956 국무회의 안건 목록 PDF는 검색색인 노출, 원문 open DisabledError. 기록 소실이 아니라 이번 경로의 접근 차단. BA0084205/06 국가기록원 원면 별도 신청 필요.
 - 기존 8건 추적결과: `data/research/history-debt/pass-258e-1956-domestic-triage.json`. 강제 RESOLVED 없음, last_full_review 불변. 역사부채 주간 전수조사 미실시.
+
+### Pass258E 정정 이력 (2026-10-30)
+- 기존 Pass239L의 1956-05-15 선거, 선거 후 인사, 1956-05-25 NNSC 16개국 합의 사건과 중복한 신규 event 3건을 제거했다. Pass258E 순증 event 9건, 기존 canonical 3건 재사용.
+- BG0000076 국가기록원 해제에는 한국측 참석기관만 명시되어 백두진·김현철 개인 서명/참석은 확인되지 않았다. 개인 직접행위 귀속을 철회하고 기관 단계로 보존. 양유찬 이번 회차 추가 행위 불확정으로 actor overlay에서 제외.
