@@ -1007,7 +1007,8 @@
         "evt-p252-credit-split",
         "evt-p252b-tungsten-minister-answers",
         "evt-p252c-fx-tax",
-        "evt-p253-tungsten"
+        "evt-p253-tungsten",
+        "evt-p253d-tungsten-final"
       ],
       "researchNotes": "1\n9\n5\n2\n~\n5\n3\n \n재\n정\n·\n원\n조\n·\n휴\n전\n외\n교\n \n교\n차\n \n행\n위\n자\n.\n \n1\n9\n5\n3\n-\n0\n8\n-\n0\n6\n \n경\n제\n·\n군\n사\n원\n조\n \n회\n의\n에\n서\n \n통\n합\n \n경\n제\n기\n구\n를\n \n통\n한\n \n원\n조\n \n프\n로\n그\n램\n \nM\nO\nU\n의\n \n미\n국\n \n최\n종\n승\n인\n을\n \n직\n접\n \n요\n청\n한\n \n기\n록\n과\n \n덜\n레\n스\n \n회\n담\n \n참\n여\n가\n \n확\n인\n되\n어\n \nV\nE\nR\nI\nF\nI\nE\nD\n로\n \n승\n격\n.\n \nC\nE\nB\n/\n환\n율\n/\n재\n건\n원\n조\n \n한\n국\n측\n \n문\n서\n \n확\n보\n \n후\n \nA\nN\nN\nA\nL\nS\n_\nA\nC\nT\nI\nV\nE\n \n검\n토\n.\n2026-10-28 pass233 정정: 직접 출처 없이 연결된 event edge 제거, 인물 candidate 연구 단서는 보존\npass234B: 1952-12-12 부흥부 신설 구상·유엔 원화대여금 4580억원 주장·11/13 현금교환 요청 공한, 12/15 450만석 양곡수입 합의 주장",
       "pass232Overlay": "data/politicians/pass-232-1952-september-actors.json",
@@ -1070,7 +1071,8 @@
         "DOC-P252-0821-0050",
         "DOC-P231-KOR-0826",
         "DOC-P252C-0831-0060",
-        "DOC-P253-DH-0906-0030"
+        "DOC-P253-DH-0906-0030",
+        "DOC-P253D-DH-0908-0100"
       ],
       "lastResearchPass": 253,
       "evidenceFile": "data/evidence/paik-too-chin-1953.json",
@@ -1148,6 +1150,15 @@
             "DOC-P253-DH-0906-0030"
           ],
           "attribution": "당시 보도·문서에 적힌 본인 행위만 귀속"
+        },
+        {
+          "date": "1952-09-08",
+          "role": "기존 등록 공직",
+          "actionType": "재무장관 중석불 특위 출석요구 불응 보도(8/26 본회의와 구분)",
+          "evidence": [
+            "DOC-P253D-DH-0908-0100"
+          ],
+          "attribution": "동시대 원문 보도 범위만 귀속, 법률·집행 확정 아님"
         }
       ]
     },
@@ -1194,7 +1205,9 @@
         "evt-p239j-15",
         "evt-p239j-22",
         "evt-p239l2-13",
-        "evt-p240-08"
+        "evt-p240-08",
+        "evt-p253d-pyun-press",
+        "evt-p253d-pyun-un-transfer"
       ],
       "researchNotes": "1953 휴전·반공포로·한미상호방위조약에서 반복 확인. 1953-08-07 공동성명 문구 수정 제안과 08-08 덜레스와 조약 초안 가조인이라는 직접 행위가 공식 외교기록으로 확인되어 VERIFIED로 승격. 향후 외무부 한국측 회의록·서명훈령 확보 시 ANNALS_ACTIVE 검토.",
       "pass232Overlay": "data/politicians/pass-232-1952-september-actors.json",
@@ -1229,9 +1242,11 @@
         "DOC-P239I-FRUS-740",
         "DOC-P239I-FRUS-741",
         "DOC-P239L2-UN-A2947",
-        "DOC-P240-FRUS-70"
+        "DOC-P240-FRUS-70",
+        "DOC-P253D-DH-0908-0050",
+        "DOC-P253D-DH-0908-0080"
       ],
-      "lastResearchPass": "239I",
+      "lastResearchPass": 253,
       "recentResearchPass239J": {
         "date": "2026-10-29",
         "documents": [
@@ -1274,7 +1289,8 @@
         }
       ],
       "openLeads": [
-        "LEAD-P239K2-01"
+        "LEAD-P239K2-01",
+        "LEAD-P253D-10"
       ],
       "recentResearchPass240": {
         "date": "2026-10-29",
@@ -1286,7 +1302,27 @@
           "evt-p240-08"
         ],
         "openLead": "한국 인사관보·원발신·원회의록으로 7/30~8/1 사임 날짜 충돌 당사자 검증"
-      }
+      },
+      "rolesByPeriod": [
+        {
+          "date": "1952-09-08",
+          "role": "기존 등록 공직",
+          "actionType": "외무장관 유엔대표단·한일회담·태국대사교환·이민 회견",
+          "evidence": [
+            "DOC-P253D-DH-0908-0050"
+          ],
+          "attribution": "동시대 원문 보도 범위만 귀속, 법률·집행 확정 아님"
+        },
+        {
+          "date": "1952-09-08",
+          "role": "기존 등록 공직",
+          "actionType": "외무장관 정전협상 유엔이관 반대 담화",
+          "evidence": [
+            "DOC-P253D-DH-0908-0080"
+          ],
+          "attribution": "동시대 원문 보도 범위만 귀속, 법률·집행 확정 아님"
+        }
+      ]
     },
     {
       "id": "pol-lee-beom-seok-1900",
@@ -2570,7 +2606,9 @@
         "evt-p239i-13",
         "evt-p252b-cabinet-reshuffle",
         "evt-p252c-land-cash",
-        "evt-p253-land"
+        "evt-p253-land",
+        "evt-p253d-shin-grain",
+        "evt-p253d-grain-reject"
       ],
       "evidenceFile": "data/politicians/pass-232-1952-september-actors.json",
       "openLeadsFile": "data/research/leads/pass-232-20261028-next-lead-queue.json",
@@ -2608,7 +2646,9 @@
         "DOC-P239I-LAND-0627",
         "DOC-P252B-0829-0030",
         "DOC-P252C-0831-0050",
-        "DOC-P253-DH-0906-0040"
+        "DOC-P253-DH-0906-0040",
+        "DOC-P253D-DH-0906-0060",
+        "DOC-P253D-DH-0908-0110"
       ],
       "promotionReason": "기존 동시대 농정 6개 사건 + AKS 생몰·장관 재임 + 법제처 1953 농림 직제 확인; 개인별 실록 개설. 법령 기안 귀속은 미확인",
       "annalsFile": "data/annals/shin-jung-mok.md",
@@ -2621,10 +2661,30 @@
             "DOC-P253-DH-0906-0040"
           ],
           "attribution": "당시 보도·문서에 적힌 본인 행위만 귀속"
+        },
+        {
+          "date": "1952-09-06",
+          "role": "기존 등록 공직",
+          "actionType": "농림장관 241만4000석 양곡계획·970만석 추곡전망",
+          "evidence": [
+            "DOC-P253D-DH-0906-0060"
+          ],
+          "attribution": "동시대 원문 보도 범위만 귀속, 법률·집행 확정 아님"
+        },
+        {
+          "date": "1952-09-08",
+          "role": "기존 등록 공직",
+          "actionType": "농림부 제출 곡가 5.08배·4.38배 원안 농림위 부결",
+          "evidence": [
+            "DOC-P253D-DH-0908-0110"
+          ],
+          "attribution": "동시대 원문 보도 범위만 귀속, 법률·집행 확정 아님"
         }
       ],
       "openLeads": [
-        "LEAD-P253-01"
+        "LEAD-P253-01",
+        "LEAD-P253D-01",
+        "LEAD-P253D-02"
       ]
     },
     {
@@ -4598,12 +4658,14 @@
       "connections": [
         "evt-p235-assembly-caucus",
         "evt-p235e-assembly-election-results",
-        "evt-p253-land"
+        "evt-p253-land",
+        "evt-p253d-land-27th"
       ],
       "evidenceCoverage": [
         "DOC-P235-NIKH-01_20_0040",
         "DOC-P235E-NIKH-02_01_0020",
-        "DOC-P253-DH-0906-0040"
+        "DOC-P253-DH-0906-0040",
+        "DOC-P253D-DH-0908-0090"
       ],
       "researchRefs": [
         "data/politicians/pass-235-1953-assembly-cabinet-actors.json",
@@ -4613,7 +4675,8 @@
       "openLeads": [
         "LEAD-P235-009",
         "LEAD-P235-010",
-        "LEAD-P253-01"
+        "LEAD-P253-01",
+        "LEAD-P253D-01"
       ],
       "historyDebt": [
         "HD-P235-ASSEMBLY-RESULT"
@@ -4627,6 +4690,15 @@
             "DOC-P253-DH-0906-0040"
           ],
           "attribution": "당시 보도·문서에 적힌 본인 행위만 귀속"
+        },
+        {
+          "date": "1952-09-08",
+          "role": "기존 등록 공직",
+          "actionType": "국회 농림위원장 제27차 본회의 현금상환 개정안 답변",
+          "evidence": [
+            "DOC-P253D-DH-0908-0090"
+          ],
+          "attribution": "동시대 원문 보도 범위만 귀속, 법률·집행 확정 아님"
         }
       ],
       "lastResearchPass": 253
@@ -5832,6 +5904,15 @@
             "DOC-P253-DH-0904-0040"
           ],
           "attribution": "당시 보도·문서에 적힌 본인 행위만 귀속"
+        },
+        {
+          "date": "1952-09-08",
+          "role": "기존 등록 공직",
+          "actionType": "국회 국방위원장 미 하원 방문단 50만명·군원·방위조약 요청",
+          "evidence": [
+            "DOC-P253D-DH-0908-0070"
+          ],
+          "attribution": "동시대 원문 보도 범위만 귀속, 법률·집행 확정 아님"
         }
       ],
       "eventIds": [
@@ -5839,11 +5920,13 @@
       ],
       "evidenceCoverage": [
         "DOC-P238-KOR-05_27_0060",
-        "DOC-P253-DH-0904-0040"
+        "DOC-P253-DH-0904-0040",
+        "DOC-P253D-DH-0908-0070"
       ],
       "openLeads": [
         "LEAD-P238C-010",
-        "LEAD-P253-12"
+        "LEAD-P253-12",
+        "LEAD-P253D-13"
       ],
       "historyDebt": [
         "original official roster/stenogram pending"
@@ -5853,7 +5936,8 @@
       "backbone": false,
       "connections": [
         "evt-p238c-1953-05-27-kim-death",
-        "evt-p253-military-delegation"
+        "evt-p253-military-delegation",
+        "evt-p253d-kimjong-us"
       ],
       "researchRefs": [
         "data/politicians/pass-238c-korean-actors.json",
@@ -14077,5 +14161,17 @@
     ],
     "overlay": "data/research/politicians/pass-253-1952-september-actor-profiles.json",
     "note": "기존 장택상 중복 ID는 병합하지 않음. 진헌식 재임시작은 MOIS 1952-08-29, 9/18은 관찰일이지 임명일로 해석 금지."
+  },
+  "recentResearchPass253D": {
+    "date": "2026-10-29",
+    "newCandidates": 0,
+    "deepenedExisting": [
+      "pol-pyun-yong-tae",
+      "cand-p238-kim-jong-hoe",
+      "cand-1952-sep-agri-shin-jung-mok",
+      "cand-p235-park-jung-geun",
+      "pol-paik-too-chin"
+    ],
+    "note": "pass253 본회차 10명 + 추가 변영태 = 고유 기존 비대통령 11명"
   }
 }
