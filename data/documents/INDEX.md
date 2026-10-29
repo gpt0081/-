@@ -221,3 +221,5 @@
 - Pass257W4 윤건중 AKS 독립 인명·생몰, 1954-04-06 담화의 04-08 경향신문 보도 후대 인용: `data/documents/pass-257w4-1954-minister-speech-secondary.json`.
 
 - 2026-10-30 Pass258A: `data/documents/pass-258a-1954-foa-frus-source-audit.json` (1954 FOA 원조 원문 및 1954 한미·총선 반증, 기존 FRUS canonical ID 재사용; Floot 변경 없음).
+
+- `data/documents/pass-258b-1953-54-aid-authority-primary.json` (1953 닷지 조직안·FRUS d728·EO10458·아이젠하워 의회교서·1954 6월 OEC 비망록 5절; 동일 원작성 계열 중복 주의)
