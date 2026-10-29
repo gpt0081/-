@@ -2841,19 +2841,45 @@
       "institutions": [],
       "evidenceState": "structured-with-open-leads",
       "confirmed": [
-        "문서 DOC-P234-NIKH-1201-0070에 동시대 보도 또는 정부 원작성 문서가 존재함. 정책·집행 강도는 원문별 제한을 따른다."
+        "문서 DOC-P234-NIKH-1201-0070에 동시대 보도 또는 정부 원작성 문서가 존재함. 정책·집행 강도는 원문별 제한을 따른다.",
+        "민주신보 1952-12-03 원문 전사에서 1952-12-01 국회 추가예산안 심사, 재경위원장 오위영 및 정재완·엄상섭 질의·정부 답변 요지 확인. 해당 보도 원문은 기존 DOC-P234-NIKH-1201-0070 재사용."
       ],
       "openQuestions": [
-        "재경위원장 보고와 의원 질의 확인, 최종 확정·지출은 별개"
+        "재경위원장 보고와 의원 질의 확인, 최종 확정·지출은 별개",
+        "같은 기사 내부 오위영(吳緯泳)·오재경 위원장 표기 차이 원신문·국회 속기 대조; 추경 최종 표결·집행 구분"
       ],
       "sources": [
         "https://db.history.go.kr/contemp/level.do?levelId=dh_027_1952_12_01_0070"
       ],
       "actionRegistryFile": "data/events/pass-234-1952-dec-state-finance.json",
       "documentIds": [
-        "DOC-P234-NIKH-1201-0070"
+        "DOC-P234-NIKH-1201-0070",
+        "DOC-P251-AKS-OH",
+        "DOC-P251-AKS-JEONG",
+        "DOC-P251-AKS-EOM",
+        "DOC-P251-NIKH-OH"
       ],
-      "domain": "재정·입법"
+      "domain": "재정·입법",
+      "actionRoles": {
+        "proposed_by": [
+          "정부 1952년도 제1회 추가예산안"
+        ],
+        "decided_by": [
+          "국회 재정경제위원회 심사안 보도(본회의 최종 확정 미확인)"
+        ],
+        "executed_by": [],
+        "opposed_by": [],
+        "questioned_by": [
+          "pol-oh-wi-yeong",
+          "pol-jeong-jae-wan",
+          "pol-eom-sang-seop"
+        ],
+        "legal_authority": [],
+        "observed_by": [
+          "민주신보 1952-12-03"
+        ],
+        "later_finding": []
+      }
     },
     {
       "id": "evt-p234-1201-tax-bills",
@@ -21755,6 +21781,90 @@
         "설립부처·예산·실제 개소일·수용 인원·운영 기간 확인"
       ],
       "evidenceState": "LATER_CHRONOLOGY_ONLY"
+    },
+    {
+      "id": "evt-p251-1952-0130-assembly-committees",
+      "date": "1952-01-30",
+      "name": "제2대 국회 상임위원회 의원·원내 정파 명부(평화신문 전사)",
+      "domain": "입법·정당·인사",
+      "politicians": [
+        "pol-oh-wi-yeong",
+        "pol-eom-sang-seop",
+        "cand-1952-nov-lee-gap-seong",
+        "cand-1952-sep-women-party-im-yeong-sin",
+        "pol-ji-cheong-cheon",
+        "pol-jeong-jae-wan"
+      ],
+      "institutions": [
+        "국회",
+        "자유당",
+        "민주국민당"
+      ],
+      "sources": [
+        "DOC-P251-COMMITTEES-19520130"
+      ],
+      "actionRoles": {
+        "proposed_by": [],
+        "decided_by": [
+          "국회 상임위원회 위원장 선출(원표결 미열람)"
+        ],
+        "executed_by": [],
+        "opposed_by": [],
+        "legal_authority": [],
+        "observed_by": [
+          "평화신문 1952-01-30"
+        ],
+        "later_finding": []
+      },
+      "confirmed": [
+        "오위영 재경위·엄상섭 법사위·이갑성 외무위·임영신 문교위는 자유당 명부, 지청천 국방위·정재완 문교위는 민국당 명부에 기록"
+      ],
+      "openQuestions": [
+        "국회 공식 위원 명부·상임위 선출 속기와 원내/원외 자유당 구분 확인"
+      ],
+      "evidenceState": "CONTEMPORANEOUS_NEWSPAPER_TRANSCRIPTION"
+    },
+    {
+      "id": "evt-p251-1952-0515-monetary-board",
+      "date": "1952-05-15",
+      "name": "금융통화위원회 제64차 유엔군 대여금·원조물자·곡가대책 정부 건의",
+      "domain": "통화금융·농정·산업·재정",
+      "politicians": [],
+      "institutions": [
+        "금융통화위원회",
+        "한국은행",
+        "농림부"
+      ],
+      "sources": [
+        "DOC-P251-MONETARY-19520515",
+        "DOC-P251-BOK-MPC"
+      ],
+      "actionRoles": {
+        "proposed_by": [
+          "금융통화위원회 제64차(동시대 보도)"
+        ],
+        "decided_by": [
+          "금융통화위원회가 정부 건의 결의(정부 채택 미확인)"
+        ],
+        "executed_by": [],
+        "opposed_by": [],
+        "legal_authority": [
+          "1950 한국은행법(조문 미열람)"
+        ],
+        "observed_by": [
+          "평화신문 1952-05-18"
+        ],
+        "later_finding": [
+          "한국은행 공식 금통위 연혁"
+        ]
+      },
+      "confirmed": [
+        "유엔군 대여금 상환 촉진, 원조물자 수입 확대, 정부양곡 배급 정확화, 비축미 확보, 농림부 식량행정기구 개선 등을 건의"
+      ],
+      "openQuestions": [
+        "제64차 원의사록·한국은행 통화/물가 원통계·정부 채택/집행·위원 실명 확인"
+      ],
+      "evidenceState": "CONTEMPORANEOUS_NEWSPAPER_TRANSCRIPTION_PLUS_OFFICIAL_INSTITUTION_HISTORY"
     }
   ],
   "recentResearchPass232": {
