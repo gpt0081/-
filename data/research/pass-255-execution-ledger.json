@@ -106,7 +106,9 @@
     "data/annals/rhee-syngman.md",
     "data/evidence/rhee-syngman.json",
     "data/research/rhee-syngman-coverage.json",
-    "data/research/rhee-syngman-open-leads.json"
+    "data/research/rhee-syngman-open-leads.json",
+    "data/research/run-reports/pass-255-overall.md",
+    "data/research/pass-255-integrity-audit.json"
   ],
   "followupPasses": [
     "255B",
@@ -125,5 +127,37 @@
     "full_hour_elapsed": false,
     "weekly_debt_full_review": false,
     "independent_adversarial_searches": "10 targeted searches; weak/no independent hits are not resolutions"
-  }
+  },
+  "validation": {
+    "date": "2026-10-29",
+    "duplicate_document_ids": 0,
+    "duplicate_document_urls": 0,
+    "duplicate_event_ids": 0,
+    "missing_central_event_refs": 0,
+    "missing_document_refs": 0,
+    "missing_politician_refs": 0,
+    "missing_actor_evidence_refs": 0,
+    "missing_claim_document_refs": 0,
+    "candidate_required_fields_missing": 0,
+    "verified_registry_counts": {
+      "politicians": 303,
+      "events": 1040,
+      "documents_added": 73,
+      "official_primary_or_transcriptions": 28,
+      "contemporary_press": 45,
+      "events_added": 54,
+      "claims_added": 46,
+      "actor_evidence_links": 49
+    },
+    "correction": "DOC-P255-FRUS-XIV2-603/678 source_kind misclassified as press due editorial footnote phrase; corrected to official primary",
+    "actionRolesUpdated": 14
+  },
+  "commit_shas_before_final_report": [
+    "31d3f06e5feb53bd92812e5562bdfde2825246ba",
+    "f86d18a15bf3f058197c93ac5413ab3446c23f23",
+    "0d805f05af3895af60ccff7db6e17eb3c268cb23",
+    "a1353741d3d021bfaf9cd972cdb3377b1d88314b",
+    "0aac66370406fc9499376077929541c8365a09ca",
+    "166d3a8eb111d3d0896fa29b53e14d878e7f43aa"
+  ]
 }

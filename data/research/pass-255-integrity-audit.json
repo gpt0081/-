@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-29",
+  "pass": "255",
+  "checks": {
+    "documents": 73,
+    "official_original_or_transcribed": 28,
+    "contemporary_press": 45,
+    "duplicate_document_ids": 0,
+    "duplicate_document_urls": 0,
+    "events": 54,
+    "central_event_count": 1040,
+    "central_politician_count": 303,
+    "claims": 46,
+    "actor_evidence_links": 49,
+    "missing_event_document_links": 0,
+    "missing_event_politician_links": 0,
+    "missing_actor_evidence_links": 0,
+    "missing_claim_document_links": 0,
+    "candidate_missing_fields": 0
+  },
+  "corrections": [
+    {
+      "type": "source_kind_correction",
+      "ids": [
+        "DOC-P255-FRUS-XIV2-603",
+        "DOC-P255-FRUS-XIV2-678"
+      ],
+      "from": "contemporary_press_transcription",
+      "to": "contemporaneous_official_document_transcription",
+      "reason": "FRUS editor's footnote is not a newspaper; provenance substring classification bug"
+    }
+  ],
+  "weekly_debt_full_review": false,
+  "floot_touched": false,
+  "elapsed_full_hour_verified": false
+}
