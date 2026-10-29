@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "pass": "257J",
+  "politicians": [
+    {
+      "id": "cand-p235i-kim-yu-taek",
+      "name": "김유택",
+      "aliases": [
+        "金裕澤",
+        "Kim Yu-taek",
+        "Kim Yu Taek"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "생몰 공식 원자료 미열람"
+      },
+      "researchStatus": "ANNALS_ACTIVE",
+      "rolesByPeriod": [
+        {
+          "period": "1951-12-18~1956-12-12",
+          "role": "한국은행 제2대 총재",
+          "actionType": "institutional_office_verified"
+        },
+        {
+          "period": "1953-02-15",
+          "role": "한국은행 총재 재임 중 긴급통화조치",
+          "actionType": "institutional_context_NOT_direct_order"
+        },
+        {
+          "period": "1961",
+          "role": "재무부장관·경제기획원장",
+          "actionType": "official_biography"
+        },
+        {
+          "period": "1963",
+          "role": "부총리·경제기획원장 및 국회의원",
+          "actionType": "official_biography"
+        }
+      ],
+      "document_ids": [
+        "DOC-P257J-BOK-KIM-YU-TAEK-BIO",
+        "DOC-P257J-BOK-CURRENCY-EXHIBIT"
+      ],
+      "event_ids": [
+        "evt-p257-14",
+        "evt-p257j-19530217-new-hwan-circulation"
+      ],
+      "evidenceCoverage": "한국은행 공식 총재약력 + 통화조치 후대 전시, 1953 금통위 의사록 원문 미확보",
+      "openLeads": [
+        "LEAD-P257J-07",
+        "LEAD-P257J-08"
+      ],
+      "historyDebt": [
+        "HD-P257-HWAN-DATE-SCOPE"
+      ],
+      "promotion": {
+        "from": "candidate-identified",
+        "to": "ANNALS_ACTIVE",
+        "reason": "1951-56 한국은행 총재, 1961 재무·기획 장관, 1963 국회의원 공식 약력 확인; candidate ID는 기존 참조 보호를 위해 유지"
+      }
+    },
+    {
+      "id": "pol-paik-too-chin",
+      "name": "백두진",
+      "aliases": [
+        "白斗鎭",
+        "Paik Too-chin",
+        "Baek Du-jin"
+      ],
+      "researchStatus": "ANNALS_ACTIVE",
+      "rolesByPeriod": [
+        {
+          "period": "1953-01-15",
+          "role": "재무장관/기획처장/국무총리서리로서 1953 예산·금융정책 국회 설명",
+          "actionType": "reported_executive_speech"
+        },
+        {
+          "period": "1953-02-28",
+          "role": "국회 수정 금융법 수용·금융기관 영업재개 발표",
+          "actionType": "reported_executive_statement"
+        }
+      ],
+      "document_ids": [
+        "DOC-P257J-NIKH-PAIK-19530115",
+        "DOC-P257J-NIKH-PAIK-19530228"
+      ],
+      "event_ids": [
+        "evt-p257j-19530115-paik-budget-address",
+        "evt-p257j-19530227-finance-law-promulgation",
+        "evt-p257j-19530228-paik-public-explanation"
+      ],
+      "evidenceCoverage": "동시대 신문 전사 2건; 국회 속기/정부 결재/입금원장 대조 미완",
+      "openLeads": [
+        "LEAD-P257J-03",
+        "LEAD-P257J-09"
+      ],
+      "historyDebt": [
+        "HD-P257-HWAN-DATE-SCOPE"
+      ],
+      "promotion": false
+    },
+    {
+      "id": "pol-rhee-syngman",
+      "name": "이승만",
+      "aliases": [
+        "李承晩",
+        "Syngman Rhee"
+      ],
+      "researchStatus": "active-deep",
+      "rolesByPeriod": [
+        {
+          "period": "1953-02-15",
+          "role": "대통령 긴급명령 제13호 발동 관련 대통령",
+          "actionType": "formal_emergency_decree_issuer_NOT_individual_bank_execution"
+        }
+      ],
+      "document_ids": [
+        "DOC-P257J-BOK-CURRENCY-EXHIBIT",
+        "DOC-P257J-NAK-ORDER13-OVERVIEW"
+      ],
+      "event_ids": [
+        "evt-p257-14",
+        "evt-p257j-19530217-new-hwan-circulation"
+      ],
+      "evidenceCoverage": "후대 공식 기관해제, 원긴급명령 및 원관보 결재/국무회의 미확보",
+      "openLeads": [
+        "LEAD-P257J-01"
+      ],
+      "historyDebt": [
+        "HD-P257-HWAN-DATE-SCOPE"
+      ],
+      "promotion": false
+    }
+  ]
+}
