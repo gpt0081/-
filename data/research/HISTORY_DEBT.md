@@ -2056,7 +2056,7 @@
 
 ### HD-P258D-NNSC-ORDER · 1955년 중립국감시위원단 시위와 대통령 직접지시
 - 상태: `CONFLICTED` (2026-10-30 개별 보강)
-- FRUS d71은 이기붕 군사결정 전달·이형근/김석범의 개성·옹진 작전준비를 'reportedly'로 기록하지만 d69에서 이승만은 무력행사 의도를 부인한다. d70 조중환 철수통첩과 d73 미군 항의는 각기 정부행동·미군 평가이며 원명령과 구별된다.
+- FRUS d71은 이기붕 군사결정 전달·이형근/김석범의 개성·옹진 작전준비를 'reportedly'로 기록하지만 d69에서 이승만은 무력행사 의도를 부인한다. d70 조정환 철수통첩과 d73 미군 항의는 각기 정부행동·미군 평가이며 원명령과 구별된다.
 - 다음 원문: 1955-07-24 대통령비서실 군사결정 전달, 07-30 합참·해병대 회의록, 08-06 외무부 원서명 철수통첩, 대구·군산·부산·강릉·인천 경찰상황일지. 확정 지휘선 없음.
 - 주간 전수조사 아님. last_full_review 변경 없음.
 
@@ -2069,3 +2069,7 @@
 ### Pass258D 중복 ID 정정 (2026-10-30)
 - FRUS 1955 d55~86 32건은 Pass239K/Pass240 canonical 문서 registry를 재사용하며 신규 원문 등록 건수에서 제외.
 - 미군 'Yi Heung-Kun'은 국편 FRUS 한국어 전사상 이형근. 기존 cand-p235c-lee-hyung-keun로 통합하고 잘못 생성한 cand-p258d-yi-heung-keun은 legacyIds에만 보존. 기존 부채 상태와 last_full_review는 변경하지 않음.
+
+
+### Pass258D 조정환 이름/ID 정정 (2026-10-30)
+- FRUS Cho Chung-hwan의 국편 한국어 전사는 조정환(曺正煥). 기존 pol-cho-chung-whan ANNALS_ACTIVE를 재사용하고 중복 후보 cand-p258d-cho-chung-hwan은 retire했다. 기존 history debt 상태·last_full_review는 유지.

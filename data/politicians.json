@@ -8324,7 +8324,10 @@
         "evt-p241-08",
         "evt-p244-1959-0603-foreign-minister",
         "evt-p245-1958-0125-senate-law",
-        "evt-p257s-19540710-visit-accepted"
+        "evt-p257s-19540710-visit-accepted",
+        "evt-p258d-10",
+        "evt-p258d-21",
+        "evt-p258d-23"
       ],
       "evidenceCoverage": [
         "DOC-P239I-FRUS-764",
@@ -8355,7 +8358,10 @@
         "LEAD-P239I-42",
         "LEAD-P239I-43",
         "LEAD-P239K2-01",
-        "LEAD-P257S-ACTOR-pol-cho-chung-whan"
+        "LEAD-P257S-ACTOR-pol-cho-chung-whan",
+        "LEAD-P258D-015",
+        "LEAD-P258D-021",
+        "LEAD-P258D-030"
       ],
       "lastResearchPass": "239I",
       "birthYear": 1892,
@@ -8439,6 +8445,23 @@
       },
       "documentIds": [
         "DOC-P239J-FRUS-934"
+      ],
+      "legacyIds": [
+        "cand-p258d-cho-chung-hwan"
+      ],
+      "supplementalEvidenceFiles": [
+        "data/evidence/cho-chung-hwan-1955.json"
+      ],
+      "supplementalAnnalsFiles": [
+        "data/annals/cho-chung-hwan.md"
+      ],
+      "correctionHistory": [
+        {
+          "date": "2026-10-30",
+          "issue": "FRUS romanization Cho Chung-hwan mistranscribed as 조중환 and re-registered despite existing canonical 조정환",
+          "action": "Retire duplicate, migrate all Pass258D actor links, preserve canonical prior evidence/annals, append supplementary 1955 evidence/annals and old ID in legacyIds",
+          "verification": "https://db.history.go.kr/contemp/level.do?levelId=frus_010r_0010_0700&types=r"
+        }
       ]
     },
     {
@@ -17169,76 +17192,6 @@
         "HD-P257W-UN-CABINET-KOREAN-NAMES"
       ],
       "promotionReason": "1954 UN official contemporary government roster names minister and appointment date; Korean spelling/hanja pending"
-    },
-    {
-      "id": "cand-p258d-cho-chung-hwan",
-      "name": "조중환",
-      "aliases": [
-        "Cho Chung-hwan",
-        "Chung W. Cho"
-      ],
-      "lifespan": {
-        "born": null,
-        "died": null,
-        "verification": "OPEN"
-      },
-      "roles": [
-        "1955-08 외무부장관 직무대리",
-        "1956-12 외무부장관 직무대리"
-      ],
-      "researchStatus": "ANNALS_ACTIVE",
-      "connections": [
-        "evt-p258d-10",
-        "evt-p258d-21",
-        "evt-p258d-23"
-      ],
-      "evidenceFile": "data/evidence/cho-chung-hwan-1955.json",
-      "annalsFile": "data/annals/cho-chung-hwan.md",
-      "openLeads": [
-        "LEAD-P258D-015",
-        "LEAD-P258D-021",
-        "LEAD-P258D-030"
-      ],
-      "evidenceCoverage": {
-        "primaryDocumentIds": [
-          "DOC-P240-FRUS-70",
-          "DOC-P240-FRUS-77",
-          "DOC-P258D-FRUS56-192"
-        ],
-        "actionTypes": [
-          "signed_ultimatum",
-          "diplomatic_briefing"
-        ]
-      },
-      "promotionHistory": [
-        {
-          "date": "2026-10-30",
-          "from": "IDENTIFIED",
-          "to": "ANNALS_ACTIVE",
-          "reason": "1955 signed ultimatum reproduced in FRUS d70, 1956 diplomatic briefing d192; independent annals/evidence and open leads"
-        }
-      ],
-      "rolesByPeriod": [
-        {
-          "date": "1955-08-06",
-          "role": "외무부장관 직무대리",
-          "actionType": "signed_ultimatum",
-          "documentIds": [
-            "DOC-P240-FRUS-70"
-          ]
-        },
-        {
-          "date": "1956-12-18",
-          "role": "외무부장관 직무대리",
-          "actionType": "briefing_participant",
-          "documentIds": [
-            "DOC-P258D-FRUS56-192"
-          ]
-        }
-      ],
-      "historyDebt": [
-        "HD-P258D-NNSC-ORDER"
-      ]
     },
     {
       "id": "cand-p258d-kim-seok-beom",
