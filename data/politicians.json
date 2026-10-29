@@ -14455,6 +14455,53 @@
         "LEAD-P254B-05"
       ],
       "promotion_reason": "국회 당적·선거구 공식 명부 미확보"
+    },
+    {
+      "id": "cand-p255-lee-hwal",
+      "name": "이활",
+      "aliases": [
+        "李活",
+        "Lee Hwal (romanization provisional)"
+      ],
+      "hanja": "李活",
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "원 인명록·생몰 미확인"
+      },
+      "roles": [
+        {
+          "period": "1952-09",
+          "office": "국민회 계열 자유당 지도부 관련 인물(동아일보 기사)",
+          "selection_or_appointment": "공식 당직·임명 원명부 미확인"
+        }
+      ],
+      "party_affiliation": "1952-09 자유당 국민회파 보도, 공식 당적 미확인",
+      "researchStatus": "DISCOVERED",
+      "eventConnections": [
+        {
+          "eventId": "evt-p255-party-congress",
+          "actionType": "factional_opposition_reported",
+          "documentIds": [
+            "DOC-P255-DH-0928-0010"
+          ]
+        },
+        {
+          "eventId": "evt-p255-party-purge",
+          "actionType": "alleged_target_and_party_statement",
+          "documentIds": [
+            "DOC-P255-DH-0928-0010"
+          ]
+        }
+      ],
+      "evidenceCoverage": "동아일보 1계열",
+      "openLeads": [
+        "1952-09-26 자유당 전당대회 공식 참석명부·국민회 중앙회 인명록·경찰 미행 신고기록"
+      ],
+      "historyDebt": [
+        "李活 신원·생몰·공식 당직 미확정"
+      ],
+      "promotionReason": "1952-09-28 동아일보 원문에 실명 등장, 원표결 미확인"
     }
   ],
   "recentResearchPass232": {
@@ -14801,5 +14848,21 @@
     ],
     "newCandidates": 0,
     "warning": "미대사관 8/5 선거 개입 귀속은 당대 외교관의 주장. 한국 선관위·법원 기록 없는 법적 책임 확정 금지."
+  },
+  "recentResearchPass255": {
+    "date": "2026-10-29",
+    "newCandidates": [
+      "cand-p255-lee-hwal"
+    ],
+    "existingEvidenceOverlays": [
+      "pol-lee-beom-seok",
+      "pol-sohn-won-yil",
+      "pol-pyun-yong-tae",
+      "cand-1952-oct-yun-jae-uk",
+      "cand-1952-nov-lee-gap-seong"
+    ],
+    "overlay": "data/politicians/pass-255-actor-overlay.json",
+    "evidence": "data/evidence/pass-255-actor-evidence.json",
+    "note": "candidate/verified status not promoted without original official record; existing duplicate IDs not merged"
   }
 }

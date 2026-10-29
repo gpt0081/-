@@ -202,3 +202,5 @@
 - 2026-10-29 pass252: `data/politicians/pass-252-1952-aug20-27-actors.json` 기존 정치인 17명 심화, 칠곡 면장 박봉희 후보 1명 신규. 김시현은 pass229의 `cand-kim-si-hyeon-1952`를 중앙 registry에 승격하고 중복 candidate를 정정·폐기(정정 이력 보존). `data/annals/shin-ik-hui.md`, `data/evidence/shin-ik-hui.json` 독립 실록에 8/22~24 증거 추가.
 
 - 2026-10-29 pass252B/C: `data/politicians/pass-252b-1952-aug26-30-actors.json` 기존 14명 심화·신규 함인섭/이진수 2명; `data/politicians/pass-252c-1952-aug31-actors.json` 기존 백선엽·배은희·백두진·신중목 4명 심화·신규 김종원/손권배 2명. 기존 백선엽 `pol-paik-sun-yup` 재사용해 중복 ID 미생성.
+
+- 2026-10-29 pass255: 1952-09-26 자유당 전국대회 대통령 연설·동아일보 대조, 이활 신규 DISCOVERED 및 윤재욱·이갑성 기존 ID 심화. `data/politicians/pass-255-actor-overlay.json`, `data/evidence/pass-255-actor-evidence.json`, `data/annals/1952-sep26-maritime-party-prices.md`. 이범석 중복 stable ID는 병합하지 않음. 해상방위구역·손원일 일본인 상륙 체포 지시 전언을 한국정부 원명령으로 확정하지 않음.
