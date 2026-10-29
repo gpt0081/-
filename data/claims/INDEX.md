@@ -155,3 +155,5 @@
 - 2026-10-29 Pass257N: `data/claims/pass-257n-parliament-votes-arithmetic-adversarial.json` 10개 반증, 91:0 절차표결/74:71·103:47 조항표결/별표2 5만환 산술충돌/권중돈 생몰충돌.
 
 - 2026-10-29 Pass257O: `data/claims/pass-257o-election-law-adversarial.json` (1954 선거 144/114/111·보궐 명단 시점, 1953/1962 동명 법률, 이충환 신원·개헌 날짜).
+
+- 2026-10-29 Pass257O2: `data/claims/pass-257o2-1954-election-frus-conflicts.json` (114/115, FRUS 6/7 국역, 공천/친여 분류, 경찰개입 관찰 vs 직접지시, 114→127→136).

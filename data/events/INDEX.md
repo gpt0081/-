@@ -138,3 +138,6 @@
 - 2026-10-29 Pass257M: `data/events/pass-257m-1953-mar-apr-economy-actions.json` 통화개혁 발표·외환상환 충돌·구호양곡 배급·언론 비판 4건 중앙 반영.
 
 - 2026-10-29 Pass257N: `data/events/pass-257n-1953-feb-finance-parliament-actions.json` 국회 긴급명령 절차표결·금융법 제9/11조 별도 수정표결·구호·치안·문화 등 13개 사건 중앙 동기화.
+
+- 2026-10-29 Pass257O: `data/events/pass-257o-election-law-crosslinks.json` (1954 선거 정당별 집계, 1953 법277 공포 법령 ID).
+- 2026-10-29 Pass257O2: `data/events/pass-257o2-1954-election-observation-and-caucus.json` (1954 미국 외교전문·선거참관 보고·6/9~6/16 교섭단체 시간축).

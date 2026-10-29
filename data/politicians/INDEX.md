@@ -228,3 +228,6 @@
 - **Pass257M 경제정책 발언자 심화**: 김유택 1953-03-04 추가통화조치 부인, 이승만 8700만달러 상환예정, 백두진 8500만달러 청산완료 발언. `data/politicians/pass-257m-finance-public-claims.json`; 당사자 발언은 회계사실로 단정하지 않음.
 
 - **Pass257N 국회 의원 17명 실질 심화**: `data/politicians/pass-257n-1953-finance-legislators.json` 중앙 registry 동기화. 신규 후보 권중돈·엄병학·이종현(1949 장관과 identity 분리) 3명. 무기명표결 개인찬반 귀속 금지, 분파 표기 원문 보존. 권중돈 사망 1983/1985 CONFLICTED.
+
+- 2026-10-29 Pass257O: `data/politicians/pass-257o-1953-1954-identity-audit.json` (기존 5인 선거구·당적·보궐선거 신원 오독 방지).
+- 2026-10-29 Pass257O2: `data/politicians/pass-257o2-1954-election-diplomatic-actor-overlay.json` (미국 원문 1954년 관찰 10인; 기존 ID 재사용, 신원승격 없음).

@@ -188,3 +188,5 @@
 - 2026-10-29 Pass257N: `data/documents/pass-257n-1953-feb19-27-parliament-press.json` 1953-02-19/27 동시대 원신문 10건+AKS 후대 전기 2건. 법277호 제9·11조 표결 원기사 직접 열람.
 
 - 2026-10-29 Pass257O: `data/documents/pass-257o-1953-law-1954-election-audit.json` (국편 선거 후대 편찬표, 법제처 1953/1962 동명 법령 색인, 국가기록원 해설, 제3자 파생집계; original body 0).
+
+- 2026-10-29 Pass257O2: `data/documents/pass-257o2-1954-election-frus-originals.json` (FRUS 1954-05-24, 1954-07-14 동시대 원문 2건 및 국편 헌정사 후대 해제 1건).
