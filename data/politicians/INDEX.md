@@ -240,3 +240,4 @@
 - 2026-10-29 Pass257R 1954 선거구별 16인(기존13·신규후보3) 독립 인물 연구. `data/politicians/pass-257r-1954-election-governance-actors.json`.
 
 - 2026-10-29 Pass257S: `data/politicians/pass-257s-1954-visit-nnsc-actors.json` 기존 10인 역할 심화·최순주 신규 candidate 1명; 생몰·한자 원문 미확인.
+- 2026-10-29 Pass257T 이승만·원용덕·변영태 원문발언과 정책·행위 구분 보강.
