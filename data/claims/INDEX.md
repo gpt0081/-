@@ -190,3 +190,5 @@
 
 - `data/claims/pass-258b-1954-aid-adversarial.json` (1954 원조행정·조달·환율 15개 제한·반증 명제)
 - `data/claims/pass-258b-fy1955-rok-us-agreement-claims.json` (1954 원조·총리 백두진 CEB·한미 합의의사록 12개 명제)
+
+- 2026-10-30 Pass258C: `data/claims/pass-258c-1954-55-implementation.json` (existing treaty and FRUS IDs reused).

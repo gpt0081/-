@@ -224,3 +224,5 @@
 
 - `data/documents/pass-258b-1953-54-aid-authority-primary.json` (1953 닷지 조직안·FRUS d728·EO10458·아이젠하워 의회교서·1954 6월 OEC 비망록 5절; 동일 원작성 계열 중복 주의)
 - `data/documents/pass-258b-fy1955-rok-us-agreed-draft-signed.json` (1954 FY55 의회원조 문서 5종 + FRUS d980, 9월 초안 vs 11월 서명 분리)
+
+- 2026-10-30 Pass258C: `data/documents/pass-258c-1954-55-implementation.json` (existing treaty and FRUS IDs reused).

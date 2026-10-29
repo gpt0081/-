@@ -176,3 +176,5 @@
 
 - `data/events/pass-258b-1953-54-aid-procurement-actions.json` (1953 원조조직/1954 원조·조달·환율 8개 하위행위)
 - `data/events/pass-258b-fy1955-rok-us-agreement-events.json` (FY55 예산/조달/CEB/초안/11월 서명/약정 7개 사건)
+
+- 2026-10-30 Pass258C: `data/events/pass-258c-1954-55-implementation.json` (existing treaty and FRUS IDs reused).
