@@ -235,3 +235,5 @@
 - 2026-10-29 Pass257O4: `data/politicians/pass-257o4-parliamentary-cabinet-actors.json` (최순주 candidate, 백두진·변영태·곽상훈 원문 인사·의정행위).
 
 - 2026-10-29 Pass257P: `data/politicians/pass-257p-unkra-housing-local-actors.json` (기존 이승만·백두진·김태선 3개 ID 재사용, 사진 캡션·행사·법령연혁의 증거수준 분리; 중앙 `data/politicians.json` 연결 동기화; 신규 정치인/승격 0).
+
+- 2026-10-29 Pass257Q: `data/politicians/pass-257q-1954-cabinet-actors.json` 21개 장관·국무위원 시간귀속 기록, 신규 candidate 5명, 기존 16명. 중앙 registry additive 반영.

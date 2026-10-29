@@ -167,3 +167,5 @@
   - Pass257P supplement: 1953 감사 $51.817m 약정 대 $26.419m 지급, 1957 주택 >8,300호·중소기업 대출 1,381건의 시점차이 반증 포함, 누적 37개 claim/adversarial 검사.
 
   - Pass257P supplement2: 1954 자금 부족에 대한 UNKRA A/2750 + UN ACABQ A/2801 + 영국 의회 원문 3개 기관계열 교차검증 1묶음, 총 44개 반증 주장.
+
+- 2026-10-29 Pass257Q: `data/claims/pass-257q-1954-cabinet-adversarial.json` 원문 메타데이터·지시/집행·경제개헌·장관변경 12개 검증 주장.

@@ -151,3 +151,5 @@
   - Pass257P supplement: 1953 UN 독립감사와 1957 주택·문경시멘트·중소기업대출 후속 사건 추가, Pass257P event/sub-event 34개(중앙 events.json 동기화).
 
   - Pass257P supplement2: 영국 1953·1954·1955 의회답변 및 유엔 1954 ACABQ·880(IX) 5개 사건 추가, 총 39개 사건/세부행위.
+
+- 2026-10-29 Pass257Q: `data/events/pass-257q-1954-cabinet-actions.json` 대통령 유시15·국무회의 의결5·관보공고1, 집행증거 별도. 중앙 events.json 대신 additive shard+index.

@@ -1908,3 +1908,13 @@
 - **HD-P257P-UK-CONTRIBUTION / OPEN 신규**: 영국 하원 1955-05-02 현금9585715파운드+현물47만파운드, 약2500만달러/총1억2700만달러라는 터턴 장관 발언 확인. UN A/2750 1954-08-31 Annex I 및 1955 감사원표와 대조 전 확정 분담률로 쓰지 않음.
 - **HD-P257P-1953-UK-DISTRESS / OPEN 신규**: 영국 하원 1953-02-16 앤서니 이든은 '겨울 수천명 아사·동사 우려' 문서를 UNKRA 단장 작성 공식보고가 아닌 민간보고라고 반박. 원민간보고의 저자·수치와 UN Command 구호 실적은 확인하지 못함. 다음: UK FO 원전문/UNKRA incoming report/UNC relief monthly mortality.
 - **HD-P257P-1954-ADMIN-OVERHEAD / NARROWED 신규**: ACABQ A/2801 §4가 UNKRA·UNCURK·UNRWA 직원 귀국휴가·가족동반 비용관행 불일치 지적. 원조집행비용과 본부행정비용의 관계를 1954 감사보고 A/2757과 비교해야 함.
+
+
+### HD-1954-CABINET-METADATA · 제5회 국무회의 날짜 불일치
+- 상태: CONFLICTED, 2026-10-29 pass257Q. 국편 헌정사DB [원문](https://db.history.go.kr/item/cons/level.do?levelId=cons_003_0020_0020_0040) 목록 작성일 1954-11-29 vs 제5회 국무회의록 본문 1954-01-22(금), 경무대 18인 출석. 1/23 관보 제1049호 개헌안 공고와 연속. 목록오류·이관일·편철일 원인 미확정.
+- 다음: 국가기록원 제5회 국무회의록 원등록카드·1954-11-29 송부공문. 본문 회의일과 목록 날짜 모두 보존.
+
+### HD-1954-CABINET-FOLLOWUP · 유시15건 집행 원본
+- 상태: OPEN, 2026-10-29 pass257Q. 미곡가격·저장기계·중석 공식통첩·2천만달러 차입 감액·외자4부처 합동안·인사추천 등 실제 집행 미확인. 국무회의 지시와 실행을 혼동하지 않는다.
+- 다음: `data/research/leads/pass-257q-1954-cabinet-followup.json`의 원문 38개 표적.
+- 역사부채 주간 전수조사 미실시. last_full_review 유지.

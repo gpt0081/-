@@ -200,3 +200,5 @@
   - Pass257P supplement: A/2487 1953 UN Board of Auditors 원문, A/2222 1952 초기보고, A/3651 1957 후속보고 직접 열람. 고유 등록 문서 22개 중 동시대 원문 텍스트 10건·동시대 사진 5점, 원문 미확보 목록 별도.
 
   - Pass257P supplement2: A/2801 1954 UN ACABQ 원문·A/RES/880(IX) 원결의·영국 하원 1953/1954/1955 Hansard 원문 5건 추가. 총 등록 27건(원문 텍스트 15, 사진 원이미지 5, 기타 공식 해설·목록).
+
+- 2026-10-29 Pass257Q: `data/documents/pass-257q-1954-cabinet-gazette-originals.json` 제5회 국무회의록 1/22, 관보1049 1/23 신규 원전사 2건, 기존 7건 ID 재사용. 목록 11/29 충돌.
