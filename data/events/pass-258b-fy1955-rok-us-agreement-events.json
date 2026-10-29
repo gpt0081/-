@@ -26,8 +26,8 @@
     },
     {
       "id": "evt-p258b-sup-02",
-      "date": "1954-04",
-      "datePrecision": "month",
+      "date": null,
+      "datePrecision": "bounded_range",
       "title": "FOA 160만달러 면포 지급약정 취소 보고",
       "proposed_by": [],
       "decided_by": [],
@@ -43,12 +43,17 @@
         "DOC-P258B-NIKH-FS023-0120"
       ],
       "status": "CONTEMPORANEOUS_US_SOURCE_OR_RETROSPECTIVE_US_REPORT",
-      "caution": "Source-reported event; Korean originals pending"
+      "caution": "Source-reported event; Korean originals pending; exact document date not printed",
+      "dateRange": {
+        "notBefore": "1954-04-26",
+        "notAfter": "1954-05-19",
+        "basis": "Q&A references April26 message and forthcoming May20 election"
+      }
     },
     {
       "id": "evt-p258b-sup-03",
-      "date": "1954-04",
-      "datePrecision": "month",
+      "date": null,
+      "datePrecision": "bounded_range",
       "title": "백두진·타일러 우드 합동경제위원회 정책/프로젝트 승인 구조 보고",
       "proposed_by": [],
       "decided_by": [],
@@ -66,7 +71,12 @@
         "DOC-P258B-NIKH-FS023-0120"
       ],
       "status": "CONTEMPORANEOUS_US_SOURCE_OR_RETROSPECTIVE_US_REPORT",
-      "caution": "Source-reported event; Korean originals pending"
+      "caution": "Source-reported event; Korean originals pending; exact document date not printed",
+      "dateRange": {
+        "notBefore": "1954-04-26",
+        "notAfter": "1954-05-19",
+        "basis": "Q&A references April26 message and forthcoming May20 election"
+      }
     },
     {
       "id": "evt-p258b-sup-04",
@@ -155,6 +165,12 @@
       ],
       "status": "CONTEMPORANEOUS_US_SOURCE_OR_RETROSPECTIVE_US_REPORT",
       "caution": "Financial commitment not delivered goods"
+    }
+  ],
+  "correctionHistory": [
+    {
+      "date": "2026-10-30",
+      "change": "Removed invented April month and substituted bounded interval for undated FY55 Q&A events."
     }
   ]
 }
