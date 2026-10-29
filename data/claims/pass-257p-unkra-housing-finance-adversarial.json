@@ -5,7 +5,7 @@
     {
       "id": "CL-P257P-01",
       "statement": "1953-10 서울기록원 5,500호 재건주택 계획과 1954 UN Yearbook 9,000~9,500호 계획은 동일 시점·동일 사업범위의 확정 준공 실적이다",
-      "status": "CONFLICTED",
+      "status": "NARROWED",
       "supporting_or_contextual_evidence": [
         "DOC-P257P-SEOUL-UNKRA-HOUSING-EXHIBIT",
         "DOC-P257O4-UN-YEARBOOK-1954"
@@ -16,7 +16,15 @@
       ],
       "conclusion": "Both are plan figures with differing dates/scope; 1953 Oct national 2-year earthen-block plan 5,500 (2,500 metro +3,000 provincial); 1954 UN programme 9,000-9,500; not proof of conflicting completed-unit counts. Need project amendment annex.",
       "adversarial_search": true,
-      "limitation": "No presidential direct order inferred; independent family counted only if provenance distinct."
+      "limitation": "No presidential direct order inferred; independent family counted only if provenance distinct.",
+      "correction_history": [
+        {
+          "date": "2026-10-29",
+          "from": "CONFLICTED",
+          "to": "NARROWED",
+          "reason": "Different time/scope and photographic 1953 vs treaty 1954 show conflation rather than two equally supported opposing historical facts; preserve provenance."
+        }
+      ]
     },
     {
       "id": "CL-P257P-02",
@@ -37,7 +45,7 @@
     {
       "id": "CL-P257P-03",
       "statement": "1953 UNKRA 원조조인식 사진은 1954-05-31 기본협정 체결 장면이다",
-      "status": "CONFLICTED",
+      "status": "NARROWED",
       "supporting_or_contextual_evidence": [
         "DOC-P257P-SEOUL-UNKRA-PHOTO-1",
         "DOC-P257P-NAK-CA0002578-CATALOG"
@@ -48,7 +56,15 @@
       ],
       "conclusion": "Seoul Archives labels image 1953; original basic treaty is cataloged 1954-05-31. Cannot identify same agreement from appearance. Separate photo event from treaty event.",
       "adversarial_search": true,
-      "limitation": "No presidential direct order inferred; independent family counted only if provenance distinct."
+      "limitation": "No presidential direct order inferred; independent family counted only if provenance distinct.",
+      "correction_history": [
+        {
+          "date": "2026-10-29",
+          "from": "CONFLICTED",
+          "to": "NARROWED",
+          "reason": "Different time/scope and photographic 1953 vs treaty 1954 show conflation rather than two equally supported opposing historical facts; preserve provenance."
+        }
+      ]
     },
     {
       "id": "CL-P257P-04",
@@ -185,8 +201,47 @@
       "conclusion": "Only 32-page public catalog and excerpt from NAK later synthesis; source viewer redirects to inaccessible getPdfFile. Need alternate original scan; do not count as directly opened.",
       "adversarial_search": true,
       "limitation": "No presidential direct order inferred; independent family counted only if provenance distinct."
+    },
+    {
+      "id": "CL-P257P-13",
+      "statement": "1950 UNGA 410(V) vested UNKRA local-currency sale proceeds directly in the Korean president's discretionary fund",
+      "status": "NARROWED",
+      "supporting_or_contextual_evidence": [
+        "DOC-P257P-UN-RES410-19501201"
+      ],
+      "contradicting_or_limiting_evidence": [
+        "DOC-P257P-UN-RES410-19501201"
+      ],
+      "conclusion": "B§9 requires local-currency proceeds paid into account controlled by UN Agent General, use after UNCURK consultation and Advisory Committee agreement. Korean executive control cannot be inferred. Implementation exceptions still need treaty/ledger.",
+      "adversarial_search": true
+    },
+    {
+      "id": "CL-P257P-14",
+      "statement": "UNGA 725(VIII) in 1953 approved a fully funded UNKRA programme through 1955",
+      "status": "NARROWED",
+      "supporting_or_contextual_evidence": [
+        "DOC-P257P-UN-RES725-19531207"
+      ],
+      "contradicting_or_limiting_evidence": [
+        "DOC-P257P-UN-RES725-19531207"
+      ],
+      "conclusion": "§2 approves programme periods 1953-07~1955-07 subject to Agent General/Advisory Committee consultation; §3 explicitly says sufficient funds are unavailable. Approval is not disbursement.",
+      "adversarial_search": true
+    },
+    {
+      "id": "CL-P257P-15",
+      "statement": "1954 Korean counterpart fund special-account law automatically governed every UNKRA local-currency proceeds account",
+      "status": "OPEN",
+      "supporting_or_contextual_evidence": [
+        "DOC-P257P-NAK-1954-LAW-METADATA"
+      ],
+      "contradicting_or_limiting_evidence": [
+        "DOC-P257P-UN-RES410-19501201"
+      ],
+      "conclusion": "UNGA 410(V) B§9 specifies UN Agent General control over proceeds from UN programme sales; Korean law 311 scope and 1954 bilateral treaty original not inspected. Must not merge accounts without original legal reconciliation.",
+      "adversarial_search": true
     }
   ],
-  "adversarial_claims_checked": 12,
+  "adversarial_claims_checked": 15,
   "three_family_cross_provenance_completed": 0
 }
