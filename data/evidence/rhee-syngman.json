@@ -4,7 +4,7 @@
   "name": "이승만",
   "termLabel": "제1~3대",
   "researchStatus": "deep-pass-6",
-  "updatedAt": "2026-10-29",
+  "updatedAt": "2026-10-30",
   "editorialRule": "수집은 공격적으로, 공개는 보수적으로. 사건·발언·제도 변화와 출처를 기록하되 정치적 판정은 하지 않는다.",
   "evidenceGrades": {
     "A": "당사자 원문·법령·판결·대통령기록·당시 공문 등 1차 자료",
@@ -596,6 +596,18 @@
       "url": "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d153",
       "grade": "B",
       "caveat": "미국측 동시대 기록. 진술/평가/제안과 한국 정부의 실제 명령을 구분."
+    },
+    "S1954-P258A-FOA-MOYER": {
+      "title": "US FOA 1954-05-10 Moyer to Stassen, Korea FY1954 technical/economic aid program",
+      "publisher": "NIKH overseas historical materials (translated original)",
+      "url": "https://db.history.go.kr/id/fs_023_0070",
+      "grade": "A-original-author-transcription; original English facsimile not inspected"
+    },
+    "S1955-P258A-US-AGREED-MINUTE-IMPLEMENTATION": {
+      "title": "US economic aid memorandum on 1954-11-17 agreed-minute implementation (post 1955-05-16)",
+      "publisher": "NIKH overseas historical materials",
+      "url": "https://db.history.go.kr/id/fs_023_0160",
+      "grade": "A-original-author-transcription; exact date unknown"
     }
   },
   "chronology": [
@@ -2214,5 +2226,34 @@
       "CLM-P257W-UN-UNKRA-1954"
     ],
     "review": "1954 UN original AnnexIII 114/68 vs paragraph74 115/67. May4 police noninterference public directive documented, but some actual police interference alleged and considered substantiated; no automatic presidential direct-order attribution. UNKRA agreement May31 documented as institutional action not personally ordered by Rhee."
+  },
+  "recentResearchPass258A": {
+    "date": "2026-10-30",
+    "sourceIds": [
+      "DOC-P258A-NIKH-FOA-19540510",
+      "DOC-P258A-NIKH-AGREED-MINUTE-IMPLEMENTATION-1955",
+      "DOC-P257R-NIKH-ELECTION",
+      "DOC-P257W-UN-A2711-PRIMARY"
+    ],
+    "eventIds": [
+      "evt-p258a-19540510-foa-program-request",
+      "evt-p258a-19540510-foa-agriculture",
+      "evt-p258a-19540510-foa-transport-power",
+      "evt-p258a-19540510-foa-rubber-chemicals",
+      "evt-p258a-19540510-foa-tire-fertilizer",
+      "evt-p258a-19540702-0707-rhee-yang-war-assurance",
+      "evt-p258a-19540703-0716-vanfleet-hull-divergence",
+      "evt-p258a-19540727-30-rok-us-visit-negotiations",
+      "evt-p258a-19540730-0805-nnsc-violence-attribution",
+      "evt-p258a-19540901-02-pyun-hull-nnsc-letters",
+      "evt-p258a-1955-economic-minute-implementation-review"
+    ],
+    "claimsFile": "data/claims/pass-258a-1954-budget-election-diplomacy-audit.json",
+    "cautions": [
+      "FOA planned budget not Korean president's executed order",
+      "1954 NIKH election table 144 vs heading 114 is internally arithmetically inconsistent",
+      "1955 memo retrospective not 1954 observation",
+      "no facsimile inspected"
+    ]
   }
 }

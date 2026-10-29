@@ -2024,3 +2024,14 @@
 - `HD-P257W-APR06-APR08-SPEECH` CONFLICTED → **NARROWED**: 2025년 후대 신문 인용이 1954-04-06 특별담화를 04-08 경향신문 1면이 보도했다고 제시. 원지면 대기.
 - `HD-P257W-UN-CABINET-KOREAN-NAMES` OPEN → **NARROWED**: UN의 Yoon Kun-Joong을 AKS 윤건중(1897~1987)으로 독립 교차확인. Choi Kyoo-Ok 한국어 원발령 확인 대기.
 - 정정은 상태 이력으로 보존하며 주간 last_full_review는 변경하지 않음.
+
+
+### Pass258A 원조·선거·NNSC 역사부채 증분 (2026-10-30)
+- `HD-P258A-NIKH-144-SEAT-TYPO` CONFLICTED: 국편 1954 총선 연표 제목 자유당 114 vs 표 자유당 144. 144+15+3+3+68=233으로 203석과 양립 불가. 정오표/원인쇄본 대기. UN A/2711 115/114 별도 불일치와 혼합 금지.
+- `HD-P257W-1954-SEAT-CATEGORIES` NARROWED 유지: 국편 제목114·UN 부록114 vs UN 본문115; 당적 원공고 미확보.
+- `HD-P257W-INDUSTRIAL-EXPLOSIVES` OPEN 유지: FOA 1954-05-10 화약 50만 달러 계획·50.1만 달러 PA 발견, 4월 일본산 20만 달러 수입 기사와 동일 사업 미확인.
+- `HD-P258A-FOA-PA-DELIVERY`, `HD-P258A-RUBBER-DELIVERY`, `HD-P258A-CHEMICALS-PA`, `HD-P258A-TIRE-FACTORY` OPEN: 계획·요청·PA와 실제 수입·완공 차이 원장 확인.
+- `HD-P258A-RHEE-YANG-AUTHORITY` OPEN: 7/2 이승만 친서 북진 제안과 7/7 양유찬 '미국 신호 전 단독행동 없음'은 서로 다른 화자.
+- `HD-P258A-VANFLEET-HULL-FINAL` CONFLICTED: 7/3 밴플리트와 7/5 헐의 상반 군 증강·미군철수 권고 중 최종 채택 확인.
+- `HD-P258A-NNSC-COMMAND` OPEN: 7/30 원용덕 경고와 인천·부산·군산 3개 현장 사건의 지휘명령 연결 미확인.
+- 상세 상태·10개 기존 lead 추적: `data/research/history-debt/pass-258a-1954-foa-nnsc-unresolved.json`. **금요일, 역사부채 주간 전수조사 미실시. last_full_review 변경하지 않음.**

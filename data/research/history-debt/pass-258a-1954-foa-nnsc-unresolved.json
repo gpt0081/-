@@ -1,0 +1,259 @@
+{
+  "schemaVersion": 1,
+  "pass": "258A",
+  "date": "2026-10-30",
+  "fullSundaySweep": false,
+  "priorLeadFollowups": [
+    {
+      "previousLeadId": "LEAD-P257W-025",
+      "followupDate": "2026-10-30",
+      "statusAfter": "NARROWED",
+      "finding": "국편 연표 제목·당선인 명부 114/68을 직접 재확인했지만 원선관위 당선공고는 아직 못 열었다.",
+      "nextOriginal": "중앙선관위 1954-05-20 원당선공고",
+      "forcedResolution": false
+    },
+    {
+      "previousLeadId": "LEAD-P257W-029",
+      "followupDate": "2026-10-30",
+      "statusAfter": "NARROWED",
+      "finding": "국편 명부는 2인 병기 시 보궐선거 당선자 추가라고 명시. 203석과 전체 인명 혼합 주의.",
+      "nextOriginal": "국회기록원 5개 선거구 보궐선거 공고",
+      "forcedResolution": false
+    },
+    {
+      "previousLeadId": "LEAD-P257W-031",
+      "followupDate": "2026-10-30",
+      "statusAfter": "OPEN",
+      "finding": "FOA 원표에 화약 $500k 계획·$501k PA를 발견했지만 4월29일 신문 원지면은 열지 못함.",
+      "nextOriginal": "국편 1954-04-29 동아일보 원지면",
+      "forcedResolution": false
+    },
+    {
+      "previousLeadId": "LEAD-P257W-032",
+      "followupDate": "2026-10-30",
+      "statusAfter": "NARROWED",
+      "finding": "1954-05-10 FOA 화약 PA $501k 확보, 일본 $200k 수입 계획과 동일 계약인지 미확인.",
+      "nextOriginal": "FOA PA 폭약 구매허가와 상공부 수입결재 원본",
+      "forcedResolution": false
+    },
+    {
+      "previousLeadId": "LEAD-P257W-036",
+      "followupDate": "2026-10-30",
+      "statusAfter": "NARROWED",
+      "finding": "국편 연표 114/68 제목·UN 본문115/67 vs 부록114/68; 국편 표 144 산술불일치 새 발견.",
+      "nextOriginal": "1954-05-20 선거구별 원당적 등록대장",
+      "forcedResolution": false
+    },
+    {
+      "previousLeadId": "LEAD-P257W-037",
+      "followupDate": "2026-10-30",
+      "statusAfter": "OPEN",
+      "finding": "UN §77 21명 자유당 교섭단체 가입 재확인, 국회 가입 서명명부는 미확보.",
+      "nextOriginal": "1954-06-16 교섭단체 21인 가입 서명원본",
+      "forcedResolution": false
+    },
+    {
+      "previousLeadId": "LEAD-P257W-038",
+      "followupDate": "2026-10-30",
+      "statusAfter": "OPEN",
+      "finding": "국편 명부 김법린 1954-05-20 자유당 당선 재확인. 2/5 vs 4/20 장관 퇴임일에는 독립적 해결증거 없음.",
+      "nextOriginal": "1954-02-05/04-20 문교부장관 관보 인사원본",
+      "forcedResolution": false
+    },
+    {
+      "previousLeadId": "LEAD-P257W-040",
+      "followupDate": "2026-10-30",
+      "statusAfter": "NARROWED",
+      "finding": "1954-05-10 FOA 원표 UNKRA $45m 예산과 UN A/2711 5/31 운영협정 요약을 별개 기관 문서로 대조.",
+      "nextOriginal": "1954-05-31 협정 서명 원본 및 UNKRA 1954 결산",
+      "forcedResolution": false
+    },
+    {
+      "previousLeadId": "LEAD-P257W-028",
+      "followupDate": "2026-10-30",
+      "statusAfter": "OPEN",
+      "finding": "국편 박기운 제헌국회의원동지회 당선 표기 확인; 선관위 당적 원명부 미확보.",
+      "nextOriginal": "충북선관위 1954 청주시 원당선증",
+      "forcedResolution": false
+    },
+    {
+      "previousLeadId": "LEAD-P257W-026",
+      "followupDate": "2026-10-30",
+      "statusAfter": "OPEN",
+      "finding": "국편 203석 연표와 UN 210명목-7 미실시 대조, 법정선거구 210→203 원개정법령 미확보.",
+      "nextOriginal": "1954 국회 선거구 획정 법령·부속표",
+      "forcedResolution": false
+    }
+  ],
+  "newDebtItems": [
+    {
+      "id": "HD-P258A-NIKH-144-SEAT-TYPO",
+      "status": "CONFLICTED",
+      "question": "국편 1954 총선 페이지 본문 자유당114 vs 표 자유당144, 원편집 오류 여부",
+      "support": [
+        "DOC-P257R-NIKH-ELECTION",
+        "DOC-P257W-UN-A2711-PRIMARY"
+      ],
+      "exactConflict": "203 total cannot equal 144+15+3+3+68=233",
+      "next": "국편 원인쇄본·정오표와 선관위 선거통계 원표",
+      "reviewDate": "2026-10-30",
+      "reviewHistory": [
+        {
+          "date": "2026-10-30",
+          "change": "NEW_OR_FOLLOWUP; no false resolution"
+        }
+      ]
+    },
+    {
+      "id": "HD-P258A-FOA-PA-DELIVERY",
+      "status": "OPEN",
+      "question": "1954-05-10 FOA 98.39m PA 발행이 실제 인도·지급과 어느 정도 일치하는가",
+      "support": [
+        "DOC-P258A-NIKH-FOA-19540510"
+      ],
+      "next": "FOA PA ledger and shipment vouchers",
+      "reviewDate": "2026-10-30",
+      "reviewHistory": [
+        {
+          "date": "2026-10-30",
+          "change": "NEW_OR_FOLLOWUP; no false resolution"
+        }
+      ]
+    },
+    {
+      "id": "HD-P258A-RUBBER-DELIVERY",
+      "status": "OPEN",
+      "question": "FOA raw rubber $2.7m PA의 실제 수입량·업체·수령일",
+      "support": [
+        "DOC-P258A-NIKH-FOA-19540510"
+      ],
+      "next": "1954 FOA rubber PA original contracts and Korean customs ledgers",
+      "reviewDate": "2026-10-30",
+      "reviewHistory": [
+        {
+          "date": "2026-10-30",
+          "change": "NEW_OR_FOLLOWUP; no false resolution"
+        }
+      ]
+    },
+    {
+      "id": "HD-P258A-TIRE-FACTORY",
+      "status": "OPEN",
+      "question": "FOA $500k tire factory 계획/$480k 요청 이후 착공·완공 여부",
+      "support": [
+        "DOC-P258A-NIKH-FOA-19540510"
+      ],
+      "next": "FOA industry PA follow-up and Commerce Ministry plant register",
+      "reviewDate": "2026-10-30",
+      "reviewHistory": [
+        {
+          "date": "2026-10-30",
+          "change": "NEW_OR_FOLLOWUP; no false resolution"
+        }
+      ]
+    },
+    {
+      "id": "HD-P258A-CHEMICALS-PA",
+      "status": "OPEN",
+      "question": "FOA chemicals $2m requested but May10 PA dash, later authorization?",
+      "support": [
+        "DOC-P258A-NIKH-FOA-19540510"
+      ],
+      "next": "1954 June-Sept FOA procurement amendments",
+      "reviewDate": "2026-10-30",
+      "reviewHistory": [
+        {
+          "date": "2026-10-30",
+          "change": "NEW_OR_FOLLOWUP; no false resolution"
+        }
+      ]
+    },
+    {
+      "id": "HD-P258A-FOA-UNKRA-CRIK-SCOPE",
+      "status": "NARROWED",
+      "question": "1954 FOA199.5m, CRIK80.6m, UNKRA45m budget programme scope and execution overlap",
+      "support": [
+        "DOC-P258A-NIKH-FOA-19540510",
+        "DOC-P257W-UN-A2711-PRIMARY"
+      ],
+      "next": "1954 agency audited financial statements and UNKRA ROK agreement",
+      "reviewDate": "2026-10-30",
+      "reviewHistory": [
+        {
+          "date": "2026-10-30",
+          "change": "NEW_OR_FOLLOWUP; no false resolution"
+        }
+      ]
+    },
+    {
+      "id": "HD-P258A-RHEE-YANG-AUTHORITY",
+      "status": "OPEN",
+      "question": "1954-07-02 이승만 북진 제안과 07-07 양유찬 단독행동 불가 약속의 공식 위임범위",
+      "support": [
+        "DOC-P257R-FRUS-D909",
+        "DOC-P257S-FRUS-D914"
+      ],
+      "next": "한국 외무부 주미대사 전문·대통령 친서 원본",
+      "reviewDate": "2026-10-30",
+      "reviewHistory": [
+        {
+          "date": "2026-10-30",
+          "change": "NEW_OR_FOLLOWUP; no false resolution"
+        }
+      ]
+    },
+    {
+      "id": "HD-P258A-VANFLEET-HULL-FINAL",
+      "status": "CONFLICTED",
+      "question": "1954-07-03 밴플리트 vs 07-05 헐의 한국군 증강·미군철수 상반 권고가 최종 어떤 정책으로 결정됐나",
+      "support": [
+        "DOC-P257R-FRUS-D910",
+        "DOC-P257R-FRUS-D911",
+        "DOC-P239J-FRUS-921"
+      ],
+      "next": "1954 NSC/DoD 최종 결재·한국군 편제원장",
+      "reviewDate": "2026-10-30",
+      "reviewHistory": [
+        {
+          "date": "2026-10-30",
+          "change": "NEW_OR_FOLLOWUP; no false resolution"
+        }
+      ]
+    },
+    {
+      "id": "HD-P258A-NNSC-COMMAND",
+      "status": "OPEN",
+      "question": "원용덕 1954-07-30 발언과 인천·부산·군산 폭력 사건의 명령·조직 연결",
+      "support": [
+        "DOC-P239J-FRUS-927",
+        "DOC-P239J-FRUS-930",
+        "DOC-P239J-FRUS-931"
+      ],
+      "next": "ROK 헌병 명령·미8군 MP·현지 경찰 수사원본",
+      "reviewDate": "2026-10-30",
+      "reviewHistory": [
+        {
+          "date": "2026-10-30",
+          "change": "NEW_OR_FOLLOWUP; no false resolution"
+        }
+      ]
+    },
+    {
+      "id": "HD-P258A-1955-MEMO-DATE",
+      "status": "OPEN",
+      "question": "1954 합의의사록 이행평가 비망록 작성자·작성일·원문 사료번호",
+      "support": [
+        "DOC-P258A-NIKH-AGREED-MINUTE-IMPLEMENTATION-1955"
+      ],
+      "next": "국편 fs_023_0160 원영문 이미지·NARA RG84/469 원철",
+      "reviewDate": "2026-10-30",
+      "reviewHistory": [
+        {
+          "date": "2026-10-30",
+          "change": "NEW_OR_FOLLOWUP; no false resolution"
+        }
+      ]
+    }
+  ],
+  "doNotChangeLastFullReview": true
+}
