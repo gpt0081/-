@@ -175,3 +175,4 @@
 - 2026-10-30 Pass258A: `data/events/pass-258a-1954-aid-defense-nnsc-actions.json` (1954 FOA 원조 원문 및 1954 한미·총선 반증, 기존 FRUS canonical ID 재사용; Floot 변경 없음).
 
 - `data/events/pass-258b-1953-54-aid-procurement-actions.json` (1953 원조조직/1954 원조·조달·환율 8개 하위행위)
+- `data/events/pass-258b-fy1955-rok-us-agreement-events.json` (FY55 예산/조달/CEB/초안/11월 서명/약정 7개 사건)

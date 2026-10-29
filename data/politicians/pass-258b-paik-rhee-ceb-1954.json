@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "pass": "258B-SUP",
+  "date": "2026-10-30",
+  "politicians": [
+    {
+      "id": "pol-paik-too-chin",
+      "name": "백두진",
+      "aliases": [
+        "白斗鎭",
+        "Paik Too Chin",
+        "Baek Du-jin"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "existing canonical; no new vital original inspected"
+      },
+      "offices": [
+        {
+          "period": "1954, exact day not fixed by source",
+          "title": "대한민국 국무총리·합동경제위원회 한국측 대표",
+          "selection": "official role attributed in US FOA congressional Q&A"
+        }
+      ],
+      "timeBoundActions": [
+        {
+          "dateRange": "1954 spring (document undated)",
+          "actionType": "institutional_representative_not_individual_vote",
+          "description": "CEB 한국측 대표로 정책·프로젝트 최종 승인기구 참여",
+          "documentIds": [
+            "DOC-P258B-NIKH-FS023-0120"
+          ],
+          "eventIds": [
+            "evt-p258b-sup-03"
+          ]
+        }
+      ],
+      "researchStatusBefore": "ANNALS_ACTIVE",
+      "researchStatusAfter": "ANNALS_ACTIVE",
+      "openLead": "1954 CEB 실제 의사록, 백두진 서명 결재와 총리 재임 관보 교차확인",
+      "promotionReason": "Existing stable politician ID reused, no maturity promotion"
+    },
+    {
+      "id": "pol-rhee-syngman",
+      "legacyIds": [
+        "president-rhee-syngman"
+      ],
+      "name": "이승만",
+      "aliases": [
+        "李承晩",
+        "Syngman Rhee"
+      ],
+      "lifespan": {
+        "born": "1875",
+        "died": "1965",
+        "verification": "existing canonical"
+      },
+      "offices": [
+        {
+          "period": "1948-1960",
+          "title": "대한민국 대통령"
+        }
+      ],
+      "timeBoundActions": [
+        {
+          "date": "1954-07-27 to 1954-07-31",
+          "actionType": "negotiation_participant",
+          "description": "한미 정상회담 협의의사록 초안에 한국측 국가수반으로 기재, 최종 서명 11/17은 미국 OCB 후대 보고",
+          "documentIds": [
+            "DOC-P258B-NIKH-FS023-0130",
+            "DOC-P258B-FRUS-D980-19541230"
+          ],
+          "eventIds": [
+            "evt-p258b-sup-04",
+            "evt-p258b-sup-06"
+          ]
+        },
+        {
+          "date": "1954 spring (document undated)",
+          "actionType": "US_attributed_statement",
+          "description": "민간기업·귀속기업 주식매각 원칙을 지지한다고 미국 FOA Q&A가 기술",
+          "documentIds": [
+            "DOC-P258B-NIKH-FS023-0120"
+          ]
+        }
+      ],
+      "researchStatusBefore": "ANNALS_ACTIVE",
+      "researchStatusAfter": "ANNALS_ACTIVE",
+      "openLead": "1954 귀속재산 53개 처분 원결재, 7월31일 draft vs 11월17일 signed original"
+    }
+  ]
+}
