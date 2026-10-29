@@ -198,3 +198,5 @@
 ## Pass250 (2026-10-29)
 - 신규 VERIFIED 독립 정치인 `pol-ji-cheong-cheon`: 독립기념관 인명사전과 미 OIR No.5824로 확인. 생일 음력/양력·실제 출마는 OPEN.
 - `data/politicians/pass-250-1952-actors.json`: 기존 정치인 10명 동시대 문서 연결 후보. 단순 언급과 직접 행위는 구분. 이범석 중복 ID는 자동병합하지 않음.
+
+- 2026-10-29 pass252: `data/politicians/pass-252-1952-aug20-27-actors.json` 기존 정치인 17명 심화, 칠곡 면장 박봉희 후보 1명 신규. 김시현은 pass229의 `cand-kim-si-hyeon-1952`를 중앙 registry에 승격하고 중복 candidate를 정정·폐기(정정 이력 보존). `data/annals/shin-ik-hui.md`, `data/evidence/shin-ik-hui.json` 독립 실록에 8/22~24 증거 추가.

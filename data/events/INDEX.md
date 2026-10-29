@@ -113,3 +113,5 @@
 - pass249 FRUS 1952 Meyer 협정·계엄협의·미국 내부 대응·포로재심사·원조위험 10건 신규 사건 중앙 registry 동기화. 월 단위 난민추계 event ID에서 임의 19일 제거.
 
 - `data/events/pass-250-1952-primary.json`: 1952년 OIR 간선제 전망·UNCURK 회담·검열·국민투표 구상 등 12개 action, 제안과 실행 분리.
+
+- 2026-10-29 pass252: `data/events/pass-252-1952-aug20-27-governance.json` 32개 action/sub-event를 중앙 `data/events.json`에 additive 동기화. 기존 1952-08-22 김시현 첫 공판과 중복을 피하기 위해 새 진술 subevent는 `evt-1952-attempt-0822-first-trial`을 parent로 둠.

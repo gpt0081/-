@@ -128,3 +128,5 @@
 - pass249 독립 반증탐색·교차출처 감사: data/research/pass-249-adversarial-audit.md (12 adversarial claims, 4 cross-provenance bundles; strict 3-original-family=0).
 
 - `data/claims/pass-250-1952-adversarial.json`: 1952년 검열·음모·국민투표·선거전망·UNC 수사 관련 8개 주장·한계 근거.
+
+- 2026-10-29 pass252: `data/claims/pass-252-1952-aug20-27-adversarial.json` 15개 주장·반론·미확인 원문 표적. CEB 미작 전망·신성모 검찰처분 충돌을 별도 CONFLICTED로 기록하고 계획과 시행을 구별.
