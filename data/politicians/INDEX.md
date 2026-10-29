@@ -252,3 +252,5 @@
 - 독립 event 13개 추가 `data/events/pass-257w3-uncurk-1954-election-aid-cabinet-actions.json`, 원문 `data/documents/pass-257w3-uncurk-1954-original.json`.
 
 - Pass257W4 신원 승격: UN Annex II `Yoon Kun-Joong` = 한국학중앙연구원 `윤건중(1897~1987)`, 1954-05 농림부장관. `cand-p257w-un-yoon-kun-joong` ID 보존, 기본 registry 연구상태 VERIFIED; 한자·원임면 관보는 OPEN. `Choi Kyoo-Ok`은 로마자 잠정 유지.
+
+- 2026-10-30 Pass258A: `data/politicians/pass-258a-1954-actor-actions.json` (1954 FOA 원조 원문 및 1954 한미·총선 반증, 기존 FRUS canonical ID 재사용; Floot 변경 없음).

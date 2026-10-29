@@ -185,3 +185,5 @@
 
 - 2026-10-29 Pass257W 원문 대조 8개 명제 `data/claims/pass-257w-1954-election-adversarial.json`; 국무회의 기록 메타데이터·관보 호수·산업화약 3개 `data/claims/pass-257w2-1954-cabinet-provenance-conflicts.json`.
 - Pass257W3 동시대 UN A/2711 자체 본문 115/67 vs 부록 114/68, 후보1207, 203/210, 경찰불개입 공개지시와 실제개입, 교섭단체136, 총리 인사, UNKRA 협정, 김법린 퇴임일 충돌 8개 `data/claims/pass-257w3-uncurk-election-cabinet-aid.json`. 기존 주장 silent overwrite 없이 review history 추가.
+
+- 2026-10-30 Pass258A: `data/claims/pass-258a-1954-budget-election-diplomacy-audit.json` (1954 FOA 원조 원문 및 1954 한미·총선 반증, 기존 FRUS canonical ID 재사용; Floot 변경 없음).

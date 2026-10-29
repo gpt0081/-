@@ -12,3 +12,5 @@
 관련 원문: `DOC-P257P-UN-RES410-19501201`, `DOC-P257P-UN-A2750-19541012`, `DOC-P257P-UN-A2487-AUDIT-19530921`.
 
 - 2026-10-29 추가: 영국 하원·외무부 및 UN ACABQ 3개 기관, 국제기구 자기보고·독립감사·영국 의회답변 3개 출처계열을 구분.
+
+- 2026-10-30 Pass258A: `data/organizations/pass-258a-us-foa-1954.json` (1954 FOA 원조 원문 및 1954 한미·총선 반증, 기존 FRUS canonical ID 재사용; Floot 변경 없음).
