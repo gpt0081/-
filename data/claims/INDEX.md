@@ -177,3 +177,4 @@
 - Pass257Q diplomatic addendum: 4 claims preserving 1953/1954 consistency and speaker-allegation versus proven maritime action.
 
 - Pass257Q UN original addendum: five claims, third strict ROK Cabinet+US FRUS+UN original three-family crosscheck.
+- 2026-10-29 Pass257R 선거 114/115·공천99+15·문맹연도·집행귀속 16개 반증. `data/claims/pass-257r-1954-policy-election-adversarial.json`.

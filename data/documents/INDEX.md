@@ -210,3 +210,4 @@
 - Pass257Q diplomatic addendum: four FRUS originals d692/d737/d871/v14p2-d606 for 1953 aid complaints, Feb1954 letter withdrawal and 1952 maritime tensions.
 
 - Pass257Q UN original addendum: ECAFE Economic Survey1956 and UNKRA A/3195 primary original PDF texts, independent tungsten agreement expiry/exports.
+- 2026-10-29 Pass257R 1954 FRUS 원문 36신규+2재사용, NEC/NIKH/NAK 공식 후대자료8. `data/documents/pass-257r-1954-policy-election-frus.json`.

@@ -163,3 +163,4 @@
 - Pass257Q diplomatic addendum: six original-source events on 1953 aid, 1954 letter handling, 1952 maritime claim.
 
 - Pass257Q UN original addendum: 1954 tungsten expiry, 1955 international auctions, 1954/55 export decline, 1956 recovery 5 events.
+- 2026-10-29 Pass257R 1954 선거·국회·외교·국방·교육·농정·재정·산업 22개 세부사건. `data/events/pass-257r-1954-policy-election-actions.json`.
