@@ -208,3 +208,4 @@
 - 2026-10-29 pass255B/C: 신규 DISCOVERED 5명(정문후·원상복·연일수·이신우·김봉재) `data/politicians/pass-255b-actor-overlay.json`; 기존 비대통령 인물 31명에 걸친 총 49개 새 actor-evidence 링크 `data/evidence/pass-255-actor-evidence.json`, `data/evidence/pass-255b-actor-evidence.json`, `data/evidence/pass-255c-actor-evidence.json`. 원임명·생몰·당적 미확인 후보는 VERIFIED 승격 금지.
 
 - 2026-10-29 Pass255H: `data/politicians/pass-255h-actor-overlay.json` (원문 출처·불확실성 보존).
+- 2026-10-29 Pass255H 사후 ID 교정: 신규 후보 2명(모윤숙·최주일), 기존 candidate 5명 심화. 지연해 한자 池連海/池蓮海는 충돌로 보존. `data/politicians/pass-255h-actor-overlay.json`.

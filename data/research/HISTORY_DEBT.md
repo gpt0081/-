@@ -1675,3 +1675,4 @@
 - **HD-P255H-MULTI-PROPOSALS / OPEN**: FRUS d292~d300은 영국·인도·멕시코·소련 등 포로 처리안을 미국 정부가 평가한 원문이다. 각국의 공식 원안·유엔 제1위원회 원회의록과 교차검증 전 미국측 기록을 독립 3계열 확증으로 계산하지 않음.
 
 **역사부채 주간 전수조사 미실시.** 일요일 첫 실행 전수 재조사 규칙 및 기존 `last_full_review` 유지. 자세한 문서·주장·다음 원문 표적은 `data/research/run-reports/pass-255h.md` 및 `data/research/leads/pass-255h-next-originals.json` 참조.
+- **HD-P255H-IDENTITY / CONFLICTED (2026-10-29)**: pass255h 등록 전수대조에서 신규로 간주한 7명 중 5명은 기존 candidate. 기존 ID 재사용으로 중복 생성 정정. 지연해의 기존 池連海와 1952-12-05 신문 池蓮海는 한자 충돌로 병기, 동일인·표기 오류는 추가 원자료 확인 전 단정 금지. 황성수 동명이인 candidate와 자동병합 금지. 변경 이력: `data/politicians/pass-255h-actor-overlay.json`.
