@@ -118,7 +118,11 @@
         "evt-p252-railway-rations",
         "evt-p252b-rhee-tungsten-request",
         "evt-p253-rhee-currency",
-        "evt-p253-rhee-amendment"
+        "evt-p253-rhee-amendment",
+        "evt-p253e-rhee-lim-letter",
+        "evt-p253e-tungsten-rhee-meeting",
+        "evt-p253e-japan-migration",
+        "evt-p253e-state-privatization"
       ],
       "researchRefs": [
         "data/politicians/pass-233-1952-rok-diplomacy-network.json",
@@ -141,7 +145,11 @@
         "DOC-P239B-PA-1310825",
         "DOC-P252-0823-0050",
         "DOC-P252B-0826-0080",
-        "DOC-P253-FRUS-268"
+        "DOC-P253-FRUS-268",
+        "DOC-P253E-DH-0909-0010",
+        "DOC-P253E-DH-0909-0060",
+        "DOC-P253E-DH-0911-0060",
+        "DOC-P253E-DH-0911-0070"
       ],
       "lastResearchPass": 253,
       "recentResearchPass239J": {
@@ -168,7 +176,11 @@
         "overlay": "data/politicians/pass-239j-1954-diplomacy-economy-actors.json"
       },
       "openLeads": [
-        "LEAD-P239L-09"
+        "LEAD-P239L-09",
+        "LEAD-P253E-01",
+        "LEAD-P253E-08",
+        "LEAD-P253E-19",
+        "LEAD-P253E-20"
       ],
       "rolesByPeriod": [
         {
@@ -179,6 +191,42 @@
             "DOC-P253-FRUS-268"
           ],
           "attribution": "미국 대사관 보고된 당사자 발언. 공식 기안·명령·공포와 분리"
+        },
+        {
+          "date": "1952-09-09",
+          "role": "대한민국 대통령",
+          "actionType": "미국 내 반대세력·VOA 인사 대응 비공개 서한 지시",
+          "evidence": [
+            "DOC-P253E-DH-0909-0010"
+          ],
+          "attribution": "직접 원문 서한·발언 또는 동시대 언론 보도. 발언의 진위·계획 집행 분리"
+        },
+        {
+          "date": "1952-09-09",
+          "role": "대한민국 대통령",
+          "actionType": "국회 중석불 조사단 면담·법무장관 조사 약속 보도",
+          "evidence": [
+            "DOC-P253E-DH-0909-0060"
+          ],
+          "attribution": "직접 원문 서한·발언 또는 동시대 언론 보도. 발언의 진위·계획 집행 분리"
+        },
+        {
+          "date": "1952-09-02",
+          "role": "대한민국 대통령",
+          "actionType": "제71회 국무회의 일본 밀항자 단속 지시 보도",
+          "evidence": [
+            "DOC-P253E-DH-0911-0060"
+          ],
+          "attribution": "직접 원문 서한·발언 또는 동시대 언론 보도. 발언의 진위·계획 집행 분리"
+        },
+        {
+          "date": "1952-09-09",
+          "role": "대한민국 대통령",
+          "actionType": "국책회사 민영화 실태조사 후 조건부 허용 발언 보도",
+          "evidence": [
+            "DOC-P253E-DH-0911-0070"
+          ],
+          "attribution": "직접 원문 서한·발언 또는 동시대 언론 보도. 발언의 진위·계획 집행 분리"
         }
       ]
     },
@@ -518,7 +566,8 @@
         "evt-p239m3-05",
         "evt-p241-07",
         "evt-p243-1958-0112-cho",
-        "evt-p249-1952-0805-election-denominator"
+        "evt-p249-1952-0805-election-denominator",
+        "evt-p253e-new-amendment-coalitions"
       ],
       "researchUpdates": [
         {
@@ -541,13 +590,15 @@
       "evidenceCoverage": [
         "DOC-P238-KOR-05_06_0060",
         "DOC-P239-NIKH-06_01_0060",
-        "DOC-P241-NIKH-OIR7371"
+        "DOC-P241-NIKH-OIR7371",
+        "DOC-P253E-DH-0910-0040"
       ],
-      "lastResearchPass": 238,
+      "lastResearchPass": 253,
       "openLeads": [
         "LEAD-P239L-29",
         "LEAD-P239M3-IDENTITY-pol-cho-bong-am",
-        "LEAD-P251-36"
+        "LEAD-P251-36",
+        "LEAD-P253E-03"
       ],
       "evidenceFile": "data/evidence/cho-bong-am.json",
       "annalsFile": "data/annals/cho-bong-am.md",
@@ -616,7 +667,18 @@
         "DOC-P251-NEC-PRES",
         "DOC-P251-AKS-E0051827"
       ],
-      "evidenceCoverageLevel": "NEC_OFFICIAL_RETROSPECTIVE_PLUS_AKS_SECONDARY"
+      "evidenceCoverageLevel": "NEC_OFFICIAL_RETROSPECTIVE_PLUS_AKS_SECONDARY",
+      "rolesByPeriod": [
+        {
+          "date": "1952-09-10",
+          "role": "초대 농림부 장관",
+          "actionType": "장면과 혁신정당 구상 추진 보도",
+          "evidence": [
+            "DOC-P253E-DH-0910-0040"
+          ],
+          "attribution": "직접 원문 서한·발언 또는 동시대 언론 보도. 발언의 진위·계획 집행 분리"
+        }
+      ]
     },
     {
       "id": "pol-lee-beom-seok",
@@ -1008,7 +1070,9 @@
         "evt-p252b-tungsten-minister-answers",
         "evt-p252c-fx-tax",
         "evt-p253-tungsten",
-        "evt-p253d-tungsten-final"
+        "evt-p253d-tungsten-final",
+        "evt-p253e-paik-ceb-speech",
+        "evt-p253e-tungsten-parliament-final"
       ],
       "researchNotes": "1\n9\n5\n2\n~\n5\n3\n \n재\n정\n·\n원\n조\n·\n휴\n전\n외\n교\n \n교\n차\n \n행\n위\n자\n.\n \n1\n9\n5\n3\n-\n0\n8\n-\n0\n6\n \n경\n제\n·\n군\n사\n원\n조\n \n회\n의\n에\n서\n \n통\n합\n \n경\n제\n기\n구\n를\n \n통\n한\n \n원\n조\n \n프\n로\n그\n램\n \nM\nO\nU\n의\n \n미\n국\n \n최\n종\n승\n인\n을\n \n직\n접\n \n요\n청\n한\n \n기\n록\n과\n \n덜\n레\n스\n \n회\n담\n \n참\n여\n가\n \n확\n인\n되\n어\n \nV\nE\nR\nI\nF\nI\nE\nD\n로\n \n승\n격\n.\n \nC\nE\nB\n/\n환\n율\n/\n재\n건\n원\n조\n \n한\n국\n측\n \n문\n서\n \n확\n보\n \n후\n \nA\nN\nN\nA\nL\nS\n_\nA\nC\nT\nI\nV\nE\n \n검\n토\n.\n2026-10-28 pass233 정정: 직접 출처 없이 연결된 event edge 제거, 인물 candidate 연구 단서는 보존\npass234B: 1952-12-12 부흥부 신설 구상·유엔 원화대여금 4580억원 주장·11/13 현금교환 요청 공한, 12/15 450만석 양곡수입 합의 주장",
       "pass232Overlay": "data/politicians/pass-232-1952-september-actors.json",
@@ -1072,7 +1136,9 @@
         "DOC-P231-KOR-0826",
         "DOC-P252C-0831-0060",
         "DOC-P253-DH-0906-0030",
-        "DOC-P253D-DH-0908-0100"
+        "DOC-P253D-DH-0908-0100",
+        "DOC-P253E-DH-0911-0030",
+        "DOC-P253E-DH-0910-0080"
       ],
       "lastResearchPass": 253,
       "evidenceFile": "data/evidence/paik-too-chin-1953.json",
@@ -1121,7 +1187,9 @@
       "openLeads": [
         "LEAD-P239L-08",
         "LEAD-P239M3-IDENTITY-pol-paik-too-chin",
-        "LEAD-P253-22"
+        "LEAD-P253-22",
+        "LEAD-P253E-16",
+        "LEAD-P253E-07"
       ],
       "recentResearchPass240": {
         "date": "2026-10-29",
@@ -1159,6 +1227,24 @@
             "DOC-P253D-DH-0908-0100"
           ],
           "attribution": "동시대 원문 보도 범위만 귀속, 법률·집행 확정 아님"
+        },
+        {
+          "date": "1952-09-11",
+          "role": "재무부 장관",
+          "actionType": "국회 한미경제조정협정·UN군 원화대여금 상환 및 외환운용 설명",
+          "evidence": [
+            "DOC-P253E-DH-0911-0030"
+          ],
+          "attribution": "직접 원문 서한·발언 또는 동시대 언론 보도. 발언의 진위·계획 집행 분리"
+        },
+        {
+          "date": "1952-09-10",
+          "role": "재무부 장관",
+          "actionType": "중석불 특위 계속조사 논의 국회 본회의 출석",
+          "evidence": [
+            "DOC-P253E-DH-0910-0080"
+          ],
+          "attribution": "직접 원문 서한·발언 또는 동시대 언론 보도. 발언의 진위·계획 집행 분리"
         }
       ]
     },
@@ -1612,7 +1698,8 @@
         "evt-p239j-04",
         "evt-p250-0609b",
         "evt-p250-0620",
-        "evt-p250-0623"
+        "evt-p250-0623",
+        "evt-p253e-rhee-lim-letter"
       ],
       "researchNotes": "1953-05-27 휴전안 대응을 이승만에게 보고한 서한과 08-08 덜레스 최종회담 참가가 확인됨. 주유엔 대표 재임기간·외교부 직제 원문 확인 후 VERIFIED 검토.\npass234B: 1952-12-15 UN 인도안 거부 후 대한민국 대표로 발언(신문 보도, 공식 UN verbatim 기록 미확보)",
       "researchRefs": [
@@ -1647,7 +1734,8 @@
         "DOC-P236G-LE-0570",
         "DOC-P236H-LE-0760",
         "DOC-P239I-FRUS-739",
-        "DOC-P239I-FRUS-741"
+        "DOC-P239I-FRUS-741",
+        "DOC-P253E-DH-0909-0010"
       ],
       "promotionHistory": [
         {
@@ -1670,7 +1758,7 @@
           ]
         }
       ],
-      "lastResearchPass": "239I",
+      "lastResearchPass": 253,
       "recentResearchPass239J": {
         "date": "2026-10-29",
         "documents": [
@@ -1681,7 +1769,18 @@
         ],
         "role_note": "1954-07-30 Ambassador Limb participant only, no attributed policy decision",
         "overlay": "data/politicians/pass-239j-1954-diplomacy-economy-actors.json"
-      }
+      },
+      "rolesByPeriod": [
+        {
+          "date": "1952-09-09",
+          "role": "주유엔 대한민국 대표",
+          "actionType": "이승만의 미국내 여론 대응 서한 수신자",
+          "evidence": [
+            "DOC-P253E-DH-0909-0010"
+          ],
+          "attribution": "직접 원문 서한·발언 또는 동시대 언론 보도. 발언의 진위·계획 집행 분리"
+        }
+      ]
     },
     {
       "id": "pol-paik-sun-yup",
@@ -2396,7 +2495,8 @@
         "DOC-P236-PA-LABOR-764",
         "DOC-P236-PA-LABOR-765",
         "DOC-P238-KOR-05_14_0030",
-        "DOC-P252-0822-0050"
+        "DOC-P252-0822-0050",
+        "DOC-P253E-DH-0910-0040"
       ],
       "openLeads": [
         "신익희의 1952년 당시 선거관리위원회·국회 속기록·관보 원문으로 생몰/한자/정당/행위 확인",
@@ -2405,7 +2505,8 @@
         "LEAD-P236-004",
         "LEAD-P236-005",
         "LEAD-P239L-10",
-        "LEAD-P239M3-IDENTITY-cand-1952-speaker-shin-ik-hui"
+        "LEAD-P239M3-IDENTITY-cand-1952-speaker-shin-ik-hui",
+        "LEAD-P253E-03"
       ],
       "historyDebt": [
         "identity/tenure primary record pending"
@@ -2428,7 +2529,8 @@
         "evt-p239m3-02",
         "evt-p250-0303",
         "evt-p250-0613b",
-        "evt-p252-abducted-mps"
+        "evt-p252-abducted-mps",
+        "evt-p253e-new-amendment-coalitions"
       ],
       "pass232Overlay": "data/politicians/pass-232-1952-september-actors.json",
       "researchRefs": [
@@ -2463,6 +2565,15 @@
           "office": "국회 임시의장",
           "actionType": "presided_and_proclaimed_amendment_vote",
           "evidence": "DOC-P231-KOR-0704"
+        },
+        {
+          "date": "1952-09-10",
+          "role": "National Assembly presiding officer 1952-07-04",
+          "actionType": "야당 원내 연합구상 주도자로 보도",
+          "evidence": [
+            "DOC-P253E-DH-0910-0040"
+          ],
+          "attribution": "직접 원문 서한·발언 또는 동시대 언론 보도. 발언의 진위·계획 집행 분리"
         }
       ],
       "correctionHistory": [
@@ -2474,7 +2585,7 @@
           "source": "https://db.history.go.kr/id/dh_026_1952_07_04_0030"
         }
       ],
-      "lastResearchPass": 252
+      "lastResearchPass": 253
     },
     {
       "id": "cand-1952-sep-interior-jin-heon-sik",
@@ -2502,7 +2613,8 @@
         "evt-p239g-1953-804-police-supply",
         "evt-p239g-1953-804-repeal378",
         "evt-p252b-cabinet-reshuffle",
-        "evt-p253-seoul-entry"
+        "evt-p253-seoul-entry",
+        "evt-p253e-japan-migration"
       ],
       "evidenceFile": "data/politicians/pass-232-1952-september-actors.json",
       "openLeadsFile": "data/research/leads/pass-232-20261028-next-lead-queue.json",
@@ -2524,7 +2636,8 @@
         "DOC-P239G-MOIS",
         "DOC-P239G-804",
         "DOC-P252B-0829-0030",
-        "DOC-P253-DH-0904-0050"
+        "DOC-P253-DH-0904-0050",
+        "DOC-P253E-DH-0911-0060"
       ],
       "researchNotes": "pass234B: 1952-12-11 내무장관으로 대통령 12/9 담화의 반정부자 정의 해석·가정부 음모 주장",
       "researchRefs": [
@@ -2548,10 +2661,20 @@
             "DOC-P253-DH-0904-0050"
           ],
           "attribution": "당시 보도·문서에 적힌 본인 행위만 귀속"
+        },
+        {
+          "date": "1952-09-09",
+          "role": "1952-09-18 내무부장관",
+          "actionType": "일본 밀항자 단속 강화 내무장관 담화",
+          "evidence": [
+            "DOC-P253E-DH-0911-0060"
+          ],
+          "attribution": "직접 원문 서한·발언 또는 동시대 언론 보도. 발언의 진위·계획 집행 분리"
         }
       ],
       "openLeads": [
-        "LEAD-P253-36"
+        "LEAD-P253-36",
+        "LEAD-P253E-19"
       ]
     },
     {
@@ -2608,7 +2731,8 @@
         "evt-p252c-land-cash",
         "evt-p253-land",
         "evt-p253d-shin-grain",
-        "evt-p253d-grain-reject"
+        "evt-p253d-grain-reject",
+        "evt-p253e-shin-ration"
       ],
       "evidenceFile": "data/politicians/pass-232-1952-september-actors.json",
       "openLeadsFile": "data/research/leads/pass-232-20261028-next-lead-queue.json",
@@ -2648,7 +2772,8 @@
         "DOC-P252C-0831-0050",
         "DOC-P253-DH-0906-0040",
         "DOC-P253D-DH-0906-0060",
-        "DOC-P253D-DH-0908-0110"
+        "DOC-P253D-DH-0908-0110",
+        "DOC-P253E-DH-0909-0070"
       ],
       "promotionReason": "기존 동시대 농정 6개 사건 + AKS 생몰·장관 재임 + 법제처 1953 농림 직제 확인; 개인별 실록 개설. 법령 기안 귀속은 미확인",
       "annalsFile": "data/annals/shin-jung-mok.md",
@@ -2679,12 +2804,22 @@
             "DOC-P253D-DH-0908-0110"
           ],
           "attribution": "동시대 원문 보도 범위만 귀속, 법률·집행 확정 아님"
+        },
+        {
+          "date": "1952-09-09",
+          "role": "1952-09 농림부장관",
+          "actionType": "식량 특별배급 제한·비료카드·무연탄 사용 발표",
+          "evidence": [
+            "DOC-P253E-DH-0909-0070"
+          ],
+          "attribution": "직접 원문 서한·발언 또는 동시대 언론 보도. 발언의 진위·계획 집행 분리"
         }
       ],
       "openLeads": [
         "LEAD-P253-01",
         "LEAD-P253D-01",
-        "LEAD-P253D-02"
+        "LEAD-P253D-02",
+        "LEAD-P253E-09"
       ]
     },
     {
@@ -3022,7 +3157,8 @@
         "evt-p239m3-03",
         "evt-p239m3-06",
         "evt-p250-0613b",
-        "evt-p252-pm-reapproval"
+        "evt-p252-pm-reapproval",
+        "evt-p253e-yun-aid"
       ],
       "evidenceFile": "data/politicians/pass-232-1952-september-actors.json",
       "openLeadsFile": "data/research/leads/pass-232-20261028-next-lead-queue.json",
@@ -3040,7 +3176,8 @@
         "DOC-P239-NIKH-05_26_0070",
         "DOC-P239E-NIKH-0625-0070",
         "DOC-P239L2-UN-A2947",
-        "DOC-P252-0820-0060"
+        "DOC-P252-0820-0060",
+        "DOC-P253E-DH-0910-0020"
       ],
       "researchNotes": "pass234B: 1952-12-15 총리 후임 물망으로 언론에 언급, 실제 지명 아님",
       "researchRefs": [
@@ -3052,10 +3189,22 @@
         "data/politicians/pass-239l2-1955-cabinet-election-actors.json",
         "data/politicians/pass-239m3-1954-economic-parliament-actors.json"
       ],
-      "lastResearchPass": 252,
+      "lastResearchPass": 253,
       "openLeads": [
         "LEAD-P239L2-12",
-        "LEAD-P239M3-IDENTITY-cand-1952-sep-yun-chi-yeong"
+        "LEAD-P239M3-IDENTITY-cand-1952-sep-yun-chi-yeong",
+        "LEAD-P253E-13"
+      ],
+      "rolesByPeriod": [
+        {
+          "date": "1952-09-10",
+          "role": "1952-09 국회부의장·대한국민당 지도부·자유당 원내 활동",
+          "actionType": "미국 50억달러 원조·한국군 200만 무장·태평양동맹 촉진 연설",
+          "evidence": [
+            "DOC-P253E-DH-0910-0020"
+          ],
+          "attribution": "직접 원문 서한·발언 또는 동시대 언론 보도. 발언의 진위·계획 집행 분리"
+        }
       ]
     },
     {
@@ -3380,7 +3529,8 @@
         "evt-p247e-0926-assembly-law",
         "evt-p247e-1101-local-election",
         "evt-p248-1960-0729-results",
-        "evt-p250-0303"
+        "evt-p250-0303",
+        "evt-p253e-new-amendment-coalitions"
       ],
       "researchRefs": [
         "data/politicians/pass-233-1952-rok-diplomacy-network.json",
@@ -3393,7 +3543,8 @@
         "verification": "이번 회차 생몰 원기록 미확인; 기존 canonical 정보는 변경하지 않음"
       },
       "openLeads": [
-        "LEAD-P239L-11"
+        "LEAD-P239L-11",
+        "LEAD-P253E-03"
       ],
       "evidenceFile": "data/evidence/chang-myon.json",
       "annalsFile": "data/annals/chang-myon.md",
@@ -3444,9 +3595,22 @@
         "documentIds": [
           "DOC-P246-GAZ-557",
           "DOC-P246-GAZ-563",
-          "DOC-P248-NIKH"
+          "DOC-P248-NIKH",
+          "DOC-P253E-DH-0910-0040"
         ]
-      }
+      },
+      "rolesByPeriod": [
+        {
+          "date": "1952-09-10",
+          "role": "1952-11 미국 첩보에서 전 국무총리로 지칭; 쿠데타 혐의 불확정",
+          "actionType": "조봉암과 혁신정당 구상 추진 보도",
+          "evidence": [
+            "DOC-P253E-DH-0910-0040"
+          ],
+          "attribution": "직접 원문 서한·발언 또는 동시대 언론 보도. 발언의 진위·계획 집행 분리"
+        }
+      ],
+      "lastResearchPass": 253
     },
     {
       "id": "cand-1952-nov-yi-chong-chan",
@@ -4297,11 +4461,13 @@
       "backbone": false,
       "connections": [
         "evt-p235-assembly-caucus",
-        "evt-p235e-assembly-election-results"
+        "evt-p235e-assembly-election-results",
+        "evt-p253e-tungsten-parliament-final"
       ],
       "evidenceCoverage": [
         "DOC-P235-NIKH-01_20_0040",
-        "DOC-P235E-NIKH-02_01_0020"
+        "DOC-P235E-NIKH-02_01_0020",
+        "DOC-P253E-DH-0910-0080"
       ],
       "researchRefs": [
         "data/politicians/pass-235-1953-assembly-cabinet-actors.json",
@@ -4309,11 +4475,24 @@
       ],
       "openLeads": [
         "LEAD-P235-009",
-        "LEAD-P235-010"
+        "LEAD-P235-010",
+        "LEAD-P253E-07"
       ],
       "historyDebt": [
         "HD-P235-ASSEMBLY-RESULT"
-      ]
+      ],
+      "rolesByPeriod": [
+        {
+          "date": "1952-09-10",
+          "role": "재정경제위원장 후보·입당 조건설",
+          "actionType": "중석불 특위 제3차 조사보고 발표",
+          "evidence": [
+            "DOC-P253E-DH-0910-0080"
+          ],
+          "attribution": "직접 원문 서한·발언 또는 동시대 언론 보도. 발언의 진위·계획 집행 분리"
+        }
+      ],
+      "lastResearchPass": 253
     },
     {
       "id": "cand-p235-kim-jong-sun",
@@ -4460,7 +4639,8 @@
         "evt-p247e-0622-exclusion",
         "evt-p247e-0622-election-law",
         "evt-p248-1960-0729-results",
-        "evt-p252-abducted-mps"
+        "evt-p252-abducted-mps",
+        "evt-p253e-secret-ballot"
       ],
       "evidenceCoverage": {
         "documentIds": [
@@ -4469,7 +4649,8 @@
           "DOC-P239M-NARA-91",
           "DOC-P239M3-ASSEMBLY-0100",
           "DOC-P247D-NA-110",
-          "DOC-P248-NIKH"
+          "DOC-P248-NIKH",
+          "DOC-P253E-DH-0910-0050"
         ],
         "source": "UN original and AKS later biographical synthesis"
       },
@@ -4489,7 +4670,8 @@
         "LEAD-P235-010",
         "LEAD-P239K-46",
         "LEAD-P239M-IDENTITY-cand-p235-kwak-sang-hun",
-        "LEAD-P239M3-IDENTITY-cand-p235-kwak-sang-hun"
+        "LEAD-P239M3-IDENTITY-cand-p235-kwak-sang-hun",
+        "LEAD-P253E-13"
       ],
       "historyDebt": [
         "HD-P235-ASSEMBLY-RESULT",
@@ -4563,7 +4745,18 @@
         ],
         "verification": "국회 원회의록 본문 전사 직접 확인"
       },
-      "lastResearchPass": 252
+      "lastResearchPass": 253,
+      "rolesByPeriod": [
+        {
+          "date": "1952-09-10",
+          "role": "국방·징계자격위원장 후보",
+          "actionType": "국회법 53조3항 무기명표결 긴급동의 재상정",
+          "evidence": [
+            "DOC-P253E-DH-0910-0050"
+          ],
+          "attribution": "직접 원문 서한·발언 또는 동시대 언론 보도. 발언의 진위·계획 집행 분리"
+        }
+      ]
     },
     {
       "id": "cand-p235-yun-gil-jung",
@@ -4659,13 +4852,15 @@
         "evt-p235-assembly-caucus",
         "evt-p235e-assembly-election-results",
         "evt-p253-land",
-        "evt-p253d-land-27th"
+        "evt-p253d-land-27th",
+        "evt-p253e-land-first-reading"
       ],
       "evidenceCoverage": [
         "DOC-P235-NIKH-01_20_0040",
         "DOC-P235E-NIKH-02_01_0020",
         "DOC-P253-DH-0906-0040",
-        "DOC-P253D-DH-0908-0090"
+        "DOC-P253D-DH-0908-0090",
+        "DOC-P253E-DH-0909-0040"
       ],
       "researchRefs": [
         "data/politicians/pass-235-1953-assembly-cabinet-actors.json",
@@ -4676,7 +4871,8 @@
         "LEAD-P235-009",
         "LEAD-P235-010",
         "LEAD-P253-01",
-        "LEAD-P253D-01"
+        "LEAD-P253D-01",
+        "LEAD-P253E-04"
       ],
       "historyDebt": [
         "HD-P235-ASSEMBLY-RESULT"
@@ -4699,6 +4895,15 @@
             "DOC-P253D-DH-0908-0090"
           ],
           "attribution": "동시대 원문 보도 범위만 귀속, 법률·집행 확정 아님"
+        },
+        {
+          "date": "1952-09-06",
+          "role": "농림위원장 후보·입당 조건설",
+          "actionType": "농지개혁법 현금상환 개정안 농림위원회 제1독회 심사",
+          "evidence": [
+            "DOC-P253E-DH-0909-0040"
+          ],
+          "attribution": "직접 원문 서한·발언 또는 동시대 언론 보도. 발언의 진위·계획 집행 분리"
         }
       ],
       "lastResearchPass": 253
@@ -9997,13 +10202,16 @@
       "backbone": false,
       "connections": [
         "evt-p242-27",
-        "evt-p243-1958-1118-security-draft"
+        "evt-p243-1958-1118-security-draft",
+        "evt-p253e-tungsten-foreign-claim"
       ],
       "evidenceCoverage": [
-        "DOC-P242-NIKH-1957-1015"
+        "DOC-P242-NIKH-1957-1015",
+        "DOC-P253E-DH-0909-0050"
       ],
       "openLeads": [
-        "LEAD-P242-20"
+        "LEAD-P242-20",
+        "LEAD-P253E-05"
       ],
       "researchRefs": [
         "data/politicians/pass-242-1957-actors.json"
@@ -10011,7 +10219,19 @@
       "identityCaution": "Source grade and Korean original pending",
       "researchOverlays": [
         "data/politicians/pass-243-1958-actor-evidence.json"
-      ]
+      ],
+      "rolesByPeriod": [
+        {
+          "date": "1952-09-09",
+          "role": "1957-10-15 이기붕·조병옥과 선거법 동시상정 합의(연표)",
+          "actionType": "중석광산 미국인 경영권 양도 AP보도를 금시초문이라 부인",
+          "evidence": [
+            "DOC-P253E-DH-0909-0050"
+          ],
+          "attribution": "직접 원문 서한·발언 또는 동시대 언론 보도. 발언의 진위·계획 집행 분리"
+        }
+      ],
+      "lastResearchPass": 253
     },
     {
       "id": "cand-p244-huh-chung",
@@ -13858,6 +14078,47 @@
         "data/research/politicians/pass-253-1952-september-actor-profiles.json"
       ],
       "lastResearchPass": 253
+    },
+    {
+      "id": "cand-p253e-shin-hyeon-don",
+      "name": "신현돈",
+      "aliases": [
+        "申鉉燉",
+        "Shin Hyeon-don"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "공식 인명·생몰 기록 미확보"
+      },
+      "roles": [
+        "1952-09 경상북도지사(동시대 대구매일 보도)"
+      ],
+      "rolesByPeriod": [
+        {
+          "date": "1952-09-09",
+          "role": "경상북도지사",
+          "actionType": "면사배정·도청 접대책임·보건직무·가뭄대책 기자회견",
+          "evidence": [
+            "DOC-P253E-DH-0909-0100"
+          ]
+        }
+      ],
+      "researchStatus": "DISCOVERED",
+      "researchMaturity": "DISCOVERED",
+      "connections": [
+        "evt-p253e-gyeongbuk-governor"
+      ],
+      "evidenceCoverage": [
+        "DOC-P253E-DH-0909-0100"
+      ],
+      "openLeads": [
+        "LEAD-P253E-12"
+      ],
+      "historyDebt": [
+        "공식 도지사 임명관보·생몰·원회의록 미확보"
+      ],
+      "lastResearchPass": 253
     }
   ],
   "recentResearchPass232": {
@@ -14173,5 +14434,14 @@
       "pol-paik-too-chin"
     ],
     "note": "pass253 본회차 10명 + 추가 변영태 = 고유 기존 비대통령 11명"
+  },
+  "recentResearchPass253E": {
+    "date": "2026-10-29",
+    "deepenedExistingUnique": 12,
+    "newCandidates": [
+      "cand-p253e-shin-hyeon-don"
+    ],
+    "overlay": "data/evidence/pass-253e-september-actor-evidence.json",
+    "note": "기존 박만원 2개 후보ID·이범석 2개 ID·장택상 중복 가능성 별도 역사부채로 남김"
   }
 }
