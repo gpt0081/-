@@ -173,3 +173,5 @@
 - Pass257Q FRUS addendum: 10 claim-level contrary-evidence reviews for tungsten agreement, U.S. reply, 1954 presidential letter and provenance roles.
 
 - Pass257Q health addendum: 8 claim reviews on 1954 law307/308 promulgation/effectiveness and later judicial findings.
+
+- Pass257Q diplomatic addendum: 4 claims preserving 1953/1954 consistency and speaker-allegation versus proven maritime action.

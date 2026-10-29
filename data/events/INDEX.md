@@ -159,3 +159,5 @@
 - Pass257Q health addendum: 1954-02-02 law307/308 promulgation, 1957-02-28 law308 effect, 1954-02-20 fisheries law298, 4/1 industrial bank index.
 
 - Pass257Q Archives addendum: 1954-01-03/01-20 POW groups and 1954-11-14 tungsten export liberalization, later official chronology index only, not original facsimile.
+
+- Pass257Q diplomatic addendum: six original-source events on 1953 aid, 1954 letter handling, 1952 maritime claim.
