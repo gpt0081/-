@@ -134,3 +134,5 @@
 - 2026-10-29 pass252B/C: `data/claims/pass-252b-1952-aug26-30-adversarial.json` 12건 + `data/claims/pass-252c-1952-aug31-adversarial.json` 6건. 전시생활개선법 시행령 기존 의복 예외·경찰령 번호·비료공장 생산능력·부산 세금 선부과·고문지시 부인 등 충돌·미확인 구분.
 
 - data/claims/pass-253-1952-september-adversarial.json (pass253, 2026-10-29)
+
+- data/claims/pass-253d-september-adversarial.json (pass253D, 2026-10-29)

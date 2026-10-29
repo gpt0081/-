@@ -168,3 +168,5 @@
 - 2026-10-29 pass252C: `data/documents/pass-252c-1952-aug31-originals.json` 직접열람·신규 등록 9건. 육군본부 지령 제60호 전사·동시대 국무위원 명단·부산 지방세·경찰 고문 의혹 반론 포함.
 
 - data/documents/pass-253-1952-september-frus-and-domestic.json (pass253, 2026-10-29)
+
+- data/documents/pass-253d-september-korean-followup.json (pass253D, 2026-10-29)

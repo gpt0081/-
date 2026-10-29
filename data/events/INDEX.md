@@ -119,3 +119,5 @@
 - 2026-10-29 pass252B/C: `data/events/pass-252b-1952-aug26-30-policy.json` 24건 + `data/events/pass-252c-1952-aug31-governance.json` 7건, 중앙 `data/events.json` additive 동기화. 대통령 국회 불신임 자제 요청(언론 전언)·8/29 장관 인사·8/30 육본 지령60 분리.
 
 - data/events/pass-253-1952-september-policy-actions.json (pass253, 2026-10-29)
+
+- data/events/pass-253d-september-policy-followup.json (pass253D, 2026-10-29)
