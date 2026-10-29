@@ -211,3 +211,5 @@
 - 2026-10-29 Pass255H 사후 ID 교정: 신규 후보 2명(모윤숙·최주일), 기존 candidate 5명 심화. 지연해 한자 池連海/池蓮海는 충돌로 보존. `data/politicians/pass-255h-actor-overlay.json`.
 
 - 2026-10-29 pass256: 1952-11 이갑성 총리지명·이윤영 부결 보도, FRUS d323 정변설 미측 반대평가 재검토: `data/politicians/pass-256-actor-evidence-overlay.json` (기존 한국 정치인 ID 10명, 신규 0명). 이갑성 독립 실록 `data/annals/lee-gap-seong-1952.md` 및 증거 `data/evidence/lee-gap-seong-1952.json`. 미확인 정변설을 사실로 승격 금지.
+
+- 2026-10-29 pass256B/C: 1952-11-17 이갑성 총리인준 연기 요청 및 이승만 면담·외자구매처 일임 유시 보도. `data/politicians/pass-256-actor-evidence-overlay.json`에서 기존 ID 유지, `data/evidence/lee-gap-seong-1952.json` 추가 근거. 농림부 익명 국장·성명 미확인 김 국방부차관·개척단 민간인을 정치인으로 자동 등록하지 않음. 원문 `data/documents/pass-256b-1952-nov17-domestic.json`.
