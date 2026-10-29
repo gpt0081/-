@@ -215,3 +215,7 @@
 - 2026-10-29 Pass257S: `data/documents/pass-257s-1954-july-august-originals.json` FRUS 1954-05-10·07-07~08-05 원문 16 신규·2 재사용, 편집주석2 원문과 분리.
 - 2026-10-29 Pass257T 대통령기록관 1954/1955 이승만 발언 13건 및 1954 조약 원문 재검증, Pass257S FRUS d921~931 중복 9건 canonical Pass239J ID로 정정.
 - 2026-10-29 Pass257U 1954 대통령 주거·신문·한글·정당 발언 원문 4건.
+
+- 2026-10-29 Pass257W: 1954 선관위 2010 총선연구, FRUS 제네바 5/22, 국편 개헌 해설, 국가기록원 1954 국무회의 원문발췌, 산업용 화약 원기사 재인용: `data/documents/pass-257w-1954-election-un-geneva-registry.json`, `data/documents/pass-257w2-1954-cabinet-industry-sources.json`.
+- Pass257W3 **1954 UNCURK A/2711 원문 OCR 직접 확보** (기존 403 접근이력 보존): `data/documents/pass-257w3-uncurk-1954-original.json`. 본문 §74 자유당115·무소속67 vs 부록 III 자유당114·무소속68. 원면 시각 검증은 미실시.
+- Pass257W4 윤건중 AKS 독립 인명·생몰, 1954-04-06 담화의 04-08 경향신문 보도 후대 인용: `data/documents/pass-257w4-1954-minister-speech-secondary.json`.
