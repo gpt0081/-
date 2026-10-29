@@ -18,36 +18,6 @@
       "summary": "1956-06-27 시행, 1월1일~12월31일 회계연도, 1955-07-01~1956-12-31 18개월 경과회계연도."
     },
     {
-      "id": "DOC-P258F-LAW388",
-      "title": "지방자치법 제388호 개정문",
-      "date": "1956-07-08",
-      "document_number": "법률 제388호",
-      "original_location": "https://law.go.kr/LSW/lsRvsDocListP.do?chrClsCd=010202&lsId=001656&lsRvsGubun=all",
-      "institution": "법제처",
-      "provenance": "ROK_STATUTE",
-      "language": "ko",
-      "access_date": "2026-10-30",
-      "access_level": "ORIGINAL",
-      "original_text_opened": true,
-      "original_facsimile_opened": false,
-      "summary": "제12조 도의원 정수·제56조 선거구·제146조 구청장 임명·법률385호 부칙4항 개정."
-    },
-    {
-      "id": "DOC-P258F-LAW385",
-      "title": "지방자치법 제385호 국가기록원 해설",
-      "date": "1956-02-13",
-      "document_number": "법률 제385호",
-      "original_location": "https://theme.archives.go.kr/next/localSelf/history/issuesLocalGov/issuesLocalGov02.do",
-      "institution": "국가기록원",
-      "provenance": "ROK_OFFICIAL_EXPLAINER",
-      "language": "ko",
-      "access_date": "2026-10-30",
-      "access_level": "EXPLAINER",
-      "original_text_opened": false,
-      "original_facsimile_opened": false,
-      "summary": "시·읍·면장 주민직선 제98조5항, 서울시장·도지사 임명 유지. 법률원문 전체 미열람."
-    },
-    {
       "id": "DOC-P258F-NABO",
       "title": "국가재정법 이해와 실제 제2조 회계연도 연혁",
       "date": "2012-06",
@@ -76,21 +46,6 @@
       "original_text_opened": false,
       "original_facsimile_opened": false,
       "summary": "중앙선거위원회 공고 제1·2호, 후보등록. 사진 원판 미판독."
-    },
-    {
-      "id": "DOC-P258F-K31093",
-      "title": "정·부통령 후보 기호추첨 사진기록 00731093",
-      "date": "1956-04-09",
-      "document_number": "31093",
-      "original_location": "https://archives.kdemo.or.kr/isad/view/00731093",
-      "institution": "민주화운동기념사업회/경향신문",
-      "provenance": "PHOTO_ARCHIVE",
-      "language": "ko",
-      "access_date": "2026-10-30",
-      "access_level": "CATALOG",
-      "original_text_opened": false,
-      "original_facsimile_opened": false,
-      "summary": "대통령 조봉암1·신익희2·이승만3, 부통령 장면1·이기붕2·윤치영3·박기출4·이윤영5·이종태6·백성욱7·이범석8."
     },
     {
       "id": "DOC-P258F-K31935",
@@ -138,21 +93,6 @@
       "summary": "지방선거등록연기임시조치법안 본회의 상정 거부 뒤 시위. 원의사록 미확보."
     },
     {
-      "id": "DOC-P258F-K55426",
-      "title": "1956 정·부통령 선거 사진컬렉션 해설",
-      "date": "1956",
-      "document_number": "55426",
-      "original_location": "https://archives.kdemo.or.kr/photo-archives/view/00755426",
-      "institution": "민주화운동기념사업회",
-      "provenance": "CURATORIAL",
-      "language": "ko",
-      "access_date": "2026-10-30",
-      "access_level": "EXPLAINER",
-      "original_text_opened": false,
-      "original_facsimile_opened": false,
-      "summary": "3/28 신익희·장면 민주당 지명, 3/31 조봉암·서상일 진보당 추진위 지명, 서상일 고사 후 박기출, 5/7 박기출 사퇴."
-    },
-    {
       "id": "DOC-P258F-K56475",
       "title": "1956 지방선거·정읍환표 사진컬렉션 해설",
       "date": "1956",
@@ -198,5 +138,23 @@
       "summary": "1956-08-13 환표 목격, 8/27 서울 제보, 8/29 동아일보 최초 보도, 1960 복직 회고. 원지면 미열람."
     }
   ],
-  "countingNote": "13 source objects. 1956 original statutory bodies actually read 2; NABO 2012 original secondary body read 1; photo catalog captions/search indices not original documents."
+  "countingNote": "9 new registry objects; 4 existing canonical documents reused. Original statutory bodies directly checked this pass: law387 and law388, but law388 already registered as DOC-P246-GAZ-388; only law387 is new original legal object. No original photograph facsimiles checked.",
+  "reused_document_ids": [
+    "DOC-P246-GAZ-385",
+    "DOC-P246-GAZ-388",
+    "DOC-P239L2-KDEMO-BALLOT-00731093",
+    "DOC-P239L2-KDEMO-ELECTION-1956"
+  ],
+  "correctionHistory": [
+    {
+      "date": "2026-10-30",
+      "reason": "Canonical dedup against Pass239L2 and Pass246; retired four duplicate document IDs",
+      "retiredIds": [
+        "DOC-P258F-LAW385",
+        "DOC-P258F-LAW388",
+        "DOC-P258F-K31093",
+        "DOC-P258F-K55426"
+      ]
+    }
+  ]
 }

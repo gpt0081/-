@@ -96,19 +96,30 @@
       "name": "회계연도 7월~6월에서 1월~12월 변경 제안 및 연표상 변경",
       "domain": "재정·입법",
       "source_document_ids": [
-        "DOC-P258E-ROK-FISCAL-BA0084205"
+        "DOC-P258E-ROK-FISCAL-BA0084205",
+        "DOC-P258F-LAW387",
+        "DOC-P258F-NABO"
       ],
       "related_politicians": [],
       "proposed_by": [],
       "decided_by": [],
       "executed_by": [],
       "opposed_by": [],
-      "legal_authority": [],
+      "legal_authority": [
+        "재정법 법률 제387호 제2조·부칙"
+      ],
       "observed_by": [
         "DOC-P258E-ROK-FISCAL-BA0084205"
       ],
       "later_finding": [],
-      "qualification": "재무부 상정안과 국가기록원 연표의 변경표기만 확인. 국회 법률·효력일 별도 확인."
+      "qualification": "재무부 상정안과 국가기록원 연표의 변경표기만 확인. 국회 법률·효력일 별도 확인. [Pass258F correction] 1956-06-27 법률387호 공포·시행 확인, 단기4288 회계연도 1955-07-01~1956-12-31; 국회 표결·실제 결산 미확인.",
+      "correctionHistory": [
+        {
+          "date": "2026-10-30",
+          "reason": "Pass258E only knew cabinet proposal; Pass258F located original enacted law387 and 18-month transitional clause",
+          "originalName": "회계연도 7월~6월에서 1월~12월 변경 제안 및 연표상 변경"
+        }
+      ]
     },
     {
       "id": "evt-p258e-08",
@@ -206,6 +217,10 @@
     {
       "date": "2026-10-30",
       "reason": "FRUS d103 dated 1955-12-02 is broad aid review, not the 1956-01-09~22 BG0000076 meeting record; remove as direct event evidence."
+    },
+    {
+      "date": "2026-10-30",
+      "action": "enriched evt-p258e-07 with original law387 rather than duplicate new event"
     }
   ]
 }

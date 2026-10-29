@@ -6,8 +6,8 @@
     "governanceDomains": 6,
     "nonPresidentExistingPoliticiansLinked": 11,
     "newPoliticianIds": 0,
-    "eventActionOverlays": 13,
-    "documentRegistryObjects": 13,
+    "eventActionOverlays": 6,
+    "documentRegistryObjects": 9,
     "contemporaneousOriginalStatutesRead": 2,
     "officialSecondaryOriginalBodyRead": 1,
     "meaningfulPagesDirectOpenedApprox": 9,
@@ -15,8 +15,17 @@
     "previousLeadsTracked": 8,
     "nextSpecificLeads": 39,
     "crossProvenanceFamiliesAttempted": 3,
-    "threeIndependentPrimaryFamiliesCompleted": 0
+    "threeIndependentPrimaryFamiliesCompleted": 0,
+    "canonicalEventsEnhanced": 7,
+    "canonicalDocumentsReused": 4,
+    "newPrimaryLegalObjects": 1
   },
   "limitations": "40/20 source minimum not met; many catalog descriptions only. No claim of full 1h. Floot untouched. No Sunday sweep.",
-  "gitCommitShas": []
+  "gitCommitShas": [],
+  "correctionHistory": [
+    {
+      "date": "2026-10-30",
+      "reason": "Initial pass reported 13 new action IDs and 13 source objects; 7 event and 4 document duplicates retired after comparison with Pass239L2/Pass246/Pass258E. Net new events 6, net new documents 9."
+    }
+  ]
 }
