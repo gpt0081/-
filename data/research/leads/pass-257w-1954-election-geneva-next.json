@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "pass": "257W",
   "date": "2026-10-29",
-  "activeCount": 15,
+  "activeCount": 20,
   "backlogCount": 20,
   "leads": [
     {
@@ -10,20 +10,36 @@
       "institution": "UN Digital Library",
       "targetRecord": "A/2711, 1954 UNCURK report pp.7-10",
       "questionToResolve": "1954 election party seat count 114/115, categories and observers",
-      "status": "BLOCKED",
-      "priority": "P0",
+      "status": "NARROWED_PRIMARY_OCR_READ",
+      "priority": "P1",
       "queue": "active",
-      "accessDate": "2026-10-29"
+      "accessDate": "2026-10-29",
+      "reviewHistory": [
+        {
+          "date": "2026-10-29",
+          "previous": "BLOCKED",
+          "current": "NARROWED_PRIMARY_OCR_READ",
+          "note": "UNCURK A/2711 OCR direct read; paragraph74 115 vs AnnexIII 114; original page image verification and identity attribution pending"
+        }
+      ]
     },
     {
       "id": "LEAD-P257W-002",
       "institution": "UN Digital Library",
       "targetRecord": "A/2711 report appendix/tables for 1954 May20 election",
       "questionToResolve": "confirm candidate total and party labels independently of FRUS editors",
-      "status": "BLOCKED",
-      "priority": "P0",
+      "status": "NARROWED_PRIMARY_OCR_READ",
+      "priority": "P1",
       "queue": "active",
-      "accessDate": "2026-10-29"
+      "accessDate": "2026-10-29",
+      "reviewHistory": [
+        {
+          "date": "2026-10-29",
+          "previous": "BLOCKED",
+          "current": "NARROWED_PRIMARY_OCR_READ",
+          "note": "UNCURK A/2711 OCR direct read; paragraph74 115 vs AnnexIII 114; original page image verification and identity attribution pending"
+        }
+      ]
     },
     {
       "id": "LEAD-P257W-003",
@@ -353,6 +369,56 @@
       "status": "OPEN",
       "priority": "P1",
       "queue": "backlog",
+      "accessDate": "2026-10-29"
+    },
+    {
+      "id": "LEAD-P257W-036",
+      "institution": "중앙선관위·국회기록원",
+      "targetRecord": "1954-05-20~06-09 정당변경·제헌동지회 당선자 원명부",
+      "questionToResolve": "Find identity of one seat shifting from 114/68 announced returns to 115/67 UN body",
+      "priority": "P0",
+      "status": "OPEN",
+      "queue": "active",
+      "accessDate": "2026-10-29"
+    },
+    {
+      "id": "LEAD-P257W-037",
+      "institution": "국회기록원",
+      "targetRecord": "1954-05-20~06-16 무소속 21인 자유당 교섭단체 가입 서명명부",
+      "questionToResolve": "Individually identify 21 joiners behind UN paragraph77 136-member group",
+      "priority": "P0",
+      "status": "OPEN",
+      "queue": "active",
+      "accessDate": "2026-10-29"
+    },
+    {
+      "id": "LEAD-P257W-038",
+      "institution": "문교부·관보",
+      "targetRecord": "1954-02-05 및 1954-04-20~21 김법린 퇴임·이선근 취임 원발령",
+      "questionToResolve": "Resolve UN Annex II vs MOE official retrospective date discrepancy",
+      "priority": "P0",
+      "status": "OPEN",
+      "queue": "active",
+      "accessDate": "2026-10-29"
+    },
+    {
+      "id": "LEAD-P257W-039",
+      "institution": "농림부·관보",
+      "targetRecord": "1954-05-06 및 1954-06-30 Yoon Kun-Joong / Choi Kyoo-Ok 임면 원공고",
+      "questionToResolve": "Verify two new candidates' Korean names, hanja and exact appointment dates",
+      "priority": "P0",
+      "status": "OPEN",
+      "queue": "active",
+      "accessDate": "2026-10-29"
+    },
+    {
+      "id": "LEAD-P257W-040",
+      "institution": "국가기록원/유엔도서관",
+      "targetRecord": "1954-05-31 UNKRA-ROK 원조운영협정 서명본·부속서",
+      "questionToResolve": "Test UN A/2711 para114 claims about currency settlement and procurement/disposal",
+      "priority": "P0",
+      "status": "OPEN",
+      "queue": "active",
       "accessDate": "2026-10-29"
     }
   ]
