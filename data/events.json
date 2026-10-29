@@ -20265,14 +20265,17 @@
       "domain": "선거·지방행정",
       "sources": [
         "DOC-P249-NEC-1952-ARTICLE",
-        "DOC-P249-NEC-LE0029053"
+        "DOC-P249-NEC-LE0029053",
+        "DOC-P251-NEC-CITY",
+        "DOC-P251-NEC-RATES"
       ],
       "politicians": [],
       "institutions": [
         "중앙선거위원회"
       ],
       "confirmed": [
-        "중앙선관위 후대 해설 시 80.2%, 읍 88.4%, 면 93.1%; 합산 6,836,734/7,536,304 = 90.72%"
+        "중앙선관위 후대 해설 시 80.2%, 읍 88.4%, 면 93.1%; 합산 6,836,734/7,536,304 = 90.72%",
+        "중앙선관위 후대 선거사: 1952-04-25 시·읍·면의회 직접선거, 선거운동에 특별한 법적 제약 없었다는 제도 설명; 지역·전시 예외 존재"
       ],
       "actionRoles": {
         "proposed_by": [],
@@ -20293,7 +20296,8 @@
       },
       "evidenceState": "OFFICIAL_RETROSPECTIVE_NOT_ORIGINAL_TALLY",
       "openQuestions": [
-        "LE-00-29053 14쪽 원문, UNCURK 원보고서, AA0002813 결재선"
+        "LE-00-29053 14쪽 원문, UNCURK 원보고서, AA0002813 결재선",
+        "UNCURK 현장 관찰의 경찰압력·구호배분 우려와 법적 선거운동 자유를 구분해 원보고서 A/2187 대조"
       ]
     },
     {
@@ -20549,14 +20553,17 @@
       "domain": "선거",
       "sources": [
         "DOC-P249-UNY1952-175-178",
-        "DOC-P249-NEC-1952-PRES"
+        "DOC-P249-NEC-1952-PRES",
+        "DOC-P251-NEC-PRES",
+        "DOC-P251-UN-YEARBOOK"
       ],
       "politicians": [
         "president-rhee-syngman"
       ],
       "institutions": [],
       "confirmed": [
-        "UN Yearbook p177 86% vs 중앙선관위 5,238,769/7,020,684=74.6%; UN 서술의 분모 오류 또는 전사오류 검증 필요"
+        "UN Yearbook p177 86% vs 중앙선관위 5,238,769/7,020,684=74.6%; UN 서술의 분모 오류 또는 전사오류 검증 필요",
+        "중앙선관위 후대 공식 선거사: 5,238,769/7,020,684=74.62%; UN Yearbook 색인 발췌의 5,238,769/7,033,633은 74.48%로 연감 표기 86%와 내부 산술 모순. 연감 86%를 별도의 독립 개표결과로 단정하지 않음"
       ],
       "actionRoles": {
         "proposed_by": [],
@@ -20574,7 +20581,8 @@
       },
       "evidenceState": "CONTEMPORANEOUS_UN_YEARBOOK_SUMMARY_NOT_A2187_ORIGINAL",
       "openQuestions": [
-        "UNCURK A/2187 원문과 한국 정부·국회 원기록을 대조해 개인 발언·법적 권한·후대 평가 구분"
+        "UNCURK A/2187 원문과 한국 정부·국회 원기록을 대조해 개인 발언·법적 권한·후대 평가 구분",
+        "A/2187 원면 및 UN Yearbook p177 원면·정오표·원개표록 내지 검증; 403 접근 차단"
       ],
       "parentEventId": "evt-1952-pusan-political-crisis"
     },
@@ -21336,6 +21344,236 @@
       "openQuestions": [
         "당사자 주장·미국 관찰·정식 결정·실제 집행을 구분; 원면 미열람"
       ]
+    },
+    {
+      "id": "evt-p251-1952-0510-provincial-election",
+      "date": "1952-05-10",
+      "name": "1952년 제1차 도의회의원 선거 306석",
+      "domain": "지방행정·선거",
+      "politicians": [],
+      "institutions": [],
+      "sources": [
+        "DOC-P251-NEC-PROV",
+        "DOC-P251-NEC-RATES"
+      ],
+      "actionRoles": {
+        "proposed_by": [],
+        "decided_by": [
+          "1952 지방선거 시행 정부·선거당국(구체 결재 미확인)"
+        ],
+        "executed_by": [
+          "선거관리행정기관"
+        ],
+        "opposed_by": [],
+        "legal_authority": [
+          "1949 지방자치법·1951 개정(조문 미열람)"
+        ],
+        "observed_by": [
+          "중앙선거관리위원회 후대 해설"
+        ],
+        "later_finding": []
+      },
+      "confirmed": [
+        "선관위 공식 해설에 따르면 도의원 306명 중 자유당 147, 한청 34, 국민회 32, 무소속 85; 5,165,226명 투표, 선거인 6,358,383명"
+      ],
+      "openQuestions": [
+        "도의원 원명부·선거구별 개표록, 미실시 지역의 실제 범위, UNCURK 원관찰 보고서 확인"
+      ],
+      "evidenceState": "ORIGINAL_TRANSCRIPTION_OR_OFFICIAL_RETROSPECTIVE_NOT_FACSIMILE",
+      "parentEventId": "evt-p249-1952-0425-local-election"
+    },
+    {
+      "id": "evt-p251-1952-0805-vice-election",
+      "date": "1952-08-05",
+      "name": "1952년 제3대 부통령선거 9인 후보·함태영 당선",
+      "domain": "선거·행정",
+      "politicians": [
+        "cand-1952-vice-ham-tae-yeong",
+        "pol-lee-beom-seok",
+        "cand-1952-oct-cho-byeong-ok",
+        "cand-1952-nov-lee-gap-seong",
+        "cand-1952-minister-lee-yun-yeong",
+        "cand-p239m3-jeon-jin-han",
+        "cand-1952-sep-women-party-im-yeong-sin",
+        "cand-p239l2-paik-seong-uk",
+        "cand-1952-vice-jeong-gi-won"
+      ],
+      "institutions": [],
+      "sources": [
+        "DOC-P251-NEC-PRES",
+        "DOC-P251-AKS-HAM",
+        "DOC-P251-AKS-IM"
+      ],
+      "actionRoles": {
+        "proposed_by": [],
+        "decided_by": [
+          "유권자 직접선거(개표결과)"
+        ],
+        "executed_by": [
+          "선거관리행정기관"
+        ],
+        "opposed_by": [],
+        "legal_authority": [
+          "1952 발췌개헌·선거법(조문 원면 별도)"
+        ],
+        "observed_by": [
+          "중앙선거관리위원회 후대 해설"
+        ],
+        "later_finding": []
+      },
+      "confirmed": [
+        "선관위 1952 선거사에 9명 후보와 무소속 함태영 당선·대통령선거보다 투표자 5,001명 적은 7,270,882명 기록"
+      ],
+      "openQuestions": [
+        "부통령 후보별 등록원부·득표원장 및 정당별 선거공보 확보"
+      ],
+      "evidenceState": "ORIGINAL_TRANSCRIPTION_OR_OFFICIAL_RETROSPECTIVE_NOT_FACSIMILE",
+      "parentEventId": "evt-p249-1952-0805-election-denominator"
+    },
+    {
+      "id": "evt-p251-1952-0602-truman-appeal",
+      "date": "1952-06-02",
+      "name": "트루먼의 부산 헌정위기 법절차 준수 촉구 서한",
+      "domain": "외교·헌정",
+      "politicians": [
+        "pol-rhee-syngman"
+      ],
+      "institutions": [],
+      "sources": [
+        "DOC-P251-FRUS-159",
+        "DOC-P251-FRUS-158"
+      ],
+      "actionRoles": {
+        "proposed_by": [
+          "미국 대통령 Truman(서한 발신)"
+        ],
+        "decided_by": [],
+        "executed_by": [
+          "미국 국무부 전송 전문 900(편집각주)"
+        ],
+        "opposed_by": [],
+        "legal_authority": [],
+        "observed_by": [
+          "미국 국무부 편집기록"
+        ],
+        "later_finding": []
+      },
+      "confirmed": [
+        "6/2 Truman은 국회·행정부 간 갈등의 법절차 준수와 불가역 조치 유보를 요청; d159 각주는 이승만의 24시간 개헌 최후통첩 지시를 미수록 부산 전문1244로 설명"
+      ],
+      "openQuestions": [
+        "이승만의 최후통첩이 국회에 실제 전달됐는지 부산 전문1244·국무회의 원면·국회 속기 검증"
+      ],
+      "evidenceState": "ORIGINAL_TRANSCRIPTION_OR_OFFICIAL_RETROSPECTIVE_NOT_FACSIMILE",
+      "parentEventId": "evt-1952-pusan-political-crisis"
+    },
+    {
+      "id": "evt-p251-1952-0605-rhee-reply",
+      "date": "1952-06-05",
+      "name": "이승만의 트루먼 앞 직선제·국회해산 압력 관련 답신",
+      "domain": "헌정·외교·선거",
+      "politicians": [
+        "pol-rhee-syngman"
+      ],
+      "institutions": [],
+      "sources": [
+        "DOC-P251-FRUS-171",
+        "DOC-P251-FRUS-167"
+      ],
+      "actionRoles": {
+        "proposed_by": [
+          "이승만(직선제 주장)"
+        ],
+        "decided_by": [],
+        "executed_by": [
+          "이승만(외교서한 발신)"
+        ],
+        "opposed_by": [],
+        "legal_authority": [],
+        "observed_by": [
+          "미국 외교관 Lightner의 현지 분석"
+        ],
+        "later_finding": []
+      },
+      "confirmed": [
+        "이승만은 국민의 직접선거 요구와 지방의회 결의를 주장하면서 국회해산 없이 해결 희망을 표명; 해당 진술은 당사자 주장"
+      ],
+      "openQuestions": [
+        "전 도의회 결의 원문·서명부·국회해산 결의의 법적 권한 검증"
+      ],
+      "evidenceState": "ORIGINAL_TRANSCRIPTION_OR_OFFICIAL_RETROSPECTIVE_NOT_FACSIMILE",
+      "parentEventId": "evt-1952-pusan-political-crisis"
+    },
+    {
+      "id": "evt-p251-1952-0613-us-policy-options",
+      "date": "1952-06-13",
+      "name": "미국 국무부 내부 한국 헌정위기 대응 선택지 병존",
+      "domain": "외교·헌정·안보",
+      "politicians": [
+        "pol-rhee-syngman",
+        "pol-lee-beom-seok"
+      ],
+      "institutions": [],
+      "sources": [
+        "DOC-P251-FRUS-177",
+        "DOC-P251-FRUS-178"
+      ],
+      "actionRoles": {
+        "proposed_by": [
+          "미 국무부 Hickerson(압박 강화 권고)",
+          "미 국무부 Young(비개입·개입 비용 검토)"
+        ],
+        "decided_by": [],
+        "executed_by": [],
+        "opposed_by": [],
+        "legal_authority": [],
+        "observed_by": [
+          "미국 외교정책 내부 보고"
+        ],
+        "later_finding": []
+      },
+      "confirmed": [
+        "Hickerson은 계엄 해제·의원 석방을 선결 조건으로 제안, Young은 비개입·군정 개입 비용 및 이범석 문제를 비교 검토"
+      ],
+      "openQuestions": [
+        "두 정책 메모의 실제 채택 여부와 Clark/대사관 지시 변경 확인"
+      ],
+      "evidenceState": "ORIGINAL_TRANSCRIPTION_OR_OFFICIAL_RETROSPECTIVE_NOT_FACSIMILE",
+      "parentEventId": "evt-1952-pusan-political-crisis"
+    },
+    {
+      "id": "evt-p251-1952-0625-rhee-truman-letter",
+      "date": "1952-06-25",
+      "name": "이승만의 트루먼 앞 부산 정치위기·공산음모 주장 서한",
+      "domain": "외교·사법·헌정",
+      "politicians": [
+        "pol-rhee-syngman"
+      ],
+      "institutions": [],
+      "sources": [
+        "DOC-P251-FRUS-190"
+      ],
+      "actionRoles": {
+        "proposed_by": [],
+        "decided_by": [],
+        "executed_by": [
+          "이승만(서한 발신)"
+        ],
+        "opposed_by": [],
+        "legal_authority": [],
+        "observed_by": [
+          "미국 국무부/백악관 기록 편집"
+        ],
+        "later_finding": []
+      },
+      "confirmed": [
+        "이승만은 공산주의 음모 혐의가 재판에서 밝혀질 것이라 주장; FRUS 편집각주는 미 정부가 8/13까지 회신하지 않았다고 기록"
+      ],
+      "openQuestions": [
+        "1952-08-01 원판결·UNCURK 재판관찰 기록과 음모의 실체·국회의원 연루 여부 대조"
+      ],
+      "evidenceState": "ORIGINAL_TRANSCRIPTION_OR_OFFICIAL_RETROSPECTIVE_NOT_FACSIMILE",
+      "parentEventId": "evt-1952-pusan-political-crisis"
     }
   ],
   "recentResearchPass232": {

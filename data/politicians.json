@@ -109,7 +109,12 @@
         "evt-p250-0618",
         "evt-p250-0620",
         "evt-p250-0626",
-        "evt-p250-0628"
+        "evt-p250-0628",
+        "evt-p249-1952-0805-election-denominator",
+        "evt-p251-1952-0602-truman-appeal",
+        "evt-p251-1952-0605-rhee-reply",
+        "evt-p251-1952-0613-us-policy-options",
+        "evt-p251-1952-0625-rhee-truman-letter"
       ],
       "researchRefs": [
         "data/politicians/pass-233-1952-rok-diplomacy-network.json",
@@ -490,7 +495,8 @@
         "evt-p239m3-04",
         "evt-p239m3-05",
         "evt-p241-07",
-        "evt-p243-1958-0112-cho"
+        "evt-p243-1958-0112-cho",
+        "evt-p249-1952-0805-election-denominator"
       ],
       "researchUpdates": [
         {
@@ -576,7 +582,8 @@
         "evt-p239l2-23",
         "evt-p241-07",
         "evt-p250-0303",
-        "evt-p250-0613b"
+        "evt-p250-0613b",
+        "evt-p251-1952-0805-vice-election"
       ],
       "researchNotes": "1949-05-16 농지개혁법 환부이유서·소멸통고를 국회의장에게 발송한 정부 측 핵심 헌정 행위자로 확인. 대통령 재의권과 총리 명의 통고의 관계를 원문 결재선으로 추가 검증한다.",
       "researchUpdates": [
@@ -1927,17 +1934,23 @@
       "id": "cand-1952-vice-ham-tae-yeong",
       "name": "함태영",
       "aliases": [
-        "Ham Tae-yeong"
+        "Ham Tae-yeong",
+        "咸台永",
+        "Ham Tae-young",
+        "松岩"
       ],
       "hanja": null,
       "hanjaVerification": "not yet checked against original personnel/election record",
       "lifespan": {
-        "born": null,
-        "died": null,
-        "verification": "unverified in this pass"
+        "born": "1873",
+        "died": "1964",
+        "verification": "AKS 본문 1873년과 사진설명 1872년 불일치 가능; 원적 검증 필요"
       },
       "roles": [
-        "vice-president-elect 1952-08-13"
+        "vice-president-elect 1952-08-13",
+        "1946 민주의원 의원",
+        "심계원장",
+        "1952~1956 제3대 부통령"
       ],
       "party_affiliation": "not verified in this pass",
       "eventConnections": [
@@ -1950,33 +1963,39 @@
           ]
         }
       ],
-      "researchStatus": "DISCOVERED",
-      "evidenceCoverage": [
-        "e",
-        "v",
-        "n",
-        "t",
-        "-",
-        "s",
-        "p",
-        "c",
-        "i",
-        "f",
-        " ",
-        "o",
-        "r",
-        "g",
-        "a",
-        "l",
-        "/",
-        ";",
-        "m",
-        "d",
-        "y",
-        "DOC-P239-NIKH-05_26_0090"
-      ],
+      "researchStatus": "IDENTIFIED",
+      "evidenceCoverage": {
+        "0": "e",
+        "1": "v",
+        "2": "n",
+        "3": "t",
+        "4": "-",
+        "5": "s",
+        "6": "p",
+        "7": "c",
+        "8": "i",
+        "9": "f",
+        "10": " ",
+        "11": "o",
+        "12": "r",
+        "13": "g",
+        "14": "a",
+        "15": "l",
+        "16": "/",
+        "17": ";",
+        "18": "m",
+        "19": "d",
+        "20": "y",
+        "21": "DOC-P239-NIKH-05_26_0090",
+        "documentIds": [
+          "DOC-P251-NEC-PRES",
+          "DOC-P251-AKS-HAM"
+        ],
+        "level": "NEC_OFFICIAL_RETROSPECTIVE_PLUS_AKS_SECONDARY"
+      },
       "openLeads": [
-        "함태영의 1952년 당시 선거관리위원회·국회 속기록·관보 원문으로 생몰/한자/정당/행위 확인"
+        "함태영의 1952년 당시 선거관리위원회·국회 속기록·관보 원문으로 생몰/한자/정당/행위 확인",
+        "LEAD-P251-29"
       ],
       "historyDebt": [
         "identity/tenure primary record pending"
@@ -1988,23 +2007,54 @@
       "annalsFile": "data/annals/1952-july-august-election-economic-accountability.md",
       "researchRefs": [
         "data/politicians/pass-239-actors.json"
+      ],
+      "researchMaturity": "IDENTIFIED",
+      "connections": [
+        "evt-p251-1952-0805-vice-election"
+      ],
+      "roleHistory": [
+        {
+          "date": "1952-08-05",
+          "office": "1952~1956 제3대 부통령",
+          "sources": [
+            "DOC-P251-NEC-PRES",
+            "DOC-P251-AKS-HAM"
+          ],
+          "selection": "후대 공식 선거사와 2차 인물사전 교차; 원후보등록 미열람"
+        }
+      ],
+      "promotionHistory": [
+        {
+          "date": "2026-10-29",
+          "to": "IDENTIFIED",
+          "reason": "중앙선관위 1952 공식 선거사 + AKS 한자·생몰·시기별 직책 대조, 후보등록·호적 원면은 미열람",
+          "sources": [
+            "DOC-P251-NEC-PRES",
+            "DOC-P251-AKS-HAM"
+          ]
+        }
       ]
     },
     {
       "id": "cand-1952-presidential-lee-si-yeong",
       "name": "이시영",
       "aliases": [
-        "Yi Si-yeong"
+        "Yi Si-yeong",
+        "李始榮",
+        "省齋",
+        "始林山人"
       ],
       "hanja": null,
       "hanjaVerification": "not yet checked against original personnel/election record",
       "lifespan": {
-        "born": null,
-        "died": null,
-        "verification": "unverified in this pass"
+        "born": "1869",
+        "died": "1953",
+        "verification": "AKS 2차 인명사전 생몰 연도; 원호적 미확인"
       },
       "roles": [
-        "presidential candidate 1952-08-05"
+        "presidential candidate 1952-08-05",
+        "초대 부통령(1948~1951)",
+        "1952-08-05 대통령선거 무소속 후보"
       ],
       "party_affiliation": "not verified in this pass",
       "eventConnections": [
@@ -2016,10 +2066,123 @@
           ]
         }
       ],
-      "researchStatus": "DISCOVERED",
-      "evidenceCoverage": "event-specific original/transcription or official retrospective; complete career and identity not verified",
+      "researchStatus": "IDENTIFIED",
+      "evidenceCoverage": {
+        "0": "e",
+        "1": "v",
+        "2": "e",
+        "3": "n",
+        "4": "t",
+        "5": "-",
+        "6": "s",
+        "7": "p",
+        "8": "e",
+        "9": "c",
+        "10": "i",
+        "11": "f",
+        "12": "i",
+        "13": "c",
+        "14": " ",
+        "15": "o",
+        "16": "r",
+        "17": "i",
+        "18": "g",
+        "19": "i",
+        "20": "n",
+        "21": "a",
+        "22": "l",
+        "23": "/",
+        "24": "t",
+        "25": "r",
+        "26": "a",
+        "27": "n",
+        "28": "s",
+        "29": "c",
+        "30": "r",
+        "31": "i",
+        "32": "p",
+        "33": "t",
+        "34": "i",
+        "35": "o",
+        "36": "n",
+        "37": " ",
+        "38": "o",
+        "39": "r",
+        "40": " ",
+        "41": "o",
+        "42": "f",
+        "43": "f",
+        "44": "i",
+        "45": "c",
+        "46": "i",
+        "47": "a",
+        "48": "l",
+        "49": " ",
+        "50": "r",
+        "51": "e",
+        "52": "t",
+        "53": "r",
+        "54": "o",
+        "55": "s",
+        "56": "p",
+        "57": "e",
+        "58": "c",
+        "59": "t",
+        "60": "i",
+        "61": "v",
+        "62": "e",
+        "63": ";",
+        "64": " ",
+        "65": "c",
+        "66": "o",
+        "67": "m",
+        "68": "p",
+        "69": "l",
+        "70": "e",
+        "71": "t",
+        "72": "e",
+        "73": " ",
+        "74": "c",
+        "75": "a",
+        "76": "r",
+        "77": "e",
+        "78": "e",
+        "79": "r",
+        "80": " ",
+        "81": "a",
+        "82": "n",
+        "83": "d",
+        "84": " ",
+        "85": "i",
+        "86": "d",
+        "87": "e",
+        "88": "n",
+        "89": "t",
+        "90": "i",
+        "91": "t",
+        "92": "y",
+        "93": " ",
+        "94": "n",
+        "95": "o",
+        "96": "t",
+        "97": " ",
+        "98": "v",
+        "99": "e",
+        "100": "r",
+        "101": "i",
+        "102": "f",
+        "103": "i",
+        "104": "e",
+        "105": "d",
+        "documentIds": [
+          "DOC-P251-NEC-PRES",
+          "DOC-P251-AKS-LEE"
+        ],
+        "level": "NEC_OFFICIAL_RETROSPECTIVE_PLUS_AKS_SECONDARY"
+      },
       "openLeads": [
-        "이시영의 1952년 당시 선거관리위원회·국회 속기록·관보 원문으로 생몰/한자/정당/행위 확인"
+        "이시영의 1952년 당시 선거관리위원회·국회 속기록·관보 원문으로 생몰/한자/정당/행위 확인",
+        "LEAD-P251-27"
       ],
       "historyDebt": [
         "identity/tenure primary record pending"
@@ -2028,23 +2191,54 @@
       "backbone": false,
       "sourceFile": "data/politicians/pass-231-1952-election-accountability.json",
       "evidenceFile": "data/politicians/pass-231-1952-election-accountability.json",
-      "annalsFile": "data/annals/1952-july-august-election-economic-accountability.md"
+      "annalsFile": "data/annals/1952-july-august-election-economic-accountability.md",
+      "researchMaturity": "IDENTIFIED",
+      "connections": [
+        "evt-p249-1952-0805-election-denominator"
+      ],
+      "roleHistory": [
+        {
+          "date": "1952-08-05",
+          "office": "1952-08-05 대통령선거 무소속 후보",
+          "sources": [
+            "DOC-P251-NEC-PRES",
+            "DOC-P251-AKS-LEE"
+          ],
+          "selection": "후대 공식 선거사와 2차 인물사전 교차; 원후보등록 미열람"
+        }
+      ],
+      "promotionHistory": [
+        {
+          "date": "2026-10-29",
+          "to": "IDENTIFIED",
+          "reason": "중앙선관위 1952 공식 선거사 + AKS 한자·생몰·시기별 직책 대조, 후보등록·호적 원면은 미열람",
+          "sources": [
+            "DOC-P251-NEC-PRES",
+            "DOC-P251-AKS-LEE"
+          ]
+        }
+      ]
     },
     {
       "id": "cand-1952-presidential-shin-heung-u",
       "name": "신흥우",
       "aliases": [
-        "Shin Heung-u"
+        "Shin Heung-u",
+        "申興雨",
+        "錦霞"
       ],
       "hanja": null,
       "hanjaVerification": "not yet checked against original personnel/election record",
       "lifespan": {
-        "born": null,
-        "died": null,
-        "verification": "unverified in this pass"
+        "born": "1883-02-18",
+        "died": "1959-03-15",
+        "verification": "AKS 2차 인명사전; 원호적 미확인"
       },
       "roles": [
-        "presidential candidate 1952-08-05"
+        "presidential candidate 1952-08-05",
+        "배재학당 학당장",
+        "YMCA 총무",
+        "1952-08-05 대통령선거 무소속 후보"
       ],
       "party_affiliation": "not verified in this pass",
       "eventConnections": [
@@ -2056,10 +2250,123 @@
           ]
         }
       ],
-      "researchStatus": "DISCOVERED",
-      "evidenceCoverage": "event-specific original/transcription or official retrospective; complete career and identity not verified",
+      "researchStatus": "IDENTIFIED",
+      "evidenceCoverage": {
+        "0": "e",
+        "1": "v",
+        "2": "e",
+        "3": "n",
+        "4": "t",
+        "5": "-",
+        "6": "s",
+        "7": "p",
+        "8": "e",
+        "9": "c",
+        "10": "i",
+        "11": "f",
+        "12": "i",
+        "13": "c",
+        "14": " ",
+        "15": "o",
+        "16": "r",
+        "17": "i",
+        "18": "g",
+        "19": "i",
+        "20": "n",
+        "21": "a",
+        "22": "l",
+        "23": "/",
+        "24": "t",
+        "25": "r",
+        "26": "a",
+        "27": "n",
+        "28": "s",
+        "29": "c",
+        "30": "r",
+        "31": "i",
+        "32": "p",
+        "33": "t",
+        "34": "i",
+        "35": "o",
+        "36": "n",
+        "37": " ",
+        "38": "o",
+        "39": "r",
+        "40": " ",
+        "41": "o",
+        "42": "f",
+        "43": "f",
+        "44": "i",
+        "45": "c",
+        "46": "i",
+        "47": "a",
+        "48": "l",
+        "49": " ",
+        "50": "r",
+        "51": "e",
+        "52": "t",
+        "53": "r",
+        "54": "o",
+        "55": "s",
+        "56": "p",
+        "57": "e",
+        "58": "c",
+        "59": "t",
+        "60": "i",
+        "61": "v",
+        "62": "e",
+        "63": ";",
+        "64": " ",
+        "65": "c",
+        "66": "o",
+        "67": "m",
+        "68": "p",
+        "69": "l",
+        "70": "e",
+        "71": "t",
+        "72": "e",
+        "73": " ",
+        "74": "c",
+        "75": "a",
+        "76": "r",
+        "77": "e",
+        "78": "e",
+        "79": "r",
+        "80": " ",
+        "81": "a",
+        "82": "n",
+        "83": "d",
+        "84": " ",
+        "85": "i",
+        "86": "d",
+        "87": "e",
+        "88": "n",
+        "89": "t",
+        "90": "i",
+        "91": "t",
+        "92": "y",
+        "93": " ",
+        "94": "n",
+        "95": "o",
+        "96": "t",
+        "97": " ",
+        "98": "v",
+        "99": "e",
+        "100": "r",
+        "101": "i",
+        "102": "f",
+        "103": "i",
+        "104": "e",
+        "105": "d",
+        "documentIds": [
+          "DOC-P251-NEC-PRES",
+          "DOC-P251-AKS-SHIN"
+        ],
+        "level": "NEC_OFFICIAL_RETROSPECTIVE_PLUS_AKS_SECONDARY"
+      },
       "openLeads": [
-        "신흥우의 1952년 당시 선거관리위원회·국회 속기록·관보 원문으로 생몰/한자/정당/행위 확인"
+        "신흥우의 1952년 당시 선거관리위원회·국회 속기록·관보 원문으로 생몰/한자/정당/행위 확인",
+        "LEAD-P251-28"
       ],
       "historyDebt": [
         "identity/tenure primary record pending"
@@ -2068,7 +2375,33 @@
       "backbone": false,
       "sourceFile": "data/politicians/pass-231-1952-election-accountability.json",
       "evidenceFile": "data/politicians/pass-231-1952-election-accountability.json",
-      "annalsFile": "data/annals/1952-july-august-election-economic-accountability.md"
+      "annalsFile": "data/annals/1952-july-august-election-economic-accountability.md",
+      "researchMaturity": "IDENTIFIED",
+      "connections": [
+        "evt-p249-1952-0805-election-denominator"
+      ],
+      "roleHistory": [
+        {
+          "date": "1952-08-05",
+          "office": "1952-08-05 대통령선거 무소속 후보",
+          "sources": [
+            "DOC-P251-NEC-PRES",
+            "DOC-P251-AKS-SHIN"
+          ],
+          "selection": "후대 공식 선거사와 2차 인물사전 교차; 원후보등록 미열람"
+        }
+      ],
+      "promotionHistory": [
+        {
+          "date": "2026-10-29",
+          "to": "IDENTIFIED",
+          "reason": "중앙선관위 1952 공식 선거사 + AKS 한자·생몰·시기별 직책 대조, 후보등록·호적 원면은 미열람",
+          "sources": [
+            "DOC-P251-NEC-PRES",
+            "DOC-P251-AKS-SHIN"
+          ]
+        }
+      ]
     },
     {
       "id": "cand-1952-mp-lee-seok-gi",
@@ -2542,28 +2875,67 @@
       "name": "임영신",
       "aliases": [
         "Im Yeong-sin",
-        "任永信"
+        "任永信",
+        "Louise Yim",
+        "承堂"
       ],
       "roles": [
-        "1952-08~09 여자국민당 당수·1952 부통령 후보"
+        "1952-08~09 여자국민당 당수·1952 부통령 후보",
+        "여자국민당 당수",
+        "상공부장관(1948~1949)",
+        "1952-08-05 부통령선거 후보"
       ],
       "researchStatus": "IDENTIFIED",
       "backbone": false,
       "connections": [
         "evt-p232-0917-party-sketches",
         "evt-p232-0918-party-merger",
-        "evt-p250-0613b"
+        "evt-p250-0613b",
+        "evt-p251-1952-0805-vice-election"
       ],
       "evidenceFile": "data/politicians/pass-232-1952-september-actors.json",
       "openLeadsFile": "data/research/leads/pass-232-20261028-next-lead-queue.json",
       "researchNote": "2026-10-28 pass232 event-scoped identity; birth/death/appointment/party official originals pending",
       "lifespan": {
-        "born": null,
-        "died": null,
-        "verification": "not independently checked this pass"
+        "born": "1899-11-20",
+        "died": "1977-02-17",
+        "verification": "AKS 음력 1899-11-20; 양력 변환 미확인"
       },
       "hanjaVerification": "1952 contemporaneous text or existing canonical registry",
-      "partyAffiliationEvidence": "여자국민당"
+      "partyAffiliationEvidence": "여자국민당",
+      "researchMaturity": "IDENTIFIED",
+      "evidenceCoverage": {
+        "documentIds": [
+          "DOC-P251-NEC-PRES",
+          "DOC-P251-AKS-IM"
+        ],
+        "level": "NEC_OFFICIAL_RETROSPECTIVE_PLUS_AKS_SECONDARY"
+      },
+      "openLeads": [
+        "LEAD-P251-30"
+      ],
+      "roleHistory": [
+        {
+          "date": "1952-08-05",
+          "office": "1952-08-05 부통령선거 후보",
+          "sources": [
+            "DOC-P251-NEC-PRES",
+            "DOC-P251-AKS-IM"
+          ],
+          "selection": "후대 공식 선거사와 2차 인물사전 교차; 원후보등록 미열람"
+        }
+      ],
+      "promotionHistory": [
+        {
+          "date": "2026-10-29",
+          "to": "IDENTIFIED",
+          "reason": "중앙선관위 1952 공식 선거사 + AKS 한자·생몰·시기별 직책 대조, 후보등록·호적 원면은 미열람",
+          "sources": [
+            "DOC-P251-NEC-PRES",
+            "DOC-P251-AKS-IM"
+          ]
+        }
+      ]
     },
     {
       "id": "cand-1952-sep-independent-labor-yu-rim",
@@ -2830,7 +3202,8 @@
       "connections": [
         "evt-p232-0917-party-sketches",
         "evt-p233-add-rhee-parliament-agenda",
-        "evt-p239l2-23"
+        "evt-p239l2-23",
+        "evt-p251-1952-0805-vice-election"
       ],
       "evidenceFile": "data/politicians/pass-232-1952-september-actors.json",
       "openLeadsFile": "data/research/leads/pass-232-20261028-next-lead-queue.json",
@@ -2866,7 +3239,8 @@
       "researchStatus": "IDENTIFIED",
       "backbone": false,
       "connections": [
-        "evt-p232-0917-party-sketches"
+        "evt-p232-0917-party-sketches",
+        "evt-p251-1952-0805-vice-election"
       ],
       "evidenceFile": "data/politicians/pass-232-1952-september-actors.json",
       "openLeadsFile": "data/research/leads/pass-232-20261028-next-lead-queue.json",
@@ -3242,7 +3616,8 @@
         "evt-p241-07",
         "evt-p243-1958-1118-security-draft",
         "evt-p244-1959-0202-opposition-negotiation",
-        "evt-p244-1959-1127-dp-nomination"
+        "evt-p244-1959-1127-dp-nomination",
+        "evt-p251-1952-0805-vice-election"
       ],
       "researchRefs": [
         "data/politicians/pass-233-addendum-1952-domestic-actors.json",
@@ -3349,7 +3724,8 @@
         "1952-11 국무총리 지명자·자유당 의원총회 발언"
       ],
       "connections": [
-        "evt-p233-add-lee-gap-seong-nomination"
+        "evt-p233-add-lee-gap-seong-nomination",
+        "evt-p251-1952-0805-vice-election"
       ],
       "researchRefs": [
         "data/politicians/pass-233-addendum-1952-domestic-actors.json"
@@ -7723,7 +8099,8 @@
         "DOC-P239L2-UN-A2947"
       ],
       "connections": [
-        "evt-p239l2-23"
+        "evt-p239l2-23",
+        "evt-p251-1952-0805-vice-election"
       ],
       "researchRefs": [
         "data/politicians/pass-239l2-1955-cabinet-election-actors.json"
@@ -8495,7 +8872,8 @@
       "connections": [
         "evt-p239m3-02",
         "evt-p247-0521-korean-social",
-        "evt-p248-1960-0729-results"
+        "evt-p248-1960-0729-results",
+        "evt-p251-1952-0805-vice-election"
       ],
       "evidenceCoverage": {
         "documentIds": [
