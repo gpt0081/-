@@ -202,3 +202,5 @@
   - Pass257P supplement2: A/2801 1954 UN ACABQ 원문·A/RES/880(IX) 원결의·영국 하원 1953/1954/1955 Hansard 원문 5건 추가. 총 등록 27건(원문 텍스트 15, 사진 원이미지 5, 기타 공식 해설·목록).
 
 - 2026-10-29 Pass257Q: `data/documents/pass-257q-1954-cabinet-gazette-originals.json` 제5회 국무회의록 1/22, 관보1049 1/23 신규 원전사 2건, 기존 7건 ID 재사용. 목록 11/29 충돌.
+
+- Pass257Q FRUS addendum: original documents d862/d867/d873/d868/d869, Jan27–Feb25 1954 tungsten renewal and presidential letter; 5 new document IDs in `data/documents/pass-257q-1954-cabinet-gazette-originals.json`.

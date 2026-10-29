@@ -7,3 +7,10 @@
 국무회의 원안 의결 5건: 경제헌법 개정안, 전염병예방법안, 해공항검역법안, 농산물검사소 직제개정안, 외국군인·군속 명예계급 수여규정안. 이는 국회 법률 가결이나 관보 공포와 구분한다. [1954-01-23 관보 제1049호](https://db.history.go.kr/item/cons/level.do?levelId=cons_003_0020_0020_0010)는 경제헌법 제85·87·88·89조 정부 제의와 14명의 장관/국무위원 한자·직책을 확인한다. [1954-09-08 관보 제1174호](https://db.history.go.kr/item/cons/level.do?levelId=cons_003_0020_0020_0020)는 의원제안 개헌 공고이며 각료 명단이 7개 부처에서 달라졌다. [1954-11-29 관보 제1228호](https://db.history.go.kr/item/cons/level.do?levelId=cons_003_0020_0020_0030)는 별도 최종공포.
 
 교차자료: [국회 1954-02-25 백두진 설명](https://db.history.go.kr/item/cons/level.do?levelId=cons_003_0020_0010_0020), [미 대사 1954-03-05 전문](https://db.history.go.kr/item/cons/level.do?levelId=cons_003_0020_0030_0010_0020), [Connelly 1954-03-24 경제헌법 법률검토](https://db.history.go.kr/item/cons/level.do?levelId=cons_003_0020_0030_0010_0030). 정부의 사기업 육성 의도와 법률상 실행가능성은 서로 다른 주장이다.
+
+## 1954-01-24~02-25 한미 중석 구매계약 갱신 외교의 사슬
+
+- [1954-01-27 Bond 전문720](https://history.state.gov/historicaldocuments/frus1952-54v15p2/d862): 변영태가 1/24 덜레스에게 중석 구매계약 연장을 요청한 서한을 미국 대사관이 요약. 이 서한 원본은 미확보. 1/22 대통령의 '미국 중석매입 중단설 확인 공식통첩' 지시와 날짜상 인접하지만 **직접 인과는 미확정**.
+- [1954-02-02 McClurkin→Drumright 비망록](https://history.state.gov/historicaldocuments/frus1952-54v15p2/d867): 1952-03-28 협정, 1만5천 short ton 계약상한, 1954-04-01 종료 예상, 추가 구매예산 부재. 1953년 1~9월 중석 수출 약2,300만달러/상품수출 3,300만달러는 **미국측 당대 추정**. 가격 $65와 $63 병기 불일치 원계약 확인 필요.
+- [1954-02-25 Dulles 전문699](https://history.state.gov/historicaldocuments/frus1952-54v15p2/d873): 추가 중석 구매 자금이 없고 기술·마케팅 지원을 검토한다는 회신을 주한미대사관에 **승인**. 실제 전달·한국측 수신 확인은 별개.
+- [1954-02-04 이승만 서한](https://history.state.gov/historicaldocuments/frus1952-54v15p2/d868)과 [2/9 Robertson 회담메모](https://history.state.gov/historicaldocuments/frus1952-54v15p2/d869): 이승만은 일본어업·원조구매국·통일정책에 대한 자신의 주장을 개진. 미측은 서한 정식 접수를 거부했으나 사진복사본이 아이젠하워의 비공식기록에 전달됐다는 각주를 보존. 대통령 주장 수치와 객관적 통계는 분리.

@@ -169,3 +169,5 @@
   - Pass257P supplement2: 1954 자금 부족에 대한 UNKRA A/2750 + UN ACABQ A/2801 + 영국 의회 원문 3개 기관계열 교차검증 1묶음, 총 44개 반증 주장.
 
 - 2026-10-29 Pass257Q: `data/claims/pass-257q-1954-cabinet-adversarial.json` 원문 메타데이터·지시/집행·경제개헌·장관변경 12개 검증 주장.
+
+- Pass257Q FRUS addendum: 10 claim-level contrary-evidence reviews for tungsten agreement, U.S. reply, 1954 presidential letter and provenance roles.

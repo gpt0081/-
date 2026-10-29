@@ -1918,3 +1918,9 @@
 - 상태: OPEN, 2026-10-29 pass257Q. 미곡가격·저장기계·중석 공식통첩·2천만달러 차입 감액·외자4부처 합동안·인사추천 등 실제 집행 미확인. 국무회의 지시와 실행을 혼동하지 않는다.
 - 다음: `data/research/leads/pass-257q-1954-cabinet-followup.json`의 원문 38개 표적.
 - 역사부채 주간 전수조사 미실시. last_full_review 유지.
+
+
+### HD-1954-TUNGSTEN-AGREEMENT · 1954년 한미 중석계약 만료·갱신의 실제 집행
+- 상태: NARROWED (2026-10-29 pass257Q). [1954-01-27 Bond 전문720](https://history.state.gov/historicaldocuments/frus1952-54v15p2/d862)은 1/24 변영태 외무장관이 덜레스에게 갱신을 요구했다고 보고. [1954-02-02 McClurkin 비망록](https://history.state.gov/historicaldocuments/frus1952-54v15p2/d867)은 1952-03-28 협정, 1만5천 short ton 계약상한, 1954-04-01 종료 전망, 1953년 미국측 사전 경고, 추가 구매예산 없음에 대한 내부 권고를 기록. [1954-02-25 덜레스 전문699](https://history.state.gov/historicaldocuments/frus1952-54v15p2/d873)은 한국측에 추가구매 자금 없음·기술지원 검토를 답신하도록 **권한 부여**.
+- 미해결: 원계약 65달러와 같은 비망록의 63달러 병기, 1/24 원서한, 2/25 회신 실제 전달, 4/1 계약 종료 및 인도원장. 종료 전망·권고·답변승인과 실제 계약종료를 구분.
+- 다음: `data/research/leads/pass-257q-1954-cabinet-followup.json` FRUS leads 1~8, 15.

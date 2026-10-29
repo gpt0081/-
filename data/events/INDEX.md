@@ -153,3 +153,5 @@
   - Pass257P supplement2: 영국 1953·1954·1955 의회답변 및 유엔 1954 ACABQ·880(IX) 5개 사건 추가, 총 39개 사건/세부행위.
 
 - 2026-10-29 Pass257Q: `data/events/pass-257q-1954-cabinet-actions.json` 대통령 유시15·국무회의 의결5·관보공고1, 집행증거 별도. 중앙 events.json 대신 additive shard+index.
+
+- Pass257Q FRUS addendum: 7 tungsten/foreign policy actions (1954-01-24 through 02-25) in existing pass257Q event shard.
