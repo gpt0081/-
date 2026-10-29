@@ -1999,3 +1999,15 @@
 ### HD-1954-HANGUL-0626-0703 · 한글 간소화 발표 단계 날짜
 - 상태: NARROWED (2026-10-29 pass257V). 국가기록원 1954 연표 문교부 발표 1954-06-26, 주제해설 문교부·공보처 공동안 1954-07-03. 예비발표·공동안·상정의 별도 행위 가능. 1954-07-02 제33회 목록과 BA0085172 문서일 7/3 관계도 미확인.
 - 다음: 6/26 원보도자료·신문 원지, 7/2 제33회 회의록, BA0085172(69-1)·BA0135191(12-1) 원면.
+
+## 2026-10-29 Pass257W 신규·추적 부채 (목요일, 주간 전수조사 아님)
+- `HD-P257W-1954-SEAT-CATEGORIES` NARROWED: 선관위 2010 연구용역 114/15/67/7, 국편 헌정사 114/15/67/3+3+1, FRUS 115/15/67/6. A/2711 7~10쪽과 미국 1954-05-23 전문1231 원문 필요.
+- `HD-P257W-APR06-APR08-SPEECH` CONFLICTED: 개헌조건부 공천 담화 날짜 국편 4/6 vs 선관위 연구용역 4/8. 원신문·대통령 담화 발행대장 필요.
+- `HD-P257W-PYUN-131-2000` CONFLICTED: 변영태 5/22 제네바 발언 전언 자유당131·후보2000 vs 선관위 2010 연구용역 114·1207. 발언은 선거 사실이 아님.
+- `HD-P257W-UN-A2711-ACCESS` BLOCKED: 유엔 원보고서 PDF A/2711 HTTP403. 색인·대체 소장처 추적.
+- `HD-P257W-APR19-COMMITTEE-ORIGINAL` OPEN: 임철호·이범녕·이선근 4/19 자유당 대표 파견 원명부와 이범녕 신원 확인.
+- `HD-P257W-FRUS-PERCENTAGES` NARROWED: FRUS XVI d190 편집각주 55.3/36.8% 정당 귀속 역전 의심. UN 원보고서 필요.
+- `HD-P257W-NAK-CABINET-YEAR` CONFLICTED: BG0000052 2-13 생산연도 1948 vs 설명 1954-04-10.
+- `HD-P257W-GAZETTE-NUMBER` CONFLICTED: 국가기록원 테마 1954-09-08 관보 1170 vs 다른 테마 1174.
+- `HD-P257W-INDUSTRIAL-EXPLOSIVES` OPEN: 1954-04-29 화약수입 관련 2004 회고 원기사 재인용, 상공부 원계획·대통령 유시·광업 영향 원문 필요.
+- 세부 evidence/status/next original targets: `data/research/history-debt/pass-257w-1954-election-unresolved.json`. **last_full_review 변경하지 않음**. 역사부채 주간 전수조사 미실시.
