@@ -195,4 +195,4 @@
 
 - 2026-10-29 Pass257O4: `data/documents/pass-257o4-uncurk-yearbook-originals.json` (기존 DOC-P239K-UN-A2711·DOC-P239K-NEC-1954-ELECTION ID 재사용, 신규 UN Yearbook 1954 1건).
 
-- 2026-10-29 Pass257P: `data/documents/pass-257p-unkra-housing-finance-primary-audit.json` (UN A/RES/828(IX) 원문 2쪽, 서울기록원 재건주택 공식해설·사진 5점 원이미지, 외무부 CA0002578 32쪽 원본의 **목록만** 확보; 법제처 법률302·311/대통령령860 연혁 메타데이터; 원문/목록/시각사료 분리).
+- 2026-10-29 Pass257P: `data/documents/pass-257p-unkra-housing-finance-primary-audit.json` (UN A/RES/410(V) 원문 5쪽·725(VIII) 1쪽·828(IX) 2쪽, 서울기록원 재건주택 공식해설·사진 5점 원이미지, 외무부 CA0002578 32쪽 원본의 **목록만** 확보; 법제처 법률302·311/대통령령860 연혁 메타데이터; 원문/목록/시각사료 분리).
