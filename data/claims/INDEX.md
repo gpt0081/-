@@ -163,3 +163,5 @@
 - 2026-10-29 Pass257O4: `data/claims/pass-257o4-uncurk-election-aid-adversarial.json` (UN 115 vs NEC114, UN vs US 선거절차 평가, UNKRA 약정/도착/준공 단계).
 
 - 2026-10-29 Pass257P: `data/claims/pass-257p-unkra-housing-finance-adversarial.json` (1953 주택 5500호 계획 대 1954 9000~9500호 계획의 분모, 안암49호와 서울330호 중복, 1953 조인식 사진 대 1954 기본협정, 1945/1954 목록오류, 828(IX) 공약금 납부 미확정 등 29개 반증검사, 2개 CONFLICTED→NARROWED correction history).
+
+  - Pass257P supplement: 1953 감사 $51.817m 약정 대 $26.419m 지급, 1957 주택 >8,300호·중소기업 대출 1,381건의 시점차이 반증 포함, 누적 37개 claim/adversarial 검사.
