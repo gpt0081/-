@@ -12,24 +12,24 @@
   "weeklyFullHistoryDebtReview": false,
   "lastFullReviewChanged": false,
   "metrics": {
-    "independentResearchLines": 12,
-    "normalGovernanceDomains": 8,
-    "nonPresidentKoreanPoliticiansDeepened": 0,
+    "independentResearchLines": 20,
+    "normalGovernanceDomains": 11,
+    "nonPresidentKoreanPoliticiansDeepened": 1,
     "presidentNodesDeepened": 1,
-    "eventsNewOrEnhanced": 8,
-    "distinctMeaningfulDocumentPagesOpened": 9,
-    "originalContemporaneousTextPagesOpened": 9,
+    "eventsNewOrEnhanced": 15,
+    "distinctMeaningfulDocumentPagesOpened": 15,
+    "originalContemporaneousTextPagesOpened": 15,
     "originalFacsimilesInspected": 0,
-    "uniqueDocumentRegistryObjects": 9,
-    "adversarialClaimChecks": 15,
-    "distinctAdversarialComparisonLines": 5,
-    "priorLeadsFollowed": 9,
-    "priorLeadsNarrowed": 9,
+    "uniqueDocumentRegistryObjects": 15,
+    "adversarialClaimChecks": 27,
+    "distinctAdversarialComparisonLines": 8,
+    "priorLeadsFollowed": 12,
+    "priorLeadsNarrowed": 12,
     "priorLeadsResolved": 0,
-    "nextSpecificLeads": 32,
-    "newLeads": 24,
+    "nextSpecificLeads": 44,
+    "newLeads": 36,
     "carriedLeads": 8,
-    "provenanceCrossCheckBundles": 1,
+    "provenanceCrossCheckBundles": 2,
     "independentKoreanGovernmentPrimaryCrossChecks": 0
   },
   "documentIds": [
@@ -128,10 +128,9 @@
     }
   ],
   "shortfalls": [
-    "20 independent research lines: 12",
-    "10 nonpresident politicians: 0",
-    "40 original pages: 9",
-    "3 independent source family crosschecks: 1"
+    "40 primary pages target: 15",
+    "10 nonpresident politicians target: 1",
+    "3 independent source-family crosschecks target: 2; Korean independent primary originals 0"
   ],
   "stoppingReason": "Available research and connector execution segment completed after coherent GitHub writes; no assertion of one-hour duration.",
   "correctionHistory": [
@@ -145,6 +144,26 @@
         "DOC-P258B-NIKH-FS023-0270-04",
         "DOC-P258B-NIKH-FS023-0270-05"
       ]
+    },
+    {
+      "date": "2026-10-30",
+      "reason": "Undated FY55 Q&A events initially assigned April without explicit day; corrected to bounded April26-May19 in event shard and committed."
     }
+  ],
+  "supplementalDocumentIds": [
+    "DOC-P258B-NIKH-FS023-0090",
+    "DOC-P258B-NIKH-FS023-0100",
+    "DOC-P258B-NIKH-FS023-0110",
+    "DOC-P258B-NIKH-FS023-0120",
+    "DOC-P258B-NIKH-FS023-0130",
+    "DOC-P258B-FRUS-D980-19541230"
+  ],
+  "commitHistory": [
+    "7514cba7834951ed5e83082ca35e9caaad27bed9",
+    "0b27e33d0c2f291a51d909eb65888f3b98939ede",
+    "0b0daa15db218633986a26f163df0086f34f5e8c",
+    "e66f83c0c0442fcccaaebce50ebe84555d797242",
+    "c7fd23702a36a9515895ea6db337d58ba0f0a260",
+    "9c1f8a22195cf4d742677931224f2bb7591c40b2"
   ]
 }
