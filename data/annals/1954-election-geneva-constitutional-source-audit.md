@@ -51,3 +51,8 @@
 **정책·인사·재정의 평시 국정**: §79~82는 백두진 사임(Annex II 6월18일, 발표 §79 6월19일), 변영태 총리 임명 발표(§80 6월27일, Annex II 6월28일 지명·확인), 국회 총리 신임과 내각 신임 표결의 차이 및 내각 수정안을 기록한다. Annex II는 재무·법무·농림·상공·통신·교육·보건·사회 장관 재임과 교체 날짜를 제시한다. 이 중 김법린 퇴임은 유엔 Annex II **1954-02-05**와 한국 문교부 후대 명부 **1954-04-20**가 달라 CONFLICTED로 기록한다. §96~99는 UNKRA 장기재건(광업·제조업·관개·어업·주택·교육)과 KCAC 공중보건·복지·교통·농업 생산의 책임 구분, 백두진의 한미 원조조정위원회 역할, 1953-54 회계연도 미국 FOA 원조 **2억 달러**와 기타 민간원조 **8천만 달러**를 기록한다. §114는 **1954-05-31 UNKRA-대한민국 원조운영 협정** 서명을 확인한다. 다만 유엔 보고서는 협정 원본 자체가 아니므로 서명문서 별도 확보가 필요하다.
 
 동시대 유엔 원문: https://digitallibrary.un.org/record/712124/files/A_2711-EN.pdf . 재사용 document registry: `data/documents/pass-257w3-uncurk-1954-original.json`; 22명 장관·국회 지도부 actor overlay: `data/politicians/pass-257w3-uncurk-1954-cabinet-assembly-roster.json`; 추가 사건 13개: `data/events/pass-257w3-uncurk-1954-election-aid-cabinet-actions.json`; 주장 8개: `data/claims/pass-257w3-uncurk-election-cabinet-aid.json`.
+
+## 8. 1954 농림부장관 인명 확인과 담화 발표일 재검토
+한국학중앙연구원 「윤건중」(https://encykorea.aks.ac.kr/Article/E0042190)은 **윤건중(1897~1987, 호 소암)**의 독립운동·임시정부 국무원 참사·1954년 5월 제9대 농림부장관 이력을 기술한다. 유엔 1954 Annex II의 `Yoon Kun-Joong` 5월6일 임명·6월30일 퇴임과 독립 출처계열이 맞아 기존 로마자 후보를 한국어 실명 VERIFIED로 올렸다. 다만 윤건중 한자·개별 관보는 여전히 미확인. `Choi Kyoo-Ok`은 후대 장관 목록에서 최규옥으로 제시되지만 원관보·한자 확인 전 로마자 ID를 유지한다.
+
+2025년 오마이뉴스 후대 기사(https://www.ohmynews.com/NWS_Web/Series/series_premium_pg.aspx?CNTN_CD=A0003192860)는 **1954년 4월8일자 경향신문 1면이 4월6일 특별담화를 보도**했다고 구체적으로 인용한다. 따라서 '4월6일 발언 vs 4월8일 보도'라는 설명 가능성이 높아졌지만, 1954 경향신문 원면 미열람 상태에서 날짜를 완전 해결로 처리하지 않는다. 4월15일 후보 서약·4월17일 동아일보 보도도 원지면 추적 대상으로 남겼다.
