@@ -146,6 +146,8 @@
 
 - 2026-10-29 Pass257O4: `data/events/pass-257o4-1954-uncurk-unkra-actions.json` (UNCURK 1954 총선·교섭단체·총리·내각, UNKRA 협정·사업·결의).
 
-- 2026-10-29 Pass257P: `data/events/pass-257p-unkra-housing-finance-actions.json` (34개 sub-event/action, 중앙 `data/events.json` 동기화; 주택 계획/준공, 금융법/설립령, UN 결의, 농정, 보건·지방행정, 1954 협정 **원문목록 확인만** 분리).
+- 2026-10-29 Pass257P: `data/events/pass-257p-unkra-housing-finance-actions.json` (39개 sub-event/action, 중앙 `data/events.json` 동기화; 주택 계획/준공, 금융법/설립령, UN 결의, 농정, 보건·지방행정, 1954 협정 **원문목록 확인만** 분리).
 
   - Pass257P supplement: 1953 UN 독립감사와 1957 주택·문경시멘트·중소기업대출 후속 사건 추가, Pass257P event/sub-event 34개(중앙 events.json 동기화).
+
+  - Pass257P supplement2: 영국 1953·1954·1955 의회답변 및 유엔 1954 ACABQ·880(IX) 5개 사건 추가, 총 39개 사건/세부행위.
