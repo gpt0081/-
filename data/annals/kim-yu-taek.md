@@ -9,3 +9,7 @@
 - 관련 사건: `evt-p257-14`, `evt-p257j-19530217-new-hwan-circulation`.
 - 출처: https://www.bok.or.kr/portal/main/contents.do?menuNo=201180 ; https://archives.bok.or.kr/content/exhibition/get/805/1076 .
 - Open leads: LEAD-P257J-05, 07, 08.
+
+
+### 1953-03-04 추가 통화조치 부인 및 산업융자 계획 (Pass257M)
+서울신문 1953-03-06 전사에 따르면 한국은행총재 김유택은 3/4 추가 '제3차 조치' 풍설을 부인하고, 관계당국과 산업융자 협의, 2000만달러 외화방출에 따른 12억환 회수 및 산업재건 자금 활용 전망을 말했다. 정책계획·기대와 실제 집행/성과를 분리한다. DOC-P257M-NIKH-KIM-19530304.

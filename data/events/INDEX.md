@@ -134,3 +134,5 @@
 - 2026-10-29 Pass257K: `data/events/pass-257k-1953-audit-labor-actions.json` 5건 국정감사법·근로동원 재고·노동조합 시행령·근로기준법 수정·전시근로동원법 이송, 중앙 registry additive 반영.
 
 - 2026-10-29 Pass257L: `data/events/pass-257l-un-committee-finance-actions.json` UN 제1위원회 보고서 A/2278·제5위원회 재정심의 A/2284 2건 중앙 동기화.
+
+- 2026-10-29 Pass257M: `data/events/pass-257m-1953-mar-apr-economy-actions.json` 통화개혁 발표·외환상환 충돌·구호양곡 배급·언론 비판 4건 중앙 반영.

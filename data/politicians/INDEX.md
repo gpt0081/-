@@ -224,3 +224,5 @@
 - **Pass257J 김유택 독립 실록 활성화**: `cand-p235i-kim-yu-taek` 후보 ID 유지(기존 참조 호환), 한국은행 공식 총재약력으로 1951-1956 총재·1961 장관·1963 국회의원 경력 검증. `data/annals/kim-yu-taek.md`, `data/evidence/kim-yu-taek-1953-currency.json` 추가. `data/politicians/pass-257j-actor-evidence.json`에 백두진·이승만과 직책별 책임 분리.
 
 - **Pass257K 국회·노동 행위자 심화**: 신익희 국회의장 1953-04-22 근로기준법안·05-15 전시근로동원법안 이송, 박술음 사회부장관 및 백두진 총리서리 04-14 노동조합법 시행령 제782호 서명. `data/politicians/pass-257k-labor-institution-actors.json`에 기록. 원송부/서명 이미지 미확보.
+
+- **Pass257M 경제정책 발언자 심화**: 김유택 1953-03-04 추가통화조치 부인, 이승만 8700만달러 상환예정, 백두진 8500만달러 청산완료 발언. `data/politicians/pass-257m-finance-public-claims.json`; 당사자 발언은 회계사실로 단정하지 않음.

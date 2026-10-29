@@ -182,3 +182,5 @@
 - 2026-10-29 Pass257K: `data/documents/pass-257k-1953-constitutional-labor-archives.json` 3건 대통령기록관 개별 원문철 **해제** + 1건 법제처 법률276호 **색인**. 원문 원면 열람으로 계산하지 않음.
 
 - 2026-10-29 Pass257L: `data/documents/pass-257l-un-committee-originals.json` UN A/2278 원보고서(심한 OCR 손상, 부분 판독) 및 A/2284 재정위원회 원보고서(주요 항목 판독) 2건. 원면 육안검증은 아직 미실시.
+
+- 2026-10-29 Pass257M: `data/documents/pass-257m-1953-mar-apr-public-economy.json` 동시대 원신문 전사 4건(김유택·이승만 담화, 민주신보 비판, 서울시 비상미 배급 지연).
