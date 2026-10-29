@@ -1,0 +1,68 @@
+{
+  "pass": "257O3",
+  "accessDate": "2026-10-29",
+  "claims": [
+    {
+      "id": "CL-P257O3-01",
+      "statement": "1953-02-27 긴급금융조치법 공포번호는 227호다",
+      "status": "CONFLICTED",
+      "supporting_evidence": [
+        "DOC-P257O3-BOK-EXHIBITION"
+      ],
+      "contradicting_evidence": [
+        "DOC-P257O-LAW-277-INDEX",
+        "DOC-P257O3-LAW277-REPRODUCTION"
+      ],
+      "conclusion": "BOK 후대 해설 227 vs 법제처 공식 연혁 277. Official legal index has stronger authority for law numbering; do not silently overwrite BOK typo; original 관보 확인.",
+      "adversarial_search": true
+    },
+    {
+      "id": "CL-P257O3-02",
+      "statement": "1953 법277 제11조는 5만환 계정의 지급액을 명시적으로 48000 또는 46000으로 정한다",
+      "status": "NARROWED",
+      "supporting_evidence": [
+        "DOC-P257O3-LAW277-REPRODUCTION"
+      ],
+      "insufficient_evidence": [
+        "법 제11조는 별표2 참조만 있고 별표2 수치표는 거울 사이트에 미노출"
+      ],
+      "conclusion": "Article11 original wording narrowed; schedule2 and contemporary newspaper 48000/46000 remain CONFLICTED, not RESOLVED.",
+      "adversarial_search": true
+    },
+    {
+      "id": "CL-P257O3-03",
+      "statement": "1953 긴급금융조치법에는 이자제한령 초과 이자에 관한 제정 조항이 없었다",
+      "status": "NARROWED",
+      "supporting_evidence": [],
+      "contradicting_evidence": [
+        "DOC-P257O3-LAW277-REPRODUCTION"
+      ],
+      "conclusion": "제24조는 법 시행 이후 이식제한령 초과 이자 약정 또는 수수 채권자에게 1년 이하 징역 또는 30만환 이하 벌금을 규정. 다만 익명 소식통의 '사채이자 무효화' 구상과는 법효과가 다르므로 같은 법안으로 병합 금지.",
+      "adversarial_search": true
+    },
+    {
+      "id": "CL-P257O3-04",
+      "statement": "법277호 제12조의 동결잔액은 모두 동일한 만기·동일한 금융계정으로 이체됐다",
+      "status": "NARROWED",
+      "supporting_evidence": [],
+      "contradicting_evidence": [
+        "DOC-P257O3-LAW277-REPRODUCTION"
+      ],
+      "conclusion": "제12조 1/4 특별국채저금·3/4 특별정기예금, 계정별 잔액 1000환 이하 예외. 제18조 특별정기 1년/2년, 국채저금 3년; 대상별 구별 필수.",
+      "adversarial_search": true
+    },
+    {
+      "id": "CL-P257O3-05",
+      "statement": "1953 통화조치 회수액·산업자금 융자성과는 동시대 집행원장으로 확인됐다",
+      "status": "OPEN",
+      "supporting_evidence": [
+        "DOC-P257O3-BOK-EXHIBITION"
+      ],
+      "insufficient_evidence": [
+        "한국은행 전시 후대 수치·융자 설명만 열람, 원 종합보고서 item42686 HTTP500"
+      ],
+      "conclusion": "BOK retrospective 11065억+1198억=12263억 산술 일치. 실제 원기록·대출원장 확보 전 실집행 검증 보류.",
+      "adversarial_search": true
+    }
+  ]
+}

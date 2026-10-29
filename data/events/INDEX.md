@@ -141,3 +141,5 @@
 
 - 2026-10-29 Pass257O: `data/events/pass-257o-election-law-crosslinks.json` (1954 선거 정당별 집계, 1953 법277 공포 법령 ID).
 - 2026-10-29 Pass257O2: `data/events/pass-257o2-1954-election-observation-and-caucus.json` (1954 미국 외교전문·선거참관 보고·6/9~6/16 교섭단체 시간축).
+
+- 2026-10-29 Pass257O3: `data/events/pass-257o3-1953-finance-law-actions.json` (법277 제11·12·18·19·24조 및 긴급산업융자 후대 기록).
