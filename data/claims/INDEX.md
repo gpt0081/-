@@ -182,3 +182,6 @@
 - 2026-10-29 Pass257S: `data/claims/pass-257s-1954-visit-nnsc-adversarial.json` 파병 제안≠집행, 공동성명≠모든 군사요구 철회, 원용덕 성명≠현장폭력 직접명령 등 15개 반증.
 - 2026-10-29 Pass257T 원용덕 행동에 대한 이승만 직접 지지 vs 현장폭력 직접명령 분리, 헌법·환율·원조 15개 명제.
 - 2026-10-29 Pass257U 언론 직접간섭 부인 vs 신문집중 권고, UNKRA 흙벽돌 실재 10개 검증.
+
+- 2026-10-29 Pass257W 원문 대조 8개 명제 `data/claims/pass-257w-1954-election-adversarial.json`; 국무회의 기록 메타데이터·관보 호수·산업화약 3개 `data/claims/pass-257w2-1954-cabinet-provenance-conflicts.json`.
+- Pass257W3 동시대 UN A/2711 자체 본문 115/67 vs 부록 114/68, 후보1207, 203/210, 경찰불개입 공개지시와 실제개입, 교섭단체136, 총리 인사, UNKRA 협정, 김법린 퇴임일 충돌 8개 `data/claims/pass-257w3-uncurk-election-cabinet-aid.json`. 기존 주장 silent overwrite 없이 review history 추가.
