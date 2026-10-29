@@ -99,3 +99,5 @@
 
 ## pass247d (2026-10-29)
 - `data/events/pass-247d-domestic-legislative-actions.json`: 개헌·방송관리·지방의회·정족수 사건10개.
+
+- 2026-10-29 pass247e 중앙 registry 호환 통합: `data/events/pass-247e-1960-election-administration-actions.json` 13건. 사건 원형은 shard, 호환 조회는 `data/events.json`.

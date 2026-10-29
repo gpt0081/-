@@ -185,3 +185,5 @@
 
 ## pass247d (2026-10-29)
 - `data/politicians/pass-247d-assembly-actors.json`: 민장식·변진갑·최규남·고담룡 신규4명, 기존 심화.
+
+- 2026-10-29 pass247e 중앙 registry 호환 통합: `data/politicians/pass-247e-1960-legislative-actors.json` 후보5명/기존14명 보강. 최규남 두 노드는 신원 미확인으로 병합하지 않음.
