@@ -250,3 +250,5 @@
 - `data/politicians/pass-257w3-uncurk-1954-cabinet-assembly-roster.json`: UNCURK 1954 A/2711 Annex II 장관·국회의장·부의장 22명, 날짜별 임면·선출. 기존 20명 + 신규 로마자 잠정후보 Yoon Kun-Joong, Choi Kyoo-Ok 2명; 둘은 기본 `data/politicians.json`에도 IDENTIFIED로 추가. 한국어/한자 미확인 상태에서 임의 병합 금지.
 - 유엔 본문·부록의 자유당 115/114 1석 불일치, 문교부장관 김법린 퇴임일 2/5 vs 4/20, 총리 백두진/변영태 발표일·지명일 구별. `data/annals/1954-election-geneva-constitutional-source-audit.md` §7.
 - 독립 event 13개 추가 `data/events/pass-257w3-uncurk-1954-election-aid-cabinet-actions.json`, 원문 `data/documents/pass-257w3-uncurk-1954-original.json`.
+
+- Pass257W4 신원 승격: UN Annex II `Yoon Kun-Joong` = 한국학중앙연구원 `윤건중(1897~1987)`, 1954-05 농림부장관. `cand-p257w-un-yoon-kun-joong` ID 보존, 기본 registry 연구상태 VERIFIED; 한자·원임면 관보는 OPEN. `Choi Kyoo-Ok`은 로마자 잠정 유지.
