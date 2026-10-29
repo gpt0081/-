@@ -4,11 +4,11 @@
   "activeBranch": "main",
   "branchHead": "moving-ref:refs/heads/main",
   "baseMain": "0bae0fd2c2ce592e6699095fbe4593d07e9b778e",
-  "status": "PASS246_1956_1960_GAZETTE_SUCCESSION_CONFLICTED",
-  "summary": "1956~1960 원관보 법률11개·국회 원속기1개·후대 공식2개 직접 대조. 1960-06-23/07-01 허정 권한대행 공포명의가 곽상훈 즉시승계 FRUS 편집주석과 충돌. 1958 이옹준/이응준·1960 오정수 한자·1960 3/15 투표율 충돌 보존. 정치인 237명·사건 667개, 다음 원문 lead 35개.",
-  "nextAction": "LEAD-P246-01 국회 1960-06-15 제35회37차 기명표 원명부; LEAD-P246-03 법제처 헌법52조 권한대행 해석; LEAD-P246-07 1958 관보1965 원면; LEAD-P246-12 1960 상공부 吳楨洙/吳植洙 원면; LEAD-P246-31 선관위 1960 3·15 원집계",
+  "status": "PASS250_1952_JUNE_ORIGINALS_AND_CENSORSHIP_NARROWED",
+  "summary": "1952-03~06 국편 헌정사 동시대 원문 전사 17건, 사건12·주장8·지청천 독립 VERIFIED·기존 정치인 참조10·원문 표적31. A/2187·선거 개표록·검열명령 집행 원면 미확인.",
+  "nextAction": "LEAD-P250-01 A/2187 UNCURK 원보고서와 1952 선거 86/74.6 충돌 → LEAD-P250-02 개표록 원내지 → LEAD-P250-10 Newsweek 압수·반환 → LEAD-P250-12 검열명령 접수·이행 → LEAD-P250-17 OIR 간선제 전망 → LEAD-P250-19 지청천 국회 명부",
   "mainDataModified": true,
-  "latestRun": "data/research/pass-246-execution-report.md",
+  "latestRun": "data/research/pass-250-execution-report.md",
   "latestCorrections": [
     {
       "run": 93,
@@ -80,7 +80,7 @@
     "latestRun": 97
   },
   "mainRef": "refs/heads/main",
-  "latestVerifiedMainCommit": "5fcb6bfb77fba1bf0c005d232057375f5d505476",
+  "latestVerifiedMainCommit": "8865f86235aa81db4129894cd17fe67ce8cf4a23",
   "pass231Files": {
     "documents": "data/documents/pass-231-1952-june-july-diplomacy-election.json",
     "events": "data/events/pass-231-1952-constitutional-election-pow.json",
@@ -391,7 +391,7 @@
     "duplicate_central_event_ids": 0,
     "method": "Fetched live GitHub JSON and checked all pass239/pass239B/pass239C event-document-actor and claim-document references; fixed 1 wrong source prefix in pass239B fiscal-year claim."
   },
-  "lastKnownCommit": "5fcb6bfb77fba1bf0c005d232057375f5d505476",
+  "lastKnownCommit": "8865f86235aa81db4129894cd17fe67ce8cf4a23",
   "latestResearchPass239D": {
     "date": "2026-10-28",
     "first_commit": "212165b012b8e6cae922ba7c3fdb9896ab2b6482",
@@ -436,7 +436,7 @@
     "newPolitician": "pol-cho-chung-whan"
   },
   "latestResearchLedger": "data/research/runs/pass-239l2-execution-ledger.json",
-  "latestLeadQueue": "data/research/leads/pass-246-next-originals.json",
+  "latestLeadQueue": "data/research/leads/pass-250-next-originals.json",
   "latestEvidenceSync": [
     "data/evidence/rhee-syngman.json",
     "data/evidence/sohn-won-yil.json",
@@ -469,8 +469,17 @@
   ],
   "latestAddendum": "data/documents/pass-242b-1958-followthrough.json",
   "latestCommits": [
-    "d95732651087e2e06a30c25f95ca1e4f403c2837",
-    "bc0d733621fcd40604c15029e8fb12a46beeab18",
-    "0000bf94be976fa96cb3d534ea1639790460ef67"
+    "447607ed57bf0cf04d3e0a4a1ca8b596591577f9",
+    "8865f86235aa81db4129894cd17fe67ce8cf4a23"
+  ],
+  "pass250Files": [
+    "data/documents/pass-250-1952-primary.json",
+    "data/events/pass-250-1952-primary.json",
+    "data/claims/pass-250-1952-adversarial.json",
+    "data/politicians/pass-250-1952-actors.json",
+    "data/evidence/ji-cheong-cheon.json",
+    "data/annals/ji-cheong-cheon.md",
+    "data/research/leads/pass-250-next-originals.json",
+    "data/research/pass-250-execution-report.md"
   ]
 }
