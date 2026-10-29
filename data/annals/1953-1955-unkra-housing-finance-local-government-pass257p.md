@@ -54,3 +54,15 @@
 연계: `data/documents/pass-257p-unkra-housing-finance-primary-audit.json`, `data/events/pass-257p-unkra-housing-finance-actions.json`, `data/claims/pass-257p-unkra-housing-finance-adversarial.json`, `data/research/leads/pass-257p-unkra-housing-legal-originals.json`.
 
 **역사부채 주간 전수조사 미실시.** Floot 수정·빌드 없음.
+
+## 7. 추가 원결의 2건 직접 열람: UNKRA의 법적 통제권 구조
+
+1950-12-01 **UNGA A/RES/410(V)** 5쪽 원결의 스캔을 직접 확인했다. A§1은 UNKRA Agent General의 총회 책임, A§2(c)는 UNCURK가 Agent General과 관계를 맺을 한국 내 당국을 지정할 권한, A§10은 지정 당국과의 협정 체결권을 명시한다. A§8은 유엔 사무총장 명의 특별계정, B§9는 원조물자 판매의 현지통화 수입금을 **Agent General 통제 계정**에 넣고 UNCURK 협의·자문위원회 동의를 거쳐 사용하도록 한다. B§12~13은 한국 당국의 수불기록과 UN 감독을 요구한다. 이는 UNKRA의 수입금이 이승만 대통령 또는 한국 재무부의 임의 재량자금이었다는 가설을 직접 제약한다. **그러나 1954 실제 계약·회계 운용이 규범대로 이뤄졌는지는 별도 원장 검증이 필요하다.**
+
+1953-12-07 **UNGA A/RES/725(VIII)** 1쪽 원결의 스캔도 직접 확인했다. §2는 1953-07~1955-07 두 기간의 UNKRA 사업계획을 Agent General·Advisory Committee 협의를 조건으로 승인하고, §3은 **재원 부족**을 명시한다. 1954-12-14 **828(IX)**의 추가 납부 촉구는 이러한 재정 제약의 연속성으로 읽되 실제 연말 미납액은 수납원장 없이는 수치 확정하지 않는다.
+
+원본 스캔: https://upload.wikimedia.org/wikipedia/commons/e/e0/United_Nations_General_Assembly_resolution_A-RES-410%28V%29.pdf ; https://upload.wikimedia.org/wikipedia/commons/a/a9/United_Nations_General_Assembly_resolution_A-RES-725%28VIII%29.pdf
+
+새로운 원문 추적: 410(V) B§9 UNKRA 현지통화 특별계정 장부와 1954 한국 대충자금특별회계법 제311호 적용계정을 대조해야 한다. **두 회계의 명칭이 유사하다는 이유만으로 동일 계정으로 병합하지 않는다.** 725(VIII) §2가 인용한 A/2543 122~124항도 원문 확보 대상이다.
+
+Correction history: `CL-P257P-01`과 `CL-P257P-03`의 상태는 서로 독립된 확정사실 간 진정한 충돌이 아니라 계획 분모·사진-협정의 잘못된 동일시를 다루므로 `CONFLICTED`에서 `NARROWED`로 명시적으로 교정했다.
