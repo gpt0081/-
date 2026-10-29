@@ -2,8 +2,8 @@
   "pass": "257P",
   "accessDate": "2026-10-29",
   "active_count": 12,
-  "backlog_count": 25,
-  "new_specific_leads": 34,
+  "backlog_count": 31,
+  "new_specific_leads": 40,
   "carried_leads": 3,
   "notes": "Active queue limited to 12. Catalog-only targets not counted as original pages opened. Do not mark RESOLVED without source body.",
   "leads": [
@@ -209,12 +209,13 @@
       "id": "LEAD-P257P-19",
       "institution": "UN Digital Library",
       "target_original": "A/2750 1954 UNKRA Agent General 원보고 37쪽·부표",
-      "why": "1954 103m 약정 41m 도착·주택계획 9500 집행원표",
+      "why": "A/2750 original full OCR now acquired; compare Annex I contribution totals and Annex II province-by-sector table against page images to fix OCR column alignment and FY53/54 housing denominator.",
       "priority": "P2",
-      "status": "OPEN",
+      "status": "NARROWED",
       "queue": "BACKLOG",
       "origin": "carried_from_pass257o4",
-      "access_blocker": "UN PDF 403 via direct link"
+      "access_blocker": null,
+      "access_note": "2026-10-29 full text 213635 chars via TinyFish; underlying table-image manual verification pending."
     },
     {
       "id": "LEAD-P257P-20",
@@ -413,6 +414,73 @@
       "queue": "BACKLOG",
       "origin": "new_record_specific",
       "access_blocker": null
+    },
+    {
+      "id": "LEAD-P257P-38",
+      "institution": "한국주택영단/재무부",
+      "target_original": "1954-09 정부 추경안 서울 UNKRA 주택건설 현지통화 인건비·자재비 배정",
+      "why": "A/2750 §70가 1954년 9월 추경 통과 기대를 명시, 실제 예산승인·지급 확인",
+      "priority": "P1",
+      "status": "OPEN",
+      "queue": "BACKLOG",
+      "origin": "new_record_specific",
+      "access_blocker": null
+    },
+    {
+      "id": "LEAD-P257P-39",
+      "institution": "한국은행·UNKRA",
+      "target_original": "1954-05-31 UNKRA counterpart fund 및 Aid Goods Collection Account 별도 계정 장부",
+      "why": "A/2750 §7(4) 두 계정 개설·수입·한국은행 채무축소 실제 집행 검증",
+      "priority": "P1",
+      "status": "OPEN",
+      "queue": "BACKLOG",
+      "origin": "new_record_specific",
+      "access_blocker": null
+    },
+    {
+      "id": "LEAD-P257P-40",
+      "institution": "UNKRA Small Business Loan Board",
+      "target_original": "1954-09-01 중소기업 대출승인 441500달러·7900만환 심의·지급원장",
+      "why": "A/2750 §45 승인액과 실제 수취·사업장·은행경로 대조",
+      "priority": "P1",
+      "status": "OPEN",
+      "queue": "BACKLOG",
+      "origin": "new_record_specific",
+      "access_blocker": null
+    },
+    {
+      "id": "LEAD-P257P-41",
+      "institution": "사회부/한미재단",
+      "target_original": "1953~1954 동래 재활센터 의수족 설비 납품·훈련인원 기록",
+      "why": "A/2750 §21 부분건물복구·300~350명 계획 수용능력과 실제 이용인원 구분",
+      "priority": "P1",
+      "status": "OPEN",
+      "queue": "BACKLOG",
+      "origin": "new_record_specific",
+      "access_blocker": null
+    },
+    {
+      "id": "LEAD-P257P-42",
+      "institution": "UNKRA/KCAC/ROK Combined Economic Board",
+      "target_original": "1953-09 재건사업 집행영역 재조정 합의·Combined Economic Board 의사록",
+      "why": "A/2750 서문 각주 3의 UNKRA 장기재건/KCAC 구호 집행권한·ROK 대표·Economic Coordinator 승인경로 확인",
+      "priority": "P1",
+      "status": "OPEN",
+      "queue": "BACKLOG",
+      "origin": "new_record_specific",
+      "access_blocker": null
+    },
+    {
+      "id": "LEAD-P257P-43",
+      "institution": "UN Agent General",
+      "target_original": "1954-10-12 A/2750 Annex I 1954-08-31 국가별 약정/수납 원표",
+      "why": "1954 828(IX) 납입 촉구가 실제 미수금 규모와 일치하는지 국가별 대조",
+      "priority": "P1",
+      "status": "OPEN",
+      "queue": "BACKLOG",
+      "origin": "new_record_specific",
+      "access_blocker": null
     }
-  ]
+  ],
+  "accessCorrection": "A/2750 source original retrieved; no longer count as inaccessible, keep annex numerical verification pending."
 }
