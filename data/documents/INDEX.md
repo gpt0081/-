@@ -155,3 +155,5 @@
 - 2026-10-29 pass249: `data/documents/pass-249-civic-rights-seoul.json` (법률원문 전사·공문서 색인·신문전사·서울시 사진목록; original_text_opened 구분).
 
 - pass249 정정: 법률587 본문 JS 미확보 original_text_opened=false; LE-00-29053(14쪽)·BA0084191(13쪽) 원면 추적.
+
+- pass249 UN Yearbook 1952 pp175~178 원문 전사 1건(4쪽 중복계수 금지), 국편 1952-10-21 신문 원문 전사 1건, 중앙선관위 1952 대선 통계 해설 2건. A/2187 원보고서 미열람.

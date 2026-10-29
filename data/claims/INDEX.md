@@ -118,3 +118,5 @@
 - 2026-10-29 pass249: `data/claims/pass-249-civic-rights-adversarial.json` (공민권 심사·불복·시정 메타데이터·노동 이행 검증).
 
 - pass249 1952 선거투표율·선거공정성(UNCURK 원문 대기)·경제부흥계획 기간 claim 추가.
+
+- pass249 UN 1952 Yearbook 86% vs NEC 74.6% 충돌·UNCURK 지방선거 이중평가·1952 원조금액 범위 검증 claim 6개 추가.

@@ -107,3 +107,5 @@
 - 2026-10-29 pass249: `data/events/pass-249-civil-rights-and-seoul.json` (사건 16건, 중앙 registry additive 통합).
 
 - pass249 추가 3사건: 1960-10-31 국무회의 정부안, 1961-02-10 특검 지침, 1952-04-25 지방선거.
+
+- pass249 1952 UNCURK/이승만 개헌·계엄·대선통계·피난민·구호 10개 sub-event 추가, 중앙 events.json 동기화.
