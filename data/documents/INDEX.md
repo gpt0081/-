@@ -184,3 +184,5 @@
 - 2026-10-29 Pass257L: `data/documents/pass-257l-un-committee-originals.json` UN A/2278 원보고서(심한 OCR 손상, 부분 판독) 및 A/2284 재정위원회 원보고서(주요 항목 판독) 2건. 원면 육안검증은 아직 미실시.
 
 - 2026-10-29 Pass257M: `data/documents/pass-257m-1953-mar-apr-public-economy.json` 동시대 원신문 전사 4건(김유택·이승만 담화, 민주신보 비판, 서울시 비상미 배급 지연).
+
+- 2026-10-29 Pass257N: `data/documents/pass-257n-1953-feb19-27-parliament-press.json` 1953-02-19/27 동시대 원신문 10건+AKS 후대 전기 2건. 법277호 제9·11조 표결 원기사 직접 열람.

@@ -151,3 +151,5 @@
 - 2026-10-29 Pass257L: `data/claims/pass-257l-un-finance-adversarial.json` 2건, UN 포로송환위원회 초기비용과 장래 미산정 비용, 덴마크 수정안과 인도 본회의 수정안 혼동 반증.
 
 - 2026-10-29 Pass257M: `data/claims/pass-257m-1953-currency-evidence-conflicts.json` 5건, 8500만 vs 8700만 외환상환 시제·분모, 신권 부족 배급지연, 통화개혁 상반 평가, 총재 후속조치 발언과 집행 구분.
+
+- 2026-10-29 Pass257N: `data/claims/pass-257n-parliament-votes-arithmetic-adversarial.json` 10개 반증, 91:0 절차표결/74:71·103:47 조항표결/별표2 5만환 산술충돌/권중돈 생몰충돌.

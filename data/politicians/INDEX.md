@@ -226,3 +226,5 @@
 - **Pass257K 국회·노동 행위자 심화**: 신익희 국회의장 1953-04-22 근로기준법안·05-15 전시근로동원법안 이송, 박술음 사회부장관 및 백두진 총리서리 04-14 노동조합법 시행령 제782호 서명. `data/politicians/pass-257k-labor-institution-actors.json`에 기록. 원송부/서명 이미지 미확보.
 
 - **Pass257M 경제정책 발언자 심화**: 김유택 1953-03-04 추가통화조치 부인, 이승만 8700만달러 상환예정, 백두진 8500만달러 청산완료 발언. `data/politicians/pass-257m-finance-public-claims.json`; 당사자 발언은 회계사실로 단정하지 않음.
+
+- **Pass257N 국회 의원 17명 실질 심화**: `data/politicians/pass-257n-1953-finance-legislators.json` 중앙 registry 동기화. 신규 후보 권중돈·엄병학·이종현(1949 장관과 identity 분리) 3명. 무기명표결 개인찬반 귀속 금지, 분파 표기 원문 보존. 권중돈 사망 1983/1985 CONFLICTED.

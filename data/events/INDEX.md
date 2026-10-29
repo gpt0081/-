@@ -136,3 +136,5 @@
 - 2026-10-29 Pass257L: `data/events/pass-257l-un-committee-finance-actions.json` UN 제1위원회 보고서 A/2278·제5위원회 재정심의 A/2284 2건 중앙 동기화.
 
 - 2026-10-29 Pass257M: `data/events/pass-257m-1953-mar-apr-economy-actions.json` 통화개혁 발표·외환상환 충돌·구호양곡 배급·언론 비판 4건 중앙 반영.
+
+- 2026-10-29 Pass257N: `data/events/pass-257n-1953-feb-finance-parliament-actions.json` 국회 긴급명령 절차표결·금융법 제9/11조 별도 수정표결·구호·치안·문화 등 13개 사건 중앙 동기화.
