@@ -228,3 +228,5 @@
 - 2026-10-30 Pass258C: `data/documents/pass-258c-1954-55-implementation.json` (existing treaty and FRUS IDs reused).
 
 - 2026-10-30 Pass258D: `data/documents/pass-258d-1955-56-exchange-nnsc.json` (1955 환율 270·700·500, NNSC 8월 사건, 비대통령 행위자·증거 불확실성).
+
+- `data/documents/pass-258e-1956-domestic-governance.json` (Pass258E, 2026-10-30; 기존 canonical FRUS 재사용, 1956 국내 국정 연결)

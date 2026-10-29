@@ -257,3 +257,5 @@
 
 - `data/politicians/pass-258b-1954-rhee-aid-proposal.json` (이승만 1954-06-09 원조통제 개편 제안; 기존 stable ID 재사용, 승격 없음)
 - `data/politicians/pass-258b-paik-rhee-ceb-1954.json` (백두진 CEB 대표 역할·이승만 1954 협상 및 귀속기업 원칙 발언, 기존 ID 재사용)
+
+- `data/politicians/pass-258e-1956-domestic-actors.json` (Pass258E, 2026-10-30; 기존 canonical FRUS 재사용, 1956 국내 국정 연결)

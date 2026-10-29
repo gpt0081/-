@@ -182,3 +182,5 @@
 - 2026-10-30 Pass258D: `data/events/pass-258d-1955-56-exchange-nnsc.json` (1955 환율 270·700·500, NNSC 8월 사건, 비대통령 행위자·증거 불확실성).
 
 - 2026-10-30 Pass258D canonical event 정정: 기존 Pass240·Pass239K2와 중복된 13건은 재사용·실질 보강으로 전환, 신규 하위사건 순증 10건. `data/research/audits/pass-258d-identity-document-dedupe.json` 참조.
+
+- `data/events/pass-258e-1956-domestic-governance.json` (Pass258E, 2026-10-30; 기존 canonical FRUS 재사용, 1956 국내 국정 연결)
