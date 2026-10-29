@@ -936,7 +936,7 @@
       "parentEventId": "evt-1952-pusan-political-crisis"
     },
     {
-      "id": "evt-p249-1952-0319-refugees",
+      "id": "evt-p249-1952-03-refugees",
       "name": "1952-03 전쟁피난민 약 261만8천 명 UNCURK 추계",
       "date": "1952-03",
       "domain": "사회·복지",
@@ -964,7 +964,15 @@
       "openQuestions": [
         "UNCURK A/2187 원문과 한국 정부·국회 원기록을 대조해 개인 발언·법적 권한·후대 평가 구분"
       ],
-      "parentEventId": "evt-1952-pusan-political-crisis"
+      "parentEventId": "evt-1952-pusan-political-crisis",
+      "correctionHistory": [
+        {
+          "date": "2026-10-29",
+          "oldId": "evt-p249-1952-0319-refugees",
+          "newId": "evt-p249-1952-03-refugees",
+          "reason": "월 단위 1952-03 추계에 임의의 19일을 ID에 부여한 오류"
+        }
+      ]
     },
     {
       "id": "evt-p249-1952-0731-relief",
@@ -994,6 +1002,361 @@
       "evidenceState": "CONTEMPORANEOUS_UN_YEARBOOK_SUMMARY_NOT_A2187_ORIGINAL",
       "openQuestions": [
         "UNCURK A/2187 원문과 한국 정부·국회 원기록을 대조해 개인 발언·법적 권한·후대 평가 구분"
+      ],
+      "parentEventId": "evt-1952-pusan-political-crisis"
+    },
+    {
+      "id": "evt-p249-1952-0523-meyer-authorize",
+      "name": "1952-05-23 이승만·Muccio 대화에서 재무장관 Meyer 협정 서명 승인 언급",
+      "date": "1952-05-23",
+      "domain": "경제·외교",
+      "sources": [
+        "DOC-P249-FRUS-135"
+      ],
+      "politicians": [
+        "president-rhee-syngman",
+        "pol-paik-too-chin"
+      ],
+      "institutions": [],
+      "confirmed": [
+        "이승만이 재무장관 Paek에 서명을 승인했다고 Muccio에게 말했다는 외교기록. 5/24 실제 서명과 구분"
+      ],
+      "actionRoles": {
+        "proposed_by": [
+          "이승만 대통령(대화상 승인 발언)"
+        ],
+        "decided_by": [],
+        "executed_by": [],
+        "opposed_by": [],
+        "legal_authority": [],
+        "observed_by": [
+          "Muccio"
+        ],
+        "later_finding": []
+      },
+      "evidenceState": "CONTEMPORANEOUS_US_DIPLOMATIC_SOURCE",
+      "openQuestions": [
+        "미국측 전문의 평가와 한국측 원의결·공문·당사자 기록을 대조할 것"
+      ],
+      "parentEventId": "evt-1952-pusan-political-crisis"
+    },
+    {
+      "id": "evt-p249-1952-0524-meyer-signed",
+      "name": "1952-05-24 한국-UNC 경제조정협정 체결",
+      "date": "1952-05-24",
+      "domain": "경제·재정·외교",
+      "sources": [
+        "DOC-P249-FRUS-137"
+      ],
+      "politicians": [
+        "pol-paik-too-chin"
+      ],
+      "institutions": [],
+      "confirmed": [
+        "Meyer 서한은 부산에서 경제조정협정 및 금융 각서 교환을 보고. TIAS2593 원서명본 미확보"
+      ],
+      "actionRoles": {
+        "proposed_by": [],
+        "decided_by": [
+          "대한민국 정부",
+          "UNC"
+        ],
+        "executed_by": [
+          "Meyer 사절단",
+          "대한민국 재무부"
+        ],
+        "opposed_by": [],
+        "legal_authority": [
+          "1952-05-24 경제조정협정"
+        ],
+        "observed_by": [],
+        "later_finding": []
+      },
+      "evidenceState": "CONTEMPORANEOUS_US_DIPLOMATIC_SOURCE",
+      "openQuestions": [
+        "미국측 전문의 평가와 한국측 원의결·공문·당사자 기록을 대조할 것"
+      ],
+      "parentEventId": "evt-1952-pusan-political-crisis"
+    },
+    {
+      "id": "evt-p249-1952-0524-cabinet-security",
+      "name": "1952-05-24 계엄 직전 내무부·치안인사 FRUS 편집주석",
+      "date": "1952-05-24",
+      "domain": "인사·치안",
+      "sources": [
+        "DOC-P249-FRUS-138"
+      ],
+      "politicians": [
+        "pol-lee-beom-seok"
+      ],
+      "institutions": [],
+      "confirmed": [
+        "FRUS 편집주석의 이범석 내무장관·홍범희 차관·윤경 경찰총수 임명 정보는 원인사발령 대조 전 metadata 단계"
+      ],
+      "actionRoles": {
+        "proposed_by": [],
+        "decided_by": [
+          "대한민국 정부"
+        ],
+        "executed_by": [],
+        "opposed_by": [],
+        "legal_authority": [],
+        "observed_by": [
+          "FRUS 편집자(후대)"
+        ],
+        "later_finding": []
+      },
+      "evidenceState": "CONTEMPORANEOUS_US_DIPLOMATIC_SOURCE",
+      "openQuestions": [
+        "미국측 전문의 평가와 한국측 원의결·공문·당사자 기록을 대조할 것"
+      ],
+      "parentEventId": "evt-1952-pusan-political-crisis"
+    },
+    {
+      "id": "evt-p249-1952-0527-unconsulted",
+      "name": "1952-05-27 Van Fleet 계엄 사전협의 부재 진술",
+      "date": "1952-05-27",
+      "domain": "안보·군정",
+      "sources": [
+        "DOC-P249-FRUS-144"
+      ],
+      "politicians": [
+        "president-rhee-syngman"
+      ],
+      "institutions": [],
+      "confirmed": [
+        "Van Fleet는 자신과 한국군 참모총장이 사전 협의받지 못했다고 보고. 한국군 지휘부 전체 의견으로 일반화 금지"
+      ],
+      "actionRoles": {
+        "proposed_by": [],
+        "decided_by": [],
+        "executed_by": [],
+        "opposed_by": [],
+        "legal_authority": [],
+        "observed_by": [
+          "Van Fleet",
+          "Lightner"
+        ],
+        "later_finding": []
+      },
+      "evidenceState": "CONTEMPORANEOUS_US_DIPLOMATIC_SOURCE",
+      "openQuestions": [
+        "미국측 전문의 평가와 한국측 원의결·공문·당사자 기록을 대조할 것"
+      ],
+      "parentEventId": "evt-1952-pusan-political-crisis"
+    },
+    {
+      "id": "evt-p249-1952-0528-us-pressure",
+      "name": "1952-05-28 Lightner UNCURK·미국 강경조치 제안",
+      "date": "1952-05-28",
+      "domain": "외교·헌정",
+      "sources": [
+        "DOC-P249-FRUS-147"
+      ],
+      "politicians": [
+        "president-rhee-syngman"
+      ],
+      "institutions": [],
+      "confirmed": [
+        "Lightner가 최후통첩·의원 보호 등 강경안 제시. 미국 정부의 최종 결정이나 실행이 아님"
+      ],
+      "actionRoles": {
+        "proposed_by": [
+          "Lightner"
+        ],
+        "decided_by": [],
+        "executed_by": [],
+        "opposed_by": [],
+        "legal_authority": [],
+        "observed_by": [
+          "미국 국무부"
+        ],
+        "later_finding": []
+      },
+      "evidenceState": "CONTEMPORANEOUS_US_DIPLOMATIC_SOURCE",
+      "openQuestions": [
+        "미국측 전문의 평가와 한국측 원의결·공문·당사자 기록을 대조할 것"
+      ],
+      "parentEventId": "evt-1952-pusan-political-crisis"
+    },
+    {
+      "id": "evt-p249-1952-0529-us-aid-concern",
+      "name": "1952-05-29 미국무부 정치위기의 UNKRA·경제원조 영향 우려",
+      "date": "1952-05-29",
+      "domain": "경제·원조·외교",
+      "sources": [
+        "DOC-P249-FRUS-148"
+      ],
+      "politicians": [
+        "president-rhee-syngman"
+      ],
+      "institutions": [],
+      "confirmed": [
+        "미국무부는 UNKRA 자금·인력·Meyer 지급·한국군 원조에 악영향 가능성을 예측. 실제 예산 삭감 확정과 구분"
+      ],
+      "actionRoles": {
+        "proposed_by": [],
+        "decided_by": [],
+        "executed_by": [],
+        "opposed_by": [],
+        "legal_authority": [],
+        "observed_by": [
+          "미국 국무부"
+        ],
+        "later_finding": []
+      },
+      "evidenceState": "CONTEMPORANEOUS_US_DIPLOMATIC_SOURCE",
+      "openQuestions": [
+        "미국측 전문의 평가와 한국측 원의결·공문·당사자 기록을 대조할 것"
+      ],
+      "parentEventId": "evt-1952-pusan-political-crisis"
+    },
+    {
+      "id": "evt-p249-1952-0530-us-demand",
+      "name": "1952-05-30 Lightner의 이승만 대통령 계엄해제 요구 전달",
+      "date": "1952-05-30",
+      "domain": "외교·헌정",
+      "sources": [
+        "DOC-P249-FRUS-149"
+      ],
+      "politicians": [
+        "president-rhee-syngman"
+      ],
+      "institutions": [],
+      "confirmed": [
+        "Lightner가 15시 서한 전달. 이승만은 해제하겠다고 말했으나 시한은 불명확, 후속 해제 시점 별도 확인"
+      ],
+      "actionRoles": {
+        "proposed_by": [
+          "미국 정부"
+        ],
+        "decided_by": [],
+        "executed_by": [
+          "Lightner"
+        ],
+        "opposed_by": [],
+        "legal_authority": [],
+        "observed_by": [
+          "이승만 대통령"
+        ],
+        "later_finding": []
+      },
+      "evidenceState": "CONTEMPORANEOUS_US_DIPLOMATIC_SOURCE",
+      "openQuestions": [
+        "미국측 전문의 평가와 한국측 원의결·공문·당사자 기록을 대조할 것"
+      ],
+      "parentEventId": "evt-1952-pusan-political-crisis"
+    },
+    {
+      "id": "evt-p249-1952-0530-us-policy-divergence",
+      "name": "1952-05-30 Lightner 강경제안 vs 국무부 타협 우선",
+      "date": "1952-05-30",
+      "domain": "외교·정책결정",
+      "sources": [
+        "DOC-P249-FRUS-150",
+        "DOC-P249-FRUS-151"
+      ],
+      "politicians": [
+        "president-rhee-syngman"
+      ],
+      "institutions": [],
+      "confirmed": [
+        "미국 현지 대사관은 강경조치 제안, 워싱턴은 UNCURK 타협 우선. 미국 입장도 단일하지 않음"
+      ],
+      "actionRoles": {
+        "proposed_by": [
+          "Lightner(강경안)",
+          "미 국무부(타협안)"
+        ],
+        "decided_by": [
+          "미 국무부(현 단계 지침)"
+        ],
+        "executed_by": [],
+        "opposed_by": [],
+        "legal_authority": [],
+        "observed_by": [],
+        "later_finding": []
+      },
+      "evidenceState": "CONTEMPORANEOUS_US_DIPLOMATIC_SOURCE",
+      "openQuestions": [
+        "미국측 전문의 평가와 한국측 원의결·공문·당사자 기록을 대조할 것"
+      ],
+      "parentEventId": "evt-1952-pusan-political-crisis"
+    },
+    {
+      "id": "evt-p249-1952-0531-clark-contingency",
+      "name": "1952-05-31 Clark의 정치위기·임시정부 가능성 시나리오",
+      "date": "1952-05-31",
+      "domain": "안보·외교",
+      "sources": [
+        "DOC-P249-FRUS-153",
+        "DOC-P249-FRUS-154",
+        "DOC-P249-FRUS-155"
+      ],
+      "politicians": [
+        "president-rhee-syngman"
+      ],
+      "institutions": [],
+      "confirmed": [
+        "Clark는 이승만 설득 우선, 최악 시나리오로 임시정부 가능성 검토. Acheson은 즉시 최후통첩 승인하지 않음. 실제 실행 아님"
+      ],
+      "actionRoles": {
+        "proposed_by": [
+          "Clark(조건부 계획)",
+          "Lightner(강경안)"
+        ],
+        "decided_by": [
+          "미 국무부(최후통첩 유보)"
+        ],
+        "executed_by": [],
+        "opposed_by": [],
+        "legal_authority": [],
+        "observed_by": [],
+        "later_finding": []
+      },
+      "evidenceState": "CONTEMPORANEOUS_US_DIPLOMATIC_SOURCE",
+      "openQuestions": [
+        "미국측 전문의 평가와 한국측 원의결·공문·당사자 기록을 대조할 것"
+      ],
+      "parentEventId": "evt-1952-pusan-political-crisis"
+    },
+    {
+      "id": "evt-p249-1952-0526-pow-screening",
+      "name": "1952-05-26 포로 재심사 협상·강압 우려 미국 내부 검토",
+      "date": "1952-05-26",
+      "domain": "전쟁·포로·외교",
+      "sources": [
+        "DOC-P249-FRUS-139",
+        "DOC-P249-FRUS-140",
+        "DOC-P249-FRUS-141",
+        "DOC-P249-FRUS-142",
+        "DOC-P249-FRUS-145",
+        "DOC-P249-FRUS-146",
+        "DOC-P249-FRUS-152"
+      ],
+      "politicians": [],
+      "institutions": [],
+      "confirmed": [
+        "미 합참·국무부는 반공·친공 수용소 양측의 포로 의사표시 강압 가능성과 인도·영국 중재안을 논의. 초안·논의·실제 UNC 조치 분리"
+      ],
+      "actionRoles": {
+        "proposed_by": [
+          "미국 합참",
+          "영국·인도 외교라인"
+        ],
+        "decided_by": [],
+        "executed_by": [],
+        "opposed_by": [],
+        "legal_authority": [],
+        "observed_by": [
+          "미 국무부",
+          "UNC"
+        ],
+        "later_finding": []
+      },
+      "evidenceState": "CONTEMPORANEOUS_US_DIPLOMATIC_SOURCE",
+      "openQuestions": [
+        "미국측 전문의 평가와 한국측 원의결·공문·당사자 기록을 대조할 것"
       ],
       "parentEventId": "evt-1952-pusan-political-crisis"
     }

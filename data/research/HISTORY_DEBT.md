@@ -1226,3 +1226,12 @@
 - HD-P249-1952-CONSPIRACY | CONFLICTED: 이승만 5/31 공산연계 음모 주장과 UNCURK·미영불 8/1 재판관찰자의 입증부족 평가. 당시 원판결문·국제관찰자 원기록 미확보. 당사자 주장/관찰자 판단 분리.
 - HD-P249-1952-AID | OPEN: UN Yearbook p178 1952-07-31 $195,855,562와 약 $350m 별도 추산의 회계범위 중복 확인 필요. 피난민 2,618,000명(1952-03) 산정표 필요.
 - 주간 전수조사 미실시(목요일), last_full_review 변경 없음.
+
+
+### pass249 1952 FRUS 실증부채(2026-10-29)
+- HD-P249-MEYER | NARROWED: FRUS d135 5/23 이승만의 백두진 서명승인 언급 + d137 5/24 협정서명 보고. TIAS2593 원서명본·재무부 위임장·이후 외환집행원부 미확보.
+- HD-P249-MARTIAL-CONSULT | NARROWED: FRUS d144 Van Fleet·한국군 참모총장 사전협의 부재 진술. 국무회의 선포권·개별 군명령·대통령 승인 문서 미확보.
+- HD-P249-US-POLICY | NARROWED: d147·d151·d153·d155 미국 현지 강경제안 vs 워싱턴 타협우선·최후통첩 유보. 6/2 Clark 회담 실제 이행 대기.
+- HD-P249-UNKRA-RISK | OPEN: FRUS d148은 UNKRA 기부·인력·Meyer 지급 감소 우려 전망일 뿐 실제 삭감 미확인. UNKRA 회계연보 대기.
+- HD-P249-POW-SCREEN | OPEN: FRUS d140·d145 미측 친공/반공 수용소 강압 가능성 우려, 실제 개별 포로 심사·국제적십자 관찰 기록 대기.
+- 주간 전수조사 미실시(목요일), last_full_review 변경 없음.
