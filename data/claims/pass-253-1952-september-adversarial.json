@@ -266,19 +266,26 @@
     {
       "id": "CLM-P253-jin-date",
       "statement": "진헌식은 9/18 이전 내무장관이 아니었다",
-      "status": "CONFLICTED",
-      "supporting_evidence": [
+      "status": "CONTRADICTED",
+      "supporting_evidence": [],
+      "contradicting_or_limiting_evidence": [
+        "DOC-P239G-MOIS",
         "DOC-P253-DH-0904-0050"
       ],
-      "contradicting_or_limiting_evidence": [
-        "기존 registry 1952-09-18 역할 표기"
-      ],
-      "adversarial_route": "9/4 동시대 발언 vs 인사관보 효력일",
+      "adversarial_route": "행정안전부 역대 내무장관 공식 재임 1952-08-29~1953-09-09와 9/4 조선일보 동시대 발언이 일치. 기존 registry 9/18 표기는 관찰 날짜였으며 임명일이 아니다.",
       "insufficient_evidence": [
-        "8/29~9/18 관보 인사발령"
+        "인사 관보 원면 미확보, 공식 부처 연혁과 동시대 보도는 일치"
       ],
       "adversarial_search_performed": true,
-      "review_date": "2026-10-29"
+      "review_date": "2026-10-29",
+      "correction_history": [
+        {
+          "date": "2026-10-29",
+          "from": "CONFLICTED",
+          "to": "CONTRADICTED",
+          "reason": "9/18은 registry의 관찰시점이지 취임일이라는 명제의 원자료가 아니었음. MOIS 공식 재임 시작 8/29 확인."
+        }
+      ]
     }
   ]
 }

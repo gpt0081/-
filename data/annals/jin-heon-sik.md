@@ -9,3 +9,7 @@ Stable ID `cand-1952-sep-interior-jin-heon-sik`. Jin Heon-sik. 한자 陳憲植/
 자료: https://www.mois.go.kr/mns/sub/a02/MinistryofHomeAffairs/screen.do ; https://www.law.go.kr/LSW/lsRvsDocListP.do?chrClsCd=010102&lsId=003153&lsRvsGubun=all
 
 Open leads: LEAD-P239G-05~08,12,14. Debt: HD-P239G-804-CHAIN. 서명 원본·내무부 기안·치안국 예산집행 미확보.
+
+## 1952-09-04 서울시민 귀환 행정 발표 (pass253)
+- 진헌식 내무장관은 서울시민 여행·영구귀환을 구별 시차로 허가하되 경찰국장과 CAC 여행허가를 거치는 절차를 발표했다고 조선일보 9/6 보도(국편 DOC-P253-DH-0904-0050). 9/8 중구부터 10/18 영등포까지의 입경 계획은 발표 사실이지 허가증 발급 실적이 아니다.
+- 날짜 검증: 행정안전부 역대장관 명부 재임 시작 1952-08-29와 9/4 장관 발언이 일치한다. 중앙 registry의 기존 '1952-09-18 내무부장관'은 관찰일 표기이며 9/18 임명 주장으로 취급하지 않는다. 임명관보 원면은 OPEN(LEAD-P253-36).

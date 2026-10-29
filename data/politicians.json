@@ -992,7 +992,8 @@
         "evt-p248-1960-0729-results",
         "evt-p252-credit-split",
         "evt-p252b-tungsten-minister-answers",
-        "evt-p252c-fx-tax"
+        "evt-p252c-fx-tax",
+        "evt-p253-tungsten"
       ],
       "researchNotes": "1\n9\n5\n2\n~\n5\n3\n \n재\n정\n·\n원\n조\n·\n휴\n전\n외\n교\n \n교\n차\n \n행\n위\n자\n.\n \n1\n9\n5\n3\n-\n0\n8\n-\n0\n6\n \n경\n제\n·\n군\n사\n원\n조\n \n회\n의\n에\n서\n \n통\n합\n \n경\n제\n기\n구\n를\n \n통\n한\n \n원\n조\n \n프\n로\n그\n램\n \nM\nO\nU\n의\n \n미\n국\n \n최\n종\n승\n인\n을\n \n직\n접\n \n요\n청\n한\n \n기\n록\n과\n \n덜\n레\n스\n \n회\n담\n \n참\n여\n가\n \n확\n인\n되\n어\n \nV\nE\nR\nI\nF\nI\nE\nD\n로\n \n승\n격\n.\n \nC\nE\nB\n/\n환\n율\n/\n재\n건\n원\n조\n \n한\n국\n측\n \n문\n서\n \n확\n보\n \n후\n \nA\nN\nN\nA\nL\nS\n_\nA\nC\nT\nI\nV\nE\n \n검\n토\n.\n2026-10-28 pass233 정정: 직접 출처 없이 연결된 event edge 제거, 인물 candidate 연구 단서는 보존\npass234B: 1952-12-12 부흥부 신설 구상·유엔 원화대여금 4580억원 주장·11/13 현금교환 요청 공한, 12/15 450만석 양곡수입 합의 주장",
       "pass232Overlay": "data/politicians/pass-232-1952-september-actors.json",
@@ -1017,7 +1018,8 @@
         "data/politicians/pass-239i-postarmistice-actors.json",
         "data/politicians/pass-239l-1956-actors.json",
         "data/politicians/pass-239m3-1954-economic-parliament-actors.json",
-        "data/politicians/pass-240-1955-policy-actors.json"
+        "data/politicians/pass-240-1955-policy-actors.json",
+        "data/research/politicians/pass-253-1952-september-actor-profiles.json"
       ],
       "evidenceCoverage": [
         "DOC-P234B-NIKH-1212-0040",
@@ -1053,9 +1055,10 @@
         "DOC-P248-NIKH",
         "DOC-P252-0821-0050",
         "DOC-P231-KOR-0826",
-        "DOC-P252C-0831-0060"
+        "DOC-P252C-0831-0060",
+        "DOC-P253-DH-0906-0030"
       ],
-      "lastResearchPass": "252C",
+      "lastResearchPass": 253,
       "evidenceFile": "data/evidence/paik-too-chin-1953.json",
       "annalsFile": "data/annals/paik-too-chin.md",
       "promotionHistory": [
@@ -1101,7 +1104,8 @@
       },
       "openLeads": [
         "LEAD-P239L-08",
-        "LEAD-P239M3-IDENTITY-pol-paik-too-chin"
+        "LEAD-P239M3-IDENTITY-pol-paik-too-chin",
+        "LEAD-P253-22"
       ],
       "recentResearchPass240": {
         "date": "2026-10-29",
@@ -1120,7 +1124,18 @@
           "evt-p240-07"
         ],
         "openLead": "한국 인사관보·원발신·원회의록으로 경제조정대표, 원조증액·산업투자 요청 검증"
-      }
+      },
+      "rolesByPeriod": [
+        {
+          "date": "1952-09-06",
+          "role": "재무부장관",
+          "actionType": "중석불 특위 출석요구 불응 보도; 8/26 본회의 답변과 구분",
+          "evidence": [
+            "DOC-P253-DH-0906-0030"
+          ],
+          "attribution": "당시 보도·문서에 적힌 본인 행위만 귀속"
+        }
+      ]
     },
     {
       "id": "pol-pyun-yong-tae",
@@ -2436,7 +2451,8 @@
         "evt-p239g-1953-804-police-branches",
         "evt-p239g-1953-804-police-supply",
         "evt-p239g-1953-804-repeal378",
-        "evt-p252b-cabinet-reshuffle"
+        "evt-p252b-cabinet-reshuffle",
+        "evt-p253-seoul-entry"
       ],
       "evidenceFile": "data/politicians/pass-232-1952-september-actors.json",
       "openLeadsFile": "data/research/leads/pass-232-20261028-next-lead-queue.json",
@@ -2457,7 +2473,8 @@
         "DOC-P239D-NIKH-0618-0040",
         "DOC-P239G-MOIS",
         "DOC-P239G-804",
-        "DOC-P252B-0829-0030"
+        "DOC-P252B-0829-0030",
+        "DOC-P253-DH-0904-0050"
       ],
       "researchNotes": "pass234B: 1952-12-11 내무장관으로 대통령 12/9 담화의 반정부자 정의 해석·가정부 음모 주장",
       "researchRefs": [
@@ -2466,11 +2483,26 @@
         "data/annals/1953-feb3-7-yalta-unkra-welfare.md",
         "data/annals/1953-march-financial-law-cabinet-party.md",
         "data/politicians/pass-239d-actors.json",
-        "data/politicians/pass-239g-actors.json"
+        "data/politicians/pass-239g-actors.json",
+        "data/research/politicians/pass-253-1952-september-actor-profiles.json"
       ],
       "promotionReason": "기존 VERIFIED + 행안부 공식 재임일 및 1953-07-06 경찰·소방 직제 변경의 시기상 책임기관 분리, 독립 실록 개설. 원부서 미확인",
       "annalsFile": "data/annals/jin-heon-sik.md",
-      "lastResearchPass": "252B"
+      "lastResearchPass": 253,
+      "rolesByPeriod": [
+        {
+          "date": "1952-09-04",
+          "role": "내무부장관",
+          "actionType": "서울 구별 입경허가 일정 발표",
+          "evidence": [
+            "DOC-P253-DH-0904-0050"
+          ],
+          "attribution": "당시 보도·문서에 적힌 본인 행위만 귀속"
+        }
+      ],
+      "openLeads": [
+        "LEAD-P253-36"
+      ]
     },
     {
       "id": "cand-1952-sep-police-mun-bong-je",
@@ -2523,7 +2555,8 @@
         "evt-p239g-1953-798-delayed",
         "evt-p239i-13",
         "evt-p252b-cabinet-reshuffle",
-        "evt-p252c-land-cash"
+        "evt-p252c-land-cash",
+        "evt-p253-land"
       ],
       "evidenceFile": "data/politicians/pass-232-1952-september-actors.json",
       "openLeadsFile": "data/research/leads/pass-232-20261028-next-lead-queue.json",
@@ -2544,9 +2577,10 @@
         "data/politicians/pass-239e-actors.json",
         "data/politicians/pass-239g-actors.json",
         "data/politicians/pass-239h-july1953-actors.json",
-        "data/politicians/pass-239i-postarmistice-actors.json"
+        "data/politicians/pass-239i-postarmistice-actors.json",
+        "data/research/politicians/pass-253-1952-september-actor-profiles.json"
       ],
-      "lastResearchPass": "252C",
+      "lastResearchPass": 253,
       "evidenceCoverage": [
         "DOC-P238-KOR-05_12_0030",
         "DOC-P239-NIKH-05_26_0090",
@@ -2559,10 +2593,25 @@
         "DOC-P239H-NARA-CABINET1953",
         "DOC-P239I-LAND-0627",
         "DOC-P252B-0829-0030",
-        "DOC-P252C-0831-0050"
+        "DOC-P252C-0831-0050",
+        "DOC-P253-DH-0906-0040"
       ],
       "promotionReason": "기존 동시대 농정 6개 사건 + AKS 생몰·장관 재임 + 법제처 1953 농림 직제 확인; 개인별 실록 개설. 법령 기안 귀속은 미확인",
-      "annalsFile": "data/annals/shin-jung-mok.md"
+      "annalsFile": "data/annals/shin-jung-mok.md",
+      "rolesByPeriod": [
+        {
+          "date": "1952-09-06",
+          "role": "농림부장관",
+          "actionType": "농지 현금상환 논의 47만7000석 보전 우려 답변",
+          "evidence": [
+            "DOC-P253-DH-0906-0040"
+          ],
+          "attribution": "당시 보도·문서에 적힌 본인 행위만 귀속"
+        }
+      ],
+      "openLeads": [
+        "LEAD-P253-01"
+      ]
     },
     {
       "id": "cand-1952-cabinet-lee-kyo-seon",
@@ -3673,10 +3722,12 @@
       "connections": [
         "evt-p233-add-lee-gap-seong-nomination",
         "evt-p251-1952-0805-vice-election",
-        "evt-p251-1952-0130-assembly-committees"
+        "evt-p251-1952-0130-assembly-committees",
+        "evt-p253-party-merger"
       ],
       "researchRefs": [
-        "data/politicians/pass-233-addendum-1952-domestic-actors.json"
+        "data/politicians/pass-233-addendum-1952-domestic-actors.json",
+        "data/research/politicians/pass-253-1952-september-actor-profiles.json"
       ],
       "lifespan": {
         "born": "1886",
@@ -3686,12 +3737,14 @@
       "evidenceCoverage": {
         "documentIds": [
           "DOC-P251-NEC-PRES",
-          "DOC-P251-AKS-E0043484"
+          "DOC-P251-AKS-E0043484",
+          "DOC-P253-DH-0906-0020"
         ],
         "level": "NEC_OFFICIAL_RETROSPECTIVE_PLUS_AKS_SECONDARY"
       },
       "openLeads": [
-        "LEAD-P251-32"
+        "LEAD-P251-32",
+        "LEAD-P253-19"
       ],
       "roleHistory": [
         {
@@ -3718,7 +3771,19 @@
       "researchMaturity": "IDENTIFIED",
       "evidenceDocumentIds": [
         "DOC-P251-COMMITTEES-19520130"
-      ]
+      ],
+      "rolesByPeriod": [
+        {
+          "date": "1952-09-06",
+          "role": "원내자유당 합동파 상무위원장",
+          "actionType": "원내외 자유당 합당교섭 전권대표로 지명",
+          "evidence": [
+            "DOC-P253-DH-0906-0020"
+          ],
+          "attribution": "당시 보도·문서에 적힌 본인 행위만 귀속"
+        }
+      ],
+      "lastResearchPass": 253
     },
     {
       "id": "cand-1952-nov-bae-eun-hui",
@@ -3735,11 +3800,13 @@
       ],
       "connections": [
         "evt-p233-add-lee-gap-seong-nomination",
-        "evt-p252c-torture-denial"
+        "evt-p252c-torture-denial",
+        "evt-p253-party-merger"
       ],
       "researchRefs": [
         "data/politicians/pass-233-addendum-1952-domestic-actors.json",
-        "data/politicians/pass-239-actors.json"
+        "data/politicians/pass-239-actors.json",
+        "data/research/politicians/pass-253-1952-september-actor-profiles.json"
       ],
       "lifespan": {
         "born": null,
@@ -3748,9 +3815,24 @@
       },
       "evidenceCoverage": [
         "DOC-P239-NIKH-05_26_0070",
-        "DOC-P252C-0831-0090"
+        "DOC-P252C-0831-0090",
+        "DOC-P253-DH-0906-0020"
       ],
-      "lastResearchPass": "252C"
+      "lastResearchPass": 253,
+      "rolesByPeriod": [
+        {
+          "date": "1952-09-06",
+          "role": "원내자유당 합동파",
+          "actionType": "상무위 합당교섭 주도자로 신문 보도",
+          "evidence": [
+            "DOC-P253-DH-0906-0020"
+          ],
+          "attribution": "당시 보도·문서에 적힌 본인 행위만 귀속"
+        }
+      ],
+      "openLeads": [
+        "LEAD-P253-19"
+      ]
     },
     {
       "id": "cand-1952-dec-lee-byeong-ho",
@@ -4178,23 +4260,39 @@
       "backbone": false,
       "connections": [
         "evt-p235-assembly-caucus",
-        "evt-p235e-assembly-election-results"
+        "evt-p235e-assembly-election-results",
+        "evt-p253-land"
       ],
       "evidenceCoverage": [
         "DOC-P235-NIKH-01_20_0040",
-        "DOC-P235E-NIKH-02_01_0020"
+        "DOC-P235E-NIKH-02_01_0020",
+        "DOC-P253-DH-0906-0040"
       ],
       "researchRefs": [
         "data/politicians/pass-235-1953-assembly-cabinet-actors.json",
-        "data/politicians/pass-235-addendum-e-committee-chairs.json"
+        "data/politicians/pass-235-addendum-e-committee-chairs.json",
+        "data/research/politicians/pass-253-1952-september-actor-profiles.json"
       ],
       "openLeads": [
         "LEAD-P235-009",
-        "LEAD-P235-010"
+        "LEAD-P235-010",
+        "LEAD-P253-01"
       ],
       "historyDebt": [
         "HD-P235-ASSEMBLY-RESULT"
-      ]
+      ],
+      "rolesByPeriod": [
+        {
+          "date": "1952-09-06",
+          "role": "국회의원 자유당 잔류파(동시대 보도)",
+          "actionType": "농지개혁법 개정안 대정부 질의",
+          "evidence": [
+            "DOC-P253-DH-0906-0040"
+          ],
+          "attribution": "당시 보도·문서에 적힌 본인 행위만 귀속"
+        }
+      ],
+      "lastResearchPass": 253
     },
     {
       "id": "cand-p235-jung-il-hyung",
@@ -4485,23 +4583,39 @@
       "backbone": false,
       "connections": [
         "evt-p235-assembly-caucus",
-        "evt-p235e-assembly-election-results"
+        "evt-p235e-assembly-election-results",
+        "evt-p253-land"
       ],
       "evidenceCoverage": [
         "DOC-P235-NIKH-01_20_0040",
-        "DOC-P235E-NIKH-02_01_0020"
+        "DOC-P235E-NIKH-02_01_0020",
+        "DOC-P253-DH-0906-0040"
       ],
       "researchRefs": [
         "data/politicians/pass-235-1953-assembly-cabinet-actors.json",
-        "data/politicians/pass-235-addendum-e-committee-chairs.json"
+        "data/politicians/pass-235-addendum-e-committee-chairs.json",
+        "data/research/politicians/pass-253-1952-september-actor-profiles.json"
       ],
       "openLeads": [
         "LEAD-P235-009",
-        "LEAD-P235-010"
+        "LEAD-P235-010",
+        "LEAD-P253-01"
       ],
       "historyDebt": [
         "HD-P235-ASSEMBLY-RESULT"
-      ]
+      ],
+      "rolesByPeriod": [
+        {
+          "date": "1952-09-06",
+          "role": "국회 농림위원장",
+          "actionType": "농지개혁법 5년 현금상환안 심사보고",
+          "evidence": [
+            "DOC-P253-DH-0906-0040"
+          ],
+          "attribution": "당시 보도·문서에 적힌 본인 행위만 귀속"
+        }
+      ],
+      "lastResearchPass": 253
     },
     {
       "id": "cand-p235-kim-ui-jun",
@@ -5265,24 +5379,40 @@
         "evt-p235i-chang-party-dispute",
         "evt-p239m-06",
         "evt-p239m3-02",
-        "evt-p239m3-06"
+        "evt-p239m3-06",
+        "evt-p253-party-merger"
       ],
       "evidenceCoverage": [
         "DOC-P235I-NIKH-03_05_0030",
-        "DOC-P239-NIKH-05_26_0070"
+        "DOC-P239-NIKH-05_26_0070",
+        "DOC-P253-DH-0906-0020"
       ],
       "researchRefs": [
         "data/politicians/pass-235-addendum-i-bok-party.json",
         "data/politicians/pass-239-actors.json",
         "data/politicians/pass-239m-1954-constitutional-actors.json",
-        "data/politicians/pass-239m3-1954-economic-parliament-actors.json"
+        "data/politicians/pass-239m3-1954-economic-parliament-actors.json",
+        "data/research/politicians/pass-253-1952-september-actor-profiles.json"
       ],
       "openLeads": [
         "LEAD-P235I-004",
         "LEAD-P235I-006",
         "LEAD-P239M-IDENTITY-cand-p235i-park-yeong-chul",
-        "LEAD-P239M3-IDENTITY-cand-p235i-park-yeong-chul"
-      ]
+        "LEAD-P239M3-IDENTITY-cand-p235i-park-yeong-chul",
+        "LEAD-P253-19"
+      ],
+      "rolesByPeriod": [
+        {
+          "date": "1952-09-06",
+          "role": "원내자유당 의원",
+          "actionType": "원내외 자유당 합당교섭 전권대표로 지명",
+          "evidence": [
+            "DOC-P253-DH-0906-0020"
+          ],
+          "attribution": "당시 보도·문서에 적힌 본인 행위만 귀속"
+        }
+      ],
+      "lastResearchPass": 253
     },
     {
       "id": "cand-p235i-jo-ju-yeong",
@@ -5679,16 +5809,27 @@
           "date": "1953-05-27",
           "office": "자유당 국회의원(충남 대덕), 과거 국방위원장이라는 보도",
           "actionType": "심장마비 사망 보도; 생년은 기사상 31세만, 출생일 미확인"
+        },
+        {
+          "date": "1952-09-04",
+          "role": "국회 국방위원장",
+          "actionType": "우방국 군사시찰단 결의·대통령 협의예정 설명",
+          "evidence": [
+            "DOC-P253-DH-0904-0040"
+          ],
+          "attribution": "당시 보도·문서에 적힌 본인 행위만 귀속"
         }
       ],
       "eventIds": [
         "evt-p238c-1953-05-27-kim-death"
       ],
       "evidenceCoverage": [
-        "DOC-P238-KOR-05_27_0060"
+        "DOC-P238-KOR-05_27_0060",
+        "DOC-P253-DH-0904-0040"
       ],
       "openLeads": [
-        "LEAD-P238C-010"
+        "LEAD-P238C-010",
+        "LEAD-P253-12"
       ],
       "historyDebt": [
         "original official roster/stenogram pending"
@@ -5697,13 +5838,15 @@
       "promotionReason": "Contemporary dated original press transcription with name and institutional role; official personnel register still needed",
       "backbone": false,
       "connections": [
-        "evt-p238c-1953-05-27-kim-death"
+        "evt-p238c-1953-05-27-kim-death",
+        "evt-p253-military-delegation"
       ],
       "researchRefs": [
         "data/politicians/pass-238c-korean-actors.json",
-        "data/annals/1953-may8-25-armistice-fiscal-agriculture.md"
+        "data/annals/1953-may8-25-armistice-fiscal-agriculture.md",
+        "data/research/politicians/pass-253-1952-september-actor-profiles.json"
       ],
-      "lastResearchPass": 238,
+      "lastResearchPass": 253,
       "partyAffiliationEvidence": "1953-05-29 연합신문 contemporary report, official party roster pending",
       "evidenceFile": null,
       "annalsFile": null
@@ -6520,20 +6663,32 @@
           "evidence": [
             "DOC-P239E-NIKH-0625-0070"
           ]
+        },
+        {
+          "date": "1952-09-04",
+          "role": "서울특별시장",
+          "actionType": "식량·연료·수도 증급 구상 및 부임 보도",
+          "evidence": [
+            "DOC-P253-DH-0904-0080"
+          ],
+          "attribution": "당시 보도·문서에 적힌 본인 행위만 귀속"
         }
       ],
       "connections": [
         "evt-p239e-rally-officials",
         "evt-p252-police-decree",
-        "evt-p252b-cabinet-reshuffle"
+        "evt-p252b-cabinet-reshuffle",
+        "evt-p253-seoul-rebuild"
       ],
       "evidenceCoverage": [
         "DOC-P239E-NIKH-0625-0070",
         "DOC-P252-0825-0040",
-        "DOC-P252B-0829-0030"
+        "DOC-P252B-0829-0030",
+        "DOC-P253-DH-0904-0080"
       ],
       "openLeads": [
-        "서울시 행사문서·시장 임명원부"
+        "서울시 행사문서·시장 임명원부",
+        "LEAD-P253-10"
       ],
       "historyDebt": [
         "HD-P239E-SHIN-QUOTE",
@@ -6541,9 +6696,10 @@
       ],
       "identity_note": "Press contemporary only; official roster, birth/death, aliases pending.",
       "researchRefs": [
-        "data/politicians/pass-239e-actors.json"
+        "data/politicians/pass-239e-actors.json",
+        "data/research/politicians/pass-253-1952-september-actor-profiles.json"
       ],
-      "lastResearchPass": "252B"
+      "lastResearchPass": 253
     },
     {
       "id": "cand-p239e-gal-hong-gi",
@@ -13424,6 +13580,186 @@
       "historyDebt": [
         "HD-P252C-TORTURE"
       ]
+    },
+    {
+      "id": "cand-p253-kwak-ui-yeong",
+      "name": "곽의영",
+      "aliases": [
+        "郭義榮",
+        "Kwak Ui-yeong"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "원호적·국회 명부 미확보; 동일인 식별 임시"
+      },
+      "roles": [
+        "무소속 국회의원(당시 보도)"
+      ],
+      "rolesByPeriod": [
+        {
+          "date": "1952-09-06",
+          "role": "무소속 국회의원(당시 보도)",
+          "actionType": "농지개혁법 현금상환 관련 대정부 질의",
+          "evidence": [
+            "DOC-P253-DH-0906-0040"
+          ]
+        }
+      ],
+      "researchStatus": "DISCOVERED",
+      "researchMaturity": "DISCOVERED",
+      "backbone": false,
+      "connections": [
+        "evt-p253-land"
+      ],
+      "evidenceCoverage": [
+        "DOC-P253-DH-0906-0040"
+      ],
+      "openLeads": [
+        "LEAD-P253-01"
+      ],
+      "historyDebt": [
+        "1952 국회·정당 공식명부 및 생몰 원기록 미확보"
+      ],
+      "researchRefs": [
+        "data/research/politicians/pass-253-1952-september-actor-profiles.json"
+      ],
+      "lastResearchPass": 253
+    },
+    {
+      "id": "cand-p253-ji-yeon-hae",
+      "name": "지연해",
+      "aliases": [
+        "池連海",
+        "Ji Yeon-hae"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "원호적·국회 명부 미확보; 동일인 식별 임시"
+      },
+      "roles": [
+        "자유당 잔류파 국회의원(당시 보도)"
+      ],
+      "rolesByPeriod": [
+        {
+          "date": "1952-09-06",
+          "role": "자유당 잔류파 국회의원(당시 보도)",
+          "actionType": "농지개혁법 현금상환 관련 대정부 질의",
+          "evidence": [
+            "DOC-P253-DH-0906-0040"
+          ]
+        }
+      ],
+      "researchStatus": "DISCOVERED",
+      "researchMaturity": "DISCOVERED",
+      "backbone": false,
+      "connections": [
+        "evt-p253-land"
+      ],
+      "evidenceCoverage": [
+        "DOC-P253-DH-0906-0040"
+      ],
+      "openLeads": [
+        "LEAD-P253-01"
+      ],
+      "historyDebt": [
+        "1952 국회·정당 공식명부 및 생몰 원기록 미확보"
+      ],
+      "researchRefs": [
+        "data/research/politicians/pass-253-1952-september-actor-profiles.json"
+      ],
+      "lastResearchPass": 253
+    },
+    {
+      "id": "cand-p253-nam-song-hak",
+      "name": "남송학",
+      "aliases": [
+        "南松鶴",
+        "Nam Song-hak"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "원호적·국회 명부 미확보; 동일인 식별 임시"
+      },
+      "roles": [
+        "원내자유당 합동파 의원(당시 보도)"
+      ],
+      "rolesByPeriod": [
+        {
+          "date": "1952-09-06",
+          "role": "원내자유당 합동파 의원(당시 보도)",
+          "actionType": "원내외 자유당 합당교섭 전권대표 지명",
+          "evidence": [
+            "DOC-P253-DH-0906-0020"
+          ]
+        }
+      ],
+      "researchStatus": "DISCOVERED",
+      "researchMaturity": "DISCOVERED",
+      "backbone": false,
+      "connections": [
+        "evt-p253-party-merger"
+      ],
+      "evidenceCoverage": [
+        "DOC-P253-DH-0906-0020"
+      ],
+      "openLeads": [
+        "LEAD-P253-19"
+      ],
+      "historyDebt": [
+        "1952 국회·정당 공식명부 및 생몰 원기록 미확보"
+      ],
+      "researchRefs": [
+        "data/research/politicians/pass-253-1952-september-actor-profiles.json"
+      ],
+      "lastResearchPass": 253
+    },
+    {
+      "id": "cand-p253-seonwoo-gi-seong",
+      "name": "선우기성",
+      "aliases": [
+        "鮮于基聖",
+        "Seonwoo Gi-seong"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "원호적·국회 명부 미확보; 동일인 식별 임시"
+      },
+      "roles": [
+        "원외자유당 측 인사(당시 보도)"
+      ],
+      "rolesByPeriod": [
+        {
+          "date": "1952-09-06",
+          "role": "원외자유당 측 인사(당시 보도)",
+          "actionType": "원내외 자유당 합당교섭 전권대표 지명",
+          "evidence": [
+            "DOC-P253-DH-0906-0020"
+          ]
+        }
+      ],
+      "researchStatus": "DISCOVERED",
+      "researchMaturity": "DISCOVERED",
+      "backbone": false,
+      "connections": [
+        "evt-p253-party-merger"
+      ],
+      "evidenceCoverage": [
+        "DOC-P253-DH-0906-0020"
+      ],
+      "openLeads": [
+        "LEAD-P253-19"
+      ],
+      "historyDebt": [
+        "1952 국회·정당 공식명부 및 생몰 원기록 미확보"
+      ],
+      "researchRefs": [
+        "data/research/politicians/pass-253-1952-september-actor-profiles.json"
+      ],
+      "lastResearchPass": 253
     }
   ],
   "recentResearchPass232": {
@@ -13704,5 +14040,28 @@
       "cand-1952-sep-agri-shin-jung-mok"
     ],
     "overlay": "data/politicians/pass-252c-1952-aug31-actors.json"
+  },
+  "recentResearchPass253": {
+    "date": "2026-10-29",
+    "deepenedExisting": [
+      "cand-1952-sep-interior-jin-heon-sik",
+      "cand-p239e-kim-tae-seon",
+      "cand-1952-sep-agri-shin-jung-mok",
+      "cand-p235-park-jung-geun",
+      "cand-p235-kim-jong-sun",
+      "cand-1952-nov-lee-gap-seong",
+      "cand-1952-nov-bae-eun-hui",
+      "cand-p235i-park-yeong-chul",
+      "cand-p238-kim-jong-hoe",
+      "pol-paik-too-chin"
+    ],
+    "newCandidates": [
+      "cand-p253-kwak-ui-yeong",
+      "cand-p253-ji-yeon-hae",
+      "cand-p253-nam-song-hak",
+      "cand-p253-seonwoo-gi-seong"
+    ],
+    "overlay": "data/research/politicians/pass-253-1952-september-actor-profiles.json",
+    "note": "기존 장택상 중복 ID는 병합하지 않음. 진헌식 재임시작은 MOIS 1952-08-29, 9/18은 관찰일이지 임명일로 해석 금지."
   }
 }

@@ -11,14 +11,15 @@
     "original_facsimiles": 0,
     "independent_research_lines": 22,
     "governance_domains": 14,
-    "nonpresidential_actors_linked": 12,
+    "nonpresidential_actors_linked": 10,
     "events": 22,
     "adversarial_claims": 17,
     "adversarial_routes": 13,
-    "prior_leads_tracked": 8,
+    "prior_leads_tracked": 10,
     "new_original_leads": 36,
     "cross_provenance_contextual_bundles": 3,
-    "three_family_primary_confirmations": 0
+    "three_family_primary_confirmations": 0,
+    "new_candidate_nodes": 4
   },
   "documentIds": [
     "DOC-P253-FRUS-253",
@@ -112,7 +113,32 @@
     "FRUS 미국 정부 계열 31건을 31개 독립 출처계열로 계산하지 않음",
     "9/8 색인만 읽고 개별 원문은 열지 않아 직접문서 수에서 제외",
     "계획·당사자 주장·실행·후대평가 분리",
-    "진헌식 내무장관 취임일 기존 registry와 동시대 9/4 보도 충돌",
+    "진헌식 공식 재임 시작 1952-08-29와 9/4 발언 일치; 9/18 registry는 관찰일",
     "장택상 중앙 중복ID는 무단 병합하지 않음"
+  ],
+  "correction_history": [
+    {
+      "date": "2026-10-29",
+      "claim": "CLM-P253-jin-date",
+      "from": "CONFLICTED",
+      "to": "CONTRADICTED",
+      "reason": "MOIS official 1952-08-29 start; no source conflict with 9/4 report"
+    }
+  ],
+  "integrationFiles": [
+    "data/politicians.json",
+    "data/research/politicians/pass-253-1952-september-actor-profiles.json",
+    "data/evidence/pass-253-september-actor-evidence.json",
+    "data/events/pass-253-1952-september-policy-actions.json",
+    "data/claims/pass-253-1952-september-adversarial.json",
+    "data/research/rhee-syngman-coverage.json",
+    "data/research/rhee-syngman-open-leads.json",
+    "data/research/HISTORY_DEBT.md",
+    "data/annals/rhee-syngman.md",
+    "data/annals/jin-heon-sik.md",
+    "data/annals/shin-jung-mok.md",
+    "data/annals/kim-tae-seon.md",
+    "data/annals/kim-jong-hoe.md",
+    "data/research/pass-253-execution-report.md"
   ]
 }
