@@ -241,3 +241,7 @@
 
 - 2026-10-29 Pass257S: `data/politicians/pass-257s-1954-visit-nnsc-actors.json` 기존 10인 역할 심화·최순주 신규 candidate 1명; 생몰·한자 원문 미확인.
 - 2026-10-29 Pass257T 이승만·원용덕·변영태 원문발언과 정책·행위 구분 보강.
+
+## Pass257W 1954 총선·제네바·개헌 actor (2026-10-29)
+- `data/politicians/pass-257w-1954-election-geneva-actors.json`: 변영태의 1954-05-22 제네바 원작성 미대표단 보고, 임철호·이선근 개헌추진위 후대 해설, 신규 이범녕 `cand-p257w-lee-beom-nyeong` DISCOVERED. 신규 후보는 `data/politicians.json`에도 additive 등록; 한자·생몰·임명원본 미확인.
+- 관련 문서 `data/documents/pass-257w-1954-election-un-geneva-registry.json`, `data/documents/pass-257w2-1954-cabinet-industry-sources.json`; 사건 `data/events/pass-257w-1954-election-geneva-actions.json`, `data/events/pass-257w2-1954-cabinet-constitutional-actions.json`; 주장 `data/claims/pass-257w-1954-election-adversarial.json`, `data/claims/pass-257w2-1954-cabinet-provenance-conflicts.json`; 실록 `data/annals/1954-election-geneva-constitutional-source-audit.md`.
