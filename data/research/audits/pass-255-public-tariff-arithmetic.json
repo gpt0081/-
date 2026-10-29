@@ -1,0 +1,47 @@
+{
+  "source_document_id": "DOC-P255-DH-0928-0030",
+  "review_date": "2026-10-29",
+  "arithmetic_checks": [
+    {
+      "item": "전등",
+      "reported_from": "1원20전",
+      "reported_to": "2700원",
+      "reported_multiplier": 23,
+      "computed_multiplier": 2250,
+      "issue": "동일 요금단위 여부 및 '40㎾' 표기 원면 검증"
+    },
+    {
+      "item": "전보",
+      "reported_from": "1원",
+      "reported_to": "3000원",
+      "reported_multiplier": 1500,
+      "computed_multiplier": 3000,
+      "issue": "7자에서 10자로 단위 변경 기재, 직접 물가배수로 확정 금지"
+    },
+    {
+      "item": "전화",
+      "reported_from": "10전",
+      "reported_to": "300원",
+      "reported_multiplier": 30,
+      "computed_multiplier": 3000,
+      "issue": "1인당/1통 요율 비교단위 원면 검증"
+    },
+    {
+      "item": "우편 봉서",
+      "reported_from": "10전",
+      "reported_to": "1000원",
+      "reported_multiplier": 10000,
+      "computed_multiplier": 10000,
+      "issue": "산술 일치; 동일 우편 규격 검증 별도"
+    },
+    {
+      "item": "수도",
+      "reported_from": "2원70전",
+      "reported_to": "5500원",
+      "reported_multiplier": 2037,
+      "computed_multiplier": 2037.037,
+      "issue": "반올림 수준 일치"
+    }
+  ],
+  "caution": "기사를 무단 정정하지 않고 reported vs computed 병치; 물가지수·실질가격을 직접 추정하지 않음"
+}
