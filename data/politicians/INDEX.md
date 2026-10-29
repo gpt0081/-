@@ -245,3 +245,8 @@
 ## Pass257W 1954 총선·제네바·개헌 actor (2026-10-29)
 - `data/politicians/pass-257w-1954-election-geneva-actors.json`: 변영태의 1954-05-22 제네바 원작성 미대표단 보고, 임철호·이선근 개헌추진위 후대 해설, 신규 이범녕 `cand-p257w-lee-beom-nyeong` DISCOVERED. 신규 후보는 `data/politicians.json`에도 additive 등록; 한자·생몰·임명원본 미확인.
 - 관련 문서 `data/documents/pass-257w-1954-election-un-geneva-registry.json`, `data/documents/pass-257w2-1954-cabinet-industry-sources.json`; 사건 `data/events/pass-257w-1954-election-geneva-actions.json`, `data/events/pass-257w2-1954-cabinet-constitutional-actions.json`; 주장 `data/claims/pass-257w-1954-election-adversarial.json`, `data/claims/pass-257w2-1954-cabinet-provenance-conflicts.json`; 실록 `data/annals/1954-election-geneva-constitutional-source-audit.md`.
+
+### Pass257W-UN 동시대 정부 명부 원문으로 22명 심화
+- `data/politicians/pass-257w3-uncurk-1954-cabinet-assembly-roster.json`: UNCURK 1954 A/2711 Annex II 장관·국회의장·부의장 22명, 날짜별 임면·선출. 기존 20명 + 신규 로마자 잠정후보 Yoon Kun-Joong, Choi Kyoo-Ok 2명; 둘은 기본 `data/politicians.json`에도 IDENTIFIED로 추가. 한국어/한자 미확인 상태에서 임의 병합 금지.
+- 유엔 본문·부록의 자유당 115/114 1석 불일치, 문교부장관 김법린 퇴임일 2/5 vs 4/20, 총리 백두진/변영태 발표일·지명일 구별. `data/annals/1954-election-geneva-constitutional-source-audit.md` §7.
+- 독립 event 13개 추가 `data/events/pass-257w3-uncurk-1954-election-aid-cabinet-actions.json`, 원문 `data/documents/pass-257w3-uncurk-1954-original.json`.
