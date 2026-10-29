@@ -1620,8 +1620,11 @@
   },
   "recentResearchPass252": {
     "date": "2026-10-29",
-    "newLeadQueue": "data/research/leads/pass-252-next-originals.json",
-    "newLeadCount": 55,
+    "newLeadQueue": [
+      "data/research/leads/pass-252-next-originals.json",
+      "data/research/leads/pass-252-addendum-next-originals.json"
+    ],
+    "newLeadCount": 84,
     "trackedPriorLeadIds": [
       "LEAD-P251-01",
       "LEAD-P251-08",
@@ -1633,7 +1636,6 @@
       "LEAD-P251-52",
       "LEAD-P251-54"
     ],
-    "blockedUnoriginal": "UN A/2187 원면 미확보",
-    "doNotForceResolved": true
+    "weeklyFullDebtReview": false
   }
 }

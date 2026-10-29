@@ -115,3 +115,5 @@
 - `data/events/pass-250-1952-primary.json`: 1952년 OIR 간선제 전망·UNCURK 회담·검열·국민투표 구상 등 12개 action, 제안과 실행 분리.
 
 - 2026-10-29 pass252: `data/events/pass-252-1952-aug20-27-governance.json` 32개 action/sub-event를 중앙 `data/events.json`에 additive 동기화. 기존 1952-08-22 김시현 첫 공판과 중복을 피하기 위해 새 진술 subevent는 `evt-1952-attempt-0822-first-trial`을 parent로 둠.
+
+- 2026-10-29 pass252B/C: `data/events/pass-252b-1952-aug26-30-policy.json` 24건 + `data/events/pass-252c-1952-aug31-governance.json` 7건, 중앙 `data/events.json` additive 동기화. 대통령 국회 불신임 자제 요청(언론 전언)·8/29 장관 인사·8/30 육본 지령60 분리.

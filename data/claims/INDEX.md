@@ -130,3 +130,5 @@
 - `data/claims/pass-250-1952-adversarial.json`: 1952년 검열·음모·국민투표·선거전망·UNC 수사 관련 8개 주장·한계 근거.
 
 - 2026-10-29 pass252: `data/claims/pass-252-1952-aug20-27-adversarial.json` 15개 주장·반론·미확인 원문 표적. CEB 미작 전망·신성모 검찰처분 충돌을 별도 CONFLICTED로 기록하고 계획과 시행을 구별.
+
+- 2026-10-29 pass252B/C: `data/claims/pass-252b-1952-aug26-30-adversarial.json` 12건 + `data/claims/pass-252c-1952-aug31-adversarial.json` 6건. 전시생활개선법 시행령 기존 의복 예외·경찰령 번호·비료공장 생산능력·부산 세금 선부과·고문지시 부인 등 충돌·미확인 구분.

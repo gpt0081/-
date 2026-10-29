@@ -163,3 +163,6 @@
 - `data/documents/pass-250-1952-primary.json`: 1952년 3~6월 국편 헌정사 원문 전사 17건(원면 0), provenance별 구분.
 
 - 2026-10-29 pass252: `data/documents/pass-252-1952-aug20-27-primary.json` 신규 문서 65건(신문전사 52, 번역발췌7, 관보1, FRUS3, 대통령기록관1, 국편해제1); 직접 열린 고유 문서 66건 중 기존 DOC-NIKH-P229-dh_026_1952_08_22_0070 재사용 1건. 원면 이미지 0건.
+
+- 2026-10-29 pass252B: `data/documents/pass-252b-1952-aug26-30-originals.json` 직접열람 40건, 신규 등록 39건, 기존 DOC-P231-KOR-0826 재사용. FRUS XV/1 245~250 6건·관보 제812호 1건 포함.
+- 2026-10-29 pass252C: `data/documents/pass-252c-1952-aug31-originals.json` 직접열람·신규 등록 9건. 육군본부 지령 제60호 전사·동시대 국무위원 명단·부산 지방세·경찰 고문 의혹 반론 포함.

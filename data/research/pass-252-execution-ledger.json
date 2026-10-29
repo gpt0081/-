@@ -10,30 +10,37 @@
     "head_before": "a089bdc05ef7c2335e8afc09b704cd5414a0e341",
     "coherent_commits_before_this_report": [
       "4dec1f13927e89e2f512d240dfc68ba491fdba77",
-      "8d83c90635cc137f34b8b727595bfb616d39e8ca"
+      "8d83c90635cc137f34b8b727595bfb616d39e8ca",
+      "68cbe1afce2caae68653fef7297a568e40339ce2",
+      "ab66ec106c1cccd1da83de1ba3dbe71f829eccb0",
+      "6a033edd58eaf04bdb5e20d1822551f13d8b1a94"
     ]
   },
   "counts": {
-    "distinct_directly_opened_documents": 66,
-    "newly_registered_documents": 65,
-    "reused_prior_documents": 1,
-    "contemporary_newspaper_transcriptions_opened": 53,
-    "edited_foreign_translation_excerpts": 7,
-    "official_gazette_original_transcription": 1,
-    "FRUS_original_diplomatic_texts": 3,
+    "distinct_directly_opened_documents": 115,
+    "newly_registered_documents": 113,
+    "reused_prior_documents": 2,
+    "contemporary_newspaper_and_editorial_transcriptions_opened": 90,
+    "foreign_translation_excerpts": 10,
+    "official_gazette_original_transcriptions": 2,
+    "FRUS_original_diplomatic_texts": 9,
+    "original_military_order_transcriptions": 1,
     "official_retrospective_with_speech_transcript": 1,
     "institutional_retrospective": 1,
+    "contemporaneous_compiled_personnel_roster": 1,
+    "strict_original_official_primary_transcriptions": 12,
     "original_facsimiles": 0,
-    "independent_research_lines": 26,
-    "government_domains": 17,
-    "nonpresidential_existing_deepened": 17,
-    "nonpresidential_new_candidate": 1,
-    "events_new_or_substantively_enhanced": 32,
-    "claims_structured": 15,
-    "adversarial_searches": 13,
+    "independent_research_lines": 49,
+    "government_domains": 21,
+    "unique_nonpresidential_existing_deepened": 28,
+    "new_nonpresidential_candidates": 5,
+    "existing_candidate_promoted_to_central_registry": 1,
+    "events_new_or_substantively_enhanced": 63,
+    "claims_structured": 33,
+    "adversarial_searches": 31,
     "tracked_prior_leads": 9,
-    "new_leads": 55,
-    "cross_provenance_bundles": 4,
+    "new_leads": 84,
+    "cross_provenance_bundles": 8,
     "strict_three_independent_original_family_confirmations": 0
   },
   "source_counts": {
@@ -285,5 +292,117 @@
     "original source photographs not obtained",
     "Kim Si-hyeon and court report were reused after duplicate audit",
     "not all minima are strict original government records; no forced resolution"
-  ]
+  ],
+  "addenda": [
+    {
+      "name": "252B",
+      "directlyOpened": 40,
+      "newRegistry": 39,
+      "reused": [
+        "DOC-P231-KOR-0826"
+      ],
+      "events": 24,
+      "claims": 12
+    },
+    {
+      "name": "252C",
+      "directlyOpened": 9,
+      "newRegistry": 9,
+      "reused": [],
+      "events": 7,
+      "claims": 6
+    }
+  ],
+  "additionalLeadsFile": "data/research/leads/pass-252-addendum-next-originals.json",
+  "additionalHistoryDebt": [
+    {
+      "id": "HD-P252B-POLICE-DECREE-NUMBER",
+      "status": "CONFLICTED",
+      "found": "8/25 대통령령 660호와 8/26 812호는 같은 계열 연속 일자치고 번호 차가 큼",
+      "nextOriginal": "국가기록원 원관보·법령연혁 660/812 원면"
+    },
+    {
+      "id": "HD-P252B-LUXURY-EXEMPTION",
+      "status": "CONFLICTED",
+      "found": "전시생활개선법 기존 외국산 의복 착용 금지(연합) vs 허용(대구매일 법제처장)",
+      "nextOriginal": "1952-08-29 국무회의 시행령 의결문·공포문 경과조항"
+    },
+    {
+      "id": "HD-P252B-1952-AMENDMENT",
+      "status": "NARROWED",
+      "found": "이승만 7개항 구상 시사 vs 장택상 정부 기초설 부인",
+      "nextOriginal": "1952-08-27 대통령 면담록·08-29 법제처 법안접수 원장"
+    },
+    {
+      "id": "HD-P252B-SAMCHEOK",
+      "status": "CONFLICTED",
+      "found": "삼척 비료 연산 10만톤 vs 유안 5만톤/초안 3만톤 전망 차이",
+      "nextOriginal": "상공부 800만달러 설비투자 원안·품목별 설계능력"
+    },
+    {
+      "id": "HD-P252B-TUNGSTEN-PRESIDENT",
+      "status": "NARROWED",
+      "found": "이승만이 장관 불신임 자제 요청했다는 동아일보 보도 확보; 원면담록 없음",
+      "nextOriginal": "1952-08-26 대통령·국회조사위원 면담기록"
+    },
+    {
+      "id": "HD-P252B-WHO-PHARMA",
+      "status": "OPEN",
+      "found": "WHO 보건시설 재건 328개 제약공장·224억원 계획 보도, 실집행 미확인",
+      "nextOriginal": "WHO 서태평양 1952 보건시설 5개년 제출 원문"
+    },
+    {
+      "id": "HD-P252B-POW-RELEASE",
+      "status": "NARROWED",
+      "found": "클라크 16000명 석방 요청·미 국무부 원칙 찬성 시기유보·케난 반대 구분",
+      "nextOriginal": "FRUS XV/1 d245~250 후속 9월 원지령·실제 석방명부"
+    },
+    {
+      "id": "HD-P252C-BUSAN-TAX",
+      "status": "CONFLICTED",
+      "found": "부산시 호별세·교육세 개정법 효력 전 인상부과 보도, 시당국 예산착오 해명",
+      "nextOriginal": "부산시 1952-08 납세고지서·시의회 감사·지방세법 공포일"
+    },
+    {
+      "id": "HD-P252C-TORTURE",
+      "status": "CONFLICTED",
+      "found": "전북 경찰국장 김종원 고문지시 의혹 vs 김종원·배은희 공개 부인",
+      "nextOriginal": "전주지검 손권배 구속·취조·진단서·고문 관련 수사기록"
+    },
+    {
+      "id": "HD-P252C-LAND-REPAYMENT",
+      "status": "NARROWED",
+      "found": "8월 8·10·15년 검토안에서 8/31 국회 농림위 5년 현금상환안으로 논의 진전",
+      "nextOriginal": "1952-09-01 국회 농지개혁법 개정안 원속기·공포문"
+    },
+    {
+      "id": "HD-P252C-ARMY-ORDERS",
+      "status": "OPEN",
+      "found": "육본 제60호 백선엽 작전명령 전사 확보, 작전성과 미확인",
+      "nextOriginal": "1952-09-06 육본 G3 작전계획·09-22 결과보고"
+    },
+    {
+      "id": "HD-P252C-CABINET-ROSTER",
+      "status": "OPEN",
+      "found": "동시대 1948~52 장관 명단의 서리·겸임·취임일 오류 가능",
+      "nextOriginal": "국가기록원 1948~52 인사관보·대통령기록관 임명장"
+    },
+    {
+      "id": "HD-P252C-FISHERY-FX",
+      "status": "NARROWED",
+      "found": "국무회의 제120차 수산물 보상불 결의 vs 재무부 집행중단 보도",
+      "nextOriginal": "1952 국무회의 제120차 원회의록·재무부 08-25 외환통첩"
+    }
+  ],
+  "sourceAudit": {
+    "directlyOpened": 115,
+    "registered": 113,
+    "duplicatesReused": [
+      "DOC-NIKH-P229-dh_026_1952_08_22_0070",
+      "DOC-P231-KOR-0826"
+    ],
+    "officialOriginalTextCount": 12,
+    "facsimiles": 0,
+    "threeIndependentPrimarySameClaim": 0
+  }
 }
