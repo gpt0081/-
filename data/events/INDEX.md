@@ -132,3 +132,5 @@
 - 2026-10-29 Pass257J: `data/events/pass-257j-un-finance-actions.json` 10개 UN 제안·수정·표결 및 1953 통화·재정·국회수정 세부사건, 중앙 `data/events.json`에 additive 동기화.
 
 - 2026-10-29 Pass257K: `data/events/pass-257k-1953-audit-labor-actions.json` 5건 국정감사법·근로동원 재고·노동조합 시행령·근로기준법 수정·전시근로동원법 이송, 중앙 registry additive 반영.
+
+- 2026-10-29 Pass257L: `data/events/pass-257l-un-committee-finance-actions.json` UN 제1위원회 보고서 A/2278·제5위원회 재정심의 A/2284 2건 중앙 동기화.

@@ -147,3 +147,5 @@
 - 2026-10-29 Pass257J: `data/claims/pass-257j-currency-un-counterevidence.json` 8개 독립 반증 질문, UN 53:0:5/54:5:1/53:5:1 분리 및 법률277/227 후대 충돌·2/17/2/26/2/27 범위 분리.
 
 - 2026-10-29 Pass257K: `data/claims/pass-257k-institutional-archive-adversarial.json` 3건, 1951 이승만 재고 전달/1953 법 공포 분리, 대통령기록관 '1951-04-31' 불가능 날짜, 근로기준법·노동조합법 문서명 혼용.
+
+- 2026-10-29 Pass257L: `data/claims/pass-257l-un-finance-adversarial.json` 2건, UN 포로송환위원회 초기비용과 장래 미산정 비용, 덴마크 수정안과 인도 본회의 수정안 혼동 반증.

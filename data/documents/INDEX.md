@@ -180,3 +180,5 @@
 - 2026-10-29 Pass257J: `data/documents/pass-257j-un-plenary-finance.json` 12건(UN 원속기/원수정안4, 한국 동시대 신문2, 후대 기관/법제처6). 법률277호 원면은 아직 미확보; 검색발췌는 원문 열람 수에 불포함.
 
 - 2026-10-29 Pass257K: `data/documents/pass-257k-1953-constitutional-labor-archives.json` 3건 대통령기록관 개별 원문철 **해제** + 1건 법제처 법률276호 **색인**. 원문 원면 열람으로 계산하지 않음.
+
+- 2026-10-29 Pass257L: `data/documents/pass-257l-un-committee-originals.json` UN A/2278 원보고서(심한 OCR 손상, 부분 판독) 및 A/2284 재정위원회 원보고서(주요 항목 판독) 2건. 원면 육안검증은 아직 미실시.
