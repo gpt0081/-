@@ -859,7 +859,7 @@
         "DOC-P239L2-UN-A2947",
         "DOC-P247-AKS-SEO",
         "DOC-P247-AKS-MASS",
-        "DOC-P252-0822-0070"
+        "DOC-NIKH-P229-dh_026_1952_08_22_0070"
       ],
       "recentResearchPass247": {
         "date": "2026-10-29",
@@ -13196,33 +13196,69 @@
       ]
     },
     {
-      "id": "cand-p252-kim-si-hyeon",
+      "id": "cand-kim-si-hyeon-1952",
       "name": "김시현",
       "aliases": [
         "金始顯",
-        "Kim Si-hyeon (임시 음역)"
+        "Kim Si-hyeon",
+        "Kim Shi-hyun"
       ],
       "lifespan": {
         "born": null,
         "died": null,
-        "verification": "미확인"
+        "verification": "생몰 공식자료 미확인"
       },
       "roles": [
-        "1952-08 국회의원·저격미수 사건 피고인"
+        "1952 국회의원·저격사건 피고인",
+        "제2대 국회의원 안동 갑, 민국당, 9,508표",
+        "내각책임제 개헌안 민국당 서명자"
+      ],
+      "roleHistory": [
+        {
+          "period": "1952",
+          "title": "1952 국회의원·저격사건 피고인",
+          "verification": "see evidence document IDs"
+        },
+        {
+          "period": "1950-05",
+          "title": "제2대 국회의원 안동 갑, 민국당, 9,508표",
+          "evidenceDocumentIds": [
+            "DOC-NIKH-P229B-dh_017_1950_06_01_0030"
+          ]
+        },
+        {
+          "period": "1952-04-19",
+          "title": "내각책임제 개헌안 민국당 서명자",
+          "evidenceDocumentIds": [
+            "DOC-NIKH-P229B-dh_025_1952_04_19_0030"
+          ]
+        }
       ],
       "researchStatus": "IDENTIFIED",
       "researchMaturity": "IDENTIFIED",
       "connections": [
-        "evt-p252-assassination-hearing"
+        "evt-p252-assassination-hearing",
+        "evt-1952-attempt-0822-first-trial"
       ],
       "evidenceCoverage": [
-        "DOC-P252-0822-0070"
+        "DOC-NIKH-P229-dh_026_1952_08_22_0070",
+        "DOC-NIKH-P229B-dh_017_1950_06_01_0030",
+        "DOC-NIKH-P229B-dh_025_1952_04_19_0030"
       ],
       "openLeads": [
-        "LEAD-P252-13"
+        "LEAD-P252-13",
+        "부산지법 1952-08-22 공판조서·탄환감정서"
       ],
       "historyDebt": [
         "HD-P252-TRIAL"
+      ],
+      "promotionReason": "pass229 신문 원문·1950 국회의원 명부·1952 개헌서명 자료로 이미 IDENTIFIED인 동일인 candidate ID를 중앙 조회로 올림; 새 인물로 세지 않음",
+      "reviewHistory": [
+        {
+          "date": "2026-10-29",
+          "type": "correction",
+          "detail": "newly assigned cand-p252-kim-si-hyeon was a duplicate of existing cand-kim-si-hyeon-1952; preserve canonical existing ID and link narrower trial subevent"
+        }
       ]
     }
   ],
@@ -13475,11 +13511,11 @@
   },
   "recentResearchPass252": {
     "date": "2026-10-29",
-    "existingActorsDeepened": 16,
+    "existingActorsDeepened": 17,
     "newCandidates": [
-      "cand-p252-park-bong-hui",
-      "cand-p252-kim-si-hyeon"
+      "cand-p252-park-bong-hui"
     ],
-    "overlay": "data/politicians/pass-252-1952-aug20-27-actors.json"
+    "overlay": "data/politicians/pass-252-1952-aug20-27-actors.json",
+    "correction": "Kim Si-hyeon duplicate candidate ID replaced by canonical pass229 candidate; no silent overwrite"
   }
 }

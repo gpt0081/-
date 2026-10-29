@@ -1,9 +1,9 @@
 {
   "pass": 252,
   "date": "2026-10-29",
-  "document_count": 66,
+  "document_count": 65,
   "source_counts": {
-    "contemporary_newspaper_transcriptions": 53,
+    "contemporary_newspaper_transcriptions": 52,
     "foreign_translated_excerpts": 7,
     "official_gazette": 1,
     "FRUS_original_texts": 3,
@@ -424,21 +424,6 @@
       "source": "조선일보",
       "original_location": "https://db.history.go.kr/contemp/level.do?levelId=dh_026_1952_08_22_0060",
       "provenance": "조선일보",
-      "access_date": "2026-10-29",
-      "document_number": null,
-      "source_kind": "contemporaneous_newspaper_transcription",
-      "direct_full_page_opened": true,
-      "original_facsimile_obtained": false,
-      "original_full_text_obtained": true,
-      "caveat": "기사·발언·사설은 확정 집행·판결의 증명이 아님"
-    },
-    {
-      "id": "DOC-P252-0822-0070",
-      "date": "1952-08-22",
-      "title": "대통령 저격미수 김시현 첫 공판",
-      "source": "서울신문",
-      "original_location": "https://db.history.go.kr/contemp/level.do?levelId=dh_026_1952_08_22_0070",
-      "provenance": "서울신문",
       "access_date": "2026-10-29",
       "document_number": null,
       "source_kind": "contemporaneous_newspaper_transcription",
@@ -996,6 +981,17 @@
       "direct_full_page_opened": true,
       "original_facsimile_obtained": false,
       "original_full_text_obtained": false
+    }
+  ],
+  "reusedExistingDocumentIds": [
+    "DOC-NIKH-P229-dh_026_1952_08_22_0070"
+  ],
+  "directlyOpenedDocumentsThisRun": 66,
+  "reviewHistory": [
+    {
+      "date": "2026-10-29",
+      "type": "deduplicate",
+      "detail": "Aug22 Kim Si-hyeon trial article already registered in pass229; reuse prior canonical document ID; do not count as newly registered."
     }
   ]
 }

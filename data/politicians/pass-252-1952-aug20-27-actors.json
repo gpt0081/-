@@ -30,39 +30,9 @@
       "historyDebt": [
         "HD-P252-ELECTION-LEVY"
       ]
-    },
-    {
-      "id": "cand-p252-kim-si-hyeon",
-      "name": "김시현",
-      "aliases": [
-        "金始顯",
-        "Kim Si-hyeon (임시 음역)"
-      ],
-      "lifespan": {
-        "born": null,
-        "died": null,
-        "verification": "미확인"
-      },
-      "roles": [
-        "1952-08 국회의원·저격미수 사건 피고인"
-      ],
-      "researchStatus": "IDENTIFIED",
-      "researchMaturity": "IDENTIFIED",
-      "connections": [
-        "evt-p252-assassination-hearing"
-      ],
-      "evidenceCoverage": [
-        "DOC-P252-0822-0070"
-      ],
-      "openLeads": [
-        "LEAD-P252-13"
-      ],
-      "historyDebt": [
-        "HD-P252-TRIAL"
-      ]
     }
   ],
-  "existingActorsDeepened": 16,
+  "existingActorsDeepened": 17,
   "politicians": [
     {
       "id": "cand-chang-taek-sang-1952",
@@ -491,14 +461,14 @@
         {
           "date": "1952-08",
           "action": "피고인 김시현 진술에 등장; 유죄 귀속 금지",
-          "sourceDocumentId": "DOC-P252-0822-0070"
+          "sourceDocumentId": "DOC-NIKH-P229-dh_026_1952_08_22_0070"
         }
       ],
       "eventIds": [
         "evt-p252-assassination-hearing"
       ],
       "evidenceCoverage": [
-        "DOC-P252-0822-0070"
+        "DOC-NIKH-P229-dh_026_1952_08_22_0070"
       ],
       "openLeads": [
         "LEAD-P252-13"
@@ -606,6 +576,52 @@
       "historyDebt": [
         "HD-P252-ROLE-ORIGINALS"
       ]
+    },
+    {
+      "id": "cand-kim-si-hyeon-1952",
+      "name": "김시현",
+      "aliases": [
+        "金始顯",
+        "Kim Si-hyeon",
+        "Kim Shi-hyun"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "생몰 공식자료 미확인"
+      },
+      "roleHistory": [
+        {
+          "date": "1952-08-22",
+          "action": "첫 공판 피고인 진술; 기존 1950 안동 갑 의원 및 1952 개헌서명 신원 근거 보존",
+          "sourceDocumentId": "DOC-NIKH-P229-dh_026_1952_08_22_0070"
+        }
+      ],
+      "eventIds": [
+        "evt-p252-assassination-hearing"
+      ],
+      "researchStatus": "IDENTIFIED",
+      "researchMaturity": "IDENTIFIED",
+      "evidenceCoverage": [
+        "DOC-NIKH-P229-dh_026_1952_08_22_0070",
+        "DOC-NIKH-P229B-dh_017_1950_06_01_0030",
+        "DOC-NIKH-P229B-dh_025_1952_04_19_0030"
+      ],
+      "openLeads": [
+        "LEAD-P252-13"
+      ],
+      "historyDebt": [
+        "HD-P252-TRIAL"
+      ]
+    }
+  ],
+  "reviewHistory": [
+    {
+      "date": "2026-10-29",
+      "type": "duplicate_identity_correction",
+      "from": "cand-p252-kim-si-hyeon",
+      "to": "cand-kim-si-hyeon-1952",
+      "reason": "pass229 existing candidate with 1950 election and 1952 signature evidence; avoid duplicate politician"
     }
   ]
 }
