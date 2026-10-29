@@ -25,3 +25,8 @@
 - 행정안전부 공식 역대장관 명부는 진헌식 재임 시작을 1952-08-29로 명시한다. 9/4 조선일보 전사와 일치하며 기존 registry의 9/18은 관찰 시점이므로 '취임일 충돌'이라는 초기 가설을 철회했다. CLM-P253-jin-date를 CONFLICTED→CONTRADICTED로 correction history와 함께 갱신.
 - 중앙 registry 기존 10명에 event·document·periodRole·lead를 연결했고 곽의영·지연해·남송학·선우기성 4명을 DISCOVERED로 등록했다. 생몰 원기록 미확인·공식 명부 미열람으로 승격하지 않았다.
 - 1952-09 추곡·중석불·농지·환화·개헌·병무·도시정책·포로문제 중 기존 역사부채 10건의 상태를 억지로 RESOLVED 처리하지 않았다.
+
+## 최종 그래프 무결성 감사
+- 문서 42건 URL·ID 중복 0, 사건 22건 정치인/문서 참조 누락 0, 후속 단서 36건 사건 참조 누락 0. 문장형 해석 2개를 claim evidence ID 배열에서 qualification_notes로 이동해 그래프 참조를 교정했다.
+- 호환 중앙 data/events.json에도 22개 event를 추가하여 shard INDEX만 읽지 않는 기존 소비자가 사건을 조회할 수 있도록 했다. 이승만 중앙 정치인 노드에 9/7 환화·개헌 2개 사건을 연결했다.
+- GitHub coherent commits: 9696a1f93f333527ae3859c9e3d69ef0dd7f38ff; 379e95477b8313e2118840f3809893c9237ea0ca. 최종 감사 커밋 SHA는 외부 실행 보고에서 추가 확인한다.
