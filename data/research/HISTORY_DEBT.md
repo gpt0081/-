@@ -2019,3 +2019,8 @@
 - `HD-P257W-UN-EDUCATION-RESIGN-DATE` CONFLICTED: UN Annex II 김법린 1954-02-05 퇴임 vs 문교부 공식 후대 명부 1954-04-20. 1954 관보 발령장 필요.
 - UN §65의 210 명목선거구 중 7개 미실시 → 203개 선거구는 분모 문제를 상당히 축소. 국회·선관위 법정선거구 원문 대기.
 - 주간 전수조사 여부·last_full_review는 변경하지 않음.
+
+### Pass257W4 부채 축소 이력 (2026-10-29)
+- `HD-P257W-APR06-APR08-SPEECH` CONFLICTED → **NARROWED**: 2025년 후대 신문 인용이 1954-04-06 특별담화를 04-08 경향신문 1면이 보도했다고 제시. 원지면 대기.
+- `HD-P257W-UN-CABINET-KOREAN-NAMES` OPEN → **NARROWED**: UN의 Yoon Kun-Joong을 AKS 윤건중(1897~1987)으로 독립 교차확인. Choi Kyoo-Ok 한국어 원발령 확인 대기.
+- 정정은 상태 이력으로 보존하며 주간 last_full_review는 변경하지 않음.
