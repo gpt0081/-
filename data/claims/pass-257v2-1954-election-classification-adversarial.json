@@ -1,0 +1,74 @@
+{
+  "pass": "257V",
+  "date": "2026-10-29",
+  "claims": [
+    {
+      "id": "CLM-P257V-SEAT-NEC",
+      "statement": "1954 제3대 민의원 203석 NEC 분류: 자유당114, 무소속67, 민주국민당15, 국민회3, 대한국민당3, 제헌국회의원동지회1",
+      "status": "SUPPORTED_OFFICIAL_LATER",
+      "supporting": [
+        "DOC-P257R-NEC",
+        "DOC-P257R-NIKH-CONST"
+      ],
+      "contradicting": [
+        "DOC-P257R-NIKH-ELECTION",
+        "DOC-P257V-FRUS-893"
+      ],
+      "explanation": "국편 연표 헤드라인은 114/68 (제헌동지회1 별도 누락), 미국 1954-05-24 보고는 115/67/15/6. 같은 203석이라도 기타·무소속·자유당 분류 경계가 달라짐"
+    },
+    {
+      "id": "CLM-P257V-SEAT-NIKH-INTERNAL",
+      "statement": "국편 1954-05-20 연표의 정당별 표와 후보 명단은 최초 당선자 203명을 일관되게 표현한다",
+      "status": "NARROWED_MIXED_CHRONOLOGY",
+      "supporting": [],
+      "contradicting": [
+        "DOC-P257R-NIKH-ELECTION",
+        "DOC-P257R-NEC"
+      ],
+      "explanation": "연표 본문 114/68, 표 자유당144(명백한 합계 불일치), 명단 208명은 5개 선거구 보궐선거 후임 5명 포함이라는 페이지 말미 각주로 설명. 208을 1954 초기 당선인 수로 세면 오류"
+    },
+    {
+      "id": "CLM-P257V-SEAT-PARK",
+      "statement": "박기운(朴己云)은 1954 청주시에서 제헌국회의원동지회 후보로 당선",
+      "status": "SUPPORTED_TWO_INDEPENDENT_INSTITUTIONAL_FAMILIES",
+      "supporting": [
+        "DOC-P257R-NIKH-ELECTION",
+        "DOC-P257R-NEC",
+        "DOC-P257V-CHUNGBUK-PARK-GIUN"
+      ],
+      "contradicting": [],
+      "explanation": "국편 당선인 명단에서 실명·당적, 선관위 제헌동지회 1석, 충북학연구소 지역사 일치"
+    },
+    {
+      "id": "CLM-P257V-SEAT-PARK-ANACHRONISM",
+      "statement": "박기운은 1948년에 자유당 충북도지부 위원장을 지냈다",
+      "status": "CONFLICTED_CHRONOLOGY_SUSPECT_ANACHRONISM",
+      "supporting": [
+        "DOC-P257V-CHUNGBUK-PARK-GIUN"
+      ],
+      "contradicting": [],
+      "explanation": "충북학 글의 '같은 해'는 1948을 지시하지만 자유당 1951 창당과 맞지 않음; 후대 지역사 문장 날짜 오류 가능. 실제 위원장 임기 원자료 필요"
+    },
+    {
+      "id": "CLM-P257V-SEAT-BYELECTION",
+      "statement": "국편 1954 당선자 목록에서 같은 선거구 2명 표기 5곳은 보궐선거 후임 추가다",
+      "status": "SUPPORTED_SOURCE_EXPLICIT_NOTE",
+      "supporting": [
+        "DOC-P257R-NIKH-ELECTION"
+      ],
+      "contradicting": [],
+      "explanation": "고양·광주·영동·진안·산청 5개 선거구에 2명, 페이지 말미 보궐선거 후임 추가 명시; 초기 203석과 208명 목록 공존 이유"
+    },
+    {
+      "id": "CLM-P257V-SEAT-KIM-BEOPRIN",
+      "statement": "김법린 전 문교부장관은 1954 동래군 자유당 민의원 당선자로 등재",
+      "status": "SUPPORTED_NIKH_LIST",
+      "supporting": [
+        "DOC-P257R-NIKH-ELECTION",
+        "DOC-P257V-MOE-MINISTERS"
+      ],
+      "contradicting": [],
+      "explanation": "1954-04-20 장관 임기 종료, 1954-05-20 동래군 당선, 직접 정치적 행위는 국회 회의록 후속 검증"
+    }
+  ]
+}
