@@ -1,0 +1,137 @@
+{
+  "pass": "256b",
+  "claims": [
+    {
+      "id": "CLM-P256B-FARMLAND-COUNT",
+      "statement": "1952-11-17 금납제 재의 출석161·찬성107·반대54·무표1은 모두 서로 다른 표이다",
+      "document_ids": [
+        "DOC-P256B-DH-1117-0060"
+      ],
+      "adversarial_check": "107+54+1=162, 출석161과 1표 충돌; 무표가 반대 포함인지 오식인지 원투표부 필요",
+      "status": "CONFLICTED",
+      "access_date": "2026-10-29",
+      "original_record_needed": true
+    },
+    {
+      "id": "CLM-P256B-FARMLAND-THRESHOLD",
+      "statement": "1952-11-17 금납제 재의 찬성107은 출석161의 2/3을 넘었다",
+      "document_ids": [
+        "DOC-P256B-DH-1117-0060"
+      ],
+      "adversarial_check": "161×2/3=107.333, 최저 정수108이므로 107은 1표 부족",
+      "status": "NARROWED",
+      "access_date": "2026-10-29",
+      "original_record_needed": true
+    },
+    {
+      "id": "CLM-P256B-TUNGSTEN-TONNAGE",
+      "statement": "1952-11-17 중석불 금속 수입 품목별 톤수의 합은 총53톤이다",
+      "document_ids": [
+        "DOC-P256B-DH-1117-0070"
+      ],
+      "adversarial_check": "10+10+15+3+5=43톤; 53톤과 10톤 충돌",
+      "status": "CONFLICTED",
+      "access_date": "2026-10-29",
+      "original_record_needed": true
+    },
+    {
+      "id": "CLM-P256B-TUNGSTEN-USD",
+      "statement": "1952-11-17 중석불 금속 수입 달러액 합계가 114584달러와 불일치한다",
+      "document_ids": [
+        "DOC-P256B-DH-1117-0070"
+      ],
+      "adversarial_check": "14100+12490+47025+26169+14800=114584, 달러액 합계는 일치",
+      "status": "NARROWED",
+      "access_date": "2026-10-29",
+      "original_record_needed": true
+    },
+    {
+      "id": "CLM-P256B-FERTILIZER-EXECUTION",
+      "statement": "1952-11 비료 3만톤이 창고에 묶여 있었다는 보도는 농림부 확정 창고통계다",
+      "document_ids": [
+        "DOC-P256B-DH-1117-0080"
+      ],
+      "adversarial_check": "부산일보의 지방소식·일부 공무원 전언, 창고원장 없음",
+      "status": "OPEN",
+      "access_date": "2026-10-29",
+      "original_record_needed": true
+    },
+    {
+      "id": "CLM-P256B-FERTILIZER-RATES",
+      "statement": "1952년 비료 교환율은 연중 동일했다",
+      "document_ids": [
+        "DOC-P256B-DH-1117-0080"
+      ],
+      "adversarial_check": "신문은 유안2:벼1→1:1→유안2.5:벼1 변경을 서술, 원통첩 필요",
+      "status": "NARROWED",
+      "access_date": "2026-10-29",
+      "original_record_needed": true
+    },
+    {
+      "id": "CLM-P256B-AGRICULTURAL-STAFF",
+      "statement": "농업요원 16540명은 이미 1952-11-17 전국 배치 완료됐다",
+      "document_ids": [
+        "DOC-P256B-DH-1117-0090"
+      ],
+      "adversarial_check": "선발·훈련 예정, 48000 자연부락은 다른 행정단위",
+      "status": "OPEN",
+      "access_date": "2026-10-29",
+      "original_record_needed": true
+    },
+    {
+      "id": "CLM-P256B-FISHERY-DELIVERED",
+      "statement": "32만달러 냉동어선 3척은 1952-11-17 실제 인도 완료됐다",
+      "document_ids": [
+        "DOC-P256B-DH-1117-0070"
+      ],
+      "adversarial_check": "상공부 도입계획만 보도, 실제 도입·불하 미확인",
+      "status": "OPEN",
+      "access_date": "2026-10-29",
+      "original_record_needed": true
+    },
+    {
+      "id": "CLM-P256B-STUDENT-70",
+      "statement": "유학생 366명 중 약70% 미귀국은 문교부의 공식 전수조사 결과다",
+      "document_ids": [
+        "DOC-P256B-DH-1117-0110"
+      ],
+      "adversarial_check": "익명 문교부 국장 전언, 명부·귀국원장 없음",
+      "status": "OPEN",
+      "access_date": "2026-10-29",
+      "original_record_needed": true
+    },
+    {
+      "id": "CLM-P256B-BOMB-DAMAGE",
+      "statement": "미 극동공군 발표 발전시설80% 파괴·식량70% 감소는 독립 검증된 피해통계다",
+      "document_ids": [
+        "DOC-P256B-DH-1117-0040"
+      ],
+      "adversarial_check": "미군 발표를 조선일보가 전함, 북한/UN 현지 조사 미확보",
+      "status": "OPEN",
+      "access_date": "2026-10-29",
+      "original_record_needed": true
+    },
+    {
+      "id": "CLM-P256B-PM-TRIP",
+      "statement": "이갑성은 11/17 경무대 면담 후 총리 인준을 완료했다",
+      "document_ids": [
+        "DOC-P256B-DH-1117-0050"
+      ],
+      "adversarial_check": "신문은 면담·연기 요청만 보도, 국회 표결 미확인",
+      "status": "OPEN",
+      "access_date": "2026-10-29",
+      "original_record_needed": true
+    },
+    {
+      "id": "CLM-P256B-MENON-FOUR",
+      "statement": "1952-11 포로송환 4개국 위원회 제안에는 폴란드·체코·스위스·스웨덴이 포함됐다",
+      "document_ids": [
+        "DOC-P256B-DH-1117-0030"
+      ],
+      "adversarial_check": "동아일보 AP/INS + 미 FRUS d322 + UN 610(VII) 세 원작성 계열에서 네 국가 구성 반복 확인; 제안과 채택 구별",
+      "status": "NARROWED",
+      "access_date": "2026-10-29",
+      "original_record_needed": true
+    }
+  ]
+}
