@@ -73,6 +73,37 @@
       ],
       "outcome": "A/2810 refers back to A/2711 rather than independently validating A/2750 detailed outcomes",
       "strict_three_primary_families": false
+    },
+    {
+      "id": "CV-P257P-01",
+      "claim_id": "CL-P257P-38",
+      "families": [
+        "UN_UNKRA_AGENT_GENERAL_PRIMARY",
+        "UN_ACABQ_INDEPENDENT_FINANCIAL_REVIEW",
+        "UK_PARLIAMENT_OFFICIAL_PRIMARY"
+      ],
+      "source_ids": [
+        "DOC-P257P-UN-A2750-19541012",
+        "DOC-P257P-UN-A2801-ACABQ-19541123",
+        "DOC-P257P-UK-HANSARD-19540630"
+      ],
+      "result": "Three institutionally distinct original authors agree 1954 programme substantially underfunded; UNKRA $85m FY plan, ACABQ combined $148m needs/<$50m resources, UK $130m programme reduced to ~$40m refer to different scope/time.",
+      "strict_three_primary_families": true,
+      "limitation": "Two authors within UN system, one UK Foreign Office; not three sovereign national archives."
+    },
+    {
+      "id": "CV-P257P-02",
+      "claim_id": "CL-P257P-44",
+      "families": [
+        "UK_PARLIAMENT_OFFICIAL_PRIMARY",
+        "UN_UNKRA_AGENT_GENERAL_PRIMARY"
+      ],
+      "source_ids": [
+        "DOC-P257P-UK-HANSARD-19550502",
+        "DOC-P257P-UN-A2750-19541012"
+      ],
+      "result": "1955 UK minister £9.585m cash+£0.470m goods and ~$25m of $127m contrasted with 1954 UN Annex I pledged contributions; different date, ledger cross-audit pending.",
+      "strict_three_primary_families": false
     }
   ],
   "adversarial_debate": [
@@ -112,5 +143,6 @@
       "evidence_type": "observed procedural fact",
       "content": "Joint draft adopted 38-5; paragraph1 35-5 with3 abstentions; separate from plenary 828(IX)."
     }
-  ]
+  ],
+  "verified_three_institutional_families": 1
 }
