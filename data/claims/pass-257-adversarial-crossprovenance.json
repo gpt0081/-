@@ -318,20 +318,22 @@
     {
       "id": "CL-P257-15",
       "statement": "1953년 2월 긴급통화조치와 긴급금융조치는 동일한 단일 법령이다",
-      "status": "CONTRADICTED",
+      "status": "CONFLICTED",
       "supporting_evidence": [],
       "contradicting_evidence": [
         "DOC-P257-BOK-1953-CURRENCY-DIGEST"
       ],
       "insufficient_evidence": [],
       "contemporaneous_observation": [
-        "DOC-P257-BOK-1953-CURRENCY-DIGEST"
+        "DOC-P257-BOK-1953-CURRENCY-DIGEST",
+        "DOC-P257-LAW-1953-EMERGENCY-CURRENCY-13",
+        "DOC-P257-LAW-1953-EMERGENCY-FINANCE-277"
       ],
       "later_finding": [],
       "adversarial_search": {
         "performed": true,
         "scope": "원문 상호대조, 당사자 반대기록·기존 기록·원문 색인 확인; 일부 미확보",
-        "next_original_target": "2/15 긴급명령13호 vs 2/27 긴급금융조치법227호; 후대 공식 해제 확인, 법령 원문 미확보"
+        "next_original_target": "BOK 전시 법률 제227호와 법제처 원법령 제277호 명백한 문서번호 충돌. 두 제도 별개, 원관보 1953-02-27 법률 원면 확보."
       },
       "access_date": "2026-10-29",
       "note": "A CONFLICTED status refers to exact competing counts or interpretations, not an automatic finding of culpability."
@@ -816,6 +818,64 @@
         "next_original_target": "동아일보는 UNC 발표를 AP·Reuters로 전한 것으로 동일 원자료 가능성. 원 수용소 명부·적십자 현장기록 필요"
       },
       "access_date": "2026-10-29"
+    },
+    {
+      "id": "CL-P257-40",
+      "statement": "1953-02-27 긴급금융조치법은 법률 제227호였다",
+      "status": "CONFLICTED",
+      "supporting_evidence": [
+        "DOC-P257-BOK-1953-CURRENCY-DIGEST"
+      ],
+      "contradicting_evidence": [
+        "DOC-P257-LAW-1953-EMERGENCY-FINANCE-277"
+      ],
+      "insufficient_evidence": [],
+      "contemporaneous_observation": [
+        "DOC-P257-BOK-1953-CURRENCY-DIGEST",
+        "DOC-P257-LAW-1953-EMERGENCY-FINANCE-277"
+      ],
+      "later_finding": [],
+      "adversarial_search": {
+        "performed": true,
+        "scope": "법제처 원법령 vs 한국은행 전시 해제·후속법 법률번호 반증",
+        "next_original_target": "한국은행 전시 제227호 vs 법제처 법률 제277호, BOK 별도 1962 후속자료도 277. 법제처 원문·관보 원면 우선"
+      },
+      "access_date": "2026-10-29",
+      "correction_history": [
+        {
+          "date": "2026-10-29",
+          "note": "Pass257 earlier treated BOK No.227 as established; official No.277 requires correction and conflict preservation."
+        }
+      ]
+    },
+    {
+      "id": "CL-P257-41",
+      "statement": "1953년 2월 15일 화폐개혁 긴급명령 시행일과 신권 유통 개시일은 같다",
+      "status": "CONTRADICTED",
+      "supporting_evidence": [
+        "DOC-P257-LAW-1953-EMERGENCY-CURRENCY-13"
+      ],
+      "contradicting_evidence": [
+        "DOC-P257-BOK-1953-CURRENCY-DIGEST"
+      ],
+      "insufficient_evidence": [],
+      "contemporaneous_observation": [
+        "DOC-P257-LAW-1953-EMERGENCY-CURRENCY-13",
+        "DOC-P257-BOK-1953-CURRENCY-DIGEST"
+      ],
+      "later_finding": [],
+      "adversarial_search": {
+        "performed": true,
+        "scope": "법제처 원법령 vs 한국은행 전시 해제·후속법 법률번호 반증",
+        "next_original_target": "긴급명령 2/15, 구권 유통정지·신권 법화 통용 2/17; 시행 단계별 확인"
+      },
+      "access_date": "2026-10-29",
+      "correction_history": [
+        {
+          "date": "2026-10-29",
+          "note": "Pass257 earlier treated BOK No.227 as established; official No.277 requires correction and conflict preservation."
+        }
+      ]
     }
   ],
   "independent_counter_search_topics": 12,
