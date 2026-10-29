@@ -5,47 +5,52 @@
   "domains": [
     {
       "name": "주거·복지",
-      "status": "STRUCTURED",
+      "status": "ORIGINAL_BACKED",
       "evidence": [
         "DOC-P257P-SEOUL-UNKRA-HOUSING-EXHIBIT",
-        "DOC-P257O4-UN-YEARBOOK-1954"
+        "DOC-P257O4-UN-YEARBOOK-1954",
+        "DOC-P257P-UN-A2750-19541012"
       ],
       "new": "1953 5,500 planned, Seoul allocation 1,004, Anam49 completed, 1954 330/148 staged",
       "gap": "overlap and plan revision original"
     },
     {
       "name": "외교·원조",
-      "status": "STRUCTURED",
+      "status": "ORIGINAL_BACKED",
       "evidence": [
         "DOC-P257P-UN-RES828-19541214",
-        "DOC-P257P-NAK-CA0002578-CATALOG"
+        "DOC-P257P-NAK-CA0002578-CATALOG",
+        "DOC-P257P-UN-A2750-19541012"
       ],
       "new": "828(IX) original payment request, 1954-05-31 treaty record identity",
       "gap": "CA0002578 32pp and A/2750 full text"
     },
     {
       "name": "재정·산업금융",
-      "status": "SEEDED",
+      "status": "ORIGINAL_BACKED",
       "evidence": [
-        "DOC-P257P-NAK-1954-LAW-METADATA"
+        "DOC-P257P-NAK-1954-LAW-METADATA",
+        "DOC-P257P-UN-A2750-19541012"
       ],
       "new": "KDB Act302→decree860, counterpart law311 date chain",
       "gap": "law full provisions, bank accounts"
     },
     {
       "name": "농정·식량",
-      "status": "SEEDED",
+      "status": "ORIGINAL_BACKED",
       "evidence": [
-        "DOC-P257P-NAK-1954-AGRI-RETROSPECT"
+        "DOC-P257P-NAK-1954-AGRI-RETROSPECT",
+        "DOC-P257P-UN-A2750-19541012"
       ],
       "new": "1954 barley target/actual later source, denominator preserved",
       "gap": "ministry original statistics and causal audit"
     },
     {
       "name": "보건·상이군인 복지",
-      "status": "SEEDED",
+      "status": "ORIGINAL_BACKED",
       "evidence": [
-        "DOC-P257P-NAK-BG0000040-CATALOG"
+        "DOC-P257P-NAK-BG0000040-CATALOG",
+        "DOC-P257P-UN-A2750-19541012"
       ],
       "new": "1953 cabinet prosthetics facility centralization original item identified",
       "gap": "original meeting, actual facility construction"
@@ -61,5 +66,6 @@
     }
   ],
   "domains_materially_extended": 6,
-  "warning": "Only housing and international-aid domains have direct substantive full-text original/synthesis corroboration; remaining domains are original-record leads or official retrospective metadata, not verified implementation."
+  "warning": "Five domains now have directly opened contemporary A/2750 primary report. Local-government domain still official catalog only. All A/2750 claims are UNKRA's self-report; independent Korean ledger audit pending.",
+  "sourceCorrection": "A/2750 PDF 403 earlier path was temporary; full text obtained 2026-10-29."
 }
