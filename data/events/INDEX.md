@@ -155,3 +155,5 @@
 - 2026-10-29 Pass257Q: `data/events/pass-257q-1954-cabinet-actions.json` 대통령 유시15·국무회의 의결5·관보공고1, 집행증거 별도. 중앙 events.json 대신 additive shard+index.
 
 - Pass257Q FRUS addendum: 7 tungsten/foreign policy actions (1954-01-24 through 02-25) in existing pass257Q event shard.
+
+- Pass257Q health addendum: 1954-02-02 law307/308 promulgation, 1957-02-28 law308 effect, 1954-02-20 fisheries law298, 4/1 industrial bank index.

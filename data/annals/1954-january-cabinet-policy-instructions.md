@@ -14,3 +14,9 @@
 - [1954-02-02 McClurkin→Drumright 비망록](https://history.state.gov/historicaldocuments/frus1952-54v15p2/d867): 1952-03-28 협정, 1만5천 short ton 계약상한, 1954-04-01 종료 예상, 추가 구매예산 부재. 1953년 1~9월 중석 수출 약2,300만달러/상품수출 3,300만달러는 **미국측 당대 추정**. 가격 $65와 $63 병기 불일치 원계약 확인 필요.
 - [1954-02-25 Dulles 전문699](https://history.state.gov/historicaldocuments/frus1952-54v15p2/d873): 추가 중석 구매 자금이 없고 기술·마케팅 지원을 검토한다는 회신을 주한미대사관에 **승인**. 실제 전달·한국측 수신 확인은 별개.
 - [1954-02-04 이승만 서한](https://history.state.gov/historicaldocuments/frus1952-54v15p2/d868)과 [2/9 Robertson 회담메모](https://history.state.gov/historicaldocuments/frus1952-54v15p2/d869): 이승만은 일본어업·원조구매국·통일정책에 대한 자신의 주장을 개진. 미측은 서한 정식 접수를 거부했으나 사진복사본이 아이젠하워의 비공식기록에 전달됐다는 각주를 보존. 대통령 주장 수치와 객관적 통계는 분리.
+
+## 1954년 보건입법의 공포와 시행은 서로 다르다
+
+- 1954-01-22 국무회의가 의결한 전염병예방법·해공항검역법안은 [법률 제308호](https://law.go.kr/LSW/lsInfoP.do?lsiSeq=59458) 및 [법률 제307호](https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=59327&viewCls=lsRvsDocInfoR)로 각각 1954-02-02 제정·공포되었다. 제307호는 같은 날 시행, 제308호는 **1957-02-28 시행**. 법제처 원조문은 동적 페이지라 아직 전문 추출하지 못했으며 공포·시행 메타데이터만 직접 확인.
+- [질병관리청 검역의 유래](https://www.kdca.go.kr/kdca/3442/subview.do)는 1947 해공항검역규칙→1954 해공항검역법→1963 검역법의 후대 공식 설명. [법원 손해배상(국) 판결](https://www.law.go.kr/LSW/precInfoP.do?precSeq=234539)은 1954 제정·1957 시행을 언급하는 후대 사법판단. 1954 대통령·각료의 내각 의결과 1957 이후 개별 강제집행은 분리.
+- [국가기록원 1954 연표](https://theme.archives.go.kr/next/chronology/yearRecord.do?year=1954)는 2/20 어업자원보호법 제298호, 4/1 한국산업은행 설립, 2/18 문맹퇴치 3부 합동, 6/26 한글간소화, 6/29 홍수대책 등 추가 일반국정 원문 추적 표적을 제공한다. 이 연표는 후대 색인으로 원문 자체가 아니다.

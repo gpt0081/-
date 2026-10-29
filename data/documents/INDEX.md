@@ -204,3 +204,5 @@
 - 2026-10-29 Pass257Q: `data/documents/pass-257q-1954-cabinet-gazette-originals.json` 제5회 국무회의록 1/22, 관보1049 1/23 신규 원전사 2건, 기존 7건 ID 재사용. 목록 11/29 충돌.
 
 - Pass257Q FRUS addendum: original documents d862/d867/d873/d868/d869, Jan27–Feb25 1954 tungsten renewal and presidential letter; 5 new document IDs in `data/documents/pass-257q-1954-cabinet-gazette-originals.json`.
+
+- Pass257Q health addendum: 법률307·308호 official metadata, KDCA 검역사, later judicial judgment, National Archives 1954 timeline (full original statutes not extracted).

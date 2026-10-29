@@ -171,3 +171,5 @@
 - 2026-10-29 Pass257Q: `data/claims/pass-257q-1954-cabinet-adversarial.json` 원문 메타데이터·지시/집행·경제개헌·장관변경 12개 검증 주장.
 
 - Pass257Q FRUS addendum: 10 claim-level contrary-evidence reviews for tungsten agreement, U.S. reply, 1954 presidential letter and provenance roles.
+
+- Pass257Q health addendum: 8 claim reviews on 1954 law307/308 promulgation/effectiveness and later judicial findings.

@@ -1924,3 +1924,8 @@
 - 상태: NARROWED (2026-10-29 pass257Q). [1954-01-27 Bond 전문720](https://history.state.gov/historicaldocuments/frus1952-54v15p2/d862)은 1/24 변영태 외무장관이 덜레스에게 갱신을 요구했다고 보고. [1954-02-02 McClurkin 비망록](https://history.state.gov/historicaldocuments/frus1952-54v15p2/d867)은 1952-03-28 협정, 1만5천 short ton 계약상한, 1954-04-01 종료 전망, 1953년 미국측 사전 경고, 추가 구매예산 없음에 대한 내부 권고를 기록. [1954-02-25 덜레스 전문699](https://history.state.gov/historicaldocuments/frus1952-54v15p2/d873)은 한국측에 추가구매 자금 없음·기술지원 검토를 답신하도록 **권한 부여**.
 - 미해결: 원계약 65달러와 같은 비망록의 63달러 병기, 1/24 원서한, 2/25 회신 실제 전달, 4/1 계약 종료 및 인도원장. 종료 전망·권고·답변승인과 실제 계약종료를 구분.
 - 다음: `data/research/leads/pass-257q-1954-cabinet-followup.json` FRUS leads 1~8, 15.
+
+
+### HD-1954-HEALTH-LAW-PROMULGATION · 1954 보건입법의 국무회의·국회·공포·시행 시간차
+- 상태: NARROWED (2026-10-29 pass257Q). 1954-01-22 제5회 국무회의는 전염병예방법안·해공항검역법안 원안 의결을 기록. 법제처 [법률 제307호](https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=59327&viewCls=lsRvsDocInfoR)는 1954-02-02 공포·시행, [법률 제308호](https://law.go.kr/LSW/lsInfoP.do?lsiSeq=59458)는 1954-02-02 제정·1957-02-28 시행으로 구분. 질병관리청 후대 검역사와 후대 법원 판결이 연혁을 보강.
+- 미해결: 1954-01~02 국회 법안별 표결/이송, 1957 시행 대통령령, 1954 법률 제307·308호 관보 원면, 1954-01-22 국무회의 안건의 법적 단계. 후대 강제격리 집행은 대통령 직접명령으로 귀속하지 않음.
