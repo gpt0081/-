@@ -192,3 +192,5 @@
 - 2026-10-29 Pass257O2: `data/documents/pass-257o2-1954-election-frus-originals.json` (FRUS 1954-05-24, 1954-07-14 동시대 원문 2건 및 국편 헌정사 후대 해제 1건).
 
 - 2026-10-29 Pass257O3: `data/documents/pass-257o3-1953-law277-bok.json` (법277 24개 조문 제3자 역사법령 재현·한국은행 1953 후대 공식전시; 별표·원관보 미열람).
+
+- 2026-10-29 Pass257O4: `data/documents/pass-257o4-uncurk-yearbook-originals.json` (기존 DOC-P239K-UN-A2711·DOC-P239K-NEC-1954-ELECTION ID 재사용, 신규 UN Yearbook 1954 1건).

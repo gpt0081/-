@@ -159,3 +159,5 @@
 - 2026-10-29 Pass257O2: `data/claims/pass-257o2-1954-election-frus-conflicts.json` (114/115, FRUS 6/7 국역, 공천/친여 분류, 경찰개입 관찰 vs 직접지시, 114→127→136).
 
 - 2026-10-29 Pass257O3: `data/claims/pass-257o3-finance-law-number-and-effects.json` (법277/227 번호충돌, 별표2 미열람, 이식제한령 처벌, 예금동결 계정, BOK 통계).
+
+- 2026-10-29 Pass257O4: `data/claims/pass-257o4-uncurk-election-aid-adversarial.json` (UN 115 vs NEC114, UN vs US 선거절차 평가, UNKRA 약정/도착/준공 단계).

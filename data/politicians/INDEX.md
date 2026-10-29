@@ -231,3 +231,5 @@
 
 - 2026-10-29 Pass257O: `data/politicians/pass-257o-1953-1954-identity-audit.json` (기존 5인 선거구·당적·보궐선거 신원 오독 방지).
 - 2026-10-29 Pass257O2: `data/politicians/pass-257o2-1954-election-diplomatic-actor-overlay.json` (미국 원문 1954년 관찰 10인; 기존 ID 재사용, 신원승격 없음).
+
+- 2026-10-29 Pass257O4: `data/politicians/pass-257o4-parliamentary-cabinet-actors.json` (최순주 candidate, 백두진·변영태·곽상훈 원문 인사·의정행위).
