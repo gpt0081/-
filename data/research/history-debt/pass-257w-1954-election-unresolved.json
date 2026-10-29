@@ -11,13 +11,18 @@
       "evidence": [
         "DOC-P257W-NEC-2010-ELECTIONS60",
         "DOC-P257V-FRUS-893",
-        "DOC-P257R-NIKH-CONST"
+        "DOC-P257R-NIKH-CONST",
+        "DOC-P257W-UN-A2711-PRIMARY"
       ],
       "next": "A/2711 pp7-10 and 795B.00/5-2354 original telegram; district affiliation ledger",
       "reviewHistory": [
         {
           "date": "2026-10-29",
           "change": "Added NEC-commissioned later study 114/15/67/7; no original constituency list, do not resolve"
+        },
+        {
+          "date": "2026-10-29",
+          "change": "UNCURK A/2711 original obtained: paragraph74=115/67, AnnexIII=114/68; internal original inconsistency; moved focus to classification provenance"
         }
       ]
     },
@@ -37,19 +42,34 @@
       "question": "Pyun's May22 Geneva 131 Liberal seats/2000 candidates versus later 114/1207",
       "evidence": [
         "DOC-P257W-FRUS-GENEVA-D190",
-        "DOC-P257W-NEC-2010-ELECTIONS60"
+        "DOC-P257W-NEC-2010-ELECTIONS60",
+        "DOC-P257W-UN-A2711-PRIMARY"
       ],
-      "next": "US Verb Min/11 and UK Cmd9186; UN A/2711 election statistics"
+      "next": "US Verb Min/11 and UK Cmd9186; UN A/2711 election statistics",
+      "reviewHistory": [
+        {
+          "date": "2026-10-29",
+          "change": "UN para65 ~1200 and Annex III 1207, contemporaneous contradiction of May22 speech 2000; still need verbatim minutes"
+        }
+      ]
     },
     {
       "id": "HD-P257W-UN-A2711-ACCESS",
-      "status": "BLOCKED",
+      "status": "RESOLVED_ACCESS_ONLY",
       "question": "Read UNCURK 1954 original A/2711 pp7-10",
       "evidence": [
         "DOC-P257W-UN-A2711-PENDING"
       ],
-      "blocker": "UN Digital Library original PDF returned HTTP403 via web; not read; search snippet does not qualify",
-      "next": "UN Dag Hammarskjöld Library alternative mirror, library holding Shannon B McCune papers item373"
+      "blocker": "Initial web HTTP403 bypassed via legitimate alternate fetch; historical evidence dispute remains open",
+      "next": "Verify page facsimile/annex column OCR and original Korean district affiliations",
+      "reviewHistory": [
+        {
+          "date": "2026-10-29",
+          "previous": "BLOCKED",
+          "current": "RESOLVED_ACCESS_ONLY",
+          "note": "Original UN report OCR retrieved and read; internal 114/115 election classification remains CONFLICTED, no substantive seat claim resolution"
+        }
+      ]
     },
     {
       "id": "HD-P257W-APR19-COMMITTEE-ORIGINAL",
@@ -97,6 +117,25 @@
         "DOC-P257W-DONGA-2004-1954-EXPLOSIVES"
       ],
       "next": "1954-04-29 DongA original full article; Commerce Ministry $200k import decision"
+    },
+    {
+      "id": "HD-P257W-UN-CABINET-KOREAN-NAMES",
+      "status": "OPEN",
+      "question": "Yoon Kun-Joong and Choi Kyoo-Ok Korean names/hanja and appointment effective dates",
+      "evidence": [
+        "DOC-P257W-UN-A2711-PRIMARY"
+      ],
+      "next": "1954-05-06 and 1954-06-30 농림부 장관 관보 인사발령 원문; avoid romanization-based guessed identities"
+    },
+    {
+      "id": "HD-P257W-UN-EDUCATION-RESIGN-DATE",
+      "status": "CONFLICTED",
+      "question": "Kim Bup-Rin UN Annex II resignation 1954-02-05 vs Korean MOE historical roster 1954-04-20",
+      "evidence": [
+        "DOC-P257W-UN-A2711-PRIMARY",
+        "DOC-P257V-MOE-MINISTERS"
+      ],
+      "next": "1954-02-05, 1954-04-20~21 관보 문교부장관 사임·임명·서리 원발령"
     }
   ]
 }
