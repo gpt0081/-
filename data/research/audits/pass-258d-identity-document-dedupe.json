@@ -70,5 +70,26 @@
     "preexistingStatus": "ANNALS_ACTIVE",
     "reason": "Romanization without Korean official translation caused duplicate",
     "newCandidatesAfterCorrection": 1
+  },
+  "eventDeduplication": {
+    "date": "2026-10-30",
+    "duplicateEventIdsRetired": 13,
+    "newUniqueEventCount": 10,
+    "canonicalEventMap": {
+      "evt-p258d-03": "evt-p240-02",
+      "evt-p258d-05": "evt-p240-03",
+      "evt-p258d-06": "evt-p240-04",
+      "evt-p258d-07": "evt-p240-18",
+      "evt-p258d-08": "evt-p240-05",
+      "evt-p258d-09": "evt-p239k2-02",
+      "evt-p258d-10": "evt-p239k2-03",
+      "evt-p258d-11": "evt-p239k2-04",
+      "evt-p258d-12": "evt-p239k2-17",
+      "evt-p258d-13": "evt-p239k2-05",
+      "evt-p258d-15": "evt-p240-06",
+      "evt-p258d-20": "evt-p240-12",
+      "evt-p258d-23": "evt-p239k2-06"
+    },
+    "policy": "Migrate all pass258D actor/event references, enrich existing canonical event files, preserve audit history."
   }
 }
