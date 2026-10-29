@@ -5,22 +5,23 @@
   "floot_touched": false,
   "full_hour_verified": false,
   "counts": {
-    "directly_opened_new_distinct": 73,
-    "official_original_or_transcribed_primary": 28,
+    "directly_opened_new_distinct": 76,
+    "official_original_or_transcribed_primary": 30,
     "contemporary_press_or_editorial": 45,
     "original_facsimiles": 0,
-    "independent_research_lines_source_scoped": 24,
+    "independent_research_lines_source_scoped": 27,
     "governance_domains": 12,
     "nonpresidential_actors_with_new_evidence": 31,
     "new_politician_candidates": 6,
-    "new_events": 54,
-    "new_claims": 46,
-    "adversarial_claims_examined": 46,
+    "new_events": 59,
+    "new_claims": 53,
+    "adversarial_claims_examined": 53,
     "independent_adversarial_searches_verified": 10,
     "prior_open_leads_contextually_tracked": 8,
-    "new_specific_leads": 80,
-    "contextual_cross_provenance_bundles": 3,
-    "three_family_primary_confirmations": 0
+    "new_specific_leads": 90,
+    "contextual_cross_provenance_bundles": 4,
+    "three_family_primary_confirmations": 0,
+    "later_official_institutional_retrospective": 1
   },
   "dedup_note": "FRUS d254-283 previously registered in pass253; only FRUS d284-286 and FRUS Japan 603/678 new in this pass; NIKH 3 US original transcripts counted by unique underlying document, not 3 provenance families",
   "document_ids": [
@@ -79,7 +80,8 @@
     "9/29 230만 농가의 4할은 92만, 보도 9만호 산술충돌",
     "9/26 삼척 비료공장 연 2000만톤 생산 보도 원설계 미확보",
     "9/25 구호물자 전년도 1991년 표기 오류 가능성",
-    "9/25 Lightner 일본어선 금지 설명 vs 9/27 Murphy Clark 비차별 정정"
+    "9/25 Lightner 일본어선 금지 설명 vs 9/27 Murphy Clark 비차별 정정",
+    "후대 유엔 Archives UNKRA 설립결의 401(V) 표기 vs 1952 유엔 A/2222 원문 410(V)"
   ],
   "next_lead_file": "data/research/leads/pass-255-next-originals.json",
   "files": [
@@ -108,20 +110,29 @@
     "data/research/rhee-syngman-coverage.json",
     "data/research/rhee-syngman-open-leads.json",
     "data/research/run-reports/pass-255-overall.md",
-    "data/research/pass-255-integrity-audit.json"
+    "data/research/pass-255-integrity-audit.json",
+    "data/documents/pass-255d-un-unkra.json",
+    "data/events/pass-255d-unkra.json",
+    "data/claims/pass-255d-unkra.json",
+    "data/research/leads/pass-255d-next-originals.json",
+    "data/organizations/pass-255d-unkra-link.json",
+    "data/research/run-reports/pass-255d.md"
   ],
   "followupPasses": [
     "255B",
-    "255C"
+    "255C",
+    "255D"
   ],
   "new_source_shards": [
     "data/documents/pass-255b-september24-30.json",
-    "data/documents/pass-255c-frus-japan-korea.json"
+    "data/documents/pass-255c-frus-japan-korea.json",
+    "data/documents/pass-255d-un-unkra.json"
   ],
   "new_lead_files": [
     "data/research/leads/pass-255-next-originals.json",
     "data/research/leads/pass-255b-next-originals.json",
-    "data/research/leads/pass-255c-next-originals.json"
+    "data/research/leads/pass-255c-next-originals.json",
+    "data/research/leads/pass-255d-next-originals.json"
   ],
   "execution_verification": {
     "full_hour_elapsed": false,
@@ -142,12 +153,14 @@
     "verified_registry_counts": {
       "politicians": 303,
       "events": 1040,
-      "documents_added": 73,
-      "official_primary_or_transcriptions": 28,
+      "documents_added": 76,
+      "official_primary_or_transcriptions": 30,
       "contemporary_press": 45,
-      "events_added": 54,
-      "claims_added": 46,
-      "actor_evidence_links": 49
+      "events_added": 59,
+      "claims_added": 53,
+      "actor_evidence_links": 49,
+      "later_institutional_retrospectives": 1,
+      "events_total": 1045
     },
     "correction": "DOC-P255-FRUS-XIV2-603/678 source_kind misclassified as press due editorial footnote phrase; corrected to official primary",
     "actionRolesUpdated": 14
