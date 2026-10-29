@@ -474,13 +474,17 @@
       "name": "조봉암",
       "aliases": [
         "曺奉岩",
-        "Cho Bong-am"
+        "Cho Bong-am",
+        "竹山"
       ],
       "roles": [
         "초대 농림부 장관",
         "제2대 국회 민의원 부의장",
         "진보당 정치인",
-        "1954 국회 부의장"
+        "1954 국회 부의장",
+        "초대 농림부장관",
+        "국회부의장",
+        "1952 대통령 후보"
       ],
       "researchStatus": "ANNALS_ACTIVE",
       "backbone": false,
@@ -516,15 +520,21 @@
         "data/politicians/pass-239l-1956-actors.json",
         "data/politicians/pass-239m3-1954-economic-parliament-actors.json"
       ],
-      "evidenceCoverage": [
-        "DOC-P238-KOR-05_06_0060",
-        "DOC-P239-NIKH-06_01_0060",
-        "DOC-P241-NIKH-OIR7371"
-      ],
+      "evidenceCoverage": {
+        "0": "DOC-P238-KOR-05_06_0060",
+        "1": "DOC-P239-NIKH-06_01_0060",
+        "2": "DOC-P241-NIKH-OIR7371",
+        "documentIds": [
+          "DOC-P251-NEC-PRES",
+          "DOC-P251-AKS-E0051827"
+        ],
+        "level": "NEC_OFFICIAL_RETROSPECTIVE_PLUS_AKS_SECONDARY"
+      },
       "lastResearchPass": 238,
       "openLeads": [
         "LEAD-P239L-29",
-        "LEAD-P239M3-IDENTITY-pol-cho-bong-am"
+        "LEAD-P239M3-IDENTITY-pol-cho-bong-am",
+        "LEAD-P251-36"
       ],
       "evidenceFile": "data/evidence/cho-bong-am.json",
       "annalsFile": "data/annals/cho-bong-am.md",
@@ -560,7 +570,35 @@
       },
       "researchOverlays": [
         "data/politicians/pass-243-1958-actor-evidence.json"
-      ]
+      ],
+      "lifespan": {
+        "born": "1899",
+        "died": "1959-07",
+        "verification": "AKS 2차 인물사전, 원호적·후보등록 원면 미확인"
+      },
+      "roleHistory": [
+        {
+          "date": "1952-08-05",
+          "office": "대통령/부통령 선거 후보",
+          "sources": [
+            "DOC-P251-NEC-PRES",
+            "DOC-P251-AKS-E0051827"
+          ],
+          "selection": "NEC 공식 후대 선거사; 원등록 미열람"
+        }
+      ],
+      "promotionHistory": [
+        {
+          "date": "2026-10-29",
+          "to": "ANNALS_ACTIVE",
+          "reason": "AKS 한자·생몰·시기별 직책 + NEC 1952 후보 기록 교차, 기존 연구성숙도 유지",
+          "sources": [
+            "DOC-P251-AKS-E0051827",
+            "DOC-P251-NEC-PRES"
+          ]
+        }
+      ],
+      "researchMaturity": "ANNALS_ACTIVE"
     },
     {
       "id": "pol-lee-beom-seok",
@@ -3192,10 +3230,14 @@
       "name": "이윤영",
       "aliases": [
         "Yi Yun-yeong",
-        "李允榮"
+        "李允榮",
+        "白史"
       ],
       "roles": [
-        "1952-09 조선민주당 수석최고위원"
+        "1952-09 조선민주당 수석최고위원",
+        "제헌국회의원",
+        "조선민주당 정치인",
+        "1952 부통령 후보"
       ],
       "researchStatus": "IDENTIFIED",
       "backbone": false,
@@ -3209,9 +3251,9 @@
       "openLeadsFile": "data/research/leads/pass-232-20261028-next-lead-queue.json",
       "researchNote": "2026-10-28 pass232 event-scoped identity; birth/death/appointment/party official originals pending",
       "lifespan": {
-        "born": null,
-        "died": null,
-        "verification": "not independently checked this pass"
+        "born": "1890-08-19",
+        "died": "1975-10-15",
+        "verification": "AKS 2차 인물사전, 원호적·후보등록 원면 미확인"
       },
       "hanjaVerification": "1952 contemporaneous text or existing canonical registry",
       "partyAffiliationEvidence": "조선민주당",
@@ -3220,11 +3262,40 @@
         "data/politicians/pass-239l2-1955-cabinet-election-actors.json"
       ],
       "openLeads": [
-        "LEAD-P239L2-12"
+        "LEAD-P239L2-12",
+        "LEAD-P251-33"
       ],
-      "evidenceCoverage": [
-        "DOC-P239L2-UN-A2947"
-      ]
+      "evidenceCoverage": {
+        "0": "DOC-P239L2-UN-A2947",
+        "documentIds": [
+          "DOC-P251-NEC-PRES",
+          "DOC-P251-AKS-E0045465"
+        ],
+        "level": "NEC_OFFICIAL_RETROSPECTIVE_PLUS_AKS_SECONDARY"
+      },
+      "roleHistory": [
+        {
+          "date": "1952-08-05",
+          "office": "대통령/부통령 선거 후보",
+          "sources": [
+            "DOC-P251-NEC-PRES",
+            "DOC-P251-AKS-E0045465"
+          ],
+          "selection": "NEC 공식 후대 선거사; 원등록 미열람"
+        }
+      ],
+      "promotionHistory": [
+        {
+          "date": "2026-10-29",
+          "to": "IDENTIFIED",
+          "reason": "AKS 한자·생몰·시기별 직책 + NEC 1952 후보 기록 교차, 기존 연구성숙도 유지",
+          "sources": [
+            "DOC-P251-AKS-E0045465",
+            "DOC-P251-NEC-PRES"
+          ]
+        }
+      ],
+      "researchMaturity": "IDENTIFIED"
     },
     {
       "id": "cand-1952-vice-jeong-gi-won",
@@ -3601,12 +3672,17 @@
       "aliases": [
         "조병옥",
         "趙炳玉",
-        "Cho Byeong-ok"
+        "Cho Byeong-ok",
+        "維石",
+        "趙炳甲"
       ],
       "researchStatus": "IDENTIFIED",
       "backbone": false,
       "roles": [
-        "1952-10 민주국민당 전당대회 준비위원장"
+        "1952-10 민주국민당 전당대회 준비위원장",
+        "미군정청 경무부장",
+        "한국전쟁기 내무장관",
+        "1952 부통령 후보"
       ],
       "connections": [
         "evt-p233-add-opposition-convention",
@@ -3625,16 +3701,21 @@
         "data/politicians/pass-239e-actors.json"
       ],
       "lifespan": {
-        "born": null,
-        "died": null,
-        "verification": "이번 회차 생몰 원기록 미확인"
+        "born": "1894",
+        "died": "1960",
+        "verification": "AKS 2차 인물사전, 원호적·후보등록 원면 미확인"
       },
-      "evidenceCoverage": [
-        "DOC-P239D-NIKH-0620-0030",
-        "DOC-P239E-NIKH-0622-0080",
-        "DOC-P239E-NIKH-0623-0040",
-        "DOC-P241-NIKH-OIR7371"
-      ],
+      "evidenceCoverage": {
+        "0": "DOC-P239D-NIKH-0620-0030",
+        "1": "DOC-P239E-NIKH-0622-0080",
+        "2": "DOC-P239E-NIKH-0623-0040",
+        "3": "DOC-P241-NIKH-OIR7371",
+        "documentIds": [
+          "DOC-P251-NEC-PRES",
+          "DOC-P251-AKS-E0051799"
+        ],
+        "level": "NEC_OFFICIAL_RETROSPECTIVE_PLUS_AKS_SECONDARY"
+      },
       "recentResearchPass241": {
         "date": "2026-10-29",
         "documents": [
@@ -3659,7 +3740,33 @@
       },
       "researchOverlays": [
         "data/politicians/pass-243-1958-actor-evidence.json"
-      ]
+      ],
+      "openLeads": [
+        "LEAD-P251-31"
+      ],
+      "roleHistory": [
+        {
+          "date": "1952-08-05",
+          "office": "대통령/부통령 선거 후보",
+          "sources": [
+            "DOC-P251-NEC-PRES",
+            "DOC-P251-AKS-E0051799"
+          ],
+          "selection": "NEC 공식 후대 선거사; 원등록 미열람"
+        }
+      ],
+      "promotionHistory": [
+        {
+          "date": "2026-10-29",
+          "to": "IDENTIFIED",
+          "reason": "AKS 한자·생몰·시기별 직책 + NEC 1952 후보 기록 교차, 기존 연구성숙도 유지",
+          "sources": [
+            "DOC-P251-AKS-E0051799",
+            "DOC-P251-NEC-PRES"
+          ]
+        }
+      ],
+      "researchMaturity": "IDENTIFIED"
     },
     {
       "id": "cand-1952-oct-yu-jin-san",
@@ -3716,12 +3823,16 @@
       "aliases": [
         "이갑성",
         "李甲成",
-        "Lee Gap-seong"
+        "Lee Gap-seong",
+        "硏堂"
       ],
       "researchStatus": "IDENTIFIED",
       "backbone": false,
       "roles": [
-        "1952-11 국무총리 지명자·자유당 의원총회 발언"
+        "1952-11 국무총리 지명자·자유당 의원총회 발언",
+        "3·1운동 민족대표 33인",
+        "자유당 최고위원",
+        "1952 부통령 후보"
       ],
       "connections": [
         "evt-p233-add-lee-gap-seong-nomination",
@@ -3731,10 +3842,43 @@
         "data/politicians/pass-233-addendum-1952-domestic-actors.json"
       ],
       "lifespan": {
-        "born": null,
-        "died": null,
-        "verification": "이번 회차 생몰 원기록 미확인"
-      }
+        "born": "1886",
+        "died": "1981",
+        "verification": "AKS 2차 인물사전, 원호적·후보등록 원면 미확인"
+      },
+      "evidenceCoverage": {
+        "documentIds": [
+          "DOC-P251-NEC-PRES",
+          "DOC-P251-AKS-E0043484"
+        ],
+        "level": "NEC_OFFICIAL_RETROSPECTIVE_PLUS_AKS_SECONDARY"
+      },
+      "openLeads": [
+        "LEAD-P251-32"
+      ],
+      "roleHistory": [
+        {
+          "date": "1952-08-05",
+          "office": "대통령/부통령 선거 후보",
+          "sources": [
+            "DOC-P251-NEC-PRES",
+            "DOC-P251-AKS-E0043484"
+          ],
+          "selection": "NEC 공식 후대 선거사; 원등록 미열람"
+        }
+      ],
+      "promotionHistory": [
+        {
+          "date": "2026-10-29",
+          "to": "IDENTIFIED",
+          "reason": "AKS 한자·생몰·시기별 직책 + NEC 1952 후보 기록 교차, 기존 연구성숙도 유지",
+          "sources": [
+            "DOC-P251-AKS-E0043484",
+            "DOC-P251-NEC-PRES"
+          ]
+        }
+      ],
+      "researchMaturity": "IDENTIFIED"
     },
     {
       "id": "cand-1952-nov-bae-eun-hui",
@@ -8077,27 +8221,45 @@
       "id": "cand-p239l2-paik-seong-uk",
       "name": "백성욱",
       "aliases": [
-        "Paik Seong-uk"
+        "Paik Seong-uk",
+        "白性郁"
       ],
       "lifespan": {
-        "born": null,
-        "died": null,
-        "verification": "not yet checked"
+        "born": "1897-08-19",
+        "died": "1981-08-19",
+        "verification": "AKS 2차 인물사전, 원호적·후보등록 원면 미확인"
       },
       "roles": [
-        "Vice-presidential registered candidate"
+        "Vice-presidential registered candidate",
+        "1950 내무부장관",
+        "동국대학교 총장",
+        "1952 부통령 후보"
       ],
       "roleHistory": [
         {
           "period": "1956-04-07",
           "description": "Vice-presidential registered candidate"
+        },
+        {
+          "date": "1952-08-05",
+          "office": "대통령/부통령 선거 후보",
+          "sources": [
+            "DOC-P251-NEC-PRES",
+            "DOC-P251-AKS-E0022177"
+          ],
+          "selection": "NEC 공식 후대 선거사; 원등록 미열람"
         }
       ],
       "partyHistory": [],
-      "researchStatus": "DISCOVERED",
-      "evidenceCoverage": [
-        "DOC-P239L2-UN-A2947"
-      ],
+      "researchStatus": "IDENTIFIED",
+      "evidenceCoverage": {
+        "0": "DOC-P239L2-UN-A2947",
+        "documentIds": [
+          "DOC-P251-NEC-PRES",
+          "DOC-P251-AKS-E0022177"
+        ],
+        "level": "NEC_OFFICIAL_RETROSPECTIVE_PLUS_AKS_SECONDARY"
+      },
       "connections": [
         "evt-p239l2-23",
         "evt-p251-1952-0805-vice-election"
@@ -8106,14 +8268,27 @@
         "data/politicians/pass-239l2-1955-cabinet-election-actors.json"
       ],
       "openLeads": [
-        "LEAD-P239L2-12"
+        "LEAD-P239L2-12",
+        "LEAD-P251-35"
       ],
       "historyDebt": [
         "HD-P239L2-CABINET"
       ],
       "identityCaveat": "Hanja, birth/death and Korean gazette original pending; do not auto-merge homonyms.",
       "originalRoster": "DOC-P239L2-UN-A2947",
-      "lastResearchPass": "239L2"
+      "lastResearchPass": "239L2",
+      "promotionHistory": [
+        {
+          "date": "2026-10-29",
+          "to": "DISCOVERED",
+          "reason": "AKS 한자·생몰·시기별 직책 + NEC 1952 후보 기록 교차, 기존 연구성숙도 유지",
+          "sources": [
+            "DOC-P251-AKS-E0022177",
+            "DOC-P251-NEC-PRES"
+          ]
+        }
+      ],
+      "researchMaturity": "IDENTIFIED"
     },
     {
       "id": "cand-p239m-lee-cheol-seung",
@@ -8856,16 +9031,22 @@
       "id": "cand-p239m3-jeon-jin-han",
       "name": "전진한",
       "aliases": [
-        "錢鎭漢"
+        "錢鎭漢",
+        "Jeon Jin-han",
+        "牛村"
       ],
       "lifespan": {
-        "born": "1901",
-        "died": "1972-04-22",
-        "verification": "AKS secondary"
+        "born": "1901-11-05",
+        "died": "1972",
+        "verification": "AKS 2차 인물사전, 원호적·후보등록 원면 미확인"
       },
       "roles": [
         "1954 제2대 국회의원",
-        "1960-07-29 제5대 민의원 서울 종로 갑 관련 무소속 당선인(국편 편찬 명부)"
+        "1960-07-29 제5대 민의원 서울 종로 갑 관련 무소속 당선인(국편 편찬 명부)",
+        "초대 사회부장관",
+        "제헌국회의원",
+        "노동·협동조합 운동가",
+        "1952 부통령 후보"
       ],
       "researchStatus": "IDENTIFIED",
       "backbone": false,
@@ -8878,15 +9059,19 @@
       "evidenceCoverage": {
         "documentIds": [
           "DOC-P239M3-ASSEMBLY-0040",
-          "DOC-P248-NIKH"
-        ]
+          "DOC-P248-NIKH",
+          "DOC-P251-NEC-PRES",
+          "DOC-P251-AKS-E0049704"
+        ],
+        "level": "NEC_OFFICIAL_RETROSPECTIVE_PLUS_AKS_SECONDARY"
       },
       "researchRefs": [
         "data/politicians/pass-239m3-1954-economic-parliament-actors.json",
         "data/politicians/pass-247-1960-party-network.json"
       ],
       "openLeads": [
-        "LEAD-P239M3-IDENTITY-cand-p239m3-jeon-jin-han"
+        "LEAD-P239M3-IDENTITY-cand-p239m3-jeon-jin-han",
+        "LEAD-P251-34"
       ],
       "historyDebt": [],
       "recentResearchPass247": {
@@ -8899,7 +9084,30 @@
           "evt-p247-0521-korean-social"
         ],
         "verification": "AKS/KDEMO; originals pending"
-      }
+      },
+      "roleHistory": [
+        {
+          "date": "1952-08-05",
+          "office": "대통령/부통령 선거 후보",
+          "sources": [
+            "DOC-P251-NEC-PRES",
+            "DOC-P251-AKS-E0049704"
+          ],
+          "selection": "NEC 공식 후대 선거사; 원등록 미열람"
+        }
+      ],
+      "promotionHistory": [
+        {
+          "date": "2026-10-29",
+          "to": "IDENTIFIED",
+          "reason": "AKS 한자·생몰·시기별 직책 + NEC 1952 후보 기록 교차, 기존 연구성숙도 유지",
+          "sources": [
+            "DOC-P251-AKS-E0049704",
+            "DOC-P251-NEC-PRES"
+          ]
+        }
+      ],
+      "researchMaturity": "IDENTIFIED"
     },
     {
       "id": "cand-p239m3-park-cheol-ung",
