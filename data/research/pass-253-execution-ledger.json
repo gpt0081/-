@@ -16,7 +16,7 @@
     "adversarial_claims": 43,
     "adversarial_routes": 39,
     "prior_leads_tracked": 10,
-    "new_original_leads": 76,
+    "new_original_leads": 79,
     "cross_provenance_contextual_bundles": 6,
     "three_family_primary_confirmations": 0,
     "new_candidate_nodes": 5,
@@ -199,9 +199,20 @@
     "newDocuments": 25,
     "newEvents": 26,
     "newClaims": 14,
-    "newLeads": 22,
+    "newLeads": 25,
     "newCandidates": 1,
     "duplicateOriginalTranslationsExcluded": 1
   },
-  "nextQueueFinal": "data/research/leads/pass-253e-next-originals.json"
+  "nextQueueFinal": "data/research/leads/pass-253e-next-originals.json",
+  "referenceCorrections": [
+    {
+      "date": "2026-10-29",
+      "items": [
+        "CLM-P253-crop",
+        "CLM-P253D-bank",
+        "CLM-P253E-ceb-crop"
+      ],
+      "reason": "three cross-shard document ID typos corrected"
+    }
+  ]
 }
