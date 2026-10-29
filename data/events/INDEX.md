@@ -127,3 +127,4 @@
 - data/events/pass-253f-september-sept12-15.json (pass253F, 2026-10-29)
 
 - 2026-10-29 Pass255H: `data/events/pass-255h-oct13-17-actions.json` (원문 출처·불확실성 보존).
+- 2026-10-29 Pass255H2: `data/events/pass-255h2-frus-un-options.json` (FRUS d291~d300 추가 검증).
