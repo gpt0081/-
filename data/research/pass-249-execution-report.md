@@ -75,3 +75,9 @@ politician candidate IDs, event IDs, document IDs, claim IDs는 shard에 정의�
 - 기존 open lead **8건** 추적: pass248 4건(국회45차 회의일, 서울시장 투표율, 김상돈 취임, 시의회 원회의록) + 저장소의 2026-09-29 pass249 1952 lead 4건(AA0002813, LE-00-27369, BA0084191 경제계획, BA0084188 석탄공사). 상태 억지 RESOLVED 없음. 상세 추적기록 data/research/pass-249-breadth-followup.md.
 - 새 구체적 원문 표적 **60건**. 1952 국민학교 급식 8면·수리조합 보증·석탄공사 불입·전북 선거독본 76쪽 추적을 추가.
 - 최종 데이터 감사: claim의 반증설명 문장 2개가 evidence ID 배열에 들어간 것을 별도 counterArguments로 옮기고 실제 문서 ID로 교체. 1952-03 난민 추계 사건 ID의 임의 날짜도 이전 커밋에서 교정. silent overwrite 대신 correction history 유지.
+
+
+## 최종 반증·교차검증 감사
+- 12개 서로 다른 명제에 기존 설명을 흔들 수 있는 대체기록·반대견해·외국기록을 찾아 비교하거나, 접근 실패 시 원문 표적을 구체화했다. **독립 adversarial search 12개**, 결과는 CONFLICTED·NARROWED·OPEN으로 분리. 세부 출처와 실패경로: data/research/pass-249-adversarial-audit.md.
+- **독립 출처계열 교차검증 4묶음**: 1952 대통령선거 득표율(UN+선관위), 부산계엄(UN+FRUS), 1952 지방선거(UN+선관위), 법률587 공포(법제처+국가기록원+KDemo). **서로 독립한 1차 원문 3계열이 모두 확인된 엄격한 확증은 0묶음**. 출처 계열 수와 원문 접근 등급을 구분.
+- 본 실행은 자료 원문 43건/공식·동시대 22건, 독립 연구선 20개, 일반 국정영역 10개, 비대통령 후보 16명, event 39건, 기존 lead 8건, 신규 원문 표적 60건을 기록. 최소 하한 달성 항목을 조기 종료 조건으로 삼지 않고 후속 FRUS·원문 탐색과 일관성 검사를 계속 수행했다. 1시간 실행했다는 주장은 하지 않는다.

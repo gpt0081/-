@@ -124,3 +124,5 @@
 - pass249 FRUS 1952 경제조정·국무회의/군 지휘·미국 정책차이·UNC 원조·포로재심사 검증 claim 10개 추가.
 
 - pass249 증거그래프 타입 정정: 1952 UN 86%/NEC 74.6%·공산연계 음모 주장 반증은 counterArguments 텍스트와 원문 document ID를 분리.
+
+- pass249 독립 반증탐색·교차출처 감사: data/research/pass-249-adversarial-audit.md (12 adversarial claims, 4 cross-provenance bundles; strict 3-original-family=0).
