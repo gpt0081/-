@@ -15,7 +15,14 @@
         "9/16 합동조사 원보고서"
       ],
       "adversarial_search_performed": true,
-      "review_date": "2026-10-29"
+      "review_date": "2026-10-29",
+      "contextual_evidence": [
+        "DOC-P253E-DH-0911-0010",
+        "DOC-P253E-DH-0906-0060"
+      ],
+      "qualification_notes": [
+        "한국 960만/970만석 추정, UNC 1500만석. 9/16 합동조사 원결과 미확보"
+      ]
     },
     {
       "id": "CLM-P253-grain",
@@ -32,7 +39,8 @@
       "adversarial_search_performed": true,
       "review_date": "2026-10-29",
       "qualification_notes": [
-        "9/8 국편 색인은 농림위 부결을 명시하나 개별 원속기 미열람"
+        "9/8 국편 색인은 농림위 부결을 명시하나 개별 원속기 미열람",
+        "9/8 농림위 정부원안 부결 뒤 9/10 본회의는 농림위 수정안 통과 보도, 최종 가격 고시 미확인"
       ],
       "correction_history": [
         {
@@ -42,7 +50,8 @@
         }
       ],
       "contextual_evidence": [
-        "DOC-P253-DH-0904-0070"
+        "DOC-P253-DH-0904-0070",
+        "DOC-P253E-DH-0910-0080"
       ]
     },
     {
@@ -95,7 +104,7 @@
     {
       "id": "CLM-P253-land",
       "statement": "9/6 농지개혁법 5년 현금상환안이 공포된 법률임",
-      "status": "OPEN",
+      "status": "NARROWED",
       "supporting_evidence": [
         "DOC-P253-DH-0906-0040"
       ],
@@ -105,16 +114,27 @@
         "제26차 본회의 속기"
       ],
       "adversarial_search_performed": true,
-      "review_date": "2026-10-29"
+      "review_date": "2026-10-29",
+      "contextual_evidence": [
+        "DOC-P253E-DH-0910-0060"
+      ],
+      "correction_history": [
+        {
+          "date": "2026-10-29",
+          "reason": "9/10 제13회 임시국회 종료 보도는 농지개혁법 개정안 국회 통과를 기록. 공포·시행일은 여전히 미확인"
+        }
+      ]
     },
     {
       "id": "CLM-P253-tungsten",
       "statement": "백두진은 중석불 사건 관련 모든 국회 출석에 불응함",
-      "status": "NARROWED",
+      "status": "CONTRADICTED",
       "supporting_evidence": [
         "DOC-P253-DH-0906-0030"
       ],
-      "contradicting_or_limiting_evidence": [],
+      "contradicting_or_limiting_evidence": [
+        "DOC-P253E-DH-0910-0080"
+      ],
       "adversarial_route": "본회의·특위 출석기록 대조",
       "insufficient_evidence": [
         "9/6 특위 출석요구서"
@@ -127,7 +147,7 @@
       "correction_history": [
         {
           "date": "2026-10-29",
-          "reason": "문장형 해석을 evidence ID 필드에서 qualification_notes로 이동, claim graph 무결성 복구"
+          "reason": "9/10 본회의 백두진 재무장관 실제 출석 보도로 '모든 국회 출석 불응' 반증. 특위 불출석 주장은 별도 유지"
         }
       ]
     },
