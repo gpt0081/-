@@ -1,0 +1,88 @@
+{
+  "pass": "257O",
+  "accessDate": "2026-10-29",
+  "claims": [
+    {
+      "id": "CL-P257O-01",
+      "statement": "국편 1954 총선 표의 자유당 144석은 같은 페이지 203석 및 114석 본문과 일치한다",
+      "status": "CONFLICTED",
+      "supporting_evidence": [
+        "DOC-P257O-NIKH-19540520"
+      ],
+      "contradicting_or_limiting_evidence": [
+        "동일 페이지 본문 자유당114, 표 144; 144+15+3+3+68=233 ≠203; 114+15+3+3+68=203"
+      ],
+      "conclusion": "Internal table error likely but preserve source as printed; provisional arithmetic 114, final official NEC return pending.",
+      "next_original": "중앙선거관리위원회 1954-05-20 제3대 민의원 확정 정당별 당선자 집계표",
+      "adversarial_search": true
+    },
+    {
+      "id": "CL-P257O-02",
+      "statement": "1954년 자유당 의석은 모든 자료에서 114석으로 일치한다",
+      "status": "CONFLICTED",
+      "supporting_evidence": [
+        "DOC-P257O-NIKH-19540520"
+      ],
+      "contradicting_or_limiting_evidence": [
+        "DOC-P257O-SECONDARY-1954-DISAGREEMENT"
+      ],
+      "conclusion": "NIKH 114 vs derivative 111, plus other category shifts. Independent NEC original needed; do not assert temporal reason without dated rosters.",
+      "next_original": "중앙선관위 선거통계시스템 1954-05-20 원당선인 명부와 국회 1954-06-09 교섭단체 명부",
+      "adversarial_search": true
+    },
+    {
+      "id": "CL-P257O-03",
+      "statement": "국편 1954-05-20 당선인 목록은 그날 당선인만 열거한다",
+      "status": "NARROWED",
+      "supporting_evidence": [],
+      "contradicting_or_limiting_evidence": [
+        "DOC-P257O-NIKH-19540520"
+      ],
+      "conclusion": "Page footnote explicitly says entries with two names include subsequent by-election winners. Election-day vs by-election must be separated.",
+      "next_original": "1954~1958 중앙선관위 재보궐선거 연도별 당선자 원명부",
+      "adversarial_search": true
+    },
+    {
+      "id": "CL-P257O-04",
+      "statement": "1953 긴급금융조치법 법률277호와 1962 긴급금융조치법 법률1091호는 동일 제정법률이다",
+      "status": "NARROWED",
+      "supporting_evidence": [],
+      "contradicting_or_limiting_evidence": [
+        "DOC-P257O-LAW-277-INDEX",
+        "DOC-P257O-LAW-1091-INDEX"
+      ],
+      "conclusion": "Separate enactments under same title. 1953 Article11/Schedule2 body still uninspected; 1962 text cannot settle 1953 arithmetic conflict.",
+      "next_original": "법제처 1953-02-27 법률277호 원 제11조·별표2 관보 BA0186200",
+      "adversarial_search": true
+    },
+    {
+      "id": "CL-P257O-05",
+      "statement": "1954년 진천군 이충환과 1953년 긴급명령 토론 이충환은 이름이 같으므로 신원·당적 변경이 입증됐다",
+      "status": "OPEN",
+      "supporting_evidence": [
+        "DOC-P257O-NIKH-19540520",
+        "DOC-P257N-DH-028-1953-02-19-0060"
+      ],
+      "contradicting_or_limiting_evidence": [
+        "1953 신문 원외 분파 표기와 1954 자유당 선거명부는 시기·범주가 다르며 원인명/선거구 명부 교차 미확보"
+      ],
+      "conclusion": "possibleSameAs only; no silent identity or party normalization.",
+      "next_original": "1950 제2대 진천·1954 제3대 진천 의원 생년·한자·사진/인명부",
+      "adversarial_search": true
+    },
+    {
+      "id": "CL-P257O-06",
+      "statement": "1954 국가기록원 후대 개헌 해설의 11월29일 표결만으로 11월27일 최초 표결이 없었다",
+      "status": "NARROWED",
+      "supporting_evidence": [],
+      "contradicting_or_limiting_evidence": [
+        "DOC-P257O-NARA-CONST-HISTORY",
+        "DOC-P239M-NARA-90",
+        "DOC-P239M-NARA-91"
+      ],
+      "conclusion": "Later overview compresses chronology; 11/27 vote and 11/29 reversal remain distinct in pre-existing original Assembly transcripts.",
+      "next_original": "국회 제90·91차 속기록 1954-11-27/29의 각 의사일정과 표결원부",
+      "adversarial_search": true
+    }
+  ]
+}

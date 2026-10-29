@@ -153,3 +153,5 @@
 - 2026-10-29 Pass257M: `data/claims/pass-257m-1953-currency-evidence-conflicts.json` 5건, 8500만 vs 8700만 외환상환 시제·분모, 신권 부족 배급지연, 통화개혁 상반 평가, 총재 후속조치 발언과 집행 구분.
 
 - 2026-10-29 Pass257N: `data/claims/pass-257n-parliament-votes-arithmetic-adversarial.json` 10개 반증, 91:0 절차표결/74:71·103:47 조항표결/별표2 5만환 산술충돌/권중돈 생몰충돌.
+
+- 2026-10-29 Pass257O: `data/claims/pass-257o-election-law-adversarial.json` (1954 선거 144/114/111·보궐 명단 시점, 1953/1962 동명 법률, 이충환 신원·개헌 날짜).
