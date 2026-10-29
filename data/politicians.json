@@ -5862,7 +5862,8 @@
         "data/politicians/pass-240-1955-policy-actors.json"
       ],
       "openLeads": [
-        "LEAD-P239L-18"
+        "LEAD-P239L-18",
+        "LEAD-P258D-019"
       ],
       "recentResearchPass240": {
         "date": "2026-10-29",
@@ -5899,6 +5900,11 @@
           "date": "2026-10-30",
           "issue": "Duplicate candidate from FRUS romanization Yi Heung-Kun; Korean NIKH transcription identifies 이형근, already canonical cand-p235c-lee-hyung-keun",
           "action": "Retired erroneous candidate, migrated event/document references, preserved legacy ID. No biography date inference."
+        },
+        {
+          "date": "2026-10-30",
+          "issue": "First deduplication commit accidentally rewrote mistaken candidate ID before removing duplicate object, yielding two records with same canonical ID",
+          "action": "Removed the newer duplicate object and merged unique event and lead references into pre-existing original; original researchRefs preserved."
         }
       ]
     },
@@ -17232,37 +17238,6 @@
       ],
       "historyDebt": [
         "HD-P258D-NNSC-ORDER"
-      ]
-    },
-    {
-      "id": "cand-p235c-lee-hyung-keun",
-      "name": "이형근",
-      "aliases": [
-        "Yi Heung-Kun",
-        "Lee Heung-keun"
-      ],
-      "lifespan": {
-        "born": null,
-        "died": null,
-        "verification": "OPEN"
-      },
-      "roles": [
-        "1955 합동참모본부 의장 (US Army intelligence report)"
-      ],
-      "researchStatus": "DISCOVERED",
-      "connections": [
-        "evt-p258d-12"
-      ],
-      "evidenceCoverage": {
-        "primaryDocumentIds": [
-          "DOC-P240-FRUS-71"
-        ],
-        "actionTypes": [
-          "reported_planning_not_confirmed"
-        ]
-      },
-      "openLeads": [
-        "LEAD-P258D-019"
       ]
     },
     {

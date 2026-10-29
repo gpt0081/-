@@ -52,5 +52,13 @@
     "newCandidatesFrom": 3,
     "newCandidatesTo": 2
   },
-  "policy": "No silent overwrite; historical and prior commits remain traceable."
+  "policy": "No silent overwrite; historical and prior commits remain traceable.",
+  "postCommitValidation": {
+    "date": "2026-10-30",
+    "duplicateObjectsFound": 2,
+    "finalObjects": 1,
+    "registryCount": 336,
+    "correction": "Remove duplicated canonical ID object and merge unique relations",
+    "priorCommit": "516a60d2c7577a2f84525e21b73fe90f582c005b"
+  }
 }
