@@ -128,7 +128,10 @@
         "evt-p255g-capture",
         "evt-p255g-court",
         "evt-p255g-pm",
-        "evt-p255g-party"
+        "evt-p255g-party",
+        "evt-p257-11",
+        "evt-p257-13",
+        "evt-p257-14"
       ],
       "researchRefs": [
         "data/politicians/pass-233-1952-rok-diplomacy-network.json",
@@ -2725,7 +2728,8 @@
         "evt-p253-seoul-entry",
         "evt-p253e-japan-migration",
         "evt-p254b-personnel",
-        "evt-p254b-interior-press"
+        "evt-p254b-interior-press",
+        "evt-p257-16"
       ],
       "evidenceFile": "data/politicians/pass-232-1952-september-actors.json",
       "openLeadsFile": "data/research/leads/pass-232-20261028-next-lead-queue.json",
@@ -14934,6 +14938,47 @@
       "researchRefs": [
         "data/politicians/pass-255g-actor-overlay.json"
       ]
+    },
+    {
+      "id": "cand-p257-kim-il-su-seoul-party",
+      "name": "김일수",
+      "aliases": [
+        "金一秀",
+        "Kim Il-su (romanization provisional)"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "미확인; 동명이인 대조 필요"
+      },
+      "roles": [
+        "1953-02-03 자유당 서울특별시당 조직부장 (신문 인용, 원당직명부 미확보)"
+      ],
+      "rolesByPeriod": [
+        {
+          "date": "1953-02-03",
+          "office": "자유당 서울특별시당 조직부장",
+          "selection_or_appointment": "1953-02-06 서울신문 보도, 정식 임명장 미확보",
+          "actionType": "당 하부조직 제명은 자율적 결정이라는 발언"
+        }
+      ],
+      "partyAffiliation": "자유당 서울특별시당 (신문 보도)",
+      "researchStatus": "IDENTIFIED",
+      "backbone": false,
+      "connections": [
+        "evt-p257-17"
+      ],
+      "evidenceCoverage": [
+        "DOC-P257-NIKH-19530206-0100"
+      ],
+      "openLeads": [
+        "LEAD-P257-017",
+        "LEAD-P257-018"
+      ],
+      "historyDebt": [
+        "HD-P257-KIM-IL-SU-IDENTITY"
+      ],
+      "provenanceNote": "1953년 2월 6일 서울신문에 조직부장 金一秀 직접 언급; 1953년 2월 3일 발언. 동명이인 자동병합 금지."
     }
   ],
   "recentResearchPass232": {
