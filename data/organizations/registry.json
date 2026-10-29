@@ -277,6 +277,117 @@
       "period": "1951-10 onwards; 1954 election presence verified via later official register",
       "open_lead": "LEAD-P257V-JEHEON-ORG-01",
       "caution": "1954 정당법상 등록 지위 및 의원 소속 변동 원공고 미확보"
+    },
+    {
+      "id": "org-rok-central-election-committee-1956",
+      "name": "중앙선거위원회",
+      "aliases": [
+        "Central Election Committee (1956-era designation)"
+      ],
+      "jurisdiction": "Republic of Korea",
+      "role": "1956-04-04/1956-04-09 후보 등록 공고·기호 추첨",
+      "document_ids": [
+        "DOC-P258F-K31075",
+        "DOC-P239L2-KDEMO-BALLOT-00731093"
+      ],
+      "research_status": "IDENTIFIED",
+      "period": "1956 (only source-covered period)",
+      "open_lead": "현대 중앙선거관리위원회와 제도상 동일기관으로 자동병합 금지",
+      "identity_caution": "현대 중앙선거관리위원회와 제도상 동일기관으로 자동병합 금지",
+      "possible_same_as": []
+    },
+    {
+      "id": "org-rok-ministry-interior-1956",
+      "name": "내무부",
+      "aliases": [
+        "Ministry of Home Affairs (1956)"
+      ],
+      "jurisdiction": "Republic of Korea",
+      "role": "1956 지방자치법 제98조·146조 및 내무행정 감독",
+      "document_ids": [
+        "DOC-P246-GAZ-385",
+        "DOC-P246-GAZ-388"
+      ],
+      "research_status": "IDENTIFIED",
+      "period": "1956 (only source-covered period)",
+      "open_lead": "1956-05-05 경찰 현장 발포의 직접명령 기관으로 단정하지 않음",
+      "identity_caution": "1956-05-05 경찰 현장 발포의 직접명령 기관으로 단정하지 않음",
+      "possible_same_as": []
+    },
+    {
+      "id": "org-rok-ministry-finance-1956",
+      "name": "재무부",
+      "aliases": [
+        "Ministry of Finance (1956)"
+      ],
+      "jurisdiction": "Republic of Korea",
+      "role": "재정법387호 회계연도·예산 절차, 1956-02-13 김현철·07-08 인태식 관보 부서",
+      "document_ids": [
+        "DOC-P258F-LAW387",
+        "DOC-P246-GAZ-385",
+        "DOC-P246-GAZ-388"
+      ],
+      "research_status": "IDENTIFIED",
+      "period": "1956 (only source-covered period)",
+      "open_lead": "부서/소관과 법률 발의·집행원장 구분",
+      "identity_caution": "부서/소관과 법률 발의·집행원장 구분",
+      "possible_same_as": []
+    },
+    {
+      "id": "org-rok-ministry-reconstruction-1956",
+      "name": "부흥부",
+      "aliases": [
+        "Ministry of Reconstruction (1956)"
+      ],
+      "jurisdiction": "Republic of Korea",
+      "role": "1956 한미 원조 집행촉진 및 07-08 김현철 장관 관보 부서",
+      "document_ids": [
+        "DOC-P258E-ROK-AID-BG0000076",
+        "DOC-P246-GAZ-388"
+      ],
+      "research_status": "IDENTIFIED",
+      "period": "1956 (only source-covered period)",
+      "open_lead": "부흥부 장관 개인의 1월 회담 서명 미확인",
+      "identity_caution": "부흥부 장관 개인의 1월 회담 서명 미확인",
+      "possible_same_as": []
+    },
+    {
+      "id": "org-rok-ministry-health-social-1956",
+      "name": "보건사회부",
+      "aliases": [
+        "Ministry of Health and Social Affairs (1956)"
+      ],
+      "jurisdiction": "Republic of Korea",
+      "role": "1956-02-13 최재유·07-08 정준모 장관 관보 부서",
+      "document_ids": [
+        "DOC-P246-GAZ-385",
+        "DOC-P246-GAZ-388"
+      ],
+      "research_status": "IDENTIFIED",
+      "period": "1956 (only source-covered period)",
+      "open_lead": "기존 org-rok-social-affairs와 연속/동일기관 여부 확인 전 병합 금지",
+      "identity_caution": "기존 org-rok-social-affairs와 연속/동일기관 여부 확인 전 병합 금지",
+      "possible_same_as": [
+        "org-rok-social-affairs"
+      ]
+    },
+    {
+      "id": "org-rok-seoul-special-city-1956",
+      "name": "서울특별시",
+      "aliases": [
+        "Seoul Special City (1956)"
+      ],
+      "jurisdiction": "Republic of Korea",
+      "role": "지방자치법385호 제117조 서울 행정국 분장·388호 제146조 구청장 임명",
+      "document_ids": [
+        "DOC-P246-GAZ-385",
+        "DOC-P246-GAZ-388"
+      ],
+      "research_status": "IDENTIFIED",
+      "period": "1956 (only source-covered period)",
+      "open_lead": "서울시장 개인 제안·집행 미확인",
+      "identity_caution": "서울시장 개인 제안·집행 미확인",
+      "possible_same_as": []
     }
   ],
   "unresolved_equivalence": [
@@ -288,5 +399,17 @@
       "status": "OPEN",
       "reason": "A/2750 English Korean Housing Administration and Seoul Archives 대한주택영단 may refer to same or successor body; do not merge before ROK official record."
     }
-  ]
+  ],
+  "lastResearchPass258F": {
+    "date": "2026-10-30",
+    "added": [
+      "org-rok-central-election-committee-1956",
+      "org-rok-ministry-interior-1956",
+      "org-rok-ministry-finance-1956",
+      "org-rok-ministry-reconstruction-1956",
+      "org-rok-ministry-health-social-1956",
+      "org-rok-seoul-special-city-1956"
+    ],
+    "sourceNote": "1956 legal/archival records; modern successor institutions not merged"
+  }
 }
