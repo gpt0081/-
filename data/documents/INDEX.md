@@ -166,3 +166,5 @@
 
 - 2026-10-29 pass252B: `data/documents/pass-252b-1952-aug26-30-originals.json` 직접열람 40건, 신규 등록 39건, 기존 DOC-P231-KOR-0826 재사용. FRUS XV/1 245~250 6건·관보 제812호 1건 포함.
 - 2026-10-29 pass252C: `data/documents/pass-252c-1952-aug31-originals.json` 직접열람·신규 등록 9건. 육군본부 지령 제60호 전사·동시대 국무위원 명단·부산 지방세·경찰 고문 의혹 반론 포함.
+
+- data/documents/pass-253-1952-september-frus-and-domestic.json (pass253, 2026-10-29)
