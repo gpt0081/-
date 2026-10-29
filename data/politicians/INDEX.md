@@ -218,3 +218,5 @@
 ## Pass257 (2026-10-29): 1953-02 자유당 서울시당·경찰책임·전시 행정
 - `data/politicians/pass-257-1953-party-policing-evidence.json`: 김일수(金一秀) 자유당 서울시당 조직부장 신규 IDENTIFIED 후보, 진헌식 내무장관의 1953-02-05 경찰/검찰 수사책임 발언, 이승만의 1953-02 서울환도·2/6 인터뷰 원문 연결. 신규 후보 1, 기존 2 보강. 이름·한자·동명이인 원명부 확인 전 VERIFIED/ANNALS_ACTIVE 자동승격 금지.
 - `data/annals/1952nov-1953feb-crossprovenance-governance.md`, `data/documents/pass-257-1952nov-1953feb-crossprovenance.json`, `data/events/pass-257-pow-economy-governance.json`, `data/claims/pass-257-adversarial-crossprovenance.json`에 증거·사건·반증을 분리. 1952-11-24 중국 거부 각서는 인도/미국 2계열, UN 610 채택은 인도/미국/UN 3계열. UN PDF 접근 403은 BLOCKED lead로 유지.
+
+- **Pass257C 국내 원문 확장**: 1953-02-06 민주신보에 직접 실명 확인된 조정훈·조순·서이환·이동환 의원 4명을 `IDENTIFIED` 후보로, 1953-02-06 조선일보의 진승국·박용만·김창민 3명을 정치사회단체 결성준비 `DISCOVERED`로 분리. 기존 이갑성·배은희·신중목·진헌식 심화, 김석관은 1952-11 원기사에 성씨 金만 있어 기존 ID에 `OPEN` identity bridge만 남김. 1953 조순과 1954 조순은 동일인 원명부 확인 전 병합하지 않음. 김일수 독립 evidence: `data/evidence/kim-il-su-1953.json`.
