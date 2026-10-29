@@ -140,3 +140,5 @@
 - data/claims/pass-253e-september-sept9-11.json (pass253E, 2026-10-29)
 
 - data/claims/pass-253f-september-sept12-15.json (pass253F, 2026-10-29)
+
+- 2026-10-29 Pass255H: `data/claims/pass-255h-1952-oct-governance.json` (원문 출처·불확실성 보존).
