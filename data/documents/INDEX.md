@@ -178,3 +178,5 @@
 - 2026-10-29 Pass255H: `data/documents/pass-255h-oct13-17-assembly-economy.json` (원문 출처·불확실성 보존).
 
 - 2026-10-29 Pass257J: `data/documents/pass-257j-un-plenary-finance.json` 12건(UN 원속기/원수정안4, 한국 동시대 신문2, 후대 기관/법제처6). 법률277호 원면은 아직 미확보; 검색발췌는 원문 열람 수에 불포함.
+
+- 2026-10-29 Pass257K: `data/documents/pass-257k-1953-constitutional-labor-archives.json` 3건 대통령기록관 개별 원문철 **해제** + 1건 법제처 법률276호 **색인**. 원문 원면 열람으로 계산하지 않음.

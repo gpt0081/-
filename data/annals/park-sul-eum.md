@@ -12,3 +12,7 @@ Stable/candidate ID: `cand-p236-park-sul-eum`. 기존 ID 유지. 표기 Park Sul
 원자료: https://db.history.go.kr/contemp/level.do?levelId=dh_029_1953_06_22_0070 ; https://db.history.go.kr/contemp/level.do?levelId=dh_029_1953_06_24_0060 .
 
 - **1953-04-20** 대통령령 제782호 노동조합법 시행령 부서(대통령기록관 해제상). 대통령기록관 4/14 공포와 법제처 4/20 공포·시행 충돌 `CLM-P239F-782-DATE` 유지. 원본 서명영상 미열람. https://www.pa.go.kr/research/contents/policy/index07.jsp?poMode=view&policySeq=772
+
+
+### 1953-04-14 노동조합법 시행령 서명 (Pass257K)
+대통령기록관 기록번호 1A00614174533603 해제에 따르면 사회부장관 박술음은 국무총리서리 백두진과 함께 노동조합법 시행령 제782호 국무위원 서명자다. 사회부 장관으로서 시행령 제12조 등 신고증 발급 제도 관여 가능하나 개별 신고증 발급 집행은 미확인. 한자 朴術音/朴述音 변형은 원서명으로 검증할 것.
