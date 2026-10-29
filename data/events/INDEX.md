@@ -146,4 +146,4 @@
 
 - 2026-10-29 Pass257O4: `data/events/pass-257o4-1954-uncurk-unkra-actions.json` (UNCURK 1954 총선·교섭단체·총리·내각, UNKRA 협정·사업·결의).
 
-- 2026-10-29 Pass257P: `data/events/pass-257p-unkra-housing-finance-actions.json` (25개 sub-event/action, 중앙 `data/events.json` 동기화; 주택 계획/준공, 금융법/설립령, UN 결의, 농정, 보건·지방행정, 1954 협정 **원문목록 확인만** 분리).
+- 2026-10-29 Pass257P: `data/events/pass-257p-unkra-housing-finance-actions.json` (28개 sub-event/action, 중앙 `data/events.json` 동기화; 주택 계획/준공, 금융법/설립령, UN 결의, 농정, 보건·지방행정, 1954 협정 **원문목록 확인만** 분리).
