@@ -3,23 +3,28 @@
   "date": "2026-10-29",
   "continuation_from_sha": "84418ae0107d084e6b1c6a1e6a9fc57fa16e6e07",
   "counts": {
-    "direct_documents": 66,
-    "contemporaneous_primary_originals": 56,
+    "direct_documents": 82,
+    "us_frus_contemporaneous_originals": 57,
+    "korean_presidential_utterance_reprints": 13,
+    "rok_legal_originals": 2,
     "official_later_syntheses": 8,
-    "editorial_notes_not_primary": 2,
-    "original_facsimiles": 0,
-    "politicians_deepened": 23,
-    "new_candidates": 4,
-    "politicians_total_touched": 27,
-    "events": 41,
-    "claim_level_adversarial_checks": 31,
-    "independent_adversarial_web_search_questions": 4,
-    "new_specific_leads": 102,
-    "prior_leads_tracked": 13,
-    "strict_three_provenance_family_crosschecks": 1,
-    "additional_two_family_comparisons": 2,
-    "domains_substantive": 7,
-    "independent_research_lines": 20
+    "frus_editorial_notes_not_primary": 2,
+    "primary_utterance_or_legal_texts_total": 72,
+    "original_facsimiles_visually_verified": 0,
+    "new_document_registry_objects": 66,
+    "existing_document_objects_reopened": 16,
+    "nonpresident_politicians_existing_deepened": 23,
+    "nonpresident_new_candidates": 4,
+    "nonpresident_unique_touched": 27,
+    "events": 55,
+    "adversarial_claim_level_checks": 46,
+    "distinct_adversarial_source_questions": 12,
+    "new_specific_leads": 122,
+    "prior_leads_tracked": 18,
+    "strict_three_source_production_family_cases": 3,
+    "cross_provenance_cases_two_or_more": 4,
+    "substantive_governance_domains": 10,
+    "independent_research_lines": 25
   },
   "limits": [
     "original 40 target not met (38)",
@@ -28,7 +33,7 @@
   "floot_modified": false,
   "weekly_full_review": false,
   "commit_sha": "see GitHub commit history",
-  "continuation": "257R plus 257S",
+  "continuation": "Pass257R+257S+257T",
   "research_lines": [
     {
       "topic": "election_seat_counts",
@@ -123,5 +128,117 @@
     "08251d1fbc8481e8066ea783948d18386aac7b76",
     "ca0e2abdc71a472fba0503bde584c245b0e30173"
   ],
-  "note": "Duration derived from recorded automation start and current clock; no assertion of a full hour. Final sync commit SHA available in GitHub history and final user report."
+  "note": "Duration derived from recorded automation start and current clock; no assertion of a full hour. Final sync commit SHA available in GitHub history and final user report.",
+  "adversarial_question_ledger": [
+    [
+      "1954 자유당114 vs UN115",
+      "NEC + UN A2711 + US FRUS"
+    ],
+    [
+      "국편 자유당144 표 합계오류",
+      "NIKH election + NEC"
+    ],
+    [
+      "무소속67+1 vs 무소속68",
+      "NEC + NIKH"
+    ],
+    [
+      "자유당 공천99 vs 당선114",
+      "NIKH constitutional + US FRUS d893"
+    ],
+    [
+      "원용덕 성명 대통령 지지 부재설",
+      "PA July31 original + US FRUS d927"
+    ],
+    [
+      "중감위 현장폭력 대통령 직접명령설",
+      "PA July31 original + US FRUS d930/931; OPEN"
+    ],
+    [
+      "1954 종신집권 면제에 대한 대통령 공개 동의설",
+      "PA March26/Oct19 + Nov29 constitutional record"
+    ],
+    [
+      "1954 환율180 vs 254 확정설",
+      "PA Oct8 + ROK treaty1152 + FRUS d967"
+    ],
+    [
+      "1954 Nov17 합의의사록 미서명설",
+      "PA joint statement + ROK treaty1152 + FRUS d967"
+    ],
+    [
+      "1954 Nov17 방위조약 발효설",
+      "ROK treaty34 Nov18 + PA Nov17 joint statement + US FRUS"
+    ],
+    [
+      "1955 500:1이 1954에도 적용설",
+      "PA Aug15 1955 + treaty amendment + PA Oct8 1954"
+    ],
+    [
+      "1954 일본산 원조물자 전면 금지설",
+      "PA Oct8 criticism + ROK treaty1152 procurement clause"
+    ]
+  ],
+  "cross_provenance_cases": [
+    {
+      "id": "CROSS-1954-ELECTION",
+      "sources": [
+        "DOC-P257R-NEC",
+        "DOC-P257R-NIKH-ELECTION",
+        "DOC-P239K-UN-A2711",
+        "DOC-P257O2-FRUS-BRIGGS-MAY24"
+      ],
+      "result": "CONFLICTED 114/115, 99+15 endorsed split",
+      "production_families": 4
+    },
+    {
+      "id": "CROSS-1954-NOV17-AGREED-MINUTE",
+      "sources": [
+        "DOC-P257T-PA-19541117-AGREED-MINUTE-STATEMENT",
+        "DOC-P239J-FRUS-967",
+        "DOC-P239J-KOREA-MINUTE-1152"
+      ],
+      "result": "NARROWED signed Nov17; exchange rate terms distinct from disbursement",
+      "production_families": 3
+    },
+    {
+      "id": "CROSS-1954-NOV18-DEFENSE-TREATY",
+      "sources": [
+        "DOC-P239J-KOREA-TREATY-34",
+        "DOC-P257T-PA-19541117-AGREED-MINUTE-STATEMENT",
+        "DOC-P239J-FRUS-967"
+      ],
+      "result": "NARROWED treaty effective Nov18 vs minute Nov17",
+      "production_families": 3
+    },
+    {
+      "id": "CROSS-1954-NNSC",
+      "sources": [
+        "DOC-P257T-PA-19540731-NNSC-WON-ENDORSEMENT",
+        "DOC-P239J-FRUS-927",
+        "DOC-P239J-FRUS-930",
+        "DOC-P239J-FRUS-931"
+      ],
+      "result": "Rhee public endorsement verified; attack direct-order OPEN",
+      "production_families": 2
+    }
+  ],
+  "provenance_caution": "Three production-family cases count independent document origins (NEC/NIKH/US/UN; ROK presidential statement/US diplomatic original/ROK legal registry), not three independent countries. US FRUS records and UN Command US-authored reports are not independent merely by publisher.",
+  "registry_dedup_correction": "Pass257S d921–d931 were already in pass239j; 9 duplicate objects removed, 11 originals linked to existing canonical IDs; see data/research/corrections/pass-257t-frus-duplicate-ids.json",
+  "started_at_local": "2026-10-29T22:17:08+09:00",
+  "last_updated_utc": "2026-10-29T13:39:09.937Z",
+  "commits_before_this_sync": [
+    "73bc4280243364fb141f49118517750e9c2598ea",
+    "08251d1fbc8481e8066ea783948d18386aac7b76",
+    "ca0e2abdc71a472fba0503bde584c245b0e30173",
+    "20b7a38ada765aee91cfaea5a9fd66b6299cf2b2",
+    "3e805024234303bd5bdf14e135256bd9ab2d7c17",
+    "d6197463c4f226f8d32b9585fa87c1d639ac315e"
+  ],
+  "limitations": [
+    "No first-print 1954 images of speeches visually checked",
+    "1956 government official reprint of 1954 utterances is not the same as original 1954 typescript",
+    "Police investigation and parliamentary original vote still missing",
+    "Do not treat 46 claim reviews as 46 independent web searches"
+  ]
 }

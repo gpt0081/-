@@ -149,7 +149,21 @@
         "evt-p257s-19540728-military-subcommittee",
         "evt-p257s-19540729-draft-agreed-minute",
         "evt-p257s-19540730-nnsc-warning",
-        "evt-p257s-19540730-joint-communique"
+        "evt-p257s-19540730-joint-communique",
+        "evt-p257t-19540315-amend-delay",
+        "evt-p257t-19540326-single-party-candidate",
+        "evt-p257t-19540406-candidate-constitution-condition",
+        "evt-p257t-19540730-gwu-address",
+        "evt-p257t-19540731-rhee-endorses-won",
+        "evt-p257t-19541008-exchange-rate-180",
+        "evt-p257t-19541012-hwacheon-reconstruction",
+        "evt-p257t-19541019-term-exemption-disavowal",
+        "evt-p257t-19541117-agreed-minute-signed",
+        "evt-p257t-19541117-domestic-production",
+        "evt-p257t-19541118-defense-treaty-effective",
+        "evt-p257t-19541203-party-opposition",
+        "evt-p257t-19541204-gov-org-bill",
+        "evt-p257t-19550815-exchange-500"
       ],
       "researchRefs": [
         "data/politicians/pass-233-1952-rok-diplomacy-network.json",
@@ -166,7 +180,8 @@
         "data/politicians/pass-257k-labor-institution-actors.json",
         "data/politicians/pass-257m-finance-public-claims.json",
         "data/politicians/pass-257p-unkra-housing-local-actors.json",
-        "data/politicians/pass-257r-1954-election-governance-actors.json"
+        "data/politicians/pass-257r-1954-election-governance-actors.json",
+        "data/annals/1954-rhee-presidential-statements-pass257t.md"
       ],
       "evidenceCoverage": [
         "DOC-P234C-ICRC-2024-TIMELINE",
@@ -186,7 +201,20 @@
         "DOC-P257K-PA-MOBIL-767",
         "DOC-P257M-NIKH-RHEE-19530304",
         "DOC-P257P-SEOUL-UNKRA-PHOTO-3",
-        "DOC-P257P-NAK-1954-LAW-METADATA"
+        "DOC-P257P-NAK-1954-LAW-METADATA",
+        "DOC-P257T-PA-19540315-AMEND-TIMING",
+        "DOC-P257T-PA-19540326-PARTY-NOMINATION",
+        "DOC-P257T-PA-19540406-CONSTITUTIONAL-CANDIDATES",
+        "DOC-P257T-PA-19540730-GWU-SPEECH",
+        "DOC-P257T-PA-19540731-NNSC-WON-ENDORSEMENT",
+        "DOC-P257T-PA-19541008-EXCHANGE-180",
+        "DOC-P257T-PA-19541012-ECONOMIC-SELFRELIANCE",
+        "DOC-P257T-PA-19541019-AMEND-TERM-LIMIT",
+        "DOC-P257T-PA-19541117-AGREED-MINUTE-STATEMENT",
+        "DOC-P257T-PA-19541117-DOMESTIC-PRODUCTION",
+        "DOC-P257T-PA-19541203-OPPOSITION-PARTIES",
+        "DOC-P257T-PA-19541204-GOV-ORGANIZATION",
+        "DOC-P257T-PA-19550815-EXCHANGE-500"
       ],
       "lastResearchPass": "257M",
       "recentResearchPass239J": {
@@ -288,6 +316,18 @@
           "DOC-P257R-FRUS-D909"
         ],
         "caveat": "U.S. observations not Rhee personal direct orders"
+      },
+      "recentResearchPass257T": {
+        "date": "2026-10-29",
+        "original_speech_transcriptions": 13,
+        "original_date_range": "1954-03-15 to 1955-08-15",
+        "important_findings": [
+          "1954-07-31 public endorsement of Won Yong-duk's NNSC action",
+          "1954-10-19 publicly disavowed first-president term exemption",
+          "1954-10-08 exchange 180:1 vs proposed 254:1",
+          "1954-11-17 agreed minute signed and economic reconstruction priorities"
+        ],
+        "caveat": "1956 official reprint is original utterance transcription but contemporaneous first-print not verified; direct violent orders remain OPEN"
       }
     },
     {
@@ -1267,8 +1307,8 @@
         "DOC-P257N-DH-028-1953-02-27-0050",
         "DOC-P257P-SEOUL-UNKRA-PHOTO-1",
         "DOC-P239J-FRUS-923",
-        "DOC-P257S-FRUS-D924",
-        "DOC-P257S-FRUS-D925"
+        "DOC-P239J-FRUS-924",
+        "DOC-P239J-FRUS-925"
       ],
       "lastResearchPass": "257N",
       "evidenceFile": "data/evidence/paik-too-chin-1953.json",
@@ -1421,8 +1461,8 @@
         "action": "ECONOMIC_COORDINATOR_PARTICIPATION",
         "source_document_ids": [
           "DOC-P239J-FRUS-923",
-          "DOC-P257S-FRUS-D924",
-          "DOC-P257S-FRUS-D925"
+          "DOC-P239J-FRUS-924",
+          "DOC-P239J-FRUS-925"
         ],
         "attribution": "diplomatic meeting / observation / later official essay, not automatic direct order"
       }
@@ -1480,7 +1520,8 @@
         "evt-p254b-education-unesco",
         "evt-p257s-19540710-visit-accepted",
         "evt-p257s-19540801-pyun-meeting",
-        "evt-p257s-19540805-pyun-note"
+        "evt-p257s-19540805-pyun-note",
+        "evt-p257t-19541117-agreed-minute-signed"
       ],
       "researchNotes": "1953 휴전·반공포로·한미상호방위조약에서 반복 확인. 1953-08-07 공동성명 문구 수정 제안과 08-08 덜레스와 조약 초안 가조인이라는 직접 행위가 공식 외교기록으로 확인되어 VERIFIED로 승격. 향후 외무부 한국측 회의록·서명훈령 확보 시 ANNALS_ACTIVE 검토.",
       "pass232Overlay": "data/politicians/pass-232-1952-september-actors.json",
@@ -1500,7 +1541,8 @@
         "data/politicians/pass-239l2-1955-cabinet-election-actors.json",
         "data/politicians/pass-240-1955-policy-actors.json",
         "data/politicians/pass-257q-1954-cabinet-actors.json",
-        "data/politicians/pass-257s-1954-visit-nnsc-actors.json"
+        "data/politicians/pass-257s-1954-visit-nnsc-actors.json",
+        "data/annals/1954-rhee-presidential-statements-pass257t.md"
       ],
       "evidenceCoverage": [
         "DOC-P236-FRUS-452",
@@ -1523,8 +1565,8 @@
         "DOC-P253F-DH-0912-0020",
         "DOC-P253F-DH-0912-0030",
         "DOC-P253F-DH-0912-0040",
-        "DOC-P257S-FRUS-D929",
-        "DOC-P257S-FRUS-D931"
+        "DOC-P239J-FRUS-929",
+        "DOC-P239J-FRUS-931"
       ],
       "lastResearchPass": 253,
       "recentResearchPass239J": {
@@ -1638,10 +1680,19 @@
         "date": "2026-10-29",
         "action": "PRIME_MINISTER_REPORTED_STATEMENTS",
         "source_document_ids": [
-          "DOC-P257S-FRUS-D929",
-          "DOC-P257S-FRUS-D931"
+          "DOC-P239J-FRUS-929",
+          "DOC-P239J-FRUS-931"
         ],
         "attribution": "diplomatic meeting / observation / later official essay, not automatic direct order"
+      },
+      "recentResearchPass257T": {
+        "date": "2026-10-29",
+        "source_documents": [
+          "DOC-P257T-PA-19541117-AGREED-MINUTE-STATEMENT",
+          "DOC-P239J-FRUS-967",
+          "DOC-P239J-KOREA-MINUTE-1152"
+        ],
+        "role": "1954-11-17 foreign minister signatory of Agreed Minute; earlier Aug1/Aug5 PM NNSC statements separately"
       }
     },
     {
@@ -1738,7 +1789,7 @@
         "DOC-P239H-NIKH-0727-TIMELINE",
         "DOC-P239H-NARA-CA0005972",
         "DOC-P257S-FRUS-D915",
-        "DOC-P257S-FRUS-D924"
+        "DOC-P239J-FRUS-924"
       ],
       "lastResearchPass": 238,
       "evidenceFile": "data/evidence/choi-duk-shin-1953.json",
@@ -1778,7 +1829,7 @@
         "action": "MILITARY_DELEGATE",
         "source_document_ids": [
           "DOC-P257S-FRUS-D915",
-          "DOC-P257S-FRUS-D924"
+          "DOC-P239J-FRUS-924"
         ],
         "attribution": "diplomatic meeting / observation / later official essay, not automatic direct order"
       }
@@ -1846,7 +1897,7 @@
         "DOC-P240-FRUS-60",
         "DOC-P240-FRUS-66",
         "DOC-P241-FRUS-175",
-        "DOC-P257S-FRUS-D924",
+        "DOC-P239J-FRUS-924",
         "DOC-P239J-FRUS-927"
       ],
       "researchRefs": [
@@ -1921,7 +1972,7 @@
         "date": "2026-10-29",
         "action": "DEFENSE_MINISTER_NEGOTIATION",
         "source_document_ids": [
-          "DOC-P257S-FRUS-D924",
+          "DOC-P239J-FRUS-924",
           "DOC-P239J-FRUS-927"
         ],
         "attribution": "diplomatic meeting / observation / later official essay, not automatic direct order"
@@ -3728,8 +3779,8 @@
         "DOC-P252-0823-0010",
         "DOC-P253F-DH-0912-0020",
         "DOC-P257S-FRUS-D914",
-        "DOC-P257S-FRUS-D924",
-        "DOC-P257S-FRUS-D925"
+        "DOC-P239J-FRUS-924",
+        "DOC-P239J-FRUS-925"
       ],
       "lastResearchPass": 253,
       "recentResearchPass239J": {
@@ -3793,8 +3844,8 @@
         "action": "DOCUMENT_DELIVERY_AND_NEGOTIATION",
         "source_document_ids": [
           "DOC-P257S-FRUS-D914",
-          "DOC-P257S-FRUS-D924",
-          "DOC-P257S-FRUS-D925"
+          "DOC-P239J-FRUS-924",
+          "DOC-P239J-FRUS-925"
         ],
         "attribution": "diplomatic meeting / observation / later official essay, not automatic direct order"
       }
@@ -4154,8 +4205,8 @@
         "DOC-P240-FRUS-92",
         "DOC-P241-NIKH-OIR7371",
         "DOC-P241-FRUS-175",
-        "DOC-P257S-FRUS-D924",
-        "DOC-P257S-FRUS-D925"
+        "DOC-P239J-FRUS-924",
+        "DOC-P239J-FRUS-925"
       ],
       "recentResearchPass239J": {
         "date": "2026-10-29",
@@ -4204,8 +4255,8 @@
         "date": "2026-10-29",
         "action": "MILITARY_DELEGATE",
         "source_document_ids": [
-          "DOC-P257S-FRUS-D924",
-          "DOC-P257S-FRUS-D925"
+          "DOC-P239J-FRUS-924",
+          "DOC-P239J-FRUS-925"
         ],
         "attribution": "diplomatic meeting / observation / later official essay, not automatic direct order"
       }
@@ -7512,12 +7563,13 @@
         "doc-frus-1953-clark-cx63170",
         "DOC-P239D-NIKH-0618-0080",
         "DOC-P239J-FRUS-927",
-        "DOC-P257S-FRUS-D929",
-        "DOC-P257S-FRUS-D930"
+        "DOC-P239J-FRUS-929",
+        "DOC-P239J-FRUS-930"
       ],
       "researchRefs": [
         "data/politicians/pass-239d-actors.json",
-        "data/politicians/pass-257s-1954-visit-nnsc-actors.json"
+        "data/politicians/pass-257s-1954-visit-nnsc-actors.json",
+        "data/annals/1954-rhee-presidential-statements-pass257t.md"
       ],
       "annalsFile": "data/annals/won-yong-duk.md",
       "evidenceFile": "data/evidence/won-yong-duk.json",
@@ -7556,10 +7608,16 @@
         "action": "PUBLIC_WARNING_ATTRIBUTED",
         "source_document_ids": [
           "DOC-P239J-FRUS-927",
-          "DOC-P257S-FRUS-D929",
-          "DOC-P257S-FRUS-D930"
+          "DOC-P239J-FRUS-929",
+          "DOC-P239J-FRUS-930"
         ],
         "attribution": "diplomatic meeting / observation / later official essay, not automatic direct order"
+      },
+      "recentResearchPass257T": {
+        "date": "2026-10-29",
+        "source": "DOC-P257T-PA-19540731-NNSC-WON-ENDORSEMENT",
+        "finding": "Rhee publicly endorsed Won's NNSC action; no verified direct order for shootings or bombs",
+        "status": "NARROWED"
       }
     },
     {
@@ -16541,8 +16599,8 @@
       ],
       "evidenceCoverage": [
         "DOC-P257R-NIKH-CONST",
-        "DOC-P257S-FRUS-D924",
-        "DOC-P257S-FRUS-D925"
+        "DOC-P239J-FRUS-924",
+        "DOC-P239J-FRUS-925"
       ],
       "openLeads": [
         "LEAD-P257S-ACTOR-cand-p257s-choi-sun-ju-1954"
@@ -17006,5 +17064,13 @@
     "existing_deepened": 10,
     "original_birth_death_verified": 0,
     "identity_note": "Choe Sun-chu = 최순주 provisional; primary Korean delegate list needed"
+  },
+  "recentResearchPass257T": {
+    "date": "2026-10-29",
+    "original_presidential_utterance_documents": 13,
+    "original_legal_documents_reopened": 2,
+    "us_original_reopened": 1,
+    "important_new_evidence": "1954-07-31 Rhee direct public endorsement of Won's NNSC action",
+    "source_registry": "data/documents/pass-257t-1954-rhee-presidential-statements.json"
   }
 }
