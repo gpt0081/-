@@ -9,3 +9,5 @@
 원문 장애: 대통령기록관 PDF content-type 미지원, 국가기록원 원면 뷰어 500 오류, 컨테이너 외부 DNS 실패. 차단 이후 10월9일의 새로운 15개 문서로 조사선을 이동했다. 원 관보·신문 지면·미 국무부 영어 전문은 미확보.
 
 출처: https://www.archives.go.kr/next/newsearch/showDetailPopup.do?rc_code=1310377&rc_rfile_no=200301036079&sitePage=1-2-1 ; https://pa.go.kr/online_contents/preserv/restore02.jsp ; https://db.history.go.kr/contemp/level.do?levelId=dh_027_1952_10_09
+
+추가 검증: 부산일보 1952-10-10 전사에는 강인택(함남·61세), 박현숙(평남·57세), 박술음(강원·56세)로 표기되어 있다. 당시 보도 연령을 확정 생년월일로 변환하지 않았다. 동아일보 1952-10-11은 10월15일 국회 개회 후 17~18일 이윤영 인준 표결을 **전망**했을 뿐 결과를 확정하지 않았다. 중앙 registry 308명·1063사건, 신규 후보 5명 모두 사건 연결, 누락 참조 0, ID 중복 0 검증.
