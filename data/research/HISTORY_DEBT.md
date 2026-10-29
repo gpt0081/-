@@ -2011,3 +2011,11 @@
 - `HD-P257W-GAZETTE-NUMBER` CONFLICTED: 국가기록원 테마 1954-09-08 관보 1170 vs 다른 테마 1174.
 - `HD-P257W-INDUSTRIAL-EXPLOSIVES` OPEN: 1954-04-29 화약수입 관련 2004 회고 원기사 재인용, 상공부 원계획·대통령 유시·광업 영향 원문 필요.
 - 세부 evidence/status/next original targets: `data/research/history-debt/pass-257w-1954-election-unresolved.json`. **last_full_review 변경하지 않음**. 역사부채 주간 전수조사 미실시.
+
+### Pass257W-UN 원문 접근 복구 정정 (2026-10-29 같은 날)
+- 앞의 `HD-P257W-UN-A2711-ACCESS BLOCKED`는 **이전 상태 기록**이다. 별도 문서 추출 경로로 유엔 원문 OCR을 직접 읽어 접근 문제는 **RESOLVED_ACCESS_ONLY**로 변경했다. **선거 의석 114/115 역사적 불일치는 미해결**: A/2711 §74 자유당115·무소속67, 같은 원문 Annex III p20 'announced returns' 자유당114·무소속68. 원당적·선거공고 대조 필요. `data/documents/pass-257w3-uncurk-1954-original.json`.
+- `HD-P257W-PYUN-131-2000`: UN §65 약1200 후보 및 Annex III 1207이 변영태 5/22 발언 전언 2000을 반박; 연설 원속기록은 OPEN.
+- `HD-P257W-UN-CABINET-KOREAN-NAMES` OPEN: UN Annex II Yoon Kun-Joong, Choi Kyoo-Ok 장관 원문 로마자 확인, 한국어·한자 미검증.
+- `HD-P257W-UN-EDUCATION-RESIGN-DATE` CONFLICTED: UN Annex II 김법린 1954-02-05 퇴임 vs 문교부 공식 후대 명부 1954-04-20. 1954 관보 발령장 필요.
+- UN §65의 210 명목선거구 중 7개 미실시 → 203개 선거구는 분모 문제를 상당히 축소. 국회·선관위 법정선거구 원문 대기.
+- 주간 전수조사 여부·last_full_review는 변경하지 않음.
