@@ -37,11 +37,13 @@
     "existing_candidate_promoted_to_central_registry": 1,
     "events_new_or_substantively_enhanced": 63,
     "claims_structured": 33,
-    "adversarial_searches": 31,
+    "adversarial_searches": 23,
     "tracked_prior_leads": 9,
     "new_leads": 84,
     "cross_provenance_bundles": 8,
-    "strict_three_independent_original_family_confirmations": 0
+    "strict_three_independent_original_family_confirmations": 0,
+    "adversarial_review_entries": 33,
+    "independent_adversarial_searches_verified": 23
   },
   "source_counts": {
     "contemporary_newspaper_transcriptions": 52,
@@ -285,6 +287,56 @@
         "DOC-P252-0824-0040"
       ],
       "strictThreeIndependentPrimary": false
+    },
+    {
+      "topic": "치안국 국회의원 특혜 12항과 국회의원 양우정 반론",
+      "families": [
+        "동아일보 8/25 경찰공문 보도",
+        "경향신문 8/26 양우정 직접성명 전사"
+      ],
+      "documentIds": [
+        "DOC-P252-0820-0080",
+        "DOC-P252B-0826-0090"
+      ],
+      "strictThreeIndependentPrimary": false
+    },
+    {
+      "topic": "전시생활개선법 기존 외국의복 착용 경과규정",
+      "families": [
+        "연합신문 8/31 금지 해석",
+        "대구매일 8/31 법제처장 허용 설명"
+      ],
+      "documentIds": [
+        "DOC-P252B-0829-0040",
+        "DOC-P252B-0829-0120"
+      ],
+      "strictThreeIndependentPrimary": false
+    },
+    {
+      "topic": "삼척 동양화학 비료공장 생산능력",
+      "families": [
+        "부산일보 이교선 기자회견 보도",
+        "서울신문 상공부 공업국장 사업계획 보도"
+      ],
+      "documentIds": [
+        "DOC-P252B-0829-0050",
+        "DOC-P252B-0830-0040"
+      ],
+      "strictThreeIndependentPrimary": false
+    },
+    {
+      "topic": "중석불 국회 조사와 대통령 자제 요청",
+      "families": [
+        "민주신보 8/27 국회 이석기·각료 질의",
+        "동아일보 8/28 대통령 자제 요청 보도",
+        "서울신문 8/31 국회 조사위 불신임 검토"
+      ],
+      "documentIds": [
+        "DOC-P231-KOR-0826",
+        "DOC-P252B-0826-0080",
+        "DOC-P252B-0828-0020"
+      ],
+      "strictThreeIndependentPrimary": false
     }
   ],
   "notes": [
@@ -404,5 +456,12 @@
     "officialOriginalTextCount": 12,
     "facsimiles": 0,
     "threeIndependentPrimarySameClaim": 0
-  }
+  },
+  "reviewHistory": [
+    {
+      "date": "2026-10-29",
+      "type": "counting_methodology_correction",
+      "detail": "31 structured adversarial-labelled entries include overlapping/one-source reviews; conservative independent targeted adversarial lines=23. Four additional cross-newsroom bundles explicitly enumerated. None meets strict 3 independent original primary institutional families."
+    }
+  ]
 }
