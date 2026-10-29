@@ -204,3 +204,5 @@
 - 2026-10-29 pass252B/C: `data/politicians/pass-252b-1952-aug26-30-actors.json` 기존 14명 심화·신규 함인섭/이진수 2명; `data/politicians/pass-252c-1952-aug31-actors.json` 기존 백선엽·배은희·백두진·신중목 4명 심화·신규 김종원/손권배 2명. 기존 백선엽 `pol-paik-sun-yup` 재사용해 중복 ID 미생성.
 
 - 2026-10-29 pass255: 1952-09-26 자유당 전국대회 대통령 연설·동아일보 대조, 이활 신규 DISCOVERED 및 윤재욱·이갑성 기존 ID 심화. `data/politicians/pass-255-actor-overlay.json`, `data/evidence/pass-255-actor-evidence.json`, `data/annals/1952-sep26-maritime-party-prices.md`. 이범석 중복 stable ID는 병합하지 않음. 해상방위구역·손원일 일본인 상륙 체포 지시 전언을 한국정부 원명령으로 확정하지 않음.
+
+- 2026-10-29 pass255B/C: 신규 DISCOVERED 5명(정문후·원상복·연일수·이신우·김봉재) `data/politicians/pass-255b-actor-overlay.json`; 기존 비대통령 인물 31명에 걸친 총 49개 새 actor-evidence 링크 `data/evidence/pass-255-actor-evidence.json`, `data/evidence/pass-255b-actor-evidence.json`, `data/evidence/pass-255c-actor-evidence.json`. 원임명·생몰·당적 미확인 후보는 VERIFIED 승격 금지.

@@ -819,3 +819,10 @@
 - 문서: data/documents/pass-254b-september-17-23.json
 - 사건: evt-p254b-governor, evt-p254b-labor-rhee, evt-p254b-chang-lightner, evt-p254b-party-list, evt-p254b-dokdo, evt-p254b-judicial-warrants
 - 반증/미해결: data/claims/pass-254b-september-17-23.json 및 HISTORY_DEBT.md.
+
+
+## 1952-09-24~10-29 정치인 중심 추가 조사 (pass255B/C)
+- **정당의 3단계**: 9/26 이승만 자유당 당수제 폐지 제안(PA-1310409), 9/26 전당대회 당헌수정 미완·34인 전형위원 위임(민주신보), 9/27 중집 대통령 조직안 수용(경향신문), 9/28 전형위 18명 후보 추천(민주신보). 9/26 현장 의원 42명, 9/24 입당 62명, 9/26 확보 64명은 다른 분모. 최종 6명 임명 미확인.
+- **해상방위구역의 원작성 충돌**: 9/25 라이트너 전문 No.601은 9/23 헤런이 이승만·변영태·손원일에게 일본 어선 금지로 설명했다고 기록, 9/27 머피 No.602는 클라크가 국적 비차별이라고 정정했다고 기록. 10/23 머피 No.607은 일괄 일본어선 금지·검문실적 없고 한국어선 지정조업구역이 있었다고 보고. 10/29 No.609 일본 정부 회신 초안도 비차별 집행을 명시. 10/13 한국해군 발포는 일본 외무상의 주장으로만 확인, 한국군 교전일지 미확보. 이승만선 승인으로 해석하지 않는다.
+- **국정 일반영역**: 장택상·후루이치 밀정협력 풍설 vs 필적 위조 반박과 검찰 수사, 이교선 대한중석 인사 의혹, 4분기 무역 수출 462.2만·수입 1782.3만 달러 민간요구액, 삼척 비료공장 UNKRA 1700만달러 합의 보도, 신중목 농림장관 식량·당밀 계획, 농가 230만×4할=92만과 보도 9만호 충돌, 부산 호별세 감찰, 백선엽 육군본부 훈령234호, UNCAC 구호물자 중단설 부인 등을 원문·보도·집행으로 분리했다.
+- 자료: `data/documents/pass-255b-september24-30.json`, `data/documents/pass-255c-frus-japan-korea.json`, `data/claims/pass-255b-adversarial.json`, `data/claims/pass-255c-sea-defense-contradictions.json`. 미해결: HISTORY_DEBT.md.

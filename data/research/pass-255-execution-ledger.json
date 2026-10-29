@@ -5,21 +5,21 @@
   "floot_touched": false,
   "full_hour_verified": false,
   "counts": {
-    "directly_opened_new_distinct": 12,
-    "official_primary_transcriptions": 9,
-    "contemporary_press_or_editorial": 3,
+    "directly_opened_new_distinct": 73,
+    "official_original_or_transcribed_primary": 28,
+    "contemporary_press_or_editorial": 45,
     "original_facsimiles": 0,
-    "independent_research_lines": 8,
-    "governance_domains": 6,
-    "nonpresidential_actors_with_new_evidence": 6,
-    "new_politician_candidates": 1,
-    "new_events": 14,
-    "new_claims": 16,
-    "adversarial_claims_examined": 16,
-    "independent_adversarial_searches_verified": 0,
-    "prior_open_leads_contextually_tracked": 6,
-    "new_specific_leads": 34,
-    "contextual_cross_provenance_bundles": 2,
+    "independent_research_lines_source_scoped": 24,
+    "governance_domains": 12,
+    "nonpresidential_actors_with_new_evidence": 31,
+    "new_politician_candidates": 6,
+    "new_events": 54,
+    "new_claims": 46,
+    "adversarial_claims_examined": 46,
+    "independent_adversarial_searches_verified": 10,
+    "prior_open_leads_contextually_tracked": 8,
+    "new_specific_leads": 80,
+    "contextual_cross_provenance_bundles": 3,
     "three_family_primary_confirmations": 0
   },
   "dedup_note": "FRUS d254-283 previously registered in pass253; only FRUS d284-286 and FRUS Japan 603/678 new in this pass; NIKH 3 US original transcripts counted by unique underlying document, not 3 provenance families",
@@ -75,7 +75,11 @@
     "1952 newspaper electric/telegram/telephone multipliers differ from arithmetic",
     "Rhee party speech is proposal not evidence of adoption",
     "UNC sea defense zone not international recognition of Rhee Line",
-    "Japanese port labor and arrests are reported, not verified implementation"
+    "Japanese port labor and arrests are reported, not verified implementation",
+    "9/29 230만 농가의 4할은 92만, 보도 9만호 산술충돌",
+    "9/26 삼척 비료공장 연 2000만톤 생산 보도 원설계 미확보",
+    "9/25 구호물자 전년도 1991년 표기 오류 가능성",
+    "9/25 Lightner 일본어선 금지 설명 vs 9/27 Murphy Clark 비차별 정정"
   ],
   "next_lead_file": "data/research/leads/pass-255-next-originals.json",
   "files": [
@@ -94,6 +98,32 @@
     "data/research/HISTORY_DEBT.md",
     "data/politicians/INDEX.md",
     "docs/METHODOLOGY.md",
-    "data/research/coverage/pass-255-coverage-overlay.json"
-  ]
+    "data/research/coverage/pass-255-coverage-overlay.json",
+    "data/events/pass-255b-actions.json",
+    "data/events/pass-255c-diplomacy.json",
+    "data/politicians/pass-255b-actor-overlay.json",
+    "data/research/coverage/pass-255b-coverage-overlay.json",
+    "data/annals/rhee-syngman.md",
+    "data/evidence/rhee-syngman.json",
+    "data/research/rhee-syngman-coverage.json",
+    "data/research/rhee-syngman-open-leads.json"
+  ],
+  "followupPasses": [
+    "255B",
+    "255C"
+  ],
+  "new_source_shards": [
+    "data/documents/pass-255b-september24-30.json",
+    "data/documents/pass-255c-frus-japan-korea.json"
+  ],
+  "new_lead_files": [
+    "data/research/leads/pass-255-next-originals.json",
+    "data/research/leads/pass-255b-next-originals.json",
+    "data/research/leads/pass-255c-next-originals.json"
+  ],
+  "execution_verification": {
+    "full_hour_elapsed": false,
+    "weekly_debt_full_review": false,
+    "independent_adversarial_searches": "10 targeted searches; weak/no independent hits are not resolutions"
+  }
 }
