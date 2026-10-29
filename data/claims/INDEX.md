@@ -192,3 +192,5 @@
 - `data/claims/pass-258b-fy1955-rok-us-agreement-claims.json` (1954 원조·총리 백두진 CEB·한미 합의의사록 12개 명제)
 
 - 2026-10-30 Pass258C: `data/claims/pass-258c-1954-55-implementation.json` (existing treaty and FRUS IDs reused).
+
+- 2026-10-30 Pass258D: `data/claims/pass-258d-1955-56-exchange-nnsc.json` (1955 환율 270·700·500, NNSC 8월 사건, 비대통령 행위자·증거 불확실성).

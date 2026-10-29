@@ -226,3 +226,5 @@
 - `data/documents/pass-258b-fy1955-rok-us-agreed-draft-signed.json` (1954 FY55 의회원조 문서 5종 + FRUS d980, 9월 초안 vs 11월 서명 분리)
 
 - 2026-10-30 Pass258C: `data/documents/pass-258c-1954-55-implementation.json` (existing treaty and FRUS IDs reused).
+
+- 2026-10-30 Pass258D: `data/documents/pass-258d-1955-56-exchange-nnsc.json` (1955 환율 270·700·500, NNSC 8월 사건, 비대통령 행위자·증거 불확실성).
