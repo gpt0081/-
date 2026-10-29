@@ -135,7 +135,7 @@
     {
       "id": "CLM-P254B-party-duplicate",
       "statement": "9/22 신문이 적은 60명 명단에는 동명이인·중복 없이 고유 인물 60명이 있다",
-      "status": "CONFLICTED",
+      "status": "NARROWED",
       "supporting_evidence": [],
       "contradicting_or_limiting_evidence": [],
       "contextual_evidence": [
@@ -145,7 +145,13 @@
       "insufficient_evidence": [
         "기관 원회의록·관보·당사자 반론·법률 효력·명부 원본"
       ],
-      "review_date": "2026-10-29"
+      "review_date": "2026-10-29",
+      "correction_history": [
+        {
+          "date": "2026-10-29",
+          "reason": "단일 신문기사 내부 중복은 독립 출처계열 간 CONFLICTED가 아니라 내부 명부 검증 OPEN/NARROWED"
+        }
+      ]
     },
     {
       "id": "CLM-P254B-diaspora-id",
@@ -153,7 +159,7 @@
       "status": "CONFLICTED",
       "supporting_evidence": [],
       "contradicting_or_limiting_evidence": [
-        "DOC-P254B-DH-0917-0090"
+        "DOC-P254A-DH-0917-0090"
       ],
       "contextual_evidence": [
         "DOC-P254B-DH-0920-0010"
@@ -162,7 +168,13 @@
       "insufficient_evidence": [
         "기관 원회의록·관보·당사자 반론·법률 효력·명부 원본"
       ],
-      "review_date": "2026-10-29"
+      "review_date": "2026-10-29",
+      "correction_history": [
+        {
+          "date": "2026-10-29",
+          "reason": "9/17 문서가 pass254A shard에 있어 잘못된 pass254B 참조를 canonical ID로 교정"
+        }
+      ]
     },
     {
       "id": "CLM-P254B-chang-coup",
