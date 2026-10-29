@@ -4,11 +4,11 @@
   "activeBranch": "main",
   "branchHead": "moving-ref:refs/heads/main",
   "baseMain": "0bae0fd2c2ce592e6699095fbe4593d07e9b778e",
-  "status": "PASS251_1952_ELECTION_FISCAL_MPC_13_ACTORS",
-  "summary": "1952 선거·지방의회, 비대통령 13명 신원/행위, FRUS 원문7, 정부·경북 예산 전사2, 1952 금통위·국회 상임위·추경 전사3. 직접 열람33(동시대 전사12, 기존 등록문서 재사용1), 사건 신규13·보강3, lead54, 원면0. 오위영 생년 CONFLICTED, 오재경 명칭 NARROWED.",
-  "nextAction": "LEAD-P251-01 UN A/2187 원면 → 03 1952 대선 개표록 → 16 부산 전문1244 → 37 국무회의 79081 → 45 제64차 금통위 원의사록 → 48 1952 추경 국회 속기 → 49 오위영/오재경 원신문 → 50 오위영 호적",
+  "status": "PASS257V_1954_ELECTION_EDUCATION_1955_DAEGU_COURT_DATE",
+  "summary": "Pass257V FRUS d893,d894,d979 contemporaneous originals3; 1953-55 literacy chronology and 553-person statistics discrepancy; 1954 Hangul 6/26 vs 7/3; 1955 Daegu Maeil assault local party actors Hong Yeong-seop and Kim Min, Supreme Court date 1956-05-08 official archive vs 6/8 recent press; 19 distinct opened pages, 59 concrete leads, 10 prior leads followed, 15 event records, 20 claims; Floot untouched.",
+  "nextAction": "Prioritize original BA0041904/BA0024906 Choi judgment, BA0084194/BA0084198 literacy, BA0085172 orthography, Briggs 1954-05-23 telegram1231 and July14 5 observer memos, 1954 NEC seat affiliation originals. Avoid repeating already indexed cabinet agenda.",
   "mainDataModified": true,
-  "latestRun": "data/research/pass-251-execution-report.md",
+  "latestRun": "data/research/run-reports/pass-257v-2026-10-29.md",
   "latestCorrections": [
     {
       "run": 93,
@@ -484,24 +484,17 @@
   ],
   "lastRunPass": 253,
   "lastRunReport": "data/research/pass-253-execution-report.md",
-  "lastRunLedger": "data/research/pass-253-execution-ledger.json",
+  "lastRunLedger": "data/research/run-reports/pass-257v-execution-ledger.json",
   "lastRunCommits": [
-    "9696a1f93f333527ae3859c9e3d69ef0dd7f38ff",
-    "379e95477b8313e2118840f3809893c9237ea0ca",
-    "c45962c41698b538090f00d800c1b9d2e6edb004",
-    "0365dacbe4cf5e4c7feae56b9ab947ac0c4ecb21",
-    "3bb898352d833d17a9b6c7aa5999c8c6a3fa4987",
-    "91c0361521a94667c8f7b70304971f9e088a9f59",
-    "37bf483c933722f9a7dc2b745a54057afc63da48",
-    "89a0f0a658216ee90a5353cdb8e7ad3bc6af8f93",
-    "b641ba833eaccc192a0e8b366e7eead284b81283",
-    "0e37f2069db31a7f209dfcf38b8680e26750d63c",
-    "9e5bfdac7691102c9fc49cba182a854a2794d8d6",
-    "13d2edc6ccaef2fee05c2c18d5822017a3d55ca3",
-    "4addbbc6ba2c4222f35b47b6d7795bf656f70362",
-    "84a20ac093c2b71c7bd7fcde4665b35300b15c14"
+    "03638badc4d91c3e5914c0cf2f13a9903e652e03",
+    "c240a72a0c93680e1f59ef02af46382e3d91c3f8",
+    "3ddd7893eed9fb5201eda55290b0ffd83c9091c1",
+    "b18daedb22e60516bb06c22c4af7c021875251ef"
   ],
   "nextPriorityQueue": [
+    "data/research/leads/pass-257v-1953-55-education-press-originals.json",
+    "data/research/leads/pass-257u-housing-press-originals.json",
+    "data/research/leads/pass-257t-presidential-originals.json",
     "data/research/leads/pass-255g-next-originals.json",
     "data/research/leads/pass-253f-next-originals.json",
     "data/research/leads/pass-253e-next-originals.json",
@@ -528,6 +521,36 @@
     "commitShas": [
       "d5315168c13012a1ab6d473f80e3e90afc0974a0",
       "abfd93f5e1f701ee5424ff837d652eaf0cafb53d"
+    ]
+  },
+  "recentResearchPass257V": {
+    "date": "2026-10-29",
+    "report": "data/research/run-reports/pass-257v-2026-10-29.md",
+    "ledger": "data/research/run-reports/pass-257v-execution-ledger.json",
+    "leadQueue": "data/research/leads/pass-257v-1953-55-education-press-originals.json",
+    "sourceRegistries": [
+      "data/documents/pass-257v-1953-55-education-election-sources.json",
+      "data/documents/pass-257v-1955-daegu-press-judicial-sources.json"
+    ],
+    "actorRegistries": [
+      "data/politicians/pass-257v-1954-education-election-actors.json",
+      "data/politicians/pass-257v-1955-daegu-local-party-actors.json"
+    ],
+    "counts": {
+      "directOpened": 19,
+      "primaryText": 3,
+      "nonPresidentDeepened": 13,
+      "newCandidates": 2,
+      "events": 15,
+      "claims": 20,
+      "leads": 59,
+      "followed": 10
+    },
+    "cautions": [
+      "Previously registered NAK cabinet and literacy sources deduplicated with canonical IDs",
+      "NAK judicial catalog is not original judgment scan",
+      "No Sunday debt sweep Thursday",
+      "Do not claim 1h execution"
     ]
   }
 }
