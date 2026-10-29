@@ -198,3 +198,5 @@
 - 2026-10-29 Pass257P: `data/documents/pass-257p-unkra-housing-finance-primary-audit.json` (UN A/2750·UNCURK A/2810·UN 제2위원회 SR340/SR341 원문 전체, UN A/RES/410(V) 5쪽·725(VIII) 1쪽·828(IX) 2쪽, 서울기록원 재건주택 공식해설·사진 5점 원이미지, 외무부 CA0002578 32쪽 원본의 **목록만** 확보; 법제처 법률302·311/대통령령860 연혁 메타데이터; 원문/목록/시각사료 분리).
 
   - Pass257P supplement: A/2487 1953 UN Board of Auditors 원문, A/2222 1952 초기보고, A/3651 1957 후속보고 직접 열람. 고유 등록 문서 22개 중 동시대 원문 텍스트 10건·동시대 사진 5점, 원문 미확보 목록 별도.
+
+  - Pass257P supplement2: A/2801 1954 UN ACABQ 원문·A/RES/880(IX) 원결의·영국 하원 1953/1954/1955 Hansard 원문 5건 추가. 총 등록 27건(원문 텍스트 15, 사진 원이미지 5, 기타 공식 해설·목록).
