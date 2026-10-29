@@ -674,15 +674,16 @@
       "existingPoliticians": 11,
       "events": 13,
       "claims": 12,
-      "leads": 53,
-      "newEventIds": 12,
+      "leads": 63,
+      "newEventIds": 18,
       "canonicalEventsEnhanced": 7,
-      "newDocumentObjects": 11,
+      "newDocumentObjects": 12,
       "canonicalDocumentsReused": 4,
       "newPoliticianCandidates": 1,
       "originalGazetteMinisterIds": 16,
-      "adversarial": 18,
-      "organizationIds": 6
+      "adversarial": 24,
+      "organizationIds": 7,
+      "originalStatuteDecreeBodiesRead": 5
     },
     "caution": "Government Organization Act384 is nonofficial consolidated transcription, not original 1956 Gazette.",
     "correction": "Removed duplicate event and document IDs after canonical lookup; original research remains in existing canonical events.",
@@ -692,6 +693,11 @@
       "관보 제1591호 법률388호"
     ],
     "conflict": "재정법387호 표제 1956-06-27 vs 개정문 내부 1956.1.27",
-    "organizationOverlay": "data/organizations/pass-258f-1956-domestic-governance.json"
+    "organizationOverlay": "data/organizations/pass-258f-1956-domestic-governance.json",
+    "latestOriginals": [
+      "DOC-P258F-LOCAL-DECREE-1142",
+      "DOC-P258F-SCHOOL-DECREE-1168"
+    ],
+    "topNewDebt": "1956 decree1168 promulgation July14 vs stated effective April1"
   }
 }
