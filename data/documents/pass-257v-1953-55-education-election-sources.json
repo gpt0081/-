@@ -4,21 +4,6 @@
   "canonicalDedupPolicy": "reuse existing document IDs when found; this registry adds distinct previously unregistered sources; no page-count inflation",
   "documents": [
     {
-      "id": "DOC-P257V-NAK-CAB54",
-      "title": "국가기록원 국무회의 안건 목록집 I: 1954년도",
-      "date": "1954",
-      "creator": "National Archives of Korea",
-      "issuingOrganization": "National Archives of Korea",
-      "language": "ko",
-      "originalLocation": "https://www.archives.go.kr/archivesdata/upFile/palgan/1372813616343.pdf",
-      "provenance": "retrospective_official_archival_index",
-      "originalPagesRetrieved": false,
-      "originalImageVerified": false,
-      "accessDate": "2026-10-29",
-      "accessMethod": "web full page or PDF extracted text",
-      "note": "1954 cabinet agenda index, 289 numbered entries; index establishes submitted agenda not adoption or implementation"
-    },
-    {
       "id": "DOC-P257V-NAK-CAB53",
       "title": "국가기록원 국무회의 안건 목록집 I: 1953년도",
       "date": "1953",
@@ -32,21 +17,6 @@
       "accessDate": "2026-10-29",
       "accessMethod": "web full page or PDF extracted text",
       "note": "No.129 1953-11-06 83rd cabinet meeting literacy proposal BA0084194; no final approval implied"
-    },
-    {
-      "id": "DOC-P257V-NAK-LITERACY",
-      "title": "한글이 걸어온 길: 문맹 퇴치 사업 1954년",
-      "date": null,
-      "creator": "National Archives of Korea",
-      "issuingOrganization": "National Archives of Korea",
-      "language": "ko",
-      "originalLocation": "https://theme.archives.go.kr/next/hangeulPolicy/business.do",
-      "provenance": "retrospective_official_educational_history",
-      "originalPagesRetrieved": false,
-      "originalImageVerified": false,
-      "accessDate": "2026-10-29",
-      "accessMethod": "web full page or PDF extracted text",
-      "note": "1954-02-16 cabinet approval reported; annual outcomes; second year mistakenly labeled 1952"
     },
     {
       "id": "DOC-P257V-NAK-ORTH",
@@ -197,6 +167,20 @@
       "accessDate": "2026-10-29",
       "accessMethod": "TinyFish fetch full historical text",
       "note": "Advocates conditional Korea-Japan rapprochement, Japanese property claim withdrawal, US-Korea-Japan nonaggression pact; claims on enemy infiltration and Japan not independently verified"
+    }
+  ],
+  "reusedCanonicalIds": {
+    "DOC-P257V-NAK-CAB54": "DOC-P257R-NAK-AGENDA",
+    "DOC-P257V-NAK-LITERACY": "DOC-P257R-NAK-LITERACY"
+  },
+  "correctionHistory": [
+    {
+      "date": "2026-10-29",
+      "reason": "Deduplicate 1954 cabinet agenda and literacy pages already registered Pass257R",
+      "reused": {
+        "DOC-P257V-NAK-CAB54": "DOC-P257R-NAK-AGENDA",
+        "DOC-P257V-NAK-LITERACY": "DOC-P257R-NAK-LITERACY"
+      }
     }
   ]
 }
