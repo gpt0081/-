@@ -2035,3 +2035,13 @@
 - `HD-P258A-VANFLEET-HULL-FINAL` CONFLICTED: 7/3 밴플리트와 7/5 헐의 상반 군 증강·미군철수 권고 중 최종 채택 확인.
 - `HD-P258A-NNSC-COMMAND` OPEN: 7/30 원용덕 경고와 인천·부산·군산 3개 현장 사건의 지휘명령 연결 미확인.
 - 상세 상태·10개 기존 lead 추적: `data/research/history-debt/pass-258a-1954-foa-nnsc-unresolved.json`. **금요일, 역사부채 주간 전수조사 미실시. last_full_review 변경하지 않음.**
+
+## Pass258B · 2026-10-30 원조통제·환율·조달 역사부채 (일반 회차, 주간 전수조사 아님)
+- `HD-P258B-RHEE-ORIGINAL` [OPEN]: 1954-06-09 이승만의 직접 달러지원·소수 고문·회계책임 제안의 한국측 원발표/국무회의 의결 여부 다음 원문: 1954-06-09 공보처 대통령 담화 원고·당시 신문 원지면.
+- `HD-P258B-FIRM-REQUEST` [NARROWED]: 1954-05-10 FOA PA 98.39m과 06-13 OEC PA 약180m의 회계기준·증가분 다음 원문: FOA 1954-05-10~06-13 dated PA register and Firm Request signatory ledger.
+- `HD-P258B-JAPAN-TENDER` [OPEN]: 1954 초 일본산 공급처 배제 한국측 지시, 면포 160만달러 입찰, 미국측 1400만달러 지연 추정의 실제 계약별 검증 다음 원문: 상공부·재무부 1954 일본산 조달 배제 공문 및 FOA 재공고 계약.
+- `HD-P258B-CEMENT-204` [CONFLICTED]: 1954 1분기 시멘트 생산 전년동기 204%라는 미국측 표기와 국편 번역자 24% 오기 추정의 정확한 수치 다음 원문: 한국은행 1954 1분기 시멘트 생산지수 원통계·원영문 비망록.
+- `HD-P258B-DODGE-VERSION` [OPEN]: 1953-07-28 닷지 초안(FRUS)과 1953-08-06/07 닷지 비망록(국편)의 작성·승인 버전 및 날짜 차이 다음 원문: NARA RG469 Entry422 Box16 수집03014675 원영문 이미지와 FRUS 895B.00/7-2953 원철.
+- `HD-P258B-POWER-CONTRACT` [OPEN]: 1954-06-13 3개 증기발전소 계약과 5월 FOA 부산·서울 발전시설 계획의 사업번호 일치 여부 다음 원문: FOA 1954 June steam power contract list and ROK electric utility construction ledger.
+- `HD-P258B-FERTILIZER-23M` [OPEN]: 1954-06-13 비료공장 약2300만달러 자금배정 추진과 5월 FOA 800만달러 계획의 관계 다음 원문: FOA FY54 fertilizer plant appropriations amendment, plant names, construction records.
+- 기존 lead 9개는 `data/research/history-debt/pass-258b-1953-54-aid-control-unresolved.json`에 후속 상태와 증거를 기록. RESOLVED 0. `last_full_review` 변경 없음.
