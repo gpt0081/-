@@ -4,7 +4,7 @@
   "date": "2026-10-29",
   "timezone": "Asia/Seoul",
   "startedAtLocal": "2026-10-29T23:13:49+09:00",
-  "loggedAtUtc": "2026-10-29T14:31:43.977Z",
+  "loggedAtUtc": "2026-10-29T14:32:11.504Z",
   "goal": "대한민국 역대 정치인 실록, 이승만 backbone and nonpresident network",
   "flootTouched": false,
   "weeklyFullHistoryDebtReview": false,
@@ -97,9 +97,21 @@
     "data/research/rhee-syngman-coverage.json",
     "data/research/rhee-syngman-open-leads.json",
     "data/research/primary-reads/pass-257w-2026-10-29.json",
-    "data/research/run-reports/pass-257w-2026-10-29.md"
+    "data/research/run-reports/pass-257w-2026-10-29.md",
+    "data/research/run-reports/pass-257w-execution-ledger.json",
+    "data/research/ACTIVE_RESEARCH_HANDOFF.json"
   ],
   "commits": [
+    {
+      "sha": "0a243ace0453ce7f6a9e8d4325818633a3e8741b",
+      "message": "handoff(pass257w): prioritize UN original 114/115 discrepancy and 40 actionable archival leads",
+      "dateUtc": "2026-10-29T14:32:03Z"
+    },
+    {
+      "sha": "51f526259f9203290d4981b30cf7034bb73f345d",
+      "message": "research(pass257w): write execution ledger with actual counts, 44 commit SHAs and validation",
+      "dateUtc": "2026-10-29T14:31:46Z"
+    },
     {
       "sha": "da13c33688d99e3f3cb6f41fb87f35878e65b4c8",
       "message": "research(pass257w): publish evidence-audited 1954 UN original and election/cabinet run report",
@@ -332,5 +344,6 @@
     "Do not attribute all police actions to presidential orders",
     "No political hero/villain scoring",
     "No Floot build or edits"
-  ]
+  ],
+  "ledgerFinalizationNote": "This ledger records all substantive commits through the handoff update; its own final update SHA is visible in GitHub commit history and final response."
 }
