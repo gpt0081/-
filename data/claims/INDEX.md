@@ -112,3 +112,5 @@
 
 ## pass247d (2026-10-29)
 - `data/claims/pass-247d-domestic-adversarial.json`: 반대자3명 RESOLVED·지방의회 합헌 논쟁 등8개.
+
+- 2026-10-29 pass248: `data/claims/pass-248-1960-election-adversarial.json` (1960 지방선거·김상돈·출처충돌 검증).
