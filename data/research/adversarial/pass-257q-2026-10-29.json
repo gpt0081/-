@@ -1,0 +1,163 @@
+{
+  "pass": "257Q",
+  "date": "2026-10-29",
+  "independent_question_count": 14,
+  "distinct_web_search_attempts": 12,
+  "strict_three_family_triangulations": 2,
+  "tracks": [
+    {
+      "id": "1954-election-party-seats",
+      "question": "1954 제3대 총선 자유당114/115·무소속 분류",
+      "method": "web-search",
+      "checked_sources": "중앙선관위·국편·UNCURK·미국 외교문서",
+      "result": "CONFLICTED",
+      "next_original_target": "원당선자 공천·비공천·무소속 명부",
+      "search_attempted": true,
+      "independent_question": true,
+      "source_lineage_caution": "Search attempt ≠ finding counterevidence; secondary/index ≠ original facsimile"
+    },
+    {
+      "id": "1954-amendment-quorum",
+      "question": "1954 11월 개헌안 202/203·135/136 계산",
+      "method": "web-search+original-comparison",
+      "checked_sources": "국회 제90·91차·미 전문433",
+      "result": "CONFLICTED",
+      "next_original_target": "국회 표결원표·미 전문 원팩시밀리",
+      "search_attempted": true,
+      "independent_question": true,
+      "source_lineage_caution": "Search attempt ≠ finding counterevidence; secondary/index ≠ original facsimile"
+    },
+    {
+      "id": "1954-cabinet-date",
+      "question": "제5회 국무회의록 1/22 본문 vs 11/29 목록",
+      "method": "original-comparison",
+      "checked_sources": "국편 원전사·관보1049",
+      "result": "CONFLICTED_METADATA",
+      "next_original_target": "국가기록원 원등록카드",
+      "search_attempted": false,
+      "independent_question": true,
+      "source_lineage_caution": "Search attempt ≠ finding counterevidence; secondary/index ≠ original facsimile"
+    },
+    {
+      "id": "1954-minister-identity",
+      "question": "1/23과 9/8 각료명부 일치 여부",
+      "method": "original-comparison",
+      "checked_sources": "관보1049·1174",
+      "result": "CONTRADICTED",
+      "next_original_target": "7개 부처 임면 발령 원면",
+      "search_attempted": false,
+      "independent_question": true,
+      "source_lineage_caution": "Search attempt ≠ finding counterevidence; secondary/index ≠ original facsimile"
+    },
+    {
+      "id": "1954-tungsten-contract",
+      "question": "중석 구매계약 이미 종료 vs 종료 예정·비갱신 승인",
+      "method": "web-search+original-cross",
+      "checked_sources": "1/22 국무회의·FRUS d862/d867/d873",
+      "result": "NARROWED",
+      "next_original_target": "1952 계약원문·1954 인도증·회신 수신",
+      "search_attempted": true,
+      "independent_question": true,
+      "source_lineage_caution": "Search attempt ≠ finding counterevidence; secondary/index ≠ original facsimile"
+    },
+    {
+      "id": "1954-loan-20m",
+      "question": "1954 1/22 2천만달러 감액협상 실제 성립",
+      "method": "web-search",
+      "checked_sources": "국무회의록, 1954 US aid search no directly matching original",
+      "result": "OPEN_NO_CORROBORATION",
+      "next_original_target": "문교부·외무부 1954 감액 교섭 원서한",
+      "search_attempted": true,
+      "independent_question": true,
+      "source_lineage_caution": "Search attempt ≠ finding counterevidence; secondary/index ≠ original facsimile"
+    },
+    {
+      "id": "1954-rice-storage",
+      "question": "미곡가격 조정·저장기계 구매 실제 집행",
+      "method": "web-search",
+      "checked_sources": "국무회의록, 독립 구매·가격 원문 미발견",
+      "result": "OPEN_NO_CORROBORATION",
+      "next_original_target": "농림부 미곡가격 고시·외자기계 구매계약",
+      "search_attempted": true,
+      "independent_question": true,
+      "source_lineage_caution": "Search attempt ≠ finding counterevidence; secondary/index ≠ original facsimile"
+    },
+    {
+      "id": "1954-maritime",
+      "question": "1954 평화선 지시가 실제 해양단속을 증명하는가",
+      "method": "web-search+original-cross",
+      "checked_sources": "국무회의록·FRUS v14p2 d606·Rhee d868",
+      "result": "INSUFFICIENT",
+      "next_original_target": "1954 해양경비대 출동일지",
+      "search_attempted": true,
+      "independent_question": true,
+      "source_lineage_caution": "Search attempt ≠ finding counterevidence; secondary/index ≠ original facsimile"
+    },
+    {
+      "id": "1954-fx-vendors",
+      "question": "유엔군 납품업체 달러공급 연구가 실제 배정됐는가",
+      "method": "web-search",
+      "checked_sources": "국무회의록, NBER 후대 금융연구 원문 단서",
+      "result": "OPEN_NO_CORROBORATION",
+      "next_original_target": "재무부 특별외화대부 배정원장",
+      "search_attempted": true,
+      "independent_question": true,
+      "source_lineage_caution": "Search attempt ≠ finding counterevidence; secondary/index ≠ original facsimile"
+    },
+    {
+      "id": "1954-health-laws",
+      "question": "법307·308 제정·시행일 동일 여부",
+      "method": "web-search+official-statute",
+      "checked_sources": "국무회의록·법제처307/308·질병관리청·법원판결",
+      "result": "CONTRADICTED",
+      "next_original_target": "1954 관보 법률 전문·1957 시행 대통령령",
+      "search_attempted": true,
+      "independent_question": true,
+      "source_lineage_caution": "Search attempt ≠ finding counterevidence; secondary/index ≠ original facsimile"
+    },
+    {
+      "id": "1954-pow-cohorts",
+      "question": "1/3 135, 1/20 7700, 1/22 159·92 동일집단 여부",
+      "method": "web-search+archive-index",
+      "checked_sources": "국가기록원 1954 연표·국무회의록",
+      "result": "INSUFFICIENT",
+      "next_original_target": "인도군 원명부·헌병 조사보고",
+      "search_attempted": true,
+      "independent_question": true,
+      "source_lineage_caution": "Search attempt ≠ finding counterevidence; secondary/index ≠ original facsimile"
+    },
+    {
+      "id": "1954-tungsten-liberalization",
+      "question": "11/14 중석수출 자유화는 미국 구매중단의 직접 결과인가",
+      "method": "web-search+archive-index",
+      "checked_sources": "국가기록원 연표·FRUS 1954 2월",
+      "result": "INSUFFICIENT",
+      "next_original_target": "11/14 중석수출·대한중석 운영 원공문",
+      "search_attempted": true,
+      "independent_question": true,
+      "source_lineage_caution": "Search attempt ≠ finding counterevidence; secondary/index ≠ original facsimile"
+    },
+    {
+      "id": "1954-rhee-letter",
+      "question": "2/4 서한 정식전달·거부·비공식열람·철회",
+      "method": "web-search+FRUS-cross",
+      "checked_sources": "FRUS d868/d869/d871",
+      "result": "NARROWED",
+      "next_original_target": "2/24 O'Connor 메모 원문",
+      "search_attempted": true,
+      "independent_question": true,
+      "source_lineage_caution": "Search attempt ≠ finding counterevidence; secondary/index ≠ original facsimile"
+    },
+    {
+      "id": "1954-aid-japan",
+      "question": "이승만 5억1500만달러 일본 조달 주장·1953과 일관성",
+      "method": "web-search+FRUS-cross",
+      "checked_sources": "FRUS d692/d737/d868",
+      "result": "SPEAKER_CONSISTENCY_NOT_FACT",
+      "next_original_target": "ECA·UNKRA 조달국별 계약원장",
+      "search_attempted": true,
+      "independent_question": true,
+      "source_lineage_caution": "Search attempt ≠ finding counterevidence; secondary/index ≠ original facsimile"
+    }
+  ]
+}
