@@ -164,3 +164,5 @@
 
 - Pass257Q UN original addendum: 1954 tungsten expiry, 1955 international auctions, 1954/55 export decline, 1956 recovery 5 events.
 - 2026-10-29 Pass257R 1954 선거·국회·외교·국방·교육·농정·재정·산업 22개 세부사건. `data/events/pass-257r-1954-policy-election-actions.json`.
+
+- 2026-10-29 Pass257S: `data/events/pass-257s-1954-visit-nnsc-actions.json` 방미초청·한미회담·원용덕 발언·인천/부산/군산 3개 별도 사건·변영태 발언 19개.

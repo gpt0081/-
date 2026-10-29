@@ -211,3 +211,5 @@
 
 - Pass257Q UN original addendum: ECAFE Economic Survey1956 and UNKRA A/3195 primary original PDF texts, independent tungsten agreement expiry/exports.
 - 2026-10-29 Pass257R 1954 FRUS 원문 36신규+2재사용, NEC/NIKH/NAK 공식 후대자료8. `data/documents/pass-257r-1954-policy-election-frus.json`.
+
+- 2026-10-29 Pass257S: `data/documents/pass-257s-1954-july-august-originals.json` FRUS 1954-05-10·07-07~08-05 원문 16 신규·2 재사용, 편집주석2 원문과 분리.

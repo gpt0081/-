@@ -178,3 +178,5 @@
 
 - Pass257Q UN original addendum: five claims, third strict ROK Cabinet+US FRUS+UN original three-family crosscheck.
 - 2026-10-29 Pass257R 선거 114/115·공천99+15·문맹연도·집행귀속 16개 반증. `data/claims/pass-257r-1954-policy-election-adversarial.json`.
+
+- 2026-10-29 Pass257S: `data/claims/pass-257s-1954-visit-nnsc-adversarial.json` 파병 제안≠집행, 공동성명≠모든 군사요구 철회, 원용덕 성명≠현장폭력 직접명령 등 15개 반증.

@@ -238,3 +238,5 @@
 
 - 2026-10-29 Pass257Q: `data/politicians/pass-257q-1954-cabinet-actors.json` 21개 장관·국무위원 시간귀속 기록, 신규 candidate 5명, 기존 16명. 중앙 registry additive 반영.
 - 2026-10-29 Pass257R 1954 선거구별 16인(기존13·신규후보3) 독립 인물 연구. `data/politicians/pass-257r-1954-election-governance-actors.json`.
+
+- 2026-10-29 Pass257S: `data/politicians/pass-257s-1954-visit-nnsc-actors.json` 기존 10인 역할 심화·최순주 신규 candidate 1명; 생몰·한자 원문 미확인.
