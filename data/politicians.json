@@ -1128,7 +1128,9 @@
         "evt-p257j-19530227-finance-law-promulgation",
         "evt-p257j-19530228-paik-public-explanation",
         "evt-p257k-19530414-union-decree",
-        "evt-p257m-19530304-rhee-reimbursement-statement"
+        "evt-p257m-19530304-rhee-reimbursement-statement",
+        "evt-p257n-19530219-paik-credit-trade",
+        "evt-p257n-19530227-finance-law-article11-vote"
       ],
       "researchNotes": "1\n9\n5\n2\n~\n5\n3\n \n재\n정\n·\n원\n조\n·\n휴\n전\n외\n교\n \n교\n차\n \n행\n위\n자\n.\n \n1\n9\n5\n3\n-\n0\n8\n-\n0\n6\n \n경\n제\n·\n군\n사\n원\n조\n \n회\n의\n에\n서\n \n통\n합\n \n경\n제\n기\n구\n를\n \n통\n한\n \n원\n조\n \n프\n로\n그\n램\n \nM\nO\nU\n의\n \n미\n국\n \n최\n종\n승\n인\n을\n \n직\n접\n \n요\n청\n한\n \n기\n록\n과\n \n덜\n레\n스\n \n회\n담\n \n참\n여\n가\n \n확\n인\n되\n어\n \nV\nE\nR\nI\nF\nI\nE\nD\n로\n \n승\n격\n.\n \nC\nE\nB\n/\n환\n율\n/\n재\n건\n원\n조\n \n한\n국\n측\n \n문\n서\n \n확\n보\n \n후\n \nA\nN\nN\nA\nL\nS\n_\nA\nC\nT\nI\nV\nE\n \n검\n토\n.\n2026-10-28 pass233 정정: 직접 출처 없이 연결된 event edge 제거, 인물 candidate 연구 단서는 보존\npass234B: 1952-12-12 부흥부 신설 구상·유엔 원화대여금 4580억원 주장·11/13 현금교환 요청 공한, 12/15 450만석 양곡수입 합의 주장",
       "pass232Overlay": "data/politicians/pass-232-1952-september-actors.json",
@@ -1157,7 +1159,8 @@
         "data/research/politicians/pass-253-1952-september-actor-profiles.json",
         "data/politicians/pass-257j-actor-evidence.json",
         "data/politicians/pass-257k-labor-institution-actors.json",
-        "data/politicians/pass-257m-finance-public-claims.json"
+        "data/politicians/pass-257m-finance-public-claims.json",
+        "data/politicians/pass-257n-1953-finance-legislators.json"
       ],
       "evidenceCoverage": [
         "DOC-P234B-NIKH-1212-0040",
@@ -1200,9 +1203,12 @@
         "DOC-P253E-DH-0910-0080",
         "DOC-P257J-NIKH-PAIK-19530115",
         "DOC-P257J-NIKH-PAIK-19530228",
-        "DOC-P257K-PA-UNION-772"
+        "DOC-P257K-PA-UNION-772",
+        "DOC-P257N-DH-028-1953-02-19-0030",
+        "DOC-P257N-DH-028-1953-02-19-0060",
+        "DOC-P257N-DH-028-1953-02-27-0050"
       ],
-      "lastResearchPass": "257M",
+      "lastResearchPass": "257N",
       "evidenceFile": "data/evidence/paik-too-chin-1953.json",
       "annalsFile": "data/annals/paik-too-chin.md",
       "promotionHistory": [
@@ -1254,7 +1260,10 @@
         "LEAD-P253E-07",
         "LEAD-P257J-03",
         "LEAD-P257J-09",
-        "LEAD-P257K-03"
+        "LEAD-P257K-03",
+        "LEAD-P257N-01",
+        "LEAD-P257N-05",
+        "LEAD-P257N-17"
       ],
       "recentResearchPass240": {
         "date": "2026-10-29",
@@ -1310,6 +1319,38 @@
             "DOC-P253E-DH-0910-0080"
           ],
           "attribution": "직접 원문 서한·발언 또는 동시대 언론 보도. 발언의 진위·계획 집행 분리"
+        },
+        {
+          "period": "1953-02-19~27",
+          "role": "재무장관 겸 총리서리 긴급명령 사후승인 설명·제11조 정부원안 옹호·외상거래 권고",
+          "actionType": "executive_speech",
+          "documentIds": [
+            "DOC-P257N-DH-028-1953-02-19-0030",
+            "DOC-P257N-DH-028-1953-02-19-0060",
+            "DOC-P257N-DH-028-1953-02-27-0050"
+          ]
+        }
+      ],
+      "eventConnections": [
+        {
+          "eventId": "evt-p257n-19530219-paik-credit-trade",
+          "actionType": "executive_speech",
+          "documentIds": [
+            "DOC-P257N-DH-028-1953-02-19-0030",
+            "DOC-P257N-DH-028-1953-02-19-0060",
+            "DOC-P257N-DH-028-1953-02-27-0050"
+          ],
+          "verification": "dated contemporary report; anonymous individual vote unknown"
+        },
+        {
+          "eventId": "evt-p257n-19530227-finance-law-article11-vote",
+          "actionType": "executive_speech",
+          "documentIds": [
+            "DOC-P257N-DH-028-1953-02-19-0030",
+            "DOC-P257N-DH-028-1953-02-19-0060",
+            "DOC-P257N-DH-028-1953-02-27-0050"
+          ],
+          "verification": "dated contemporary report; anonymous individual vote unknown"
         }
       ]
     },
@@ -2617,6 +2658,14 @@
           "documentIds": [
             "DOC-P231-KOR-0704"
           ]
+        },
+        {
+          "eventId": "evt-p257n-19530219-assembly-procedure-vote",
+          "actionType": "chair_statement",
+          "documentIds": [
+            "DOC-P257N-DH-028-1953-02-19-0060"
+          ],
+          "verification": "dated contemporary report; anonymous individual vote unknown"
         }
       ],
       "researchStatus": "ANNALS_ACTIVE",
@@ -2629,7 +2678,8 @@
         "DOC-P252-0822-0050",
         "DOC-P253E-DH-0910-0040",
         "DOC-P257K-PA-LABOR-766",
-        "DOC-P257K-PA-MOBIL-767"
+        "DOC-P257K-PA-MOBIL-767",
+        "DOC-P257N-DH-028-1953-02-19-0060"
       ],
       "openLeads": [
         "신익희의 1952년 당시 선거관리위원회·국회 속기록·관보 원문으로 생몰/한자/정당/행위 확인",
@@ -2641,7 +2691,9 @@
         "LEAD-P239M3-IDENTITY-cand-1952-speaker-shin-ik-hui",
         "LEAD-P253E-23",
         "LEAD-P257K-01",
-        "LEAD-P257K-02"
+        "LEAD-P257K-02",
+        "LEAD-P257N-03",
+        "LEAD-P257N-11"
       ],
       "historyDebt": [
         "identity/tenure primary record pending"
@@ -2671,7 +2723,8 @@
         "evt-p254b-democratic-assoc",
         "evt-p254b-education-unesco",
         "evt-p257k-19530415-labor-standard-amend",
-        "evt-p257k-19530515-wartime-mobil-transmit"
+        "evt-p257k-19530515-wartime-mobil-transmit",
+        "evt-p257n-19530219-assembly-procedure-vote"
       ],
       "pass232Overlay": "data/politicians/pass-232-1952-september-actors.json",
       "researchRefs": [
@@ -2683,7 +2736,8 @@
         "data/annals/1953-may8-25-armistice-fiscal-agriculture.md",
         "data/politicians/pass-239l-1956-actors.json",
         "data/politicians/pass-239m3-1954-economic-parliament-actors.json",
-        "data/politicians/pass-257k-labor-institution-actors.json"
+        "data/politicians/pass-257k-labor-institution-actors.json",
+        "data/politicians/pass-257n-1953-finance-legislators.json"
       ],
       "legacyEvidenceCoverageDataIssue": "기존 문자열 evidenceCoverage가 과거 migration에서 문자 단위 배열로 변환·중복제거됨. 2026-10-28 pass236D에서 단문자 토큰 제거; 정확한 원문 설명 문자열은 재구성하지 않음.",
       "promotionHistory": [
@@ -2716,6 +2770,14 @@
             "DOC-P253E-DH-0910-0040"
           ],
           "attribution": "직접 원문 서한·발언 또는 동시대 언론 보도. 발언의 진위·계획 집행 분리"
+        },
+        {
+          "period": "1953-02-19",
+          "role": "국회의장으로 통화긴급명령 심의에 신중한 판단 요구",
+          "actionType": "chair_statement",
+          "documentIds": [
+            "DOC-P257N-DH-028-1953-02-19-0060"
+          ]
         }
       ],
       "correctionHistory": [
@@ -2727,7 +2789,7 @@
           "source": "https://db.history.go.kr/id/dh_026_1952_07_04_0030"
         }
       ],
-      "lastResearchPass": "257K"
+      "lastResearchPass": "257N"
     },
     {
       "id": "cand-1952-sep-interior-jin-heon-sik",
@@ -5006,25 +5068,29 @@
         "evt-p239l-20",
         "evt-p247-0608-expulsion",
         "evt-p247-0617-mass-leadership",
-        "evt-p252-abducted-mps"
+        "evt-p252-abducted-mps",
+        "evt-p257n-19530219-assembly-procedure-vote"
       ],
       "evidenceCoverage": [
         "DOC-P235-NIKH-01_20_0040",
         "DOC-P235E-NIKH-02_01_0020",
         "DOC-P247-AKS-YUN",
         "DOC-P247-KDEMO-0608",
-        "DOC-P252-0822-0050"
+        "DOC-P252-0822-0050",
+        "DOC-P257N-DH-028-1953-02-19-0060"
       ],
       "researchRefs": [
         "data/politicians/pass-235-1953-assembly-cabinet-actors.json",
         "data/politicians/pass-235-addendum-e-committee-chairs.json",
         "data/politicians/pass-239l-1956-actors.json",
-        "data/politicians/pass-247-1960-party-network.json"
+        "data/politicians/pass-247-1960-party-network.json",
+        "data/politicians/pass-257n-1953-finance-legislators.json"
       ],
       "openLeads": [
         "LEAD-P235-009",
         "LEAD-P235-010",
-        "LEAD-P239L-30"
+        "LEAD-P239L-30",
+        "LEAD-P257N-11"
       ],
       "historyDebt": [
         "HD-P235-ASSEMBLY-RESULT"
@@ -5053,7 +5119,27 @@
         ],
         "verification": "AKS/KDEMO; originals pending"
       },
-      "lastResearchPass": 252
+      "lastResearchPass": "257N",
+      "rolesByPeriod": [
+        {
+          "period": "1953-02-19",
+          "role": "원내 표기로 법제사법위원회 검토 뒤 토론 주장",
+          "actionType": "procedural_debate",
+          "documentIds": [
+            "DOC-P257N-DH-028-1953-02-19-0060"
+          ]
+        }
+      ],
+      "eventConnections": [
+        {
+          "eventId": "evt-p257n-19530219-assembly-procedure-vote",
+          "actionType": "procedural_debate",
+          "documentIds": [
+            "DOC-P257N-DH-028-1953-02-19-0060"
+          ],
+          "verification": "dated contemporary report; anonymous individual vote unknown"
+        }
+      ]
     },
     {
       "id": "cand-p235-park-jung-geun",
@@ -5077,26 +5163,31 @@
         "evt-p235e-assembly-election-results",
         "evt-p253-land",
         "evt-p253d-land-27th",
-        "evt-p253e-land-first-reading"
+        "evt-p253e-land-first-reading",
+        "evt-p257n-19530227-finance-law-article11-vote"
       ],
       "evidenceCoverage": [
         "DOC-P235-NIKH-01_20_0040",
         "DOC-P235E-NIKH-02_01_0020",
         "DOC-P253-DH-0906-0040",
         "DOC-P253D-DH-0908-0090",
-        "DOC-P253E-DH-0909-0040"
+        "DOC-P253E-DH-0909-0040",
+        "DOC-P257N-DH-028-1953-02-27-0050"
       ],
       "researchRefs": [
         "data/politicians/pass-235-1953-assembly-cabinet-actors.json",
         "data/politicians/pass-235-addendum-e-committee-chairs.json",
-        "data/research/politicians/pass-253-1952-september-actor-profiles.json"
+        "data/research/politicians/pass-253-1952-september-actor-profiles.json",
+        "data/politicians/pass-257n-1953-finance-legislators.json"
       ],
       "openLeads": [
         "LEAD-P235-009",
         "LEAD-P235-010",
         "LEAD-P253-01",
         "LEAD-P253D-01",
-        "LEAD-P253E-04"
+        "LEAD-P253E-04",
+        "LEAD-P257N-01",
+        "LEAD-P257N-06"
       ],
       "historyDebt": [
         "HD-P235-ASSEMBLY-RESULT"
@@ -5128,9 +5219,27 @@
             "DOC-P253E-DH-0909-0040"
           ],
           "attribution": "직접 원문 서한·발언 또는 동시대 언론 보도. 발언의 진위·계획 집행 분리"
+        },
+        {
+          "period": "1953-02-27",
+          "role": "법277호 제11조 별표2 수정안 공동제안 대표",
+          "actionType": "proposed_amendment",
+          "documentIds": [
+            "DOC-P257N-DH-028-1953-02-27-0050"
+          ]
         }
       ],
-      "lastResearchPass": 253
+      "lastResearchPass": "257N",
+      "eventConnections": [
+        {
+          "eventId": "evt-p257n-19530227-finance-law-article11-vote",
+          "actionType": "proposed_amendment",
+          "documentIds": [
+            "DOC-P257N-DH-028-1953-02-27-0050"
+          ],
+          "verification": "dated contemporary report; anonymous individual vote unknown"
+        }
+      ]
     },
     {
       "id": "cand-p235-kim-ui-jun",
@@ -5474,21 +5583,46 @@
       "backbone": false,
       "connections": [
         "evt-p235e-assembly-election-results",
-        "evt-p239l-12"
+        "evt-p239l-12",
+        "evt-p257n-19530227-finance-law-party-debate"
       ],
       "evidenceCoverage": [
-        "DOC-P235E-NIKH-02_01_0020"
+        "DOC-P235E-NIKH-02_01_0020",
+        "DOC-P257N-DH-028-1953-02-27-0050"
       ],
       "researchRefs": [
         "data/politicians/pass-235-addendum-e-committee-chairs.json",
-        "data/politicians/pass-239l-1956-actors.json"
+        "data/politicians/pass-239l-1956-actors.json",
+        "data/politicians/pass-257n-1953-finance-legislators.json"
       ],
       "openLeads": [
         "LEAD-P235E-001",
         "LEAD-P235E-002",
-        "LEAD-P239L-15"
+        "LEAD-P239L-15",
+        "LEAD-P257N-10"
       ],
-      "historyDebt": []
+      "historyDebt": [],
+      "rolesByPeriod": [
+        {
+          "period": "1953-02-27",
+          "role": "내자 소속 표기로 생활비 부담·정부자금 동결 비판",
+          "actionType": "caucus_speech",
+          "documentIds": [
+            "DOC-P257N-DH-028-1953-02-27-0050"
+          ]
+        }
+      ],
+      "eventConnections": [
+        {
+          "eventId": "evt-p257n-19530227-finance-law-party-debate",
+          "actionType": "caucus_speech",
+          "documentIds": [
+            "DOC-P257N-DH-028-1953-02-27-0050"
+          ],
+          "verification": "dated contemporary report; anonymous individual vote unknown"
+        }
+      ],
+      "lastResearchPass": "257N"
     },
     {
       "id": "cand-p235e-oh-seong-hwan",
@@ -5590,21 +5724,56 @@
       "connections": [
         "evt-p235e-jin-censure",
         "evt-p239e-shin-assembly",
-        "evt-p254a-factions"
+        "evt-p254a-factions",
+        "evt-p257n-19530227-finance-law-article11-vote",
+        "evt-p257n-19530227-finance-law-party-debate"
       ],
       "evidenceCoverage": [
         "DOC-P235E-NIKH-02_02_0040",
-        "DOC-P239E-NIKH-0630-0040"
+        "DOC-P239E-NIKH-0630-0040",
+        "DOC-P257N-DH-028-1953-02-27-0050"
       ],
       "researchRefs": [
         "data/politicians/pass-235-addendum-e-committee-chairs.json",
-        "data/politicians/pass-239e-actors.json"
+        "data/politicians/pass-239e-actors.json",
+        "data/politicians/pass-257n-1953-finance-legislators.json"
       ],
       "openLeads": [
         "LEAD-P235E-001",
-        "LEAD-P235E-002"
+        "LEAD-P235E-002",
+        "LEAD-P257N-01",
+        "LEAD-P257N-10"
       ],
-      "historyDebt": []
+      "historyDebt": [],
+      "rolesByPeriod": [
+        {
+          "period": "1953-02-27",
+          "role": "금융법 지급제한 완화·폐기 주장",
+          "actionType": "debate_opposition",
+          "documentIds": [
+            "DOC-P257N-DH-028-1953-02-27-0050"
+          ]
+        }
+      ],
+      "eventConnections": [
+        {
+          "eventId": "evt-p257n-19530227-finance-law-article11-vote",
+          "actionType": "debate_opposition",
+          "documentIds": [
+            "DOC-P257N-DH-028-1953-02-27-0050"
+          ],
+          "verification": "dated contemporary report; anonymous individual vote unknown"
+        },
+        {
+          "eventId": "evt-p257n-19530227-finance-law-party-debate",
+          "actionType": "debate_opposition",
+          "documentIds": [
+            "DOC-P257N-DH-028-1953-02-27-0050"
+          ],
+          "verification": "dated contemporary report; anonymous individual vote unknown"
+        }
+      ],
+      "lastResearchPass": "257N"
     },
     {
       "id": "cand-p235e-kim-seok-gwan",
@@ -6377,6 +6546,14 @@
             "DOC-P253D-DH-0908-0070"
           ],
           "attribution": "동시대 원문 보도 범위만 귀속, 법률·집행 확정 아님"
+        },
+        {
+          "period": "1953-02-27",
+          "role": "외자 소속 표기로 3000억 생산자금 염출 위해 국민희생 강요 비판",
+          "actionType": "caucus_speech",
+          "documentIds": [
+            "DOC-P257N-DH-028-1953-02-27-0050"
+          ]
         }
       ],
       "eventIds": [
@@ -6385,12 +6562,14 @@
       "evidenceCoverage": [
         "DOC-P238-KOR-05_27_0060",
         "DOC-P253-DH-0904-0040",
-        "DOC-P253D-DH-0908-0070"
+        "DOC-P253D-DH-0908-0070",
+        "DOC-P257N-DH-028-1953-02-27-0050"
       ],
       "openLeads": [
         "LEAD-P238C-010",
         "LEAD-P253-12",
-        "LEAD-P253D-13"
+        "LEAD-P253D-13",
+        "LEAD-P257N-10"
       ],
       "historyDebt": [
         "original official roster/stenogram pending"
@@ -6401,17 +6580,29 @@
       "connections": [
         "evt-p238c-1953-05-27-kim-death",
         "evt-p253-military-delegation",
-        "evt-p253d-kimjong-us"
+        "evt-p253d-kimjong-us",
+        "evt-p257n-19530227-finance-law-party-debate"
       ],
       "researchRefs": [
         "data/politicians/pass-238c-korean-actors.json",
         "data/annals/1953-may8-25-armistice-fiscal-agriculture.md",
-        "data/research/politicians/pass-253-1952-september-actor-profiles.json"
+        "data/research/politicians/pass-253-1952-september-actor-profiles.json",
+        "data/politicians/pass-257n-1953-finance-legislators.json"
       ],
-      "lastResearchPass": 253,
+      "lastResearchPass": "257N",
       "partyAffiliationEvidence": "1953-05-29 연합신문 contemporary report, official party roster pending",
       "evidenceFile": null,
-      "annalsFile": null
+      "annalsFile": null,
+      "eventConnections": [
+        {
+          "eventId": "evt-p257n-19530227-finance-law-party-debate",
+          "actionType": "caucus_speech",
+          "documentIds": [
+            "DOC-P257N-DH-028-1953-02-27-0050"
+          ],
+          "verification": "dated contemporary report; anonymous individual vote unknown"
+        }
+      ]
     },
     {
       "id": "cand-p238-choi-heon-gil",
@@ -7364,20 +7555,31 @@
             "DOC-P239E-NIKH-0627-0050",
             "DOC-P239E-NIKH-0630-0040"
           ]
+        },
+        {
+          "period": "1953-02-19",
+          "role": "원외 표기로 공개 본회의 직접 토론 주장",
+          "actionType": "procedural_debate",
+          "documentIds": [
+            "DOC-P257N-DH-028-1953-02-19-0060"
+          ]
         }
       ],
       "connections": [
         "evt-p239e-shin-accusation",
         "evt-p239e-shin-assembly",
-        "evt-p252b-drought-parliament"
+        "evt-p252b-drought-parliament",
+        "evt-p257n-19530219-assembly-procedure-vote"
       ],
       "evidenceCoverage": [
         "DOC-P239E-NIKH-0627-0050",
         "DOC-P239E-NIKH-0630-0040",
-        "DOC-P252B-0829-0080"
+        "DOC-P252B-0829-0080",
+        "DOC-P257N-DH-028-1953-02-19-0060"
       ],
       "openLeads": [
-        "6/30 국회 회의록 및 6/25 현장 증인"
+        "6/30 국회 회의록 및 6/25 현장 증인",
+        "LEAD-P257N-11"
       ],
       "historyDebt": [
         "HD-P239E-SHIN-QUOTE",
@@ -7385,9 +7587,20 @@
       ],
       "identity_note": "Press contemporary only; official roster, birth/death, aliases pending.",
       "researchRefs": [
-        "data/politicians/pass-239e-actors.json"
+        "data/politicians/pass-239e-actors.json",
+        "data/politicians/pass-257n-1953-finance-legislators.json"
       ],
-      "lastResearchPass": "252B"
+      "lastResearchPass": "257N",
+      "eventConnections": [
+        {
+          "eventId": "evt-p257n-19530219-assembly-procedure-vote",
+          "actionType": "procedural_debate",
+          "documentIds": [
+            "DOC-P257N-DH-028-1953-02-19-0060"
+          ],
+          "verification": "dated contemporary report; anonymous individual vote unknown"
+        }
+      ]
     },
     {
       "id": "cand-p239e-jo-gyeong-gyu",
@@ -9649,25 +9862,45 @@
       "connections": [
         "evt-p239m3-03",
         "evt-p239m3-04",
-        "evt-p248-1960-0729-results"
+        "evt-p248-1960-0729-results",
+        "evt-p257n-19530227-finance-law-party-debate"
       ],
-      "evidenceCoverage": {
-        "documentIds": [
-          "DOC-P239M3-ASSEMBLY-0070",
-          "DOC-P239M3-ASSEMBLY-0080",
-          "DOC-P248-NIKH"
-        ]
-      },
+      "evidenceCoverage": [
+        "DOC-P257N-DH-028-1953-02-27-0050"
+      ],
       "researchRefs": [
-        "data/politicians/pass-239m3-1954-economic-parliament-actors.json"
+        "data/politicians/pass-239m3-1954-economic-parliament-actors.json",
+        "data/politicians/pass-257n-1953-finance-legislators.json"
       ],
       "openLeads": [
-        "LEAD-P239M3-IDENTITY-cand-p239m3-seo-beom-seok"
+        "LEAD-P239M3-IDENTITY-cand-p239m3-seo-beom-seok",
+        "LEAD-P257N-10"
       ],
       "historyDebt": [],
       "evidenceFile": "data/evidence/seo-beom-seok.json",
       "annalsFile": "data/annals/seo-beom-seok.md",
-      "promotionReason": "1954-03-09·13·15 국회 제32·34·35차 3개 원속기록의 직접 발언과 설명요구 동의·철회 심사 연속성 확인"
+      "promotionReason": "1954-03-09·13·15 국회 제32·34·35차 3개 원속기록의 직접 발언과 설명요구 동의·철회 심사 연속성 확인",
+      "rolesByPeriod": [
+        {
+          "period": "1953-02-27",
+          "role": "민국 소속 표기로 통화조치 필요 인정·빈곤 및 관료자본 강화 우려, 수정안 협력",
+          "actionType": "caucus_speech",
+          "documentIds": [
+            "DOC-P257N-DH-028-1953-02-27-0050"
+          ]
+        }
+      ],
+      "eventConnections": [
+        {
+          "eventId": "evt-p257n-19530227-finance-law-party-debate",
+          "actionType": "caucus_speech",
+          "documentIds": [
+            "DOC-P257N-DH-028-1953-02-27-0050"
+          ],
+          "verification": "dated contemporary report; anonymous individual vote unknown"
+        }
+      ],
+      "lastResearchPass": "257N"
     },
     {
       "id": "cand-p239m3-jang-hong-yeom",
@@ -9865,19 +10098,20 @@
       "researchStatus": "IDENTIFIED",
       "backbone": false,
       "connections": [
-        "evt-p239m3-06"
+        "evt-p239m3-06",
+        "evt-p257n-19530219-assembly-procedure-vote"
       ],
-      "evidenceCoverage": {
-        "documentIds": [
-          "DOC-P239M3-ASSEMBLY-0010"
-        ]
-      },
+      "evidenceCoverage": [
+        "DOC-P257N-DH-028-1953-02-19-0060"
+      ],
       "researchRefs": [
         "data/politicians/pass-239m3-1954-economic-parliament-actors.json",
-        "data/politicians/pass-247d-assembly-actors.json"
+        "data/politicians/pass-247d-assembly-actors.json",
+        "data/politicians/pass-257n-1953-finance-legislators.json"
       ],
       "openLeads": [
-        "LEAD-P239M3-IDENTITY-cand-p239m3-an-yong-dae"
+        "LEAD-P239M3-IDENTITY-cand-p239m3-an-yong-dae",
+        "LEAD-P257N-11"
       ],
       "historyDebt": [],
       "researchPass247d": {
@@ -9886,7 +10120,28 @@
           "DOC-P247D-NA-060"
         ],
         "verification": "국회 원회의록 본문 전사 직접 확인"
-      }
+      },
+      "rolesByPeriod": [
+        {
+          "period": "1953-02-19",
+          "role": "원외 표기로 당일 즉석 토론 동의",
+          "actionType": "procedural_motion",
+          "documentIds": [
+            "DOC-P257N-DH-028-1953-02-19-0060"
+          ]
+        }
+      ],
+      "eventConnections": [
+        {
+          "eventId": "evt-p257n-19530219-assembly-procedure-vote",
+          "actionType": "procedural_motion",
+          "documentIds": [
+            "DOC-P257N-DH-028-1953-02-19-0060"
+          ],
+          "verification": "dated contemporary report; anonymous individual vote unknown"
+        }
+      ],
+      "lastResearchPass": "257N"
     },
     {
       "id": "cand-p239m3-yeo-un-hong",
@@ -10483,20 +10738,24 @@
         "evt-p254a-factions",
         "evt-p254a-democratic-association",
         "evt-p254b-party-merger",
-        "evt-p255g-furuichi"
+        "evt-p255g-furuichi",
+        "evt-p257n-19530219-assembly-procedure-vote"
       ],
       "evidenceCoverage": [
         "DOC-P242-NIKH-1957-1015",
         "DOC-P253E-DH-0909-0050",
-        "DOC-P253F-DH-0915-0030"
+        "DOC-P253F-DH-0915-0030",
+        "DOC-P257N-DH-028-1953-02-19-0060"
       ],
       "openLeads": [
         "LEAD-P242-20",
         "LEAD-P253E-05",
-        "LEAD-P253F-14"
+        "LEAD-P253F-14",
+        "LEAD-P257N-11"
       ],
       "researchRefs": [
-        "data/politicians/pass-242-1957-actors.json"
+        "data/politicians/pass-242-1957-actors.json",
+        "data/politicians/pass-257n-1953-finance-legislators.json"
       ],
       "identityCaution": "Source grade and Korean original pending",
       "researchOverlays": [
@@ -10520,9 +10779,27 @@
             "DOC-P253F-DH-0915-0030"
           ],
           "attribution": "신문 전사 또는 미국대사관의 동시대 평가. 당사자 직접행위·법적 책임과 구분"
+        },
+        {
+          "period": "1953-02-19",
+          "role": "원외 표기로 이미 공포된 조치의 비공개 심의 반대",
+          "actionType": "procedural_debate",
+          "documentIds": [
+            "DOC-P257N-DH-028-1953-02-19-0060"
+          ]
         }
       ],
-      "lastResearchPass": 253
+      "lastResearchPass": "257N",
+      "eventConnections": [
+        {
+          "eventId": "evt-p257n-19530219-assembly-procedure-vote",
+          "actionType": "procedural_debate",
+          "documentIds": [
+            "DOC-P257N-DH-028-1953-02-19-0060"
+          ],
+          "verification": "dated contemporary report; anonymous individual vote unknown"
+        }
+      ]
     },
     {
       "id": "cand-p244-huh-chung",
@@ -12204,20 +12481,45 @@
       "backbone": false,
       "connections": [
         "evt-p247b-1960-0808-baek-acting",
-        "evt-p247b-1960-0812-president-election"
+        "evt-p247b-1960-0812-president-election",
+        "evt-p257n-19530227-baek-nak-jun-hyecho-report"
       ],
       "evidenceCoverage": [
         "DOC-P247B-AKS-BAEK",
-        "DOC-P247B-YONHAP-2016"
+        "DOC-P247B-YONHAP-2016",
+        "DOC-P257N-DH-028-1953-02-27-0080"
       ],
       "researchRefs": [
-        "data/politicians/pass-247b-succession-and-administration.json"
+        "data/politicians/pass-247b-succession-and-administration.json",
+        "data/politicians/pass-257n-1953-finance-legislators.json"
       ],
       "openLeads": [
         "LEAD-P247B-BAEK-08-AUG",
-        "LEAD-P247B-BAEK-1952-EDUCATION"
+        "LEAD-P247B-BAEK-1952-EDUCATION",
+        "LEAD-P257N-16"
       ],
-      "identityCaveat": "일부 후대 출처 생년 1895 vs AKS 1896; 원호적 검증 전 AKS 기준 잠정"
+      "identityCaveat": "일부 후대 출처 생년 1895 vs AKS 1896; 원호적 검증 전 AKS 기준 잠정",
+      "rolesByPeriod": [
+        {
+          "period": "1953-02-27",
+          "role": "연희대 총장·유네스코 참석 후 파리 국립도서관 혜초 문헌 보고",
+          "actionType": "reported_archival_observation",
+          "documentIds": [
+            "DOC-P257N-DH-028-1953-02-27-0080"
+          ]
+        }
+      ],
+      "eventConnections": [
+        {
+          "eventId": "evt-p257n-19530227-baek-nak-jun-hyecho-report",
+          "actionType": "reported_archival_observation",
+          "documentIds": [
+            "DOC-P257N-DH-028-1953-02-27-0080"
+          ],
+          "verification": "dated contemporary report; anonymous individual vote unknown"
+        }
+      ],
+      "lastResearchPass": "257N"
     },
     {
       "id": "cand-p247c-yi-chae-hyeong",
@@ -14133,17 +14435,45 @@
       "researchStatus": "IDENTIFIED",
       "researchMaturity": "IDENTIFIED",
       "connections": [
-        "evt-p252b-drought-parliament"
+        "evt-p252b-drought-parliament",
+        "evt-p257n-19530227-finance-law-article11-vote"
       ],
       "evidenceCoverage": [
-        "DOC-P252B-0829-0080"
+        "DOC-P252B-0829-0080",
+        "DOC-P257N-DH-028-1953-02-27-0050"
       ],
       "openLeads": [
-        "LEAD-P252B-이진수-BIO"
+        "LEAD-P252B-이진수-BIO",
+        "LEAD-P257N-01",
+        "LEAD-P257N-10"
       ],
       "historyDebt": [
         "HD-P252B-ACTOR-IDENTITY"
-      ]
+      ],
+      "rolesByPeriod": [
+        {
+          "period": "1953-02-27",
+          "role": "정부 원안 지급제한 반대 발언",
+          "actionType": "debate_opposition",
+          "documentIds": [
+            "DOC-P257N-DH-028-1953-02-27-0050"
+          ]
+        }
+      ],
+      "eventConnections": [
+        {
+          "eventId": "evt-p257n-19530227-finance-law-article11-vote",
+          "actionType": "debate_opposition",
+          "documentIds": [
+            "DOC-P257N-DH-028-1953-02-27-0050"
+          ],
+          "verification": "dated contemporary report; anonymous individual vote unknown"
+        }
+      ],
+      "researchRefs": [
+        "data/politicians/pass-257n-1953-finance-legislators.json"
+      ],
+      "lastResearchPass": "257N"
     },
     {
       "id": "cand-p252c-kim-jong-won",
@@ -14782,16 +15112,44 @@
           "documentIds": [
             "DOC-P255B-DH-0927-0060"
           ]
+        },
+        {
+          "eventId": "evt-p257n-19530219-assembly-procedure-vote",
+          "actionType": "procedural_debate",
+          "documentIds": [
+            "DOC-P257N-DH-028-1953-02-19-0060"
+          ],
+          "verification": "dated contemporary report; anonymous individual vote unknown"
         }
       ],
-      "evidenceCoverage": "동시대 보도 1계열, 원임명 문서 미확보",
+      "evidenceCoverage": [
+        "DOC-P257N-DH-028-1953-02-19-0060"
+      ],
       "openLeads": [
-        "국가기록원·국회·해당 기관의 1952년 9월 김봉재 金奉才 원임명/명부 및 동명이인 검증"
+        "국가기록원·국회·해당 기관의 1952년 9월 김봉재 金奉才 원임명/명부 및 동명이인 검증",
+        "LEAD-P257N-11"
       ],
       "historyDebt": [
         "김봉재 생몰·정식 직책·원서명 미확인"
       ],
-      "promotionReason": "동시대 원문에서 특정 날짜·역할이 확인되나 독립 원임명 문서 미확보"
+      "promotionReason": "동시대 원문에서 특정 날짜·역할이 확인되나 독립 원임명 문서 미확보",
+      "rolesByPeriod": [
+        {
+          "period": "1953-02-19",
+          "role": "무소속 표기로 긴급통화조치 비공개 심의 주장",
+          "actionType": "procedural_debate",
+          "documentIds": [
+            "DOC-P257N-DH-028-1953-02-19-0060"
+          ]
+        }
+      ],
+      "connections": [
+        "evt-p257n-19530219-assembly-procedure-vote"
+      ],
+      "researchRefs": [
+        "data/politicians/pass-257n-1953-finance-legislators.json"
+      ],
+      "lastResearchPass": "257N"
     },
     {
       "id": "cand-p255g-kang-in-taek",
@@ -15332,6 +15690,222 @@
         "HD-P257-SOCIAL-ORGANIZERS-IDENTITY"
       ],
       "provenanceNote": "1953-02-06 조선일보 간사 선정 보도; 실제 창립/임명·공직 여부 미확인, 정치인 정식승격 보류."
+    },
+    {
+      "id": "cand-p257n-kwon-jung-don",
+      "name": "권중돈",
+      "aliases": [
+        "權仲敦",
+        "Kwon Jung-don (provisional)"
+      ],
+      "hanja": "權仲敦",
+      "lifespan": {
+        "born": "1912",
+        "died": null,
+        "verification": "CONFLICTED: AKS 1983 vs Wikipedia 1985-06-27, obituary pending"
+      },
+      "roles": [
+        {
+          "period": "1950~1954",
+          "office": "제2대 국회의원 무소속",
+          "source": "DOC-P257N-AKS-KWON"
+        },
+        {
+          "period": "1953-02-27",
+          "office": "금융법 순무 분파 토론",
+          "source": "DOC-P257N-DH-028-1953-02-27-0050"
+        },
+        {
+          "period": "1960",
+          "office": "국방부장관",
+          "source": "DOC-P257N-AKS-KWON"
+        }
+      ],
+      "party_affiliation": "1953 순무(원기사 분파표기)",
+      "researchStatus": "IDENTIFIED",
+      "eventConnections": [
+        {
+          "eventId": "evt-p257n-19530227-finance-law-party-debate",
+          "actionType": "caucus_speech",
+          "documentIds": [
+            "DOC-P257N-DH-028-1953-02-27-0050",
+            "DOC-P257N-AKS-KWON"
+          ],
+          "verification": "dated contemporary report; anonymous individual vote unknown"
+        }
+      ],
+      "evidenceCoverage": [
+        "DOC-P257N-AKS-KWON",
+        "DOC-P257N-DH-028-1953-02-27-0050"
+      ],
+      "openLeads": [
+        "LEAD-P257N-07",
+        "LEAD-P257N-09",
+        "LEAD-P257N-10"
+      ],
+      "historyDebt": [
+        "HD-P257N-KWON-DEATH-CONFLICT"
+      ],
+      "promotionReason": "AKS biography and dated 1953 primary speech",
+      "evidenceFile": "data/evidence/kwon-jung-don-1953.json",
+      "annalsFile": "data/annals/kwon-jung-don.md",
+      "rolesByPeriod": [
+        {
+          "period": "1953-02-27",
+          "role": "순무 소속 표기로 생산증대 없는 화폐개혁 실패 우려",
+          "actionType": "caucus_speech",
+          "documentIds": [
+            "DOC-P257N-DH-028-1953-02-27-0050",
+            "DOC-P257N-AKS-KWON"
+          ]
+        }
+      ],
+      "connections": [
+        "evt-p257n-19530227-finance-law-party-debate"
+      ],
+      "researchRefs": [
+        "data/politicians/pass-257n-1953-finance-legislators.json"
+      ],
+      "lastResearchPass": "257N"
+    },
+    {
+      "id": "cand-p257n-eom-byeong-hak",
+      "name": "엄병학",
+      "aliases": [
+        "嚴秉學",
+        "Eom Byeong-hak (provisional)"
+      ],
+      "hanja": "嚴秉學",
+      "lifespan": {
+        "born": "1917-12-13",
+        "died": "1997-07-18",
+        "verification": "AKS biography; civil original pending"
+      },
+      "roles": [
+        {
+          "period": "1950",
+          "office": "제2대 국회의원 전북 임실 대한국민당",
+          "source": "DOC-P257N-AKS-EOM"
+        },
+        {
+          "period": "1953-02-19",
+          "office": "원외 분파 국회의원 긴급명령13호 절차동의",
+          "source": "DOC-P257N-DH-028-1953-02-19-0060"
+        },
+        {
+          "period": "1960",
+          "office": "제5대 참의원 민주당",
+          "source": "DOC-P257N-AKS-EOM"
+        }
+      ],
+      "party_affiliation": "1950 대한국민당→1951 자유당→1953 원외 분파→1960 민주당",
+      "researchStatus": "VERIFIED",
+      "eventConnections": [
+        {
+          "eventId": "evt-p257n-19530219-assembly-procedure-vote",
+          "actionType": "proposed_procedural_motion",
+          "documentIds": [
+            "DOC-P257N-DH-028-1953-02-19-0060",
+            "DOC-P257N-AKS-EOM"
+          ],
+          "verification": "dated contemporary report; anonymous individual vote unknown"
+        }
+      ],
+      "evidenceCoverage": [
+        "DOC-P257N-AKS-EOM",
+        "DOC-P257N-DH-028-1953-02-19-0060"
+      ],
+      "openLeads": [
+        "LEAD-P257N-03",
+        "LEAD-P257N-08"
+      ],
+      "historyDebt": [
+        "1953 원외 분파 정식 당적 미확인"
+      ],
+      "promotionReason": "AKS detailed biography plus dated contemporary procedural motion",
+      "evidenceFile": "data/evidence/eom-byeong-hak-1953.json",
+      "annalsFile": "data/annals/eom-byeong-hak.md",
+      "rolesByPeriod": [
+        {
+          "period": "1953-02-19",
+          "role": "원외 표기로 긴급명령13호 위원회 검토 후 20일 상정 절차동의 채택",
+          "actionType": "proposed_procedural_motion",
+          "documentIds": [
+            "DOC-P257N-DH-028-1953-02-19-0060",
+            "DOC-P257N-AKS-EOM"
+          ]
+        }
+      ],
+      "connections": [
+        "evt-p257n-19530219-assembly-procedure-vote"
+      ],
+      "researchRefs": [
+        "data/politicians/pass-257n-1953-finance-legislators.json"
+      ],
+      "lastResearchPass": "257N"
+    },
+    {
+      "id": "cand-p257n-lee-jong-hyeon-1953-mp",
+      "name": "이종현",
+      "aliases": [
+        "Lee Jong-hyeon (provisional)"
+      ],
+      "hanja": null,
+      "hanjaVerification": "1953 newspaper Hangul only; same as 1949 agriculture minister 李宗鉉 NOT VERIFIED",
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "identity unresolved"
+      },
+      "roles": [
+        {
+          "period": "1953-02-19",
+          "office": "무소속 국회의원, 각파 당일 질의 제안",
+          "source": "DOC-P257N-DH-028-1953-02-19-0060"
+        }
+      ],
+      "party_affiliation": "1953 무소속 (source)",
+      "researchStatus": "DISCOVERED",
+      "eventConnections": [
+        {
+          "eventId": "evt-p257n-19530219-assembly-procedure-vote",
+          "actionType": "procedural_motion",
+          "documentIds": [
+            "DOC-P257N-DH-028-1953-02-19-0060"
+          ],
+          "verification": "dated contemporary report; anonymous individual vote unknown"
+        }
+      ],
+      "evidenceCoverage": [
+        "DOC-P257N-DH-028-1953-02-19-0060"
+      ],
+      "openLeads": [
+        "LEAD-P257N-11",
+        "LEAD-P257N-21"
+      ],
+      "historyDebt": [
+        "HD-P257N-LEE-JONG-HYEON-IDENTITY"
+      ],
+      "promotionReason": "Candidate isolated from 1949 minister to prevent false merge",
+      "evidenceFile": "data/evidence/lee-jong-hyeon-1953-identity.json",
+      "annalsFile": null,
+      "rolesByPeriod": [
+        {
+          "period": "1953-02-19",
+          "role": "무소속 표기로 각파 즉시 질의 제안",
+          "actionType": "procedural_motion",
+          "documentIds": [
+            "DOC-P257N-DH-028-1953-02-19-0060"
+          ]
+        }
+      ],
+      "connections": [
+        "evt-p257n-19530219-assembly-procedure-vote"
+      ],
+      "researchRefs": [
+        "data/politicians/pass-257n-1953-finance-legislators.json"
+      ],
+      "lastResearchPass": "257N"
     }
   ],
   "recentResearchPass232": {
@@ -15747,5 +16321,16 @@
     "actorOverlay": "data/politicians/pass-257m-finance-public-claims.json",
     "evidence": "data/documents/pass-257m-1953-mar-apr-public-economy.json",
     "conflict": "85m vs 87m repayment, completion vs future receipt, accounting unverified"
+  },
+  "recentResearchPass257N": {
+    "date": "2026-10-29",
+    "newCandidateIds": [
+      "cand-p257n-kwon-jung-don",
+      "cand-p257n-eom-byeong-hak",
+      "cand-p257n-lee-jong-hyeon-1953-mp"
+    ],
+    "actorsDeepened": 17,
+    "actorOverlay": "data/politicians/pass-257n-1953-finance-legislators.json",
+    "identityCaution": "1953 MP Lee Jong-hyeon separated from 1949 minister pending original roster"
   }
 }
