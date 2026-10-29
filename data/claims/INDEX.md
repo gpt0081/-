@@ -136,3 +136,5 @@
 - data/claims/pass-253-1952-september-adversarial.json (pass253, 2026-10-29)
 
 - data/claims/pass-253d-september-adversarial.json (pass253D, 2026-10-29)
+
+- data/claims/pass-253e-september-sept9-11.json (pass253E, 2026-10-29)

@@ -170,3 +170,5 @@
 - data/documents/pass-253-1952-september-frus-and-domestic.json (pass253, 2026-10-29)
 
 - data/documents/pass-253d-september-korean-followup.json (pass253D, 2026-10-29)
+
+- data/documents/pass-253e-september-sept9-11.json (pass253E, 2026-10-29)

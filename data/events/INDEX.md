@@ -121,3 +121,5 @@
 - data/events/pass-253-1952-september-policy-actions.json (pass253, 2026-10-29)
 
 - data/events/pass-253d-september-policy-followup.json (pass253D, 2026-10-29)
+
+- data/events/pass-253e-september-sept9-11.json (pass253E, 2026-10-29)
