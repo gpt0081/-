@@ -1,0 +1,53 @@
+{
+  "pass": "255F",
+  "date": "2026-10-29",
+  "arithmetic": [
+    {
+      "doc": "DOC-P255E-DH-1001-0080",
+      "issue": "전재민 1,358,909 + 원주빈민 4,292,363",
+      "reported_total": 10652272,
+      "computed_total": 5651272,
+      "difference": 5001000,
+      "status": "CONFLICTED"
+    },
+    {
+      "doc": "DOC-P255E-DH-1002-0070",
+      "issue": "수출 품목별 만달러 합계",
+      "reported_total": 929.6,
+      "computed_total": 942.3,
+      "difference": 12.7,
+      "status": "CONFLICTED"
+    },
+    {
+      "doc": "DOC-P255E-DH-1002-0080",
+      "issue": "발전 85,000kW - 손실 10,200kW",
+      "reported_distribution": 74000,
+      "computed_distribution": 74800,
+      "difference": 800,
+      "status": "OPEN"
+    },
+    {
+      "doc": "DOC-P255E-DH-1002-0090",
+      "issue": "서울 인근 공장 복구 365/1709",
+      "reported_approx_percent": 20,
+      "computed_percent": 21.3575,
+      "status": "NARROWED",
+      "note": "20%는 근사치로 볼 수 있음"
+    },
+    {
+      "doc": "DOC-P255E-DH-1006-0080",
+      "issue": "경북 350000농가×5승/100승 per 석",
+      "reported_seok": 17500,
+      "computed_seok": 17500,
+      "status": "CONSISTENT"
+    }
+  ],
+  "legal_correction": {
+    "newspaper": "DOC-P255E-DH-1004-0050",
+    "official_law_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=4323",
+    "official_court_decree_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=31205",
+    "confirmed": "대통령긴급명령 제12호 vs 대통령령 제707호는 별개",
+    "original_law_metadata_opened": true,
+    "full_law_text_opened": false
+  }
+}
