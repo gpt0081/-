@@ -5,23 +5,23 @@
   "weekly_full_debt_review": false,
   "floot_touched": false,
   "counts": {
-    "directly_opened_documents": 85,
+    "directly_opened_documents": 102,
     "official_US_original_texts": 31,
-    "contemporary_Korean_press_texts": 48,
+    "contemporary_Korean_press_texts": 63,
     "original_facsimiles": 0,
-    "independent_research_lines": 44,
-    "governance_domains": 22,
-    "nonpresidential_actors_linked": 19,
-    "events": 66,
-    "adversarial_claims": 43,
-    "adversarial_routes": 39,
+    "independent_research_lines": 57,
+    "governance_domains": 24,
+    "nonpresidential_actors_linked": 25,
+    "events": 83,
+    "adversarial_claims": 55,
+    "adversarial_routes": 51,
     "prior_leads_tracked": 10,
-    "new_original_leads": 79,
-    "cross_provenance_contextual_bundles": 6,
+    "new_original_leads": 97,
+    "cross_provenance_contextual_bundles": 9,
     "three_family_primary_confirmations": 0,
     "new_candidate_nodes": 5,
-    "edited_US_original_translations": 6,
-    "new_history_debts": 15
+    "edited_US_original_translations": 8,
+    "new_history_debts": 24
   },
   "documentIds": [
     "DOC-P253-FRUS-253",
@@ -120,7 +120,9 @@
     "미국정부 한국어 편집발췌 2건은 영어 완전 원문 직접 확인 31건과 구분",
     "부산세관·산청군 방위비·변영태 담화는 동시대 언론 전사, 관보·공문 원본 아님",
     "9/9 이승만 서한의 정치적 비난은 당사자 주장. 수신·실행·상대방 반론 미확보.",
-    "9/10 농지개혁법·국회법 통과 보도는 국회 원속기·관보 공포 확인과 구분."
+    "9/10 농지개혁법·국회법 통과 보도는 국회 원속기·관보 공포 확인과 구분.",
+    "미대사관 선거평가는 당대 외교관의 주장·추론, 선관위·법원 독립 원문 미확보",
+    "부산지법 저격사건 1심은 신문 전사이며 확정판결·형집행 미확인"
   ],
   "correction_history": [
     {
@@ -174,7 +176,12 @@
     "91c0361521a94667c8f7b70304971f9e088a9f59",
     "37bf483c933722f9a7dc2b745a54057afc63da48",
     "89a0f0a658216ee90a5353cdb8e7ad3bc6af8f93",
-    "b641ba833eaccc192a0e8b366e7eead284b81283"
+    "b641ba833eaccc192a0e8b366e7eead284b81283",
+    "0e37f2069db31a7f209dfcf38b8680e26750d63c",
+    "9e5bfdac7691102c9fc49cba182a854a2794d8d6",
+    "13d2edc6ccaef2fee05c2c18d5822017a3d55ca3",
+    "4addbbc6ba2c4222f35b47b6d7795bf656f70362",
+    "84a20ac093c2b71c7bd7fcde4665b35300b15c14"
   ],
   "validation": {
     "document_count": 42,
@@ -203,7 +210,7 @@
     "newCandidates": 1,
     "duplicateOriginalTranslationsExcluded": 1
   },
-  "nextQueueFinal": "data/research/leads/pass-253e-next-originals.json",
+  "nextQueueFinal": "data/research/leads/pass-253f-next-originals.json",
   "referenceCorrections": [
     {
       "date": "2026-10-29",
@@ -214,5 +221,12 @@
       ],
       "reason": "three cross-shard document ID typos corrected"
     }
-  ]
+  ],
+  "additionalPass253F": {
+    "newDocuments": 17,
+    "newEvents": 17,
+    "newClaims": 12,
+    "newLeads": 18,
+    "excludedDuplicateFRUS": 1
+  }
 }
