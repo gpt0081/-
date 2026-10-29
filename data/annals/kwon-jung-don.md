@@ -1,0 +1,2 @@
+# 권중돈(權仲敦, Kwon Jung-don) 독립 후보 실록
+ID: `cand-p257n-kwon-jung-don`; 출생 1912년(AKS), 사망연도 CONFLICTED(한국민족문화대백과사전 1983 vs 다른 전기 1985-06-27). 원부고·제적원본 미확보. 1950 제2대 국회의원 무소속, 1953-02-27 조선일보 기사 '순무' 분파 토론에서 물자증산 없는 화폐개혁 실패 가능성을 주장. 1960 국방부장관, 1971 제8대 국회의원(AKS 후대 전기). 직접 제11조 수정발의·무기명표결의 찬반은 미확인. 출처: https://encykorea.aks.ac.kr/Article/E0007081 ; https://db.history.go.kr/contemp/level.do?levelId=dh_028_1953_02_27_0050 . Open: LEAD-P257N-07/09/10.
