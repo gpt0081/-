@@ -213,3 +213,8 @@
 - 2026-10-29 pass256: 1952-11 이갑성 총리지명·이윤영 부결 보도, FRUS d323 정변설 미측 반대평가 재검토: `data/politicians/pass-256-actor-evidence-overlay.json` (기존 한국 정치인 ID 10명, 신규 0명). 이갑성 독립 실록 `data/annals/lee-gap-seong-1952.md` 및 증거 `data/evidence/lee-gap-seong-1952.json`. 미확인 정변설을 사실로 승격 금지.
 
 - 2026-10-29 pass256B/C: 1952-11-17 이갑성 총리인준 연기 요청 및 이승만 면담·외자구매처 일임 유시 보도. `data/politicians/pass-256-actor-evidence-overlay.json`에서 기존 ID 유지, `data/evidence/lee-gap-seong-1952.json` 추가 근거. 농림부 익명 국장·성명 미확인 김 국방부차관·개척단 민간인을 정치인으로 자동 등록하지 않음. 원문 `data/documents/pass-256b-1952-nov17-domestic.json`.
+
+
+## Pass257 (2026-10-29): 1953-02 자유당 서울시당·경찰책임·전시 행정
+- `data/politicians/pass-257-1953-party-policing-evidence.json`: 김일수(金一秀) 자유당 서울시당 조직부장 신규 IDENTIFIED 후보, 진헌식 내무장관의 1953-02-05 경찰/검찰 수사책임 발언, 이승만의 1953-02 서울환도·2/6 인터뷰 원문 연결. 신규 후보 1, 기존 2 보강. 이름·한자·동명이인 원명부 확인 전 VERIFIED/ANNALS_ACTIVE 자동승격 금지.
+- `data/annals/1952nov-1953feb-crossprovenance-governance.md`, `data/documents/pass-257-1952nov-1953feb-crossprovenance.json`, `data/events/pass-257-pow-economy-governance.json`, `data/claims/pass-257-adversarial-crossprovenance.json`에 증거·사건·반증을 분리. 1952-11-24 중국 거부 각서는 인도/미국 2계열, UN 610 채택은 인도/미국/UN 3계열. UN PDF 접근 403은 BLOCKED lead로 유지.
