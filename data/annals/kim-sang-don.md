@@ -25,3 +25,5 @@
 - 1961-03-31 월남어민 10명에 서울특별시 시민증 수여 RG5-SR53-IT8949(경향신문 1961-03-31 3면 인용). **국적 취득·귀화 증거로 확대하지 않는다**.
 - 서울기록원 1961-01-01 대통령 윤보선 방문 RG5-SR58-IT8213, 장면 국무총리 방문 RG5-SR100-IT6232의 사진목록 생산일은 1/5 취임 회고와 표면상 충돌한다. 실제 촬영일·사진목록 날짜 관행 미확인. 이승만 퇴임 이후 윤보선·장면 시기 사건으로 처리.
 - 새 문서 registry: data/documents/pass-249-civic-rights-seoul.json; 사건: data/events/pass-249-civil-rights-and-seoul.json; 원문 표적: data/research/leads/pass-249-next-originals.json.
+
+- 서울기록원 PEOPLE-00009 인물전거 김상돈 1901~1986 연도 확인. 월일 미확인; 사진목록 10건 연결, 원사진 직접 열람 0건.

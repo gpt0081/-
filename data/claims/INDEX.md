@@ -116,3 +116,5 @@
 - 2026-10-29 pass248: `data/claims/pass-248-1960-election-adversarial.json` (1960 지방선거·김상돈·출처충돌 검증).
 
 - 2026-10-29 pass249: `data/claims/pass-249-civic-rights-adversarial.json` (공민권 심사·불복·시정 메타데이터·노동 이행 검증).
+
+- pass249 1952 선거투표율·선거공정성(UNCURK 원문 대기)·경제부흥계획 기간 claim 추가.

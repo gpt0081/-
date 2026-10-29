@@ -73,10 +73,10 @@
       "date": "1961-02-02",
       "domain": "의회·인사",
       "sources": [
-        "DOC-P249-KD-0309"
+        "DOC-P249-KD-0202"
       ],
       "confirmed": [
-        "1961-02-02 민주화운동기념사업회 색인·검색본문에서 선출 명단 확인, 원문 열람 403 차단; 공식 위촉과 구분"
+        "KDemo 기사 본문 직접 열람: 1961-02-02 선출 인선, 김병로는 내정, 2/4 위촉원부는 미확인"
       ],
       "politicians": [
         "cand-p249-yun-chi-hyeong",
@@ -95,7 +95,7 @@
         "observed_by": [],
         "later_finding": []
       },
-      "evidenceState": "CATALOG_SNIPPET_ONLY",
+      "evidenceState": "NARROWED",
       "openQuestions": [
         "동시대 국회·정부 원문 및 개별 당사자 기록을 대조해 제안·결정·집행·불복·사후판단 분리"
       ],
@@ -541,6 +541,117 @@
         "동시대 국회·정부 원문 및 개별 당사자 기록을 대조해 제안·결정·집행·불복·사후판단 분리"
       ],
       "researchShard": "data/events/pass-249-civil-rights-and-seoul.json"
+    },
+    {
+      "id": "evt-p249-1960-1031-gov-scope",
+      "name": "1960-10-31 공민권제한 국무회의 대상범위 방침",
+      "date": "1960-10-31",
+      "domain": "행정·입법",
+      "sources": [
+        "DOC-P249-KD-1031"
+      ],
+      "politicians": [
+        "cand-p244g-jeong-heon-ju",
+        "cand-p239m2-cho-jae-cheon"
+      ],
+      "institutions": [
+        "국무회의",
+        "법무부"
+      ],
+      "confirmed": [
+        "정헌주·조재천의 정부방침 설명; 국무회의 원문·최종법안과 분리"
+      ],
+      "actionRoles": {
+        "proposed_by": [],
+        "decided_by": [
+          "국무회의(정부방침)"
+        ],
+        "executed_by": [],
+        "opposed_by": [],
+        "legal_authority": [],
+        "observed_by": [
+          "정헌주",
+          "조재천"
+        ],
+        "later_finding": []
+      },
+      "evidenceState": "NARROWED",
+      "openQuestions": [
+        "1960-10-31 국무회의 의안·회의록"
+      ]
+    },
+    {
+      "id": "evt-p249-1961-0210-prosecutor",
+      "name": "1961-02-10 특별검찰부 공민권제한 조사방침",
+      "date": "1961-02-10",
+      "domain": "사법·행정",
+      "sources": [
+        "DOC-P249-KD-0210"
+      ],
+      "politicians": [],
+      "institutions": [
+        "특별검찰부"
+      ],
+      "confirmed": [
+        "거물급 중심 조사·말단 예외 방침 보도; 실제 시행 미확인"
+      ],
+      "actionRoles": {
+        "proposed_by": [],
+        "decided_by": [
+          "특별검찰부"
+        ],
+        "executed_by": [],
+        "opposed_by": [],
+        "legal_authority": [
+          "법률 제587호 제5조"
+        ],
+        "observed_by": [
+          "조선일보"
+        ],
+        "later_finding": []
+      },
+      "evidenceState": "NARROWED",
+      "openQuestions": [
+        "2/10 특검 원시달 공문"
+      ]
+    },
+    {
+      "id": "evt-p249-1952-0425-local-election",
+      "name": "1952-04-25 최초 시·읍·면의회 선거",
+      "date": "1952-04-25",
+      "domain": "선거·지방행정",
+      "sources": [
+        "DOC-P249-NEC-1952-ARTICLE",
+        "DOC-P249-NEC-LE0029053"
+      ],
+      "politicians": [],
+      "institutions": [
+        "중앙선거위원회"
+      ],
+      "confirmed": [
+        "중앙선관위 후대 해설 시 80.2%, 읍 88.4%, 면 93.1%; 합산 6,836,734/7,536,304 = 90.72%"
+      ],
+      "actionRoles": {
+        "proposed_by": [],
+        "decided_by": [
+          "정부(선거공고)"
+        ],
+        "executed_by": [
+          "선거관리위원회"
+        ],
+        "opposed_by": [],
+        "legal_authority": [
+          "지방자치법"
+        ],
+        "observed_by": [
+          "중앙선관위 후대 해설"
+        ],
+        "later_finding": []
+      },
+      "evidenceState": "OFFICIAL_RETROSPECTIVE_NOT_ORIGINAL_TALLY",
+      "openQuestions": [
+        "LE-00-29053 14쪽 원문, UNCURK 원보고서, AA0002813 결재선"
+      ]
     }
   ]
 }

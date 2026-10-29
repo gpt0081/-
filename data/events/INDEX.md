@@ -105,3 +105,5 @@
 - 2026-10-29 pass248: `data/events/pass-248-1960-local-elections.json` (1960 지방선거·김상돈·출처충돌 검증).
 
 - 2026-10-29 pass249: `data/events/pass-249-civil-rights-and-seoul.json` (사건 16건, 중앙 registry additive 통합).
+
+- pass249 추가 3사건: 1960-10-31 국무회의 정부안, 1961-02-10 특검 지침, 1952-04-25 지방선거.

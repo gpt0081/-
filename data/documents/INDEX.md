@@ -153,3 +153,5 @@
 - 2026-10-29 pass248: `data/documents/pass-248-1960-local-election-crosscheck.json` (1960 지방선거·김상돈·출처충돌 검증).
 
 - 2026-10-29 pass249: `data/documents/pass-249-civic-rights-seoul.json` (법률원문 전사·공문서 색인·신문전사·서울시 사진목록; original_text_opened 구분).
+
+- pass249 정정: 법률587 본문 JS 미확보 original_text_opened=false; LE-00-29053(14쪽)·BA0084191(13쪽) 원면 추적.

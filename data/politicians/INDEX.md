@@ -191,3 +191,5 @@
 - 2026-10-29 pass248: `data/politicians/pass-248-1960-election-actors.json` (1960 지방선거·김상돈·출처충돌 검증).
 
 - 2026-10-29 pass249: `data/politicians/pass-249-civil-rights-actors.json` (신규 후보 16명; 1961 공민권 제한·의회 이의, 동명이인 병합 보류).
+
+- pass249 1961-02-02 심사위원 후보는 직접 열린 DOC-P249-KD-0202 전사로 연결; 실제 위촉원부는 OPEN.
