@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "pass": "257W",
+  "date": "2026-10-29",
+  "claims": [
+    {
+      "id": "CLM-P257W-NEC-2010-SEAT",
+      "statement": "2010 선관위 연구용역 표2-6은 1954 총선 114+15+67+7=203으로 분류한다",
+      "status": "SUPPORTED_LATER_OFFICIAL_COMMISSIONED_SECONDARY",
+      "supporting": [
+        "DOC-P257W-NEC-2010-ELECTIONS60",
+        "DOC-P257R-NIKH-CONST"
+      ],
+      "contradicting": [
+        "DOC-P257V-FRUS-893"
+      ],
+      "insufficient": [
+        "DOC-P257W-UN-A2711-PENDING"
+      ],
+      "review": "국편 헌정사와 분류 합계 일치. FRUS 115/15/67/6는 다른 정당 분류. 1954 원공고/원당적 명부 미열람."
+    },
+    {
+      "id": "CLM-P257W-TRANSLATION-MINOR",
+      "statement": "국편 FRUS 번역의 기타 7석은 원문 FRUS 주석의 minor parties 6석과 동일하다",
+      "status": "CONTRADICTED_BY_SAME_SOURCE_ORIGINAL",
+      "supporting": [],
+      "contradicting": [
+        "DOC-P257V-FRUS-893"
+      ],
+      "insufficient": [],
+      "review": "국편 compareViewer 국역 주석은 115+15+67+7=204, 영문 주석은 115+15+67+6=203. 국역 번역/전사 오류 가능성, 원문 6 우선; 원 5/23 전문 미열람."
+    },
+    {
+      "id": "CLM-P257W-PYUN-131",
+      "statement": "1954-05-22 변영태는 제네바 회의에서 자유당 당선자가 131명이라고 발언했다고 미국 대표단이 보고했다",
+      "status": "SUPPORTED_CONTEMPORANEOUS_REPORTED_SPEECH_NOT_ELECTION_FACT",
+      "supporting": [
+        "DOC-P257W-FRUS-GENEVA-D190"
+      ],
+      "contradicting": [],
+      "insufficient": [
+        "DOC-P257W-UN-A2711-PENDING"
+      ],
+      "review": "이것은 변영태 발언에 대한 미측 전언이며 실제 당선 131석을 증명하지 않는다. 공식 114, FRUS d893 115와 다름. 5/22 속기록과 14점 제안 원본 필요."
+    },
+    {
+      "id": "CLM-P257W-PYUN-CANDIDATES-2000",
+      "statement": "1954-05-20 선거의 실제 등록 후보자는 2000명이었다",
+      "status": "CONFLICTED_REPORTED_SPEECH_VS_LATER_NEC_STUDY",
+      "supporting": [
+        "DOC-P257W-FRUS-GENEVA-D190"
+      ],
+      "contradicting": [
+        "DOC-P257W-NEC-2010-ELECTIONS60"
+      ],
+      "insufficient": [],
+      "review": "변영태의 5/22 발언 2000 vs 선관위 연구용역 표2-6 1207. 연설의 수사/잠정 집계 가능, 원선거 후보등록부 확인 전 결정 금지."
+    },
+    {
+      "id": "CLM-P257W-FRUS-GENEVA-PERCENTAGES",
+      "statement": "FRUS XVI d190 편집자 주석의 자유당 55.3%, 무소속·군소정당 36.8%는 정확한 귀속이다",
+      "status": "EDITORIAL_NOTE_APPARENT_REVERSAL",
+      "supporting": [],
+      "contradicting": [
+        "DOC-P257W-FRUS-GENEVA-D190",
+        "DOC-P257W-NEC-2010-ELECTIONS60",
+        "DOC-P257V-FRUS-893"
+      ],
+      "insufficient": [
+        "DOC-P257W-UN-A2711-PENDING"
+      ],
+      "review": "d190 note7 gives 55.3 Liberal and 36.8 independent+minor, whereas d893 note1 says 36.8 Liberal and 55.3 independent+minor; NEC 2010 36.7 Liberal. FRUS d190 editor's percentages apparently transposed; don't overwrite original."
+    },
+    {
+      "id": "CLM-P257W-APRIL-SPEECH-DATE",
+      "statement": "개헌조건부 자유당 후보 공천 대통령 담화 발표일은 1954-04-06 또는 04-08 중 어느 날인가",
+      "status": "CONFLICTED_SECONDARY_CHRONOLOGY",
+      "supporting": [
+        "DOC-P257W-NIKH-1954-CONSTITUTION-OVERVIEW"
+      ],
+      "contradicting": [
+        "DOC-P257W-NEC-2010-ELECTIONS60"
+      ],
+      "insufficient": [],
+      "review": "국편 우리역사넷 4/6, 선관위 연구용역 4/8. 원 대통령 담화/4월 관보/동시대 신문 지면 확보 전 확정 불가."
+    },
+    {
+      "id": "CLM-P257W-COMMITTEE-APR19",
+      "statement": "1954-04-19 개헌추진위원회에 자유당 대표로 임철호·이범녕·이선근이 파견됐다",
+      "status": "LATER_OFFICIAL_SYNTHESIS_ORIGINAL_PENDING",
+      "supporting": [
+        "DOC-P257W-NIKH-1954-CONSTITUTION-OVERVIEW"
+      ],
+      "contradicting": [],
+      "insufficient": [],
+      "review": "원 임명/파견·위원회 회의록 미확보. 세 명은 대통령 직접 지시 행위자로 귀속하지 않는다."
+    },
+    {
+      "id": "CLM-P257W-SYNTHETIC-1954-EXITPOLL",
+      "statement": "1954년 5월 20일 KBS·MBC·SBS·JTBC 공동 출구조사 기록이 있다",
+      "status": "REJECTED_AS_ANACHRONISTIC_DERIVATIVE",
+      "supporting": [],
+      "contradicting": [],
+      "insufficient": [],
+      "review": "polis.ysw.kr/archive/3rd-general-1954/ 후대 재가공 페이지의 1954 방송3사·JTBC 출구조사 문구는 시대착오. 해당 페이지를 NEC 원사료로 취급하거나 득표치 111/70을 확정하지 않는다."
+    }
+  ]
+}
