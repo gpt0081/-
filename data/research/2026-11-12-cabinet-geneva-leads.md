@@ -19,3 +19,13 @@
 - L-1954-GEN-08 [OPEN] FRUS 1954-05-13 telegram 74 및 Secto 196: 미국측 통일안 조정 전후 비교.
 - L-1954-GEN-09 [OPEN] 외교사료관 1954년 대한민국 대표단 훈령: 이승만 직접 승인과 외무부 재량 구분.
 - L-1954-GEN-10 [OPEN] 1954-06-15 16개국 선언 원문: 제안과 회의 최종 결과 구분.
+
+## 2026-11-12 04:20 item-level follow-up (source audit: 2026-11-12-0420-cabinet-geneva-item-level-audit.md)
+- L-1952-CAB-01 [OPEN, narrowed target] FRUS XV/1 doc 163 is Chang->embassy->Lightner report, not cabinet minutes. Retrieve 1952-06-03 Korean Cabinet minutes from National Archives to confirm Yi Pom-Sok's proposal and attendance.
+- L-1952-CAB-02 [OPEN, narrowed target] Chang expressly said he would not sponsor his compromise draft (FRUS doc 163). Compare June 1952 National Assembly bill introduction ledger before asserting a submitted bill.
+- L-1952-CAB-03 [OPEN, narrowed target] Lightner's June 3 telegram 1252 records personal delivery at 11:00; obtain Korean presidential incoming correspondence receipt and cabinet recess time to test causation.
+- L-1954-GEN-01 [OPEN, narrowed target] FRUS XVI doc 167 reproduces Pyun's May 15 fourteen-point DRAFT; compare 1954-05-15 Korean foreign ministry signed text, amendments and mandate.
+- L-1954-GEN-06 [OPEN, narrowed target] FRUS XVI doc 237 reproduces signed June 15 Declaration by Sixteen. Obtain UN Geneva record and Secto 4 signed original scan (June 25 dispatch) to verify signatories.
+- L-1954-GEN-02 [OPEN, catalog located] GK D-4/7 Apr 9 is printed per FRUS XVI working paper list; retrieve printed text and compare with D-4/10 Apr 16 and ROK May 15 draft.
+- L-1954-GEN-03 [OPEN, catalog located] GK D-4/10 Apr 16 is printed per FRUS XVI working paper list; distinguish draft alternatives from formally tabled proposals.
+- L-1954-GEN-09 [OPEN, provenance] Seek Korean foreign ministry 1954 May-June delegation instruction and approval chain; neither FRUS draft nor signature alone establishes presidential direct order.
