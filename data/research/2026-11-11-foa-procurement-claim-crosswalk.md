@@ -35,3 +35,17 @@
 | CAND-1953-UNKRA-PROGRAM-APPROVAL | FRUS doc.778: UNKRA 재정난 경고 | UN A/2663: 총회 725(VIII) 조건부 사업 승인과 부족 재원 병기 | **NARROWED**, 승인과 실제 조달·집행 구분 |
 
 **중복계산 주의:** FRUS 778은 앞선 FOA 조사에서 이미 열람한 문서다. A/2663은 별도 UN provenance의 새 원문이다. 유엔 원문을 확보했다고 해서 한국정부·국회 기록까지 확보한 것으로 계산하지 않는다.
+
+
+## 2026-11-11 한국 국가기록원 협약·유엔 공식 색인 추가
+
+상세: [1954 한국정부–UNKRA 협약 및 UN 회계감사 서지 추적](2026-11-11-unkra-korean-agreement-un-index-followup.md).
+
+| 후보 | 추가 근거 | 현재 판단 | 다음 검증 |
+|---|---|---|---|
+| CAND-1954-ROK-UNKRA-AGREEMENT | 국가기록원 UNKRA 공식 해설, 1954년 5월 한국정부–UNKRA 협약 일부 인용 | **NARROWED**: 협약 존재 단서, 원본 미열람 | 원본 협약·서명자·관보·국무회의록 |
+| CONFLICTED-METADATA-UNKRA-AGREEMENT | 동일 국가기록원 페이지 본문 1954년 5월 vs 이미지 캡션 (1948) | **CONFLICTED (메타데이터만)**: 1948년 협약으로 사건 날짜 확정 금지 | 기록물 원본 생성일·기록물 관리번호 |
+| CAND-1954-UNKRA-AUDIT | UN 공식 문서색인 항목 4626: A/2757 (1954-06-30 종료 회계연도) | **IDENTIFIED bibliography only**: 감사 본문·숫자 미확인 | A/2757 원문, A/2487과 연속 비교 |
+| CAND-1954-UNKRA-AGENT-REPORT | UN 공식 문서색인 항목 4625: A/2750 (1953-10~1954-09) | **IDENTIFIED bibliography only**: 사업별 실행 미확인 | A/2750 37쪽·지도 9개 원문 |
+
+국가기록원은 후대 공식 해설이고 유엔 문서색인은 공식 동시대 서지다. 두 자료 모두 협약 원본·감사 재무제표 본문이 아니다. 미국 FRUS, UN A/2663, 한국 국가기록원, UN 도서관을 단순히 4계열 확증으로 계산하지 않는다.
