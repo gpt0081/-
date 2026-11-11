@@ -1,0 +1,190 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-11-12",
+  "integrationStatus": "SHARDED_RESEARCH_OVERLAY",
+  "provenanceRule": "FRUS editorial compilation is one publication family; quoted original authorship is recorded separately; indirect testimony is not a decision/order.",
+  "documents": [
+    {
+      "id": "doc-1952-lightner-1259",
+      "date": "1952-06-03",
+      "identifier": "795.00/6-352; telegram 1259; FRUS XV/1 d163",
+      "author": "Lightner",
+      "originalLocation": "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d163",
+      "originalTextAvailable": true,
+      "provenance": "US diplomatic report containing Chang Myon's reported cabinet account",
+      "accessDate": "2026-11-12"
+    },
+    {
+      "id": "doc-1954-geneva-84",
+      "date": "1954-05-17",
+      "identifier": "396.1 GE/5-1754; telegram 84; FRUS XVI d167",
+      "author": "US Geneva delegation",
+      "originalLocation": "https://history.state.gov/historicaldocuments/frus1952-54v16/d167",
+      "originalTextAvailable": true,
+      "provenance": "US transmission of ROK draft supplied by Pyun",
+      "accessDate": "2026-11-12"
+    },
+    {
+      "id": "doc-1954-declaration-sixteen",
+      "date": "1954-06-15",
+      "identifier": "396.1 GE/6-2554; FRUS XVI d237; signed original enclosed with Secto 4 June 25",
+      "author": "Sixteen signatory delegations",
+      "originalLocation": "https://history.state.gov/historicaldocuments/frus1952-54v16/d237",
+      "originalTextAvailable": true,
+      "provenance": "multinational signed declaration reproduced in FRUS; separate original scan not inspected",
+      "accessDate": "2026-11-12"
+    }
+  ],
+  "actorCandidates": [
+    {
+      "id": "candidate-1952-chang-myon",
+      "name": "장면",
+      "aliases": [
+        "張勉",
+        "Chang Myon"
+      ],
+      "roleAtEvent": "Prime Minister",
+      "researchStatus": "IDENTIFIED",
+      "identityRegistryCollisionCheck": "PENDING"
+    },
+    {
+      "id": "candidate-1952-yi-pom-sok",
+      "name": "이범석",
+      "aliases": [
+        "李範奭",
+        "Yi Pom-Sok",
+        "Lee Beom-seok"
+      ],
+      "roleAtEvent": "Minister of Home Affairs",
+      "researchStatus": "IDENTIFIED",
+      "identityRegistryCollisionCheck": "PENDING"
+    },
+    {
+      "id": "candidate-1954-pyun-yung-tai",
+      "name": "변영태",
+      "aliases": [
+        "卞榮泰",
+        "Y. T. Pyun",
+        "Pyun Yung-tai"
+      ],
+      "roleAtEvent": "ROK delegate",
+      "researchStatus": "IDENTIFIED",
+      "identityRegistryCollisionCheck": "PENDING"
+    }
+  ],
+  "actions": [
+    {
+      "id": "evt-overlay-1952-cabinet-dissolution-discussion",
+      "date": "1952-06-03",
+      "reportedProposedBy": [
+        "pol-rhee-syngman"
+      ],
+      "opposedBy": "majority of cabinet per Chang report; individual names unverified",
+      "observedBy": [
+        "candidate-1952-chang-myon"
+      ],
+      "documentIds": [
+        "doc-1952-lightner-1259"
+      ],
+      "epistemicStatus": "SECONDHAND_ACCOUNT",
+      "decidedBy": null,
+      "executedBy": null
+    },
+    {
+      "id": "evt-overlay-1952-yi-mass-arrest-suggestion",
+      "date": "1952-06-03",
+      "reportedProposedBy": [
+        "candidate-1952-yi-pom-sok"
+      ],
+      "documentIds": [
+        "doc-1952-lightner-1259"
+      ],
+      "epistemicStatus": "NESTED_HEARSAY_PROPOSAL_ONLY",
+      "decidedBy": null,
+      "executedBy": null
+    },
+    {
+      "id": "evt-overlay-1952-chang-compromise-draft",
+      "date": "1952-06-03",
+      "reportedProposedBy": [
+        "candidate-1952-chang-myon"
+      ],
+      "documentIds": [
+        "doc-1952-lightner-1259"
+      ],
+      "epistemicStatus": "DRAFT_NOT_SPONSORED",
+      "decidedBy": null,
+      "executedBy": null
+    },
+    {
+      "id": "evt-overlay-1954-pyun-14-point-draft",
+      "date": "1954-05-15",
+      "proposedBy": [
+        "candidate-1954-pyun-yung-tai"
+      ],
+      "documentIds": [
+        "doc-1954-geneva-84"
+      ],
+      "epistemicStatus": "DRAFT_TRANSFER_RECORDED_NOT_FINAL_ADOPTION",
+      "decidedBy": null,
+      "executedBy": null
+    },
+    {
+      "id": "evt-overlay-1954-sixteen-declaration",
+      "date": "1954-06-15",
+      "executedBy": [
+        "candidate-1954-pyun-yung-tai"
+      ],
+      "documentIds": [
+        "doc-1954-declaration-sixteen"
+      ],
+      "epistemicStatus": "SIGNED_DECLARATION_REPRODUCED",
+      "decidedBy": null
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-overlay-1952-chang-bill-submission",
+      "statement": "Chang formally introduced his compromise amendment to the National Assembly",
+      "evidence": [
+        {
+          "documentId": "doc-1952-lightner-1259",
+          "relation": "CONTRADICTS",
+          "note": "Chang explicitly denied he would sponsor it"
+        }
+      ],
+      "status": "NARROWED",
+      "next": "National Assembly bill introduction ledger June 1952"
+    },
+    {
+      "id": "claim-overlay-1952-yi-arrest-order",
+      "statement": "Yi's suggestion was an executed cabinet order to arrest all legislators",
+      "evidence": [
+        {
+          "documentId": "doc-1952-lightner-1259",
+          "relation": "INSUFFICIENT",
+          "note": "Indirect account of suggestion; no adoption or execution recorded"
+        }
+      ],
+      "status": "OPEN",
+      "next": "Korean cabinet minutes and arrest warrant register"
+    },
+    {
+      "id": "claim-overlay-1954-rok-plan-adopted",
+      "statement": "The fourteen-point draft was the adopted final conference outcome",
+      "evidence": [
+        {
+          "documentId": "doc-1954-geneva-84",
+          "relation": "INSUFFICIENT"
+        },
+        {
+          "documentId": "doc-1954-declaration-sixteen",
+          "relation": "CONTRADICTS",
+          "note": "Final declaration is a separate instrument"
+        }
+      ],
+      "status": "NARROWED",
+      "next": "ROK foreign ministry instructions and UN conference proceedings"
+    }
+  ]
+}
