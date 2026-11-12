@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "accessDate": "2026-11-12",
+  "status": "RESEARCHED_NOT_INTEGRATED",
+  "provenanceFamilies": [
+    "US_STATE_FRUS"
+  ],
+  "documents": [
+    {
+      "id": "DOC-1952-FRUS-191",
+      "date": "1952-06-25",
+      "type": "draft meeting memorandum",
+      "originalCollection": "State–JCS Meetings lot 61 D 417",
+      "url": "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d191",
+      "note": "Draft not cleared by participants"
+    },
+    {
+      "id": "DOC-1952-FRUS-192",
+      "date": "1952-06-25",
+      "type": "JCS telegram 912098",
+      "originalCollection": "Matthews files lot 53 D 413",
+      "url": "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d192",
+      "note": "Approved joint guidance; implementation contingent"
+    },
+    {
+      "id": "DOC-1952-FRUS-193",
+      "date": "1952-06-28",
+      "type": "Muccio telegram 1474",
+      "originalCollection": "695A.0024/6-2852",
+      "url": "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d193",
+      "note": "Manhard interview summary, allegations not verified camp-wide"
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-research-19520625-state-jcs-consult",
+      "date": "1952-06-25",
+      "type": "deliberation",
+      "observed_by": [
+        "US State Department",
+        "JCS"
+      ],
+      "document_ids": [
+        "DOC-1952-FRUS-191"
+      ],
+      "claim": "British consultation about hydroelectric bombing was disputed within US meeting"
+    },
+    {
+      "id": "evt-research-19520625-jcs-912098",
+      "date": "1952-06-25",
+      "type": "contingency_guidance",
+      "decided_by": [
+        "US Joint Chiefs of Staff",
+        "US President Truman"
+      ],
+      "executed_by": [],
+      "legal_authority": "Contingent US authorization as UN executive agent; emergency clause",
+      "document_ids": [
+        "DOC-1952-FRUS-192"
+      ],
+      "claim": "Detailed contingency planning ordered, not evidence of martial-rule implementation"
+    },
+    {
+      "id": "evt-research-19520628-koje-interviews",
+      "date": "1952-06-28",
+      "type": "report",
+      "observed_by": [
+        "Phillip Manhard"
+      ],
+      "document_ids": [
+        "DOC-1952-FRUS-193"
+      ],
+      "claim": "Reported coercion and misinformation during POW polling; source distinguishes testimony, estimates, and observation"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-1952-intervention-not-executed",
+      "supporting": [
+        "DOC-1952-FRUS-192"
+      ],
+      "insufficient": [
+        "ROK operational orders",
+        "UNC operational log"
+      ],
+      "status": "OPEN"
+    },
+    {
+      "id": "claim-1952-uk-notification-disputed",
+      "supporting": [
+        "DOC-1952-FRUS-191"
+      ],
+      "contradicting": [],
+      "insufficient": [
+        "UK Foreign Office original protest"
+      ],
+      "status": "NARROWED"
+    },
+    {
+      "id": "claim-1952-pow-poll-coercion",
+      "supporting": [
+        "DOC-1952-FRUS-193"
+      ],
+      "insufficient": [
+        "Manhard full interview notes",
+        "camp logs",
+        "ICRC reports"
+      ],
+      "status": "OPEN"
+    }
+  ],
+  "politicianLinks": [
+    {
+      "id": "pol-rhee-syngman",
+      "event_ids": [
+        "evt-research-19520625-jcs-912098"
+      ],
+      "relation": "subject_of_foreign_contingency_planning",
+      "direct_order_attributed": false
+    }
+  ],
+  "notes": "Research overlay only. Do not infer that intervention was carried out or that all reported POW allegations were established."
+}
