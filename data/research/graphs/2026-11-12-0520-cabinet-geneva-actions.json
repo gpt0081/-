@@ -186,5 +186,37 @@
       "status": "NARROWED",
       "next": "ROK foreign ministry instructions and UN conference proceedings"
     }
-  ]
+  ],
+  "identityReconciliation": {
+    "reviewDate": "2026-11-12",
+    "method": "Full central politician registry comparison documented in 2026-11-12-0818-politician-identity-reconciliation.md; no automatic name-only merge",
+    "mappings": [
+      {
+        "overlayId": "candidate-1952-chang-myon",
+        "centralId": "cand-1952-nov-chang-myon",
+        "status": "PROPOSED_ALIAS",
+        "basis": "Name 張勉, office and chronology agree; June 1952 action still indirect FRUS account"
+      },
+      {
+        "overlayId": "candidate-1954-pyun-yung-tai",
+        "centralId": "pol-pyun-yong-tae",
+        "status": "PROPOSED_ALIAS",
+        "basis": "Name 卞榮泰, 1954 diplomatic role agree; Korean delegation authorization remains unverified"
+      },
+      {
+        "overlayId": "candidate-1952-yi-pom-sok",
+        "candidateCentralIds": [
+          "pol-lee-beom-seok",
+          "pol-lee-beom-seok-1900"
+        ],
+        "status": "CONFLICTED_IDENTITY",
+        "basis": "Same 李範奭 and overlapping office chronology; preserve both until source-linked audit"
+      }
+    ],
+    "rules": [
+      "Do not replace immutable overlay IDs in action nodes before central event and PR branch deduplication",
+      "No name-only identity merge; preserve existing evidence links and correction history",
+      "Do not infer decidedBy/executedBy from reported proposal or draft"
+    ]
+  }
 }
