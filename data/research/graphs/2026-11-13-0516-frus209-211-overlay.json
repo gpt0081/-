@@ -1,0 +1,106 @@
+{
+  "run_date": "2026-11-13",
+  "status": "RESEARCHED_NOT_INTEGRATED",
+  "provenance_family": "US State Department FRUS",
+  "documents": [
+    {
+      "id": "frus-1952-v15p1-d209",
+      "date": "1952-07-07",
+      "type": "contemporaneous telegram",
+      "number": "CX 51489",
+      "url": "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d209",
+      "author": "Mark W. Clark",
+      "recipient": "Joint Chiefs of Staff",
+      "original_acquired": false,
+      "transcription_opened": true
+    },
+    {
+      "id": "frus-1952-v15p1-d210",
+      "date": "1952-07-07",
+      "type": "contemporaneous letter",
+      "archive_number": "795.00/7-752",
+      "url": "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d210",
+      "author": "John D. Hickerson",
+      "recipient": "Ernest Gross",
+      "original_acquired": false,
+      "transcription_opened": true
+    },
+    {
+      "id": "frus-1952-v15p1-d211",
+      "date": "1952-07-09",
+      "type": "contemporaneous letter",
+      "archive_number": "795.00/7-952",
+      "url": "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d211",
+      "author": "Ernest Gross",
+      "recipient": "John D. Hickerson",
+      "original_acquired": false,
+      "transcription_opened": true
+    }
+  ],
+  "events": [
+    {
+      "id": "candidate-1952-0707-clark-pow-plan",
+      "date": "1952-07-07",
+      "proposed_by": [
+        "Mark W. Clark"
+      ],
+      "decided_by": [],
+      "executed_by": [],
+      "observed_by": [],
+      "claim": "Clark proposed a 121,000-person accounting with categories and a neutral-nations disposition mechanism as contingency; proposal and request for authorization, not final negotiated agreement.",
+      "document_ids": [
+        "frus-1952-v15p1-d209"
+      ],
+      "status": "NARROWED"
+    },
+    {
+      "id": "candidate-1952-0707-zinchenko-followup",
+      "date": "1952-07-07",
+      "proposed_by": [
+        "John D. Hickerson"
+      ],
+      "executed_by": [],
+      "claim": "Hickerson instructed Gross to test whether Zinchenko had an authorized proposal, while avoiding appearance of opening a new channel.",
+      "document_ids": [
+        "frus-1952-v15p1-d210"
+      ],
+      "status": "OPEN"
+    },
+    {
+      "id": "candidate-1952-0709-gross-unable-meet",
+      "date": "1952-07-09",
+      "observed_by": [
+        "Ernest Gross"
+      ],
+      "claim": "Gross reported inability to arrange another meeting with Zinchenko; his inference regarding Zinchenko's intentions remains speculation.",
+      "document_ids": [
+        "frus-1952-v15p1-d211"
+      ],
+      "status": "OPEN"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-121k-not-final",
+      "supporting_evidence": [
+        "frus-1952-v15p1-d209"
+      ],
+      "contradicting_evidence": [],
+      "insufficient_evidence": [
+        "No Panmunjom accepted roster"
+      ],
+      "status": "NARROWED"
+    },
+    {
+      "id": "claim-zinchenko-official-mandate",
+      "supporting_evidence": [],
+      "contradicting_evidence": [],
+      "insufficient_evidence": [
+        "frus-1952-v15p1-d210",
+        "frus-1952-v15p1-d211"
+      ],
+      "status": "OPEN"
+    }
+  ],
+  "notes": "No Korean politician promoted; military and foreign diplomats are contextual actor nodes, not Korean politician registry entries. Distinguish original archival object from FRUS transcription."
+}
