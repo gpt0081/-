@@ -1,0 +1,152 @@
+{
+  "schema": "research-overlay-v1",
+  "accessDate": "2026-11-12",
+  "provenanceFamily": "US Department of State FRUS edited series",
+  "documents": [
+    {
+      "id": "FRUS-XV1-188",
+      "kind": "editorial-note",
+      "url": "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d188",
+      "finding": "June 19 JCS 911683 authorized attacks on Yalu hydroelectric facilities with State, Defense and presidential approval; June 23 strikes. Editorial note, not reproduced signed directive.",
+      "status": "VERIFY_DIRECTIVE"
+    },
+    {
+      "id": "FRUS-XV1-189",
+      "kind": "telegram",
+      "url": "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d189",
+      "date": "1952-06-24",
+      "finding": "Bruce telegram Tosec 14 reports Selwyn Lloyd's nine-point proposal, US consideration rather than immediate adoption, and UK objection to Yalu bombing without consultation.",
+      "status": "PRIMARY_EDITED"
+    },
+    {
+      "id": "FRUS-XV1-190",
+      "kind": "letter",
+      "url": "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d190",
+      "date": "1952-06-25",
+      "finding": "Rhee letter to Truman alleges communist conspiracy among Assemblymen and defends martial law; allegations not established by letter. Editorial footnote documents Aug 13 decision not to reply.",
+      "status": "PRIMARY_EDITED"
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-research-1952-06-19-jcs-hydro-authorization",
+      "date": "1952-06-19",
+      "action": "authorization",
+      "decided_by": [
+        "US President",
+        "US Secretary of Defense",
+        "US State Department",
+        "US JCS"
+      ],
+      "executed_by": [],
+      "legal_authority": "JCS 911683; original directive pending",
+      "evidence": [
+        "FRUS-XV1-188"
+      ],
+      "status": "NARROWED"
+    },
+    {
+      "id": "evt-research-1952-06-23-hydroelectric-strikes",
+      "date": "1952-06-23",
+      "action": "air-strikes",
+      "executed_by": [
+        "UN air and naval air forces"
+      ],
+      "evidence": [
+        "FRUS-XV1-188"
+      ],
+      "status": "NARROWED"
+    },
+    {
+      "id": "evt-research-1952-06-23-uk-nine-points",
+      "date": "1952-06-23",
+      "action": "diplomatic-proposal",
+      "proposed_by": [
+        "Selwyn Lloyd"
+      ],
+      "decided_by": [],
+      "evidence": [
+        "FRUS-XV1-189"
+      ],
+      "status": "OPEN"
+    },
+    {
+      "id": "evt-research-1952-06-24-uk-yalu-objection",
+      "date": "1952-06-24",
+      "action": "diplomatic-objection",
+      "proposed_by": [
+        "Selwyn Lloyd"
+      ],
+      "evidence": [
+        "FRUS-XV1-189"
+      ],
+      "status": "OPEN"
+    },
+    {
+      "id": "evt-research-1952-06-25-rhee-truman-letter",
+      "date": "1952-06-25",
+      "action": "presidential-letter",
+      "executed_by": [
+        "pol-rhee-syngman"
+      ],
+      "evidence": [
+        "FRUS-XV1-190"
+      ],
+      "status": "NARROWED"
+    },
+    {
+      "id": "evt-research-1952-08-13-us-no-reply",
+      "date": "1952-08-13",
+      "action": "no-reply-recommendation",
+      "executed_by": [
+        "David Bruce"
+      ],
+      "evidence": [
+        "FRUS-XV1-190"
+      ],
+      "status": "NARROWED"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-1952-uk-nine-points-adopted",
+      "statement": "UK nine-point program was adopted as an ultimatum by June 24",
+      "status": "OPEN",
+      "insufficient": [
+        "FRUS-XV1-189"
+      ]
+    },
+    {
+      "id": "claim-1952-rhee-communist-assembly-conspiracy",
+      "statement": "Arrested Korean Assemblymen were part of a communist conspiracy",
+      "status": "OPEN",
+      "contemporaneous_claim": [
+        "FRUS-XV1-190"
+      ],
+      "independent_confirmation": []
+    },
+    {
+      "id": "claim-1952-yalu-prior-uk-consultation-required",
+      "statement": "Prior US-UK agreement required consultation before June 23 bombing",
+      "status": "CONFLICTED",
+      "evidence": [
+        "FRUS-XV1-189"
+      ],
+      "note": "UK asserted implied commitment; US representatives disputed existence of binding consultation undertaking"
+    }
+  ],
+  "leads": [
+    "JCS 911683 (1952-06-19), NARA/JCS original: distinguish attack authorization from operational execution",
+    "State–JCS meeting minutes 1952-06-18, lot 61 D 417: verify Matthews/Nitze response",
+    "UK Foreign Office 1952-06-24 Yalu protest: independent provenance and consultation claim",
+    "State Dept 795.00/6-2352 US-UK minutes: nine-point language and decision status",
+    "State Dept 795.00/6-2525 meeting minutes: British Deputy Chief of Staff proposal",
+    "Telac 4 London 1952-06-25: Truman approval of UK deputy proposal",
+    "Truman Library White House Confidential File 1952-06-25 Rhee signed letter: original location/endorsements",
+    "Bruce to Matthew J Connelly 1952-08-13 memorandum: no-reply rationale",
+    "National Assembly 1952-06-25 to 1952-07-07 proceedings: claims of communist conspiracy and constitutional amendment",
+    "ROK military tribunal/civil court June-July 1952: trial evidence for arrested Assemblymen",
+    "UNCURK June 1952 dispatches: independent observation of martial law and arrests",
+    "UK Parliament June-July 1952 debate on Yalu power plants: government consultation position"
+  ]
+}
