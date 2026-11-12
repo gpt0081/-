@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "runDate": "2026-11-13",
+  "status": "PROVISIONAL_NOT_CENTRAL",
+  "documents": [
+    {
+      "id": "doc-frus-1952-xv1-197",
+      "date": "1952-06-30",
+      "type": "telegram",
+      "author": "Ernest A. Gross",
+      "recipient": "US Department of State",
+      "originalNumber": "986",
+      "url": "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d197",
+      "provenance": "US diplomatic telegram, FRUS edited transcription",
+      "originalFacsimileInspected": false
+    },
+    {
+      "id": "doc-frus-1952-xv1-198",
+      "date": "1952-06-30",
+      "type": "official-informal letter",
+      "author": "John J. Muccio",
+      "recipient": "U. Alexis Johnson",
+      "url": "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d198",
+      "provenance": "US ambassador letter, FRUS edited transcription",
+      "originalFacsimileInspected": false
+    },
+    {
+      "id": "doc-frus-1952-xv1-199",
+      "date": "1952-07-01",
+      "type": "editorial note",
+      "url": "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d199",
+      "provenance": "FRUS editors, retrospective note",
+      "originalFacsimileInspected": false
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-provisional-19520627-gross-zinchenko",
+      "date": "1952-06-27",
+      "type": "informal_diplomatic_conversation",
+      "observed_by": [
+        "Ernest A. Gross"
+      ],
+      "participants": [
+        "Konstantin Zinchenko",
+        "Ernest A. Gross",
+        "Morozov"
+      ],
+      "claim": "Discussed Geneva Convention and POW repatriation; expressly personal not official Soviet negotiating offer",
+      "documents": [
+        "doc-frus-1952-xv1-197"
+      ],
+      "status": "NARROWED"
+    },
+    {
+      "id": "evt-provisional-19520630-muccio-contingency",
+      "date": "1952-06-30",
+      "type": "contingency_planning_disagreement",
+      "proposed_by": [
+        "John J. Muccio",
+        "Thomas W. Herren"
+      ],
+      "decided_by": [],
+      "executed_by": [],
+      "claim": "Muccio opposed large US military-government staffing, preferred indirect use of ROK chain of command if duly authorized; complained of incomplete information",
+      "documents": [
+        "doc-frus-1952-xv1-198"
+      ],
+      "status": "OPEN"
+    },
+    {
+      "id": "evt-provisional-19520701-panmunjom-paragraph51",
+      "date": "1952-07-01",
+      "type": "armistice_negotiation",
+      "observed_by": [
+        "FRUS editors"
+      ],
+      "claim": "62 of 63 paragraphs substantially agreed; paragraph 51 POW issue unresolved according to later editorial synthesis; original C51133 and C51282 pending",
+      "documents": [
+        "doc-frus-1952-xv1-199"
+      ],
+      "status": "OPEN"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-19520627-zinchenko-official",
+      "assertion": "Zinchenko formally offered Soviet-approved POW settlement",
+      "evidence_status": "INSUFFICIENT",
+      "contradicting": [
+        "doc-frus-1952-xv1-197"
+      ],
+      "reason": "Both interlocutors described exchange as personal; Gross inference is not Soviet authorization"
+    },
+    {
+      "id": "claim-19520630-unc-military-government-executed",
+      "assertion": "UNC instituted military government on June 30",
+      "evidence_status": "INSUFFICIENT",
+      "contradicting": [
+        "doc-frus-1952-xv1-198"
+      ],
+      "reason": "Letter concerns planning disagreement and hypothetical intervention"
+    },
+    {
+      "id": "claim-19520701-62-paragraphs-final",
+      "assertion": "62 paragraphs legally finalized by July 1",
+      "evidence_status": "INSUFFICIENT",
+      "supporting_context": [
+        "doc-frus-1952-xv1-199"
+      ],
+      "reason": "Editorial note says agreed except minor administrative details, not final executed agreement"
+    }
+  ]
+}
