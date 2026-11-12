@@ -1,9 +1,9 @@
 # 2026-11-12 독립 원문 검증 lead queue
 
-- L-1952-CAB-01 [OPEN] 국가기록원 1952-06-03 국무회의 회의록/의안대장: 국회 해산 논의 및 장면 타협안 실제 상정 여부 검증.
-- L-1952-CAB-02 [OPEN] 국회 1952-06~07 헌법개정안 접수대장·본회의 속기록: 장면의 초안과 최종 개정안 조문 차이 확인.
+- L-1952-CAB-01 [OPEN] 국가기록원 1952-06-03 국무회의 회의록/의안대장: 국회 해산 논의 및 장택상(張澤相) 절충 개헌안 실제 상정 여부 검증. 장면(張勉)과 혼동 금지.
+- L-1952-CAB-02 [OPEN] 국회 1952-06~07 헌법개정안 접수대장·본회의 속기록: 장택상의 초안과 최종 개정안 조문 차이 확인.
 - L-1952-CAB-03 [OPEN] 대통령기록관 1952-06-03 트루먼 대통령 서한 수발신 기록: 전달 시점과 이승만 답신 대조.
-- L-1952-CAB-04 [OPEN] 국사편찬위원회 장면 회고록 1952년 부산정치파동 장: 미국측 간접전언에 대한 당사자 서술 반증.
+- L-1952-CAB-04 [OPEN] 국사편찬위원회 장택상(張澤相) 관련 회고·구술·인물자료 및 1952년 6월 국무회의 기록: 미국측 간접전언에 대한 당사자 서술 반증. 장면 회고록은 별도 독립 관찰자료일 때만 사용.
 - L-1952-CAB-05 [OPEN] 이범석 회고·내무부 관련 문서 1952-06-03: '의원 전원 체포' 제안 발언의 직접 증거 또는 반증.
 - L-1952-JUL-01 [OPEN] 국회 1952-07-15 대통령·부통령 선거법 심의 속기록: 공직자 사퇴 조항의 발의자·결정 결과 검증.
 - L-1952-JUL-02 [OPEN] 법제처 1952-07 개정 헌법 공포본: 양원제·내각책임 요소의 실제 법문과 시행 여부 구분.
@@ -29,3 +29,11 @@
 - L-1954-GEN-02 [OPEN, catalog located] GK D-4/7 Apr 9 is printed per FRUS XVI working paper list; retrieve printed text and compare with D-4/10 Apr 16 and ROK May 15 draft.
 - L-1954-GEN-03 [OPEN, catalog located] GK D-4/10 Apr 16 is printed per FRUS XVI working paper list; distinguish draft alternatives from formally tabled proposals.
 - L-1954-GEN-09 [OPEN, provenance] Seek Korean foreign ministry 1954 May-June delegation instruction and approval chain; neither FRUS draft nor signature alone establishes presidential direct order.
+
+## 2026-11-12 13:20 identity correction propagation
+- CORRECTION [CONFIRMED FROM PRIOR FRUS ITEM AUDIT; NOT NEW ORIGINAL DOCUMENT] FRUS XV/1 d163 (telegram 1259, 1952-06-03, https://history.state.gov/historicaldocuments/frus1952-54v15p1/d163) identifies Prime Minister Chang Taek-sang (張澤相), not Chang Myon (張勉). The earlier lead descriptions above have been corrected without erasing the audit history. Distinguish reported cabinet discussion from contemporaneous cabinet minutes and distinguish drafting from bill sponsorship.
+- L-1952-CAB-06 [OPEN] 국회 1952년 6~7월 헌법개정안 발의자명부 및 제안이유서 원문: 장택상 작성 초안과 실제 발의안을 조문·발의자별로 대조하고 미발의 가능성을 검증.
+- L-1952-CAB-07 [OPEN] 국가기록원 1952-06-03 국무회의 참석자 명부와 회의록 원문: 장택상·이범석의 참석 여부 및 체포 제안 발언의 독립 검증.
+- L-1952-CAB-08 [OPEN] 대통령기록관 1952년 6월 경무대-내무부 수발신 문서철: 시위대 통과 관련 이승만 발언이 정식 지시로 전달되었는지 확인.
+- L-1952-CAB-09 [OPEN] 내무부·부산 경찰 1952년 6월 초 시위대 이동·검문 상황보고: 시위대 유입 통제 실제 집행 여부와 명령 주체 검증.
+- L-1952-CAB-10 [OPEN] PR #72~74 1952년 6월 3일 인물/claim 변경분: Chang Taek-sang/Chang Myon 로마자 표기 혼동이 병렬 브랜치에 재유입되었는지 감사.
