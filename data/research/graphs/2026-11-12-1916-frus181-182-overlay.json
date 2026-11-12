@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "research-overlay-v1",
+  "accessDate": "2026-11-12",
+  "status": "ITEM_VERIFIED_NOT_CENTRAL_INTEGRATED",
+  "provenanceFamily": "US Department of State FRUS edited diplomatic transcripts",
+  "documents": [
+    {
+      "id": "DOC-FRUS-1952-XV1-181",
+      "date": "1952-06-18",
+      "author": "Robert J. G. McClurkin",
+      "type": "memorandum of conversation",
+      "url": "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d181",
+      "original": "611.95A241/6-1852",
+      "note": "Greenhill's relay of Panikkar's report of Chou En-lai's proposals; multi-hop hearsay, not PRC original or agreed settlement."
+    },
+    {
+      "id": "DOC-FRUS-1952-XV1-182",
+      "date": "1952-06-18",
+      "author": "John J. Muccio",
+      "type": "telegram 1395 to US State Department",
+      "url": "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d182",
+      "original": "795B.00/6-1852",
+      "note": "Five conditional triggers and hypothetical UN chain of command. Explicit Washington authorization prerequisite; no executed intervention shown."
+    }
+  ],
+  "actors": [
+    {
+      "name": "이승만",
+      "id": "pol-rhee-syngman",
+      "role": "President; described in US ambassador's assessment, not independently corroborated"
+    },
+    {
+      "name": "이범석",
+      "id": null,
+      "possibleIds": [
+        "pol-lee-beom-seok",
+        "pol-lee-beom-seok-1900"
+      ],
+      "role": "US ambassador's conditional concern; ID conflict unresolved"
+    },
+    {
+      "name": "Panikkar",
+      "id": null,
+      "role": "Indian diplomatic intermediary"
+    },
+    {
+      "name": "Zhou Enlai",
+      "id": null,
+      "role": "Reported negotiating participant; indirect attribution"
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-cand-19520615-panikkar-zhou-options",
+      "date": "1952-06-15",
+      "reportedBy": "McClurkin via Greenhill via Panikkar",
+      "proposedBy": "Zhou Enlai (attributed, indirect)",
+      "decidedBy": null,
+      "executedBy": null,
+      "documentIds": [
+        "DOC-FRUS-1952-XV1-181"
+      ]
+    },
+    {
+      "id": "evt-cand-19520618-muccio-contingency-conditions",
+      "date": "1952-06-18",
+      "proposedBy": "John Muccio",
+      "decidedBy": null,
+      "executedBy": null,
+      "legalAuthority": "Requires explicit Washington and Unified Command authorization, not established",
+      "documentIds": [
+        "DOC-FRUS-1952-XV1-182"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-19520618-us-intervention-executed",
+      "status": "OPEN",
+      "assessment": "Not supported by d182; document describes conditional plans, not execution",
+      "supporting": [],
+      "insufficient": [
+        "DOC-FRUS-1952-XV1-182"
+      ]
+    },
+    {
+      "id": "claim-19520615-chinese-pow-options-accepted",
+      "status": "OPEN",
+      "assessment": "Not supported by d181; reported options and skepticism, not agreement",
+      "insufficient": [
+        "DOC-FRUS-1952-XV1-181"
+      ]
+    }
+  ]
+}
