@@ -11,7 +11,7 @@
       "author": "Lightner",
       "originalLocation": "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d163",
       "originalTextAvailable": true,
-      "provenance": "US diplomatic report containing Chang Myon's reported cabinet account",
+      "provenance": "US diplomatic telegram reporting Prime Minister Chang Taek-sang (張澤相)'s account of the cabinet meeting; not Chang Myon (張勉).",
       "accessDate": "2026-11-12"
     },
     {
@@ -81,15 +81,17 @@
         "pol-rhee-syngman"
       ],
       "opposedBy": "majority of cabinet per Chang report; individual names unverified",
-      "observedBy": [
-        "candidate-1952-chang-taek-sang"
-      ],
+      "observedBy": [],
       "documentIds": [
         "doc-1952-lightner-1259"
       ],
       "epistemicStatus": "SECONDHAND_ACCOUNT",
       "decidedBy": null,
-      "executedBy": null
+      "executedBy": null,
+      "reportedBy": [
+        "candidate-1952-chang-taek-sang"
+      ],
+      "observationNote": "Prime Minister reported cabinet discussion to two US embassy officers; embassy did not directly observe cabinet meeting."
     },
     {
       "id": "evt-overlay-1952-yi-mass-arrest-suggestion",
@@ -102,7 +104,10 @@
       ],
       "epistemicStatus": "NESTED_HEARSAY_PROPOSAL_ONLY",
       "decidedBy": null,
-      "executedBy": null
+      "executedBy": null,
+      "reportedBy": [
+        "candidate-1952-chang-taek-sang"
+      ]
     },
     {
       "id": "evt-overlay-1952-chang-compromise-draft",
@@ -141,6 +146,27 @@
       ],
       "epistemicStatus": "SIGNED_DECLARATION_REPRODUCED",
       "decidedBy": null
+    },
+    {
+      "id": "evt-overlay-1952-rhee-demonstrator-noninterference-direction",
+      "date": "1952-06-03",
+      "reportedDirectedBy": [
+        "pol-rhee-syngman"
+      ],
+      "reportedRecipient": [
+        "candidate-1952-yi-pom-sok"
+      ],
+      "reportedBy": [
+        "candidate-1952-chang-taek-sang"
+      ],
+      "documentIds": [
+        "doc-1952-lightner-1259"
+      ],
+      "epistemicStatus": "SECONDHAND_REPORTED_VERBAL_DIRECTION_NOT_EXECUTION",
+      "decidedBy": null,
+      "executedBy": null,
+      "legalAuthority": null,
+      "openLead": "Korean 1952-06-03 cabinet minutes, Ministry of Home Affairs orders, Busan police demonstration-control records; test whether direction was transmitted or carried out."
     }
   ],
   "claims": [
@@ -186,6 +212,19 @@
       ],
       "status": "NARROWED",
       "next": "ROK foreign ministry instructions and UN conference proceedings"
+    },
+    {
+      "id": "claim-overlay-1952-demonstrator-noninterference-executed",
+      "statement": "Rhee's reported direction to Yi Pom-sok not to prevent demonstrators entering Pusan was transmitted to police and implemented.",
+      "evidence": [
+        {
+          "documentId": "doc-1952-lightner-1259",
+          "relation": "INSUFFICIENT",
+          "note": "Prime minister's account reports verbal direction, not subordinate orders or operational execution."
+        }
+      ],
+      "status": "OPEN",
+      "next": "ROK cabinet minutes, Home Ministry outgoing orders and Busan police situation reports June 3-5 1952"
     }
   ],
   "identityReconciliation": {
@@ -229,6 +268,12 @@
         "replacementCandidateId": "candidate-1952-chang-taek-sang",
         "source": "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d163",
         "audit": "data/research/corrections/2026-11-12-1120-chang-taeksang-not-chang-myon.md"
+      },
+      {
+        "date": "2026-11-12",
+        "kind": "RESIDUAL_PROVENANCE_CORRECTION_AND_ACTOR_EPISTEMICS",
+        "note": "Corrected surviving Chang Myon text in document provenance, replaced observedBy cabinet claim with reportedBy, and separated reported demonstrator non-interference direction from Yi mass-arrest suggestion.",
+        "source": "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d163"
       }
     ]
   }
