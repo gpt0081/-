@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-11-13",
+  "scope": "FRUS 215-217",
+  "status": "PROVISIONAL_NOT_CENTRAL",
+  "documents": [
+    {
+      "id": "DOC-FRUS-1952-215",
+      "date": "1952-07-09",
+      "type": "memorandum",
+      "author": "John M. Allison; drafted by U. Alexis Johnson",
+      "url": "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d215",
+      "provenance": "US State Department FRUS edited contemporaneous original"
+    },
+    {
+      "id": "DOC-FRUS-1952-216",
+      "date": "1952-07-11",
+      "type": "telegram 206",
+      "author": "Ambassador Gifford",
+      "url": "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d216",
+      "provenance": "US diplomatic relay of UK/Indian statements; not PRC original"
+    },
+    {
+      "id": "DOC-FRUS-1952-217",
+      "date": "1952-07-11",
+      "type": "telegram C 51780",
+      "author": "General Mark Clark",
+      "url": "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d217",
+      "provenance": "UNC commander telegram edited in FRUS"
+    }
+  ],
+  "events": [
+    {
+      "id": "ACT-19520709-ALLISON-ARMISTICE-BRIEF",
+      "date": "1952-07-09",
+      "observed_by": [
+        "Allison",
+        "Johnson"
+      ],
+      "decided_by": null,
+      "executed_by": null,
+      "documents": [
+        "DOC-FRUS-1952-215"
+      ],
+      "note": "Washington doubts immediate release of 83k POW figure and neutral custody feasibility; martial law lifting unconfirmed."
+    },
+    {
+      "id": "ACT-19520711-GIFFORD-MENON-RELAY",
+      "date": "1952-07-11",
+      "observed_by": [
+        "Gifford"
+      ],
+      "proposed_by": [
+        "Selwyn Lloyd"
+      ],
+      "decided_by": null,
+      "executed_by": null,
+      "documents": [
+        "DOC-FRUS-1952-216"
+      ],
+      "note": "Three-step relay Menon/Panikkar/Chou; no independent Chinese acceptance."
+    },
+    {
+      "id": "ACT-19520711-CLARK-POW-DISCLOSURE-REQUEST",
+      "date": "1952-07-11",
+      "proposed_by": [
+        "Mark Clark"
+      ],
+      "decided_by": null,
+      "executed_by": null,
+      "documents": [
+        "DOC-FRUS-1952-217"
+      ],
+      "note": "Requests authorization within 2-3 days; no evidence actual release from this telegram."
+    }
+  ],
+  "claims": [
+    {
+      "id": "CLAIM-19520711-83K-DISCLOSED",
+      "status": "OPEN",
+      "insufficientEvidence": [
+        "DOC-FRUS-1952-215",
+        "DOC-FRUS-1952-217"
+      ],
+      "nextTarget": "JCS 913383 and Panmunjom session transcript"
+    },
+    {
+      "id": "CLAIM-19520711-CHOU-ACCEPTED-NEUTRAL-ISLAND",
+      "status": "OPEN",
+      "insufficientEvidence": [
+        "DOC-FRUS-1952-216"
+      ],
+      "nextTarget": "Indian Foreign Ministry and PRC original minutes"
+    },
+    {
+      "id": "CLAIM-19520709-PUSAN-MARTIAL-LAW-LIFTED",
+      "status": "OPEN",
+      "insufficientEvidence": [
+        "DOC-FRUS-1952-215"
+      ],
+      "nextTarget": "ROK gazette martial law rescission order"
+    }
+  ],
+  "provenanceFamilies": 1,
+  "centralRegistryIntegrated": false
+}
