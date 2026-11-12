@@ -37,15 +37,16 @@
   ],
   "actorCandidates": [
     {
-      "id": "candidate-1952-chang-myon",
-      "name": "장면",
+      "id": "candidate-1952-chang-taek-sang",
+      "name": "장택상",
       "aliases": [
-        "張勉",
-        "Chang Myon"
+        "張澤相",
+        "Chang Taek-Sang",
+        "Chang Taik-sang"
       ],
-      "roleAtEvent": "Prime Minister",
+      "roleAtEvent": "Prime Minister (June 1952)",
       "researchStatus": "IDENTIFIED",
-      "identityRegistryCollisionCheck": "PENDING"
+      "identityRegistryCollisionCheck": "PR_R225_ACTOR_ID_CANDIDATE_PENDING_MAIN_VERIFICATION"
     },
     {
       "id": "candidate-1952-yi-pom-sok",
@@ -81,7 +82,7 @@
       ],
       "opposedBy": "majority of cabinet per Chang report; individual names unverified",
       "observedBy": [
-        "candidate-1952-chang-myon"
+        "candidate-1952-chang-taek-sang"
       ],
       "documentIds": [
         "doc-1952-lightner-1259"
@@ -107,7 +108,7 @@
       "id": "evt-overlay-1952-chang-compromise-draft",
       "date": "1952-06-03",
       "reportedProposedBy": [
-        "candidate-1952-chang-myon"
+        "candidate-1952-chang-taek-sang"
       ],
       "documentIds": [
         "doc-1952-lightner-1259"
@@ -145,12 +146,12 @@
   "claims": [
     {
       "id": "claim-overlay-1952-chang-bill-submission",
-      "statement": "Chang formally introduced his compromise amendment to the National Assembly",
+      "statement": "Chang Taek-sang formally sponsored his June 1952 compromise amendment in the National Assembly",
       "evidence": [
         {
           "documentId": "doc-1952-lightner-1259",
           "relation": "CONTRADICTS",
-          "note": "Chang explicitly denied he would sponsor it"
+          "note": "FRUS d163 identifies Prime Minister Chang Taek-sang, who declined to sponsor it; previous Chang Myon attribution retracted"
         }
       ],
       "status": "NARROWED",
@@ -192,10 +193,10 @@
     "method": "Full central politician registry comparison documented in 2026-11-12-0818-politician-identity-reconciliation.md; no automatic name-only merge",
     "mappings": [
       {
-        "overlayId": "candidate-1952-chang-myon",
-        "centralId": "cand-1952-nov-chang-myon",
-        "status": "PROPOSED_ALIAS",
-        "basis": "Name 張勉, office and chronology agree; June 1952 action still indirect FRUS account"
+        "overlayId": "candidate-1952-chang-taek-sang",
+        "centralId": "pol-r139-jang-taek-sang",
+        "status": "PROPOSED_ALIAS_PR_R225_MAIN_VERIFICATION_PENDING",
+        "basis": "FRUS XV/1 d163 Persons index explicitly Chang Taek-Sang; previous Chang Myon alias INVALID"
       },
       {
         "overlayId": "candidate-1954-pyun-yung-tai",
@@ -216,7 +217,19 @@
     "rules": [
       "Do not replace immutable overlay IDs in action nodes before central event and PR branch deduplication",
       "No name-only identity merge; preserve existing evidence links and correction history",
-      "Do not infer decidedBy/executedBy from reported proposal or draft"
+      "Do not infer decidedBy/executedBy from reported proposal or draft",
+      "June 3 1952 FRUS d163 Chang = Chang Taek-sang, not Chang Myon; never merge their IDs"
+    ],
+    "correctionHistory": [
+      {
+        "date": "2026-11-12",
+        "kind": "ACTOR_MISIDENTIFICATION",
+        "retractedOverlayId": "candidate-1952-chang-myon",
+        "retractedCentralId": "cand-1952-nov-chang-myon",
+        "replacementCandidateId": "candidate-1952-chang-taek-sang",
+        "source": "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d163",
+        "audit": "data/research/corrections/2026-11-12-1120-chang-taeksang-not-chang-myon.md"
+      }
     ]
   }
 }
