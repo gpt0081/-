@@ -1,0 +1,119 @@
+{
+  "run_date": "2026-11-13",
+  "status": "RESEARCHED_NOT_INTEGRATED",
+  "provenance": "US State Department FRUS XV/1; original-origin telegram transcripts d207/d208; editorial note d206 excluded from original count",
+  "documents": [
+    {
+      "id": "doc-frus1952-15-1-206",
+      "type": "editorial_note",
+      "date": "1952-07-04",
+      "url": "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d206",
+      "original_obtained": false
+    },
+    {
+      "id": "doc-frus1952-15-1-207",
+      "type": "telegram_transcription",
+      "date": "1952-07-05",
+      "identifier": "CX 51399",
+      "author": "Mark W. Clark",
+      "recipient": "Joint Chiefs of Staff",
+      "url": "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d207",
+      "original_obtained": false
+    },
+    {
+      "id": "doc-frus1952-15-1-208",
+      "type": "telegram_transcription",
+      "date": "1952-07-05",
+      "identifier": "Telegram 36 / 695A.0024/7-552",
+      "author": "John J. Muccio relaying Phillip W. Manhard",
+      "recipient": "US Department of State",
+      "url": "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d208",
+      "original_obtained": false
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-1952-0704-amendment-frus206",
+      "date": "1952-07-04",
+      "type": "legislative_vote",
+      "reported_by": [
+        "doc-frus1952-15-1-206"
+      ],
+      "reported_tally": {
+        "for": 163,
+        "against": 0,
+        "abstain": 3
+      },
+      "status": "requires_Korean_assembly_primary",
+      "legal_authority": "National Assembly voting rules not independently checked"
+    },
+    {
+      "id": "evt-1952-0705-clark-contingency",
+      "date": "1952-07-05",
+      "type": "military_contingency_planning",
+      "proposed_by": [
+        "Mark W. Clark"
+      ],
+      "decided_by": [],
+      "executed_by": [],
+      "observed_by": [
+        "doc-frus1952-15-1-207"
+      ],
+      "status": "planning_not_execution"
+    },
+    {
+      "id": "evt-1952-0705-manhard-pow-assessment",
+      "date": "1952-07-05",
+      "type": "pow_screening_policy_assessment",
+      "proposed_by": [
+        "Phillip W. Manhard"
+      ],
+      "observed_by": [
+        "doc-frus1952-15-1-208"
+      ],
+      "status": "reported_assessment_not_policy_adoption"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-clark-custody-proposal",
+      "supporting": [
+        "doc-frus1952-15-1-207"
+      ],
+      "insufficient": [
+        "no execution order or custody record"
+      ],
+      "status": "OPEN",
+      "claim": "Clark outlined conditional detention of Rhee if he refused proclamation, not proof detention occurred"
+    },
+    {
+      "id": "claim-assembly-vote-163",
+      "supporting": [
+        "doc-frus1952-15-1-206"
+      ],
+      "insufficient": [
+        "Korean assembly stenographic vote and quorum records not directly checked"
+      ],
+      "status": "OPEN"
+    },
+    {
+      "id": "claim-pow-screening-free",
+      "contradicting": [
+        "doc-frus1952-15-1-208"
+      ],
+      "status": "NARROWED",
+      "claim": "Manhard reported coercion and lack of security, challenging unrestricted voluntariness"
+    }
+  ],
+  "actor_candidates": [
+    {
+      "name": "장택상",
+      "romanization": "Chang Taek-sang",
+      "role": "Prime Minister July 1952",
+      "event": "evt-1952-0705-clark-contingency",
+      "action": "proposed alternative signatory only",
+      "identity_status": "requires registry cross-check"
+    }
+  ],
+  "cross_provenance_confirmed": 0
+}
