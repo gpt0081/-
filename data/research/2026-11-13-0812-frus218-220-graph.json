@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "runDate": "2026-11-13",
+  "integrationStatus": "RESEARCHED_NOT_INTEGRATED",
+  "provenanceNote": "Three distinct US-origin contemporary documents in one FRUS editorial series, not independent source families. No original facsimiles.",
+  "documents": [
+    {
+      "id": "doc-frus-1952-v15p1-218",
+      "date": "1952-07-11",
+      "kind": "JCS operational telegram",
+      "number": "JCS 913383",
+      "author": "Joint Chiefs of Staff",
+      "recipient": "Commander in Chief Far East (Clark)",
+      "url": "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d218",
+      "originalStatus": "edited contemporary transcript"
+    },
+    {
+      "id": "doc-frus-1952-v15p1-219",
+      "date": "1952-07-12",
+      "kind": "diplomatic telegram",
+      "number": "68",
+      "author": "John J. Muccio",
+      "recipient": "US Department of State",
+      "url": "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d219",
+      "originalStatus": "edited contemporary transcript"
+    },
+    {
+      "id": "doc-frus-1952-v15p1-220",
+      "date": "1952-07-14",
+      "kind": "UNC memorandum",
+      "author": "William K. Harrison Jr.",
+      "recipient": "Mark W. Clark",
+      "url": "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d220",
+      "originalStatus": "edited contemporary transcript"
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-19520711-jcs-pow-presentation",
+      "date": "1952-07-11",
+      "domain": "foreign-security",
+      "decided_by": [
+        "org-us-jcs-candidate"
+      ],
+      "executed_by": [],
+      "observed_by": [],
+      "documentIds": [
+        "doc-frus-1952-v15p1-218"
+      ],
+      "facts": [
+        "JCS approved paragraph 6 of Clark's C 51780 with modifications: factual tabulation of completed screening and impartial rather than neutral agency.",
+        "JCS withheld decision on part 2 of CX 51489."
+      ],
+      "uncertainty": "Presentation to Communist delegation not established."
+    },
+    {
+      "id": "evt-19520712-muccio-pusan-assessment",
+      "date": "1952-07-12",
+      "domain": "constitutional-administration",
+      "observed_by": [
+        "person-john-muccio-external"
+      ],
+      "documentIds": [
+        "doc-frus-1952-v15p1-219"
+      ],
+      "facts": [
+        "Muccio reported martial law still in effect a week after constitutional amendment.",
+        "Muccio reported seven assemblymen conditionally released and three unconditionally released, but individual identities and legal orders not verified.",
+        "Muccio described legislative proposal on officeholder resignation before candidacy and opposition political reorganization."
+      ],
+      "uncertainty": "Diplomatic assessment, not official Korean enactment or definitive motive finding."
+    },
+    {
+      "id": "evt-19520714-harrison-pow-safeguards",
+      "date": "1952-07-14",
+      "domain": "foreign-security",
+      "proposed_by": [
+        "person-william-harrison-external"
+      ],
+      "documentIds": [
+        "doc-frus-1952-v15p1-220"
+      ],
+      "facts": [
+        "Harrison favored conditional acceptance of Alternative B only with safeguards against coercion.",
+        "He proposed screening at Panmunjom and full exchange of approximately 12,000 UNC for 83,000 POWs before rescreening."
+      ],
+      "uncertainty": "Recommendations, not adopted armistice terms."
+    }
+  ],
+  "candidateActors": [
+    {
+      "id": "candidate-yi-pom-sok-1952",
+      "name": "이범석",
+      "aliases": [
+        "Yi Pom-Sok",
+        "Lee Bum Suk"
+      ],
+      "roles": [
+        "1952 Home Minister"
+      ],
+      "linkedEvents": [
+        "evt-19520712-muccio-pusan-assessment"
+      ],
+      "status": "IDENTIFIED_PENDING_REGISTRY_DEDUP",
+      "openLead": "Check 1952 cabinet appointments and election bill in Korean official records."
+    },
+    {
+      "id": "candidate-cho-byeong-ok-1952",
+      "name": "조병옥",
+      "aliases": [
+        "Chough Byong-Ok"
+      ],
+      "roles": [
+        "opposition politician"
+      ],
+      "linkedEvents": [
+        "evt-19520712-muccio-pusan-assessment"
+      ],
+      "status": "IDENTIFIED_PENDING_REGISTRY_DEDUP",
+      "openLead": "Verify proposed opposition party formation in party/assembly records."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-jcs-approval-not-publication-19520711",
+      "support": [
+        "doc-frus-1952-v15p1-218"
+      ],
+      "text": "JCS approved conditional method of presenting revised screening totals, not proof of actual presentation.",
+      "counterEvidenceStatus": "OPEN"
+    },
+    {
+      "id": "claim-pusan-martial-law-continued-19520712",
+      "support": [
+        "doc-frus-1952-v15p1-219"
+      ],
+      "text": "Muccio contemporaneously reported martial law continuing July 12.",
+      "counterEvidenceStatus": "OPEN_KOREAN_PROCLAMATION"
+    },
+    {
+      "id": "claim-harrison-conditional-rescreening-19520714",
+      "support": [
+        "doc-frus-1952-v15p1-220"
+      ],
+      "text": "Harrison recommended conditional safeguards, not final agreement.",
+      "counterEvidenceStatus": "OPEN_PANMUNJOM_MINUTES"
+    }
+  ]
+}
