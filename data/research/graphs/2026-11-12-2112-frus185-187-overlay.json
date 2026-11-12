@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "accessDate": "2026-11-12",
+  "status": "ITEM_VERIFIED_NOT_CENTRAL_INTEGRATED",
+  "provenanceFamily": "US State Department FRUS edited contemporary records",
+  "documents": [
+    {
+      "id": "doc-frus1952-v15p1-185",
+      "date": "1952-06-20",
+      "author": "Robert Murphy",
+      "recipient": "John Muccio",
+      "url": "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d185",
+      "archive": "FE files lot 55 D 338",
+      "type": "personal diplomatic letter"
+    },
+    {
+      "id": "doc-frus1952-v15p1-186",
+      "date": "1952-06-23",
+      "author": "US Joint Chiefs of Staff",
+      "recipient": "Mark Clark",
+      "number": "JCS 911932",
+      "url": "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d186",
+      "type": "top secret telegram"
+    },
+    {
+      "id": "doc-frus1952-v15p1-187",
+      "date": "1952-06-23",
+      "author": "John Muccio",
+      "recipient": "Robert Murphy",
+      "url": "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d187",
+      "archive": "FE files lot 55 D 338",
+      "type": "personal diplomatic letter"
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-research-1952-0620-murphy-clark-compromise",
+      "date": "1952-06-20",
+      "kind": "reported_policy_difference",
+      "observed_by": [
+        "Robert Murphy"
+      ],
+      "reported_positions": [
+        "Clark opposed immediate military intervention",
+        "Hickey criticized perceived embassy bias"
+      ],
+      "evidence": [
+        "doc-frus1952-v15p1-185"
+      ],
+      "status": "NARROWED"
+    },
+    {
+      "id": "evt-research-1952-0623-jcs-india-channel",
+      "date": "1952-06-23",
+      "kind": "diplomatic_instruction",
+      "decided_by": [
+        "US State Department"
+      ],
+      "transmitted_by": [
+        "US Joint Chiefs of Staff"
+      ],
+      "recipient": [
+        "Mark Clark"
+      ],
+      "evidence": [
+        "doc-frus1952-v15p1-186"
+      ],
+      "status": "VERIFIED_AS_TRANSMISSION_NOT_CHINESE_ACCEPTANCE"
+    },
+    {
+      "id": "evt-research-1952-0623-muccio-reply",
+      "date": "1952-06-23",
+      "kind": "diplomatic_response",
+      "reported_by": [
+        "John Muccio"
+      ],
+      "named_korean_politicians": [
+        "이승만",
+        "이범석",
+        "원용덕"
+      ],
+      "evidence": [
+        "doc-frus1952-v15p1-187"
+      ],
+      "status": "VERIFIED_AS_MUCCIO_REPORT"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-1952-clark-intervention-approved",
+      "status": "OPEN",
+      "insufficientEvidence": [
+        "doc-frus1952-v15p1-185",
+        "doc-frus1952-v15p1-187"
+      ],
+      "note": "Clark reluctance and contingency planning do not establish order or execution"
+    },
+    {
+      "id": "claim-1952-zhou-pow-settlement-accepted",
+      "status": "OPEN",
+      "insufficientEvidence": [
+        "doc-frus1952-v15p1-186"
+      ],
+      "note": "Second-hand Panikkar report and request for clarification do not establish PRC assent"
+    },
+    {
+      "id": "claim-1952-rhee-directs-youth-corps-police-actions",
+      "status": "OPEN",
+      "insufficientEvidence": [
+        "doc-frus1952-v15p1-187"
+      ],
+      "note": "Muccio's political attribution does not establish discrete command chain"
+    }
+  ],
+  "politicianLinks": [
+    {
+      "name": "이승만",
+      "id": "pol-rhee-syngman",
+      "role": "reported negotiating position and alleged conspiratorial concerns"
+    },
+    {
+      "name": "이범석",
+      "id": null,
+      "role": "Muccio alleges factional machinations; reconcile existing IDs"
+    },
+    {
+      "name": "원용덕",
+      "id": null,
+      "role": "martial law commander in Muccio's account; verify Korean records"
+    }
+  ]
+}
