@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "accessDate": "2026-11-13",
+  "consistencyGate": "RESEARCHED_NOT_INTEGRATED",
+  "sourceFamily": "US State Department FRUS edited contemporary telegrams",
+  "documents": [
+    {
+      "id": "doc-frus-1952-203",
+      "date": "1952-07-03",
+      "sender": "George F. Kennan",
+      "recipient": "US Department of State",
+      "number": "795.00/7-352 telegram 27",
+      "url": "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d203",
+      "claim": "Keep Soviet Zinchenko and Indian-Chinese contact channels open to compare positions",
+      "type": "policy_recommendation"
+    },
+    {
+      "id": "doc-frus-1952-204",
+      "date": "1952-07-03",
+      "sender": "Mark W. Clark",
+      "recipient": "US Joint Chiefs of Staff",
+      "number": "C 51286",
+      "url": "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d204",
+      "claim": "Clark approved executive sessions only, not immediate disclosure of POW figures",
+      "type": "command_decision"
+    },
+    {
+      "id": "doc-frus-1952-205",
+      "date": "1952-07-03",
+      "sender": "US Joint Chiefs of Staff",
+      "recipient": "Mark W. Clark",
+      "number": "JCS 912791",
+      "url": "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d205",
+      "claim": "JCS authorized contingent release of revised POW figures only if negotiation tactics failed",
+      "type": "conditional_authorization"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-1952-pow-july3-article51",
+      "supporting_evidence": [
+        "doc-frus-1952-204",
+        "doc-frus-1952-205"
+      ],
+      "status": "NARROWED",
+      "statement": "Harrison interpreted communist wording as progress; Clark and JCS did not accept a definitive settlement interpretation"
+    },
+    {
+      "id": "claim-1952-pow-july3-disclosure",
+      "supporting_evidence": [
+        "doc-frus-1952-204",
+        "doc-frus-1952-205"
+      ],
+      "status": "NARROWED",
+      "statement": "JCS gave contingent discretion to disclose revised numbers; actual disclosure remains unverified"
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-research-1952-0703-kennan-channel",
+      "proposed_by": [
+        "George F. Kennan"
+      ],
+      "decided_by": [],
+      "executed_by": [],
+      "observed_by": [],
+      "documents": [
+        "doc-frus-1952-203"
+      ]
+    },
+    {
+      "id": "evt-research-1952-0703-clark-executive",
+      "proposed_by": [
+        "William K. Harrison Jr."
+      ],
+      "decided_by": [
+        "Mark W. Clark"
+      ],
+      "executed_by": [],
+      "documents": [
+        "doc-frus-1952-204"
+      ]
+    },
+    {
+      "id": "evt-research-1952-0703-jcs-pow-guidance",
+      "proposed_by": [],
+      "decided_by": [
+        "US Joint Chiefs of Staff"
+      ],
+      "executed_by": [],
+      "documents": [
+        "doc-frus-1952-205"
+      ]
+    }
+  ],
+  "limitations": [
+    "Three documents share one FRUS editorial provenance; independent Korean, UN and communist negotiating records not obtained",
+    "No direct Rhee order established; do not attach command attribution to him",
+    "Research overlay IDs not authoritative registry IDs"
+  ]
+}
