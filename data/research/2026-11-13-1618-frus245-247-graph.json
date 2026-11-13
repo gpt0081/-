@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "status": "RESEARCHED_OVERLAY_NOT_CENTRAL",
+  "documents": [
+    {
+      "id": "doc-frus1952-v15p1-245",
+      "date": "1952-08-25",
+      "url": "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d245",
+      "provenance": "US Department of State FRUS, contemporary source reproduced",
+      "accessDate": "2026-11-13",
+      "originalHeld": false,
+      "transcriptionAccessed": true
+    },
+    {
+      "id": "doc-frus1952-v15p1-246",
+      "date": "1952-08-26",
+      "url": "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d246",
+      "provenance": "US Department of State FRUS, contemporary source reproduced",
+      "accessDate": "2026-11-13",
+      "originalHeld": false,
+      "transcriptionAccessed": true
+    },
+    {
+      "id": "doc-frus1952-v15p1-247",
+      "date": "1952-08-26",
+      "url": "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d247",
+      "provenance": "US Department of State FRUS, contemporary source reproduced",
+      "accessDate": "2026-11-13",
+      "originalHeld": false,
+      "transcriptionAccessed": true
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-1952-0825-clark-sk-pow-release-proposal",
+      "date": "1952-08-25",
+      "proposed_by": [
+        "Mark W. Clark"
+      ],
+      "observed_by": [
+        "US Joint Chiefs of Staff"
+      ],
+      "legal_authority": "1949 Geneva POW Convention Articles 4-5 invoked by Clark; applicability requires review",
+      "decided_by": [],
+      "executed_by": [],
+      "documents": [
+        "doc-frus1952-v15p1-245"
+      ],
+      "note": "Clark requested release/reclassification of roughly 16,000 South Korean POWs; about 11,000 opted against Communist control; 70-day implementation estimate, not actual release."
+    },
+    {
+      "id": "evt-1952-0826-border-airstrike-consultation",
+      "date": "1952-08-26",
+      "proposed_by": [
+        "Mark W. Clark"
+      ],
+      "decided_by": [
+        "US President: approval for dispatch of instructions as reported"
+      ],
+      "observed_by": [
+        "John M. Allison",
+        "F. S. Tomlinson"
+      ],
+      "executed_by": [],
+      "documents": [
+        "doc-frus1952-v15p1-246"
+      ],
+      "note": "Airstrike authorization reported; later September 1 attacks described in editorial note, independently unverified in this run."
+    },
+    {
+      "id": "evt-1952-0826-pow-trial-release-policy-memo",
+      "date": "1952-08-26",
+      "proposed_by": [
+        "John M. Allison",
+        "Kenneth T. Young (draft)"
+      ],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "documents": [
+        "doc-frus1952-v15p1-247"
+      ],
+      "note": "Allison recommended conditional release after allied consultations and delaying pre-July-1 POW trials; recommendations not final decisions."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-1952-pow-release-approved",
+      "status": "OPEN",
+      "supportingEvidence": [],
+      "contradictingEvidence": [],
+      "insufficientEvidence": [
+        "doc-frus1952-v15p1-245",
+        "doc-frus1952-v15p1-247"
+      ],
+      "question": "Did JCS approve and UNC actually release the 16,000?"
+    },
+    {
+      "id": "claim-1952-camp-control-uniform",
+      "status": "CONFLICTED",
+      "supportingEvidence": [
+        "doc-frus1952-v15p1-247"
+      ],
+      "contradictingEvidence": [
+        "doc-frus1952-v15p1-247"
+      ],
+      "question": "Tokyo reported serious daily incidents while Pusan and visiting official reported improved control; seek independently dated reports."
+    },
+    {
+      "id": "claim-1952-0826-strike-executed",
+      "status": "NARROWED",
+      "supportingEvidence": [
+        "doc-frus1952-v15p1-246"
+      ],
+      "insufficientEvidence": [
+        "doc-frus1952-v15p1-246"
+      ],
+      "question": "Cross-check September 1 operations against unit operational logs; approval not identical to strike execution."
+    }
+  ],
+  "leads": [
+    {
+      "id": "lead-245-jcs-response",
+      "target": "US JCS August-September 1952 outgoing messages responding to CX 54177",
+      "question": "Authorization, conditions, and implementation of South Korean POW reclassification"
+    },
+    {
+      "id": "lead-246-jcs916925",
+      "target": "US JCS telegram JCS 916925, 1952-08-26, FE files lot 55 D 128",
+      "question": "Exact airstrike authorization and 12-mile restrictions"
+    },
+    {
+      "id": "lead-247-meeting",
+      "target": "US State-JCS August 26 1952 meeting memorandum cited by FRUS 247",
+      "question": "Release/trial policy decision versus Allison recommendation"
+    },
+    {
+      "id": "lead-247-camp",
+      "target": "UNC and Embassy Tokyo/Pusan POW situation reports August 1952",
+      "question": "Resolve conflicting camp control assessments"
+    },
+    {
+      "id": "lead-245-rok",
+      "target": "ROK government August 1952 correspondence requesting release of South Korean prisoners",
+      "question": "Identify Korean officials proposing release and their authority"
+    },
+    {
+      "id": "lead-246-uk",
+      "target": "UK Foreign Office August 26-September 1 1952 Tomlinson correspondence",
+      "question": "Independent British record of warning and response"
+    },
+    {
+      "id": "lead-246-operations",
+      "target": "US Navy carrier Essex Boxer Princeton September 1 1952 operations reports",
+      "question": "Independently verify target, dates and execution"
+    },
+    {
+      "id": "lead-247-geneva",
+      "target": "ICRC 1949 Geneva Convention Articles 4 and 5 and 1952 correspondence",
+      "question": "Legal basis and competent tribunal practice"
+    }
+  ],
+  "scope": "American diplomatic provenance only; no Korean politician directly attributed by name; do not fabricate political nodes."
+}
