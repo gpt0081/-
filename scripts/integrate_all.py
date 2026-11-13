@@ -39,8 +39,8 @@ for t,items in records.items():
     for ident,versions in grouped.items():
         if len({json.dumps(v["data"],sort_keys=True,ensure_ascii=False) for v in versions})>1:
             conflicts.append({"type":t,"id":ident,"sources":[v["source"]["path"] for v in versions]})
-    (out/(t+".json")).write_text(json.dumps({"schemaVersion":1,"records":items},ensure_ascii=False,indent=2)+"\\n")
-(out/"sources.json").write_text(json.dumps({"sources":sources},ensure_ascii=False,indent=2)+"\\n")
+    (out/(t+".json")).write_text(json.dumps({"schemaVersion":1,"records":items},ensure_ascii=False,indent=2)+chr(10))
+(out/"sources.json").write_text(json.dumps({"sources":sources},ensure_ascii=False,indent=2)+chr(10))
 report={"sourceFiles":len(sources),"recordsByType":{k:len(v) for k,v in records.items()},"parseErrors":errors,"conflictingIds":conflicts,"status":"REVIEW_REQUIRED" if errors or conflicts else "INDEX_BUILT","warning":"Non-destructive integrated index, not a verified historical database."}
-(out/"report.json").write_text(json.dumps(report,ensure_ascii=False,indent=2)+"\\n")
+(out/"report.json").write_text(json.dumps(report,ensure_ascii=False,indent=2)+chr(10))
 print(json.dumps({k:v for k,v in report.items() if k not in ("parseErrors","conflictingIds")},ensure_ascii=False))
