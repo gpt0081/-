@@ -1,0 +1,188 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-11-13",
+  "scope": "July 1952 POW negotiations, item-level primary-origin registry overlay",
+  "documents": [
+    {
+      "id": "frus-1952-230",
+      "date": "1952-07-21",
+      "number": "CX 52284",
+      "sender": "Mark W. Clark",
+      "recipient": "Joint Chiefs of Staff",
+      "url": "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d230",
+      "summary": "Clark conditionally willing to explore supervised Communist persuasion of non-repatriates, flags coercion and security hazards, prefers prior alternative.",
+      "provenance": "US military telegram edited in FRUS"
+    },
+    {
+      "id": "frus-1952-231",
+      "date": "1952-07-23",
+      "number": "Telegram 426",
+      "sender": "US chargé Holmes, London",
+      "recipient": "US Department of State",
+      "url": "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d231",
+      "summary": "British reporting of Indian Kaul conversation with Chinese Chang Han-fu: insistence on return of all Chinese POWs and rejection of screening. Multiple diplomatic relays, not Chinese original.",
+      "provenance": "British diplomatic report relayed by US embassy, edited in FRUS"
+    },
+    {
+      "id": "frus-1952-232",
+      "date": "1952-07-25",
+      "number": "JCS 914523",
+      "sender": "Joint Chiefs of Staff",
+      "recipient": "Mark W. Clark",
+      "url": "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d232",
+      "summary": "US JCS-State permits return to open plenary talks and authorizes seven-day plenary recess with staff meetings continuing; advises avoiding Chinese/Korean numerical breakdown.",
+      "provenance": "US JCS-State telegram edited in FRUS"
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-1952-0721-clark-reindoctrination-response",
+      "date": "1952-07-21",
+      "proposed_by": [
+        "US Joint Chiefs of Staff"
+      ],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "observed_by": [
+        "Mark W. Clark"
+      ],
+      "legal_authority": [],
+      "later_finding": [],
+      "documents": [
+        "frus-1952-230"
+      ],
+      "status": "proposal-review-not-implementation"
+    },
+    {
+      "id": "evt-1952-0722-kaul-chang-meeting",
+      "date": "1952-07-22",
+      "proposed_by": [],
+      "decided_by": [],
+      "executed_by": [],
+      "opposed_by": [],
+      "observed_by": [
+        "Kaul",
+        "Chang Han-fu"
+      ],
+      "legal_authority": [],
+      "later_finding": [],
+      "documents": [
+        "frus-1952-231"
+      ],
+      "status": "reported-via-British-US-chain-date-to-verify"
+    },
+    {
+      "id": "evt-1952-0725-jcs-negotiation-directive",
+      "date": "1952-07-25",
+      "proposed_by": [],
+      "decided_by": [
+        "US JCS-State"
+      ],
+      "executed_by": [],
+      "opposed_by": [],
+      "observed_by": [
+        "Mark W. Clark"
+      ],
+      "legal_authority": [
+        "JCS command authority, scope to verify"
+      ],
+      "later_finding": [],
+      "documents": [
+        "frus-1952-232"
+      ],
+      "status": "directive-not-proof-of-execution"
+    }
+  ],
+  "claims": [
+    {
+      "id": "clm-1952-0721-clark-accepted-final-policy",
+      "statement": "Clark approved implementation of the reindoctrination plan",
+      "supporting": [],
+      "contradicting": [
+        "frus-1952-230"
+      ],
+      "insufficient": [
+        "frus-1952-230"
+      ],
+      "status": "OPEN",
+      "reason": "Conditional exploration and objections are not approval or execution"
+    },
+    {
+      "id": "clm-1952-0722-chinese-screening-rejection",
+      "statement": "Chang Han-fu communicated rejection of screening",
+      "supporting": [
+        "frus-1952-231"
+      ],
+      "contradicting": [],
+      "insufficient": [],
+      "status": "NARROWED",
+      "reason": "Multi-hop report requires Chinese or Indian original"
+    },
+    {
+      "id": "clm-1952-0725-seven-day-recess-executed",
+      "statement": "Seven-day plenary recess was executed",
+      "supporting": [],
+      "contradicting": [],
+      "insufficient": [
+        "frus-1952-232"
+      ],
+      "status": "OPEN",
+      "reason": "Authorization not execution"
+    }
+  ],
+  "leads": [
+    {
+      "id": "lead-1952-cx52493",
+      "target": "US NARA FE files lot 55 D 128 telegram C 52493 July 25",
+      "question": "Verify Harrison report of end of executive sessions"
+    },
+    {
+      "id": "lead-1952-cx52553",
+      "target": "US NARA FE files lot 55 D 128 telegram C 52553 July 25",
+      "question": "Verify substantive negotiation minutes and Communist initiative"
+    },
+    {
+      "id": "lead-1952-jcs913758",
+      "target": "US JCS telegram JCS 913758 July 17",
+      "question": "Compare Clark response to original proposal"
+    },
+    {
+      "id": "lead-1952-uk-highcommission",
+      "target": "UK National Archives Foreign Office UKHC Delhi telegram July 22 1952",
+      "question": "Verify Kaul-Chang exchange without US relay"
+    },
+    {
+      "id": "lead-1952-india-kaul",
+      "target": "National Archives of India MEA Kaul-Chang Han-fu July 1952 correspondence",
+      "question": "Obtain Indian firsthand report"
+    },
+    {
+      "id": "lead-1952-prc-chang",
+      "target": "PRC Foreign Ministry July 1952 Chang Han-fu meeting memorandum",
+      "question": "Check Chinese position in own words"
+    },
+    {
+      "id": "lead-1952-panm-0725",
+      "target": "UNC Panmunjom plenary and staff meeting minutes July 25-August 1 1952",
+      "question": "Determine if authorized seven-day recess occurred"
+    },
+    {
+      "id": "lead-1952-redcross-toronto",
+      "target": "International Red Cross Toronto conference proceedings July 26 1952",
+      "question": "Check public statements and POW numerical claims"
+    }
+  ],
+  "quality": {
+    "directDocuments": 3,
+    "officialContemporary": 3,
+    "independentProvenanceFamilies": 1,
+    "crossFamilyVerified": 0,
+    "adversarialSearchesCompleted": 0,
+    "politicianPromotions": 0,
+    "forestDomainsStrengthened": 1,
+    "weeklyFullDebtReview": false,
+    "consistency": "INTEGRATED_WITHIN_OVERLAY_ONLY",
+    "notes": "FRUS edited provenance, British/Indian content relayed inside it does not establish independent archival verification. No Korean politician promotion."
+  }
+}
