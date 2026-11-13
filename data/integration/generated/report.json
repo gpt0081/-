@@ -1,0 +1,6614 @@
+{
+  "sourceFiles": 2218,
+  "recordsByType": {
+    "documents": 4628,
+    "claims": 2104,
+    "events": 3885,
+    "politicians": 853,
+    "organizations": 76
+  },
+  "parseErrors": [],
+  "conflictingIds": [
+    {
+      "type": "documents",
+      "id": "DOC-FRUS-1952-XV1-181",
+      "sources": [
+        "data/documents/pass-229-1952-cabinet-economy-trial.json",
+        "data/research/graphs/2026-11-12-1916-frus181-182-overlay.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "DOC-FRUS-1952-XV1-182",
+      "sources": [
+        "data/documents/pass-229-1952-cabinet-economy-trial.json",
+        "data/research/graphs/2026-11-12-1916-frus181-182-overlay.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "DOC-P246-GAZ-388",
+      "sources": [
+        "data/documents/pass-246-1956-1960-law-and-identity.json",
+        "data/documents/pass-247e-1960-legal-text-crosswalk.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "DOC-P246-GAZ-551",
+      "sources": [
+        "data/documents/pass-246-1956-1960-law-and-identity.json",
+        "data/documents/pass-247e-1960-legal-text-crosswalk.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "DOC-P246-GAZ-552",
+      "sources": [
+        "data/documents/pass-246-1956-1960-law-and-identity.json",
+        "data/documents/pass-247e-1960-legal-text-crosswalk.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "DOC-P246-GAZ-557",
+      "sources": [
+        "data/documents/pass-246-1956-1960-law-and-identity.json",
+        "data/documents/pass-247e-1960-legal-text-crosswalk.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "DOC-P246-GAZ-563",
+      "sources": [
+        "data/documents/pass-246-1956-1960-law-and-identity.json",
+        "data/documents/pass-247e-1960-legal-text-crosswalk.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "DOC-P247D-NA-110",
+      "sources": [
+        "data/documents/pass-247d-korean-assembly-originals.json",
+        "data/documents/pass-247e-1960-legal-text-crosswalk.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "DOC-P247D-NA-120",
+      "sources": [
+        "data/documents/pass-247d-korean-assembly-originals.json",
+        "data/documents/pass-247e-1960-legal-text-crosswalk.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "DOC-P257R-NAK-AGENDA",
+      "sources": [
+        "data/documents/pass-257r-1954-policy-election-frus.json",
+        "data/research/primary-reads/pass-257v-2026-10-29.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "DOC-P257R-NAK-LITERACY",
+      "sources": [
+        "data/documents/pass-257r-1954-policy-election-frus.json",
+        "data/research/primary-reads/pass-257v-2026-10-29.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "DOC-P257R-NAK-TIMELINE",
+      "sources": [
+        "data/documents/pass-257r-1954-policy-election-frus.json",
+        "data/research/primary-reads/pass-257v-2026-10-29.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "DOC-P257V-NAK-CAB53",
+      "sources": [
+        "data/documents/pass-257v-1953-55-education-election-sources.json",
+        "data/research/primary-reads/pass-257v-2026-10-29.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "DOC-P257V-NAK-ORTH",
+      "sources": [
+        "data/documents/pass-257v-1953-55-education-election-sources.json",
+        "data/research/primary-reads/pass-257v-2026-10-29.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "DOC-P257V-NAK-BA53",
+      "sources": [
+        "data/documents/pass-257v-1953-55-education-election-sources.json",
+        "data/research/primary-reads/pass-257v-2026-10-29.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "DOC-P257V-NAK-BA54",
+      "sources": [
+        "data/documents/pass-257v-1953-55-education-election-sources.json",
+        "data/research/primary-reads/pass-257v-2026-10-29.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "DOC-P257V-MOE-MINISTERS",
+      "sources": [
+        "data/documents/pass-257v-1953-55-education-election-sources.json",
+        "data/research/primary-reads/pass-257v-2026-10-29.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "DOC-P257V-AKS-LEE",
+      "sources": [
+        "data/documents/pass-257v-1953-55-education-election-sources.json",
+        "data/research/primary-reads/pass-257v-2026-10-29.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "DOC-P257V-AKS-LITERACY",
+      "sources": [
+        "data/documents/pass-257v-1953-55-education-election-sources.json",
+        "data/research/primary-reads/pass-257v-2026-10-29.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "DOC-P257V-NAK-HANGUL",
+      "sources": [
+        "data/documents/pass-257v-1953-55-education-election-sources.json",
+        "data/research/primary-reads/pass-257v-2026-10-29.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "DOC-P257V-FRUS-893",
+      "sources": [
+        "data/documents/pass-257v-1953-55-education-election-sources.json",
+        "data/research/primary-reads/pass-257v-2026-10-29.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "DOC-P257V-FRUS-894",
+      "sources": [
+        "data/documents/pass-257v-1953-55-education-election-sources.json",
+        "data/research/primary-reads/pass-257v-2026-10-29.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "DOC-P257V-FRUS-979",
+      "sources": [
+        "data/documents/pass-257v-1953-55-education-election-sources.json",
+        "data/research/primary-reads/pass-257v-2026-10-29.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "DOC-P257V-NAK-CHOI-COURT",
+      "sources": [
+        "data/documents/pass-257v-1955-daegu-press-judicial-sources.json",
+        "data/research/primary-reads/pass-257v-2026-10-29.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "DOC-P257V-AKS-DAEGU",
+      "sources": [
+        "data/documents/pass-257v-1955-daegu-press-judicial-sources.json",
+        "data/research/primary-reads/pass-257v-2026-10-29.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "DOC-P257V-MAEIL-2004",
+      "sources": [
+        "data/documents/pass-257v-1955-daegu-press-judicial-sources.json",
+        "data/research/primary-reads/pass-257v-2026-10-29.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "DOC-P257V-MAEIL-2026",
+      "sources": [
+        "data/documents/pass-257v-1955-daegu-press-judicial-sources.json",
+        "data/research/primary-reads/pass-257v-2026-10-29.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "DOC-P257V-MAEIL-ARCHIVE",
+      "sources": [
+        "data/documents/pass-257v-1955-daegu-press-judicial-sources.json",
+        "data/research/primary-reads/pass-257v-2026-10-29.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "DOC-P257W-NEC-2010-ELECTIONS60",
+      "sources": [
+        "data/documents/pass-257w-1954-election-un-geneva-registry.json",
+        "data/research/primary-reads/pass-257w-2026-10-29.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "DOC-P257W-FRUS-GENEVA-D190",
+      "sources": [
+        "data/documents/pass-257w-1954-election-un-geneva-registry.json",
+        "data/research/primary-reads/pass-257w-2026-10-29.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "DOC-P257W-NIKH-1954-CONSTITUTION-OVERVIEW",
+      "sources": [
+        "data/documents/pass-257w-1954-election-un-geneva-registry.json",
+        "data/research/primary-reads/pass-257w-2026-10-29.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "DOC-P257W-NAK-1954-AMENDMENT-CABINET-EXHIBIT",
+      "sources": [
+        "data/documents/pass-257w2-1954-cabinet-industry-sources.json",
+        "data/research/primary-reads/pass-257w-2026-10-29.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "DOC-P257W-DONGA-2004-1954-EXPLOSIVES",
+      "sources": [
+        "data/documents/pass-257w2-1954-cabinet-industry-sources.json",
+        "data/research/primary-reads/pass-257w-2026-10-29.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "DOC-P257W-UN-A2711-PRIMARY",
+      "sources": [
+        "data/documents/pass-257w3-uncurk-1954-original.json",
+        "data/research/primary-reads/pass-257w-2026-10-29.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "DOC-P257W-AKS-YOON-KUN-JOONG",
+      "sources": [
+        "data/documents/pass-257w4-1954-minister-speech-secondary.json",
+        "data/research/primary-reads/pass-257w-2026-10-29.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "DOC-P257W-OHMY-APR6-APR8-REPRINT",
+      "sources": [
+        "data/documents/pass-257w4-1954-minister-speech-secondary.json",
+        "data/research/primary-reads/pass-257w-2026-10-29.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "doc-frus-1953-607",
+      "sources": [
+        "data/documents/pass301-documents.json",
+        "data/documents/pass303-documents.json",
+        "data/research/evidence/2026-10-04-rhee-frus-archives-crosscheck.json",
+        "data/research/evidence/2026-10-04-rhee-pass181-primary-crosscheck.json",
+        "data/research/rhee-syngman-2026-09-30-structured-delta.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "doc-frus-1953-609",
+      "sources": [
+        "data/documents/pass301-documents.json",
+        "data/documents/pass303-documents.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "doc-frus-1953-611",
+      "sources": [
+        "data/documents/pass301-documents.json",
+        "data/documents/pass303-documents.json",
+        "data/research/evidence/2026-10-04-rhee-frus-archives-crosscheck.json",
+        "data/research/evidence/2026-10-04-rhee-pass181-primary-crosscheck.json",
+        "data/research/rhee-syngman-2026-09-30-structured-delta.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "doc-frus-1953-741",
+      "sources": [
+        "data/documents/pass301-documents.json",
+        "data/documents/pass303-documents.json",
+        "data/research/rhee-syngman-2026-09-30-structured-delta.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "doc-frus-1958-260",
+      "sources": [
+        "data/documents/pass301-documents.json",
+        "data/evidence/pass-302-pow-dec24-expansion.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "doc-frus-1959-272",
+      "sources": [
+        "data/documents/pass301-documents.json",
+        "data/documents/pass303-documents.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "doc-frus-1953-606",
+      "sources": [
+        "data/documents/pass302-documents.json",
+        "data/research/evidence/2026-10-04-rhee-frus-archives-crosscheck.json",
+        "data/research/rhee-syngman-2026-09-30-structured-delta.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "doc-frus-1953-612",
+      "sources": [
+        "data/documents/pass302-documents.json",
+        "data/evidence/pass-302-pow-dec24-expansion.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "doc-frus-1953-614",
+      "sources": [
+        "data/documents/pass302-documents.json",
+        "data/evidence/pass-302-pow-dec24-expansion.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "doc-frus-1953-682",
+      "sources": [
+        "data/documents/pass302-documents.json",
+        "data/research/rhee-syngman-2026-09-30-structured-delta.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "doc-frus-1958-259",
+      "sources": [
+        "data/documents/pass302-documents.json",
+        "data/research/rhee-syngman-2026-09-30-structured-delta.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "doc-frus-1960-288",
+      "sources": [
+        "data/documents/pass302-documents.json",
+        "data/research/evidence/2026-10-04-rhee-frus-archives-crosscheck.json",
+        "data/research/rhee-syngman-2026-09-30-structured-delta.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "doc-frus-1953-630",
+      "sources": [
+        "data/documents/pass303-documents.json",
+        "data/research/rhee-syngman-2026-09-30-structured-delta.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "FRUS-XV2-d651",
+      "sources": [
+        "data/documents/pass318-rhee-documents.json",
+        "data/documents/run52-robertson-negotiation-documents.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "FRUS-XV2-d656",
+      "sources": [
+        "data/documents/pass318-rhee-documents.json",
+        "data/documents/run52-robertson-negotiation-documents.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "doc-frus-1960-election-preassessment",
+      "sources": [
+        "data/documents/run11-rhee-statecraft-documents.json",
+        "data/documents/run11b-1960-crisis-documents.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "doc-frus-1960-election-field",
+      "sources": [
+        "data/documents/run11-rhee-statecraft-documents.json",
+        "data/documents/run11b-1960-crisis-documents.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "doc-frus-1960-resignation",
+      "sources": [
+        "data/documents/run11-rhee-statecraft-documents.json",
+        "data/documents/run11b-1960-crisis-documents.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "doc-na-315-investigation-overview",
+      "sources": [
+        "data/documents/run14-419-firing-accountability.json",
+        "data/documents/run77-315-command-chain.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "FRUS-XV2-d630",
+      "sources": [
+        "data/documents/run30-rhee-command-documents.json",
+        "data/documents/run50-pow-armistice-frus.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "doc-frus-1952-d138",
+      "sources": [
+        "data/documents/run36-1952-pusan-adversarial-followup.json",
+        "data/documents/weekly-history-debt-documents-2026-10-04.json",
+        "data/research/evidence/pass-235-so-min-ho-assembly-coercion.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "doc-frus-1952-d149",
+      "sources": [
+        "data/documents/run36-1952-pusan-adversarial-followup.json",
+        "data/research/candidates/pass-275-cabinet-dissolution-and-intervention-chain.json",
+        "data/research/evidence/pass-235-so-min-ho-assembly-coercion.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "doc-frus-1952-d159",
+      "sources": [
+        "data/documents/run36-1952-pusan-adversarial-followup.json",
+        "data/research/candidates/pass-275-cabinet-dissolution-and-intervention-chain.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "doc-frus-1952-d178",
+      "sources": [
+        "data/documents/run36-1952-pusan-adversarial-followup.json",
+        "data/research/candidates/pass-277-july2-15-compromise-amendment.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "doc-frus-1952-d190",
+      "sources": [
+        "data/documents/run36-1952-pusan-adversarial-followup.json",
+        "data/research/candidates/pass-276-june14-25-crisis-continuation.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "doc-frus-1952-d215",
+      "sources": [
+        "data/documents/run36-1952-pusan-adversarial-followup.json",
+        "data/research/candidates/pass-277-july2-15-compromise-amendment.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "doc-frus-1952-d158",
+      "sources": [
+        "data/documents/run37-1952-pusan-command-compromise.json",
+        "data/research/candidates/pass-275-cabinet-dissolution-and-intervention-chain.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "doc-frus-1952-d163",
+      "sources": [
+        "data/documents/run37-1952-pusan-command-compromise.json",
+        "data/research/candidates/pass-275-cabinet-dissolution-and-intervention-chain.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "doc-frus-1952-d166",
+      "sources": [
+        "data/documents/run37-1952-pusan-command-compromise.json",
+        "data/research/candidates/pass-275-cabinet-dissolution-and-intervention-chain.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "doc-frus-1952-d167",
+      "sources": [
+        "data/documents/run37-1952-pusan-command-compromise.json",
+        "data/research/candidates/pass-275-cabinet-dissolution-and-intervention-chain.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "doc-frus-1952-d182",
+      "sources": [
+        "data/documents/run37-1952-pusan-command-compromise.json",
+        "data/research/candidates/pass-276-june14-25-crisis-continuation.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "doc-frus-1952-d206",
+      "sources": [
+        "data/documents/run37-1952-pusan-command-compromise.json",
+        "data/documents/weekly-history-debt-documents-2026-10-04.json",
+        "data/research/candidates/pass-277-july2-15-compromise-amendment.json",
+        "data/research/evidence/pass-235-so-min-ho-assembly-coercion.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "FRUS-XV2-d746",
+      "sources": [
+        "data/documents/run53-postarmistice-frus-734-779.json",
+        "data/research/candidates/pass-70-political-conference-actors.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "FRUS-XV2-d747",
+      "sources": [
+        "data/documents/run53-postarmistice-frus-734-779.json",
+        "data/research/candidates/pass-70-political-conference-actors.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "FRUS-XV2-d748",
+      "sources": [
+        "data/documents/run53-postarmistice-frus-734-779.json",
+        "data/research/candidates/pass-70-political-conference-actors.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "FRUS-XV2-d749",
+      "sources": [
+        "data/documents/run53-postarmistice-frus-734-779.json",
+        "data/research/candidates/pass-70-political-conference-actors.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "FRUS-XV2-d750",
+      "sources": [
+        "data/documents/run53-postarmistice-frus-734-779.json",
+        "data/research/candidates/pass-70-political-conference-actors.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "FRUS-XV2-d751",
+      "sources": [
+        "data/documents/run53-postarmistice-frus-734-779.json",
+        "data/research/candidates/pass-70-political-conference-actors.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "FRUS-XV2-d752",
+      "sources": [
+        "data/documents/run53-postarmistice-frus-734-779.json",
+        "data/research/candidates/pass-70-political-conference-actors.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "FRUS-XV2-d753",
+      "sources": [
+        "data/documents/run53-postarmistice-frus-734-779.json",
+        "data/research/candidates/pass-70-political-conference-actors.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "FRUS-XV2-d754",
+      "sources": [
+        "data/documents/run53-postarmistice-frus-734-779.json",
+        "data/research/candidates/pass-70-political-conference-actors.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "FRUS-XV2-d755",
+      "sources": [
+        "data/documents/run53-postarmistice-frus-734-779.json",
+        "data/research/candidates/pass-70-political-conference-actors.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "doc-khdb-constitutional-local-autonomy",
+      "sources": [
+        "data/evidence/pass-302-pow-dec24-expansion.json",
+        "data/evidence/pass-304-local-autonomy-dec24.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "UN-A-RES-711-VII-A",
+      "sources": [
+        "data/research/candidates/pass-71-un-primary-record-actors.json",
+        "data/research/candidates/pass-72-un-resolution-lineage.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "UN-A-RES-711-VII-B",
+      "sources": [
+        "data/research/candidates/pass-71-un-primary-record-actors.json",
+        "data/research/candidates/pass-72-un-resolution-lineage.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "UN-A-RES-711-VII-C",
+      "sources": [
+        "data/research/candidates/pass-71-un-primary-record-actors.json",
+        "data/research/candidates/pass-72-un-resolution-lineage.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "NIKH-le-005-1720",
+      "sources": [
+        "data/research/candidates/pass-73-korean-un-diplomacy-actors.json",
+        "data/research/candidates/pass-75-korean-actor-breadth.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "doc-nikh-dh-012-1949-06-06-0050",
+      "sources": [
+        "data/research/events/pass-155-rhee-special-committee-events.json",
+        "data/research/events/pass-156-rhee-special-committee-aftermath-events.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "doc-nikh-dh-012-1949-06-07-0030",
+      "sources": [
+        "data/research/events/pass-155-rhee-special-committee-events.json",
+        "data/research/events/pass-156-rhee-special-committee-aftermath-events.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "doc-frus-1949-304",
+      "sources": [
+        "data/research/evidence/2026-10-04-rhee-frus-archives-crosscheck.json",
+        "data/research/evidence/2026-10-04-rhee-pass181-primary-crosscheck.json",
+        "data/research/rhee-cross-domain-evidence-2026-10-06.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "doc-frus-1952-138",
+      "sources": [
+        "data/research/evidence/2026-10-04-rhee-frus-archives-crosscheck.json",
+        "data/research/evidence/2026-10-04-rhee-pass181-primary-crosscheck.json",
+        "data/research/rhee-cross-domain-evidence-2026-10-06.json",
+        "data/research/rhee-syngman-2026-09-30-structured-delta.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "doc-frus-1956-146",
+      "sources": [
+        "data/research/evidence/2026-10-04-rhee-frus-archives-crosscheck.json",
+        "data/research/evidence/2026-10-04-rhee-pass181-primary-crosscheck.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "doc-frus-1960-310",
+      "sources": [
+        "data/research/evidence/2026-10-04-rhee-frus-archives-crosscheck.json",
+        "data/research/rhee-syngman-2026-09-30-structured-delta.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "DOC-NIKH-DH-19520524-LEE-BEOMSEOK-INTERIOR",
+      "sources": [
+        "data/research/evidence/pass-228-jang-seok-yun-transition-and-assassination-warning.json",
+        "data/research/evidence/pass-229-jang-seok-yun-may23-attribution.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "DOC-FRUS-19520524-MARTIAL-LAW-EDITORIAL",
+      "sources": [
+        "data/research/evidence/pass-230-yun-u-gyeong-command-boundary.json",
+        "data/research/evidence/pass-231-yun-u-gyeong-chronology-unit-correction.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "DOC-AKS-YUN-U-GYEONG",
+      "sources": [
+        "data/research/evidence/pass-230-yun-u-gyeong-command-boundary.json",
+        "data/research/evidence/pass-231-yun-u-gyeong-chronology-unit-correction.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "FRUS:1958-60v18-d288",
+      "sources": [
+        "data/research/evidence/pass-280-pow-economic-security-crosscheck.json",
+        "data/research/passes/pass-281-economic-reconstruction-press-control.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "doc-nikh-timeline-19590227",
+      "sources": [
+        "data/research/evidence/pass-285-jinbo-primary-record-index.json",
+        "data/research/evidence/pass-286-jinbo-trial-provenance-audit.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "doc-frus-1952-v15p1-267",
+      "sources": [
+        "data/research/graphs/2026-11-13-2324-frus267-269-overlay.json",
+        "data/research/registry/1952-september-frus264-269-index.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "doc-frus-1952-v15p1-268",
+      "sources": [
+        "data/research/graphs/2026-11-13-2324-frus267-269-overlay.json",
+        "data/research/registry/1952-september-frus264-269-index.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "doc-frus-1952-v15p1-269",
+      "sources": [
+        "data/research/graphs/2026-11-13-2324-frus267-269-overlay.json",
+        "data/research/registry/1952-september-frus264-269-index.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "frus-1953-607",
+      "sources": [
+        "data/research/run38_land_reform_armistice_reconstruction_ledger.json",
+        "data/research/run39_pow_release_command_chain_ledger.json",
+        "data/research/run40_pow_release_residual_control_ledger.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "frus-1953-609",
+      "sources": [
+        "data/research/run38_land_reform_armistice_reconstruction_ledger.json",
+        "data/research/run39_pow_release_command_chain_ledger.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "frus-1953-611",
+      "sources": [
+        "data/research/run38_land_reform_armistice_reconstruction_ledger.json",
+        "data/research/run40_pow_release_residual_control_ledger.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "frus-1953-612",
+      "sources": [
+        "data/research/run38_land_reform_armistice_reconstruction_ledger.json",
+        "data/research/run39_pow_release_command_chain_ledger.json",
+        "data/research/run40_pow_release_residual_control_ledger.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "frus-1953-613",
+      "sources": [
+        "data/research/run38_land_reform_armistice_reconstruction_ledger.json",
+        "data/research/run39_pow_release_command_chain_ledger.json",
+        "data/research/run40_pow_release_residual_control_ledger.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "frus-1953-614",
+      "sources": [
+        "data/research/run38_land_reform_armistice_reconstruction_ledger.json",
+        "data/research/run39_pow_release_command_chain_ledger.json",
+        "data/research/run40_pow_release_residual_control_ledger.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "frus-1953-616",
+      "sources": [
+        "data/research/run38_land_reform_armistice_reconstruction_ledger.json",
+        "data/research/run40_pow_release_residual_control_ledger.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "khd-dh-029-1953-06-18-0080",
+      "sources": [
+        "data/research/run39_pow_release_command_chain_ledger.json",
+        "data/research/run40_pow_release_residual_control_ledger.json"
+      ]
+    },
+    {
+      "type": "claims",
+      "id": "claim-1951-cabinet-renamed-jurisdiction-to-protection-zone",
+      "sources": [
+        "data/research/candidates/pass-100-peace-line-access-blockers.json",
+        "data/research/candidates/pass-99-peace-line-1951-chain.json"
+      ]
+    },
+    {
+      "type": "claims",
+      "id": "claim-ji-cheol-geun-1951-drafter",
+      "sources": [
+        "data/research/candidates/pass-100-peace-line-access-blockers.json",
+        "data/research/candidates/pass-99-peace-line-1951-chain.json"
+      ]
+    },
+    {
+      "type": "claims",
+      "id": "claim-kim-dong-jo-dokdo-inclusion",
+      "sources": [
+        "data/research/candidates/pass-100-peace-line-access-blockers.json",
+        "data/research/candidates/pass-99-peace-line-1951-chain.json"
+      ]
+    },
+    {
+      "type": "claims",
+      "id": "CLM-KIB-KDB-GOVERNOR-STATUTORY-LIQUIDATOR-1954",
+      "sources": [
+        "data/research/candidates/pass-89-kdb-founding-liquidator-authority.json",
+        "data/research/candidates/pass-90-kib-liquidation-governance.json"
+      ]
+    },
+    {
+      "type": "claims",
+      "id": "claim-ji-cheol-geun-drafting-role",
+      "sources": [
+        "data/research/candidates/pass-97-peace-line-provenance-actors.json",
+        "data/research/candidates/pass-98-peace-line-gazette-actors.json"
+      ]
+    },
+    {
+      "type": "claims",
+      "id": "clm-p205-education-multiactor",
+      "sources": [
+        "data/research/claims/2026-10-04-pass205-education-local-autonomy-claims.json",
+        "data/research/evidence/2026-10-04-rhee-pass205-education-local-autonomy.json"
+      ]
+    },
+    {
+      "type": "claims",
+      "id": "clm-p205-compulsory-gap",
+      "sources": [
+        "data/research/claims/2026-10-04-pass205-education-local-autonomy-claims.json",
+        "data/research/evidence/2026-10-04-rhee-pass205-education-local-autonomy.json"
+      ]
+    },
+    {
+      "type": "claims",
+      "id": "clm-p205-local-reconsideration",
+      "sources": [
+        "data/research/claims/2026-10-04-pass205-education-local-autonomy-claims.json",
+        "data/research/evidence/2026-10-04-rhee-pass205-education-local-autonomy.json"
+      ]
+    },
+    {
+      "type": "claims",
+      "id": "clm-p205-local-not-linear-democratization",
+      "sources": [
+        "data/research/claims/2026-10-04-pass205-education-local-autonomy-claims.json",
+        "data/research/evidence/2026-10-04-rhee-pass205-education-local-autonomy.json"
+      ]
+    },
+    {
+      "type": "claims",
+      "id": "clm-p205-rhee-direct-order-education",
+      "sources": [
+        "data/research/claims/2026-10-04-pass205-education-local-autonomy-claims.json",
+        "data/research/evidence/2026-10-04-rhee-pass205-education-local-autonomy.json"
+      ]
+    },
+    {
+      "type": "claims",
+      "id": "clm-p205-election-fairness",
+      "sources": [
+        "data/research/claims/2026-10-04-pass205-education-local-autonomy-claims.json",
+        "data/research/evidence/2026-10-04-rhee-pass205-education-local-autonomy.json"
+      ]
+    },
+    {
+      "type": "claims",
+      "id": "CLM-JSY-EXCERPT-AMENDMENT-LEADERSHIP",
+      "sources": [
+        "data/research/evidence/pass-228-jang-seok-yun-transition-and-assassination-warning.json",
+        "data/research/evidence/pass-229-jang-seok-yun-may23-attribution.json"
+      ]
+    },
+    {
+      "type": "claims",
+      "id": "CLM-POLICE-COERCED-QUORUM-19520702",
+      "sources": [
+        "data/research/evidence/pass-241-june-crisis-diplomatic-pressure-audit.json",
+        "data/research/evidence/pass-242-pusan-crisis-primary-source-expansion.json"
+      ]
+    },
+    {
+      "type": "claims",
+      "id": "CLM-AMENDMENT-VOTE-19520704",
+      "sources": [
+        "data/research/evidence/pass-241-june-crisis-diplomatic-pressure-audit.json",
+        "data/research/evidence/pass-242-pusan-crisis-primary-source-expansion.json"
+      ]
+    },
+    {
+      "type": "claims",
+      "id": "claim-19520908-truman-statement-not-yet-approved",
+      "sources": [
+        "data/research/graphs/2026-11-13-2220-frus264-266-overlay.json",
+        "data/research/registry/1952-september-frus264-269-index.json"
+      ]
+    },
+    {
+      "type": "claims",
+      "id": "claim-19520911-lie-eden-meeting",
+      "sources": [
+        "data/research/graphs/2026-11-13-2220-frus264-266-overlay.json",
+        "data/research/registry/1952-september-frus264-269-index.json"
+      ]
+    },
+    {
+      "type": "claims",
+      "id": "claim-19520910-total-embargo-adopted",
+      "sources": [
+        "data/research/graphs/2026-11-13-2220-frus264-266-overlay.json",
+        "data/research/registry/1952-september-frus264-269-index.json"
+      ]
+    },
+    {
+      "type": "claims",
+      "id": "clm-1952-truman-statement-not-issued-as-proposed",
+      "sources": [
+        "data/research/graphs/2026-11-13-2324-frus267-269-overlay.json",
+        "data/research/registry/1952-september-frus264-269-index.json"
+      ]
+    },
+    {
+      "type": "claims",
+      "id": "clm-1952-rhee-currency-loan-300m",
+      "sources": [
+        "data/research/graphs/2026-11-13-2324-frus267-269-overlay.json",
+        "data/research/registry/1952-september-frus264-269-index.json"
+      ]
+    },
+    {
+      "type": "claims",
+      "id": "clm-1952-clark-air-pressure-effect",
+      "sources": [
+        "data/research/graphs/2026-11-13-2324-frus267-269-overlay.json",
+        "data/research/registry/1952-september-frus264-269-index.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p232-0902-cabinet-amendment",
+      "sources": [
+        "data/events/pass-232-1952-september-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p232-0916-governors",
+      "sources": [
+        "data/events/pass-232-1952-september-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p232-0917-reconstruction-bonds",
+      "sources": [
+        "data/events/pass-232-1952-september-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p232-0917-fertilizer",
+      "sources": [
+        "data/events/pass-232-1952-september-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p232-0917-relief-grain-control",
+      "sources": [
+        "data/events/pass-232-1952-september-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p232-0917-monopoly-price",
+      "sources": [
+        "data/events/pass-232-1952-september-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p232-0917-government-rice",
+      "sources": [
+        "data/events/pass-232-1952-september-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p232-0917-election-law-draft",
+      "sources": [
+        "data/events/pass-232-1952-september-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p232-0917-cooperative-policy",
+      "sources": [
+        "data/events/pass-232-1952-september-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p232-0917-industry-survey",
+      "sources": [
+        "data/events/pass-232-1952-september-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p232-0917-japanese-korean-delegation",
+      "sources": [
+        "data/events/pass-232-1952-september-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p232-0917-party-sketches",
+      "sources": [
+        "data/events/pass-232-1952-september-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p232-0918-interior-police",
+      "sources": [
+        "data/events/pass-232-1952-september-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p232-0918-disabled-veterans",
+      "sources": [
+        "data/events/pass-232-1952-september-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p232-0918-reimbursement-split",
+      "sources": [
+        "data/events/pass-232-1952-september-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p232-0918-party-merger",
+      "sources": [
+        "data/events/pass-232-1952-september-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p232-0919-gatt-intent",
+      "sources": [
+        "data/events/pass-232-1952-september-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p232-0912-japanese-fishing-seizure",
+      "sources": [
+        "data/events/pass-232-1952-september-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p232-0919-bank-policy",
+      "sources": [
+        "data/events/pass-232-1952-september-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p232-0919-opposition-talks",
+      "sources": [
+        "data/events/pass-232-1952-september-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p232-0917-exchange-oir",
+      "sources": [
+        "data/events/pass-232-1952-september-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p232-0917-finance-critique",
+      "sources": [
+        "data/events/pass-232-1952-september-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p232-0919-unc-foreign-policy",
+      "sources": [
+        "data/events/pass-232-1952-september-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p232-0928-industrial-bond-laws",
+      "sources": [
+        "data/events/pass-232-1952-september-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p232-1954-first-industrial-bond-issue",
+      "sources": [
+        "data/events/pass-232-1952-september-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p232-1952-feb-gatt-report",
+      "sources": [
+        "data/events/pass-232-1952-september-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p233-1017-uncurk",
+      "sources": [
+        "data/events/pass-233-1952-un-diplomacy-reconstruction.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p233-1017-un-admission",
+      "sources": [
+        "data/events/pass-233-1952-un-diplomacy-reconstruction.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p233-1017-security-pact",
+      "sources": [
+        "data/events/pass-233-1952-un-diplomacy-reconstruction.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p233-1103-defense-policy",
+      "sources": [
+        "data/events/pass-233-1952-un-diplomacy-reconstruction.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p233-1105-pyun-un",
+      "sources": [
+        "data/events/pass-233-1952-un-diplomacy-reconstruction.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p233-1107-won-payment",
+      "sources": [
+        "data/events/pass-233-1952-un-diplomacy-reconstruction.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p233-1110-coup-rumor",
+      "sources": [
+        "data/events/pass-233-1952-un-diplomacy-reconstruction.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p233-1110-unkra-plan",
+      "sources": [
+        "data/events/pass-233-1952-un-diplomacy-reconstruction.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p233-1114-menon-draft",
+      "sources": [
+        "data/events/pass-233-1952-un-diplomacy-reconstruction.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p233-1115-jcs-conditions",
+      "sources": [
+        "data/events/pass-233-1952-un-diplomacy-reconstruction.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p233-1119-allied-dissent",
+      "sources": [
+        "data/events/pass-233-1952-un-diplomacy-reconstruction.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p233-1203-un-resolution",
+      "sources": [
+        "data/events/pass-233-1952-un-diplomacy-reconstruction.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p233-add-bond-redemption",
+      "sources": [
+        "data/events/pass-233-addendum-1952-domestic-state.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p233-add-property-import",
+      "sources": [
+        "data/events/pass-233-addendum-1952-domestic-state.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p233-add-opposition-convention",
+      "sources": [
+        "data/events/pass-233-addendum-1952-domestic-state.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p233-add-relief-population",
+      "sources": [
+        "data/events/pass-233-addendum-1952-domestic-state.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p233-add-seoul-protest",
+      "sources": [
+        "data/events/pass-233-addendum-1952-domestic-state.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p233-add-rhee-maritime-letter",
+      "sources": [
+        "data/events/pass-233-addendum-1952-domestic-state.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p233-add-rhee-lim-media",
+      "sources": [
+        "data/events/pass-233-addendum-1952-domestic-state.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p233-add-kim-japan-statement",
+      "sources": [
+        "data/events/pass-233-addendum-1952-domestic-state.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p233-add-japan-us-zone-note",
+      "sources": [
+        "data/events/pass-233-addendum-1952-domestic-state.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p233-add-rhee-parliament-agenda",
+      "sources": [
+        "data/events/pass-233-addendum-1952-domestic-state.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p233-add-tax-confiscation",
+      "sources": [
+        "data/events/pass-233-addendum-1952-domestic-state.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p233-add-rhee-japan-economic-memo",
+      "sources": [
+        "data/events/pass-233-addendum-1952-domestic-state.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p233-add-rok-ships-unc",
+      "sources": [
+        "data/events/pass-233-addendum-1952-domestic-state.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p233-add-japanese-repatriation",
+      "sources": [
+        "data/events/pass-233-addendum-1952-domestic-state.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p233-add-lee-gap-seong-nomination",
+      "sources": [
+        "data/events/pass-233-addendum-1952-domestic-state.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p233-add-grain-supply",
+      "sources": [
+        "data/events/pass-233-addendum-1952-domestic-state.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p233-add-disaster-relief",
+      "sources": [
+        "data/events/pass-233-addendum-1952-domestic-state.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p233-dec01-unkra-notification",
+      "sources": [
+        "data/events/pass-233-dec1-unkra-rok-confirmation.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p233-dec01-unkra-rok-liaisons",
+      "sources": [
+        "data/events/pass-233-dec1-unkra-rok-confirmation.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p233-follow-unkra-approval",
+      "sources": [
+        "data/events/pass-233-followup-un-japan-crossprovenance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p233-follow-uncurk-publication",
+      "sources": [
+        "data/events/pass-233-followup-un-japan-crossprovenance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p233-follow-1952-jp-protest",
+      "sources": [
+        "data/events/pass-233-followup-un-japan-crossprovenance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p233-follow-us-note187",
+      "sources": [
+        "data/events/pass-233-followup-un-japan-crossprovenance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p233-follow-uncurk-un-debate",
+      "sources": [
+        "data/events/pass-233-followup-un-japan-crossprovenance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p234-1201-rhee-economic",
+      "sources": [
+        "data/events/pass-234-1952-dec-state-finance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p234-1201-finance-plans",
+      "sources": [
+        "data/events/pass-234-1952-dec-state-finance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p234-1201-farm-bank",
+      "sources": [
+        "data/events/pass-234-1952-dec-state-finance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p234-1201-education-directive",
+      "sources": [
+        "data/events/pass-234-1952-dec-state-finance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p234-1201-supplementary",
+      "sources": [
+        "data/events/pass-234-1952-dec-state-finance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p234-1201-tax-bills",
+      "sources": [
+        "data/events/pass-234-1952-dec-state-finance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p234-1201-farm-levies",
+      "sources": [
+        "data/events/pass-234-1952-dec-state-finance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p234-1201-burlap-loan",
+      "sources": [
+        "data/events/pass-234-1952-dec-state-finance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p234-1201-war-crimes-petition",
+      "sources": [
+        "data/events/pass-234-1952-dec-state-finance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p234-1201-refugee-relief",
+      "sources": [
+        "data/events/pass-234-1952-dec-state-finance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p234-1211-fy1953-budget",
+      "sources": [
+        "data/events/pass-234-1952-dec-state-finance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p234-1953-won-settlement",
+      "sources": [
+        "data/events/pass-234-1952-dec-state-finance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p234-1953-seoul-return",
+      "sources": [
+        "data/events/pass-234-1952-dec-state-finance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p234-1953-manchuria-air",
+      "sources": [
+        "data/events/pass-234-1952-dec-state-finance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p234c-1950-icrc-symbolic",
+      "sources": [
+        "data/events/pass-234-addendum-1950-icrc-un-1952.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p234c-1952-un-pongam-411",
+      "sources": [
+        "data/events/pass-234-addendum-1950-icrc-un-1952.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p234c-1966-rok-gciii-accession",
+      "sources": [
+        "data/events/pass-234-addendum-1950-icrc-un-1952.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p234b-1211-jin-statement",
+      "sources": [
+        "data/events/pass-234-addendum-1952-dec-11-15.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p234b-1211-forex-import",
+      "sources": [
+        "data/events/pass-234-addendum-1952-dec-11-15.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p234b-1211-tungsten-trial",
+      "sources": [
+        "data/events/pass-234-addendum-1952-dec-11-15.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p234b-1211-busan-fire",
+      "sources": [
+        "data/events/pass-234-addendum-1952-dec-11-15.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p234b-1211-seoul-relief-fees",
+      "sources": [
+        "data/events/pass-234-addendum-1952-dec-11-15.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p234b-1212-bruce-un",
+      "sources": [
+        "data/events/pass-234-addendum-1952-dec-11-15.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p234b-1212-pow-propaganda",
+      "sources": [
+        "data/events/pass-234-addendum-1952-dec-11-15.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p234b-1212-paik-ministry",
+      "sources": [
+        "data/events/pass-234-addendum-1952-dec-11-15.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p234b-1212-welfare-audit",
+      "sources": [
+        "data/events/pass-234-addendum-1952-dec-11-15.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p234b-1212-urea-quota",
+      "sources": [
+        "data/events/pass-234-addendum-1952-dec-11-15.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p234b-1215-bongam",
+      "sources": [
+        "data/events/pass-234-addendum-1952-dec-11-15.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p234b-1215-prime-minister",
+      "sources": [
+        "data/events/pass-234-addendum-1952-dec-11-15.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p234b-1215-civil-allowance",
+      "sources": [
+        "data/events/pass-234-addendum-1952-dec-11-15.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p234b-1215-liberty-party",
+      "sources": [
+        "data/events/pass-234-addendum-1952-dec-11-15.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p234b-1215-relief-corruption",
+      "sources": [
+        "data/events/pass-234-addendum-1952-dec-11-15.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p234b-1215-rice-supply",
+      "sources": [
+        "data/events/pass-234-addendum-1952-dec-11-15.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p234b-1215-farmer-federation",
+      "sources": [
+        "data/events/pass-234-addendum-1952-dec-11-15.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p234b-1215-vested-property",
+      "sources": [
+        "data/events/pass-234-addendum-1952-dec-11-15.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p234b-1215-gyeongbuk-tb",
+      "sources": [
+        "data/events/pass-234-addendum-1952-dec-11-15.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p234b-1215-seoul-police-fees",
+      "sources": [
+        "data/events/pass-234-addendum-1952-dec-11-15.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p234b-1215-daegu-theater",
+      "sources": [
+        "data/events/pass-234-addendum-1952-dec-11-15.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p234b-1211-us-transition",
+      "sources": [
+        "data/events/pass-234-addendum-1952-dec-11-15.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p234b-1211-japan-fisheries",
+      "sources": [
+        "data/events/pass-234-addendum-1952-dec-11-15.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p234b-1212-pacific-pact",
+      "sources": [
+        "data/events/pass-234-addendum-1952-dec-11-15.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p234b-1215-cia-threat",
+      "sources": [
+        "data/events/pass-234-addendum-1952-dec-11-15.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p234b-1215-un-debate",
+      "sources": [
+        "data/events/pass-234-addendum-1952-dec-11-15.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p234b-1215-macarthur-plan",
+      "sources": [
+        "data/events/pass-234-addendum-1952-dec-11-15.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p234d-1953-rhee-wage-rice",
+      "sources": [
+        "data/events/pass-234-addendum-d-1952-1955-economic.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p234d-1955-reconstruction-ministry",
+      "sources": [
+        "data/events/pass-234-addendum-d-1952-1955-economic.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p236-labor-1953-04-20-commission-decree",
+      "sources": [
+        "data/events/pass-236-labor-laws.json",
+        "data/events.json",
+        "data/evidence/park-sul-eum.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-1951-national-defense-corps",
+      "sources": [
+        "data/events/pass-236-legacy-command-backfill.json",
+        "data/events.json",
+        "data/research/runs/2026-10-03-run10-rhee-institutional-debt-sweep.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-1951-geochang",
+      "sources": [
+        "data/events/pass-236-legacy-command-backfill.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-1950-han-river-bridge",
+      "sources": [
+        "data/events/pass-236-legacy-command-backfill.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p238-1953-05-08-pow-india",
+      "sources": [
+        "data/events/pass-238-may-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p238-1953-05-09-jcs-terms",
+      "sources": [
+        "data/events/pass-238-may-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p238-1953-05-12-choi-delay",
+      "sources": [
+        "data/events/pass-238-may-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p238-1953-05-13-defense",
+      "sources": [
+        "data/events/pass-238-may-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p238-1953-05-14-dam-plan",
+      "sources": [
+        "data/events/pass-238-may-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p238-1953-05-15-rhee-draft",
+      "sources": [
+        "data/events/pass-238-may-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p238-1953-05-18-pow-reversal",
+      "sources": [
+        "data/events/pass-238-may-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p238-1953-05-19-allies",
+      "sources": [
+        "data/events/pass-238-may-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p238-1953-05-19-tasca-budget",
+      "sources": [
+        "data/events/pass-238-may-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p238-1953-04-03-agri-directive",
+      "sources": [
+        "data/events/pass-238-may-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p238-1953-05-22-final",
+      "sources": [
+        "data/events/pass-238-may-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p238-1953-05-25-rhee-pyun",
+      "sources": [
+        "data/events/pass-238-may-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p238-1953-05-25-camp-guards",
+      "sources": [
+        "data/events/pass-238-may-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p238c-1953-05-05-textbooks",
+      "sources": [
+        "data/events/pass-238-may-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p238c-1953-05-05-immigration",
+      "sources": [
+        "data/events/pass-238-may-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p238c-1953-05-25-rok-cabinet",
+      "sources": [
+        "data/events/pass-238-may-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p238c-1953-05-25-credit",
+      "sources": [
+        "data/events/pass-238-may-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p238c-1953-05-25-coldship",
+      "sources": [
+        "data/events/pass-238-may-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p238c-1953-05-25-seo-trial",
+      "sources": [
+        "data/events/pass-238-may-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p238c-1953-05-27-assembly-harrison",
+      "sources": [
+        "data/events/pass-238-may-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p238c-1953-05-27-choi-letter",
+      "sources": [
+        "data/events/pass-238-may-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p238c-1953-05-27-relief-dispute",
+      "sources": [
+        "data/events/pass-238-may-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p238c-1953-05-27-housing",
+      "sources": [
+        "data/events/pass-238-may-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p238c-1953-05-27-kim-death",
+      "sources": [
+        "data/events/pass-238-may-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p238c-1953-05-27-gold",
+      "sources": [
+        "data/events/pass-238-may-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p238e-1953-05-06-village-election",
+      "sources": [
+        "data/events/pass-238-may-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p238e-1953-05-06-press-acquittal",
+      "sources": [
+        "data/events/pass-238-may-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p238e-1953-05-07-labor-law",
+      "sources": [
+        "data/events/pass-238-may-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p238e-1953-05-07-rail-plan",
+      "sources": [
+        "data/events/pass-238-may-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p238e-1953-05-08-bond",
+      "sources": [
+        "data/events/pass-238-may-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p238e-1953-05-08-farmers",
+      "sources": [
+        "data/events/pass-238-may-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p238e-1953-05-09-party",
+      "sources": [
+        "data/events/pass-238-may-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p238e-1953-05-09-orthography",
+      "sources": [
+        "data/events/pass-238-may-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p238e-1953-05-10-industry",
+      "sources": [
+        "data/events/pass-238-may-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p238e-1953-05-10-teacher",
+      "sources": [
+        "data/events/pass-238-may-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p238e-1953-05-11-veterans",
+      "sources": [
+        "data/events/pass-238-may-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p238e-1953-05-12-agriculture",
+      "sources": [
+        "data/events/pass-238-may-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p238e-1953-05-12-land-loan",
+      "sources": [
+        "data/events/pass-238-may-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p238e-1953-05-13-audit",
+      "sources": [
+        "data/events/pass-238-may-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p238e-1953-05-14-assembly-return",
+      "sources": [
+        "data/events/pass-238-may-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p238e-1953-05-14-mixedchildren",
+      "sources": [
+        "data/events/pass-238-may-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p238e-1953-05-14-cultural-reg",
+      "sources": [
+        "data/events/pass-238-may-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p238e-1953-05-15-grain-audit",
+      "sources": [
+        "data/events/pass-238-may-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p238e-1953-05-15-seoul-bond",
+      "sources": [
+        "data/events/pass-238-may-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p238e-1953-05-15-press-trial",
+      "sources": [
+        "data/events/pass-238-may-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p238e-1953-05-06-tasca-assembly",
+      "sources": [
+        "data/events/pass-238-may-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p238e-1953-05-08-dance",
+      "sources": [
+        "data/events/pass-238-may-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239d-advance-notice-scope",
+      "sources": [
+        "data/events/pass-239d-june8-22-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239e-park-resettlement",
+      "sources": [
+        "data/events/pass-239e-june22-30-governance.json",
+        "data/events.json",
+        "data/evidence/park-sul-eum.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239e-union-registration",
+      "sources": [
+        "data/events/pass-239e-june22-30-governance.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239e-union-neutrality",
+      "sources": [
+        "data/events/pass-239e-june22-30-governance.json",
+        "data/events.json",
+        "data/evidence/park-sul-eum.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239f-union-decree-782",
+      "sources": [
+        "data/events/pass-239f-labor-institution-actions.json",
+        "data/events.json",
+        "data/evidence/park-sul-eum.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239g-1953-horticulture-may",
+      "sources": [
+        "data/events/pass-239g-organization-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239h-july09-rok-treaty-draft",
+      "sources": [
+        "data/events/pass-239h-july1953-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239h-july09-rhee-conditional-assurance",
+      "sources": [
+        "data/events/pass-239h-july1953-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239h-july11-joint-statement-meeting",
+      "sources": [
+        "data/events/pass-239h-july1953-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239h-july11-aid-control-currency-letter",
+      "sources": [
+        "data/events/pass-239h-july1953-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239h-july17-nsc1561-proposal",
+      "sources": [
+        "data/events/pass-239h-july1953-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239h-july17-un-logistics-dissent",
+      "sources": [
+        "data/events/pass-239h-july1953-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239h-july21-paik-pyun-four-points",
+      "sources": [
+        "data/events/pass-239h-july1953-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239h-july24-rhee-renewed-questions",
+      "sources": [
+        "data/events/pass-239h-july1953-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239h-july26-signing-time-agreed",
+      "sources": [
+        "data/events/pass-239h-july1953-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239h-july27-armistice-signature",
+      "sources": [
+        "data/events/pass-239h-july1953-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239h-july27-rhee-public-statement",
+      "sources": [
+        "data/events/pass-239h-july1953-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239h-july14-fertilizer",
+      "sources": [
+        "data/events/pass-239h-july1953-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239h-july14-flood-seeds",
+      "sources": [
+        "data/events/pass-239h-july1953-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239h-july14-foreign-press",
+      "sources": [
+        "data/events/pass-239h-july1953-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239h-july21-grain-price",
+      "sources": [
+        "data/events/pass-239h-july1953-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239h-july21-public-information",
+      "sources": [
+        "data/events/pass-239h-july1953-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239h-july21-local-radio",
+      "sources": [
+        "data/events/pass-239h-july1953-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239h-july09-paik-private-meeting",
+      "sources": [
+        "data/events/pass-239h-july1953-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239h-july21-opi-public-statement-drafting-report",
+      "sources": [
+        "data/events/pass-239h-july1953-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239j-01",
+      "sources": [
+        "data/events/pass-239j-1954-1955-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239j-02",
+      "sources": [
+        "data/events/pass-239j-1954-1955-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239j-03",
+      "sources": [
+        "data/events/pass-239j-1954-1955-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239j-04",
+      "sources": [
+        "data/events/pass-239j-1954-1955-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239j-05",
+      "sources": [
+        "data/events/pass-239j-1954-1955-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239j-06",
+      "sources": [
+        "data/events/pass-239j-1954-1955-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239j-07",
+      "sources": [
+        "data/events/pass-239j-1954-1955-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239j-08",
+      "sources": [
+        "data/events/pass-239j-1954-1955-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239j-09",
+      "sources": [
+        "data/events/pass-239j-1954-1955-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239j-10",
+      "sources": [
+        "data/events/pass-239j-1954-1955-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239j-11",
+      "sources": [
+        "data/events/pass-239j-1954-1955-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239j-12",
+      "sources": [
+        "data/events/pass-239j-1954-1955-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239j-13",
+      "sources": [
+        "data/events/pass-239j-1954-1955-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239j-14",
+      "sources": [
+        "data/events/pass-239j-1954-1955-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239j-15",
+      "sources": [
+        "data/events/pass-239j-1954-1955-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239j-16",
+      "sources": [
+        "data/events/pass-239j-1954-1955-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239j-17",
+      "sources": [
+        "data/events/pass-239j-1954-1955-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239j-18",
+      "sources": [
+        "data/events/pass-239j-1954-1955-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239j-19",
+      "sources": [
+        "data/events/pass-239j-1954-1955-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239j-20",
+      "sources": [
+        "data/events/pass-239j-1954-1955-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239j-21",
+      "sources": [
+        "data/events/pass-239j-1954-1955-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239j-22",
+      "sources": [
+        "data/events/pass-239j-1954-1955-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239j-23",
+      "sources": [
+        "data/events/pass-239j-1954-1955-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239j-24",
+      "sources": [
+        "data/events/pass-239j-1954-1955-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239j-25",
+      "sources": [
+        "data/events/pass-239j-1954-1955-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239k-01",
+      "sources": [
+        "data/events/pass-239k-1955-first-half.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239k-02",
+      "sources": [
+        "data/events/pass-239k-1955-first-half.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239k-03",
+      "sources": [
+        "data/events/pass-239k-1955-first-half.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239k-04",
+      "sources": [
+        "data/events/pass-239k-1955-first-half.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239k-05",
+      "sources": [
+        "data/events/pass-239k-1955-first-half.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239k-06",
+      "sources": [
+        "data/events/pass-239k-1955-first-half.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239k-07",
+      "sources": [
+        "data/events/pass-239k-1955-first-half.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239k-08",
+      "sources": [
+        "data/events/pass-239k-1955-first-half.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239k-09",
+      "sources": [
+        "data/events/pass-239k-1955-first-half.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239k-10",
+      "sources": [
+        "data/events/pass-239k-1955-first-half.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239k-11",
+      "sources": [
+        "data/events/pass-239k-1955-first-half.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239k-12",
+      "sources": [
+        "data/events/pass-239k-1955-first-half.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239k-13",
+      "sources": [
+        "data/events/pass-239k-1955-first-half.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239k-14",
+      "sources": [
+        "data/events/pass-239k-1955-first-half.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239k-15",
+      "sources": [
+        "data/events/pass-239k-1955-first-half.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239k-16",
+      "sources": [
+        "data/events/pass-239k-1955-first-half.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239k-17",
+      "sources": [
+        "data/events/pass-239k-1955-first-half.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239k-18",
+      "sources": [
+        "data/events/pass-239k-1955-first-half.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239k-19",
+      "sources": [
+        "data/events/pass-239k-1955-first-half.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239k-20",
+      "sources": [
+        "data/events/pass-239k-1955-first-half.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239k-21",
+      "sources": [
+        "data/events/pass-239k-1955-first-half.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239k-22",
+      "sources": [
+        "data/events/pass-239k-1955-first-half.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239k-23",
+      "sources": [
+        "data/events/pass-239k-1955-first-half.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239k-24",
+      "sources": [
+        "data/events/pass-239k-1955-first-half.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239k-25",
+      "sources": [
+        "data/events/pass-239k-1955-first-half.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239k-26",
+      "sources": [
+        "data/events/pass-239k-1955-first-half.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239k-27",
+      "sources": [
+        "data/events/pass-239k-1955-first-half.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239k-28",
+      "sources": [
+        "data/events/pass-239k-1955-first-half.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239l-11",
+      "sources": [
+        "data/events/pass-239l-1955-56-nnsc-election.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239l2-03",
+      "sources": [
+        "data/events/pass-239l2-1954-56-un-economic-cabinet-election.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239l2-04",
+      "sources": [
+        "data/events/pass-239l2-1954-56-un-economic-cabinet-election.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239m-01",
+      "sources": [
+        "data/events/pass-239m-1954-constitutional-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239m-02",
+      "sources": [
+        "data/events/pass-239m-1954-constitutional-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p239m-08",
+      "sources": [
+        "data/events/pass-239m-1954-constitutional-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p240-02",
+      "sources": [
+        "data/events/pass-240-1955-economic-nnsc-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p240-03",
+      "sources": [
+        "data/events/pass-240-1955-economic-nnsc-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p240-04",
+      "sources": [
+        "data/events/pass-240-1955-economic-nnsc-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p240-05",
+      "sources": [
+        "data/events/pass-240-1955-economic-nnsc-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p240-06",
+      "sources": [
+        "data/events/pass-240-1955-economic-nnsc-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p240-12",
+      "sources": [
+        "data/events/pass-240-1955-economic-nnsc-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p240-18",
+      "sources": [
+        "data/events/pass-240-1955-economic-nnsc-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p242-01",
+      "sources": [
+        "data/events/pass-242-1957-jun-dec.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p242-02",
+      "sources": [
+        "data/events/pass-242-1957-jun-dec.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p242-03",
+      "sources": [
+        "data/events/pass-242-1957-jun-dec.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p242-04",
+      "sources": [
+        "data/events/pass-242-1957-jun-dec.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p242-05",
+      "sources": [
+        "data/events/pass-242-1957-jun-dec.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p242-06",
+      "sources": [
+        "data/events/pass-242-1957-jun-dec.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p242-07",
+      "sources": [
+        "data/events/pass-242-1957-jun-dec.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p242-08",
+      "sources": [
+        "data/events/pass-242-1957-jun-dec.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p242-09",
+      "sources": [
+        "data/events/pass-242-1957-jun-dec.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p242-10",
+      "sources": [
+        "data/events/pass-242-1957-jun-dec.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p242-11",
+      "sources": [
+        "data/events/pass-242-1957-jun-dec.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p242-12",
+      "sources": [
+        "data/events/pass-242-1957-jun-dec.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p242-13",
+      "sources": [
+        "data/events/pass-242-1957-jun-dec.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p242-14",
+      "sources": [
+        "data/events/pass-242-1957-jun-dec.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p242-14b",
+      "sources": [
+        "data/events/pass-242-1957-jun-dec.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p242-15",
+      "sources": [
+        "data/events/pass-242-1957-jun-dec.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p242-16",
+      "sources": [
+        "data/events/pass-242-1957-jun-dec.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p242-17",
+      "sources": [
+        "data/events/pass-242-1957-jun-dec.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p242-18",
+      "sources": [
+        "data/events/pass-242-1957-jun-dec.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p242-19",
+      "sources": [
+        "data/events/pass-242-1957-jun-dec.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p242-20",
+      "sources": [
+        "data/events/pass-242-1957-jun-dec.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p242-21",
+      "sources": [
+        "data/events/pass-242-1957-jun-dec.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p242-22",
+      "sources": [
+        "data/events/pass-242-1957-jun-dec.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p242-23",
+      "sources": [
+        "data/events/pass-242-1957-jun-dec.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p242-24",
+      "sources": [
+        "data/events/pass-242-1957-jun-dec.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p242-25",
+      "sources": [
+        "data/events/pass-242-1957-jun-dec.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p242-26",
+      "sources": [
+        "data/events/pass-242-1957-jun-dec.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p242-27",
+      "sources": [
+        "data/events/pass-242-1957-jun-dec.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p242-28",
+      "sources": [
+        "data/events/pass-242-1957-jun-dec.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p242-29",
+      "sources": [
+        "data/events/pass-242-1957-jun-dec.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p242-30",
+      "sources": [
+        "data/events/pass-242-1957-jun-dec.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p242-31",
+      "sources": [
+        "data/events/pass-242-1957-jun-dec.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p242-32",
+      "sources": [
+        "data/events/pass-242-1957-jun-dec.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p246-1956-0213-local385",
+      "sources": [
+        "data/events/pass-246-1956-1960-constitutional-institutional-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p246-1956-0708-local388",
+      "sources": [
+        "data/events/pass-246-1956-1960-constitutional-institutional-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p246-1958-0125-election470",
+      "sources": [
+        "data/events/pass-246-1956-1960-constitutional-institutional-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p246-1960-0511-amendment-proposal",
+      "sources": [
+        "data/events/pass-246-1956-1960-constitutional-institutional-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p246-1960-0607-named-ballot",
+      "sources": [
+        "data/events/pass-246-1956-1960-constitutional-institutional-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p246-1960-0615-dissent-three",
+      "sources": [
+        "data/events/pass-246-1956-1960-constitutional-institutional-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p246-1960-0615-acting-signature",
+      "sources": [
+        "data/events/pass-246-1956-1960-constitutional-institutional-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p246-1960-0623-election551",
+      "sources": [
+        "data/events/pass-246-1956-1960-constitutional-institutional-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p246-1960-0701-government552",
+      "sources": [
+        "data/events/pass-246-1956-1960-constitutional-institutional-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p246-1960-0926-assembly557",
+      "sources": [
+        "data/events/pass-246-1956-1960-constitutional-institutional-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p246-1960-1101-local563",
+      "sources": [
+        "data/events/pass-246-1956-1960-constitutional-institutional-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p246-1960-0315-turnout-discrepancy",
+      "sources": [
+        "data/events/pass-246-1956-1960-constitutional-institutional-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p246-1960-0701-oh-hanja-discrepancy",
+      "sources": [
+        "data/events/pass-246-1956-1960-constitutional-institutional-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p247-0202-coalition",
+      "sources": [
+        "data/events/pass-247-1960-transition-party-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p247-0510-drafting",
+      "sources": [
+        "data/events/pass-247-1960-transition-party-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p247-0511-reform-network",
+      "sources": [
+        "data/events/pass-247-1960-transition-party-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p247-0521-korean-social",
+      "sources": [
+        "data/events/pass-247-1960-transition-party-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p247-0608-expulsion",
+      "sources": [
+        "data/events/pass-247-1960-transition-party-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p247-0615-interim-constitution",
+      "sources": [
+        "data/events/pass-247-1960-transition-party-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p247-0617-mass-leadership",
+      "sources": [
+        "data/events/pass-247-1960-transition-party-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p247-0901-split",
+      "sources": [
+        "data/events/pass-247-1960-transition-party-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p247-1961-unification",
+      "sources": [
+        "data/events/pass-247-1960-transition-party-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p247b-1952-1017-population-plan",
+      "sources": [
+        "data/events/pass-247b-succession-economic-administration.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p247b-1952-economic-reconstruction",
+      "sources": [
+        "data/events/pass-247b-succession-economic-administration.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p247b-1955-0728-rhee-constitution",
+      "sources": [
+        "data/events/pass-247b-succession-economic-administration.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p247b-1956-0518-rhee-constitution",
+      "sources": [
+        "data/events/pass-247b-succession-economic-administration.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p247b-1958-senate-decree-gap",
+      "sources": [
+        "data/events/pass-247b-succession-economic-administration.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p247b-1960-0429-drafting-committee",
+      "sources": [
+        "data/events/pass-247b-succession-economic-administration.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p247b-1960-0601-embassy-assessment",
+      "sources": [
+        "data/events/pass-247b-succession-economic-administration.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p247b-1960-0616-kwak-acting",
+      "sources": [
+        "data/events/pass-247b-succession-economic-administration.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p247b-1960-0623-huh-resumes",
+      "sources": [
+        "data/events/pass-247b-succession-economic-administration.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p247b-1960-0808-baek-acting",
+      "sources": [
+        "data/events/pass-247b-succession-economic-administration.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p247b-1960-0812-president-election",
+      "sources": [
+        "data/events/pass-247b-succession-economic-administration.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p247c-0601-lp-caucus-split",
+      "sources": [
+        "data/events/pass-247c-june1960-legislative-and-social.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p247c-0608-priorities",
+      "sources": [
+        "data/events/pass-247c-june1960-legislative-and-social.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p247c-0610-vice-speakers",
+      "sources": [
+        "data/events/pass-247c-june1960-legislative-and-social.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p247c-0614-debate",
+      "sources": [
+        "data/events/pass-247c-june1960-legislative-and-social.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p247c-0615-vote",
+      "sources": [
+        "data/events/pass-247c-june1960-legislative-and-social.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p247c-0615-promulgation",
+      "sources": [
+        "data/events/pass-247c-june1960-legislative-and-social.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p247c-0616-resignation",
+      "sources": [
+        "data/events/pass-247c-june1960-legislative-and-social.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p247c-0617-rejected",
+      "sources": [
+        "data/events/pass-247c-june1960-legislative-and-social.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p247c-0617-election-budget",
+      "sources": [
+        "data/events/pass-247c-june1960-legislative-and-social.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p247c-1960-usis-fieldwork",
+      "sources": [
+        "data/events/pass-247c-june1960-legislative-and-social.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p247c-1960-usis-report",
+      "sources": [
+        "data/events/pass-247c-june1960-legislative-and-social.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p247d-0426-crossparty",
+      "sources": [
+        "data/events/pass-247d-domestic-legislative-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p247d-0511-175-sponsors",
+      "sources": [
+        "data/events/pass-247d-domestic-legislative-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p247d-0615-caucus-list",
+      "sources": [
+        "data/events/pass-247d-domestic-legislative-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p247d-0615-original-vote",
+      "sources": [
+        "data/events/pass-247d-domestic-legislative-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p247d-1958-constitution-committee",
+      "sources": [
+        "data/events/pass-247d-domestic-legislative-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p247d-0622-foreign-policy-speech",
+      "sources": [
+        "data/events/pass-247d-domestic-legislative-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p247d-0623-bicameral-election",
+      "sources": [
+        "data/events/pass-247d-domestic-legislative-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p247d-0623-broadcasting",
+      "sources": [
+        "data/events/pass-247d-domestic-legislative-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p247d-0623-local-council",
+      "sources": [
+        "data/events/pass-247d-domestic-legislative-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p247d-0623-quorum",
+      "sources": [
+        "data/events/pass-247d-domestic-legislative-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p247e-1956-local-law",
+      "sources": [
+        "data/events/pass-247e-1960-election-administration-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p247e-0622-absentee-general",
+      "sources": [
+        "data/events/pass-247e-1960-election-administration-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p247e-0622-absentee-1960",
+      "sources": [
+        "data/events/pass-247e-1960-election-administration-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p247e-0622-exclusion",
+      "sources": [
+        "data/events/pass-247e-1960-election-administration-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p247e-0622-election-law",
+      "sources": [
+        "data/events/pass-247e-1960-election-administration-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p247e-0625-government-law",
+      "sources": [
+        "data/events/pass-247e-1960-election-administration-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p247e-0623-technical",
+      "sources": [
+        "data/events/pass-247e-1960-election-administration-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p247e-0701-broadcast",
+      "sources": [
+        "data/events/pass-247e-1960-election-administration-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p247e-0701-police",
+      "sources": [
+        "data/events/pass-247e-1960-election-administration-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p247e-0701-economy-welfare",
+      "sources": [
+        "data/events/pass-247e-1960-election-administration-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p247e-0926-assembly-law",
+      "sources": [
+        "data/events/pass-247e-1960-election-administration-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p247e-1101-local-election",
+      "sources": [
+        "data/events/pass-247e-1960-election-administration-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p247e-1101-local-finance",
+      "sources": [
+        "data/events/pass-247e-1960-election-administration-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p249-1961-0202-committee",
+      "sources": [
+        "data/events/pass-249-civil-rights-and-seoul.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p249-1952-0425-local-election",
+      "sources": [
+        "data/events/pass-249-civil-rights-and-seoul.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p249-1952-0805-election-denominator",
+      "sources": [
+        "data/events/pass-249-civil-rights-and-seoul.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p255-party-congress",
+      "sources": [
+        "data/events/pass-255-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p255g-capture",
+      "sources": [
+        "data/events/pass-255g-oct04-09-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p255g-court",
+      "sources": [
+        "data/events/pass-255g-oct04-09-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p255g-rail",
+      "sources": [
+        "data/events/pass-255g-oct04-09-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p255g-beacon",
+      "sources": [
+        "data/events/pass-255g-oct04-09-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p255g-salt",
+      "sources": [
+        "data/events/pass-255g-oct04-09-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p255g-cabinet",
+      "sources": [
+        "data/events/pass-255g-oct04-09-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p255g-pm",
+      "sources": [
+        "data/events/pass-255g-oct04-09-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p255g-party",
+      "sources": [
+        "data/events/pass-255g-oct04-09-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p255g-budget",
+      "sources": [
+        "data/events/pass-255g-oct04-09-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p255g-furuichi",
+      "sources": [
+        "data/events/pass-255g-oct04-09-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p255g-paper",
+      "sources": [
+        "data/events/pass-255g-oct04-09-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p255g-shinto",
+      "sources": [
+        "data/events/pass-255g-oct04-09-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p255g-unkra",
+      "sources": [
+        "data/events/pass-255g-oct04-09-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p255g-banknotes",
+      "sources": [
+        "data/events/pass-255g-oct04-09-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p255g-timber",
+      "sources": [
+        "data/events/pass-255g-oct04-09-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p255g-tungsten",
+      "sources": [
+        "data/events/pass-255g-oct04-09-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p255g-yun",
+      "sources": [
+        "data/events/pass-255g-oct04-09-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p255g-acheson",
+      "sources": [
+        "data/events/pass-255g-oct04-09-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257j-un-1127-denmark-proposal",
+      "sources": [
+        "data/events/pass-257j-un-finance-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257j-un-1128-burma-opposition",
+      "sources": [
+        "data/events/pass-257j-un-finance-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257j-un-1203-india-ceasefire-proposal",
+      "sources": [
+        "data/events/pass-257j-un-finance-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257j-un-1203-india-amendment-vote",
+      "sources": [
+        "data/events/pass-257j-un-finance-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257j-un-1203-final-plenary-vote",
+      "sources": [
+        "data/events/pass-257j-un-finance-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257j-19530115-paik-budget-address",
+      "sources": [
+        "data/events/pass-257j-un-finance-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257j-19530217-new-hwan-circulation",
+      "sources": [
+        "data/events/pass-257j-un-finance-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257j-19530226-statutory-conversion",
+      "sources": [
+        "data/events/pass-257j-un-finance-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257j-19530227-finance-law-promulgation",
+      "sources": [
+        "data/events/pass-257j-un-finance-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257j-19530228-paik-public-explanation",
+      "sources": [
+        "data/events/pass-257j-un-finance-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257k-19530204-national-audit-law",
+      "sources": [
+        "data/events/pass-257k-1953-audit-labor-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257k-19510530-presidential-reconsider-mobil",
+      "sources": [
+        "data/events/pass-257k-1953-audit-labor-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257k-19530414-union-decree",
+      "sources": [
+        "data/events/pass-257k-1953-audit-labor-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257k-19530415-labor-standard-amend",
+      "sources": [
+        "data/events/pass-257k-1953-audit-labor-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257k-19530515-wartime-mobil-transmit",
+      "sources": [
+        "data/events/pass-257k-1953-audit-labor-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257l-19521202-un-first-committee-report",
+      "sources": [
+        "data/events/pass-257l-un-committee-finance-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257l-19521203-un-financial-implications",
+      "sources": [
+        "data/events/pass-257l-un-committee-finance-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257m-19530219-seoul-rice-delay",
+      "sources": [
+        "data/events/pass-257m-1953-mar-apr-economy-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257m-19530304-kim-no-third-reform",
+      "sources": [
+        "data/events/pass-257m-1953-mar-apr-economy-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257m-19530304-rhee-reimbursement-statement",
+      "sources": [
+        "data/events/pass-257m-1953-mar-apr-economy-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257m-19530402-newspaper-currency-critique",
+      "sources": [
+        "data/events/pass-257m-1953-mar-apr-economy-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257n-19530217-emergency-order-assembly-submission",
+      "sources": [
+        "data/events/pass-257n-1953-feb-finance-parliament-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257n-19530219-assembly-procedure-vote",
+      "sources": [
+        "data/events/pass-257n-1953-feb-finance-parliament-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257n-19530219-paik-credit-trade",
+      "sources": [
+        "data/events/pass-257n-1953-feb-finance-parliament-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257n-19530219-bok-currency-abuse",
+      "sources": [
+        "data/events/pass-257n-1953-feb-finance-parliament-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257n-19530219-seoul-currency-relief-meeting",
+      "sources": [
+        "data/events/pass-257n-1953-feb-finance-parliament-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257n-19530219-jeongeup-bank-robbery",
+      "sources": [
+        "data/events/pass-257n-1953-feb-finance-parliament-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257n-19530226-finance-law-article9-vote",
+      "sources": [
+        "data/events/pass-257n-1953-feb-finance-parliament-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257n-19530227-finance-law-article11-vote",
+      "sources": [
+        "data/events/pass-257n-1953-feb-finance-parliament-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257n-19530227-finance-law-party-debate",
+      "sources": [
+        "data/events/pass-257n-1953-feb-finance-parliament-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257n-19530227-cabinet-law-dispute",
+      "sources": [
+        "data/events/pass-257n-1953-feb-finance-parliament-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257n-19530227-private-debt-reform-proposal",
+      "sources": [
+        "data/events/pass-257n-1953-feb-finance-parliament-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257n-19530227-rhee-industrial-speech",
+      "sources": [
+        "data/events/pass-257n-1953-feb-finance-parliament-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257n-19530227-baek-nak-jun-hyecho-report",
+      "sources": [
+        "data/events/pass-257n-1953-feb-finance-parliament-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257p-195310-housing5500",
+      "sources": [
+        "data/events/pass-257p-unkra-housing-finance-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257p-195312-anam49",
+      "sources": [
+        "data/events/pass-257p-unkra-housing-finance-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257p-1953-aid-signing-photo",
+      "sources": [
+        "data/events/pass-257p-unkra-housing-finance-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257p-195309-rhee-brick-demo",
+      "sources": [
+        "data/events/pass-257p-unkra-housing-finance-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257p-19540531-unkra-legal-original-catalog",
+      "sources": [
+        "data/events/pass-257p-unkra-housing-finance-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257p-19531230-kdb-act302",
+      "sources": [
+        "data/events/pass-257p-unkra-housing-finance-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257p-19540118-kdb-decree860",
+      "sources": [
+        "data/events/pass-257p-unkra-housing-finance-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257p-19540312-counterpart311",
+      "sources": [
+        "data/events/pass-257p-unkra-housing-finance-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257p-19541214-un828-original",
+      "sources": [
+        "data/events/pass-257p-unkra-housing-finance-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257p-1953-cabinet-prosthetics21",
+      "sources": [
+        "data/events/pass-257p-unkra-housing-finance-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257p-1954-barley-production",
+      "sources": [
+        "data/events/pass-257p-unkra-housing-finance-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257p-1955-kim-mayor-unkra-award",
+      "sources": [
+        "data/events/pass-257p-unkra-housing-finance-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257p-19501201-unkra-agent-authority",
+      "sources": [
+        "data/events/pass-257p-unkra-housing-finance-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257p-19501201-unkra-funds-control",
+      "sources": [
+        "data/events/pass-257p-unkra-housing-finance-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257p-19531207-unkra-725-programme",
+      "sources": [
+        "data/events/pass-257p-unkra-housing-finance-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257p-1953-housing-start210-complete106",
+      "sources": [
+        "data/events/pass-257p-unkra-housing-finance-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257p-195408-seoul330-148",
+      "sources": [
+        "data/events/pass-257p-unkra-housing-finance-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257p-195409-housing-localbudget-shortage",
+      "sources": [
+        "data/events/pass-257p-unkra-housing-finance-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257p-19540531-unkra-counterpart-twoaccounts",
+      "sources": [
+        "data/events/pass-257p-unkra-housing-finance-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257p-1953-1954-tongnae-rehab",
+      "sources": [
+        "data/events/pass-257p-unkra-housing-finance-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257p-195409-small-business-loanboard",
+      "sources": [
+        "data/events/pass-257p-unkra-housing-finance-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257p-195309-unkra-kcac-functions",
+      "sources": [
+        "data/events/pass-257p-unkra-housing-finance-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257p-1953-fertilizer-grain-arrival",
+      "sources": [
+        "data/events/pass-257p-unkra-housing-finance-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257p-1954-unicef-milk",
+      "sources": [
+        "data/events/pass-257p-unkra-housing-finance-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257p-1954-cotton-spindles-install",
+      "sources": [
+        "data/events/pass-257p-unkra-housing-finance-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257p-19541129-uncurk-a2810",
+      "sources": [
+        "data/events/pass-257p-unkra-housing-finance-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257p-19541210-unkra-adversarial-debate",
+      "sources": [
+        "data/events/pass-257p-unkra-housing-finance-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257p-19541211-unkra-committee-vote",
+      "sources": [
+        "data/events/pass-257p-unkra-housing-finance-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257p-19530630-unkra-audited-finance",
+      "sources": [
+        "data/events/pass-257p-unkra-housing-finance-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257p-19530630-hwan-unsettled",
+      "sources": [
+        "data/events/pass-257p-unkra-housing-finance-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257p-1957-housing8300-completed",
+      "sources": [
+        "data/events/pass-257p-unkra-housing-finance-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257p-1957-smallbusiness-1381",
+      "sources": [
+        "data/events/pass-257p-unkra-housing-finance-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257p-1957-mungyong-cement-progress",
+      "sources": [
+        "data/events/pass-257p-unkra-housing-finance-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257p-1952-unkra-prearmistice-report",
+      "sources": [
+        "data/events/pass-257p-unkra-housing-finance-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257p-19530216-uk-hansard-private-report",
+      "sources": [
+        "data/events/pass-257p-unkra-housing-finance-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257p-19540630-uk-hansard-130to40",
+      "sources": [
+        "data/events/pass-257p-unkra-housing-finance-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257p-19541123-acabq-1954-audit",
+      "sources": [
+        "data/events/pass-257p-unkra-housing-finance-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257p-19541204-ga-880-finance",
+      "sources": [
+        "data/events/pass-257p-unkra-housing-finance-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-p257p-19550502-uk-contribution",
+      "sources": [
+        "data/events/pass-257p-unkra-housing-finance-actions.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-1953-anti-communist-pow-release",
+      "sources": [
+        "data/events/pass303-events.json",
+        "data/events/pass318-rhee-events.json",
+        "data/events/run50-pow-armistice-events.json",
+        "data/events.json",
+        "data/research/graph-patches/pass-279-2026-10-01.json",
+        "data/research/rhee-syngman-2026-09-30-structured-delta.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-1952-pusan-political-crisis",
+      "sources": [
+        "data/events/pass318-rhee-events.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-1958-progressive-party-case",
+      "sources": [
+        "data/events/pass318-rhee-events.json",
+        "data/events/run11-rhee-statecraft-events.json",
+        "data/research/runs/2026-10-03-run9-1954-1959-institutional-depth.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-1949-farmland-reform",
+      "sources": [
+        "data/events/pass318-rhee-events.json",
+        "data/events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-1959-kyunghyang-closure",
+      "sources": [
+        "data/events/pass318-rhee-events.json",
+        "data/research/graph-patches/pass-280-politician-event-graph.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-1956-presidential-election",
+      "sources": [
+        "data/events/run11-rhee-statecraft-events.json",
+        "data/research/runs/2026-10-03-run9-1954-1959-institutional-depth.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-1949-teacher-ideology-screening",
+      "sources": [
+        "data/events/run21-education-statebuilding-events.json",
+        "data/events/run23-education-institutions-events.json",
+        "data/events/run24-education-governance-events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-1952-education-act-enforcement-decree",
+      "sources": [
+        "data/events/run22-education-legislation-events.json",
+        "data/events/run24-education-governance-events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-1948-compulsory-education-plan",
+      "sources": [
+        "data/events/run23-education-institutions-events.json",
+        "data/events/run24-education-governance-events.json",
+        "data/research/events/2026-10-04-pass205-education-local-autonomy-actions.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-1953-robertson-mission",
+      "sources": [
+        "data/events/run51-robertson-armistice-events.json",
+        "data/research/graph-patches/pass-279-2026-10-01.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-1953-us-rok-mutual-defense-treaty-negotiation",
+      "sources": [
+        "data/events/run51-robertson-armistice-events.json",
+        "data/research/rhee-syngman-2026-09-30-structured-delta.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-1958-1224-security-law-crisis",
+      "sources": [
+        "data/events.json",
+        "data/research/passes/pass-282-domestic-legislative-localgov-press.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-1952-meyer-economic-coordination",
+      "sources": [
+        "data/events.json",
+        "data/research/events/pass-240-busan-crisis-subevents.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-1954-rounding-amendment",
+      "sources": [
+        "data/events.json",
+        "data/research/constitutional-crisis-pass14.json",
+        "data/research/runs/2026-10-03-run9-1954-1959-institutional-depth.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-1960-06-23-education-ministry-dissolution-position",
+      "sources": [
+        "data/research/candidates/pass-142-teachers-union-legal-interpretation-conflict.json",
+        "data/research/candidates/pass-143-teachers-union-parliamentary-administrative-network.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-1963-06-26-private-school-act-1362-enacted",
+      "sources": [
+        "data/research/candidates/pass-151-successor-teacher-labor-regime-1963.json",
+        "data/research/candidates/pass-152-private-teacher-service-bridge-audit.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-1963-private-school-art55-service-bridge",
+      "sources": [
+        "data/research/candidates/pass-152-private-teacher-service-bridge-audit.json",
+        "data/research/candidates/pass-153-original-1963-teacher-labor-text-audit.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-1963-education-public-officials-art43-cross-reference",
+      "sources": [
+        "data/research/candidates/pass-152-private-teacher-service-bridge-audit.json",
+        "data/research/candidates/pass-153-original-1963-teacher-labor-text-audit.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-1963-state-public-officials-art66-collective-action",
+      "sources": [
+        "data/research/candidates/pass-152-private-teacher-service-bridge-audit.json",
+        "data/research/candidates/pass-153-original-1963-teacher-labor-text-audit.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-1963-private-school-art58-collective-class-refusal",
+      "sources": [
+        "data/research/candidates/pass-152-private-teacher-service-bridge-audit.json",
+        "data/research/candidates/pass-153-original-1963-teacher-labor-text-audit.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-1953-1230-kdb-act",
+      "sources": [
+        "data/research/candidates/pass-79-korean-origin-governance.json",
+        "data/research/candidates/pass-80-cabinet-constitutional-governance.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-1954-0118-kdb-establishment-decree-860",
+      "sources": [
+        "data/research/candidates/pass-82-kdb-governance-chain.json",
+        "data/research/candidates/pass-83-kdb-establishment-committee.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "EVT-KIB-1954-SHAREHOLDER-LIQUIDATOR-SELECTION",
+      "sources": [
+        "data/research/candidates/pass-90-kib-liquidation-governance.json",
+        "data/research/candidates/pass-91-kib-actor-identification.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "EVT-JAPAN-TALKS-FISHERIES-1953-R2-M02",
+      "sources": [
+        "data/research/candidates/pass-93-fisheries-committee-network.json",
+        "data/research/candidates/pass-95-fisheries-series-control.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "EVT-JAPAN-TALKS-FISHERIES-1953-R2-M09",
+      "sources": [
+        "data/research/candidates/pass-93-fisheries-committee-network.json",
+        "data/research/candidates/pass-94-fisheries-meeting-matrix.json",
+        "data/research/candidates/pass-95-fisheries-series-control.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "EVT-JAPAN-TALKS-FISHERIES-1953-R2-M04",
+      "sources": [
+        "data/research/candidates/pass-94-fisheries-meeting-matrix.json",
+        "data/research/candidates/pass-95-fisheries-series-control.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "EVT-JAPAN-TALKS-FISHERIES-1953-R2-M06",
+      "sources": [
+        "data/research/candidates/pass-94-fisheries-meeting-matrix.json",
+        "data/research/candidates/pass-95-fisheries-series-control.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "EVT-JAPAN-TALKS-FISHERIES-1953-R2-M08",
+      "sources": [
+        "data/research/candidates/pass-94-fisheries-meeting-matrix.json",
+        "data/research/candidates/pass-95-fisheries-series-control.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-1952-busan-political-crisis",
+      "sources": [
+        "data/research/constitutional-crisis-pass14.json",
+        "data/research/runs/2026-10-03-run10-rhee-institutional-debt-sweep.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-1952-so-min-ho-case",
+      "sources": [
+        "data/research/events/2026-10-04-pass181-action-graph.json",
+        "data/research/events/pass-235-assembly-coercion-actions.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-1949-farmland-reform-veto-override",
+      "sources": [
+        "data/research/events/2026-10-04-pass181-action-graph.json",
+        "data/research/events/2026-10-04-rhee-event-actions.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-1958-59-progressive-party-case",
+      "sources": [
+        "data/research/events/2026-10-04-pass181-action-graph.json",
+        "data/research/graph-patches/pass-280-politician-event-graph.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-1960-formal-resignation",
+      "sources": [
+        "data/research/events/2026-10-04-pass182-law-constitutional-actions.json",
+        "data/research/events/2026-10-04-pass183-land-election-transition-actions.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-1950-landcommittee-regulation",
+      "sources": [
+        "data/research/events/2026-10-04-pass183-land-election-transition-actions.json",
+        "data/research/events/2026-10-04-pass185-landreform-law-implementation-actions.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-1959-kyunghyang-license-revocation",
+      "sources": [
+        "data/research/events/2026-10-04-rhee-event-actions.json",
+        "data/research/passes/pass-282-domestic-legislative-localgov-press.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-1953-12-14-ceb-reconstruction-stabilization-agreement",
+      "sources": [
+        "data/research/events/pass-124-ceb-airforce-events.json",
+        "data/research/events/pass-126-ceb-rokaf-education-events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-1954-08-01-snu-minnesota-interim-contract",
+      "sources": [
+        "data/research/events/pass-126-ceb-rokaf-education-events.json",
+        "data/research/events/pass-127-minnesota-ceb-governance-events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-1954-09-28-snu-minnesota-final-contract",
+      "sources": [
+        "data/research/events/pass-126-ceb-rokaf-education-events.json",
+        "data/research/events/pass-127-minnesota-ceb-governance-events.json",
+        "data/research/events/pass-128-minnesota-korean-governance-events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-1954-10-19-minnesota-project-korea-operations-start",
+      "sources": [
+        "data/research/events/pass-127-minnesota-ceb-governance-events.json",
+        "data/research/events/pass-128-minnesota-korean-governance-events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-1956-01-veterinary-equipment-request",
+      "sources": [
+        "data/research/events/pass-128-minnesota-expansion-events.json",
+        "data/research/events/pass-129-minnesota-scope-change-events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-1959-01-13-snu-nursing-department-approval",
+      "sources": [
+        "data/research/events/pass-130-minnesota-nursing-public-admin-events.json",
+        "data/research/events/pass-131-snu-1959-legal-routing-events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-1959-snu-nursing-faculty-position-support",
+      "sources": [
+        "data/research/events/pass-130-minnesota-nursing-public-admin-events.json",
+        "data/research/events/pass-131-snu-1959-legal-routing-events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-1949-06-06-special-committee-police-raid",
+      "sources": [
+        "data/research/events/pass-155-rhee-special-committee-events.json",
+        "data/research/events/pass-156-rhee-special-committee-aftermath-events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-1949-06-07-rhee-order-admission",
+      "sources": [
+        "data/research/events/pass-155-rhee-special-committee-events.json",
+        "data/research/events/pass-156-rhee-special-committee-aftermath-events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-1949-06-10-special-committee-resignations",
+      "sources": [
+        "data/research/events/pass-156-rhee-special-committee-aftermath-events.json",
+        "data/research/evidence/pass-213-anti-collaboration-command-chain-correction.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-cand-rhee-antimin-feb16-statement",
+      "sources": [
+        "data/research/events/pass-180-antimin-institutional-events.json",
+        "data/research/events/pass-181-antimin-counteraction-events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-cand-assembly-antimin-feb17-response",
+      "sources": [
+        "data/research/events/pass-180-antimin-institutional-events.json",
+        "data/research/events/pass-181-antimin-counteraction-events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-cand-government-antimin-amendment",
+      "sources": [
+        "data/research/events/pass-180-antimin-institutional-events.json",
+        "data/research/events/pass-181-antimin-counteraction-events.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-1952-july15-implementing-legislation",
+      "sources": [
+        "data/research/events/pass-235-assembly-coercion-actions.json",
+        "data/research/events/pass-243-cabinet-constitutional-subevents.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-provisional-19520908-jcs-options",
+      "sources": [
+        "data/research/graphs/2026-11-13-2220-frus264-266-overlay.json",
+        "data/research/registry/1952-september-frus264-269-index.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-provisional-19520909-lie-eden-schedule",
+      "sources": [
+        "data/research/graphs/2026-11-13-2220-frus264-266-overlay.json",
+        "data/research/registry/1952-september-frus264-269-index.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-provisional-19520910-stelle-embargo-opposition",
+      "sources": [
+        "data/research/graphs/2026-11-13-2220-frus264-266-overlay.json",
+        "data/research/registry/1952-september-frus264-269-index.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-1952-0911-clark-armistice-sequence",
+      "sources": [
+        "data/research/graphs/2026-11-13-2324-frus267-269-overlay.json",
+        "data/research/registry/1952-september-frus264-269-index.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-1952-0907-rhee-muccio-economic-security-talk",
+      "sources": [
+        "data/research/graphs/2026-11-13-2324-frus267-269-overlay.json",
+        "data/research/registry/1952-september-frus264-269-index.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-1952-0915-truman-armistice-decision",
+      "sources": [
+        "data/research/graphs/2026-11-13-2324-frus267-269-overlay.json",
+        "data/research/registry/1952-september-frus264-269-index.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-1958-security-law-preparation",
+      "sources": [
+        "data/research/runs/2026-10-03-run10-1958-1959-command-chain-deepening.json",
+        "data/research/runs/2026-10-03-run9-1954-1959-institutional-depth.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-1958-1224-security-localgov-package",
+      "sources": [
+        "data/research/runs/2026-10-03-run10-1958-1959-command-chain-deepening.json",
+        "data/research/runs/2026-10-03-run9-1954-1959-institutional-depth.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-1958-progressive-party-investigation",
+      "sources": [
+        "data/research/runs/2026-10-03-run10-1958-1959-command-chain-deepening.json",
+        "data/research/runs/2026-10-03-run10-rhee-institutional-debt-sweep.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-1958-court-invasion",
+      "sources": [
+        "data/research/runs/2026-10-03-run10-1958-1959-command-chain-deepening.json",
+        "data/research/runs/2026-10-03-run10-rhee-institutional-debt-sweep.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-1959-kyunghyang-press-case",
+      "sources": [
+        "data/research/runs/2026-10-03-run10-1958-1959-command-chain-deepening.json",
+        "data/research/runs/2026-10-03-run9-1954-1959-institutional-depth.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "pol-lee-beom-seok",
+      "sources": [
+        "data/politicians/pass-229-1952-cabinet-economy-trial.json",
+        "data/politicians/pass-235-addendum-b-culture-speaker-minister.json",
+        "data/politicians/pass-257o2-1954-election-diplomatic-actor-overlay.json",
+        "data/politicians.json",
+        "data/research/candidates/pass-243-1952-cabinet-politician-nodes.json",
+        "data/research/politicians/pass-234-martial-law-command-actors.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "pol-paik-too-chin",
+      "sources": [
+        "data/politicians/pass-229-1952-cabinet-economy-trial.json",
+        "data/politicians/pass-232-1952-september-actors.json",
+        "data/politicians/pass-233-1952-rok-diplomacy-network.json",
+        "data/politicians/pass-233-addendum-1952-domestic-actors.json",
+        "data/politicians/pass-235-1953-assembly-cabinet-actors.json",
+        "data/politicians/pass-236-frus-diplomacy-actors.json",
+        "data/politicians/pass-236-labor-actors.json",
+        "data/politicians/pass-236f-correspondence-actors.json",
+        "data/politicians/pass-236g-march-april-actors.json",
+        "data/politicians/pass-236h-april-actors.json",
+        "data/politicians/pass-237b-korean-actors.json",
+        "data/politicians/pass-238-actor-overlays.json",
+        "data/politicians/pass-252-1952-aug20-27-actors.json",
+        "data/politicians/pass-252b-1952-aug26-30-actors.json",
+        "data/politicians/pass-257j-actor-evidence.json",
+        "data/politicians/pass-257k-labor-institution-actors.json",
+        "data/politicians/pass-257m-finance-public-claims.json",
+        "data/politicians/pass-257n-1953-finance-legislators.json",
+        "data/politicians/pass-257o4-parliamentary-cabinet-actors.json",
+        "data/politicians/pass-257q-1954-cabinet-actors.json",
+        "data/politicians/pass-257s-1954-visit-nnsc-actors.json",
+        "data/politicians/pass-257w3-uncurk-1954-cabinet-assembly-roster.json",
+        "data/politicians/pass-258a-1954-actor-actions.json",
+        "data/politicians/pass-258b-paik-rhee-ceb-1954.json",
+        "data/politicians.json",
+        "data/research/candidates/pass-243-1952-cabinet-politician-nodes.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-chang-taek-sang-1952",
+      "sources": [
+        "data/politicians/pass-229-1952-cabinet-economy-trial.json",
+        "data/politicians/pass-232-1952-september-actors.json",
+        "data/politicians/pass-233-1952-rok-diplomacy-network.json",
+        "data/politicians/pass-236-frus-diplomacy-actors.json",
+        "data/politicians/pass-236e-party-actors.json",
+        "data/politicians/pass-252-1952-aug20-27-actors.json",
+        "data/politicians/pass-252b-1952-aug26-30-actors.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-kim-si-hyeon-1952",
+      "sources": [
+        "data/politicians/pass-229-1952-cabinet-economy-trial.json",
+        "data/politicians/pass-252-1952-aug20-27-actors.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "pol-seo-sang-il",
+      "sources": [
+        "data/politicians/pass-229-1952-cabinet-economy-trial.json",
+        "data/politicians/pass-252-1952-aug20-27-actors.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "pol-pyun-yong-tae",
+      "sources": [
+        "data/politicians/pass-229b-1952-cabinet-oversight.json",
+        "data/politicians/pass-232-1952-september-actors.json",
+        "data/politicians/pass-233-1952-rok-diplomacy-network.json",
+        "data/politicians/pass-236-frus-diplomacy-actors.json",
+        "data/politicians/pass-236f-correspondence-actors.json",
+        "data/politicians/pass-236h-april-actors.json",
+        "data/politicians/pass-237-actor-overlays.json",
+        "data/politicians/pass-238-actor-overlays.json",
+        "data/politicians/pass-257o4-parliamentary-cabinet-actors.json",
+        "data/politicians/pass-257q-1954-cabinet-actors.json",
+        "data/politicians/pass-257s-1954-visit-nnsc-actors.json",
+        "data/politicians/pass-257w-1954-election-geneva-actors.json",
+        "data/politicians/pass-257w3-uncurk-1954-cabinet-assembly-roster.json",
+        "data/politicians/pass-258a-1954-actor-actions.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-1952-cabinet-lee-kyo-seon",
+      "sources": [
+        "data/politicians/pass-229b-1952-cabinet-oversight.json",
+        "data/politicians/pass-232-1952-september-actors.json",
+        "data/politicians/pass-252b-1952-aug26-30-actors.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-1952-minister-lee-yun-yeong",
+      "sources": [
+        "data/politicians/pass-229b-1952-cabinet-oversight.json",
+        "data/politicians/pass-232-1952-september-actors.json",
+        "data/politicians/pass-233-addendum-1952-domestic-actors.json",
+        "data/politicians/pass-251-1952-candidate-evidence.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-1952-vice-ham-tae-yeong",
+      "sources": [
+        "data/politicians/pass-231-1952-election-accountability.json",
+        "data/politicians/pass-251-1952-candidate-evidence.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-1952-presidential-lee-si-yeong",
+      "sources": [
+        "data/politicians/pass-231-1952-election-accountability.json",
+        "data/politicians/pass-251-1952-candidate-evidence.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-1952-presidential-shin-heung-u",
+      "sources": [
+        "data/politicians/pass-231-1952-election-accountability.json",
+        "data/politicians/pass-251-1952-candidate-evidence.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-1952-vice-jeong-gi-won",
+      "sources": [
+        "data/politicians/pass-231-1952-election-accountability.json",
+        "data/politicians/pass-232-1952-september-actors.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-1952-mp-lee-seok-gi",
+      "sources": [
+        "data/politicians/pass-231-1952-election-accountability.json",
+        "data/politicians/pass-252b-1952-aug26-30-actors.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-1952-speaker-shin-ik-hui",
+      "sources": [
+        "data/politicians/pass-231-1952-election-accountability.json",
+        "data/politicians/pass-232-1952-september-actors.json",
+        "data/politicians/pass-235-addendum-b-culture-speaker-minister.json",
+        "data/politicians/pass-236-frus-diplomacy-actors.json",
+        "data/politicians/pass-236-labor-actors.json",
+        "data/politicians/pass-252-1952-aug20-27-actors.json",
+        "data/politicians/pass-257k-labor-institution-actors.json",
+        "data/politicians/pass-257n-1953-finance-legislators.json",
+        "data/politicians/pass-257o-1953-1954-identity-audit.json",
+        "data/politicians/pass-257o2-1954-election-diplomatic-actor-overlay.json",
+        "data/politicians/pass-257r-1954-election-governance-actors.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-1952-sep-interior-jin-heon-sik",
+      "sources": [
+        "data/politicians/pass-232-1952-september-actors.json",
+        "data/politicians/pass-235-addendum-c-jin-chung-lee.json",
+        "data/politicians/pass-252b-1952-aug26-30-actors.json",
+        "data/politicians/pass-257-1953-party-policing-evidence.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-1952-sep-police-mun-bong-je",
+      "sources": [
+        "data/politicians/pass-232-1952-september-actors.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-1952-sep-agri-shin-jung-mok",
+      "sources": [
+        "data/politicians/pass-232-1952-september-actors.json",
+        "data/politicians/pass-233-addendum-1952-domestic-actors.json",
+        "data/politicians/pass-237b-korean-actors.json",
+        "data/politicians/pass-252b-1952-aug26-30-actors.json",
+        "data/politicians/pass-257-1953-party-policing-evidence.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-1952-sep-chungbuk-jeong-hyeon-mo",
+      "sources": [
+        "data/politicians/pass-232-1952-september-actors.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-1952-sep-jeonbuk-lee-yo-han",
+      "sources": [
+        "data/politicians/pass-232-1952-september-actors.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-1952-sep-vice-interior-hwang-ho-heon",
+      "sources": [
+        "data/politicians/pass-232-1952-september-actors.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-1952-sep-chungnam-seong-rak-seo",
+      "sources": [
+        "data/politicians/pass-232-1952-september-actors.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-1952-sep-gyeonggi-kim-yeong-gi",
+      "sources": [
+        "data/politicians/pass-232-1952-september-actors.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-1952-sep-women-party-im-yeong-sin",
+      "sources": [
+        "data/politicians/pass-232-1952-september-actors.json",
+        "data/politicians/pass-251-1952-candidate-evidence.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-1952-sep-independent-labor-yu-rim",
+      "sources": [
+        "data/politicians/pass-232-1952-september-actors.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-1952-sep-yun-chi-yeong",
+      "sources": [
+        "data/politicians/pass-232-1952-september-actors.json",
+        "data/politicians/pass-238-actor-overlays.json",
+        "data/politicians/pass-252-1952-aug20-27-actors.json",
+        "data/politicians/pass-257r-1954-election-governance-actors.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "pol-sohn-won-yil",
+      "sources": [
+        "data/politicians/pass-232-1952-september-actors.json",
+        "data/politicians/pass-257q-1954-cabinet-actors.json",
+        "data/politicians/pass-257s-1954-visit-nnsc-actors.json",
+        "data/politicians/pass-257w3-uncurk-1954-cabinet-assembly-roster.json",
+        "data/politicians/pass-258a-1954-actor-actions.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-1952-sep-us-ambassador-yang-yu-chan",
+      "sources": [
+        "data/politicians/pass-232-1952-september-actors.json",
+        "data/politicians/pass-233-1952-rok-diplomacy-network.json",
+        "data/politicians/pass-233-addendum-1952-domestic-actors.json",
+        "data/politicians/pass-236-frus-diplomacy-actors.json",
+        "data/politicians/pass-236f-correspondence-actors.json",
+        "data/politicians/pass-236g-march-april-actors.json",
+        "data/politicians/pass-236h-april-actors.json",
+        "data/politicians/pass-237-actor-overlays.json",
+        "data/politicians/pass-238-actor-overlays.json",
+        "data/politicians/pass-252-1952-aug20-27-actors.json",
+        "data/politicians/pass-257q-1954-cabinet-actors.json",
+        "data/politicians/pass-257s-1954-visit-nnsc-actors.json",
+        "data/politicians/pass-258a-1954-actor-actions.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "pol-cho-bong-am",
+      "sources": [
+        "data/politicians/pass-232-1952-september-actors.json",
+        "data/politicians/pass-233-1952-rok-diplomacy-network.json",
+        "data/politicians/pass-251-1952-candidate-evidence.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-1952-sep-zainichi-kim-gwang-nam",
+      "sources": [
+        "data/politicians/pass-232-1952-september-actors.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-1952-sep-zainichi-kim-jae-geun",
+      "sources": [
+        "data/politicians/pass-232-1952-september-actors.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-1952-gatt-envoy-jeon-gyu-hong",
+      "sources": [
+        "data/politicians/pass-232-1952-september-actors.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "pol-lim-byong-jik",
+      "sources": [
+        "data/politicians/pass-233-1952-rok-diplomacy-network.json",
+        "data/politicians/pass-233-addendum-1952-domestic-actors.json",
+        "data/politicians/pass-236-frus-diplomacy-actors.json",
+        "data/politicians/pass-236f-correspondence-actors.json",
+        "data/politicians/pass-236g-march-april-actors.json",
+        "data/politicians/pass-236h-april-actors.json",
+        "data/politicians/pass-238-actor-overlays.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-1952-nov-chang-myon",
+      "sources": [
+        "data/politicians/pass-233-1952-rok-diplomacy-network.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-1952-nov-yi-chong-chan",
+      "sources": [
+        "data/politicians/pass-233-1952-rok-diplomacy-network.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-1952-nov-chong-il-kwon",
+      "sources": [
+        "data/politicians/pass-233-1952-rok-diplomacy-network.json",
+        "data/politicians/pass-235-addendum-c-jin-chung-lee.json",
+        "data/politicians/pass-257s-1954-visit-nnsc-actors.json",
+        "data/politicians/pass-258a-1954-actor-actions.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "pol-shin-sung-mo",
+      "sources": [
+        "data/politicians/pass-233-1952-rok-diplomacy-network.json",
+        "data/politicians/pass-252-1952-aug20-27-actors.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-1952-nov-kim-yong-sik",
+      "sources": [
+        "data/politicians/pass-233-1952-rok-diplomacy-network.json",
+        "data/politicians/pass-233-addendum-1952-domestic-actors.json",
+        "data/politicians/pass-236g-march-april-actors.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-1952-oct-ham-sang-hun",
+      "sources": [
+        "data/politicians/pass-233-1952-rok-diplomacy-network.json",
+        "data/politicians/pass-233-addendum-1952-domestic-actors.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "pol-rhee-syngman",
+      "sources": [
+        "data/politicians/pass-233-1952-rok-diplomacy-network.json",
+        "data/politicians/pass-237-actor-overlays.json",
+        "data/politicians/pass-237b-korean-actors.json",
+        "data/politicians/pass-252-1952-aug20-27-actors.json",
+        "data/politicians/pass-252b-1952-aug26-30-actors.json",
+        "data/politicians/pass-257-1953-party-policing-evidence.json",
+        "data/politicians/pass-257j-actor-evidence.json",
+        "data/politicians/pass-257m-finance-public-claims.json",
+        "data/politicians/pass-258b-1954-rhee-aid-proposal.json",
+        "data/politicians/pass-258b-paik-rhee-ceb-1954.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-1952-oct-cho-byeong-ok",
+      "sources": [
+        "data/politicians/pass-233-addendum-1952-domestic-actors.json",
+        "data/politicians/pass-251-1952-candidate-evidence.json",
+        "data/politicians/pass-257o2-1954-election-diplomatic-actor-overlay.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-1952-oct-yu-jin-san",
+      "sources": [
+        "data/politicians/pass-233-addendum-1952-domestic-actors.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-1952-oct-yun-jae-uk",
+      "sources": [
+        "data/politicians/pass-233-addendum-1952-domestic-actors.json",
+        "data/politicians/pass-255-actor-overlay.json",
+        "data/politicians/pass-257o2-1954-election-diplomatic-actor-overlay.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-1952-nov-lee-gap-seong",
+      "sources": [
+        "data/politicians/pass-233-addendum-1952-domestic-actors.json",
+        "data/politicians/pass-251-1952-candidate-evidence.json",
+        "data/politicians/pass-255-actor-overlay.json",
+        "data/politicians/pass-257-1953-party-policing-evidence.json",
+        "data/politicians/pass-257o2-1954-election-diplomatic-actor-overlay.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-1952-nov-bae-eun-hui",
+      "sources": [
+        "data/politicians/pass-233-addendum-1952-domestic-actors.json",
+        "data/politicians/pass-257-1953-party-policing-evidence.json",
+        "data/politicians/pass-257o2-1954-election-diplomatic-actor-overlay.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-1952-dec-lee-byeong-ho",
+      "sources": [
+        "data/politicians/pass-233-dec1-unkra-liaisons.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-1952-dec-won-yong-seok",
+      "sources": [
+        "data/politicians/pass-233-dec1-unkra-liaisons.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "pol-oh-wi-yeong",
+      "sources": [
+        "data/politicians/pass-234-1952-dec-legislative-actors.json",
+        "data/politicians/pass-235-1953-assembly-cabinet-actors.json",
+        "data/politicians/pass-251-1952-candidate-evidence.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "pol-jeong-jae-wan",
+      "sources": [
+        "data/politicians/pass-234-1952-dec-legislative-actors.json",
+        "data/politicians/pass-251-1952-candidate-evidence.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "pol-eom-sang-seop",
+      "sources": [
+        "data/politicians/pass-234-1952-dec-legislative-actors.json",
+        "data/politicians/pass-251-1952-candidate-evidence.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "pol-yun-dam",
+      "sources": [
+        "data/politicians/pass-234-1952-dec-legislative-actors.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "pol-im-heung-sun",
+      "sources": [
+        "data/politicians/pass-234-1952-dec-legislative-actors.json",
+        "data/politicians/pass-235-1953-assembly-cabinet-actors.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "pol-yun-jae-geun",
+      "sources": [
+        "data/politicians/pass-235-1953-assembly-cabinet-actors.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-1952-dec-yun-myeong-un",
+      "sources": [
+        "data/politicians/pass-235-1953-assembly-cabinet-actors.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "pol-paik-sun-yup",
+      "sources": [
+        "data/politicians/pass-235-1953-assembly-cabinet-actors.json",
+        "data/politicians/pass-236f-correspondence-actors.json",
+        "data/politicians/pass-238-actor-overlays.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "pol-choi-yong-duk",
+      "sources": [
+        "data/politicians/pass-235-1953-assembly-cabinet-actors.json",
+        "data/politicians/pass-257s-1954-visit-nnsc-actors.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p235-park-man-won",
+      "sources": [
+        "data/politicians/pass-235-1953-assembly-cabinet-actors.json",
+        "data/politicians/pass-257r-1954-election-governance-actors.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p235-kim-jong-sun",
+      "sources": [
+        "data/politicians/pass-235-1953-assembly-cabinet-actors.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p235-jung-il-hyung",
+      "sources": [
+        "data/politicians/pass-235-1953-assembly-cabinet-actors.json",
+        "data/politicians/pass-257r-1954-election-governance-actors.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p235-kwak-sang-hun",
+      "sources": [
+        "data/politicians/pass-235-1953-assembly-cabinet-actors.json",
+        "data/politicians/pass-252-1952-aug20-27-actors.json",
+        "data/politicians/pass-257o4-parliamentary-cabinet-actors.json",
+        "data/politicians/pass-257r-1954-election-governance-actors.json",
+        "data/politicians/pass-257w3-uncurk-1954-cabinet-assembly-roster.json",
+        "data/politicians/pass-258a-1954-actor-actions.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p235-yun-gil-jung",
+      "sources": [
+        "data/politicians/pass-235-1953-assembly-cabinet-actors.json",
+        "data/politicians/pass-252-1952-aug20-27-actors.json",
+        "data/politicians/pass-257n-1953-finance-legislators.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p235-park-jung-geun",
+      "sources": [
+        "data/politicians/pass-235-1953-assembly-cabinet-actors.json",
+        "data/politicians/pass-257n-1953-finance-legislators.json",
+        "data/politicians/pass-257o-1953-1954-identity-audit.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p235-kim-ui-jun",
+      "sources": [
+        "data/politicians/pass-235-1953-assembly-cabinet-actors.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p235-kim-su-hak",
+      "sources": [
+        "data/politicians/pass-235-1953-assembly-cabinet-actors.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "pol-lee-beom-seok-1900",
+      "sources": [
+        "data/politicians/pass-235-addendum-b-culture-speaker-minister.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p235-lee-cheol-won",
+      "sources": [
+        "data/politicians/pass-235-addendum-b-culture-speaker-minister.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p235c-lee-hyung-keun",
+      "sources": [
+        "data/politicians/pass-235-addendum-c-jin-chung-lee.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p235e-hwang-seong-su",
+      "sources": [
+        "data/politicians/pass-235-addendum-e-committee-chairs.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p235e-park-je-hwan",
+      "sources": [
+        "data/politicians/pass-235-addendum-e-committee-chairs.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p235e-hwang-byeong-gyu",
+      "sources": [
+        "data/politicians/pass-235-addendum-e-committee-chairs.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p235e-shin-yong-uk",
+      "sources": [
+        "data/politicians/pass-235-addendum-e-committee-chairs.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p235e-park-seong-ha",
+      "sources": [
+        "data/politicians/pass-235-addendum-e-committee-chairs.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p235e-yun-taek-jung",
+      "sources": [
+        "data/politicians/pass-235-addendum-e-committee-chairs.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p235e-kim-yong-woo",
+      "sources": [
+        "data/politicians/pass-235-addendum-e-committee-chairs.json",
+        "data/politicians/pass-257n-1953-finance-legislators.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p235e-oh-seong-hwan",
+      "sources": [
+        "data/politicians/pass-235-addendum-e-committee-chairs.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p235e-ji-cheol-geun",
+      "sources": [
+        "data/politicians/pass-235-addendum-e-committee-chairs.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p235e-jang-gi-bong",
+      "sources": [
+        "data/politicians/pass-235-addendum-e-committee-chairs.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p235e-lee-jong-hyung",
+      "sources": [
+        "data/politicians/pass-235-addendum-e-committee-chairs.json",
+        "data/politicians/pass-257n-1953-finance-legislators.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p235e-kim-seok-gwan",
+      "sources": [
+        "data/politicians/pass-235-addendum-e-committee-chairs.json",
+        "data/politicians/pass-257-1953-party-policing-evidence.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p235i-kim-yu-taek",
+      "sources": [
+        "data/politicians/pass-235-addendum-i-bok-party.json",
+        "data/politicians/pass-252-1952-aug20-27-actors.json",
+        "data/politicians/pass-257j-actor-evidence.json",
+        "data/politicians/pass-257m-finance-public-claims.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p235i-tae-wan-seon",
+      "sources": [
+        "data/politicians/pass-235-addendum-i-bok-party.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p235i-song-bang-yong",
+      "sources": [
+        "data/politicians/pass-235-addendum-i-bok-party.json",
+        "data/politicians/pass-252b-1952-aug26-30-actors.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p235i-lee-jae-hak",
+      "sources": [
+        "data/politicians/pass-235-addendum-i-bok-party.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p235i-im-yong-sun",
+      "sources": [
+        "data/politicians/pass-235-addendum-i-bok-party.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p235i-oh-ui-gwan",
+      "sources": [
+        "data/politicians/pass-235-addendum-i-bok-party.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p235i-ahn-sang-han",
+      "sources": [
+        "data/politicians/pass-235-addendum-i-bok-party.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p235i-park-yeong-chul",
+      "sources": [
+        "data/politicians/pass-235-addendum-i-bok-party.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p235i-jo-ju-yeong",
+      "sources": [
+        "data/politicians/pass-235-addendum-i-bok-party.json",
+        "data/politicians/pass-252-1952-aug20-27-actors.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p236-han-pyo-wook",
+      "sources": [
+        "data/politicians/pass-236-frus-diplomacy-actors.json",
+        "data/politicians/pass-236f-correspondence-actors.json",
+        "data/politicians/pass-236g-march-april-actors.json",
+        "data/politicians/pass-236h-april-actors.json",
+        "data/politicians/pass-238-actor-overlays.json",
+        "data/politicians/pass-252-1952-aug20-27-actors.json",
+        "data/politicians/pass-257s-1954-visit-nnsc-actors.json",
+        "data/politicians/pass-258a-1954-actor-actions.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p236-park-sul-eum",
+      "sources": [
+        "data/politicians/pass-236-frus-diplomacy-actors.json",
+        "data/politicians/pass-236-labor-actors.json",
+        "data/politicians/pass-257k-labor-institution-actors.json",
+        "data/politicians/pass-257q-1954-cabinet-actors.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p236e-shin-tae-ak",
+      "sources": [
+        "data/politicians/pass-236e-party-actors.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p236e-yang-woo-jeong",
+      "sources": [
+        "data/politicians/pass-236e-party-actors.json",
+        "data/politicians/pass-252b-1952-aug26-30-actors.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p236h-shin-tae-young",
+      "sources": [
+        "data/politicians/pass-236h-april-actors.json",
+        "data/politicians/pass-252b-1952-aug26-30-actors.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "pol-choi-duk-shin",
+      "sources": [
+        "data/politicians/pass-238-actor-overlays.json",
+        "data/politicians/pass-238-actor-overlays.json",
+        "data/politicians/pass-257s-1954-visit-nnsc-actors.json",
+        "data/politicians/pass-258a-1954-actor-actions.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p239m3-jeon-jin-han",
+      "sources": [
+        "data/politicians/pass-251-1952-candidate-evidence.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p239l2-paik-seong-uk",
+      "sources": [
+        "data/politicians/pass-251-1952-candidate-evidence.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p239-so-seon-gyu",
+      "sources": [
+        "data/politicians/pass-252-1952-aug20-27-actors.json",
+        "data/politicians/pass-252b-1952-aug26-30-actors.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p239e-kim-tae-seon",
+      "sources": [
+        "data/politicians/pass-252-1952-aug20-27-actors.json",
+        "data/politicians/pass-252b-1952-aug26-30-actors.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p239m3-park-man-won",
+      "sources": [
+        "data/politicians/pass-252-1952-aug20-27-actors.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p238-baek-nam-sik",
+      "sources": [
+        "data/politicians/pass-252b-1952-aug26-30-actors.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p239e-lee-chung-hwan",
+      "sources": [
+        "data/politicians/pass-252b-1952-aug26-30-actors.json",
+        "data/politicians/pass-257n-1953-finance-legislators.json",
+        "data/politicians/pass-257o-1953-1954-identity-audit.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p255b-kim-bong-jae",
+      "sources": [
+        "data/politicians/pass-255b-actor-overlay.json",
+        "data/politicians/pass-257n-1953-finance-legislators.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p255g-kang-in-taek",
+      "sources": [
+        "data/politicians/pass-255g-actor-overlay.json",
+        "data/politicians/pass-257q-1954-cabinet-actors.json",
+        "data/politicians/pass-257w3-uncurk-1954-cabinet-assembly-roster.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p255g-park-hyeon-suk",
+      "sources": [
+        "data/politicians/pass-255g-actor-overlay.json",
+        "data/politicians/pass-257q-1954-cabinet-actors.json",
+        "data/politicians/pass-257w3-uncurk-1954-cabinet-assembly-roster.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p255g-choi-chang-sun",
+      "sources": [
+        "data/politicians/pass-255g-actor-overlay.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p255g-lee-sun-yong",
+      "sources": [
+        "data/politicians/pass-255g-actor-overlay.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p255g-won-sang-nam",
+      "sources": [
+        "data/politicians/pass-255g-actor-overlay.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p257-kim-il-su-seoul-party",
+      "sources": [
+        "data/politicians/pass-257-1953-party-policing-evidence.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p257-cho-jeong-hun-1953",
+      "sources": [
+        "data/politicians/pass-257-1953-party-policing-evidence.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p257-cho-sun-1953-party",
+      "sources": [
+        "data/politicians/pass-257-1953-party-policing-evidence.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p257-seo-i-hwan-1953",
+      "sources": [
+        "data/politicians/pass-257-1953-party-policing-evidence.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p257-lee-dong-hwan-1953",
+      "sources": [
+        "data/politicians/pass-257-1953-party-policing-evidence.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p257-jin-seung-guk-1953",
+      "sources": [
+        "data/politicians/pass-257-1953-party-policing-evidence.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p257-park-yong-man-1953",
+      "sources": [
+        "data/politicians/pass-257-1953-party-policing-evidence.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p257-kim-chang-min-1953",
+      "sources": [
+        "data/politicians/pass-257-1953-party-policing-evidence.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p252b-lee-jin-su",
+      "sources": [
+        "data/politicians/pass-257n-1953-finance-legislators.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p239m3-seo-beom-seok",
+      "sources": [
+        "data/politicians/pass-257n-1953-finance-legislators.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p257n-kwon-jung-don",
+      "sources": [
+        "data/politicians/pass-257n-1953-finance-legislators.json",
+        "data/politicians/pass-257o-1953-1954-identity-audit.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p238-kim-jong-hoe",
+      "sources": [
+        "data/politicians/pass-257n-1953-finance-legislators.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p257n-eom-byeong-hak",
+      "sources": [
+        "data/politicians/pass-257n-1953-finance-legislators.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "pol-chang-taek-sang",
+      "sources": [
+        "data/politicians/pass-257n-1953-finance-legislators.json",
+        "data/politicians/pass-257o-1953-1954-identity-audit.json",
+        "data/politicians/pass-257o2-1954-election-diplomatic-actor-overlay.json",
+        "data/politicians.json",
+        "data/research/candidates/pass-243-1952-cabinet-politician-nodes.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p239m3-an-yong-dae",
+      "sources": [
+        "data/politicians/pass-257n-1953-finance-legislators.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p257n-lee-jong-hyeon-1953-mp",
+      "sources": [
+        "data/politicians/pass-257n-1953-finance-legislators.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p247b-baek-nak-jun",
+      "sources": [
+        "data/politicians/pass-257n-1953-finance-legislators.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "pol-yi-ki-pung",
+      "sources": [
+        "data/politicians/pass-257o2-1954-election-diplomatic-actor-overlay.json",
+        "data/politicians/pass-257r-1954-election-governance-actors.json",
+        "data/politicians/pass-257w3-uncurk-1954-cabinet-assembly-roster.json",
+        "data/politicians/pass-258a-1954-actor-actions.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p239e-kim-jun-yeon",
+      "sources": [
+        "data/politicians/pass-257o2-1954-election-diplomatic-actor-overlay.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p241-kim-su-seon",
+      "sources": [
+        "data/politicians/pass-257o2-1954-election-diplomatic-actor-overlay.json",
+        "data/politicians/pass-258a-1954-actor-actions.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p239l2-paik-han-sung",
+      "sources": [
+        "data/politicians/pass-257q-1954-cabinet-actors.json",
+        "data/politicians/pass-257w3-uncurk-1954-cabinet-assembly-roster.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p257q-park-hee-hyeon",
+      "sources": [
+        "data/politicians/pass-257q-1954-cabinet-actors.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-1952-sep-justice-seo-sang-hwan",
+      "sources": [
+        "data/politicians/pass-257q-1954-cabinet-actors.json",
+        "data/politicians/pass-257w3-uncurk-1954-cabinet-assembly-roster.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "pol-kim-bop-rin",
+      "sources": [
+        "data/politicians/pass-257q-1954-cabinet-actors.json",
+        "data/politicians/pass-257r-1954-election-governance-actors.json",
+        "data/politicians/pass-257w3-uncurk-1954-cabinet-assembly-roster.json",
+        "data/politicians/pass-258a-1954-actor-actions.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p257q-yang-seong-bong",
+      "sources": [
+        "data/politicians/pass-257q-1954-cabinet-actors.json",
+        "data/politicians/pass-257w3-uncurk-1954-cabinet-assembly-roster.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p257q-ahn-dong-hyeok",
+      "sources": [
+        "data/politicians/pass-257q-1954-cabinet-actors.json",
+        "data/politicians/pass-257w3-uncurk-1954-cabinet-assembly-roster.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p239l2-choi-jai-yoo",
+      "sources": [
+        "data/politicians/pass-257q-1954-cabinet-actors.json",
+        "data/politicians/pass-257w3-uncurk-1954-cabinet-assembly-roster.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p257q-yun-seong-sun",
+      "sources": [
+        "data/politicians/pass-257q-1954-cabinet-actors.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p239l2-lee-joong-jai",
+      "sources": [
+        "data/politicians/pass-257q-1954-cabinet-actors.json",
+        "data/politicians/pass-257w3-uncurk-1954-cabinet-assembly-roster.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p239l2-cho-yong-soon",
+      "sources": [
+        "data/politicians/pass-257q-1954-cabinet-actors.json",
+        "data/politicians/pass-257w3-uncurk-1954-cabinet-assembly-roster.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p239l2-lee-sun-keun",
+      "sources": [
+        "data/politicians/pass-257q-1954-cabinet-actors.json",
+        "data/politicians/pass-257w-1954-election-geneva-actors.json",
+        "data/politicians/pass-257w3-uncurk-1954-cabinet-assembly-roster.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p239k-choi-kyoo-ok",
+      "sources": [
+        "data/politicians/pass-257q-1954-cabinet-actors.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p239l2-kang-sung-tae",
+      "sources": [
+        "data/politicians/pass-257q-1954-cabinet-actors.json",
+        "data/politicians/pass-257w3-uncurk-1954-cabinet-assembly-roster.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p239l2-lee-jong-lim",
+      "sources": [
+        "data/politicians/pass-257q-1954-cabinet-actors.json",
+        "data/politicians/pass-257w3-uncurk-1954-cabinet-assembly-roster.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p257q-lee-gwang",
+      "sources": [
+        "data/politicians/pass-257q-1954-cabinet-actors.json",
+        "data/politicians/pass-257w3-uncurk-1954-cabinet-assembly-roster.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p239m2-cho-jae-cheon",
+      "sources": [
+        "data/politicians/pass-257r-1954-election-governance-actors.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "pol-kim-youngsam",
+      "sources": [
+        "data/politicians/pass-257r-1954-election-governance-actors.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p247-kim-dal-ho",
+      "sources": [
+        "data/politicians/pass-257r-1954-election-governance-actors.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "pol-kim-do-yeon",
+      "sources": [
+        "data/politicians/pass-257r-1954-election-governance-actors.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p239m-lee-cheol-seung",
+      "sources": [
+        "data/politicians/pass-257r-1954-election-governance-actors.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p239m3-lee-in",
+      "sources": [
+        "data/politicians/pass-257r-1954-election-governance-actors.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p257r-kim-ji-tae-1954",
+      "sources": [
+        "data/politicians/pass-257r-1954-election-governance-actors.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p257r-seo-dong-jin-1954",
+      "sources": [
+        "data/politicians/pass-257r-1954-election-governance-actors.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p257r-kim-du-han-1954",
+      "sources": [
+        "data/politicians/pass-257r-1954-election-governance-actors.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "pol-won-yong-duk",
+      "sources": [
+        "data/politicians/pass-257s-1954-visit-nnsc-actors.json",
+        "data/politicians/pass-258a-1954-actor-actions.json",
+        "data/politicians/pass303-politicians.json",
+        "data/politicians.json",
+        "data/research/politicians/pass-234-martial-law-command-actors.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "pol-cho-chung-whan",
+      "sources": [
+        "data/politicians/pass-257s-1954-visit-nnsc-actors.json",
+        "data/politicians/pass-258a-1954-actor-actions.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p257s-choi-sun-ju-1954",
+      "sources": [
+        "data/politicians/pass-257s-1954-visit-nnsc-actors.json",
+        "data/politicians/pass-257w3-uncurk-1954-cabinet-assembly-roster.json",
+        "data/politicians/pass-258a-1954-actor-actions.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p257v-hong-yeong-seop",
+      "sources": [
+        "data/politicians/pass-257v-1955-daegu-local-party-actors.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p257v-kim-min",
+      "sources": [
+        "data/politicians/pass-257v-1955-daegu-local-party-actors.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p257v-park-gi-un",
+      "sources": [
+        "data/politicians/pass-257v2-park-gi-un.json",
+        "data/politicians/pass-258a-1954-actor-actions.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p239l2-im-chui-ho",
+      "sources": [
+        "data/politicians/pass-257w-1954-election-geneva-actors.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p257w-lee-beom-nyeong",
+      "sources": [
+        "data/politicians/pass-257w-1954-election-geneva-actors.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p257w-un-yoon-kun-joong",
+      "sources": [
+        "data/politicians/pass-257w3-uncurk-1954-cabinet-assembly-roster.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-p257w-un-choi-kyoo-ok",
+      "sources": [
+        "data/politicians/pass-257w3-uncurk-1954-cabinet-assembly-roster.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "pol-han-hui-seok",
+      "sources": [
+        "data/politicians/pass303-politicians.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "pol-shin-tae-young",
+      "sources": [
+        "data/research/candidates/pass-243-1952-cabinet-politician-nodes.json",
+        "data/research/politicians/pass-234-martial-law-command-actors.json"
+      ]
+    },
+    {
+      "type": "organizations",
+      "id": "org-jeheon-dongjihoe",
+      "sources": [
+        "data/organizations/pass-257v2-jeheon-dongjihoe.json",
+        "data/organizations/registry.json"
+      ]
+    },
+    {
+      "type": "organizations",
+      "id": "org-kib-liquidation-committee",
+      "sources": [
+        "data/research/candidates/pass-88-kdb-statute-kib-succession-actors-events.json",
+        "data/research/candidates/pass-89-kdb-founding-liquidator-authority.json",
+        "data/research/candidates/pass-90-kib-liquidation-governance.json"
+      ]
+    }
+  ],
+  "status": "REVIEW_REQUIRED",
+  "warning": "Non-destructive integrated index, not a verified historical database."
+}\n
