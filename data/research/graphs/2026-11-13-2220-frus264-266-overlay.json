@@ -1,0 +1,156 @@
+{
+  "run": "2026-11-13-2220",
+  "status": "RESEARCHED_NOT_CENTRAL",
+  "accessDate": "2026-11-13",
+  "documents": [
+    {
+      "id": "doc-frus1952-v15p1-d264",
+      "date": "1952-09-08",
+      "origin": "US Joint Chiefs of Staff",
+      "identifier": "JCS 917910",
+      "repository": "US Department of State FRUS",
+      "url": "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d264",
+      "originalLocation": "FE files lot 55 D 128",
+      "originalTranscriptInspected": true
+    },
+    {
+      "id": "doc-frus1952-v15p1-d265",
+      "date": "1952-09-09",
+      "origin": "USUN / Gross",
+      "identifier": "Telegram 228; 795.00/9-952",
+      "repository": "US Department of State FRUS",
+      "url": "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d265",
+      "originalTranscriptInspected": true
+    },
+    {
+      "id": "doc-frus1952-v15p1-d266",
+      "date": "1952-09-10",
+      "origin": "US Policy Planning Staff / Charles C. Stelle",
+      "identifier": "PPS files lot 64 D 653 Korea",
+      "repository": "US Department of State FRUS",
+      "url": "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d266",
+      "originalTranscriptInspected": true
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-provisional-19520908-jcs-options",
+      "date": "1952-09-08",
+      "action": "JCS transmits multiple armistice/POW options for Clark's comment",
+      "proposed_by": [
+        "org-us-jcs"
+      ],
+      "decided_by": [],
+      "executed_by": [],
+      "legal_authority": [],
+      "evidence": [
+        "doc-frus1952-v15p1-d264"
+      ],
+      "uncertainty": "No proof Truman statement issued or options implemented"
+    },
+    {
+      "id": "evt-provisional-19520909-lie-eden-schedule",
+      "date": "1952-09-09",
+      "action": "Gross reports Lie arranged Sept 11 Eden meeting; editorial note later reports meeting and no British troops promised",
+      "observed_by": [
+        "Ernest Gross"
+      ],
+      "evidence": [
+        "doc-frus1952-v15p1-d265"
+      ],
+      "uncertainty": "Sept 12 London telegram is editorial citation, not separately inspected"
+    },
+    {
+      "id": "evt-provisional-19520910-stelle-embargo-opposition",
+      "date": "1952-09-10",
+      "action": "Stelle recommends abandoning August 14 total-embargo working-paper route",
+      "proposed_by": [
+        "Charles C. Stelle"
+      ],
+      "opposed_by": [
+        "Charles C. Stelle"
+      ],
+      "decided_by": [],
+      "evidence": [
+        "doc-frus1952-v15p1-d266"
+      ],
+      "uncertainty": "Recommendation not adopted policy"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-19520908-truman-statement-not-yet-approved",
+      "status": "NARROWED",
+      "supporting": [
+        "doc-frus1952-v15p1-d264"
+      ],
+      "text": "JCS 917910 says earlier statement not recommended, but proposes revised public statement; no evidence of actual delivery"
+    },
+    {
+      "id": "claim-19520911-lie-eden-meeting",
+      "status": "OPEN",
+      "supporting": [
+        "doc-frus1952-v15p1-d265"
+      ],
+      "text": "Sept 9 scheduling corroborated by editorial citation of Sept 12 London report, but original telegram not independently inspected"
+    },
+    {
+      "id": "claim-19520910-total-embargo-adopted",
+      "status": "OPEN",
+      "contradicting": [
+        "doc-frus1952-v15p1-d266"
+      ],
+      "text": "Stelle advised against August 14 total embargo proposal; recommendation is not final decision"
+    }
+  ],
+  "leadQueue": [
+    {
+      "target": "FE files lot 55 D 128 JCS 917927 dated 1952-09-09",
+      "purpose": "Determine exact text of revised presidential statement and whether approved"
+    },
+    {
+      "target": "FE files lot 55 D 128 Clark C 55297 dated 1952-09-17",
+      "purpose": "Check revised armistice clauses 51 and 54"
+    },
+    {
+      "target": "US Embassy London telegram 1467 dated 1952-09-12, 795.00/9-1252",
+      "purpose": "Directly inspect Lie-Eden meeting report and British response"
+    },
+    {
+      "target": "PPS lot 64 D 653 Korea, Nitze reply to Stelle Sept 1952",
+      "purpose": "Determine whether embargo objection was adopted"
+    },
+    {
+      "target": "UN General Assembly seventh session First Committee verbatim records Oct 1952",
+      "purpose": "Compare actual resolution proposals with Stelle recommendation"
+    },
+    {
+      "target": "Republic of Korea National Assembly September 1952 plenary transcript",
+      "purpose": "Find Korean debate on nonforcible POW return"
+    },
+    {
+      "target": "ROK Ministry of Foreign Affairs September 1952 armistice correspondence",
+      "purpose": "Identify Korean officials and position independent of US cables"
+    },
+    {
+      "target": "ICRC 1952 POW repatriation memoranda",
+      "purpose": "Independently test legal interpretation of nonforcible repatriation"
+    },
+    {
+      "target": "US JCS 917569 dated 1952-09-04",
+      "purpose": "Inspect original decision not to recommend initial Truman statement"
+    },
+    {
+      "target": "UNC Panmunjom delegation records 1952-09-08 to 1952-09-20",
+      "purpose": "Verify whether proposed alternatives were actually tabled"
+    }
+  ],
+  "integrity": {
+    "centralRegistryUpdated": false,
+    "koreanPoliticianPromotions": 0,
+    "independentProvenanceCrossChecks": 0,
+    "adversarialExternalSearches": 0,
+    "weeklyFullDebtReview": "not performed (Friday)",
+    "floot": "untouched"
+  }
+}
