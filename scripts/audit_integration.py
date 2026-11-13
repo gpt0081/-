@@ -1,0 +1,39 @@
+#!/usr/bin/env python3
+"""Validate the lossless consolidated registries without claiming historical truth."""
+import json, pathlib, collections, hashlib, sys
+root=pathlib.Path(__file__).resolve().parents[1]
+out=root/"data/integration/generated"
+kinds=("documents","claims","events","politicians","organizations")
+report=json.loads((out/"report.json").read_text())
+sources=json.loads((out/"sources.json").read_text())["sources"]
+issues=[]
+paths=[s["path"] for s in sources]
+if len(paths)!=len(set(paths)):issues.append({"code":"DUPLICATE_SOURCE_PATH"})
+if report["sourceFiles"]!=len(sources):issues.append({"code":"SOURCE_COUNT_MISMATCH"})
+ids={}
+for kind in kinds:
+    obj=json.loads((out/(kind+".json")).read_text())
+    rows=obj["records"]
+    ids[kind]={r["id"] for r in rows}
+    if len(ids[kind])!=len(rows):issues.append({"code":"DUPLICATE_CENTRAL_ID","kind":kind})
+    if len(rows)!=report["totals"][kind]["uniqueIds"]:issues.append({"code":"REGISTRY_COUNT_MISMATCH","kind":kind})
+    for r in rows:
+        if r["integrationStatus"]=="CONFLICTED" and r.get("canonicalSelection") is not None:
+            issues.append({"code":"UNSAFE_CONFLICT_SELECTION","kind":kind,"id":r["id"]})
+        if not r.get("alternatives"):issues.append({"code":"NO_ALTERNATIVES","kind":kind,"id":r["id"]})
+        for alt in r["alternatives"]:
+            if not alt.get("provenance"):issues.append({"code":"MISSING_PROVENANCE","kind":kind,"id":r["id"]})
+            for p in alt.get("provenance",[]):
+                if p["path"] not in paths:issues.append({"code":"UNKNOWN_SOURCE","kind":kind,"id":r["id"],"path":p["path"]})
+aux=json.loads((out/"auxiliary.json").read_text())["records"]
+aux_paths={a["source"] for a in aux}
+missing_aux=[s["path"] for s in sources if s["status"]=="AUXILIARY_JSON_INDEXED" and s["path"] not in aux_paths]
+for p in missing_aux:issues.append({"code":"AUXILIARY_SOURCE_MISSING","path":p})
+summary={"sourceFiles":len(sources),"uniqueCentralIds":{k:len(v) for k,v in ids.items()},
+"conflictedIds":len(report["conflictingIds"]),"auxiliaryRecords":len(aux),
+"unresolvedSources":[s["path"] for s in sources if s["status"] in ("PARSE_ERROR","AUXILIARY_JSON_INDEXED")],
+"integrityIssues":issues,"centralSync":"PARTIAL" if report["conflictingIds"] or report["parseErrors"] or aux else "PASS",
+"note":"Registry presence and provenance checks only. Referential and historical adjudication still required."}
+(out/"integrity-audit.json").write_text(json.dumps(summary,ensure_ascii=False,indent=2)+"\n")
+print(json.dumps({k:v for k,v in summary.items() if k not in ("unresolvedSources","integrityIssues")},ensure_ascii=False))
+if issues:sys.exit(1)
