@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-30",
+  "updatedAt": "2026-11-14",
   "purpose": "대한민국 정치인 실록의 인물 registry. 대통령은 초기 backbone일 뿐이며 모든 인물은 독립된 정치인 노드로 취급한다.",
   "politicians": [
     {
@@ -812,7 +812,72 @@
         "provenance": "Original FRUS or NIKH chronology; see pass242 actor overlay"
       },
       "researchOverlays": [
-        "data/politicians/pass-243-1958-actor-evidence.json"
+        "data/politicians/pass-243-1958-actor-evidence.json",
+        {
+          "source": "data/politicians/run224-may1952-actors.json",
+          "sourceRun": 224,
+          "record": {
+            "id": "pol-cho-bong-am",
+            "name": "조봉암",
+            "aliases": [
+              "曺奉岩",
+              "Cho Bong-am",
+              "죽산",
+              "竹山"
+            ],
+            "lifespan": {
+              "born": "1899",
+              "died": "1959",
+              "verification": "AKS_RETROSPECTIVE_NOT_PRIMARY"
+            },
+            "roleAtTime": "1952-01-18·06-11 국회 부의장 의사 진행",
+            "roleVerification": "ORIGINAL_TRANSCRIPTION",
+            "researchStatus": "IDENTIFIED",
+            "eventIds": [
+              "evt-r224-assembly-protection"
+            ],
+            "evidenceDocumentIds": [
+              "doc-r224-nikh-0010_0100",
+              "doc-r224-nikh-0010_0110"
+            ],
+            "openLeadId": "L224-ACTOR-pol-cho-bong-am",
+            "historyDebtIds": [],
+            "accessDate": "2026-10-28",
+            "identityCaution": "신원/생몰·직책시기·원면 독립 재검증 필요; 기존 ID 충돌 시 병합 금지"
+          }
+        },
+        {
+          "source": "data/politicians/run225-june1952-actors.json",
+          "sourceRun": 225,
+          "record": {
+            "id": "pol-cho-bong-am",
+            "name": "조봉암",
+            "aliases": [
+              "曺奉岩",
+              "Cho Bong-am"
+            ],
+            "hanjaVerification": "PREVIOUS_RECORD_OR_OFFICIAL_SIGNATORY",
+            "lifespan": {
+              "born": null,
+              "died": null,
+              "verification": "NOT_REVERIFIED_IN_RUN225"
+            },
+            "roleAtTime": "1952-07-04 발췌조항 명칭·공고 논의",
+            "roleVerification": "DOCUMENT_ATTRIBUTED",
+            "researchStatus": "IDENTIFIED",
+            "formalPromotionThisRun": false,
+            "eventIds": [
+              "evt-r225-assembly-vote"
+            ],
+            "evidenceDocumentIds": [
+              "doc-r224-nikh-0010_0170"
+            ],
+            "openLeadId": "L225-ACTOR-pol-cho-bong-am",
+            "historyDebtIds": [],
+            "accessDate": "2026-10-28",
+            "identityCaution": "Existing stable ID reused where available; new candidate never auto-merged on name alone."
+          }
+        }
       ],
       "lifespan": {
         "born": "1899",
@@ -963,7 +1028,45 @@
         ],
         "maturityChange": "none",
         "openLead": "1956-04-09 중앙선거위원회 후보등록대장·기호추첨 원명부와 정당 회의록 대조"
-      }
+      },
+      "researchOverlays": [
+        {
+          "source": "data/politicians/run225-june1952-actors.json",
+          "sourceRun": 225,
+          "record": {
+            "id": "pol-lee-beom-seok",
+            "name": "이범석",
+            "aliases": [
+              "李範奭",
+              "Lee Beom-seok",
+              "Yi Pom-sok"
+            ],
+            "hanjaVerification": "PREVIOUS_RECORD_OR_OFFICIAL_SIGNATORY",
+            "lifespan": {
+              "born": null,
+              "died": null,
+              "verification": "NOT_REVERIFIED_IN_RUN225"
+            },
+            "roleAtTime": "1952-06 내무장관, 체포 제안(간접전문)·국회 사건 행정",
+            "roleVerification": "DOCUMENT_ATTRIBUTED",
+            "researchStatus": "IDENTIFIED",
+            "formalPromotionThisRun": false,
+            "eventIds": [
+              "evt-r225-lee-arrest-proposal",
+              "evt-r225-cabinet-command-chain"
+            ],
+            "evidenceDocumentIds": [
+              "doc-r225-frus-163",
+              "doc-r225-frus-176",
+              "doc-r225-archives-gaz688"
+            ],
+            "openLeadId": "L225-ACTOR-pol-lee-beom-seok",
+            "historyDebtIds": [],
+            "accessDate": "2026-10-28",
+            "identityCaution": "Existing stable ID reused where available; new candidate never auto-merged on name alone."
+          }
+        }
+      ]
     },
     {
       "id": "pol-lee-mun-won",
@@ -1587,7 +1690,76 @@
           "DOC-P240-FRUS-78"
         ],
         "notes": "Action-level source links, unresolved Korean originals; no automatic direct-command attribution."
-      }
+      },
+      "researchOverlays": [
+        {
+          "source": "data/politicians/run224-may1952-actors.json",
+          "sourceRun": 224,
+          "record": {
+            "id": "pol-paik-too-chin",
+            "name": "백두진",
+            "aliases": [
+              "白斗鎭",
+              "Paik Too-chin",
+              "Baek Du-jin"
+            ],
+            "lifespan": {
+              "born": null,
+              "died": null,
+              "verification": "NOT_REVERIFIED"
+            },
+            "roleAtTime": "1952-05-23~24 재무장관, Meyer 협정 서명 위임·체결",
+            "roleVerification": "ORIGINAL_TRANSCRIPTION",
+            "researchStatus": "ANNALS_ACTIVE",
+            "eventIds": [
+              "evt-r224-meyer-agreement"
+            ],
+            "evidenceDocumentIds": [
+              "doc-r224-frus-135",
+              "doc-r224-frus-137"
+            ],
+            "openLeadId": "L224-ACTOR-pol-paik-too-chin",
+            "historyDebtIds": [],
+            "accessDate": "2026-10-28",
+            "identityCaution": "신원/생몰·직책시기·원면 독립 재검증 필요; 기존 ID 충돌 시 병합 금지"
+          }
+        },
+        {
+          "source": "data/politicians/run225-june1952-actors.json",
+          "sourceRun": 225,
+          "record": {
+            "id": "pol-paik-too-chin",
+            "name": "백두진",
+            "aliases": [
+              "白斗鎭",
+              "Paik Too-chin",
+              "Baek Du-jin"
+            ],
+            "hanjaVerification": "PREVIOUS_RECORD_OR_OFFICIAL_SIGNATORY",
+            "lifespan": {
+              "born": null,
+              "died": null,
+              "verification": "NOT_REVERIFIED_IN_RUN225"
+            },
+            "roleAtTime": "1952-06 재무장관·경제조정위원회 협의 및 7/7 공포 서명",
+            "roleVerification": "DOCUMENT_ATTRIBUTED",
+            "researchStatus": "ANNALS_ACTIVE",
+            "formalPromotionThisRun": false,
+            "eventIds": [
+              "evt-r225-economic-board",
+              "evt-r225-promulgation"
+            ],
+            "evidenceDocumentIds": [
+              "doc-r225-frus-198",
+              "doc-r225-archives-gaz688"
+            ],
+            "openLeadId": "L225-ACTOR-pol-paik-too-chin",
+            "historyDebtIds": [],
+            "accessDate": "2026-10-28",
+            "identityCaution": "Existing stable ID reused where available; new candidate never auto-merged on name alone."
+          }
+        }
+      ]
     },
     {
       "id": "pol-pyun-yong-tae",
@@ -1827,7 +1999,72 @@
         "date": "2026-10-30",
         "documentIds": [],
         "notes": "Action-level source links, unresolved Korean originals; no automatic direct-command attribution."
-      }
+      },
+      "researchOverlays": [
+        {
+          "source": "data/politicians/run224-may1952-actors.json",
+          "sourceRun": 224,
+          "record": {
+            "id": "pol-pyun-yong-tae",
+            "name": "변영태",
+            "aliases": [
+              "卞榮泰",
+              "Pyun Yong-tae",
+              "Pyon Yung Tai"
+            ],
+            "lifespan": {
+              "born": null,
+              "died": null,
+              "verification": "NOT_REVERIFIED"
+            },
+            "roleAtTime": "1952-03-27 외무부 발신 서한의 작성자",
+            "roleVerification": "ORIGINAL_TRANSCRIPTION",
+            "researchStatus": "VERIFIED",
+            "eventIds": [
+              "evt-r224-rhee-truman-reply"
+            ],
+            "evidenceDocumentIds": [
+              "doc-r224-nikh-le-001"
+            ],
+            "openLeadId": "L224-ACTOR-pol-pyun-yong-tae",
+            "historyDebtIds": [],
+            "accessDate": "2026-10-28",
+            "identityCaution": "신원/생몰·직책시기·원면 독립 재검증 필요; 기존 ID 충돌 시 병합 금지"
+          }
+        },
+        {
+          "source": "data/politicians/run225-june1952-actors.json",
+          "sourceRun": 225,
+          "record": {
+            "id": "pol-pyun-yong-tae",
+            "name": "변영태",
+            "aliases": [
+              "卞榮泰",
+              "Pyun Yong-tae"
+            ],
+            "hanjaVerification": "PREVIOUS_RECORD_OR_OFFICIAL_SIGNATORY",
+            "lifespan": {
+              "born": null,
+              "died": null,
+              "verification": "NOT_REVERIFIED_IN_RUN225"
+            },
+            "roleAtTime": "1952-07-07 외무부 장관 공포 서명",
+            "roleVerification": "DOCUMENT_ATTRIBUTED",
+            "researchStatus": "VERIFIED",
+            "formalPromotionThisRun": false,
+            "eventIds": [
+              "evt-r225-promulgation"
+            ],
+            "evidenceDocumentIds": [
+              "doc-r225-archives-gaz688"
+            ],
+            "openLeadId": "L225-ACTOR-pol-pyun-yong-tae",
+            "historyDebtIds": [],
+            "accessDate": "2026-10-28",
+            "identityCaution": "Existing stable ID reused where available; new candidate never auto-merged on name alone."
+          }
+        }
+      ]
     },
     {
       "id": "pol-lee-beom-seok-1900",
@@ -2275,6 +2512,41 @@
             "DOC-P253F-DH-0912-0020"
           ],
           "attribution": "신문 전사 또는 미국대사관의 동시대 평가. 당사자 직접행위·법적 책임과 구분"
+        }
+      ],
+      "researchOverlays": [
+        {
+          "source": "data/politicians/run224-may1952-actors.json",
+          "sourceRun": 224,
+          "record": {
+            "id": "pol-lim-byong-jik",
+            "name": "임병직",
+            "aliases": [
+              "林炳稷",
+              "Ben C. Limb",
+              "Ben Limb",
+              "Lim Byong-jik",
+              "任炳稷"
+            ],
+            "lifespan": {
+              "bornYear": 1893,
+              "diedYear": 1976,
+              "verification": "AKS academic secondary, year-level; day-month unverified"
+            },
+            "roleAtTime": "1952-06-09 대통령실 측 정국서한 수신인",
+            "roleVerification": "ORIGINAL_TRANSCRIPTION",
+            "researchStatus": "ANNALS_ACTIVE",
+            "eventIds": [
+              "evt-r224-rhee-justification"
+            ],
+            "evidenceDocumentIds": [
+              "doc-r224-nikh-le-019"
+            ],
+            "openLeadId": "L224-ACTOR-pol-lim-byong-jik",
+            "historyDebtIds": [],
+            "accessDate": "2026-10-28",
+            "identityCaution": "신원/생몰·직책시기·원면 독립 재검증 필요; 기존 ID 충돌 시 병합 금지"
+          }
         }
       ]
     },
@@ -17646,6 +17918,1523 @@
         "identityCaution": "한자/관보 직함 확인, 생몰 및 1956 실제 임명일 미확인; 정치적 평가 없음",
         "roleQualification": "관보에 서명된 당일 직함만 확인. 원임명일·법안 발의·실제 정책 집행은 추정하지 않음"
       }
+    },
+    {
+      "id": "pol-r164-seo-min-ho",
+      "name": "서민호",
+      "aliases": [
+        "徐珉濠",
+        "Seo Min-ho"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "OPEN"
+      },
+      "researchStatus": "IDENTIFIED",
+      "registryPromotion": "CANDIDATE_UNVERIFIED",
+      "researchOverlays": [
+        {
+          "source": "data/politicians/run224-may1952-actors.json",
+          "sourceRun": 224,
+          "record": {
+            "id": "pol-r164-seo-min-ho",
+            "name": "서민호",
+            "aliases": [
+              "徐珉濠",
+              "Seo Min-ho"
+            ],
+            "lifespan": {
+              "born": null,
+              "died": null,
+              "verification": "OPEN"
+            },
+            "roleAtTime": "1952-05 구금·국회대립 핵심 당사자, 사법 확정 미확보",
+            "roleVerification": "ORIGINAL_TRANSCRIPTION",
+            "researchStatus": "IDENTIFIED",
+            "eventIds": [
+              "evt-r224-martial-law"
+            ],
+            "evidenceDocumentIds": [
+              "doc-r224-nikh-le-019",
+              "doc-r224-frus-147"
+            ],
+            "openLeadId": "L224-ACTOR-pol-r164-seo-min-ho",
+            "historyDebtIds": [],
+            "accessDate": "2026-10-28",
+            "identityCaution": "신원/생몰·직책시기·원면 독립 재검증 필요; 기존 ID 충돌 시 병합 금지"
+          }
+        },
+        {
+          "source": "data/politicians/run225-june1952-actors.json",
+          "sourceRun": 225,
+          "record": {
+            "id": "pol-r164-seo-min-ho",
+            "name": "서민호",
+            "aliases": [
+              "徐珉濠",
+              "Seo Min-ho"
+            ],
+            "hanjaVerification": "PREVIOUS_RECORD_OR_OFFICIAL_SIGNATORY",
+            "lifespan": {
+              "born": null,
+              "died": null,
+              "verification": "NOT_REVERIFIED_IN_RUN225"
+            },
+            "roleAtTime": "1952 국무회의 서민호 석방 건·총리 질의에 등장",
+            "roleVerification": "DOCUMENT_ATTRIBUTED",
+            "researchStatus": "IDENTIFIED",
+            "formalPromotionThisRun": false,
+            "eventIds": [
+              "evt-r225-cabinet-command-chain"
+            ],
+            "evidenceDocumentIds": [
+              "doc-r225-archives-41",
+              "doc-r225-archives-47"
+            ],
+            "openLeadId": "L225-ACTOR-pol-r164-seo-min-ho",
+            "historyDebtIds": [],
+            "accessDate": "2026-10-28",
+            "identityCaution": "Existing stable ID reused where available; new candidate never auto-merged on name alone."
+          }
+        }
+      ],
+      "connections": [
+        "evt-r224-martial-law"
+      ],
+      "evidenceDocumentIds": [
+        "doc-r224-nikh-le-019",
+        "doc-r224-frus-147"
+      ],
+      "openLeadIds": [
+        "L224-ACTOR-pol-r164-seo-min-ho"
+      ],
+      "sourceFiles": [
+        "data/politicians/run224-may1952-actors.json"
+      ]
+    },
+    {
+      "id": "pol-r141-shin-ik-hui",
+      "name": "신익희",
+      "aliases": [
+        "申翼熙",
+        "Shin Ik-hui",
+        "해공",
+        "海公"
+      ],
+      "lifespan": {
+        "born": "1894",
+        "died": "1956",
+        "verification": "AKS_RETROSPECTIVE_NOT_PRIMARY"
+      },
+      "researchStatus": "IDENTIFIED",
+      "registryPromotion": "CANDIDATE_UNVERIFIED",
+      "researchOverlays": [
+        {
+          "source": "data/politicians/run224-may1952-actors.json",
+          "sourceRun": 224,
+          "record": {
+            "id": "pol-r141-shin-ik-hui",
+            "name": "신익희",
+            "aliases": [
+              "申翼熙",
+              "Shin Ik-hui",
+              "해공",
+              "海公"
+            ],
+            "lifespan": {
+              "born": "1894",
+              "died": "1956",
+              "verification": "AKS_RETROSPECTIVE_NOT_PRIMARY"
+            },
+            "roleAtTime": "1952-06-12~21 국회의장으로 출석요구·답신·개헌안 심의 주재",
+            "roleVerification": "ORIGINAL_TRANSCRIPTION",
+            "researchStatus": "VERIFIED",
+            "eventIds": [
+              "evt-r224-assembly-summons",
+              "evt-r224-assembly-two-amendments"
+            ],
+            "evidenceDocumentIds": [
+              "doc-r224-nikh-0010_0120",
+              "doc-r224-nikh-0010_0130",
+              "doc-r224-nikh-0010_0140"
+            ],
+            "openLeadId": "L224-ACTOR-pol-r141-shin-ik-hui",
+            "historyDebtIds": [],
+            "accessDate": "2026-10-28",
+            "identityCaution": "신원/생몰·직책시기·원면 독립 재검증 필요; 기존 ID 충돌 시 병합 금지"
+          }
+        },
+        {
+          "source": "data/politicians/run225-june1952-actors.json",
+          "sourceRun": 225,
+          "record": {
+            "id": "pol-r141-shin-ik-hui",
+            "name": "신익희",
+            "aliases": [
+              "申翼熙",
+              "Shin Ik-hui"
+            ],
+            "hanjaVerification": "PREVIOUS_RECORD_OR_OFFICIAL_SIGNATORY",
+            "lifespan": {
+              "born": null,
+              "died": null,
+              "verification": "NOT_REVERIFIED_IN_RUN225"
+            },
+            "roleAtTime": "1952-07-04 국회 의사 진행",
+            "roleVerification": "DOCUMENT_ATTRIBUTED",
+            "researchStatus": "VERIFIED",
+            "formalPromotionThisRun": false,
+            "eventIds": [
+              "evt-r225-assembly-vote"
+            ],
+            "evidenceDocumentIds": [
+              "doc-r224-nikh-0010_0170"
+            ],
+            "openLeadId": "L225-ACTOR-pol-r141-shin-ik-hui",
+            "historyDebtIds": [],
+            "accessDate": "2026-10-28",
+            "identityCaution": "Existing stable ID reused where available; new candidate never auto-merged on name alone."
+          }
+        }
+      ],
+      "connections": [
+        "evt-r224-assembly-summons",
+        "evt-r224-assembly-two-amendments"
+      ],
+      "evidenceDocumentIds": [
+        "doc-r224-nikh-0010_0120",
+        "doc-r224-nikh-0010_0130",
+        "doc-r224-nikh-0010_0140"
+      ],
+      "openLeadIds": [
+        "L224-ACTOR-pol-r141-shin-ik-hui"
+      ],
+      "sourceFiles": [
+        "data/politicians/run224-may1952-actors.json"
+      ]
+    },
+    {
+      "id": "pol-r141-eom-sang-seop",
+      "name": "엄상섭",
+      "aliases": [
+        "Eom Sang-seop"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "NOT_VERIFIED_IN_THIS_RUN"
+      },
+      "researchStatus": "IDENTIFIED",
+      "registryPromotion": "CANDIDATE_UNVERIFIED",
+      "researchOverlays": [
+        {
+          "source": "data/politicians/run224-may1952-actors.json",
+          "sourceRun": 224,
+          "record": {
+            "id": "pol-r141-eom-sang-seop",
+            "name": "엄상섭",
+            "aliases": [
+              "Eom Sang-seop"
+            ],
+            "lifespan": {
+              "born": null,
+              "died": null,
+              "verification": "NOT_VERIFIED_IN_THIS_RUN"
+            },
+            "roleAtTime": "1952-01-18 원내 자유당 측 정부 개헌안 토론",
+            "roleVerification": "ORIGINAL_TRANSCRIPTION",
+            "researchStatus": "IDENTIFIED",
+            "eventIds": [
+              "evt-r224-assembly-two-amendments"
+            ],
+            "evidenceDocumentIds": [
+              "doc-r224-nikh-0010_0100"
+            ],
+            "openLeadId": "L224-ACTOR-pol-r141-eom-sang-seop",
+            "historyDebtIds": [],
+            "accessDate": "2026-10-28",
+            "identityCaution": "신원/생몰·직책시기·원면 독립 재검증 필요; 기존 ID 충돌 시 병합 금지"
+          }
+        }
+      ],
+      "connections": [
+        "evt-r224-assembly-two-amendments"
+      ],
+      "evidenceDocumentIds": [
+        "doc-r224-nikh-0010_0100"
+      ],
+      "openLeadIds": [
+        "L224-ACTOR-pol-r141-eom-sang-seop"
+      ],
+      "sourceFiles": [
+        "data/politicians/run224-may1952-actors.json"
+      ]
+    },
+    {
+      "id": "pol-yun-chi-yeong",
+      "name": "윤치영",
+      "aliases": [
+        "尹致暎",
+        "Yun Chi-yeong",
+        "Yoon Chi-yung"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "NOT_CHECKED"
+      },
+      "researchStatus": "IDENTIFIED",
+      "registryPromotion": "CANDIDATE_UNVERIFIED",
+      "researchOverlays": [
+        {
+          "source": "data/politicians/run224-may1952-actors.json",
+          "sourceRun": 224,
+          "record": {
+            "id": "pol-yun-chi-yeong",
+            "name": "윤치영",
+            "aliases": [
+              "尹致暎",
+              "Yun Chi-yeong",
+              "Yoon Chi-yung"
+            ],
+            "lifespan": {
+              "born": null,
+              "died": null,
+              "verification": "NOT_CHECKED"
+            },
+            "roleAtTime": "1952-06-27 국회 개헌 심의 발언",
+            "roleVerification": "ORIGINAL_TRANSCRIPTION",
+            "researchStatus": "IDENTIFIED",
+            "eventIds": [
+              "evt-r224-presidential-term"
+            ],
+            "evidenceDocumentIds": [
+              "doc-r224-nikh-0010_0150"
+            ],
+            "openLeadId": "L224-ACTOR-pol-yun-chi-yeong",
+            "historyDebtIds": [],
+            "accessDate": "2026-10-28",
+            "identityCaution": "신원/생몰·직책시기·원면 독립 재검증 필요; 기존 ID 충돌 시 병합 금지"
+          }
+        }
+      ],
+      "connections": [
+        "evt-r224-presidential-term"
+      ],
+      "evidenceDocumentIds": [
+        "doc-r224-nikh-0010_0150"
+      ],
+      "openLeadIds": [
+        "L224-ACTOR-pol-yun-chi-yeong"
+      ],
+      "sourceFiles": [
+        "data/politicians/run224-may1952-actors.json"
+      ]
+    },
+    {
+      "id": "pol-r164-kim-dong-seong",
+      "name": "김동성",
+      "aliases": [
+        "金東成",
+        "Kim Dong-seong"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "OPEN_IDENTITY_AND_ROSTER"
+      },
+      "researchStatus": "IDENTIFIED",
+      "registryPromotion": "CANDIDATE_UNVERIFIED",
+      "researchOverlays": [
+        {
+          "source": "data/politicians/run224-may1952-actors.json",
+          "sourceRun": 224,
+          "record": {
+            "id": "pol-r164-kim-dong-seong",
+            "name": "김동성",
+            "aliases": [
+              "金東成",
+              "Kim Dong-seong"
+            ],
+            "lifespan": {
+              "born": null,
+              "died": null,
+              "verification": "OPEN_IDENTITY_AND_ROSTER"
+            },
+            "roleAtTime": "1952-06-28 임시의장, 당적변경·정부답변 회의 주재",
+            "roleVerification": "ORIGINAL_TRANSCRIPTION",
+            "researchStatus": "IDENTIFIED",
+            "eventIds": [
+              "evt-r224-party-defections"
+            ],
+            "evidenceDocumentIds": [
+              "doc-r224-nikh-0010_0160"
+            ],
+            "openLeadId": "L224-ACTOR-pol-r164-kim-dong-seong",
+            "historyDebtIds": [],
+            "accessDate": "2026-10-28",
+            "identityCaution": "신원/생몰·직책시기·원면 독립 재검증 필요; 기존 ID 충돌 시 병합 금지"
+          }
+        }
+      ],
+      "connections": [
+        "evt-r224-party-defections"
+      ],
+      "evidenceDocumentIds": [
+        "doc-r224-nikh-0010_0160"
+      ],
+      "openLeadIds": [
+        "L224-ACTOR-pol-r164-kim-dong-seong"
+      ],
+      "sourceFiles": [
+        "data/politicians/run224-may1952-actors.json"
+      ]
+    },
+    {
+      "id": "cand-r174-lee-jong-hyeong",
+      "name": "이종형",
+      "aliases": [
+        "李鍾滎",
+        "Lee Jong-hyeong"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "NOT_VERIFIED"
+      },
+      "researchStatus": "IDENTIFIED",
+      "registryPromotion": "CANDIDATE_UNVERIFIED",
+      "researchOverlays": [
+        {
+          "source": "data/politicians/run224-may1952-actors.json",
+          "sourceRun": 224,
+          "record": {
+            "id": "cand-r174-lee-jong-hyeong",
+            "name": "이종형",
+            "aliases": [
+              "李鍾滎",
+              "Lee Jong-hyeong"
+            ],
+            "lifespan": {
+              "born": null,
+              "died": null,
+              "verification": "NOT_VERIFIED"
+            },
+            "roleAtTime": "1952-06-12 대통령 출석요구 발의",
+            "roleVerification": "ORIGINAL_TRANSCRIPTION",
+            "researchStatus": "IDENTIFIED_CANDIDATE",
+            "eventIds": [
+              "evt-r224-assembly-summons"
+            ],
+            "evidenceDocumentIds": [
+              "doc-r224-nikh-0010_0120"
+            ],
+            "openLeadId": "L224-ACTOR-cand-r174-lee-jong-hyeong",
+            "historyDebtIds": [],
+            "accessDate": "2026-10-28",
+            "identityCaution": "신원/생몰·직책시기·원면 독립 재검증 필요; 기존 ID 충돌 시 병합 금지"
+          }
+        }
+      ],
+      "connections": [
+        "evt-r224-assembly-summons"
+      ],
+      "evidenceDocumentIds": [
+        "doc-r224-nikh-0010_0120"
+      ],
+      "openLeadIds": [
+        "L224-ACTOR-cand-r174-lee-jong-hyeong"
+      ],
+      "sourceFiles": [
+        "data/politicians/run224-may1952-actors.json"
+      ]
+    },
+    {
+      "id": "cand-r174-jo-ju-yeong",
+      "name": "조주영",
+      "aliases": [
+        "趙柱泳",
+        "Jo Ju-yeong"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "NOT_VERIFIED"
+      },
+      "researchStatus": "IDENTIFIED",
+      "registryPromotion": "CANDIDATE_UNVERIFIED",
+      "researchOverlays": [
+        {
+          "source": "data/politicians/run224-may1952-actors.json",
+          "sourceRun": 224,
+          "record": {
+            "id": "cand-r174-jo-ju-yeong",
+            "name": "조주영",
+            "aliases": [
+              "趙柱泳",
+              "Jo Ju-yeong"
+            ],
+            "lifespan": {
+              "born": null,
+              "died": null,
+              "verification": "NOT_VERIFIED"
+            },
+            "roleAtTime": "1952-06-28 체신부장관으로 개헌안 질의에 답변",
+            "roleVerification": "ORIGINAL_TRANSCRIPTION",
+            "researchStatus": "IDENTIFIED_CANDIDATE",
+            "eventIds": [
+              "evt-r224-party-defections"
+            ],
+            "evidenceDocumentIds": [
+              "doc-r224-nikh-0010_0160"
+            ],
+            "openLeadId": "L224-ACTOR-cand-r174-jo-ju-yeong",
+            "historyDebtIds": [],
+            "accessDate": "2026-10-28",
+            "identityCaution": "신원/생몰·직책시기·원면 독립 재검증 필요; 기존 ID 충돌 시 병합 금지"
+          }
+        },
+        {
+          "source": "data/politicians/run225-june1952-actors.json",
+          "sourceRun": 225,
+          "record": {
+            "id": "cand-r174-jo-ju-yeong",
+            "name": "조주영",
+            "aliases": [
+              "趙柱泳",
+              "Jo Ju-yeong"
+            ],
+            "hanjaVerification": "PREVIOUS_RECORD_OR_OFFICIAL_SIGNATORY",
+            "lifespan": {
+              "born": null,
+              "died": null,
+              "verification": "NOT_REVERIFIED_IN_RUN225"
+            },
+            "roleAtTime": "1952-07-07 체신부 장관 공포 서명",
+            "roleVerification": "DOCUMENT_ATTRIBUTED",
+            "researchStatus": "IDENTIFIED_CANDIDATE",
+            "formalPromotionThisRun": false,
+            "eventIds": [
+              "evt-r225-promulgation"
+            ],
+            "evidenceDocumentIds": [
+              "doc-r225-archives-gaz688"
+            ],
+            "openLeadId": "L225-ACTOR-cand-r174-jo-ju-yeong",
+            "historyDebtIds": [],
+            "accessDate": "2026-10-28",
+            "identityCaution": "Existing stable ID reused where available; new candidate never auto-merged on name alone."
+          }
+        }
+      ],
+      "connections": [
+        "evt-r224-party-defections"
+      ],
+      "evidenceDocumentIds": [
+        "doc-r224-nikh-0010_0160"
+      ],
+      "openLeadIds": [
+        "L224-ACTOR-cand-r174-jo-ju-yeong"
+      ],
+      "sourceFiles": [
+        "data/politicians/run224-may1952-actors.json"
+      ]
+    },
+    {
+      "id": "pol-r139-jang-taek-sang",
+      "name": "장택상",
+      "aliases": [
+        "張澤相",
+        "Chang Taek-sang",
+        "Jang Taek-sang"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "NOT_RECHECKED"
+      },
+      "researchStatus": "IDENTIFIED",
+      "registryPromotion": "CANDIDATE_UNVERIFIED",
+      "researchOverlays": [
+        {
+          "source": "data/politicians/run224-may1952-actors.json",
+          "sourceRun": 224,
+          "record": {
+            "id": "pol-r139-jang-taek-sang",
+            "name": "장택상",
+            "aliases": [
+              "張澤相",
+              "Chang Taek-sang",
+              "Jang Taek-sang"
+            ],
+            "lifespan": {
+              "born": null,
+              "died": null,
+              "verification": "NOT_RECHECKED"
+            },
+            "roleAtTime": "1952-04 국무총리 취임 관련 사후 한국학중앙연구원 해제 참조(원발령 미열람)",
+            "roleVerification": "RETROSPECTIVE_ONLY",
+            "researchStatus": "ANNALS_ACTIVE",
+            "eventIds": [
+              "evt-r224-martial-law"
+            ],
+            "evidenceDocumentIds": [],
+            "openLeadId": "L224-ACTOR-pol-r139-jang-taek-sang",
+            "historyDebtIds": [],
+            "accessDate": "2026-10-28",
+            "identityCaution": "신원/생몰·직책시기·원면 독립 재검증 필요; 기존 ID 충돌 시 병합 금지"
+          }
+        },
+        {
+          "source": "data/politicians/run225-june1952-actors.json",
+          "sourceRun": 225,
+          "record": {
+            "id": "pol-r139-jang-taek-sang",
+            "name": "장택상",
+            "aliases": [
+              "張澤相",
+              "Chang Taek-sang",
+              "Jang Taek-sang"
+            ],
+            "hanjaVerification": "PREVIOUS_RECORD_OR_OFFICIAL_SIGNATORY",
+            "lifespan": {
+              "born": null,
+              "died": null,
+              "verification": "NOT_REVERIFIED_IN_RUN225"
+            },
+            "roleAtTime": "1952-06 국무총리·국회해산 반대 및 절충안 작성",
+            "roleVerification": "DOCUMENT_ATTRIBUTED",
+            "researchStatus": "ANNALS_ACTIVE",
+            "formalPromotionThisRun": false,
+            "eventIds": [
+              "evt-r225-cabinet-compromise",
+              "evt-r225-cabinet-command-chain",
+              "evt-r225-promulgation"
+            ],
+            "evidenceDocumentIds": [
+              "doc-r225-frus-163",
+              "doc-r225-archives-47",
+              "doc-r225-archives-gaz688"
+            ],
+            "openLeadId": "L225-ACTOR-pol-r139-jang-taek-sang",
+            "historyDebtIds": [],
+            "accessDate": "2026-10-28",
+            "identityCaution": "Existing stable ID reused where available; new candidate never auto-merged on name alone."
+          }
+        }
+      ],
+      "connections": [
+        "evt-r224-martial-law"
+      ],
+      "evidenceDocumentIds": [],
+      "openLeadIds": [
+        "L224-ACTOR-pol-r139-jang-taek-sang"
+      ],
+      "sourceFiles": [
+        "data/politicians/run224-may1952-actors.json"
+      ]
+    },
+    {
+      "id": "pol-r148-kwak-sang-hun",
+      "name": "곽상훈",
+      "aliases": [
+        "郭尙勳",
+        "Kwak Sang-hun"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "NOT_VERIFIED_THIS_RUN"
+      },
+      "researchStatus": "IDENTIFIED",
+      "registryPromotion": "CANDIDATE_UNVERIFIED",
+      "researchOverlays": [
+        {
+          "source": "data/politicians/run224-may1952-actors.json",
+          "sourceRun": 224,
+          "record": {
+            "id": "pol-r148-kwak-sang-hun",
+            "name": "곽상훈",
+            "aliases": [
+              "郭尙勳",
+              "Kwak Sang-hun"
+            ],
+            "lifespan": {
+              "born": null,
+              "died": null,
+              "verification": "NOT_VERIFIED_THIS_RUN"
+            },
+            "roleAtTime": "1952-04-17 의원내각제 개헌안 발의 대표, 국편 사후 해제 근거",
+            "roleVerification": "RETROSPECTIVE_ONLY",
+            "researchStatus": "IDENTIFIED",
+            "eventIds": [
+              "evt-r224-assembly-two-amendments"
+            ],
+            "evidenceDocumentIds": [],
+            "openLeadId": "L224-ACTOR-pol-r148-kwak-sang-hun",
+            "historyDebtIds": [],
+            "accessDate": "2026-10-28",
+            "identityCaution": "신원/생몰·직책시기·원면 독립 재검증 필요; 기존 ID 충돌 시 병합 금지"
+          }
+        },
+        {
+          "source": "data/politicians/run225-june1952-actors.json",
+          "sourceRun": 225,
+          "record": {
+            "id": "pol-r148-kwak-sang-hun",
+            "name": "곽상훈",
+            "aliases": [
+              "郭尙勳",
+              "Kwak Sang-hun"
+            ],
+            "hanjaVerification": "PREVIOUS_RECORD_OR_OFFICIAL_SIGNATORY",
+            "lifespan": {
+              "born": null,
+              "died": null,
+              "verification": "NOT_REVERIFIED_IN_RUN225"
+            },
+            "roleAtTime": "1952-07-07 보도상 7명 불구속 재판 대상(판결 미확인)",
+            "roleVerification": "DOCUMENT_ATTRIBUTED",
+            "researchStatus": "IDENTIFIED",
+            "formalPromotionThisRun": false,
+            "eventIds": [
+              "evt-r225-july-arrest-report"
+            ],
+            "evidenceDocumentIds": [
+              "doc-r225-nikh-press-0707"
+            ],
+            "openLeadId": "L225-ACTOR-pol-r148-kwak-sang-hun",
+            "historyDebtIds": [],
+            "accessDate": "2026-10-28",
+            "identityCaution": "Existing stable ID reused where available; new candidate never auto-merged on name alone."
+          }
+        }
+      ],
+      "connections": [
+        "evt-r224-assembly-two-amendments"
+      ],
+      "evidenceDocumentIds": [],
+      "openLeadIds": [
+        "L224-ACTOR-pol-r148-kwak-sang-hun"
+      ],
+      "sourceFiles": [
+        "data/politicians/run224-may1952-actors.json"
+      ]
+    },
+    {
+      "id": "cand-r224-jeong-sun-jo",
+      "name": "정순조",
+      "aliases": [
+        "鄭純朝",
+        "Jeong Sun-jo (provisional)"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "UNVERIFIED"
+      },
+      "researchStatus": "IDENTIFIED",
+      "registryPromotion": "CANDIDATE_UNVERIFIED",
+      "researchOverlays": [
+        {
+          "source": "data/politicians/run224-may1952-actors.json",
+          "sourceRun": 224,
+          "record": {
+            "id": "cand-r224-jeong-sun-jo",
+            "name": "정순조",
+            "aliases": [
+              "鄭純朝",
+              "Jeong Sun-jo (provisional)"
+            ],
+            "lifespan": {
+              "born": null,
+              "died": null,
+              "verification": "UNVERIFIED"
+            },
+            "roleAtTime": "1952-06-11 국회기능보장 결의 제안",
+            "roleVerification": "ORIGINAL_TRANSCRIPTION",
+            "researchStatus": "DISCOVERED",
+            "eventIds": [
+              "evt-r224-assembly-protection"
+            ],
+            "evidenceDocumentIds": [
+              "doc-r224-nikh-0010_0110"
+            ],
+            "openLeadId": "L224-ACTOR-jeong-sun-jo",
+            "historyDebtIds": [],
+            "accessDate": "2026-10-28",
+            "identityCaution": "동명이인·생몰·공직 원부 대조 전 VERIFIED 금지"
+          }
+        }
+      ],
+      "connections": [
+        "evt-r224-assembly-protection"
+      ],
+      "evidenceDocumentIds": [
+        "doc-r224-nikh-0010_0110"
+      ],
+      "openLeadIds": [
+        "L224-ACTOR-jeong-sun-jo"
+      ],
+      "sourceFiles": [
+        "data/politicians/run224-may1952-actors.json"
+      ]
+    },
+    {
+      "id": "cand-r224-an-sang-han",
+      "name": "안상한",
+      "aliases": [
+        "安相漢",
+        "An Sang-han (provisional)"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "UNVERIFIED"
+      },
+      "researchStatus": "IDENTIFIED",
+      "registryPromotion": "CANDIDATE_UNVERIFIED",
+      "researchOverlays": [
+        {
+          "source": "data/politicians/run224-may1952-actors.json",
+          "sourceRun": 224,
+          "record": {
+            "id": "cand-r224-an-sang-han",
+            "name": "안상한",
+            "aliases": [
+              "安相漢",
+              "An Sang-han (provisional)"
+            ],
+            "lifespan": {
+              "born": null,
+              "died": null,
+              "verification": "UNVERIFIED"
+            },
+            "roleAtTime": "1952-06-14 호헌결의 주지 긴급동의",
+            "roleVerification": "ORIGINAL_TRANSCRIPTION",
+            "researchStatus": "DISCOVERED",
+            "eventIds": [
+              "evt-r224-rhee-assembly-reply"
+            ],
+            "evidenceDocumentIds": [
+              "doc-r224-nikh-0010_0130"
+            ],
+            "openLeadId": "L224-ACTOR-an-sang-han",
+            "historyDebtIds": [],
+            "accessDate": "2026-10-28",
+            "identityCaution": "동명이인·생몰·공직 원부 대조 전 VERIFIED 금지"
+          }
+        }
+      ],
+      "connections": [
+        "evt-r224-rhee-assembly-reply"
+      ],
+      "evidenceDocumentIds": [
+        "doc-r224-nikh-0010_0130"
+      ],
+      "openLeadIds": [
+        "L224-ACTOR-an-sang-han"
+      ],
+      "sourceFiles": [
+        "data/politicians/run224-may1952-actors.json"
+      ]
+    },
+    {
+      "id": "pol-r164-ji-cheong-cheon",
+      "name": "지청천",
+      "aliases": [
+        "池靑天",
+        "Ji Cheong-cheon (provisional)"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "UNVERIFIED"
+      },
+      "researchStatus": "IDENTIFIED",
+      "registryPromotion": "CANDIDATE_UNVERIFIED",
+      "researchOverlays": [
+        {
+          "source": "data/politicians/run224-may1952-actors.json",
+          "sourceRun": 224,
+          "record": {
+            "id": "pol-r164-ji-cheong-cheon",
+            "name": "지청천",
+            "aliases": [
+              "池靑天",
+              "Ji Cheong-cheon (provisional)"
+            ],
+            "lifespan": {
+              "born": null,
+              "died": null,
+              "verification": "UNVERIFIED"
+            },
+            "roleAtTime": "1952-07-04 전원위원장 개헌심의 보고",
+            "roleVerification": "ORIGINAL_TRANSCRIPTION",
+            "researchStatus": "EXISTING_CANDIDATE_DEEPENED",
+            "eventIds": [
+              "evt-r224-july4-amendment"
+            ],
+            "evidenceDocumentIds": [
+              "doc-r224-nikh-0010_0170"
+            ],
+            "openLeadId": "L224-ACTOR-ji-cheong-cheon",
+            "historyDebtIds": [],
+            "accessDate": "2026-10-28",
+            "identityCaution": "동명이인·생몰·공직 원부 대조 전 VERIFIED 금지"
+          }
+        },
+        {
+          "source": "data/politicians/run225-june1952-actors.json",
+          "sourceRun": 225,
+          "record": {
+            "id": "pol-r164-ji-cheong-cheon",
+            "name": "지청천",
+            "aliases": [
+              "池靑天",
+              "Ji Cheong-cheon"
+            ],
+            "hanjaVerification": "PREVIOUS_RECORD_OR_OFFICIAL_SIGNATORY",
+            "lifespan": {
+              "born": null,
+              "died": null,
+              "verification": "NOT_REVERIFIED_IN_RUN225"
+            },
+            "roleAtTime": "1952-07-04 전원위원장으로 협상 결과 보고",
+            "roleVerification": "DOCUMENT_ATTRIBUTED",
+            "researchStatus": "IDENTIFIED",
+            "formalPromotionThisRun": false,
+            "eventIds": [
+              "evt-r225-assembly-vote"
+            ],
+            "evidenceDocumentIds": [
+              "doc-r224-nikh-0010_0170"
+            ],
+            "openLeadId": "L225-ACTOR-pol-r164-ji-cheong-cheon",
+            "historyDebtIds": [],
+            "accessDate": "2026-10-28",
+            "identityCaution": "Existing stable ID reused where available; new candidate never auto-merged on name alone."
+          }
+        }
+      ],
+      "connections": [
+        "evt-r224-july4-amendment"
+      ],
+      "evidenceDocumentIds": [
+        "doc-r224-nikh-0010_0170"
+      ],
+      "openLeadIds": [
+        "L224-ACTOR-ji-cheong-cheon"
+      ],
+      "sourceFiles": [
+        "data/politicians/run224-may1952-actors.json"
+      ]
+    },
+    {
+      "id": "cand-r224-shin-gak-hyu",
+      "name": "신각휴",
+      "aliases": [
+        "申珏休",
+        "Shin Gak-hyu (provisional)"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "UNVERIFIED"
+      },
+      "researchStatus": "IDENTIFIED",
+      "registryPromotion": "CANDIDATE_UNVERIFIED",
+      "researchOverlays": [
+        {
+          "source": "data/politicians/run224-may1952-actors.json",
+          "sourceRun": 224,
+          "record": {
+            "id": "cand-r224-shin-gak-hyu",
+            "name": "신각휴",
+            "aliases": [
+              "申珏休",
+              "Shin Gak-hyu (provisional)"
+            ],
+            "lifespan": {
+              "born": null,
+              "died": null,
+              "verification": "UNVERIFIED"
+            },
+            "roleAtTime": "1952-06-21 민국당 개헌심의 불참 통고",
+            "roleVerification": "ORIGINAL_TRANSCRIPTION",
+            "researchStatus": "DISCOVERED",
+            "eventIds": [
+              "evt-r224-assembly-two-amendments"
+            ],
+            "evidenceDocumentIds": [
+              "doc-r224-nikh-0010_0140"
+            ],
+            "openLeadId": "L224-ACTOR-shin-gak-hyu",
+            "historyDebtIds": [],
+            "accessDate": "2026-10-28",
+            "identityCaution": "동명이인·생몰·공직 원부 대조 전 VERIFIED 금지"
+          }
+        }
+      ],
+      "connections": [
+        "evt-r224-assembly-two-amendments"
+      ],
+      "evidenceDocumentIds": [
+        "doc-r224-nikh-0010_0140"
+      ],
+      "openLeadIds": [
+        "L224-ACTOR-shin-gak-hyu"
+      ],
+      "sourceFiles": [
+        "data/politicians/run224-may1952-actors.json"
+      ]
+    },
+    {
+      "id": "cand-r224-seo-sang-jun",
+      "name": "서상준",
+      "aliases": [
+        "徐商俊",
+        "Seo Sang-jun (provisional)"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "UNVERIFIED"
+      },
+      "researchStatus": "IDENTIFIED",
+      "registryPromotion": "CANDIDATE_UNVERIFIED",
+      "researchOverlays": [
+        {
+          "source": "data/politicians/run224-may1952-actors.json",
+          "sourceRun": 224,
+          "record": {
+            "id": "cand-r224-seo-sang-jun",
+            "name": "서상준",
+            "aliases": [
+              "徐商俊",
+              "Seo Sang-jun (provisional)"
+            ],
+            "lifespan": {
+              "born": null,
+              "died": null,
+              "verification": "UNVERIFIED"
+            },
+            "roleAtTime": "1952-06 국회 의사국장 안건·답신 낭독",
+            "roleVerification": "ORIGINAL_TRANSCRIPTION",
+            "researchStatus": "DISCOVERED",
+            "eventIds": [
+              "evt-r224-assembly-summons"
+            ],
+            "evidenceDocumentIds": [
+              "doc-r224-nikh-0010_0120"
+            ],
+            "openLeadId": "L224-ACTOR-seo-sang-jun",
+            "historyDebtIds": [],
+            "accessDate": "2026-10-28",
+            "identityCaution": "동명이인·생몰·공직 원부 대조 전 VERIFIED 금지"
+          }
+        }
+      ],
+      "connections": [
+        "evt-r224-assembly-summons"
+      ],
+      "evidenceDocumentIds": [
+        "doc-r224-nikh-0010_0120"
+      ],
+      "openLeadIds": [
+        "L224-ACTOR-seo-sang-jun"
+      ],
+      "sourceFiles": [
+        "data/politicians/run224-may1952-actors.json"
+      ]
+    },
+    {
+      "id": "cand-r224-lee-chung-hwan-1952",
+      "name": "이충환",
+      "aliases": [
+        "李忠煥",
+        "Lee Chung-hwan (provisional)"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "UNVERIFIED"
+      },
+      "researchStatus": "IDENTIFIED",
+      "registryPromotion": "CANDIDATE_UNVERIFIED",
+      "researchOverlays": [
+        {
+          "source": "data/politicians/run224-may1952-actors.json",
+          "sourceRun": 224,
+          "record": {
+            "id": "cand-r224-lee-chung-hwan-1952",
+            "name": "이충환",
+            "aliases": [
+              "李忠煥",
+              "Lee Chung-hwan (provisional)"
+            ],
+            "lifespan": {
+              "born": null,
+              "died": null,
+              "verification": "UNVERIFIED"
+            },
+            "roleAtTime": "1952-06-27~28 개헌안 질의",
+            "roleVerification": "ORIGINAL_TRANSCRIPTION",
+            "researchStatus": "DISCOVERED",
+            "eventIds": [
+              "evt-r224-party-defections"
+            ],
+            "evidenceDocumentIds": [
+              "doc-r224-nikh-0010_0160"
+            ],
+            "openLeadId": "L224-ACTOR-lee-chung-hwan",
+            "historyDebtIds": [],
+            "accessDate": "2026-10-28",
+            "identityCaution": "이전 회차 동일 이름 자동연결 교정. 1952 인물과 pol-r141-lee-chung-hwan의 동일인 미확인",
+            "possibleSameAs": [
+              "pol-r141-lee-chung-hwan"
+            ]
+          }
+        }
+      ],
+      "connections": [
+        "evt-r224-party-defections"
+      ],
+      "evidenceDocumentIds": [
+        "doc-r224-nikh-0010_0160"
+      ],
+      "openLeadIds": [
+        "L224-ACTOR-lee-chung-hwan"
+      ],
+      "sourceFiles": [
+        "data/politicians/run224-may1952-actors.json"
+      ]
+    },
+    {
+      "id": "cand-r224-jo-sun-1952",
+      "name": "조순",
+      "aliases": [
+        "趙淳",
+        "Jo Sun (1952 assemblyman; identity unverified)"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "UNVERIFIED"
+      },
+      "researchStatus": "IDENTIFIED",
+      "registryPromotion": "CANDIDATE_UNVERIFIED",
+      "researchOverlays": [
+        {
+          "source": "data/politicians/run224-may1952-actors.json",
+          "sourceRun": 224,
+          "record": {
+            "id": "cand-r224-jo-sun-1952",
+            "name": "조순",
+            "aliases": [
+              "趙淳",
+              "Jo Sun (1952 assemblyman; identity unverified)"
+            ],
+            "lifespan": {
+              "born": null,
+              "died": null,
+              "verification": "UNVERIFIED"
+            },
+            "roleAtTime": "1952-06-26 민주국민당 탈당 신고",
+            "roleVerification": "ROK_ASSEMBLY_ORIGINAL_TRANSCRIPTION",
+            "researchStatus": "DISCOVERED",
+            "eventIds": [
+              "evt-r224-party-defections"
+            ],
+            "evidenceDocumentIds": [
+              "doc-r224-nikh-0010_0160"
+            ],
+            "openLeadId": "L224-018",
+            "historyDebtIds": [],
+            "accessDate": "2026-10-28",
+            "identityCaution": "이전 회차 동일 이름 자동연결 교정. 1952 인물과 pol-r148-jo-sun의 동일인 미확인",
+            "possibleSameAs": [
+              "pol-r148-jo-sun"
+            ]
+          }
+        }
+      ],
+      "connections": [
+        "evt-r224-party-defections"
+      ],
+      "evidenceDocumentIds": [
+        "doc-r224-nikh-0010_0160"
+      ],
+      "openLeadIds": [
+        "L224-018"
+      ],
+      "sourceFiles": [
+        "data/politicians/run224-may1952-actors.json"
+      ]
+    },
+    {
+      "id": "cand-r224-jo-byeong-mun-1952",
+      "name": "조병문",
+      "aliases": [
+        "曺秉雯",
+        "Jo Byeong-mun (provisional)"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "UNVERIFIED"
+      },
+      "researchStatus": "IDENTIFIED",
+      "registryPromotion": "CANDIDATE_UNVERIFIED",
+      "researchOverlays": [
+        {
+          "source": "data/politicians/run224-may1952-actors.json",
+          "sourceRun": 224,
+          "record": {
+            "id": "cand-r224-jo-byeong-mun-1952",
+            "name": "조병문",
+            "aliases": [
+              "曺秉雯",
+              "Jo Byeong-mun (provisional)"
+            ],
+            "lifespan": {
+              "born": null,
+              "died": null,
+              "verification": "UNVERIFIED"
+            },
+            "roleAtTime": "1952-06-27 민주국민당 탈당 신고",
+            "roleVerification": "ROK_ASSEMBLY_ORIGINAL_TRANSCRIPTION",
+            "researchStatus": "DISCOVERED",
+            "eventIds": [
+              "evt-r224-party-defections"
+            ],
+            "evidenceDocumentIds": [
+              "doc-r224-nikh-0010_0160"
+            ],
+            "openLeadId": "L224-018",
+            "historyDebtIds": [],
+            "accessDate": "2026-10-28",
+            "identityCaution": "이전 회차 동일 이름 자동연결 교정. 1952 인물과 cand-r213-jo-byeong-mun의 동일인 미확인",
+            "possibleSameAs": [
+              "cand-r213-jo-byeong-mun"
+            ]
+          }
+        }
+      ],
+      "connections": [
+        "evt-r224-party-defections"
+      ],
+      "evidenceDocumentIds": [
+        "doc-r224-nikh-0010_0160"
+      ],
+      "openLeadIds": [
+        "L224-018"
+      ],
+      "sourceFiles": [
+        "data/politicians/run224-may1952-actors.json"
+      ]
+    },
+    {
+      "id": "cand-r224-defection-seo-sang-deok",
+      "name": "서상덕",
+      "aliases": [
+        "徐相德",
+        "Seo Sang-deok (provisional)"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "UNVERIFIED"
+      },
+      "researchStatus": "IDENTIFIED",
+      "registryPromotion": "CANDIDATE_UNVERIFIED",
+      "researchOverlays": [
+        {
+          "source": "data/politicians/run224-may1952-actors.json",
+          "sourceRun": 224,
+          "record": {
+            "id": "cand-r224-defection-seo-sang-deok",
+            "name": "서상덕",
+            "aliases": [
+              "徐相德",
+              "Seo Sang-deok (provisional)"
+            ],
+            "lifespan": {
+              "born": null,
+              "died": null,
+              "verification": "UNVERIFIED"
+            },
+            "roleAtTime": "1952-06-27 민주국민당 탈당 신고",
+            "roleVerification": "ROK_ASSEMBLY_ORIGINAL_TRANSCRIPTION",
+            "researchStatus": "DISCOVERED",
+            "eventIds": [
+              "evt-r224-party-defections"
+            ],
+            "evidenceDocumentIds": [
+              "doc-r224-nikh-0010_0160"
+            ],
+            "openLeadId": "L224-018",
+            "historyDebtIds": [],
+            "accessDate": "2026-10-28",
+            "identityCaution": "1952 동명이인 가능. 특히 조순을 후대 동명이인 정치인과 병합 금지"
+          }
+        }
+      ],
+      "connections": [
+        "evt-r224-party-defections"
+      ],
+      "evidenceDocumentIds": [
+        "doc-r224-nikh-0010_0160"
+      ],
+      "openLeadIds": [
+        "L224-018"
+      ],
+      "sourceFiles": [
+        "data/politicians/run224-may1952-actors.json"
+      ]
+    },
+    {
+      "id": "cand-r225-kim-il-ro-1952",
+      "name": "김일로",
+      "aliases": [
+        "Kim Il-ro (romanization provisional)"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "NOT_REVERIFIED_IN_RUN225"
+      },
+      "researchStatus": "IDENTIFIED",
+      "registryPromotion": "CANDIDATE_UNVERIFIED",
+      "researchOverlays": [
+        {
+          "source": "data/politicians/run225-june1952-actors.json",
+          "sourceRun": 225,
+          "record": {
+            "id": "cand-r225-kim-il-ro-1952",
+            "name": "김일로",
+            "aliases": [
+              "Kim Il-ro (romanization provisional)"
+            ],
+            "hanjaVerification": "UNVERIFIED",
+            "lifespan": {
+              "born": null,
+              "died": null,
+              "verification": "NOT_REVERIFIED_IN_RUN225"
+            },
+            "roleAtTime": "1952-07-04 최종 기립표결 방식 동의",
+            "roleVerification": "DOCUMENT_ATTRIBUTED",
+            "researchStatus": "DISCOVERED",
+            "formalPromotionThisRun": false,
+            "eventIds": [
+              "evt-r225-assembly-vote"
+            ],
+            "evidenceDocumentIds": [
+              "doc-r224-nikh-0010_0170"
+            ],
+            "openLeadId": "L225-ACTOR-cand-r225-kim-il-ro-1952",
+            "historyDebtIds": [],
+            "accessDate": "2026-10-28",
+            "identityCaution": "Existing stable ID reused where available; new candidate never auto-merged on name alone."
+          }
+        }
+      ],
+      "connections": [
+        "evt-r225-assembly-vote"
+      ],
+      "evidenceDocumentIds": [
+        "doc-r224-nikh-0010_0170"
+      ],
+      "openLeadIds": [
+        "L225-ACTOR-cand-r225-kim-il-ro-1952"
+      ],
+      "sourceFiles": [
+        "data/politicians/run225-june1952-actors.json"
+      ]
+    },
+    {
+      "id": "cand-r225-baek-nam-sik-1952",
+      "name": "백남식",
+      "aliases": [
+        "Baek Nam-sik (romanization provisional)"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "NOT_REVERIFIED_IN_RUN225"
+      },
+      "researchStatus": "IDENTIFIED",
+      "registryPromotion": "CANDIDATE_UNVERIFIED",
+      "researchOverlays": [
+        {
+          "source": "data/politicians/run225-june1952-actors.json",
+          "sourceRun": 225,
+          "record": {
+            "id": "cand-r225-baek-nam-sik-1952",
+            "name": "백남식",
+            "aliases": [
+              "Baek Nam-sik (romanization provisional)"
+            ],
+            "hanjaVerification": "UNVERIFIED",
+            "lifespan": {
+              "born": null,
+              "died": null,
+              "verification": "NOT_REVERIFIED_IN_RUN225"
+            },
+            "roleAtTime": "1952-07-04 제2독회 즉시 진행 동의",
+            "roleVerification": "DOCUMENT_ATTRIBUTED",
+            "researchStatus": "DISCOVERED",
+            "formalPromotionThisRun": false,
+            "eventIds": [
+              "evt-r225-assembly-vote"
+            ],
+            "evidenceDocumentIds": [
+              "doc-r224-nikh-0010_0170"
+            ],
+            "openLeadId": "L225-ACTOR-cand-r225-baek-nam-sik-1952",
+            "historyDebtIds": [],
+            "accessDate": "2026-10-28",
+            "identityCaution": "Existing stable ID reused where available; new candidate never auto-merged on name alone."
+          }
+        }
+      ],
+      "connections": [
+        "evt-r225-assembly-vote"
+      ],
+      "evidenceDocumentIds": [
+        "doc-r224-nikh-0010_0170"
+      ],
+      "openLeadIds": [
+        "L225-ACTOR-cand-r225-baek-nam-sik-1952"
+      ],
+      "sourceFiles": [
+        "data/politicians/run225-june1952-actors.json"
+      ]
+    },
+    {
+      "id": "cand-r225-lee-jae-hyeong-1952",
+      "name": "이재형",
+      "aliases": [
+        "Lee Jae-hyeong (romanization provisional)"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "NOT_REVERIFIED_IN_RUN225"
+      },
+      "researchStatus": "IDENTIFIED",
+      "registryPromotion": "CANDIDATE_UNVERIFIED",
+      "researchOverlays": [
+        {
+          "source": "data/politicians/run225-june1952-actors.json",
+          "sourceRun": 225,
+          "record": {
+            "id": "cand-r225-lee-jae-hyeong-1952",
+            "name": "이재형",
+            "aliases": [
+              "Lee Jae-hyeong (romanization provisional)"
+            ],
+            "hanjaVerification": "UNVERIFIED",
+            "lifespan": {
+              "born": null,
+              "died": null,
+              "verification": "NOT_REVERIFIED_IN_RUN225"
+            },
+            "roleAtTime": "1952-07-04 발췌·나머지 조항 일괄표결 동의",
+            "roleVerification": "DOCUMENT_ATTRIBUTED",
+            "researchStatus": "POSSIBLE_DUPLICATE_IDENTITY_PENDING",
+            "formalPromotionThisRun": false,
+            "eventIds": [
+              "evt-r225-assembly-vote"
+            ],
+            "evidenceDocumentIds": [
+              "doc-r224-nikh-0010_0170"
+            ],
+            "openLeadId": "L225-ACTOR-cand-r225-lee-jae-hyeong-1952",
+            "historyDebtIds": [],
+            "accessDate": "2026-10-28",
+            "identityCaution": "1952 의원 이름이 기존 1949~51 registry 인물과 같으나 동일인임을 선거구/인명록으로 확인하기 전까지 병합하지 않는다.",
+            "possibleSameAs": [
+              "pol-r184-lee-jae-hyeong"
+            ]
+          }
+        }
+      ],
+      "connections": [
+        "evt-r225-assembly-vote"
+      ],
+      "evidenceDocumentIds": [
+        "doc-r224-nikh-0010_0170"
+      ],
+      "openLeadIds": [
+        "L225-ACTOR-cand-r225-lee-jae-hyeong-1952"
+      ],
+      "sourceFiles": [
+        "data/politicians/run225-june1952-actors.json"
+      ]
+    },
+    {
+      "id": "cand-r225-seo-yi-hwan-1952",
+      "name": "서이환",
+      "aliases": [
+        "Seo Yi-hwan (romanization provisional)"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "NOT_REVERIFIED_IN_RUN225"
+      },
+      "researchStatus": "IDENTIFIED",
+      "registryPromotion": "CANDIDATE_UNVERIFIED",
+      "researchOverlays": [
+        {
+          "source": "data/politicians/run225-june1952-actors.json",
+          "sourceRun": 225,
+          "record": {
+            "id": "cand-r225-seo-yi-hwan-1952",
+            "name": "서이환",
+            "aliases": [
+              "Seo Yi-hwan (romanization provisional)"
+            ],
+            "hanjaVerification": "UNVERIFIED",
+            "lifespan": {
+              "born": null,
+              "died": null,
+              "verification": "NOT_REVERIFIED_IN_RUN225"
+            },
+            "roleAtTime": "1952-07-04 개헌안 공고기간/명칭 문제 논의",
+            "roleVerification": "DOCUMENT_ATTRIBUTED",
+            "researchStatus": "POSSIBLE_DUPLICATE_IDENTITY_PENDING",
+            "formalPromotionThisRun": false,
+            "eventIds": [
+              "evt-r225-assembly-vote"
+            ],
+            "evidenceDocumentIds": [
+              "doc-r224-nikh-0010_0170"
+            ],
+            "openLeadId": "L225-ACTOR-cand-r225-seo-yi-hwan-1952",
+            "historyDebtIds": [],
+            "accessDate": "2026-10-28",
+            "identityCaution": "1952 의원 이름이 기존 1949~51 registry 인물과 같으나 동일인임을 선거구/인명록으로 확인하기 전까지 병합하지 않는다.",
+            "possibleSameAs": [
+              "pol-r188-seo-i-hwan"
+            ]
+          }
+        }
+      ],
+      "connections": [
+        "evt-r225-assembly-vote"
+      ],
+      "evidenceDocumentIds": [
+        "doc-r224-nikh-0010_0170"
+      ],
+      "openLeadIds": [
+        "L225-ACTOR-cand-r225-seo-yi-hwan-1952"
+      ],
+      "sourceFiles": [
+        "data/politicians/run225-june1952-actors.json"
+      ]
     }
   ],
   "recentResearchPass232": {
@@ -18143,5 +19932,49 @@
     "originalGazetteMinisterIds": 16,
     "originalGazetteLegislativeSponsor": "cand-p241-shin-do-seong",
     "netNewEventIds": 11
+  },
+  "recentResearchRun224Run225": {
+    "sourceFiles": [
+      "data/politicians/run224-may1952-actors.json",
+      "data/politicians/run225-june1952-actors.json"
+    ],
+    "addedCandidateIds": [
+      "pol-r164-seo-min-ho",
+      "pol-r141-shin-ik-hui",
+      "pol-r141-eom-sang-seop",
+      "pol-yun-chi-yeong",
+      "pol-r164-kim-dong-seong",
+      "cand-r174-lee-jong-hyeong",
+      "cand-r174-jo-ju-yeong",
+      "pol-r139-jang-taek-sang",
+      "pol-r148-kwak-sang-hun",
+      "cand-r224-jeong-sun-jo",
+      "cand-r224-an-sang-han",
+      "pol-r164-ji-cheong-cheon",
+      "cand-r224-shin-gak-hyu",
+      "cand-r224-seo-sang-jun",
+      "cand-r224-lee-chung-hwan-1952",
+      "cand-r224-jo-sun-1952",
+      "cand-r224-jo-byeong-mun-1952",
+      "cand-r224-defection-seo-sang-deok",
+      "cand-r225-kim-il-ro-1952",
+      "cand-r225-baek-nam-sik-1952",
+      "cand-r225-lee-jae-hyeong-1952",
+      "cand-r225-seo-yi-hwan-1952"
+    ],
+    "updatedExistingIds": [
+      "pol-paik-too-chin",
+      "pol-cho-bong-am",
+      "pol-pyun-yong-tae",
+      "pol-lim-byong-jik",
+      "pol-r139-jang-taek-sang",
+      "pol-lee-beom-seok",
+      "pol-r141-shin-ik-hui",
+      "pol-r164-ji-cheong-cheon",
+      "pol-r148-kwak-sang-hun",
+      "pol-r164-seo-min-ho",
+      "cand-r174-jo-ju-yeong"
+    ],
+    "policy": "ID-only overlays; no name-based merge or unverified promotion; original record retained"
   }
 }
