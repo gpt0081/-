@@ -1,0 +1,172 @@
+{
+  "runDate": "2026-11-13",
+  "scope": "1952-09-08 UN diplomacy and State-JCS decision chain",
+  "status": "RESEARCHED_OVERLAY_NOT_CENTRAL",
+  "documents": [
+    {
+      "id": "doc-frus-1952-261",
+      "date": "1952-09-08",
+      "number": "telegram 218; 795.00/9-852",
+      "author": "Ernest A. Gross",
+      "recipient": "US Department of State",
+      "url": "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d261",
+      "provenance": "US State Department FRUS; contemporaneous telegram",
+      "originalLocated": true
+    },
+    {
+      "id": "doc-frus-1952-262",
+      "date": "1952-09-08",
+      "number": "telegram 109; 795.00/9-852",
+      "author": "Dean Acheson (drafted by Popper and Wainhouse)",
+      "recipient": "US Mission to UN",
+      "url": "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d262",
+      "provenance": "US State Department FRUS; contemporaneous telegram",
+      "originalLocated": true
+    },
+    {
+      "id": "doc-frus-1952-263",
+      "date": "1952-09-08",
+      "number": "State-JCS Meetings lot 61 D 417",
+      "author": "US State Department memorandum",
+      "recipient": "State-JCS participants",
+      "url": "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d263",
+      "provenance": "US State Department FRUS; contemporary meeting record",
+      "originalLocated": true
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-1952-0908-lie-europe-consultations",
+      "date": "1952-09-08",
+      "action": "Trygve Lie reports intended London/Paris consultations and advocates increased UN troop contributions",
+      "proposed_by": [
+        "Trygve Lie"
+      ],
+      "observed_by": [
+        "Ernest Gross"
+      ],
+      "decided_by": [],
+      "executed_by": [],
+      "evidence": [
+        "doc-frus-1952-261"
+      ],
+      "status": "proposal-not-trip-verification"
+    },
+    {
+      "id": "evt-1952-0908-us-un-measures-guidance",
+      "date": "1952-09-08",
+      "action": "Acheson authorizes conditional sharing of confidential working paper and US preference for further UN measures",
+      "decided_by": [
+        "Dean Acheson"
+      ],
+      "evidence": [
+        "doc-frus-1952-262"
+      ],
+      "status": "instruction-not-UN-adoption"
+    },
+    {
+      "id": "evt-1952-0908-state-jcs-pow-debate",
+      "date": "1952-09-08",
+      "action": "State-JCS participants debate presidential POW proposal, Geneva Convention language, South Korean detainee release timing and negotiating recess",
+      "proposed_by": [
+        "Paul Nitze",
+        "U. Alexis Johnson"
+      ],
+      "opposed_by": [
+        "Omar Bradley",
+        "William Fechteler"
+      ],
+      "observed_by": [
+        "John Allison"
+      ],
+      "evidence": [
+        "doc-frus-1952-263"
+      ],
+      "status": "deliberation-not-final-decision"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-1952-lie-troops-vs-sanctions",
+      "supporting": [
+        "doc-frus-1952-261"
+      ],
+      "contradicting": [
+        "doc-frus-1952-262"
+      ],
+      "note": "Different policy preferences, not a contradiction about an observed fact."
+    },
+    {
+      "id": "claim-1952-pow-geneva-legal-basis",
+      "supporting": [],
+      "insufficient": [
+        "doc-frus-1952-263"
+      ],
+      "note": "Participants themselves acknowledge interpretive ambiguity; requires independent treaty analysis."
+    },
+    {
+      "id": "claim-1952-chou-proposal-authenticity",
+      "supporting": [],
+      "contradicting": [
+        "doc-frus-1952-263"
+      ],
+      "note": "Meeting participant describes purported Chou proposal as discredited; underlying Chinese/Indian records still needed."
+    }
+  ],
+  "leads": [
+    {
+      "target": "UN Secretary-General archive, Trygve Lie London and Paris itinerary and meeting memoranda, 1952-09-09 to 1952-09-15",
+      "question": "Did proposed consultations actually occur?"
+    },
+    {
+      "target": "British Foreign Office, Eden and Churchill meeting records with Lie, September 1952",
+      "question": "Independent account of force-contribution request"
+    },
+    {
+      "target": "French Foreign Ministry, Schuman meeting diary, September 1952",
+      "question": "Independent French response"
+    },
+    {
+      "target": "UN General Assembly Seventh Session official records, Korea additional measures debates, October 1952",
+      "question": "Trace whether draft became action"
+    },
+    {
+      "target": "US Department of State telegram 109 receipt and USUN Gross follow-up, September 9 1952",
+      "question": "Implementation of disclosure instruction"
+    },
+    {
+      "target": "US State-JCS September 8 1952 final minutes and proposed Clark telegram attachments",
+      "question": "Determine revised proposal wording"
+    },
+    {
+      "target": "US Army CINCUNC POW release orders and camp screening registers, August-September 1952",
+      "question": "Verify whether release occurred"
+    },
+    {
+      "target": "ICRC Geneva Convention 1949 Article 118 commentary and 1952 correspondence",
+      "question": "Independent legal reading of voluntary repatriation"
+    },
+    {
+      "target": "Indian foreign ministry Panikkar-Chou meeting memorandum 1952-06-15",
+      "question": "Test authenticity of purported Chinese compromise"
+    },
+    {
+      "target": "Mexican foreign ministry Padilla Nervo proposal and UN receipt September 1952",
+      "question": "Separate Mexican original from US reporting"
+    }
+  ],
+  "ledger": {
+    "directDocuments": 3,
+    "officialContemporaryDocuments": 3,
+    "independentResearchLines": 3,
+    "domains": 2,
+    "provisionalEvents": 3,
+    "adversarialIndependentSearches": 0,
+    "crossFamilyChecks": 0,
+    "nonPresidentKoreanPoliticiansPromoted": 0,
+    "existingLeadsNarrowed": 2,
+    "newLeads": 10,
+    "weeklyFullDebtReview": false,
+    "centralRegistryIntegrated": false
+  }
+}
