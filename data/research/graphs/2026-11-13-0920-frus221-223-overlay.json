@@ -1,0 +1,147 @@
+{
+  "runDate": "2026-11-13",
+  "status": "RESEARCHED_NOT_INTEGRATED",
+  "provenanceFamily": "US Department of State FRUS (one editorial family)",
+  "documents": [
+    {
+      "id": "doc-frus-1952-v15p1-221",
+      "url": "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d221",
+      "originalTranscription": true,
+      "facsimile": false
+    },
+    {
+      "id": "doc-frus-1952-v15p1-222",
+      "url": "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d222",
+      "originalTranscription": true,
+      "facsimile": false
+    },
+    {
+      "id": "doc-frus-1952-v15p1-223",
+      "url": "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d223",
+      "originalTranscription": true,
+      "facsimile": false
+    }
+  ],
+  "events": [
+    {
+      "id": "candidate-evt-1952-0714-neutral-observers",
+      "date": "1952-07-14",
+      "action": "Allison reported Pakistan accepted, Indonesia rejected, India effectively declined, Sweden conditional, Switzerland deferred; proposed public letter never sent",
+      "observed_by": [
+        "John M. Allison"
+      ],
+      "documentIds": [
+        "doc-frus-1952-v15p1-221"
+      ],
+      "uncertainty": "Embassy consultation report; national foreign ministry originals unverified"
+    },
+    {
+      "id": "candidate-evt-1952-0714-china-alternatives",
+      "date": "1952-07-14",
+      "action": "Gifford relayed UK Delhi report of Chinese note limiting talks to alternative A, rejecting B",
+      "observed_by": [
+        "Walter Gifford"
+      ],
+      "documentIds": [
+        "doc-frus-1952-v15p1-222"
+      ],
+      "uncertainty": "UK/Indian relay, Chinese note not independently inspected"
+    },
+    {
+      "id": "candidate-evt-1952-0714-bowles-pillai",
+      "date": "1952-07-14",
+      "action": "Bowles recorded Pillai's report of Nehru meeting and Panikkar's speculation that Mao overruled Zhou",
+      "observed_by": [
+        "Chester Bowles"
+      ],
+      "documentIds": [
+        "doc-frus-1952-v15p1-223"
+      ],
+      "uncertainty": "Mao intervention is Panikkar's hypothesis, not independently established"
+    }
+  ],
+  "claims": [
+    {
+      "id": "candidate-claim-neutral-observers-participation",
+      "supporting": [
+        "doc-frus-1952-v15p1-221"
+      ],
+      "contradicting": [],
+      "status": "NARROWED",
+      "question": "Obtain five foreign ministries' actual replies"
+    },
+    {
+      "id": "candidate-claim-china-reversed-alternative-b",
+      "supporting": [
+        "doc-frus-1952-v15p1-222",
+        "doc-frus-1952-v15p1-223"
+      ],
+      "contradicting": [],
+      "status": "NARROWED",
+      "question": "Retrieve July 12 Beijing note and Indian diplomatic cable; two FRUS records share intermediary origin"
+    },
+    {
+      "id": "candidate-claim-mao-overruled-zhou",
+      "supporting": [],
+      "insufficient": [
+        "doc-frus-1952-v15p1-223"
+      ],
+      "status": "OPEN",
+      "question": "Panikkar's conjecture requires PRC party/foreign ministry source"
+    }
+  ],
+  "politicianCandidates": [
+    {
+      "name": "Jawaharlal Nehru",
+      "role": "Indian prime minister",
+      "foreignActor": true
+    },
+    {
+      "name": "Zhou Enlai",
+      "role": "PRC premier/foreign minister",
+      "foreignActor": true
+    }
+  ],
+  "leadQueue": [
+    {
+      "institution": "Indian Ministry of External Affairs",
+      "target": "July 12 1952 Peking cable on alternatives A/B",
+      "purpose": "Compare Chinese note with UK and US retellings"
+    },
+    {
+      "institution": "UK Foreign Office",
+      "target": "July 14 1952 acting High Commissioner Delhi report relayed by Gifford telegram 241",
+      "purpose": "Establish intermediary provenance"
+    },
+    {
+      "institution": "US Department of State",
+      "target": "FE files lot 55 D 128 Johnson memorandum Aug 7 1952",
+      "purpose": "Check decision not to send proposed observer letter"
+    },
+    {
+      "institution": "Pakistan foreign ministry",
+      "target": "July 1952 response to Koje inspection invitation",
+      "purpose": "Confirm unconditional acceptance"
+    },
+    {
+      "institution": "Swedish foreign ministry",
+      "target": "July 1952 conditional observer response",
+      "purpose": "Test condition and later reconsideration"
+    },
+    {
+      "institution": "Swiss foreign ministry",
+      "target": "July 1952 deferred observer reply",
+      "purpose": "Check final disposition"
+    },
+    {
+      "institution": "Indian MEA",
+      "target": "July 13 1952 Nehru-Panikkar meeting minutes",
+      "purpose": "Verify whether Mao intervention was inference"
+    },
+    {
+      "institution": "PRC foreign ministry",
+      "target": "July 1952 note to Indian embassy Peking",
+      "purpose": "Primary check of alternatives A/B"
+    }
+  ]
+}
