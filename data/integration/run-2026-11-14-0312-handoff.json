@@ -1,0 +1,60 @@
+{
+  "runDate": "2026-11-14",
+  "status": "CENTRAL_SYNC_PARTIAL",
+  "fullIntegration": "FULL_INTEGRATION_INCOMPLETE",
+  "work": {
+    "stackedPrs": [
+      {
+        "number": 73,
+        "mergedInto": "research/run223-apr1952-pow-elections-governance",
+        "mergeCommit": "ed9a62e51a3e5d9e2c6221d149c30e8eb0831a96"
+      },
+      {
+        "number": 74,
+        "mergedInto": "research/run224-may1952-constitutional-pow-economy",
+        "mergeCommit": "cb63ce6f1805d83414d21ee2fa90e7fde052aa8a"
+      }
+    ],
+    "warning": "Stacked PRs were merged into research branches, NOT main. Direct import of source-specific files to main completed.",
+    "importedSourceFiles": {
+      "run224": 13,
+      "run225": 12
+    },
+    "sharedFilesPending": [
+      "data/politicians.json",
+      "data/research/HISTORY_DEBT.md",
+      "data/research/rhee-syngman-coverage.json",
+      "data/research/rhee-syngman-open-leads.json",
+      "data/research/ACTIVE_RESEARCH_HANDOFF.json"
+    ],
+    "pr75": "Closed unmerged: 2962-file diff unsafe to merge",
+    "preActorFixAudit": {
+      "sourceFiles": 2243,
+      "uniqueIds": {
+        "documents": 4634,
+        "claims": 2117,
+        "events": 2750,
+        "politicians": 459,
+        "organizations": 79
+      },
+      "conflictedIds": 794,
+      "auxiliaryRecords": 695,
+      "integrityIssues": 0
+    },
+    "actorAliasFix": "scripts/integrate_all.py updated to ingest politicians/*.json actors arrays; new generated count pending CI."
+  },
+  "next": [
+    "Verify regenerated politician counts and integrity-audit.json after actor-array fix",
+    "Merge shared central registry fields semantically, preserving old values and documenting identity conflict",
+    "Cross-check event and document IDs referenced by run224/run225 actor entries",
+    "Review 794 content conflicts by source and meaning",
+    "Migrate auxiliary evidence/annals/coverage/open leads into linked operational registries"
+  ],
+  "historicalResearchThisRun": {
+    "newPrimaryDocumentsDirectlyRead": 0,
+    "adversarialSearches": 0,
+    "independentCrossChecks": 0,
+    "historyDebtWeeklyReview": "NOT_PERFORMED"
+  },
+  "flootModified": false
+}
