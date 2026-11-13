@@ -12,7 +12,7 @@ OUT = DATA / "integration" / "generated"
 OUT.mkdir(parents=True, exist_ok=True)
 KINDS = ("documents", "claims", "events", "politicians", "organizations")
 records = {k: collections.defaultdict(list) for k in KINDS}
-sources, parse_errors, unstructured = [], [], []
+sources, parse_errors, unstructured, auxiliary = [], [], [], []
 id_fields = ("id", "documentId", "claimId", "eventId", "politicianId", "organizationId")
 for path in sorted(DATA.rglob("*")):
     if not path.is_file() or path.is_relative_to(DATA / "integration"):
@@ -60,10 +60,13 @@ for path in sorted(DATA.rglob("*")):
             "source": {"path": rel, "pointer": "/"}})
         source["recordCounts"][typ] += 1
         found += 1
-    source["status"] = "RECORDS_INDEXED" if found else "STRUCTURED_NON_REGISTRY_SOURCE"
+    source["status"] = "RECORDS_INDEXED" if found else "AUXILIARY_JSON_INDEXED"
     if not found:
         unstructured.append(rel)
+        auxiliary.append({"source": rel, "payload": obj, "provenance": source["sha256"]})
 
+(OUT / "auxiliary.json").write_text(
+    json.dumps({"schemaVersion": 2, "records": auxiliary}, ensure_ascii=False, indent=2) + chr(10), encoding="utf-8")
 conflicts, exact_duplicates, totals = [], [], {}
 for typ, groups in records.items():
     central = []
@@ -98,13 +101,13 @@ for typ, groups in records.items():
     encoding="utf-8")
 report = {"sourceFiles": len(sources), "totals": totals,
           "parseErrors": parse_errors, "conflictingIds": conflicts,
-          "exactDuplicateIds": exact_duplicates, "unstructuredSources": unstructured,
-          "status": "FULL_INTEGRATION_INCOMPLETE" if parse_errors or conflicts or unstructured else "CENTRAL_SYNC_PASS",
+          "exactDuplicateIds": exact_duplicates, "auxiliaryIndexedSources": unstructured,
+          "status": "FULL_INTEGRATION_INCOMPLETE" if parse_errors or conflicts else "CENTRAL_SYNC_PASS",
           "policy": "Every ID retained; contradictory versions are explicit alternatives, not silently overwritten. Unstructured source files remain in source tree."}
 (OUT / "report.json").write_text(
     json.dumps(report, ensure_ascii=False, indent=2) + chr(10), encoding="utf-8")
 print(json.dumps({"status": report["status"], "files": len(sources), "totals": totals,
                   "conflicts": len(conflicts), "parseErrors": len(parse_errors),
-                  "unstructuredSources": len(unstructured)}, ensure_ascii=False))
+                  "auxiliaryIndexedSources": len(unstructured)}, ensure_ascii=False))
 if parse_errors:
     sys.exit(1)
