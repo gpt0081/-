@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "runDate": "2026-11-13",
+  "scope": "1952-09-01 to 1952-09-02",
+  "integrationStatus": "OVERLAY_PENDING_CENTRAL",
+  "documents": [
+    {
+      "id": "doc-frus1952-v15p1-254",
+      "date": "1952-09-01",
+      "number": "C 54499",
+      "author": "Mark W. Clark",
+      "recipient": "Joint Chiefs of Staff",
+      "provenance": "US military telegram edited in FRUS",
+      "originalLocation": "FE files, lot 55 D 128",
+      "url": "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d254",
+      "accessDate": "2026-11-13",
+      "originalTextViewed": true
+    },
+    {
+      "id": "doc-frus1952-v15p1-255",
+      "date": "1952-09-02",
+      "author": "Kenneth T. Young",
+      "recipient": "John M. Allison",
+      "provenance": "US State Department memorandum edited in FRUS",
+      "originalLocation": "FE files, lot 55 D 128",
+      "url": "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d255",
+      "accessDate": "2026-11-13",
+      "originalTextViewed": true
+    },
+    {
+      "id": "doc-frus1952-v15p1-256",
+      "date": "1952-09-02",
+      "author": "John M. Allison",
+      "provenance": "US State Department memorandum of conversation edited in FRUS",
+      "originalLocation": "FE files, lot 55 D 128",
+      "url": "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d256",
+      "accessDate": "2026-11-13",
+      "originalTextViewed": true
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-1952-0901-clark-final-offer-plan",
+      "date": "1952-09-01",
+      "kind": "proposal",
+      "proposed_by": [
+        "person-mark-w-clark"
+      ],
+      "decided_by": [],
+      "executed_by": [],
+      "observed_by": [
+        "person-mark-w-clark"
+      ],
+      "documentIds": [
+        "doc-frus1952-v15p1-254"
+      ],
+      "summary": "Clark proposed Harrison present multiple POW settlement alternatives followed by approximately ten-day recess; implementation not established."
+    },
+    {
+      "id": "evt-1952-0902-young-disagreement",
+      "date": "1952-09-02",
+      "kind": "internal-policy-assessment",
+      "proposed_by": [
+        "person-kenneth-t-young"
+      ],
+      "decided_by": [],
+      "executed_by": [],
+      "documentIds": [
+        "doc-frus1952-v15p1-255"
+      ],
+      "summary": "Young questioned Clark and Murphy bombing leverage assessment and criticized presidential statement form."
+    },
+    {
+      "id": "evt-1952-0902-mexico-pow-refuge",
+      "date": "1952-09-02",
+      "kind": "diplomatic-proposal-transmission",
+      "proposed_by": [
+        "org-mexican-government"
+      ],
+      "observed_by": [
+        "person-john-m-allison"
+      ],
+      "decided_by": [],
+      "executed_by": [],
+      "documentIds": [
+        "doc-frus1952-v15p1-256"
+      ],
+      "summary": "Mexican ambassador conveyed UN-member resettlement idea; Acheson promised consideration, not adoption."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-1952-bombing-bargaining-effect",
+      "status": "CONFLICTED_AS_ASSESSMENT",
+      "supporting": [
+        "doc-frus1952-v15p1-254"
+      ],
+      "contradicting": [
+        "doc-frus1952-v15p1-255"
+      ],
+      "note": "Clark's belief in bombing leverage vs Young's statement that he had not seen evidence; not a verified empirical contradiction."
+    },
+    {
+      "id": "claim-1952-clark-proposals-enacted",
+      "status": "OPEN",
+      "insufficient": [
+        "doc-frus1952-v15p1-254"
+      ],
+      "note": "Plan submitted, not proven authorized or implemented."
+    },
+    {
+      "id": "claim-1952-mexico-resettlement-accepted",
+      "status": "OPEN",
+      "insufficient": [
+        "doc-frus1952-v15p1-256"
+      ],
+      "note": "Diplomatic submission and consideration, no adoption demonstrated."
+    }
+  ],
+  "leads": [
+    {
+      "target": "US Joint Chiefs of Staff response to C 54499, September 1952",
+      "why": "Check approval/rejection and Harrison instructions"
+    },
+    {
+      "target": "Panmunjom plenary minutes September 1952, UNC delegation",
+      "why": "Test whether Clark's alternatives were actually tabled"
+    },
+    {
+      "target": "US intelligence assessment of bombing effectiveness requested by Kenneth Young September 2 1952",
+      "why": "Test Clark/Murphy leverage hypothesis"
+    },
+    {
+      "target": "UN Secretary-General incoming Mexican note September 2 1952 by Luis Padilla Nervo",
+      "why": "Recover proposal wording and official receipt"
+    },
+    {
+      "target": "FRUS volume XV part 1 telegram 202 New York September 3 1952",
+      "why": "Compare actual Mexican text with Allison's summary"
+    },
+    {
+      "target": "Mexican foreign ministry archives September 1952 Padilla Nervo instructions",
+      "why": "Independent Mexican-origin provenance"
+    },
+    {
+      "target": "ROK Foreign Ministry September 1952 armistice and POW correspondence",
+      "why": "Determine Korean government's position independent of US plans"
+    },
+    {
+      "target": "National Assembly Korea September 1952 minutes POW debates",
+      "why": "Identify Korean nonpresidential actors and their recorded actions"
+    }
+  ],
+  "counts": {
+    "substantiveDocuments": 3,
+    "officialContemporary": 3,
+    "independentResearchLines": 3,
+    "domains": 2,
+    "events": 3,
+    "adversarialIndependentSearches": 0,
+    "crossFamilyConfirmed": 0,
+    "nonpresidentialKoreanActorsDeepened": 0,
+    "priorLeadsFollowed": 2,
+    "newLeads": 8
+  },
+  "notes": "No Korean politician attribution from US policy proposals; provisional IDs must be reconciled with PR #73/#74 before central merge. Floot untouched."
+}
