@@ -34,7 +34,7 @@ for path in sorted(DATA.rglob("*")):
     kind = path.relative_to(DATA).parts[0]
     found = 0
     for typ in KINDS:
-        items = obj.get(typ) if isinstance(obj, dict) else (
+        items = (obj.get(typ, obj.get("actors") if typ == "politicians" and kind == "politicians" else None)) if isinstance(obj, dict) else (
             obj if isinstance(obj, list) and kind == typ else None)
         if not isinstance(items, list):
             continue
