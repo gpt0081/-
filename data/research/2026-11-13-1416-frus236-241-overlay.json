@@ -1,0 +1,170 @@
+{
+  "schema": "research-overlay-v1",
+  "status": "RESEARCHED_NOT_INTEGRATED",
+  "documents": [
+    {
+      "id": "FRUS-1952-XV1-236",
+      "date": "1952-07-30",
+      "url": "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d236",
+      "provenance_family": "US State Department FRUS",
+      "source_type": "contemporary primary document in official edited collection",
+      "access_date": "2026-11-13"
+    },
+    {
+      "id": "FRUS-1952-XV1-237",
+      "date": "1952-07-30",
+      "url": "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d237",
+      "provenance_family": "US State Department FRUS",
+      "source_type": "contemporary primary document in official edited collection",
+      "access_date": "2026-11-13"
+    },
+    {
+      "id": "FRUS-1952-XV1-238",
+      "date": "1952-07-30",
+      "url": "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d238",
+      "provenance_family": "US State Department FRUS",
+      "source_type": "contemporary primary document in official edited collection",
+      "access_date": "2026-11-13"
+    },
+    {
+      "id": "FRUS-1952-XV1-239",
+      "date": "1952-07-31",
+      "url": "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d239",
+      "provenance_family": "US State Department FRUS",
+      "source_type": "contemporary primary document in official edited collection",
+      "access_date": "2026-11-13"
+    },
+    {
+      "id": "FRUS-1952-XV1-240",
+      "date": "1952-07-31",
+      "url": "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d240",
+      "provenance_family": "US State Department FRUS",
+      "source_type": "contemporary primary document in official edited collection",
+      "access_date": "2026-11-13"
+    },
+    {
+      "id": "FRUS-1952-XV1-241",
+      "date": "1952-08-01",
+      "url": "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d241",
+      "provenance_family": "US State Department FRUS",
+      "source_type": "contemporary primary document in official edited collection",
+      "access_date": "2026-11-13"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-1952-soviet-approach-deferred",
+      "statement": "On August 1 the State Department decided not to pursue a Soviet approach at that time",
+      "supporting": [
+        "FRUS-1952-XV1-241"
+      ],
+      "status": "SUPPORTED_FOR_DECISION_NOT_ALL_FUTURE_ACTIONS"
+    },
+    {
+      "id": "claim-1952-zhou-panikkar-original-proposal",
+      "statement": "Zhou personally originated the June 15 alternative neutral screening proposal",
+      "contradicting": [
+        "FRUS-1952-XV1-240"
+      ],
+      "insufficient": [
+        "FRUS-1952-XV1-240"
+      ],
+      "status": "CONFLICTED_ORIGIN_UNVERIFIED",
+      "note": "Ringwalt and UK officials question authenticity; this is not proof Zhou never said it"
+    },
+    {
+      "id": "claim-1952-soviet-approach-was-executed",
+      "statement": "Washington carried out its proposed overt Moscow approach in late July",
+      "contradicting": [
+        "FRUS-1952-XV1-241"
+      ],
+      "status": "NOT_SUPPORTED_IN_REVIEWED_WINDOW"
+    },
+    {
+      "id": "claim-1952-enemy-strength-947000",
+      "statement": "NIE estimated 947000 enemy ground troops July 1952",
+      "supporting": [
+        "FRUS-1952-XV1-238"
+      ],
+      "status": "CONTEMPORANEOUS_ESTIMATE_NOT_VERIFIED_CENSUS"
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-19520730-clark-c52788",
+      "type": "recommendation",
+      "proposed_by": [
+        "Mark W. Clark"
+      ],
+      "opposed_by": [],
+      "document_ids": [
+        "FRUS-1952-XV1-236"
+      ]
+    },
+    {
+      "id": "evt-19520730-nie55-1",
+      "type": "intelligence_estimate",
+      "observed_by": [
+        "US intelligence community"
+      ],
+      "document_ids": [
+        "FRUS-1952-XV1-238"
+      ]
+    },
+    {
+      "id": "evt-19520731-ringwalt-authenticity",
+      "type": "adversarial_review",
+      "observed_by": [
+        "Arthur Ringwalt",
+        "Walter Scott"
+      ],
+      "document_ids": [
+        "FRUS-1952-XV1-240"
+      ]
+    },
+    {
+      "id": "evt-19520801-state-moscow-deferral",
+      "type": "policy_decision",
+      "decided_by": [
+        "US Department of State"
+      ],
+      "document_ids": [
+        "FRUS-1952-XV1-241"
+      ]
+    }
+  ],
+  "next_leads": [
+    {
+      "target": "UK Foreign Office and Indian Ministry of External Affairs, June 15 1952 Zhou-Panikkar meeting original notes and June 18 telegram 5798",
+      "why": "Resolve origin of alternatives A/B"
+    },
+    {
+      "target": "Indian Embassy Beijing written reply alleged July 1952 and UK FO Garner-Scott letters",
+      "why": "Test whether Chinese written repudiation existed"
+    },
+    {
+      "target": "US Department of State Deptel 101 July 29 1952 and Moscow telegram 208 July 30",
+      "why": "Reconstruct Kennan request and policy response"
+    },
+    {
+      "target": "US Army C 52788 July 30 1952 and Deptar 914536 July 26",
+      "why": "Trace command recommendation to Washington decision"
+    },
+    {
+      "target": "NIE 55/1 July 30 1952 annexes and later NIE revisions",
+      "why": "Check estimate uncertainty and alternative troop estimates"
+    },
+    {
+      "target": "Republic of Korea Foreign Ministry July-August 1952 armistice correspondence",
+      "why": "Check Seoul consultation, avoid imputing Rhee direct orders"
+    },
+    {
+      "target": "National Assembly July-August 1952 plenary proceedings",
+      "why": "Expand Korean politician nodes and ordinary governance"
+    },
+    {
+      "target": "US Embassy Tokyo Murphy telegram 428 July 31 1952 and State response",
+      "why": "Trace proposed direct Mao contact vs Soviet approach"
+    }
+  ]
+}
