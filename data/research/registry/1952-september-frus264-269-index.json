@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "kind": "canonical-crosswalk-staging",
+  "status": "PARTIAL_NOT_CENTRAL",
+  "createdAt": "2026-11-13",
+  "purpose": "Deduplicate FRUS 264-269 research and prepare non-destructive merge to canonical event, document, claim and politician registries",
+  "documents": [
+    {
+      "id": "doc-frus-1952-v15p1-264",
+      "canonicalUrl": "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d264",
+      "sourceFamily": "US-STATE-FRUS",
+      "originalOverlay": "data/research/graphs/2026-11-13-2220-frus264-266-overlay.json",
+      "accessDate": "2026-11-13",
+      "verification": "directly-inspected-in-prior-run",
+      "aliases": [
+        "doc-frus1952-v15p1-d264"
+      ]
+    },
+    {
+      "id": "doc-frus-1952-v15p1-265",
+      "canonicalUrl": "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d265",
+      "sourceFamily": "US-STATE-FRUS",
+      "originalOverlay": "data/research/graphs/2026-11-13-2220-frus264-266-overlay.json",
+      "accessDate": "2026-11-13",
+      "verification": "directly-inspected-in-prior-run",
+      "aliases": [
+        "doc-frus1952-v15p1-d265"
+      ]
+    },
+    {
+      "id": "doc-frus-1952-v15p1-266",
+      "canonicalUrl": "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d266",
+      "sourceFamily": "US-STATE-FRUS",
+      "originalOverlay": "data/research/graphs/2026-11-13-2220-frus264-266-overlay.json",
+      "accessDate": "2026-11-13",
+      "verification": "directly-inspected-in-prior-run",
+      "aliases": [
+        "doc-frus1952-v15p1-d266"
+      ]
+    },
+    {
+      "id": "doc-frus-1952-v15p1-267",
+      "canonicalUrl": "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d267",
+      "sourceFamily": "US-STATE-FRUS",
+      "originalOverlay": "data/research/graphs/2026-11-13-2324-frus267-269-overlay.json",
+      "accessDate": "2026-11-13",
+      "verification": "directly-inspected-in-prior-run",
+      "aliases": []
+    },
+    {
+      "id": "doc-frus-1952-v15p1-268",
+      "canonicalUrl": "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d268",
+      "sourceFamily": "US-STATE-FRUS",
+      "originalOverlay": "data/research/graphs/2026-11-13-2324-frus267-269-overlay.json",
+      "accessDate": "2026-11-13",
+      "verification": "directly-inspected-in-prior-run",
+      "aliases": []
+    },
+    {
+      "id": "doc-frus-1952-v15p1-269",
+      "canonicalUrl": "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d269",
+      "sourceFamily": "US-STATE-FRUS",
+      "originalOverlay": "data/research/graphs/2026-11-13-2324-frus267-269-overlay.json",
+      "accessDate": "2026-11-13",
+      "verification": "directly-inspected-in-prior-run",
+      "aliases": []
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-provisional-19520908-jcs-options",
+      "documentIds": [
+        "doc-frus-1952-v15p1-264"
+      ],
+      "classification": "proposal"
+    },
+    {
+      "id": "evt-provisional-19520909-lie-eden-schedule",
+      "documentIds": [
+        "doc-frus-1952-v15p1-265"
+      ],
+      "classification": "reported-scheduling"
+    },
+    {
+      "id": "evt-provisional-19520910-stelle-embargo-opposition",
+      "documentIds": [
+        "doc-frus-1952-v15p1-266"
+      ],
+      "classification": "policy-opposition"
+    },
+    {
+      "id": "evt-1952-0911-clark-armistice-sequence",
+      "documentIds": [
+        "doc-frus-1952-v15p1-267"
+      ],
+      "classification": "proposal"
+    },
+    {
+      "id": "evt-1952-0907-rhee-muccio-economic-security-talk",
+      "documentIds": [
+        "doc-frus-1952-v15p1-268"
+      ],
+      "classification": "reported-conversation"
+    },
+    {
+      "id": "evt-1952-0915-truman-armistice-decision",
+      "documentIds": [
+        "doc-frus-1952-v15p1-269"
+      ],
+      "classification": "documented-decision"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-19520908-truman-statement-not-yet-approved",
+      "documentIds": [
+        "doc-frus-1952-v15p1-264"
+      ],
+      "status": "NARROWED"
+    },
+    {
+      "id": "claim-19520911-lie-eden-meeting",
+      "documentIds": [
+        "doc-frus-1952-v15p1-265"
+      ],
+      "status": "OPEN"
+    },
+    {
+      "id": "claim-19520910-total-embargo-adopted",
+      "documentIds": [
+        "doc-frus-1952-v15p1-266"
+      ],
+      "status": "OPEN"
+    },
+    {
+      "id": "clm-1952-truman-statement-not-issued-as-proposed",
+      "documentIds": [
+        "doc-frus-1952-v15p1-269"
+      ],
+      "status": "NARROWED"
+    },
+    {
+      "id": "clm-1952-rhee-currency-loan-300m",
+      "documentIds": [
+        "doc-frus-1952-v15p1-268"
+      ],
+      "status": "OPEN"
+    },
+    {
+      "id": "clm-1952-clark-air-pressure-effect",
+      "documentIds": [
+        "doc-frus-1952-v15p1-267"
+      ],
+      "contradictingDocumentIds": [
+        "doc-frus-1952-v15p1-255"
+      ],
+      "status": "CONFLICTED_ASSESSMENT"
+    }
+  ],
+  "politicianCandidates": [
+    {
+      "candidateId": "candidate-lim-byung-jik",
+      "name": "임병직",
+      "aliases": [
+        "Ben C. Limb"
+      ],
+      "status": "IDENTIFIED",
+      "documentIds": [
+        "doc-frus-1952-v15p1-268"
+      ],
+      "promotion": "requires Korean provenance"
+    },
+    {
+      "candidateId": "candidate-yang-yu-chan",
+      "name": "양유찬",
+      "aliases": [
+        "You Chang Yang",
+        "Y. C. Yang"
+      ],
+      "status": "IDENTIFIED",
+      "documentIds": [
+        "doc-frus-1952-v15p1-268"
+      ],
+      "promotion": "requires Korean provenance"
+    }
+  ],
+  "integrity": {
+    "uniqueDocuments": 6,
+    "uniqueEvents": 6,
+    "uniqueClaims": 6,
+    "sourceFamilies": 1,
+    "centralEventsUpdated": false,
+    "centralPoliticiansUpdated": false,
+    "centralDocumentsUpdated": false,
+    "centralClaimsUpdated": false,
+    "reason": "Existing canonical registry schema/large event file and PR conflicts not yet validated; crosswalk avoids destructive overwrites."
+  }
+}
