@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-11-13",
+  "sourceTreeSha": "0104b3c81d4a7015fd37aeec479beaeb4a403fbb",
+  "sourceFilesTotal": 2239,
+  "sourceDataFiles": 2317,
+  "inventoryGroups": [
+    {
+      "path": "data/integration/inventory/data-annals.json",
+      "sha": "7330ccc575048cc2f89cf24353aa6eeeac0c2527"
+    },
+    {
+      "path": "data/integration/inventory/data-claims.json",
+      "sha": "e01391f21c54d5d1990cbafe7b5c3c4f58e9cb26"
+    },
+    {
+      "path": "data/integration/inventory/data-documents.json",
+      "sha": "cdf252917ef7fd754e6296c44c1f868d01f7dcfe"
+    },
+    {
+      "path": "data/integration/inventory/data-events.json",
+      "sha": "8987a550a6de9fe0c8bee95b8c8a555aba33f971"
+    },
+    {
+      "path": "data/integration/inventory/data-events.json.json",
+      "sha": "5db4910e3dc938aa17b6ec667b361b3ec27b2a7e"
+    },
+    {
+      "path": "data/integration/inventory/data-evidence.json",
+      "sha": "9ddbb66d2918b292237809c82bef9b028835f6a2"
+    },
+    {
+      "path": "data/integration/inventory/data-organizations.json",
+      "sha": "ba508e7b6314906492aee136fc69b65cc141a78f"
+    },
+    {
+      "path": "data/integration/inventory/data-politicians.json",
+      "sha": "5a67841961bc1813faf9119c682c64252ef3faaa"
+    },
+    {
+      "path": "data/integration/inventory/data-politicians.json.json",
+      "sha": "3901bdf660f07532c20dbda609fcea1a18e66d08"
+    },
+    {
+      "path": "data/integration/inventory/data-presidents.json.json",
+      "sha": "c5815fb1e0821a921c48756f00f4972e643dee82"
+    },
+    {
+      "path": "data/integration/inventory/data-research.json",
+      "sha": "bacf2e358a20a41f4721f35a04360cc8d36d36de"
+    }
+  ],
+  "semanticIntegrationStatus": "INCOMPLETE",
+  "migrationRule": "Source inventory is complete for snapshot, content-level entity normalization and cross-reference checks pending",
+  "priority": [
+    "parse all documents and claims registries",
+    "merge politician and event references with collision detection",
+    "merge unintegrated research overlays and PRs",
+    "validate foreign keys and provenance"
+  ]
+}
