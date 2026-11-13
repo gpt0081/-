@@ -1,0 +1,32 @@
+{
+  "reviewedAt": "2026-11-14",
+  "status": "OPEN_NOT_MERGED",
+  "pullRequests": [
+    {
+      "number": 73,
+      "branch": "research/run224-may1952-constitutional-pow-economy",
+      "base": "research/run223-apr1952-pow-elections-governance",
+      "changedFiles": 18
+    },
+    {
+      "number": 74,
+      "branch": "research/run225-june1952-cabinet-unc-pow",
+      "base": "research/run224-may1952-constitutional-pow-economy",
+      "changedFiles": 16
+    }
+  ],
+  "sharedConflictingPaths": [
+    "data/politicians.json",
+    "data/research/HISTORY_DEBT.md",
+    "data/research/rhee-syngman-coverage.json",
+    "data/research/rhee-syngman-open-leads.json"
+  ],
+  "migrationStatus": "NOT_IN_MAIN_SOURCE_SCAN",
+  "requiredActions": [
+    "Rebase or cherry-pick PR73 against main after source and duplicate audit",
+    "Rebase PR74 onto reconciled PR73 or main, preserving its dependent history",
+    "Rerun central integration, reconcile conflicting IDs without silent overwrite",
+    "Validate cross-references and update central legacy registries before declaring completion"
+  ],
+  "reason": "Both PRs are open and their source branches are not part of main's 2218-file source inventory. Counting them as integrated would be incorrect."
+}
