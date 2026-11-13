@@ -373,6 +373,44 @@
       "additionalEvidenceFiles": [
         "data/evidence/rhee-syngman-1953-july-official.json",
         "data/evidence/rhee-syngman-1953-june-official.json"
+      ],
+      "operationalSourceRefs": [
+        {
+          "path": "data/annals/rhee-syngman.md",
+          "layer": "annals",
+          "sha256": "18a6f08fb580571dcdca57a4376a558dc51a66c8b989fb76067fa12f3618563e",
+          "identityBasis": "explicit registry ID or exact registry file reference"
+        },
+        {
+          "path": "data/evidence/rhee-syngman-1953-july-official.json",
+          "layer": "evidence",
+          "sha256": "833cf123b4ef6f1a6c978731ec901505770aa0426fb9715d8d4820866389e624",
+          "identityBasis": "explicit registry ID or exact registry file reference"
+        },
+        {
+          "path": "data/evidence/rhee-syngman-1953-june-official.json",
+          "layer": "evidence",
+          "sha256": "2f46cb98f7e8ecb01a947b151f8219c5e4ff1258136c3e63913addc446b9131f",
+          "identityBasis": "explicit registry ID or exact registry file reference"
+        },
+        {
+          "path": "data/evidence/rhee-syngman.json",
+          "layer": "evidence",
+          "sha256": "5d1c8f28946dd8fc8a9e9cfc1012889cdf31c70b92363b66f15ab9ed73960a80",
+          "identityBasis": "explicit registry ID or exact registry file reference"
+        },
+        {
+          "path": "data/research/rhee-syngman-coverage.json",
+          "layer": "coverage",
+          "sha256": "28339f9b9f2e858762823b23917a2b3ecc1175adf9bd0d3f637bc35f1591e91d",
+          "identityBasis": "explicit registry ID or exact registry file reference"
+        },
+        {
+          "path": "data/research/rhee-syngman-open-leads.json",
+          "layer": "open_leads",
+          "sha256": "5e2f13d9e9dad430e44b3dab210b6642acf02a76d9c64ef2d4d6758e990866f0",
+          "identityBasis": "explicit registry ID or exact registry file reference"
+        }
       ]
     },
     {
@@ -938,7 +976,21 @@
         ],
         "maturityChange": "none",
         "openLead": "1956-04-09 중앙선거위원회 후보등록대장·기호추첨 원명부와 정당 회의록 대조"
-      }
+      },
+      "operationalSourceRefs": [
+        {
+          "path": "data/annals/cho-bong-am.md",
+          "layer": "annals",
+          "sha256": "04552d34b835e669b6361f25c920290bc77da2be811936be5ef7536fb8d5c7ca",
+          "identityBasis": "explicit registry ID or exact registry file reference"
+        },
+        {
+          "path": "data/evidence/cho-bong-am.json",
+          "layer": "evidence",
+          "sha256": "310c3ee0a2e7af1dbebc73f4e4197909464906f510a6b9e9c728316d39656ff6",
+          "identityBasis": "explicit registry ID or exact registry file reference"
+        }
+      ]
     },
     {
       "id": "pol-lee-beom-seok",
@@ -1767,6 +1819,32 @@
       "additionalEvidenceFiles": [
         "data/evidence/paik-too-chin-1953-finance.json",
         "data/evidence/paik-too-chin-1954-ceb.json"
+      ],
+      "operationalSourceRefs": [
+        {
+          "path": "data/annals/paik-too-chin.md",
+          "layer": "annals",
+          "sha256": "aa40d73c8e28756d457f8c18a274f512ec6068c6eb2061aca654079aad9ef5af",
+          "identityBasis": "explicit registry ID or exact registry file reference"
+        },
+        {
+          "path": "data/evidence/paik-too-chin-1953-finance.json",
+          "layer": "evidence",
+          "sha256": "853427ea35e7adaf58cdbefb7fda0dc4778fcdc929e9d073f697cd8ea30c6ae3",
+          "identityBasis": "explicit registry ID or exact registry file reference"
+        },
+        {
+          "path": "data/evidence/paik-too-chin-1953.json",
+          "layer": "evidence",
+          "sha256": "4b9da4cb0e3bfcb234a74318bb55a093633d0e4db45aaa5a2e715ca7ece33ae9",
+          "identityBasis": "explicit registry ID or exact registry file reference"
+        },
+        {
+          "path": "data/evidence/paik-too-chin-1954-ceb.json",
+          "layer": "evidence",
+          "sha256": "f44d77893b08d1247add4b6a49e01566a31d7576305c1b4f322c71e588b7da9d",
+          "identityBasis": "explicit registry ID or exact registry file reference"
+        }
       ]
     },
     {
@@ -2075,6 +2153,26 @@
       ],
       "additionalEvidenceFiles": [
         "data/evidence/pyun-yong-tae-1953-may-june.json"
+      ],
+      "operationalSourceRefs": [
+        {
+          "path": "data/annals/pyun-yong-tae.md",
+          "layer": "annals",
+          "sha256": "1ddcc87cef6ee41284092eac687960873d664edfa3836d93395a8ce1f658ccd3",
+          "identityBasis": "explicit registry ID or exact registry file reference"
+        },
+        {
+          "path": "data/evidence/pyun-yong-tae-1953-may-june.json",
+          "layer": "evidence",
+          "sha256": "2c4a2cdb529e02fad82e0308fb7b78d6eb8255a6b28bcd48df68057c5f9f9793",
+          "identityBasis": "explicit registry ID or exact registry file reference"
+        },
+        {
+          "path": "data/evidence/pyun-yong-tae.json",
+          "layer": "evidence",
+          "sha256": "2f820d7ff127f762924043bcea5ab227bdc4758b827850cd3ec20c02ad404e23",
+          "identityBasis": "explicit registry ID or exact registry file reference"
+        }
       ]
     },
     {
@@ -2219,6 +2317,20 @@
       "documentIds": [
         "DOC-P239J-FRUS-924",
         "DOC-P239J-FRUS-927"
+      ],
+      "operationalSourceRefs": [
+        {
+          "path": "data/annals/choi-duk-shin.md",
+          "layer": "annals",
+          "sha256": "4194deac4d9916b5a024516a905e49f3df32e5d0cf9311accc1152bf1493d13e",
+          "identityBasis": "explicit registry ID or exact registry file reference"
+        },
+        {
+          "path": "data/evidence/choi-duk-shin-1953.json",
+          "layer": "evidence",
+          "sha256": "750f2f60354c961ee6a47928d6c32934ac23443c9a7b5901af6834305745e529",
+          "identityBasis": "explicit registry ID or exact registry file reference"
+        }
       ]
     },
     {
@@ -2391,7 +2503,21 @@
         ],
         "identityCaution": null,
         "roleQualification": "관보에 서명된 당일 직함만 확인. 원임명일·법안 발의·실제 정책 집행은 추정하지 않음"
-      }
+      },
+      "operationalSourceRefs": [
+        {
+          "path": "data/annals/sohn-won-yil.md",
+          "layer": "annals",
+          "sha256": "a16715b4b822d47270299cee96312cf71b05c49e7736e10af6292487a0363355",
+          "identityBasis": "explicit registry ID or exact registry file reference"
+        },
+        {
+          "path": "data/evidence/sohn-won-yil.json",
+          "layer": "evidence",
+          "sha256": "65820cb60aa5efa4bf859080fd270343fdc0ccd4dde2da83e97b39a723c7d20a",
+          "identityBasis": "explicit registry ID or exact registry file reference"
+        }
+      ]
     },
     {
       "id": "pol-lim-byong-jik",
@@ -3496,6 +3622,26 @@
       },
       "additionalEvidenceFiles": [
         "data/evidence/shin-ik-hui-1953-labor.json"
+      ],
+      "operationalSourceRefs": [
+        {
+          "path": "data/annals/shin-ik-hui.md",
+          "layer": "annals",
+          "sha256": "0ce1cc6a0361b0e84bbe6b6fb1fdce80ac73b7c86cf99ff65daebd78cf82143e",
+          "identityBasis": "explicit registry ID or exact registry file reference"
+        },
+        {
+          "path": "data/evidence/shin-ik-hui-1953-labor.json",
+          "layer": "evidence",
+          "sha256": "812deff43043e44be2d6df30503074753ef7ca5f165b70921fab4021da3ca2ff",
+          "identityBasis": "explicit registry ID or exact registry file reference"
+        },
+        {
+          "path": "data/evidence/shin-ik-hui.json",
+          "layer": "evidence",
+          "sha256": "45c2f6e6e14b8b414cac4bf22c21540127946efc71e55df902224c67a82c72e8",
+          "identityBasis": "explicit registry ID or exact registry file reference"
+        }
       ]
     },
     {
@@ -3590,6 +3736,14 @@
       "openLeads": [
         "LEAD-P253-36",
         "LEAD-P253E-19"
+      ],
+      "operationalSourceRefs": [
+        {
+          "path": "data/annals/jin-heon-sik.md",
+          "layer": "annals",
+          "sha256": "8f3d7b68f88ecbcaaceb222ff1d9ad1a0be1ba1d6ae0ec847ae87ba6b8ae26cd",
+          "identityBasis": "explicit registry ID or exact registry file reference"
+        }
       ]
     },
     {
@@ -3742,6 +3896,14 @@
         "LEAD-P253D-01",
         "LEAD-P253D-02",
         "LEAD-P253E-09"
+      ],
+      "operationalSourceRefs": [
+        {
+          "path": "data/annals/shin-jung-mok.md",
+          "layer": "annals",
+          "sha256": "c751d832bb498119a76e946a59b177c8ef14988aafb132d977fdae1fcdc4eceb",
+          "identityBasis": "explicit registry ID or exact registry file reference"
+        }
       ]
     },
     {
@@ -4396,6 +4558,20 @@
           "to": "ANNALS_ACTIVE",
           "reason": "Official Korean treaty text and US FRUS d78 verify 1955-08-12 Yang signature; independent annals/evidence and open leads"
         }
+      ],
+      "operationalSourceRefs": [
+        {
+          "path": "data/annals/yang-yu-chan.md",
+          "layer": "annals",
+          "sha256": "fd269653bbad513021ac2a581e7fa2cf85f817ac4cbdcf4bcfe994d0a38c931d",
+          "identityBasis": "explicit registry ID or exact registry file reference"
+        },
+        {
+          "path": "data/evidence/yang-yu-chan-1955.json",
+          "layer": "evidence",
+          "sha256": "f21be95bd2a75164d8fe2a036baac907fa525eb2ea753713cbbe668c00d60b79",
+          "identityBasis": "explicit registry ID or exact registry file reference"
+        }
       ]
     },
     {
@@ -4709,7 +4885,21 @@
         ],
         "maturityChange": "none",
         "openLead": "1956-04-09 중앙선거위원회 후보등록대장·기호추첨 원명부와 정당 회의록 대조"
-      }
+      },
+      "operationalSourceRefs": [
+        {
+          "path": "data/annals/chang-myon.md",
+          "layer": "annals",
+          "sha256": "ddd5222cf35a40ea605a24b8fbe0b6de27af866efb87081b2a7771e3214782c6",
+          "identityBasis": "explicit registry ID or exact registry file reference"
+        },
+        {
+          "path": "data/evidence/chang-myon.json",
+          "layer": "evidence",
+          "sha256": "8b82699d59a497fece0df258ab15751f6a317ade7ba84494eb67f8c9d6b81160",
+          "identityBasis": "explicit registry ID or exact registry file reference"
+        }
+      ]
     },
     {
       "id": "cand-1952-nov-yi-chong-chan",
@@ -5154,7 +5344,15 @@
         }
       ],
       "lastResearchPass": 253,
-      "evidenceFile": "data/evidence/lee-gap-seong-1952.json"
+      "evidenceFile": "data/evidence/lee-gap-seong-1952.json",
+      "operationalSourceRefs": [
+        {
+          "path": "data/evidence/lee-gap-seong-1952.json",
+          "layer": "evidence",
+          "sha256": "fb930d51848358cb335d9de27cb1f997547b5d6b7e36e9b71b819b38c7da2ea9",
+          "identityBasis": "explicit registry ID or exact registry file reference"
+        }
+      ]
     },
     {
       "id": "cand-1952-nov-bae-eun-hui",
@@ -5922,6 +6120,20 @@
       "documentIds": [
         "DOC-P257R-NIKH-ELECTION",
         "DOC-P257W-UN-A2711-PRIMARY"
+      ],
+      "operationalSourceRefs": [
+        {
+          "path": "data/annals/kwak-sang-hun.md",
+          "layer": "annals",
+          "sha256": "2e77d021ece23f0368638b8b7a7484c707fb8ba06ad61de0fd4c94077de526ba",
+          "identityBasis": "explicit registry ID or exact registry file reference"
+        },
+        {
+          "path": "data/evidence/kwak-sang-hun.json",
+          "layer": "evidence",
+          "sha256": "806a2066189f11481050d32bcedf1a01512f3aa379ce04f658a869b7b98d938a",
+          "identityBasis": "explicit registry ID or exact registry file reference"
+        }
       ]
     },
     {
@@ -6788,6 +7000,26 @@
       ],
       "additionalEvidenceFiles": [
         "data/evidence/kim-yu-taek-1953-march.json"
+      ],
+      "operationalSourceRefs": [
+        {
+          "path": "data/annals/kim-yu-taek.md",
+          "layer": "annals",
+          "sha256": "32a2198c02afb2d44853041f5e3e25d7fbacfb6cab3dbef7c5915a6134ccbdf8",
+          "identityBasis": "explicit registry ID or exact registry file reference"
+        },
+        {
+          "path": "data/evidence/kim-yu-taek-1953-currency.json",
+          "layer": "evidence",
+          "sha256": "40a913fc34372548d994f513de53f79321ba10dafc65607429d4f174596f03bd",
+          "identityBasis": "explicit registry ID or exact registry file reference"
+        },
+        {
+          "path": "data/evidence/kim-yu-taek-1953-march.json",
+          "layer": "evidence",
+          "sha256": "de94a12a54545db36de9b426fc11d68e299dbb71aeb5742292e3884298b4c219",
+          "identityBasis": "explicit registry ID or exact registry file reference"
+        }
       ]
     },
     {
@@ -6896,7 +7128,21 @@
           "DOC-P247D-NA-010"
         ],
         "verification": "국회 원회의록 본문 전사 직접 확인"
-      }
+      },
+      "operationalSourceRefs": [
+        {
+          "path": "data/annals/lee-jae-hak.md",
+          "layer": "annals",
+          "sha256": "40411a3c3cb0d7618976c9b564f8a36ea219bbf5c11df1b43483921cb04cdd69",
+          "identityBasis": "explicit registry ID or exact registry file reference"
+        },
+        {
+          "path": "data/evidence/lee-jae-hak.json",
+          "layer": "evidence",
+          "sha256": "435e186345e576c3769d06715ce7479746eae982cdc0ae9d5e831fb4fdb7dba9",
+          "identityBasis": "explicit registry ID or exact registry file reference"
+        }
+      ]
     },
     {
       "id": "cand-p235i-im-yong-sun",
@@ -7160,6 +7406,26 @@
       "lastResearchPass": "257K",
       "additionalEvidenceFiles": [
         "data/evidence/park-sul-eum-1953-union.json"
+      ],
+      "operationalSourceRefs": [
+        {
+          "path": "data/annals/park-sul-eum.md",
+          "layer": "annals",
+          "sha256": "01a7650908ca05dda0e058aaf79be1d3824a0be8955bb67a741bdcba94ede50f",
+          "identityBasis": "explicit registry ID or exact registry file reference"
+        },
+        {
+          "path": "data/evidence/park-sul-eum-1953-union.json",
+          "layer": "evidence",
+          "sha256": "528f216745a4fbbc3aa35d25f9c05f6abc10297c8492c008b9d13791e17dd088",
+          "identityBasis": "explicit registry ID or exact registry file reference"
+        },
+        {
+          "path": "data/evidence/park-sul-eum.json",
+          "layer": "evidence",
+          "sha256": "659f340ad2f5fc0a3fe930e29a106ecbe2762b16fb6b35b0895d3050e5269c88",
+          "identityBasis": "explicit registry ID or exact registry file reference"
+        }
       ]
     },
     {
@@ -8163,7 +8429,21 @@
         ],
         "identityCaution": null,
         "roleQualification": "관보에 서명된 당일 직함만 확인. 원임명일·법안 발의·실제 정책 집행은 추정하지 않음"
-      }
+      },
+      "operationalSourceRefs": [
+        {
+          "path": "data/annals/yu-wan-chang.md",
+          "layer": "annals",
+          "sha256": "069089f3f9e75cf08308de420b8e7f05e9be9e9d95a8d5ffdfb68e9e65facd74",
+          "identityBasis": "explicit registry ID or exact registry file reference"
+        },
+        {
+          "path": "data/evidence/yu-wan-chang.json",
+          "layer": "evidence",
+          "sha256": "768e67b83ebc6458455d3016bca646f68fb94b93beeb70f91fca18b31c03251b",
+          "identityBasis": "explicit registry ID or exact registry file reference"
+        }
+      ]
     },
     {
       "id": "pol-won-yong-duk",
@@ -8262,6 +8542,20 @@
       "documentIds": [
         "DOC-P239J-FRUS-927",
         "DOC-P239J-FRUS-930"
+      ],
+      "operationalSourceRefs": [
+        {
+          "path": "data/annals/won-yong-duk.md",
+          "layer": "annals",
+          "sha256": "f69f85507f7f63ceeb558d4e216da21063b23185a9c2767a5333142c3560767f",
+          "identityBasis": "explicit registry ID or exact registry file reference"
+        },
+        {
+          "path": "data/evidence/won-yong-duk.json",
+          "layer": "evidence",
+          "sha256": "2ff2b152dd7e125497c16f7435bdd661984310d26194f5844c39b7897f0358f2",
+          "identityBasis": "explicit registry ID or exact registry file reference"
+        }
       ]
     },
     {
@@ -8876,6 +9170,26 @@
       ],
       "additionalEvidenceFiles": [
         "data/evidence/cho-chung-hwan-1955.json"
+      ],
+      "operationalSourceRefs": [
+        {
+          "path": "data/annals/cho-chung-whan.md",
+          "layer": "annals",
+          "sha256": "7e170b070469ef99328a95cb38f315dfbe28aba293ec33be047e2431dfc02ffe",
+          "identityBasis": "explicit registry ID or exact registry file reference"
+        },
+        {
+          "path": "data/evidence/cho-chung-hwan-1955.json",
+          "layer": "evidence",
+          "sha256": "2a7663e5fcc806a7091e7f9729308f081a9137a7907e107983a0804a6bcbfc74",
+          "identityBasis": "explicit registry ID or exact registry file reference"
+        },
+        {
+          "path": "data/evidence/cho-chung-whan.json",
+          "layer": "evidence",
+          "sha256": "ee6b6c26b1e265354a0a1cf4150b7446a64f5b429e5784c3e6486e13c26a8dc5",
+          "identityBasis": "explicit registry ID or exact registry file reference"
+        }
       ]
     },
     {
@@ -9014,7 +9328,15 @@
         ],
         "notes": "Action-level source links, unresolved Korean originals; no automatic direct-command attribution."
       },
-      "evidenceFile": "data/evidence/lee-hu-rak.json"
+      "evidenceFile": "data/evidence/lee-hu-rak.json",
+      "operationalSourceRefs": [
+        {
+          "path": "data/evidence/lee-hu-rak.json",
+          "layer": "evidence",
+          "sha256": "dba6679c85504dd638ca1f4fbfca4fb5ae628386168c01e4d860ca2cad1b8c34",
+          "identityBasis": "explicit registry ID or exact registry file reference"
+        }
+      ]
     },
     {
       "id": "cand-p239k-kim-yong-chan",
@@ -10693,7 +11015,21 @@
         "party": "자유당",
         "source": "DOC-P257R-NIKH-ELECTION",
         "status": "original election certificate pending; no maturity promotion"
-      }
+      },
+      "operationalSourceRefs": [
+        {
+          "path": "data/annals/kim-youngsam.md",
+          "layer": "annals",
+          "sha256": "4471b1a430d265c5b403d4f7c2e76c4721ebae46c2724a0b4594a40e060c431f",
+          "identityBasis": "explicit registry ID or exact registry file reference"
+        },
+        {
+          "path": "data/evidence/kim-youngsam.json",
+          "layer": "evidence",
+          "sha256": "696312880cb344f2305a9cb94162b721e5a46b242e753b7fbe53d32105b9dcf5",
+          "identityBasis": "explicit registry ID or exact registry file reference"
+        }
+      ]
     },
     {
       "id": "cand-p239m2-hyun-seok-ho",
@@ -10937,7 +11273,21 @@
       "researchMaturity": "VERIFIED",
       "researchStatusReason": "국편 1960 제5대 민의원 명부+서울기록원 첫 민선 서울시장 공식 해제; 원당선증·득표율 충돌은 OPEN",
       "annalsFile": "data/annals/kim-sang-don.md",
-      "evidenceFile": "data/evidence/kim-sang-don.json"
+      "evidenceFile": "data/evidence/kim-sang-don.json",
+      "operationalSourceRefs": [
+        {
+          "path": "data/annals/kim-sang-don.md",
+          "layer": "annals",
+          "sha256": "4215d1960d3d25fd169bb7fd8fe1e72c5727a0a5a3788286f9085bb7fe5fd04a",
+          "identityBasis": "explicit registry ID or exact registry file reference"
+        },
+        {
+          "path": "data/evidence/kim-sang-don.json",
+          "layer": "evidence",
+          "sha256": "447af038636e1f2a0116b423056d6a617a536cad344c35064b9516afd8b1bfe3",
+          "identityBasis": "explicit registry ID or exact registry file reference"
+        }
+      ]
     },
     {
       "id": "cand-p239m2-min-yeong-nam",
@@ -11137,7 +11487,21 @@
           "verification": "dated contemporary report; anonymous individual vote unknown"
         }
       ],
-      "lastResearchPass": "257N"
+      "lastResearchPass": "257N",
+      "operationalSourceRefs": [
+        {
+          "path": "data/annals/seo-beom-seok.md",
+          "layer": "annals",
+          "sha256": "897596f70987e560ab2ab4f38d198044fa1ed37dd58e9ddbc4c47916e5fbbf9c",
+          "identityBasis": "explicit registry ID or exact registry file reference"
+        },
+        {
+          "path": "data/evidence/seo-beom-seok.json",
+          "layer": "evidence",
+          "sha256": "97e0b275df4c27776dd4a1e5bb54139fe9c15a5789fc73d376ce4db546343c24",
+          "identityBasis": "explicit registry ID or exact registry file reference"
+        }
+      ]
     },
     {
       "id": "cand-p239m3-jang-hong-yeom",
@@ -12161,7 +12525,21 @@
           "DOC-P247C-NIKH-220"
         ],
         "verification": "US diplomatic contemporary original; Korean parliamentary primary pending"
-      }
+      },
+      "operationalSourceRefs": [
+        {
+          "path": "data/annals/huh-chung.md",
+          "layer": "annals",
+          "sha256": "73cc264a57538f9fb35f9011d68268be48824c4705f8546b50e173607ea32342",
+          "identityBasis": "explicit registry ID or exact registry file reference"
+        },
+        {
+          "path": "data/evidence/huh-chung.json",
+          "layer": "evidence",
+          "sha256": "42775d6393e9df31f2dd58129b727edbd6ee477f5a6c71eec206767c9b1918eb",
+          "identityBasis": "explicit registry ID or exact registry file reference"
+        }
+      ]
     },
     {
       "id": "cand-p244-chu-yo-han",
@@ -12226,7 +12604,21 @@
           "DOC-P247D-NA-110"
         ],
         "verification": "국회 원회의록 본문 전사 직접 확인"
-      }
+      },
+      "operationalSourceRefs": [
+        {
+          "path": "data/annals/chu-yo-han.md",
+          "layer": "annals",
+          "sha256": "649219edbc8260d95aa81f20fa5948d090a914ead2b237fa731be9529ba88561",
+          "identityBasis": "explicit registry ID or exact registry file reference"
+        },
+        {
+          "path": "data/evidence/chu-yo-han.json",
+          "layer": "evidence",
+          "sha256": "cedb71d5244ccfaeb182fbe793bdd209c28984f7fc1959cf00a39f51c2c2c4a9",
+          "identityBasis": "explicit registry ID or exact registry file reference"
+        }
+      ]
     },
     {
       "id": "cand-p244-chong-un-gap",
@@ -15657,7 +16049,15 @@
       "evidenceDocumentIds": [
         "DOC-P251-COMMITTEES-19520130"
       ],
-      "evidenceFile": "data/evidence/ji-cheong-cheon.json"
+      "evidenceFile": "data/evidence/ji-cheong-cheon.json",
+      "operationalSourceRefs": [
+        {
+          "path": "data/evidence/ji-cheong-cheon.json",
+          "layer": "evidence",
+          "sha256": "27a0c9ddeba3f27e3b6a2fcb83126f9784d9fde22413c8312a7f42c2f05eca3e",
+          "identityBasis": "explicit registry ID or exact registry file reference"
+        }
+      ]
     },
     {
       "id": "cand-p252-park-bong-hui",
@@ -16787,7 +17187,15 @@
         "HD-P257-KIM-IL-SU-IDENTITY"
       ],
       "provenanceNote": "1953년 2월 6일 서울신문에 조직부장 金一秀 직접 언급; 1953년 2월 3일 발언. 동명이인 자동병합 금지.",
-      "evidenceFile": "data/evidence/kim-il-su-1953.json"
+      "evidenceFile": "data/evidence/kim-il-su-1953.json",
+      "operationalSourceRefs": [
+        {
+          "path": "data/evidence/kim-il-su-1953.json",
+          "layer": "evidence",
+          "sha256": "8781cf4caecbb229efbba7fb2100a217f296735acb707f7cb574dd2eae8b4f0c",
+          "identityBasis": "explicit registry ID or exact registry file reference"
+        }
+      ]
     },
     {
       "id": "cand-p257-cho-jeong-hun-1953",
@@ -17154,7 +17562,21 @@
       "researchRefs": [
         "data/politicians/pass-257n-1953-finance-legislators.json"
       ],
-      "lastResearchPass": "257N"
+      "lastResearchPass": "257N",
+      "operationalSourceRefs": [
+        {
+          "path": "data/annals/kwon-jung-don.md",
+          "layer": "annals",
+          "sha256": "f279d3e5639745afd63912a85d752f131cf780fff412251a9e997ff0c9344a2a",
+          "identityBasis": "explicit registry ID or exact registry file reference"
+        },
+        {
+          "path": "data/evidence/kwon-jung-don-1953.json",
+          "layer": "evidence",
+          "sha256": "1bc3f2451f82bc2a5c39fd47a94edab88c19fb854dbcac1f4532aea2d1223c04",
+          "identityBasis": "explicit registry ID or exact registry file reference"
+        }
+      ]
     },
     {
       "id": "cand-p257n-eom-byeong-hak",
@@ -17230,7 +17652,21 @@
       "researchRefs": [
         "data/politicians/pass-257n-1953-finance-legislators.json"
       ],
-      "lastResearchPass": "257N"
+      "lastResearchPass": "257N",
+      "operationalSourceRefs": [
+        {
+          "path": "data/annals/eom-byeong-hak.md",
+          "layer": "annals",
+          "sha256": "539f4f688c880bdb3a0b8f48e1653ae01177b2c6fe15dcbb480a52a158e15c53",
+          "identityBasis": "explicit registry ID or exact registry file reference"
+        },
+        {
+          "path": "data/evidence/eom-byeong-hak-1953.json",
+          "layer": "evidence",
+          "sha256": "17665313dcb7bd300845f5f6a03395684d7b20b67caba8de9fc40d179b3b47e0",
+          "identityBasis": "explicit registry ID or exact registry file reference"
+        }
+      ]
     },
     {
       "id": "cand-p257n-lee-jong-hyeon-1953-mp",
@@ -17293,7 +17729,15 @@
       "researchRefs": [
         "data/politicians/pass-257n-1953-finance-legislators.json"
       ],
-      "lastResearchPass": "257N"
+      "lastResearchPass": "257N",
+      "operationalSourceRefs": [
+        {
+          "path": "data/evidence/lee-jong-hyeon-1953-identity.json",
+          "layer": "evidence",
+          "sha256": "8719f11180436829bf7fe4f7ccb5e9c022e54d47f69d46edcde6578afb0d808b",
+          "identityBasis": "explicit registry ID or exact registry file reference"
+        }
+      ]
     },
     {
       "id": "cand-p257q-park-hee-hyeon",
@@ -17794,7 +18238,15 @@
       "historyDebt": [
         "HD-P257W-APR19-COMMITTEE-ORIGINAL"
       ],
-      "promotionReason": "1954-04-19 국편 후대 개헌사에 실명과 역할 출현. 동명이인·한자·생몰·임명 원본 확인 전 VERIFIED 승격 금지."
+      "promotionReason": "1954-04-19 국편 후대 개헌사에 실명과 역할 출현. 동명이인·한자·생몰·임명 원본 확인 전 VERIFIED 승격 금지.",
+      "operationalSourceRefs": [
+        {
+          "path": "data/annals/1954-election-geneva-constitutional-source-audit.md",
+          "layer": "annals",
+          "sha256": "9576a9efd0f5dc335894bebb4059403e730256febf63fcefbe744e1d51140291",
+          "identityBasis": "explicit registry ID or exact registry file reference"
+        }
+      ]
     },
     {
       "id": "cand-p257w-un-yoon-kun-joong",
