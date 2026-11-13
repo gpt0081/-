@@ -5,6 +5,7 @@ on:
     paths:
       - 'scripts/integrate_all.py'
       - 'scripts/audit_integration.py'
+      - 'scripts/link_operational_layers.py'
       - 'data/**'
       - '.github/workflows/integrate-data.yml'
   workflow_dispatch:
@@ -22,6 +23,8 @@ jobs:
           python-version: '3.12'
       - name: Consolidate sources and audit collisions
         run: python scripts/integrate_all.py
+      - name: Link operational evidence and annals layers
+        run: python scripts/link_operational_layers.py
       - name: Validate provenance and inventory completeness
         run: python scripts/audit_integration.py
       - name: Commit generated indexes
