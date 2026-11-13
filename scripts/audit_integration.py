@@ -45,6 +45,27 @@ aux=json.loads((out/"auxiliary.json").read_text())["records"]
 aux_paths={a["source"] for a in aux}
 missing_aux=[s["path"] for s in sources if s["status"]=="AUXILIARY_JSON_INDEXED" and s["path"] not in aux_paths]
 for p in missing_aux:issues.append({"code":"AUXILIARY_SOURCE_MISSING","path":p})
+# Verify the operational crosswalk is explicit, source-backed and unambiguous.
+link_file=out/"operational-links.json"
+if not link_file.is_file():
+    issues.append({"code":"OPERATIONAL_LINKS_MISSING"})
+else:
+    links=json.loads(link_file.read_text())
+    seen=set()
+    for row in links.get("linked",[])+links.get("unlinked",[]):
+        path=row["source"]
+        if path in seen:issues.append({"code":"DUPLICATE_OPERATIONAL_SOURCE","path":path})
+        seen.add(path)
+        if path not in paths:issues.append({"code":"UNKNOWN_OPERATIONAL_SOURCE","path":path})
+        candidates=row.get("candidatePoliticianIds",[])
+        if row["status"]=="EXPLICITLY_LINKED":
+            if len(candidates)!=1:issues.append({"code":"UNSAFE_OPERATIONAL_IDENTITY","path":path})
+            elif candidates[0] not in ids["politicians"]:
+                issues.append({"code":"UNKNOWN_OPERATIONAL_POLITICIAN","path":path,"id":candidates[0]})
+        elif row["status"] not in ("AMBIGUOUS_IDENTITY","NO_EXPLICIT_IDENTITY"):
+            issues.append({"code":"UNKNOWN_LINK_STATUS","path":path})
+    if sum(links.get("layerCounts",{}).values())!=len(seen):
+        issues.append({"code":"OPERATIONAL_LAYER_COUNT_MISMATCH"})
 summary={"sourceFiles":len(sources),"uniqueCentralIds":{k:len(v) for k,v in ids.items()},
 "conflictedIds":len(report["conflictingIds"]),"auxiliaryRecords":len(aux),
 "unresolvedSources":[s["path"] for s in sources if s["status"] in ("PARSE_ERROR","AUXILIARY_JSON_INDEXED")],
