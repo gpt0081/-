@@ -1194,5 +1194,39 @@
     "documentCount": 62,
     "events": 22,
     "guardrail": "미측 제안·한국측 대통령 성명·국회 원속기록의 provenance 분리. 원면 0, 직접 체포명령 미확보"
+  },
+  "run225Addendum": {
+    "date": "2026-10-28",
+    "period": "1952-05~07",
+    "domains": [
+      "헌정·입법",
+      "행정·계엄",
+      "국방·군령",
+      "사법·체포",
+      "재정·예비비",
+      "선거·법제",
+      "경제조정·원조",
+      "포로·인권",
+      "정전·외교",
+      "국제기구",
+      "언론·공론장",
+      "지방행정",
+      "산업·전력",
+      "인사·정당"
+    ],
+    "documentRegistry": "data/documents/run225-june1952-us-cabinet-korean.json",
+    "eventRegistry": "data/events/run225-june1952-actor-decision-graph.json",
+    "politicianRegistry": "data/politicians/run225-june1952-actors.json",
+    "claimRegistry": "data/claims/run225-june1952-adversarial.json",
+    "coverageFile": "data/research/coverage/run225.json",
+    "leadQueue": "data/research/lead-queues/run225-next.json",
+    "substantiveDocs": 66,
+    "events": 24,
+    "actorEvidence": 14,
+    "guardrail": "US intervention plan != executed action; Cabinet proposal != promulgation; source-origin classification retained",
+    "newCandidateNodes": 2,
+    "possibleDuplicateCandidates": 2,
+    "centralPoliticianRecordsUpdated": 10,
+    "centralPoliticianCandidatesAdded": 2
   }
 }
