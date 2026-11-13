@@ -1,0 +1,137 @@
+{
+  "run": "2026-11-13-1118",
+  "status": "RESEARCHED_NOT_INTEGRATED",
+  "documents": [
+    {
+      "id": "DOC-FRUS-1952-XV1-227",
+      "url": "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d227",
+      "access_date": "2026-11-13",
+      "provenance": "US Department of State FRUS edited contemporary source",
+      "original_facsimile": false
+    },
+    {
+      "id": "DOC-FRUS-1952-XV1-228",
+      "url": "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d228",
+      "access_date": "2026-11-13",
+      "provenance": "US Department of State FRUS edited contemporary source",
+      "original_facsimile": false
+    },
+    {
+      "id": "DOC-FRUS-1952-XV1-229",
+      "url": "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d229",
+      "access_date": "2026-11-13",
+      "provenance": "US Department of State FRUS edited contemporary source",
+      "original_facsimile": false
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-candidate-19520719-clark-civilian-release",
+      "date": "1952-07-19",
+      "action": "Clark rejects DA 913958 proposal to halt civilian internee releases; states release program continues",
+      "proposed_by": [
+        "US Department of Army (DA 913958)"
+      ],
+      "opposed_by": [
+        "Mark W. Clark"
+      ],
+      "decided_by": [
+        "Mark W. Clark (UNC operational plan)"
+      ],
+      "executed_by": [],
+      "document_ids": [
+        "DOC-FRUS-1952-XV1-227"
+      ],
+      "verification": "decision reported; subsequent execution requires camp ledgers"
+    },
+    {
+      "id": "evt-candidate-19520719-executive-session",
+      "date": "1952-07-19",
+      "action": "Clark instructs Harrison not to initiate end of confidential armistice talks",
+      "proposed_by": [
+        "William K. Harrison (public statement)"
+      ],
+      "decided_by": [
+        "Mark W. Clark"
+      ],
+      "executed_by": [],
+      "document_ids": [
+        "DOC-FRUS-1952-XV1-228"
+      ],
+      "verification": "instruction documented; subsequent sessions unverified"
+    },
+    {
+      "id": "evt-candidate-19520721-johnson-muccio",
+      "date": "1952-07-21",
+      "action": "Johnson says Washington did not endorse Hensey's military-government preference and notes adverse effect on economic support",
+      "observed_by": [
+        "U. Alexis Johnson"
+      ],
+      "document_ids": [
+        "DOC-FRUS-1952-XV1-229"
+      ],
+      "verification": "contemporaneous personal diplomatic letter"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-19520718-release-suspension-implemented",
+      "status": "CONTRADICTED_AS_PROPOSAL",
+      "supporting": [],
+      "contradicting": [
+        "DOC-FRUS-1952-XV1-227"
+      ],
+      "note": "July 18 DA 913958 proposed suspension, July 19 Clark explicitly refused. Execution still independently unverified."
+    },
+    {
+      "id": "claim-19520718-83000-accepted",
+      "status": "CONTRADICTED",
+      "contradicting": [
+        "DOC-FRUS-1952-XV1-228"
+      ],
+      "note": "FRUS editorial note reports Communist rejection July 18, underlying C 52147 not yet read."
+    },
+    {
+      "id": "claim-19520721-truman-douglas-authorization",
+      "status": "INSUFFICIENT",
+      "contradicting": [
+        "DOC-FRUS-1952-XV1-229"
+      ],
+      "note": "FRUS footnote quotes Acheson memo denying authorization; original presidential conversation memo not inspected."
+    }
+  ],
+  "lead_queue": [
+    {
+      "target": "UNC camp civilian internee release ledger, July 19-August 1952",
+      "why": "verify Clark continuation and cumulative releases"
+    },
+    {
+      "target": "FE files lot 55 D 128 telegram C 52147 July 18",
+      "why": "verify Communist rejection and Harrison report"
+    },
+    {
+      "target": "JCS 910811 and CX 69687 June 5",
+      "why": "verify prior release authorization"
+    },
+    {
+      "target": "Secretary's Memoranda of Conversation lot 65 D 238 July 21",
+      "why": "verify Truman denial of Paul Douglas envoy status"
+    },
+    {
+      "target": "JCS 912098 June 25",
+      "why": "verify US intervention consultation requirements"
+    },
+    {
+      "target": "ROK July 1952 martial law gazette and National Assembly records",
+      "why": "crosscheck political crisis and emergency powers"
+    },
+    {
+      "target": "Panmunjom executive session minutes July 19-23",
+      "why": "verify Clark instruction execution"
+    },
+    {
+      "target": "ROK cabinet economic aid files July-August 1952",
+      "why": "test Johnson prediction of aid difficulties"
+    }
+  ]
+}
