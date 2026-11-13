@@ -10,6 +10,22 @@ issues=[]
 paths=[s["path"] for s in sources]
 if len(paths)!=len(set(paths)):issues.append({"code":"DUPLICATE_SOURCE_PATH"})
 if report["sourceFiles"]!=len(sources):issues.append({"code":"SOURCE_COUNT_MISMATCH"})
+# Verify every inventoried byte stream against the actual repository checkout.
+# A recorded path alone is not evidence that its original contents survived.
+for src in sources:
+    original=root/src["path"]
+    if not original.is_file():
+        issues.append({"code":"MISSING_ORIGINAL_FILE","path":src["path"]})
+        continue
+    digest=hashlib.sha256(original.read_bytes()).hexdigest()
+    if digest!=src["sha256"]:
+        issues.append({"code":"SOURCE_HASH_MISMATCH","path":src["path"]})
+# Confirm all currently present source files are represented in the inventory.
+actual={p.relative_to(root).as_posix() for p in (root/"data").rglob("*")
+        if p.is_file() and not p.is_relative_to(out.parent)}
+for missing in sorted(actual-set(paths)):
+    issues.append({"code":"UNINVENTORIED_SOURCE_FILE","path":missing})
+
 ids={}
 for kind in kinds:
     obj=json.loads((out/(kind+".json")).read_text())
