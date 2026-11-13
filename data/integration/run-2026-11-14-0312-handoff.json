@@ -41,10 +41,29 @@
       "auxiliaryRecords": 695,
       "integrityIssues": 0
     },
-    "actorAliasFix": "scripts/integrate_all.py updated to ingest politicians/*.json actors arrays; new generated count pending CI."
+    "actorAliasFix": "Applied; regenerated and audited successfully",
+    "operationalPoliticianSync": {
+      "commit": "1ef12d39f59fc84d70748b1e6c57c7c5a7105053",
+      "newCandidateNodes": 22,
+      "existingIdsWithOverlays": 11,
+      "identityPolicy": "no name-based merges, no unverified promotions"
+    },
+    "postActorFixAudit": {
+      "sourceFiles": 2243,
+      "uniqueIds": {
+        "documents": 4634,
+        "claims": 2117,
+        "events": 2750,
+        "politicians": 493,
+        "organizations": 79
+      },
+      "conflictedIds": 895,
+      "auxiliaryRecords": 664,
+      "integrityIssues": 0
+    }
   },
   "next": [
-    "Verify regenerated politician counts and integrity-audit.json after actor-array fix",
+    "Review 22 candidate additions and 11 ID-matched actor overlays against original documents",
     "Merge shared central registry fields semantically, preserving old values and documenting identity conflict",
     "Cross-check event and document IDs referenced by run224/run225 actor entries",
     "Review 794 content conflicts by source and meaning",
