@@ -55,6 +55,7 @@
 - `data/evidence/`: 인물별 증거 원장
 - `data/annals/`: 인물별 디지털 실록
 - `data/research/`: coverage, open leads, HISTORY_DEBT, forest breadth/depth audit
+- `data/research/registry/1952-september-frus264-269-index.json`: FRUS 264~269 문서·사건·주장·정치인 후보 중복제거 교차참조 인덱스. 중앙 registry 병합 전 PARTIAL 상태이며 원본 overlay와 provenance를 보존
 - `docs/`: 방법론, 아키텍처, 조사 루프
 
 ## 운영 원칙
