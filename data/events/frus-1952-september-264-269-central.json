@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "accessDate": "2026-11-13",
   "migrationDate": "2026-11-14",
-  "migrationStatus": "CENTRAL_SHARD_MIGRATED_PENDING_FULL_AUDIT",
+  "migrationStatus": "CENTRAL_SHARD_MIGRATED_CANDIDATE_EVENT_LINKS_PENDING_FULL_AUDIT",
   "sourceFamilies": [
     "US-STATE-FRUS"
   ],
@@ -70,7 +70,12 @@
       "relatedClaimIds": [
         "clm-1952-rhee-currency-loan-300m"
       ],
-      "linkBasis": "shared-document-only; relationship is contextual, not proof of claim"
+      "linkBasis": "shared-document-only; relationship is contextual, not proof of claim",
+      "relatedPoliticianCandidateIds": [
+        "candidate-lim-byung-jik",
+        "candidate-yang-yu-chan"
+      ],
+      "candidateLinkBasis": "FRUS document 268 shared-context mention only; participation, office, decision authority and actions NOT verified"
     },
     {
       "id": "evt-1952-0915-truman-armistice-decision",
