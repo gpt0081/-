@@ -94,4 +94,9 @@ summary={"sourceFiles":len(sources),"uniqueCentralIds":{k:len(v) for k,v in ids.
 "note":"Registry presence and provenance checks only. Referential and historical adjudication still required."}
 (out/"integrity-audit.json").write_text(json.dumps(summary,ensure_ascii=False,indent=2)+"\n")
 print(json.dumps({k:v for k,v in summary.items() if k not in ("unresolvedSources","integrityIssues")},ensure_ascii=False))
-if issues or crosswalk_gaps:sys.exit(1)
+# A partial audit must never return success to CI or an hourly worker.
+# The integrator intentionally preserves conflicting alternatives and auxiliary
+# sources; those remain unresolved until separately adjudicated or mapped.
+if summary["centralSync"] != "PASS" or issues:
+    sys.exit(1)
+
