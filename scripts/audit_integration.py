@@ -89,7 +89,8 @@ for crosswalk in sorted((root/"data/research/registry").glob("*index.json")):
 summary={"sourceFiles":len(sources),"uniqueCentralIds":{k:len(v) for k,v in ids.items()},
 "conflictedIds":len(report["conflictingIds"]),"auxiliaryRecords":len(aux),
 "unresolvedSources":[s["path"] for s in sources if s["status"] in ("PARSE_ERROR","AUXILIARY_JSON_INDEXED")],
-"integrityIssues":issues,"crosswalkGaps":crosswalk_gaps,\n"centralSync":"PARTIAL" if report["conflictingIds"] or report["parseErrors"] or aux or crosswalk_gaps else "PASS",
+"integrityIssues":issues,"crosswalkGaps":crosswalk_gaps,
+"centralSync":"PARTIAL" if report["conflictingIds"] or report["parseErrors"] or aux or crosswalk_gaps else "PASS",
 "note":"Registry presence and provenance checks only. Referential and historical adjudication still required."}
 (out/"integrity-audit.json").write_text(json.dumps(summary,ensure_ascii=False,indent=2)+"\n")
 print(json.dumps({k:v for k,v in summary.items() if k not in ("unresolvedSources","integrityIssues")},ensure_ascii=False))
