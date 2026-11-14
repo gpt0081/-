@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "migrationDate": "2026-11-14",
-  "migrationStatus": "CANDIDATES_INDEXED_NOT_PROMOTED",
+  "migrationStatus": "CANDIDATES_INDEXED_CONTEXTUAL_EVENT_LINKS_NOT_PROMOTED",
   "sourceRegistry": "data/research/registry/1952-september-frus264-269-index.json",
   "provenanceFamily": "US-STATE-FRUS",
   "politicians": [
@@ -29,7 +29,11 @@
           "status": "OPEN"
         }
       ],
-      "promotionBlockedBy": "Korean independent primary-source verification pending"
+      "promotionBlockedBy": "Korean independent primary-source verification pending",
+      "relatedEventIds": [
+        "evt-1952-0907-rhee-muccio-economic-security-talk"
+      ],
+      "eventLinkVerification": "CONTEXTUAL_DOCUMENT_MENTION_ONLY_NOT_CONFIRMED_EVENT_PARTICIPANT"
     },
     {
       "id": "candidate-yang-yu-chan",
@@ -56,7 +60,11 @@
           "status": "OPEN"
         }
       ],
-      "promotionBlockedBy": "Korean independent primary-source verification pending"
+      "promotionBlockedBy": "Korean independent primary-source verification pending",
+      "relatedEventIds": [
+        "evt-1952-0907-rhee-muccio-economic-security-talk"
+      ],
+      "eventLinkVerification": "CONTEXTUAL_DOCUMENT_MENTION_ONLY_NOT_CONFIRMED_EVENT_PARTICIPANT"
     }
   ],
   "policy": "Candidate records are not verified politicians; retain original crosswalk and do not infer roles or actions from name alone."
