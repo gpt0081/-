@@ -102,12 +102,13 @@ for typ, groups in records.items():
 report = {"sourceFiles": len(sources), "totals": totals,
           "parseErrors": parse_errors, "conflictingIds": conflicts,
           "exactDuplicateIds": exact_duplicates, "auxiliaryIndexedSources": unstructured,
-          "status": "FULL_INTEGRATION_INCOMPLETE" if parse_errors or conflicts else "CENTRAL_SYNC_PASS",
+          "status": "FULL_INTEGRATION_INCOMPLETE" if parse_errors or conflicts or unstructured else "CENTRAL_SYNC_PASS",
+          "unintegratedSources": [{"path": p, "reason": "AUXILIARY_ONLY_NOT_CANONICAL"} for p in unstructured],
           "policy": "Every ID retained; contradictory versions are explicit alternatives, not silently overwritten. Unstructured source files remain in source tree."}
 (OUT / "report.json").write_text(
     json.dumps(report, ensure_ascii=False, indent=2) + chr(10), encoding="utf-8")
 print(json.dumps({"status": report["status"], "files": len(sources), "totals": totals,
                   "conflicts": len(conflicts), "parseErrors": len(parse_errors),
                   "auxiliaryIndexedSources": len(unstructured)}, ensure_ascii=False))
-if parse_errors:
+if parse_errors or conflicts or unstructured:
     sys.exit(1)
