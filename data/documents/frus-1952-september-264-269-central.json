@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "accessDate": "2026-11-13",
   "migrationDate": "2026-11-14",
-  "migrationStatus": "CENTRAL_SHARD_MIGRATED_PENDING_FULL_AUDIT",
+  "migrationStatus": "CENTRAL_SHARD_MIGRATED_CANDIDATE_LINKS_PENDING_FULL_AUDIT",
   "sourceFamilies": [
     "US-STATE-FRUS"
   ],
@@ -121,7 +121,12 @@
       "relatedClaimIds": [
         "clm-1952-rhee-currency-loan-300m"
       ],
-      "linkBasis": "shared-source-document; cross-reference does not validate claim"
+      "linkBasis": "shared-source-document; cross-reference does not validate claim",
+      "relatedPoliticianCandidateIds": [
+        "candidate-lim-byung-jik",
+        "candidate-yang-yu-chan"
+      ],
+      "politicianLinkVerification": "PROVISIONAL_IDENTITY_MATCH_NOT_ROLE_OR_ACTION_ATTRIBUTION"
     },
     {
       "id": "doc-frus-1952-v15p1-269",
