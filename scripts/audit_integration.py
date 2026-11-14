@@ -86,10 +86,50 @@ for crosswalk in sorted((root/"data/research/registry").glob("*index.json")):
                 crosswalk_gaps.append({"source":crosswalk.relative_to(root).as_posix(),
                                        "kind":kind,"id":row["id"],
                                        "reason":"NOT_IN_GENERATED_REGISTRY"})
+# Cross-kind identity and explicit relationship integrity: audit every preserved
+# alternative, not only the selected canonical variant. These are structural
+# checks and do not adjudicate historical truth.
+for left in kinds:
+    for right in kinds:
+        if left >= right:
+            continue
+        overlap=ids[left] & ids[right]
+        for ident in sorted(overlap):
+            issues.append({"code":"CROSS_KIND_ID_COLLISION","id":ident,
+                           "kinds":[left,right]})
+reference_fields={
+    "relatedDocumentIds":"documents", "documentIds":"documents",
+    "supportingDocumentIds":"documents", "contradictingDocumentIds":"documents",
+    "relatedEventIds":"events", "eventIds":"events",
+    "relatedClaimIds":"claims", "claimIds":"claims",
+    "relatedPoliticianIds":"politicians", "politicianIds":"politicians",
+    "relatedOrganizationIds":"organizations", "organizationIds":"organizations",
+}
+reference_issues=[]
+for kind in kinds:
+    registry=json.loads((out/(kind+".json")).read_text())
+    for record in registry["records"]:
+        for alternative in record["alternatives"]:
+            payload=alternative["data"]
+            for field,target in reference_fields.items():
+                if field not in payload:
+                    continue
+                refs=payload[field]
+                if not isinstance(refs,list):
+                    reference_issues.append({"code":"INVALID_REFERENCE_LIST",
+                        "kind":kind,"id":record["id"],"field":field})
+                    continue
+                for ref in refs:
+                    if not isinstance(ref,str) or ref not in ids[target]:
+                        reference_issues.append({"code":"DANGLING_REFERENCE",
+                            "kind":kind,"id":record["id"],"field":field,
+                            "targetKind":target,"targetId":ref})
+issues.extend(reference_issues)
 summary={"sourceFiles":len(sources),"uniqueCentralIds":{k:len(v) for k,v in ids.items()},
 "conflictedIds":len(report["conflictingIds"]),"auxiliaryRecords":len(aux),
 "unresolvedSources":[s["path"] for s in sources if s["status"] in ("PARSE_ERROR","AUXILIARY_JSON_INDEXED")],
-"integrityIssues":issues,"crosswalkGaps":crosswalk_gaps,
+"integrityIssues":issues,"referenceIssueCount":len(reference_issues),
+"crosswalkGaps":crosswalk_gaps,
 "centralSync":"PARTIAL" if report["conflictingIds"] or report["parseErrors"] or aux or crosswalk_gaps else "PASS",
 "note":"Registry presence and provenance checks only. Referential and historical adjudication still required."}
 (out/"integrity-audit.json").write_text(json.dumps(summary,ensure_ascii=False,indent=2)+"\n")
