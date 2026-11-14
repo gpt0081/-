@@ -168,7 +168,11 @@
       "documentIds": [
         "doc-frus-1952-v15p1-268"
       ],
-      "promotion": "requires Korean provenance"
+      "promotion": "requires Korean provenance",
+      "existingRootId": "pol-lim-byong-jik",
+      "identityReconciliation": "ALIAS_MATCH_EXISTING_ROOT_NODE_NO_NEW_PROMOTION",
+      "originalCandidateIdRetained": true,
+      "roleAttribution": "NOT_ESTABLISHED_BY_SHARED_DOCUMENT"
     },
     {
       "candidateId": "candidate-yang-yu-chan",
@@ -181,7 +185,11 @@
       "documentIds": [
         "doc-frus-1952-v15p1-268"
       ],
-      "promotion": "requires Korean provenance"
+      "promotion": "requires Korean provenance",
+      "existingRootId": "cand-1952-sep-us-ambassador-yang-yu-chan",
+      "identityReconciliation": "ALIAS_MATCH_EXISTING_ROOT_NODE_NO_NEW_PROMOTION",
+      "originalCandidateIdRetained": true,
+      "roleAttribution": "NOT_ESTABLISHED_BY_SHARED_DOCUMENT"
     }
   ],
   "integrity": {
@@ -190,28 +198,28 @@
     "uniqueClaims": 6,
     "sourceFamilies": 1,
     "centralEventsUpdated": true,
-    "centralPoliticiansUpdated": false,
+    "centralPoliticiansUpdated": true,
     "centralDocumentsUpdated": true,
     "centralClaimsUpdated": true,
-    "reason": "Six canonical shards have reciprocal document-event-claim links, but the two provisional candidate IDs are absent from root politicians registry; root events, other historical overlays and open PR changes have not undergone exhaustive cross-file audit. No full integration claim.",
+    "reason": "Two provisional candidate labels mapped to pre-existing root politician IDs; contextual event/document links synchronized. No actor participation inferred. Repository-wide inventory and root event registry still unaudited.",
     "migratedPaths": [
       "data/documents/frus-1952-september-264-269-central.json",
       "data/events/frus-1952-september-264-269-central.json",
       "data/claims/frus-1952-september-264-269-central.json"
     ],
     "crosswalkDocumentLinkGaps": [],
-    "candidateRootRegistryLookup": "NOT_FOUND_IN_ROOT_POLITICIANS_ARRAY_AS_OF_2026-11-15",
-    "candidateIdsMissingFromRoot": [
-      "candidate-lim-byung-jik",
-      "candidate-yang-yu-chan"
-    ],
-    "auditScope": "Six canonical document/event/claim shards inspected; root politician ID lookup completed (358 entries); root events registry not inspectable through connector; repository-wide inventory and PR branch content not exhaustively inspected",
+    "candidateRootRegistryLookup": "MATCHED_EXISTING_ROOT_IDS_BY_NAME_AND_ALIASES_2026-11-15",
+    "candidateIdsMissingFromRoot": [],
+    "auditScope": "Six canonical document/event/claim shards inspected; root politician ID lookup completed (358 entries); root events registry not inspectable through connector; repository-wide inventory and PR branch content not exhaustively inspected; 2026-11-15 identity alias reconciliation and reciprocal contextual links",
     "fullIntegration": "FULL_INTEGRATION_INCOMPLETE",
     "nextActions": [
-      "Locate candidate IDs in data/politicians/* and reconcile root stable IDs before any merge",
       "Audit PR #73/#74 shared data/politicians.json and HISTORY_DEBT.md against main",
       "Enumerate all research graph/document/claim/event/evidence/annals files and build per-file migration inventory",
       "Validate root events references using a complete file download or repository tree tooling"
-    ]
+    ],
+    "reconciledCandidateMap": {
+      "candidate-lim-byung-jik": "pol-lim-byong-jik",
+      "candidate-yang-yu-chan": "cand-1952-sep-us-ambassador-yang-yu-chan"
+    }
   }
 }
