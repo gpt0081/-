@@ -193,12 +193,25 @@
     "centralPoliticiansUpdated": false,
     "centralDocumentsUpdated": true,
     "centralClaimsUpdated": true,
-    "reason": "18 records migrated to canonical data/{documents,events,claims} shards; generated integration registry, operational references, duplicate-ID audit and Korean independent provenance remain pending.",
+    "reason": "Six canonical shards have reciprocal document-event-claim links, but the two provisional candidate IDs are absent from root politicians registry; root events, other historical overlays and open PR changes have not undergone exhaustive cross-file audit. No full integration claim.",
     "migratedPaths": [
       "data/documents/frus-1952-september-264-269-central.json",
       "data/events/frus-1952-september-264-269-central.json",
       "data/claims/frus-1952-september-264-269-central.json"
     ],
-    "crosswalkDocumentLinkGaps": []
+    "crosswalkDocumentLinkGaps": [],
+    "candidateRootRegistryLookup": "NOT_FOUND_IN_ROOT_POLITICIANS_ARRAY_AS_OF_2026-11-15",
+    "candidateIdsMissingFromRoot": [
+      "candidate-lim-byung-jik",
+      "candidate-yang-yu-chan"
+    ],
+    "auditScope": "Six canonical document/event/claim shards inspected; root politician ID lookup completed (358 entries); root events registry not inspectable through connector; repository-wide inventory and PR branch content not exhaustively inspected",
+    "fullIntegration": "FULL_INTEGRATION_INCOMPLETE",
+    "nextActions": [
+      "Locate candidate IDs in data/politicians/* and reconcile root stable IDs before any merge",
+      "Audit PR #73/#74 shared data/politicians.json and HISTORY_DEBT.md against main",
+      "Enumerate all research graph/document/claim/event/evidence/annals files and build per-file migration inventory",
+      "Validate root events references using a complete file download or repository tree tooling"
+    ]
   }
 }
