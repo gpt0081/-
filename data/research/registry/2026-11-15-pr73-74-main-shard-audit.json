@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-15",
+  "status": "FULL_INTEGRATION_INCOMPLETE",
+  "scope": "PR #73/#74 six canonical document/event/claim shards present on main; not repository-wide",
+  "files": [
+    {
+      "path": "data/documents/run224-may1952-frus-korean-primary.json",
+      "registry": "documents",
+      "records": 63,
+      "missingIds": 0,
+      "mainPresent": true,
+      "fullCrossReferenceValidated": false
+    },
+    {
+      "path": "data/events/run224-may1952-constitutional-pow-economy.json",
+      "registry": "events",
+      "records": 22,
+      "missingIds": 0,
+      "mainPresent": true,
+      "fullCrossReferenceValidated": false
+    },
+    {
+      "path": "data/claims/run224-may1952-adversarial.json",
+      "registry": "claims",
+      "records": 16,
+      "missingIds": 0,
+      "mainPresent": true,
+      "fullCrossReferenceValidated": false
+    },
+    {
+      "path": "data/documents/run225-june1952-us-cabinet-korean.json",
+      "registry": "documents",
+      "records": 70,
+      "missingIds": 0,
+      "mainPresent": true,
+      "fullCrossReferenceValidated": false
+    },
+    {
+      "path": "data/events/run225-june1952-actor-decision-graph.json",
+      "registry": "events",
+      "records": 24,
+      "missingIds": 0,
+      "mainPresent": true,
+      "fullCrossReferenceValidated": false
+    },
+    {
+      "path": "data/claims/run225-june1952-adversarial.json",
+      "registry": "claims",
+      "records": 17,
+      "missingIds": 0,
+      "mainPresent": true,
+      "fullCrossReferenceValidated": false
+    }
+  ],
+  "duplicates": [],
+  "unverified": [
+    "root data/events.json (connector returned empty content)",
+    "PR #73/#74 remaining changed files",
+    "repository-wide graph/annals/evidence/coverage/open-leads cross-links",
+    "Sunday full HISTORY_DEBT review"
+  ]
+}
