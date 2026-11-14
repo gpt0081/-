@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kind": "canonical-crosswalk-staging",
-  "status": "PARTIAL_NOT_CENTRAL",
+  "status": "CENTRAL_SHARDS_MIGRATED_PENDING_FULL_AUDIT",
   "createdAt": "2026-11-13",
   "purpose": "Deduplicate FRUS 264-269 research and prepare non-destructive merge to canonical event, document, claim and politician registries",
   "documents": [
@@ -189,10 +189,16 @@
     "uniqueEvents": 6,
     "uniqueClaims": 6,
     "sourceFamilies": 1,
-    "centralEventsUpdated": false,
+    "centralEventsUpdated": true,
     "centralPoliticiansUpdated": false,
-    "centralDocumentsUpdated": false,
-    "centralClaimsUpdated": false,
-    "reason": "Existing canonical registry schema/large event file and PR conflicts not yet validated; crosswalk avoids destructive overwrites."
+    "centralDocumentsUpdated": true,
+    "centralClaimsUpdated": true,
+    "reason": "18 records migrated to canonical data/{documents,events,claims} shards; generated integration registry, operational references, duplicate-ID audit and Korean independent provenance remain pending.",
+    "migratedPaths": [
+      "data/documents/frus-1952-september-264-269-central.json",
+      "data/events/frus-1952-september-264-269-central.json",
+      "data/claims/frus-1952-september-264-269-central.json"
+    ],
+    "crosswalkDocumentLinkGaps": []
   }
 }
