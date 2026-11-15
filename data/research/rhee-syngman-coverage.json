@@ -1,6 +1,6 @@
 {
   "politicianId": "president-rhee-syngman",
-  "updatedAt": "2026-10-27",
+  "updatedAt": "2026-10-28",
   "purpose": "연구 범위의 빈칸을 추적하는 커버리지 표. 정치적 평가점수가 아니다.",
   "statuses": {
     "seeded": "기본 사건·출처 확보",
@@ -1146,5 +1146,53 @@
       "politician": "pol-chang-myon",
       "guardrail": "UN 원속기록 본문 미열람"
     }
+  },
+  "run223Addendum": {
+    "date": "2026-10-28",
+    "domains": [
+      "헌정·입법",
+      "국방·인사",
+      "지방자치·선거",
+      "경제·외환",
+      "농정·식량",
+      "복지·구호",
+      "노동·사회",
+      "치안·사법",
+      "정전·외교",
+      "전쟁·포로",
+      "안보·정보"
+    ],
+    "eventRegistry": "data/events/run223-apr1952-actions.json",
+    "documentRegistry": "data/documents/run223-apr1952-frus-korean.json",
+    "politicianRegistry": "data/politicians/run223-apr1952-actors.json",
+    "note": "1952-04-25 시읍면/05-10 도의회 구분, Operation Scatter 심사/재심사, 농지상환·쌀수입·외환관리, 원면/판결/공고 미확보",
+    "guardrail": "미국 FRUS 외교·군사문서는 한국 대통령 직접 명령 증거 아님"
+  },
+  "run224Addendum": {
+    "date": "2026-10-28",
+    "period": "1952-05 through 1952-07-04 legislative follow-up",
+    "domains": [
+      "헌정·입법",
+      "행정·계엄",
+      "국방·군령",
+      "인사·정당",
+      "사법",
+      "지방자치·선거",
+      "재정·외환",
+      "경제조정",
+      "포로·인권",
+      "정전·외교",
+      "국제기구",
+      "언론·공론장"
+    ],
+    "documentRegistry": "data/documents/run224-may1952-frus-korean-primary.json",
+    "eventRegistry": "data/events/run224-may1952-constitutional-pow-economy.json",
+    "politicianRegistry": "data/politicians/run224-may1952-actors.json",
+    "claimRegistry": "data/claims/run224-may1952-adversarial.json",
+    "coverageFile": "data/research/coverage/run224.json",
+    "leadQueue": "data/research/lead-queues/run224-next.json",
+    "documentCount": 62,
+    "events": 22,
+    "guardrail": "미측 제안·한국측 대통령 성명·국회 원속기록의 provenance 분리. 원면 0, 직접 체포명령 미확보"
   }
 }

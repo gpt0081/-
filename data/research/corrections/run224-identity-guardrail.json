@@ -1,0 +1,28 @@
+{
+  "id": "CORR-R224-001",
+  "date": "2026-10-28",
+  "issue": "Earlier run224 commit used name-only matching to attach 1952 Assembly speakers to 1951/1954/1955 entries without an independent identity chain",
+  "replacements": [
+    {
+      "from": "pol-r148-jo-sun",
+      "to": "cand-r224-jo-sun-1952",
+      "person": "조순",
+      "reason": "same name across years is insufficient for stable identity; do not silently merge"
+    },
+    {
+      "from": "cand-r213-jo-byeong-mun",
+      "to": "cand-r224-jo-byeong-mun-1952",
+      "person": "조병문",
+      "reason": "same name across years is insufficient for stable identity; do not silently merge"
+    },
+    {
+      "from": "pol-r141-lee-chung-hwan",
+      "to": "cand-r224-lee-chung-hwan-1952",
+      "person": "이충환",
+      "reason": "same name across years is insufficient for stable identity; do not silently merge"
+    }
+  ],
+  "affectedSource": "doc-r224-nikh-0010_0160",
+  "reversibility": "Original IDs retained; possibleSameAs only; source-specific 1952 nodes remain candidate",
+  "evidenceStandard": "Requires National Assembly member rosters, constituency and birth-date matching before VERIFIED merge"
+}
