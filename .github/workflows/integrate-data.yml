@@ -7,10 +7,14 @@ on:
       - 'scripts/audit_integration.py'
       - 'scripts/link_operational_layers.py'
       - 'data/**'
+      - '!data/integration/generated/**'
       - '.github/workflows/integrate-data.yml'
   workflow_dispatch:
 permissions:
   contents: write
+concurrency:
+  group: historical-integration-main
+  cancel-in-progress: false
 jobs:
   integrate:
     runs-on: ubuntu-latest
@@ -21,18 +25,64 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Consolidate sources and audit collisions
-        run: python scripts/integrate_all.py
+      - name: Consolidate all sources (partial is expected while backlog remains)
+        id: consolidate
+        shell: bash
+        run: |
+          set +e
+          python scripts/integrate_all.py
+          result=$?
+          echo "exit_code=$result" >> "$GITHUB_OUTPUT"
+          if [ "$result" -gt 1 ]; then
+            echo "::warning::Integration script exited with code $result"
+          fi
+          exit 0
       - name: Link operational evidence and annals layers
-        run: python scripts/link_operational_layers.py
+        id: link
+        shell: bash
+        run: |
+          set +e
+          python scripts/link_operational_layers.py
+          result=$?
+          echo "exit_code=$result" >> "$GITHUB_OUTPUT"
+          exit 0
       - name: Validate provenance and inventory completeness
-        run: python scripts/audit_integration.py
-      - name: Commit generated indexes
+        id: audit
+        shell: bash
+        run: |
+          set +e
+          python scripts/audit_integration.py
+          result=$?
+          echo "exit_code=$result" >> "$GITHUB_OUTPUT"
+          exit 0
+      - name: Preserve generated audit and inventory reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: integration-audit
+          path: data/integration/generated/
+          retention-days: 14
+          if-no-files-found: warn
+      - name: Commit generated indexes (not canonical resolution)
+        if: steps.consolidate.outputs.exit_code == '0' || steps.consolidate.outputs.exit_code == '1'
+        shell: bash
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add data/integration/generated
           if ! git diff --cached --quiet; then
-            git commit -m 'integration: regenerate all-source evidence indexes and audit'
+            git commit -m 'integration: preserve partial indexes and audit'
             git push
+          fi
+      - name: Enforce integration completeness gate
+        if: always()
+        shell: bash
+        env:
+          CONSOLIDATE_EXIT: ${{ steps.consolidate.outputs.exit_code }}
+          LINK_EXIT: ${{ steps.link.outputs.exit_code }}
+          AUDIT_EXIT: ${{ steps.audit.outputs.exit_code }}
+        run: |
+          if [ "$CONSOLIDATE_EXIT" != "0" ] || [ "$LINK_EXIT" != "0" ] || [ "$AUDIT_EXIT" != "0" ]; then
+            echo "::error::FULL_INTEGRATION_INCOMPLETE: reports preserved; unresolved conflicts or validation errors remain."
+            exit 1
           fi
