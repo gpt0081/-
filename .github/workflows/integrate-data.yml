@@ -6,6 +6,7 @@ on:
       - 'scripts/integrate_all.py'
       - 'scripts/audit_integration.py'
       - 'scripts/link_operational_layers.py'
+      - 'scripts/triage_integration.py'
       - 'data/**'
       - '!data/integration/generated/**'
       - '.github/workflows/integrate-data.yml'
@@ -55,6 +56,8 @@ jobs:
           result=$?
           echo "exit_code=$result" >> "$GITHUB_OUTPUT"
           exit 0
+      - name: Build per-source unresolved integration triage
+        run: python scripts/triage_integration.py
       - name: Preserve generated audit and inventory reports
         if: always()
         uses: actions/upload-artifact@v4
