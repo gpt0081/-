@@ -7,6 +7,7 @@ on:
       - 'scripts/audit_integration.py'
       - 'scripts/link_operational_layers.py'
       - 'scripts/triage_integration.py'
+      - 'scripts/audit_politician_references.py'
       - 'data/**'
       - '!data/integration/generated/**'
       - '.github/workflows/integrate-data.yml'
@@ -58,6 +59,15 @@ jobs:
           exit 0
       - name: Build per-source unresolved integration triage
         run: python scripts/triage_integration.py
+      - name: Audit canonical politician file references
+        id: politician_audit
+        shell: bash
+        run: |
+          set +e
+          python scripts/audit_politician_references.py
+          result=$?
+          echo "exit_code=$result" >> "$GITHUB_OUTPUT"
+          exit 0
       - name: Preserve generated audit and inventory reports
         if: always()
         uses: actions/upload-artifact@v4
@@ -84,8 +94,9 @@ jobs:
           CONSOLIDATE_EXIT: ${{ steps.consolidate.outputs.exit_code }}
           LINK_EXIT: ${{ steps.link.outputs.exit_code }}
           AUDIT_EXIT: ${{ steps.audit.outputs.exit_code }}
+          POLITICIAN_AUDIT_EXIT: ${{ steps.politician_audit.outputs.exit_code }}
         run: |
-          if [ "$CONSOLIDATE_EXIT" != "0" ] || [ "$LINK_EXIT" != "0" ] || [ "$AUDIT_EXIT" != "0" ]; then
+          if [ "$CONSOLIDATE_EXIT" != "0" ] || [ "$LINK_EXIT" != "0" ] || [ "$AUDIT_EXIT" != "0" ] || [ "$POLITICIAN_AUDIT_EXIT" != "0" ]; then
             echo "::error::FULL_INTEGRATION_INCOMPLETE: reports preserved; unresolved conflicts or validation errors remain."
             exit 1
           fi
