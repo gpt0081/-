@@ -3653,6 +3653,28 @@
           "sha256": "45c2f6e6e14b8b414cac4bf22c21540127946efc71e55df902224c67a82c72e8",
           "identityBasis": "explicit registry ID or exact registry file reference"
         }
+      ],
+      "identityReconciliation": [
+        {
+          "candidateId": "pol-r141-shin-ik-hui",
+          "matchStatus": "PROVISIONAL_NOT_MERGED",
+          "sharedHanja": "申翼熙",
+          "context": "1952-06~07 국회의장 및 개헌 의사진행 원문",
+          "sourceFiles": [
+            "data/politicians/run224-may1952-actors.json"
+          ],
+          "overlayEvidenceDocumentIds": [
+            "doc-r224-nikh-0010_0120",
+            "doc-r224-nikh-0010_0130",
+            "doc-r224-nikh-0010_0140"
+          ],
+          "overlayEventIds": [
+            "evt-r224-assembly-summons",
+            "evt-r224-assembly-two-amendments"
+          ],
+          "reviewDate": "2026-11-16",
+          "caution": "동일 한자·시기·직책의 높은 일치 가능성이나 독립 인사원부·국회 의원명부 대조 전 stable ID 통합 및 참조 치환 금지"
+        }
       ]
     },
     {
@@ -6156,6 +6178,23 @@
           "sha256": "806a2066189f11481050d32bcedf1a01512f3aa379ce04f658a869b7b98d938a",
           "identityBasis": "explicit registry ID or exact registry file reference"
         }
+      ],
+      "identityReconciliation": [
+        {
+          "candidateId": "pol-r148-kwak-sang-hun",
+          "matchStatus": "PROVISIONAL_NOT_MERGED",
+          "sharedHanja": "郭尙勳",
+          "context": "1952 개헌 발의와 국회 활동, 1954~1960 의원 경력",
+          "sourceFiles": [
+            "data/politicians/run224-may1952-actors.json"
+          ],
+          "overlayEvidenceDocumentIds": [],
+          "overlayEventIds": [
+            "evt-r224-assembly-two-amendments"
+          ],
+          "reviewDate": "2026-11-16",
+          "caution": "동일 한자·시기·직책의 높은 일치 가능성이나 독립 인사원부·국회 의원명부 대조 전 stable ID 통합 및 참조 치환 금지"
+        }
       ]
     },
     {
@@ -7720,7 +7759,27 @@
       "lastResearchPass": 238,
       "partyAffiliationEvidence": "unknown",
       "evidenceFile": null,
-      "annalsFile": null
+      "annalsFile": null,
+      "identityReconciliation": [
+        {
+          "candidateId": "pol-r164-seo-min-ho",
+          "matchStatus": "PROVISIONAL_NOT_MERGED",
+          "sharedHanja": "徐珉濠",
+          "context": "1952 국회의원 체포·1953 형사재판 기록",
+          "sourceFiles": [
+            "data/politicians/run224-may1952-actors.json"
+          ],
+          "overlayEvidenceDocumentIds": [
+            "doc-r224-nikh-le-019",
+            "doc-r224-frus-147"
+          ],
+          "overlayEventIds": [
+            "evt-r224-martial-law"
+          ],
+          "reviewDate": "2026-11-16",
+          "caution": "동일 한자·시기·직책의 높은 일치 가능성이나 독립 인사원부·국회 의원명부 대조 전 stable ID 통합 및 참조 치환 금지"
+        }
+      ]
     },
     {
       "id": "cand-p238-kim-jong-hoe",
@@ -12465,6 +12524,23 @@
           ],
           "verification": "dated contemporary report; anonymous individual vote unknown"
         }
+      ],
+      "identityReconciliation": [
+        {
+          "candidateId": "pol-r139-jang-taek-sang",
+          "matchStatus": "PROVISIONAL_NOT_MERGED",
+          "sharedHanja": "張澤相",
+          "context": "1952 국무총리 취임·국회 개헌 협상",
+          "sourceFiles": [
+            "data/politicians/run224-may1952-actors.json"
+          ],
+          "overlayEvidenceDocumentIds": [],
+          "overlayEventIds": [
+            "evt-r224-martial-law"
+          ],
+          "reviewDate": "2026-11-16",
+          "caution": "동일 한자·시기·직책의 높은 일치 가능성이나 독립 인사원부·국회 의원명부 대조 전 stable ID 통합 및 참조 치환 금지"
+        }
       ]
     },
     {
@@ -16079,6 +16155,25 @@
           "sha256": "27a0c9ddeba3f27e3b6a2fcb83126f9784d9fde22413c8312a7f42c2f05eca3e",
           "identityBasis": "explicit registry ID or exact registry file reference"
         }
+      ],
+      "identityReconciliation": [
+        {
+          "candidateId": "pol-r164-ji-cheong-cheon",
+          "matchStatus": "PROVISIONAL_NOT_MERGED",
+          "sharedHanja": "池靑天",
+          "context": "1952-07-04 국회 개헌 심의 전원위원장 기록과 기존 지청천 국회의원 이력",
+          "sourceFiles": [
+            "data/politicians/run224-may1952-actors.json"
+          ],
+          "overlayEvidenceDocumentIds": [
+            "doc-r224-nikh-0010_0170"
+          ],
+          "overlayEventIds": [
+            "evt-r224-july4-amendment"
+          ],
+          "reviewDate": "2026-11-16",
+          "caution": "동일 한자·시기·직책의 높은 일치 가능성이나 독립 인사원부·국회 의원명부 대조 전 stable ID 통합 및 참조 치환 금지"
+        }
       ]
     },
     {
@@ -18512,7 +18607,13 @@
       ],
       "sourceFiles": [
         "data/politicians/run224-may1952-actors.json"
-      ]
+      ],
+      "identityReconciliation": {
+        "possibleCanonicalId": "cand-p238-seo-min-ho",
+        "status": "PROVISIONAL_NOT_MERGED",
+        "reviewDate": "2026-11-16",
+        "sharedHanja": "徐珉濠"
+      }
     },
     {
       "id": "pol-r141-shin-ik-hui",
@@ -18613,7 +18714,13 @@
       ],
       "sourceFiles": [
         "data/politicians/run224-may1952-actors.json"
-      ]
+      ],
+      "identityReconciliation": {
+        "possibleCanonicalId": "cand-1952-speaker-shin-ik-hui",
+        "status": "PROVISIONAL_NOT_MERGED",
+        "reviewDate": "2026-11-16",
+        "sharedHanja": "申翼熙"
+      }
     },
     {
       "id": "pol-r141-eom-sang-seop",
@@ -19034,7 +19141,13 @@
       ],
       "sourceFiles": [
         "data/politicians/run224-may1952-actors.json"
-      ]
+      ],
+      "identityReconciliation": {
+        "possibleCanonicalId": "pol-chang-taek-sang",
+        "status": "PROVISIONAL_NOT_MERGED",
+        "reviewDate": "2026-11-16",
+        "sharedHanja": "張澤相"
+      }
     },
     {
       "id": "pol-r148-kwak-sang-hun",
@@ -19121,7 +19234,13 @@
       ],
       "sourceFiles": [
         "data/politicians/run224-may1952-actors.json"
-      ]
+      ],
+      "identityReconciliation": {
+        "possibleCanonicalId": "cand-p235-kwak-sang-hun",
+        "status": "PROVISIONAL_NOT_MERGED",
+        "reviewDate": "2026-11-16",
+        "sharedHanja": "郭尙勳"
+      }
     },
     {
       "id": "cand-r224-jeong-sun-jo",
@@ -19330,7 +19449,13 @@
       ],
       "sourceFiles": [
         "data/politicians/run224-may1952-actors.json"
-      ]
+      ],
+      "identityReconciliation": {
+        "possibleCanonicalId": "pol-ji-cheong-cheon",
+        "status": "PROVISIONAL_NOT_MERGED",
+        "reviewDate": "2026-11-16",
+        "sharedHanja": "池靑天"
+      }
     },
     {
       "id": "cand-r224-shin-gak-hyu",
