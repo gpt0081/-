@@ -1,14 +1,14 @@
 {
-  "sourceFiles": 2243,
+  "sourceFiles": 2248,
   "uniqueCentralIds": {
     "documents": 4634,
     "claims": 2117,
     "events": 2750,
-    "politicians": 493,
+    "politicians": 495,
     "organizations": 79
   },
-  "conflictedIds": 895,
-  "auxiliaryRecords": 664,
+  "conflictedIds": 898,
+  "auxiliaryRecords": 665,
   "unresolvedSources": [
     "data/documents/pass-239m2-1954-proposal-and-reversal-signers.json",
     "data/documents/pass-257q-1954-cabinet-gazette-originals.json",
@@ -580,6 +580,7 @@
     "data/research/primary-reads/pass-257s-2026-10-29.json",
     "data/research/primary-reads/pass-257t-2026-10-29.json",
     "data/research/primary-reads/pass-257u-2026-10-29.json",
+    "data/research/registry/2026-11-15-pr73-74-main-shard-audit.json",
     "data/research/rhee-syngman-coverage-run88.json",
     "data/research/rhee-syngman-coverage.json",
     "data/research/rhee-syngman-open-leads.json",
@@ -675,7 +676,42 @@
     "data/research/transition-second-republic-pass311.json",
     "data/research/weekly-history-debt-review-2026-10-04.json"
   ],
-  "integrityIssues": [],
+  "integrityIssues": [
+    {
+      "code": "DANGLING_REFERENCE",
+      "kind": "claims",
+      "id": "clm-1952-clark-air-pressure-effect",
+      "field": "contradictingDocumentIds",
+      "targetKind": "documents",
+      "targetId": "doc-frus-1952-v15p1-255"
+    },
+    {
+      "code": "DANGLING_REFERENCE",
+      "kind": "claims",
+      "id": "clm-1952-clark-air-pressure-effect",
+      "field": "contradictingDocumentIds",
+      "targetKind": "documents",
+      "targetId": "doc-frus-1952-v15p1-255"
+    },
+    {
+      "code": "DANGLING_REFERENCE",
+      "kind": "events",
+      "id": "evt-r224-military-neutrality",
+      "field": "politicianIds",
+      "targetKind": "politicians",
+      "targetId": "cand-r218-lee-jong-chan-martial1951"
+    },
+    {
+      "code": "DANGLING_REFERENCE",
+      "kind": "events",
+      "id": "evt-r224-vice-presidency",
+      "field": "politicianIds",
+      "targetKind": "politicians",
+      "targetId": "pol-r164-kim-seong-su"
+    }
+  ],
+  "referenceIssueCount": 4,
+  "crosswalkGaps": [],
   "centralSync": "PARTIAL",
   "note": "Registry presence and provenance checks only. Referential and historical adjudication still required."
 }
