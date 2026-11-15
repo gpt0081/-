@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-14",
+  "updatedAt": "2026-11-16",
   "purpose": "대한민국 정치인 실록의 인물 registry. 대통령은 초기 backbone일 뿐이며 모든 인물은 독립된 정치인 노드로 취급한다.",
   "politicians": [
     {
@@ -19936,6 +19936,49 @@
       "sourceFiles": [
         "data/politicians/run225-june1952-actors.json"
       ]
+    },
+    {
+      "id": "pol-ahn-jae-hong",
+      "name": "안재홍",
+      "aliases": [
+        "安在鴻"
+      ],
+      "lifespan": {
+        "born": null,
+        "died": null,
+        "verification": "NOT_VERIFIED_IN_THIS_PASS"
+      },
+      "roles": [
+        {
+          "title": "민정장관",
+          "date": "1948-03-22",
+          "evidenceFile": "data/evidence/ahn-jae-hong.json",
+          "role": "recommended_by",
+          "caution": "군정법령 제173호 및 제174호의 건의자로 기록. 초안 작성자·승인자·집행자로 단정하지 않음"
+        }
+      ],
+      "researchStatus": "ANNALS_ACTIVE",
+      "registryPromotion": "SOURCE_LINKED_EXISTING_ANNALS",
+      "evidenceFile": "data/evidence/ahn-jae-hong.json",
+      "annalsFile": "data/annals/ahn-jae-hong.md",
+      "connections": [],
+      "evidenceDocumentIds": [
+        "d81-173",
+        "d81-174"
+      ],
+      "openLeads": [
+        "1948-03-22 군정법령173·174호 초안·결재철",
+        "1948 중앙토지행정처 이사회 임명장·인계대장"
+      ],
+      "sourceFiles": [
+        "data/evidence/ahn-jae-hong.json",
+        "data/annals/ahn-jae-hong.md"
+      ],
+      "sourceUrls": [
+        "https://db.history.go.kr/contemp/gb/level.do?levelId=gbmg_1948_03_22_a0015",
+        "https://db.history.go.kr/contemp/gb/level.do?levelId=gbmg_1948_03_22_a0016"
+      ],
+      "integrationNote": "Existing standalone annals/evidence integrated into canonical politician registry; document IDs and source claims retained pending cross-registry validation."
     }
   ],
   "recentResearchPass232": {
