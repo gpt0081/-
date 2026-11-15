@@ -10605,7 +10605,94 @@
           ]
         },
         {
-          "digest": "2e9a28e41fc515b605dc5eba1b98805a00e4496069818e38eeb0251a04337efd",
+          "digest": "5832bfb6429c155df253724ea0c768647506a801f11c0840863017b226e01ba4",
+          "data": {
+            "id": "cand-1952-speaker-shin-ik-hui",
+            "name": "신익희",
+            "aliases": [
+              "申翼熙"
+            ],
+            "lifespan": {
+              "born": null,
+              "died": null,
+              "verification": "OPEN"
+            },
+            "roles_by_period": [
+              {
+                "period": "1954",
+                "description": "1954 국회의장"
+              }
+            ],
+            "action_type": "경제개헌 토론 의사진행",
+            "event_ids": [
+              "evt-p239m3-02"
+            ],
+            "document_ids": [
+              "DOC-P239M3-ASSEMBLY-0040",
+              "DOC-P239M3-ASSEMBLY-0050"
+            ],
+            "research_status": "IDENTIFIED_FROM_ORIGINAL",
+            "open_lead": "1954 제2·3대 국회 선거구·생몰·재임기간 원의원명부와 교차",
+            "access_date": "2026-10-29"
+          },
+          "provenance": [
+            {
+              "path": "data/politicians/pass-239m3-1954-economic-parliament-actors.json",
+              "pointer": "/politicians/12"
+            }
+          ]
+        },
+        {
+          "digest": "65dddb9133e7bf910274606881c8dfebd12f29d64cbcfb89b03b0a462bd1e541",
+          "data": {
+            "id": "cand-1952-speaker-shin-ik-hui",
+            "name": "신익희",
+            "aliases": [
+              "Shin Ik-hui"
+            ],
+            "hanja": null,
+            "hanjaVerification": "not yet checked against original personnel/election record",
+            "lifespan": {
+              "born": null,
+              "died": null,
+              "verification": "unverified in this pass"
+            },
+            "roles": [
+              {
+                "period": "1952",
+                "office": "National Assembly presiding officer 1952-07-04",
+                "selection_or_appointment": "contemporaneous event actor"
+              }
+            ],
+            "party_affiliation": "not verified in this pass",
+            "eventConnections": [
+              {
+                "eventId": "evt-p231-0704-constitutional-vote",
+                "actionType": "presided",
+                "documentIds": [
+                  "DOC-P231-KOR-0704"
+                ]
+              }
+            ],
+            "researchStatus": "IDENTIFIED",
+            "evidenceCoverage": "event-specific original/transcription or official retrospective; complete career and identity not verified",
+            "openLeads": [
+              "신익희의 1952년 당시 선거관리위원회·국회 속기록·관보 원문으로 생몰/한자/정당/행위 확인"
+            ],
+            "historyDebt": [
+              "identity/tenure primary record pending"
+            ],
+            "promotionReason": "1952 specific dated public office/candidacy/action, no moral ranking"
+          },
+          "provenance": [
+            {
+              "path": "data/politicians/pass-231-1952-election-accountability.json",
+              "pointer": "/politicians/8"
+            }
+          ]
+        },
+        {
+          "digest": "79db2e9e0d7cf44d576f934cd15e2868528e0cda4c5c57b20ceba686fb1bbfa0",
           "data": {
             "id": "cand-1952-speaker-shin-ik-hui",
             "name": "신익희",
@@ -10814,99 +10901,34 @@
                 "sha256": "45c2f6e6e14b8b414cac4bf22c21540127946efc71e55df902224c67a82c72e8",
                 "identityBasis": "explicit registry ID or exact registry file reference"
               }
+            ],
+            "identityReconciliation": [
+              {
+                "candidateId": "pol-r141-shin-ik-hui",
+                "matchStatus": "PROVISIONAL_NOT_MERGED",
+                "sharedHanja": "申翼熙",
+                "context": "1952-06~07 국회의장 및 개헌 의사진행 원문",
+                "sourceFiles": [
+                  "data/politicians/run224-may1952-actors.json"
+                ],
+                "overlayEvidenceDocumentIds": [
+                  "doc-r224-nikh-0010_0120",
+                  "doc-r224-nikh-0010_0130",
+                  "doc-r224-nikh-0010_0140"
+                ],
+                "overlayEventIds": [
+                  "evt-r224-assembly-summons",
+                  "evt-r224-assembly-two-amendments"
+                ],
+                "reviewDate": "2026-11-16",
+                "caution": "동일 한자·시기·직책의 높은 일치 가능성이나 독립 인사원부·국회 의원명부 대조 전 stable ID 통합 및 참조 치환 금지"
+              }
             ]
           },
           "provenance": [
             {
               "path": "data/politicians.json",
               "pointer": "/politicians/48"
-            }
-          ]
-        },
-        {
-          "digest": "5832bfb6429c155df253724ea0c768647506a801f11c0840863017b226e01ba4",
-          "data": {
-            "id": "cand-1952-speaker-shin-ik-hui",
-            "name": "신익희",
-            "aliases": [
-              "申翼熙"
-            ],
-            "lifespan": {
-              "born": null,
-              "died": null,
-              "verification": "OPEN"
-            },
-            "roles_by_period": [
-              {
-                "period": "1954",
-                "description": "1954 국회의장"
-              }
-            ],
-            "action_type": "경제개헌 토론 의사진행",
-            "event_ids": [
-              "evt-p239m3-02"
-            ],
-            "document_ids": [
-              "DOC-P239M3-ASSEMBLY-0040",
-              "DOC-P239M3-ASSEMBLY-0050"
-            ],
-            "research_status": "IDENTIFIED_FROM_ORIGINAL",
-            "open_lead": "1954 제2·3대 국회 선거구·생몰·재임기간 원의원명부와 교차",
-            "access_date": "2026-10-29"
-          },
-          "provenance": [
-            {
-              "path": "data/politicians/pass-239m3-1954-economic-parliament-actors.json",
-              "pointer": "/politicians/12"
-            }
-          ]
-        },
-        {
-          "digest": "65dddb9133e7bf910274606881c8dfebd12f29d64cbcfb89b03b0a462bd1e541",
-          "data": {
-            "id": "cand-1952-speaker-shin-ik-hui",
-            "name": "신익희",
-            "aliases": [
-              "Shin Ik-hui"
-            ],
-            "hanja": null,
-            "hanjaVerification": "not yet checked against original personnel/election record",
-            "lifespan": {
-              "born": null,
-              "died": null,
-              "verification": "unverified in this pass"
-            },
-            "roles": [
-              {
-                "period": "1952",
-                "office": "National Assembly presiding officer 1952-07-04",
-                "selection_or_appointment": "contemporaneous event actor"
-              }
-            ],
-            "party_affiliation": "not verified in this pass",
-            "eventConnections": [
-              {
-                "eventId": "evt-p231-0704-constitutional-vote",
-                "actionType": "presided",
-                "documentIds": [
-                  "DOC-P231-KOR-0704"
-                ]
-              }
-            ],
-            "researchStatus": "IDENTIFIED",
-            "evidenceCoverage": "event-specific original/transcription or official retrospective; complete career and identity not verified",
-            "openLeads": [
-              "신익희의 1952년 당시 선거관리위원회·국회 속기록·관보 원문으로 생몰/한자/정당/행위 확인"
-            ],
-            "historyDebt": [
-              "identity/tenure primary record pending"
-            ],
-            "promotionReason": "1952 specific dated public office/candidacy/action, no moral ranking"
-          },
-          "provenance": [
-            {
-              "path": "data/politicians/pass-231-1952-election-accountability.json",
-              "pointer": "/politicians/8"
             }
           ]
         },
@@ -14455,187 +14477,7 @@
           ]
         },
         {
-          "digest": "23887e58868efbcf4f8168f6f6177901b327c0c30699eb0cdeb4bad094f815ab",
-          "data": {
-            "id": "cand-p235-kwak-sang-hun",
-            "name": "곽상훈",
-            "aliases": [
-              "郭尙勳",
-              "Kwak Sang-hun"
-            ],
-            "lifespan_verification": "No original birth/death certificate reviewed this run",
-            "roles_by_period": [
-              {
-                "period": "1956-1957",
-                "description": "See event_ids and cited documents; reports of roles are not proof of orders"
-              }
-            ],
-            "document_ids": [
-              "DOC-P241-NIKH-OIR7371"
-            ],
-            "event_ids": [
-              "evt-p241-07"
-            ],
-            "action_type": "proposed, attended, reported or observed per event stage",
-            "research_status": "VERIFIED",
-            "open_lead": "LEAD-P241-10",
-            "identity_caveat": "Exact Korean gazette / legal original remains targeted; no political ranking"
-          },
-          "provenance": [
-            {
-              "path": "data/politicians/pass-241-1956-57-actors.json",
-              "pointer": "/politicians/8"
-            }
-          ]
-        },
-        {
-          "digest": "36a9d27fa2f00228b64ec8d6cc5fbe9e8edce09c50bf73352c377b36ea76583d",
-          "data": {
-            "id": "cand-p235-kwak-sang-hun",
-            "name": "곽상훈",
-            "aliases": [
-              "郭尙勳"
-            ],
-            "lifespan": {
-              "born": null,
-              "died": null,
-              "verification": "OPEN"
-            },
-            "roles_by_period": [
-              {
-                "period": "1954",
-                "description": "1954 국회 부의장"
-              }
-            ],
-            "action_type": "국무원 신임 의사일정 처리",
-            "event_ids": [
-              "evt-p239m3-07"
-            ],
-            "document_ids": [
-              "DOC-P239M3-ASSEMBLY-0100"
-            ],
-            "research_status": "IDENTIFIED_FROM_ORIGINAL",
-            "open_lead": "1954 제2·3대 국회 선거구·생몰·재임기간 원의원명부와 교차",
-            "access_date": "2026-10-29"
-          },
-          "provenance": [
-            {
-              "path": "data/politicians/pass-239m3-1954-economic-parliament-actors.json",
-              "pointer": "/politicians/20"
-            }
-          ]
-        },
-        {
-          "digest": "9ac95d2323194a73128df0c93de57574df8d314524389f508046265a8f59cab8",
-          "data": {
-            "id": "cand-p235-kwak-sang-hun",
-            "name": "곽상훈",
-            "aliases": [
-              "郭尙勳",
-              "Kwak Sang-hun"
-            ],
-            "lifespan": {
-              "born": "1896",
-              "died": "1980",
-              "verification": "AKS retrospective"
-            },
-            "roles_by_period": [
-              {
-                "period": "1954-06-09",
-                "description": "National Assembly vice-chair per UN A/2711"
-              },
-              {
-                "period": "1954-08",
-                "description": "Leader of Independent Comrades Association (31 members) per UN"
-              },
-              {
-                "period": "1955",
-                "description": "Democratic Party executive per AKS"
-              }
-            ],
-            "document_ids": [
-              "DOC-P239K-UN-A2711",
-              "DOC-P239K-AKS-KWAK"
-            ],
-            "event_ids": [
-              "evt-p239k-22",
-              "evt-p239k-27"
-            ],
-            "action_type": "elected office and parliamentary group leadership",
-            "research_status": "VERIFIED",
-            "open_lead": "LEAD-P239K-46",
-            "identity_caveat": "Independent Comrades Association not assumed same as later Hoheon"
-          },
-          "provenance": [
-            {
-              "path": "data/politicians/pass-239k-1955-actors.json",
-              "pointer": "/politicians/19"
-            }
-          ]
-        },
-        {
-          "digest": "b60a97bba93d9bb7e6f644570cbe096bb86ec38a3039ac599dad8b90c430693b",
-          "data": {
-            "id": "cand-p235-kwak-sang-hun",
-            "name": "곽상훈",
-            "aliases": [
-              "郭尙勳"
-            ],
-            "lifespan_verification": "NOT_VERIFIED_THIS_PASS",
-            "roles_by_period": [
-              {
-                "period": "1954",
-                "description": "1954 국회 부의장"
-              }
-            ],
-            "action_type": "번복 반대",
-            "event_ids": [
-              "evt-p239m-06",
-              "evt-p239m-07"
-            ],
-            "document_ids": [
-              "DOC-P239M-NARA-91"
-            ],
-            "research_status": "EVIDENCE_DEEPENED_NOT_AUTOMATIC_PROMOTION",
-            "open_lead": "선거구·임명일·생몰 및 중복 후보 정체성은 국회·관보 인사원본 확인",
-            "access_date": "2026-10-29"
-          },
-          "provenance": [
-            {
-              "path": "data/politicians/pass-239m-1954-constitutional-actors.json",
-              "pointer": "/politicians/1"
-            }
-          ]
-        },
-        {
-          "digest": "bc758366dcdc515c4fff39c3fd792f5de6a9633e1c3d11890a2cf7fa0feb9bad",
-          "data": {
-            "id": "cand-p235-kwak-sang-hun",
-            "name": "곽상훈",
-            "sourceSpelling": "Kwak Sang Hoon",
-            "researchStatus": "EXISTING_DEEPENED_WITH_CONTEMPORANEOUS_UN_ROSTER",
-            "sourceLevel": "CONTEMPORANEOUS_UN_COMMISSION_ROSTER",
-            "action": {
-              "date": "1954-06-09",
-              "type": "elected",
-              "role": "Vice-Chairman of National Assembly",
-              "sourceLocation": "Annex II p20"
-            },
-            "evidenceIds": [
-              "DOC-P257W-UN-A2711-PRIMARY"
-            ],
-            "note": "independent",
-            "openLead": "Korean official appointment/election notice for 곽상훈, 1954-06-09; compare UN roster, verify legal effective date and original spelling"
-          },
-          "provenance": [
-            {
-              "path": "data/politicians/pass-257w3-uncurk-1954-cabinet-assembly-roster.json",
-              "pointer": "/politicians/21"
-            }
-          ]
-        },
-        {
-          "digest": "cd168fec250dccb969c4605f26f1c2354ed5477d145e23730f8d0616c9f247d2",
+          "digest": "1e1093d2a9b2e5a71b185d94c25775acb33402e992b4ee6b631359ff6e890d48",
           "data": {
             "id": "cand-p235-kwak-sang-hun",
             "name": "곽상훈",
@@ -14816,12 +14658,209 @@
                 "sha256": "806a2066189f11481050d32bcedf1a01512f3aa379ce04f658a869b7b98d938a",
                 "identityBasis": "explicit registry ID or exact registry file reference"
               }
+            ],
+            "identityReconciliation": [
+              {
+                "candidateId": "pol-r148-kwak-sang-hun",
+                "matchStatus": "PROVISIONAL_NOT_MERGED",
+                "sharedHanja": "郭尙勳",
+                "context": "1952 개헌 발의와 국회 활동, 1954~1960 의원 경력",
+                "sourceFiles": [
+                  "data/politicians/run224-may1952-actors.json"
+                ],
+                "overlayEvidenceDocumentIds": [],
+                "overlayEventIds": [
+                  "evt-r224-assembly-two-amendments"
+                ],
+                "reviewDate": "2026-11-16",
+                "caution": "동일 한자·시기·직책의 높은 일치 가능성이나 독립 인사원부·국회 의원명부 대조 전 stable ID 통합 및 참조 치환 금지"
+              }
             ]
           },
           "provenance": [
             {
               "path": "data/politicians.json",
               "pointer": "/politicians/89"
+            }
+          ]
+        },
+        {
+          "digest": "23887e58868efbcf4f8168f6f6177901b327c0c30699eb0cdeb4bad094f815ab",
+          "data": {
+            "id": "cand-p235-kwak-sang-hun",
+            "name": "곽상훈",
+            "aliases": [
+              "郭尙勳",
+              "Kwak Sang-hun"
+            ],
+            "lifespan_verification": "No original birth/death certificate reviewed this run",
+            "roles_by_period": [
+              {
+                "period": "1956-1957",
+                "description": "See event_ids and cited documents; reports of roles are not proof of orders"
+              }
+            ],
+            "document_ids": [
+              "DOC-P241-NIKH-OIR7371"
+            ],
+            "event_ids": [
+              "evt-p241-07"
+            ],
+            "action_type": "proposed, attended, reported or observed per event stage",
+            "research_status": "VERIFIED",
+            "open_lead": "LEAD-P241-10",
+            "identity_caveat": "Exact Korean gazette / legal original remains targeted; no political ranking"
+          },
+          "provenance": [
+            {
+              "path": "data/politicians/pass-241-1956-57-actors.json",
+              "pointer": "/politicians/8"
+            }
+          ]
+        },
+        {
+          "digest": "36a9d27fa2f00228b64ec8d6cc5fbe9e8edce09c50bf73352c377b36ea76583d",
+          "data": {
+            "id": "cand-p235-kwak-sang-hun",
+            "name": "곽상훈",
+            "aliases": [
+              "郭尙勳"
+            ],
+            "lifespan": {
+              "born": null,
+              "died": null,
+              "verification": "OPEN"
+            },
+            "roles_by_period": [
+              {
+                "period": "1954",
+                "description": "1954 국회 부의장"
+              }
+            ],
+            "action_type": "국무원 신임 의사일정 처리",
+            "event_ids": [
+              "evt-p239m3-07"
+            ],
+            "document_ids": [
+              "DOC-P239M3-ASSEMBLY-0100"
+            ],
+            "research_status": "IDENTIFIED_FROM_ORIGINAL",
+            "open_lead": "1954 제2·3대 국회 선거구·생몰·재임기간 원의원명부와 교차",
+            "access_date": "2026-10-29"
+          },
+          "provenance": [
+            {
+              "path": "data/politicians/pass-239m3-1954-economic-parliament-actors.json",
+              "pointer": "/politicians/20"
+            }
+          ]
+        },
+        {
+          "digest": "9ac95d2323194a73128df0c93de57574df8d314524389f508046265a8f59cab8",
+          "data": {
+            "id": "cand-p235-kwak-sang-hun",
+            "name": "곽상훈",
+            "aliases": [
+              "郭尙勳",
+              "Kwak Sang-hun"
+            ],
+            "lifespan": {
+              "born": "1896",
+              "died": "1980",
+              "verification": "AKS retrospective"
+            },
+            "roles_by_period": [
+              {
+                "period": "1954-06-09",
+                "description": "National Assembly vice-chair per UN A/2711"
+              },
+              {
+                "period": "1954-08",
+                "description": "Leader of Independent Comrades Association (31 members) per UN"
+              },
+              {
+                "period": "1955",
+                "description": "Democratic Party executive per AKS"
+              }
+            ],
+            "document_ids": [
+              "DOC-P239K-UN-A2711",
+              "DOC-P239K-AKS-KWAK"
+            ],
+            "event_ids": [
+              "evt-p239k-22",
+              "evt-p239k-27"
+            ],
+            "action_type": "elected office and parliamentary group leadership",
+            "research_status": "VERIFIED",
+            "open_lead": "LEAD-P239K-46",
+            "identity_caveat": "Independent Comrades Association not assumed same as later Hoheon"
+          },
+          "provenance": [
+            {
+              "path": "data/politicians/pass-239k-1955-actors.json",
+              "pointer": "/politicians/19"
+            }
+          ]
+        },
+        {
+          "digest": "b60a97bba93d9bb7e6f644570cbe096bb86ec38a3039ac599dad8b90c430693b",
+          "data": {
+            "id": "cand-p235-kwak-sang-hun",
+            "name": "곽상훈",
+            "aliases": [
+              "郭尙勳"
+            ],
+            "lifespan_verification": "NOT_VERIFIED_THIS_PASS",
+            "roles_by_period": [
+              {
+                "period": "1954",
+                "description": "1954 국회 부의장"
+              }
+            ],
+            "action_type": "번복 반대",
+            "event_ids": [
+              "evt-p239m-06",
+              "evt-p239m-07"
+            ],
+            "document_ids": [
+              "DOC-P239M-NARA-91"
+            ],
+            "research_status": "EVIDENCE_DEEPENED_NOT_AUTOMATIC_PROMOTION",
+            "open_lead": "선거구·임명일·생몰 및 중복 후보 정체성은 국회·관보 인사원본 확인",
+            "access_date": "2026-10-29"
+          },
+          "provenance": [
+            {
+              "path": "data/politicians/pass-239m-1954-constitutional-actors.json",
+              "pointer": "/politicians/1"
+            }
+          ]
+        },
+        {
+          "digest": "bc758366dcdc515c4fff39c3fd792f5de6a9633e1c3d11890a2cf7fa0feb9bad",
+          "data": {
+            "id": "cand-p235-kwak-sang-hun",
+            "name": "곽상훈",
+            "sourceSpelling": "Kwak Sang Hoon",
+            "researchStatus": "EXISTING_DEEPENED_WITH_CONTEMPORANEOUS_UN_ROSTER",
+            "sourceLevel": "CONTEMPORANEOUS_UN_COMMISSION_ROSTER",
+            "action": {
+              "date": "1954-06-09",
+              "type": "elected",
+              "role": "Vice-Chairman of National Assembly",
+              "sourceLocation": "Annex II p20"
+            },
+            "evidenceIds": [
+              "DOC-P257W-UN-A2711-PRIMARY"
+            ],
+            "note": "independent",
+            "openLead": "Korean official appointment/election notice for 곽상훈, 1954-06-09; compare UN roster, verify legal effective date and original spelling"
+          },
+          "provenance": [
+            {
+              "path": "data/politicians/pass-257w3-uncurk-1954-cabinet-assembly-roster.json",
+              "pointer": "/politicians/21"
             }
           ]
         },
@@ -20587,7 +20626,7 @@
       "integrationStatus": "INTEGRATED",
       "alternatives": [
         {
-          "digest": "0faabedafba5da5b66c20f95b7d030b136be9bfb17d1b3eb600351f84b01994a",
+          "digest": "ebc3ef276aeb36a0a7acf538fd38c46cf258676fa27ffe7bb4c3696ba0c3dfce",
           "data": {
             "id": "cand-p238-seo-min-ho",
             "name": "서민호",
@@ -20633,7 +20672,27 @@
             "lastResearchPass": 238,
             "partyAffiliationEvidence": "unknown",
             "evidenceFile": null,
-            "annalsFile": null
+            "annalsFile": null,
+            "identityReconciliation": [
+              {
+                "candidateId": "pol-r164-seo-min-ho",
+                "matchStatus": "PROVISIONAL_NOT_MERGED",
+                "sharedHanja": "徐珉濠",
+                "context": "1952 국회의원 체포·1953 형사재판 기록",
+                "sourceFiles": [
+                  "data/politicians/run224-may1952-actors.json"
+                ],
+                "overlayEvidenceDocumentIds": [
+                  "doc-r224-nikh-le-019",
+                  "doc-r224-frus-147"
+                ],
+                "overlayEventIds": [
+                  "evt-r224-martial-law"
+                ],
+                "reviewDate": "2026-11-16",
+                "caution": "동일 한자·시기·직책의 높은 일치 가능성이나 독립 인사원부·국회 의원명부 대조 전 stable ID 통합 및 참조 치환 금지"
+              }
+            ]
           },
           "provenance": [
             {
@@ -20643,7 +20702,7 @@
           ]
         }
       ],
-      "canonicalSelection": "0faabedafba5da5b66c20f95b7d030b136be9bfb17d1b3eb600351f84b01994a"
+      "canonicalSelection": "ebc3ef276aeb36a0a7acf538fd38c46cf258676fa27ffe7bb4c3696ba0c3dfce"
     },
     {
       "id": "cand-p238e-choi-yang-gi",
@@ -44335,7 +44394,47 @@
       "integrationStatus": "CONFLICTED",
       "alternatives": [
         {
-          "digest": "0d35df2ae62aa013d3009b95a9e801c2bcac45c5a6203fe77196fc08543b6a1c",
+          "digest": "158ab720b1ab880da2dfaf4e7371c41db7bae43a1ff6f37e6a44674c8d2d900e",
+          "data": {
+            "id": "pol-chang-taek-sang",
+            "name": "장택상",
+            "aliases": [
+              "張澤相",
+              "Chang Taek-sang"
+            ],
+            "lifespan": {
+              "born": null,
+              "died": null,
+              "verification": "original vital record not verified"
+            },
+            "roles_by_period": [
+              {
+                "period": "1958",
+                "description": "1957-10-15 이기붕·조병옥과 선거법 동시상정 합의(연표)",
+                "verification": "document-specific participation only"
+              }
+            ],
+            "research_status": "IDENTIFIED",
+            "document_ids": [
+              "DOC-P243-FRUS-251"
+            ],
+            "event_ids": [
+              "evt-p243-1958-1118-security-draft"
+            ],
+            "action_type": "meeting participation / documented statement / institution action; no automatic presidential instruction attribution",
+            "open_lead": "data/research/leads/pass-243-1958-next.json",
+            "identity_note": "Reuse existing canonical/candidate ID; no name-only merging, no unsupported status promotion.",
+            "evidence_tier": "named_in_opened_original"
+          },
+          "provenance": [
+            {
+              "path": "data/politicians/pass-243-1958-actor-evidence.json",
+              "pointer": "/politicians/7"
+            }
+          ]
+        },
+        {
+          "digest": "21be9a2ecdaf1a54affcc14b2effad8bb5e971a1be176b4c5e345f906b7e020e",
           "data": {
             "id": "pol-chang-taek-sang",
             "name": "장택상",
@@ -44424,52 +44523,29 @@
                 ],
                 "verification": "dated contemporary report; anonymous individual vote unknown"
               }
+            ],
+            "identityReconciliation": [
+              {
+                "candidateId": "pol-r139-jang-taek-sang",
+                "matchStatus": "PROVISIONAL_NOT_MERGED",
+                "sharedHanja": "張澤相",
+                "context": "1952 국무총리 취임·국회 개헌 협상",
+                "sourceFiles": [
+                  "data/politicians/run224-may1952-actors.json"
+                ],
+                "overlayEvidenceDocumentIds": [],
+                "overlayEventIds": [
+                  "evt-r224-martial-law"
+                ],
+                "reviewDate": "2026-11-16",
+                "caution": "동일 한자·시기·직책의 높은 일치 가능성이나 독립 인사원부·국회 의원명부 대조 전 stable ID 통합 및 참조 치환 금지"
+              }
             ]
           },
           "provenance": [
             {
               "path": "data/politicians.json",
               "pointer": "/politicians/210"
-            }
-          ]
-        },
-        {
-          "digest": "158ab720b1ab880da2dfaf4e7371c41db7bae43a1ff6f37e6a44674c8d2d900e",
-          "data": {
-            "id": "pol-chang-taek-sang",
-            "name": "장택상",
-            "aliases": [
-              "張澤相",
-              "Chang Taek-sang"
-            ],
-            "lifespan": {
-              "born": null,
-              "died": null,
-              "verification": "original vital record not verified"
-            },
-            "roles_by_period": [
-              {
-                "period": "1958",
-                "description": "1957-10-15 이기붕·조병옥과 선거법 동시상정 합의(연표)",
-                "verification": "document-specific participation only"
-              }
-            ],
-            "research_status": "IDENTIFIED",
-            "document_ids": [
-              "DOC-P243-FRUS-251"
-            ],
-            "event_ids": [
-              "evt-p243-1958-1118-security-draft"
-            ],
-            "action_type": "meeting participation / documented statement / institution action; no automatic presidential instruction attribution",
-            "open_lead": "data/research/leads/pass-243-1958-next.json",
-            "identity_note": "Reuse existing canonical/candidate ID; no name-only merging, no unsupported status promotion.",
-            "evidence_tier": "named_in_opened_original"
-          },
-          "provenance": [
-            {
-              "path": "data/politicians/pass-243-1958-actor-evidence.json",
-              "pointer": "/politicians/7"
             }
           ]
         },
@@ -48080,7 +48156,7 @@
       "integrationStatus": "INTEGRATED",
       "alternatives": [
         {
-          "digest": "d9807392bb1e26dd2dc337c61388cca6f7a1b194e7454486a707405a728cd093",
+          "digest": "765a0e52688c054e8714056fdf901862352e649179b9921ac02f3f44750fc60b",
           "data": {
             "id": "pol-ji-cheong-cheon",
             "name": "지청천",
@@ -48148,6 +48224,25 @@
                 "sha256": "27a0c9ddeba3f27e3b6a2fcb83126f9784d9fde22413c8312a7f42c2f05eca3e",
                 "identityBasis": "explicit registry ID or exact registry file reference"
               }
+            ],
+            "identityReconciliation": [
+              {
+                "candidateId": "pol-r164-ji-cheong-cheon",
+                "matchStatus": "PROVISIONAL_NOT_MERGED",
+                "sharedHanja": "池靑天",
+                "context": "1952-07-04 국회 개헌 심의 전원위원장 기록과 기존 지청천 국회의원 이력",
+                "sourceFiles": [
+                  "data/politicians/run224-may1952-actors.json"
+                ],
+                "overlayEvidenceDocumentIds": [
+                  "doc-r224-nikh-0010_0170"
+                ],
+                "overlayEventIds": [
+                  "evt-r224-july4-amendment"
+                ],
+                "reviewDate": "2026-11-16",
+                "caution": "동일 한자·시기·직책의 높은 일치 가능성이나 독립 인사원부·국회 의원명부 대조 전 stable ID 통합 및 참조 치환 금지"
+              }
             ]
           },
           "provenance": [
@@ -48158,7 +48253,7 @@
           ]
         }
       ],
-      "canonicalSelection": "d9807392bb1e26dd2dc337c61388cca6f7a1b194e7454486a707405a728cd093"
+      "canonicalSelection": "765a0e52688c054e8714056fdf901862352e649179b9921ac02f3f44750fc60b"
     },
     {
       "id": "pol-jo-il-jae",
@@ -55343,7 +55438,83 @@
       "integrationStatus": "CONFLICTED",
       "alternatives": [
         {
-          "digest": "11716ef0d58e113d4756a1d3041c181a5deb649dc79b8eeedf7c8b30e35e191c",
+          "digest": "1c94b7d5562c192f131b2a321b20babeda07d8346590e7fb3ba23a9ae2e3d7d1",
+          "data": {
+            "id": "pol-r139-jang-taek-sang",
+            "name": "장택상",
+            "aliases": [
+              "張澤相",
+              "Chang Taek-sang",
+              "Jang Taek-sang"
+            ],
+            "hanjaVerification": "PREVIOUS_RECORD_OR_OFFICIAL_SIGNATORY",
+            "lifespan": {
+              "born": null,
+              "died": null,
+              "verification": "NOT_REVERIFIED_IN_RUN225"
+            },
+            "roleAtTime": "1952-06 국무총리·국회해산 반대 및 절충안 작성",
+            "roleVerification": "DOCUMENT_ATTRIBUTED",
+            "researchStatus": "ANNALS_ACTIVE",
+            "formalPromotionThisRun": false,
+            "eventIds": [
+              "evt-r225-cabinet-compromise",
+              "evt-r225-cabinet-command-chain",
+              "evt-r225-promulgation"
+            ],
+            "evidenceDocumentIds": [
+              "doc-r225-frus-163",
+              "doc-r225-archives-47",
+              "doc-r225-archives-gaz688"
+            ],
+            "openLeadId": "L225-ACTOR-pol-r139-jang-taek-sang",
+            "historyDebtIds": [],
+            "accessDate": "2026-10-28",
+            "identityCaution": "Existing stable ID reused where available; new candidate never auto-merged on name alone."
+          },
+          "provenance": [
+            {
+              "path": "data/politicians/run225-june1952-actors.json",
+              "pointer": "/politicians/0"
+            }
+          ]
+        },
+        {
+          "digest": "581d928c59c5ba5203570f55cfa75f01220f203447e4ed5bbc2b887a4235a10c",
+          "data": {
+            "id": "pol-r139-jang-taek-sang",
+            "name": "장택상",
+            "aliases": [
+              "張澤相",
+              "Chang Taek-sang",
+              "Jang Taek-sang"
+            ],
+            "lifespan": {
+              "born": null,
+              "died": null,
+              "verification": "NOT_RECHECKED"
+            },
+            "roleAtTime": "1952-04 국무총리 취임 관련 사후 한국학중앙연구원 해제 참조(원발령 미열람)",
+            "roleVerification": "RETROSPECTIVE_ONLY",
+            "researchStatus": "ANNALS_ACTIVE",
+            "eventIds": [
+              "evt-r224-martial-law"
+            ],
+            "evidenceDocumentIds": [],
+            "openLeadId": "L224-ACTOR-pol-r139-jang-taek-sang",
+            "historyDebtIds": [],
+            "accessDate": "2026-10-28",
+            "identityCaution": "신원/생몰·직책시기·원면 독립 재검증 필요; 기존 ID 충돌 시 병합 금지"
+          },
+          "provenance": [
+            {
+              "path": "data/politicians/run224-may1952-actors.json",
+              "pointer": "/politicians/11"
+            }
+          ]
+        },
+        {
+          "digest": "cfaef3f95b8f3a23dc904b5a3e8101ccb0893f0780107a36314a0f7d76635a12",
           "data": {
             "id": "pol-r139-jang-taek-sang",
             "name": "장택상",
@@ -55436,88 +55607,18 @@
             ],
             "sourceFiles": [
               "data/politicians/run224-may1952-actors.json"
-            ]
+            ],
+            "identityReconciliation": {
+              "possibleCanonicalId": "pol-chang-taek-sang",
+              "status": "PROVISIONAL_NOT_MERGED",
+              "reviewDate": "2026-11-16",
+              "sharedHanja": "張澤相"
+            }
           },
           "provenance": [
             {
               "path": "data/politicians.json",
               "pointer": "/politicians/343"
-            }
-          ]
-        },
-        {
-          "digest": "1c94b7d5562c192f131b2a321b20babeda07d8346590e7fb3ba23a9ae2e3d7d1",
-          "data": {
-            "id": "pol-r139-jang-taek-sang",
-            "name": "장택상",
-            "aliases": [
-              "張澤相",
-              "Chang Taek-sang",
-              "Jang Taek-sang"
-            ],
-            "hanjaVerification": "PREVIOUS_RECORD_OR_OFFICIAL_SIGNATORY",
-            "lifespan": {
-              "born": null,
-              "died": null,
-              "verification": "NOT_REVERIFIED_IN_RUN225"
-            },
-            "roleAtTime": "1952-06 국무총리·국회해산 반대 및 절충안 작성",
-            "roleVerification": "DOCUMENT_ATTRIBUTED",
-            "researchStatus": "ANNALS_ACTIVE",
-            "formalPromotionThisRun": false,
-            "eventIds": [
-              "evt-r225-cabinet-compromise",
-              "evt-r225-cabinet-command-chain",
-              "evt-r225-promulgation"
-            ],
-            "evidenceDocumentIds": [
-              "doc-r225-frus-163",
-              "doc-r225-archives-47",
-              "doc-r225-archives-gaz688"
-            ],
-            "openLeadId": "L225-ACTOR-pol-r139-jang-taek-sang",
-            "historyDebtIds": [],
-            "accessDate": "2026-10-28",
-            "identityCaution": "Existing stable ID reused where available; new candidate never auto-merged on name alone."
-          },
-          "provenance": [
-            {
-              "path": "data/politicians/run225-june1952-actors.json",
-              "pointer": "/politicians/0"
-            }
-          ]
-        },
-        {
-          "digest": "581d928c59c5ba5203570f55cfa75f01220f203447e4ed5bbc2b887a4235a10c",
-          "data": {
-            "id": "pol-r139-jang-taek-sang",
-            "name": "장택상",
-            "aliases": [
-              "張澤相",
-              "Chang Taek-sang",
-              "Jang Taek-sang"
-            ],
-            "lifespan": {
-              "born": null,
-              "died": null,
-              "verification": "NOT_RECHECKED"
-            },
-            "roleAtTime": "1952-04 국무총리 취임 관련 사후 한국학중앙연구원 해제 참조(원발령 미열람)",
-            "roleVerification": "RETROSPECTIVE_ONLY",
-            "researchStatus": "ANNALS_ACTIVE",
-            "eventIds": [
-              "evt-r224-martial-law"
-            ],
-            "evidenceDocumentIds": [],
-            "openLeadId": "L224-ACTOR-pol-r139-jang-taek-sang",
-            "historyDebtIds": [],
-            "accessDate": "2026-10-28",
-            "identityCaution": "신원/생몰·직책시기·원면 독립 재검증 필요; 기존 ID 충돌 시 병합 금지"
-          },
-          "provenance": [
-            {
-              "path": "data/politicians/run224-may1952-actors.json",
-              "pointer": "/politicians/11"
             }
           ]
         }
@@ -55676,7 +55777,44 @@
           ]
         },
         {
-          "digest": "7c7fd9ea5458b51b920b58c6eb3beacbdb9743379ad4aa8de58890a2341a12e9",
+          "digest": "a443e6bdbdf1eb1a37eead5e769b7cc63f452df93b807a1b99d30a78508ceb1c",
+          "data": {
+            "id": "pol-r141-shin-ik-hui",
+            "name": "신익희",
+            "aliases": [
+              "申翼熙",
+              "Shin Ik-hui"
+            ],
+            "hanjaVerification": "PREVIOUS_RECORD_OR_OFFICIAL_SIGNATORY",
+            "lifespan": {
+              "born": null,
+              "died": null,
+              "verification": "NOT_REVERIFIED_IN_RUN225"
+            },
+            "roleAtTime": "1952-07-04 국회 의사 진행",
+            "roleVerification": "DOCUMENT_ATTRIBUTED",
+            "researchStatus": "VERIFIED",
+            "formalPromotionThisRun": false,
+            "eventIds": [
+              "evt-r225-assembly-vote"
+            ],
+            "evidenceDocumentIds": [
+              "doc-r224-nikh-0010_0170"
+            ],
+            "openLeadId": "L225-ACTOR-pol-r141-shin-ik-hui",
+            "historyDebtIds": [],
+            "accessDate": "2026-10-28",
+            "identityCaution": "Existing stable ID reused where available; new candidate never auto-merged on name alone."
+          },
+          "provenance": [
+            {
+              "path": "data/politicians/run225-june1952-actors.json",
+              "pointer": "/politicians/3"
+            }
+          ]
+        },
+        {
+          "digest": "f6ea1d57948ece8fa9223611b735d88cb1d282896b6f30ed0bd1f3253b7e4a03",
           "data": {
             "id": "pol-r141-shin-ik-hui",
             "name": "신익희",
@@ -55776,49 +55914,18 @@
             ],
             "sourceFiles": [
               "data/politicians/run224-may1952-actors.json"
-            ]
+            ],
+            "identityReconciliation": {
+              "possibleCanonicalId": "cand-1952-speaker-shin-ik-hui",
+              "status": "PROVISIONAL_NOT_MERGED",
+              "reviewDate": "2026-11-16",
+              "sharedHanja": "申翼熙"
+            }
           },
           "provenance": [
             {
               "path": "data/politicians.json",
               "pointer": "/politicians/337"
-            }
-          ]
-        },
-        {
-          "digest": "a443e6bdbdf1eb1a37eead5e769b7cc63f452df93b807a1b99d30a78508ceb1c",
-          "data": {
-            "id": "pol-r141-shin-ik-hui",
-            "name": "신익희",
-            "aliases": [
-              "申翼熙",
-              "Shin Ik-hui"
-            ],
-            "hanjaVerification": "PREVIOUS_RECORD_OR_OFFICIAL_SIGNATORY",
-            "lifespan": {
-              "born": null,
-              "died": null,
-              "verification": "NOT_REVERIFIED_IN_RUN225"
-            },
-            "roleAtTime": "1952-07-04 국회 의사 진행",
-            "roleVerification": "DOCUMENT_ATTRIBUTED",
-            "researchStatus": "VERIFIED",
-            "formalPromotionThisRun": false,
-            "eventIds": [
-              "evt-r225-assembly-vote"
-            ],
-            "evidenceDocumentIds": [
-              "doc-r224-nikh-0010_0170"
-            ],
-            "openLeadId": "L225-ACTOR-pol-r141-shin-ik-hui",
-            "historyDebtIds": [],
-            "accessDate": "2026-10-28",
-            "identityCaution": "Existing stable ID reused where available; new candidate never auto-merged on name alone."
-          },
-          "provenance": [
-            {
-              "path": "data/politicians/run225-june1952-actors.json",
-              "pointer": "/politicians/3"
             }
           ]
         }
@@ -55830,77 +55937,7 @@
       "integrationStatus": "CONFLICTED",
       "alternatives": [
         {
-          "digest": "9b7150bf2f1f7a86b3132ad433235c06b6b42ea59d692e16e468f6a5f706740a",
-          "data": {
-            "id": "pol-r148-kwak-sang-hun",
-            "name": "곽상훈",
-            "aliases": [
-              "郭尙勳",
-              "Kwak Sang-hun"
-            ],
-            "hanjaVerification": "PREVIOUS_RECORD_OR_OFFICIAL_SIGNATORY",
-            "lifespan": {
-              "born": null,
-              "died": null,
-              "verification": "NOT_REVERIFIED_IN_RUN225"
-            },
-            "roleAtTime": "1952-07-07 보도상 7명 불구속 재판 대상(판결 미확인)",
-            "roleVerification": "DOCUMENT_ATTRIBUTED",
-            "researchStatus": "IDENTIFIED",
-            "formalPromotionThisRun": false,
-            "eventIds": [
-              "evt-r225-july-arrest-report"
-            ],
-            "evidenceDocumentIds": [
-              "doc-r225-nikh-press-0707"
-            ],
-            "openLeadId": "L225-ACTOR-pol-r148-kwak-sang-hun",
-            "historyDebtIds": [],
-            "accessDate": "2026-10-28",
-            "identityCaution": "Existing stable ID reused where available; new candidate never auto-merged on name alone."
-          },
-          "provenance": [
-            {
-              "path": "data/politicians/run225-june1952-actors.json",
-              "pointer": "/politicians/6"
-            }
-          ]
-        },
-        {
-          "digest": "c1c444111c9e4dfd2b77cf854598b6a8adbf26f98401d26af6884b8e8de467ca",
-          "data": {
-            "id": "pol-r148-kwak-sang-hun",
-            "name": "곽상훈",
-            "aliases": [
-              "郭尙勳",
-              "Kwak Sang-hun"
-            ],
-            "lifespan": {
-              "born": null,
-              "died": null,
-              "verification": "NOT_VERIFIED_THIS_RUN"
-            },
-            "roleAtTime": "1952-04-17 의원내각제 개헌안 발의 대표, 국편 사후 해제 근거",
-            "roleVerification": "RETROSPECTIVE_ONLY",
-            "researchStatus": "IDENTIFIED",
-            "eventIds": [
-              "evt-r224-assembly-two-amendments"
-            ],
-            "evidenceDocumentIds": [],
-            "openLeadId": "L224-ACTOR-pol-r148-kwak-sang-hun",
-            "historyDebtIds": [],
-            "accessDate": "2026-10-28",
-            "identityCaution": "신원/생몰·직책시기·원면 독립 재검증 필요; 기존 ID 충돌 시 병합 금지"
-          },
-          "provenance": [
-            {
-              "path": "data/politicians/run224-may1952-actors.json",
-              "pointer": "/politicians/12"
-            }
-          ]
-        },
-        {
-          "digest": "c58ed9612598d6c8603cb240306608ef805884014f40601f510fa07b4bd239d6",
+          "digest": "4bd737e35153cdd92cac923b23de12e580fcd697cfd9f36a56135f39e65b910a",
           "data": {
             "id": "pol-r148-kwak-sang-hun",
             "name": "곽상훈",
@@ -55986,12 +56023,88 @@
             ],
             "sourceFiles": [
               "data/politicians/run224-may1952-actors.json"
-            ]
+            ],
+            "identityReconciliation": {
+              "possibleCanonicalId": "cand-p235-kwak-sang-hun",
+              "status": "PROVISIONAL_NOT_MERGED",
+              "reviewDate": "2026-11-16",
+              "sharedHanja": "郭尙勳"
+            }
           },
           "provenance": [
             {
               "path": "data/politicians.json",
               "pointer": "/politicians/344"
+            }
+          ]
+        },
+        {
+          "digest": "9b7150bf2f1f7a86b3132ad433235c06b6b42ea59d692e16e468f6a5f706740a",
+          "data": {
+            "id": "pol-r148-kwak-sang-hun",
+            "name": "곽상훈",
+            "aliases": [
+              "郭尙勳",
+              "Kwak Sang-hun"
+            ],
+            "hanjaVerification": "PREVIOUS_RECORD_OR_OFFICIAL_SIGNATORY",
+            "lifespan": {
+              "born": null,
+              "died": null,
+              "verification": "NOT_REVERIFIED_IN_RUN225"
+            },
+            "roleAtTime": "1952-07-07 보도상 7명 불구속 재판 대상(판결 미확인)",
+            "roleVerification": "DOCUMENT_ATTRIBUTED",
+            "researchStatus": "IDENTIFIED",
+            "formalPromotionThisRun": false,
+            "eventIds": [
+              "evt-r225-july-arrest-report"
+            ],
+            "evidenceDocumentIds": [
+              "doc-r225-nikh-press-0707"
+            ],
+            "openLeadId": "L225-ACTOR-pol-r148-kwak-sang-hun",
+            "historyDebtIds": [],
+            "accessDate": "2026-10-28",
+            "identityCaution": "Existing stable ID reused where available; new candidate never auto-merged on name alone."
+          },
+          "provenance": [
+            {
+              "path": "data/politicians/run225-june1952-actors.json",
+              "pointer": "/politicians/6"
+            }
+          ]
+        },
+        {
+          "digest": "c1c444111c9e4dfd2b77cf854598b6a8adbf26f98401d26af6884b8e8de467ca",
+          "data": {
+            "id": "pol-r148-kwak-sang-hun",
+            "name": "곽상훈",
+            "aliases": [
+              "郭尙勳",
+              "Kwak Sang-hun"
+            ],
+            "lifespan": {
+              "born": null,
+              "died": null,
+              "verification": "NOT_VERIFIED_THIS_RUN"
+            },
+            "roleAtTime": "1952-04-17 의원내각제 개헌안 발의 대표, 국편 사후 해제 근거",
+            "roleVerification": "RETROSPECTIVE_ONLY",
+            "researchStatus": "IDENTIFIED",
+            "eventIds": [
+              "evt-r224-assembly-two-amendments"
+            ],
+            "evidenceDocumentIds": [],
+            "openLeadId": "L224-ACTOR-pol-r148-kwak-sang-hun",
+            "historyDebtIds": [],
+            "accessDate": "2026-10-28",
+            "identityCaution": "신원/생몰·직책시기·원면 독립 재검증 필요; 기존 ID 충돌 시 병합 금지"
+          },
+          "provenance": [
+            {
+              "path": "data/politicians/run224-may1952-actors.json",
+              "pointer": "/politicians/12"
             }
           ]
         }
@@ -56040,7 +56153,42 @@
           ]
         },
         {
-          "digest": "7a691ec1af7abc5a30e6e626c2261b6a1d8ba380ee442da6302c9e1d76b7c3cd",
+          "digest": "9cc96e2a6685e9ae87a8f08e771f0d39ab61600f6917db651c5919d8583a4da1",
+          "data": {
+            "id": "pol-r164-ji-cheong-cheon",
+            "name": "지청천",
+            "aliases": [
+              "池靑天",
+              "Ji Cheong-cheon (provisional)"
+            ],
+            "lifespan": {
+              "born": null,
+              "died": null,
+              "verification": "UNVERIFIED"
+            },
+            "roleAtTime": "1952-07-04 전원위원장 개헌심의 보고",
+            "roleVerification": "ORIGINAL_TRANSCRIPTION",
+            "researchStatus": "EXISTING_CANDIDATE_DEEPENED",
+            "eventIds": [
+              "evt-r224-july4-amendment"
+            ],
+            "evidenceDocumentIds": [
+              "doc-r224-nikh-0010_0170"
+            ],
+            "openLeadId": "L224-ACTOR-ji-cheong-cheon",
+            "historyDebtIds": [],
+            "accessDate": "2026-10-28",
+            "identityCaution": "동명이인·생몰·공직 원부 대조 전 VERIFIED 금지"
+          },
+          "provenance": [
+            {
+              "path": "data/politicians/run224-may1952-actors.json",
+              "pointer": "/politicians/15"
+            }
+          ]
+        },
+        {
+          "digest": "9df4308ab7d7b05193b2a3add7e9545fd746a3b1074ec65d0c318c9f3b608e90",
           "data": {
             "id": "pol-r164-ji-cheong-cheon",
             "name": "지청천",
@@ -56130,47 +56278,18 @@
             ],
             "sourceFiles": [
               "data/politicians/run224-may1952-actors.json"
-            ]
+            ],
+            "identityReconciliation": {
+              "possibleCanonicalId": "pol-ji-cheong-cheon",
+              "status": "PROVISIONAL_NOT_MERGED",
+              "reviewDate": "2026-11-16",
+              "sharedHanja": "池靑天"
+            }
           },
           "provenance": [
             {
               "path": "data/politicians.json",
               "pointer": "/politicians/347"
-            }
-          ]
-        },
-        {
-          "digest": "9cc96e2a6685e9ae87a8f08e771f0d39ab61600f6917db651c5919d8583a4da1",
-          "data": {
-            "id": "pol-r164-ji-cheong-cheon",
-            "name": "지청천",
-            "aliases": [
-              "池靑天",
-              "Ji Cheong-cheon (provisional)"
-            ],
-            "lifespan": {
-              "born": null,
-              "died": null,
-              "verification": "UNVERIFIED"
-            },
-            "roleAtTime": "1952-07-04 전원위원장 개헌심의 보고",
-            "roleVerification": "ORIGINAL_TRANSCRIPTION",
-            "researchStatus": "EXISTING_CANDIDATE_DEEPENED",
-            "eventIds": [
-              "evt-r224-july4-amendment"
-            ],
-            "evidenceDocumentIds": [
-              "doc-r224-nikh-0010_0170"
-            ],
-            "openLeadId": "L224-ACTOR-ji-cheong-cheon",
-            "historyDebtIds": [],
-            "accessDate": "2026-10-28",
-            "identityCaution": "동명이인·생몰·공직 원부 대조 전 VERIFIED 금지"
-          },
-          "provenance": [
-            {
-              "path": "data/politicians/run224-may1952-actors.json",
-              "pointer": "/politicians/15"
             }
           ]
         }
@@ -56330,7 +56449,43 @@
           ]
         },
         {
-          "digest": "69484edb11f0794304799bfecc4d0e1793a26cf36e6b6173b53470d55cf641e4",
+          "digest": "b9a6877c0224119b49590bbcdb9981ede7af48b4a37b5af776179ef103af340a",
+          "data": {
+            "id": "pol-r164-seo-min-ho",
+            "name": "서민호",
+            "aliases": [
+              "徐珉濠",
+              "Seo Min-ho"
+            ],
+            "lifespan": {
+              "born": null,
+              "died": null,
+              "verification": "OPEN"
+            },
+            "roleAtTime": "1952-05 구금·국회대립 핵심 당사자, 사법 확정 미확보",
+            "roleVerification": "ORIGINAL_TRANSCRIPTION",
+            "researchStatus": "IDENTIFIED",
+            "eventIds": [
+              "evt-r224-martial-law"
+            ],
+            "evidenceDocumentIds": [
+              "doc-r224-nikh-le-019",
+              "doc-r224-frus-147"
+            ],
+            "openLeadId": "L224-ACTOR-pol-r164-seo-min-ho",
+            "historyDebtIds": [],
+            "accessDate": "2026-10-28",
+            "identityCaution": "신원/생몰·직책시기·원면 독립 재검증 필요; 기존 ID 충돌 시 병합 금지"
+          },
+          "provenance": [
+            {
+              "path": "data/politicians/run224-may1952-actors.json",
+              "pointer": "/politicians/1"
+            }
+          ]
+        },
+        {
+          "digest": "ed0c4bf5f491692f1d014e2edd79d54e4020bd9efda29ce2a3aafb1dd4e332d2",
           "data": {
             "id": "pol-r164-seo-min-ho",
             "name": "서민호",
@@ -56423,48 +56578,18 @@
             ],
             "sourceFiles": [
               "data/politicians/run224-may1952-actors.json"
-            ]
+            ],
+            "identityReconciliation": {
+              "possibleCanonicalId": "cand-p238-seo-min-ho",
+              "status": "PROVISIONAL_NOT_MERGED",
+              "reviewDate": "2026-11-16",
+              "sharedHanja": "徐珉濠"
+            }
           },
           "provenance": [
             {
               "path": "data/politicians.json",
               "pointer": "/politicians/336"
-            }
-          ]
-        },
-        {
-          "digest": "b9a6877c0224119b49590bbcdb9981ede7af48b4a37b5af776179ef103af340a",
-          "data": {
-            "id": "pol-r164-seo-min-ho",
-            "name": "서민호",
-            "aliases": [
-              "徐珉濠",
-              "Seo Min-ho"
-            ],
-            "lifespan": {
-              "born": null,
-              "died": null,
-              "verification": "OPEN"
-            },
-            "roleAtTime": "1952-05 구금·국회대립 핵심 당사자, 사법 확정 미확보",
-            "roleVerification": "ORIGINAL_TRANSCRIPTION",
-            "researchStatus": "IDENTIFIED",
-            "eventIds": [
-              "evt-r224-martial-law"
-            ],
-            "evidenceDocumentIds": [
-              "doc-r224-nikh-le-019",
-              "doc-r224-frus-147"
-            ],
-            "openLeadId": "L224-ACTOR-pol-r164-seo-min-ho",
-            "historyDebtIds": [],
-            "accessDate": "2026-10-28",
-            "identityCaution": "신원/생몰·직책시기·원면 독립 재검증 필요; 기존 ID 충돌 시 병합 금지"
-          },
-          "provenance": [
-            {
-              "path": "data/politicians/run224-may1952-actors.json",
-              "pointer": "/politicians/1"
             }
           ]
         }

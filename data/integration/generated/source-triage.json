@@ -2,12 +2,12 @@
   "schemaVersion": 1,
   "scope": "Every inventoried source file; structural triage only",
   "canonicalSyncVerified": false,
-  "sourceFiles": 2248,
+  "sourceFiles": 2249,
   "statusCounts": {
     "BLOCKED_ID_CONFLICT": 246,
     "INDEXED_NOT_CANONICAL_VERIFIED": 564,
     "NON_JSON_PRESERVED": 773,
-    "UNMAPPED_AUXILIARY": 665
+    "UNMAPPED_AUXILIARY": 666
   },
   "sources": [
     {
@@ -23202,8 +23202,8 @@
     },
     {
       "path": "data/politicians.json",
-      "sha256": "f88a376638f12405ab09ec93f9361ba82027e3121b6b234e21163a9fbdaeeb5e",
-      "bytes": 659417,
+      "sha256": "9d54d6dd743e9d2502c4f092b475e15ac0b2fe65b9da63e78a87a1693598bdbd",
+      "bytes": 664453,
       "recordCounts": {
         "documents": 0,
         "claims": 0,
@@ -35478,6 +35478,22 @@
       "status": "NON_JSON_PRESERVED",
       "conflicts": [],
       "unintegratedReason": null
+    },
+    {
+      "path": "data/research/leads/2026-11-16-identity-reconciliation.json",
+      "sha256": "594d7220354dac93f26dbf4a9955829b11c1395c51f7e09efa9f8cc3089f094d",
+      "bytes": 4553,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0
+      },
+      "targetRegistries": [],
+      "status": "UNMAPPED_AUXILIARY",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_ONLY_NOT_CANONICAL"
     },
     {
       "path": "data/research/leads/pass-159-next-lead-queue.json",

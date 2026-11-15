@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "scope": "canonical data/politicians.json file references only",
+  "canonicalSyncVerified": false,
+  "politiciansChecked": 359,
+  "duplicatePoliticianIds": [],
+  "missingOrInvalidFiles": [],
+  "evidenceOwnerMismatches": [
+    {
+      "politicianId": "pol-rhee-syngman",
+      "declaredId": "president-rhee-syngman",
+      "path": "data/evidence/rhee-syngman.json"
+    }
+  ],
+  "invalidEvidenceJson": [],
+  "limitations": [
+    "Does not resolve conflicting source variants",
+    "Does not validate event/document/claim cross-registry references",
+    "Does not establish historical truth or provenance independence"
+  ]
+}
