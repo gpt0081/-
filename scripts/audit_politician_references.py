@@ -13,6 +13,7 @@ duplicates = sorted(k for k, n in Counter(ids).items() if n > 1)
 missing = []
 bad_json = []
 evidence_refs = []
+legacy_owner_refs = []
 for p in people:
     for field in ("evidenceFile", "annalsFile", "openLeadsFile", "coverageFile"):
         target = p.get(field)
@@ -30,7 +31,11 @@ for p in people:
                 evidence = json.loads(file.read_text(encoding="utf-8"))
                 declared = evidence.get("politicianId") if isinstance(evidence, dict) else None
                 if declared and declared != p.get("id"):
-                    evidence_refs.append({"politicianId": p.get("id"), "declaredId": declared, "path": target})
+                    record = {"politicianId": p.get("id"), "declaredId": declared, "path": target}
+                    if declared in p.get("legacyIds", []):
+                        legacy_owner_refs.append(record)
+                    else:
+                        evidence_refs.append(record)
             except (ValueError, UnicodeError) as exc:
                 bad_json.append({"path": target, "error": str(exc)[:180]})
 result = {
@@ -41,6 +46,7 @@ result = {
     "duplicatePoliticianIds": duplicates,
     "missingOrInvalidFiles": missing,
     "evidenceOwnerMismatches": evidence_refs,
+    "acceptedLegacyEvidenceOwners": legacy_owner_refs,
     "invalidEvidenceJson": bad_json,
     "limitations": [
         "Does not resolve conflicting source variants",
