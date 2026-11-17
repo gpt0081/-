@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "accessDate": "2026-11-13",
   "migrationDate": "2026-11-14",
-  "migrationStatus": "CENTRAL_SHARD_MIGRATED_CANDIDATE_LINKS_PENDING_FULL_AUDIT",
+  "migrationStatus": "CENTRAL_SHARD_MIGRATED_IDENTITY_CROSSWALK_LINKED_PENDING_REPOSITORY_WIDE_AUDIT",
   "sourceFamilies": [
     "US-STATE-FRUS"
   ],
@@ -126,7 +126,12 @@
         "candidate-lim-byung-jik",
         "candidate-yang-yu-chan"
       ],
-      "politicianLinkVerification": "PROVISIONAL_IDENTITY_MATCH_NOT_ROLE_OR_ACTION_ATTRIBUTION"
+      "politicianLinkVerification": "EXISTING_ROOT_IDENTITY_ALIAS_MATCH_CONTEXT_ONLY_NOT_PARTICIPATION",
+      "relatedPoliticianIds": [
+        "pol-lim-byong-jik",
+        "cand-1952-sep-us-ambassador-yang-yu-chan"
+      ],
+      "politicianIdentityCrosswalk": "data/research/registry/1952-september-frus264-269-index.json"
     },
     {
       "id": "doc-frus-1952-v15p1-269",
