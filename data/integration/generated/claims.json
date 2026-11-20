@@ -51212,8 +51212,28 @@
     },
     {
       "id": "claim-19520615-chinese-pow-options-accepted",
-      "integrationStatus": "INTEGRATED",
+      "integrationStatus": "CONFLICTED",
       "alternatives": [
+        {
+          "digest": "56d82749ed591c0e05db6d9ba53fe89e8f90088fcf38c9c54d4715c27ab19dc4",
+          "data": {
+            "id": "claim-19520615-chinese-pow-options-accepted",
+            "status": "OPEN",
+            "assessment": "Not supported by d181; reported options and skepticism, not agreement",
+            "insufficient": [
+              "DOC-FRUS-1952-XV1-181"
+            ],
+            "provenance_overlay": "data/research/graphs/2026-11-12-1916-frus181-182-overlay.json",
+            "central_sync_date": "2026-11-20",
+            "verification_limit": "US diplomatic original-origin transcript only; Korean or PRC independent primary corroboration pending"
+          },
+          "provenance": [
+            {
+              "path": "data/claims/pass-229-1952-cabinet-economy-trial.json",
+              "pointer": "/claims/15"
+            }
+          ]
+        },
         {
           "digest": "c92ff3277f9769949123e662d3c5ee74bf3689cec2744a27d724039e664af145",
           "data": {
@@ -51232,12 +51252,33 @@
           ]
         }
       ],
-      "canonicalSelection": "c92ff3277f9769949123e662d3c5ee74bf3689cec2744a27d724039e664af145"
+      "canonicalSelection": null
     },
     {
       "id": "claim-19520618-us-intervention-executed",
-      "integrationStatus": "INTEGRATED",
+      "integrationStatus": "CONFLICTED",
       "alternatives": [
+        {
+          "digest": "055a5dd26bb9186c24be591a9e10e835d3ca37b483b237a08ead5bbe110e613e",
+          "data": {
+            "id": "claim-19520618-us-intervention-executed",
+            "status": "OPEN",
+            "assessment": "Not supported by d182; document describes conditional plans, not execution",
+            "supporting": [],
+            "insufficient": [
+              "DOC-FRUS-1952-XV1-182"
+            ],
+            "provenance_overlay": "data/research/graphs/2026-11-12-1916-frus181-182-overlay.json",
+            "central_sync_date": "2026-11-20",
+            "verification_limit": "US diplomatic original-origin transcript only; Korean or PRC independent primary corroboration pending"
+          },
+          "provenance": [
+            {
+              "path": "data/claims/pass-229-1952-cabinet-economy-trial.json",
+              "pointer": "/claims/14"
+            }
+          ]
+        },
         {
           "digest": "a44f79d77fb58113e846c6fea93f81adddb7f115c66f413a2cbf0dd47b8c0b15",
           "data": {
@@ -51257,7 +51298,7 @@
           ]
         }
       ],
-      "canonicalSelection": "a44f79d77fb58113e846c6fea93f81adddb7f115c66f413a2cbf0dd47b8c0b15"
+      "canonicalSelection": null
     },
     {
       "id": "claim-19520627-zinchenko-official",

@@ -4,8 +4,8 @@
   "canonicalSyncVerified": false,
   "sourceFiles": 2249,
   "statusCounts": {
-    "BLOCKED_ID_CONFLICT": 246,
-    "INDEXED_NOT_CANONICAL_VERIFIED": 564,
+    "BLOCKED_ID_CONFLICT": 248,
+    "INDEXED_NOT_CANONICAL_VERIFIED": 562,
     "NON_JSON_PRESERVED": 773,
     "UNMAPPED_AUXILIARY": 666
   },
@@ -2365,11 +2365,11 @@
     },
     {
       "path": "data/claims/pass-229-1952-cabinet-economy-trial.json",
-      "sha256": "ef76c6398542152fabeb4107c82944f913b24bc9054c56c3ce3968ae74045bed",
-      "bytes": 10128,
+      "sha256": "7834383bdd066e5866480dc3c0606f4fe4d02d5e982ae74a6222617893935d6c",
+      "bytes": 11195,
       "recordCounts": {
         "documents": 0,
-        "claims": 14,
+        "claims": 16,
         "events": 0,
         "politicians": 0,
         "organizations": 0
@@ -2377,8 +2377,19 @@
       "targetRegistries": [
         "claims"
       ],
-      "status": "INDEXED_NOT_CANONICAL_VERIFIED",
-      "conflicts": [],
+      "status": "BLOCKED_ID_CONFLICT",
+      "conflicts": [
+        {
+          "kind": "claims",
+          "id": "claim-19520615-chinese-pow-options-accepted",
+          "variantCount": 2
+        },
+        {
+          "kind": "claims",
+          "id": "claim-19520618-us-intervention-executed",
+          "variantCount": 2
+        }
+      ],
       "unintegratedReason": null
     },
     {
@@ -5130,8 +5141,8 @@
     },
     {
       "path": "data/documents/pass-229-1952-cabinet-economy-trial.json",
-      "sha256": "5f63bd5419eaeb536b3bdef185b04884f4254bcbd8a59921071ab17521038a74",
-      "bytes": 48649,
+      "sha256": "0eb3469750bb4b6d14953f5f992dc931246d2bde0308f3211fbba5a14c9888ff",
+      "bytes": 50121,
       "recordCounts": {
         "documents": 67,
         "claims": 0,
@@ -9056,20 +9067,31 @@
     },
     {
       "path": "data/events/pass-229-1952-cabinet-economy-trial.json",
-      "sha256": "690e828296a2ae4711dfaacbacc695ffd3e42b5d170373c85317c6626942b74c",
-      "bytes": 10746,
+      "sha256": "afc5d06c6c3c015dc7c4f208885fe49bf49a382600e28da8fa86abd353487b5d",
+      "bytes": 11969,
       "recordCounts": {
         "documents": 0,
         "claims": 0,
-        "events": 12,
+        "events": 14,
         "politicians": 0,
         "organizations": 0
       },
       "targetRegistries": [
         "events"
       ],
-      "status": "INDEXED_NOT_CANONICAL_VERIFIED",
-      "conflicts": [],
+      "status": "BLOCKED_ID_CONFLICT",
+      "conflicts": [
+        {
+          "kind": "events",
+          "id": "evt-cand-19520615-panikkar-zhou-options",
+          "variantCount": 2
+        },
+        {
+          "kind": "events",
+          "id": "evt-cand-19520618-muccio-contingency-conditions",
+          "variantCount": 2
+        }
+      ],
       "unintegratedReason": null
     },
     {
@@ -33861,8 +33883,8 @@
     },
     {
       "path": "data/research/graphs/2026-11-12-1916-frus181-182-overlay.json",
-      "sha256": "11bd00df1fc1d64a4b9541652ff7baa75e6a2958a1a8a214f9f604ec5ce0daa7",
-      "bytes": 3010,
+      "sha256": "4af819a4923800fc5818b684b0500fb844aa7e54e1695f308a1146905ed61dab",
+      "bytes": 3831,
       "recordCounts": {
         "documents": 2,
         "claims": 2,
@@ -33878,6 +33900,16 @@
       "status": "BLOCKED_ID_CONFLICT",
       "conflicts": [
         {
+          "kind": "claims",
+          "id": "claim-19520615-chinese-pow-options-accepted",
+          "variantCount": 2
+        },
+        {
+          "kind": "claims",
+          "id": "claim-19520618-us-intervention-executed",
+          "variantCount": 2
+        },
+        {
           "kind": "documents",
           "id": "DOC-FRUS-1952-XV1-181",
           "variantCount": 2
@@ -33885,6 +33917,16 @@
         {
           "kind": "documents",
           "id": "DOC-FRUS-1952-XV1-182",
+          "variantCount": 2
+        },
+        {
+          "kind": "events",
+          "id": "evt-cand-19520615-panikkar-zhou-options",
+          "variantCount": 2
+        },
+        {
+          "kind": "events",
+          "id": "evt-cand-19520618-muccio-contingency-conditions",
           "variantCount": 2
         }
       ],

@@ -7,14 +7,14 @@
       "conflictedIds": 108
     },
     "claims": {
-      "sourceRecords": 2143,
+      "sourceRecords": 2145,
       "uniqueIds": 2117,
-      "conflictedIds": 20
+      "conflictedIds": 22
     },
     "events": {
-      "sourceRecords": 3937,
+      "sourceRecords": 3939,
       "uniqueIds": 2750,
-      "conflictedIds": 505
+      "conflictedIds": 507
     },
     "politicians": {
       "sourceRecords": 1268,
@@ -1071,6 +1071,24 @@
     },
     {
       "type": "claims",
+      "id": "claim-19520615-chinese-pow-options-accepted",
+      "variantCount": 2,
+      "sources": [
+        "data/claims/pass-229-1952-cabinet-economy-trial.json",
+        "data/research/graphs/2026-11-12-1916-frus181-182-overlay.json"
+      ]
+    },
+    {
+      "type": "claims",
+      "id": "claim-19520618-us-intervention-executed",
+      "variantCount": 2,
+      "sources": [
+        "data/claims/pass-229-1952-cabinet-economy-trial.json",
+        "data/research/graphs/2026-11-12-1916-frus181-182-overlay.json"
+      ]
+    },
+    {
+      "type": "claims",
       "id": "claim-19520908-truman-statement-not-yet-approved",
       "variantCount": 3,
       "sources": [
@@ -1735,6 +1753,24 @@
       "sources": [
         "data/research/candidates/pass-152-private-teacher-service-bridge-audit.json",
         "data/research/candidates/pass-153-original-1963-teacher-labor-text-audit.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-cand-19520615-panikkar-zhou-options",
+      "variantCount": 2,
+      "sources": [
+        "data/events/pass-229-1952-cabinet-economy-trial.json",
+        "data/research/graphs/2026-11-12-1916-frus181-182-overlay.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt-cand-19520618-muccio-contingency-conditions",
+      "variantCount": 2,
+      "sources": [
+        "data/events/pass-229-1952-cabinet-economy-trial.json",
+        "data/research/graphs/2026-11-12-1916-frus181-182-overlay.json"
       ]
     },
     {

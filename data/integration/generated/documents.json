@@ -3209,10 +3209,10 @@
           ]
         },
         {
-          "digest": "883362be90ff6d0a2d276775032f442892aaea4b841621ce788e2347f19f7ae4",
+          "digest": "6c0ee608d1e74e52b7bf872aa0277a94b43a57edbe7803306191104faab5028d",
           "data": {
             "id": "DOC-FRUS-1952-XV1-181",
-            "date": null,
+            "date": "1952-06-18",
             "title": "FRUS 1952–1954 Korea XV/1 document 181",
             "origin": "US Department of State Office of the Historian / FRUS",
             "provenance_family": "US diplomatic-military records (FRUS edition)",
@@ -3222,8 +3222,24 @@
             "original_archival_image_obtained": false,
             "document_type": "contemporaneous_primary_transcription",
             "evidence_role": "contextual_primary_document_read",
-            "finding": "Individual source text opened; no independent claim made solely from this entry.",
-            "count_as_primary": true
+            "finding": "Reported Chinese POW negotiating options are indirect diplomatic hearsay, not a concluded agreement.",
+            "count_as_primary": true,
+            "author": "Robert J. G. McClurkin",
+            "original_document_number": "611.95A241/6-1852",
+            "source_attribution": "Greenhill → Panikkar → Zhou Enlai, multi-hop diplomatic report",
+            "related_event_ids": [
+              "evt-cand-19520615-panikkar-zhou-options"
+            ],
+            "related_claim_ids": [
+              "claim-19520615-chinese-pow-options-accepted"
+            ],
+            "reviewHistory": [
+              {
+                "date": "2026-11-20",
+                "action": "Reconcile prior 2026-11-12 item-level overlay into canonical document; preserve earlier source observation and source-family limits",
+                "source_overlay": "data/research/graphs/2026-11-12-1916-frus181-182-overlay.json"
+              }
+            ]
           },
           "provenance": [
             {
@@ -3240,6 +3256,46 @@
       "integrationStatus": "CONFLICTED",
       "alternatives": [
         {
+          "digest": "3d403d1c7a886f4e19f70ad0c23b7bde986668e67bd6851dc9072fe7340abac2",
+          "data": {
+            "id": "DOC-FRUS-1952-XV1-182",
+            "date": "1952-06-18",
+            "title": "FRUS 1952–1954 Korea XV/1 document 182",
+            "origin": "US Department of State Office of the Historian / FRUS",
+            "provenance_family": "US diplomatic-military records (FRUS edition)",
+            "url": "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d182",
+            "access_date": "2026-10-28",
+            "source_body_opened": true,
+            "original_archival_image_obtained": false,
+            "document_type": "contemporaneous_primary_transcription",
+            "evidence_role": "diplomatic_assessment",
+            "finding": "Conditional US intervention contingencies required Washington and Unified Command authorization; document does not establish executed intervention.",
+            "count_as_primary": true,
+            "author": "John J. Muccio",
+            "original_document_number": "795B.00/6-1852",
+            "source_attribution": "Muccio telegram 1395 to US State Department",
+            "related_event_ids": [
+              "evt-cand-19520618-muccio-contingency-conditions"
+            ],
+            "related_claim_ids": [
+              "claim-19520618-us-intervention-executed"
+            ],
+            "reviewHistory": [
+              {
+                "date": "2026-11-20",
+                "action": "Reconcile prior 2026-11-12 item-level overlay into canonical document; preserve earlier source observation and source-family limits",
+                "source_overlay": "data/research/graphs/2026-11-12-1916-frus181-182-overlay.json"
+              }
+            ]
+          },
+          "provenance": [
+            {
+              "path": "data/documents/pass-229-1952-cabinet-economy-trial.json",
+              "pointer": "/documents/51"
+            }
+          ]
+        },
+        {
           "digest": "e77f9d9deb03835edce916c7013bf3fc97fd9e94815ddd3e271b7d616a7a336a",
           "data": {
             "id": "DOC-FRUS-1952-XV1-182",
@@ -3254,30 +3310,6 @@
             {
               "path": "data/research/graphs/2026-11-12-1916-frus181-182-overlay.json",
               "pointer": "/documents/1"
-            }
-          ]
-        },
-        {
-          "digest": "ed5a300345fbc5fe1a77bdfc05e0e9198b74517857c8d95b82b2ad5ac210095f",
-          "data": {
-            "id": "DOC-FRUS-1952-XV1-182",
-            "date": "1952-06-18",
-            "title": "FRUS 1952–1954 Korea XV/1 document 182",
-            "origin": "US Department of State Office of the Historian / FRUS",
-            "provenance_family": "US diplomatic-military records (FRUS edition)",
-            "url": "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d182",
-            "access_date": "2026-10-28",
-            "source_body_opened": true,
-            "original_archival_image_obtained": false,
-            "document_type": "contemporaneous_primary_transcription",
-            "evidence_role": "diplomatic_assessment",
-            "finding": "Muccio says Korean opposition also sought foreign intervention; countervailing assessment",
-            "count_as_primary": true
-          },
-          "provenance": [
-            {
-              "path": "data/documents/pass-229-1952-cabinet-economy-trial.json",
-              "pointer": "/documents/51"
             }
           ]
         }
