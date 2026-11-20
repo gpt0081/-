@@ -1,18 +1,24 @@
 {
-  "reviewedAt": "2026-11-14",
-  "status": "OPEN_NOT_MERGED",
+  "reviewedAt": "2026-11-20",
+  "status": "MERGED_IN_MAIN_REQUIRES_SEMANTIC_RECONCILIATION",
   "pullRequests": [
     {
       "number": 73,
       "branch": "research/run224-may1952-constitutional-pow-economy",
       "base": "research/run223-apr1952-pow-elections-governance",
-      "changedFiles": 18
+      "changedFiles": 18,
+      "state": "closed",
+      "merged": true,
+      "mergedAt": "2026-11-13T18:12:54Z"
     },
     {
       "number": 74,
       "branch": "research/run225-june1952-cabinet-unc-pow",
       "base": "research/run224-may1952-constitutional-pow-economy",
-      "changedFiles": 16
+      "changedFiles": 16,
+      "state": "closed",
+      "merged": true,
+      "mergedAt": "2026-11-13T18:13:02Z"
     }
   ],
   "sharedConflictingPaths": [
@@ -21,12 +27,12 @@
     "data/research/rhee-syngman-coverage.json",
     "data/research/rhee-syngman-open-leads.json"
   ],
-  "migrationStatus": "NOT_IN_MAIN_SOURCE_SCAN",
+  "migrationStatus": "MERGED_SOURCE_PRESENT_IN_MAIN_BUT_CANONICAL_CONFLICTS_REMAIN",
   "requiredActions": [
-    "Rebase or cherry-pick PR73 against main after source and duplicate audit",
-    "Rebase PR74 onto reconciled PR73 or main, preserving its dependent history",
-    "Rerun central integration, reconcile conflicting IDs without silent overwrite",
-    "Validate cross-references and update central legacy registries before declaring completion"
+    "Confirm PR #73/#74 merged file paths against main and source inventory",
+    "Resolve 898 conflicting central IDs by source-aware semantic reconciliation; do not select arbitrary variants",
+    "Map unresolved evidence and auxiliary JSON to canonical document/claim/event/politician registries",
+    "Validate cross-registry references and provenance before declaring full integration"
   ],
-  "reason": "Both PRs are open and their source branches are not part of main's 2218-file source inventory. Counting them as integrated would be incorrect."
+  "reason": "PR #73 and #74 are both merged as of 2026-11-13. Earlier OPEN_NOT_MERGED status was stale. Latest generated audit reports 2249 inventoried source files and 898 conflicting IDs; merge does not imply semantic integration."
 }
