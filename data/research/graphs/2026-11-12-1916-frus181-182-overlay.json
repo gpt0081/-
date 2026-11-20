@@ -1,7 +1,7 @@
 {
   "schemaVersion": "research-overlay-v1",
   "accessDate": "2026-11-12",
-  "status": "ITEM_VERIFIED_NOT_CENTRAL_INTEGRATED",
+  "status": "CENTRAL_SYNC_PARTIAL",
   "provenanceFamily": "US Department of State FRUS edited diplomatic transcripts",
   "documents": [
     {
@@ -91,5 +91,28 @@
         "DOC-FRUS-1952-XV1-181"
       ]
     }
-  ]
+  ],
+  "centralSync": {
+    "date": "2026-11-20",
+    "documents": "data/documents/pass-229-1952-cabinet-economy-trial.json",
+    "events": "data/events/pass-229-1952-cabinet-economy-trial.json",
+    "claims": "data/claims/pass-229-1952-cabinet-economy-trial.json",
+    "documentIds": [
+      "DOC-FRUS-1952-XV1-181",
+      "DOC-FRUS-1952-XV1-182"
+    ],
+    "eventIds": [
+      "evt-cand-19520615-panikkar-zhou-options",
+      "evt-cand-19520618-muccio-contingency-conditions"
+    ],
+    "claimIds": [
+      "claim-19520618-us-intervention-executed",
+      "claim-19520615-chinese-pow-options-accepted"
+    ],
+    "limitations": [
+      "No independent Korean/PRC primary corroboration",
+      "Actor identity collision for Lee Beom-seok not resolved",
+      "Repository-wide graph integrity and full integration not established"
+    ]
+  }
 }
