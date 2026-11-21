@@ -61676,8 +61676,8 @@
       ]
     },
     "data/politicians/run24-education-actor-candidates.json": {
-      "integrated": 10,
-      "conflicted": 0,
+      "integrated": 9,
+      "conflicted": 1,
       "records": [
         {
           "kind": "politicians",
@@ -61725,7 +61725,7 @@
           "kind": "politicians",
           "id": "pol-lee-yeong-jun",
           "pointer": "/politicians/3",
-          "status": "INTEGRATED"
+          "status": "CONFLICTED"
         },
         {
           "kind": "politicians",
@@ -61816,6 +61816,18 @@
           "id": "pol-yang-il-dong",
           "pointer": "/politicians/11",
           "status": "INTEGRATED"
+        }
+      ]
+    },
+    "data/politicians/run88-lee-yeong-jun-annals.json": {
+      "integrated": 0,
+      "conflicted": 1,
+      "records": [
+        {
+          "kind": "politicians",
+          "id": "pol-lee-yeong-jun",
+          "pointer": "/",
+          "status": "CONFLICTED"
         }
       ]
     },

@@ -50376,7 +50376,7 @@
     },
     {
       "id": "pol-lee-yeong-jun",
-      "integrationStatus": "INTEGRATED",
+      "integrationStatus": "CONFLICTED",
       "alternatives": [
         {
           "digest": "271828fb6c7f892ce02fae1aa3f48c2143a4fed1abc16781aff5439e8f9b9560",
@@ -50409,9 +50409,39 @@
               "pointer": "/politicians/3"
             }
           ]
+        },
+        {
+          "digest": "f14768d32c37dc02f3cf3545bcfc1e4929b951834d877f202863fb2fb4c2ad20",
+          "data": {
+            "politicianId": "pol-lee-yeong-jun",
+            "annals": [
+              {
+                "date": "1949-02-19",
+                "action": "보건부 독립 청원 심리보고",
+                "evidence": [
+                  "d88-h-petition"
+                ]
+              },
+              {
+                "date": "1949-03-11",
+                "action": "정부조직법 개정안 설명",
+                "evidence": [
+                  "d88-h-debate"
+                ]
+              }
+            ],
+            "status": "ANNALS_ACTIVE",
+            "biographyStatus": "birth/death and party affiliation unverified"
+          },
+          "provenance": [
+            {
+              "path": "data/politicians/run88-lee-yeong-jun-annals.json",
+              "pointer": "/"
+            }
+          ]
         }
       ],
-      "canonicalSelection": "271828fb6c7f892ce02fae1aa3f48c2143a4fed1abc16781aff5439e8f9b9560"
+      "canonicalSelection": null
     },
     {
       "id": "pol-lee-yoon-young",

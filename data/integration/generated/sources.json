@@ -13090,7 +13090,7 @@
       "path": "data/politicians/run24-education-actor-candidates.json",
       "sha256": "096480517c41acc3dd09e3e7c6e7336e5ea8aed0b8d7ec4b49627a8934d91c33",
       "bytes": 4762,
-      "status": "CANONICAL_MATERIALIZED",
+      "status": "CONFLICT_REVIEW_REQUIRED",
       "recordCounts": {
         "documents": 0,
         "claims": 0,
@@ -13099,8 +13099,8 @@
         "organizations": 0
       },
       "centralMapping": {
-        "integrated": 10,
-        "conflicted": 0
+        "integrated": 9,
+        "conflicted": 1
       }
     },
     {
@@ -13196,18 +13196,17 @@
       "path": "data/politicians/run88-lee-yeong-jun-annals.json",
       "sha256": "5495de7e4f6a81d1b1ab142d9c2e985845e77c20ead1de278170475a9e10ff36",
       "bytes": 331,
-      "status": "AUXILIARY_JSON_INDEXED",
+      "status": "CONFLICT_REVIEW_REQUIRED",
       "recordCounts": {
         "documents": 0,
         "claims": 0,
         "events": 0,
-        "politicians": 0,
+        "politicians": 1,
         "organizations": 0
       },
       "centralMapping": {
         "integrated": 0,
-        "conflicted": 0,
-        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+        "conflicted": 1
       }
     },
     {

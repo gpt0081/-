@@ -3,7 +3,7 @@
     "documents": 4526,
     "claims": 2095,
     "events": 2243,
-    "politicians": 233,
+    "politicians": 232,
     "organizations": 77
   },
   "canonicalDirectory": "data/integration/canonical",
@@ -25,9 +25,9 @@
       "conflictedIds": 507
     },
     "politicians": {
-      "sourceRecords": 1268,
+      "sourceRecords": 1269,
       "uniqueIds": 496,
-      "conflictedIds": 263
+      "conflictedIds": 264
     },
     "organizations": {
       "sourceRecords": 91,
@@ -8308,6 +8308,15 @@
     },
     {
       "type": "politicians",
+      "id": "pol-lee-yeong-jun",
+      "variantCount": 2,
+      "sources": [
+        "data/politicians/run24-education-actor-candidates.json",
+        "data/politicians/run88-lee-yeong-jun-annals.json"
+      ]
+    },
+    {
+      "type": "politicians",
       "id": "pol-lim-byong-jik",
       "variantCount": 11,
       "sources": [
@@ -12960,7 +12969,6 @@
     "data/politicians/run88-busan-actors.json",
     "data/politicians/run88-health-actors.json",
     "data/politicians/run88-kim-su-seon.json",
-    "data/politicians/run88-lee-yeong-jun-annals.json",
     "data/politicians/run88-local-actors-a.json",
     "data/politicians/run88-who-1948-observer.json",
     "data/presidents.json",
@@ -13870,10 +13878,6 @@
     },
     {
       "path": "data/politicians/run88-kim-su-seon.json",
-      "reason": "AUXILIARY_ONLY_NOT_CANONICAL"
-    },
-    {
-      "path": "data/politicians/run88-lee-yeong-jun-annals.json",
       "reason": "AUXILIARY_ONLY_NOT_CANONICAL"
     },
     {

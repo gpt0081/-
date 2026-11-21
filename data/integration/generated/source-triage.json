@@ -4,10 +4,10 @@
   "canonicalSyncVerified": false,
   "sourceFiles": 2249,
   "statusCounts": {
-    "BLOCKED_ID_CONFLICT": 248,
-    "INDEXED_NOT_CANONICAL_VERIFIED": 562,
+    "BLOCKED_ID_CONFLICT": 250,
+    "INDEXED_NOT_CANONICAL_VERIFIED": 561,
     "NON_JSON_PRESERVED": 773,
-    "UNMAPPED_AUXILIARY": 666
+    "UNMAPPED_AUXILIARY": 665
   },
   "sources": [
     {
@@ -23088,8 +23088,14 @@
       "targetRegistries": [
         "politicians"
       ],
-      "status": "INDEXED_NOT_CANONICAL_VERIFIED",
-      "conflicts": [],
+      "status": "BLOCKED_ID_CONFLICT",
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "pol-lee-yeong-jun",
+          "variantCount": 2
+        }
+      ],
       "unintegratedReason": null
     },
     {
@@ -23182,13 +23188,21 @@
         "documents": 0,
         "claims": 0,
         "events": 0,
-        "politicians": 0,
+        "politicians": 1,
         "organizations": 0
       },
-      "targetRegistries": [],
-      "status": "UNMAPPED_AUXILIARY",
-      "conflicts": [],
-      "unintegratedReason": "AUXILIARY_ONLY_NOT_CANONICAL"
+      "targetRegistries": [
+        "politicians"
+      ],
+      "status": "BLOCKED_ID_CONFLICT",
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "pol-lee-yeong-jun",
+          "variantCount": 2
+        }
+      ],
+      "unintegratedReason": null
     },
     {
       "path": "data/politicians/run88-local-actors-a.json",
