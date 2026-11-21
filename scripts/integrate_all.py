@@ -10,6 +10,8 @@ ROOT = pathlib.Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 OUT = DATA / "integration" / "generated"
 OUT.mkdir(parents=True, exist_ok=True)
+CANONICAL = DATA / "integration" / "canonical"
+CANONICAL.mkdir(parents=True, exist_ok=True)
 KINDS = ("documents", "claims", "events", "politicians", "organizations")
 records = {k: collections.defaultdict(list) for k in KINDS}
 sources, parse_errors, unstructured, auxiliary = [], [], [], []
@@ -93,13 +95,26 @@ for typ, groups in records.items():
     totals[typ] = {"sourceRecords": sum(map(len, groups.values())),
                    "uniqueIds": len(groups),
                    "conflictedIds": sum(1 for c in central if c["integrationStatus"] == "CONFLICTED")}
+    # Materialize only unambiguous records into a separate, queryable central layer.
+    # Conflicted identities stay in the generated alternatives registry for review.
+    canonical_rows = [dict(row["alternatives"][0]["data"],
+                           _integration={"id": row["id"],
+                                         "digest": row["canonicalSelection"],
+                                         "provenance": row["alternatives"][0]["provenance"]})
+                      for row in central if row["integrationStatus"] == "INTEGRATED"]
+    (CANONICAL / (typ + ".json")).write_text(
+        json.dumps({"schemaVersion": 1, "registryType": typ,
+                    "selectionPolicy": "UNAMBIGUOUS_ONLY",
+                    "records": canonical_rows}, ensure_ascii=False, indent=2) + chr(10), encoding="utf-8")
     (OUT / (typ + ".json")).write_text(
         json.dumps({"schemaVersion": 2, "registryType": typ, "records": central},
                    ensure_ascii=False, indent=2) + chr(10), encoding="utf-8")
 (OUT / "sources.json").write_text(
     json.dumps({"schemaVersion": 2, "sources": sources}, ensure_ascii=False, indent=2) + chr(10),
     encoding="utf-8")
-report = {"sourceFiles": len(sources), "totals": totals,
+report = {"canonicalMaterialized": {k: v["uniqueIds"] - v["conflictedIds"] for k, v in totals.items()},
+          "canonicalDirectory": "data/integration/canonical",
+          "sourceFiles": len(sources), "totals": totals,
           "parseErrors": parse_errors, "conflictingIds": conflicts,
           "exactDuplicateIds": exact_duplicates, "auxiliaryIndexedSources": unstructured,
           "status": "FULL_INTEGRATION_INCOMPLETE" if parse_errors or conflicts or unstructured else "CENTRAL_SYNC_PASS",
