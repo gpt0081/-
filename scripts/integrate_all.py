@@ -15,15 +15,71 @@ CANONICAL.mkdir(parents=True, exist_ok=True)
 KINDS = ("documents", "claims", "events", "politicians", "organizations")
 records = {k: collections.defaultdict(list) for k in KINDS}
 sources, parse_errors, unstructured, auxiliary, partial_sources = [], [], [], [], []
-id_fields = ("id", "documentId", "claimId", "eventId", "politicianId", "candidateId", "organizationId")
+id_fields = (
+    "id", "documentId", "document_id", "candidateDocumentId", "candidate_document_id",
+    "claimId", "claim_id", "candidateClaimId", "candidate_claim_id",
+    "eventId", "event_id", "candidateEventId", "candidate_event_id",
+    "politicianId", "politician_id", "candidateId", "candidate_id",
+    "proposedPoliticianId", "proposed_politician_id",
+    "organizationId", "organization_id", "candidateOrganizationId", "candidate_organization_id",
+    "actionId", "action_id", "candidateActionId", "candidate_action_id",
+    "stableId", "stable_id"
+)
+
+def classify_source(rel):
+    if rel == "data/events.json":
+        return "operational_root", ["events"]
+    if rel == "data/politicians.json":
+        return "operational_root", ["politicians"]
+    if rel == "data/presidents.json":
+        return "presidential_backbone", ["presidents", "politicians"]
+    if rel.startswith("data/documents/"):
+        return "document_registry_source", ["documents"]
+    if rel.startswith("data/claims/"):
+        return "claim_registry_source", ["claims"]
+    if rel.startswith("data/events/"):
+        return "event_registry_source", ["events"]
+    if rel.startswith("data/politicians/") or rel.startswith("data/research/candidates/") or rel.startswith("data/research/politicians/"):
+        return "politician_candidate_source", ["politicians"]
+    if rel.startswith("data/organizations/"):
+        return "organization_registry_source", ["organizations"]
+    if rel.startswith("data/evidence/"):
+        return "evidence_layer", ["evidence", "politicians", "documents", "claims", "events"]
+    if rel.startswith("data/annals/"):
+        return "annals_layer", ["annals", "politicians", "documents", "events"]
+    if rel.startswith("data/research/coverage/") or rel.endswith("-coverage.json"):
+        return "coverage_layer", ["coverage", "politicians", "events"]
+    if rel.startswith("data/research/leads/") or rel.startswith("data/research/lead-queues/") or rel.endswith("-open-leads.json"):
+        return "open_lead_layer", ["open_leads", "politicians", "documents", "events", "claims"]
+    if rel.startswith("data/research/debt/") or rel.startswith("data/research/history-debt/") or rel.endswith("HISTORY_DEBT.md"):
+        return "history_debt_layer", ["history_debt", "politicians", "documents", "events", "claims"]
+    if rel.startswith("data/research/runs/") or rel.startswith("data/research/run-reports/") or rel.startswith("data/research/run-ledger/") or "execution-ledger" in rel:
+        return "execution_ledger_layer", ["execution_ledger", "documents", "claims", "events", "politicians"]
+    if rel.startswith("data/research/graphs/") or rel.startswith("data/research/registry/"):
+        return "cross_registry_graph", ["documents", "claims", "events", "politicians", "organizations"]
+    if rel.startswith("data/research/"):
+        return "research_supporting_layer", ["documents", "claims", "events", "politicians", "organizations"]
+    return "other", []
 for path in sorted(DATA.rglob("*")):
     if not path.is_file() or path.is_relative_to(DATA / "integration"):
         continue
     rel = path.relative_to(ROOT).as_posix()
     raw = path.read_bytes()
+    layer, targets = classify_source(rel)
     source = {"path": rel, "sha256": hashlib.sha256(raw).hexdigest(), "bytes": len(raw),
-              "status": "INVENTORIED", "recordCounts": {k: 0 for k in KINDS}, "unmappedRecordCount": 0}
+              "status": "INVENTORIED", "targetLayer": layer, "targetRegistries": targets,
+              "recordCounts": {k: 0 for k in KINDS}, "unmappedRecordCount": 0}
     sources.append(source)
+    # These are mutable operational roots, not competing research-source variants.
+    # Their contents are preserved and audited after reconciliation.
+    if rel in ("data/events.json", "data/politicians.json"):
+        source["status"] = "OPERATIONAL_ROOT_PRESERVED"
+        source["note"] = "Excluded from source-variant conflict analysis; reconciled in place."
+        continue
+    if rel == "data/presidents.json":
+        source["status"] = "PRESIDENTIAL_BACKBONE_PRESERVED"
+        source["note"] = "Chronological overlay preserved separately from politician registry."
+        continue
     if path.suffix.lower() != ".json":
         source["status"] = "NON_JSON_SOURCE_PRESERVED"
         continue
@@ -45,11 +101,23 @@ for path in sorted(DATA.rglob("*")):
                 processed_fields.add(typ)
         for field in ("actors", "nodes", "people", "candidates", "newCandidates",
                       "newPoliticians", "deepenedExisting", "existingDeepened",
-                      "existing_deepened", "promoted", "deepened"):
+                      "existing_deepened", "promoted", "deepened", "candidateNodes",
+                      "koreanPoliticianUpdates", "externalActors", "politicianUpdates",
+                      "actorNodes", "newActors", "newPoliticianCandidates",
+                      "politicianCandidates", "candidatePoliticians"):
             items = obj.get(field)
             if field not in processed_fields and isinstance(items, list):
                 collections_to_read.append(("politicians", field, items))
                 processed_fields.add(field)
+        provenance_items = obj.get("provenance")
+        if isinstance(provenance_items, list) and any(
+            isinstance(item, dict)
+            and any(key in item for key in ("document_id", "documentId", "candidate_document_id", "id"))
+            and any(key in item for key in ("title", "original_location", "originalLocation", "url"))
+            for item in provenance_items
+        ):
+            collections_to_read.append(("documents", "provenance", provenance_items))
+            processed_fields.add("provenance")
     elif isinstance(obj, list) and kind in KINDS:
         collections_to_read.append((kind, kind, obj))
 
@@ -89,6 +157,32 @@ for path in sorted(DATA.rglob("*")):
             "source": {"path": rel, "pointer": "/"}})
         source["recordCounts"][typ] += 1
         found += 1
+
+    # Research candidate folders also contain one-record-per-file objects.
+    # Infer the registry from the folder and stable ID field, never from filename.
+    if found == 0 and isinstance(obj, dict):
+        ident = next((obj[key] for key in id_fields if isinstance(obj.get(key), str) and obj[key]), None)
+        inferred = None
+        if rel.startswith(("data/research/candidates/", "data/research/politicians/", "data/politicians/")):
+            if any(obj.get(key) for key in ("name", "name_ko", "nameKo", "displayName")):
+                inferred = "politicians"
+        elif rel.startswith(("data/research/documents/",)):
+            inferred = "documents" if any(obj.get(key) for key in ("title", "documentNumber", "document_number")) else None
+        elif rel.startswith(("data/research/events/",)):
+            inferred = "events" if any(obj.get(key) for key in ("date", "event", "description", "title")) else None
+        elif rel.startswith(("data/research/claims/",)):
+            inferred = "claims" if any(obj.get(key) for key in ("claim", "statement", "status")) else None
+        elif rel.startswith(("data/research/organizations/",)):
+            inferred = "organizations" if any(obj.get(key) for key in ("name", "title")) else None
+        if ident and inferred:
+            payload = json.dumps(obj, ensure_ascii=False, sort_keys=True, separators=(",", ":"))
+            records[inferred][ident].append({
+                "data": obj, "digest": hashlib.sha256(payload.encode()).hexdigest(),
+                "source": {"path": rel, "pointer": "/"}
+            })
+            source["recordCounts"][inferred] += 1
+            found += 1
+
     source["unmappedRecordCount"] = unmapped
     if found and unmapped:
         source["status"] = "PARTIAL_RECORDS_INDEXED"
@@ -177,9 +271,12 @@ for source in sources:
 (OUT / "sources.json").write_text(
     json.dumps({"schemaVersion": 3, "sources": sources}, ensure_ascii=False, indent=2) + chr(10),
     encoding="utf-8")
+source_status_counts = collections.Counter(s["status"] for s in sources)
+target_layer_counts = collections.Counter(s["targetLayer"] for s in sources)
 report = {"canonicalMaterialized": {k: v["uniqueIds"] - v["conflictedIds"] for k, v in totals.items()},
           "canonicalDirectory": "data/integration/canonical",
-          "sourceFiles": len(sources), "totals": totals,
+          "sourceFiles": len(sources), "sourceStatusCounts": dict(sorted(source_status_counts.items())),
+          "targetLayerCounts": dict(sorted(target_layer_counts.items())), "totals": totals,
           "parseErrors": parse_errors, "conflictingIds": conflicts,
           "exactDuplicateIds": exact_duplicates, "auxiliaryIndexedSources": sorted(set(unstructured + partial_sources)),
           "auxiliaryRecords": len(auxiliary), "partialSources": sorted(partial_sources),

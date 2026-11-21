@@ -19,20 +19,28 @@ for src in sources:
     path = src["path"]
     kinds = [kind for kind, n in src["recordCounts"].items() if n]
     problems = conflicts.get(path, [])
-    if src["status"] == "PARSE_ERROR":
+    if src["status"] == "OPERATIONAL_ROOT_PRESERVED":
+        status = "OPERATIONAL_ROOT_PRESERVED"
+    elif src["status"] == "PRESIDENTIAL_BACKBONE_PRESERVED":
+        status = "PRESIDENTIAL_BACKBONE_PRESERVED"
+    elif src["status"] == "NON_JSON_SOURCE_PRESERVED":
+        status = "NON_JSON_PRESERVED"
+    elif src["status"] == "PARSE_ERROR":
         status = "BLOCKED_PARSE"
     elif problems:
         status = "BLOCKED_ID_CONFLICT"
     elif path in unintegrated:
-        status = "UNMAPPED_AUXILIARY"
+        status = "UNMAPPED_AUXILIARY_OR_PARTIAL"
     elif kinds:
         status = "INDEXED_NOT_CANONICAL_VERIFIED"
     else:
-        status = "NON_JSON_PRESERVED"
+        status = "PRESERVED_SPECIALIZED_LAYER"
     counts[status] += 1
     rows.append({
         "path": path, "sha256": src["sha256"], "bytes": src["bytes"],
-        "recordCounts": src["recordCounts"], "targetRegistries": kinds,
+        "recordCounts": src["recordCounts"],
+        "targetLayer": src.get("targetLayer", "unknown"),
+        "targetRegistries": src.get("targetRegistries", kinds),
         "status": status, "conflicts": sorted(problems, key=lambda x: (x["kind"], x["id"])),
         "unintegratedReason": unintegrated.get(path),
     })
@@ -45,7 +53,7 @@ result = {
     "sourceFiles": len(rows),
     "statusCounts": dict(sorted(counts.items())),
     "sources": rows,
-    "nextAction": "Resolve conflicts and map auxiliary payloads; then verify canonical registries, operational layers and references.",
+    "nextAction": "Resolve source-level conflicts; map auxiliary and specialized layers; verify operational roots and references. Root registries and the presidential backbone are preserved as distinct operational layers.",
 }
 (OUT / "source-triage.json").write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 print(json.dumps({"sourceFiles": len(rows), "statusCounts": result["statusCounts"]}, ensure_ascii=False))

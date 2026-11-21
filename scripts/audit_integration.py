@@ -12,14 +12,30 @@ if len(paths)!=len(set(paths)):issues.append({"code":"DUPLICATE_SOURCE_PATH"})
 if report["sourceFiles"]!=len(sources):issues.append({"code":"SOURCE_COUNT_MISMATCH"})
 # Verify every inventoried byte stream against the actual repository checkout.
 # A recorded path alone is not evidence that its original contents survived.
+root_managed_paths = {"data/events.json", "data/politicians.json"}
 for src in sources:
     original=root/src["path"]
     if not original.is_file():
         issues.append({"code":"MISSING_ORIGINAL_FILE","path":src["path"]})
         continue
+    # The source inventory records the pre-reconciliation root snapshot.
+    # The reconciler writes these two operational roots later in the same workflow.
+    if src["path"] in root_managed_paths:
+        continue
     digest=hashlib.sha256(original.read_bytes()).hexdigest()
     if digest!=src["sha256"]:
         issues.append({"code":"SOURCE_HASH_MISMATCH","path":src["path"]})
+
+root_sync_path=out/"root-sync-report.json"
+root_sync={}
+if root_sync_path.is_file():
+    root_sync=json.loads(root_sync_path.read_text())
+    for path,digest in root_sync.get("rootFileHashes",{}).items():
+        current=root/path
+        if not current.is_file() or hashlib.sha256(current.read_bytes()).hexdigest()!=digest:
+            issues.append({"code":"ROOT_REGISTRY_HASH_MISMATCH","path":path})
+else:
+    issues.append({"code":"ROOT_SYNC_REPORT_MISSING"})
 # Confirm all currently present source files are represented in the inventory.
 actual={p.relative_to(root).as_posix() for p in (root/"data").rglob("*")
         if p.is_file() and not p.is_relative_to(out.parent)}
@@ -31,6 +47,15 @@ for kind in kinds:
     obj=json.loads((out/(kind+".json")).read_text())
     rows=obj["records"]
     ids[kind]={r["id"] for r in rows}
+
+# Operational roots contain valid legacy/base IDs that may be referenced by overlays.
+reference_ids={kind:set(values) for kind,values in ids.items()}
+root_events=json.loads((root/"data/events.json").read_text(encoding="utf-8-sig")).get("events",[])
+root_people=json.loads((root/"data/politicians.json").read_text(encoding="utf-8-sig")).get("politicians",[])
+reference_ids["events"].update(r.get("id") or r.get("eventId") or r.get("actionId") for r in root_events if isinstance(r,dict))
+reference_ids["politicians"].update(r.get("id") for r in root_people if isinstance(r,dict) and r.get("id"))
+reference_ids["events"].discard(None)
+reference_ids["politicians"].discard(None)
     if len(ids[kind])!=len(rows):issues.append({"code":"DUPLICATE_CENTRAL_ID","kind":kind})
     if len(rows)!=report["totals"][kind]["uniqueIds"]:issues.append({"code":"REGISTRY_COUNT_MISMATCH","kind":kind})
     for r in rows:
@@ -79,6 +104,11 @@ for kind in kinds:
         alt=expected[ident]
         row=actual[ident]
         payload={k:v for k,v in row.items() if k!="_integration"}
+        # integrate_all adds a normalized "id" to canonical rows even when the
+        # source used documentId/event_id/candidate_id/etc. Compare source payloads
+        # without treating that generated compatibility field as source mutation.
+        if "id" not in alt["data"]:
+            payload.pop("id", None)
         digest=hashlib.sha256(json.dumps(payload,ensure_ascii=False,sort_keys=True,
                               separators=(",",":")).encode()).hexdigest()
         if digest!=alt["digest"] or row["_integration"].get("digest")!=alt["digest"]:
@@ -127,7 +157,7 @@ for crosswalk in sorted((root/"data/research/registry").glob("*index.json")):
         for row in staged.get(kind,[]):
             if not isinstance(row,dict) or not isinstance(row.get("id"),str):
                 continue
-            if row["id"] not in ids[kind]:
+            if row["id"] not in reference_ids[kind]:
                 crosswalk_gaps.append({"source":crosswalk.relative_to(root).as_posix(),
                                        "kind":kind,"id":row["id"],
                                        "reason":"NOT_IN_GENERATED_REGISTRY"})
@@ -165,17 +195,18 @@ for kind in kinds:
                         "kind":kind,"id":record["id"],"field":field})
                     continue
                 for ref in refs:
-                    if not isinstance(ref,str) or ref not in ids[target]:
+                    if not isinstance(ref,str) or ref not in reference_ids[target]:
                         reference_issues.append({"code":"DANGLING_REFERENCE",
                             "kind":kind,"id":record["id"],"field":field,
                             "targetKind":target,"targetId":ref})
 issues.extend(reference_issues)
 summary={"sourceFiles":len(sources),"uniqueCentralIds":{k:len(v) for k,v in ids.items()},
 "conflictedIds":len(report["conflictingIds"]),"auxiliaryRecords":len(aux),
-"unresolvedSources":[s["path"] for s in sources if s["status"] in ("PARSE_ERROR","AUXILIARY_JSON_INDEXED")],
+"unresolvedSources":[s["path"] for s in sources if s["status"] in ("PARSE_ERROR","AUXILIARY_JSON_INDEXED","PARTIAL_RECORDS_INDEXED")],
 "integrityIssues":issues,"referenceIssueCount":len(reference_issues),
 "crosswalkGaps":crosswalk_gaps,
-"centralSync":"PARTIAL" if report["conflictingIds"] or report["parseErrors"] or aux or crosswalk_gaps or issues else "PASS",
+"rootSyncStatus":root_sync.get("centralSync","MISSING"),
+"centralSync":"PARTIAL" if report["conflictingIds"] or report["parseErrors"] or aux or crosswalk_gaps or issues or root_sync.get("centralSync")!="PASS" else "PASS",
 "note":"PARTIAL includes structural integrity failures as well as unresolved historical conflicts and auxiliary sources. Registry presence is not proof of historical adjudication."}
 (out/"integrity-audit.json").write_text(json.dumps(summary,ensure_ascii=False,indent=2)+"\n")
 print(json.dumps({k:v for k,v in summary.items() if k not in ("unresolvedSources","integrityIssues")},ensure_ascii=False))

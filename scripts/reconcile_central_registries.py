@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Merge unambiguous, provenance-backed records into operational root registries."""
-import collections, copy, datetime, json, pathlib
+import collections, copy, datetime, hashlib, json, pathlib
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 OUT = DATA / "integration" / "generated"
@@ -17,10 +17,29 @@ def provenance(row):
 def norm(value):
     return "".join(ch.lower() for ch in str(value or "") if ch.isalnum())
 def names(person):
-    values = [person.get("name")]
+    values = [person.get("name"), person.get("name_ko"), person.get("nameKo"),
+              person.get("displayName"), person.get("english"), person.get("hanja")]
     if isinstance(person.get("aliases"), list):
         values.extend(person["aliases"])
     return {norm(v) for v in values if v}
+
+def display_name(person):
+    return person.get("name") or person.get("name_ko") or person.get("nameKo") or person.get("displayName")
+
+def is_root_politician(person):
+    ident = rid(person)
+    return bool(ident and ident.startswith(("pol-", "cand-", "candidate-")) and display_name(person))
+
+def policy_exclusion(person):
+    ident = rid(person) or ""
+    if ident.startswith("org-"): return "ORGANIZATION_NODE"
+    if ident.startswith("actor-"): return "NON_POLITICIAN_POLICY_ACTOR"
+    if ident.startswith(("foreign-", "ext-")): return "EXTERNAL_ACTOR_OUTSIDE_DOMESTIC_ROOT"
+    if ident.startswith("class-"): return "COLLECTIVE_DISCOVERY_CLASS_NOT_PERSON"
+    if ident.startswith("slot-"): return "UNRESOLVED_NAME_SLOT"
+    if ident.startswith("president-"): return "LEGACY_PRESIDENT_ID_REQUIRES_CROSSWALK"
+    if not display_name(person): return "MISSING_PERSON_NAME_NOT_PROMOTED"
+    return "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX"
 def merge_list(left, right):
     result = list(left) if isinstance(left, list) else []
     seen = {json.dumps(v, ensure_ascii=False, sort_keys=True) for v in result}
@@ -121,9 +140,10 @@ for raw in canonical_people:
         person_merged += 1
         crosswalk.append({"id": ident, "name": raw.get("name"), "status": "ALREADY_REGISTERED_MERGED_ADDITIVELY", "targetIds": [ident], "sourcePaths": source_paths})
         continue
-    if not ident.startswith(("pol-", "cand-", "candidate-")) or not raw.get("name"):
-        crosswalk.append({"id": ident, "name": raw.get("name"), "status": "NON_PERSON_OR_MISSING_NAME_NOT_PROMOTED", "sourcePaths": source_paths}); continue
-    person = copy.deepcopy(raw); person["id"] = ident; person.pop("_integration", None)
+    if not ident.startswith(("pol-", "cand-", "candidate-")) or not display_name(raw):
+        crosswalk.append({"id": ident, "name": display_name(raw), "status": "NON_PERSON_OR_MISSING_NAME_NOT_PROMOTED",
+                          "policyReason": policy_exclusion(raw), "sourcePaths": source_paths}); continue
+    person = copy.deepcopy(raw); person["id"] = ident; person["name"] = display_name(raw); person.pop("_integration", None)
     person["researchStatus"] = normalize_status(raw.get("researchStatus") or raw.get("status"))
     person["researchRefs"] = merge_list(person.get("researchRefs", []), source_paths)
     person["identityReviewStatus"] = "UNRESOLVED_SOURCE_REGISTRY_CANDIDATE"
@@ -154,10 +174,17 @@ write_json(person_file, person_root)
 root_event_ids = {rid(row) for row in root_events if rid(row)}
 root_person_ids = {p.get("id") for p in people if p.get("id")}
 canonical_event_ids = {rid(row) for row in event_rows if rid(row)}
-canonical_person_ids = {rid(row) for row in canonical_people if rid(row) and not rid(row).startswith(("actor-", "org-"))}
+canonical_person_ids = {rid(row) for row in canonical_people if is_root_politician(row)}
+policy_excluded = [{"id": rid(row), "name": display_name(row), "reason": policy_exclusion(row),
+                    "sourcePaths": [p.get("path") for p in provenance(row) if p.get("path")]}
+                   for row in canonical_people if rid(row) and not is_root_politician(row)]
 missing_events = sorted(canonical_event_ids - root_event_ids)
 missing_people = sorted(canonical_person_ids - root_person_ids)
 source_report = read_json(OUT / "report.json", {})
+root_file_hashes = {
+    "data/events.json": hashlib.sha256(event_file.read_bytes()).hexdigest(),
+    "data/politicians.json": hashlib.sha256(person_file.read_bytes()).hexdigest(),
+}
 status = "PASS" if not (event_conflicts or person_conflicts or missing_events or missing_people or root_duplicates) else "PARTIAL"
 write_json(OUT / "root-sync-report.json", {
     "schemaVersion": 1, "generatedAt": TODAY, "centralSync": status,
@@ -166,10 +193,13 @@ write_json(OUT / "root-sync-report.json", {
         "duplicateRootIds": sorted(set(root_duplicates)), "fieldConflicts": event_conflicts, "skipped": event_skipped},
     "politicianSync": {"rootBefore": person_before, "canonicalMaterialized": len(canonical_person_ids),
         "added": person_added, "manualAdded": manual_added, "merged": person_merged, "rootAfter": len(people),
-        "missingCanonicalIdsAfterSync": missing_people, "fieldConflicts": person_conflicts},
+        "missingCanonicalIdsAfterSync": missing_people, "fieldConflicts": person_conflicts,
+        "policyExcludedCanonicalIds": policy_excluded, "policyExcludedCount": len(policy_excluded)},
+    "rootFileHashes": root_file_hashes,
+    "rootFileCounts": {"events": len(root_events), "politicians": len(people)},
     "sourceIntegrationStatus": source_report.get("status"), "sourceConflictedIds": len(source_report.get("conflictingIds", [])),
     "sourceAuxiliaryRecords": source_report.get("auxiliaryRecords", 0),
-    "policy": "Only unambiguous source variants are synchronized. Scalar conflicts are preserved; arrays merge additively; possible same-person candidates are not merged."
+    "policy": "Only named pol-/cand- records enter the domestic politician root. Foreign, collective, legacy, placeholder and unnamed candidates remain preserved in source/canonical layers with explicit exclusion reasons. Scalar conflicts are not silently merged."
 })
 write_json(OUT / "politician-root-crosswalk.json", {"schemaVersion": 1, "generatedAt": TODAY,
     "policy": "Possible-same-as links are hypotheses, not identity merges.",
