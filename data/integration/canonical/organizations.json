@@ -1,0 +1,1829 @@
+{
+  "schemaVersion": 1,
+  "registryType": "organizations",
+  "selectionPolicy": "UNAMBIGUOUS_ONLY",
+  "records": [
+    {
+      "id": "org-1953-central-horticultural-institute",
+      "name": "중앙원예기술원",
+      "aliases": [
+        "中央園藝技術院",
+        "Central Horticultural Institute (translation provisional)"
+      ],
+      "type": "government_research_institute",
+      "establishment_claim": "1953-05 opening per NABO later report; 1953-07-06 ministerial ordinance listing confirmed",
+      "evidence": [
+        "DOC-P239G-NABO",
+        "DOC-P239G-NIAS",
+        "DOC-P239G-800"
+      ],
+      "events": [
+        "evt-p239g-1953-horticulture-may",
+        "evt-p239g-1953-800-horticulture"
+      ],
+      "uncertainty": "actual May opening original unverified",
+      "_integration": {
+        "id": "org-1953-central-horticultural-institute",
+        "digest": "73529ae0dc2dff8eaec451649cfe54664f51f0f8e87076a97cd4dccf88bdf6f0",
+        "provenance": [
+          {
+            "path": "data/organizations/pass-239g-july-organization.json",
+            "pointer": "/organizations/0"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-1953-national-police-bureau",
+      "name": "내무부 치안국",
+      "aliases": [
+        "治安局",
+        "National Police Bureau (provisional)"
+      ],
+      "type": "central_government_bureau",
+      "evidence": [
+        "DOC-P239G-804",
+        "DOC-P239G-513",
+        "DOC-P239G-380"
+      ],
+      "events": [
+        "evt-p239g-1953-804-police-branches",
+        "evt-p239g-1953-804-police-supply"
+      ],
+      "uncertainty": "specific unit staffing and expenditures not proven",
+      "_integration": {
+        "id": "org-1953-national-police-bureau",
+        "digest": "78f9b56ab9b6269e9ff153df6149388a0a4a937f2f2485785de865cc9055c10f",
+        "provenance": [
+          {
+            "path": "data/organizations/pass-239g-july-organization.json",
+            "pointer": "/organizations/1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-1954-hoheon",
+      "name": "호헌동지회",
+      "aliases": [
+        "護憲同志會"
+      ],
+      "type": "ROK opposition parliamentary group",
+      "documents": [
+        "DOC-P239K-AKS-HOHEON"
+      ],
+      "events": [
+        "evt-p239k-20"
+      ],
+      "uncertainty": "secondary text has date typo",
+      "_integration": {
+        "id": "org-1954-hoheon",
+        "digest": "55ef7fc4d462a33d429f160c5af63832a2d8bb90bd969de8ec111555abb7b10d",
+        "provenance": [
+          {
+            "path": "data/organizations/pass-239k-1955-reconstruction.json",
+            "pointer": "/organizations/3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-1954-independent-comrades",
+      "name": "무소속동지회 (Independent Comrades Association)",
+      "aliases": [
+        "Independent Comrades' Association"
+      ],
+      "type": "ROK National Assembly parliamentary negotiating group",
+      "documents": [
+        "DOC-P239K-UN-A2711"
+      ],
+      "events": [
+        "evt-p239k-27"
+      ],
+      "leader": "cand-p235-kwak-sang-hun",
+      "reported_members": 31,
+      "uncertainty": "distinct from later 호헌동지회 pending original registration",
+      "_integration": {
+        "id": "org-1954-independent-comrades",
+        "digest": "e43a6d311e0da413136910c52897cdc22a5cf0fb053d3ffb70098a12a4580ecc",
+        "provenance": [
+          {
+            "path": "data/organizations/pass-239k-1955-reconstruction.json",
+            "pointer": "/organizations/4"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-1955-foa",
+      "name": "Foreign Operations Administration",
+      "aliases": [
+        "FOA"
+      ],
+      "type": "US aid administration",
+      "documents": [
+        "DOC-P239K-FRUS-20",
+        "DOC-P239K-FRUS-28",
+        "DOC-P239K-FRUS-60"
+      ],
+      "events": [
+        "evt-p239k-04",
+        "evt-p239k-09",
+        "evt-p239k-15"
+      ],
+      "_integration": {
+        "id": "org-1955-foa",
+        "digest": "c0f16b6aed9843eeee6313341ebb2031aeabb1fc02ee18e223bb51cc3c151b0f",
+        "provenance": [
+          {
+            "path": "data/organizations/pass-239k-1955-reconstruction.json",
+            "pointer": "/organizations/1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-1955-nnsc",
+      "name": "Neutral Nations Supervisory Commission",
+      "aliases": [
+        "NNSC",
+        "중립국감독위원회"
+      ],
+      "type": "armistice commission",
+      "documents": [
+        "DOC-P239K-FRUS-42",
+        "DOC-P239K-FRUS-65"
+      ],
+      "events": [
+        "evt-p239k-19"
+      ],
+      "_integration": {
+        "id": "org-1955-nnsc",
+        "digest": "23814747f29a173e2fb4f4d451b08ac34122d254423054d897108d6f4235d10f",
+        "provenance": [
+          {
+            "path": "data/organizations/pass-239k-1955-reconstruction.json",
+            "pointer": "/organizations/2"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-1955-reconstruction-ministry",
+      "name": "부흥부",
+      "aliases": [
+        "復興部",
+        "Ministry of Reconstruction"
+      ],
+      "type": "government_ministry",
+      "legal_basis": "Government Organization Act No.354, 1955-02-07",
+      "documents": [
+        "DOC-P239K-LAW-354",
+        "DOC-P239K-AKS-RECON"
+      ],
+      "events": [
+        "evt-p239k-03"
+      ],
+      "uncertainty": "minister gazette and commencement of work unverified",
+      "_integration": {
+        "id": "org-1955-reconstruction-ministry",
+        "digest": "710d30455d380ebfeabb5b6af0987795c25817d924a4732b7921e9ec4ef498ab",
+        "provenance": [
+          {
+            "path": "data/organizations/pass-239k-1955-reconstruction.json",
+            "pointer": "/organizations/0"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-bank-of-korea",
+      "name": "Bank of Korea",
+      "aliases": [
+        "한국은행"
+      ],
+      "jurisdiction": "ROK",
+      "role": "1953 overdraft and 1954 aid goods proceeds indebtedness",
+      "document_ids": [
+        "DOC-P257P-UN-A2487-AUDIT-19530921"
+      ],
+      "research_status": "VERIFIED",
+      "period": "1950-1957 (per cited evidence; exact founding/abolition dates not inferred)",
+      "open_lead": null,
+      "_integration": {
+        "id": "org-bank-of-korea",
+        "digest": "63384ffdf21399b6eef7343e6ee5f750435afb9a0548ec15719118a30a6bde67",
+        "provenance": [
+          {
+            "path": "data/organizations/registry.json",
+            "pointer": "/organizations/10"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-bank-of-korea-1953",
+      "name": "한국은행",
+      "type": "central_bank",
+      "period": "1953",
+      "aliases": [],
+      "event_ids": [
+        "evt-p239e-agri-survey"
+      ],
+      "document_ids": [
+        "DOC-P239E-NIKH-0629-0040"
+      ],
+      "provenance": "Contemporary records; institutional identity, not a claim of each official's personal direction.",
+      "_integration": {
+        "id": "org-bank-of-korea-1953",
+        "digest": "58d996f1f4d17168667102379b1d06e90aff60574e9f9892921661eca58abcb8",
+        "provenance": [
+          {
+            "path": "data/organizations/pass-239e-1953-institutions.json",
+            "pointer": "/organizations/7"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-cand-p249-assembly-review",
+      "name": "국회 공민권제한 심사위원회",
+      "documentId": "DOC-P249-KD-0202",
+      "verification": "candidate organization ID; existing organization registry dedup pending",
+      "_integration": {
+        "id": "org-cand-p249-assembly-review",
+        "digest": "b66f6db2beeec1bdd052b2e1a6abc133eea138e7c9d8438e152e3ddb164544d1",
+        "provenance": [
+          {
+            "path": "data/organizations/pass-249-civic-rights-and-civil-society.json",
+            "pointer": "/organizations/0"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-cand-p249-rail-union",
+      "name": "전국철도노동조합",
+      "documentId": "DOC-P249-KD-0331-RAIL",
+      "verification": "candidate organization ID; existing organization registry dedup pending",
+      "_integration": {
+        "id": "org-cand-p249-rail-union",
+        "digest": "14c906eea550599981dde881c576cbefec883e8fefeb4935d238264ebc6cad66",
+        "provenance": [
+          {
+            "path": "data/organizations/pass-249-civic-rights-and-civil-society.json",
+            "pointer": "/organizations/3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-cand-p249-seoul-publicity",
+      "name": "서울시 내무국 공보과",
+      "documentId": "DOC-P249-SEOUL-8215",
+      "verification": "candidate organization ID; existing organization registry dedup pending",
+      "_integration": {
+        "id": "org-cand-p249-seoul-publicity",
+        "digest": "2edc2e5f868304fc43317345d38790de83a05ba96d699b8bc3916872f5335a06",
+        "provenance": [
+          {
+            "path": "data/organizations/pass-249-civic-rights-and-civil-society.json",
+            "pointer": "/organizations/2"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-cand-p249-seoul-review",
+      "name": "서울시 공민권제한 심사위원회",
+      "documentId": "DOC-P249-KD-0424",
+      "verification": "candidate organization ID; existing organization registry dedup pending",
+      "_integration": {
+        "id": "org-cand-p249-seoul-review",
+        "digest": "53232b872d9eafa7b77589073bb409667721028cf30cb80945f4b7ba377497c1",
+        "provenance": [
+          {
+            "path": "data/organizations/pass-249-civic-rights-and-civil-society.json",
+            "pointer": "/organizations/1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-cand-p249-student-unification",
+      "name": "민족통일전국학생연맹 결성준비위원회",
+      "documentId": "DOC-P249-KD-0511",
+      "verification": "candidate organization ID; existing organization registry dedup pending",
+      "_integration": {
+        "id": "org-cand-p249-student-unification",
+        "digest": "f2e7555f70620e17b6647666040a44a2c2abe8f769b13f5513fcb39a61ca65b4",
+        "provenance": [
+          {
+            "path": "data/organizations/pass-249-civic-rights-and-civil-society.json",
+            "pointer": "/organizations/5"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-cand-p249-transport-ministry",
+      "name": "교통부",
+      "documentId": "DOC-P249-KD-0331-RAIL",
+      "verification": "candidate organization ID; existing organization registry dedup pending",
+      "_integration": {
+        "id": "org-cand-p249-transport-ministry",
+        "digest": "79c65c80c929c39e893a16da37e1510031fa12354d4bf7fe4d7937547c809586",
+        "provenance": [
+          {
+            "path": "data/organizations/pass-249-civic-rights-and-civil-society.json",
+            "pointer": "/organizations/4"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-constituent-assembly",
+      "name": "대한민국 제헌국회",
+      "aliases": [
+        "Constituent National Assembly"
+      ],
+      "period": "1948-1950",
+      "type": "legislature",
+      "evidenceDocumentIds": [
+        "d80-1950-02-02"
+      ],
+      "_integration": {
+        "id": "org-constituent-assembly",
+        "digest": "b6dd12cedbec5c64d30f2270c8c254be3f6381cd9534ac5cc311c322f28315ef",
+        "provenance": [
+          {
+            "path": "data/organizations/run81-land-admin.json",
+            "pointer": "/organizations/4"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-kcac",
+      "name": "Korea Civil Assistance Command",
+      "aliases": [
+        "한국민사원조사령부"
+      ],
+      "jurisdiction": "UN_Command",
+      "role": "CRIK civilian relief, food and distribution, distinct from UNKRA long-term reconstruction",
+      "document_ids": [
+        "DOC-P257P-UN-A2750-19541012"
+      ],
+      "research_status": "VERIFIED",
+      "period": "1950-1957 (per cited evidence; exact founding/abolition dates not inferred)",
+      "open_lead": null,
+      "_integration": {
+        "id": "org-kcac",
+        "digest": "7e0fce87383ac13ff7665d8cf84323155bae5a681be337b3f99e897d790038f0",
+        "provenance": [
+          {
+            "path": "data/organizations/registry.json",
+            "pointer": "/organizations/9"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-kdb-founding-commission-1954",
+      "name": "한국산업은행설립위원회",
+      "status": "VERIFIED",
+      "memberCount": 9,
+      "officeLocation": "한국식산은행 내",
+      "legalAuthority": "대통령령 제860호",
+      "_integration": {
+        "id": "org-kdb-founding-commission-1954",
+        "digest": "ba0d0a0aa877aa9cc2df10d9c5860d77eedd9fadceb20622e43126c25cf3bc4b",
+        "provenance": [
+          {
+            "path": "data/research/candidates/pass-89-kdb-founding-liquidator-authority.json",
+            "pointer": "/organizations/0"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-kib-liquidation-office",
+      "name": "한국식산은행청산사무국",
+      "status": "VERIFIED",
+      "documentSeries": [
+        "DA0423463",
+        "DA0424710"
+      ],
+      "_integration": {
+        "id": "org-kib-liquidation-office",
+        "digest": "bfc7512a475df6e7facdd15ef6325ae59f6c976ffe8333e364fdf03f6bf9fecc",
+        "provenance": [
+          {
+            "path": "data/research/candidates/pass-90-kib-liquidation-governance.json",
+            "pointer": "/organizations/1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-korea-development-bank",
+      "name": "한국산업은행",
+      "status": "VERIFIED",
+      "_integration": {
+        "id": "org-korea-development-bank",
+        "digest": "27f2d82662e1943988cbd1f85e6e3cc20863b37f24d82533ec0ba5dfab116db4",
+        "provenance": [
+          {
+            "path": "data/research/candidates/pass-88-kdb-statute-kib-succession-actors-events.json",
+            "pointer": "/organizations/0"
+          },
+          {
+            "path": "data/research/candidates/pass-89-kdb-founding-liquidator-authority.json",
+            "pointer": "/organizations/1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-korea-industrial-bank-pre1954",
+      "name": "한국식산은행",
+      "status": "VERIFIED",
+      "_integration": {
+        "id": "org-korea-industrial-bank-pre1954",
+        "digest": "0d70db86ccaafdd5c8571fe97d1a509104bf896a859a91f83d6978cf3c12d6c9",
+        "provenance": [
+          {
+            "path": "data/research/candidates/pass-88-kdb-statute-kib-succession-actors-events.json",
+            "pointer": "/organizations/1"
+          },
+          {
+            "path": "data/research/candidates/pass-89-kdb-founding-liquidator-authority.json",
+            "pointer": "/organizations/2"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-korean-federation-trade-unions-1953",
+      "name": "대한노총",
+      "type": "labor_federation",
+      "period": "1953",
+      "aliases": [],
+      "event_ids": [
+        "evt-p239e-union-audit",
+        "evt-p239e-dockworker-backpay"
+      ],
+      "document_ids": [
+        "DOC-P239E-NIKH-0630-0070",
+        "DOC-P239E-NIKH-0622-0090"
+      ],
+      "provenance": "Contemporary records; institutional identity, not a claim of each official's personal direction.",
+      "_integration": {
+        "id": "org-korean-federation-trade-unions-1953",
+        "digest": "522e5e8f9b1b7f71a40a403fc1b663e5cfd5d768d83528ad4e45048354ed050b",
+        "provenance": [
+          {
+            "path": "data/organizations/pass-239e-1953-institutions.json",
+            "pointer": "/organizations/6"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-ministry-finance",
+      "name": "재무부",
+      "status": "VERIFIED",
+      "roles": [
+        "liquidation-cost approval",
+        "cabinet proposal",
+        "distribution-report recipient",
+        "Japan-claims recipient"
+      ],
+      "_integration": {
+        "id": "org-ministry-finance",
+        "digest": "cedc06c2a1d380a59d9e6472a3c285f9842912f4e1e6fb77fff3314430da21d6",
+        "provenance": [
+          {
+            "path": "data/research/candidates/pass-90-kib-liquidation-governance.json",
+            "pointer": "/organizations/2"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-ministry-of-finance-rok",
+      "name": "대한민국 재무부",
+      "status": "VERIFIED",
+      "_integration": {
+        "id": "org-ministry-of-finance-rok",
+        "digest": "8f0ef781af0e9fd6903a6e4fc9934f6a4f8ff02d151455f04f5fc455bcfcd608",
+        "provenance": [
+          {
+            "path": "data/research/candidates/pass-88-kdb-statute-kib-succession-actors-events.json",
+            "pointer": "/organizations/3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-monetary-board",
+      "name": "금융통화위원회",
+      "status": "VERIFIED",
+      "_integration": {
+        "id": "org-monetary-board",
+        "digest": "48865658028926fa0133f599aec10ef22f22088560e3ee82b28ffa0231e42f64",
+        "provenance": [
+          {
+            "path": "data/research/candidates/pass-88-kdb-statute-kib-succession-actors-events.json",
+            "pointer": "/organizations/4"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-national-food-administration",
+      "name": "중앙식량행정처",
+      "aliases": [
+        "National Food Administration"
+      ],
+      "period": "1948",
+      "type": "administrative-agency",
+      "evidenceDocumentIds": [
+        "d81-212"
+      ],
+      "_integration": {
+        "id": "org-national-food-administration",
+        "digest": "e55ef137fafa1c05d3be10557004d713ded122c9ef19146878fc44f595b791b3",
+        "provenance": [
+          {
+            "path": "data/organizations/run81-land-admin.json",
+            "pointer": "/organizations/2"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-national-land-administration",
+      "name": "중앙토지행정처",
+      "aliases": [
+        "National Land Administration"
+      ],
+      "period": "1948-03 onward",
+      "type": "administrative-agency",
+      "evidenceDocumentIds": [
+        "d81-173",
+        "d81-212"
+      ],
+      "_integration": {
+        "id": "org-national-land-administration",
+        "digest": "fb642fe789940de5703ae1fb973a34a7a81f78c770fa8db456ce8d6127b90b8a",
+        "provenance": [
+          {
+            "path": "data/organizations/run81-land-admin.json",
+            "pointer": "/organizations/1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-provincial-governors",
+      "name": "도지사 직위군",
+      "aliases": [
+        "Provincial governors"
+      ],
+      "period": "1948",
+      "type": "role-class-not-person",
+      "evidenceDocumentIds": [
+        "d81-212"
+      ],
+      "_integration": {
+        "id": "org-provincial-governors",
+        "digest": "18c30d53ed84ccaf8917b37ac7993c6e7af98fd62bfda11219bff84d6c36137e",
+        "provenance": [
+          {
+            "path": "data/organizations/run81-land-admin.json",
+            "pointer": "/organizations/3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-r224-combined-economic-board",
+      "name": "한미합동경제위원회",
+      "kind": "BILATERAL_AGREEMENT_BODY",
+      "documentIds": [
+        "doc-r224-frus-137"
+      ],
+      "accessDate": "2026-10-28",
+      "legalStatus": "DOCUMENT_ATTESTED",
+      "originalInstitutionalCharterInspected": false,
+      "identityCaution": "연속된 기관의 개편·당파 분열은 동일 기관으로 자동병합 금지",
+      "_integration": {
+        "id": "org-r224-combined-economic-board",
+        "digest": "7ffcf65a020baa4f8c15d75ee9b8406dbbad5435d1085ceeefcc9e738d34b1d4",
+        "provenance": [
+          {
+            "path": "data/organizations/run224-1952-institutions.json",
+            "pointer": "/organizations/6"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-r224-jayudang",
+      "name": "자유당",
+      "kind": "ROK_POLITICAL_PARTY",
+      "documentIds": [
+        "doc-r224-nikh-0010_0100"
+      ],
+      "accessDate": "2026-10-28",
+      "legalStatus": "DOCUMENT_ATTESTED",
+      "originalInstitutionalCharterInspected": false,
+      "identityCaution": "연속된 기관의 개편·당파 분열은 동일 기관으로 자동병합 금지",
+      "_integration": {
+        "id": "org-r224-jayudang",
+        "digest": "9cac8f6e3ccf8892edf9e8c1f24f4c1ae455a617ecac4266201a088a5cd4e2cf",
+        "provenance": [
+          {
+            "path": "data/organizations/run224-1952-institutions.json",
+            "pointer": "/organizations/3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-r224-minjudang",
+      "name": "민주국민당",
+      "kind": "ROK_POLITICAL_PARTY",
+      "documentIds": [
+        "doc-r224-nikh-0010_0140",
+        "doc-r224-nikh-0010_0160"
+      ],
+      "accessDate": "2026-10-28",
+      "legalStatus": "DOCUMENT_ATTESTED",
+      "originalInstitutionalCharterInspected": false,
+      "identityCaution": "연속된 기관의 개편·당파 분열은 동일 기관으로 자동병합 금지",
+      "_integration": {
+        "id": "org-r224-minjudang",
+        "digest": "0e8652557eb3a06ed11f3adf8326eb115d8ba5d6fdce672a89a671636019a0c1",
+        "provenance": [
+          {
+            "path": "data/organizations/run224-1952-institutions.json",
+            "pointer": "/organizations/2"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-r224-rok-assembly",
+      "name": "대한민국 국회",
+      "kind": "ROK_LEGISLATURE",
+      "documentIds": [
+        "doc-r224-nikh-0010_0110",
+        "doc-r224-nikh-0010_0170"
+      ],
+      "accessDate": "2026-10-28",
+      "legalStatus": "DOCUMENT_ATTESTED",
+      "originalInstitutionalCharterInspected": false,
+      "identityCaution": "연속된 기관의 개편·당파 분열은 동일 기관으로 자동병합 금지",
+      "_integration": {
+        "id": "org-r224-rok-assembly",
+        "digest": "24097871d3c3bfafe0a5e3cb060e9a7dcbb8474248b018c315eece7529131546",
+        "provenance": [
+          {
+            "path": "data/organizations/run224-1952-institutions.json",
+            "pointer": "/organizations/0"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-r224-rok-presidency",
+      "name": "대한민국 대통령실",
+      "kind": "ROK_EXECUTIVE",
+      "documentIds": [
+        "doc-r224-nikh-le-003",
+        "doc-r224-nikh-le-005"
+      ],
+      "accessDate": "2026-10-28",
+      "legalStatus": "DOCUMENT_ATTESTED",
+      "originalInstitutionalCharterInspected": false,
+      "identityCaution": "연속된 기관의 개편·당파 분열은 동일 기관으로 자동병합 금지",
+      "_integration": {
+        "id": "org-r224-rok-presidency",
+        "digest": "882f4182462a25b6322ff43a8bcdcbee86cad59a3aef81ff14defa9b1225d892",
+        "provenance": [
+          {
+            "path": "data/organizations/run224-1952-institutions.json",
+            "pointer": "/organizations/1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-r224-unc",
+      "name": "유엔군사령부",
+      "kind": "MULTINATIONAL_MILITARY",
+      "documentIds": [
+        "doc-r224-frus-126",
+        "doc-r224-frus-137"
+      ],
+      "accessDate": "2026-10-28",
+      "legalStatus": "DOCUMENT_ATTESTED",
+      "originalInstitutionalCharterInspected": false,
+      "identityCaution": "연속된 기관의 개편·당파 분열은 동일 기관으로 자동병합 금지",
+      "_integration": {
+        "id": "org-r224-unc",
+        "digest": "0dc308d445d333f58b1d12925d5fa5ea0179a78641e1737e47123a100ca1ee9f",
+        "provenance": [
+          {
+            "path": "data/organizations/run224-1952-institutions.json",
+            "pointer": "/organizations/4"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-r224-uncurk",
+      "name": "유엔한국통일부흥위원단",
+      "kind": "UN_BODY",
+      "documentIds": [
+        "doc-r224-frus-144",
+        "doc-r224-frus-149"
+      ],
+      "accessDate": "2026-10-28",
+      "legalStatus": "DOCUMENT_ATTESTED",
+      "originalInstitutionalCharterInspected": false,
+      "identityCaution": "연속된 기관의 개편·당파 분열은 동일 기관으로 자동병합 금지",
+      "_integration": {
+        "id": "org-r224-uncurk",
+        "digest": "c29fd6bbca4bb525ddcb8078a8f2abcdc64a86797411857852bb7b7ee534a3d3",
+        "provenance": [
+          {
+            "path": "data/organizations/run224-1952-institutions.json",
+            "pointer": "/organizations/5"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-r225-rok-defense",
+      "name": "대한민국 국방부",
+      "period": "1952",
+      "provenance": "ROK_EXECUTIVE",
+      "accessDate": "2026-10-28",
+      "verificationStatus": "OFFICIAL_ORIGINAL_TEXT",
+      "_integration": {
+        "id": "org-r225-rok-defense",
+        "digest": "a4c6298512694132bf9a21f82d0f54f0773145168b4f3ddfcdac336fe2a59b75",
+        "provenance": [
+          {
+            "path": "data/organizations/run225-institutions.json",
+            "pointer": "/organizations/1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-r225-rok-gazette",
+      "name": "대한민국 관보",
+      "period": "1952",
+      "provenance": "ROK_EXECUTIVE_PUBLICATION",
+      "accessDate": "2026-10-28",
+      "verificationStatus": "OFFICIAL_ORIGINAL_TEXT",
+      "_integration": {
+        "id": "org-r225-rok-gazette",
+        "digest": "444725265685289d569a2111eb022c494840d960514a2ca877ef29c2db6465f7",
+        "provenance": [
+          {
+            "path": "data/organizations/run225-institutions.json",
+            "pointer": "/organizations/5"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-r225-rok-interior",
+      "name": "대한민국 내무부",
+      "period": "1952",
+      "provenance": "ROK_EXECUTIVE",
+      "accessDate": "2026-10-28",
+      "verificationStatus": "OFFICIAL_ORIGINAL_TEXT",
+      "_integration": {
+        "id": "org-r225-rok-interior",
+        "digest": "a9160bc26174895c73a8467b268a972b71a85b401d6680e97e2a41c8f92eebf0",
+        "provenance": [
+          {
+            "path": "data/organizations/run225-institutions.json",
+            "pointer": "/organizations/2"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-r225-rok-justice",
+      "name": "대한민국 법무부",
+      "period": "1952",
+      "provenance": "ROK_EXECUTIVE",
+      "verificationStatus": "OFFICIAL_CABINET_AGENDA_ONLY",
+      "accessDate": "2026-10-28",
+      "_integration": {
+        "id": "org-r225-rok-justice",
+        "digest": "6d9e4a77805625f614fb63f14913e9635c533d8c7d1931db3afab23b5fbb6cec",
+        "provenance": [
+          {
+            "path": "data/organizations/run225-institutions.json",
+            "pointer": "/organizations/7"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-r225-rok-planning",
+      "name": "대한민국 기획 관련 부서(1952 국무회의 기록 표기)",
+      "period": "1952",
+      "provenance": "ROK_EXECUTIVE",
+      "verificationStatus": "OFFICIAL_CABINET_AGENDA_ONLY",
+      "accessDate": "2026-10-28",
+      "_integration": {
+        "id": "org-r225-rok-planning",
+        "digest": "7510a1aeeaf4000f33be4dd3ad749fbac4e21c26ab75a7dda6f5af917b8b9a24",
+        "provenance": [
+          {
+            "path": "data/organizations/run225-institutions.json",
+            "pointer": "/organizations/6"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-r225-rok-state-council",
+      "name": "대한민국 국무회의",
+      "period": "1952",
+      "provenance": "ROK_EXECUTIVE",
+      "accessDate": "2026-10-28",
+      "verificationStatus": "OFFICIAL_ORIGINAL_TEXT",
+      "_integration": {
+        "id": "org-r225-rok-state-council",
+        "digest": "6b67e66eef3e926d2eb990df83727594e69b2be36cfed4d030c0264fa12842a9",
+        "provenance": [
+          {
+            "path": "data/organizations/run225-institutions.json",
+            "pointer": "/organizations/0"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-r225-us-jcs",
+      "name": "US Joint Chiefs of Staff",
+      "period": "1952",
+      "provenance": "US_GOVERNMENT",
+      "accessDate": "2026-10-28",
+      "verificationStatus": "OFFICIAL_ORIGINAL_TEXT",
+      "_integration": {
+        "id": "org-r225-us-jcs",
+        "digest": "ef71c7a4cb8efce5d20f5eb65896b300a2f36125dfd2677fdc8dc3e269830a98",
+        "provenance": [
+          {
+            "path": "data/organizations/run225-institutions.json",
+            "pointer": "/organizations/4"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-r225-us-state",
+      "name": "US Department of State",
+      "period": "1952",
+      "provenance": "US_GOVERNMENT",
+      "accessDate": "2026-10-28",
+      "verificationStatus": "OFFICIAL_ORIGINAL_TEXT",
+      "_integration": {
+        "id": "org-r225-us-state",
+        "digest": "e87c0e5eaea55aec3e76137fd99dbda86d9ddcaf772c83c42053f84b29f81f8e",
+        "provenance": [
+          {
+            "path": "data/organizations/run225-institutions.json",
+            "pointer": "/organizations/3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-rok-agriculture-ministry-1953",
+      "name": "농림부",
+      "type": "ministry",
+      "period": "1953",
+      "aliases": [],
+      "event_ids": [
+        "evt-p239e-land-reform-cash",
+        "evt-p239e-rice-transplant",
+        "evt-p239e-agri-survey"
+      ],
+      "document_ids": [
+        "DOC-P239E-NIKH-0627-0040",
+        "DOC-P239E-NIKH-0626-0070"
+      ],
+      "provenance": "Contemporary records; institutional identity, not a claim of each official's personal direction.",
+      "_integration": {
+        "id": "org-rok-agriculture-ministry-1953",
+        "digest": "89e5bd1bce0469cd7c456fa6f6dd934e42c498ef33fbb95ccc16d47a23478900",
+        "provenance": [
+          {
+            "path": "data/organizations/pass-239e-1953-institutions.json",
+            "pointer": "/organizations/1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-rok-assembly",
+      "name": "National Assembly of the Republic of Korea",
+      "aliases": [
+        "대한민국 국회"
+      ],
+      "jurisdiction": "ROK",
+      "role": "Historical law promulgation metadata; specific proposer and vote unknown",
+      "document_ids": [
+        "DOC-P257P-NAK-1954-LAW-METADATA"
+      ],
+      "research_status": "IDENTIFIED",
+      "period": "1950-1957 (per cited evidence; exact founding/abolition dates not inferred)",
+      "open_lead": "Verify original Korean legal name, appointment/agency identity, and exact administrative authority",
+      "_integration": {
+        "id": "org-rok-assembly",
+        "digest": "ef2f6825f28a7108e8bd9f37885b9fd94269a76dd5a6c7d645d1bbbdfdeed4e6",
+        "provenance": [
+          {
+            "path": "data/organizations/registry.json",
+            "pointer": "/organizations/13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-rok-central-election-committee-1956",
+      "name": "중앙선거위원회",
+      "aliases": [
+        "Central Election Committee (1956-era designation)"
+      ],
+      "jurisdiction": "Republic of Korea",
+      "role": "1956-04-04/1956-04-09 후보 등록 공고·기호 추첨",
+      "document_ids": [
+        "DOC-P258F-K31075",
+        "DOC-P239L2-KDEMO-BALLOT-00731093"
+      ],
+      "research_status": "IDENTIFIED",
+      "period": "1956 (only source-covered period)",
+      "open_lead": "현대 중앙선거관리위원회와 제도상 동일기관으로 자동병합 금지",
+      "identity_caution": "현대 중앙선거관리위원회와 제도상 동일기관으로 자동병합 금지",
+      "possible_same_as": [],
+      "_integration": {
+        "id": "org-rok-central-election-committee-1956",
+        "digest": "94d46929404021460d5ea8a17e5693d9c4105277d8a727db71b5c7e34c45122d",
+        "provenance": [
+          {
+            "path": "data/organizations/pass-258f-1956-domestic-governance.json",
+            "pointer": "/organizations/0"
+          },
+          {
+            "path": "data/organizations/registry.json",
+            "pointer": "/organizations/18"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-rok-custodial-property-agency-1953",
+      "name": "관재청",
+      "type": "agency",
+      "period": "1953",
+      "aliases": [],
+      "event_ids": [
+        "evt-p239e-custodial-property"
+      ],
+      "document_ids": [
+        "DOC-P239E-NIKH-0623-0050"
+      ],
+      "provenance": "Contemporary records; institutional identity, not a claim of each official's personal direction.",
+      "_integration": {
+        "id": "org-rok-custodial-property-agency-1953",
+        "digest": "4999b3432406b751924493b4f42cd89c49961114f746ad3c6ec93dee474f9a61",
+        "provenance": [
+          {
+            "path": "data/organizations/pass-239e-1953-institutions.json",
+            "pointer": "/organizations/3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-rok-democratic-nationalist-party-1953",
+      "name": "민주국민당",
+      "type": "political_party",
+      "period": "1953",
+      "aliases": [],
+      "event_ids": [
+        "evt-p239e-cho-rebuttal",
+        "evt-p239e-kim-assault"
+      ],
+      "document_ids": [
+        "DOC-P239E-NIKH-0622-0080",
+        "DOC-P239E-NIKH-0625-0050"
+      ],
+      "provenance": "Contemporary records; institutional identity, not a claim of each official's personal direction.",
+      "_integration": {
+        "id": "org-rok-democratic-nationalist-party-1953",
+        "digest": "e88bc5205645016489a028aad2e09b56e5c7c9488eaf8e1dc18d9750f919468e",
+        "provenance": [
+          {
+            "path": "data/organizations/pass-239e-1953-institutions.json",
+            "pointer": "/organizations/5"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-rok-education-ministry-1953",
+      "name": "문교부",
+      "type": "ministry",
+      "period": "1953",
+      "aliases": [],
+      "event_ids": [
+        "evt-p239e-teacher-callup",
+        "evt-p239e-culture-registration"
+      ],
+      "document_ids": [
+        "DOC-P239E-NIKH-0625-0040",
+        "DOC-P239E-NIKH-0630-0090"
+      ],
+      "provenance": "Contemporary records; institutional identity, not a claim of each official's personal direction.",
+      "_integration": {
+        "id": "org-rok-education-ministry-1953",
+        "digest": "d9e22de517c7bbc5663b463ed9774f8da2c26579f9e4ed73270d8730934dbd84",
+        "provenance": [
+          {
+            "path": "data/organizations/pass-239e-1953-institutions.json",
+            "pointer": "/organizations/2"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-rok-foreign-ministry",
+      "name": "Republic of Korea Ministry of Foreign Affairs",
+      "aliases": [
+        "대한민국 외무부"
+      ],
+      "jurisdiction": "ROK",
+      "role": "Original 1954-05-31 32-page treaty archive CA0002578",
+      "document_ids": [
+        "DOC-P257P-NAK-CA0002578-CATALOG"
+      ],
+      "research_status": "IDENTIFIED",
+      "period": "1950-1957 (per cited evidence; exact founding/abolition dates not inferred)",
+      "open_lead": "Verify original Korean legal name, appointment/agency identity, and exact administrative authority",
+      "_integration": {
+        "id": "org-rok-foreign-ministry",
+        "digest": "df7fb08b048f87d63ce6257d9dc378bcd320684546c2c4b628e7bca8ac406b00",
+        "provenance": [
+          {
+            "path": "data/organizations/registry.json",
+            "pointer": "/organizations/11"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-rok-government",
+      "name": "Government of the Republic of Korea",
+      "aliases": [
+        "대한민국 정부",
+        "ROK Government"
+      ],
+      "jurisdiction": "Republic of Korea",
+      "period": "1948 onward",
+      "role": "Counterparty to FOA firm requests and foreign exchange/procurement policy; unnamed office and individual signing authority still unverified",
+      "document_ids": [
+        "DOC-P258B-NIKH-FS023-0270-02",
+        "DOC-P258B-NIKH-FS023-0270-03"
+      ],
+      "research_status": "IDENTIFIED",
+      "open_lead": "1954 Korean Finance/Commerce Ministry Japanese-source exclusion circular and signed Firm Request originals",
+      "_integration": {
+        "id": "org-rok-government",
+        "digest": "16ad832abcc409f3b807f46287ea62054494ca02f53052a51f3fbf7346ac28be",
+        "provenance": [
+          {
+            "path": "data/organizations/pass-258b-oec-rok-aid-authority.json",
+            "pointer": "/organizations/1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-rok-housing-administration",
+      "name": "Korean Housing Administration (English label in A/2750)",
+      "aliases": [
+        "한국주택행정기관 (기관명 한글 원문 미확인)"
+      ],
+      "jurisdiction": "ROK",
+      "role": "1953-54 local currency shortage for UNKRA housing work",
+      "document_ids": [
+        "DOC-P257P-UN-A2750-19541012"
+      ],
+      "research_status": "IDENTIFIED",
+      "period": "1950-1957 (per cited evidence; exact founding/abolition dates not inferred)",
+      "open_lead": "Verify original Korean legal name, appointment/agency identity, and exact administrative authority",
+      "_integration": {
+        "id": "org-rok-housing-administration",
+        "digest": "5857e6d8ee799ffef53216b03b65c8dc05d33dc00dcf3c0e86f81cfbde2c1a26",
+        "provenance": [
+          {
+            "path": "data/organizations/registry.json",
+            "pointer": "/organizations/8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-rok-liberal-party-1953",
+      "name": "자유당",
+      "type": "political_party",
+      "period": "1953",
+      "aliases": [],
+      "event_ids": [
+        "evt-p239e-party-denunciation",
+        "evt-p239e-shin-accusation"
+      ],
+      "document_ids": [
+        "DOC-P239E-NIKH-0624-0050",
+        "DOC-P239E-NIKH-0625-0060"
+      ],
+      "provenance": "Contemporary records; institutional identity, not a claim of each official's personal direction.",
+      "_integration": {
+        "id": "org-rok-liberal-party-1953",
+        "digest": "71cb7a8e0863123ac9b51ecc92ac5a1ec0dab80261e7044c0bf9efd9d39d986e",
+        "provenance": [
+          {
+            "path": "data/organizations/pass-239e-1953-institutions.json",
+            "pointer": "/organizations/4"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-rok-ministry-education-1956",
+      "name": "문교부",
+      "aliases": [
+        "Ministry of Education (1956 designation)"
+      ],
+      "jurisdiction": "Republic of Korea",
+      "role": "1956-07-14 국립학교설치령1168호 학교·학과·국립해양대학 운영법령 관할",
+      "document_ids": [
+        "DOC-P258F-SCHOOL-DECREE-1168",
+        "DOC-P246-GAZ-388"
+      ],
+      "research_status": "IDENTIFIED",
+      "period": "1956 source-covered",
+      "open_lead": "1956-07-14 대통령령1168호 관보 원면·문교부 고시 실제 학교 개설일",
+      "identity_caution": "법령 소관과 특정 장관 개인 발의·시행 명령을 동일시하지 않음",
+      "_integration": {
+        "id": "org-rok-ministry-education-1956",
+        "digest": "fc3bffac30827e95bd67e0bafef8da1097801d34549ca85a88ec7a0437e4efa7",
+        "provenance": [
+          {
+            "path": "data/organizations/pass-258f-1956-domestic-governance.json",
+            "pointer": "/organizations/6"
+          },
+          {
+            "path": "data/organizations/registry.json",
+            "pointer": "/organizations/24"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-rok-ministry-finance-1956",
+      "name": "재무부",
+      "aliases": [
+        "Ministry of Finance (1956)"
+      ],
+      "jurisdiction": "Republic of Korea",
+      "role": "재정법387호 회계연도·예산 절차, 1956-02-13 김현철·07-08 인태식 관보 부서",
+      "document_ids": [
+        "DOC-P258F-LAW387",
+        "DOC-P246-GAZ-385",
+        "DOC-P246-GAZ-388"
+      ],
+      "research_status": "IDENTIFIED",
+      "period": "1956 (only source-covered period)",
+      "open_lead": "부서/소관과 법률 발의·집행원장 구분",
+      "identity_caution": "부서/소관과 법률 발의·집행원장 구분",
+      "possible_same_as": [],
+      "_integration": {
+        "id": "org-rok-ministry-finance-1956",
+        "digest": "897af9318054f9e3e47740770b9e2a43e9d0dc02c3be8b6533b24ff96a740c07",
+        "provenance": [
+          {
+            "path": "data/organizations/pass-258f-1956-domestic-governance.json",
+            "pointer": "/organizations/2"
+          },
+          {
+            "path": "data/organizations/registry.json",
+            "pointer": "/organizations/20"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-rok-ministry-health-social-1956",
+      "name": "보건사회부",
+      "aliases": [
+        "Ministry of Health and Social Affairs (1956)"
+      ],
+      "jurisdiction": "Republic of Korea",
+      "role": "1956-02-13 최재유·07-08 정준모 장관 관보 부서",
+      "document_ids": [
+        "DOC-P246-GAZ-385",
+        "DOC-P246-GAZ-388"
+      ],
+      "research_status": "IDENTIFIED",
+      "period": "1956 (only source-covered period)",
+      "open_lead": "기존 org-rok-social-affairs와 연속/동일기관 여부 확인 전 병합 금지",
+      "identity_caution": "기존 org-rok-social-affairs와 연속/동일기관 여부 확인 전 병합 금지",
+      "possible_same_as": [
+        "org-rok-social-affairs"
+      ],
+      "_integration": {
+        "id": "org-rok-ministry-health-social-1956",
+        "digest": "835ac32049f88451d3bccb5b9572581980afe6e898b7d527710cf3dd578057ad",
+        "provenance": [
+          {
+            "path": "data/organizations/pass-258f-1956-domestic-governance.json",
+            "pointer": "/organizations/4"
+          },
+          {
+            "path": "data/organizations/registry.json",
+            "pointer": "/organizations/22"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-rok-ministry-interior-1956",
+      "name": "내무부",
+      "aliases": [
+        "Ministry of Home Affairs (1956)"
+      ],
+      "jurisdiction": "Republic of Korea",
+      "role": "1956 지방자치법 제98조·146조 및 내무행정 감독",
+      "document_ids": [
+        "DOC-P246-GAZ-385",
+        "DOC-P246-GAZ-388"
+      ],
+      "research_status": "IDENTIFIED",
+      "period": "1956 (only source-covered period)",
+      "open_lead": "1956-05-05 경찰 현장 발포의 직접명령 기관으로 단정하지 않음",
+      "identity_caution": "1956-05-05 경찰 현장 발포의 직접명령 기관으로 단정하지 않음",
+      "possible_same_as": [],
+      "_integration": {
+        "id": "org-rok-ministry-interior-1956",
+        "digest": "84aebeba0fff2edfe4f9833c1391af627201973c5847ac3168e9a8c1a8d290e5",
+        "provenance": [
+          {
+            "path": "data/organizations/pass-258f-1956-domestic-governance.json",
+            "pointer": "/organizations/1"
+          },
+          {
+            "path": "data/organizations/registry.json",
+            "pointer": "/organizations/19"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-rok-ministry-reconstruction-1956",
+      "name": "부흥부",
+      "aliases": [
+        "Ministry of Reconstruction (1956)"
+      ],
+      "jurisdiction": "Republic of Korea",
+      "role": "1956 한미 원조 집행촉진 및 07-08 김현철 장관 관보 부서",
+      "document_ids": [
+        "DOC-P258E-ROK-AID-BG0000076",
+        "DOC-P246-GAZ-388"
+      ],
+      "research_status": "IDENTIFIED",
+      "period": "1956 (only source-covered period)",
+      "open_lead": "부흥부 장관 개인의 1월 회담 서명 미확인",
+      "identity_caution": "부흥부 장관 개인의 1월 회담 서명 미확인",
+      "possible_same_as": [],
+      "_integration": {
+        "id": "org-rok-ministry-reconstruction-1956",
+        "digest": "dcc461dde17a8f5ae7f1fe66b59db1fb0c987d5d2085d6fd8a8115fa15695676",
+        "provenance": [
+          {
+            "path": "data/organizations/pass-258f-1956-domestic-governance.json",
+            "pointer": "/organizations/3"
+          },
+          {
+            "path": "data/organizations/registry.json",
+            "pointer": "/organizations/21"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-rok-seoul-special-city-1956",
+      "name": "서울특별시",
+      "aliases": [
+        "Seoul Special City (1956)"
+      ],
+      "jurisdiction": "Republic of Korea",
+      "role": "지방자치법385호 제117조 서울 행정국 분장·388호 제146조 구청장 임명",
+      "document_ids": [
+        "DOC-P246-GAZ-385",
+        "DOC-P246-GAZ-388"
+      ],
+      "research_status": "IDENTIFIED",
+      "period": "1956 (only source-covered period)",
+      "open_lead": "서울시장 개인 제안·집행 미확인",
+      "identity_caution": "서울시장 개인 제안·집행 미확인",
+      "possible_same_as": [],
+      "_integration": {
+        "id": "org-rok-seoul-special-city-1956",
+        "digest": "eaccf664722698d9a65e799524b3904b0fe110f6c1a5b95936a5db516213e378",
+        "provenance": [
+          {
+            "path": "data/organizations/pass-258f-1956-domestic-governance.json",
+            "pointer": "/organizations/5"
+          },
+          {
+            "path": "data/organizations/registry.json",
+            "pointer": "/organizations/23"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-rok-social-affairs",
+      "name": "Republic of Korea Ministry of Social Affairs",
+      "aliases": [
+        "대한민국 사회부"
+      ],
+      "jurisdiction": "ROK",
+      "role": "Joint UNKRA housing and Tongnae rehabilitation programme",
+      "document_ids": [
+        "DOC-P257P-UN-A2750-19541012"
+      ],
+      "research_status": "VERIFIED",
+      "period": "1950-1957 (per cited evidence; exact founding/abolition dates not inferred)",
+      "open_lead": null,
+      "_integration": {
+        "id": "org-rok-social-affairs",
+        "digest": "52212872e7bacc06ef2becb0e404ce7fd9ea17269a01aa1ebd43b3ceb54835da",
+        "provenance": [
+          {
+            "path": "data/organizations/registry.json",
+            "pointer": "/organizations/7"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-rok-social-ministry-1953",
+      "name": "사회부",
+      "type": "ministry",
+      "period": "1953",
+      "aliases": [],
+      "event_ids": [
+        "evt-p239e-park-resettlement",
+        "evt-p239e-union-neutrality"
+      ],
+      "document_ids": [
+        "DOC-P239E-NIKH-0622-0070",
+        "DOC-P239E-NIKH-0624-0060"
+      ],
+      "provenance": "Contemporary records; institutional identity, not a claim of each official's personal direction.",
+      "_integration": {
+        "id": "org-rok-social-ministry-1953",
+        "digest": "1a3cfff6b888937adc150b2a91139fde1125ac115a44d954552ca95493f220ba",
+        "provenance": [
+          {
+            "path": "data/organizations/pass-239e-1953-institutions.json",
+            "pointer": "/organizations/0"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-uk-foreign-office",
+      "name": "UK Foreign Office",
+      "aliases": [
+        "영국 외무부"
+      ],
+      "jurisdiction": "UK",
+      "role": "1953-55 ministerial responses to parliamentary aid and funding questions",
+      "document_ids": [
+        "DOC-P257P-UK-HANSARD-19550502"
+      ],
+      "research_status": "VERIFIED",
+      "period": "1953-1955 (source-covered)",
+      "open_lead": null,
+      "_integration": {
+        "id": "org-uk-foreign-office",
+        "digest": "c94547d9ea4679e6a2d54be89b51fb543d02c7716dcf26a1b6b186c1297ceb35",
+        "provenance": [
+          {
+            "path": "data/organizations/registry.json",
+            "pointer": "/organizations/15"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-uk-house-of-commons",
+      "name": "UK House of Commons",
+      "aliases": [
+        "영국 하원"
+      ],
+      "jurisdiction": "UK",
+      "role": "Official Hansard parliamentary scrutiny of Korean relief/UNKRA",
+      "document_ids": [
+        "DOC-P257P-UK-HANSARD-19540630"
+      ],
+      "research_status": "VERIFIED",
+      "period": "1953-1955 (source-covered)",
+      "open_lead": null,
+      "_integration": {
+        "id": "org-uk-house-of-commons",
+        "digest": "313ada15d4fec3760a5ead01a1b30fbf1eeef3debc4089d1d568a960daf4703e",
+        "provenance": [
+          {
+            "path": "data/organizations/registry.json",
+            "pointer": "/organizations/14"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-un-acabq",
+      "name": "UN Advisory Committee on Administrative and Budgetary Questions",
+      "aliases": [
+        "유엔 행정예산자문위원회"
+      ],
+      "jurisdiction": "UN",
+      "role": "Independent 1954 UNKRA finance and administrative cost review A/2801",
+      "document_ids": [
+        "DOC-P257P-UN-A2801-ACABQ-19541123"
+      ],
+      "research_status": "VERIFIED",
+      "period": "1953-1955 (source-covered)",
+      "open_lead": null,
+      "_integration": {
+        "id": "org-un-acabq",
+        "digest": "5c510f2fd7e617ea0234d72692b6f2846c26128240a91024e9437339426895ea",
+        "provenance": [
+          {
+            "path": "data/organizations/registry.json",
+            "pointer": "/organizations/16"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-un-board-auditors",
+      "name": "United Nations Board of Auditors",
+      "aliases": [
+        "유엔 감사위원회"
+      ],
+      "jurisdiction": "UN",
+      "role": "Independent 1953 UNKRA financial-statement audit",
+      "document_ids": [
+        "DOC-P257P-UN-A2487-AUDIT-19530921"
+      ],
+      "research_status": "VERIFIED",
+      "period": "1950-1957 (per cited evidence; exact founding/abolition dates not inferred)",
+      "open_lead": null,
+      "_integration": {
+        "id": "org-un-board-auditors",
+        "digest": "9a47162a1015e3a5d48f9f7f6def083f5189a2ac4eef02c5e188356d9bae2e4a",
+        "provenance": [
+          {
+            "path": "data/organizations/registry.json",
+            "pointer": "/organizations/5"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-un-general-assembly",
+      "name": "United Nations General Assembly",
+      "aliases": [
+        "국제연합 총회"
+      ],
+      "jurisdiction": "UN",
+      "role": "A/RES/410(V), A/RES/725(VIII), A/RES/828(IX)",
+      "document_ids": [
+        "DOC-P257P-UN-RES410-19501201"
+      ],
+      "research_status": "VERIFIED",
+      "period": "1950-1957 (per cited evidence; exact founding/abolition dates not inferred)",
+      "open_lead": null,
+      "_integration": {
+        "id": "org-un-general-assembly",
+        "digest": "96a91cc343bfa455feb22a0f366ef4f978c5fd3254bdd0934739c81e0ef7ad1a",
+        "provenance": [
+          {
+            "path": "data/organizations/registry.json",
+            "pointer": "/organizations/0"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-un-second-committee",
+      "name": "United Nations General Assembly Second Committee",
+      "aliases": [
+        "유엔총회 제2위원회"
+      ],
+      "jurisdiction": "UN",
+      "role": "1954 UNKRA debate and 38-5 committee draft vote",
+      "document_ids": [
+        "DOC-P257P-UN-C2-SR341-19541211"
+      ],
+      "research_status": "VERIFIED",
+      "period": "1950-1957 (per cited evidence; exact founding/abolition dates not inferred)",
+      "open_lead": null,
+      "_integration": {
+        "id": "org-un-second-committee",
+        "digest": "85e4b76ddcf3c7e006a473b79b5d1d321be1246aa3a259fae8d2f0e6a9054e39",
+        "provenance": [
+          {
+            "path": "data/organizations/registry.json",
+            "pointer": "/organizations/6"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-uncurk",
+      "name": "United Nations Commission for the Unification and Rehabilitation of Korea",
+      "aliases": [
+        "유엔한국통일부흥위원단"
+      ],
+      "jurisdiction": "UN",
+      "role": "Designated Korean authorities under 410(V); issued A/2810 comments",
+      "document_ids": [
+        "DOC-P257P-UN-A2810-19541129"
+      ],
+      "research_status": "VERIFIED",
+      "period": "1950-1957 (per cited evidence; exact founding/abolition dates not inferred)",
+      "open_lead": null,
+      "_integration": {
+        "id": "org-uncurk",
+        "digest": "4fa4f74c457b69f74762316261ea3d152f5f3a9771488771333fdf965f9b3bb2",
+        "provenance": [
+          {
+            "path": "data/organizations/registry.json",
+            "pointer": "/organizations/2"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-unkra",
+      "name": "United Nations Korean Reconstruction Agency",
+      "aliases": [
+        "유엔한국재건단"
+      ],
+      "jurisdiction": "UN",
+      "role": "Long-term reconstruction, financial and project administration 1951-1958",
+      "document_ids": [
+        "DOC-P257P-UN-A2750-19541012"
+      ],
+      "research_status": "VERIFIED",
+      "period": "1950-1957 (per cited evidence; exact founding/abolition dates not inferred)",
+      "open_lead": null,
+      "_integration": {
+        "id": "org-unkra",
+        "digest": "b4e658130a9c82cb14cbc2faab8d20b9d351401069ac9521c7619b0c8c03718b",
+        "provenance": [
+          {
+            "path": "data/organizations/registry.json",
+            "pointer": "/organizations/1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-unkra-1953",
+      "name": "유엔한국재건단",
+      "type": "international_agency",
+      "period": "1953",
+      "aliases": [],
+      "event_ids": [
+        "evt-p239e-unkra-books"
+      ],
+      "document_ids": [
+        "DOC-P239E-NIKH-0628-0050"
+      ],
+      "provenance": "Contemporary records; institutional identity, not a claim of each official's personal direction.",
+      "_integration": {
+        "id": "org-unkra-1953",
+        "digest": "006196ea04fe329a8f1463ee95d6f9600fc1df5e82f6e677925fe999b0fce54e",
+        "provenance": [
+          {
+            "path": "data/organizations/pass-239e-1953-institutions.json",
+            "pointer": "/organizations/8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-unkra-advisory",
+      "name": "UNKRA Advisory Committee",
+      "aliases": [
+        "UNKRA 자문위원회"
+      ],
+      "jurisdiction": "UN",
+      "role": "Programme consultation, plan and finance approvals",
+      "document_ids": [
+        "DOC-P257P-UN-RES725-19531207"
+      ],
+      "research_status": "VERIFIED",
+      "period": "1950-1957 (per cited evidence; exact founding/abolition dates not inferred)",
+      "open_lead": null,
+      "_integration": {
+        "id": "org-unkra-advisory",
+        "digest": "596ffe023f857dbc5dd6c4c72692e0bdca5a08d265df3243c1f8b43f1348f772",
+        "provenance": [
+          {
+            "path": "data/organizations/registry.json",
+            "pointer": "/organizations/4"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-unkra-agent-general",
+      "name": "UNKRA Office of the Agent General",
+      "aliases": [
+        "UNKRA 재건단장실"
+      ],
+      "jurisdiction": "UN",
+      "role": "Approves counterpart hwan use and signs ROK aid agreements",
+      "document_ids": [
+        "DOC-P257P-UN-A2750-19541012"
+      ],
+      "research_status": "VERIFIED",
+      "period": "1950-1957 (per cited evidence; exact founding/abolition dates not inferred)",
+      "open_lead": null,
+      "_integration": {
+        "id": "org-unkra-agent-general",
+        "digest": "e071d5a5224342a7b6d4ab42d0448e886e5952bcd8216411d8d422a19e515ba8",
+        "provenance": [
+          {
+            "path": "data/organizations/registry.json",
+            "pointer": "/organizations/3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-unkra-smallbusiness-loanboard",
+      "name": "UNKRA Small Business Loan Board",
+      "aliases": [
+        "UNKRA 중소기업대출심의위원회"
+      ],
+      "jurisdiction": "UN",
+      "role": "Approved initial 1954 SME loans, longitudinal 1957 follow-up",
+      "document_ids": [
+        "DOC-P257P-UN-A2750-19541012"
+      ],
+      "research_status": "VERIFIED",
+      "period": "1950-1957 (per cited evidence; exact founding/abolition dates not inferred)",
+      "open_lead": null,
+      "_integration": {
+        "id": "org-unkra-smallbusiness-loanboard",
+        "digest": "f94b24e4ae7aabe4aa99161ae9fe6799563eadd21c4c433ebc78b7dbe067301e",
+        "provenance": [
+          {
+            "path": "data/organizations/registry.json",
+            "pointer": "/organizations/12"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-us-foa",
+      "name": "United States Foreign Operations Administration",
+      "aliases": [
+        "FOA",
+        "미국 대외활동본부"
+      ],
+      "jurisdiction": "US",
+      "period": "1953-1955 approximate, exact establishment/abolition legal dates unverified",
+      "role": "US FY1954 economic/technical aid program authorizing agency; distinct from UNKRA and CRIK",
+      "document_ids": [
+        "DOC-P258A-NIKH-FOA-19540510",
+        "DOC-P258A-NIKH-AGREED-MINUTE-IMPLEMENTATION-1955"
+      ],
+      "research_status": "IDENTIFIED",
+      "open_lead": "US executive order establishing FOA, delegation of FY1954 Korea appropriation and 1954-05-10 Moyer memorandum sign-off",
+      "_integration": {
+        "id": "org-us-foa",
+        "digest": "a7661fcbeff33792a253c66a9ad92e3305813d84723574b92a76647b8f761d98",
+        "provenance": [
+          {
+            "path": "data/organizations/pass-258a-us-foa-1954.json",
+            "pointer": "/organizations/0"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-us-oec",
+      "name": "US Office of the Economic Coordinator for Korea",
+      "aliases": [
+        "OEC",
+        "경제조정관실"
+      ],
+      "jurisdiction": "US/UNC field administration",
+      "period": "1953-1959, exact transitions need original decree",
+      "role": "CINCUNC senior economic adviser and FOA field representative; program planning/coordination not sole procurement authority",
+      "document_ids": [
+        "DOC-P258B-NIKH-FS023-0270-03",
+        "DOC-P258B-NIKH-FS023-0270-04",
+        "DOC-P258B-NIKH-FS023-0270-05",
+        "DOC-P258B-NIKH-DODGE-19530806"
+      ],
+      "research_status": "IDENTIFIED",
+      "open_lead": "Original 1953 Aug7/14 appointment/delegation orders and 1954 firm request countersignature register",
+      "_integration": {
+        "id": "org-us-oec",
+        "digest": "790a7226d6003ad0a80d25ccbfdb5c0ffcf0ed24d5956985874fa014e858e844",
+        "provenance": [
+          {
+            "path": "data/organizations/pass-258b-oec-rok-aid-authority.json",
+            "pointer": "/organizations/0"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-usamgik",
+      "name": "재조선미국육군사령부군정청",
+      "aliases": [
+        "USAMGIK",
+        "South Korean Interim Government Military Governor"
+      ],
+      "period": "1945-1948",
+      "type": "military-government",
+      "evidenceDocumentIds": [
+        "d81-33",
+        "d81-173",
+        "d81-174"
+      ],
+      "_integration": {
+        "id": "org-usamgik",
+        "digest": "6b28407aa2f64c3b7ae4b8c004885dbb7c2e6e490aa5c76c2c0aab233bd2835d",
+        "provenance": [
+          {
+            "path": "data/organizations/run81-land-admin.json",
+            "pointer": "/organizations/0"
+          }
+        ]
+      }
+    },
+    {
+      "candidateOrganizationId": "org-minjung-jagyeoldan",
+      "name": "민중자결단",
+      "aliases": [
+        "民衆自決團"
+      ],
+      "status": "IDENTIFIED-candidate",
+      "founded": "1952",
+      "relations": [
+        "pro-Rhee mobilization organization",
+        "constitutional petition actor"
+      ],
+      "evidence": [
+        "한국민족문화대백과사전 민중자결단"
+      ],
+      "openLead": "Recover the 1953-06-09 petition original and identify signatories, drafters, funders and delivery channel.",
+      "_integration": {
+        "id": "urn:source:b00b0dd1ff1d720c851366c2",
+        "digest": "9bafdae19c6f48d4597a024de2d2ed2d15103445dd2d70acff160de9deeb0090",
+        "provenance": [
+          {
+            "path": "data/research/candidates/pass-80-cabinet-constitutional-governance.json",
+            "pointer": "/organizations/0"
+          }
+        ]
+      }
+    }
+  ]
+}
