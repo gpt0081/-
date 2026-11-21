@@ -3,25 +3,42 @@
   "run": 330,
   "date": "2026-11-22",
   "baseCommit": "90e3bbea6b082e075d8c3cb6e57b6faf4fab5d56",
+  "commits": [
+    "bb7275ac36901b888044c83b28d440ca86ab97e5",
+    "e2d528b73bed55037ffbb525a623c11ffc98049b"
+  ],
+  "workflowRun": 44950899243,
   "task": "cumulative-research-central-integration-audit",
   "status": "FULL_INTEGRATION_INCOMPLETE",
   "centralSync": "CENTRAL_SYNC_PARTIAL",
   "floot": "UNTOUCHED",
   "sourceInventory": {
-    "sourceFiles": 2269,
+    "sourceFiles": 2274,
     "nonDataFiles": 21,
+    "sourceFilesTotal": 2295,
+    "groups": {
+      "annals": 145,
+      "claims": 154,
+      "documents": 190,
+      "events": 143,
+      "evidence": 65,
+      "organizations": 15,
+      "politicianShards": 109,
+      "research": 1450,
+      "operationalRoots": 3
+    },
     "triage": {
       "BLOCKED_ID_CONFLICT": 341,
-      "INDEXED_NOT_CANONICAL_VERIFIED": 595,
-      "NON_JSON_PRESERVED": 776,
-      "UNMAPPED_AUXILIARY_OR_PARTIAL": 554,
+      "INDEXED_NOT_CANONICAL_VERIFIED": 597,
+      "NON_JSON_PRESERVED": 777,
+      "UNMAPPED_AUXILIARY_OR_PARTIAL": 556,
       "OPERATIONAL_ROOT_PRESERVED": 2,
       "PRESIDENTIAL_BACKBONE_PRESERVED": 1
     },
     "conflictedIds": 584,
     "exactDuplicateIds": 11,
-    "auxiliaryRecords": 675,
-    "unintegratedSources": 561,
+    "auxiliaryRecords": 677,
+    "unintegratedSources": 563,
     "partialSources": 11,
     "parseErrors": 0
   },
@@ -40,14 +57,14 @@
     },
     "events": {
       "materialized": 2679,
-      "sourceRecords": 2825,
-      "uniqueIds": 2745,
+      "sourceRecords": 2827,
+      "uniqueIds": 2747,
       "conflictedIds": 66
     },
     "politicians": {
       "materialized": 855,
-      "sourceRecords": 2335,
-      "uniqueIds": 1240,
+      "sourceRecords": 2336,
+      "uniqueIds": 1241,
       "conflictedIds": 385
     },
     "organizations": {
@@ -60,14 +77,14 @@
   "operationalRoots": {
     "events": {
       "rootCount": 2808,
-      "canonicalMerged": 2679,
+      "canonicalMerged": 2681,
       "missingIds": 0,
       "duplicateIds": 0,
       "fieldVariants": 16
     },
     "politicians": {
       "rootCount": 975,
-      "canonicalMerged": 763,
+      "canonicalMerged": 764,
       "missingIds": 0,
       "duplicateIds": 0,
       "fieldVariants": 110,
@@ -75,7 +92,7 @@
     }
   },
   "operationalLinks": {
-    "linked": 201,
+    "linked": 202,
     "unlinked": 310,
     "unlinkedByLayer": {
       "annals": 62,
@@ -85,10 +102,10 @@
       "leadQueues": 225
     },
     "relations": {
-      "politicians": 438,
-      "events": 507,
-      "documents": 908,
-      "claims": 12,
+      "politicians": 446,
+      "events": 514,
+      "documents": 923,
+      "claims": 13,
       "organizations": 1
     }
   },
@@ -140,8 +157,8 @@
   "nextLeadQueue": "data/research/lead-queues/run330-next-integration.json",
   "limitations": [
     "source-level 584 conflicting IDs unresolved",
-    "561 unintegrated sources and 310 unlinked operational-layer files remain",
-    "source triage was based on main snapshot before Run330 source additions; workflow regeneration required after push",
+    "563 unintegrated sources and 310 unlinked operational-layer files remain",
+    "126 operational-root field variants preserved for review",
     "no new historical source pages opened in this integration-only run"
   ]
 }

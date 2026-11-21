@@ -1,1 +1,33 @@
-{"schemaVersion":1,"sourceTreeSha":"0104b3c81d4a7015fd37aeec479beaeb4a403fbb","group":"data/presidents.json","files":[{"path":"data/presidents.json","sha":"c76cfa3d464d9637037e30dec47a148db0821bde","size":2059,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"}],"count":1}
+{
+  "schemaVersion": 2,
+  "sourceTreeSha": "58ea5d18e1b142a631127a25d7d59cf93e5750d8",
+  "sourceSnapshotCommit": "e2d528b73bed55037ffbb525a623c11ffc98049b",
+  "group": "data/presidents.json",
+  "count": 1,
+  "statusCounts": {
+    "PRESIDENTIAL_BACKBONE_PRESERVED": 1
+  },
+  "files": [
+    {
+      "path": "data/presidents.json",
+      "sha": "c76cfa3d464d9637037e30dec47a148db0821bde",
+      "sha256": "620031cd37445af3b2faa8d8f939a50b7294213c540cf6003e10e623fc1c4e9d",
+      "size": 2059,
+      "registryState": "PRESIDENTIAL_BACKBONE_PRESERVED",
+      "targetLayer": "presidential_backbone",
+      "targetRegistries": [
+        "presidents",
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0
+      },
+      "conflicts": [],
+      "unintegratedReason": null
+    }
+  ]
+}

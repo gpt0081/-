@@ -1,62 +1,90 @@
 {
-  "schemaVersion": 1,
-  "createdAt": "2026-11-13",
-  "sourceTreeSha": "0104b3c81d4a7015fd37aeec479beaeb4a403fbb",
-  "sourceFilesTotal": 2239,
-  "sourceDataFiles": 2218,
+  "schemaVersion": 2,
+  "createdAt": "2026-11-22",
+  "sourceSnapshotCommit": "e2d528b73bed55037ffbb525a623c11ffc98049b",
+  "sourceTreeSha": "58ea5d18e1b142a631127a25d7d59cf93e5750d8",
+  "sourceFilesTotal": 2295,
+  "sourceDataFiles": 2274,
+  "nonDataFiles": 21,
   "inventoryGroups": [
     {
       "path": "data/integration/inventory/data-annals.json",
-      "sha": "7330ccc575048cc2f89cf24353aa6eeeac0c2527"
+      "sha": "fdc23d6a462b1075ef9c1624ddf9609e53709dd6"
     },
     {
       "path": "data/integration/inventory/data-claims.json",
-      "sha": "e01391f21c54d5d1990cbafe7b5c3c4f58e9cb26"
+      "sha": "fdd9bed82a74a6e53390de0a45e7134d17898569"
     },
     {
       "path": "data/integration/inventory/data-documents.json",
-      "sha": "cdf252917ef7fd754e6296c44c1f868d01f7dcfe"
+      "sha": "b530eaa9fcea7950e5f26e049a62b041eb9af62c"
     },
     {
       "path": "data/integration/inventory/data-events.json",
-      "sha": "8987a550a6de9fe0c8bee95b8c8a555aba33f971"
+      "sha": "b4b292a6a2ea3ac2e302b304798fb8ac247d5d65"
     },
     {
       "path": "data/integration/inventory/data-events.json.json",
-      "sha": "5db4910e3dc938aa17b6ec667b361b3ec27b2a7e"
+      "sha": "4c13eed9762230aa1e3aa65bf0076ffa31eee691"
     },
     {
       "path": "data/integration/inventory/data-evidence.json",
-      "sha": "9ddbb66d2918b292237809c82bef9b028835f6a2"
+      "sha": "f08d63610b7835fd0e873ee700b8987f89cb40db"
     },
     {
       "path": "data/integration/inventory/data-organizations.json",
-      "sha": "ba508e7b6314906492aee136fc69b65cc141a78f"
+      "sha": "8d54d5408506248a78a61dfa1623ea1df634ae96"
     },
     {
       "path": "data/integration/inventory/data-politicians.json",
-      "sha": "5a67841961bc1813faf9119c682c64252ef3faaa"
+      "sha": "9add71af4c9671014234be1e29c9d33943cde57d"
     },
     {
       "path": "data/integration/inventory/data-politicians.json.json",
-      "sha": "3901bdf660f07532c20dbda609fcea1a18e66d08"
+      "sha": "fda4843d5a5c90b69ba2ce013fdc966560e5dc4b"
     },
     {
       "path": "data/integration/inventory/data-presidents.json.json",
-      "sha": "c5815fb1e0821a921c48756f00f4972e643dee82"
+      "sha": "472ed2ff8c7fb5ee3ea53cb972c40cb5cafc0841"
     },
     {
       "path": "data/integration/inventory/data-research.json",
-      "sha": "bacf2e358a20a41f4721f35a04360cc8d36d36de"
+      "sha": "18f7454ffc058ef6be51b7f726a2d92953209585"
     }
   ],
-  "semanticIntegrationStatus": "INCOMPLETE",
-  "migrationRule": "Source inventory is complete for snapshot, content-level entity normalization and cross-reference checks pending",
+  "currentPerFileInventory": {
+    "path": "data/integration/generated/source-triage.json",
+    "blobSha": "0050e000a7f504dad06b23d1af968a037d96361e",
+    "sourceFiles": 2274,
+    "statusCounts": {
+      "BLOCKED_ID_CONFLICT": 341,
+      "INDEXED_NOT_CANONICAL_VERIFIED": 597,
+      "NON_JSON_PRESERVED": 777,
+      "UNMAPPED_AUXILIARY_OR_PARTIAL": 556,
+      "OPERATIONAL_ROOT_PRESERVED": 2,
+      "PRESIDENTIAL_BACKBONE_PRESERVED": 1
+    }
+  },
+  "semanticIntegrationStatus": "FULL_INTEGRATION_INCOMPLETE",
+  "centralSync": "PARTIAL",
+  "migrationRule": "All 2,274 data source files outside data/integration are inventoried by current per-file triage and per-group inventories. Source conflicts and auxiliary files are preserved; no automatic identity merge or silent overwrite.",
   "priority": [
-    "parse all documents and claims registries",
-    "merge politician and event references with collision detection",
-    "merge unintegrated research overlays and PRs",
-    "validate foreign keys and provenance"
+    "Resolve 584 conflicting source IDs with source-aware comparison and correction history",
+    "Resolve 16 event and 110 politician operational-root field variants without discarding either source",
+    "Map 563 unintegrated sources and 310 unlinked operational-layer files using explicit stable IDs",
+    "Validate all document/claim/event/politician/organization references and provenance independence",
+    "Keep PR path presence, PR merge state and semantic integration as separate audit dimensions"
   ],
-  "nonDataFiles": 21
+  "lastAudit": {
+    "date": "2026-11-22",
+    "workflowRun": "https://github.com/gpt0081/-/actions/runs/44950899243",
+    "sourceFiles": 2274,
+    "conflictedIds": 584,
+    "exactDuplicateIds": 11,
+    "unintegratedSources": 563,
+    "auxiliaryRecords": 677,
+    "partialSources": 11,
+    "centralSync": "PARTIAL"
+  },
+  "note": "Per-group inventory files refreshed from the e2d528b main snapshot. source-triage.json is the per-file status authority; registry presence is not proof of historical truth."
 }

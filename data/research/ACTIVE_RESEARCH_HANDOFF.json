@@ -3,10 +3,10 @@
   "updatedAt": "2026-11-22T06:09:18+09:00",
   "activeBranch": "main",
   "branchHead": "moving-ref:refs/heads/main",
-  "baseMain": "90e3bbea6b082e075d8c3cb6e57b6faf4fab5d56",
+  "baseMain": "e2d528b73bed55037ffbb525a623c11ffc98049b",
   "status": "RUN330_CENTRAL_INTEGRATION_PARTIAL",
-  "summary": "Run330은 누적 연구자료 중앙 통합을 우선했다. 현재 main snapshot의 data/ 외부 integration source 2,269개를 source-triage로 파일별 분류: ID conflict 341, indexed-not-canonical-verified 595, non-JSON preserved 776, unmapped auxiliary/partial 554, operational roots 2, presidential backbone 1. Canonical source conflict IDs 584, exact duplicate IDs 11, auxiliary records 675, unintegrated sources 561. Operational links 201 linked / 310 unlinked. Kim Seong-su Pass329의 문서·주장·사건·인물·실록 참조를 shard index로 연결. 중앙 root sync는 PARTIAL; Floot untouched.",
-  "nextAction": "Run331: 584 source-level conflicting IDs 중 문서/주장/사건/정치인별 원문 계보를 대조하고, 341 conflict-marked source files를 우선 triage. 이어 554 unmapped auxiliary/partial records와 310 unlinked operational files를 stable ID 기반으로 연결. PR #73/#74 changed paths는 main에서 34/34 존재 확인됐으나 semantic cross-registry reconciliation은 미완료.",
+  "summary": "Run330 source inventory refreshed to 2,274 files. Canonical source conflicts 584; unintegrated 563; auxiliary 677; exact duplicate IDs 11; root sync PARTIAL with 16 event and 110 politician field variants; operational links 202/310. Kim Seong-su Run329 source/document/claim/event/annals references are linked. PR #73/#74 paths 34/34 present on main; PR #72 remains open, paths 29/29 present. Floot untouched.",
+  "nextAction": "Run331: resolve high-priority document conflicts using the original FRUS, NIKH, Gazette and National Assembly sources; then reconcile politician status/identity variants, event evidenceState/uncertainty variants, and the 563 unintegrated sources. Continue explicit stable-ID linking for 310 unlinked operational files.",
   "mainDataModified": true,
   "latestRun": "data/research/runs/2026-11-22-run330-integration-report.md",
   "latestCorrections": [
@@ -486,19 +486,15 @@
   "lastRunReport": "data/research/runs/2026-11-22-run330-integration-report.md",
   "lastRunLedger": "data/research/runs/2026-11-22-run330-integration-ledger.json",
   "lastRunCommits": [
-    "7a4051647201d8ed75bf38c14cc412002278bb06",
-    "1063cddab5629892d275721e393bb5b6a6e8fcd2",
-    "0a521007c7b1b88194d420a38b3a67eac3a768bf",
-    "ff029adc67c7b89f69cda2c1bebdf066f809931b",
-    "67187f743c765255139ff93710b74134d5566fb6"
+    "bb7275ac36901b888044c83b28d440ca86ab97e5",
+    "e2d528b73bed55037ffbb525a623c11ffc98049b"
   ],
   "nextPriorityQueue": [
     "data/research/lead-queues/run330-next-integration.json",
-    "data/research/registry/2026-11-15-pr73-74-main-shard-audit.json",
     "data/integration/generated/report.json",
     "data/integration/generated/root-sync-report.json",
-    "data/integration/generated/operational-links.json",
     "data/integration/generated/source-triage.json",
+    "data/integration/generated/operational-links.json",
     "data/research/kim-seong-su-open-leads.json"
   ],
   "notes": [
@@ -506,7 +502,8 @@
     "Priority 1952-08-05 official election returns vs US embassy attribution, 9/15 Busan court first-instance, 9/12 Pyun POW objection, CEB crop originals",
     "9/8 grain 5.08x vs 9/12 5.08% CONFLICTED until 8/29 cabinet original",
     "Floot untouched. Thursday no Sunday full debt sweep; do not update last_full_review",
-    "Run330 2026-11-22: source inventory 2,269 files; 584 conflicting IDs; 561 unintegrated sources; central root sync PARTIAL. PR73/74 34/34 changed paths present on main; semantic integration still open. Weekly history-debt full review not run; do not change last_full_review."
+    "Run330 2026-11-22: source inventory 2,269 files; 584 conflicting IDs; 561 unintegrated sources; central root sync PARTIAL. PR73/74 34/34 changed paths present on main; semantic integration still open. Weekly history-debt full review not run; do not change last_full_review.",
+    "Run330 post-workflow snapshot: 2,274 data source files; per-group inventory refreshed; source conflict IDs 584; unintegrated sources 563; operational links 202/310; central sync PARTIAL. Commits bb7275a and e2d528b. GitHub Actions run 88 completed integration steps but failed completeness gate as expected. Sunday history-debt full review not run."
   ],
   "recentResearchPass255G": {
     "date": "2026-10-29",
@@ -661,25 +658,43 @@
   },
   "latestIntegrationAudit": {
     "date": "2026-11-22",
-    "baseCommit": "90e3bbea6b082e075d8c3cb6e57b6faf4fab5d56",
-    "sourceFiles": 2269,
+    "sourceSnapshotCommit": "e2d528b73bed55037ffbb525a623c11ffc98049b",
+    "sourceTreeSha": "58ea5d18e1b142a631127a25d7d59cf93e5750d8",
+    "sourceFiles": 2274,
     "sourceStatusCounts": {
       "BLOCKED_ID_CONFLICT": 341,
-      "INDEXED_NOT_CANONICAL_VERIFIED": 595,
-      "NON_JSON_PRESERVED": 776,
-      "UNMAPPED_AUXILIARY_OR_PARTIAL": 554,
+      "INDEXED_NOT_CANONICAL_VERIFIED": 597,
+      "NON_JSON_PRESERVED": 777,
+      "UNMAPPED_AUXILIARY_OR_PARTIAL": 556,
       "OPERATIONAL_ROOT_PRESERVED": 2,
       "PRESIDENTIAL_BACKBONE_PRESERVED": 1
     },
     "conflictedIds": 584,
     "exactDuplicateIds": 11,
-    "auxiliaryRecords": 675,
-    "unintegratedSources": 561,
+    "auxiliaryRecords": 677,
+    "unintegratedSources": 563,
+    "partialSources": 11,
     "rootSync": "PARTIAL",
+    "eventRoot": {
+      "count": 2808,
+      "canonicalMerged": 2681,
+      "missing": 0,
+      "duplicates": 0,
+      "fieldVariants": 16
+    },
+    "politicianRoot": {
+      "count": 975,
+      "canonicalMerged": 764,
+      "missing": 0,
+      "duplicates": 0,
+      "fieldVariants": 110,
+      "policyExcluded": 92
+    },
     "operationalLinks": {
-      "linked": 201,
+      "linked": 202,
       "unlinked": 310
     },
-    "weeklyHistoryDebtReview": "NOT_RUN"
+    "weeklyHistoryDebtReview": "NOT_RUN",
+    "workflowRun": "https://github.com/gpt0081/-/actions/runs/44950899243"
   }
 }
