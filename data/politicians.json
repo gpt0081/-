@@ -15069,6 +15069,58 @@
       "identityReviewStatus": "UNRESOLVED_SOURCE_REGISTRY_CANDIDATE"
     },
     {
+      "candidate_id": "cand-lee-jong-sun-antimin-1949",
+      "name_ko": "이종순",
+      "name_hanja": null,
+      "name_en": "Lee Jong-sun (romanization provisional)",
+      "birth_death": "unverified",
+      "research_status": "IDENTIFIED-CONFLICTED",
+      "role_periods": [
+        {
+          "period": "1949",
+          "role": "반민특위 중앙 관련 인물로 2차 자료에 등장",
+          "organization": "반민족행위특별조사위원회",
+          "certainty": "medium-low"
+        }
+      ],
+      "event_links": [
+        "evt-1949-gangwon-kim-woo-jong-shooting",
+        "evt-1949-jang-jun-young-release"
+      ],
+      "action_types": [
+        "central-review-or-investigation-role-unverified"
+      ],
+      "identity_warning": "제2·5대 국회의원 이종순(李鍾純, 1914-1998)과 동일인 여부를 확인하지 못했다. stable politician registry로 승격하거나 기존 인물에 병합하지 않는다.",
+      "evidence": [
+        "DOC-NEWS-20250915-LEE-JONG-SUN"
+      ],
+      "open_leads": [
+        "국사편찬위원회 반민특위 중앙 사무국/조사관 명부에서 이종순 한자와 직급 확인",
+        "국회도서관 반민특위 조사부 기념사진 인명 캡션·명단 대조",
+        "1949년 3~4월 동아일보·경향신문·조선일보의 장준영/김우종 사건 기사에서 이종순 직함 확인",
+        "제2·5대 국회의원 이종순의 1948~49 경력 공백을 국회 인명록으로 대조"
+      ],
+      "id": "cand-lee-jong-sun-antimin-1949",
+      "name": "이종순",
+      "researchStatus": "DISCOVERED",
+      "researchRefs": [
+        "data/research/candidates/pass-188-gangwon-antimin-identity-nodes.json"
+      ],
+      "identityReviewStatus": "UNRESOLVED_SOURCE_REGISTRY_CANDIDATE",
+      "possibleSameAs": [
+        {
+          "id": "cand-lee-jong-sun-antimin",
+          "status": "UNRESOLVED_NOT_MERGED",
+          "basis": "exact normalized name/alias overlap only; verify Hanja, lifespan and dated roles"
+        },
+        {
+          "id": "pol-lee-jong-sun-antimin",
+          "status": "UNRESOLVED_NOT_MERGED",
+          "basis": "exact normalized name/alias overlap only; verify Hanja, lifespan and dated roles"
+        }
+      ]
+    },
+    {
       "id": "cand-lee-kwi-hyang",
       "name": "이귀향",
       "romanized": "Lee Kwi-hyang / Kwi Hyang Lee",
@@ -42654,7 +42706,17 @@
       "researchRefs": [
         "data/politicians/pass-229-1952-cabinet-economy-trial.json"
       ],
-      "identityReviewStatus": "UNRESOLVED_SOURCE_REGISTRY_CANDIDATE"
+      "identityReviewStatus": "UNRESOLVED_SOURCE_REGISTRY_CANDIDATE",
+      "_integration": {
+        "id": "pol-jang-seok-yun",
+        "provenance": [
+          {
+            "path": "data/politicians/pass-229-1952-cabinet-economy-trial.json",
+            "pointer": "/politicians/0"
+          }
+        ],
+        "syncDate": "2026-11-21"
+      }
     },
     {
       "id": "pol-jang-taek-sang",

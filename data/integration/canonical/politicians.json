@@ -4880,90 +4880,6 @@
       }
     },
     {
-      "schemaVersion": 1,
-      "candidateId": "cand-an-ho-sang-1902",
-      "proposedStableId": "pol-an-ho-sang",
-      "name": "안호상",
-      "aliases": [
-        "安浩相",
-        "An Ho-sang",
-        "Ahn Ho-sang"
-      ],
-      "birthYear": 1902,
-      "classification": [
-        "politician",
-        "cabinet-minister",
-        "legislator",
-        "education-policy-actor"
-      ],
-      "researchStatus": "candidate-primary-source-linked",
-      "roles": [
-        {
-          "title": "초대 문교부장관",
-          "period": "1948-08~1950-05",
-          "status": "cross-source-confirmed"
-        },
-        {
-          "title": "제5대 국회 참의원의원",
-          "district": "경상남도",
-          "party": "무소속",
-          "status": "official-biographical-db-confirmed"
-        }
-      ],
-      "connections": [
-        {
-          "eventId": "evt-1948-1950-compulsory-education-foundation",
-          "relation": "정부수립 직후 초대 문교부장관으로 재임하면서 1948년 말 의무교육 완성 6개년계획 수립기와 1949년 교육법 제정·학제 논의기에 문교행정의 최고책임자였음",
-          "status": "institutional-role-confirmed; plan authorship and individual clause authorship not automatically attributed"
-        }
-      ],
-      "evidence": [
-        {
-          "source": "국사편찬위원회 근현대인물자료, 안호상(安浩相)",
-          "url": "https://db.history.go.kr/id/im_108_30066",
-          "accessed": "2026-09-20",
-          "supports": "1902년생, 초대 문교부장관, 제5대 국회 참의원의원 경력"
-        },
-        {
-          "source": "국사편찬위원회 자료대한민국사, 1948-10-15 서울신문 교육좌담회",
-          "url": "https://db.history.go.kr/id/dh_008_1948_10_15_0010",
-          "accessed": "2026-09-20",
-          "supports": "현직 문교부장관 안호상의 교육이념·학제 관련 당사자 발언과 문교부 편수국장 손진태 등 정책 네트워크"
-        },
-        {
-          "source": "국사편찬위원회 자료대한민국사, 1948-12-01 문교부 의무교육 완성 6개년계획",
-          "url": "https://db.history.go.kr/contemp/level.do?levelId=dh_009_1948_12_01_0130",
-          "accessed": "2026-09-20",
-          "supports": "문교부가 1948년 12월 의무교육 완성 6개년계획을 수립했으며, 해방 이후 기존 의무교육 추진과 재정·시설·교원 제약을 명시"
-        },
-        {
-          "source": "국사편찬위원회 자료대한민국사, 제5회 국회속기록 제38호(1949-11-11)",
-          "url": "https://db.history.go.kr/contemp/level.do?levelId=dh_015_1949_11_11_0110",
-          "accessed": "2026-09-20",
-          "supports": "교육법 심의기 안호상 문교부장관의 국회 직접 발언을 원 속기록 출전과 함께 확인"
-        }
-      ],
-      "researchValue": "대통령 개인의 교육 업적 서술로 환원하지 않고, 제헌헌법의 교육권·문교부 행정계획·국회 교육법 심의·후일 입법정치 경력을 한 인물 노드에서 연결할 수 있다.",
-      "attributionGuardrail": "장관 재임과 문교부 계획은 제도적 책임 위치를 뜻한다. 의무교육 6개년계획의 세부 설계자, 교육법 개별 조문의 작성자, 1950-06-01 시행 결정의 개인 발신자를 안호상으로 자동 귀속하지 않는다.",
-      "openLeads": [
-        "1948-12 의무교육 완성 6개년계획의 결재문·작성부서·실무자 확인",
-        "1949 교육법 제정 과정에서 문교부안·이기붕 의원안·박희병 절충안의 조문별 차이와 안호상 발언 대조",
-        "1950-06-01 의무교육 시행의 문교부 시행문서·관보·지방 전달문 확보",
-        "손진태·오천석 등 교육정책 실무·전문가 노드를 정치인과 구별해 정책행위자 graph에 연결"
-      ],
-      "id": "cand-an-ho-sang-1902",
-      "_integration": {
-        "id": "cand-an-ho-sang-1902",
-        "digest": "ecc73ec4ce0eb2a6a07cbd4b05eae1d3a5bedef4c64ab4f91489863317679b46",
-        "provenance": [
-          {
-            "path": "data/research/candidates/an-ho-sang-1902.json",
-            "pointer": "/"
-          }
-        ]
-      }
-    },
-    {
       "id": "cand-arthur-dean",
       "name_en": "Arthur H. Dean",
       "status": "IDENTIFIED",
@@ -8304,63 +8220,6 @@
       }
     },
     {
-      "candidate_id": "cand-kang-jin-guk-farmland-reform",
-      "name_ko": "강진국",
-      "name_hanja": "姜辰國",
-      "name_en": null,
-      "research_status": "IDENTIFIED",
-      "verification_level": "contemporaneous-source-identified",
-      "life_dates": {
-        "birth": null,
-        "death": null,
-        "status": "OPEN"
-      },
-      "roles": [
-        {
-          "date": "1949-03-07",
-          "office": "농림부 농지국장",
-          "organization": "농림부",
-          "evidence": "국사편찬위원회 자료대한민국사 dh_011_1949_03_07_0070"
-        }
-      ],
-      "event_links": [
-        "evt-1949-farmland-reform"
-      ],
-      "action_types": [
-        "drafting",
-        "policy-explanation",
-        "administrative-design"
-      ],
-      "evidence": [
-        {
-          "date": "1949-03-07",
-          "source_type": "contemporaneous-newspaper-reproduced-by-official-db",
-          "source": "서울신문 1949-03-09, 국사편찬위원회 자료대한민국사",
-          "source_id": "dh_011_1949_03_07_0070",
-          "finding": "농지개혁법 3개 초안 관계자 좌담회에서 농림부안을 자신이 기초했다고 직접 진술하고 보상 150%, 농민상환 120%·6년, 지주자본의 산업전환 등 설계 취지를 설명했다.",
-          "caution": "당사자 진술이므로 농림부안의 단독 저작자로 확정하지 않고 기초위원회·결재문서로 교차검증한다.",
-          "access_date": "2026-09-20"
-        }
-      ],
-      "open_leads": [
-        "1948-09-07 농지개혁법기초위원회 구성문서에서 강진국의 위원/실무 역할 확인",
-        "1949-01-14 농림부안 성안 원문·기안/결재선에서 강진국의 작성자 표기 확인",
-        "강진국 생몰·학력·농지국장 재임기간을 관보·직원록으로 검증"
-      ],
-      "promotion_reason": "농지개혁 농림부안의 실무 기초자로 동시대 직접 진술이 확인되어 대통령·장관 중심 서술을 실무관료 수준으로 분해할 가치가 높다.",
-      "id": "cand-kang-jin-guk-farmland-reform",
-      "_integration": {
-        "id": "cand-kang-jin-guk-farmland-reform",
-        "digest": "6d9eb691bdbea715f7a7a42b5d480dc136eba7bd9dfa3fefc343b77599667169",
-        "provenance": [
-          {
-            "path": "data/research/candidates/kang-jin-guk-farmland-reform.json",
-            "pointer": "/"
-          }
-        ]
-      }
-    },
-    {
       "candidateId": "cand-kang-ukjung",
       "name": "강욱중",
       "aliases": [
@@ -10683,74 +10542,6 @@
       }
     },
     {
-      "schemaVersion": 1,
-      "candidateId": "cand-lee-cheon-sang-legal-affairs",
-      "name": "이천상",
-      "aliases": [
-        "李天相",
-        "Lee Cheon-sang",
-        "Yi Chon-sang"
-      ],
-      "classification": [
-        "senior-government-official",
-        "legal-policy-actor",
-        "public-committee-actor"
-      ],
-      "researchStatus": "candidate-identity-partially-resolved",
-      "roles": [
-        {
-          "title": "법제처차장",
-          "dateConfirmed": "1949-09-29",
-          "status": "confirmed-official-chronology"
-        },
-        {
-          "title": "중앙농지위원",
-          "date": "1950-03-24",
-          "status": "confirmed-secondary-reference-to-commission; appointment-original-needed"
-        }
-      ],
-      "connections": [
-        {
-          "eventId": "evt-1949-farmland-reform",
-          "relation": "법제처 고위관료이자 1950-03-24 중앙농지위원회 위원으로 시행기 법제·위원회 네트워크에 연결",
-          "status": "role-level-confirmed; individual proposal/vote unknown"
-        }
-      ],
-      "evidence": [
-        {
-          "source": "국사편찬위원회 대한민국사연표 1949-09-29",
-          "url": "https://db.history.go.kr/id/tcct_1949_09_29_0010",
-          "accessed": "2026-09-20",
-          "supports": "정부 차관급 인사 목록에서 법제처차장 이천상 확인"
-        },
-        {
-          "source": "한국민족문화대백과사전 농지위원회",
-          "url": "https://encykorea.aks.ac.kr/Article/E0080665",
-          "accessed": "2026-09-20",
-          "supports": "1950-03-24 중앙농지위원회 첫 회의 위원 명단에 이천상 수록"
-        }
-      ],
-      "identityRule": "1949-09-29 법제처차장 이천상과 1950-03-24 중앙농지위원 명단의 이천상은 시기·정부 직위 연속성 때문에 동일인 가능성이 높지만, 위촉 원문에서 직함 또는 한자명을 직접 대조하기 전까지 완전 병합하지 않는다.",
-      "researchValue": "농지개혁 시행망에서 농림부·국회뿐 아니라 법제처의 고위 관료가 중앙농지위원회에 참여한 사례다. 향후 법령 제정·심사와 위원회 자문 사이의 제도적 연결을 추적할 수 있다.",
-      "openLeads": [
-        "1950-03-24 중앙농지위원 위촉문에서 이천상의 당시 직함·한자 확인",
-        "법제처 인사기록에서 재임 시작·종료일 확정",
-        "대통령령 제275호·제294호 심사/결재문서에서 이천상 개인 관여 여부 확인",
-        "제1차 중앙농지위원회 회의록에서 발언·제안·찬반 여부 확인"
-      ],
-      "id": "cand-lee-cheon-sang-legal-affairs",
-      "_integration": {
-        "id": "cand-lee-cheon-sang-legal-affairs",
-        "digest": "d8bf0e9d8e7624800549618197fa37dd63a0ccc91eb300ec3a6f64f2e71ef87a",
-        "provenance": [
-          {
-            "path": "data/research/candidates/lee-cheon-sang-legal-affairs.json",
-            "pointer": "/"
-          }
-        ]
-      }
-    },
-    {
       "id": "cand-lee-dong-heon-labor",
       "name": "이동헌",
       "role": "전국노동조합협의회 경북지부 선전부장",
@@ -11172,94 +10963,6 @@
       }
     },
     {
-      "schemaVersion": 1,
-      "candidateId": "cand-lee-jong-hyeon-1904",
-      "name": "이종현",
-      "aliases": [
-        "李宗鉉",
-        "Lee Jong-hyeon",
-        "Yi Chong-hyon"
-      ],
-      "birthYear": 1904,
-      "deathYear": 1959,
-      "classification": [
-        "politician",
-        "senior-government-official",
-        "legislator",
-        "provincial-governor"
-      ],
-      "researchStatus": "candidate-strongly-identified",
-      "roles": [
-        {
-          "title": "강원도지사",
-          "period": "1948-10~1949-02",
-          "status": "official-provincial-source-confirmed"
-        },
-        {
-          "title": "농림부장관",
-          "period": "1949-02~1950-01",
-          "status": "cross-source-confirmed"
-        },
-        {
-          "title": "제2대 국회의원",
-          "district": "서울 마포",
-          "elected": "1950-05",
-          "status": "biographical-source-confirmed"
-        },
-        {
-          "title": "국회 산업분과위원장",
-          "period": "제2대 국회",
-          "status": "biographical-source-confirmed"
-        }
-      ],
-      "connections": [
-        {
-          "eventId": "evt-1949-farmland-reform",
-          "relation": "조봉암 사임 뒤 농림부장관으로 1949년 농지개혁법 제정·정부 재검토 시기의 부처 최고책임자였으며, 이후 제2대 국회 산업분과위원장으로 이동",
-          "status": "institutional-role-confirmed; individual instruction/position requires document-level evidence"
-        }
-      ],
-      "evidence": [
-        {
-          "source": "한국민족문화대백과사전 이종현",
-          "url": "https://encykorea.aks.ac.kr/Article/E0045954",
-          "accessed": "2026-09-20",
-          "supports": "1904~1959, 농림부장관, 대한독립촉성국민회 총무부장, 1950년 서울 마포 제2대 국회의원 당선 및 산업분과위원장"
-        },
-        {
-          "source": "강원특별자치도청 역대 도지사",
-          "url": "https://gwd.go.kr/portal/introduce/situation/formerGovernor",
-          "accessed": "2026-09-20",
-          "supports": "이종현(李宗鉉)의 강원도지사 재임과 후속 농림부장관 경력"
-        },
-        {
-          "source": "국사편찬위원회 반민특위조사기록, 1949-06-30 송달증서",
-          "url": "https://db.history.go.kr/contemp/level.do?levelId=an_012_0580",
-          "accessed": "2026-09-20",
-          "supports": "1949-06-30 동시대 문서에서 농림부장관 이종현[李宗鉉] 확인"
-        }
-      ],
-      "researchValue": "농지개혁 입법기의 농림부장관이 이후 국회의원·산업분과위원장으로 이동한 사례다. 대통령 중심 서술을 벗어나 행정부-입법부 사이에서 동일 정치인이 어떻게 위치를 바꾸며 정책망에 남는지 추적할 수 있다.",
-      "attributionGuardrail": "농림부장관 재임은 제도적 책임 위치를 뜻하지만 특정 농지개혁 조문, 환부 대응, 보상·상환안 또는 개별 행정명령을 이종현 개인의 결정으로 자동 귀속하지 않는다.",
-      "openLeads": [
-        "1949-02 조봉암 후임 농림부장관 임명 원문과 취임사 확보",
-        "1949-04~06 농지개혁법 국회 통과·정부 검토 과정에서 이종현의 국무회의·농림부 발언 확인",
-        "1950 제2대 국회 산업분과위원장 재임 중 농지개혁 후속 입법·감사 발언 추적",
-        "정당·정파 소속의 시기별 변화를 공식 선거·국회 자료로 보강"
-      ],
-      "id": "cand-lee-jong-hyeon-1904",
-      "_integration": {
-        "id": "cand-lee-jong-hyeon-1904",
-        "digest": "b8c3458b1235c67c2179d0101d1da0cc67cb95fccd6f62d5e1dd25bd958e7db0",
-        "provenance": [
-          {
-            "path": "data/research/candidates/lee-jong-hyeon-1904.json",
-            "pointer": "/"
-          }
-        ]
-      }
-    },
-    {
       "id": "cand-lee-jong-su-snu",
       "name": "이종수",
       "hanja": "李鍾洙",
@@ -11294,6 +10997,50 @@
           {
             "path": "data/research/candidates/pass-130-minnesota-nursing-public-admin-actors.json",
             "pointer": "/actors/6"
+          }
+        ]
+      }
+    },
+    {
+      "candidate_id": "cand-lee-jong-sun-antimin-1949",
+      "name_ko": "이종순",
+      "name_hanja": null,
+      "name_en": "Lee Jong-sun (romanization provisional)",
+      "birth_death": "unverified",
+      "research_status": "IDENTIFIED-CONFLICTED",
+      "role_periods": [
+        {
+          "period": "1949",
+          "role": "반민특위 중앙 관련 인물로 2차 자료에 등장",
+          "organization": "반민족행위특별조사위원회",
+          "certainty": "medium-low"
+        }
+      ],
+      "event_links": [
+        "evt-1949-gangwon-kim-woo-jong-shooting",
+        "evt-1949-jang-jun-young-release"
+      ],
+      "action_types": [
+        "central-review-or-investigation-role-unverified"
+      ],
+      "identity_warning": "제2·5대 국회의원 이종순(李鍾純, 1914-1998)과 동일인 여부를 확인하지 못했다. stable politician registry로 승격하거나 기존 인물에 병합하지 않는다.",
+      "evidence": [
+        "DOC-NEWS-20250915-LEE-JONG-SUN"
+      ],
+      "open_leads": [
+        "국사편찬위원회 반민특위 중앙 사무국/조사관 명부에서 이종순 한자와 직급 확인",
+        "국회도서관 반민특위 조사부 기념사진 인명 캡션·명단 대조",
+        "1949년 3~4월 동아일보·경향신문·조선일보의 장준영/김우종 사건 기사에서 이종순 직함 확인",
+        "제2·5대 국회의원 이종순의 1948~49 경력 공백을 국회 인명록으로 대조"
+      ],
+      "id": "cand-lee-jong-sun-antimin-1949",
+      "_integration": {
+        "id": "cand-lee-jong-sun-antimin-1949",
+        "digest": "9fdd0c4f66d1c65f956c266bb56db8bc5206cd8aea312c84a4fec11e6818b526",
+        "provenance": [
+          {
+            "path": "data/research/candidates/pass-188-gangwon-antimin-identity-nodes.json",
+            "pointer": "/candidates/0"
           }
         ]
       }
@@ -25804,6 +25551,64 @@
       }
     },
     {
+      "id": "pol-jang-seok-yun",
+      "name": "장석윤",
+      "aliases": [
+        "張錫潤",
+        "Jang Seok-yun",
+        "Chang Sok-yun"
+      ],
+      "lifespan": {
+        "verification": "1904-04-13 (1906 conflict)"
+      },
+      "roles": [
+        {
+          "period": "1952",
+          "title": "내무부장관 1952-01~05; 1954·58 민의원",
+          "verification": "see evidence document IDs"
+        },
+        {
+          "period": "1952-01-17/05-23",
+          "title": "내무부장관 행정안전부 공식 재임기간(동시대 5/24 발표와 종료일 차이)",
+          "evidenceDocumentIds": [
+            "P229C-MOIS-MINISTERS"
+          ]
+        }
+      ],
+      "eventConnections": [
+        {
+          "eventId": "evt-1952-busan-0523-protest-control",
+          "actionType": "reported compliance with PM order",
+          "sourceDocumentIds": [
+            "DOC-NIKH-P229-dh_025_1952_05_24_0070",
+            "DOC-NIKH-P229-dh_025_1952_05_29_0030"
+          ]
+        }
+      ],
+      "researchStatus": "ANNALS_ACTIVE",
+      "evidenceCoverage": "specific 1952 action evidenced; full biography not established",
+      "evidenceDocumentIds": [
+        "DOC-NIKH-P229-dh_025_1952_05_24_0070",
+        "DOC-NIKH-P229-dh_025_1952_05_29_0030"
+      ],
+      "openLeads": [
+        "1952-05-23 사표와 시위통제 경찰 하달문",
+        "MOIS 5/23 종료일과 1952-05-24 정부 依願免本官 발표의 발령효력일 차이 확인"
+      ],
+      "promotionReason": null,
+      "historyDebt": null,
+      "_integration": {
+        "id": "pol-jang-seok-yun",
+        "digest": "22eb8c126f66e6a48716b5fcca40375d7fe32bc94dadabc0cbb792e5fed9c806",
+        "provenance": [
+          {
+            "path": "data/politicians/pass-229-1952-cabinet-economy-trial.json",
+            "pointer": "/politicians/0"
+          }
+        ]
+      }
+    },
+    {
       "id": "pol-jang-taek-sang",
       "name": "장택상",
       "aliases": [
@@ -26109,117 +25914,6 @@
           {
             "path": "data/research/candidates/2026-10-04-pass183-landcommittee-network.json",
             "pointer": "/nodes/14"
-          }
-        ]
-      }
-    },
-    {
-      "id": "pol-jin-jik-hyeon",
-      "name": "진직현",
-      "aliases": [
-        "晉直鉉",
-        "晋直鉉",
-        "Jin Jik-hyeon"
-      ],
-      "lifespan": {
-        "born": null,
-        "bornCandidates": [
-          "1900",
-          "1901"
-        ],
-        "died": null,
-        "verification": "CONFLICTED_YEAR"
-      },
-      "researchStatus": "VERIFIED",
-      "backbone": false,
-      "regionalBase": [
-        "전라북도 임실군"
-      ],
-      "roles": [
-        {
-          "period": "1922-",
-          "role": "변호사",
-          "evidence": "NIKH im_109_02182"
-        },
-        {
-          "period": "해방후",
-          "role": "대한독립촉성국민회 임실군지부장",
-          "evidence": "NIKH im_109_02182"
-        },
-        {
-          "period": "1948-1950",
-          "role": "제헌국회의원",
-          "constituency": "전라북도 임실",
-          "evidence": "NIKH im_109_02182"
-        },
-        {
-          "date": "1949-10-12",
-          "role": "국회 법제사법위원",
-          "affiliation": "민국(민주국민당 계열)",
-          "evidence": "NIKH dh_014_1949_10_12_0020"
-        }
-      ],
-      "connections": [
-        "evt-1949-anti-collaboration-commission-reconstitution"
-      ],
-      "actionTypes": [
-        "legislative",
-        "legal-profession",
-        "party-affiliation",
-        "committee-service"
-      ],
-      "evidenceCoverage": {
-        "identity": "strong",
-        "birth": "conflicted",
-        "constituency": "strong",
-        "legalCareer": "moderate-strong",
-        "partyTimeline": "partial",
-        "antiCollaborationCommission": "partial",
-        "ordinaryGovernance": "partial-strong"
-      },
-      "sources": [
-        {
-          "documentId": "doc-nikh-im-109-02182",
-          "title": "근현대인물자료: 진직현(晉直鉉)",
-          "url": "https://db.history.go.kr/id/im_109_02182",
-          "provenance": "국사편찬위원회 한국사DB",
-          "accessDate": "2026-09-27"
-        },
-        {
-          "documentId": "doc-nikh-dh-014-1949-10-12-0020",
-          "title": "국회, 상임위원회 소속위원을 결정",
-          "date": "1949-10-12",
-          "originalPublication": "경향신문 1949-10-13",
-          "url": "https://db.history.go.kr/id/dh_014_1949_10_12_0020",
-          "provenance": "국사편찬위원회 자료대한민국사",
-          "accessDate": "2026-09-27"
-        }
-      ],
-      "openLeads": [
-        "1949-07-14 제2기 반민특위 위원 선출 원 속기록에서 진직현의 지역대표 구분·득표수 확인",
-        "제2기 반민특위 의견서에서 진직현 서명/인장 등장일과 사건별 참여 확인",
-        "진직현의 1948 당선 당시 소속과 1949-10 민주국민당 소속 사이 정파 이동 날짜 확인",
-        "1900/1901 출생연도 충돌을 제헌국회 의원명부·호적계 원자료로 해결",
-        "1949 법제사법위원회에서 진직현의 법안 발언·수정안·표결 추출",
-        "1950 제2대 총선 출마 여부와 이후 법조활동을 중앙선관위·국회 인명록으로 연결"
-      ],
-      "historyDebt": [
-        {
-          "status": "CONFLICTED",
-          "question": "출생연도 1900/1901 중 어느 값이 원자료에 의해 확정되는가?"
-        },
-        {
-          "status": "OPEN",
-          "question": "제2기 반민특위 위원으로서 실제 사건처리·의견서 참여량은 얼마인가?"
-        }
-      ],
-      "_integration": {
-        "id": "pol-jin-jik-hyeon",
-        "digest": "a09039607d4d3ac9d647c52014f444e5a673754bcba7f1a57e38b3b2736c8d4d",
-        "provenance": [
-          {
-            "path": "data/research/politicians/jin-jik-hyeon.json",
-            "pointer": "/"
           }
         ]
       }
@@ -31370,137 +31064,6 @@
           {
             "path": "data/research/transition-second-republic-pass311.json",
             "pointer": "/politicianCandidates/0"
-          }
-        ]
-      }
-    },
-    {
-      "id": "pol-yun-u-gyeong",
-      "candidateId": "cand-yun-u-gyeong",
-      "name": "윤우경",
-      "aliases": [
-        "尹宇景",
-        "Yun U-gyeong",
-        "Yun U-gyong",
-        "Yun-Kyong"
-      ],
-      "lifespan": {
-        "born": "1900",
-        "died": "1995",
-        "verification": "한국민족문화대백과사전 2025-10-23 수정 항목"
-      },
-      "researchStatus": "VERIFIED",
-      "promotionReason": "1952 부산정치파동기의 서울시경찰국장→내무부 치안국장 전환과 국회의원 감시 명제, 이후 구황실재산 관리까지 연결되는 경찰·행정 actor다. 국가기록원 기관연혁으로 치안국장 재임일을 직접 보강했다.",
-      "roles": [
-        {
-          "title": "서울시경찰국장",
-          "period": "1951-06-24~1952-05-25",
-          "verification": "서울특별시경찰청 공식 역대 국장 연혁",
-          "confidence": "high"
-        },
-        {
-          "title": "내무부 치안국장",
-          "period": "1952-05-25~1952-09-16",
-          "verification": "국가기록원 내무부 치안국 기관연혁",
-          "confidence": "high",
-          "chronologyNote": "FRUS 편집자 노트는 1952-05-24 계엄 선포 직전 임명으로 서술한다. 국내 공식 기관연혁은 윤우경 취임일과 전임 홍순봉 퇴임일을 모두 1952-05-25로 기록하므로 정확한 발령·효력 시각은 CONFLICTED-NARROWED."
-        },
-        {
-          "title": "구왕궁재산관리위원회/구황실재산사무총국 계열 책임자",
-          "period": "1953 이후",
-          "verification": "AKS 인물항목 및 기관연혁 추가 검증 필요",
-          "confidence": "medium"
-        }
-      ],
-      "eventConnections": [
-        {
-          "event": "evt-1952-busan-political-crisis",
-          "role": "서울시경찰국장에서 중앙 치안국장으로 전환된 경찰 지휘 actor",
-          "attributionCaution": "FRUS의 5/24 서술과 국가기록원의 5/25 취임일 사이 하루 경계가 충돌한다. 5/24~25 개별 체포·계엄 집행은 발령원문과 집행기관 문서 확보 전 윤우경 개인에게 자동 귀속하지 않는다."
-        },
-        {
-          "event": "evt-1952-president-assassination-attempt",
-          "role": "national police chief during investigation",
-          "attributionCaution": "AKS는 암살미수사건 적발을 치안국장 재임 경력으로 연결하지만 피의자별 수사행위는 공판·수사기록 검증 필요."
-        }
-      ],
-      "evidenceCoverage": {
-        "identity": "high",
-        "seoul_police_chief_term": "high",
-        "1952_police_chief_term": "high with one-day appointment/effective-time conflict",
-        "busan_crisis_command_role": "medium-high",
-        "assembly_surveillance_order": "medium-low pending primary police document and unit-name correction",
-        "later_royal_property_role": "medium"
-      },
-      "sourceNotes": [
-        {
-          "type": "official archival institutional history",
-          "title": "국가기록원 기록물 생산기관 변천정보: 내무부 치안국",
-          "url": "https://theme.archives.go.kr/next/organ/viewDetailInfo.do?code=OG0007388&isProvince=&mapInfo=mapno1",
-          "accessed": "2026-09-29",
-          "finding": "홍순봉 1952-03-18~05-25, 윤우경 1952-05-25~09-16. 1952년 조직에는 정보수사과가 존재하고 사찰과는 1950-08 종료로 기술."
-        },
-        {
-          "type": "official police institutional history",
-          "title": "서울특별시경찰청 역대 국장/청장",
-          "url": "https://www.smpa.go.kr/user/nd13225.do",
-          "accessed": "2026-09-29",
-          "finding": "윤우경 서울시경찰국장 1951-06-24~1952-05-25."
-        },
-        {
-          "type": "official diplomatic primary/editorial",
-          "title": "FRUS 1952–1954 Korea XV Part 1, Editorial Note on May 24 martial law",
-          "url": "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d138",
-          "accessed": "2026-09-29",
-          "finding": "계엄 직전 신임 내무팀 인사를 서술하나 국내 공식 기관연혁과 날짜 경계 재대조 필요."
-        },
-        {
-          "type": "scholarly encyclopedia",
-          "title": "한국민족문화대백과사전 윤우경",
-          "url": "https://encykorea.aks.ac.kr/Article/E0081287",
-          "accessed": "2026-09-29",
-          "finding": "생몰·경력 및 1952년 국회의원 감시 명제. '사찰과' 표현은 국가기록원 조직연혁과 충돌하므로 원출전 확인 필요."
-        }
-      ],
-      "openLeads": [
-        "관보·내무부 인사철에서 1952-05-24~25 윤우경 치안국장 임명 발령번호·발령일·효력시각을 확정하고 FRUS와 국가기록원 날짜 차이를 해소한다.",
-        "1952년 6월 국회의원 감시 업무하달 원문을 찾아 발신명의·수신처·법적 근거와 담당부서를 전사한다. 국가기록원 기관연혁상 당시 사찰과가 아니라 정보수사과가 존속했으므로 부서명을 우선 검증한다.",
-        "1952-05-25 이후 국회의원 연행에서 치안국 경찰과 헌병·계엄사령부의 집행을 사건별로 분리한다.",
-        "1952-06-25 대통령저격사건 수사기록에서 윤우경 개인 지시와 치안국 조직행위를 분리한다.",
-        "전임 치안국장 홍순봉의 1952-05-25 퇴임 발령과 윤우경 취임 발령을 같은 관보/인사철에서 대조한다."
-      ],
-      "historyDebt": [
-        {
-          "id": "HD-YUG-1952-APPOINTMENT-BOUNDARY",
-          "status": "CONFLICTED",
-          "question": "FRUS의 5월24일 계엄 직전 임명 서술과 국가기록원의 5월25일 공식 재임 시작일 사이 정확한 발령·효력시각"
-        },
-        {
-          "id": "HD-YUG-1952-ASSEMBLY-SURVEILLANCE",
-          "status": "REOPENED",
-          "question": "국회의원 감시 명령 원문, 윤우경 개인 결재·지시 범위, 실제 담당부서. AKS의 '사찰과' 표현은 국가기록원 조직연혁상 사찰과가 1950-08 종료되고 정보수사과가 1950-08~1955-02 존속했다는 기록과 충돌."
-        }
-      ],
-      "reviewHistory": [
-        {
-          "date": "2026-09-29",
-          "action": "correction",
-          "detail": "pass 230의 '5월24일 치안국장 전환' 표현을 국내 공식 기관연혁에 따라 재검토. 윤우경 공식 재임 시작일은 5월25일로 기록되며 전임 홍순봉도 5월25일까지로 나타나므로 하루 경계를 CONFLICTED로 보존."
-        },
-        {
-          "date": "2026-09-29",
-          "action": "reopen",
-          "detail": "AKS가 1952년 6월 국회의원 감시를 '사찰과' 업무로 서술하지만 국가기록원은 치안국 사찰과 존속을 1948.11~1950.08, 정보수사과를 1950.08~1955.02로 기록. 감시 명제의 담당부서·원문을 재검증하기 위해 REOPENED."
-        }
-      ],
-      "lastUpdated": "2026-09-29",
-      "_integration": {
-        "id": "pol-yun-u-gyeong",
-        "digest": "4b22280ba93e9b59b5ece25c7cbdc99a344d90829f58ab1fc844d049431f51f1",
-        "provenance": [
-          {
-            "path": "data/research/politicians/yun-u-gyeong.json",
-            "pointer": "/"
           }
         ]
       }

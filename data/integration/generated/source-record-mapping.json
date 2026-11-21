@@ -47011,6 +47011,36 @@
         }
       ]
     },
+    "data/evidence/eom-byeong-hak-1953.json": {
+      "integrated": 4,
+      "conflicted": 0,
+      "records": [
+        {
+          "kind": "roles",
+          "id": "urn:source:2166b875d9006021627bf909",
+          "pointer": "/roles/2",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "roles",
+          "id": "urn:source:3a45ce7a65f72acbfa28ac4b",
+          "pointer": "/roles/3",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "roles",
+          "id": "urn:source:c773da643fd70d0b772a1fce",
+          "pointer": "/roles/0",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "roles",
+          "id": "urn:source:f271592e53cf7181a9389271",
+          "pointer": "/roles/1",
+          "status": "INTEGRATED"
+        }
+      ]
+    },
     "data/evidence/huh-chung.json": {
       "integrated": 9,
       "conflicted": 0,
@@ -47067,6 +47097,60 @@
           "kind": "events",
           "id": "evidence-p244-cand-p244-huh-chung-9",
           "pointer": "/events/8",
+          "status": "INTEGRATED"
+        }
+      ]
+    },
+    "data/evidence/kwon-jung-don-1953.json": {
+      "integrated": 4,
+      "conflicted": 0,
+      "records": [
+        {
+          "kind": "roles",
+          "id": "urn:source:1036ebd30bc180d2ca0a3def",
+          "pointer": "/roles/1",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "roles",
+          "id": "urn:source:5a81755a3ce6406e2a8be1bd",
+          "pointer": "/roles/3",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "roles",
+          "id": "urn:source:676c9ddb8af6c389a680a039",
+          "pointer": "/roles/0",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "roles",
+          "id": "urn:source:f2817e48cd3f2a954fd3cef1",
+          "pointer": "/roles/2",
+          "status": "INTEGRATED"
+        }
+      ]
+    },
+    "data/evidence/lee-gap-seong-1952.json": {
+      "integrated": 1,
+      "conflicted": 0,
+      "records": [
+        {
+          "kind": "roles",
+          "id": "urn:source:b7a319009580fa06e943281d",
+          "pointer": "/roles/0",
+          "status": "INTEGRATED"
+        }
+      ]
+    },
+    "data/evidence/park-sul-eum-1953-union.json": {
+      "integrated": 1,
+      "conflicted": 0,
+      "records": [
+        {
+          "kind": "roles",
+          "id": "urn:source:80c5f7d3c27b7e99af357892",
+          "pointer": "/roles/0",
           "status": "INTEGRATED"
         }
       ]
@@ -47283,6 +47367,42 @@
           "kind": "documents",
           "id": "doc-nara-rg84-entry2846-box16-tasca",
           "pointer": "/documents/1",
+          "status": "INTEGRATED"
+        }
+      ]
+    },
+    "data/evidence/shin-ik-hui-1953-labor.json": {
+      "integrated": 2,
+      "conflicted": 0,
+      "records": [
+        {
+          "kind": "roles",
+          "id": "urn:source:27450c7b17543c5dde81f5c1",
+          "pointer": "/roles/0",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "roles",
+          "id": "urn:source:ac0b2695e6462e9626d9a104",
+          "pointer": "/roles/1",
+          "status": "INTEGRATED"
+        }
+      ]
+    },
+    "data/evidence/yu-wan-chang.json": {
+      "integrated": 2,
+      "conflicted": 0,
+      "records": [
+        {
+          "kind": "roles",
+          "id": "urn:source:40fb536d2ff0b223fb60c3c5",
+          "pointer": "/roles/0",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "roles",
+          "id": "urn:source:9545cc8f4a82597d54626c55",
+          "pointer": "/roles/1",
           "status": "INTEGRATED"
         }
       ]
@@ -47846,8 +47966,8 @@
       ]
     },
     "data/politicians/pass-229-1952-cabinet-economy-trial.json": {
-      "integrated": 8,
-      "conflicted": 6,
+      "integrated": 9,
+      "conflicted": 5,
       "records": [
         {
           "kind": "politicians",
@@ -47913,7 +48033,7 @@
           "kind": "politicians",
           "id": "pol-jang-seok-yun",
           "pointer": "/politicians/0",
-          "status": "CONFLICTED"
+          "status": "INTEGRATED"
         },
         {
           "kind": "politicians",
@@ -55598,13 +55718,19 @@
       ]
     },
     "data/research/candidates/an-ho-sang-1902.json": {
-      "integrated": 1,
+      "integrated": 2,
       "conflicted": 0,
       "records": [
         {
-          "kind": "politicians",
-          "id": "cand-an-ho-sang-1902",
-          "pointer": "/",
+          "kind": "roles",
+          "id": "urn:source:bc0648b602e86a3a5f1d447d",
+          "pointer": "/roles/0",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "roles",
+          "id": "urn:source:f89f32451fb3d0b8ceebdf9b",
+          "pointer": "/roles/1",
           "status": "INTEGRATED"
         }
       ]
@@ -55638,33 +55764,57 @@
       "conflicted": 0,
       "records": [
         {
-          "kind": "politicians",
-          "id": "cand-kang-jin-guk-farmland-reform",
-          "pointer": "/",
+          "kind": "roles",
+          "id": "urn:source:d8770408323a0d48d475f6f9",
+          "pointer": "/roles/0",
           "status": "INTEGRATED"
         }
       ]
     },
     "data/research/candidates/lee-cheon-sang-legal-affairs.json": {
-      "integrated": 1,
+      "integrated": 2,
       "conflicted": 0,
       "records": [
         {
-          "kind": "politicians",
-          "id": "cand-lee-cheon-sang-legal-affairs",
-          "pointer": "/",
+          "kind": "roles",
+          "id": "urn:source:2229692302c2d5c8aadac592",
+          "pointer": "/roles/1",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "roles",
+          "id": "urn:source:4e102355eddb4ab63da7530b",
+          "pointer": "/roles/0",
           "status": "INTEGRATED"
         }
       ]
     },
     "data/research/candidates/lee-jong-hyeon-1904.json": {
-      "integrated": 1,
+      "integrated": 4,
       "conflicted": 0,
       "records": [
         {
-          "kind": "politicians",
-          "id": "cand-lee-jong-hyeon-1904",
-          "pointer": "/",
+          "kind": "roles",
+          "id": "urn:source:631e4e6e0779729c810adfde",
+          "pointer": "/roles/2",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "roles",
+          "id": "urn:source:daa21dc2fd15587741745542",
+          "pointer": "/roles/1",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "roles",
+          "id": "urn:source:de56ea3afba01221ab5f15f3",
+          "pointer": "/roles/3",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "roles",
+          "id": "urn:source:e5a8c04c2c3a8dc907d31e20",
+          "pointer": "/roles/0",
           "status": "INTEGRATED"
         }
       ]
@@ -59378,8 +59528,8 @@
       ]
     },
     "data/research/candidates/pass-188-gangwon-antimin-identity-nodes.json": {
-      "integrated": 2,
-      "conflicted": 1,
+      "integrated": 3,
+      "conflicted": 0,
       "records": [
         {
           "kind": "politicians",
@@ -59397,19 +59547,67 @@
           "kind": "politicians",
           "id": "cand-lee-jong-sun-antimin-1949",
           "pointer": "/candidates/0",
-          "status": "CONFLICTED"
+          "status": "INTEGRATED"
         }
       ]
     },
     "data/research/candidates/pass-190-lee-jong-sun-chunseong.json": {
-      "integrated": 0,
-      "conflicted": 1,
+      "integrated": 9,
+      "conflicted": 0,
       "records": [
         {
-          "kind": "politicians",
-          "id": "cand-lee-jong-sun-antimin-1949",
-          "pointer": "/",
-          "status": "CONFLICTED"
+          "kind": "roles",
+          "id": "urn:source:0a8b78ffeae714a17588c7e6",
+          "pointer": "/roles/2",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "roles",
+          "id": "urn:source:2cb2c5f29734836d74f3e224",
+          "pointer": "/roles/4",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "roles",
+          "id": "urn:source:2ee1a747f3a85796afa0e19b",
+          "pointer": "/roles/0",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "roles",
+          "id": "urn:source:4997e97a81bb0b431c24ba8f",
+          "pointer": "/roles/3",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "roles",
+          "id": "urn:source:4e20c5fb6a5bd4763e559132",
+          "pointer": "/roles/6",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "roles",
+          "id": "urn:source:660f0feca6f52e3c42aed990",
+          "pointer": "/roles/7",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "roles",
+          "id": "urn:source:d55298b5f62bb53def71b033",
+          "pointer": "/roles/1",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "roles",
+          "id": "urn:source:f6316dbe423fa2fc47a64a79",
+          "pointer": "/roles/8",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "roles",
+          "id": "urn:source:f8d08178489b8756cecea2e1",
+          "pointer": "/roles/5",
+          "status": "INTEGRATED"
         }
       ]
     },
@@ -63554,7 +63752,7 @@
       ]
     },
     "data/research/candidates/pass-83-kdb-establishment-committee.json": {
-      "integrated": 10,
+      "integrated": 11,
       "conflicted": 2,
       "records": [
         {
@@ -63628,12 +63826,18 @@
           "id": "pol-gu-yong-seo",
           "pointer": "/actors/0",
           "status": "CONFLICTED"
+        },
+        {
+          "kind": "roles",
+          "id": "role-cand-kdb-establishment-commissioners-1954",
+          "pointer": "/actors/1",
+          "status": "INTEGRATED"
         }
       ]
     },
     "data/research/candidates/pass-84-kib-liquidation-transfer.json": {
-      "integrated": 9,
-      "conflicted": 2,
+      "integrated": 10,
+      "conflicted": 4,
       "records": [
         {
           "kind": "claims",
@@ -63700,12 +63904,30 @@
           "id": "pol-gu-yong-seo",
           "pointer": "/actors/0",
           "status": "CONFLICTED"
+        },
+        {
+          "kind": "roles",
+          "id": "role-cand-kib-head-hong-1954",
+          "pointer": "/actors/2",
+          "status": "CONFLICTED"
+        },
+        {
+          "kind": "roles",
+          "id": "role-cand-kib-representative-liquidator-choi-1954",
+          "pointer": "/actors/3",
+          "status": "CONFLICTED"
+        },
+        {
+          "kind": "roles",
+          "id": "role-cand-korea-savings-bank-president-yu-1954",
+          "pointer": "/actors/4",
+          "status": "INTEGRATED"
         }
       ]
     },
     "data/research/candidates/pass-85-kib-liquidation-governance-phases.json": {
       "integrated": 12,
-      "conflicted": 3,
+      "conflicted": 5,
       "records": [
         {
           "kind": "claims",
@@ -63795,6 +64017,18 @@
           "kind": "politicians",
           "id": "pol-gu-yong-seo",
           "pointer": "/actors/0",
+          "status": "CONFLICTED"
+        },
+        {
+          "kind": "roles",
+          "id": "role-cand-kib-head-hong-1954",
+          "pointer": "/actors/4",
+          "status": "CONFLICTED"
+        },
+        {
+          "kind": "roles",
+          "id": "role-cand-kib-representative-liquidator-choi-1954",
+          "pointer": "/actors/2",
           "status": "CONFLICTED"
         }
       ]
@@ -76376,25 +76610,85 @@
       ]
     },
     "data/research/politicians/jang-seok-yun.json": {
-      "integrated": 0,
-      "conflicted": 1,
+      "integrated": 8,
+      "conflicted": 0,
       "records": [
         {
-          "kind": "politicians",
-          "id": "pol-jang-seok-yun",
-          "pointer": "/",
-          "status": "CONFLICTED"
+          "kind": "roles",
+          "id": "urn:source:25b0dbd16b4cd3eaec0cc3db",
+          "pointer": "/roles/3",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "roles",
+          "id": "urn:source:3afa0cbb5ceb7934d7df8448",
+          "pointer": "/roles/1",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "roles",
+          "id": "urn:source:5b2f20f38ae88211a8ab0024",
+          "pointer": "/roles/0",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "roles",
+          "id": "urn:source:5becd338d0663d2b379726ae",
+          "pointer": "/roles/2",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "roles",
+          "id": "urn:source:67de3290034e832b669d3ea4",
+          "pointer": "/roles/4",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "roles",
+          "id": "urn:source:9785481bbbdb9d11e9ebd4f9",
+          "pointer": "/roles/5",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "roles",
+          "id": "urn:source:97d94b08f4f2ca23524511c7",
+          "pointer": "/roles/7",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "roles",
+          "id": "urn:source:bd976e35b153a2ee11a02d20",
+          "pointer": "/roles/6",
+          "status": "INTEGRATED"
         }
       ]
     },
     "data/research/politicians/jin-jik-hyeon.json": {
-      "integrated": 1,
+      "integrated": 4,
       "conflicted": 0,
       "records": [
         {
-          "kind": "politicians",
-          "id": "pol-jin-jik-hyeon",
-          "pointer": "/",
+          "kind": "roles",
+          "id": "urn:source:107a0000fb95f087e4ba9296",
+          "pointer": "/roles/2",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "roles",
+          "id": "urn:source:674bbb40644ce45671e1e41c",
+          "pointer": "/roles/0",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "roles",
+          "id": "urn:source:d5a7c1a00f79d1867b3c6e28",
+          "pointer": "/roles/1",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "roles",
+          "id": "urn:source:ece86771b7a4ada386f19c1b",
+          "pointer": "/roles/3",
           "status": "INTEGRATED"
         }
       ]
@@ -76742,7 +77036,7 @@
       ]
     },
     "data/research/politicians/song-pil-man.json": {
-      "integrated": 5,
+      "integrated": 13,
       "conflicted": 0,
       "records": [
         {
@@ -76774,17 +77068,77 @@
           "id": "urn:source:ff84f2b9b32eb2be6209a5e9",
           "pointer": "/claims/2",
           "status": "INTEGRATED"
+        },
+        {
+          "kind": "roles",
+          "id": "urn:source:2b98c1f5aa13388402b5d828",
+          "pointer": "/roles/7",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "roles",
+          "id": "urn:source:3d48ef38810b8347374cacd8",
+          "pointer": "/roles/3",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "roles",
+          "id": "urn:source:45dd295865492d2c81378d99",
+          "pointer": "/roles/1",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "roles",
+          "id": "urn:source:4855e1fd66dcce9de4d1f7fc",
+          "pointer": "/roles/4",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "roles",
+          "id": "urn:source:a21b0ff2e79e20c1157e2e68",
+          "pointer": "/roles/6",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "roles",
+          "id": "urn:source:d0ef42f7ee8408282d01b6c1",
+          "pointer": "/roles/5",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "roles",
+          "id": "urn:source:d62617d6466153eb7cbc0015",
+          "pointer": "/roles/2",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "roles",
+          "id": "urn:source:dfdf4c410d53fe9b23965a30",
+          "pointer": "/roles/0",
+          "status": "INTEGRATED"
         }
       ]
     },
     "data/research/politicians/yun-u-gyeong.json": {
-      "integrated": 1,
+      "integrated": 3,
       "conflicted": 0,
       "records": [
         {
-          "kind": "politicians",
-          "id": "pol-yun-u-gyeong",
-          "pointer": "/",
+          "kind": "roles",
+          "id": "urn:source:187f8851255673460114c6df",
+          "pointer": "/roles/1",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "roles",
+          "id": "urn:source:62cf742addeade38caf619a4",
+          "pointer": "/roles/0",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "roles",
+          "id": "urn:source:e0dac678ac10fcbd5a6e2311",
+          "pointer": "/roles/2",
           "status": "INTEGRATED"
         }
       ]

@@ -1,0 +1,974 @@
+{
+  "schemaVersion": 1,
+  "registryType": "roles",
+  "selectionPolicy": "UNAMBIGUOUS_ONLY",
+  "records": [
+    {
+      "candidateGroupId": "cand-kdb-establishment-commissioners-1954",
+      "name": "한국산업은행 설립위원 9인",
+      "status": "DISCOVERED",
+      "roles": [
+        {
+          "office": "한국산업은행 설립위원",
+          "term": "1954 establishment period"
+        }
+      ],
+      "eventLinks": [
+        "evt-1954-kdb-establishment-committee-organization",
+        "evt-1954-kdb-articles-approval",
+        "evt-1954-kdb-government-capital-payment",
+        "evt-1954-kdb-committee-handover"
+      ],
+      "evidence": [
+        "Presidential Decree 860 Article 2 establishes nine commissioners"
+      ],
+      "openLead": "Identify all nine from appointment/commission records before creating named politician nodes.",
+      "id": "role-cand-kdb-establishment-commissioners-1954",
+      "_integration": {
+        "id": "role-cand-kdb-establishment-commissioners-1954",
+        "digest": "54139550b047b7d34f6969f73a03c4911b47e30e3b53894ecc410f66fe74b4b4",
+        "provenance": [
+          {
+            "path": "data/research/candidates/pass-83-kdb-establishment-committee.json",
+            "pointer": "/actors/1"
+          }
+        ]
+      }
+    },
+    {
+      "candidateRoleId": "cand-korea-savings-bank-president-yu-1954",
+      "name": "한국저축은행 은행장 유ㅇㅇ",
+      "status": "DISCOVERED",
+      "eventLinks": [
+        "evt-1954-0125-kib-commercial-function-transfer",
+        "evt-1954-0401-kib-property-transaction"
+      ],
+      "evidence": [
+        "National Archives official guide, surname redacted to Yu",
+        "SC First Bank official history for institutional succession"
+      ],
+      "openLead": "Recover 1954 Korea Savings Bank executive roster and original contract to identify full name.",
+      "id": "role-cand-korea-savings-bank-president-yu-1954",
+      "_integration": {
+        "id": "role-cand-korea-savings-bank-president-yu-1954",
+        "digest": "b78ce628cc543e50fa061f0a238a57ac8f1788422f654018b23aee5b41e89382",
+        "provenance": [
+          {
+            "path": "data/research/candidates/pass-84-kib-liquidation-transfer.json",
+            "pointer": "/actors/4"
+          }
+        ]
+      }
+    },
+    {
+      "period": "1949-02-04",
+      "role": "남북화평통일 긴급동의안 찬성자",
+      "status": "primary-supported: 제2회 국회속기록 제22호",
+      "id": "urn:source:0a8b78ffeae714a17588c7e6",
+      "_integration": {
+        "id": "urn:source:0a8b78ffeae714a17588c7e6",
+        "digest": "065b1145152a07b59f58c2493b92ce6a9caaf49b1e5d6808d638cede3f83801b",
+        "provenance": [
+          {
+            "path": "data/research/candidates/pass-190-lee-jong-sun-chunseong.json",
+            "pointer": "/roles/2"
+          }
+        ]
+      }
+    },
+    {
+      "period": "1953-02-27",
+      "role": "금융조치법 순무 토론, 생산 없는 화폐개혁 비판",
+      "source": "DOC-P257N-DH-028-1953-02-27-0050",
+      "id": "urn:source:1036ebd30bc180d2ca0a3def",
+      "_integration": {
+        "id": "urn:source:1036ebd30bc180d2ca0a3def",
+        "digest": "f2148016bc398532919a074f4ee86524461c5fd60300b92518dc2af614543296",
+        "provenance": [
+          {
+            "path": "data/evidence/kwon-jung-don-1953.json",
+            "pointer": "/roles/1"
+          }
+        ]
+      }
+    },
+    {
+      "period": "1948-1950",
+      "role": "제헌국회의원",
+      "constituency": "전라북도 임실",
+      "evidence": "NIKH im_109_02182",
+      "id": "urn:source:107a0000fb95f087e4ba9296",
+      "_integration": {
+        "id": "urn:source:107a0000fb95f087e4ba9296",
+        "digest": "806576cfeb4c1f93f50af9d72398cbd5902c860365fb501e169667edbe999331",
+        "provenance": [
+          {
+            "path": "data/research/politicians/jin-jik-hyeon.json",
+            "pointer": "/roles/2"
+          }
+        ]
+      }
+    },
+    {
+      "title": "내무부 치안국장",
+      "period": "1952-05-25~1952-09-16",
+      "verification": "국가기록원 내무부 치안국 기관연혁",
+      "confidence": "high",
+      "chronologyNote": "FRUS 편집자 노트는 1952-05-24 계엄 선포 직전 임명으로 서술한다. 국내 공식 기관연혁은 윤우경 취임일과 전임 홍순봉 퇴임일을 모두 1952-05-25로 기록하므로 정확한 발령·효력 시각은 CONFLICTED-NARROWED.",
+      "id": "urn:source:187f8851255673460114c6df",
+      "_integration": {
+        "id": "urn:source:187f8851255673460114c6df",
+        "digest": "403d531fd5c7ed15369167e0ee4a44886f11a5d3da0f6b247992a7187ed5ae91",
+        "provenance": [
+          {
+            "path": "data/research/politicians/yun-u-gyeong.json",
+            "pointer": "/roles/1"
+          }
+        ]
+      }
+    },
+    {
+      "period": "1953-02-19",
+      "role": "원외 분파 표기 긴급명령13호 심사연기 동의 채택",
+      "source": "DOC-P257N-DH-028-1953-02-19-0060",
+      "id": "urn:source:2166b875d9006021627bf909",
+      "_integration": {
+        "id": "urn:source:2166b875d9006021627bf909",
+        "digest": "bc84ab3f913964896ed61ed81dc20a31cc519a8a3837747213db3fd36f4927da",
+        "provenance": [
+          {
+            "path": "data/evidence/eom-byeong-hak-1953.json",
+            "pointer": "/roles/2"
+          }
+        ]
+      }
+    },
+    {
+      "title": "중앙농지위원",
+      "date": "1950-03-24",
+      "status": "confirmed-secondary-reference-to-commission; appointment-original-needed",
+      "id": "urn:source:2229692302c2d5c8aadac592",
+      "_integration": {
+        "id": "urn:source:2229692302c2d5c8aadac592",
+        "digest": "1598e87376375137050357f99c06dc3796e24ad2f08bbc3d65bcee8f87109015",
+        "provenance": [
+          {
+            "path": "data/research/candidates/lee-cheon-sang-legal-affairs.json",
+            "pointer": "/roles/1"
+          }
+        ]
+      }
+    },
+    {
+      "title": "국도신문사 사장",
+      "period": "1951~",
+      "verification": "AKS",
+      "confidence": "medium",
+      "id": "urn:source:25b0dbd16b4cd3eaec0cc3db",
+      "_integration": {
+        "id": "urn:source:25b0dbd16b4cd3eaec0cc3db",
+        "digest": "9395f8a2804377661f372c9d12adcb10a22d962a8f37f78b56ad5c7e73b411a8",
+        "provenance": [
+          {
+            "path": "data/research/politicians/jang-seok-yun.json",
+            "pointer": "/roles/3"
+          }
+        ]
+      }
+    },
+    {
+      "date": "1953-04-22",
+      "action": "transmitted labor standards bill to president",
+      "id": "urn:source:27450c7b17543c5dde81f5c1",
+      "_integration": {
+        "id": "urn:source:27450c7b17543c5dde81f5c1",
+        "digest": "1b761628dd76764ebf6269a6c2d932fd350f574b4dbe3d4914a14f75fcc5d14e",
+        "provenance": [
+          {
+            "path": "data/evidence/shin-ik-hui-1953-labor.json",
+            "pointer": "/roles/0"
+          }
+        ]
+      }
+    },
+    {
+      "period": "1960-1961",
+      "role": "제5대 국회 참의원",
+      "constituency": "충청북도",
+      "evidence": "NIKH tcct_1960_07_29_0010; AKS E0075954",
+      "id": "urn:source:2b98c1f5aa13388402b5d828",
+      "_integration": {
+        "id": "urn:source:2b98c1f5aa13388402b5d828",
+        "digest": "97672ed412b62f2b29f77576cb30aa181cb30798cc6198eda226acbb123318ea",
+        "provenance": [
+          {
+            "path": "data/research/politicians/song-pil-man.json",
+            "pointer": "/roles/7"
+          }
+        ]
+      }
+    },
+    {
+      "period": "1949-04-15",
+      "role": "청구회계 이종순의 일민구락부 이동",
+      "status": "secondary AKS 신정회 entry; target 李鍾淳과 동일인인지 미확정",
+      "id": "urn:source:2cb2c5f29734836d74f3e224",
+      "_integration": {
+        "id": "urn:source:2cb2c5f29734836d74f3e224",
+        "digest": "38b9b9ea139e4b8205d6d109b40d529d243cc5d9b60ad2a3c76a041a4428a41c",
+        "provenance": [
+          {
+            "path": "data/research/candidates/pass-190-lee-jong-sun-chunseong.json",
+            "pointer": "/roles/4"
+          }
+        ]
+      }
+    },
+    {
+      "period": "1948-1950",
+      "role": "제헌국회의원, 강원 춘성군",
+      "status": "strongly-supported; official election register pending",
+      "id": "urn:source:2ee1a747f3a85796afa0e19b",
+      "_integration": {
+        "id": "urn:source:2ee1a747f3a85796afa0e19b",
+        "digest": "60463a3b1b50296cc5829e74ffbc43af4803b6260bbdc4b6c9d8ecfc9420d145",
+        "provenance": [
+          {
+            "path": "data/research/candidates/pass-190-lee-jong-sun-chunseong.json",
+            "pointer": "/roles/0"
+          }
+        ]
+      }
+    },
+    {
+      "period": "1960",
+      "role": "제5대 참의원 민주당",
+      "source": "DOC-P257N-AKS-EOM",
+      "id": "urn:source:3a45ce7a65f72acbfa28ac4b",
+      "_integration": {
+        "id": "urn:source:3a45ce7a65f72acbfa28ac4b",
+        "digest": "673b68d72ce6b191e2584e19dcdf61abd48c73b2fcbab6d6b9df3605d12b0800",
+        "provenance": [
+          {
+            "path": "data/evidence/eom-byeong-hak-1953.json",
+            "pointer": "/roles/3"
+          }
+        ]
+      }
+    },
+    {
+      "title": "사정국장",
+      "period": "1949-01~unknown",
+      "verification": "AKS biographical synthesis; dissolution date and legal basis open",
+      "confidence": "medium",
+      "id": "urn:source:3afa0cbb5ceb7934d7df8448",
+      "_integration": {
+        "id": "urn:source:3afa0cbb5ceb7934d7df8448",
+        "digest": "03b210efcf618bd4bb600701e70fd80e017949ad5948836588f06e46dd2ec628",
+        "provenance": [
+          {
+            "path": "data/research/politicians/jang-seok-yun.json",
+            "pointer": "/roles/1"
+          }
+        ]
+      }
+    },
+    {
+      "period": "1948-1950",
+      "role": "제헌국회의원",
+      "constituency": "충청북도 진천",
+      "affiliation": "한국민주당",
+      "evidence": "AKS E0075954; NIKH kn_084_0060_0030_0010",
+      "id": "urn:source:3d48ef38810b8347374cacd8",
+      "_integration": {
+        "id": "urn:source:3d48ef38810b8347374cacd8",
+        "digest": "d0b0d4f149c0b14d1d92ba3652f6d87e4681e5b8be941f6c43f64f1ecad2b962",
+        "provenance": [
+          {
+            "path": "data/research/politicians/song-pil-man.json",
+            "pointer": "/roles/3"
+          }
+        ]
+      }
+    },
+    {
+      "from": "1951",
+      "to": "1953-09",
+      "role": "관재청장",
+      "sources": [
+        "DOC-P239B-NIKH-06_06_0050",
+        "DOC-P239B-AKS-YU"
+      ],
+      "id": "urn:source:40fb536d2ff0b223fb60c3c5",
+      "_integration": {
+        "id": "urn:source:40fb536d2ff0b223fb60c3c5",
+        "digest": "e5ae766a7dd76dd04bd07f0497ab90d7d5bc8cfde8befa534b07739ce17fbd27",
+        "provenance": [
+          {
+            "path": "data/evidence/yu-wan-chang.json",
+            "pointer": "/roles/0"
+          }
+        ]
+      }
+    },
+    {
+      "period": "1923-1924",
+      "role": "대한인동지회 총무·태평양잡지 발간",
+      "evidence": "AKS E0075954",
+      "id": "urn:source:45dd295865492d2c81378d99",
+      "_integration": {
+        "id": "urn:source:45dd295865492d2c81378d99",
+        "digest": "e6457d184a8ed58579137b63899aee21558c0cf2e3c10a4d9839d8f527e0acbc",
+        "provenance": [
+          {
+            "path": "data/research/politicians/song-pil-man.json",
+            "pointer": "/roles/1"
+          }
+        ]
+      }
+    },
+    {
+      "date": "1949-07-14",
+      "role": "제2기 반민족행위특별조사위원회 부위원장",
+      "evidence": "cross-source chronology; primary roll-call still OPEN",
+      "id": "urn:source:4855e1fd66dcce9de4d1f7fc",
+      "_integration": {
+        "id": "urn:source:4855e1fd66dcce9de4d1f7fc",
+        "digest": "b0cf2476c8d7dfeac5610eb9bec95b711b6e4dc3f6269963e29c091f01f00c2a",
+        "provenance": [
+          {
+            "path": "data/research/politicians/song-pil-man.json",
+            "pointer": "/roles/4"
+          }
+        ]
+      }
+    },
+    {
+      "period": "1949-02-22",
+      "role": "농지개혁 임시조치법안 찬성자",
+      "status": "contemporary-supported: 서울신문/자료대한민국사",
+      "id": "urn:source:4997e97a81bb0b431c24ba8f",
+      "_integration": {
+        "id": "urn:source:4997e97a81bb0b431c24ba8f",
+        "digest": "d7c13cc13981618c6d686bab2ded7d1a56136538683f0e343f5b77dffa4bd9cc",
+        "provenance": [
+          {
+            "path": "data/research/candidates/pass-190-lee-jong-sun-chunseong.json",
+            "pointer": "/roles/3"
+          }
+        ]
+      }
+    },
+    {
+      "title": "법제처차장",
+      "dateConfirmed": "1949-09-29",
+      "status": "confirmed-official-chronology",
+      "id": "urn:source:4e102355eddb4ab63da7530b",
+      "_integration": {
+        "id": "urn:source:4e102355eddb4ab63da7530b",
+        "digest": "e92483d0eec1f914bc533a0bf92d1f1b66c40f051843acf7d20bcb65f56dbf4c",
+        "provenance": [
+          {
+            "path": "data/research/candidates/lee-cheon-sang-legal-affairs.json",
+            "pointer": "/roles/0"
+          }
+        ]
+      }
+    },
+    {
+      "period": "1949-07-23",
+      "role": "일민구락부 정식 가입 의원",
+      "status": "contemporary-supported: 동아일보/자료대한민국사; roster explicitly prints 李鍾淳",
+      "id": "urn:source:4e20c5fb6a5bd4763e559132",
+      "_integration": {
+        "id": "urn:source:4e20c5fb6a5bd4763e559132",
+        "digest": "905ae6011a2b97fff20876aa4c2343f89373485f8020eec3d7b9ba10c4b01e8c",
+        "provenance": [
+          {
+            "path": "data/research/candidates/pass-190-lee-jong-sun-chunseong.json",
+            "pointer": "/roles/6"
+          }
+        ]
+      }
+    },
+    {
+      "period": "1971",
+      "role": "제8대 국회의원",
+      "source": "DOC-P257N-AKS-KWON",
+      "id": "urn:source:5a81755a3ce6406e2a8be1bd",
+      "_integration": {
+        "id": "urn:source:5a81755a3ce6406e2a8be1bd",
+        "digest": "da4916c2ec38040c0061ceec05437a52935289266c6c41c4be349cdd35e8e196",
+        "provenance": [
+          {
+            "path": "data/evidence/kwon-jung-don-1953.json",
+            "pointer": "/roles/3"
+          }
+        ]
+      }
+    },
+    {
+      "title": "대한관찰부 수장",
+      "period": "1948-07~1949-01",
+      "verification": "AKS biographical synthesis; legal status requires primary-source review",
+      "confidence": "medium",
+      "id": "urn:source:5b2f20f38ae88211a8ab0024",
+      "_integration": {
+        "id": "urn:source:5b2f20f38ae88211a8ab0024",
+        "digest": "0877a204738d1475959b361d54b8a808281e770bcac9ab8ddf5904bf9ad15053",
+        "provenance": [
+          {
+            "path": "data/research/politicians/jang-seok-yun.json",
+            "pointer": "/roles/0"
+          }
+        ]
+      }
+    },
+    {
+      "title": "내무부 치안국장",
+      "period": "1950-06-17~1950-07-17",
+      "verification": "진실화해위 전북 조사보고서 + 1950-06-21 동아일보 + AKS",
+      "confidence": "high",
+      "id": "urn:source:5becd338d0663d2b379726ae",
+      "_integration": {
+        "id": "urn:source:5becd338d0663d2b379726ae",
+        "digest": "d74315cc7b8df6c2e9cd9d54461e6f4b3cf85e723e5299eea8f4c16612f202cc",
+        "provenance": [
+          {
+            "path": "data/research/politicians/jang-seok-yun.json",
+            "pointer": "/roles/2"
+          }
+        ]
+      }
+    },
+    {
+      "title": "서울시경찰국장",
+      "period": "1951-06-24~1952-05-25",
+      "verification": "서울특별시경찰청 공식 역대 국장 연혁",
+      "confidence": "high",
+      "id": "urn:source:62cf742addeade38caf619a4",
+      "_integration": {
+        "id": "urn:source:62cf742addeade38caf619a4",
+        "digest": "b0d513180655005f3cea89fde473b7712162f59df97524eb6754dc9cc122f0cd",
+        "provenance": [
+          {
+            "path": "data/research/politicians/yun-u-gyeong.json",
+            "pointer": "/roles/0"
+          }
+        ]
+      }
+    },
+    {
+      "title": "제2대 국회의원",
+      "district": "서울 마포",
+      "elected": "1950-05",
+      "status": "biographical-source-confirmed",
+      "id": "urn:source:631e4e6e0779729c810adfde",
+      "_integration": {
+        "id": "urn:source:631e4e6e0779729c810adfde",
+        "digest": "131cbe3d6fd81bbac4388791bd7bd267fa7db5c800cfa62d1316e06f233cdf4f",
+        "provenance": [
+          {
+            "path": "data/research/candidates/lee-jong-hyeon-1904.json",
+            "pointer": "/roles/2"
+          }
+        ]
+      }
+    },
+    {
+      "period": "1949-07-29",
+      "role": "제4회 국회 제22차 본회의 발언자",
+      "status": "official National Assembly Library metadata; speech content not yet transcribed",
+      "id": "urn:source:660f0feca6f52e3c42aed990",
+      "_integration": {
+        "id": "urn:source:660f0feca6f52e3c42aed990",
+        "digest": "11151bcb4ad3d03ed43f226e92c07e4bd7678de489102e2685748332ccf11d93",
+        "provenance": [
+          {
+            "path": "data/research/candidates/pass-190-lee-jong-sun-chunseong.json",
+            "pointer": "/roles/7"
+          }
+        ]
+      }
+    },
+    {
+      "period": "1922-",
+      "role": "변호사",
+      "evidence": "NIKH im_109_02182",
+      "id": "urn:source:674bbb40644ce45671e1e41c",
+      "_integration": {
+        "id": "urn:source:674bbb40644ce45671e1e41c",
+        "digest": "1d36bdcec174da38596e72c6ea8a26342961d46fd36f4abdff6c19452ba97928",
+        "provenance": [
+          {
+            "path": "data/research/politicians/jin-jik-hyeon.json",
+            "pointer": "/roles/0"
+          }
+        ]
+      }
+    },
+    {
+      "period": "1950~1954",
+      "role": "제2대 국회의원 무소속",
+      "source": "DOC-P257N-AKS-KWON",
+      "id": "urn:source:676c9ddb8af6c389a680a039",
+      "_integration": {
+        "id": "urn:source:676c9ddb8af6c389a680a039",
+        "digest": "3d8b756185805a7c9d13a2672f342bb1a045f8703d398fb8d091de70e7fbe955",
+        "provenance": [
+          {
+            "path": "data/evidence/kwon-jung-don-1953.json",
+            "pointer": "/roles/0"
+          }
+        ]
+      }
+    },
+    {
+      "title": "내무부 차관",
+      "period": "1951-11~1952-01",
+      "verification": "AKS/직위 연표",
+      "confidence": "high",
+      "id": "urn:source:67de3290034e832b669d3ea4",
+      "_integration": {
+        "id": "urn:source:67de3290034e832b669d3ea4",
+        "digest": "740035e42807c812b840dc4055f0e9fcbd37310e0b1318adc81aa96b77221f58",
+        "provenance": [
+          {
+            "path": "data/research/politicians/jang-seok-yun.json",
+            "pointer": "/roles/4"
+          }
+        ]
+      }
+    },
+    {
+      "date": "1953-04-14",
+      "action": "reported ministerial signatory on Presidential Decree 782",
+      "id": "urn:source:80c5f7d3c27b7e99af357892",
+      "_integration": {
+        "id": "urn:source:80c5f7d3c27b7e99af357892",
+        "digest": "3e788c727a44a9671f443bebcbb0501681c866a35d1f01ae2625a67a45a0fc49",
+        "provenance": [
+          {
+            "path": "data/evidence/park-sul-eum-1953-union.json",
+            "pointer": "/roles/0"
+          }
+        ]
+      }
+    },
+    {
+      "from": "1955-02-16",
+      "to": "1956-05",
+      "role": "초대 부흥부장관",
+      "sources": [
+        "DOC-P239B-AKS-YU"
+      ],
+      "id": "urn:source:9545cc8f4a82597d54626c55",
+      "_integration": {
+        "id": "urn:source:9545cc8f4a82597d54626c55",
+        "digest": "043c81f32c2d20c220c81a33f2314dde38405521ad870713bf5a690e8222a41c",
+        "provenance": [
+          {
+            "path": "data/evidence/yu-wan-chang.json",
+            "pointer": "/roles/1"
+          }
+        ]
+      }
+    },
+    {
+      "title": "내무부 장관/장관서리",
+      "period": "1952-01-18~1952-05-24",
+      "verification": "국내 전기·국회자료는 내무부장관으로, FRUS 편집주는 1952-01-18 Acting Home Minister 임명으로 식별. 1952-05-24 정부 인사발표에서 依願免本官 확인.",
+      "confidence": "high for office and end date; title-form nuance retained",
+      "id": "urn:source:9785481bbbdb9d11e9ebd4f9",
+      "_integration": {
+        "id": "urn:source:9785481bbbdb9d11e9ebd4f9",
+        "digest": "fbad22d42c97c86c29069194efcae047e8f9fcd9a4b0d7249e3e615358a5a9bc",
+        "provenance": [
+          {
+            "path": "data/research/politicians/jang-seok-yun.json",
+            "pointer": "/roles/5"
+          }
+        ]
+      }
+    },
+    {
+      "title": "제4대 민의원",
+      "period": "1958~1960",
+      "constituency": "강원 횡성",
+      "affiliation": "자유당",
+      "verification": "AKS/NIKH person data; NIKH 1958 총선 연표 보강, 개인 결과 원자료 lead 유지",
+      "confidence": "high",
+      "id": "urn:source:97d94b08f4f2ca23524511c7",
+      "_integration": {
+        "id": "urn:source:97d94b08f4f2ca23524511c7",
+        "digest": "0749533a3a1f4b00b63e3403427311d116905133fe8851ae226f5a4a6e791494",
+        "provenance": [
+          {
+            "path": "data/research/politicians/jang-seok-yun.json",
+            "pointer": "/roles/7"
+          }
+        ]
+      }
+    },
+    {
+      "date": "1949-10-20",
+      "role": "민주국민당 상무집행위원",
+      "evidence": "NIKH dh_014_1949_10_20_0020",
+      "id": "urn:source:a21b0ff2e79e20c1157e2e68",
+      "_integration": {
+        "id": "urn:source:a21b0ff2e79e20c1157e2e68",
+        "digest": "dcbab6580e9f6192b18eb46698bc82b8a626a41eae703cd3f9b6631bec03a9b1",
+        "provenance": [
+          {
+            "path": "data/research/politicians/song-pil-man.json",
+            "pointer": "/roles/6"
+          }
+        ]
+      }
+    },
+    {
+      "date": "1953-05-15",
+      "action": "transmitted wartime mobilization bill to president",
+      "id": "urn:source:ac0b2695e6462e9626d9a104",
+      "_integration": {
+        "id": "urn:source:ac0b2695e6462e9626d9a104",
+        "digest": "51865525973308f69f1b633200b8abd383976bf60ff89bf284a3ed10ff53905f",
+        "provenance": [
+          {
+            "path": "data/evidence/shin-ik-hui-1953-labor.json",
+            "pointer": "/roles/1"
+          }
+        ]
+      }
+    },
+    {
+      "period": "1952-10~11",
+      "office": "1952-11 국무총리 지명자·자유당 의원총회 발언",
+      "appointment_evidence": "신문 또는 대통령 서한, 정식 임명관보 미확보",
+      "id": "urn:source:b7a319009580fa06e943281d",
+      "_integration": {
+        "id": "urn:source:b7a319009580fa06e943281d",
+        "digest": "1a1bd2e07524146da449d6455461ed8a354276ae24fb61f8261e3229bb0bf3a2",
+        "provenance": [
+          {
+            "path": "data/evidence/lee-gap-seong-1952.json",
+            "pointer": "/roles/0"
+          }
+        ]
+      }
+    },
+    {
+      "title": "초대 문교부장관",
+      "period": "1948-08~1950-05",
+      "status": "cross-source-confirmed",
+      "id": "urn:source:bc0648b602e86a3a5f1d447d",
+      "_integration": {
+        "id": "urn:source:bc0648b602e86a3a5f1d447d",
+        "digest": "9e8a5c9170debfd599c2497193531c9e0bd8ba73ce8d944f7cde7e38426fc064",
+        "provenance": [
+          {
+            "path": "data/research/candidates/an-ho-sang-1902.json",
+            "pointer": "/roles/0"
+          }
+        ]
+      }
+    },
+    {
+      "title": "제3대 민의원",
+      "period": "1954~1958",
+      "constituency": "강원 횡성",
+      "affiliation": "무소속",
+      "verification": "AKS/NIKH person data; NIKH 1954 총선 연표 보강, 개인 결과 원자료 lead 유지",
+      "confidence": "high",
+      "id": "urn:source:bd976e35b153a2ee11a02d20",
+      "_integration": {
+        "id": "urn:source:bd976e35b153a2ee11a02d20",
+        "digest": "bc4fc5128e3c3384aa5bb196b84398d033753ca872616455ec0f27136170b908",
+        "provenance": [
+          {
+            "path": "data/research/politicians/jang-seok-yun.json",
+            "pointer": "/roles/6"
+          }
+        ]
+      }
+    },
+    {
+      "period": "1950",
+      "role": "제2대 국회의원 전북 임실 대한국민당 당선",
+      "source": "DOC-P257N-AKS-EOM",
+      "id": "urn:source:c773da643fd70d0b772a1fce",
+      "_integration": {
+        "id": "urn:source:c773da643fd70d0b772a1fce",
+        "digest": "9f9fa800f46ca0bb0466fd132f36a3da76f679b5c0471253abf03fdc49ed5295",
+        "provenance": [
+          {
+            "path": "data/evidence/eom-byeong-hak-1953.json",
+            "pointer": "/roles/0"
+          }
+        ]
+      }
+    },
+    {
+      "period": "1949-08",
+      "role": "제2기 반민족행위특별조사위원회 사건처리 위원",
+      "action": "복수 의견서에 서명·날인하여 기소·불기소·무혐의 판단에 참여",
+      "evidence": "NIKH an_002_0040; an_008_0030; an_010_0040; an_011_0040; an_019_0040; an_020_0040; an_032_0040; an_034_0040; an_035_0040; an_038; an_043_0040; an_053_0040; an_056_0040; an_062_0040",
+      "id": "urn:source:d0ef42f7ee8408282d01b6c1",
+      "_integration": {
+        "id": "urn:source:d0ef42f7ee8408282d01b6c1",
+        "digest": "6a6f4584ffc36c7ea48110cd0b0eb18ca23870ee1a9db3e6da7bc6b7b966ed9b",
+        "provenance": [
+          {
+            "path": "data/research/politicians/song-pil-man.json",
+            "pointer": "/roles/5"
+          }
+        ]
+      }
+    },
+    {
+      "period": "1948-1949",
+      "role": "반민족행위특별조사위원회 조사위원",
+      "status": "primary-supported: 1949-06-10 resignation report and 1949-06-21 committee document",
+      "id": "urn:source:d55298b5f62bb53def71b033",
+      "_integration": {
+        "id": "urn:source:d55298b5f62bb53def71b033",
+        "digest": "a6f9d39c3801554178d6560795347c1250785a0366b2508fea2cb328ca8f7b7f",
+        "provenance": [
+          {
+            "path": "data/research/candidates/pass-190-lee-jong-sun-chunseong.json",
+            "pointer": "/roles/1"
+          }
+        ]
+      }
+    },
+    {
+      "period": "해방후",
+      "role": "대한독립촉성국민회 임실군지부장",
+      "evidence": "NIKH im_109_02182",
+      "id": "urn:source:d5a7c1a00f79d1867b3c6e28",
+      "_integration": {
+        "id": "urn:source:d5a7c1a00f79d1867b3c6e28",
+        "digest": "22648ab93169b7a9b4bcfc2d3a73e9986960f606c954894395a56ad43da9c65c",
+        "provenance": [
+          {
+            "path": "data/research/politicians/jin-jik-hyeon.json",
+            "pointer": "/roles/1"
+          }
+        ]
+      }
+    },
+    {
+      "date": "1925-04-13",
+      "role": "로스앤젤레스 공동회 결의 참가자",
+      "action": "이승만 계열 구미위원부 옹호·임시정부 탄핵 반대 성명",
+      "evidence": "NIKH ij_017_0040_00380",
+      "id": "urn:source:d62617d6466153eb7cbc0015",
+      "_integration": {
+        "id": "urn:source:d62617d6466153eb7cbc0015",
+        "digest": "594f8a8be1d4767e67df806b50efd3fa4cfc79643ef350c6df291f0c9f8a566b",
+        "provenance": [
+          {
+            "path": "data/research/politicians/song-pil-man.json",
+            "pointer": "/roles/2"
+          }
+        ]
+      }
+    },
+    {
+      "date": "1949-03-07",
+      "office": "농림부 농지국장",
+      "organization": "농림부",
+      "evidence": "국사편찬위원회 자료대한민국사 dh_011_1949_03_07_0070",
+      "id": "urn:source:d8770408323a0d48d475f6f9",
+      "_integration": {
+        "id": "urn:source:d8770408323a0d48d475f6f9",
+        "digest": "9180bf30137ff8974701ceb9af5accb7481638c25b05c8099e761b0205803ea0",
+        "provenance": [
+          {
+            "path": "data/research/candidates/kang-jin-guk-farmland-reform.json",
+            "pointer": "/roles/0"
+          }
+        ]
+      }
+    },
+    {
+      "title": "농림부장관",
+      "period": "1949-02~1950-01",
+      "status": "cross-source-confirmed",
+      "id": "urn:source:daa21dc2fd15587741745542",
+      "_integration": {
+        "id": "urn:source:daa21dc2fd15587741745542",
+        "digest": "f224fe5f2b461bebe7131f541af3631ce8ad795e10a4199bc431642cbfd36610",
+        "provenance": [
+          {
+            "path": "data/research/candidates/lee-jong-hyeon-1904.json",
+            "pointer": "/roles/1"
+          }
+        ]
+      }
+    },
+    {
+      "title": "국회 산업분과위원장",
+      "period": "제2대 국회",
+      "status": "biographical-source-confirmed",
+      "id": "urn:source:de56ea3afba01221ab5f15f3",
+      "_integration": {
+        "id": "urn:source:de56ea3afba01221ab5f15f3",
+        "digest": "928667720a91dba42b736679b5f3ec73faf58f48357155b2f41acd427ab1cafd",
+        "provenance": [
+          {
+            "path": "data/research/candidates/lee-jong-hyeon-1904.json",
+            "pointer": "/roles/3"
+          }
+        ]
+      }
+    },
+    {
+      "period": "1919-1923",
+      "role": "연희전문학교 법률 교수",
+      "evidence": "AKS E0075954",
+      "id": "urn:source:dfdf4c410d53fe9b23965a30",
+      "_integration": {
+        "id": "urn:source:dfdf4c410d53fe9b23965a30",
+        "digest": "6ae086897d4b86079761ee6976a8bf934d034127bfabb17420774a6205f0e3ee",
+        "provenance": [
+          {
+            "path": "data/research/politicians/song-pil-man.json",
+            "pointer": "/roles/0"
+          }
+        ]
+      }
+    },
+    {
+      "title": "구왕궁재산관리위원회/구황실재산사무총국 계열 책임자",
+      "period": "1953 이후",
+      "verification": "AKS 인물항목 및 기관연혁 추가 검증 필요",
+      "confidence": "medium",
+      "id": "urn:source:e0dac678ac10fcbd5a6e2311",
+      "_integration": {
+        "id": "urn:source:e0dac678ac10fcbd5a6e2311",
+        "digest": "ee827df7aa23cc43f5978c175096ee1bb3d0e65e362c2c79c495c9043a3276b6",
+        "provenance": [
+          {
+            "path": "data/research/politicians/yun-u-gyeong.json",
+            "pointer": "/roles/2"
+          }
+        ]
+      }
+    },
+    {
+      "title": "강원도지사",
+      "period": "1948-10~1949-02",
+      "status": "official-provincial-source-confirmed",
+      "id": "urn:source:e5a8c04c2c3a8dc907d31e20",
+      "_integration": {
+        "id": "urn:source:e5a8c04c2c3a8dc907d31e20",
+        "digest": "515087f2dc029dbede738b1defb4f51f5b8f598da22435a6afd796368a404186",
+        "provenance": [
+          {
+            "path": "data/research/candidates/lee-jong-hyeon-1904.json",
+            "pointer": "/roles/0"
+          }
+        ]
+      }
+    },
+    {
+      "date": "1949-10-12",
+      "role": "국회 법제사법위원",
+      "affiliation": "민국(민주국민당 계열)",
+      "evidence": "NIKH dh_014_1949_10_12_0020",
+      "id": "urn:source:ece86771b7a4ada386f19c1b",
+      "_integration": {
+        "id": "urn:source:ece86771b7a4ada386f19c1b",
+        "digest": "b2c42308867e0f9f123462c8df4c7707809d8baefae85deb949ae68eb198ed19",
+        "provenance": [
+          {
+            "path": "data/research/politicians/jin-jik-hyeon.json",
+            "pointer": "/roles/3"
+          }
+        ]
+      }
+    },
+    {
+      "period": "1951",
+      "role": "자유당 합류",
+      "source": "DOC-P257N-AKS-EOM",
+      "id": "urn:source:f271592e53cf7181a9389271",
+      "_integration": {
+        "id": "urn:source:f271592e53cf7181a9389271",
+        "digest": "6e9986bf9fe73a28639ab62b69bc55cb2ee3b8a6b6b3a3111a2412a7d54e5d98",
+        "provenance": [
+          {
+            "path": "data/evidence/eom-byeong-hak-1953.json",
+            "pointer": "/roles/1"
+          }
+        ]
+      }
+    },
+    {
+      "period": "1960",
+      "role": "국방부장관",
+      "source": "DOC-P257N-AKS-KWON",
+      "id": "urn:source:f2817e48cd3f2a954fd3cef1",
+      "_integration": {
+        "id": "urn:source:f2817e48cd3f2a954fd3cef1",
+        "digest": "5e384b6e325908c1dc6b6f5b3889bef4297dc328f38ffc41a417042d95b203af",
+        "provenance": [
+          {
+            "path": "data/evidence/kwon-jung-don-1953.json",
+            "pointer": "/roles/2"
+          }
+        ]
+      }
+    },
+    {
+      "period": "1949-09-22",
+      "role": "일민구락부 교섭회 명부 수록",
+      "status": "contemporary-supported: 동광신문/National Library newspaper archive; roster prints 李鍾淳",
+      "id": "urn:source:f6316dbe423fa2fc47a64a79",
+      "_integration": {
+        "id": "urn:source:f6316dbe423fa2fc47a64a79",
+        "digest": "0eb17d71375a521432fa9e51dc3204444d18fd3ab3a8be82ea573c9090ff7ce2",
+        "provenance": [
+          {
+            "path": "data/research/candidates/pass-190-lee-jong-sun-chunseong.json",
+            "pointer": "/roles/8"
+          }
+        ]
+      }
+    },
+    {
+      "title": "제5대 국회 참의원의원",
+      "district": "경상남도",
+      "party": "무소속",
+      "status": "official-biographical-db-confirmed",
+      "id": "urn:source:f89f32451fb3d0b8ceebdf9b",
+      "_integration": {
+        "id": "urn:source:f89f32451fb3d0b8ceebdf9b",
+        "digest": "e6b10d3cf854fe0b6b5228b995062baa854d6ba2219e1d490acfda71f96191b3",
+        "provenance": [
+          {
+            "path": "data/research/candidates/an-ho-sang-1902.json",
+            "pointer": "/roles/1"
+          }
+        ]
+      }
+    },
+    {
+      "period": "1949-06",
+      "role": "이정회 부회장으로 정리된 이종순",
+      "status": "secondary AKS 이정회 entry; 1949-04-15 일민 이동 서술과 충돌하므로 CONFLICTED until contemporary hanja/constituency roster",
+      "id": "urn:source:f8d08178489b8756cecea2e1",
+      "_integration": {
+        "id": "urn:source:f8d08178489b8756cecea2e1",
+        "digest": "e6779b3d1508ddf013c67c1d26fd53da89f60a8d07ffdd081124cc5e09806dc5",
+        "provenance": [
+          {
+            "path": "data/research/candidates/pass-190-lee-jong-sun-chunseong.json",
+            "pointer": "/roles/5"
+          }
+        ]
+      }
+    }
+  ]
+}

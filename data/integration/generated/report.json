@@ -3,18 +3,19 @@
     "documents": 4585,
     "claims": 2115,
     "events": 2681,
-    "politicians": 856,
-    "organizations": 83
+    "politicians": 852,
+    "organizations": 83,
+    "roles": 57
   },
   "canonicalDirectory": "data/integration/canonical",
   "sourceFiles": 2274,
   "sourceStatusCounts": {
-    "AUXILIARY_JSON_INDEXED": 552,
-    "CANONICAL_MATERIALIZED": 597,
+    "AUXILIARY_JSON_INDEXED": 546,
+    "CANONICAL_MATERIALIZED": 605,
     "CONFLICT_REVIEW_REQUIRED": 334,
     "NON_JSON_SOURCE_PRESERVED": 777,
     "OPERATIONAL_ROOT_PRESERVED": 2,
-    "PARTIAL_CANONICAL_MATERIALIZED": 11,
+    "PARTIAL_CANONICAL_MATERIALIZED": 9,
     "PRESIDENTIAL_BACKBONE_PRESERVED": 1
   },
   "targetLayerCounts": {
@@ -51,13 +52,18 @@
       "conflictedIds": 66
     },
     "politicians": {
-      "sourceRecords": 2336,
-      "uniqueIds": 1241,
-      "conflictedIds": 385
+      "sourceRecords": 2328,
+      "uniqueIds": 1235,
+      "conflictedIds": 383
     },
     "organizations": {
       "sourceRecords": 97,
       "uniqueIds": 85,
+      "conflictedIds": 2
+    },
+    "roles": {
+      "sourceRecords": 61,
+      "uniqueIds": 59,
       "conflictedIds": 2
     }
   },
@@ -2942,15 +2948,6 @@
     },
     {
       "type": "politicians",
-      "id": "cand-lee-jong-sun-antimin-1949",
-      "variantCount": 2,
-      "sources": [
-        "data/research/candidates/pass-188-gangwon-antimin-identity-nodes.json",
-        "data/research/candidates/pass-190-lee-jong-sun-chunseong.json"
-      ]
-    },
-    {
-      "type": "politicians",
       "id": "cand-lee-mok",
       "variantCount": 4,
       "sources": [
@@ -4864,15 +4861,6 @@
     },
     {
       "type": "politicians",
-      "id": "pol-jang-seok-yun",
-      "variantCount": 2,
-      "sources": [
-        "data/politicians/pass-229-1952-cabinet-economy-trial.json",
-        "data/research/politicians/jang-seok-yun.json"
-      ]
-    },
-    {
-      "type": "politicians",
       "id": "pol-jeong-jae-wan",
       "variantCount": 2,
       "sources": [
@@ -6062,6 +6050,24 @@
         "data/research/candidates/pass-89-kdb-founding-liquidator-authority.json",
         "data/research/candidates/pass-90-kib-liquidation-governance.json"
       ]
+    },
+    {
+      "type": "roles",
+      "id": "role-cand-kib-head-hong-1954",
+      "variantCount": 2,
+      "sources": [
+        "data/research/candidates/pass-84-kib-liquidation-transfer.json",
+        "data/research/candidates/pass-85-kib-liquidation-governance-phases.json"
+      ]
+    },
+    {
+      "type": "roles",
+      "id": "role-cand-kib-representative-liquidator-choi-1954",
+      "variantCount": 2,
+      "sources": [
+        "data/research/candidates/pass-84-kib-liquidation-transfer.json",
+        "data/research/candidates/pass-85-kib-liquidation-governance-phases.json"
+      ]
     }
   ],
   "exactDuplicateIds": [
@@ -6143,7 +6149,6 @@
     "data/evidence/cho-chung-hwan-1955.json",
     "data/evidence/cho-chung-whan.json",
     "data/evidence/choi-duk-shin-1953.json",
-    "data/evidence/eom-byeong-hak-1953.json",
     "data/evidence/hwang-jong-ryul-identity-correction-2026-09-24.json",
     "data/evidence/hwang-jong-ryul.json",
     "data/evidence/im-song-bon.json",
@@ -6155,9 +6160,7 @@
     "data/evidence/kim-yu-taek-1953-currency.json",
     "data/evidence/kim-yu-taek-1953-march.json",
     "data/evidence/kwak-sang-hun.json",
-    "data/evidence/kwon-jung-don-1953.json",
     "data/evidence/lee-chong-chang-1952-martial-law.json",
-    "data/evidence/lee-gap-seong-1952.json",
     "data/evidence/lee-hu-rak.json",
     "data/evidence/lee-jae-hak.json",
     "data/evidence/lee-jong-hyeon-1953-identity.json",
@@ -6165,7 +6168,6 @@
     "data/evidence/paik-too-chin-1953-finance.json",
     "data/evidence/paik-too-chin-1953.json",
     "data/evidence/paik-too-chin-1954-ceb.json",
-    "data/evidence/park-sul-eum-1953-union.json",
     "data/evidence/pass-246-minister-and-law-originals.json",
     "data/evidence/pass-253-september-actor-evidence.json",
     "data/evidence/pass-253d-september-actor-evidence.json",
@@ -6190,7 +6192,6 @@
     "data/evidence/rhee-syngman.json",
     "data/evidence/rhee/pass-253-cabinet-metadata-divergence.json",
     "data/evidence/seo-beom-seok.json",
-    "data/evidence/shin-ik-hui-1953-labor.json",
     "data/evidence/shin-ik-hui.json",
     "data/evidence/sohn-won-yil.json",
     "data/evidence/won-yong-duk.json",
@@ -6247,9 +6248,6 @@
     "data/research/candidates/pass-273-domestic-martial-law-instruments.json",
     "data/research/candidates/pass-274-yun-woo-kyong-rhee-direct-command.json",
     "data/research/candidates/pass-70-political-conference-actors.json",
-    "data/research/candidates/pass-83-kdb-establishment-committee.json",
-    "data/research/candidates/pass-84-kib-liquidation-transfer.json",
-    "data/research/candidates/pass-85-kib-liquidation-governance-phases.json",
     "data/research/corrections/pass-244-date-precision-review.json",
     "data/research/corrections/pass-244-document-kind-and-alias-audit.json",
     "data/research/corrections/pass-244-execution-count-audit.json",
@@ -6697,16 +6695,14 @@
     "data/research/second-republic-pass15.json",
     "data/research/weekly-history-debt-review-2026-10-04.json"
   ],
-  "auxiliaryRecords": 677,
+  "auxiliaryRecords": 666,
   "partialSources": [
+    "data/evidence/yu-wan-chang.json",
     "data/politicians/pass-247c-june1960-original-actors.json",
     "data/politicians/pass-247d-assembly-actors.json",
     "data/politicians/pass-248-1960-election-actors.json",
     "data/politicians/pass-252c-1952-aug31-actors.json",
     "data/research/candidates/pass-70-political-conference-actors.json",
-    "data/research/candidates/pass-83-kdb-establishment-committee.json",
-    "data/research/candidates/pass-84-kib-liquidation-transfer.json",
-    "data/research/candidates/pass-85-kib-liquidation-governance-phases.json",
     "data/research/graphs/2026-11-12-1916-frus181-182-overlay.json",
     "data/research/graphs/2026-11-13-0920-frus221-223-overlay.json",
     "data/research/graphs/2026-11-13-2324-frus267-269-overlay.json"
@@ -6754,10 +6750,6 @@
       "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
-      "path": "data/evidence/eom-byeong-hak-1953.json",
-      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
-    },
-    {
       "path": "data/evidence/hwang-jong-ryul-identity-correction-2026-09-24.json",
       "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
@@ -6802,15 +6794,7 @@
       "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
-      "path": "data/evidence/kwon-jung-don-1953.json",
-      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
-    },
-    {
       "path": "data/evidence/lee-chong-chang-1952-martial-law.json",
-      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
-    },
-    {
-      "path": "data/evidence/lee-gap-seong-1952.json",
       "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
@@ -6839,10 +6823,6 @@
     },
     {
       "path": "data/evidence/paik-too-chin-1954-ceb.json",
-      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
-    },
-    {
-      "path": "data/evidence/park-sul-eum-1953-union.json",
       "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
@@ -6939,10 +6919,6 @@
     },
     {
       "path": "data/evidence/seo-beom-seok.json",
-      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
-    },
-    {
-      "path": "data/evidence/shin-ik-hui-1953-labor.json",
       "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
@@ -7167,18 +7143,6 @@
     },
     {
       "path": "data/research/candidates/pass-70-political-conference-actors.json",
-      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
-    },
-    {
-      "path": "data/research/candidates/pass-83-kdb-establishment-committee.json",
-      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
-    },
-    {
-      "path": "data/research/candidates/pass-84-kib-liquidation-transfer.json",
-      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
-    },
-    {
-      "path": "data/research/candidates/pass-85-kib-liquidation-governance-phases.json",
       "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {

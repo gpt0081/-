@@ -224,11 +224,11 @@
   },
   "politicianSync": {
     "rootBefore": 975,
-    "canonicalMaterialized": 764,
-    "added": 0,
+    "canonicalMaterialized": 760,
+    "added": 1,
     "manualAdded": 0,
-    "merged": 764,
-    "rootAfter": 975,
+    "merged": 759,
+    "rootAfter": 976,
     "missingCanonicalIdsAfterSync": [],
     "fieldConflicts": [
       {
@@ -484,19 +484,6 @@
       },
       {
         "kind": "politicians",
-        "id": "cand-an-ho-sang-1902",
-        "field": "researchStatus",
-        "rootValue": "DISCOVERED",
-        "incomingValue": "candidate-primary-source-linked",
-        "incomingProvenance": [
-          {
-            "path": "data/research/candidates/an-ho-sang-1902.json",
-            "pointer": "/"
-          }
-        ]
-      },
-      {
-        "kind": "politicians",
         "id": "cand-choe-hyeon-bae",
         "field": "researchStatus",
         "rootValue": "IDENTIFIED",
@@ -583,32 +570,6 @@
           {
             "path": "data/research/candidates/pass-178-antimin-politician-nodes.json",
             "pointer": "/nodes/7"
-          }
-        ]
-      },
-      {
-        "kind": "politicians",
-        "id": "cand-lee-cheon-sang-legal-affairs",
-        "field": "researchStatus",
-        "rootValue": "DISCOVERED",
-        "incomingValue": "candidate-identity-partially-resolved",
-        "incomingProvenance": [
-          {
-            "path": "data/research/candidates/lee-cheon-sang-legal-affairs.json",
-            "pointer": "/"
-          }
-        ]
-      },
-      {
-        "kind": "politicians",
-        "id": "cand-lee-jong-hyeon-1904",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "candidate-strongly-identified",
-        "incomingProvenance": [
-          {
-            "path": "data/research/candidates/lee-jong-hyeon-1904.json",
-            "pointer": "/"
           }
         ]
       },
@@ -2340,14 +2301,14 @@
   },
   "rootFileHashes": {
     "data/events.json": "afec52a19aa66a757f41c9ec8542bc237b516949c33b5200c7ea8cb4a79de74f",
-    "data/politicians.json": "4988dea7f138c9d7077e27c6a3628098280f000e5f1b79fb556204788f7c2210"
+    "data/politicians.json": "4bd3ab376f006318835644d9f3a1761fb9829e8c3bddc43cd8478240505841f4"
   },
   "rootFileCounts": {
     "events": 2808,
-    "politicians": 975
+    "politicians": 976
   },
   "sourceIntegrationStatus": "FULL_INTEGRATION_INCOMPLETE",
   "sourceConflictedIds": 584,
-  "sourceAuxiliaryRecords": 677,
+  "sourceAuxiliaryRecords": 666,
   "policy": "Only named pol-/cand- records enter the domestic politician root. Foreign, collective, legacy, placeholder and unnamed candidates remain preserved in source/canonical layers with explicit exclusion reasons. Scalar conflicts are not silently merged."
 }
