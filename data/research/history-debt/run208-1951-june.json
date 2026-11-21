@@ -1,0 +1,137 @@
+{
+  "run": 208,
+  "debts": [
+    {
+      "id": "HD-R208-01",
+      "status": "CONFLICTED",
+      "issue": "FRUS d332의 공식환율 22,500원/달러와 같은 문서의 2,500원/달러 대통령측 고정환율 주장 간 단위·용어·전사 차이. 후속 1952-03-24 OIR Report 5688은 전쟁기간 공정환율 2,500원/달러를 기록하여 22,500원 표기에 대한 반증 강화; 원관보 전까지 미해결. 한국학중앙연구원 환율 연혁은 1950-11-01부터 1년간 2500원, ODA Korea 외교사료관 차관상환표는 1951-08-24 2500원·12-26 6000원. 차관환율과 공식환율 혼동 금지",
+      "documents": [
+        "doc-r208-frus51v7p1-d332",
+        "doc-r208-frus51v7p1-d339",
+        "doc-r208-oir-5688",
+        "doc-r208-aks-exchange-history",
+        "doc-r208-oda-mofa-1958-loan-ledger"
+      ],
+      "next": [
+        "L208-05",
+        "L208-06",
+        "L208-09",
+        "L208-35",
+        "L208-37",
+        "L208-38"
+      ]
+    },
+    {
+      "id": "HD-R208-02",
+      "status": "OPEN",
+      "issue": "6/3 이승만 대충자금 의견서 원본과 6/9 승인 일자·시행 범위",
+      "documents": [
+        "doc-r208-frus51v7p1-d332",
+        "doc-r208-frus51v7p1-d339"
+      ],
+      "next": [
+        "L208-07",
+        "L208-08",
+        "L208-10"
+      ]
+    },
+    {
+      "id": "HD-R208-03",
+      "status": "NARROWED",
+      "issue": "1951-06-02 Acheson 38선 발언과 6/7 한국신문상 별도 증언의 문구·청문회 날짜 관계; 원속기록 미열람",
+      "documents": [
+        "doc-r208-frus51v7p1-d319",
+        "doc-r208-frus51v7p1-d331",
+        "doc-r207-19510607-0010"
+      ],
+      "next": [
+        "L208-01",
+        "L208-02"
+      ]
+    },
+    {
+      "id": "HD-R208-04",
+      "status": "OPEN",
+      "issue": "UNKRA 경제원조 지휘권을 유엔군사령부에 최종 귀속했는지, JCS 반대와 제한적 독립 합의의 최종 결재",
+      "documents": [
+        "doc-r208-frus51v7p1-d350"
+      ],
+      "next": [
+        "L208-26",
+        "L208-27"
+      ]
+    },
+    {
+      "id": "HD-R208-05",
+      "status": "OPEN",
+      "issue": "1951-06-25 한국 정부의 정전협상 참여요구 외무부 원훈령 및 서명권자",
+      "documents": [
+        "doc-r208-frus51v7p1-d356"
+      ],
+      "next": [
+        "L208-28",
+        "L208-29"
+      ]
+    },
+    {
+      "id": "HD-R208-06",
+      "status": "BLOCKED",
+      "issue": "FRUS d320 영국 대사관 전달 영국 원전문과 d353 미보존 미국 발신문: 미국 편집주가 원본 미발견을 명시",
+      "documents": [
+        "doc-r208-frus51v7p1-d320",
+        "doc-r208-frus51v7p1-d353"
+      ],
+      "next": [
+        "L208-16",
+        "L208-30"
+      ]
+    },
+    {
+      "id": "HD-R208-07",
+      "status": "CONFLICTED",
+      "issue": "국편 frus_007r_0030_1030 수입품 가격 6000원을 넘지 않아야 한다 vs 미국 FRUS d332 not less than 6000 (6000원 미만 금지), 방향 반전 번역",
+      "documents": [
+        "doc-r208-frus51v7p1-d332",
+        "doc-r208-nikh-frus-d332-translation"
+      ],
+      "next": [
+        "L208-36",
+        "L208-05"
+      ]
+    },
+    {
+      "id": "HD-R208-08",
+      "status": "CONFLICTED",
+      "issue": "AKS 1951-05-01 대충자금 6000원 책정 vs 미국대사 1951-05-29 4/1 소급 요구·6/9 대통령 승인 보고: 결정·요구·적용·후대 정리 단계가 달라 보임",
+      "documents": [
+        "doc-r208-aks-exchange-history",
+        "doc-r208-nikh-frus-19510529-995",
+        "doc-r208-frus51v7p1-d339"
+      ],
+      "next": [
+        "L208-05",
+        "L208-07",
+        "L208-38"
+      ]
+    }
+  ],
+  "weeklyFullReview": false,
+  "statusTransitions": [
+    {
+      "id": "HD-R206D-03",
+      "from": "OPEN",
+      "to": "NARROWED",
+      "date": "2026-10-28",
+      "reason": "1950 official CEC Pyeongchang election 李鍾郁 + AKS 1884-1969 monk biography, 1951 caucus original roster missing",
+      "notResolved": true
+    },
+    {
+      "id": "HD-R207-04",
+      "from": "CONFLICTED",
+      "to": "CONFLICTED",
+      "date": "2026-10-28",
+      "reason": "1950 CEC and AKS 金秀學 support 1951 newspaper but canonical 金洙鶴 and 1951 official committee roster unresolved",
+      "notResolved": true
+    }
+  ]
+}

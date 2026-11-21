@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "run": 91,
+  "date": "2026-10-08",
+  "deduplication": [
+    {
+      "newId": "d91-assembly-19500224",
+      "existingId": "d89-property-confirmation-19500224",
+      "rule": "same original; count once in corpus; retain run91 cross-links for migration"
+    },
+    {
+      "newId": "d91-UNTS-1216",
+      "existingId": null,
+      "rule": "new cross-provenance original"
+    }
+  ],
+  "adversarialFindings": [
+    {
+      "claimId": "c91-treaty-article",
+      "sourceFamilies": [
+        "Korean parliament",
+        "UN treaty registry"
+      ],
+      "status": "CONFLICTED",
+      "notProven": "whether same bilateral agreement intended"
+    },
+    {
+      "claimId": "c91-802-892",
+      "sourceFamilies": [
+        "Korean parliament"
+      ],
+      "status": "CONFLICTED",
+      "notProven": "correct printed total"
+    },
+    {
+      "claimId": "c91-daegu-causality",
+      "sourceFamilies": [
+        "Yeongnam Ilbo",
+        "Daegu Maeil"
+      ],
+      "status": "INSUFFICIENT",
+      "notProven": "1949 protest caused 1951 decision"
+    },
+    {
+      "claimId": "c91-pm-unconstitutionality",
+      "sourceFamilies": [
+        "contemporaneous newspaper"
+      ],
+      "status": "INSUFFICIENT",
+      "notProven": "final legal finding"
+    }
+  ],
+  "weeklyFullReview": "역사부채 주간 전수조사 미실시",
+  "mainBranchChanged": false
+}

@@ -1,0 +1,30 @@
+{
+  "run": 133,
+  "date": "2026-10-10",
+  "scope": "data/documents/run131-part1..18.json",
+  "priorDefectCount": 147,
+  "malformedRemaining": 0,
+  "legacyUrlsPreserved": 147,
+  "normalizedSyntaxOnly": 141,
+  "normalizedAndDirectTextChecked": 6,
+  "primaryOrOfficialDocumentsDirectlyRead": 7,
+  "sourcePagesDirectlyOpened": 12,
+  "uniqueUnderlyingDocumentsDirectlyRead": 11,
+  "independentProvenanceFamilies": [
+    "US State Department FRUS originals",
+    "NIKH-hosted Korean contemporary newspapers",
+    "NIKH-hosted government gazette",
+    "NIKH-hosted Ministry of Education report"
+  ],
+  "corrections": [
+    "June 19 inquiry roster reported June 21",
+    "July 3 attendance count not vote count",
+    "June 12 salary triple advisory not enacted",
+    "June 18 education report includes July 1 statistic",
+    "June 25 JCS conditional planning not implemented intervention"
+  ],
+  "method": "Normalized only malformed YYYY_MM_MMDD to YYYY_MM_DD and changed to /contemp/level.do. Kept old URL in legacyMalformedLocation. Text verification performed separately for 6 NIKH records. FRUS original d182 and its NIKH translation count as one underlying original.",
+  "notVerified": "141 syntax-normalized NIKH items await item-level title/date/content validation",
+  "weeklyFullDebtReview": false,
+  "flootModified": false
+}

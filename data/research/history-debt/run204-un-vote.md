@@ -1,0 +1,8 @@
+# Run204: UN vote original-source conflict and allied-consultation audit (2026-10-27)
+
+- **CONFLICTED (NEW):** FRUS 1951 vol VII part 1 d118 editorial claims 1951-01-30 First Committee **45-7-8**; UN original committee report **A/1770, paragraph 18** records **44-7-8** and explicitly lists 44 affirmative countries. The scanned 438th meeting record A/C.1/SR.438 was located but its PDF text extraction was null. Do not resolve by majority vote of secondary compilations. Next: visual reading of A/C.1/SR.438 and A/C.1/659, verify original tally and potential typographic error in FRUS editorial.
+- **NARROWED:** UN 1951-02-01 plenary A/PV.327 records **44-7-9**. Saudi Arabia delegate Haliq requested nonparticipation; chair treated it as abstention under rules. This is not the 1951-01-30 First Committee vote.
+- **NARROWED:** UK Hansard 1951-02-01 includes both unamended US draft and amended text, with the change from 'rejected all' to 'has not accepted' and a deferral clause for the Additional Measures Committee. UN original A/1771 confirms final text.
+- **NARROWED, NOT RESOLVED:** UK 1951-03-22 Younger states no major advance without consultations; FRUS d135 shows Rusk promised consultations but explicitly rejected a veto for each participating state. Need UK Cabinet/Bevin original 14 Feb and inter-allied minutes to determine the exact decision protocol.
+- **NARROWED:** Truman 1951-02-15 and 03-29 official public transcripts distinguish tactical discretion from political policy. Do not treat press-conference remarks as approval of unlimited reunification war.
+- **NOT A WEEKLY FULL REVIEW:** Tuesday in Asia/Seoul. Do not alter HISTORY_DEBT.md last_full_review.
