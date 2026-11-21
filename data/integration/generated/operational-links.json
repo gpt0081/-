@@ -4,13 +4,13 @@
   "policy": "Only stable IDs present in file content or exact registry file references count; no filename or person-name inference.",
   "layerCounts": {
     "annals": 426,
-    "coverage": 70,
+    "coverage": 72,
     "evidence": 192,
     "history_debt": 164,
     "lead_queue": 551
   },
   "relationCounts": {
-    "candidatePoliticianIds": 1501,
+    "candidatePoliticianIds": 1502,
     "relatedClaimIds": 139,
     "relatedDocumentIds": 1913,
     "relatedEventIds": 2297,
@@ -11202,6 +11202,20 @@
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
       "status": "EXPLICITLY_MULTI_LINKED"
+    },
+    {
+      "source": "data/research/kim-byeong-ro-coverage.json",
+      "sha256": "665feea0cc9629d7542db425f43fe094586572a22a566f213c305ffc3558fb47",
+      "layer": "coverage",
+      "candidatePoliticianIds": [
+        "pol-r183c-kim-byeong-ro"
+      ],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "status": "EXPLICITLY_LINKED"
     },
     {
       "source": "data/research/kim-byeong-ro-open-leads.json",
@@ -23561,6 +23575,18 @@
       "source": "data/research/leads/pass-269-next-lead-queue.json",
       "sha256": "caa77abd7c5dff5f50131ccf2592000d00c9edcc371c935c7b1d93ec493fbd6d",
       "layer": "lead_queue",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "status": "NO_EXPLICIT_IDENTITY"
+    },
+    {
+      "source": "data/research/runs/2026-10-09-run119-coverage.json",
+      "sha256": "275c6dc5cb7c0325fb96e14bf81cc695ca455fd3e13fe5da8ef71f2b67031f75",
+      "layer": "coverage",
       "candidatePoliticianIds": [],
       "relatedEventIds": [],
       "relatedDocumentIds": [],

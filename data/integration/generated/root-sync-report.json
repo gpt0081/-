@@ -4,10 +4,10 @@
   "centralSync": "PARTIAL",
   "eventSync": {
     "rootBefore": 6331,
-    "canonicalMaterialized": 6202,
-    "added": 0,
+    "canonicalMaterialized": 6205,
+    "added": 3,
     "merged": 6202,
-    "rootAfter": 6331,
+    "rootAfter": 6334,
     "missingCanonicalIdsAfterSync": [],
     "duplicateRootIds": [],
     "fieldConflicts": [
@@ -242,11 +242,11 @@
   },
   "politicianSync": {
     "rootBefore": 1804,
-    "canonicalMaterialized": 1318,
-    "added": 0,
+    "canonicalMaterialized": 1321,
+    "added": 3,
     "manualAdded": 0,
     "merged": 1318,
-    "rootAfter": 1804,
+    "rootAfter": 1807,
     "missingCanonicalIdsAfterSync": [],
     "fieldConflicts": [
       {
@@ -8094,15 +8094,15 @@
     "status": "PARTIAL"
   },
   "rootFileHashes": {
-    "data/events.json": "13374843e6e4853e29a0b5223be61874291d96b0ca1e4bb701d7831bfdd1bc2e",
-    "data/politicians.json": "1bf1de7507020e3d2c871981a74873e70dddf10e0f485c61d3b1a2b61b9331ba"
+    "data/events.json": "c33655224748f8b746b97691d9e2723444ab413f81ec250ba7ae9845c4802481",
+    "data/politicians.json": "6536353f184ea94f1163fff990feac0854c25618137fe3d2564b083f9f941ec3"
   },
   "rootFileCounts": {
-    "events": 6331,
-    "politicians": 1804
+    "events": 6334,
+    "politicians": 1807
   },
   "sourceIntegrationStatus": "FULL_INTEGRATION_INCOMPLETE",
-  "sourceConflictedIds": 912,
-  "sourceAuxiliaryRecords": 1539,
+  "sourceConflictedIds": 915,
+  "sourceAuxiliaryRecords": 2243,
   "policy": "Named pol-/cand-/candidate- records enter the domestic politician root. The six cand172- legacy snapshot IDs are imported only as DISCOVERED candidates; unresolved document/event/file references are moved to unresolvedSourceLinks and role text is explicitly unverified. No name-based promotion or identity merge. Shared variants retain source pointers; typed variants and unresolved scalar conflicts remain explicit."
 }

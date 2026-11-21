@@ -2,18 +2,18 @@
   "schemaVersion": 1,
   "registryType": "operational_layers",
   "selectionPolicy": "ALL_SIDECAR_FILES_PRESERVED; EXPLICIT_ID_LINKS_ONLY; UNLINKED_FILES_RETAINED",
-  "sourceCount": 1403,
-  "linkedCount": 517,
-  "unlinkedCount": 886,
+  "sourceCount": 1405,
+  "linkedCount": 518,
+  "unlinkedCount": 887,
   "layerCounts": {
     "annals": 426,
-    "coverage": 70,
+    "coverage": 72,
     "evidence": 192,
     "history_debt": 164,
     "lead_queue": 551
   },
   "relationCounts": {
-    "candidatePoliticianIds": 1501,
+    "candidatePoliticianIds": 1502,
     "relatedClaimIds": 139,
     "relatedDocumentIds": 1913,
     "relatedEventIds": 2297,
@@ -19391,6 +19391,32 @@
       ]
     },
     {
+      "id": "sidecar-6ea633ad46e03d110f37ccbb",
+      "layer": "coverage",
+      "sourcePath": "data/research/runs/2026-10-09-run119-coverage.json",
+      "sourceSha256": "275c6dc5cb7c0325fb96e14bf81cc695ca455fd3e13fe5da8ef71f2b67031f75",
+      "sourceBytes": 336,
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "targetRegistries": [
+        "coverage",
+        "politicians",
+        "events"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/runs/2026-10-09-run119-coverage.json",
+          "sha256": "275c6dc5cb7c0325fb96e14bf81cc695ca455fd3e13fe5da8ef71f2b67031f75"
+        }
+      ]
+    },
+    {
       "id": "sidecar-6eacee6817d31f5c2d3245be",
       "layer": "evidence",
       "sourcePath": "data/evidence/rhee-syngman-run108.json",
@@ -34472,6 +34498,34 @@
         {
           "path": "data/research/leads/pass-251-next-lead-queue.json",
           "sha256": "cabbd4f4c3c0b3518d26fd6e772f60c582cf418fa7b625f1244dc3d83a0d077f"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-c731992a67e2459bfa0bf5c2",
+      "layer": "coverage",
+      "sourcePath": "data/research/kim-byeong-ro-coverage.json",
+      "sourceSha256": "665feea0cc9629d7542db425f43fe094586572a22a566f213c305ffc3558fb47",
+      "sourceBytes": 859,
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "targetRegistries": [
+        "coverage",
+        "politicians",
+        "events"
+      ],
+      "linkStatus": "EXPLICITLY_LINKED",
+      "candidatePoliticianIds": [
+        "pol-r183c-kim-byeong-ro"
+      ],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/kim-byeong-ro-coverage.json",
+          "sha256": "665feea0cc9629d7542db425f43fe094586572a22a566f213c305ffc3558fb47"
         }
       ]
     },

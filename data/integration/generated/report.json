@@ -1,19 +1,19 @@
 {
   "canonicalMaterialized": {
-    "documents": 11635,
-    "claims": 4977,
-    "events": 6202,
-    "politicians": 1566,
+    "documents": 11683,
+    "claims": 4983,
+    "events": 6205,
+    "politicians": 1569,
     "organizations": 263,
     "roles": 65
   },
   "canonicalDirectory": "data/integration/canonical",
-  "sourceFiles": 4621,
+  "sourceFiles": 5183,
   "sourceStatusCounts": {
-    "AUXILIARY_JSON_INDEXED": 1157,
-    "CANONICAL_MATERIALIZED": 1748,
-    "CONFLICT_REVIEW_REQUIRED": 510,
-    "NON_JSON_SOURCE_PRESERVED": 1188,
+    "AUXILIARY_JSON_INDEXED": 1583,
+    "CANONICAL_MATERIALIZED": 1754,
+    "CONFLICT_REVIEW_REQUIRED": 513,
+    "NON_JSON_SOURCE_PRESERVED": 1315,
     "OPERATIONAL_ROOT_PRESERVED": 2,
     "PARTIAL_CANONICAL_MATERIALIZED": 15,
     "PRESIDENTIAL_BACKBONE_PRESERVED": 1
@@ -22,12 +22,12 @@
     "annals_layer": 426,
     "branch_snapshot_source": 1,
     "claim_registry_source": 488,
-    "coverage_layer": 70,
+    "coverage_layer": 72,
     "cross_registry_graph": 22,
     "document_registry_source": 636,
     "event_registry_source": 494,
     "evidence_layer": 192,
-    "execution_ledger_layer": 416,
+    "execution_ledger_layer": 865,
     "history_debt_layer": 164,
     "open_lead_layer": 551,
     "operational_root": 2,
@@ -35,27 +35,27 @@
     "other": 8,
     "politician_candidate_source": 556,
     "presidential_backbone": 1,
-    "research_supporting_layer": 541
+    "research_supporting_layer": 652
   },
   "totals": {
     "documents": {
-      "sourceRecords": 11888,
-      "uniqueIds": 11749,
-      "conflictedIds": 114
+      "sourceRecords": 11942,
+      "uniqueIds": 11800,
+      "conflictedIds": 117
     },
     "claims": {
-      "sourceRecords": 5027,
-      "uniqueIds": 4999,
+      "sourceRecords": 5033,
+      "uniqueIds": 5005,
       "conflictedIds": 22
     },
     "events": {
-      "sourceRecords": 6356,
-      "uniqueIds": 6272,
+      "sourceRecords": 6359,
+      "uniqueIds": 6275,
       "conflictedIds": 70
     },
     "politicians": {
-      "sourceRecords": 4473,
-      "uniqueIds": 2263,
+      "sourceRecords": 4478,
+      "uniqueIds": 2266,
       "conflictedIds": 697
     },
     "organizations": {
@@ -618,6 +618,33 @@
       "sources": [
         "data/documents/run129-1952-parliamentary-originals.json",
         "data/documents/run136-constitutional-primary-audit.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "d141-pa764",
+      "variantCount": 2,
+      "sources": [
+        "data/documents/run141-archival-item-registry.json",
+        "data/research/runs/2026-10-10-run141-source-corrections.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "d141-pa766",
+      "variantCount": 2,
+      "sources": [
+        "data/documents/run141-archival-item-registry.json",
+        "data/research/runs/2026-10-10-run141-source-corrections.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "d141-pa767",
+      "variantCount": 2,
+      "sources": [
+        "data/documents/run141-archival-item-registry.json",
+        "data/research/runs/2026-10-10-run141-source-corrections.json"
       ]
     },
     {
@@ -5223,11 +5250,12 @@
     {
       "type": "politicians",
       "id": "pol-baek-du-jin",
-      "variantCount": 3,
+      "variantCount": 4,
       "sources": [
         "data/research/candidates/pass-87-kdb-cabinet-liquidator-actors-events.json",
         "data/research/candidates/pass-88-kdb-statute-kib-succession-actors-events.json",
-        "data/research/runs/2026-10-04-run15-actors-events-leads.json"
+        "data/research/runs/2026-10-04-run15-actors-events-leads.json",
+        "data/research/runs/run110c-cabinet-nodes-a.json"
       ]
     },
     {
@@ -5815,11 +5843,12 @@
     {
       "type": "politicians",
       "id": "pol-heo-jeong",
-      "variantCount": 3,
+      "variantCount": 4,
       "sources": [
         "data/politicians/run117-decree277-signatories-b.json",
         "data/research/evidence/pass-291-geochang-postjudgment-reintegration.json",
-        "data/research/politician-candidates/pass-291-geochang-cross-domain-actors.json"
+        "data/research/politician-candidates/pass-291-geochang-cross-domain-actors.json",
+        "data/research/runs/run110c-cabinet-nodes-a.json"
       ]
     },
     {
@@ -10524,6 +10553,9 @@
     "data/politicians/run92-identity-resolution.json",
     "data/politicians/run92-promotion-audit.json",
     "data/research/ACTIVE_RESEARCH_HANDOFF.json",
+    "data/research/ACTIVE_RESEARCH_HANDOFF_RUN146.json",
+    "data/research/LATEST_RUN_POINTER.json",
+    "data/research/RUN137_LATEST.json",
     "data/research/adversarial/pass-234d-independent-search-audit.json",
     "data/research/adversarial/pass-257q-2026-10-29.json",
     "data/research/audits/pass-255-public-tariff-arithmetic.json",
@@ -10646,6 +10678,10 @@
     "data/research/coverage/run225.json",
     "data/research/cross-checks/pass-243-provenance.json",
     "data/research/cross-checks/pass-244-provenance.json",
+    "data/research/cross-provenance-run105.json",
+    "data/research/crosschecks-run126.json",
+    "data/research/crosschecks-run126e.json",
+    "data/research/crosschecks-run127.json",
     "data/research/debt/pass-237-targeted-debt-review.json",
     "data/research/debt/pass-237b-domestic-debt.json",
     "data/research/debt/pass-238-targeted-review.json",
@@ -10713,6 +10749,19 @@
     "data/research/graphs/2026-11-13-0920-frus221-223-overlay.json",
     "data/research/graphs/2026-11-13-2324-frus267-269-overlay.json",
     "data/research/history-debt-review-state.json",
+    "data/research/history-debt-run100.json",
+    "data/research/history-debt-run101.json",
+    "data/research/history-debt-run102.json",
+    "data/research/history-debt-run103.json",
+    "data/research/history-debt-run104.json",
+    "data/research/history-debt-run105.json",
+    "data/research/history-debt-run106-administration.json",
+    "data/research/history-debt-run106-breadth.json",
+    "data/research/history-debt-run106-institutions.json",
+    "data/research/history-debt-run106-recheck.json",
+    "data/research/history-debt-run106.json",
+    "data/research/history-debt-run92.json",
+    "data/research/history-debt-run98.json",
     "data/research/history-debt/pass-257w-1954-election-unresolved.json",
     "data/research/history-debt/pass-258a-1954-foa-nnsc-unresolved.json",
     "data/research/history-debt/pass-258b-1953-54-aid-control-unresolved.json",
@@ -10747,6 +10796,7 @@
     "data/research/history-debt/run223.json",
     "data/research/history-debt/run224.json",
     "data/research/history-debt/run225.json",
+    "data/research/kim-byeong-ro-coverage.json",
     "data/research/kim-byeong-ro-open-leads.json",
     "data/research/kim-seong-su-coverage.json",
     "data/research/kim-seong-su-open-leads.json",
@@ -11302,8 +11352,75 @@
     "data/research/primary-reads/pass-257s-2026-10-29.json",
     "data/research/primary-reads/pass-257t-2026-10-29.json",
     "data/research/primary-reads/pass-257u-2026-10-29.json",
+    "data/research/prior-lead-trace-run126.json",
+    "data/research/prior-lead-trace-run127.json",
     "data/research/registry/2026-11-15-pr73-74-main-shard-audit.json",
+    "data/research/research-lines-run126.json",
+    "data/research/research-lines-run127.json",
+    "data/research/rhee-syngman-coverage-run100.json",
+    "data/research/rhee-syngman-coverage-run101.json",
+    "data/research/rhee-syngman-coverage-run102.json",
+    "data/research/rhee-syngman-coverage-run103.json",
+    "data/research/rhee-syngman-coverage-run104.json",
+    "data/research/rhee-syngman-coverage-run105.json",
+    "data/research/rhee-syngman-coverage-run106-administration.json",
+    "data/research/rhee-syngman-coverage-run106-breadth.json",
+    "data/research/rhee-syngman-coverage-run106-institutions.json",
+    "data/research/rhee-syngman-coverage-run106.json",
+    "data/research/rhee-syngman-coverage-run107.json",
+    "data/research/rhee-syngman-coverage-run108.json",
+    "data/research/rhee-syngman-coverage-run108c.json",
+    "data/research/rhee-syngman-coverage-run109.json",
+    "data/research/rhee-syngman-coverage-run110.json",
+    "data/research/rhee-syngman-coverage-run110d.json",
+    "data/research/rhee-syngman-coverage-run111.json",
+    "data/research/rhee-syngman-coverage-run112.json",
+    "data/research/rhee-syngman-coverage-run113.json",
+    "data/research/rhee-syngman-coverage-run115.json",
+    "data/research/rhee-syngman-coverage-run116.json",
+    "data/research/rhee-syngman-coverage-run117.json",
+    "data/research/rhee-syngman-coverage-run118.json",
+    "data/research/rhee-syngman-coverage-run120.json",
+    "data/research/rhee-syngman-coverage-run124.json",
+    "data/research/rhee-syngman-coverage-run125.json",
+    "data/research/rhee-syngman-coverage-run125c.json",
+    "data/research/rhee-syngman-coverage-run125d.json",
+    "data/research/rhee-syngman-coverage-run125e.json",
+    "data/research/rhee-syngman-coverage-run125f.json",
+    "data/research/rhee-syngman-coverage-run125h.json",
+    "data/research/rhee-syngman-coverage-run126-b.json",
+    "data/research/rhee-syngman-coverage-run126-d.json",
+    "data/research/rhee-syngman-coverage-run126.json",
+    "data/research/rhee-syngman-coverage-run129.json",
+    "data/research/rhee-syngman-coverage-run131.json",
+    "data/research/rhee-syngman-coverage-run131b.json",
+    "data/research/rhee-syngman-coverage-run131c.json",
+    "data/research/rhee-syngman-coverage-run134.json",
+    "data/research/rhee-syngman-coverage-run139.json",
+    "data/research/rhee-syngman-coverage-run140.json",
+    "data/research/rhee-syngman-coverage-run141.json",
+    "data/research/rhee-syngman-coverage-run142.json",
+    "data/research/rhee-syngman-coverage-run144.json",
+    "data/research/rhee-syngman-coverage-run145.json",
+    "data/research/rhee-syngman-coverage-run146.json",
+    "data/research/rhee-syngman-coverage-run164.json",
+    "data/research/rhee-syngman-coverage-run165.json",
+    "data/research/rhee-syngman-coverage-run166.json",
+    "data/research/rhee-syngman-coverage-run167.json",
+    "data/research/rhee-syngman-coverage-run168.json",
+    "data/research/rhee-syngman-coverage-run187.json",
+    "data/research/rhee-syngman-coverage-run188.json",
+    "data/research/rhee-syngman-coverage-run198.json",
     "data/research/rhee-syngman-coverage-run88.json",
+    "data/research/rhee-syngman-coverage-run91.json",
+    "data/research/rhee-syngman-coverage-run91b.json",
+    "data/research/rhee-syngman-coverage-run92.json",
+    "data/research/rhee-syngman-coverage-run95-domains.json",
+    "data/research/rhee-syngman-coverage-run95-frus.json",
+    "data/research/rhee-syngman-coverage-run95.json",
+    "data/research/rhee-syngman-coverage-run96.json",
+    "data/research/rhee-syngman-coverage-run97.json",
+    "data/research/rhee-syngman-coverage-run99.json",
     "data/research/rhee-syngman-coverage.json",
     "data/research/rhee-syngman-open-leads.json",
     "data/research/run-ledger/2026-09-25-pass-137.json",
@@ -11318,6 +11435,18 @@
     "data/research/run-reports/pass-257w-execution-ledger.json",
     "data/research/run-reports/pass-258a-execution-ledger.json",
     "data/research/run-reports/pass-258b-execution-ledger.json",
+    "data/research/run106-prior-lead-audit.json",
+    "data/research/run106-provenance-crosschecks.json",
+    "data/research/run117-education-identity-source.json",
+    "data/research/run127-reference-debt.json",
+    "data/research/run133-handoff.json",
+    "data/research/run134-handoff.json",
+    "data/research/run136-handoff.json",
+    "data/research/run137-handoff.json",
+    "data/research/run139-handoff.json",
+    "data/research/run148-coverage-breadth-delta.json",
+    "data/research/run148-coverage-delta.json",
+    "data/research/run200-graph-index.json",
     "data/research/run21-lead-queue.json",
     "data/research/run22-lead-queue.json",
     "data/research/run44_pow_won_counterorder_and_command_split.json",
@@ -11328,8 +11457,19 @@
     "data/research/run65-active-leads.json",
     "data/research/run88-debt-status.json",
     "data/research/run88-existing-debt-followup.json",
+    "data/research/run89-bank-date-audit.json",
+    "data/research/run89-debt-status.json",
+    "data/research/run89-education-debt.json",
+    "data/research/run89-run88-lead-followup.json",
+    "data/research/run89-source-audit-supplement.json",
     "data/research/runs/2026-10-04-run15-peacetime-state-building.json",
     "data/research/runs/2026-10-04-run16-peacetime-depth.json",
+    "data/research/runs/2026-10-08-run100-ledger.json",
+    "data/research/runs/2026-10-08-run101-ledger.json",
+    "data/research/runs/2026-10-08-run102-ledger.json",
+    "data/research/runs/2026-10-08-run103-ledger.json",
+    "data/research/runs/2026-10-08-run104-ledger.json",
+    "data/research/runs/2026-10-08-run105-ledger.json",
     "data/research/runs/2026-10-08-run76-315-command-chain-ledger.json",
     "data/research/runs/2026-10-08-run77-315-six-minister-correction.json",
     "data/research/runs/2026-10-08-run78-pusan-land-pow-ledger.json",
@@ -11337,6 +11477,278 @@
     "data/research/runs/2026-10-08-run81-land-legal-continuity.json",
     "data/research/runs/2026-10-08-run88-document-audit.json",
     "data/research/runs/2026-10-08-run88-ledger.json",
+    "data/research/runs/2026-10-08-run89-ledger.json",
+    "data/research/runs/2026-10-08-run91-final-audit.json",
+    "data/research/runs/2026-10-08-run91-ledger.json",
+    "data/research/runs/2026-10-08-run91-supplement.json",
+    "data/research/runs/2026-10-08-run92-adversarial-a.json",
+    "data/research/runs/2026-10-08-run92-adversarial-b.json",
+    "data/research/runs/2026-10-08-run92-commit-manifest.json",
+    "data/research/runs/2026-10-08-run92-crosschecks.json",
+    "data/research/runs/2026-10-08-run92-handoff.json",
+    "data/research/runs/2026-10-08-run92-ledger.json",
+    "data/research/runs/2026-10-08-run92-prior-lead-audit.json",
+    "data/research/runs/2026-10-08-run92-research-lines.json",
+    "data/research/runs/2026-10-08-run93-grain-procedural-correction.json",
+    "data/research/runs/2026-10-08-run94-property-count-source-audit.json",
+    "data/research/runs/2026-10-08-run95-domains.json",
+    "data/research/runs/2026-10-08-run95-final-ledger.json",
+    "data/research/runs/2026-10-08-run95-followup.json",
+    "data/research/runs/2026-10-08-run95-frus.json",
+    "data/research/runs/2026-10-08-run95-grain-law.json",
+    "data/research/runs/2026-10-08-run95-legislative.json",
+    "data/research/runs/2026-10-08-run96-ledger.json",
+    "data/research/runs/2026-10-08-run97-ledger.json",
+    "data/research/runs/2026-10-08-run98-ledger.json",
+    "data/research/runs/2026-10-08-run99-ledger.json",
+    "data/research/runs/2026-10-08-run99-source-criticism.json",
+    "data/research/runs/2026-10-09-run106-ledger.json",
+    "data/research/runs/2026-10-09-run107-ledger.json",
+    "data/research/runs/2026-10-09-run108-adversarial.json",
+    "data/research/runs/2026-10-09-run108-ledger.json",
+    "data/research/runs/2026-10-09-run108-prior-leads-a.json",
+    "data/research/runs/2026-10-09-run108-prior-leads-b.json",
+    "data/research/runs/2026-10-09-run109-ledger.json",
+    "data/research/runs/2026-10-09-run110-ledger.json",
+    "data/research/runs/2026-10-09-run110d-bank-economic-audit.json",
+    "data/research/runs/2026-10-09-run110e-ledger.json",
+    "data/research/runs/2026-10-09-run110f-ledger.json",
+    "data/research/runs/2026-10-09-run111-ledger.json",
+    "data/research/runs/2026-10-09-run111b-ledger.json",
+    "data/research/runs/2026-10-09-run111c-ledger.json",
+    "data/research/runs/2026-10-09-run111d-ledger.json",
+    "data/research/runs/2026-10-09-run111e-ledger.json",
+    "data/research/runs/2026-10-09-run111f-ledger.json",
+    "data/research/runs/2026-10-09-run111g-ledger.json",
+    "data/research/runs/2026-10-09-run112-ledger.json",
+    "data/research/runs/2026-10-09-run113-extension.json",
+    "data/research/runs/2026-10-09-run113-final-addendum.json",
+    "data/research/runs/2026-10-09-run113-ledger.json",
+    "data/research/runs/2026-10-09-run114-ledger.json",
+    "data/research/runs/2026-10-09-run114b-ledger.json",
+    "data/research/runs/2026-10-09-run115-commit-index.json",
+    "data/research/runs/2026-10-09-run115-final-addendum.json",
+    "data/research/runs/2026-10-09-run115-ledger.json",
+    "data/research/runs/2026-10-09-run115-metric-correction.json",
+    "data/research/runs/2026-10-09-run116-ledger.json",
+    "data/research/runs/2026-10-09-run116b-addendum.json",
+    "data/research/runs/2026-10-09-run117-education-implementation-ledger.json",
+    "data/research/runs/2026-10-09-run117-education-ledger.json",
+    "data/research/runs/2026-10-09-run117-identity-ledger.json",
+    "data/research/runs/2026-10-09-run117-law44-addendum.json",
+    "data/research/runs/2026-10-09-run117-ledger.json",
+    "data/research/runs/2026-10-09-run118-korean-crosscheck-addendum.json",
+    "data/research/runs/2026-10-09-run118-ledger.json",
+    "data/research/runs/2026-10-09-run119-coverage.json",
+    "data/research/runs/2026-10-09-run119-crosschecks.json",
+    "data/research/runs/2026-10-09-run119-followup.json",
+    "data/research/runs/2026-10-09-run119-handoff.json",
+    "data/research/runs/2026-10-09-run119-ledger.json",
+    "data/research/runs/2026-10-09-run119-source-audit.json",
+    "data/research/runs/2026-10-09-run120-ledger.json",
+    "data/research/runs/2026-10-09-run121-ledger.json",
+    "data/research/runs/2026-10-09-run121b-source-correction.json",
+    "data/research/runs/2026-10-09-run122-closure.json",
+    "data/research/runs/2026-10-09-run122-final-ledger.json",
+    "data/research/runs/2026-10-09-run122-ledger.json",
+    "data/research/runs/2026-10-09-run122b-handoff.json",
+    "data/research/runs/2026-10-09-run122b-primary-source-addendum.json",
+    "data/research/runs/2026-10-09-run122c-original-ballot-verification.json",
+    "data/research/runs/2026-10-09-run123-ledger.json",
+    "data/research/runs/2026-10-09-run123b-ledger.json",
+    "data/research/runs/2026-10-09-run123b-source-addendum.json",
+    "data/research/runs/2026-10-09-run124-adversarial-a.json",
+    "data/research/runs/2026-10-09-run124-adversarial-b.json",
+    "data/research/runs/2026-10-09-run124-final-ledger.json",
+    "data/research/runs/2026-10-09-run124-final-source-audit.json",
+    "data/research/runs/2026-10-09-run124-ledger.json",
+    "data/research/runs/2026-10-09-run124-source-access-audit.json",
+    "data/research/runs/2026-10-09-run124-source-check.json",
+    "data/research/runs/2026-10-09-run125-ledger.json",
+    "data/research/runs/2026-10-09-run125b-ledger.json",
+    "data/research/runs/2026-10-09-run125c-ledger.json",
+    "data/research/runs/2026-10-09-run125d-ledger.json",
+    "data/research/runs/2026-10-09-run125e-ledger.json",
+    "data/research/runs/2026-10-09-run125f-ledger.json",
+    "data/research/runs/2026-10-09-run125h-ledger.json",
+    "data/research/runs/2026-10-09-run126-a-ledger.json",
+    "data/research/runs/2026-10-09-run126-b-ledger.json",
+    "data/research/runs/2026-10-09-run126-d-ledger.json",
+    "data/research/runs/2026-10-09-run126-e-ledger.json",
+    "data/research/runs/2026-10-09-run126-final-ledger.json",
+    "data/research/runs/2026-10-09-run127-ledger.json",
+    "data/research/runs/2026-10-09-run128-ledger.json",
+    "data/research/runs/2026-10-09-run129-ledger.json",
+    "data/research/runs/2026-10-10-run131-ledger.json",
+    "data/research/runs/2026-10-10-run131b-ledger.json",
+    "data/research/runs/2026-10-10-run131c-ledger.json",
+    "data/research/runs/2026-10-10-run132-final.json",
+    "data/research/runs/2026-10-10-run132-ledger.json",
+    "data/research/runs/2026-10-10-run133-execution-ledger.json",
+    "data/research/runs/2026-10-10-run133-extension-ledger.json",
+    "data/research/runs/2026-10-10-run134-execution-ledger.json",
+    "data/research/runs/2026-10-10-run135-biography-extension.json",
+    "data/research/runs/2026-10-10-run135-ledger.json",
+    "data/research/runs/2026-10-10-run136-consolidated-ledger.json",
+    "data/research/runs/2026-10-10-run136-ledger.json",
+    "data/research/runs/2026-10-10-run137-ledger.json",
+    "data/research/runs/2026-10-10-run137-provincial-addendum.json",
+    "data/research/runs/2026-10-10-run139-ledger.json",
+    "data/research/runs/2026-10-10-run140-ledger.json",
+    "data/research/runs/2026-10-10-run141-ledger.json",
+    "data/research/runs/2026-10-10-run142-ledger-addendum.json",
+    "data/research/runs/2026-10-10-run142-ledger.json",
+    "data/research/runs/2026-10-10-run143-ledger.json",
+    "data/research/runs/2026-10-11-run144-ledger.json",
+    "data/research/runs/2026-10-11-run145-ledger.json",
+    "data/research/runs/2026-10-11-run145-metric-correction.json",
+    "data/research/runs/2026-10-11-run145-research-lines.json",
+    "data/research/runs/2026-10-11-run145b-extension.json",
+    "data/research/runs/2026-10-11-run145c-extension.json",
+    "data/research/runs/2026-10-11-run145d-final-ledger.json",
+    "data/research/runs/2026-10-11-run146-ledger.json",
+    "data/research/runs/2026-10-11-run147-ledger.json",
+    "data/research/runs/2026-10-11-run147-lines-a.json",
+    "data/research/runs/2026-10-11-run147-lines-b.json",
+    "data/research/runs/2026-10-11-run147-status.json",
+    "data/research/runs/2026-10-11-run148-ledger.json",
+    "data/research/runs/2026-10-11-run149-ledger.json",
+    "data/research/runs/2026-10-12-run150-ledger.json",
+    "data/research/runs/2026-10-12-run150-metric-correction.json",
+    "data/research/runs/2026-10-12-run150b-frus-extension.json",
+    "data/research/runs/2026-10-12-run150c-breadth-extension.json",
+    "data/research/runs/2026-10-12-run150f-party-source-audit.json",
+    "data/research/runs/2026-10-26-run156-ledger.json",
+    "data/research/runs/2026-10-26-run157-ledger.json",
+    "data/research/runs/2026-10-26-run158-ledger.json",
+    "data/research/runs/2026-10-26-run158b-ledger.json",
+    "data/research/runs/2026-10-26-run158c-ledger.json",
+    "data/research/runs/2026-10-26-run158d-ledger.json",
+    "data/research/runs/2026-10-26-run159-ledger.json",
+    "data/research/runs/2026-10-26-run160-ledger.json",
+    "data/research/runs/2026-10-26-run161-ledger.json",
+    "data/research/runs/2026-10-26-run162-adversarial-searches.json",
+    "data/research/runs/2026-10-26-run162-ledger.json",
+    "data/research/runs/2026-10-26-run163-debt-followups.json",
+    "data/research/runs/2026-10-26-run163-ledger.json",
+    "data/research/runs/2026-10-26-run164-debt-followups.json",
+    "data/research/runs/2026-10-26-run164-ledger.json",
+    "data/research/runs/2026-10-26-run165-ledger.json",
+    "data/research/runs/2026-10-26-run166-ledger.json",
+    "data/research/runs/2026-10-26-run167-ledger.json",
+    "data/research/runs/2026-10-26-run168-ledger.json",
+    "data/research/runs/2026-10-26-run169-ledger.json",
+    "data/research/runs/2026-10-26-run170-ledger.json",
+    "data/research/runs/2026-10-26-run170-quality-snapshot.json",
+    "data/research/runs/2026-10-26-run171-ledger.json",
+    "data/research/runs/2026-10-26-run171-quality-snapshot.json",
+    "data/research/runs/2026-10-26-run172-ledger.json",
+    "data/research/runs/2026-10-26-run172-quality-snapshot.json",
+    "data/research/runs/2026-10-26-run173-ledger.json",
+    "data/research/runs/2026-10-26-run173-quality-snapshot.json",
+    "data/research/runs/2026-10-26-run174-quality-snapshot.json",
+    "data/research/runs/2026-10-26-run175-ledger.json",
+    "data/research/runs/2026-10-26-run175-quality-snapshot.json",
+    "data/research/runs/2026-10-26-run176-ledger.json",
+    "data/research/runs/2026-10-26-run176-quality-snapshot.json",
+    "data/research/runs/2026-10-27-run177-ledger.json",
+    "data/research/runs/2026-10-27-run178-ledger.json",
+    "data/research/runs/2026-10-27-run179-ledger.json",
+    "data/research/runs/2026-10-27-run180-ledger.json",
+    "data/research/runs/2026-10-27-run181-ledger.json",
+    "data/research/runs/2026-10-27-run182-ledger.json",
+    "data/research/runs/2026-10-27-run183-execution-audit.json",
+    "data/research/runs/2026-10-27-run183-ledger.json",
+    "data/research/runs/2026-10-27-run183b-ledger.json",
+    "data/research/runs/2026-10-27-run183c-ledger.json",
+    "data/research/runs/2026-10-27-run183d-ledger.json",
+    "data/research/runs/2026-10-27-run184-ledger.json",
+    "data/research/runs/2026-10-27-run185-ledger.json",
+    "data/research/runs/2026-10-27-run186-ledger.json",
+    "data/research/runs/2026-10-27-run187-ledger.json",
+    "data/research/runs/2026-10-27-run187-validation.json",
+    "data/research/runs/2026-10-27-run188-adversarial.json",
+    "data/research/runs/2026-10-27-run188-ledger.json",
+    "data/research/runs/2026-10-27-run189-adversarial.json",
+    "data/research/runs/2026-10-27-run189-ledger.json",
+    "data/research/runs/2026-10-27-run189x-adversarial.json",
+    "data/research/runs/2026-10-27-run189x-research-lines.json",
+    "data/research/runs/2026-10-27-run191-ledger.json",
+    "data/research/runs/2026-10-27-run192-ledger.json",
+    "data/research/runs/2026-10-27-run193-ledger.json",
+    "data/research/runs/2026-10-27-run194-ledger.json",
+    "data/research/runs/2026-10-27-run194b-adversarial.json",
+    "data/research/runs/2026-10-27-run194b-ledger.json",
+    "data/research/runs/2026-10-27-run194b-research-lines.json",
+    "data/research/runs/2026-10-27-run195-adversarial.json",
+    "data/research/runs/2026-10-27-run195-ledger.json",
+    "data/research/runs/2026-10-27-run195b-ledger.json",
+    "data/research/runs/2026-10-27-run195c-ledger.json",
+    "data/research/runs/2026-10-27-run195d-ledger.json",
+    "data/research/runs/2026-10-27-run195e-ledger.json",
+    "data/research/runs/2026-10-27-run195f-correction-history.json",
+    "data/research/runs/2026-10-27-run195f-final-ledger.json",
+    "data/research/runs/2026-10-27-run196-adversarial.json",
+    "data/research/runs/2026-10-27-run196-debt-tracking.json",
+    "data/research/runs/2026-10-27-run196-ledger.json",
+    "data/research/runs/2026-10-27-run196b-debt-tracking.json",
+    "data/research/runs/2026-10-27-run196b-ledger.json",
+    "data/research/runs/2026-10-27-run196c-debt-tracking.json",
+    "data/research/runs/2026-10-27-run196c-ledger.json",
+    "data/research/runs/2026-10-27-run196d-ledger.json",
+    "data/research/runs/2026-10-27-run197-adversarial.json",
+    "data/research/runs/2026-10-27-run197-ledger.json",
+    "data/research/runs/2026-10-27-run197b-ledger.json",
+    "data/research/runs/2026-10-27-run198-ledger.json",
+    "data/research/runs/2026-10-27-run198b-ledger.json",
+    "data/research/runs/2026-10-27-run199-adversarial-searches.json",
+    "data/research/runs/2026-10-27-run199-ledger.json",
+    "data/research/runs/2026-10-27-run199b-adversarial-searches.json",
+    "data/research/runs/2026-10-27-run199b-ledger.json",
+    "data/research/runs/2026-10-27-run200-ledger.json",
+    "data/research/runs/2026-10-27-run201-ledger.json",
+    "data/research/runs/2026-10-27-run202-ledger.json",
+    "data/research/runs/2026-10-27-run203-ledger.json",
+    "data/research/runs/2026-10-27-run204-ledger.json",
+    "data/research/runs/2026-10-27-run205-ledger.json",
+    "data/research/runs/2026-10-27-run206-ledger.json",
+    "data/research/runs/2026-10-27-run207-ledger.json",
+    "data/research/runs/2026-10-28-run208-ledger.json",
+    "data/research/runs/2026-10-28-run209-crosschecks.json",
+    "data/research/runs/2026-10-28-run209-ledger.json",
+    "data/research/runs/2026-10-28-run210-crosschecks.json",
+    "data/research/runs/2026-10-28-run210-ledger.json",
+    "data/research/runs/2026-10-28-run211-crosschecks.json",
+    "data/research/runs/2026-10-28-run211-ledger.json",
+    "data/research/runs/2026-10-28-run212-crosschecks.json",
+    "data/research/runs/2026-10-28-run212-ledger.json",
+    "data/research/runs/2026-10-28-run213-aug25-31-crosschecks.json",
+    "data/research/runs/2026-10-28-run213-crosschecks.json",
+    "data/research/runs/2026-10-28-run213-daegu-prices.json",
+    "data/research/runs/2026-10-28-run213-final-ledger.json",
+    "data/research/runs/2026-10-28-run213-ledger.json",
+    "data/research/runs/2026-10-28-run214-crosschecks.json",
+    "data/research/runs/2026-10-28-run214-ledger.json",
+    "data/research/runs/2026-10-28-run215-crosschecks-addendum.json",
+    "data/research/runs/2026-10-28-run215-crosschecks.json",
+    "data/research/runs/2026-10-28-run215-ledger.json",
+    "data/research/runs/2026-10-28-run215-search-audit.json",
+    "data/research/runs/2026-10-28-run216-ledger.json",
+    "data/research/runs/2026-10-28-run216-legislation-correction.json",
+    "data/research/runs/2026-10-28-run216-metadata-corrections.json",
+    "data/research/runs/2026-10-28-run216-prior-leads.json",
+    "data/research/runs/2026-10-28-run216-source-audit.json",
+    "data/research/runs/2026-10-28-run216-who-date-correction.json",
+    "data/research/runs/2026-10-28-run217-crosschecks.json",
+    "data/research/runs/2026-10-28-run217-ledger.json",
+    "data/research/runs/2026-10-28-run217-prior-leads.json",
+    "data/research/runs/2026-10-28-run218-integrity.json",
+    "data/research/runs/2026-10-28-run218-ledger.json",
+    "data/research/runs/2026-10-28-run218-prior-leads.json",
+    "data/research/runs/2026-10-28-run219-ledger.json",
+    "data/research/runs/2026-10-28-run220-ledger.json",
+    "data/research/runs/2026-10-28-run221-ledger.json",
+    "data/research/runs/2026-10-28-run222-ledger.json",
     "data/research/runs/2026-10-28-run223-ledger.json",
     "data/research/runs/2026-10-28-run224-ledger.json",
     "data/research/runs/2026-10-28-run225-ledger.json",
@@ -11391,11 +11803,54 @@
     "data/research/runs/pass-243-registry-snapshot.json",
     "data/research/runs/pass-244-execution-ledger.json",
     "data/research/runs/pass-245-execution-ledger.json",
+    "data/research/runs/run110-commit-shas.json",
+    "data/research/runs/run110-file-index.json",
+    "data/research/runs/run110-lines-a.json",
+    "data/research/runs/run110-lines-b1.json",
+    "data/research/runs/run110-lines-b2.json",
+    "data/research/runs/run110-prior-leads.json",
+    "data/research/runs/run110b-commit-shas.json",
+    "data/research/runs/run110b-extension.json",
+    "data/research/runs/run110c-extension.json",
+    "data/research/runs/run110d-cabinet-comparison-a.json",
+    "data/research/runs/run113-adversarial-tests.json",
+    "data/research/runs/run117-law44-originals.json",
+    "data/research/runs/run128-final-counts.json",
+    "data/research/runs/run128-prior-lead-audit.json",
+    "data/research/runs/run128-research-lines.json",
+    "data/research/runs/run129-handoff.json",
+    "data/research/runs/run129-prior-lead-trace.json",
+    "data/research/runs/run129-source-audit.json",
+    "data/research/runs/run131-adversarial-audit.json",
+    "data/research/runs/run131-handoff.json",
+    "data/research/runs/run131-research-lines.json",
+    "data/research/runs/run131b-adversarial-audit.json",
+    "data/research/runs/run131b-handoff.json",
+    "data/research/runs/run131b-research-lines.json",
+    "data/research/runs/run131c-adversarial-audit.json",
+    "data/research/runs/run131c-handoff.json",
+    "data/research/runs/run131c-research-lines.json",
+    "data/research/runs/run133-research-and-adversarial.json",
+    "data/research/runs/run142-prior-leads-review.json",
+    "data/research/runs/run149-handoff.json",
+    "data/research/runs/run149-lines-01.json",
+    "data/research/runs/run149-lines-02.json",
+    "data/research/runs/run200-research-lines.json",
+    "data/research/runs/run201-research-lines.json",
+    "data/research/runs/run202-research-lines.json",
+    "data/research/runs/run220-reference-validation.json",
+    "data/research/runs/run221-crosschecks.json",
+    "data/research/runs/run221-reference-validation.json",
+    "data/research/runs/run221b-reference-validation.json",
+    "data/research/runs/run221c-reference-validation.json",
+    "data/research/runs/run221d-reference-validation.json",
     "data/research/second-republic-pass15.json",
     "data/research/weekly-history-debt-review-2026-10-04.json",
+    "data/research/weekly-history-debt-review-2026-10-11-partial.json",
+    "data/research/weekly-history-debt-review-2026-10-11-run146-continuation.json",
     "data/votes/1960-06-15-constitutional-amendment.json"
   ],
-  "auxiliaryRecords": 1539,
+  "auxiliaryRecords": 2243,
   "partialSources": [
     "data/documents/run149-1956-laws.json",
     "data/evidence/yu-wan-chang.json",
@@ -12624,6 +13079,18 @@
       "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
+      "path": "data/research/ACTIVE_RESEARCH_HANDOFF_RUN146.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/LATEST_RUN_POINTER.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/RUN137_LATEST.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
       "path": "data/research/adversarial/pass-234d-independent-search-audit.json",
       "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
@@ -13112,6 +13579,22 @@
       "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
+      "path": "data/research/cross-provenance-run105.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/crosschecks-run126.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/crosschecks-run126e.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/crosschecks-run127.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
       "path": "data/research/debt/pass-237-targeted-debt-review.json",
       "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
@@ -13380,6 +13863,58 @@
       "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
+      "path": "data/research/history-debt-run100.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/history-debt-run101.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/history-debt-run102.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/history-debt-run103.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/history-debt-run104.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/history-debt-run105.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/history-debt-run106-administration.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/history-debt-run106-breadth.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/history-debt-run106-institutions.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/history-debt-run106-recheck.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/history-debt-run106.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/history-debt-run92.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/history-debt-run98.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
       "path": "data/research/history-debt/pass-257w-1954-election-unresolved.json",
       "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
@@ -13513,6 +14048,10 @@
     },
     {
       "path": "data/research/history-debt/run225.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/kim-byeong-ro-coverage.json",
       "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
@@ -15736,11 +16275,279 @@
       "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
+      "path": "data/research/prior-lead-trace-run126.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/prior-lead-trace-run127.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
       "path": "data/research/registry/2026-11-15-pr73-74-main-shard-audit.json",
       "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
+      "path": "data/research/research-lines-run126.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/research-lines-run127.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/rhee-syngman-coverage-run100.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/rhee-syngman-coverage-run101.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/rhee-syngman-coverage-run102.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/rhee-syngman-coverage-run103.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/rhee-syngman-coverage-run104.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/rhee-syngman-coverage-run105.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/rhee-syngman-coverage-run106-administration.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/rhee-syngman-coverage-run106-breadth.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/rhee-syngman-coverage-run106-institutions.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/rhee-syngman-coverage-run106.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/rhee-syngman-coverage-run107.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/rhee-syngman-coverage-run108.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/rhee-syngman-coverage-run108c.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/rhee-syngman-coverage-run109.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/rhee-syngman-coverage-run110.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/rhee-syngman-coverage-run110d.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/rhee-syngman-coverage-run111.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/rhee-syngman-coverage-run112.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/rhee-syngman-coverage-run113.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/rhee-syngman-coverage-run115.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/rhee-syngman-coverage-run116.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/rhee-syngman-coverage-run117.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/rhee-syngman-coverage-run118.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/rhee-syngman-coverage-run120.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/rhee-syngman-coverage-run124.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/rhee-syngman-coverage-run125.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/rhee-syngman-coverage-run125c.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/rhee-syngman-coverage-run125d.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/rhee-syngman-coverage-run125e.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/rhee-syngman-coverage-run125f.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/rhee-syngman-coverage-run125h.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/rhee-syngman-coverage-run126-b.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/rhee-syngman-coverage-run126-d.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/rhee-syngman-coverage-run126.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/rhee-syngman-coverage-run129.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/rhee-syngman-coverage-run131.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/rhee-syngman-coverage-run131b.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/rhee-syngman-coverage-run131c.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/rhee-syngman-coverage-run134.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/rhee-syngman-coverage-run139.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/rhee-syngman-coverage-run140.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/rhee-syngman-coverage-run141.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/rhee-syngman-coverage-run142.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/rhee-syngman-coverage-run144.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/rhee-syngman-coverage-run145.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/rhee-syngman-coverage-run146.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/rhee-syngman-coverage-run164.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/rhee-syngman-coverage-run165.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/rhee-syngman-coverage-run166.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/rhee-syngman-coverage-run167.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/rhee-syngman-coverage-run168.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/rhee-syngman-coverage-run187.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/rhee-syngman-coverage-run188.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/rhee-syngman-coverage-run198.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
       "path": "data/research/rhee-syngman-coverage-run88.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/rhee-syngman-coverage-run91.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/rhee-syngman-coverage-run91b.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/rhee-syngman-coverage-run92.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/rhee-syngman-coverage-run95-domains.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/rhee-syngman-coverage-run95-frus.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/rhee-syngman-coverage-run95.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/rhee-syngman-coverage-run96.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/rhee-syngman-coverage-run97.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/rhee-syngman-coverage-run99.json",
       "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
@@ -15800,6 +16607,54 @@
       "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
+      "path": "data/research/run106-prior-lead-audit.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/run106-provenance-crosschecks.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/run117-education-identity-source.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/run127-reference-debt.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/run133-handoff.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/run134-handoff.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/run136-handoff.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/run137-handoff.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/run139-handoff.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/run148-coverage-breadth-delta.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/run148-coverage-delta.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/run200-graph-index.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
       "path": "data/research/run21-lead-queue.json",
       "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
@@ -15840,11 +16695,55 @@
       "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
+      "path": "data/research/run89-bank-date-audit.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/run89-debt-status.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/run89-education-debt.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/run89-run88-lead-followup.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/run89-source-audit-supplement.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
       "path": "data/research/runs/2026-10-04-run15-peacetime-state-building.json",
       "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
       "path": "data/research/runs/2026-10-04-run16-peacetime-depth.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-08-run100-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-08-run101-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-08-run102-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-08-run103-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-08-run104-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-08-run105-ledger.json",
       "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
@@ -15873,6 +16772,1094 @@
     },
     {
       "path": "data/research/runs/2026-10-08-run88-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-08-run89-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-08-run91-final-audit.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-08-run91-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-08-run91-supplement.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-08-run92-adversarial-a.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-08-run92-adversarial-b.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-08-run92-commit-manifest.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-08-run92-crosschecks.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-08-run92-handoff.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-08-run92-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-08-run92-prior-lead-audit.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-08-run92-research-lines.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-08-run93-grain-procedural-correction.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-08-run94-property-count-source-audit.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-08-run95-domains.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-08-run95-final-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-08-run95-followup.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-08-run95-frus.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-08-run95-grain-law.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-08-run95-legislative.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-08-run96-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-08-run97-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-08-run98-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-08-run99-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-08-run99-source-criticism.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run106-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run107-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run108-adversarial.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run108-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run108-prior-leads-a.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run108-prior-leads-b.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run109-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run110-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run110d-bank-economic-audit.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run110e-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run110f-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run111-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run111b-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run111c-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run111d-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run111e-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run111f-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run111g-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run112-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run113-extension.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run113-final-addendum.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run113-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run114-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run114b-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run115-commit-index.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run115-final-addendum.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run115-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run115-metric-correction.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run116-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run116b-addendum.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run117-education-implementation-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run117-education-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run117-identity-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run117-law44-addendum.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run117-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run118-korean-crosscheck-addendum.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run118-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run119-coverage.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run119-crosschecks.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run119-followup.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run119-handoff.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run119-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run119-source-audit.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run120-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run121-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run121b-source-correction.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run122-closure.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run122-final-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run122-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run122b-handoff.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run122b-primary-source-addendum.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run122c-original-ballot-verification.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run123-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run123b-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run123b-source-addendum.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run124-adversarial-a.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run124-adversarial-b.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run124-final-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run124-final-source-audit.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run124-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run124-source-access-audit.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run124-source-check.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run125-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run125b-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run125c-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run125d-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run125e-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run125f-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run125h-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run126-a-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run126-b-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run126-d-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run126-e-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run126-final-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run127-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run128-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-09-run129-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-10-run131-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-10-run131b-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-10-run131c-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-10-run132-final.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-10-run132-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-10-run133-execution-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-10-run133-extension-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-10-run134-execution-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-10-run135-biography-extension.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-10-run135-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-10-run136-consolidated-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-10-run136-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-10-run137-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-10-run137-provincial-addendum.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-10-run139-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-10-run140-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-10-run141-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-10-run142-ledger-addendum.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-10-run142-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-10-run143-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-11-run144-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-11-run145-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-11-run145-metric-correction.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-11-run145-research-lines.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-11-run145b-extension.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-11-run145c-extension.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-11-run145d-final-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-11-run146-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-11-run147-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-11-run147-lines-a.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-11-run147-lines-b.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-11-run147-status.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-11-run148-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-11-run149-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-12-run150-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-12-run150-metric-correction.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-12-run150b-frus-extension.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-12-run150c-breadth-extension.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-12-run150f-party-source-audit.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-26-run156-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-26-run157-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-26-run158-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-26-run158b-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-26-run158c-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-26-run158d-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-26-run159-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-26-run160-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-26-run161-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-26-run162-adversarial-searches.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-26-run162-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-26-run163-debt-followups.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-26-run163-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-26-run164-debt-followups.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-26-run164-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-26-run165-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-26-run166-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-26-run167-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-26-run168-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-26-run169-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-26-run170-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-26-run170-quality-snapshot.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-26-run171-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-26-run171-quality-snapshot.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-26-run172-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-26-run172-quality-snapshot.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-26-run173-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-26-run173-quality-snapshot.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-26-run174-quality-snapshot.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-26-run175-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-26-run175-quality-snapshot.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-26-run176-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-26-run176-quality-snapshot.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-27-run177-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-27-run178-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-27-run179-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-27-run180-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-27-run181-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-27-run182-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-27-run183-execution-audit.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-27-run183-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-27-run183b-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-27-run183c-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-27-run183d-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-27-run184-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-27-run185-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-27-run186-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-27-run187-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-27-run187-validation.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-27-run188-adversarial.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-27-run188-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-27-run189-adversarial.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-27-run189-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-27-run189x-adversarial.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-27-run189x-research-lines.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-27-run191-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-27-run192-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-27-run193-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-27-run194-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-27-run194b-adversarial.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-27-run194b-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-27-run194b-research-lines.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-27-run195-adversarial.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-27-run195-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-27-run195b-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-27-run195c-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-27-run195d-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-27-run195e-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-27-run195f-correction-history.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-27-run195f-final-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-27-run196-adversarial.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-27-run196-debt-tracking.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-27-run196-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-27-run196b-debt-tracking.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-27-run196b-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-27-run196c-debt-tracking.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-27-run196c-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-27-run196d-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-27-run197-adversarial.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-27-run197-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-27-run197b-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-27-run198-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-27-run198b-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-27-run199-adversarial-searches.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-27-run199-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-27-run199b-adversarial-searches.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-27-run199b-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-27-run200-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-27-run201-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-27-run202-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-27-run203-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-27-run204-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-27-run205-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-27-run206-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-27-run207-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-28-run208-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-28-run209-crosschecks.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-28-run209-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-28-run210-crosschecks.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-28-run210-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-28-run211-crosschecks.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-28-run211-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-28-run212-crosschecks.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-28-run212-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-28-run213-aug25-31-crosschecks.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-28-run213-crosschecks.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-28-run213-daegu-prices.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-28-run213-final-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-28-run213-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-28-run214-crosschecks.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-28-run214-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-28-run215-crosschecks-addendum.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-28-run215-crosschecks.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-28-run215-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-28-run215-search-audit.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-28-run216-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-28-run216-legislation-correction.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-28-run216-metadata-corrections.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-28-run216-prior-leads.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-28-run216-source-audit.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-28-run216-who-date-correction.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-28-run217-crosschecks.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-28-run217-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-28-run217-prior-leads.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-28-run218-integrity.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-28-run218-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-28-run218-prior-leads.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-28-run219-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-28-run220-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-28-run221-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-10-28-run222-ledger.json",
       "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
@@ -16092,11 +18079,183 @@
       "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
+      "path": "data/research/runs/run110-commit-shas.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/run110-file-index.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/run110-lines-a.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/run110-lines-b1.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/run110-lines-b2.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/run110-prior-leads.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/run110b-commit-shas.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/run110b-extension.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/run110c-extension.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/run110d-cabinet-comparison-a.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/run113-adversarial-tests.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/run117-law44-originals.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/run128-final-counts.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/run128-prior-lead-audit.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/run128-research-lines.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/run129-handoff.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/run129-prior-lead-trace.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/run129-source-audit.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/run131-adversarial-audit.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/run131-handoff.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/run131-research-lines.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/run131b-adversarial-audit.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/run131b-handoff.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/run131b-research-lines.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/run131c-adversarial-audit.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/run131c-handoff.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/run131c-research-lines.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/run133-research-and-adversarial.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/run142-prior-leads-review.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/run149-handoff.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/run149-lines-01.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/run149-lines-02.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/run200-research-lines.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/run201-research-lines.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/run202-research-lines.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/run220-reference-validation.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/run221-crosschecks.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/run221-reference-validation.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/run221b-reference-validation.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/run221c-reference-validation.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/run221d-reference-validation.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
       "path": "data/research/second-republic-pass15.json",
       "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
       "path": "data/research/weekly-history-debt-review-2026-10-04.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/weekly-history-debt-review-2026-10-11-partial.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/weekly-history-debt-review-2026-10-11-run146-continuation.json",
       "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
