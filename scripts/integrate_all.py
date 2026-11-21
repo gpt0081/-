@@ -70,6 +70,7 @@ for path in sorted(DATA.rglob("*")):
 (OUT / "auxiliary.json").write_text(
     json.dumps({"schemaVersion": 2, "records": auxiliary}, ensure_ascii=False, indent=2) + chr(10), encoding="utf-8")
 conflicts, exact_duplicates, totals = [], [], {}
+source_outcomes = collections.defaultdict(lambda: {"integrated": 0, "conflicted": 0, "records": []})
 for typ, groups in records.items():
     central = []
     for ident in sorted(groups):
@@ -85,6 +86,12 @@ for typ, groups in records.items():
         central.append({"id": ident, "integrationStatus": status,
                         "alternatives": alternatives,
                         "canonicalSelection": alternatives[0]["digest"] if len(alternatives) == 1 else None})
+        for version in versions:
+            outcome = source_outcomes[version["source"]["path"]]
+            outcome["conflicted" if status == "CONFLICTED" else "integrated"] += 1
+            outcome["records"].append({"kind": typ, "id": ident,
+                                       "pointer": version["source"]["pointer"],
+                                       "status": status})
         if len(alternatives) > 1:
             conflicts.append({"type": typ, "id": ident,
                               "variantCount": len(alternatives),
@@ -109,8 +116,21 @@ for typ, groups in records.items():
     (OUT / (typ + ".json")).write_text(
         json.dumps({"schemaVersion": 2, "registryType": typ, "records": central},
                    ensure_ascii=False, indent=2) + chr(10), encoding="utf-8")
+for source in sources:
+    outcome = source_outcomes.get(source["path"])
+    if outcome:
+        source["centralMapping"] = {"integrated": outcome["integrated"],
+                                    "conflicted": outcome["conflicted"]}
+        source["status"] = ("CONFLICT_REVIEW_REQUIRED" if outcome["conflicted"]
+                            else "CANONICAL_MATERIALIZED")
+    elif source["status"] == "AUXILIARY_JSON_INDEXED":
+        source["centralMapping"] = {"integrated": 0, "conflicted": 0,
+                                    "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"}
+(OUT / "source-record-mapping.json").write_text(
+    json.dumps({"schemaVersion": 1, "mapping": dict(sorted(source_outcomes.items()))},
+               ensure_ascii=False, indent=2) + chr(10), encoding="utf-8")
 (OUT / "sources.json").write_text(
-    json.dumps({"schemaVersion": 2, "sources": sources}, ensure_ascii=False, indent=2) + chr(10),
+    json.dumps({"schemaVersion": 3, "sources": sources}, ensure_ascii=False, indent=2) + chr(10),
     encoding="utf-8")
 report = {"canonicalMaterialized": {k: v["uniqueIds"] - v["conflictedIds"] for k, v in totals.items()},
           "canonicalDirectory": "data/integration/canonical",
