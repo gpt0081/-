@@ -2,18 +2,18 @@
   "canonicalMaterialized": {
     "documents": 4585,
     "claims": 2115,
-    "events": 2681,
+    "events": 6203,
     "politicians": 1199,
     "organizations": 83,
     "roles": 57
   },
   "canonicalDirectory": "data/integration/canonical",
-  "sourceFiles": 2275,
+  "sourceFiles": 2626,
   "sourceStatusCounts": {
-    "AUXILIARY_JSON_INDEXED": 546,
-    "CANONICAL_MATERIALIZED": 604,
-    "CONFLICT_REVIEW_REQUIRED": 336,
-    "NON_JSON_SOURCE_PRESERVED": 777,
+    "AUXILIARY_JSON_INDEXED": 558,
+    "CANONICAL_MATERIALIZED": 935,
+    "CONFLICT_REVIEW_REQUIRED": 341,
+    "NON_JSON_SOURCE_PRESERVED": 780,
     "OPERATIONAL_ROOT_PRESERVED": 2,
     "PARTIAL_CANONICAL_MATERIALIZED": 9,
     "PRESIDENTIAL_BACKBONE_PRESERVED": 1
@@ -25,7 +25,7 @@
     "coverage_layer": 23,
     "cross_registry_graph": 22,
     "document_registry_source": 190,
-    "event_registry_source": 143,
+    "event_registry_source": 494,
     "evidence_layer": 65,
     "execution_ledger_layer": 416,
     "history_debt_layer": 27,
@@ -48,9 +48,9 @@
       "conflictedIds": 22
     },
     "events": {
-      "sourceRecords": 2827,
-      "uniqueIds": 2747,
-      "conflictedIds": 66
+      "sourceRecords": 6355,
+      "uniqueIds": 6272,
+      "conflictedIds": 69
     },
     "politicians": {
       "sourceRecords": 2781,
@@ -1400,6 +1400,15 @@
     },
     {
       "type": "events",
+      "id": "evt-1950-compulsory-education-start",
+      "variantCount": 2,
+      "sources": [
+        "data/events/run111g-electricity-education-budget.json",
+        "data/research/events/2026-10-04-pass205-education-local-autonomy-actions.json"
+      ]
+    },
+    {
+      "type": "events",
       "id": "evt-1950-landcommittee-regulation",
       "variantCount": 2,
       "sources": [
@@ -1884,6 +1893,24 @@
         "data/events/frus-1952-september-264-269-central.json",
         "data/research/graphs/2026-11-13-2220-frus264-266-overlay.json",
         "data/research/registry/1952-september-frus264-269-index.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt103-courts-debate-19490730",
+      "variantCount": 2,
+      "sources": [
+        "data/events/run103-courts-role-links.json",
+        "data/events/run103-labor-courts-local-un.json"
+      ]
+    },
+    {
+      "type": "events",
+      "id": "evt104-govorg-debate",
+      "variantCount": 2,
+      "sources": [
+        "data/events/run104-govorg-role-links.json",
+        "data/events/run104-laws-civilservice.json"
       ]
     },
     {
@@ -6467,6 +6494,18 @@
     "data/documents/pass-257q-1954-cabinet-gazette-originals.json",
     "data/documents/run51-robertson-armistice-bargain.json",
     "data/documents/run52-armistice-implementation-reconstruction.json",
+    "data/events/run110b-1952-constitutional-vote.json",
+    "data/events/run110c-1951-proposal.json",
+    "data/events/run111c-fed-primary-upgrades.json",
+    "data/events/run113-15principles-policy-actions.json",
+    "data/events/run114-institutional-actions.json",
+    "data/events/run114b-april21-actions.json",
+    "data/events/run115-procedural-vote-correction.json",
+    "data/events/run142-1948-constitutional-budget-votes.json",
+    "data/events/run142-enforcement-actions.json",
+    "data/events/run149-actor-links.json",
+    "data/events/run150-local-election-date-correction.json",
+    "data/events/run153-actor-links.json",
     "data/evidence/ahn-jae-hong.json",
     "data/evidence/chang-myon.json",
     "data/evidence/cho-bong-am.json",
@@ -7019,7 +7058,7 @@
     "data/research/second-republic-pass15.json",
     "data/research/weekly-history-debt-review-2026-10-04.json"
   ],
-  "auxiliaryRecords": 666,
+  "auxiliaryRecords": 678,
   "partialSources": [
     "data/evidence/yu-wan-chang.json",
     "data/politicians/pass-247c-june1960-original-actors.json",
@@ -7047,6 +7086,54 @@
     },
     {
       "path": "data/documents/run52-armistice-implementation-reconstruction.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/events/run110b-1952-constitutional-vote.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/events/run110c-1951-proposal.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/events/run111c-fed-primary-upgrades.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/events/run113-15principles-policy-actions.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/events/run114-institutional-actions.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/events/run114b-april21-actions.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/events/run115-procedural-vote-correction.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/events/run142-1948-constitutional-budget-votes.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/events/run142-enforcement-actions.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/events/run149-actor-links.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/events/run150-local-election-date-correction.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/events/run153-actor-links.json",
       "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {

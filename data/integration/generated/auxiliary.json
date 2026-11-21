@@ -1119,6 +1119,1331 @@
       "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
     },
     {
+      "source": "data/events/run110b-1952-constitutional-vote.json",
+      "payload": {
+        "run": 110,
+        "event": {
+          "id": "evt110b-1952-jan18-constitutional-vote",
+          "date": "1952-01-18",
+          "title": "National Assembly rejects government constitutional amendment",
+          "proposal": "Direct presidential election and bicameral parliament",
+          "documentIds": [
+            "d110b-1952-jan18-assembly",
+            "d110b-1952-jan17-debate"
+          ],
+          "vote": {
+            "present": 163,
+            "yes": 19,
+            "no": 143,
+            "abstain": 1,
+            "secretBallot": true
+          },
+          "presidedBy": "조봉암",
+          "debateSpeakers": [
+            "엄상섭",
+            "서범석"
+          ],
+          "decisionInstitution": "제2대 국회 제12회 제9차 본회의",
+          "status": "ORIGINAL_PARLIAMENTARY_TRANSCRIPT",
+          "attributionNote": "Individual votes not inferable from secret ballot. January proposal rejection is not July amendment passage.",
+          "proposed_by": [
+            "대한민국 정부 (1951-11-30 제출)"
+          ],
+          "decided_by": [
+            "제2대 국회 제12회 제9차 본회의"
+          ],
+          "executed_by": [],
+          "opposed_by": [
+            "엄상섭 (원내 자유당 공개 토론)",
+            "서범석 (민주국민당 공개 토론)"
+          ],
+          "observed_by": [
+            "조봉암 (부의장 사회)"
+          ],
+          "legal_authority": [
+            "1948년 헌법 제98조 개정정족수"
+          ],
+          "later_finding": [
+            "1952-07-04 발췌개헌과 별개의 1월 정부안 부결"
+          ]
+        }
+      },
+      "provenance": "fb5dfac4d4725b61857b79e1530b4794f22b923b851205b683f7ff0ebe2a96e8",
+      "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+    },
+    {
+      "source": "data/events/run110c-1951-proposal.json",
+      "payload": {
+        "run": 110,
+        "event": {
+          "id": "evt110c-1951-constitutional-proposal",
+          "date": "1951-11-30",
+          "title": "Constitutional amendment proposal announced in Gazette 562",
+          "documentIds": [
+            "d110c-gazette562"
+          ],
+          "decisionBody": "Cabinet",
+          "signedBy": "President and 13 cabinet members",
+          "status": "ORIGINAL_GAZETTE",
+          "signatoryIds": [
+            "pol-rhee-syngman",
+            "pol-heo-jeong",
+            "pol-lee-sun-yong",
+            "pol-byeon-yeong-tae",
+            "pol-lee-gi-bung",
+            "pol-baek-du-jin",
+            "pol-jo-jin-man",
+            "pol-baek-nak-jun",
+            "pol-im-mun-hwan",
+            "pol-kim-hun",
+            "pol-o-han-yeong",
+            "pol-kim-seok-gwan",
+            "pol-jang-gi-yeong",
+            "pol-lee-yun-yeong"
+          ],
+          "note": "서명은 공고 행위의 연서이지 개인별 개헌 찬성투표의 증거가 아니다."
+        }
+      },
+      "provenance": "ef4eb03d2041f8c25a8843661c726ed9c41b3b0c62bd831126252fd48ab07ad8",
+      "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+    },
+    {
+      "source": "data/events/run111c-fed-primary-upgrades.json",
+      "payload": {
+        "run": "111c",
+        "upgrades": [
+          {
+            "eventId": "evt-1949-fed-reply-july11",
+            "documentId": "d111c-fed-jul11",
+            "status": "PRIMARY_CONFIRMED"
+          },
+          {
+            "eventId": "evt-1949-fed-reply-aug16",
+            "documentId": "d111c-fed-aug16",
+            "status": "PRIMARY_CONFIRMED"
+          },
+          {
+            "eventId": "evt-1949-fed-conditional-approval",
+            "documentId": "d111c-fed-jul26",
+            "status": "PRIMARY_CONFIRMED"
+          }
+        ]
+      },
+      "provenance": "652ede9bcc322750ade654177ef3451152b7b1cbe26dfb317d63d534faea5422",
+      "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+    },
+    {
+      "source": "data/events/run113-15principles-policy-actions.json",
+      "payload": {
+        "run": 113,
+        "parent": {
+          "id": "evt113-1950-03-02-stabilization-plan",
+          "cabinetDecisionReported": "1950-02-21",
+          "presidentialApprovalReported": "1950-03-02",
+          "publication": "1950-03-05",
+          "source": "d113-korean-19500302-stabilization-fulltext"
+        },
+        "actions": [
+          {
+            "id": "evt113-stabilization-principle-01",
+            "parentEventId": "evt113-1950-03-02-stabilization-plan",
+            "date": "1950-03-02",
+            "description": "통화최고발행제·재정과 산업금융 연계",
+            "domain": "금융·재정",
+            "proposed_by": [],
+            "decided_by": [
+              "ROK_STATE_COUNCIL_AS_REPORTED"
+            ],
+            "executed_by": [],
+            "opposed_by": [],
+            "legal_authority": [],
+            "observed_by": [
+              "CONTEMPORANEOUS_KYUNGHYANG_SHINMUN"
+            ],
+            "later_finding": [],
+            "documentIds": [
+              "d113-korean-19500302-stabilization-fulltext"
+            ],
+            "status": "POLICY_PRINCIPLE_NOT_EXECUTION",
+            "warning": "기획·결정·대통령 재결과 실제 정책 집행을 분리"
+          },
+          {
+            "id": "evt113-stabilization-principle-02",
+            "parentEventId": "evt113-1950-03-02-stabilization-plan",
+            "date": "1950-03-02",
+            "description": "행정간소화·보조금 및 불필요 지출 억제",
+            "domain": "행정·예산",
+            "proposed_by": [],
+            "decided_by": [
+              "ROK_STATE_COUNCIL_AS_REPORTED"
+            ],
+            "executed_by": [],
+            "opposed_by": [],
+            "legal_authority": [],
+            "observed_by": [
+              "CONTEMPORANEOUS_KYUNGHYANG_SHINMUN"
+            ],
+            "later_finding": [],
+            "documentIds": [
+              "d113-korean-19500302-stabilization-fulltext"
+            ],
+            "status": "POLICY_PRINCIPLE_NOT_EXECUTION",
+            "warning": "기획·결정·대통령 재결과 실제 정책 집행을 분리"
+          },
+          {
+            "id": "evt113-stabilization-principle-03",
+            "parentEventId": "evt113-1950-03-02-stabilization-plan",
+            "date": "1950-03-02",
+            "description": "조세부담 조정과 징세체계 개혁",
+            "domain": "조세",
+            "proposed_by": [],
+            "decided_by": [
+              "ROK_STATE_COUNCIL_AS_REPORTED"
+            ],
+            "executed_by": [],
+            "opposed_by": [],
+            "legal_authority": [],
+            "observed_by": [
+              "CONTEMPORANEOUS_KYUNGHYANG_SHINMUN"
+            ],
+            "later_finding": [],
+            "documentIds": [
+              "d113-korean-19500302-stabilization-fulltext"
+            ],
+            "status": "POLICY_PRINCIPLE_NOT_EXECUTION",
+            "warning": "기획·결정·대통령 재결과 실제 정책 집행을 분리"
+          },
+          {
+            "id": "evt113-stabilization-principle-04",
+            "parentEventId": "evt113-1950-03-02-stabilization-plan",
+            "date": "1950-03-02",
+            "description": "귀속재산·관리물자 불하로 정부수입 확보",
+            "domain": "귀속재산·재정",
+            "proposed_by": [],
+            "decided_by": [
+              "ROK_STATE_COUNCIL_AS_REPORTED"
+            ],
+            "executed_by": [],
+            "opposed_by": [],
+            "legal_authority": [],
+            "observed_by": [
+              "CONTEMPORANEOUS_KYUNGHYANG_SHINMUN"
+            ],
+            "later_finding": [],
+            "documentIds": [
+              "d113-korean-19500302-stabilization-fulltext"
+            ],
+            "status": "POLICY_PRINCIPLE_NOT_EXECUTION",
+            "warning": "기획·결정·대통령 재결과 실제 정책 집행을 분리"
+          },
+          {
+            "id": "evt113-stabilization-principle-05",
+            "parentEventId": "evt113-1950-03-02-stabilization-plan",
+            "date": "1950-03-02",
+            "description": "정부사업·관리기업 수지균형과 독립채산",
+            "domain": "공기업·재정",
+            "proposed_by": [],
+            "decided_by": [
+              "ROK_STATE_COUNCIL_AS_REPORTED"
+            ],
+            "executed_by": [],
+            "opposed_by": [],
+            "legal_authority": [],
+            "observed_by": [
+              "CONTEMPORANEOUS_KYUNGHYANG_SHINMUN"
+            ],
+            "later_finding": [],
+            "documentIds": [
+              "d113-korean-19500302-stabilization-fulltext"
+            ],
+            "status": "POLICY_PRINCIPLE_NOT_EXECUTION",
+            "warning": "기획·결정·대통령 재결과 실제 정책 집행을 분리"
+          },
+          {
+            "id": "evt113-stabilization-principle-06",
+            "parentEventId": "evt113-1950-03-02-stabilization-plan",
+            "date": "1950-03-02",
+            "description": "지방행정 경비절약·지방과세 충실",
+            "domain": "지방행정",
+            "proposed_by": [],
+            "decided_by": [
+              "ROK_STATE_COUNCIL_AS_REPORTED"
+            ],
+            "executed_by": [],
+            "opposed_by": [],
+            "legal_authority": [],
+            "observed_by": [
+              "CONTEMPORANEOUS_KYUNGHYANG_SHINMUN"
+            ],
+            "later_finding": [],
+            "documentIds": [
+              "d113-korean-19500302-stabilization-fulltext"
+            ],
+            "status": "POLICY_PRINCIPLE_NOT_EXECUTION",
+            "warning": "기획·결정·대통령 재결과 실제 정책 집행을 분리"
+          },
+          {
+            "id": "evt113-stabilization-principle-07",
+            "parentEventId": "evt113-1950-03-02-stabilization-plan",
+            "date": "1950-03-02",
+            "description": "융자계획·국민저축·국채소화",
+            "domain": "금융",
+            "proposed_by": [],
+            "decided_by": [
+              "ROK_STATE_COUNCIL_AS_REPORTED"
+            ],
+            "executed_by": [],
+            "opposed_by": [],
+            "legal_authority": [],
+            "observed_by": [
+              "CONTEMPORANEOUS_KYUNGHYANG_SHINMUN"
+            ],
+            "later_finding": [],
+            "documentIds": [
+              "d113-korean-19500302-stabilization-fulltext"
+            ],
+            "status": "POLICY_PRINCIPLE_NOT_EXECUTION",
+            "warning": "기획·결정·대통령 재결과 실제 정책 집행을 분리"
+          },
+          {
+            "id": "evt113-stabilization-principle-08",
+            "parentEventId": "evt113-1950-03-02-stabilization-plan",
+            "date": "1950-03-02",
+            "description": "민간 유동자금의 생산자본화",
+            "domain": "산업금융",
+            "proposed_by": [],
+            "decided_by": [
+              "ROK_STATE_COUNCIL_AS_REPORTED"
+            ],
+            "executed_by": [],
+            "opposed_by": [],
+            "legal_authority": [],
+            "observed_by": [
+              "CONTEMPORANEOUS_KYUNGHYANG_SHINMUN"
+            ],
+            "later_finding": [],
+            "documentIds": [
+              "d113-korean-19500302-stabilization-fulltext"
+            ],
+            "status": "POLICY_PRINCIPLE_NOT_EXECUTION",
+            "warning": "기획·결정·대통령 재결과 실제 정책 집행을 분리"
+          },
+          {
+            "id": "evt113-stabilization-principle-09",
+            "parentEventId": "evt113-1950-03-02-stabilization-plan",
+            "date": "1950-03-02",
+            "description": "기초·생활필수물자 재고조사·가격보정·방출",
+            "domain": "물가·유통",
+            "proposed_by": [],
+            "decided_by": [
+              "ROK_STATE_COUNCIL_AS_REPORTED"
+            ],
+            "executed_by": [],
+            "opposed_by": [],
+            "legal_authority": [],
+            "observed_by": [
+              "CONTEMPORANEOUS_KYUNGHYANG_SHINMUN"
+            ],
+            "later_finding": [],
+            "documentIds": [
+              "d113-korean-19500302-stabilization-fulltext"
+            ],
+            "status": "POLICY_PRINCIPLE_NOT_EXECUTION",
+            "warning": "기획·결정·대통령 재결과 실제 정책 집행을 분리"
+          },
+          {
+            "id": "evt113-stabilization-principle-10",
+            "parentEventId": "evt113-1950-03-02-stabilization-plan",
+            "date": "1950-03-02",
+            "description": "수송력 정비·강화",
+            "domain": "교통·물류",
+            "proposed_by": [],
+            "decided_by": [
+              "ROK_STATE_COUNCIL_AS_REPORTED"
+            ],
+            "executed_by": [],
+            "opposed_by": [],
+            "legal_authority": [],
+            "observed_by": [
+              "CONTEMPORANEOUS_KYUNGHYANG_SHINMUN"
+            ],
+            "later_finding": [],
+            "documentIds": [
+              "d113-korean-19500302-stabilization-fulltext"
+            ],
+            "status": "POLICY_PRINCIPLE_NOT_EXECUTION",
+            "warning": "기획·결정·대통령 재결과 실제 정책 집행을 분리"
+          },
+          {
+            "id": "evt113-stabilization-principle-11",
+            "parentEventId": "evt113-1950-03-02-stabilization-plan",
+            "date": "1950-03-02",
+            "description": "정부물자 취급 대행기관 재검토·배급개선",
+            "domain": "유통·행정",
+            "proposed_by": [],
+            "decided_by": [
+              "ROK_STATE_COUNCIL_AS_REPORTED"
+            ],
+            "executed_by": [],
+            "opposed_by": [],
+            "legal_authority": [],
+            "observed_by": [
+              "CONTEMPORANEOUS_KYUNGHYANG_SHINMUN"
+            ],
+            "later_finding": [],
+            "documentIds": [
+              "d113-korean-19500302-stabilization-fulltext"
+            ],
+            "status": "POLICY_PRINCIPLE_NOT_EXECUTION",
+            "warning": "기획·결정·대통령 재결과 실제 정책 집행을 분리"
+          },
+          {
+            "id": "evt113-stabilization-principle-12",
+            "parentEventId": "evt113-1950-03-02-stabilization-plan",
+            "date": "1950-03-02",
+            "description": "중요자원 개발·생필품 및 수출품 증산",
+            "domain": "산업",
+            "proposed_by": [],
+            "decided_by": [
+              "ROK_STATE_COUNCIL_AS_REPORTED"
+            ],
+            "executed_by": [],
+            "opposed_by": [],
+            "legal_authority": [],
+            "observed_by": [
+              "CONTEMPORANEOUS_KYUNGHYANG_SHINMUN"
+            ],
+            "later_finding": [],
+            "documentIds": [
+              "d113-korean-19500302-stabilization-fulltext"
+            ],
+            "status": "POLICY_PRINCIPLE_NOT_EXECUTION",
+            "warning": "기획·결정·대통령 재결과 실제 정책 집행을 분리"
+          },
+          {
+            "id": "evt113-stabilization-principle-13",
+            "parentEventId": "evt113-1950-03-02-stabilization-plan",
+            "date": "1950-03-02",
+            "description": "긴급 부족물자 지정수입·수출범위 연계",
+            "domain": "무역",
+            "proposed_by": [],
+            "decided_by": [
+              "ROK_STATE_COUNCIL_AS_REPORTED"
+            ],
+            "executed_by": [],
+            "opposed_by": [],
+            "legal_authority": [],
+            "observed_by": [
+              "CONTEMPORANEOUS_KYUNGHYANG_SHINMUN"
+            ],
+            "later_finding": [],
+            "documentIds": [
+              "d113-korean-19500302-stabilization-fulltext"
+            ],
+            "status": "POLICY_PRINCIPLE_NOT_EXECUTION",
+            "warning": "기획·결정·대통령 재결과 실제 정책 집행을 분리"
+          },
+          {
+            "id": "evt113-stabilization-principle-14",
+            "parentEventId": "evt113-1950-03-02-stabilization-plan",
+            "date": "1950-03-02",
+            "description": "원조물자 활용·지정품목 수출촉진",
+            "domain": "원조·무역",
+            "proposed_by": [],
+            "decided_by": [
+              "ROK_STATE_COUNCIL_AS_REPORTED"
+            ],
+            "executed_by": [],
+            "opposed_by": [],
+            "legal_authority": [],
+            "observed_by": [
+              "CONTEMPORANEOUS_KYUNGHYANG_SHINMUN"
+            ],
+            "later_finding": [],
+            "documentIds": [
+              "d113-korean-19500302-stabilization-fulltext"
+            ],
+            "status": "POLICY_PRINCIPLE_NOT_EXECUTION",
+            "warning": "기획·결정·대통령 재결과 실제 정책 집행을 분리"
+          },
+          {
+            "id": "evt113-stabilization-principle-15",
+            "parentEventId": "evt113-1950-03-02-stabilization-plan",
+            "date": "1950-03-02",
+            "description": "노무생산성 제고·탄력적 최저임금제 확립",
+            "domain": "노동·사회",
+            "proposed_by": [],
+            "decided_by": [
+              "ROK_STATE_COUNCIL_AS_REPORTED"
+            ],
+            "executed_by": [],
+            "opposed_by": [],
+            "legal_authority": [],
+            "observed_by": [
+              "CONTEMPORANEOUS_KYUNGHYANG_SHINMUN"
+            ],
+            "later_finding": [],
+            "documentIds": [
+              "d113-korean-19500302-stabilization-fulltext"
+            ],
+            "status": "POLICY_PRINCIPLE_NOT_EXECUTION",
+            "warning": "기획·결정·대통령 재결과 실제 정책 집행을 분리"
+          }
+        ]
+      },
+      "provenance": "3a3be0d9cb7260fbad8f93787268fc86eae4e9543580ac75d0179270b1fda6f2",
+      "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+    },
+    {
+      "source": "data/events/run114-institutional-actions.json",
+      "payload": {
+        "run": 114,
+        "date": "2026-10-09",
+        "actions": [
+          {
+            "id": "evt114-194906-fed-request",
+            "date": "1949-06",
+            "name": "재무부의 미 연준 전문가 파견 요청",
+            "proposed_by": [
+              "pol-kim-do-yeon"
+            ],
+            "decided_by": [],
+            "executed_by": [],
+            "opposed_by": [],
+            "legal_authority": [
+              "재무부"
+            ],
+            "observed_by": [
+              "d114-bok-law-history"
+            ],
+            "later_finding": [],
+            "documentIds": [
+              "d114-bok-law-history"
+            ],
+            "caveat": "한국은행 후대 해설; 1949 원서한 미열람"
+          },
+          {
+            "id": "evt114-19500314-bank-cabinet",
+            "date": "1950-03-14",
+            "name": "한국은행법안 국무회의 심의 통과",
+            "proposed_by": [],
+            "decided_by": [
+              "대한민국 국무회의"
+            ],
+            "executed_by": [],
+            "opposed_by": [],
+            "legal_authority": [
+              "국무회의"
+            ],
+            "observed_by": [
+              "d114-bok-law-history"
+            ],
+            "later_finding": [],
+            "documentIds": [
+              "d114-bok-law-history"
+            ],
+            "caveat": "원 국무회의록 미열람"
+          },
+          {
+            "id": "evt114-19500421-bank-vote",
+            "date": "1950-04-21",
+            "name": "한국은행법·은행법 재정경제위 수정안 국회 가결",
+            "proposed_by": [],
+            "decided_by": [
+              "대한민국 국회"
+            ],
+            "executed_by": [],
+            "opposed_by": [],
+            "legal_authority": [
+              "국회"
+            ],
+            "observed_by": [
+              "d114-yonhap-19500423",
+              "d114-bok-law-history"
+            ],
+            "later_finding": [],
+            "documentIds": [
+              "d114-yonhap-19500423",
+              "d114-bok-law-history"
+            ],
+            "caveat": "78:6/재석102은 한국은행 후대 해설; 원속기록 확인 필요"
+          },
+          {
+            "id": "evt114-19500421-pm-appointment",
+            "date": "1950-04-21",
+            "name": "신성모 국무총리서리 임명 통고",
+            "proposed_by": [
+              "pol-rhee-syngman"
+            ],
+            "decided_by": [
+              "pol-rhee-syngman"
+            ],
+            "executed_by": [],
+            "opposed_by": [],
+            "legal_authority": [
+              "정부조직법 제12조(적용범위 쟁점)"
+            ],
+            "observed_by": [
+              "d114-hanseong-19500422"
+            ],
+            "later_finding": [],
+            "documentIds": [
+              "d114-hanseong-19500422"
+            ],
+            "caveat": "이승만의 서한 당대 전사, 원서한 미열람"
+          },
+          {
+            "id": "evt114-19500421-pm-objection",
+            "date": "1950-04-21",
+            "name": "국회 국무총리서리 임명 통고서 반환 결의",
+            "proposed_by": [],
+            "decided_by": [
+              "대한민국 국회"
+            ],
+            "executed_by": [],
+            "opposed_by": [
+              "pol-shin-sung-mo"
+            ],
+            "legal_authority": [
+              "정부조직법 제12조(해석 쟁점)"
+            ],
+            "observed_by": [
+              "d114-seoul-19500422"
+            ],
+            "later_finding": [],
+            "documentIds": [
+              "d114-seoul-19500422"
+            ],
+            "caveat": "신성모 개인에 대한 반대라기보다 절차·국회 인준권에 대한 반대. opposed_by는 해당 임명절차에 대한 국회로 별도 명시"
+          },
+          {
+            "id": "evt114-19500511-bank-setup",
+            "date": "1950-05-11",
+            "name": "한국은행 설립위원회 설치·임명",
+            "proposed_by": [],
+            "decided_by": [
+              "대한민국 정부"
+            ],
+            "executed_by": [
+              "pol-choi-soon-ju",
+              "pol-koo-yong-seo"
+            ],
+            "opposed_by": [],
+            "legal_authority": [
+              "대통령령 제350호"
+            ],
+            "observed_by": [
+              "d114-decree350",
+              "d114-bok-opening-history"
+            ],
+            "later_finding": [],
+            "documentIds": [
+              "d114-decree350",
+              "d114-bok-opening-history"
+            ],
+            "caveat": "법률 제138호 시행일 5/26과 준비행위 5/11의 관계는 별도 검토"
+          },
+          {
+            "id": "evt114-19500523-bank-rules",
+            "date": "1950-05-23",
+            "name": "한국은행 시행령과 대법원 등기규칙 정비",
+            "proposed_by": [],
+            "decided_by": [
+              "대한민국 정부",
+              "대법원"
+            ],
+            "executed_by": [],
+            "opposed_by": [],
+            "legal_authority": [
+              "대통령령 제359호",
+              "대법원규칙 제1호"
+            ],
+            "observed_by": [
+              "d114-decree359",
+              "d114-court-rule1"
+            ],
+            "later_finding": [],
+            "documentIds": [
+              "d114-decree359",
+              "d114-court-rule1"
+            ],
+            "caveat": "규정 제정은 실제 등기완료와 별개"
+          },
+          {
+            "id": "evt114-19500605-mpc",
+            "date": "1950-06-05",
+            "name": "초대 한국은행 총재 임명 및 첫 금융통화위원회 회의",
+            "proposed_by": [],
+            "decided_by": [
+              "금융통화위원회"
+            ],
+            "executed_by": [
+              "pol-koo-yong-seo"
+            ],
+            "opposed_by": [],
+            "legal_authority": [
+              "한국은행법 제138호"
+            ],
+            "observed_by": [
+              "d114-bok-opening-history"
+            ],
+            "later_finding": [],
+            "documentIds": [
+              "d114-bok-opening-history"
+            ],
+            "caveat": "후대 기관 해설, 1차 회의록 원면 미열람"
+          },
+          {
+            "id": "evt114-19500609-transfer",
+            "date": "1950-06-09",
+            "name": "조선은행과 한국은행 자산·부채 양도계약",
+            "proposed_by": [],
+            "decided_by": [],
+            "executed_by": [
+              "조선은행",
+              "한국은행"
+            ],
+            "opposed_by": [],
+            "legal_authority": [
+              "한국은행법 제138호"
+            ],
+            "observed_by": [
+              "d114-bok-transfer-index"
+            ],
+            "later_finding": [],
+            "documentIds": [
+              "d114-bok-transfer-index"
+            ],
+            "caveat": "계약 존재 색인 확인; 원계약서 미열람"
+          },
+          {
+            "id": "evt114-19500612-opening",
+            "date": "1950-06-12",
+            "name": "한국은행 업무 개시",
+            "proposed_by": [],
+            "decided_by": [],
+            "executed_by": [
+              "한국은행"
+            ],
+            "opposed_by": [],
+            "legal_authority": [
+              "한국은행법 제138호"
+            ],
+            "observed_by": [
+              "d114-bok-opening-history"
+            ],
+            "later_finding": [],
+            "documentIds": [
+              "d114-bok-opening-history"
+            ],
+            "caveat": "법적 설립·준비·업무개시 세 단계 분리"
+          }
+        ]
+      },
+      "provenance": "6471411c526e762d19492cbebfd1bf222ab9da8ebda6b91301efadb8e40ba4f6",
+      "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+    },
+    {
+      "source": "data/events/run114b-april21-actions.json",
+      "payload": {
+        "run": "114b",
+        "date": "2026-10-09",
+        "actions": [
+          {
+            "id": "act114b-pm-factions",
+            "date": "1950-04-21",
+            "title": "총리서리 임명에 대한 정파별 의견",
+            "proposed_by": [],
+            "decided_by": [],
+            "executed_by": [],
+            "opposed_by": [
+              "pol-jin-heon-sik",
+              "pol-seo-sang-il"
+            ],
+            "legal_authority": [],
+            "observed_by": [
+              "d114b-01"
+            ],
+            "later_finding": [],
+            "documentIds": [
+              "d114b-01"
+            ],
+            "uncertainty": "SOURCE_QUALIFIED"
+          },
+          {
+            "id": "act114b-daegu",
+            "date": "1950-04-21",
+            "title": "대구시 농지 경작권 경고",
+            "proposed_by": [],
+            "decided_by": [
+              "대구시청"
+            ],
+            "executed_by": [
+              "대구시청 농지계"
+            ],
+            "opposed_by": [],
+            "legal_authority": [],
+            "observed_by": [
+              "d114b-02"
+            ],
+            "later_finding": [],
+            "documentIds": [
+              "d114b-02"
+            ],
+            "uncertainty": "SOURCE_QUALIFIED"
+          },
+          {
+            "id": "act114b-shin",
+            "date": "1950-04-21",
+            "title": "신성모 총리서리 소감",
+            "proposed_by": [],
+            "decided_by": [],
+            "executed_by": [
+              "pol-shin-sung-mo"
+            ],
+            "opposed_by": [],
+            "legal_authority": [],
+            "observed_by": [
+              "d114b-03"
+            ],
+            "later_finding": [],
+            "documentIds": [
+              "d114b-03"
+            ],
+            "uncertainty": "SOURCE_QUALIFIED"
+          },
+          {
+            "id": "act114b-rhee-fiscal",
+            "date": "1950-04-21",
+            "title": "국채·복표 부담 관련 대통령 발언",
+            "proposed_by": [],
+            "decided_by": [],
+            "executed_by": [],
+            "opposed_by": [],
+            "legal_authority": [],
+            "observed_by": [
+              "d114b-04"
+            ],
+            "later_finding": [],
+            "documentIds": [
+              "d114b-04"
+            ],
+            "uncertainty": "SOURCE_QUALIFIED"
+          },
+          {
+            "id": "act114b-rhee-associations",
+            "date": "1950-04-21",
+            "title": "청년단 회비·민보단 관련 대통령 발언",
+            "proposed_by": [],
+            "decided_by": [],
+            "executed_by": [],
+            "opposed_by": [],
+            "legal_authority": [],
+            "observed_by": [
+              "d114b-04"
+            ],
+            "later_finding": [],
+            "documentIds": [
+              "d114b-04"
+            ],
+            "uncertainty": "SOURCE_QUALIFIED"
+          },
+          {
+            "id": "act114b-rhee-property",
+            "date": "1950-04-21",
+            "title": "귀속재산 매각절차 관련 대통령 발언",
+            "proposed_by": [
+              "pol-rhee-syngman(신문 전사)"
+            ],
+            "decided_by": [],
+            "executed_by": [],
+            "opposed_by": [],
+            "legal_authority": [],
+            "observed_by": [
+              "d114b-04"
+            ],
+            "later_finding": [],
+            "documentIds": [
+              "d114b-04"
+            ],
+            "uncertainty": "SOURCE_QUALIFIED"
+          },
+          {
+            "id": "act114b-uncok",
+            "date": "1950-04-21",
+            "title": "임병직 UNCOK 참관 초청",
+            "proposed_by": [
+              "pol-lim-byong-jik"
+            ],
+            "decided_by": [],
+            "executed_by": [
+              "외무부(신문 전사)"
+            ],
+            "opposed_by": [],
+            "legal_authority": [],
+            "observed_by": [
+              "d114b-05"
+            ],
+            "later_finding": [],
+            "documentIds": [
+              "d114b-05"
+            ],
+            "uncertainty": "SOURCE_QUALIFIED"
+          },
+          {
+            "id": "act114b-taiwan-report",
+            "date": "1950-04-21",
+            "title": "대만측 기지구상 제3자 전언",
+            "proposed_by": [],
+            "decided_by": [],
+            "executed_by": [],
+            "opposed_by": [],
+            "legal_authority": [],
+            "observed_by": [
+              "d114b-06"
+            ],
+            "later_finding": [],
+            "documentIds": [
+              "d114b-06"
+            ],
+            "uncertainty": "UNVERIFIED_THIRD_PARTY_REPORT"
+          },
+          {
+            "id": "act114b-security-amendment",
+            "date": "1950-04-21",
+            "title": "국가보안법 제128호 개정 공포",
+            "proposed_by": [],
+            "decided_by": [
+              "대한민국 국회"
+            ],
+            "executed_by": [],
+            "opposed_by": [],
+            "legal_authority": [
+              "법률 제128호"
+            ],
+            "observed_by": [
+              "d114b-08"
+            ],
+            "later_finding": [],
+            "documentIds": [
+              "d114b-08"
+            ],
+            "uncertainty": "SOURCE_QUALIFIED"
+          },
+          {
+            "id": "act114b-proclamation",
+            "date": "1950-04-21",
+            "title": "치안 포고·군정법령 정리 보도",
+            "proposed_by": [],
+            "decided_by": [
+              "대한민국 정부(신문 보도)"
+            ],
+            "executed_by": [],
+            "opposed_by": [],
+            "legal_authority": [],
+            "observed_by": [
+              "d114b-07"
+            ],
+            "later_finding": [],
+            "documentIds": [
+              "d114b-07"
+            ],
+            "uncertainty": "LEGAL_NUMBER_AMBIGUITY"
+          }
+        ]
+      },
+      "provenance": "9bbbaa5c6b81375a361d5d22d526dbaf75f54a536cc91f89b1f378ab269e0865",
+      "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+    },
+    {
+      "source": "data/events/run115-procedural-vote-correction.json",
+      "payload": {
+        "run": 115,
+        "corrections": [
+          {
+            "eventId": "evt115-19500313-secret-ballot-method",
+            "field": "proposed_by",
+            "oldValue": [
+              "cand115-pyo-hyeon-tae"
+            ],
+            "correctedValue": [
+              "cand115-kim-sang-don"
+            ],
+            "preserveInitialMotionBy": [
+              "cand115-pyo-hyeon-tae"
+            ],
+            "date": "2026-10-09",
+            "reason": "102:75:1 표결 대상은 김상돈의 별도 기표소 재개의. 표현대는 최초 무기명투표 동의자.",
+            "sourceDocumentId": "d115-assembly-19500313",
+            "status": "REVIEWED_CORRECTION_OVERLAY"
+          }
+        ]
+      },
+      "provenance": "a86af42f582d259ad205a584cc1ac5718a89ecee5182b5d5ffd9f1c21b5dda17",
+      "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+    },
+    {
+      "source": "data/events/run142-1948-constitutional-budget-votes.json",
+      "payload": {
+        "run": 142,
+        "actions": [
+          {
+            "id": "act142-1948-pm-approval",
+            "date": "1948-07-06",
+            "type": "CONSTITUTIONAL_AMENDMENT_VOTE",
+            "proposed_by": [
+              "pol-jin-heon-sik"
+            ],
+            "decided_by": [
+              "제헌국회 제26차"
+            ],
+            "observed_by": [
+              "d142-cons0460"
+            ],
+            "present": 165,
+            "yes": 117,
+            "no": 19,
+            "result": "PASSED",
+            "scope": "국무총리 국회 승인"
+          },
+          {
+            "id": "act142-1948-pm-nomination",
+            "date": "1948-07-06",
+            "type": "CONSTITUTIONAL_AMENDMENT_VOTE",
+            "proposed_by": [
+              "pol-jin-heon-sik"
+            ],
+            "opposed_by": [
+              "pol-r141-lee-yun-yeong",
+              "cand-r142-song-chang-sik"
+            ],
+            "decided_by": [
+              "제헌국회 제26차"
+            ],
+            "observed_by": [
+              "d142-cons0460"
+            ],
+            "present": 165,
+            "yes": 39,
+            "no": 90,
+            "result": "REJECTED",
+            "scope": "국무총리 국무위원 제청권"
+          },
+          {
+            "id": "act142-1948-budget-submit",
+            "date": "1948-07-06",
+            "type": "CONSTITUTIONAL_AMENDMENT_VOTE",
+            "proposed_by": [
+              "pol-jin-heon-sik"
+            ],
+            "decided_by": [
+              "제헌국회 제26차"
+            ],
+            "observed_by": [
+              "d142-cons0480"
+            ],
+            "present": 137,
+            "yes": 87,
+            "no": 10,
+            "result": "PASSED",
+            "scope": "정기회 개회초 정부예산안 제출"
+          },
+          {
+            "id": "act142-1948-provisional-budget",
+            "date": "1948-07-06",
+            "type": "CONSTITUTIONAL_AMENDMENT_VOTE",
+            "proposed_by": [
+              "pol-jin-heon-sik"
+            ],
+            "decided_by": [
+              "제헌국회 제26차"
+            ],
+            "observed_by": [
+              "d142-cons0490"
+            ],
+            "present": 137,
+            "yes": 112,
+            "no": 21,
+            "result": "PASSED",
+            "scope": "예산 미의결시 1개월 가예산 의결"
+          }
+        ]
+      },
+      "provenance": "6a05d054f59851060a5de3a072ae674ff0d94496c83b5d34372983f85c4aa76f",
+      "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+    },
+    {
+      "source": "data/events/run142-enforcement-actions.json",
+      "payload": {
+        "run": 142,
+        "subEvents": [
+          {
+            "id": "act142-01",
+            "date": "1953-04-14",
+            "parent": "evt-r141-07",
+            "action": "PRESIDENTIAL_ARCHIVE_DATE_CLAIM",
+            "observedBy": [
+              "d141-pa772"
+            ],
+            "state": "CONFLICTED"
+          },
+          {
+            "id": "act142-02",
+            "date": "1953-04-20",
+            "parent": "evt-r141-07",
+            "action": "MOLEG_PROMULGATION_DATE",
+            "observedBy": [
+              "d142-1953-index"
+            ],
+            "state": "CONFLICTED"
+          },
+          {
+            "id": "act142-03",
+            "date": "1953-04-20",
+            "parent": "evt-r141-09",
+            "action": "COMMISSION_MANAGEMENT_NORM",
+            "executedBy": [
+              "사회부장관: 중앙",
+              "특별시장·도지사: 지방"
+            ],
+            "observedBy": [
+              "d142-decree784"
+            ],
+            "state": "NORMATIVE_NOT_OBSERVED"
+          },
+          {
+            "id": "act142-04",
+            "date": "1953-04-20",
+            "action": "MINISTERIAL_RULE_9",
+            "executedBy": [
+              "시장·군수·구청장: 접수",
+              "특별시장·도지사: 취합",
+              "사회부장관: 상급 보고"
+            ],
+            "observedBy": [
+              "d142-rule9"
+            ],
+            "state": "NORMATIVE"
+          },
+          {
+            "id": "act142-05",
+            "date": "1953-05-01",
+            "action": "SUPREME_COURT_RULE_15",
+            "decidedBy": [
+              "대법원"
+            ],
+            "observedBy": [
+              "d142-rule15"
+            ],
+            "state": "INDEX_ONLY"
+          },
+          {
+            "id": "act142-06",
+            "date": "1953-06-03",
+            "action": "LAW_292_PROMULGATED",
+            "observedBy": [
+              "d142-law292"
+            ],
+            "state": "OFFICIAL_METADATA"
+          },
+          {
+            "id": "act142-07",
+            "date": "1953-06-27",
+            "parent": "evt-r141-10",
+            "action": "CABINET_DECISION",
+            "decidedBy": [
+              "국무회의"
+            ],
+            "observedBy": [
+              "d141-pa775"
+            ],
+            "state": "ARCHIVAL_DESCRIPTION"
+          },
+          {
+            "id": "act142-08",
+            "date": "1953-07-03",
+            "parent": "evt-r141-10",
+            "action": "DECREE_805_EFFECTIVE",
+            "observedBy": [
+              "d142-decree805"
+            ],
+            "state": "CONFLICTED"
+          },
+          {
+            "id": "act142-09",
+            "date": "1953-07-04",
+            "action": "LAW_292_EFFECTIVE",
+            "observedBy": [
+              "d142-law292"
+            ],
+            "state": "OFFICIAL_METADATA"
+          },
+          {
+            "id": "act142-10",
+            "date": "1953-07-12",
+            "parent": "evt-r141-10",
+            "action": "DECREE_805_PROMULGATED",
+            "observedBy": [
+              "d142-decree805",
+              "d141-pa775"
+            ],
+            "state": "OFFICIAL_METADATA"
+          }
+        ]
+      },
+      "provenance": "692c57e94f14f64ef2ff26ccf865887ba0ecc4db31180fddd3b72ea8b6e3bc01",
+      "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+    },
+    {
+      "source": "data/events/run149-actor-links.json",
+      "payload": {
+        "run": 149,
+        "date": "2026-10-11",
+        "actorLinks": [
+          {
+            "eventId": "evt-r149-1955-aid",
+            "actors": [
+              {
+                "id": "pol-paik-too-chin",
+                "role": "Korean delegation lead"
+              },
+              {
+                "id": "pol-sohn-won-yil",
+                "role": "delegation member"
+              }
+            ]
+          },
+          {
+            "eventId": "evt-r149-1955-democratic",
+            "actors": [
+              {
+                "id": "pol-r141-shin-ik-hui",
+                "role": "opposition party leader"
+              },
+              {
+                "id": "pol-cho-byeong-ok",
+                "role": "party faction participant"
+              },
+              {
+                "id": "pol-cho-bong-am",
+                "role": "separate progressive faction"
+              }
+            ]
+          },
+          {
+            "eventId": "evt-r149-1956-election",
+            "actors": [
+              {
+                "id": "pol-rhee-syngman",
+                "role": "presidential candidate"
+              },
+              {
+                "id": "pol-cho-bong-am",
+                "role": "presidential candidate"
+              },
+              {
+                "id": "pol-r141-shin-ik-hui",
+                "role": "deceased presidential candidate"
+              },
+              {
+                "id": "pol-r149-jang-myeon",
+                "role": "vice-president elect"
+              },
+              {
+                "id": "pol-yi-ki-pung",
+                "role": "vice-presidential candidate"
+              }
+            ]
+          },
+          {
+            "eventId": "evt-r149-1956-progressive",
+            "actors": [
+              {
+                "id": "pol-cho-bong-am",
+                "role": "party chair"
+              },
+              {
+                "id": "pol-r149-yun-gil-jung",
+                "role": "party secretary-general"
+              }
+            ]
+          },
+          {
+            "eventId": "evt-r149-1956-local-election",
+            "actors": [],
+            "note": "지역별 당선자 명부 미확보, 대통령 개인 집행으로 귀속하지 않음"
+          }
+        ],
+        "rule": "roles are document-scoped; no automatic assignment of proposal, order or culpability"
+      },
+      "provenance": "201fc95091c91c9252953e8ebb31665510046af5017d18359beb359540c2a1e7",
+      "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+    },
+    {
+      "source": "data/events/run150-local-election-date-correction.json",
+      "payload": {
+        "date": "2026-10-11",
+        "correctionId": "corr-r150-local-election-date",
+        "supersedesEventId": "evt-r149-1956-local-election",
+        "incorrectPriorDate": "1956-08-15",
+        "correctedDate": "1956-08-08",
+        "reason": "8월15일은 법률385 부칙의 선거 완료기한. 국가기록원 연표는 시읍면장·시읍면의회 선거 8월8일, 시도의회 선거 8월13일로 구분.",
+        "documentIds": [
+          "d150-archives-local-timeline",
+          "d149-law-385"
+        ],
+        "additionalEvent": {
+          "id": "evt-r150-1956-provincial-election",
+          "date": "1956-08-13",
+          "name": "1956 시·도의회 의원 선거",
+          "documentIds": [
+            "d150-archives-local-timeline"
+          ]
+        },
+        "status": "VERIFIED_CORRECTION_OVERLAY",
+        "applyToCentralRegistry": "PENDING",
+        "silentOverwrite": false
+      },
+      "provenance": "bfb3fe208a7898fe7deb261329a11a89ec08aab29d46fddcbd8aa5630fda57fa",
+      "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+    },
+    {
+      "source": "data/events/run153-actor-links.json",
+      "payload": {
+        "run": 153,
+        "date": "2026-10-11",
+        "links": [
+          {
+            "eventId": "evt-r153-1958-dec24-vote",
+            "personId": "pol-han-hui-seok",
+            "role": "국회부의장·경위권 행사로 후대 해제에 기재",
+            "documentIds": [
+              "d153-kdemo-security"
+            ],
+            "directOrderOfPresident": "NOT_ESTABLISHED"
+          },
+          {
+            "eventId": "evt-r153-1958-assembly-election",
+            "personId": "pol-rhee-syngman",
+            "role": "당시 대통령·자유당 총재, 선거 집행자로 자동 귀속하지 않음",
+            "documentIds": [
+              "d153-nec-election"
+            ]
+          },
+          {
+            "eventId": "evt-r153-1958-progressive-deregistration",
+            "personId": "pol-cho-bong-am",
+            "role": "진보당 관련 당사자, 취소 명령자 아님",
+            "documentIds": [
+              "d153-nec-election"
+            ]
+          }
+        ]
+      },
+      "provenance": "4cbe176874fdb45db6b37647f54d6addc1cd369300da4afd012a82c9ea722c88",
+      "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+    },
+    {
       "source": "data/evidence/ahn-jae-hong.json",
       "payload": {
         "politicianId": "pol-ahn-jae-hong",

@@ -4,10 +4,10 @@
   "centralSync": "PARTIAL",
   "eventSync": {
     "rootBefore": 2808,
-    "canonicalMaterialized": 2681,
-    "added": 0,
-    "merged": 2681,
-    "rootAfter": 2808,
+    "canonicalMaterialized": 6203,
+    "added": 3523,
+    "merged": 2680,
+    "rootAfter": 6331,
     "missingCanonicalIdsAfterSync": [],
     "duplicateRootIds": [],
     "fieldConflicts": [
@@ -241,11 +241,11 @@
     "skipped": []
   },
   "politicianSync": {
-    "rootBefore": 1342,
+    "rootBefore": 1348,
     "canonicalMaterialized": 1107,
     "added": 0,
     "manualAdded": 0,
-    "merged": 1101,
+    "merged": 1107,
     "rootAfter": 1348,
     "missingCanonicalIdsAfterSync": [],
     "fieldConflicts": [
@@ -371,6 +371,198 @@
           {
             "path": "data/politicians/run225-june1952-actors.json",
             "pointer": "/actors/13"
+          }
+        ],
+        "decision": "UNRESOLVED_SCALAR_CONFLICT",
+        "status": "UNRESOLVED_CONFLICT",
+        "recordedAt": "2026-11-22"
+      },
+      {
+        "kind": "politicians",
+        "id": "cand172-choe-chang-sun",
+        "field": "researchStatus",
+        "rootValue": "DISCOVERED",
+        "incomingValue": "IDENTIFIED",
+        "incomingProvenance": [
+          {
+            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
+            "pointer": "/politicians/223"
+          }
+        ],
+        "decision": "UNRESOLVED_SCALAR_CONFLICT",
+        "status": "UNRESOLVED_CONFLICT",
+        "recordedAt": "2026-11-22"
+      },
+      {
+        "kind": "politicians",
+        "id": "cand172-choe-chang-sun",
+        "field": "researchMaturity",
+        "rootValue": "DISCOVERED",
+        "incomingValue": "IDENTIFIED",
+        "incomingProvenance": [
+          {
+            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
+            "pointer": "/politicians/223"
+          }
+        ],
+        "decision": "UNRESOLVED_SCALAR_CONFLICT",
+        "status": "UNRESOLVED_CONFLICT",
+        "recordedAt": "2026-11-22"
+      },
+      {
+        "kind": "politicians",
+        "id": "cand172-choe-chol-kun",
+        "field": "researchStatus",
+        "rootValue": "DISCOVERED",
+        "incomingValue": "IDENTIFIED",
+        "incomingProvenance": [
+          {
+            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
+            "pointer": "/politicians/226"
+          }
+        ],
+        "decision": "UNRESOLVED_SCALAR_CONFLICT",
+        "status": "UNRESOLVED_CONFLICT",
+        "recordedAt": "2026-11-22"
+      },
+      {
+        "kind": "politicians",
+        "id": "cand172-choe-chol-kun",
+        "field": "researchMaturity",
+        "rootValue": "DISCOVERED",
+        "incomingValue": "IDENTIFIED",
+        "incomingProvenance": [
+          {
+            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
+            "pointer": "/politicians/226"
+          }
+        ],
+        "decision": "UNRESOLVED_SCALAR_CONFLICT",
+        "status": "UNRESOLVED_CONFLICT",
+        "recordedAt": "2026-11-22"
+      },
+      {
+        "kind": "politicians",
+        "id": "cand172-han-hong-i",
+        "field": "researchStatus",
+        "rootValue": "DISCOVERED",
+        "incomingValue": "IDENTIFIED",
+        "incomingProvenance": [
+          {
+            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
+            "pointer": "/politicians/225"
+          }
+        ],
+        "decision": "UNRESOLVED_SCALAR_CONFLICT",
+        "status": "UNRESOLVED_CONFLICT",
+        "recordedAt": "2026-11-22"
+      },
+      {
+        "kind": "politicians",
+        "id": "cand172-han-hong-i",
+        "field": "researchMaturity",
+        "rootValue": "DISCOVERED",
+        "incomingValue": "IDENTIFIED",
+        "incomingProvenance": [
+          {
+            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
+            "pointer": "/politicians/225"
+          }
+        ],
+        "decision": "UNRESOLVED_SCALAR_CONFLICT",
+        "status": "UNRESOLVED_CONFLICT",
+        "recordedAt": "2026-11-22"
+      },
+      {
+        "kind": "politicians",
+        "id": "cand172-walter-jhung",
+        "field": "researchStatus",
+        "rootValue": "DISCOVERED",
+        "incomingValue": "IDENTIFIED",
+        "incomingProvenance": [
+          {
+            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
+            "pointer": "/politicians/227"
+          }
+        ],
+        "decision": "UNRESOLVED_SCALAR_CONFLICT",
+        "status": "UNRESOLVED_CONFLICT",
+        "recordedAt": "2026-11-22"
+      },
+      {
+        "kind": "politicians",
+        "id": "cand172-walter-jhung",
+        "field": "researchMaturity",
+        "rootValue": "DISCOVERED",
+        "incomingValue": "IDENTIFIED",
+        "incomingProvenance": [
+          {
+            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
+            "pointer": "/politicians/227"
+          }
+        ],
+        "decision": "UNRESOLVED_SCALAR_CONFLICT",
+        "status": "UNRESOLVED_CONFLICT",
+        "recordedAt": "2026-11-22"
+      },
+      {
+        "kind": "politicians",
+        "id": "cand172-won-yong-tok",
+        "field": "researchStatus",
+        "rootValue": "DISCOVERED",
+        "incomingValue": "IDENTIFIED",
+        "incomingProvenance": [
+          {
+            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
+            "pointer": "/politicians/224"
+          }
+        ],
+        "decision": "UNRESOLVED_SCALAR_CONFLICT",
+        "status": "UNRESOLVED_CONFLICT",
+        "recordedAt": "2026-11-22"
+      },
+      {
+        "kind": "politicians",
+        "id": "cand172-won-yong-tok",
+        "field": "researchMaturity",
+        "rootValue": "DISCOVERED",
+        "incomingValue": "IDENTIFIED",
+        "incomingProvenance": [
+          {
+            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
+            "pointer": "/politicians/224"
+          }
+        ],
+        "decision": "UNRESOLVED_SCALAR_CONFLICT",
+        "status": "UNRESOLVED_CONFLICT",
+        "recordedAt": "2026-11-22"
+      },
+      {
+        "kind": "politicians",
+        "id": "cand172-yu-chang-chun",
+        "field": "researchStatus",
+        "rootValue": "DISCOVERED",
+        "incomingValue": "IDENTIFIED",
+        "incomingProvenance": [
+          {
+            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
+            "pointer": "/politicians/222"
+          }
+        ],
+        "decision": "UNRESOLVED_SCALAR_CONFLICT",
+        "status": "UNRESOLVED_CONFLICT",
+        "recordedAt": "2026-11-22"
+      },
+      {
+        "kind": "politicians",
+        "id": "cand172-yu-chang-chun",
+        "field": "researchMaturity",
+        "rootValue": "DISCOVERED",
+        "incomingValue": "IDENTIFIED",
+        "incomingProvenance": [
+          {
+            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
+            "pointer": "/politicians/222"
           }
         ],
         "decision": "UNRESOLVED_SCALAR_CONFLICT",
@@ -4049,16 +4241,9 @@
     "sourceCommit": "eb0efe46d2345811fa9eae8d22508b51dc0b4a8b",
     "sourceBlobSha": "60f9d08e86b678fbff2cc2fb073ef6ffaa844f01",
     "branchRecordCount": 453,
-    "addedToRoot": 6,
-    "addedIds": [
-      "cand172-choe-chang-sun",
-      "cand172-choe-chol-kun",
-      "cand172-han-hong-i",
-      "cand172-walter-jhung",
-      "cand172-won-yong-tok",
-      "cand172-yu-chang-chun"
-    ],
-    "variantRefsAdded": 447,
+    "addedToRoot": 0,
+    "addedIds": [],
+    "variantRefsAdded": 453,
     "variantRefIds": [
       "cand-r161-cheon-byeong-gyu",
       "cand-r161-han-tae-yeon",
@@ -4156,6 +4341,12 @@
       "cand-r224-shin-gak-hyu",
       "cand-r225-baek-nam-sik-1952",
       "cand-r225-kim-il-ro-1952",
+      "cand172-choe-chang-sun",
+      "cand172-choe-chol-kun",
+      "cand172-han-hong-i",
+      "cand172-walter-jhung",
+      "cand172-won-yong-tok",
+      "cand172-yu-chang-chun",
       "pol-ahn-jae-hong",
       "pol-ahn-seung-gwan-r159",
       "pol-baek-nam-hun",
@@ -4522,15 +4713,15 @@
     "status": "PARTIAL"
   },
   "rootFileHashes": {
-    "data/events.json": "48c1b4c7bff0d226a47abe2cf8060e317da57a36a610d9782cd135ea2ebef67a",
-    "data/politicians.json": "b4c7edb0815d44b6bcb34f53c7b16c9b6192ded9cd0e19e8df61b80702fee535"
+    "data/events.json": "13374843e6e4853e29a0b5223be61874291d96b0ca1e4bb701d7831bfdd1bc2e",
+    "data/politicians.json": "0ebca1b4fada469de137c3bb4c24d98f6ead4e7b37536b48454d83b1c8d418ee"
   },
   "rootFileCounts": {
-    "events": 2808,
+    "events": 6331,
     "politicians": 1348
   },
   "sourceIntegrationStatus": "FULL_INTEGRATION_INCOMPLETE",
-  "sourceConflictedIds": 615,
-  "sourceAuxiliaryRecords": 666,
+  "sourceConflictedIds": 618,
+  "sourceAuxiliaryRecords": 678,
   "policy": "Named pol-/cand-/candidate- records enter the domestic politician root. The six cand172- legacy snapshot IDs are imported only as DISCOVERED candidates; unresolved document/event/file references are moved to unresolvedSourceLinks and role text is explicitly unverified. No name-based promotion or identity merge. Shared variants retain source pointers; typed variants and unresolved scalar conflicts remain explicit."
 }
