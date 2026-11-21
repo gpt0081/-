@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "run": "run192",
+  "updated": "2026-10-27",
+  "politicians": [
+    {
+      "id": "pol-park-hon-yong",
+      "name": "박헌영",
+      "aliases": [
+        "朴憲永 (한자 별도 검증 필요)",
+        "Pak Hen Ien (UN S/1527 OCR 표기)",
+        "Pak Hon-yong"
+      ],
+      "roles": [
+        {
+          "period": "1950-06-29",
+          "title": "북한 외무상 명의 UN 사무총장 상대 결의83 반박 전문 서명",
+          "actionType": "DPRK_FOREIGN_MINISTER_SIGNED_DIPLOMATIC_STATEMENT",
+          "evidenceDocumentIds": [
+            "doc192-un-dprk-response"
+          ],
+          "eventIds": [
+            "evt-r192-15"
+          ],
+          "attribution": "UN S/1527 English translation original Russian; Korean signature name and Hanja require cross-check"
+        }
+      ],
+      "researchStatus": "IDENTIFIED",
+      "evidenceCoverage": {
+        "foreignDiplomaticStatement": [
+          "doc192-un-dprk-response"
+        ],
+        "birthDeath": "NOT_VERIFIED",
+        "appointments": "NOT_VERIFIED"
+      },
+      "eventIds": [
+        "evt-r192-15"
+      ],
+      "openLeads": [
+        "L192-22",
+        "L192-36"
+      ],
+      "registryScope": "EXTERNAL_KOREAN_POLITICAL_COUNTERPART_NOT_ROK_OFFICEHOLDER"
+    },
+    {
+      "id": "pol-chang-myon",
+      "name": "장면",
+      "action": {
+        "period": "1950-06-27",
+        "title": "UN 안보리 제474차 회의 대한민국 대표 초청 착석",
+        "actionType": "INVITED_NONVOTING_REPRESENTATIVE_AT_UNSC",
+        "evidenceDocumentIds": [
+          "doc192-un-sc83-meeting"
+        ],
+        "eventIds": [
+          "evt-r192-16"
+        ],
+        "attribution": "UN S/PV.474 원속기록 PDF 텍스트; 6/25 참석 소급 증명 아님",
+        "accessDate": "2026-10-27"
+      },
+      "researchStatus": "VERIFIED"
+    }
+  ]
+}
