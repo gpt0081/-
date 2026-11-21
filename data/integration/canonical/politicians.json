@@ -29810,6 +29810,53 @@
       }
     },
     {
+      "id": "pol-r164-kim-seong-su",
+      "name": "김성수",
+      "researchStatus": "VERIFIED",
+      "evidenceFile": "data/evidence/kim-seong-su.json",
+      "annalsFile": "data/annals/kim-seong-su.md",
+      "coverageFile": "data/research/kim-seong-su-coverage.json",
+      "openLeadsFile": "data/research/kim-seong-su-open-leads.json",
+      "researchRefs": [
+        "data/documents/run329-kim-seong-su-resignation.json",
+        "data/claims/run329-kim-seong-su-resignation.json",
+        "data/events/run329-kim-seong-su-resignation.json",
+        "data/events/run224-may1952-constitutional-pow-economy.json",
+        "data/evidence/kim-seong-su.json",
+        "data/annals/kim-seong-su.md",
+        "data/research/kim-seong-su-coverage.json",
+        "data/research/kim-seong-su-open-leads.json"
+      ],
+      "evidenceDocumentIds": [
+        "DOC-AKS-KIM-SEONG-SU-ENCYCLOPEDIA",
+        "DOC-AKS-BUSAN-POLITICAL-CRISIS",
+        "DOC-NIKH-DH025-19520529-0050",
+        "DOC-NIKH-DH025-19520628-0050",
+        "DOC-NIKH-TCCT-1955-02-18-0010",
+        "DOC-DONGA-2010-KIM-RESIGNATION-REPRODUCTION"
+      ],
+      "eventConnections": [
+        {
+          "eventId": "evt-1952-0529-kim-seong-su-resignation-submitted",
+          "actionType": "resignation_submitted"
+        },
+        {
+          "eventId": "evt-1952-0628-kim-seong-su-resignation-accepted",
+          "actionType": "resignation_accepted_by_assembly"
+        }
+      ],
+      "_integration": {
+        "id": "pol-r164-kim-seong-su",
+        "digest": "c815bc645b0199252ba8cf377f723c13a1b8b13f98c8eea2456ec062896d7565",
+        "provenance": [
+          {
+            "path": "data/politicians/run330-kim-seong-su-central-links.json",
+            "pointer": "/politicians/0"
+          }
+        ]
+      }
+    },
+    {
       "id": "pol-r189-jo-gwang-seop",
       "name": "조광섭",
       "aliases": [

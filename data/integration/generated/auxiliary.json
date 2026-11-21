@@ -9390,15 +9390,15 @@
       "source": "data/research/ACTIVE_RESEARCH_HANDOFF.json",
       "payload": {
         "schemaVersion": 1,
-        "updatedAt": "2026-10-30T00:17:34+09:00",
+        "updatedAt": "2026-11-22T06:09:18+09:00",
         "activeBranch": "main",
         "branchHead": "moving-ref:refs/heads/main",
-        "baseMain": "0bae0fd2c2ce592e6699095fbe4593d07e9b778e",
-        "status": "PASS258A_1954_FOA_PRIMARY_BUDGET_STAGE_ELECTION_NNSC",
-        "summary": "Pass257V FRUS d893,d894,d979 contemporaneous originals3; 1953-55 literacy chronology and 553-person statistics discrepancy; 1954 Hangul 6/26 vs 7/3; 1955 Daegu Maeil assault local party actors Hong Yeong-seop and Kim Min, Supreme Court date 1956-05-08 official archive vs 6/8 recent press; 19 distinct opened pages, 59 concrete leads, 10 prior leads followed, 15 event records, 20 claims; Floot untouched.",
-        "nextAction": "Read US FOA 1954-05-10 raw rubber $2.7m PA original procurement/shipment ledger; chemicals $2m requested PA blank; tire factory $0.5m plan; NIKH 1954 election 144 typo original correction; NNSC Won July30 command chain.",
+        "baseMain": "90e3bbea6b082e075d8c3cb6e57b6faf4fab5d56",
+        "status": "RUN330_CENTRAL_INTEGRATION_PARTIAL",
+        "summary": "Run330은 누적 연구자료 중앙 통합을 우선했다. 현재 main snapshot의 data/ 외부 integration source 2,269개를 source-triage로 파일별 분류: ID conflict 341, indexed-not-canonical-verified 595, non-JSON preserved 776, unmapped auxiliary/partial 554, operational roots 2, presidential backbone 1. Canonical source conflict IDs 584, exact duplicate IDs 11, auxiliary records 675, unintegrated sources 561. Operational links 201 linked / 310 unlinked. Kim Seong-su Pass329의 문서·주장·사건·인물·실록 참조를 shard index로 연결. 중앙 root sync는 PARTIAL; Floot untouched.",
+        "nextAction": "Run331: 584 source-level conflicting IDs 중 문서/주장/사건/정치인별 원문 계보를 대조하고, 341 conflict-marked source files를 우선 triage. 이어 554 unmapped auxiliary/partial records와 310 unlinked operational files를 stable ID 기반으로 연결. PR #73/#74 changed paths는 main에서 34/34 존재 확인됐으나 semantic cross-registry reconciliation은 미완료.",
         "mainDataModified": true,
-        "latestRun": "data/research/run-reports/pass-258a-2026-10-30.md",
+        "latestRun": "data/research/runs/2026-11-22-run330-integration-report.md",
         "latestCorrections": [
           {
             "run": 93,
@@ -9825,8 +9825,8 @@
           ],
           "newPolitician": "pol-cho-chung-whan"
         },
-        "latestResearchLedger": "data/research/runs/pass-239l2-execution-ledger.json",
-        "latestLeadQueue": "data/research/leads/pass-250-next-originals.json",
+        "latestResearchLedger": "data/research/runs/2026-11-22-run330-integration-ledger.json",
+        "latestLeadQueue": "data/research/lead-queues/run330-next-integration.json",
         "latestEvidenceSync": [
           "data/evidence/rhee-syngman.json",
           "data/evidence/sohn-won-yil.json",
@@ -9872,9 +9872,9 @@
           "data/research/leads/pass-250-next-originals.json",
           "data/research/pass-250-execution-report.md"
         ],
-        "lastRunPass": 253,
-        "lastRunReport": "data/research/run-reports/pass-258f-2026-10-30.md",
-        "lastRunLedger": "data/research/pass-258f-execution-ledger.json",
+        "lastRunPass": 330,
+        "lastRunReport": "data/research/runs/2026-11-22-run330-integration-report.md",
+        "lastRunLedger": "data/research/runs/2026-11-22-run330-integration-ledger.json",
         "lastRunCommits": [
           "7a4051647201d8ed75bf38c14cc412002278bb06",
           "1063cddab5629892d275721e393bb5b6a6e8fcd2",
@@ -9883,21 +9883,20 @@
           "67187f743c765255139ff93710b74134d5566fb6"
         ],
         "nextPriorityQueue": [
-          "data/research/leads/pass-257w-1954-election-geneva-next.json",
-          "data/research/leads/pass-257v-1953-55-education-press-originals.json",
-          "data/research/leads/pass-257u-housing-press-originals.json",
-          "data/research/leads/pass-257t-presidential-originals.json",
-          "data/research/leads/pass-255g-next-originals.json",
-          "data/research/leads/pass-253f-next-originals.json",
-          "data/research/leads/pass-253e-next-originals.json",
-          "data/research/leads/pass-253d-next-originals.json",
-          "data/research/leads/pass-253-next-originals.json"
+          "data/research/lead-queues/run330-next-integration.json",
+          "data/research/registry/2026-11-15-pr73-74-main-shard-audit.json",
+          "data/integration/generated/report.json",
+          "data/integration/generated/root-sync-report.json",
+          "data/integration/generated/operational-links.json",
+          "data/integration/generated/source-triage.json",
+          "data/research/kim-seong-su-open-leads.json"
         ],
         "notes": [
           "pass253 total 102 unique opened texts, 83 events, 55 claims, 97 leads, central 938 events; do not repeat already verified",
           "Priority 1952-08-05 official election returns vs US embassy attribution, 9/15 Busan court first-instance, 9/12 Pyun POW objection, CEB crop originals",
           "9/8 grain 5.08x vs 9/12 5.08% CONFLICTED until 8/29 cabinet original",
-          "Floot untouched. Thursday no Sunday full debt sweep; do not update last_full_review"
+          "Floot untouched. Thursday no Sunday full debt sweep; do not update last_full_review",
+          "Run330 2026-11-22: source inventory 2,269 files; 584 conflicting IDs; 561 unintegrated sources; central root sync PARTIAL. PR73/74 34/34 changed paths present on main; semantic integration still open. Weekly history-debt full review not run; do not change last_full_review."
         ],
         "recentResearchPass255G": {
           "date": "2026-10-29",
@@ -9945,7 +9944,7 @@
             "Do not claim 1h execution"
           ]
         },
-        "latestRunLabel": "258F",
+        "latestRunLabel": "330-INTEGRATION",
         "recentResearchPass257W": {
           "date": "2026-10-29",
           "report": "data/research/run-reports/pass-257w-2026-10-29.md",
@@ -10049,9 +10048,32 @@
             "DOC-P258F-SCHOOL-DECREE-1168"
           ],
           "topNewDebt": "1956 decree1168 promulgation July14 vs stated effective April1"
+        },
+        "latestIntegrationAudit": {
+          "date": "2026-11-22",
+          "baseCommit": "90e3bbea6b082e075d8c3cb6e57b6faf4fab5d56",
+          "sourceFiles": 2269,
+          "sourceStatusCounts": {
+            "BLOCKED_ID_CONFLICT": 341,
+            "INDEXED_NOT_CANONICAL_VERIFIED": 595,
+            "NON_JSON_PRESERVED": 776,
+            "UNMAPPED_AUXILIARY_OR_PARTIAL": 554,
+            "OPERATIONAL_ROOT_PRESERVED": 2,
+            "PRESIDENTIAL_BACKBONE_PRESERVED": 1
+          },
+          "conflictedIds": 584,
+          "exactDuplicateIds": 11,
+          "auxiliaryRecords": 675,
+          "unintegratedSources": 561,
+          "rootSync": "PARTIAL",
+          "operationalLinks": {
+            "linked": 201,
+            "unlinked": 310
+          },
+          "weeklyHistoryDebtReview": "NOT_RUN"
         }
       },
-      "provenance": "0d025d61a27b6f0fd52194db01a0b84c16b2934d1445bd33bc1f93eac392f99a",
+      "provenance": "1222308c7f513246dc4e9277f5a7fd5fe9961a4776d96ff154bbbba657f99128",
       "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
     },
     {
@@ -39391,6 +39413,542 @@
         ]
       },
       "provenance": "8d29cef30b3bc3e93c6e77a718ac1795fec29c5b24dd5c73ff9e925d5a672a8d",
+      "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+    },
+    {
+      "source": "data/research/lead-queues/run330-next-integration.json",
+      "payload": {
+        "schemaVersion": 1,
+        "run": 330,
+        "createdAt": "2026-11-22",
+        "purpose": "다음 실행의 우선 통합·검증 표적. 키워드가 아니라 기관·문서·ID·다음 조치를 지정한다.",
+        "status": "OPEN",
+        "leads": [
+          {
+            "id": "INT330-001",
+            "priority": "HIGH",
+            "status": "OPEN",
+            "targetInstitution": "국사편찬위원회 전자사료관·자료대한민국사",
+            "targetDocument": "DOC-AKS-YUN-U-GYEONG의 원문 위치·작성일·문서유형을 pass-230 및 pass-231 evidence variant와 대조",
+            "why": "동일 stable document ID가 서로 다른 evidence shard에 두 번 등장해 제목·출처유형·원문 위치가 같은지 확인해야 한다.",
+            "sourcePaths": [
+              "data/research/evidence/pass-230-yun-u-gyeong-command-boundary.json",
+              "data/research/evidence/pass-231-yun-u-gyeong-chronology-unit-correction.json"
+            ],
+            "relatedEntityIds": [
+              "DOC-AKS-YUN-U-GYEONG"
+            ],
+            "nextAction": "두 레코드 원문 URL과 NIKH document ID를 대조하고 canonical document 1건에 두 provenance pointer를 보존."
+          },
+          {
+            "id": "INT330-002",
+            "priority": "HIGH",
+            "status": "OPEN",
+            "targetInstitution": "미 국무부 FRUS 편찬본·국사편찬위원회 한국사DB",
+            "targetDocument": "FRUS 1952-54 Korea XV/1 documents 181 원문과 편집각주",
+            "why": "pass-229 document shard와 2026-11-12 graph overlay가 DOC-FRUS-1952-XV1-181에 서로 다른 payload를 제공한다.",
+            "sourcePaths": [
+              "data/documents/pass-229-1952-cabinet-economy-trial.json",
+              "data/research/graphs/2026-11-12-1916-frus181-182-overlay.json"
+            ],
+            "relatedEntityIds": [
+              "DOC-FRUS-1952-XV1-181"
+            ],
+            "nextAction": "FRUS 본문과 각주를 분리해 문서 메타데이터를 정규화하고 편집각주를 원문으로 중복 계산하지 않는다."
+          },
+          {
+            "id": "INT330-003",
+            "priority": "HIGH",
+            "status": "OPEN",
+            "targetInstitution": "미 국무부 FRUS 편찬본·국사편찬위원회 한국사DB",
+            "targetDocument": "FRUS 1952-54 Korea XV/1 document 182 원문·발신/수신 메타데이터",
+            "why": "DOC-FRUS-1952-XV1-182가 pass-229와 graph overlay에서 중복되며 작성일·발신자·문서유형을 확인해야 한다.",
+            "sourcePaths": [
+              "data/documents/pass-229-1952-cabinet-economy-trial.json",
+              "data/research/graphs/2026-11-12-1916-frus181-182-overlay.json"
+            ],
+            "relatedEntityIds": [
+              "DOC-FRUS-1952-XV1-182"
+            ],
+            "nextAction": "원문 헤더를 기준으로 canonical metadata를 정하고 overlay의 분석 내용은 claim/evidence layer로 이동."
+          },
+          {
+            "id": "INT330-004",
+            "priority": "HIGH",
+            "status": "OPEN",
+            "targetInstitution": "국사편찬위원회 한국사DB·동시대 신문 원지면",
+            "targetDocument": "1952-05-24 계엄 관련 사설의 원작성 신문·발행일·편집자 주 구분",
+            "why": "DOC-FRUS-19520524-MARTIAL-LAW-EDITORIAL가 두 evidence shard에서 중복되며 FRUS 편집각주와 한국 언론 사설이 혼동될 위험이 있다.",
+            "sourcePaths": [
+              "data/research/evidence/pass-230-yun-u-gyeong-command-boundary.json",
+              "data/research/evidence/pass-231-yun-u-gyeong-chronology-unit-correction.json"
+            ],
+            "relatedEntityIds": [
+              "DOC-FRUS-19520524-MARTIAL-LAW-EDITORIAL"
+            ],
+            "nextAction": "원작성 신문 원지면을 찾고 FRUS editorial note는 별도 document kind로 분리."
+          },
+          {
+            "id": "INT330-005",
+            "priority": "HIGH",
+            "status": "OPEN",
+            "targetInstitution": "국사편찬위원회 자료대한민국사 제25권·신문 원지면",
+            "targetDocument": "1952-05-24 이범석 내무부장관 관련 동시대 신문 기사",
+            "why": "DOC-NIKH-DH-19520524-LEE-BEOMSEOK-INTERIOR가 pass-228과 pass-229에서 다른 설명으로 중복 등록됐다.",
+            "sourcePaths": [
+              "data/research/evidence/pass-228-jang-seok-yun-transition-and-assassination-warning.json",
+              "data/research/evidence/pass-229-jang-seok-yun-may23-attribution.json"
+            ],
+            "relatedEntityIds": [
+              "DOC-NIKH-DH-19520524-LEE-BEOMSEOK-INTERIOR"
+            ],
+            "nextAction": "국편 item ID와 원출전·제목·본문을 비교하고 동일 원문이면 document ID 하나에 provenance 두 개를 보존."
+          },
+          {
+            "id": "INT330-006",
+            "priority": "HIGH",
+            "status": "OPEN",
+            "targetInstitution": "국가법령정보센터·관보 원면",
+            "targetDocument": "법률 제388호 1956-07-08 관보 원면과 법제처 개정문",
+            "why": "DOC-P246-GAZ-388이 pass246 법률자료와 pass247e 법률 crosswalk에서 중복·상이 payload로 기록됐다.",
+            "sourcePaths": [
+              "data/documents/pass-246-1956-1960-law-and-identity.json",
+              "data/documents/pass-247e-1960-legal-text-crosswalk.json"
+            ],
+            "relatedEntityIds": [
+              "DOC-P246-GAZ-388"
+            ],
+            "nextAction": "관보 제1591호 원면과 법제처 메타데이터를 분리해 원문·후대 crosswalk를 구분."
+          },
+          {
+            "id": "INT330-007",
+            "priority": "MEDIUM",
+            "status": "OPEN",
+            "targetInstitution": "국가법령정보센터·관보 원면",
+            "targetDocument": "법률 제551호 1960년 개정 법령 원문",
+            "why": "DOC-P246-GAZ-551 중복 variant의 날짜·공포번호·개정문 차이를 확인해야 한다.",
+            "sourcePaths": [
+              "data/documents/pass-246-1956-1960-law-and-identity.json",
+              "data/documents/pass-247e-1960-legal-text-crosswalk.json"
+            ],
+            "relatedEntityIds": [
+              "DOC-P246-GAZ-551"
+            ],
+            "nextAction": "원관보와 법제처 연혁을 비교해 문서번호·날짜를 분리 보존."
+          },
+          {
+            "id": "INT330-008",
+            "priority": "MEDIUM",
+            "status": "OPEN",
+            "targetInstitution": "국가법령정보센터·관보 원면",
+            "targetDocument": "법률 제552호 1960년 개정 법령 원문",
+            "why": "DOC-P246-GAZ-552가 두 registry shard에 중복된다.",
+            "sourcePaths": [
+              "data/documents/pass-246-1956-1960-law-and-identity.json",
+              "data/documents/pass-247e-1960-legal-text-crosswalk.json"
+            ],
+            "relatedEntityIds": [
+              "DOC-P246-GAZ-552"
+            ],
+            "nextAction": "법률번호와 원관보 페이지를 대조하고 동일 원작성 법령이면 재사용."
+          },
+          {
+            "id": "INT330-009",
+            "priority": "MEDIUM",
+            "status": "OPEN",
+            "targetInstitution": "국가법령정보센터·관보 원면",
+            "targetDocument": "법률 제557호 1960년 개정 법령 원문",
+            "why": "DOC-P246-GAZ-557 중복 variant의 작성일·공포일·수록 위치를 검증해야 한다.",
+            "sourcePaths": [
+              "data/documents/pass-246-1956-1960-law-and-identity.json",
+              "data/documents/pass-247e-1960-legal-text-crosswalk.json"
+            ],
+            "relatedEntityIds": [
+              "DOC-P246-GAZ-557"
+            ],
+            "nextAction": "관보 원면을 canonical original로 두고 crosswalk는 contextual source로 연결."
+          },
+          {
+            "id": "INT330-010",
+            "priority": "MEDIUM",
+            "status": "OPEN",
+            "targetInstitution": "국가법령정보센터·관보 원면",
+            "targetDocument": "법률 제563호 1960년 개정 법령 원문",
+            "why": "DOC-P246-GAZ-563의 중복 payload가 문서 registry 중복 109건 중 하나다.",
+            "sourcePaths": [
+              "data/documents/pass-246-1956-1960-law-and-identity.json",
+              "data/documents/pass-247e-1960-legal-text-crosswalk.json"
+            ],
+            "relatedEntityIds": [
+              "DOC-P246-GAZ-563"
+            ],
+            "nextAction": "원문·개정연혁·crosswalk를 비교해 한 document object에 통합."
+          },
+          {
+            "id": "INT330-011",
+            "priority": "HIGH",
+            "status": "OPEN",
+            "targetInstitution": "국회도서관 헌정사자료DB·국회회의록",
+            "targetDocument": "1960년 국회 회의록 DOC-P247D-NA-110의 원속기록",
+            "why": "pass247d assembly originals와 pass247e legal crosswalk가 동일 문서 ID를 공유한다.",
+            "sourcePaths": [
+              "data/documents/pass-247d-korean-assembly-originals.json",
+              "data/documents/pass-247e-1960-legal-text-crosswalk.json"
+            ],
+            "relatedEntityIds": [
+              "DOC-P247D-NA-110"
+            ],
+            "nextAction": "원속기록 회의차수·일자·의안번호를 확인하고 crosswalk의 후대 요약을 구분."
+          },
+          {
+            "id": "INT330-012",
+            "priority": "HIGH",
+            "status": "OPEN",
+            "targetInstitution": "국회도서관 헌정사자료DB·국회회의록",
+            "targetDocument": "1960년 국회 회의록 DOC-P247D-NA-120의 원속기록",
+            "why": "DOC-P247D-NA-120이 원문 shard와 crosswalk에서 중복된다.",
+            "sourcePaths": [
+              "data/documents/pass-247d-korean-assembly-originals.json",
+              "data/documents/pass-247e-1960-legal-text-crosswalk.json"
+            ],
+            "relatedEntityIds": [
+              "DOC-P247D-NA-120"
+            ],
+            "nextAction": "원문 회의록의 표결·발의자·회의차수를 대조하고 동일 ID 재사용."
+          },
+          {
+            "id": "INT330-013",
+            "priority": "MEDIUM",
+            "status": "OPEN",
+            "targetInstitution": "국사편찬위원회·국가기록원",
+            "targetDocument": "1954년 국무회의 안건 목록 DOC-P257R-NAK-AGENDA와 실제 국무회의록",
+            "why": "pass257r와 pass257v primary-read overlay가 같은 ID를 사용하지만 색인·원문 여부가 다를 수 있다.",
+            "sourcePaths": [
+              "data/documents/pass-257r-1954-policy-election-frus.json",
+              "data/research/primary-reads/pass-257v-2026-10-29.json"
+            ],
+            "relatedEntityIds": [
+              "DOC-P257R-NAK-AGENDA"
+            ],
+            "nextAction": "문서 자체를 직접 연 것인지 검색색인만 확인한 것인지 document_kind와 original_text_opened를 재검증."
+          },
+          {
+            "id": "INT330-014",
+            "priority": "MEDIUM",
+            "status": "OPEN",
+            "targetInstitution": "국사편찬위원회·국가기록원",
+            "targetDocument": "1954년 문해·교육 통계 원문 DOC-P257R-NAK-LITERACY",
+            "why": "동일 ID가 registry와 primary-read에 중복되며 통계 원표와 후대 해제를 분리해야 한다.",
+            "sourcePaths": [
+              "data/documents/pass-257r-1954-policy-election-frus.json",
+              "data/research/primary-reads/pass-257v-2026-10-29.json"
+            ],
+            "relatedEntityIds": [
+              "DOC-P257R-NAK-LITERACY"
+            ],
+            "nextAction": "원표·해제·전사별 분모·단위·기준일을 기록하고 provenance family를 정리."
+          },
+          {
+            "id": "INT330-015",
+            "priority": "MEDIUM",
+            "status": "OPEN",
+            "targetInstitution": "국사편찬위원회·국가기록원",
+            "targetDocument": "1954년 교육정책 연표 DOC-P257R-NAK-TIMELINE",
+            "why": "timeline 요약이 원문 문서로 잘못 계산되지 않도록 문서 유형을 확인해야 한다.",
+            "sourcePaths": [
+              "data/documents/pass-257r-1954-policy-election-frus.json",
+              "data/research/primary-reads/pass-257v-2026-10-29.json"
+            ],
+            "relatedEntityIds": [
+              "DOC-P257R-NAK-TIMELINE"
+            ],
+            "nextAction": "원문·편찬 연표·검색색인을 구분해 canonical document에 출처 역할을 부여."
+          },
+          {
+            "id": "INT330-016",
+            "priority": "HIGH",
+            "status": "OPEN",
+            "targetInstitution": "국가법령정보센터·국가기록원 호적 원문",
+            "targetDocument": "cand-1952-cho-ju-yong 생몰·출생기록",
+            "why": "중앙 정치인 root의 VERIFIED와 source variant의 VERIFIED_IDENTITY_CONFLICTED_BIRTH가 공존한다.",
+            "sourcePaths": [
+              "data/research/politicians/pass-233-notice37-signers.json"
+            ],
+            "relatedEntityIds": [
+              "cand-1952-cho-ju-yong"
+            ],
+            "nextAction": "한자·생몰·시기별 공직을 독립 확인하고 출생 충돌을 identityCaveat로 보존."
+          },
+          {
+            "id": "INT330-017",
+            "priority": "HIGH",
+            "status": "OPEN",
+            "targetInstitution": "관보·국가법령정보센터",
+            "targetDocument": "1956년 법률 제385·388호 및 1958년 법률 제469·470호의 李應俊/이옹준 원면",
+            "why": "cand-p245-lee-ong-jun은 전사 오탈자와 동명이인 가능성을 포함한다.",
+            "sourcePaths": [
+              "data/politicians/pass-245-gazette-ministers.json"
+            ],
+            "relatedEntityIds": [
+              "cand-p245-lee-ong-jun"
+            ],
+            "nextAction": "관보 원면의 한자와 서명·직책을 확인하기 전 후보 상태 DISCOVERED 유지."
+          },
+          {
+            "id": "INT330-018",
+            "priority": "MEDIUM",
+            "status": "OPEN",
+            "targetInstitution": "국사편찬위원회 자료대한민국사·충청남도 관보",
+            "targetDocument": "1952-09 충남 성락서 후보의 원임명·직책·한자",
+            "why": "evidenceCoverage가 문서 ID 배열과 일반 설명 문자열로 충돌한다.",
+            "sourcePaths": [
+              "data/politicians/pass-232-1952-september-actors.json"
+            ],
+            "relatedEntityIds": [
+              "cand-1952-sep-chungnam-seong-rak-seo"
+            ],
+            "nextAction": "문서 ID는 evidenceDocumentIds로, 설명은 evidenceCoverageNotes로 분리하고 원임명일을 확인."
+          },
+          {
+            "id": "INT330-019",
+            "priority": "MEDIUM",
+            "status": "OPEN",
+            "targetInstitution": "경기도 관보·국가기록원 지방행정 기록",
+            "targetDocument": "1952-09 경기 김영기 후보의 임명·당적 원문",
+            "why": "evidenceCoverage 배열과 문자열 variant가 같은 필드에 저장되어 유형 충돌을 일으킨다.",
+            "sourcePaths": [
+              "data/politicians/pass-232-1952-september-actors.json"
+            ],
+            "relatedEntityIds": [
+              "cand-1952-sep-gyeonggi-kim-yeong-gi"
+            ],
+            "nextAction": "원문 문서 ID와 설명을 별도 필드로 정규화."
+          },
+          {
+            "id": "INT330-020",
+            "priority": "MEDIUM",
+            "status": "OPEN",
+            "targetInstitution": "자유당 공식 당적자료·국회도서관",
+            "targetDocument": "1953년 조정훈 후보의 원외 자유당 가입원장",
+            "why": "당대 보도 기반 가입 주장과 공식 당적원장 미확보 상태를 분리해야 한다.",
+            "sourcePaths": [
+              "data/politicians/pass-257-1953-party-policing-evidence.json"
+            ],
+            "relatedEntityIds": [
+              "cand-p257-cho-jeong-hun-1953"
+            ],
+            "nextAction": "원외 당원명부 또는 당 조직부 등록대장 확인 전 partyAffiliation을 미확인으로 유지."
+          },
+          {
+            "id": "INT330-021",
+            "priority": "MEDIUM",
+            "status": "OPEN",
+            "targetInstitution": "정치사회단체 준비위원회·자유당 조직부 기록",
+            "targetDocument": "1953년 진승국 후보의 정당 가입 여부와 단체 직책",
+            "why": "정치사회단체 준비위 참여가 정당 가입으로 오인될 수 있다.",
+            "sourcePaths": [
+              "data/politicians/pass-257-1953-party-policing-evidence.json"
+            ],
+            "relatedEntityIds": [
+              "cand-p257-jin-seung-guk-1953"
+            ],
+            "nextAction": "준비위 회의록과 당원명부를 별도로 확인하고 당적 추정 금지."
+          },
+          {
+            "id": "INT330-022",
+            "priority": "MEDIUM",
+            "status": "OPEN",
+            "targetInstitution": "국사편찬위원회 우리역사넷·국방부 관보",
+            "targetDocument": "1954-04-19 이범녕 관련 개헌사 서술 및 파견 공문",
+            "why": "promotionReason 두 variant는 실명 출현과 신원 확인 범위를 다르게 서술한다.",
+            "sourcePaths": [
+              "data/politicians/pass-257w-1954-election-geneva-actors.json"
+            ],
+            "relatedEntityIds": [
+              "cand-p257w-lee-beom-nyeong"
+            ],
+            "nextAction": "한자·생몰·동일인·파견 공문 확인 전 VERIFIED 승격 금지."
+          },
+          {
+            "id": "INT330-023",
+            "priority": "HIGH",
+            "status": "OPEN",
+            "targetInstitution": "국회 회의록·국가법령정보센터·대통령기록관",
+            "targetDocument": "1952 부산정치파동 사건의 발췌개헌 표결·계엄 공포·의원 연행 원문",
+            "why": "evt-1952-pusan-political-crisis의 명칭과 evidenceState가 root와 pass318 shard에서 다르다.",
+            "sourcePaths": [
+              "data/events.json",
+              "data/events/pass318-rhee-events.json"
+            ],
+            "relatedEntityIds": [
+              "evt-1952-pusan-political-crisis"
+            ],
+            "nextAction": "사건 전체명과 하위행위를 분리하고 deep-crosschecked와 NARROWED의 적용 범위를 review history에 기록."
+          },
+          {
+            "id": "INT330-024",
+            "priority": "MEDIUM",
+            "status": "OPEN",
+            "targetInstitution": "한미경제조정협정 원문·합동경제위원회 회의록",
+            "targetDocument": "1952년 마이어협정의 서명본·위원회 설치·첫 회의 기록",
+            "why": "evt-1952-meyer-economic-coordination의 명칭 variant가 협정과 합동경제위원회 설치를 하나로 합쳤을 가능성이 있다.",
+            "sourcePaths": [
+              "data/research/events/pass-240-busan-crisis-subevents.json"
+            ],
+            "relatedEntityIds": [
+              "evt-1952-meyer-economic-coordination"
+            ],
+            "nextAction": "협정 체결과 위원회 운영을 sub-event로 분리할지 원문 근거로 판단."
+          },
+          {
+            "id": "INT330-025",
+            "priority": "HIGH",
+            "status": "OPEN",
+            "targetInstitution": "국회 회의록·국가법령정보센터",
+            "targetDocument": "1954-03-09·13·15 헌법 경제조항 철회 요구·정부 철회 승인 원속기록",
+            "why": "evt-p239m-01은 RESOLVED_WITH_OPEN_CAUSATION과 NARROWED가 충돌한다.",
+            "sourcePaths": [
+              "data/events/pass-239m-1954-constitutional-actions.json"
+            ],
+            "relatedEntityIds": [
+              "evt-p239m-01"
+            ],
+            "nextAction": "철회 승인 사실과 내부 동기·후속 재발의 인과를 별도 claim으로 유지."
+          },
+          {
+            "id": "INT330-026",
+            "priority": "MEDIUM",
+            "status": "OPEN",
+            "targetInstitution": "국가보훈부·국가기록원·진실화해위",
+            "targetDocument": "1961-02-02 위원회 설치·조사 원문 및 후대 보고",
+            "why": "evt-p249-1961-0202-committee의 CATALOG_SNIPPET_ONLY와 NARROWED가 충돌한다.",
+            "sourcePaths": [
+              "data/events/pass-249-civil-rights-and-seoul.json"
+            ],
+            "relatedEntityIds": [
+              "evt-p249-1961-0202-committee"
+            ],
+            "nextAction": "원설치법·관보·조사보고서 직접 열람 여부에 따라 evidenceState를 재평가."
+          },
+          {
+            "id": "INT330-027",
+            "priority": "MEDIUM",
+            "status": "OPEN",
+            "targetInstitution": "국제적십자위원회·국사편찬위원회·UN 기록원",
+            "targetDocument": "1950~1952 ICRC·UN Pongam 사건 관련 원문 서한·현장 보고",
+            "why": "1950 ICRC/UN annals는 operational-links에서 stable ID가 없어 unlinked로 분류된다.",
+            "sourcePaths": [
+              "data/annals/1950-icrc-1952-un-pongam-crossprovenance.md",
+              "data/events/pass-234-addendum-1950-icrc-un-1952.json"
+            ],
+            "relatedEntityIds": [],
+            "nextAction": "annals 본문에서 이미 등록된 event/document IDs를 확인해 명시적 cross-link를 추가."
+          },
+          {
+            "id": "INT330-028",
+            "priority": "MEDIUM",
+            "status": "OPEN",
+            "targetInstitution": "국회도서관·노동부·국가기록원",
+            "targetDocument": "1951~1953 전시 노동·국회 감독 관련 회의록과 노동법 원문",
+            "why": "전시 노동·국회 annals 1건이 ID 없는 서술형 파일로 남아 있다.",
+            "sourcePaths": [
+              "data/annals/1951-1953-wartime-labor-parliament-archive.md",
+              "data/documents/pass-236-labor-law-registry.json"
+            ],
+            "relatedEntityIds": [],
+            "nextAction": "원문에서 확인되는 정치인·법률·사건 ID를 부가하고 단순 파일명 추론은 금지."
+          },
+          {
+            "id": "INT330-029",
+            "priority": "MEDIUM",
+            "status": "OPEN",
+            "targetInstitution": "정치인 registry·coverage matrix",
+            "targetDocument": "pass252·pass255b·pass257v 및 forest coverage의 정치인/사건 cross-reference",
+            "why": "6개 coverage 파일이 operational-links에서 unlinked 상태이며 root politician references가 빠져 있다.",
+            "sourcePaths": [
+              "data/research/coverage/pass-252-coverage-overlay.json",
+              "data/research/coverage/pass-255b-coverage-overlay.json",
+              "data/research/coverage/pass-257v-1954-education-election.json",
+              "data/research/coverage/forest-coverage.json"
+            ],
+            "relatedEntityIds": [],
+            "nextAction": "각 coverage의 대상 stable politician IDs와 시대×구조층 셀을 확인해 명시적 references를 추가."
+          },
+          {
+            "id": "INT330-030",
+            "priority": "HIGH",
+            "status": "OPEN",
+            "targetInstitution": "국회도서관·대통령기록관·국가기록원",
+            "targetDocument": "1952-06-28 제86차 국회 본회의 김성수 사표 수리 긴급동의 원속기록",
+            "why": "동시대 경향신문 전사는 가결을 보도하지만 발의자·의안번호·표결수·법적 효력은 미확인이다.",
+            "sourcePaths": [
+              "data/documents/run329-kim-seong-su-resignation.json",
+              "data/claims/run329-kim-seong-su-resignation.json",
+              "data/research/kim-seong-su-open-leads.json"
+            ],
+            "relatedEntityIds": [
+              "pol-r164-kim-seong-su",
+              "evt-1952-0628-kim-seong-su-resignation-accepted",
+              "clm-1952-kim-seong-su-resignation-procedure"
+            ],
+            "nextAction": "제86차 본회의 원속기록과 긴급동의 원안을 찾아 출석 97명과 찬성표 수를 구분."
+          },
+          {
+            "id": "INT330-031",
+            "priority": "HIGH",
+            "status": "OPEN",
+            "targetInstitution": "국가기록원·대통령기록관·국무총리실 인사기록",
+            "targetDocument": "1952-05-29 김성수 부통령 사표 원본·수신기관·접수대장",
+            "why": "서울신문 1952-05-31 전사는 제출·미수리만 확인하고 사표 원문과 접수 절차는 제공하지 않는다.",
+            "sourcePaths": [
+              "data/documents/run329-kim-seong-su-resignation.json",
+              "data/evidence/kim-seong-su.json",
+              "data/research/kim-seong-su-open-leads.json"
+            ],
+            "relatedEntityIds": [
+              "pol-r164-kim-seong-su",
+              "evt-1952-0529-kim-seong-su-resignation-submitted"
+            ],
+            "nextAction": "사표 원본, 접수인, 제출 시각, 수신기관의 인사문서 번호를 추적."
+          },
+          {
+            "id": "INT330-032",
+            "priority": "HIGH",
+            "status": "OPEN",
+            "targetInstitution": "중앙선거관리위원회·관보·국회도서관",
+            "targetDocument": "1951년 제2대 부통령 선거 결과·국회 표결·취임 공포 원문",
+            "why": "김성수의 1951년 부통령 취임 경력은 AKS 후대 해제에 의존한다.",
+            "sourcePaths": [
+              "data/evidence/kim-seong-su.json",
+              "data/annals/kim-seong-su.md",
+              "data/research/kim-seong-su-open-leads.json"
+            ],
+            "relatedEntityIds": [
+              "pol-r164-kim-seong-su",
+              "evt-r224-vice-presidency"
+            ],
+            "nextAction": "선출일·득표·취임일을 각각 독립 문서로 확인."
+          },
+          {
+            "id": "INT330-033",
+            "priority": "HIGH",
+            "status": "OPEN",
+            "targetInstitution": "친일반민족행위진상규명위원회 보고서 보존처·국립중앙도서관·국가보훈부",
+            "targetDocument": "2009년 친일반민족행위진상규명 보고서 IV-3 김성수 결정이유서와 2018년 서훈 취소 결정문",
+            "why": "AKS 해제는 국민총력조선연맹·학도지원병·징병제 관련 행적과 서훈 취소를 요약하지만 개별 근거와 반론 원문은 미확보이다.",
+            "sourcePaths": [
+              "data/evidence/kim-seong-su.json",
+              "data/annals/kim-seong-su.md",
+              "data/research/kim-seong-su-open-leads.json"
+            ],
+            "relatedEntityIds": [
+              "pol-r164-kim-seong-su"
+            ],
+            "nextAction": "결정이유서의 근거 사료·당사자 발언·반론·서훈 취소 법적 근거를 별도 claims로 분리."
+          }
+        ]
+      },
+      "provenance": "8ca9709c38cd6b0e1bec4e0cd3bbd84e4b5ad691751e78e3d3f653e08f0ee966",
       "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
     },
     {
@@ -98335,6 +98893,158 @@
         "graphMigration": "Run225 events now preserve display strings and add typed *_refs pointing to politician/organization stable IDs; unresolved foreign actors explicitly marked."
       },
       "provenance": "5add16e2b204ac39c7c1ebc4168c8cedba8b390558d68453b9fea2fa86d6d8ce",
+      "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+    },
+    {
+      "source": "data/research/runs/2026-11-22-run330-integration-ledger.json",
+      "payload": {
+        "schemaVersion": 1,
+        "run": 330,
+        "date": "2026-11-22",
+        "baseCommit": "90e3bbea6b082e075d8c3cb6e57b6faf4fab5d56",
+        "task": "cumulative-research-central-integration-audit",
+        "status": "FULL_INTEGRATION_INCOMPLETE",
+        "centralSync": "CENTRAL_SYNC_PARTIAL",
+        "floot": "UNTOUCHED",
+        "sourceInventory": {
+          "sourceFiles": 2269,
+          "nonDataFiles": 21,
+          "triage": {
+            "BLOCKED_ID_CONFLICT": 341,
+            "INDEXED_NOT_CANONICAL_VERIFIED": 595,
+            "NON_JSON_PRESERVED": 776,
+            "UNMAPPED_AUXILIARY_OR_PARTIAL": 554,
+            "OPERATIONAL_ROOT_PRESERVED": 2,
+            "PRESIDENTIAL_BACKBONE_PRESERVED": 1
+          },
+          "conflictedIds": 584,
+          "exactDuplicateIds": 11,
+          "auxiliaryRecords": 675,
+          "unintegratedSources": 561,
+          "partialSources": 11,
+          "parseErrors": 0
+        },
+        "canonical": {
+          "documents": {
+            "materialized": 4585,
+            "sourceRecords": 4828,
+            "uniqueIds": 4694,
+            "conflictedIds": 109
+          },
+          "claims": {
+            "materialized": 2115,
+            "sourceRecords": 2165,
+            "uniqueIds": 2137,
+            "conflictedIds": 22
+          },
+          "events": {
+            "materialized": 2679,
+            "sourceRecords": 2825,
+            "uniqueIds": 2745,
+            "conflictedIds": 66
+          },
+          "politicians": {
+            "materialized": 855,
+            "sourceRecords": 2335,
+            "uniqueIds": 1240,
+            "conflictedIds": 385
+          },
+          "organizations": {
+            "materialized": 83,
+            "sourceRecords": 97,
+            "uniqueIds": 85,
+            "conflictedIds": 2
+          }
+        },
+        "operationalRoots": {
+          "events": {
+            "rootCount": 2808,
+            "canonicalMerged": 2679,
+            "missingIds": 0,
+            "duplicateIds": 0,
+            "fieldVariants": 16
+          },
+          "politicians": {
+            "rootCount": 975,
+            "canonicalMerged": 763,
+            "missingIds": 0,
+            "duplicateIds": 0,
+            "fieldVariants": 110,
+            "policyExcluded": 92
+          }
+        },
+        "operationalLinks": {
+          "linked": 201,
+          "unlinked": 310,
+          "unlinkedByLayer": {
+            "annals": 62,
+            "evidence": 1,
+            "coverage": 6,
+            "historyDebt": 16,
+            "leadQueues": 225
+          },
+          "relations": {
+            "politicians": 438,
+            "events": 507,
+            "documents": 908,
+            "claims": 12,
+            "organizations": 1
+          }
+        },
+        "structuralAudit": {
+          "integrityIssues": 0,
+          "referenceIssueCount": 0,
+          "crosswalkGaps": 0
+        },
+        "pullRequests": {
+          "pr73": {
+            "changedFiles": 18,
+            "presentOnMain": 18,
+            "missing": 0
+          },
+          "pr74": {
+            "changedFiles": 16,
+            "presentOnMain": 16,
+            "missing": 0
+          },
+          "pr72": {
+            "state": "OPEN",
+            "changedFiles": 29,
+            "presentOnMain": 29,
+            "missing": 0
+          }
+        },
+        "runMetrics": {
+          "independentResearchLines": 0,
+          "normalGovernanceDomains": 0,
+          "nonPresidentPoliticiansNewOrDeepened": 0,
+          "existingPoliticianNodesLinked": 1,
+          "newEventIds": 0,
+          "existingEventSourceRecordsReconnected": 2,
+          "newClaimIds": 0,
+          "existingClaimsVerifiedCanonical": 2,
+          "uniqueHistoricalDocumentsDirectlyOpened": 0,
+          "officialOrPrimaryDocumentsDirectlyOpened": 0,
+          "adversarialSearches": 0,
+          "independentProvenanceCrossChecks": 0,
+          "historyDebtOrOpenLeadsFollowed": 0,
+          "newConcreteIntegrationLeads": 33,
+          "claimedExecutionMinutes": null
+        },
+        "weeklyHistoryDebtReview": {
+          "performed": false,
+          "lastFullReviewChanged": false,
+          "note": "역사부채 주간 전수조사 미실시; 2026-11-22 status counts were not fully re-investigated."
+        },
+        "nextLeadQueue": "data/research/lead-queues/run330-next-integration.json",
+        "limitations": [
+          "source-level 584 conflicting IDs unresolved",
+          "561 unintegrated sources and 310 unlinked operational-layer files remain",
+          "source triage was based on main snapshot before Run330 source additions; workflow regeneration required after push",
+          "no new historical source pages opened in this integration-only run"
+        ]
+      },
+      "provenance": "30773c13321b680dc2a5a34ba227ee0fea09c419b89578d79ac0d40ee2885a34",
       "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
     },
     {

@@ -4,9 +4,9 @@
   "centralSync": "PARTIAL",
   "eventSync": {
     "rootBefore": 2808,
-    "canonicalMaterialized": 2679,
+    "canonicalMaterialized": 2681,
     "added": 0,
-    "merged": 2679,
+    "merged": 2681,
     "rootAfter": 2808,
     "missingCanonicalIdsAfterSync": [],
     "duplicateRootIds": [],
@@ -224,10 +224,10 @@
   },
   "politicianSync": {
     "rootBefore": 975,
-    "canonicalMaterialized": 763,
+    "canonicalMaterialized": 764,
     "added": 0,
     "manualAdded": 0,
-    "merged": 763,
+    "merged": 764,
     "rootAfter": 975,
     "missingCanonicalIdsAfterSync": [],
     "fieldConflicts": [
@@ -2339,8 +2339,8 @@
     "policyExcludedCount": 92
   },
   "rootFileHashes": {
-    "data/events.json": "8d845b8fb9a98d35ad8ab868ffc83aad570027ea7f80122defd2459153a83f48",
-    "data/politicians.json": "0b13df59ec1e1f46e0c0fc14e98d6defa93b8e31f2afc6c223ce58c68f074d17"
+    "data/events.json": "afec52a19aa66a757f41c9ec8542bc237b516949c33b5200c7ea8cb4a79de74f",
+    "data/politicians.json": "4988dea7f138c9d7077e27c6a3628098280f000e5f1b79fb556204788f7c2210"
   },
   "rootFileCounts": {
     "events": 2808,
@@ -2348,6 +2348,6 @@
   },
   "sourceIntegrationStatus": "FULL_INTEGRATION_INCOMPLETE",
   "sourceConflictedIds": 584,
-  "sourceAuxiliaryRecords": 675,
+  "sourceAuxiliaryRecords": 677,
   "policy": "Only named pol-/cand- records enter the domestic politician root. Foreign, collective, legacy, placeholder and unnamed candidates remain preserved in source/canonical layers with explicit exclusion reasons. Scalar conflicts are not silently merged."
 }

@@ -2,17 +2,17 @@
   "canonicalMaterialized": {
     "documents": 4585,
     "claims": 2115,
-    "events": 2679,
-    "politicians": 855,
+    "events": 2681,
+    "politicians": 856,
     "organizations": 83
   },
   "canonicalDirectory": "data/integration/canonical",
-  "sourceFiles": 2269,
+  "sourceFiles": 2274,
   "sourceStatusCounts": {
-    "AUXILIARY_JSON_INDEXED": 550,
-    "CANONICAL_MATERIALIZED": 595,
+    "AUXILIARY_JSON_INDEXED": 552,
+    "CANONICAL_MATERIALIZED": 597,
     "CONFLICT_REVIEW_REQUIRED": 334,
-    "NON_JSON_SOURCE_PRESERVED": 776,
+    "NON_JSON_SOURCE_PRESERVED": 777,
     "OPERATIONAL_ROOT_PRESERVED": 2,
     "PARTIAL_CANONICAL_MATERIALIZED": 11,
     "PRESIDENTIAL_BACKBONE_PRESERVED": 1
@@ -23,14 +23,14 @@
     "coverage_layer": 23,
     "cross_registry_graph": 22,
     "document_registry_source": 190,
-    "event_registry_source": 142,
+    "event_registry_source": 143,
     "evidence_layer": 65,
-    "execution_ledger_layer": 414,
+    "execution_ledger_layer": 416,
     "history_debt_layer": 27,
-    "open_lead_layer": 251,
+    "open_lead_layer": 252,
     "operational_root": 2,
     "organization_registry_source": 15,
-    "politician_candidate_source": 294,
+    "politician_candidate_source": 295,
     "presidential_backbone": 1,
     "research_supporting_layer": 524
   },
@@ -46,13 +46,13 @@
       "conflictedIds": 22
     },
     "events": {
-      "sourceRecords": 2825,
-      "uniqueIds": 2745,
+      "sourceRecords": 2827,
+      "uniqueIds": 2747,
       "conflictedIds": 66
     },
     "politicians": {
-      "sourceRecords": 2335,
-      "uniqueIds": 1240,
+      "sourceRecords": 2336,
+      "uniqueIds": 1241,
       "conflictedIds": 385
     },
     "organizations": {
@@ -6372,6 +6372,7 @@
     "data/research/lead-queues/run223-next.json",
     "data/research/lead-queues/run224-next.json",
     "data/research/lead-queues/run225-next.json",
+    "data/research/lead-queues/run330-next-integration.json",
     "data/research/lead-queues/run88-a-health-local.json",
     "data/research/lead-queues/run88-b-local-veto.json",
     "data/research/lead-queues/run88-c-policy.json",
@@ -6642,6 +6643,7 @@
     "data/research/runs/2026-10-28-run223-ledger.json",
     "data/research/runs/2026-10-28-run224-ledger.json",
     "data/research/runs/2026-10-28-run225-ledger.json",
+    "data/research/runs/2026-11-22-run330-integration-ledger.json",
     "data/research/runs/pass-143-execution-ledger.json",
     "data/research/runs/pass-144-execution-ledger.json",
     "data/research/runs/pass-212-execution-ledger.json",
@@ -6695,7 +6697,7 @@
     "data/research/second-republic-pass15.json",
     "data/research/weekly-history-debt-review-2026-10-04.json"
   ],
-  "auxiliaryRecords": 675,
+  "auxiliaryRecords": 677,
   "partialSources": [
     "data/politicians/pass-247c-june1960-original-actors.json",
     "data/politicians/pass-247d-assembly-actors.json",
@@ -7665,6 +7667,10 @@
     },
     {
       "path": "data/research/lead-queues/run225-next.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/lead-queues/run330-next-integration.json",
       "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
@@ -8745,6 +8751,10 @@
     },
     {
       "path": "data/research/runs/2026-10-28-run225-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-11-22-run330-integration-ledger.json",
       "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {

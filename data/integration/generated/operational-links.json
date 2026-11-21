@@ -7,13 +7,13 @@
     "coverage": 23,
     "evidence": 65,
     "history_debt": 27,
-    "lead_queue": 251
+    "lead_queue": 252
   },
   "relationCounts": {
-    "candidatePoliticianIds": 438,
-    "relatedClaimIds": 12,
-    "relatedDocumentIds": 908,
-    "relatedEventIds": 507,
+    "candidatePoliticianIds": 446,
+    "relatedClaimIds": 13,
+    "relatedDocumentIds": 923,
+    "relatedEventIds": 514,
     "relatedOrganizationIds": 1
   },
   "linked": [
@@ -3821,6 +3821,52 @@
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "status": "EXPLICITLY_LINKED"
+    },
+    {
+      "source": "data/research/lead-queues/run330-next-integration.json",
+      "sha256": "8ca9709c38cd6b0e1bec4e0cd3bbd84e4b5ad691751e78e3d3f653e08f0ee966",
+      "layer": "lead_queue",
+      "candidatePoliticianIds": [
+        "cand-1952-cho-ju-yong",
+        "cand-1952-sep-chungnam-seong-rak-seo",
+        "cand-1952-sep-gyeonggi-kim-yeong-gi",
+        "cand-p245-lee-ong-jun",
+        "cand-p257-cho-jeong-hun-1953",
+        "cand-p257-jin-seung-guk-1953",
+        "cand-p257w-lee-beom-nyeong",
+        "pol-r164-kim-seong-su"
+      ],
+      "relatedEventIds": [
+        "evt-1952-0529-kim-seong-su-resignation-submitted",
+        "evt-1952-0628-kim-seong-su-resignation-accepted",
+        "evt-1952-meyer-economic-coordination",
+        "evt-1952-pusan-political-crisis",
+        "evt-p239m-01",
+        "evt-p249-1961-0202-committee",
+        "evt-r224-vice-presidency"
+      ],
+      "relatedDocumentIds": [
+        "DOC-AKS-YUN-U-GYEONG",
+        "DOC-FRUS-1952-XV1-181",
+        "DOC-FRUS-1952-XV1-182",
+        "DOC-FRUS-19520524-MARTIAL-LAW-EDITORIAL",
+        "DOC-NIKH-DH-19520524-LEE-BEOMSEOK-INTERIOR",
+        "DOC-P246-GAZ-388",
+        "DOC-P246-GAZ-551",
+        "DOC-P246-GAZ-552",
+        "DOC-P246-GAZ-557",
+        "DOC-P246-GAZ-563",
+        "DOC-P247D-NA-110",
+        "DOC-P247D-NA-120",
+        "DOC-P257R-NAK-AGENDA",
+        "DOC-P257R-NAK-LITERACY",
+        "DOC-P257R-NAK-TIMELINE"
+      ],
+      "relatedClaimIds": [
+        "clm-1952-kim-seong-su-resignation-procedure"
+      ],
+      "relatedOrganizationIds": [],
+      "status": "EXPLICITLY_MULTI_LINKED"
     },
     {
       "source": "data/research/leads/2026-11-16-identity-reconciliation.json",

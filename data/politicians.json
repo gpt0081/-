@@ -50976,6 +50976,14 @@
             "DOC-NIKH-DH025-19520628-0050"
           ],
           "verification": "국편 자료대한민국사에 수록된 경향신문 1952-06-30 동시대 보도"
+        },
+        {
+          "eventId": "evt-1952-0529-kim-seong-su-resignation-submitted",
+          "actionType": "resignation_submitted"
+        },
+        {
+          "eventId": "evt-1952-0628-kim-seong-su-resignation-accepted",
+          "actionType": "resignation_accepted_by_assembly"
         }
       ],
       "evidenceDocumentIds": [
@@ -50994,7 +51002,13 @@
         "data/events/run224-may1952-constitutional-pow-economy.json",
         "data/claims/run329-kim-seong-su-resignation.json",
         "data/evidence/kim-seong-su.json",
-        "data/politicians.json"
+        "data/politicians.json",
+        "data/documents/run329-kim-seong-su-resignation.json",
+        "data/events/run329-kim-seong-su-resignation.json",
+        "data/annals/kim-seong-su.md",
+        "data/research/kim-seong-su-coverage.json",
+        "data/research/kim-seong-su-open-leads.json",
+        "data/politicians/run330-kim-seong-su-central-links.json"
       ],
       "openLeads": [
         "1952-05-29 사임서 원본·수신기관·정확한 문구 확보",
@@ -51023,6 +51037,10 @@
           {
             "path": "data/politicians.json",
             "pointer": "/politicians/359"
+          },
+          {
+            "path": "data/politicians/run330-kim-seong-su-central-links.json",
+            "pointer": "/politicians/0"
           }
         ],
         "syncDate": "2026-11-21"

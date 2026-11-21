@@ -3048,8 +3048,8 @@
     },
     {
       "path": "data/claims/INDEX.md",
-      "sha256": "1e210327530496eced24b73ff22024da3d3dc15b1fe381eb94a87277a6b62e22",
-      "bytes": 13553,
+      "sha256": "b45b93c78e539cdf03c551d33995360b605112cbec95ea9db153c4b624c04acf",
+      "bytes": 13829,
       "status": "NON_JSON_SOURCE_PRESERVED",
       "targetLayer": "claim_registry_source",
       "targetRegistries": [
@@ -6432,8 +6432,8 @@
     },
     {
       "path": "data/documents/INDEX.md",
-      "sha256": "d3ec128150c1feeef5548042554ff6caf603ce9d378fd5a0406e3864248587b1",
-      "bytes": 17008,
+      "sha256": "94f774c1ba4366d6e0bf5b7a4e5c9e8e1dce97ea1fd9c608edbf2957eb3df976",
+      "bytes": 17391,
       "status": "NON_JSON_SOURCE_PRESERVED",
       "targetLayer": "document_registry_source",
       "targetRegistries": [
@@ -10612,8 +10612,8 @@
     },
     {
       "path": "data/events/INDEX.md",
-      "sha256": "438926090751923404603cd15f67eb833a21ae466c4efb3874a7f7e2959af540",
-      "bytes": 12763,
+      "sha256": "cc22e3862c852b723d6fd207ff3e4704743b502a71c658408c0ec0b845f7d432",
+      "bytes": 13020,
       "status": "NON_JSON_SOURCE_PRESERVED",
       "targetLayer": "event_registry_source",
       "targetRegistries": [
@@ -13511,6 +13511,28 @@
       }
     },
     {
+      "path": "data/events/run329-kim-seong-su-resignation.json",
+      "sha256": "55808985bc86d3eb14621c2ad63687038157e899400bc034e0b514d7cfc90077",
+      "bytes": 5179,
+      "status": "CANONICAL_MATERIALIZED",
+      "targetLayer": "event_registry_source",
+      "targetRegistries": [
+        "events"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 2,
+        "politicians": 0,
+        "organizations": 0
+      },
+      "unmappedRecordCount": 0,
+      "centralMapping": {
+        "integrated": 2,
+        "conflicted": 0
+      }
+    },
+    {
       "path": "data/events/run50-pow-armistice-events.json",
       "sha256": "541830a9499909bc12527f2bd1059cbdd540ab177c68aec40b5ae345d75b89b2",
       "bytes": 1439,
@@ -15828,8 +15850,8 @@
     },
     {
       "path": "data/politicians/INDEX.md",
-      "sha256": "aeefad45973fa2ad07051abdde4ea582ee61ae1fd6f082bf4013bf569e2ae69c",
-      "bytes": 35093,
+      "sha256": "aca076039d4454872cf2a342c9a1f66087f8fc4df5c43a9061164f8caf09dd5d",
+      "bytes": 35669,
       "status": "NON_JSON_SOURCE_PRESERVED",
       "targetLayer": "politician_candidate_source",
       "targetRegistries": [
@@ -18046,6 +18068,28 @@
       }
     },
     {
+      "path": "data/politicians/run330-kim-seong-su-central-links.json",
+      "sha256": "daae15997a05a0d526e57c38a3f2da2d059401b8092d9cbef8cfb907ac0d8f52",
+      "bytes": 1668,
+      "status": "CANONICAL_MATERIALIZED",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 1,
+        "organizations": 0
+      },
+      "unmappedRecordCount": 0,
+      "centralMapping": {
+        "integrated": 1,
+        "conflicted": 0
+      }
+    },
+    {
       "path": "data/politicians/run81-land-actors.json",
       "sha256": "02b1809b8279df8711f7b556af06822c52a5486f7e38b2ca4d5a02784c9d87a6",
       "bytes": 6948,
@@ -19768,8 +19812,8 @@
     },
     {
       "path": "data/research/ACTIVE_RESEARCH_HANDOFF.json",
-      "sha256": "0d025d61a27b6f0fd52194db01a0b84c16b2934d1445bd33bc1f93eac392f99a",
-      "bytes": 28329,
+      "sha256": "1222308c7f513246dc4e9277f5a7fd5fe9961a4776d96ff154bbbba657f99128",
+      "bytes": 29552,
       "status": "AUXILIARY_JSON_INDEXED",
       "targetLayer": "research_supporting_layer",
       "targetRegistries": [
@@ -32071,6 +32115,33 @@
       "path": "data/research/lead-queues/run225-next.json",
       "sha256": "8d29cef30b3bc3e93c6e77a718ac1795fec29c5b24dd5c73ff9e925d5a672a8d",
       "bytes": 23083,
+      "status": "AUXILIARY_JSON_INDEXED",
+      "targetLayer": "open_lead_layer",
+      "targetRegistries": [
+        "open_leads",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0
+      },
+      "unmappedRecordCount": 1,
+      "centralMapping": {
+        "integrated": 0,
+        "conflicted": 0,
+        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+      }
+    },
+    {
+      "path": "data/research/lead-queues/run330-next-integration.json",
+      "sha256": "8ca9709c38cd6b0e1bec4e0cd3bbd84e4b5ad691751e78e3d3f653e08f0ee966",
+      "bytes": 24604,
       "status": "AUXILIARY_JSON_INDEXED",
       "targetLayer": "open_lead_layer",
       "targetRegistries": [
@@ -50854,6 +50925,55 @@
       "path": "data/research/runs/2026-11-11-busan-policy-adversarial.md",
       "sha256": "27d628af718959d4de63aca26fe934bbb199c3b1e290e8cb12c269bc26318659",
       "bytes": 930,
+      "status": "NON_JSON_SOURCE_PRESERVED",
+      "targetLayer": "execution_ledger_layer",
+      "targetRegistries": [
+        "execution_ledger",
+        "documents",
+        "claims",
+        "events",
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0
+      },
+      "unmappedRecordCount": 0
+    },
+    {
+      "path": "data/research/runs/2026-11-22-run330-integration-ledger.json",
+      "sha256": "30773c13321b680dc2a5a34ba227ee0fea09c419b89578d79ac0d40ee2885a34",
+      "bytes": 3869,
+      "status": "AUXILIARY_JSON_INDEXED",
+      "targetLayer": "execution_ledger_layer",
+      "targetRegistries": [
+        "execution_ledger",
+        "documents",
+        "claims",
+        "events",
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0
+      },
+      "unmappedRecordCount": 1,
+      "centralMapping": {
+        "integrated": 0,
+        "conflicted": 0,
+        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+      }
+    },
+    {
+      "path": "data/research/runs/2026-11-22-run330-integration-report.md",
+      "sha256": "cb667346a6964c9f31d1477df10ddb7bd5a99bbf8d78bc66883821019d80770d",
+      "bytes": 6668,
       "status": "NON_JSON_SOURCE_PRESERVED",
       "targetLayer": "execution_ledger_layer",
       "targetRegistries": [
