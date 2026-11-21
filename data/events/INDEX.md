@@ -184,3 +184,5 @@
 - 2026-10-30 Pass258D canonical event 정정: 기존 Pass240·Pass239K2와 중복된 13건은 재사용·실질 보강으로 전환, 신규 하위사건 순증 10건. `data/research/audits/pass-258d-identity-document-dedupe.json` 참조.
 
 - `data/events/pass-258e-1956-domestic-governance.json` (Pass258E, 2026-10-30; 기존 canonical FRUS 재사용, 1956 국내 국정 연결)
+
+- 2026-11-22 Pass329 김성수 부통령 사표 제출·국회 수리 2개 사건의 source shard: `data/events/run329-kim-seong-su-resignation.json`. 중앙 `data/events.json`의 기존 event ID를 재사용하며 새 ID를 중복 생성하지 않는다.

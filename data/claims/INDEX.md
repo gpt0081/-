@@ -196,3 +196,5 @@
 - 2026-10-30 Pass258D: `data/claims/pass-258d-1955-56-exchange-nnsc.json` (1955 환율 270·700·500, NNSC 8월 사건, 비대통령 행위자·증거 불확실성).
 
 - `data/claims/pass-258e-1956-domestic-governance.json` (Pass258E, 2026-10-30; 기존 canonical FRUS 재사용, 1956 국내 국정 연결)
+
+- 2026-11-22 Pass329 김성수 사표 절차·사유 2개 주장: `data/claims/run329-kim-seong-su-resignation.json`. 5/29 제출·미수리와 6/28 국회 수리 가결을 분리하고, 2010년 후대 재인용은 원사표 원문이 아닌 insufficient evidence로 유지.

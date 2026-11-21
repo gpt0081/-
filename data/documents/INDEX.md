@@ -230,3 +230,5 @@
 - 2026-10-30 Pass258D: `data/documents/pass-258d-1955-56-exchange-nnsc.json` (1955 환율 270·700·500, NNSC 8월 사건, 비대통령 행위자·증거 불확실성).
 
 - `data/documents/pass-258e-1956-domestic-governance.json` (Pass258E, 2026-10-30; 기존 canonical FRUS 재사용, 1956 국내 국정 연결)
+
+- 2026-11-22 Pass329 김성수 부통령 사표 제출·수리 절차: `data/documents/run329-kim-seong-su-resignation.json` (국편 자료대한민국사 제25권의 서울신문 1952-05-31·경향신문 1952-06-30 전사 2건, AKS 해제 2건, 국편 사망연표 1건, 2010년 후대 재인용 1건. 원신문 원지면·사표 원본은 미확보; provenance 계열을 분리).

@@ -259,3 +259,5 @@
 - `data/politicians/pass-258b-paik-rhee-ceb-1954.json` (백두진 CEB 대표 역할·이승만 1954 협상 및 귀속기업 원칙 발언, 기존 ID 재사용)
 
 - `data/politicians/pass-258e-1956-domestic-actors.json` (Pass258E, 2026-10-30; 기존 canonical FRUS 재사용, 1956 국내 국정 연결)
+
+- 2026-11-22 Pass329 김성수(金性洙·仁村, 1891-09-09~1955-02-18) 독립 정치인 노드 `pol-r164-kim-seong-su`를 VERIFIED로 연결. 제2대 부통령·민주국민당 최고위원 등 시기별 역할, 1952-05-29 사표 제출과 06-28 국회 수리 사건을 분리. 독립 실록 `data/annals/kim-seong-su.md`, 증거 `data/evidence/kim-seong-su.json`, coverage `data/research/kim-seong-su-coverage.json`, open leads `data/research/kim-seong-su-open-leads.json`; 문서·주장 shard는 Pass329 경로 참조. 원사표·제86차 국회 원속기록 미확보.

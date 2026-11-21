@@ -1,6 +1,6 @@
 {
-  "reviewedAt": "2026-11-20",
-  "status": "MERGED_IN_MAIN_REQUIRES_SEMANTIC_RECONCILIATION",
+  "reviewedAt": "2026-11-22",
+  "status": "ALL_CHANGED_PATHS_PRESENT_ON_MAIN_SEMANTIC_RECONCILIATION_OPEN",
   "pullRequests": [
     {
       "number": 73,
@@ -9,7 +9,33 @@
       "changedFiles": 18,
       "state": "closed",
       "merged": true,
-      "mergedAt": "2026-11-13T18:12:54Z"
+      "mergedAt": "2026-11-13T18:12:54Z",
+      "mainPathAudit": {
+        "present": 18,
+        "missing": 0,
+        "verifiedAgainstCommit": "90e3bbea6b082e075d8c3cb6e57b6faf4fab5d56",
+        "paths": [
+          "data/annals/rhee-may1952-run224.md",
+          "data/claims/run224-may1952-adversarial.json",
+          "data/documents/run224-may1952-frus-korean-primary.json",
+          "data/events/run224-may1952-constitutional-pow-economy.json",
+          "data/evidence/politicians/run224-evidence.json",
+          "data/organizations/run224-1952-institutions.json",
+          "data/politicians.json",
+          "data/politicians/run224-may1952-actors.json",
+          "data/research/ACTIVE_RESEARCH_HANDOFF.json",
+          "data/research/HISTORY_DEBT.md",
+          "data/research/corrections/run224-identity-guardrail.json",
+          "data/research/coverage/run224.json",
+          "data/research/history-debt/run224.json",
+          "data/research/lead-queues/run224-next.json",
+          "data/research/rhee-syngman-coverage.json",
+          "data/research/rhee-syngman-open-leads.json",
+          "data/research/runs/2026-10-28-run224-ledger.json",
+          "data/research/runs/2026-10-28-run224-report.md"
+        ]
+      },
+      "semanticStatus": "PARTIAL_SOURCE_FILES_PRESENT_NOT_FULLY_CROSS_LINKED"
     },
     {
       "number": 74,
@@ -18,7 +44,31 @@
       "changedFiles": 16,
       "state": "closed",
       "merged": true,
-      "mergedAt": "2026-11-13T18:13:02Z"
+      "mergedAt": "2026-11-13T18:13:02Z",
+      "mainPathAudit": {
+        "present": 16,
+        "missing": 0,
+        "verifiedAgainstCommit": "90e3bbea6b082e075d8c3cb6e57b6faf4fab5d56",
+        "paths": [
+          "data/annals/rhee-june1952-run225.md",
+          "data/claims/run225-june1952-adversarial.json",
+          "data/documents/run225-june1952-us-cabinet-korean.json",
+          "data/events/run225-june1952-actor-decision-graph.json",
+          "data/evidence/politicians/run225-evidence.json",
+          "data/organizations/run225-institutions.json",
+          "data/politicians.json",
+          "data/politicians/run225-june1952-actors.json",
+          "data/research/HISTORY_DEBT.md",
+          "data/research/coverage/run225.json",
+          "data/research/history-debt/run225.json",
+          "data/research/lead-queues/run225-next.json",
+          "data/research/rhee-syngman-coverage.json",
+          "data/research/rhee-syngman-open-leads.json",
+          "data/research/runs/2026-10-28-run225-ledger.json",
+          "data/research/runs/2026-10-28-run225-report.md"
+        ]
+      },
+      "semanticStatus": "PARTIAL_SOURCE_FILES_PRESENT_NOT_FULLY_CROSS_LINKED"
     }
   ],
   "sharedConflictingPaths": [
@@ -27,12 +77,30 @@
     "data/research/rhee-syngman-coverage.json",
     "data/research/rhee-syngman-open-leads.json"
   ],
-  "migrationStatus": "MERGED_SOURCE_PRESENT_IN_MAIN_BUT_CANONICAL_CONFLICTS_REMAIN",
+  "migrationStatus": "ALL_73_74_CHANGED_PATHS_PRESENT_ON_MAIN; SOURCE_VARIANTS_AND_OPERATIONAL_LINKS_STILL_REQUIRE_SEMANTIC_RECONCILIATION",
   "requiredActions": [
-    "Confirm PR #73/#74 merged file paths against main and source inventory",
-    "Resolve 898 conflicting central IDs by source-aware semantic reconciliation; do not select arbitrary variants",
-    "Map unresolved evidence and auxiliary JSON to canonical document/claim/event/politician registries",
-    "Validate cross-registry references and provenance before declaring full integration"
+    "Preserve all 34 PR #73/#74 changed paths; path presence is not semantic integration",
+    "Resolve 584 source-level conflicting IDs with document-level provenance comparison; do not choose arbitrary variants",
+    "Resolve 16 event and 110 politician root field conflicts with correction history and typed variants",
+    "Map 554 auxiliary/partial sources and 310 unlinked operational-layer files using explicit stable IDs",
+    "Re-run cross-registry and politician-file reference audits after each logical migration batch"
   ],
-  "reason": "PR #73 and #74 are both merged as of 2026-11-13. Earlier OPEN_NOT_MERGED status was stale. Latest generated audit reports 2249 inventoried source files and 898 conflicting IDs; merge does not imply semantic integration."
+  "reason": "Recursive main-tree inspection confirms 18/18 PR #73 and 16/16 PR #74 changed paths are present; PR #72 remains open although all 29 changed paths are also present. PR branch merge state and main path presence are recorded separately. Generated integration audit remains FULL_INTEGRATION_INCOMPLETE.",
+  "relatedOpenPullRequests": [
+    {
+      "number": 72,
+      "title": "Run223: April 1952 POW screening, local elections, economy and politician nodes",
+      "state": "open",
+      "merged": false,
+      "base": "research/run222-febmar1952-frus-policy-actor-crosscheck",
+      "head": "research/run223-apr1952-pow-elections-governance",
+      "changedFiles": 29,
+      "mainPathAudit": {
+        "present": 29,
+        "missing": 0,
+        "verifiedAgainstCommit": "90e3bbea6b082e075d8c3cb6e57b6faf4fab5d56"
+      },
+      "semanticStatus": "SOURCE_PATHS_PRESENT_BUT_PR_REMAINS_OPEN"
+    }
+  ]
 }

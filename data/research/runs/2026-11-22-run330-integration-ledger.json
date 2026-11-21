@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "run": 330,
+  "date": "2026-11-22",
+  "baseCommit": "90e3bbea6b082e075d8c3cb6e57b6faf4fab5d56",
+  "task": "cumulative-research-central-integration-audit",
+  "status": "FULL_INTEGRATION_INCOMPLETE",
+  "centralSync": "CENTRAL_SYNC_PARTIAL",
+  "floot": "UNTOUCHED",
+  "sourceInventory": {
+    "sourceFiles": 2269,
+    "nonDataFiles": 21,
+    "triage": {
+      "BLOCKED_ID_CONFLICT": 341,
+      "INDEXED_NOT_CANONICAL_VERIFIED": 595,
+      "NON_JSON_PRESERVED": 776,
+      "UNMAPPED_AUXILIARY_OR_PARTIAL": 554,
+      "OPERATIONAL_ROOT_PRESERVED": 2,
+      "PRESIDENTIAL_BACKBONE_PRESERVED": 1
+    },
+    "conflictedIds": 584,
+    "exactDuplicateIds": 11,
+    "auxiliaryRecords": 675,
+    "unintegratedSources": 561,
+    "partialSources": 11,
+    "parseErrors": 0
+  },
+  "canonical": {
+    "documents": {
+      "materialized": 4585,
+      "sourceRecords": 4828,
+      "uniqueIds": 4694,
+      "conflictedIds": 109
+    },
+    "claims": {
+      "materialized": 2115,
+      "sourceRecords": 2165,
+      "uniqueIds": 2137,
+      "conflictedIds": 22
+    },
+    "events": {
+      "materialized": 2679,
+      "sourceRecords": 2825,
+      "uniqueIds": 2745,
+      "conflictedIds": 66
+    },
+    "politicians": {
+      "materialized": 855,
+      "sourceRecords": 2335,
+      "uniqueIds": 1240,
+      "conflictedIds": 385
+    },
+    "organizations": {
+      "materialized": 83,
+      "sourceRecords": 97,
+      "uniqueIds": 85,
+      "conflictedIds": 2
+    }
+  },
+  "operationalRoots": {
+    "events": {
+      "rootCount": 2808,
+      "canonicalMerged": 2679,
+      "missingIds": 0,
+      "duplicateIds": 0,
+      "fieldVariants": 16
+    },
+    "politicians": {
+      "rootCount": 975,
+      "canonicalMerged": 763,
+      "missingIds": 0,
+      "duplicateIds": 0,
+      "fieldVariants": 110,
+      "policyExcluded": 92
+    }
+  },
+  "operationalLinks": {
+    "linked": 201,
+    "unlinked": 310,
+    "unlinkedByLayer": {
+      "annals": 62,
+      "evidence": 1,
+      "coverage": 6,
+      "historyDebt": 16,
+      "leadQueues": 225
+    },
+    "relations": {
+      "politicians": 438,
+      "events": 507,
+      "documents": 908,
+      "claims": 12,
+      "organizations": 1
+    }
+  },
+  "structuralAudit": {
+    "integrityIssues": 0,
+    "referenceIssueCount": 0,
+    "crosswalkGaps": 0
+  },
+  "pullRequests": {
+    "pr73": {
+      "changedFiles": 18,
+      "presentOnMain": 18,
+      "missing": 0
+    },
+    "pr74": {
+      "changedFiles": 16,
+      "presentOnMain": 16,
+      "missing": 0
+    },
+    "pr72": {
+      "state": "OPEN",
+      "changedFiles": 29,
+      "presentOnMain": 29,
+      "missing": 0
+    }
+  },
+  "runMetrics": {
+    "independentResearchLines": 0,
+    "normalGovernanceDomains": 0,
+    "nonPresidentPoliticiansNewOrDeepened": 0,
+    "existingPoliticianNodesLinked": 1,
+    "newEventIds": 0,
+    "existingEventSourceRecordsReconnected": 2,
+    "newClaimIds": 0,
+    "existingClaimsVerifiedCanonical": 2,
+    "uniqueHistoricalDocumentsDirectlyOpened": 0,
+    "officialOrPrimaryDocumentsDirectlyOpened": 0,
+    "adversarialSearches": 0,
+    "independentProvenanceCrossChecks": 0,
+    "historyDebtOrOpenLeadsFollowed": 0,
+    "newConcreteIntegrationLeads": 33,
+    "claimedExecutionMinutes": null
+  },
+  "weeklyHistoryDebtReview": {
+    "performed": false,
+    "lastFullReviewChanged": false,
+    "note": "역사부채 주간 전수조사 미실시; 2026-11-22 status counts were not fully re-investigated."
+  },
+  "nextLeadQueue": "data/research/lead-queues/run330-next-integration.json",
+  "limitations": [
+    "source-level 584 conflicting IDs unresolved",
+    "561 unintegrated sources and 310 unlinked operational-layer files remain",
+    "source triage was based on main snapshot before Run330 source additions; workflow regeneration required after push",
+    "no new historical source pages opened in this integration-only run"
+  ]
+}
