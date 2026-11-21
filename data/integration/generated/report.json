@@ -1,30 +1,30 @@
 {
   "canonicalMaterialized": {
-    "documents": 4585,
-    "claims": 2115,
+    "documents": 11635,
+    "claims": 4964,
     "events": 6203,
     "politicians": 1199,
     "organizations": 83,
     "roles": 57
   },
   "canonicalDirectory": "data/integration/canonical",
-  "sourceFiles": 2626,
+  "sourceFiles": 3406,
   "sourceStatusCounts": {
-    "AUXILIARY_JSON_INDEXED": 558,
-    "CANONICAL_MATERIALIZED": 935,
-    "CONFLICT_REVIEW_REQUIRED": 341,
-    "NON_JSON_SOURCE_PRESERVED": 780,
+    "AUXILIARY_JSON_INDEXED": 621,
+    "CANONICAL_MATERIALIZED": 1643,
+    "CONFLICT_REVIEW_REQUIRED": 347,
+    "NON_JSON_SOURCE_PRESERVED": 782,
     "OPERATIONAL_ROOT_PRESERVED": 2,
-    "PARTIAL_CANONICAL_MATERIALIZED": 9,
+    "PARTIAL_CANONICAL_MATERIALIZED": 10,
     "PRESIDENTIAL_BACKBONE_PRESERVED": 1
   },
   "targetLayerCounts": {
     "annals_layer": 145,
     "branch_snapshot_source": 1,
-    "claim_registry_source": 154,
+    "claim_registry_source": 488,
     "coverage_layer": 23,
     "cross_registry_graph": 22,
-    "document_registry_source": 190,
+    "document_registry_source": 636,
     "event_registry_source": 494,
     "evidence_layer": 65,
     "execution_ledger_layer": 416,
@@ -38,13 +38,13 @@
   },
   "totals": {
     "documents": {
-      "sourceRecords": 4828,
-      "uniqueIds": 4694,
-      "conflictedIds": 109
+      "sourceRecords": 11888,
+      "uniqueIds": 11749,
+      "conflictedIds": 114
     },
     "claims": {
-      "sourceRecords": 2165,
-      "uniqueIds": 2137,
+      "sourceRecords": 5014,
+      "uniqueIds": 4986,
       "conflictedIds": 22
     },
     "events": {
@@ -585,6 +585,42 @@
     },
     {
       "type": "documents",
+      "id": "d125-daegu",
+      "variantCount": 2,
+      "sources": [
+        "data/documents/run125-local-election-audit.json",
+        "data/documents/run137-local-election-industry-audit.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "d125-minjusinbo",
+      "variantCount": 2,
+      "sources": [
+        "data/documents/run125-local-election-audit.json",
+        "data/documents/run137-local-election-industry-audit.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "d125-nec",
+      "variantCount": 2,
+      "sources": [
+        "data/documents/run125-local-election-audit.json",
+        "data/documents/run137-local-election-industry-audit.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "d129-cons-0170",
+      "variantCount": 2,
+      "sources": [
+        "data/documents/run129-1952-parliamentary-originals.json",
+        "data/documents/run136-constitutional-primary-audit.json"
+      ]
+    },
+    {
+      "type": "documents",
       "id": "doc-1952-state-council-notice-14",
       "variantCount": 2,
       "sources": [
@@ -996,6 +1032,15 @@
       "sources": [
         "data/research/evidence/pass-285-jinbo-primary-record-index.json",
         "data/research/evidence/pass-286-jinbo-trial-provenance-audit.json"
+      ]
+    },
+    {
+      "type": "documents",
+      "id": "doc-r218-nahf-0121",
+      "variantCount": 2,
+      "sources": [
+        "data/documents/run218-korea-japan-originals.json",
+        "data/documents/run218-legal-status-subcommittee.json"
       ]
     },
     {
@@ -6490,10 +6535,74 @@
     }
   ],
   "auxiliaryIndexedSources": [
+    "data/claims/run108-frus-translation-audit.json",
+    "data/claims/run110-crosschecks-a.json",
+    "data/claims/run110-crosschecks-b.json",
+    "data/claims/run110b-1952-constitutional-vote.json",
+    "data/claims/run110b-party-heterogeneity.json",
+    "data/claims/run110c-quorum-metadata.json",
+    "data/claims/run110d-original-text-diff.json",
+    "data/claims/run128-0614-quorum-conflict.json",
+    "data/claims/run131-corrections-phase3.json",
+    "data/claims/run142-budget-arithmetic.json",
+    "data/claims/run197c-law146-original-collation.json",
+    "data/claims/run205c-three-family-crosschecks.json",
     "data/documents/pass-239m2-1954-proposal-and-reversal-signers.json",
     "data/documents/pass-257q-1954-cabinet-gazette-originals.json",
+    "data/documents/run108-mirror-aliases.json",
+    "data/documents/run108-priority-metadata-a.json",
+    "data/documents/run108-priority-metadata-b.json",
+    "data/documents/run108-priority-metadata-c.json",
+    "data/documents/run124c-presidential-original-crosswalk.json",
+    "data/documents/run128-frus-metadata-a.json",
+    "data/documents/run128-frus-metadata-b.json",
+    "data/documents/run128-frus-metadata-c.json",
+    "data/documents/run128-frus-metadata-d.json",
+    "data/documents/run128-korean-metadata.json",
+    "data/documents/run128-source-index.json",
+    "data/documents/run131-index.json",
+    "data/documents/run131-part1.json",
+    "data/documents/run131-part10.json",
+    "data/documents/run131-part11.json",
+    "data/documents/run131-part12.json",
+    "data/documents/run131-part13.json",
+    "data/documents/run131-part14.json",
+    "data/documents/run131-part15.json",
+    "data/documents/run131-part16.json",
+    "data/documents/run131-part17.json",
+    "data/documents/run131-part18.json",
+    "data/documents/run131-part2.json",
+    "data/documents/run131-part3.json",
+    "data/documents/run131-part4.json",
+    "data/documents/run131-part5.json",
+    "data/documents/run131-part6.json",
+    "data/documents/run131-part7.json",
+    "data/documents/run131-part8.json",
+    "data/documents/run131-part9.json",
+    "data/documents/run134-cabinet-transcriptions-a.json",
+    "data/documents/run134-cabinet-transcriptions-b.json",
+    "data/documents/run134-cabinet-transcriptions-c.json",
+    "data/documents/run134-cabinet-transcriptions-d.json",
+    "data/documents/run134-cabinet-transcriptions-e.json",
+    "data/documents/run134-cabinet-transcriptions-f.json",
+    "data/documents/run134-constitutional-source-audit.json",
+    "data/documents/run141-local-government-archive.json",
+    "data/documents/run142-frus-treaty-negotiation.json",
+    "data/documents/run144-frus-june1953.json",
+    "data/documents/run149-1956-laws.json",
+    "data/documents/run150-education-agriculture.json",
+    "data/documents/run150-local-archives.json",
+    "data/documents/run150-original-viewer-index.json",
+    "data/documents/run150-party-formation-scholarship.json",
+    "data/documents/run152-1957-58-law-index.json",
+    "data/documents/run152-coop-education-policy.json",
+    "data/documents/run153-election-local.json",
+    "data/documents/run153-legislative-conflict.json",
+    "data/documents/run160-frus1961-source-headers.json",
+    "data/documents/run198-oct22-31-contemporary.json",
     "data/documents/run51-robertson-armistice-bargain.json",
     "data/documents/run52-armistice-implementation-reconstruction.json",
+    "data/documents/run92-civic-state-metadata.json",
     "data/events/run110b-1952-constitutional-vote.json",
     "data/events/run110c-1951-proposal.json",
     "data/events/run111c-fed-primary-upgrades.json",
@@ -7058,8 +7167,9 @@
     "data/research/second-republic-pass15.json",
     "data/research/weekly-history-debt-review-2026-10-04.json"
   ],
-  "auxiliaryRecords": 678,
+  "auxiliaryRecords": 759,
   "partialSources": [
+    "data/documents/run149-1956-laws.json",
     "data/evidence/yu-wan-chang.json",
     "data/politicians/pass-247c-june1960-original-actors.json",
     "data/politicians/pass-247d-assembly-actors.json",
@@ -7073,6 +7183,54 @@
   "status": "FULL_INTEGRATION_INCOMPLETE",
   "unintegratedSources": [
     {
+      "path": "data/claims/run108-frus-translation-audit.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/claims/run110-crosschecks-a.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/claims/run110-crosschecks-b.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/claims/run110b-1952-constitutional-vote.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/claims/run110b-party-heterogeneity.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/claims/run110c-quorum-metadata.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/claims/run110d-original-text-diff.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/claims/run128-0614-quorum-conflict.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/claims/run131-corrections-phase3.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/claims/run142-budget-arithmetic.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/claims/run197c-law146-original-collation.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/claims/run205c-three-family-crosschecks.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
       "path": "data/documents/pass-239m2-1954-proposal-and-reversal-signers.json",
       "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
@@ -7081,11 +7239,219 @@
       "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
+      "path": "data/documents/run108-mirror-aliases.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/documents/run108-priority-metadata-a.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/documents/run108-priority-metadata-b.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/documents/run108-priority-metadata-c.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/documents/run124c-presidential-original-crosswalk.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/documents/run128-frus-metadata-a.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/documents/run128-frus-metadata-b.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/documents/run128-frus-metadata-c.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/documents/run128-frus-metadata-d.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/documents/run128-korean-metadata.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/documents/run128-source-index.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/documents/run131-index.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/documents/run131-part1.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/documents/run131-part10.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/documents/run131-part11.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/documents/run131-part12.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/documents/run131-part13.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/documents/run131-part14.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/documents/run131-part15.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/documents/run131-part16.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/documents/run131-part17.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/documents/run131-part18.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/documents/run131-part2.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/documents/run131-part3.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/documents/run131-part4.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/documents/run131-part5.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/documents/run131-part6.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/documents/run131-part7.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/documents/run131-part8.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/documents/run131-part9.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/documents/run134-cabinet-transcriptions-a.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/documents/run134-cabinet-transcriptions-b.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/documents/run134-cabinet-transcriptions-c.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/documents/run134-cabinet-transcriptions-d.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/documents/run134-cabinet-transcriptions-e.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/documents/run134-cabinet-transcriptions-f.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/documents/run134-constitutional-source-audit.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/documents/run141-local-government-archive.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/documents/run142-frus-treaty-negotiation.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/documents/run144-frus-june1953.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/documents/run149-1956-laws.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/documents/run150-education-agriculture.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/documents/run150-local-archives.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/documents/run150-original-viewer-index.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/documents/run150-party-formation-scholarship.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/documents/run152-1957-58-law-index.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/documents/run152-coop-education-policy.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/documents/run153-election-local.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/documents/run153-legislative-conflict.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/documents/run160-frus1961-source-headers.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/documents/run198-oct22-31-contemporary.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
       "path": "data/documents/run51-robertson-armistice-bargain.json",
       "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
       "path": "data/documents/run52-armistice-implementation-reconstruction.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/documents/run92-civic-state-metadata.json",
       "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {

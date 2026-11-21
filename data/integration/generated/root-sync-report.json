@@ -3,10 +3,10 @@
   "generatedAt": "2026-11-22",
   "centralSync": "PARTIAL",
   "eventSync": {
-    "rootBefore": 2808,
+    "rootBefore": 6331,
     "canonicalMaterialized": 6203,
-    "added": 3523,
-    "merged": 2680,
+    "added": 0,
+    "merged": 6203,
     "rootAfter": 6331,
     "missingCanonicalIdsAfterSync": [],
     "duplicateRootIds": [],
@@ -4721,7 +4721,7 @@
     "politicians": 1348
   },
   "sourceIntegrationStatus": "FULL_INTEGRATION_INCOMPLETE",
-  "sourceConflictedIds": 618,
-  "sourceAuxiliaryRecords": 678,
+  "sourceConflictedIds": 623,
+  "sourceAuxiliaryRecords": 759,
   "policy": "Named pol-/cand-/candidate- records enter the domestic politician root. The six cand172- legacy snapshot IDs are imported only as DISCOVERED candidates; unresolved document/event/file references are moved to unresolvedSourceLinks and role text is explicitly unverified. No name-based promotion or identity merge. Shared variants retain source pointers; typed variants and unresolved scalar conflicts remain explicit."
 }
