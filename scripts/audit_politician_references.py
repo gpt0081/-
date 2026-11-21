@@ -77,6 +77,59 @@ for person in people:
     elif research_refs:
         research_ref_missing.append({"politicianId": person_id, "path": research_refs, "reason": "invalid_researchRefs"})
 
+snapshot_path = DATA / "integration" / "snapshots" / "pr74-data-politicians.json"
+snapshot_meta_path = DATA / "integration" / "snapshots" / "pr74-data-politicians-meta.json"
+pr74_comparison = None
+if snapshot_path.is_file():
+    branch_registry = json.loads(snapshot_path.read_text(encoding="utf-8"))
+    branch_people = branch_registry.get("politicians", [])
+    branch_by_id = {p.get("id"): p for p in branch_people if isinstance(p.get("id"), str)}
+    main_by_id = {p.get("id"): p for p in people if isinstance(p.get("id"), str)}
+    branch_ids = set(branch_by_id)
+    main_ids = set(main_by_id)
+    branch_only = sorted(branch_ids - main_ids)
+    main_only = sorted(main_ids - branch_ids)
+    changed_records = []
+    changed_fields = Counter()
+    for person_id in sorted(branch_ids & main_ids):
+        before = branch_by_id[person_id]
+        after = main_by_id[person_id]
+        fields = sorted(
+            key for key in set(before) | set(after)
+            if json.dumps(before.get(key), ensure_ascii=False, sort_keys=True)
+            != json.dumps(after.get(key), ensure_ascii=False, sort_keys=True)
+        )
+        if fields:
+            changed_records.append({"politicianId": person_id, "changedFields": fields})
+            changed_fields.update(fields)
+    snapshot_meta = {}
+    if snapshot_meta_path.is_file():
+        snapshot_meta = json.loads(snapshot_meta_path.read_text(encoding="utf-8"))
+    pr74_comparison = {
+        "sourceBranch": snapshot_meta.get("sourceBranch"),
+        "sourceCommit": snapshot_meta.get("sourceCommit"),
+        "sourceBlobSha": snapshot_meta.get("sourceBlobSha"),
+        "branchPoliticians": len(branch_people),
+        "mainPoliticians": len(people),
+        "sharedIds": len(branch_ids & main_ids),
+        "branchOnlyCount": len(branch_only),
+        "branchOnlyIds": branch_only,
+        "mainOnlyCount": len(main_only),
+        "mainOnlyIds": main_only,
+        "changedRecordCount": len(changed_records),
+        "changedFieldCounts": dict(sorted(changed_fields.items())),
+        "sampleChangedRecords": changed_records[:40],
+        "fullDiffPath": "data/integration/generated/pr74-politician-root-diff.json",
+        "mergePolicy": "No branch record is copied over main automatically. Import only branch-only stable IDs after identity and provenance review; preserve shared-field differences as variants."
+    }
+    diff_path = DATA / "integration" / "generated" / "pr74-politician-root-diff.json"
+    diff_path.parent.mkdir(parents=True, exist_ok=True)
+    diff_path.write_text(json.dumps({
+        "schemaVersion": 1,
+        "comparison": pr74_comparison,
+        "changedRecords": changed_records
+    }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
 result = {
     "schemaVersion": 2,
     "scope": "Central politician root singular/plural evidence, annals, coverage, open-lead and researchRefs paths",
@@ -89,8 +142,10 @@ result = {
     "invalidEvidenceJson": bad_json,
     "missingResearchRefs": research_ref_missing,
     "referenceCountsChecked": dict(sorted(checked.items())),
+    "pr74BranchSnapshotComparison": pr74_comparison,
     "limitations": [
         "Does not resolve conflicting source variants",
+        "PR #74 snapshot differences are audited only; no branch values are silently imported",
         "Does not validate event/document/claim graph truth",
         "Does not establish historical truth or provenance independence"
     ]
@@ -106,7 +161,8 @@ print(json.dumps({
     "acceptedLegacyEvidenceOwners": len(legacy_owner_refs),
     "invalidEvidenceJson": len(bad_json),
     "missingResearchRefs": len(research_ref_missing),
-    "referenceCountsChecked": dict(sorted(checked.items()))
+    "referenceCountsChecked": dict(sorted(checked.items())),
+    "pr74BranchOnlyPoliticians": (pr74_comparison or {}).get("branchOnlyCount")
 }, ensure_ascii=False))
-if duplicates or missing or evidence_refs or bad_json or research_ref_missing:
+if duplicates or missing or evidence_refs or bad_json or research_ref_missing or (pr74_comparison and pr74_comparison["branchOnlyCount"]):
     raise SystemExit(1)

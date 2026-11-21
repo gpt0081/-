@@ -1,6 +1,6 @@
 {
   "reviewedAt": "2026-11-22",
-  "status": "ALL_CHANGED_PATHS_PRESENT_ON_MAIN_SEMANTIC_RECONCILIATION_OPEN",
+  "status": "PATHS_PRESENT_CONTENT_AUDITED_PARTIAL_BACKFILL_INTEGRATED",
   "pullRequests": [
     {
       "number": 73,
@@ -35,7 +35,22 @@
           "data/research/runs/2026-10-28-run224-report.md"
         ]
       },
-      "semanticStatus": "PARTIAL_SOURCE_FILES_PRESENT_NOT_FULLY_CROSS_LINKED"
+      "semanticStatus": "PARTIAL_SOURCE_FILES_PRESENT_NOT_FULLY_CROSS_LINKED",
+      "mergedInto": "research/run223-apr1952-pow-elections-governance",
+      "contentAudit": {
+        "identicalPaths": 11,
+        "differentPaths": 7,
+        "differentPathList": [
+          "data/documents/run224-may1952-frus-korean-primary.json",
+          "data/events/run224-may1952-constitutional-pow-economy.json",
+          "data/politicians.json",
+          "data/research/ACTIVE_RESEARCH_HANDOFF.json",
+          "data/research/HISTORY_DEBT.md",
+          "data/research/rhee-syngman-coverage.json",
+          "data/research/rhee-syngman-open-leads.json"
+        ],
+        "note": "Run224 document/event main variants carry later cross-links and attribution qualification; shared roots have since advanced through later research. Do not replace main with the older branch snapshot."
+      }
     },
     {
       "number": 74,
@@ -68,7 +83,19 @@
           "data/research/runs/2026-10-28-run225-report.md"
         ]
       },
-      "semanticStatus": "PARTIAL_SOURCE_FILES_PRESENT_NOT_FULLY_CROSS_LINKED"
+      "semanticStatus": "PARTIAL_SOURCE_FILES_PRESENT_NOT_FULLY_CROSS_LINKED",
+      "mergedInto": "research/run224-may1952-constitutional-pow-economy",
+      "contentAudit": {
+        "identicalPaths": 12,
+        "differentPaths": 4,
+        "differentPathList": [
+          "data/politicians.json",
+          "data/research/HISTORY_DEBT.md",
+          "data/research/rhee-syngman-coverage.json",
+          "data/research/rhee-syngman-open-leads.json"
+        ],
+        "note": "All run225-specific source shards are byte-identical to main. The four differences are shared operational roots; PR74 branch snapshot is used for additive backfill and identity comparison, not wholesale replacement."
+      }
     }
   ],
   "sharedConflictingPaths": [
@@ -77,15 +104,17 @@
     "data/research/rhee-syngman-coverage.json",
     "data/research/rhee-syngman-open-leads.json"
   ],
-  "migrationStatus": "ALL_73_74_CHANGED_PATHS_PRESENT_ON_MAIN; SOURCE_VARIANTS_AND_OPERATIONAL_LINKS_STILL_REQUIRE_SEMANTIC_RECONCILIATION",
+  "migrationStatus": "PR72_73_74_PATHS_PRESENT; PR74 BACKFILL MERGED INTO HISTORY_DEBT, COVERAGE AND OPEN-LEADS; POLITICIAN ROOT SNAPSHOT AUDIT PENDING; CENTRAL_SYNC_PARTIAL",
   "requiredActions": [
-    "Preserve all 34 PR #73/#74 changed paths; path presence is not semantic integration",
-    "Resolve 584 source-level conflicting IDs with document-level provenance comparison; do not choose arbitrary variants",
-    "Resolve 16 event and 110 politician root field conflicts with correction history and typed variants",
-    "Map 554 auxiliary/partial sources and 310 unlinked operational-layer files using explicit stable IDs",
-    "Re-run cross-registry and politician-file reference audits after each logical migration batch"
+    "Preserve all 34 PR #73/#74 changed paths; path presence is not semantic integration.",
+    "Review PR #72/#73/#74 content divergence without merging the entire diverged branch.",
+    "Resolve 584 source-level conflicting IDs with document-level provenance comparison; do not choose arbitrary variants.",
+    "Resolve 16 event and 107 politician root field conflicts with correction history and typed variants.",
+    "Map 666 auxiliary/partial records and 310 unlinked operational-layer files using explicit stable IDs.",
+    "Compare the PR #74 politician-root snapshot against the 976-record main root; import only genuinely missing stable IDs and preserve field variants.",
+    "Re-run cross-registry and politician-file reference audits after each logical migration batch."
   ],
-  "reason": "Recursive main-tree inspection confirms 18/18 PR #73 and 16/16 PR #74 changed paths are present; PR #72 remains open although all 29 changed paths are also present. PR branch merge state and main path presence are recorded separately. Generated integration audit remains FULL_INTEGRATION_INCOMPLETE.",
+  "reason": "PR #73/#74 are merged into research branches, not main. Recursive content comparison found 11/18 identical for PR73 and 12/16 for PR74; all changed paths are present. PR74's branch-only history-debt sections, 29 coverage domains, 4 next priorities and 125 leads were merged additively. PR #72 remains open and its branch is 1284 commits ahead / 807 behind main, so no wholesale merge was attempted. Central sync remains PARTIAL.",
   "relatedOpenPullRequests": [
     {
       "number": 72,
@@ -100,7 +129,36 @@
         "missing": 0,
         "verifiedAgainstCommit": "90e3bbea6b082e075d8c3cb6e57b6faf4fab5d56"
       },
-      "semanticStatus": "SOURCE_PATHS_PRESENT_BUT_PR_REMAINS_OPEN"
+      "semanticStatus": "SOURCE_PATHS_PRESENT_BUT_PR_REMAINS_OPEN",
+      "contentAudit": {
+        "identicalPaths": 22,
+        "differentPaths": 7,
+        "differentPathList": [
+          "data/documents/run224-may1952-frus-korean-primary.json",
+          "data/events/run224-may1952-constitutional-pow-economy.json",
+          "data/politicians.json",
+          "data/research/ACTIVE_RESEARCH_HANDOFF.json",
+          "data/research/HISTORY_DEBT.md",
+          "data/research/rhee-syngman-coverage.json",
+          "data/research/rhee-syngman-open-leads.json"
+        ],
+        "aheadBy": 1284,
+        "behindBy": 807,
+        "comparisonStatus": "DIVERGED",
+        "sourceBranchHead": "eb0efe46d2345811fa9eae8d22508b51dc0b4a8b",
+        "note": "All 29 paths exist on main. Whole-branch merge is unsafe; source files and shared root records are reconciled individually."
+      }
     }
-  ]
+  ],
+  "stackedBranchBackfill": {
+    "sourceBranch": "research/run225-june1952-cabinet-unc-pow",
+    "sourceCommit": "eb0efe46d2345811fa9eae8d22508b51dc0b4a8b",
+    "historyDebtSectionsAdded": 199,
+    "uniqueDebtHeadingIds": 176,
+    "coverageDomainsAdded": 29,
+    "coverageNextPriorityAdded": 4,
+    "openLeadsAdded": 125,
+    "weeklyReview": "INCOMPLETE",
+    "flootModified": false
+  }
 }

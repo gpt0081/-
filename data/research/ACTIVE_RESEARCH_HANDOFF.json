@@ -660,47 +660,102 @@
     "topNewDebt": "1956 decree1168 promulgation July14 vs stated effective April1"
   },
   "latestIntegrationAudit": {
-    "date": "2026-11-22",
-    "sourceSnapshotCommit": "e2d528b73bed55037ffbb525a623c11ffc98049b",
-    "sourceTreeSha": "58ea5d18e1b142a631127a25d7d59cf93e5750d8",
+    "reviewedAt": "2026-11-22",
     "sourceFiles": 2274,
-    "sourceStatusCounts": {
-      "BLOCKED_ID_CONFLICT": 341,
-      "INDEXED_NOT_CANONICAL_VERIFIED": 597,
-      "NON_JSON_PRESERVED": 777,
-      "UNMAPPED_AUXILIARY_OR_PARTIAL": 556,
-      "OPERATIONAL_ROOT_PRESERVED": 2,
-      "PRESIDENTIAL_BACKBONE_PRESERVED": 1
+    "centralSync": "PARTIAL",
+    "fullIntegration": "FULL_INTEGRATION_INCOMPLETE",
+    "canonicalMaterialized": {
+      "documents": 4585,
+      "claims": 2115,
+      "events": 2681,
+      "politicians": 852,
+      "organizations": 83,
+      "roles": 57
     },
-    "conflictedIds": 584,
-    "exactDuplicateIds": 11,
-    "auxiliaryRecords": 677,
-    "unintegratedSources": 563,
-    "partialSources": 11,
-    "rootSync": "PARTIAL",
-    "eventRoot": {
-      "count": 2808,
-      "canonicalMerged": 2681,
-      "missing": 0,
-      "duplicates": 0,
-      "fieldVariants": 16
+    "sourceConflicts": 584,
+    "auxiliaryRecords": 666,
+    "partialSources": 9,
+    "unintegratedSources": 555,
+    "root": {
+      "events": 2808,
+      "politicians": 976,
+      "eventFieldConflicts": 16,
+      "politicianFieldConflicts": 107,
+      "missingEventIds": 0,
+      "missingPoliticianIds": 0,
+      "policyExcludedPoliticians": 92
     },
-    "politicianRoot": {
-      "count": 975,
-      "canonicalMerged": 764,
-      "missing": 0,
-      "duplicates": 0,
-      "fieldVariants": 110,
-      "policyExcluded": 92
+    "structuralAudit": {
+      "integrityIssues": 0,
+      "referenceIssues": 0,
+      "crosswalkGaps": 0
     },
     "operationalLinks": {
       "linked": 202,
       "unlinked": 310
     },
-    "weeklyHistoryDebtReview": "NOT_RUN",
-    "workflowRuns": [
-      44951206183,
-      44951310615
-    ]
+    "roleRegistry": {
+      "records": 59,
+      "canonical": 57,
+      "conflicted": 2
+    },
+    "pr74Snapshot": {
+      "status": "PENDING_AUDIT",
+      "branchCommit": "eb0efe46d2345811fa9eae8d22508b51dc0b4a8b",
+      "branchPoliticians": 453
+    },
+    "next": "PR #74 politician-root snapshot comparison; resolve source ID conflicts without arbitrary selection; migrate remaining auxiliary and unlinked layers."
+  },
+  "pr72Pr73Pr74Reconciliation": {
+    "reviewedAt": "2026-11-22",
+    "sourceBranch": "research/run225-june1952-cabinet-unc-pow",
+    "sourceCommit": "eb0efe46d2345811fa9eae8d22508b51dc0b4a8b",
+    "mergeDecision": "Do not merge the entire stacked branch. It is divergent from main; reconcile shared files and source records individually.",
+    "pathAndContentAudit": {
+      "pr72": {
+        "changedFiles": 29,
+        "presentOnMain": 29,
+        "identical": 22,
+        "different": 7,
+        "aheadBy": 1284,
+        "behindBy": 807
+      },
+      "pr73": {
+        "changedFiles": 18,
+        "presentOnMain": 18,
+        "identical": 11,
+        "different": 7
+      },
+      "pr74": {
+        "changedFiles": 16,
+        "presentOnMain": 16,
+        "identical": 12,
+        "different": 4
+      }
+    },
+    "branchBackfill": {
+      "historyDebtSectionsAdded": 199,
+      "uniqueDebtHeadingIds": 176,
+      "overlappingDebtVariants": 0,
+      "coverageDomainsAdded": 29,
+      "coverageNextPriorityAdded": 4,
+      "centralOpenLeadsAdded": 125,
+      "centralOpenLeadsAfter": 335,
+      "sourceQueues": [
+        "data/research/lead-queues/run223-next.json",
+        "data/research/lead-queues/run224-next.json",
+        "data/research/lead-queues/run225-next.json"
+      ],
+      "weeklyHistoryDebtReview": "INCOMPLETE"
+    },
+    "sharedFileDifferences": {
+      "document": "doc-r224-frus-144: main has later relatedPoliticianIds, relatedEventIds and notes.",
+      "events": [
+        "evt-r224-military-neutrality: main adds qualified FRUS footnote identity note and opposed_by/observed_by distinctions.",
+        "evt-r224-vice-presidency: main separates resignation submission from later parliamentary acceptance and adds document/event cross-links."
+      ],
+      "politicianRoot": "PR #74 branch snapshot has 453 records; main root has 976. Exact ID/field comparison pending."
+    },
+    "flootModified": false
   }
 }

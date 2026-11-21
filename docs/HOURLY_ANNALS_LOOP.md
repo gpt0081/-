@@ -189,7 +189,7 @@ GitHub 쓰기 제한 등으로 동기화가 끝나지 않으면 완료했다고 
 
 전체 역사부채 전수조사는 **매주 일요일 Asia/Seoul 기준 그날의 첫 조사 회차에서만** 수행한다. `OPEN`, `NARROWED`, `BLOCKED`, `CONFLICTED`, `REOPENED` 전체를 모든 등록 정치인·사건에 걸쳐 확인한다.
 
-`last_full_review`로 같은 날 중복을 막는다. 새 디지털화·기록물 해제·판결/국회/정부 추가공개·해외 외교문서·학술연구·회고록·archive access 변화를 확인한다. `RESOLVED`는 새 반증 신호가 있을 때만 `REOPENED`한다.
+`last_full_review`는 마지막으로 완료한 전수조사 날짜, `last_full_review_attempt`는 완료 여부와 무관한 당일 첫 시도 날짜다. 같은 일요일에 `last_full_review_attempt`가 이미 기록되어 있으면 전수조사를 반복하지 않는다. 시도가 불완전하면 `last_full_review`는 이전 성공 날짜로 유지하고, 미검토 ID와 다음 일요일을 명시한다. 새 디지털화·기록물 해제·판결/국회/정부 추가공개·해외 외교문서·학술연구·회고록·archive access 변화를 확인한다. `RESOLVED`는 새 반증 신호가 있을 때만 `REOPENED`한다.
 
 주간 전수조사 파일이 존재하지만 `HISTORY_DEBT.md`의 `last_full_review` 또는 상태변경이 동기화되지 않았다면 완료로 간주하지 않고 consistency audit 대상으로 둔다.
 
