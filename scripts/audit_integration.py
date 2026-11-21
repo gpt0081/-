@@ -47,15 +47,6 @@ for kind in kinds:
     obj=json.loads((out/(kind+".json")).read_text())
     rows=obj["records"]
     ids[kind]={r["id"] for r in rows}
-
-# Operational roots contain valid legacy/base IDs that may be referenced by overlays.
-reference_ids={kind:set(values) for kind,values in ids.items()}
-root_events=json.loads((root/"data/events.json").read_text(encoding="utf-8-sig")).get("events",[])
-root_people=json.loads((root/"data/politicians.json").read_text(encoding="utf-8-sig")).get("politicians",[])
-reference_ids["events"].update(r.get("id") or r.get("eventId") or r.get("actionId") for r in root_events if isinstance(r,dict))
-reference_ids["politicians"].update(r.get("id") for r in root_people if isinstance(r,dict) and r.get("id"))
-reference_ids["events"].discard(None)
-reference_ids["politicians"].discard(None)
     if len(ids[kind])!=len(rows):issues.append({"code":"DUPLICATE_CENTRAL_ID","kind":kind})
     if len(rows)!=report["totals"][kind]["uniqueIds"]:issues.append({"code":"REGISTRY_COUNT_MISMATCH","kind":kind})
     for r in rows:
@@ -66,6 +57,15 @@ reference_ids["politicians"].discard(None)
             if not alt.get("provenance"):issues.append({"code":"MISSING_PROVENANCE","kind":kind,"id":r["id"]})
             for p in alt.get("provenance",[]):
                 if p["path"] not in paths:issues.append({"code":"UNKNOWN_SOURCE","kind":kind,"id":r["id"],"path":p["path"]})
+
+# Operational roots contain valid legacy/base IDs that may be referenced by overlays.
+reference_ids={kind:set(values) for kind,values in ids.items()}
+root_events=json.loads((root/"data/events.json").read_text(encoding="utf-8-sig")).get("events",[])
+root_people=json.loads((root/"data/politicians.json").read_text(encoding="utf-8-sig")).get("politicians",[])
+reference_ids["events"].update(r.get("id") or r.get("eventId") or r.get("actionId") for r in root_events if isinstance(r,dict))
+reference_ids["politicians"].update(r.get("id") for r in root_people if isinstance(r,dict) and r.get("id"))
+reference_ids["events"].discard(None)
+reference_ids["politicians"].discard(None)
 # Validate materialized canonical registries against the lossless alternatives.
 # A generated index alone cannot establish that the queryable central layer exists.
 canonical_root=root/"data/integration/canonical"
@@ -135,7 +135,7 @@ else:
         candidates=row.get("candidatePoliticianIds",[])
         if row["status"]=="EXPLICITLY_LINKED":
             if len(candidates)!=1:issues.append({"code":"UNSAFE_OPERATIONAL_IDENTITY","path":path})
-            elif candidates[0] not in ids["politicians"]:
+            elif candidates[0] not in reference_ids["politicians"]:
                 issues.append({"code":"UNKNOWN_OPERATIONAL_POLITICIAN","path":path,"id":candidates[0]})
         elif row["status"] not in ("AMBIGUOUS_IDENTITY","NO_EXPLICIT_IDENTITY"):
             issues.append({"code":"UNKNOWN_LINK_STATUS","path":path})
