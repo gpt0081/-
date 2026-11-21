@@ -4,6 +4,7 @@ on:
     branches: [main]
     paths:
       - 'scripts/integrate_all.py'
+      - 'scripts/reconcile_central_registries.py'
       - 'scripts/audit_integration.py'
       - 'scripts/link_operational_layers.py'
       - 'scripts/triage_integration.py'
@@ -30,7 +31,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Consolidate all sources (partial is expected while backlog remains)
+      - name: Consolidate every source and preserve conflicts
         id: consolidate
         shell: bash
         run: |
@@ -38,11 +39,17 @@ jobs:
           python scripts/integrate_all.py
           result=$?
           echo "exit_code=$result" >> "$GITHUB_OUTPUT"
-          if [ "$result" -gt 1 ]; then
-            echo "::warning::Integration script exited with code $result"
-          fi
           exit 0
-      - name: Link operational evidence and annals layers
+      - name: Synchronize canonical events and politicians into operational roots
+        id: root_sync
+        shell: bash
+        run: |
+          set +e
+          python scripts/reconcile_central_registries.py
+          result=$?
+          echo "exit_code=$result" >> "$GITHUB_OUTPUT"
+          exit 0
+      - name: Link evidence, annals, coverage and lead queues
         id: link
         shell: bash
         run: |
@@ -51,7 +58,7 @@ jobs:
           result=$?
           echo "exit_code=$result" >> "$GITHUB_OUTPUT"
           exit 0
-      - name: Validate provenance and inventory completeness
+      - name: Validate source preservation and central root coverage
         id: audit
         shell: bash
         run: |
@@ -60,9 +67,9 @@ jobs:
           result=$?
           echo "exit_code=$result" >> "$GITHUB_OUTPUT"
           exit 0
-      - name: Build per-source unresolved integration triage
+      - name: Build per-source integration triage
         run: python scripts/triage_integration.py
-      - name: Audit canonical politician file references
+      - name: Audit politician file references and event/document links
         id: politician_audit
         shell: bash
         run: |
@@ -79,52 +86,28 @@ jobs:
           path: data/integration/generated/
           retention-days: 14
           if-no-files-found: warn
-      - name: Commit generated indexes (not canonical resolution)
+      - name: Commit central registries and generated audit
         if: steps.consolidate.outputs.exit_code == '0' || steps.consolidate.outputs.exit_code == '1'
         shell: bash
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/integration/generated data/integration/canonical
+          git add data/events.json data/politicians.json data/integration/generated data/integration/canonical
           if ! git diff --cached --quiet; then
-            git commit -m 'integration: preserve partial indexes and audit'
+            git commit -m 'integration: synchronize central registries and preserve audit'
             git push
           fi
-      - name: Publish integration summary
-        if: always()
-        shell: bash
-        run: |
-          python - <<'PY'
-          import json, pathlib
-          root = pathlib.Path('data/integration/generated')
-          report_path = root / 'report.json'
-          audit_path = root / 'integrity-audit.json'
-          with open(pathlib.Path(__import__('os').environ['GITHUB_STEP_SUMMARY']), 'a') as output:
-              output.write('## Historical integration status\n\n')
-              for path in (report_path, audit_path):
-                  if not path.exists():
-                      output.write(f'- Missing: `{path}`\n')
-                      continue
-                  data = json.loads(path.read_text())
-                  output.write(f'### `{path.name}`\n\n')
-                  for key in ('status', 'centralSync', 'sourceFiles', 'referenceIssueCount'):
-                      if key in data:
-                          output.write(f'- {key}: `{data[key]}`\n')
-                  for key in ('conflictingIds', 'unintegratedSources', 'crosswalkGaps', 'integrityIssues'):
-                      if isinstance(data.get(key), list):
-                          output.write(f'- {key}: **{len(data[key])}**\n')
-              output.write('\nGenerated indexes are not proof of canonical migration.\n')
-          PY
       - name: Enforce integration completeness gate
         if: always()
         shell: bash
         env:
           CONSOLIDATE_EXIT: ${{ steps.consolidate.outputs.exit_code }}
+          ROOT_SYNC_EXIT: ${{ steps.root_sync.outputs.exit_code }}
           LINK_EXIT: ${{ steps.link.outputs.exit_code }}
           AUDIT_EXIT: ${{ steps.audit.outputs.exit_code }}
           POLITICIAN_AUDIT_EXIT: ${{ steps.politician_audit.outputs.exit_code }}
         run: |
-          if [ "$CONSOLIDATE_EXIT" != "0" ] || [ "$LINK_EXIT" != "0" ] || [ "$AUDIT_EXIT" != "0" ] || [ "$POLITICIAN_AUDIT_EXIT" != "0" ]; then
-            echo "::error::FULL_INTEGRATION_INCOMPLETE: reports preserved; unresolved conflicts or validation errors remain."
+          if [ "$CONSOLIDATE_EXIT" != "0" ] || [ "$ROOT_SYNC_EXIT" != "0" ] || [ "$LINK_EXIT" != "0" ] || [ "$AUDIT_EXIT" != "0" ] || [ "$POLITICIAN_AUDIT_EXIT" != "0" ]; then
+            echo "::error::FULL_INTEGRATION_INCOMPLETE: reports preserved; unresolved conflicts or references remain."
             exit 1
           fi
