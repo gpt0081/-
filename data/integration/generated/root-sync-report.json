@@ -3,10 +3,10 @@
   "generatedAt": "2026-11-21",
   "centralSync": "PARTIAL",
   "eventSync": {
-    "rootBefore": 2717,
+    "rootBefore": 2808,
     "canonicalMaterialized": 2679,
-    "added": 91,
-    "merged": 2588,
+    "added": 0,
+    "merged": 2679,
     "rootAfter": 2808,
     "missingCanonicalIdsAfterSync": [],
     "duplicateRootIds": [],
@@ -223,11 +223,11 @@
     "skipped": []
   },
   "politicianSync": {
-    "rootBefore": 796,
+    "rootBefore": 975,
     "canonicalMaterialized": 763,
-    "added": 179,
+    "added": 0,
     "manualAdded": 0,
-    "merged": 584,
+    "merged": 763,
     "rootAfter": 975,
     "missingCanonicalIdsAfterSync": [],
     "fieldConflicts": [
@@ -484,6 +484,32 @@
       },
       {
         "kind": "politicians",
+        "id": "cand-an-ho-sang-1902",
+        "field": "researchStatus",
+        "rootValue": "DISCOVERED",
+        "incomingValue": "candidate-primary-source-linked",
+        "incomingProvenance": [
+          {
+            "path": "data/research/candidates/an-ho-sang-1902.json",
+            "pointer": "/"
+          }
+        ]
+      },
+      {
+        "kind": "politicians",
+        "id": "cand-choe-hyeon-bae",
+        "field": "researchStatus",
+        "rootValue": "IDENTIFIED",
+        "incomingValue": "IDENTIFIED_POLICY_ACTOR",
+        "incomingProvenance": [
+          {
+            "path": "data/research/candidates/pass-263-state-building-graph-delta.json",
+            "pointer": "/politicianCandidates/10"
+          }
+        ]
+      },
+      {
+        "kind": "politicians",
         "id": "cand-joo-geum-yong-1908",
         "field": "researchStatus",
         "rootValue": "IDENTIFIED",
@@ -492,6 +518,19 @@
           {
             "path": "data/research/candidates/pass-108-jinhae-network.json",
             "pointer": "/candidates/1"
+          }
+        ]
+      },
+      {
+        "kind": "politicians",
+        "id": "cand-jung-chang-hyun",
+        "field": "researchStatus",
+        "rootValue": "IDENTIFIED",
+        "incomingValue": "IDENTIFIED-ACTOR",
+        "incomingProvenance": [
+          {
+            "path": "data/research/graph-patches/pass-288-geochang-parliamentary-network.json",
+            "pointer": "/politicianCandidates/6"
           }
         ]
       },
@@ -523,6 +562,19 @@
       },
       {
         "kind": "politicians",
+        "id": "cand-kim-jong-won-1951",
+        "field": "researchStatus",
+        "rootValue": "VERIFIED",
+        "incomingValue": "VERIFIED-ACTOR",
+        "incomingProvenance": [
+          {
+            "path": "data/research/graph-patches/pass-288-geochang-parliamentary-network.json",
+            "pointer": "/politicianCandidates/3"
+          }
+        ]
+      },
+      {
+        "kind": "politicians",
         "id": "cand-kim-sang-deok-antimin",
         "field": "researchStatus",
         "rootValue": "ANNALS_ACTIVE",
@@ -531,6 +583,32 @@
           {
             "path": "data/research/candidates/pass-178-antimin-politician-nodes.json",
             "pointer": "/nodes/7"
+          }
+        ]
+      },
+      {
+        "kind": "politicians",
+        "id": "cand-lee-cheon-sang-legal-affairs",
+        "field": "researchStatus",
+        "rootValue": "DISCOVERED",
+        "incomingValue": "candidate-identity-partially-resolved",
+        "incomingProvenance": [
+          {
+            "path": "data/research/candidates/lee-cheon-sang-legal-affairs.json",
+            "pointer": "/"
+          }
+        ]
+      },
+      {
+        "kind": "politicians",
+        "id": "cand-lee-jong-hyeon-1904",
+        "field": "researchStatus",
+        "rootValue": "IDENTIFIED",
+        "incomingValue": "candidate-strongly-identified",
+        "incomingProvenance": [
+          {
+            "path": "data/research/candidates/lee-jong-hyeon-1904.json",
+            "pointer": "/"
           }
         ]
       },
@@ -1243,6 +1321,71 @@
           {
             "path": "data/politicians/run225-june1952-actors.json",
             "pointer": "/actors/13"
+          }
+        ]
+      },
+      {
+        "kind": "politicians",
+        "id": "cand-son-jin-tae",
+        "field": "researchStatus",
+        "rootValue": "IDENTIFIED",
+        "incomingValue": "IDENTIFIED_PUBLIC_OFFICIAL",
+        "incomingProvenance": [
+          {
+            "path": "data/research/candidates/pass-263-state-building-graph-delta.json",
+            "pointer": "/politicianCandidates/9"
+          }
+        ]
+      },
+      {
+        "kind": "politicians",
+        "id": "candidate-cho-bong-am",
+        "field": "researchStatus",
+        "rootValue": "IDENTIFIED",
+        "incomingValue": "IDENTIFIED-DEEPENED",
+        "incomingProvenance": [
+          {
+            "path": "data/research/depth/f2-constitutional-government-1948-pass1.json",
+            "pointer": "/politicianCandidates/6"
+          }
+        ]
+      },
+      {
+        "kind": "politicians",
+        "id": "candidate-kim-do-yeon",
+        "field": "researchStatus",
+        "rootValue": "IDENTIFIED",
+        "incomingValue": "IDENTIFIED-DEEPENED",
+        "incomingProvenance": [
+          {
+            "path": "data/research/depth/f2-constitutional-government-1948-pass1.json",
+            "pointer": "/politicianCandidates/5"
+          }
+        ]
+      },
+      {
+        "kind": "politicians",
+        "id": "candidate-lee-beom-seok",
+        "field": "researchStatus",
+        "rootValue": "IDENTIFIED",
+        "incomingValue": "IDENTIFIED-DEEPENED",
+        "incomingProvenance": [
+          {
+            "path": "data/research/depth/f2-constitutional-government-1948-pass1.json",
+            "pointer": "/politicianCandidates/3"
+          }
+        ]
+      },
+      {
+        "kind": "politicians",
+        "id": "candidate-yu-jin-o",
+        "field": "researchStatus",
+        "rootValue": "IDENTIFIED",
+        "incomingValue": "IDENTIFIED-DEEPENED",
+        "incomingProvenance": [
+          {
+            "path": "data/research/depth/f2-constitutional-government-1948-pass1.json",
+            "pointer": "/politicianCandidates/12"
           }
         ]
       },
@@ -2197,7 +2340,7 @@
   },
   "rootFileHashes": {
     "data/events.json": "8d845b8fb9a98d35ad8ab868ffc83aad570027ea7f80122defd2459153a83f48",
-    "data/politicians.json": "a449d471dcc8faef21b7c341a6cc8f70e75a95054d3efe5f1e25294569b6e7be"
+    "data/politicians.json": "0b13df59ec1e1f46e0c0fc14e98d6defa93b8e31f2afc6c223ce58c68f074d17"
   },
   "rootFileCounts": {
     "events": 2808,
