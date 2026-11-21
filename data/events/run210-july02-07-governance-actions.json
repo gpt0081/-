@@ -1,0 +1,696 @@
+{
+  "run": 210,
+  "events": [
+    {
+      "id": "evt-r210-01",
+      "date": "1951-07-02",
+      "title": "이승만의 정전 반대 의견과 미국·유엔 결정 수용 발언 분리",
+      "domain": "diplomacy",
+      "actorIds": [
+        "pol-rhee-syngman"
+      ],
+      "evidenceDocumentIds": [
+        "doc-r210-frus1951v07p1-d400",
+        "doc-r210-uk-hansard-19510702-allied-intentions"
+      ],
+      "actionEdges": {
+        "stated_by": [
+          "pol-rhee-syngman"
+        ],
+        "reported_by": [
+          "Muccio"
+        ],
+        "contextual_questioned_by": [
+          "Emrys Hughes"
+        ]
+      },
+      "attributionLimit": "미 대사 보고의 간접인용이며 국무회의 원의사록 미확보",
+      "accessDate": "2026-10-28"
+    },
+    {
+      "id": "evt-r210-02",
+      "date": "1951-07-02",
+      "title": "이승만 내각에 정전 관련 공개 침묵 요구",
+      "domain": "administration",
+      "actorIds": [
+        "pol-rhee-syngman"
+      ],
+      "evidenceDocumentIds": [
+        "doc-r210-frus1951v07p1-d400"
+      ],
+      "actionEdges": {
+        "reportedly_directed_by": [
+          "pol-rhee-syngman"
+        ],
+        "observed_by": [
+          "Muccio"
+        ]
+      },
+      "attributionLimit": "무초의 전언이며 서면 대통령 지시 원본 미확보",
+      "accessDate": "2026-10-28"
+    },
+    {
+      "id": "evt-r210-03",
+      "date": "1951-07-02",
+      "title": "JCS 정전협상과 실제 전투중지의 선후조건 확정",
+      "domain": "military",
+      "actorIds": [],
+      "evidenceDocumentIds": [
+        "doc-r210-frus1951v07p1-d401"
+      ],
+      "actionEdges": {
+        "decided_by": [
+          "US Joint Chiefs of Staff"
+        ],
+        "executed_by": [
+          "Ridgway (pending)"
+        ]
+      },
+      "attributionLimit": "회담 동의와 즉시 전투중지는 동일하지 않음",
+      "accessDate": "2026-10-28"
+    },
+    {
+      "id": "evt-r210-04",
+      "date": "1951-07-03",
+      "title": "미국 국방부 UNKRA·UNC 관계 및 전시 지휘권 유보",
+      "domain": "relief",
+      "actorIds": [],
+      "evidenceDocumentIds": [
+        "doc-r210-frus1951v07p1-d403"
+      ],
+      "actionEdges": {
+        "proposed_by": [
+          "US State Department"
+        ],
+        "endorsed_with_conditions_by": [
+          "George C. Marshall"
+        ],
+        "legal_authority": [
+          "UNC wartime command disputed"
+        ]
+      },
+      "attributionLimit": "합의 문서의 최종 발효가 아닌 국방장관의 동의 및 유보",
+      "accessDate": "2026-10-28"
+    },
+    {
+      "id": "evt-r210-05",
+      "date": "1951-07-03",
+      "title": "대충자금 잔액으로 한국정부 당좌대월 상쇄 반대",
+      "domain": "finance",
+      "actorIds": [],
+      "evidenceDocumentIds": [
+        "doc-r210-frus1951v07p1-d404"
+      ],
+      "actionEdges": {
+        "decided_by": [
+          "US State Department and ECA"
+        ],
+        "recipient": [
+          "US Embassy Korea"
+        ]
+      },
+      "attributionLimit": "미측 방침이며 한국정부 실제 자금조정 완료 아님",
+      "accessDate": "2026-10-28"
+    },
+    {
+      "id": "evt-r210-06",
+      "date": "1951-07-03",
+      "title": "양유찬 주미대사 다국적 정전 브리핑 참석",
+      "domain": "diplomacy",
+      "actorIds": [
+        "pol-yang-yu-chan"
+      ],
+      "evidenceDocumentIds": [
+        "doc-r210-frus1951v07p1-d402"
+      ],
+      "actionEdges": {
+        "participated_by": [
+          "pol-yang-yu-chan"
+        ],
+        "observed_by": [
+          "US State Department"
+        ]
+      },
+      "attributionLimit": "참석은 확인되나 개인 발언은 문서별 확인",
+      "accessDate": "2026-10-28"
+    },
+    {
+      "id": "evt-r210-07",
+      "date": "1951-07-04",
+      "title": "무초 완충지대의 민정·법적 지위 우려 제기",
+      "domain": "local-administration",
+      "actorIds": [],
+      "evidenceDocumentIds": [
+        "doc-r210-frus1951v07p1-d406"
+      ],
+      "actionEdges": {
+        "proposed_by": [
+          "Muccio"
+        ],
+        "recipient": [
+          "US State Department"
+        ]
+      },
+      "attributionLimit": "대사 개인 제안이며 확정된 정전 조항 아님",
+      "accessDate": "2026-10-28"
+    },
+    {
+      "id": "evt-r210-08",
+      "date": "1951-07-05",
+      "title": "러스크 한국측에 릿지웨이 훈령 미공개 지시",
+      "domain": "diplomacy",
+      "actorIds": [],
+      "evidenceDocumentIds": [
+        "doc-r210-frus1951v07p1-d408"
+      ],
+      "actionEdges": {
+        "decided_by": [
+          "Dean Rusk"
+        ],
+        "recipient": [
+          "Muccio"
+        ]
+      },
+      "attributionLimit": "미측 협상 훈령과 대한민국 동의 구분",
+      "accessDate": "2026-10-28"
+    },
+    {
+      "id": "evt-r210-09",
+      "date": "1951-07-05",
+      "title": "재무부 토지수득세법안 심의와 국회 조세분과 회부 보도",
+      "domain": "taxation",
+      "actorIds": [
+        "pol-paik-too-chin"
+      ],
+      "evidenceDocumentIds": [
+        "doc-r210-dh_022_1951_07_05_0030",
+        "doc-r210-dh_022_1951_07_05_0040"
+      ],
+      "actionEdges": {
+        "proposed_by": [
+          "ROK Finance Ministry"
+        ],
+        "reviewed_by": [
+          "Tax Subcommittee"
+        ]
+      },
+      "attributionLimit": "두 기사에서 입법 단계 차이; 제정·시행 아님",
+      "accessDate": "2026-10-28"
+    },
+    {
+      "id": "evt-r210-10",
+      "date": "1951-07-05",
+      "title": "변영태·임문환 국회 정전 및 쌀값 답변",
+      "domain": "legislature",
+      "actorIds": [
+        "pol-pyun-yong-tae",
+        "pol-r175-im-mun-hwan"
+      ],
+      "evidenceDocumentIds": [
+        "doc-r210-dh_022_1951_07_05_0050"
+      ],
+      "actionEdges": {
+        "answered_by": [
+          "pol-pyun-yong-tae",
+          "pol-r175-im-mun-hwan"
+        ],
+        "questioned_by": [
+          "National Assembly"
+        ]
+      },
+      "attributionLimit": "신문 요약; 원속기록 필요",
+      "accessDate": "2026-10-28"
+    },
+    {
+      "id": "evt-r210-11",
+      "date": "1951-07-05",
+      "title": "서민호·안만복 신성모 주일대표 임명 반대 질의",
+      "domain": "appointments",
+      "actorIds": [
+        "pol-r164-seo-min-ho",
+        "cand-r210-an-man-bok",
+        "pol-pyun-yong-tae"
+      ],
+      "evidenceDocumentIds": [
+        "doc-r210-dh_022_1951_07_05_0060"
+      ],
+      "actionEdges": {
+        "opposed_by": [
+          "pol-r164-seo-min-ho",
+          "cand-r210-an-man-bok"
+        ],
+        "answered_by": [
+          "pol-pyun-yong-tae"
+        ]
+      },
+      "attributionLimit": "국무회의 부결은 서민호의 질문 속 주장, 원회의록 미확인",
+      "accessDate": "2026-10-28"
+    },
+    {
+      "id": "evt-r210-12",
+      "date": "1951-07-05",
+      "title": "이익흥 치안국장 피난민 서울 북상 통제 발표",
+      "domain": "civil-liberties",
+      "actorIds": [
+        "pol-r141-lee-ik-heung"
+      ],
+      "evidenceDocumentIds": [
+        "doc-r210-dh_022_1951_07_05_0080"
+      ],
+      "actionEdges": {
+        "stated_by": [
+          "pol-r141-lee-ik-heung"
+        ],
+        "legal_authority": [
+          "Unverified emergency movement rules"
+        ]
+      },
+      "attributionLimit": "검문·배급 제한 방침과 실제 개별 집행 분리",
+      "accessDate": "2026-10-28"
+    },
+    {
+      "id": "evt-r210-13",
+      "date": "1951-07-05",
+      "title": "국민방위군 재심 첫 공판·변호인 퇴장",
+      "domain": "judiciary",
+      "actorIds": [
+        "pol-kim-yun-geun"
+      ],
+      "evidenceDocumentIds": [
+        "doc-r210-dh_022_1951_07_05_0100"
+      ],
+      "actionEdges": {
+        "decided_by": [
+          "Military tribunal"
+        ],
+        "opposed_by": [
+          "Defense counsel"
+        ]
+      },
+      "attributionLimit": "공판 보도는 유죄 확정 또는 변호권 적법성 판단 아님",
+      "accessDate": "2026-10-28"
+    },
+    {
+      "id": "evt-r210-14",
+      "date": "1951-07-06",
+      "title": "육본훈령191 직결처분권 7월10일 취소",
+      "domain": "military-law",
+      "actorIds": [
+        "cand-r209-lee-jong-chan"
+      ],
+      "evidenceDocumentIds": [
+        "doc-r210-dh_022_1951_07_06_0080"
+      ],
+      "actionEdges": {
+        "decided_by": [
+          "cand-r209-lee-jong-chan"
+        ],
+        "legal_authority": [
+          "Army HQ Order 191"
+        ],
+        "executed_by": [
+          "Army chain of command from 1951-07-10"
+        ]
+      },
+      "attributionLimit": "명령 원문 전사 확인, 현장 적용·과거 처분 적법성 별개",
+      "accessDate": "2026-10-28"
+    },
+    {
+      "id": "evt-r210-15",
+      "date": "1951-07-06",
+      "title": "국회 하곡 35만석 수집안 조건부 동의",
+      "domain": "agriculture",
+      "actorIds": [
+        "pol-r175-im-mun-hwan",
+        "pol-paik-too-chin"
+      ],
+      "evidenceDocumentIds": [
+        "doc-r210-dh_022_1951_07_05_0070",
+        "doc-r210-dh_022_1951_07_06_0100"
+      ],
+      "actionEdges": {
+        "proposed_by": [
+          "ROK Agriculture Ministry"
+        ],
+        "decided_by": [
+          "National Assembly (reported)"
+        ],
+        "promised_by": [
+          "pol-paik-too-chin"
+        ]
+      },
+      "attributionLimit": "지역별 수량 합계 42.1만석 대 총 35만석 산술 충돌",
+      "accessDate": "2026-10-28"
+    },
+    {
+      "id": "evt-r210-16",
+      "date": "1951-07-06",
+      "title": "경남도 부산 한달분 배급·전남 3만석 반입 계획",
+      "domain": "local-administration",
+      "actorIds": [
+        "pol-r164-yang-seong-bong"
+      ],
+      "evidenceDocumentIds": [
+        "doc-r210-dh_022_1951_07_06_0120"
+      ],
+      "actionEdges": {
+        "announced_by": [
+          "pol-r164-yang-seong-bong"
+        ],
+        "executed_by": [
+          "Gyeongsangnam-do (unverified)"
+        ]
+      },
+      "attributionLimit": "배급 지령과 실제 수송/수령 미확인",
+      "accessDate": "2026-10-28"
+    },
+    {
+      "id": "evt-r210-17",
+      "date": "1951-07-06",
+      "title": "신익희 대구형무소 시찰 및 조건부 정전 발언",
+      "domain": "legislature",
+      "actorIds": [
+        "pol-r141-shin-ik-hui"
+      ],
+      "evidenceDocumentIds": [
+        "doc-r210-dh_022_1951_07_06_0090"
+      ],
+      "actionEdges": {
+        "stated_by": [
+          "pol-r141-shin-ik-hui"
+        ],
+        "visited_by": [
+          "pol-r141-shin-ik-hui"
+        ]
+      },
+      "attributionLimit": "국회의장 견해는 대통령·정부 공식정책과 별개",
+      "accessDate": "2026-10-28"
+    },
+    {
+      "id": "evt-r210-18",
+      "date": "1951-07-06",
+      "title": "서울 복귀 농민 대상 7개 구 집계",
+      "domain": "local-administration",
+      "actorIds": [],
+      "evidenceDocumentIds": [
+        "doc-r210-dh_022_1951_07_06_0140"
+      ],
+      "actionEdges": {
+        "reported_by": [
+          "Seoul Shinmun"
+        ],
+        "implemented_by": [
+          "Police and ward offices (planned)"
+        ]
+      },
+      "attributionLimit": "열거 합계 87670명, 기사 총 87680명",
+      "accessDate": "2026-10-28"
+    },
+    {
+      "id": "evt-r210-19",
+      "date": "1951-07-07",
+      "title": "공보처장 각하 호칭 폐지 발표",
+      "domain": "administrative-reform",
+      "actorIds": [],
+      "evidenceDocumentIds": [
+        "doc-r210-dh_022_1951_07_07_0030"
+      ],
+      "actionEdges": {
+        "announced_by": [
+          "ROK Public Information Director (surname Lee)"
+        ]
+      },
+      "attributionLimit": "실제 정부 전기관 공문 적용 원훈령 미확보; 공보처장 이씨 신원 확인 필요",
+      "accessDate": "2026-10-28"
+    },
+    {
+      "id": "evt-r210-20",
+      "date": "1951-07-07",
+      "title": "이기붕 국방장관 3군 수뇌부 함상회의",
+      "domain": "defense-administration",
+      "actorIds": [
+        "pol-yi-ki-pung",
+        "pol-r149-cabinet-07",
+        "pol-sohn-won-yil",
+        "pol-kim-jeong-ryeol-1917",
+        "cand-r209-lee-jong-chan",
+        "pol-lee-han-lim"
+      ],
+      "evidenceDocumentIds": [
+        "doc-r210-dh_022_1951_07_07_0060"
+      ],
+      "actionEdges": {
+        "convened_by": [
+          "pol-yi-ki-pung"
+        ],
+        "participated_by": [
+          "pol-r149-cabinet-07",
+          "pol-sohn-won-yil",
+          "pol-kim-jeong-ryeol-1917",
+          "cand-r209-lee-jong-chan",
+          "pol-lee-han-lim"
+        ]
+      },
+      "attributionLimit": "익명 관계자 '완전 합의' 보도는 공식 의결서 미확인",
+      "accessDate": "2026-10-28"
+    },
+    {
+      "id": "evt-r210-21",
+      "date": "1951-07-07",
+      "title": "국민방위군 재판 윤익헌 피고 주장·증인심문",
+      "domain": "judiciary",
+      "actorIds": [
+        "pol-r149-cabinet-07"
+      ],
+      "evidenceDocumentIds": [
+        "doc-r210-dh_022_1951_07_06_0110",
+        "doc-r210-dh_022_1951_07_07_0070"
+      ],
+      "actionEdges": {
+        "testified_by": [
+          "Yun Ik-heon"
+        ],
+        "questioned_by": [
+          "Military prosecutor"
+        ],
+        "observed_by": [
+          "Contemporary press"
+        ]
+      },
+      "attributionLimit": "기소·피고 주장·증언·판결 구별",
+      "accessDate": "2026-10-28"
+    },
+    {
+      "id": "evt-r210-22",
+      "date": "1951-07-07",
+      "title": "서울시 사회국 전시 역산 건물 재조사 발표",
+      "domain": "housing",
+      "actorIds": [],
+      "evidenceDocumentIds": [
+        "doc-r210-dh_022_1951_07_07_0080"
+      ],
+      "actionEdges": {
+        "announced_by": [
+          "Seoul municipal Social Affairs Bureau"
+        ],
+        "executed_by": [
+          "Municipal housing office (pending)"
+        ]
+      },
+      "attributionLimit": "5600건에서 약1000건 예상은 사전추정, 조사결과 아님",
+      "accessDate": "2026-10-28"
+    },
+    {
+      "id": "evt-r210-23",
+      "date": "1951-07-07",
+      "title": "면실 수출허가에서 금지로 정책변경 보도",
+      "domain": "industry",
+      "actorIds": [
+        "pol-r175-im-mun-hwan"
+      ],
+      "evidenceDocumentIds": [
+        "doc-r210-dh_022_1951_07_07_0090"
+      ],
+      "actionEdges": {
+        "reported_by": [
+          "Kyunghyang Shinmun"
+        ],
+        "attributed_to": [
+          "ROK Agriculture Ministry"
+        ]
+      },
+      "attributionLimit": "업계 비판과 실제 금지 고시·수출량 별도 검증",
+      "accessDate": "2026-10-28"
+    },
+    {
+      "id": "evt-r210-24",
+      "date": "1951-07-07",
+      "title": "주한미대사 국무총리에 신문 공개편지 항의",
+      "domain": "press",
+      "actorIds": [
+        "pol-chang-myon"
+      ],
+      "evidenceDocumentIds": [
+        "doc-r210-frus1951v07p1-d414",
+        "doc-r210-dh_022_1951_07_07_0020"
+      ],
+      "actionEdges": {
+        "protested_by": [
+          "Muccio"
+        ],
+        "responded_by": [
+          "pol-chang-myon"
+        ],
+        "disclaimed_by": [
+          "ROK Public Information Office"
+        ]
+      },
+      "attributionLimit": "동일 미국 원전의 한국어 번역과 영문은 독립 증거 아님; 해고는 총리 전언",
+      "accessDate": "2026-10-28"
+    },
+    {
+      "id": "evt-r210-25",
+      "date": "1951-07-08",
+      "title": "개성 연락장교 회의에서 7월10일 첫 본회의·대표단·통행보장 합의",
+      "domain": "armistice-procedure",
+      "actorIds": [],
+      "evidenceDocumentIds": [
+        "doc-r210-frus1951v07p1-d415"
+      ],
+      "actionEdges": {
+        "agreed_by": [
+          "UNC liaison officers",
+          "Communist liaison officers"
+        ],
+        "reported_by": [
+          "Ridgway"
+        ]
+      },
+      "attributionLimit": "휴전 발효 아님, 회담 일정·안전 합의",
+      "accessDate": "2026-10-28"
+    },
+    {
+      "id": "evt-r210-26",
+      "date": "1951-07-09",
+      "title": "이승만-토머스 듀이 정전 협의와 국회 방문",
+      "domain": "diplomacy",
+      "actorIds": [
+        "pol-rhee-syngman",
+        "pol-chang-myon",
+        "pol-pyun-yong-tae"
+      ],
+      "evidenceDocumentIds": [
+        "doc-r210-frus1951v07p1-d420"
+      ],
+      "actionEdges": {
+        "stated_by": [
+          "pol-rhee-syngman"
+        ],
+        "responded_by": [
+          "Thomas Dewey"
+        ],
+        "observed_by": [
+          "Muccio"
+        ]
+      },
+      "attributionLimit": "무초의 대화 요약과 개인적 평가는 사실·평가로 분리",
+      "accessDate": "2026-10-28"
+    },
+    {
+      "id": "evt-r210-27",
+      "date": "1951-07-10",
+      "title": "애치슨 원화 교환 특별계정 달러 일부 방출 건의",
+      "domain": "finance",
+      "actorIds": [],
+      "evidenceDocumentIds": [
+        "doc-r210-frus1951v07p1-d421"
+      ],
+      "actionEdges": {
+        "proposed_by": [
+          "Dean Acheson"
+        ],
+        "recipient": [
+          "George Marshall"
+        ],
+        "legal_authority": [
+          "1950-07-28 US-ROK Financial Agreement"
+        ]
+      },
+      "attributionLimit": "월 170만달러 적립 언급; 지급·방출 완료 증거 아님",
+      "accessDate": "2026-10-28"
+    },
+    {
+      "id": "evt-r210-28",
+      "date": "1951-07-10",
+      "title": "JCS 95977 유엔군사령관 군사임무 및 작전제한 재지시",
+      "domain": "military-law",
+      "actorIds": [],
+      "evidenceDocumentIds": [
+        "doc-r210-frus1951v07p1-d425"
+      ],
+      "actionEdges": {
+        "decided_by": [
+          "US Joint Chiefs of Staff"
+        ],
+        "approved_by": [
+          "US President Truman per FRUS editorial footnote"
+        ],
+        "executed_by": [
+          "Ridgway"
+        ]
+      },
+      "attributionLimit": "중국·소련 영토 공습은 JCS 승인 없이는 허용되지 않음; 대한민국 대통령 명령 아님",
+      "accessDate": "2026-10-28"
+    },
+    {
+      "id": "evt-r210-29",
+      "date": "1951-07-10",
+      "title": "개성 제1차 정전본회의 Joy·남일 입장과 의제 충돌",
+      "domain": "armistice-negotiations",
+      "actorIds": [],
+      "evidenceDocumentIds": [
+        "doc-r210-frus1951v07p1-d427"
+      ],
+      "actionEdges": {
+        "proposed_by": [
+          "Nam Il",
+          "C Turner Joy"
+        ],
+        "opposed_by": [
+          "UNC delegates",
+          "Communist delegates"
+        ],
+        "observed_by": [
+          "Ridgway"
+        ]
+      },
+      "attributionLimit": "유엔측 군사사항 한정·전투 계속 vs 공산측 38선·외국군 철수 제안; 합의 아님",
+      "accessDate": "2026-10-28"
+    },
+    {
+      "id": "evt-r210-30",
+      "date": "1951-07-11",
+      "title": "UNC-UNKRA 2단계 구호권한 제안 및 Kingsley 7/16 수락 주석",
+      "domain": "relief",
+      "actorIds": [],
+      "evidenceDocumentIds": [
+        "doc-r210-frus1951v07p1-d428",
+        "doc-r210-frus1951v07p1-d403"
+      ],
+      "actionEdges": {
+        "proposed_by": [
+          "US State Department",
+          "John Hickerson"
+        ],
+        "endorsed_by": [
+          "US Defense Department"
+        ],
+        "later_finding": [
+          "Kingsley assent reported 1951-07-16 telegram54, not printed"
+        ]
+      },
+      "attributionLimit": "1단계 UNC 단기구호 책임 유지, UNKRA 추가원조·장기계획; 2단계 이관 시점 미정, 실제 집행 별도",
+      "accessDate": "2026-10-28"
+    }
+  ]
+}
