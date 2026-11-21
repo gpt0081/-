@@ -138635,8 +138635,22 @@
     },
     {
       "id": "evt-r170-06",
-      "integrationStatus": "INTEGRATED",
+      "integrationStatus": "CONFLICTED",
       "alternatives": [
+        {
+          "digest": "11de8882f2f8459ee0607cf13b0477e212a0efc2ea1553014be917dc8c415819",
+          "data": {
+            "eventId": "evt-r170-06",
+            "actorRole": "LISTED_SPONSOR",
+            "verification": "ARCHIVE_EDITORIAL_LIST_NOT_FACSIMILE"
+          },
+          "provenance": [
+            {
+              "path": "data/evidence/cho-jin-man.json",
+              "pointer": "/events/0"
+            }
+          ]
+        },
         {
           "digest": "d0f40993ec9b551dcf4c93a763dd39afe8fe5211063e1e72e0736191fe519e0a",
           "data": {
@@ -138690,7 +138704,7 @@
           ]
         }
       ],
-      "canonicalSelection": "d0f40993ec9b551dcf4c93a763dd39afe8fe5211063e1e72e0736191fe519e0a"
+      "canonicalSelection": null
     },
     {
       "id": "evt-r170-07",

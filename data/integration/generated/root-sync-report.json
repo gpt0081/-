@@ -4,9 +4,9 @@
   "centralSync": "PARTIAL",
   "eventSync": {
     "rootBefore": 6331,
-    "canonicalMaterialized": 6203,
+    "canonicalMaterialized": 6202,
     "added": 0,
-    "merged": 6203,
+    "merged": 6202,
     "rootAfter": 6331,
     "missingCanonicalIdsAfterSync": [],
     "duplicateRootIds": [],
@@ -242,11 +242,11 @@
   },
   "politicianSync": {
     "rootBefore": 1348,
-    "canonicalMaterialized": 1107,
-    "added": 0,
+    "canonicalMaterialized": 1318,
+    "added": 456,
     "manualAdded": 0,
-    "merged": 1107,
-    "rootAfter": 1348,
+    "merged": 862,
+    "rootAfter": 1804,
     "missingCanonicalIdsAfterSync": [],
     "fieldConflicts": [
       {
@@ -563,54 +563,6 @@
           {
             "path": "data/research/branch-snapshots/pr74-data-politicians.json",
             "pointer": "/politicians/222"
-          }
-        ],
-        "decision": "UNRESOLVED_SCALAR_CONFLICT",
-        "status": "UNRESOLVED_CONFLICT",
-        "recordedAt": "2026-11-22"
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-chae-byong-duk",
-        "field": "researchStatus",
-        "rootValue": "candidate-war-command",
-        "incomingValue": "VERIFIED",
-        "incomingProvenance": [
-          {
-            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/29"
-          }
-        ],
-        "decision": "UNRESOLVED_SCALAR_CONFLICT",
-        "status": "UNRESOLVED_CONFLICT",
-        "recordedAt": "2026-11-22"
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-chae-byong-duk",
-        "field": "researchNotes",
-        "rootValue": "한강교 폭파 명령선의 핵심 군 지휘자 후보. 후대 재심 판단과 육군본부 작전일지·공병 지휘문서를 우선해 정확한 명령 시각과 상급 승인 여부를 검증.",
-        "incomingValue": [
-          {
-            "date": null,
-            "run": null,
-            "note": "한강교 폭파 명령선의 핵심 군 지휘자 후보. 후대 재심 판단과 육군본부 작전일지·공병 지휘문서를 우선해 정확한 명령 시각과 상급 승인 여부를 검증.",
-            "restoredFrom": "pre-run163 researchNotes string",
-            "correctionDate": "2026-10-26"
-          },
-          {
-            "date": "2026-10-26",
-            "run": 163,
-            "note": "1950-08-29~09-21 동시대 행정·입법·외교·군법회의 기록 연결. 발언·집행·후대 판결 분리.",
-            "documentIds": [
-              "doc163-50"
-            ]
-          }
-        ],
-        "incomingProvenance": [
-          {
-            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/29"
           }
         ],
         "decision": "UNRESOLVED_SCALAR_CONFLICT",
@@ -1725,70 +1677,6 @@
       },
       {
         "kind": "politicians",
-        "id": "cand-r174-gwon-jung-don",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_CANDIDATE",
-        "incomingProvenance": [
-          {
-            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/232"
-          }
-        ],
-        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
-        "status": "RECONCILED_VARIANT",
-        "recordedAt": "2026-11-22"
-      },
-      {
-        "kind": "politicians",
-        "id": "cand-r174-kim-bong-jae",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_CANDIDATE",
-        "incomingProvenance": [
-          {
-            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/229"
-          }
-        ],
-        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
-        "status": "RECONCILED_VARIANT",
-        "recordedAt": "2026-11-22"
-      },
-      {
-        "kind": "politicians",
-        "id": "cand-r174-lee-gap-seong",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_CANDIDATE",
-        "incomingProvenance": [
-          {
-            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/233"
-          }
-        ],
-        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
-        "status": "RECONCILED_VARIANT",
-        "recordedAt": "2026-11-22"
-      },
-      {
-        "kind": "politicians",
-        "id": "cand-r174-park-jeong-geun",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_CANDIDATE",
-        "incomingProvenance": [
-          {
-            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/230"
-          }
-        ],
-        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
-        "status": "RECONCILED_VARIANT",
-        "recordedAt": "2026-11-22"
-      },
-      {
-        "kind": "politicians",
         "id": "cand-r218-lee-jong-chan-martial1951",
         "field": "verification",
         "rootValue": "미확인. FRUS d144 각주가 1952-05-27 ROKA Chief of Staff로 식별하지만 한글·한자 및 생몰 원기록 미확보.",
@@ -1918,40 +1806,12 @@
         "incomingValue": "IDENTIFIED_CANDIDATE",
         "incomingProvenance": [
           {
+            "path": "data/politicians/run175-financial-agriculture-candidates.json",
+            "pointer": "/people/1"
+          },
+          {
             "path": "data/research/branch-snapshots/pr74-data-politicians.json",
             "pointer": "/politicians/236"
-          }
-        ],
-        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
-        "status": "RECONCILED_VARIANT",
-        "recordedAt": "2026-11-22"
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-r175-im-gi-bong",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_CANDIDATE",
-        "incomingProvenance": [
-          {
-            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/242"
-          }
-        ],
-        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
-        "status": "RECONCILED_VARIANT",
-        "recordedAt": "2026-11-22"
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-r175-kim-yu-taek",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_CANDIDATE",
-        "incomingProvenance": [
-          {
-            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/241"
           }
         ],
         "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
@@ -1965,6 +1825,10 @@
         "rootValue": "IDENTIFIED",
         "incomingValue": "IDENTIFIED_CANDIDATE",
         "incomingProvenance": [
+          {
+            "path": "data/politicians/run175-financial-agriculture-candidates.json",
+            "pointer": "/people/8"
+          },
           {
             "path": "data/research/branch-snapshots/pr74-data-politicians.json",
             "pointer": "/politicians/243"
@@ -1982,6 +1846,10 @@
         "incomingValue": "IDENTIFIED_CANDIDATE",
         "incomingProvenance": [
           {
+            "path": "data/politicians/run175-financial-agriculture-candidates.json",
+            "pointer": "/people/4"
+          },
+          {
             "path": "data/research/branch-snapshots/pr74-data-politicians.json",
             "pointer": "/politicians/239"
           }
@@ -1997,6 +1865,10 @@
         "rootValue": "IDENTIFIED",
         "incomingValue": "IDENTIFIED_CANDIDATE",
         "incomingProvenance": [
+          {
+            "path": "data/politicians/run178-health-debate-actors.json",
+            "pointer": "/people/1"
+          },
           {
             "path": "data/research/branch-snapshots/pr74-data-politicians.json",
             "pointer": "/politicians/245"
@@ -2014,56 +1886,12 @@
         "incomingValue": "IDENTIFIED_CANDIDATE",
         "incomingProvenance": [
           {
+            "path": "data/politicians/run178-health-debate-actors.json",
+            "pointer": "/people/11"
+          },
+          {
             "path": "data/research/branch-snapshots/pr74-data-politicians.json",
             "pointer": "/politicians/255"
-          }
-        ],
-        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
-        "status": "RECONCILED_VARIANT",
-        "recordedAt": "2026-11-22"
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-r178-jeong-jun",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_CANDIDATE",
-        "incomingProvenance": [
-          {
-            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/252"
-          }
-        ],
-        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
-        "status": "RECONCILED_VARIANT",
-        "recordedAt": "2026-11-22"
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-r178-kim-dong-won",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_CANDIDATE",
-        "incomingProvenance": [
-          {
-            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/246"
-          }
-        ],
-        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
-        "status": "RECONCILED_VARIANT",
-        "recordedAt": "2026-11-22"
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-r178-kim-gwang-jun",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_CANDIDATE",
-        "incomingProvenance": [
-          {
-            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/250"
           }
         ],
         "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
@@ -2078,24 +1906,12 @@
         "incomingValue": "IDENTIFIED_CANDIDATE",
         "incomingProvenance": [
           {
-            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/253"
-          }
-        ],
-        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
-        "status": "RECONCILED_VARIANT",
-        "recordedAt": "2026-11-22"
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-r178-kim-jae-hak",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_CANDIDATE",
-        "incomingProvenance": [
+            "path": "data/politicians/run178-health-debate-actors.json",
+            "pointer": "/people/9"
+          },
           {
             "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/254"
+            "pointer": "/politicians/253"
           }
         ],
         "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
@@ -2109,6 +1925,10 @@
         "rootValue": "IDENTIFIED",
         "incomingValue": "IDENTIFIED_CANDIDATE",
         "incomingProvenance": [
+          {
+            "path": "data/politicians/run178-health-debate-actors.json",
+            "pointer": "/people/13"
+          },
           {
             "path": "data/research/branch-snapshots/pr74-data-politicians.json",
             "pointer": "/politicians/257"
@@ -2126,88 +1946,12 @@
         "incomingValue": "IDENTIFIED_CANDIDATE",
         "incomingProvenance": [
           {
+            "path": "data/politicians/run178-health-debate-actors.json",
+            "pointer": "/people/5"
+          },
+          {
             "path": "data/research/branch-snapshots/pr74-data-politicians.json",
             "pointer": "/politicians/249"
-          }
-        ],
-        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
-        "status": "RECONCILED_VARIANT",
-        "recordedAt": "2026-11-22"
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-r178-kwon-tae-hui",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_CANDIDATE",
-        "incomingProvenance": [
-          {
-            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/251"
-          }
-        ],
-        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
-        "status": "RECONCILED_VARIANT",
-        "recordedAt": "2026-11-22"
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-r178-lee-yeong-jun",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_CANDIDATE",
-        "incomingProvenance": [
-          {
-            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/244"
-          }
-        ],
-        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
-        "status": "RECONCILED_VARIANT",
-        "recordedAt": "2026-11-22"
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-r178-park-chan-hyeon",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_CANDIDATE",
-        "incomingProvenance": [
-          {
-            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/256"
-          }
-        ],
-        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
-        "status": "RECONCILED_VARIANT",
-        "recordedAt": "2026-11-22"
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-r178-park-hae-jeong",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_CANDIDATE",
-        "incomingProvenance": [
-          {
-            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/247"
-          }
-        ],
-        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
-        "status": "RECONCILED_VARIANT",
-        "recordedAt": "2026-11-22"
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-r178-park-yun-won",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_CANDIDATE",
-        "incomingProvenance": [
-          {
-            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/248"
           }
         ],
         "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
@@ -2221,6 +1965,10 @@
         "rootValue": "IDENTIFIED",
         "incomingValue": "IDENTIFIED_CANDIDATE",
         "incomingProvenance": [
+          {
+            "path": "data/politicians/run178b-1948-government-organization-actors.json",
+            "pointer": "/people/0"
+          },
           {
             "path": "data/research/branch-snapshots/pr74-data-politicians.json",
             "pointer": "/politicians/258"
@@ -2238,72 +1986,12 @@
         "incomingValue": "IDENTIFIED_CANDIDATE",
         "incomingProvenance": [
           {
+            "path": "data/politicians/run178b-1948-government-organization-actors.json",
+            "pointer": "/people/3"
+          },
+          {
             "path": "data/research/branch-snapshots/pr74-data-politicians.json",
             "pointer": "/politicians/261"
-          }
-        ],
-        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
-        "status": "RECONCILED_VARIANT",
-        "recordedAt": "2026-11-22"
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-r178b-jeong-hyeon-mo",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_CANDIDATE",
-        "incomingProvenance": [
-          {
-            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/259"
-          }
-        ],
-        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
-        "status": "RECONCILED_VARIANT",
-        "recordedAt": "2026-11-22"
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-r178b-kim-gyeong-do",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_CANDIDATE",
-        "incomingProvenance": [
-          {
-            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/265"
-          }
-        ],
-        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
-        "status": "RECONCILED_VARIANT",
-        "recordedAt": "2026-11-22"
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-r178b-lee-jeong-rae",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_CANDIDATE",
-        "incomingProvenance": [
-          {
-            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/260"
-          }
-        ],
-        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
-        "status": "RECONCILED_VARIANT",
-        "recordedAt": "2026-11-22"
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-r178b-lee-seok",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_CANDIDATE",
-        "incomingProvenance": [
-          {
-            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/262"
           }
         ],
         "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
@@ -2318,24 +2006,12 @@
         "incomingValue": "IDENTIFIED_CANDIDATE",
         "incomingProvenance": [
           {
-            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/263"
-          }
-        ],
-        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
-        "status": "RECONCILED_VARIANT",
-        "recordedAt": "2026-11-22"
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-r178b-sin-sang-hak",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_CANDIDATE",
-        "incomingProvenance": [
+            "path": "data/politicians/run178b-1948-government-organization-actors.json",
+            "pointer": "/people/5"
+          },
           {
             "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/264"
+            "pointer": "/politicians/263"
           }
         ],
         "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
@@ -2349,6 +2025,10 @@
         "rootValue": "IDENTIFIED",
         "incomingValue": "IDENTIFIED_CANDIDATE",
         "incomingProvenance": [
+          {
+            "path": "data/politicians/run178b-1948-government-organization-actors.json",
+            "pointer": "/people/8"
+          },
           {
             "path": "data/research/branch-snapshots/pr74-data-politicians.json",
             "pointer": "/politicians/266"
@@ -2366,6 +2046,10 @@
         "incomingValue": "IDENTIFIED_CANDIDATE",
         "incomingProvenance": [
           {
+            "path": "data/politicians/run179-government-organization-actors.json",
+            "pointer": "/people/15"
+          },
+          {
             "path": "data/research/branch-snapshots/pr74-data-politicians.json",
             "pointer": "/politicians/277"
           }
@@ -2381,6 +2065,10 @@
         "rootValue": "IDENTIFIED",
         "incomingValue": "IDENTIFIED_CANDIDATE",
         "incomingProvenance": [
+          {
+            "path": "data/politicians/run179-government-organization-actors.json",
+            "pointer": "/people/12"
+          },
           {
             "path": "data/research/branch-snapshots/pr74-data-politicians.json",
             "pointer": "/politicians/274"
@@ -2398,24 +2086,12 @@
         "incomingValue": "IDENTIFIED_CANDIDATE",
         "incomingProvenance": [
           {
-            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/269"
-          }
-        ],
-        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
-        "status": "RECONCILED_VARIANT",
-        "recordedAt": "2026-11-22"
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-r179-kim-su-seon",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_CANDIDATE",
-        "incomingProvenance": [
+            "path": "data/politicians/run179-government-organization-actors.json",
+            "pointer": "/people/4"
+          },
           {
             "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/270"
+            "pointer": "/politicians/269"
           }
         ],
         "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
@@ -2430,88 +2106,12 @@
         "incomingValue": "IDENTIFIED_CANDIDATE",
         "incomingProvenance": [
           {
+            "path": "data/politicians/run179-government-organization-actors.json",
+            "pointer": "/people/8"
+          },
+          {
             "path": "data/research/branch-snapshots/pr74-data-politicians.json",
             "pointer": "/politicians/271"
-          }
-        ],
-        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
-        "status": "RECONCILED_VARIANT",
-        "recordedAt": "2026-11-22"
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-r179-lee-in",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_CANDIDATE",
-        "incomingProvenance": [
-          {
-            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/276"
-          }
-        ],
-        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
-        "status": "RECONCILED_VARIANT",
-        "recordedAt": "2026-11-22"
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-r179-lee-seong-hak",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_CANDIDATE",
-        "incomingProvenance": [
-          {
-            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/273"
-          }
-        ],
-        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
-        "status": "RECONCILED_VARIANT",
-        "recordedAt": "2026-11-22"
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-r179-park-sun-seok-1949",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_CANDIDATE",
-        "incomingProvenance": [
-          {
-            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/272"
-          }
-        ],
-        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
-        "status": "RECONCILED_VARIANT",
-        "recordedAt": "2026-11-22"
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-r179-park-u-gyeong",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_CANDIDATE",
-        "incomingProvenance": [
-          {
-            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/275"
-          }
-        ],
-        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
-        "status": "RECONCILED_VARIANT",
-        "recordedAt": "2026-11-22"
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-r179b-hong-hui-jong",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_CANDIDATE",
-        "incomingProvenance": [
-          {
-            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/278"
           }
         ],
         "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
@@ -2526,56 +2126,12 @@
         "incomingValue": "IDENTIFIED_CANDIDATE",
         "incomingProvenance": [
           {
+            "path": "data/politicians/run179b-education-law-actors.json",
+            "pointer": "/people/11"
+          },
+          {
             "path": "data/research/branch-snapshots/pr74-data-politicians.json",
             "pointer": "/politicians/281"
-          }
-        ],
-        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
-        "status": "RECONCILED_VARIANT",
-        "recordedAt": "2026-11-22"
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-r179b-jeong-gwang-ho",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_CANDIDATE",
-        "incomingProvenance": [
-          {
-            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/279"
-          }
-        ],
-        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
-        "status": "RECONCILED_VARIANT",
-        "recordedAt": "2026-11-22"
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-r179b-jo-han-baek",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_CANDIDATE",
-        "incomingProvenance": [
-          {
-            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/282"
-          }
-        ],
-        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
-        "status": "RECONCILED_VARIANT",
-        "recordedAt": "2026-11-22"
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-r179b-seo-u-seok",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_CANDIDATE",
-        "incomingProvenance": [
-          {
-            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/280"
           }
         ],
         "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
@@ -2590,408 +2146,12 @@
         "incomingValue": "IDENTIFIED_CANDIDATE",
         "incomingProvenance": [
           {
+            "path": "data/politicians/run179b-education-law-actors.json",
+            "pointer": "/people/13"
+          },
+          {
             "path": "data/research/branch-snapshots/pr74-data-politicians.json",
             "pointer": "/politicians/283"
-          }
-        ],
-        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
-        "status": "RECONCILED_VARIANT",
-        "recordedAt": "2026-11-22"
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-r179d-kim-hyo-seok",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_CANDIDATE",
-        "incomingProvenance": [
-          {
-            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/284"
-          }
-        ],
-        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
-        "status": "RECONCILED_VARIANT",
-        "recordedAt": "2026-11-22"
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-r179d-lee-nyeong-jin",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_CANDIDATE",
-        "incomingProvenance": [
-          {
-            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/285"
-          }
-        ],
-        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
-        "status": "RECONCILED_VARIANT",
-        "recordedAt": "2026-11-22"
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-r180b-cho-yong-ha",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_CANDIDATE",
-        "incomingProvenance": [
-          {
-            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/296"
-          }
-        ],
-        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
-        "status": "RECONCILED_VARIANT",
-        "recordedAt": "2026-11-22"
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-r180b-choi-myeong-sik",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_CANDIDATE",
-        "incomingProvenance": [
-          {
-            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/290"
-          }
-        ],
-        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
-        "status": "RECONCILED_VARIANT",
-        "recordedAt": "2026-11-22"
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-r180b-choi-neung-jin",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_CANDIDATE",
-        "incomingProvenance": [
-          {
-            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/299"
-          }
-        ],
-        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
-        "status": "RECONCILED_VARIANT",
-        "recordedAt": "2026-11-22"
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-r180b-han-tong-suk",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_CANDIDATE",
-        "incomingProvenance": [
-          {
-            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/289"
-          }
-        ],
-        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
-        "status": "RECONCILED_VARIANT",
-        "recordedAt": "2026-11-22"
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-r180b-jang-hui-chang",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_CANDIDATE",
-        "incomingProvenance": [
-          {
-            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/288"
-          }
-        ],
-        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
-        "status": "RECONCILED_VARIANT",
-        "recordedAt": "2026-11-22"
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-r180b-lee-byeong-hong",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_CANDIDATE",
-        "incomingProvenance": [
-          {
-            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/298"
-          }
-        ],
-        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
-        "status": "RECONCILED_VARIANT",
-        "recordedAt": "2026-11-22"
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-r180b-shin-hyeon-mo",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_CANDIDATE",
-        "incomingProvenance": [
-          {
-            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/297"
-          }
-        ],
-        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
-        "status": "RECONCILED_VARIANT",
-        "recordedAt": "2026-11-22"
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-r181-baek-gi-ho",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_CANDIDATE",
-        "incomingProvenance": [
-          {
-            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/302"
-          }
-        ],
-        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
-        "status": "RECONCILED_VARIANT",
-        "recordedAt": "2026-11-22"
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-r181-do-seok-gyun",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_CANDIDATE",
-        "incomingProvenance": [
-          {
-            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/304"
-          }
-        ],
-        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
-        "status": "RECONCILED_VARIANT",
-        "recordedAt": "2026-11-22"
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-r181-ji-dae-hyeong",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_CANDIDATE",
-        "incomingProvenance": [
-          {
-            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/311"
-          }
-        ],
-        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
-        "status": "RECONCILED_VARIANT",
-        "recordedAt": "2026-11-22"
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-r181-kang-seon-myeong",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_CANDIDATE",
-        "incomingProvenance": [
-          {
-            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/307"
-          }
-        ],
-        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
-        "status": "RECONCILED_VARIANT",
-        "recordedAt": "2026-11-22"
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-r181-kim-ik-jin",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_CANDIDATE",
-        "incomingProvenance": [
-          {
-            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/312"
-          }
-        ],
-        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
-        "status": "RECONCILED_VARIANT",
-        "recordedAt": "2026-11-22"
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-r181-kim-sang-don",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_CANDIDATE",
-        "incomingProvenance": [
-          {
-            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/308"
-          }
-        ],
-        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
-        "status": "RECONCILED_VARIANT",
-        "recordedAt": "2026-11-22"
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-r181-lee-cheol-won",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_CANDIDATE",
-        "incomingProvenance": [
-          {
-            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/303"
-          }
-        ],
-        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
-        "status": "RECONCILED_VARIANT",
-        "recordedAt": "2026-11-22"
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-r181-no-il-hwan",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_CANDIDATE",
-        "incomingProvenance": [
-          {
-            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/309"
-          }
-        ],
-        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
-        "status": "RECONCILED_VARIANT",
-        "recordedAt": "2026-11-22"
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-r181-park-jun-seop",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_CANDIDATE",
-        "incomingProvenance": [
-          {
-            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/305"
-          }
-        ],
-        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
-        "status": "RECONCILED_VARIANT",
-        "recordedAt": "2026-11-22"
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-r181-seo-jeong-hui",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_CANDIDATE",
-        "incomingProvenance": [
-          {
-            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/310"
-          }
-        ],
-        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
-        "status": "RECONCILED_VARIANT",
-        "recordedAt": "2026-11-22"
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-r182-jo-jeong-hwan",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_CANDIDATE",
-        "incomingProvenance": [
-          {
-            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/313"
-          }
-        ],
-        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
-        "status": "RECONCILED_VARIANT",
-        "recordedAt": "2026-11-22"
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-r187-cho-si-won",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_CANDIDATE",
-        "incomingProvenance": [
-          {
-            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/330"
-          }
-        ],
-        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
-        "status": "RECONCILED_VARIANT",
-        "recordedAt": "2026-11-22"
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-r187-myeong-je-se",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_CANDIDATE",
-        "incomingProvenance": [
-          {
-            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/328"
-          }
-        ],
-        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
-        "status": "RECONCILED_VARIANT",
-        "recordedAt": "2026-11-22"
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-r187-oh-ha-yeong",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_CANDIDATE",
-        "incomingProvenance": [
-          {
-            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/332"
-          }
-        ],
-        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
-        "status": "RECONCILED_VARIANT",
-        "recordedAt": "2026-11-22"
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-r187-shin-heung-u",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_CANDIDATE",
-        "incomingProvenance": [
-          {
-            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/331"
-          }
-        ],
-        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
-        "status": "RECONCILED_VARIANT",
-        "recordedAt": "2026-11-22"
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-r187-won-se-hun",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_CANDIDATE",
-        "incomingProvenance": [
-          {
-            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/329"
           }
         ],
         "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
@@ -3032,190 +2192,18 @@
       },
       {
         "kind": "politicians",
-        "id": "pol-r188-seo-i-hwan",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_CANDIDATE",
-        "incomingProvenance": [
-          {
-            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/335"
-          }
-        ],
-        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
-        "status": "RECONCILED_VARIANT",
-        "recordedAt": "2026-11-22"
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-r188b-choe-heon-gil",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_CANDIDATE",
-        "incomingProvenance": [
-          {
-            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/344"
-          }
-        ],
-        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
-        "status": "RECONCILED_VARIANT",
-        "recordedAt": "2026-11-22"
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-r188b-hwang-byeong-gyu",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_CANDIDATE",
-        "incomingProvenance": [
-          {
-            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/339"
-          }
-        ],
-        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
-        "status": "RECONCILED_VARIANT",
-        "recordedAt": "2026-11-22"
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-r188b-jeong-u-il",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_CANDIDATE",
-        "incomingProvenance": [
-          {
-            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/342"
-          }
-        ],
-        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
-        "status": "RECONCILED_VARIANT",
-        "recordedAt": "2026-11-22"
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-r188b-kim-cheol",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_CANDIDATE",
-        "incomingProvenance": [
-          {
-            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/338"
-          }
-        ],
-        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
-        "status": "RECONCILED_VARIANT",
-        "recordedAt": "2026-11-22"
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-r188b-kwon-byeong-ro",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_CANDIDATE",
-        "incomingProvenance": [
-          {
-            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/341"
-          }
-        ],
-        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
-        "status": "RECONCILED_VARIANT",
-        "recordedAt": "2026-11-22"
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-r188b-lee-jong-rin",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_CANDIDATE",
-        "incomingProvenance": [
-          {
-            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/336"
-          }
-        ],
-        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
-        "status": "RECONCILED_VARIANT",
-        "recordedAt": "2026-11-22"
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-r188b-lee-ui-sang",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_CANDIDATE",
-        "incomingProvenance": [
-          {
-            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/337"
-          }
-        ],
-        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
-        "status": "RECONCILED_VARIANT",
-        "recordedAt": "2026-11-22"
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-r188b-lee-yo-han",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_CANDIDATE",
-        "incomingProvenance": [
-          {
-            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/340"
-          }
-        ],
-        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
-        "status": "RECONCILED_VARIANT",
-        "recordedAt": "2026-11-22"
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-r188b-song-bong-hae",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_CANDIDATE",
-        "incomingProvenance": [
-          {
-            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/343"
-          }
-        ],
-        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
-        "status": "RECONCILED_VARIANT",
-        "recordedAt": "2026-11-22"
-      },
-      {
-        "kind": "politicians",
         "id": "pol-r189-jang-yeon-song",
         "field": "researchStatus",
         "rootValue": "IDENTIFIED",
         "incomingValue": "IDENTIFIED_CANDIDATE",
         "incomingProvenance": [
           {
-            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/345"
-          }
-        ],
-        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
-        "status": "RECONCILED_VARIANT",
-        "recordedAt": "2026-11-22"
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-r189-lee-si-yeong",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_CANDIDATE",
-        "incomingProvenance": [
+            "path": "data/politicians/run189-election-network.json",
+            "pointer": "/newCandidates/0"
+          },
           {
             "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/350"
+            "pointer": "/politicians/345"
           }
         ],
         "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
@@ -3230,24 +2218,12 @@
         "incomingValue": "IDENTIFIED_CANDIDATE",
         "incomingProvenance": [
           {
-            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/347"
-          }
-        ],
-        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
-        "status": "RECONCILED_VARIANT",
-        "recordedAt": "2026-11-22"
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-r189-yu-hong",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_CANDIDATE",
-        "incomingProvenance": [
+            "path": "data/politicians/run189-election-network.json",
+            "pointer": "/newCandidates/2"
+          },
           {
             "path": "data/research/branch-snapshots/pr74-data-politicians.json",
-            "pointer": "/politicians/349"
+            "pointer": "/politicians/347"
           }
         ],
         "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
@@ -3261,6 +2237,10 @@
         "rootValue": "IDENTIFIED",
         "incomingValue": "IDENTIFIED_CANDIDATE",
         "incomingProvenance": [
+          {
+            "path": "data/politicians/run189-election-network.json",
+            "pointer": "/newCandidates/1"
+          },
           {
             "path": "data/research/branch-snapshots/pr74-data-politicians.json",
             "pointer": "/politicians/346"
@@ -3278,6 +2258,10 @@
         "incomingValue": "IDENTIFIED_CANDIDATE",
         "incomingProvenance": [
           {
+            "path": "data/politicians/run189x-cabinet-local-party-network.json",
+            "pointer": "/newCandidates/4"
+          },
+          {
             "path": "data/research/branch-snapshots/pr74-data-politicians.json",
             "pointer": "/politicians/355"
           }
@@ -3293,6 +2277,10 @@
         "rootValue": "IDENTIFIED",
         "incomingValue": "IDENTIFIED_CANDIDATE",
         "incomingProvenance": [
+          {
+            "path": "data/politicians/run189x-cabinet-local-party-network.json",
+            "pointer": "/newCandidates/0"
+          },
           {
             "path": "data/research/branch-snapshots/pr74-data-politicians.json",
             "pointer": "/politicians/351"
@@ -3310,6 +2298,10 @@
         "incomingValue": "IDENTIFIED_CANDIDATE",
         "incomingProvenance": [
           {
+            "path": "data/politicians/run189x-cabinet-local-party-network.json",
+            "pointer": "/newCandidates/1"
+          },
+          {
             "path": "data/research/branch-snapshots/pr74-data-politicians.json",
             "pointer": "/politicians/352"
           }
@@ -3325,6 +2317,10 @@
         "rootValue": "IDENTIFIED",
         "incomingValue": "IDENTIFIED_CANDIDATE",
         "incomingProvenance": [
+          {
+            "path": "data/politicians/run189x-cabinet-local-party-network.json",
+            "pointer": "/newCandidates/3"
+          },
           {
             "path": "data/research/branch-snapshots/pr74-data-politicians.json",
             "pointer": "/politicians/354"
@@ -3342,6 +2338,10 @@
         "incomingValue": "IDENTIFIED_CANDIDATE",
         "incomingProvenance": [
           {
+            "path": "data/politicians/run190-election-litigation-network.json",
+            "pointer": "/newCandidates/3"
+          },
+          {
             "path": "data/research/branch-snapshots/pr74-data-politicians.json",
             "pointer": "/politicians/359"
           }
@@ -3357,6 +2357,10 @@
         "rootValue": "IDENTIFIED",
         "incomingValue": "IDENTIFIED_CANDIDATE",
         "incomingProvenance": [
+          {
+            "path": "data/politicians/run190-election-litigation-network.json",
+            "pointer": "/newCandidates/2"
+          },
           {
             "path": "data/research/branch-snapshots/pr74-data-politicians.json",
             "pointer": "/politicians/358"
@@ -3374,6 +2378,10 @@
         "incomingValue": "IDENTIFIED_CANDIDATE",
         "incomingProvenance": [
           {
+            "path": "data/politicians/run190-election-litigation-network.json",
+            "pointer": "/newCandidates/1"
+          },
+          {
             "path": "data/research/branch-snapshots/pr74-data-politicians.json",
             "pointer": "/politicians/357"
           }
@@ -3389,6 +2397,10 @@
         "rootValue": "IDENTIFIED",
         "incomingValue": "IDENTIFIED_CANDIDATE",
         "incomingProvenance": [
+          {
+            "path": "data/politicians/run190-election-litigation-network.json",
+            "pointer": "/newCandidates/4"
+          },
           {
             "path": "data/research/branch-snapshots/pr74-data-politicians.json",
             "pointer": "/politicians/360"
@@ -3406,6 +2418,10 @@
         "incomingValue": "IDENTIFIED_CANDIDATE",
         "incomingProvenance": [
           {
+            "path": "data/politicians/run190-election-litigation-network.json",
+            "pointer": "/newCandidates/0"
+          },
+          {
             "path": "data/research/branch-snapshots/pr74-data-politicians.json",
             "pointer": "/politicians/356"
           }
@@ -3421,6 +2437,10 @@
         "rootValue": "IDENTIFIED",
         "incomingValue": "IDENTIFIED_CANDIDATE",
         "incomingProvenance": [
+          {
+            "path": "data/politicians/run190-election-litigation-network.json",
+            "pointer": "/newCandidates/5"
+          },
           {
             "path": "data/research/branch-snapshots/pr74-data-politicians.json",
             "pointer": "/politicians/361"
@@ -3785,6 +2805,46 @@
         ]
       },
       {
+        "id": "actor126-general-clark",
+        "name": "Mark W. Clark",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/actors/run126-crosslink-reconciliation.json"
+        ]
+      },
+      {
+        "id": "actor126-henry-owen",
+        "name": "Henry Owen",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/actors/run126-crosslink-reconciliation.json"
+        ]
+      },
+      {
+        "id": "actor126-jeong-ho-jong",
+        "name": "정호종",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/actors/run126-labor.json"
+        ]
+      },
+      {
+        "id": "actor126-kang-il-mae",
+        "name": "강일매",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/actors/run126-labor.json"
+        ]
+      },
+      {
+        "id": "actor126-unidentified-attackers",
+        "name": "경향신문사 피습 가해자(신원 미확정)",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/actors/run126-crosslink-reconciliation.json"
+        ]
+      },
+      {
         "id": "cand-arthur-dean",
         "name": null,
         "reason": "MISSING_PERSON_NAME_NOT_PROMOTED",
@@ -3889,6 +2949,86 @@
         ]
       },
       {
+        "id": "cand-r135-hong-gil-seon",
+        "name": null,
+        "reason": "MISSING_PERSON_NAME_NOT_PROMOTED",
+        "sourcePaths": [
+          "data/politicians/run135-july4-faction-candidates.json"
+        ]
+      },
+      {
+        "id": "cand-r135-hwang-byeong-gyu",
+        "name": null,
+        "reason": "MISSING_PERSON_NAME_NOT_PROMOTED",
+        "sourcePaths": [
+          "data/politicians/run135-july4-faction-candidates.json"
+        ]
+      },
+      {
+        "id": "cand-r135-kim-bong-jae",
+        "name": null,
+        "reason": "MISSING_PERSON_NAME_NOT_PROMOTED",
+        "sourcePaths": [
+          "data/politicians/run135-july4-faction-candidates.json"
+        ]
+      },
+      {
+        "id": "cand-r135-kim-jeong-sil",
+        "name": null,
+        "reason": "MISSING_PERSON_NAME_NOT_PROMOTED",
+        "sourcePaths": [
+          "data/politicians/run135-july4-faction-candidates.json"
+        ]
+      },
+      {
+        "id": "cand-r135-kim-jong-hoe",
+        "name": null,
+        "reason": "MISSING_PERSON_NAME_NOT_PROMOTED",
+        "sourcePaths": [
+          "data/politicians/run135-july4-faction-candidates.json"
+        ]
+      },
+      {
+        "id": "cand-r135-kim-jong-sun",
+        "name": null,
+        "reason": "MISSING_PERSON_NAME_NOT_PROMOTED",
+        "sourcePaths": [
+          "data/politicians/run135-july4-faction-candidates.json"
+        ]
+      },
+      {
+        "id": "cand-r135-seo-i-hwan",
+        "name": null,
+        "reason": "MISSING_PERSON_NAME_NOT_PROMOTED",
+        "sourcePaths": [
+          "data/politicians/run135-july4-faction-candidates.json"
+        ]
+      },
+      {
+        "id": "cand-r135-yi-jae-hak",
+        "name": null,
+        "reason": "MISSING_PERSON_NAME_NOT_PROMOTED",
+        "sourcePaths": [
+          "data/politicians/run135-july4-faction-candidates.json"
+        ]
+      },
+      {
+        "id": "cand-r135-yu-deok-cheon",
+        "name": null,
+        "reason": "MISSING_PERSON_NAME_NOT_PROMOTED",
+        "sourcePaths": [
+          "data/politicians/run135-july4-faction-candidates.json"
+        ]
+      },
+      {
+        "id": "cand-r135-yun-yeong-seon",
+        "name": null,
+        "reason": "MISSING_PERSON_NAME_NOT_PROMOTED",
+        "sourcePaths": [
+          "data/politicians/run135-july4-faction-candidates.json"
+        ]
+      },
+      {
         "id": "cand-robert-murphy",
         "name": null,
         "reason": "MISSING_PERSON_NAME_NOT_PROMOTED",
@@ -3942,6 +3082,846 @@
         "reason": "MISSING_PERSON_NAME_NOT_PROMOTED",
         "sourcePaths": [
           "data/research/candidates/pass-67-robertson-convergence-actors.json"
+        ]
+      },
+      {
+        "id": "cand108-chang-kee-yung",
+        "name": "장기영",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run108-1951-cabinet-actors-b.json"
+        ]
+      },
+      {
+        "id": "cand108-chang-myon",
+        "name": "장면",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run108-1951-cabinet-actors-a.json"
+        ]
+      },
+      {
+        "id": "cand108-choe-sun-ju",
+        "name": "최순주",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run108-land-committee-civilians-a.json"
+        ]
+      },
+      {
+        "id": "cand108-gang-jeong-tak",
+        "name": "강정탁",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run108-land-committee-civilians-b.json"
+        ]
+      },
+      {
+        "id": "cand108-hong-heon-pyo",
+        "name": "홍헌표",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run108-land-committee-officials.json"
+        ]
+      },
+      {
+        "id": "cand108-jo-baek-hyeon",
+        "name": "조백현",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run108-land-committee-civilians-c.json"
+        ]
+      },
+      {
+        "id": "cand108-ju-seok-gyun",
+        "name": "주석균",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run108-land-committee-network.json"
+        ]
+      },
+      {
+        "id": "cand108-kim-seong-chan",
+        "name": "김성찬",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run108-land-committee-officials.json"
+        ]
+      },
+      {
+        "id": "cand108-kim-song-soo",
+        "name": "김성수",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run108-1951-cabinet-actors-c.json"
+        ]
+      },
+      {
+        "id": "cand108-kim-ung-gak",
+        "name": "김웅각",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run108-land-committee-officials.json"
+        ]
+      },
+      {
+        "id": "cand108-lee-sun-taek-1950",
+        "name": "이순택",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run108-land-committee-civilians-a.json"
+        ]
+      },
+      {
+        "id": "cand108-yu-wan-chang",
+        "name": "유완창",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run108-land-committee-officials.json"
+        ]
+      },
+      {
+        "id": "cand108-yun-yeong-seon",
+        "name": "윤영선",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run108-land-committee-network.json"
+        ]
+      },
+      {
+        "id": "cand113-baek-seong-uk",
+        "name": "백성욱",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run113-prewar-network.json"
+        ]
+      },
+      {
+        "id": "cand113-cho-heon-yeong",
+        "name": "조헌영",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run113-prewar-network.json"
+        ]
+      },
+      {
+        "id": "cand113-hong-seong-ha",
+        "name": "홍성하",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run113-prewar-network.json"
+        ]
+      },
+      {
+        "id": "cand113-jang-myeon",
+        "name": "장면",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run113-prewar-network.json"
+        ]
+      },
+      {
+        "id": "cand113-ju-gi-yong",
+        "name": "주기용",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run113-assembly-19500311-actors.json"
+        ]
+      },
+      {
+        "id": "cand113-kim-dong-won",
+        "name": "김동원",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run113-prewar-network.json"
+        ]
+      },
+      {
+        "id": "cand113-kim-gyo-seok",
+        "name": "김교석",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run113-prewar-network.json"
+        ]
+      },
+      {
+        "id": "cand113-kim-seong-su",
+        "name": "김성수",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run113-prewar-network.json"
+        ]
+      },
+      {
+        "id": "cand113-kim-tae-seon",
+        "name": "김태선",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run113-prewar-network.json"
+        ]
+      },
+      {
+        "id": "cand113-lee-ju-hyeong",
+        "name": "이주형",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run113-assembly-19500311-actors.json"
+        ]
+      },
+      {
+        "id": "cand113-seo-jeong-hui",
+        "name": "서정희",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run113-assembly-19500311-actors.json"
+        ]
+      },
+      {
+        "id": "cand113-seo-sang-il",
+        "name": "서상일",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run113-constitutional-proposer.json"
+        ]
+      },
+      {
+        "id": "cand113-yu-seong-gap",
+        "name": "유성갑",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run113-assembly-19500311-actors.json"
+        ]
+      },
+      {
+        "id": "cand115-choi-guk-hyeon",
+        "name": "최국현",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run116-actors-a.json"
+        ]
+      },
+      {
+        "id": "cand115-hong-seong-ha",
+        "name": "홍성하",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run116-actors-d.json"
+        ]
+      },
+      {
+        "id": "cand115-kim-sang-don",
+        "name": "김상돈",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run116-actors-d.json"
+        ]
+      },
+      {
+        "id": "cand115-lee-jae-hyeong",
+        "name": "이재형",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run115-constitutional-actors.json"
+        ]
+      },
+      {
+        "id": "cand116-bae-eun-hui",
+        "name": "배은희",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run116-actors-b.json"
+        ]
+      },
+      {
+        "id": "cand116-gu-jung-hoe",
+        "name": "구중회",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run116-actors-c.json"
+        ]
+      },
+      {
+        "id": "cand116-jeon-gyu-hong",
+        "name": "전규홍",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run116-actors-a.json"
+        ]
+      },
+      {
+        "id": "cand116-jo-yeong-gyu",
+        "name": "조영규",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run116-actors-c.json"
+        ]
+      },
+      {
+        "id": "cand116-kim-gyeong-do",
+        "name": "김경도",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run116-actors-c.json"
+        ]
+      },
+      {
+        "id": "cand116-lee-ju-hyeong",
+        "name": "이주형",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run116-actors-d.json"
+        ]
+      },
+      {
+        "id": "cand116-park-yun-won",
+        "name": "박윤원",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run116-actors-a.json"
+        ]
+      },
+      {
+        "id": "cand116-shin-gwang-gyun",
+        "name": "신광균",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run116-actors-a.json"
+        ]
+      },
+      {
+        "id": "cand117-park-hui-byeong-1949",
+        "name": "박희병",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run117-education-actors.json"
+        ]
+      },
+      {
+        "id": "cand125-kim-jang-hwan-busan",
+        "name": "김장환",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run125-local-candidate.json"
+        ]
+      },
+      {
+        "id": "cand125d-hong-pom-hi",
+        "name": "Hong Pom-Hi",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run125d-1952-institutional-actors.json"
+        ]
+      },
+      {
+        "id": "cand125d-jang-seok-yun",
+        "name": "장석윤",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run125d-1952-institutional-actors.json"
+        ]
+      },
+      {
+        "id": "cand125d-seo-min-ho",
+        "name": "서민호",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run125d-1952-institutional-actors.json"
+        ]
+      },
+      {
+        "id": "cand125d-won-yong-deok",
+        "name": "원용덕",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run125d-1952-institutional-actors.json"
+        ]
+      },
+      {
+        "id": "cand125d-yun-kyong",
+        "name": "Yun-Kyong",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run125d-1952-institutional-actors.json"
+        ]
+      },
+      {
+        "id": "cand125f-shin-tae-young",
+        "name": "신태영",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run125f-education-signatories.json"
+        ]
+      },
+      {
+        "id": "cand126d-an-yong-dae",
+        "name": "안용대",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run126-may29-31-candidates.json"
+        ]
+      },
+      {
+        "id": "cand126d-byeon-jin-gap",
+        "name": "변진갑",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run126-may29-31-candidates.json"
+        ]
+      },
+      {
+        "id": "cand126d-ji-cheong-cheon",
+        "name": "지청천",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run126-may29-31-candidates.json"
+        ]
+      },
+      {
+        "id": "cand126d-kim-jeong-sik",
+        "name": "김정식",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run126-may29-31-candidates.json"
+        ]
+      },
+      {
+        "id": "cand126d-kim-seong-su",
+        "name": "김성수",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run126-may29-31-candidates.json"
+        ]
+      },
+      {
+        "id": "cand126d-kim-yong-taek",
+        "name": "김용택",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run126-may29-31-candidates.json"
+        ]
+      },
+      {
+        "id": "cand126d-lee-cheol-won",
+        "name": "이철원",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run126-may29-31-candidates.json"
+        ]
+      },
+      {
+        "id": "cand126d-lee-jong-hyeong",
+        "name": "이종형",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run126-may29-31-candidates.json"
+        ]
+      },
+      {
+        "id": "cand126d-park-jong-man",
+        "name": "박종만",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run126-may29-31-candidates.json"
+        ]
+      },
+      {
+        "id": "cand126d-seo-i-hwan",
+        "name": "서이환",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run126-may29-31-candidates.json"
+        ]
+      },
+      {
+        "id": "cand126d-so-seon-gyu",
+        "name": "소선규",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run126-may29-31-candidates.json"
+        ]
+      },
+      {
+        "id": "cand126d-yeo-un-hong",
+        "name": "여운홍",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run126-may29-31-candidates.json"
+        ]
+      },
+      {
+        "id": "cand126e-choi-chang-sun",
+        "name": "최창순",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run126e-minister-identities.json"
+        ]
+      },
+      {
+        "id": "cand126e-seo-sang-hwan",
+        "name": "서상환",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run126e-minister-identities.json"
+        ]
+      },
+      {
+        "id": "cand126e-shin-tae-yeong",
+        "name": "신태영",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run126e-minister-identities.json"
+        ]
+      },
+      {
+        "id": "cand127-gal-hong-gi",
+        "name": "갈홍기",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run127-civil-cabinet-network.json"
+        ]
+      },
+      {
+        "id": "cand127-gang-myeong-ok",
+        "name": "강명옥",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run127-civil-cabinet-network.json"
+        ]
+      },
+      {
+        "id": "cand127-go-byeong-han",
+        "name": "고병한",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run127-civil-cabinet-network.json"
+        ]
+      },
+      {
+        "id": "cand127-ham-deok-yong",
+        "name": "함덕용",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run127-civil-cabinet-network.json"
+        ]
+      },
+      {
+        "id": "cand127-hong-beom-hui",
+        "name": "홍범희",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run127-civil-cabinet-network.json"
+        ]
+      },
+      {
+        "id": "cand127-jeong-jae-hwan",
+        "name": "정재환",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run127-civil-cabinet-network.json"
+        ]
+      },
+      {
+        "id": "cand127-jeong-jun-mo",
+        "name": "정준모",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run127-civil-cabinet-network.json"
+        ]
+      },
+      {
+        "id": "cand127-jeong-sun-jo",
+        "name": "정순조",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run127-civil-cabinet-network.json"
+        ]
+      },
+      {
+        "id": "cand127-kim-du-han",
+        "name": "김두한",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run127-civil-cabinet-network.json"
+        ]
+      },
+      {
+        "id": "cand127-kim-il-hwan",
+        "name": "김일환",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run127-civil-cabinet-network.json"
+        ]
+      },
+      {
+        "id": "cand127-lee-cheol-won",
+        "name": "이철원",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run127-civil-cabinet-network.json"
+        ]
+      },
+      {
+        "id": "cand127-lee-gyo-seon",
+        "name": "이교선",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run127-civil-cabinet-network.json"
+        ]
+      },
+      {
+        "id": "cand127-lee-heon-gu",
+        "name": "이헌구",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run127-civil-cabinet-network.json"
+        ]
+      },
+      {
+        "id": "cand127-park-hwa-hyeon",
+        "name": "박화현",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run127-civil-cabinet-network.json"
+        ]
+      },
+      {
+        "id": "cand127-won-yong-seok",
+        "name": "원용석",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run127-civil-cabinet-network.json"
+        ]
+      },
+      {
+        "id": "cand137-hwang-bong-gap",
+        "name": "황봉갑",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run137-local-candidates.json"
+        ]
+      },
+      {
+        "id": "cand137-park-man-tae",
+        "name": "박만태",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run137-local-candidates.json"
+        ]
+      },
+      {
+        "id": "cand137-prov-01",
+        "name": "이종남",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run137-provincial-candidates.json"
+        ]
+      },
+      {
+        "id": "cand137-prov-02",
+        "name": "박수일",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run137-provincial-candidates.json"
+        ]
+      },
+      {
+        "id": "cand137-prov-03",
+        "name": "김용진",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run137-provincial-candidates.json"
+        ]
+      },
+      {
+        "id": "cand137-prov-04",
+        "name": "김인중",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run137-provincial-candidates.json"
+        ]
+      },
+      {
+        "id": "cand137-prov-05",
+        "name": "강봉룡",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run137-provincial-candidates.json"
+        ]
+      },
+      {
+        "id": "cand137-prov-06",
+        "name": "권흥수",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run137-provincial-candidates.json"
+        ]
+      },
+      {
+        "id": "cand137-prov-07",
+        "name": "정한정",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run137-provincial-candidates.json"
+        ]
+      },
+      {
+        "id": "cand137-prov-08",
+        "name": "이종수",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run137-provincial-candidates.json"
+        ]
+      },
+      {
+        "id": "cand137-prov-09",
+        "name": "이인갑",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run137-provincial-candidates.json"
+        ]
+      },
+      {
+        "id": "cand137-prov-10",
+        "name": "이재현",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run137-provincial-candidates.json"
+        ]
+      },
+      {
+        "id": "cand137-prov-11",
+        "name": "황순주",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run137-provincial-candidates.json"
+        ]
+      },
+      {
+        "id": "cand137-prov-12",
+        "name": "윤종수",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run137-provincial-candidates.json"
+        ]
+      },
+      {
+        "id": "cand137-prov-13",
+        "name": "김평철",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run137-provincial-candidates.json"
+        ]
+      },
+      {
+        "id": "cand137-son-jae-hak",
+        "name": "손재학",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run137-local-candidates.json"
+        ]
+      },
+      {
+        "id": "cand177-chae-gyu-hang",
+        "name": "채규항",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run177-agriculture-actor-review.json"
+        ]
+      },
+      {
+        "id": "cand91-heo-eok",
+        "name": "허억",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run91-candidates.json"
+        ]
+      },
+      {
+        "id": "cand91-hong-seong-ha",
+        "name": "홍성하",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run91-candidates.json"
+        ]
+      },
+      {
+        "id": "cand91-jo-yong-gi",
+        "name": "조용기",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run91-candidates.json"
+        ]
+      },
+      {
+        "id": "cand91-kim-gap-su",
+        "name": "김갑수",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run91-candidates.json"
+        ]
+      },
+      {
+        "id": "cand91-lee-beom-seok",
+        "name": "이범석",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run91-candidates.json"
+        ]
+      },
+      {
+        "id": "cand91-lee-jeong-rae",
+        "name": "이정래",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run91-candidates.json"
+        ]
+      },
+      {
+        "id": "cand91-lee-jin-su",
+        "name": "이진수",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run91-candidates.json"
+        ]
+      },
+      {
+        "id": "cand91-lee-sang-deuk-1949",
+        "name": "이상득",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run91-candidates.json"
+        ]
+      },
+      {
+        "id": "cand91-min-gyeong-sik",
+        "name": "민경식",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run91-candidates.json"
+        ]
+      },
+      {
+        "id": "cand91-park-u-gyeong",
+        "name": "박우경",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run91-candidates.json"
+        ]
+      },
+      {
+        "id": "cand91-seo-sang-il",
+        "name": "서상일",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run91-candidates.json"
+        ]
+      },
+      {
+        "id": "cand91-seo-u-seok",
+        "name": "서우석",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run91-candidates.json"
         ]
       },
       {
@@ -4113,6 +4093,70 @@
         ]
       },
       {
+        "id": "ext125b-dean-rusk",
+        "name": "Dean Rusk",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/actors/run125b-us-external-actors.json"
+        ]
+      },
+      {
+        "id": "ext125b-douglas-macarthur",
+        "name": "Douglas MacArthur",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/actors/run125b-us-external-actors.json"
+        ]
+      },
+      {
+        "id": "ext125b-harry-truman",
+        "name": "Harry S. Truman",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/actors/run125b-us-external-actors.json"
+        ]
+      },
+      {
+        "id": "ext125b-john-muccio",
+        "name": "John Muccio",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/actors/run125b-us-external-actors.json"
+        ]
+      },
+      {
+        "id": "ext125c-clarence-meyer",
+        "name": "Clarence E. Meyer",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/actors/run125c-us-economic-mission.json"
+        ]
+      },
+      {
+        "id": "ext125c-kenneth-young",
+        "name": "Kenneth Young",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/actors/run125c-us-economic-mission.json"
+        ]
+      },
+      {
+        "id": "ext125d-allan-lightner",
+        "name": "E. Allan Lightner",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/actors/run125d-us-diplomats.json"
+        ]
+      },
+      {
+        "id": "ext125d-james-van-fleet",
+        "name": "James A. Van Fleet",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/actors/run125d-us-diplomats.json"
+        ]
+      },
+      {
         "id": "foreign-dwight-d-eisenhower",
         "name": "Dwight D. Eisenhower",
         "reason": "EXTERNAL_ACTOR_OUTSIDE_DOMESTIC_ROOT",
@@ -4209,6 +4253,94 @@
         ]
       },
       {
+        "id": "pol-chon-song-chon-1959-candidate",
+        "name": null,
+        "reason": "MISSING_PERSON_NAME_NOT_PROMOTED",
+        "sourcePaths": [
+          "data/politicians/run158b-1959-political-candidates.json"
+        ]
+      },
+      {
+        "id": "pol-chu-yo-han-1959-candidate",
+        "name": null,
+        "reason": "MISSING_PERSON_NAME_NOT_PROMOTED",
+        "sourcePaths": [
+          "data/politicians/run158b-1959-political-candidates.json"
+        ]
+      },
+      {
+        "id": "pol-kim-ui-jun-1959-candidate",
+        "name": null,
+        "reason": "MISSING_PERSON_NAME_NOT_PROMOTED",
+        "sourcePaths": [
+          "data/politicians/run158b-1959-political-candidates.json"
+        ]
+      },
+      {
+        "id": "pol-lee-chae-hyon-1960-candidate",
+        "name": null,
+        "reason": "MISSING_PERSON_NAME_NOT_PROMOTED",
+        "sourcePaths": [
+          "data/politicians/run158c-1960-transition-candidates.json"
+        ]
+      },
+      {
+        "id": "pol-lee-su-yong-1960-candidate",
+        "name": null,
+        "reason": "MISSING_PERSON_NAME_NOT_PROMOTED",
+        "sourcePaths": [
+          "data/politicians/run158c-1960-transition-candidates.json"
+        ]
+      },
+      {
+        "id": "pol-park-chan-il-1959-candidate",
+        "name": null,
+        "reason": "MISSING_PERSON_NAME_NOT_PROMOTED",
+        "sourcePaths": [
+          "data/politicians/run158b-1959-political-candidates.json"
+        ]
+      },
+      {
+        "id": "pol-song-1960-martial-candidate",
+        "name": null,
+        "reason": "MISSING_PERSON_NAME_NOT_PROMOTED",
+        "sourcePaths": [
+          "data/politicians/run158c-1960-transition-candidates.json"
+        ]
+      },
+      {
+        "id": "pol126-jang-taek-sang",
+        "name": "장택상",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run126-councils.json"
+        ]
+      },
+      {
+        "id": "pol126-jeon-jin-han",
+        "name": "전진한",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run126-labor.json"
+        ]
+      },
+      {
+        "id": "pol126-kim-dal-yeong",
+        "name": "김달영",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run126-councils.json"
+        ]
+      },
+      {
+        "id": "pol126-kim-ji-tae",
+        "name": "김지태",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/politicians/run126-labor.json"
+        ]
+      },
+      {
         "id": "president-01",
         "name": "이승만",
         "reason": "LEGACY_PRESIDENT_ID_REQUIRES_CROSSWALK",
@@ -4233,7 +4365,7 @@
         ]
       }
     ],
-    "policyExcludedCount": 92
+    "policyExcludedCount": 231
   },
   "branchSnapshotSync": {
     "sourcePath": "data/research/branch-snapshots/pr74-data-politicians.json",
@@ -4714,14 +4846,14 @@
   },
   "rootFileHashes": {
     "data/events.json": "13374843e6e4853e29a0b5223be61874291d96b0ca1e4bb701d7831bfdd1bc2e",
-    "data/politicians.json": "0ebca1b4fada469de137c3bb4c24d98f6ead4e7b37536b48454d83b1c8d418ee"
+    "data/politicians.json": "ecf196164e00fa3a7a98510c969371b79959252277e317d2f4a9278a6ef901cb"
   },
   "rootFileCounts": {
     "events": 6331,
-    "politicians": 1348
+    "politicians": 1804
   },
   "sourceIntegrationStatus": "FULL_INTEGRATION_INCOMPLETE",
-  "sourceConflictedIds": 623,
-  "sourceAuxiliaryRecords": 759,
+  "sourceConflictedIds": 912,
+  "sourceAuxiliaryRecords": 1051,
   "policy": "Named pol-/cand-/candidate- records enter the domestic politician root. The six cand172- legacy snapshot IDs are imported only as DISCOVERED candidates; unresolved document/event/file references are moved to unresolvedSourceLinks and role text is explicitly unverified. No name-based promotion or identity merge. Shared variants retain source pointers; typed variants and unresolved scalar conflicts remain explicit."
 }

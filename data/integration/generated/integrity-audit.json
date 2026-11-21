@@ -1,16 +1,21 @@
 {
-  "sourceFiles": 3406,
+  "sourceFiles": 4116,
   "uniqueCentralIds": {
     "documents": 11749,
-    "claims": 4986,
+    "claims": 4999,
     "events": 6272,
-    "politicians": 1613,
-    "organizations": 85,
-    "roles": 59
+    "politicians": 2246,
+    "organizations": 270,
+    "roles": 67
   },
-  "conflictedIds": 623,
-  "auxiliaryRecords": 759,
+  "conflictedIds": 912,
+  "auxiliaryRecords": 1051,
   "unresolvedSources": [
+    "data/actors/run200-foreign-counterparties.json",
+    "data/annals/hong-seong-ha-run92.json",
+    "data/annals/lee-sun-tak-run92.json",
+    "data/annals/park-sang-yeong-run95.json",
+    "data/annals/rhee-syngman-run107.json",
     "data/claims/run108-frus-translation-audit.json",
     "data/claims/run110-crosschecks-a.json",
     "data/claims/run110-crosschecks-b.json",
@@ -91,31 +96,61 @@
     "data/events/run149-actor-links.json",
     "data/events/run150-local-election-date-correction.json",
     "data/events/run153-actor-links.json",
+    "data/evidence/1949-1953-legal-transition-run183.json",
+    "data/evidence/1949-external-procurement-assembly-run181.json",
+    "data/evidence/1949-judicial-police-2026-run183d.json",
+    "data/evidence/1949-ministers-and-assembly-run183c.json",
+    "data/evidence/1949-statecraft-run183b.json",
+    "data/evidence/ahn-ho-sang-run180b.json",
     "data/evidence/ahn-jae-hong.json",
+    "data/evidence/chang-do-yeong-run181.json",
+    "data/evidence/chang-myon-run108.json",
     "data/evidence/chang-myon.json",
     "data/evidence/cho-bong-am.json",
+    "data/evidence/cho-byeong-ok-run180.json",
     "data/evidence/cho-chung-hwan-1955.json",
     "data/evidence/cho-chung-whan.json",
     "data/evidence/choi-duk-shin-1953.json",
+    "data/evidence/choi-myeong-sik-run180b.json",
+    "data/evidence/han-tong-suk-run180b.json",
+    "data/evidence/hong-seong-ha-run92.json",
     "data/evidence/hwang-jong-ryul-identity-correction-2026-09-24.json",
     "data/evidence/hwang-jong-ryul.json",
     "data/evidence/im-song-bon.json",
+    "data/evidence/jang-taek-sang.json",
+    "data/evidence/jeon-jin-han-run176.json",
+    "data/evidence/jeong-in-bo-run89.json",
     "data/evidence/ji-cheong-cheon.json",
+    "data/evidence/kim-byeong-ro-run183d.json",
+    "data/evidence/kim-gu-run180.json",
+    "data/evidence/kim-hun-run180b.json",
+    "data/evidence/kim-hyeon-cheol.json",
+    "data/evidence/kim-hyo-seok-run180b.json",
     "data/evidence/kim-il-su-1953.json",
+    "data/evidence/kim-jang-yeol-run180b.json",
     "data/evidence/kim-sang-don.json",
     "data/evidence/kim-seong-su.json",
+    "data/evidence/kim-tae-seon-run181.json",
     "data/evidence/kim-youngsam.json",
     "data/evidence/kim-yu-taek-1953-currency.json",
     "data/evidence/kim-yu-taek-1953-march.json",
     "data/evidence/kwak-sang-hun.json",
+    "data/evidence/lee-beom-seok.json",
     "data/evidence/lee-chong-chang-1952-martial-law.json",
+    "data/evidence/lee-hoon-gu-run192.json",
     "data/evidence/lee-hu-rak.json",
     "data/evidence/lee-jae-hak.json",
     "data/evidence/lee-jong-hyeon-1953-identity.json",
     "data/evidence/lee-yeong-jun-run88.json",
+    "data/evidence/lee-yun-yeong-run110.json",
+    "data/evidence/lim-byong-jik.json",
     "data/evidence/paik-too-chin-1953-finance.json",
     "data/evidence/paik-too-chin-1953.json",
     "data/evidence/paik-too-chin-1954-ceb.json",
+    "data/evidence/paik-too-chin.json",
+    "data/evidence/park-hon-yong-run192.json",
+    "data/evidence/park-sang-yeong-run95.json",
+    "data/evidence/park-sul-eum-run176.json",
     "data/evidence/pass-246-minister-and-law-originals.json",
     "data/evidence/pass-253-september-actor-evidence.json",
     "data/evidence/pass-253d-september-actor-evidence.json",
@@ -129,22 +164,108 @@
     "data/evidence/pass-255f-actor-evidence.json",
     "data/evidence/pass-255h-actor-evidence.json",
     "data/evidence/pass-257p-unkra-housing-source-relations.json",
+    "data/evidence/politicians/cho-jeong-hwan-run166.json",
+    "data/evidence/politicians/jo-ju-yeong-run129.json",
+    "data/evidence/politicians/joo-seok-gyun-run166.json",
+    "data/evidence/politicians/kim-seok-gwan-run166.json",
+    "data/evidence/politicians/kim-seong-su-run120.json",
+    "data/evidence/politicians/lee-jong-hyeong-run129.json",
+    "data/evidence/politicians/lee-yun-yeong-run120.json",
+    "data/evidence/politicians/run116b-civil-service-crosslinks.json",
+    "data/evidence/politicians/run118-aid-election-links.json",
+    "data/evidence/politicians/run124-party-person-document-links.json",
+    "data/evidence/politicians/run124c-d-actor-action-links.json",
+    "data/evidence/politicians/run158b-1958-1960-actors.json",
+    "data/evidence/politicians/run158c-1960-transition-actors.json",
+    "data/evidence/politicians/run209-june26-actor-evidence.json",
+    "data/evidence/politicians/run211-july16-20-evidence.json",
+    "data/evidence/politicians/run211-july21-31-evidence.json",
+    "data/evidence/politicians/run213-augsep-evidence.json",
+    "data/evidence/politicians/run214-september-evidence.json",
+    "data/evidence/politicians/run216-nov1951-evidence.json",
+    "data/evidence/politicians/run216-nov1951-second-wave-evidence.json",
+    "data/evidence/politicians/run217-dec1951-actor-evidence.json",
+    "data/evidence/politicians/run218-dec1951-diplomatic-actors.json",
+    "data/evidence/politicians/run220-actor-evidence.json",
+    "data/evidence/politicians/run221-evidence.json",
+    "data/evidence/politicians/run221b-evidence.json",
+    "data/evidence/politicians/run221c-evidence.json",
+    "data/evidence/politicians/run221d-evidence.json",
+    "data/evidence/politicians/run222-evidence.json",
     "data/evidence/politicians/run223-evidence.json",
     "data/evidence/politicians/run224-evidence.json",
     "data/evidence/politicians/run225-evidence.json",
     "data/evidence/pyun-yong-tae-1953-may-june.json",
     "data/evidence/pyun-yong-tae.json",
+    "data/evidence/r141-lee-yun-yeong-run181.json",
+    "data/evidence/r181-do-seok-gyun-run181.json",
     "data/evidence/rhee/pass-253-cabinet-metadata-divergence.json",
+    "data/evidence/rhee/run112-1950-stabilization-evidence.json",
+    "data/evidence/rhee/run113-prewar.json",
+    "data/evidence/rhee/run114-institutions.json",
+    "data/evidence/rhee/run115-constitution-election.json",
+    "data/evidence/rhee/run150-1955-public-speech-daegu.json",
+    "data/evidence/rhee/run156-1957-us-rok-force-negotiations.json",
+    "data/evidence/rhee/run157-1958-domestic-policy.json",
+    "data/evidence/rhee/run164-september-1950-governance.json",
+    "data/evidence/rhee/run165-october-constitutional-response.json",
+    "data/evidence/rhee/run166-october-governance.json",
+    "data/evidence/rhee/run167-civil-affairs-cabinet.json",
+    "data/evidence/rhee/run168-un-foreign-policy.json",
+    "data/evidence/rhee/run169-cabinet-parliament.json",
+    "data/evidence/rhee/run170-constitutional-process.json",
+    "data/evidence/rhee/run171-1952-constitutional-election-source-criticism.json",
+    "data/evidence/rhee/run172-economic-treaty-constitutional-source-criticism.json",
+    "data/evidence/rhee/run173-postarmistice-economic-policy.json",
+    "data/evidence/rhee/run174-1953-currency-legislature-actor-graph.json",
+    "data/evidence/rhee/run178-1948-government-organization-speech.json",
+    "data/evidence/rhee/run185-1949-diplomacy-press-electricity.json",
+    "data/evidence/rhee/run198-october-governance.json",
     "data/evidence/rhee-syngman-1953-july-official.json",
     "data/evidence/rhee-syngman-1953-june-official.json",
     "data/evidence/rhee-syngman-pass251-fiscal.json",
+    "data/evidence/rhee-syngman-run106-administration.json",
+    "data/evidence/rhee-syngman-run106-breadth.json",
+    "data/evidence/rhee-syngman-run106-institutions.json",
+    "data/evidence/rhee-syngman-run106-recheck.json",
+    "data/evidence/rhee-syngman-run106.json",
+    "data/evidence/rhee-syngman-run108.json",
+    "data/evidence/rhee-syngman-run110e.json",
+    "data/evidence/rhee-syngman-run119.json",
+    "data/evidence/rhee-syngman-run131.json",
+    "data/evidence/rhee-syngman-run180.json",
+    "data/evidence/rhee-syngman-run196.json",
+    "data/evidence/rhee-syngman-run196b.json",
+    "data/evidence/rhee-syngman-run197.json",
+    "data/evidence/rhee-syngman-run197b.json",
+    "data/evidence/rhee-syngman-run197d.json",
     "data/evidence/rhee-syngman.json",
+    "data/evidence/run125-local-election-graph.json",
+    "data/evidence/run125c-economic-agreement-graph.json",
+    "data/evidence/run125d-martiallaw-evidence.json",
+    "data/evidence/run125e-welfare-land.json",
+    "data/evidence/run125f-education.json",
+    "data/evidence/run125h-land-law.json",
+    "data/evidence/run131-crossfamily-phase2.json",
+    "data/evidence/run131-crossfamily-phase3.json",
+    "data/evidence/run131-crossfamily.json",
+    "data/evidence/run141-actor-evidence.json",
+    "data/evidence/run192-korean-actor-identity-crosschecks.json",
+    "data/evidence/run208-1950-election-identity.json",
     "data/evidence/seo-beom-seok.json",
+    "data/evidence/shin-ik-hui-run176.json",
     "data/evidence/shin-ik-hui.json",
+    "data/evidence/shin-tae-young.json",
+    "data/evidence/sohn-won-yil-run180.json",
     "data/evidence/sohn-won-yil.json",
+    "data/evidence/song-in-sang.json",
     "data/evidence/won-yong-duk.json",
+    "data/evidence/won-yong-tok.json",
     "data/evidence/yang-yu-chan-1955.json",
     "data/evidence/yu-wan-chang.json",
+    "data/evidence/yun-chi-yeong-run113.json",
+    "data/evidence/yun-posun-run181.json",
+    "data/laws/run195e-1950-wartime-requisition.json",
     "data/organizations/pass-255d-unkra-link.json",
     "data/organizations/pass-257o4-unkra-1954-link.json",
     "data/politicians/id-aliases-pass244.json",
@@ -152,6 +273,45 @@
     "data/politicians/pass-247d-assembly-actors.json",
     "data/politicians/pass-248-1960-election-actors.json",
     "data/politicians/pass-252c-1952-aug31-actors.json",
+    "data/politicians/run101-identity-aliases.json",
+    "data/politicians/run112-stabilization-policy-actors.json",
+    "data/politicians/run117-biography-verifications.json",
+    "data/politicians/run117-decree277-existing-a.json",
+    "data/politicians/run117-decree277-existing-b.json",
+    "data/politicians/run118-identity-corrections.json",
+    "data/politicians/run119-election-a-ids.json",
+    "data/politicians/run119-election-a.json",
+    "data/politicians/run119-romanization-overlay.json",
+    "data/politicians/run126e-supersession.json",
+    "data/politicians/run127-civil-cabinet-network.json",
+    "data/politicians/run129-minister-identity-conflict.json",
+    "data/politicians/run131-pilot-index.json",
+    "data/politicians/run132-inquiry-candidates.json",
+    "data/politicians/run145-korean-actor-deepening.json",
+    "data/politicians/run146-actors-index.json",
+    "data/politicians/run149-yi-ho-alias-review.json",
+    "data/politicians/run157-candidate-kim-tal-ho.json",
+    "data/politicians/run158-1958-cabinet-legislative-candidates.json",
+    "data/politicians/run158b-1959-political-candidates.json",
+    "data/politicians/run172-economic-negotiation-roster.json",
+    "data/politicians/run173-postarmistice-actor-audit.json",
+    "data/politicians/run174-financial-reform-parliamentary-actor-audit.json",
+    "data/politicians/run178b-1948-government-organization-actors.json",
+    "data/politicians/run184-1949-june06-actors.json",
+    "data/politicians/run188-local-finance-actors.json",
+    "data/politicians/run198-october-actor-network.json",
+    "data/politicians/run198b-nov-actor-network.json",
+    "data/politicians/run199-nov-actor-network.json",
+    "data/politicians/run199b-nov-actor-network.json",
+    "data/politicians/run215-oct05-25-third-wave-actors.json",
+    "data/politicians/run215-oct05-28-second-wave-actors.json",
+    "data/politicians/run215-oct1951-actors.json",
+    "data/politicians/run216-nov1951-actors.json",
+    "data/politicians/run217-dec1951-party-actors.json",
+    "data/politicians/run218-diplomatic-network.json",
+    "data/politicians/run219-actor-links.json",
+    "data/politicians/run92-identity-resolution.json",
+    "data/politicians/run92-promotion-audit.json",
     "data/research/ACTIVE_RESEARCH_HANDOFF.json",
     "data/research/adversarial/pass-234d-independent-search-audit.json",
     "data/research/adversarial/pass-257q-2026-10-29.json",
@@ -641,9 +801,74 @@
     "data/research/runs/pass-244-execution-ledger.json",
     "data/research/runs/pass-245-execution-ledger.json",
     "data/research/second-republic-pass15.json",
-    "data/research/weekly-history-debt-review-2026-10-04.json"
+    "data/research/weekly-history-debt-review-2026-10-04.json",
+    "data/votes/1960-06-15-constitutional-amendment.json"
   ],
   "integrityIssues": [
+    {
+      "code": "CROSS_KIND_ID_COLLISION",
+      "id": "cand-r218-hwang-bu-gil",
+      "kinds": [
+        "politicians",
+        "roles"
+      ]
+    },
+    {
+      "code": "CROSS_KIND_ID_COLLISION",
+      "id": "cand-r218-im-cheol-ho",
+      "kinds": [
+        "politicians",
+        "roles"
+      ]
+    },
+    {
+      "code": "CROSS_KIND_ID_COLLISION",
+      "id": "cand-r218-ji-cheol-geun",
+      "kinds": [
+        "politicians",
+        "roles"
+      ]
+    },
+    {
+      "code": "CROSS_KIND_ID_COLLISION",
+      "id": "cand-r218-kim-tae-dong",
+      "kinds": [
+        "politicians",
+        "roles"
+      ]
+    },
+    {
+      "code": "CROSS_KIND_ID_COLLISION",
+      "id": "cand-r218-lee-sang-deok",
+      "kinds": [
+        "politicians",
+        "roles"
+      ]
+    },
+    {
+      "code": "CROSS_KIND_ID_COLLISION",
+      "id": "cand-r218-ryu-tae-ha",
+      "kinds": [
+        "politicians",
+        "roles"
+      ]
+    },
+    {
+      "code": "CROSS_KIND_ID_COLLISION",
+      "id": "pol-kim-yong-shik",
+      "kinds": [
+        "politicians",
+        "roles"
+      ]
+    },
+    {
+      "code": "CROSS_KIND_ID_COLLISION",
+      "id": "pol-shin-sung-mo",
+      "kinds": [
+        "politicians",
+        "roles"
+      ]
+    },
     {
       "code": "DANGLING_REFERENCE",
       "kind": "events",
@@ -1151,54 +1376,6 @@
     {
       "code": "DANGLING_REFERENCE",
       "kind": "events",
-      "id": "evt-r136-committee-report",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r129-ji-cheong-cheon"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r136-postvote-motion",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r129-yun-yeong-seon"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r136-postvote-motion",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r129-kim-jong-sun"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r136-procedure-objection",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r129-park-jeong-geun"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r136-separate-vote-motion",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r129-lee-jae-hyeong"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r136-tellers",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r135-seo-i-hwan"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
       "id": "evt-r136-tellers",
       "field": "politicianIds",
       "targetKind": "politicians",
@@ -1219,22 +1396,6 @@
       "field": "politicianIds",
       "targetKind": "politicians",
       "targetId": "cand-r136-kim-yang-su"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r136-third-reading-final",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r134-sin-ik-hui"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r136-third-reading-method",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r129-kim-ik-ro"
     },
     {
       "code": "DANGLING_REFERENCE",
@@ -1459,582 +1620,6 @@
       "field": "documentIds",
       "targetKind": "documents",
       "targetId": "d150-edu-sixyear"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r162-07",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r162-you-dong-han"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r162-14",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "pol-choi-kyu-hah"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r162-25",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r162-park-sang-gil"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r162-27",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r162-seo-dong-jin"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r162-28",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r162-song-yo-chan"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r162-28",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r162-choi-deok-shin"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r162-28",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r162-kim-jin-wi"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r162-28",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r162-jung-woo-shik"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r162-30",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r162-lee-dong-won"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r162-30",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r162-min-bok-ki"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r162-41",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r162-kang-seung-gu"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r162-41",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r162-park-joon-kyu"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r162-41",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r162-tae-wan-seon"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r162-45",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r162-kim-young-sun"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r162-46",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r162-kim-dae-yeon"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r163-05",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r163-choi-dae-seong"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r163-07",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r163-shin-hyeon-hwak"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r163-07",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r163-lee-geun-jik"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r163-07",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r163-son-chang-hwan"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r163-07",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r163-kwak-ui-yeong"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r163-08",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r163-lim-cheol-ho"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r163-08",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r163-lee-jon-hwa"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r163-19",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r163-kim-jong-won"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r163-20",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r163-kim-jong-won"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r163-24",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r163-no-baek-ryong"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r163-26",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r163-seo-min-ho"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r163-26",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r163-kwon-jung-don"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r163-26",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r163-kim-gwang-jun"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r163-26",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r163-lee-gyu-gap"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r163-28",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r163-kim-jong-won"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r163-33",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r163-kim-hun-1950-commerce"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r163-35",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r163-hwang-seong-su"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r163-35",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r163-kim-dong-seong"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r163-36",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r163-kim-jong-won"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r163-37",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r163-shin-gyu-sik"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r166d-11",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r166-pyongyang-civic-committee"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r166d-11",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r166-un-military-government"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r169-01",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r169-kim-dong-won"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r169-02",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r169-jeong-jun"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r169-02",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r169-lee-jeong-rae"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r169-02",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r169-kim-dong-won"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r169-03",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r169-kim-su-seon"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r169-03",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r169-kim-u-sik"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r169-04",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r169-kim-byeong-ro"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r179d-05",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r150-democratic-national-party-1949"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r179d-06",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r178-health-ministry"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r184-01",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-first-national-assembly"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r184-02",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r184-seoul-metropolitan-police-1949"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r184-02",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r184-special-police-1949"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r184-03",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r184-seoul-metropolitan-police-1949"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r184-03",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r184-anticollaboration-special-committee-1949"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r184-03",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r184-special-police-1949"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r184-03",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-rok-home-affairs"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r184-04",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-first-national-assembly"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r184-04",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r184-special-police-1949"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r184-05",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-first-national-assembly"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r184-06",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-rok-home-affairs"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r184-06",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-first-national-assembly"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r184-06",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r184-special-police-1949"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r184-07",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-first-national-assembly"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r184-07",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r184-anticollaboration-special-committee-1949"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r184-08",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r184-special-police-1949"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r184-08",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r184-seoul-metropolitan-police-1949"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r184-09",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r184-special-police-1949"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r184-09",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-first-national-assembly"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r184-10",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r184-seoul-metropolitan-police-1949"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r184-10",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r184-anticollaboration-special-committee-1949"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r184-11",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r184-anticollaboration-special-committee-1949"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r184-11",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-first-national-assembly"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r184-12",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-first-national-assembly"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r184-13",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-first-national-assembly"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r184-13",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-rok-home-affairs"
     },
     {
       "code": "DANGLING_REFERENCE",
@@ -2479,446 +2064,6 @@
     {
       "code": "DANGLING_REFERENCE",
       "kind": "events",
-      "id": "evt-r202-29",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r202-kim-ju-hak"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r202-30",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r202-jang-heung"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r202-48",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r202-park-mun-gi"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r202-60",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r202-jang-yeong-geun"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r202-61",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r202-kim-cheon-su"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r203-20",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r203-lee-sun-yeong"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r203-26",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r203-lee-yong-seol"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r203-30",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r202-jang-heung"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r203-31",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r203-lee-tae-hui"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r213-02",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r213-rok-military-police"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r213-03",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r213-rok-judiciary-committee"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r213-03",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r213-democratic-nationalist"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r213-04",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r213-rok-finance"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r213-04",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r213-rok-executive"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r213-04",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r213-rok-cabinet"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r213-05",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r213-rok-education"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r213-06",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r213-rok-commerce"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r213-07",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r213-rok-information"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r213-08",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r213-us-jcs"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r213-08",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r213-us-state"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r213-09",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r213-us-state"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r213-09",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r213-us-defense"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r213-10",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r213-us-state"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r213-10",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r213-uk-foreign-office"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r213-11",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r213-us-jcs"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r213-11",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r213-us-state"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r213-11",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r213-us-defense"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r213-12",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r213-unc"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r213-12",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r213-us-jcs"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r213-13",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r213-us-state"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r213-13",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r213-us-embassy-pusan"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r213-13",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r213-unc"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r213-14",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r213-rok-executive"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r213-15",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r213-us-state"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r213-15",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r213-uk-foreign-office"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r213-15",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r213-france-foreign-office"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r213-16",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r213-jeju-governor-office"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r213-17",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r213-rok-foreign-ministry"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r213-18",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r213-seoul-city"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r213-19",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r213-unc"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r213-20",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r213-rok-police-intelligence"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r213-21",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r213-korea-sports-association"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r213-22",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r213-us-state"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r213-22",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r213-unc"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r213-23",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r213-rok-information"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r213-24",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r213-busan-city"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r213-24",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r213-chosun-democratic-party"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r213-24",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r213-democratic-nationalist"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r213-25",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r213-unc-pow-command"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r213-26",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r213-rok-education"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r213-26",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r213-student-national-guard"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r213-27",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r213-busan-city"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r213-28",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r213-rok-foreign-ministry"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r213-29",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r213-unc"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r213-30",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r213-unc"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
       "id": "evt-r218-17",
       "field": "politicianIds",
       "targetKind": "politicians",
@@ -2935,134 +2080,6 @@
     {
       "code": "DANGLING_REFERENCE",
       "kind": "events",
-      "id": "evt-r220-tax-audit",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r220-kwak-ui-yeong"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r221-andong-famine",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r221-lee-jeong-hui"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r221-conscription",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r221-baek-hong-seok"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r221-guerrilla-relief",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r221-lee-heon-gu"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r221-rice-relief",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r221-lee-ho-seok"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r221b-constitutional-debate",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r221b-byeon-gwang-ho"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r221b-election-watch",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r221b-gwak-tae-jin"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r221b-election-watch",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r221b-baek-nam-sik"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r221b-grain-rice",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r221b-kim-seong-hwa"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r221b-jeonbuk-inspection",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r221b-lee-chun-gi"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r221b-jeonbuk-inspection",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r221b-kim-jeong-du"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r221b-relief-southwest",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r221-lee-heon-gu"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r221d-relief-registration",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r221d-kim-dong-seon"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r221d-seoul-election",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r221d-no-jin-seol"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r221d-seoul-power",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r221d-lee-hong-jik"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r222-kim-name-conflict",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r222-kim-chong-won"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
       "id": "evt117-edu-19500601-ceremony",
       "field": "documentIds",
       "targetKind": "documents",
@@ -3070,131 +2087,171 @@
     },
     {
       "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt125-1952-city-seat-audit",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand125-kim-jang-hwan-busan"
+      "kind": "politicians",
+      "id": "cand-r131-baek-nam-sik",
+      "field": "documentIds",
+      "targetKind": "documents",
+      "targetId": "d131-0618-0060"
     },
     {
       "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt125f-1952-may20-decree649",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand125f-shin-tae-young"
+      "kind": "politicians",
+      "id": "cand-r131-baek-nam-sik",
+      "field": "documentIds",
+      "targetKind": "documents",
+      "targetId": "d131-0620-0020"
     },
     {
       "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt125f-1952-may20-decree649",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand125d-jang-taek-sang"
+      "kind": "politicians",
+      "id": "cand-r131-choe-myeon-su",
+      "field": "documentIds",
+      "targetKind": "documents",
+      "targetId": "d131-0618-0060"
     },
     {
       "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt137-provincial-reported-winners",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand137-prov-01"
+      "kind": "politicians",
+      "id": "cand-r131-choe-yeong-hui",
+      "field": "documentIds",
+      "targetKind": "documents",
+      "targetId": "d131-0626-0030"
     },
     {
       "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt137-provincial-reported-winners",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand137-prov-02"
+      "kind": "politicians",
+      "id": "cand-r131-hong-seong-ha",
+      "field": "documentIds",
+      "targetKind": "documents",
+      "targetId": "d131-0621-0070"
     },
     {
       "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt137-provincial-reported-winners",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand137-prov-03"
+      "kind": "politicians",
+      "id": "cand-r131-jeon-jin-han",
+      "field": "documentIds",
+      "targetKind": "documents",
+      "targetId": "d131-0622-0030"
     },
     {
       "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt137-provincial-reported-winners",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand137-prov-04"
+      "kind": "politicians",
+      "id": "cand-r131-ji-yeon-hae",
+      "field": "documentIds",
+      "targetKind": "documents",
+      "targetId": "d131-0627-0070"
     },
     {
       "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt137-provincial-reported-winners",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand137-prov-05"
+      "kind": "politicians",
+      "id": "cand-r131-kim-dong-su",
+      "field": "documentIds",
+      "targetKind": "documents",
+      "targetId": "d131-0706-0020"
     },
     {
       "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt137-provincial-reported-winners",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand137-prov-06"
+      "kind": "politicians",
+      "id": "cand-r131-kim-in-tae",
+      "field": "documentIds",
+      "targetKind": "documents",
+      "targetId": "d131-0619-0030"
     },
     {
       "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt137-provincial-reported-winners",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand137-prov-07"
+      "kind": "politicians",
+      "id": "cand-r131-kim-je-neung",
+      "field": "documentIds",
+      "targetKind": "documents",
+      "targetId": "d131-0618-0060"
     },
     {
       "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt137-provincial-reported-winners",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand137-prov-08"
+      "kind": "politicians",
+      "id": "cand-r131-kim-jong-hoe",
+      "field": "documentIds",
+      "targetKind": "documents",
+      "targetId": "d131-0618-0060"
     },
     {
       "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt137-provincial-reported-winners",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand137-prov-09"
+      "kind": "politicians",
+      "id": "cand-r131-kim-jun-won",
+      "field": "documentIds",
+      "targetKind": "documents",
+      "targetId": "d131-0707-0060"
     },
     {
       "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt137-provincial-reported-winners",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand137-prov-10"
+      "kind": "politicians",
+      "id": "cand-r131-kim-tae-seon",
+      "field": "documentIds",
+      "targetKind": "documents",
+      "targetId": "d131-0703-0060"
     },
     {
       "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt137-provincial-reported-winners",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand137-prov-11"
+      "kind": "politicians",
+      "id": "cand-r131-park-pal-cheon",
+      "field": "documentIds",
+      "targetKind": "documents",
+      "targetId": "d131-0706-0020"
     },
     {
       "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt137-provincial-reported-winners",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand137-prov-12"
+      "kind": "politicians",
+      "id": "cand-r131-seo-i-hwan",
+      "field": "documentIds",
+      "targetKind": "documents",
+      "targetId": "d131-0618-0060"
     },
     {
       "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt137-provincial-reported-winners",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand137-prov-13"
+      "kind": "politicians",
+      "id": "cand-r131-sohn-yeong-su",
+      "field": "documentIds",
+      "targetKind": "documents",
+      "targetId": "d131-busan-mayor"
+    },
+    {
+      "code": "DANGLING_REFERENCE",
+      "kind": "politicians",
+      "id": "cand-r131-sohn-yeong-su",
+      "field": "documentIds",
+      "targetKind": "documents",
+      "targetId": "d131-0616-0070"
+    },
+    {
+      "code": "DANGLING_REFERENCE",
+      "kind": "politicians",
+      "id": "cand-r131-song-bang-yong",
+      "field": "documentIds",
+      "targetKind": "documents",
+      "targetId": "d131-0618-0060"
+    },
+    {
+      "code": "DANGLING_REFERENCE",
+      "kind": "politicians",
+      "id": "cand-r131-yi-chun-gi",
+      "field": "documentIds",
+      "targetKind": "documents",
+      "targetId": "d131-0618-0060"
+    },
+    {
+      "code": "DANGLING_REFERENCE",
+      "kind": "politicians",
+      "id": "cand-r131-yi-gyo-seon",
+      "field": "documentIds",
+      "targetKind": "documents",
+      "targetId": "d131-0623-0050"
+    },
+    {
+      "code": "DANGLING_REFERENCE",
+      "kind": "politicians",
+      "id": "cand-run107-kim-hun",
+      "field": "eventIds",
+      "targetKind": "events",
+      "targetId": "evt107-pa-370"
     },
     {
       "code": "DANGLING_REFERENCE",
@@ -3215,10 +2272,18 @@
     {
       "code": "DANGLING_REFERENCE",
       "kind": "politicians",
-      "id": "pol-baek-nam-hun",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r150-democratic-party-1955"
+      "id": "pol-ahn-jae-hong",
+      "field": "eventIds",
+      "targetKind": "events",
+      "targetId": "evt-r168-13"
+    },
+    {
+      "code": "DANGLING_REFERENCE",
+      "kind": "politicians",
+      "id": "pol-ahn-jae-hong",
+      "field": "eventIds",
+      "targetKind": "events",
+      "targetId": "evt-r168-16"
     },
     {
       "code": "DANGLING_REFERENCE",
@@ -3231,10 +2296,10 @@
     {
       "code": "DANGLING_REFERENCE",
       "kind": "politicians",
-      "id": "pol-chang-myon",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r150-democratic-party-1955"
+      "id": "pol-cho-bong-am",
+      "field": "eventIds",
+      "targetKind": "events",
+      "targetId": "evt110b-1952-jan18-constitutional-vote"
     },
     {
       "code": "DANGLING_REFERENCE",
@@ -3247,10 +2312,26 @@
     {
       "code": "DANGLING_REFERENCE",
       "kind": "politicians",
-      "id": "pol-cho-byeong-ok",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r150-democratic-party-1955"
+      "id": "pol-cho-bong-am",
+      "field": "eventIds",
+      "targetKind": "events",
+      "targetId": "evt-r168-13"
+    },
+    {
+      "code": "DANGLING_REFERENCE",
+      "kind": "politicians",
+      "id": "pol-cho-so-ang",
+      "field": "eventIds",
+      "targetKind": "events",
+      "targetId": "evt-r168-13"
+    },
+    {
+      "code": "DANGLING_REFERENCE",
+      "kind": "politicians",
+      "id": "pol-cho-so-ang",
+      "field": "eventIds",
+      "targetKind": "events",
+      "targetId": "evt-r168-16"
     },
     {
       "code": "DANGLING_REFERENCE",
@@ -3303,10 +2384,26 @@
     {
       "code": "DANGLING_REFERENCE",
       "kind": "politicians",
+      "id": "pol-chung-il-hyeong",
+      "field": "eventIds",
+      "targetKind": "events",
+      "targetId": "evt-r168-13"
+    },
+    {
+      "code": "DANGLING_REFERENCE",
+      "kind": "politicians",
       "id": "pol-chung-il-kwon",
       "field": "eventIds",
       "targetKind": "events",
       "targetId": "evt-r150-19550914-nnsc-field-observation"
+    },
+    {
+      "code": "DANGLING_REFERENCE",
+      "kind": "politicians",
+      "id": "pol-eom-sang-seop",
+      "field": "eventIds",
+      "targetKind": "events",
+      "targetId": "evt110b-1952-jan18-constitutional-vote"
     },
     {
       "code": "DANGLING_REFERENCE",
@@ -3343,10 +2440,26 @@
     {
       "code": "DANGLING_REFERENCE",
       "kind": "politicians",
+      "id": "pol-kim-jeong-sil",
+      "field": "eventIds",
+      "targetKind": "events",
+      "targetId": "evt110b-1952-jan18-constitutional-vote"
+    },
+    {
+      "code": "DANGLING_REFERENCE",
+      "kind": "politicians",
       "id": "pol-kim-min-1955-daegu",
       "field": "eventIds",
       "targetKind": "events",
       "targetId": "evt-r150-19550914-daegu-press-attack"
+    },
+    {
+      "code": "DANGLING_REFERENCE",
+      "kind": "politicians",
+      "id": "pol-lim-byong-jik",
+      "field": "eventIds",
+      "targetKind": "events",
+      "targetId": "evt107-pa-363"
     },
     {
       "code": "DANGLING_REFERENCE",
@@ -3371,6 +2484,38 @@
       "field": "eventIds",
       "targetKind": "events",
       "targetId": "evt-r150-19550820-paik-return"
+    },
+    {
+      "code": "DANGLING_REFERENCE",
+      "kind": "politicians",
+      "id": "pol-paik-too-chin",
+      "field": "documentIds",
+      "targetKind": "documents",
+      "targetId": "frus-1953-605"
+    },
+    {
+      "code": "DANGLING_REFERENCE",
+      "kind": "politicians",
+      "id": "pol-park-sun-cheon",
+      "field": "eventIds",
+      "targetKind": "events",
+      "targetId": "evt-r168-13"
+    },
+    {
+      "code": "DANGLING_REFERENCE",
+      "kind": "politicians",
+      "id": "pol-park-sun-cheon",
+      "field": "eventIds",
+      "targetKind": "events",
+      "targetId": "evt-r168-14"
+    },
+    {
+      "code": "DANGLING_REFERENCE",
+      "kind": "politicians",
+      "id": "pol-park-sun-cheon",
+      "field": "eventIds",
+      "targetKind": "events",
+      "targetId": "evt-r168-15"
     },
     {
       "code": "DANGLING_REFERENCE",
@@ -3432,9 +2577,9 @@
       "code": "DANGLING_REFERENCE",
       "kind": "politicians",
       "id": "pol-r141-shin-ik-hui",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r150-democratic-party-1955"
+      "field": "eventIds",
+      "targetKind": "events",
+      "targetId": "evt-r168-13"
     },
     {
       "code": "DANGLING_REFERENCE",
@@ -3490,6 +2635,14 @@
       "id": "pol-r148-kwak-sang-hun",
       "field": "eventIds",
       "targetKind": "events",
+      "targetId": "evt-r168-13"
+    },
+    {
+      "code": "DANGLING_REFERENCE",
+      "kind": "politicians",
+      "id": "pol-r148-kwak-sang-hun",
+      "field": "eventIds",
+      "targetKind": "events",
       "targetId": "evt-r148-nov29"
     },
     {
@@ -3499,14 +2652,6 @@
       "field": "eventIds",
       "targetKind": "events",
       "targetId": "evt-r168-13"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "politicians",
-      "id": "pol-r148-kwak-sang-hun",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r150-democratic-party-1955"
     },
     {
       "code": "DANGLING_REFERENCE",
@@ -3599,7 +2744,31 @@
     {
       "code": "DANGLING_REFERENCE",
       "kind": "politicians",
+      "id": "pol-r149-cabinet-02",
+      "field": "eventIds",
+      "targetKind": "events",
+      "targetId": "evt-r149-cabinet-signature-comparison"
+    },
+    {
+      "code": "DANGLING_REFERENCE",
+      "kind": "politicians",
       "id": "pol-r149-cabinet-03",
+      "field": "eventIds",
+      "targetKind": "events",
+      "targetId": "evt-r149-cabinet-signature-comparison"
+    },
+    {
+      "code": "DANGLING_REFERENCE",
+      "kind": "politicians",
+      "id": "pol-r149-cabinet-03",
+      "field": "eventIds",
+      "targetKind": "events",
+      "targetId": "evt-r149-cabinet-signature-comparison"
+    },
+    {
+      "code": "DANGLING_REFERENCE",
+      "kind": "politicians",
+      "id": "pol-r149-cabinet-04",
       "field": "eventIds",
       "targetKind": "events",
       "targetId": "evt-r149-cabinet-signature-comparison"
@@ -3639,7 +2808,31 @@
     {
       "code": "DANGLING_REFERENCE",
       "kind": "politicians",
+      "id": "pol-r149-cabinet-07",
+      "field": "eventIds",
+      "targetKind": "events",
+      "targetId": "evt-r149-cabinet-signature-comparison"
+    },
+    {
+      "code": "DANGLING_REFERENCE",
+      "kind": "politicians",
       "id": "pol-r149-cabinet-08",
+      "field": "eventIds",
+      "targetKind": "events",
+      "targetId": "evt-r149-cabinet-signature-comparison"
+    },
+    {
+      "code": "DANGLING_REFERENCE",
+      "kind": "politicians",
+      "id": "pol-r149-cabinet-08",
+      "field": "eventIds",
+      "targetKind": "events",
+      "targetId": "evt-r149-cabinet-signature-comparison"
+    },
+    {
+      "code": "DANGLING_REFERENCE",
+      "kind": "politicians",
+      "id": "pol-r149-cabinet-09",
       "field": "eventIds",
       "targetKind": "events",
       "targetId": "evt-r149-cabinet-signature-comparison"
@@ -3671,7 +2864,23 @@
     {
       "code": "DANGLING_REFERENCE",
       "kind": "politicians",
+      "id": "pol-r149-cabinet-10",
+      "field": "eventIds",
+      "targetKind": "events",
+      "targetId": "evt-r149-cabinet-signature-comparison"
+    },
+    {
+      "code": "DANGLING_REFERENCE",
+      "kind": "politicians",
       "id": "pol-r149-cabinet-11",
+      "field": "eventIds",
+      "targetKind": "events",
+      "targetId": "evt-r149-cabinet-signature-comparison"
+    },
+    {
+      "code": "DANGLING_REFERENCE",
+      "kind": "politicians",
+      "id": "pol-r149-cabinet-12",
       "field": "eventIds",
       "targetKind": "events",
       "targetId": "evt-r149-cabinet-signature-comparison"
@@ -3703,18 +2912,18 @@
     {
       "code": "DANGLING_REFERENCE",
       "kind": "politicians",
-      "id": "pol-r164-choi-du-seon",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r150-democratic-national-party-1949"
+      "id": "pol-r149-jang-myeon",
+      "field": "eventIds",
+      "targetKind": "events",
+      "targetId": "evt-r149-chang-safety"
     },
     {
       "code": "DANGLING_REFERENCE",
       "kind": "politicians",
-      "id": "pol-r164-ham-sang-hun",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r150-democratic-national-party-1949"
+      "id": "pol-r164-hwang-seong-su",
+      "field": "eventIds",
+      "targetKind": "events",
+      "targetId": "evt-r168-13"
     },
     {
       "code": "DANGLING_REFERENCE",
@@ -3735,26 +2944,10 @@
     {
       "code": "DANGLING_REFERENCE",
       "kind": "politicians",
-      "id": "pol-r164-kim-jun-yeon",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r150-democratic-national-party-1949"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "politicians",
-      "id": "pol-r164-kim-seong-su",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r150-democratic-national-party-1949"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "politicians",
-      "id": "pol-r164-na-yong-gyun",
-      "field": "organizationIds",
-      "targetKind": "organizations",
-      "targetId": "org-r150-democratic-national-party-1949"
+      "id": "pol-r164-ji-cheong-cheon",
+      "field": "eventIds",
+      "targetKind": "events",
+      "targetId": "evt-r168-13"
     },
     {
       "code": "DANGLING_REFERENCE",
@@ -3791,10 +2984,42 @@
     {
       "code": "DANGLING_REFERENCE",
       "kind": "politicians",
+      "id": "pol-seo-beom-seok",
+      "field": "eventIds",
+      "targetKind": "events",
+      "targetId": "evt110b-1952-jan18-constitutional-vote"
+    },
+    {
+      "code": "DANGLING_REFERENCE",
+      "kind": "politicians",
+      "id": "pol-shin-sung-mo",
+      "field": "eventIds",
+      "targetKind": "events",
+      "targetId": "evt107-pa-354"
+    },
+    {
+      "code": "DANGLING_REFERENCE",
+      "kind": "politicians",
       "id": "pol-song-chi-myeong-1956",
       "field": "eventIds",
       "targetKind": "events",
       "targetId": "evt-r150-19560813-seoul-election"
+    },
+    {
+      "code": "DANGLING_REFERENCE",
+      "kind": "politicians",
+      "id": "pol-yang-yu-chan",
+      "field": "documentIds",
+      "targetKind": "documents",
+      "targetId": "frus-1953-605"
+    },
+    {
+      "code": "DANGLING_REFERENCE",
+      "kind": "politicians",
+      "id": "pol-yeo-un-hong",
+      "field": "eventIds",
+      "targetKind": "events",
+      "targetId": "evt-r168-13"
     },
     {
       "code": "DANGLING_REFERENCE",
@@ -3843,9 +3068,145 @@
       "field": "eventIds",
       "targetKind": "events",
       "targetId": "evt-r148-senate-secret"
+    },
+    {
+      "code": "DANGLING_REFERENCE",
+      "kind": "organizations",
+      "id": "org-r150-seoul-city-council-1956",
+      "field": "eventIds",
+      "targetKind": "events",
+      "targetId": "evt-r150-19560813-seoul-election"
+    },
+    {
+      "code": "DANGLING_REFERENCE",
+      "kind": "organizations",
+      "id": "org-r150-seoul-city-council-1956",
+      "field": "eventIds",
+      "targetKind": "events",
+      "targetId": "evt-r150-19560905-seoul-council"
+    },
+    {
+      "code": "DANGLING_REFERENCE",
+      "kind": "organizations",
+      "id": "org-r198-rok-bok",
+      "field": "documentIds",
+      "targetKind": "documents",
+      "targetId": "doc-r198-1025-0070"
+    },
+    {
+      "code": "DANGLING_REFERENCE",
+      "kind": "organizations",
+      "id": "org-r198-rok-finance",
+      "field": "documentIds",
+      "targetKind": "documents",
+      "targetId": "doc-r198-1024-0080"
+    },
+    {
+      "code": "DANGLING_REFERENCE",
+      "kind": "organizations",
+      "id": "org-r198-rok-finance",
+      "field": "documentIds",
+      "targetKind": "documents",
+      "targetId": "doc-r198-1031-0040"
+    },
+    {
+      "code": "DANGLING_REFERENCE",
+      "kind": "organizations",
+      "id": "org-r198-rok-general-affairs",
+      "field": "documentIds",
+      "targetKind": "documents",
+      "targetId": "doc-r198-1022-0030"
+    },
+    {
+      "code": "DANGLING_REFERENCE",
+      "kind": "organizations",
+      "id": "org-r198-rok-gyeongnam",
+      "field": "documentIds",
+      "targetKind": "documents",
+      "targetId": "doc-r198-1026-0070"
+    },
+    {
+      "code": "DANGLING_REFERENCE",
+      "kind": "organizations",
+      "id": "org-r198-rok-gyeongnam",
+      "field": "documentIds",
+      "targetKind": "documents",
+      "targetId": "doc-r198-1024-0110"
+    },
+    {
+      "code": "DANGLING_REFERENCE",
+      "kind": "organizations",
+      "id": "org-r198-rok-planning",
+      "field": "documentIds",
+      "targetKind": "documents",
+      "targetId": "doc-r198-1026-0040"
+    },
+    {
+      "code": "DANGLING_REFERENCE",
+      "kind": "organizations",
+      "id": "org-r198-rok-social",
+      "field": "documentIds",
+      "targetKind": "documents",
+      "targetId": "doc-r198-1029-0050"
+    },
+    {
+      "code": "DANGLING_REFERENCE",
+      "kind": "organizations",
+      "id": "org-r198-rok-social",
+      "field": "documentIds",
+      "targetKind": "documents",
+      "targetId": "doc-r198-1031-0050"
+    },
+    {
+      "code": "DANGLING_REFERENCE",
+      "kind": "organizations",
+      "id": "org-r198-seoul-city",
+      "field": "documentIds",
+      "targetKind": "documents",
+      "targetId": "doc-r198-1025-0080"
+    },
+    {
+      "code": "DANGLING_REFERENCE",
+      "kind": "organizations",
+      "id": "org-r198-seoul-city",
+      "field": "documentIds",
+      "targetKind": "documents",
+      "targetId": "doc-r198-1025-0140"
+    },
+    {
+      "code": "DANGLING_REFERENCE",
+      "kind": "organizations",
+      "id": "org-r198-un-ecosoc",
+      "field": "documentIds",
+      "targetKind": "documents",
+      "targetId": "doc-r198-1026-0020"
+    },
+    {
+      "code": "DANGLING_REFERENCE",
+      "kind": "organizations",
+      "id": "org-r198-un-ecosoc",
+      "field": "documentIds",
+      "targetKind": "documents",
+      "targetId": "doc-r198-1031-0010"
+    },
+    {
+      "code": "DANGLING_REFERENCE",
+      "kind": "organizations",
+      "id": "org-r198-youth",
+      "field": "documentIds",
+      "targetKind": "documents",
+      "targetId": "doc-r198-1025-0130"
+    },
+    {
+      "code": "DANGLING_REFERENCE",
+      "kind": "organizations",
+      "id": "org-r198-youth",
+      "field": "documentIds",
+      "targetKind": "documents",
+      "targetId": "doc-r198-1030-0100"
     }
   ],
-  "referenceIssueCount": 400,
+  "referenceIssueCount": 292,
   "crosswalkGaps": [],
   "rootSyncStatus": "PARTIAL",
   "centralSync": "PARTIAL",
