@@ -48,6 +48,8 @@ def classify_source(rel):
         return "politician_candidate_source", ["politicians", "roles"]
     if rel.startswith("data/organizations/"):
         return "organization_registry_source", ["organizations"]
+    if rel.startswith("data/research/branch-snapshots/"):
+        return "branch_snapshot_source", ["politicians"]
     if rel.startswith("data/evidence/"):
         return "evidence_layer", ["evidence", "politicians", "documents", "claims", "events"]
     if rel.startswith("data/annals/"):

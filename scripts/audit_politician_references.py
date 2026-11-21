@@ -77,8 +77,7 @@ for person in people:
     elif research_refs:
         research_ref_missing.append({"politicianId": person_id, "path": research_refs, "reason": "invalid_researchRefs"})
 
-snapshot_path = DATA / "integration" / "snapshots" / "pr74-data-politicians.json"
-snapshot_meta_path = DATA / "integration" / "snapshots" / "pr74-data-politicians-meta.json"
+snapshot_path = DATA / "research" / "branch-snapshots" / "pr74-data-politicians.json"
 pr74_comparison = None
 if snapshot_path.is_file():
     branch_registry = json.loads(snapshot_path.read_text(encoding="utf-8"))
@@ -102,9 +101,7 @@ if snapshot_path.is_file():
         if fields:
             changed_records.append({"politicianId": person_id, "changedFields": fields})
             changed_fields.update(fields)
-    snapshot_meta = {}
-    if snapshot_meta_path.is_file():
-        snapshot_meta = json.loads(snapshot_meta_path.read_text(encoding="utf-8"))
+    snapshot_meta = branch_registry.get("snapshotMetadata", {})
     pr74_comparison = {
         "sourceBranch": snapshot_meta.get("sourceBranch"),
         "sourceCommit": snapshot_meta.get("sourceCommit"),

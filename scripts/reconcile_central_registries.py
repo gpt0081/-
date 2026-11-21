@@ -4,7 +4,7 @@ import collections, copy, datetime, hashlib, json, pathlib
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 OUT = DATA / "integration" / "generated"
-TODAY = datetime.date.today().isoformat()
+TODAY = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=9))).date().isoformat()
 def read_json(path, default=None):
     return json.loads(path.read_text(encoding="utf-8-sig")) if path.is_file() else default
 def write_json(path, obj):
@@ -48,6 +48,63 @@ def merge_list(left, right):
         if key not in seen:
             result.append(copy.deepcopy(value)); seen.add(key)
     return result
+reconciled_field_variants = []
+
+def normalize_research_status(value):
+    text = str(value or "").upper()
+    for status in ("MATURE", "ANNALS_ACTIVE", "VERIFIED", "IDENTIFIED", "DISCOVERED"):
+        if status in text:
+            return status
+    return "DISCOVERED"
+
+def is_unverified_note(value):
+    text = str(value or "").lower()
+    return any(token in text for token in (
+        "미확인", "not verified", "not checked", "not found",
+        "unverified", "no original", "open"
+    ))
+
+def same_party_note(left, right):
+    a, b = str(left or ""), str(right or "")
+    if "미확인" in a and "미확인" in b:
+        return True
+    if "자유당" in a and "자유당" in b:
+        return any(token in a for token in ("보도", "신문")) and any(token in b for token in ("보도", "신문"))
+    return False
+
+def add_note(target, field, value, incoming):
+    note = {"value": copy.deepcopy(value), "provenance": provenance(incoming), "recordedAt": TODAY}
+    notes = target.setdefault(field, [])
+    if note not in notes:
+        notes.append(note)
+
+def record_field_variant(target, kind, ident, key, root_value, incoming_value, incoming,
+                         decision, status="RECONCILED_VARIANT"):
+    item = {
+        "kind": kind, "id": ident, "field": key,
+        "rootValue": copy.deepcopy(root_value),
+        "incomingValue": copy.deepcopy(incoming_value),
+        "incomingProvenance": provenance(incoming),
+        "decision": decision, "status": status, "recordedAt": TODAY
+    }
+    meta = target.setdefault("_integration", {})
+    history = meta.setdefault("fieldVariantHistory", [])
+    signature = json.dumps({k: item.get(k) for k in
+        ("field", "rootValue", "incomingValue", "incomingProvenance", "decision", "status")},
+        ensure_ascii=False, sort_keys=True)
+    if not any(json.dumps({k: old.get(k) for k in
+        ("field", "rootValue", "incomingValue", "incomingProvenance", "decision", "status")},
+        ensure_ascii=False, sort_keys=True) == signature for old in history if isinstance(old, dict)):
+        history.append(item)
+    if status == "RECONCILED_VARIANT":
+        reconciled_field_variants.append(item)
+        for old in meta.get("fieldConflicts", []):
+            if isinstance(old, dict) and old.get("field") == key and old.get("incomingValue") == incoming_value:
+                old["resolutionStatus"] = "RECONCILED_VARIANT"
+                old["resolutionDate"] = TODAY
+                old["resolution"] = decision
+    return item
+
 def merge_record(target, incoming, kind, ident, conflicts):
     for key, value in incoming.items():
         if key in ("id", "_integration") or value is None:
@@ -64,12 +121,44 @@ def merge_record(target, incoming, kind, ident, conflicts):
             plural = key[:-4] + "Files"; vals = target.setdefault(plural, [])
             if isinstance(target.get(key), str) and target[key] not in vals: vals.append(target[key])
             if value not in vals: vals.append(value)
+        elif kind == "politicians" and key == "researchStatus" and isinstance(target[key], str) and isinstance(value, str) and normalize_research_status(target[key]) == normalize_research_status(value):
+            add_note(target, "researchStatusDetails", {"rawValue": value, "standardStatus": normalize_research_status(value)}, incoming)
+            record_field_variant(target, kind, ident, key, target[key], value, incoming, "NORMALIZED_TO_STANDARD_RESEARCH_STATUS")
+        elif kind == "politicians" and key == "evidenceCoverage" and isinstance(target[key], list) and isinstance(value, str):
+            add_note(target, "evidenceCoverageNotes", value, incoming)
+            record_field_variant(target, kind, ident, key, target[key], value, incoming, "MOVED_NARRATIVE_TO_EVIDENCE_COVERAGE_NOTES")
+        elif kind == "politicians" and key == "verification" and isinstance(target[key], str) and isinstance(value, str) and is_unverified_note(target[key]) and is_unverified_note(value):
+            add_note(target, "verificationNotes", value, incoming)
+            record_field_variant(target, kind, ident, key, target[key], value, incoming, "PRESERVED_EQUIVALENT_UNVERIFIED_NOTE")
+        elif kind == "politicians" and key == "partyAffiliation" and isinstance(target[key], str) and isinstance(value, str) and same_party_note(target[key], value):
+            add_note(target, "partyAffiliationNotes", value, incoming)
+            record_field_variant(target, kind, ident, key, target[key], value, incoming, "PRESERVED_EQUIVALENT_PARTY_AFFILIATION_NOTE")
+        elif kind == "politicians" and key in ("identityCaution", "promotionReason") and isinstance(target[key], str) and isinstance(value, str):
+            add_note(target, key + "History", value, incoming)
+            record_field_variant(target, kind, ident, key, target[key], value, incoming, "PRESERVED_ADDITIVE_CAUTION_OR_REASON")
+        elif kind == "events" and key == "name" and isinstance(target[key], str) and isinstance(value, str):
+            add_note(target, "nameVariants", value, incoming)
+            record_field_variant(target, kind, ident, key, target[key], value, incoming, "PRESERVED_EVENT_NAME_VARIANT")
+        elif kind == "events" and key == "uncertainty" and isinstance(target[key], str) and isinstance(value, str):
+            root_text, incoming_text = target[key].strip(), value.strip()
+            if root_text and incoming_text and (root_text in incoming_text or incoming_text in root_text):
+                add_note(target, "uncertaintyHistory", value, incoming)
+                if len(incoming_text) > len(root_text):
+                    target[key] = value
+                record_field_variant(target, kind, ident, key, root_text, incoming_text, incoming, "MERGED_CONTAINMENT_UNCERTAINTY_NOTE")
+            else:
+                item = record_field_variant(target, kind, ident, key, target[key], value, incoming,
+                                            "UNRESOLVED_UNCERTAINTY_VARIANT", "UNRESOLVED_CONFLICT")
+                conflicts.append(item)
+                fields = target.setdefault("_integration", {}).setdefault("fieldConflicts", [])
+                if item not in fields: fields.append(item)
         else:
-            item = {"kind": kind, "id": ident, "field": key, "rootValue": target[key],
-                    "incomingValue": value, "incomingProvenance": provenance(incoming)}
+            item = record_field_variant(target, kind, ident, key, target[key], value, incoming,
+                                        "UNRESOLVED_SCALAR_CONFLICT", "UNRESOLVED_CONFLICT")
             conflicts.append(item)
             fields = target.setdefault("_integration", {}).setdefault("fieldConflicts", [])
             if item not in fields: fields.append(item)
+
 def attach_provenance(target, incoming):
     meta = target.setdefault("_integration", {})
     meta["id"] = target.get("id")
@@ -168,6 +257,47 @@ for raw in manual:
     people.append(person); people_by_id[ident] = person; manual_added += 1
     crosswalk.append({"id": ident, "name": person.get("name"), "status": "MANUAL_SOURCE_BACKED_NODE_ADDED", "sourcePaths": person.get("researchRefs", [])})
 
+branch_snapshot_path = DATA / "research" / "branch-snapshots" / "pr74-data-politicians.json"
+branch_snapshot = read_json(branch_snapshot_path, {})
+branch_snapshot_meta = branch_snapshot.get("snapshotMetadata", {}) if isinstance(branch_snapshot, dict) else {}
+branch_snapshot_people = branch_snapshot.get("politicians", []) if isinstance(branch_snapshot, dict) else []
+branch_snapshot_added, branch_snapshot_variant_refs, branch_snapshot_skipped = [], [], []
+for index, raw in enumerate(branch_snapshot_people):
+    if not isinstance(raw, dict):
+        branch_snapshot_skipped.append({"pointer": f"/politicians/{index}", "reason": "NON_OBJECT_RECORD"})
+        continue
+    ident = rid(raw)
+    if not ident or not ident.startswith(("pol-", "cand-", "candidate-")) or not display_name(raw):
+        branch_snapshot_skipped.append({"id": ident, "pointer": f"/politicians/{index}", "reason": "POLICY_EXCLUDED_OR_MISSING_NAME"})
+        continue
+    ref = {
+        "sourcePath": branch_snapshot_path.relative_to(ROOT).as_posix(),
+        "sourcePointer": f"/politicians/{index}",
+        "sourceBranch": branch_snapshot_meta.get("sourceBranch"),
+        "sourceCommit": branch_snapshot_meta.get("sourceCommit"),
+        "sourceBlobSha": branch_snapshot_meta.get("sourceBlobSha"),
+        "recordedAt": TODAY
+    }
+    if ident in people_by_id:
+        target = people_by_id[ident]
+        refs = target.setdefault("_integration", {}).setdefault("branchSnapshotVariantRefs", [])
+        if ref not in refs:
+            refs.append(ref)
+        branch_snapshot_variant_refs.append(ident)
+        continue
+    person = copy.deepcopy(raw)
+    person.setdefault("_integration", {})["branchSnapshotImport"] = {
+        **ref,
+        "status": "IMPORTED_PENDING_ADJUDICATION",
+        "identityPolicy": "NO_NAME_BASED_MERGE_OR_PROMOTION"
+    }
+    people.append(person)
+    people_by_id[ident] = person
+    branch_snapshot_added.append(ident)
+    crosswalk.append({"id": ident, "name": display_name(person),
+        "status": "IMPORTED_FROM_PR74_BRANCH_SNAPSHOT_PENDING_ADJUDICATION",
+        "sourcePaths": [ref["sourcePath"]], "sourcePointer": ref["sourcePointer"]})
+
 people.sort(key=lambda row: str(row.get("id", "")))
 person_root["updatedAt"] = TODAY
 write_json(person_file, person_root)
@@ -185,21 +315,32 @@ root_file_hashes = {
     "data/events.json": hashlib.sha256(event_file.read_bytes()).hexdigest(),
     "data/politicians.json": hashlib.sha256(person_file.read_bytes()).hexdigest(),
 }
-status = "PASS" if not (event_conflicts or person_conflicts or missing_events or missing_people or root_duplicates) else "PARTIAL"
+branch_snapshot_ids = {rid(row) for row in branch_snapshot_people if isinstance(row, dict) and rid(row)}
+branch_snapshot_missing = sorted(branch_snapshot_ids - root_person_ids)
+status = "PASS" if not (event_conflicts or person_conflicts or missing_events or missing_people or root_duplicates or branch_snapshot_missing or branch_snapshot_skipped) else "PARTIAL"
 write_json(OUT / "root-sync-report.json", {
     "schemaVersion": 1, "generatedAt": TODAY, "centralSync": status,
     "eventSync": {"rootBefore": event_before, "canonicalMaterialized": len(canonical_event_ids), "added": event_added,
         "merged": event_merged, "rootAfter": len(root_events), "missingCanonicalIdsAfterSync": missing_events,
-        "duplicateRootIds": sorted(set(root_duplicates)), "fieldConflicts": event_conflicts, "skipped": event_skipped},
+        "duplicateRootIds": sorted(set(root_duplicates)), "fieldConflicts": event_conflicts,
+        "fieldVariantsReconciled": [x for x in reconciled_field_variants if x["kind"] == "events"], "skipped": event_skipped},
     "politicianSync": {"rootBefore": person_before, "canonicalMaterialized": len(canonical_person_ids),
         "added": person_added, "manualAdded": manual_added, "merged": person_merged, "rootAfter": len(people),
         "missingCanonicalIdsAfterSync": missing_people, "fieldConflicts": person_conflicts,
+        "fieldVariantsReconciled": [x for x in reconciled_field_variants if x["kind"] == "politicians"],
         "policyExcludedCanonicalIds": policy_excluded, "policyExcludedCount": len(policy_excluded)},
+    "branchSnapshotSync": {"sourcePath": branch_snapshot_path.relative_to(ROOT).as_posix(),
+        "sourceBranch": branch_snapshot_meta.get("sourceBranch"), "sourceCommit": branch_snapshot_meta.get("sourceCommit"),
+        "sourceBlobSha": branch_snapshot_meta.get("sourceBlobSha"), "branchRecordCount": len(branch_snapshot_people),
+        "addedToRoot": len(branch_snapshot_added), "addedIds": sorted(branch_snapshot_added),
+        "variantRefsAdded": len(branch_snapshot_variant_refs), "variantRefIds": sorted(set(branch_snapshot_variant_refs)),
+        "skipped": branch_snapshot_skipped, "missingAfterSync": branch_snapshot_missing,
+        "status": "PASS" if not branch_snapshot_missing and not branch_snapshot_skipped else "PARTIAL"},
     "rootFileHashes": root_file_hashes,
     "rootFileCounts": {"events": len(root_events), "politicians": len(people)},
     "sourceIntegrationStatus": source_report.get("status"), "sourceConflictedIds": len(source_report.get("conflictingIds", [])),
     "sourceAuxiliaryRecords": source_report.get("auxiliaryRecords", 0),
-    "policy": "Only named pol-/cand- records enter the domestic politician root. Foreign, collective, legacy, placeholder and unnamed candidates remain preserved in source/canonical layers with explicit exclusion reasons. Scalar conflicts are not silently merged."
+    "policy": "Only named pol-/cand- records enter the domestic politician root. PR #74 branch snapshot records are imported without identity promotion; shared variants retain source pointers. Typed note/status variants are preserved in fieldVariantHistory; unresolved scalar conflicts remain explicit."
 })
 write_json(OUT / "politician-root-crosswalk.json", {"schemaVersion": 1, "generatedAt": TODAY,
     "policy": "Possible-same-as links are hypotheses, not identity merges.",
@@ -208,4 +349,6 @@ print(json.dumps({"centralSync": status, "eventsAdded": event_added, "eventsMerg
     "rootEvents": len(root_events), "politiciansAdded": person_added, "politiciansMerged": person_merged,
     "manualPoliticiansAdded": manual_added, "rootPoliticians": len(people),
     "missingEvents": len(missing_events), "missingPoliticians": len(missing_people),
-    "eventFieldConflicts": len(event_conflicts), "politicianFieldConflicts": len(person_conflicts)}, ensure_ascii=False))
+    "eventFieldConflicts": len(event_conflicts), "politicianFieldConflicts": len(person_conflicts),
+    "fieldVariantsReconciled": len(reconciled_field_variants), "branchSnapshotAdded": len(branch_snapshot_added),
+    "branchSnapshotMissing": len(branch_snapshot_missing)}, ensure_ascii=False))

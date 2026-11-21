@@ -56,3 +56,9 @@ Floot was not modified or built.
 - PR #74 branch backfill: 199 history-debt sections, 29 coverage domains, 4 next-priority entries and 125 open leads added additively. Weekly debt review remains INCOMPLETE; last successful full review remains 2026-09-27.
 - PR #73 content comparison: 11/18 identical, 7 shared-file variants. PR #74: 12/16 identical, 4 shared-root variants. All changed paths are present on main. PR #72 remains open; no whole-branch merge.
 - Status remains `CENTRAL_SYNC_PARTIAL` / `FULL_INTEGRATION_INCOMPLETE`. The politician-root comparison against the PR #74 branch snapshot is pending. Floot was not modified or built.
+
+
+## PR74 politician-root snapshot comparison (2026-11-22)
+
+- The stacked PR #74 branch snapshot contains 453 politician records. Compared with the 976-record main root, only 81 IDs are shared; 372 branch IDs are absent from main, while main has 895 IDs absent from the older branch snapshot.
+- The 372 branch-only IDs are not automatically identity-merged or promoted. They are queued for additive import with original candidate status, source pointer, branch commit and blob SHA preserved. Shared-ID field differences remain variants.

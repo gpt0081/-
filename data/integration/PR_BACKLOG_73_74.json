@@ -104,17 +104,17 @@
     "data/research/rhee-syngman-coverage.json",
     "data/research/rhee-syngman-open-leads.json"
   ],
-  "migrationStatus": "PR72_73_74_PATHS_PRESENT; PR74 BACKFILL MERGED INTO HISTORY_DEBT, COVERAGE AND OPEN-LEADS; POLITICIAN ROOT SNAPSHOT AUDIT PENDING; CENTRAL_SYNC_PARTIAL",
+  "migrationStatus": "PR72_73_74_PATHS_PRESENT; PR74 BACKFILL MERGED; 372 BRANCH-ONLY POLITICIAN IDS IDENTIFIED FOR PENDING-ADJUDICATION IMPORT; CENTRAL_SYNC_PARTIAL",
   "requiredActions": [
     "Preserve all 34 PR #73/#74 changed paths; path presence is not semantic integration.",
     "Review PR #72/#73/#74 content divergence without merging the entire diverged branch.",
     "Resolve 584 source-level conflicting IDs with document-level provenance comparison; do not choose arbitrary variants.",
     "Resolve 16 event and 107 politician root field conflicts with correction history and typed variants.",
     "Map 666 auxiliary/partial records and 310 unlinked operational-layer files using explicit stable IDs.",
-    "Compare the PR #74 politician-root snapshot against the 976-record main root; import only genuinely missing stable IDs and preserve field variants.",
+    "Import the 372 PR #74 branch-only stable/candidate IDs into the central politician root with snapshot provenance; preserve all shared-field differences as variants and do not merge by name alone.",
     "Re-run cross-registry and politician-file reference audits after each logical migration batch."
   ],
-  "reason": "PR #73/#74 are merged into research branches, not main. Recursive content comparison found 11/18 identical for PR73 and 12/16 for PR74; all changed paths are present. PR74's branch-only history-debt sections, 29 coverage domains, 4 next priorities and 125 leads were merged additively. PR #72 remains open and its branch is 1284 commits ahead / 807 behind main, so no wholesale merge was attempted. Central sync remains PARTIAL.",
+  "reason": "PR #73/#74 are merged into research branches, not main. Recursive content comparison found 11/18 identical for PR73 and 12/16 for PR74; all changed paths are present. PR74's branch-only history-debt sections, 29 coverage domains, 4 next priorities and 125 leads were merged additively. PR #72 remains open and its branch is 1284 commits ahead / 807 behind main, so no wholesale merge was attempted. Central sync remains PARTIAL. PR #74 politician-root comparison found 372 branch-only IDs (453 branch records; 81 shared with main; 895 main-only). These are to be imported as existing candidate/person records with provenance, not promoted or merged by name.",
   "relatedOpenPullRequests": [
     {
       "number": 72,
@@ -159,6 +159,10 @@
     "coverageNextPriorityAdded": 4,
     "openLeadsAdded": 125,
     "weeklyReview": "INCOMPLETE",
-    "flootModified": false
+    "flootModified": false,
+    "politicianSnapshotBranchOnlyIds": 372,
+    "politicianSnapshotSharedIds": 81,
+    "politicianSnapshotMainOnlyIds": 895,
+    "politicianSnapshotStatus": "IMPORT_PENDING_ADJUDICATION"
   }
 }
