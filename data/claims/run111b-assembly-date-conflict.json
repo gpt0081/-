@@ -1,0 +1,29 @@
+{
+  "run": "111b",
+  "claims": [
+    {
+      "id": "clm111b-assembly-date-conflict",
+      "statement": "한국은행법 제138호 제헌국회 표결일",
+      "status": "CONFLICTED",
+      "supportingEvidence": [
+        {
+          "documentId": "d111-bok-experts",
+          "value": "1950-04-21"
+        },
+        {
+          "documentId": "d111b-cha31",
+          "value": "1950-05-05"
+        }
+      ],
+      "contradictingEvidence": [
+        "d111b-cha31",
+        "d111-bok-experts"
+      ],
+      "insufficientEvidence": [
+        "1950-04-21 및 05-05 제헌국회 본회의 속기록",
+        "1950-05-05 관보 제345호 원면"
+      ],
+      "note": "한국은행 기관 연혁과 한국은행 홈페이지에 게시된 필자 개인 칼럼은 동일 provenance가 아니다. 날짜 충돌을 삭제하지 않는다."
+    }
+  ]
+}

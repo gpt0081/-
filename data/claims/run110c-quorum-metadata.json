@@ -1,0 +1,22 @@
+{
+  "run": 110,
+  "claim": {
+    "id": "c110c-1952-vote-quorum-metadata",
+    "statement": "The 1952-01-18 constitutional vote had 175 ballots cast",
+    "status": "CONTRADICTED_BY_ORIGINAL_TRANSCRIPT",
+    "supportingEvidence": [
+      {
+        "documentId": "d110c-gazette562",
+        "kind": "EDITORIAL_NOTE_SAYS_175_PRESENT"
+      }
+    ],
+    "contradictingEvidence": [
+      {
+        "documentId": "d110b-1952-jan18-assembly",
+        "kind": "ORIGINAL_RECORD_SAYS_175_REGISTERED_163_CAST"
+      }
+    ],
+    "finding": "The original chair recorded 175 registered members and 163 ballots: 19 yes, 143 no, 1 abstention. Later editorial note conflates registered with present.",
+    "nextTarget": "Check original 1952 National Assembly attendance sheet and source note revision history"
+  }
+}

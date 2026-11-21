@@ -1,0 +1,63 @@
+{
+  "run": 142,
+  "claims": [
+    {
+      "id": "clm142-782",
+      "status": "CONFLICTED",
+      "statement": "대통령령782 공포일",
+      "supporting": [
+        "d141-pa772:1953-04-14"
+      ],
+      "contradicting": [
+        "d142-1953-index:1953-04-20"
+      ],
+      "next": "1953-04-20 관보 원면·1953-04-14 국무회의 원의사록"
+    },
+    {
+      "id": "clm142-805",
+      "status": "CONFLICTED",
+      "statement": "법률292 시행 1953-07-04, 시행령805 시행 07-03 및 공포 07-12",
+      "supporting": [
+        "d142-decree805"
+      ],
+      "contradicting": [
+        "d142-law292"
+      ],
+      "hypotheses": [
+        "명시적 소급시행",
+        "전사·색인 오류",
+        "날짜 계산 차이"
+      ],
+      "next": "법률292·대통령령805 관보 부칙 원면"
+    },
+    {
+      "id": "clm142-report",
+      "status": "NARROWED",
+      "statement": "사회부령9의 노동조합 신고서 3통과 시군구→시도→사회부 송부 구조",
+      "supporting": [
+        "d142-rule9",
+        "d141-pa772"
+      ],
+      "next": "1953 사회부령9 원문·지방 노동조합대장"
+    },
+    {
+      "id": "clm142-court",
+      "status": "OPEN",
+      "statement": "대법원규칙15 실제 등기 절차",
+      "supporting": [
+        "d142-rule15"
+      ],
+      "next": "1953-05-01 규칙15 제정 원문"
+    },
+    {
+      "id": "clm142-315",
+      "status": "OPEN",
+      "statement": "1953년 사회부 국정감사 제출자료 기업별 노조 315개",
+      "supporting": [
+        "d142-kci315"
+      ],
+      "note": "학술논문 초록의 2차 전언, 미확정",
+      "next": "국회 1953 사회부 국정감사 제출 원표"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "run": 91,
+  "claims": [
+    {
+      "id": "c91-law74-date",
+      "status": "CONFLICTED_SOURCE_METADATA",
+      "statement": "법률 제74호 제정일을 한국민족문화대백과사전은 1949-12-29, 법제처 연혁은 1949-12-19로 표시한다.",
+      "supportingEvidence": [
+        "d91-aks-law74"
+      ],
+      "contradictingEvidence": [
+        "d91-law74-original"
+      ],
+      "insufficientEvidence": [
+        "1949-12-19 관보 제246호 원면"
+      ],
+      "preferredForCurrentUse": "1949-12-19 (official statute)",
+      "reviewHistory": "2026-10-08 conflict preserved, not silently normalized"
+    },
+    {
+      "id": "c91-article-v-three-families",
+      "status": "NARROWED",
+      "statement": "1948 최초 재정재산협정의 귀속재산 양도 규정은 제5조다. 1950-02-24 발언에서 제8조를 언급한 정확한 맥락은 미확정.",
+      "supportingEvidence": [
+        "d91-UNTS-1216:Article V",
+        "d91-law74-original:Article 2"
+      ],
+      "contradictingEvidence": [
+        "d91-assembly-19500224:Article VIII testimony"
+      ],
+      "sourceFamilies": [
+        "United Nations treaty",
+        "Korean enacted law",
+        "Korean Assembly transcript"
+      ],
+      "insufficientEvidence": [
+        "BA0028980 17-page treaty original",
+        "1949 legal consultation record"
+      ],
+      "reviewHistory": "Three independent provenance families compared; only clause identity narrowed, speaker error not concluded"
+    }
+  ]
+}

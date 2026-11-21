@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "run": 89,
+  "claims": [
+    {
+      "id": "c89-education-two-plans",
+      "statement": "1948년 의무교육 확충 6개년 계획과 1953년 수립한 1954~1959 의무교육 완성 6개년 계획은 같은 정책 문서이다.",
+      "status": "CONTRADICTED_BY_DIFFERENT_DATES",
+      "supportingEvidence": [],
+      "contradictingEvidence": [
+        "d89-edu-plan-19481201",
+        "d89-education-history-archives"
+      ],
+      "insufficientEvidence": [
+        "1953년 의무교육 완성계획 결재원문"
+      ],
+      "relatedEvents": [
+        "evt89-education-plan-revision-1953"
+      ]
+    },
+    {
+      "id": "c89-education-promulgation-implementation",
+      "statement": "1949년 교육법 공포일과 1950년 6월 초등 의무교육 개시일은 동일하다.",
+      "status": "CONTRADICTED_BY_STAGE_DISTINCTION",
+      "supportingEvidence": [],
+      "contradictingEvidence": [
+        "d89-education-law86",
+        "d89-edu-implementation-19500601"
+      ],
+      "insufficientEvidence": [
+        "교육법 제167조 시행특례 원문 확인"
+      ],
+      "relatedEvents": [
+        "evt89-education-law86-19491231",
+        "evt89-education-plan-revision-1953"
+      ]
+    }
+  ]
+}

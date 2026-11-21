@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "run": 98,
+  "claims": [
+    {
+      "id": "c98-provisional-sale-after-suspension",
+      "statement": "국가기록원 해설: 1949-06-20 불하중지 통첩과 1949-07-18 조건부 가계약 재개. 정식 매각 여부 미확정.",
+      "status": "NARROWED",
+      "supportingEvidence": [
+        "d98-nara-disclosure-v"
+      ],
+      "contradictingEvidence": [],
+      "insufficientEvidence": [
+        "6/20 통첩",
+        "7/18 계약서",
+        "7/23 동아일보 원지면"
+      ],
+      "relatedEvents": [
+        "evt98-19490620-suspension",
+        "evt98-19490718-conditional-contracts"
+      ]
+    },
+    {
+      "id": "c98-law74-date-metadata",
+      "statement": "법률 제74호 12/19(국가기록원) 대 12/29(한국민족문화대백과사전) 충돌.",
+      "status": "CONFLICTED",
+      "supportingEvidence": [
+        "d98-nara-disclosure-v",
+        "d98-nara-subject-vested",
+        "d98-wikisource-law74"
+      ],
+      "contradictingEvidence": [
+        "d98-aks-law74"
+      ],
+      "insufficientEvidence": [
+        "1949-12 관보 법률 제74호 원면"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "schemaVersion": 1,
+  "run": 174,
+  "date": "2026-10-26",
+  "claims": [
+    {
+      "id": "claim174-01",
+      "statement": "긴급금융조치법 법률번호는 277호인가 227호인가",
+      "status": "CONFLICTED_SOURCE_METADATA",
+      "supportingEvidence": [
+        "doc174-law-277"
+      ],
+      "contradictingEvidence": [
+        "doc174-bok-exhibit"
+      ],
+      "insufficientEvidence": [],
+      "contemporaneousObservation": [
+        "doc174-law-277",
+        "doc174-bok-exhibit"
+      ],
+      "laterFinding": [],
+      "analysis": "법제처 공식 연혁은 제277호, 한국은행 전시 해설은 제227호; 관보 원면 확인 후 한국은행 오기 여부 판정",
+      "adversarialSearch": "Cross-checked alternate original press, government archival catalogue or FRUS provenance family",
+      "accessDate": "2026-10-26"
+    },
+    {
+      "id": "claim174-02",
+      "statement": "1953-02-17과 02-26 중 원→환 전환 날짜는 언제인가",
+      "status": "NARROWED_BY_LEGAL_ARTICLE3",
+      "supportingEvidence": [
+        "doc174-bok-exhibit",
+        "doc174-nih-028-1953-02-19-0030",
+        "doc174-law-277"
+      ],
+      "contradictingEvidence": [
+        "doc174-frus-406"
+      ],
+      "insufficientEvidence": [],
+      "contemporaneousObservation": [
+        "doc174-bok-exhibit",
+        "doc174-nih-028-1953-02-19-0030",
+        "doc174-frus-406"
+      ],
+      "laterFinding": [],
+      "analysis": "2/17 신권 유통·구권 교환 시작, 2/26 미국 편집주석 환화 전환; 통화유통과 자산환산을 분리하고 원법 조문 확인 [Run175 보강] 법률 제277호 제3조는 1953-02-26부터 재산·채무 원화표시 금액의 환화 변경을 명문 규정. 2/17 신권유통·구권교환과 구별. 관보 원면·집행장부 미확보. [Run175 출처정정] 제3조 직접 본문 확인처는 bigcase.ai 재수록 법령이며 법제처 사이트는 법률번호·시행일 메타데이터만 확인. 원관보 미확보.",
+      "adversarialSearch": "Cross-checked alternate original press, government archival catalogue or FRUS provenance family",
+      "accessDate": "2026-10-26",
+      "reviewHistory": [
+        {
+          "date": "2026-10-26",
+          "run": 175,
+          "previousStatus": "NARROWED_PHASE_DIFFERENCE",
+          "newEvidence": "doc174-law-277 article 3",
+          "reason": "원문 법률 조문에 2/26 재산환산 기준일 명시. 2/17 신권유통과 단계 분리. FRUS 편집주석이 말하는 currency conversion과의 개념차이는 좁혀졌으나 당시 실무 전표 미확보."
+        },
+        {
+          "date": "2026-10-26",
+          "run": 175,
+          "reason": "원법 조문 직접 확인이라는 이전 표현을 제3자 법령 재수록 조문 직접 확인 + 법제처 공식 메타데이터 확인으로 정정. 법적 원면 대조 필요.",
+          "previousStatus": "NARROWED_BY_LEGAL_ARTICLE3",
+          "provenanceCorrection": true
+        }
+      ]
+    },
+    {
+      "id": "claim174-03",
+      "statement": "1953 원화정산 8580만달러가 실제 지급됐는가",
+      "status": "NARROWED",
+      "supportingEvidence": [
+        "doc174-frus-417",
+        "doc174-nih-028-1953-02-28-0040"
+      ],
+      "contradictingEvidence": [
+        "doc174-frus-385",
+        "doc174-frus-392"
+      ],
+      "insufficientEvidence": [],
+      "contemporaneousObservation": [
+        "doc174-frus-417",
+        "doc174-nih-028-1953-02-28-0040",
+        "doc174-frus-385",
+        "doc174-frus-392"
+      ],
+      "laterFinding": [],
+      "analysis": "2/9 미측 검토액과 2/25 합의액은 다르며 3/10 미 재무장관이 현금 지급 완료 보고; 실제 전표 미확보",
+      "adversarialSearch": "Cross-checked alternate original press, government archival catalogue or FRUS provenance family",
+      "accessDate": "2026-10-26"
+    },
+    {
+      "id": "claim174-04",
+      "statement": "백두진의 1953 예산안 적자액은 4조2930억인가",
+      "status": "CONFLICTED_ARITHMETIC",
+      "supportingEvidence": [
+        "doc174-nih-028-1953-01-15-0010"
+      ],
+      "contradictingEvidence": [
+        "doc174-nih-028-1953-01-31-0040"
+      ],
+      "insufficientEvidence": [],
+      "contemporaneousObservation": [
+        "doc174-nih-028-1953-01-15-0010",
+        "doc174-nih-028-1953-01-31-0040"
+      ],
+      "laterFinding": [],
+      "analysis": "연설 수치 7조2806억-2조9676억=4조3130억, 발표 적자 4조2930억과 200억 차이; 예산 원표·전입·이중계상 확인",
+      "adversarialSearch": "Cross-checked alternate original press, government archival catalogue or FRUS provenance family",
+      "accessDate": "2026-10-26"
+    },
+    {
+      "id": "claim174-05",
+      "statement": "국회는 2월19일 긴급명령 제13호를 승인했는가",
+      "status": "NARROWED_NOT_APPROVED_THAT_DAY",
+      "supportingEvidence": [
+        "doc174-nih-028-1953-02-19-0060"
+      ],
+      "contradictingEvidence": [],
+      "insufficientEvidence": [],
+      "contemporaneousObservation": [
+        "doc174-nih-028-1953-02-19-0060"
+      ],
+      "laterFinding": [],
+      "analysis": "91:0은 심의 연기 동의의 표결이며 긴급명령 사후 승인 자체가 아님",
+      "adversarialSearch": "Cross-checked alternate original press, government archival catalogue or FRUS provenance family",
+      "accessDate": "2026-10-26"
+    },
+    {
+      "id": "claim174-06",
+      "statement": "긴급금융조치법의 2월26일 공포 보도는 확정 사실인가",
+      "status": "NARROWED_FORECAST_VS_ACTUAL",
+      "supportingEvidence": [
+        "doc174-nih-028-1953-02-27-0050",
+        "doc174-law-277"
+      ],
+      "contradictingEvidence": [
+        "doc174-nih-028-1953-02-26-0060"
+      ],
+      "insufficientEvidence": [],
+      "contemporaneousObservation": [
+        "doc174-nih-028-1953-02-27-0050",
+        "doc174-law-277",
+        "doc174-nih-028-1953-02-26-0060"
+      ],
+      "laterFinding": [],
+      "analysis": "2/26 보도는 향후 공포 예상, 2/27 새벽 국회 수정 가결과 2/27 법률 제277호 제정 확인",
+      "adversarialSearch": "Cross-checked alternate original press, government archival catalogue or FRUS provenance family",
+      "accessDate": "2026-10-26"
+    },
+    {
+      "id": "claim174-07",
+      "statement": "2월27일 이승만이 법안 공포를 직접 결정했는가",
+      "status": "OPEN_UNCORROBORATED_REPORT",
+      "supportingEvidence": [
+        "doc174-nih-028-1953-02-27-0060"
+      ],
+      "contradictingEvidence": [],
+      "insufficientEvidence": [],
+      "contemporaneousObservation": [
+        "doc174-nih-028-1953-02-27-0060"
+      ],
+      "laterFinding": [],
+      "analysis": "익명 정계소식통의 대통령 최종결단 보도만 확보, 국무회의·결재 원면 미확보",
+      "adversarialSearch": "Cross-checked alternate original press, government archival catalogue or FRUS provenance family",
+      "accessDate": "2026-10-26"
+    },
+    {
+      "id": "claim174-08",
+      "statement": "서울시 구호양곡은 발표대로 배급됐는가",
+      "status": "NARROWED_POLICY_EXECUTION_GAP",
+      "supportingEvidence": [
+        "doc174-nih-028-1953-02-19-0050"
+      ],
+      "contradictingEvidence": [
+        "doc174-nih-028-1953-02-19-0070"
+      ],
+      "insufficientEvidence": [],
+      "contemporaneousObservation": [
+        "doc174-nih-028-1953-02-19-0050",
+        "doc174-nih-028-1953-02-19-0070"
+      ],
+      "laterFinding": [],
+      "analysis": "간부회의 감사·구호대책과 2/19 실제 미배급 보도 병존, 동별 배급대장 확인",
+      "adversarialSearch": "Cross-checked alternate original press, government archival catalogue or FRUS provenance family",
+      "accessDate": "2026-10-26"
+    },
+    {
+      "id": "claim174-09",
+      "statement": "3월 초 1억달러 외환방출계획은 실제 집행됐는가",
+      "status": "OPEN_PROPOSAL_ONLY",
+      "supportingEvidence": [
+        "doc174-nih-028-1953-03-04-0120",
+        "doc174-nih-028-1953-03-05-0040"
+      ],
+      "contradictingEvidence": [],
+      "insufficientEvidence": [],
+      "contemporaneousObservation": [
+        "doc174-nih-028-1953-03-04-0120",
+        "doc174-nih-028-1953-03-05-0040"
+      ],
+      "laterFinding": [],
+      "analysis": "한국은행 총재와 상공부장관의 계획·조건 발표만 확보, 수입허가·대출·송금 장부 미확보",
+      "adversarialSearch": "Cross-checked alternate original press, government archival catalogue or FRUS provenance family",
+      "accessDate": "2026-10-26"
+    },
+    {
+      "id": "claim174-10",
+      "statement": "1953년 전시근로동원법의 1951-04-31 문서 날짜는 가능한가",
+      "status": "CONFLICTED_CATALOG_DATE",
+      "supportingEvidence": [
+        "doc174-pa-mobilization"
+      ],
+      "contradictingEvidence": [],
+      "insufficientEvidence": [],
+      "contemporaneousObservation": [
+        "doc174-pa-mobilization"
+      ],
+      "laterFinding": [],
+      "analysis": "대통령기록관 해제의 1951-04-31은 달력상 불가능, 실제 심의경과표 원면과 생산일 확인",
+      "adversarialSearch": "Cross-checked alternate original press, government archival catalogue or FRUS provenance family",
+      "accessDate": "2026-10-26"
+    },
+    {
+      "id": "claim174-11",
+      "statement": "1953년 긴급금융조치가 모든 시민에게 동일하게 작용했는가",
+      "status": "OPEN_DISTRIBUTIONAL_EFFECT",
+      "supportingEvidence": [
+        "doc174-nih-028-1953-02-28-0020"
+      ],
+      "contradictingEvidence": [
+        "doc174-nih-028-1953-02-26-0050"
+      ],
+      "insufficientEvidence": [],
+      "contemporaneousObservation": [
+        "doc174-nih-028-1953-02-28-0020",
+        "doc174-nih-028-1953-02-26-0050"
+      ],
+      "laterFinding": [],
+      "analysis": "백두진은 85% 세대 영향 미미 주장, 동시대 시민 반발 보도; 세대별 실측자료와 정의 필요",
+      "adversarialSearch": "Cross-checked alternate original press, government archival catalogue or FRUS provenance family",
+      "accessDate": "2026-10-26"
+    },
+    {
+      "id": "claim174-12",
+      "statement": "장택상의 자유당 입당은 확정됐는가",
+      "status": "OPEN_PARTY_MEMBERSHIP",
+      "supportingEvidence": [
+        "doc174-nih-028-1953-03-05-0030"
+      ],
+      "contradictingEvidence": [],
+      "insufficientEvidence": [],
+      "contemporaneousObservation": [
+        "doc174-nih-028-1953-03-05-0030"
+      ],
+      "laterFinding": [],
+      "analysis": "당 의원부와 감찰부 입장이 충돌, 당적 원명부와 중앙위 회의록 필요",
+      "adversarialSearch": "Cross-checked alternate original press, government archival catalogue or FRUS provenance family",
+      "accessDate": "2026-10-26"
+    }
+  ],
+  "claimCount": 12,
+  "adversarialSearchTopics": 12
+}

@@ -1,0 +1,61 @@
+{
+  "run": "116b",
+  "corrects": [
+    "c116-articles23-24",
+    "HD-R116-02"
+  ],
+  "claims": [
+    {
+      "id": "c116b-family-renumbered",
+      "statement": "1949-07-23 신문은 가족수당 신설을 제23조 수정안으로 보도하지만 1949-08-12 법률 제44호 전사에서는 가족수당이 제25조에 위치한다. 제23조는 보수 결정 고려요소다.",
+      "status": "NARROWED_RENUMBERING_NOT_CAUSAL_PROOF",
+      "supporting": [
+        "d116-press-19490723",
+        "d116-law44-wikisource",
+        "d116-law103-19500303"
+      ],
+      "insufficient": [
+        "1949 법률44호 관보 원면",
+        "제4회 제17차 국회 원속기록",
+        "자구수정·조문번호 재배치 기록"
+      ]
+    },
+    {
+      "id": "c116b-technician-final",
+      "statement": "1949 법률 제44호 전사 제24조 제3호는 기술공무원 특별급여를 명시한다. 7월 23일 김경도 수정안 보도와 내용이 이어지나 인과적 귀속은 보류한다.",
+      "status": "TEXT_MATCH_CAUSATION_OPEN",
+      "supporting": [
+        "d116-press-19490723",
+        "d116-law44-wikisource"
+      ],
+      "insufficient": [
+        "법률44호 원관보·최종 수정안 원부"
+      ]
+    },
+    {
+      "id": "c116b-independence-exception",
+      "statement": "1948-12-08 박윤원은 독립운동가 등용 경로 부재를 비판했고 1949 제정 법률 전사 제5조는 독립운동 공헌자 특별전형을 허용한다. 박윤원의 발언이 조문을 유발했다는 증거는 없다.",
+      "status": "TEMPORAL_CONTRAST_NOT_CAUSAL",
+      "supporting": [
+        "d116-assembly-19481208",
+        "d116-law44-wikisource"
+      ],
+      "insufficient": [
+        "1949 법사위 수정 이유서·정부안 대비표"
+      ]
+    },
+    {
+      "id": "c116b-politics-ban-final",
+      "statement": "1949 제정 법률 전사 제37조는 공무원의 정치운동 참여와 공무 외 집단행동을 금지한다. 1948 반대·찬성 발언과 조문 확정은 구분한다.",
+      "status": "LAW_TEXT_TRANSCRIPTION_CONFIRMED_ORIGINAL_OPEN",
+      "supporting": [
+        "d116-law44-wikisource",
+        "d116-assembly-19481208",
+        "d116-assembly-19481209"
+      ],
+      "insufficient": [
+        "관보 법률44호 원면"
+      ]
+    }
+  ]
+}

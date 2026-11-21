@@ -1,0 +1,70 @@
+{
+  "run": 122,
+  "accessDate": "2026-10-09",
+  "claims": [
+    {
+      "id": "clm122-a",
+      "status": "CONFLICTED",
+      "claim": "1954 original executive transmittal says membership 202; later National Archives describes membership 203 and attendance 202",
+      "support": [
+        "d122-letter"
+      ],
+      "counter": [
+        "https://theme.archives.go.kr/next/rediscovery/index2.do"
+      ],
+      "next": "Read 1954-11-27 and 11-29 National Assembly original stenograms"
+    },
+    {
+      "id": "clm122-b",
+      "status": "CONFLICTED_OR_STAGE_DIFFERENCE",
+      "claim": "Sept proposal title says Yi Ki-pung plus 134; November transmittal says plus 135",
+      "support": [
+        "d122-proposal"
+      ],
+      "counter": [
+        "d122-letter"
+      ],
+      "next": "Inspect original signatory roster"
+    },
+    {
+      "id": "clm122-c",
+      "status": "CONFLICTED_TEXT_DATE",
+      "claim": "Official constitutional amendment promulgated 1954-11-29 but statute transcript signature line says 1954-11-19",
+      "support": [
+        "d122-letter"
+      ],
+      "counter": [
+        "d122-law"
+      ],
+      "next": "Inspect Gazette 1228 facsimile"
+    },
+    {
+      "id": "clm122-d",
+      "status": "NARROWED",
+      "claim": "1954 January economic-only cabinet proposal was withdrawn in March, and September parliament comprehensive proposal is separate",
+      "support": [
+        "d122-jan",
+        "d122-withdraw",
+        "d122-proposal"
+      ],
+      "counter": [],
+      "next": "Check cabinet original withdrawal reasons"
+    },
+    {
+      "id": "clm122-e",
+      "status": "NARROWED",
+      "claim": "1954 archive metadata assigns 1948 production year to a 1954-01-23 government announcement",
+      "support": [
+        "d122-jan"
+      ],
+      "counter": [],
+      "next": "Check original record transfer metadata"
+    }
+  ],
+  "reviewHistory": [
+    {
+      "date": "2026-10-09",
+      "action": "additive audit; do not overwrite contradictory sources"
+    }
+  ]
+}
