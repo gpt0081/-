@@ -120,25 +120,43 @@ aux=json.loads((out/"auxiliary.json").read_text())["records"]
 aux_paths={a["source"] for a in aux}
 missing_aux=[s["path"] for s in sources if s["status"]=="AUXILIARY_JSON_INDEXED" and s["path"] not in aux_paths]
 for p in missing_aux:issues.append({"code":"AUXILIARY_SOURCE_MISSING","path":p})
-# Verify the operational crosswalk is explicit, source-backed and unambiguous.
+# Verify operational sidecar links across all preserved research layers.
 link_file=out/"operational-links.json"
 if not link_file.is_file():
     issues.append({"code":"OPERATIONAL_LINKS_MISSING"})
 else:
     links=json.loads(link_file.read_text())
     seen=set()
+    link_fields={
+        "candidatePoliticianIds":"politicians",
+        "relatedEventIds":"events",
+        "relatedDocumentIds":"documents",
+        "relatedClaimIds":"claims",
+        "relatedOrganizationIds":"organizations",
+    }
     for row in links.get("linked",[])+links.get("unlinked",[]):
         path=row["source"]
         if path in seen:issues.append({"code":"DUPLICATE_OPERATIONAL_SOURCE","path":path})
         seen.add(path)
         if path not in paths:issues.append({"code":"UNKNOWN_OPERATIONAL_SOURCE","path":path})
-        candidates=row.get("candidatePoliticianIds",[])
-        if row["status"]=="EXPLICITLY_LINKED":
-            if len(candidates)!=1:issues.append({"code":"UNSAFE_OPERATIONAL_IDENTITY","path":path})
-            elif candidates[0] not in reference_ids["politicians"]:
-                issues.append({"code":"UNKNOWN_OPERATIONAL_POLITICIAN","path":path,"id":candidates[0]})
-        elif row["status"] not in ("AMBIGUOUS_IDENTITY","NO_EXPLICIT_IDENTITY"):
-            issues.append({"code":"UNKNOWN_LINK_STATUS","path":path})
+        relation_total=0
+        for field,target in link_fields.items():
+            refs=row.get(field,[])
+            if not isinstance(refs,list):
+                issues.append({"code":"INVALID_OPERATIONAL_REFERENCE_LIST","path":path,"field":field})
+                continue
+            relation_total+=len(refs)
+            for ref in refs:
+                if not isinstance(ref,str) or ref not in reference_ids[target]:
+                    issues.append({"code":"UNKNOWN_OPERATIONAL_REFERENCE","path":path,
+                                   "field":field,"targetKind":target,"targetId":ref})
+        status=row.get("status")
+        if relation_total==0 and status!="NO_EXPLICIT_IDENTITY":
+            issues.append({"code":"OPERATIONAL_LINK_STATUS_MISMATCH","path":path,"status":status})
+        elif relation_total==1 and status!="EXPLICITLY_LINKED":
+            issues.append({"code":"OPERATIONAL_LINK_STATUS_MISMATCH","path":path,"status":status})
+        elif relation_total>1 and status!="EXPLICITLY_MULTI_LINKED":
+            issues.append({"code":"OPERATIONAL_LINK_STATUS_MISMATCH","path":path,"status":status})
     if sum(links.get("layerCounts",{}).values())!=len(seen):
         issues.append({"code":"OPERATIONAL_LAYER_COUNT_MISMATCH"})
 # Crosswalk staging is not proof of canonical registration. Check every staged ID
@@ -202,7 +220,7 @@ for kind in kinds:
 issues.extend(reference_issues)
 summary={"sourceFiles":len(sources),"uniqueCentralIds":{k:len(v) for k,v in ids.items()},
 "conflictedIds":len(report["conflictingIds"]),"auxiliaryRecords":len(aux),
-"unresolvedSources":[s["path"] for s in sources if s["status"] in ("PARSE_ERROR","AUXILIARY_JSON_INDEXED","PARTIAL_RECORDS_INDEXED")],
+"unresolvedSources":[s["path"] for s in sources if s["status"] in ("PARSE_ERROR","AUXILIARY_JSON_INDEXED","PARTIAL_RECORDS_INDEXED","PARTIAL_CANONICAL_MATERIALIZED")],
 "integrityIssues":issues,"referenceIssueCount":len(reference_issues),
 "crosswalkGaps":crosswalk_gaps,
 "rootSyncStatus":root_sync.get("centralSync","MISSING"),
