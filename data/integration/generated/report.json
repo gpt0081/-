@@ -3,16 +3,16 @@
     "documents": 4585,
     "claims": 2115,
     "events": 2681,
-    "politicians": 852,
+    "politicians": 1199,
     "organizations": 83,
     "roles": 57
   },
   "canonicalDirectory": "data/integration/canonical",
-  "sourceFiles": 2274,
+  "sourceFiles": 2275,
   "sourceStatusCounts": {
     "AUXILIARY_JSON_INDEXED": 546,
-    "CANONICAL_MATERIALIZED": 605,
-    "CONFLICT_REVIEW_REQUIRED": 334,
+    "CANONICAL_MATERIALIZED": 604,
+    "CONFLICT_REVIEW_REQUIRED": 336,
     "NON_JSON_SOURCE_PRESERVED": 777,
     "OPERATIONAL_ROOT_PRESERVED": 2,
     "PARTIAL_CANONICAL_MATERIALIZED": 9,
@@ -20,6 +20,7 @@
   },
   "targetLayerCounts": {
     "annals_layer": 145,
+    "branch_snapshot_source": 1,
     "claim_registry_source": 154,
     "coverage_layer": 23,
     "cross_registry_graph": 22,
@@ -52,9 +53,9 @@
       "conflictedIds": 66
     },
     "politicians": {
-      "sourceRecords": 2328,
-      "uniqueIds": 1235,
-      "conflictedIds": 383
+      "sourceRecords": 2781,
+      "uniqueIds": 1613,
+      "conflictedIds": 414
     },
     "organizations": {
       "sourceRecords": 97,
@@ -4074,74 +4075,155 @@
     {
       "type": "politicians",
       "id": "cand-r174-jo-ju-yeong",
+      "variantCount": 3,
+      "sources": [
+        "data/politicians/run224-may1952-actors.json",
+        "data/politicians/run225-june1952-actors.json",
+        "data/research/branch-snapshots/pr74-data-politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-r174-lee-jong-hyeong",
       "variantCount": 2,
       "sources": [
         "data/politicians/run224-may1952-actors.json",
-        "data/politicians/run225-june1952-actors.json"
+        "data/research/branch-snapshots/pr74-data-politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-r223-han-gyeong-rok",
+      "variantCount": 2,
+      "sources": [
+        "data/politicians/run223-apr1952-actors.json",
+        "data/research/branch-snapshots/pr74-data-politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-r223-hyeon-geun",
+      "variantCount": 2,
+      "sources": [
+        "data/politicians/run223-apr1952-actors.json",
+        "data/research/branch-snapshots/pr74-data-politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-r223-jeong-jin-dong",
+      "variantCount": 2,
+      "sources": [
+        "data/politicians/run223-apr1952-actors.json",
+        "data/research/branch-snapshots/pr74-data-politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-r223-lee-pan-ho",
+      "variantCount": 2,
+      "sources": [
+        "data/politicians/run223-apr1952-actors.json",
+        "data/research/branch-snapshots/pr74-data-politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-r223-won-yong-seok",
+      "variantCount": 2,
+      "sources": [
+        "data/politicians/run223-apr1952-actors.json",
+        "data/research/branch-snapshots/pr74-data-politicians.json"
       ]
     },
     {
       "type": "politicians",
       "id": "cand-r224-an-sang-han",
-      "variantCount": 2,
+      "variantCount": 3,
       "sources": [
-        "data/politicians/run224-may1952-actors.json"
+        "data/politicians/run224-may1952-actors.json",
+        "data/research/branch-snapshots/pr74-data-politicians.json"
       ]
     },
     {
       "type": "politicians",
       "id": "cand-r224-defection-seo-sang-deok",
-      "variantCount": 2,
+      "variantCount": 3,
       "sources": [
-        "data/politicians/run224-may1952-actors.json"
+        "data/politicians/run224-may1952-actors.json",
+        "data/research/branch-snapshots/pr74-data-politicians.json"
       ]
     },
     {
       "type": "politicians",
       "id": "cand-r224-jeong-sun-jo",
-      "variantCount": 2,
+      "variantCount": 3,
       "sources": [
-        "data/politicians/run224-may1952-actors.json"
+        "data/politicians/run224-may1952-actors.json",
+        "data/research/branch-snapshots/pr74-data-politicians.json"
       ]
     },
     {
       "type": "politicians",
       "id": "cand-r224-jo-byeong-mun-1952",
-      "variantCount": 2,
+      "variantCount": 3,
       "sources": [
-        "data/politicians/run224-may1952-actors.json"
+        "data/politicians/run224-may1952-actors.json",
+        "data/research/branch-snapshots/pr74-data-politicians.json"
       ]
     },
     {
       "type": "politicians",
       "id": "cand-r224-jo-sun-1952",
-      "variantCount": 2,
+      "variantCount": 3,
       "sources": [
-        "data/politicians/run224-may1952-actors.json"
+        "data/politicians/run224-may1952-actors.json",
+        "data/research/branch-snapshots/pr74-data-politicians.json"
       ]
     },
     {
       "type": "politicians",
       "id": "cand-r224-lee-chung-hwan-1952",
-      "variantCount": 2,
+      "variantCount": 3,
       "sources": [
-        "data/politicians/run224-may1952-actors.json"
+        "data/politicians/run224-may1952-actors.json",
+        "data/research/branch-snapshots/pr74-data-politicians.json"
       ]
     },
     {
       "type": "politicians",
       "id": "cand-r224-seo-sang-jun",
-      "variantCount": 2,
+      "variantCount": 3,
       "sources": [
-        "data/politicians/run224-may1952-actors.json"
+        "data/politicians/run224-may1952-actors.json",
+        "data/research/branch-snapshots/pr74-data-politicians.json"
       ]
     },
     {
       "type": "politicians",
       "id": "cand-r224-shin-gak-hyu",
+      "variantCount": 3,
+      "sources": [
+        "data/politicians/run224-may1952-actors.json",
+        "data/research/branch-snapshots/pr74-data-politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-r225-baek-nam-sik-1952",
       "variantCount": 2,
       "sources": [
-        "data/politicians/run224-may1952-actors.json"
+        "data/politicians/run225-june1952-actors.json",
+        "data/research/branch-snapshots/pr74-data-politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "cand-r225-kim-il-ro-1952",
+      "variantCount": 2,
+      "sources": [
+        "data/politicians/run225-june1952-actors.json",
+        "data/research/branch-snapshots/pr74-data-politicians.json"
       ]
     },
     {
@@ -4358,9 +4440,10 @@
     {
       "type": "politicians",
       "id": "pol-ahn-jae-hong",
-      "variantCount": 2,
+      "variantCount": 3,
       "sources": [
         "data/politicians/run81-land-actors.json",
+        "data/research/branch-snapshots/pr74-data-politicians.json",
         "data/research/candidates/run81-land-policy-actor-network.json"
       ]
     },
@@ -4455,9 +4538,10 @@
     {
       "type": "politicians",
       "id": "pol-chang-myon",
-      "variantCount": 7,
+      "variantCount": 8,
       "sources": [
         "data/politicians/run11b-1960-crisis-network.json",
+        "data/research/branch-snapshots/pr74-data-politicians.json",
         "data/research/candidates/2026-10-04-pass181-network-deepening.json",
         "data/research/candidates/2026-10-04-rhee-network-nodes.json",
         "data/research/candidates/pass-216-politician-node-updates.json",
@@ -4506,7 +4590,7 @@
     {
       "type": "politicians",
       "id": "pol-cho-bong-am",
-      "variantCount": 26,
+      "variantCount": 27,
       "sources": [
         "data/politicians/pass-232-1952-september-actors.json",
         "data/politicians/pass-233-1952-rok-diplomacy-network.json",
@@ -4524,6 +4608,7 @@
         "data/politicians/pass318-rhee-network.json",
         "data/politicians/run224-may1952-actors.json",
         "data/politicians/run225-june1952-actors.json",
+        "data/research/branch-snapshots/pr74-data-politicians.json",
         "data/research/candidates/2026-10-04-pass181-network-deepening.json",
         "data/research/candidates/pass-29-actor-batch.json",
         "data/research/candidates/run79-landreform-legislator-network.json",
@@ -4539,8 +4624,9 @@
     {
       "type": "politicians",
       "id": "pol-cho-byeong-ok",
-      "variantCount": 2,
+      "variantCount": 3,
       "sources": [
+        "data/research/branch-snapshots/pr74-data-politicians.json",
         "data/research/candidates/pass-215-politician-node-updates.json",
         "data/research/passes/pass-282-domestic-legislative-localgov-press.json"
       ]
@@ -4620,7 +4706,7 @@
     {
       "type": "politicians",
       "id": "pol-choi-duk-shin",
-      "variantCount": 12,
+      "variantCount": 13,
       "sources": [
         "data/politicians/pass-238-actor-overlays.json",
         "data/politicians/pass-238c-korean-actors.json",
@@ -4629,6 +4715,7 @@
         "data/politicians/pass-239j-1954-diplomacy-economy-actors.json",
         "data/politicians/pass-257s-1954-visit-nnsc-actors.json",
         "data/politicians/pass-258a-1954-actor-actions.json",
+        "data/research/branch-snapshots/pr74-data-politicians.json",
         "data/research/candidates/pass-54-pow-command-actors.json",
         "data/research/candidates/pass-56-korean-primary-pow-actors.json",
         "data/research/candidates/pass-77-dulles-seoul-cabinet-actors.json",
@@ -4638,8 +4725,9 @@
     {
       "type": "politicians",
       "id": "pol-choi-in-kyu",
-      "variantCount": 4,
+      "variantCount": 5,
       "sources": [
+        "data/research/branch-snapshots/pr74-data-politicians.json",
         "data/research/candidates/2026-10-04-pass181-network-deepening.json",
         "data/research/candidates/2026-10-04-rhee-network-nodes.json",
         "data/research/candidates/pass-29-actor-batch.json",
@@ -4649,8 +4737,9 @@
     {
       "type": "politicians",
       "id": "pol-choi-un-gyo",
-      "variantCount": 2,
+      "variantCount": 3,
       "sources": [
+        "data/research/branch-snapshots/pr74-data-politicians.json",
         "data/research/candidates/2026-10-04-pass205-education-local-autonomy-actors.json",
         "data/research/candidates/run79-landreform-legislator-network.json"
       ]
@@ -4658,12 +4747,22 @@
     {
       "type": "politicians",
       "id": "pol-choi-yong-duk",
-      "variantCount": 4,
+      "variantCount": 5,
       "sources": [
         "data/politicians/pass-235-1953-assembly-cabinet-actors.json",
         "data/politicians/pass-239i-postarmistice-actors.json",
         "data/politicians/pass-257s-1954-visit-nnsc-actors.json",
+        "data/research/branch-snapshots/pr74-data-politicians.json",
         "data/research/pass306-breadth-expansion.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "pol-chung-il-kwon",
+      "variantCount": 2,
+      "sources": [
+        "data/research/branch-snapshots/pr74-data-politicians.json",
+        "data/research/graph-patches/pass-280-politician-event-graph.json"
       ]
     },
     {
@@ -4695,11 +4794,12 @@
     {
       "type": "politicians",
       "id": "pol-han-hui-seok",
-      "variantCount": 7,
+      "variantCount": 8,
       "sources": [
         "data/politicians/pass-243-1958-actor-evidence.json",
         "data/politicians/pass-244-1959-1960-actors.json",
         "data/politicians/pass303-politicians.json",
+        "data/research/branch-snapshots/pr74-data-politicians.json",
         "data/research/candidates/pass-29-actor-batch.json",
         "data/research/pass307-legislative-accountability-expansion.json",
         "data/research/passes/pass-282-domestic-legislative-localgov-press.json",
@@ -4709,8 +4809,9 @@
     {
       "type": "politicians",
       "id": "pol-han-pyo-wook",
-      "variantCount": 3,
+      "variantCount": 4,
       "sources": [
+        "data/research/branch-snapshots/pr74-data-politicians.json",
         "data/research/candidates/pass-63-promulgation-diplomatic-actors.json",
         "data/research/candidates/pass-64-ratification-diplomatic-actors.json",
         "data/research/graph-patches/pass-279-2026-10-01.json"
@@ -4737,8 +4838,9 @@
     {
       "type": "politicians",
       "id": "pol-hong-chin-ki",
-      "variantCount": 2,
+      "variantCount": 3,
       "sources": [
+        "data/research/branch-snapshots/pr74-data-politicians.json",
         "data/research/candidates/pass-91-kib-actor-identification.json",
         "data/research/passes/pass-282-domestic-legislative-localgov-press.json"
       ]
@@ -4776,6 +4878,15 @@
     },
     {
       "type": "politicians",
+      "id": "pol-hong-seong-ha",
+      "variantCount": 2,
+      "sources": [
+        "data/politicians/run88-local-actors-a.json",
+        "data/research/branch-snapshots/pr74-data-politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
       "id": "pol-huh-chung",
       "variantCount": 5,
       "sources": [
@@ -4806,6 +4917,15 @@
     },
     {
       "type": "politicians",
+      "id": "pol-hwang-ho-hyeon",
+      "variantCount": 2,
+      "sources": [
+        "data/research/branch-snapshots/pr74-data-politicians.json",
+        "data/research/candidates/run79-landreform-legislator-network.json"
+      ]
+    },
+    {
+      "type": "politicians",
       "id": "pol-hwang-jong-ryul",
       "variantCount": 2,
       "sources": [
@@ -4820,6 +4940,15 @@
       "sources": [
         "data/politicians/pass-234-1952-dec-legislative-actors.json",
         "data/politicians/pass-235-1953-assembly-cabinet-actors.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "pol-im-song-bon",
+      "variantCount": 2,
+      "sources": [
+        "data/research/branch-snapshots/pr74-data-politicians.json",
+        "data/research/candidates/pass-92-japan-talks-maritime-network.json"
       ]
     },
     {
@@ -4889,6 +5018,15 @@
     },
     {
       "type": "politicians",
+      "id": "pol-kang-uk-jung",
+      "variantCount": 2,
+      "sources": [
+        "data/research/branch-snapshots/pr74-data-politicians.json",
+        "data/research/candidates/run79-landreform-legislator-network.json"
+      ]
+    },
+    {
+      "type": "politicians",
       "id": "pol-kang-young-hoon-pm21",
       "variantCount": 2,
       "sources": [
@@ -4907,8 +5045,17 @@
     },
     {
       "type": "politicians",
+      "id": "pol-kim-bong-jo",
+      "variantCount": 2,
+      "sources": [
+        "data/research/branch-snapshots/pr74-data-politicians.json",
+        "data/research/candidates/run79-landreform-legislator-network.json"
+      ]
+    },
+    {
+      "type": "politicians",
       "id": "pol-kim-bop-rin",
-      "variantCount": 8,
+      "variantCount": 9,
       "sources": [
         "data/politicians/pass-239b-actors.json",
         "data/politicians/pass-239d-actors.json",
@@ -4917,7 +5064,8 @@
         "data/politicians/pass-257r-1954-election-governance-actors.json",
         "data/politicians/pass-257v-1954-education-election-actors.json",
         "data/politicians/pass-257w3-uncurk-1954-cabinet-assembly-roster.json",
-        "data/politicians/pass-258a-1954-actor-actions.json"
+        "data/politicians/pass-258a-1954-actor-actions.json",
+        "data/research/branch-snapshots/pr74-data-politicians.json"
       ]
     },
     {
@@ -4951,11 +5099,21 @@
     {
       "type": "politicians",
       "id": "pol-kim-do-yeon",
-      "variantCount": 3,
+      "variantCount": 4,
       "sources": [
         "data/politicians/pass-247e-1960-legislative-actors.json",
         "data/politicians/pass-257r-1954-election-governance-actors.json",
+        "data/research/branch-snapshots/pr74-data-politicians.json",
         "data/research/runs/2026-10-04-run15-actors-events-leads.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "pol-kim-dong-jo",
+      "variantCount": 2,
+      "sources": [
+        "data/research/branch-snapshots/pr74-data-politicians.json",
+        "data/research/candidates/pass-102-peace-line-decision-break.json"
       ]
     },
     {
@@ -5044,6 +5202,15 @@
     },
     {
       "type": "politicians",
+      "id": "pol-kim-tae-seon",
+      "variantCount": 2,
+      "sources": [
+        "data/research/branch-snapshots/pr74-data-politicians.json",
+        "data/research/candidates/pass-215-politician-node-updates.json"
+      ]
+    },
+    {
+      "type": "politicians",
       "id": "pol-kim-tal-ho",
       "variantCount": 3,
       "sources": [
@@ -5055,8 +5222,9 @@
     {
       "type": "politicians",
       "id": "pol-kim-yak-su",
-      "variantCount": 2,
+      "variantCount": 3,
       "sources": [
+        "data/research/branch-snapshots/pr74-data-politicians.json",
         "data/research/candidates/pass-158-special-committee-actors.json",
         "data/research/candidates/run79-landreform-legislator-network.json"
       ]
@@ -5092,8 +5260,9 @@
     {
       "type": "politicians",
       "id": "pol-kim-yong-shik",
-      "variantCount": 2,
+      "variantCount": 3,
       "sources": [
+        "data/research/branch-snapshots/pr74-data-politicians.json",
         "data/research/evidence/pass-291-geochang-postjudgment-reintegration.json",
         "data/research/politician-candidates/pass-291-geochang-cross-domain-actors.json"
       ]
@@ -5128,6 +5297,15 @@
     },
     {
       "type": "politicians",
+      "id": "pol-koo-yong-seo",
+      "variantCount": 2,
+      "sources": [
+        "data/research/branch-snapshots/pr74-data-politicians.json",
+        "data/research/candidates/pass-52-security-palace-actors.json"
+      ]
+    },
+    {
+      "type": "politicians",
       "id": "pol-kwak-sang-hoon",
       "variantCount": 2,
       "sources": [
@@ -5147,7 +5325,7 @@
     {
       "type": "politicians",
       "id": "pol-lee-beom-seok",
-      "variantCount": 13,
+      "variantCount": 14,
       "sources": [
         "data/politicians/pass-229-1952-cabinet-economy-trial.json",
         "data/politicians/pass-235-addendum-b-culture-speaker-minister.json",
@@ -5158,10 +5336,20 @@
         "data/politicians/pass-258f-1956-election-actor-overlay.json",
         "data/politicians/pass318-rhee-network.json",
         "data/politicians/run225-june1952-actors.json",
+        "data/research/branch-snapshots/pr74-data-politicians.json",
         "data/research/candidates/pass-243-1952-cabinet-politician-nodes.json",
         "data/research/candidates/run79-landreform-legislator-network.json",
         "data/research/politicians/pass-234-martial-law-command-actors.json",
         "data/research/runs/2026-10-04-run15-actors-events-leads.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "pol-lee-beom-seok-1900",
+      "variantCount": 2,
+      "sources": [
+        "data/politicians/pass-235-addendum-b-culture-speaker-minister.json",
+        "data/research/branch-snapshots/pr74-data-politicians.json"
       ]
     },
     {
@@ -5181,6 +5369,15 @@
         "data/research/candidates/pass-41-judicial-actors.json",
         "data/research/candidates/pass-43-cabinet-date-conflict-actors.json",
         "data/research/candidates/pass-44-cabinet-provenance-actors.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "pol-lee-hoon-gu",
+      "variantCount": 2,
+      "sources": [
+        "data/research/branch-snapshots/pr74-data-politicians.json",
+        "data/research/candidates/run79-landreform-legislator-network.json"
       ]
     },
     {
@@ -5214,9 +5411,19 @@
     },
     {
       "type": "politicians",
-      "id": "pol-lee-kang-hak",
-      "variantCount": 4,
+      "id": "pol-lee-jong-hyeon",
+      "variantCount": 2,
       "sources": [
+        "data/research/branch-snapshots/pr74-data-politicians.json",
+        "data/research/candidates/run79-landreform-legislator-network.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "pol-lee-kang-hak",
+      "variantCount": 5,
+      "sources": [
+        "data/research/branch-snapshots/pr74-data-politicians.json",
         "data/research/candidates/pass-29-actor-batch.json",
         "data/research/candidates/pass-42-cabinet-execution-actors.json",
         "data/research/pass307-legislative-accountability-expansion.json",
@@ -5252,6 +5459,15 @@
     },
     {
       "type": "politicians",
+      "id": "pol-lee-won-hong",
+      "variantCount": 2,
+      "sources": [
+        "data/research/branch-snapshots/pr74-data-politicians.json",
+        "data/research/candidates/run79-landreform-legislator-network.json"
+      ]
+    },
+    {
+      "type": "politicians",
       "id": "pol-lee-yeong-jun",
       "variantCount": 3,
       "sources": [
@@ -5263,7 +5479,7 @@
     {
       "type": "politicians",
       "id": "pol-lim-byong-jik",
-      "variantCount": 12,
+      "variantCount": 13,
       "sources": [
         "data/politicians/pass-233-1952-rok-diplomacy-network.json",
         "data/politicians/pass-233-addendum-1952-domestic-actors.json",
@@ -5276,6 +5492,7 @@
         "data/politicians/pass-239i-postarmistice-actors.json",
         "data/politicians/pass-239j-1954-diplomacy-economy-actors.json",
         "data/politicians/run224-may1952-actors.json",
+        "data/research/branch-snapshots/pr74-data-politicians.json",
         "data/research/candidates/pass-216-politician-node-updates.json"
       ]
     },
@@ -5364,7 +5581,7 @@
     {
       "type": "politicians",
       "id": "pol-paik-sun-yup",
-      "variantCount": 19,
+      "variantCount": 20,
       "sources": [
         "data/politicians/pass-235-1953-assembly-cabinet-actors.json",
         "data/politicians/pass-236f-correspondence-actors.json",
@@ -5377,6 +5594,7 @@
         "data/politicians/pass-243-1958-actor-evidence.json",
         "data/politicians/pass318-rhee-network.json",
         "data/politicians/run223-apr1952-actors.json",
+        "data/research/branch-snapshots/pr74-data-politicians.json",
         "data/research/candidates/pass-53-pow-release-actors.json",
         "data/research/candidates/pass-54-pow-command-actors.json",
         "data/research/candidates/pass-55-pow-camp-command-actors.json",
@@ -5390,7 +5608,7 @@
     {
       "type": "politicians",
       "id": "pol-paik-too-chin",
-      "variantCount": 46,
+      "variantCount": 47,
       "sources": [
         "data/politicians/pass-229-1952-cabinet-economy-trial.json",
         "data/politicians/pass-232-1952-september-actors.json",
@@ -5431,6 +5649,7 @@
         "data/politicians/pass-258e-1956-domestic-actors.json",
         "data/politicians/run224-may1952-actors.json",
         "data/politicians/run225-june1952-actors.json",
+        "data/research/branch-snapshots/pr74-data-politicians.json",
         "data/research/candidates/pass-243-1952-cabinet-politician-nodes.json",
         "data/research/candidates/pass-77-dulles-seoul-cabinet-actors.json",
         "data/research/candidates/pass-79-korean-origin-governance.json",
@@ -5462,6 +5681,15 @@
     },
     {
       "type": "politicians",
+      "id": "pol-park-hae-geuk",
+      "variantCount": 2,
+      "sources": [
+        "data/research/branch-snapshots/pr74-data-politicians.json",
+        "data/research/candidates/run79-landreform-legislator-network.json"
+      ]
+    },
+    {
+      "type": "politicians",
       "id": "pol-park-hui-hyeon",
       "variantCount": 3,
       "sources": [
@@ -5473,9 +5701,10 @@
     {
       "type": "politicians",
       "id": "pol-park-ok-kyu",
-      "variantCount": 2,
+      "variantCount": 3,
       "sources": [
         "data/politicians/pass-239i-postarmistice-actors.json",
+        "data/research/branch-snapshots/pr74-data-politicians.json",
         "data/research/pass306-breadth-expansion.json"
       ]
     },
@@ -5500,7 +5729,7 @@
     {
       "type": "politicians",
       "id": "pol-pyun-yong-tae",
-      "variantCount": 28,
+      "variantCount": 29,
       "sources": [
         "data/politicians/pass-229b-1952-cabinet-oversight.json",
         "data/politicians/pass-232-1952-september-actors.json",
@@ -5529,7 +5758,8 @@
         "data/politicians/pass-258a-1954-actor-actions.json",
         "data/politicians/pass318-rhee-network.json",
         "data/politicians/run224-may1952-actors.json",
-        "data/politicians/run225-june1952-actors.json"
+        "data/politicians/run225-june1952-actors.json",
+        "data/research/branch-snapshots/pr74-data-politicians.json"
       ]
     },
     {
@@ -5580,53 +5810,103 @@
     {
       "type": "politicians",
       "id": "pol-r139-jang-taek-sang",
+      "variantCount": 3,
+      "sources": [
+        "data/politicians/run224-may1952-actors.json",
+        "data/politicians/run225-june1952-actors.json",
+        "data/research/branch-snapshots/pr74-data-politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "pol-r141-eom-sang-seop",
       "variantCount": 2,
       "sources": [
         "data/politicians/run224-may1952-actors.json",
-        "data/politicians/run225-june1952-actors.json"
+        "data/research/branch-snapshots/pr74-data-politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "pol-r141-jeon-jin-han",
+      "variantCount": 2,
+      "sources": [
+        "data/politicians/run223-apr1952-actors.json",
+        "data/research/branch-snapshots/pr74-data-politicians.json"
       ]
     },
     {
       "type": "politicians",
       "id": "pol-r141-shin-ik-hui",
-      "variantCount": 2,
+      "variantCount": 3,
       "sources": [
         "data/politicians/run224-may1952-actors.json",
-        "data/politicians/run225-june1952-actors.json"
+        "data/politicians/run225-june1952-actors.json",
+        "data/research/branch-snapshots/pr74-data-politicians.json"
       ]
     },
     {
       "type": "politicians",
       "id": "pol-r148-kwak-sang-hun",
-      "variantCount": 2,
+      "variantCount": 3,
       "sources": [
         "data/politicians/run224-may1952-actors.json",
-        "data/politicians/run225-june1952-actors.json"
+        "data/politicians/run225-june1952-actors.json",
+        "data/research/branch-snapshots/pr74-data-politicians.json"
       ]
     },
     {
       "type": "politicians",
       "id": "pol-r164-ji-cheong-cheon",
-      "variantCount": 3,
+      "variantCount": 4,
       "sources": [
         "data/politicians/run224-may1952-actors.json",
-        "data/politicians/run225-june1952-actors.json"
+        "data/politicians/run225-june1952-actors.json",
+        "data/research/branch-snapshots/pr74-data-politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "pol-r164-kim-dong-seong",
+      "variantCount": 2,
+      "sources": [
+        "data/politicians/run224-may1952-actors.json",
+        "data/research/branch-snapshots/pr74-data-politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "pol-r164-kim-seong-su",
+      "variantCount": 2,
+      "sources": [
+        "data/politicians/run330-kim-seong-su-central-links.json",
+        "data/research/branch-snapshots/pr74-data-politicians.json"
       ]
     },
     {
       "type": "politicians",
       "id": "pol-r164-seo-min-ho",
-      "variantCount": 3,
+      "variantCount": 4,
       "sources": [
         "data/politicians/run223-apr1952-actors.json",
         "data/politicians/run224-may1952-actors.json",
-        "data/politicians/run225-june1952-actors.json"
+        "data/politicians/run225-june1952-actors.json",
+        "data/research/branch-snapshots/pr74-data-politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "pol-r189-jo-gwang-seop",
+      "variantCount": 2,
+      "sources": [
+        "data/politicians/run223-apr1952-actors.json",
+        "data/research/branch-snapshots/pr74-data-politicians.json"
       ]
     },
     {
       "type": "politicians",
       "id": "pol-rhee-syngman",
-      "variantCount": 32,
+      "variantCount": 33,
       "sources": [
         "data/politicians/pass-233-1952-rok-diplomacy-network.json",
         "data/politicians/pass-237-actor-overlays.json",
@@ -5643,6 +5923,7 @@
         "data/politicians/pass-257p-unkra-housing-local-actors.json",
         "data/politicians/pass-258b-1954-rhee-aid-proposal.json",
         "data/politicians/pass-258b-paik-rhee-ceb-1954.json",
+        "data/research/branch-snapshots/pr74-data-politicians.json",
         "data/research/candidates/2026-10-04-pass206-wartime-education-actors.json",
         "data/research/candidates/pass-102-peace-line-decision-break.json",
         "data/research/candidates/pass-103-peace-line-september-disposition.json",
@@ -5675,14 +5956,24 @@
     {
       "type": "politicians",
       "id": "pol-seo-sang-il",
-      "variantCount": 6,
+      "variantCount": 7,
       "sources": [
         "data/politicians/pass-229-1952-cabinet-economy-trial.json",
         "data/politicians/pass-239l2-1955-cabinet-election-actors.json",
         "data/politicians/pass-247-1960-party-network.json",
         "data/politicians/pass-252-1952-aug20-27-actors.json",
         "data/politicians/pass-258f-1956-election-actor-overlay.json",
+        "data/research/branch-snapshots/pr74-data-politicians.json",
         "data/research/candidates/2026-10-04-pass183-landcommittee-network.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "pol-seo-yong-gil",
+      "variantCount": 2,
+      "sources": [
+        "data/research/branch-snapshots/pr74-data-politicians.json",
+        "data/research/candidates/run79-landreform-legislator-network.json"
       ]
     },
     {
@@ -5718,11 +6009,12 @@
     {
       "type": "politicians",
       "id": "pol-shin-sung-mo",
-      "variantCount": 8,
+      "variantCount": 9,
       "sources": [
         "data/politicians/pass-233-1952-rok-diplomacy-network.json",
         "data/politicians/pass-252-1952-aug20-27-actors.json",
         "data/politicians/pass-256-actor-evidence-overlay.json",
+        "data/research/branch-snapshots/pr74-data-politicians.json",
         "data/research/candidates/pass-102-peace-line-decision-break.json",
         "data/research/evidence/pass-291-geochang-postjudgment-reintegration.json",
         "data/research/pass306-breadth-expansion.json",
@@ -5733,9 +6025,10 @@
     {
       "type": "politicians",
       "id": "pol-shin-tae-young",
-      "variantCount": 3,
+      "variantCount": 4,
       "sources": [
         "data/politicians/run223-apr1952-actors.json",
+        "data/research/branch-snapshots/pr74-data-politicians.json",
         "data/research/candidates/pass-243-1952-cabinet-politician-nodes.json",
         "data/research/politicians/pass-234-martial-law-command-actors.json"
       ]
@@ -5788,7 +6081,7 @@
     {
       "type": "politicians",
       "id": "pol-sohn-won-yil",
-      "variantCount": 20,
+      "variantCount": 21,
       "sources": [
         "data/politicians/pass-232-1952-september-actors.json",
         "data/politicians/pass-239d-actors.json",
@@ -5804,6 +6097,7 @@
         "data/politicians/pass-257w3-uncurk-1954-cabinet-assembly-roster.json",
         "data/politicians/pass-258a-1954-actor-actions.json",
         "data/politicians/pass-258e-1956-domestic-actors.json",
+        "data/research/branch-snapshots/pr74-data-politicians.json",
         "data/research/candidates/pass-53-pow-release-actors.json",
         "data/research/candidates/pass-54-pow-command-actors.json",
         "data/research/candidates/pass-55-pow-camp-command-actors.json",
@@ -5825,10 +6119,11 @@
     {
       "type": "politicians",
       "id": "pol-song-in-sang",
-      "variantCount": 7,
+      "variantCount": 8,
       "sources": [
         "data/politicians/pass-242-1957-actors.json",
         "data/politicians/pass-243-1958-actor-evidence.json",
+        "data/research/branch-snapshots/pr74-data-politicians.json",
         "data/research/candidates/pass-45-economic-planning-actors.json",
         "data/research/candidates/pass-49-edc-actors.json",
         "data/research/candidates/pass-50-stabilization-trade-actors.json",
@@ -5912,7 +6207,7 @@
     {
       "type": "politicians",
       "id": "pol-yi-ki-pung",
-      "variantCount": 26,
+      "variantCount": 27,
       "sources": [
         "data/politicians/pass-234-addendum-1952-dec-actors.json",
         "data/politicians/pass-239k-1955-actors.json",
@@ -5933,6 +6228,7 @@
         "data/politicians/pass-258e-1956-domestic-actors.json",
         "data/politicians/pass-258f-1956-election-actor-overlay.json",
         "data/politicians/run11b-1960-crisis-network.json",
+        "data/research/branch-snapshots/pr74-data-politicians.json",
         "data/research/candidates/2026-10-04-pass181-network-deepening.json",
         "data/research/candidates/2026-10-04-rhee-network-nodes.json",
         "data/research/candidates/pass-42-cabinet-execution-actors.json",
@@ -5973,8 +6269,9 @@
     {
       "type": "politicians",
       "id": "pol-yu-jin-o",
-      "variantCount": 3,
+      "variantCount": 4,
       "sources": [
+        "data/research/branch-snapshots/pr74-data-politicians.json",
         "data/research/candidates/pass-215-politician-node-updates.json",
         "data/research/candidates/pass-216-politician-node-updates.json",
         "data/research/candidates/pass-91-kib-actor-identification.json"
@@ -5995,6 +6292,15 @@
     },
     {
       "type": "politicians",
+      "id": "pol-yun-chi-yeong",
+      "variantCount": 2,
+      "sources": [
+        "data/politicians/run224-may1952-actors.json",
+        "data/research/branch-snapshots/pr74-data-politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
       "id": "pol-yun-chi-young",
       "variantCount": 3,
       "sources": [
@@ -6005,12 +6311,30 @@
     },
     {
       "type": "politicians",
+      "id": "pol-yun-jae-geun",
+      "variantCount": 2,
+      "sources": [
+        "data/politicians/pass-235-1953-assembly-cabinet-actors.json",
+        "data/research/branch-snapshots/pr74-data-politicians.json"
+      ]
+    },
+    {
+      "type": "politicians",
       "id": "pol-yun-kyong-police",
       "variantCount": 3,
       "sources": [
         "data/politicians/pass318-rhee-network.json",
         "data/research/candidates/2026-10-04-pass181-network-deepening.json",
         "data/research/candidates/2026-10-04-rhee-network-nodes.json"
+      ]
+    },
+    {
+      "type": "politicians",
+      "id": "pol-yun-posun",
+      "variantCount": 2,
+      "sources": [
+        "data/research/branch-snapshots/pr74-data-politicians.json",
+        "data/research/transition-second-republic-pass311.json"
       ]
     },
     {

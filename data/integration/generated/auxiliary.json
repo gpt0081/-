@@ -9848,9 +9848,14 @@
             "conflicted": 2
           },
           "pr74Snapshot": {
-            "status": "PENDING_AUDIT",
+            "status": "372_BRANCH_ONLY_IDS_IDENTIFIED_IMPORT_PENDING",
             "branchCommit": "eb0efe46d2345811fa9eae8d22508b51dc0b4a8b",
-            "branchPoliticians": 453
+            "sourceBlobSha": "60f9d08e86b678fbff2cc2fb073ef6ffaa844f01",
+            "branchPoliticians": 453,
+            "mainPoliticians": 976,
+            "sharedIds": 81,
+            "branchOnlyCount": 372,
+            "mainOnlyCount": 895
           },
           "next": "PR #74 politician-root snapshot comparison; resolve source ID conflicts without arbitrary selection; migrate remaining auxiliary and unlinked layers."
         },
@@ -9894,7 +9899,8 @@
               "data/research/lead-queues/run224-next.json",
               "data/research/lead-queues/run225-next.json"
             ],
-            "weeklyHistoryDebtReview": "INCOMPLETE"
+            "weeklyHistoryDebtReview": "INCOMPLETE",
+            "politicianSnapshotBranchOnlyIds": 372
           },
           "sharedFileDifferences": {
             "document": "doc-r224-frus-144: main has later relatedPoliticianIds, relatedEventIds and notes.",
@@ -9902,12 +9908,12 @@
               "evt-r224-military-neutrality: main adds qualified FRUS footnote identity note and opposed_by/observed_by distinctions.",
               "evt-r224-vice-presidency: main separates resignation submission from later parliamentary acceptance and adds document/event cross-links."
             ],
-            "politicianRoot": "PR #74 branch snapshot has 453 records; main root has 976. Exact ID/field comparison pending."
+            "politicianRoot": "PR #74 snapshot comparison: 453 branch records, 81 shared IDs, 372 branch-only IDs, 895 main-only IDs. Branch-only records are imported as pending-adjudication candidates; shared fields are not overwritten."
           },
           "flootModified": false
         }
       },
-      "provenance": "0f3ef3e07c82218a4eb40b1fe5c7f98e5def2c5f2a6a62a910dc1ac10bd11393",
+      "provenance": "578ea2cd35ec1cc2d2f4d1a9116c75d2c606062335f6510b4d4868720173dafb",
       "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
     },
     {

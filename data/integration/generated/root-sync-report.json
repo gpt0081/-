@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-21",
+  "generatedAt": "2026-11-22",
   "centralSync": "PARTIAL",
   "eventSync": {
     "rootBefore": 2808,
@@ -13,32 +13,6 @@
     "fieldConflicts": [
       {
         "kind": "events",
-        "id": "evt-1952-meyer-economic-coordination",
-        "field": "name",
-        "rootValue": "1952년 한미경제조정협정(마이어협정)",
-        "incomingValue": "한미 경제조정협정(마이어 협정)과 합동경제위원회",
-        "incomingProvenance": [
-          {
-            "path": "data/research/events/pass-240-busan-crisis-subevents.json",
-            "pointer": "/events/7"
-          }
-        ]
-      },
-      {
-        "kind": "events",
-        "id": "evt-1952-pusan-political-crisis",
-        "field": "name",
-        "rootValue": "1952년 부산정치파동과 발췌개헌",
-        "incomingValue": "부산정치파동과 발췌개헌",
-        "incomingProvenance": [
-          {
-            "path": "data/events/pass318-rhee-events.json",
-            "pointer": "/events/0"
-          }
-        ]
-      },
-      {
-        "kind": "events",
         "id": "evt-1952-pusan-political-crisis",
         "field": "evidenceState",
         "rootValue": "deep-crosschecked",
@@ -48,20 +22,10 @@
             "path": "data/events/pass318-rhee-events.json",
             "pointer": "/events/0"
           }
-        ]
-      },
-      {
-        "kind": "events",
-        "id": "evt-p233-1110-unkra-plan",
-        "field": "uncertainty",
-        "rootValue": "Kingsley 발언에 대한 미 국무부 전달·평가, 실제 예산집행·대통령 공식거부 미확인",
-        "incomingValue": "Kingsley 발언에 대한 미 국무부 전달·평가, 실제 예산집행·대통령 공식거부 미확인; 11/24 계획 채택 확인, 1953-02 초기 사업 개시 보고와 전액집행 구분",
-        "incomingProvenance": [
-          {
-            "path": "data/events/pass-233-1952-un-diplomacy-reconstruction.json",
-            "pointer": "/events/7"
-          }
-        ]
+        ],
+        "decision": "UNRESOLVED_SCALAR_CONFLICT",
+        "status": "UNRESOLVED_CONFLICT",
+        "recordedAt": "2026-11-22"
       },
       {
         "kind": "events",
@@ -74,20 +38,10 @@
             "path": "data/events/pass-239d-june8-22-actions.json",
             "pointer": "/events/8"
           }
-        ]
-      },
-      {
-        "kind": "events",
-        "id": "evt-p239e-union-registration",
-        "field": "uncertainty",
-        "rootValue": "Press report; official union registration ledger not opened.",
-        "incomingValue": "Press report; official union registration ledger not opened. Pass239F: 3-month filing duty verified, no automatic dissolution or actual registration totals established.",
-        "incomingProvenance": [
-          {
-            "path": "data/events/pass-239e-june22-30-governance.json",
-            "pointer": "/events/2"
-          }
-        ]
+        ],
+        "decision": "UNRESOLVED_UNCERTAINTY_VARIANT",
+        "status": "UNRESOLVED_CONFLICT",
+        "recordedAt": "2026-11-22"
       },
       {
         "kind": "events",
@@ -100,20 +54,10 @@
             "path": "data/events/pass-239g-organization-actions.json",
             "pointer": "/events/1"
           }
-        ]
-      },
-      {
-        "kind": "events",
-        "id": "evt-p239l-11",
-        "field": "uncertainty",
-        "rootValue": "이승만 5,046,437표 / 총투표 9,067,063=55.66%; 유효 7,210,245=69.99%; FRUS d146 55.6%는 분모/반올림 주석 필요 KDemo records Park Gi-chul vice-presidential withdrawal 1956-05-07; do not count him as continuing candidate on polling day.",
-        "incomingValue": "이승만 5,046,437표 / 총투표 9,067,063=55.66%; 유효 7,210,245=69.99%; FRUS d146 55.6%는 분모/반올림 주석 필요",
-        "incomingProvenance": [
-          {
-            "path": "data/events/pass-239l-1955-56-nnsc-election.json",
-            "pointer": "/events/10"
-          }
-        ]
+        ],
+        "decision": "UNRESOLVED_UNCERTAINTY_VARIANT",
+        "status": "UNRESOLVED_CONFLICT",
+        "recordedAt": "2026-11-22"
       },
       {
         "kind": "events",
@@ -126,7 +70,10 @@
             "path": "data/events/pass-239l2-1954-56-un-economic-cabinet-election.json",
             "pointer": "/events/2"
           }
-        ]
+        ],
+        "decision": "UNRESOLVED_UNCERTAINTY_VARIANT",
+        "status": "UNRESOLVED_CONFLICT",
+        "recordedAt": "2026-11-22"
       },
       {
         "kind": "events",
@@ -139,7 +86,10 @@
             "path": "data/events/pass-239l2-1954-56-un-economic-cabinet-election.json",
             "pointer": "/events/3"
           }
-        ]
+        ],
+        "decision": "UNRESOLVED_UNCERTAINTY_VARIANT",
+        "status": "UNRESOLVED_CONFLICT",
+        "recordedAt": "2026-11-22"
       },
       {
         "kind": "events",
@@ -152,7 +102,10 @@
             "path": "data/events/pass-239m-1954-constitutional-actions.json",
             "pointer": "/events/0"
           }
-        ]
+        ],
+        "decision": "UNRESOLVED_UNCERTAINTY_VARIANT",
+        "status": "UNRESOLVED_CONFLICT",
+        "recordedAt": "2026-11-22"
       },
       {
         "kind": "events",
@@ -165,7 +118,10 @@
             "path": "data/events/pass-239m-1954-constitutional-actions.json",
             "pointer": "/events/0"
           }
-        ]
+        ],
+        "decision": "UNRESOLVED_SCALAR_CONFLICT",
+        "status": "UNRESOLVED_CONFLICT",
+        "recordedAt": "2026-11-22"
       },
       {
         "kind": "events",
@@ -178,7 +134,10 @@
             "path": "data/events/pass-239m-1954-constitutional-actions.json",
             "pointer": "/events/1"
           }
-        ]
+        ],
+        "decision": "UNRESOLVED_UNCERTAINTY_VARIANT",
+        "status": "UNRESOLVED_CONFLICT",
+        "recordedAt": "2026-11-22"
       },
       {
         "kind": "events",
@@ -191,7 +150,10 @@
             "path": "data/events/pass-239m-1954-constitutional-actions.json",
             "pointer": "/events/7"
           }
-        ]
+        ],
+        "decision": "UNRESOLVED_UNCERTAINTY_VARIANT",
+        "status": "UNRESOLVED_CONFLICT",
+        "recordedAt": "2026-11-22"
       },
       {
         "kind": "events",
@@ -204,7 +166,10 @@
             "path": "data/events/pass-249-civil-rights-and-seoul.json",
             "pointer": "/events/2"
           }
-        ]
+        ],
+        "decision": "UNRESOLVED_SCALAR_CONFLICT",
+        "status": "UNRESOLVED_CONFLICT",
+        "recordedAt": "2026-11-22"
       },
       {
         "kind": "events",
@@ -217,602 +182,105 @@
             "path": "data/events/pass-255-actions.json",
             "pointer": "/events/7"
           }
-        ]
+        ],
+        "decision": "UNRESOLVED_UNCERTAINTY_VARIANT",
+        "status": "UNRESOLVED_CONFLICT",
+        "recordedAt": "2026-11-22"
+      }
+    ],
+    "fieldVariantsReconciled": [
+      {
+        "kind": "events",
+        "id": "evt-1952-meyer-economic-coordination",
+        "field": "name",
+        "rootValue": "1952년 한미경제조정협정(마이어협정)",
+        "incomingValue": "한미 경제조정협정(마이어 협정)과 합동경제위원회",
+        "incomingProvenance": [
+          {
+            "path": "data/research/events/pass-240-busan-crisis-subevents.json",
+            "pointer": "/events/7"
+          }
+        ],
+        "decision": "PRESERVED_EVENT_NAME_VARIANT",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
+      },
+      {
+        "kind": "events",
+        "id": "evt-1952-pusan-political-crisis",
+        "field": "name",
+        "rootValue": "1952년 부산정치파동과 발췌개헌",
+        "incomingValue": "부산정치파동과 발췌개헌",
+        "incomingProvenance": [
+          {
+            "path": "data/events/pass318-rhee-events.json",
+            "pointer": "/events/0"
+          }
+        ],
+        "decision": "PRESERVED_EVENT_NAME_VARIANT",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
+      },
+      {
+        "kind": "events",
+        "id": "evt-p233-1110-unkra-plan",
+        "field": "uncertainty",
+        "rootValue": "Kingsley 발언에 대한 미 국무부 전달·평가, 실제 예산집행·대통령 공식거부 미확인",
+        "incomingValue": "Kingsley 발언에 대한 미 국무부 전달·평가, 실제 예산집행·대통령 공식거부 미확인; 11/24 계획 채택 확인, 1953-02 초기 사업 개시 보고와 전액집행 구분",
+        "incomingProvenance": [
+          {
+            "path": "data/events/pass-233-1952-un-diplomacy-reconstruction.json",
+            "pointer": "/events/7"
+          }
+        ],
+        "decision": "MERGED_CONTAINMENT_UNCERTAINTY_NOTE",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
+      },
+      {
+        "kind": "events",
+        "id": "evt-p239e-union-registration",
+        "field": "uncertainty",
+        "rootValue": "Press report; official union registration ledger not opened.",
+        "incomingValue": "Press report; official union registration ledger not opened. Pass239F: 3-month filing duty verified, no automatic dissolution or actual registration totals established.",
+        "incomingProvenance": [
+          {
+            "path": "data/events/pass-239e-june22-30-governance.json",
+            "pointer": "/events/2"
+          }
+        ],
+        "decision": "MERGED_CONTAINMENT_UNCERTAINTY_NOTE",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
+      },
+      {
+        "kind": "events",
+        "id": "evt-p239l-11",
+        "field": "uncertainty",
+        "rootValue": "이승만 5,046,437표 / 총투표 9,067,063=55.66%; 유효 7,210,245=69.99%; FRUS d146 55.6%는 분모/반올림 주석 필요 KDemo records Park Gi-chul vice-presidential withdrawal 1956-05-07; do not count him as continuing candidate on polling day.",
+        "incomingValue": "이승만 5,046,437표 / 총투표 9,067,063=55.66%; 유효 7,210,245=69.99%; FRUS d146 55.6%는 분모/반올림 주석 필요",
+        "incomingProvenance": [
+          {
+            "path": "data/events/pass-239l-1955-56-nnsc-election.json",
+            "pointer": "/events/10"
+          }
+        ],
+        "decision": "MERGED_CONTAINMENT_UNCERTAINTY_NOTE",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
       }
     ],
     "skipped": []
   },
   "politicianSync": {
     "rootBefore": 976,
-    "canonicalMaterialized": 760,
-    "added": 0,
+    "canonicalMaterialized": 1101,
+    "added": 361,
     "manualAdded": 0,
-    "merged": 760,
-    "rootAfter": 976,
+    "merged": 740,
+    "rootAfter": 1342,
     "missingCanonicalIdsAfterSync": [],
     "fieldConflicts": [
-      {
-        "kind": "politicians",
-        "id": "cand-1952-chang-taik-sang",
-        "field": "researchStatus",
-        "rootValue": "VERIFIED",
-        "incomingValue": "VERIFIED_EVENT_LINK",
-        "incomingProvenance": [
-          {
-            "path": "data/research/politicians/pass-233-notice37-signers.json",
-            "pointer": "/candidates/0"
-          }
-        ]
-      },
-      {
-        "kind": "politicians",
-        "id": "cand-1952-cho-ju-yong",
-        "field": "researchStatus",
-        "rootValue": "VERIFIED",
-        "incomingValue": "VERIFIED_IDENTITY_CONFLICTED_BIRTH",
-        "incomingProvenance": [
-          {
-            "path": "data/research/politicians/pass-233-notice37-signers.json",
-            "pointer": "/candidates/11"
-          }
-        ]
-      },
-      {
-        "kind": "politicians",
-        "id": "cand-1952-ham-in-sup",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_EVENT_LINK",
-        "incomingProvenance": [
-          {
-            "path": "data/research/politicians/pass-233-notice37-signers.json",
-            "pointer": "/candidates/6"
-          }
-        ]
-      },
-      {
-        "kind": "politicians",
-        "id": "cand-1952-lee-kyo-sun",
-        "field": "researchStatus",
-        "rootValue": "VERIFIED",
-        "incomingValue": "VERIFIED_IDENTITY_CONFLICTED_BIRTH",
-        "incomingProvenance": [
-          {
-            "path": "data/research/politicians/pass-233-notice37-signers.json",
-            "pointer": "/candidates/7"
-          }
-        ]
-      },
-      {
-        "kind": "politicians",
-        "id": "cand-1952-lee-yun-yong",
-        "field": "researchStatus",
-        "rootValue": "VERIFIED",
-        "incomingValue": "VERIFIED_IDENTITY_CONFLICTED_BIRTH",
-        "incomingProvenance": [
-          {
-            "path": "data/research/politicians/pass-233-notice37-signers.json",
-            "pointer": "/candidates/12"
-          }
-        ]
-      },
-      {
-        "kind": "politicians",
-        "id": "cand-1952-paik-rak-jun",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_EVENT_LINK",
-        "incomingProvenance": [
-          {
-            "path": "data/research/politicians/pass-233-notice37-signers.json",
-            "pointer": "/candidates/5"
-          }
-        ]
-      },
-      {
-        "kind": "politicians",
-        "id": "cand-1952-pyun-young-tae",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_EVENT_LINK",
-        "incomingProvenance": [
-          {
-            "path": "data/research/politicians/pass-233-notice37-signers.json",
-            "pointer": "/candidates/2"
-          }
-        ]
-      },
-      {
-        "kind": "politicians",
-        "id": "cand-1952-sep-chungbuk-jeong-hyeon-mo",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_EVENT_SPECIFIC",
-        "incomingProvenance": [
-          {
-            "path": "data/politicians/pass-232-1952-september-actors.json",
-            "pointer": "/politicians/4"
-          }
-        ]
-      },
-      {
-        "kind": "politicians",
-        "id": "cand-1952-sep-chungnam-seong-rak-seo",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_EVENT_SPECIFIC",
-        "incomingProvenance": [
-          {
-            "path": "data/politicians/pass-232-1952-september-actors.json",
-            "pointer": "/politicians/7"
-          }
-        ]
-      },
-      {
-        "kind": "politicians",
-        "id": "cand-1952-sep-chungnam-seong-rak-seo",
-        "field": "evidenceCoverage",
-        "rootValue": [
-          "DOC-P253F-DH-0914-0020"
-        ],
-        "incomingValue": "September 1952 dated contemporary press; government original where indicated",
-        "incomingProvenance": [
-          {
-            "path": "data/politicians/pass-232-1952-september-actors.json",
-            "pointer": "/politicians/7"
-          }
-        ]
-      },
-      {
-        "kind": "politicians",
-        "id": "cand-1952-sep-gyeonggi-kim-yeong-gi",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_EVENT_SPECIFIC",
-        "incomingProvenance": [
-          {
-            "path": "data/politicians/pass-232-1952-september-actors.json",
-            "pointer": "/politicians/8"
-          }
-        ]
-      },
-      {
-        "kind": "politicians",
-        "id": "cand-1952-sep-gyeonggi-kim-yeong-gi",
-        "field": "evidenceCoverage",
-        "rootValue": [
-          "DOC-P253F-DH-0914-0020"
-        ],
-        "incomingValue": "September 1952 dated contemporary press; government original where indicated",
-        "incomingProvenance": [
-          {
-            "path": "data/politicians/pass-232-1952-september-actors.json",
-            "pointer": "/politicians/8"
-          }
-        ]
-      },
-      {
-        "kind": "politicians",
-        "id": "cand-1952-sep-independent-labor-yu-rim",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_EVENT_SPECIFIC",
-        "incomingProvenance": [
-          {
-            "path": "data/politicians/pass-232-1952-september-actors.json",
-            "pointer": "/politicians/10"
-          }
-        ]
-      },
-      {
-        "kind": "politicians",
-        "id": "cand-1952-sep-jeonbuk-lee-yo-han",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_EVENT_SPECIFIC",
-        "incomingProvenance": [
-          {
-            "path": "data/politicians/pass-232-1952-september-actors.json",
-            "pointer": "/politicians/5"
-          }
-        ]
-      },
-      {
-        "kind": "politicians",
-        "id": "cand-1952-sep-police-mun-bong-je",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_EVENT_SPECIFIC",
-        "incomingProvenance": [
-          {
-            "path": "data/politicians/pass-232-1952-september-actors.json",
-            "pointer": "/politicians/1"
-          }
-        ]
-      },
-      {
-        "kind": "politicians",
-        "id": "cand-1952-sep-vice-interior-hwang-ho-heon",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_EVENT_SPECIFIC",
-        "incomingProvenance": [
-          {
-            "path": "data/politicians/pass-232-1952-september-actors.json",
-            "pointer": "/politicians/6"
-          }
-        ]
-      },
-      {
-        "kind": "politicians",
-        "id": "cand-1952-sep-zainichi-kim-gwang-nam",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_EVENT_SPECIFIC",
-        "incomingProvenance": [
-          {
-            "path": "data/politicians/pass-232-1952-september-actors.json",
-            "pointer": "/politicians/20"
-          }
-        ]
-      },
-      {
-        "kind": "politicians",
-        "id": "cand-1952-sep-zainichi-kim-jae-geun",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_EVENT_SPECIFIC",
-        "incomingProvenance": [
-          {
-            "path": "data/politicians/pass-232-1952-september-actors.json",
-            "pointer": "/politicians/21"
-          }
-        ]
-      },
-      {
-        "kind": "politicians",
-        "id": "cand-1952-shin-tai-yong",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_EVENT_LINK",
-        "incomingProvenance": [
-          {
-            "path": "data/research/politicians/pass-233-notice37-signers.json",
-            "pointer": "/candidates/3"
-          }
-        ]
-      },
-      {
-        "kind": "politicians",
-        "id": "cand-choe-hyeon-bae",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_POLICY_ACTOR",
-        "incomingProvenance": [
-          {
-            "path": "data/research/candidates/pass-263-state-building-graph-delta.json",
-            "pointer": "/politicianCandidates/10"
-          }
-        ]
-      },
-      {
-        "kind": "politicians",
-        "id": "cand-joo-geum-yong-1908",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_SECONDARY",
-        "incomingProvenance": [
-          {
-            "path": "data/research/candidates/pass-108-jinhae-network.json",
-            "pointer": "/candidates/1"
-          }
-        ]
-      },
-      {
-        "kind": "politicians",
-        "id": "cand-jung-chang-hyun",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED-ACTOR",
-        "incomingProvenance": [
-          {
-            "path": "data/research/graph-patches/pass-288-geochang-parliamentary-network.json",
-            "pointer": "/politicianCandidates/6"
-          }
-        ]
-      },
-      {
-        "kind": "politicians",
-        "id": "cand-kim-cheol-an-1912",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_CONFLICTED_ALIAS",
-        "incomingProvenance": [
-          {
-            "path": "data/research/candidates/pass-108-jinhae-network.json",
-            "pointer": "/candidates/0"
-          }
-        ]
-      },
-      {
-        "kind": "politicians",
-        "id": "cand-kim-chung-nam-navy",
-        "field": "researchStatus",
-        "rootValue": "DISCOVERED",
-        "incomingValue": "DISCOVERED_IDENTITY_GUARD",
-        "incomingProvenance": [
-          {
-            "path": "data/research/candidates/pass-108-jinhae-network.json",
-            "pointer": "/candidates/2"
-          }
-        ]
-      },
-      {
-        "kind": "politicians",
-        "id": "cand-kim-jong-won-1951",
-        "field": "researchStatus",
-        "rootValue": "VERIFIED",
-        "incomingValue": "VERIFIED-ACTOR",
-        "incomingProvenance": [
-          {
-            "path": "data/research/graph-patches/pass-288-geochang-parliamentary-network.json",
-            "pointer": "/politicianCandidates/3"
-          }
-        ]
-      },
-      {
-        "kind": "politicians",
-        "id": "cand-kim-sang-deok-antimin",
-        "field": "researchStatus",
-        "rootValue": "ANNALS_ACTIVE",
-        "incomingValue": "ANNALS_ACTIVE_CANDIDATE",
-        "incomingProvenance": [
-          {
-            "path": "data/research/candidates/pass-178-antimin-politician-nodes.json",
-            "pointer": "/nodes/7"
-          }
-        ]
-      },
-      {
-        "kind": "politicians",
-        "id": "cand-mark-clark-1953",
-        "field": "researchStatus",
-        "rootValue": "VERIFIED",
-        "incomingValue": "VERIFIED_CANDIDATE",
-        "incomingProvenance": [
-          {
-            "path": "data/research/candidates/pass-66-armistice-bargain-actors.json",
-            "pointer": "/actors/9"
-          }
-        ]
-      },
-      {
-        "kind": "politicians",
-        "id": "cand-p235-kim-su-hak",
-        "field": "researchStatus",
-        "rootValue": "candidate-identified",
-        "incomingValue": "IDENTIFIED_provisional",
-        "incomingProvenance": [
-          {
-            "path": "data/politicians/pass-235-1953-assembly-cabinet-actors.json",
-            "pointer": "/politicians/14"
-          }
-        ]
-      },
-      {
-        "kind": "politicians",
-        "id": "cand-p235-lee-cheol-won",
-        "field": "researchStatus",
-        "rootValue": "candidate-identified",
-        "incomingValue": "IDENTIFIED_provisional",
-        "incomingProvenance": [
-          {
-            "path": "data/politicians/pass-235-addendum-b-culture-speaker-minister.json",
-            "pointer": "/politicians/3"
-          }
-        ]
-      },
-      {
-        "kind": "politicians",
-        "id": "cand-p235e-hwang-byeong-gyu",
-        "field": "researchStatus",
-        "rootValue": "candidate-identified",
-        "incomingValue": "IDENTIFIED_provisional",
-        "incomingProvenance": [
-          {
-            "path": "data/politicians/pass-235-addendum-e-committee-chairs.json",
-            "pointer": "/politicians/2"
-          }
-        ]
-      },
-      {
-        "kind": "politicians",
-        "id": "cand-p235e-jang-gi-bong",
-        "field": "researchStatus",
-        "rootValue": "candidate-identified",
-        "incomingValue": "IDENTIFIED_provisional",
-        "incomingProvenance": [
-          {
-            "path": "data/politicians/pass-235-addendum-e-committee-chairs.json",
-            "pointer": "/politicians/9"
-          }
-        ]
-      },
-      {
-        "kind": "politicians",
-        "id": "cand-p235e-ji-cheol-geun",
-        "field": "researchStatus",
-        "rootValue": "candidate-identified",
-        "incomingValue": "IDENTIFIED_provisional",
-        "incomingProvenance": [
-          {
-            "path": "data/politicians/pass-235-addendum-e-committee-chairs.json",
-            "pointer": "/politicians/8"
-          }
-        ]
-      },
-      {
-        "kind": "politicians",
-        "id": "cand-p235e-park-je-hwan",
-        "field": "researchStatus",
-        "rootValue": "candidate-identified",
-        "incomingValue": "IDENTIFIED_provisional",
-        "incomingProvenance": [
-          {
-            "path": "data/politicians/pass-235-addendum-e-committee-chairs.json",
-            "pointer": "/politicians/1"
-          }
-        ]
-      },
-      {
-        "kind": "politicians",
-        "id": "cand-p235e-park-seong-ha",
-        "field": "researchStatus",
-        "rootValue": "candidate-identified",
-        "incomingValue": "IDENTIFIED_provisional",
-        "incomingProvenance": [
-          {
-            "path": "data/politicians/pass-235-addendum-e-committee-chairs.json",
-            "pointer": "/politicians/4"
-          }
-        ]
-      },
-      {
-        "kind": "politicians",
-        "id": "cand-p235e-shin-yong-uk",
-        "field": "researchStatus",
-        "rootValue": "candidate-identified",
-        "incomingValue": "IDENTIFIED_provisional",
-        "incomingProvenance": [
-          {
-            "path": "data/politicians/pass-235-addendum-e-committee-chairs.json",
-            "pointer": "/politicians/3"
-          }
-        ]
-      },
-      {
-        "kind": "politicians",
-        "id": "cand-p235e-yun-taek-jung",
-        "field": "researchStatus",
-        "rootValue": "candidate-identified",
-        "incomingValue": "IDENTIFIED_provisional",
-        "incomingProvenance": [
-          {
-            "path": "data/politicians/pass-235-addendum-e-committee-chairs.json",
-            "pointer": "/politicians/5"
-          }
-        ]
-      },
-      {
-        "kind": "politicians",
-        "id": "cand-p235i-ahn-sang-han",
-        "field": "researchStatus",
-        "rootValue": "candidate-identified",
-        "incomingValue": "IDENTIFIED_provisional",
-        "incomingProvenance": [
-          {
-            "path": "data/politicians/pass-235-addendum-i-bok-party.json",
-            "pointer": "/politicians/6"
-          }
-        ]
-      },
-      {
-        "kind": "politicians",
-        "id": "cand-p235i-im-yong-sun",
-        "field": "researchStatus",
-        "rootValue": "candidate-identified",
-        "incomingValue": "IDENTIFIED_provisional",
-        "incomingProvenance": [
-          {
-            "path": "data/politicians/pass-235-addendum-i-bok-party.json",
-            "pointer": "/politicians/4"
-          }
-        ]
-      },
-      {
-        "kind": "politicians",
-        "id": "cand-p235i-oh-ui-gwan",
-        "field": "researchStatus",
-        "rootValue": "candidate-identified",
-        "incomingValue": "IDENTIFIED_provisional",
-        "incomingProvenance": [
-          {
-            "path": "data/politicians/pass-235-addendum-i-bok-party.json",
-            "pointer": "/politicians/5"
-          }
-        ]
-      },
-      {
-        "kind": "politicians",
-        "id": "cand-p235i-tae-wan-seon",
-        "field": "researchStatus",
-        "rootValue": "candidate-identified",
-        "incomingValue": "IDENTIFIED_provisional",
-        "incomingProvenance": [
-          {
-            "path": "data/politicians/pass-235-addendum-i-bok-party.json",
-            "pointer": "/politicians/1"
-          }
-        ]
-      },
-      {
-        "kind": "politicians",
-        "id": "cand-p240-chong-kyu-man",
-        "field": "verification",
-        "rootValue": "OPEN",
-        "incomingValue": "this run: no original vital record",
-        "incomingProvenance": []
-      },
-      {
-        "kind": "politicians",
-        "id": "cand-p242-jeong-jae-seol",
-        "field": "verification",
-        "rootValue": "original vital record not verified",
-        "incomingValue": "Not verified in original vital records",
-        "incomingProvenance": []
-      },
-      {
-        "kind": "politicians",
-        "id": "cand-p242-lee-han-bin",
-        "field": "verification",
-        "rootValue": "original vital record not verified",
-        "incomingValue": "Not verified in original vital records",
-        "incomingProvenance": []
-      },
-      {
-        "kind": "politicians",
-        "id": "cand-p242-son-chang-hwan",
-        "field": "verification",
-        "rootValue": "original vital record not verified",
-        "incomingValue": "Not verified in original vital records",
-        "incomingProvenance": []
-      },
-      {
-        "kind": "politicians",
-        "id": "cand-p245-lee-geun-jik",
-        "field": "identityCaution",
-        "rootValue": "한글 이름·직책은 원관보 확인, 생몰·한자·동명이인 미확인. 이름만으로 병합 금지.",
-        "incomingValue": "한글 이름·직책은 원관보 확인; 생몰·한자·로마자·동명이인 미확인. 이름만으로 다른 registry와 병합 금지.",
-        "incomingProvenance": [
-          {
-            "path": "data/politicians/pass-245-gazette-ministers.json",
-            "pointer": "/actors/9"
-          }
-        ]
-      },
-      {
-        "kind": "politicians",
-        "id": "cand-p245-lee-ong-jun",
-        "field": "identityCaution",
-        "rootValue": "동일 1958 관보1965 법률469 '이옹준' 대 법률470 '이응준', 1956 법률385·388 李應俊. 신원·오탈자 원면 확인 전 DISCOVERED 유지",
-        "incomingValue": "원관보 전사 '이옹준'은 전사 오탈자 또는 '이응준' 등 이표기 가능성이 있어 인명 원면 확인 전 독립 실존인물로 VERIFIED 승격 금지. 현재는 원전사 문자열을 보존하는 DISCOVERED 후보.",
-        "incomingProvenance": [
-          {
-            "path": "data/politicians/pass-245-gazette-ministers.json",
-            "pointer": "/actors/11"
-          }
-        ]
-      },
       {
         "kind": "politicians",
         "id": "cand-p246-kim-chang-dong",
@@ -824,7 +292,10 @@
             "path": "data/politicians/pass-246-1956-1960-actor-deepening.json",
             "pointer": "/newActors/3"
           }
-        ]
+        ],
+        "decision": "UNRESOLVED_SCALAR_CONFLICT",
+        "status": "UNRESOLVED_CONFLICT",
+        "recordedAt": "2026-11-22"
       },
       {
         "kind": "politicians",
@@ -837,7 +308,10 @@
             "path": "data/politicians/pass-246-1956-1960-actor-deepening.json",
             "pointer": "/newActors/2"
           }
-        ]
+        ],
+        "decision": "UNRESOLVED_SCALAR_CONFLICT",
+        "status": "UNRESOLVED_CONFLICT",
+        "recordedAt": "2026-11-22"
       },
       {
         "kind": "politicians",
@@ -850,7 +324,860 @@
             "path": "data/politicians/pass-246-1956-1960-actor-deepening.json",
             "pointer": "/newActors/1"
           }
-        ]
+        ],
+        "decision": "UNRESOLVED_SCALAR_CONFLICT",
+        "status": "UNRESOLVED_CONFLICT",
+        "recordedAt": "2026-11-22"
+      },
+      {
+        "kind": "politicians",
+        "id": "cand-p257n-eom-byeong-hak",
+        "field": "researchStatus",
+        "rootValue": "VERIFIED",
+        "incomingValue": "IDENTIFIED",
+        "incomingProvenance": [
+          {
+            "path": "data/politicians/pass-257n-1953-finance-legislators.json",
+            "pointer": "/politicians/7"
+          }
+        ],
+        "decision": "UNRESOLVED_SCALAR_CONFLICT",
+        "status": "UNRESOLVED_CONFLICT",
+        "recordedAt": "2026-11-22"
+      },
+      {
+        "kind": "politicians",
+        "id": "cand-r218-lee-jong-chan-martial1951",
+        "field": "name",
+        "rootValue": "Lee Chong Chang (FRUS 표기)",
+        "incomingValue": "이종찬",
+        "incomingProvenance": [
+          {
+            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
+            "pointer": "/politicians/437"
+          }
+        ],
+        "decision": "UNRESOLVED_SCALAR_CONFLICT",
+        "status": "UNRESOLVED_CONFLICT",
+        "recordedAt": "2026-11-22"
+      },
+      {
+        "kind": "politicians",
+        "id": "cand-r218-lee-jong-chan-martial1951",
+        "field": "researchStatus",
+        "rootValue": "DISCOVERED",
+        "incomingValue": "IDENTIFIED",
+        "incomingProvenance": [
+          {
+            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
+            "pointer": "/politicians/437"
+          }
+        ],
+        "decision": "UNRESOLVED_SCALAR_CONFLICT",
+        "status": "UNRESOLVED_CONFLICT",
+        "recordedAt": "2026-11-22"
+      },
+      {
+        "kind": "politicians",
+        "id": "cand-r225-lee-jae-hyeong-1952",
+        "field": "researchStatus",
+        "rootValue": "IDENTIFIED",
+        "incomingValue": "POSSIBLE_DUPLICATE_IDENTITY_PENDING",
+        "incomingProvenance": [
+          {
+            "path": "data/politicians/run225-june1952-actors.json",
+            "pointer": "/actors/12"
+          }
+        ],
+        "decision": "UNRESOLVED_SCALAR_CONFLICT",
+        "status": "UNRESOLVED_CONFLICT",
+        "recordedAt": "2026-11-22"
+      },
+      {
+        "kind": "politicians",
+        "id": "cand-r225-seo-yi-hwan-1952",
+        "field": "researchStatus",
+        "rootValue": "IDENTIFIED",
+        "incomingValue": "POSSIBLE_DUPLICATE_IDENTITY_PENDING",
+        "incomingProvenance": [
+          {
+            "path": "data/politicians/run225-june1952-actors.json",
+            "pointer": "/actors/13"
+          }
+        ],
+        "decision": "UNRESOLVED_SCALAR_CONFLICT",
+        "status": "UNRESOLVED_CONFLICT",
+        "recordedAt": "2026-11-22"
+      },
+      {
+        "kind": "politicians",
+        "id": "pol-chae-byong-duk",
+        "field": "researchStatus",
+        "rootValue": "candidate-war-command",
+        "incomingValue": "VERIFIED",
+        "incomingProvenance": [
+          {
+            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
+            "pointer": "/politicians/29"
+          }
+        ],
+        "decision": "UNRESOLVED_SCALAR_CONFLICT",
+        "status": "UNRESOLVED_CONFLICT",
+        "recordedAt": "2026-11-22"
+      },
+      {
+        "kind": "politicians",
+        "id": "pol-chae-byong-duk",
+        "field": "researchNotes",
+        "rootValue": "한강교 폭파 명령선의 핵심 군 지휘자 후보. 후대 재심 판단과 육군본부 작전일지·공병 지휘문서를 우선해 정확한 명령 시각과 상급 승인 여부를 검증.",
+        "incomingValue": [
+          {
+            "date": null,
+            "run": null,
+            "note": "한강교 폭파 명령선의 핵심 군 지휘자 후보. 후대 재심 판단과 육군본부 작전일지·공병 지휘문서를 우선해 정확한 명령 시각과 상급 승인 여부를 검증.",
+            "restoredFrom": "pre-run163 researchNotes string",
+            "correctionDate": "2026-10-26"
+          },
+          {
+            "date": "2026-10-26",
+            "run": 163,
+            "note": "1950-08-29~09-21 동시대 행정·입법·외교·군법회의 기록 연결. 발언·집행·후대 판결 분리.",
+            "documentIds": [
+              "doc163-50"
+            ]
+          }
+        ],
+        "incomingProvenance": [
+          {
+            "path": "data/research/branch-snapshots/pr74-data-politicians.json",
+            "pointer": "/politicians/29"
+          }
+        ],
+        "decision": "UNRESOLVED_SCALAR_CONFLICT",
+        "status": "UNRESOLVED_CONFLICT",
+        "recordedAt": "2026-11-22"
+      }
+    ],
+    "fieldVariantsReconciled": [
+      {
+        "kind": "politicians",
+        "id": "cand-1952-chang-taik-sang",
+        "field": "researchStatus",
+        "rootValue": "VERIFIED",
+        "incomingValue": "VERIFIED_EVENT_LINK",
+        "incomingProvenance": [
+          {
+            "path": "data/research/politicians/pass-233-notice37-signers.json",
+            "pointer": "/candidates/0"
+          }
+        ],
+        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
+      },
+      {
+        "kind": "politicians",
+        "id": "cand-1952-cho-ju-yong",
+        "field": "researchStatus",
+        "rootValue": "VERIFIED",
+        "incomingValue": "VERIFIED_IDENTITY_CONFLICTED_BIRTH",
+        "incomingProvenance": [
+          {
+            "path": "data/research/politicians/pass-233-notice37-signers.json",
+            "pointer": "/candidates/11"
+          }
+        ],
+        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
+      },
+      {
+        "kind": "politicians",
+        "id": "cand-1952-ham-in-sup",
+        "field": "researchStatus",
+        "rootValue": "IDENTIFIED",
+        "incomingValue": "IDENTIFIED_EVENT_LINK",
+        "incomingProvenance": [
+          {
+            "path": "data/research/politicians/pass-233-notice37-signers.json",
+            "pointer": "/candidates/6"
+          }
+        ],
+        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
+      },
+      {
+        "kind": "politicians",
+        "id": "cand-1952-lee-kyo-sun",
+        "field": "researchStatus",
+        "rootValue": "VERIFIED",
+        "incomingValue": "VERIFIED_IDENTITY_CONFLICTED_BIRTH",
+        "incomingProvenance": [
+          {
+            "path": "data/research/politicians/pass-233-notice37-signers.json",
+            "pointer": "/candidates/7"
+          }
+        ],
+        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
+      },
+      {
+        "kind": "politicians",
+        "id": "cand-1952-lee-yun-yong",
+        "field": "researchStatus",
+        "rootValue": "VERIFIED",
+        "incomingValue": "VERIFIED_IDENTITY_CONFLICTED_BIRTH",
+        "incomingProvenance": [
+          {
+            "path": "data/research/politicians/pass-233-notice37-signers.json",
+            "pointer": "/candidates/12"
+          }
+        ],
+        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
+      },
+      {
+        "kind": "politicians",
+        "id": "cand-1952-paik-rak-jun",
+        "field": "researchStatus",
+        "rootValue": "IDENTIFIED",
+        "incomingValue": "IDENTIFIED_EVENT_LINK",
+        "incomingProvenance": [
+          {
+            "path": "data/research/politicians/pass-233-notice37-signers.json",
+            "pointer": "/candidates/5"
+          }
+        ],
+        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
+      },
+      {
+        "kind": "politicians",
+        "id": "cand-1952-pyun-young-tae",
+        "field": "researchStatus",
+        "rootValue": "IDENTIFIED",
+        "incomingValue": "IDENTIFIED_EVENT_LINK",
+        "incomingProvenance": [
+          {
+            "path": "data/research/politicians/pass-233-notice37-signers.json",
+            "pointer": "/candidates/2"
+          }
+        ],
+        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
+      },
+      {
+        "kind": "politicians",
+        "id": "cand-1952-sep-chungbuk-jeong-hyeon-mo",
+        "field": "researchStatus",
+        "rootValue": "IDENTIFIED",
+        "incomingValue": "IDENTIFIED_EVENT_SPECIFIC",
+        "incomingProvenance": [
+          {
+            "path": "data/politicians/pass-232-1952-september-actors.json",
+            "pointer": "/politicians/4"
+          }
+        ],
+        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
+      },
+      {
+        "kind": "politicians",
+        "id": "cand-1952-sep-chungnam-seong-rak-seo",
+        "field": "researchStatus",
+        "rootValue": "IDENTIFIED",
+        "incomingValue": "IDENTIFIED_EVENT_SPECIFIC",
+        "incomingProvenance": [
+          {
+            "path": "data/politicians/pass-232-1952-september-actors.json",
+            "pointer": "/politicians/7"
+          }
+        ],
+        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
+      },
+      {
+        "kind": "politicians",
+        "id": "cand-1952-sep-chungnam-seong-rak-seo",
+        "field": "evidenceCoverage",
+        "rootValue": [
+          "DOC-P253F-DH-0914-0020"
+        ],
+        "incomingValue": "September 1952 dated contemporary press; government original where indicated",
+        "incomingProvenance": [
+          {
+            "path": "data/politicians/pass-232-1952-september-actors.json",
+            "pointer": "/politicians/7"
+          }
+        ],
+        "decision": "MOVED_NARRATIVE_TO_EVIDENCE_COVERAGE_NOTES",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
+      },
+      {
+        "kind": "politicians",
+        "id": "cand-1952-sep-gyeonggi-kim-yeong-gi",
+        "field": "researchStatus",
+        "rootValue": "IDENTIFIED",
+        "incomingValue": "IDENTIFIED_EVENT_SPECIFIC",
+        "incomingProvenance": [
+          {
+            "path": "data/politicians/pass-232-1952-september-actors.json",
+            "pointer": "/politicians/8"
+          }
+        ],
+        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
+      },
+      {
+        "kind": "politicians",
+        "id": "cand-1952-sep-gyeonggi-kim-yeong-gi",
+        "field": "evidenceCoverage",
+        "rootValue": [
+          "DOC-P253F-DH-0914-0020"
+        ],
+        "incomingValue": "September 1952 dated contemporary press; government original where indicated",
+        "incomingProvenance": [
+          {
+            "path": "data/politicians/pass-232-1952-september-actors.json",
+            "pointer": "/politicians/8"
+          }
+        ],
+        "decision": "MOVED_NARRATIVE_TO_EVIDENCE_COVERAGE_NOTES",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
+      },
+      {
+        "kind": "politicians",
+        "id": "cand-1952-sep-independent-labor-yu-rim",
+        "field": "researchStatus",
+        "rootValue": "IDENTIFIED",
+        "incomingValue": "IDENTIFIED_EVENT_SPECIFIC",
+        "incomingProvenance": [
+          {
+            "path": "data/politicians/pass-232-1952-september-actors.json",
+            "pointer": "/politicians/10"
+          }
+        ],
+        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
+      },
+      {
+        "kind": "politicians",
+        "id": "cand-1952-sep-jeonbuk-lee-yo-han",
+        "field": "researchStatus",
+        "rootValue": "IDENTIFIED",
+        "incomingValue": "IDENTIFIED_EVENT_SPECIFIC",
+        "incomingProvenance": [
+          {
+            "path": "data/politicians/pass-232-1952-september-actors.json",
+            "pointer": "/politicians/5"
+          }
+        ],
+        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
+      },
+      {
+        "kind": "politicians",
+        "id": "cand-1952-sep-police-mun-bong-je",
+        "field": "researchStatus",
+        "rootValue": "IDENTIFIED",
+        "incomingValue": "IDENTIFIED_EVENT_SPECIFIC",
+        "incomingProvenance": [
+          {
+            "path": "data/politicians/pass-232-1952-september-actors.json",
+            "pointer": "/politicians/1"
+          }
+        ],
+        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
+      },
+      {
+        "kind": "politicians",
+        "id": "cand-1952-sep-vice-interior-hwang-ho-heon",
+        "field": "researchStatus",
+        "rootValue": "IDENTIFIED",
+        "incomingValue": "IDENTIFIED_EVENT_SPECIFIC",
+        "incomingProvenance": [
+          {
+            "path": "data/politicians/pass-232-1952-september-actors.json",
+            "pointer": "/politicians/6"
+          }
+        ],
+        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
+      },
+      {
+        "kind": "politicians",
+        "id": "cand-1952-sep-zainichi-kim-gwang-nam",
+        "field": "researchStatus",
+        "rootValue": "IDENTIFIED",
+        "incomingValue": "IDENTIFIED_EVENT_SPECIFIC",
+        "incomingProvenance": [
+          {
+            "path": "data/politicians/pass-232-1952-september-actors.json",
+            "pointer": "/politicians/20"
+          }
+        ],
+        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
+      },
+      {
+        "kind": "politicians",
+        "id": "cand-1952-sep-zainichi-kim-jae-geun",
+        "field": "researchStatus",
+        "rootValue": "IDENTIFIED",
+        "incomingValue": "IDENTIFIED_EVENT_SPECIFIC",
+        "incomingProvenance": [
+          {
+            "path": "data/politicians/pass-232-1952-september-actors.json",
+            "pointer": "/politicians/21"
+          }
+        ],
+        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
+      },
+      {
+        "kind": "politicians",
+        "id": "cand-1952-shin-tai-yong",
+        "field": "researchStatus",
+        "rootValue": "IDENTIFIED",
+        "incomingValue": "IDENTIFIED_EVENT_LINK",
+        "incomingProvenance": [
+          {
+            "path": "data/research/politicians/pass-233-notice37-signers.json",
+            "pointer": "/candidates/3"
+          }
+        ],
+        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
+      },
+      {
+        "kind": "politicians",
+        "id": "cand-choe-hyeon-bae",
+        "field": "researchStatus",
+        "rootValue": "IDENTIFIED",
+        "incomingValue": "IDENTIFIED_POLICY_ACTOR",
+        "incomingProvenance": [
+          {
+            "path": "data/research/candidates/pass-263-state-building-graph-delta.json",
+            "pointer": "/politicianCandidates/10"
+          }
+        ],
+        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
+      },
+      {
+        "kind": "politicians",
+        "id": "cand-joo-geum-yong-1908",
+        "field": "researchStatus",
+        "rootValue": "IDENTIFIED",
+        "incomingValue": "IDENTIFIED_SECONDARY",
+        "incomingProvenance": [
+          {
+            "path": "data/research/candidates/pass-108-jinhae-network.json",
+            "pointer": "/candidates/1"
+          }
+        ],
+        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
+      },
+      {
+        "kind": "politicians",
+        "id": "cand-jung-chang-hyun",
+        "field": "researchStatus",
+        "rootValue": "IDENTIFIED",
+        "incomingValue": "IDENTIFIED-ACTOR",
+        "incomingProvenance": [
+          {
+            "path": "data/research/graph-patches/pass-288-geochang-parliamentary-network.json",
+            "pointer": "/politicianCandidates/6"
+          }
+        ],
+        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
+      },
+      {
+        "kind": "politicians",
+        "id": "cand-kim-cheol-an-1912",
+        "field": "researchStatus",
+        "rootValue": "IDENTIFIED",
+        "incomingValue": "IDENTIFIED_CONFLICTED_ALIAS",
+        "incomingProvenance": [
+          {
+            "path": "data/research/candidates/pass-108-jinhae-network.json",
+            "pointer": "/candidates/0"
+          }
+        ],
+        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
+      },
+      {
+        "kind": "politicians",
+        "id": "cand-kim-chung-nam-navy",
+        "field": "researchStatus",
+        "rootValue": "DISCOVERED",
+        "incomingValue": "DISCOVERED_IDENTITY_GUARD",
+        "incomingProvenance": [
+          {
+            "path": "data/research/candidates/pass-108-jinhae-network.json",
+            "pointer": "/candidates/2"
+          }
+        ],
+        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
+      },
+      {
+        "kind": "politicians",
+        "id": "cand-kim-jong-won-1951",
+        "field": "researchStatus",
+        "rootValue": "VERIFIED",
+        "incomingValue": "VERIFIED-ACTOR",
+        "incomingProvenance": [
+          {
+            "path": "data/research/graph-patches/pass-288-geochang-parliamentary-network.json",
+            "pointer": "/politicianCandidates/3"
+          }
+        ],
+        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
+      },
+      {
+        "kind": "politicians",
+        "id": "cand-kim-sang-deok-antimin",
+        "field": "researchStatus",
+        "rootValue": "ANNALS_ACTIVE",
+        "incomingValue": "ANNALS_ACTIVE_CANDIDATE",
+        "incomingProvenance": [
+          {
+            "path": "data/research/candidates/pass-178-antimin-politician-nodes.json",
+            "pointer": "/nodes/7"
+          }
+        ],
+        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
+      },
+      {
+        "kind": "politicians",
+        "id": "cand-mark-clark-1953",
+        "field": "researchStatus",
+        "rootValue": "VERIFIED",
+        "incomingValue": "VERIFIED_CANDIDATE",
+        "incomingProvenance": [
+          {
+            "path": "data/research/candidates/pass-66-armistice-bargain-actors.json",
+            "pointer": "/actors/9"
+          }
+        ],
+        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
+      },
+      {
+        "kind": "politicians",
+        "id": "cand-p235-kim-su-hak",
+        "field": "researchStatus",
+        "rootValue": "candidate-identified",
+        "incomingValue": "IDENTIFIED_provisional",
+        "incomingProvenance": [
+          {
+            "path": "data/politicians/pass-235-1953-assembly-cabinet-actors.json",
+            "pointer": "/politicians/14"
+          }
+        ],
+        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
+      },
+      {
+        "kind": "politicians",
+        "id": "cand-p235-lee-cheol-won",
+        "field": "researchStatus",
+        "rootValue": "candidate-identified",
+        "incomingValue": "IDENTIFIED_provisional",
+        "incomingProvenance": [
+          {
+            "path": "data/politicians/pass-235-addendum-b-culture-speaker-minister.json",
+            "pointer": "/politicians/3"
+          }
+        ],
+        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
+      },
+      {
+        "kind": "politicians",
+        "id": "cand-p235e-hwang-byeong-gyu",
+        "field": "researchStatus",
+        "rootValue": "candidate-identified",
+        "incomingValue": "IDENTIFIED_provisional",
+        "incomingProvenance": [
+          {
+            "path": "data/politicians/pass-235-addendum-e-committee-chairs.json",
+            "pointer": "/politicians/2"
+          }
+        ],
+        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
+      },
+      {
+        "kind": "politicians",
+        "id": "cand-p235e-jang-gi-bong",
+        "field": "researchStatus",
+        "rootValue": "candidate-identified",
+        "incomingValue": "IDENTIFIED_provisional",
+        "incomingProvenance": [
+          {
+            "path": "data/politicians/pass-235-addendum-e-committee-chairs.json",
+            "pointer": "/politicians/9"
+          }
+        ],
+        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
+      },
+      {
+        "kind": "politicians",
+        "id": "cand-p235e-ji-cheol-geun",
+        "field": "researchStatus",
+        "rootValue": "candidate-identified",
+        "incomingValue": "IDENTIFIED_provisional",
+        "incomingProvenance": [
+          {
+            "path": "data/politicians/pass-235-addendum-e-committee-chairs.json",
+            "pointer": "/politicians/8"
+          }
+        ],
+        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
+      },
+      {
+        "kind": "politicians",
+        "id": "cand-p235e-park-je-hwan",
+        "field": "researchStatus",
+        "rootValue": "candidate-identified",
+        "incomingValue": "IDENTIFIED_provisional",
+        "incomingProvenance": [
+          {
+            "path": "data/politicians/pass-235-addendum-e-committee-chairs.json",
+            "pointer": "/politicians/1"
+          }
+        ],
+        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
+      },
+      {
+        "kind": "politicians",
+        "id": "cand-p235e-park-seong-ha",
+        "field": "researchStatus",
+        "rootValue": "candidate-identified",
+        "incomingValue": "IDENTIFIED_provisional",
+        "incomingProvenance": [
+          {
+            "path": "data/politicians/pass-235-addendum-e-committee-chairs.json",
+            "pointer": "/politicians/4"
+          }
+        ],
+        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
+      },
+      {
+        "kind": "politicians",
+        "id": "cand-p235e-shin-yong-uk",
+        "field": "researchStatus",
+        "rootValue": "candidate-identified",
+        "incomingValue": "IDENTIFIED_provisional",
+        "incomingProvenance": [
+          {
+            "path": "data/politicians/pass-235-addendum-e-committee-chairs.json",
+            "pointer": "/politicians/3"
+          }
+        ],
+        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
+      },
+      {
+        "kind": "politicians",
+        "id": "cand-p235e-yun-taek-jung",
+        "field": "researchStatus",
+        "rootValue": "candidate-identified",
+        "incomingValue": "IDENTIFIED_provisional",
+        "incomingProvenance": [
+          {
+            "path": "data/politicians/pass-235-addendum-e-committee-chairs.json",
+            "pointer": "/politicians/5"
+          }
+        ],
+        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
+      },
+      {
+        "kind": "politicians",
+        "id": "cand-p235i-ahn-sang-han",
+        "field": "researchStatus",
+        "rootValue": "candidate-identified",
+        "incomingValue": "IDENTIFIED_provisional",
+        "incomingProvenance": [
+          {
+            "path": "data/politicians/pass-235-addendum-i-bok-party.json",
+            "pointer": "/politicians/6"
+          }
+        ],
+        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
+      },
+      {
+        "kind": "politicians",
+        "id": "cand-p235i-im-yong-sun",
+        "field": "researchStatus",
+        "rootValue": "candidate-identified",
+        "incomingValue": "IDENTIFIED_provisional",
+        "incomingProvenance": [
+          {
+            "path": "data/politicians/pass-235-addendum-i-bok-party.json",
+            "pointer": "/politicians/4"
+          }
+        ],
+        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
+      },
+      {
+        "kind": "politicians",
+        "id": "cand-p235i-oh-ui-gwan",
+        "field": "researchStatus",
+        "rootValue": "candidate-identified",
+        "incomingValue": "IDENTIFIED_provisional",
+        "incomingProvenance": [
+          {
+            "path": "data/politicians/pass-235-addendum-i-bok-party.json",
+            "pointer": "/politicians/5"
+          }
+        ],
+        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
+      },
+      {
+        "kind": "politicians",
+        "id": "cand-p235i-tae-wan-seon",
+        "field": "researchStatus",
+        "rootValue": "candidate-identified",
+        "incomingValue": "IDENTIFIED_provisional",
+        "incomingProvenance": [
+          {
+            "path": "data/politicians/pass-235-addendum-i-bok-party.json",
+            "pointer": "/politicians/1"
+          }
+        ],
+        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
+      },
+      {
+        "kind": "politicians",
+        "id": "cand-p240-chong-kyu-man",
+        "field": "verification",
+        "rootValue": "OPEN",
+        "incomingValue": "this run: no original vital record",
+        "incomingProvenance": [],
+        "decision": "PRESERVED_EQUIVALENT_UNVERIFIED_NOTE",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
+      },
+      {
+        "kind": "politicians",
+        "id": "cand-p242-jeong-jae-seol",
+        "field": "verification",
+        "rootValue": "original vital record not verified",
+        "incomingValue": "Not verified in original vital records",
+        "incomingProvenance": [],
+        "decision": "PRESERVED_EQUIVALENT_UNVERIFIED_NOTE",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
+      },
+      {
+        "kind": "politicians",
+        "id": "cand-p242-lee-han-bin",
+        "field": "verification",
+        "rootValue": "original vital record not verified",
+        "incomingValue": "Not verified in original vital records",
+        "incomingProvenance": [],
+        "decision": "PRESERVED_EQUIVALENT_UNVERIFIED_NOTE",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
+      },
+      {
+        "kind": "politicians",
+        "id": "cand-p242-son-chang-hwan",
+        "field": "verification",
+        "rootValue": "original vital record not verified",
+        "incomingValue": "Not verified in original vital records",
+        "incomingProvenance": [],
+        "decision": "PRESERVED_EQUIVALENT_UNVERIFIED_NOTE",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
+      },
+      {
+        "kind": "politicians",
+        "id": "cand-p245-lee-geun-jik",
+        "field": "identityCaution",
+        "rootValue": "한글 이름·직책은 원관보 확인, 생몰·한자·동명이인 미확인. 이름만으로 병합 금지.",
+        "incomingValue": "한글 이름·직책은 원관보 확인; 생몰·한자·로마자·동명이인 미확인. 이름만으로 다른 registry와 병합 금지.",
+        "incomingProvenance": [
+          {
+            "path": "data/politicians/pass-245-gazette-ministers.json",
+            "pointer": "/actors/9"
+          }
+        ],
+        "decision": "PRESERVED_ADDITIVE_CAUTION_OR_REASON",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
+      },
+      {
+        "kind": "politicians",
+        "id": "cand-p245-lee-ong-jun",
+        "field": "identityCaution",
+        "rootValue": "동일 1958 관보1965 법률469 '이옹준' 대 법률470 '이응준', 1956 법률385·388 李應俊. 신원·오탈자 원면 확인 전 DISCOVERED 유지",
+        "incomingValue": "원관보 전사 '이옹준'은 전사 오탈자 또는 '이응준' 등 이표기 가능성이 있어 인명 원면 확인 전 독립 실존인물로 VERIFIED 승격 금지. 현재는 원전사 문자열을 보존하는 DISCOVERED 후보.",
+        "incomingProvenance": [
+          {
+            "path": "data/politicians/pass-245-gazette-ministers.json",
+            "pointer": "/actors/11"
+          }
+        ],
+        "decision": "PRESERVED_ADDITIVE_CAUTION_OR_REASON",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
       },
       {
         "kind": "politicians",
@@ -858,7 +1185,10 @@
         "field": "verification",
         "rootValue": "미확인; 동명이인 가능",
         "incomingValue": "미확인",
-        "incomingProvenance": []
+        "incomingProvenance": [],
+        "decision": "PRESERVED_EQUIVALENT_UNVERIFIED_NOTE",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
       },
       {
         "kind": "politicians",
@@ -871,7 +1201,10 @@
             "path": "data/politicians/pass-257-1953-party-policing-evidence.json",
             "pointer": "/politicians/3"
           }
-        ]
+        ],
+        "decision": "PRESERVED_EQUIVALENT_PARTY_AFFILIATION_NOTE",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
       },
       {
         "kind": "politicians",
@@ -879,7 +1212,10 @@
         "field": "verification",
         "rootValue": "미확인; 동명이인 가능",
         "incomingValue": "미확인",
-        "incomingProvenance": []
+        "incomingProvenance": [],
+        "decision": "PRESERVED_EQUIVALENT_UNVERIFIED_NOTE",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
       },
       {
         "kind": "politicians",
@@ -892,7 +1228,10 @@
             "path": "data/politicians/pass-257-1953-party-policing-evidence.json",
             "pointer": "/politicians/4"
           }
-        ]
+        ],
+        "decision": "PRESERVED_EQUIVALENT_PARTY_AFFILIATION_NOTE",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
       },
       {
         "kind": "politicians",
@@ -900,7 +1239,10 @@
         "field": "verification",
         "rootValue": "미확인; 동명이인 가능",
         "incomingValue": "동명이인 및 생몰 미확인",
-        "incomingProvenance": []
+        "incomingProvenance": [],
+        "decision": "PRESERVED_EQUIVALENT_UNVERIFIED_NOTE",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
       },
       {
         "kind": "politicians",
@@ -913,7 +1255,10 @@
             "path": "data/politicians/pass-257-1953-party-policing-evidence.json",
             "pointer": "/politicians/7"
           }
-        ]
+        ],
+        "decision": "PRESERVED_EQUIVALENT_PARTY_AFFILIATION_NOTE",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
       },
       {
         "kind": "politicians",
@@ -921,7 +1266,10 @@
         "field": "verification",
         "rootValue": "미확인; 동명이인 가능",
         "incomingValue": "동명이인 및 생몰 미확인",
-        "incomingProvenance": []
+        "incomingProvenance": [],
+        "decision": "PRESERVED_EQUIVALENT_UNVERIFIED_NOTE",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
       },
       {
         "kind": "politicians",
@@ -934,7 +1282,10 @@
             "path": "data/politicians/pass-257-1953-party-policing-evidence.json",
             "pointer": "/politicians/9"
           }
-        ]
+        ],
+        "decision": "PRESERVED_EQUIVALENT_PARTY_AFFILIATION_NOTE",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
       },
       {
         "kind": "politicians",
@@ -942,7 +1293,10 @@
         "field": "verification",
         "rootValue": "미확인; 동명이인 대조 필요",
         "incomingValue": "동명이인 구별 원명부 미확인",
-        "incomingProvenance": []
+        "incomingProvenance": [],
+        "decision": "PRESERVED_EQUIVALENT_UNVERIFIED_NOTE",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
       },
       {
         "kind": "politicians",
@@ -955,7 +1309,10 @@
             "path": "data/politicians/pass-257-1953-party-policing-evidence.json",
             "pointer": "/politicians/2"
           }
-        ]
+        ],
+        "decision": "PRESERVED_EQUIVALENT_PARTY_AFFILIATION_NOTE",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
       },
       {
         "kind": "politicians",
@@ -970,7 +1327,10 @@
             "path": "data/politicians/pass-257-1953-party-policing-evidence.json",
             "pointer": "/politicians/2"
           }
-        ]
+        ],
+        "decision": "MOVED_NARRATIVE_TO_EVIDENCE_COVERAGE_NOTES",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
       },
       {
         "kind": "politicians",
@@ -978,7 +1338,10 @@
         "field": "verification",
         "rootValue": "미확인; 동명이인 가능",
         "incomingValue": "미확인",
-        "incomingProvenance": []
+        "incomingProvenance": [],
+        "decision": "PRESERVED_EQUIVALENT_UNVERIFIED_NOTE",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
       },
       {
         "kind": "politicians",
@@ -991,7 +1354,10 @@
             "path": "data/politicians/pass-257-1953-party-policing-evidence.json",
             "pointer": "/politicians/6"
           }
-        ]
+        ],
+        "decision": "PRESERVED_EQUIVALENT_PARTY_AFFILIATION_NOTE",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
       },
       {
         "kind": "politicians",
@@ -999,7 +1365,10 @@
         "field": "verification",
         "rootValue": "미확인; 동명이인 가능",
         "incomingValue": "동명이인 및 생몰 미확인",
-        "incomingProvenance": []
+        "incomingProvenance": [],
+        "decision": "PRESERVED_EQUIVALENT_UNVERIFIED_NOTE",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
       },
       {
         "kind": "politicians",
@@ -1012,7 +1381,10 @@
             "path": "data/politicians/pass-257-1953-party-policing-evidence.json",
             "pointer": "/politicians/8"
           }
-        ]
+        ],
+        "decision": "PRESERVED_EQUIVALENT_PARTY_AFFILIATION_NOTE",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
       },
       {
         "kind": "politicians",
@@ -1020,7 +1392,10 @@
         "field": "verification",
         "rootValue": "미확인; 동명이인 가능",
         "incomingValue": "미확인",
-        "incomingProvenance": []
+        "incomingProvenance": [],
+        "decision": "PRESERVED_EQUIVALENT_UNVERIFIED_NOTE",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
       },
       {
         "kind": "politicians",
@@ -1033,20 +1408,10 @@
             "path": "data/politicians/pass-257-1953-party-policing-evidence.json",
             "pointer": "/politicians/5"
           }
-        ]
-      },
-      {
-        "kind": "politicians",
-        "id": "cand-p257n-eom-byeong-hak",
-        "field": "researchStatus",
-        "rootValue": "VERIFIED",
-        "incomingValue": "IDENTIFIED",
-        "incomingProvenance": [
-          {
-            "path": "data/politicians/pass-257n-1953-finance-legislators.json",
-            "pointer": "/politicians/7"
-          }
-        ]
+        ],
+        "decision": "PRESERVED_EQUIVALENT_PARTY_AFFILIATION_NOTE",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
       },
       {
         "kind": "politicians",
@@ -1062,7 +1427,10 @@
             "path": "data/politicians/pass-257n-1953-finance-legislators.json",
             "pointer": "/politicians/7"
           }
-        ]
+        ],
+        "decision": "MOVED_NARRATIVE_TO_EVIDENCE_COVERAGE_NOTES",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
       },
       {
         "kind": "politicians",
@@ -1075,7 +1443,10 @@
             "path": "data/politicians/pass-257n-1953-finance-legislators.json",
             "pointer": "/politicians/13"
           }
-        ]
+        ],
+        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
       },
       {
         "kind": "politicians",
@@ -1090,7 +1461,10 @@
             "path": "data/politicians/pass-257n-1953-finance-legislators.json",
             "pointer": "/politicians/13"
           }
-        ]
+        ],
+        "decision": "MOVED_NARRATIVE_TO_EVIDENCE_COVERAGE_NOTES",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
       },
       {
         "kind": "politicians",
@@ -1098,7 +1472,10 @@
         "field": "verification",
         "rootValue": "OPEN: original civil registry not checked",
         "incomingValue": "OPEN, civil record not checked",
-        "incomingProvenance": []
+        "incomingProvenance": [],
+        "decision": "PRESERVED_EQUIVALENT_UNVERIFIED_NOTE",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
       },
       {
         "kind": "politicians",
@@ -1106,7 +1483,10 @@
         "field": "verification",
         "rootValue": "OPEN: original civil registry not checked",
         "incomingValue": "OPEN, civil record not checked",
-        "incomingProvenance": []
+        "incomingProvenance": [],
+        "decision": "PRESERVED_EQUIVALENT_UNVERIFIED_NOTE",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
       },
       {
         "kind": "politicians",
@@ -1114,7 +1494,10 @@
         "field": "verification",
         "rootValue": "OPEN: original civil registry not checked",
         "incomingValue": "OPEN, civil record not checked",
-        "incomingProvenance": []
+        "incomingProvenance": [],
+        "decision": "PRESERVED_EQUIVALENT_UNVERIFIED_NOTE",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
       },
       {
         "kind": "politicians",
@@ -1127,7 +1510,10 @@
             "path": "data/politicians/pass-257w-1954-election-geneva-actors.json",
             "pointer": "/politicians/3"
           }
-        ]
+        ],
+        "decision": "PRESERVED_ADDITIVE_CAUTION_OR_REASON",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
       },
       {
         "kind": "politicians",
@@ -1140,7 +1526,10 @@
             "path": "data/politicians/pass-257w3-uncurk-1954-cabinet-assembly-roster.json",
             "pointer": "/politicians/8"
           }
-        ]
+        ],
+        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
       },
       {
         "kind": "politicians",
@@ -1153,137 +1542,21 @@
             "path": "data/politicians/pass-257w3-uncurk-1954-cabinet-assembly-roster.json",
             "pointer": "/politicians/7"
           }
-        ]
+        ],
+        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
       },
       {
         "kind": "politicians",
-        "id": "cand-r174-lee-jong-hyeong",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_CANDIDATE",
-        "incomingProvenance": [
-          {
-            "path": "data/politicians/run224-may1952-actors.json",
-            "pointer": "/actors/9"
-          }
-        ]
-      },
-      {
-        "kind": "politicians",
-        "id": "cand-r223-han-gyeong-rok",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_PROVISIONAL",
-        "incomingProvenance": [
-          {
-            "path": "data/politicians/run223-apr1952-actors.json",
-            "pointer": "/actors/7"
-          }
-        ]
-      },
-      {
-        "kind": "politicians",
-        "id": "cand-r223-hyeon-geun",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_PROVISIONAL",
-        "incomingProvenance": [
-          {
-            "path": "data/politicians/run223-apr1952-actors.json",
-            "pointer": "/actors/6"
-          }
-        ]
-      },
-      {
-        "kind": "politicians",
-        "id": "cand-r223-jeong-jin-dong",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_PROVISIONAL",
-        "incomingProvenance": [
-          {
-            "path": "data/politicians/run223-apr1952-actors.json",
-            "pointer": "/actors/9"
-          }
-        ]
-      },
-      {
-        "kind": "politicians",
-        "id": "cand-r223-lee-pan-ho",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_PROVISIONAL",
-        "incomingProvenance": [
-          {
-            "path": "data/politicians/run223-apr1952-actors.json",
-            "pointer": "/actors/8"
-          }
-        ]
-      },
-      {
-        "kind": "politicians",
-        "id": "cand-r223-won-yong-seok",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "IDENTIFIED_PROVISIONAL",
-        "incomingProvenance": [
-          {
-            "path": "data/politicians/run223-apr1952-actors.json",
-            "pointer": "/actors/5"
-          }
-        ]
-      },
-      {
-        "kind": "politicians",
-        "id": "cand-r225-baek-nam-sik-1952",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "DISCOVERED",
-        "incomingProvenance": [
-          {
-            "path": "data/politicians/run225-june1952-actors.json",
-            "pointer": "/actors/11"
-          }
-        ]
-      },
-      {
-        "kind": "politicians",
-        "id": "cand-r225-kim-il-ro-1952",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "DISCOVERED",
-        "incomingProvenance": [
-          {
-            "path": "data/politicians/run225-june1952-actors.json",
-            "pointer": "/actors/10"
-          }
-        ]
-      },
-      {
-        "kind": "politicians",
-        "id": "cand-r225-lee-jae-hyeong-1952",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "POSSIBLE_DUPLICATE_IDENTITY_PENDING",
-        "incomingProvenance": [
-          {
-            "path": "data/politicians/run225-june1952-actors.json",
-            "pointer": "/actors/12"
-          }
-        ]
-      },
-      {
-        "kind": "politicians",
-        "id": "cand-r225-seo-yi-hwan-1952",
-        "field": "researchStatus",
-        "rootValue": "IDENTIFIED",
-        "incomingValue": "POSSIBLE_DUPLICATE_IDENTITY_PENDING",
-        "incomingProvenance": [
-          {
-            "path": "data/politicians/run225-june1952-actors.json",
-            "pointer": "/actors/13"
-          }
-        ]
+        "id": "cand-r218-lee-jong-chan-martial1951",
+        "field": "verification",
+        "rootValue": "미확인. FRUS d144 각주가 1952-05-27 ROKA Chief of Staff로 식별하지만 한글·한자 및 생몰 원기록 미확보.",
+        "incomingValue": "PRIMARY_BIO_UNVERIFIED",
+        "incomingProvenance": [],
+        "decision": "PRESERVED_EQUIVALENT_UNVERIFIED_NOTE",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
       },
       {
         "kind": "politicians",
@@ -1296,7 +1569,10 @@
             "path": "data/research/candidates/pass-263-state-building-graph-delta.json",
             "pointer": "/politicianCandidates/9"
           }
-        ]
+        ],
+        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
       },
       {
         "kind": "politicians",
@@ -1309,7 +1585,10 @@
             "path": "data/research/depth/f2-constitutional-government-1948-pass1.json",
             "pointer": "/politicianCandidates/6"
           }
-        ]
+        ],
+        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
       },
       {
         "kind": "politicians",
@@ -1322,7 +1601,10 @@
             "path": "data/research/depth/f2-constitutional-government-1948-pass1.json",
             "pointer": "/politicianCandidates/5"
           }
-        ]
+        ],
+        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
       },
       {
         "kind": "politicians",
@@ -1335,7 +1617,10 @@
             "path": "data/research/depth/f2-constitutional-government-1948-pass1.json",
             "pointer": "/politicianCandidates/3"
           }
-        ]
+        ],
+        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
       },
       {
         "kind": "politicians",
@@ -1348,7 +1633,10 @@
             "path": "data/research/depth/f2-constitutional-government-1948-pass1.json",
             "pointer": "/politicianCandidates/12"
           }
-        ]
+        ],
+        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
       },
       {
         "kind": "politicians",
@@ -1361,46 +1649,10 @@
             "path": "data/research/politician-candidates/pass-292-identity-audit.json",
             "pointer": "/candidates/1"
           }
-        ]
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-hwang-ho-hyeon",
-        "field": "researchStatus",
-        "rootValue": "candidate-identifed-from-1949-primary",
-        "incomingValue": "IDENTIFIED",
-        "incomingProvenance": [
-          {
-            "path": "data/research/candidates/run79-landreform-legislator-network.json",
-            "pointer": "/candidates/3"
-          }
-        ]
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-kang-uk-jung",
-        "field": "researchStatus",
-        "rootValue": "candidate-identifed-from-1949-primary",
-        "incomingValue": "IDENTIFIED",
-        "incomingProvenance": [
-          {
-            "path": "data/research/candidates/run79-landreform-legislator-network.json",
-            "pointer": "/candidates/2"
-          }
-        ]
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-kim-bong-jo",
-        "field": "researchStatus",
-        "rootValue": "candidate-identifed-from-1949-primary",
-        "incomingValue": "IDENTIFIED",
-        "incomingProvenance": [
-          {
-            "path": "data/research/candidates/run79-landreform-legislator-network.json",
-            "pointer": "/candidates/0"
-          }
-        ]
+        ],
+        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
       },
       {
         "kind": "politicians",
@@ -1413,111 +1665,10 @@
             "path": "data/research/candidates/pass-158-special-committee-actors.json",
             "pointer": "/candidates/4"
           }
-        ]
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-lee-beom-seok-1900",
-        "field": "researchStatus",
-        "rootValue": "candidate-cross-domain",
-        "incomingValue": "IDENTIFIED_duplicate_candidate_review",
-        "incomingProvenance": [
-          {
-            "path": "data/politicians/pass-235-addendum-b-culture-speaker-minister.json",
-            "pointer": "/politicians/2"
-          }
-        ]
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-lee-hoon-gu",
-        "field": "researchStatus",
-        "rootValue": "candidate-legislative-actor",
-        "incomingValue": "IDENTIFIED",
-        "incomingProvenance": [
-          {
-            "path": "data/research/candidates/run79-landreform-legislator-network.json",
-            "pointer": "/candidates/11"
-          }
-        ]
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-lee-jong-hyeon",
-        "field": "researchStatus",
-        "rootValue": "candidate-identifed-from-1949-primary",
-        "incomingValue": "IDENTIFIED",
-        "incomingProvenance": [
-          {
-            "path": "data/research/candidates/run79-landreform-legislator-network.json",
-            "pointer": "/candidates/7"
-          }
-        ]
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-lee-won-hong",
-        "field": "researchStatus",
-        "rootValue": "candidate-identifed-from-1949-primary",
-        "incomingValue": "IDENTIFIED",
-        "incomingProvenance": [
-          {
-            "path": "data/research/candidates/run79-landreform-legislator-network.json",
-            "pointer": "/candidates/5"
-          }
-        ]
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-park-hae-geuk",
-        "field": "researchStatus",
-        "rootValue": "candidate-identifed-from-1949-primary",
-        "incomingValue": "IDENTIFIED",
-        "incomingProvenance": [
-          {
-            "path": "data/research/candidates/run79-landreform-legislator-network.json",
-            "pointer": "/candidates/4"
-          }
-        ]
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-r141-jeon-jin-han",
-        "field": "researchStatus",
-        "rootValue": "DISCOVERED",
-        "incomingValue": "EXISTING_ID_EVIDENCE_DEEPENED",
-        "incomingProvenance": [
-          {
-            "path": "data/politicians/run223-apr1952-actors.json",
-            "pointer": "/actors/2"
-          }
-        ]
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-r189-jo-gwang-seop",
-        "field": "researchStatus",
-        "rootValue": "DISCOVERED",
-        "incomingValue": "EXISTING_ID_EVIDENCE_DEEPENED",
-        "incomingProvenance": [
-          {
-            "path": "data/politicians/run223-apr1952-actors.json",
-            "pointer": "/actors/3"
-          }
-        ]
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-seo-yong-gil",
-        "field": "researchStatus",
-        "rootValue": "candidate-legislative-actor",
-        "incomingValue": "IDENTIFIED",
-        "incomingProvenance": [
-          {
-            "path": "data/research/candidates/run79-landreform-legislator-network.json",
-            "pointer": "/candidates/8"
-          }
-        ]
+        ],
+        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
       },
       {
         "kind": "politicians",
@@ -1530,7 +1681,10 @@
             "path": "data/research/candidates/pass-45-economic-planning-actors.json",
             "pointer": "/candidates/9"
           }
-        ]
+        ],
+        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
       },
       {
         "kind": "politicians",
@@ -1543,20 +1697,10 @@
             "path": "data/politicians/pass-234-1952-dec-legislative-actors.json",
             "pointer": "/politicians/3"
           }
-        ]
-      },
-      {
-        "kind": "politicians",
-        "id": "pol-yun-jae-geun",
-        "field": "researchStatus",
-        "rootValue": "candidate-legislative-actor",
-        "incomingValue": "IDENTIFIED_existing_deepened",
-        "incomingProvenance": [
-          {
-            "path": "data/politicians/pass-235-1953-assembly-cabinet-actors.json",
-            "pointer": "/politicians/0"
-          }
-        ]
+        ],
+        "decision": "NORMALIZED_TO_STANDARD_RESEARCH_STATUS",
+        "status": "RECONCILED_VARIANT",
+        "recordedAt": "2026-11-22"
       }
     ],
     "policyExcludedCanonicalIds": [
@@ -2009,6 +2153,54 @@
         ]
       },
       {
+        "id": "cand172-choe-chang-sun",
+        "name": "CH'OE Chang-sun",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/research/branch-snapshots/pr74-data-politicians.json"
+        ]
+      },
+      {
+        "id": "cand172-choe-chol-kun",
+        "name": "CH'OE Ch'ol-kun",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/research/branch-snapshots/pr74-data-politicians.json"
+        ]
+      },
+      {
+        "id": "cand172-han-hong-i",
+        "name": "HAN Hong-I",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/research/branch-snapshots/pr74-data-politicians.json"
+        ]
+      },
+      {
+        "id": "cand172-walter-jhung",
+        "name": "Walter JHUNG",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/research/branch-snapshots/pr74-data-politicians.json"
+        ]
+      },
+      {
+        "id": "cand172-won-yong-tok",
+        "name": "WON Yong Tok",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/research/branch-snapshots/pr74-data-politicians.json"
+        ]
+      },
+      {
+        "id": "cand172-yu-chang-chun",
+        "name": "Yu Chang Chun",
+        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
+        "sourcePaths": [
+          "data/research/branch-snapshots/pr74-data-politicians.json"
+        ]
+      },
+      {
         "id": "class-1953-ceb-korean-members",
         "name": null,
         "reason": "COLLECTIVE_DISCOVERY_CLASS_NOT_PERSON",
@@ -2297,18 +2489,519 @@
         ]
       }
     ],
-    "policyExcludedCount": 92
+    "policyExcludedCount": 98
+  },
+  "branchSnapshotSync": {
+    "sourcePath": "data/research/branch-snapshots/pr74-data-politicians.json",
+    "sourceBranch": "research/run225-june1952-cabinet-unc-pow",
+    "sourceCommit": "eb0efe46d2345811fa9eae8d22508b51dc0b4a8b",
+    "sourceBlobSha": "60f9d08e86b678fbff2cc2fb073ef6ffaa844f01",
+    "branchRecordCount": 453,
+    "addedToRoot": 5,
+    "addedIds": [
+      "pol-chang-myon",
+      "pol-cho-byeong-ok",
+      "pol-han-pyo-wook",
+      "pol-kim-yong-shik",
+      "pol-shin-tae-young"
+    ],
+    "variantRefsAdded": 442,
+    "variantRefIds": [
+      "cand-r161-cheon-byeong-gyu",
+      "cand-r161-han-tae-yeon",
+      "cand-r161-lee-gyeong-ho",
+      "cand-r161-park-byeong-gwon",
+      "cand-r161-park-il-gyeong",
+      "cand-r174-eom-byeong-hak",
+      "cand-r174-gwon-jung-don",
+      "cand-r174-jo-ju-yeong",
+      "cand-r174-kim-bong-jae",
+      "cand-r174-lee-gap-seong",
+      "cand-r174-lee-jong-hyeong",
+      "cand-r174-park-jeong-geun",
+      "cand-r198-jang-du-gwan",
+      "cand-r198-kim-chang-ryong",
+      "cand-r198-kim-yun-geun-youth1950",
+      "cand-r198-lee-jeong-il",
+      "cand-r198b-choi-won-bong",
+      "cand-r198b-jang-chang-guk",
+      "cand-r198b-kang-chang-yong",
+      "cand-r198b-kim-hyeong-deok",
+      "cand-r198b-lee-jong-yeong",
+      "cand-r198b-oh-je-do",
+      "cand-r198b-oh-wi-yeong",
+      "cand-r198b-so-seon-gyu",
+      "cand-r199-han-gyeok-man",
+      "cand-r199-kim-ho-u",
+      "cand-r199-kim-seong-sam",
+      "cand-r199-kim-tae-sun",
+      "cand-r199-lee-hae-ik",
+      "cand-r199-lee-ho-1950",
+      "cand-r199-park-chang-rok",
+      "cand-r199-seo-sang-hwan",
+      "cand-r199-ye-gwan-su",
+      "cand-r199b-bae-je-in",
+      "cand-r199b-cho-man-sik",
+      "cand-r199b-kang-chang-hui-defense",
+      "cand-r199b-kim-il-defense",
+      "cand-r199b-lee-gu-ha",
+      "cand-r199b-lee-yeong-sik",
+      "cand-r200b-gong-jin-hang",
+      "cand-r200b-jeon-deuk-su",
+      "cand-r200b-kim-su-hak",
+      "cand-r200b-lee-byeong-ho",
+      "cand-r200b-lee-gwang-seon",
+      "cand-r200b-lee-u-ik",
+      "cand-r200b-oh-han-yeong",
+      "cand-r201-byun-dong-jo",
+      "cand-r201-kim-sae-sun",
+      "cand-r213-hong-chang-seop",
+      "cand-r213-jo-byeong-mun",
+      "cand-r213-kang-yong-ok",
+      "cand-r213-kim-il-hwan-1951-defense",
+      "cand-r213-kim-yong-hwa",
+      "cand-r213-lee-hwal",
+      "cand-r213-lee-yu-seon",
+      "cand-r213-park-seung-ha",
+      "cand-r213-son-young-su-busan",
+      "cand-r213-tae-wan-seon",
+      "cand-r213-yang-woo-jeong",
+      "cand-r214-kim-jong-sun",
+      "cand-r215-jo-jeong-hun",
+      "cand-r215-kim-ji-tae",
+      "cand-r215-kim-yang-su",
+      "cand-r215-lee-chae-o",
+      "cand-r216-an-man-bok",
+      "cand-r216-hong-beom-hui",
+      "cand-r216-jang-seok-yun",
+      "cand-r216-kim-du-heon",
+      "cand-r216-lee-sun-yong",
+      "cand-r216-no-gi-yong",
+      "cand-r218-hwang-bu-gil",
+      "cand-r218-im-cheol-ho",
+      "cand-r218-jang-yun-geol",
+      "cand-r218-ji-cheol-geun",
+      "cand-r218-kim-tae-dong",
+      "cand-r218-kim-yun-geun-justice1951",
+      "cand-r218-lee-il-woo",
+      "cand-r218-lee-jong-chan-martial1951",
+      "cand-r218-lee-sang-deok",
+      "cand-r218-min-bok-gi-1951",
+      "cand-r218-ryu-tae-ha",
+      "cand-r223-han-gyeong-rok",
+      "cand-r223-hyeon-geun",
+      "cand-r223-jeong-jin-dong",
+      "cand-r223-lee-pan-ho",
+      "cand-r223-won-yong-seok",
+      "cand-r224-an-sang-han",
+      "cand-r224-defection-seo-sang-deok",
+      "cand-r224-jeong-sun-jo",
+      "cand-r224-jo-byeong-mun-1952",
+      "cand-r224-jo-sun-1952",
+      "cand-r224-lee-chung-hwan-1952",
+      "cand-r224-seo-sang-jun",
+      "cand-r224-shin-gak-hyu",
+      "cand-r225-baek-nam-sik-1952",
+      "cand-r225-kim-il-ro-1952",
+      "pol-ahn-jae-hong",
+      "pol-ahn-seung-gwan-r159",
+      "pol-baek-nam-hun",
+      "pol-chae-byong-duk",
+      "pol-chang-do-yeong",
+      "pol-cho-bong-am",
+      "pol-cho-heon-yeong",
+      "pol-cho-jeong-hwan-1892",
+      "pol-cho-jin-man",
+      "pol-cho-si-hyeong",
+      "pol-cho-so-ang",
+      "pol-cho-yeong-gyu-r159",
+      "pol-choi-byeong-hwan-r159",
+      "pol-choi-chang-seop-1955-inquiry",
+      "pol-choi-duk-shin",
+      "pol-choi-gyeong-rok",
+      "pol-choi-in-kyu",
+      "pol-choi-soon-ju",
+      "pol-choi-un-gyo",
+      "pol-choi-yong-duk",
+      "pol-chung-il-hyeong",
+      "pol-chung-il-kwon",
+      "pol-gil-jae-ho",
+      "pol-go-jae-bong-1956",
+      "pol-han-hui-seok",
+      "pol-hong-chin-ki",
+      "pol-hong-seong-ha",
+      "pol-hong-yeong-seop-1955-daegu",
+      "pol-hwang-ho-hyeon",
+      "pol-hyon-seok-ho",
+      "pol-im-hwa-su",
+      "pol-im-song-bon",
+      "pol-jeong-heon-ju-r159",
+      "pol-jin-heon-sik",
+      "pol-ju-do-yun-r159",
+      "pol-kang-gyeong-ok-r159",
+      "pol-kang-uk-jung",
+      "pol-kim-baek-il",
+      "pol-kim-bong-jo",
+      "pol-kim-bop-rin",
+      "pol-kim-chae-yong-r159",
+      "pol-kim-chang-su-r159",
+      "pol-kim-cheol-su-1950",
+      "pol-kim-do-yeon",
+      "pol-kim-do-yeon-1960-candidate",
+      "pol-kim-dong-ha",
+      "pol-kim-dong-jo",
+      "pol-kim-hong-il",
+      "pol-kim-jang-yeol-1949",
+      "pol-kim-jeong-ryeol-1917",
+      "pol-kim-jin-man-1918",
+      "pol-kim-jong-cheol-1920",
+      "pol-kim-jong-o",
+      "pol-kim-jong-pil",
+      "pol-kim-min-1955-daegu",
+      "pol-kim-nam-jung-r159",
+      "pol-kim-seong-eun",
+      "pol-kim-shin",
+      "pol-kim-si-hyeon-r159",
+      "pol-kim-tae-seon",
+      "pol-kim-won-tae-1909",
+      "pol-kim-yak-su",
+      "pol-kim-yong-sun-1962",
+      "pol-kim-yun-geun",
+      "pol-koo-yong-seo",
+      "pol-kwak-yong-ju",
+      "pol-lee-beom-seok",
+      "pol-lee-beom-seok-1900",
+      "pol-lee-han-bin-1957",
+      "pol-lee-han-lim",
+      "pol-lee-ho-jin-r159",
+      "pol-lee-hoon-gu",
+      "pol-lee-jong-hyeon",
+      "pol-lee-ju-il",
+      "pol-lee-kang-hak",
+      "pol-lee-mun-won",
+      "pol-lee-sang-gyu-legal-adviser",
+      "pol-lee-seok-je",
+      "pol-lee-seong-ju-r159",
+      "pol-lee-seong-woo-r159",
+      "pol-lee-soon-taek",
+      "pol-lee-won-hong",
+      "pol-lim-byong-jik",
+      "pol-o-beom-su-r159",
+      "pol-oh-chi-seong",
+      "pol-oh-seok-ju",
+      "pol-paek-nak-jun-1960-candidate",
+      "pol-paek-nam-gyu",
+      "pol-paik-sun-yup",
+      "pol-paik-too-chin",
+      "pol-park-cheol-ung-r159",
+      "pol-park-chung-hee",
+      "pol-park-hae-geuk",
+      "pol-park-hon-yong",
+      "pol-park-ok-kyu",
+      "pol-park-se-gyeong-r159",
+      "pol-park-sun-cheon",
+      "pol-park-sun-seok-1955",
+      "pol-pyun-yong-tae",
+      "pol-r139-heo-jeong",
+      "pol-r139-jang-taek-sang",
+      "pol-r141-ahn-ho-sang",
+      "pol-r141-baek-seong-uk",
+      "pol-r141-eom-sang-seop",
+      "pol-r141-gu-yeong-suk",
+      "pol-r141-han-dong-seok",
+      "pol-r141-han-jong-so",
+      "pol-r141-hwang-nam-pal",
+      "pol-r141-jang-gi-yeong",
+      "pol-r141-jeon-jin-han",
+      "pol-r141-jeong-jung-seop",
+      "pol-r141-jo-jae-cheon",
+      "pol-r141-kwon-seung-ryeol",
+      "pol-r141-lee-chung-hwan",
+      "pol-r141-lee-ik-heung",
+      "pol-r141-lee-jin-su",
+      "pol-r141-lee-yun-yeong",
+      "pol-r141-park-sul-eum",
+      "pol-r141-shin-do-seong",
+      "pol-r141-shin-ik-hui",
+      "pol-r141-yu-jin-san",
+      "pol-r141-yun-man-seok",
+      "pol-r143-kim-jong-hoe",
+      "pol-r143-yun-myeong-un",
+      "pol-r148-an-yong-dae",
+      "pol-r148-choi-won-ho",
+      "pol-r148-jo-gyeong-gyu",
+      "pol-r148-jo-sun",
+      "pol-r148-kim-yeong-sam",
+      "pol-r148-kwak-sang-hun",
+      "pol-r148-lee-cheol-seung",
+      "pol-r148-lee-jae-hak",
+      "pol-r148-park-yeong-chul",
+      "pol-r148-yu-seung-jun",
+      "pol-r148-yu-sun-sik",
+      "pol-r148-yun-seong-sun",
+      "pol-r149-cabinet-01",
+      "pol-r149-cabinet-02",
+      "pol-r149-cabinet-03",
+      "pol-r149-cabinet-04",
+      "pol-r149-cabinet-05",
+      "pol-r149-cabinet-06",
+      "pol-r149-cabinet-07",
+      "pol-r149-cabinet-08",
+      "pol-r149-cabinet-09",
+      "pol-r149-cabinet-10",
+      "pol-r149-cabinet-11",
+      "pol-r149-cabinet-12",
+      "pol-r149-cabinet-13",
+      "pol-r149-cabinet-14",
+      "pol-r154-kim-tong-hyon",
+      "pol-r164-bae-eun-hui",
+      "pol-r164-choi-du-seon",
+      "pol-r164-ham-sang-hun",
+      "pol-r164-hwang-seong-su",
+      "pol-r164-ji-cheong-cheon",
+      "pol-r164-kim-dong-seong",
+      "pol-r164-kim-hun",
+      "pol-r164-kim-hwal-lan",
+      "pol-r164-kim-jong-won",
+      "pol-r164-kim-jun-yeon",
+      "pol-r164-kim-seok-won",
+      "pol-r164-kim-seong-su",
+      "pol-r164-kim-su-hak",
+      "pol-r164-lee-gyu-gap",
+      "pol-r164-lee-jin-uk",
+      "pol-r164-lee-jong-uk",
+      "pol-r164-lim-heung-sun",
+      "pol-r164-lim-yeong-sin",
+      "pol-r164-na-yong-gyun",
+      "pol-r164-nam-song-hak",
+      "pol-r164-park-man-won",
+      "pol-r164-seo-min-ho",
+      "pol-r164-shin-gyu-sik",
+      "pol-r164-shin-tae-ik",
+      "pol-r164-yang-seong-bong",
+      "pol-r164-yun-yeong-seon",
+      "pol-r165-lee-jun-sik",
+      "pol-r166-jeong-jae-wan",
+      "pol-r166-ji-yeon-hae",
+      "pol-r166-joo-seok-gyun",
+      "pol-r166-kim-seok-gwan",
+      "pol-r166-kim-yong-jung",
+      "pol-r166-pyongyang-an-byeong-seop",
+      "pol-r166-pyongyang-im-jeong-deuk",
+      "pol-r166-pyongyang-jeon-yeo-chan",
+      "pol-r166-pyongyang-kim-gi-yeop",
+      "pol-r166-pyongyang-kim-yeong-il",
+      "pol-r166-pyongyang-lee-hak-cheon",
+      "pol-r166-pyongyang-lee-heon-ju",
+      "pol-r166-pyongyang-lee-yong-seo",
+      "pol-r166-pyongyang-o-jin-hwan",
+      "pol-r166-pyongyang-seon-u-yo",
+      "pol-r166-pyongyang-u-je-sun",
+      "pol-r166-pyongyang-yun-do-seong",
+      "pol-r175-ha-sang-yong",
+      "pol-r175-im-gi-bong",
+      "pol-r175-im-mun-hwan",
+      "pol-r175-kim-yu-taek",
+      "pol-r175-shin-jung-mok",
+      "pol-r175-shin-tae-ak",
+      "pol-r175-yu-hwan",
+      "pol-r178-choe-gyu-ok",
+      "pol-r178-choe-tae-gyu",
+      "pol-r178-jeong-jun",
+      "pol-r178-kim-dong-won",
+      "pol-r178-kim-gwang-jun",
+      "pol-r178-kim-gyo-hyeon",
+      "pol-r178-kim-jae-hak",
+      "pol-r178-kim-jong-seon",
+      "pol-r178-kim-yeong-dong",
+      "pol-r178-kwon-tae-hui",
+      "pol-r178-lee-yeong-jun",
+      "pol-r178-park-chan-hyeon",
+      "pol-r178-park-hae-jeong",
+      "pol-r178-park-yun-won",
+      "pol-r178b-choe-beom-sul",
+      "pol-r178b-hong-sun-ok",
+      "pol-r178b-jeong-hyeon-mo",
+      "pol-r178b-kim-gyeong-do",
+      "pol-r178b-lee-jeong-rae",
+      "pol-r178b-lee-seok",
+      "pol-r178b-mun-si-hwan",
+      "pol-r178b-sin-sang-hak",
+      "pol-r178b-yun-jae-uk",
+      "pol-r178c-choe-chang-sun",
+      "pol-r178c-choe-yeong-tae",
+      "pol-r179-jo-guk-hyeon",
+      "pol-r179-kim-cheol-su-1949",
+      "pol-r179-kim-ok-ju",
+      "pol-r179-kim-su-seon",
+      "pol-r179-lee-gang-u",
+      "pol-r179-lee-in",
+      "pol-r179-lee-seong-hak",
+      "pol-r179-park-sun-seok-1949",
+      "pol-r179-park-u-gyeong",
+      "pol-r179b-hong-hui-jong",
+      "pol-r179b-hwang-du-yeon",
+      "pol-r179b-jeong-gwang-ho",
+      "pol-r179b-jo-han-baek",
+      "pol-r179b-seo-u-seok",
+      "pol-r179b-song-jae-su",
+      "pol-r179d-kim-hyo-seok",
+      "pol-r179d-lee-nyeong-jin",
+      "pol-r180-cha-gyeong-mo",
+      "pol-r180-kim-gu",
+      "pol-r180b-baek-hong-gyun",
+      "pol-r180b-cho-gyeong-han",
+      "pol-r180b-cho-yong-ha",
+      "pol-r180b-choi-myeong-sik",
+      "pol-r180b-choi-neung-jin",
+      "pol-r180b-han-tong-suk",
+      "pol-r180b-jang-hui-chang",
+      "pol-r180b-kim-jang-yeol-socialist",
+      "pol-r180b-lee-byeong-hong",
+      "pol-r180b-na-jae-ha",
+      "pol-r180b-shin-chang-gyun",
+      "pol-r180b-shin-hyeon-mo",
+      "pol-r180b-yang-u-jo",
+      "pol-r181-baek-gi-ho",
+      "pol-r181-do-seok-gyun",
+      "pol-r181-ji-dae-hyeong",
+      "pol-r181-kang-seon-myeong",
+      "pol-r181-kim-ik-jin",
+      "pol-r181-kim-sang-don",
+      "pol-r181-lee-cheol-won",
+      "pol-r181-no-il-hwan",
+      "pol-r181-park-jun-seop",
+      "pol-r181-seo-jeong-hui",
+      "pol-r182-jo-jeong-hwan",
+      "pol-r183c-jang-gyeong-geun",
+      "pol-r183c-kim-byeong-ro",
+      "pol-r184-kim-myeong-dong",
+      "pol-r184-kim-sang-deok",
+      "pol-r184-lee-jae-hyeong",
+      "pol-r184-yu-seong-gap",
+      "pol-r184-yun-byeong-gu",
+      "pol-r185-baek-gwan-su",
+      "pol-r185-choi-guk-hyeon",
+      "pol-r185-kim-byeong-hoe",
+      "pol-r185-kim-mun-pyeong",
+      "pol-r185-kim-yong-jae",
+      "pol-r185-lee-byeong-gwan",
+      "pol-r185-shin-seong-gyun",
+      "pol-r187-cho-si-won",
+      "pol-r187-myeong-je-se",
+      "pol-r187-oh-ha-yeong",
+      "pol-r187-shin-heung-u",
+      "pol-r187-won-se-hun",
+      "pol-r188-lee-seong-deuk",
+      "pol-r188-min-gyeong-sik",
+      "pol-r188-seo-i-hwan",
+      "pol-r188b-choe-heon-gil",
+      "pol-r188b-hwang-byeong-gyu",
+      "pol-r188b-jeong-u-il",
+      "pol-r188b-kim-cheol",
+      "pol-r188b-kwon-byeong-ro",
+      "pol-r188b-lee-jong-rin",
+      "pol-r188b-lee-ui-sang",
+      "pol-r188b-lee-yo-han",
+      "pol-r188b-song-bong-hae",
+      "pol-r189-jang-yeon-song",
+      "pol-r189-jo-gwang-seop",
+      "pol-r189-lee-si-yeong",
+      "pol-r189-o-seong-hwan",
+      "pol-r189-yu-hong",
+      "pol-r189-yun-gi-seop",
+      "pol-r189x-kim-gwang-seop",
+      "pol-r189x-kim-gyu-sik",
+      "pol-r189x-lee-jong-il",
+      "pol-r189x-park-seung-su",
+      "pol-r189x-u-deok-sun",
+      "pol-r190-gang-su-chang",
+      "pol-r190-ji-chang-seon",
+      "pol-r190-kim-chang-je",
+      "pol-r190-kim-ju-gyeong",
+      "pol-r190-lee-gang-hyeon",
+      "pol-r190-lee-seok-gang",
+      "pol-r191-kim-chae-chang",
+      "pol-r191-kim-tae-hong",
+      "pol-r191-lee-in-gyu",
+      "pol-rhee-syngman",
+      "pol-seo-beom-seok-r159",
+      "pol-seo-sang-il",
+      "pol-seo-yong-gil",
+      "pol-shin-do-hwan",
+      "pol-shin-sung-mo",
+      "pol-sohn-won-yil",
+      "pol-song-byeong-seop",
+      "pol-song-chi-myeong-1956",
+      "pol-song-in-sang",
+      "pol-song-yo-chan",
+      "pol-yang-yu-chan",
+      "pol-yeo-un-hong",
+      "pol-yi-hyeong-geun-1956",
+      "pol-yi-ki-pung",
+      "pol-yoo-ji-gwang",
+      "pol-yu-chung-ryul",
+      "pol-yu-jae-heung-1921",
+      "pol-yu-jin-o",
+      "pol-yu-yang-su",
+      "pol-yun-chi-yeong",
+      "pol-yun-gil-jung-r159",
+      "pol-yun-hyeong-nam-r159",
+      "pol-yun-jae-geun",
+      "pol-yun-posun"
+    ],
+    "skipped": [
+      {
+        "id": "cand172-yu-chang-chun",
+        "pointer": "/politicians/222",
+        "reason": "POLICY_EXCLUDED_OR_MISSING_NAME"
+      },
+      {
+        "id": "cand172-choe-chang-sun",
+        "pointer": "/politicians/223",
+        "reason": "POLICY_EXCLUDED_OR_MISSING_NAME"
+      },
+      {
+        "id": "cand172-won-yong-tok",
+        "pointer": "/politicians/224",
+        "reason": "POLICY_EXCLUDED_OR_MISSING_NAME"
+      },
+      {
+        "id": "cand172-han-hong-i",
+        "pointer": "/politicians/225",
+        "reason": "POLICY_EXCLUDED_OR_MISSING_NAME"
+      },
+      {
+        "id": "cand172-choe-chol-kun",
+        "pointer": "/politicians/226",
+        "reason": "POLICY_EXCLUDED_OR_MISSING_NAME"
+      },
+      {
+        "id": "cand172-walter-jhung",
+        "pointer": "/politicians/227",
+        "reason": "POLICY_EXCLUDED_OR_MISSING_NAME"
+      }
+    ],
+    "missingAfterSync": [
+      "cand172-choe-chang-sun",
+      "cand172-choe-chol-kun",
+      "cand172-han-hong-i",
+      "cand172-walter-jhung",
+      "cand172-won-yong-tok",
+      "cand172-yu-chang-chun"
+    ],
+    "status": "PARTIAL"
   },
   "rootFileHashes": {
-    "data/events.json": "afec52a19aa66a757f41c9ec8542bc237b516949c33b5200c7ea8cb4a79de74f",
-    "data/politicians.json": "8f8c8146486008ffc66b84ac4342fe41d28d7d29771a403d1e4e20c241588271"
+    "data/events.json": "48c1b4c7bff0d226a47abe2cf8060e317da57a36a610d9782cd135ea2ebef67a",
+    "data/politicians.json": "87c21a54ea3b8d788cdd615f93f4ee3d4e39dd704cd73c0b13a0b7b4957c8067"
   },
   "rootFileCounts": {
     "events": 2808,
-    "politicians": 976
+    "politicians": 1342
   },
   "sourceIntegrationStatus": "FULL_INTEGRATION_INCOMPLETE",
-  "sourceConflictedIds": 584,
+  "sourceConflictedIds": 615,
   "sourceAuxiliaryRecords": 666,
-  "policy": "Only named pol-/cand- records enter the domestic politician root. Foreign, collective, legacy, placeholder and unnamed candidates remain preserved in source/canonical layers with explicit exclusion reasons. Scalar conflicts are not silently merged."
+  "policy": "Only named pol-/cand- records enter the domestic politician root. PR #74 branch snapshot records are imported without identity promotion; shared variants retain source pointers. Typed note/status variants are preserved in fieldVariantHistory; unresolved scalar conflicts remain explicit."
 }

@@ -16884,8 +16884,8 @@
       },
       "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 2,
-        "conflicted": 13
+        "integrated": 1,
+        "conflicted": 14
       }
     },
     {
@@ -16908,8 +16908,8 @@
       },
       "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 2,
-        "conflicted": 2
+        "integrated": 1,
+        "conflicted": 3
       }
     },
     {
@@ -18876,8 +18876,8 @@
       },
       "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 7,
-        "conflicted": 3
+        "integrated": 0,
+        "conflicted": 10
       }
     },
     {
@@ -18900,8 +18900,8 @@
       },
       "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 4,
-        "conflicted": 27
+        "integrated": 0,
+        "conflicted": 31
       }
     },
     {
@@ -18924,8 +18924,8 @@
       },
       "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 4,
-        "conflicted": 10
+        "integrated": 2,
+        "conflicted": 12
       }
     },
     {
@@ -18980,7 +18980,7 @@
       "path": "data/politicians/run330-kim-seong-su-central-links.json",
       "sha256": "daae15997a05a0d526e57c38a3f2da2d059401b8092d9cbef8cfb907ac0d8f52",
       "bytes": 1668,
-      "status": "CANONICAL_MATERIALIZED",
+      "status": "CONFLICT_REVIEW_REQUIRED",
       "targetLayer": "politician_candidate_source",
       "targetRegistries": [
         "politicians",
@@ -18996,8 +18996,8 @@
       },
       "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 1,
-        "conflicted": 0
+        "integrated": 0,
+        "conflicted": 1
       }
     },
     {
@@ -19140,8 +19140,8 @@
       },
       "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 2,
-        "conflicted": 2
+        "integrated": 1,
+        "conflicted": 3
       }
     },
     {
@@ -19170,8 +19170,8 @@
     },
     {
       "path": "data/politicians.json",
-      "sha256": "4bd3ab376f006318835644d9f3a1761fb9829e8c3bddc43cd8478240505841f4",
-      "bytes": 1803502,
+      "sha256": "8f8c8146486008ffc66b84ac4342fe41d28d7d29771a403d1e4e20c241588271",
+      "bytes": 1803807,
       "status": "OPERATIONAL_ROOT_PRESERVED",
       "targetLayer": "operational_root",
       "targetRegistries": [
@@ -20807,8 +20807,8 @@
     },
     {
       "path": "data/research/ACTIVE_RESEARCH_HANDOFF.json",
-      "sha256": "0f3ef3e07c82218a4eb40b1fe5c7f98e5def2c5f2a6a62a910dc1ac10bd11393",
-      "bytes": 32033,
+      "sha256": "578ea2cd35ec1cc2d2f4d1a9116c75d2c606062335f6510b4d4868720173dafb",
+      "bytes": 32402,
       "status": "AUXILIARY_JSON_INDEXED",
       "targetLayer": "research_supporting_layer",
       "targetRegistries": [
@@ -21605,6 +21605,29 @@
       }
     },
     {
+      "path": "data/research/branch-snapshots/pr74-data-politicians.json",
+      "sha256": "3cf8aceee5754f77d462155839d71c2de42308e346ec05b3c3519260a5c8bd81",
+      "bytes": 1025476,
+      "status": "CONFLICT_REVIEW_REQUIRED",
+      "targetLayer": "branch_snapshot_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 453,
+        "organizations": 0,
+        "roles": 0
+      },
+      "unmappedRecordCount": 0,
+      "centralMapping": {
+        "integrated": 378,
+        "conflicted": 75
+      }
+    },
+    {
       "path": "data/research/candidate-politician-graph.json",
       "sha256": "c67e373f6c052c6f3d04bb05b6033f82dcfbc508c4df542bae84cbe725d0fe99",
       "bytes": 11299,
@@ -22086,8 +22109,8 @@
       },
       "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 17,
-        "conflicted": 6
+        "integrated": 16,
+        "conflicted": 7
       }
     },
     {
@@ -23805,8 +23828,8 @@
       },
       "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 4,
-        "conflicted": 8
+        "integrated": 3,
+        "conflicted": 9
       }
     },
     {
@@ -24710,8 +24733,8 @@
       },
       "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 9,
-        "conflicted": 5
+        "integrated": 8,
+        "conflicted": 6
       }
     },
     {
@@ -25646,8 +25669,8 @@
       },
       "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 14,
-        "conflicted": 3
+        "integrated": 13,
+        "conflicted": 4
       }
     },
     {
@@ -25838,8 +25861,8 @@
       },
       "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 8,
-        "conflicted": 4
+        "integrated": 0,
+        "conflicted": 12
       }
     },
     {
@@ -31712,8 +31735,8 @@
       },
       "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 12,
-        "conflicted": 11
+        "integrated": 11,
+        "conflicted": 12
       }
     },
     {
@@ -55609,8 +55632,8 @@
       },
       "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 8,
-        "conflicted": 2
+        "integrated": 7,
+        "conflicted": 3
       }
     },
     {
