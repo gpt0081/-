@@ -2,14 +2,14 @@
   "schemaVersion": 1,
   "scope": "Every inventoried source file; structural triage only",
   "canonicalSyncVerified": false,
-  "sourceFiles": 4116,
+  "sourceFiles": 4273,
   "statusCounts": {
     "BLOCKED_ID_CONFLICT": 515,
-    "INDEXED_NOT_CANONICAL_VERIFIED": 1744,
-    "NON_JSON_PRESERVED": 1067,
+    "INDEXED_NOT_CANONICAL_VERIFIED": 1748,
+    "NON_JSON_PRESERVED": 1188,
     "OPERATIONAL_ROOT_PRESERVED": 2,
     "PRESIDENTIAL_BACKBONE_PRESERVED": 1,
-    "UNMAPPED_AUXILIARY_OR_PARTIAL": 787
+    "UNMAPPED_AUXILIARY_OR_PARTIAL": 819
   },
   "sources": [
     {
@@ -65754,8 +65754,8 @@
     },
     {
       "path": "data/politicians.json",
-      "sha256": "0ebca1b4fada469de137c3bb4c24d98f6ead4e7b37536b48454d83b1c8d418ee",
-      "bytes": 3248768,
+      "sha256": "ecf196164e00fa3a7a98510c969371b79959252277e317d2f4a9278a6ef901cb",
+      "bytes": 3991422,
       "recordCounts": {
         "documents": 0,
         "claims": 0,
@@ -68197,6 +68197,30 @@
       "path": "data/research/audits/run81-land-legal-consistency.json",
       "sha256": "ca741712e2da87179265f28b1056f593a7b6253928af498ed2503bbfae7eba0e",
       "bytes": 913,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "research_supporting_layer",
+      "targetRegistries": [
+        "documents",
+        "claims",
+        "events",
+        "politicians",
+        "organizations"
+      ],
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/audits/run91-provenance-and-dedup.json",
+      "sha256": "4a7b5cf24e6fea834edaea9ea77ebd32facfb1e25bf0833c8e3188d6c1bc9d5a",
+      "bytes": 1381,
       "recordCounts": {
         "documents": 0,
         "claims": 0,
@@ -76871,6 +76895,111 @@
       "unintegratedReason": null
     },
     {
+      "path": "data/research/candidates/run115-assembly-additional-actors.json",
+      "sha256": "f09761f9596ecfddecd390ea437b3a327718230182faa9c5b549f5fa4140a465",
+      "bytes": 2322,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians",
+        "roles"
+      ],
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/candidates/run115-constitutional-actors.json",
+      "sha256": "49b6d2fa13bd7468ed6e2b2809d17c7c885f13eafc9c02c26bbbb4d206c45977",
+      "bytes": 455,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 2,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians",
+        "roles"
+      ],
+      "status": "INDEXED_NOT_CANONICAL_VERIFIED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/candidates/run122-1954-january-ministers.json",
+      "sha256": "478feffa029b9a85e2e821a6f942f78b3d640d2f25d2771c999cab2bcf3ad1f9",
+      "bytes": 2505,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 10,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians",
+        "roles"
+      ],
+      "status": "INDEXED_NOT_CANONICAL_VERIFIED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/candidates/run122-minister-identification.json",
+      "sha256": "dd3d3ff9f1412d0f290f9a664e3aeecb2826b6f2e2b5a01a036148722e37a0ba",
+      "bytes": 299,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 2,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians",
+        "roles"
+      ],
+      "status": "INDEXED_NOT_CANONICAL_VERIFIED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/candidates/run122b-1954-debate-actors.json",
+      "sha256": "b07faca47011ce58345e60f884e37c6cdb972c0cd597febecc8bd90377019492",
+      "bytes": 1781,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 4,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians",
+        "roles"
+      ],
+      "status": "INDEXED_NOT_CANONICAL_VERIFIED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
       "path": "data/research/candidates/run79-landreform-legislator-network.json",
       "sha256": "ff206e77dc0dc07060c5082da8371745feae32fa8b22678e15cdda903d1029fe",
       "bytes": 13564,
@@ -77432,6 +77561,294 @@
       "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
       "conflicts": [],
       "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/corrections/run126e-defense-minister.json",
+      "sha256": "aabf520205ed02e90875e53d4809fb8622cb183220c4813b5dc2ae229ce37c54",
+      "bytes": 886,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "research_supporting_layer",
+      "targetRegistries": [
+        "documents",
+        "claims",
+        "events",
+        "politicians",
+        "organizations"
+      ],
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/corrections/run132-archive-id-audit.md",
+      "sha256": "7c4b2f0be7dc0cdd2da14e25b14ad085851cc6c99cbc348a50ada631911058bd",
+      "bytes": 172,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "research_supporting_layer",
+      "targetRegistries": [
+        "documents",
+        "claims",
+        "events",
+        "politicians",
+        "organizations"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/corrections/run132-uri-rule.json",
+      "sha256": "09240262e7c6120fef0bb53debbe0bf27e187d598659701eee55ec063d1e449e",
+      "bytes": 208,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "research_supporting_layer",
+      "targetRegistries": [
+        "documents",
+        "claims",
+        "events",
+        "politicians",
+        "organizations"
+      ],
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/corrections/run133-first-pass.json",
+      "sha256": "39d6f60db857cda998345854c4dc86d7e4837a1984b05ea1cc567749ee7bb227",
+      "bytes": 182,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "research_supporting_layer",
+      "targetRegistries": [
+        "documents",
+        "claims",
+        "events",
+        "politicians",
+        "organizations"
+      ],
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/corrections/run133-source-audit.json",
+      "sha256": "914146175d60ad178e60a3178c638d7d537cc8048606e51c92a1280606c15a8e",
+      "bytes": 1326,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "research_supporting_layer",
+      "targetRegistries": [
+        "documents",
+        "claims",
+        "events",
+        "politicians",
+        "organizations"
+      ],
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/corrections/run136-event-authority-correction.md",
+      "sha256": "127cf8d998f4c5ee669e32870246f999d615e47ee861bd24378cc6c35fd25a4e",
+      "bytes": 609,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "research_supporting_layer",
+      "targetRegistries": [
+        "documents",
+        "claims",
+        "events",
+        "politicians",
+        "organizations"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/corrections/run168-source-access-audit.md",
+      "sha256": "1b7330e04b4188280906846b6a465f5fa516d15fa83dfa988303813501601952",
+      "bytes": 930,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "research_supporting_layer",
+      "targetRegistries": [
+        "documents",
+        "claims",
+        "events",
+        "politicians",
+        "organizations"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/corrections/run169-source-repair.md",
+      "sha256": "51abd70bda84ddddef12d1e979a5dd370741bbd35f0fe3b2531edf0d273b4d70",
+      "bytes": 1829,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "research_supporting_layer",
+      "targetRegistries": [
+        "documents",
+        "claims",
+        "events",
+        "politicians",
+        "organizations"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/corrections/run170-provenance-and-date.md",
+      "sha256": "e6d87ec764a8d764e00367acf299127f5b0bdf9bd061d6a789ae9d1b5f973edb",
+      "bytes": 2089,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "research_supporting_layer",
+      "targetRegistries": [
+        "documents",
+        "claims",
+        "events",
+        "politicians",
+        "organizations"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/corrections/run171-1952-chronology-provenance.md",
+      "sha256": "4ea2b8befa0b41da8da39ea36b16fab8fdd6e76d9279a145cc7eaef625baeb52",
+      "bytes": 2900,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "research_supporting_layer",
+      "targetRegistries": [
+        "documents",
+        "claims",
+        "events",
+        "politicians",
+        "organizations"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/corrections/run189-election-table.md",
+      "sha256": "d254085fb7b6faac30bf6095745c569026c5ce3147a01b6c599e80ee786ca7a4",
+      "bytes": 1156,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "research_supporting_layer",
+      "targetRegistries": [
+        "documents",
+        "claims",
+        "events",
+        "politicians",
+        "organizations"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/corrections/run190-document-dedup-and-actor-backlink.md",
+      "sha256": "93a81ac31656d723a1df3e7a67f1266827f1d26ee7ede6290e5623eb40934459",
+      "bytes": 876,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "research_supporting_layer",
+      "targetRegistries": [
+        "documents",
+        "claims",
+        "events",
+        "politicians",
+        "organizations"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
     },
     {
       "path": "data/research/corrections/run224-identity-guardrail.json",
@@ -78236,6 +78653,54 @@
       "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
       "conflicts": [],
       "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/debt-addenda/run177.md",
+      "sha256": "143abde8a4937e948040e35345aa7e2572932fee28ee5897d1b12c91290f3074",
+      "bytes": 1434,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "research_supporting_layer",
+      "targetRegistries": [
+        "documents",
+        "claims",
+        "events",
+        "politicians",
+        "organizations"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/debt-addenda/run178.md",
+      "sha256": "cfd9a6fc27cf4730a1ec87b6b4ca5fd30b34c3eaf1f4c26744f7fb9732753f5e",
+      "bytes": 2643,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "research_supporting_layer",
+      "targetRegistries": [
+        "documents",
+        "claims",
+        "events",
+        "politicians",
+        "organizations"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
     },
     {
       "path": "data/research/depth/f1-rhee-high-priority-leads-pass8.json",
@@ -83580,6 +84045,30 @@
       "unintegratedReason": null
     },
     {
+      "path": "data/research/history-debt/INDEX-run139.md",
+      "sha256": "1a449e1b107102eca3522e5a079a1ca95d45430b6837b63a1482d48b8a2b556f",
+      "bytes": 297,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
       "path": "data/research/history-debt/pass-255h-open-leads.md",
       "sha256": "9db41efd106738aee6bbe69a26ea90ec9244b1e37f3a2c609d624d6b45d79555",
       "bytes": 896,
@@ -83703,6 +84192,3270 @@
       "path": "data/research/history-debt/pass-258f-unresolved.json",
       "sha256": "2f597c10728f8fd55d653537112358e2bc6d92575b17567f2485379d0982ab8f",
       "bytes": 2514,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/history-debt/run108-addendum-2.md",
+      "sha256": "df3a0541919f0722c8450cfd9aefebebf8982a838d0f4d72b8ea27d8fbe20197",
+      "bytes": 1009,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run108-addendum.md",
+      "sha256": "850e52c3b214819892598157c53ec84c557fa9e8efd6557af56566334ff1b738",
+      "bytes": 1166,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run108c-economic-plan.md",
+      "sha256": "44e18f21177000433c3c2572d70a2a4c468488863b459522d37b4dc3541b7907",
+      "bytes": 1070,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run109-addendum.md",
+      "sha256": "4eb1636dcef44bb7094c68cab14ad1a8e9e2e21a7be0464792b499a105a3fe05",
+      "bytes": 1618,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run109b-metadata-correction.md",
+      "sha256": "ddffa4e7f7e80b5ea99d31ef24071074ed646782712b85a4c61939c84983747e",
+      "bytes": 1107,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run110-addendum.md",
+      "sha256": "b0ba48ce7d43147177405a8ab607005dae81d32ba3a64ec4ea637ecc7f47b99a",
+      "bytes": 1735,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run110-election-law.md",
+      "sha256": "8ce68e6b1c0d4e064b9f4f0beb202c00caa795d09d2b409d278c5142121a7b26",
+      "bytes": 1026,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run110-policy-timing.md",
+      "sha256": "dc97342c06abba59015fb923bc2e4ef71f50a975f57ba2a967eccdfc9e290fee",
+      "bytes": 875,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run110e-addendum.md",
+      "sha256": "caf65a218ad8013a36aa5712aa91f4a10795a451df00cfae573390029100a6fa",
+      "bytes": 1740,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run111-bank-design.md",
+      "sha256": "37007df7daa26a2efc17a20e1636a79c2d146221ea58643cb90b65c07c14975e",
+      "bytes": 1215,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run111b-conflict.md",
+      "sha256": "c29f55366b7ac88562a056cb7a69bdcf78993fdbd849dd7d04148f8a8d062de0",
+      "bytes": 1361,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run111c-fed-primary.md",
+      "sha256": "2aedbe424e7fb3217d7c37311f003f3e754d2c5a2abac655418d2fc7737fa0e5",
+      "bytes": 444,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run111d-agriculture-election.md",
+      "sha256": "c0c8d7c49f5b273d8de3c835a54c37c53012968ca59273f39042492fd3f5dcb3",
+      "bytes": 778,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run111e-education-local-budget.md",
+      "sha256": "e10a83ef206890ac24557809d0571b7d9cfec8a6741d0376108d218587c5808c",
+      "bytes": 976,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run111f-civilservice-prosecution.md",
+      "sha256": "52293f3e6a84ba27ef26f9e89081cae5aa39797996b757eaeb8e4a988c6f4c68",
+      "bytes": 692,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run111g-power-forest.md",
+      "sha256": "ac5ec5b992a4f375efb3ce5b6742abb42f5737cabbfdc5c3407a3ef4de2db8ec",
+      "bytes": 476,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run112-stabilization-cabinet.md",
+      "sha256": "da73f2b703783e496e5fad0b1ccca542fb7493e4d612ff41bf35214fc6e6d121",
+      "bytes": 1523,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run113-prewar-1950.md",
+      "sha256": "39a7ae0273cf1f8d39ad513203a61dd38d23ca583a56c4c4fa5de71b8c113452",
+      "bytes": 1834,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run113-stabilization-date-correction.md",
+      "sha256": "47b55e3da0e2bc7965314fb1b0d93bd82ff36ffc14f0af14ad62bdc9efe75e10",
+      "bytes": 1119,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run114-constitutional-bank.md",
+      "sha256": "16e25970bd533b70c403e452736229bca02d9f63cc9c4f5269de24fdb710c5e0",
+      "bytes": 1796,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run115-chronology-contradiction.md",
+      "sha256": "7b584124da475db53566a391a466fad63cf2860a1d5dc177013821af589b4acb",
+      "bytes": 1013,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run115-constitutional-procedure.md",
+      "sha256": "7201621ab2b7daf721fae812c39bdb9405a3b8074c9cd92494bfbcfd62f634b6",
+      "bytes": 1250,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run116-civil-service.md",
+      "sha256": "f6b4f3ade8edf72a7abe59f6412a79f3d284170ccebfe802f042a3c3874a52d6",
+      "bytes": 1084,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run116b-law44-text-correction.md",
+      "sha256": "379f5036f7ff1a37235b5d98b725f616f30414f570d95e185ff19fbd015360ce",
+      "bytes": 1202,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run117-decree277.md",
+      "sha256": "18650e332712296761211f1a9ba223ab59fc441fab83bdd8f706986a68a2289c",
+      "bytes": 1218,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run117-education-implementation.md",
+      "sha256": "93c80615e9d23a95f24fd34324f298c239d5d589ee75c4aacd159a35da9733d9",
+      "bytes": 1303,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run117-education.md",
+      "sha256": "a297b91fef05959b945e08177956345b3d6c9832603fedc6c78032391d6c3cf7",
+      "bytes": 1208,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run117-law103.md",
+      "sha256": "a407a2709f44b1607c482a0c53a9956b32df53d7ea660097a2d2d97882698d12",
+      "bytes": 983,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run117-law44-source-audit.md",
+      "sha256": "14f6d6d17abfeae6ab81dde3e654fd3eda06002c902a396b25ab3dfc3233c974",
+      "bytes": 1123,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run118-aid-election.md",
+      "sha256": "8b316b08bb50d11b810adb4adbf15bb3a4bea52ba5c1e02147a16ab82ce4e004",
+      "bytes": 1443,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run118-korean-crosschecks.md",
+      "sha256": "5a97d5d1a375c1977e0a46d6578c61db4666456c2b43b09adb42db1927d43fbb",
+      "bytes": 970,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run119-elections-banking.md",
+      "sha256": "d66c9c656608b10f01497c4ae4e46f56172052970029347e195bec3478b3c34c",
+      "bytes": 1073,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run120-june1950-audit.md",
+      "sha256": "5384aeb880a515aa68ee7766f965058813e46987917cee0019d401f50fe51b79",
+      "bytes": 2023,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run121-bok-legal-source-audit.md",
+      "sha256": "86799936fee3ac7db545f086d391ff633421448ca426cfae88673c75c6753a66",
+      "bytes": 999,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run121b-vote-date-conflict.md",
+      "sha256": "e44528855598b4f513c704bd1bc7390deb81f45a2a41049b825dc7eaf38751a2",
+      "bytes": 1146,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run122-1954-source-conflicts.md",
+      "sha256": "5e2d5dceafd8b2f1fc627b117850521c7f36ee8b0f41caa2fb77e778a5732baa",
+      "bytes": 983,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run122b-parliamentary-originals-corrections.md",
+      "sha256": "7c3fa67bb0f522f3b8cf807dbc2e13c86a3751e3846ff001c42d82490a7d0c59",
+      "bytes": 1810,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run123-april1950.md",
+      "sha256": "702b7c3ea5d57fda981d6e58880de92848f7f8f9448df3e78e1103a5f7e311c2",
+      "bytes": 1241,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run124-party-statistics-1954.md",
+      "sha256": "8ac1f3c2bc29d8eedbe1b6fd939f23f214b853c8b4cff1592f8bf3a44e396dbe",
+      "bytes": 3219,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run124c-december1951-a.md",
+      "sha256": "5114440c5e173671534abd4c8dc606a610383c91966baef0b7b1b1797f1f9e11",
+      "bytes": 814,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run124d-geochang-property.md",
+      "sha256": "58be451c2bc32f6cfad9b355d66018c010619b45aea07e266145401c87968863",
+      "bytes": 930,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run125-local-election-source-conflicts.md",
+      "sha256": "3570775bdde20bb0b76af16f421b495b5c6133e6eccffd02a3c8316b68078018",
+      "bytes": 1124,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run125b-wake-un-access.md",
+      "sha256": "c735b155b74e509175cbfe1fd178bc5038bdb2423f2e72b28cfb4e72cf65e435",
+      "bytes": 634,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run125c-economic-period-conflict.md",
+      "sha256": "06d88b69e024425b966eced607bc4df3012442ade0f4e010411265d13f3ea8dc",
+      "bytes": 878,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run125d-command-consultation.md",
+      "sha256": "a1006e09ba6f048a2ce8e8ffaa3e459f2a41e2262707db6b9f2df145ffc5cc59",
+      "bytes": 1103,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run125e-welfare-figures.md",
+      "sha256": "6f9bb0fb34563a4a6b0696890c17745ad08db545dc09c79784a2a2da22848787",
+      "bytes": 584,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run125f-education.md",
+      "sha256": "9ee487533a6c0636fdcbbcff797980d663e4820d7ace8623e86221e20bd2aa6b",
+      "bytes": 614,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run125h-land-law-correction.md",
+      "sha256": "9ed5b37b414a95eff96220c64f77358d802fb49aac89b657e23f36f975b332e4",
+      "bytes": 760,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run126-breadth.md",
+      "sha256": "a1e4f796da4532408286585f38edef59e1e7a9a7b98950fb3916285c46d67153",
+      "bytes": 2156,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run126-councils.md",
+      "sha256": "75461bbbfeee7462d66e7f3630862792d83f3ee4273a94d7b8945a70cb0a3ad0",
+      "bytes": 1364,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run126-labor.md",
+      "sha256": "3963cecba944c6bfb39de54d06122bbfd149484e285c0e3ccf3213fb25782577",
+      "bytes": 728,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run126e-corrections.md",
+      "sha256": "f81b97db7ce71dfa7ed741c660394554281e23358b917260b97b2b1206714b4d",
+      "bytes": 1318,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run127-addendum.md",
+      "sha256": "8223fe0cd255a6d548e228aeaaead7bc2671a8a63127f1e563ee6751dd205f0b",
+      "bytes": 2354,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run128-addendum.md",
+      "sha256": "694c41f5df1d0a34054214934051c625e82679b8f3017a389d49d952a74a99b0",
+      "bytes": 1111,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run129-parliament-process.md",
+      "sha256": "88b058d6536600d00f0a267605a75693d355b67d5441037876ff0f31824bdb23",
+      "bytes": 2072,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run130-initial.md",
+      "sha256": "398b65923479b1137db73c142aae0fa8a67317b21eeda6142474cbaed968f32c",
+      "bytes": 445,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run131-addendum.md",
+      "sha256": "185be16fce7b7d7d1c1c97dcdd17b56b97454991803849527ca0aa8e7caa1bf8",
+      "bytes": 2403,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run131b-addendum.md",
+      "sha256": "16f0465c3bed39a2031eabc54580b8906235dfa80d10aa728bbfaf4cdc21d186",
+      "bytes": 1785,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run131c-addendum.md",
+      "sha256": "f49bc01e85ce2686b15099c42382f9990a135ab9627f9ba70df056bc323e9fca",
+      "bytes": 1811,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run132-provenance.md",
+      "sha256": "44e74c68af496185849fc7c74dfae9b5dedd637264a1444de057003a97601ff2",
+      "bytes": 680,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run133-extension.md",
+      "sha256": "6e46f1895e0729d95b6eada5c14889b434b41f628cb1ff60255fa575d7984d40",
+      "bytes": 930,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run133-source-integrity.md",
+      "sha256": "1656db5fe59c8dc3eabca71cfe90467060e7408af893844efb95020b7d61f2a5",
+      "bytes": 2085,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run134-source-integrity.md",
+      "sha256": "9494987bcc656885218d17c441ae749902d208a8dfe7f0bdee12ebe95e36c2d9",
+      "bytes": 487,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run135-july4-source-conflicts.md",
+      "sha256": "951140cd8f51e5e0a5bb6a6444942ae6e26e1b18daa99bb0d04d45eba264e782",
+      "bytes": 1554,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run136-local-policy-addendum.md",
+      "sha256": "f9d4da64057dc7d0a1784faf65afe343f8f375aeb5a284be9943e36d30744d80",
+      "bytes": 1066,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run136-primary-reconciliation.md",
+      "sha256": "a78d82dddc90a5302e75cbba5e2a0587ce3a12f5c0b2b9695031f31d10dda7ac",
+      "bytes": 968,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run137-local-audit.md",
+      "sha256": "1d1104f326d66f3c3b92118bcb88c97460860d47b961902e87b523b8dabcca2f",
+      "bytes": 1458,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run139-wartime-civilian-governance.md",
+      "sha256": "7916e4abc86bb4bae6f5a6067120606c8f139a8a5d817a7dc9805ae1b4d25094",
+      "bytes": 882,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run140-health-labor.json",
+      "sha256": "71a49f31fdde848c7ff5123eeb714ef25ed363a5b0ee894566f156291a013db3",
+      "bytes": 1370,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/history-debt/run142-agriculture-uncertainty.json",
+      "sha256": "d27766e775c2bfcb596384c10a580a63398356f2cc7e2a5ee9d940a4a3c26577",
+      "bytes": 1145,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/history-debt/run142-date-audit.json",
+      "sha256": "45a1492c1082f76d8c964ac8f280039c74546c536d397804cad2146ccc85936c",
+      "bytes": 705,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/history-debt/run145b-domestic-policy.md",
+      "sha256": "3041c54fe37780df7e85bb59391064400cdc6172c7222505613f20cd6ce4b0a9",
+      "bytes": 966,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run145c-followups.md",
+      "sha256": "82a37b7278e7702dbfcc9b1f662d4b63a60fc7560b64e30f6c83d44d10cede0f",
+      "bytes": 116,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run146-landreform.md",
+      "sha256": "201a5f038950b7c8172b89883a1f45fd2ef73b1b8440f9f1baab2ae3b2684d19",
+      "bytes": 1312,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run146-other-governance.md",
+      "sha256": "85f6369086725ab54db7d361f61d899c7bb0f4bc12530d6d2bd3dc63093980cc",
+      "bytes": 1089,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run147-governance-metadata.md",
+      "sha256": "9f622af4d6db6a4a4fa998f3f6cb4993ed21e451ae8547ad5b7598f2b120dff0",
+      "bytes": 2588,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run148-followup.md",
+      "sha256": "d0d458e54f0843ae70a250fc66e2d6bb64697815ef992ec38e834c16e9b77d8b",
+      "bytes": 1614,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run149-followup.md",
+      "sha256": "bf1bce60a9a677ee6f849cac31b3653aa2fbf9abfeef8886432763d90a5c6b01",
+      "bytes": 834,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run156-followup.md",
+      "sha256": "997ac444b9ac6ec41cd4247ef3ac7a736d6000a15cb6df4fb110d6fe8f6c0dc8",
+      "bytes": 1330,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run161-addendum.md",
+      "sha256": "66621be9c37df20be93742227ee8b6444b2979dc857c3af4819cc1960992c79d",
+      "bytes": 2003,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run162-addendum.md",
+      "sha256": "2f13d23f50ee909ceb725ab3d4d84e4c02052fdde9b377d3892dc2bfb90de0e4",
+      "bytes": 8851,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run165-un-october-corrections.md",
+      "sha256": "4515174d40336e62d9714487be4256df977fea433ab45e8056df23ad7af7df1d",
+      "bytes": 1309,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run166-corrections.md",
+      "sha256": "a9cfbbedbd7cf2f44145726639a68b35b57b2566e5bc00d2f65b33913ee938d6",
+      "bytes": 6303,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run167-followup.md",
+      "sha256": "14fbf3f7ac1076c8a4367f4cdd20a16e323b0f6ff6e66bb516e8e0a2c0554178",
+      "bytes": 2921,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run168-followup.md",
+      "sha256": "fc3270376153a81378583e2446f8e11be054341fe2f0509f0a6b74d51d598588",
+      "bytes": 1917,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run169-followup.md",
+      "sha256": "a0439cb3f9f17fde7cbc84ad68b850844239020b479ae152d0b764a224d2a2c2",
+      "bytes": 3454,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run192-earlywar-source-conflicts.md",
+      "sha256": "1640ebd53aebf42ca1ea785ee6f1b96ed178eb9ed3f85a584b28c8c707b93867",
+      "bytes": 2673,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run193-parliament-budget.md",
+      "sha256": "c3beb70be95239b3051cd4223949ac729c6113e2f2ac98d3521ae5106ddd845d",
+      "bytes": 1282,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run194-budget-constitutional-health.md",
+      "sha256": "33482e2b75f7ccc2b4db052c1a2ca90c1241bb1e92f32e006f91aaa342bb0072",
+      "bytes": 2069,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run194b-constitutional-social.md",
+      "sha256": "ac8f6c5be7f2be500c5c67f36538b37a313500fc99dafcc8724d61db86538ea2",
+      "bytes": 2559,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run194c-decree-crosswalk.md",
+      "sha256": "615e0cdac08832c98af61c5930a3e2ea680cea7fb47c4afe05874b42c527052a",
+      "bytes": 1185,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run195-us-uncok-war-cabinet.md",
+      "sha256": "4e21fe78874a2dce0c29bf4c710ceea26376e8cfd0b521e43d09fb7673e12c46",
+      "bytes": 1618,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run195b-korean-originals.md",
+      "sha256": "735f4c7b673b473232f6188297b4098eb229815e77ff618b6746e409e5474e97",
+      "bytes": 1490,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run195c-un-procedural.md",
+      "sha256": "908c3f685b6967f23294a40872ea8a4754458ffcbde4442606266c343e41edb4",
+      "bytes": 584,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run195d-policy-corrections.md",
+      "sha256": "e20338a4e2b4f753d44f4238160d3c0ebcd266c3197c011de775b2926c8678c4",
+      "bytes": 1600,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run195e-wartime-relocation-law.md",
+      "sha256": "62c1f6921992f03a18d1468d99fd0b6535dca33e3e4017943a59dacfaa9c2efd",
+      "bytes": 1576,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run198-corrections.md",
+      "sha256": "612c1ce62759efa8ef91aaaafb7053b1500e9ec1ae794ca17a52dd220f2a668e",
+      "bytes": 6068,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run198b-corrections.md",
+      "sha256": "b8a4cdd02dd0a04124e974ee4e1b7bb6c4501befdbb86f96b5bd4def5e79c9b6",
+      "bytes": 2330,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run199-nov8-14.md",
+      "sha256": "0c7d79d971fccb89024d9fe811af434fb96041bc45afa109199f9f4b3bf36bd9",
+      "bytes": 3769,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run199b-nov15-21.md",
+      "sha256": "d65aa3a1c9352b5cada5029c2b5a13d4f2f66d7665590282875bad9e529df2b8",
+      "bytes": 3080,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run200-nov21-29.md",
+      "sha256": "d3f1118d83e047451edcfa56aafe7d5f0fca2a976f154cc00fbfeac0d661a15d",
+      "bytes": 1945,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run200b.md",
+      "sha256": "acb9b9959ce0b4ae92a80c4c74903a35a07332ffab35eafafe8ee846d2ce6db2",
+      "bytes": 2000,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run201.md",
+      "sha256": "7b8496eba9ed6a2fcf347f8c1fedd7f2b3cbfc5e23d15bc519083b1d487a4675",
+      "bytes": 9420,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run202.md",
+      "sha256": "74d65cd9c465b642213a2171a82055eca53b52e537206b3321061500c5536fa6",
+      "bytes": 5084,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run203.md",
+      "sha256": "52b3777540d3687c0e5dedab515d5891f7ce571cf26fbfa21add002cb703ec40",
+      "bytes": 2570,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run203b.md",
+      "sha256": "8de34989afbe1908f917a5e610b86bdef8dd56564e2484b11888a9e7fcc86b8f",
+      "bytes": 1060,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run203c.md",
+      "sha256": "73a73edb24fd6fb66f520cc4ba214c847e5c180aabfe3e00676c8f3cc42cadc7",
+      "bytes": 1094,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run203d.md",
+      "sha256": "f5f730a9e855f5b48011bc72152e15d3594fb0d26db99a6a9ef22b8af8d96db3",
+      "bytes": 823,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run204-un-vote.md",
+      "sha256": "b05aca42c1281b01a1a5fdc6805b19f8f7c9018e1f2d20279eba53dcfcc03314",
+      "bytes": 1681,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run205-april-command.md",
+      "sha256": "b31fdd6e90ce2a5613e066a1b2cdfbf00a22866bdc40f3a8334648f412d10136",
+      "bytes": 1273,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run205b-domestic.md",
+      "sha256": "e26159d4b0675a0a62b649ca78ffed515093acfd839872bc1088694fdad821a0",
+      "bytes": 2243,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run205e-may22.md",
+      "sha256": "327c13daab12663ae94f7e69d9a1bad9cc79b74aef1a368362582228791d8d0a",
+      "bytes": 1882,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run206-may-june1951.json",
+      "sha256": "dc7001d74756dd3a2b0b98972ff7b3cdc2c76c877e496936f8bb81f50afc545f",
+      "bytes": 5059,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/history-debt/run206b-june02-05.json",
+      "sha256": "c41c61f84d26e7ec3c846901381645a7bf6a58ecc3c8596d5333e869bef2b665",
+      "bytes": 1584,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/history-debt/run206c-national-archives.json",
+      "sha256": "34b5debe421d1a1b2d80eb14f15221ba7e0982762f9562fa232d63d5a45923e4",
+      "bytes": 485,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/history-debt/run206d-economic-biography.json",
+      "sha256": "06adc8557d42e3cc23459e42daed1d8fe8e354ff95dc37fcc0000d0f7b433f25",
+      "bytes": 965,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/history-debt/run207-19510607.json",
+      "sha256": "dc9293727cd1e383178fe8ac1fbdd28698efaeeeb0eb73bc992cfda5c2ef7d89",
+      "bytes": 2932,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/history-debt/run208-1951-june.json",
+      "sha256": "ffc75bdaf256842aff2dcc9a16380de96480ae62cac55b9863a330d8dc2fe330",
+      "bytes": 4298,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/history-debt/run209-addendum.md",
+      "sha256": "813e70edd94884e69690b42e327724b243ee0d994a8e2074f0a8f4ca725be9b8",
+      "bytes": 6494,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/research/history-debt/run210-july02-07.json",
+      "sha256": "6a399ee6dea8e7473ad36a62ceed4d6dd7e3faca62add7139f95beb922741c17",
+      "bytes": 6540,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/history-debt/run211-july10-31.json",
+      "sha256": "bc724ac134bcb5a316770b7d380c94815988e1e563bf6b65f1129d18a05f4f6d",
+      "bytes": 14545,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/history-debt/run212-august.json",
+      "sha256": "e4e5af032c5e5bae692d1ab033c8e951509b897faf238afef60d5c2bb7735890",
+      "bytes": 14616,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/history-debt/run213-aug25-31.json",
+      "sha256": "dee76ee3fbc6740fc3b870e20d7b5082921c25e65cc158221420535b72884c71",
+      "bytes": 3538,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/history-debt/run213-augsep.json",
+      "sha256": "41134f12117de6e73d61969d50a1565fb0272ccb581722cdc01b0ca69e3f94ff",
+      "bytes": 7431,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/history-debt/run214-september.json",
+      "sha256": "aa60dde6dbfb7154b457f350fe9a42c270f51c694b357c0ba4c9e89832a4ef78",
+      "bytes": 3063,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/history-debt/run215-followup.json",
+      "sha256": "08c94feca20d8152156e36d37e1da7a97c9db39e623756f5af3495ecfe797635",
+      "bytes": 3818,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/history-debt/run215-oct1951.json",
+      "sha256": "5fa616bb2b174aa632af26a85c02927c2de3b57c5992380ee46e2c9137751802",
+      "bytes": 11591,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/history-debt/run215-second-wave.json",
+      "sha256": "ed477a70c12bc7cbc271b0bc817d465cec941dad170a1415893dca97f53c0195",
+      "bytes": 3689,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/history-debt/run216-second-wave.json",
+      "sha256": "3c412dd2c94d30f052117c4d0a9c6cc5a7ae07b701a666491d7545b49da63fef",
+      "bytes": 5193,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/history-debt/run216.json",
+      "sha256": "893443b459931f94ca0a077a7db68ed8685ddd27e7deadc2c04a482e73f26f79",
+      "bytes": 4574,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/history-debt/run217.json",
+      "sha256": "1fa25dea6bb107e279598521e03503fa3b354ce256ee3dd0ff13dedae4ddacd0",
+      "bytes": 4907,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/history-debt/run218.json",
+      "sha256": "5506a38a9a6f0075d3f71990ca0b04d583173768d373423cfcbc684afafa9c28",
+      "bytes": 7541,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/history-debt/run219.json",
+      "sha256": "fc84c7d6ba4a5c689f0a2710de93fae2e1f359531cbe5fe1932456449e9f3e2d",
+      "bytes": 6738,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/history-debt/run220.json",
+      "sha256": "d8cafd1db301ab1e2238526ef5e916b0746ce70ec0b0356c072155ecc4a41f4a",
+      "bytes": 6658,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/history-debt/run221.json",
+      "sha256": "923adb3c4ddee7e44d0173900f91e48941308799fb69f2a38b35bb0ad20887cf",
+      "bytes": 20661,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "history_debt_layer",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/history-debt/run222.json",
+      "sha256": "999f7543a0042885ac398d802bcfcf280ff3df2a8cc19c39b471cf88112b149e",
+      "bytes": 5213,
       "recordCounts": {
         "documents": 0,
         "claims": 0,

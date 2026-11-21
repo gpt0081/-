@@ -2,21 +2,21 @@
   "schemaVersion": 1,
   "registryType": "operational_layers",
   "selectionPolicy": "ALL_SIDECAR_FILES_PRESERVED; EXPLICIT_ID_LINKS_ONLY; UNLINKED_FILES_RETAINED",
-  "sourceCount": 920,
-  "linkedCount": 432,
-  "unlinkedCount": 488,
+  "sourceCount": 1057,
+  "linkedCount": 449,
+  "unlinkedCount": 608,
   "layerCounts": {
     "annals": 426,
     "coverage": 23,
     "evidence": 192,
-    "history_debt": 27,
+    "history_debt": 164,
     "lead_queue": 252
   },
   "relationCounts": {
-    "candidatePoliticianIds": 1090,
-    "relatedClaimIds": 84,
-    "relatedDocumentIds": 1575,
-    "relatedEventIds": 1382,
+    "candidatePoliticianIds": 1099,
+    "relatedClaimIds": 90,
+    "relatedDocumentIds": 1629,
+    "relatedEventIds": 1387,
     "relatedOrganizationIds": 1,
     "relatedRoleIds": 0
   },
@@ -329,6 +329,34 @@
         {
           "path": "data/research/leads/pass-230-next-lead-queue.json",
           "sha256": "39f870e39cf8104ad7cb737a37d1fd8a6e5628b8a725e34deecfde57b68a0c2e"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-0280dbcf3bdf8351f7ba4a70",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run212-august.json",
+      "sourceSha256": "e4e5af032c5e5bae692d1ab033c8e951509b897faf238afef60d5c2bb7735890",
+      "sourceBytes": 14616,
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run212-august.json",
+          "sha256": "e4e5af032c5e5bae692d1ab033c8e951509b897faf238afef60d5c2bb7735890"
         }
       ]
     },
@@ -1241,6 +1269,62 @@
       ]
     },
     {
+      "id": "sidecar-098e574eff350246f84105f4",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run216.json",
+      "sourceSha256": "893443b459931f94ca0a077a7db68ed8685ddd27e7deadc2c04a482e73f26f79",
+      "sourceBytes": 4574,
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run216.json",
+          "sha256": "893443b459931f94ca0a077a7db68ed8685ddd27e7deadc2c04a482e73f26f79"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-099c8b78cdd9d20c3de37363",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run165-un-october-corrections.md",
+      "sourceSha256": "4515174d40336e62d9714487be4256df977fea433ab45e8056df23ad7af7df1d",
+      "sourceBytes": 1309,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run165-un-october-corrections.md",
+          "sha256": "4515174d40336e62d9714487be4256df977fea433ab45e8056df23ad7af7df1d"
+        }
+      ]
+    },
+    {
       "id": "sidecar-0a1b74eb53897255b6f51787",
       "layer": "annals",
       "sourcePath": "data/annals/1949-1950-government-organization-run179.md",
@@ -1346,6 +1430,34 @@
       ]
     },
     {
+      "id": "sidecar-0a33a40768aac224c902c0e9",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run200-nov21-29.md",
+      "sourceSha256": "d3f1118d83e047451edcfa56aafe7d5f0fca2a976f154cc00fbfeac0d661a15d",
+      "sourceBytes": 1945,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run200-nov21-29.md",
+          "sha256": "d3f1118d83e047451edcfa56aafe7d5f0fca2a976f154cc00fbfeac0d661a15d"
+        }
+      ]
+    },
+    {
       "id": "sidecar-0a6a3ae4c88cfc2c66f895eb",
       "layer": "lead_queue",
       "sourcePath": "data/research/leads/pass-240-next-queue.json",
@@ -1410,6 +1522,34 @@
         {
           "path": "data/annals/1962-1963-governance-run161.md",
           "sha256": "f2d60937a3b7c8b987d32f4d995caddcd8550e0b96c6a38711b3bbd3bc116bf5"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-0ae61992a9a6500ec9daae38",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run117-decree277.md",
+      "sourceSha256": "18650e332712296761211f1a9ba223ab59fc441fab83bdd8f706986a68a2289c",
+      "sourceBytes": 1218,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run117-decree277.md",
+          "sha256": "18650e332712296761211f1a9ba223ab59fc441fab83bdd8f706986a68a2289c"
         }
       ]
     },
@@ -1584,6 +1724,36 @@
       ]
     },
     {
+      "id": "sidecar-0b8cae34c4d90ee1fb58e748",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run200b.md",
+      "sourceSha256": "acb9b9959ce0b4ae92a80c4c74903a35a07332ffab35eafafe8ee846d2ce6db2",
+      "sourceBytes": 2000,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "EXPLICITLY_LINKED",
+      "candidatePoliticianIds": [
+        "pol-r164-kim-su-hak"
+      ],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run200b.md",
+          "sha256": "acb9b9959ce0b4ae92a80c4c74903a35a07332ffab35eafafe8ee846d2ce6db2"
+        }
+      ]
+    },
+    {
       "id": "sidecar-0c60ff676353653cf799b514",
       "layer": "lead_queue",
       "sourcePath": "data/research/leads/pass-232-20261028-next-lead-queue.json",
@@ -1668,6 +1838,34 @@
         {
           "path": "data/annals/hong-seong-ha-run92.json",
           "sha256": "eea4b87acb949747e7f40744534158946eec3734cfaa659cfd17718a8c842de4"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-0d6a83488b018b8b87396d18",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run125d-command-consultation.md",
+      "sourceSha256": "a1006e09ba6f048a2ce8e8ffaa3e459f2a41e2262707db6b9f2df145ffc5cc59",
+      "sourceBytes": 1103,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run125d-command-consultation.md",
+          "sha256": "a1006e09ba6f048a2ce8e8ffaa3e459f2a41e2262707db6b9f2df145ffc5cc59"
         }
       ]
     },
@@ -2255,6 +2453,34 @@
       ]
     },
     {
+      "id": "sidecar-12f47cc3fbee9970f75d0637",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run168-followup.md",
+      "sourceSha256": "fc3270376153a81378583e2446f8e11be054341fe2f0509f0a6b74d51d598588",
+      "sourceBytes": 1917,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run168-followup.md",
+          "sha256": "fc3270376153a81378583e2446f8e11be054341fe2f0509f0a6b74d51d598588"
+        }
+      ]
+    },
+    {
       "id": "sidecar-130bce8360f518720fe5a0b6",
       "layer": "coverage",
       "sourcePath": "data/research/coverage/run225.json",
@@ -2473,6 +2699,34 @@
         {
           "path": "data/annals/1952-oct-nov-un-diplomacy-reconstruction.md",
           "sha256": "801339f6cebb039f41c456d83b654e883d96fb09eb27d16803e3eb35038d468e"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-144b8669a2d0f384198a5d2d",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run142-date-audit.json",
+      "sourceSha256": "45a1492c1082f76d8c964ac8f280039c74546c536d397804cad2146ccc85936c",
+      "sourceBytes": 705,
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run142-date-audit.json",
+          "sha256": "45a1492c1082f76d8c964ac8f280039c74546c536d397804cad2146ccc85936c"
         }
       ]
     },
@@ -2786,6 +3040,34 @@
       ]
     },
     {
+      "id": "sidecar-17e584b1b872d2aca207460a",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run108-addendum.md",
+      "sourceSha256": "850e52c3b214819892598157c53ec84c557fa9e8efd6557af56566334ff1b738",
+      "sourceBytes": 1166,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run108-addendum.md",
+          "sha256": "850e52c3b214819892598157c53ec84c557fa9e8efd6557af56566334ff1b738"
+        }
+      ]
+    },
+    {
       "id": "sidecar-1852c5c741ccf3f35d1647f5",
       "layer": "annals",
       "sourcePath": "data/annals/1948-1963-immigration-legal-transition-run182.md",
@@ -2913,6 +3195,34 @@
       ]
     },
     {
+      "id": "sidecar-18d4606a3dc0550df437d975",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run203d.md",
+      "sourceSha256": "f5f730a9e855f5b48011bc72152e15d3594fb0d26db99a6a9ef22b8af8d96db3",
+      "sourceBytes": 823,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run203d.md",
+          "sha256": "f5f730a9e855f5b48011bc72152e15d3594fb0d26db99a6a9ef22b8af8d96db3"
+        }
+      ]
+    },
+    {
       "id": "sidecar-18ffdf1df5a015a3437771d6",
       "layer": "lead_queue",
       "sourcePath": "data/research/leads/pass-229c-next-lead-queue.json",
@@ -3032,6 +3342,34 @@
       ]
     },
     {
+      "id": "sidecar-1976baf6beb29901f2f6edd3",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run111-bank-design.md",
+      "sourceSha256": "37007df7daa26a2efc17a20e1636a79c2d146221ea58643cb90b65c07c14975e",
+      "sourceBytes": 1215,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run111-bank-design.md",
+          "sha256": "37007df7daa26a2efc17a20e1636a79c2d146221ea58643cb90b65c07c14975e"
+        }
+      ]
+    },
+    {
       "id": "sidecar-1a478cabe022ace89379f1ea",
       "layer": "annals",
       "sourcePath": "data/annals/1960-constitutional-rollcall-run158d.md",
@@ -3136,6 +3474,34 @@
         {
           "path": "data/annals/jeong-jun-run169.md",
           "sha256": "8009126c8b8a19a7aa73c6e6283a3a994bc9833a6e18e898820c136f7c0a09dc"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-1aa3abd2685678283019c1ca",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run194-budget-constitutional-health.md",
+      "sourceSha256": "33482e2b75f7ccc2b4db052c1a2ca90c1241bb1e92f32e006f91aaa342bb0072",
+      "sourceBytes": 2069,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run194-budget-constitutional-health.md",
+          "sha256": "33482e2b75f7ccc2b4db052c1a2ca90c1241bb1e92f32e006f91aaa342bb0072"
         }
       ]
     },
@@ -3358,6 +3724,34 @@
       ]
     },
     {
+      "id": "sidecar-1d395e0c25e97b175d9e20b7",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run218.json",
+      "sourceSha256": "5506a38a9a6f0075d3f71990ca0b04d583173768d373423cfcbc684afafa9c28",
+      "sourceBytes": 7541,
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run218.json",
+          "sha256": "5506a38a9a6f0075d3f71990ca0b04d583173768d373423cfcbc684afafa9c28"
+        }
+      ]
+    },
+    {
       "id": "sidecar-1d68bab3b5f4fabf5fb6611e",
       "layer": "annals",
       "sourcePath": "data/annals/rhee-syngman-run106-breadth.md",
@@ -3547,6 +3941,34 @@
       ]
     },
     {
+      "id": "sidecar-1e6ca7776ca56aa6a8f7fc27",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run142-agriculture-uncertainty.json",
+      "sourceSha256": "d27766e775c2bfcb596384c10a580a63398356f2cc7e2a5ee9d940a4a3c26577",
+      "sourceBytes": 1145,
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run142-agriculture-uncertainty.json",
+          "sha256": "d27766e775c2bfcb596384c10a580a63398356f2cc7e2a5ee9d940a4a3c26577"
+        }
+      ]
+    },
+    {
       "id": "sidecar-1e906dc50121dd2ecf498130",
       "layer": "evidence",
       "sourcePath": "data/evidence/pass-253f-september-actor-evidence.json",
@@ -3660,6 +4082,34 @@
       ]
     },
     {
+      "id": "sidecar-1f22e44bdf6607d01345d7ee",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run118-aid-election.md",
+      "sourceSha256": "8b316b08bb50d11b810adb4adbf15bb3a4bea52ba5c1e02147a16ab82ce4e004",
+      "sourceBytes": 1443,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run118-aid-election.md",
+          "sha256": "8b316b08bb50d11b810adb4adbf15bb3a4bea52ba5c1e02147a16ab82ce4e004"
+        }
+      ]
+    },
+    {
       "id": "sidecar-1f7a0f0de255b4c2e4f04389",
       "layer": "annals",
       "sourcePath": "data/annals/han-tong-suk-run180b.md",
@@ -3687,6 +4137,34 @@
         {
           "path": "data/annals/han-tong-suk-run180b.md",
           "sha256": "2c3d376a5af0c8152ea20e287e7e56a12bbd099f333dbe96d397f28ed9ea486f"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-1f8a444b398761cde02604bf",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run110e-addendum.md",
+      "sourceSha256": "caf65a218ad8013a36aa5712aa91f4a10795a451df00cfae573390029100a6fa",
+      "sourceBytes": 1740,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run110e-addendum.md",
+          "sha256": "caf65a218ad8013a36aa5712aa91f4a10795a451df00cfae573390029100a6fa"
         }
       ]
     },
@@ -3886,6 +4364,34 @@
         {
           "path": "data/research/leads/pass-257o3-1953-finance-originals.json",
           "sha256": "98b7b0a1febf7d96e506e8de44d5c9d55f369f9050ba1882ec16d5f8749cf917"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-219a47316854f45282767eff",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run221.json",
+      "sourceSha256": "923adb3c4ddee7e44d0173900f91e48941308799fb69f2a38b35bb0ad20887cf",
+      "sourceBytes": 20661,
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run221.json",
+          "sha256": "923adb3c4ddee7e44d0173900f91e48941308799fb69f2a38b35bb0ad20887cf"
         }
       ]
     },
@@ -4435,6 +4941,62 @@
       ]
     },
     {
+      "id": "sidecar-26af9f47c9fb71456a3b7a4c",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run128-addendum.md",
+      "sourceSha256": "694c41f5df1d0a34054214934051c625e82679b8f3017a389d49d952a74a99b0",
+      "sourceBytes": 1111,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run128-addendum.md",
+          "sha256": "694c41f5df1d0a34054214934051c625e82679b8f3017a389d49d952a74a99b0"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-272d584c57957e993bafa9bc",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run195e-wartime-relocation-law.md",
+      "sourceSha256": "62c1f6921992f03a18d1468d99fd0b6535dca33e3e4017943a59dacfaa9c2efd",
+      "sourceBytes": 1576,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run195e-wartime-relocation-law.md",
+          "sha256": "62c1f6921992f03a18d1468d99fd0b6535dca33e3e4017943a59dacfaa9c2efd"
+        }
+      ]
+    },
+    {
       "id": "sidecar-2786433dc67d1fd29702a7ea",
       "layer": "annals",
       "sourcePath": "data/annals/myeong-je-se-run187-pilot.md",
@@ -4704,6 +5266,34 @@
         {
           "path": "data/annals/1952-aug26-30-policy-oversight.md",
           "sha256": "eca6312a42a0191e7b6d1d4ccb17e84ff5504691fc0e2fb5aa1b1c77ba281df4"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-2aa226609dfb549fc59096c9",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run147-governance-metadata.md",
+      "sourceSha256": "9f622af4d6db6a4a4fa998f3f6cb4993ed21e451ae8547ad5b7598f2b120dff0",
+      "sourceBytes": 2588,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run147-governance-metadata.md",
+          "sha256": "9f622af4d6db6a4a4fa998f3f6cb4993ed21e451ae8547ad5b7598f2b120dff0"
         }
       ]
     },
@@ -5281,6 +5871,34 @@
       ]
     },
     {
+      "id": "sidecar-2eb3d53042d3207dbdefa7d6",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run115-constitutional-procedure.md",
+      "sourceSha256": "7201621ab2b7daf721fae812c39bdb9405a3b8074c9cd92494bfbcfd62f634b6",
+      "sourceBytes": 1250,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run115-constitutional-procedure.md",
+          "sha256": "7201621ab2b7daf721fae812c39bdb9405a3b8074c9cd92494bfbcfd62f634b6"
+        }
+      ]
+    },
+    {
       "id": "sidecar-2f789aa057173c02f171fc85",
       "layer": "lead_queue",
       "sourcePath": "data/research/leads/pass-235-addendum-i-next-queue.json",
@@ -5430,6 +6048,34 @@
         {
           "path": "data/annals/rhee-syngman-run131c.md",
           "sha256": "8ce049efeb3eefbcbb6fb84e3a5eac3d47052b7f118c3b27c7a34022c0997605"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-303a2ac62c90ef718c35c104",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run125f-education.md",
+      "sourceSha256": "9ee487533a6c0636fdcbbcff797980d663e4820d7ace8623e86221e20bd2aa6b",
+      "sourceBytes": 614,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run125f-education.md",
+          "sha256": "9ee487533a6c0636fdcbbcff797980d663e4820d7ace8623e86221e20bd2aa6b"
         }
       ]
     },
@@ -5773,6 +6419,34 @@
       ]
     },
     {
+      "id": "sidecar-327abebb0dea981b3b63d637",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run206b-june02-05.json",
+      "sourceSha256": "c41c61f84d26e7ec3c846901381645a7bf6a58ecc3c8596d5333e869bef2b665",
+      "sourceBytes": 1584,
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run206b-june02-05.json",
+          "sha256": "c41c61f84d26e7ec3c846901381645a7bf6a58ecc3c8596d5333e869bef2b665"
+        }
+      ]
+    },
+    {
       "id": "sidecar-32c6c1299335f3ebaadecd39",
       "layer": "annals",
       "sourcePath": "data/annals/1954-march-july-policy-election-governance-pass257r.md",
@@ -5854,6 +6528,34 @@
         {
           "path": "data/evidence/kim-hyeon-cheol.json",
           "sha256": "894297f7c01a0504335ba77025e78cec1a5e8a7f6604096f4eff9495bdf191ae"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-3581e86c40643c31064adcf0",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run148-followup.md",
+      "sourceSha256": "d0d458e54f0843ae70a250fc66e2d6bb64697815ef992ec38e834c16e9b77d8b",
+      "sourceBytes": 1614,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run148-followup.md",
+          "sha256": "d0d458e54f0843ae70a250fc66e2d6bb64697815ef992ec38e834c16e9b77d8b"
         }
       ]
     },
@@ -6213,6 +6915,90 @@
       ]
     },
     {
+      "id": "sidecar-39255f76dc8fd6a97e97ac2f",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run219.json",
+      "sourceSha256": "fc84c7d6ba4a5c689f0a2710de93fae2e1f359531cbe5fe1932456449e9f3e2d",
+      "sourceBytes": 6738,
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run219.json",
+          "sha256": "fc84c7d6ba4a5c689f0a2710de93fae2e1f359531cbe5fe1932456449e9f3e2d"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-392d908624f06014b1eeaaf4",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run125b-wake-un-access.md",
+      "sourceSha256": "c735b155b74e509175cbfe1fd178bc5038bdb2423f2e72b28cfb4e72cf65e435",
+      "sourceBytes": 634,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run125b-wake-un-access.md",
+          "sha256": "c735b155b74e509175cbfe1fd178bc5038bdb2423f2e72b28cfb4e72cf65e435"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-39f05385f63098d05bf90482",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run169-followup.md",
+      "sourceSha256": "a0439cb3f9f17fde7cbc84ad68b850844239020b479ae152d0b764a224d2a2c2",
+      "sourceBytes": 3454,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run169-followup.md",
+          "sha256": "a0439cb3f9f17fde7cbc84ad68b850844239020b479ae152d0b764a224d2a2c2"
+        }
+      ]
+    },
+    {
       "id": "sidecar-3ae2782254626bfa03e3ab8c",
       "layer": "lead_queue",
       "sourcePath": "data/research/leads/2026-10-05-pass207-next-leads.json",
@@ -6553,6 +7339,47 @@
         {
           "path": "data/annals/rhee-syngman-run104.md",
           "sha256": "6f3cbedbdbaccd2515309ab6145e9e916ecc3e714a2baacdb87be7c0004d0b45"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-3e12e71079e75964f11cf014",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run192-earlywar-source-conflicts.md",
+      "sourceSha256": "1640ebd53aebf42ca1ea785ee6f1b96ed178eb9ed3f85a584b28c8c707b93867",
+      "sourceBytes": 2673,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [
+        "evt-r192-03",
+        "evt-r192-07",
+        "evt-r192-09",
+        "evt-r192-11",
+        "evt-r192-15"
+      ],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [
+        "claim-r192-02",
+        "claim-r192-04",
+        "claim-r192-07",
+        "claim-r192-09",
+        "claim-r192-15",
+        "claim-r192-19"
+      ],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run192-earlywar-source-conflicts.md",
+          "sha256": "1640ebd53aebf42ca1ea785ee6f1b96ed178eb9ed3f85a584b28c8c707b93867"
         }
       ]
     },
@@ -7129,6 +7956,34 @@
       ]
     },
     {
+      "id": "sidecar-435e767af951a7accf83d1cc",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run119-elections-banking.md",
+      "sourceSha256": "d66c9c656608b10f01497c4ae4e46f56172052970029347e195bec3478b3c34c",
+      "sourceBytes": 1073,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run119-elections-banking.md",
+          "sha256": "d66c9c656608b10f01497c4ae4e46f56172052970029347e195bec3478b3c34c"
+        }
+      ]
+    },
+    {
       "id": "sidecar-4485ab01176f90ff45ed8dd3",
       "layer": "lead_queue",
       "sourcePath": "data/research/leads/pass-204-next-lead-queue.json",
@@ -7385,6 +8240,37 @@
       ]
     },
     {
+      "id": "sidecar-46e284829fe574561464dbc2",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run198-corrections.md",
+      "sourceSha256": "612c1ce62759efa8ef91aaaafb7053b1500e9ec1ae794ca17a52dd220f2a668e",
+      "sourceBytes": 6068,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
+      "candidatePoliticianIds": [
+        "cand-r198-kim-yun-geun-youth1950",
+        "pol-kim-yun-geun"
+      ],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run198-corrections.md",
+          "sha256": "612c1ce62759efa8ef91aaaafb7053b1500e9ec1ae794ca17a52dd220f2a668e"
+        }
+      ]
+    },
+    {
       "id": "sidecar-472167ab6f1f99268699289e",
       "layer": "lead_queue",
       "sourcePath": "data/research/leads/pass-257o4-uncurk-unkra-original-targets.json",
@@ -7572,6 +8458,34 @@
         {
           "path": "data/evidence/chang-myon.json",
           "sha256": "8b82699d59a497fece0df258ab15751f6a317ade7ba84494eb67f8c9d6b81160"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-48efddc6aca3b7c24048b00b",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run215-second-wave.json",
+      "sourceSha256": "ed477a70c12bc7cbc271b0bc817d465cec941dad170a1415893dca97f53c0195",
+      "sourceBytes": 3689,
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run215-second-wave.json",
+          "sha256": "ed477a70c12bc7cbc271b0bc817d465cec941dad170a1415893dca97f53c0195"
         }
       ]
     },
@@ -7800,6 +8714,42 @@
       ]
     },
     {
+      "id": "sidecar-49d5354ba3ae02f70b2a2727",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run207-19510607.json",
+      "sourceSha256": "dc9293727cd1e383178fe8ac1fbdd28698efaeeeb0eb73bc992cfda5c2ef7d89",
+      "sourceBytes": 2932,
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [
+        "doc-r207-19510607-0020",
+        "doc-r207-19510607-0070",
+        "doc-r207-19510607-0080",
+        "doc-r207-19510607-0090",
+        "doc-r207-19510607-0100",
+        "doc-r207-19510607-0110",
+        "doc-r207-19510607-0120"
+      ],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run207-19510607.json",
+          "sha256": "dc9293727cd1e383178fe8ac1fbdd28698efaeeeb0eb73bc992cfda5c2ef7d89"
+        }
+      ]
+    },
+    {
       "id": "sidecar-4a074267cae6daf1c208e96d",
       "layer": "annals",
       "sourcePath": "data/annals/1958-election-force-fiscal-run157.md",
@@ -7823,6 +8773,34 @@
         {
           "path": "data/annals/1958-election-force-fiscal-run157.md",
           "sha256": "80e13e7acd0ec40b081cf13be83397afdc9ac613421602a63979fb9110b33b2f"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-4a32e629606bef8268605a43",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run125e-welfare-figures.md",
+      "sourceSha256": "6f9bb0fb34563a4a6b0696890c17745ad08db545dc09c79784a2a2da22848787",
+      "sourceBytes": 584,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run125e-welfare-figures.md",
+          "sha256": "6f9bb0fb34563a4a6b0696890c17745ad08db545dc09c79784a2a2da22848787"
         }
       ]
     },
@@ -7851,6 +8829,34 @@
         {
           "path": "data/research/leads/pass-240-next-lead-queue.json",
           "sha256": "3d016b8f1bce9dedee4526709f50b0f4eb432af2474ee17f4bb885c855662383"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-4aa8946df2df019a7969cf24",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run112-stabilization-cabinet.md",
+      "sourceSha256": "da73f2b703783e496e5fad0b1ccca542fb7493e4d612ff41bf35214fc6e6d121",
+      "sourceBytes": 1523,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run112-stabilization-cabinet.md",
+          "sha256": "da73f2b703783e496e5fad0b1ccca542fb7493e4d612ff41bf35214fc6e6d121"
         }
       ]
     },
@@ -8038,6 +9044,70 @@
       ]
     },
     {
+      "id": "sidecar-4bdd39a255d160eb0ee89f5e",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run140-health-labor.json",
+      "sourceSha256": "71a49f31fdde848c7ff5123eeb714ef25ed363a5b0ee894566f156291a013db3",
+      "sourceBytes": 1370,
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run140-health-labor.json",
+          "sha256": "71a49f31fdde848c7ff5123eeb714ef25ed363a5b0ee894566f156291a013db3"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-4bedf3961532bedfeca94a0e",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run215-oct1951.json",
+      "sourceSha256": "5fa616bb2b174aa632af26a85c02927c2de3b57c5992380ee46e2c9137751802",
+      "sourceBytes": 11591,
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [
+        "doc-r215-frus-d611",
+        "doc-r215-frus-d625",
+        "doc-r215-frus-d634",
+        "doc-r215-frus-d639",
+        "doc-r215-frus-d645",
+        "doc-r215-frus-d654",
+        "doc-r215-frus-d655"
+      ],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run215-oct1951.json",
+          "sha256": "5fa616bb2b174aa632af26a85c02927c2de3b57c5992380ee46e2c9137751802"
+        }
+      ]
+    },
+    {
       "id": "sidecar-4c69e59968f9c52c23adb290",
       "layer": "annals",
       "sourcePath": "data/annals/run206b-june02-05-parliament-exchange.md",
@@ -8061,6 +9131,34 @@
         {
           "path": "data/annals/run206b-june02-05-parliament-exchange.md",
           "sha256": "123c36f361e4ba17832cbfad57ad12a9258278ac4d1a1adafae0bbcb9da0a886"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-4c76ac33a1595fbf8663673e",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run203.md",
+      "sourceSha256": "52b3777540d3687c0e5dedab515d5891f7ce571cf26fbfa21add002cb703ec40",
+      "sourceBytes": 2570,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run203.md",
+          "sha256": "52b3777540d3687c0e5dedab515d5891f7ce571cf26fbfa21add002cb703ec40"
         }
       ]
     },
@@ -8760,6 +9858,36 @@
       ]
     },
     {
+      "id": "sidecar-529f8a60bfbbd54f456861f6",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run201.md",
+      "sourceSha256": "7b8496eba9ed6a2fcf347f8c1fedd7f2b3cbfc5e23d15bc519083b1d487a4675",
+      "sourceBytes": 9420,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "EXPLICITLY_LINKED",
+      "candidatePoliticianIds": [
+        "pol-r149-cabinet-03"
+      ],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run201.md",
+          "sha256": "7b8496eba9ed6a2fcf347f8c1fedd7f2b3cbfc5e23d15bc519083b1d487a4675"
+        }
+      ]
+    },
+    {
       "id": "sidecar-52afc695afe8005b55deeb03",
       "layer": "evidence",
       "sourcePath": "data/evidence/rhee/run173-postarmistice-economic-policy.json",
@@ -9070,6 +10198,34 @@
         {
           "path": "data/evidence/politicians/run116b-civil-service-crosslinks.json",
           "sha256": "f65cc3c76ef95fda6b362b55d41962f7e72b498d08fed21f33f913889a4d08ce"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-54c78a4f114f187cae97d54c",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run111b-conflict.md",
+      "sourceSha256": "c29f55366b7ac88562a056cb7a69bdcf78993fdbd849dd7d04148f8a8d062de0",
+      "sourceBytes": 1361,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run111b-conflict.md",
+          "sha256": "c29f55366b7ac88562a056cb7a69bdcf78993fdbd849dd7d04148f8a8d062de0"
         }
       ]
     },
@@ -9516,6 +10672,34 @@
       ]
     },
     {
+      "id": "sidecar-592897a8070e1bcc7764dfc4",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run198b-corrections.md",
+      "sourceSha256": "b8a4cdd02dd0a04124e974ee4e1b7bb6c4501befdbb86f96b5bd4def5e79c9b6",
+      "sourceBytes": 2330,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run198b-corrections.md",
+          "sha256": "b8a4cdd02dd0a04124e974ee4e1b7bb6c4501befdbb86f96b5bd4def5e79c9b6"
+        }
+      ]
+    },
+    {
       "id": "sidecar-5940a861a5056d1494b4b320",
       "layer": "history_debt",
       "sourcePath": "data/research/history-debt/pass-258b-1953-54-aid-control-unresolved.json",
@@ -9946,6 +11130,34 @@
       ]
     },
     {
+      "id": "sidecar-5b5d1d0e6269561453f784d3",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run117-law44-source-audit.md",
+      "sourceSha256": "14f6d6d17abfeae6ab81dde3e654fd3eda06002c902a396b25ab3dfc3233c974",
+      "sourceBytes": 1123,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run117-law44-source-audit.md",
+          "sha256": "14f6d6d17abfeae6ab81dde3e654fd3eda06002c902a396b25ab3dfc3233c974"
+        }
+      ]
+    },
+    {
       "id": "sidecar-5b9ddad9d0cfbb57d3e40bcc",
       "layer": "lead_queue",
       "sourcePath": "data/research/leads/pass-257u-housing-press-originals.json",
@@ -10310,6 +11522,34 @@
         {
           "path": "data/evidence/politicians/run217-dec1951-actor-evidence.json",
           "sha256": "4b23d6afe5b36b76fdcb969e2bda166af067ec4370b7a3887beb945426a20e4d"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-5e7bb032c22e85721c461f96",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run206-may-june1951.json",
+      "sourceSha256": "dc7001d74756dd3a2b0b98972ff7b3cdc2c76c877e496936f8bb81f50afc545f",
+      "sourceBytes": 5059,
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run206-may-june1951.json",
+          "sha256": "dc7001d74756dd3a2b0b98972ff7b3cdc2c76c877e496936f8bb81f50afc545f"
         }
       ]
     },
@@ -10793,6 +12033,34 @@
       ]
     },
     {
+      "id": "sidecar-6188d7e980b2eddd6e4d5204",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run126-councils.md",
+      "sourceSha256": "75461bbbfeee7462d66e7f3630862792d83f3ee4273a94d7b8945a70cb0a3ad0",
+      "sourceBytes": 1364,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run126-councils.md",
+          "sha256": "75461bbbfeee7462d66e7f3630862792d83f3ee4273a94d7b8945a70cb0a3ad0"
+        }
+      ]
+    },
+    {
       "id": "sidecar-6206abb2efa297298c8f9a22",
       "layer": "evidence",
       "sourcePath": "data/evidence/kim-il-su-1953.json",
@@ -11215,6 +12483,34 @@
       ]
     },
     {
+      "id": "sidecar-64797c6d8ac736067c63dbcc",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run126-breadth.md",
+      "sourceSha256": "a1e4f796da4532408286585f38edef59e1e7a9a7b98950fb3916285c46d67153",
+      "sourceBytes": 2156,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run126-breadth.md",
+          "sha256": "a1e4f796da4532408286585f38edef59e1e7a9a7b98950fb3916285c46d67153"
+        }
+      ]
+    },
+    {
       "id": "sidecar-648b396e1a80820f321e428b",
       "layer": "evidence",
       "sourcePath": "data/evidence/politicians/run216-nov1951-evidence.json",
@@ -11536,6 +12832,34 @@
       ]
     },
     {
+      "id": "sidecar-65f3399ebaa7be55cc0d9f64",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run110-election-law.md",
+      "sourceSha256": "8ce68e6b1c0d4e064b9f4f0beb202c00caa795d09d2b409d278c5142121a7b26",
+      "sourceBytes": 1026,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run110-election-law.md",
+          "sha256": "8ce68e6b1c0d4e064b9f4f0beb202c00caa795d09d2b409d278c5142121a7b26"
+        }
+      ]
+    },
+    {
       "id": "sidecar-661fff3ab281bb0e8f7e4e50",
       "layer": "annals",
       "sourcePath": "data/annals/sohn-won-yil-run180.md",
@@ -11653,6 +12977,34 @@
       ]
     },
     {
+      "id": "sidecar-66873fec223e5d2cff12804d",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run206c-national-archives.json",
+      "sourceSha256": "34b5debe421d1a1b2d80eb14f15221ba7e0982762f9562fa232d63d5a45923e4",
+      "sourceBytes": 485,
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run206c-national-archives.json",
+          "sha256": "34b5debe421d1a1b2d80eb14f15221ba7e0982762f9562fa232d63d5a45923e4"
+        }
+      ]
+    },
+    {
       "id": "sidecar-66d1139d24e6538a3982ac2f",
       "layer": "annals",
       "sourcePath": "data/annals/ha-sang-yong-run175.md",
@@ -11733,6 +13085,34 @@
         {
           "path": "data/annals/1949-frus-national-assembly-run180.md",
           "sha256": "2c13f25f81549e55dfd7a1bfc9f8081288900058ac2ca96b4cb76f267876e51f"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-66d9f2fba28daf7be776514e",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run214-september.json",
+      "sourceSha256": "aa60dde6dbfb7154b457f350fe9a42c270f51c694b357c0ba4c9e89832a4ef78",
+      "sourceBytes": 3063,
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run214-september.json",
+          "sha256": "aa60dde6dbfb7154b457f350fe9a42c270f51c694b357c0ba4c9e89832a4ef78"
         }
       ]
     },
@@ -11839,6 +13219,36 @@
       ]
     },
     {
+      "id": "sidecar-675650bbc1e060b0b722e241",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run205b-domestic.md",
+      "sourceSha256": "e26159d4b0675a0a62b649ca78ffed515093acfd839872bc1088694fdad821a0",
+      "sourceBytes": 2243,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "EXPLICITLY_LINKED",
+      "candidatePoliticianIds": [
+        "pol-kim-yun-geun"
+      ],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run205b-domestic.md",
+          "sha256": "e26159d4b0675a0a62b649ca78ffed515093acfd839872bc1088694fdad821a0"
+        }
+      ]
+    },
+    {
       "id": "sidecar-676ad7e54460df19b4b76f53",
       "layer": "annals",
       "sourcePath": "data/annals/run205e-may22-governance.md",
@@ -11890,6 +13300,34 @@
         {
           "path": "data/research/leads/pass-191-next-lead-queue.json",
           "sha256": "6b7d4b72a69811617c90b826adc3e08e9336480539690f4f624ec812ce9fe0f4"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-67a9b0e989a64178278f47f5",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run195b-korean-originals.md",
+      "sourceSha256": "735f4c7b673b473232f6188297b4098eb229815e77ff618b6746e409e5474e97",
+      "sourceBytes": 1490,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run195b-korean-originals.md",
+          "sha256": "735f4c7b673b473232f6188297b4098eb229815e77ff618b6746e409e5474e97"
         }
       ]
     },
@@ -12037,6 +13475,34 @@
       ]
     },
     {
+      "id": "sidecar-692876d181644cb6f50a913f",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run220.json",
+      "sourceSha256": "d8cafd1db301ab1e2238526ef5e916b0746ce70ec0b0356c072155ecc4a41f4a",
+      "sourceBytes": 6658,
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run220.json",
+          "sha256": "d8cafd1db301ab1e2238526ef5e916b0746ce70ec0b0356c072155ecc4a41f4a"
+        }
+      ]
+    },
+    {
       "id": "sidecar-692edf80e67a20319266ea07",
       "layer": "evidence",
       "sourcePath": "data/evidence/run131-crossfamily.json",
@@ -12128,6 +13594,49 @@
         {
           "path": "data/research/coverage/pass-257o-coverage-overlay.json",
           "sha256": "3967b646e281568d42d03e0aefcb2494c08d2a5639026d80edb1064f01d540e1"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-69c33746da1dfb4a668c56a0",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run208-1951-june.json",
+      "sourceSha256": "ffc75bdaf256842aff2dcc9a16380de96480ae62cac55b9863a330d8dc2fe330",
+      "sourceBytes": 4298,
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [
+        "doc-r207-19510607-0010",
+        "doc-r208-aks-exchange-history",
+        "doc-r208-frus51v7p1-d319",
+        "doc-r208-frus51v7p1-d320",
+        "doc-r208-frus51v7p1-d331",
+        "doc-r208-frus51v7p1-d332",
+        "doc-r208-frus51v7p1-d339",
+        "doc-r208-frus51v7p1-d350",
+        "doc-r208-frus51v7p1-d353",
+        "doc-r208-frus51v7p1-d356",
+        "doc-r208-nikh-frus-19510529-995",
+        "doc-r208-nikh-frus-d332-translation",
+        "doc-r208-oda-mofa-1958-loan-ledger",
+        "doc-r208-oir-5688"
+      ],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run208-1951-june.json",
+          "sha256": "ffc75bdaf256842aff2dcc9a16380de96480ae62cac55b9863a330d8dc2fe330"
         }
       ]
     },
@@ -12495,6 +14004,34 @@
       ]
     },
     {
+      "id": "sidecar-6b0f1f3614ad8bc1a4101deb",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run166-corrections.md",
+      "sourceSha256": "a9cfbbedbd7cf2f44145726639a68b35b57b2566e5bc00d2f65b33913ee938d6",
+      "sourceBytes": 6303,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run166-corrections.md",
+          "sha256": "a9cfbbedbd7cf2f44145726639a68b35b57b2566e5bc00d2f65b33913ee938d6"
+        }
+      ]
+    },
+    {
       "id": "sidecar-6b17f091d2d66426699e9867",
       "layer": "annals",
       "sourcePath": "data/annals/politicians/cand-r209-yun-woo-gyeong.md",
@@ -12522,6 +14059,34 @@
         {
           "path": "data/annals/politicians/cand-r209-yun-woo-gyeong.md",
           "sha256": "81521689253fe61dc0e7b0fe13643f40e162b6758ff52ff05cd4f7258dc5bd44"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-6b34a93201d511f369eab004",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run139-wartime-civilian-governance.md",
+      "sourceSha256": "7916e4abc86bb4bae6f5a6067120606c8f139a8a5d817a7dc9805ae1b4d25094",
+      "sourceBytes": 882,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run139-wartime-civilian-governance.md",
+          "sha256": "7916e4abc86bb4bae6f5a6067120606c8f139a8a5d817a7dc9805ae1b4d25094"
         }
       ]
     },
@@ -13054,6 +14619,34 @@
       ]
     },
     {
+      "id": "sidecar-705465fa5376c638252ce211",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run113-prewar-1950.md",
+      "sourceSha256": "39a7ae0273cf1f8d39ad513203a61dd38d23ca583a56c4c4fa5de71b8c113452",
+      "sourceBytes": 1834,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run113-prewar-1950.md",
+          "sha256": "39a7ae0273cf1f8d39ad513203a61dd38d23ca583a56c4c4fa5de71b8c113452"
+        }
+      ]
+    },
+    {
       "id": "sidecar-7057cdf56ca8e0bb4d27a26b",
       "layer": "annals",
       "sourcePath": "data/annals/1951-1953-wartime-labor-parliament-archive.md",
@@ -13484,6 +15077,34 @@
       ]
     },
     {
+      "id": "sidecar-73e0c02c9e70d31d2b6a9132",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run125c-economic-period-conflict.md",
+      "sourceSha256": "06d88b69e024425b966eced607bc4df3012442ade0f4e010411265d13f3ea8dc",
+      "sourceBytes": 878,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run125c-economic-period-conflict.md",
+          "sha256": "06d88b69e024425b966eced607bc4df3012442ade0f4e010411265d13f3ea8dc"
+        }
+      ]
+    },
+    {
       "id": "sidecar-745be1e35d15cb5ce0128a44",
       "layer": "evidence",
       "sourcePath": "data/evidence/shin-tae-young.json",
@@ -13761,6 +15382,34 @@
         {
           "path": "data/annals/1952-july4-primary-reconciliation-run136.md",
           "sha256": "6eecf5495868a1e04d8ca5a7cb3946f9fb96b0d1ebde5f440fc2e2d446f9267c"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-772b750cd683a7884668cab8",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run120-june1950-audit.md",
+      "sourceSha256": "5384aeb880a515aa68ee7766f965058813e46987917cee0019d401f50fe51b79",
+      "sourceBytes": 2023,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run120-june1950-audit.md",
+          "sha256": "5384aeb880a515aa68ee7766f965058813e46987917cee0019d401f50fe51b79"
         }
       ]
     },
@@ -14467,6 +16116,34 @@
       ]
     },
     {
+      "id": "sidecar-7b2c478f142fb578c2e6af14",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run117-education.md",
+      "sourceSha256": "a297b91fef05959b945e08177956345b3d6c9832603fedc6c78032391d6c3cf7",
+      "sourceBytes": 1208,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run117-education.md",
+          "sha256": "a297b91fef05959b945e08177956345b3d6c9832603fedc6c78032391d6c3cf7"
+        }
+      ]
+    },
+    {
       "id": "sidecar-7b2d702a3309a62ec034c755",
       "layer": "lead_queue",
       "sourcePath": "data/research/leads/pass-239f-next-queue.json",
@@ -15000,6 +16677,37 @@
       ]
     },
     {
+      "id": "sidecar-7d9b169047a4ed4ea22cc5a8",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run215-followup.json",
+      "sourceSha256": "08c94feca20d8152156e36d37e1da7a97c9db39e623756f5af3495ecfe797635",
+      "sourceBytes": 3818,
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [
+        "doc-r215-aks-im-heung-sun",
+        "doc-r215-nahf-19511001-shin"
+      ],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run215-followup.json",
+          "sha256": "08c94feca20d8152156e36d37e1da7a97c9db39e623756f5af3495ecfe797635"
+        }
+      ]
+    },
+    {
       "id": "sidecar-7da9ef7dc81f89f102b4e0af",
       "layer": "annals",
       "sourcePath": "data/annals/rhee-syngman-run131b.md",
@@ -15054,6 +16762,34 @@
       ]
     },
     {
+      "id": "sidecar-7e026bc891d965fd7931dccb",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run146-other-governance.md",
+      "sourceSha256": "85f6369086725ab54db7d361f61d899c7bb0f4bc12530d6d2bd3dc63093980cc",
+      "sourceBytes": 1089,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run146-other-governance.md",
+          "sha256": "85f6369086725ab54db7d361f61d899c7bb0f4bc12530d6d2bd3dc63093980cc"
+        }
+      ]
+    },
+    {
       "id": "sidecar-7e156ab88f10350320a99cfd",
       "layer": "annals",
       "sourcePath": "data/annals/kim-jin-man-run157.md",
@@ -15081,6 +16817,34 @@
         {
           "path": "data/annals/kim-jin-man-run157.md",
           "sha256": "20cdd3ed8149164c018aad99272b4f883c666a0346828bdda0a1f2c5f43e5147"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-7e551302503d6c04c723ab6f",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run129-parliament-process.md",
+      "sourceSha256": "88b058d6536600d00f0a267605a75693d355b67d5441037876ff0f31824bdb23",
+      "sourceBytes": 2072,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run129-parliament-process.md",
+          "sha256": "88b058d6536600d00f0a267605a75693d355b67d5441037876ff0f31824bdb23"
         }
       ]
     },
@@ -15454,6 +17218,34 @@
       ]
     },
     {
+      "id": "sidecar-812dfb059e3d0be8c3147bbf",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run116b-law44-text-correction.md",
+      "sourceSha256": "379f5036f7ff1a37235b5d98b725f616f30414f570d95e185ff19fbd015360ce",
+      "sourceBytes": 1202,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run116b-law44-text-correction.md",
+          "sha256": "379f5036f7ff1a37235b5d98b725f616f30414f570d95e185ff19fbd015360ce"
+        }
+      ]
+    },
+    {
       "id": "sidecar-81648b19391a73466dbf7137",
       "layer": "lead_queue",
       "sourcePath": "data/research/leads/pass-180-next-lead-queue.json",
@@ -15806,6 +17598,34 @@
       ]
     },
     {
+      "id": "sidecar-849bbcebcfedcbd8491da14f",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run213-aug25-31.json",
+      "sourceSha256": "dee76ee3fbc6740fc3b870e20d7b5082921c25e65cc158221420535b72884c71",
+      "sourceBytes": 3538,
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run213-aug25-31.json",
+          "sha256": "dee76ee3fbc6740fc3b870e20d7b5082921c25e65cc158221420535b72884c71"
+        }
+      ]
+    },
+    {
       "id": "sidecar-852b2db149f7df2481827bff",
       "layer": "lead_queue",
       "sourcePath": "data/research/lead-queues/pass-299-next-30.md",
@@ -15860,6 +17680,62 @@
         {
           "path": "data/evidence/lim-byong-jik.json",
           "sha256": "ba908e6817f3f10c72a909eaaa2e2adab4cc1ece7aba154ab7ddce67beecc9e7"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-86450c69976fdbea5ca3e9b6",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run217.json",
+      "sourceSha256": "1fa25dea6bb107e279598521e03503fa3b354ce256ee3dd0ff13dedae4ddacd0",
+      "sourceBytes": 4907,
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run217.json",
+          "sha256": "1fa25dea6bb107e279598521e03503fa3b354ce256ee3dd0ff13dedae4ddacd0"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-86b90fa4f7fd4d77c74dabe8",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run195d-policy-corrections.md",
+      "sourceSha256": "e20338a4e2b4f753d44f4238160d3c0ebcd266c3197c011de775b2926c8678c4",
+      "sourceBytes": 1600,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run195d-policy-corrections.md",
+          "sha256": "e20338a4e2b4f753d44f4238160d3c0ebcd266c3197c011de775b2926c8678c4"
         }
       ]
     },
@@ -16042,6 +17918,34 @@
       ]
     },
     {
+      "id": "sidecar-888a237534a27cfc5801e47b",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run110-policy-timing.md",
+      "sourceSha256": "dc97342c06abba59015fb923bc2e4ef71f50a975f57ba2a967eccdfc9e290fee",
+      "sourceBytes": 875,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run110-policy-timing.md",
+          "sha256": "dc97342c06abba59015fb923bc2e4ef71f50a975f57ba2a967eccdfc9e290fee"
+        }
+      ]
+    },
+    {
       "id": "sidecar-895b75c1fc44cab0e41ab184",
       "layer": "lead_queue",
       "sourcePath": "data/research/leads/pass-239l-next-queue.json",
@@ -16123,6 +18027,34 @@
         {
           "path": "data/annals/nonpresidential-nov-run198b.md",
           "sha256": "ebcfd9ea3face67dbc8a0a237e1bfb0511ba574a79f3433d7fc9be681f0db38d"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-89a740320a5cf546c629b36b",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run117-education-implementation.md",
+      "sourceSha256": "93c80615e9d23a95f24fd34324f298c239d5d589ee75c4aacd159a35da9733d9",
+      "sourceBytes": 1303,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run117-education-implementation.md",
+          "sha256": "93c80615e9d23a95f24fd34324f298c239d5d589ee75c4aacd159a35da9733d9"
         }
       ]
     },
@@ -16749,6 +18681,34 @@
       ]
     },
     {
+      "id": "sidecar-8e6c2fe08c5fb54a4b37ae84",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run205e-may22.md",
+      "sourceSha256": "327c13daab12663ae94f7e69d9a1bad9cc79b74aef1a368362582228791d8d0a",
+      "sourceBytes": 1882,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run205e-may22.md",
+          "sha256": "327c13daab12663ae94f7e69d9a1bad9cc79b74aef1a368362582228791d8d0a"
+        }
+      ]
+    },
+    {
       "id": "sidecar-8f2256819e10fbf1b3ced5e2",
       "layer": "annals",
       "sourcePath": "data/annals/run203d-jan25-feb21-statecraft.md",
@@ -16834,6 +18794,34 @@
         {
           "path": "data/evidence/rhee/run113-prewar.json",
           "sha256": "3667dd89e370e4108de5f4662b101536f5b67b8afec8442dfb153d2a947faa2a"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-8fdf4d7db45201e43c36f466",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run134-source-integrity.md",
+      "sourceSha256": "9494987bcc656885218d17c441ae749902d208a8dfe7f0bdee12ebe95e36c2d9",
+      "sourceBytes": 487,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run134-source-integrity.md",
+          "sha256": "9494987bcc656885218d17c441ae749902d208a8dfe7f0bdee12ebe95e36c2d9"
         }
       ]
     },
@@ -17080,6 +19068,34 @@
       ]
     },
     {
+      "id": "sidecar-912a933e2470e9e3f2f280fd",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run114-constitutional-bank.md",
+      "sourceSha256": "16e25970bd533b70c403e452736229bca02d9f63cc9c4f5269de24fdb710c5e0",
+      "sourceBytes": 1796,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run114-constitutional-bank.md",
+          "sha256": "16e25970bd533b70c403e452736229bca02d9f63cc9c4f5269de24fdb710c5e0"
+        }
+      ]
+    },
+    {
       "id": "sidecar-9157e087872dca978c9c4baf",
       "layer": "lead_queue",
       "sourcePath": "data/research/kim-seong-su-open-leads.json",
@@ -17106,6 +19122,34 @@
         {
           "path": "data/research/kim-seong-su-open-leads.json",
           "sha256": "f1a1b62767830bdbd2b09fa2f9fed20fd56e15bd966fe6491f93a3cd22267dc8"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-919a2a07bac7effc532b586f",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run126-labor.md",
+      "sourceSha256": "3963cecba944c6bfb39de54d06122bbfd149484e285c0e3ccf3213fb25782577",
+      "sourceBytes": 728,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run126-labor.md",
+          "sha256": "3963cecba944c6bfb39de54d06122bbfd149484e285c0e3ccf3213fb25782577"
         }
       ]
     },
@@ -17899,6 +19943,62 @@
       ]
     },
     {
+      "id": "sidecar-9773d52594f6992625dc93d4",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run122b-parliamentary-originals-corrections.md",
+      "sourceSha256": "7c3fa67bb0f522f3b8cf807dbc2e13c86a3751e3846ff001c42d82490a7d0c59",
+      "sourceBytes": 1810,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run122b-parliamentary-originals-corrections.md",
+          "sha256": "7c3fa67bb0f522f3b8cf807dbc2e13c86a3751e3846ff001c42d82490a7d0c59"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-9790c9c345b0e439d54ba76c",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run109-addendum.md",
+      "sourceSha256": "4eb1636dcef44bb7094c68cab14ad1a8e9e2e21a7be0464792b499a105a3fe05",
+      "sourceBytes": 1618,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run109-addendum.md",
+          "sha256": "4eb1636dcef44bb7094c68cab14ad1a8e9e2e21a7be0464792b499a105a3fe05"
+        }
+      ]
+    },
+    {
       "id": "sidecar-97af8d3f33afb20a67d7b9d4",
       "layer": "lead_queue",
       "sourcePath": "data/research/leads/2026-10-04-pass181-next-leads.json",
@@ -18302,6 +20402,34 @@
       ]
     },
     {
+      "id": "sidecar-9a5cd7e5a6147196e3d3b576",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run117-law103.md",
+      "sourceSha256": "a407a2709f44b1607c482a0c53a9956b32df53d7ea660097a2d2d97882698d12",
+      "sourceBytes": 983,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run117-law103.md",
+          "sha256": "a407a2709f44b1607c482a0c53a9956b32df53d7ea660097a2d2d97882698d12"
+        }
+      ]
+    },
+    {
       "id": "sidecar-9aaf0dc7ab61ffdb3338b1ff",
       "layer": "lead_queue",
       "sourcePath": "data/research/lead-queues/pass311-second-republic-next.json",
@@ -18676,6 +20804,34 @@
       ]
     },
     {
+      "id": "sidecar-9d4a24892ea0286b5fd1d691",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run136-primary-reconciliation.md",
+      "sourceSha256": "a78d82dddc90a5302e75cbba5e2a0587ce3a12f5c0b2b9695031f31d10dda7ac",
+      "sourceBytes": 968,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run136-primary-reconciliation.md",
+          "sha256": "a78d82dddc90a5302e75cbba5e2a0587ce3a12f5c0b2b9695031f31d10dda7ac"
+        }
+      ]
+    },
+    {
       "id": "sidecar-9d98e2abc81a75aedd8fb86a",
       "layer": "lead_queue",
       "sourcePath": "data/research/leads/pass-252-addendum-next-originals.json",
@@ -18957,6 +21113,34 @@
       ]
     },
     {
+      "id": "sidecar-9f80c7e9d9fed6a1905f0fc5",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run132-provenance.md",
+      "sourceSha256": "44e74c68af496185849fc7c74dfae9b5dedd637264a1444de057003a97601ff2",
+      "sourceBytes": 680,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run132-provenance.md",
+          "sha256": "44e74c68af496185849fc7c74dfae9b5dedd637264a1444de057003a97601ff2"
+        }
+      ]
+    },
+    {
       "id": "sidecar-9f838514fc48c5b3784517ba",
       "layer": "annals",
       "sourcePath": "data/annals/rhee-syngman-run197b.md",
@@ -19062,6 +21246,45 @@
       ]
     },
     {
+      "id": "sidecar-9fc6b9d3e239782187bb6900",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run222.json",
+      "sourceSha256": "999f7543a0042885ac398d802bcfcf280ff3df2a8cc19c39b471cf88112b149e",
+      "sourceBytes": 5213,
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [
+        "doc-r222-frus-33",
+        "doc-r222-frus-35",
+        "doc-r222-frus-42",
+        "doc-r222-frus-45",
+        "doc-r222-frus-47",
+        "doc-r222-frus-65",
+        "doc-r222-frus-67",
+        "doc-r222-nikh-feb18-demonstration",
+        "doc-r222-nikh-feb18-geoje",
+        "doc-r222-nikh-feb27-joint"
+      ],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run222.json",
+          "sha256": "999f7543a0042885ac398d802bcfcf280ff3df2a8cc19c39b471cf88112b149e"
+        }
+      ]
+    },
+    {
       "id": "sidecar-9fc83b904316df714e803be5",
       "layer": "annals",
       "sourcePath": "data/annals/rhee-syngman-run111g.md",
@@ -19112,6 +21335,34 @@
         {
           "path": "data/annals/1952-councils-run126.md",
           "sha256": "f353de814852fd88f2cb5b9c420cd2dc1a90fb57f148d5c2b854678f05dd8537"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-a0672300bca7081bf3f953d5",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run131-addendum.md",
+      "sourceSha256": "185be16fce7b7d7d1c1c97dcdd17b56b97454991803849527ca0aa8e7caa1bf8",
+      "sourceBytes": 2403,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run131-addendum.md",
+          "sha256": "185be16fce7b7d7d1c1c97dcdd17b56b97454991803849527ca0aa8e7caa1bf8"
         }
       ]
     },
@@ -19224,6 +21475,92 @@
       ]
     },
     {
+      "id": "sidecar-a13b2c8d708953715700775f",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run199b-nov15-21.md",
+      "sourceSha256": "d65aa3a1c9352b5cada5029c2b5a13d4f2f66d7665590282875bad9e529df2b8",
+      "sourceBytes": 3080,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "EXPLICITLY_LINKED",
+      "candidatePoliticianIds": [
+        "cand-r199b-cho-man-sik"
+      ],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run199b-nov15-21.md",
+          "sha256": "d65aa3a1c9352b5cada5029c2b5a13d4f2f66d7665590282875bad9e529df2b8"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-a1505d36c401186a79ba3948",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run149-followup.md",
+      "sourceSha256": "bf1bce60a9a677ee6f849cac31b3653aa2fbf9abfeef8886432763d90a5c6b01",
+      "sourceBytes": 834,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run149-followup.md",
+          "sha256": "bf1bce60a9a677ee6f849cac31b3653aa2fbf9abfeef8886432763d90a5c6b01"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-a1f4e5166d07968d4e298a0b",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run137-local-audit.md",
+      "sourceSha256": "1d1104f326d66f3c3b92118bcb88c97460860d47b961902e87b523b8dabcca2f",
+      "sourceBytes": 1458,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run137-local-audit.md",
+          "sha256": "1d1104f326d66f3c3b92118bcb88c97460860d47b961902e87b523b8dabcca2f"
+        }
+      ]
+    },
+    {
       "id": "sidecar-a20931e162bd67a326dde764",
       "layer": "lead_queue",
       "sourcePath": "data/research/leads/pass-160-next-lead-queue.json",
@@ -19303,6 +21640,34 @@
         {
           "path": "data/annals/run204d-e-governance.md",
           "sha256": "68526edd66b91ebb97254183d26ebdad2e397c705e0cbf3c8ebf8b1209a1ecd1"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-a2b00b620b6933ffe3f63342",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/INDEX-run139.md",
+      "sourceSha256": "1a449e1b107102eca3522e5a079a1ca95d45430b6837b63a1482d48b8a2b556f",
+      "sourceBytes": 297,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/INDEX-run139.md",
+          "sha256": "1a449e1b107102eca3522e5a079a1ca95d45430b6837b63a1482d48b8a2b556f"
         }
       ]
     },
@@ -19623,6 +21988,34 @@
       ]
     },
     {
+      "id": "sidecar-a62a40e1e645f34d8c5072bd",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run206d-economic-biography.json",
+      "sourceSha256": "06adc8557d42e3cc23459e42daed1d8fe8e354ff95dc37fcc0000d0f7b433f25",
+      "sourceBytes": 965,
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run206d-economic-biography.json",
+          "sha256": "06adc8557d42e3cc23459e42daed1d8fe8e354ff95dc37fcc0000d0f7b433f25"
+        }
+      ]
+    },
+    {
       "id": "sidecar-a6480cdbc3babd13a280dcc2",
       "layer": "annals",
       "sourcePath": "data/annals/rhee-syngman-run167.md",
@@ -19891,6 +22284,34 @@
         {
           "path": "data/annals/r141-lee-yun-yeong-run181.md",
           "sha256": "7c4ce7502d87e720430b5e2c87060404a4edc2defe12fde3ecba8f08da6e0354"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-a8ac8c74cd6fd60a0ce80c80",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run111f-civilservice-prosecution.md",
+      "sourceSha256": "52293f3e6a84ba27ef26f9e89081cae5aa39797996b757eaeb8e4a988c6f4c68",
+      "sourceBytes": 692,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run111f-civilservice-prosecution.md",
+          "sha256": "52293f3e6a84ba27ef26f9e89081cae5aa39797996b757eaeb8e4a988c6f4c68"
         }
       ]
     },
@@ -20204,6 +22625,34 @@
       ]
     },
     {
+      "id": "sidecar-ab91d546aeaed3ff9b3c9986",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run111g-power-forest.md",
+      "sourceSha256": "ac5ec5b992a4f375efb3ce5b6742abb42f5737cabbfdc5c3407a3ef4de2db8ec",
+      "sourceBytes": 476,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run111g-power-forest.md",
+          "sha256": "ac5ec5b992a4f375efb3ce5b6742abb42f5737cabbfdc5c3407a3ef4de2db8ec"
+        }
+      ]
+    },
+    {
       "id": "sidecar-abebe70ec828d7552004ec12",
       "layer": "evidence",
       "sourcePath": "data/evidence/eom-byeong-hak-1953.json",
@@ -20373,6 +22822,34 @@
         {
           "path": "data/research/debt/pass-252-addendum-debt.json",
           "sha256": "6dbce0e6ceaed58af1b6fba71885082f9e34cf038e2e41c6f53e3a1c3f7b7578"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-ad91e367700e4de81ef18b86",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run124c-december1951-a.md",
+      "sourceSha256": "5114440c5e173671534abd4c8dc606a610383c91966baef0b7b1b1797f1f9e11",
+      "sourceBytes": 814,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run124c-december1951-a.md",
+          "sha256": "5114440c5e173671534abd4c8dc606a610383c91966baef0b7b1b1797f1f9e11"
         }
       ]
     },
@@ -20566,6 +23043,36 @@
         {
           "path": "data/annals/1952-june-source-corrections-run132.md",
           "sha256": "908cab08a289ace9d5807fda66160c4669a2114757132c8b0b8f51f668f781eb"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-afb81473b5bbdcbcf07e9a0d",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run211-july10-31.json",
+      "sourceSha256": "bc724ac134bcb5a316770b7d380c94815988e1e563bf6b65f1129d18a05f4f6d",
+      "sourceBytes": 14545,
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "EXPLICITLY_LINKED",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [
+        "doc-r211-law221-moleg-metadata"
+      ],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run211-july10-31.json",
+          "sha256": "bc724ac134bcb5a316770b7d380c94815988e1e563bf6b65f1129d18a05f4f6d"
         }
       ]
     },
@@ -20970,6 +23477,34 @@
       ]
     },
     {
+      "id": "sidecar-b421888279eba77436fe52db",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run111e-education-local-budget.md",
+      "sourceSha256": "e10a83ef206890ac24557809d0571b7d9cfec8a6741d0376108d218587c5808c",
+      "sourceBytes": 976,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run111e-education-local-budget.md",
+          "sha256": "e10a83ef206890ac24557809d0571b7d9cfec8a6741d0376108d218587c5808c"
+        }
+      ]
+    },
+    {
       "id": "sidecar-b4951f763d5866a13ba83468",
       "layer": "annals",
       "sourcePath": "data/annals/1951-august-institutions-armistice-run212.md",
@@ -20993,6 +23528,62 @@
         {
           "path": "data/annals/1951-august-institutions-armistice-run212.md",
           "sha256": "376a353047973d86c3ec4d9880e6d6dae9e8371bf3a2d5f5c332c3da55e4e746"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-b49f9639db8490e35e7210c4",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run121-bok-legal-source-audit.md",
+      "sourceSha256": "86799936fee3ac7db545f086d391ff633421448ca426cfae88673c75c6753a66",
+      "sourceBytes": 999,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run121-bok-legal-source-audit.md",
+          "sha256": "86799936fee3ac7db545f086d391ff633421448ca426cfae88673c75c6753a66"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-b4cd2f50f1e5fd9ccbab0bb2",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run156-followup.md",
+      "sourceSha256": "997ac444b9ac6ec41cd4247ef3ac7a736d6000a15cb6df4fb110d6fe8f6c0dc8",
+      "sourceBytes": 1330,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run156-followup.md",
+          "sha256": "997ac444b9ac6ec41cd4247ef3ac7a736d6000a15cb6df4fb110d6fe8f6c0dc8"
         }
       ]
     },
@@ -21342,6 +23933,34 @@
       ]
     },
     {
+      "id": "sidecar-b750d42dc1d152cdcb355890",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run122-1954-source-conflicts.md",
+      "sourceSha256": "5e2d5dceafd8b2f1fc627b117850521c7f36ee8b0f41caa2fb77e778a5732baa",
+      "sourceBytes": 983,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run122-1954-source-conflicts.md",
+          "sha256": "5e2d5dceafd8b2f1fc627b117850521c7f36ee8b0f41caa2fb77e778a5732baa"
+        }
+      ]
+    },
+    {
       "id": "sidecar-b75a04ec91d18ab17ba1f63a",
       "layer": "annals",
       "sourcePath": "data/annals/lee-sun-tak-run92.json",
@@ -21458,6 +24077,34 @@
       ]
     },
     {
+      "id": "sidecar-b7d6a63f91afa3fcd232b9a8",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run195c-un-procedural.md",
+      "sourceSha256": "908c3f685b6967f23294a40872ea8a4754458ffcbde4442606266c343e41edb4",
+      "sourceBytes": 584,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run195c-un-procedural.md",
+          "sha256": "908c3f685b6967f23294a40872ea8a4754458ffcbde4442606266c343e41edb4"
+        }
+      ]
+    },
+    {
       "id": "sidecar-b856a13f313fd08277ca217b",
       "layer": "evidence",
       "sourcePath": "data/evidence/sohn-won-yil.json",
@@ -21547,6 +24194,37 @@
         {
           "path": "data/evidence/yun-posun-run181.json",
           "sha256": "5d2c1016a7b6c93af464987bee7932d30e271beec6aecca3026413113c847d4e"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-b8627a07aa82f6100637b861",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run213-augsep.json",
+      "sourceSha256": "41134f12117de6e73d61969d50a1565fb0272ccb581722cdc01b0ca69e3f94ff",
+      "sourceBytes": 7431,
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
+      "candidatePoliticianIds": [
+        "cand-r213-kim-il-hwan-1951-defense",
+        "pol-r149-cabinet-07"
+      ],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run213-augsep.json",
+          "sha256": "41134f12117de6e73d61969d50a1565fb0272ccb581722cdc01b0ca69e3f94ff"
         }
       ]
     },
@@ -21798,6 +24476,34 @@
         {
           "path": "data/research/leads/pass-257o-next-originals.json",
           "sha256": "d03b9ac50e7910f8e1917ec920a2ada69e38abd43ae116d36cfc35fd9daa162d"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-bb919ac5a274491a54994628",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run124d-geochang-property.md",
+      "sourceSha256": "58be451c2bc32f6cfad9b355d66018c010619b45aea07e266145401c87968863",
+      "sourceBytes": 930,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run124d-geochang-property.md",
+          "sha256": "58be451c2bc32f6cfad9b355d66018c010619b45aea07e266145401c87968863"
         }
       ]
     },
@@ -22073,6 +24779,62 @@
       ]
     },
     {
+      "id": "sidecar-beca1a5ccbe40066f4a6730b",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run203c.md",
+      "sourceSha256": "73a73edb24fd6fb66f520cc4ba214c847e5c180aabfe3e00676c8f3cc42cadc7",
+      "sourceBytes": 1094,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run203c.md",
+          "sha256": "73a73edb24fd6fb66f520cc4ba214c847e5c180aabfe3e00676c8f3cc42cadc7"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-bf2d842f8cb3030e4d215341",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run130-initial.md",
+      "sourceSha256": "398b65923479b1137db73c142aae0fa8a67317b21eeda6142474cbaed968f32c",
+      "sourceBytes": 445,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run130-initial.md",
+          "sha256": "398b65923479b1137db73c142aae0fa8a67317b21eeda6142474cbaed968f32c"
+        }
+      ]
+    },
+    {
       "id": "sidecar-bf590e5f2b2622faf8ea59b0",
       "layer": "evidence",
       "sourcePath": "data/evidence/politicians/kim-seong-su-run120.json",
@@ -22228,6 +24990,90 @@
       ]
     },
     {
+      "id": "sidecar-c215eee253ffdd4c56b82385",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run109b-metadata-correction.md",
+      "sourceSha256": "ddffa4e7f7e80b5ea99d31ef24071074ed646782712b85a4c61939c84983747e",
+      "sourceBytes": 1107,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run109b-metadata-correction.md",
+          "sha256": "ddffa4e7f7e80b5ea99d31ef24071074ed646782712b85a4c61939c84983747e"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-c24e134b761a429079764623",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run108-addendum-2.md",
+      "sourceSha256": "df3a0541919f0722c8450cfd9aefebebf8982a838d0f4d72b8ea27d8fbe20197",
+      "sourceBytes": 1009,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run108-addendum-2.md",
+          "sha256": "df3a0541919f0722c8450cfd9aefebebf8982a838d0f4d72b8ea27d8fbe20197"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-c256b4ade0b8a43920f759e9",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run145c-followups.md",
+      "sourceSha256": "82a37b7278e7702dbfcc9b1f662d4b63a60fc7560b64e30f6c83d44d10cede0f",
+      "sourceBytes": 116,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run145c-followups.md",
+          "sha256": "82a37b7278e7702dbfcc9b1f662d4b63a60fc7560b64e30f6c83d44d10cede0f"
+        }
+      ]
+    },
+    {
       "id": "sidecar-c2a1e467ce394cf9d53ee8f5",
       "layer": "annals",
       "sourcePath": "data/annals/1950-june26-july05-multi-institution-run192.md",
@@ -22251,6 +25097,34 @@
         {
           "path": "data/annals/1950-june26-july05-multi-institution-run192.md",
           "sha256": "6d5de756b5e305cd25db7b4cbcc1d7aa27586432171a85b32b1cca69382c1488"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-c2c7261cd71ff4bbd4eafd1d",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run126e-corrections.md",
+      "sourceSha256": "f81b97db7ce71dfa7ed741c660394554281e23358b917260b97b2b1206714b4d",
+      "sourceBytes": 1318,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run126e-corrections.md",
+          "sha256": "f81b97db7ce71dfa7ed741c660394554281e23358b917260b97b2b1206714b4d"
         }
       ]
     },
@@ -22283,6 +25157,34 @@
       ]
     },
     {
+      "id": "sidecar-c2e749e93eed01764a6dc1a2",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run125h-land-law-correction.md",
+      "sourceSha256": "9ed5b37b414a95eff96220c64f77358d802fb49aac89b657e23f36f975b332e4",
+      "sourceBytes": 760,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run125h-land-law-correction.md",
+          "sha256": "9ed5b37b414a95eff96220c64f77358d802fb49aac89b657e23f36f975b332e4"
+        }
+      ]
+    },
+    {
       "id": "sidecar-c351d20d4cdfacc5808d9d3c",
       "layer": "annals",
       "sourcePath": "data/annals/1952-dec-11-15-state-operations-adversarial.md",
@@ -22306,6 +25208,90 @@
         {
           "path": "data/annals/1952-dec-11-15-state-operations-adversarial.md",
           "sha256": "e94d3a0f1c45435d5a103216584452cfe545414a1f2477b9384142e72142ecf8"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-c3a538f0484ee339a9744721",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run131b-addendum.md",
+      "sourceSha256": "16f0465c3bed39a2031eabc54580b8906235dfa80d10aa728bbfaf4cdc21d186",
+      "sourceBytes": 1785,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run131b-addendum.md",
+          "sha256": "16f0465c3bed39a2031eabc54580b8906235dfa80d10aa728bbfaf4cdc21d186"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-c3cfca651b676928f36e654d",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run121b-vote-date-conflict.md",
+      "sourceSha256": "e44528855598b4f513c704bd1bc7390deb81f45a2a41049b825dc7eaf38751a2",
+      "sourceBytes": 1146,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run121b-vote-date-conflict.md",
+          "sha256": "e44528855598b4f513c704bd1bc7390deb81f45a2a41049b825dc7eaf38751a2"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-c4d04aa55eb6e72da9ccf2cd",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run203b.md",
+      "sourceSha256": "8de34989afbe1908f917a5e610b86bdef8dd56564e2484b11888a9e7fcc86b8f",
+      "sourceBytes": 1060,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run203b.md",
+          "sha256": "8de34989afbe1908f917a5e610b86bdef8dd56564e2484b11888a9e7fcc86b8f"
         }
       ]
     },
@@ -22363,6 +25349,34 @@
         {
           "path": "data/research/leads/pass-234-addendum-d-20261028-next-lead-queue.json",
           "sha256": "26475d99393d4f3cb74701e0bd6faa528980d3cb45c78e4c42575da2d4b6c48c"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-c5846b680ee8db03f9d0b8e8",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run194b-constitutional-social.md",
+      "sourceSha256": "ac8f6c5be7f2be500c5c67f36538b37a313500fc99dafcc8724d61db86538ea2",
+      "sourceBytes": 2559,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run194b-constitutional-social.md",
+          "sha256": "ac8f6c5be7f2be500c5c67f36538b37a313500fc99dafcc8724d61db86538ea2"
         }
       ]
     },
@@ -22577,6 +25591,62 @@
       ]
     },
     {
+      "id": "sidecar-c81b7a319801a0f68410e23f",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run123-april1950.md",
+      "sourceSha256": "702b7c3ea5d57fda981d6e58880de92848f7f8f9448df3e78e1103a5f7e311c2",
+      "sourceBytes": 1241,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run123-april1950.md",
+          "sha256": "702b7c3ea5d57fda981d6e58880de92848f7f8f9448df3e78e1103a5f7e311c2"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-c8ad29810c31da7666bb1ced",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run133-source-integrity.md",
+      "sourceSha256": "1656db5fe59c8dc3eabca71cfe90467060e7408af893844efb95020b7d61f2a5",
+      "sourceBytes": 2085,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run133-source-integrity.md",
+          "sha256": "1656db5fe59c8dc3eabca71cfe90467060e7408af893844efb95020b7d61f2a5"
+        }
+      ]
+    },
+    {
       "id": "sidecar-c8ef38d54523176ed5653e88",
       "layer": "lead_queue",
       "sourcePath": "data/research/leads/pass-239i-next-queue.json",
@@ -22601,6 +25671,34 @@
         {
           "path": "data/research/leads/pass-239i-next-queue.json",
           "sha256": "801fe97d0784a1be0c861efa6cd4058bd3132116fa9972a3a8292ffeaf92e5da"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-c8f25112ff8002a66fc4149a",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run162-addendum.md",
+      "sourceSha256": "2f13d23f50ee909ceb725ab3d4d84e4c02052fdde9b377d3892dc2bfb90de0e4",
+      "sourceBytes": 8851,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run162-addendum.md",
+          "sha256": "2f13d23f50ee909ceb725ab3d4d84e4c02052fdde9b377d3892dc2bfb90de0e4"
         }
       ]
     },
@@ -22662,6 +25760,34 @@
         {
           "path": "data/evidence/jeon-jin-han-run176.json",
           "sha256": "c78cfed3e9abb9f0576359acdc5c2fd1ae6acd890970b4b23847aad85673df0a"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-c91ceaff586684af2dbd0c93",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run161-addendum.md",
+      "sourceSha256": "66621be9c37df20be93742227ee8b6444b2979dc857c3af4819cc1960992c79d",
+      "sourceBytes": 2003,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run161-addendum.md",
+          "sha256": "66621be9c37df20be93742227ee8b6444b2979dc857c3af4819cc1960992c79d"
         }
       ]
     },
@@ -22779,6 +25905,34 @@
         {
           "path": "data/annals/kim-tae-seon-run118.md",
           "sha256": "d5b12224fc082e70a455b9b384acb6e955e68f40c20b10a8898ceb6cfaf16fd8"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-cacad493796ee15839d0d6d7",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run136-local-policy-addendum.md",
+      "sourceSha256": "f9d4da64057dc7d0a1784faf65afe343f8f375aeb5a284be9943e36d30744d80",
+      "sourceBytes": 1066,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run136-local-policy-addendum.md",
+          "sha256": "f9d4da64057dc7d0a1784faf65afe343f8f375aeb5a284be9943e36d30744d80"
         }
       ]
     },
@@ -22958,6 +26112,62 @@
       ]
     },
     {
+      "id": "sidecar-cc77ae2415c120b5f79b5c05",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run205-april-command.md",
+      "sourceSha256": "b31fdd6e90ce2a5613e066a1b2cdfbf00a22866bdc40f3a8334648f412d10136",
+      "sourceBytes": 1273,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run205-april-command.md",
+          "sha256": "b31fdd6e90ce2a5613e066a1b2cdfbf00a22866bdc40f3a8334648f412d10136"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-cc9db3a922273e7fa70c510c",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run111d-agriculture-election.md",
+      "sourceSha256": "c0c8d7c49f5b273d8de3c835a54c37c53012968ca59273f39042492fd3f5dcb3",
+      "sourceBytes": 778,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run111d-agriculture-election.md",
+          "sha256": "c0c8d7c49f5b273d8de3c835a54c37c53012968ca59273f39042492fd3f5dcb3"
+        }
+      ]
+    },
+    {
       "id": "sidecar-cc9f3d50ee46a1f7ea424e0b",
       "layer": "evidence",
       "sourcePath": "data/evidence/rhee/run172-economic-treaty-constitutional-source-criticism.json",
@@ -23058,6 +26268,34 @@
       ]
     },
     {
+      "id": "sidecar-cd2784c2445e540a1ddb0049",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run193-parliament-budget.md",
+      "sourceSha256": "c3beb70be95239b3051cd4223949ac729c6113e2f2ac98d3521ae5106ddd845d",
+      "sourceBytes": 1282,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run193-parliament-budget.md",
+          "sha256": "c3beb70be95239b3051cd4223949ac729c6113e2f2ac98d3521ae5106ddd845d"
+        }
+      ]
+    },
+    {
       "id": "sidecar-cf048e79a982d5c09df55884",
       "layer": "annals",
       "sourcePath": "data/annals/yun-posun-1960-seed.md",
@@ -23083,6 +26321,43 @@
         {
           "path": "data/annals/yun-posun-1960-seed.md",
           "sha256": "5227caa08a85b25d56e9b0167a6bf607be702fb3989d26b5ff4f3e0732054a29"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-cfba67b596afc6c49b948cda",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run209-addendum.md",
+      "sourceSha256": "813e70edd94884e69690b42e327724b243ee0d994a8e2074f0a8f4ca725be9b8",
+      "sourceBytes": 6494,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [
+        "doc-r209-dh021-19510626-0020",
+        "doc-r209-dh021-19510626-0040",
+        "doc-r209-dh021-19510626-0050",
+        "doc-r209-dh021-19510626-0060",
+        "doc-r209-dh021-19510626-0070",
+        "doc-r209-dh021-19510626-0080",
+        "doc-r209-dh021-19510626-0090",
+        "doc-r209-nk-gazette-19510607-709"
+      ],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run209-addendum.md",
+          "sha256": "813e70edd94884e69690b42e327724b243ee0d994a8e2074f0a8f4ca725be9b8"
         }
       ]
     },
@@ -23393,6 +26668,34 @@
       ]
     },
     {
+      "id": "sidecar-d1d1a88b18b3fe62a27a2445",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run124-party-statistics-1954.md",
+      "sourceSha256": "8ac1f3c2bc29d8eedbe1b6fd939f23f214b853c8b4cff1592f8bf3a44e396dbe",
+      "sourceBytes": 3219,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run124-party-statistics-1954.md",
+          "sha256": "8ac1f3c2bc29d8eedbe1b6fd939f23f214b853c8b4cff1592f8bf3a44e396dbe"
+        }
+      ]
+    },
+    {
       "id": "sidecar-d1f4a27401f8342d8fd62a4b",
       "layer": "evidence",
       "sourcePath": "data/evidence/kim-hyo-seok-run179d.json",
@@ -23519,6 +26822,34 @@
       ]
     },
     {
+      "id": "sidecar-d4483c33e3f0e961bc41558d",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run108c-economic-plan.md",
+      "sourceSha256": "44e18f21177000433c3c2572d70a2a4c468488863b459522d37b4dc3541b7907",
+      "sourceBytes": 1070,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run108c-economic-plan.md",
+          "sha256": "44e18f21177000433c3c2572d70a2a4c468488863b459522d37b4dc3541b7907"
+        }
+      ]
+    },
+    {
       "id": "sidecar-d45b1a9bd8ae8b2f2ab83721",
       "layer": "annals",
       "sourcePath": "data/annals/run206d-rhee-economy-lee-jong-uk.md",
@@ -23604,6 +26935,37 @@
         {
           "path": "data/annals/1953-rhee-correspondence-catalog-network.md",
           "sha256": "1eadead1f1fa4f6adc1bbbb9152f09a9861dbfbadfc7526e213cbc115cf8eb01"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-d4c2b7694fcd6a89671040d8",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run216-second-wave.json",
+      "sourceSha256": "3c412dd2c94d30f052117c4d0a9c6cc5a7ae07b701a666491d7545b49da63fef",
+      "sourceBytes": 5193,
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [
+        "doc-r216-unts-v109-no366",
+        "doc-r216-who2017-70years-review"
+      ],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run216-second-wave.json",
+          "sha256": "3c412dd2c94d30f052117c4d0a9c6cc5a7ae07b701a666491d7545b49da63fef"
         }
       ]
     },
@@ -24097,6 +27459,38 @@
       ]
     },
     {
+      "id": "sidecar-d740bd574ea31f6ea20c7985",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run210-july02-07.json",
+      "sourceSha256": "6a399ee6dea8e7473ad36a62ceed4d6dd7e3faca62add7139f95beb922741c17",
+      "sourceBytes": 6540,
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [
+        "doc-r210-frus1951v07p1-d403",
+        "doc-r210-frus1951v07p1-d414",
+        "doc-r210-frus1951v07p1-d421"
+      ],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run210-july02-07.json",
+          "sha256": "6a399ee6dea8e7473ad36a62ceed4d6dd7e3faca62add7139f95beb922741c17"
+        }
+      ]
+    },
+    {
       "id": "sidecar-d75dc212bcf37134d0938dbe",
       "layer": "annals",
       "sourcePath": "data/annals/eom-sang-seop.md",
@@ -24127,6 +27521,34 @@
         {
           "path": "data/annals/eom-sang-seop.md",
           "sha256": "86822c5d1809aa6ddf264f4a83b30d992686ac1ba1e1def8dd93fade9f142de5"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-d78a7c87097496d9a27a30c7",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run111c-fed-primary.md",
+      "sourceSha256": "2aedbe424e7fb3217d7c37311f003f3e754d2c5a2abac655418d2fc7737fa0e5",
+      "sourceBytes": 444,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run111c-fed-primary.md",
+          "sha256": "2aedbe424e7fb3217d7c37311f003f3e754d2c5a2abac655418d2fc7737fa0e5"
         }
       ]
     },
@@ -24938,6 +28360,34 @@
       ]
     },
     {
+      "id": "sidecar-dd2aced118341a7eb408d4b2",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run204-un-vote.md",
+      "sourceSha256": "b05aca42c1281b01a1a5fdc6805b19f8f7c9018e1f2d20279eba53dcfcc03314",
+      "sourceBytes": 1681,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run204-un-vote.md",
+          "sha256": "b05aca42c1281b01a1a5fdc6805b19f8f7c9018e1f2d20279eba53dcfcc03314"
+        }
+      ]
+    },
+    {
       "id": "sidecar-dd5f2f8a8a4e92c7b1f0ae52",
       "layer": "history_debt",
       "sourcePath": "data/research/history-debt/HD-RHEE-007-pass41-working-note.md",
@@ -25287,6 +28737,34 @@
         {
           "path": "data/annals/1952-september-state-party-economy.md",
           "sha256": "4b87520667ba4085ddfeff6c856a7d5e5c5aa0be6da4bd904e8aacc62deab3d4"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-df7af5f8b20d78a2ec4015bf",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run118-korean-crosschecks.md",
+      "sourceSha256": "5a97d5d1a375c1977e0a46d6578c61db4666456c2b43b09adb42db1927d43fbb",
+      "sourceBytes": 970,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run118-korean-crosschecks.md",
+          "sha256": "5a97d5d1a375c1977e0a46d6578c61db4666456c2b43b09adb42db1927d43fbb"
         }
       ]
     },
@@ -25723,6 +29201,34 @@
       ]
     },
     {
+      "id": "sidecar-e14ce508fd71a1f11fe9d442",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run127-addendum.md",
+      "sourceSha256": "8223fe0cd255a6d548e228aeaaead7bc2671a8a63127f1e563ee6751dd205f0b",
+      "sourceBytes": 2354,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run127-addendum.md",
+          "sha256": "8223fe0cd255a6d548e228aeaaead7bc2671a8a63127f1e563ee6751dd205f0b"
+        }
+      ]
+    },
+    {
       "id": "sidecar-e1fef64b9fb11ce5ae507cc1",
       "layer": "lead_queue",
       "sourcePath": "data/research/leads/pass-255-next-originals.json",
@@ -26042,6 +29548,34 @@
       ]
     },
     {
+      "id": "sidecar-e366023287930730d71e02e5",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run195-us-uncok-war-cabinet.md",
+      "sourceSha256": "4e21fe78874a2dce0c29bf4c710ceea26376e8cfd0b521e43d09fb7673e12c46",
+      "sourceBytes": 1618,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run195-us-uncok-war-cabinet.md",
+          "sha256": "4e21fe78874a2dce0c29bf4c710ceea26376e8cfd0b521e43d09fb7673e12c46"
+        }
+      ]
+    },
+    {
       "id": "sidecar-e3b6963c8ad7feff056eb362",
       "layer": "coverage",
       "sourcePath": "data/research/coverage/pass-257o3-coverage-overlay.json",
@@ -26258,6 +29792,118 @@
         {
           "path": "data/annals/rhee-syngman-run106-source-recheck.md",
           "sha256": "34b9d6a54c0fa263ef0bd5412d5c3fa3334b23891bb6934b22c9ef509efc33a8"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-e6ad26352b4be095b351ce58",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run194c-decree-crosswalk.md",
+      "sourceSha256": "615e0cdac08832c98af61c5930a3e2ea680cea7fb47c4afe05874b42c527052a",
+      "sourceBytes": 1185,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run194c-decree-crosswalk.md",
+          "sha256": "615e0cdac08832c98af61c5930a3e2ea680cea7fb47c4afe05874b42c527052a"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-e6cdd0939b028ff514779d2c",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run115-chronology-contradiction.md",
+      "sourceSha256": "7b584124da475db53566a391a466fad63cf2860a1d5dc177013821af589b4acb",
+      "sourceBytes": 1013,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run115-chronology-contradiction.md",
+          "sha256": "7b584124da475db53566a391a466fad63cf2860a1d5dc177013821af589b4acb"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-e70238f46e87c29434e58185",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run133-extension.md",
+      "sourceSha256": "6e46f1895e0729d95b6eada5c14889b434b41f628cb1ff60255fa575d7984d40",
+      "sourceBytes": 930,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run133-extension.md",
+          "sha256": "6e46f1895e0729d95b6eada5c14889b434b41f628cb1ff60255fa575d7984d40"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-e71ebc22bf8f1bc84868237b",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run135-july4-source-conflicts.md",
+      "sourceSha256": "951140cd8f51e5e0a5bb6a6444942ae6e26e1b18daa99bb0d04d45eba264e782",
+      "sourceBytes": 1554,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run135-july4-source-conflicts.md",
+          "sha256": "951140cd8f51e5e0a5bb6a6444942ae6e26e1b18daa99bb0d04d45eba264e782"
         }
       ]
     },
@@ -26484,6 +30130,34 @@
         {
           "path": "data/research/leads/pass-252-next-originals.json",
           "sha256": "e240baa2af8b9f4a18c57e9cd0d47213003cc2a496e715bf72486a7c3aec89d2"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-e7ff06ca1bc53dd73d8b68ef",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run125-local-election-source-conflicts.md",
+      "sourceSha256": "3570775bdde20bb0b76af16f421b495b5c6133e6eccffd02a3c8316b68078018",
+      "sourceBytes": 1124,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run125-local-election-source-conflicts.md",
+          "sha256": "3570775bdde20bb0b76af16f421b495b5c6133e6eccffd02a3c8316b68078018"
         }
       ]
     },
@@ -27128,6 +30802,62 @@
       ]
     },
     {
+      "id": "sidecar-eb272ced6d76b7a2f6bc0019",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run146-landreform.md",
+      "sourceSha256": "201a5f038950b7c8172b89883a1f45fd2ef73b1b8440f9f1baab2ae3b2684d19",
+      "sourceBytes": 1312,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run146-landreform.md",
+          "sha256": "201a5f038950b7c8172b89883a1f45fd2ef73b1b8440f9f1baab2ae3b2684d19"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-eb4d6d3560a98678e2a2c04d",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run113-stabilization-date-correction.md",
+      "sourceSha256": "47b55e3da0e2bc7965314fb1b0d93bd82ff36ffc14f0af14ad62bdc9efe75e10",
+      "sourceBytes": 1119,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run113-stabilization-date-correction.md",
+          "sha256": "47b55e3da0e2bc7965314fb1b0d93bd82ff36ffc14f0af14ad62bdc9efe75e10"
+        }
+      ]
+    },
+    {
       "id": "sidecar-eb52823ecf8f890fc2d3e0cb",
       "layer": "annals",
       "sourcePath": "data/annals/shin-tae-young.md",
@@ -27730,6 +31460,36 @@
         {
           "path": "data/evidence/rhee-syngman.json",
           "sha256": "5d1c8f28946dd8fc8a9e9cfc1012889cdf31c70b92363b66f15ab9ed73960a80"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-ee12ed49519ccce5b535c59f",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run199-nov8-14.md",
+      "sourceSha256": "0c7d79d971fccb89024d9fe811af434fb96041bc45afa109199f9f4b3bf36bd9",
+      "sourceBytes": 3769,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "EXPLICITLY_LINKED",
+      "candidatePoliticianIds": [
+        "cand-r199-kim-tae-sun"
+      ],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run199-nov8-14.md",
+          "sha256": "0c7d79d971fccb89024d9fe811af434fb96041bc45afa109199f9f4b3bf36bd9"
         }
       ]
     },
@@ -28405,6 +32165,34 @@
       ]
     },
     {
+      "id": "sidecar-f3496e4179ae7638a6c57791",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run116-civil-service.md",
+      "sourceSha256": "f6b4f3ade8edf72a7abe59f6412a79f3d284170ccebfe802f042a3c3874a52d6",
+      "sourceBytes": 1084,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run116-civil-service.md",
+          "sha256": "f6b4f3ade8edf72a7abe59f6412a79f3d284170ccebfe802f042a3c3874a52d6"
+        }
+      ]
+    },
+    {
       "id": "sidecar-f36ae19b188889367f409cc3",
       "layer": "lead_queue",
       "sourcePath": "data/research/leads/pass-246-next-lead-queue.json",
@@ -28489,6 +32277,34 @@
         {
           "path": "data/research/leads/pass-239l2-next-queue.json",
           "sha256": "96c3019bace521162ba68e4a286b4d861a557c8adf21cb23290f6936aa8bcf42"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-f48aaed9118aebb6b193c893",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run110-addendum.md",
+      "sourceSha256": "b0ba48ce7d43147177405a8ab607005dae81d32ba3a64ec4ea637ecc7f47b99a",
+      "sourceBytes": 1735,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run110-addendum.md",
+          "sha256": "b0ba48ce7d43147177405a8ab607005dae81d32ba3a64ec4ea637ecc7f47b99a"
         }
       ]
     },
@@ -28816,6 +32632,34 @@
       ]
     },
     {
+      "id": "sidecar-f67671b4a3f34691df2a847e",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run167-followup.md",
+      "sourceSha256": "14fbf3f7ac1076c8a4367f4cdd20a16e323b0f6ff6e66bb516e8e0a2c0554178",
+      "sourceBytes": 2921,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run167-followup.md",
+          "sha256": "14fbf3f7ac1076c8a4367f4cdd20a16e323b0f6ff6e66bb516e8e0a2c0554178"
+        }
+      ]
+    },
+    {
       "id": "sidecar-f6e86f4b7bef0a44916dfcf7",
       "layer": "evidence",
       "sourcePath": "data/evidence/kim-su-seon-run179.json",
@@ -28956,6 +32800,34 @@
         {
           "path": "data/annals/pyongyang-municipal-committee-run166.md",
           "sha256": "710398a1dcf734bbe865b2093235aa5ce7c052f770a35d05167f5a280a3c5a27"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-f7c6953d5f61d50229344d38",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run202.md",
+      "sourceSha256": "74d65cd9c465b642213a2171a82055eca53b52e537206b3321061500c5536fa6",
+      "sourceBytes": 5084,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run202.md",
+          "sha256": "74d65cd9c465b642213a2171a82055eca53b52e537206b3321061500c5536fa6"
         }
       ]
     },
@@ -29940,6 +33812,34 @@
       ]
     },
     {
+      "id": "sidecar-fe67348671a54dca2b3a5fb8",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run131c-addendum.md",
+      "sourceSha256": "f49bc01e85ce2686b15099c42382f9990a135ab9627f9ba70df056bc323e9fca",
+      "sourceBytes": 1811,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run131c-addendum.md",
+          "sha256": "f49bc01e85ce2686b15099c42382f9990a135ab9627f9ba70df056bc323e9fca"
+        }
+      ]
+    },
+    {
       "id": "sidecar-fea1d9cd5813498f89a44fbc",
       "layer": "lead_queue",
       "sourcePath": "data/research/leads/pass-233-addendum-20261028-next-lead-queue.json",
@@ -30026,6 +33926,34 @@
         {
           "path": "data/annals/kim-sang-deok-run185b-institutional-pilot.md",
           "sha256": "4fc3d96f17a090a549a693b4ece97db010bd57e8259c6ec148c8e3d68c626ea7"
+        }
+      ]
+    },
+    {
+      "id": "sidecar-ff0addcae0ffa8b4192b05c4",
+      "layer": "history_debt",
+      "sourcePath": "data/research/history-debt/run145b-domestic-policy.md",
+      "sourceSha256": "3041c54fe37780df7e85bb59391064400cdc6172c7222505613f20cd6ce4b0a9",
+      "sourceBytes": 966,
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "targetRegistries": [
+        "history_debt",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "candidatePoliticianIds": [],
+      "relatedEventIds": [],
+      "relatedDocumentIds": [],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/history-debt/run145b-domestic-policy.md",
+          "sha256": "3041c54fe37780df7e85bb59391064400cdc6172c7222505613f20cd6ce4b0a9"
         }
       ]
     },

@@ -34731,6 +34731,66 @@
       "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
     },
     {
+      "source": "data/research/audits/run91-provenance-and-dedup.json",
+      "payload": {
+        "schemaVersion": 1,
+        "run": 91,
+        "date": "2026-10-08",
+        "deduplication": [
+          {
+            "newId": "d91-assembly-19500224",
+            "existingId": "d89-property-confirmation-19500224",
+            "rule": "same original; count once in corpus; retain run91 cross-links for migration"
+          },
+          {
+            "newId": "d91-UNTS-1216",
+            "existingId": null,
+            "rule": "new cross-provenance original"
+          }
+        ],
+        "adversarialFindings": [
+          {
+            "claimId": "c91-treaty-article",
+            "sourceFamilies": [
+              "Korean parliament",
+              "UN treaty registry"
+            ],
+            "status": "CONFLICTED",
+            "notProven": "whether same bilateral agreement intended"
+          },
+          {
+            "claimId": "c91-802-892",
+            "sourceFamilies": [
+              "Korean parliament"
+            ],
+            "status": "CONFLICTED",
+            "notProven": "correct printed total"
+          },
+          {
+            "claimId": "c91-daegu-causality",
+            "sourceFamilies": [
+              "Yeongnam Ilbo",
+              "Daegu Maeil"
+            ],
+            "status": "INSUFFICIENT",
+            "notProven": "1949 protest caused 1951 decision"
+          },
+          {
+            "claimId": "c91-pm-unconstitutionality",
+            "sourceFamilies": [
+              "contemporaneous newspaper"
+            ],
+            "status": "INSUFFICIENT",
+            "notProven": "final legal finding"
+          }
+        ],
+        "weeklyFullReview": "역사부채 주간 전수조사 미실시",
+        "mainBranchChanged": false
+      },
+      "provenance": "4a7b5cf24e6fea834edaea9ea77ebd32facfb1e25bf0833c8e3188d6c1bc9d5a",
+      "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+    },
+    {
       "source": "data/research/candidates/2026-10-04-pass184-landcommittee-identity-review.json",
       "payload": {
         "schemaVersion": 1,
@@ -46093,6 +46153,162 @@
       "provenance": "5a0b571fb5b10aa28853b21aff6e5193fd235ac5f639029ffd859762b0afed8d"
     },
     {
+      "source": "data/research/candidates/run115-assembly-additional-actors.json",
+      "pointer": "/actors/0",
+      "payload": {
+        "name": "이정래",
+        "hanja": "李晶來",
+        "date": "1950-03-09",
+        "action": "절차 이의",
+        "source": "d115-assembly-19500309"
+      },
+      "reason": "POLITICIAN_ITEM_WITHOUT_STABLE_ID",
+      "provenance": "f09761f9596ecfddecd390ea437b3a327718230182faa9c5b549f5fa4140a465"
+    },
+    {
+      "source": "data/research/candidates/run115-assembly-additional-actors.json",
+      "pointer": "/actors/1",
+      "payload": {
+        "name": "표현대",
+        "hanja": "表鉉台",
+        "date": "1950-03-13",
+        "action": "무기명투표 동의",
+        "source": "d115-assembly-19500313"
+      },
+      "reason": "POLITICIAN_ITEM_WITHOUT_STABLE_ID",
+      "provenance": "f09761f9596ecfddecd390ea437b3a327718230182faa9c5b549f5fa4140a465"
+    },
+    {
+      "source": "data/research/candidates/run115-assembly-additional-actors.json",
+      "pointer": "/actors/2",
+      "payload": {
+        "name": "홍희종",
+        "hanja": "洪熺種",
+        "date": "1950-03-13",
+        "action": "명패·투표용지 확인",
+        "source": "d115-assembly-19500313"
+      },
+      "reason": "POLITICIAN_ITEM_WITHOUT_STABLE_ID",
+      "provenance": "f09761f9596ecfddecd390ea437b3a327718230182faa9c5b549f5fa4140a465"
+    },
+    {
+      "source": "data/research/candidates/run115-assembly-additional-actors.json",
+      "pointer": "/actors/3",
+      "payload": {
+        "name": "김교현",
+        "hanja": "金敎賢",
+        "date": "1950-03-14",
+        "action": "기권표 처리",
+        "source": "d115-assembly-19500314"
+      },
+      "reason": "POLITICIAN_ITEM_WITHOUT_STABLE_ID",
+      "provenance": "f09761f9596ecfddecd390ea437b3a327718230182faa9c5b549f5fa4140a465"
+    },
+    {
+      "source": "data/research/candidates/run115-assembly-additional-actors.json",
+      "pointer": "/actors/4",
+      "payload": {
+        "name": "서우석",
+        "hanja": "徐禹錫",
+        "date": "1950-03-14",
+        "action": "선거운동 단속 요구",
+        "source": "d115-assembly-19500314"
+      },
+      "reason": "POLITICIAN_ITEM_WITHOUT_STABLE_ID",
+      "provenance": "f09761f9596ecfddecd390ea437b3a327718230182faa9c5b549f5fa4140a465"
+    },
+    {
+      "source": "data/research/candidates/run115-assembly-additional-actors.json",
+      "pointer": "/actors/5",
+      "payload": {
+        "name": "홍성하",
+        "hanja": "洪性夏",
+        "date": "1950-03-14",
+        "action": "예산심의 시정연설 요구",
+        "source": "d115-assembly-19500314"
+      },
+      "reason": "POLITICIAN_ITEM_WITHOUT_STABLE_ID",
+      "provenance": "f09761f9596ecfddecd390ea437b3a327718230182faa9c5b549f5fa4140a465"
+    },
+    {
+      "source": "data/research/candidates/run115-assembly-additional-actors.json",
+      "pointer": "/actors/6",
+      "payload": {
+        "name": "최창섭",
+        "hanja": "崔昌燮",
+        "date": "1950-03-14",
+        "action": "감표위원",
+        "source": "d115-assembly-19500314"
+      },
+      "reason": "POLITICIAN_ITEM_WITHOUT_STABLE_ID",
+      "provenance": "f09761f9596ecfddecd390ea437b3a327718230182faa9c5b549f5fa4140a465"
+    },
+    {
+      "source": "data/research/candidates/run115-assembly-additional-actors.json",
+      "pointer": "/actors/7",
+      "payload": {
+        "name": "최국현",
+        "hanja": "崔國鉉",
+        "date": "1950-03-14",
+        "action": "감표위원",
+        "source": "d115-assembly-19500314"
+      },
+      "reason": "POLITICIAN_ITEM_WITHOUT_STABLE_ID",
+      "provenance": "f09761f9596ecfddecd390ea437b3a327718230182faa9c5b549f5fa4140a465"
+    },
+    {
+      "source": "data/research/candidates/run115-assembly-additional-actors.json",
+      "pointer": "/actors/8",
+      "payload": {
+        "name": "김교중",
+        "hanja": "金敎中",
+        "date": "1950-03-14",
+        "action": "감표위원",
+        "source": "d115-assembly-19500314"
+      },
+      "reason": "POLITICIAN_ITEM_WITHOUT_STABLE_ID",
+      "provenance": "f09761f9596ecfddecd390ea437b3a327718230182faa9c5b549f5fa4140a465"
+    },
+    {
+      "source": "data/research/candidates/run115-assembly-additional-actors.json",
+      "pointer": "/actors/9",
+      "payload": {
+        "name": "정준",
+        "hanja": "鄭濬",
+        "date": "1950-03-13",
+        "action": "비밀투표 절차",
+        "source": "d115-assembly-19500313"
+      },
+      "reason": "POLITICIAN_ITEM_WITHOUT_STABLE_ID",
+      "provenance": "f09761f9596ecfddecd390ea437b3a327718230182faa9c5b549f5fa4140a465"
+    },
+    {
+      "source": "data/research/candidates/run115-assembly-additional-actors.json",
+      "pointer": "/actors/10",
+      "payload": {
+        "name": "장홍염",
+        "hanja": "張洪琰",
+        "date": "1950-03-13",
+        "action": "일괄표결 개의",
+        "source": "d115-assembly-19500313"
+      },
+      "reason": "POLITICIAN_ITEM_WITHOUT_STABLE_ID",
+      "provenance": "f09761f9596ecfddecd390ea437b3a327718230182faa9c5b549f5fa4140a465"
+    },
+    {
+      "source": "data/research/candidates/run115-assembly-additional-actors.json",
+      "pointer": "/actors/11",
+      "payload": {
+        "name": "조한백",
+        "hanja": "趙漢栢",
+        "date": "1950-03-13",
+        "action": "무기명투표 재청",
+        "source": "d115-assembly-19500313"
+      },
+      "reason": "POLITICIAN_ITEM_WITHOUT_STABLE_ID",
+      "provenance": "f09761f9596ecfddecd390ea437b3a327718230182faa9c5b549f5fa4140a465"
+    },
+    {
       "source": "data/research/corrections/pass-244-date-precision-review.json",
       "payload": {
         "date": "2026-10-29",
@@ -46483,6 +46699,94 @@
         "preserve_history": true
       },
       "provenance": "a819135acca10b92b9a41de1df7557e24828c2cb6ba07ea4731abfd72876036c",
+      "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+    },
+    {
+      "source": "data/research/corrections/run126e-defense-minister.json",
+      "payload": {
+        "id": "CORR126E-01",
+        "date": "2026-10-09",
+        "type": "IDENTITY_CORRECTION",
+        "affected": [
+          "data/events/run126-may29-31-breadth.json",
+          "data/claims/run126-may29-31-breadth.json",
+          "data/annals/1952-may29-31-institutions-run126.md",
+          "data/research/history-debt/run126-breadth.md",
+          "data/politicians/run126-may29-31-candidates.json"
+        ],
+        "originalError": "1952-05-29 '申국방장관'을 신성모로 잘못 식별",
+        "corrected": "1952-05-29 국방장관은 신태영(申泰英), 1952-03-29 취임",
+        "sourceIds": [
+          "d126-d0529-0110",
+          "d126-e01-cabinet-roster"
+        ],
+        "reason": "1952-08-31 동시대 역대 국무위원 명단에서 신성모 국방장관 퇴임 1950-05-07, 신태영 취임 1952-03-29 확인. 단기 연호 4285=1952 변환",
+        "status": "CORRECTED_WITH_REVIEW_HISTORY",
+        "unresolved": "국방부장관 임명 원관보 원면"
+      },
+      "provenance": "aabf520205ed02e90875e53d4809fb8622cb183220c4813b5dc2ae229ce37c54",
+      "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+    },
+    {
+      "source": "data/research/corrections/run132-uri-rule.json",
+      "payload": {
+        "run": 132,
+        "scope": "data/documents/run131-part1.json through part18.json",
+        "defectCount": 147,
+        "sourceCount": 156,
+        "from": "YYYY_MM_MMDD",
+        "to": "YYYY_MM_DD",
+        "validatedSamples": 44,
+        "status": "UNFIXED_IN_SOURCE_FILES"
+      },
+      "provenance": "09240262e7c6120fef0bb53debbe0bf27e187d598659701eee55ec063d1e449e",
+      "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+    },
+    {
+      "source": "data/research/corrections/run133-first-pass.json",
+      "payload": {
+        "date": "2026-10-10",
+        "source": "run131-part1",
+        "repaired": 10,
+        "checked": 2,
+        "method": "Syntax correction with original URLs retained; not a blanket item verification"
+      },
+      "provenance": "39d6f60db857cda998345854c4dc86d7e4837a1984b05ea1cc567749ee7bb227",
+      "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+    },
+    {
+      "source": "data/research/corrections/run133-source-audit.json",
+      "payload": {
+        "run": 133,
+        "date": "2026-10-10",
+        "scope": "data/documents/run131-part1..18.json",
+        "priorDefectCount": 147,
+        "malformedRemaining": 0,
+        "legacyUrlsPreserved": 147,
+        "normalizedSyntaxOnly": 141,
+        "normalizedAndDirectTextChecked": 6,
+        "primaryOrOfficialDocumentsDirectlyRead": 7,
+        "sourcePagesDirectlyOpened": 12,
+        "uniqueUnderlyingDocumentsDirectlyRead": 11,
+        "independentProvenanceFamilies": [
+          "US State Department FRUS originals",
+          "NIKH-hosted Korean contemporary newspapers",
+          "NIKH-hosted government gazette",
+          "NIKH-hosted Ministry of Education report"
+        ],
+        "corrections": [
+          "June 19 inquiry roster reported June 21",
+          "July 3 attendance count not vote count",
+          "June 12 salary triple advisory not enacted",
+          "June 18 education report includes July 1 statistic",
+          "June 25 JCS conditional planning not implemented intervention"
+        ],
+        "method": "Normalized only malformed YYYY_MM_MMDD to YYYY_MM_DD and changed to /contemp/level.do. Kept old URL in legacyMalformedLocation. Text verification performed separately for 6 NIKH records. FRUS original d182 and its NIKH translation count as one underlying original.",
+        "notVerified": "141 syntax-normalized NIKH items await item-level title/date/content validation",
+        "weeklyFullDebtReview": false,
+        "flootModified": false
+      },
+      "provenance": "914146175d60ad178e60a3178c638d7d537cc8048606e51c92a1280606c15a8e",
       "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
     },
     {
@@ -59877,6 +60181,4146 @@
         ]
       },
       "provenance": "2f597c10728f8fd55d653537112358e2bc6d92575b17567f2485379d0982ab8f",
+      "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+    },
+    {
+      "source": "data/research/history-debt/run140-health-labor.json",
+      "payload": {
+        "run": 140,
+        "date": "2026-10-10",
+        "weeklyFullReviewPerformed": false,
+        "items": [
+          {
+            "id": "HD-R140-MEDICAL-ARTICLE",
+            "status": "CONFLICTED",
+            "question": "1951-07-27 법안 제54·70조 vs 최종 법률221호 제45조·총66조",
+            "nextLead": "L140-01",
+            "lastReviewed": "2026-10-10",
+            "resolutionEvidence": null
+          },
+          {
+            "id": "HD-R140-UNION-ARTICLE",
+            "status": "CONFLICTED",
+            "question": "1953-01-21 보도 제13조 해산 vs 최종 제13조 규약변경·제32조 해산",
+            "nextLead": "L140-17",
+            "lastReviewed": "2026-10-10",
+            "resolutionEvidence": null
+          },
+          {
+            "id": "HD-R140-PUBLIC-SERVANTS",
+            "status": "NARROWED",
+            "question": "당대 보도 공무원 전체 제외 요약 vs 법률280호 제6조 명시 예외 다섯 직종",
+            "nextLead": "L140-36",
+            "lastReviewed": "2026-10-10",
+            "resolutionEvidence": null
+          },
+          {
+            "id": "HD-R140-GAZETTE",
+            "status": "CONFLICTED",
+            "question": "관보890 색인 근로기준법 제28호 vs 법제처 제286호",
+            "nextLead": "L140-26",
+            "lastReviewed": "2026-10-10",
+            "resolutionEvidence": null
+          },
+          {
+            "id": "HD-R140-DRAFT-LINEAGE",
+            "status": "OPEN",
+            "question": "1949-12-21 법제처 회부 초안과 1953-03-08 공포법률279호 계보 미확인",
+            "nextLead": "L140-28",
+            "lastReviewed": "2026-10-10",
+            "resolutionEvidence": null
+          },
+          {
+            "id": "HD-R140-IDENTITY",
+            "status": "OPEN",
+            "question": "의장단 성씨와 의원 신원·당적·생몰 원부 미대조",
+            "nextLead": "L140-04",
+            "lastReviewed": "2026-10-10",
+            "resolutionEvidence": null
+          }
+        ]
+      },
+      "provenance": "71a49f31fdde848c7ff5123eeb714ef25ed363a5b0ee894566f156291a013db3",
+      "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+    },
+    {
+      "source": "data/research/history-debt/run142-agriculture-uncertainty.json",
+      "payload": {
+        "run": 142,
+        "items": [
+          {
+            "id": "HD-R142-AGRARIAN-CABINET",
+            "status": "CONFLICTED",
+            "question": "1953-06-27 농지개혁 현금상환 국무회의 최종 의결 여부",
+            "evidence": [
+              "d142-news-agrarian"
+            ],
+            "conflict": "동일 신문 기사에 의결·최종 미결 표현 공존",
+            "next": "L142-31"
+          },
+          {
+            "id": "HD-R142-CHAE-IDENTITY",
+            "status": "OPEN",
+            "question": "채규항의 1953 농민회 조직 직책·소속·생몰",
+            "evidence": [
+              "d142-pa388"
+            ],
+            "next": "L142-33"
+          },
+          {
+            "id": "HD-R142-AID-PROCUREMENT",
+            "status": "OPEN",
+            "question": "1953-01-24 원조 구매 품질·수수료 관련 대통령 주장과 독립 증거",
+            "evidence": [
+              "d142-pa387"
+            ],
+            "next": "L142-38"
+          },
+          {
+            "id": "HD-R142-INTERIOR-LEGISLATION",
+            "status": "OPEN",
+            "question": "1953-01-15 진헌식 발표 선박정원·지방자치법 입법 실행 여부",
+            "evidence": [
+              "d142-news-interior"
+            ],
+            "next": "L142-34"
+          }
+        ],
+        "weeklyFullReview": false
+      },
+      "provenance": "d27766e775c2bfcb596384c10a580a63398356f2cc7e2a5ee9d940a4a3c26577",
+      "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+    },
+    {
+      "source": "data/research/history-debt/run142-date-audit.json",
+      "payload": {
+        "run": 142,
+        "reviewDate": "2026-10-10",
+        "weeklyFullReview": false,
+        "items": [
+          {
+            "id": "HD-R142-782",
+            "status": "CONFLICTED",
+            "issue": "Decree 782 promulgation date: 1953-04-14 in Presidential Archives description, 1953-04-20 in official law index",
+            "next": "L142-01"
+          },
+          {
+            "id": "HD-R142-805",
+            "status": "CONFLICTED",
+            "issue": "Law 292 effective July 4; Decree 805 effective July 3 and promulgated July 12",
+            "next": "L142-05"
+          },
+          {
+            "id": "HD-R142-315",
+            "status": "OPEN",
+            "issue": "315 enterprise unions cited in scholarly abstract without original parliamentary audit table",
+            "next": "L142-10"
+          }
+        ]
+      },
+      "provenance": "45a1492c1082f76d8c964ac8f280039c74546c536d397804cad2146ccc85936c",
+      "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+    },
+    {
+      "source": "data/research/history-debt/run206-may-june1951.json",
+      "payload": {
+        "run": 206,
+        "date": "2026-10-27",
+        "debts": [
+          {
+            "id": "HD-R206-01",
+            "status": "CONFLICTED",
+            "title": "공화민정회 창당 신정동지회 68명 대 70명",
+            "evidence": "1951-05-29 부산일보 보도 70명, 1951-06-01 부산일보 사설 68명, 발회식 총 108명; 원 국회 교섭단체 명부 필요",
+            "nextLead": "L206-11;L206-12"
+          },
+          {
+            "id": "HD-R206-02",
+            "status": "CONFLICTED",
+            "title": "1951-05-31~06-01 부산 광목 가격 13,300 대 3,300",
+            "evidence": "부산일보 전사 같은 단위 1마의 인접 날짜 차이. 원지면·상품규격·시세표 판독 전 확정 금지",
+            "nextLead": "L206-23"
+          },
+          {
+            "id": "HD-R206-03",
+            "status": "CONFLICTED",
+            "title": "이승만 미군 보병철수 발언 5/18 보도와 5/24 부인",
+            "evidence": "5/24 한국어 AP 전사에서는 철수설 부인·증파 요청, 미 국무부 5/31 훈령은 5/18 발언을 문제삼음. 원 인터뷰·후속 면담 필요",
+            "nextLead": "L206-01;L206-02"
+          },
+          {
+            "id": "HD-R206-04",
+            "status": "NARROWED",
+            "title": "1951 대충환율 2,500·4,000·6,000원의 법적 적용시점",
+            "evidence": "5/29 한국 언론 잠정 합의설과 FRUS 6/6 2,500 주장, 6/9 6,000 승인 보고를 분리; 한국 정부 경제안정위원회 원의사록 없음",
+            "nextLead": "L206-03;L206-04"
+          },
+          {
+            "id": "HD-R206-05",
+            "status": "NARROWED",
+            "title": "조선방직 군법회의·민간재판 관할과 피고별 이송",
+            "evidence": "5/25 국무회의 분리 발표와 5/31 검찰총장 5/30 이송 발언은 확인; 8명·14명 피고별 사건번호와 확정판결 필요",
+            "nextLead": "L206-16;L206-17;L206-18"
+          },
+          {
+            "id": "HD-R206-06",
+            "status": "NARROWED",
+            "title": "사회부 1951-05-31 피난민 5758435·복귀민 1935807·구호자 6124278",
+            "evidence": "도별 집계기준일 5/5~5/27 다름, 복귀·구호 모집단 중첩. 영국 하원 5/30의 피난민 300만은 의원 인용이며 동일 모수 아님",
+            "nextLead": "L206-21;L206-22"
+          },
+          {
+            "id": "HD-R206-07",
+            "status": "NARROWED",
+            "title": "1951-06-01 농림부고시62 대한농회 해산 이후 청산·자산 이관",
+            "evidence": "5/31 해산 효력과 6/1 관보 고시는 확인; 후계 농민단체 구성·재산 이관 실적 없음",
+            "nextLead": "L206-09;L206-10",
+            "correctionHistory": [
+              {
+                "date": "2026-10-27",
+                "from": "OPEN",
+                "to": "NARROWED",
+                "evidence": "National Archives presidential office farmers association liquidation file AA0000291 item0001 2 pages identified; content unavailable"
+              }
+            ]
+          },
+          {
+            "id": "HD-R206-08",
+            "status": "NARROWED",
+            "title": "1951-05-24 서문시장 강제철거 경찰·대구시 명령계통",
+            "evidence": "대통령 중지 지시와 치안국장 비판은 신문 전사, 경찰 감찰·피해자 진술·시 원명령 미확인; 추가 1951-05-14 대통령비서실 대비지 內 제24호 AA0000353 관리번호 확인(원면 미판독).",
+            "nextLead": "L206-19;L206-20",
+            "correctionHistory": [
+              {
+                "date": "2026-10-27",
+                "from": "OPEN",
+                "to": "NARROWED",
+                "evidence": "AA0000353 original presidential directive catalog dated 1951-05-14; actual municipal enforcement still unknown"
+              }
+            ]
+          },
+          {
+            "id": "HD-R206-09",
+            "status": "CONFLICTED",
+            "title": "1951-05-29 원내 이종욱 李鍾郁 vs 기존 李宗郁 동일인",
+            "evidence": "한자 충돌을 근거없이 병합하지 않고 후보 cand-r206-lee-jong-uk-hanja-conflict로 분리",
+            "nextLead": "L206-11"
+          },
+          {
+            "id": "HD-R206-10",
+            "status": "OPEN",
+            "title": "1951-05 상공부 金장관 본명 동일인 식별",
+            "evidence": "신문에는 金상공장관만 등장. 기존 김훈 stable ID에 강제 귀속했던 run206 첫 커밋을 정정",
+            "nextLead": "L206-25;L206-28"
+          },
+          {
+            "id": "HD-R206-11",
+            "status": "CONFLICTED",
+            "title": "1951-05-31 사회부 도별 피난민 합계 200,000명 차이",
+            "evidence": "표시 총계 5,758,435 vs 9개 도 합산 5,958,435; 복귀민·구호자·수용소 수 합계는 일치",
+            "nextLead": "L206-41"
+          },
+          {
+            "id": "HD-R206-12",
+            "status": "CONFLICTED",
+            "title": "1951-06-01 하곡예상 종별·도별 합계 충돌",
+            "evidence": "종별 3,257,000 vs 표제 4,256,000; 도별 4,258,493 vs 인쇄 합계 4,258,488",
+            "nextLead": "L206-42"
+          },
+          {
+            "id": "HD-R206-13",
+            "status": "CONFLICTED",
+            "title": "조선방직 1951-05-25 로렌스 증언 강도 비율",
+            "evidence": "87→91 lb는 4.60%인데 증언은 6.3% 증가; 검사측 85→75%는 다른 시험값 가능",
+            "nextLead": "L206-43"
+          }
+        ],
+        "fullWeeklyReview": false,
+        "lastFullReviewUnchanged": true
+      },
+      "provenance": "dc7001d74756dd3a2b0b98972ff7b3cdc2c76c877e496936f8bb81f50afc545f",
+      "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+    },
+    {
+      "source": "data/research/history-debt/run206b-june02-05.json",
+      "payload": {
+        "run": 206,
+        "extension": "b",
+        "debts": [
+          {
+            "id": "HD-R206B-01",
+            "status": "NARROWED",
+            "title": "1951-05-31 국회 정전반대 제안의 최종 채택",
+            "evidence": "1951-06-05 동아일보는 국회가 외무·국방위안을 만장일치 채택했다고 전사; 원속기록·표결명부 미확인; 국가기록원 BA0587725(5면) 해제에서 6/5 제4차 본회의·國議 제172호·6/7 총 제1149호 외무부 통보 독립 확인, 원면 미판독.",
+            "nextLead": "L206b-01"
+          },
+          {
+            "id": "HD-R206B-02",
+            "status": "NARROWED",
+            "title": "대충환율 6000과 일반환율 2500의 복수 체계",
+            "evidence": "6/2 국회 재경위 4~5천 선호, 6/4 백두진 6천 대충/2500 일반, 6/9 무초 대통령 6천 승인 보고로 행위자·날짜 분리",
+            "nextLead": "L206b-03;L206b-04"
+          },
+          {
+            "id": "HD-R206B-03",
+            "status": "OPEN",
+            "title": "1951-06-05 한강 이북 주민 소개 군사·지방 지휘선",
+            "evidence": "이해익 경기도지사 6/5 발표는 미8군 6/4부터 실시 예정이라 주장; 원작전명령과 실제 강제소개·사상자 미확인",
+            "nextLead": "L206b-09"
+          },
+          {
+            "id": "HD-R206B-04",
+            "status": "OPEN",
+            "title": "1951-06-05 유엔군 통화대여 협정 국회 동의·위헌 주장",
+            "evidence": "국회는 1950-07-26 협정에 국회동의가 없다고 비판; 사법 판단·정부 대응과 실제 대여금 장부 미확인",
+            "nextLead": "L206b-17"
+          }
+        ],
+        "weeklyFullReview": false
+      },
+      "provenance": "c41c61f84d26e7ec3c846901381645a7bf6a58ecc3c8596d5333e869bef2b665",
+      "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+    },
+    {
+      "source": "data/research/history-debt/run206c-national-archives.json",
+      "payload": {
+        "run": 206,
+        "extension": "c",
+        "debts": [
+          {
+            "id": "HD-R206C-01",
+            "status": "OPEN",
+            "target": "AA0000294 March18 presidential crossing directive vs operational execution"
+          },
+          {
+            "id": "HD-R206C-02",
+            "status": "OPEN",
+            "target": "AA0000349 May12 presidential Defense Corps dissolution directive vs actual unit shutdown"
+          }
+        ],
+        "updates": [
+          "HD-R206-08",
+          "HD-R206-07",
+          "HD-R206B-01"
+        ],
+        "weeklyFullReview": false
+      },
+      "provenance": "34b5debe421d1a1b2d80eb14f15221ba7e0982762f9562fa232d63d5a45923e4",
+      "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+    },
+    {
+      "source": "data/research/history-debt/run206d-economic-biography.json",
+      "payload": {
+        "run": 206,
+        "extension": "d",
+        "debts": [
+          {
+            "id": "HD-R206D-01",
+            "status": "CONFLICTED",
+            "title": "1951 파철수출 6/7 발표 vs 9/25 대통령 직접지시 날짜",
+            "evidence": "국가기록원 연표 6/7, AA0000411 해제 9/25. 다른 단계일 수 있음",
+            "nextLead": "L206d-04"
+          },
+          {
+            "id": "HD-R206D-02",
+            "status": "CONFLICTED",
+            "title": "1951 정전설 중대성명 6/25 연표 vs 6/27 원고",
+            "evidence": "AA0000653 대통령비서실 6/27 원고 해제, 6/25 연표 사건",
+            "nextLead": "L206d-03"
+          },
+          {
+            "id": "HD-R206D-03",
+            "status": "OPEN",
+            "title": "이종욱 李鍾郁 1884-1969 vs 1951 공화민정회 대표간사 동일인",
+            "evidence": "AKS confirms 1950 Pyeongchang Assembly and 1951 Liberty Party, but does not identify May29 caucus; canonical 李宗郁 mismatch",
+            "nextLead": "L206d-09"
+          }
+        ],
+        "weeklyFullReview": false
+      },
+      "provenance": "06adc8557d42e3cc23459e42daed1d8fe8e354ff95dc37fcc0000d0f7b433f25",
+      "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+    },
+    {
+      "source": "data/research/history-debt/run207-19510607.json",
+      "payload": {
+        "run": 207,
+        "accessDate": "2026-10-27",
+        "historyDebts": [
+          {
+            "id": "HD-R207-01",
+            "status": "OPEN",
+            "question": "1951-06-07 청주사건 국회 조사에서 주장한 5/23 전국 비상경계지령의 충북경찰·지사 수신·전달 여부",
+            "supportingDocumentIds": [
+              "doc-r207-19510607-0070",
+              "doc-r207-19510607-0080"
+            ],
+            "nextLeadIds": [
+              "L207-01",
+              "L207-03",
+              "L207-04"
+            ]
+          },
+          {
+            "id": "HD-R207-02",
+            "status": "OPEN",
+            "question": "6/7 경찰 책임자 엄벌 요구·정부 약속의 실제 징계·인사 처분 여부",
+            "supportingDocumentIds": [
+              "doc-r207-19510607-0070",
+              "doc-r207-19510607-0080"
+            ],
+            "nextLeadIds": [
+              "L207-02",
+              "L207-17"
+            ]
+          },
+          {
+            "id": "HD-R207-03",
+            "status": "OPEN",
+            "question": "1951-06-07 공화민정회 14명 탈퇴의 국회 교섭단체 등록·실제 소속변경 효력",
+            "supportingDocumentIds": [
+              "doc-r207-19510607-0110"
+            ],
+            "nextLeadIds": [
+              "L207-08",
+              "L207-21"
+            ]
+          },
+          {
+            "id": "HD-R207-04",
+            "status": "CONFLICTED",
+            "question": "1951-06-07 조사위원 명단 金秀學과 기존 canonical 金洙鶴 동일인 여부",
+            "supportingDocumentIds": [
+              "doc-r207-19510607-0100"
+            ],
+            "nextLeadIds": [
+              "L207-07",
+              "L207-22"
+            ]
+          },
+          {
+            "id": "HD-R207-05",
+            "status": "OPEN",
+            "question": "삼화고무 2억7천만원 은닉 의혹 및 8억 감정·11억 낙찰의 검찰·법원 확정 판단",
+            "supportingDocumentIds": [
+              "doc-r207-19510607-0120"
+            ],
+            "nextLeadIds": [
+              "L207-11",
+              "L207-12",
+              "L207-19"
+            ]
+          },
+          {
+            "id": "HD-R207-06",
+            "status": "OPEN",
+            "question": "1951-06-07 파철 정부전담 수출 담화가 실제 입찰·달러 지급·미국 선적에 이른 여부",
+            "supportingDocumentIds": [
+              "doc-r207-19510607-0020"
+            ],
+            "nextLeadIds": [
+              "L207-09",
+              "L207-10",
+              "L207-29",
+              "L207-30"
+            ]
+          },
+          {
+            "id": "HD-R207-07",
+            "status": "OPEN",
+            "question": "섬진강 수력공사 20억·구국총연맹 기부금 국회 비밀회의 의혹의 원자료·실제 조사 여부",
+            "supportingDocumentIds": [
+              "doc-r207-19510607-0090"
+            ],
+            "nextLeadIds": [
+              "L207-14",
+              "L207-15",
+              "L207-16"
+            ]
+          },
+          {
+            "id": "HD-R207-08",
+            "status": "OPEN",
+            "question": "6월7일 국회 18인 조사위원 선정과 각 정파 대표 추천이 원의사록과 일치하는지",
+            "supportingDocumentIds": [
+              "doc-r207-19510607-0090",
+              "doc-r207-19510607-0100"
+            ],
+            "nextLeadIds": [
+              "L207-06",
+              "L207-07"
+            ]
+          }
+        ]
+      },
+      "provenance": "dc9293727cd1e383178fe8ac1fbdd28698efaeeeb0eb73bc992cfda5c2ef7d89",
+      "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+    },
+    {
+      "source": "data/research/history-debt/run208-1951-june.json",
+      "payload": {
+        "run": 208,
+        "debts": [
+          {
+            "id": "HD-R208-01",
+            "status": "CONFLICTED",
+            "issue": "FRUS d332의 공식환율 22,500원/달러와 같은 문서의 2,500원/달러 대통령측 고정환율 주장 간 단위·용어·전사 차이. 후속 1952-03-24 OIR Report 5688은 전쟁기간 공정환율 2,500원/달러를 기록하여 22,500원 표기에 대한 반증 강화; 원관보 전까지 미해결. 한국학중앙연구원 환율 연혁은 1950-11-01부터 1년간 2500원, ODA Korea 외교사료관 차관상환표는 1951-08-24 2500원·12-26 6000원. 차관환율과 공식환율 혼동 금지",
+            "documents": [
+              "doc-r208-frus51v7p1-d332",
+              "doc-r208-frus51v7p1-d339",
+              "doc-r208-oir-5688",
+              "doc-r208-aks-exchange-history",
+              "doc-r208-oda-mofa-1958-loan-ledger"
+            ],
+            "next": [
+              "L208-05",
+              "L208-06",
+              "L208-09",
+              "L208-35",
+              "L208-37",
+              "L208-38"
+            ]
+          },
+          {
+            "id": "HD-R208-02",
+            "status": "OPEN",
+            "issue": "6/3 이승만 대충자금 의견서 원본과 6/9 승인 일자·시행 범위",
+            "documents": [
+              "doc-r208-frus51v7p1-d332",
+              "doc-r208-frus51v7p1-d339"
+            ],
+            "next": [
+              "L208-07",
+              "L208-08",
+              "L208-10"
+            ]
+          },
+          {
+            "id": "HD-R208-03",
+            "status": "NARROWED",
+            "issue": "1951-06-02 Acheson 38선 발언과 6/7 한국신문상 별도 증언의 문구·청문회 날짜 관계; 원속기록 미열람",
+            "documents": [
+              "doc-r208-frus51v7p1-d319",
+              "doc-r208-frus51v7p1-d331",
+              "doc-r207-19510607-0010"
+            ],
+            "next": [
+              "L208-01",
+              "L208-02"
+            ]
+          },
+          {
+            "id": "HD-R208-04",
+            "status": "OPEN",
+            "issue": "UNKRA 경제원조 지휘권을 유엔군사령부에 최종 귀속했는지, JCS 반대와 제한적 독립 합의의 최종 결재",
+            "documents": [
+              "doc-r208-frus51v7p1-d350"
+            ],
+            "next": [
+              "L208-26",
+              "L208-27"
+            ]
+          },
+          {
+            "id": "HD-R208-05",
+            "status": "OPEN",
+            "issue": "1951-06-25 한국 정부의 정전협상 참여요구 외무부 원훈령 및 서명권자",
+            "documents": [
+              "doc-r208-frus51v7p1-d356"
+            ],
+            "next": [
+              "L208-28",
+              "L208-29"
+            ]
+          },
+          {
+            "id": "HD-R208-06",
+            "status": "BLOCKED",
+            "issue": "FRUS d320 영국 대사관 전달 영국 원전문과 d353 미보존 미국 발신문: 미국 편집주가 원본 미발견을 명시",
+            "documents": [
+              "doc-r208-frus51v7p1-d320",
+              "doc-r208-frus51v7p1-d353"
+            ],
+            "next": [
+              "L208-16",
+              "L208-30"
+            ]
+          },
+          {
+            "id": "HD-R208-07",
+            "status": "CONFLICTED",
+            "issue": "국편 frus_007r_0030_1030 수입품 가격 6000원을 넘지 않아야 한다 vs 미국 FRUS d332 not less than 6000 (6000원 미만 금지), 방향 반전 번역",
+            "documents": [
+              "doc-r208-frus51v7p1-d332",
+              "doc-r208-nikh-frus-d332-translation"
+            ],
+            "next": [
+              "L208-36",
+              "L208-05"
+            ]
+          },
+          {
+            "id": "HD-R208-08",
+            "status": "CONFLICTED",
+            "issue": "AKS 1951-05-01 대충자금 6000원 책정 vs 미국대사 1951-05-29 4/1 소급 요구·6/9 대통령 승인 보고: 결정·요구·적용·후대 정리 단계가 달라 보임",
+            "documents": [
+              "doc-r208-aks-exchange-history",
+              "doc-r208-nikh-frus-19510529-995",
+              "doc-r208-frus51v7p1-d339"
+            ],
+            "next": [
+              "L208-05",
+              "L208-07",
+              "L208-38"
+            ]
+          }
+        ],
+        "weeklyFullReview": false,
+        "statusTransitions": [
+          {
+            "id": "HD-R206D-03",
+            "from": "OPEN",
+            "to": "NARROWED",
+            "date": "2026-10-28",
+            "reason": "1950 official CEC Pyeongchang election 李鍾郁 + AKS 1884-1969 monk biography, 1951 caucus original roster missing",
+            "notResolved": true
+          },
+          {
+            "id": "HD-R207-04",
+            "from": "CONFLICTED",
+            "to": "CONFLICTED",
+            "date": "2026-10-28",
+            "reason": "1950 CEC and AKS 金秀學 support 1951 newspaper but canonical 金洙鶴 and 1951 official committee roster unresolved",
+            "notResolved": true
+          }
+        ]
+      },
+      "provenance": "ffc75bdaf256842aff2dcc9a16380de96480ae62cac55b9863a330d8dc2fe330",
+      "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+    },
+    {
+      "source": "data/research/history-debt/run210-july02-07.json",
+      "payload": {
+        "run": 210,
+        "weeklyFullReview": false,
+        "debts": [
+          {
+            "id": "HD-R209-26",
+            "status": "NARROWED_NOT_RESOLVED",
+            "finding": "7/3 Marshall 서한 + 7/11 Hickerson→Kingsley 공식 2단계 권한안 확보. 1단계 UNC 단기구호 독점, UNKRA 장기계획·추가원조; 2단계 이관 시점 미정. 7/16 Kingsley 동의는 FRUS 편집주석에만 기록. 7/1 CAC 부분 기능이관 여부 및 실제 전환 집행일은 계속 OPEN/NARROWED.",
+            "evidenceDocumentIds": [
+              "doc-r210-frus1951v07p1-d403",
+              "doc-r210-dh_022_1951_07_05_0010"
+            ],
+            "nextTarget": "data/research/lead-queues/run210-next.json",
+            "reviewDate": "2026-10-28",
+            "weeklyFullReview": false
+          },
+          {
+            "id": "HD-R210-01",
+            "status": "OPEN",
+            "finding": "육본훈령191 원문 전사 확보: 1950 훈령12에 부여한 직결처분권 1951-07-10 0시부터 취소. 1950 원훈령·실제 처분기록 필요.",
+            "evidenceDocumentIds": [
+              "doc-r210-dh_022_1951_07_06_0080"
+            ],
+            "nextTarget": "data/research/lead-queues/run210-next.json",
+            "reviewDate": "2026-10-28",
+            "weeklyFullReview": false
+          },
+          {
+            "id": "HD-R210-02",
+            "status": "CONFLICTED_ARITHMETIC",
+            "finding": "1951-07-06 하곡 수집 기사 도별 열거 합계 421000석 vs 본문 350000석, 차이 71000석. 청주/제주 원신문·국회 원표 확인.",
+            "evidenceDocumentIds": [
+              "doc-r210-dh_022_1951_07_06_0100"
+            ],
+            "nextTarget": "data/research/lead-queues/run210-next.json",
+            "reviewDate": "2026-10-28",
+            "weeklyFullReview": false
+          },
+          {
+            "id": "HD-R210-03",
+            "status": "CONFLICTED_ARITHMETIC",
+            "finding": "서울 복귀 농민 7구 열거 합계 87670명 vs 기사 총 87680명 차이 10명.",
+            "evidenceDocumentIds": [
+              "doc-r210-dh_022_1951_07_06_0140"
+            ],
+            "nextTarget": "data/research/lead-queues/run210-next.json",
+            "reviewDate": "2026-10-28",
+            "weeklyFullReview": false
+          },
+          {
+            "id": "HD-R210-04",
+            "status": "CONFLICTED_TESTIMONY",
+            "finding": "신성모 주일대표 국무회의 부결 주장(서민호 의원) vs 이후 전원동의 설명(변영태 외무장관), 원의사록 필요.",
+            "evidenceDocumentIds": [
+              "doc-r210-dh_022_1951_07_05_0060"
+            ],
+            "nextTarget": "data/research/lead-queues/run210-next.json",
+            "reviewDate": "2026-10-28",
+            "weeklyFullReview": false
+          },
+          {
+            "id": "HD-R210-05",
+            "status": "OPEN",
+            "finding": "국민방위군 재심 군법회의 변호인 퇴장·윤익헌 자금 진술의 원공판조서·최종 판결 미확보.",
+            "evidenceDocumentIds": [
+              "doc-r210-dh_022_1951_07_05_0100",
+              "doc-r210-dh_022_1951_07_06_0110",
+              "doc-r210-dh_022_1951_07_07_0070"
+            ],
+            "nextTarget": "data/research/lead-queues/run210-next.json",
+            "reviewDate": "2026-10-28",
+            "weeklyFullReview": false
+          },
+          {
+            "id": "HD-R210-06",
+            "status": "OPEN",
+            "finding": "이익흥 서울 복귀 통제와 경남 계엄사 물자 압수·발포 경고는 신문상 발표. 법적 권한·실제 시행·피해기록 미확보.",
+            "evidenceDocumentIds": [
+              "doc-r210-dh_022_1951_07_05_0080",
+              "doc-r210-dh_022_1951_07_05_0090"
+            ],
+            "nextTarget": "data/research/lead-queues/run210-next.json",
+            "reviewDate": "2026-10-28",
+            "weeklyFullReview": false
+          },
+          {
+            "id": "HD-R210-07",
+            "status": "OPEN",
+            "finding": "공보처 각하 호칭 폐지 발표는 확인, 이 공보처장 동일인·실제 시행 공문 미확보.",
+            "evidenceDocumentIds": [
+              "doc-r210-dh_022_1951_07_07_0030"
+            ],
+            "nextTarget": "data/research/lead-queues/run210-next.json",
+            "reviewDate": "2026-10-28",
+            "weeklyFullReview": false
+          },
+          {
+            "id": "HD-R210-08",
+            "status": "OPEN",
+            "finding": "1951-07-07 국군 LCI 함상 회의 참석자는 신문 명단 확인, 익명 관계자 합의 주장은 원회의록 미확보.",
+            "evidenceDocumentIds": [
+              "doc-r210-dh_022_1951_07_07_0060"
+            ],
+            "nextTarget": "data/research/lead-queues/run210-next.json",
+            "reviewDate": "2026-10-28",
+            "weeklyFullReview": false
+          },
+          {
+            "id": "HD-R210-09",
+            "status": "OPEN",
+            "finding": "1951-07-07 서울시 역산 5600건→1000건 예상은 추정. 재조사 최종 건수 미확인.",
+            "evidenceDocumentIds": [
+              "doc-r210-dh_022_1951_07_07_0080"
+            ],
+            "nextTarget": "data/research/lead-queues/run210-next.json",
+            "reviewDate": "2026-10-28",
+            "weeklyFullReview": false
+          },
+          {
+            "id": "HD-R210-10",
+            "status": "OPEN",
+            "finding": "면실 5300톤 허가→금지 보도, 실제 허가고시·선적 1500톤 확인 필요.",
+            "evidenceDocumentIds": [
+              "doc-r210-dh_022_1951_07_07_0090"
+            ],
+            "nextTarget": "data/research/lead-queues/run210-next.json",
+            "reviewDate": "2026-10-28",
+            "weeklyFullReview": false
+          },
+          {
+            "id": "HD-R210-11",
+            "status": "OPEN",
+            "finding": "미대사 공개서한 항의 전문은 확보. 원공개편지·공보처 부인문·장면 사과공한은 FRUS Not printed.",
+            "evidenceDocumentIds": [
+              "doc-r210-frus1951v07p1-d414",
+              "doc-r210-dh_022_1951_07_07_0020"
+            ],
+            "nextTarget": "data/research/lead-queues/run210-next.json",
+            "reviewDate": "2026-10-28",
+            "weeklyFullReview": false
+          },
+          {
+            "id": "HD-R210-12",
+            "status": "CONFLICTED_RANK",
+            "finding": "1951-07-06 육본훈령191 서명자 李鍾贊 '육군대장' vs 7/7 LCI 함상회의 보도 李鍾贊 '소장'. 동명이인·계급 오기·직책표기 차이 미해결. 육군 인사원부와 훈령 원면 대조.",
+            "evidenceDocumentIds": [
+              "doc-r210-dh_022_1951_07_06_0080",
+              "doc-r210-dh_022_1951_07_07_0060"
+            ],
+            "nextTarget": "L210-43",
+            "reviewDate": "2026-10-28",
+            "weeklyFullReview": false
+          },
+          {
+            "id": "HD-R210-13",
+            "status": "NARROWED",
+            "finding": "1951-07-10 Acheson의 특별계정 달러 일부 방출 요청 확인, 월170만달러 적립. 실제 지급·1951-08-30 Lovett 답신 원문은 미확보.",
+            "evidenceDocumentIds": [
+              "doc-r210-frus1951v07p1-d421"
+            ],
+            "nextTarget": "L210-45",
+            "reviewDate": "2026-10-28",
+            "weeklyFullReview": false
+          }
+        ]
+      },
+      "provenance": "6a399ee6dea8e7473ad36a62ceed4d6dd7e3faca62add7139f95beb922741c17",
+      "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+    },
+    {
+      "source": "data/research/history-debt/run211-july10-31.json",
+      "payload": {
+        "run": 211,
+        "weeklyFullReviewPerformed": false,
+        "lastFullReviewUnchanged": true,
+        "debts": [
+          {
+            "id": "HD-R211-01",
+            "status": "CONFLICTED",
+            "question": "FRUS d441 vs 7/14 0020 모리슨 우려 번역 부정어 반전",
+            "nextOriginalTarget": "TNA FO371 원영문·국편 번역교정",
+            "reviewedAt": "2026-10-28",
+            "lastFullReviewUnchanged": true,
+            "reviewType": "INDIVIDUAL_TARGETED_NOT_WEEKLY_CENSUS",
+            "correctionHistory": []
+          },
+          {
+            "id": "HD-R211-02",
+            "status": "CONFLICTED",
+            "question": "사회부 22600톤 vs 11개 도별 21700톤",
+            "nextOriginalTarget": "사회부 7/13 배정원표",
+            "reviewedAt": "2026-10-28",
+            "lastFullReviewUnchanged": true,
+            "reviewType": "INDIVIDUAL_TARGETED_NOT_WEEKLY_CENSUS",
+            "correctionHistory": []
+          },
+          {
+            "id": "HD-R211-03",
+            "status": "CONFLICTED",
+            "question": "전기료 정확 3배 주장 vs 2.9~4.67배 항목",
+            "nextOriginalTarget": "상공부 전기요금 고시",
+            "reviewedAt": "2026-10-28",
+            "lastFullReviewUnchanged": true,
+            "reviewType": "INDIVIDUAL_TARGETED_NOT_WEEKLY_CENSUS",
+            "correctionHistory": []
+          },
+          {
+            "id": "HD-R211-04",
+            "status": "CONFLICTED",
+            "question": "경부선 111명 vs 부분 45+86=131명",
+            "nextOriginalTarget": "7/15 철도국 승객원장",
+            "reviewedAt": "2026-10-28",
+            "lastFullReviewUnchanged": true,
+            "reviewType": "INDIVIDUAL_TARGETED_NOT_WEEKLY_CENSUS",
+            "correctionHistory": []
+          },
+          {
+            "id": "HD-R211-05",
+            "status": "CONFLICTED",
+            "question": "이종찬 7/24 훈령 육군대장 vs 7/19 기사 소장",
+            "nextOriginalTarget": "육군 인사원부·원훈령",
+            "reviewedAt": "2026-10-28",
+            "lastFullReviewUnchanged": true,
+            "reviewType": "INDIVIDUAL_TARGETED_NOT_WEEKLY_CENSUS",
+            "correctionHistory": []
+          },
+          {
+            "id": "HD-R211-06",
+            "status": "NARROWED",
+            "question": "7/6 훈령191 후속 7/24 194 확인, 8/1 시행",
+            "nextOriginalTarget": "훈령191·155·179 원문·8/1 하달부",
+            "reviewedAt": "2026-10-28",
+            "lastFullReviewUnchanged": true,
+            "reviewType": "INDIVIDUAL_TARGETED_NOT_WEEKLY_CENSUS",
+            "correctionHistory": []
+          },
+          {
+            "id": "HD-R211-07",
+            "status": "NARROWED",
+            "question": "7/12 군법회의 재판권 법안 → 7/29 법률210 관보 공포",
+            "nextOriginalTarget": "국회 최종표결·대법원 적용사례",
+            "reviewedAt": "2026-10-28",
+            "lastFullReviewUnchanged": true,
+            "reviewType": "INDIVIDUAL_TARGETED_NOT_WEEKLY_CENSUS",
+            "correctionHistory": []
+          },
+          {
+            "id": "HD-R211-08",
+            "status": "NARROWED",
+            "question": "1951-07-27 2독회 완료 이후 국민의료법은 1951-09-25 법률 제221호로 공포·1951-12-25 시행됨(법제처 확인); 7월 수정조항의 최종 반영 및 원관보 미확인",
+            "nextOriginalTarget": "1951-09-25 관보 법률 제221호 원면, 1951-07-27 2독회 조문 대조",
+            "reviewedAt": "2026-10-28",
+            "lastFullReviewUnchanged": true,
+            "reviewType": "INDIVIDUAL_TARGETED_NOT_WEEKLY_CENSUS",
+            "correctionHistory": [
+              {
+                "date": "2026-10-28",
+                "from": "OPEN",
+                "to": "NARROWED",
+                "reason": "법제처 연혁법령 공식 페이지: 국민의료법 법률 제221호 1951-09-25 제정·공포, 1951-12-25 시행 확인. 원관보·7월 수정안 대비는 여전히 OPEN.",
+                "documentId": "doc-r211-law221-moleg-metadata"
+              }
+            ]
+          },
+          {
+            "id": "HD-R211-09",
+            "status": "CONFLICTED",
+            "question": "방위군 정치자금 1.2억·1.3억, 피고진술·부인·무죄보도 충돌",
+            "nextOriginalTarget": "대구 고등군법회의 원판결·국회 자체숙청 원보고",
+            "reviewedAt": "2026-10-28",
+            "lastFullReviewUnchanged": true,
+            "reviewType": "INDIVIDUAL_TARGETED_NOT_WEEKLY_CENSUS",
+            "correctionHistory": []
+          },
+          {
+            "id": "HD-R211-10",
+            "status": "NARROWED",
+            "question": "7/18 UNC-UNKRA 분업·7/26 사무소·7/27 UNCURK 동의",
+            "nextOriginalTarget": "US-UN Kingsley 원협정·UNCURK 결의",
+            "reviewedAt": "2026-10-28",
+            "lastFullReviewUnchanged": true,
+            "reviewType": "INDIVIDUAL_TARGETED_NOT_WEEKLY_CENSUS",
+            "correctionHistory": []
+          },
+          {
+            "id": "HD-R211-11",
+            "status": "OPEN",
+            "question": "7/16 이승만-릿지웨이 북진·현실수용 발언 병존",
+            "nextOriginalTarget": "한국측 면담 원문·7/19 내각서한",
+            "reviewedAt": "2026-10-28",
+            "lastFullReviewUnchanged": true,
+            "reviewType": "INDIVIDUAL_TARGETED_NOT_WEEKLY_CENSUS",
+            "correctionHistory": []
+          },
+          {
+            "id": "HD-R211-12",
+            "status": "CONFLICTED",
+            "question": "7/13 대통령 군용차 지시 못 등록케 전사 오류 의심",
+            "nextOriginalTarget": "대통령기록관 大秘指國防51 원면",
+            "reviewedAt": "2026-10-28",
+            "lastFullReviewUnchanged": true,
+            "reviewType": "INDIVIDUAL_TARGETED_NOT_WEEKLY_CENSUS",
+            "correctionHistory": []
+          },
+          {
+            "id": "HD-R211-13",
+            "status": "OPEN",
+            "question": "7/30 경쟁입찰 10만원 지시와 8/15 수의계약 보고 이행",
+            "nextOriginalTarget": "국무회의 원지시·부처별 8/15 보고",
+            "reviewedAt": "2026-10-28",
+            "lastFullReviewUnchanged": true,
+            "reviewType": "INDIVIDUAL_TARGETED_NOT_WEEKLY_CENSUS",
+            "correctionHistory": []
+          },
+          {
+            "id": "HD-R211-14",
+            "status": "CONFLICTED",
+            "question": "KMAG 치안국 고문비 180만원 vs 항목 300만원",
+            "nextOriginalTarget": "RG338 KMAG Box39 원면",
+            "reviewedAt": "2026-10-28",
+            "lastFullReviewUnchanged": true,
+            "reviewType": "INDIVIDUAL_TARGETED_NOT_WEEKLY_CENSUS",
+            "correctionHistory": []
+          },
+          {
+            "id": "HD-R211-15",
+            "status": "CONFLICTED",
+            "question": "7/30 양곡 95+35+32=162만 vs 기사 161만",
+            "nextOriginalTarget": "농림부 1951 하반기 수급원표",
+            "reviewedAt": "2026-10-28",
+            "lastFullReviewUnchanged": true,
+            "reviewType": "INDIVIDUAL_TARGETED_NOT_WEEKLY_CENSUS",
+            "correctionHistory": []
+          },
+          {
+            "id": "HD-R211-16",
+            "status": "OPEN",
+            "question": "7/24 탄핵재판소 10인 구성과 선출원부",
+            "nextOriginalTarget": "국회·대법원 7/24 원명부",
+            "reviewedAt": "2026-10-28",
+            "lastFullReviewUnchanged": true,
+            "reviewType": "INDIVIDUAL_TARGETED_NOT_WEEKLY_CENSUS",
+            "correctionHistory": []
+          },
+          {
+            "id": "HD-R211-17",
+            "status": "NARROWED",
+            "question": "7/17 전국 2국민병 소집공고 vs 7/24 서울 보류",
+            "nextOriginalTarget": "서울 병사구사령부 명령·국회 7/27 질의",
+            "reviewedAt": "2026-10-28",
+            "lastFullReviewUnchanged": true,
+            "reviewType": "INDIVIDUAL_TARGETED_NOT_WEEKLY_CENSUS",
+            "correctionHistory": []
+          },
+          {
+            "id": "HD-R211-18",
+            "status": "OPEN",
+            "question": "거창사건 1951 공판 187명 진술과 전체 피해·후대 판단 분리",
+            "nextOriginalTarget": "고등군법회의 원조서·진실화해위 보고",
+            "reviewedAt": "2026-10-28",
+            "lastFullReviewUnchanged": true,
+            "reviewType": "INDIVIDUAL_TARGETED_NOT_WEEKLY_CENSUS",
+            "correctionHistory": []
+          },
+          {
+            "id": "HD-R211-19",
+            "status": "CONFLICTED",
+            "question": "국회 7/11 22·23차, 7/21 21차 vs 7/20 30차",
+            "nextOriginalTarget": "국회 1951-07 의사일지",
+            "reviewedAt": "2026-10-28",
+            "lastFullReviewUnchanged": true,
+            "reviewType": "INDIVIDUAL_TARGETED_NOT_WEEKLY_CENSUS",
+            "correctionHistory": []
+          },
+          {
+            "id": "HD-R211-20",
+            "status": "OPEN",
+            "question": "UNKRA 42·43·44·45개국 재건협력국 수치 상이",
+            "nextOriginalTarget": "UN 공식 국가별 기부·참가 명부",
+            "reviewedAt": "2026-10-28",
+            "lastFullReviewUnchanged": true,
+            "reviewType": "INDIVIDUAL_TARGETED_NOT_WEEKLY_CENSUS",
+            "correctionHistory": []
+          },
+          {
+            "id": "HD-R211-21",
+            "status": "OPEN",
+            "question": "7/31 영농자금 100억 계획 vs 실제 57억 대출",
+            "nextOriginalTarget": "한국은행·농협 조합별 대출원장",
+            "reviewedAt": "2026-10-28",
+            "lastFullReviewUnchanged": true,
+            "reviewType": "INDIVIDUAL_TARGETED_NOT_WEEKLY_CENSUS",
+            "correctionHistory": []
+          },
+          {
+            "id": "HD-R211-22",
+            "status": "OPEN",
+            "question": "7/27 458공장 복구계획과 실제 가동률",
+            "nextOriginalTarget": "상공부 공업국 공장별 복구원부",
+            "reviewedAt": "2026-10-28",
+            "lastFullReviewUnchanged": true,
+            "reviewType": "INDIVIDUAL_TARGETED_NOT_WEEKLY_CENSUS",
+            "correctionHistory": []
+          },
+          {
+            "id": "HD-R211-23",
+            "status": "CONFLICTED",
+            "question": "7/31 경기 요구호 원주민 48만8034/262만6623 ≈18.6% vs 약1할",
+            "nextOriginalTarget": "경기도 인구·구호 행정통계 원표",
+            "reviewedAt": "2026-10-28",
+            "lastFullReviewUnchanged": true,
+            "reviewType": "INDIVIDUAL_TARGETED_NOT_WEEKLY_CENSUS",
+            "correctionHistory": []
+          },
+          {
+            "id": "HD-R211-24",
+            "status": "OPEN",
+            "question": "7/24 석탄 목표 12만1000톤, 광산별 일부 누락·영월25톤 표기",
+            "nextOriginalTarget": "상공부 6광산 생산계획 원표",
+            "reviewedAt": "2026-10-28",
+            "lastFullReviewUnchanged": true,
+            "reviewType": "INDIVIDUAL_TARGETED_NOT_WEEKLY_CENSUS",
+            "correctionHistory": []
+          }
+        ],
+        "trackedPriorLeads": [
+          {
+            "previousLeadId": "L210-09",
+            "status": "NARROWED_NOT_RESOLVED",
+            "followupDocument": "https://db.history.go.kr/id/dh_022_1951_07_10_0090",
+            "outcome": "농림부 지령과 재고 미충족을 후속 기사로 확인, 7/6 국무회의 원본은 여전히 미확보",
+            "nextOriginalTarget": "See run211 lead queue; exact archival original remains OPEN."
+          },
+          {
+            "previousLeadId": "L210-10",
+            "status": "NARROWED_NOT_RESOLVED",
+            "followupDocument": "https://db.history.go.kr/id/dh_022_1951_07_13_0080",
+            "outcome": "사회부 7월 구호미 배분 22600/21700 충돌 확인, 7/7 원부 미확보",
+            "nextOriginalTarget": "See run211 lead queue; exact archival original remains OPEN."
+          },
+          {
+            "previousLeadId": "L210-11",
+            "status": "NARROWED_NOT_RESOLVED",
+            "followupDocument": "https://db.history.go.kr/id/dh_022_1951_07_10_0090",
+            "outcome": "경남 1500톤 지령 미이행 보도 확보, 지방 수령부 미확보",
+            "nextOriginalTarget": "See run211 lead queue; exact archival original remains OPEN."
+          },
+          {
+            "previousLeadId": "L210-18",
+            "status": "NARROWED_NOT_RESOLVED",
+            "followupDocument": "https://db.history.go.kr/id/dh_022_1951_07_24_0060",
+            "outcome": "육본훈령194가 7/6 제191호를 명시 참조, 제191호 원면 미확보",
+            "nextOriginalTarget": "See run211 lead queue; exact archival original remains OPEN."
+          },
+          {
+            "previousLeadId": "L210-19",
+            "status": "NARROWED_NOT_RESOLVED",
+            "followupDocument": "https://db.history.go.kr/id/dh_022_1951_07_19_0060",
+            "outcome": "방위군 판결 후 국방장관 담화 확인, 7/5~7 공판원조서 미확보",
+            "nextOriginalTarget": "See run211 lead queue; exact archival original remains OPEN."
+          },
+          {
+            "previousLeadId": "L210-20",
+            "status": "NARROWED_NOT_RESOLVED",
+            "followupDocument": "https://db.history.go.kr/id/dh_022_1951_07_26_0080",
+            "outcome": "윤익헌 자금 제공 진술과 반박 확보, 회계장부 미확보",
+            "nextOriginalTarget": "See run211 lead queue; exact archival original remains OPEN."
+          },
+          {
+            "previousLeadId": "L210-24",
+            "status": "NARROWED_NOT_RESOLVED",
+            "followupDocument": "https://db.history.go.kr/id/dh_022_1951_07_13_0040",
+            "outcome": "군무위원 3군 참석 및 7/29 후속 회의 보도, 설치 결재 미확보",
+            "nextOriginalTarget": "See run211 lead queue; exact archival original remains OPEN."
+          },
+          {
+            "previousLeadId": "L210-25",
+            "status": "NARROWED_NOT_RESOLVED",
+            "followupDocument": "https://db.history.go.kr/id/dh_022_1951_07_13_0040",
+            "outcome": "손원일·김정렬·백선엽 참석 보도 확인, 출장원부 미확보",
+            "nextOriginalTarget": "See run211 lead queue; exact archival original remains OPEN."
+          },
+          {
+            "previousLeadId": "L210-29",
+            "status": "NARROWED_NOT_RESOLVED",
+            "followupDocument": "https://db.history.go.kr/id/dh_022_1951_07_14_0090",
+            "outcome": "사과수출 청원으로 추진단계 좁힘, 실제 수출 통관원부 미확보",
+            "nextOriginalTarget": "See run211 lead queue; exact archival original remains OPEN."
+          },
+          {
+            "previousLeadId": "L210-33",
+            "status": "NARROWED_NOT_RESOLVED",
+            "followupDocument": "https://db.history.go.kr/id/dh_022_1951_07_18_0090",
+            "outcome": "전시 UNC/종전후 UNKRA 분업 공동성명 확인, 원서명 협정 미확보",
+            "nextOriginalTarget": "See run211 lead queue; exact archival original remains OPEN."
+          },
+          {
+            "previousLeadId": "L210-42",
+            "status": "NARROWED_NOT_RESOLVED",
+            "followupDocument": "https://db.history.go.kr/id/dh_022_1951_07_24_0060",
+            "outcome": "육본훈령194 원문에서 191호·155호·179호 번호 확인, 191호 원면 미확보",
+            "nextOriginalTarget": "See run211 lead queue; exact archival original remains OPEN."
+          },
+          {
+            "previousLeadId": "L210-43",
+            "status": "NARROWED_NOT_RESOLVED",
+            "followupDocument": "https://db.history.go.kr/id/dh_022_1951_07_24_0060",
+            "outcome": "7/24 이종찬 서명 계급 육군대장과 7/19 소장 기사 충돌 유지",
+            "nextOriginalTarget": "See run211 lead queue; exact archival original remains OPEN."
+          },
+          {
+            "previousLeadId": "L210-46",
+            "status": "NARROWED_NOT_RESOLVED",
+            "followupDocument": "https://db.history.go.kr/id/dh_022_1951_07_27_0060",
+            "outcome": "UNCURK UNKRA 동의 보도 확인, Kingsley 7/16 원문 서명/동의 미확보",
+            "nextOriginalTarget": "See run211 lead queue; exact archival original remains OPEN."
+          }
+        ]
+      },
+      "provenance": "bc724ac134bcb5a316770b7d380c94815988e1e563bf6b65f1129d18a05f4f6d",
+      "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+    },
+    {
+      "source": "data/research/history-debt/run212-august.json",
+      "payload": {
+        "run": 212,
+        "accessDate": "2026-10-28",
+        "weeklyFullReviewPerformed": false,
+        "lastFullReviewUnchanged": true,
+        "debts": [
+          {
+            "id": "HD-R212-01",
+            "status": "CONFLICTED",
+            "question": "8/3 헌법위원회 10인 명부의 선출·추천·임명 법적 원부",
+            "nextOriginalTarget": "국회·대법원·관보 1951-08-03 원면",
+            "accessDate": "2026-10-28",
+            "correctionHistory": []
+          },
+          {
+            "id": "HD-R212-02",
+            "status": "OPEN",
+            "question": "8/9 정부조직개편 법사위 기본안의 실제 본회의 통과·최종 법령 반영",
+            "nextOriginalTarget": "국회 법사위 8/9 회의록·정부조직법 개정 관보",
+            "accessDate": "2026-10-28",
+            "correctionHistory": []
+          },
+          {
+            "id": "HD-R212-03",
+            "status": "CONFLICTED",
+            "question": "기부금품모집금지법 224호 공포일 법제처 11/17 vs 후대 판결 11/7",
+            "nextOriginalTarget": "1951-11-07·17 관보 원면",
+            "accessDate": "2026-10-28",
+            "correctionHistory": []
+          },
+          {
+            "id": "HD-R212-04",
+            "status": "CONFLICTED",
+            "question": "8/10 초등학교 80% 표제 vs 본문 3450/3900=88.46%",
+            "nextOriginalTarget": "문교부 1951-08-10 학교별 개교 원부",
+            "accessDate": "2026-10-28",
+            "correctionHistory": []
+          },
+          {
+            "id": "HD-R212-05",
+            "status": "CONFLICTED",
+            "question": "국편 8/2 휴전후 행동지침 분류 vs FRUS d489 8/3 원작성일",
+            "nextOriginalTarget": "RG59 795.00/8-351 및 국편 편찬원카드",
+            "accessDate": "2026-10-28",
+            "correctionHistory": []
+          },
+          {
+            "id": "HD-R212-06",
+            "status": "NARROWED",
+            "question": "이승만의 백선엽 철수 지시 여부: 부인·무초 추측·참석지속 서한 각주",
+            "nextOriginalTarget": "8/3 백선엽 원서한·8/11 Pusan telegram147",
+            "accessDate": "2026-10-28",
+            "correctionHistory": []
+          },
+          {
+            "id": "HD-R212-07",
+            "status": "NARROWED",
+            "question": "7/30 경쟁입찰 지시 후 8/10 교통부 공개입찰 검토, 실제 전면시행 여부",
+            "nextOriginalTarget": "교통부 1951-08 개찰대장·대통령 원공문",
+            "accessDate": "2026-10-28",
+            "correctionHistory": []
+          },
+          {
+            "id": "HD-R212-08",
+            "status": "NARROWED",
+            "question": "8/8 미 합참 비강제 포로송환 NSC 회부 권고와 후속 확정정책",
+            "nextOriginalTarget": "NSC 1951-08 포로송환 회의록",
+            "accessDate": "2026-10-28",
+            "correctionHistory": []
+          },
+          {
+            "id": "HD-R212-09",
+            "status": "NARROWED",
+            "question": "릿지웨이 8/10 72시간 경고안에 대한 JCS98637 불승인 원전문",
+            "nextOriginalTarget": "JCS 98637 1951-08-10 원본",
+            "accessDate": "2026-10-28",
+            "correctionHistory": []
+          },
+          {
+            "id": "HD-R212-10",
+            "status": "OPEN",
+            "question": "거창 8/5 김종원 증언·작전명령5호 원본과 후대 판단",
+            "nextOriginalTarget": "군법회의 증인신문조서·진실화해위 원보고",
+            "accessDate": "2026-10-28",
+            "correctionHistory": []
+          },
+          {
+            "id": "HD-R212-11",
+            "status": "OPEN",
+            "question": "8/4 부산 세수·물가지수·국채소화 신문 수치와 공식 원장 대조",
+            "nextOriginalTarget": "재무부·한국은행·부산시 1951-03~08 원표",
+            "accessDate": "2026-10-28",
+            "correctionHistory": []
+          },
+          {
+            "id": "HD-R212-12",
+            "status": "OPEN",
+            "question": "8/9 중립지대 차량 공습 양측 진술과 실제 출격·조사 원장",
+            "nextOriginalTarget": "미 8군 작전일지 1951-08-07",
+            "accessDate": "2026-10-28",
+            "correctionHistory": []
+          },
+          {
+            "id": "HD-R212-13",
+            "status": "CONFLICTED",
+            "question": "국무원공고18 4284년12월7일 기존 선포일 시간역행",
+            "nextOriginalTarget": "관보 1951-08-11 공고18 원면",
+            "accessDate": "2026-10-28",
+            "correctionHistory": []
+          },
+          {
+            "id": "HD-R212-14",
+            "status": "CONFLICTED",
+            "question": "이종찬 계급 7/24 대장 vs 8/11 소장",
+            "nextOriginalTarget": "훈령194 원면·관보19 원면",
+            "accessDate": "2026-10-28",
+            "correctionHistory": []
+          },
+          {
+            "id": "HD-R212-15",
+            "status": "CONFLICTED",
+            "question": "김종원 8/12 법정 발포지휘 시인 vs 8/14 기자회견 부인",
+            "nextOriginalTarget": "법정 증인신문조서·8/13 헌병 전말서",
+            "accessDate": "2026-10-28",
+            "correctionHistory": []
+          },
+          {
+            "id": "HD-R212-16",
+            "status": "CONFLICTED",
+            "question": "외환수입 총액355.5만달러 vs 품목합계331.5만달러",
+            "nextOriginalTarget": "기획처 외환수입 결재표",
+            "accessDate": "2026-10-28",
+            "correctionHistory": []
+          },
+          {
+            "id": "HD-R212-17",
+            "status": "NARROWED",
+            "question": "8/13 조폐공사법 국회통과 vs 9/2 제215호 공포·시행",
+            "nextOriginalTarget": "국회 수정표·9/2 관보 원면",
+            "accessDate": "2026-10-28",
+            "correctionHistory": []
+          },
+          {
+            "id": "HD-R212-18",
+            "status": "OPEN",
+            "question": "국민회 8/13 비공식 신당 발족 합의와 실제 창당 관계",
+            "nextOriginalTarget": "국민회 도대표 회의록·정당등록 원부",
+            "accessDate": "2026-10-28",
+            "correctionHistory": []
+          },
+          {
+            "id": "HD-R212-19",
+            "status": "CONFLICTED",
+            "question": "김대운 7000만원 사기혐의 체포와 당사자·민국당 부인",
+            "nextOriginalTarget": "서울지검 기소·판결 원부",
+            "accessDate": "2026-10-28",
+            "correctionHistory": []
+          },
+          {
+            "id": "HD-R212-20",
+            "status": "CONFLICTED",
+            "question": "인천 염전 총2000·미수복1200·가동1900정보 불일치",
+            "nextOriginalTarget": "인천 전매국 면적 원장",
+            "accessDate": "2026-10-28",
+            "correctionHistory": []
+          },
+          {
+            "id": "HD-R212-21",
+            "status": "NARROWED",
+            "question": "백선엽 8/3 편지에 이승만 계속참석 지시 직접 인용",
+            "nextOriginalTarget": "RG59 8/3 백선엽 서명 원본",
+            "accessDate": "2026-10-28",
+            "correctionHistory": []
+          },
+          {
+            "id": "HD-R212-22",
+            "status": "OPEN",
+            "question": "8/15 산금법안 금 자유거래·수출허가 구상 제정 여부",
+            "nextOriginalTarget": "재정경제안정위원회 8/15 회의록",
+            "accessDate": "2026-10-28",
+            "correctionHistory": []
+          },
+          {
+            "id": "HD-R212-23",
+            "status": "NARROWED",
+            "question": "8/16 법사위 정부조직개편 대안과 실제 본회의 의결·공포",
+            "nextOriginalTarget": "8/16 법사위 원회의록·후일 정부조직법 관보",
+            "accessDate": "2026-10-28",
+            "correctionHistory": []
+          },
+          {
+            "id": "HD-R212-24",
+            "status": "CONFLICTED",
+            "question": "UNKRA 요구총액 9억6752만달러 vs 사회부 내자 904억달러 표기",
+            "nextOriginalTarget": "UNKRA 1951-08-17 부처별 부흥물동 원표",
+            "accessDate": "2026-10-28",
+            "correctionHistory": []
+          },
+          {
+            "id": "HD-R212-25",
+            "status": "CONFLICTED",
+            "question": "UNKRA 미지원 1억1250만달러의 10분의1을 1225만달러로 보도",
+            "nextOriginalTarget": "미국 하원 외교위원회 1951-08-17 예산표",
+            "accessDate": "2026-10-28",
+            "correctionHistory": []
+          },
+          {
+            "id": "HD-R212-26",
+            "status": "CONFLICTED",
+            "question": "부산형무소 중학 577+149≠436, 국민교767+331≠1090, 입출소736-71≠감원35",
+            "nextOriginalTarget": "부산형무소 1951-07~08 재소자 원장",
+            "accessDate": "2026-10-28",
+            "correctionHistory": []
+          },
+          {
+            "id": "HD-R212-27",
+            "status": "NARROWED",
+            "question": "8/19 개성 순찰대 피격은 인정되나 공격자 신원 불명",
+            "nextOriginalTarget": "UNC·공산측 1951-08-19 원조사·부대작전일지",
+            "accessDate": "2026-10-28",
+            "correctionHistory": []
+          },
+          {
+            "id": "HD-R212-28",
+            "status": "NARROWED",
+            "question": "8/17 변영태 대일강화 초안 보고 vs 9/8 조약 제21조 범위",
+            "nextOriginalTarget": "국회 8/17 속기·UNTS1832 제21조",
+            "accessDate": "2026-10-28",
+            "correctionHistory": []
+          },
+          {
+            "id": "HD-R212-29",
+            "status": "OPEN",
+            "question": "8/18 미 국무부 정전 성사/불성사 대체정부 구상 실제 채택 여부",
+            "nextOriginalTarget": "S/S Files WFM T-10·T-10/1 결재·9월 미영불 회의록",
+            "accessDate": "2026-10-28",
+            "correctionHistory": []
+          },
+          {
+            "id": "HD-R212-30",
+            "status": "OPEN",
+            "question": "8/17 이승만 제주도 훈시의 관광·항만·조림 제안 실제 예산",
+            "nextOriginalTarget": "대통령기록관 제주순시 원고·제주도 1951 예산",
+            "accessDate": "2026-10-28",
+            "correctionHistory": []
+          }
+        ],
+        "trackedPriorLeads": [
+          {
+            "previousLeadId": "L211-028",
+            "status": "NARROWED",
+            "followupDocument": "dh_022_1951_08_10_0100",
+            "outcome": "8/10 업계·교통부 반응에서 공개입찰 지시를 확인했으나 7/30 대통령 원공문·10만원 문턱 미확인",
+            "nextOriginalTarget": "대통령기록관 1951-07-30 10만원 지시 원면",
+            "reviewDate": "2026-10-28"
+          },
+          {
+            "previousLeadId": "L211-029",
+            "status": "OPEN_WITH_NEW_CONTEXT",
+            "followupDocument": "dh_022_1951_08_10_0100",
+            "outcome": "교통부가 공개입찰 지시를 신중 검토 중임을 확인, 50만원 수의계약 보고 명세는 미확보",
+            "nextOriginalTarget": "각부처 1951-08-15 수의계약 보고목록",
+            "reviewDate": "2026-10-28"
+          },
+          {
+            "previousLeadId": "L211-041",
+            "status": "NARROWED",
+            "followupDocument": "FRUS d487; dh_022_1951_08_17_0080",
+            "outcome": "8/2 애치슨이 7/11 서한 및 7/16 Kingsley 수락을 확인, UNC 최종지휘권 명시. 8/17 한국정부 UNKRA 부흥물동계획 요구액과 의회 원조삭감 보도 추가, 집행확정은 아님.",
+            "nextOriginalTarget": "RG59 7/11 Acheson-Kingsley 원서한",
+            "reviewDate": "2026-10-28"
+          },
+          {
+            "previousLeadId": "L211-044",
+            "status": "OPEN_WITH_NEW_CONTEXT",
+            "followupDocument": "FRUS d483",
+            "outcome": "7/16 면담 원문은 없으나 7/31 무초가 이승만의 백선엽 지시 부인을 기록",
+            "nextOriginalTarget": "한국측 1951-07-16 릿지웨이 면담기록",
+            "reviewDate": "2026-10-28"
+          },
+          {
+            "previousLeadId": "L211-045",
+            "status": "NARROWED",
+            "followupDocument": "FRUS d483·d496; dh_022_1951_08_11_0030",
+            "outcome": "7/31 직접 철수명령 부인, 8/4 무초 추측, 8/3 백선엽 참석지속 서한 각주로 범위 축소. 백선엽 8/3 편지에 대통령 계속참석 지시 직접 인용.",
+            "nextOriginalTarget": "8/3 백선엽 서한 원서명 및 8/11 Pusan 147",
+            "reviewDate": "2026-10-28"
+          },
+          {
+            "previousLeadId": "L211-046",
+            "status": "OPEN_WITH_NEW_CONTEXT",
+            "followupDocument": "FRUS d491",
+            "outcome": "7/28 이승만 서한에 8/3 트루만 회신, 8/6 전달 확인; 7/19 별도 서한 원본 미확보",
+            "nextOriginalTarget": "7/19 이승만 정전서한 원본 및 7/28 원서명",
+            "reviewDate": "2026-10-28"
+          },
+          {
+            "previousLeadId": "L211-053",
+            "status": "NARROWED",
+            "followupDocument": "dh_022_1951_08_06_0080",
+            "outcome": "영농자금·하곡매입금에서 국채·기부금 공제 경고 확인, 실지급 57억 검산 미완",
+            "nextOriginalTarget": "농림부·한국은행 1951-07~08 지급원장",
+            "reviewDate": "2026-10-28"
+          },
+          {
+            "previousLeadId": "L211-062",
+            "status": "CONFLICTED",
+            "followupDocument": "dh_022_1951_08_05_0060·0070; dh_022_1951_08_12_0040; dh_022_1951_08_14_0050",
+            "outcome": "거창 공판 8/5 재개 및 김종원 증인신문·작전명령5호 쟁점 확인. 8/12 법정 시인 보도 vs 8/14 기자회견 부인 상충.",
+            "nextOriginalTarget": "고등군법회의 1951-08-05 조서·명령5호 원본",
+            "reviewDate": "2026-10-28"
+          },
+          {
+            "previousLeadId": "L211-064",
+            "status": "NARROWED",
+            "followupDocument": "dh_022_1951_08_03_0070·08_10_0090; dh_022_1951_08_16_0100",
+            "outcome": "국민방위군 관련 국회 공방·윤익헌 부인 진정 보도 추가, 법적 확정 범위 미해결. 국민방위군 15·27 교육대 재심 개시·법관명단 보도 추가, 최종판결 원문 미확보.",
+            "nextOriginalTarget": "1951-08 국민방위군 형사판결·국회 조사원문",
+            "reviewDate": "2026-10-28"
+          },
+          {
+            "previousLeadId": "L211-025",
+            "status": "OPEN_WITH_DISTINCTION",
+            "followupDocument": "dh_022_1951_08_03_0080",
+            "outcome": "8/3 헌법위원회 10인 명부는 7/24 탄핵재판소와 별도, 동일기관 혼동 방지",
+            "nextOriginalTarget": "국회 7/24 탄핵재판소 선출원부 및 8/3 헌법위원회 선출원부",
+            "reviewDate": "2026-10-28"
+          },
+          {
+            "previousLeadId": "L211-015",
+            "status": "CONFLICTED",
+            "followupDocument": "dh_022_1951_08_11_0050",
+            "outcome": "8/11 이종찬 육군소장 vs 7/24 육본훈령194 육군대장 표기 충돌",
+            "nextOriginalTarget": "관보 1951-08-11 공고19 원면과 7/24 훈령194 원서명",
+            "reviewDate": "2026-10-28"
+          },
+          {
+            "previousLeadId": "L211-049",
+            "status": "NARROWED",
+            "followupDocument": "dh_022_1951_08_17_0070; dh_022_1951_08_19_0050",
+            "outcome": "양유찬 주미대사 전달 조약 수정초안을 변영태가 8/17 국회 보고, 8/19 한국정부 요구 보도; 7/19 원서한 미확보",
+            "nextOriginalTarget": "외무부 1951-07-19 양유찬 대일강화 서한·8/17 수신 전문",
+            "reviewDate": "2026-10-28"
+          },
+          {
+            "previousLeadId": "L211-050",
+            "status": "NARROWED",
+            "followupDocument": "dh_022_1951_08_17_0070; UNTS1832",
+            "outcome": "8/17 국회 초안 보고 제2·4·12조와 9/8 최종 조약 제21조 제2·4·9·12조 차이 확인, 7/19 원문 별도",
+            "nextOriginalTarget": "1951-07-19 외무부 대일강화 각서·8/17 국회 속기록",
+            "reviewDate": "2026-10-28"
+          }
+        ]
+      },
+      "provenance": "e4e5af032c5e5bae692d1ab033c8e951509b897faf238afef60d5c2bb7735890",
+      "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+    },
+    {
+      "source": "data/research/history-debt/run213-aug25-31.json",
+      "payload": {
+        "run": 213,
+        "accessDate": "2026-10-28",
+        "weeklyFullReview": false,
+        "debts": [
+          {
+            "id": "HD-R213-21",
+            "status": "CONFLICTED",
+            "question": "1951-08 신당 30인 조직위원회 이미 형성(미대사관) vs 15+15 선출 예정(부산일보)",
+            "nextOriginalTarget": "1951-08-17·21 신당 준비회합 원회의록",
+            "accessDate": "2026-10-28",
+            "weeklyFullReview": false,
+            "correctionHistory": []
+          },
+          {
+            "id": "HD-R213-22",
+            "status": "OPEN",
+            "question": "이승만 신당 후원·운영 비개입 담화와 이범석 주도/국민회 협의 관찰 사이 실제 지휘관계",
+            "nextOriginalTarget": "대통령비서실·이범석 서신·정당 결성 원회의록",
+            "accessDate": "2026-10-28",
+            "weeklyFullReview": false,
+            "correctionHistory": []
+          },
+          {
+            "id": "HD-R213-23",
+            "status": "CONFLICTED",
+            "question": "1951-08-25 서울 잔류 중학생훈련소 등록 3070명 vs 학년별 합계3237명",
+            "nextOriginalTarget": "서울시 교육국 등록원표·학교별 인원표",
+            "accessDate": "2026-10-28",
+            "weeklyFullReview": false,
+            "correctionHistory": []
+          },
+          {
+            "id": "HD-R213-24",
+            "status": "NARROWED",
+            "question": "8/25 서민호 신문받았다는 보도 부인 vs 8/26 신문보도 시차",
+            "nextOriginalTarget": "치안국 8/25~27 출석부·신문조서",
+            "accessDate": "2026-10-28",
+            "weeklyFullReview": false,
+            "correctionHistory": []
+          },
+          {
+            "id": "HD-R213-25",
+            "status": "NARROWED",
+            "question": "8/27 포항 주택 공탁금 사회부/시 이견과 차관 취소 발언",
+            "nextOriginalTarget": "사회부 공탁금 취소 결재·포항시 자재원장",
+            "accessDate": "2026-10-28",
+            "weeklyFullReview": false,
+            "correctionHistory": []
+          },
+          {
+            "id": "HD-R213-26",
+            "status": "OPEN",
+            "question": "8/27 공업수득세안 원칙 합의 이후 입법·집행 여부",
+            "nextOriginalTarget": "국무회의록·관보·국회 의안",
+            "accessDate": "2026-10-28",
+            "weeklyFullReview": false,
+            "correctionHistory": []
+          },
+          {
+            "id": "HD-R213-27",
+            "status": "OPEN",
+            "question": "8/26 전술핵 대비 재래식 모의훈련 실제 시행 여부",
+            "nextOriginalTarget": "US Army RG554 G-2 후속 훈련일지",
+            "accessDate": "2026-10-28",
+            "weeklyFullReview": false,
+            "correctionHistory": []
+          },
+          {
+            "id": "HD-R213-28",
+            "status": "OPEN",
+            "question": "8/30 극동군 한국정부 철수·망명지 가상안 최종 NSC 채택 여부",
+            "nextOriginalTarget": "작전계획4-51·NSC 1951-08~09 회의록",
+            "accessDate": "2026-10-28",
+            "weeklyFullReview": false,
+            "correctionHistory": []
+          },
+          {
+            "id": "HD-R213-29",
+            "status": "OPEN",
+            "question": "8/28 조선방직 이사진 반대·노조 성명 후 권승렬 등 실제 취임 여부",
+            "nextOriginalTarget": "관재청 이사선임 결재·법인등기",
+            "accessDate": "2026-10-28",
+            "weeklyFullReview": false,
+            "correctionHistory": []
+          },
+          {
+            "id": "HD-R213-30",
+            "status": "OPEN",
+            "question": "8/29 국회 정부조직법 1독회 이후 제2·3독회·공포 날짜",
+            "nextOriginalTarget": "국회 제52차 이후 속기록·관보",
+            "accessDate": "2026-10-28",
+            "weeklyFullReview": false,
+            "correctionHistory": []
+          }
+        ]
+      },
+      "provenance": "dee76ee3fbc6740fc3b870e20d7b5082921c25e65cc158221420535b72884c71",
+      "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+    },
+    {
+      "source": "data/research/history-debt/run213-augsep.json",
+      "payload": {
+        "run": 213,
+        "accessDate": "2026-10-28",
+        "weeklyFullReviewPerformed": false,
+        "lastFullReviewUnchanged": true,
+        "debts": [
+          {
+            "id": "HD-R213-01",
+            "status": "CONFLICTED",
+            "question": "1951-08-24 전력 8월말 75,500kW 기사 합계 vs 열거 시설 합계 74,500kW",
+            "nextOriginalTarget": "상공부 1951-08-20~31 발전원별 원표",
+            "accessDate": "2026-10-28",
+            "correctionHistory": [],
+            "weeklyFullReview": false
+          },
+          {
+            "id": "HD-R213-02",
+            "status": "OPEN",
+            "question": "1951-08-24 정부조직법 1독회 이후 8/27 제51차·최종 표결 경과",
+            "nextOriginalTarget": "국회 제49·51차 본회의 원속기록",
+            "accessDate": "2026-10-28",
+            "correctionHistory": [],
+            "weeklyFullReview": false
+          },
+          {
+            "id": "HD-R213-03",
+            "status": "OPEN",
+            "question": "1951-08-20 한현우·안두희 정부기관 근무 소문과 차관 답변의 실제 인사·수사 원부",
+            "nextOriginalTarget": "법무·내무·국방부 인사원부/검찰 수사기록",
+            "accessDate": "2026-10-28",
+            "correctionHistory": [],
+            "weeklyFullReview": false
+          },
+          {
+            "id": "HD-R213-04",
+            "status": "NARROWED",
+            "question": "1951-08 김종원 체포 보도와 8/5 법정 진술·8/14 부인의 시간선",
+            "nextOriginalTarget": "국군 헌병대 체포명령·군법회의 원증인조서",
+            "accessDate": "2026-10-28",
+            "correctionHistory": [],
+            "weeklyFullReview": false
+          },
+          {
+            "id": "HD-R213-05",
+            "status": "NARROWED",
+            "question": "1951-09-10 유엔군 개성 중립지대 오폭 인정, 8/22 등 이전 사건 진위 미확정",
+            "nextOriginalTarget": "3rd Bomb Group 1951-09-10 레이더·비행·징계기록",
+            "accessDate": "2026-10-28",
+            "correctionHistory": [],
+            "weeklyFullReview": false
+          },
+          {
+            "id": "HD-R213-06",
+            "status": "OPEN",
+            "question": "1951-08~09 원화매각 미 재무부 유보계정 실제 지급 여부",
+            "nextOriginalTarget": "US Treasury 1951-09 지급·상계 명세",
+            "accessDate": "2026-10-28",
+            "correctionHistory": [],
+            "weeklyFullReview": false
+          },
+          {
+            "id": "HD-R213-07",
+            "status": "OPEN",
+            "question": "미 합참 비강제송환 제안과 8/27 국무부 우려 이후 NSC 정책 확정",
+            "nextOriginalTarget": "NSC 1951-08~09 포로송환 회의록",
+            "accessDate": "2026-10-28",
+            "correctionHistory": [],
+            "weeklyFullReview": false
+          },
+          {
+            "id": "HD-R213-08",
+            "status": "NARROWED",
+            "question": "1951-09 정전 결렬시 확전방안 미 국무·국방·합참 이견",
+            "nextOriginalTarget": "NSC 1951-09 WFM T-10/1a 최종 승인 기록",
+            "accessDate": "2026-10-28",
+            "correctionHistory": [],
+            "weeklyFullReview": false
+          },
+          {
+            "id": "HD-R213-09",
+            "status": "CONFLICTED",
+            "question": "1952-01-15 허정 시정방침 군사비 5% vs 5천억/1조4천억=35.71%",
+            "nextOriginalTarget": "국회 1952-01-15 속기록·1952 예산 원표",
+            "accessDate": "2026-10-28",
+            "correctionHistory": [],
+            "weeklyFullReview": false
+          },
+          {
+            "id": "HD-R213-10",
+            "status": "OPEN",
+            "question": "1951-08-24 학교개편 조치령 장관 개인 결재와 학교별 인가 집행",
+            "nextOriginalTarget": "문교부 1951-08-24 관보·1951-08-30/12-31 인가대장",
+            "accessDate": "2026-10-28",
+            "correctionHistory": [],
+            "weeklyFullReview": false
+          },
+          {
+            "id": "HD-R213-11",
+            "status": "NARROWED",
+            "question": "1951-08-21 국방부차관 김일환과 1959 교통부장관 김일환의 동일인 여부: 동일 이름만으로 결합 금지",
+            "nextOriginalTarget": "국방부 1951-08-21 인사명령/국무위원명부 및 1959-03 교통부장관 임명 관보",
+            "accessDate": "2026-10-28",
+            "correctionHistory": [
+              {
+                "date": "2026-10-28",
+                "oldId": "pol-r149-cabinet-07",
+                "newId": "cand-r213-kim-il-hwan-1951-defense",
+                "action": "SPLIT_IDENTITY_PENDING_PRIMARY_RECORD"
+              }
+            ],
+            "weeklyFullReview": false
+          },
+          {
+            "id": "HD-R213-12",
+            "status": "OPEN",
+            "question": "1951-09-14 미영불 외상회의 봉쇄/금수 방안에 대한 영국·프랑스 실제 동의 여부",
+            "nextOriginalTarget": "영국 FO371 및 프랑스 외교문서 1951-09-14 Tripartite Min-7 대응 원회의록",
+            "accessDate": "2026-10-28",
+            "correctionHistory": [],
+            "weeklyFullReview": false
+          },
+          {
+            "id": "HD-R213-13",
+            "status": "NARROWED",
+            "question": "8/21 제주 인사제보 내사 지시 vs 실제 군수 임명/전근",
+            "nextOriginalTarget": "제주도지사실 1951-08 인사발령 원장",
+            "accessDate": "2026-10-28",
+            "correctionHistory": [],
+            "weeklyFullReview": false
+          },
+          {
+            "id": "HD-R213-14",
+            "status": "OPEN",
+            "question": "8/21 서울 주택피해 46,574호 잠정치 vs 확정 집계",
+            "nextOriginalTarget": "서울시 1951-08 피해주택 조사표",
+            "accessDate": "2026-10-28",
+            "correctionHistory": [],
+            "weeklyFullReview": false
+          },
+          {
+            "id": "HD-R213-15",
+            "status": "CONFLICTED",
+            "question": "1951 신문 1952 동계올림픽 헬싱키 2/14~25 표기 vs IOC 헬싱키 하계 7/19~8/3",
+            "nextOriginalTarget": "IOC 1952 Oslo Winter official program·대한체육회 초청장",
+            "accessDate": "2026-10-28",
+            "correctionHistory": [],
+            "weeklyFullReview": false
+          },
+          {
+            "id": "HD-R213-16",
+            "status": "NARROWED",
+            "question": "8/24 개성사건 트루먼 부인·UNC 성명·FRUS d531 공통 조사 출처 의존",
+            "nextOriginalTarget": "USIS 원기자회견·UNC 조사원장·릿지웨이 최종방송",
+            "accessDate": "2026-10-28",
+            "correctionHistory": [],
+            "weeklyFullReview": false
+          },
+          {
+            "id": "HD-R213-17",
+            "status": "OPEN",
+            "question": "8/24 극동군 포로사고 3일 이내 보고 지시 이후 거제 7/19 공식 보고 수령 여부",
+            "nextOriginalTarget": "RG554 Box176 첨부A·7/19 거제 조사위 보고서",
+            "accessDate": "2026-10-28",
+            "correctionHistory": [],
+            "weeklyFullReview": false
+          },
+          {
+            "id": "HD-R213-18",
+            "status": "OPEN",
+            "question": "8/24 부산시 국채소화 쌀 1000두 배분 계획 실제 집행 여부",
+            "nextOriginalTarget": "부산시 양정·재무 배급영수·결재대장",
+            "accessDate": "2026-10-28",
+            "correctionHistory": [],
+            "weeklyFullReview": false
+          },
+          {
+            "id": "HD-R213-19",
+            "status": "OPEN",
+            "question": "1951 법제관 康龍玉 신원·직무범위 및 대통령령523호 심의 책임",
+            "nextOriginalTarget": "법제처 1951-05~08 인사·심의 원부",
+            "accessDate": "2026-10-28",
+            "correctionHistory": [],
+            "weeklyFullReview": false
+          },
+          {
+            "id": "HD-R213-20",
+            "status": "OPEN",
+            "question": "1951 부산시 부시장 손영수 인사 원관보·1951-08 대일강화 발언",
+            "nextOriginalTarget": "부산시 인사명부·신문 원면",
+            "accessDate": "2026-10-28",
+            "correctionHistory": [],
+            "weeklyFullReview": false
+          }
+        ]
+      },
+      "provenance": "41134f12117de6e73d61969d50a1565fb0272ccb581722cdc01b0ca69e3f94ff",
+      "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+    },
+    {
+      "source": "data/research/history-debt/run214-september.json",
+      "payload": {
+        "run": 214,
+        "accessDate": "2026-10-28",
+        "weeklyFullReviewPerformed": false,
+        "lastFullReviewUnchanged": true,
+        "debts": [
+          {
+            "id": "HD-R214-01",
+            "status": "NARROWED",
+            "question": "원화계정 조건부 수락과 실제 입금",
+            "nextOriginalTarget": "미 재무부·한국은행 10/03 입금원장",
+            "accessDate": "2026-10-28",
+            "weeklyFullReview": false
+          },
+          {
+            "id": "HD-R214-02",
+            "status": "OPEN",
+            "question": "조민당 8/1·8/22 결의안 진위",
+            "nextOriginalTarget": "당무원부·국회 9/9 속기록",
+            "accessDate": "2026-10-28",
+            "weeklyFullReview": false
+          },
+          {
+            "id": "HD-R214-03",
+            "status": "NARROWED",
+            "question": "JCS82147 대통령 승인 여부",
+            "nextOriginalTarget": "Truman approval log",
+            "accessDate": "2026-10-28",
+            "weeklyFullReview": false
+          },
+          {
+            "id": "HD-R214-04",
+            "status": "OPEN",
+            "question": "신현돈 신지사 신원",
+            "nextOriginalTarget": "1951 경북지사 임명관보",
+            "accessDate": "2026-10-28",
+            "weeklyFullReview": false
+          },
+          {
+            "id": "HD-R214-05",
+            "status": "OPEN",
+            "question": "대秘指內55 전재민 분산 집행",
+            "nextOriginalTarget": "3부 회신·수용대장",
+            "accessDate": "2026-10-28",
+            "weeklyFullReview": false
+          },
+          {
+            "id": "HD-R214-06",
+            "status": "OPEN",
+            "question": "당인리 3000→7000kW 실제 복구",
+            "nextOriginalTarget": "발전소 계량일지",
+            "accessDate": "2026-10-28",
+            "weeklyFullReview": false
+          },
+          {
+            "id": "HD-R214-07",
+            "status": "OPEN",
+            "question": "NSC hot pursuit 최종 승인",
+            "nextOriginalTarget": "NSC 9/26 minutes·Oct staff",
+            "accessDate": "2026-10-28",
+            "weeklyFullReview": false
+          },
+          {
+            "id": "HD-R214-08",
+            "status": "OPEN",
+            "question": "9/28 한국 대표 브리핑 불참 사유",
+            "nextOriginalTarget": "국무부 초청장·참석회신",
+            "accessDate": "2026-10-28",
+            "weeklyFullReview": false
+          },
+          {
+            "id": "HD-R214-09",
+            "status": "CONFLICTED",
+            "question": "physical crisis vs financial crisis 원전문 오기",
+            "nextOriginalTarget": "주미대사관 10/1 한국어 원전문",
+            "accessDate": "2026-10-28",
+            "weeklyFullReview": false
+          },
+          {
+            "id": "HD-R214-10",
+            "status": "OPEN",
+            "question": "대일강화 독도 관련 외교서한",
+            "nextOriginalTarget": "일본 외무성 덜레스 서한",
+            "accessDate": "2026-10-28",
+            "weeklyFullReview": false
+          },
+          {
+            "id": "HD-R214-11",
+            "status": "OPEN",
+            "question": "1951-09-18 정부조직법 정무관제·중앙경제위원회 거부 방침의 대통령 결재 및 국회 재의 결과",
+            "nextOriginalTarget": "국회 1951-09-09 통과원안·정부 9/18 거부이유서·재의 표결·관보 공포면",
+            "accessDate": "2026-10-28",
+            "weeklyFullReview": false
+          }
+        ]
+      },
+      "provenance": "aa60dde6dbfb7154b457f350fe9a42c270f51c694b357c0ba4c9e89832a4ef78",
+      "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+    },
+    {
+      "source": "data/research/history-debt/run215-followup.json",
+      "payload": {
+        "run": 215,
+        "accessDate": "2026-10-28",
+        "weeklyFullReviewPerformed": false,
+        "lastFullReviewChanged": false,
+        "followupCorrections": [
+          {
+            "id": "HD-R215-05",
+            "status": "CONFLICTED",
+            "newEvidence": "AKS 인물전 내부 사망일 1971-02-14(요약) vs 1971-12-14(본문) 충돌 추가. 한자 任/林 충돌과 별개로 유지.",
+            "nextOriginalTarget": "국회 의원원부·호적 1971 임흥순 사망 신고",
+            "reviewHistory": [
+              {
+                "date": "2026-10-28",
+                "action": "NARROWED_WITH_INDEPENDENT_SOURCE",
+                "notResolved": true
+              }
+            ]
+          },
+          {
+            "id": "HD-R215-06",
+            "status": "NARROWED",
+            "newEvidence": "선관위 실제 첫 지방선거 1952-04-25·05-10 확인. 1951-10-20 내무부 예상 1952-02 이내와 시차.",
+            "nextOriginalTarget": "내무부 1951-10~1952-04 선거일 변경결재",
+            "reviewHistory": [
+              {
+                "date": "2026-10-28",
+                "action": "NARROWED_WITH_INDEPENDENT_SOURCE",
+                "notResolved": true
+              }
+            ]
+          },
+          {
+            "id": "HD-R215-07",
+            "status": "NARROWED",
+            "newEvidence": "문체부·법제처 연혁 최초 저작권법 제432호 1957-01-28 확인. 1951 초안 승계 여부 미확인.",
+            "nextOriginalTarget": "1957-01-28 원관보·1951 국회 문교사회분과 원회의록",
+            "reviewHistory": [
+              {
+                "date": "2026-10-28",
+                "action": "NARROWED_WITH_INDEPENDENT_SOURCE",
+                "notResolved": true
+              }
+            ]
+          },
+          {
+            "id": "HD-R215-08",
+            "status": "NARROWED",
+            "newEvidence": "국편 1951-10-08 대구매일신문은 미신청 지주 때문에 10월말 전면발급 추진 보도. 실제 완료 미확인.",
+            "nextOriginalTarget": "농림부 1951-10 지가증권 도별 누계·완료보고",
+            "reviewHistory": [
+              {
+                "date": "2026-10-28",
+                "action": "NARROWED_WITH_INDEPENDENT_SOURCE",
+                "notResolved": true
+              }
+            ]
+          },
+          {
+            "id": "HD-R215-13",
+            "status": "NARROWED",
+            "newEvidence": "대통령기록관 1951-10-18 담화 원PDF 텍스트와 경향신문 전사 대응. 주택 준공·구호실적은 여전히 미확인.",
+            "nextOriginalTarget": "사회부 1951-10~12 구호주택 완공·예산원장",
+            "reviewHistory": [
+              {
+                "date": "2026-10-28",
+                "action": "NARROWED_WITH_INDEPENDENT_SOURCE",
+                "notResolved": true
+              }
+            ]
+          },
+          {
+            "id": "HD-R215-15",
+            "status": "NARROWED",
+            "newEvidence": "동북아역사재단 1951-10-01 신성모 주일대사 외무부 수신 원공한 확인. 일본정부 국적조치·민단 결의 이행은 미확인.",
+            "nextOriginalTarget": "일본 외무성 1951-09-30 시사신보 원지면·출입국관리청 기록",
+            "reviewHistory": [
+              {
+                "date": "2026-10-28",
+                "action": "NARROWED_WITH_INDEPENDENT_SOURCE",
+                "notResolved": true
+              }
+            ]
+          }
+        ],
+        "newConflicts": [
+          {
+            "id": "HD-R215-17",
+            "status": "CONFLICTED",
+            "question": "임흥순 사망일 AKS 인물전 요약 1971-02-14 vs 본문 1971-12-14 내부 충돌",
+            "evidenceDocumentIds": [
+              "doc-r215-aks-im-heung-sun"
+            ],
+            "nextOriginalTarget": "호적·제적부·국회 인물원부 사망일 원면"
+          },
+          {
+            "id": "HD-R215-18",
+            "status": "OPEN",
+            "question": "신성모 1951-10-01 외교공한에서 일본 언론 한국인 85만 국적기사 사실무근 주장과 일본 외무성 원자료 미대조",
+            "evidenceDocumentIds": [
+              "doc-r215-nahf-19511001-shin"
+            ],
+            "nextOriginalTarget": "일본 외무성 1951-09-30 기사 제공·출입국관리청 원문"
+          }
+        ]
+      },
+      "provenance": "08c94feca20d8152156e36d37e1da7a97c9db39e623756f5af3495ecfe797635",
+      "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+    },
+    {
+      "source": "data/research/history-debt/run215-oct1951.json",
+      "payload": {
+        "run": 215,
+        "accessDate": "2026-10-28",
+        "lastFullReviewChanged": false,
+        "weeklyFullReviewPerformed": false,
+        "items": [
+          {
+            "id": "HD-R215-01",
+            "status": "NARROWED",
+            "question": "10/10 미국 국무부 수표 인도 확인, 한국은행 실입금 미확인",
+            "nextOriginalTarget": "미 재무부·한국은행 1951-10-10 계좌전표",
+            "evidenceDocumentIds": [
+              "doc-r215-frus-d625"
+            ],
+            "reviewHistory": [
+              {
+                "date": "2026-10-28",
+                "status": "NARROWED",
+                "action": "NEW_OR_NARROWED",
+                "note": "No automatic resolution"
+              }
+            ]
+          },
+          {
+            "id": "HD-R215-02",
+            "status": "OPEN",
+            "question": "10/10 일부정산을 원화선지급금 전체 상환으로 오인할 위험",
+            "nextOriginalTarget": "RG59 895B.10/9-2251 최종 정산서",
+            "evidenceDocumentIds": [
+              "doc-r215-frus-d611",
+              "doc-r215-frus-d625"
+            ],
+            "reviewHistory": [
+              {
+                "date": "2026-10-28",
+                "status": "OPEN",
+                "action": "NEW_OR_NARROWED",
+                "note": "No automatic resolution"
+              }
+            ]
+          },
+          {
+            "id": "HD-R215-03",
+            "status": "NARROWED",
+            "question": "10/12 개성 중립지대 두 공습 UNC 인정, 조종사 징계 집행 미확인",
+            "nextOriginalTarget": "UNC 1951-10-14 이후 징계명령·제5공군 sortie log",
+            "evidenceDocumentIds": [
+              "doc-r215-frus-d634",
+              "doc-r215-frus-d639"
+            ],
+            "reviewHistory": [
+              {
+                "date": "2026-10-28",
+                "status": "NARROWED",
+                "action": "NEW_OR_NARROWED",
+                "note": "No automatic resolution"
+              }
+            ]
+          },
+          {
+            "id": "HD-R215-04",
+            "status": "NARROWED",
+            "question": "4만1천 남한출신 포로 신분재분류 계획·12월 재심발언, 실제 석방 규모 미확인",
+            "nextOriginalTarget": "UNC/ROK 1951-10~12 포로 재분류·석방원부",
+            "evidenceDocumentIds": [
+              "doc-r215-frus-d645",
+              "doc-r215-dh_023_1951_12_23_0040"
+            ],
+            "reviewHistory": [
+              {
+                "date": "2026-10-28",
+                "status": "NARROWED",
+                "action": "NEW_OR_NARROWED",
+                "note": "No automatic resolution"
+              }
+            ]
+          },
+          {
+            "id": "HD-R215-05",
+            "status": "CONFLICTED",
+            "question": "임흥순의 1951 국회보도 任興淳과 기존 registry 林興淳 한자 불일치",
+            "nextOriginalTarget": "국회 제2대 의원명부·선거공보 원면",
+            "evidenceDocumentIds": [
+              "doc-r215-dh_023_1951_10_20_0040"
+            ],
+            "reviewHistory": [
+              {
+                "date": "2026-10-28",
+                "status": "CONFLICTED",
+                "action": "NEW_OR_NARROWED",
+                "note": "No automatic resolution"
+              }
+            ]
+          },
+          {
+            "id": "HD-R215-06",
+            "status": "OPEN",
+            "question": "1951-10-20 내무차관 1952-02 선거 실시 예상, 확정 정부계획 아님",
+            "nextOriginalTarget": "내무부 선거국 1951-10 일정결재·1952 관보 선거공고",
+            "evidenceDocumentIds": [
+              "doc-r215-dh_023_1951_10_20_0060"
+            ],
+            "reviewHistory": [
+              {
+                "date": "2026-10-28",
+                "status": "OPEN",
+                "action": "NEW_OR_NARROWED",
+                "note": "No automatic resolution"
+              }
+            ]
+          },
+          {
+            "id": "HD-R215-07",
+            "status": "OPEN",
+            "question": "1951-10-20 저작권법 초안 요강과 최종 제정법 조문 연결 미확인",
+            "nextOriginalTarget": "국회 문교사회분과 회의록·법제처 최초 저작권법 원관보",
+            "evidenceDocumentIds": [
+              "doc-r215-dh_023_1951_10_20_0050"
+            ],
+            "reviewHistory": [
+              {
+                "date": "2026-10-28",
+                "status": "OPEN",
+                "action": "NEW_OR_NARROWED",
+                "note": "No automatic resolution"
+              }
+            ]
+          },
+          {
+            "id": "HD-R215-08",
+            "status": "OPEN",
+            "question": "피난 지주 지가증권 신청안내와 실제 발급·지급원장 미확인",
+            "nextOriginalTarget": "농림부 1951-10 도별 지가증권 발급원표",
+            "evidenceDocumentIds": [
+              "doc-r215-dh_023_1951_10_20_0080"
+            ],
+            "reviewHistory": [
+              {
+                "date": "2026-10-28",
+                "status": "OPEN",
+                "action": "NEW_OR_NARROWED",
+                "note": "No automatic resolution"
+              }
+            ]
+          },
+          {
+            "id": "HD-R215-09",
+            "status": "OPEN",
+            "question": "1951-10 병기창 수류탄 대량생산 신문보도, 공식 생산·UN 발주원부 미확보",
+            "nextOriginalTarget": "국방부 병기창 1951-09~10 생산일지·유엔사 조달지시",
+            "evidenceDocumentIds": [
+              "doc-r215-dh_023_1951_10_20_0070"
+            ],
+            "reviewHistory": [
+              {
+                "date": "2026-10-28",
+                "status": "OPEN",
+                "action": "NEW_OR_NARROWED",
+                "note": "No automatic resolution"
+              }
+            ]
+          },
+          {
+            "id": "HD-R215-10",
+            "status": "OPEN",
+            "question": "1951-10-20 신성모 주일대사 소환건 국무회의 미상정 발언 이후 처리 미확인",
+            "nextOriginalTarget": "국무회의 1951-10~11 의안접수·신성모 소환 결재",
+            "evidenceDocumentIds": [
+              "doc-r215-dh_023_1951_10_20_0040"
+            ],
+            "reviewHistory": [
+              {
+                "date": "2026-10-28",
+                "status": "OPEN",
+                "action": "NEW_OR_NARROWED",
+                "note": "No automatic resolution"
+              }
+            ]
+          },
+          {
+            "id": "HD-R215-11",
+            "status": "OPEN",
+            "question": "1951-10-20 국회 대정부질문 기사 2건과 국회 원속기록 대조 미완",
+            "nextOriginalTarget": "국회 1951-10-20 제2대 본회의 원속기록",
+            "evidenceDocumentIds": [
+              "doc-r215-dh_023_1951_10_20_0040",
+              "doc-r215-dh_023_1951_10_20_0060"
+            ],
+            "reviewHistory": [
+              {
+                "date": "2026-10-28",
+                "status": "OPEN",
+                "action": "NEW_OR_NARROWED",
+                "note": "No automatic resolution"
+              }
+            ]
+          },
+          {
+            "id": "HD-R215-12",
+            "status": "OPEN",
+            "question": "1951-10-20 김 국방차관 신원과 1959 김일환 교통장관 동일인 미확인",
+            "nextOriginalTarget": "1951 국방차관·1959 교통장관 관보 임명원면",
+            "evidenceDocumentIds": [
+              "doc-r215-dh_023_1951_12_23_0040"
+            ],
+            "reviewHistory": [
+              {
+                "date": "2026-10-28",
+                "status": "OPEN",
+                "action": "NEW_OR_NARROWED",
+                "note": "No automatic resolution"
+              }
+            ]
+          },
+          {
+            "id": "HD-R215-13",
+            "status": "OPEN",
+            "question": "이승만 10/18 전재민 구호 주택건설 발언의 실제 준공·예산·분산실적 미확인",
+            "nextOriginalTarget": "사회부 1951-09~12 전재민 주택·농가분산 실적원장",
+            "evidenceDocumentIds": [
+              "doc-r215-dh_023_1951_10_18_0010"
+            ],
+            "reviewHistory": [
+              {
+                "date": "2026-10-28",
+                "status": "OPEN",
+                "action": "NEW_OR_NARROWED",
+                "note": "No automatic resolution"
+              }
+            ]
+          },
+          {
+            "id": "HD-R215-14",
+            "status": "NARROWED",
+            "question": "판문점 10/22 서명·10/24 비준 문서 전사 확인, 원서명 지도 미확보",
+            "nextOriginalTarget": "UNC 1951-10-22 영한 4부·10/24 남일 비준 첨부원면",
+            "evidenceDocumentIds": [
+              "doc-r215-frus-d654",
+              "doc-r215-frus-d655"
+            ],
+            "reviewHistory": [
+              {
+                "date": "2026-10-28",
+                "status": "NARROWED",
+                "action": "NEW_OR_NARROWED",
+                "note": "No automatic resolution"
+              }
+            ]
+          },
+          {
+            "id": "HD-R215-15",
+            "status": "OPEN",
+            "question": "재일거류민단 10/20 결의가 한일예비회담 의제에 실제 반영됐는지 미확인",
+            "nextOriginalTarget": "한일예비회담 1951-10~11 법적지위 의제회의록",
+            "evidenceDocumentIds": [
+              "doc-r215-dh_023_1951_10_20_0030"
+            ],
+            "reviewHistory": [
+              {
+                "date": "2026-10-28",
+                "status": "OPEN",
+                "action": "NEW_OR_NARROWED",
+                "note": "No automatic resolution"
+              }
+            ]
+          },
+          {
+            "id": "HD-R215-16",
+            "status": "OPEN",
+            "question": "이기붕 10/03 물자반출 허가절차 변경 담화의 계엄민사부 원명령·집행 실적 미확인",
+            "nextOriginalTarget": "국방부 계엄민사부 1951-10-03 반출명령·경찰 소유확인 대장",
+            "evidenceDocumentIds": [
+              "doc-r215-dh_023_1951_10_03_0040"
+            ],
+            "reviewHistory": [
+              {
+                "date": "2026-10-28",
+                "status": "OPEN",
+                "action": "NEW_OR_NARROWED",
+                "note": "No automatic resolution"
+              }
+            ]
+          }
+        ],
+        "trackedPriorLeads": [
+          {
+            "priorLeadId": "L214-001",
+            "status": "NARROWED",
+            "evidence": "FRUS d625 10/10 양유찬에게 수표 전달 명시; 10/03 실제 입금으로 오인 금지",
+            "nextOriginalTarget": "한국은행 1951-10-10~31 계좌전표",
+            "notResolved": true
+          },
+          {
+            "priorLeadId": "L214-002",
+            "status": "NARROWED",
+            "evidence": "10/10 양유찬 수표 영수 확인, Chase 한국은행 입금 여전히 미확인",
+            "nextOriginalTarget": "한국은행 Chase National Bank 1951-10 입금장",
+            "notResolved": true
+          },
+          {
+            "priorLeadId": "L214-003",
+            "status": "NARROWED",
+            "evidence": "d625 10/10 양유찬 지급조건 영수 서명, 9/19 주미대사관 원전문 미확보",
+            "nextOriginalTarget": "주미대사관 1951-09-19·10-10 원전문",
+            "notResolved": true
+          },
+          {
+            "priorLeadId": "L214-004",
+            "status": "NARROWED",
+            "evidence": "d625 각주 9/26 aide-mémoire 및 Deptel238 지시 존재 확인, 최종 원면 미확보",
+            "nextOriginalTarget": "RG59 895B.10/9-2251",
+            "notResolved": true
+          },
+          {
+            "priorLeadId": "L214-008",
+            "status": "NARROWED",
+            "evidence": "FRUS d616·617·621·623·624로 10/03~10/09 회담장 제안·반론 서한 사슬 추가",
+            "nextOriginalTarget": "UNC 1951-09-27 Ridgway 서명 원서한",
+            "notResolved": true
+          },
+          {
+            "priorLeadId": "L214-009",
+            "status": "OPEN",
+            "evidence": "FRUS d616 10/03 북측 서한 전사 확인, 9/19 원문과 별개이므로 원표적 미해결",
+            "nextOriginalTarget": "북한 1951-09-19 김일성·펑더화이 회신 원문",
+            "notResolved": true
+          },
+          {
+            "priorLeadId": "L214-016",
+            "status": "NARROWED",
+            "evidence": "국편 10/20 부산일보·자유신문에서 李宗鉉 의원 질의 재확인; 의원원부 미확보",
+            "nextOriginalTarget": "국회 제2대 의원명부·10/20 원속기록",
+            "notResolved": true
+          },
+          {
+            "priorLeadId": "L214-036",
+            "status": "NARROWED",
+            "evidence": "FRUS d622 10/08 영국 Tomlinson의 10/05 커크 접촉 관련 사전협의 불만 기록; 10/02 FO371 원지시 미확보",
+            "nextOriginalTarget": "TNA FO371 1951-10-02·08 영국 본국보고",
+            "notResolved": true
+          },
+          {
+            "priorLeadId": "L214-039",
+            "status": "OPEN",
+            "evidence": "FRUS d634·639로 10/12 개성 공습은 인정되지만 9/10 출격·징계원부와 다른 사건",
+            "nextOriginalTarget": "US 8th Army 1951-09-10 sortie log",
+            "notResolved": true
+          }
+        ]
+      },
+      "provenance": "5fa616bb2b174aa632af26a85c02927c2de3b57c5992380ee46e2c9137751802",
+      "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+    },
+    {
+      "source": "data/research/history-debt/run215-second-wave.json",
+      "payload": {
+        "run": 215,
+        "addendum": "second-wave",
+        "accessDate": "2026-10-28",
+        "weeklyFullReviewPerformed": false,
+        "lastFullReviewChanged": false,
+        "items": [
+          {
+            "id": "HD-R215-19",
+            "status": "CONFLICTED",
+            "question": "10/28 비료 2가마(25300원씩)−쌀 1가마(32432.30원)=18167.70원인데 기사 농가이익 8200원, 단위·산술 불일치",
+            "nextOriginalTarget": "농림부 1951-10 비료·양곡 교환 원가표·배급 단위",
+            "reviewHistory": [
+              {
+                "date": "2026-10-28",
+                "action": "NEW_DEBT",
+                "notResolved": true
+              }
+            ]
+          },
+          {
+            "id": "HD-R215-20",
+            "status": "OPEN",
+            "question": "10/23·27 공화민정회·민우회 신당준비위 부서명단과 실제 정당등록·합류 여부 미확인",
+            "nextOriginalTarget": "국회 원내교섭단체 1951-10-23~11-30 회의록·정당등록 원부",
+            "reviewHistory": [
+              {
+                "date": "2026-10-28",
+                "action": "NEW_DEBT",
+                "notResolved": true
+              }
+            ]
+          },
+          {
+            "id": "HD-R215-21",
+            "status": "OPEN",
+            "question": "1951-10-20 부산시 노동사찰의 법적 근거와 14세·18세·주60시간 기준, 실제 처분 미확인",
+            "nextOriginalTarget": "노동청 1951 유효 법령·부산시 사회과 사찰원부",
+            "reviewHistory": [
+              {
+                "date": "2026-10-28",
+                "action": "NEW_DEBT",
+                "notResolved": true
+              }
+            ]
+          },
+          {
+            "id": "HD-R215-22",
+            "status": "OPEN",
+            "question": "1951-10-05 월남 학령자 편입지침과 실제 대학·학교 입학실적 미확인",
+            "nextOriginalTarget": "문교부 1951-10 학력인정 시행문·대학별 편입원부",
+            "reviewHistory": [
+              {
+                "date": "2026-10-28",
+                "action": "NEW_DEBT",
+                "notResolved": true
+              }
+            ]
+          },
+          {
+            "id": "HD-R215-23",
+            "status": "OPEN",
+            "question": "부산시 세궁민 20여 명 배급누락 민원에 대한 조사·구제 결과 미확인",
+            "nextOriginalTarget": "부산시 1951-10 수정동 제2동회 배급대장·민원처리원부",
+            "reviewHistory": [
+              {
+                "date": "2026-10-28",
+                "action": "NEW_DEBT",
+                "notResolved": true
+              }
+            ]
+          },
+          {
+            "id": "HD-R215-24",
+            "status": "OPEN",
+            "question": "1951-10-28 원주 경찰의 무장자 2명 체포와 '300명 침투' 진술의 독립 검증 미완",
+            "nextOriginalTarget": "원주경찰서 1951-10-28 체포조서·군검찰 기소원부",
+            "reviewHistory": [
+              {
+                "date": "2026-10-28",
+                "action": "NEW_DEBT",
+                "notResolved": true
+              }
+            ]
+          },
+          {
+            "id": "HD-R215-25",
+            "status": "OPEN",
+            "question": "1951-10-28 여경 김정호의 생계난·성매매 관련 기고를 실측통계로 오인할 위험",
+            "nextOriginalTarget": "내무부 1951 여성경찰·후생시설 통계·여성단체 기록",
+            "reviewHistory": [
+              {
+                "date": "2026-10-28",
+                "action": "NEW_DEBT",
+                "notResolved": true
+              }
+            ]
+          },
+          {
+            "id": "HD-R215-26",
+            "status": "OPEN",
+            "question": "1951-10-20 한일예비회담 양유찬 개회성명·'제2차 회합' 보도와 한국·일본 공식 회의록 원면 미대조",
+            "nextOriginalTarget": "외무부·일본 외무성 1951-10-20 회담 제차수·개회연설 원문",
+            "reviewHistory": [
+              {
+                "date": "2026-10-28",
+                "action": "NEW_DEBT",
+                "notResolved": true
+              }
+            ]
+          }
+        ]
+      },
+      "provenance": "ed477a70c12bc7cbc271b0bc817d465cec941dad170a1415893dca97f53c0195",
+      "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+    },
+    {
+      "source": "data/research/history-debt/run216-second-wave.json",
+      "payload": {
+        "run": 216,
+        "phase": "second-wave",
+        "accessDate": "2026-10-28",
+        "weeklyFullReviewPerformed": false,
+        "entries": [
+          {
+            "id": "HD-R216-11",
+            "status": "CONFLICTED",
+            "issue": "11/06 이순용 불신임안 기권 31(서두) vs 3(본문); 표수133, 찬95 반35",
+            "nextTarget": "국회 1951-11-06 제88차 본회의 원표결·회의록",
+            "accessDate": "2026-10-28",
+            "reviewHistory": [
+              {
+                "date": "2026-10-28",
+                "action": "NEW",
+                "note": "No forced resolution"
+              }
+            ]
+          },
+          {
+            "id": "HD-R216-12",
+            "status": "CONFLICTED",
+            "issue": "WHO 보건협정 날짜 3중 충돌: UNTS No366 공식 09-19 서명·발효, 한국 관보 공식 09-27 서명, WHO 2016/2017 및 2014 학술 09-01",
+            "nextTarget": "UNTS Vol109 No366 서명 원면·관보 1951-11-27 호외 원면·WHO 2016 IRIS PDF·WHO 협정 원서명",
+            "accessDate": "2026-10-28",
+            "reviewHistory": [
+              {
+                "date": "2026-10-28",
+                "action": "NEW",
+                "note": "No forced resolution"
+              },
+              {
+                "date": "2026-10-28",
+                "action": "CONFLICT_ESCALATED_TO_THREE_DATES",
+                "documents": [
+                  "doc-r216-unts-v109-no366",
+                  "doc-r216-who2017-70years-review"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "HD-R216-13",
+            "status": "CONFLICTED",
+            "issue": "부산항 하역 7개 회사 후생비 기사 4천여만원 vs 개별합 29,872,040원",
+            "nextTarget": "경남경찰국 1951-11 조사·7개 회사 임금 4% 원장",
+            "accessDate": "2026-10-28",
+            "reviewHistory": [
+              {
+                "date": "2026-10-28",
+                "action": "NEW",
+                "note": "No forced resolution"
+              }
+            ]
+          },
+          {
+            "id": "HD-R216-14",
+            "status": "NARROWED",
+            "issue": "1951-11-20 관세법 개정안 가결→1951-12-06 법률229호 공포·12-27 시행 확인, 국회 수정안과 법률 원문 대조는 미완",
+            "nextTarget": "국회 제98차 본회의·재경분위 수정안 원문과 법률229호 조문대비",
+            "accessDate": "2026-10-28",
+            "reviewHistory": [
+              {
+                "date": "2026-10-28",
+                "action": "NEW",
+                "note": "No forced resolution"
+              },
+              {
+                "date": "2026-10-28",
+                "action": "NARROWED_BY_OFFICIAL_LAW_PROMULGATION"
+              }
+            ]
+          },
+          {
+            "id": "HD-R216-15",
+            "status": "NARROWED",
+            "issue": "1951-11-26 광업법 제2독회 59/80조→1951-12-23 법률234호 제정·1952-02-22 시행 확인, 원표결은 미완",
+            "nextTarget": "국회 제103차~12/23 광업법 2·3독회 원속기록",
+            "accessDate": "2026-10-28",
+            "reviewHistory": [
+              {
+                "date": "2026-10-28",
+                "action": "NEW",
+                "note": "No forced resolution"
+              },
+              {
+                "date": "2026-10-28",
+                "action": "NARROWED_BY_OFFICIAL_LAW_PROMULGATION"
+              }
+            ]
+          },
+          {
+            "id": "HD-R216-16",
+            "status": "OPEN",
+            "issue": "11/20 홍범희 사직·장석윤 후임과 11/06 이순용 불신임의 인사인과관계 미확인",
+            "nextTarget": "1951-11-20 국무회의 인사원부·11/21 관보",
+            "accessDate": "2026-10-28",
+            "reviewHistory": [
+              {
+                "date": "2026-10-28",
+                "action": "NEW",
+                "note": "No forced resolution"
+              }
+            ]
+          },
+          {
+            "id": "HD-R216-17",
+            "status": "OPEN",
+            "issue": "11/28 거창사건 신성모 일본 증인신문과 고등군법회의 실제 심리결과 미확인",
+            "nextTarget": "고등군법회의 1951-11~1952-01 증인신문·판결원문",
+            "accessDate": "2026-10-28",
+            "reviewHistory": [
+              {
+                "date": "2026-10-28",
+                "action": "NEW",
+                "note": "No forced resolution"
+              }
+            ]
+          },
+          {
+            "id": "HD-R216-18",
+            "status": "OPEN",
+            "issue": "1951 영농자금 계획100억 실제대부98억 및 지역별 배분 미확인",
+            "nextTarget": "한국은행·금련 1951-05~12 대출원장",
+            "accessDate": "2026-10-28",
+            "reviewHistory": [
+              {
+                "date": "2026-10-28",
+                "action": "NEW",
+                "note": "No forced resolution"
+              }
+            ]
+          },
+          {
+            "id": "HD-R216-19",
+            "status": "OPEN",
+            "issue": "11/27 학도징집 유예 국방·문교 합의요령 원문·시행결과 미확인",
+            "nextTarget": "국방부 1951-11-26 학도징집 유예 훈령",
+            "accessDate": "2026-10-28",
+            "reviewHistory": [
+              {
+                "date": "2026-10-28",
+                "action": "NEW",
+                "note": "No forced resolution"
+              }
+            ]
+          },
+          {
+            "id": "HD-R216-20",
+            "status": "OPEN",
+            "issue": "11/28 결핵요양소 환자 진정·마포경찰서 교수 변사 조사 결론 미확인",
+            "nextTarget": "국회 1951-11~1952-03 조사보고·검찰 기록",
+            "accessDate": "2026-10-28",
+            "reviewHistory": [
+              {
+                "date": "2026-10-28",
+                "action": "NEW",
+                "note": "No forced resolution"
+              }
+            ]
+          }
+        ]
+      },
+      "provenance": "3c412dd2c94d30f052117c4d0a9c6cc5a7ae07b701a666491d7545b49da63fef",
+      "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+    },
+    {
+      "source": "data/research/history-debt/run216.json",
+      "payload": {
+        "run": 216,
+        "accessDate": "2026-10-28",
+        "weeklyFullReviewPerformed": false,
+        "entries": [
+          {
+            "id": "HD-R216-01",
+            "status": "OPEN",
+            "issue": "1951-11-30 관보 제562호 13명 부서와 변영태 한자 OCR 결손",
+            "nextTarget": "BA0185518 원면·관인·임명장 대조",
+            "accessDate": "2026-10-28",
+            "reviewHistory": [
+              {
+                "date": "2026-10-28",
+                "action": "NEW_OR_NARROWED",
+                "note": "No unverified resolution"
+              }
+            ]
+          },
+          {
+            "id": "HD-R216-02",
+            "status": "OPEN",
+            "issue": "허정 국무총리 서리와 장면 총리의 1951-11 직무대행 법적기간",
+            "nextTarget": "국무총리비서실 1951-11 대리발령원부",
+            "accessDate": "2026-10-28",
+            "reviewHistory": [
+              {
+                "date": "2026-10-28",
+                "action": "NEW_OR_NARROWED",
+                "note": "No unverified resolution"
+              }
+            ]
+          },
+          {
+            "id": "HD-R216-03",
+            "status": "NARROWED",
+            "issue": "41k 재분류 계획과 12월 37k 재분류 집계, 실제 자유 석방수 미확인",
+            "nextTarget": "ICRC 1951-12 운영일지·UNC HNC618 원명부",
+            "accessDate": "2026-10-28",
+            "reviewHistory": [
+              {
+                "date": "2026-10-28",
+                "action": "NEW_OR_NARROWED",
+                "note": "No unverified resolution"
+              }
+            ]
+          },
+          {
+            "id": "HD-R216-04",
+            "status": "OPEN",
+            "issue": "UNKRA/AG/1 철회 후 실제 재건 프로젝트·미국 분담금 집행 미확인",
+            "nextTarget": "UNKRA 1951-10-20 계획안·1951-11~12 회계원부",
+            "accessDate": "2026-10-28",
+            "reviewHistory": [
+              {
+                "date": "2026-10-28",
+                "action": "NEW_OR_NARROWED",
+                "note": "No unverified resolution"
+              }
+            ]
+          },
+          {
+            "id": "HD-R216-05",
+            "status": "OPEN",
+            "issue": "전남 11/30 통행금지 포고의 법적 근거·실제 발포/폭격 집행 미확인",
+            "nextTarget": "전남경찰국 1951-11-30 원포고·군사법원 기록",
+            "accessDate": "2026-10-28",
+            "reviewHistory": [
+              {
+                "date": "2026-10-28",
+                "action": "NEW_OR_NARROWED",
+                "note": "No unverified resolution"
+              }
+            ]
+          },
+          {
+            "id": "HD-R216-06",
+            "status": "OPEN",
+            "issue": "부산 11/30 수류탄 창고 폭발 잠정 피해와 원인·최종 사망자 미확인",
+            "nextTarget": "부산시 소방/검찰 1951-12 사고 조사원부",
+            "accessDate": "2026-10-28",
+            "reviewHistory": [
+              {
+                "date": "2026-10-28",
+                "action": "NEW_OR_NARROWED",
+                "note": "No unverified resolution"
+              }
+            ]
+          },
+          {
+            "id": "HD-R216-07",
+            "status": "OPEN",
+            "issue": "농지상환곡 11/30 대통령 지시와 실제 수납·농민 부담·지역별 실적 미확인",
+            "nextTarget": "농림부 1951-12~1952-03 수납·양곡창고 원장",
+            "accessDate": "2026-10-28",
+            "reviewHistory": [
+              {
+                "date": "2026-10-28",
+                "action": "NEW_OR_NARROWED",
+                "note": "No unverified resolution"
+              }
+            ]
+          },
+          {
+            "id": "HD-R216-08",
+            "status": "OPEN",
+            "issue": "한일예비회담 11/28 일본측 양보 보도와 공식 회의록·합의서 미대조",
+            "nextTarget": "외무부/일본 외무성 1951-11-28 제9차 회의록",
+            "accessDate": "2026-10-28",
+            "reviewHistory": [
+              {
+                "date": "2026-10-28",
+                "action": "NEW_OR_NARROWED",
+                "note": "No unverified resolution"
+              }
+            ]
+          },
+          {
+            "id": "HD-R216-09",
+            "status": "OPEN",
+            "issue": "1951 정부개헌안 11/20 재고·11/27 의결·11/30 공고의 조문 수정 이력 미완",
+            "nextTarget": "국가기록원 BG0000007 건123-9/125-10, BA0185518 원면",
+            "accessDate": "2026-10-28",
+            "reviewHistory": [
+              {
+                "date": "2026-10-28",
+                "action": "NEW_OR_NARROWED",
+                "note": "No unverified resolution"
+              }
+            ]
+          },
+          {
+            "id": "HD-R216-10",
+            "status": "OPEN",
+            "issue": "Hanley 포로학살 발표 365 수습·259 신원확인·3545 미확정 사례 원명부 미확보",
+            "nextTarget": "미 육군 법무감 1951-11 조사원부",
+            "accessDate": "2026-10-28",
+            "reviewHistory": [
+              {
+                "date": "2026-10-28",
+                "action": "NEW_OR_NARROWED",
+                "note": "No unverified resolution"
+              }
+            ]
+          }
+        ]
+      },
+      "provenance": "893443b459931f94ca0a077a7db68ed8685ddd27e7deadc2c04a482e73f26f79",
+      "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+    },
+    {
+      "source": "data/research/history-debt/run217.json",
+      "payload": {
+        "run": 217,
+        "accessDate": "2026-10-28",
+        "weeklyFullReviewPerformed": false,
+        "entries": [
+          {
+            "id": "HD-R217-01",
+            "status": "OPEN",
+            "issue": "1951-12-23 원내외 자유당의 정당등록·당헌·동명이인 명부 미확보",
+            "nextTarget": "중앙선관위 자유당 1951-12-23 등록철·국회 원내 자유당 당헌",
+            "accessDate": "2026-10-28",
+            "reviewHistory": [
+              {
+                "date": "2026-10-28",
+                "action": "NEW_OPEN_DEBT",
+                "note": "No silent resolution; original record needed"
+              }
+            ]
+          },
+          {
+            "id": "HD-R217-02",
+            "status": "NARROWED",
+            "issue": "납북자 20,000 추정과 2,438·2,527 명부 중복·명단 실재 및 김 부통령 신원 확인 필요",
+            "nextTarget": "미대사관 1951-12-05 Muccio 532 원본·대한적십자사 1951 납북자 원명부",
+            "accessDate": "2026-10-28",
+            "reviewHistory": [
+              {
+                "date": "2026-10-28",
+                "action": "NEW_OPEN_DEBT",
+                "note": "No silent resolution; original record needed"
+              }
+            ]
+          },
+          {
+            "id": "HD-R217-03",
+            "status": "OPEN",
+            "issue": "12/7 JCS89090 대통령 승인 요청과 12/10 JCS89172 확정 문언 비교 미완",
+            "nextTarget": "미 합참 RG218 JCS89090·89172, Truman 12/08 수정서한",
+            "accessDate": "2026-10-28",
+            "reviewHistory": [
+              {
+                "date": "2026-10-28",
+                "action": "NEW_OPEN_DEBT",
+                "note": "No silent resolution; original record needed"
+              }
+            ]
+          },
+          {
+            "id": "HD-R217-04",
+            "status": "OPEN",
+            "issue": "12/3 중립국감시 제안과 실제 국가 선정·항공항만 접근 범위 불명",
+            "nextTarget": "UNC HNC518·520·522, 북한·중국측 회담 원문",
+            "accessDate": "2026-10-28",
+            "reviewHistory": [
+              {
+                "date": "2026-10-28",
+                "action": "NEW_OPEN_DEBT",
+                "note": "No silent resolution; original record needed"
+              }
+            ]
+          },
+          {
+            "id": "HD-R217-05",
+            "status": "OPEN",
+            "issue": "12/7 NSC118/1 초안의 최종 대통령 승인일·수정내용 미확인",
+            "nextTarget": "Truman Library NSC Action 562, NSC118/1 approval",
+            "accessDate": "2026-10-28",
+            "reviewHistory": [
+              {
+                "date": "2026-10-28",
+                "action": "NEW_OPEN_DEBT",
+                "note": "No silent resolution; original record needed"
+              }
+            ]
+          },
+          {
+            "id": "HD-R217-06",
+            "status": "OPEN",
+            "issue": "영국 1951년 11월 해운 64→26척 수치의 독립 항만통계 검증 미완",
+            "nextTarget": "UK Board of Trade 1951 Q1-Q4 shipping statistics",
+            "accessDate": "2026-10-28",
+            "reviewHistory": [
+              {
+                "date": "2026-10-28",
+                "action": "NEW_OPEN_DEBT",
+                "note": "No silent resolution; original record needed"
+              }
+            ]
+          },
+          {
+            "id": "HD-R217-07",
+            "status": "OPEN",
+            "issue": "1951-12-21 이승만 지리산 방문 연설과 개별 토벌·민간인 피해 명령계통 미확인",
+            "nextTarget": "국방부 1951-12-21 작전명령·현지 경찰/군 일지",
+            "accessDate": "2026-10-28",
+            "reviewHistory": [
+              {
+                "date": "2026-10-28",
+                "action": "NEW_OPEN_DEBT",
+                "note": "No silent resolution; original record needed"
+              }
+            ]
+          },
+          {
+            "id": "HD-R217-08",
+            "status": "OPEN",
+            "issue": "1951-12-23 이범석 원외 부당수 추대와 원내 부의장 이갑성·김동성 권한 관계",
+            "nextTarget": "원내·원외 자유당 1951-12-23 당헌·회의록",
+            "accessDate": "2026-10-28",
+            "reviewHistory": [
+              {
+                "date": "2026-10-28",
+                "action": "NEW_OPEN_DEBT",
+                "note": "No silent resolution; original record needed"
+              }
+            ]
+          },
+          {
+            "id": "HD-R217-09",
+            "status": "OPEN",
+            "issue": "1951-12-23 전매청 설치법 제232호 공포·시행 조항 원문 미열람",
+            "nextTarget": "관보 1951-12-23 법률 제232호 원면·국가법령정보센터 연혁",
+            "accessDate": "2026-10-28",
+            "reviewHistory": [
+              {
+                "date": "2026-10-28",
+                "action": "NEW_OPEN_DEBT",
+                "note": "No silent resolution; original record needed"
+              }
+            ]
+          },
+          {
+            "id": "HD-R217-10",
+            "status": "OPEN",
+            "issue": "1951-12-07 한국측 개헌 설명·예산안·한일 선박 회담 신문 본문 접근 제한",
+            "nextTarget": "국편 dh_023_1951_12_07 개별 0070~0140 원문과 국회·재무부 원자료",
+            "accessDate": "2026-10-28",
+            "reviewHistory": [
+              {
+                "date": "2026-10-28",
+                "action": "NEW_OPEN_DEBT",
+                "note": "No silent resolution; original record needed"
+              }
+            ]
+          }
+        ]
+      },
+      "provenance": "1fa25dea6bb107e279598521e03503fa3b354ce256ee3dd0ff13dedae4ddacd0",
+      "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+    },
+    {
+      "source": "data/research/history-debt/run218.json",
+      "payload": {
+        "run": 218,
+        "accessDate": "2026-10-28",
+        "weeklyFullReview": "NOT_PERFORMED",
+        "debts": [
+          {
+            "id": "HD-R218-01",
+            "status": "NARROWED",
+            "question": "JCS89114/89173의 승인·전송 시각",
+            "evidence": "d797·d799·d810과 d807 편집자 주석으로 요청/질의/전송 구별. 트루먼 원결재 없음",
+            "nextOriginal": "Truman Library 1951-12-08 승인 원메모",
+            "accessDate": "2026-10-28",
+            "lastFullReviewUnchanged": true
+          },
+          {
+            "id": "HD-R218-02",
+            "status": "NARROWED",
+            "question": "ROK 납북 민간인 20k/5k/54명 서로 다른 집단",
+            "evidence": "d811·d822·d838에서 추정·정부요인·UN민간인 명부 분리, 명부 실물 없음",
+            "nextOriginal": "대한적십자 1951-12-15 정부요인 명부",
+            "accessDate": "2026-10-28",
+            "lastFullReviewUnchanged": true
+          },
+          {
+            "id": "HD-R218-03",
+            "status": "OPEN",
+            "question": "한표욱 韓豹頊 생몰·1951년 직책 발령일",
+            "evidence": "4 FRUS 원회의기록과 국편 번역으로 이름/직책 확인, 한자·생몰 원관보 없음",
+            "nextOriginal": "외무부 1951-04~12 인사발령 원문",
+            "accessDate": "2026-10-28",
+            "lastFullReviewUnchanged": true
+          },
+          {
+            "id": "HD-R218-04",
+            "status": "NARROWED",
+            "question": "한일예비회담 1951년 12월 일본측 서면약속 실제 존재",
+            "evidence": "동북아역사재단 11/22·11/28 한국대표단 회의록과 12/5 한일 양측 인사말을 직접 확보. 1951 포괄합의 부재와 1952년 2월 교섭 예정은 미국 FRUS와 한국·일본 작성 자료로 확인. 일본측 '서면약속'의 정확한 조문과 수락권한은 여전히 미확보.",
+            "nextOriginal": "일본 외무성 1951-12 예비회담 합의의제 서면",
+            "accessDate": "2026-10-28",
+            "lastFullReviewUnchanged": true,
+            "reviewHistory": [
+              {
+                "date": "2026-10-28",
+                "status": "NARROWED",
+                "finding": "d821은 양유찬이 서면 약속을 받았다고 진술. 일본측 원문 없음"
+              },
+              {
+                "date": "2026-10-28",
+                "status": "NARROWED",
+                "finding": "동북아역사재단 11/22·11/28 한국대표단 회의록과 12/5 한일 양측 인사말을 직접 확보. 1951 포괄합의 부재와 1952년 2월 교섭 예정은 미국 FRUS와 한국·일본 작성 자료로 확인. 일본측 '서면약속'의 정확한 조문과 수락권한은 여전히 미확보."
+              }
+            ]
+          },
+          {
+            "id": "HD-R218-05",
+            "status": "NARROWED",
+            "question": "민간인 교환 전환/강제송환 승인 범위",
+            "evidence": "d822의 릿지웨이 제안과 d837 JCS 대통령 승인 지침 분리. 실제 집행 명령 미확보",
+            "nextOriginal": "JCS89746 원문 및 UNC 1951-12-16 수신 확인",
+            "accessDate": "2026-10-28",
+            "lastFullReviewUnchanged": true
+          },
+          {
+            "id": "HD-R218-06",
+            "status": "OPEN",
+            "question": "1951-12-12 한국측 Gen Lee 신원",
+            "evidence": "d822는 Gen Lee라고만 적고 정부 철수 가능성 언급. 이형근으로 단정 불가",
+            "nextOriginal": "ROK 국방부 1951-12 휴전대표 임명장",
+            "accessDate": "2026-10-28",
+            "lastFullReviewUnchanged": true
+          },
+          {
+            "id": "HD-R218-07",
+            "status": "NARROWED",
+            "question": "영국 경고성명 발동 조건과 미국 문구 이견",
+            "evidence": "d823 영국은 감시가 충분하면 성명 불필요, d832 미국은 성명 필요. 공동 최종 문구 미확인",
+            "nextOriginal": "UK TNA FO371 원각서·UN 참전국 최종 합의",
+            "accessDate": "2026-10-28",
+            "lastFullReviewUnchanged": true
+          },
+          {
+            "id": "HD-R218-08",
+            "status": "OPEN",
+            "question": "1951-12-14 공산측 정전감시 6원칙 원서명",
+            "evidence": "d833 UNC 보고에 6원칙, 5000명 교체안. 중국측 원문 미열람",
+            "nextOriginal": "PRC Foreign Ministry 1951-12-14 Hsieh 문건",
+            "accessDate": "2026-10-28",
+            "lastFullReviewUnchanged": true
+          },
+          {
+            "id": "HD-R218-09",
+            "status": "OPEN",
+            "question": "ICRC 1951-12 북한측 포로수용소 실제 방문 여부",
+            "evidence": "d815·d835 UNC 요청·거부 주장만 확인",
+            "nextOriginal": "ICRC Geneva 1951-12 현장방문 일지",
+            "accessDate": "2026-10-28",
+            "lastFullReviewUnchanged": true
+          },
+          {
+            "id": "HD-R218-10",
+            "status": "OPEN",
+            "question": "1951-12-18 UN 한국정치위원회 제안의 채택·실행 여부",
+            "evidence": "d850 미 국무부 총회 대표단 초안이며 채택 기록 아님",
+            "nextOriginal": "UN GA 6th Session 정치위원회 회의록·결의",
+            "accessDate": "2026-10-28",
+            "lastFullReviewUnchanged": true
+          },
+          {
+            "id": "HD-R218-11",
+            "status": "OPEN",
+            "question": "1951-10-20 한일예비회담 새 후보 6명의 공적 인사원부·한자·생몰·이명",
+            "evidence": "동북아역사재단 kj.d_0001_0020_0052 원명부에서 실명·직책·참석 확인. 인물별 활동/후대 이력은 미검증",
+            "nextOriginal": "외무부 1951-10 임명장 및 국가기록원 직원록",
+            "accessDate": "2026-10-28",
+            "lastFullReviewUnchanged": true
+          },
+          {
+            "id": "HD-R218-12",
+            "status": "CONFLICTED",
+            "question": "1951-12-12 재일한국인 법적 지위 거주 기준일 8월8일/8월9일",
+            "evidence": "FRUS d821 양유찬 회고는 alien rights dating from Aug 8, 1945, 한국측 12/12 협정초안은 거주 시작 요건 Aug 9, 1945. 서로 법적 대상이 달라 단순 오기 단정 금지",
+            "nextOriginal": "한국 외무부 1951-12-12 초안 원면과 일본측 대조안, 법적 조문 비교",
+            "accessDate": "2026-10-28",
+            "lastFullReviewUnchanged": true
+          },
+          {
+            "id": "HD-R218-13",
+            "status": "CONFLICTED",
+            "question": "제10차 한일회의 경과보고 본문 1952-12-04와 1951-12-12 공한의 선후 모순",
+            "evidence": "동북아역사재단 kj.d_0001_0020_0122 본문 1952-12-04, 0120 송부공한 1951-12-12; 0123/0124 1951-12-05 출발 연설과도 시간선 불일치",
+            "nextOriginal": "kj.d_0001_0020_0122 영인 원면 및 1951-12-04 일지",
+            "accessDate": "2026-10-28",
+            "lastFullReviewUnchanged": true
+          },
+          {
+            "id": "HD-R218-14",
+            "status": "NARROWED",
+            "question": "1951-10-20 류태하 vs 1951-12-06 유태하 동명이인/동일인",
+            "evidence": "두 기록 모두 주일대표부 참사관이지만 성 표기가 다름. 단일 후보의 잠정 이명으로 연결하되 확정하지 않음",
+            "nextOriginal": "1951-10~12 주일대표부 인사발령원부 및 한일대 제265호 원면",
+            "accessDate": "2026-10-28",
+            "lastFullReviewUnchanged": true
+          },
+          {
+            "id": "HD-R218-15",
+            "status": "OPEN",
+            "question": "1951-12-15 일본측 생활부조 6억6천만·재일한국인 55만과 SCAP 10/20 약 80만 추정의 통계 차이",
+            "evidence": "NAHF 0180 일본 다나카 발언은 재일한국인 55만을 가정, 0054 SCAP 보도자료는 약 80만 추정. 모수·통계기준·포함범위 미확정",
+            "nextOriginal": "일본 후생성 1951 재일한국인 생활부조 통계원표 및 SCAP 1951-10 발표 산출근거",
+            "accessDate": "2026-10-28",
+            "lastFullReviewUnchanged": true
+          }
+        ]
+      },
+      "provenance": "5506a38a9a6f0075d3f71990ca0b04d583173768d373423cfcbc684afafa9c28",
+      "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+    },
+    {
+      "source": "data/research/history-debt/run219.json",
+      "payload": {
+        "run": 219,
+        "accessDate": "2026-10-28",
+        "weeklyFullReview": false,
+        "priorLeadTracked": [
+          {
+            "prior": "L218-003",
+            "finding": "FRUS d860 최종 NSC118/2 승인일 12/20 확인. 12/8 Williamsburg 메모 원본은 미확보",
+            "status": "NARROWED"
+          },
+          {
+            "prior": "L218-005",
+            "finding": "d843·847·852·862 교섭쟁점 세부확인, JCS89119 중립의장 원본은 미확보",
+            "status": "NARROWED"
+          },
+          {
+            "prior": "L218-009",
+            "finding": "d854 12/18 포로명부 교환, 12/21 ICRC 공개요청까지 연결",
+            "status": "NARROWED"
+          },
+          {
+            "prior": "L218-010",
+            "finding": "d857 12/19 무초 납북자 명부 미완·중복 경고 확보, 원명부 부재",
+            "status": "NARROWED"
+          },
+          {
+            "prior": "L218-011",
+            "finding": "d865·887 ICRC 방문 요구·회신 확인, 실제 방문 미확보",
+            "status": "OPEN"
+          },
+          {
+            "prior": "L218-016",
+            "finding": "d870·883 캐나다 경고문구 이견 확인, 캐나다 외무부 원문 미확보",
+            "status": "NARROWED"
+          },
+          {
+            "prior": "L218-020",
+            "finding": "d866 12/21 UNC-UNKRA 서명 양해각서 확보, 예산 집행 미확보",
+            "status": "NARROWED"
+          },
+          {
+            "prior": "L218-028",
+            "finding": "12/6 서울신문 김용식 대사 교체 물망, 실제 발령원부 미확보",
+            "status": "OPEN"
+          }
+        ],
+        "debts": [
+          {
+            "id": "HD-R219-01",
+            "status": "NARROWED",
+            "question": "11/29 반정전운동 비밀 내각지시의 원문",
+            "currentEvidence": "FRUS d874 무초가 주장; 한국 국무회의록·경무대 공문 부재",
+            "nextLeadId": "L219-005",
+            "accessDate": "2026-10-28",
+            "reviewType": "INDIVIDUAL_FOLLOWUP_NOT_WEEKLY_FULL_REVIEW"
+          },
+          {
+            "id": "HD-R219-02",
+            "status": "OPEN",
+            "question": "12/06 김용식 주일대사 교체 실제 임명 여부",
+            "currentEvidence": "서울신문 물망 기사뿐, 공식 발령일 확인 불가",
+            "nextLeadId": "L219-009",
+            "accessDate": "2026-10-28",
+            "reviewType": "INDIVIDUAL_FOLLOWUP_NOT_WEEKLY_FULL_REVIEW"
+          },
+          {
+            "id": "HD-R219-03",
+            "status": "NARROWED",
+            "question": "12/19 납북자 명부 2438·1202·976·2527의 중복·분류",
+            "currentEvidence": "FRUS d857이 미완성과 중복 경고, 원명부 부재",
+            "nextLeadId": "L219-036",
+            "accessDate": "2026-10-28",
+            "reviewType": "INDIVIDUAL_FOLLOWUP_NOT_WEEKLY_FULL_REVIEW"
+          },
+          {
+            "id": "HD-R219-04",
+            "status": "OPEN",
+            "question": "12/06 추곡수납 통계의 가마/석 환산과 지역별 미보고분",
+            "currentEvidence": "민주신보 12/16 보도 원수납부 미확보",
+            "nextLeadId": "L219-013",
+            "accessDate": "2026-10-28",
+            "reviewType": "INDIVIDUAL_FOLLOWUP_NOT_WEEKLY_FULL_REVIEW"
+          },
+          {
+            "id": "HD-R219-05",
+            "status": "NARROWED",
+            "question": "12/21 UNC-UNKRA 양해각서가 현장 재건예산으로 집행됐는지",
+            "currentEvidence": "서명원문 d866 확보, 지출원장 부재",
+            "nextLeadId": "L219-031",
+            "accessDate": "2026-10-28",
+            "reviewType": "INDIVIDUAL_FOLLOWUP_NOT_WEEKLY_FULL_REVIEW"
+          },
+          {
+            "id": "HD-R219-06",
+            "status": "OPEN",
+            "question": "12/06~08 지리산 토벌 148 사살·78 생포 군 발표 검증",
+            "currentEvidence": "동시대 군발표 전사만 확보, 독립 작전일지·사망원부 부재",
+            "nextLeadId": "L219-022",
+            "accessDate": "2026-10-28",
+            "reviewType": "INDIVIDUAL_FOLLOWUP_NOT_WEEKLY_FULL_REVIEW"
+          },
+          {
+            "id": "HD-R219-07",
+            "status": "NARROWED",
+            "question": "12/18 포로명부 실제 교환과 포로 강제송환 여부",
+            "currentEvidence": "d854 교환 확인, d858 워싱턴 사전승인 필요; 송환 실행 미확인",
+            "nextLeadId": "L219-034",
+            "accessDate": "2026-10-28",
+            "reviewType": "INDIVIDUAL_FOLLOWUP_NOT_WEEKLY_FULL_REVIEW"
+          },
+          {
+            "id": "HD-R219-08",
+            "status": "OPEN",
+            "question": "ICRC 북한 포로수용소 접근 요청 후 실제 방문 여부",
+            "currentEvidence": "d865·d887 요청/회신, ICRC 방문원부 미확보",
+            "nextLeadId": "L219-032",
+            "accessDate": "2026-10-28",
+            "reviewType": "INDIVIDUAL_FOLLOWUP_NOT_WEEKLY_FULL_REVIEW"
+          },
+          {
+            "id": "HD-R219-09",
+            "status": "CONFLICTED",
+            "question": "UNC 포로명부 132474·37500 재분류와 공산측 44259 실종 주장",
+            "currentEvidence": "분류·소속·거주·원명부 상이; 양측 대립, 누락=사망 단정 금지",
+            "nextLeadId": "L219-035",
+            "accessDate": "2026-10-28",
+            "reviewType": "INDIVIDUAL_FOLLOWUP_NOT_WEEKLY_FULL_REVIEW"
+          },
+          {
+            "id": "HD-R219-10",
+            "status": "NARROWED",
+            "question": "캐나다·호주·영국의 확전 경고성명 문구·자동행동 의무",
+            "currentEvidence": "FRUS d870·872·883 상호이견 확인, 각국 자체 원본 미확보",
+            "nextLeadId": "L219-039",
+            "accessDate": "2026-10-28",
+            "reviewType": "INDIVIDUAL_FOLLOWUP_NOT_WEEKLY_FULL_REVIEW"
+          },
+          {
+            "id": "HD-R219-11",
+            "status": "OPEN",
+            "question": "12/08 방공위원회규정 제580호 관보 원문·위원 명부",
+            "currentEvidence": "법제처 공포일 색인 확인, 원관보 영인·본문 미열람",
+            "nextLeadId": "L219-024",
+            "accessDate": "2026-10-28",
+            "reviewType": "INDIVIDUAL_FOLLOWUP_NOT_WEEKLY_FULL_REVIEW"
+          },
+          {
+            "id": "HD-R219-12",
+            "status": "OPEN",
+            "question": "12/23 법률 제232·233·234호 국회 발의·표결 책임선",
+            "currentEvidence": "법제처 공포·시행 메타데이터 확인, 의사록 미확보",
+            "nextLeadId": "L219-025",
+            "accessDate": "2026-10-28",
+            "reviewType": "INDIVIDUAL_FOLLOWUP_NOT_WEEKLY_FULL_REVIEW"
+          },
+          {
+            "id": "HD-R219-13",
+            "status": "OPEN",
+            "question": "1951-12-08 서울 지가증권 보상금 계획의 실제 지급",
+            "currentEvidence": "경향신문 보도 계획만 확인, 식산은행 지급원장 미확보",
+            "nextLeadId": "L219-017",
+            "accessDate": "2026-10-28",
+            "reviewType": "INDIVIDUAL_FOLLOWUP_NOT_WEEKLY_FULL_REVIEW"
+          },
+          {
+            "id": "HD-R219-14",
+            "status": "OPEN",
+            "question": "1951-12-06 사회부 남하 주민 대응책의 실행",
+            "currentEvidence": "조선일보 계획 보도, 피난민 수송·수용 원부 부재",
+            "nextLeadId": "L219-019",
+            "accessDate": "2026-10-28",
+            "reviewType": "INDIVIDUAL_FOLLOWUP_NOT_WEEKLY_FULL_REVIEW"
+          }
+        ]
+      },
+      "provenance": "fc84c7d6ba4a5c689f0a2710de93fae2e1f359531cbe5fe1932456449e9f3e2d",
+      "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+    },
+    {
+      "source": "data/research/history-debt/run220.json",
+      "payload": {
+        "run": 220,
+        "accessDate": "2026-10-28",
+        "weeklyFullReview": false,
+        "priorLeadsTracked": [
+          {
+            "id": "L219-013",
+            "status": "OPEN",
+            "finding": "기존 lead의 관련 원문 일부 확인 또는 검색대상 재정의; 해당 기관 원본 미확보",
+            "next": "기관 원속기록·명부·원관보를 재확인"
+          },
+          {
+            "id": "L219-015",
+            "status": "OPEN",
+            "finding": "12/26 국회 임시토지수득세 감사 4지역 신문 전사 확보, 시행세칙·원보고서 미확보",
+            "next": "기관 원속기록·명부·원관보를 재확인"
+          },
+          {
+            "id": "L219-024",
+            "status": "OPEN",
+            "finding": "기존 lead의 관련 원문 일부 확인 또는 검색대상 재정의; 해당 기관 원본 미확보",
+            "next": "기관 원속기록·명부·원관보를 재확인"
+          },
+          {
+            "id": "L219-025",
+            "status": "OPEN",
+            "finding": "기존 lead의 관련 원문 일부 확인 또는 검색대상 재정의; 해당 기관 원본 미확보",
+            "next": "기관 원속기록·명부·원관보를 재확인"
+          },
+          {
+            "id": "L219-034",
+            "status": "OPEN",
+            "finding": "기존 lead의 관련 원문 일부 확인 또는 검색대상 재정의; 해당 기관 원본 미확보",
+            "next": "기관 원속기록·명부·원관보를 재확인"
+          },
+          {
+            "id": "L219-035",
+            "status": "OPEN",
+            "finding": "기존 lead의 관련 원문 일부 확인 또는 검색대상 재정의; 해당 기관 원본 미확보",
+            "next": "기관 원속기록·명부·원관보를 재확인"
+          },
+          {
+            "id": "L219-036",
+            "status": "NARROWED",
+            "finding": "FRUS d917 가족단체 revised list 2,585 확인, 12/19 2,527과 버전 차이. 원명부 여전히 부재",
+            "next": "기관 원속기록·명부·원관보를 재확인"
+          },
+          {
+            "id": "L219-038",
+            "status": "OPEN",
+            "finding": "기존 lead의 관련 원문 일부 확인 또는 검색대상 재정의; 해당 기관 원본 미확보",
+            "next": "기관 원속기록·명부·원관보를 재확인"
+          },
+          {
+            "id": "L219-039",
+            "status": "OPEN",
+            "finding": "FRUS d908 영국 수정문구 동의 확인, UK FO371 원본 미열람",
+            "next": "기관 원속기록·명부·원관보를 재확인"
+          },
+          {
+            "id": "L219-040",
+            "status": "OPEN",
+            "finding": "FRUS d904 각국 답변 취합과 뉴질랜드 핵사용 유보 확인, 캐나다 원문 미열람",
+            "next": "기관 원속기록·명부·원관보를 재확인"
+          }
+        ],
+        "debts": [
+          {
+            "id": "HD-R220-01",
+            "status": "NARROWED",
+            "question": "1951-12-26 임시토지수득세 국정감사 처리위원회 구성·보고·정부 시정조치의 실제 절차",
+            "currentEvidence": "신문 0050은 11인 처리위 구성 동의와 27일 보고 예정만 확인",
+            "accessDate": "2026-10-28",
+            "reviewType": "INDIVIDUAL_NOT_WEEKLY_FULL",
+            "next": "각 항목의 다음 lead queue 문서 표적 확인"
+          },
+          {
+            "id": "HD-R220-02",
+            "status": "OPEN",
+            "question": "김종순 외 농지개혁법 상환기간 연장안 의안번호·심의·통과 여부",
+            "currentEvidence": "신문 0060은 26일 발의·농림위 회부만 확인",
+            "accessDate": "2026-10-28",
+            "reviewType": "INDIVIDUAL_NOT_WEEKLY_FULL",
+            "next": "각 항목의 다음 lead queue 문서 표적 확인"
+          },
+          {
+            "id": "HD-R220-03",
+            "status": "OPEN",
+            "question": "국민사상지도원 1억5천만원 추가예산안 의결·기관 설치 여부",
+            "currentEvidence": "신문 0080 예산 계상 단계",
+            "accessDate": "2026-10-28",
+            "reviewType": "INDIVIDUAL_NOT_WEEKLY_FULL",
+            "next": "각 항목의 다음 lead queue 문서 표적 확인"
+          },
+          {
+            "id": "HD-R220-04",
+            "status": "CONFLICTED",
+            "question": "1951-12-26 동시대 물가 저락 논평과 부산 10.7% 상승 보고의 지표·지역 차이",
+            "currentEvidence": "신문 0070 vs FRUS d895; 동일 시계열·시장 아님, 수치 자체 직접 충돌로 단정하지 않음",
+            "accessDate": "2026-10-28",
+            "reviewType": "INDIVIDUAL_NOT_WEEKLY_FULL",
+            "next": "각 항목의 다음 lead queue 문서 표적 확인"
+          },
+          {
+            "id": "HD-R220-05",
+            "status": "NARROWED",
+            "question": "12/29 Ridgway 자발적 송환안의 1952-01 공식 제안 시점",
+            "currentEvidence": "d909 내부승인, d915 12/30 미제출 확인",
+            "accessDate": "2026-10-28",
+            "reviewType": "INDIVIDUAL_NOT_WEEKLY_FULL",
+            "next": "각 항목의 다음 lead queue 문서 표적 확인"
+          },
+          {
+            "id": "HD-R220-06",
+            "status": "NARROWED",
+            "question": "납북자 가족단체 2,527명과 2,585명 명부 버전 차이",
+            "currentEvidence": "d857(직전회차) vs d917; 원명부·추가 58명 성명 미확인",
+            "accessDate": "2026-10-28",
+            "reviewType": "INDIVIDUAL_NOT_WEEKLY_FULL",
+            "next": "각 항목의 다음 lead queue 문서 표적 확인"
+          },
+          {
+            "id": "HD-R220-07",
+            "status": "NARROWED",
+            "question": "12/31 프랑스 경고성명 최종문구·대외 공표 절차",
+            "currentEvidence": "d918 프랑스의 최종문구 이견",
+            "accessDate": "2026-10-28",
+            "reviewType": "INDIVIDUAL_NOT_WEEKLY_FULL",
+            "next": "각 항목의 다음 lead queue 문서 표적 확인"
+          },
+          {
+            "id": "HD-R220-08",
+            "status": "OPEN",
+            "question": "공산측 44,205 누락 포로 주장과 UNC 미귀환 5만 명 주장 대조",
+            "currentEvidence": "d901·903·899; 원포로명부 미열람",
+            "accessDate": "2026-10-28",
+            "reviewType": "INDIVIDUAL_NOT_WEEKLY_FULL",
+            "next": "각 항목의 다음 lead queue 문서 표적 확인"
+          },
+          {
+            "id": "HD-R220-09",
+            "status": "OPEN",
+            "question": "ROK 외환 7백만 달러 곡물수입 제안의 실제 승인·수입",
+            "currentEvidence": "d895는 동의요청, 통관원부 미확보",
+            "accessDate": "2026-10-28",
+            "reviewType": "INDIVIDUAL_NOT_WEEKLY_FULL",
+            "next": "각 항목의 다음 lead queue 문서 표적 확인"
+          },
+          {
+            "id": "HD-R220-10",
+            "status": "OPEN",
+            "question": "국민사상지도원 계획의 책임부서·예산안 원본·지역 파견 실적",
+            "currentEvidence": "d0080 신문 1계열만",
+            "accessDate": "2026-10-28",
+            "reviewType": "INDIVIDUAL_NOT_WEEKLY_FULL",
+            "next": "각 항목의 다음 lead queue 문서 표적 확인"
+          }
+        ]
+      },
+      "provenance": "d8cafd1db301ab1e2238526ef5e916b0746ce70ec0b0356c072155ecc4a41f4a",
+      "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+    },
+    {
+      "source": "data/research/history-debt/run221.json",
+      "payload": {
+        "run": 221,
+        "accessDate": "2026-10-28",
+        "weeklyFullReview": false,
+        "priorLeadsTracked": [
+          {
+            "id": "L220-010",
+            "status": "NARROWED",
+            "finding": "1월5일 정부 선무대 발언과 1월8일 미 OIR 정치적 시민자유 우려 대조; 원배급대장·현장 피해기록 미확보",
+            "next": "L221 후속 기관별 원문 표적",
+            "accessDate": "2026-10-28"
+          },
+          {
+            "id": "L220-011",
+            "status": "OPEN",
+            "finding": "1월10일 JOINT WEEKA4 물가지수 보합 관찰 확보, 부산·서울 월간 원물가표 미확보",
+            "next": "L221 후속 기관별 원문 표적",
+            "accessDate": "2026-10-28"
+          },
+          {
+            "id": "L220-017",
+            "status": "NARROWED",
+            "finding": "1월8일 UNC 자발송환 수정안 전문과 FRUS d13·d17 확보, 1월2일 회담 속기록 미확보",
+            "next": "L221 후속 기관별 원문 표적",
+            "accessDate": "2026-10-28"
+          },
+          {
+            "id": "L220-019",
+            "status": "NARROWED",
+            "finding": "1월5일 13700명 판문점 명부 송부 보도 발견, 2438명 원명부 미확보",
+            "next": "L221 후속 기관별 원문 표적",
+            "accessDate": "2026-10-28"
+          },
+          {
+            "id": "L220-020",
+            "status": "NARROWED",
+            "finding": "1월8일 27362 신고·126000 추정 구분, 2527/2585명 revised 원명부 미확보",
+            "next": "L221 후속 기관별 원문 표적",
+            "accessDate": "2026-10-28"
+          },
+          {
+            "id": "L220-023",
+            "status": "NARROWED",
+            "finding": "FRUS d6 1월4일 프랑스 동의·인도차이나 유보 확인, 영국 Eden 원서한 미확보",
+            "next": "L221 후속 기관별 원문 표적",
+            "accessDate": "2026-10-28"
+          },
+          {
+            "id": "L220-027",
+            "status": "OPEN",
+            "finding": "FRUS d10 1월10일 경고성명 초안 전달 확인, 16개국 대외 공표·서명 원본 미확보",
+            "next": "L221 후속 기관별 원문 표적",
+            "accessDate": "2026-10-28"
+          },
+          {
+            "id": "L220-033",
+            "status": "OPEN",
+            "finding": "1월4일 재무부 재정대강·경북 추곡 기사 확보, 백두진·임문환 국회 감사 답변 원고 미확보",
+            "next": "L221 후속 기관별 원문 표적",
+            "accessDate": "2026-10-28"
+          },
+          {
+            "id": "L220-J02",
+            "status": "NARROWED",
+            "finding": "1월8일 수정안 전문 확보, 1월1일 민간인 교환 원칙 원회의록은 미확보",
+            "next": "L221 후속 기관별 원문 표적",
+            "accessDate": "2026-10-28"
+          }
+        ],
+        "debts": [
+          {
+            "id": "HD-R221-01",
+            "status": "CONFLICTED",
+            "question": "1951년 3분기 국세위반 처리 19631/19361/세목합15941",
+            "currentEvidence": "Run221 동시대 한국 보도와 미국 FRUS/OIR/CIC 편집 전사. 원면 미열람",
+            "next": "재무부 사세청 원장",
+            "accessDate": "2026-10-28",
+            "reviewType": "INDIVIDUAL_NOT_WEEKLY_FULL"
+          },
+          {
+            "id": "HD-R221-02",
+            "status": "CONFLICTED",
+            "question": "1951 전국 화재피해 총액 542억 vs 항목합 525억7743만",
+            "currentEvidence": "Run221 동시대 한국 보도와 미국 FRUS/OIR/CIC 편집 전사. 원면 미열람",
+            "next": "치안국 1951 연보",
+            "accessDate": "2026-10-28",
+            "reviewType": "INDIVIDUAL_NOT_WEEKLY_FULL"
+          },
+          {
+            "id": "HD-R221-03",
+            "status": "CONFLICTED",
+            "question": "경북 추곡수납 19만 vs 19만8000석 배정",
+            "currentEvidence": "Run221 동시대 한국 보도와 미국 FRUS/OIR/CIC 편집 전사. 원면 미열람",
+            "next": "경북도 농림과 배정원장",
+            "accessDate": "2026-10-28",
+            "reviewType": "INDIVIDUAL_NOT_WEEKLY_FULL"
+          },
+          {
+            "id": "HD-R221-04",
+            "status": "OPEN",
+            "question": "김석관 철도시설 92% 복구율 분모·시점",
+            "currentEvidence": "Run221 동시대 한국 보도와 미국 FRUS/OIR/CIC 편집 전사. 원면 미열람",
+            "next": "교통부 철도국 복구통계",
+            "accessDate": "2026-10-28",
+            "reviewType": "INDIVIDUAL_NOT_WEEKLY_FULL"
+          },
+          {
+            "id": "HD-R221-05",
+            "status": "NARROWED",
+            "question": "1952-01-08 UNC 수정안 제출과 1월2일 선행안·최종합의 구분",
+            "currentEvidence": "Run221 동시대 한국 보도와 미국 FRUS/OIR/CIC 편집 전사. 원면 미열람",
+            "next": "UNC 판문점 원속기록",
+            "accessDate": "2026-10-28",
+            "reviewType": "INDIVIDUAL_NOT_WEEKLY_FULL"
+          },
+          {
+            "id": "HD-R221-06",
+            "status": "OPEN",
+            "question": "민국당 당집회 경찰 개입·한청 탈당압력 원명령",
+            "currentEvidence": "Run221 동시대 한국 보도와 미국 FRUS/OIR/CIC 편집 전사. 원면 미열람",
+            "next": "내무부·민국당·한청 원공문",
+            "accessDate": "2026-10-28",
+            "reviewType": "INDIVIDUAL_NOT_WEEKLY_FULL"
+          },
+          {
+            "id": "HD-R221-07",
+            "status": "OPEN",
+            "question": "백낙준 입시준비 금지 시달 실제 학교별 이행",
+            "currentEvidence": "Run221 동시대 한국 보도와 미국 FRUS/OIR/CIC 편집 전사. 원면 미열람",
+            "next": "문교부 도지사 수발신원부",
+            "accessDate": "2026-10-28",
+            "reviewType": "INDIVIDUAL_NOT_WEEKLY_FULL"
+          },
+          {
+            "id": "HD-R221-08",
+            "status": "OPEN",
+            "question": "서남지구 선무구호 실적과 민간인 피해기록 대조",
+            "currentEvidence": "Run221 동시대 한국 보도와 미국 FRUS/OIR/CIC 편집 전사. 원면 미열람",
+            "next": "공보처 구호일지·OIR 원영문",
+            "accessDate": "2026-10-28",
+            "reviewType": "INDIVIDUAL_NOT_WEEKLY_FULL"
+          },
+          {
+            "id": "HD-R221-09",
+            "status": "OPEN",
+            "question": "제빙공장 5곳 융자승인·착공·생산실적",
+            "currentEvidence": "Run221 동시대 한국 보도와 미국 FRUS/OIR/CIC 편집 전사. 원면 미열람",
+            "next": "상공부 수산국 융자원장",
+            "accessDate": "2026-10-28",
+            "reviewType": "INDIVIDUAL_NOT_WEEKLY_FULL"
+          },
+          {
+            "id": "HD-R221-10",
+            "status": "OPEN",
+            "question": "납북 13700/27362/126000과 2527/2585 모집단",
+            "currentEvidence": "Run221 동시대 한국 보도와 미국 FRUS/OIR/CIC 편집 전사. 원면 미열람",
+            "next": "정부·가족회 원명부",
+            "accessDate": "2026-10-28",
+            "reviewType": "INDIVIDUAL_NOT_WEEKLY_FULL"
+          },
+          {
+            "id": "HD-R221-11",
+            "status": "OPEN",
+            "question": "CIC 조봉암 혐의 원보고와 기소·법원 기록",
+            "currentEvidence": "Run221 동시대 한국 보도와 미국 FRUS/OIR/CIC 편집 전사. 원면 미열람",
+            "next": "미 군정보·검찰·국회·당사자 반론",
+            "accessDate": "2026-10-28",
+            "reviewType": "INDIVIDUAL_NOT_WEEKLY_FULL"
+          },
+          {
+            "id": "HD-R221-12",
+            "status": "OPEN",
+            "question": "대구 구호미 감량·안동 기근 구호 집행",
+            "currentEvidence": "Run221 동시대 한국 보도와 미국 FRUS/OIR/CIC 편집 전사. 원면 미열람",
+            "next": "대구시 배급대장·안동군 구호원부",
+            "accessDate": "2026-10-28",
+            "reviewType": "INDIVIDUAL_NOT_WEEKLY_FULL"
+          },
+          {
+            "id": "HD-R221B-01",
+            "status": "CONFLICTED",
+            "question": "1952-01-17 개헌안 상정 출석147 vs126",
+            "currentEvidence": "Run221b 국편 본문·법제처·국회기록원 공식 목록",
+            "next": "국회 제12회 제8차 원속기록",
+            "accessDate": "2026-10-28",
+            "reviewType": "INDIVIDUAL_NOT_WEEKLY_FULL"
+          },
+          {
+            "id": "HD-R221B-02",
+            "status": "CONFLICTED",
+            "question": "서남구호대 시료19477 vs15477·의류30238 vs3238",
+            "currentEvidence": "Run221b 국편 본문·법제처·국회기록원 공식 목록",
+            "next": "공보처 1월14일 구호일지",
+            "accessDate": "2026-10-28",
+            "reviewType": "INDIVIDUAL_NOT_WEEKLY_FULL"
+          },
+          {
+            "id": "HD-R221B-03",
+            "status": "CONFLICTED",
+            "question": "서울 구호미 연인원3493087 vs3453087",
+            "currentEvidence": "Run221b 국편 본문·법제처·국회기록원 공식 목록",
+            "next": "서울시 배급대장",
+            "accessDate": "2026-10-28",
+            "reviewType": "INDIVIDUAL_NOT_WEEKLY_FULL"
+          },
+          {
+            "id": "HD-R221B-04",
+            "status": "CONFLICTED",
+            "question": "한강 밀도강 검거123 vs 일별합201",
+            "currentEvidence": "Run221b 국편 본문·법제처·국회기록원 공식 목록",
+            "next": "서울경찰 1월11~16 검거일지",
+            "accessDate": "2026-10-28",
+            "reviewType": "INDIVIDUAL_NOT_WEEKLY_FULL"
+          },
+          {
+            "id": "HD-R221B-05",
+            "status": "CONFLICTED",
+            "question": "수득세 130만석 중813160석 수납78% vs 실제62.55%",
+            "currentEvidence": "Run221b 국편 본문·법제처·국회기록원 공식 목록",
+            "next": "대한금련 1월10일 원부",
+            "accessDate": "2026-10-28",
+            "reviewType": "INDIVIDUAL_NOT_WEEKLY_FULL"
+          },
+          {
+            "id": "HD-R221B-06",
+            "status": "OPEN",
+            "question": "인접해양 고시14호 좌표·지도 전사 불연속",
+            "currentEvidence": "Run221b 국편 본문·법제처·국회기록원 공식 목록",
+            "next": "1952-01-18 관보 원지도",
+            "accessDate": "2026-10-28",
+            "reviewType": "INDIVIDUAL_NOT_WEEKLY_FULL"
+          },
+          {
+            "id": "HD-R221B-07",
+            "status": "OPEN",
+            "question": "조선방직 여공 국회청원 경찰제지 원명령",
+            "currentEvidence": "Run221b 국편 본문·법제처·국회기록원 공식 목록",
+            "next": "경남경찰국·국회 청원접수",
+            "accessDate": "2026-10-28",
+            "reviewType": "INDIVIDUAL_NOT_WEEKLY_FULL"
+          },
+          {
+            "id": "HD-R221B-08",
+            "status": "OPEN",
+            "question": "밀양 27소작인 소유권 항고 최종결정",
+            "currentEvidence": "Run221b 국편 본문·법제처·국회기록원 공식 목록",
+            "next": "경남도 농지위원회 제68회",
+            "accessDate": "2026-10-28",
+            "reviewType": "INDIVIDUAL_NOT_WEEKLY_FULL"
+          },
+          {
+            "id": "HD-R221B-09",
+            "status": "OPEN",
+            "question": "한강 도강증 이관과 익사사고 법적·인과관계",
+            "currentEvidence": "Run221b 국편 본문·법제처·국회기록원 공식 목록",
+            "next": "미 헌병 공문188호·경찰 사고원부",
+            "accessDate": "2026-10-28",
+            "reviewType": "INDIVIDUAL_NOT_WEEKLY_FULL"
+          },
+          {
+            "id": "HD-R221B-10",
+            "status": "OPEN",
+            "question": "이승만 유엔군 대여금3540억·통화발행5579억",
+            "currentEvidence": "Run221b 국편 본문·법제처·국회기록원 공식 목록",
+            "next": "한국은행·미군 회계",
+            "accessDate": "2026-10-28",
+            "reviewType": "INDIVIDUAL_NOT_WEEKLY_FULL"
+          },
+          {
+            "id": "HD-R221B-11",
+            "status": "OPEN",
+            "question": "1952-01-18 개헌안 국회 원속기록 19/143/1",
+            "currentEvidence": "Run221b 국편 본문·법제처·국회기록원 공식 목록",
+            "next": "국회기록원 제12회 제9차",
+            "accessDate": "2026-10-28",
+            "reviewType": "INDIVIDUAL_NOT_WEEKLY_FULL"
+          },
+          {
+            "id": "HD-R221B-12",
+            "status": "OPEN",
+            "question": "경북 직업소개소4곳 설치·운영",
+            "currentEvidence": "Run221b 국편 본문·법제처·국회기록원 공식 목록",
+            "next": "경북도 행정규칙·개소대장",
+            "accessDate": "2026-10-28",
+            "reviewType": "INDIVIDUAL_NOT_WEEKLY_FULL"
+          },
+          {
+            "id": "HD-R221C-01",
+            "status": "CONFLICTED",
+            "question": "조병창 방화 북로당3인 최초 기소와 군재 무죄 판결의 증거·책임",
+            "currentEvidence": "Run221c 국편 동시대 전사·정부당사자 발언·미 군정보 발표",
+            "next": "국방부 군재 판결원본·국회 제12회11/12차",
+            "accessDate": "2026-10-28",
+            "reviewType": "INDIVIDUAL_NOT_WEEKLY_FULL"
+          },
+          {
+            "id": "HD-R221C-02",
+            "status": "CONFLICTED",
+            "question": "조선방직 경찰 불간섭 주장과 여공 국회청원 제지",
+            "currentEvidence": "Run221c 국편 동시대 전사·정부당사자 발언·미 군정보 발표",
+            "next": "경남경찰 원명령·노동조합 서한",
+            "accessDate": "2026-10-28",
+            "reviewType": "INDIVIDUAL_NOT_WEEKLY_FULL"
+          },
+          {
+            "id": "HD-R221C-03",
+            "status": "CONFLICTED",
+            "question": "경북상공회의소 구호금 전용 승인 회두 주장 vs 지사·시장 부인",
+            "currentEvidence": "Run221c 국편 동시대 전사·정부당사자 발언·미 군정보 발표",
+            "next": "상의 회계·도지사·시장 결재",
+            "accessDate": "2026-10-28",
+            "reviewType": "INDIVIDUAL_NOT_WEEKLY_FULL"
+          },
+          {
+            "id": "HD-R221C-04",
+            "status": "CONFLICTED",
+            "question": "1951 국민소득 세목합19114 vs24694·비과세 40.09% vs36.5%",
+            "currentEvidence": "Run221c 국편 동시대 전사·정부당사자 발언·미 군정보 발표",
+            "next": "재무부 사세국 원산식",
+            "accessDate": "2026-10-28",
+            "reviewType": "INDIVIDUAL_NOT_WEEKLY_FULL"
+          },
+          {
+            "id": "HD-R221C-05",
+            "status": "CONFLICTED",
+            "question": "1951 국민소득 항목합57426 vs55431·순가계비46352 vs48565",
+            "currentEvidence": "Run221c 국편 동시대 전사·정부당사자 발언·미 군정보 발표",
+            "next": "재무부 사세국 원통계",
+            "accessDate": "2026-10-28",
+            "reviewType": "INDIVIDUAL_NOT_WEEKLY_FULL"
+          },
+          {
+            "id": "HD-R221C-06",
+            "status": "CONFLICTED",
+            "question": "서울인천 복구공장 세부합135 vs 총140",
+            "currentEvidence": "Run221c 국편 동시대 전사·정부당사자 발언·미 군정보 발표",
+            "next": "상공부 공장등록원부",
+            "accessDate": "2026-10-28",
+            "reviewType": "INDIVIDUAL_NOT_WEEKLY_FULL"
+          },
+          {
+            "id": "HD-R221C-07",
+            "status": "CONFLICTED",
+            "question": "부산 쌀 한되 전일3500~3600→4500 상승900~1000 vs 기사600",
+            "currentEvidence": "Run221c 국편 동시대 전사·정부당사자 발언·미 군정보 발표",
+            "next": "부산 물가원부",
+            "accessDate": "2026-10-28",
+            "reviewType": "INDIVIDUAL_NOT_WEEKLY_FULL"
+          },
+          {
+            "id": "HD-R221C-08",
+            "status": "CONFLICTED",
+            "question": "한일청산계정 한도 200백만불 표기 vs 산식200만불",
+            "currentEvidence": "Run221c 국편 동시대 전사·정부당사자 발언·미 군정보 발표",
+            "next": "한국은행 한일통상결제 원장",
+            "accessDate": "2026-10-28",
+            "reviewType": "INDIVIDUAL_NOT_WEEKLY_FULL"
+          },
+          {
+            "id": "HD-R221C-09",
+            "status": "CONFLICTED",
+            "question": "전재민 구호미 22000톤·1414000석 단위환산 불일치",
+            "currentEvidence": "Run221c 국편 동시대 전사·정부당사자 발언·미 군정보 발표",
+            "next": "사회부·CAC 수입선하증권",
+            "accessDate": "2026-10-28",
+            "reviewType": "INDIVIDUAL_NOT_WEEKLY_FULL"
+          },
+          {
+            "id": "HD-R221C-10",
+            "status": "OPEN",
+            "question": "이현상 부상·게릴라8000사살·7083포로 미8군 발표 독립확증",
+            "currentEvidence": "Run221c 국편 동시대 전사·정부당사자 발언·미 군정보 발표",
+            "next": "미8군 원작전일지·포로명부",
+            "accessDate": "2026-10-28",
+            "reviewType": "INDIVIDUAL_NOT_WEEKLY_FULL"
+          },
+          {
+            "id": "HD-R221D-01",
+            "status": "CONFLICTED",
+            "question": "외무부 해외장학생 총115명 vs 국가별합114",
+            "currentEvidence": "Run221d 국편 관보·신문·정당담화 직접 본문",
+            "next": "외무부 문화과 1952년 유학장학생 원명부",
+            "accessDate": "2026-10-28",
+            "reviewType": "INDIVIDUAL_NOT_WEEKLY_FULL"
+          },
+          {
+            "id": "HD-R221D-02",
+            "status": "CONFLICTED",
+            "question": "남전 발전원별64000kW vs 이홍직 총55000kW",
+            "currentEvidence": "Run221d 국편 관보·신문·정당담화 직접 본문",
+            "next": "남전 발전·수전 원부",
+            "accessDate": "2026-10-28",
+            "reviewType": "INDIVIDUAL_NOT_WEEKLY_FULL"
+          },
+          {
+            "id": "HD-R221D-03",
+            "status": "CONFLICTED",
+            "question": "한일통상협정 만료 3월1일 vs 3월말",
+            "currentEvidence": "Run221d 국편 관보·신문·정당담화 직접 본문",
+            "next": "상공부·일본 통상협정 원문",
+            "accessDate": "2026-10-28",
+            "reviewType": "INDIVIDUAL_NOT_WEEKLY_FULL"
+          },
+          {
+            "id": "HD-R221D-04",
+            "status": "CONFLICTED",
+            "question": "정부 재정수입3739억-지출3595억=144억 vs 보도134억",
+            "currentEvidence": "Run221d 국편 관보·신문·정당담화 직접 본문",
+            "next": "재무부 1951 결산",
+            "accessDate": "2026-10-28",
+            "reviewType": "INDIVIDUAL_NOT_WEEKLY_FULL"
+          },
+          {
+            "id": "HD-R221D-05",
+            "status": "CONFLICTED",
+            "question": "서울역 남하객685 vs 분류합675",
+            "currentEvidence": "Run221d 국편 관보·신문·정당담화 직접 본문",
+            "next": "서울역 1952-01-31 수송대장",
+            "accessDate": "2026-10-28",
+            "reviewType": "INDIVIDUAL_NOT_WEEKLY_FULL"
+          },
+          {
+            "id": "HD-R221D-06",
+            "status": "OPEN",
+            "question": "계엄법시행령598·사령부직제599 공포와 개별 계엄선포권한 분리",
+            "currentEvidence": "Run221d 국편 관보·신문·정당담화 직접 본문",
+            "next": "관보·국무회의록·사령관 임명",
+            "accessDate": "2026-10-28",
+            "reviewType": "INDIVIDUAL_NOT_WEEKLY_FULL"
+          },
+          {
+            "id": "HD-R221D-07",
+            "status": "OPEN",
+            "question": "1월29일 단양·구례·김제 보선3구 계엄해제 공포 여부",
+            "currentEvidence": "Run221d 국편 관보·신문·정당담화 직접 본문",
+            "next": "국무회의·관보·선관위",
+            "accessDate": "2026-10-28",
+            "reviewType": "INDIVIDUAL_NOT_WEEKLY_FULL"
+          },
+          {
+            "id": "HD-R221D-08",
+            "status": "OPEN",
+            "question": "이승만 민국당 반박담화 공보처 경유 잘못 인정 이후 실제 시정",
+            "currentEvidence": "Run221d 국편 관보·신문·정당담화 직접 본문",
+            "next": "대통령기록관·공보처 원발송",
+            "accessDate": "2026-10-28",
+            "reviewType": "INDIVIDUAL_NOT_WEEKLY_FULL"
+          },
+          {
+            "id": "HD-R221D-09",
+            "status": "OPEN",
+            "question": "서울 1~2개월 환도 공언과 실제 행정 이전·도시시설",
+            "currentEvidence": "Run221d 국편 관보·신문·정당담화 직접 본문",
+            "next": "중앙청 이전기록·서울시 복구",
+            "accessDate": "2026-10-28",
+            "reviewType": "INDIVIDUAL_NOT_WEEKLY_FULL"
+          },
+          {
+            "id": "HD-R221D-10",
+            "status": "OPEN",
+            "question": "경기도 광주군 피난민6만 8일분 배급과 다른 지역30일분",
+            "currentEvidence": "Run221d 국편 관보·신문·정당담화 직접 본문",
+            "next": "사회부·경기도 구호원부",
+            "accessDate": "2026-10-28",
+            "reviewType": "INDIVIDUAL_NOT_WEEKLY_FULL"
+          },
+          {
+            "id": "HD-R221D-11",
+            "status": "OPEN",
+            "question": "백성욱의 이승만 특명 제3자유당 조직 주장",
+            "currentEvidence": "Run221d 국편 관보·신문·정당담화 직접 본문",
+            "next": "이승만 서한·자유당 회의록",
+            "accessDate": "2026-10-28",
+            "reviewType": "INDIVIDUAL_NOT_WEEKLY_FULL"
+          },
+          {
+            "id": "HD-R221D-12",
+            "status": "OPEN",
+            "question": "국무원고시14호 발표일 17/18/19 서로 다른 보도",
+            "currentEvidence": "Run221d 국편 관보·신문·정당담화 직접 본문",
+            "next": "원관보·외교통지 원문",
+            "accessDate": "2026-10-28",
+            "reviewType": "INDIVIDUAL_NOT_WEEKLY_FULL"
+          }
+        ],
+        "correctionHistory": [
+          {
+            "id": "correction-r221b-001",
+            "date": "2026-10-28",
+            "previousObservation": "국편 관보 전사 제목 제589호·본문 제587호 충돌",
+            "newFinding": "법제처 공포연혁 대통령령 제589호(1952-01-16), 시행 1952-01-01",
+            "action": "전사 원문 제587호는 유지하고 공포번호를 589로 정규화. 관보 원면 미열람",
+            "status": "CORRECTED_NUMBER_OFFICIAL_REGISTRY"
+          }
+        ],
+        "newDebtCount": 46
+      },
+      "provenance": "923adb3c4ddee7e44d0173900f91e48941308799fb69f2a38b35bb0ad20887cf",
+      "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+    },
+    {
+      "source": "data/research/history-debt/run222.json",
+      "payload": {
+        "run": 222,
+        "accessDate": "2026-10-28",
+        "weeklyFullReview": false,
+        "weeklyFullReviewStatement": "역사부채 주간 전수조사 미실시",
+        "lastFullReview": "UNCHANGED",
+        "priorLeadsTracked": [
+          {
+            "id": "L221-042",
+            "status": "OPEN",
+            "finding": "선행 lead를 확인했으나 원문 원장/원속기록 확보하지 못함; 후속 문서 표적 구체화",
+            "nextLeadIds": [
+              "L222-020"
+            ],
+            "accessDate": "2026-10-28"
+          },
+          {
+            "id": "L221-043",
+            "status": "OPEN",
+            "finding": "선행 lead를 확인했으나 원문 원장/원속기록 확보하지 못함; 후속 문서 표적 구체화",
+            "nextLeadIds": [
+              "L222-021"
+            ],
+            "accessDate": "2026-10-28"
+          },
+          {
+            "id": "L221-045",
+            "status": "OPEN",
+            "finding": "선행 lead를 확인했으나 원문 원장/원속기록 확보하지 못함; 후속 문서 표적 구체화",
+            "nextLeadIds": [
+              "L222-022"
+            ],
+            "accessDate": "2026-10-28"
+          },
+          {
+            "id": "L221-047",
+            "status": "OPEN",
+            "finding": "선행 lead를 확인했으나 원문 원장/원속기록 확보하지 못함; 후속 문서 표적 구체화",
+            "nextLeadIds": [
+              "L222-023"
+            ],
+            "accessDate": "2026-10-28"
+          },
+          {
+            "id": "L221-048",
+            "status": "NARROWED",
+            "finding": "FRUS d35·d42의 미국 원화대여 준비계정·환율·인플레 분석으로 회계단계 축소, 한국 원화원장 미확보",
+            "nextLeadIds": [
+              "L222-024"
+            ],
+            "accessDate": "2026-10-28"
+          },
+          {
+            "id": "L221-049",
+            "status": "OPEN",
+            "finding": "선행 lead를 확인했으나 원문 원장/원속기록 확보하지 못함; 후속 문서 표적 구체화",
+            "nextLeadIds": [
+              "L222-025"
+            ],
+            "accessDate": "2026-10-28"
+          },
+          {
+            "id": "L221-053",
+            "status": "OPEN",
+            "finding": "선행 lead를 확인했으나 원문 원장/원속기록 확보하지 못함; 후속 문서 표적 구체화",
+            "nextLeadIds": [
+              "L222-026"
+            ],
+            "accessDate": "2026-10-28"
+          },
+          {
+            "id": "L221-054",
+            "status": "OPEN",
+            "finding": "선행 lead를 확인했으나 원문 원장/원속기록 확보하지 못함; 후속 문서 표적 구체화",
+            "nextLeadIds": [
+              "L222-027"
+            ],
+            "accessDate": "2026-10-28"
+          },
+          {
+            "id": "L221-061",
+            "status": "OPEN",
+            "finding": "선행 lead를 확인했으나 원문 원장/원속기록 확보하지 못함; 후속 문서 표적 구체화",
+            "nextLeadIds": [
+              "L222-028"
+            ],
+            "accessDate": "2026-10-28"
+          }
+        ],
+        "debts": [
+          {
+            "id": "HD-R222-IDENTITY",
+            "status": "CONFLICTED",
+            "question": "1952-02 FRUS Kim Chongwon vs JOINT WEEKA4 한국어 전사 김석원 Tiger Kim 동일인 여부",
+            "supportingDocumentIds": [
+              "doc-r222-frus-33"
+            ],
+            "contradictingDocumentIds": [
+              "doc-r222-nikh-feb27-joint"
+            ],
+            "nextOriginals": [
+              "1951 거창 조사단 방해사건 군법회의 판결",
+              "JOINT WEEKA4 원영문",
+              "국방부 인사·수형원부"
+            ],
+            "correctionHistory": [
+              {
+                "date": "2026-10-28",
+                "action": "원문 표기 차이를 별개 candidate로 보존, pol-r164-kim-seok-won과 병합 금지"
+              }
+            ]
+          },
+          {
+            "id": "HD-R222-WON",
+            "status": "NARROWED",
+            "question": "유엔군 원화대여금 이승만 1월 주장과 미국 준비계정/실제상환/환율 차이",
+            "supportingDocumentIds": [
+              "doc-r222-frus-35",
+              "doc-r222-frus-42"
+            ],
+            "nextOriginals": [
+              "한국은행 원화인출원장",
+              "미 재무부 준비계정·실지급 명세",
+              "총리 6000억원 경고 원서한"
+            ]
+          },
+          {
+            "id": "HD-R222-PROTEST",
+            "status": "OPEN",
+            "question": "1952-02-18 국회 소환시위 대통령·청년단 지휘 명령선",
+            "supportingDocumentIds": [
+              "doc-r222-nikh-feb18-demonstration",
+              "doc-r222-frus-33",
+              "doc-r222-nikh-feb27-joint"
+            ],
+            "nextOriginals": [
+              "국회 시위 통고문",
+              "대한청년단 동원공문",
+              "내무부 경찰 상황일지"
+            ]
+          },
+          {
+            "id": "HD-R222-POW",
+            "status": "NARROWED",
+            "question": "1952-02-27 미 강제송환 금지 정책 결정과 3월 POW 선별 실행시점",
+            "supportingDocumentIds": [
+              "doc-r222-frus-45",
+              "doc-r222-frus-47",
+              "doc-r222-frus-65",
+              "doc-r222-frus-67"
+            ],
+            "nextOriginals": [
+              "JCS902159 원송신문",
+              "UNC 수용소 선별일지",
+              "3월23일 판문점 속기록"
+            ]
+          },
+          {
+            "id": "HD-R222-GEOJE",
+            "status": "OPEN",
+            "question": "1952-02-18 거제도 62수용소 사망 68명+1명 한국 정부 발표 검증",
+            "supportingDocumentIds": [
+              "doc-r222-nikh-feb18-geoje"
+            ],
+            "nextOriginals": [
+              "UNC 경비대 상황일지",
+              "ICRC 현장보고",
+              "피해자 원명부"
+            ]
+          }
+        ]
+      },
+      "provenance": "999f7543a0042885ac398d802bcfcf280ff3df2a8cc19c39b471cf88112b149e",
       "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
     },
     {

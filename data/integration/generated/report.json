@@ -3,17 +3,17 @@
     "documents": 11635,
     "claims": 4977,
     "events": 6202,
-    "politicians": 1549,
+    "politicians": 1566,
     "organizations": 263,
     "roles": 65
   },
   "canonicalDirectory": "data/integration/canonical",
-  "sourceFiles": 4116,
+  "sourceFiles": 4273,
   "sourceStatusCounts": {
-    "AUXILIARY_JSON_INDEXED": 777,
-    "CANONICAL_MATERIALIZED": 1744,
+    "AUXILIARY_JSON_INDEXED": 809,
+    "CANONICAL_MATERIALIZED": 1748,
     "CONFLICT_REVIEW_REQUIRED": 510,
-    "NON_JSON_SOURCE_PRESERVED": 1067,
+    "NON_JSON_SOURCE_PRESERVED": 1188,
     "OPERATIONAL_ROOT_PRESERVED": 2,
     "PARTIAL_CANONICAL_MATERIALIZED": 15,
     "PRESIDENTIAL_BACKBONE_PRESERVED": 1
@@ -28,14 +28,14 @@
     "event_registry_source": 494,
     "evidence_layer": 192,
     "execution_ledger_layer": 416,
-    "history_debt_layer": 27,
+    "history_debt_layer": 164,
     "open_lead_layer": 252,
     "operational_root": 2,
     "organization_registry_source": 53,
     "other": 8,
-    "politician_candidate_source": 551,
+    "politician_candidate_source": 556,
     "presidential_backbone": 1,
-    "research_supporting_layer": 524
+    "research_supporting_layer": 539
   },
   "totals": {
     "documents": {
@@ -54,8 +54,8 @@
       "conflictedIds": 70
     },
     "politicians": {
-      "sourceRecords": 4455,
-      "uniqueIds": 2246,
+      "sourceRecords": 4473,
+      "uniqueIds": 2263,
       "conflictedIds": 697
     },
     "organizations": {
@@ -9784,6 +9784,12 @@
     },
     {
       "type": "politicians",
+      "id": "cand115-lee-jae-hyeong",
+      "copies": 2,
+      "uniqueVersions": 1
+    },
+    {
+      "type": "politicians",
       "id": "pol-jeong-heon-ju-r159",
       "copies": 4,
       "uniqueVersions": 3
@@ -10525,6 +10531,7 @@
     "data/research/audits/pass-255f-october-arithmetic-and-law.json",
     "data/research/audits/pass-258d-identity-document-dedupe.json",
     "data/research/audits/run81-land-legal-consistency.json",
+    "data/research/audits/run91-provenance-and-dedup.json",
     "data/research/candidates/2026-10-04-pass184-landcommittee-identity-review.json",
     "data/research/candidates/2026-10-04-pass185-landcommittee-reassessment.json",
     "data/research/candidates/2026-10-05-pass207-postarmistice-actors.json",
@@ -10561,11 +10568,16 @@
     "data/research/candidates/pass-273-domestic-martial-law-instruments.json",
     "data/research/candidates/pass-274-yun-woo-kyong-rhee-direct-command.json",
     "data/research/candidates/pass-70-political-conference-actors.json",
+    "data/research/candidates/run115-assembly-additional-actors.json",
     "data/research/corrections/pass-244-date-precision-review.json",
     "data/research/corrections/pass-244-document-kind-and-alias-audit.json",
     "data/research/corrections/pass-244-execution-count-audit.json",
     "data/research/corrections/pass-244-gao-footnote-reopened.json",
     "data/research/corrections/pass-257t-frus-duplicate-ids.json",
+    "data/research/corrections/run126e-defense-minister.json",
+    "data/research/corrections/run132-uri-rule.json",
+    "data/research/corrections/run133-first-pass.json",
+    "data/research/corrections/run133-source-audit.json",
     "data/research/corrections/run224-identity-guardrail.json",
     "data/research/coverage/pass-237-coverage-overlay.json",
     "data/research/coverage/pass-252-coverage-overlay.json",
@@ -10659,6 +10671,32 @@
     "data/research/history-debt/pass-258b-1953-54-aid-control-unresolved.json",
     "data/research/history-debt/pass-258e-1956-domestic-triage.json",
     "data/research/history-debt/pass-258f-unresolved.json",
+    "data/research/history-debt/run140-health-labor.json",
+    "data/research/history-debt/run142-agriculture-uncertainty.json",
+    "data/research/history-debt/run142-date-audit.json",
+    "data/research/history-debt/run206-may-june1951.json",
+    "data/research/history-debt/run206b-june02-05.json",
+    "data/research/history-debt/run206c-national-archives.json",
+    "data/research/history-debt/run206d-economic-biography.json",
+    "data/research/history-debt/run207-19510607.json",
+    "data/research/history-debt/run208-1951-june.json",
+    "data/research/history-debt/run210-july02-07.json",
+    "data/research/history-debt/run211-july10-31.json",
+    "data/research/history-debt/run212-august.json",
+    "data/research/history-debt/run213-aug25-31.json",
+    "data/research/history-debt/run213-augsep.json",
+    "data/research/history-debt/run214-september.json",
+    "data/research/history-debt/run215-followup.json",
+    "data/research/history-debt/run215-oct1951.json",
+    "data/research/history-debt/run215-second-wave.json",
+    "data/research/history-debt/run216-second-wave.json",
+    "data/research/history-debt/run216.json",
+    "data/research/history-debt/run217.json",
+    "data/research/history-debt/run218.json",
+    "data/research/history-debt/run219.json",
+    "data/research/history-debt/run220.json",
+    "data/research/history-debt/run221.json",
+    "data/research/history-debt/run222.json",
     "data/research/history-debt/run223.json",
     "data/research/history-debt/run224.json",
     "data/research/history-debt/run225.json",
@@ -11009,7 +11047,7 @@
     "data/research/weekly-history-debt-review-2026-10-04.json",
     "data/votes/1960-06-15-constitutional-amendment.json"
   ],
-  "auxiliaryRecords": 1051,
+  "auxiliaryRecords": 1094,
   "partialSources": [
     "data/documents/run149-1956-laws.json",
     "data/evidence/yu-wan-chang.json",
@@ -12266,6 +12304,10 @@
       "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
+      "path": "data/research/audits/run91-provenance-and-dedup.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
       "path": "data/research/candidates/2026-10-04-pass184-landcommittee-identity-review.json",
       "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
@@ -12410,6 +12452,10 @@
       "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
+      "path": "data/research/candidates/run115-assembly-additional-actors.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
       "path": "data/research/corrections/pass-244-date-precision-review.json",
       "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
@@ -12427,6 +12473,22 @@
     },
     {
       "path": "data/research/corrections/pass-257t-frus-duplicate-ids.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/corrections/run126e-defense-minister.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/corrections/run132-uri-rule.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/corrections/run133-first-pass.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/corrections/run133-source-audit.json",
       "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
@@ -12799,6 +12861,110 @@
     },
     {
       "path": "data/research/history-debt/pass-258f-unresolved.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/history-debt/run140-health-labor.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/history-debt/run142-agriculture-uncertainty.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/history-debt/run142-date-audit.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/history-debt/run206-may-june1951.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/history-debt/run206b-june02-05.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/history-debt/run206c-national-archives.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/history-debt/run206d-economic-biography.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/history-debt/run207-19510607.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/history-debt/run208-1951-june.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/history-debt/run210-july02-07.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/history-debt/run211-july10-31.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/history-debt/run212-august.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/history-debt/run213-aug25-31.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/history-debt/run213-augsep.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/history-debt/run214-september.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/history-debt/run215-followup.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/history-debt/run215-oct1951.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/history-debt/run215-second-wave.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/history-debt/run216-second-wave.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/history-debt/run216.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/history-debt/run217.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/history-debt/run218.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/history-debt/run219.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/history-debt/run220.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/history-debt/run221.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/history-debt/run222.json",
       "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
