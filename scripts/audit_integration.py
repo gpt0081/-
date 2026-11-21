@@ -41,6 +41,51 @@ for kind in kinds:
             if not alt.get("provenance"):issues.append({"code":"MISSING_PROVENANCE","kind":kind,"id":r["id"]})
             for p in alt.get("provenance",[]):
                 if p["path"] not in paths:issues.append({"code":"UNKNOWN_SOURCE","kind":kind,"id":r["id"],"path":p["path"]})
+# Validate materialized canonical registries against the lossless alternatives.
+# A generated index alone cannot establish that the queryable central layer exists.
+canonical_root=root/"data/integration/canonical"
+for kind in kinds:
+    canonical_file=canonical_root/(kind+".json")
+    if not canonical_file.is_file():
+        issues.append({"code":"CANONICAL_REGISTRY_MISSING","kind":kind})
+        continue
+    try:
+        canonical=json.loads(canonical_file.read_text(encoding="utf-8"))
+        rows=canonical["records"]
+        if not isinstance(rows,list):
+            raise ValueError("records must be a list")
+    except (ValueError,KeyError,TypeError,UnicodeError) as exc:
+        issues.append({"code":"CANONICAL_REGISTRY_UNREADABLE","kind":kind,"detail":str(exc)[:160]})
+        continue
+    generated=json.loads((out/(kind+".json")).read_text())["records"]
+    expected={r["id"]:r["alternatives"][0] for r in generated
+              if r["integrationStatus"]=="INTEGRATED" and len(r["alternatives"])==1}
+    actual={}
+    for row in rows:
+        if not isinstance(row,dict) or not isinstance(row.get("_integration"),dict):
+            issues.append({"code":"CANONICAL_PROVENANCE_MISSING","kind":kind})
+            continue
+        meta=row["_integration"]
+        ident=meta.get("id")
+        if not isinstance(ident,str) or ident in actual:
+            issues.append({"code":"CANONICAL_ID_INVALID_OR_DUPLICATE","kind":kind,"id":ident})
+            continue
+        actual[ident]=row
+    for ident in sorted(set(expected)-set(actual)):
+        issues.append({"code":"CANONICAL_RECORD_MISSING","kind":kind,"id":ident})
+    for ident in sorted(set(actual)-set(expected)):
+        issues.append({"code":"UNSAFE_CANONICAL_RECORD","kind":kind,"id":ident})
+    for ident in sorted(set(expected)&set(actual)):
+        alt=expected[ident]
+        row=actual[ident]
+        payload={k:v for k,v in row.items() if k!="_integration"}
+        digest=hashlib.sha256(json.dumps(payload,ensure_ascii=False,sort_keys=True,
+                              separators=(",",":")).encode()).hexdigest()
+        if digest!=alt["digest"] or row["_integration"].get("digest")!=alt["digest"]:
+            issues.append({"code":"CANONICAL_PAYLOAD_MISMATCH","kind":kind,"id":ident})
+        if row["_integration"].get("provenance")!=alt["provenance"]:
+            issues.append({"code":"CANONICAL_PROVENANCE_MISMATCH","kind":kind,"id":ident})
+
 aux=json.loads((out/"auxiliary.json").read_text())["records"]
 aux_paths={a["source"] for a in aux}
 missing_aux=[s["path"] for s in sources if s["status"]=="AUXILIARY_JSON_INDEXED" and s["path"] not in aux_paths]
