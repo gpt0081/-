@@ -1,1 +1,5973 @@
-{"schemaVersion":1,"sourceTreeSha":"0104b3c81d4a7015fd37aeec479beaeb4a403fbb","group":"data/politicians","files":[{"path":"data/politicians/INDEX.md","sha":"7391e98bc167c5cf034b37f7e0bbc82300bc5a8f","size":35093,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/id-aliases-pass244.json","sha":"2453f58723dcbc0520f68444624e0ac9062667af","size":652,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-229-1952-cabinet-economy-trial.json","sha":"9eee35cf3883d598a9843351178176efe699bcfe","size":20360,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-229b-1952-cabinet-oversight.json","sha":"b705043e16837f2842d54a8290c5babc68adf19a","size":42649,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-229d-1952-local-justice-actors.json","sha":"f4135e7058643bac110f18b5f658260076191c07","size":17727,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-231-1952-election-accountability.json","sha":"264b66a47bd4e84d99c0948027e4c563596ca4e1","size":23536,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-232-1952-september-actors.json","sha":"d1f4e25cf25bf313ee1d58edb555d04d30449608","size":45650,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-233-1952-rok-diplomacy-network.json","sha":"b1937fd34b50a9e3d9ad9998b045d216eb92907c","size":22471,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-233-addendum-1952-domestic-actors.json","sha":"b161559bcd67d85e69c13b24f8a34a2be71a6227","size":16732,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-233-dec1-unkra-liaisons.json","sha":"0c2b25b922280f82424130eaec4477630e67db7f","size":2287,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-234-1952-dec-legislative-actors.json","sha":"8e5537eb9f44b5580aee4579bb024ca789e5770b","size":7043,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-234-addendum-1952-dec-actors.json","sha":"1a0a21074465e594895451f94013291bb515f6d8","size":3756,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-235-1953-assembly-cabinet-actors.json","sha":"4a9ffc0dc01d112329b44fe41e9d7fb422ed453d","size":12996,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-235-addendum-b-culture-speaker-minister.json","sha":"62d7f5a70cafe7ffe114d564e0dfaacf6ed94bef","size":2999,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-235-addendum-c-jin-chung-lee.json","sha":"925971c9fb543e423f20d71ebff023c6413c8898","size":2457,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-235-addendum-e-committee-chairs.json","sha":"9d6131892330d9fa449e4db76b7001ba15e6feec","size":9973,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-235-addendum-i-bok-party.json","sha":"309ea644250a5ba976dfedd4ec14d44fcc03589f","size":7192,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-236-frus-diplomacy-actors.json","sha":"a67afe0c6a775d6abafd3d4744005f4e33d25605","size":7031,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-236-labor-actors.json","sha":"1c4c32ad5fd4ef5ca511171703b32a137733c059","size":3114,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-236e-party-actors.json","sha":"2047dde8d2cb1958d835f5663ca6cf771b33597c","size":3328,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-236f-correspondence-actors.json","sha":"9a5dc7b8221e0661d1b7f2b4b90b33633f9cbb73","size":4674,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-236g-march-april-actors.json","sha":"06169ed42269e54ad268cc0ff3e8bfd4045b29af","size":3356,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-236h-april-actors.json","sha":"1e435b0f514fbf2fe060dc81c5ffef64e1b4a3fc","size":3944,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-237-actor-overlays.json","sha":"05ce95b38b6cffd190539e1be04cebe7316a50e4","size":2520,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-237b-korean-actors.json","sha":"3450c1474b789bac7df883159f127f18aad5bfdd","size":2728,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-238-actor-overlays.json","sha":"18f44d40136b49d7392e3d61f165f426b535f129","size":6841,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-238c-korean-actors.json","sha":"d0984032c92f119b4c5f53dcfde681a0cc6ea2b1","size":5700,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-238e-candidates.json","sha":"e5f2af45b82a79b43383bccf602ea1cff6f040cf","size":5268,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-239-actors.json","sha":"d39081f1246f0659d7b0928ca17022b5a1a3ab13","size":5985,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-239b-actors.json","sha":"b276893068aae600bd38aaf35d4f09d905405885","size":917,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-239d-actors.json","sha":"5d5ca6d9243408a472bfdd56e094a82a6197f6c5","size":10100,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-239e-actors.json","sha":"45bd83e5efff9a7f827d846cefb87b51419e3e62","size":19275,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-239f-labor-actors.json","sha":"9d6e4d8fac7eb3460aa2d7aeb4f3350d95f7ef22","size":2237,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-239g-actors.json","sha":"ee408699eaa353f5b6a2d57b416bbefd8b081c31","size":2739,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-239h-july1953-actors.json","sha":"173bd330b409e5daff7b7fe0a9c7a7c6c7617d44","size":3875,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-239i-postarmistice-actors.json","sha":"fd6b1fef25bbb01a6b434c8da94edee5560567e2","size":4008,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-239j-1954-diplomacy-economy-actors.json","sha":"09713265cda9f2d1a24fa5feb1b868671c513b1c","size":9586,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-239k-1955-actors.json","sha":"69e7bb18b9697e1d3983457a39ac704c6514f578","size":16879,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-239k2-1955-second-half-actors.json","sha":"f9f40e1cf1ce1a0df26bf6b4334608c911860e00","size":7932,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-239l-1956-actors.json","sha":"fbe74dc6275a48538a1a399d3d0221b729f982e0","size":14497,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-239l2-1955-cabinet-election-actors.json","sha":"63a8fab5d0a4cd713ee2c3072f2b476585817873","size":16558,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-239m-1954-constitutional-actors.json","sha":"b435e8097b821abe9c2788e91ce743c34787f1db","size":11419,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-239m2-constitutional-speakers-and-signers.json","sha":"ca117c4264be4d5321ac44557b9c63143c46c73f","size":12272,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-239m3-1954-economic-parliament-actors.json","sha":"2866ce106f281f8a8a91526ca91d71856fa0f725","size":17540,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-240-1955-policy-actors.json","sha":"236e64716434b7cfaed167e90ce9716a94e953be","size":12261,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-241-1956-57-actors.json","sha":"23ee240f7cbee74227461c7407188cf7b4215639","size":14338,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-242-1957-actors.json","sha":"2b4249671a40d285e28c89254b71ca307fb8aa86","size":13696,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-243-1958-actor-evidence.json","sha":"763dd74ae265e2ab30f92cc9d9584a229c29ddbd","size":16152,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-244-1959-1960-actors.json","sha":"5c7005bbf02537df2952da18997b40d743df9df6","size":17247,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-244g-1960-drafting-actors.json","sha":"c3ac78de367a557cc2445b870a9f9efecfca7029","size":3840,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-245-gazette-ministers.json","sha":"1f826e4f229c65ff68519db057586b3a824d0f15","size":13249,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-246-1956-1960-actor-deepening.json","sha":"36210d6c7dbc536721dcbbda96a7433bdc9f62a4","size":6611,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-247-1960-party-network.json","sha":"4065d99ca7322b9297f2309c3d5abb6c3981aa10","size":5407,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-247b-succession-and-administration.json","sha":"7c4dc6d3af3602cbe57b73cdba9eebd2d372a3b0","size":959,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-247c-june1960-original-actors.json","sha":"be293b46c4e5a41fceac6d4ef685f1cde6c8d54e","size":2416,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-247d-assembly-actors.json","sha":"3e6599771217ca9fd80cecae290a51433210d35c","size":1953,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-247e-1960-legislative-actors.json","sha":"195c2849ebc2b106638f38372acad22259df1d54","size":7805,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-248-1960-election-actors.json","sha":"b7a7014b5f45bd6187ba1c54ef1428fc87b18eaf","size":10803,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-249-civil-rights-actors.json","sha":"5e191b2a93a26bc5267eeb45570c80e05718764a","size":23709,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-250-1952-actors.json","sha":"d968693600c28f2f5943e31091604c367dcb019b","size":1920,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-251-1952-candidate-evidence.json","sha":"ad948d756a2b8cefa579969bd627cd4a49b2fab1","size":16914,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-252-1952-aug20-27-actors.json","sha":"7e9e2f2b327dd688b52361f40a8d57038d106153","size":15119,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-252b-1952-aug26-30-actors.json","sha":"047b3551aa5a083d337ce89142af2858bfc59011","size":11843,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-252c-1952-aug31-actors.json","sha":"b0e23c65011828f6961c600612a86d66d058597c","size":1698,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-255-actor-overlay.json","sha":"68fdabcf638573a800b81b6663c95dda78177932","size":3839,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-255b-actor-overlay.json","sha":"1f4cf1e3134de9a154ac20fed0ccb86433ed9804","size":7619,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-255f-actor-overlay.json","sha":"9de24dbf270ae6e4c01dedf2445ae98d722af721","size":5399,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-255g-actor-overlay.json","sha":"ad709614fd8afd52ff4c45fac5ae97d387a56968","size":4832,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-255h-actor-overlay.json","sha":"38008997f511dace74e2b5800cdfe876d9c72600","size":7153,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-256-actor-evidence-overlay.json","sha":"2f4d30360c3dd86d99e0092630c4bd39ddad4286","size":20229,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-257-1953-party-policing-evidence.json","sha":"4ef8bae4c30502b0c25338cc92da52dfcc3791b8","size":15635,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-257j-actor-evidence.json","sha":"ede55bcafc2fe3fa38e3cc48d1281558f3ed4848","size":4046,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-257k-labor-institution-actors.json","sha":"91a1d7b80cdb2941249be1d8b8a747ab5b115a8c","size":2554,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-257m-finance-public-claims.json","sha":"011410b8fed3f7d6cc3986586f098cc2318b4256","size":2124,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-257n-1953-finance-legislators.json","sha":"d7afc897b42043cc3d73a1bd6bd46b047347975a","size":17881,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-257o-1953-1954-identity-audit.json","sha":"618278497bb9e887eacf088c9d26dcd3df40c8ca","size":4305,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-257o2-1954-election-diplomatic-actor-overlay.json","sha":"9a8006b8115ec3588e803b3a510096c5e96baaf4","size":10527,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-257o4-parliamentary-cabinet-actors.json","sha":"4147a14c117239845ff8df88800c7b3cbddc98ae","size":3103,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-257p-unkra-housing-local-actors.json","sha":"516c37fef17dd9edd1915ff76527165b261088d2","size":2443,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-257q-1954-cabinet-actors.json","sha":"5293b43559f29885dc26c0107c189ef7c968d0b6","size":14496,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-257r-1954-election-governance-actors.json","sha":"e2aa72bd4819f5351425c41227ef97de1fac5eb0","size":15711,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-257s-1954-visit-nnsc-actors.json","sha":"7aa1b5df172cf0f5c356f87f23b9666de4509403","size":11841,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-257v-1954-education-election-actors.json","sha":"6e00c937c60340470f47619102edd38001a7bfef","size":8938,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-257v-1955-daegu-local-party-actors.json","sha":"8e7d5ff2975d16a1b811a17ae1df1bee9a51c615","size":2655,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-257v2-park-gi-un.json","sha":"2234cbb4f260537ec0fed60aa9f8da36f6152169","size":1617,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-257w-1954-election-geneva-actors.json","sha":"a5ee1a637f25b3eb721ba25a5ddd2b59a54d1896","size":3447,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-257w3-uncurk-1954-cabinet-assembly-roster.json","sha":"1b0245b141149fb4c0c815495c5d95a1316083a0","size":15678,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-258a-1954-actor-actions.json","sha":"93cca5fdcddb783471325e8a4d10cdabfcc5890f","size":15005,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-258b-1954-rhee-aid-proposal.json","sha":"e38870de13f90f111672dbc2283cb0e38743a68f","size":1620,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-258b-paik-rhee-ceb-1954.json","sha":"ada603f35540f87ea229002db937232945e6f3f1","size":2926,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-258e-1956-domestic-actors.json","sha":"94eb77c4f31597661582476855052feeb3c5d866","size":8515,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass-258f-1956-election-actor-overlay.json","sha":"22f75f8e7786928ee44cfb7c4683eb7f9fa274c3","size":12335,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass303-politicians.json","sha":"867cd8f28eceeb7d5f7aafa9f873e91baec07182","size":4352,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/pass318-rhee-network.json","sha":"f058dbaa6abc0259511755823e975e5b49288c15","size":6013,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/run11b-1960-crisis-network.json","sha":"43d4ca3b7960361c18960d6ff599c2d88c32206f","size":2766,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/run24-education-actor-candidates.json","sha":"87474b21c5ae9bd3d1fec2f9164e954c363ef118","size":4762,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/run25-education-finance-legislators.json","sha":"366f29dee98e344175169982648489479610196b","size":5421,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/run81-land-actors.json","sha":"d8deb8835f4f03365b26064bc836b133320e48b9","size":6948,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/run88-busan-actors.json","sha":"976bd99ce22232c5141bbb48d59a6463a72b1b84","size":661,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/run88-health-actors.json","sha":"231defc67027371cf659bf0b8b30fac91db936cb","size":1724,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/run88-kim-su-seon.json","sha":"eb198774e7663c88c29f164465ca56be863ff77d","size":366,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/run88-lee-yeong-jun-annals.json","sha":"43acef82919d8043027ac8b9b64d8cd4b7651e25","size":331,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/run88-local-actors-a.json","sha":"dfe3164daf83f04ec68907205a8b5b668cae052a","size":1447,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"},{"path":"data/politicians/run88-who-1948-observer.json","sha":"6d0ffa08e3b26656fcfd0abb72ba8b324ae6ca34","size":312,"registryState":"SOURCE_CATALOGUED_NOT_SEMANTICALLY_MERGED"}],"count":104}
+{
+  "schemaVersion": 2,
+  "sourceTreeSha": "58ea5d18e1b142a631127a25d7d59cf93e5750d8",
+  "sourceSnapshotCommit": "e2d528b73bed55037ffbb525a623c11ffc98049b",
+  "group": "data/politicians",
+  "count": 109,
+  "statusCounts": {
+    "NON_JSON_PRESERVED": 1,
+    "BLOCKED_ID_CONFLICT": 93,
+    "UNMAPPED_AUXILIARY_OR_PARTIAL": 4,
+    "INDEXED_NOT_CANONICAL_VERIFIED": 11
+  },
+  "files": [
+    {
+      "path": "data/politicians/INDEX.md",
+      "sha": "a795261ebffde8dd15a4a9b806cda5f578c0fe09",
+      "sha256": "aca076039d4454872cf2a342c9a1f66087f8fc4df5c43a9061164f8caf09dd5d",
+      "size": 35669,
+      "registryState": "NON_JSON_PRESERVED",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0
+      },
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/frus-1952-september-264-269-candidates.json",
+      "sha": "7e8e29c15894ba898bd53fbebbb4abfd3fc8b073",
+      "sha256": "c05ef95efde31397ad833e4a9bcc5cd526868129aea22ff0952b680ba2629ee2",
+      "size": 2530,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 2,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "candidate-lim-byung-jik",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "candidate-yang-yu-chan",
+          "variantCount": 2
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/id-aliases-pass244.json",
+      "sha": "2453f58723dcbc0520f68444624e0ac9062667af",
+      "sha256": "951bd583647f6aad365815a841110d3af98cde9fb319dcf3a1c22c02ba6ed7da",
+      "size": 652,
+      "registryState": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0
+      },
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/politicians/pass-229-1952-cabinet-economy-trial.json",
+      "sha": "9eee35cf3883d598a9843351178176efe699bcfe",
+      "sha256": "6f63416c7f7ad970e616d91a361cc031b9f165b03a492d7355230c613ad705c0",
+      "size": 20360,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 14,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-chang-taek-sang-1952",
+          "variantCount": 9
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-kim-si-hyeon-1952",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-jang-seok-yun",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-lee-beom-seok",
+          "variantCount": 13
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-paik-too-chin",
+          "variantCount": 46
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-seo-sang-il",
+          "variantCount": 6
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-229b-1952-cabinet-oversight.json",
+      "sha": "b705043e16837f2842d54a8290c5babc68adf19a",
+      "sha256": "bd2d8507d98b773b0e72d80ec545775330feaa6f866747b2559cd55a71ac1d7b",
+      "size": 42649,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 25,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-1952-cabinet-lee-kyo-seon",
+          "variantCount": 4
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-minister-lee-yun-yeong",
+          "variantCount": 7
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-pyun-yong-tae",
+          "variantCount": 28
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-229d-1952-local-justice-actors.json",
+      "sha": "f4135e7058643bac110f18b5f658260076191c07",
+      "sha256": "6c0c0c477aabc46624529ee5a3139a3d496f36477b90a03c7621500839b3b1bf",
+      "size": 17727,
+      "registryState": "INDEXED_NOT_CANONICAL_VERIFIED",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 17,
+        "organizations": 0
+      },
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-231-1952-election-accountability.json",
+      "sha": "264b66a47bd4e84d99c0948027e4c563596ca4e1",
+      "sha256": "73f56f183ddc4f8335e34a5e1f1d2da9c6fa32c3d78da6da72f6fd0cc3c3ced1",
+      "size": 23536,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 14,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-1952-mp-lee-seok-gi",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-presidential-lee-si-yeong",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-presidential-shin-heung-u",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-speaker-shin-ik-hui",
+          "variantCount": 17
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-vice-ham-tae-yeong",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-vice-jeong-gi-won",
+          "variantCount": 2
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-232-1952-september-actors.json",
+      "sha": "d1f4e25cf25bf313ee1d58edb555d04d30449608",
+      "sha256": "0ccc9adc77e2ee82c8e91ce47a7031ac55f4ba21bc6c0581fa264dd7750af66b",
+      "size": 45650,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 24,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-1952-cabinet-lee-kyo-seon",
+          "variantCount": 4
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-minister-lee-yun-yeong",
+          "variantCount": 7
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-sep-agri-shin-jung-mok",
+          "variantCount": 12
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-sep-interior-jin-heon-sik",
+          "variantCount": 8
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-sep-us-ambassador-yang-yu-chan",
+          "variantCount": 23
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-sep-women-party-im-yeong-sin",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-sep-yun-chi-yeong",
+          "variantCount": 11
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-speaker-shin-ik-hui",
+          "variantCount": 17
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-vice-jeong-gi-won",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-chang-taek-sang-1952",
+          "variantCount": 9
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-cho-bong-am",
+          "variantCount": 26
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-paik-too-chin",
+          "variantCount": 46
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-pyun-yong-tae",
+          "variantCount": 28
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-sohn-won-yil",
+          "variantCount": 20
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-233-1952-rok-diplomacy-network.json",
+      "sha": "b1937fd34b50a9e3d9ad9998b045d216eb92907c",
+      "sha256": "b284fafa4a76a4ee6a92f59ff7206a8a083068e64502570a9b1536429e23b2d3",
+      "size": 22471,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 13,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-1952-nov-chang-myon",
+          "variantCount": 10
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-nov-chong-il-kwon",
+          "variantCount": 12
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-nov-kim-yong-sik",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-nov-yi-chong-chan",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-oct-ham-sang-hun",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-sep-us-ambassador-yang-yu-chan",
+          "variantCount": 23
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-chang-taek-sang-1952",
+          "variantCount": 9
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-cho-bong-am",
+          "variantCount": 26
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-lim-byong-jik",
+          "variantCount": 12
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-paik-too-chin",
+          "variantCount": 46
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-pyun-yong-tae",
+          "variantCount": 28
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-rhee-syngman",
+          "variantCount": 32
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-shin-sung-mo",
+          "variantCount": 8
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-233-addendum-1952-domestic-actors.json",
+      "sha": "b161559bcd67d85e69c13b24f8a34a2be71a6227",
+      "sha256": "3d9f18762be8052119d30e6c351da075fbbdab50fcdff448fbe2a651379f9dcf",
+      "size": 16732,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 12,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-1952-minister-lee-yun-yeong",
+          "variantCount": 7
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-nov-bae-eun-hui",
+          "variantCount": 6
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-nov-kim-yong-sik",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-nov-lee-gap-seong",
+          "variantCount": 8
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-oct-cho-byeong-ok",
+          "variantCount": 10
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-oct-ham-sang-hun",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-oct-yun-jae-uk",
+          "variantCount": 4
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-sep-agri-shin-jung-mok",
+          "variantCount": 12
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-sep-us-ambassador-yang-yu-chan",
+          "variantCount": 23
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-lim-byong-jik",
+          "variantCount": 12
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-paik-too-chin",
+          "variantCount": 46
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-233-dec1-unkra-liaisons.json",
+      "sha": "0c2b25b922280f82424130eaec4477630e67db7f",
+      "sha256": "5ff8546f23f17fd9ee9ad052317174862840a5b6f50c171c8e54aa8d3ef8039d",
+      "size": 2287,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 2,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-1952-dec-won-yong-seok",
+          "variantCount": 2
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-234-1952-dec-legislative-actors.json",
+      "sha": "8e5537eb9f44b5580aee4579bb024ca789e5770b",
+      "sha256": "e375eee50b15e341eddedb1547bc91df26fd9e9656c8fc7b0f756dd0f17713ee",
+      "size": 7043,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 5,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "pol-eom-sang-seop",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-im-heung-sun",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-jeong-jae-wan",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-oh-wi-yeong",
+          "variantCount": 3
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-234-addendum-1952-dec-actors.json",
+      "sha": "1a0a21074465e594895451f94013291bb515f6d8",
+      "sha256": "928c04fbba95afdc152a0a68ed4b66eeae49c2008a3ebe0437e7fb2197e73a76",
+      "size": 3756,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 6,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-1952-dec-yun-myeong-un",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-sep-interior-jin-heon-sik",
+          "variantCount": 8
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-sep-yun-chi-yeong",
+          "variantCount": 11
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-lim-byong-jik",
+          "variantCount": 12
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-paik-too-chin",
+          "variantCount": 46
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-yi-ki-pung",
+          "variantCount": 26
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-235-1953-assembly-cabinet-actors.json",
+      "sha": "4a9ffc0dc01d112329b44fe41e9d7fb422ed453d",
+      "sha256": "9750cded8e4c09a96c634a4d2be3e4d4533124fe2b8ec99d2c1632c6ef499d07",
+      "size": 12996,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 15,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-1952-dec-yun-myeong-un",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p235-jung-il-hyung",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p235-kim-jong-sun",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p235-kim-ui-jun",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p235-kwak-sang-hun",
+          "variantCount": 13
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p235-park-jung-geun",
+          "variantCount": 4
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p235-park-man-won",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p235-yun-gil-jung",
+          "variantCount": 6
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-choi-yong-duk",
+          "variantCount": 4
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-im-heung-sun",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-oh-wi-yeong",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-paik-sun-yup",
+          "variantCount": 19
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-paik-too-chin",
+          "variantCount": 46
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-235-addendum-b-culture-speaker-minister.json",
+      "sha": "62d7f5a70cafe7ffe114d564e0dfaacf6ed94bef",
+      "sha256": "b33ebe96cc5a642d8c7de9a3b424c60775c96399bddf31a196d3e4a0c5e442cd",
+      "size": 2999,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 4,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-1952-speaker-shin-ik-hui",
+          "variantCount": 17
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-lee-beom-seok",
+          "variantCount": 13
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-235-addendum-c-jin-chung-lee.json",
+      "sha": "925971c9fb543e423f20d71ebff023c6413c8898",
+      "sha256": "1331858b624531df445c5cf93051d61ef0253ae633e0aaa3a9a81bf4a7f13af3",
+      "size": 2457,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 3,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-1952-nov-chong-il-kwon",
+          "variantCount": 12
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-sep-interior-jin-heon-sik",
+          "variantCount": 8
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p235c-lee-hyung-keun",
+          "variantCount": 6
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-235-addendum-e-committee-chairs.json",
+      "sha": "9d6131892330d9fa449e4db76b7001ba15e6feec",
+      "sha256": "d1fb41edfdfbe2244244f3e3d233371ec9001e086ca71339c50ff260da54ca08",
+      "size": 9973,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 12,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-p235e-hwang-seong-su",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p235e-kim-seok-gwan",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p235e-kim-yong-woo",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p235e-lee-jong-hyung",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p235e-oh-seong-hwan",
+          "variantCount": 2
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-235-addendum-i-bok-party.json",
+      "sha": "309ea644250a5ba976dfedd4ec14d44fcc03589f",
+      "sha256": "ba08edd5483446442582124ddfa52132eacfe567beac3440c142c7fae9742441",
+      "size": 7192,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 9,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-p235i-jo-ju-yeong",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p235i-kim-yu-taek",
+          "variantCount": 6
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p235i-lee-jae-hak",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p235i-park-yeong-chul",
+          "variantCount": 5
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p235i-song-bang-yong",
+          "variantCount": 4
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-236-frus-diplomacy-actors.json",
+      "sha": "a67afe0c6a775d6abafd3d4744005f4e33d25605",
+      "sha256": "ac654124eac9a42d3c2098cc562ae218d254fb53837a60ce9910aa63079820ed",
+      "size": 7031,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 8,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-1952-sep-us-ambassador-yang-yu-chan",
+          "variantCount": 23
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-speaker-shin-ik-hui",
+          "variantCount": 17
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-chang-taek-sang-1952",
+          "variantCount": 9
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p236-han-pyo-wook",
+          "variantCount": 10
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p236-park-sul-eum",
+          "variantCount": 6
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-lim-byong-jik",
+          "variantCount": 12
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-paik-too-chin",
+          "variantCount": 46
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-pyun-yong-tae",
+          "variantCount": 28
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-236-labor-actors.json",
+      "sha": "1c4c32ad5fd4ef5ca511171703b32a137733c059",
+      "sha256": "456b32cb90192a475d35806e80744145b4a355ab769c11b987e0fbd5fab9191a",
+      "size": 3114,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 3,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-1952-speaker-shin-ik-hui",
+          "variantCount": 17
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p236-park-sul-eum",
+          "variantCount": 6
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-paik-too-chin",
+          "variantCount": 46
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-236e-party-actors.json",
+      "sha": "2047dde8d2cb1958d835f5663ca6cf771b33597c",
+      "sha256": "4ef0bc41b975d1ebe035918e3f1b6edbe174a12b46f7658844dd22b654ee6306",
+      "size": 3328,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 3,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-chang-taek-sang-1952",
+          "variantCount": 9
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p236e-yang-woo-jeong",
+          "variantCount": 2
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-236f-correspondence-actors.json",
+      "sha": "9a5dc7b8221e0661d1b7f2b4b90b33633f9cbb73",
+      "sha256": "5fff4a96f61076cb96d4789e96e7d7cbff7460fe9ebd63243b5353fadd296b60",
+      "size": 4674,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 6,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-1952-sep-us-ambassador-yang-yu-chan",
+          "variantCount": 23
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p236-han-pyo-wook",
+          "variantCount": 10
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-lim-byong-jik",
+          "variantCount": 12
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-paik-sun-yup",
+          "variantCount": 19
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-paik-too-chin",
+          "variantCount": 46
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-pyun-yong-tae",
+          "variantCount": 28
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-236g-march-april-actors.json",
+      "sha": "06169ed42269e54ad268cc0ff3e8bfd4045b29af",
+      "sha256": "0c893698cffa60f9789621dbc6293fa53697924a9720db3ff28e0c43dd25e34c",
+      "size": 3356,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 5,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-1952-nov-kim-yong-sik",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-sep-us-ambassador-yang-yu-chan",
+          "variantCount": 23
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p236-han-pyo-wook",
+          "variantCount": 10
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-lim-byong-jik",
+          "variantCount": 12
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-paik-too-chin",
+          "variantCount": 46
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-236h-april-actors.json",
+      "sha": "1e435b0f514fbf2fe060dc81c5ffef64e1b4a3fc",
+      "sha256": "ab959f27fbe8ccd2946dbb2419c178e088cc961ffb40c518b299b088fd65e5f5",
+      "size": 3944,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 6,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-1952-sep-us-ambassador-yang-yu-chan",
+          "variantCount": 23
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p236-han-pyo-wook",
+          "variantCount": 10
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p236h-shin-tae-young",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-lim-byong-jik",
+          "variantCount": 12
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-paik-too-chin",
+          "variantCount": 46
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-pyun-yong-tae",
+          "variantCount": 28
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-237-actor-overlays.json",
+      "sha": "05ce95b38b6cffd190539e1be04cebe7316a50e4",
+      "sha256": "24253384956d049d60e6c77ce704cda0384f4868086bbd7ca7b67c80e1611fc6",
+      "size": 2520,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 3,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-1952-sep-us-ambassador-yang-yu-chan",
+          "variantCount": 23
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-pyun-yong-tae",
+          "variantCount": 28
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-rhee-syngman",
+          "variantCount": 32
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-237b-korean-actors.json",
+      "sha": "3450c1474b789bac7df883159f127f18aad5bfdd",
+      "sha256": "31cf6c653f141c3bdf968fa922d46ae1ea8463fc4b4f38b7760a3b00616cc16d",
+      "size": 2728,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 3,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-1952-sep-agri-shin-jung-mok",
+          "variantCount": 12
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-paik-too-chin",
+          "variantCount": 46
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-rhee-syngman",
+          "variantCount": 32
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-238-actor-overlays.json",
+      "sha": "18f44d40136b49d7392e3d61f165f426b535f129",
+      "sha256": "dbdc716e72550144a36256bca56c6192568c438c0419a676332444aee4a3ec11",
+      "size": 6841,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 9,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-1952-sep-us-ambassador-yang-yu-chan",
+          "variantCount": 23
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-sep-yun-chi-yeong",
+          "variantCount": 11
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p236-han-pyo-wook",
+          "variantCount": 10
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-choi-duk-shin",
+          "variantCount": 12
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-lim-byong-jik",
+          "variantCount": 12
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-paik-sun-yup",
+          "variantCount": 19
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-paik-too-chin",
+          "variantCount": 46
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-pyun-yong-tae",
+          "variantCount": 28
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-238c-korean-actors.json",
+      "sha": "d0984032c92f119b4c5f53dcfde681a0cc6ea2b1",
+      "sha256": "0e86d2182332648708504d7654a6b1d2fa1201215ae01385f6ecec51cfb43ecd",
+      "size": 5700,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 6,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-1952-sep-yun-chi-yeong",
+          "variantCount": 11
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p238-baek-nam-sik",
+          "variantCount": 4
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p238-kim-jong-hoe",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-choi-duk-shin",
+          "variantCount": 12
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-238e-candidates.json",
+      "sha": "e5f2af45b82a79b43383bccf602ea1cff6f040cf",
+      "sha256": "9213a6ba092b236508a2f287762f71d201d5d3c50abcc67243b8b8da880a0d48",
+      "size": 5268,
+      "registryState": "INDEXED_NOT_CANONICAL_VERIFIED",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 4,
+        "organizations": 0
+      },
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-239-actors.json",
+      "sha": "d39081f1246f0659d7b0928ca17022b5a1a3ab13",
+      "sha256": "1769160598cb5acddffdeb0003cae80ad485969e8e8d1b0a99ce98c0ccf5384e",
+      "size": 5985,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 16,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-1952-dec-yun-myeong-un",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-nov-bae-eun-hui",
+          "variantCount": 6
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-sep-agri-shin-jung-mok",
+          "variantCount": 12
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-sep-yun-chi-yeong",
+          "variantCount": 11
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-vice-ham-tae-yeong",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p235-kwak-sang-hun",
+          "variantCount": 13
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p235i-park-yeong-chul",
+          "variantCount": 5
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239-so-seon-gyu",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239-yu-jae-heung",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-cho-bong-am",
+          "variantCount": 26
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-paik-sun-yup",
+          "variantCount": 19
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-pyun-yong-tae",
+          "variantCount": 28
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-239b-actors.json",
+      "sha": "b276893068aae600bd38aaf35d4f09d905405885",
+      "sha256": "d2c771993fea038b9cea5e3c9c5a01788ee7bd0aa623fb63630cfd356efbb3cf",
+      "size": 917,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 7,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-1952-sep-agri-shin-jung-mok",
+          "variantCount": 12
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-sep-us-ambassador-yang-yu-chan",
+          "variantCount": 23
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-choi-duk-shin",
+          "variantCount": 12
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-kim-bop-rin",
+          "variantCount": 8
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-pyun-yong-tae",
+          "variantCount": 28
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-rhee-syngman",
+          "variantCount": 32
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-yu-wan-chang",
+          "variantCount": 6
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-239d-actors.json",
+      "sha": "5d5ca6d9243408a472bfdd56e094a82a6197f6c5",
+      "sha256": "e8c06ceba19e6c96533c8a89e02a6c2b4577f8ed7796c49964e09e7c01470365",
+      "size": 10100,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 10,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-1952-oct-cho-byeong-ok",
+          "variantCount": 10
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-sep-interior-jin-heon-sik",
+          "variantCount": 8
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-sep-us-ambassador-yang-yu-chan",
+          "variantCount": 23
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p236h-shin-tae-young",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-kim-bop-rin",
+          "variantCount": 8
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-paik-sun-yup",
+          "variantCount": 19
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-paik-too-chin",
+          "variantCount": 46
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-pyun-yong-tae",
+          "variantCount": 28
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-sohn-won-yil",
+          "variantCount": 20
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-won-yong-duk",
+          "variantCount": 15
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-239e-actors.json",
+      "sha": "45bd83e5efff9a7f827d846cefb87b51419e3e62",
+      "sha256": "6052e066e3a2fadc03b3d40e647d78716d5cdac2c3000912e3a23adef4b6e30d",
+      "size": 19275,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 16,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-1952-cabinet-lee-kyo-seon",
+          "variantCount": 4
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-oct-cho-byeong-ok",
+          "variantCount": 10
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-sep-agri-shin-jung-mok",
+          "variantCount": 12
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-sep-yun-chi-yeong",
+          "variantCount": 11
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p235e-lee-jong-hyung",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p235e-oh-seong-hwan",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p235i-jo-ju-yeong",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p236-park-sul-eum",
+          "variantCount": 6
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p238-baek-nam-sik",
+          "variantCount": 4
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239e-gal-hong-gi",
+          "variantCount": 5
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239e-kim-jun-yeon",
+          "variantCount": 4
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239e-kim-tae-seon",
+          "variantCount": 5
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239e-lee-chung-hwan",
+          "variantCount": 4
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-239f-labor-actors.json",
+      "sha": "9d6e4d8fac7eb3460aa2d7aeb4f3350d95f7ef22",
+      "sha256": "5c1c6f326e76f0eb685538f9b3bfde8f4bee9bfa99258542cb34ced622fbb0da",
+      "size": 2237,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 2,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-p236-park-sul-eum",
+          "variantCount": 6
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-paik-too-chin",
+          "variantCount": 46
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-239g-actors.json",
+      "sha": "ee408699eaa353f5b6a2d57b416bbefd8b081c31",
+      "sha256": "faa0b02de605729b25f924000124a30d34f1e2396b628b93a674ad6d11eeabe6",
+      "size": 2739,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 2,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-1952-sep-agri-shin-jung-mok",
+          "variantCount": 12
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-sep-interior-jin-heon-sik",
+          "variantCount": 8
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-239h-july1953-actors.json",
+      "sha": "173bd330b409e5daff7b7fe0a9c7a7c6c7617d44",
+      "sha256": "7456556ff8145b027f4e00851e42e974a227f84291366d55e65615b4b402d610",
+      "size": 3875,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 6,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-1952-sep-agri-shin-jung-mok",
+          "variantCount": 12
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239e-gal-hong-gi",
+          "variantCount": 5
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-choi-duk-shin",
+          "variantCount": 12
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-paik-too-chin",
+          "variantCount": 46
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-pyun-yong-tae",
+          "variantCount": 28
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-sohn-won-yil",
+          "variantCount": 20
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-239i-postarmistice-actors.json",
+      "sha": "fd6b1fef25bbb01a6b434c8da94edee5560567e2",
+      "sha256": "10c854a9f5202c010f56021d44014e0f6523c078bb8485bb548b80d01b2ae8d8",
+      "size": 4008,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 11,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-1952-sep-agri-shin-jung-mok",
+          "variantCount": 12
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-sep-us-ambassador-yang-yu-chan",
+          "variantCount": 23
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-cho-chung-whan",
+          "variantCount": 12
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-choi-yong-duk",
+          "variantCount": 4
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-kim-bop-rin",
+          "variantCount": 8
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-lim-byong-jik",
+          "variantCount": 12
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-paik-sun-yup",
+          "variantCount": 19
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-paik-too-chin",
+          "variantCount": 46
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-park-ok-kyu",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-pyun-yong-tae",
+          "variantCount": 28
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-sohn-won-yil",
+          "variantCount": 20
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-239j-1954-diplomacy-economy-actors.json",
+      "sha": "09713265cda9f2d1a24fa5feb1b868671c513b1c",
+      "sha256": "28000e7e80fecaf446dc1557144f116bd77c790a4edee7c1b3b2fb8c6395d815",
+      "size": 9586,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 14,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-1952-nov-chong-il-kwon",
+          "variantCount": 12
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-sep-us-ambassador-yang-yu-chan",
+          "variantCount": 23
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p235i-kim-yu-taek",
+          "variantCount": 6
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239j-1954-choe-sun-chu",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-cho-chung-whan",
+          "variantCount": 12
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-choi-duk-shin",
+          "variantCount": 12
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-lee-beom-seok",
+          "variantCount": 13
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-lim-byong-jik",
+          "variantCount": 12
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-paik-too-chin",
+          "variantCount": 46
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-pyun-yong-tae",
+          "variantCount": 28
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-rhee-syngman",
+          "variantCount": 32
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-sohn-won-yil",
+          "variantCount": 20
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-won-yong-duk",
+          "variantCount": 15
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-239k-1955-actors.json",
+      "sha": "69e7bb18b9697e1d3983457a39ac704c6514f578",
+      "sha256": "354863e27fd9999e8a875d27a26ae9331acc56b805f46192c74f7fb0a384427c",
+      "size": 16879,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 20,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-1952-nov-chong-il-kwon",
+          "variantCount": 12
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-sep-us-ambassador-yang-yu-chan",
+          "variantCount": 23
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-speaker-shin-ik-hui",
+          "variantCount": 17
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p235-kwak-sang-hun",
+          "variantCount": 13
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239k-choi-kyoo-ok",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239k-kang-commerce",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239k-kim-yong-chan",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239k-lee-sun-kun",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239k-minister-han",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-cho-bong-am",
+          "variantCount": 26
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-paik-too-chin",
+          "variantCount": 46
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-pyun-yong-tae",
+          "variantCount": 28
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-sohn-won-yil",
+          "variantCount": 20
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-yi-ki-pung",
+          "variantCount": 26
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-yu-wan-chang",
+          "variantCount": 6
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-239k2-1955-second-half-actors.json",
+      "sha": "f9f40e1cf1ce1a0df26bf6b4334608c911860e00",
+      "sha256": "5e5bebe1fb8c28edcf308d67fbf01755770735295320b7329778ef8b4d4c8c89",
+      "size": 7932,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 12,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-1952-nov-chong-il-kwon",
+          "variantCount": 12
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-sep-us-ambassador-yang-yu-chan",
+          "variantCount": 23
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p235c-lee-hyung-keun",
+          "variantCount": 6
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239k-kang-commerce",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239k-minister-han",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-cho-chung-whan",
+          "variantCount": 12
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-paik-too-chin",
+          "variantCount": 46
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-pyun-yong-tae",
+          "variantCount": 28
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-yi-ki-pung",
+          "variantCount": 26
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-yu-wan-chang",
+          "variantCount": 6
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-239l-1956-actors.json",
+      "sha": "fbe74dc6275a48538a1a399d3d0221b729f982e0",
+      "sha256": "6614032375ec1729a206926a954ec1ab74c5ec7b8e8fcd5f50335316c0694b0d",
+      "size": 14497,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 17,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-1952-nov-chang-myon",
+          "variantCount": 10
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-nov-chong-il-kwon",
+          "variantCount": 12
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-speaker-shin-ik-hui",
+          "variantCount": 17
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p235-yun-gil-jung",
+          "variantCount": 6
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p235c-lee-hyung-keun",
+          "variantCount": 6
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p235e-kim-yong-woo",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239l-in-tae-sik",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239l-kim-hyeon-cheol",
+          "variantCount": 6
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239l-park-gi-chul",
+          "variantCount": 4
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-cho-bong-am",
+          "variantCount": 26
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-cho-chung-whan",
+          "variantCount": 12
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-paik-too-chin",
+          "variantCount": 46
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-rhee-syngman",
+          "variantCount": 32
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-sohn-won-yil",
+          "variantCount": 20
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-yi-ki-pung",
+          "variantCount": 26
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-239l2-1955-cabinet-election-actors.json",
+      "sha": "63a8fab5d0a4cd713ee2c3072f2b476585817873",
+      "sha256": "d24fae6b13fdbd9d90c82dc33e0f77f2561300fe17bea911648cd830dd915803",
+      "size": 16558,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 22,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-1952-minister-lee-yun-yeong",
+          "variantCount": 7
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-sep-yun-chi-yeong",
+          "variantCount": 11
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239l-kim-hyeon-cheol",
+          "variantCount": 6
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239l-park-gi-chul",
+          "variantCount": 4
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239l2-cho-yong-soon",
+          "variantCount": 4
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239l2-choi-jai-yoo",
+          "variantCount": 4
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239l2-im-chui-ho",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239l2-kang-sung-tae",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239l2-lee-jong-lim",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239l2-lee-jong-tae",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239l2-lee-joong-jai",
+          "variantCount": 4
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239l2-lee-sun-keun",
+          "variantCount": 5
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239l2-paik-han-sung",
+          "variantCount": 4
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239l2-paik-seong-uk",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-cho-chung-whan",
+          "variantCount": 12
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-lee-beom-seok",
+          "variantCount": 13
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-pyun-yong-tae",
+          "variantCount": 28
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-seo-sang-il",
+          "variantCount": 6
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-yi-ki-pung",
+          "variantCount": 26
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-yu-wan-chang",
+          "variantCount": 6
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-239m-1954-constitutional-actors.json",
+      "sha": "b435e8097b821abe9c2788e91ce743c34787f1db",
+      "sha256": "fbdb30b662ae1aad61226defa65d766d75b5a0319fbc63e2fd214194025674a6",
+      "size": 11419,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 16,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-p235-kwak-sang-hun",
+          "variantCount": 13
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p235i-park-yeong-chul",
+          "variantCount": 5
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p235i-song-bang-yong",
+          "variantCount": 4
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239e-gal-hong-gi",
+          "variantCount": 5
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239j-1954-choe-sun-chu",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239k-choi-kyoo-ok",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239l2-cho-yong-soon",
+          "variantCount": 4
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239l2-choi-jai-yoo",
+          "variantCount": 4
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239l2-lee-joong-jai",
+          "variantCount": 4
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239l2-paik-han-sung",
+          "variantCount": 4
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239m-lee-cheol-seung",
+          "variantCount": 4
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239m-yu-sun-sik",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-yi-ki-pung",
+          "variantCount": 26
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-239m2-constitutional-speakers-and-signers.json",
+      "sha": "ca117c4264be4d5321ac44557b9c63143c46c73f",
+      "sha256": "0aaaf923585f27fa1a81f8ae621e906eba45055c3b0fe22bb821200b3757bd03",
+      "size": 12272,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 15,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-p235e-hwang-seong-su",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p235i-lee-jae-hak",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p238-baek-nam-sik",
+          "variantCount": 4
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239m-lee-cheol-seung",
+          "variantCount": 4
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239m-yu-sun-sik",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239m2-cho-jae-cheon",
+          "variantCount": 4
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239m2-cho-yeong-gyu",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239m2-hyun-seok-ho",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239m2-jang-gyeong-geun",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239m2-kim-sang-don",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239m2-min-yeong-nam",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-kim-youngsam",
+          "variantCount": 2
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-239m3-1954-economic-parliament-actors.json",
+      "sha": "2866ce106f281f8a8a91526ca91d71856fa0f725",
+      "sha256": "9676316814e2b53ef69ed3570f8d2a52c7a2f69a16fd794700206fe17e092cb9",
+      "size": 17540,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 23,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-1952-sep-yun-chi-yeong",
+          "variantCount": 11
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-speaker-shin-ik-hui",
+          "variantCount": 17
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p235-kwak-sang-hun",
+          "variantCount": 13
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p235e-hwang-seong-su",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p235i-park-yeong-chul",
+          "variantCount": 5
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p235i-song-bang-yong",
+          "variantCount": 4
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239e-kim-jun-yeon",
+          "variantCount": 4
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239m2-jang-gyeong-geun",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239m2-min-yeong-nam",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239m3-an-yong-dae",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239m3-jeon-jin-han",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239m3-lee-in",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239m3-park-man-won",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239m3-seo-beom-seok",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-cho-bong-am",
+          "variantCount": 26
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-eom-sang-seop",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-paik-too-chin",
+          "variantCount": 46
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-240-1955-policy-actors.json",
+      "sha": "236e64716434b7cfaed167e90ce9716a94e953be",
+      "sha256": "d44e07a98a921826edbb15f42f944ce4c97d9e0573ffbdba6f021ae220ee3815",
+      "size": 12261,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 13,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-1952-nov-chong-il-kwon",
+          "variantCount": 12
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-sep-us-ambassador-yang-yu-chan",
+          "variantCount": 23
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p235c-lee-hyung-keun",
+          "variantCount": 6
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p235i-kim-yu-taek",
+          "variantCount": 6
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239e-gal-hong-gi",
+          "variantCount": 5
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239k-kim-yong-chan",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-cho-chung-whan",
+          "variantCount": 12
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-paik-too-chin",
+          "variantCount": 46
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-pyun-yong-tae",
+          "variantCount": 28
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-sohn-won-yil",
+          "variantCount": 20
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-yi-ki-pung",
+          "variantCount": 26
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-yu-wan-chang",
+          "variantCount": 6
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-241-1956-57-actors.json",
+      "sha": "23ee240f7cbee74227461c7407188cf7b4215639",
+      "sha256": "2ab1db49a49b613e093b7cd79d085bd2f34e89b3e47a688dd9ea5b6b4ecf363d",
+      "size": 14338,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 17,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-1952-nov-chang-myon",
+          "variantCount": 10
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-nov-chong-il-kwon",
+          "variantCount": 12
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-oct-cho-byeong-ok",
+          "variantCount": 10
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p235-kwak-sang-hun",
+          "variantCount": 13
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p235c-lee-hyung-keun",
+          "variantCount": 6
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p236-han-pyo-wook",
+          "variantCount": 10
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239l-kim-hyeon-cheol",
+          "variantCount": 6
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p241-kim-su-seon",
+          "variantCount": 4
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p241-kim-yong-u-defense-1956",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p241-shin-do-seong",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-cho-bong-am",
+          "variantCount": 26
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-cho-chung-whan",
+          "variantCount": 12
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-lee-beom-seok",
+          "variantCount": 13
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-paik-sun-yup",
+          "variantCount": 19
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-sohn-won-yil",
+          "variantCount": 20
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-yi-ki-pung",
+          "variantCount": 26
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-242-1957-actors.json",
+      "sha": "2b4249671a40d285e28c89254b71ca307fb8aa86",
+      "sha256": "6b5ba3d312cb5d56b0a24e198c54f18f4559968b534378ba8dc999ef549f855d",
+      "size": 13696,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 16,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-1952-nov-chang-myon",
+          "variantCount": 10
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-oct-cho-byeong-ok",
+          "variantCount": 10
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-sep-us-ambassador-yang-yu-chan",
+          "variantCount": 23
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p235-yun-gil-jung",
+          "variantCount": 6
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239-yu-jae-heung",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239l-kim-hyeon-cheol",
+          "variantCount": 6
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p242-kim-jeong-ryeol",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-chang-taek-sang",
+          "variantCount": 7
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-cho-bong-am",
+          "variantCount": 26
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-cho-chung-whan",
+          "variantCount": 12
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-paik-sun-yup",
+          "variantCount": 19
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-song-in-sang",
+          "variantCount": 7
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-yi-ki-pung",
+          "variantCount": 26
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-243-1958-actor-evidence.json",
+      "sha": "763dd74ae265e2ab30f92cc9d9584a229c29ddbd",
+      "sha256": "507ceceec15dfb596e8789540b45227cc8a26eb4a95ad2e95e11df53c5cb7e53",
+      "size": 16152,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 14,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-1952-nov-chang-myon",
+          "variantCount": 10
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-oct-cho-byeong-ok",
+          "variantCount": 10
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-sep-us-ambassador-yang-yu-chan",
+          "variantCount": 23
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239-yu-jae-heung",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239l-kim-hyeon-cheol",
+          "variantCount": 6
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239m2-cho-jae-cheon",
+          "variantCount": 4
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239m2-kim-sang-don",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p242-kim-jeong-ryeol",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-chang-taek-sang",
+          "variantCount": 7
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-cho-bong-am",
+          "variantCount": 26
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-han-hui-seok",
+          "variantCount": 7
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-paik-sun-yup",
+          "variantCount": 19
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-song-in-sang",
+          "variantCount": 7
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-yi-ki-pung",
+          "variantCount": 26
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-244-1959-1960-actors.json",
+      "sha": "5c7005bbf02537df2952da18997b40d743df9df6",
+      "sha256": "e99038807713e1fea201f733ab44e9ae34c3808b3a67c9f0bf8e4bd80ce40ad7",
+      "size": 17247,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 16,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-1952-nov-chang-myon",
+          "variantCount": 10
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-oct-cho-byeong-ok",
+          "variantCount": 10
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-sep-us-ambassador-yang-yu-chan",
+          "variantCount": 23
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p235-kim-ui-jun",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p235i-lee-jae-hak",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p236-han-pyo-wook",
+          "variantCount": 10
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p242-kim-jeong-ryeol",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p244-chu-yo-han",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-cho-chung-whan",
+          "variantCount": 12
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-han-hui-seok",
+          "variantCount": 7
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-yi-ki-pung",
+          "variantCount": 26
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-244g-1960-drafting-actors.json",
+      "sha": "c3ac78de367a557cc2445b870a9f9efecfca7029",
+      "sha256": "4ac96a712dfde041a4e6fef6c3a9344c292b92c3abaad531e54572fbbcb12379",
+      "size": 3840,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 4,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-p244g-jeong-heon-ju",
+          "variantCount": 2
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-245-gazette-ministers.json",
+      "sha": "1f826e4f229c65ff68519db057586b3a824d0f15",
+      "sha256": "4075a58bfca683bf6072c5f0bb1d8394b587faff0ea157a1f9386b7d74fd4eff",
+      "size": 13249,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 12,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-p245-jeon-ye-yong",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p245-kim-il-hwan",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p245-kim-seong-jin",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p245-kwon-seung-ryeol",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p245-lee-byeong-do",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p245-lee-hae-ik",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p245-lee-ho",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p245-oh-jeong-su",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p245-seok-sang-ok",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p245-yun-ho-byeong",
+          "variantCount": 2
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-246-1956-1960-actor-deepening.json",
+      "sha": "36210d6c7dbc536721dcbbda96a7433bdc9f62a4",
+      "sha256": "e7558bfa37612a9b254ada0874ec1defa27dd9ac43199017216f28b2b10a93d8",
+      "size": 6611,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 14,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-p245-jeon-ye-yong",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p245-kim-il-hwan",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p245-kim-seong-jin",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p245-kwon-seung-ryeol",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p245-lee-byeong-do",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p245-lee-hae-ik",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p245-lee-ho",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p245-oh-jeong-su",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p245-seok-sang-ok",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p245-yun-ho-byeong",
+          "variantCount": 2
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-247-1960-party-network.json",
+      "sha": "4065d99ca7322b9297f2309c3d5abb6c3981aa10",
+      "sha256": "f409b0c4157f84f468f3789234aab5e62af0a76833dd7f42b9a484f2d610d5f4",
+      "size": 5407,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 10,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-p235-yun-gil-jung",
+          "variantCount": 6
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239l-park-gi-chul",
+          "variantCount": 4
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239m3-jeon-jin-han",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p247-kim-dal-ho",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-seo-sang-il",
+          "variantCount": 6
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-247b-succession-and-administration.json",
+      "sha": "7c4dc6d3af3602cbe57b73cdba9eebd2d372a3b0",
+      "sha256": "254ff1537162dca520cebc112fe9fdf467da13ec8edba523451cc1360a2c5ebe",
+      "size": 959,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 2,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-p235-kwak-sang-hun",
+          "variantCount": 13
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p247b-baek-nak-jun",
+          "variantCount": 2
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-247c-june1960-original-actors.json",
+      "sha": "be293b46c4e5a41fceac6d4ef685f1cde6c8d54e",
+      "sha256": "4343995a5f3e341364dc63e08c3d9c47192c236a4304c27c0d9a714d9bf77537",
+      "size": 2416,
+      "registryState": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 5,
+        "organizations": 0
+      },
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/politicians/pass-247d-assembly-actors.json",
+      "sha": "3e6599771217ca9fd80cecae290a51433210d35c",
+      "sha256": "131f907b27f5d955908a33a59a842d3a45ccfa36d5d10387f6fd3327199514db",
+      "size": 1953,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 4,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-p247d-choi-gyu-nam",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p247d-ko-dam-ryong",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p247d-min-jang-sik",
+          "variantCount": 2
+        }
+      ],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/politicians/pass-247e-1960-legislative-actors.json",
+      "sha": "195c2849ebc2b106638f38372acad22259df1d54",
+      "sha256": "b1087745ac94dabe56ef7dcbcd14cb5385101be49a24dd49cc1aec42469a114c",
+      "size": 7805,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 19,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-1952-dec-won-yong-seok",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-nov-chang-myon",
+          "variantCount": 10
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p235-kwak-sang-hun",
+          "variantCount": 13
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239m-lee-cheol-seung",
+          "variantCount": 4
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239m2-cho-jae-cheon",
+          "variantCount": 4
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239m2-cho-yeong-gyu",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239m2-hyun-seok-ho",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p241-shin-do-seong",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p244-chu-yo-han",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p244g-jeong-heon-ju",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p247d-choi-gyu-nam",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p247d-ko-dam-ryong",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p247d-min-jang-sik",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-kim-do-yeon",
+          "variantCount": 3
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-248-1960-election-actors.json",
+      "sha": "b7a7014b5f45bd6187ba1c54ef1428fc87b18eaf",
+      "sha256": "8b9a341ad960a1930fed685c89621d8c4fc45b5994b949252df01c268cdebe70",
+      "size": 10803,
+      "registryState": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 7,
+        "organizations": 0
+      },
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/politicians/pass-249-civil-rights-actors.json",
+      "sha": "5e191b2a93a26bc5267eeb45570c80e05718764a",
+      "sha256": "a7c909e9517d1f60b79698e0d970151c7e85202bf0e049e4eaa761e9dea1ee84",
+      "size": 23709,
+      "registryState": "INDEXED_NOT_CANONICAL_VERIFIED",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 16,
+        "organizations": 0
+      },
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-250-1952-actors.json",
+      "sha": "d968693600c28f2f5943e31091604c367dcb019b",
+      "sha256": "fc04cb6c915819b2596554561b3f7201cb597dfaaece2c4af89762c8ded0ab55",
+      "size": 1920,
+      "registryState": "INDEXED_NOT_CANONICAL_VERIFIED",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 1,
+        "organizations": 0
+      },
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-251-1952-candidate-evidence.json",
+      "sha": "ad948d756a2b8cefa579969bd627cd4a49b2fab1",
+      "sha256": "1a10a311bd2209c15c98fbaf4ea42de8a2f8286ee62ecdc914fea1029ac3ad3c",
+      "size": 16914,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 13,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-1952-minister-lee-yun-yeong",
+          "variantCount": 7
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-nov-lee-gap-seong",
+          "variantCount": 8
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-oct-cho-byeong-ok",
+          "variantCount": 10
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-presidential-lee-si-yeong",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-presidential-shin-heung-u",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-sep-women-party-im-yeong-sin",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-vice-ham-tae-yeong",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239l2-paik-seong-uk",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239m3-jeon-jin-han",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-cho-bong-am",
+          "variantCount": 26
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-eom-sang-seop",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-jeong-jae-wan",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-oh-wi-yeong",
+          "variantCount": 3
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-252-1952-aug20-27-actors.json",
+      "sha": "7e9e2f2b327dd688b52361f40a8d57038d106153",
+      "sha256": "7d263dc3f86c4ae4f557d9720d150545c95af6a9e870e2a115b48764a1f1dbf1",
+      "size": 15119,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 18,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-1952-sep-us-ambassador-yang-yu-chan",
+          "variantCount": 23
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-sep-yun-chi-yeong",
+          "variantCount": 11
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-speaker-shin-ik-hui",
+          "variantCount": 17
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-chang-taek-sang-1952",
+          "variantCount": 9
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-kim-si-hyeon-1952",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p235-kwak-sang-hun",
+          "variantCount": 13
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p235-yun-gil-jung",
+          "variantCount": 6
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p235i-jo-ju-yeong",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p235i-kim-yu-taek",
+          "variantCount": 6
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p236-han-pyo-wook",
+          "variantCount": 10
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239-so-seon-gyu",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239e-kim-tae-seon",
+          "variantCount": 5
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239m3-park-man-won",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-paik-too-chin",
+          "variantCount": 46
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-rhee-syngman",
+          "variantCount": 32
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-seo-sang-il",
+          "variantCount": 6
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-shin-sung-mo",
+          "variantCount": 8
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-252b-1952-aug26-30-actors.json",
+      "sha": "047b3551aa5a083d337ce89142af2858bfc59011",
+      "sha256": "3f85c6ef733dcea57b32e8341cc3bdc59e9e2585d0de5f7d86fed98a572d64e9",
+      "size": 11843,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 16,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-1952-cabinet-lee-kyo-seon",
+          "variantCount": 4
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-mp-lee-seok-gi",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-sep-agri-shin-jung-mok",
+          "variantCount": 12
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-sep-interior-jin-heon-sik",
+          "variantCount": 8
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-chang-taek-sang-1952",
+          "variantCount": 9
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p235i-song-bang-yong",
+          "variantCount": 4
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p236e-yang-woo-jeong",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p236h-shin-tae-young",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p238-baek-nam-sik",
+          "variantCount": 4
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239-so-seon-gyu",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239e-kim-tae-seon",
+          "variantCount": 5
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239e-lee-chung-hwan",
+          "variantCount": 4
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p252b-lee-jin-su",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-paik-too-chin",
+          "variantCount": 46
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-rhee-syngman",
+          "variantCount": 32
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-252c-1952-aug31-actors.json",
+      "sha": "b0e23c65011828f6961c600612a86d66d058597c",
+      "sha256": "3bb1d0536db3038d30be0e7bd2b052317297088498aab5067bb12917977acff3",
+      "size": 1698,
+      "registryState": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 2,
+        "organizations": 0
+      },
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/politicians/pass-255-actor-overlay.json",
+      "sha": "68fdabcf638573a800b81b6663c95dda78177932",
+      "sha256": "41f66da4f69fa5480e2c50736001af5c090abcd38484ed2e08ae13c288c32935",
+      "size": 3839,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 3,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-1952-nov-lee-gap-seong",
+          "variantCount": 8
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-oct-yun-jae-uk",
+          "variantCount": 4
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-255b-actor-overlay.json",
+      "sha": "1f4cf1e3134de9a154ac20fed0ccb86433ed9804",
+      "sha256": "d33b0578ba23eeda74c69bd576b61226cf1527c7a9d7fa6e4b8ddff8c831786c",
+      "size": 7619,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 5,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-p255b-kim-bong-jae",
+          "variantCount": 2
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-255f-actor-overlay.json",
+      "sha": "9de24dbf270ae6e4c01dedf2445ae98d722af721",
+      "sha256": "ed697eb83f04f792589b93805518e9171ddd35a6d141d9e40f5c23d2c21da5d2",
+      "size": 5399,
+      "registryState": "INDEXED_NOT_CANONICAL_VERIFIED",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 4,
+        "organizations": 0
+      },
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-255g-actor-overlay.json",
+      "sha": "ad709614fd8afd52ff4c45fac5ae97d387a56968",
+      "sha256": "35394d3bd474c0a4a112a063f65587c218051ea1d4499fb40ddbcf568b5aa99f",
+      "size": 4832,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 5,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-p255g-kang-in-taek",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p255g-park-hyeon-suk",
+          "variantCount": 3
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-255h-actor-overlay.json",
+      "sha": "38008997f511dace74e2b5800cdfe876d9c72600",
+      "sha256": "7609ae4452d3931605bb26204215b20116d8478c08a268603f6e182f7333493c",
+      "size": 7153,
+      "registryState": "INDEXED_NOT_CANONICAL_VERIFIED",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 2,
+        "organizations": 0
+      },
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-256-actor-evidence-overlay.json",
+      "sha": "2f4d30360c3dd86d99e0092630c4bd39ddad4286",
+      "sha256": "cd9a3f2fa918c8ccaa2387fb5676e7cb5371a5be48c7eef4bd88c1add2f35b8c",
+      "size": 20229,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 10,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-1952-minister-lee-yun-yeong",
+          "variantCount": 7
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-nov-chang-myon",
+          "variantCount": 10
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-nov-chong-il-kwon",
+          "variantCount": 12
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-nov-lee-gap-seong",
+          "variantCount": 8
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-nov-yi-chong-chan",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-chang-taek-sang-1952",
+          "variantCount": 9
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-cho-bong-am",
+          "variantCount": 26
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-pyun-yong-tae",
+          "variantCount": 28
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-rhee-syngman",
+          "variantCount": 32
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-shin-sung-mo",
+          "variantCount": 8
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-257-1953-party-policing-evidence.json",
+      "sha": "4ef8bae4c30502b0c25338cc92da52dfcc3791b8",
+      "sha256": "e8da69b206c3d1711e260c0bf924e378cf7037f518feb3a7049bcc00b3b3a553",
+      "size": 15635,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 14,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-1952-nov-bae-eun-hui",
+          "variantCount": 6
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-nov-lee-gap-seong",
+          "variantCount": 8
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-sep-agri-shin-jung-mok",
+          "variantCount": 12
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-sep-interior-jin-heon-sik",
+          "variantCount": 8
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p235e-kim-seok-gwan",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-rhee-syngman",
+          "variantCount": 32
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-257j-actor-evidence.json",
+      "sha": "ede55bcafc2fe3fa38e3cc48d1281558f3ed4848",
+      "sha256": "95fd19d6db7ca6c8a842a030f487103c6706fa26a491c61deb26014d75718692",
+      "size": 4046,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 3,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-p235i-kim-yu-taek",
+          "variantCount": 6
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-paik-too-chin",
+          "variantCount": 46
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-rhee-syngman",
+          "variantCount": 32
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-257k-labor-institution-actors.json",
+      "sha": "91a1d7b80cdb2941249be1d8b8a747ab5b115a8c",
+      "sha256": "14e7f419b0b76e486d85cca7d709c8561ff8c09b1d8f469b630e761dae26636b",
+      "size": 2554,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 3,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-1952-speaker-shin-ik-hui",
+          "variantCount": 17
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p236-park-sul-eum",
+          "variantCount": 6
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-paik-too-chin",
+          "variantCount": 46
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-257m-finance-public-claims.json",
+      "sha": "011410b8fed3f7d6cc3986586f098cc2318b4256",
+      "sha256": "8cc9b8b45b143da9e4e572204b7f2154b0cbb38c824d71c9e33593f8c53756a9",
+      "size": 2124,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 3,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-p235i-kim-yu-taek",
+          "variantCount": 6
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-paik-too-chin",
+          "variantCount": 46
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-rhee-syngman",
+          "variantCount": 32
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-257n-1953-finance-legislators.json",
+      "sha": "d7afc897b42043cc3d73a1bd6bd46b047347975a",
+      "sha256": "9e1ccca9199742aa8d1e7c776602927bd84d4c552aba3c89603a88188437565e",
+      "size": 17881,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 17,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-1952-speaker-shin-ik-hui",
+          "variantCount": 17
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p235-park-jung-geun",
+          "variantCount": 4
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p235-yun-gil-jung",
+          "variantCount": 6
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p235e-kim-yong-woo",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p235e-lee-jong-hyung",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p238-kim-jong-hoe",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239e-lee-chung-hwan",
+          "variantCount": 4
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239m3-an-yong-dae",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239m3-seo-beom-seok",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p247b-baek-nak-jun",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p252b-lee-jin-su",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p255b-kim-bong-jae",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p257n-kwon-jung-don",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-chang-taek-sang",
+          "variantCount": 7
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-paik-too-chin",
+          "variantCount": 46
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-257o-1953-1954-identity-audit.json",
+      "sha": "618278497bb9e887eacf088c9d26dcd3df40c8ca",
+      "sha256": "77279430220950e73c932008ea0edd5560089c6890ba0b4055f6e1a8baac6e69",
+      "size": 4305,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 5,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-1952-speaker-shin-ik-hui",
+          "variantCount": 17
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p235-park-jung-geun",
+          "variantCount": 4
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239e-lee-chung-hwan",
+          "variantCount": 4
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p257n-kwon-jung-don",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-chang-taek-sang",
+          "variantCount": 7
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-257o2-1954-election-diplomatic-actor-overlay.json",
+      "sha": "9a8006b8115ec3588e803b3a510096c5e96baaf4",
+      "sha256": "95842b0093fb2a02ddaabdea5568aefffa9fe67fb3213e06b1527b3bbfb73fa1",
+      "size": 10527,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 10,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-1952-nov-bae-eun-hui",
+          "variantCount": 6
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-nov-lee-gap-seong",
+          "variantCount": 8
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-oct-cho-byeong-ok",
+          "variantCount": 10
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-oct-yun-jae-uk",
+          "variantCount": 4
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-speaker-shin-ik-hui",
+          "variantCount": 17
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239e-kim-jun-yeon",
+          "variantCount": 4
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p241-kim-su-seon",
+          "variantCount": 4
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-chang-taek-sang",
+          "variantCount": 7
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-lee-beom-seok",
+          "variantCount": 13
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-yi-ki-pung",
+          "variantCount": 26
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-257o4-parliamentary-cabinet-actors.json",
+      "sha": "4147a14c117239845ff8df88800c7b3cbddc98ae",
+      "sha256": "a417f1389df9248b26eea10dafb09ed4cb4054b3afac11e0d74be6b2079ae39f",
+      "size": 3103,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 4,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-p235-kwak-sang-hun",
+          "variantCount": 13
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-paik-too-chin",
+          "variantCount": 46
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-pyun-yong-tae",
+          "variantCount": 28
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-257p-unkra-housing-local-actors.json",
+      "sha": "516c37fef17dd9edd1915ff76527165b261088d2",
+      "sha256": "2f3c9db7341e2f143a2c01c8f42bd7a5f4fddc48608f6d2be41ee5b0c148300a",
+      "size": 2443,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 3,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-p239e-kim-tae-seon",
+          "variantCount": 5
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-paik-too-chin",
+          "variantCount": 46
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-rhee-syngman",
+          "variantCount": 32
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-257q-1954-cabinet-actors.json",
+      "sha": "5293b43559f29885dc26c0107c189ef7c968d0b6",
+      "sha256": "b81f54e5850021c9b8c27f9aab8596d9e1778ece134f772f0824cd132419966a",
+      "size": 14496,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 22,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-1952-sep-justice-seo-sang-hwan",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-sep-us-ambassador-yang-yu-chan",
+          "variantCount": 23
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p236-park-sul-eum",
+          "variantCount": 6
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239k-choi-kyoo-ok",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239l2-cho-yong-soon",
+          "variantCount": 4
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239l2-choi-jai-yoo",
+          "variantCount": 4
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239l2-kang-sung-tae",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239l2-lee-jong-lim",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239l2-lee-joong-jai",
+          "variantCount": 4
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239l2-lee-sun-keun",
+          "variantCount": 5
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239l2-paik-han-sung",
+          "variantCount": 4
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p255g-kang-in-taek",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p255g-park-hyeon-suk",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p257q-ahn-dong-hyeok",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p257q-lee-gwang",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p257q-yang-seong-bong",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-kim-bop-rin",
+          "variantCount": 8
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-paik-too-chin",
+          "variantCount": 46
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-pyun-yong-tae",
+          "variantCount": 28
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-sohn-won-yil",
+          "variantCount": 20
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-257r-1954-election-governance-actors.json",
+      "sha": "e2aa72bd4819f5351425c41227ef97de1fac5eb0",
+      "sha256": "2d41f6ec2c4b07a0f0301024d596bc6819e5617e85bfb70fc3c6dcf3015b8054",
+      "size": 15711,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 16,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-1952-sep-yun-chi-yeong",
+          "variantCount": 11
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-speaker-shin-ik-hui",
+          "variantCount": 17
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p235-jung-il-hyung",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p235-kwak-sang-hun",
+          "variantCount": 13
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p235-park-man-won",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239m-lee-cheol-seung",
+          "variantCount": 4
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239m2-cho-jae-cheon",
+          "variantCount": 4
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239m3-lee-in",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p247-kim-dal-ho",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-kim-bop-rin",
+          "variantCount": 8
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-kim-do-yeon",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-kim-youngsam",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-yi-ki-pung",
+          "variantCount": 26
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-257s-1954-visit-nnsc-actors.json",
+      "sha": "7aa1b5df172cf0f5c356f87f23b9666de4509403",
+      "sha256": "03f7328b2e418b40112d2a6de2aa690535903621e9891dadc6bf9b9b5f9febe0",
+      "size": 11841,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 11,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-1952-nov-chong-il-kwon",
+          "variantCount": 12
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-sep-us-ambassador-yang-yu-chan",
+          "variantCount": 23
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p236-han-pyo-wook",
+          "variantCount": 10
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p257s-choi-sun-ju-1954",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-cho-chung-whan",
+          "variantCount": 12
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-choi-duk-shin",
+          "variantCount": 12
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-choi-yong-duk",
+          "variantCount": 4
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-paik-too-chin",
+          "variantCount": 46
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-pyun-yong-tae",
+          "variantCount": 28
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-sohn-won-yil",
+          "variantCount": 20
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-won-yong-duk",
+          "variantCount": 15
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-257v-1954-education-election-actors.json",
+      "sha": "6e00c937c60340470f47619102edd38001a7bfef",
+      "sha256": "6fedf950c3eb5ba8215f998e30524a448fec01c84449ea75cd6ddcd73549fa6f",
+      "size": 8938,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 13,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-1952-nov-bae-eun-hui",
+          "variantCount": 6
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-nov-lee-gap-seong",
+          "variantCount": 8
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-oct-cho-byeong-ok",
+          "variantCount": 10
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-oct-yun-jae-uk",
+          "variantCount": 4
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-speaker-shin-ik-hui",
+          "variantCount": 17
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-chang-taek-sang-1952",
+          "variantCount": 9
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239e-gal-hong-gi",
+          "variantCount": 5
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239e-kim-jun-yeon",
+          "variantCount": 4
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239k-lee-sun-kun",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239l2-lee-sun-keun",
+          "variantCount": 5
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p241-kim-su-seon",
+          "variantCount": 4
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-kim-bop-rin",
+          "variantCount": 8
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-yi-ki-pung",
+          "variantCount": 26
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-257v-1955-daegu-local-party-actors.json",
+      "sha": "8e7d5ff2975d16a1b811a17ae1df1bee9a51c615",
+      "sha256": "ad6ba69e25fcca25e00e26cd95414d6e3f35be36da684806571e78848d95c27e",
+      "size": 2655,
+      "registryState": "INDEXED_NOT_CANONICAL_VERIFIED",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 2,
+        "organizations": 0
+      },
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-257v2-park-gi-un.json",
+      "sha": "2234cbb4f260537ec0fed60aa9f8da36f6152169",
+      "sha256": "238e07c280fa868f0fc9f7f37a3aceaf2aa1c272ae8451bda77fe4eaf8279bd8",
+      "size": 1617,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 1,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-p257v-park-gi-un",
+          "variantCount": 2
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-257w-1954-election-geneva-actors.json",
+      "sha": "a5ee1a637f25b3eb721ba25a5ddd2b59a54d1896",
+      "sha256": "afaf3690ebb1fb4b7a5ba5678892233089064a6e4fca4c44807d6c70be38336d",
+      "size": 3447,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 4,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-p239l2-im-chui-ho",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239l2-lee-sun-keun",
+          "variantCount": 5
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-pyun-yong-tae",
+          "variantCount": 28
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-257w3-uncurk-1954-cabinet-assembly-roster.json",
+      "sha": "1b0245b141149fb4c0c815495c5d95a1316083a0",
+      "sha256": "df05ed83ace0f2de3471c5bc356fdcfcf44283e446d0afd55daf855b603b051f",
+      "size": 15678,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 22,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-1952-sep-justice-seo-sang-hwan",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p235-kwak-sang-hun",
+          "variantCount": 13
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239l2-cho-yong-soon",
+          "variantCount": 4
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239l2-choi-jai-yoo",
+          "variantCount": 4
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239l2-kang-sung-tae",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239l2-lee-jong-lim",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239l2-lee-joong-jai",
+          "variantCount": 4
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239l2-lee-sun-keun",
+          "variantCount": 5
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239l2-paik-han-sung",
+          "variantCount": 4
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p255g-kang-in-taek",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p255g-park-hyeon-suk",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p257q-ahn-dong-hyeok",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p257q-lee-gwang",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p257q-yang-seong-bong",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p257s-choi-sun-ju-1954",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-kim-bop-rin",
+          "variantCount": 8
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-paik-too-chin",
+          "variantCount": 46
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-pyun-yong-tae",
+          "variantCount": 28
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-sohn-won-yil",
+          "variantCount": 20
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-yi-ki-pung",
+          "variantCount": 26
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-258a-1954-actor-actions.json",
+      "sha": "93cca5fdcddb783471325e8a4d10cdabfcc5890f",
+      "sha256": "d035cd3a1962fdfb551aabcea9f7f58dd419c268c4fec3e18aa69e7bdac68ad5",
+      "size": 15005,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 15,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-1952-nov-chong-il-kwon",
+          "variantCount": 12
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-sep-us-ambassador-yang-yu-chan",
+          "variantCount": 23
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p235-kwak-sang-hun",
+          "variantCount": 13
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p236-han-pyo-wook",
+          "variantCount": 10
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p241-kim-su-seon",
+          "variantCount": 4
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p257s-choi-sun-ju-1954",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p257v-park-gi-un",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-cho-chung-whan",
+          "variantCount": 12
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-choi-duk-shin",
+          "variantCount": 12
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-kim-bop-rin",
+          "variantCount": 8
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-paik-too-chin",
+          "variantCount": 46
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-pyun-yong-tae",
+          "variantCount": 28
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-sohn-won-yil",
+          "variantCount": 20
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-won-yong-duk",
+          "variantCount": 15
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-yi-ki-pung",
+          "variantCount": 26
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-258b-1954-rhee-aid-proposal.json",
+      "sha": "e38870de13f90f111672dbc2283cb0e38743a68f",
+      "sha256": "4ca3a7d79918152d84472802ec7585e11e0e6c838abe8f74a4420a175551b712",
+      "size": 1620,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 1,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "pol-rhee-syngman",
+          "variantCount": 32
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-258b-paik-rhee-ceb-1954.json",
+      "sha": "ada603f35540f87ea229002db937232945e6f3f1",
+      "sha256": "160735234a68e2055d7e65663b425ed600cedc3df3484ea6805df7a00604c964",
+      "size": 2926,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 2,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "pol-paik-too-chin",
+          "variantCount": 46
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-rhee-syngman",
+          "variantCount": 32
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-258e-1956-domestic-actors.json",
+      "sha": "94eb77c4f31597661582476855052feeb3c5d866",
+      "sha256": "d91d5bf3892546ffccb80d7256416ff800b64dbfd40baa07209851ffd8ca88a7",
+      "size": 8515,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 12,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-1952-nov-chang-myon",
+          "variantCount": 10
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-nov-chong-il-kwon",
+          "variantCount": 12
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-speaker-shin-ik-hui",
+          "variantCount": 17
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p235c-lee-hyung-keun",
+          "variantCount": 6
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239l-in-tae-sik",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239l-kim-hyeon-cheol",
+          "variantCount": 6
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p241-kim-yong-u-defense-1956",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-cho-bong-am",
+          "variantCount": 26
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-cho-chung-whan",
+          "variantCount": 12
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-paik-too-chin",
+          "variantCount": 46
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-sohn-won-yil",
+          "variantCount": 20
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-yi-ki-pung",
+          "variantCount": 26
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass-258f-1956-election-actor-overlay.json",
+      "sha": "22f75f8e7786928ee44cfb7c4683eb7f9fa274c3",
+      "sha256": "7698dfbd8fade308dc747e957f1cae1632d4e0d21a3a41164e2802446007550c",
+      "size": 12335,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 11,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-1952-minister-lee-yun-yeong",
+          "variantCount": 7
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-nov-chang-myon",
+          "variantCount": 10
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-sep-yun-chi-yeong",
+          "variantCount": 11
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-1952-speaker-shin-ik-hui",
+          "variantCount": 17
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239l-park-gi-chul",
+          "variantCount": 4
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239l2-lee-jong-tae",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-p239l2-paik-seong-uk",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-cho-bong-am",
+          "variantCount": 26
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-lee-beom-seok",
+          "variantCount": 13
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-seo-sang-il",
+          "variantCount": 6
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-yi-ki-pung",
+          "variantCount": 26
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass303-politicians.json",
+      "sha": "867cd8f28eceeb7d5f7aafa9f873e91baec07182",
+      "sha256": "0778a19d2449b0883abf9d215527a97e16f803916474c89ff361cbd7180d1812",
+      "size": 4352,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 4,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "pol-han-hui-seok",
+          "variantCount": 7
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-paek-tu-chin",
+          "variantCount": 17
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-pyun-yung-tai",
+          "variantCount": 23
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-won-yong-duk",
+          "variantCount": 15
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/pass318-rhee-network.json",
+      "sha": "f058dbaa6abc0259511755823e975e5b49288c15",
+      "sha256": "50f035aba2f422c44b65f897aac92bab0f26dbf5c851c63b71b9e195f831c29d",
+      "size": 6013,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 12,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "pol-cho-bong-am",
+          "variantCount": 26
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-hong-pom-hi",
+          "variantCount": 4
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-kim-tal-ho",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-lee-beom-seok",
+          "variantCount": 13
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-paek-tu-chin",
+          "variantCount": 17
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-paik-sun-yup",
+          "variantCount": 19
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-pyun-yong-tae",
+          "variantCount": 28
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-so-min-ho",
+          "variantCount": 6
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-won-yong-duk",
+          "variantCount": 15
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-yun-kyong-police",
+          "variantCount": 3
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/run11b-1960-crisis-network.json",
+      "sha": "43d4ca3b7960361c18960d6ff599c2d88c32206f",
+      "sha256": "f5d74902d3883cd6bdb1c7b7a4176005b08707a344d0254ccb38b8fbf41a06a6",
+      "size": 2766,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 5,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "pol-chang-myon",
+          "variantCount": 7
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-cho-pyong-ok",
+          "variantCount": 8
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-huh-chung",
+          "variantCount": 5
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-yang-you-chan",
+          "variantCount": 15
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-yi-ki-pung",
+          "variantCount": 26
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/run223-apr1952-actors.json",
+      "sha": "f2fcbd1ee110685782e185bb88d619b49ec704e7",
+      "sha256": "bfa04cb88f2043658363a1c6ec49f90a2e6ba58a6ab811267de414f7904fe824",
+      "size": 11652,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 10,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "pol-paik-sun-yup",
+          "variantCount": 19
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-r164-seo-min-ho",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-shin-tae-young",
+          "variantCount": 3
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/run224-may1952-actors.json",
+      "sha": "3cf716d2f48c3bf2884f3b88e362a8ff9c09cb04",
+      "sha256": "7c34d054b1e025e0ed4f938bb2492c0293a4b0994ddb0d7591438d3b513f6600",
+      "size": 20837,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 31,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-r174-jo-ju-yeong",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-r224-an-sang-han",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-r224-defection-seo-sang-deok",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-r224-jeong-sun-jo",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-r224-jo-byeong-mun-1952",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-r224-jo-sun-1952",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-r224-lee-chung-hwan-1952",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-r224-seo-sang-jun",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-r224-shin-gak-hyu",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-cho-bong-am",
+          "variantCount": 26
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-lim-byong-jik",
+          "variantCount": 12
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-paik-too-chin",
+          "variantCount": 46
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-pyun-yong-tae",
+          "variantCount": 28
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-r139-jang-taek-sang",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-r141-shin-ik-hui",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-r148-kwak-sang-hun",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-r164-ji-cheong-cheon",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-r164-seo-min-ho",
+          "variantCount": 3
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/run225-june1952-actors.json",
+      "sha": "b84e4b095df145efa537d2507862f415050f0a0e",
+      "sha256": "141ac5d15a18be92fb4f83fd4915c054183d3e266d29562a1704fc712c446218",
+      "size": 14221,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 14,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "cand-r174-jo-ju-yeong",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-cho-bong-am",
+          "variantCount": 26
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-lee-beom-seok",
+          "variantCount": 13
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-paik-too-chin",
+          "variantCount": 46
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-pyun-yong-tae",
+          "variantCount": 28
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-r139-jang-taek-sang",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-r141-shin-ik-hui",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-r148-kwak-sang-hun",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-r164-ji-cheong-cheon",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-r164-seo-min-ho",
+          "variantCount": 3
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/run24-education-actor-candidates.json",
+      "sha": "87474b21c5ae9bd3d1fec2f9164e954c363ef118",
+      "sha256": "096480517c41acc3dd09e3e7c6e7336e5ea8aed0b8d7ec4b49627a8934d91c33",
+      "size": 4762,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 9,
+        "organizations": 1
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "pol-an-ho-sang",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-kim-beop-rin",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-lee-yeong-jun",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-yun-chi-young",
+          "variantCount": 3
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/run25-education-finance-legislators.json",
+      "sha": "366f29dee98e344175169982648489479610196b",
+      "sha256": "190fe35bdb6c572e3a41d2bd600c933519786bab694556490ba9b6ea76838483",
+      "size": 5421,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 12,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "pol-lee-jae-hak",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-park-chan-hyeon",
+          "variantCount": 3
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/run330-kim-seong-su-central-links.json",
+      "sha": "c4d1db9a69f363784d790849b93bf9be739eabcc",
+      "sha256": "daae15997a05a0d526e57c38a3f2da2d059401b8092d9cbef8cfb907ac0d8f52",
+      "size": 1668,
+      "registryState": "INDEXED_NOT_CANONICAL_VERIFIED",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 1,
+        "organizations": 0
+      },
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/run81-land-actors.json",
+      "sha": "d8deb8835f4f03365b26064bc836b133320e48b9",
+      "sha256": "02b1809b8279df8711f7b556af06822c52a5486f7e38b2ca4d5a02784c9d87a6",
+      "size": 6948,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 12,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "pol-ahn-jae-hong",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-cho-gyu-gap",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-hong-hui-jong",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-hwang-du-yeon",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-kim-byong-ro",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-kim-cheol",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-kim-gyeong-do",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-lee-byeong-gwan",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-lee-seong-hak",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-park-sang-yeong",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-park-sun-seok",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-yun-chi-young",
+          "variantCount": 3
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/run88-busan-actors.json",
+      "sha": "976bd99ce22232c5141bbb48d59a6463a72b1b84",
+      "sha256": "6a0332454a15faae4adcf7482bccf653c1be8b76c296a6a93373aee6421548bc",
+      "size": 661,
+      "registryState": "INDEXED_NOT_CANONICAL_VERIFIED",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 2,
+        "organizations": 0
+      },
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/run88-health-actors.json",
+      "sha": "231defc67027371cf659bf0b8b30fac91db936cb",
+      "sha256": "3feb52d4d1fb44f7f2c27463d67cf178dd86c443d0e55d60ab9e95332af52c58",
+      "size": 1724,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 4,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "pol-lee-yeong-jun",
+          "variantCount": 3
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-park-chan-hyeon",
+          "variantCount": 3
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/run88-kim-su-seon.json",
+      "sha": "eb198774e7663c88c29f164465ca56be863ff77d",
+      "sha256": "5569acdacc2c915ef7389e2e9fb852cfcb8f7b0cc01b0f03c452d868f2a3a0a9",
+      "size": 366,
+      "registryState": "INDEXED_NOT_CANONICAL_VERIFIED",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 1,
+        "organizations": 0
+      },
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/run88-lee-yeong-jun-annals.json",
+      "sha": "43acef82919d8043027ac8b9b64d8cd4b7651e25",
+      "sha256": "5495de7e4f6a81d1b1ab142d9c2e985845e77c20ead1de278170475a9e10ff36",
+      "size": 331,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 1,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "pol-lee-yeong-jun",
+          "variantCount": 3
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/run88-local-actors-a.json",
+      "sha": "dfe3164daf83f04ec68907205a8b5b668cae052a",
+      "sha256": "b020efce57d7b38ec8073544da948371426c49814bfa130028c33218e904b302",
+      "size": 1447,
+      "registryState": "BLOCKED_ID_CONFLICT",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 4,
+        "organizations": 0
+      },
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "pol-kim-dong-won",
+          "variantCount": 2
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-na-yong-gyun",
+          "variantCount": 2
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/politicians/run88-who-1948-observer.json",
+      "sha": "6d0ffa08e3b26656fcfd0abb72ba8b324ae6ca34",
+      "sha256": "5d7c812e2e0f313e01696cd91dfcbda71fd557f2d975cc5506b12a2af98fa232",
+      "size": 312,
+      "registryState": "INDEXED_NOT_CANONICAL_VERIFIED",
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 1,
+        "organizations": 0
+      },
+      "conflicts": [],
+      "unintegratedReason": null
+    }
+  ]
+}
