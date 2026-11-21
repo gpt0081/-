@@ -28,7 +28,7 @@ def display_name(person):
 
 def is_root_politician(person):
     ident = rid(person)
-    return bool(ident and ident.startswith(("pol-", "cand-", "candidate-")) and display_name(person))
+    return bool(ident and ident.startswith(("pol-", "cand-", "candidate-", "cand172-")) and display_name(person))
 
 def policy_exclusion(person):
     ident = rid(person) or ""
@@ -267,7 +267,7 @@ for index, raw in enumerate(branch_snapshot_people):
         branch_snapshot_skipped.append({"pointer": f"/politicians/{index}", "reason": "NON_OBJECT_RECORD"})
         continue
     ident = rid(raw)
-    if not ident or not ident.startswith(("pol-", "cand-", "candidate-")) or not display_name(raw):
+    if not ident or not ident.startswith(("pol-", "cand-", "candidate-", "cand172-")) or not display_name(raw):
         branch_snapshot_skipped.append({"id": ident, "pointer": f"/politicians/{index}", "reason": "POLICY_EXCLUDED_OR_MISSING_NAME"})
         continue
     ref = {
@@ -286,16 +286,56 @@ for index, raw in enumerate(branch_snapshot_people):
         branch_snapshot_variant_refs.append(ident)
         continue
     person = copy.deepcopy(raw)
+    import_status = "IMPORTED_PENDING_ADJUDICATION"
+    if ident.startswith("cand172-"):
+        unresolved = {}
+        for field in ("evidenceDocumentIds", "eventIds"):
+            value = person.pop(field, None)
+            if isinstance(value, list) and value:
+                unresolved[field] = value
+        role_document_refs = {}
+        roles = person.get("roles", [])
+        for role_index, role in enumerate(roles if isinstance(roles, list) else []):
+            if not isinstance(role, dict):
+                continue
+            role_refs = role.pop("evidenceDocumentIds", None)
+            if isinstance(role_refs, list) and role_refs:
+                role_document_refs[str(role_index)] = role_refs
+            role["verificationStatus"] = "UNVERIFIED_PENDING_PRIMARY_SOURCE"
+        if role_document_refs:
+            unresolved["roleEvidenceDocumentIds"] = role_document_refs
+        missing_file_refs = {}
+        for field in ("evidenceFile", "annalsFile", "coverageFile", "openLeadsFile"):
+            value = person.get(field)
+            if isinstance(value, str) and not (ROOT / value).is_file():
+                missing_file_refs[field] = value
+                person.pop(field, None)
+        if missing_file_refs:
+            unresolved["missingFileReferences"] = missing_file_refs
+        if unresolved:
+            person["unresolvedSourceLinks"] = unresolved
+        person["researchStatus"] = "DISCOVERED"
+        person["researchMaturity"] = "DISCOVERED"
+        person["identityReviewStatus"] = "SOURCE_DOCUMENT_NOT_MATERIALIZED"
+        person["sourceEvidenceState"] = "BRANCH_SNAPSHOT_ONLY"
+        person["researchRefs"] = merge_list(person.get("researchRefs", []), [ref["sourcePath"]])
+        notes = person.setdefault("researchNotes", [])
+        if isinstance(notes, list):
+            notes.append({
+                "date": TODAY,
+                "note": "PR #74 snapshot only. Referenced UNTS/FRUS document and event IDs are not present in current central registries; role text remains unverified and no event attribution is promoted."
+            })
+        import_status = "IMPORTED_AS_DISCOVERED_CANDIDATE_PENDING_SOURCE_VALIDATION"
     person.setdefault("_integration", {})["branchSnapshotImport"] = {
         **ref,
-        "status": "IMPORTED_PENDING_ADJUDICATION",
+        "status": import_status,
         "identityPolicy": "NO_NAME_BASED_MERGE_OR_PROMOTION"
     }
     people.append(person)
     people_by_id[ident] = person
     branch_snapshot_added.append(ident)
     crosswalk.append({"id": ident, "name": display_name(person),
-        "status": "IMPORTED_FROM_PR74_BRANCH_SNAPSHOT_PENDING_ADJUDICATION",
+        "status": import_status,
         "sourcePaths": [ref["sourcePath"]], "sourcePointer": ref["sourcePointer"]})
 
 people.sort(key=lambda row: str(row.get("id", "")))
@@ -317,7 +357,12 @@ root_file_hashes = {
 }
 branch_snapshot_ids = {rid(row) for row in branch_snapshot_people if isinstance(row, dict) and rid(row)}
 branch_snapshot_missing = sorted(branch_snapshot_ids - root_person_ids)
-status = "PASS" if not (event_conflicts or person_conflicts or missing_events or missing_people or root_duplicates or branch_snapshot_missing or branch_snapshot_skipped) else "PARTIAL"
+branch_snapshot_unresolved = sorted(
+    p["id"] for p in people
+    if p.get("_integration", {}).get("branchSnapshotImport", {}).get("status")
+    == "IMPORTED_AS_DISCOVERED_CANDIDATE_PENDING_SOURCE_VALIDATION"
+)
+status = "PASS" if not (event_conflicts or person_conflicts or missing_events or missing_people or root_duplicates or branch_snapshot_missing or branch_snapshot_skipped or branch_snapshot_unresolved) else "PARTIAL"
 write_json(OUT / "root-sync-report.json", {
     "schemaVersion": 1, "generatedAt": TODAY, "centralSync": status,
     "eventSync": {"rootBefore": event_before, "canonicalMaterialized": len(canonical_event_ids), "added": event_added,
@@ -335,12 +380,14 @@ write_json(OUT / "root-sync-report.json", {
         "addedToRoot": len(branch_snapshot_added), "addedIds": sorted(branch_snapshot_added),
         "variantRefsAdded": len(branch_snapshot_variant_refs), "variantRefIds": sorted(set(branch_snapshot_variant_refs)),
         "skipped": branch_snapshot_skipped, "missingAfterSync": branch_snapshot_missing,
-        "status": "PASS" if not branch_snapshot_missing and not branch_snapshot_skipped else "PARTIAL"},
+        "unresolvedSourceLinkIds": branch_snapshot_unresolved,
+        "unresolvedSourceLinkCount": len(branch_snapshot_unresolved),
+        "status": "PASS" if not branch_snapshot_missing and not branch_snapshot_skipped and not branch_snapshot_unresolved else "PARTIAL"},
     "rootFileHashes": root_file_hashes,
     "rootFileCounts": {"events": len(root_events), "politicians": len(people)},
     "sourceIntegrationStatus": source_report.get("status"), "sourceConflictedIds": len(source_report.get("conflictingIds", [])),
     "sourceAuxiliaryRecords": source_report.get("auxiliaryRecords", 0),
-    "policy": "Only named pol-/cand- records enter the domestic politician root. PR #74 branch snapshot records are imported without identity promotion; shared variants retain source pointers. Typed note/status variants are preserved in fieldVariantHistory; unresolved scalar conflicts remain explicit."
+    "policy": "Named pol-/cand-/candidate- records enter the domestic politician root. The six cand172- legacy snapshot IDs are imported only as DISCOVERED candidates; unresolved document/event/file references are moved to unresolvedSourceLinks and role text is explicitly unverified. No name-based promotion or identity merge. Shared variants retain source pointers; typed variants and unresolved scalar conflicts remain explicit."
 })
 write_json(OUT / "politician-root-crosswalk.json", {"schemaVersion": 1, "generatedAt": TODAY,
     "policy": "Possible-same-as links are hypotheses, not identity merges.",

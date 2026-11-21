@@ -160,6 +160,52 @@ else:
             issues.append({"code":"OPERATIONAL_LINK_STATUS_MISMATCH","path":path,"status":status})
     if sum(links.get("layerCounts",{}).values())!=len(seen):
         issues.append({"code":"OPERATIONAL_LAYER_COUNT_MISMATCH"})
+    # The sidecar link file is an audit view; the canonical registry is the
+    # queryable central layer. Verify one stable record for every preserved file.
+    sidecar_file=canonical_root/"operational_layers.json"
+    if not sidecar_file.is_file():
+        issues.append({"code":"CANONICAL_OPERATIONAL_LAYER_REGISTRY_MISSING"})
+    else:
+        try:
+            sidecar=json.loads(sidecar_file.read_text(encoding="utf-8"))
+            sidecar_rows=sidecar.get("records",[])
+            link_by_source={r["source"]:r for r in links.get("linked",[])+links.get("unlinked",[])}
+            source_by_path={r["path"]:r for r in sources}
+            sidecar_seen=set()
+            sidecar_ids=set()
+            if not isinstance(sidecar_rows,list):
+                raise ValueError("records must be a list")
+            for row in sidecar_rows:
+                path=row.get("sourcePath")
+                ident=row.get("id")
+                if not isinstance(path,str) or path in sidecar_seen:
+                    issues.append({"code":"CANONICAL_OPERATIONAL_SOURCE_DUPLICATE_OR_INVALID","path":path})
+                    continue
+                sidecar_seen.add(path)
+                expected_id="sidecar-"+hashlib.sha256(path.encode("utf-8")).hexdigest()[:24]
+                if ident!=expected_id or ident in sidecar_ids:
+                    issues.append({"code":"CANONICAL_OPERATIONAL_ID_INVALID_OR_DUPLICATE","id":ident,"path":path})
+                sidecar_ids.add(ident)
+                source=source_by_path.get(path)
+                link=link_by_source.get(path)
+                if source is None or link is None:
+                    issues.append({"code":"CANONICAL_OPERATIONAL_SOURCE_UNKNOWN","path":path})
+                    continue
+                if row.get("sourceSha256")!=source.get("sha256") or row.get("sourceSha256")!=link.get("sha256"):
+                    issues.append({"code":"CANONICAL_OPERATIONAL_SOURCE_HASH_MISMATCH","path":path})
+                for field in ("layer","linkStatus","candidatePoliticianIds","relatedEventIds",
+                              "relatedDocumentIds","relatedClaimIds","relatedOrganizationIds","relatedRoleIds"):
+                    source_field={"linkStatus":"status"}.get(field,field)
+                    if row.get(field)!=link.get(source_field):
+                        issues.append({"code":"CANONICAL_OPERATIONAL_LINK_MISMATCH","path":path,"field":field})
+            if sidecar_seen!=set(link_by_source):
+                issues.append({"code":"CANONICAL_OPERATIONAL_SOURCE_SET_MISMATCH",
+                               "missing":sorted(set(link_by_source)-sidecar_seen)[:20],
+                               "extra":sorted(sidecar_seen-set(link_by_source))[:20]})
+            if sidecar.get("sourceCount")!=len(sidecar_rows) or sidecar.get("sourceCount")!=len(link_by_source):
+                issues.append({"code":"CANONICAL_OPERATIONAL_SOURCE_COUNT_MISMATCH"})
+        except (ValueError,KeyError,TypeError,UnicodeError) as exc:
+            issues.append({"code":"CANONICAL_OPERATIONAL_LAYER_REGISTRY_UNREADABLE","detail":str(exc)[:160]})
 # Crosswalk staging is not proof of canonical registration. Check every staged ID
 # and its declared source document before reporting central synchronization.
 crosswalk_gaps=[]

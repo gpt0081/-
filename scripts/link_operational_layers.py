@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Build explicit cross-layer links without filename- or name-based identity guesses."""
-import collections, json, pathlib, re
+import collections, hashlib, json, pathlib, re
 root=pathlib.Path(__file__).resolve().parents[1]
 data=root/"data"
 out=data/"integration"/"generated"
@@ -124,6 +124,47 @@ result={
     "linked":linked,
     "unlinked":unlinked
 }
+# Materialize every evidence/annals/coverage/lead/debt sidecar as a central
+# first-class source-pointer record. Unlinked items remain present with an explicit
+# NO_EXPLICIT_IDENTITY status; they are not dropped or assigned by filename.
+source_by_path = {row["path"]: row for row in source_index}
+canonical_records = []
+for row in linked + unlinked:
+    source_meta = source_by_path[row["source"]]
+    stable = "sidecar-" + hashlib.sha256(row["source"].encode("utf-8")).hexdigest()[:24]
+    canonical_records.append({
+        "id": stable,
+        "layer": row["layer"],
+        "sourcePath": row["source"],
+        "sourceSha256": row["sha256"],
+        "sourceBytes": source_meta.get("bytes"),
+        "sourceStatus": source_meta.get("status"),
+        "targetRegistries": source_meta.get("targetRegistries", []),
+        "linkStatus": row["status"],
+        "candidatePoliticianIds": row["candidatePoliticianIds"],
+        "relatedEventIds": row["relatedEventIds"],
+        "relatedDocumentIds": row["relatedDocumentIds"],
+        "relatedClaimIds": row["relatedClaimIds"],
+        "relatedOrganizationIds": row["relatedOrganizationIds"],
+        "relatedRoleIds": row["relatedRoleIds"],
+        "provenance": [{"path": row["source"], "sha256": row["sha256"]}]
+    })
+canonical_dir = out.parent / "canonical"
+canonical_dir.mkdir(parents=True, exist_ok=True)
+canonical_registry = {
+    "schemaVersion": 1,
+    "registryType": "operational_layers",
+    "selectionPolicy": "ALL_SIDECAR_FILES_PRESERVED; EXPLICIT_ID_LINKS_ONLY; UNLINKED_FILES_RETAINED",
+    "sourceCount": len(canonical_records),
+    "linkedCount": len(linked),
+    "unlinkedCount": len(unlinked),
+    "layerCounts": dict(sorted(layer_counts.items())),
+    "relationCounts": dict(sorted(relation_counts.items())),
+    "records": sorted(canonical_records, key=lambda item: item["id"])
+}
+(canonical_dir / "operational_layers.json").write_text(
+    json.dumps(canonical_registry, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 (out/"operational-links.json").write_text(json.dumps(result,ensure_ascii=False,indent=2)+"\n")
 print(json.dumps({"layerCounts":dict(layer_counts),"linked":len(linked),"unlinked":len(unlinked),
+                  "centralSidecarRecords":len(canonical_records),
                   "relationCounts":dict(relation_counts)},ensure_ascii=False))
