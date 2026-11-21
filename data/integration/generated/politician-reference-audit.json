@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "scope": "canonical data/politicians.json file references only",
+  "schemaVersion": 2,
+  "scope": "Central politician root singular/plural evidence, annals, coverage, open-lead and researchRefs paths",
   "canonicalSyncVerified": false,
   "politiciansChecked": 975,
   "duplicatePoliticianIds": [],
@@ -14,9 +14,17 @@
     }
   ],
   "invalidEvidenceJson": [],
+  "missingResearchRefs": [],
+  "referenceCountsChecked": {
+    "annalsFile": 34,
+    "coverageFile": 3,
+    "evidenceFile": 59,
+    "openLeadsFile": 34,
+    "researchRefs": 1321
+  },
   "limitations": [
     "Does not resolve conflicting source variants",
-    "Does not validate event/document/claim cross-registry references",
+    "Does not validate event/document/claim graph truth",
     "Does not establish historical truth or provenance independence"
   ]
 }
