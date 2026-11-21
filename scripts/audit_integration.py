@@ -130,8 +130,8 @@ summary={"sourceFiles":len(sources),"uniqueCentralIds":{k:len(v) for k,v in ids.
 "unresolvedSources":[s["path"] for s in sources if s["status"] in ("PARSE_ERROR","AUXILIARY_JSON_INDEXED")],
 "integrityIssues":issues,"referenceIssueCount":len(reference_issues),
 "crosswalkGaps":crosswalk_gaps,
-"centralSync":"PARTIAL" if report["conflictingIds"] or report["parseErrors"] or aux or crosswalk_gaps else "PASS",
-"note":"Registry presence and provenance checks only. Referential and historical adjudication still required."}
+"centralSync":"PARTIAL" if report["conflictingIds"] or report["parseErrors"] or aux or crosswalk_gaps or issues else "PASS",
+"note":"PARTIAL includes structural integrity failures as well as unresolved historical conflicts and auxiliary sources. Registry presence is not proof of historical adjudication."}
 (out/"integrity-audit.json").write_text(json.dumps(summary,ensure_ascii=False,indent=2)+"\n")
 print(json.dumps({k:v for k,v in summary.items() if k not in ("unresolvedSources","integrityIssues")},ensure_ascii=False))
 # A partial audit must never return success to CI or an hourly worker.
