@@ -12,6 +12,8 @@ on:
       - '!data/integration/generated/**'
       - '.github/workflows/integrate-data.yml'
   workflow_dispatch:
+  schedule:
+    - cron: '23 * * * *'
 permissions:
   contents: write
 concurrency:
@@ -87,6 +89,31 @@ jobs:
             git commit -m 'integration: preserve partial indexes and audit'
             git push
           fi
+      - name: Publish integration summary
+        if: always()
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json, pathlib
+          root = pathlib.Path('data/integration/generated')
+          report_path = root / 'report.json'
+          audit_path = root / 'integrity-audit.json'
+          with open(pathlib.Path(__import__('os').environ['GITHUB_STEP_SUMMARY']), 'a') as output:
+              output.write('## Historical integration status\n\n')
+              for path in (report_path, audit_path):
+                  if not path.exists():
+                      output.write(f'- Missing: `{path}`\n')
+                      continue
+                  data = json.loads(path.read_text())
+                  output.write(f'### `{path.name}`\n\n')
+                  for key in ('status', 'centralSync', 'sourceFiles', 'referenceIssueCount'):
+                      if key in data:
+                          output.write(f'- {key}: `{data[key]}`\n')
+                  for key in ('conflictingIds', 'unintegratedSources', 'crosswalkGaps', 'integrityIssues'):
+                      if isinstance(data.get(key), list):
+                          output.write(f'- {key}: **{len(data[key])}**\n')
+              output.write('\nGenerated indexes are not proof of canonical migration.\n')
+          PY
       - name: Enforce integration completeness gate
         if: always()
         shell: bash
