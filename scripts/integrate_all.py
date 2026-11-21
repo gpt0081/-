@@ -53,11 +53,12 @@ for path in sorted(DATA.rglob("*")):
                 "source": {"path": rel, "pointer": "/" + typ + "/" + str(idx)}})
             source["recordCounts"][typ] += 1
             found += 1
-    if found == 0 and kind in KINDS and isinstance(obj, dict) and isinstance(obj.get("id"), str):
+    if found == 0 and kind in KINDS and isinstance(obj, dict) and isinstance(obj.get("id") or obj.get({"documents": "documentId", "claims": "claimId", "events": "eventId", "politicians": "politicianId", "organizations": "organizationId"}[kind]), str):
         typ = kind
         item = obj
+        ident = item.get("id") or item[{"documents": "documentId", "claims": "claimId", "events": "eventId", "politicians": "politicianId", "organizations": "organizationId"}[kind]]
         payload = json.dumps(item, ensure_ascii=False, sort_keys=True, separators=(",", ":"))
-        records[typ][item["id"]].append({
+        records[typ][ident].append({
             "data": item, "digest": hashlib.sha256(payload.encode()).hexdigest(),
             "source": {"path": rel, "pointer": "/"}})
         source["recordCounts"][typ] += 1
