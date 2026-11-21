@@ -299,6 +299,40 @@
       "canonicalSelection": "58d996f1f4d17168667102379b1d06e90aff60574e9f9892921661eca58abcb8"
     },
     {
+      "id": "org-bucheon-education-committee-1952",
+      "integrationStatus": "INTEGRATED",
+      "alternatives": [
+        {
+          "digest": "8d770259c8e507662f1d66ea7f305924006831308587b0ed39f90f43f35f906c",
+          "data": {
+            "id": "org-bucheon-education-committee-1952",
+            "name": "부천군 교육위원회",
+            "status": "VERIFIED_ORGANIZATION",
+            "roles": [
+              {
+                "role": "부천군 교육자치 의결기관",
+                "period": "1952~"
+              }
+            ],
+            "eventLinks": [
+              "evt-19520604-local-education-autonomy-launch-p206",
+              "evt-19520605-bucheon-superintendent-election-p206"
+            ],
+            "evidence": [
+              "doc-bucheon-education-history-p206"
+            ]
+          },
+          "provenance": [
+            {
+              "path": "data/research/candidates/2026-10-04-pass206-wartime-education-actors.json",
+              "pointer": "/candidates/8"
+            }
+          ]
+        }
+      ],
+      "canonicalSelection": "8d770259c8e507662f1d66ea7f305924006831308587b0ed39f90f43f35f906c"
+    },
+    {
       "id": "org-cand-p249-assembly-review",
       "integrationStatus": "INTEGRATED",
       "alternatives": [
@@ -457,6 +491,42 @@
         }
       ],
       "canonicalSelection": "b6dd12cedbec5c64d30f2270c8c254be3f6381cd9534ac5cc311c322f28315ef"
+    },
+    {
+      "id": "org-education-law-review-group-anchor",
+      "integrationStatus": "INTEGRATED",
+      "alternatives": [
+        {
+          "digest": "2855a3d741cbffd3655722e9273d869611a6c22484d1884c73e670342ae850d4",
+          "data": {
+            "id": "org-education-law-review-group-anchor",
+            "name": "교육법심의회 참여 재야교육자군",
+            "aliases": [],
+            "type": "collective-policy-actor",
+            "researchStatus": "DISCOVERED",
+            "roles": [
+              {
+                "title": "교육법 대안 기초·심의",
+                "period": "1949"
+              }
+            ],
+            "eventLinks": [
+              "evt-1949-education-law-compromise"
+            ],
+            "evidence": [
+              "doc-r24-009"
+            ],
+            "openLead": "재야교육자 10인 전원 명단과 회의별 참석·발언·조문 기여를 원문에서 추출"
+          },
+          "provenance": [
+            {
+              "path": "data/politicians/run24-education-actor-candidates.json",
+              "pointer": "/actors/9"
+            }
+          ]
+        }
+      ],
+      "canonicalSelection": "2855a3d741cbffd3655722e9273d869611a6c22484d1884c73e670342ae850d4"
     },
     {
       "id": "org-jeheon-dongjihoe",
@@ -738,6 +808,79 @@
         }
       ],
       "canonicalSelection": "522e5e8f9b1b7f71a40a403fc1b663e5cfd5d768d83528ad4e45048354ed050b"
+    },
+    {
+      "id": "org-local-education-committees-1952",
+      "integrationStatus": "INTEGRATED",
+      "alternatives": [
+        {
+          "digest": "a349f4f9185f7a026c18763eef781d1b162bf8e54562c864a2d965f64ae4c5a0",
+          "data": {
+            "id": "org-local-education-committees-1952",
+            "name": "시·구 교육위원회",
+            "status": "VERIFIED_ORGANIZATION",
+            "roles": [
+              {
+                "role": "기초 교육자치 의결기관",
+                "period": "1952~"
+              }
+            ],
+            "eventLinks": [
+              "evt-19520524-education-committee-election-p206",
+              "evt-19520604-local-education-autonomy-launch-p206"
+            ],
+            "evidence": [
+              "doc-aks-education-committee-p206",
+              "doc-constitutional-court-99heonba113-p206"
+            ]
+          },
+          "provenance": [
+            {
+              "path": "data/research/candidates/2026-10-04-pass206-wartime-education-actors.json",
+              "pointer": "/candidates/7"
+            }
+          ]
+        }
+      ],
+      "canonicalSelection": "a349f4f9185f7a026c18763eef781d1b162bf8e54562c864a2d965f64ae4c5a0"
+    },
+    {
+      "id": "org-ministry-education",
+      "integrationStatus": "INTEGRATED",
+      "alternatives": [
+        {
+          "digest": "7cefdf6e929a7377388528320f8d9e23eef6fc89db73047709cdda1c8479eaef",
+          "data": {
+            "id": "org-ministry-education",
+            "name": "문교부",
+            "english": "Ministry of Education",
+            "status": "VERIFIED_ORGANIZATION",
+            "roles": [
+              {
+                "role": "중앙 교육행정기관",
+                "period": "제1공화국"
+              }
+            ],
+            "eventLinks": [
+              "evt-19510120-refugee-student-intake-p206",
+              "evt-19510126-wartime-education-policy-p206",
+              "evt-1951-wartime-special-measures-p206",
+              "evt-1951-wartime-textbooks-p206"
+            ],
+            "evidence": [
+              "doc-seoul-edu-refugee-school-p206",
+              "doc-ncrc-child-rights-history-p206"
+            ]
+          },
+          "provenance": [
+            {
+              "path": "data/research/candidates/2026-10-04-pass206-wartime-education-actors.json",
+              "pointer": "/candidates/6"
+            }
+          ]
+        }
+      ],
+      "canonicalSelection": "7cefdf6e929a7377388528320f8d9e23eef6fc89db73047709cdda1c8479eaef"
     },
     {
       "id": "org-ministry-finance",
@@ -1285,6 +1428,30 @@
         }
       ],
       "canonicalSelection": "e87c0e5eaea55aec3e76137fd99dbda86d9ddcaf772c83c42053f84b29f81f8e"
+    },
+    {
+      "id": "org-revolutionary-court-1961",
+      "integrationStatus": "INTEGRATED",
+      "alternatives": [
+        {
+          "digest": "de85bc76cb42a87d63e522b31511a390e95f9fc6ff4529550aa9e58d5fe1706a",
+          "data": {
+            "id": "org-revolutionary-court-1961",
+            "name": "혁명재판소",
+            "role": "1961 특별형사재판기관",
+            "status": "VERIFIED_ORGANIZATION",
+            "evidence": "법률 제630호 및 2011 국가배상 판결",
+            "open_lead": "교원노조 피고인별 심판부·재판장·심판관·사건번호를 document registry에 분리."
+          },
+          "provenance": [
+            {
+              "path": "data/research/candidates/pass-140-teachers-union-judicial-reassessment.json",
+              "pointer": "/actors/9"
+            }
+          ]
+        }
+      ],
+      "canonicalSelection": "de85bc76cb42a87d63e522b31511a390e95f9fc6ff4529550aa9e58d5fe1706a"
     },
     {
       "id": "org-rok-agriculture-ministry-1953",
@@ -2243,6 +2410,41 @@
       "canonicalSelection": "e071d5a5224342a7b6d4ab42d0448e886e5952bcd8216411d8d422a19e515ba8"
     },
     {
+      "id": "org-unkra-education-aid",
+      "integrationStatus": "INTEGRATED",
+      "alternatives": [
+        {
+          "digest": "e571e4368176c764522341782bf1b3bdc77e67dc7ea905087e035ae0d753128c",
+          "data": {
+            "id": "org-unkra-education-aid",
+            "name": "UN한국재건위원단",
+            "english": "United Nations Korean Reconstruction Agency (UNKRA)",
+            "status": "IDENTIFIED_ORGANIZATION",
+            "roles": [
+              {
+                "role": "교육용지 등 원조",
+                "period": "한국전쟁기"
+              }
+            ],
+            "eventLinks": [
+              "evt-1951-wartime-textbooks-p206"
+            ],
+            "evidence": [
+              "doc-press-national-archives-textbooks-p206"
+            ],
+            "openLead": "국가기록원 소장 교과서 실물 뒷면 표기와 UNKRA 교육원조 보고서 교차검증"
+          },
+          "provenance": [
+            {
+              "path": "data/research/candidates/2026-10-04-pass206-wartime-education-actors.json",
+              "pointer": "/candidates/9"
+            }
+          ]
+        }
+      ],
+      "canonicalSelection": "e571e4368176c764522341782bf1b3bdc77e67dc7ea905087e035ae0d753128c"
+    },
+    {
       "id": "org-unkra-smallbusiness-loanboard",
       "integrationStatus": "INTEGRATED",
       "alternatives": [
@@ -2373,7 +2575,7 @@
       "canonicalSelection": "6b28407aa2f64c3b7ae4b8c004885dbb7c2e6e490aa5c76c2c0aab233bd2835d"
     },
     {
-      "id": "urn:source:b00b0dd1ff1d720c851366c2",
+      "id": "urn:source:c37397f17e37349206e4f431",
       "integrationStatus": "INTEGRATED",
       "alternatives": [
         {

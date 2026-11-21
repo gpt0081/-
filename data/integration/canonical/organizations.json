@@ -246,6 +246,34 @@
       }
     },
     {
+      "id": "org-bucheon-education-committee-1952",
+      "name": "부천군 교육위원회",
+      "status": "VERIFIED_ORGANIZATION",
+      "roles": [
+        {
+          "role": "부천군 교육자치 의결기관",
+          "period": "1952~"
+        }
+      ],
+      "eventLinks": [
+        "evt-19520604-local-education-autonomy-launch-p206",
+        "evt-19520605-bucheon-superintendent-election-p206"
+      ],
+      "evidence": [
+        "doc-bucheon-education-history-p206"
+      ],
+      "_integration": {
+        "id": "org-bucheon-education-committee-1952",
+        "digest": "8d770259c8e507662f1d66ea7f305924006831308587b0ed39f90f43f35f906c",
+        "provenance": [
+          {
+            "path": "data/research/candidates/2026-10-04-pass206-wartime-education-actors.json",
+            "pointer": "/candidates/8"
+          }
+        ]
+      }
+    },
+    {
       "id": "org-cand-p249-assembly-review",
       "name": "국회 공민권제한 심사위원회",
       "documentId": "DOC-P249-KD-0202",
@@ -359,6 +387,36 @@
           {
             "path": "data/organizations/run81-land-admin.json",
             "pointer": "/organizations/4"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-education-law-review-group-anchor",
+      "name": "교육법심의회 참여 재야교육자군",
+      "aliases": [],
+      "type": "collective-policy-actor",
+      "researchStatus": "DISCOVERED",
+      "roles": [
+        {
+          "title": "교육법 대안 기초·심의",
+          "period": "1949"
+        }
+      ],
+      "eventLinks": [
+        "evt-1949-education-law-compromise"
+      ],
+      "evidence": [
+        "doc-r24-009"
+      ],
+      "openLead": "재야교육자 10인 전원 명단과 회의별 참석·발언·조문 기여를 원문에서 추출",
+      "_integration": {
+        "id": "org-education-law-review-group-anchor",
+        "digest": "2855a3d741cbffd3655722e9273d869611a6c22484d1884c73e670342ae850d4",
+        "provenance": [
+          {
+            "path": "data/politicians/run24-education-actor-candidates.json",
+            "pointer": "/actors/9"
           }
         ]
       }
@@ -485,6 +543,67 @@
           {
             "path": "data/organizations/pass-239e-1953-institutions.json",
             "pointer": "/organizations/6"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-local-education-committees-1952",
+      "name": "시·구 교육위원회",
+      "status": "VERIFIED_ORGANIZATION",
+      "roles": [
+        {
+          "role": "기초 교육자치 의결기관",
+          "period": "1952~"
+        }
+      ],
+      "eventLinks": [
+        "evt-19520524-education-committee-election-p206",
+        "evt-19520604-local-education-autonomy-launch-p206"
+      ],
+      "evidence": [
+        "doc-aks-education-committee-p206",
+        "doc-constitutional-court-99heonba113-p206"
+      ],
+      "_integration": {
+        "id": "org-local-education-committees-1952",
+        "digest": "a349f4f9185f7a026c18763eef781d1b162bf8e54562c864a2d965f64ae4c5a0",
+        "provenance": [
+          {
+            "path": "data/research/candidates/2026-10-04-pass206-wartime-education-actors.json",
+            "pointer": "/candidates/7"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-ministry-education",
+      "name": "문교부",
+      "english": "Ministry of Education",
+      "status": "VERIFIED_ORGANIZATION",
+      "roles": [
+        {
+          "role": "중앙 교육행정기관",
+          "period": "제1공화국"
+        }
+      ],
+      "eventLinks": [
+        "evt-19510120-refugee-student-intake-p206",
+        "evt-19510126-wartime-education-policy-p206",
+        "evt-1951-wartime-special-measures-p206",
+        "evt-1951-wartime-textbooks-p206"
+      ],
+      "evidence": [
+        "doc-seoul-edu-refugee-school-p206",
+        "doc-ncrc-child-rights-history-p206"
+      ],
+      "_integration": {
+        "id": "org-ministry-education",
+        "digest": "7cefdf6e929a7377388528320f8d9e23eef6fc89db73047709cdda1c8479eaef",
+        "provenance": [
+          {
+            "path": "data/research/candidates/2026-10-04-pass206-wartime-education-actors.json",
+            "pointer": "/candidates/6"
           }
         ]
       }
@@ -906,6 +1025,24 @@
           {
             "path": "data/organizations/run225-institutions.json",
             "pointer": "/organizations/3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "org-revolutionary-court-1961",
+      "name": "혁명재판소",
+      "role": "1961 특별형사재판기관",
+      "status": "VERIFIED_ORGANIZATION",
+      "evidence": "법률 제630호 및 2011 국가배상 판결",
+      "open_lead": "교원노조 피고인별 심판부·재판장·심판관·사건번호를 document registry에 분리.",
+      "_integration": {
+        "id": "org-revolutionary-court-1961",
+        "digest": "de85bc76cb42a87d63e522b31511a390e95f9fc6ff4529550aa9e58d5fe1706a",
+        "provenance": [
+          {
+            "path": "data/research/candidates/pass-140-teachers-union-judicial-reassessment.json",
+            "pointer": "/actors/9"
           }
         ]
       }
@@ -1693,6 +1830,35 @@
       }
     },
     {
+      "id": "org-unkra-education-aid",
+      "name": "UN한국재건위원단",
+      "english": "United Nations Korean Reconstruction Agency (UNKRA)",
+      "status": "IDENTIFIED_ORGANIZATION",
+      "roles": [
+        {
+          "role": "교육용지 등 원조",
+          "period": "한국전쟁기"
+        }
+      ],
+      "eventLinks": [
+        "evt-1951-wartime-textbooks-p206"
+      ],
+      "evidence": [
+        "doc-press-national-archives-textbooks-p206"
+      ],
+      "openLead": "국가기록원 소장 교과서 실물 뒷면 표기와 UNKRA 교육원조 보고서 교차검증",
+      "_integration": {
+        "id": "org-unkra-education-aid",
+        "digest": "e571e4368176c764522341782bf1b3bdc77e67dc7ea905087e035ae0d753128c",
+        "provenance": [
+          {
+            "path": "data/research/candidates/2026-10-04-pass206-wartime-education-actors.json",
+            "pointer": "/candidates/9"
+          }
+        ]
+      }
+    },
+    {
       "id": "org-unkra-smallbusiness-loanboard",
       "name": "UNKRA Small Business Loan Board",
       "aliases": [
@@ -1814,8 +1980,9 @@
         "한국민족문화대백과사전 민중자결단"
       ],
       "openLead": "Recover the 1953-06-09 petition original and identify signatories, drafters, funders and delivery channel.",
+      "id": "urn:source:c37397f17e37349206e4f431",
       "_integration": {
-        "id": "urn:source:b00b0dd1ff1d720c851366c2",
+        "id": "urn:source:c37397f17e37349206e4f431",
         "digest": "9bafdae19c6f48d4597a024de2d2ed2d15103445dd2d70acff160de9deeb0090",
         "provenance": [
           {
