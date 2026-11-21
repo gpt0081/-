@@ -2,12 +2,12 @@
   "schemaVersion": 1,
   "scope": "Every inventoried source file; structural triage only",
   "canonicalSyncVerified": false,
-  "sourceFiles": 2258,
+  "sourceFiles": 2269,
   "statusCounts": {
-    "BLOCKED_ID_CONFLICT": 250,
-    "INDEXED_NOT_CANONICAL_VERIFIED": 563,
-    "NON_JSON_PRESERVED": 774,
-    "UNMAPPED_AUXILIARY": 671
+    "BLOCKED_ID_CONFLICT": 251,
+    "INDEXED_NOT_CANONICAL_VERIFIED": 566,
+    "NON_JSON_PRESERVED": 776,
+    "UNMAPPED_AUXILIARY": 676
   },
   "sources": [
     {
@@ -2078,6 +2078,22 @@
       "path": "data/annals/pyun-yong-tae.md",
       "sha256": "1ddcc87cef6ee41284092eac687960873d664edfa3836d93395a8ce1f658ccd3",
       "bytes": 7421,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0
+      },
+      "targetRegistries": [],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/annals/rhee-apr1952-run223.md",
+      "sha256": "c425b5e69110176d92b0b9cde0ee5de7589edd4b445725c81628c982c42d59a6",
+      "bytes": 2684,
       "recordCounts": {
         "documents": 0,
         "claims": 0,
@@ -4593,6 +4609,24 @@
       "recordCounts": {
         "documents": 0,
         "claims": 4,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0
+      },
+      "targetRegistries": [
+        "claims"
+      ],
+      "status": "INDEXED_NOT_CANONICAL_VERIFIED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/claims/run223-apr1952-adversarial.json",
+      "sha256": "120800e74db0191575f1e611f16883df0a249ccbebcf0110c9f38b83c9f79e57",
+      "bytes": 11309,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 17,
         "events": 0,
         "politicians": 0,
         "organizations": 0
@@ -8009,6 +8043,24 @@
       "bytes": 5747,
       "recordCounts": {
         "documents": 10,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0
+      },
+      "targetRegistries": [
+        "documents"
+      ],
+      "status": "INDEXED_NOT_CANONICAL_VERIFIED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/documents/run223-apr1952-frus-korean.json",
+      "sha256": "ceeb9768a958b436f8bed5785d98d64418815b6d7d7f91a15c7f07682f0faa22",
+      "bytes": 48927,
+      "recordCounts": {
+        "documents": 52,
         "claims": 0,
         "events": 0,
         "politicians": 0,
@@ -13662,6 +13714,24 @@
       "unintegratedReason": null
     },
     {
+      "path": "data/events/run223-apr1952-actions.json",
+      "sha256": "f1708fad7f2924832b0a859ec6240afa5f227616489011cdb75bca110e506317",
+      "bytes": 16903,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 21,
+        "politicians": 0,
+        "organizations": 0
+      },
+      "targetRegistries": [
+        "events"
+      ],
+      "status": "INDEXED_NOT_CANONICAL_VERIFIED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
       "path": "data/events/run224-may1952-constitutional-pow-economy.json",
       "sha256": "27c89cb943d54ff07c586e9287927bc7a701f6803188c9d61205ba77c5e12a23",
       "bytes": 19762,
@@ -17080,6 +17150,22 @@
       "unintegratedReason": null
     },
     {
+      "path": "data/evidence/politicians/run223-evidence.json",
+      "sha256": "e4a0a51dbc574c4c60b7fe22d516c8374153748a4347806253ff68967acf6df2",
+      "bytes": 3584,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0
+      },
+      "targetRegistries": [],
+      "status": "UNMAPPED_AUXILIARY",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_ONLY_NOT_CANONICAL"
+    },
+    {
       "path": "data/evidence/politicians/run224-evidence.json",
       "sha256": "e54a15b3ed9a057d7a2950d4251d321626a66095fc638e565e7376c740557c3d",
       "bytes": 9850,
@@ -18294,7 +18380,7 @@
         {
           "kind": "politicians",
           "id": "pol-paik-sun-yup",
-          "variantCount": 10
+          "variantCount": 11
         },
         {
           "kind": "politicians",
@@ -18686,7 +18772,7 @@
         {
           "kind": "politicians",
           "id": "pol-paik-sun-yup",
-          "variantCount": 10
+          "variantCount": 11
         },
         {
           "kind": "politicians",
@@ -18906,7 +18992,7 @@
         {
           "kind": "politicians",
           "id": "pol-paik-sun-yup",
-          "variantCount": 10
+          "variantCount": 11
         },
         {
           "kind": "politicians",
@@ -19042,7 +19128,7 @@
         {
           "kind": "politicians",
           "id": "pol-paik-sun-yup",
-          "variantCount": 10
+          "variantCount": 11
         },
         {
           "kind": "politicians",
@@ -19112,7 +19198,7 @@
         {
           "kind": "politicians",
           "id": "pol-paik-sun-yup",
-          "variantCount": 10
+          "variantCount": 11
         },
         {
           "kind": "politicians",
@@ -19392,7 +19478,7 @@
         {
           "kind": "politicians",
           "id": "pol-paik-sun-yup",
-          "variantCount": 10
+          "variantCount": 11
         },
         {
           "kind": "politicians",
@@ -20427,7 +20513,7 @@
         {
           "kind": "politicians",
           "id": "pol-paik-sun-yup",
-          "variantCount": 10
+          "variantCount": 11
         },
         {
           "kind": "politicians",
@@ -20526,7 +20612,7 @@
         {
           "kind": "politicians",
           "id": "pol-paik-sun-yup",
-          "variantCount": 10
+          "variantCount": 11
         },
         {
           "kind": "politicians",
@@ -20615,7 +20701,7 @@
         {
           "kind": "politicians",
           "id": "pol-paik-sun-yup",
-          "variantCount": 10
+          "variantCount": 11
         },
         {
           "kind": "politicians",
@@ -22941,6 +23027,40 @@
       "unintegratedReason": "AUXILIARY_ONLY_NOT_CANONICAL"
     },
     {
+      "path": "data/politicians/run223-apr1952-actors.json",
+      "sha256": "bfa04cb88f2043658363a1c6ec49f90a2e6ba58a6ab811267de414f7904fe824",
+      "bytes": 11652,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 10,
+        "organizations": 0
+      },
+      "targetRegistries": [
+        "politicians"
+      ],
+      "status": "BLOCKED_ID_CONFLICT",
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "pol-paik-sun-yup",
+          "variantCount": 11
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-r164-seo-min-ho",
+          "variantCount": 4
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-shin-tae-young",
+          "variantCount": 3
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
       "path": "data/politicians/run224-may1952-actors.json",
       "sha256": "7c34d054b1e025e0ed4f938bb2492c0293a4b0994ddb0d7591438d3b513f6600",
       "bytes": 20837,
@@ -23059,7 +23179,7 @@
         {
           "kind": "politicians",
           "id": "pol-r164-seo-min-ho",
-          "variantCount": 3
+          "variantCount": 4
         },
         {
           "kind": "politicians",
@@ -23153,7 +23273,7 @@
         {
           "kind": "politicians",
           "id": "pol-r164-seo-min-ho",
-          "variantCount": 3
+          "variantCount": 4
         }
       ],
       "unintegratedReason": null
@@ -24539,7 +24659,7 @@
         {
           "kind": "politicians",
           "id": "pol-paik-sun-yup",
-          "variantCount": 10
+          "variantCount": 11
         },
         {
           "kind": "politicians",
@@ -24589,7 +24709,7 @@
         {
           "kind": "politicians",
           "id": "pol-r164-seo-min-ho",
-          "variantCount": 3
+          "variantCount": 4
         },
         {
           "kind": "politicians",
@@ -28000,7 +28120,7 @@
         {
           "kind": "politicians",
           "id": "pol-shin-tae-young",
-          "variantCount": 2
+          "variantCount": 3
         }
       ],
       "unintegratedReason": null
@@ -30232,6 +30352,22 @@
       "path": "data/research/coverage/pass-258b-1953-54-aid-authority-coverage.json",
       "sha256": "83cc1a2756e75f020657d27a55d53129d77edcdb32cbe27679772eb02fa63c57",
       "bytes": 3353,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0
+      },
+      "targetRegistries": [],
+      "status": "UNMAPPED_AUXILIARY",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_ONLY_NOT_CANONICAL"
+    },
+    {
+      "path": "data/research/coverage/run223.json",
+      "sha256": "c862a7c2ab0bfcacb3c792578391e14e740808edab294be9bbad94c5c5570279",
+      "bytes": 1604,
       "recordCounts": {
         "documents": 0,
         "claims": 0,
@@ -34612,6 +34748,22 @@
       "unintegratedReason": "AUXILIARY_ONLY_NOT_CANONICAL"
     },
     {
+      "path": "data/research/history-debt/run223.json",
+      "sha256": "a191fde14b66fce37c128770609b007f1397a11b6f665d6a8012e5698923a97a",
+      "bytes": 6647,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0
+      },
+      "targetRegistries": [],
+      "status": "UNMAPPED_AUXILIARY",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_ONLY_NOT_CANONICAL"
+    },
+    {
       "path": "data/research/history-debt/run224.json",
       "sha256": "2066177fcca352363be1c419e8ca813421dd63f6b6557c570b844968dde83099",
       "bytes": 3305,
@@ -35335,6 +35487,22 @@
       "path": "data/research/lead-queues/pass311-second-republic-next.json",
       "sha256": "7fe29fd11d26a898ba8e0614a6437706ea388ae05afca5874297192356abcc11",
       "bytes": 8578,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0
+      },
+      "targetRegistries": [],
+      "status": "UNMAPPED_AUXILIARY",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_ONLY_NOT_CANONICAL"
+    },
+    {
+      "path": "data/research/lead-queues/run223-next.json",
+      "sha256": "50d8fe01b6fe01cfd3b84b2b3ae41dda115131352f9e783d7d880ec73b5ed887",
+      "bytes": 16172,
       "recordCounts": {
         "documents": 0,
         "claims": 0,
@@ -40389,7 +40557,7 @@
         {
           "kind": "politicians",
           "id": "pol-shin-tae-young",
-          "variantCount": 2
+          "variantCount": 3
         },
         {
           "kind": "politicians",
@@ -48407,6 +48575,38 @@
       "status": "UNMAPPED_AUXILIARY",
       "conflicts": [],
       "unintegratedReason": "AUXILIARY_ONLY_NOT_CANONICAL"
+    },
+    {
+      "path": "data/research/runs/2026-10-28-run223-ledger.json",
+      "sha256": "c7626806a31cb91e8bbb175ded6c91a9a4722e8d0df18e9355d18fad903eca65",
+      "bytes": 4179,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0
+      },
+      "targetRegistries": [],
+      "status": "UNMAPPED_AUXILIARY",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_ONLY_NOT_CANONICAL"
+    },
+    {
+      "path": "data/research/runs/2026-10-28-run223-report.md",
+      "sha256": "727c9bafd98000f67d3c885eb6945f6bea0a601d211cafa8798838115387778e",
+      "bytes": 3738,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0
+      },
+      "targetRegistries": [],
+      "status": "NON_JSON_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
     },
     {
       "path": "data/research/runs/2026-10-28-run224-ledger.json",

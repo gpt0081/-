@@ -4919,6 +4919,130 @@
       "provenance": "9d31c3fe07adc596a4c00ac54a9a1236f37f3423cb72565f0cb5b0f2a5c77a39"
     },
     {
+      "source": "data/evidence/politicians/run223-evidence.json",
+      "payload": {
+        "run": 223,
+        "accessDate": "2026-10-28",
+        "evidence": [
+          {
+            "id": "evidence-r223-pol-shin-tae-young",
+            "politicianId": "pol-shin-tae-young",
+            "evidenceDocumentIds": [
+              "doc-r223-nikh-04_05_0020",
+              "doc-r223-nikh-04_05_0050"
+            ],
+            "eventIds": [
+              "evt-r223-defense-minister-statement",
+              "evt-r223-second-corps-ceremony"
+            ],
+            "sourceLimit": "Source-specific role, do not infer presidential direction"
+          },
+          {
+            "id": "evidence-r223-pol-paik-sun-yup",
+            "politicianId": "pol-paik-sun-yup",
+            "evidenceDocumentIds": [
+              "doc-r223-nikh-04_05_0050"
+            ],
+            "eventIds": [
+              "evt-r223-second-corps-ceremony"
+            ],
+            "sourceLimit": "Source-specific role, do not infer presidential direction"
+          },
+          {
+            "id": "evidence-r223-pol-r141-jeon-jin-han",
+            "politicianId": "pol-r141-jeon-jin-han",
+            "evidenceDocumentIds": [
+              "doc-r223-nikh-04_27_0070"
+            ],
+            "eventIds": [
+              "evt-r223-publishing-union"
+            ],
+            "sourceLimit": "Source-specific role, do not infer presidential direction"
+          },
+          {
+            "id": "evidence-r223-pol-r189-jo-gwang-seop",
+            "politicianId": "pol-r189-jo-gwang-seop",
+            "evidenceDocumentIds": [
+              "doc-r223-nikh-04_27_0070"
+            ],
+            "eventIds": [
+              "evt-r223-publishing-union"
+            ],
+            "sourceLimit": "Source-specific role, do not infer presidential direction"
+          },
+          {
+            "id": "evidence-r223-pol-r164-seo-min-ho",
+            "politicianId": "pol-r164-seo-min-ho",
+            "evidenceDocumentIds": [
+              "doc-r223-nikh-04_27_0060"
+            ],
+            "eventIds": [
+              "evt-r223-seo-min-ho-police-report"
+            ],
+            "sourceLimit": "Police-reported testimony, no court finding"
+          },
+          {
+            "id": "evidence-r223-cand-r223-won-yong-seok",
+            "politicianId": "cand-r223-won-yong-seok",
+            "evidenceDocumentIds": [
+              "doc-r223-nikh-04_27_0040",
+              "doc-r223-nikh-04_28_0040"
+            ],
+            "eventIds": [
+              "evt-r223-thai-rice-negotiation",
+              "evt-r223-food-relief-arrival"
+            ],
+            "sourceLimit": "Source-specific role, do not infer presidential direction"
+          },
+          {
+            "id": "evidence-r223-cand-r223-hyeon-geun",
+            "politicianId": "cand-r223-hyeon-geun",
+            "evidenceDocumentIds": [
+              "doc-r223-nikh-04_27_0040"
+            ],
+            "eventIds": [
+              "evt-r223-thai-rice-negotiation"
+            ],
+            "sourceLimit": "Source-specific role, do not infer presidential direction"
+          },
+          {
+            "id": "evidence-r223-cand-r223-han-gyeong-rok",
+            "politicianId": "cand-r223-han-gyeong-rok",
+            "evidenceDocumentIds": [
+              "doc-r223-nikh-04_27_0060"
+            ],
+            "eventIds": [
+              "evt-r223-seo-min-ho-police-report"
+            ],
+            "sourceLimit": "Police-reported testimony, no court finding"
+          },
+          {
+            "id": "evidence-r223-cand-r223-lee-pan-ho",
+            "politicianId": "cand-r223-lee-pan-ho",
+            "evidenceDocumentIds": [
+              "doc-r223-nikh-04_27_0060"
+            ],
+            "eventIds": [
+              "evt-r223-seo-min-ho-police-report"
+            ],
+            "sourceLimit": "Role only in police narrative, identity requires personnel original"
+          },
+          {
+            "id": "evidence-r223-cand-r223-jeong-jin-dong",
+            "politicianId": "cand-r223-jeong-jin-dong",
+            "evidenceDocumentIds": [
+              "doc-r223-nikh-04_27_0060"
+            ],
+            "eventIds": [
+              "evt-r223-seo-min-ho-police-report"
+            ],
+            "sourceLimit": "Role only in police narrative, identity requires personnel original"
+          }
+        ]
+      },
+      "provenance": "e4a0a51dbc574c4c60b7fe22d516c8374153748a4347806253ff68967acf6df2"
+    },
+    {
       "source": "data/evidence/politicians/run224-evidence.json",
       "payload": {
         "run": 224,
@@ -45227,6 +45351,58 @@
       "provenance": "83cc1a2756e75f020657d27a55d53129d77edcdb32cbe27679772eb02fa63c57"
     },
     {
+      "source": "data/research/coverage/run223.json",
+      "payload": {
+        "run": 223,
+        "accessDate": "2026-10-28",
+        "domains": [
+          "헌정·입법",
+          "국방·인사",
+          "지방자치·선거",
+          "경제·외환",
+          "농정·식량",
+          "복지·구호",
+          "노동·사회",
+          "치안·사법",
+          "정전·외교",
+          "전쟁·포로",
+          "안보·정보"
+        ],
+        "structuredEvents": [
+          "evt-r223-constitutional-draft",
+          "evt-r223-defense-minister-statement",
+          "evt-r223-second-corps-ceremony",
+          "evt-r223-local-elections",
+          "evt-r223-forex-draft",
+          "evt-r223-thai-rice-negotiation",
+          "evt-r223-farmland-redemption",
+          "evt-r223-seo-min-ho-police-report",
+          "evt-r223-publishing-union",
+          "evt-r223-food-relief-arrival",
+          "evt-r223-meyer-mission-terms",
+          "evt-r223-won-forex-sovereignty",
+          "evt-r223-pow-screening-start",
+          "evt-r223-pow-apr11-numbers",
+          "evt-r223-pow-icrc-observation",
+          "evt-r223-pow-rescreen-debate",
+          "evt-r223-pow-70000-package",
+          "evt-r223-soviet-monitoring",
+          "evt-r223-australia-screening-dissent",
+          "evt-r223-se25-threat-assessment",
+          "evt-r223-rhee-treaty-us-response"
+        ],
+        "documentRegistry": "data/documents/run223-apr1952-frus-korean.json",
+        "politicianRegistry": "data/politicians/run223-apr1952-actors.json",
+        "limits": [
+          "미국 FRUS 38개 원작성 편집전사는 단일 출처계열",
+          "동시대 한국신문 11건은 원면 아닌 국편 전사",
+          "선관위 공식 선거일 통계는 사후 큐레이션, 원개표표 아님",
+          "이승만 직접명령·한미 최종합의·법률 공포·사법 판결과 계획/보도를 구별"
+        ]
+      },
+      "provenance": "c862a7c2ab0bfcacb3c792578391e14e740808edab294be9bbad94c5c5570279"
+    },
+    {
       "source": "data/research/coverage/run224.json",
       "payload": {
         "run": 224,
@@ -57884,6 +58060,242 @@
       "provenance": "2f597c10728f8fd55d653537112358e2bc6d92575b17567f2485379d0982ab8f"
     },
     {
+      "source": "data/research/history-debt/run223.json",
+      "payload": {
+        "run": 223,
+        "accessDate": "2026-10-28",
+        "weeklyFullReview": false,
+        "weeklyFullReviewStatement": "역사부채 주간 전수조사 미실시",
+        "lastFullReview": "UNCHANGED",
+        "priorLeadsTracked": [
+          {
+            "id": "L222-010",
+            "status": "NARROWED",
+            "finding": "NEC 4/25 시읍면·5/10 도의회 실제 선거일 확인; 원선거공고 미확보",
+            "nextLeadIds": [
+              "L223-005",
+              "L223-006",
+              "L223-007"
+            ],
+            "accessDate": "2026-10-28"
+          },
+          {
+            "id": "L222-021",
+            "status": "NARROWED",
+            "finding": "FRUS d83에서 7000만달러 준비계정과 한국 정부 즉시지급 요구 확인; 한은 원장 미확보",
+            "nextLeadIds": [
+              "L223-024"
+            ],
+            "accessDate": "2026-10-28"
+          },
+          {
+            "id": "L222-022",
+            "status": "NARROWED",
+            "finding": "FRUS d83은 달러 준비계정 지급 유보 견해; 실제 1951년 지급원장 미확보",
+            "nextLeadIds": [
+              "L223-024"
+            ],
+            "accessDate": "2026-10-28"
+          },
+          {
+            "id": "L222-026",
+            "status": "OPEN",
+            "finding": "FRUS d89 4/10 거제도 95수용소 사건은 2/18 62수용소 사건과 별개; 원일지 미확보",
+            "nextLeadIds": [
+              "L223-030"
+            ],
+            "accessDate": "2026-10-28"
+          },
+          {
+            "id": "L222-027",
+            "status": "OPEN",
+            "finding": "FRUS d85 ICRC 방문 비적극 통지; ICRC 자체 원문 미확보",
+            "nextLeadIds": [
+              "L223-027"
+            ],
+            "accessDate": "2026-10-28"
+          },
+          {
+            "id": "L222-028",
+            "status": "NARROWED",
+            "finding": "FRUS d86/108 분류·재심사 집계 확보, 개별 민간억류자 석방 명부 미확보",
+            "nextLeadIds": [
+              "L223-025",
+              "L223-028"
+            ],
+            "accessDate": "2026-10-28"
+          },
+          {
+            "id": "L222-029",
+            "status": "NARROWED",
+            "finding": "JCS905426/427 관련 FRUS d81/82 열람, 원송신문 미확보",
+            "nextLeadIds": [
+              "L223-025",
+              "L223-028"
+            ],
+            "accessDate": "2026-10-28"
+          },
+          {
+            "id": "L222-030",
+            "status": "NARROWED",
+            "finding": "3월 지침 후속 4월 JCS906539 원전사 확보, 원전문 원면 미확보",
+            "nextLeadIds": [
+              "L223-025",
+              "L223-028"
+            ],
+            "accessDate": "2026-10-28"
+          },
+          {
+            "id": "L222-031",
+            "status": "OPEN",
+            "finding": "4/28 포괄안 전달 FRUS d106 편집주석, C67677 원속기록 미확보",
+            "nextLeadIds": [
+              "L223-031"
+            ],
+            "accessDate": "2026-10-28"
+          },
+          {
+            "id": "L222-032",
+            "status": "NARROWED",
+            "finding": "FRUS d110 애치슨의 4/30 방위조약 조기체결 반대 권고 확인; 트루먼 최종결정 미확인",
+            "nextLeadIds": [
+              "L223-035"
+            ],
+            "accessDate": "2026-10-28"
+          },
+          {
+            "id": "L222-034",
+            "status": "OPEN",
+            "finding": "FRUS d77에 영국 외교관 발언 있지만 영국 FO371 독립원문 미열람",
+            "nextLeadIds": [
+              "L223-025",
+              "L223-028"
+            ],
+            "accessDate": "2026-10-28"
+          }
+        ],
+        "debts": [
+          {
+            "id": "HD-R223-THAI-RICE",
+            "status": "NARROWED",
+            "question": "1952-04-26 26000t 협의와 4/28 24000t 구매 보도의 계약·인도 시점 차이",
+            "supportingDocumentIds": [
+              "doc-r223-nikh-04_27_0040",
+              "doc-r223-nikh-04_28_0040"
+            ],
+            "nextOriginals": [
+              "태국 구매계약서",
+              "농림부 구매보고",
+              "부산항 선하증권"
+            ],
+            "correctionHistory": [
+              {
+                "date": "2026-10-28",
+                "action": "수치 불일치를 무조건 CONFLICTED로 승격하지 않고 계약단계 차이 가능성 기록"
+              }
+            ]
+          },
+          {
+            "id": "HD-R223-SEO",
+            "status": "OPEN",
+            "question": "서민호 총격사건 경찰 발표와 법원 최종 사실인정 차이",
+            "supportingDocumentIds": [
+              "doc-r223-nikh-04_27_0060"
+            ],
+            "nextOriginals": [
+              "형사판결 원문",
+              "수사기록",
+              "당사자 진술조서"
+            ]
+          },
+          {
+            "id": "HD-R223-POW",
+            "status": "NARROWED",
+            "question": "4/8 Operation Scatter 심사와 4/29 강제심사 회피 및 최종 명부",
+            "supportingDocumentIds": [
+              "doc-r223-frus-85",
+              "doc-r223-frus-86",
+              "doc-r223-frus-95",
+              "doc-r223-frus-108",
+              "doc-r223-frus-109"
+            ],
+            "nextOriginals": [
+              "UNC 8군 수용소별 심사 원장",
+              "ICRC 방문일지",
+              "최종 교환명부"
+            ]
+          },
+          {
+            "id": "HD-R223-LOCAL-ELECTION",
+            "status": "NARROWED",
+            "question": "1952년 2월 정부 5월10일 선거 계획과 실제 4월25일 시읍면·5월10일 도의회 시행의 공고·권한",
+            "supportingDocumentIds": [
+              "doc-r223-nec-local-election"
+            ],
+            "nextOriginals": [
+              "선관위 원선거공고",
+              "1952 국무회의 선거 시행안",
+              "지방의회 원개표"
+            ]
+          },
+          {
+            "id": "HD-R223-FOREX",
+            "status": "OPEN",
+            "question": "1952-04-27 외환관리법 기안과 법률 제정·한은 환전상 인가 실제 여부",
+            "supportingDocumentIds": [
+              "doc-r223-nikh-04_27_0030",
+              "doc-r223-frus-83"
+            ],
+            "nextOriginals": [
+              "법제처 제정 연혁",
+              "내무부 기안철",
+              "한은 인가대장"
+            ]
+          },
+          {
+            "id": "HD-R223-POW-ICRC",
+            "status": "OPEN",
+            "question": "UNC 4/8 심사 때 ICRC 현장접근·실제 관찰 범위",
+            "supportingDocumentIds": [
+              "doc-r223-frus-85",
+              "doc-r223-frus-101"
+            ],
+            "nextOriginals": [
+              "ICRC Koje 1952-04 방문원보고",
+              "UNC 통보 공문"
+            ]
+          },
+          {
+            "id": "HD-R223-MEYER",
+            "status": "NARROWED",
+            "question": "Meyer 경제특사 공동외환관리·원화환율 6000:1/10000:1 논쟁의 한국측 최종 합의",
+            "supportingDocumentIds": [
+              "doc-r223-frus-74",
+              "doc-r223-frus-83"
+            ],
+            "nextOriginals": [
+              "1952-05-24 Meyer Agreement 원서명본",
+              "한국 외무부 협상일지"
+            ]
+          },
+          {
+            "id": "HD-R223-APR28-PACKAGE",
+            "status": "NARROWED",
+            "question": "4/26 미군 포괄안 초안과 4/28 실제 판문점 전달 및 상대반응",
+            "supportingDocumentIds": [
+              "doc-r223-frus-103",
+              "doc-r223-frus-106"
+            ],
+            "nextOriginals": [
+              "UNC C67677 원회담전문",
+              "북측 회담 원기록"
+            ]
+          }
+        ]
+      },
+      "provenance": "a191fde14b66fce37c128770609b007f1397a11b6f665d6a8012e5698923a97a"
+    },
+    {
       "source": "data/research/history-debt/run224.json",
       "payload": {
         "run": 224,
@@ -59657,6 +60069,451 @@
         ]
       },
       "provenance": "7fe29fd11d26a898ba8e0614a6437706ea388ae05afca5874297192356abcc11"
+    },
+    {
+      "source": "data/research/lead-queues/run223-next.json",
+      "payload": {
+        "run": 223,
+        "accessDate": "2026-10-28",
+        "count": 35,
+        "activeLeadIds": [
+          "L223-001",
+          "L223-002",
+          "L223-003",
+          "L223-004",
+          "L223-005",
+          "L223-006",
+          "L223-007",
+          "L223-008",
+          "L223-009",
+          "L223-010",
+          "L223-011",
+          "L223-012"
+        ],
+        "leads": [
+          {
+            "id": "L223-001",
+            "priority": "P1",
+            "institution": "국회기록원",
+            "target": "1952-04-03~10 의원내각제 개헌안 원안·서명명부·제안서 접수대장",
+            "reason": "국편 민주신보의 62/123 숫자와 실제 법적 발의/재적 의석 대조",
+            "status": "OPEN",
+            "accessDate": "2026-10-28",
+            "expectedInformationValue": "HIGH",
+            "accessibility": "ORIGINAL_NOT_OPENED_THIS_RUN",
+            "graphImpact": "CLAIM_EVENT_POLITICIAN"
+          },
+          {
+            "id": "L223-002",
+            "priority": "P1",
+            "institution": "국회기록원",
+            "target": "1952-04-05~05-10 내각책임제 개헌안 원속기록·의사일정",
+            "reason": "4/5 서명 준비와 실제 상정·심사 단계 분리",
+            "status": "OPEN",
+            "accessDate": "2026-10-28",
+            "expectedInformationValue": "HIGH",
+            "accessibility": "ORIGINAL_NOT_OPENED_THIS_RUN",
+            "graphImpact": "CLAIM_EVENT_POLITICIAN"
+          },
+          {
+            "id": "L223-003",
+            "priority": "P1",
+            "institution": "국가기록원 관보",
+            "target": "1952-04-05 신태영 국방부장관 임명 원발령",
+            "reason": "취임일·권한 근거 확인",
+            "status": "OPEN",
+            "accessDate": "2026-10-28",
+            "expectedInformationValue": "HIGH",
+            "accessibility": "ORIGINAL_NOT_OPENED_THIS_RUN",
+            "graphImpact": "CLAIM_EVENT_POLITICIAN"
+          },
+          {
+            "id": "L223-004",
+            "priority": "P1",
+            "institution": "국방부 군사편찬연구소",
+            "target": "1952-04-05 제2군단 편성명령·백선엽 지휘발령 원문",
+            "reason": "편성식 보도와 군령 결재선 구분",
+            "status": "OPEN",
+            "accessDate": "2026-10-28",
+            "expectedInformationValue": "HIGH",
+            "accessibility": "ORIGINAL_NOT_OPENED_THIS_RUN",
+            "graphImpact": "CLAIM_EVENT_POLITICIAN"
+          },
+          {
+            "id": "L223-005",
+            "priority": "P1",
+            "institution": "중앙선관위",
+            "target": "1952-04-25 시읍면 지방선거 원공고·개표표",
+            "reason": "사후 통계 80.2/88.4/93.1% 검산",
+            "status": "OPEN",
+            "accessDate": "2026-10-28",
+            "expectedInformationValue": "HIGH",
+            "accessibility": "ORIGINAL_NOT_OPENED_THIS_RUN",
+            "graphImpact": "CLAIM_EVENT_POLITICIAN"
+          },
+          {
+            "id": "L223-006",
+            "priority": "P1",
+            "institution": "중앙선관위",
+            "target": "1952-05-10 도의회 선거 선거구별 원개표·후보 명부",
+            "reason": "사후 도의회 투표율 81.2%와 정당별 의석 확인",
+            "status": "OPEN",
+            "accessDate": "2026-10-28",
+            "expectedInformationValue": "HIGH",
+            "accessibility": "ORIGINAL_NOT_OPENED_THIS_RUN",
+            "graphImpact": "CLAIM_EVENT_POLITICIAN"
+          },
+          {
+            "id": "L223-007",
+            "priority": "P1",
+            "institution": "국가기록원 내무부",
+            "target": "1952-02-20~04-25 지방의회 선거 실시 국무회의 원의안",
+            "reason": "2월 계획과 4월25일 실제 시행의 권한/절차",
+            "status": "OPEN",
+            "accessDate": "2026-10-28",
+            "expectedInformationValue": "HIGH",
+            "accessibility": "ORIGINAL_NOT_OPENED_THIS_RUN",
+            "graphImpact": "CLAIM_EVENT_POLITICIAN"
+          },
+          {
+            "id": "L223-008",
+            "priority": "P1",
+            "institution": "국가기록원 관보",
+            "target": "1952-04 내무부 외환관리·무역관리 법률안 원안",
+            "reason": "조선일보 4/27 기안과 실제 법률 공포 구분",
+            "status": "OPEN",
+            "accessDate": "2026-10-28",
+            "expectedInformationValue": "HIGH",
+            "accessibility": "ORIGINAL_NOT_OPENED_THIS_RUN",
+            "graphImpact": "CLAIM_EVENT_POLITICIAN"
+          },
+          {
+            "id": "L223-009",
+            "priority": "P1",
+            "institution": "한국은행 사료실",
+            "target": "1952-04 부산·서울 환전상 인가 방침 원회의록",
+            "reason": "한은 제안이 실제 인가됐는지",
+            "status": "OPEN",
+            "accessDate": "2026-10-28",
+            "expectedInformationValue": "HIGH",
+            "accessibility": "ORIGINAL_NOT_OPENED_THIS_RUN",
+            "graphImpact": "CLAIM_EVENT_POLITICIAN"
+          },
+          {
+            "id": "L223-010",
+            "priority": "P1",
+            "institution": "외교부 외교사료관",
+            "target": "1952-04-26 원용석 태국산 미곡 26000톤 구매보고 전문",
+            "reason": "농림부 전달원문과 계약 단계",
+            "status": "OPEN",
+            "accessDate": "2026-10-28",
+            "expectedInformationValue": "HIGH",
+            "accessibility": "ORIGINAL_NOT_OPENED_THIS_RUN",
+            "graphImpact": "CLAIM_EVENT_POLITICIAN"
+          },
+          {
+            "id": "L223-011",
+            "priority": "P1",
+            "institution": "국가기록원 농림부",
+            "target": "1952-04-28 태국산 미곡 24000톤 구매계약서·선하증권",
+            "reason": "26000 협의와 24000 구매 보도 비교",
+            "status": "OPEN",
+            "accessDate": "2026-10-28",
+            "expectedInformationValue": "HIGH",
+            "accessibility": "ORIGINAL_NOT_OPENED_THIS_RUN",
+            "graphImpact": "CLAIM_EVENT_POLITICIAN"
+          },
+          {
+            "id": "L223-012",
+            "priority": "P1",
+            "institution": "부산항 세관기록",
+            "target": "1952-04-28 구호외미 9200포 선박 입항·양하 명세",
+            "reason": "신문 입항 보도의 실제 반입 확인",
+            "status": "OPEN",
+            "accessDate": "2026-10-28",
+            "expectedInformationValue": "HIGH",
+            "accessibility": "ORIGINAL_NOT_OPENED_THIS_RUN",
+            "graphImpact": "CLAIM_EVENT_POLITICIAN"
+          },
+          {
+            "id": "L223-013",
+            "priority": "P2",
+            "institution": "국가기록원 농림부",
+            "target": "1952-04 농지개혁 상환미 수납장부·현물대체 현금징수 공문",
+            "reason": "농민 부담과 정부가격 차이 검증",
+            "status": "OPEN",
+            "accessDate": "2026-10-28",
+            "expectedInformationValue": "MEDIUM",
+            "accessibility": "ORIGINAL_NOT_OPENED_THIS_RUN",
+            "graphImpact": "DOCUMENT_OR_CLAIM"
+          },
+          {
+            "id": "L223-014",
+            "priority": "P2",
+            "institution": "국가기록원 재무부",
+            "target": "1952-04 정부 보유외환 900만달러 식량수입 예산·집행장부",
+            "reason": "6만톤 목표와 실제 집행 구분",
+            "status": "OPEN",
+            "accessDate": "2026-10-28",
+            "expectedInformationValue": "MEDIUM",
+            "accessibility": "ORIGINAL_NOT_OPENED_THIS_RUN",
+            "graphImpact": "DOCUMENT_OR_CLAIM"
+          },
+          {
+            "id": "L223-015",
+            "priority": "P2",
+            "institution": "국회기록원",
+            "target": "1952-04-27 전국 출판노동연맹 노동법 제정 청원서",
+            "reason": "노동조합의 국회 메시지 접수 확인",
+            "status": "OPEN",
+            "accessDate": "2026-10-28",
+            "expectedInformationValue": "MEDIUM",
+            "accessibility": "ORIGINAL_NOT_OPENED_THIS_RUN",
+            "graphImpact": "DOCUMENT_OR_CLAIM"
+          },
+          {
+            "id": "L223-016",
+            "priority": "P2",
+            "institution": "대한노총 문서",
+            "target": "1952-04-27 출판노동연맹 결성대회 의사록·임원 명부",
+            "reason": "전진한·조광섭 역할 및 집행위원장 결락 이름",
+            "status": "OPEN",
+            "accessDate": "2026-10-28",
+            "expectedInformationValue": "MEDIUM",
+            "accessibility": "ORIGINAL_NOT_OPENED_THIS_RUN",
+            "graphImpact": "DOCUMENT_OR_CLAIM"
+          },
+          {
+            "id": "L223-017",
+            "priority": "P2",
+            "institution": "법원 국가기록원",
+            "target": "1952-04-24 서민호·서창선 사건 공판조서·판결문",
+            "reason": "한경록 경찰 발표와 독립 사법판단 비교",
+            "status": "OPEN",
+            "accessDate": "2026-10-28",
+            "expectedInformationValue": "MEDIUM",
+            "accessibility": "ORIGINAL_NOT_OPENED_THIS_RUN",
+            "graphImpact": "DOCUMENT_OR_CLAIM"
+          },
+          {
+            "id": "L223-018",
+            "priority": "P2",
+            "institution": "전남경찰국 기록",
+            "target": "1952-04-26~29 한경록 기자회견 원발표·수사기록",
+            "reason": "신문 전사의 피의자 진술 인용 경로",
+            "status": "OPEN",
+            "accessDate": "2026-10-28",
+            "expectedInformationValue": "MEDIUM",
+            "accessibility": "ORIGINAL_NOT_OPENED_THIS_RUN",
+            "graphImpact": "DOCUMENT_OR_CLAIM"
+          },
+          {
+            "id": "L223-019",
+            "priority": "P2",
+            "institution": "국회기록원",
+            "target": "1952-04 서민호 수행 정진동 국회 전문위원 인사원부",
+            "reason": "정진동 신원·직책 검증",
+            "status": "OPEN",
+            "accessDate": "2026-10-28",
+            "expectedInformationValue": "MEDIUM",
+            "accessibility": "ORIGINAL_NOT_OPENED_THIS_RUN",
+            "graphImpact": "DOCUMENT_OR_CLAIM"
+          },
+          {
+            "id": "L223-020",
+            "priority": "P2",
+            "institution": "전남 승주군 행정문서",
+            "target": "1952-04 승주군수 이판호 인사발령·출장기록",
+            "reason": "사건 참석자와 군수 직책 확인",
+            "status": "OPEN",
+            "accessDate": "2026-10-28",
+            "expectedInformationValue": "MEDIUM",
+            "accessibility": "ORIGINAL_NOT_OPENED_THIS_RUN",
+            "graphImpact": "DOCUMENT_OR_CLAIM"
+          },
+          {
+            "id": "L223-021",
+            "priority": "P2",
+            "institution": "국가기록원 외자관리청",
+            "target": "1952-04 현근 청장 겸 외자구매처장 인사원부",
+            "reason": "동명이인 및 겸직 기간 확인",
+            "status": "OPEN",
+            "accessDate": "2026-10-28",
+            "expectedInformationValue": "MEDIUM",
+            "accessibility": "ORIGINAL_NOT_OPENED_THIS_RUN",
+            "graphImpact": "DOCUMENT_OR_CLAIM"
+          },
+          {
+            "id": "L223-022",
+            "priority": "P2",
+            "institution": "US NARA RG59",
+            "target": "1952-03-28 795B.5 MSP/3-2852 Meyer mission signed terms",
+            "reason": "FRUS d74 초안과 최종 협상권한 비교",
+            "status": "OPEN",
+            "accessDate": "2026-10-28",
+            "expectedInformationValue": "MEDIUM",
+            "accessibility": "ORIGINAL_NOT_OPENED_THIS_RUN",
+            "graphImpact": "DOCUMENT_OR_CLAIM"
+          },
+          {
+            "id": "L223-023",
+            "priority": "P2",
+            "institution": "US NARA RG59",
+            "target": "1952-04-04 795B.5 MSP/3-3152 Meyer objectives attachments",
+            "reason": "FRUS d83 누락 부속문서·원화 정산항목 확인",
+            "status": "OPEN",
+            "accessDate": "2026-10-28",
+            "expectedInformationValue": "MEDIUM",
+            "accessibility": "ORIGINAL_NOT_OPENED_THIS_RUN",
+            "graphImpact": "DOCUMENT_OR_CLAIM"
+          },
+          {
+            "id": "L223-024",
+            "priority": "P2",
+            "institution": "한국은행 사료실",
+            "target": "1952-04 원화대여 준비계정 7000만달러 대응 원화 장부",
+            "reason": "미국 달러 준비계정과 한국 실제 수취 분리",
+            "status": "OPEN",
+            "accessDate": "2026-10-28",
+            "expectedInformationValue": "MEDIUM",
+            "accessibility": "ORIGINAL_NOT_OPENED_THIS_RUN",
+            "graphImpact": "DOCUMENT_OR_CLAIM"
+          },
+          {
+            "id": "L223-025",
+            "priority": "P2",
+            "institution": "US NARA JCS",
+            "target": "1952-04-03 JCS905426 원송신본",
+            "reason": "Operation Scatter 승인 시점·승인권자 확인",
+            "status": "OPEN",
+            "accessDate": "2026-10-28",
+            "expectedInformationValue": "MEDIUM",
+            "accessibility": "ORIGINAL_NOT_OPENED_THIS_RUN",
+            "graphImpact": "DOCUMENT_OR_CLAIM"
+          },
+          {
+            "id": "L223-026",
+            "priority": "P2",
+            "institution": "US NARA JCS",
+            "target": "1952-04-10 C66649 Operation Scatter interview scripts",
+            "reason": "포로 자유의사 확인 절차·번역 검증",
+            "status": "OPEN",
+            "accessDate": "2026-10-28",
+            "expectedInformationValue": "MEDIUM",
+            "accessibility": "ORIGINAL_NOT_OPENED_THIS_RUN",
+            "graphImpact": "DOCUMENT_OR_CLAIM"
+          },
+          {
+            "id": "L223-027",
+            "priority": "P2",
+            "institution": "ICRC archive",
+            "target": "1952-04-08~29 거제도 ICRC 방문일지·심사관찰 원보고",
+            "reason": "UNC 비공개 심사와 독립 감시 확인",
+            "status": "OPEN",
+            "accessDate": "2026-10-28",
+            "expectedInformationValue": "MEDIUM",
+            "accessibility": "ORIGINAL_NOT_OPENED_THIS_RUN",
+            "graphImpact": "DOCUMENT_OR_CLAIM"
+          },
+          {
+            "id": "L223-028",
+            "priority": "P2",
+            "institution": "UNC 8th Army records",
+            "target": "1952-04-11 C66832 원심사 명부·수용소별 원장",
+            "reason": "북한·중국·남한·민간인 범주 수치 검산",
+            "status": "OPEN",
+            "accessDate": "2026-10-28",
+            "expectedInformationValue": "MEDIUM",
+            "accessibility": "ORIGINAL_NOT_OPENED_THIS_RUN",
+            "graphImpact": "DOCUMENT_OR_CLAIM"
+          },
+          {
+            "id": "L223-029",
+            "priority": "P2",
+            "institution": "US NARA JCS",
+            "target": "1952-04-15 JCS906314·4/16 JCS906539 원송신본",
+            "reason": "재심사 권한 및 대통령 승인 범위",
+            "status": "OPEN",
+            "accessDate": "2026-10-28",
+            "expectedInformationValue": "MEDIUM",
+            "accessibility": "ORIGINAL_NOT_OPENED_THIS_RUN",
+            "graphImpact": "DOCUMENT_OR_CLAIM"
+          },
+          {
+            "id": "L223-030",
+            "priority": "P2",
+            "institution": "UNC POW Camp 95",
+            "target": "1952-04-10 compound95 사상자 4경비+3포로 원상황일지",
+            "reason": "FRUS d89 각주 수치의 독립 확인",
+            "status": "OPEN",
+            "accessDate": "2026-10-28",
+            "expectedInformationValue": "MEDIUM",
+            "accessibility": "ORIGINAL_NOT_OPENED_THIS_RUN",
+            "graphImpact": "DOCUMENT_OR_CLAIM"
+          },
+          {
+            "id": "L223-031",
+            "priority": "P2",
+            "institution": "UNC Panmunjom",
+            "target": "1952-04-28 C67677 plenary executive session original",
+            "reason": "FRUS d106 편집주석의 실제 전달·발언 확인",
+            "status": "OPEN",
+            "accessDate": "2026-10-28",
+            "expectedInformationValue": "MEDIUM",
+            "accessibility": "ORIGINAL_NOT_OPENED_THIS_RUN",
+            "graphImpact": "DOCUMENT_OR_CLAIM"
+          },
+          {
+            "id": "L223-032",
+            "priority": "P2",
+            "institution": "호주 국립기록원",
+            "target": "1952-04-26 P.C.Spender 미 국무부 회담 호주측 원보고",
+            "reason": "미측 기록 d101의 호주 이견 독립 교차",
+            "status": "OPEN",
+            "accessDate": "2026-10-28",
+            "expectedInformationValue": "MEDIUM",
+            "accessibility": "ORIGINAL_NOT_OPENED_THIS_RUN",
+            "graphImpact": "DOCUMENT_OR_CLAIM"
+          },
+          {
+            "id": "L223-033",
+            "priority": "P2",
+            "institution": "영국 국립기록원 FO371",
+            "target": "1952-04-02 Tomlinson-Johnson 협의 영국측 전문",
+            "reason": "FRUS d77 포괄안 비최후통첩 인식 교차",
+            "status": "OPEN",
+            "accessDate": "2026-10-28",
+            "expectedInformationValue": "MEDIUM",
+            "accessibility": "ORIGINAL_NOT_OPENED_THIS_RUN",
+            "graphImpact": "DOCUMENT_OR_CLAIM"
+          },
+          {
+            "id": "L223-034",
+            "priority": "P2",
+            "institution": "US NARA CIA INR",
+            "target": "1952-04-28 Special National Intelligence Estimate SE-25 annex A",
+            "reason": "공산군 전력 502000→866000 추정 근거",
+            "status": "OPEN",
+            "accessDate": "2026-10-28",
+            "expectedInformationValue": "MEDIUM",
+            "accessibility": "ORIGINAL_NOT_OPENED_THIS_RUN",
+            "graphImpact": "DOCUMENT_OR_CLAIM"
+          },
+          {
+            "id": "L223-035",
+            "priority": "P2",
+            "institution": "트루먼 대통령도서관",
+            "target": "1952-04-30 Acheson memorandum 및 Truman action log",
+            "reason": "이승만 3/21 방위조약 요청에 대한 실제 대통령 결론",
+            "status": "OPEN",
+            "accessDate": "2026-10-28",
+            "expectedInformationValue": "MEDIUM",
+            "accessibility": "ORIGINAL_NOT_OPENED_THIS_RUN",
+            "graphImpact": "DOCUMENT_OR_CLAIM"
+          }
+        ]
+      },
+      "provenance": "50d8fe01b6fe01cfd3b84b2b3ae41dda115131352f9e783d7d880ec73b5ed887"
     },
     {
       "source": "data/research/lead-queues/run224-next.json",
@@ -123983,6 +124840,115 @@
         "documentAudit": "data/research/runs/2026-10-08-run88-document-audit.json"
       },
       "provenance": "63ac73edc9eb211d426194ffc8dc08828c36f9e83c8e3dfa639bf3b8fa18126e"
+    },
+    {
+      "source": "data/research/runs/2026-10-28-run223-ledger.json",
+      "payload": {
+        "run": 223,
+        "accessDate": "2026-10-28",
+        "basePR": 71,
+        "baseCommit": "7805effbbf3772e74f5980fba7ae0af3ff29a314",
+        "branch": "research/run223-apr1952-pow-elections-governance",
+        "counts": {
+          "independentResearchLines": 25,
+          "governanceDomains": 11,
+          "nonPresidentActorsDeepenedOrIdentityReviewed": 10,
+          "newProvisionalCandidates": 5,
+          "formalPromotions": 0,
+          "eventsOrSubevents": 21,
+          "openedSubstantiveDocumentPages": 49,
+          "deduplicatedUnderlyingDocuments": 49,
+          "officialPrimaryOriginEditedDocuments": 38,
+          "contemporaneousKoreanPressTranscriptions": 11,
+          "archivalMetadataPagesExcluded": 3,
+          "originalFacsimilesInspected": 0,
+          "adversarialClaimChecks": 17,
+          "priorLeadsTracked": 11,
+          "newSpecificLeads": 35,
+          "contextualCrossFamilyComparisons": 3,
+          "strictThreeIndependentPrimaryFamilyConfirmations": 0
+        },
+        "researchLines": [
+          "의원내각제 개헌 서명추진",
+          "신태영 국방장관 정치불개입 발언",
+          "제2군단 편성 및 지휘 인사",
+          "1952 시읍면·도의회 선거 시차",
+          "내무부 외환관리법 기안",
+          "한국은행 환전상 인가구상",
+          "태국 양곡구매사절단 협상",
+          "농지개혁 상환미 징수 문제",
+          "구호외미 입항 및 배급",
+          "농림부 식량증산 계획",
+          "출판노동연맹 결성·노동법 청원",
+          "서민호 총격 경찰 발표·사법구분",
+          "미 Meyer 경제특사 권한",
+          "원화대여 달러준비계정·환율",
+          "포로 강제송환 심사 개시",
+          "포로심사 미완료 및 재분류",
+          "ICRC 관찰권·비공개 운영",
+          "거제도 수용소 소요·강제심사 위험",
+          "소련 정전감시위원회 참여 절충",
+          "미영 포괄협상안 비최후통첩 논의",
+          "미 합참·Ridgway 포로명부 협상단계",
+          "호주 외교관 포로심사 반대의견",
+          "미 UN 추가병력 외교 교섭",
+          "미 SE-25 공산군 공격의도 평가",
+          "이승만 상호방위조약 요청에 대한 미국 반응"
+        ],
+        "comparisons": [
+          {
+            "topic": "1952년 최초 지방선거 실시일",
+            "families": [
+              "중앙선관위 사후 공식 선거통계",
+              "국편 헌정사 사후 해제"
+            ],
+            "documentIds": [
+              "doc-r223-nec-local-election"
+            ],
+            "finding": "시읍면 4/25, 도의회 5/10을 선관위 원표로 확인; 두 사후 기관 설명은 동일 원개표의 독립 1차확증이 아님",
+            "strictThreeIndependentPrimaryFamilies": false
+          },
+          {
+            "topic": "전시 외환·경제조정",
+            "families": [
+              "US FRUS 원작성 외교문서 편집전사",
+              "조선일보 동시대 보도"
+            ],
+            "documentIds": [
+              "doc-r223-frus-83",
+              "doc-r223-nikh-04_27_0030"
+            ],
+            "finding": "미측 공동외환관리 협상과 국내 외환관리법 기안을 분리",
+            "strictThreeIndependentPrimaryFamilies": false
+          },
+          {
+            "topic": "태국쌀·식량수급",
+            "families": [
+              "동아일보 동시대 농림부 인용",
+              "민주신보 동시대 농림부 인용"
+            ],
+            "documentIds": [
+              "doc-r223-nikh-04_27_0040",
+              "doc-r223-nikh-04_28_0040"
+            ],
+            "finding": "26000t 협의 보도와 24000t 구매 보도는 동일 단계 원장 확인 전 충돌 확정 금지",
+            "strictThreeIndependentPrimaryFamilies": false
+          }
+        ],
+        "sourceLimitations": [
+          "FRUS d79/d106 are editorial notes excluded from substantive count",
+          "NEC retrospective official election table excluded from original document count",
+          "NIKH transcription original newspaper facsimiles not opened",
+          "Some NIKH IDs returned access error and were not counted",
+          "Cross-family contextual comparisons are not strict three-independent-primary-family confirmations"
+        ],
+        "elapsedTimeClaim": "NOT_CLAIMED_ONE_HOUR",
+        "flootTouched": false,
+        "weeklyHistoryDebtFullReview": false,
+        "weeklyHistoryDebtStatement": "역사부채 주간 전수조사 미실시",
+        "stopReason": "This interactive tool invocation ended after coherent research commit, not a claim of one hour elapsed"
+      },
+      "provenance": "c7626806a31cb91e8bbb175ded6c91a9a4722e8d0df18e9355d18fad903eca65"
     },
     {
       "source": "data/research/runs/2026-10-28-run224-ledger.json",

@@ -1,32 +1,32 @@
 {
   "canonicalMaterialized": {
-    "documents": 4532,
-    "claims": 2097,
-    "events": 2245,
-    "politicians": 234,
+    "documents": 4584,
+    "claims": 2114,
+    "events": 2266,
+    "politicians": 241,
     "organizations": 77
   },
   "canonicalDirectory": "data/integration/canonical",
-  "sourceFiles": 2258,
+  "sourceFiles": 2269,
   "totals": {
     "documents": {
-      "sourceRecords": 4773,
-      "uniqueIds": 4640,
+      "sourceRecords": 4825,
+      "uniqueIds": 4692,
       "conflictedIds": 108
     },
     "claims": {
-      "sourceRecords": 2147,
-      "uniqueIds": 2119,
+      "sourceRecords": 2164,
+      "uniqueIds": 2136,
       "conflictedIds": 22
     },
     "events": {
-      "sourceRecords": 3941,
-      "uniqueIds": 2752,
+      "sourceRecords": 3962,
+      "uniqueIds": 2773,
       "conflictedIds": 507
     },
     "politicians": {
-      "sourceRecords": 1271,
-      "uniqueIds": 498,
+      "sourceRecords": 1281,
+      "uniqueIds": 505,
       "conflictedIds": 264
     },
     "organizations": {
@@ -8347,7 +8347,7 @@
     {
       "type": "politicians",
       "id": "pol-paik-sun-yup",
-      "variantCount": 10,
+      "variantCount": 11,
       "sources": [
         "data/politicians.json",
         "data/politicians/pass-235-1953-assembly-cabinet-actors.json",
@@ -8358,7 +8358,8 @@
         "data/politicians/pass-239i-postarmistice-actors.json",
         "data/politicians/pass-241-1956-57-actors.json",
         "data/politicians/pass-242-1957-actors.json",
-        "data/politicians/pass-243-1958-actor-evidence.json"
+        "data/politicians/pass-243-1958-actor-evidence.json",
+        "data/politicians/run223-apr1952-actors.json"
       ]
     },
     {
@@ -8512,9 +8513,10 @@
     {
       "type": "politicians",
       "id": "pol-r164-seo-min-ho",
-      "variantCount": 3,
+      "variantCount": 4,
       "sources": [
         "data/politicians.json",
+        "data/politicians/run223-apr1952-actors.json",
         "data/politicians/run224-may1952-actors.json",
         "data/politicians/run225-june1952-actors.json"
       ]
@@ -8567,8 +8569,9 @@
     {
       "type": "politicians",
       "id": "pol-shin-tae-young",
-      "variantCount": 2,
+      "variantCount": 3,
       "sources": [
+        "data/politicians/run223-apr1952-actors.json",
         "data/research/candidates/pass-243-1952-cabinet-politician-nodes.json",
         "data/research/politicians/pass-234-martial-law-command-actors.json"
       ]
@@ -12934,6 +12937,7 @@
     "data/evidence/pass-255f-actor-evidence.json",
     "data/evidence/pass-255h-actor-evidence.json",
     "data/evidence/pass-257p-unkra-housing-source-relations.json",
+    "data/evidence/politicians/run223-evidence.json",
     "data/evidence/politicians/run224-evidence.json",
     "data/evidence/politicians/run225-evidence.json",
     "data/evidence/pyun-yong-tae-1953-may-june.json",
@@ -13122,6 +13126,7 @@
     "data/research/coverage/pass-257v-1954-education-election.json",
     "data/research/coverage/pass-258a-1954-governance-coverage.json",
     "data/research/coverage/pass-258b-1953-54-aid-authority-coverage.json",
+    "data/research/coverage/run223.json",
     "data/research/coverage/run224.json",
     "data/research/coverage/run225.json",
     "data/research/cross-checks/pass-243-provenance.json",
@@ -13196,6 +13201,7 @@
     "data/research/history-debt/pass-258b-1953-54-aid-control-unresolved.json",
     "data/research/history-debt/pass-258e-1956-domestic-triage.json",
     "data/research/history-debt/pass-258f-unresolved.json",
+    "data/research/history-debt/run223.json",
     "data/research/history-debt/run224.json",
     "data/research/history-debt/run225.json",
     "data/research/history-debt-review-state.json",
@@ -13217,6 +13223,7 @@
     "data/research/lead-queues/pass309-next.json",
     "data/research/lead-queues/pass310-next.json",
     "data/research/lead-queues/pass311-second-republic-next.json",
+    "data/research/lead-queues/run223-next.json",
     "data/research/lead-queues/run224-next.json",
     "data/research/lead-queues/run225-next.json",
     "data/research/lead-queues/run88-a-health-local.json",
@@ -13504,6 +13511,7 @@
     "data/research/runs/2026-10-08-run81-land-legal-continuity.json",
     "data/research/runs/2026-10-08-run88-document-audit.json",
     "data/research/runs/2026-10-08-run88-ledger.json",
+    "data/research/runs/2026-10-28-run223-ledger.json",
     "data/research/runs/2026-10-28-run224-ledger.json",
     "data/research/runs/2026-10-28-run225-ledger.json",
     "data/research/runs/pass-143-execution-ledger.json",
@@ -13744,6 +13752,10 @@
     },
     {
       "path": "data/evidence/pass-257p-unkra-housing-source-relations.json",
+      "reason": "AUXILIARY_ONLY_NOT_CANONICAL"
+    },
+    {
+      "path": "data/evidence/politicians/run223-evidence.json",
       "reason": "AUXILIARY_ONLY_NOT_CANONICAL"
     },
     {
@@ -14499,6 +14511,10 @@
       "reason": "AUXILIARY_ONLY_NOT_CANONICAL"
     },
     {
+      "path": "data/research/coverage/run223.json",
+      "reason": "AUXILIARY_ONLY_NOT_CANONICAL"
+    },
+    {
       "path": "data/research/coverage/run224.json",
       "reason": "AUXILIARY_ONLY_NOT_CANONICAL"
     },
@@ -14795,6 +14811,10 @@
       "reason": "AUXILIARY_ONLY_NOT_CANONICAL"
     },
     {
+      "path": "data/research/history-debt/run223.json",
+      "reason": "AUXILIARY_ONLY_NOT_CANONICAL"
+    },
+    {
       "path": "data/research/history-debt/run224.json",
       "reason": "AUXILIARY_ONLY_NOT_CANONICAL"
     },
@@ -14876,6 +14896,10 @@
     },
     {
       "path": "data/research/lead-queues/pass311-second-republic-next.json",
+      "reason": "AUXILIARY_ONLY_NOT_CANONICAL"
+    },
+    {
+      "path": "data/research/lead-queues/run223-next.json",
       "reason": "AUXILIARY_ONLY_NOT_CANONICAL"
     },
     {
@@ -16024,6 +16048,10 @@
     },
     {
       "path": "data/research/runs/2026-10-08-run88-ledger.json",
+      "reason": "AUXILIARY_ONLY_NOT_CANONICAL"
+    },
+    {
+      "path": "data/research/runs/2026-10-28-run223-ledger.json",
       "reason": "AUXILIARY_ONLY_NOT_CANONICAL"
     },
     {

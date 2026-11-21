@@ -3,8 +3,8 @@
   "scope": "Evidence, annals, coverage and open leads sidecar",
   "policy": "Only explicit IDs or exact registry file references count; no filename-based identity assumptions",
   "layerCounts": {
-    "annals": 144,
-    "evidence": 64,
+    "annals": 145,
+    "evidence": 65,
     "coverage": 7,
     "open_leads": 3
   },
@@ -1793,6 +1793,14 @@
       "status": "NO_EXPLICIT_IDENTITY"
     },
     {
+      "source": "data/annals/rhee-apr1952-run223.md",
+      "sha256": "c425b5e69110176d92b0b9cde0ee5de7589edd4b445725c81628c982c42d59a6",
+      "layer": "annals",
+      "declaredIds": [],
+      "candidatePoliticianIds": [],
+      "status": "NO_EXPLICIT_IDENTITY"
+    },
+    {
       "source": "data/annals/rhee-june1952-run225.md",
       "sha256": "7a69e727664bf7ea2dceaf8f3ef144405904267268bc9c140a6d72929042f96d",
       "layer": "annals",
@@ -1995,6 +2003,14 @@
     {
       "source": "data/evidence/pass-304-local-autonomy-dec24.json",
       "sha256": "7a5271ad0470f2df7002c6a2408118c72d5ce9034b41465210d56a7184a57e6c",
+      "layer": "evidence",
+      "declaredIds": [],
+      "candidatePoliticianIds": [],
+      "status": "NO_EXPLICIT_IDENTITY"
+    },
+    {
+      "source": "data/evidence/politicians/run223-evidence.json",
+      "sha256": "e4a0a51dbc574c4c60b7fe22d516c8374153748a4347806253ff68967acf6df2",
       "layer": "evidence",
       "declaredIds": [],
       "candidatePoliticianIds": [],

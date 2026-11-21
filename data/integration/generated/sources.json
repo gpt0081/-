@@ -1692,6 +1692,19 @@
       }
     },
     {
+      "path": "data/annals/rhee-apr1952-run223.md",
+      "sha256": "c425b5e69110176d92b0b9cde0ee5de7589edd4b445725c81628c982c42d59a6",
+      "bytes": 2684,
+      "status": "NON_JSON_SOURCE_PRESERVED",
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0
+      }
+    },
+    {
       "path": "data/annals/rhee-june1952-run225.md",
       "sha256": "7a69e727664bf7ea2dceaf8f3ef144405904267268bc9c140a6d72929042f96d",
       "bytes": 3596,
@@ -3991,6 +4004,23 @@
       },
       "centralMapping": {
         "integrated": 4,
+        "conflicted": 0
+      }
+    },
+    {
+      "path": "data/claims/run223-apr1952-adversarial.json",
+      "sha256": "120800e74db0191575f1e611f16883df0a249ccbebcf0110c9f38b83c9f79e57",
+      "bytes": 11309,
+      "status": "CANONICAL_MATERIALIZED",
+      "recordCounts": {
+        "documents": 0,
+        "claims": 17,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0
+      },
+      "centralMapping": {
+        "integrated": 17,
         "conflicted": 0
       }
     },
@@ -6845,6 +6875,23 @@
       },
       "centralMapping": {
         "integrated": 10,
+        "conflicted": 0
+      }
+    },
+    {
+      "path": "data/documents/run223-apr1952-frus-korean.json",
+      "sha256": "ceeb9768a958b436f8bed5785d98d64418815b6d7d7f91a15c7f07682f0faa22",
+      "bytes": 48927,
+      "status": "CANONICAL_MATERIALIZED",
+      "recordCounts": {
+        "documents": 52,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0
+      },
+      "centralMapping": {
+        "integrated": 52,
         "conflicted": 0
       }
     },
@@ -9805,6 +9852,23 @@
       }
     },
     {
+      "path": "data/events/run223-apr1952-actions.json",
+      "sha256": "f1708fad7f2924832b0a859ec6240afa5f227616489011cdb75bca110e506317",
+      "bytes": 16903,
+      "status": "CANONICAL_MATERIALIZED",
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 21,
+        "politicians": 0,
+        "organizations": 0
+      },
+      "centralMapping": {
+        "integrated": 21,
+        "conflicted": 0
+      }
+    },
+    {
       "path": "data/events/run224-may1952-constitutional-pow-economy.json",
       "sha256": "27c89cb943d54ff07c586e9287927bc7a701f6803188c9d61205ba77c5e12a23",
       "bytes": 19762,
@@ -10932,6 +10996,24 @@
       "centralMapping": {
         "integrated": 10,
         "conflicted": 1
+      }
+    },
+    {
+      "path": "data/evidence/politicians/run223-evidence.json",
+      "sha256": "e4a0a51dbc574c4c60b7fe22d516c8374153748a4347806253ff68967acf6df2",
+      "bytes": 3584,
+      "status": "AUXILIARY_JSON_INDEXED",
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0
+      },
+      "centralMapping": {
+        "integrated": 0,
+        "conflicted": 0,
+        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
       }
     },
     {
@@ -13133,6 +13215,23 @@
         "integrated": 0,
         "conflicted": 0,
         "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+      }
+    },
+    {
+      "path": "data/politicians/run223-apr1952-actors.json",
+      "sha256": "bfa04cb88f2043658363a1c6ec49f90a2e6ba58a6ab811267de414f7904fe824",
+      "bytes": 11652,
+      "status": "CONFLICT_REVIEW_REQUIRED",
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 10,
+        "organizations": 0
+      },
+      "centralMapping": {
+        "integrated": 7,
+        "conflicted": 3
       }
     },
     {
@@ -18388,6 +18487,24 @@
       }
     },
     {
+      "path": "data/research/coverage/run223.json",
+      "sha256": "c862a7c2ab0bfcacb3c792578391e14e740808edab294be9bbad94c5c5570279",
+      "bytes": 1604,
+      "status": "AUXILIARY_JSON_INDEXED",
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0
+      },
+      "centralMapping": {
+        "integrated": 0,
+        "conflicted": 0,
+        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+      }
+    },
+    {
       "path": "data/research/coverage/run224.json",
       "sha256": "c58a1083571e6a1b56eda644f205f761e27b599da220347259cc81acb4dfd35f",
       "bytes": 797,
@@ -22093,6 +22210,24 @@
       }
     },
     {
+      "path": "data/research/history-debt/run223.json",
+      "sha256": "a191fde14b66fce37c128770609b007f1397a11b6f665d6a8012e5698923a97a",
+      "bytes": 6647,
+      "status": "AUXILIARY_JSON_INDEXED",
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0
+      },
+      "centralMapping": {
+        "integrated": 0,
+        "conflicted": 0,
+        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+      }
+    },
+    {
       "path": "data/research/history-debt/run224.json",
       "sha256": "2066177fcca352363be1c419e8ca813421dd63f6b6557c570b844968dde83099",
       "bytes": 3305,
@@ -22781,6 +22916,24 @@
       "path": "data/research/lead-queues/pass311-second-republic-next.json",
       "sha256": "7fe29fd11d26a898ba8e0614a6437706ea388ae05afca5874297192356abcc11",
       "bytes": 8578,
+      "status": "AUXILIARY_JSON_INDEXED",
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0
+      },
+      "centralMapping": {
+        "integrated": 0,
+        "conflicted": 0,
+        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+      }
+    },
+    {
+      "path": "data/research/lead-queues/run223-next.json",
+      "sha256": "50d8fe01b6fe01cfd3b84b2b3ae41dda115131352f9e783d7d880ec73b5ed887",
+      "bytes": 16172,
       "status": "AUXILIARY_JSON_INDEXED",
       "recordCounts": {
         "documents": 0,
@@ -34476,6 +34629,37 @@
         "integrated": 0,
         "conflicted": 0,
         "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+      }
+    },
+    {
+      "path": "data/research/runs/2026-10-28-run223-ledger.json",
+      "sha256": "c7626806a31cb91e8bbb175ded6c91a9a4722e8d0df18e9355d18fad903eca65",
+      "bytes": 4179,
+      "status": "AUXILIARY_JSON_INDEXED",
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0
+      },
+      "centralMapping": {
+        "integrated": 0,
+        "conflicted": 0,
+        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+      }
+    },
+    {
+      "path": "data/research/runs/2026-10-28-run223-report.md",
+      "sha256": "727c9bafd98000f67d3c885eb6945f6bea0a601d211cafa8798838115387778e",
+      "bytes": 3738,
+      "status": "NON_JSON_SOURCE_PRESERVED",
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0
       }
     },
     {
