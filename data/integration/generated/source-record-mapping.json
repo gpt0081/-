@@ -10171,6 +10171,24 @@
         }
       ]
     },
+    "data/claims/run329-kim-seong-su-resignation.json": {
+      "integrated": 2,
+      "conflicted": 0,
+      "records": [
+        {
+          "kind": "claims",
+          "id": "clm-1952-kim-seong-su-resignation-procedure",
+          "pointer": "/claims/0",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "claims",
+          "id": "clm-1952-kim-seong-su-resignation-stated-reasons",
+          "pointer": "/claims/1",
+          "status": "INTEGRATED"
+        }
+      ]
+    },
     "data/claims/run50-pow-armistice-claims.json": {
       "integrated": 5,
       "conflicted": 0,
@@ -31159,6 +31177,48 @@
         }
       ]
     },
+    "data/documents/run329-kim-seong-su-resignation.json": {
+      "integrated": 6,
+      "conflicted": 0,
+      "records": [
+        {
+          "kind": "documents",
+          "id": "DOC-AKS-BUSAN-POLITICAL-CRISIS",
+          "pointer": "/documents/3",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "DOC-AKS-KIM-SEONG-SU-ENCYCLOPEDIA",
+          "pointer": "/documents/2",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "DOC-DONGA-2010-KIM-RESIGNATION-REPRODUCTION",
+          "pointer": "/documents/5",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "DOC-NIKH-DH025-19520529-0050",
+          "pointer": "/documents/0",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "DOC-NIKH-DH025-19520628-0050",
+          "pointer": "/documents/1",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "DOC-NIKH-TCCT-1955-02-18-0010",
+          "pointer": "/documents/4",
+          "status": "INTEGRATED"
+        }
+      ]
+    },
     "data/documents/run33-1952-constitutional-statecraft.json": {
       "integrated": 24,
       "conflicted": 0,
@@ -34418,7 +34478,7 @@
       ]
     },
     "data/events.json": {
-      "integrated": 685,
+      "integrated": 687,
       "conflicted": 451,
       "records": [
         {
@@ -34456,6 +34516,18 @@
           "id": "evt-1951-national-defense-corps",
           "pointer": "/events/223",
           "status": "CONFLICTED"
+        },
+        {
+          "kind": "events",
+          "id": "evt-1952-0529-kim-seong-su-resignation-submitted",
+          "pointer": "/events/1136",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "events",
+          "id": "evt-1952-0628-kim-seong-su-resignation-accepted",
+          "pointer": "/events/1137",
+          "status": "INTEGRATED"
         },
         {
           "kind": "events",
@@ -54014,7 +54086,7 @@
       ]
     },
     "data/politicians.json": {
-      "integrated": 97,
+      "integrated": 99,
       "conflicted": 262,
       "records": [
         {
@@ -55717,6 +55789,12 @@
         },
         {
           "kind": "politicians",
+          "id": "cand-r218-lee-jong-chan-martial1951",
+          "pointer": "/politicians/360",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "politicians",
           "id": "cand-r224-an-sang-han",
           "pointer": "/politicians/346",
           "status": "CONFLICTED"
@@ -56068,6 +56146,12 @@
           "id": "pol-r164-kim-dong-seong",
           "pointer": "/politicians/340",
           "status": "CONFLICTED"
+        },
+        {
+          "kind": "politicians",
+          "id": "pol-r164-kim-seong-su",
+          "pointer": "/politicians/359",
+          "status": "INTEGRATED"
         },
         {
           "kind": "politicians",

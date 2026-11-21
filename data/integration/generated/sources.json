@@ -1419,6 +1419,19 @@
       }
     },
     {
+      "path": "data/annals/kim-seong-su.md",
+      "sha256": "7bed730a1a4400eddb4bcf9da46935c2d2e9cab7ff347c2ba7679f793a6baacb",
+      "bytes": 5007,
+      "status": "NON_JSON_SOURCE_PRESERVED",
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0
+      }
+    },
+    {
       "path": "data/annals/kim-seong-suk-jeju.md",
       "sha256": "914ea501852612c657274dc584f7cdc6476d6706d2d0d3c67b91c39f0056c999",
       "bytes": 479,
@@ -1875,8 +1888,8 @@
     },
     {
       "path": "data/claims/frus-1952-september-264-269-central.json",
-      "sha256": "27f8b589eb123c2325bf96daf4fd0258818fb7dc0cc7100e9eebf4ca7f3a6a1d",
-      "bytes": 3343,
+      "sha256": "b990fae94dcd0957d7fda1019cefb09e746fa9abe9c8f83b1d3b4886b1125769",
+      "bytes": 3612,
       "status": "CONFLICT_REVIEW_REQUIRED",
       "recordCounts": {
         "documents": 0,
@@ -4135,6 +4148,23 @@
       }
     },
     {
+      "path": "data/claims/run329-kim-seong-su-resignation.json",
+      "sha256": "fcd122695370e3cd2c84a55150c0263db15e6615f929bda4fbc3a82faf3cd554",
+      "bytes": 4291,
+      "status": "CANONICAL_MATERIALIZED",
+      "recordCounts": {
+        "documents": 0,
+        "claims": 2,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0
+      },
+      "centralMapping": {
+        "integrated": 2,
+        "conflicted": 0
+      }
+    },
+    {
       "path": "data/claims/run50-pow-armistice-claims.json",
       "sha256": "3e5e8fe6a05e0ecf1f131915cb05cc599b03b9fe916b977c7c13c6fa424d688c",
       "bytes": 1256,
@@ -5731,8 +5761,8 @@
     },
     {
       "path": "data/documents/pass-253-1952-september-frus-and-domestic.json",
-      "sha256": "47213ab40fda98da93ee4b324bf83637dcf19ef6c08605da4577d735a7f291e8",
-      "bytes": 32554,
+      "sha256": "b09140a5b7271c045227ff40c280960303db78219b71ec95bf05e60b41050176",
+      "bytes": 32796,
       "status": "CANONICAL_MATERIALIZED",
       "recordCounts": {
         "documents": 42,
@@ -6820,8 +6850,8 @@
     },
     {
       "path": "data/documents/run224-may1952-frus-korean-primary.json",
-      "sha256": "2ebbf39dba99b9fb5690e55242921dc55b97373f82de1d5fc21c95552a4bcbdf",
-      "bytes": 41052,
+      "sha256": "f4796ba10bdca31db9bb9ce10d303a49817d160a6095728f8953e538895cc2d0",
+      "bytes": 41347,
       "status": "CANONICAL_MATERIALIZED",
       "recordCounts": {
         "documents": 63,
@@ -6958,6 +6988,23 @@
       "path": "data/documents/run32-pusan-domestic-actors.json",
       "sha256": "ab095cd235865be5787f8366e982ca0dfa212809a41c2678d350cf161206120f",
       "bytes": 5206,
+      "status": "CANONICAL_MATERIALIZED",
+      "recordCounts": {
+        "documents": 6,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0
+      },
+      "centralMapping": {
+        "integrated": 6,
+        "conflicted": 0
+      }
+    },
+    {
+      "path": "data/documents/run329-kim-seong-su-resignation.json",
+      "sha256": "df6e96bdd6a15b8185014deb4da598f60a1ec76a5a841a4de03102600769be40",
+      "bytes": 7908,
       "status": "CANONICAL_MATERIALIZED",
       "recordCounts": {
         "documents": 6,
@@ -9759,8 +9806,8 @@
     },
     {
       "path": "data/events/run224-may1952-constitutional-pow-economy.json",
-      "sha256": "4893f1237ca9e937183460eb96b3f4e6a68dd804ae7b80e2eb84d1a8442ffc5e",
-      "bytes": 18881,
+      "sha256": "27c89cb943d54ff07c586e9287927bc7a701f6803188c9d61205ba77c5e12a23",
+      "bytes": 19762,
       "status": "CANONICAL_MATERIALIZED",
       "recordCounts": {
         "documents": 0,
@@ -10031,18 +10078,18 @@
     },
     {
       "path": "data/events.json",
-      "sha256": "dc77e2099c828284376e65501aa86037e2b3a1bc2674487900931687d62876e3",
-      "bytes": 1048855,
+      "sha256": "e5ebd32db87993efd8f734eeb42e4938d608c0720d207abbc7f91dbd04934344",
+      "bytes": 1054033,
       "status": "CONFLICT_REVIEW_REQUIRED",
       "recordCounts": {
         "documents": 0,
         "claims": 0,
-        "events": 1136,
+        "events": 1138,
         "politicians": 0,
         "organizations": 0
       },
       "centralMapping": {
-        "integrated": 685,
+        "integrated": 687,
         "conflicted": 451
       }
     },
@@ -10315,6 +10362,24 @@
       }
     },
     {
+      "path": "data/evidence/kim-seong-su.json",
+      "sha256": "8dc1e88d75e8a013bb07498be9c940b669ee8fb9c19462a6ba827c6be477fd96",
+      "bytes": 5668,
+      "status": "AUXILIARY_JSON_INDEXED",
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0
+      },
+      "centralMapping": {
+        "integrated": 0,
+        "conflicted": 0,
+        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+      }
+    },
+    {
       "path": "data/evidence/kim-youngsam.json",
       "sha256": "696312880cb344f2305a9cb94162b721e5a46b242e753b7fbe53d32105b9dcf5",
       "bytes": 2894,
@@ -10390,6 +10455,24 @@
       "path": "data/evidence/kwon-jung-don-1953.json",
       "sha256": "1bc3f2451f82bc2a5c39fd47a94edab88c19fb854dbcac1f4532aea2d1223c04",
       "bytes": 1122,
+      "status": "AUXILIARY_JSON_INDEXED",
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0
+      },
+      "centralMapping": {
+        "integrated": 0,
+        "conflicted": 0,
+        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+      }
+    },
+    {
+      "path": "data/evidence/lee-chong-chang-1952-martial-law.json",
+      "sha256": "aa2b61c888d4588c71648578e8d29b5bc8795f7dc0cc2c8ff13ec5e67f5a2401",
+      "bytes": 2033,
       "status": "AUXILIARY_JSON_INDEXED",
       "recordCounts": {
         "documents": 0,
@@ -13247,18 +13330,18 @@
     },
     {
       "path": "data/politicians.json",
-      "sha256": "9d54d6dd743e9d2502c4f092b475e15ac0b2fe65b9da63e78a87a1693598bdbd",
-      "bytes": 664453,
+      "sha256": "03797e7c45bda6cd5c47d3183803db819771455a56c8d3afa0069e9aac25c6f8",
+      "bytes": 672318,
       "status": "CONFLICT_REVIEW_REQUIRED",
       "recordCounts": {
         "documents": 0,
         "claims": 0,
         "events": 0,
-        "politicians": 359,
+        "politicians": 361,
         "organizations": 0
       },
       "centralMapping": {
-        "integrated": 97,
+        "integrated": 99,
         "conflicted": 262
       }
     },
@@ -14216,8 +14299,8 @@
     },
     {
       "path": "data/research/HISTORY_DEBT.md",
-      "sha256": "2ecbfc459cfeb4ae1348eb2a8e20af98ad96be0cbfbacb1bf4fd338c557c83e3",
-      "bytes": 275717,
+      "sha256": "44aca2980bf660fdbcc805545428da966ef9e59846776a3a97021750a84efd04",
+      "bytes": 277632,
       "status": "NON_JSON_SOURCE_PRESERVED",
       "recordCounts": {
         "documents": 0,
@@ -21852,8 +21935,8 @@
     },
     {
       "path": "data/research/graphs/2026-11-13-2324-frus267-269-overlay.json",
-      "sha256": "d827c19a1541dfe643d14d18de383b686ab52f583dcff8e50af32e7b1c463101",
-      "bytes": 4890,
+      "sha256": "90f19e8bccb609e137d9a6aafb13bbfb7e4c3b5344750d29d517fdef31e018ef",
+      "bytes": 5082,
       "status": "CONFLICT_REVIEW_REQUIRED",
       "recordCounts": {
         "documents": 3,
@@ -22100,6 +22183,42 @@
         "events": 0,
         "politicians": 0,
         "organizations": 0
+      }
+    },
+    {
+      "path": "data/research/kim-seong-su-coverage.json",
+      "sha256": "2188b0cb76b0bb722024fb954527baf19b10887df4e97e2c52eaed16bd2c0a55",
+      "bytes": 2171,
+      "status": "AUXILIARY_JSON_INDEXED",
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0
+      },
+      "centralMapping": {
+        "integrated": 0,
+        "conflicted": 0,
+        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+      }
+    },
+    {
+      "path": "data/research/kim-seong-su-open-leads.json",
+      "sha256": "f1a1b62767830bdbd2b09fa2f9fed20fd56e15bd966fe6491f93a3cd22267dc8",
+      "bytes": 3547,
+      "status": "AUXILIARY_JSON_INDEXED",
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0
+      },
+      "centralMapping": {
+        "integrated": 0,
+        "conflicted": 0,
+        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
       }
     },
     {
@@ -26434,6 +26553,42 @@
       }
     },
     {
+      "path": "data/research/lee-chong-chang-coverage.json",
+      "sha256": "14154a438b4b1d0cd076d462d9e6bb8ad4356cb6d434be4e56724ba1b43bf705",
+      "bytes": 950,
+      "status": "AUXILIARY_JSON_INDEXED",
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0
+      },
+      "centralMapping": {
+        "integrated": 0,
+        "conflicted": 0,
+        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+      }
+    },
+    {
+      "path": "data/research/lee-chong-chang-open-leads.json",
+      "sha256": "63168f67b0d8080f37d158d12cfd34daea5e7ab07244f801522fe0865a2e892a",
+      "bytes": 1840,
+      "status": "AUXILIARY_JSON_INDEXED",
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0
+      },
+      "centralMapping": {
+        "integrated": 0,
+        "conflicted": 0,
+        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+      }
+    },
+    {
       "path": "data/research/migrations/pol-lee-soon-taek-name-correction.json",
       "sha256": "3d6bb8efef82434d0c387ddcd6e5cf65f2f6fb2ed82bfd8bed29b3bc67b6398f",
       "bytes": 2184,
@@ -28155,8 +28310,8 @@
     },
     {
       "path": "data/research/registry/1952-september-frus264-269-index.json",
-      "sha256": "abedc1cce1501a2fcb5781c5aefee4819b727360d0d2cf8fac4a19dc9c4976fd",
-      "bytes": 7795,
+      "sha256": "ad3cd70fb21ee30cf0928ced285ec8ce115631d2131c49b7d85122a762a2f96e",
+      "bytes": 8064,
       "status": "CONFLICT_REVIEW_REQUIRED",
       "recordCounts": {
         "documents": 6,

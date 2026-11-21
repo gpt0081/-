@@ -3,10 +3,10 @@
   "scope": "Evidence, annals, coverage and open leads sidecar",
   "policy": "Only explicit IDs or exact registry file references count; no filename-based identity assumptions",
   "layerCounts": {
-    "annals": 143,
-    "evidence": 62,
-    "coverage": 5,
-    "open_leads": 1
+    "annals": 144,
+    "evidence": 64,
+    "coverage": 7,
+    "open_leads": 3
   },
   "linked": [
     {
@@ -138,6 +138,18 @@
       ],
       "candidatePoliticianIds": [
         "cand-p239m2-kim-sang-don"
+      ],
+      "status": "EXPLICITLY_LINKED"
+    },
+    {
+      "source": "data/annals/kim-seong-su.md",
+      "sha256": "7bed730a1a4400eddb4bcf9da46935c2d2e9cab7ff347c2ba7679f793a6baacb",
+      "layer": "annals",
+      "declaredIds": [
+        "pol-r164-kim-seong-su"
+      ],
+      "candidatePoliticianIds": [
+        "pol-r164-kim-seong-su"
       ],
       "status": "EXPLICITLY_LINKED"
     },
@@ -478,6 +490,18 @@
       "status": "EXPLICITLY_LINKED"
     },
     {
+      "source": "data/evidence/kim-seong-su.json",
+      "sha256": "8dc1e88d75e8a013bb07498be9c940b669ee8fb9c19462a6ba827c6be477fd96",
+      "layer": "evidence",
+      "declaredIds": [
+        "pol-r164-kim-seong-su"
+      ],
+      "candidatePoliticianIds": [
+        "pol-r164-kim-seong-su"
+      ],
+      "status": "EXPLICITLY_LINKED"
+    },
+    {
       "source": "data/evidence/kim-youngsam.json",
       "sha256": "696312880cb344f2305a9cb94162b721e5a46b242e753b7fbe53d32105b9dcf5",
       "layer": "evidence",
@@ -534,6 +558,18 @@
       ],
       "candidatePoliticianIds": [
         "cand-p257n-kwon-jung-don"
+      ],
+      "status": "EXPLICITLY_LINKED"
+    },
+    {
+      "source": "data/evidence/lee-chong-chang-1952-martial-law.json",
+      "sha256": "aa2b61c888d4588c71648578e8d29b5bc8795f7dc0cc2c8ff13ec5e67f5a2401",
+      "layer": "evidence",
+      "declaredIds": [
+        "cand-r218-lee-jong-chan-martial1951"
+      ],
+      "candidatePoliticianIds": [
+        "cand-r218-lee-jong-chan-martial1951"
       ],
       "status": "EXPLICITLY_LINKED"
     },
@@ -787,6 +823,54 @@
       ],
       "candidatePoliticianIds": [
         "pol-yu-wan-chang"
+      ],
+      "status": "EXPLICITLY_LINKED"
+    },
+    {
+      "source": "data/research/kim-seong-su-coverage.json",
+      "sha256": "2188b0cb76b0bb722024fb954527baf19b10887df4e97e2c52eaed16bd2c0a55",
+      "layer": "coverage",
+      "declaredIds": [
+        "pol-r164-kim-seong-su"
+      ],
+      "candidatePoliticianIds": [
+        "pol-r164-kim-seong-su"
+      ],
+      "status": "EXPLICITLY_LINKED"
+    },
+    {
+      "source": "data/research/kim-seong-su-open-leads.json",
+      "sha256": "f1a1b62767830bdbd2b09fa2f9fed20fd56e15bd966fe6491f93a3cd22267dc8",
+      "layer": "open_leads",
+      "declaredIds": [
+        "pol-r164-kim-seong-su"
+      ],
+      "candidatePoliticianIds": [
+        "pol-r164-kim-seong-su"
+      ],
+      "status": "EXPLICITLY_LINKED"
+    },
+    {
+      "source": "data/research/lee-chong-chang-coverage.json",
+      "sha256": "14154a438b4b1d0cd076d462d9e6bb8ad4356cb6d434be4e56724ba1b43bf705",
+      "layer": "coverage",
+      "declaredIds": [
+        "cand-r218-lee-jong-chan-martial1951"
+      ],
+      "candidatePoliticianIds": [
+        "cand-r218-lee-jong-chan-martial1951"
+      ],
+      "status": "EXPLICITLY_LINKED"
+    },
+    {
+      "source": "data/research/lee-chong-chang-open-leads.json",
+      "sha256": "63168f67b0d8080f37d158d12cfd34daea5e7ab07244f801522fe0865a2e892a",
+      "layer": "open_leads",
+      "declaredIds": [
+        "cand-r218-lee-jong-chan-martial1951"
+      ],
+      "candidatePoliticianIds": [
+        "cand-r218-lee-jong-chan-martial1951"
       ],
       "status": "EXPLICITLY_LINKED"
     },

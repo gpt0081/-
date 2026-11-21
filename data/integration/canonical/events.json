@@ -7766,6 +7766,72 @@
       }
     },
     {
+      "id": "evt-1952-0529-kim-seong-su-resignation-submitted",
+      "name": "김성수 부통령 사표 제출",
+      "date": "1952-05-29",
+      "politicians": [
+        "pol-r164-kim-seong-su"
+      ],
+      "politicianIds": [
+        "pol-r164-kim-seong-su"
+      ],
+      "institutions": [],
+      "organizationIds": [],
+      "documentIds": [
+        "DOC-NIKH-DH025-19520529-0050",
+        "DOC-AKS-BUSAN-POLITICAL-CRISIS"
+      ],
+      "claimIds": [
+        "clm-1952-kim-seong-su-resignation-procedure",
+        "clm-1952-kim-seong-su-resignation-stated-reasons"
+      ],
+      "parentEventId": "evt-r224-vice-presidency",
+      "relatedEventIds": [
+        "evt-1952-0628-kim-seong-su-resignation-accepted"
+      ],
+      "evidenceState": "narrowed",
+      "proposed_by": [],
+      "decided_by": [
+        "pol-r164-kim-seong-su"
+      ],
+      "executed_by": [
+        "pol-r164-kim-seong-su"
+      ],
+      "opposed_by": [],
+      "legal_authority": "사표 제출 수신기관·접수 절차 및 법적 효력 발생 시점은 원문 미확보. 1952-06-28 국회 수리 가결은 별도 사건으로 분리.",
+      "observed_by": [],
+      "later_finding": [
+        "DOC-AKS-BUSAN-POLITICAL-CRISIS",
+        "DOC-AKS-KIM-SEONG-SU-ENCYCLOPEDIA"
+      ],
+      "confirmed": [
+        "국사편찬위원회 자료대한민국사 제25권의 1952-05-29 항목은 서울신문 1952-05-31 보도를 전사해 김성수가 5월29일 부통령 사표를 제출했다고 기록한다.",
+        "같은 보도는 당시 사표가 아직 수리되지 않았다고 명시한다.",
+        "신문은 사임 이유를 당시 국내 정치위기와 건강상의 이유라고 보도한다. 이는 신문이 전한 당사자 설명이며 원사표 문구와 동일시하지 않는다."
+      ],
+      "conflicts": [],
+      "openQuestions": [
+        "사표 원본과 수신기관·제출 시각은 무엇인가?",
+        "사표 제출 뒤 공식 수리 전까지 부통령직의 법적 상태는 어떠했는가?"
+      ],
+      "sources": [
+        "https://db.history.go.kr/contemp/level.do?levelId=dh_025_1952_05_29_0050",
+        "https://encykorea.aks.ac.kr/Article/E0024272"
+      ],
+      "attributionQualification": "동시대 신문 전사는 사표 제출과 미수리 상태를 확인한다. AKS 해제의 '국회에 사표를 던졌다'는 설명은 후대 해제이며, 제출 수신기관은 원문으로 재확인해야 한다.",
+      "verificationStage": "CONTEMPORANEOUS_PRESS_CONFIRMED_SUBMISSION_ORIGINAL_PENDING",
+      "_integration": {
+        "id": "evt-1952-0529-kim-seong-su-resignation-submitted",
+        "digest": "445c91837b9662abc0f198d0fb0ff2b013d8fe62e9f352b93f361b39563f115a",
+        "provenance": [
+          {
+            "path": "data/events.json",
+            "pointer": "/events/1136"
+          }
+        ]
+      }
+    },
+    {
       "id": "evt-1952-06-01-us-unc-intervention-options",
       "date": "1952-06-01",
       "type": "foreign_policy_planning",
@@ -7950,6 +8016,69 @@
           {
             "path": "data/events/pass-229b-1952-education-welfare-tungsten.json",
             "pointer": "/events/4"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt-1952-0628-kim-seong-su-resignation-accepted",
+      "name": "국회, 김성수 부통령 사표 수리 가결",
+      "date": "1952-06-28",
+      "politicians": [
+        "pol-r164-kim-seong-su"
+      ],
+      "politicianIds": [
+        "pol-r164-kim-seong-su"
+      ],
+      "institutions": [
+        "대한민국 국회"
+      ],
+      "organizationIds": [
+        "org-r224-rok-assembly"
+      ],
+      "documentIds": [
+        "DOC-NIKH-DH025-19520628-0050"
+      ],
+      "claimIds": [
+        "clm-1952-kim-seong-su-resignation-procedure"
+      ],
+      "parentEventId": "evt-r224-vice-presidency",
+      "relatedEventIds": [
+        "evt-1952-0529-kim-seong-su-resignation-submitted"
+      ],
+      "evidenceState": "narrowed",
+      "proposed_by": [],
+      "decided_by": [
+        "org-r224-rok-assembly"
+      ],
+      "executed_by": [
+        "org-r224-rok-assembly"
+      ],
+      "opposed_by": [],
+      "legal_authority": "국회 제86차 본회의에서 보류 중이던 사표 수리 긴급동의 가결. 의안번호·정확한 표결·적용 조문은 원속기록 미확보.",
+      "observed_by": [],
+      "later_finding": [],
+      "confirmed": [
+        "국사편찬위원회 자료대한민국사 제25권은 경향신문 1952-06-30 보도를 전사해 1952-06-28 제86차 국회 본회의에서 김성수 부통령 사표 수리 긴급동의가 가결됐다고 기록한다.",
+        "해당 보도는 회의 성원 당시 출석 인원을 97명으로 기록한다. 이를 사표 수리 찬성표 수와 혼동하지 않는다."
+      ],
+      "conflicts": [],
+      "openQuestions": [
+        "제86차 본회의 원속기록에서 긴급동의의 발의자·의안번호·표결결과를 확인할 것.",
+        "사표 수리 결의와 부통령직 공석의 법적 효력 발생 시점을 관보·헌정사 자료로 확인할 것."
+      ],
+      "sources": [
+        "https://db.history.go.kr/contemp/level.do?levelId=dh_025_1952_06_28_0050"
+      ],
+      "attributionQualification": "국편 데이터베이스가 전사한 경향신문 동시대 보도에 근거한다. 국회 원속기록은 아직 직접 열지 않았다.",
+      "verificationStage": "CONTEMPORANEOUS_PRESS_CONFIRMED_ACCEPTANCE_ORIGINAL_MINUTES_PENDING",
+      "_integration": {
+        "id": "evt-1952-0628-kim-seong-su-resignation-accepted",
+        "digest": "468653c609e467322a99ff7d65042b43e951321c8c3b216912b2325f9b0f7b3b",
+        "provenance": [
+          {
+            "path": "data/events.json",
+            "pointer": "/events/1137"
           }
         ]
       }
@@ -68574,7 +68703,7 @@
     {
       "id": "evt-r224-military-neutrality",
       "date": "1952-05-27",
-      "title": "Van Fleet 계엄 사전미통보·병력 이동 반대",
+      "title": "Van Fleet의 계엄 사전미통보 항의와 병력 이동 우려",
       "domain": "군사·인사",
       "documentIds": [
         "doc-r224-frus-144"
@@ -68585,18 +68714,21 @@
       "proposed_by": [],
       "decided_by": [],
       "executed_by": [],
-      "opposed_by": [],
+      "opposed_by": [
+        "Van Fleet"
+      ],
       "legal_authority": "원법령/명령서 미열람",
       "observed_by": [
+        "Lightner",
         "Van Fleet"
       ],
       "later_finding": [],
-      "attributionQualification": "Gen Lee 동일인 확정 필요",
-      "verificationStage": "SOURCE_ATTRIBUTED_WITH_LIMITS",
+      "attributionQualification": "FRUS d144 각주 2는 Gen. Lee Chong Chang을 ROKA Chief of Staff로 식별한다. 본문은 Van Fleet의 계엄 사전미통보·전투병력 이동 반대와 Rhee가 제시했다고 한 Lee의 메시지를 구분해 기록한다. 메시지 원본 미열람; Lee가 계엄을 직접 명령·반대했다고 단정하지 않는다.",
+      "verificationStage": "FRUS_CONTEMPORANEOUS_REPORT_WITH_EDITORIAL_ID_NOTE_ORIGINAL_KOREAN_ORDERS_PENDING",
       "organizationIds": [],
       "_integration": {
         "id": "evt-r224-military-neutrality",
-        "digest": "75b35d48eed3b8f82300d9304dae22d28b933fdd10fa04d87cb97f196f4f10e9",
+        "digest": "e1131e0e8b98f4331a54183f2306acb139eb4c8a2414f4a4b7f3e9ba9c92d2e9",
         "provenance": [
           {
             "path": "data/events/run224-may1952-constitutional-pow-economy.json",
@@ -69018,10 +69150,12 @@
     {
       "id": "evt-r224-vice-presidency",
       "date": "1952-05-29",
-      "title": "김성수 부통령 사의 문제",
+      "title": "김성수 부통령 사표 제출(수리 전)",
       "domain": "인사·헌정",
       "documentIds": [
-        "doc-r224-nikh-0010_0110"
+        "DOC-NIKH-DH025-19520529-0050",
+        "DOC-NIKH-DH025-19520628-0050",
+        "DOC-AKS-BUSAN-POLITICAL-CRISIS"
       ],
       "politicianIds": [
         "pol-r164-kim-seong-su"
@@ -69032,15 +69166,19 @@
       "opposed_by": [],
       "legal_authority": "원법령/명령서 미열람",
       "observed_by": [],
-      "later_finding": [],
-      "attributionQualification": "사표 원문 미확보, 5월29일은 사후 해제 참고",
-      "verificationStage": "SOURCE_ATTRIBUTED_WITH_LIMITS",
-      "organizationIds": [
-        "org-r224-rok-assembly"
+      "later_finding": [
+        "DOC-AKS-BUSAN-POLITICAL-CRISIS"
+      ],
+      "attributionQualification": "1952-05-29 사표 제출과 1952-06-28 국회 수리 가결은 별도 행위로 분리한다. 5/29 동시대 신문은 사표가 아직 수리되지 않았다고 기록한다. 원사표와 국회 원속기록은 미확보.",
+      "verificationStage": "CONTEMPORANEOUS_PRESS_CONFIRMS_SUBMISSION_AND_LATER_ACCEPTANCE_SEPARATELY",
+      "organizationIds": [],
+      "relatedEventIds": [
+        "evt-1952-0529-kim-seong-su-resignation-submitted",
+        "evt-1952-0628-kim-seong-su-resignation-accepted"
       ],
       "_integration": {
         "id": "evt-r224-vice-presidency",
-        "digest": "4b14b5f1f9062e6bffdd402a716560c070f2c45f40059ef45c79486758d3e9e3",
+        "digest": "1d456343f94c879e348424a2f337ea7c2bd9e784d586249b83976771e66dae75",
         "provenance": [
           {
             "path": "data/events/run224-may1952-constitutional-pow-economy.json",

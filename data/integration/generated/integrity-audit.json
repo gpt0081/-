@@ -1,14 +1,14 @@
 {
-  "sourceFiles": 2249,
+  "sourceFiles": 2258,
   "uniqueCentralIds": {
-    "documents": 4634,
-    "claims": 2117,
-    "events": 2750,
-    "politicians": 496,
+    "documents": 4640,
+    "claims": 2119,
+    "events": 2752,
+    "politicians": 498,
     "organizations": 79
   },
   "conflictedIds": 903,
-  "auxiliaryRecords": 665,
+  "auxiliaryRecords": 671,
   "unresolvedSources": [
     "data/documents/pass-239m2-1954-proposal-and-reversal-signers.json",
     "data/documents/pass-257q-1954-cabinet-gazette-originals.json",
@@ -27,11 +27,13 @@
     "data/evidence/ji-cheong-cheon.json",
     "data/evidence/kim-il-su-1953.json",
     "data/evidence/kim-sang-don.json",
+    "data/evidence/kim-seong-su.json",
     "data/evidence/kim-youngsam.json",
     "data/evidence/kim-yu-taek-1953-currency.json",
     "data/evidence/kim-yu-taek-1953-march.json",
     "data/evidence/kwak-sang-hun.json",
     "data/evidence/kwon-jung-don-1953.json",
+    "data/evidence/lee-chong-chang-1952-martial-law.json",
     "data/evidence/lee-gap-seong-1952.json",
     "data/evidence/lee-hu-rak.json",
     "data/evidence/lee-jae-hak.json",
@@ -319,6 +321,8 @@
     "data/research/history-debt/run224.json",
     "data/research/history-debt/run225.json",
     "data/research/history-debt-review-state.json",
+    "data/research/kim-seong-su-coverage.json",
+    "data/research/kim-seong-su-open-leads.json",
     "data/research/lead-queues/2026-11-11-paik-aid-originals.json",
     "data/research/lead-queues/pass-258e-1956-domestic.json",
     "data/research/lead-queues/pass-280-next-leads.json",
@@ -543,6 +547,8 @@
     "data/research/leads/pass-258d-1955-56-exchange-nnsc.json",
     "data/research/leads/pass-258f-next-originals.json",
     "data/research/leads/pass-269-next-lead-queue.json",
+    "data/research/lee-chong-chang-coverage.json",
+    "data/research/lee-chong-chang-open-leads.json",
     "data/research/migrations/pol-lee-soon-taek-name-correction.json",
     "data/research/party-rosters/1952-09-22-liberty-party-reported-roster.json",
     "data/research/pass-251-execution-ledger.json",
@@ -676,41 +682,8 @@
     "data/research/transition-second-republic-pass311.json",
     "data/research/weekly-history-debt-review-2026-10-04.json"
   ],
-  "integrityIssues": [
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "claims",
-      "id": "clm-1952-clark-air-pressure-effect",
-      "field": "contradictingDocumentIds",
-      "targetKind": "documents",
-      "targetId": "doc-frus-1952-v15p1-255"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "claims",
-      "id": "clm-1952-clark-air-pressure-effect",
-      "field": "contradictingDocumentIds",
-      "targetKind": "documents",
-      "targetId": "doc-frus-1952-v15p1-255"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r224-military-neutrality",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "cand-r218-lee-jong-chan-martial1951"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r224-vice-presidency",
-      "field": "politicianIds",
-      "targetKind": "politicians",
-      "targetId": "pol-r164-kim-seong-su"
-    }
-  ],
-  "referenceIssueCount": 4,
+  "integrityIssues": [],
+  "referenceIssueCount": 0,
   "crosswalkGaps": [],
   "centralSync": "PARTIAL",
   "note": "PARTIAL includes structural integrity failures as well as unresolved historical conflicts and auxiliary sources. Registry presence is not proof of historical adjudication."
