@@ -1,101 +1,95 @@
 # Run330 · 누적 연구자료 중앙 통합 감사
 
 - 날짜: 2026-11-22 (Asia/Seoul)
-- Source snapshot: `e2d528b73bed55037ffbb525a623c11ffc98049b`
-- Source tree: `58ea5d18e1b142a631127a25d7d59cf93e5750d8`
-- Commits: `bb7275ac36901b888044c83b28d440ca86ab97e5`, `e2d528b73bed55037ffbb525a623c11ffc98049b`
+- 기준 main commit: `90e3bbea6b082e075d8c3cb6e57b6faf4fab5d56`
+- 실행 유형: 통합·무결성 우선. 신규 역사 원문 채굴 회차가 아님.
 - 상태: **FULL_INTEGRATION_INCOMPLETE**
 - 중앙 동기화: **CENTRAL_SYNC_PARTIAL**
 - Floot: 수정·빌드하지 않음.
 
-## 전체 source inventory
+## 핵심 결과
 
-현재 `data/integration/` 바깥의 데이터 파일 2,274개를 전수 목록화했다. 각 per-group inventory에는 Git blob SHA, SHA-256, bytes, target layer/registry, record counts, source conflict pointers, unintegrated reason을 보존했다. 최신 per-file authority는 `data/integration/generated/source-triage.json`이다. MASTER_INDEX와 11개 group inventory를 2026-11-22 snapshot으로 갱신했다.
+기준 main snapshot에서 `data/integration/` 바깥의 데이터 파일 2,269개를 전수 목록 기준으로 대조했다. 최신 per-source triage는 각 파일에 SHA-256, 바이트 수, 대상 layer/registry, record counts, 충돌 ID, 미통합 사유를 붙인다. 기존 per-group inventory와 MASTER_INDEX는 2026-11-13 tree snapshot(2,239 files)을 가리켜 현재 파일 범위보다 오래되었다. 따라서 현재 기준은 `data/integration/generated/source-triage.json`과 `sources.json`으로 두고, 오래된 inventory shard는 historical snapshot으로 취급한다.
 
-| 그룹 | 파일 수 |
+| 항목 | 확인값 |
 |---|---:|
-| annals | 145 |
-| claims | 154 |
-| documents | 190 |
-| events shards | 143 |
-| evidence | 65 |
-| organizations | 15 |
-| politician shards | 109 |
-| research / runs / leads / coverage / graphs | 1,450 |
-| operational roots: events.json, politicians.json, presidents.json | 3 |
-| **합계** | **2,274** |
+| source files | 2,269 |
+| BLOCKED_ID_CONFLICT | 341 |
+| INDEXED_NOT_CANONICAL_VERIFIED | 595 |
+| NON_JSON_PRESERVED | 776 |
+| UNMAPPED_AUXILIARY_OR_PARTIAL | 554 |
+| OPERATIONAL_ROOT_PRESERVED | 2 |
+| PRESIDENTIAL_BACKBONE_PRESERVED | 1 |
+| source-level conflicting IDs | 584 |
+| exact duplicate IDs | 11 |
+| auxiliary records | 675 |
+| unintegrated sources | 561 |
+| partial sources | 11 |
+| parse errors | 0 |
 
-Source triage:
-- BLOCKED_ID_CONFLICT: 341
-- INDEXED_NOT_CANONICAL_VERIFIED: 597
-- NON_JSON_PRESERVED: 777
-- UNMAPPED_AUXILIARY_OR_PARTIAL: 556
-- OPERATIONAL_ROOT_PRESERVED: 2
-- PRESIDENTIAL_BACKBONE_PRESERVED: 1
+## Canonical registry materialization
 
-## Canonical registry audit
-
-| Registry | Materialized | Source records | Unique IDs | Conflicted IDs |
+| Registry | Canonical materialized records | Source records | Unique IDs | Conflicted IDs |
 |---|---:|---:|---:|---:|
 | Documents | 4,585 | 4,828 | 4,694 | 109 |
 | Claims | 2,115 | 2,165 | 2,137 | 22 |
-| Events | 2,679 | 2,827 | 2,747 | 66 |
-| Politicians | 855 | 2,336 | 1,241 | 385 |
+| Events | 2,679 | 2,825 | 2,745 | 66 |
+| Politicians | 855 | 2,335 | 1,240 | 385 |
 | Organizations | 83 | 97 | 85 | 2 |
 
-합계 584 conflicting IDs, exact duplicate IDs 11, auxiliary records 677, unintegrated sources 563, partial sources 11, parse errors 0. Conflict payload는 삭제하거나 임의 선택하지 않았다.
+합계 584 conflict IDs는 문서·주장·사건·정치인·기관 사이에서 각각 보존해야 한다. 같은 ID라고 무조건 한 payload를 선택하지 않는다. exact duplicate ID 11건도 단순 삭제하지 않고 provenance와 payload equality를 확인해야 한다.
 
-## Central operational roots
+## Operational roots and cross-links
 
-- `data/events.json`: 2,808 events; canonical rows merged 2,681; missing IDs 0; duplicate IDs 0; unresolved field variants 16.
-- `data/politicians.json`: 975 politicians; canonical rows merged 764; missing IDs 0; duplicate IDs 0; unresolved field variants 110; policy exclusions 92.
-- Operational links: 202 linked / 310 unlinked. Unlinked: annals 62, evidence 1, coverage 6, history-debt 16, lead queues 225.
-- Relations: politician 446, event 514, document 923, claim 13, organization 1.
-- Structural audit: integrity issues 0, reference issues 0, crosswalk gaps 0.
+- `data/events.json`: 2,808 root events, 2,679 canonical materialized IDs merged, missing canonical IDs 0, duplicate root IDs 0, scalar field variants 16.
+- `data/politicians.json`: 975 root politicians, 763 canonical materialized IDs merged, missing canonical IDs 0, scalar field variants 110, policy-excluded external/organization/placeholder records 92.
+- Operational layer scan: linked 201 / unlinked 310. Unlinked breakdown: annals 62, evidence 1, coverage 6, history-debt 16, lead queues 225.
+- Relation counts: politician 438, event 507, document 908, claim 12, organization 1.
+- Structural integrity audit: integrityIssues 0, referenceIssueCount 0, crosswalkGaps 0. 이는 구조 검사 결과이며 역사적 사실의 진실성이나 provenance 독립성 검증을 뜻하지 않는다.
 
-**CENTRAL_SYNC_PARTIAL**이다. Root ID 누락·중복은 0이지만 126 root field variants, 584 source conflict IDs, 563 unintegrated sources, 310 unlinked operational files가 남아 있다. 구조 검사 PASS를 역사적 검증 완료로 오해하지 않는다.
+**CENTRAL_SYNC_PARTIAL** 판정 이유: root ID 누락·중복은 0이지만 root scalar field variants 126건, source conflict IDs 584건, unintegrated sources 561건, operational unlinked 310건이 남아 있다. 따라서 PASS로 승격하지 않는다.
 
-## PR #73/#74/#72 확인
+## PR #73/#74 및 연관 PR #72
 
-- PR #73: changed paths 18/18 main에 존재.
-- PR #74: changed paths 16/16 main에 존재.
-- PR #72: changed paths 29/29 main에 존재하지만 PR 자체는 OPEN.
-- 파일 경로 존재, PR merge state, semantic integration은 서로 다른 상태다. 73/74의 파일 존재를 전체 중앙 통합 완료로 계산하지 않는다.
+- PR #73 changed paths: 18/18 현재 main tree에 존재, missing 0.
+- PR #74 changed paths: 16/16 현재 main tree에 존재, missing 0.
+- PR #72 changed paths: 29/29 현재 main tree에 존재하지만 PR #72 자체는 open 상태.
+- 경로 존재와 PR merge state, semantic integration은 별도 상태다. #73/#74의 merge 상태를 근거로 cross-registry 통합 완료라고 보지 않는다.
+- 남은 shared conflicts: `data/politicians.json`, `data/research/HISTORY_DEBT.md`, `data/research/rhee-syngman-coverage.json`, `data/research/rhee-syngman-open-leads.json`.
 
-## Pass329 김성수 central linking
+## Pass329 김성수 데이터 중앙 연결
 
-기존 stable ID `pol-r164-kim-seong-su`와 기존 두 사건 ID를 재사용했다. 김성수 문서 6개와 주장 2개는 canonical documents/claims registry에서 확인된다. 이번 batch에서 event source shard와 politician additive link-update를 추가하고 documents/claims/events/politicians index를 갱신했다. Workflow 후 root의 `researchRefs`에 documents/event shard 및 annals/coverage/open-lead 참조가 반영된 것을 확인했다. 신규 정치인·event·claim ID는 생성하지 않았다.
+김성수 stable ID `pol-r164-kim-seong-su`는 기존 root의 VERIFIED node를 재사용했다. 사표 제출 1952-05-29와 국회 수리 가결 1952-06-28의 두 event ID를 그대로 재사용하며 신규 event ID를 만들지 않았다. 6개 document object와 2개 claim은 canonical documents/claims에서 확인됐다. 본 run은 해당 source shard를 event index에 연결하고 politician node에 document/event shard references를 additive update한다. 원사표·제86차 국회 원속기록은 여전히 OPEN이며, 이 회차에서 새 역사 원문을 직접 열어 보지는 않았다.
 
-## Workflow validation
+## 정량 실행기록
 
-[GitHub Actions Run 88](https://github.com/gpt0081/-/actions/runs/44950899243)은 통합 스크립트 compile, source consolidation, central-root sync, operational linking, audit, per-source triage, politician reference audit를 모두 성공적으로 수행했다. 마지막 completeness gate는 남은 conflict/unintegrated references 때문에 실패했다. 이는 예상된 **FULL_INTEGRATION_INCOMPLETE** 차단이며 성공으로 포장하지 않는다.
-
-## 실행 지표
-
-| 지표 | 실제값 |
+| 지표 | Run330 실제값 |
 |---|---:|
 | 신규 독립 역사 연구선 | 0 |
 | 일반 국정영역 신규 보강 | 0 |
-| 신규/심화 비대통령 정치인 조사 | 0 (기존 김성수 node 링크 1건) |
+| 신규/심화 비대통령 정치인 조사 | 0 (기존 김성수 노드의 링크 동기화 1건) |
 | 신규 event ID | 0 (기존 event 2건 source shard 재연결) |
-| 신규 claim ID | 0 (기존 claim 2건 canonical 확인) |
+| 신규 claim ID | 0 (기존 claim 2건 canonical 존재 확인) |
 | 새로 직접 열어 확인한 역사 문서 | 0 |
 | 공식·1차 원문 직접 열람 | 0 |
 | adversarial searches | 0 |
 | 독립 provenance 교차검증 묶음 | 0 |
 | 기존 history-debt/open leads 실질 추적 | 0 |
-| 새 구체적 integration leads | 33 |
+| 새 구체적 integration lead | 33 |
 | Floot 변경 | 0 |
 
-기존 Run329 source shard의 문서·주장은 Run330 직접 열람 수치에 포함하지 않는다. 실제 1시간 실행을 주장하지 않는다.
+기존 Run329 source shard의 6개 문서와 2개 주장은 이전 조사 결과이며 Run330의 직접 열람 수치에 포함하지 않는다. 실제 1시간 실행을 주장하지 않는다.
 
 ## 역사부채 주간 전수조사
 
-**역사부채 주간 전수조사 미실시.** 2026-11-22 전체 OPEN/NARROWED/BLOCKED/CONFLICTED/REOPENED 항목을 재조사하지 않았으며 `last_full_review`를 변경하지 않았다.
+**역사부채 주간 전수조사 미실시.** 현재 우선순위는 누적 연구자료의 중앙 통합과 root conflict audit이다. `last_full_review`를 변경하지 않았다. 302 OPEN, 319 NARROWED, 15 BLOCKED, 176 CONFLICTED, 2 REOPENED 상태 mention을 전수 재조사한 것으로 간주하지 않는다.
 
-## 수정 파일
+## 수정 대상
 
-- `data/documents/INDEX.md`, `data/claims/INDEX.md`, `data/events/INDEX.md`, `data/politicians/INDEX.md`
+- `data/documents/INDEX.md`
+- `data/claims/INDEX.md`
+- `data/events/INDEX.md`
+- `data/politicians/INDEX.md`
 - `data/events/run329-kim-seong-su-resignation.json`
 - `data/politicians/run330-kim-seong-su-central-links.json`
 - `data/research/ACTIVE_RESEARCH_HANDOFF.json`
@@ -103,8 +97,7 @@ Source triage:
 - `data/research/runs/2026-11-22-run330-integration-ledger.json`
 - `data/research/lead-queues/run330-next-integration.json`
 - `data/integration/PR_BACKLOG_73_74.json`
-- `data/integration/MASTER_INDEX.json`, `data/integration/INTEGRATION_STATUS.md`, 11개 `data/integration/inventory/*.json`
 
 ## 다음 실행
 
-33개 구체 lead는 `data/research/lead-queues/run330-next-integration.json`에 있다. 먼저 FRUS/국편/관보/국회 원문이 겹치는 document conflict 109건을 provenance 단위로 해소하고, 그 다음 정치인 status/identity variant와 event evidenceState/uncertainty variant를 correction history와 함께 중앙 root에 반영한다. 563 unintegrated sources와 310 unlinked operational files를 계속 줄인다.
+`data/research/lead-queues/run330-next-integration.json`의 33개 표적을 우선순위대로 처리한다. 먼저 문서 ID conflict 109건 중 FRUS/국편/관보/국회 원문을 직접 대조할 수 있는 항목부터 해결하고, 그 결과를 canonical document/claim/event registry 및 operational roots에 같은 batch로 반영한다. source-triage의 341 conflict-marked files와 554 auxiliary/partial sources, operational-links의 310 unlinked paths를 계속 줄인다.
