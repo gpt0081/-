@@ -3,7 +3,7 @@
 import json, pathlib, collections, hashlib, sys
 root=pathlib.Path(__file__).resolve().parents[1]
 out=root/"data/integration/generated"
-kinds=("documents","claims","events","politicians","organizations")
+kinds=("documents","claims","events","politicians","organizations","roles")
 report=json.loads((out/"report.json").read_text())
 sources=json.loads((out/"sources.json").read_text())["sources"]
 issues=[]
@@ -133,6 +133,7 @@ else:
         "relatedDocumentIds":"documents",
         "relatedClaimIds":"claims",
         "relatedOrganizationIds":"organizations",
+        "relatedRoleIds":"roles",
     }
     for row in links.get("linked",[])+links.get("unlinked",[]):
         path=row["source"]
@@ -171,7 +172,7 @@ for crosswalk in sorted((root/"data/research/registry").glob("*index.json")):
         continue
     if not isinstance(staged,dict):
         continue
-    for kind in ("documents","claims","events","politicians","organizations"):
+    for kind in ("documents","claims","events","politicians","organizations","roles"):
         for row in staged.get(kind,[]):
             if not isinstance(row,dict) or not isinstance(row.get("id"),str):
                 continue
@@ -197,6 +198,7 @@ reference_fields={
     "relatedClaimIds":"claims", "claimIds":"claims",
     "relatedPoliticianIds":"politicians", "politicianIds":"politicians",
     "relatedOrganizationIds":"organizations", "organizationIds":"organizations",
+    "relatedRoleIds":"roles", "roleIds":"roles",
 }
 reference_issues=[]
 for kind in kinds:
@@ -204,7 +206,10 @@ for kind in kinds:
     for record in registry["records"]:
         for alternative in record["alternatives"]:
             payload=alternative["data"]
-            for field,target in reference_fields.items():
+            fields_to_check = dict(reference_fields)
+            if kind == "roles":
+                fields_to_check["eventLinks"] = "events"
+            for field,target in fields_to_check.items():
                 if field not in payload:
                     continue
                 refs=payload[field]

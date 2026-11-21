@@ -9,6 +9,7 @@
 ## Core entities
 
 - `politicians`: stable ID, 이명/한자/영문명, 생몰, 시기별 직책·정당/정파, 조사상태, evidence/annals/history-debt 연결
+- `roles`: 익명·가명·집단 행위자 슬롯. `candidateRoleId`·`candidateGroupId`를 별도 stable role ID로 보존하며, 실명·동일인 근거가 확보되기 전에는 정치인 노드로 승격하지 않음
 - `events`: stable ID를 가진 사건. 관련 정치인·기관·정당·법률·정책·결정·집행·반대·결과·후대판단 연결
 - `records`: 날짜가 있는 발언·공약·표결·정책·행동·해명
 - `sources`: 각 record/event의 근거, 원문 위치, provenance와 접근일
@@ -22,7 +23,7 @@ comparison은 판정이 아니라 검토 객체다.
 
 ## Migration strategy
 
-기존 `data/presidents.json`과 `president-*` ID는 즉시 폐기하지 않는다. `data/politicians.json`의 stable ID와 `legacyIds`를 통해 점진적으로 일반화한다. 기존 evidence/annals 파일도 깨뜨리지 않고 registry에서 연결한다. 대통령 중심 UI 역시 향후 정치인·사건 중심 탐색을 추가할 수 있게 별도 view로 취급한다.
+기존 `data/presidents.json`과 `president-*` ID는 즉시 폐기하지 않는다. `data/politicians.json`의 stable ID와 `legacyIds`를 통해 점진적으로 일반화한다. 기존 evidence/annals 파일도 깨뜨리지 않고 registry에서 연결한다. 이름이 가려진 직책 보유자, 미확인 서명자 집단, 익명 위원회 구성원은 `roles`에 보존하고, 신원 확인 전 정치인 ID를 부여하지 않는다. 대통령 중심 UI 역시 향후 정치인·사건 중심 탐색을 추가할 수 있게 별도 view로 취급한다.
 
 ## Event graph
 

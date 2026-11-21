@@ -13,7 +13,7 @@ def read_rows(path, key):
 root_people=read_rows(data/"politicians.json","politicians")
 root_events=read_rows(data/"events.json","events")
 generated={kind:read_rows(out/(kind+".json"),"records")
-           for kind in ("documents","claims","events","politicians","organizations")}
+           for kind in ("documents","claims","events","politicians","organizations","roles")}
 known={kind:{r.get("id") for r in rows if isinstance(r,dict) and r.get("id")}
        for kind,rows in generated.items()}
 known["politicians"].update(p.get("id") for p in root_people if isinstance(p,dict) and p.get("id"))
@@ -36,6 +36,7 @@ patterns={
     "documents":re.compile(r"\b(?:doc|DOC)-[A-Za-z0-9][A-Za-z0-9-]*\b|\burn:source:[0-9a-f]{24}\b"),
     "claims":re.compile(r"\b(?:claim|clm)-[A-Za-z0-9][A-Za-z0-9-]*\b"),
     "organizations":re.compile(r"\borg-[A-Za-z0-9][A-Za-z0-9-]*\b"),
+    "roles":re.compile(r"\brole-[A-Za-z0-9][A-Za-z0-9-]*\b"),
 }
 file_fields={
     "evidence":("evidenceFile","evidenceFiles"),
@@ -96,13 +97,14 @@ for source in source_index:
         "relatedDocumentIds":sorted(found["documents"]),
         "relatedClaimIds":sorted(found["claims"]),
         "relatedOrganizationIds":sorted(found["organizations"]),
+        "relatedRoleIds":sorted(found["roles"]),
         "status":"NO_EXPLICIT_IDENTITY"
     }
     total=sum(len(item[field]) for field in (
         "candidatePoliticianIds","relatedEventIds","relatedDocumentIds",
         "relatedClaimIds","relatedOrganizationIds"))
     for field in ("candidatePoliticianIds","relatedEventIds","relatedDocumentIds",
-                  "relatedClaimIds","relatedOrganizationIds"):
+                  "relatedClaimIds","relatedOrganizationIds","relatedRoleIds"):
         relation_counts[field]+=len(item[field])
     if total==1:
         item["status"]="EXPLICITLY_LINKED"

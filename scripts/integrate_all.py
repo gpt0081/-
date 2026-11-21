@@ -12,7 +12,7 @@ OUT = DATA / "integration" / "generated"
 OUT.mkdir(parents=True, exist_ok=True)
 CANONICAL = DATA / "integration" / "canonical"
 CANONICAL.mkdir(parents=True, exist_ok=True)
-KINDS = ("documents", "claims", "events", "politicians", "organizations")
+KINDS = ("documents", "claims", "events", "politicians", "organizations", "roles")
 records = {k: collections.defaultdict(list) for k in KINDS}
 sources, parse_errors, unstructured, auxiliary, partial_sources = [], [], [], [], []
 id_fields = (
@@ -24,6 +24,11 @@ id_fields = (
     "organizationId", "organization_id", "candidateOrganizationId", "candidate_organization_id",
     "actionId", "action_id", "candidateActionId", "candidate_action_id",
     "stableId", "stable_id"
+)
+role_id_fields = (
+    "candidateRoleId", "candidate_role_id",
+    "candidateGroupId", "candidate_group_id",
+    "roleId", "role_id", "actorSlotId", "actor_slot_id"
 )
 
 def classify_source(rel):
@@ -40,7 +45,7 @@ def classify_source(rel):
     if rel.startswith("data/events/"):
         return "event_registry_source", ["events"]
     if rel.startswith("data/politicians/") or rel.startswith("data/research/candidates/") or rel.startswith("data/research/politicians/"):
-        return "politician_candidate_source", ["politicians"]
+        return "politician_candidate_source", ["politicians", "roles"]
     if rel.startswith("data/organizations/"):
         return "organization_registry_source", ["organizations"]
     if rel.startswith("data/evidence/"):
@@ -129,9 +134,15 @@ for path in sorted(DATA.rglob("*")):
                                   "reason": "NON_OBJECT_REGISTRY_ITEM", "provenance": source["sha256"]})
                 unmapped += 1
                 continue
-            ident = next((item[key] for key in id_fields
-                          if isinstance(item.get(key), str) and item[key]), None)
-            target_type = "organizations" if typ == "politicians" and ident and ident.startswith("org-") else typ
+            role_ident = next((item[key] for key in role_id_fields
+                               if isinstance(item.get(key), str) and item[key]), None) if typ == "politicians" else None
+            if role_ident:
+                ident = role_ident if role_ident.startswith("role-") else "role-" + role_ident
+                target_type = "roles"
+            else:
+                ident = next((item[key] for key in id_fields
+                              if isinstance(item.get(key), str) and item[key]), None)
+                target_type = "organizations" if typ == "politicians" and ident and ident.startswith("org-") else typ
             if not ident and typ == "politicians":
                 auxiliary.append({"source": rel, "pointer": pointer, "payload": item,
                                   "reason": "POLITICIAN_ITEM_WITHOUT_STABLE_ID", "provenance": source["sha256"]})

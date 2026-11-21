@@ -37,3 +37,11 @@ Floot was not modified or built.
 - Workflow: [Run 88](https://github.com/gpt0081/-/actions/runs/44951206183) completed its integration steps and failed only at the explicit completeness gate because unresolved conflicts/references remain.
 - Weekly history-debt full review was not run; `last_full_review` was not changed.
 
+
+## 2026-11-22 role-slot registry migration
+
+- The integration extractor now routes explicit `candidateRoleId`, `candidateGroupId`, `roleId`, and `actorSlotId` records from actor collections into a separate `roles` registry, using a `role-` namespace. They are not politician promotions.
+- The lossless `data/integration/generated/roles.json` and queryable `data/integration/canonical/roles.json` are audited alongside documents, claims, events, politicians and organizations. `eventLinks` on role records are reference-checked against the event registry.
+- This specifically preserves the 1954 Korean Industrial Bank establishment-commissioner group and redacted Hong/Choi/Yu office-holder slots without inventing personal identities. Source records remain unchanged.
+- This migration does not resolve the existing 584 source ID conflicts, the 110 politician and 16 event root-field variants, or the 310 unlinked operational-layer files. The completeness state must remain `FULL_INTEGRATION_INCOMPLETE` unless the regenerated audit proves otherwise.
+- Floot was not modified or built.
