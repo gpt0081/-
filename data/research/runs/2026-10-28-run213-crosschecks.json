@@ -1,0 +1,92 @@
+{
+  "run": 213,
+  "accessDate": "2026-10-28",
+  "strictThreeIndependentPrimaryFamilyCrosschecks": 0,
+  "comparisons": [
+    {
+      "id": "X213-01",
+      "claim": "1951년 대일평화조약 한국 서명 여부",
+      "families": [
+        "KOREAN_CONTEMPORANEOUS_PRESS",
+        "UK_HANSARD",
+        "MULTILATERAL_TREATY_REPRINT"
+      ],
+      "documentIds": [
+        "doc-r213-dh-1951-08-21-0080",
+        "doc-r213-hansard-19510725",
+        "doc-r213-hansard-19511126",
+        "doc-r213-treaty-sf1951-nikh"
+      ],
+      "result": "한국 공보처 초청 배제 항의 + 영국 의회 협상/서명 보도 + 조약 서명국 명부. 한국 서명 주장 반증.",
+      "strictThreeIndependentPrimaryFamilies": false,
+      "limit": "한국 측 성명은 신문 전사이며 영국 의회 두 문서는 동일 UK provenance"
+    },
+    {
+      "id": "X213-02",
+      "claim": "1951년 8월~9월 전시 원화·달러 재정지원과 국내 예산",
+      "families": [
+        "US_FRUS_1951_V7P1",
+        "KOREAN_CONTEMPORANEOUS_PRESS",
+        "KOREAN_GOVERNMENT_SPEECH_REPRINT"
+      ],
+      "documentIds": [
+        "doc-r213-frus-d537",
+        "doc-r213-frus-d553",
+        "doc-r213-dh-1951-08-24-0110",
+        "doc-r213-dh-1952-01-15-0060"
+      ],
+      "result": "미측 지급 유예/재요청과 한국 예산편성·1952 시정방침은 단계가 다름. 동일 원자명제 완결 교차검증 아님.",
+      "strictThreeIndependentPrimaryFamilies": false,
+      "limit": "시기·대상 회계가 다르므로 숫자를 직접 동일시하지 않음"
+    },
+    {
+      "id": "X213-03",
+      "claim": "1951년 8월 정전협상 중단 및 9월 중립지대 사건",
+      "families": [
+        "US_FRUS_1951_V7P1",
+        "KOREAN_CONTEMPORANEOUS_PRESS"
+      ],
+      "documentIds": [
+        "doc-r213-frus-d531",
+        "doc-r213-frus-d532",
+        "doc-r213-frus-d557",
+        "doc-r213-frus-d558",
+        "doc-r213-dh-1951-08-21-0030"
+      ],
+      "result": "FRUS에 공산측 항의와 유엔군 반박·9/10 과실인정이 모두 실림. 8월 개성사건의 독립 한국군 원장/북측 원문 미확보.",
+      "strictThreeIndependentPrimaryFamilies": false,
+      "limit": "국편 8/21 0030은 다른 주제(국회 감독)라 정전 동일원자명제 교차출처로 계산 불가; 실질 crosscheck는 US 계열 1개에 그침"
+    },
+    {
+      "id": "X213-04",
+      "claim": "1951년 신문 1952 동계올림픽 개최지 헬싱키 표기",
+      "families": [
+        "KOREAN_CONTEMPORANEOUS_PRESS",
+        "IOC_RETROSPECTIVE"
+      ],
+      "documentIds": [
+        "doc-r213-dh-1951-08-21-0120",
+        "doc-r213-ioc-helsinki1952"
+      ],
+      "result": "1951 기사 동계 헬싱키 2/14~25와 IOC 공식 헬싱키 하계 7/19~8/3 기록이 충돌. Oslo 원문 미열람.",
+      "strictThreeIndependentPrimaryFamilies": false,
+      "limit": "IOC 자료는 후대 공식 회고, 1951 초청장 원본 미확보"
+    },
+    {
+      "id": "X213-05",
+      "claim": "1951년 8월 개성폭격 부인 발언의 정보원",
+      "families": [
+        "US_FRUS_1951_V7P1",
+        "KOREAN_CONTEMPORANEOUS_PRESS"
+      ],
+      "documentIds": [
+        "doc-r213-frus-d531",
+        "doc-r213-dh-1951-08-24-0010",
+        "doc-r213-dh-1951-08-24-0030"
+      ],
+      "result": "트루먼의 기자회견은 릿지웨이 보고를 명시 인용. 국편 신문과 FRUS가 다른 웹사이트여도 원생산 정보는 UNC 단일 사슬.",
+      "strictThreeIndependentPrimaryFamilies": false,
+      "limit": "DERIVED_FROM 동일 정보사슬, 독립 확인으로 계산 금지"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "run": 129,
+  "date": "2026-10-09",
+  "branch": "research/run129-parliamentary-procedure-20261009",
+  "focus": "1952 June-July parliamentary procedure and cabinet-local policy claims, independent politician action graph",
+  "counts": {
+    "independentResearchLines": 11,
+    "policyDomainsSubstantivelyStrengthened": 8,
+    "nonPresidentCandidatesWithSourcedActions": 20,
+    "canonicalPromotions": 0,
+    "eventOrSubeventAdded": 23,
+    "documentsDirectlyOpenedUnique": 13,
+    "officialPrimaryTranscriptionsOpened": 10,
+    "officialRetrospectiveOpened": 1,
+    "originalFacsimileOpened": 0,
+    "adversarialComparisons": 19,
+    "independentAdversarialWebSearches": 7,
+    "priorOpenLeadsTracked": 11,
+    "newConcreteLeads": 39,
+    "independentProvenanceCrosschecksCompleted": 3
+  },
+  "crosscheck": {
+    "claim": "1952-07-04 final amendment vote 166 present, 163 yes",
+    "independentFamilies": [
+      "Korean National Assembly original plenary record",
+      "National Archives of Korea retrospective constitutional exhibit"
+    ],
+    "status": "SUPPORTED"
+  },
+  "additionalWithinFamilyChecks": [
+    "1952-06-11 89/97 passed versus 1952-06-14 no quorum",
+    "1952-06-21 government proposed appointed senators versus 1952-07-04 final compromise",
+    "1952-07-04 original readings versus editorial summary 'readings omitted'"
+  ],
+  "trackedLeadIds": [
+    "L128-01",
+    "L128-02",
+    "L128-03",
+    "L128-04",
+    "L128-05",
+    "L128-06",
+    "L128-12",
+    "L128-13",
+    "L128-14",
+    "L128-18",
+    "L127-02"
+  ],
+  "documents": "data/documents/run129-1952-parliamentary-originals.json",
+  "sourceAudit": "data/research/runs/run129-source-audit.json",
+  "politicians": "data/politicians/run129-1952-parliamentary-actors.json",
+  "events": "data/events/run129-1952-parliamentary-actions.json",
+  "claims": "data/claims/run129-1952-procedure-audit.json",
+  "annals": "data/annals/1952-june-july-parliament-run129.md",
+  "leads": "data/research/lead-queues/run129-next.json",
+  "historyDebt": "data/research/history-debt/run129-parliament-process.md",
+  "weeklyFullDebtReview": "NOT_PERFORMED_FRIDAY",
+  "flootModified": false,
+  "executionHoursClaimed": 0,
+  "limitations": [
+    "13 distinct documents directly read, below 40 target; no snippet inflation",
+    "10 official primary/legal/diplomatic documents, below 20 target",
+    "Physical facsimiles and some original vote/appointment registers not inspected",
+    "20 IDENTIFIED candidate politicians, no VERIFIED promotions due missing electoral and birth registers",
+    "Independent research lines 11, below 20 target; time and source access limits",
+    "Branch commits not merged to main",
+    "No one-hour wall-clock duration claimed"
+  ],
+  "crosschecks": [
+    {
+      "claim": "7월4일 발췌개헌 최종 166/163",
+      "independentFamilies": [
+        "국회 제13회 제2차 본회의 원속기록",
+        "국가기록원 공식 전시",
+        "1952-07-05 동아일보"
+      ],
+      "status": "SUPPORTED"
+    },
+    {
+      "claim": "문화보호법 6/11 심의지연→7/21 통과→8/7 제정",
+      "independentFamilies": [
+        "국회 제12회 제74차 본회의 원속기록",
+        "1952-07-22 동아일보",
+        "국가법령정보센터 법률 제248호"
+      ],
+      "status": "SUPPORTED"
+    },
+    {
+      "claim": "7월7일 공포 및 민선 상원 조문",
+      "independentFamilies": [
+        "국회 7월4일 본회의 원속기록",
+        "관보 제688호",
+        "국가기록원 공식 전시"
+      ],
+      "status": "SUPPORTED"
+    }
+  ],
+  "correctiveUpdate": "See data/research/runs/run129-correction-addendum.md. Newly opened 1952-07-07 original Gazette, 1952-08-07 law enactment register, 1952-06-12 FRUS, two contemporaneous press items.",
+  "lastCommitToBeRecorded": "37e2af4f62438034947b91eac8710784894ed885",
+  "leadQueueStatus": "39 total; 2 narrowed by source discovery, 37 still open"
+}
