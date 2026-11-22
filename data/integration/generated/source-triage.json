@@ -2,14 +2,14 @@
   "schemaVersion": 1,
   "scope": "Every inventoried source file; structural triage only",
   "canonicalSyncVerified": false,
-  "sourceFiles": 5183,
+  "sourceFiles": 5184,
   "statusCounts": {
     "BLOCKED_ID_CONFLICT": 518,
     "INDEXED_NOT_CANONICAL_VERIFIED": 1754,
     "NON_JSON_PRESERVED": 1315,
     "OPERATIONAL_ROOT_PRESERVED": 2,
     "PRESIDENTIAL_BACKBONE_PRESERVED": 1,
-    "UNMAPPED_AUXILIARY_OR_PARTIAL": 1593
+    "UNMAPPED_AUXILIARY_OR_PARTIAL": 1594
   },
   "sources": [
     {
@@ -18702,8 +18702,8 @@
     },
     {
       "path": "data/claims/run225-june1952-adversarial.json",
-      "sha256": "55497896161dbc3d5ee7308000308e57f0bb8be84a8a92ec9ae1302e803d8b3c",
-      "bytes": 13057,
+      "sha256": "1c65711a0105988b189f01f46cd52d8d065600fedfdcaf53447334e2b568a1f4",
+      "bytes": 13611,
       "recordCounts": {
         "documents": 0,
         "claims": 17,
@@ -42343,8 +42343,8 @@
     },
     {
       "path": "data/events/run225-june1952-actor-decision-graph.json",
-      "sha256": "b7b71eccda24fd83df9cbaa44c367287b4d552f36fc3ed8e876deb4bbdc4b456",
-      "bytes": 30574,
+      "sha256": "1f6334e02be245b5a168be49ab8a67619de6606ef617e8d70a8b8e017988df4e",
+      "bytes": 31191,
       "recordCounts": {
         "documents": 0,
         "claims": 0,
@@ -65770,8 +65770,8 @@
     },
     {
       "path": "data/politicians.json",
-      "sha256": "6536353f184ea94f1163fff990feac0854c25618137fe3d2564b083f9f941ec3",
-      "bytes": 4338649,
+      "sha256": "b3e0eed1276eda3c10876d29934600d32e64df55f722015b8bf5f995c933bdc9",
+      "bytes": 4339442,
       "recordCounts": {
         "documents": 0,
         "claims": 0,
@@ -67491,8 +67491,8 @@
     },
     {
       "path": "data/research/HISTORY_DEBT.md",
-      "sha256": "32e34b8ebba33d1f39466c1d730d2e0a7d213984ceba20fcb0ed2db4502b5052",
-      "bytes": 388208,
+      "sha256": "e7c7c5153211de6475bb81a0fc03ea7c16d8c7cdf9e6b35782b5b51bc5faa6a7",
+      "bytes": 388261,
       "recordCounts": {
         "documents": 0,
         "claims": 0,
@@ -77942,6 +77942,30 @@
       "path": "data/research/corrections/run224-identity-guardrail.json",
       "sha256": "b4af495136852c84d99046dffa9442c7955862ae44b66c5718d2bd12baa5d9d7",
       "bytes": 1181,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "research_supporting_layer",
+      "targetRegistries": [
+        "documents",
+        "claims",
+        "events",
+        "politicians",
+        "organizations"
+      ],
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/corrections/run331-pr74-review-corrections.json",
+      "sha256": "21520bf3253d21fc67f6a320120f1d5301f65238977c46c52d4eb3d540c75cb4",
+      "bytes": 2336,
       "recordCounts": {
         "documents": 0,
         "claims": 0,
@@ -88792,8 +88816,8 @@
     },
     {
       "path": "data/research/history-debt-review-state.json",
-      "sha256": "bf7e64a1820887765c515fe81d9270d162061fd4f3cbe61526314bba468d8cfc",
-      "bytes": 734,
+      "sha256": "e30901e40825fade065934df85ee0afeaaa5e27925764ab69fd09682a3019d19",
+      "bytes": 976,
       "recordCounts": {
         "documents": 0,
         "claims": 0,

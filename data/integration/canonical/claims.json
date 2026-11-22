@@ -99875,9 +99875,7 @@
       "id": "claim-r225-cabinet-unanimous-dissolution",
       "claim": "6월3일 내각은 이승만의 국회해산안을 만장일치 지지했다",
       "status": "OPEN_OR_NARROWED_WITH_ADVERSARIAL_EVIDENCE",
-      "supportingEvidenceDocumentIds": [
-        "doc-r225-frus-163"
-      ],
+      "supportingEvidenceDocumentIds": [],
       "contradictingEvidenceDocumentIds": [
         "doc-r225-frus-162",
         "doc-r225-frus-163"
@@ -99888,9 +99886,18 @@
       "adversarialFinding": "장택상 간접 보고에서는 대다수 내각 반대",
       "accessDate": "2026-10-28",
       "verificationNote": "Support/contradict refer to documentary statements, not adjudicated legal truth.",
+      "correctionHistory": [
+        {
+          "date": "2026-11-22",
+          "correctionId": "CORR-R331-PR74-001",
+          "change": "Removed doc-r225-frus-163 from supportingEvidenceDocumentIds and retained it only as contradicting evidence.",
+          "reason": "The FRUS d163 passage reports Chang Taek-sang's account that most cabinet members opposed the dissolution proposal; it cannot support a claim of unanimous cabinet support.",
+          "reviewSource": "Post-merge review finding on PR #74; no new historical source claim is made in this correction."
+        }
+      ],
       "_integration": {
         "id": "claim-r225-cabinet-unanimous-dissolution",
-        "digest": "d7ae1e4c53ffc4548af299ca3c9a3fa0d26340e98c3aa35cc929700fbc5bfa2d",
+        "digest": "0cffd5a270f8ec9694d246867589283510c728aa5555cedb32d965250fa64273",
         "provenance": [
           {
             "path": "data/claims/run225-june1952-adversarial.json",

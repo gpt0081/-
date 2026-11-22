@@ -8,9 +8,9 @@
     "roles": 65
   },
   "canonicalDirectory": "data/integration/canonical",
-  "sourceFiles": 5183,
+  "sourceFiles": 5184,
   "sourceStatusCounts": {
-    "AUXILIARY_JSON_INDEXED": 1583,
+    "AUXILIARY_JSON_INDEXED": 1584,
     "CANONICAL_MATERIALIZED": 1754,
     "CONFLICT_REVIEW_REQUIRED": 513,
     "NON_JSON_SOURCE_PRESERVED": 1315,
@@ -35,7 +35,7 @@
     "other": 8,
     "politician_candidate_source": 556,
     "presidential_backbone": 1,
-    "research_supporting_layer": 652
+    "research_supporting_layer": 653
   },
   "totals": {
     "documents": {
@@ -10611,6 +10611,7 @@
     "data/research/corrections/run133-first-pass.json",
     "data/research/corrections/run133-source-audit.json",
     "data/research/corrections/run224-identity-guardrail.json",
+    "data/research/corrections/run331-pr74-review-corrections.json",
     "data/research/coverage/pass-237-coverage-overlay.json",
     "data/research/coverage/pass-252-coverage-overlay.json",
     "data/research/coverage/pass-254a-coverage-overlay.json",
@@ -11850,7 +11851,7 @@
     "data/research/weekly-history-debt-review-2026-10-11-run146-continuation.json",
     "data/votes/1960-06-15-constitutional-amendment.json"
   ],
-  "auxiliaryRecords": 2243,
+  "auxiliaryRecords": 2244,
   "partialSources": [
     "data/documents/run149-1956-laws.json",
     "data/evidence/yu-wan-chang.json",
@@ -13308,6 +13309,10 @@
     },
     {
       "path": "data/research/corrections/run224-identity-guardrail.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/corrections/run331-pr74-review-corrections.json",
       "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {

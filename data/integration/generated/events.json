@@ -233331,7 +233331,7 @@
       "integrationStatus": "INTEGRATED",
       "alternatives": [
         {
-          "digest": "496e798f8e1d073d0069dc9e34202a8c3a3a532a615acdc4308e5911041252fa",
+          "digest": "ea588466c250727cf06ebf7ac400400761cf4eb997b302c4687455c57e986628",
           "data": {
             "id": "evt-r225-july-arrest-report",
             "date": "1952-07-07",
@@ -233342,8 +233342,7 @@
               "doc-r224-nikh-0010_0170"
             ],
             "politicianIds": [
-              "pol-r148-kwak-sang-hun",
-              "pol-r164-seo-min-ho"
+              "pol-r148-kwak-sang-hun"
             ],
             "proposed_by": [],
             "decided_by": [],
@@ -233360,7 +233359,16 @@
             "executed_by_refs": [],
             "opposed_by_refs": [],
             "observed_by_refs": [],
-            "roleAttributionBasis": "Document-specific source attribution; a planning document is not evidence of execution."
+            "roleAttributionBasis": "Document-specific source attribution; a planning document is not evidence of execution.",
+            "correctionHistory": [
+              {
+                "date": "2026-11-22",
+                "correctionId": "CORR-R331-PR74-002",
+                "change": "Removed pol-r164-seo-min-ho from the politicianIds of evt-r225-july-arrest-report.",
+                "reason": "The 1952-07-07 press transcription does not identify Seo Min-ho among the ten people reported arrested/released/tried. His separately documented 1952 cabinet-command-chain role remains linked only to evt-r225-cabinet-command-chain.",
+                "reviewSource": "Post-merge review finding on PR #74; event attribution narrowed, not a finding about Seo Min-ho's other 1952 activities."
+              }
+            ]
           },
           "provenance": [
             {
@@ -233370,7 +233378,7 @@
           ]
         }
       ],
-      "canonicalSelection": "496e798f8e1d073d0069dc9e34202a8c3a3a532a615acdc4308e5911041252fa"
+      "canonicalSelection": "ea588466c250727cf06ebf7ac400400761cf4eb997b302c4687455c57e986628"
     },
     {
       "id": "evt-r225-june-dissolution",
