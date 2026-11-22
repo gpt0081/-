@@ -1,21 +1,28 @@
 {
   "schemaVersion": 2,
-  "sourceTreeSha": "58ea5d18e1b142a631127a25d7d59cf93e5750d8",
-  "sourceSnapshotCommit": "e2d528b73bed55037ffbb525a623c11ffc98049b",
-  "group": "data/evidence",
-  "count": 65,
+  "group": "data-evidence.json",
+  "sourceSnapshotCommit": "0ec4d08748213b231310076d3933bb1e40810177",
+  "sourceTreeSha": "20a15a95a0c107cf8c72c04cc286d54eb6d16373",
+  "fileCount": 192,
   "statusCounts": {
-    "UNMAPPED_AUXILIARY_OR_PARTIAL": 59,
-    "INDEXED_NOT_CANONICAL_VERIFIED": 3,
-    "BLOCKED_ID_CONFLICT": 3
+    "BLOCKED_ID_CONFLICT": 3,
+    "CANONICAL_MATERIALIZED": 14,
+    "UNMAPPED_AUXILIARY_OR_PARTIAL": 175
   },
   "files": [
     {
-      "path": "data/evidence/ahn-jae-hong.json",
-      "sha": "ea7ecca3dbc7ddf12fd8dbc596a4e25e6005552c",
-      "sha256": "82a598a4cc2ccdd2121051295f7205f721353d969fd336d412aaee87fb71ca62",
-      "size": 848,
-      "registryState": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "path": "data/evidence/1949-1953-legal-transition-run183.json",
+      "gitBlobSha": "d6d040b4c1d634110a6c4684d5301e61b6197dc6",
+      "sha256": "7d7802aa4afd36475c4c716b4f7acae2d4879395b667ac0185ed131bdfc38b33",
+      "bytes": 2189,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
       "targetLayer": "evidence_layer",
       "targetRegistries": [
         "evidence",
@@ -24,22 +31,258 @@
         "claims",
         "events"
       ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/1949-external-procurement-assembly-run181.json",
+      "gitBlobSha": "ee213b590777985248ab462d939bc2977636d17d",
+      "sha256": "f2439530e761d59760fe4c9e47d32d780110b42bfa8ff8d75a4ed196d3d146fb",
+      "bytes": 910,
       "recordCounts": {
         "documents": 0,
         "claims": 0,
         "events": 0,
         "politicians": 0,
-        "organizations": 0
+        "organizations": 0,
+        "roles": 0
       },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/1949-judicial-police-2026-run183d.json",
+      "gitBlobSha": "e8e5d65e2e1955c3629cf21c5e148a5e59f6fdf1",
+      "sha256": "bdb5e70bbe496566f6e01567635db72927153a1ef277c5fac902555e0cf1f7cb",
+      "bytes": 1313,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/1949-ministers-and-assembly-run183c.json",
+      "gitBlobSha": "f5407e1758c82facbd34d3dcf6a2d37062d76741",
+      "sha256": "b175eee9b7c9d7f2862af65fb06d46a8f8cbaf54d3adeb8a9e2c27b1e4953372",
+      "bytes": 2065,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/1949-statecraft-run183b.json",
+      "gitBlobSha": "1c18f27d2e18cfebd350a8b23d8e7b04576cc9ce",
+      "sha256": "f00da35dfb9cadcdfe27e71f03c4d7a2b9f80461237c5a6d9e941c78c8032b02",
+      "bytes": 2368,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/ahn-ho-sang-run179b.json",
+      "gitBlobSha": "d749aa3dcac4879f533c365a326484e27e1c1518",
+      "sha256": "06091edcbfe199de6d5fd4421088743a135788471094da451137f2e51415ff29",
+      "bytes": 1186,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 3,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/evidence/ahn-ho-sang-run180b.json",
+      "gitBlobSha": "fa566dc5ea64e00249e3184671685e2cc7087c45",
+      "sha256": "2f17f83aba3db26405c19a8ad4ae5dff34a89dff45a03944fae934316c5cbde0",
+      "bytes": 555,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/ahn-jae-hong.json",
+      "gitBlobSha": "ea7ecca3dbc7ddf12fd8dbc596a4e25e6005552c",
+      "sha256": "82a598a4cc2ccdd2121051295f7205f721353d969fd336d412aaee87fb71ca62",
+      "bytes": 848,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/chang-do-yeong-run181.json",
+      "gitBlobSha": "138928691f0b9748f89f136c59106ac6e391f0c8",
+      "sha256": "6e741194462dd98fbe95166857736397b96f095c836b494fe540fed43d5c6b80",
+      "bytes": 389,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/chang-myon-run108.json",
+      "gitBlobSha": "0b6d76a0311ecd9ed0556117163bd5bf9d38c80e",
+      "sha256": "909bf9d1411dbd590331d257c3f676bcc0c290676b30564c468ab94a36aa43ca",
+      "bytes": 853,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
       "conflicts": [],
       "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
       "path": "data/evidence/chang-myon.json",
-      "sha": "7cea69613341fe97e0968bf49c7cfa297b95248e",
+      "gitBlobSha": "7cea69613341fe97e0968bf49c7cfa297b95248e",
       "sha256": "8b82699d59a497fece0df258ab15751f6a317ade7ba84494eb67f8c9d6b81160",
-      "size": 4717,
-      "registryState": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "bytes": 4717,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
       "targetLayer": "evidence_layer",
       "targetRegistries": [
         "evidence",
@@ -48,22 +291,24 @@
         "claims",
         "events"
       ],
-      "recordCounts": {
-        "documents": 0,
-        "claims": 0,
-        "events": 0,
-        "politicians": 0,
-        "organizations": 0
-      },
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
       "conflicts": [],
       "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
       "path": "data/evidence/cho-bong-am.json",
-      "sha": "b5cab9fd30e665139512ffd3df1b95ee781fc1e0",
+      "gitBlobSha": "b5cab9fd30e665139512ffd3df1b95ee781fc1e0",
       "sha256": "310c3ee0a2e7af1dbebc73f4e4197909464906f510a6b9e9c728316d39656ff6",
-      "size": 4369,
-      "registryState": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "bytes": 4369,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
       "targetLayer": "evidence_layer",
       "targetRegistries": [
         "evidence",
@@ -72,22 +317,50 @@
         "claims",
         "events"
       ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/cho-byeong-ok-run180.json",
+      "gitBlobSha": "5d9a512cc7ca241210784e0b09cffb7a5ef490c8",
+      "sha256": "7a6d29d9977be40a2b0fb44db00d61b4fbe50bab427dbb05aa22224bf7fa4eea",
+      "bytes": 363,
       "recordCounts": {
         "documents": 0,
         "claims": 0,
         "events": 0,
         "politicians": 0,
-        "organizations": 0
+        "organizations": 0,
+        "roles": 0
       },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
       "conflicts": [],
       "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
       "path": "data/evidence/cho-chung-hwan-1955.json",
-      "sha": "95624589c3555102f4b9deca4e2477a37a34c74e",
+      "gitBlobSha": "95624589c3555102f4b9deca4e2477a37a34c74e",
       "sha256": "2a7663e5fcc806a7091e7f9729308f081a9137a7907e107983a0804a6bcbfc74",
-      "size": 1675,
-      "registryState": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "bytes": 1675,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
       "targetLayer": "evidence_layer",
       "targetRegistries": [
         "evidence",
@@ -96,22 +369,24 @@
         "claims",
         "events"
       ],
-      "recordCounts": {
-        "documents": 0,
-        "claims": 0,
-        "events": 0,
-        "politicians": 0,
-        "organizations": 0
-      },
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
       "conflicts": [],
       "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
       "path": "data/evidence/cho-chung-whan.json",
-      "sha": "b00f597d0304507ed6d58839ebdd99b42397dfff",
+      "gitBlobSha": "b00f597d0304507ed6d58839ebdd99b42397dfff",
       "sha256": "ee6b6c26b1e265354a0a1cf4150b7446a64f5b429e5784c3e6486e13c26a8dc5",
-      "size": 5014,
-      "registryState": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "bytes": 5014,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
       "targetLayer": "evidence_layer",
       "targetRegistries": [
         "evidence",
@@ -120,22 +395,24 @@
         "claims",
         "events"
       ],
-      "recordCounts": {
-        "documents": 0,
-        "claims": 0,
-        "events": 0,
-        "politicians": 0,
-        "organizations": 0
-      },
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
       "conflicts": [],
       "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
-      "path": "data/evidence/choi-duk-shin-1953.json",
-      "sha": "711b2ef8be2fee8d268751277b4998f9a5f95be5",
-      "sha256": "750f2f60354c961ee6a47928d6c32934ac23443c9a7b5901af6834305745e529",
-      "size": 985,
-      "registryState": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "path": "data/evidence/cho-jin-man.json",
+      "gitBlobSha": "039ec9598a2d8977f0b623fbc08f0d2832f77313",
+      "sha256": "1b6e1d0eebb87a3692c2ed84934ee8f7ef73e71eff10b76064edbaeb55340177",
+      "bytes": 1597,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 1,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
       "targetLayer": "evidence_layer",
       "targetRegistries": [
         "evidence",
@@ -144,46 +421,102 @@
         "claims",
         "events"
       ],
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/evidence/choi-duk-shin-1953.json",
+      "gitBlobSha": "711b2ef8be2fee8d268751277b4998f9a5f95be5",
+      "sha256": "750f2f60354c961ee6a47928d6c32934ac23443c9a7b5901af6834305745e529",
+      "bytes": 985,
       "recordCounts": {
         "documents": 0,
         "claims": 0,
         "events": 0,
         "politicians": 0,
-        "organizations": 0
+        "organizations": 0,
+        "roles": 0
       },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/choi-myeong-sik-run180b.json",
+      "gitBlobSha": "8f8164ab75f8e94bd8eb3691732cabbebd89025e",
+      "sha256": "e7f779ec33c7a1f73113384516f525de4fd84266bf3a7f79b743564fb72df4d5",
+      "bytes": 413,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
       "conflicts": [],
       "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
       "path": "data/evidence/chu-yo-han.json",
-      "sha": "3541a3c992b95b1653ed2284e66a2a5983396e92",
+      "gitBlobSha": "3541a3c992b95b1653ed2284e66a2a5983396e92",
       "sha256": "cedb71d5244ccfaeb182fbe793bdd209c28984f7fc1959cf00a39f51c2c2c4a9",
-      "size": 3531,
-      "registryState": "INDEXED_NOT_CANONICAL_VERIFIED",
-      "targetLayer": "evidence_layer",
-      "targetRegistries": [
-        "evidence",
-        "politicians",
-        "documents",
-        "claims",
-        "events"
-      ],
+      "bytes": 3531,
       "recordCounts": {
         "documents": 0,
         "claims": 0,
         "events": 6,
         "politicians": 0,
-        "organizations": 0
+        "organizations": 0,
+        "roles": 0
       },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
       "conflicts": [],
       "unintegratedReason": null
     },
     {
       "path": "data/evidence/eom-byeong-hak-1953.json",
-      "sha": "800ab7e4478149ef3b259a4b9854fd0853ee3c50",
+      "gitBlobSha": "800ab7e4478149ef3b259a4b9854fd0853ee3c50",
       "sha256": "17665313dcb7bd300845f5f6a03395684d7b20b67caba8de9fc40d179b3b47e0",
-      "size": 968,
-      "registryState": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "bytes": 968,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
       "targetLayer": "evidence_layer",
       "targetRegistries": [
         "evidence",
@@ -192,46 +525,102 @@
         "claims",
         "events"
       ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/han-tong-suk-run180b.json",
+      "gitBlobSha": "49400b092f68a2288f02d8a7b8eb992db79fa47c",
+      "sha256": "a2e12dde923ce70feb1e92339685264b114229d3dbd87ec521337a2b453a906d",
+      "bytes": 381,
       "recordCounts": {
         "documents": 0,
         "claims": 0,
         "events": 0,
         "politicians": 0,
-        "organizations": 0
+        "organizations": 0,
+        "roles": 0
       },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/hong-seong-ha-run92.json",
+      "gitBlobSha": "de13878ac957b9089282a3fd73cbaee731f158ca",
+      "sha256": "3f81587e58d7c4a46d8222db10d5e98003cedc2b7a56e78705bfdb384a432a39",
+      "bytes": 200,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
       "conflicts": [],
       "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
       "path": "data/evidence/huh-chung.json",
-      "sha": "6256a21e2678728fbcab32958e2701d72316a4bb",
+      "gitBlobSha": "6256a21e2678728fbcab32958e2701d72316a4bb",
       "sha256": "42775d6393e9df31f2dd58129b727edbd6ee477f5a6c71eec206767c9b1918eb",
-      "size": 4522,
-      "registryState": "INDEXED_NOT_CANONICAL_VERIFIED",
-      "targetLayer": "evidence_layer",
-      "targetRegistries": [
-        "evidence",
-        "politicians",
-        "documents",
-        "claims",
-        "events"
-      ],
+      "bytes": 4522,
       "recordCounts": {
         "documents": 0,
         "claims": 0,
         "events": 9,
         "politicians": 0,
-        "organizations": 0
+        "organizations": 0,
+        "roles": 0
       },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
       "conflicts": [],
       "unintegratedReason": null
     },
     {
       "path": "data/evidence/hwang-jong-ryul-identity-correction-2026-09-24.json",
-      "sha": "1610e91ae15e7d5692772f9cde9a20f137733b3f",
+      "gitBlobSha": "1610e91ae15e7d5692772f9cde9a20f137733b3f",
       "sha256": "ac01cd2211bc09aa14c976c40298d8c1cff0a119a2ea0481660d018c753813d2",
-      "size": 2825,
-      "registryState": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "bytes": 2825,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
       "targetLayer": "evidence_layer",
       "targetRegistries": [
         "evidence",
@@ -240,22 +629,24 @@
         "claims",
         "events"
       ],
-      "recordCounts": {
-        "documents": 0,
-        "claims": 0,
-        "events": 0,
-        "politicians": 0,
-        "organizations": 0
-      },
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
       "conflicts": [],
       "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
       "path": "data/evidence/hwang-jong-ryul.json",
-      "sha": "603d37dc948283771717a7390fb7c81d374185cb",
+      "gitBlobSha": "603d37dc948283771717a7390fb7c81d374185cb",
       "sha256": "2fe950fcb194715fedd1ac592e30afceac04a47ef33c3fbcb74b5b1830d1faaa",
-      "size": 9948,
-      "registryState": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "bytes": 9948,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
       "targetLayer": "evidence_layer",
       "targetRegistries": [
         "evidence",
@@ -264,22 +655,24 @@
         "claims",
         "events"
       ],
-      "recordCounts": {
-        "documents": 0,
-        "claims": 0,
-        "events": 0,
-        "politicians": 0,
-        "organizations": 0
-      },
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
       "conflicts": [],
       "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
       "path": "data/evidence/im-song-bon.json",
-      "sha": "3cd8021e5e08024e0cbc52ba3c82ef49f39835a3",
+      "gitBlobSha": "3cd8021e5e08024e0cbc52ba3c82ef49f39835a3",
       "sha256": "c8d6d4d463dca4c8e57641779d2fdc75698ba10e5e710388f9ce507fa931f118",
-      "size": 3048,
-      "registryState": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "bytes": 3048,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
       "targetLayer": "evidence_layer",
       "targetRegistries": [
         "evidence",
@@ -288,22 +681,102 @@
         "claims",
         "events"
       ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/jang-taek-sang.json",
+      "gitBlobSha": "23b9e12fb70c8fa3cffdd90654001d5eb9a6a5be",
+      "sha256": "4d83ce1736008c852ab39ce4a950685f9b05830b11d2b6c17b7789d836d098bc",
+      "bytes": 1630,
       "recordCounts": {
         "documents": 0,
         "claims": 0,
         "events": 0,
         "politicians": 0,
-        "organizations": 0
+        "organizations": 0,
+        "roles": 0
       },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/jeon-jin-han-run176.json",
+      "gitBlobSha": "151c24636b8088230d0572ac67f5eb1c9f86628b",
+      "sha256": "c78cfed3e9abb9f0576359acdc5c2fd1ae6acd890970b4b23847aad85673df0a",
+      "bytes": 872,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/jeong-in-bo-run89.json",
+      "gitBlobSha": "aa6a75cb1113d82543905414da87b4cdb565ec0f",
+      "sha256": "83384c732c8466e6021a11ffc469571a5cbff595bd8dbdff6d1c780bd4fd20b0",
+      "bytes": 445,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
       "conflicts": [],
       "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
       "path": "data/evidence/ji-cheong-cheon.json",
-      "sha": "8b78905d7ba320e92f44c061d8efae4c1dac0334",
+      "gitBlobSha": "8b78905d7ba320e92f44c061d8efae4c1dac0334",
       "sha256": "27a0c9ddeba3f27e3b6a2fcb83126f9784d9fde22413c8312a7f42c2f05eca3e",
-      "size": 285,
-      "registryState": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "bytes": 285,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
       "targetLayer": "evidence_layer",
       "targetRegistries": [
         "evidence",
@@ -312,22 +785,180 @@
         "claims",
         "events"
       ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/kim-byeong-ro-run183d.json",
+      "gitBlobSha": "ebf384619a0e5d06e956fb32815f626f18167522",
+      "sha256": "782e3d903e8545bb6d0f28d77ee6e7924467286964f3098534ac9e76b39d998e",
+      "bytes": 1080,
       "recordCounts": {
         "documents": 0,
         "claims": 0,
         "events": 0,
         "politicians": 0,
-        "organizations": 0
+        "organizations": 0,
+        "roles": 0
       },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/kim-gu-run180.json",
+      "gitBlobSha": "8f8f1da305f1989d0d16564260d45eb9a06afe8c",
+      "sha256": "c6c066d8eae39ffe14f5c1e4040c1e29d14c94668945b1b658e0a83b3f6e8a14",
+      "bytes": 323,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/kim-hun-run180b.json",
+      "gitBlobSha": "c3fb3b6b2d42415a473ba4e57b3b77f240c1d486",
+      "sha256": "305a227964d163fa53dbe96652ac9f8e18ac411ce8e66257375d3f9393cfa999",
+      "bytes": 430,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/kim-hyeon-cheol.json",
+      "gitBlobSha": "5a93cc83e141aab910905b5632187e77bc6e8bd0",
+      "sha256": "894297f7c01a0504335ba77025e78cec1a5e8a7f6604096f4eff9495bdf191ae",
+      "bytes": 187,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/kim-hyo-seok-run179d.json",
+      "gitBlobSha": "8cf2c0457c9823f9cd5dcb340046c34d9169cdd3",
+      "sha256": "71085be77a07b20123a56f626ff3c4d83e1d829947799a92b3720edb423278ed",
+      "bytes": 867,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 2,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/evidence/kim-hyo-seok-run180b.json",
+      "gitBlobSha": "12db7e6bb5c292f91581b3bede8a759aa4487106",
+      "sha256": "b830d8900571ac3908be515fdc10101ca91d3173a48c00b2c0832a60494462cb",
+      "bytes": 531,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
       "conflicts": [],
       "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
       "path": "data/evidence/kim-il-su-1953.json",
-      "sha": "1ef63a87b8e4c52c01fcc317ee330d4bed8f7f70",
+      "gitBlobSha": "1ef63a87b8e4c52c01fcc317ee330d4bed8f7f70",
       "sha256": "8781cf4caecbb229efbba7fb2100a217f296735acb707f7cb574dd2eae8b4f0c",
-      "size": 1185,
-      "registryState": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "bytes": 1185,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
       "targetLayer": "evidence_layer",
       "targetRegistries": [
         "evidence",
@@ -336,22 +967,50 @@
         "claims",
         "events"
       ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/kim-jang-yeol-run180b.json",
+      "gitBlobSha": "511f79fcbe3f4b0695a8a0ac5dd9a07f584bf00e",
+      "sha256": "17037a9b9bbdabf7352617ca861dbdb6cd6819316b8846480fa3a3118984358d",
+      "bytes": 521,
       "recordCounts": {
         "documents": 0,
         "claims": 0,
         "events": 0,
         "politicians": 0,
-        "organizations": 0
+        "organizations": 0,
+        "roles": 0
       },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
       "conflicts": [],
       "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
       "path": "data/evidence/kim-sang-don.json",
-      "sha": "cd2185086887336b63edebbf2c9a6e0b3a28f5a1",
+      "gitBlobSha": "cd2185086887336b63edebbf2c9a6e0b3a28f5a1",
       "sha256": "447af038636e1f2a0116b423056d6a617a536cad344c35064b9516afd8b1bfe3",
-      "size": 868,
-      "registryState": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "bytes": 868,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
       "targetLayer": "evidence_layer",
       "targetRegistries": [
         "evidence",
@@ -360,22 +1019,24 @@
         "claims",
         "events"
       ],
-      "recordCounts": {
-        "documents": 0,
-        "claims": 0,
-        "events": 0,
-        "politicians": 0,
-        "organizations": 0
-      },
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
       "conflicts": [],
       "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
       "path": "data/evidence/kim-seong-su.json",
-      "sha": "29dbdd87d149fc6c019cba27fb224015ea5ce0cf",
+      "gitBlobSha": "29dbdd87d149fc6c019cba27fb224015ea5ce0cf",
       "sha256": "8dc1e88d75e8a013bb07498be9c940b669ee8fb9c19462a6ba827c6be477fd96",
-      "size": 5668,
-      "registryState": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "bytes": 5668,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
       "targetLayer": "evidence_layer",
       "targetRegistries": [
         "evidence",
@@ -384,22 +1045,76 @@
         "claims",
         "events"
       ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/kim-su-seon-run179.json",
+      "gitBlobSha": "a75ca302496fce95851b40128655e7750ef14a67",
+      "sha256": "c454ea00a86413064a88e5618cf68c35b77215cdf8461bf99b396191a13eb63d",
+      "bytes": 865,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 2,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/evidence/kim-tae-seon-run181.json",
+      "gitBlobSha": "9c08efb5addd341c36dc851bab993d599812494d",
+      "sha256": "5dd39cc43ca3b916f24ecf5bb90548f8b5cc98832dc0cb11a1a9ba9c9cce127d",
+      "bytes": 387,
       "recordCounts": {
         "documents": 0,
         "claims": 0,
         "events": 0,
         "politicians": 0,
-        "organizations": 0
+        "organizations": 0,
+        "roles": 0
       },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
       "conflicts": [],
       "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
       "path": "data/evidence/kim-youngsam.json",
-      "sha": "381c4ea0cd5960af1af0211034a6fc4439077b9c",
+      "gitBlobSha": "381c4ea0cd5960af1af0211034a6fc4439077b9c",
       "sha256": "696312880cb344f2305a9cb94162b721e5a46b242e753b7fbe53d32105b9dcf5",
-      "size": 2894,
-      "registryState": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "bytes": 2894,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
       "targetLayer": "evidence_layer",
       "targetRegistries": [
         "evidence",
@@ -408,22 +1123,24 @@
         "claims",
         "events"
       ],
-      "recordCounts": {
-        "documents": 0,
-        "claims": 0,
-        "events": 0,
-        "politicians": 0,
-        "organizations": 0
-      },
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
       "conflicts": [],
       "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
       "path": "data/evidence/kim-yu-taek-1953-currency.json",
-      "sha": "5c6b68ca0f79d0753ed0fba075bb25571733f14a",
+      "gitBlobSha": "5c6b68ca0f79d0753ed0fba075bb25571733f14a",
       "sha256": "40a913fc34372548d994f513de53f79321ba10dafc65607429d4f174596f03bd",
-      "size": 876,
-      "registryState": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "bytes": 876,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
       "targetLayer": "evidence_layer",
       "targetRegistries": [
         "evidence",
@@ -432,22 +1149,24 @@
         "claims",
         "events"
       ],
-      "recordCounts": {
-        "documents": 0,
-        "claims": 0,
-        "events": 0,
-        "politicians": 0,
-        "organizations": 0
-      },
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
       "conflicts": [],
       "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
       "path": "data/evidence/kim-yu-taek-1953-march.json",
-      "sha": "aa5253e40aa882ab904f1e3a5607b42b99f17243",
+      "gitBlobSha": "aa5253e40aa882ab904f1e3a5607b42b99f17243",
       "sha256": "de94a12a54545db36de9b426fc11d68e299dbb71aeb5742292e3884298b4c219",
-      "size": 506,
-      "registryState": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "bytes": 506,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
       "targetLayer": "evidence_layer",
       "targetRegistries": [
         "evidence",
@@ -456,22 +1175,24 @@
         "claims",
         "events"
       ],
-      "recordCounts": {
-        "documents": 0,
-        "claims": 0,
-        "events": 0,
-        "politicians": 0,
-        "organizations": 0
-      },
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
       "conflicts": [],
       "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
       "path": "data/evidence/kwak-sang-hun.json",
-      "sha": "a8d4b47bf4c50a25e5dadbdd7ae7126f7ab9453e",
+      "gitBlobSha": "a8d4b47bf4c50a25e5dadbdd7ae7126f7ab9453e",
       "sha256": "806a2066189f11481050d32bcedf1a01512f3aa379ce04f658a869b7b98d938a",
-      "size": 2035,
-      "registryState": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "bytes": 2035,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
       "targetLayer": "evidence_layer",
       "targetRegistries": [
         "evidence",
@@ -480,22 +1201,24 @@
         "claims",
         "events"
       ],
-      "recordCounts": {
-        "documents": 0,
-        "claims": 0,
-        "events": 0,
-        "politicians": 0,
-        "organizations": 0
-      },
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
       "conflicts": [],
       "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
       "path": "data/evidence/kwon-jung-don-1953.json",
-      "sha": "afc2c6bc5583162bf90a2b3d73abeb18e89360cd",
+      "gitBlobSha": "afc2c6bc5583162bf90a2b3d73abeb18e89360cd",
       "sha256": "1bc3f2451f82bc2a5c39fd47a94edab88c19fb854dbcac1f4532aea2d1223c04",
-      "size": 1122,
-      "registryState": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "bytes": 1122,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
       "targetLayer": "evidence_layer",
       "targetRegistries": [
         "evidence",
@@ -504,22 +1227,50 @@
         "claims",
         "events"
       ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/lee-beom-seok.json",
+      "gitBlobSha": "accbae3f7cf8d2b756ff2b63aff25bd7ed83e3cf",
+      "sha256": "093b3eaa3fd6ca7048e689e1d2504deab0280c7429586b583d42262d5f570c5b",
+      "bytes": 1140,
       "recordCounts": {
         "documents": 0,
         "claims": 0,
         "events": 0,
         "politicians": 0,
-        "organizations": 0
+        "organizations": 0,
+        "roles": 0
       },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
       "conflicts": [],
       "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
       "path": "data/evidence/lee-chong-chang-1952-martial-law.json",
-      "sha": "2fd9d6805b8bcfcc4a2171600cb3109fbf1956de",
+      "gitBlobSha": "2fd9d6805b8bcfcc4a2171600cb3109fbf1956de",
       "sha256": "aa2b61c888d4588c71648578e8d29b5bc8795f7dc0cc2c8ff13ec5e67f5a2401",
-      "size": 2033,
-      "registryState": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "bytes": 2033,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
       "targetLayer": "evidence_layer",
       "targetRegistries": [
         "evidence",
@@ -528,22 +1279,24 @@
         "claims",
         "events"
       ],
-      "recordCounts": {
-        "documents": 0,
-        "claims": 0,
-        "events": 0,
-        "politicians": 0,
-        "organizations": 0
-      },
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
       "conflicts": [],
       "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
       "path": "data/evidence/lee-gap-seong-1952.json",
-      "sha": "3ae61c50f6284a8d302733d3e5df960fd2479067",
+      "gitBlobSha": "3ae61c50f6284a8d302733d3e5df960fd2479067",
       "sha256": "fb930d51848358cb335d9de27cb1f997547b5d6b7e36e9b71b819b38c7da2ea9",
-      "size": 2470,
-      "registryState": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "bytes": 2470,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
       "targetLayer": "evidence_layer",
       "targetRegistries": [
         "evidence",
@@ -552,22 +1305,50 @@
         "claims",
         "events"
       ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/lee-hoon-gu-run192.json",
+      "gitBlobSha": "155c2ab1682e1efbad78d15420a0c5df7ce53337",
+      "sha256": "db8723d105701684e29c3ede1d34fb8b252a4668d8e29f3e153a50671931ed67",
+      "bytes": 605,
       "recordCounts": {
         "documents": 0,
         "claims": 0,
         "events": 0,
         "politicians": 0,
-        "organizations": 0
+        "organizations": 0,
+        "roles": 0
       },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
       "conflicts": [],
       "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
       "path": "data/evidence/lee-hu-rak.json",
-      "sha": "c0ae6bf951aa6bab8f0e578450b8edbdd8d88c24",
+      "gitBlobSha": "c0ae6bf951aa6bab8f0e578450b8edbdd8d88c24",
       "sha256": "dba6679c85504dd638ca1f4fbfca4fb5ae628386168c01e4d860ca2cad1b8c34",
-      "size": 1263,
-      "registryState": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "bytes": 1263,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
       "targetLayer": "evidence_layer",
       "targetRegistries": [
         "evidence",
@@ -576,22 +1357,24 @@
         "claims",
         "events"
       ],
-      "recordCounts": {
-        "documents": 0,
-        "claims": 0,
-        "events": 0,
-        "politicians": 0,
-        "organizations": 0
-      },
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
       "conflicts": [],
       "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
       "path": "data/evidence/lee-jae-hak.json",
-      "sha": "3ff146bab8a9a20228a52224637e9eecd059c0f5",
+      "gitBlobSha": "3ff146bab8a9a20228a52224637e9eecd059c0f5",
       "sha256": "435e186345e576c3769d06715ce7479746eae982cdc0ae9d5e831fb4fdb7dba9",
-      "size": 2101,
-      "registryState": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "bytes": 2101,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
       "targetLayer": "evidence_layer",
       "targetRegistries": [
         "evidence",
@@ -600,22 +1383,24 @@
         "claims",
         "events"
       ],
-      "recordCounts": {
-        "documents": 0,
-        "claims": 0,
-        "events": 0,
-        "politicians": 0,
-        "organizations": 0
-      },
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
       "conflicts": [],
       "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
       "path": "data/evidence/lee-jong-hyeon-1953-identity.json",
-      "sha": "d5300075d32f8f285db3f3f658c62b0974f65d69",
+      "gitBlobSha": "d5300075d32f8f285db3f3f658c62b0974f65d69",
       "sha256": "8719f11180436829bf7fe4f7ccb5e9c022e54d47f69d46edcde6578afb0d808b",
-      "size": 533,
-      "registryState": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "bytes": 533,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
       "targetLayer": "evidence_layer",
       "targetRegistries": [
         "evidence",
@@ -624,22 +1409,24 @@
         "claims",
         "events"
       ],
-      "recordCounts": {
-        "documents": 0,
-        "claims": 0,
-        "events": 0,
-        "politicians": 0,
-        "organizations": 0
-      },
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
       "conflicts": [],
       "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
-      "path": "data/evidence/lee-yeong-jun-run88.json",
-      "sha": "c4805a3f402b4510ce59569ee603370cd914ecfc",
-      "sha256": "ec612d002ad8ad0bc95ac3bb377469731a663b951a54fa40f734a7fd27eb36b2",
-      "size": 385,
-      "registryState": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "path": "data/evidence/lee-nyeong-jin-run179d.json",
+      "gitBlobSha": "ea114acbee294d017213e403db0d9520e35211b9",
+      "sha256": "c88c66aae794f83b3b739d431074661155b27bcdefe7a2c6dfc2894ccdef8f22",
+      "bytes": 538,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 1,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
       "targetLayer": "evidence_layer",
       "targetRegistries": [
         "evidence",
@@ -648,22 +1435,128 @@
         "claims",
         "events"
       ],
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/evidence/lee-yeong-jun-run178.json",
+      "gitBlobSha": "6f8da8676df8f5c8ae6d3d46c68b8c000ae42042",
+      "sha256": "15df1b65704ce261b4676b1014a84fffc193cc6f97f98d37f9c4b070b863a238",
+      "bytes": 2068,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 5,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/evidence/lee-yeong-jun-run88.json",
+      "gitBlobSha": "c4805a3f402b4510ce59569ee603370cd914ecfc",
+      "sha256": "ec612d002ad8ad0bc95ac3bb377469731a663b951a54fa40f734a7fd27eb36b2",
+      "bytes": 385,
       "recordCounts": {
         "documents": 0,
         "claims": 0,
         "events": 0,
         "politicians": 0,
-        "organizations": 0
+        "organizations": 0,
+        "roles": 0
       },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/lee-yun-yeong-run110.json",
+      "gitBlobSha": "75b9fb5a16c52738853384b8a8623bc0b1ee5ba0",
+      "sha256": "8d1555230e7903648551f8d78b6d6f16fdfdbcf0d8149f3709adb021c727173d",
+      "bytes": 529,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/lim-byong-jik.json",
+      "gitBlobSha": "0e3440cb2912f5abefba5e30a1278ba90bfa8037",
+      "sha256": "ba908e6817f3f10c72a909eaaa2e2adab4cc1ece7aba154ab7ddce67beecc9e7",
+      "bytes": 2145,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
       "conflicts": [],
       "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
       "path": "data/evidence/paik-too-chin-1953-finance.json",
-      "sha": "45678c31907d1fb4f3d1b946390d9478d1b39942",
+      "gitBlobSha": "45678c31907d1fb4f3d1b946390d9478d1b39942",
       "sha256": "853427ea35e7adaf58cdbefb7fda0dc4778fcdc929e9d073f697cd8ea30c6ae3",
-      "size": 750,
-      "registryState": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "bytes": 750,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
       "targetLayer": "evidence_layer",
       "targetRegistries": [
         "evidence",
@@ -672,22 +1565,24 @@
         "claims",
         "events"
       ],
-      "recordCounts": {
-        "documents": 0,
-        "claims": 0,
-        "events": 0,
-        "politicians": 0,
-        "organizations": 0
-      },
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
       "conflicts": [],
       "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
       "path": "data/evidence/paik-too-chin-1953.json",
-      "sha": "e3e784068a6fae53a3aec8d51d99c54d88054be2",
+      "gitBlobSha": "e3e784068a6fae53a3aec8d51d99c54d88054be2",
       "sha256": "4b9da4cb0e3bfcb234a74318bb55a093633d0e4db45aaa5a2e715ca7ece33ae9",
-      "size": 1526,
-      "registryState": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "bytes": 1526,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
       "targetLayer": "evidence_layer",
       "targetRegistries": [
         "evidence",
@@ -696,22 +1591,24 @@
         "claims",
         "events"
       ],
-      "recordCounts": {
-        "documents": 0,
-        "claims": 0,
-        "events": 0,
-        "politicians": 0,
-        "organizations": 0
-      },
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
       "conflicts": [],
       "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
       "path": "data/evidence/paik-too-chin-1954-ceb.json",
-      "sha": "cad4a98f40d17c27a70734fea71df256f2cb2d80",
+      "gitBlobSha": "cad4a98f40d17c27a70734fea71df256f2cb2d80",
       "sha256": "f44d77893b08d1247add4b6a49e01566a31d7576305c1b4f322c71e588b7da9d",
-      "size": 576,
-      "registryState": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "bytes": 576,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
       "targetLayer": "evidence_layer",
       "targetRegistries": [
         "evidence",
@@ -720,22 +1617,102 @@
         "claims",
         "events"
       ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/paik-too-chin.json",
+      "gitBlobSha": "001fcc361b7a35fbc6e335e67f1feacb3f1b21a3",
+      "sha256": "33095e37c66dc2df99d9e830030dd9c6b1760c932002353b6fc28fd843087c59",
+      "bytes": 5356,
       "recordCounts": {
         "documents": 0,
         "claims": 0,
         "events": 0,
         "politicians": 0,
-        "organizations": 0
+        "organizations": 0,
+        "roles": 0
       },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/park-hon-yong-run192.json",
+      "gitBlobSha": "db8d3d711e7b3de0a21f4a8d4dbcd487d7b8e8ae",
+      "sha256": "a82a230e068cb31265a158587fe69aeaa07e7357b2d7b5fd7382f3cfba9345f5",
+      "bytes": 532,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/park-sang-yeong-run95.json",
+      "gitBlobSha": "22e94272f236245ac8ec3829b54bf9094c41fa5e",
+      "sha256": "25ac5b76a7a4b54508701db02591ab525bd4b30e94c245a932b218833db47fdf",
+      "bytes": 251,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
       "conflicts": [],
       "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
       "path": "data/evidence/park-sul-eum-1953-union.json",
-      "sha": "8162450487d4335e800676261e70de466321d060",
+      "gitBlobSha": "8162450487d4335e800676261e70de466321d060",
       "sha256": "528f216745a4fbbc3aa35d25f9c05f6abc10297c8492c008b9d13791e17dd088",
-      "size": 344,
-      "registryState": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "bytes": 344,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
       "targetLayer": "evidence_layer",
       "targetRegistries": [
         "evidence",
@@ -744,67 +1721,50 @@
         "claims",
         "events"
       ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/park-sul-eum-run176.json",
+      "gitBlobSha": "95d5df2b276c631850dd1a8aabac89ecfc3ed4b6",
+      "sha256": "54781bcf5cd1182b47c1a758c52a8192d98824dc98f9b218ac7b1123382a7369",
+      "bytes": 1272,
       "recordCounts": {
         "documents": 0,
         "claims": 0,
         "events": 0,
         "politicians": 0,
-        "organizations": 0
+        "organizations": 0,
+        "roles": 0
       },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
       "conflicts": [],
       "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
       "path": "data/evidence/park-sul-eum.json",
-      "sha": "47a5e05ca0be47286f7993d23a8a2fa0d984c57f",
+      "gitBlobSha": "47a5e05ca0be47286f7993d23a8a2fa0d984c57f",
       "sha256": "659f340ad2f5fc0a3fe930e29a106ecbe2762b16fb6b35b0895d3050e5269c88",
-      "size": 1621,
-      "registryState": "BLOCKED_ID_CONFLICT",
-      "targetLayer": "evidence_layer",
-      "targetRegistries": [
-        "evidence",
-        "politicians",
-        "documents",
-        "claims",
-        "events"
-      ],
+      "bytes": 1621,
       "recordCounts": {
         "documents": 0,
         "claims": 0,
         "events": 4,
         "politicians": 0,
-        "organizations": 0
+        "organizations": 0,
+        "roles": 0
       },
-      "conflicts": [
-        {
-          "kind": "events",
-          "id": "evt-p236-labor-1953-04-20-commission-decree",
-          "variantCount": 2
-        },
-        {
-          "kind": "events",
-          "id": "evt-p239e-park-resettlement",
-          "variantCount": 2
-        },
-        {
-          "kind": "events",
-          "id": "evt-p239e-union-neutrality",
-          "variantCount": 2
-        },
-        {
-          "kind": "events",
-          "id": "evt-p239f-union-decree-782",
-          "variantCount": 2
-        }
-      ],
-      "unintegratedReason": null
-    },
-    {
-      "path": "data/evidence/pass-246-minister-and-law-originals.json",
-      "sha": "716194e6072e7583e69f66dc026ee92193e4acb1",
-      "sha256": "a7a4e958a8f33bde92f0d935f019a520e8da7dd46bed1f6f60889cedc596f763",
-      "size": 3188,
-      "registryState": "UNMAPPED_AUXILIARY_OR_PARTIAL",
       "targetLayer": "evidence_layer",
       "targetRegistries": [
         "evidence",
@@ -813,22 +1773,50 @@
         "claims",
         "events"
       ],
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/evidence/pass-246-minister-and-law-originals.json",
+      "gitBlobSha": "716194e6072e7583e69f66dc026ee92193e4acb1",
+      "sha256": "a7a4e958a8f33bde92f0d935f019a520e8da7dd46bed1f6f60889cedc596f763",
+      "bytes": 3188,
       "recordCounts": {
         "documents": 0,
         "claims": 0,
         "events": 0,
         "politicians": 0,
-        "organizations": 0
+        "organizations": 0,
+        "roles": 0
       },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
       "conflicts": [],
       "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
       "path": "data/evidence/pass-253-september-actor-evidence.json",
-      "sha": "00e47d2e602b4a6ed32b16c35bb9cc700e70dcfc",
+      "gitBlobSha": "00e47d2e602b4a6ed32b16c35bb9cc700e70dcfc",
       "sha256": "af936097a041d399798925cd0dab0e6f3bdd4316016083cb9f0408b805be12ee",
-      "size": 5531,
-      "registryState": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "bytes": 5531,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
       "targetLayer": "evidence_layer",
       "targetRegistries": [
         "evidence",
@@ -837,22 +1825,24 @@
         "claims",
         "events"
       ],
-      "recordCounts": {
-        "documents": 0,
-        "claims": 0,
-        "events": 0,
-        "politicians": 0,
-        "organizations": 0
-      },
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
       "conflicts": [],
       "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
       "path": "data/evidence/pass-253d-september-actor-evidence.json",
-      "sha": "59e6087c050a17d9fae2aea9f072ecb6fb0cd793",
+      "gitBlobSha": "59e6087c050a17d9fae2aea9f072ecb6fb0cd793",
       "sha256": "589da234a49ddc33b4d7a2582096e565c021b8cc07d8b140012e70899a689661",
-      "size": 1957,
-      "registryState": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "bytes": 1957,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
       "targetLayer": "evidence_layer",
       "targetRegistries": [
         "evidence",
@@ -861,22 +1851,24 @@
         "claims",
         "events"
       ],
-      "recordCounts": {
-        "documents": 0,
-        "claims": 0,
-        "events": 0,
-        "politicians": 0,
-        "organizations": 0
-      },
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
       "conflicts": [],
       "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
       "path": "data/evidence/pass-253e-september-actor-evidence.json",
-      "sha": "f4918713d9c31c13d51726bdd4964120961d4323",
+      "gitBlobSha": "f4918713d9c31c13d51726bdd4964120961d4323",
       "sha256": "3bf40d3cd3fedbb7d0cfc7037e083a9a081697e1b2c73b90ae46e7039f384ed2",
-      "size": 4840,
-      "registryState": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "bytes": 4840,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
       "targetLayer": "evidence_layer",
       "targetRegistries": [
         "evidence",
@@ -885,22 +1877,24 @@
         "claims",
         "events"
       ],
-      "recordCounts": {
-        "documents": 0,
-        "claims": 0,
-        "events": 0,
-        "politicians": 0,
-        "organizations": 0
-      },
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
       "conflicts": [],
       "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
       "path": "data/evidence/pass-253f-september-actor-evidence.json",
-      "sha": "64f56f195788824809fa08e4c85c20945a6c6d69",
+      "gitBlobSha": "64f56f195788824809fa08e4c85c20945a6c6d69",
       "sha256": "9ec00dfa05db1538dfd99b5e5dcf3e3e82b13f5e0c85528f6bcb7207ae6a2898",
-      "size": 3709,
-      "registryState": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "bytes": 3709,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
       "targetLayer": "evidence_layer",
       "targetRegistries": [
         "evidence",
@@ -909,22 +1903,24 @@
         "claims",
         "events"
       ],
-      "recordCounts": {
-        "documents": 0,
-        "claims": 0,
-        "events": 0,
-        "politicians": 0,
-        "organizations": 0
-      },
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
       "conflicts": [],
       "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
       "path": "data/evidence/pass-254a-actor-evidence.json",
-      "sha": "4b8d598b6782be793ac346fcbd92958747544913",
+      "gitBlobSha": "4b8d598b6782be793ac346fcbd92958747544913",
       "sha256": "f73aa83e7a6277ef45cb08a858924da569c014aa913ffcff7c5a0014945b02dd",
-      "size": 6921,
-      "registryState": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "bytes": 6921,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
       "targetLayer": "evidence_layer",
       "targetRegistries": [
         "evidence",
@@ -933,22 +1929,24 @@
         "claims",
         "events"
       ],
-      "recordCounts": {
-        "documents": 0,
-        "claims": 0,
-        "events": 0,
-        "politicians": 0,
-        "organizations": 0
-      },
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
       "conflicts": [],
       "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
       "path": "data/evidence/pass-254b-actor-evidence.json",
-      "sha": "e7f13a0181ee6bfa13ea844e866f551f1ec8fb46",
+      "gitBlobSha": "e7f13a0181ee6bfa13ea844e866f551f1ec8fb46",
       "sha256": "46dab80e0d6d296758081eed355c49e8a3cd34816b45c43e08d60895f0dd6e31",
-      "size": 13748,
-      "registryState": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "bytes": 13748,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
       "targetLayer": "evidence_layer",
       "targetRegistries": [
         "evidence",
@@ -957,22 +1955,24 @@
         "claims",
         "events"
       ],
-      "recordCounts": {
-        "documents": 0,
-        "claims": 0,
-        "events": 0,
-        "politicians": 0,
-        "organizations": 0
-      },
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
       "conflicts": [],
       "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
       "path": "data/evidence/pass-255-actor-evidence.json",
-      "sha": "232ff9e297e8d58bbbd88d1b7645973ce3abf283",
+      "gitBlobSha": "232ff9e297e8d58bbbd88d1b7645973ce3abf283",
       "sha256": "bda690fc2007cac4d7d5c8352c6707b0129a1685a0ce7aa1df6d4534f7db3a58",
-      "size": 2742,
-      "registryState": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "bytes": 2742,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
       "targetLayer": "evidence_layer",
       "targetRegistries": [
         "evidence",
@@ -981,22 +1981,24 @@
         "claims",
         "events"
       ],
-      "recordCounts": {
-        "documents": 0,
-        "claims": 0,
-        "events": 0,
-        "politicians": 0,
-        "organizations": 0
-      },
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
       "conflicts": [],
       "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
       "path": "data/evidence/pass-255b-actor-evidence.json",
-      "sha": "5decb4c1edf7a352f3aa8af285f9f335dbf5bc3c",
+      "gitBlobSha": "5decb4c1edf7a352f3aa8af285f9f335dbf5bc3c",
       "sha256": "bdd0005a830ea1aef0969dd67b739fcfbfdf8e7cc82cd67c33113c499987933a",
-      "size": 11850,
-      "registryState": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "bytes": 11850,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
       "targetLayer": "evidence_layer",
       "targetRegistries": [
         "evidence",
@@ -1005,22 +2007,24 @@
         "claims",
         "events"
       ],
-      "recordCounts": {
-        "documents": 0,
-        "claims": 0,
-        "events": 0,
-        "politicians": 0,
-        "organizations": 0
-      },
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
       "conflicts": [],
       "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
       "path": "data/evidence/pass-255c-actor-evidence.json",
-      "sha": "fbee2b488dfbe43f43c624c9d7efd0f38971c474",
+      "gitBlobSha": "fbee2b488dfbe43f43c624c9d7efd0f38971c474",
       "sha256": "4e9f7d09cfd3732ec7c76acdf257b047f8415d9a07c8d145869e29ae934aaceb",
-      "size": 1595,
-      "registryState": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "bytes": 1595,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
       "targetLayer": "evidence_layer",
       "targetRegistries": [
         "evidence",
@@ -1029,22 +2033,24 @@
         "claims",
         "events"
       ],
-      "recordCounts": {
-        "documents": 0,
-        "claims": 0,
-        "events": 0,
-        "politicians": 0,
-        "organizations": 0
-      },
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
       "conflicts": [],
       "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
       "path": "data/evidence/pass-255f-actor-evidence.json",
-      "sha": "c958d5feb4baf777592b1d68dfce3f94b1cffeb8",
+      "gitBlobSha": "c958d5feb4baf777592b1d68dfce3f94b1cffeb8",
       "sha256": "5511db6ede0016d52bb346e6a1131a4cc6c8c488be679c7678ef0c6fcc7799f9",
-      "size": 6143,
-      "registryState": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "bytes": 6143,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
       "targetLayer": "evidence_layer",
       "targetRegistries": [
         "evidence",
@@ -1053,22 +2059,24 @@
         "claims",
         "events"
       ],
-      "recordCounts": {
-        "documents": 0,
-        "claims": 0,
-        "events": 0,
-        "politicians": 0,
-        "organizations": 0
-      },
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
       "conflicts": [],
       "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
       "path": "data/evidence/pass-255h-actor-evidence.json",
-      "sha": "9915409c57754458b8bd8cf3952e028962249e7f",
+      "gitBlobSha": "9915409c57754458b8bd8cf3952e028962249e7f",
       "sha256": "4f14bc55516e051c80b401233d8abe5dd93b5846e75cff75af8e76350b25358a",
-      "size": 4401,
-      "registryState": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "bytes": 4401,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
       "targetLayer": "evidence_layer",
       "targetRegistries": [
         "evidence",
@@ -1077,22 +2085,24 @@
         "claims",
         "events"
       ],
-      "recordCounts": {
-        "documents": 0,
-        "claims": 0,
-        "events": 0,
-        "politicians": 0,
-        "organizations": 0
-      },
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
       "conflicts": [],
       "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
       "path": "data/evidence/pass-257p-unkra-housing-source-relations.json",
-      "sha": "df917168ed4a65725a4f96f4e92a476fcf5a2159",
+      "gitBlobSha": "df917168ed4a65725a4f96f4e92a476fcf5a2159",
       "sha256": "9d31c3fe07adc596a4c00ac54a9a1236f37f3423cb72565f0cb5b0f2a5c77a39",
-      "size": 5826,
-      "registryState": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "bytes": 5826,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
       "targetLayer": "evidence_layer",
       "targetRegistries": [
         "evidence",
@@ -1101,67 +2111,24 @@
         "claims",
         "events"
       ],
-      "recordCounts": {
-        "documents": 0,
-        "claims": 0,
-        "events": 0,
-        "politicians": 0,
-        "organizations": 0
-      },
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
       "conflicts": [],
       "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
       "path": "data/evidence/pass-302-pow-dec24-expansion.json",
-      "sha": "0744da458e6e772aa768b39f721978d55282c4b1",
+      "gitBlobSha": "0744da458e6e772aa768b39f721978d55282c4b1",
       "sha256": "688908543b7ed18eb870132c4e6390d6534377c3b5a1c7fa680200191c1394c7",
-      "size": 6196,
-      "registryState": "BLOCKED_ID_CONFLICT",
-      "targetLayer": "evidence_layer",
-      "targetRegistries": [
-        "evidence",
-        "politicians",
-        "documents",
-        "claims",
-        "events"
-      ],
+      "bytes": 6196,
       "recordCounts": {
         "documents": 9,
         "claims": 5,
         "events": 0,
         "politicians": 0,
-        "organizations": 0
+        "organizations": 0,
+        "roles": 0
       },
-      "conflicts": [
-        {
-          "kind": "documents",
-          "id": "doc-frus-1953-612",
-          "variantCount": 2
-        },
-        {
-          "kind": "documents",
-          "id": "doc-frus-1953-614",
-          "variantCount": 2
-        },
-        {
-          "kind": "documents",
-          "id": "doc-frus-1958-260",
-          "variantCount": 2
-        },
-        {
-          "kind": "documents",
-          "id": "doc-khdb-constitutional-local-autonomy",
-          "variantCount": 2
-        }
-      ],
-      "unintegratedReason": null
-    },
-    {
-      "path": "data/evidence/pass-304-local-autonomy-dec24.json",
-      "sha": "73df3e39d9524cb1950fb1adff767a3f8f186760",
-      "sha256": "7a5271ad0470f2df7002c6a2408118c72d5ce9034b41465210d56a7184a57e6c",
-      "size": 6420,
-      "registryState": "BLOCKED_ID_CONFLICT",
       "targetLayer": "evidence_layer",
       "targetRegistries": [
         "evidence",
@@ -1170,28 +2137,450 @@
         "claims",
         "events"
       ],
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/evidence/pass-304-local-autonomy-dec24.json",
+      "gitBlobSha": "73df3e39d9524cb1950fb1adff767a3f8f186760",
+      "sha256": "7a5271ad0470f2df7002c6a2408118c72d5ce9034b41465210d56a7184a57e6c",
+      "bytes": 6420,
       "recordCounts": {
         "documents": 6,
         "claims": 5,
         "events": 0,
         "politicians": 0,
-        "organizations": 0
+        "organizations": 0,
+        "roles": 0
       },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/evidence/politicians/cho-jeong-hwan-run166.json",
+      "gitBlobSha": "770aec197cf7ca6f92123c2f140afd8c5bc293f8",
+      "sha256": "3dcec0b917b29913cfd96910711859b359bda3b8247f383edc90f44979196975",
+      "bytes": 487,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/politicians/jo-ju-yeong-run129.json",
+      "gitBlobSha": "2282600b945f318d6e724746ab646d11b74bebd6",
+      "sha256": "ed86754a9e26725f733a42a9e08e7c8493286d84bf7dd2c2809cb60beaf04cf5",
+      "bytes": 742,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/politicians/joo-seok-gyun-run166.json",
+      "gitBlobSha": "e5a5125c2ddd9e358c0f5ac64de499cc08091957",
+      "sha256": "7411cc5caf24ed6526c74d6bf4da8980eb94f5eee716ef680f8321d5034a5d0e",
+      "bytes": 516,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/politicians/kim-seok-gwan-run166.json",
+      "gitBlobSha": "3c1e5535f28dc55ed039a0af7a073eafe4466f21",
+      "sha256": "37f1d647befece87180c230b2ddd87c0fcca0d2d0a7ea62120b5ec721f3e466a",
+      "bytes": 622,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/politicians/kim-seong-su-run120.json",
+      "gitBlobSha": "d48b668da00d13d3170d25b4414fba92f22556ac",
+      "sha256": "c64a68fe178d9b955ad01efe6f685b9492111683e1f5da1444052a57feb0a1c0",
+      "bytes": 730,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/politicians/lee-jong-hyeong-run129.json",
+      "gitBlobSha": "4c818961a650452119b288fbb4566fd2b0b07411",
+      "sha256": "1e8c6cdccf6964939a160fd6db25516f6162ecb2a921a3f22a9b15be8f84b98d",
+      "bytes": 780,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/politicians/lee-yun-yeong-run120.json",
+      "gitBlobSha": "53324c3f0575471c83cd97ee5dfd25ff034bb323",
+      "sha256": "f83cf7fd5db140ed76931e86408ec8a56b4f2e21c286f3384826557af3edc112",
+      "bytes": 881,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/politicians/run116b-civil-service-crosslinks.json",
+      "gitBlobSha": "0447cef1c258f929c39086626ce73e831e499d62",
+      "sha256": "f65cc3c76ef95fda6b362b55d41962f7e72b498d08fed21f33f913889a4d08ce",
+      "bytes": 1171,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/politicians/run118-aid-election-links.json",
+      "gitBlobSha": "bcfacd5f48ff10fad2bc892b80d767bf0fbe3e5d",
+      "sha256": "1e866a9d5fa3480b984489c2fb27fda50b1fdb3157b8ed05643bb0905f0ab308",
+      "bytes": 3396,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/politicians/run124-party-person-document-links.json",
+      "gitBlobSha": "52c77d272434bb8064f26b0b9b4396ef38cf7d56",
+      "sha256": "70d05173d5c058815459e605a909146b74238f4253066a40b4a5958f834b4fdf",
+      "bytes": 2328,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/politicians/run124c-d-actor-action-links.json",
+      "gitBlobSha": "b8236fb4a3003abb76cc95d1b1807d16e5b3f969",
+      "sha256": "3dc5ceb357507a6924faa7bbbbb51847a5b8f5ddfe16cb1afa215c05a3ef8f5d",
+      "bytes": 746,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/politicians/run158-1958-law-actors.json",
+      "gitBlobSha": "ea902ea88855327d5abb4ee856742ebb82c0bc5b",
+      "sha256": "55932f8b28f3c33001bbbea418cd7bf29e6bac51bc3d94062102b923128bc53a",
+      "bytes": 3857,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 10,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/evidence/politicians/run158b-1958-1960-actors.json",
+      "gitBlobSha": "d158af4510d1bb80df1e111ba7fb4f967478fbbc",
+      "sha256": "990ad7e80084de9d1824133187701ec01ed677c12f3ba04e464b34a252a17746",
+      "bytes": 1961,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/politicians/run158c-1960-transition-actors.json",
+      "gitBlobSha": "e0e3e6e9321aef4e931941a3b60a14c44aa7ba84",
+      "sha256": "894d05ad3d74df25eb1b1c00cc4d8f625100bfa3a5a0b24b825400286dae0ef2",
+      "bytes": 470,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/politicians/run168-1950-election-network.json",
+      "gitBlobSha": "c5904073f6ba201de18f0a202b56aa0c1ee893bc",
+      "sha256": "aced07f1a6b0db638ffe188ccc56039f8b22be5b658ca94baf3e00cc7062026f",
+      "bytes": 3598,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 10,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "CONFLICT_REVIEW_REQUIRED",
+      "status": "BLOCKED_ID_CONFLICT",
       "conflicts": [
         {
-          "kind": "documents",
-          "id": "doc-khdb-constitutional-local-autonomy",
-          "variantCount": 2
+          "kind": "politicians",
+          "id": "pol-cho-bong-am",
+          "variantCount": 37,
+          "mergeReview": {
+            "status": "BLOCKED",
+            "reason": "CONFLICTING_BIRTH_DATES"
+          }
         }
       ],
       "unintegratedReason": null
     },
     {
-      "path": "data/evidence/politicians/run223-evidence.json",
-      "sha": "69f3dc4db3bb8089f84070a39680e8a8d95022e2",
-      "sha256": "e4a0a51dbc574c4c60b7fe22d516c8374153748a4347806253ff68967acf6df2",
-      "size": 3584,
-      "registryState": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "path": "data/evidence/politicians/run209-june26-actor-evidence.json",
+      "gitBlobSha": "d040e159ddd29fc35b57e08c5dc2ad48ffa1da65",
+      "sha256": "1d033c5026600d434f712c4e16f33e915b7273a53b90e0c23fdbde6050f21daf",
+      "bytes": 17298,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
       "targetLayer": "evidence_layer",
       "targetRegistries": [
         "evidence",
@@ -1200,22 +2589,440 @@
         "claims",
         "events"
       ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/politicians/run211-july16-20-evidence.json",
+      "gitBlobSha": "7e0a4e3c2a60c132909e77812b2b99d39a1eb200",
+      "sha256": "0325ddf9637df99b7dd6031996330d9a6c2dfb18f5598476273053090ecbb43a",
+      "bytes": 6496,
       "recordCounts": {
         "documents": 0,
         "claims": 0,
         "events": 0,
         "politicians": 0,
-        "organizations": 0
+        "organizations": 0,
+        "roles": 0
       },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/politicians/run211-july21-31-evidence.json",
+      "gitBlobSha": "5ff25b2efb24db291cd180a1ae382d2b327aacf1",
+      "sha256": "7a1a969a148ea57347f69d4f4dbeffb9e8b2c1a969d4b09e803562b6d0cf12f7",
+      "bytes": 9615,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/politicians/run213-augsep-evidence.json",
+      "gitBlobSha": "24103e64b9a86e78a513746194f4d7ac3fe2d468",
+      "sha256": "c44cbd847619f1f3b4f8fba905f7864adf6a781a1ab9aea95f19b0e977487d1e",
+      "bytes": 5040,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/politicians/run214-september-evidence.json",
+      "gitBlobSha": "6ec961628ffecd8e9f66e672b5bee2c05b5a0bbe",
+      "sha256": "0621e0c2e5adcfc63a8598122a8e93e5c599ae417d24899ee624ad1a4970786b",
+      "bytes": 3072,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/politicians/run216-nov1951-evidence.json",
+      "gitBlobSha": "2e5aaf3e3045504d3f8ae4bbae938a9f338269a8",
+      "sha256": "5420c96dfb4dc17a0d3fcbdaeaa4bdf47856c3e226275a1763e667006112fd5f",
+      "bytes": 8520,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/politicians/run216-nov1951-second-wave-evidence.json",
+      "gitBlobSha": "ecc2ba7a45ea36b1b01b3408561f71ad96566000",
+      "sha256": "8e4cbad315629f7f7deab31ce72e3a8172b78a3d3cf1bd5985376d8c5dd12a9d",
+      "bytes": 6551,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/politicians/run217-dec1951-actor-evidence.json",
+      "gitBlobSha": "b3d7db7b0803d888aaec48e29377e89715d7907d",
+      "sha256": "4b23d6afe5b36b76fdcb969e2bda166af067ec4370b7a3887beb945426a20e4d",
+      "bytes": 6592,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/politicians/run218-dec1951-diplomatic-actors.json",
+      "gitBlobSha": "f1f7097baa2e387d9d559b564627bc45265f4195",
+      "sha256": "8f4b0d89b9dafa050a9a4ff86b8b6ed400ca548a094ea2f0b65b154ff4803885",
+      "bytes": 1898,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/politicians/run218-korea-japan-delegates.json",
+      "gitBlobSha": "f97ee48c81e966b9ad39d46f82609bbb12c29285",
+      "sha256": "c4a12ef4cb6daa2ffbbfa877e98562282a0c5f8e0e4b11badc129ff9b8f1520c",
+      "bytes": 2690,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/politicians/run220-actor-evidence.json",
+      "gitBlobSha": "c0ad39feb4a29ad6c0aaf849a9f452745c570373",
+      "sha256": "0192d7f6dbbf817bd9a5e54672bfd1c9bc463326dddf66a8d95d7eef4d34d0c2",
+      "bytes": 9047,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/politicians/run221-evidence.json",
+      "gitBlobSha": "acd0ba5f8838fa8a02efb2b6b8e84babc2c8540a",
+      "sha256": "7804f09ae44638441df4d12dae313ca4a68a7fd24124e727ef888dcfc437955a",
+      "bytes": 5286,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/politicians/run221b-evidence.json",
+      "gitBlobSha": "aa3f66772aea73089992db949a75bf9feec2efd1",
+      "sha256": "3495429aae11d59422d519bfc00129ce5f338c45945056f588359a45fb9f0ea7",
+      "bytes": 10034,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/politicians/run221c-evidence.json",
+      "gitBlobSha": "59afbe37496ea5032c309cf24c99661300ec87e1",
+      "sha256": "96b53e4f9c14e33c624ac85a2593d5b968c3c51860655c2db3e53cfe693710f6",
+      "bytes": 10428,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/politicians/run221d-evidence.json",
+      "gitBlobSha": "ed9de3deaa673539bf2897a4779564344f2c03f4",
+      "sha256": "7fdd9dc300ed2ba8e765dcff6933e462ca8fc3135cb07f576bc7fdbc71a50445",
+      "bytes": 11295,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/politicians/run222-evidence.json",
+      "gitBlobSha": "82af9119880807b67264e8cea16d6870bc724893",
+      "sha256": "33be0ebcd48da496a38dc39feb07367f15f877d002079d89ebd5f608846f892b",
+      "bytes": 4496,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/politicians/run223-evidence.json",
+      "gitBlobSha": "69f3dc4db3bb8089f84070a39680e8a8d95022e2",
+      "sha256": "e4a0a51dbc574c4c60b7fe22d516c8374153748a4347806253ff68967acf6df2",
+      "bytes": 3584,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
       "conflicts": [],
       "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
       "path": "data/evidence/politicians/run224-evidence.json",
-      "sha": "d99c4e84baf7ada1877c66a2c9ac9d60d1716caa",
+      "gitBlobSha": "d99c4e84baf7ada1877c66a2c9ac9d60d1716caa",
       "sha256": "e54a15b3ed9a057d7a2950d4251d321626a66095fc638e565e7376c740557c3d",
-      "size": 9850,
-      "registryState": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "bytes": 9850,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
       "targetLayer": "evidence_layer",
       "targetRegistries": [
         "evidence",
@@ -1224,22 +3031,24 @@
         "claims",
         "events"
       ],
-      "recordCounts": {
-        "documents": 0,
-        "claims": 0,
-        "events": 0,
-        "politicians": 0,
-        "organizations": 0
-      },
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
       "conflicts": [],
       "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
       "path": "data/evidence/politicians/run225-evidence.json",
-      "sha": "32a7a772c4045c530a40cfd85203dc1f857ec747",
+      "gitBlobSha": "32a7a772c4045c530a40cfd85203dc1f857ec747",
       "sha256": "671034f3ef6bd73d2599739d7f955a860038cebebec6c0af1308ae0b8f3287e0",
-      "size": 9617,
-      "registryState": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "bytes": 9617,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
       "targetLayer": "evidence_layer",
       "targetRegistries": [
         "evidence",
@@ -1248,22 +3057,24 @@
         "claims",
         "events"
       ],
-      "recordCounts": {
-        "documents": 0,
-        "claims": 0,
-        "events": 0,
-        "politicians": 0,
-        "organizations": 0
-      },
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
       "conflicts": [],
       "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
       "path": "data/evidence/pyun-yong-tae-1953-may-june.json",
-      "sha": "46cfe56b1a961d09a5ee94a97ae96e8e6824b504",
+      "gitBlobSha": "46cfe56b1a961d09a5ee94a97ae96e8e6824b504",
       "sha256": "2c4a2cdb529e02fad82e0308fb7b78d6eb8255a6b28bcd48df68057c5f9f9793",
-      "size": 739,
-      "registryState": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "bytes": 739,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
       "targetLayer": "evidence_layer",
       "targetRegistries": [
         "evidence",
@@ -1272,22 +3083,24 @@
         "claims",
         "events"
       ],
-      "recordCounts": {
-        "documents": 0,
-        "claims": 0,
-        "events": 0,
-        "politicians": 0,
-        "organizations": 0
-      },
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
       "conflicts": [],
       "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
       "path": "data/evidence/pyun-yong-tae.json",
-      "sha": "6c7f42049003ff4458be496704220e2eae3d90d2",
+      "gitBlobSha": "6c7f42049003ff4458be496704220e2eae3d90d2",
       "sha256": "2f820d7ff127f762924043bcea5ab227bdc4758b827850cd3ec20c02ad404e23",
-      "size": 3110,
-      "registryState": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "bytes": 3110,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
       "targetLayer": "evidence_layer",
       "targetRegistries": [
         "evidence",
@@ -1296,22 +3109,76 @@
         "claims",
         "events"
       ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/r141-lee-yun-yeong-run181.json",
+      "gitBlobSha": "223e0474ebf8eb86da6826fb866cd62710c0fa7f",
+      "sha256": "1da6eb739fe030fd7df577f06ba4b521d3247f2d53ac4fbb487cd282bc0de43e",
+      "bytes": 443,
       "recordCounts": {
         "documents": 0,
         "claims": 0,
         "events": 0,
         "politicians": 0,
-        "organizations": 0
+        "organizations": 0,
+        "roles": 0
       },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/r181-do-seok-gyun-run181.json",
+      "gitBlobSha": "632dc015f72ee813dd79328a988b2302e8b2b3a8",
+      "sha256": "b08117b19f68a4c1f4ac6e55515abb60e40cb8bac39b183217e67b67d5fb8ae3",
+      "bytes": 392,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
       "conflicts": [],
       "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
       "path": "data/evidence/rhee-syngman-1953-july-official.json",
-      "sha": "870f3f1e5e4f79e9bc55e0cde393bf6ef726449b",
+      "gitBlobSha": "870f3f1e5e4f79e9bc55e0cde393bf6ef726449b",
       "sha256": "833cf123b4ef6f1a6c978731ec901505770aa0426fb9715d8d4820866389e624",
-      "size": 1652,
-      "registryState": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "bytes": 1652,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
       "targetLayer": "evidence_layer",
       "targetRegistries": [
         "evidence",
@@ -1320,22 +3187,24 @@
         "claims",
         "events"
       ],
-      "recordCounts": {
-        "documents": 0,
-        "claims": 0,
-        "events": 0,
-        "politicians": 0,
-        "organizations": 0
-      },
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
       "conflicts": [],
       "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
       "path": "data/evidence/rhee-syngman-1953-june-official.json",
-      "sha": "7c6d20f1d1fbf28458a7db0b3dc7f85ba5456f47",
+      "gitBlobSha": "7c6d20f1d1fbf28458a7db0b3dc7f85ba5456f47",
       "sha256": "2f46cb98f7e8ecb01a947b151f8219c5e4ff1258136c3e63913addc446b9131f",
-      "size": 3592,
-      "registryState": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "bytes": 3592,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
       "targetLayer": "evidence_layer",
       "targetRegistries": [
         "evidence",
@@ -1344,22 +3213,24 @@
         "claims",
         "events"
       ],
-      "recordCounts": {
-        "documents": 0,
-        "claims": 0,
-        "events": 0,
-        "politicians": 0,
-        "organizations": 0
-      },
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
       "conflicts": [],
       "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
       "path": "data/evidence/rhee-syngman-pass251-fiscal.json",
-      "sha": "b0329dfb47f4ecfb9d97eaa4c2017dc455215337",
+      "gitBlobSha": "b0329dfb47f4ecfb9d97eaa4c2017dc455215337",
       "sha256": "fdd72aadbb5ce50e5f25c7cf9ae796bfba8d15390f843195eb3cd25caf557a26",
-      "size": 1589,
-      "registryState": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "bytes": 1589,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
       "targetLayer": "evidence_layer",
       "targetRegistries": [
         "evidence",
@@ -1368,22 +3239,414 @@
         "claims",
         "events"
       ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/rhee-syngman-run106-administration.json",
+      "gitBlobSha": "c5ca3f0c8c4d2b6c1be29b32b338792320aaada6",
+      "sha256": "f1b9ad2e14ef5d9ad3b1861614509da27be4b5cb26e6d5b9436c0eee39ed636a",
+      "bytes": 603,
       "recordCounts": {
         "documents": 0,
         "claims": 0,
         "events": 0,
         "politicians": 0,
-        "organizations": 0
+        "organizations": 0,
+        "roles": 0
       },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/rhee-syngman-run106-breadth.json",
+      "gitBlobSha": "8caecc563fbf4f437069d7a9064e6767195060c7",
+      "sha256": "a224c7f748d6d376f4d076333ec65ce5e52e08556b8bab70441d7271a814e89e",
+      "bytes": 743,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/rhee-syngman-run106-institutions.json",
+      "gitBlobSha": "4aac5c29e7a3a22cd3a72fafca3af307d6e0ec9b",
+      "sha256": "b6bede4f5f542634a3815ec411e5ea0cb4b94796e0ecc03cdf799ee8181c6a44",
+      "bytes": 660,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/rhee-syngman-run106-recheck.json",
+      "gitBlobSha": "006f4d75730b70065f3a3d816b5d496621f88367",
+      "sha256": "cf63d6a6a9edde416a4e939861b92a76e996c591c50d942c74323ab7fd994e4e",
+      "bytes": 612,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/rhee-syngman-run106.json",
+      "gitBlobSha": "697decdbeccaa958f9fbe5845acf98965e6b4d59",
+      "sha256": "27fb57b73bc923a9635c6f28f282b299e52104a38f9bcef636b8893383b263d1",
+      "bytes": 643,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/rhee-syngman-run108.json",
+      "gitBlobSha": "f95a4788f394fc664c9b1dea5cb8fe0938b1bdf9",
+      "sha256": "02efb38b18a3e2fd82f5a58bf941b726be04946db4dbaee8b10a37fbdea6669c",
+      "bytes": 1363,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/rhee-syngman-run110e.json",
+      "gitBlobSha": "c32d4d43938130d50b84f44a75a3b9973f3c1395",
+      "sha256": "90ccccbccaa4586e8633cb5486d6935ae82d5f8d31a2b4e045548231a3fb7560",
+      "bytes": 1778,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/rhee-syngman-run119.json",
+      "gitBlobSha": "0e1f395c764b5a2c0a22fbb8fa058308ca477a3b",
+      "sha256": "43bf969f44ff57080067fc9eaeaf47f15c1f187d76d206c486209a334b0acfb2",
+      "bytes": 386,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/rhee-syngman-run131.json",
+      "gitBlobSha": "b6350be36f74a3d15f05cd2c71052f649687ddfd",
+      "sha256": "d78c98d400bbccb93ce1c9e500dd90be9a309ec9f21ef0ccdb19ca634e1aa0e6",
+      "bytes": 516,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/rhee-syngman-run180.json",
+      "gitBlobSha": "fd6084cce28f40ee67ba98a75ce8b308a0caddba",
+      "sha256": "2fa6d657a4e62997e4b65c0e19f23f33a65a63660a2a81c3cf2e6371bc11150e",
+      "bytes": 546,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/rhee-syngman-run196.json",
+      "gitBlobSha": "b5810652f875fddf0ebf4e65d4c8a1adee44bb64",
+      "sha256": "950db74fe7553743842a7306eb1f8199c3357ef3b6c5b8d6dfb92d61f863a2fb",
+      "bytes": 651,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/rhee-syngman-run196b.json",
+      "gitBlobSha": "c3f1051d936715b635cd23f31ff0fddd0cdd946e",
+      "sha256": "8088d20d129951f5493da8801ab82e2a32738ce4ecc24350c6e67fac3fe677d0",
+      "bytes": 848,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/rhee-syngman-run197.json",
+      "gitBlobSha": "0dccd3fe04120bcaabe19f6d1a8e2f02c343c5a1",
+      "sha256": "52e177138c121e52791e02e68e3990debec8a210303b4b31d04ee51fb24aef5d",
+      "bytes": 13479,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/rhee-syngman-run197b.json",
+      "gitBlobSha": "11be1ac2845ff03cc0ee4c5942cc17ecd32893ab",
+      "sha256": "86a1e272dbf59193bd0eecd027e07436fca9fee3381a28e14bd7eb4885560552",
+      "bytes": 10983,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/rhee-syngman-run197d.json",
+      "gitBlobSha": "1d84273207a04be190a16012c18b520cb538edbb",
+      "sha256": "9e8f4f531858b3bd91298dd3303e5feff0178091b64c27d7ebf674e39bdf4bca",
+      "bytes": 7865,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
       "conflicts": [],
       "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
       "path": "data/evidence/rhee-syngman.json",
-      "sha": "1965bbf675264d79bb061a750f3373353dbaf7e5",
+      "gitBlobSha": "1965bbf675264d79bb061a750f3373353dbaf7e5",
       "sha256": "5d1c8f28946dd8fc8a9e9cfc1012889cdf31c70b92363b66f15ab9ed73960a80",
-      "size": 105654,
-      "registryState": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "bytes": 105654,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
       "targetLayer": "evidence_layer",
       "targetRegistries": [
         "evidence",
@@ -1392,46 +3655,50 @@
         "claims",
         "events"
       ],
-      "recordCounts": {
-        "documents": 0,
-        "claims": 0,
-        "events": 0,
-        "politicians": 0,
-        "organizations": 0
-      },
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
       "conflicts": [],
       "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
       "path": "data/evidence/rhee/pass-119-tasca-report-policy-evidence.json",
-      "sha": "34d11ddedce72d70d84e2efb08a20a9948331c3a",
+      "gitBlobSha": "34d11ddedce72d70d84e2efb08a20a9948331c3a",
       "sha256": "3b924558e0f496e03af28ec4ae5b13d41f2c6d1a150e7f6df1692bbcd9b1e6f3",
-      "size": 4214,
-      "registryState": "INDEXED_NOT_CANONICAL_VERIFIED",
-      "targetLayer": "evidence_layer",
-      "targetRegistries": [
-        "evidence",
-        "politicians",
-        "documents",
-        "claims",
-        "events"
-      ],
+      "bytes": 4214,
       "recordCounts": {
         "documents": 3,
         "claims": 0,
         "events": 0,
         "politicians": 0,
-        "organizations": 0
+        "organizations": 0,
+        "roles": 0
       },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
       "conflicts": [],
       "unintegratedReason": null
     },
     {
       "path": "data/evidence/rhee/pass-253-cabinet-metadata-divergence.json",
-      "sha": "8035cab1785bb24286bce5b0c3cd868be42c1b62",
+      "gitBlobSha": "8035cab1785bb24286bce5b0c3cd868be42c1b62",
       "sha256": "bad17d9619b79882d42f103bbc95d362625a6de5b5933fedb7fd5df33f321311",
-      "size": 4999,
-      "registryState": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "bytes": 4999,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
       "targetLayer": "evidence_layer",
       "targetRegistries": [
         "evidence",
@@ -1440,22 +3707,980 @@
         "claims",
         "events"
       ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/rhee/run112-1950-stabilization-evidence.json",
+      "gitBlobSha": "59db73c4aab815b6548cde893e81dfc7c7b267bb",
+      "sha256": "e04e684a02bcfcb79f18b0d380fa924a20993514e59444585860325a7ee864bf",
+      "bytes": 920,
       "recordCounts": {
         "documents": 0,
         "claims": 0,
         "events": 0,
         "politicians": 0,
-        "organizations": 0
+        "organizations": 0,
+        "roles": 0
       },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/rhee/run113-prewar.json",
+      "gitBlobSha": "4d43d65a513e0b9d18262fc3eed70d08b1e10640",
+      "sha256": "3667dd89e370e4108de5f4662b101536f5b67b8afec8442dfb153d2a947faa2a",
+      "bytes": 814,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/rhee/run114-institutions.json",
+      "gitBlobSha": "c1c4cbc27494abd603d5943aa3efe42a503c3ad9",
+      "sha256": "c81aa75209ac3310ae99569d26c8e07ec21656d5c5a7aa2e683944924b7b588f",
+      "bytes": 1009,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/rhee/run115-constitution-election.json",
+      "gitBlobSha": "d9a790ca8fd7f89000560d18603d98ffe78a857a",
+      "sha256": "91c4d96ea9aa298dd56ef05ddfd5915d5ccf7a64069d6239a80167f2679d9600",
+      "bytes": 912,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/rhee/run150-1955-public-speech-daegu.json",
+      "gitBlobSha": "995a474ad2e5167afaa1cc9f266ee33e0a7c58ab",
+      "sha256": "f8db42a32b082f40c36c67b91766f1c2a49ecf0808260836df7e208c00608d1f",
+      "bytes": 963,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/rhee/run156-1957-us-rok-force-negotiations.json",
+      "gitBlobSha": "91964ba75bb6624e11aa39919b71b30adc983d2b",
+      "sha256": "21a94ec09e497de261c3cd73fc08300fe5ebde1ddb535afe429eebf66624ce39",
+      "bytes": 2461,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/rhee/run157-1958-domestic-policy.json",
+      "gitBlobSha": "babe6ff88873f2cbd4169af8fd7962a314836e83",
+      "sha256": "67caedcda3745aa2f0b42a9271ac9df9dfd0f17c7d80ccddb10af981aa61f3df",
+      "bytes": 2096,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/rhee/run164-september-1950-governance.json",
+      "gitBlobSha": "8f2b7020f6b1981f04622147650e52ee2a6ae49f",
+      "sha256": "ce33ad825a1e3f5fa9cc09de1b93f7a6e09e987c7879b248c6f0827fbb53128c",
+      "bytes": 1681,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/rhee/run165-october-constitutional-response.json",
+      "gitBlobSha": "1721fc4abd617d21b0e851ddb1c36c5862bf2c7e",
+      "sha256": "e83319f43ac07bd2c39fb99ae0c0c93c350cbaa2bbed01c03159e8dc690abc13",
+      "bytes": 1109,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/rhee/run166-october-governance.json",
+      "gitBlobSha": "f383db618339df92280d226099c098359b98130e",
+      "sha256": "aab77fa0fde71f15410aeed3a079a524ed9a2490f1c6b77c28f78e23b19ae838",
+      "bytes": 3884,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/rhee/run167-civil-affairs-cabinet.json",
+      "gitBlobSha": "b76d5cb57e27b4ee870514b8c7827c5e9712a53e",
+      "sha256": "de3fe98d72c83e2ca79f3d3491e1864c8ff5e93ef43fd7e235c46f3f16c0a278",
+      "bytes": 910,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/rhee/run168-un-foreign-policy.json",
+      "gitBlobSha": "92a8ae453c4e9c932d4578a0a27da9f20b31a7b9",
+      "sha256": "8351d55b504a2aa8650646428a92f5189b27c1e455882ffd771258451f3e3b89",
+      "bytes": 696,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/rhee/run169-cabinet-parliament.json",
+      "gitBlobSha": "05f4a50bf716cfe244083df6fd98ebb6d39ab932",
+      "sha256": "c359677334a9a4af31631521450481fa477f5fe33f6a551bd7d71f5e9c13fc1b",
+      "bytes": 2589,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/rhee/run170-constitutional-process.json",
+      "gitBlobSha": "03fe2d5855244308854c590bf9b2b6a7f2fe6a51",
+      "sha256": "57bd558b2bbaee3e8b661fa6d33d312d643e938a148802d35b23b2ad813b0017",
+      "bytes": 3224,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/rhee/run171-1952-constitutional-election-source-criticism.json",
+      "gitBlobSha": "64093a14c6fa7b45ec4986298463ddc0007b6a5f",
+      "sha256": "3407626e51310e4b242b4486319604681e5068125570e9240b45974fd5a2c022",
+      "bytes": 3900,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/rhee/run172-economic-treaty-constitutional-source-criticism.json",
+      "gitBlobSha": "5d589c8f5421383e2ed94bafb5b1024d9977174f",
+      "sha256": "d1897c66f5d1b992a28a1440b50f332cd314cd60577e50e67d2f4e6786d508d7",
+      "bytes": 3628,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/rhee/run173-postarmistice-economic-policy.json",
+      "gitBlobSha": "28114225183684d46e731134cd5fab95c03740c4",
+      "sha256": "73c9b7a86449c9cbe4d63c16543ded744b94b29a4968b51266c691772a4ee236",
+      "bytes": 3497,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/rhee/run174-1953-currency-legislature-actor-graph.json",
+      "gitBlobSha": "b3c46f36427c56728a48f0f6a252cb7f50e31c77",
+      "sha256": "75ef721d9edebe3ad9204c86c3f965634f7d227efbf6b82a6932480d10117662",
+      "bytes": 1227,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/rhee/run178-1948-government-organization-speech.json",
+      "gitBlobSha": "2792b2b2608f657c53ed51b8d60dfe463e1f6dd1",
+      "sha256": "2cd4e8c5c05d1954e6967c0fc3c045a96c15c3fbf468c6a857262403303b578d",
+      "bytes": 531,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/rhee/run185-1949-diplomacy-press-electricity.json",
+      "gitBlobSha": "841310aaa028eb34e3a226c958a040a9c0c1f1e2",
+      "sha256": "16744a970a1fa52fb04e58ecacc8dad6dc97b362d403277817fa774ca7b3ceaa",
+      "bytes": 2966,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/rhee/run198-october-governance.json",
+      "gitBlobSha": "0c3391137409cd043cdeaa2513e05463d19e948c",
+      "sha256": "8eb619210a713537fdc9d55b762ca9673160cc1a83e59df9085d3bd448b3350a",
+      "bytes": 2368,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/run125-local-election-graph.json",
+      "gitBlobSha": "e5198e0970858a7c92dff83350842b7489518081",
+      "sha256": "20fc8bf1ced78af83a6346e15a2d777b7cd9bca6a6bb51f26f27d7fa90dec3fb",
+      "bytes": 1400,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/run125c-economic-agreement-graph.json",
+      "gitBlobSha": "7daca0dd65062df9d20d14092eea51de629d502b",
+      "sha256": "a71cd37c9c581b3e94bfc1ab85d2b00ec55deac5f6f71ff231285919b6547a86",
+      "bytes": 1492,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/run125d-martiallaw-evidence.json",
+      "gitBlobSha": "2cca4a687e50503975bc4e21d385c9037641096d",
+      "sha256": "5e7be0c745941c38f0095846b7c0e44996d2b1d028c5bf438918afb8ae7ccb19",
+      "bytes": 1176,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/run125e-welfare-land.json",
+      "gitBlobSha": "1706061cf7b7af7c9cb741961ce59221e6c9f9fc",
+      "sha256": "44bbb11d19b6d8550a3a7b3995b972a29982f3e588b22af85bd622713d507d5a",
+      "bytes": 1010,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/run125f-education.json",
+      "gitBlobSha": "e592c5dba401d91667e3a190e492051ce8caef69",
+      "sha256": "2b7c31c9e8e97bd6a868011ba9e7d9ddc738483e722a1c61cf21c99acab16a00",
+      "bytes": 956,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/run125h-land-law.json",
+      "gitBlobSha": "7802c4635de9922c17912c1595eb26a6420baa35",
+      "sha256": "e8f578c98fa7dc99a4ac18b4dfa716654f6ada099d0cc18b936132542833eae0",
+      "bytes": 735,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/run131-crossfamily-phase2.json",
+      "gitBlobSha": "5e2036342ecd21cd5d2b2b9ad225f22bd8c1b4e8",
+      "sha256": "218f775580371762acb5b4f668c7d48f41a026ca654289483d8ab4705482f096",
+      "bytes": 517,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/run131-crossfamily-phase3.json",
+      "gitBlobSha": "50ce7f9c5573a7c47ed5cd11196a96f18c8d9c70",
+      "sha256": "b0fea41c505cefbb0f5bcd0a5eb0e4c7c20d33c8f316abf11da9a7a49ccdd911",
+      "bytes": 917,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/run131-crossfamily.json",
+      "gitBlobSha": "bf361b04a5a3420f426a3d938fb474feb9800786",
+      "sha256": "872619d01e3c789f311758dfb93970b7513fcfa66622582e17a8a1385a31c0ac",
+      "bytes": 865,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/run141-actor-evidence.json",
+      "gitBlobSha": "65a878ed5460cd13764b0fe8bcf7505ba950c038",
+      "sha256": "5371245f80cf515587ec762d29081591d8b9486fbefb8e6218464942a4d82bc2",
+      "bytes": 4874,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/run142-actor-crosslinks.json",
+      "gitBlobSha": "42f620a0ace4052707f5226875120b61dde5dc08",
+      "sha256": "0627479f37c0401c06011ae7ae837c275987c96fff92671f683a1946286e5f5d",
+      "bytes": 279,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 2,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/evidence/run143-actor-evidence.json",
+      "gitBlobSha": "6d9604f7f5edeb2a1f3312b857d98b43b0491ca3",
+      "sha256": "5fa7f27b1859344308a7b42f241ea3d406e2d7b24da2c758b20347195dd25349",
+      "bytes": 3730,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 10,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "CONFLICT_REVIEW_REQUIRED",
+      "status": "BLOCKED_ID_CONFLICT",
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "pol-cho-bong-am",
+          "variantCount": 37,
+          "mergeReview": {
+            "status": "BLOCKED",
+            "reason": "CONFLICTING_BIRTH_DATES"
+          }
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/evidence/run144-actor-evidence.json",
+      "gitBlobSha": "551af4e55858cb5c2102a4dfcdb1bdff22f4b9de",
+      "sha256": "75abe7a1411d8ee7c5be2a9ecafd653268e12c06a25c29aededa40af1ce06b34",
+      "bytes": 1328,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 10,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "CONFLICT_REVIEW_REQUIRED",
+      "status": "BLOCKED_ID_CONFLICT",
+      "conflicts": [
+        {
+          "kind": "politicians",
+          "id": "pol-cho-bong-am",
+          "variantCount": 37,
+          "mergeReview": {
+            "status": "BLOCKED",
+            "reason": "CONFLICTING_BIRTH_DATES"
+          }
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/evidence/run192-korean-actor-identity-crosschecks.json",
+      "gitBlobSha": "84fabf6795bf49cdf7eab4d454b9c3b47275be22",
+      "sha256": "88eba2d65cc5f8b85f111355566550162465516c530b221737f46bbd0de5e8b7",
+      "bytes": 788,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/run208-1950-election-identity.json",
+      "gitBlobSha": "e0f0fb748f1d97eb040bd1b3ff8ba96a6c79ca5a",
+      "sha256": "b51bbaacf05f6d5bf4174d2602c842bcd634378c99d651e50f02a82bda33ff40",
+      "bytes": 1434,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
       "conflicts": [],
       "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
       "path": "data/evidence/seo-beom-seok.json",
-      "sha": "d0a862caf4d2eb7076ddcdbb4a609315016fb6ac",
+      "gitBlobSha": "d0a862caf4d2eb7076ddcdbb4a609315016fb6ac",
       "sha256": "97e0b275df4c27776dd4a1e5bb54139fe9c15a5789fc73d376ce4db546343c24",
-      "size": 2414,
-      "registryState": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "bytes": 2414,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
       "targetLayer": "evidence_layer",
       "targetRegistries": [
         "evidence",
@@ -1464,22 +4689,24 @@
         "claims",
         "events"
       ],
-      "recordCounts": {
-        "documents": 0,
-        "claims": 0,
-        "events": 0,
-        "politicians": 0,
-        "organizations": 0
-      },
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
       "conflicts": [],
       "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
       "path": "data/evidence/shin-ik-hui-1953-labor.json",
-      "sha": "8cf8a2ecbe83f53b6753c0012abd77971d67d2cf",
+      "gitBlobSha": "8cf8a2ecbe83f53b6753c0012abd77971d67d2cf",
       "sha256": "812deff43043e44be2d6df30503074753ef7ca5f165b70921fab4021da3ca2ff",
-      "size": 584,
-      "registryState": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "bytes": 584,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
       "targetLayer": "evidence_layer",
       "targetRegistries": [
         "evidence",
@@ -1488,22 +4715,50 @@
         "claims",
         "events"
       ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/shin-ik-hui-run176.json",
+      "gitBlobSha": "4f6b8f713bf7e7f52f0503a097efe9c28a78758f",
+      "sha256": "66b37d9278cc6c102b7f3fdb5ead478948b61ccb2828d2641f5f10d7fe07e421",
+      "bytes": 3641,
       "recordCounts": {
         "documents": 0,
         "claims": 0,
         "events": 0,
         "politicians": 0,
-        "organizations": 0
+        "organizations": 0,
+        "roles": 0
       },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
       "conflicts": [],
       "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
       "path": "data/evidence/shin-ik-hui.json",
-      "sha": "8221fb90e47968533f0b1c8b75e4d967a59d7d1c",
+      "gitBlobSha": "8221fb90e47968533f0b1c8b75e4d967a59d7d1c",
       "sha256": "45c2f6e6e14b8b414cac4bf22c21540127946efc71e55df902224c67a82c72e8",
-      "size": 8166,
-      "registryState": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "bytes": 8166,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
       "targetLayer": "evidence_layer",
       "targetRegistries": [
         "evidence",
@@ -1512,22 +4767,76 @@
         "claims",
         "events"
       ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/shin-tae-young.json",
+      "gitBlobSha": "d0c6dfaca25c904ecadcfb1062aeb1e563dbb8f4",
+      "sha256": "4fa8ceef92bc892f39d44b0993f811e5c541fd709fd18c9d7f11f12f45dcd0c2",
+      "bytes": 884,
       "recordCounts": {
         "documents": 0,
         "claims": 0,
         "events": 0,
         "politicians": 0,
-        "organizations": 0
+        "organizations": 0,
+        "roles": 0
       },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/sohn-won-yil-run180.json",
+      "gitBlobSha": "94a7cf3d6e543f87c4f7e88dcad987e0d6d058fa",
+      "sha256": "2c90afb4b5e657f128c072cdf13eb2d54d4dc94504d1b89872fa73655be81cb3",
+      "bytes": 353,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
       "conflicts": [],
       "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
       "path": "data/evidence/sohn-won-yil.json",
-      "sha": "c163070dc2befbd7d1c67b8922bb5b0c952de327",
+      "gitBlobSha": "c163070dc2befbd7d1c67b8922bb5b0c952de327",
       "sha256": "65820cb60aa5efa4bf859080fd270343fdc0ccd4dde2da83e97b39a723c7d20a",
-      "size": 2712,
-      "registryState": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "bytes": 2712,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
       "targetLayer": "evidence_layer",
       "targetRegistries": [
         "evidence",
@@ -1536,22 +4845,50 @@
         "claims",
         "events"
       ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/song-in-sang.json",
+      "gitBlobSha": "e1f503a7061daabd079b1feed5ea02c7b75e9f88",
+      "sha256": "9220b2828980b82dce5838e56766c76a5d8ff5dcbe525261a806d1ecf194e695",
+      "bytes": 743,
       "recordCounts": {
         "documents": 0,
         "claims": 0,
         "events": 0,
         "politicians": 0,
-        "organizations": 0
+        "organizations": 0,
+        "roles": 0
       },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
       "conflicts": [],
       "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
       "path": "data/evidence/won-yong-duk.json",
-      "sha": "a452297cbcb1cb1493936abd3a71afc0cb0f5700",
+      "gitBlobSha": "a452297cbcb1cb1493936abd3a71afc0cb0f5700",
       "sha256": "2ff2b152dd7e125497c16f7435bdd661984310d26194f5844c39b7897f0358f2",
-      "size": 1970,
-      "registryState": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "bytes": 1970,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
       "targetLayer": "evidence_layer",
       "targetRegistries": [
         "evidence",
@@ -1560,22 +4897,50 @@
         "claims",
         "events"
       ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/won-yong-tok.json",
+      "gitBlobSha": "95f4b3afd393ca8a5cb54d95bdbdd3bbd758f463",
+      "sha256": "c986cc79df5c5e0594d998708104ad8706a1c67019ff6621b959156d127a46a1",
+      "bytes": 850,
       "recordCounts": {
         "documents": 0,
         "claims": 0,
         "events": 0,
         "politicians": 0,
-        "organizations": 0
+        "organizations": 0,
+        "roles": 0
       },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
       "conflicts": [],
       "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
       "path": "data/evidence/yang-yu-chan-1955.json",
-      "sha": "235d5bb0a611a56446435586f27f837387a75e75",
+      "gitBlobSha": "235d5bb0a611a56446435586f27f837387a75e75",
       "sha256": "f21be95bd2a75164d8fe2a036baac907fa525eb2ea753713cbbe668c00d60b79",
-      "size": 1691,
-      "registryState": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "bytes": 1691,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
       "targetLayer": "evidence_layer",
       "targetRegistries": [
         "evidence",
@@ -1584,22 +4949,24 @@
         "claims",
         "events"
       ],
-      "recordCounts": {
-        "documents": 0,
-        "claims": 0,
-        "events": 0,
-        "politicians": 0,
-        "organizations": 0
-      },
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
       "conflicts": [],
       "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
       "path": "data/evidence/yu-wan-chang.json",
-      "sha": "8b4e7f344a54f687307bcf3da4158370807f52d3",
+      "gitBlobSha": "8b4e7f344a54f687307bcf3da4158370807f52d3",
       "sha256": "768e67b83ebc6458455d3016bca646f68fb94b93beeb70f91fca18b31c03251b",
-      "size": 894,
-      "registryState": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "bytes": 894,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
       "targetLayer": "evidence_layer",
       "targetRegistries": [
         "evidence",
@@ -1608,13 +4975,60 @@
         "claims",
         "events"
       ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/yun-chi-yeong-run113.json",
+      "gitBlobSha": "a331346b1f16f430b8e492e304d6b42b5f501cca",
+      "sha256": "9577340b667481324841b05e7b3c0d932be53dc19d52d087c883b7e8b4bbbf96",
+      "bytes": 632,
       "recordCounts": {
         "documents": 0,
         "claims": 0,
         "events": 0,
         "politicians": 0,
-        "organizations": 0
+        "organizations": 0,
+        "roles": 0
       },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/evidence/yun-posun-run181.json",
+      "gitBlobSha": "b5e7334285de61ece0dca014841e38a300cb3da6",
+      "sha256": "5d2c1016a7b6c93af464987bee7932d30e271beec6aecca3026413113c847d4e",
+      "bytes": 384,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "evidence_layer",
+      "targetRegistries": [
+        "evidence",
+        "politicians",
+        "documents",
+        "claims",
+        "events"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
       "conflicts": [],
       "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
     }

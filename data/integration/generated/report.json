@@ -14849,5 +14849,5 @@
       "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
     }
   ],
-  "policy": "Every ID retained; contradictory versions are explicit alternatives, not silently overwritten. Unstructured source files remain in source tree."
+  "policy": "Stable IDs with a shared identity key are materialized through conservative field-wise merge. Additive arrays are unioned; conflicting scalar values are omitted from the merged projection and preserved with per-source provenance. Identity-critical conflicts remain CONFLICTED. Original alternatives are never deleted."
 }

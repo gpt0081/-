@@ -1,325 +1,1199 @@
 {
   "schemaVersion": 2,
-  "sourceTreeSha": "58ea5d18e1b142a631127a25d7d59cf93e5750d8",
-  "sourceSnapshotCommit": "e2d528b73bed55037ffbb525a623c11ffc98049b",
-  "group": "data/organizations",
-  "count": 15,
+  "group": "data-organizations.json",
+  "sourceSnapshotCommit": "0ec4d08748213b231310076d3933bb1e40810177",
+  "sourceTreeSha": "20a15a95a0c107cf8c72c04cc286d54eb6d16373",
+  "fileCount": 53,
   "statusCounts": {
-    "NON_JSON_PRESERVED": 1,
-    "INDEXED_NOT_CANONICAL_VERIFIED": 10,
-    "UNMAPPED_AUXILIARY_OR_PARTIAL": 2,
-    "BLOCKED_ID_CONFLICT": 2
+    "BLOCKED_ID_CONFLICT": 2,
+    "CANONICAL_MATERIALIZED": 48,
+    "NON_JSON_SOURCE_PRESERVED": 1,
+    "UNMAPPED_AUXILIARY_OR_PARTIAL": 2
   },
   "files": [
     {
       "path": "data/organizations/INDEX.md",
-      "sha": "3d3920276215425c1f32c978d25992f1cb24c806",
+      "gitBlobSha": "3d3920276215425c1f32c978d25992f1cb24c806",
       "sha256": "a87280bb045dc749cfcce57ee82593e31748b50595f9100d9628827406f025a1",
-      "size": 1750,
-      "registryState": "NON_JSON_PRESERVED",
-      "targetLayer": "organization_registry_source",
-      "targetRegistries": [
-        "organizations"
-      ],
+      "bytes": 1750,
       "recordCounts": {
         "documents": 0,
         "claims": 0,
         "events": 0,
         "politicians": 0,
-        "organizations": 0
+        "organizations": 0,
+        "roles": 0
       },
+      "targetLayer": "organization_registry_source",
+      "targetRegistries": [
+        "organizations"
+      ],
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "status": "NON_JSON_SOURCE_PRESERVED",
       "conflicts": [],
       "unintegratedReason": null
     },
     {
       "path": "data/organizations/pass-239e-1953-institutions.json",
-      "sha": "d476aa001c743c90521b5a3b23b83c0e83414525",
+      "gitBlobSha": "d476aa001c743c90521b5a3b23b83c0e83414525",
       "sha256": "f6a431670cb7788e8ed8ea72230ea7a2657e27cb7e7dedda3a00cbe956f246de",
-      "size": 4289,
-      "registryState": "INDEXED_NOT_CANONICAL_VERIFIED",
-      "targetLayer": "organization_registry_source",
-      "targetRegistries": [
-        "organizations"
-      ],
+      "bytes": 4289,
       "recordCounts": {
         "documents": 0,
         "claims": 0,
         "events": 0,
         "politicians": 0,
-        "organizations": 9
+        "organizations": 9,
+        "roles": 0
       },
+      "targetLayer": "organization_registry_source",
+      "targetRegistries": [
+        "organizations"
+      ],
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
       "conflicts": [],
       "unintegratedReason": null
     },
     {
       "path": "data/organizations/pass-239g-july-organization.json",
-      "sha": "c3b390325640049a866b0411aa48c97411e745b1",
+      "gitBlobSha": "c3b390325640049a866b0411aa48c97411e745b1",
       "sha256": "3d809cff7b3b3b5c359129b49201cc07f63e467b02a28f197b18d3086a27fe3e",
-      "size": 1260,
-      "registryState": "INDEXED_NOT_CANONICAL_VERIFIED",
-      "targetLayer": "organization_registry_source",
-      "targetRegistries": [
-        "organizations"
-      ],
+      "bytes": 1260,
       "recordCounts": {
         "documents": 0,
         "claims": 0,
         "events": 0,
         "politicians": 0,
-        "organizations": 2
+        "organizations": 2,
+        "roles": 0
       },
+      "targetLayer": "organization_registry_source",
+      "targetRegistries": [
+        "organizations"
+      ],
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
       "conflicts": [],
       "unintegratedReason": null
     },
     {
       "path": "data/organizations/pass-239k-1955-reconstruction.json",
-      "sha": "b5eb4ed97b030b3838a57483dc1bc828077b543e",
+      "gitBlobSha": "b5eb4ed97b030b3838a57483dc1bc828077b543e",
       "sha256": "0d5f41883377a5f8cc33c2aea3842b05eab02c6b4dd575314ddc2319e4549006",
-      "size": 2169,
-      "registryState": "INDEXED_NOT_CANONICAL_VERIFIED",
-      "targetLayer": "organization_registry_source",
-      "targetRegistries": [
-        "organizations"
-      ],
+      "bytes": 2169,
       "recordCounts": {
         "documents": 0,
         "claims": 0,
         "events": 0,
         "politicians": 0,
-        "organizations": 5
+        "organizations": 5,
+        "roles": 0
       },
+      "targetLayer": "organization_registry_source",
+      "targetRegistries": [
+        "organizations"
+      ],
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
       "conflicts": [],
       "unintegratedReason": null
     },
     {
       "path": "data/organizations/pass-249-civic-rights-and-civil-society.json",
-      "sha": "b21cfe5372205653c342900e3759d0037f7e4fde",
+      "gitBlobSha": "b21cfe5372205653c342900e3759d0037f7e4fde",
       "sha256": "99c0ea97a3e2b7205aa9c1b30fdabc6a0587819e20544875d4fd016be36c3a09",
-      "size": 1529,
-      "registryState": "INDEXED_NOT_CANONICAL_VERIFIED",
-      "targetLayer": "organization_registry_source",
-      "targetRegistries": [
-        "organizations"
-      ],
+      "bytes": 1529,
       "recordCounts": {
         "documents": 0,
         "claims": 0,
         "events": 0,
         "politicians": 0,
-        "organizations": 6
+        "organizations": 6,
+        "roles": 0
       },
+      "targetLayer": "organization_registry_source",
+      "targetRegistries": [
+        "organizations"
+      ],
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
       "conflicts": [],
       "unintegratedReason": null
     },
     {
       "path": "data/organizations/pass-255d-unkra-link.json",
-      "sha": "dc4f2b18f87b3abccc46f8a2107dc627657aab73",
+      "gitBlobSha": "dc4f2b18f87b3abccc46f8a2107dc627657aab73",
       "sha256": "eaa9322fd0af2f27f00a20882fcda722652a6aeacf483ee6b2d0c734352e7d90",
-      "size": 536,
-      "registryState": "UNMAPPED_AUXILIARY_OR_PARTIAL",
-      "targetLayer": "organization_registry_source",
-      "targetRegistries": [
-        "organizations"
-      ],
+      "bytes": 536,
       "recordCounts": {
         "documents": 0,
         "claims": 0,
         "events": 0,
         "politicians": 0,
-        "organizations": 0
+        "organizations": 0,
+        "roles": 0
       },
+      "targetLayer": "organization_registry_source",
+      "targetRegistries": [
+        "organizations"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
       "conflicts": [],
       "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
       "path": "data/organizations/pass-257o4-unkra-1954-link.json",
-      "sha": "0e2bdfb97f7a7921c68959d4f17087ee8ec267b5",
+      "gitBlobSha": "0e2bdfb97f7a7921c68959d4f17087ee8ec267b5",
       "sha256": "15718708fdeec3fbb98b9139877f34ccd906d10b4b254277829d5784d7fe6c53",
-      "size": 533,
-      "registryState": "UNMAPPED_AUXILIARY_OR_PARTIAL",
-      "targetLayer": "organization_registry_source",
-      "targetRegistries": [
-        "organizations"
-      ],
+      "bytes": 533,
       "recordCounts": {
         "documents": 0,
         "claims": 0,
         "events": 0,
         "politicians": 0,
-        "organizations": 0
+        "organizations": 0,
+        "roles": 0
       },
+      "targetLayer": "organization_registry_source",
+      "targetRegistries": [
+        "organizations"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
       "conflicts": [],
       "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
       "path": "data/organizations/pass-257v2-jeheon-dongjihoe.json",
-      "sha": "88430e1ef663a019a9edd9bec4186bf115fe3e95",
+      "gitBlobSha": "88430e1ef663a019a9edd9bec4186bf115fe3e95",
       "sha256": "66abee0ce53a901f4db3d5ee5e4162513fd2a6465cc317b71fc703708c190aff",
-      "size": 814,
-      "registryState": "BLOCKED_ID_CONFLICT",
-      "targetLayer": "organization_registry_source",
-      "targetRegistries": [
-        "organizations"
-      ],
+      "bytes": 814,
       "recordCounts": {
         "documents": 0,
         "claims": 0,
         "events": 0,
         "politicians": 0,
-        "organizations": 1
+        "organizations": 1,
+        "roles": 0
       },
-      "conflicts": [
-        {
-          "kind": "organizations",
-          "id": "org-jeheon-dongjihoe",
-          "variantCount": 2
-        }
+      "targetLayer": "organization_registry_source",
+      "targetRegistries": [
+        "organizations"
       ],
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
+      "conflicts": [],
       "unintegratedReason": null
     },
     {
       "path": "data/organizations/pass-258a-us-foa-1954.json",
-      "sha": "6d530d590aede1763fd0640406e035ffed6a7fbf",
+      "gitBlobSha": "6d530d590aede1763fd0640406e035ffed6a7fbf",
       "sha256": "b26c4fd274dc098f4ab2f98a70b50a9138462ae70fa0e12c49f9fd1f61885285",
-      "size": 926,
-      "registryState": "INDEXED_NOT_CANONICAL_VERIFIED",
-      "targetLayer": "organization_registry_source",
-      "targetRegistries": [
-        "organizations"
-      ],
+      "bytes": 926,
       "recordCounts": {
         "documents": 0,
         "claims": 0,
         "events": 0,
         "politicians": 0,
-        "organizations": 1
+        "organizations": 1,
+        "roles": 0
       },
+      "targetLayer": "organization_registry_source",
+      "targetRegistries": [
+        "organizations"
+      ],
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
       "conflicts": [],
       "unintegratedReason": null
     },
     {
       "path": "data/organizations/pass-258b-oec-rok-aid-authority.json",
-      "sha": "ec180991ebaae89e351d4bee2137284ba1876ff3",
+      "gitBlobSha": "ec180991ebaae89e351d4bee2137284ba1876ff3",
       "sha256": "6326d48ee322bd5dc6c362a518a0b5af0c1fd86d32811a3008db4fc8888918d8",
-      "size": 1577,
-      "registryState": "INDEXED_NOT_CANONICAL_VERIFIED",
-      "targetLayer": "organization_registry_source",
-      "targetRegistries": [
-        "organizations"
-      ],
+      "bytes": 1577,
       "recordCounts": {
         "documents": 0,
         "claims": 0,
         "events": 0,
         "politicians": 0,
-        "organizations": 2
+        "organizations": 2,
+        "roles": 0
       },
+      "targetLayer": "organization_registry_source",
+      "targetRegistries": [
+        "organizations"
+      ],
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
       "conflicts": [],
       "unintegratedReason": null
     },
     {
       "path": "data/organizations/pass-258f-1956-domestic-governance.json",
-      "sha": "05b211e64833e82283e710bed15798bb44aad443",
+      "gitBlobSha": "05b211e64833e82283e710bed15798bb44aad443",
       "sha256": "98fb3d1afa7497edc20b98e3d921c8f71b58a6748408eac445377ac02345a8b5",
-      "size": 5475,
-      "registryState": "INDEXED_NOT_CANONICAL_VERIFIED",
-      "targetLayer": "organization_registry_source",
-      "targetRegistries": [
-        "organizations"
-      ],
+      "bytes": 5475,
       "recordCounts": {
         "documents": 0,
         "claims": 0,
         "events": 0,
         "politicians": 0,
-        "organizations": 7
+        "organizations": 7,
+        "roles": 0
       },
+      "targetLayer": "organization_registry_source",
+      "targetRegistries": [
+        "organizations"
+      ],
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
       "conflicts": [],
       "unintegratedReason": null
     },
     {
       "path": "data/organizations/registry.json",
-      "sha": "e6bfbd0ded8141d0764bf9c338b1e8ffe142102b",
+      "gitBlobSha": "e6bfbd0ded8141d0764bf9c338b1e8ffe142102b",
       "sha256": "770db71612ea3ddab68b9195d7c86e73891238f549f106a891f49f8cc05d59ba",
-      "size": 15628,
-      "registryState": "BLOCKED_ID_CONFLICT",
-      "targetLayer": "organization_registry_source",
-      "targetRegistries": [
-        "organizations"
-      ],
+      "bytes": 15628,
       "recordCounts": {
         "documents": 0,
         "claims": 0,
         "events": 0,
         "politicians": 0,
-        "organizations": 25
+        "organizations": 25,
+        "roles": 0
       },
+      "targetLayer": "organization_registry_source",
+      "targetRegistries": [
+        "organizations"
+      ],
+      "sourceStatus": "CONFLICT_REVIEW_REQUIRED",
+      "status": "BLOCKED_ID_CONFLICT",
       "conflicts": [
         {
           "kind": "organizations",
-          "id": "org-jeheon-dongjihoe",
-          "variantCount": 2
+          "id": "org-unkra",
+          "variantCount": 2,
+          "mergeReview": {
+            "status": "BLOCKED",
+            "reason": "NO_COMMON_ORGANIZATION_NAME"
+          }
         }
       ],
       "unintegratedReason": null
     },
     {
-      "path": "data/organizations/run224-1952-institutions.json",
-      "sha": "a9285bd44f1d1af5d28b9e89f05c079997b9fc90",
-      "sha256": "a69785cb203712cf02c94e037c9b343fe769741b26bcdf83727cedc1a2344cdd",
-      "size": 3195,
-      "registryState": "INDEXED_NOT_CANONICAL_VERIFIED",
-      "targetLayer": "organization_registry_source",
-      "targetRegistries": [
-        "organizations"
-      ],
+      "path": "data/organizations/run110-orgs-a.json",
+      "gitBlobSha": "b9e1479ac6f770d03e4ae3fc180b33a4478cffc6",
+      "sha256": "60b8aa60e442a04327f86da906ec81586871c21030c0ea6e41802aff82f02cb1",
+      "bytes": 1847,
       "recordCounts": {
         "documents": 0,
         "claims": 0,
         "events": 0,
         "politicians": 0,
-        "organizations": 7
+        "organizations": 6,
+        "roles": 0
       },
+      "targetLayer": "organization_registry_source",
+      "targetRegistries": [
+        "organizations"
+      ],
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/organizations/run110-orgs-b.json",
+      "gitBlobSha": "e93ce3699dc36702a29e2455311d3c5535f9a46e",
+      "sha256": "c856765e0c6fd8556ec46c71eb58e0b46194e58aaca6a4d8dff46e200d89de5d",
+      "bytes": 2037,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 6,
+        "roles": 0
+      },
+      "targetLayer": "organization_registry_source",
+      "targetRegistries": [
+        "organizations"
+      ],
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/organizations/run115-first-national-assembly.json",
+      "gitBlobSha": "26c39e10ad15ff50b9ba7741ce4ee2b6581a62f2",
+      "sha256": "476d830969625be059f2042ff660efe237dd2ee2962abdf45f519deaa868e204",
+      "bytes": 583,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 1,
+        "roles": 0
+      },
+      "targetLayer": "organization_registry_source",
+      "targetRegistries": [
+        "organizations"
+      ],
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/organizations/run118-institution-registry.json",
+      "gitBlobSha": "cc86f2fe98b86a797843f7cbf7857dec96dde769",
+      "sha256": "c67d5813fa8b1de2a9a30c27981f2524d143c4064e49a6491b6a2df64ccdeb90",
+      "bytes": 2095,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 7,
+        "roles": 0
+      },
+      "targetLayer": "organization_registry_source",
+      "targetRegistries": [
+        "organizations"
+      ],
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/organizations/run119-governance.json",
+      "gitBlobSha": "27495b9fac1735b13cef957f9f8098fdaf3911d1",
+      "sha256": "3599107e848dc6117a6639bcc4e75f23a590a8bba6c06790865e42d76204cd09",
+      "bytes": 722,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 5,
+        "roles": 0
+      },
+      "targetLayer": "organization_registry_source",
+      "targetRegistries": [
+        "organizations"
+      ],
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/organizations/run120-june1950-institutional-actors.json",
+      "gitBlobSha": "2adc88b88da6df6bc5684e13abbf64a52a4f362f",
+      "sha256": "26cc695c6ef320f147bc872c49814fb0daee85328132539478d7d21586c196f0",
+      "bytes": 2992,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 6,
+        "roles": 0
+      },
+      "targetLayer": "organization_registry_source",
+      "targetRegistries": [
+        "organizations"
+      ],
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/organizations/run124-1951-party-organizations.json",
+      "gitBlobSha": "462243898b8461f2ab709fa355fdc7e1b156d19d",
+      "sha256": "79d92ea342bfe3708000359e6f6818486e961b3f61834452f379e97e3f21c610",
+      "bytes": 772,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 3,
+        "roles": 0
+      },
+      "targetLayer": "organization_registry_source",
+      "targetRegistries": [
+        "organizations"
+      ],
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/organizations/run125-local-election.json",
+      "gitBlobSha": "777cc7ab6a984a4808ce661af3174314e7dd9073",
+      "sha256": "2c72eb3029d851a606d328871c011a31b1dd80f09b97f091df368ed8256af997",
+      "bytes": 245,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 1,
+        "roles": 0
+      },
+      "targetLayer": "organization_registry_source",
+      "targetRegistries": [
+        "organizations"
+      ],
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/organizations/run125c-economic-agreement.json",
+      "gitBlobSha": "64019918965a7897e2d7f384218340966f91e7f5",
+      "sha256": "3f38a139ce59f3491415150bc3939407fd49092de2e78cfc6e6dc5784087098f",
+      "bytes": 1050,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 4,
+        "roles": 0
+      },
+      "targetLayer": "organization_registry_source",
+      "targetRegistries": [
+        "organizations"
+      ],
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/organizations/run125d-defense-ministry.json",
+      "gitBlobSha": "aed2b21059258f88498ae985a57a53ac780f76c2",
+      "sha256": "dd45706aeb1697a43c5def9876ee26b40d8c5d48006c1d4fb4d966fffbe83b41",
+      "bytes": 204,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 1,
+        "roles": 0
+      },
+      "targetLayer": "organization_registry_source",
+      "targetRegistries": [
+        "organizations"
+      ],
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/organizations/run125e-welfare-land.json",
+      "gitBlobSha": "a127f19a27dd6b832bb14c22537219a79e80019a",
+      "sha256": "fbad52cc056ee8de4e8c503cb071143c708a026e22cab859dc05a911f9106c84",
+      "bytes": 558,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 3,
+        "roles": 0
+      },
+      "targetLayer": "organization_registry_source",
+      "targetRegistries": [
+        "organizations"
+      ],
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/organizations/run125f-education.json",
+      "gitBlobSha": "b0898abd11d24984819218276fd3b788194c0aeb",
+      "sha256": "a28421206bc127f338ec432d5431ff73381d0b3b07d45371cd5a63c7593dbf42",
+      "bytes": 209,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 1,
+        "roles": 0
+      },
+      "targetLayer": "organization_registry_source",
+      "targetRegistries": [
+        "organizations"
+      ],
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/organizations/run125g-government-umbrella.json",
+      "gitBlobSha": "127760f55efa96e0a9c645b8c729cd10a366f934",
+      "sha256": "dde5171f23927b37013292a4496ef1dc9a1691a2ee5e1458c8d27e3661c11081",
+      "bytes": 489,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 1,
+        "roles": 0
+      },
+      "targetLayer": "organization_registry_source",
+      "targetRegistries": [
+        "organizations"
+      ],
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/organizations/run126-crosslink-reconciliation.json",
+      "gitBlobSha": "a146bd820a3cf832c63f964ad8269325502d6380",
+      "sha256": "9b0528bac448e73466aae1461a3f82ad3f2983f4d0145e55c2dba0ccf77fd6ba",
+      "bytes": 1305,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 6,
+        "roles": 0
+      },
+      "targetLayer": "organization_registry_source",
+      "targetRegistries": [
+        "organizations"
+      ],
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/organizations/run126-labor.json",
+      "gitBlobSha": "bf9caf0a806b68177e0e3fde4af153ac404ac548",
+      "sha256": "57466d70319b3707468af047435e5c65d18d4e8afde51dead66d93a39c4bb2cb",
+      "bytes": 697,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 3,
+        "roles": 0
+      },
+      "targetLayer": "organization_registry_source",
+      "targetRegistries": [
+        "organizations"
+      ],
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/organizations/run126-may29-31-breadth.json",
+      "gitBlobSha": "690735cb11f67e99b2d1c313ce04774689c45957",
+      "sha256": "ab176190fff589e1b7e8fa303cab054a8745e54c3d02236d391fe91f7c6e8e4b",
+      "bytes": 1467,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 8,
+        "roles": 0
+      },
+      "targetLayer": "organization_registry_source",
+      "targetRegistries": [
+        "organizations"
+      ],
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/organizations/run126e-ministry-quorum.json",
+      "gitBlobSha": "ded807733be1c6ce132a3e3e96fb75ca1ce1ee06",
+      "sha256": "0883279a20104b58f9a20f7b38611a8a05b2f2981978961c356a7feac57f1eff",
+      "bytes": 386,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 2,
+        "roles": 0
+      },
+      "targetLayer": "organization_registry_source",
+      "targetRegistries": [
+        "organizations"
+      ],
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/organizations/run137-organizations.json",
+      "gitBlobSha": "ecc02845a9f99362bc5074eec86a34863bd67f76",
+      "sha256": "f0d96ec041eb30fc082bb793391f83b223c9797f3a3f418a3783d55742d08a51",
+      "bytes": 981,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 2,
+        "roles": 0
+      },
+      "targetLayer": "organization_registry_source",
+      "targetRegistries": [
+        "organizations"
+      ],
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/organizations/run139-wartime-civilian-organizations.json",
+      "gitBlobSha": "d9ba148e9fdecd9a814060cc41b9c462e32e4299",
+      "sha256": "ab182ebd8f9d71377ecf0fe781fccba72cfaae779784c5dc94694768cf94f5a3",
+      "bytes": 618,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 3,
+        "roles": 0
+      },
+      "targetLayer": "organization_registry_source",
+      "targetRegistries": [
+        "organizations"
+      ],
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/organizations/run142-policy-network.json",
+      "gitBlobSha": "fa0fac6cc5a5a84ae47c63d6e3a76862cc446c4d",
+      "sha256": "b207c4d560a6523d38071e6fa5b99973ec0523da98569ee7ac708be3225e4d1d",
+      "bytes": 1819,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 6,
+        "roles": 0
+      },
+      "targetLayer": "organization_registry_source",
+      "targetRegistries": [
+        "organizations"
+      ],
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/organizations/run146-assembly.json",
+      "gitBlobSha": "feb445a46e0a39201377376beeb1354e8cc278b7",
+      "sha256": "fff722e092c54964ceda88b670ed7bd7853e64bd13923673d475f813d1c892b9",
+      "bytes": 380,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 1,
+        "roles": 0
+      },
+      "targetLayer": "organization_registry_source",
+      "targetRegistries": [
+        "organizations"
+      ],
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/organizations/run148-institutions.json",
+      "gitBlobSha": "92d01b8a4cca4e43a701b26a298de2eab519c89f",
+      "sha256": "d6b9ca0497e381a1bf00ff6a26031b8a81181d3a2fe297229a49c83fad42a0eb",
+      "bytes": 2870,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 9,
+        "roles": 0
+      },
+      "targetLayer": "organization_registry_source",
+      "targetRegistries": [
+        "organizations"
+      ],
+      "sourceStatus": "CONFLICT_REVIEW_REQUIRED",
+      "status": "BLOCKED_ID_CONFLICT",
+      "conflicts": [
+        {
+          "kind": "organizations",
+          "id": "org-unkra",
+          "variantCount": 2,
+          "mergeReview": {
+            "status": "BLOCKED",
+            "reason": "NO_COMMON_ORGANIZATION_NAME"
+          }
+        }
+      ],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/organizations/run150-democratic-party-lineage.json",
+      "gitBlobSha": "2bd35766b4d5faf72f6dd6a7507f925a6c832a66",
+      "sha256": "82100ef5661bdc8a7d727547b5b5aad98ddbc517567265767b1cc716b0db5420",
+      "bytes": 2074,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 2,
+        "roles": 0
+      },
+      "targetLayer": "organization_registry_source",
+      "targetRegistries": [
+        "organizations"
+      ],
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/organizations/run150-seoul-council.json",
+      "gitBlobSha": "e59c23197b123b005061baa670cdbd2ee9c3c285",
+      "sha256": "3eecb9658bf53f5d36e7846e7baf9a7d4c586dac71a7710c3a5054b15b41ee00",
+      "bytes": 892,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 1,
+        "roles": 0
+      },
+      "targetLayer": "organization_registry_source",
+      "targetRegistries": [
+        "organizations"
+      ],
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/organizations/run160-1961-institutions.json",
+      "gitBlobSha": "1b8b34de07a5aafc952ced0ae976759768726659",
+      "sha256": "854676eb7e372af3098028c06a0557497170899bc40d38090c2e49682d9d78c2",
+      "bytes": 9985,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 14,
+        "roles": 0
+      },
+      "targetLayer": "organization_registry_source",
+      "targetRegistries": [
+        "organizations"
+      ],
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/organizations/run161-constitutional-institutions.json",
+      "gitBlobSha": "0a0a3f352cba753e26b0c7aca49a3440256dfe43",
+      "sha256": "06714afcd4af637e4649cb987b71565d4b1aa9d121b6cd44989beb7ba487b1f5",
+      "bytes": 1297,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 2,
+        "roles": 0
+      },
+      "targetLayer": "organization_registry_source",
+      "targetRegistries": [
+        "organizations"
+      ],
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/organizations/run166-un-military-pyongyang.json",
+      "gitBlobSha": "7b30f317bf09ffc9306c58b58da48eb4df926138",
+      "sha256": "031bd37ea596cbde9f95a61e918c678396ea7219adf572f846d7eec68d291e4f",
+      "bytes": 1504,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 2,
+        "roles": 0
+      },
+      "targetLayer": "organization_registry_source",
+      "targetRegistries": [
+        "organizations"
+      ],
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/organizations/run178-health-administration.json",
+      "gitBlobSha": "9df8465505c679c1e2d92577263dc1d797788f47",
+      "sha256": "c19c9130cdce24a555687cc3d70aeb7baa70b7ab92e2983368a1d9fe95894965",
+      "bytes": 1352,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 3,
+        "roles": 0
+      },
+      "targetLayer": "organization_registry_source",
+      "targetRegistries": [
+        "organizations"
+      ],
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/organizations/run179d-1949-peacetime-organizations.json",
+      "gitBlobSha": "a7aa5b9d6002275d96c93cdc22180ced131a6121",
+      "sha256": "12eea742f78aeefc9a6bb1b9a09c5191018db945de9b2a6d260463506b204420",
+      "bytes": 781,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 3,
+        "roles": 0
+      },
+      "targetLayer": "organization_registry_source",
+      "targetRegistries": [
+        "organizations"
+      ],
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/organizations/run184-1949-june06-institutional-nodes.json",
+      "gitBlobSha": "3ffb08f060d91cc8cdb96c9ef88e9d72681a6157",
+      "sha256": "5fd5eec5e6a316022f237ec2f63d1c100756a3a8efd07e404b40b52951bdbcc8",
+      "bytes": 2810,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 3,
+        "roles": 0
+      },
+      "targetLayer": "organization_registry_source",
+      "targetRegistries": [
+        "organizations"
+      ],
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/organizations/run198-october-institutions.json",
+      "gitBlobSha": "c0bcd158ce485c1d9065c65fd735074bd68a0c20",
+      "sha256": "967bceba8b885fa07bc957e79ffa35705167addcaa4f6577a3be5696edcddca3",
+      "bytes": 2408,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 9,
+        "roles": 0
+      },
+      "targetLayer": "organization_registry_source",
+      "targetRegistries": [
+        "organizations"
+      ],
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/organizations/run204c-local-state-orgs.json",
+      "gitBlobSha": "c560104af9047d2c12b68f6bdaa4ed19bb8fc7ce",
+      "sha256": "f5adf7de58bd7da5fea50cfbfe19508653c406207bfb27dbabc67cdc9e4feb11",
+      "bytes": 868,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 2,
+        "roles": 0
+      },
+      "targetLayer": "organization_registry_source",
+      "targetRegistries": [
+        "organizations"
+      ],
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/organizations/run212-august-organization-candidates.json",
+      "gitBlobSha": "834b721f79c54f1cf4e55462e075491680f66b36",
+      "sha256": "e8e5c246fc7b3bd3cf782d6fc92c3e605fb11dbe1079485af9175ba0e6dccdf4",
+      "bytes": 2087,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 7,
+        "roles": 0
+      },
+      "targetLayer": "organization_registry_source",
+      "targetRegistries": [
+        "organizations"
+      ],
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/organizations/run213-aug25-31-organizations.json",
+      "gitBlobSha": "2c460249eb87105b1c5aa8095d18c64ed28ab2d7",
+      "sha256": "2ac960154d19d133f7290f17c8f8acd47de2fdc0bf0a53c09ab86d2f64bfa10d",
+      "bytes": 3525,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 10,
+        "roles": 0
+      },
+      "targetLayer": "organization_registry_source",
+      "targetRegistries": [
+        "organizations"
+      ],
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/organizations/run213-organization-nodes.json",
+      "gitBlobSha": "8a27364c7bf303a0ec42465bc327ecedfcd923b4",
+      "sha256": "3f0c873b6ee5034129c0535bfbe80bcd8c454c28bb4b9cc505367abcbf91ca84",
+      "bytes": 12589,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 29,
+        "roles": 0
+      },
+      "targetLayer": "organization_registry_source",
+      "targetRegistries": [
+        "organizations"
+      ],
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/organizations/run218-korea-japan-diplomatic.json",
+      "gitBlobSha": "885092ed72f71aa51d2fd1ad0c60b7fa923910dd",
+      "sha256": "ea936cc473a7afa6bc254d3993efa654763ceab7d47bb19f85f621649c44f46a",
+      "bytes": 1964,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 6,
+        "roles": 0
+      },
+      "targetLayer": "organization_registry_source",
+      "targetRegistries": [
+        "organizations"
+      ],
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/organizations/run224-1952-institutions.json",
+      "gitBlobSha": "a9285bd44f1d1af5d28b9e89f05c079997b9fc90",
+      "sha256": "a69785cb203712cf02c94e037c9b343fe769741b26bcdf83727cedc1a2344cdd",
+      "bytes": 3195,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 7,
+        "roles": 0
+      },
+      "targetLayer": "organization_registry_source",
+      "targetRegistries": [
+        "organizations"
+      ],
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
       "conflicts": [],
       "unintegratedReason": null
     },
     {
       "path": "data/organizations/run225-institutions.json",
-      "sha": "c94b1fd8979e061530540786ca0c544ff31c8e80",
+      "gitBlobSha": "c94b1fd8979e061530540786ca0c544ff31c8e80",
       "sha256": "012ab956a276ea0d756e088a6dd67e74fef7222f2b4c718ba7e734749a810ba0",
-      "size": 2030,
-      "registryState": "INDEXED_NOT_CANONICAL_VERIFIED",
-      "targetLayer": "organization_registry_source",
-      "targetRegistries": [
-        "organizations"
-      ],
+      "bytes": 2030,
       "recordCounts": {
         "documents": 0,
         "claims": 0,
         "events": 0,
         "politicians": 0,
-        "organizations": 8
+        "organizations": 8,
+        "roles": 0
       },
+      "targetLayer": "organization_registry_source",
+      "targetRegistries": [
+        "organizations"
+      ],
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
       "conflicts": [],
       "unintegratedReason": null
     },
     {
       "path": "data/organizations/run81-land-admin.json",
-      "sha": "a5c992c06796570d9414eb033c8615c5521d8209",
+      "gitBlobSha": "a5c992c06796570d9414eb033c8615c5521d8209",
       "sha256": "3881b381e08ee9eb37c146e1a7746fbefcff838f56b05504032f9fd655e4e2fb",
-      "size": 1585,
-      "registryState": "INDEXED_NOT_CANONICAL_VERIFIED",
-      "targetLayer": "organization_registry_source",
-      "targetRegistries": [
-        "organizations"
-      ],
+      "bytes": 1585,
       "recordCounts": {
         "documents": 0,
         "claims": 0,
         "events": 0,
         "politicians": 0,
-        "organizations": 5
+        "organizations": 5,
+        "roles": 0
       },
+      "targetLayer": "organization_registry_source",
+      "targetRegistries": [
+        "organizations"
+      ],
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/organizations/run92-state-organizations.json",
+      "gitBlobSha": "ababa1c92dbe5572e1c0724bb477d3eec6b8e22f",
+      "sha256": "ec9e7e31f8b6f854f0e4e4c3a300e0a8c323c41262848e0808403f80e3b2426a",
+      "bytes": 2225,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 9,
+        "roles": 0
+      },
+      "targetLayer": "organization_registry_source",
+      "targetRegistries": [
+        "organizations"
+      ],
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
+      "path": "data/organizations/run96-un-nsc.json",
+      "gitBlobSha": "9800ca8bcbddb2b04d85fb2a4552d4b73dd1f400",
+      "sha256": "61a42377640e1153df432c11e90d8152505de88f63a0b073772e22932fee818d",
+      "bytes": 1076,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 3,
+        "roles": 0
+      },
+      "targetLayer": "organization_registry_source",
+      "targetRegistries": [
+        "organizations"
+      ],
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
       "conflicts": [],
       "unintegratedReason": null
     }

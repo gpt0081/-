@@ -1,30 +1,32 @@
 {
   "schemaVersion": 2,
-  "sourceTreeSha": "58ea5d18e1b142a631127a25d7d59cf93e5750d8",
-  "sourceSnapshotCommit": "e2d528b73bed55037ffbb525a623c11ffc98049b",
-  "group": "data/events.json",
-  "count": 1,
+  "group": "data-events.json.json",
+  "sourceSnapshotCommit": "0ec4d08748213b231310076d3933bb1e40810177",
+  "sourceTreeSha": "20a15a95a0c107cf8c72c04cc286d54eb6d16373",
+  "fileCount": 1,
   "statusCounts": {
     "OPERATIONAL_ROOT_PRESERVED": 1
   },
   "files": [
     {
       "path": "data/events.json",
-      "sha": "bbdf81fdcc9a8575ba13dec41a3e2627a86c5990",
-      "sha256": "8d845b8fb9a98d35ad8ab868ffc83aad570027ea7f80122defd2459153a83f48",
-      "size": 3287372,
-      "registryState": "OPERATIONAL_ROOT_PRESERVED",
-      "targetLayer": "operational_root",
-      "targetRegistries": [
-        "events"
-      ],
+      "gitBlobSha": "31bda9fd32fd91c63ee4db74fc86c5877cc2aa78",
+      "sha256": "286c36c89438154f9057054e6ea76acc63cc013d427d3af14d479d21854a6ac7",
+      "bytes": 7941931,
       "recordCounts": {
         "documents": 0,
         "claims": 0,
         "events": 0,
         "politicians": 0,
-        "organizations": 0
+        "organizations": 0,
+        "roles": 0
       },
+      "targetLayer": "operational_root",
+      "targetRegistries": [
+        "events"
+      ],
+      "sourceStatus": "OPERATIONAL_ROOT_PRESERVED",
+      "status": "OPERATIONAL_ROOT_PRESERVED",
       "conflicts": [],
       "unintegratedReason": null
     }

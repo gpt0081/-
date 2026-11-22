@@ -1,31 +1,33 @@
 {
   "schemaVersion": 2,
-  "sourceTreeSha": "58ea5d18e1b142a631127a25d7d59cf93e5750d8",
-  "sourceSnapshotCommit": "e2d528b73bed55037ffbb525a623c11ffc98049b",
-  "group": "data/presidents.json",
-  "count": 1,
+  "group": "data-presidents.json.json",
+  "sourceSnapshotCommit": "0ec4d08748213b231310076d3933bb1e40810177",
+  "sourceTreeSha": "20a15a95a0c107cf8c72c04cc286d54eb6d16373",
+  "fileCount": 1,
   "statusCounts": {
     "PRESIDENTIAL_BACKBONE_PRESERVED": 1
   },
   "files": [
     {
       "path": "data/presidents.json",
-      "sha": "c76cfa3d464d9637037e30dec47a148db0821bde",
+      "gitBlobSha": "c76cfa3d464d9637037e30dec47a148db0821bde",
       "sha256": "620031cd37445af3b2faa8d8f939a50b7294213c540cf6003e10e623fc1c4e9d",
-      "size": 2059,
-      "registryState": "PRESIDENTIAL_BACKBONE_PRESERVED",
-      "targetLayer": "presidential_backbone",
-      "targetRegistries": [
-        "presidents",
-        "politicians"
-      ],
+      "bytes": 2059,
       "recordCounts": {
         "documents": 0,
         "claims": 0,
         "events": 0,
         "politicians": 0,
-        "organizations": 0
+        "organizations": 0,
+        "roles": 0
       },
+      "targetLayer": "presidential_backbone",
+      "targetRegistries": [
+        "presidents",
+        "politicians"
+      ],
+      "sourceStatus": "PRESIDENTIAL_BACKBONE_PRESERVED",
+      "status": "PRESIDENTIAL_BACKBONE_PRESERVED",
       "conflicts": [],
       "unintegratedReason": null
     }
