@@ -62,3 +62,22 @@ Floot was not modified or built.
 
 - The stacked PR #74 branch snapshot contains 453 politician records. Compared with the 976-record main root, only 81 IDs are shared; 372 branch IDs are absent from main, while main has 895 IDs absent from the older branch snapshot.
 - The 372 branch-only IDs are not automatically identity-merged or promoted. They are queued for additive import with original candidate status, source pointer, branch commit and blob SHA preserved. Shared-ID field differences remain variants.
+
+
+## Run331 refreshed central integration audit (2026-11-22)
+
+This section supersedes the earlier 2,274-file snapshots above. The current main audit commit is `6d9c07c8653a11a56bc7e09d97e25b5aa648ee25`; the workflow regenerated the full inventory after the Run331 source corrections.
+
+- Source inventory: **5184** data files outside `data/integration/`; 28 non-data files. The Run331 report and ledger added in the following commit will raise the source-data count by two and require one more inventory refresh.
+- Per-file status: {"AUXILIARY_JSON_INDEXED":1584,"CANONICAL_MATERIALIZED":1754,"CONFLICT_REVIEW_REQUIRED":513,"NON_JSON_SOURCE_PRESERVED":1315,"OPERATIONAL_ROOT_PRESERVED":2,"PARTIAL_CANONICAL_MATERIALIZED":15,"PRESIDENTIAL_BACKBONE_PRESERVED":1}.
+- Canonical materialized rows: documents 11683, claims 4983, events 6205, politicians 1569, organizations 263, roles 65.
+- Source records/unique IDs: documents 11942/11800; claims 5033/5005; events 6359/6275; politicians 4478/2266; organizations 287/270; roles 69/67.
+- Conflicts: 915 IDs (documents 117, claims 22, events 70, politicians 697, organizations 7, roles 2). Parse errors: 0.
+- Unintegrated sources: 1599; auxiliary records: 2244; partial sources: 15.
+- Root sync: events 6334/6205, 0 missing and 0 duplicate IDs, 11 unresolved field conflicts; politicians 1807/1321, 0 missing and 0 duplicate IDs, 35 unresolved field conflicts.
+- Operational sidecars: 1405 files across {"annals":426,"coverage":72,"evidence":192,"history_debt":164,"lead_queue":551}; 518 explicitly linked, 887 with no explicit identity. The unlinked set is retained, not discarded.
+- Structural audit: 300 integrity issues, 292 reference issues, 0 crosswalk gaps. Politician-reference audit on the prior snapshot: 1,807 checked, zero duplicate IDs, missing file references, evidence-owner mismatches or missing research refs.
+- PR #73/#74: all 34 changed paths are present. The PR #74 snapshot has 453/453 IDs present in main (0 branch-only, 1,354 main-only); 453 shared records still have field variants. PR #72 remains open; no whole-branch merge.
+- History debt: last completed full review is **2026-10-04**. The 2026-11-22 first attempt is **INCOMPLETE**; it was not repeated. Next full review: 2026-11-29.
+- Current result: **FULL_INTEGRATION_INCOMPLETE / CENTRAL_SYNC_PARTIAL**. Canonical presence and zero missing root IDs do not resolve source conflicts, auxiliary mappings, unlinked sidecars or field variants.
+- Floot was not modified or built.

@@ -1,11 +1,11 @@
 {
   "schemaVersion": 2,
   "createdAt": "2026-11-22",
-  "sourceSnapshotCommit": "e2d528b73bed55037ffbb525a623c11ffc98049b",
-  "sourceTreeSha": "58ea5d18e1b142a631127a25d7d59cf93e5750d8",
-  "sourceFilesTotal": 2295,
-  "sourceDataFiles": 2274,
-  "nonDataFiles": 21,
+  "sourceSnapshotCommit": "6d9c07c8653a11a56bc7e09d97e25b5aa648ee25",
+  "sourceTreeSha": "538da02aa1aba0ad29cfa630b7361d2703c27881",
+  "sourceFilesTotal": 5214,
+  "sourceDataFiles": 5186,
+  "nonDataFiles": 28,
   "inventoryGroups": [
     {
       "path": "data/integration/inventory/data-annals.json",
@@ -54,39 +54,38 @@
   ],
   "currentPerFileInventory": {
     "path": "data/integration/generated/source-triage.json",
-    "blobSha": "0050e000a7f504dad06b23d1af968a037d96361e",
-    "sourceFiles": 2274,
-    "statusCounts": {
-      "BLOCKED_ID_CONFLICT": 341,
-      "INDEXED_NOT_CANONICAL_VERIFIED": 597,
-      "NON_JSON_PRESERVED": 777,
-      "UNMAPPED_AUXILIARY_OR_PARTIAL": 556,
-      "OPERATIONAL_ROOT_PRESERVED": 2,
-      "PRESIDENTIAL_BACKBONE_PRESERVED": 1
-    }
+    "blobSha": "afa0e4a251356b27e70d5c0147cd08fbbc531564",
+    "sourceFiles": 5184,
+    "status": "CURRENT_AT_AUDIT_COMMIT; PENDING_REFRESH_AFTER_RUN331_REPORT_AND_LEDGER",
+    "expectedSourceFilesAfterCommit": 5186,
+    "note": "The per-file triage covers 5,184 source files at the audit commit. This run adds two research run files; the next integration workflow must regenerate the triage and source inventory."
   },
   "semanticIntegrationStatus": "FULL_INTEGRATION_INCOMPLETE",
   "centralSync": "PARTIAL",
-  "migrationRule": "All 2,274 data source files outside data/integration are inventoried by current per-file triage and per-group inventories. Source conflicts and auxiliary files are preserved; no automatic identity merge or silent overwrite.",
+  "migrationRule": "All source files outside data/integration are inventoried. Conflicts and auxiliary layers remain preserved; no automatic identity merge or silent overwrite. Operational roots are synchronized additively only when unambiguous.",
   "priority": [
-    "Resolve 584 conflicting source IDs with source-aware comparison and correction history",
-    "Resolve 16 event and 110 politician operational-root field variants without discarding either source",
-    "Map 563 unintegrated sources and 310 unlinked operational-layer files using explicit stable IDs",
-    "Validate all document/claim/event/politician/organization references and provenance independence",
-    "Keep PR path presence, PR merge state and semantic integration as separate audit dimensions"
+    "Adjudicate the 915 source-level conflicting IDs against original documents and provenance; retain alternatives until field-level evidence resolves them.",
+    "Resolve 35 politician-root and 11 event-root field conflicts with dated source comparison and correction history.",
+    "Map the 887 unlinked operational sidecars (annals 222, evidence 19, coverage 19, history debt 136, lead queues 491) using explicit stable IDs or documented no-identity reasons.",
+    "Reduce 1,599 unintegrated sources and 2,243 auxiliary records by explicit schema mapping; preserve non-JSON and specialized layers.",
+    "Validate canonical document/claim/event/politician/organization/role references and provenance independence after each migration batch.",
+    "Review PR #74's 453 shared politician records field-by-field; all branch IDs are present, but shared variants remain."
   ],
   "lastAudit": {
     "date": "2026-11-22",
-    "workflowRun": "https://github.com/gpt0081/-/actions/runs/44951310615",
-    "sourceFiles": 2274,
-    "conflictedIds": 584,
-    "exactDuplicateIds": 11,
-    "unintegratedSources": 563,
-    "auxiliaryRecords": 677,
-    "partialSources": 11,
+    "auditCommit": "6d9c07c8653a11a56bc7e09d97e25b5aa648ee25",
+    "sourceFiles": 5184,
+    "conflictedIds": 915,
+    "exactDuplicateIds": 75,
+    "auxiliaryRecords": 2244,
+    "unintegratedSources": 1599,
+    "partialSources": 15,
+    "integrityIssues": 300,
+    "referenceIssueCount": 292,
+    "crosswalkGaps": 0,
     "centralSync": "PARTIAL",
-    "workflowRunNumber": 90,
-    "workflowConclusion": "failure_at_explicit_completeness_gate"
+    "workflowCommit": "6d9c07c8653a11a56bc7e09d97e25b5aa648ee25",
+    "workflowConclusion": "generated integration artifacts refreshed on main; explicit completeness gate remains partial"
   },
-  "note": "Per-group inventory files refreshed from the e2d528b main snapshot. source-triage.json is the per-file status authority; registry presence is not proof of historical truth."
+  "note": "source-triage.json is the per-file status authority. Its 5,184-file snapshot is current at the audit commit; the Run331 report and ledger added by the following commit require one further inventory refresh. Registry presence is not proof of historical truth."
 }

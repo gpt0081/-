@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-22T06:09:18+09:00",
+  "updatedAt": "2026-11-22T09:20:49+09:00",
   "activeBranch": "main",
   "branchHead": "moving-ref:refs/heads/main",
-  "baseMain": "37d7f001e9939ecd02dfcbbf8747694343699290",
-  "status": "RUN330_CENTRAL_INTEGRATION_PARTIAL",
-  "summary": "Run330 refreshed a 2,274-file source inventory and per-group inventories. Canonical source conflicts 584; unintegrated 563; auxiliary 677; exact duplicate IDs 11. Central root sync PARTIAL: 16 event and 110 politician field variants, no missing or duplicate root IDs. Operational links 202/310. PR #73/#74 changed paths 34/34 present on main; PR #72 remains open with 29/29 paths present. Floot untouched.",
-  "nextAction": "Run331: resolve high-priority document conflicts against original FRUS, NIKH, Gazette and National Assembly sources. Preserve both sides of unresolved identity/status/actor-attribution conflicts. Continue reducing 563 unintegrated sources and 310 unlinked operational files.",
+  "baseMain": "6d9c07c8653a11a56bc7e09d97e25b5aa648ee25",
+  "status": "RUN331_CENTRAL_INTEGRATION_PARTIAL",
+  "summary": "Run331 corrected two PR #74 attribution errors and reconciled the weekly-review date. The post-correction integration workflow audited 5184 source files: 915 conflicted IDs, 1599 unintegrated sources, 2244 auxiliary records. Canonical materialized rows: {\"documents\":11683,\"claims\":4983,\"events\":6205,\"politicians\":1569,\"organizations\":263,\"roles\":65}. Root sync remains PARTIAL with 11 event and 35 politician field conflicts; operational sidecars 518/1405 linked. PR74 snapshot: 453/453 IDs present, 453 shared-field variants remain.",
+  "nextAction": "Run332: finish the source inventory refresh after this run report/ledger commit; adjudicate the highest-priority document/claim/event/politician ID conflicts against original Korean records and FRUS; map the 887 unlinked operational sidecars with explicit IDs or documented no-identity reasons; resolve the 11 event and 35 politician root-field variants; keep CENTRAL_SYNC_PARTIAL until structural and reference audits pass.",
   "mainDataModified": true,
-  "latestRun": "data/research/runs/2026-11-22-run330-integration-report.md",
+  "latestRun": "data/research/runs/2026-11-22-run331-integration-report.md",
   "latestCorrections": [
     {
       "run": 93,
@@ -70,6 +70,16 @@
       "run": 246,
       "topic": "1960 minister Hanja",
       "finding": "吳楨洙 5/11·6/23 vs 吳植洙 7/1 CONFLICTED"
+    },
+    {
+      "run": 331,
+      "topic": "PR74 review corrections",
+      "finding": "FRUS d163 removed from support for the claim of unanimous cabinet support; Seo Min-ho removed from the 1952-07-07 arrest-report event while his separate cabinet-command-chain link remains."
+    },
+    {
+      "run": 331,
+      "topic": "Weekly history-debt review date reconciliation",
+      "finding": "The 2026-10-04 full-review report is the latest completed review; the 2026-11-22 first attempt is INCOMPLETE and was not repeated."
     }
   ],
   "parallelPendingReview": {
@@ -80,7 +90,7 @@
     "latestRun": 97
   },
   "mainRef": "refs/heads/main",
-  "latestVerifiedMainCommit": "8865f86235aa81db4129894cd17fe67ce8cf4a23",
+  "latestVerifiedMainCommit": "6d9c07c8653a11a56bc7e09d97e25b5aa648ee25",
   "pass231Files": {
     "documents": "data/documents/pass-231-1952-june-july-diplomacy-election.json",
     "events": "data/events/pass-231-1952-constitutional-election-pow.json",
@@ -763,5 +773,7 @@
       "politicianRoot": "PR #74 snapshot comparison: 453 branch records, 81 shared IDs, 372 branch-only IDs, 895 main-only IDs. Branch-only records are imported as pending-adjudication candidates; shared fields are not overwritten."
     },
     "flootModified": false
-  }
+  },
+  "latestLedger": "data/research/runs/2026-11-22-run331-ledger.json",
+  "latestIntegrationQueue": "data/integration/next-integration-leads-2026-11-22.json"
 }

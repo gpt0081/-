@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 1,
+  "run": 331,
+  "recordedAt": "2026-11-22",
+  "mode": "CENTRAL_INTEGRATION_FIRST",
+  "baselineAuditCommit": "6d9c07c8653a11a56bc7e09d97e25b5aa648ee25",
+  "correctionCommit": "6fb00322b448df868b94b55bf45553753b60490f",
+  "sourceInventory": {
+    "auditedFiles": 5184,
+    "sourceDataFilesAtCurrentTree": 5184,
+    "sourceDataFilesAfterRunReportAndLedger": 5186,
+    "nonDataFiles": 28,
+    "parseErrors": 0,
+    "statusCounts": {
+      "AUXILIARY_JSON_INDEXED": 1584,
+      "CANONICAL_MATERIALIZED": 1754,
+      "CONFLICT_REVIEW_REQUIRED": 513,
+      "NON_JSON_SOURCE_PRESERVED": 1315,
+      "OPERATIONAL_ROOT_PRESERVED": 2,
+      "PARTIAL_CANONICAL_MATERIALIZED": 15,
+      "PRESIDENTIAL_BACKBONE_PRESERVED": 1
+    }
+  },
+  "canonicalMaterialized": {
+    "documents": 11683,
+    "claims": 4983,
+    "events": 6205,
+    "politicians": 1569,
+    "organizations": 263,
+    "roles": 65
+  },
+  "sourceTotals": {
+    "documents": {
+      "sourceRecords": 11942,
+      "uniqueIds": 11800,
+      "conflictedIds": 117
+    },
+    "claims": {
+      "sourceRecords": 5033,
+      "uniqueIds": 5005,
+      "conflictedIds": 22
+    },
+    "events": {
+      "sourceRecords": 6359,
+      "uniqueIds": 6275,
+      "conflictedIds": 70
+    },
+    "politicians": {
+      "sourceRecords": 4478,
+      "uniqueIds": 2266,
+      "conflictedIds": 697
+    },
+    "organizations": {
+      "sourceRecords": 287,
+      "uniqueIds": 270,
+      "conflictedIds": 7
+    },
+    "roles": {
+      "sourceRecords": 69,
+      "uniqueIds": 67,
+      "conflictedIds": 2
+    }
+  },
+  "conflictIds": 915,
+  "unintegratedSources": 1599,
+  "auxiliaryRecords": 2244,
+  "partialSources": 15,
+  "rootSync": {
+    "status": "PARTIAL",
+    "events": {
+      "root": 6334,
+      "canonical": 6205,
+      "missing": 0,
+      "duplicates": 0,
+      "fieldConflicts": 11
+    },
+    "politicians": {
+      "root": 1807,
+      "canonical": 1321,
+      "missing": 0,
+      "duplicates": 0,
+      "fieldConflicts": 35
+    }
+  },
+  "operationalLayers": {
+    "total": 1405,
+    "linked": 518,
+    "unlinked": 887,
+    "layerCounts": {
+      "annals": 426,
+      "coverage": 72,
+      "evidence": 192,
+      "history_debt": 164,
+      "lead_queue": 551
+    }
+  },
+  "integrityAudit": {
+    "issues": 300,
+    "references": 292,
+    "gaps": 0
+  },
+  "pr73pr74": {
+    "changedPathsPresent": 34,
+    "pr73IdenticalPaths": 11,
+    "pr73ChangedVariants": 7,
+    "pr74IdenticalPaths": 12,
+    "pr74ChangedVariants": 4,
+    "pr74Snapshot": {
+      "branchRecords": 453,
+      "mainRecords": 1807,
+      "sharedIds": 453,
+      "branchOnlyIds": 0,
+      "mainOnlyIds": 1354,
+      "changedRecords": 453
+    },
+    "pr72": "OPEN; no wholesale merge"
+  },
+  "correctionsApplied": [
+    "claim-r225-cabinet-unanimous-dissolution: doc-r225-frus-163 moved from supporting to contradicting evidence",
+    "evt-r225-july-arrest-report: pol-r164-seo-min-ho removed from event actor IDs; separate cabinet-command-chain event retained"
+  ],
+  "historyDebtWeeklyReview": {
+    "lastCompletedFullReview": "2026-10-04",
+    "lastFullReviewAttempt": "2026-11-22",
+    "attemptStatus": "INCOMPLETE",
+    "repeatedThisRun": false,
+    "nextScheduled": "2026-11-29"
+  },
+  "researchThresholds": {
+    "independentResearchLines": 0,
+    "generalPolicyDomainsExpanded": 0,
+    "newHistoricalDocumentsOpened": 0,
+    "nonPresidentialPoliticiansNewlyResearched": 0,
+    "eventsNewlyResearched": 0,
+    "note": "This was an integration-first recovery and correction run, not a new historical source-mining run. No threshold was falsely claimed."
+  },
+  "integrationStatus": "FULL_INTEGRATION_INCOMPLETE",
+  "centralSync": "PARTIAL",
+  "nextQueue": "data/integration/next-integration-leads-2026-11-22.json",
+  "floot": "NOT_MODIFIED_NOT_BUILT"
+}

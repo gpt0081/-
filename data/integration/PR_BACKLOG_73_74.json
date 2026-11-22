@@ -1,6 +1,6 @@
 {
   "reviewedAt": "2026-11-22",
-  "status": "PATHS_PRESENT_CONTENT_AUDITED_PARTIAL_BACKFILL_INTEGRATED",
+  "status": "PR73_74_PATHS_PRESENT; PR74_SNAPSHOT_IDS_ALL_PRESENT_ON_MAIN; SHARED_FIELD_VARIANTS_PENDING_ADJUDICATION; CENTRAL_SYNC_PARTIAL",
   "pullRequests": [
     {
       "number": 73,
@@ -104,17 +104,18 @@
     "data/research/rhee-syngman-coverage.json",
     "data/research/rhee-syngman-open-leads.json"
   ],
-  "migrationStatus": "PR72_73_74_PATHS_PRESENT; PR74 BACKFILL MERGED; 372 BRANCH-ONLY POLITICIAN IDS IDENTIFIED FOR PENDING-ADJUDICATION IMPORT; CENTRAL_SYNC_PARTIAL",
+  "migrationStatus": "PR72_OPEN; PR73_AND_PR74_MERGED_INTO_STACKED_RESEARCH_BRANCH; ALL_453_PR74_SNAPSHOT_IDS_PRESENT_ON_MAIN; 453_SHARED_RECORDS_HAVE_FIELD_VARIANTS; CENTRAL_SYNC_PARTIAL",
   "requiredActions": [
     "Preserve all 34 PR #73/#74 changed paths; path presence is not semantic integration.",
-    "Review PR #72/#73/#74 content divergence without merging the entire diverged branch.",
-    "Resolve 584 source-level conflicting IDs with document-level provenance comparison; do not choose arbitrary variants.",
-    "Resolve 16 event and 107 politician root field conflicts with correction history and typed variants.",
-    "Map 666 auxiliary/partial records and 310 unlinked operational-layer files using explicit stable IDs.",
-    "Import the 372 PR #74 branch-only stable/candidate IDs into the central politician root with snapshot provenance; preserve all shared-field differences as variants and do not merge by name alone.",
+    "Keep PR #72 open and do not merge its heavily diverged branch wholesale.",
+    "Resolve 915 source-level conflicting IDs with document-level provenance comparison; do not choose arbitrary variants.",
+    "Resolve 11 event and 35 politician operational-root field conflicts with correction history and typed variants.",
+    "Map the 887 unlinked operational-layer files with explicit stable IDs or documented no-identity reasons.",
+    "Review all 453 shared PR #74 politician records field-by-field; 0 branch-only IDs remain, but branch values must not overwrite later main research.",
+    "Map the remaining 1,599 unintegrated sources and 2,243 auxiliary records into their proper central layers without losing provenance.",
     "Re-run cross-registry and politician-file reference audits after each logical migration batch."
   ],
-  "reason": "PR #73/#74 are merged into research branches, not main. Recursive content comparison found 11/18 identical for PR73 and 12/16 for PR74; all changed paths are present. PR74's branch-only history-debt sections, 29 coverage domains, 4 next priorities and 125 leads were merged additively. PR #72 remains open and its branch is 1284 commits ahead / 807 behind main, so no wholesale merge was attempted. Central sync remains PARTIAL. PR #74 politician-root comparison found 372 branch-only IDs (453 branch records; 81 shared with main; 895 main-only). These are to be imported as existing candidate/person records with provenance, not promoted or merged by name.",
+  "reason": "PR #73 and #74 changed paths are present and both PRs are merged in their stacked research branch; PR #72 remains open and no whole-branch merge was attempted. The current immutable PR #74 snapshot comparison shows 453/453 branch IDs already present in the 1,807-record main politician root (0 branch-only; 1,354 main-only). All 453 shared records have field differences, so ID coverage is complete but semantic field reconciliation remains partial. Current integration audit still reports 915 source conflicts, 1,599 unintegrated sources and 887 unlinked operational sidecars. No identity merge or silent overwrite is authorized.",
   "relatedOpenPullRequests": [
     {
       "number": 72,
@@ -160,9 +161,30 @@
     "openLeadsAdded": 125,
     "weeklyReview": "INCOMPLETE",
     "flootModified": false,
-    "politicianSnapshotBranchOnlyIds": 372,
-    "politicianSnapshotSharedIds": 81,
-    "politicianSnapshotMainOnlyIds": 895,
-    "politicianSnapshotStatus": "IMPORT_PENDING_ADJUDICATION"
+    "politicianSnapshotBranchOnlyIds": 0,
+    "politicianSnapshotSharedIds": 453,
+    "politicianSnapshotMainOnlyIds": 1354,
+    "politicianSnapshotStatus": "ALL_453_BRANCH_IDS_PRESENT; 453_SHARED_RECORD_FIELD_VARIANTS_PENDING",
+    "politicianSnapshotChangedRecords": 453
+  },
+  "politicianSnapshotComparison": {
+    "sourceBranch": "research/run225-june1952-cabinet-unc-pow",
+    "sourceCommit": "eb0efe46d2345811fa9eae8d22508b51dc0b4a8b",
+    "branchPoliticians": 453,
+    "mainPoliticians": 1807,
+    "sharedIds": 453,
+    "branchOnlyIds": 0,
+    "mainOnlyIds": 1354,
+    "changedRecordCount": 453,
+    "changedFieldCounts": {
+      "possibleSameAs": 199,
+      "researchRefs": 425,
+      "researchStatus": 149,
+      "identityReviewStatus": 381,
+      "eventIds": 60,
+      "openLeads": 58,
+      "roles": 73
+    },
+    "policy": "All branch IDs are present, but field differences remain variants. Do not replace main records or merge identities by name."
   }
 }

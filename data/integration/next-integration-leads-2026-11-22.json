@@ -1,0 +1,535 @@
+{
+  "schemaVersion": 1,
+  "run": 331,
+  "recordedAt": "2026-11-22",
+  "status": "OPEN",
+  "sourceAuditCommit": "6d9c07c8653a11a56bc7e09d97e25b5aa648ee25",
+  "sourceAuditFiles": 5184,
+  "count": 34,
+  "activeLeadIds": [
+    "INT-R331-001",
+    "INT-R331-002",
+    "INT-R331-003",
+    "INT-R331-004",
+    "INT-R331-005",
+    "INT-R331-006",
+    "INT-R331-007",
+    "INT-R331-008",
+    "INT-R331-009",
+    "INT-R331-010",
+    "INT-R331-011",
+    "INT-R331-012",
+    "INT-R331-013",
+    "INT-R331-014",
+    "INT-R331-015"
+  ],
+  "policy": "Integration-first queue. Review original source payloads and provenance before selecting canonical fields. Do not merge by name alone or infer a politician from a filename.",
+  "leads": [
+    {
+      "id": "INT-R331-001",
+      "priority": "P1",
+      "targetType": "document",
+      "targetId": "DOC-AKS-YUN-U-GYEONG",
+      "sourceFiles": [
+        "data/research/evidence/pass-230-yun-u-gyeong-command-boundary.json",
+        "data/research/evidence/pass-231-yun-u-gyeong-chronology-unit-correction.json"
+      ],
+      "task": "Compare original title/date/location and chronology metadata; preserve both source payloads until the original is identified.",
+      "status": "OPEN",
+      "expectedInformationValue": "HIGH",
+      "policy": "Preserve source variants and provenance; no name-only merge or automatic scalar winner."
+    },
+    {
+      "id": "INT-R331-002",
+      "priority": "P1",
+      "targetType": "document",
+      "targetId": "DOC-FRUS-1952-XV1-181",
+      "sourceFiles": [
+        "data/documents/pass-229-1952-cabinet-economy-trial.json",
+        "data/research/graphs/2026-11-12-1916-frus181-182-overlay.json"
+      ],
+      "task": "Reconcile FRUS d181 metadata and source pointers; distinguish FRUS text from overlay interpretation.",
+      "status": "OPEN",
+      "expectedInformationValue": "HIGH",
+      "policy": "Preserve source variants and provenance; no name-only merge or automatic scalar winner."
+    },
+    {
+      "id": "INT-R331-003",
+      "priority": "P1",
+      "targetType": "document",
+      "targetId": "DOC-FRUS-1952-XV1-182",
+      "sourceFiles": [
+        "data/documents/pass-229-1952-cabinet-economy-trial.json",
+        "data/research/graphs/2026-11-12-1916-frus181-182-overlay.json"
+      ],
+      "task": "Reconcile FRUS d182 metadata and source pointers without collapsing editorial notes into original text.",
+      "status": "OPEN",
+      "expectedInformationValue": "HIGH",
+      "policy": "Preserve source variants and provenance; no name-only merge or automatic scalar winner."
+    },
+    {
+      "id": "INT-R331-004",
+      "priority": "P1",
+      "targetType": "document",
+      "targetId": "DOC-FRUS-19520524-MARTIAL-LAW-EDITORIAL",
+      "sourceFiles": [
+        "data/research/evidence/pass-230-yun-u-gyeong-command-boundary.json",
+        "data/research/evidence/pass-231-yun-u-gyeong-chronology-unit-correction.json"
+      ],
+      "task": "Compare date, title and original FRUS location; preserve chronology corrections as variants.",
+      "status": "OPEN",
+      "expectedInformationValue": "HIGH",
+      "policy": "Preserve source variants and provenance; no name-only merge or automatic scalar winner."
+    },
+    {
+      "id": "INT-R331-005",
+      "priority": "P1",
+      "targetType": "document",
+      "targetId": "DOC-NIKH-DH-19520524-LEE-BEOMSEOK-INTERIOR",
+      "sourceFiles": [
+        "data/research/evidence/pass-228-jang-seok-yun-transition-and-assassination-warning.json",
+        "data/research/evidence/pass-229-jang-seok-yun-may23-attribution.json"
+      ],
+      "task": "Resolve metadata by checking the National Institute of Korean History original record and cited date.",
+      "status": "OPEN",
+      "expectedInformationValue": "HIGH",
+      "policy": "Preserve source variants and provenance; no name-only merge or automatic scalar winner."
+    },
+    {
+      "id": "INT-R331-006",
+      "priority": "P1",
+      "targetType": "document",
+      "targetId": "DOC-P246-GAZ-388",
+      "sourceFiles": [
+        "data/documents/pass-246-1956-1960-law-and-identity.json",
+        "data/documents/pass-247e-1960-legal-text-crosswalk.json"
+      ],
+      "task": "Compare Gazette issue/date/article metadata against the official gazette text; keep original transcription and crosswalk notes distinct.",
+      "status": "OPEN",
+      "expectedInformationValue": "HIGH",
+      "policy": "Preserve source variants and provenance; no name-only merge or automatic scalar winner."
+    },
+    {
+      "id": "INT-R331-007",
+      "priority": "P1",
+      "targetType": "document",
+      "targetId": "DOC-P246-GAZ-551",
+      "sourceFiles": [
+        "data/documents/pass-246-1956-1960-law-and-identity.json",
+        "data/documents/pass-247e-1960-legal-text-crosswalk.json"
+      ],
+      "task": "Verify Gazette issue and promulgation metadata against the official image or legal database record.",
+      "status": "OPEN",
+      "expectedInformationValue": "HIGH",
+      "policy": "Preserve source variants and provenance; no name-only merge or automatic scalar winner."
+    },
+    {
+      "id": "INT-R331-008",
+      "priority": "P1",
+      "targetType": "document",
+      "targetId": "DOC-P247D-NA-110",
+      "sourceFiles": [
+        "data/documents/pass-247d-korean-assembly-originals.json",
+        "data/documents/pass-247e-1960-legal-text-crosswalk.json"
+      ],
+      "task": "Compare National Assembly original record metadata with the later legal-text crosswalk; retain both provenance chains.",
+      "status": "OPEN",
+      "expectedInformationValue": "HIGH",
+      "policy": "Preserve source variants and provenance; no name-only merge or automatic scalar winner."
+    },
+    {
+      "id": "INT-R331-009",
+      "priority": "P1",
+      "targetType": "document",
+      "targetId": "DOC-P257V-AKS-DAEGU",
+      "sourceFiles": [
+        "data/documents/pass-257v-1955-daegu-press-judicial-sources.json",
+        "data/research/primary-reads/pass-257v-2026-10-29.json"
+      ],
+      "task": "Confirm archive item identity and original location; separate catalogue metadata from the opened record.",
+      "status": "OPEN",
+      "expectedInformationValue": "HIGH",
+      "policy": "Preserve source variants and provenance; no name-only merge or automatic scalar winner."
+    },
+    {
+      "id": "INT-R331-010",
+      "priority": "P1",
+      "targetType": "document",
+      "targetId": "DOC-P257V-NAK-HANGUL",
+      "sourceFiles": [
+        "data/documents/pass-257v-1953-55-education-election-sources.json",
+        "data/research/primary-reads/pass-257v-2026-10-29.json"
+      ],
+      "task": "Verify National Assembly record title, date and session against original minutes before selecting canonical metadata.",
+      "status": "OPEN",
+      "expectedInformationValue": "HIGH",
+      "policy": "Preserve source variants and provenance; no name-only merge or automatic scalar winner."
+    },
+    {
+      "id": "INT-R331-011",
+      "priority": "P1",
+      "targetType": "claim",
+      "targetId": "CLM-AMENDMENT-VOTE-19520704",
+      "sourceFiles": [
+        "data/research/evidence/pass-241-june-crisis-diplomatic-pressure-audit.json",
+        "data/research/evidence/pass-242-pusan-crisis-primary-source-expansion.json"
+      ],
+      "task": "Compare variants against the July 4 Assembly stenogram; distinguish motion-stage votes from final vote.",
+      "status": "OPEN",
+      "expectedInformationValue": "HIGH",
+      "policy": "Preserve source variants and provenance; no name-only merge or automatic scalar winner."
+    },
+    {
+      "id": "INT-R331-012",
+      "priority": "P1",
+      "targetType": "claim",
+      "targetId": "CLM-JSY-EXCERPT-AMENDMENT-LEADERSHIP",
+      "sourceFiles": [
+        "data/research/evidence/pass-228-jang-seok-yun-transition-and-assassination-warning.json",
+        "data/research/evidence/pass-229-jang-seok-yun-may23-attribution.json"
+      ],
+      "task": "Review Jang Seok-yun attribution scope; keep indirect reporting separate from direct minutes.",
+      "status": "OPEN",
+      "expectedInformationValue": "HIGH",
+      "policy": "Preserve source variants and provenance; no name-only merge or automatic scalar winner."
+    },
+    {
+      "id": "INT-R331-013",
+      "priority": "P1",
+      "targetType": "claim",
+      "targetId": "CLM-KIB-KDB-GOVERNOR-STATUTORY-LIQUIDATOR-1954",
+      "sourceFiles": [
+        "data/research/candidates/pass-89-kdb-founding-liquidator-authority.json",
+        "data/research/candidates/pass-90-kib-liquidation-governance.json"
+      ],
+      "task": "Compare statutory authority and actual liquidator appointment; distinguish the Korean Industrial Bank from its predecessor.",
+      "status": "OPEN",
+      "expectedInformationValue": "HIGH",
+      "policy": "Preserve source variants and provenance; no name-only merge or automatic scalar winner."
+    },
+    {
+      "id": "INT-R331-014",
+      "priority": "P1",
+      "targetType": "claim",
+      "targetId": "claim-19520908-truman-statement-not-yet-approved",
+      "sourceFiles": [
+        "data/claims/frus-1952-september-264-269-central.json",
+        "data/research/graphs/2026-11-13-2220-frus264-266-overlay.json",
+        "data/research/registry/1952-september-frus264-269-index.json"
+      ],
+      "task": "Compare central claim, FRUS overlay and registry index; preserve exact document date and approval-status distinctions.",
+      "status": "OPEN",
+      "expectedInformationValue": "HIGH",
+      "policy": "Preserve source variants and provenance; no name-only merge or automatic scalar winner."
+    },
+    {
+      "id": "INT-R331-015",
+      "priority": "P1",
+      "targetType": "claim",
+      "targetId": "claim-19520910-total-embargo-adopted",
+      "sourceFiles": [
+        "data/claims/frus-1952-september-264-269-central.json",
+        "data/research/graphs/2026-11-13-2220-frus264-266-overlay.json",
+        "data/research/registry/1952-september-frus264-269-index.json"
+      ],
+      "task": "Check whether the embargo was proposed, considered or adopted; separate draft guidance from implemented policy.",
+      "status": "OPEN",
+      "expectedInformationValue": "HIGH",
+      "policy": "Preserve source variants and provenance; no name-only merge or automatic scalar winner."
+    },
+    {
+      "id": "INT-R331-016",
+      "priority": "P1",
+      "targetType": "event",
+      "targetId": "EVT-JAPAN-TALKS-FISHERIES-1953-R2-M09",
+      "sourceFiles": [
+        "data/research/candidates/pass-93-fisheries-committee-network.json",
+        "data/research/candidates/pass-94-fisheries-meeting-matrix.json",
+        "data/research/candidates/pass-95-fisheries-series-control.json"
+      ],
+      "task": "Reconcile meeting date and participant attribution against original Japan talks minutes; preserve session distinctions.",
+      "status": "OPEN",
+      "expectedInformationValue": "HIGH",
+      "policy": "Preserve source variants and provenance; no name-only merge or automatic scalar winner."
+    },
+    {
+      "id": "INT-R331-017",
+      "priority": "P1",
+      "targetType": "event",
+      "targetId": "EVT-KIB-1954-SHAREHOLDER-LIQUIDATOR-SELECTION",
+      "sourceFiles": [
+        "data/research/candidates/pass-90-kib-liquidation-governance.json",
+        "data/research/candidates/pass-91-kib-actor-identification.json"
+      ],
+      "task": "Separate shareholder decision, statutory liquidator authority and administrative execution using founding/liquidation records.",
+      "status": "OPEN",
+      "expectedInformationValue": "HIGH",
+      "policy": "Preserve source variants and provenance; no name-only merge or automatic scalar winner."
+    },
+    {
+      "id": "INT-R331-018",
+      "priority": "P1",
+      "targetType": "event",
+      "targetId": "evt-1948-compulsory-education-plan",
+      "sourceFiles": [
+        "data/events/run23-education-institutions-events.json",
+        "data/events/run24-education-governance-events.json",
+        "data/research/events/2026-10-04-pass205-education-local-autonomy-actions.json"
+      ],
+      "task": "Compare proposal, cabinet decision and provincial implementation; do not merge policy announcement with rollout.",
+      "status": "OPEN",
+      "expectedInformationValue": "HIGH",
+      "policy": "Preserve source variants and provenance; no name-only merge or automatic scalar winner."
+    },
+    {
+      "id": "INT-R331-019",
+      "priority": "P1",
+      "targetType": "event",
+      "targetId": "evt-1949-farmland-reform",
+      "sourceFiles": [
+        "data/events/pass318-rhee-events.json",
+        "data/research/events/run20-land-reform-chain.json"
+      ],
+      "task": "Keep legislative proposal, presidential return, Assembly action and promulgation as separate sub-events.",
+      "status": "OPEN",
+      "expectedInformationValue": "HIGH",
+      "policy": "Preserve source variants and provenance; no name-only merge or automatic scalar winner."
+    },
+    {
+      "id": "INT-R331-020",
+      "priority": "P2",
+      "targetType": "event",
+      "targetId": "evt-1950-compulsory-education-start",
+      "sourceFiles": [
+        "data/events/run111g-electricity-education-budget.json",
+        "data/research/events/2026-10-04-pass205-education-local-autonomy-actions.json"
+      ],
+      "task": "Verify implementation dates and provincial coverage using Education Ministry reports and local education records.",
+      "status": "OPEN",
+      "expectedInformationValue": "MEDIUM",
+      "policy": "Preserve source variants and provenance; no name-only merge or automatic scalar winner."
+    },
+    {
+      "id": "INT-R331-021",
+      "priority": "P1",
+      "targetType": "politician",
+      "targetId": "cand-1952-cabinet-lee-kyo-seon",
+      "sourceFiles": [
+        "data/politicians/pass-229b-1952-cabinet-oversight.json",
+        "data/politicians/pass-232-1952-september-actors.json",
+        "data/politicians/pass-239e-actors.json",
+        "data/politicians/pass-252b-1952-aug26-30-actors.json"
+      ],
+      "task": "Compare dated roles and source-specific actions; do not merge conflicting status values without dated evidence.",
+      "status": "OPEN",
+      "expectedInformationValue": "HIGH",
+      "policy": "Preserve source variants and provenance; no name-only merge or automatic scalar winner."
+    },
+    {
+      "id": "INT-R331-022",
+      "priority": "P1",
+      "targetType": "politician",
+      "targetId": "cand-1952-minister-lee-yun-yeong",
+      "sourceFiles": [
+        "data/politicians/pass-229b-1952-cabinet-oversight.json",
+        "data/politicians/pass-232-1952-september-actors.json",
+        "data/politicians/pass-233-addendum-1952-domestic-actors.json",
+        "data/politicians/pass-239l2-1955-cabinet-election-actors.json",
+        "data/politicians/pass-251-1952-candidate-evidence.json",
+        "data/politicians/pass-256-actor-evidence-overlay.json",
+        "data/politicians/pass-258f-1956-election-actor-overlay.json"
+      ],
+      "task": "Build a dated role timeline from cabinet rosters and Gazette appointment notices; preserve same-name candidates until Hanja and tenure match.",
+      "status": "OPEN",
+      "expectedInformationValue": "HIGH",
+      "policy": "Preserve source variants and provenance; no name-only merge or automatic scalar winner."
+    },
+    {
+      "id": "INT-R331-023",
+      "priority": "P1",
+      "targetType": "politician",
+      "targetId": "cand-1952-nov-chang-myon",
+      "sourceFiles": [
+        "data/politicians/pass-233-1952-rok-diplomacy-network.json",
+        "data/politicians/pass-239l-1956-actors.json",
+        "data/politicians/pass-241-1956-57-actors.json",
+        "data/politicians/pass-242-1957-actors.json",
+        "data/politicians/pass-243-1958-actor-evidence.json",
+        "data/politicians/pass-244-1959-1960-actors.json",
+        "data/politicians/pass-247e-1960-legislative-actors.json",
+        "data/politicians/pass-256-actor-evidence-overlay.json",
+        "data/politicians/pass-258e-1956-domestic-actors.json",
+        "data/politicians/pass-258f-1956-election-actor-overlay.json"
+      ],
+      "task": "Separate 1952 cabinet/diplomatic roles from later party and vice-presidential roles; resolve overlaps from official appointments.",
+      "status": "OPEN",
+      "expectedInformationValue": "HIGH",
+      "policy": "Preserve source variants and provenance; no name-only merge or automatic scalar winner."
+    },
+    {
+      "id": "INT-R331-024",
+      "priority": "P1",
+      "targetType": "politician",
+      "targetId": "cand-1952-nov-chong-il-kwon",
+      "sourceFiles": [
+        "data/politicians/pass-233-1952-rok-diplomacy-network.json",
+        "data/politicians/pass-235-addendum-c-jin-chung-lee.json",
+        "data/politicians/pass-239j-1954-diplomacy-economy-actors.json",
+        "data/politicians/pass-239k-1955-actors.json",
+        "data/politicians/pass-239k2-1955-second-half-actors.json",
+        "data/politicians/pass-239l-1956-actors.json",
+        "data/politicians/pass-240-1955-policy-actors.json",
+        "data/politicians/pass-241-1956-57-actors.json",
+        "data/politicians/pass-256-actor-evidence-overlay.json",
+        "data/politicians/pass-257s-1954-visit-nnsc-actors.json",
+        "data/politicians/pass-258a-1954-actor-actions.json",
+        "data/politicians/pass-258e-1956-domestic-actors.json"
+      ],
+      "task": "Compare military, diplomatic and cabinet role periods; do not infer earlier command authority from later appointments.",
+      "status": "OPEN",
+      "expectedInformationValue": "HIGH",
+      "policy": "Preserve source variants and provenance; no name-only merge or automatic scalar winner."
+    },
+    {
+      "id": "INT-R331-025",
+      "priority": "P1",
+      "targetType": "politician",
+      "targetId": "cand-1952-nov-bae-eun-hui",
+      "sourceFiles": [
+        "data/politicians/pass-233-addendum-1952-domestic-actors.json",
+        "data/politicians/pass-239-actors.json",
+        "data/politicians/pass-257-1953-party-policing-evidence.json",
+        "data/politicians/pass-257o2-1954-election-diplomatic-actor-overlay.json",
+        "data/politicians/pass-257v-1954-education-election-actors.json",
+        "data/research/politicians/pass-253-1952-september-actor-profiles.json"
+      ],
+      "task": "Resolve repeated candidate IDs using Hanja, dated party offices and election rosters; no name-only merge.",
+      "status": "OPEN",
+      "expectedInformationValue": "HIGH",
+      "policy": "Preserve source variants and provenance; no name-only merge or automatic scalar winner."
+    },
+    {
+      "id": "INT-R331-026",
+      "priority": "P1",
+      "targetType": "organization",
+      "targetId": "org-kib-liquidation-committee",
+      "sourceFiles": [
+        "data/research/candidates/pass-88-kdb-statute-kib-succession-actors-events.json",
+        "data/research/candidates/pass-89-kdb-founding-liquidator-authority.json",
+        "data/research/candidates/pass-90-kib-liquidation-governance.json"
+      ],
+      "task": "Separate statutory committee, shareholder-appointed liquidator and predecessor bank; compare founding statute and meeting record.",
+      "status": "OPEN",
+      "expectedInformationValue": "HIGH",
+      "policy": "Preserve source variants and provenance; no name-only merge or automatic scalar winner."
+    },
+    {
+      "id": "INT-R331-027",
+      "priority": "P2",
+      "targetType": "organization",
+      "targetId": "org-rok-national-assembly",
+      "sourceFiles": [
+        "data/organizations/run118-institution-registry.json",
+        "data/organizations/run119-governance.json"
+      ],
+      "task": "Reconcile organization name, constitutional authority and historical naming; preserve period-specific institution changes.",
+      "status": "OPEN",
+      "expectedInformationValue": "MEDIUM",
+      "policy": "Preserve source variants and provenance; no name-only merge or automatic scalar winner."
+    },
+    {
+      "id": "INT-R331-028",
+      "priority": "P1",
+      "targetType": "role",
+      "targetId": "role-cand-kib-head-hong-1954",
+      "sourceFiles": [
+        "data/research/candidates/pass-84-kib-liquidation-transfer.json",
+        "data/research/candidates/pass-85-kib-liquidation-governance-phases.json"
+      ],
+      "task": "Keep the redacted office-holder slot as a role node until a primary appointment record establishes identity.",
+      "status": "OPEN",
+      "expectedInformationValue": "HIGH",
+      "policy": "Preserve source variants and provenance; no name-only merge or automatic scalar winner."
+    },
+    {
+      "id": "INT-R331-029",
+      "priority": "P1",
+      "targetType": "role",
+      "targetId": "role-cand-kib-representative-liquidator-choi-1954",
+      "sourceFiles": [
+        "data/research/candidates/pass-84-kib-liquidation-transfer.json",
+        "data/research/candidates/pass-85-kib-liquidation-governance-phases.json"
+      ],
+      "task": "Do not promote the unnamed liquidator representative; reconcile role period and legal mandate from original minutes.",
+      "status": "OPEN",
+      "expectedInformationValue": "HIGH",
+      "policy": "Preserve source variants and provenance; no name-only merge or automatic scalar winner."
+    },
+    {
+      "id": "INT-R331-029",
+      "priority": "P2",
+      "targetType": "operational_layer",
+      "targetId": "data/annals/shin-ik-hui-run141.md",
+      "sourceFiles": [
+        "data/annals/shin-ik-hui-run141.md",
+        "data/politicians.json"
+      ],
+      "task": "Open the annals text and compare person-specific title, dated roles and evidence references with candidate stable IDs before adding a manual sidecar link.",
+      "status": "OPEN",
+      "expectedInformationValue": "MEDIUM"
+    },
+    {
+      "id": "INT-R331-030",
+      "priority": "P1",
+      "targetType": "operational_layer",
+      "targetId": "data/annals/won-yong-deok-run144.md",
+      "sourceFiles": [
+        "data/annals/won-yong-deok-run144.md",
+        "data/politicians.json"
+      ],
+      "task": "Check the annals subject and Hanja against competing Won Yong-deok/Won Yong-duk IDs; preserve the identity collision until resolved.",
+      "status": "OPEN",
+      "expectedInformationValue": "HIGH"
+    },
+    {
+      "id": "INT-R331-031",
+      "priority": "P2",
+      "targetType": "operational_layer",
+      "targetId": "data/annals/yun-chi-yeong-run113.md",
+      "sourceFiles": [
+        "data/annals/yun-chi-yeong-run113.md",
+        "data/politicians.json"
+      ],
+      "task": "Verify annals subject and role dates against the existing Yun Chi-yeong registry record before linking the sidecar.",
+      "status": "OPEN",
+      "expectedInformationValue": "MEDIUM"
+    },
+    {
+      "id": "INT-R331-032",
+      "priority": "P2",
+      "targetType": "operational_layer",
+      "targetId": "data/evidence/chang-myon-run108.json",
+      "sourceFiles": [
+        "data/evidence/chang-myon-run108.json",
+        "data/politicians.json"
+      ],
+      "task": "Inspect declared person/event/document IDs and evidence-owner fields; link only after verifying subject and legacy alias.",
+      "status": "OPEN",
+      "expectedInformationValue": "MEDIUM"
+    },
+    {
+      "id": "INT-R331-033",
+      "priority": "P1",
+      "targetType": "operational_layer",
+      "targetId": "data/research/coverage/run225.json",
+      "sourceFiles": [
+        "data/research/coverage/run225.json",
+        "data/events/run225-june1952-actor-decision-graph.json",
+        "data/politicians/run225-june1952-actors.json"
+      ],
+      "task": "Add explicit event and politician IDs to coverage only where each domain is directly represented by run225 evidence.",
+      "status": "OPEN",
+      "expectedInformationValue": "HIGH"
+    }
+  ]
+}
