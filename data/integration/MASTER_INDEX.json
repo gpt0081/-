@@ -1,16 +1,16 @@
 {
   "schemaVersion": 3,
   "createdAt": "2026-11-22",
-  "updatedAt": "2026-11-22T01:02:46+00:00",
-  "sourceSnapshotCommit": "0ec4d08748213b231310076d3933bb1e40810177",
-  "sourceTreeSha": "20a15a95a0c107cf8c72c04cc286d54eb6d16373",
-  "sourceFilesTotal": 5216,
-  "sourceDataFiles": 5186,
+  "updatedAt": "2026-11-22T01:23:35+00:00",
+  "sourceSnapshotCommit": "702c0274e249a9bc1bacb89d61b351a23d79a3b0",
+  "sourceTreeSha": "aef275801ebc259e2bc7278b1a9a3cfca32fd95c",
+  "sourceFilesTotal": 5219,
+  "sourceDataFiles": 5189,
   "nonDataFiles": 30,
   "inventoryGroups": [
     {
       "path": "data/integration/inventory/data-actors.json",
-      "sha": "197b34c800d6e3a357d2f64030de5b042f0f29c6",
+      "sha": "50fd3873a613ae98cbf18b57a63cc47389f796c6",
       "fileCount": 6,
       "statusCounts": {
         "UNMAPPED_AUXILIARY_OR_PARTIAL": 6
@@ -18,7 +18,7 @@
     },
     {
       "path": "data/integration/inventory/data-annals.json",
-      "sha": "15042df4b610800f3f0e915325f3edfaf4ab5322",
+      "sha": "33c42839da164abe8902ebd84f06d4e7ea0772e3",
       "fileCount": 426,
       "statusCounts": {
         "NON_JSON_SOURCE_PRESERVED": 422,
@@ -27,7 +27,7 @@
     },
     {
       "path": "data/integration/inventory/data-claims.json",
-      "sha": "e7be6636ae895e92a478056def615cba3f8f1bf7",
+      "sha": "67ae66acbdd7cefcae428c29e508b5c9827026db",
       "fileCount": 488,
       "statusCounts": {
         "BLOCKED_ID_CONFLICT": 2,
@@ -38,29 +38,29 @@
     },
     {
       "path": "data/integration/inventory/data-documents.json",
-      "sha": "3eb897a9add459e5f80c5515d75db63e36b226dd",
+      "sha": "82bf83e11ad8f73588b289f3e210373391ad9812",
       "fileCount": 636,
       "statusCounts": {
         "BLOCKED_ID_CONFLICT": 2,
-        "CANONICAL_MATERIALIZED": 598,
+        "CANONICAL_MATERIALIZED": 605,
         "NON_JSON_SOURCE_PRESERVED": 1,
-        "UNMAPPED_AUXILIARY_OR_PARTIAL": 35
+        "UNMAPPED_AUXILIARY_OR_PARTIAL": 28
       }
     },
     {
       "path": "data/integration/inventory/data-events.json",
-      "sha": "be7d393acbf599cf1aac2d07efc78afa677ac7ee",
+      "sha": "980eca289b8e9285c6b21de8934a26e660511978",
       "fileCount": 494,
       "statusCounts": {
         "BLOCKED_ID_CONFLICT": 3,
-        "CANONICAL_MATERIALIZED": 475,
+        "CANONICAL_MATERIALIZED": 476,
         "NON_JSON_SOURCE_PRESERVED": 4,
-        "UNMAPPED_AUXILIARY_OR_PARTIAL": 12
+        "UNMAPPED_AUXILIARY_OR_PARTIAL": 11
       }
     },
     {
       "path": "data/integration/inventory/data-events.json.json",
-      "sha": "5d73b72503353f354172ebe72f93ea5ac899cc1a",
+      "sha": "8bb83706d2b440ec9527414ca2e6b15bbbcf0d03",
       "fileCount": 1,
       "statusCounts": {
         "OPERATIONAL_ROOT_PRESERVED": 1
@@ -68,17 +68,17 @@
     },
     {
       "path": "data/integration/inventory/data-evidence.json",
-      "sha": "4db6b74e371f102462e69d0aa493b616b6c0ee02",
+      "sha": "c44126674ab97d25d233ef11f0d2f89db76d6b44",
       "fileCount": 192,
       "statusCounts": {
         "BLOCKED_ID_CONFLICT": 3,
-        "CANONICAL_MATERIALIZED": 14,
-        "UNMAPPED_AUXILIARY_OR_PARTIAL": 175
+        "CANONICAL_MATERIALIZED": 21,
+        "UNMAPPED_AUXILIARY_OR_PARTIAL": 168
       }
     },
     {
       "path": "data/integration/inventory/data-laws.json",
-      "sha": "6592ed3c9af493ac4d8988332f53794930024147",
+      "sha": "7ff18a28969178d40db51d9a1adffebbe1038feb",
       "fileCount": 1,
       "statusCounts": {
         "UNMAPPED_AUXILIARY_OR_PARTIAL": 1
@@ -86,7 +86,7 @@
     },
     {
       "path": "data/integration/inventory/data-organizations.json",
-      "sha": "92d2e4f5db78a67971f54eb4cf51664c37f12c48",
+      "sha": "3418a0ed2824d97ba6ce34b5d638df113c8c282b",
       "fileCount": 53,
       "statusCounts": {
         "BLOCKED_ID_CONFLICT": 2,
@@ -97,11 +97,11 @@
     },
     {
       "path": "data/integration/inventory/data-politicians.json",
-      "sha": "5557ddab94b707f1912d82fc9b59e2a4177aca68",
-      "fileCount": 365,
+      "sha": "4bafa99c47bd87dfacebc3bb8600ba532e4b311f",
+      "fileCount": 366,
       "statusCounts": {
         "BLOCKED_ID_CONFLICT": 27,
-        "CANONICAL_MATERIALIZED": 285,
+        "CANONICAL_MATERIALIZED": 286,
         "NON_JSON_SOURCE_PRESERVED": 9,
         "PARTIAL_CANONICAL_MATERIALIZED": 9,
         "UNMAPPED_AUXILIARY_OR_PARTIAL": 35
@@ -109,7 +109,7 @@
     },
     {
       "path": "data/integration/inventory/data-politicians.json.json",
-      "sha": "4c53d5dde9be685ef845af4df2f30fbec8f6797d",
+      "sha": "15b6a8270b7a7ef3493e2d934964f317c208cc75",
       "fileCount": 1,
       "statusCounts": {
         "OPERATIONAL_ROOT_PRESERVED": 1
@@ -117,7 +117,7 @@
     },
     {
       "path": "data/integration/inventory/data-presidents.json.json",
-      "sha": "043ffd9221c9e3c4d7ac69fae8b06982d851714f",
+      "sha": "a55e8fd055d4829b206b992f78cdefbd7d8e77a4",
       "fileCount": 1,
       "statusCounts": {
         "PRESIDENTIAL_BACKBONE_PRESERVED": 1
@@ -125,19 +125,19 @@
     },
     {
       "path": "data/integration/inventory/data-research.json",
-      "sha": "26cf3424f9c691ff448cadeb59153636e51dcc45",
-      "fileCount": 2521,
+      "sha": "d845f26156854dcbe62c68646d0aea752d768bcd",
+      "fileCount": 2523,
       "statusCounts": {
-        "BLOCKED_ID_CONFLICT": 36,
-        "CANONICAL_MATERIALIZED": 299,
-        "NON_JSON_SOURCE_PRESERVED": 876,
+        "BLOCKED_ID_CONFLICT": 38,
+        "CANONICAL_MATERIALIZED": 309,
+        "NON_JSON_SOURCE_PRESERVED": 877,
         "PARTIAL_CANONICAL_MATERIALIZED": 1,
-        "UNMAPPED_AUXILIARY_OR_PARTIAL": 1309
+        "UNMAPPED_AUXILIARY_OR_PARTIAL": 1298
       }
     },
     {
       "path": "data/integration/inventory/data-votes.json",
-      "sha": "fd1cfa60676612c5daa8aad06fb1574313f5a6f9",
+      "sha": "8d49983deba7938b85f65d0a7dd44ad5c5e93eda",
       "fileCount": 1,
       "statusCounts": {
         "UNMAPPED_AUXILIARY_OR_PARTIAL": 1
@@ -146,49 +146,49 @@
   ],
   "currentPerFileInventory": {
     "path": "data/integration/generated/source-triage.json",
-    "blobSha": "19081c8a3e34a96b6fd3e556f8d583ee673c96d5",
-    "sourceFiles": 5186,
+    "blobSha": "e0a67b0bb42dc743a64b1d6aa3d2345a91865a10",
+    "sourceFiles": 5189,
     "status": "CENTRAL_SYNC_PARTIAL"
   },
   "semanticIntegrationStatus": "FULL_INTEGRATION_INCOMPLETE",
   "centralSync": "CENTRAL_SYNC_PARTIAL",
   "canonicalMaterialized": {
-    "documents": 11893,
+    "documents": 12146,
     "claims": 4899,
-    "events": 5963,
-    "politicians": 2244,
-    "organizations": 260,
+    "events": 5964,
+    "politicians": 2247,
+    "organizations": 261,
     "roles": 44
   },
-  "safeMergeCount": 839,
-  "conflictedIdCount": 30,
+  "safeMergeCount": 867,
+  "conflictedIdCount": 31,
   "conflictsByRegistry": {
     "claims": 6,
-    "documents": 1,
+    "documents": 2,
     "events": 12,
     "organizations": 1,
     "politicians": 9,
     "roles": 1
   },
-  "auxiliaryRecords": 2232,
-  "unintegratedSources": 1604,
+  "auxiliaryRecords": 2206,
+  "unintegratedSources": 1578,
   "partialSources": 12,
   "rootSync": {
     "status": "PARTIAL",
-    "eventRootAfter": 6368,
-    "politicianRootAfter": 2155,
+    "eventRootAfter": 6369,
+    "politicianRootAfter": 2158,
     "missingEvents": 0,
     "missingPoliticians": 0,
     "eventFieldConflicts": 11,
-    "politicianFieldConflicts": 255
+    "politicianFieldConflicts": 60
   },
   "integrityAudit": {
-    "structuralIssues": 135,
-    "referenceIssues": 135
+    "structuralIssues": 112,
+    "referenceIssues": 112
   },
   "politicianReferenceAudit": {
     "canonicalSyncVerified": false,
-    "politiciansChecked": 2155,
+    "politiciansChecked": 2158,
     "duplicateIds": 0,
     "missingFiles": 0,
     "missingResearchRefs": 0
@@ -203,13 +203,13 @@
   "migrationRule": "Unambiguous records and conservative field-wise merges are materialized; ambiguous scalar values remain field variants with provenance. Original source alternatives are retained.",
   "lastAudit": {
     "date": "2026-11-22",
-    "sourceSnapshotCommit": "0ec4d08748213b231310076d3933bb1e40810177",
-    "sourceDataFiles": 5186,
-    "safeMergeCount": 839,
-    "conflictedIds": 30,
-    "auxiliaryRecords": 2232,
-    "unintegratedSources": 1604,
-    "referenceIssueCount": 135,
+    "sourceSnapshotCommit": "702c0274e249a9bc1bacb89d61b351a23d79a3b0",
+    "sourceDataFiles": 5189,
+    "safeMergeCount": 867,
+    "conflictedIds": 31,
+    "auxiliaryRecords": 2206,
+    "unintegratedSources": 1578,
+    "referenceIssueCount": 112,
     "centralSync": "CENTRAL_SYNC_PARTIAL"
   },
   "note": "Registry presence is not proof of historical truth. Source identity, claim truth, provenance independence and historical responsibility remain separate review questions."

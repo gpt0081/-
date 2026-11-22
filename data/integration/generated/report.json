@@ -1,19 +1,19 @@
 {
   "canonicalMaterialized": {
-    "documents": 11893,
+    "documents": 12146,
     "claims": 4899,
-    "events": 5963,
-    "politicians": 2244,
-    "organizations": 260,
+    "events": 5964,
+    "politicians": 2247,
+    "organizations": 261,
     "roles": 44
   },
   "canonicalDirectory": "data/integration/canonical",
-  "sourceFiles": 5186,
+  "sourceFiles": 5189,
   "sourceStatusCounts": {
-    "AUXILIARY_JSON_INDEXED": 1592,
-    "CANONICAL_MATERIALIZED": 2190,
-    "CONFLICT_REVIEW_REQUIRED": 73,
-    "NON_JSON_SOURCE_PRESERVED": 1316,
+    "AUXILIARY_JSON_INDEXED": 1566,
+    "CANONICAL_MATERIALIZED": 2216,
+    "CONFLICT_REVIEW_REQUIRED": 75,
+    "NON_JSON_SOURCE_PRESERVED": 1317,
     "OPERATIONAL_ROOT_PRESERVED": 2,
     "PARTIAL_CANONICAL_MATERIALIZED": 12,
     "PRESIDENTIAL_BACKBONE_PRESERVED": 1
@@ -29,19 +29,19 @@
     "evidence_layer": 192,
     "execution_ledger_layer": 867,
     "history_debt_layer": 164,
-    "open_lead_layer": 551,
+    "open_lead_layer": 552,
     "operational_root": 2,
     "organization_registry_source": 53,
     "other": 8,
-    "politician_candidate_source": 556,
+    "politician_candidate_source": 557,
     "presidential_backbone": 1,
-    "research_supporting_layer": 653
+    "research_supporting_layer": 654
   },
   "totals": {
     "documents": {
-      "sourceRecords": 12008,
-      "uniqueIds": 11894,
-      "conflictedIds": 1
+      "sourceRecords": 12285,
+      "uniqueIds": 12148,
+      "conflictedIds": 2
     },
     "claims": {
       "sourceRecords": 4928,
@@ -49,18 +49,18 @@
       "conflictedIds": 6
     },
     "events": {
-      "sourceRecords": 6042,
-      "uniqueIds": 5975,
+      "sourceRecords": 6043,
+      "uniqueIds": 5976,
       "conflictedIds": 12
     },
     "politicians": {
-      "sourceRecords": 4465,
-      "uniqueIds": 2253,
+      "sourceRecords": 4468,
+      "uniqueIds": 2256,
       "conflictedIds": 9
     },
     "organizations": {
-      "sourceRecords": 274,
-      "uniqueIds": 261,
+      "sourceRecords": 275,
+      "uniqueIds": 262,
       "conflictedIds": 1
     },
     "roles": {
@@ -71,6 +71,19 @@
   },
   "parseErrors": [],
   "conflictingIds": [
+    {
+      "type": "documents",
+      "id": "NARA-USAFIK-GUIDE",
+      "variantCount": 2,
+      "sources": [
+        "data/research/forest-coverage-pass2.json",
+        "data/research/forest-coverage-pass3.json"
+      ],
+      "mergeReview": {
+        "status": "BLOCKED",
+        "reason": "NO_COMMON_DOCUMENT_NUMBER_TITLE_OR_ORIGINAL_LOCATION"
+      }
+    },
     {
       "type": "documents",
       "id": "doc-r218-nahf-0121",
@@ -508,6 +521,13 @@
   "safeMergedIds": [
     {
       "type": "documents",
+      "id": "DOC-AKS-KIM-TAESEON",
+      "variantCount": 2,
+      "fieldVariantCount": 1,
+      "identityBasis": "SAME_STABLE_DOCUMENT_ID_AND_SHARED_DOCUMENT_KEY"
+    },
+    {
+      "type": "documents",
       "id": "DOC-AKS-YUN-U-GYEONG",
       "variantCount": 2,
       "fieldVariantCount": 1,
@@ -536,9 +556,114 @@
     },
     {
       "type": "documents",
+      "id": "DOC-FRUS1949-V7P2-D215",
+      "variantCount": 2,
+      "fieldVariantCount": 2,
+      "identityBasis": "SAME_STABLE_DOCUMENT_ID_AND_SHARED_DOCUMENT_KEY"
+    },
+    {
+      "type": "documents",
+      "id": "DOC-FRUS1949-V7P2-D260",
+      "variantCount": 2,
+      "fieldVariantCount": 4,
+      "identityBasis": "SAME_STABLE_DOCUMENT_ID_AND_SHARED_DOCUMENT_KEY"
+    },
+    {
+      "type": "documents",
+      "id": "DOC-FRUS1949-V7P2-D294",
+      "variantCount": 2,
+      "fieldVariantCount": 5,
+      "identityBasis": "SAME_STABLE_DOCUMENT_ID_AND_SHARED_DOCUMENT_KEY"
+    },
+    {
+      "type": "documents",
+      "id": "DOC-FRUS1949-V7P2-D304",
+      "variantCount": 2,
+      "fieldVariantCount": 3,
+      "identityBasis": "SAME_STABLE_DOCUMENT_ID_AND_SHARED_DOCUMENT_KEY"
+    },
+    {
+      "type": "documents",
+      "id": "DOC-FRUS1950-V7-D26",
+      "variantCount": 2,
+      "fieldVariantCount": 3,
+      "identityBasis": "SAME_STABLE_DOCUMENT_ID_AND_SHARED_DOCUMENT_KEY"
+    },
+    {
+      "type": "documents",
+      "id": "DOC-FRUS1950-V7-D45",
+      "variantCount": 2,
+      "fieldVariantCount": 1,
+      "identityBasis": "SAME_STABLE_DOCUMENT_ID_AND_SHARED_DOCUMENT_KEY"
+    },
+    {
+      "type": "documents",
+      "id": "DOC-FRUS1950-V7-D90",
+      "variantCount": 2,
+      "fieldVariantCount": 1,
+      "identityBasis": "SAME_STABLE_DOCUMENT_ID_AND_SHARED_DOCUMENT_KEY"
+    },
+    {
+      "type": "documents",
       "id": "DOC-NIKH-DH-19520524-LEE-BEOMSEOK-INTERIOR",
       "variantCount": 2,
       "fieldVariantCount": 2,
+      "identityBasis": "SAME_STABLE_DOCUMENT_ID_AND_SHARED_DOCUMENT_KEY"
+    },
+    {
+      "type": "documents",
+      "id": "DOC-NIKH-JANG-SEOKYUN-PERSON",
+      "variantCount": 2,
+      "fieldVariantCount": 1,
+      "identityBasis": "SAME_STABLE_DOCUMENT_ID_AND_SHARED_DOCUMENT_KEY"
+    },
+    {
+      "type": "documents",
+      "id": "DOC-P239D-NIKH-0618-0080",
+      "variantCount": 2,
+      "fieldVariantCount": 0,
+      "identityBasis": "SAME_STABLE_DOCUMENT_ID_AND_SHARED_DOCUMENT_KEY"
+    },
+    {
+      "type": "documents",
+      "id": "DOC-P239J-KOREA-MINUTE-1152",
+      "variantCount": 2,
+      "fieldVariantCount": 0,
+      "identityBasis": "SAME_STABLE_DOCUMENT_ID_AND_SHARED_DOCUMENT_KEY"
+    },
+    {
+      "type": "documents",
+      "id": "DOC-P239K-FRUS-58",
+      "variantCount": 2,
+      "fieldVariantCount": 0,
+      "identityBasis": "SAME_STABLE_DOCUMENT_ID_AND_SHARED_DOCUMENT_KEY"
+    },
+    {
+      "type": "documents",
+      "id": "DOC-P240-FRUS-70",
+      "variantCount": 2,
+      "fieldVariantCount": 0,
+      "identityBasis": "SAME_STABLE_DOCUMENT_ID_AND_SHARED_DOCUMENT_KEY"
+    },
+    {
+      "type": "documents",
+      "id": "DOC-P240-FRUS-77",
+      "variantCount": 2,
+      "fieldVariantCount": 0,
+      "identityBasis": "SAME_STABLE_DOCUMENT_ID_AND_SHARED_DOCUMENT_KEY"
+    },
+    {
+      "type": "documents",
+      "id": "DOC-P240-FRUS-78",
+      "variantCount": 2,
+      "fieldVariantCount": 0,
+      "identityBasis": "SAME_STABLE_DOCUMENT_ID_AND_SHARED_DOCUMENT_KEY"
+    },
+    {
+      "type": "documents",
+      "id": "DOC-P240-FRUS-79",
+      "variantCount": 2,
+      "fieldVariantCount": 0,
       "identityBasis": "SAME_STABLE_DOCUMENT_ID_AND_SHARED_DOCUMENT_KEY"
     },
     {
@@ -781,6 +906,20 @@
     },
     {
       "type": "documents",
+      "id": "DOC-P258D-FRUS56-192",
+      "variantCount": 2,
+      "fieldVariantCount": 0,
+      "identityBasis": "SAME_STABLE_DOCUMENT_ID_AND_SHARED_DOCUMENT_KEY"
+    },
+    {
+      "type": "documents",
+      "id": "DOC-TRUMAN-1949-06-07-KOREA-AID-MESSAGE",
+      "variantCount": 2,
+      "fieldVariantCount": 4,
+      "identityBasis": "SAME_STABLE_DOCUMENT_ID_AND_SHARED_DOCUMENT_KEY"
+    },
+    {
+      "type": "documents",
       "id": "FRUS-XV2-d630",
       "variantCount": 2,
       "fieldVariantCount": 0,
@@ -805,6 +944,13 @@
       "id": "FRUS:1958-60v18-d288",
       "variantCount": 2,
       "fieldVariantCount": 3,
+      "identityBasis": "SAME_STABLE_DOCUMENT_ID_AND_SHARED_DOCUMENT_KEY"
+    },
+    {
+      "type": "documents",
+      "id": "KHD-CONS",
+      "variantCount": 2,
+      "fieldVariantCount": 1,
       "identityBasis": "SAME_STABLE_DOCUMENT_ID_AND_SHARED_DOCUMENT_KEY"
     },
     {
@@ -994,6 +1140,27 @@
       "id": "doc-frus-1953-741",
       "variantCount": 3,
       "fieldVariantCount": 3,
+      "identityBasis": "SAME_STABLE_DOCUMENT_ID_AND_SHARED_DOCUMENT_KEY"
+    },
+    {
+      "type": "documents",
+      "id": "doc-frus-1953-clark-cx63170",
+      "variantCount": 2,
+      "fieldVariantCount": 0,
+      "identityBasis": "SAME_STABLE_DOCUMENT_ID_AND_SHARED_DOCUMENT_KEY"
+    },
+    {
+      "type": "documents",
+      "id": "doc-frus-1953-clark-cx63227",
+      "variantCount": 2,
+      "fieldVariantCount": 0,
+      "identityBasis": "SAME_STABLE_DOCUMENT_ID_AND_SHARED_DOCUMENT_KEY"
+    },
+    {
+      "type": "documents",
+      "id": "doc-frus-1953-rhee-clark-pow-letter",
+      "variantCount": 2,
+      "fieldVariantCount": 0,
       "identityBasis": "SAME_STABLE_DOCUMENT_ID_AND_SHARED_DOCUMENT_KEY"
     },
     {
@@ -5142,6 +5309,13 @@
     },
     {
       "type": "politicians",
+      "id": "pol-r149-cabinet-01",
+      "variantCount": 2,
+      "fieldVariantCount": 0,
+      "identityBasis": "SAME_STABLE_PERSON_ID_AND_SHARED_NAME_OR_ALIAS"
+    },
+    {
+      "type": "politicians",
       "id": "pol-r149-cabinet-02",
       "variantCount": 3,
       "fieldVariantCount": 0,
@@ -5159,6 +5333,20 @@
       "id": "pol-r149-cabinet-04",
       "variantCount": 4,
       "fieldVariantCount": 4,
+      "identityBasis": "SAME_STABLE_PERSON_ID_AND_SHARED_NAME_OR_ALIAS"
+    },
+    {
+      "type": "politicians",
+      "id": "pol-r149-cabinet-05",
+      "variantCount": 2,
+      "fieldVariantCount": 0,
+      "identityBasis": "SAME_STABLE_PERSON_ID_AND_SHARED_NAME_OR_ALIAS"
+    },
+    {
+      "type": "politicians",
+      "id": "pol-r149-cabinet-06",
+      "variantCount": 2,
+      "fieldVariantCount": 0,
       "identityBasis": "SAME_STABLE_PERSON_ID_AND_SHARED_NAME_OR_ALIAS"
     },
     {
@@ -5191,8 +5379,29 @@
     },
     {
       "type": "politicians",
+      "id": "pol-r149-cabinet-11",
+      "variantCount": 2,
+      "fieldVariantCount": 0,
+      "identityBasis": "SAME_STABLE_PERSON_ID_AND_SHARED_NAME_OR_ALIAS"
+    },
+    {
+      "type": "politicians",
       "id": "pol-r149-cabinet-12",
       "variantCount": 3,
+      "fieldVariantCount": 0,
+      "identityBasis": "SAME_STABLE_PERSON_ID_AND_SHARED_NAME_OR_ALIAS"
+    },
+    {
+      "type": "politicians",
+      "id": "pol-r149-cabinet-13",
+      "variantCount": 2,
+      "fieldVariantCount": 0,
+      "identityBasis": "SAME_STABLE_PERSON_ID_AND_SHARED_NAME_OR_ALIAS"
+    },
+    {
+      "type": "politicians",
+      "id": "pol-r149-cabinet-14",
+      "variantCount": 2,
       "fieldVariantCount": 0,
       "identityBasis": "SAME_STABLE_PERSON_ID_AND_SHARED_NAME_OR_ALIAS"
     },
@@ -6380,7 +6589,7 @@
       "identityBasis": "SAME_STABLE_ROLE_ID_AND_SHARED_TITLE"
     }
   ],
-  "safeMergeCount": 839,
+  "safeMergeCount": 867,
   "exactDuplicateIds": [
     {
       "type": "politicians",
@@ -6445,42 +6654,6 @@
     {
       "type": "politicians",
       "id": "pol-park-se-gyeong-r159",
-      "copies": 2,
-      "uniqueVersions": 1
-    },
-    {
-      "type": "politicians",
-      "id": "pol-r149-cabinet-01",
-      "copies": 2,
-      "uniqueVersions": 1
-    },
-    {
-      "type": "politicians",
-      "id": "pol-r149-cabinet-05",
-      "copies": 2,
-      "uniqueVersions": 1
-    },
-    {
-      "type": "politicians",
-      "id": "pol-r149-cabinet-06",
-      "copies": 2,
-      "uniqueVersions": 1
-    },
-    {
-      "type": "politicians",
-      "id": "pol-r149-cabinet-11",
-      "copies": 2,
-      "uniqueVersions": 1
-    },
-    {
-      "type": "politicians",
-      "id": "pol-r149-cabinet-13",
-      "copies": 2,
-      "uniqueVersions": 1
-    },
-    {
-      "type": "politicians",
-      "id": "pol-r149-cabinet-14",
       "copies": 2,
       "uniqueVersions": 1
     },
@@ -6852,17 +7025,10 @@
     "data/documents/run134-cabinet-transcriptions-d.json",
     "data/documents/run134-cabinet-transcriptions-e.json",
     "data/documents/run134-cabinet-transcriptions-f.json",
-    "data/documents/run134-constitutional-source-audit.json",
     "data/documents/run141-local-government-archive.json",
     "data/documents/run142-frus-treaty-negotiation.json",
     "data/documents/run144-frus-june1953.json",
-    "data/documents/run150-education-agriculture.json",
-    "data/documents/run150-local-archives.json",
     "data/documents/run150-original-viewer-index.json",
-    "data/documents/run152-1957-58-law-index.json",
-    "data/documents/run152-coop-education-policy.json",
-    "data/documents/run153-election-local.json",
-    "data/documents/run153-legislative-conflict.json",
     "data/documents/run160-frus1961-source-headers.json",
     "data/documents/run51-robertson-armistice-bargain.json",
     "data/documents/run52-armistice-implementation-reconstruction.json",
@@ -6877,7 +7043,6 @@
     "data/events/run142-1948-constitutional-budget-votes.json",
     "data/events/run142-enforcement-actions.json",
     "data/events/run149-actor-links.json",
-    "data/events/run150-local-election-date-correction.json",
     "data/events/run153-actor-links.json",
     "data/evidence/1949-1953-legal-transition-run183.json",
     "data/evidence/1949-external-procurement-assembly-run181.json",
@@ -6888,10 +7053,7 @@
     "data/evidence/ahn-jae-hong.json",
     "data/evidence/chang-do-yeong-run181.json",
     "data/evidence/chang-myon-run108.json",
-    "data/evidence/chang-myon.json",
-    "data/evidence/cho-bong-am.json",
     "data/evidence/cho-byeong-ok-run180.json",
-    "data/evidence/cho-chung-hwan-1955.json",
     "data/evidence/cho-chung-whan.json",
     "data/evidence/choi-duk-shin-1953.json",
     "data/evidence/choi-myeong-sik-run180b.json",
@@ -7006,7 +7168,6 @@
     "data/evidence/rhee-syngman-run197b.json",
     "data/evidence/rhee-syngman-run197d.json",
     "data/evidence/rhee-syngman.json",
-    "data/evidence/rhee/pass-253-cabinet-metadata-divergence.json",
     "data/evidence/rhee/run112-1950-stabilization-evidence.json",
     "data/evidence/rhee/run113-prewar.json",
     "data/evidence/rhee/run114-institutions.json",
@@ -7043,14 +7204,11 @@
     "data/evidence/seo-beom-seok.json",
     "data/evidence/shin-ik-hui-1953-labor.json",
     "data/evidence/shin-ik-hui-run176.json",
-    "data/evidence/shin-ik-hui.json",
     "data/evidence/shin-tae-young.json",
     "data/evidence/sohn-won-yil-run180.json",
     "data/evidence/sohn-won-yil.json",
     "data/evidence/song-in-sang.json",
-    "data/evidence/won-yong-duk.json",
     "data/evidence/won-yong-tok.json",
-    "data/evidence/yang-yu-chan-1955.json",
     "data/evidence/yu-wan-chang.json",
     "data/evidence/yun-chi-yeong-run113.json",
     "data/evidence/yun-posun-run181.json",
@@ -7279,7 +7437,6 @@
     "data/research/evidence/pass-174-antimin-interim-division-adversarial.json",
     "data/research/evidence/pass-175-antimin-legislative-network.json",
     "data/research/evidence/pass-177-antimin-committee-roster-correction.json",
-    "data/research/evidence/pass-178-antimin-primary-roster-and-organization.json",
     "data/research/evidence/pass-184-provincial-identity-adversarial.json",
     "data/research/evidence/pass-185-provincial-chair-roster.json",
     "data/research/evidence/pass-186-kim-woo-jong-identity-crosscheck.json",
@@ -7288,24 +7445,13 @@
     "data/research/evidence/pass-214-governance-node-verification.json",
     "data/research/evidence/pass-215-institutional-adversarial-verification.json",
     "data/research/evidence/pass-216-foreign-security-institutional-verification.json",
-    "data/research/evidence/pass-218-frus-border-uncok-security-press-expansion.json",
-    "data/research/evidence/pass-219-economic-landreform-aid-governance.json",
-    "data/research/evidence/pass-220-landreform-stabilization-military-aid.json",
-    "data/research/evidence/pass-221-stabilization-landreform-implementation.json",
-    "data/research/evidence/pass-222-election-police-actors.json",
-    "data/research/evidence/pass-223-june1950-transition-war-actors.json",
-    "data/research/evidence/pass-224-june1950-home-affairs-chain.json",
-    "data/research/evidence/pass-225-june1950-police-chief-correction.json",
     "data/research/evidence/pass-227-jang-seok-yun-state-administration-expansion.json",
     "data/research/evidence/pass-239-domestic-constitutional-primary-audit.json",
     "data/research/evidence/pass-240-busan-martial-law-domestic-command-audit.json",
-    "data/research/evidence/pass-249-1952-governance-breadth-audit.json",
     "data/research/evidence/pass-269-1952-election-enforcement-adversarial.json",
     "data/research/evidence/pass-301-april19-firing-command-adversarial-audit.json",
     "data/research/first-to-second-republic-institutional-coverage.json",
-    "data/research/forest-coverage-pass2.json",
     "data/research/forest-coverage-pass3-count-correction.json",
-    "data/research/forest-coverage-pass3.json",
     "data/research/forest-coverage.json",
     "data/research/forest-pass4-final-gaps-seed.json",
     "data/research/forest-v1-uniqueness-audit.json",
@@ -7514,6 +7660,7 @@
     "data/research/lead-queues/run136-next-03.json",
     "data/research/lead-queues/run136-next-04.json",
     "data/research/lead-queues/run136-next-05.json",
+    "data/research/lead-queues/run136-teller-identity.json",
     "data/research/lead-queues/run137-next.json",
     "data/research/lead-queues/run137-provincial-next.json",
     "data/research/lead-queues/run139-next.json",
@@ -8415,7 +8562,7 @@
     "data/research/weekly-history-debt-review-2026-10-11-run146-continuation.json",
     "data/votes/1960-06-15-constitutional-amendment.json"
   ],
-  "auxiliaryRecords": 2232,
+  "auxiliaryRecords": 2206,
   "partialSources": [
     "data/politicians/pass-247c-june1960-original-actors.json",
     "data/politicians/pass-247d-assembly-actors.json",
@@ -8601,10 +8748,6 @@
       "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
-      "path": "data/documents/run134-constitutional-source-audit.json",
-      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
-    },
-    {
       "path": "data/documents/run141-local-government-archive.json",
       "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
@@ -8617,31 +8760,7 @@
       "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
-      "path": "data/documents/run150-education-agriculture.json",
-      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
-    },
-    {
-      "path": "data/documents/run150-local-archives.json",
-      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
-    },
-    {
       "path": "data/documents/run150-original-viewer-index.json",
-      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
-    },
-    {
-      "path": "data/documents/run152-1957-58-law-index.json",
-      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
-    },
-    {
-      "path": "data/documents/run152-coop-education-policy.json",
-      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
-    },
-    {
-      "path": "data/documents/run153-election-local.json",
-      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
-    },
-    {
-      "path": "data/documents/run153-legislative-conflict.json",
       "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
@@ -8701,10 +8820,6 @@
       "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
-      "path": "data/events/run150-local-election-date-correction.json",
-      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
-    },
-    {
       "path": "data/events/run153-actor-links.json",
       "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
@@ -8745,19 +8860,7 @@
       "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
-      "path": "data/evidence/chang-myon.json",
-      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
-    },
-    {
-      "path": "data/evidence/cho-bong-am.json",
-      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
-    },
-    {
       "path": "data/evidence/cho-byeong-ok-run180.json",
-      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
-    },
-    {
-      "path": "data/evidence/cho-chung-hwan-1955.json",
       "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
@@ -9217,10 +9320,6 @@
       "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
-      "path": "data/evidence/rhee/pass-253-cabinet-metadata-divergence.json",
-      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
-    },
-    {
       "path": "data/evidence/rhee/run112-1950-stabilization-evidence.json",
       "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
@@ -9365,10 +9464,6 @@
       "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
-      "path": "data/evidence/shin-ik-hui.json",
-      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
-    },
-    {
       "path": "data/evidence/shin-tae-young.json",
       "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
@@ -9385,15 +9480,7 @@
       "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
-      "path": "data/evidence/won-yong-duk.json",
-      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
-    },
-    {
       "path": "data/evidence/won-yong-tok.json",
-      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
-    },
-    {
-      "path": "data/evidence/yang-yu-chan-1955.json",
       "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
@@ -10309,10 +10396,6 @@
       "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
-      "path": "data/research/evidence/pass-178-antimin-primary-roster-and-organization.json",
-      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
-    },
-    {
       "path": "data/research/evidence/pass-184-provincial-identity-adversarial.json",
       "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
@@ -10345,38 +10428,6 @@
       "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
-      "path": "data/research/evidence/pass-218-frus-border-uncok-security-press-expansion.json",
-      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
-    },
-    {
-      "path": "data/research/evidence/pass-219-economic-landreform-aid-governance.json",
-      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
-    },
-    {
-      "path": "data/research/evidence/pass-220-landreform-stabilization-military-aid.json",
-      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
-    },
-    {
-      "path": "data/research/evidence/pass-221-stabilization-landreform-implementation.json",
-      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
-    },
-    {
-      "path": "data/research/evidence/pass-222-election-police-actors.json",
-      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
-    },
-    {
-      "path": "data/research/evidence/pass-223-june1950-transition-war-actors.json",
-      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
-    },
-    {
-      "path": "data/research/evidence/pass-224-june1950-home-affairs-chain.json",
-      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
-    },
-    {
-      "path": "data/research/evidence/pass-225-june1950-police-chief-correction.json",
-      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
-    },
-    {
       "path": "data/research/evidence/pass-227-jang-seok-yun-state-administration-expansion.json",
       "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
@@ -10386,10 +10437,6 @@
     },
     {
       "path": "data/research/evidence/pass-240-busan-martial-law-domestic-command-audit.json",
-      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
-    },
-    {
-      "path": "data/research/evidence/pass-249-1952-governance-breadth-audit.json",
       "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
@@ -10405,15 +10452,7 @@
       "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
-      "path": "data/research/forest-coverage-pass2.json",
-      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
-    },
-    {
       "path": "data/research/forest-coverage-pass3-count-correction.json",
-      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
-    },
-    {
-      "path": "data/research/forest-coverage-pass3.json",
       "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
@@ -11246,6 +11285,10 @@
     },
     {
       "path": "data/research/lead-queues/run136-next-05.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/lead-queues/run136-teller-identity.json",
       "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {

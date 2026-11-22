@@ -1,12 +1,12 @@
 {
   "schemaVersion": 2,
   "group": "data-politicians.json",
-  "sourceSnapshotCommit": "0ec4d08748213b231310076d3933bb1e40810177",
-  "sourceTreeSha": "20a15a95a0c107cf8c72c04cc286d54eb6d16373",
-  "fileCount": 365,
+  "sourceSnapshotCommit": "702c0274e249a9bc1bacb89d61b351a23d79a3b0",
+  "sourceTreeSha": "aef275801ebc259e2bc7278b1a9a3cfca32fd95c",
+  "fileCount": 366,
   "statusCounts": {
     "BLOCKED_ID_CONFLICT": 27,
-    "CANONICAL_MATERIALIZED": 285,
+    "CANONICAL_MATERIALIZED": 286,
     "NON_JSON_SOURCE_PRESERVED": 9,
     "PARTIAL_CANONICAL_MATERIALIZED": 9,
     "UNMAPPED_AUXILIARY_OR_PARTIAL": 35
@@ -5116,6 +5116,29 @@
       "unintegratedReason": null
     },
     {
+      "path": "data/politicians/run136-teller-candidates.json",
+      "gitBlobSha": "02fcbb5d58cbd7de2a5c82d86c69968af15c2a3d",
+      "sha256": "e011fa76d3d58d2e962b74bc1b84b9d07cbc2e02f5c30b0264164ae6d7ebcdf1",
+      "bytes": 3949,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 3,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "politician_candidate_source",
+      "targetRegistries": [
+        "politicians",
+        "roles"
+      ],
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
       "path": "data/politicians/run137-local-candidates.json",
       "gitBlobSha": "12b443f621e6ddb730f83b8c4440eb7629f6d2c2",
       "sha256": "b0a6e5b00e37206586a30c88ab382b84f8974018a8baa57b9fdfd720ecbfca23",
@@ -5426,9 +5449,9 @@
     },
     {
       "path": "data/politicians/run149-cabinet-candidates.json",
-      "gitBlobSha": "1e0ff57ccb20e4d2daee7e7ac6f4287f5434ddb2",
-      "sha256": "b83aa5cc3c818913fd6f472a73095247b5b290e63653b6d1c92e7b9057ffeeca",
-      "bytes": 12176,
+      "gitBlobSha": "7d41c6b548293426a382195d00527620e05e0d6d",
+      "sha256": "05636bd71ea76751fe2b3dc3cb60d3f0b529b667298c5ea47a21818f956686fd",
+      "bytes": 11868,
       "recordCounts": {
         "documents": 0,
         "claims": 0,
@@ -5771,9 +5794,9 @@
     },
     {
       "path": "data/politicians/run162-sofa-actors.json",
-      "gitBlobSha": "f208b56a68681278c51fb0d3ab7c7251967c7071",
-      "sha256": "ab221c6f970cec31467af89797dc45f739b918474bda3a6c7be0f29157bf1dd4",
-      "bytes": 13447,
+      "gitBlobSha": "af12ee5d609e3ba6a0db1a947b15321ec702f4bf",
+      "sha256": "5a9b0972f25e8b9e173c47da4837b1e84a69250f69355aee769db9f9bace53b9",
+      "bytes": 13862,
       "recordCounts": {
         "documents": 0,
         "claims": 0,

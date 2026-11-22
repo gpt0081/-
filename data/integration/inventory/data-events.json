@@ -1,14 +1,14 @@
 {
   "schemaVersion": 2,
   "group": "data-events.json",
-  "sourceSnapshotCommit": "0ec4d08748213b231310076d3933bb1e40810177",
-  "sourceTreeSha": "20a15a95a0c107cf8c72c04cc286d54eb6d16373",
+  "sourceSnapshotCommit": "702c0274e249a9bc1bacb89d61b351a23d79a3b0",
+  "sourceTreeSha": "aef275801ebc259e2bc7278b1a9a3cfca32fd95c",
   "fileCount": 494,
   "statusCounts": {
     "BLOCKED_ID_CONFLICT": 3,
-    "CANONICAL_MATERIALIZED": 475,
+    "CANONICAL_MATERIALIZED": 476,
     "NON_JSON_SOURCE_PRESERVED": 4,
-    "UNMAPPED_AUXILIARY_OR_PARTIAL": 12
+    "UNMAPPED_AUXILIARY_OR_PARTIAL": 11
   },
   "files": [
     {
@@ -6048,9 +6048,9 @@
     },
     {
       "path": "data/events/run136-1952-procedural-actions.json",
-      "gitBlobSha": "23d18447236f52a091316e83ec9c9c484c76c20f",
-      "sha256": "28e4b3521ba07f72e5465a3509989b35d39f4f69dd64852fdce04f4a213d60ca",
-      "bytes": 6618,
+      "gitBlobSha": "aace3e5952c0b10814281a8b9738b9663c265f58",
+      "sha256": "b5363e7a25105b2f80a3fac9926e460057c51135c2bc859bd018d1986ab958b5",
+      "bytes": 7131,
       "recordCounts": {
         "documents": 0,
         "claims": 0,
@@ -6692,7 +6692,7 @@
       "recordCounts": {
         "documents": 0,
         "claims": 0,
-        "events": 0,
+        "events": 1,
         "politicians": 0,
         "organizations": 0,
         "roles": 0
@@ -6701,10 +6701,10 @@
       "targetRegistries": [
         "events"
       ],
-      "sourceStatus": "AUXILIARY_JSON_INDEXED",
-      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
       "conflicts": [],
-      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+      "unintegratedReason": null
     },
     {
       "path": "data/events/run150-peacetime-policy.json",
@@ -9788,9 +9788,9 @@
     },
     {
       "path": "data/events/run218-korea-japan-actions.json",
-      "gitBlobSha": "61ba018703c273cc92a5ed293be780303238bcf3",
-      "sha256": "c45243f7e4234b4e66dfc30093a6b1ee9b3d21c509dd4ac2ac916f02ab6abf57",
-      "bytes": 10188,
+      "gitBlobSha": "e76cd5a4f665563e1de7cd9eea583fb4b4cc692b",
+      "sha256": "a69021b3a137258a4fa1f39b40af5e4481860a099fb0a427e98e933e67ed3d4d",
+      "bytes": 10242,
       "recordCounts": {
         "documents": 0,
         "claims": 0,

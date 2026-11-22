@@ -2,21 +2,21 @@
   "schemaVersion": 1,
   "registryType": "operational_layers",
   "selectionPolicy": "ALL_SIDECAR_FILES_PRESERVED; EXPLICIT_ID_LINKS_ONLY; UNLINKED_FILES_RETAINED",
-  "sourceCount": 1405,
-  "linkedCount": 520,
-  "unlinkedCount": 885,
+  "sourceCount": 1406,
+  "linkedCount": 584,
+  "unlinkedCount": 822,
   "layerCounts": {
     "annals": 426,
     "coverage": 72,
     "evidence": 192,
     "history_debt": 164,
-    "lead_queue": 551
+    "lead_queue": 552
   },
   "relationCounts": {
-    "candidatePoliticianIds": 1504,
+    "candidatePoliticianIds": 1528,
     "relatedClaimIds": 139,
-    "relatedDocumentIds": 1967,
-    "relatedEventIds": 2297,
+    "relatedDocumentIds": 2513,
+    "relatedEventIds": 2322,
     "relatedOrganizationIds": 1,
     "relatedRoleIds": 0
   },
@@ -270,7 +270,20 @@
         "pol-rhee-syngman"
       ],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d143-080020",
+        "d143-080040",
+        "d143-080050",
+        "d143-080060",
+        "d143-080070",
+        "d143-080080",
+        "d143-100010",
+        "d143-100040",
+        "d143-100050",
+        "d143-100070",
+        "d143-110040",
+        "d143-frus-589"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -1388,12 +1401,15 @@
         "documents",
         "events"
       ],
-      "linkStatus": "EXPLICITLY_LINKED",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [
         "pol-kim-seong-su"
       ],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d120-kdb-0607-kim",
+        "d120-nec-1950-official"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -2294,7 +2310,7 @@
       "sourcePath": "data/evidence/cho-bong-am.json",
       "sourceSha256": "310c3ee0a2e7af1dbebc73f4e4197909464906f510a6b9e9c728316d39656ff6",
       "sourceBytes": 4369,
-      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "sourceStatus": "CANONICAL_MATERIALIZED",
       "targetRegistries": [
         "evidence",
         "politicians",
@@ -2898,10 +2914,31 @@
         "documents",
         "events"
       ],
-      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d107-pa-341",
+        "d107-pa-342",
+        "d107-pa-343",
+        "d107-pa-347",
+        "d107-pa-348",
+        "d107-pa-349",
+        "d107-pa-352",
+        "d107-pa-355",
+        "d107-pa-356",
+        "d107-pa-357",
+        "d107-pa-365",
+        "d107-pa-369",
+        "d107-pa-373",
+        "d107-pa-377",
+        "d107-pa-378",
+        "d107-pa-380",
+        "d107-pa-381",
+        "d107-pa-385",
+        "d107-pa-388",
+        "d107-pa-394"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -3637,17 +3674,57 @@
       "id": "sidecar-130bce8360f518720fe5a0b6",
       "layer": "coverage",
       "sourcePath": "data/research/coverage/run225.json",
-      "sourceSha256": "77a64eb2b92789da8745b35e9a1fc314103d6ed48618062f5db8a32416056f96",
-      "sourceBytes": 1404,
+      "sourceSha256": "6d9b9d19836b7af7a531c7764818f9640d23f1a99f84e4e517029399b1205520",
+      "sourceBytes": 3036,
       "sourceStatus": "AUXILIARY_JSON_INDEXED",
       "targetRegistries": [
         "coverage",
         "politicians",
         "events"
       ],
-      "linkStatus": "NO_EXPLICIT_IDENTITY",
-      "candidatePoliticianIds": [],
-      "relatedEventIds": [],
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
+      "candidatePoliticianIds": [
+        "cand-r174-jo-ju-yeong",
+        "cand-r225-baek-nam-sik-1952",
+        "cand-r225-kim-il-ro-1952",
+        "cand-r225-lee-jae-hyeong-1952",
+        "cand-r225-seo-yi-hwan-1952",
+        "pol-cho-bong-am",
+        "pol-lee-beom-seok",
+        "pol-paik-too-chin",
+        "pol-pyun-yong-tae",
+        "pol-r139-jang-taek-sang",
+        "pol-r141-shin-ik-hui",
+        "pol-r148-kwak-sang-hun",
+        "pol-r164-ji-cheong-cheon",
+        "pol-r164-seo-min-ho"
+      ],
+      "relatedEventIds": [
+        "evt-r225-assembly-vote",
+        "evt-r225-cabinet-command-chain",
+        "evt-r225-cabinet-compromise",
+        "evt-r225-cabinet-election-legislation",
+        "evt-r225-cabinet-martial-geography",
+        "evt-r225-cabinet-martial-repeal",
+        "evt-r225-cabinet-reserve-budget",
+        "evt-r225-cabinet-vote-time-conflict",
+        "evt-r225-ci-release",
+        "evt-r225-clark-plan-not-executed",
+        "evt-r225-economic-board",
+        "evt-r225-july-arrest-report",
+        "evt-r225-june-dissolution",
+        "evt-r225-lee-arrest-proposal",
+        "evt-r225-panikkar-chou",
+        "evt-r225-pow-83000",
+        "evt-r225-pow-screening-coercion",
+        "evt-r225-promulgation",
+        "evt-r225-rhee-communist-allegation",
+        "evt-r225-rhee-public-letter",
+        "evt-r225-suiho-strike",
+        "evt-r225-uk-nine-points",
+        "evt-r225-us-conditional-compromise",
+        "evt-r225-us-contingency-plans"
+      ],
       "relatedDocumentIds": [],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
@@ -3655,7 +3732,7 @@
       "provenance": [
         {
           "path": "data/research/coverage/run225.json",
-          "sha256": "77a64eb2b92789da8745b35e9a1fc314103d6ed48618062f5db8a32416056f96"
+          "sha256": "6d9b9d19836b7af7a531c7764818f9640d23f1a99f84e4e517029399b1205520"
         }
       ]
     },
@@ -3753,10 +3830,14 @@
         "documents",
         "events"
       ],
-      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d114-aks-choi",
+        "d114-bok-opening-history",
+        "d114-decree350"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -4164,10 +4245,17 @@
         "documents",
         "events"
       ],
-      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d117-edu-19490330-cabinet",
+        "d117-edu-19490910-seoul",
+        "d117-edu-aks-law",
+        "d117-edu-aks-textbooks",
+        "d117-edu-krivet",
+        "d117-edu-law86-transcribed"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -4219,10 +4307,14 @@
         "documents",
         "events"
       ],
-      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d117-court1969-68da882",
+        "d117-decree277-transcription",
+        "d117-pa-decree277"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -4364,10 +4456,19 @@
         "documents",
         "events"
       ],
-      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d129-cons-0110",
+        "d129-cons-0120",
+        "d129-cons-0130",
+        "d129-cons-0140",
+        "d129-cons-0150",
+        "d129-cons-0160",
+        "d129-cons-0170",
+        "d129-nara-1952-constitutional-exhibit"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -4392,10 +4493,14 @@
         "events",
         "claims"
       ],
-      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d108-frus49-300",
+        "d108-frus51-332",
+        "d108-kor-land-budget"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -4419,12 +4524,14 @@
         "documents",
         "events"
       ],
-      "linkStatus": "EXPLICITLY_LINKED",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [],
       "relatedEventIds": [
         "evt-r182-15"
       ],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d95-constitutional"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -4664,12 +4771,18 @@
         "claims",
         "events"
       ],
-      "linkStatus": "EXPLICITLY_LINKED",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [
         "pol-rhee-syngman"
       ],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d114-bok-opening-history",
+        "d114-decree350",
+        "d114-hanseong-19500422",
+        "d114-seoul-19500422",
+        "d114-yonhap-19500423"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -5598,10 +5711,15 @@
         "events",
         "claims"
       ],
-      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d142-news-agrarian",
+        "d142-news-interior",
+        "d142-pa387",
+        "d142-pa388"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -5739,10 +5857,18 @@
         "events",
         "claims"
       ],
-      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d118-frus29",
+        "d118-frus30",
+        "d118-frus38",
+        "d118-frus39",
+        "d118-hanseong",
+        "d118-stat447",
+        "d118-stat583"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -6608,12 +6734,15 @@
         "claims",
         "events"
       ],
-      "linkStatus": "EXPLICITLY_LINKED",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [
         "cand-r128-lee-jong-hyeong"
       ],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d129-cons-0120",
+        "d129-cons-0170"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -7187,10 +7316,13 @@
         "documents",
         "events"
       ],
-      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d103-courts-debate",
+        "d103-courts-law51"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -7796,12 +7928,14 @@
         "claims",
         "events"
       ],
-      "linkStatus": "EXPLICITLY_LINKED",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [
         "pol-park-sang-yeong"
       ],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d95-constitutional"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -8035,12 +8169,15 @@
         "documents",
         "events"
       ],
-      "linkStatus": "EXPLICITLY_LINKED",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [
         "pol-lee-yun-yeong"
       ],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d120-kdb-0607-miners",
+        "d120-kdb-0607-welfare"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -8310,10 +8447,29 @@
         "documents",
         "events"
       ],
-      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d131-0627-0050",
+        "d131-0628-0040",
+        "d131-0630-0020",
+        "d131-0701-0030",
+        "d131-0701-0050",
+        "d131-0702-0060",
+        "d131-0702-0100",
+        "d131-0703-0030",
+        "d131-0703-0060",
+        "d131-0704-0050",
+        "d131-0704-0060",
+        "d131-0705-0050",
+        "d131-0705-0080",
+        "d131-0705-0100",
+        "d131-0706-0020",
+        "d131-0707-0050",
+        "d131-0708-0060",
+        "d131-vinocour-0628"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -8877,12 +9033,17 @@
         "claims",
         "events"
       ],
-      "linkStatus": "EXPLICITLY_LINKED",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [
         "pol-r149-cabinet-02"
       ],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d149-frus-146",
+        "d149-law-384",
+        "d149-law-385",
+        "d149-law-388"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -8935,10 +9096,12 @@
         "events",
         "claims"
       ],
-      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "linkStatus": "EXPLICITLY_LINKED",
       "candidatePoliticianIds": [],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d148-cabinet"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -9458,10 +9621,13 @@
         "documents",
         "events"
       ],
-      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d143-080080",
+        "d143-100070"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -10140,10 +10306,12 @@
         "documents",
         "events"
       ],
-      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "linkStatus": "EXPLICITLY_LINKED",
       "candidatePoliticianIds": [],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d140-l2"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -10251,10 +10419,26 @@
         "documents",
         "events"
       ],
-      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d120-bok-official-history",
+        "d120-kdb-0523-bank",
+        "d120-kdb-0605-bank",
+        "d120-kdb-0607-austerity",
+        "d120-kdb-0607-bank-appointments",
+        "d120-kdb-0607-coalition",
+        "d120-kdb-0607-kim",
+        "d120-kdb-0607-lawsuits",
+        "d120-kdb-0607-miners",
+        "d120-kdb-0607-north",
+        "d120-kdb-0607-rhee",
+        "d120-kdb-0607-vice",
+        "d120-kdb-0607-welfare",
+        "d120-kdb-0614-property",
+        "d120-nec-1950-official"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -10390,12 +10574,14 @@
         "documents",
         "events"
       ],
-      "linkStatus": "EXPLICITLY_LINKED",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [
         "pol-r139-heo-jeong"
       ],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d139-1952-heo-speech"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -10652,7 +10838,8 @@
       ],
       "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [
-        "pol-kim-youngsam"
+        "pol-kim-youngsam",
+        "president-kim-youngsam"
       ],
       "relatedEventIds": [
         "evt-p239m2-01",
@@ -10774,12 +10961,15 @@
         "claims",
         "events"
       ],
-      "linkStatus": "EXPLICITLY_LINKED",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [
         "pol-lee-yeong-jun"
       ],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d88-h-debate",
+        "d88-h-petition"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -11560,7 +11750,7 @@
       "sourcePath": "data/evidence/chang-myon.json",
       "sourceSha256": "8b82699d59a497fece0df258ab15751f6a317ade7ba84494eb67f8c9d6b81160",
       "sourceBytes": 4717,
-      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "sourceStatus": "CANONICAL_MATERIALIZED",
       "targetRegistries": [
         "evidence",
         "politicians",
@@ -11922,7 +12112,11 @@
         "evt-1950-bank-assembly-debate",
         "evt-1950-bank-cabinet-bill"
       ],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d111-bok-early",
+        "d111-bok-experts",
+        "d111-constitution-art40"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -12148,10 +12342,17 @@
         "documents",
         "events"
       ],
-      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d126-l01",
+        "d126-l02",
+        "d126-l03",
+        "d126-l04",
+        "d126-l05",
+        "d126-l06"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -12332,10 +12533,15 @@
         "claims",
         "events"
       ],
-      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d89-audit-19490709",
+        "d89-audit-officeholders-1952",
+        "d89-audit-resign-19490722",
+        "d89-law22"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -12966,7 +13172,10 @@
         "pol-r139-jang-taek-sang"
       ],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d139-1952-critique",
+        "d139-1952-jang"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -13009,8 +13218,8 @@
       "id": "sidecar-4f46e5dd78cdd4eff57d24b5",
       "layer": "evidence",
       "sourcePath": "data/evidence/chang-myon-run108.json",
-      "sourceSha256": "909bf9d1411dbd590331d257c3f676bcc0c290676b30564c468ab94a36aa43ca",
-      "sourceBytes": 853,
+      "sourceSha256": "bce6bfbdcf60c7a4adad195aa16e7c0f92f55890594cb0ca5d1fdf65e5def6a1",
+      "sourceBytes": 1280,
       "sourceStatus": "AUXILIARY_JSON_INDEXED",
       "targetRegistries": [
         "evidence",
@@ -13019,17 +13228,23 @@
         "claims",
         "events"
       ],
-      "linkStatus": "NO_EXPLICIT_IDENTITY",
-      "candidatePoliticianIds": [],
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
+      "candidatePoliticianIds": [
+        "pol-chang-myon"
+      ],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d108-frus51-304",
+        "d108-frus51-339",
+        "d108-frus51-71"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
       "provenance": [
         {
           "path": "data/evidence/chang-myon-run108.json",
-          "sha256": "909bf9d1411dbd590331d257c3f676bcc0c290676b30564c468ab94a36aa43ca"
+          "sha256": "bce6bfbdcf60c7a4adad195aa16e7c0f92f55890594cb0ca5d1fdf65e5def6a1"
         }
       ]
     },
@@ -13047,10 +13262,28 @@
         "events",
         "claims"
       ],
-      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d141-pa764",
+        "d141-pa765",
+        "d141-pa766",
+        "d141-pa767",
+        "d141-pa768",
+        "d141-pa769",
+        "d141-pa770",
+        "d141-pa771",
+        "d141-pa772",
+        "d141-pa773",
+        "d141-pa774",
+        "d141-pa775",
+        "d141-pa776",
+        "d141-pa777",
+        "d141-pa778",
+        "d141-pa779",
+        "d141-pa780"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -13618,10 +13851,14 @@
         "documents",
         "events"
       ],
-      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d141-pa772",
+        "d142-1953-index",
+        "d142-rule9"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -13802,7 +14039,15 @@
         "pol-yi-gap-seong"
       ],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d124-aks-dong",
+        "d124-aks-eom",
+        "d124-aks-gap",
+        "d124-aks-im",
+        "d124-election",
+        "d124-negotiation",
+        "d124-party"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -14072,10 +14317,14 @@
         "claims",
         "events"
       ],
-      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d116-assembly-19481208",
+        "d116-assembly-19481209",
+        "d116-press-19490723"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -14559,13 +14808,15 @@
         "cand-r218-kim-tae-dong",
         "cand-r218-lee-sang-deok",
         "cand-r218-ryu-tae-ha",
+        "pol-choi-kyu-hah",
         "pol-hong-chin-ki",
         "pol-im-song-bon",
         "pol-kim-dong-jo",
         "pol-kim-yong-shik",
         "pol-shin-sung-mo",
         "pol-yang-yu-chan",
-        "pol-yu-jin-o"
+        "pol-yu-jin-o",
+        "president-choi-kyuhah"
       ],
       "relatedEventIds": [],
       "relatedDocumentIds": [
@@ -14627,10 +14878,19 @@
         "documents",
         "events"
       ],
-      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d125-clair103",
+        "d125-daegu",
+        "d125-kyunghyang",
+        "d125-minjusinbo",
+        "d125-nec",
+        "d125-nikh-constitutional",
+        "d125-pa",
+        "d125-un-a2187"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -14735,6 +14995,42 @@
       ]
     },
     {
+      "id": "sidecar-598ba68f7b030f8edfb53686",
+      "layer": "lead_queue",
+      "sourcePath": "data/research/lead-queues/run136-teller-identity.json",
+      "sourceSha256": "bfae5192fc1e981618067110f89aeaf82844dca393ee32a6f478594db77f8ead",
+      "sourceBytes": 1061,
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "targetRegistries": [
+        "open_leads",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
+      "candidatePoliticianIds": [
+        "cand-r136-jang-geon-sang",
+        "cand-r136-jeong-mun-heum",
+        "cand-r136-kim-yang-su"
+      ],
+      "relatedEventIds": [
+        "evt-r136-tellers"
+      ],
+      "relatedDocumentIds": [
+        "d129-cons-0170"
+      ],
+      "relatedClaimIds": [],
+      "relatedOrganizationIds": [],
+      "relatedRoleIds": [],
+      "provenance": [
+        {
+          "path": "data/research/lead-queues/run136-teller-identity.json",
+          "sha256": "bfae5192fc1e981618067110f89aeaf82844dca393ee32a6f478594db77f8ead"
+        }
+      ]
+    },
+    {
       "id": "sidecar-59c5b42547460ab32e01defd",
       "layer": "annals",
       "sourcePath": "data/annals/choi-myeong-sik-run180b.md",
@@ -14833,10 +15129,15 @@
         "documents",
         "events"
       ],
-      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d150-frus-78",
+        "d150-frus-87",
+        "d150-frus-91",
+        "d150-frus-92"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -14967,9 +15268,10 @@
         "documents",
         "events"
       ],
-      "linkStatus": "EXPLICITLY_LINKED",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [
-        "pol-kim-youngsam"
+        "pol-kim-youngsam",
+        "president-kim-youngsam"
       ],
       "relatedEventIds": [],
       "relatedDocumentIds": [],
@@ -15053,10 +15355,21 @@
         "documents",
         "events"
       ],
-      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d114-bok-law-history",
+        "d114-bok-opening-history",
+        "d114-bok-transfer-index",
+        "d114-court-rule1",
+        "d114-decree350",
+        "d114-decree359",
+        "d114-hanseong-19500422",
+        "d114-law138",
+        "d114-seoul-19500422",
+        "d114-yonhap-19500423"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -15303,10 +15616,22 @@
         "documents",
         "events"
       ],
-      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d126-d0529-0010",
+        "d126-d0529-0030",
+        "d126-d0529-0040",
+        "d126-d0529-0050",
+        "d126-d0529-0130",
+        "d126-d0529-0150",
+        "d126-d0530-0010",
+        "d126-d0530-0040",
+        "d126-d0530-0060",
+        "d126-d0531-0010",
+        "d126-d0531-0040"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -15455,12 +15780,15 @@
         "documents",
         "events"
       ],
-      "linkStatus": "EXPLICITLY_LINKED",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [],
       "relatedEventIds": [
         "evt-r140-union-debate"
       ],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d140-l2",
+        "d140-x7"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -16839,10 +17167,17 @@
         "documents",
         "events"
       ],
-      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d101-agriculture-plan",
+        "d101-aid-circular",
+        "d101-budget-speech",
+        "d101-health-ministry",
+        "d101-rail-guide",
+        "d101-tb-19490522"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -17372,10 +17707,16 @@
         "documents",
         "events"
       ],
-      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d131-0612-0070",
+        "d131-0618-0070",
+        "d131-0619-0020",
+        "d131-0701-0030",
+        "d131-0703-0040"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -18666,10 +19007,16 @@
         "documents",
         "events"
       ],
-      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d115-assembly-19500309",
+        "d115-assembly-19500310",
+        "d115-assembly-19500313",
+        "d115-assembly-19500314",
+        "d115-us-embassy-19500322"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -19424,10 +19771,19 @@
         "claims",
         "events"
       ],
-      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d118-frus29",
+        "d118-frus3",
+        "d118-frus30",
+        "d118-frus38",
+        "d118-frus39",
+        "d118-hanseong",
+        "d118-stat447",
+        "d118-stat583"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -19478,12 +19834,22 @@
         "claims",
         "events"
       ],
-      "linkStatus": "EXPLICITLY_LINKED",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [
         "pol-rhee-syngman"
       ],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d108-frus49-294",
+        "d108-frus49-300",
+        "d108-frus51-304",
+        "d108-frus51-332",
+        "d108-frus51-339",
+        "d108-kor-aid-agreement",
+        "d108-kor-aid-sign",
+        "d108-kor-land-budget",
+        "d108-kor-pm-circular"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -20585,10 +20951,15 @@
         "documents",
         "events"
       ],
-      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d108-frus51-304",
+        "d108-frus51-332",
+        "d108-frus51-339",
+        "d108-frus51-71"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -21904,12 +22275,15 @@
         "claims",
         "events"
       ],
-      "linkStatus": "EXPLICITLY_LINKED",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [
         "pol-lee-yun-yeong"
       ],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d120-kdb-0607-miners",
+        "d120-kdb-0607-welfare"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -22435,10 +22809,26 @@
         "documents",
         "events"
       ],
-      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d131-0623-0030",
+        "d131-0623-0040",
+        "d131-0624-0050",
+        "d131-0625-0050",
+        "d131-0626-0010",
+        "d131-0626-0020",
+        "d131-0627-0010",
+        "d131-0627-0050",
+        "d131-0627-0070",
+        "d131-0628-0040",
+        "d131-0628-0050",
+        "d131-0628-0070",
+        "d131-0628-0100",
+        "d131-0628-0110",
+        "d131-0630-0020"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -22597,7 +22987,7 @@
       "sourcePath": "data/evidence/rhee/pass-253-cabinet-metadata-divergence.json",
       "sourceSha256": "bad17d9619b79882d42f103bbc95d362625a6de5b5933fedb7fd5df33f321311",
       "sourceBytes": 4999,
-      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "sourceStatus": "CANONICAL_MATERIALIZED",
       "targetRegistries": [
         "evidence",
         "politicians",
@@ -22605,10 +22995,15 @@
         "claims",
         "events"
       ],
-      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "DOC-NAK-BA0084191-DETAIL",
+        "DOC-NAK-CABINET-KEYWORD-INDEX",
+        "DOC-NAK-CABINET-LIST-1952",
+        "DOC-PA-1952-PROVINCIAL-ELECTION"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -22817,10 +23212,29 @@
         "documents",
         "events"
       ],
-      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d131-0616-0070",
+        "d131-0616-0080",
+        "d131-0616-0090",
+        "d131-0617-0060",
+        "d131-0618-0060",
+        "d131-0618-0070",
+        "d131-0619-0030",
+        "d131-0620-0020",
+        "d131-0620-0030",
+        "d131-0620-0060",
+        "d131-0621-0050",
+        "d131-0621-0070",
+        "d131-0622-0030",
+        "d131-busan-mayor",
+        "d131-club-localhistory",
+        "d131-culture-0721",
+        "d131-frus-163",
+        "d131-rhee-oliver"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -23828,12 +24242,18 @@
         "claims",
         "events"
       ],
-      "linkStatus": "EXPLICITLY_LINKED",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [
         "pol-lim-byong-jik"
       ],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d96-frus-236",
+        "d96-lim-1950-0626",
+        "d96-lim-1950-0805",
+        "d96-nsc8-2",
+        "d96-un293"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -24079,12 +24499,15 @@
         "claims",
         "events"
       ],
-      "linkStatus": "EXPLICITLY_LINKED",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [
         "pol-lee-yun-yeong"
       ],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d110-gazette1949welfare",
+        "d110-welfaredraw1949"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -24306,12 +24729,15 @@
         "claims",
         "events"
       ],
-      "linkStatus": "EXPLICITLY_LINKED",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [
         "cand-r129-jo-ju-yeong"
       ],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d129-cons-0150",
+        "d129-cons-0160"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -24598,10 +25024,16 @@
         "claims",
         "events"
       ],
-      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d125-clair103",
+        "d125-daegu",
+        "d125-kyunghyang",
+        "d125-minjusinbo",
+        "d125-nec"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -25184,12 +25616,15 @@
         "claims",
         "events"
       ],
-      "linkStatus": "EXPLICITLY_LINKED",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [
         "pol-rhee-syngman"
       ],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d115-assembly-19500314",
+        "d115-us-embassy-19500322"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -25297,12 +25732,17 @@
         "documents",
         "events"
       ],
-      "linkStatus": "EXPLICITLY_LINKED",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [
         "pol-r149-cabinet-02"
       ],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d149-frus-146",
+        "d149-law-384",
+        "d149-law-385",
+        "d149-law-388"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -25498,12 +25938,19 @@
         "claims",
         "events"
       ],
-      "linkStatus": "EXPLICITLY_LINKED",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [
         "pol-rhee-syngman"
       ],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d113-frus-12",
+        "d113-frus-19",
+        "d113-frus-2",
+        "d113-frus-21",
+        "d113-frus-27",
+        "d113-frus-30"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -25712,7 +26159,7 @@
       "sourcePath": "data/evidence/won-yong-duk.json",
       "sourceSha256": "2ff2b152dd7e125497c16f7435bdd661984310d26194f5844c39b7897f0358f2",
       "sourceBytes": 1970,
-      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "sourceStatus": "CANONICAL_MATERIALIZED",
       "targetRegistries": [
         "evidence",
         "politicians",
@@ -26585,10 +27032,20 @@
         "documents",
         "events"
       ],
-      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d108-frus49-294",
+        "d108-frus49-306",
+        "d108-frus51-304",
+        "d108-frus51-332",
+        "d108-frus51-339",
+        "d108-kor-aid-agreement",
+        "d108-kor-aid-sign",
+        "d108-kor-land-budget",
+        "d108-kor-pm-circular"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -26674,12 +27131,14 @@
         "claims",
         "events"
       ],
-      "linkStatus": "EXPLICITLY_LINKED",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [
         "pol-rhee-syngman"
       ],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d119-frus-614"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -27507,10 +27966,17 @@
         "documents",
         "events"
       ],
-      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d124-aks-dong",
+        "d124-aks-dong-namesake",
+        "d124-election",
+        "d124-negotiation",
+        "d124-party",
+        "d124-registration"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -27813,10 +28279,13 @@
         "documents",
         "events"
       ],
-      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d110-gazette1949welfare",
+        "d110-welfaredraw1949"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -28802,10 +29271,18 @@
         "documents",
         "events"
       ],
-      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d126-01",
+        "d126-02",
+        "d126-03",
+        "d126-04",
+        "d126-05",
+        "d126-06",
+        "d126-07"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -28938,10 +29415,17 @@
         "documents",
         "events"
       ],
-      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d108-frus49-278",
+        "d108-frus49-281",
+        "d108-frus49-290",
+        "d108-frus49-291",
+        "d108-frus49-299",
+        "d108-frus49-300"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -28996,10 +29480,16 @@
         "events",
         "claims"
       ],
-      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d149-constitution",
+        "d149-cotton",
+        "d149-law-385",
+        "d149-law-388",
+        "d149-local"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -29219,10 +29709,42 @@
         "events",
         "claims"
       ],
-      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d107-pa-341",
+        "d107-pa-342",
+        "d107-pa-343",
+        "d107-pa-347",
+        "d107-pa-348",
+        "d107-pa-349",
+        "d107-pa-352",
+        "d107-pa-355",
+        "d107-pa-356",
+        "d107-pa-357",
+        "d107-pa-365",
+        "d107-pa-367",
+        "d107-pa-369",
+        "d107-pa-370",
+        "d107-pa-371",
+        "d107-pa-373",
+        "d107-pa-375",
+        "d107-pa-376",
+        "d107-pa-377",
+        "d107-pa-378",
+        "d107-pa-380",
+        "d107-pa-381",
+        "d107-pa-382",
+        "d107-pa-385",
+        "d107-pa-386",
+        "d107-pa-387",
+        "d107-pa-388",
+        "d107-pa-389",
+        "d107-pa-390",
+        "d107-pa-393",
+        "d107-pa-394"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -29497,10 +30019,15 @@
         "documents",
         "events"
       ],
-      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d116-assembly-19481208",
+        "d116-assembly-19481209",
+        "d116-press-19490722",
+        "d116-press-19490723"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -29929,7 +30456,11 @@
         "pol-r141-park-sul-eum"
       ],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d141-pa772",
+        "d142-1953-index",
+        "d142-rule9"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -30054,12 +30585,15 @@
         "claims",
         "events"
       ],
-      "linkStatus": "EXPLICITLY_LINKED",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [
         "pol-ahn-jae-hong"
       ],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d81-173",
+        "d81-174"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -30238,7 +30772,11 @@
       "relatedEventIds": [
         "evt-r175-05"
       ],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d142-aks-shin",
+        "d142-news-agrarian",
+        "d142-pa388"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -30272,7 +30810,12 @@
         "evt-r131-0612-rhee-oliver",
         "evt-r131-0616-cafe-licenses"
       ],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d131-0616-0070",
+        "d131-busan-mayor",
+        "d131-frus-163",
+        "d131-rhee-oliver"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -31243,7 +31786,7 @@
       "sourcePath": "data/evidence/cho-chung-hwan-1955.json",
       "sourceSha256": "2a7663e5fcc806a7091e7f9729308f081a9137a7907e107983a0804a6bcbfc74",
       "sourceBytes": 1675,
-      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "sourceStatus": "CANONICAL_MATERIALIZED",
       "targetRegistries": [
         "evidence",
         "politicians",
@@ -31333,7 +31876,22 @@
         "pol-r141-shin-ik-hui"
       ],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d140-l2",
+        "d140-m1",
+        "d141-hm286",
+        "d141-pa764",
+        "d141-pa765",
+        "d141-pa766",
+        "d141-pa767",
+        "d141-pa768",
+        "d141-pa769",
+        "d141-pa772",
+        "d141-pa773",
+        "d141-pa774",
+        "d141-pa778",
+        "d141-pa780"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -32266,10 +32824,12 @@
         "claims",
         "events"
       ],
-      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "linkStatus": "EXPLICITLY_LINKED",
       "candidatePoliticianIds": [],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d106-assembly-1116"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -32406,12 +32966,14 @@
         "documents",
         "events"
       ],
-      "linkStatus": "EXPLICITLY_LINKED",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [
         "pol-lee-sun-tak"
       ],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d92-aks-lee"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -33112,10 +33674,12 @@
         "documents",
         "events"
       ],
-      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "linkStatus": "EXPLICITLY_LINKED",
       "candidatePoliticianIds": [],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d125-un-a2187"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -33616,12 +34180,15 @@
         "claims",
         "events"
       ],
-      "linkStatus": "EXPLICITLY_LINKED",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [
         "pol-kim-seong-su"
       ],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d120-kdb-0607-kim",
+        "d120-nec-1950-official"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -33738,10 +34305,12 @@
         "documents",
         "events"
       ],
-      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "linkStatus": "EXPLICITLY_LINKED",
       "candidatePoliticianIds": [],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d142-education1951"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -33855,10 +34424,16 @@
         "events",
         "claims"
       ],
-      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d108-frus49-271",
+        "d108-frus49-294",
+        "d108-frus51-339",
+        "d108-kor-aid-agreement",
+        "d108-kor-pm-circular"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -34483,7 +35058,10 @@
         "pol-yi-jong-chan-1951"
       ],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d124-negotiation",
+        "d124-party"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -34842,10 +35420,13 @@
         "claims",
         "events"
       ],
-      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d113-assembly-19500311-constitution",
+        "d113-frus-27"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -35362,12 +35943,14 @@
         "claims",
         "events"
       ],
-      "linkStatus": "EXPLICITLY_LINKED",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [
         "pol-hong-seong-ha"
       ],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d92-aks-hong"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -35694,9 +36277,10 @@
         "documents",
         "events"
       ],
-      "linkStatus": "EXPLICITLY_LINKED",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [
-        "pol-yun-posun"
+        "pol-yun-posun",
+        "president-yun-posun"
       ],
       "relatedEventIds": [],
       "relatedDocumentIds": [],
@@ -35892,10 +36476,19 @@
         "claims",
         "events"
       ],
-      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d131-0627-0050",
+        "d131-0701-0030",
+        "d131-0702-0060",
+        "d131-0703-0030",
+        "d131-0705-0080",
+        "d131-0705-0100",
+        "d131-0706-0020",
+        "d131-vinocour-0628"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -36206,10 +36799,18 @@
         "documents",
         "events"
       ],
-      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d126-d0529-0110",
+        "d126-e01-cabinet-roster",
+        "d126-e02-union-congress",
+        "d126-e03-assembly-quorum",
+        "d126-e04-usis-broadcast",
+        "d126-e06-fertilizer-plan",
+        "d126-e07-assembly-boycott"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -36234,10 +36835,17 @@
         "claims",
         "events"
       ],
-      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d131-0621-0020",
+        "d131-0623-0040",
+        "d131-0627-0040",
+        "d131-0628-0040",
+        "d131-0628-0110",
+        "d131-0630-0020"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -36422,7 +37030,7 @@
       "sourcePath": "data/evidence/yang-yu-chan-1955.json",
       "sourceSha256": "f21be95bd2a75164d8fe2a036baac907fa525eb2ea753713cbbe668c00d60b79",
       "sourceBytes": 1691,
-      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "sourceStatus": "CANONICAL_MATERIALIZED",
       "targetRegistries": [
         "evidence",
         "politicians",
@@ -36526,10 +37134,13 @@
         "events",
         "claims"
       ],
-      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d150-kdemo-diesel",
+        "d150-na-choi-court"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -36835,7 +37446,25 @@
         "DOC-P255B-DH-0926-0060",
         "DOC-P255D-UN-A2222",
         "DOC-P255D-UN-ARMS-RETRO",
-        "DOC-P257T-PA-19540731-NNSC-WON-ENDORSEMENT"
+        "DOC-P257T-PA-19540731-NNSC-WON-ENDORSEMENT",
+        "d107-gatt-cm36",
+        "d107-law279-1953",
+        "d107-pa-348",
+        "d107-pa-349",
+        "d107-pa-355",
+        "d107-pa-373",
+        "d107-pa-377",
+        "d107-pa-378",
+        "d107-pa-381",
+        "d107-pa-labor-773",
+        "d107-wto-korea-membership",
+        "d81-173",
+        "d81-33",
+        "d89-property-confirmation-19500224",
+        "d91-UNTS-1216",
+        "d91-aks-law74",
+        "d91-law74-original",
+        "d91-rhee-19490607"
       ],
       "relatedClaimIds": [
         "claim-r171-01",
@@ -37055,10 +37684,16 @@
         "documents",
         "events"
       ],
-      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d117-edu-19481201-sixyear",
+        "d117-edu-19500601-compulsory",
+        "d117-edu-19500601-rhee-speech",
+        "d117-edu-archives-retrospective",
+        "d117-pa-decree277"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -37742,12 +38377,17 @@
         "claims",
         "events"
       ],
-      "linkStatus": "EXPLICITLY_LINKED",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [
         "pol-rhee-syngman"
       ],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d112-1950-feb03-stabilization",
+        "d112-1950-mar11-50-products",
+        "d112-1950-mar13-labor",
+        "d112-archives-stabilization-retrospective"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -38028,10 +38668,14 @@
         "documents",
         "events"
       ],
-      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d100-law74-gazette246",
+        "d100-son-19490215",
+        "d100-teacher-pay-19490722"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -38392,7 +39036,9 @@
       "relatedEventIds": [
         "evt-1949-kim-do-yeon-fed-request"
       ],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d111-bok-experts"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -38407,8 +39053,8 @@
       "id": "sidecar-dcf4c1f011dd03f8fa685b8e",
       "layer": "annals",
       "sourcePath": "data/annals/shin-ik-hui-run141.md",
-      "sourceSha256": "a5142df366bbc12ae2f8004f510bb12b61acc9efd58452f2f1e5f688e8952cf1",
-      "sourceBytes": 532,
+      "sourceSha256": "d5cc89e4f2b246ec7a65a0eacd9455e4ebd956858941a1d1caf5f3b086505a6c",
+      "sourceBytes": 636,
       "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
       "targetRegistries": [
         "annals",
@@ -38416,17 +39062,21 @@
         "documents",
         "events"
       ],
-      "linkStatus": "NO_EXPLICIT_IDENTITY",
-      "candidatePoliticianIds": [],
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
+      "candidatePoliticianIds": [
+        "pol-r141-shin-ik-hui"
+      ],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d140-l2"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
       "provenance": [
         {
           "path": "data/annals/shin-ik-hui-run141.md",
-          "sha256": "a5142df366bbc12ae2f8004f510bb12b61acc9efd58452f2f1e5f688e8952cf1"
+          "sha256": "d5cc89e4f2b246ec7a65a0eacd9455e4ebd956858941a1d1caf5f3b086505a6c"
         }
       ]
     },
@@ -38700,12 +39350,14 @@
         "documents",
         "events"
       ],
-      "linkStatus": "EXPLICITLY_LINKED",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [
         "pol-park-sang-yeong"
       ],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d95-constitutional"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -39466,10 +40118,18 @@
         "documents",
         "events"
       ],
-      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d142-aks-jin",
+        "d142-cons0450",
+        "d142-cons0460",
+        "d142-cons0480",
+        "d142-cons0490",
+        "d142-news-interior",
+        "d142-pa388"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -39556,10 +40216,24 @@
         "events",
         "claims"
       ],
-      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d127-0604-0030",
+        "d127-0605-0090",
+        "d127-0605-0120",
+        "d127-0606-0020",
+        "d127-0606-0060",
+        "d127-0607-0080",
+        "d127-0609-0060",
+        "d127-0609-0080",
+        "d127-0609-0090",
+        "d127-0609-0100",
+        "d127-0610-0020",
+        "d127-0610-0070",
+        "d127-0621-assembly83"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -40438,10 +41112,20 @@
         "events",
         "claims"
       ],
-      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d148-90",
+        "d148-91",
+        "d148-cabinet",
+        "d148-election",
+        "d148-epidemic",
+        "d148-frus",
+        "d148-geneva",
+        "d148-quarantine",
+        "d148-sept8"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -41013,12 +41697,15 @@
         "documents",
         "events"
       ],
-      "linkStatus": "EXPLICITLY_LINKED",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [
         "pol-ahn-jae-hong"
       ],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d81-173",
+        "d81-174"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -42024,10 +42711,12 @@
         "documents",
         "events"
       ],
-      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "linkStatus": "EXPLICITLY_LINKED",
       "candidatePoliticianIds": [],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d150-pa-19550820"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -43033,10 +43722,17 @@
         "claims",
         "events"
       ],
-      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d106-aks-law74",
+        "d106-frus-293",
+        "d106-frus-296",
+        "d106-nak-law74",
+        "d106-nak-press",
+        "d106-property-explainer"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -43061,10 +43757,14 @@
         "events",
         "claims"
       ],
-      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d116-archive-grade",
+        "d116-explainer-civil",
+        "d116-press-19490723"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -43116,10 +43816,16 @@
         "documents",
         "events"
       ],
-      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d117-aks-cho",
+        "d117-aks-jong",
+        "d117-aks-sang",
+        "d117-hanseong",
+        "d117-law103"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -43339,12 +44045,16 @@
         "claims",
         "events"
       ],
-      "linkStatus": "EXPLICITLY_LINKED",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [
         "pol-rhee-syngman"
       ],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d150-aks-daegu",
+        "d150-kdemo-daegu",
+        "d150-pa-19550820"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -43967,7 +44677,7 @@
       "sourcePath": "data/evidence/shin-ik-hui.json",
       "sourceSha256": "45c2f6e6e14b8b414cac4bf22c21540127946efc71e55df902224c67a82c72e8",
       "sourceBytes": 8166,
-      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "sourceStatus": "CANONICAL_MATERIALIZED",
       "targetRegistries": [
         "evidence",
         "politicians",
@@ -44364,10 +45074,27 @@
         "documents",
         "events"
       ],
-      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "linkStatus": "EXPLICITLY_MULTI_LINKED",
       "candidatePoliticianIds": [],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d110-aidcircular1949",
+        "d110-civilservice-exam1949",
+        "d110-compulsory-start1950",
+        "d110-discipline1949",
+        "d110-education-plan1948",
+        "d110-education1949",
+        "d110-gazette1949welfare",
+        "d110-landbudget1950",
+        "d110-landmotion1949",
+        "d110-landreading1950",
+        "d110-localamend1949",
+        "d110-nec1952local",
+        "d110-nikh-1950-winners-list",
+        "d110-oir5824",
+        "d110-taxcommittee1950",
+        "d110-taxproposal1950"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -45061,10 +45788,12 @@
         "documents",
         "events"
       ],
-      "linkStatus": "NO_EXPLICIT_IDENTITY",
+      "linkStatus": "EXPLICITLY_LINKED",
       "candidatePoliticianIds": [],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "d140-l2"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],

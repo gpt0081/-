@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
   "group": "data-evidence.json",
-  "sourceSnapshotCommit": "0ec4d08748213b231310076d3933bb1e40810177",
-  "sourceTreeSha": "20a15a95a0c107cf8c72c04cc286d54eb6d16373",
+  "sourceSnapshotCommit": "702c0274e249a9bc1bacb89d61b351a23d79a3b0",
+  "sourceTreeSha": "aef275801ebc259e2bc7278b1a9a3cfca32fd95c",
   "fileCount": 192,
   "statusCounts": {
     "BLOCKED_ID_CONFLICT": 3,
-    "CANONICAL_MATERIALIZED": 14,
-    "UNMAPPED_AUXILIARY_OR_PARTIAL": 175
+    "CANONICAL_MATERIALIZED": 21,
+    "UNMAPPED_AUXILIARY_OR_PARTIAL": 168
   },
   "files": [
     {
@@ -246,9 +246,9 @@
     },
     {
       "path": "data/evidence/chang-myon-run108.json",
-      "gitBlobSha": "0b6d76a0311ecd9ed0556117163bd5bf9d38c80e",
-      "sha256": "909bf9d1411dbd590331d257c3f676bcc0c290676b30564c468ab94a36aa43ca",
-      "bytes": 853,
+      "gitBlobSha": "6fe63cdb2b8532114e6d831b4a2e9135a5cab95c",
+      "sha256": "bce6bfbdcf60c7a4adad195aa16e7c0f92f55890594cb0ca5d1fdf65e5def6a1",
+      "bytes": 1280,
       "recordCounts": {
         "documents": 0,
         "claims": 0,
@@ -276,7 +276,7 @@
       "sha256": "8b82699d59a497fece0df258ab15751f6a317ade7ba84494eb67f8c9d6b81160",
       "bytes": 4717,
       "recordCounts": {
-        "documents": 0,
+        "documents": 6,
         "claims": 0,
         "events": 0,
         "politicians": 0,
@@ -291,10 +291,10 @@
         "claims",
         "events"
       ],
-      "sourceStatus": "AUXILIARY_JSON_INDEXED",
-      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
       "conflicts": [],
-      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+      "unintegratedReason": null
     },
     {
       "path": "data/evidence/cho-bong-am.json",
@@ -302,7 +302,7 @@
       "sha256": "310c3ee0a2e7af1dbebc73f4e4197909464906f510a6b9e9c728316d39656ff6",
       "bytes": 4369,
       "recordCounts": {
-        "documents": 0,
+        "documents": 5,
         "claims": 0,
         "events": 0,
         "politicians": 0,
@@ -317,10 +317,10 @@
         "claims",
         "events"
       ],
-      "sourceStatus": "AUXILIARY_JSON_INDEXED",
-      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
       "conflicts": [],
-      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+      "unintegratedReason": null
     },
     {
       "path": "data/evidence/cho-byeong-ok-run180.json",
@@ -354,7 +354,7 @@
       "sha256": "2a7663e5fcc806a7091e7f9729308f081a9137a7907e107983a0804a6bcbfc74",
       "bytes": 1675,
       "recordCounts": {
-        "documents": 0,
+        "documents": 3,
         "claims": 0,
         "events": 0,
         "politicians": 0,
@@ -369,10 +369,10 @@
         "claims",
         "events"
       ],
-      "sourceStatus": "AUXILIARY_JSON_INDEXED",
-      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
       "conflicts": [],
-      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+      "unintegratedReason": null
     },
     {
       "path": "data/evidence/cho-chung-whan.json",
@@ -3692,7 +3692,7 @@
       "sha256": "bad17d9619b79882d42f103bbc95d362625a6de5b5933fedb7fd5df33f321311",
       "bytes": 4999,
       "recordCounts": {
-        "documents": 0,
+        "documents": 4,
         "claims": 0,
         "events": 0,
         "politicians": 0,
@@ -3707,10 +3707,10 @@
         "claims",
         "events"
       ],
-      "sourceStatus": "AUXILIARY_JSON_INDEXED",
-      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
       "conflicts": [],
-      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+      "unintegratedReason": null
     },
     {
       "path": "data/evidence/rhee/run112-1950-stabilization-evidence.json",
@@ -4752,7 +4752,7 @@
       "sha256": "45c2f6e6e14b8b414cac4bf22c21540127946efc71e55df902224c67a82c72e8",
       "bytes": 8166,
       "recordCounts": {
-        "documents": 0,
+        "documents": 10,
         "claims": 0,
         "events": 0,
         "politicians": 0,
@@ -4767,10 +4767,10 @@
         "claims",
         "events"
       ],
-      "sourceStatus": "AUXILIARY_JSON_INDEXED",
-      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
       "conflicts": [],
-      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+      "unintegratedReason": null
     },
     {
       "path": "data/evidence/shin-tae-young.json",
@@ -4882,7 +4882,7 @@
       "sha256": "2ff2b152dd7e125497c16f7435bdd661984310d26194f5844c39b7897f0358f2",
       "bytes": 1970,
       "recordCounts": {
-        "documents": 0,
+        "documents": 4,
         "claims": 0,
         "events": 0,
         "politicians": 0,
@@ -4897,10 +4897,10 @@
         "claims",
         "events"
       ],
-      "sourceStatus": "AUXILIARY_JSON_INDEXED",
-      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
       "conflicts": [],
-      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+      "unintegratedReason": null
     },
     {
       "path": "data/evidence/won-yong-tok.json",
@@ -4934,7 +4934,7 @@
       "sha256": "f21be95bd2a75164d8fe2a036baac907fa525eb2ea753713cbbe668c00d60b79",
       "bytes": 1691,
       "recordCounts": {
-        "documents": 0,
+        "documents": 4,
         "claims": 0,
         "events": 0,
         "politicians": 0,
@@ -4949,10 +4949,10 @@
         "claims",
         "events"
       ],
-      "sourceStatus": "AUXILIARY_JSON_INDEXED",
-      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
       "conflicts": [],
-      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+      "unintegratedReason": null
     },
     {
       "path": "data/evidence/yu-wan-chang.json",

@@ -1,15 +1,15 @@
 {
   "schemaVersion": 2,
   "group": "data-research.json",
-  "sourceSnapshotCommit": "0ec4d08748213b231310076d3933bb1e40810177",
-  "sourceTreeSha": "20a15a95a0c107cf8c72c04cc286d54eb6d16373",
-  "fileCount": 2521,
+  "sourceSnapshotCommit": "702c0274e249a9bc1bacb89d61b351a23d79a3b0",
+  "sourceTreeSha": "aef275801ebc259e2bc7278b1a9a3cfca32fd95c",
+  "fileCount": 2523,
   "statusCounts": {
-    "BLOCKED_ID_CONFLICT": 36,
-    "CANONICAL_MATERIALIZED": 299,
-    "NON_JSON_SOURCE_PRESERVED": 876,
+    "BLOCKED_ID_CONFLICT": 38,
+    "CANONICAL_MATERIALIZED": 309,
+    "NON_JSON_SOURCE_PRESERVED": 877,
     "PARTIAL_CANONICAL_MATERIALIZED": 1,
-    "UNMAPPED_AUXILIARY_OR_PARTIAL": 1309
+    "UNMAPPED_AUXILIARY_OR_PARTIAL": 1298
   },
   "files": [
     {
@@ -7876,6 +7876,32 @@
       "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
+      "path": "data/research/corrections/run332-central-crosslink-corrections.md",
+      "gitBlobSha": "152d3b5c3c2a99c111e2752022e17ef60f2a0682",
+      "sha256": "d7494510f31cbda90233cdb2e3aa555eeee345fd48f71488b1b6210fcd35af82",
+      "bytes": 2976,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "research_supporting_layer",
+      "targetRegistries": [
+        "documents",
+        "claims",
+        "events",
+        "politicians",
+        "organizations"
+      ],
+      "sourceStatus": "NON_JSON_SOURCE_PRESERVED",
+      "status": "NON_JSON_SOURCE_PRESERVED",
+      "conflicts": [],
+      "unintegratedReason": null
+    },
+    {
       "path": "data/research/coverage/pass-237-coverage-overlay.json",
       "gitBlobSha": "fbc3909255d2b6981a874c849c47ab2dc673bdc3",
       "sha256": "c8ff6e1d12e31649afb544bfe7b7eb7d3716f4e352d06b03a4d6f1af15bd5da6",
@@ -9413,9 +9439,9 @@
     },
     {
       "path": "data/research/coverage/run225.json",
-      "gitBlobSha": "0a7f42866687fea48b3df3dbf39034a767c142fe",
-      "sha256": "77a64eb2b92789da8745b35e9a1fc314103d6ed48618062f5db8a32416056f96",
-      "bytes": 1404,
+      "gitBlobSha": "535114f3df5f98b974bf880535549bae7b247359",
+      "sha256": "6d9b9d19836b7af7a531c7764818f9640d23f1a99f84e4e517029399b1205520",
+      "bytes": 3036,
       "recordCounts": {
         "documents": 0,
         "claims": 0,
@@ -12308,7 +12334,7 @@
       "sha256": "d5201e6b9675aa68891802e11c0e03e58db45608e67e13a6320d1ddd29cb7115",
       "bytes": 7428,
       "recordCounts": {
-        "documents": 0,
+        "documents": 8,
         "claims": 0,
         "events": 0,
         "politicians": 0,
@@ -12323,10 +12349,10 @@
         "politicians",
         "organizations"
       ],
-      "sourceStatus": "AUXILIARY_JSON_INDEXED",
-      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
       "conflicts": [],
-      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+      "unintegratedReason": null
     },
     {
       "path": "data/research/evidence/pass-179-antimin-actor-primary-crosscheck.json",
@@ -12984,7 +13010,7 @@
       "sha256": "2721a9989d0211b7c97021a12a2ac184535b178e223ae9502cbc92e8406b61ee",
       "bytes": 7451,
       "recordCounts": {
-        "documents": 0,
+        "documents": 8,
         "claims": 0,
         "events": 0,
         "politicians": 0,
@@ -12999,10 +13025,10 @@
         "politicians",
         "organizations"
       ],
-      "sourceStatus": "AUXILIARY_JSON_INDEXED",
-      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
       "conflicts": [],
-      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+      "unintegratedReason": null
     },
     {
       "path": "data/research/evidence/pass-219-economic-landreform-aid-governance.json",
@@ -13010,7 +13036,7 @@
       "sha256": "f95df1ddffc7fe063c5ee91cd92eb7f4a5e448536c68117da96a41252cb33810",
       "bytes": 8997,
       "recordCounts": {
-        "documents": 0,
+        "documents": 9,
         "claims": 0,
         "events": 0,
         "politicians": 0,
@@ -13025,10 +13051,10 @@
         "politicians",
         "organizations"
       ],
-      "sourceStatus": "AUXILIARY_JSON_INDEXED",
-      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
       "conflicts": [],
-      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+      "unintegratedReason": null
     },
     {
       "path": "data/research/evidence/pass-220-landreform-stabilization-military-aid.json",
@@ -13036,7 +13062,7 @@
       "sha256": "93c24f2036cef6b634877d447354559ba3468b857b1cc00edf87b92689ab3396",
       "bytes": 8819,
       "recordCounts": {
-        "documents": 0,
+        "documents": 9,
         "claims": 0,
         "events": 0,
         "politicians": 0,
@@ -13051,10 +13077,10 @@
         "politicians",
         "organizations"
       ],
-      "sourceStatus": "AUXILIARY_JSON_INDEXED",
-      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
       "conflicts": [],
-      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+      "unintegratedReason": null
     },
     {
       "path": "data/research/evidence/pass-221-stabilization-landreform-implementation.json",
@@ -13062,7 +13088,7 @@
       "sha256": "767767e426ec571172ffea07c8d0783756442373a8ea6a747da8db1fbc700ecf",
       "bytes": 12869,
       "recordCounts": {
-        "documents": 0,
+        "documents": 10,
         "claims": 0,
         "events": 0,
         "politicians": 0,
@@ -13077,10 +13103,10 @@
         "politicians",
         "organizations"
       ],
-      "sourceStatus": "AUXILIARY_JSON_INDEXED",
-      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
       "conflicts": [],
-      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+      "unintegratedReason": null
     },
     {
       "path": "data/research/evidence/pass-222-election-police-actors.json",
@@ -13088,7 +13114,7 @@
       "sha256": "741ac6d94fdced671badfe049dd84192e408adac47c6ef55ac540b2d4de544f3",
       "bytes": 11049,
       "recordCounts": {
-        "documents": 0,
+        "documents": 7,
         "claims": 0,
         "events": 0,
         "politicians": 0,
@@ -13103,10 +13129,10 @@
         "politicians",
         "organizations"
       ],
-      "sourceStatus": "AUXILIARY_JSON_INDEXED",
-      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
       "conflicts": [],
-      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+      "unintegratedReason": null
     },
     {
       "path": "data/research/evidence/pass-223-june1950-transition-war-actors.json",
@@ -13114,7 +13140,7 @@
       "sha256": "7d628dcab56a01ae792491c88dfb77aede9b05cee6520cbc9beb168fee3e7869",
       "bytes": 17329,
       "recordCounts": {
-        "documents": 0,
+        "documents": 11,
         "claims": 0,
         "events": 0,
         "politicians": 0,
@@ -13129,10 +13155,10 @@
         "politicians",
         "organizations"
       ],
-      "sourceStatus": "AUXILIARY_JSON_INDEXED",
-      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
       "conflicts": [],
-      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+      "unintegratedReason": null
     },
     {
       "path": "data/research/evidence/pass-224-june1950-home-affairs-chain.json",
@@ -13140,7 +13166,7 @@
       "sha256": "9f9c81d1c46f999af9f5b52268b7d0178c28aa55a93ff9c45328f5f644f083d1",
       "bytes": 10568,
       "recordCounts": {
-        "documents": 0,
+        "documents": 5,
         "claims": 0,
         "events": 0,
         "politicians": 0,
@@ -13155,10 +13181,10 @@
         "politicians",
         "organizations"
       ],
-      "sourceStatus": "AUXILIARY_JSON_INDEXED",
-      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
       "conflicts": [],
-      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+      "unintegratedReason": null
     },
     {
       "path": "data/research/evidence/pass-225-june1950-police-chief-correction.json",
@@ -13166,7 +13192,7 @@
       "sha256": "1c21858a77b636e713db686a1387056c07dbce881157e4f2ed2da3eec989170f",
       "bytes": 12172,
       "recordCounts": {
-        "documents": 0,
+        "documents": 4,
         "claims": 0,
         "events": 0,
         "politicians": 0,
@@ -13181,10 +13207,10 @@
         "politicians",
         "organizations"
       ],
-      "sourceStatus": "AUXILIARY_JSON_INDEXED",
-      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
       "conflicts": [],
-      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+      "unintegratedReason": null
     },
     {
       "path": "data/research/evidence/pass-226-bodo-central-command-primary-crosscheck.json",
@@ -13654,7 +13680,7 @@
       "sha256": "9dbecddccdf2a11271d756f516a6692d3293230a7747996e5bd33587e9e6c6d1",
       "bytes": 6363,
       "recordCounts": {
-        "documents": 0,
+        "documents": 10,
         "claims": 0,
         "events": 0,
         "politicians": 0,
@@ -13669,10 +13695,10 @@
         "politicians",
         "organizations"
       ],
-      "sourceStatus": "AUXILIARY_JSON_INDEXED",
-      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
       "conflicts": [],
-      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+      "unintegratedReason": null
     },
     {
       "path": "data/research/evidence/pass-269-1952-election-enforcement-adversarial.json",
@@ -13888,7 +13914,7 @@
       "sha256": "77ffcb843bd34224c0a010ed13761976ff69f4378b75f78a1a3e76655e4a4b03",
       "bytes": 13716,
       "recordCounts": {
-        "documents": 0,
+        "documents": 16,
         "claims": 6,
         "events": 8,
         "politicians": 10,
@@ -13914,7 +13940,7 @@
       "sha256": "25784e134cfce4f67a184a9ad2216d8298d64849d5c5210ad9f85713f12d84c2",
       "bytes": 8629,
       "recordCounts": {
-        "documents": 0,
+        "documents": 12,
         "claims": 6,
         "events": 0,
         "politicians": 0,
@@ -13940,7 +13966,7 @@
       "sha256": "2fd8ea84a1951e57638d3df857c916e645ba518278720ee0edcdaea7da98ebac",
       "bytes": 9886,
       "recordCounts": {
-        "documents": 0,
+        "documents": 15,
         "claims": 5,
         "events": 0,
         "politicians": 0,
@@ -13966,7 +13992,7 @@
       "sha256": "af55fe0761071ad038718a62f8887a0383e5854ba327a8c15ed669da3c8590eb",
       "bytes": 5443,
       "recordCounts": {
-        "documents": 0,
+        "documents": 5,
         "claims": 5,
         "events": 0,
         "politicians": 0,
@@ -13992,7 +14018,7 @@
       "sha256": "718d06b2df34da3c8fec806c6b52e5dd6aa235a1d75dcf33af4fa5fb0aa8e91a",
       "bytes": 12440,
       "recordCounts": {
-        "documents": 0,
+        "documents": 11,
         "claims": 6,
         "events": 9,
         "politicians": 0,
@@ -14018,7 +14044,7 @@
       "sha256": "5925ba6bf862cdd2ba95b5b54201c9b03fa88b01de1d0b86f0febe47df3c49fc",
       "bytes": 19994,
       "recordCounts": {
-        "documents": 0,
+        "documents": 24,
         "claims": 7,
         "events": 6,
         "politicians": 0,
@@ -14044,7 +14070,7 @@
       "sha256": "d9ab2ab82a2aa05f550ab8fa56dbe8d0a9085667daed6275527d0a8781751ca5",
       "bytes": 14175,
       "recordCounts": {
-        "documents": 0,
+        "documents": 12,
         "claims": 7,
         "events": 0,
         "politicians": 0,
@@ -14070,7 +14096,7 @@
       "sha256": "09fa90b1e7ace24134d383fb45b66efa46821b0d46b9f545f60319dcea07b3b2",
       "bytes": 10359,
       "recordCounts": {
-        "documents": 0,
+        "documents": 10,
         "claims": 7,
         "events": 0,
         "politicians": 0,
@@ -14198,7 +14224,7 @@
       "sha256": "cd7fca8066d55cb803f2f525b5e93023fe176e1326576f611559735accacc416",
       "bytes": 11904,
       "recordCounts": {
-        "documents": 0,
+        "documents": 18,
         "claims": 0,
         "events": 0,
         "politicians": 0,
@@ -14213,10 +14239,20 @@
         "politicians",
         "organizations"
       ],
-      "sourceStatus": "AUXILIARY_JSON_INDEXED",
-      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
-      "conflicts": [],
-      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+      "sourceStatus": "CONFLICT_REVIEW_REQUIRED",
+      "status": "BLOCKED_ID_CONFLICT",
+      "conflicts": [
+        {
+          "kind": "documents",
+          "id": "NARA-USAFIK-GUIDE",
+          "variantCount": 2,
+          "mergeReview": {
+            "status": "BLOCKED",
+            "reason": "NO_COMMON_DOCUMENT_NUMBER_TITLE_OR_ORIGINAL_LOCATION"
+          }
+        }
+      ],
+      "unintegratedReason": null
     },
     {
       "path": "data/research/forest-coverage-pass3-count-correction.json",
@@ -14250,7 +14286,7 @@
       "sha256": "d73ca56890509c7a1b35067b25fa4684d9f8b97788c3982cb66e055d28c1a418",
       "bytes": 12287,
       "recordCounts": {
-        "documents": 0,
+        "documents": 14,
         "claims": 0,
         "events": 0,
         "politicians": 0,
@@ -14265,10 +14301,20 @@
         "politicians",
         "organizations"
       ],
-      "sourceStatus": "AUXILIARY_JSON_INDEXED",
-      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
-      "conflicts": [],
-      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+      "sourceStatus": "CONFLICT_REVIEW_REQUIRED",
+      "status": "BLOCKED_ID_CONFLICT",
+      "conflicts": [
+        {
+          "kind": "documents",
+          "id": "NARA-USAFIK-GUIDE",
+          "variantCount": 2,
+          "mergeReview": {
+            "status": "BLOCKED",
+            "reason": "NO_COMMON_DOCUMENT_NUMBER_TITLE_OR_ORIGINAL_LOCATION"
+          }
+        }
+      ],
+      "unintegratedReason": null
     },
     {
       "path": "data/research/forest-coverage.json",
@@ -23913,6 +23959,32 @@
       "gitBlobSha": "cabfef6a262647657d0ad0bb2ae0cb41f1ca3416",
       "sha256": "cc5c71342f997b5e4d4dc864f3e48575d82943c300f3a30da67a71b617347656",
       "bytes": 680,
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "targetLayer": "open_lead_layer",
+      "targetRegistries": [
+        "open_leads",
+        "politicians",
+        "documents",
+        "events",
+        "claims"
+      ],
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
+      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "conflicts": [],
+      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/lead-queues/run136-teller-identity.json",
+      "gitBlobSha": "fa4bc5b8102b01332de76ae615c24c3d91422182",
+      "sha256": "bfae5192fc1e981618067110f89aeaf82844dca393ee32a6f478594db77f8ead",
+      "bytes": 1061,
       "recordCounts": {
         "documents": 0,
         "claims": 0,

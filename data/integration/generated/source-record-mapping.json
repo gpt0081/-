@@ -36297,7 +36297,7 @@
           "kind": "documents",
           "id": "DOC-P239D-NIKH-0618-0080",
           "pointer": "/documents/31",
-          "status": "INTEGRATED"
+          "status": "SAFE_FIELDWISE_MERGE"
         },
         {
           "kind": "documents",
@@ -37809,7 +37809,7 @@
           "kind": "documents",
           "id": "DOC-P239J-KOREA-MINUTE-1152",
           "pointer": "/documents/62",
-          "status": "INTEGRATED"
+          "status": "SAFE_FIELDWISE_MERGE"
         },
         {
           "kind": "documents",
@@ -38175,7 +38175,7 @@
           "kind": "documents",
           "id": "DOC-P239K-FRUS-58",
           "pointer": "/documents/55",
-          "status": "INTEGRATED"
+          "status": "SAFE_FIELDWISE_MERGE"
         },
         {
           "kind": "documents",
@@ -39303,7 +39303,7 @@
           "kind": "documents",
           "id": "DOC-P240-FRUS-70",
           "pointer": "/documents/11",
-          "status": "INTEGRATED"
+          "status": "SAFE_FIELDWISE_MERGE"
         },
         {
           "kind": "documents",
@@ -39345,19 +39345,19 @@
           "kind": "documents",
           "id": "DOC-P240-FRUS-77",
           "pointer": "/documents/18",
-          "status": "INTEGRATED"
+          "status": "SAFE_FIELDWISE_MERGE"
         },
         {
           "kind": "documents",
           "id": "DOC-P240-FRUS-78",
           "pointer": "/documents/19",
-          "status": "INTEGRATED"
+          "status": "SAFE_FIELDWISE_MERGE"
         },
         {
           "kind": "documents",
           "id": "DOC-P240-FRUS-79",
           "pointer": "/documents/20",
-          "status": "INTEGRATED"
+          "status": "SAFE_FIELDWISE_MERGE"
         },
         {
           "kind": "documents",
@@ -47277,7 +47277,7 @@
           "kind": "documents",
           "id": "DOC-P258D-FRUS56-192",
           "pointer": "/documents/0",
-          "status": "INTEGRATED"
+          "status": "SAFE_FIELDWISE_MERGE"
         },
         {
           "kind": "documents",
@@ -56671,6 +56671,30 @@
         }
       ]
     },
+    "data/documents/run134-constitutional-source-audit.json": {
+      "integrated": 3,
+      "conflicted": 0,
+      "records": [
+        {
+          "kind": "documents",
+          "id": "doc134-frus-d206",
+          "pointer": "/sources/0",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc134-nak-55",
+          "pointer": "/sources/2",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc134-nikh-19520704",
+          "pointer": "/sources/1",
+          "status": "INTEGRATED"
+        }
+      ]
+    },
     "data/documents/run135-biographical-crosschecks.json": {
       "integrated": 4,
       "conflicted": 0,
@@ -57794,9 +57818,21 @@
       ]
     },
     "data/documents/run144-korean-debt-crosschecks.json": {
-      "integrated": 15,
+      "integrated": 17,
       "conflicted": 0,
       "records": [
+        {
+          "kind": "documents",
+          "id": "CA0001971",
+          "pointer": "/metadataOnly/1",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "S/3132",
+          "pointer": "/metadataOnly/0",
+          "status": "INTEGRATED"
+        },
         {
           "kind": "documents",
           "id": "frus-1949v07p2-304",
@@ -59317,6 +59353,30 @@
         }
       ]
     },
+    "data/documents/run150-education-agriculture.json": {
+      "integrated": 3,
+      "conflicted": 0,
+      "records": [
+        {
+          "kind": "documents",
+          "id": "d150-chungju-fertilizer",
+          "pointer": "/sources/1",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "d150-edu-sixyear",
+          "pointer": "/sources/0",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "d150-food-policy",
+          "pointer": "/sources/2",
+          "status": "INTEGRATED"
+        }
+      ]
+    },
     "data/documents/run150-frus-1955-extended.json": {
       "integrated": 20,
       "conflicted": 0,
@@ -59527,6 +59587,30 @@
         }
       ]
     },
+    "data/documents/run150-local-archives.json": {
+      "integrated": 3,
+      "conflicted": 0,
+      "records": [
+        {
+          "kind": "documents",
+          "id": "d150-archives-local-timeline",
+          "pointer": "/sources/0",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "d150-mois-local",
+          "pointer": "/sources/1",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "d150-nec-local",
+          "pointer": "/sources/2",
+          "status": "INTEGRATED"
+        }
+      ]
+    },
     "data/documents/run150-national-archives-choi-judgment.json": {
       "integrated": 1,
       "conflicted": 0,
@@ -59595,6 +59679,102 @@
           "kind": "documents",
           "id": "d150-na-party-glossary",
           "pointer": "/documents/2",
+          "status": "INTEGRATED"
+        }
+      ]
+    },
+    "data/documents/run152-1957-58-law-index.json": {
+      "integrated": 4,
+      "conflicted": 0,
+      "records": [
+        {
+          "kind": "documents",
+          "id": "d152-law436",
+          "pointer": "/metadataOnly/0",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "d152-law437",
+          "pointer": "/metadataOnly/1",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "d152-law496",
+          "pointer": "/metadataOnly/2",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "d152-law514",
+          "pointer": "/metadataOnly/3",
+          "status": "INTEGRATED"
+        }
+      ]
+    },
+    "data/documents/run152-coop-education-policy.json": {
+      "integrated": 3,
+      "conflicted": 0,
+      "records": [
+        {
+          "kind": "documents",
+          "id": "d152-archives-coop",
+          "pointer": "/sources/1",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "d152-kdi-coop436",
+          "pointer": "/sources/0",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "d152-moe-education-finance",
+          "pointer": "/sources/2",
+          "status": "INTEGRATED"
+        }
+      ]
+    },
+    "data/documents/run153-election-local.json": {
+      "integrated": 2,
+      "conflicted": 0,
+      "records": [
+        {
+          "kind": "documents",
+          "id": "d153-local1958",
+          "pointer": "/sources/1",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "d153-nec-election",
+          "pointer": "/sources/0",
+          "status": "INTEGRATED"
+        }
+      ]
+    },
+    "data/documents/run153-legislative-conflict.json": {
+      "integrated": 3,
+      "conflicted": 0,
+      "records": [
+        {
+          "kind": "documents",
+          "id": "d153-gov-security-law",
+          "pointer": "/sources/1",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "d153-kdemo-security",
+          "pointer": "/sources/2",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "d153-nikh-local",
+          "pointer": "/sources/0",
           "status": "INTEGRATED"
         }
       ]
@@ -96165,13 +96345,13 @@
           "kind": "documents",
           "id": "doc-frus-1953-clark-cx63170",
           "pointer": "/documents/6",
-          "status": "INTEGRATED"
+          "status": "SAFE_FIELDWISE_MERGE"
         },
         {
           "kind": "documents",
           "id": "doc-frus-1953-clark-cx63227",
           "pointer": "/documents/11",
-          "status": "INTEGRATED"
+          "status": "SAFE_FIELDWISE_MERGE"
         },
         {
           "kind": "documents",
@@ -96225,7 +96405,7 @@
           "kind": "documents",
           "id": "doc-frus-1953-rhee-clark-pow-letter",
           "pointer": "/documents/1",
-          "status": "INTEGRATED"
+          "status": "SAFE_FIELDWISE_MERGE"
         },
         {
           "kind": "documents",
@@ -116809,6 +116989,18 @@
         }
       ]
     },
+    "data/events/run150-local-election-date-correction.json": {
+      "integrated": 1,
+      "conflicted": 0,
+      "records": [
+        {
+          "kind": "events",
+          "id": "evt-r150-1956-provincial-election",
+          "pointer": "/additionalEvent/0",
+          "status": "INTEGRATED"
+        }
+      ]
+    },
     "data/events/run150-peacetime-policy.json": {
       "integrated": 4,
       "conflicted": 0,
@@ -135541,6 +135733,108 @@
         }
       ]
     },
+    "data/evidence/chang-myon.json": {
+      "integrated": 6,
+      "conflicted": 0,
+      "records": [
+        {
+          "kind": "documents",
+          "id": "CM-P239L-APPRECIATION",
+          "pointer": "/sources/1",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "CM-P239L-NEC",
+          "pointer": "/sources/0",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "CM-P239L2-INAUG",
+          "pointer": "/sources/3",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "CM-P239L2-KDEMO",
+          "pointer": "/sources/2",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "CM-P241-FRUS166",
+          "pointer": "/sources/4",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "CM-P241-OIR7371",
+          "pointer": "/sources/5",
+          "status": "INTEGRATED"
+        }
+      ]
+    },
+    "data/evidence/cho-bong-am.json": {
+      "integrated": 5,
+      "conflicted": 0,
+      "records": [
+        {
+          "kind": "documents",
+          "id": "CB-P239L-ELECTION",
+          "pointer": "/sources/0",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "CB-P239L-NEC",
+          "pointer": "/sources/1",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "CB-P239L-PLATFORM",
+          "pointer": "/sources/2",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "CB-P239L2-KDEMO",
+          "pointer": "/sources/3",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "CB-P239M3-1954-WITHDRAWAL",
+          "pointer": "/sources/4",
+          "status": "INTEGRATED"
+        }
+      ]
+    },
+    "data/evidence/cho-chung-hwan-1955.json": {
+      "integrated": 3,
+      "conflicted": 0,
+      "records": [
+        {
+          "kind": "documents",
+          "id": "DOC-P240-FRUS-70",
+          "pointer": "/sources/0",
+          "status": "SAFE_FIELDWISE_MERGE"
+        },
+        {
+          "kind": "documents",
+          "id": "DOC-P240-FRUS-77",
+          "pointer": "/sources/1",
+          "status": "SAFE_FIELDWISE_MERGE"
+        },
+        {
+          "kind": "documents",
+          "id": "DOC-P258D-FRUS56-192",
+          "pointer": "/sources/2",
+          "status": "SAFE_FIELDWISE_MERGE"
+        }
+      ]
+    },
     "data/evidence/cho-jin-man.json": {
       "integrated": 1,
       "conflicted": 0,
@@ -136087,6 +136381,36 @@
         }
       ]
     },
+    "data/evidence/rhee/pass-253-cabinet-metadata-divergence.json": {
+      "integrated": 4,
+      "conflicted": 0,
+      "records": [
+        {
+          "kind": "documents",
+          "id": "DOC-NAK-BA0084191-DETAIL",
+          "pointer": "/sources/1",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "DOC-NAK-CABINET-KEYWORD-INDEX",
+          "pointer": "/sources/2",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "DOC-NAK-CABINET-LIST-1952",
+          "pointer": "/sources/0",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "DOC-PA-1952-PROVINCIAL-ELECTION",
+          "pointer": "/sources/3",
+          "status": "INTEGRATED"
+        }
+      ]
+    },
     "data/evidence/run142-actor-crosslinks.json": {
       "integrated": 2,
       "conflicted": 0,
@@ -136233,6 +136557,132 @@
           "kind": "politicians",
           "id": "pol-yi-ki-pung",
           "pointer": "/actors/7",
+          "status": "SAFE_FIELDWISE_MERGE"
+        }
+      ]
+    },
+    "data/evidence/shin-ik-hui.json": {
+      "integrated": 10,
+      "conflicted": 0,
+      "records": [
+        {
+          "kind": "documents",
+          "id": "SHIN-1952-0704",
+          "pointer": "/sources/0",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "SHIN-1953-0101",
+          "pointer": "/sources/1",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "SHIN-1953-0218-COMMISSION",
+          "pointer": "/sources/4",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "SHIN-1953-0218-DISPUTE",
+          "pointer": "/sources/2",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "SHIN-1953-0218-UNION",
+          "pointer": "/sources/3",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "SHIN-P239L-NEC-1956",
+          "pointer": "/sources/5",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "SHIN-P239L2-KDEMO",
+          "pointer": "/sources/6",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "SHIN-P252-0822-27MPS",
+          "pointer": "/sources/7",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "SHIN-P252-0824-MYON",
+          "pointer": "/sources/8",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "SHIN-P252B-0826-POW",
+          "pointer": "/sources/9",
+          "status": "INTEGRATED"
+        }
+      ]
+    },
+    "data/evidence/won-yong-duk.json": {
+      "integrated": 4,
+      "conflicted": 0,
+      "records": [
+        {
+          "kind": "documents",
+          "id": "DOC-P239D-NIKH-0618-0080",
+          "pointer": "/sources/1",
+          "status": "SAFE_FIELDWISE_MERGE"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-frus-1953-clark-cx63170",
+          "pointer": "/sources/2",
+          "status": "SAFE_FIELDWISE_MERGE"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-frus-1953-clark-cx63227",
+          "pointer": "/sources/3",
+          "status": "SAFE_FIELDWISE_MERGE"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-frus-1953-rhee-clark-pow-letter",
+          "pointer": "/sources/0",
+          "status": "SAFE_FIELDWISE_MERGE"
+        }
+      ]
+    },
+    "data/evidence/yang-yu-chan-1955.json": {
+      "integrated": 4,
+      "conflicted": 0,
+      "records": [
+        {
+          "kind": "documents",
+          "id": "DOC-P239J-KOREA-MINUTE-1152",
+          "pointer": "/sources/0",
+          "status": "SAFE_FIELDWISE_MERGE"
+        },
+        {
+          "kind": "documents",
+          "id": "DOC-P239K-FRUS-58",
+          "pointer": "/sources/2",
+          "status": "SAFE_FIELDWISE_MERGE"
+        },
+        {
+          "kind": "documents",
+          "id": "DOC-P240-FRUS-78",
+          "pointer": "/sources/1",
+          "status": "SAFE_FIELDWISE_MERGE"
+        },
+        {
+          "kind": "documents",
+          "id": "DOC-P240-FRUS-79",
+          "pointer": "/sources/3",
           "status": "SAFE_FIELDWISE_MERGE"
         }
       ]
@@ -136484,7 +136934,7 @@
       ]
     },
     "data/organizations/registry.json": {
-      "integrated": 24,
+      "integrated": 25,
       "conflicted": 1,
       "records": [
         {
@@ -136527,6 +136977,12 @@
           "kind": "organizations",
           "id": "org-rok-housing-administration",
           "pointer": "/organizations/8",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "organizations",
+          "id": "org-rok-japan-legal-status-subcommittee-1951",
+          "pointer": "/organizations/25",
           "status": "INTEGRATED"
         },
         {
@@ -147049,6 +147505,30 @@
         }
       ]
     },
+    "data/politicians/run136-teller-candidates.json": {
+      "integrated": 3,
+      "conflicted": 0,
+      "records": [
+        {
+          "kind": "politicians",
+          "id": "cand-r136-jang-geon-sang",
+          "pointer": "/politicians/1",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-r136-jeong-mun-heum",
+          "pointer": "/politicians/0",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "politicians",
+          "id": "cand-r136-kim-yang-su",
+          "pointer": "/politicians/2",
+          "status": "INTEGRATED"
+        }
+      ]
+    },
     "data/politicians/run137-local-candidates.json": {
       "integrated": 3,
       "conflicted": 0,
@@ -147405,7 +147885,7 @@
           "kind": "politicians",
           "id": "pol-r149-cabinet-01",
           "pointer": "/people/0",
-          "status": "INTEGRATED"
+          "status": "SAFE_FIELDWISE_MERGE"
         },
         {
           "kind": "politicians",
@@ -147429,13 +147909,13 @@
           "kind": "politicians",
           "id": "pol-r149-cabinet-05",
           "pointer": "/people/4",
-          "status": "INTEGRATED"
+          "status": "SAFE_FIELDWISE_MERGE"
         },
         {
           "kind": "politicians",
           "id": "pol-r149-cabinet-06",
           "pointer": "/people/5",
-          "status": "INTEGRATED"
+          "status": "SAFE_FIELDWISE_MERGE"
         },
         {
           "kind": "politicians",
@@ -147465,7 +147945,7 @@
           "kind": "politicians",
           "id": "pol-r149-cabinet-11",
           "pointer": "/people/10",
-          "status": "INTEGRATED"
+          "status": "SAFE_FIELDWISE_MERGE"
         },
         {
           "kind": "politicians",
@@ -147477,13 +147957,13 @@
           "kind": "politicians",
           "id": "pol-r149-cabinet-13",
           "pointer": "/people/12",
-          "status": "INTEGRATED"
+          "status": "SAFE_FIELDWISE_MERGE"
         },
         {
           "kind": "politicians",
           "id": "pol-r149-cabinet-14",
           "pointer": "/people/13",
-          "status": "INTEGRATED"
+          "status": "SAFE_FIELDWISE_MERGE"
         }
       ]
     },
@@ -157809,7 +158289,7 @@
           "kind": "politicians",
           "id": "pol-r149-cabinet-01",
           "pointer": "/politicians/90",
-          "status": "INTEGRATED"
+          "status": "SAFE_FIELDWISE_MERGE"
         },
         {
           "kind": "politicians",
@@ -157833,13 +158313,13 @@
           "kind": "politicians",
           "id": "pol-r149-cabinet-05",
           "pointer": "/politicians/94",
-          "status": "INTEGRATED"
+          "status": "SAFE_FIELDWISE_MERGE"
         },
         {
           "kind": "politicians",
           "id": "pol-r149-cabinet-06",
           "pointer": "/politicians/95",
-          "status": "INTEGRATED"
+          "status": "SAFE_FIELDWISE_MERGE"
         },
         {
           "kind": "politicians",
@@ -157869,7 +158349,7 @@
           "kind": "politicians",
           "id": "pol-r149-cabinet-11",
           "pointer": "/politicians/100",
-          "status": "INTEGRATED"
+          "status": "SAFE_FIELDWISE_MERGE"
         },
         {
           "kind": "politicians",
@@ -157881,13 +158361,13 @@
           "kind": "politicians",
           "id": "pol-r149-cabinet-13",
           "pointer": "/politicians/102",
-          "status": "INTEGRATED"
+          "status": "SAFE_FIELDWISE_MERGE"
         },
         {
           "kind": "politicians",
           "id": "pol-r149-cabinet-14",
           "pointer": "/politicians/103",
-          "status": "INTEGRATED"
+          "status": "SAFE_FIELDWISE_MERGE"
         },
         {
           "kind": "politicians",
@@ -171361,6 +171841,60 @@
         }
       ]
     },
+    "data/research/evidence/pass-178-antimin-primary-roster-and-organization.json": {
+      "integrated": 8,
+      "conflicted": 0,
+      "records": [
+        {
+          "kind": "documents",
+          "id": "db-an-009-0040",
+          "pointer": "/sources/4",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "db-an-018-0040",
+          "pointer": "/sources/3",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "db-an-022-0030",
+          "pointer": "/sources/2",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "db-an-044-0040",
+          "pointer": "/sources/6",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "db-an-045-0050",
+          "pointer": "/sources/1",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "db-an-052-0030",
+          "pointer": "/sources/0",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "db-an-063-0030",
+          "pointer": "/sources/5",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "kn-084-0060",
+          "pointer": "/sources/7",
+          "status": "INTEGRATED"
+        }
+      ]
+    },
     "data/research/evidence/pass-179-antimin-actor-primary-crosscheck.json": {
       "integrated": 10,
       "conflicted": 0,
@@ -172315,6 +172849,432 @@
         }
       ]
     },
+    "data/research/evidence/pass-218-frus-border-uncok-security-press-expansion.json": {
+      "integrated": 8,
+      "conflicted": 0,
+      "records": [
+        {
+          "kind": "documents",
+          "id": "DOC-FRUS1949-V7P2-D230",
+          "pointer": "/sources/2",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "DOC-FRUS1949-V7P2-D260",
+          "pointer": "/sources/6",
+          "status": "SAFE_FIELDWISE_MERGE"
+        },
+        {
+          "kind": "documents",
+          "id": "DOC-FRUS1949-V7P2-D262",
+          "pointer": "/sources/0",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "DOC-FRUS1949-V7P2-D263",
+          "pointer": "/sources/7",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "DOC-FRUS1949-V7P2-D272",
+          "pointer": "/sources/1",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "DOC-FRUS1949-V7P2-D277",
+          "pointer": "/sources/3",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "DOC-FRUS1949-V7P2-D293",
+          "pointer": "/sources/4",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "DOC-FRUS1949-V7P2-D297",
+          "pointer": "/sources/5",
+          "status": "INTEGRATED"
+        }
+      ]
+    },
+    "data/research/evidence/pass-219-economic-landreform-aid-governance.json": {
+      "integrated": 9,
+      "conflicted": 0,
+      "records": [
+        {
+          "kind": "documents",
+          "id": "DOC-FRUS1949-V7P2-D196",
+          "pointer": "/sources/8",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "DOC-FRUS1949-V7P2-D215",
+          "pointer": "/sources/5",
+          "status": "SAFE_FIELDWISE_MERGE"
+        },
+        {
+          "kind": "documents",
+          "id": "DOC-FRUS1949-V7P2-D224",
+          "pointer": "/sources/7",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "DOC-FRUS1949-V7P2-D260",
+          "pointer": "/sources/3",
+          "status": "SAFE_FIELDWISE_MERGE"
+        },
+        {
+          "kind": "documents",
+          "id": "DOC-FRUS1949-V7P2-D265",
+          "pointer": "/sources/6",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "DOC-FRUS1949-V7P2-D294",
+          "pointer": "/sources/1",
+          "status": "SAFE_FIELDWISE_MERGE"
+        },
+        {
+          "kind": "documents",
+          "id": "DOC-FRUS1949-V7P2-D304",
+          "pointer": "/sources/0",
+          "status": "SAFE_FIELDWISE_MERGE"
+        },
+        {
+          "kind": "documents",
+          "id": "DOC-FRUS1949-V7P2-D306",
+          "pointer": "/sources/2",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "DOC-TRUMAN-1949-06-07-KOREA-AID-MESSAGE",
+          "pointer": "/sources/4",
+          "status": "SAFE_FIELDWISE_MERGE"
+        }
+      ]
+    },
+    "data/research/evidence/pass-220-landreform-stabilization-military-aid.json": {
+      "integrated": 9,
+      "conflicted": 0,
+      "records": [
+        {
+          "kind": "documents",
+          "id": "DOC-FRUS1949-V7P2-D215",
+          "pointer": "/sources/5",
+          "status": "SAFE_FIELDWISE_MERGE"
+        },
+        {
+          "kind": "documents",
+          "id": "DOC-FRUS1949-V7P2-D268",
+          "pointer": "/sources/6",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "DOC-FRUS1949-V7P2-D269",
+          "pointer": "/sources/7",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "DOC-FRUS1949-V7P2-D284",
+          "pointer": "/sources/8",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "DOC-FRUS1949-V7P2-D294",
+          "pointer": "/sources/2",
+          "status": "SAFE_FIELDWISE_MERGE"
+        },
+        {
+          "kind": "documents",
+          "id": "DOC-FRUS1949-V7P2-D304",
+          "pointer": "/sources/1",
+          "status": "SAFE_FIELDWISE_MERGE"
+        },
+        {
+          "kind": "documents",
+          "id": "DOC-FRUS1950-V7-D2",
+          "pointer": "/sources/3",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "DOC-TRUMAN-1949-06-07-KOREA-AID-MESSAGE",
+          "pointer": "/sources/4",
+          "status": "SAFE_FIELDWISE_MERGE"
+        },
+        {
+          "kind": "documents",
+          "id": "DOC-UN-A1881-LANDREFORM",
+          "pointer": "/sources/0",
+          "status": "INTEGRATED"
+        }
+      ]
+    },
+    "data/research/evidence/pass-221-stabilization-landreform-implementation.json": {
+      "integrated": 10,
+      "conflicted": 0,
+      "records": [
+        {
+          "kind": "documents",
+          "id": "DOC-FRUS1950-V7-D10",
+          "pointer": "/sources/3",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "DOC-FRUS1950-V7-D11",
+          "pointer": "/sources/4",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "DOC-FRUS1950-V7-D12",
+          "pointer": "/sources/5",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "DOC-FRUS1950-V7-D13",
+          "pointer": "/sources/6",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "DOC-FRUS1950-V7-D17",
+          "pointer": "/sources/7",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "DOC-FRUS1950-V7-D26",
+          "pointer": "/sources/8",
+          "status": "SAFE_FIELDWISE_MERGE"
+        },
+        {
+          "kind": "documents",
+          "id": "DOC-FRUS1950-V7-D717",
+          "pointer": "/sources/9",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "DOC-LAW-KR-FARMLAND-108",
+          "pointer": "/sources/1",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "DOC-LAW-KR-FARMLAND-31",
+          "pointer": "/sources/0",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "DOC-LAW-KR-FARMLAND-IMPLEMENTATION-TIMELINE",
+          "pointer": "/sources/2",
+          "status": "INTEGRATED"
+        }
+      ]
+    },
+    "data/research/evidence/pass-222-election-police-actors.json": {
+      "integrated": 7,
+      "conflicted": 0,
+      "records": [
+        {
+          "kind": "documents",
+          "id": "DOC-FRUS1950-V7-D20",
+          "pointer": "/sources/0",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "DOC-FRUS1950-V7-D21",
+          "pointer": "/sources/1",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "DOC-FRUS1950-V7-D26",
+          "pointer": "/sources/6",
+          "status": "SAFE_FIELDWISE_MERGE"
+        },
+        {
+          "kind": "documents",
+          "id": "DOC-FRUS1950-V7-D27",
+          "pointer": "/sources/2",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "DOC-FRUS1950-V7-D29",
+          "pointer": "/sources/3",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "DOC-FRUS1950-V7-D43",
+          "pointer": "/sources/4",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "DOC-FRUS1950-V7-D45",
+          "pointer": "/sources/5",
+          "status": "SAFE_FIELDWISE_MERGE"
+        }
+      ]
+    },
+    "data/research/evidence/pass-223-june1950-transition-war-actors.json": {
+      "integrated": 11,
+      "conflicted": 0,
+      "records": [
+        {
+          "kind": "documents",
+          "id": "DOC-FRUS1950-V7-D107",
+          "pointer": "/sources/9",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "DOC-FRUS1950-V7-D45",
+          "pointer": "/sources/0",
+          "status": "SAFE_FIELDWISE_MERGE"
+        },
+        {
+          "kind": "documents",
+          "id": "DOC-FRUS1950-V7-D46",
+          "pointer": "/sources/1",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "DOC-FRUS1950-V7-D48",
+          "pointer": "/sources/2",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "DOC-FRUS1950-V7-D54",
+          "pointer": "/sources/3",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "DOC-FRUS1950-V7-D55",
+          "pointer": "/sources/4",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "DOC-FRUS1950-V7-D56",
+          "pointer": "/sources/5",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "DOC-FRUS1950-V7-D68",
+          "pointer": "/sources/6",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "DOC-FRUS1950-V7-D90",
+          "pointer": "/sources/7",
+          "status": "SAFE_FIELDWISE_MERGE"
+        },
+        {
+          "kind": "documents",
+          "id": "DOC-FRUS1950-V7-D94",
+          "pointer": "/sources/8",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "DOC-UNSC-S1511",
+          "pointer": "/sources/10",
+          "status": "INTEGRATED"
+        }
+      ]
+    },
+    "data/research/evidence/pass-224-june1950-home-affairs-chain.json": {
+      "integrated": 5,
+      "conflicted": 0,
+      "records": [
+        {
+          "kind": "documents",
+          "id": "DOC-AKS-BAEK-SEONGUK",
+          "pointer": "/sources/2",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "DOC-AKS-KIM-TAESEON",
+          "pointer": "/sources/3",
+          "status": "SAFE_FIELDWISE_MERGE"
+        },
+        {
+          "kind": "documents",
+          "id": "DOC-FRUS1950-V7-D129",
+          "pointer": "/sources/4",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "DOC-FRUS1950-V7-D90",
+          "pointer": "/sources/0",
+          "status": "SAFE_FIELDWISE_MERGE"
+        },
+        {
+          "kind": "documents",
+          "id": "DOC-MOIS-FORMER-HOME-MINISTERS",
+          "pointer": "/sources/1",
+          "status": "INTEGRATED"
+        }
+      ]
+    },
+    "data/research/evidence/pass-225-june1950-police-chief-correction.json": {
+      "integrated": 4,
+      "conflicted": 0,
+      "records": [
+        {
+          "kind": "documents",
+          "id": "DOC-AKS-KIM-TAESEON",
+          "pointer": "/sources/1",
+          "status": "SAFE_FIELDWISE_MERGE"
+        },
+        {
+          "kind": "documents",
+          "id": "DOC-HOENGSEONG-JANG-SEOKYUN-BOOK",
+          "pointer": "/sources/3",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "DOC-NAK-POLICE-BUREAU-ORG-HISTORY",
+          "pointer": "/sources/0",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "DOC-NIKH-JANG-SEOKYUN-PERSON",
+          "pointer": "/sources/2",
+          "status": "SAFE_FIELDWISE_MERGE"
+        }
+      ]
+    },
     "data/research/evidence/pass-226-bodo-central-command-primary-crosscheck.json": {
       "integrated": 5,
       "conflicted": 0,
@@ -172335,7 +173295,7 @@
           "kind": "documents",
           "id": "DOC-NIKH-JANG-SEOKYUN-PERSON",
           "pointer": "/documents/4",
-          "status": "INTEGRATED"
+          "status": "SAFE_FIELDWISE_MERGE"
         },
         {
           "kind": "documents",
@@ -173287,6 +174247,72 @@
         }
       ]
     },
+    "data/research/evidence/pass-249-1952-governance-breadth-audit.json": {
+      "integrated": 10,
+      "conflicted": 0,
+      "records": [
+        {
+          "kind": "documents",
+          "id": "dbhistory-19520124-industry",
+          "pointer": "/sources/7",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "dbhistory-19520211-paek-finance",
+          "pointer": "/sources/8",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "dbhistory-19520425-city-council",
+          "pointer": "/sources/9",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "law-local-autonomy-32",
+          "pointer": "/sources/2",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "nak-aa0002813",
+          "pointer": "/sources/3",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "nak-ba0084188",
+          "pointer": "/sources/4",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "nak-ba0084191",
+          "pointer": "/sources/5",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "nak-rehab-plan-exhibit",
+          "pointer": "/sources/6",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "nec-le-00-27369",
+          "pointer": "/sources/0",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "nec-local-election-history",
+          "pointer": "/sources/1",
+          "status": "INTEGRATED"
+        }
+      ]
+    },
     "data/research/evidence/pass-280-pow-economic-security-crosscheck.json": {
       "integrated": 21,
       "conflicted": 0,
@@ -173972,9 +174998,105 @@
       ]
     },
     "data/research/evidence/pass-291-geochang-postjudgment-reintegration.json": {
-      "integrated": 24,
+      "integrated": 40,
       "conflicted": 0,
       "records": [
+        {
+          "kind": "documents",
+          "id": "doc-p291-01",
+          "pointer": "/sources/0",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p291-02",
+          "pointer": "/sources/1",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p291-03",
+          "pointer": "/sources/2",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p291-04",
+          "pointer": "/sources/3",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p291-05",
+          "pointer": "/sources/4",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p291-06",
+          "pointer": "/sources/5",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p291-07",
+          "pointer": "/sources/6",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p291-08",
+          "pointer": "/sources/7",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p291-09",
+          "pointer": "/sources/8",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p291-10",
+          "pointer": "/sources/9",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p291-11",
+          "pointer": "/sources/10",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p291-12",
+          "pointer": "/sources/11",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p291-13",
+          "pointer": "/sources/12",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p291-14",
+          "pointer": "/sources/13",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p291-15",
+          "pointer": "/sources/14",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p291-16",
+          "pointer": "/sources/15",
+          "status": "INTEGRATED"
+        },
         {
           "kind": "claims",
           "id": "claim-p291-01",
@@ -174122,9 +175244,81 @@
       ]
     },
     "data/research/evidence/pass-292-geochang-identity-and-release-chain.json": {
-      "integrated": 6,
+      "integrated": 18,
       "conflicted": 0,
       "records": [
+        {
+          "kind": "documents",
+          "id": "doc-p292-01",
+          "pointer": "/sources/0",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p292-02",
+          "pointer": "/sources/1",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p292-03",
+          "pointer": "/sources/2",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p292-04",
+          "pointer": "/sources/3",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p292-05",
+          "pointer": "/sources/4",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p292-06",
+          "pointer": "/sources/5",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p292-07",
+          "pointer": "/sources/6",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p292-08",
+          "pointer": "/sources/7",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p292-09",
+          "pointer": "/sources/8",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p292-10",
+          "pointer": "/sources/9",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p292-11",
+          "pointer": "/sources/10",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p292-12",
+          "pointer": "/sources/11",
+          "status": "INTEGRATED"
+        },
         {
           "kind": "claims",
           "id": "claim-p292-01",
@@ -174164,9 +175358,99 @@
       ]
     },
     "data/research/evidence/pass-293-geochang-trial-panel-and-police-chain.json": {
-      "integrated": 5,
+      "integrated": 20,
       "conflicted": 0,
       "records": [
+        {
+          "kind": "documents",
+          "id": "doc-p293-01",
+          "pointer": "/sources/0",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p293-02",
+          "pointer": "/sources/1",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p293-03",
+          "pointer": "/sources/2",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p293-04",
+          "pointer": "/sources/3",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p293-05",
+          "pointer": "/sources/4",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p293-06",
+          "pointer": "/sources/5",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p293-07",
+          "pointer": "/sources/6",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p293-08",
+          "pointer": "/sources/7",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p293-09",
+          "pointer": "/sources/8",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p293-10",
+          "pointer": "/sources/9",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p293-11",
+          "pointer": "/sources/10",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p293-12",
+          "pointer": "/sources/11",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p293-13",
+          "pointer": "/sources/12",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p293-14",
+          "pointer": "/sources/13",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p293-15",
+          "pointer": "/sources/14",
+          "status": "INTEGRATED"
+        },
         {
           "kind": "claims",
           "id": "claim-p293-01",
@@ -174200,9 +175484,39 @@
       ]
     },
     "data/research/evidence/pass-294-jang-myon-appellate-correction.json": {
-      "integrated": 5,
+      "integrated": 10,
       "conflicted": 0,
       "records": [
+        {
+          "kind": "documents",
+          "id": "doc-p294-01",
+          "pointer": "/sources/0",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p294-02",
+          "pointer": "/sources/1",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p294-03",
+          "pointer": "/sources/2",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p294-04",
+          "pointer": "/sources/3",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p294-05",
+          "pointer": "/sources/4",
+          "status": "INTEGRATED"
+        },
         {
           "kind": "claims",
           "id": "claim-p294-01",
@@ -174236,9 +175550,75 @@
       ]
     },
     "data/research/evidence/pass-295-jang-myon-appellate-date-political-network.json": {
-      "integrated": 15,
+      "integrated": 26,
       "conflicted": 0,
       "records": [
+        {
+          "kind": "documents",
+          "id": "doc-p295-01",
+          "pointer": "/sources/0",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p295-02",
+          "pointer": "/sources/1",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p295-03",
+          "pointer": "/sources/2",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p295-04",
+          "pointer": "/sources/3",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p295-05",
+          "pointer": "/sources/4",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p295-06",
+          "pointer": "/sources/5",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p295-07",
+          "pointer": "/sources/6",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p295-08",
+          "pointer": "/sources/7",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p295-09",
+          "pointer": "/sources/8",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p295-10",
+          "pointer": "/sources/9",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p295-11",
+          "pointer": "/sources/10",
+          "status": "INTEGRATED"
+        },
         {
           "kind": "claims",
           "id": "claim-p295-01",
@@ -174332,9 +175712,153 @@
       ]
     },
     "data/research/evidence/pass-296-im-heungsun-independent-node.json": {
-      "integrated": 13,
+      "integrated": 37,
       "conflicted": 0,
       "records": [
+        {
+          "kind": "documents",
+          "id": "doc-p296-01",
+          "pointer": "/sources/0",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p296-02",
+          "pointer": "/sources/1",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p296-03",
+          "pointer": "/sources/2",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p296-04",
+          "pointer": "/sources/3",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p296-05",
+          "pointer": "/sources/4",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p296-06",
+          "pointer": "/sources/5",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p296-07",
+          "pointer": "/sources/6",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p296-08",
+          "pointer": "/sources/7",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p296-09",
+          "pointer": "/sources/8",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p296-10",
+          "pointer": "/sources/9",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p296-11",
+          "pointer": "/sources/10",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p296-12",
+          "pointer": "/sources/11",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p296-13",
+          "pointer": "/sources/12",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p296-14",
+          "pointer": "/sources/13",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p296-15",
+          "pointer": "/sources/14",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p296-16",
+          "pointer": "/sources/15",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p296-17",
+          "pointer": "/sources/16",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p296-18",
+          "pointer": "/sources/17",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p296-19",
+          "pointer": "/sources/18",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p296-20",
+          "pointer": "/sources/19",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p296-21",
+          "pointer": "/sources/20",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p296-22",
+          "pointer": "/sources/21",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p296-23",
+          "pointer": "/sources/22",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p296-24",
+          "pointer": "/sources/23",
+          "status": "INTEGRATED"
+        },
         {
           "kind": "claims",
           "id": "claim-p296-01",
@@ -174416,9 +175940,81 @@
       ]
     },
     "data/research/evidence/pass-297-im-heungsun-election-trial-chain.json": {
-      "integrated": 7,
+      "integrated": 19,
       "conflicted": 0,
       "records": [
+        {
+          "kind": "documents",
+          "id": "doc-p297-01",
+          "pointer": "/sources/0",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p297-02",
+          "pointer": "/sources/1",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p297-03",
+          "pointer": "/sources/2",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p297-04",
+          "pointer": "/sources/3",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p297-05",
+          "pointer": "/sources/4",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p297-06",
+          "pointer": "/sources/5",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p297-07",
+          "pointer": "/sources/6",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p297-08",
+          "pointer": "/sources/7",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p297-09",
+          "pointer": "/sources/8",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p297-10",
+          "pointer": "/sources/9",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p297-11",
+          "pointer": "/sources/10",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p297-12",
+          "pointer": "/sources/11",
+          "status": "INTEGRATED"
+        },
         {
           "kind": "claims",
           "id": "claim-p297-01",
@@ -174464,9 +176060,69 @@
       ]
     },
     "data/research/evidence/pass-298-seoul-election-actor-identity-correction.json": {
-      "integrated": 7,
+      "integrated": 17,
       "conflicted": 0,
       "records": [
+        {
+          "kind": "documents",
+          "id": "doc-p298-01",
+          "pointer": "/sources/0",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p298-02",
+          "pointer": "/sources/1",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p298-03",
+          "pointer": "/sources/2",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p298-04",
+          "pointer": "/sources/3",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p298-05",
+          "pointer": "/sources/4",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p298-06",
+          "pointer": "/sources/5",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p298-07",
+          "pointer": "/sources/6",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p298-08",
+          "pointer": "/sources/7",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p298-09",
+          "pointer": "/sources/8",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "doc-p298-10",
+          "pointer": "/sources/9",
+          "status": "INTEGRATED"
+        },
         {
           "kind": "claims",
           "id": "claim-p298-01",
@@ -174675,6 +176331,210 @@
           "kind": "claims",
           "id": "CL-P300-04",
           "pointer": "/claims/3",
+          "status": "INTEGRATED"
+        }
+      ]
+    },
+    "data/research/forest-coverage-pass2.json": {
+      "integrated": 17,
+      "conflicted": 1,
+      "records": [
+        {
+          "kind": "documents",
+          "id": "FRUS-1946-1227",
+          "pointer": "/sources/8",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "KHD-CENTER-1945",
+          "pointer": "/sources/11",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "KHD-CONS",
+          "pointer": "/sources/13",
+          "status": "SAFE_FIELDWISE_MERGE"
+        },
+        {
+          "kind": "documents",
+          "id": "KHD-CONS-5TH",
+          "pointer": "/sources/12",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "KHD-CONS-USAMGIK",
+          "pointer": "/sources/7",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "KHD-HISTORY-INDEP",
+          "pointer": "/sources/3",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "KHD-IMSI-CHARTER",
+          "pointer": "/sources/0",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "KHD-IMSI-DOCS",
+          "pointer": "/sources/2",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "KHD-IMSI-INTEGRATION",
+          "pointer": "/sources/1",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "KHD-MEDIA-BIB",
+          "pointer": "/sources/17",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "KHD-NATIONAL-REP",
+          "pointer": "/sources/4",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "KHD-PARIS-KIM",
+          "pointer": "/sources/5",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "KHD-PARIS-LETTER",
+          "pointer": "/sources/6",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "KHD-POLITICAL-INCIDENTS",
+          "pointer": "/sources/16",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "KHD-YH-0816",
+          "pointer": "/sources/14",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "KHD-YH-0817",
+          "pointer": "/sources/15",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "NARA-USAFIK-GUIDE",
+          "pointer": "/sources/10",
+          "status": "CONFLICTED"
+        },
+        {
+          "kind": "documents",
+          "id": "RHEE-LEGISLATURE-1946",
+          "pointer": "/sources/9",
+          "status": "INTEGRATED"
+        }
+      ]
+    },
+    "data/research/forest-coverage-pass3.json": {
+      "integrated": 13,
+      "conflicted": 1,
+      "records": [
+        {
+          "kind": "documents",
+          "id": "KHD-CONS",
+          "pointer": "/sources/7",
+          "status": "SAFE_FIELDWISE_MERGE"
+        },
+        {
+          "kind": "documents",
+          "id": "KHD-IMSI-COLLECTION",
+          "pointer": "/sources/2",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "KHD-IMSI-ELECTION",
+          "pointer": "/sources/0",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "KHD-INDEP-COLLECTION",
+          "pointer": "/sources/1",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "NARA-CABINET",
+          "pointer": "/sources/8",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "NARA-KOREANWAR",
+          "pointer": "/sources/9",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "NARA-LOCAL",
+          "pointer": "/sources/13",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "NARA-MOCP-1968",
+          "pointer": "/sources/11",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "NARA-RICE",
+          "pointer": "/sources/12",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "NARA-USAFIK-GUIDE",
+          "pointer": "/sources/3",
+          "status": "CONFLICTED"
+        },
+        {
+          "kind": "documents",
+          "id": "NEC-LOCAL",
+          "pointer": "/sources/6",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "NEC-PARLIAMENT",
+          "pointer": "/sources/5",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "NEC-PRESIDENT",
+          "pointer": "/sources/4",
+          "status": "INTEGRATED"
+        },
+        {
+          "kind": "documents",
+          "id": "PA-POLICY",
+          "pointer": "/sources/10",
           "status": "INTEGRATED"
         }
       ]

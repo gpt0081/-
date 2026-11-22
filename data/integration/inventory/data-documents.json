@@ -1,14 +1,14 @@
 {
   "schemaVersion": 2,
   "group": "data-documents.json",
-  "sourceSnapshotCommit": "0ec4d08748213b231310076d3933bb1e40810177",
-  "sourceTreeSha": "20a15a95a0c107cf8c72c04cc286d54eb6d16373",
+  "sourceSnapshotCommit": "702c0274e249a9bc1bacb89d61b351a23d79a3b0",
+  "sourceTreeSha": "aef275801ebc259e2bc7278b1a9a3cfca32fd95c",
   "fileCount": 636,
   "statusCounts": {
     "BLOCKED_ID_CONFLICT": 2,
-    "CANONICAL_MATERIALIZED": 598,
+    "CANONICAL_MATERIALIZED": 605,
     "NON_JSON_SOURCE_PRESERVED": 1,
-    "UNMAPPED_AUXILIARY_OR_PARTIAL": 35
+    "UNMAPPED_AUXILIARY_OR_PARTIAL": 28
   },
   "files": [
     {
@@ -7453,7 +7453,7 @@
       "sha256": "c52317c8b7724c493f8c5a7d8812d18776f95ffa844768a1df4297b68575c752",
       "bytes": 959,
       "recordCounts": {
-        "documents": 0,
+        "documents": 3,
         "claims": 0,
         "events": 0,
         "politicians": 0,
@@ -7464,10 +7464,10 @@
       "targetRegistries": [
         "documents"
       ],
-      "sourceStatus": "AUXILIARY_JSON_INDEXED",
-      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
       "conflicts": [],
-      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+      "unintegratedReason": null
     },
     {
       "path": "data/documents/run135-biographical-crosschecks.json",
@@ -8069,7 +8069,7 @@
       "sha256": "33d5e0d5cc168d96960cd15d537b3f3eca7e1d75a24620aa66680d671cd7714d",
       "bytes": 3337,
       "recordCounts": {
-        "documents": 15,
+        "documents": 17,
         "claims": 0,
         "events": 0,
         "politicians": 0,
@@ -8465,7 +8465,7 @@
       "sha256": "bac0bea93135802b5c9bf9ed91f6610bf31f1218c11762e33e44fd8c2c09c2b0",
       "bytes": 800,
       "recordCounts": {
-        "documents": 0,
+        "documents": 3,
         "claims": 0,
         "events": 0,
         "politicians": 0,
@@ -8476,10 +8476,10 @@
       "targetRegistries": [
         "documents"
       ],
-      "sourceStatus": "AUXILIARY_JSON_INDEXED",
-      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
       "conflicts": [],
-      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+      "unintegratedReason": null
     },
     {
       "path": "data/documents/run150-frus-1955-extended.json",
@@ -8575,7 +8575,7 @@
       "sha256": "8ae4dabcb8e735d5c88709445c20a78561e138eaad35e573363c6f565e0f9d1a",
       "bytes": 479,
       "recordCounts": {
-        "documents": 0,
+        "documents": 3,
         "claims": 0,
         "events": 0,
         "politicians": 0,
@@ -8586,10 +8586,10 @@
       "targetRegistries": [
         "documents"
       ],
-      "sourceStatus": "AUXILIARY_JSON_INDEXED",
-      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
       "conflicts": [],
-      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+      "unintegratedReason": null
     },
     {
       "path": "data/documents/run150-national-archives-choi-judgment.json",
@@ -8685,7 +8685,7 @@
       "sha256": "d87f34a03c2d26bf89d7506d639ab80dc1dc8df0d4c5d04c51883b13fcd8dd50",
       "bytes": 699,
       "recordCounts": {
-        "documents": 0,
+        "documents": 4,
         "claims": 0,
         "events": 0,
         "politicians": 0,
@@ -8696,10 +8696,10 @@
       "targetRegistries": [
         "documents"
       ],
-      "sourceStatus": "AUXILIARY_JSON_INDEXED",
-      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
       "conflicts": [],
-      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+      "unintegratedReason": null
     },
     {
       "path": "data/documents/run152-coop-education-policy.json",
@@ -8707,7 +8707,7 @@
       "sha256": "3803cd3dd7a7982db4c17be6db58ac5fc96d2c48f7438580d68f7750171ef5b2",
       "bytes": 658,
       "recordCounts": {
-        "documents": 0,
+        "documents": 3,
         "claims": 0,
         "events": 0,
         "politicians": 0,
@@ -8718,10 +8718,10 @@
       "targetRegistries": [
         "documents"
       ],
-      "sourceStatus": "AUXILIARY_JSON_INDEXED",
-      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
       "conflicts": [],
-      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+      "unintegratedReason": null
     },
     {
       "path": "data/documents/run153-election-local.json",
@@ -8729,7 +8729,7 @@
       "sha256": "8712256da0fe5db6ea27e2ff4410b9d64cf6136c8989cd503dead43cf45dbf7a",
       "bytes": 379,
       "recordCounts": {
-        "documents": 0,
+        "documents": 2,
         "claims": 0,
         "events": 0,
         "politicians": 0,
@@ -8740,10 +8740,10 @@
       "targetRegistries": [
         "documents"
       ],
-      "sourceStatus": "AUXILIARY_JSON_INDEXED",
-      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
       "conflicts": [],
-      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+      "unintegratedReason": null
     },
     {
       "path": "data/documents/run153-legislative-conflict.json",
@@ -8751,7 +8751,7 @@
       "sha256": "75f55eef2da0e993e8bbbeeba23d37e5ece1cd4961c80ed20b3e136a35d00d5e",
       "bytes": 420,
       "recordCounts": {
-        "documents": 0,
+        "documents": 3,
         "claims": 0,
         "events": 0,
         "politicians": 0,
@@ -8762,10 +8762,10 @@
       "targetRegistries": [
         "documents"
       ],
-      "sourceStatus": "AUXILIARY_JSON_INDEXED",
-      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
       "conflicts": [],
-      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+      "unintegratedReason": null
     },
     {
       "path": "data/documents/run154-us-embassy-1957.json",
