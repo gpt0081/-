@@ -4,7 +4,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from integration_merge import safe_merge_variants
+from integration_merge import safe_merge_variants, existing_status_is_more_mature, extract_additional_registry_collections
 
 
 def alt(data, path):
@@ -109,3 +109,35 @@ if __name__ == "__main__":
     for test_case in tests:
         test_case()
     print({"tests": len(tests), "status": "PASS"})
+
+def test_existing_higher_status_is_preserved_without_auto_promotion():
+    assert existing_status_is_more_mature("ANNALS_ACTIVE", "DISCOVERED")
+    assert existing_status_is_more_mature("VERIFIED", "IDENTIFIED")
+    assert not existing_status_is_more_mature("DISCOVERED", "ANNALS_ACTIVE")
+    assert not existing_status_is_more_mature("VERIFIED", "VERIFIED")
+
+
+def test_extract_legacy_document_sources_metadata_and_nested_event():
+    obj = {
+        "sources": [
+            {"id": "d150-test-source", "url": "https://example.invalid/source"},
+            {"id": "not-a-document", "note": "no title, URL, or location"},
+        ],
+        "metadataOnly": [
+            {"id": "d152-test-law", "number": 436, "date": "1957-02-14", "title": "농업협동조합법"},
+        ],
+        "additionalEvent": {
+            "id": "evt-r150-test-election",
+            "date": "1956-08-13",
+            "name": "1956 시·도의회 의원 선거",
+        },
+    }
+    extracted = extract_additional_registry_collections(obj, {"documents", "events"})
+    by_field = {field: rows for kind, field, rows in extracted}
+    assert by_field["sources"][0]["id"] == "d150-test-source"
+    assert len(by_field["sources"]) == 1
+    assert by_field["metadataOnly"][0]["id"] == "d152-test-law"
+    assert by_field["additionalEvent"][0]["id"] == "evt-r150-test-election"
+    assert extract_additional_registry_collections(obj, {"events"}) == [
+        ("events", "additionalEvent", [obj["additionalEvent"]])
+    ]

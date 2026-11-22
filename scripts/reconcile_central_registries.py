@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Merge unambiguous, provenance-backed records into operational root registries."""
 import collections, copy, datetime, hashlib, json, pathlib, re
+from integration_merge import existing_status_is_more_mature
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 OUT = DATA / "integration" / "generated"
@@ -221,6 +222,14 @@ def merge_record(target, incoming, kind, ident, conflicts):
         elif kind == "politicians" and key == "researchStatus" and isinstance(target[key], str) and isinstance(value, str) and normalize_research_status(target[key]) == normalize_research_status(value):
             add_note(target, "researchStatusDetails", {"rawValue": value, "standardStatus": normalize_research_status(value)}, incoming)
             record_field_variant(target, kind, ident, key, target[key], value, incoming, "NORMALIZED_TO_STANDARD_RESEARCH_STATUS")
+        elif kind == "politicians" and key == "researchStatus" and isinstance(target[key], str) and isinstance(value, str) and existing_status_is_more_mature(target[key], value):
+            add_note(target, "researchStatusDetails", {
+                "rawValue": value,
+                "standardStatus": normalize_research_status(value),
+                "mergeDecision": "PRESERVED_HIGHER_EXISTING_ROOT_STATUS"
+            }, incoming)
+            record_field_variant(target, kind, ident, key, target[key], value, incoming,
+                                 "PRESERVED_HIGHER_EXISTING_RESEARCH_STATUS")
         elif kind == "politicians" and key == "evidenceCoverage" and isinstance(target[key], list) and isinstance(value, str):
             add_note(target, "evidenceCoverageNotes", value, incoming)
             record_field_variant(target, kind, ident, key, target[key], value, incoming, "MOVED_NARRATIVE_TO_EVIDENCE_COVERAGE_NOTES")

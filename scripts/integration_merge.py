@@ -362,6 +362,52 @@ def _normalize_status(value):
             return status
     return "DISCOVERED"
 
+def existing_status_is_more_mature(existing, incoming):
+    """Preserve a stronger existing status; never promote from a weaker source."""
+    left = _normalize_status(existing)
+    right = _normalize_status(incoming)
+    return STATUS_RANK[left] > STATUS_RANK[right]
+
+
+def extract_additional_registry_collections(obj, allowed_kinds):
+    """Extract legacy document arrays and one nested additional event conservatively."""
+    if not isinstance(obj, dict):
+        return []
+    extracted = []
+    document_id_fields = ("id", "documentId", "document_id",
+                          "candidateDocumentId", "candidate_document_id")
+    document_descriptors = ("title", "originalLocation", "original_location", "url",
+                            "documentNumber", "document_number")
+    if "documents" in allowed_kinds:
+        for field in ("sources", "metadataOnly", "metadata_only",
+                      "sourceDocuments", "documentSources"):
+            items = obj.get(field)
+            if not isinstance(items, list):
+                continue
+            selected = []
+            for item in items:
+                if not isinstance(item, dict):
+                    continue
+                ident = next((item.get(key) for key in document_id_fields
+                              if isinstance(item.get(key), str) and item.get(key).strip()), None)
+                has_descriptor = any(item.get(key) not in (None, "", [], {})
+                                     for key in document_descriptors)
+                if ident and has_descriptor:
+                    selected.append(item)
+            if selected:
+                extracted.append(("documents", field, selected))
+    if "events" in allowed_kinds:
+        event = obj.get("additionalEvent")
+        if isinstance(event, dict):
+            event_id = next((event.get(key) for key in
+                             ("id", "eventId", "event_id", "candidateEventId", "candidate_event_id")
+                             if isinstance(event.get(key), str) and event.get(key).strip()), None)
+            has_descriptor = any(event.get(key) not in (None, "", [], {})
+                                 for key in ("date", "title", "name", "description"))
+            if event_id and has_descriptor:
+                extracted.append(("events", "additionalEvent", [event]))
+    return extracted
+
 
 def _merge_object(objects, provenance_rows, kind, identity, field_variants, prefix=""):
     result = {}

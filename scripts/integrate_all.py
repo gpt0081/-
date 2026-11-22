@@ -6,7 +6,7 @@ import json
 import pathlib
 import sys
 
-from integration_merge import safe_merge_variants
+from integration_merge import safe_merge_variants, extract_additional_registry_collections
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
@@ -140,6 +140,11 @@ for path in sorted(DATA.rglob("*")):
         ):
             collections_to_read.append(("documents", "provenance", provenance_items))
             processed_fields.add("provenance")
+        # Preserve older document bundles stored in "sources"/"metadataOnly"
+        # and event corrections carrying one nested "additionalEvent".
+        collections_to_read.extend(
+            extract_additional_registry_collections(obj, allowed_kinds)
+        )
     elif isinstance(obj, list) and kind in KINDS and kind in allowed_kinds:
         collections_to_read.append((kind, kind, obj))
 

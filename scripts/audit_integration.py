@@ -66,6 +66,14 @@ reference_ids["events"].update(r.get("id") or r.get("eventId") or r.get("actionI
 reference_ids["politicians"].update(r.get("id") for r in root_people if isinstance(r,dict) and r.get("id"))
 reference_ids["events"].discard(None)
 reference_ids["politicians"].discard(None)
+# The chronological president overlay is a valid legacy person-ID namespace.
+presidents = json.loads((root/"data/presidents.json").read_text(encoding="utf-8-sig"))
+if isinstance(presidents, list):
+    reference_ids["politicians"].update(
+        row.get("id") for row in presidents
+        if isinstance(row, dict) and isinstance(row.get("id"), str)
+    )
+reference_ids["politicians"].discard(None)
 # Validate materialized canonical registries against the lossless alternatives.
 # A generated index alone cannot establish that the queryable central layer exists.
 canonical_root=root/"data/integration/canonical"
@@ -252,12 +260,23 @@ for left in kinds:
                            "kinds":[left,right]})
 reference_fields={
     "relatedDocumentIds":"documents", "documentIds":"documents",
+    "evidenceDocumentIds":"documents", "linkedDocumentIds":"documents",
     "supportingDocumentIds":"documents", "contradictingDocumentIds":"documents",
-    "relatedEventIds":"events", "eventIds":"events",
+    "relatedEventIds":"events", "eventIds":"events", "linkedEventIds":"events",
     "relatedClaimIds":"claims", "claimIds":"claims",
     "relatedPoliticianIds":"politicians", "politicianIds":"politicians",
+    "linkedPoliticianIds":"politicians",
     "relatedOrganizationIds":"organizations", "organizationIds":"organizations",
     "relatedRoleIds":"roles", "roleIds":"roles",
+    "related_document_ids":"documents", "document_ids":"documents",
+    "evidence_document_ids":"documents", "linked_document_ids":"documents",
+    "supporting_document_ids":"documents", "contradicting_document_ids":"documents",
+    "related_event_ids":"events", "event_ids":"events", "linked_event_ids":"events",
+    "related_claim_ids":"claims", "claim_ids":"claims",
+    "related_politician_ids":"politicians", "politician_ids":"politicians",
+    "linked_politician_ids":"politicians",
+    "related_organization_ids":"organizations", "organization_ids":"organizations",
+    "related_role_ids":"roles", "role_ids":"roles",
 }
 reference_issues=[]
 for kind in kinds:

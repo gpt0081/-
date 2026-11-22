@@ -12,6 +12,7 @@ def read_rows(path, key):
 
 root_people=read_rows(data/"politicians.json","politicians")
 root_events=read_rows(data/"events.json","events")
+president_rows=json.loads((data/"presidents.json").read_text(encoding="utf-8-sig"))
 generated={kind:read_rows(out/(kind+".json"),"records")
            for kind in ("documents","claims","events","politicians","organizations","roles")}
 known={kind:{r.get("id") for r in rows if isinstance(r,dict) and r.get("id")}
@@ -19,6 +20,11 @@ known={kind:{r.get("id") for r in rows if isinstance(r,dict) and r.get("id")}
 known["politicians"].update(p.get("id") for p in root_people if isinstance(p,dict) and p.get("id"))
 known["events"].update(r.get("id") or r.get("eventId") or r.get("actionId")
                        for r in root_events if isinstance(r,dict))
+if isinstance(president_rows, list):
+    known["politicians"].update(
+        row.get("id") for row in president_rows
+        if isinstance(row, dict) and isinstance(row.get("id"), str)
+    )
 for values in known.values():
     values.discard(None)
 
@@ -33,7 +39,7 @@ for person in people_by_id.values():
 patterns={
     "politicians":re.compile(r"\b(?:pol|cand|candidate|president|foreign|ext|actor)-[A-Za-z0-9][A-Za-z0-9-]*\b"),
     "events":re.compile(r"\b(?:evt|ACT|act)-[A-Za-z0-9][A-Za-z0-9-]*\b"),
-    "documents":re.compile(r"\b(?:doc|DOC)-[A-Za-z0-9][A-Za-z0-9-]*\b|\burn:source:[0-9a-f]{24}\b"),
+    "documents":re.compile(r"\b(?:d[0-9]+-[A-Za-z0-9][A-Za-z0-9-]*|(?:doc|DOC)-[A-Za-z0-9][A-Za-z0-9-]*)\b|\burn:source:[0-9a-f]{24}\b"),
     "claims":re.compile(r"\b(?:claim|clm)-[A-Za-z0-9][A-Za-z0-9-]*\b"),
     "organizations":re.compile(r"\borg-[A-Za-z0-9][A-Za-z0-9-]*\b"),
     "roles":re.compile(r"\brole-[A-Za-z0-9][A-Za-z0-9-]*\b"),
@@ -102,7 +108,7 @@ for source in source_index:
     }
     total=sum(len(item[field]) for field in (
         "candidatePoliticianIds","relatedEventIds","relatedDocumentIds",
-        "relatedClaimIds","relatedOrganizationIds"))
+        "relatedClaimIds","relatedOrganizationIds","relatedRoleIds"))
     for field in ("candidatePoliticianIds","relatedEventIds","relatedDocumentIds",
                   "relatedClaimIds","relatedOrganizationIds","relatedRoleIds"):
         relation_counts[field]+=len(item[field])
