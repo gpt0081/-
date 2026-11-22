@@ -83,8 +83,15 @@ for kind in kinds:
         issues.append({"code":"CANONICAL_REGISTRY_UNREADABLE","kind":kind,"detail":str(exc)[:160]})
         continue
     generated=json.loads((out/(kind+".json")).read_text())["records"]
-    expected={r["id"]:r["alternatives"][0] for r in generated
-              if r["integrationStatus"]=="INTEGRATED" and len(r["alternatives"])==1}
+    expected={}
+    for record in generated:
+        if record["integrationStatus"] == "INTEGRATED" and len(record["alternatives"]) == 1:
+            expected[record["id"]] = record["alternatives"][0]
+        elif record["integrationStatus"] == "SAFE_FIELDWISE_MERGE" and record.get("safeMerge"):
+            safe = record["safeMerge"]
+            expected[record["id"]] = {"data": safe["data"], "digest": safe["digest"],
+                "provenance": safe["provenance"], "safeMerge": True,
+                "mergePolicy": safe["mergePolicy"], "fieldVariantHistory": safe["fieldVariants"]}
     actual={}
     for row in rows:
         if not isinstance(row,dict) or not isinstance(row.get("_integration"),dict):
@@ -107,7 +114,7 @@ for kind in kinds:
         # integrate_all adds a normalized "id" to canonical rows even when the
         # source used documentId/event_id/candidate_id/etc. Compare source payloads
         # without treating that generated compatibility field as source mutation.
-        if "id" not in alt["data"]:
+        if "id" not in alt["data"] and not alt.get("safeMerge"):
             payload.pop("id", None)
         digest=hashlib.sha256(json.dumps(payload,ensure_ascii=False,sort_keys=True,
                               separators=(",",":")).encode()).hexdigest()
@@ -115,6 +122,12 @@ for kind in kinds:
             issues.append({"code":"CANONICAL_PAYLOAD_MISMATCH","kind":kind,"id":ident})
         if row["_integration"].get("provenance")!=alt["provenance"]:
             issues.append({"code":"CANONICAL_PROVENANCE_MISMATCH","kind":kind,"id":ident})
+        if alt.get("safeMerge"):
+            meta = row["_integration"]
+            if meta.get("mergePolicy") != alt["mergePolicy"]:
+                issues.append({"code":"CANONICAL_MERGE_POLICY_MISMATCH","kind":kind,"id":ident})
+            if meta.get("fieldVariantHistory") != alt["fieldVariantHistory"]:
+                issues.append({"code":"CANONICAL_FIELD_VARIANT_HISTORY_MISMATCH","kind":kind,"id":ident})
 
 aux=json.loads((out/"auxiliary.json").read_text())["records"]
 aux_paths={a["source"] for a in aux}

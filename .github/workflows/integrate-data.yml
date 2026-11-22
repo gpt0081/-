@@ -4,6 +4,8 @@ on:
     branches: [main]
     paths:
       - 'scripts/integrate_all.py'
+      - 'scripts/integration_merge.py'
+      - 'scripts/test_integration_merge.py'
       - 'scripts/reconcile_central_registries.py'
       - 'scripts/audit_integration.py'
       - 'scripts/link_operational_layers.py'
@@ -31,8 +33,10 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Compile integration scripts before mutating registries
-        run: python -m py_compile scripts/integrate_all.py scripts/reconcile_central_registries.py scripts/link_operational_layers.py scripts/audit_integration.py scripts/triage_integration.py scripts/audit_politician_references.py
+      - name: Compile integration scripts and merger tests before mutating registries
+        run: python -m py_compile scripts/integration_merge.py scripts/test_integration_merge.py scripts/integrate_all.py scripts/reconcile_central_registries.py scripts/link_operational_layers.py scripts/audit_integration.py scripts/triage_integration.py scripts/audit_politician_references.py
+      - name: Run conservative merge regression tests
+        run: python scripts/test_integration_merge.py
       - name: Consolidate every source and preserve conflicts
         id: consolidate
         shell: bash

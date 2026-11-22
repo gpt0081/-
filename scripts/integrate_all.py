@@ -6,6 +6,8 @@ import json
 import pathlib
 import sys
 
+from integration_merge import safe_merge_variants
+
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 OUT = DATA / "integration" / "generated"
@@ -231,7 +233,7 @@ for path in sorted(DATA.rglob("*")):
 
 (OUT / "auxiliary.json").write_text(
     json.dumps({"schemaVersion": 2, "records": auxiliary}, ensure_ascii=False, indent=2) + chr(10), encoding="utf-8")
-conflicts, exact_duplicates, totals = [], [], {}
+conflicts, exact_duplicates, totals, safe_merged_ids = [], [], {}, []
 source_outcomes = collections.defaultdict(lambda: {"integrated": 0, "conflicted": 0, "records": []})
 for typ, groups in records.items():
     central = []
@@ -244,43 +246,69 @@ for typ, groups in records.items():
             {"digest": digest, "data": variants[0]["data"],
              "provenance": [v["source"] for v in variants]}
             for digest, variants in sorted(unique.items())]
-        status = "CONFLICTED" if len(alternatives) > 1 else "INTEGRATED"
-        central.append({"id": ident, "integrationStatus": status,
-                        "alternatives": alternatives,
-                        "canonicalSelection": alternatives[0]["digest"] if len(alternatives) == 1 else None})
+        safe_merge, merge_block_reason = (None, None)
+        if len(alternatives) > 1:
+            safe_merge, merge_block_reason = safe_merge_variants(typ, ident, alternatives)
+        status = ("SAFE_FIELDWISE_MERGE" if safe_merge else "CONFLICTED") if len(alternatives) > 1 else "INTEGRATED"
+        row = {"id": ident, "integrationStatus": status,
+               "alternatives": alternatives,
+               "canonicalSelection": alternatives[0]["digest"] if len(alternatives) == 1 else None}
+        if safe_merge:
+            row["safeMerge"] = safe_merge
+            safe_merged_ids.append({"type": typ, "id": ident,
+                "variantCount": safe_merge["sourceVariantCount"],
+                "fieldVariantCount": safe_merge["fieldVariantCount"],
+                "identityBasis": safe_merge["identityBasis"].get("basis")})
+        elif merge_block_reason:
+            row["mergeReview"] = {"status": "BLOCKED", "reason": merge_block_reason}
+        central.append(row)
         for version in versions:
             outcome = source_outcomes[version["source"]["path"]]
             outcome["conflicted" if status == "CONFLICTED" else "integrated"] += 1
             outcome["records"].append({"kind": typ, "id": ident,
                                        "pointer": version["source"]["pointer"],
                                        "status": status})
-        if len(alternatives) > 1:
+        if status == "CONFLICTED":
             conflicts.append({"type": typ, "id": ident,
                               "variantCount": len(alternatives),
-                              "sources": sorted(set(v["source"]["path"] for v in versions))})
+                              "sources": sorted(set(v["source"]["path"] for v in versions)),
+                              "mergeReview": row.get("mergeReview", {})})
         if len(versions) > len(alternatives):
             exact_duplicates.append({"type": typ, "id": ident, "copies": len(versions),
                                      "uniqueVersions": len(alternatives)})
     totals[typ] = {"sourceRecords": sum(map(len, groups.values())),
                    "uniqueIds": len(groups),
                    "conflictedIds": sum(1 for c in central if c["integrationStatus"] == "CONFLICTED")}
-    # Materialize only unambiguous records into a separate, queryable central layer.
-    # Conflicted identities stay in the generated alternatives registry for review.
+    # Materialize unambiguous records and conservative field-wise merges.
+    # All original alternatives remain available in the generated lossless registry.
     canonical_rows = []
     for row in central:
-        if row["integrationStatus"] != "INTEGRATED":
+        status = row["integrationStatus"]
+        if status == "INTEGRATED":
+            alternative = row["alternatives"][0]
+            payload = dict(alternative["data"])
+            payload["id"] = row["id"]
+            digest = row["canonicalSelection"]
+            source_provenance = alternative["provenance"]
+            merge_meta = {}
+        elif status == "SAFE_FIELDWISE_MERGE":
+            safe = row["safeMerge"]
+            payload = dict(safe["data"])
+            payload["id"] = row["id"]
+            digest = safe["digest"]
+            source_provenance = safe["provenance"]
+            merge_meta = {"mergePolicy": safe["mergePolicy"],
+                          "fieldVariantHistory": safe["fieldVariants"],
+                          "sourceVariantCount": safe["sourceVariantCount"],
+                          "identityBasis": safe["identityBasis"]}
+        else:
             continue
-        payload = dict(row["alternatives"][0]["data"])
-        payload["id"] = row["id"]
-        payload["_integration"] = {
-            "id": row["id"],
-            "digest": row["canonicalSelection"],
-            "provenance": row["alternatives"][0]["provenance"],
-        }
+        payload["_integration"] = {"id": row["id"], "digest": digest,
+                                   "provenance": source_provenance, **merge_meta}
         canonical_rows.append(payload)
     (CANONICAL / (typ + ".json")).write_text(
-        json.dumps({"schemaVersion": 1, "registryType": typ,
-                    "selectionPolicy": "UNAMBIGUOUS_ONLY",
+        json.dumps({"schemaVersion": 2, "registryType": typ,
+                    "selectionPolicy": "UNAMBIGUOUS_OR_SAFE_FIELDWISE_MERGE_WITH_VARIANTS_PRESERVED",
                     "records": canonical_rows}, ensure_ascii=False, indent=2) + chr(10), encoding="utf-8")
     (OUT / (typ + ".json")).write_text(
         json.dumps({"schemaVersion": 2, "registryType": typ, "records": central},
@@ -308,6 +336,7 @@ report = {"canonicalMaterialized": {k: v["uniqueIds"] - v["conflictedIds"] for k
           "sourceFiles": len(sources), "sourceStatusCounts": dict(sorted(source_status_counts.items())),
           "targetLayerCounts": dict(sorted(target_layer_counts.items())), "totals": totals,
           "parseErrors": parse_errors, "conflictingIds": conflicts,
+          "safeMergedIds": safe_merged_ids, "safeMergeCount": len(safe_merged_ids),
           "exactDuplicateIds": exact_duplicates, "auxiliaryIndexedSources": sorted(set(unstructured + partial_sources)),
           "auxiliaryRecords": len(auxiliary), "partialSources": sorted(partial_sources),
           "status": "FULL_INTEGRATION_INCOMPLETE" if parse_errors or conflicts or unstructured or partial_sources or auxiliary else "CENTRAL_SYNC_PASS",
@@ -316,7 +345,7 @@ report = {"canonicalMaterialized": {k: v["uniqueIds"] - v["conflictedIds"] for k
 (OUT / "report.json").write_text(
     json.dumps(report, ensure_ascii=False, indent=2) + chr(10), encoding="utf-8")
 print(json.dumps({"status": report["status"], "files": len(sources), "totals": totals,
-                  "conflicts": len(conflicts), "parseErrors": len(parse_errors),
+                  "safeMerges": len(safe_merged_ids), "conflicts": len(conflicts), "parseErrors": len(parse_errors),
                   "auxiliaryIndexedSources": len(unstructured)}, ensure_ascii=False))
 if parse_errors or conflicts or unstructured or partial_sources or auxiliary:
     sys.exit(1)

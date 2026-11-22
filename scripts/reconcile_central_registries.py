@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Merge unambiguous, provenance-backed records into operational root registries."""
-import collections, copy, datetime, hashlib, json, pathlib
+import collections, copy, datetime, hashlib, json, pathlib, re
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 OUT = DATA / "integration" / "generated"
@@ -16,30 +16,112 @@ def provenance(row):
     return row.get("_integration", {}).get("provenance", [])
 def norm(value):
     return "".join(ch.lower() for ch in str(value or "") if ch.isalnum())
+def _name_values(person):
+    values = []
+    for key in ("name", "name_ko", "nameKo", "displayName", "display_name",
+                "english", "name_en", "nameEn", "romanization", "romanized", "hanja"):
+        value = person.get(key)
+        if isinstance(value, dict):
+            values.extend(v for v in value.values() if isinstance(v, str) and v.strip())
+        elif isinstance(value, str) and value.strip():
+            values.append(value)
+    aliases = person.get("aliases", [])
+    if isinstance(aliases, list):
+        values.extend(v for v in aliases if isinstance(v, str) and v.strip())
+    elif isinstance(aliases, str) and aliases.strip():
+        values.append(aliases)
+    return values
+
 def names(person):
-    values = [person.get("name"), person.get("name_ko"), person.get("nameKo"),
-              person.get("displayName"), person.get("english"), person.get("hanja")]
-    if isinstance(person.get("aliases"), list):
-        values.extend(person["aliases"])
-    return {norm(v) for v in values if v}
+    return {norm(value) for value in _name_values(person) if norm(value)}
 
 def display_name(person):
-    return person.get("name") or person.get("name_ko") or person.get("nameKo") or person.get("displayName")
+    candidates = []
+    for key in ("name_ko", "nameKo", "displayName", "display_name", "name", "english", "name_en"):
+        value = person.get(key)
+        if isinstance(value, dict):
+            for subkey in ("ko", "name_ko", "nameKo", "en", "english", "name_en"):
+                item = value.get(subkey)
+                if isinstance(item, str) and item.strip():
+                    candidates.append(item.strip())
+        elif isinstance(value, str) and value.strip():
+            candidates.append(value.strip())
+    if not candidates:
+        return None
+    candidates.sort(key=lambda value: (
+        0 if re.search(r"[가-힣]", value) else 1,
+        -len(value), value.lower()
+    ))
+    return candidates[0]
+
+def is_foreign_person(person):
+    values = []
+    for key in ("type", "personType", "person_type", "actorType", "actor_type",
+                "category", "scope", "nationality", "citizenship",
+                "nationalityCode", "citizenshipCountry"):
+        value = person.get(key)
+        if isinstance(value, list):
+            values.extend(str(item) for item in value)
+        elif isinstance(value, dict):
+            values.extend(str(item) for item in value.values())
+        elif value:
+            values.append(str(value))
+    for key in ("roles", "actionTypes", "action_types", "affiliations", "organizations"):
+        value = person.get(key)
+        if isinstance(value, list):
+            values.extend(str(item) for item in value)
+        elif value:
+            values.append(str(value))
+    text = " ".join(values).lower()
+    if re.search(r"foreign[-_ ](official|diplomat|military|actor|person|head|counterpart)", text):
+        return True
+    if re.search(r"external[-_ ](actor|official|person)", text):
+        return True
+    markers = (
+        "u.s. army", "united states army", "u.s. navy", "united states navy",
+        "usn", "u.s. department of state", "department of state", "state department",
+        "united nations command", "cincunc", "unc representative",
+        "u.s. ambassador to korea", "united states ambassador to korea",
+        "미국 대통령", "주한 미국대사", "미국대사관", "미국 국무부",
+        "미 국무부", "미8군", "미군", "special representative for korean economic affairs",
+        "office of northeast asian affairs"
+    )
+    if any(marker in text for marker in markers):
+        return True
+    nationality = " ".join(str(person.get(key, "")) for key in ("nationality", "citizenship", "nationalityCode", "citizenshipCountry")).lower()
+    if nationality and not any(token in nationality for token in ("korean", "korea", "대한민국", "한국")):
+        return True
+    return False
+
+def is_collective_label(person):
+    name = display_name(person)
+    if not name:
+        return True
+    value = norm(name)
+    tokens = (
+        "성명미확정", "본명미확정", "성명미상", "본명미상", "미확인", "미상", "불명",
+        "네트워크", "그룹", "집단", "명단", "후보군", "관계자", "담당자", "기초관료",
+        "unknown", "unnamed", "unidentified", "collective", "network", "roster", "slot"
+    )
+    return any(norm(token) in value for token in tokens)
 
 def is_root_politician(person):
-    ident = rid(person)
-    return bool(ident and ident.startswith(("pol-", "cand-", "candidate-", "cand172-")) and display_name(person))
+    ident = rid(person) or ""
+    allowed = bool(re.match(r"^(?:pol-|cand-|candidate-|cand[0-9]+[a-z]? -)".replace(" ", ""), ident))
+    return bool(allowed and display_name(person) and not is_foreign_person(person) and not is_collective_label(person))
 
 def policy_exclusion(person):
     ident = rid(person) or ""
     if ident.startswith("org-"): return "ORGANIZATION_NODE"
     if ident.startswith("actor-"): return "NON_POLITICIAN_POLICY_ACTOR"
-    if ident.startswith(("foreign-", "ext-")): return "EXTERNAL_ACTOR_OUTSIDE_DOMESTIC_ROOT"
-    if ident.startswith("class-"): return "COLLECTIVE_DISCOVERY_CLASS_NOT_PERSON"
+    if ident.startswith(("foreign-", "ext-")) or is_foreign_person(person): return "EXTERNAL_PERSON_OUTSIDE_DOMESTIC_ROOT"
+    if ident.startswith("class-") or is_collective_label(person): return "COLLECTIVE_OR_UNRESOLVED_LABEL_NOT_PERSON"
     if ident.startswith("slot-"): return "UNRESOLVED_NAME_SLOT"
     if ident.startswith("president-"): return "LEGACY_PRESIDENT_ID_REQUIRES_CROSSWALK"
     if not display_name(person): return "MISSING_PERSON_NAME_NOT_PROMOTED"
-    return "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX"
+    if not re.match(r"^(?:pol-|cand-|candidate-|cand[0-9]+[a-z]? -)".replace(" ", ""), ident):
+        return "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX"
+    return "NOT_ELIGIBLE_FOR_DOMESTIC_POLITICIAN_ROOT"
 def merge_list(left, right):
     result = list(left) if isinstance(left, list) else []
     seen = {json.dumps(v, ensure_ascii=False, sort_keys=True) for v in result}
@@ -161,8 +243,12 @@ def merge_record(target, incoming, kind, ident, conflicts):
 
 def attach_provenance(target, incoming):
     meta = target.setdefault("_integration", {})
+    incoming_meta = incoming.get("_integration", {}) if isinstance(incoming, dict) else {}
     meta["id"] = target.get("id")
     meta["provenance"] = merge_list(meta.get("provenance", []), provenance(incoming))
+    meta["fieldVariantHistory"] = merge_list(meta.get("fieldVariantHistory", []), incoming_meta.get("fieldVariantHistory", []))
+    meta["mergePolicyHistory"] = merge_list(meta.get("mergePolicyHistory", []),
+                                            [incoming_meta.get("mergePolicy")] if incoming_meta.get("mergePolicy") else [])
     meta["syncDate"] = TODAY
 
 # Event/action registry
@@ -190,7 +276,11 @@ for raw in event_rows:
     else:
         meta = incoming.get("_integration", {})
         incoming["_integration"] = {"id": ident, "digest": meta.get("digest"),
-                                    "provenance": meta.get("provenance", []), "syncDate": TODAY}
+                                    "provenance": meta.get("provenance", []), "syncDate": TODAY,
+                                    "mergePolicy": meta.get("mergePolicy"),
+                                    "fieldVariantHistory": meta.get("fieldVariantHistory", []),
+                                    "sourceVariantCount": meta.get("sourceVariantCount", 1),
+                                    "identityBasis": meta.get("identityBasis")}
         root_events.append(incoming); event_by_id[ident] = incoming; event_added += 1
 root_events.sort(key=lambda row: (str(row.get("date") or row.get("startDate") or row.get("dateRange") or "9999"), str(rid(row) or "")))
 event_root["updatedAt"] = TODAY
@@ -221,6 +311,16 @@ for raw in canonical_people:
         crosswalk.append({"id": ident, "name": raw.get("name"), "status": "ORGANIZATION_ROUTED", "sourcePaths": source_paths}); continue
     if ident.startswith("actor-"):
         crosswalk.append({"id": ident, "name": raw.get("name"), "status": "POLICY_ACTOR_OUTSIDE_POLITICIAN_ROOT", "sourcePaths": source_paths}); continue
+    if is_foreign_person(raw):
+        crosswalk.append({"id": ident, "name": display_name(raw),
+            "status": "EXTERNAL_PERSON_OUTSIDE_DOMESTIC_POLITICIAN_ROOT",
+            "policyReason": policy_exclusion(raw), "sourcePaths": source_paths})
+        continue
+    if is_collective_label(raw):
+        crosswalk.append({"id": ident, "name": display_name(raw),
+            "status": "COLLECTIVE_OR_UNRESOLVED_LABEL_NOT_PROMOTED",
+            "policyReason": policy_exclusion(raw), "sourcePaths": source_paths})
+        continue
     if ident in people_by_id:
         target = people_by_id[ident]
         merge_record(target, raw, "politicians", ident, person_conflicts)
@@ -229,13 +329,25 @@ for raw in canonical_people:
         person_merged += 1
         crosswalk.append({"id": ident, "name": raw.get("name"), "status": "ALREADY_REGISTERED_MERGED_ADDITIVELY", "targetIds": [ident], "sourcePaths": source_paths})
         continue
-    if not ident.startswith(("pol-", "cand-", "candidate-")) or not display_name(raw):
+    if not is_root_politician(raw):
         crosswalk.append({"id": ident, "name": display_name(raw), "status": "NON_PERSON_OR_MISSING_NAME_NOT_PROMOTED",
                           "policyReason": policy_exclusion(raw), "sourcePaths": source_paths}); continue
-    person = copy.deepcopy(raw); person["id"] = ident; person["name"] = display_name(raw); person.pop("_integration", None)
+    person = copy.deepcopy(raw)
+    person["id"] = ident
+    person["name"] = display_name(raw)
+    integration_meta = copy.deepcopy(raw.get("_integration", {}))
+    person["_integration"] = {
+        "id": ident, "digest": integration_meta.get("digest"),
+        "provenance": integration_meta.get("provenance", []),
+        "mergePolicy": integration_meta.get("mergePolicy"),
+        "fieldVariantHistory": integration_meta.get("fieldVariantHistory", []),
+        "sourceVariantCount": integration_meta.get("sourceVariantCount", 1),
+        "identityBasis": integration_meta.get("identityBasis"), "syncDate": TODAY
+    }
     person["researchStatus"] = normalize_status(raw.get("researchStatus") or raw.get("status"))
     person["researchRefs"] = merge_list(person.get("researchRefs", []), source_paths)
-    person["identityReviewStatus"] = "UNRESOLVED_SOURCE_REGISTRY_CANDIDATE"
+    person["identityReviewStatus"] = ("SAFE_FIELDWISE_MERGED_SOURCE_CANDIDATE"
+        if integration_meta.get("mergePolicy") else "UNRESOLVED_SOURCE_REGISTRY_CANDIDATE")
     source_names = names(person)
     matches = [existing for existing in people if names(existing) & source_names]
     targets = sorted({existing["id"] for existing in matches})
@@ -387,7 +499,7 @@ write_json(OUT / "root-sync-report.json", {
     "rootFileCounts": {"events": len(root_events), "politicians": len(people)},
     "sourceIntegrationStatus": source_report.get("status"), "sourceConflictedIds": len(source_report.get("conflictingIds", [])),
     "sourceAuxiliaryRecords": source_report.get("auxiliaryRecords", 0),
-    "policy": "Named pol-/cand-/candidate- records enter the domestic politician root. The six cand172- legacy snapshot IDs are imported only as DISCOVERED candidates; unresolved document/event/file references are moved to unresolvedSourceLinks and role text is explicitly unverified. No name-based promotion or identity merge. Shared variants retain source pointers; typed variants and unresolved scalar conflicts remain explicit."
+    "policy": "Only named domestic person nodes enter the operational politician root. Foreign officials and collective/unresolved labels remain outside the domestic root. Stable candidate prefixes pol-, cand-, candidate- and candNNN- are supported. Safe field-wise merges retain source alternatives and field-variant history; no name-only identity merge. The six cand172- legacy snapshot IDs remain DISCOVERED pending source validation."
 })
 write_json(OUT / "politician-root-crosswalk.json", {"schemaVersion": 1, "generatedAt": TODAY,
     "policy": "Possible-same-as links are hypotheses, not identity merges.",
