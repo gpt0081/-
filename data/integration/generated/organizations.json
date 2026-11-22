@@ -1095,7 +1095,7 @@
     },
     {
       "id": "org-jeheon-dongjihoe",
-      "integrationStatus": "CONFLICTED",
+      "integrationStatus": "SAFE_FIELDWISE_MERGE",
       "alternatives": [
         {
           "digest": "df14673b649a0aa765df99f025aaeda981cbad6f9b11b0d508a7758c39315ce6",
@@ -1158,7 +1158,107 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "safeMerge": {
+        "status": "SAFE_FIELDWISE_MERGE",
+        "mergePolicy": "SAME_STABLE_ID_AND_SHARED_IDENTITY_KEY; ADDITIVE_ARRAYS; AMBIGUOUS_SCALARS_OMITTED_WITH_PROVENANCE; CONSERVATIVE_STATUS; DATE_PRECISION_REFINED_ONLY_WITHIN_SAME_CALENDAR_POINT",
+        "identityBasis": {
+          "basis": "SAME_STABLE_ORGANIZATION_ID_AND_SHARED_NAME",
+          "identityKey": "제헌동지회"
+        },
+        "data": {
+          "aliases": [
+            "대한민국제헌국회의원동지회",
+            "제헌국회의원동지회",
+            "Constituent Assembly Members Association"
+          ],
+          "documentIds": [
+            "DOC-P257V-AKS-JEHEON-ORG",
+            "DOC-P257R-NEC",
+            "DOC-P257R-NIKH-ELECTION"
+          ],
+          "document_ids": [
+            "DOC-P257V-AKS-JEHEON-ORG",
+            "DOC-P257R-NEC",
+            "DOC-P257R-NIKH-ELECTION"
+          ],
+          "formed": "1951-10",
+          "id": "org-jeheon-dongjihoe",
+          "jurisdiction": "Republic of Korea",
+          "location": "부산",
+          "name": "제헌동지회",
+          "openLeads": [
+            "LEAD-P257V-JEHEON-ORG-01"
+          ],
+          "open_lead": "LEAD-P257V-JEHEON-ORG-01",
+          "period": "1951-10 onwards; 1954 election presence verified via later official register",
+          "researchStatus": "IDENTIFIED",
+          "research_status": "IDENTIFIED"
+        },
+        "digest": "229e6e86429dc6f92bc0de341d267a1580b8fbb6fd98276269d893776f210969",
+        "provenance": [
+          {
+            "path": "data/organizations/pass-257v2-jeheon-dongjihoe.json",
+            "pointer": "/organizations/0"
+          },
+          {
+            "path": "data/organizations/registry.json",
+            "pointer": "/organizations/17"
+          }
+        ],
+        "fieldVariantCount": 2,
+        "fieldVariants": [
+          {
+            "fieldPath": "caution",
+            "values": [
+              {
+                "value": "1954 정당법상 등록 지위 및 의원 소속 변동 원공고 미확보",
+                "provenance": [
+                  {
+                    "path": "data/organizations/registry.json",
+                    "pointer": "/organizations/17"
+                  }
+                ]
+              },
+              {
+                "value": "조직의 정당법상 등록 지위는 1954 선관위 원정당명부 검증 전 미확정",
+                "provenance": [
+                  {
+                    "path": "data/organizations/pass-257v2-jeheon-dongjihoe.json",
+                    "pointer": "/organizations/0"
+                  }
+                ]
+              }
+            ],
+            "resolution": "PRESERVED_WITHOUT_CANONICAL_SCALAR_SELECTION"
+          },
+          {
+            "fieldPath": "role",
+            "values": [
+              {
+                "value": "1951-10 제헌국회의원 친목·정책건의, 1954 제3대 민의원 박기운 청주 1석 당적 표기",
+                "provenance": [
+                  {
+                    "path": "data/organizations/registry.json",
+                    "pointer": "/organizations/17"
+                  }
+                ]
+              },
+              {
+                "value": "제헌의원 친목·정책 건의 조직; 1954 박기운 1석 선거상 표기",
+                "provenance": [
+                  {
+                    "path": "data/organizations/pass-257v2-jeheon-dongjihoe.json",
+                    "pointer": "/organizations/0"
+                  }
+                ]
+              }
+            ],
+            "resolution": "PRESERVED_WITHOUT_CANONICAL_SCALAR_SELECTION"
+          }
+        ],
+        "sourceVariantCount": 2
+      }
     },
     {
       "id": "org-kcac",
@@ -1866,7 +1966,7 @@
     },
     {
       "id": "org-r150-democratic-national-party-1949",
-      "integrationStatus": "CONFLICTED",
+      "integrationStatus": "SAFE_FIELDWISE_MERGE",
       "alternatives": [
         {
           "digest": "3256605a3118ed620b12d17a329e7a1bd2ed32b3cdbc6abd1218db9ca623a720",
@@ -1919,7 +2019,57 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "safeMerge": {
+        "status": "SAFE_FIELDWISE_MERGE",
+        "mergePolicy": "SAME_STABLE_ID_AND_SHARED_IDENTITY_KEY; ADDITIVE_ARRAYS; AMBIGUOUS_SCALARS_OMITTED_WITH_PROVENANCE; CONSERVATIVE_STATUS; DATE_PRECISION_REFINED_ONLY_WITHIN_SAME_CALENDAR_POINT",
+        "identityBasis": {
+          "basis": "SAME_STABLE_ORGANIZATION_ID_AND_SHARED_NAME",
+          "identityKey": "민주국민당"
+        },
+        "data": {
+          "aliases": [
+            "民主國民黨",
+            "민국당",
+            "Democratic Nationalist Party"
+          ],
+          "caution": "발전적 해체라는 후대 기관 해제 표현; 9/18 원결의문 미확보",
+          "dissolutionDate": "1955-09-18",
+          "evidenceDocumentIds": [
+            "d150-na-dnp-1949"
+          ],
+          "foundingDate": "1949-02-10",
+          "id": "org-r150-democratic-national-party-1949",
+          "name": "민주국민당",
+          "nationalArchivesOrgCode": "OG0036761",
+          "openLeads": [
+            "L150-11"
+          ],
+          "researchStatus": "IDENTIFIED_OFFICIAL_RETROSPECTIVE",
+          "reuseExisting": true,
+          "sourceDocumentIds": [
+            "doc179d-0040"
+          ],
+          "successors": [
+            "org-r150-democratic-party-1955"
+          ],
+          "type": "political_party"
+        },
+        "digest": "2da305441e5c40b007b286aeef7dcc8033b3d1ccbed175ebe3739850e5312a10",
+        "provenance": [
+          {
+            "path": "data/organizations/run150-democratic-party-lineage.json",
+            "pointer": "/organizations/1"
+          },
+          {
+            "path": "data/organizations/run179d-1949-peacetime-organizations.json",
+            "pointer": "/organizations/0"
+          }
+        ],
+        "fieldVariantCount": 0,
+        "fieldVariants": [],
+        "sourceVariantCount": 2
+      }
     },
     {
       "id": "org-r150-democratic-party-1955",
@@ -2662,7 +2812,7 @@
     },
     {
       "id": "org-r178-health-ministry",
-      "integrationStatus": "CONFLICTED",
+      "integrationStatus": "SAFE_FIELDWISE_MERGE",
       "alternatives": [
         {
           "digest": "283ef53e1167e7fc63fb6dc445a5d112995c5a981a2d2e080c643b04d0657025",
@@ -2704,7 +2854,45 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "safeMerge": {
+        "status": "SAFE_FIELDWISE_MERGE",
+        "mergePolicy": "SAME_STABLE_ID_AND_SHARED_IDENTITY_KEY; ADDITIVE_ARRAYS; AMBIGUOUS_SCALARS_OMITTED_WITH_PROVENANCE; CONSERVATIVE_STATUS; DATE_PRECISION_REFINED_ONLY_WITHIN_SAME_CALENDAR_POINT",
+        "identityBasis": {
+          "basis": "SAME_STABLE_ORGANIZATION_ID_AND_SHARED_NAME",
+          "identityKey": "보건부"
+        },
+        "data": {
+          "authorityDocuments": [
+            "doc178-naa-health-ministry-organization"
+          ],
+          "existenceEnd": "1955-02-16",
+          "existenceStart": "1949-07-25",
+          "hanja": "保健部",
+          "id": "org-r178-health-ministry",
+          "name": "보건부",
+          "note": "정부조직법 1949-03-25 개정과 대통령령 1949-07-25 제정은 다른 단계; 구영숙 재임 시작 표기 불일치 미해결",
+          "reuseExisting": true,
+          "sourceDocumentIds": [
+            "doc179d-0050"
+          ],
+          "type": "CENTRAL_MINISTRY"
+        },
+        "digest": "2d58174f97e486dcefb038a89b4ac8bef5bc7609f87fc670f9b5d8d3cce3e8cd",
+        "provenance": [
+          {
+            "path": "data/organizations/run178-health-administration.json",
+            "pointer": "/organizations/0"
+          },
+          {
+            "path": "data/organizations/run179d-1949-peacetime-organizations.json",
+            "pointer": "/organizations/1"
+          }
+        ],
+        "fieldVariantCount": 0,
+        "fieldVariants": [],
+        "sourceVariantCount": 2
+      }
     },
     {
       "id": "org-r178-parliamentary-education-social",
@@ -5889,7 +6077,7 @@
     },
     {
       "id": "org-rok-national-assembly",
-      "integrationStatus": "CONFLICTED",
+      "integrationStatus": "SAFE_FIELDWISE_MERGE",
       "alternatives": [
         {
           "digest": "1d360dcd573baefe8fa6b74b8545d63eb37ed85b0cca143595a653ec725803f8",
@@ -5927,7 +6115,40 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "safeMerge": {
+        "status": "SAFE_FIELDWISE_MERGE",
+        "mergePolicy": "SAME_STABLE_ID_AND_SHARED_IDENTITY_KEY; ADDITIVE_ARRAYS; AMBIGUOUS_SCALARS_OMITTED_WITH_PROVENANCE; CONSERVATIVE_STATUS; DATE_PRECISION_REFINED_ONLY_WITHIN_SAME_CALENDAR_POINT",
+        "identityBasis": {
+          "basis": "SAME_STABLE_ORGANIZATION_ID_AND_SHARED_NAME",
+          "identityKey": "대한민국국회"
+        },
+        "data": {
+          "documentIds": [
+            "d118-hanseong"
+          ],
+          "id": "org-rok-national-assembly",
+          "kind": "INSTITUTION",
+          "name": "대한민국 국회",
+          "researchStatus": "IDENTIFIED",
+          "status": "CANDIDATE_REUSE_EXISTING_ID_IF_PRESENT",
+          "type": "ROK_LEGISLATURE"
+        },
+        "digest": "ff9d6e2095c40f1d34d98a41d899067c605a9f656bb14740eeb98638e48f6d8e",
+        "provenance": [
+          {
+            "path": "data/organizations/run118-institution-registry.json",
+            "pointer": "/organizations/3"
+          },
+          {
+            "path": "data/organizations/run119-governance.json",
+            "pointer": "/organizations/4"
+          }
+        ],
+        "fieldVariantCount": 0,
+        "fieldVariants": [],
+        "sourceVariantCount": 2
+      }
     },
     {
       "id": "org-rok-national-assembly-1953",
@@ -6301,7 +6522,7 @@
     },
     {
       "id": "org-un-general-assembly",
-      "integrationStatus": "CONFLICTED",
+      "integrationStatus": "SAFE_FIELDWISE_MERGE",
       "alternatives": [
         {
           "digest": "906134da1e70f6c39ab2baae36eeebdd8343f7ad6fa26309353c2dbf34aedc89",
@@ -6350,7 +6571,50 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "safeMerge": {
+        "status": "SAFE_FIELDWISE_MERGE",
+        "mergePolicy": "SAME_STABLE_ID_AND_SHARED_IDENTITY_KEY; ADDITIVE_ARRAYS; AMBIGUOUS_SCALARS_OMITTED_WITH_PROVENANCE; CONSERVATIVE_STATUS; DATE_PRECISION_REFINED_ONLY_WITHIN_SAME_CALENDAR_POINT",
+        "identityBasis": {
+          "basis": "SAME_STABLE_ORGANIZATION_ID_AND_SHARED_NAME",
+          "identityKey": "unitednationsgeneralassembly"
+        },
+        "data": {
+          "aliases": [
+            "유엔 총회",
+            "UNGA",
+            "국제연합 총회"
+          ],
+          "document_ids": [
+            "DOC-P257P-UN-RES410-19501201"
+          ],
+          "evidenceDocumentIds": [
+            "d96-un112",
+            "d96-un293"
+          ],
+          "id": "org-un-general-assembly",
+          "jurisdiction": "UN",
+          "name": "United Nations General Assembly",
+          "period": "1950-1957 (per cited evidence; exact founding/abolition dates not inferred)",
+          "research_status": "VERIFIED",
+          "role": "A/RES/410(V), A/RES/725(VIII), A/RES/828(IX)",
+          "type": "international_organization_body"
+        },
+        "digest": "5b29030ad3b5ca179012eb2a4cd4a544e56ec060ada864d9370ba5f1b87b1644",
+        "provenance": [
+          {
+            "path": "data/organizations/registry.json",
+            "pointer": "/organizations/0"
+          },
+          {
+            "path": "data/organizations/run96-un-nsc.json",
+            "pointer": "/organizations/0"
+          }
+        ],
+        "fieldVariantCount": 0,
+        "fieldVariants": [],
+        "sourceVariantCount": 2
+      }
     },
     {
       "id": "org-un-second-committee",
@@ -6485,7 +6749,11 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "mergeReview": {
+        "status": "BLOCKED",
+        "reason": "NO_COMMON_ORGANIZATION_NAME"
+      }
     },
     {
       "id": "org-unkra-1953",

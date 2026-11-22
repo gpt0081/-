@@ -9460,7 +9460,7 @@
     },
     {
       "id": "CLM-AMENDMENT-VOTE-19520704",
-      "integrationStatus": "CONFLICTED",
+      "integrationStatus": "SAFE_FIELDWISE_MERGE",
       "alternatives": [
         {
           "digest": "66dea636283ea6f0e29b7355bd2fe8622ba8fa1f84b470776861d64d9ad696d9",
@@ -9499,7 +9499,43 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "safeMerge": {
+        "status": "SAFE_FIELDWISE_MERGE",
+        "mergePolicy": "SAME_STABLE_ID_AND_SHARED_IDENTITY_KEY; ADDITIVE_ARRAYS; AMBIGUOUS_SCALARS_OMITTED_WITH_PROVENANCE; CONSERVATIVE_STATUS; DATE_PRECISION_REFINED_ONLY_WITHIN_SAME_CALENDAR_POINT",
+        "identityBasis": {
+          "basis": "SAME_STABLE_CLAIM_ID_AND_SHARED_STATEMENT",
+          "identityKey": "7월4일발췌개헌실질안은166명출석찬성163반대0기권3으로통과됐다"
+        },
+        "data": {
+          "caveat": "기권자 실명과 전체 절차는 국회 속기록 원문 확인이 남아 있다.",
+          "id": "CLM-AMENDMENT-VOTE-19520704",
+          "note": "166 출석, 163 찬성, 0 반대, 3 기권. 기권자 실명과 표결 절차는 국회 속기록 필요.",
+          "statement": "7월4일 발췌개헌 실질안은 166명 출석, 찬성 163, 반대 0, 기권 3으로 통과됐다.",
+          "status": "SUPPORTED",
+          "support": [
+            "FRUS-D206",
+            "NARA-ASSEMBLY-CHRONOLOGY"
+          ],
+          "supporting": [
+            "DOC-FRUS-D206"
+          ]
+        },
+        "digest": "0dbf9e6756a9331a8620b2d6de7d099cfe10a04da6ea4fd20cea393840829105",
+        "provenance": [
+          {
+            "path": "data/research/evidence/pass-241-june-crisis-diplomatic-pressure-audit.json",
+            "pointer": "/claims/3"
+          },
+          {
+            "path": "data/research/evidence/pass-242-pusan-crisis-primary-source-expansion.json",
+            "pointer": "/claims/4"
+          }
+        ],
+        "fieldVariantCount": 0,
+        "fieldVariants": [],
+        "sourceVariantCount": 2
+      }
     },
     {
       "id": "CLM-ASSEMBLY-POWER-END-MARTIAL-LAW",
@@ -9677,7 +9713,11 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "mergeReview": {
+        "status": "BLOCKED",
+        "reason": "NO_COMMON_CLAIM_STATEMENT"
+      }
     },
     {
       "id": "CLM-MARTIAL-LAW-MILITARY-NECESSITY",
@@ -47219,7 +47259,7 @@
     },
     {
       "id": "CLM-POLICE-COERCED-QUORUM-19520702",
-      "integrationStatus": "CONFLICTED",
+      "integrationStatus": "SAFE_FIELDWISE_MERGE",
       "alternatives": [
         {
           "digest": "2ec368ce0a6ff1c2057315404fcdb86e045f5aa9928131d2bd9f5b7bbf34f317",
@@ -47257,7 +47297,67 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "safeMerge": {
+        "status": "SAFE_FIELDWISE_MERGE",
+        "mergePolicy": "SAME_STABLE_ID_AND_SHARED_IDENTITY_KEY; ADDITIVE_ARRAYS; AMBIGUOUS_SCALARS_OMITTED_WITH_PROVENANCE; CONSERVATIVE_STATUS; DATE_PRECISION_REFINED_ONLY_WITHIN_SAME_CALENDAR_POINT",
+        "identityBasis": {
+          "basis": "SAME_STABLE_CLAIM_ID_AND_SHARED_STATEMENT",
+          "identityKey": "정부는7월2일불참의원을경찰이국회로안내호송하도록발표했고경찰수색과국회숙박뒤정족수가확보됐다"
+        },
+        "data": {
+          "caveat": "개별 경찰 지시문 결재자와 의원별 강제 정도는 아직 OPEN이다.",
+          "id": "CLM-POLICE-COERCED-QUORUM-19520702",
+          "note": "정부 발표·경찰 수색·국회 체류·정족수 확보는 확인. 한국어 지시문과 결재선은 OPEN.",
+          "statement": "정부는 7월2일 불참 의원을 경찰이 국회로 안내·호송하도록 발표했고 경찰 수색과 국회 숙박 뒤 정족수가 확보됐다.",
+          "status": "DISCOVERED",
+          "support": [
+            "FRUS-D206"
+          ],
+          "supporting": [
+            "DOC-FRUS-D206"
+          ]
+        },
+        "digest": "53627a1062fdce7118da89c205035748d626230fa9c9c277f65d374e8ccbdafc",
+        "provenance": [
+          {
+            "path": "data/research/evidence/pass-241-june-crisis-diplomatic-pressure-audit.json",
+            "pointer": "/claims/2"
+          },
+          {
+            "path": "data/research/evidence/pass-242-pusan-crisis-primary-source-expansion.json",
+            "pointer": "/claims/3"
+          }
+        ],
+        "fieldVariantCount": 1,
+        "fieldVariants": [
+          {
+            "fieldPath": "status",
+            "values": [
+              {
+                "value": "SUPPORTED_ACTION",
+                "provenance": [
+                  {
+                    "path": "data/research/evidence/pass-241-june-crisis-diplomatic-pressure-audit.json",
+                    "pointer": "/claims/2"
+                  }
+                ]
+              },
+              {
+                "value": "SUPPORTED_ACTION_OPEN_COMMAND_CHAIN",
+                "provenance": [
+                  {
+                    "path": "data/research/evidence/pass-242-pusan-crisis-primary-source-expansion.json",
+                    "pointer": "/claims/3"
+                  }
+                ]
+              }
+            ],
+            "resolution": "CONSERVATIVE_MINIMUM_RESEARCH_STATUS"
+          }
+        ],
+        "sourceVariantCount": 2
+      }
     },
     {
       "id": "CLM-R31-001",
@@ -63642,7 +63742,11 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "mergeReview": {
+        "status": "BLOCKED",
+        "reason": "NO_COMMON_CLAIM_STATEMENT"
+      }
     },
     {
       "id": "claim-19520618-us-intervention-executed",
@@ -63688,7 +63792,11 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "mergeReview": {
+        "status": "BLOCKED",
+        "reason": "NO_COMMON_CLAIM_STATEMENT"
+      }
     },
     {
       "id": "claim-19520627-zinchenko-official",
@@ -63915,7 +64023,7 @@
     },
     {
       "id": "claim-19520908-truman-statement-not-yet-approved",
-      "integrationStatus": "CONFLICTED",
+      "integrationStatus": "SAFE_FIELDWISE_MERGE",
       "alternatives": [
         {
           "digest": "39bf681f8da612ad95bb9b2812405cb3bcd1d8330b657345095c74b4fa606135",
@@ -63973,11 +64081,54 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "safeMerge": {
+        "status": "SAFE_FIELDWISE_MERGE",
+        "mergePolicy": "SAME_STABLE_ID_AND_SHARED_IDENTITY_KEY; ADDITIVE_ARRAYS; AMBIGUOUS_SCALARS_OMITTED_WITH_PROVENANCE; CONSERVATIVE_STATUS; DATE_PRECISION_REFINED_ONLY_WITHIN_SAME_CALENDAR_POINT",
+        "identityBasis": {
+          "basis": "SAME_STABLE_CLAIM_ID_AND_SHARED_STATEMENT",
+          "identityKey": "jcs917910saysearlierstatementnotrecommendedbutproposesrevisedpublicstatementnoevidenceofactualdelivery"
+        },
+        "data": {
+          "documentIds": [
+            "doc-frus-1952-v15p1-264"
+          ],
+          "id": "claim-19520908-truman-statement-not-yet-approved",
+          "linkBasis": "shared-document-only; event association does not resolve claim status",
+          "relatedEventIds": [
+            "evt-provisional-19520908-jcs-options"
+          ],
+          "reviewStatus": "SOURCE_OVERLAY_MIGRATED_NOT_INDEPENDENTLY_REVERIFIED",
+          "sourceRegistry": "data/research/registry/1952-september-frus264-269-index.json",
+          "status": "NARROWED",
+          "supporting": [
+            "doc-frus1952-v15p1-d264"
+          ],
+          "text": "JCS 917910 says earlier statement not recommended, but proposes revised public statement; no evidence of actual delivery"
+        },
+        "digest": "e047540ce178016c00a86db3303f254d9191e31f6dd71767303ef584699a7d72",
+        "provenance": [
+          {
+            "path": "data/claims/frus-1952-september-264-269-central.json",
+            "pointer": "/claims/0"
+          },
+          {
+            "path": "data/research/graphs/2026-11-13-2220-frus264-266-overlay.json",
+            "pointer": "/claims/0"
+          },
+          {
+            "path": "data/research/registry/1952-september-frus264-269-index.json",
+            "pointer": "/claims/0"
+          }
+        ],
+        "fieldVariantCount": 0,
+        "fieldVariants": [],
+        "sourceVariantCount": 3
+      }
     },
     {
       "id": "claim-19520910-total-embargo-adopted",
-      "integrationStatus": "CONFLICTED",
+      "integrationStatus": "SAFE_FIELDWISE_MERGE",
       "alternatives": [
         {
           "digest": "3b557edb54818b91ca4adec444cc3f931a6c83dd9898ced30e5322ae8a7e1fa9",
@@ -64035,11 +64186,54 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "safeMerge": {
+        "status": "SAFE_FIELDWISE_MERGE",
+        "mergePolicy": "SAME_STABLE_ID_AND_SHARED_IDENTITY_KEY; ADDITIVE_ARRAYS; AMBIGUOUS_SCALARS_OMITTED_WITH_PROVENANCE; CONSERVATIVE_STATUS; DATE_PRECISION_REFINED_ONLY_WITHIN_SAME_CALENDAR_POINT",
+        "identityBasis": {
+          "basis": "SAME_STABLE_CLAIM_ID_AND_SHARED_STATEMENT",
+          "identityKey": "stelleadvisedagainstaugust14totalembargoproposalrecommendationisnotfinaldecision"
+        },
+        "data": {
+          "contradicting": [
+            "doc-frus1952-v15p1-d266"
+          ],
+          "documentIds": [
+            "doc-frus-1952-v15p1-266"
+          ],
+          "id": "claim-19520910-total-embargo-adopted",
+          "linkBasis": "shared-document-only; event association does not resolve claim status",
+          "relatedEventIds": [
+            "evt-provisional-19520910-stelle-embargo-opposition"
+          ],
+          "reviewStatus": "SOURCE_OVERLAY_MIGRATED_NOT_INDEPENDENTLY_REVERIFIED",
+          "sourceRegistry": "data/research/registry/1952-september-frus264-269-index.json",
+          "status": "OPEN",
+          "text": "Stelle advised against August 14 total embargo proposal; recommendation is not final decision"
+        },
+        "digest": "4f13a913ceb86ecf898e21e7b74e7b6a0af663460d7d771b48662381dd3f98de",
+        "provenance": [
+          {
+            "path": "data/claims/frus-1952-september-264-269-central.json",
+            "pointer": "/claims/2"
+          },
+          {
+            "path": "data/research/graphs/2026-11-13-2220-frus264-266-overlay.json",
+            "pointer": "/claims/2"
+          },
+          {
+            "path": "data/research/registry/1952-september-frus264-269-index.json",
+            "pointer": "/claims/2"
+          }
+        ],
+        "fieldVariantCount": 0,
+        "fieldVariants": [],
+        "sourceVariantCount": 3
+      }
     },
     {
       "id": "claim-19520911-lie-eden-meeting",
-      "integrationStatus": "CONFLICTED",
+      "integrationStatus": "SAFE_FIELDWISE_MERGE",
       "alternatives": [
         {
           "digest": "0a6cd6cd50327a80d2024abdd1b5185015607e0889f42e27bf54f87da47594f1",
@@ -64097,7 +64291,50 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "safeMerge": {
+        "status": "SAFE_FIELDWISE_MERGE",
+        "mergePolicy": "SAME_STABLE_ID_AND_SHARED_IDENTITY_KEY; ADDITIVE_ARRAYS; AMBIGUOUS_SCALARS_OMITTED_WITH_PROVENANCE; CONSERVATIVE_STATUS; DATE_PRECISION_REFINED_ONLY_WITHIN_SAME_CALENDAR_POINT",
+        "identityBasis": {
+          "basis": "SAME_STABLE_CLAIM_ID_AND_SHARED_STATEMENT",
+          "identityKey": "sept9schedulingcorroboratedbyeditorialcitationofsept12londonreportbutoriginaltelegramnotindependentlyinspected"
+        },
+        "data": {
+          "documentIds": [
+            "doc-frus-1952-v15p1-265"
+          ],
+          "id": "claim-19520911-lie-eden-meeting",
+          "linkBasis": "shared-document-only; event association does not resolve claim status",
+          "relatedEventIds": [
+            "evt-provisional-19520909-lie-eden-schedule"
+          ],
+          "reviewStatus": "SOURCE_OVERLAY_MIGRATED_NOT_INDEPENDENTLY_REVERIFIED",
+          "sourceRegistry": "data/research/registry/1952-september-frus264-269-index.json",
+          "status": "OPEN",
+          "supporting": [
+            "doc-frus1952-v15p1-d265"
+          ],
+          "text": "Sept 9 scheduling corroborated by editorial citation of Sept 12 London report, but original telegram not independently inspected"
+        },
+        "digest": "beda6b28f5961ad920ca8784e7538c50252b564e0daa8d4a315e7ba29da997b1",
+        "provenance": [
+          {
+            "path": "data/claims/frus-1952-september-264-269-central.json",
+            "pointer": "/claims/1"
+          },
+          {
+            "path": "data/research/graphs/2026-11-13-2220-frus264-266-overlay.json",
+            "pointer": "/claims/1"
+          },
+          {
+            "path": "data/research/registry/1952-september-frus264-269-index.json",
+            "pointer": "/claims/1"
+          }
+        ],
+        "fieldVariantCount": 0,
+        "fieldVariants": [],
+        "sourceVariantCount": 3
+      }
     },
     {
       "id": "claim-1953-aid-unconditional-gift",
@@ -138914,7 +139151,11 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "mergeReview": {
+        "status": "BLOCKED",
+        "reason": "NO_COMMON_CLAIM_STATEMENT"
+      }
     },
     {
       "id": "clm-1952-communist-plot-justification-proven",
@@ -139250,7 +139491,11 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "mergeReview": {
+        "status": "BLOCKED",
+        "reason": "NO_COMMON_CLAIM_STATEMENT"
+      }
     },
     {
       "id": "clm-1952-rhee-demonstrator-signal-us-observation",
@@ -139362,7 +139607,11 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "mergeReview": {
+        "status": "BLOCKED",
+        "reason": "NO_COMMON_CLAIM_STATEMENT"
+      }
     },
     {
       "id": "clm-1952-us-assessment-rhee-lee-won",
@@ -139976,7 +140225,7 @@
     },
     {
       "id": "clm-p205-compulsory-gap",
-      "integrationStatus": "CONFLICTED",
+      "integrationStatus": "SAFE_FIELDWISE_MERGE",
       "alternatives": [
         {
           "digest": "8e0ccf6f950862a74c67e311c3895cab829fe4905837cf6eb05bcbcd1fae436d",
@@ -140018,11 +140267,44 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "safeMerge": {
+        "status": "SAFE_FIELDWISE_MERGE",
+        "mergePolicy": "SAME_STABLE_ID_AND_SHARED_IDENTITY_KEY; ADDITIVE_ARRAYS; AMBIGUOUS_SCALARS_OMITTED_WITH_PROVENANCE; CONSERVATIVE_STATUS; DATE_PRECISION_REFINED_ONLY_WITHIN_SAME_CALENDAR_POINT",
+        "identityBasis": {
+          "basis": "SAME_STABLE_CLAIM_ID_AND_SHARED_STATEMENT",
+          "identityKey": "의무교육은19500601실제시행에들어갔지만전쟁예산시설제약으로법적선언과집행능력사이큰격차가있었다"
+        },
+        "data": {
+          "claim": "의무교육은 1950-06-01 실제 시행에 들어갔지만 전쟁·예산·시설 제약으로 법적 선언과 집행능력 사이 큰 격차가 있었다.",
+          "id": "clm-p205-compulsory-gap",
+          "open": "1950-06 실제 취학률·교실·교원 통계 확보",
+          "status": "SUPPORTED",
+          "supporting": [
+            "doc-historydb-compulsory-start-19500601-p205",
+            "doc-historydb-compulsory-budget-19500623-p205",
+            "doc-archives-compulsory-edu-p205"
+          ]
+        },
+        "digest": "c7590c95e57120e4f80b43cb29b4fd9bd6fcf3e6536cafad80eafd70f3d02a9c",
+        "provenance": [
+          {
+            "path": "data/research/claims/2026-10-04-pass205-education-local-autonomy-claims.json",
+            "pointer": "/claims/1"
+          },
+          {
+            "path": "data/research/evidence/2026-10-04-rhee-pass205-education-local-autonomy.json",
+            "pointer": "/claims/1"
+          }
+        ],
+        "fieldVariantCount": 0,
+        "fieldVariants": [],
+        "sourceVariantCount": 2
+      }
     },
     {
       "id": "clm-p205-education-multiactor",
-      "integrationStatus": "CONFLICTED",
+      "integrationStatus": "SAFE_FIELDWISE_MERGE",
       "alternatives": [
         {
           "digest": "13cc3b173ae565a67fb3f83bb3bc302809d9a9fa3a4e60a9e954936ea50f39a2",
@@ -140066,11 +140348,45 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "safeMerge": {
+        "status": "SAFE_FIELDWISE_MERGE",
+        "mergePolicy": "SAME_STABLE_ID_AND_SHARED_IDENTITY_KEY; ADDITIVE_ARRAYS; AMBIGUOUS_SCALARS_OMITTED_WITH_PROVENANCE; CONSERVATIVE_STATUS; DATE_PRECISION_REFINED_ONLY_WITHIN_SAME_CALENDAR_POINT",
+        "identityBasis": {
+          "basis": "SAME_STABLE_CLAIM_ID_AND_SHARED_STATEMENT",
+          "identityKey": "1949교육법은대통령개인의단독설계가아니라문교부초안국회문교사회위원회절충본회의축조심의가결합된다중행위자입법이었다"
+        },
+        "data": {
+          "claim": "1949 교육법은 대통령 개인의 단독 설계가 아니라 문교부 초안, 국회 문교사회위원회 절충, 본회의 축조심의가 결합된 다중 행위자 입법이었다.",
+          "id": "clm-p205-education-multiactor",
+          "open": "문교부 원안·위원회 회의록 원문으로 조문별 기여를 더 세분화",
+          "status": "SUPPORTED",
+          "supporting": [
+            "doc-historydb-education-draft-19490910-p205",
+            "doc-historydb-education-committee-19490913-p205",
+            "doc-historydb-education-plenary-19491125-p205",
+            "doc-law-education86-p205"
+          ]
+        },
+        "digest": "bca8403bb1df642dca1da77d8d3e7267053cde4f18f1a4553bcaa7dd281b5c0c",
+        "provenance": [
+          {
+            "path": "data/research/claims/2026-10-04-pass205-education-local-autonomy-claims.json",
+            "pointer": "/claims/0"
+          },
+          {
+            "path": "data/research/evidence/2026-10-04-rhee-pass205-education-local-autonomy.json",
+            "pointer": "/claims/0"
+          }
+        ],
+        "fieldVariantCount": 0,
+        "fieldVariants": [],
+        "sourceVariantCount": 2
+      }
     },
     {
       "id": "clm-p205-election-fairness",
-      "integrationStatus": "CONFLICTED",
+      "integrationStatus": "SAFE_FIELDWISE_MERGE",
       "alternatives": [
         {
           "digest": "88578630ccc9b0028b60d40ae99ff5d103acd2aa30e44ba2304fc400bf40965e",
@@ -140108,11 +140424,67 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "safeMerge": {
+        "status": "SAFE_FIELDWISE_MERGE",
+        "mergePolicy": "SAME_STABLE_ID_AND_SHARED_IDENTITY_KEY; ADDITIVE_ARRAYS; AMBIGUOUS_SCALARS_OMITTED_WITH_PROVENANCE; CONSERVATIVE_STATUS; DATE_PRECISION_REFINED_ONLY_WITHIN_SAME_CALENDAR_POINT",
+        "identityBasis": {
+          "basis": "SAME_STABLE_CLAIM_ID_AND_SHARED_STATEMENT",
+          "identityKey": "1952지방선거의높은투표율만으로자유롭고공정한경쟁을추정하면안되며공식선거사자체가uncurk의행정압력관찰을병기한다"
+        },
+        "data": {
+          "claim": "1952 지방선거의 높은 투표율만으로 자유롭고 공정한 경쟁을 추정하면 안 되며, 공식 선거사 자체가 UNCURK의 행정압력 관찰을 병기한다.",
+          "id": "clm-p205-election-fairness",
+          "open": "UNCURK 원보고서에서 지역·행위자·압력 방식과 반대사례 확인",
+          "status": "DISCOVERED",
+          "supporting": [
+            "doc-nec-local-election-1952-p205"
+          ]
+        },
+        "digest": "cfa87ddd755875f234b1367c67609cc5f701d16dc0b6a0e83fb9aae939678c3b",
+        "provenance": [
+          {
+            "path": "data/research/claims/2026-10-04-pass205-education-local-autonomy-claims.json",
+            "pointer": "/claims/5"
+          },
+          {
+            "path": "data/research/evidence/2026-10-04-rhee-pass205-education-local-autonomy.json",
+            "pointer": "/claims/5"
+          }
+        ],
+        "fieldVariantCount": 1,
+        "fieldVariants": [
+          {
+            "fieldPath": "status",
+            "values": [
+              {
+                "value": "NARROWED",
+                "provenance": [
+                  {
+                    "path": "data/research/claims/2026-10-04-pass205-education-local-autonomy-claims.json",
+                    "pointer": "/claims/5"
+                  }
+                ]
+              },
+              {
+                "value": "NARROWED_NEEDS_UN_PRIMARY",
+                "provenance": [
+                  {
+                    "path": "data/research/evidence/2026-10-04-rhee-pass205-education-local-autonomy.json",
+                    "pointer": "/claims/5"
+                  }
+                ]
+              }
+            ],
+            "resolution": "CONSERVATIVE_MINIMUM_RESEARCH_STATUS"
+          }
+        ],
+        "sourceVariantCount": 2
+      }
     },
     {
       "id": "clm-p205-local-not-linear-democratization",
-      "integrationStatus": "CONFLICTED",
+      "integrationStatus": "SAFE_FIELDWISE_MERGE",
       "alternatives": [
         {
           "digest": "97a27f3523ac1a47494ddfb2012f9f51fb410d7bbce1a235b74226bbd29d418c",
@@ -140152,11 +140524,43 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "safeMerge": {
+        "status": "SAFE_FIELDWISE_MERGE",
+        "mergePolicy": "SAME_STABLE_ID_AND_SHARED_IDENTITY_KEY; ADDITIVE_ARRAYS; AMBIGUOUS_SCALARS_OMITTED_WITH_PROVENANCE; CONSERVATIVE_STATUS; DATE_PRECISION_REFINED_ONLY_WITHIN_SAME_CALENDAR_POINT",
+        "identityBasis": {
+          "basis": "SAME_STABLE_CLAIM_ID_AND_SHARED_STATEMENT",
+          "identityKey": "1952최초지방선거는지방자치제도화라는민주적의미와동시에대통령국회권력투쟁및행정개입이라는정권정치적기능을함께가졌다"
+        },
+        "data": {
+          "claim": "1952 최초 지방선거는 지방자치 제도화라는 민주적 의미와 동시에 대통령-국회 권력투쟁 및 행정개입이라는 정권정치적 기능을 함께 가졌다.",
+          "id": "clm-p205-local-not-linear-democratization",
+          "open": "UNCURK 원문과 지방의회 결의문을 연결해 제도화 효과와 정권동원 효과를 사건별 분리",
+          "status": "SUPPORTED_WITH_DUAL_CONTEXT",
+          "supporting": [
+            "doc-nec-local-election-1952-p205",
+            "doc-archives-local-law-history-p205"
+          ]
+        },
+        "digest": "d9c69ce30c34f54cbf778ef9b5cc2a569f07f34d897fa850182fc40de9099059",
+        "provenance": [
+          {
+            "path": "data/research/claims/2026-10-04-pass205-education-local-autonomy-claims.json",
+            "pointer": "/claims/3"
+          },
+          {
+            "path": "data/research/evidence/2026-10-04-rhee-pass205-education-local-autonomy.json",
+            "pointer": "/claims/3"
+          }
+        ],
+        "fieldVariantCount": 0,
+        "fieldVariants": [],
+        "sourceVariantCount": 2
+      }
     },
     {
       "id": "clm-p205-local-reconsideration",
-      "integrationStatus": "CONFLICTED",
+      "integrationStatus": "SAFE_FIELDWISE_MERGE",
       "alternatives": [
         {
           "digest": "0f43e6de3f33f65315c7c1b360b82c5e2b3bab0964f75f926ecdc7e6bac8cc38",
@@ -140200,11 +140604,45 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "safeMerge": {
+        "status": "SAFE_FIELDWISE_MERGE",
+        "mergePolicy": "SAME_STABLE_ID_AND_SHARED_IDENTITY_KEY; ADDITIVE_ARRAYS; AMBIGUOUS_SCALARS_OMITTED_WITH_PROVENANCE; CONSERVATIVE_STATUS; DATE_PRECISION_REFINED_ONLY_WITHIN_SAME_CALENDAR_POINT",
+        "identityBasis": {
+          "basis": "SAME_STABLE_CLAIM_ID_AND_SHARED_STATEMENT",
+          "identityKey": "1949지방자치법제정은중앙정부와국회사이시행시점치안단체장통제권을둘러싼반복적권한갈등의산물이었다"
+        },
+        "data": {
+          "claim": "1949 지방자치법 제정은 중앙정부와 국회 사이 시행시점·치안·단체장 통제권을 둘러싼 반복적 권한갈등의 산물이었다.",
+          "id": "clm-p205-local-reconsideration",
+          "open": "정부 재의요구서·국회 속기록으로 직접 발언과 표결 세분화",
+          "status": "SUPPORTED",
+          "supporting": [
+            "doc-historydb-local-plenary-19490309-p205",
+            "doc-cons-local-reconsideration-p205",
+            "doc-historydb-local-amend-19491126-p205",
+            "doc-historydb-local-amend-19491128-p205"
+          ]
+        },
+        "digest": "0d8ac03d635214a3604024493a821d99676539a457c499c0dc1ef036ac44cbab",
+        "provenance": [
+          {
+            "path": "data/research/claims/2026-10-04-pass205-education-local-autonomy-claims.json",
+            "pointer": "/claims/2"
+          },
+          {
+            "path": "data/research/evidence/2026-10-04-rhee-pass205-education-local-autonomy.json",
+            "pointer": "/claims/2"
+          }
+        ],
+        "fieldVariantCount": 0,
+        "fieldVariants": [],
+        "sourceVariantCount": 2
+      }
     },
     {
       "id": "clm-p205-rhee-direct-order-education",
-      "integrationStatus": "CONFLICTED",
+      "integrationStatus": "SAFE_FIELDWISE_MERGE",
       "alternatives": [
         {
           "digest": "3bed76b2a55241914178af1f43d5334126135fa643c7c54444b1a735714be666",
@@ -140244,7 +140682,39 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "safeMerge": {
+        "status": "SAFE_FIELDWISE_MERGE",
+        "mergePolicy": "SAME_STABLE_ID_AND_SHARED_IDENTITY_KEY; ADDITIVE_ARRAYS; AMBIGUOUS_SCALARS_OMITTED_WITH_PROVENANCE; CONSERVATIVE_STATUS; DATE_PRECISION_REFINED_ONLY_WITHIN_SAME_CALENDAR_POINT",
+        "identityBasis": {
+          "basis": "SAME_STABLE_CLAIM_ID_AND_SHARED_STATEMENT",
+          "identityKey": "현재확인자료만으로교육법조문이나의무교육세부설계를이승만의직접지시로귀속할수없다"
+        },
+        "data": {
+          "claim": "현재 확인 자료만으로 교육법 조문이나 의무교육 세부설계를 이승만의 직접 지시로 귀속할 수 없다.",
+          "id": "clm-p205-rhee-direct-order-education",
+          "open": "대통령 결재문·서한·국무회의록에서 직접 지시 신호 adversarial search",
+          "status": "INSUFFICIENT_FOR_DIRECT_ORDER",
+          "supporting": [
+            "doc-historydb-education-draft-19490910-p205",
+            "doc-historydb-education-committee-19490913-p205"
+          ]
+        },
+        "digest": "2f71c20596d171e4c1f5daf6da5957c6860394416c3888f410673a5479f9ff5f",
+        "provenance": [
+          {
+            "path": "data/research/claims/2026-10-04-pass205-education-local-autonomy-claims.json",
+            "pointer": "/claims/4"
+          },
+          {
+            "path": "data/research/evidence/2026-10-04-rhee-pass205-education-local-autonomy.json",
+            "pointer": "/claims/4"
+          }
+        ],
+        "fieldVariantCount": 0,
+        "fieldVariants": [],
+        "sourceVariantCount": 2
+      }
     },
     {
       "id": "clm-p206-autonomy-sequence",

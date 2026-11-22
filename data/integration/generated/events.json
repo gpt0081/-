@@ -2907,7 +2907,7 @@
     },
     {
       "id": "evt-1948-compulsory-education-plan",
-      "integrationStatus": "CONFLICTED",
+      "integrationStatus": "SAFE_FIELDWISE_MERGE",
       "alternatives": [
         {
           "digest": "816d8c7b002bb91dd961e4a9b2d2592085d9544d6c05a6b29f80838995cc3c1f",
@@ -2992,7 +2992,88 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "safeMerge": {
+        "status": "SAFE_FIELDWISE_MERGE",
+        "mergePolicy": "SAME_STABLE_ID_AND_SHARED_IDENTITY_KEY; ADDITIVE_ARRAYS; AMBIGUOUS_SCALARS_OMITTED_WITH_PROVENANCE; CONSERVATIVE_STATUS; DATE_PRECISION_REFINED_ONLY_WITHIN_SAME_CALENDAR_POINT",
+        "identityBasis": {
+          "basis": "SAME_STABLE_EVENT_ID_AND_SHARED_NAME_OR_COMPATIBLE_DATE",
+          "identityKey": null,
+          "selectedDate": "1948-12-01",
+          "eventIdDate": null
+        },
+        "data": {
+          "action": "문교부 의무교육 확충계획",
+          "date": "1948-12-01",
+          "decided_by": [
+            "org-ministry-education"
+          ],
+          "domain": "education/finance",
+          "domains": [
+            "education",
+            "administration",
+            "finance"
+          ],
+          "executed_by": [
+            "org-ministry-education",
+            "local-education-authorities"
+          ],
+          "id": "evt-1948-compulsory-education-plan",
+          "notes": "후대 1954~1959 계획과 동일시하지 않는다.",
+          "observed_by": [
+            "doc-r24-005",
+            "doc-historydb-compulsory-plan-19481201-p205",
+            "doc-r23-compulsory-plan-19481201"
+          ],
+          "proposed_by": [
+            "org-ministry-education"
+          ],
+          "title": "문교부 의무교육 완성 6개년 계획 수립"
+        },
+        "digest": "b17ddb4b9fe78ffd22e168ed151b55aedcf754005d0742662f73bee3899bc4a7",
+        "provenance": [
+          {
+            "path": "data/events/run23-education-institutions-events.json",
+            "pointer": "/events/0"
+          },
+          {
+            "path": "data/events/run24-education-governance-events.json",
+            "pointer": "/events/0"
+          },
+          {
+            "path": "data/research/events/2026-10-04-pass205-education-local-autonomy-actions.json",
+            "pointer": "/events/0"
+          }
+        ],
+        "fieldVariantCount": 1,
+        "fieldVariants": [
+          {
+            "fieldPath": "note",
+            "values": [
+              {
+                "value": "교육법 제정 전 정책계획으로 대통령 직접명령과 분리",
+                "provenance": [
+                  {
+                    "path": "data/research/events/2026-10-04-pass205-education-local-autonomy-actions.json",
+                    "pointer": "/events/0"
+                  }
+                ]
+              },
+              {
+                "value": "대통령 개인 기획으로 자동 귀속하지 않음.",
+                "provenance": [
+                  {
+                    "path": "data/events/run24-education-governance-events.json",
+                    "pointer": "/events/0"
+                  }
+                ]
+              }
+            ],
+            "resolution": "PRESERVED_WITHOUT_CANONICAL_SCALAR_SELECTION"
+          }
+        ],
+        "sourceVariantCount": 3
+      }
     },
     {
       "id": "evt-1948-compulsory-education-six-year-plan",
@@ -3766,7 +3847,7 @@
     },
     {
       "id": "evt-1949-06-06-special-committee-police-raid",
-      "integrationStatus": "CONFLICTED",
+      "integrationStatus": "SAFE_FIELDWISE_MERGE",
       "alternatives": [
         {
           "digest": "335ebd384104773ea611447c307222dae221f6fe545a00981030508626eb49b8",
@@ -3815,7 +3896,71 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "safeMerge": {
+        "status": "SAFE_FIELDWISE_MERGE",
+        "mergePolicy": "SAME_STABLE_ID_AND_SHARED_IDENTITY_KEY; ADDITIVE_ARRAYS; AMBIGUOUS_SCALARS_OMITTED_WITH_PROVENANCE; CONSERVATIVE_STATUS; DATE_PRECISION_REFINED_ONLY_WITHIN_SAME_CALENDAR_POINT",
+        "identityBasis": {
+          "basis": "SAME_STABLE_EVENT_ID_AND_SHARED_NAME_OR_COMPATIBLE_DATE",
+          "identityKey": null,
+          "selectedDate": null,
+          "eventIdDate": "1949-06-06"
+        },
+        "data": {
+          "decided_by": [
+            "pol-rhee-syngman"
+          ],
+          "executed_by": [
+            "org-seoul-metropolitan-police",
+            "org-jungbu-police-station"
+          ],
+          "id": "evt-1949-06-06-special-committee-police-raid",
+          "legal_authority": "CONFLICTED",
+          "observed_by": [
+            "pol-kim-byungro"
+          ],
+          "status": "DECOMPOSED"
+        },
+        "digest": "4e6783c59f3b3f7c90cb3f4bfccf0c314f09c642735ea16a5c705f6b91203f87",
+        "provenance": [
+          {
+            "path": "data/research/events/pass-155-rhee-special-committee-events.json",
+            "pointer": "/events/2"
+          },
+          {
+            "path": "data/research/events/pass-156-rhee-special-committee-aftermath-events.json",
+            "pointer": "/events/3"
+          }
+        ],
+        "fieldVariantCount": 1,
+        "fieldVariants": [
+          {
+            "fieldPath": "note",
+            "values": [
+              {
+                "value": "Keep arrests/search/seizure operational acts separate from presidential dissolution-order attribution.",
+                "provenance": [
+                  {
+                    "path": "data/research/events/pass-155-rhee-special-committee-events.json",
+                    "pointer": "/events/2"
+                  }
+                ]
+              },
+              {
+                "value": "Presidential evidence supports an order to dissolve/disarm special police. Search, document seizure, home searches and arrests require separate authorization proof.",
+                "provenance": [
+                  {
+                    "path": "data/research/events/pass-156-rhee-special-committee-aftermath-events.json",
+                    "pointer": "/events/3"
+                  }
+                ]
+              }
+            ],
+            "resolution": "PRESERVED_WITHOUT_CANONICAL_SCALAR_SELECTION"
+          }
+        ],
+        "sourceVariantCount": 2
+      }
     },
     {
       "id": "evt-1949-06-06-special-police-disarmament",
@@ -3961,7 +4106,7 @@
     },
     {
       "id": "evt-1949-06-07-rhee-order-admission",
-      "integrationStatus": "CONFLICTED",
+      "integrationStatus": "SAFE_FIELDWISE_MERGE",
       "alternatives": [
         {
           "digest": "2fa072fa575875e7d6a55d4e4834125103ef7cedda79c9ad5831b251bda81d83",
@@ -4004,7 +4149,69 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "safeMerge": {
+        "status": "SAFE_FIELDWISE_MERGE",
+        "mergePolicy": "SAME_STABLE_ID_AND_SHARED_IDENTITY_KEY; ADDITIVE_ARRAYS; AMBIGUOUS_SCALARS_OMITTED_WITH_PROVENANCE; CONSERVATIVE_STATUS; DATE_PRECISION_REFINED_ONLY_WITHIN_SAME_CALENDAR_POINT",
+        "identityBasis": {
+          "basis": "SAME_STABLE_EVENT_ID_AND_SHARED_NAME_OR_COMPATIBLE_DATE",
+          "identityKey": "rheetoldapthathehadorderedpolicetodissolvethespecialcommitteespecialpoliceunitandjustifieditbyexecutivepoliceauthority",
+          "selectedDate": null,
+          "eventIdDate": "1949-06-07"
+        },
+        "data": {
+          "action": "Rhee told AP that he had ordered police to dissolve the Special Committee special police unit and justified it by executive police authority.",
+          "claim": "Rhee publicly stated the special-police dissolution was his order.",
+          "decided_by": [
+            "pol-rhee-syngman"
+          ],
+          "evidence": [
+            "doc-nikh-tcct-1949-06-07-0010",
+            "doc-nikh-dh-012-1949-06-07-0130"
+          ],
+          "id": "evt-1949-06-07-rhee-order-admission",
+          "status": "VERIFIED"
+        },
+        "digest": "69fbc18c878872ba711f8d82758d8da8fd0e2b8e85e9efcc3f269a6b61f4ebe3",
+        "provenance": [
+          {
+            "path": "data/research/events/pass-155-rhee-special-committee-events.json",
+            "pointer": "/events/3"
+          },
+          {
+            "path": "data/research/events/pass-156-rhee-special-committee-aftermath-events.json",
+            "pointer": "/events/4"
+          }
+        ],
+        "fieldVariantCount": 1,
+        "fieldVariants": [
+          {
+            "fieldPath": "status",
+            "values": [
+              {
+                "value": "VERIFIED",
+                "provenance": [
+                  {
+                    "path": "data/research/events/pass-155-rhee-special-committee-events.json",
+                    "pointer": "/events/3"
+                  }
+                ]
+              },
+              {
+                "value": "VERIFIED_PRIMARY_TRANSCRIPTION",
+                "provenance": [
+                  {
+                    "path": "data/research/events/pass-156-rhee-special-committee-aftermath-events.json",
+                    "pointer": "/events/4"
+                  }
+                ]
+              }
+            ],
+            "resolution": "CONSERVATIVE_MINIMUM_RESEARCH_STATUS"
+          }
+        ],
+        "sourceVariantCount": 2
+      }
     },
     {
       "id": "evt-1949-06-08-assembly-leadership-rhee-meeting",
@@ -4149,7 +4356,7 @@
     },
     {
       "id": "evt-1949-06-10-special-committee-resignations",
-      "integrationStatus": "CONFLICTED",
+      "integrationStatus": "SAFE_FIELDWISE_MERGE",
       "alternatives": [
         {
           "digest": "372ff63707a90336d45e2507944fc3bdcf5246f895c0a98d9f7f1d8411c84f79",
@@ -4192,7 +4399,50 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "safeMerge": {
+        "status": "SAFE_FIELDWISE_MERGE",
+        "mergePolicy": "SAME_STABLE_ID_AND_SHARED_IDENTITY_KEY; ADDITIVE_ARRAYS; AMBIGUOUS_SCALARS_OMITTED_WITH_PROVENANCE; CONSERVATIVE_STATUS; DATE_PRECISION_REFINED_ONLY_WITHIN_SAME_CALENDAR_POINT",
+        "identityBasis": {
+          "basis": "SAME_STABLE_EVENT_ID_AND_SHARED_NAME_OR_COMPATIBLE_DATE",
+          "identityKey": "kimsangdeokandfourinvestigationmemberssubmittedresignationsintheraidaftermath",
+          "selectedDate": null,
+          "eventIdDate": "1949-06-10"
+        },
+        "data": {
+          "action": "Kim Sang-deok and four investigation members submitted resignations in the raid aftermath.",
+          "actors": [
+            "김상덕",
+            "오기열",
+            "조규갑",
+            "김경배",
+            "이종순"
+          ],
+          "domain": "사법·반민특위",
+          "evidence": [
+            "doc-nikh-dh-012-1949-06-10-0030"
+          ],
+          "executed_by": [
+            "pol-kim-sangdeok"
+          ],
+          "id": "evt-1949-06-10-special-committee-resignations",
+          "status": "VERIFIED_CONTEMPORANEOUS"
+        },
+        "digest": "8baf000b1cf697ca0a3cfe30bbd2c8cd58a721e334737cef005a7e2913585de0",
+        "provenance": [
+          {
+            "path": "data/research/events/pass-156-rhee-special-committee-aftermath-events.json",
+            "pointer": "/events/8"
+          },
+          {
+            "path": "data/research/evidence/pass-213-anti-collaboration-command-chain-correction.json",
+            "pointer": "/events/7"
+          }
+        ],
+        "fieldVariantCount": 0,
+        "fieldVariants": [],
+        "sourceVariantCount": 2
+      }
     },
     {
       "id": "evt-1949-06-15-police-countercomplaint",
@@ -6787,7 +7037,11 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "mergeReview": {
+        "status": "BLOCKED",
+        "reason": "NO_COMMON_EVENT_NAME_OR_COMPATIBLE_DATE"
+      }
     },
     {
       "id": "evt-1949-farmland-reform-veto-override",
@@ -6860,7 +7114,11 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "mergeReview": {
+        "status": "BLOCKED",
+        "reason": "CONFLICTING_EVENT_DATES"
+      }
     },
     {
       "id": "evt-1949-fed-conditional-approval",
@@ -7843,7 +8101,7 @@
     },
     {
       "id": "evt-1949-teacher-ideology-screening",
-      "integrationStatus": "CONFLICTED",
+      "integrationStatus": "SAFE_FIELDWISE_MERGE",
       "alternatives": [
         {
           "digest": "9e55ce4e60cad95ba48b145c6097eeb458c52ebb6ca4bda47c0e02e556f73539",
@@ -7930,7 +8188,111 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "safeMerge": {
+        "status": "SAFE_FIELDWISE_MERGE",
+        "mergePolicy": "SAME_STABLE_ID_AND_SHARED_IDENTITY_KEY; ADDITIVE_ARRAYS; AMBIGUOUS_SCALARS_OMITTED_WITH_PROVENANCE; CONSERVATIVE_STATUS; DATE_PRECISION_REFINED_ONLY_WITHIN_SAME_CALENDAR_POINT",
+        "identityBasis": {
+          "basis": "SAME_STABLE_EVENT_ID_AND_SHARED_NAME_OR_COMPATIBLE_DATE",
+          "identityKey": null,
+          "selectedDate": "1949-01-23",
+          "eventIdDate": null
+        },
+        "data": {
+          "actions": [
+            {
+              "phase": "administrative-screening",
+              "date": "1949-01-23",
+              "executed_by": [
+                "org-ministry-education"
+              ],
+              "actors": [
+                "cand-an-ho-sang"
+              ],
+              "finding": "전국 교원 사상경향 조사와 대규모 인사조치가 연표에서 확인되나 구체 명단·법적 근거·결재선은 미확인."
+            }
+          ],
+          "date": "1949-01-23",
+          "decided_by": [
+            "pol-an-ho-sang",
+            "org-ministry-education"
+          ],
+          "domains": [
+            "education",
+            "personnel",
+            "civil-liberties"
+          ],
+          "evidence": [
+            "doc-r21-teacher-purge-19490123"
+          ],
+          "executed_by": [
+            "pol-an-ho-sang",
+            "org-ministry-education"
+          ],
+          "id": "evt-1949-teacher-ideology-screening",
+          "observed_by": [
+            "doc-r23-teacher-purge-19490123",
+            "doc-r24-001"
+          ],
+          "open_question": "5천여 명 규모의 원 통계와 경무대/국무회의 지시·보고선",
+          "open_questions": [
+            "처분 명단·근거 문서·개별 결재선",
+            "대통령 직접 지시 여부"
+          ]
+        },
+        "digest": "28a1999eef159c32d4a91ac8a6e78cb40af4024c767d5b71e2cad4d40b9fd229",
+        "provenance": [
+          {
+            "path": "data/events/run21-education-statebuilding-events.json",
+            "pointer": "/events/2"
+          },
+          {
+            "path": "data/events/run23-education-institutions-events.json",
+            "pointer": "/events/1"
+          },
+          {
+            "path": "data/events/run24-education-governance-events.json",
+            "pointer": "/events/1"
+          }
+        ],
+        "fieldVariantCount": 1,
+        "fieldVariants": [
+          {
+            "fieldPath": "title",
+            "values": [
+              {
+                "value": "교원 사상경향 조사·대규모 숙청",
+                "provenance": [
+                  {
+                    "path": "data/events/run23-education-institutions-events.json",
+                    "pointer": "/events/1"
+                  }
+                ]
+              },
+              {
+                "value": "교원 사상경향 조사·인사조치",
+                "provenance": [
+                  {
+                    "path": "data/events/run21-education-statebuilding-events.json",
+                    "pointer": "/events/2"
+                  }
+                ]
+              },
+              {
+                "value": "전국 교원 사상경향 조사·숙청",
+                "provenance": [
+                  {
+                    "path": "data/events/run24-education-governance-events.json",
+                    "pointer": "/events/1"
+                  }
+                ]
+              }
+            ],
+            "resolution": "PRESERVED_WITHOUT_CANONICAL_SCALAR_SELECTION"
+          }
+        ],
+        "sourceVariantCount": 3
+      }
     },
     {
       "id": "evt-1949-us-pressure-landreform",
@@ -9197,7 +9559,7 @@
     },
     {
       "id": "evt-1950-compulsory-education-start",
-      "integrationStatus": "CONFLICTED",
+      "integrationStatus": "SAFE_FIELDWISE_MERGE",
       "alternatives": [
         {
           "digest": "3b3372da88a10d181aab4ee58c03b57612cb3c4d66f58e80258f7a6d7253f6cd",
@@ -9252,7 +9614,57 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "safeMerge": {
+        "status": "SAFE_FIELDWISE_MERGE",
+        "mergePolicy": "SAME_STABLE_ID_AND_SHARED_IDENTITY_KEY; ADDITIVE_ARRAYS; AMBIGUOUS_SCALARS_OMITTED_WITH_PROVENANCE; CONSERVATIVE_STATUS; DATE_PRECISION_REFINED_ONLY_WITHIN_SAME_CALENDAR_POINT",
+        "identityBasis": {
+          "basis": "SAME_STABLE_EVENT_ID_AND_SHARED_NAME_OR_COMPATIBLE_DATE",
+          "identityKey": null,
+          "selectedDate": "1950-06-01",
+          "eventIdDate": null
+        },
+        "data": {
+          "action": "초등 의무교육 시행 개시",
+          "date": "1950-06-01",
+          "documentId": "d111g-compulsory-school1950",
+          "domain": "education/social-policy",
+          "executed_by": [
+            "문교부",
+            "지방교육기관",
+            "org-ministry-education",
+            "org-local-governments"
+          ],
+          "id": "evt-1950-compulsory-education-start",
+          "later_finding": [
+            "전쟁 발발과 예산·시설 부족으로 중단·후퇴"
+          ],
+          "legal_authority": [
+            "law-86-education-1949"
+          ],
+          "observed_by": [
+            "경향신문",
+            "doc-historydb-compulsory-start-19500601-p205",
+            "doc-historydb-compulsory-budget-19500623-p205"
+          ],
+          "status": "CONTEMPORANEOUS_PRESS",
+          "title": "초등 6년 의무교육 최초 실시"
+        },
+        "digest": "0d4b729065e8b86e837bad08a9e54a1670aaf91dd732753f9b7edda075c3376d",
+        "provenance": [
+          {
+            "path": "data/events/run111g-electricity-education-budget.json",
+            "pointer": "/events/1"
+          },
+          {
+            "path": "data/research/events/2026-10-04-pass205-education-local-autonomy-actions.json",
+            "pointer": "/events/3"
+          }
+        ],
+        "fieldVariantCount": 0,
+        "fieldVariants": [],
+        "sourceVariantCount": 2
+      }
     },
     {
       "id": "evt-1950-education-law-revision-referral",
@@ -10157,7 +10569,7 @@
     },
     {
       "id": "evt-1950-landcommittee-regulation",
-      "integrationStatus": "CONFLICTED",
+      "integrationStatus": "SAFE_FIELDWISE_MERGE",
       "alternatives": [
         {
           "digest": "23d7b05f5456d5c963b35f3dea4cb444d46eb30d818e118c788a5506e52e8af9",
@@ -10221,7 +10633,91 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "safeMerge": {
+        "status": "SAFE_FIELDWISE_MERGE",
+        "mergePolicy": "SAME_STABLE_ID_AND_SHARED_IDENTITY_KEY; ADDITIVE_ARRAYS; AMBIGUOUS_SCALARS_OMITTED_WITH_PROVENANCE; CONSERVATIVE_STATUS; DATE_PRECISION_REFINED_ONLY_WITHIN_SAME_CALENDAR_POINT",
+        "identityBasis": {
+          "basis": "SAME_STABLE_EVENT_ID_AND_SHARED_NAME_OR_COMPATIBLE_DATE",
+          "identityKey": null,
+          "selectedDate": "1950-02-10",
+          "eventIdDate": null
+        },
+        "data": {
+          "date": "1950-02-10",
+          "decidedBy": [
+            "대한민국 정부"
+          ],
+          "decided_by": [
+            "대한민국 행정부"
+          ],
+          "evidence": [
+            "doc-historydb-landcommittee-reg-275-p183",
+            "doc-law-landcommittee-275-p185"
+          ],
+          "executedBy": [
+            "농림부",
+            "국무총리",
+            "지방행정기관"
+          ],
+          "executed_by": [
+            "중앙·지방 농지위원회",
+            "지방행정기관"
+          ],
+          "id": "evt-1950-landcommittee-regulation",
+          "legalAuthority": [
+            "농지개혁법 제4조 제2항",
+            "대통령령 제275호"
+          ],
+          "legal_authority": [
+            "농지개혁법"
+          ],
+          "note": "위원회 층위별 구성·위촉권·자문기능을 대통령 개인행위와 분리.",
+          "observedBy": [
+            "관보 제279호"
+          ],
+          "type": "executive-rulemaking"
+        },
+        "digest": "428ee403ebef2db9a2545a4d11c8eedd72f50d9acb446a99d1470583f8e6e803",
+        "provenance": [
+          {
+            "path": "data/research/events/2026-10-04-pass183-land-election-transition-actions.json",
+            "pointer": "/events/0"
+          },
+          {
+            "path": "data/research/events/2026-10-04-pass185-landreform-law-implementation-actions.json",
+            "pointer": "/events/2"
+          }
+        ],
+        "fieldVariantCount": 1,
+        "fieldVariants": [
+          {
+            "fieldPath": "title",
+            "values": [
+              {
+                "value": "농지위원회규정 공포",
+                "provenance": [
+                  {
+                    "path": "data/research/events/2026-10-04-pass183-land-election-transition-actions.json",
+                    "pointer": "/events/0"
+                  }
+                ]
+              },
+              {
+                "value": "농지위원회규정 제정",
+                "provenance": [
+                  {
+                    "path": "data/research/events/2026-10-04-pass185-landreform-law-implementation-actions.json",
+                    "pointer": "/events/2"
+                  }
+                ]
+              }
+            ],
+            "resolution": "PRESERVED_WITHOUT_CANONICAL_SCALAR_SELECTION"
+          }
+        ],
+        "sourceVariantCount": 2
+      }
     },
     {
       "id": "evt-1950-landowner-vested-industry-transition",
@@ -11716,7 +12212,7 @@
     },
     {
       "id": "evt-1951-national-defense-corps",
-      "integrationStatus": "CONFLICTED",
+      "integrationStatus": "SAFE_FIELDWISE_MERGE",
       "alternatives": [
         {
           "digest": "5168c1a2c4c222e85cc7ac76b77a536a1f717de221391e27e3fa004dccf08998",
@@ -11784,7 +12280,94 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "safeMerge": {
+        "status": "SAFE_FIELDWISE_MERGE",
+        "mergePolicy": "SAME_STABLE_ID_AND_SHARED_IDENTITY_KEY; ADDITIVE_ARRAYS; AMBIGUOUS_SCALARS_OMITTED_WITH_PROVENANCE; CONSERVATIVE_STATUS; DATE_PRECISION_REFINED_ONLY_WITHIN_SAME_CALENDAR_POINT",
+        "identityBasis": {
+          "basis": "SAME_STABLE_EVENT_ID_AND_SHARED_NAME_OR_COMPATIBLE_DATE",
+          "identityKey": null,
+          "selectedDate": "1951-01-04",
+          "eventIdDate": null
+        },
+        "data": {
+          "actions": [
+            "국민방위군 설치·동원",
+            "보급·재정 부실",
+            "국회 조사",
+            "1951-05-17 김윤근 검거",
+            "국민방위군 해산",
+            "중앙고등군법회의"
+          ],
+          "date": "1951-01-04",
+          "decided_by": [
+            "이승만: 1951-01-04 부정 조사·처벌 지시"
+          ],
+          "domain": "군정·행정·재정",
+          "evidence_ids": [
+            "S1951-DEFENSECORPS",
+            "S1951-NDC-DIRECTIVE",
+            "S1951-NDC-TRIAL",
+            "S1951-NDC-POLITICAL-FUNDS"
+          ],
+          "executed_by": [
+            "군법회의(후속 판결은 별도 증거에서 확인)"
+          ],
+          "id": "evt-1951-national-defense-corps",
+          "observed_by": [
+            "국가기록원 대통령기록"
+          ],
+          "open": "대통령 최초 인지일과 1월4일 이전 보고문서",
+          "politicians": [
+            "pol-rhee-syngman",
+            "pol-shin-sung-mo"
+          ],
+          "sources": [
+            "https://theme.archives.go.kr/next/chronology/archiveDetail.do?evntId=0049286380&flag=1&isPop=Y",
+            "https://theme.archives.go.kr/next/625/records/recordDetail.do?flag=&page=3&searchKey=&searchTxt=&seq=972"
+          ],
+          "uncertainty": "신성모와의 연결은 기존 인물 registry에서 계승한 연관관계일 뿐 직접 명령·사전인지의 확증 아님. 초기 부정 사전인지 OPEN."
+        },
+        "digest": "a9263e16a1541f117259d6a19e9a9981668ce2a95f1b726c0e66a7085e0349d7",
+        "provenance": [
+          {
+            "path": "data/events/pass-236-legacy-command-backfill.json",
+            "pointer": "/events/0"
+          },
+          {
+            "path": "data/research/runs/2026-10-03-run10-rhee-institutional-debt-sweep.json",
+            "pointer": "/events/0"
+          }
+        ],
+        "fieldVariantCount": 1,
+        "fieldVariants": [
+          {
+            "fieldPath": "name",
+            "values": [
+              {
+                "value": "국민방위군 부정사건 조사 지시와 후속 군법회의",
+                "provenance": [
+                  {
+                    "path": "data/events/pass-236-legacy-command-backfill.json",
+                    "pointer": "/events/0"
+                  }
+                ]
+              },
+              {
+                "value": "국민방위군 사건",
+                "provenance": [
+                  {
+                    "path": "data/research/runs/2026-10-03-run10-rhee-institutional-debt-sweep.json",
+                    "pointer": "/events/0"
+                  }
+                ]
+              }
+            ],
+            "resolution": "PRESERVED_WITHOUT_CANONICAL_NAME_SELECTION"
+          }
+        ],
+        "sourceVariantCount": 2
+      }
     },
     {
       "id": "evt-1951-ndc-dissolution",
@@ -14088,7 +14671,7 @@
     },
     {
       "id": "evt-1952-0907-rhee-muccio-economic-security-talk",
-      "integrationStatus": "CONFLICTED",
+      "integrationStatus": "SAFE_FIELDWISE_MERGE",
       "alternatives": [
         {
           "digest": "1811e0b6f5fae0e5040f64546c2b9dfdadb96380b58bcec3c76826e20deaabc9",
@@ -14163,7 +14746,70 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "safeMerge": {
+        "status": "SAFE_FIELDWISE_MERGE",
+        "mergePolicy": "SAME_STABLE_ID_AND_SHARED_IDENTITY_KEY; ADDITIVE_ARRAYS; AMBIGUOUS_SCALARS_OMITTED_WITH_PROVENANCE; CONSERVATIVE_STATUS; DATE_PRECISION_REFINED_ONLY_WITHIN_SAME_CALENDAR_POINT",
+        "identityBasis": {
+          "basis": "SAME_STABLE_EVENT_ID_AND_SHARED_NAME_OR_COMPATIBLE_DATE",
+          "identityKey": null,
+          "selectedDate": "1952-09-07",
+          "eventIdDate": null
+        },
+        "data": {
+          "candidateLinkBasis": "FRUS document 268 shared-context mention only; participation, office, decision authority and actions NOT verified",
+          "classification": "reported-conversation",
+          "date": "1952-09-07",
+          "documentIds": [
+            "doc-frus-1952-v15p1-268"
+          ],
+          "evidence": [
+            "doc-frus-1952-v15p1-268"
+          ],
+          "id": "evt-1952-0907-rhee-muccio-economic-security-talk",
+          "linkBasis": "shared-document-only; relationship is contextual, not proof of claim",
+          "observed_by": [
+            "John J. Muccio",
+            "Edwin A. Lightner"
+          ],
+          "proposed_by": [
+            "Syngman Rhee"
+          ],
+          "relatedClaimIds": [
+            "clm-1952-rhee-currency-loan-300m"
+          ],
+          "relatedPoliticianCandidateIds": [
+            "candidate-lim-byung-jik",
+            "candidate-yang-yu-chan"
+          ],
+          "relatedPoliticianIds": [
+            "pol-lim-byong-jik",
+            "cand-1952-sep-us-ambassador-yang-yu-chan"
+          ],
+          "relatedPoliticianLinkBasis": "Existing registry identity alias match; document 268 context only, not verified participation or decision",
+          "reviewStatus": "SOURCE_OVERLAY_MIGRATED_NOT_INDEPENDENTLY_REVERIFIED",
+          "sourceRegistry": "data/research/registry/1952-september-frus264-269-index.json",
+          "status": "reported-conversation"
+        },
+        "digest": "2599a60cc56dc9551ad26b4b31476bc89ee01671f2f9e6a99b28f4a09907eae7",
+        "provenance": [
+          {
+            "path": "data/events/frus-1952-september-264-269-central.json",
+            "pointer": "/events/4"
+          },
+          {
+            "path": "data/research/graphs/2026-11-13-2324-frus267-269-overlay.json",
+            "pointer": "/events/1"
+          },
+          {
+            "path": "data/research/registry/1952-september-frus264-269-index.json",
+            "pointer": "/events/4"
+          }
+        ],
+        "fieldVariantCount": 0,
+        "fieldVariants": [],
+        "sourceVariantCount": 3
+      }
     },
     {
       "id": "evt-1952-0908-lie-europe-consultations",
@@ -14264,7 +14910,7 @@
     },
     {
       "id": "evt-1952-0911-clark-armistice-sequence",
-      "integrationStatus": "CONFLICTED",
+      "integrationStatus": "SAFE_FIELDWISE_MERGE",
       "alternatives": [
         {
           "digest": "16f2db85b099d175133acb67168843a336bc0a72d0ce419cd586c5004cd986d8",
@@ -14328,11 +14974,60 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "safeMerge": {
+        "status": "SAFE_FIELDWISE_MERGE",
+        "mergePolicy": "SAME_STABLE_ID_AND_SHARED_IDENTITY_KEY; ADDITIVE_ARRAYS; AMBIGUOUS_SCALARS_OMITTED_WITH_PROVENANCE; CONSERVATIVE_STATUS; DATE_PRECISION_REFINED_ONLY_WITHIN_SAME_CALENDAR_POINT",
+        "identityBasis": {
+          "basis": "SAME_STABLE_EVENT_ID_AND_SHARED_NAME_OR_COMPATIBLE_DATE",
+          "identityKey": null,
+          "selectedDate": "1952-09-11",
+          "eventIdDate": null
+        },
+        "data": {
+          "classification": "proposal",
+          "date": "1952-09-11",
+          "documentIds": [
+            "doc-frus-1952-v15p1-267"
+          ],
+          "evidence": [
+            "doc-frus-1952-v15p1-267"
+          ],
+          "id": "evt-1952-0911-clark-armistice-sequence",
+          "linkBasis": "shared-document-only; relationship is contextual, not proof of claim",
+          "proposed_by": [
+            "Mark W. Clark"
+          ],
+          "relatedClaimIds": [
+            "clm-1952-clark-air-pressure-effect"
+          ],
+          "reviewStatus": "SOURCE_OVERLAY_MIGRATED_NOT_INDEPENDENTLY_REVERIFIED",
+          "sourceRegistry": "data/research/registry/1952-september-frus264-269-index.json",
+          "status": "proposal-not-execution"
+        },
+        "digest": "b76776f2c0d123640f7f53597383646b80eb1ad23d316679607383270f7d95a9",
+        "provenance": [
+          {
+            "path": "data/events/frus-1952-september-264-269-central.json",
+            "pointer": "/events/3"
+          },
+          {
+            "path": "data/research/graphs/2026-11-13-2324-frus267-269-overlay.json",
+            "pointer": "/events/0"
+          },
+          {
+            "path": "data/research/registry/1952-september-frus264-269-index.json",
+            "pointer": "/events/3"
+          }
+        ],
+        "fieldVariantCount": 0,
+        "fieldVariants": [],
+        "sourceVariantCount": 3
+      }
     },
     {
       "id": "evt-1952-0915-truman-armistice-decision",
-      "integrationStatus": "CONFLICTED",
+      "integrationStatus": "SAFE_FIELDWISE_MERGE",
       "alternatives": [
         {
           "digest": "c3272115502d9f7facc1bed1901f9fc5b517453ac1859a47bb2a6e2720931645",
@@ -14397,7 +15092,60 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "safeMerge": {
+        "status": "SAFE_FIELDWISE_MERGE",
+        "mergePolicy": "SAME_STABLE_ID_AND_SHARED_IDENTITY_KEY; ADDITIVE_ARRAYS; AMBIGUOUS_SCALARS_OMITTED_WITH_PROVENANCE; CONSERVATIVE_STATUS; DATE_PRECISION_REFINED_ONLY_WITHIN_SAME_CALENDAR_POINT",
+        "identityBasis": {
+          "basis": "SAME_STABLE_EVENT_ID_AND_SHARED_NAME_OR_COMPATIBLE_DATE",
+          "identityKey": null,
+          "selectedDate": "1952-09-15",
+          "eventIdDate": null
+        },
+        "data": {
+          "classification": "documented-decision",
+          "date": "1952-09-15",
+          "decided_by": [
+            "Harry S. Truman"
+          ],
+          "documentIds": [
+            "doc-frus-1952-v15p1-269"
+          ],
+          "evidence": [
+            "doc-frus-1952-v15p1-269"
+          ],
+          "id": "evt-1952-0915-truman-armistice-decision",
+          "linkBasis": "shared-document-only; relationship is contextual, not proof of claim",
+          "opposed_by": [
+            "Robert A. Lovett",
+            "Defense advisers"
+          ],
+          "relatedClaimIds": [
+            "clm-1952-truman-statement-not-issued-as-proposed"
+          ],
+          "reviewStatus": "SOURCE_OVERLAY_MIGRATED_NOT_INDEPENDENTLY_REVERIFIED",
+          "sourceRegistry": "data/research/registry/1952-september-frus264-269-index.json",
+          "status": "documented-decision"
+        },
+        "digest": "d7abe24a4db250d0c164a6c9d895712e9ac5c92fe73b3a18bc6c7464096cb70f",
+        "provenance": [
+          {
+            "path": "data/events/frus-1952-september-264-269-central.json",
+            "pointer": "/events/5"
+          },
+          {
+            "path": "data/research/graphs/2026-11-13-2324-frus267-269-overlay.json",
+            "pointer": "/events/2"
+          },
+          {
+            "path": "data/research/registry/1952-september-frus264-269-index.json",
+            "pointer": "/events/5"
+          }
+        ],
+        "fieldVariantCount": 0,
+        "fieldVariants": [],
+        "sourceVariantCount": 3
+      }
     },
     {
       "id": "evt-1952-1009-choi-welfare-resignation",
@@ -15287,7 +16035,11 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "mergeReview": {
+        "status": "BLOCKED",
+        "reason": "CONFLICTING_EVENT_DATES"
+      }
     },
     {
       "id": "evt-1952-busan-political-crisis-arrests",
@@ -15488,7 +16240,7 @@
     },
     {
       "id": "evt-1952-education-act-enforcement-decree",
-      "integrationStatus": "CONFLICTED",
+      "integrationStatus": "SAFE_FIELDWISE_MERGE",
       "alternatives": [
         {
           "digest": "2abf5d2a255be7c6c4a30ae57d909aec62c1582efe6de4fc9282a65eeba73e04",
@@ -15546,7 +16298,88 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "safeMerge": {
+        "status": "SAFE_FIELDWISE_MERGE",
+        "mergePolicy": "SAME_STABLE_ID_AND_SHARED_IDENTITY_KEY; ADDITIVE_ARRAYS; AMBIGUOUS_SCALARS_OMITTED_WITH_PROVENANCE; CONSERVATIVE_STATUS; DATE_PRECISION_REFINED_ONLY_WITHIN_SAME_CALENDAR_POINT",
+        "identityBasis": {
+          "basis": "SAME_STABLE_EVENT_ID_AND_SHARED_NAME_OR_COMPATIBLE_DATE",
+          "identityKey": null,
+          "selectedDate": "1952-04-23",
+          "eventIdDate": null
+        },
+        "data": {
+          "actions": [
+            {
+              "date": "1952-04-23",
+              "decided_by": [
+                "org-executive"
+              ],
+              "promulgated_by": [
+                "org-president-office"
+              ],
+              "legal_authority": "대통령령 제633호",
+              "finding": "교육구·교육위원회·교육세·교원·교육기관 등 법률의 행정집행 세부가 시행령으로 구체화됐다. 국가기록원 가이드는 법제처 공포요청·대통령 이하 국무위원 승인서·심의승인표가 보존됨을 확인한다."
+            }
+          ],
+          "date": "1952-04-23",
+          "decided_by": [
+            "org-executive"
+          ],
+          "evidence": [
+            "doc-r22-education-enforcement-633",
+            "doc-r22-na-education-archive-guide"
+          ],
+          "executed_by": [
+            "org-ministry-education",
+            "local-education-authorities"
+          ],
+          "id": "evt-1952-education-act-enforcement-decree",
+          "legal_authority": [
+            "doc-r24-015"
+          ],
+          "open_question": "국무회의 심의표와 당시 문교부장관의 제안·결재 역할"
+        },
+        "digest": "f1f18415084733639a3233767c04b6185bafe02fab1406e611be6322e6651c2a",
+        "provenance": [
+          {
+            "path": "data/events/run22-education-legislation-events.json",
+            "pointer": "/events/8"
+          },
+          {
+            "path": "data/events/run24-education-governance-events.json",
+            "pointer": "/events/8"
+          }
+        ],
+        "fieldVariantCount": 1,
+        "fieldVariants": [
+          {
+            "fieldPath": "title",
+            "values": [
+              {
+                "value": "교육법시행령 대통령령 제633호 제정",
+                "provenance": [
+                  {
+                    "path": "data/events/run22-education-legislation-events.json",
+                    "pointer": "/events/8"
+                  }
+                ]
+              },
+              {
+                "value": "교육법시행령 제633호 제정",
+                "provenance": [
+                  {
+                    "path": "data/events/run24-education-governance-events.json",
+                    "pointer": "/events/8"
+                  }
+                ]
+              }
+            ],
+            "resolution": "PRESERVED_WITHOUT_CANONICAL_SCALAR_SELECTION"
+          }
+        ],
+        "sourceVariantCount": 2
+      }
     },
     {
       "id": "evt-1952-education-enforcement-decree-r25",
@@ -15735,7 +16568,7 @@
     },
     {
       "id": "evt-1952-july15-implementing-legislation",
-      "integrationStatus": "CONFLICTED",
+      "integrationStatus": "SAFE_FIELDWISE_MERGE",
       "alternatives": [
         {
           "digest": "f27ad62c15b072f000f4d100db603e3d3a76aeb306618f6750c7f44c94792fbe",
@@ -15780,7 +16613,75 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "safeMerge": {
+        "status": "SAFE_FIELDWISE_MERGE",
+        "mergePolicy": "SAME_STABLE_ID_AND_SHARED_IDENTITY_KEY; ADDITIVE_ARRAYS; AMBIGUOUS_SCALARS_OMITTED_WITH_PROVENANCE; CONSERVATIVE_STATUS; DATE_PRECISION_REFINED_ONLY_WITHIN_SAME_CALENDAR_POINT",
+        "identityBasis": {
+          "basis": "SAME_STABLE_EVENT_ID_AND_SHARED_NAME_OR_COMPATIBLE_DATE",
+          "identityKey": null,
+          "selectedDate": "1952-07-15",
+          "eventIdDate": null
+        },
+        "data": {
+          "actions": [
+            {
+              "date": "1952-07-15",
+              "type": "implementing_legislation",
+              "decided_by": "National Assembly",
+              "status": "event verified; exact law title/number/proposer/vote OPEN"
+            }
+          ],
+          "date": "1952-07-15",
+          "decided_by": [
+            "National Assembly"
+          ],
+          "evidence": [
+            "doc-frus-d206"
+          ],
+          "id": "evt-1952-july15-implementing-legislation",
+          "uncertainty": "국회 원문 의안명·번호·표결수 미확보"
+        },
+        "digest": "1292ad5e02544f1a54e9215f7c1e22078d1a03eaf364966cfa90d79042a38766",
+        "provenance": [
+          {
+            "path": "data/research/events/pass-235-assembly-coercion-actions.json",
+            "pointer": "/events/7"
+          },
+          {
+            "path": "data/research/events/pass-243-cabinet-constitutional-subevents.json",
+            "pointer": "/events/9"
+          }
+        ],
+        "fieldVariantCount": 1,
+        "fieldVariants": [
+          {
+            "fieldPath": "title",
+            "values": [
+              {
+                "value": "1952년 7월 15일 개헌 시행입법",
+                "provenance": [
+                  {
+                    "path": "data/research/events/pass-235-assembly-coercion-actions.json",
+                    "pointer": "/events/7"
+                  }
+                ]
+              },
+              {
+                "value": "개정헌법 시행입법 통과",
+                "provenance": [
+                  {
+                    "path": "data/research/events/pass-243-cabinet-constitutional-subevents.json",
+                    "pointer": "/events/9"
+                  }
+                ]
+              }
+            ],
+            "resolution": "PRESERVED_WITHOUT_CANONICAL_SCALAR_SELECTION"
+          }
+        ],
+        "sourceVariantCount": 2
+      }
     },
     {
       "id": "evt-1952-july2-police-attendance",
@@ -16831,7 +17732,7 @@
     },
     {
       "id": "evt-1952-so-min-ho-case",
-      "integrationStatus": "CONFLICTED",
+      "integrationStatus": "SAFE_FIELDWISE_MERGE",
       "alternatives": [
         {
           "digest": "84a9b710b85c9826dcfa20b226a321f0b200b783cc05d97947b884e88e582664",
@@ -16927,7 +17828,124 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "safeMerge": {
+        "status": "SAFE_FIELDWISE_MERGE",
+        "mergePolicy": "SAME_STABLE_ID_AND_SHARED_IDENTITY_KEY; ADDITIVE_ARRAYS; AMBIGUOUS_SCALARS_OMITTED_WITH_PROVENANCE; CONSERVATIVE_STATUS; DATE_PRECISION_REFINED_ONLY_WITHIN_SAME_CALENDAR_POINT",
+        "identityBasis": {
+          "basis": "SAME_STABLE_EVENT_ID_AND_SHARED_NAME_OR_COMPATIBLE_DATE",
+          "identityKey": null,
+          "selectedDate": "1952-04-24~1952-05-25",
+          "eventIdDate": null
+        },
+        "data": {
+          "actions": [
+            {
+              "type": "incident",
+              "actor": "pol-so-min-ho",
+              "fact": "4월24일 육군 대위 총격, 자위 주장, 다음날 자수"
+            },
+            {
+              "type": "legal-process",
+              "actor": "Pusan district court",
+              "fact": "5월22일 재판 시작"
+            },
+            {
+              "type": "legislative-protection",
+              "actor": "National Assembly",
+              "legalAuthority": "ROK Constitution Article 49",
+              "fact": "5월14일 회의 참석을 위해 구금에서 석방"
+            },
+            {
+              "type": "rearrest",
+              "actor": "ROK government/military police",
+              "fact": "계엄 직후 5월25일 체포"
+            },
+            {
+              "date": "1952-04-24",
+              "type": "shooting",
+              "actor": "pol-so-min-ho",
+              "target": "ROK Army captain",
+              "status": "verified_via_FRUS_editorial_note"
+            },
+            {
+              "date": "1952-05-14",
+              "type": "legislative_immunity_release",
+              "decided_by": "National Assembly",
+              "legal_authority": "Constitution Article 49 as cited by FRUS",
+              "status": "verified_via_FRUS"
+            },
+            {
+              "date": "1952-05-22",
+              "type": "civil_trial_start",
+              "institution": "Pusan district court",
+              "status": "verified_via_FRUS"
+            },
+            {
+              "date": "1952-05-25",
+              "type": "military_police_arrest",
+              "executed_by": "ROK military police",
+              "status": "verified_FRUS_UNCURK"
+            },
+            {
+              "date": "1952-05-25+",
+              "type": "court_martial_transfer",
+              "executed_by": "martial-law apparatus",
+              "observed_by": "UNCURK A/2187",
+              "decided_by": "OPEN",
+              "legal_authority": "OPEN",
+              "status": "narrowed"
+            }
+          ],
+          "dateRange": "1952-04-24~1952-05-25",
+          "evidence": [
+            "doc-frus-1952-135",
+            "doc-frus-1952-138",
+            "doc-historydb-fs-so-min-ho-box15"
+          ],
+          "id": "evt-1952-so-min-ho-case",
+          "uncertainty": "재체포의 개별 서면 명령 발신자 미확인"
+        },
+        "digest": "d539e442876faeb3711e6ff07573ccf9db7d9a5e0ae4c95d7522f85f431eeced",
+        "provenance": [
+          {
+            "path": "data/research/events/2026-10-04-pass181-action-graph.json",
+            "pointer": "/events/0"
+          },
+          {
+            "path": "data/research/events/pass-235-assembly-coercion-actions.json",
+            "pointer": "/events/0"
+          }
+        ],
+        "fieldVariantCount": 1,
+        "fieldVariants": [
+          {
+            "fieldPath": "title",
+            "values": [
+              {
+                "value": "서민호 총격·재판·국회 석방 사건",
+                "provenance": [
+                  {
+                    "path": "data/research/events/2026-10-04-pass181-action-graph.json",
+                    "pointer": "/events/0"
+                  }
+                ]
+              },
+              {
+                "value": "서민호 형사사건과 계엄하 군사재판 이관",
+                "provenance": [
+                  {
+                    "path": "data/research/events/pass-235-assembly-coercion-actions.json",
+                    "pointer": "/events/0"
+                  }
+                ]
+              }
+            ],
+            "resolution": "PRESERVED_WITHOUT_CANONICAL_SCALAR_SELECTION"
+          }
+        ],
+        "sourceVariantCount": 2
+      }
     },
     {
       "id": "evt-1952-so-min-ho-investigation",
@@ -19988,7 +21006,7 @@
     },
     {
       "id": "evt-1953-12-14-ceb-reconstruction-stabilization-agreement",
-      "integrationStatus": "CONFLICTED",
+      "integrationStatus": "SAFE_FIELDWISE_MERGE",
       "alternatives": [
         {
           "digest": "9e50e1fccafce2ed2008a426663af8954039186bbf861786043800828a914057",
@@ -20055,7 +21073,90 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "safeMerge": {
+        "status": "SAFE_FIELDWISE_MERGE",
+        "mergePolicy": "SAME_STABLE_ID_AND_SHARED_IDENTITY_KEY; ADDITIVE_ARRAYS; AMBIGUOUS_SCALARS_OMITTED_WITH_PROVENANCE; CONSERVATIVE_STATUS; DATE_PRECISION_REFINED_ONLY_WITHIN_SAME_CALENDAR_POINT",
+        "identityBasis": {
+          "basis": "SAME_STABLE_EVENT_ID_AND_SHARED_NAME_OR_COMPATIBLE_DATE",
+          "identityKey": "combinedeconomicboardagreementforaprogramofeconomicreconstructionandfinancialstabilization",
+          "selectedDate": "1953-12-14",
+          "eventIdDate": "1953-12-14"
+        },
+        "data": {
+          "date": "1953-12-14",
+          "decided_by": [
+            "cand-baek-du-jin",
+            "cand-c-tyler-wood"
+          ],
+          "domain": [
+            "economic_governance",
+            "reconstruction",
+            "financial_stabilization"
+          ],
+          "evidence": [
+            "FRUS XV/2 doc.882",
+            "UN Treaty Series vol.405 pp.62-64"
+          ],
+          "id": "evt-1953-12-14-ceb-reconstruction-stabilization-agreement",
+          "later_finding": [
+            "1961 UN Treaty Series records title, annexes and supersession"
+          ],
+          "legal_authority": [
+            "1952-05-24 US-ROK Economic Coordination Agreement",
+            "1948 US-Korean Economic Cooperation Agreement",
+            "1952-05-24 Economic Coordination Agreement"
+          ],
+          "open_leads": [
+            "signed 1953 text",
+            "all annexes",
+            "Korean publication/관보"
+          ],
+          "open_question": "recover signed 1953 text and every annex; 1961 UNTS only confirms title, annex existence and supersession",
+          "status": "VERIFIED",
+          "title": "Combined Economic Board Agreement for a Program of Economic Reconstruction and Financial Stabilization",
+          "type": "economic_governance_agreement"
+        },
+        "digest": "7b8bbd7e8b35220ffe7a31edfc0c0081d2cbc7f6fa7ce7a9e121fe6fafb7a32a",
+        "provenance": [
+          {
+            "path": "data/research/events/pass-124-ceb-airforce-events.json",
+            "pointer": "/events/8"
+          },
+          {
+            "path": "data/research/events/pass-126-ceb-rokaf-education-events.json",
+            "pointer": "/events/2"
+          }
+        ],
+        "fieldVariantCount": 1,
+        "fieldVariants": [
+          {
+            "fieldPath": "status",
+            "values": [
+              {
+                "value": "CROSS_VERIFIED_TEXT_OPEN",
+                "provenance": [
+                  {
+                    "path": "data/research/events/pass-124-ceb-airforce-events.json",
+                    "pointer": "/events/8"
+                  }
+                ]
+              },
+              {
+                "value": "VERIFIED_AGREEMENT_OPEN_ANNEXES",
+                "provenance": [
+                  {
+                    "path": "data/research/events/pass-126-ceb-rokaf-education-events.json",
+                    "pointer": "/events/2"
+                  }
+                ]
+              }
+            ],
+            "resolution": "CONSERVATIVE_MINIMUM_RESEARCH_STATUS"
+          }
+        ],
+        "sourceVariantCount": 2
+      }
     },
     {
       "id": "evt-1953-12-14-ceb-wood-paik-agreement",
@@ -20201,7 +21302,7 @@
     },
     {
       "id": "evt-1953-anti-communist-pow-release",
-      "integrationStatus": "CONFLICTED",
+      "integrationStatus": "SAFE_FIELDWISE_MERGE",
       "alternatives": [
         {
           "digest": "4950abc7073bbf722d5317349d2d4f963f16308b9b21371c4d789f151470e46d",
@@ -20428,7 +21529,245 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "safeMerge": {
+        "status": "SAFE_FIELDWISE_MERGE",
+        "mergePolicy": "SAME_STABLE_ID_AND_SHARED_IDENTITY_KEY; ADDITIVE_ARRAYS; AMBIGUOUS_SCALARS_OMITTED_WITH_PROVENANCE; CONSERVATIVE_STATUS; DATE_PRECISION_REFINED_ONLY_WITHIN_SAME_CALENDAR_POINT",
+        "identityBasis": {
+          "basis": "SAME_STABLE_EVENT_ID_AND_SHARED_NAME_OR_COMPATIBLE_DATE",
+          "identityKey": null,
+          "selectedDate": "1953-06-18",
+          "eventIdDate": null
+        },
+        "data": {
+          "actions": [
+            {
+              "date": "1953-06-18",
+              "type": "decided_by",
+              "actors": [
+                "pol-rhee-syngman"
+              ],
+              "action": "이승만이 자신의 책임으로 석방 명령을 내렸다고 Clark에게 통보",
+              "documents": [
+                "FRUS-XV2-d607",
+                "HISTORYDB-dh_029_1953_06_18_0060"
+              ]
+            },
+            {
+              "date": "1953-06-19",
+              "type": "executed_by/observed_by",
+              "actors": [
+                "pol-won-yong-duk",
+                "pol-paik-sun-yup"
+              ],
+              "action": "Clark는 원용덕의 대미군 공격지시를 보고하고 백선엽 참모총장이 이를 인지했다고 기록. 원용덕 원명령은 미확보",
+              "documents": [
+                "FRUS-XV2-d612"
+              ]
+            },
+            {
+              "date": "1953-06-18",
+              "type": "diplomatic_response",
+              "actors": [
+                "pol-paek-tu-chin"
+              ],
+              "action": "백두진 총리가 Dulles 등과 워싱턴에서 사후수습 회담",
+              "documents": [
+                "FRUS-XV2-d611"
+              ]
+            },
+            {
+              "date": "1953-06-21",
+              "type": "negotiated_restraint",
+              "actors": [
+                "pol-rhee-syngman"
+              ],
+              "action": "추가 수용소 충돌 회피 요구 수용",
+              "documents": [
+                "FRUS-XV2-d620"
+              ]
+            },
+            {
+              "date": "1953-06-22",
+              "type": "negotiated_by",
+              "actors": [
+                "pol-rhee-syngman"
+              ],
+              "action": "남은 수용소 충돌 회피와 제주도 경비 협조 약속",
+              "documents": [
+                "FRUS-XV2-d623"
+              ]
+            },
+            {
+              "date": "1953-06-22",
+              "type": "proposed_by",
+              "actors": [
+                "pol-rhee-syngman"
+              ],
+              "action": "경무대 초안에서 UNC 지휘 유지, 휴전 비서명, 방위조약·원조·포로처리 조건 제시",
+              "documents": [
+                "FRUS-XV2-d630"
+              ]
+            },
+            {
+              "date": "1953-06-26",
+              "type": "negotiated_by",
+              "actors": [
+                "pol-rhee-syngman",
+                "pol-paek-tu-chin",
+                "pol-pyun-yong-tae",
+                "pol-shin-tae-yong",
+                "pol-sohn-won-il"
+              ],
+              "action": "포로·정치회담·20개 사단·상호방위조약을 묶어 Robertson과 협의",
+              "documents": [
+                "FRUS-XV2-d639"
+              ]
+            }
+          ],
+          "date": "1953-06-18",
+          "decided_by": [
+            "pol-rhee-syngman"
+          ],
+          "documents": [
+            "doc-frus-1953-606",
+            "doc-frus-1953-607",
+            "doc-frus-1953-611",
+            "NIKH:dh_029_1953_06_18_0060",
+            "doc-frus-1953-608",
+            "doc-frus-1953-609",
+            "doc-frus-1953-612",
+            "doc-frus-1953-622"
+          ],
+          "executed_by": [
+            "org-rok-military-police",
+            "pol-won-yong-duk",
+            "대한민국 헌병·포로수용소 한국 경비부대"
+          ],
+          "id": "evt-1953-anti-communist-pow-release",
+          "later_finding": [
+            "Clark의 6월19일 전문은 헌병총사령관 원용덕이 이승만에게 직접 연결되어 별도 지시를 내렸다고 보고함"
+          ],
+          "legal_authority": [
+            "이승만은 6월18일 OPI 성명에서 자신의 책임으로 석방을 명령했다고 공개적으로 주장함"
+          ],
+          "observed_by": [
+            "org-unc",
+            "org-us-state-department",
+            "미국 국가안전보장회의",
+            "CINCFE/UNC",
+            "미국 국무부"
+          ],
+          "open": "수용소별 전달명령·실행자",
+          "openQuestions": [
+            "6월18일 최초 수용소별 석방명령의 발신·수신·시각·전달수단은 무엇인가?",
+            "원용덕의 6월19일 별도 공격지시와 6월18일 최초 석방 실행명령은 어떤 문서로 연결되는가?",
+            "각 도지사·경찰에 내려간 석방자 보호지시의 원문과 결재선은 무엇인가?"
+          ],
+          "opposed_by": [
+            "유엔군사령부",
+            "Mark W. Clark"
+          ],
+          "proposed_by": [
+            "pol-rhee-syngman"
+          ],
+          "roles": {
+            "decided_by": [
+              "pol-rhee-syngman"
+            ],
+            "communicated_by": [
+              "pol-pyun-yung-tai"
+            ],
+            "executed_by": [
+              "OPEN: 국방부/헌병/수용소별"
+            ]
+          }
+        },
+        "digest": "5026e233a2b5795bcc8992c75d983ff77acaeaa8e195cd94790742196c634110",
+        "provenance": [
+          {
+            "path": "data/events/pass303-events.json",
+            "pointer": "/events/0"
+          },
+          {
+            "path": "data/events/pass318-rhee-events.json",
+            "pointer": "/events/1"
+          },
+          {
+            "path": "data/events/run50-pow-armistice-events.json",
+            "pointer": "/events/0"
+          },
+          {
+            "path": "data/research/graph-patches/pass-279-2026-10-01.json",
+            "pointer": "/events/2"
+          },
+          {
+            "path": "data/research/rhee-syngman-2026-09-30-structured-delta.json",
+            "pointer": "/events/0"
+          }
+        ],
+        "fieldVariantCount": 2,
+        "fieldVariants": [
+          {
+            "fieldPath": "evidenceState",
+            "values": [
+              {
+                "value": "NARROWED",
+                "provenance": [
+                  {
+                    "path": "data/events/pass318-rhee-events.json",
+                    "pointer": "/events/1"
+                  }
+                ]
+              },
+              {
+                "value": "NARROWED-DEEPENED",
+                "provenance": [
+                  {
+                    "path": "data/events/run50-pow-armistice-events.json",
+                    "pointer": "/events/0"
+                  }
+                ]
+              },
+              {
+                "value": "narrowed",
+                "provenance": [
+                  {
+                    "path": "data/events/pass303-events.json",
+                    "pointer": "/events/0"
+                  }
+                ]
+              }
+            ],
+            "resolution": "PRESERVED_WITHOUT_CANONICAL_SCALAR_SELECTION"
+          },
+          {
+            "fieldPath": "name",
+            "values": [
+              {
+                "value": "1953년 반공포로 석방",
+                "provenance": [
+                  {
+                    "path": "data/events/pass303-events.json",
+                    "pointer": "/events/0"
+                  }
+                ]
+              },
+              {
+                "value": "반공포로 석방",
+                "provenance": [
+                  {
+                    "path": "data/events/pass318-rhee-events.json",
+                    "pointer": "/events/1"
+                  }
+                ]
+              }
+            ],
+            "resolution": "PRESERVED_WITHOUT_CANONICAL_NAME_SELECTION"
+          }
+        ],
+        "sourceVariantCount": 5
+      }
     },
     {
       "id": "evt-1953-armistice-guarantee",
@@ -21980,7 +23319,11 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "mergeReview": {
+        "status": "BLOCKED",
+        "reason": "CONFLICTING_EVENT_DATES"
+      }
     },
     {
       "id": "evt-1953-robertson-mission-june28-counterproposal",
@@ -22571,7 +23914,7 @@
     },
     {
       "id": "evt-1953-us-rok-mutual-defense-treaty-negotiation",
-      "integrationStatus": "CONFLICTED",
+      "integrationStatus": "SAFE_FIELDWISE_MERGE",
       "alternatives": [
         {
           "digest": "11ddf321081e81aa9ead84140ffc48df6009e5de613737da7f0d165fe0044d2d",
@@ -22639,7 +23982,75 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "safeMerge": {
+        "status": "SAFE_FIELDWISE_MERGE",
+        "mergePolicy": "SAME_STABLE_ID_AND_SHARED_IDENTITY_KEY; ADDITIVE_ARRAYS; AMBIGUOUS_SCALARS_OMITTED_WITH_PROVENANCE; CONSERVATIVE_STATUS; DATE_PRECISION_REFINED_ONLY_WITHIN_SAME_CALENDAR_POINT",
+        "identityBasis": {
+          "basis": "SAME_STABLE_EVENT_ID_AND_SHARED_NAME_OR_COMPATIBLE_DATE",
+          "identityKey": null,
+          "selectedDate": "1953",
+          "eventIdDate": null
+        },
+        "data": {
+          "actions": [
+            {
+              "date": "1953-07-06",
+              "type": "proposed_by",
+              "actors": [
+                "John Foster Dulles"
+              ],
+              "action": "미국측 상호방위조약 초안 승인·전달",
+              "documents": [
+                "FRUS-XV2-d670"
+              ]
+            },
+            {
+              "date": "1953-07-08",
+              "type": "opposed_or_conditioned_by",
+              "actors": [
+                "pol-pyun-yong-tae",
+                "pol-rhee-syngman"
+              ],
+              "action": "상원 비준 시기와 주일미군형 조문을 둘러싼 한국측 조건 제시",
+              "documents": [
+                "FRUS-XV2-d676",
+                "FRUS-XV2-d677"
+              ]
+            }
+          ],
+          "date": "1953",
+          "documents": [
+            "doc-frus-1953-682",
+            "doc-frus-1953-741"
+          ],
+          "evidenceState": "VERIFIED-US-PRIMARY",
+          "id": "evt-1953-us-rok-mutual-defense-treaty-negotiation",
+          "negotiated_by": [
+            "pol-rhee-syngman",
+            "pol-pyun-yung-tai"
+          ],
+          "open": "한국측 초안 작성자와 조문별 수정 provenance",
+          "proposed_by": [
+            "org-rok-government",
+            "org-us-government"
+          ]
+        },
+        "digest": "1531013a6b5548b4b251b4b22125286bdb25598d2d57bd20316b3faf77a5073d",
+        "provenance": [
+          {
+            "path": "data/events/run51-robertson-armistice-events.json",
+            "pointer": "/events/1"
+          },
+          {
+            "path": "data/research/rhee-syngman-2026-09-30-structured-delta.json",
+            "pointer": "/events/1"
+          }
+        ],
+        "fieldVariantCount": 0,
+        "fieldVariants": [],
+        "sourceVariantCount": 2
+      }
     },
     {
       "id": "evt-1953-vested-property",
@@ -23005,7 +24416,7 @@
     },
     {
       "id": "evt-1954-08-01-snu-minnesota-interim-contract",
-      "integrationStatus": "CONFLICTED",
+      "integrationStatus": "SAFE_FIELDWISE_MERGE",
       "alternatives": [
         {
           "digest": "5097e6a603acbe4e7df56661fcd13a5827405e23205feb8bf31814a28eee9130",
@@ -23051,7 +24462,93 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "safeMerge": {
+        "status": "SAFE_FIELDWISE_MERGE",
+        "mergePolicy": "SAME_STABLE_ID_AND_SHARED_IDENTITY_KEY; ADDITIVE_ARRAYS; AMBIGUOUS_SCALARS_OMITTED_WITH_PROVENANCE; CONSERVATIVE_STATUS; DATE_PRECISION_REFINED_ONLY_WITHIN_SAME_CALENDAR_POINT",
+        "identityBasis": {
+          "basis": "SAME_STABLE_EVENT_ID_AND_SHARED_NAME_OR_COMPATIBLE_DATE",
+          "identityKey": null,
+          "selectedDate": "1954-08-01",
+          "eventIdDate": "1954-08-01"
+        },
+        "data": {
+          "attribution_note": "Pass 127 upgrades the date from secondary-only support to a University of Minnesota institutional project report. Korean signatories/approvers remain unproven.",
+          "date": "1954-08-01",
+          "evidence": "University of Minnesota Semi-Annual Progress Report (later institutional report describing operations begun under interim contract)",
+          "id": "evt-1954-08-01-snu-minnesota-interim-contract",
+          "institutions": [
+            "University of Minnesota",
+            "Foreign Operations Administration",
+            "Seoul National University"
+          ],
+          "status": "VERIFIED",
+          "type": "education_aid_contract"
+        },
+        "digest": "217b848d85dfe4c674ad9c5e8b561875f4ffe551928b7c3967f3901bce7a5728",
+        "provenance": [
+          {
+            "path": "data/research/events/pass-126-ceb-rokaf-education-events.json",
+            "pointer": "/events/6"
+          },
+          {
+            "path": "data/research/events/pass-127-minnesota-ceb-governance-events.json",
+            "pointer": "/events/1"
+          }
+        ],
+        "fieldVariantCount": 2,
+        "fieldVariants": [
+          {
+            "fieldPath": "open_question",
+            "values": [
+              {
+                "value": "recover interim contract original and Korean counterpart signatures",
+                "provenance": [
+                  {
+                    "path": "data/research/events/pass-126-ceb-rokaf-education-events.json",
+                    "pointer": "/events/6"
+                  }
+                ]
+              },
+              {
+                "value": "recover interim contract original and any Korean concurrence/routing documents",
+                "provenance": [
+                  {
+                    "path": "data/research/events/pass-127-minnesota-ceb-governance-events.json",
+                    "pointer": "/events/1"
+                  }
+                ]
+              }
+            ],
+            "resolution": "PRESERVED_WITHOUT_CANONICAL_SCALAR_SELECTION"
+          },
+          {
+            "fieldPath": "status",
+            "values": [
+              {
+                "value": "INSTITUTIONAL_REPORT_VERIFIED_PENDING_ORIGINAL",
+                "provenance": [
+                  {
+                    "path": "data/research/events/pass-127-minnesota-ceb-governance-events.json",
+                    "pointer": "/events/1"
+                  }
+                ]
+              },
+              {
+                "value": "SECONDARY_VERIFIED_PENDING_ORIGINAL",
+                "provenance": [
+                  {
+                    "path": "data/research/events/pass-126-ceb-rokaf-education-events.json",
+                    "pointer": "/events/6"
+                  }
+                ]
+              }
+            ],
+            "resolution": "CONSERVATIVE_MINIMUM_RESEARCH_STATUS"
+          }
+        ],
+        "sourceVariantCount": 2
+      }
     },
     {
       "id": "evt-1954-09-05-schneider-chief-adviser-appointment",
@@ -23145,7 +24642,7 @@
     },
     {
       "id": "evt-1954-09-28-snu-minnesota-final-contract",
-      "integrationStatus": "CONFLICTED",
+      "integrationStatus": "SAFE_FIELDWISE_MERGE",
       "alternatives": [
         {
           "digest": "42c8d1a01f5a7acf8d3c6c2d386f3b97af3199bdaca7ce16c14ad9b43638ed95",
@@ -23223,7 +24720,145 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "safeMerge": {
+        "status": "SAFE_FIELDWISE_MERGE",
+        "mergePolicy": "SAME_STABLE_ID_AND_SHARED_IDENTITY_KEY; ADDITIVE_ARRAYS; AMBIGUOUS_SCALARS_OMITTED_WITH_PROVENANCE; CONSERVATIVE_STATUS; DATE_PRECISION_REFINED_ONLY_WITHIN_SAME_CALENDAR_POINT",
+        "identityBasis": {
+          "basis": "SAME_STABLE_EVENT_ID_AND_SHARED_NAME_OR_COMPATIBLE_DATE",
+          "identityKey": null,
+          "selectedDate": "1954-09-28",
+          "eventIdDate": "1954-09-28"
+        },
+        "data": {
+          "contract_value_usd": 1800000,
+          "date": "1954-09-28",
+          "evidence": [
+            "University of Minnesota Semi-Annual Progress Report",
+            "University of Minnesota Libraries archival project overview",
+            "KSP 2012 government study",
+            "University of Minnesota archival overview"
+          ],
+          "id": "evt-1954-09-28-snu-minnesota-final-contract",
+          "initial_term_years": 3,
+          "institutions": [
+            "University of Minnesota",
+            "Foreign Operations Administration",
+            "Seoul National University"
+          ],
+          "status": "DISCOVERED",
+          "type": "education_aid_contract"
+        },
+        "digest": "e321cf545b1ff0157e29bf95130107570ea2009e6115b77f0f51c5aef1910ad5",
+        "provenance": [
+          {
+            "path": "data/research/events/pass-126-ceb-rokaf-education-events.json",
+            "pointer": "/events/7"
+          },
+          {
+            "path": "data/research/events/pass-127-minnesota-ceb-governance-events.json",
+            "pointer": "/events/2"
+          },
+          {
+            "path": "data/research/events/pass-128-minnesota-korean-governance-events.json",
+            "pointer": "/events/4"
+          }
+        ],
+        "fieldVariantCount": 3,
+        "fieldVariants": [
+          {
+            "fieldPath": "attribution_note",
+            "values": [
+              {
+                "value": "KSP states that SNU and the University of Minnesota signed before FOA executed the prime contract on Sept.28. This materially changes the earlier caution that treated Korean signatories as wholly unproven, but the original pages are still required to identify individual signers, dates, capacities and whether the SNU signature belonged to the same instrument or an incorporated agreement.",
+                "provenance": [
+                  {
+                    "path": "data/research/events/pass-128-minnesota-korean-governance-events.json",
+                    "pointer": "/events/4"
+                  }
+                ]
+              },
+              {
+                "value": "The recovered institutional report states a three-year $1.8m contract was entered with FOA on Sept.28, 1954. The archival overview identifies the original in Clyde H. Bailey Papers, Box 1 Folder 1. Do not infer a Korean governmental signatory from the program beneficiary relationship.",
+                "provenance": [
+                  {
+                    "path": "data/research/events/pass-127-minnesota-ceb-governance-events.json",
+                    "pointer": "/events/2"
+                  }
+                ]
+              }
+            ],
+            "resolution": "PRESERVED_WITHOUT_CANONICAL_SCALAR_SELECTION"
+          },
+          {
+            "fieldPath": "open_question",
+            "values": [
+              {
+                "value": "recover complete contract, amendments and signature page; map Korean approval/concurrence separately",
+                "provenance": [
+                  {
+                    "path": "data/research/events/pass-127-minnesota-ceb-governance-events.json",
+                    "pointer": "/events/2"
+                  }
+                ]
+              },
+              {
+                "value": "recover complete prime contract and pre-FOA signature pages; compare with Sept.5 SNU-Minnesota instrument",
+                "provenance": [
+                  {
+                    "path": "data/research/events/pass-128-minnesota-korean-governance-events.json",
+                    "pointer": "/events/4"
+                  }
+                ]
+              },
+              {
+                "value": "recover final contract original, signatories, review chain and CEB/FOA authorization linkage",
+                "provenance": [
+                  {
+                    "path": "data/research/events/pass-126-ceb-rokaf-education-events.json",
+                    "pointer": "/events/7"
+                  }
+                ]
+              }
+            ],
+            "resolution": "PRESERVED_WITHOUT_CANONICAL_SCALAR_SELECTION"
+          },
+          {
+            "fieldPath": "status",
+            "values": [
+              {
+                "value": "INSTITUTIONAL_ARCHIVAL_VERIFIED_PENDING_SIGNATURE_PAGE",
+                "provenance": [
+                  {
+                    "path": "data/research/events/pass-127-minnesota-ceb-governance-events.json",
+                    "pointer": "/events/2"
+                  }
+                ]
+              },
+              {
+                "value": "NARROWED_PRE_SIGNATURE_SEQUENCE_PENDING_ORIGINAL",
+                "provenance": [
+                  {
+                    "path": "data/research/events/pass-128-minnesota-korean-governance-events.json",
+                    "pointer": "/events/4"
+                  }
+                ]
+              },
+              {
+                "value": "SECONDARY_PLUS_ARCHIVAL_CONTEXT_PENDING_ORIGINAL",
+                "provenance": [
+                  {
+                    "path": "data/research/events/pass-126-ceb-rokaf-education-events.json",
+                    "pointer": "/events/7"
+                  }
+                ]
+              }
+            ],
+            "resolution": "CONSERVATIVE_MINIMUM_RESEARCH_STATUS"
+          }
+        ],
+        "sourceVariantCount": 3
+      }
     },
     {
       "id": "evt-1954-09-pyun-nnsc-diplomatic-exchange",
@@ -23300,7 +24935,7 @@
     },
     {
       "id": "evt-1954-10-19-minnesota-project-korea-operations-start",
-      "integrationStatus": "CONFLICTED",
+      "integrationStatus": "SAFE_FIELDWISE_MERGE",
       "alternatives": [
         {
           "digest": "e196bbd64f55de017005f85bda182043a0d101094611243c8860d9dc570bcdaa",
@@ -23354,7 +24989,99 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "safeMerge": {
+        "status": "SAFE_FIELDWISE_MERGE",
+        "mergePolicy": "SAME_STABLE_ID_AND_SHARED_IDENTITY_KEY; ADDITIVE_ARRAYS; AMBIGUOUS_SCALARS_OMITTED_WITH_PROVENANCE; CONSERVATIVE_STATUS; DATE_PRECISION_REFINED_ONLY_WITHIN_SAME_CALENDAR_POINT",
+        "identityBasis": {
+          "basis": "SAME_STABLE_EVENT_ID_AND_SHARED_NAME_OR_COMPATIBLE_DATE",
+          "identityKey": null,
+          "selectedDate": "1954-10-19",
+          "eventIdDate": "1954-10-19"
+        },
+        "data": {
+          "date": "1954-10-19",
+          "evidence": [
+            "Seoul National University Archives IT-2018-06818",
+            "KSP 2012 Medical Professional Retraining Program study",
+            "University of Minnesota Semi-Annual Progress Report"
+          ],
+          "executed_by": [
+            "cand-arthur-e-schneider",
+            "University of Minnesota Chief Adviser in Korea"
+          ],
+          "id": "evt-1954-10-19-minnesota-project-korea-operations-start",
+          "institutions": [
+            "University of Minnesota",
+            "Seoul National University"
+          ],
+          "status": "VERIFIED",
+          "type": "education_aid_execution"
+        },
+        "digest": "ff896d83bc81206912b40e0a97081de0ae47da777795da1d3d7daf687ca377c8",
+        "provenance": [
+          {
+            "path": "data/research/events/pass-127-minnesota-ceb-governance-events.json",
+            "pointer": "/events/3"
+          },
+          {
+            "path": "data/research/events/pass-128-minnesota-korean-governance-events.json",
+            "pointer": "/events/2"
+          }
+        ],
+        "fieldVariantCount": 2,
+        "fieldVariants": [
+          {
+            "fieldPath": "attribution_note",
+            "values": [
+              {
+                "value": "Pass 128 closes the Pass 127 actor-identification gap: Schneider is the chief adviser whose arrival marks Korean operations. Korean receiving/approval actions remain separate questions.",
+                "provenance": [
+                  {
+                    "path": "data/research/events/pass-128-minnesota-korean-governance-events.json",
+                    "pointer": "/events/2"
+                  }
+                ]
+              },
+              {
+                "value": "The institutional report dates Korea operations from arrival of the Chief Adviser; identify the individual and Korean receiving/implementing chain from contemporaneous files.",
+                "provenance": [
+                  {
+                    "path": "data/research/events/pass-127-minnesota-ceb-governance-events.json",
+                    "pointer": "/events/3"
+                  }
+                ]
+              }
+            ],
+            "resolution": "PRESERVED_WITHOUT_CANONICAL_SCALAR_SELECTION"
+          },
+          {
+            "fieldPath": "status",
+            "values": [
+              {
+                "value": "VERIFIED",
+                "provenance": [
+                  {
+                    "path": "data/research/events/pass-127-minnesota-ceb-governance-events.json",
+                    "pointer": "/events/3"
+                  }
+                ]
+              },
+              {
+                "value": "VERIFIED_ACTOR_AND_DATE",
+                "provenance": [
+                  {
+                    "path": "data/research/events/pass-128-minnesota-korean-governance-events.json",
+                    "pointer": "/events/2"
+                  }
+                ]
+              }
+            ],
+            "resolution": "CONSERVATIVE_MINIMUM_RESEARCH_STATUS"
+          }
+        ],
+        "sourceVariantCount": 2
+      }
     },
     {
       "id": "evt-1954-11-09-rok-approval-minnesota-reallocation",
@@ -24147,7 +25874,11 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "mergeReview": {
+        "status": "BLOCKED",
+        "reason": "CONFLICTING_EVENT_DATES"
+      }
     },
     {
       "id": "evt-1954-rounding-off-amendment",
@@ -24740,7 +26471,7 @@
     },
     {
       "id": "evt-1956-01-veterinary-equipment-request",
-      "integrationStatus": "CONFLICTED",
+      "integrationStatus": "SAFE_FIELDWISE_MERGE",
       "alternatives": [
         {
           "digest": "88585a153d5f8ec9751ee1130e65b0fc265c138f482a78f493f006cab8353511",
@@ -24789,7 +26520,101 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "safeMerge": {
+        "status": "SAFE_FIELDWISE_MERGE",
+        "mergePolicy": "SAME_STABLE_ID_AND_SHARED_IDENTITY_KEY; ADDITIVE_ARRAYS; AMBIGUOUS_SCALARS_OMITTED_WITH_PROVENANCE; CONSERVATIVE_STATUS; DATE_PRECISION_REFINED_ONLY_WITHIN_SAME_CALENDAR_POINT",
+        "identityBasis": {
+          "basis": "SAME_STABLE_EVENT_ID_AND_SHARED_NAME_OR_COMPATIBLE_DATE",
+          "identityKey": null,
+          "selectedDate": "1956-01",
+          "eventIdDate": null
+        },
+        "data": {
+          "date": "1956-01",
+          "evidence": "SNU Archives Oh Soon-sup authority record",
+          "id": "evt-1956-01-veterinary-equipment-request",
+          "later_result": "SNU Archives authority description reports support valued at $35,619",
+          "open_question": "recover request, line-item list, approval document and funding source/account",
+          "proposed_by": [
+            "cand-oh-soon-sup"
+          ],
+          "received_by": [
+            "cand-arthur-e-schneider"
+          ],
+          "recipient": "Arthur E. Schneider",
+          "reported_support_usd": 35619,
+          "request": "250 categories/items of veterinary educational and research equipment",
+          "requested_by": [
+            "cand-oh-soon-sup"
+          ],
+          "status": "VERIFIED",
+          "subject": "250-item veterinary education/research equipment list"
+        },
+        "digest": "393ad133ed95f8b81b32b510707dbaa8fcb9ca2d8807b4f79fcab431352e1b6d",
+        "provenance": [
+          {
+            "path": "data/research/events/pass-128-minnesota-expansion-events.json",
+            "pointer": "/events/1"
+          },
+          {
+            "path": "data/research/events/pass-129-minnesota-scope-change-events.json",
+            "pointer": "/events/6"
+          }
+        ],
+        "fieldVariantCount": 2,
+        "fieldVariants": [
+          {
+            "fieldPath": "status",
+            "values": [
+              {
+                "value": "INSTITUTIONAL_ARCHIVE_VERIFIED_PENDING_ORIGINAL_REQUEST",
+                "provenance": [
+                  {
+                    "path": "data/research/events/pass-128-minnesota-expansion-events.json",
+                    "pointer": "/events/1"
+                  }
+                ]
+              },
+              {
+                "value": "INSTITUTIONAL_BIOGRAPHY_VERIFIED_ORIGINAL_LIST_AND_LEDGER_OPEN",
+                "provenance": [
+                  {
+                    "path": "data/research/events/pass-129-minnesota-scope-change-events.json",
+                    "pointer": "/events/6"
+                  }
+                ]
+              }
+            ],
+            "resolution": "CONSERVATIVE_MINIMUM_RESEARCH_STATUS"
+          },
+          {
+            "fieldPath": "type",
+            "values": [
+              {
+                "value": "education_aid_equipment_request",
+                "provenance": [
+                  {
+                    "path": "data/research/events/pass-128-minnesota-expansion-events.json",
+                    "pointer": "/events/1"
+                  }
+                ]
+              },
+              {
+                "value": "education_aid_procurement_request",
+                "provenance": [
+                  {
+                    "path": "data/research/events/pass-129-minnesota-scope-change-events.json",
+                    "pointer": "/events/6"
+                  }
+                ]
+              }
+            ],
+            "resolution": "PRESERVED_WITHOUT_CANONICAL_SCALAR_SELECTION"
+          }
+        ],
+        "sourceVariantCount": 2
+      }
     },
     {
       "id": "evt-1956-0526-kim-jong-won-police-chief",
@@ -25194,7 +27019,7 @@
     },
     {
       "id": "evt-1956-presidential-election",
-      "integrationStatus": "CONFLICTED",
+      "integrationStatus": "SAFE_FIELDWISE_MERGE",
       "alternatives": [
         {
           "digest": "96fbd72d750550084cf7a84efb02c2e775668a9b7e5a4c143570e3b6624c60fd",
@@ -25247,7 +27072,60 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "safeMerge": {
+        "status": "SAFE_FIELDWISE_MERGE",
+        "mergePolicy": "SAME_STABLE_ID_AND_SHARED_IDENTITY_KEY; ADDITIVE_ARRAYS; AMBIGUOUS_SCALARS_OMITTED_WITH_PROVENANCE; CONSERVATIVE_STATUS; DATE_PRECISION_REFINED_ONLY_WITHIN_SAME_CALENDAR_POINT",
+        "identityBasis": {
+          "basis": "SAME_STABLE_EVENT_ID_AND_SHARED_NAME_OR_COMPATIBLE_DATE",
+          "identityKey": "1956제3대정부통령선거",
+          "selectedDate": "1956-05-15",
+          "eventIdDate": null
+        },
+        "data": {
+          "actions": [
+            "후보등록·선거운동",
+            "신익희 사망",
+            "1956-05-15 투표",
+            "공식 득표 집계"
+          ],
+          "candidates": [
+            "pol-rhee-syngman",
+            "pol-chang-myon"
+          ],
+          "date": "1956-05-15",
+          "documents": [
+            "doc-frus-1956-election-editorial",
+            "doc-frus-1956-country-review"
+          ],
+          "domain": [
+            "election",
+            "party politics"
+          ],
+          "id": "evt-1956-presidential-election",
+          "name": "1956 제3대 정부통령 선거",
+          "observedBy": "국사편찬위원회 대한민국사연표",
+          "observed_by": [
+            "U.S. Embassy",
+            "ROK election authorities"
+          ],
+          "uncertainty": "Official Korean precinct totals should be linked from election authority originals."
+        },
+        "digest": "4dd2eb9fe66e278b9aab3e0485715fd8fa3b7ae100cb833e9213e817738da2fd",
+        "provenance": [
+          {
+            "path": "data/events/run11-rhee-statecraft-events.json",
+            "pointer": "/events/4"
+          },
+          {
+            "path": "data/research/runs/2026-10-03-run9-1954-1959-institutional-depth.json",
+            "pointer": "/events/1"
+          }
+        ],
+        "fieldVariantCount": 0,
+        "fieldVariants": [],
+        "sourceVariantCount": 2
+      }
     },
     {
       "id": "evt-1956-progressive-party-founding",
@@ -25895,7 +27773,7 @@
     },
     {
       "id": "evt-1958-1224-security-localgov-package",
-      "integrationStatus": "CONFLICTED",
+      "integrationStatus": "SAFE_FIELDWISE_MERGE",
       "alternatives": [
         {
           "digest": "14addb5b37bbc08512526acf29ed07b6d1e50b1c07df4ee98ba5575c0b45d3f3",
@@ -25959,7 +27837,91 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "safeMerge": {
+        "status": "SAFE_FIELDWISE_MERGE",
+        "mergePolicy": "SAME_STABLE_ID_AND_SHARED_IDENTITY_KEY; ADDITIVE_ARRAYS; AMBIGUOUS_SCALARS_OMITTED_WITH_PROVENANCE; CONSERVATIVE_STATUS; DATE_PRECISION_REFINED_ONLY_WITHIN_SAME_CALENDAR_POINT",
+        "identityBasis": {
+          "basis": "SAME_STABLE_EVENT_ID_AND_SHARED_NAME_OR_COMPATIBLE_DATE",
+          "identityKey": "19581224국가보안법지방자치법등강행처리",
+          "selectedDate": null,
+          "eventIdDate": null
+        },
+        "data": {
+          "actions": [
+            "야당 농성",
+            "한희석 경위권 행사",
+            "경찰 투입·야당의원 축출",
+            "여당 단독 법안 처리",
+            "국회 경위의 경찰 증원",
+            "야당의원 강제축출·구금",
+            "국가보안법 128-0 처리",
+            "지방자치법 128-0 처리",
+            "참의원 설치 연기",
+            "예산 심의"
+          ],
+          "executedBy": [
+            "국회 경위",
+            "동원 경찰"
+          ],
+          "executed_by": [
+            "국회 경위",
+            "경찰",
+            "자유당 의원"
+          ],
+          "id": "evt-1958-1224-security-localgov-package",
+          "name": "1958-12-24 국가보안법·지방자치법 등 강행 처리",
+          "observed_by": [
+            "주한미국대사관",
+            "동시대 언론"
+          ],
+          "opposedBy": [
+            "민주당 등 야당"
+          ],
+          "presidedBy": [
+            "한희석"
+          ]
+        },
+        "digest": "b7d6e4f9222f1c88917ab3f1f0a73a81441409a4224d4152fcc561ef76aa7cb8",
+        "provenance": [
+          {
+            "path": "data/research/runs/2026-10-03-run10-1958-1959-command-chain-deepening.json",
+            "pointer": "/events/1"
+          },
+          {
+            "path": "data/research/runs/2026-10-03-run9-1954-1959-institutional-depth.json",
+            "pointer": "/events/5"
+          }
+        ],
+        "fieldVariantCount": 1,
+        "fieldVariants": [
+          {
+            "fieldPath": "openQuestion",
+            "values": [
+              {
+                "value": "경찰 차출을 지시한 내무부/치안국 문서와 경무대 사전협의 여부",
+                "provenance": [
+                  {
+                    "path": "data/research/runs/2026-10-03-run9-1954-1959-institutional-depth.json",
+                    "pointer": "/events/5"
+                  }
+                ]
+              },
+              {
+                "value": "경찰지원 요청·차출 명령의 발신자와 내무부/치안국/경무대 사전협의",
+                "provenance": [
+                  {
+                    "path": "data/research/runs/2026-10-03-run10-1958-1959-command-chain-deepening.json",
+                    "pointer": "/events/1"
+                  }
+                ]
+              }
+            ],
+            "resolution": "PRESERVED_WITHOUT_CANONICAL_SCALAR_SELECTION"
+          }
+        ],
+        "sourceVariantCount": 2
+      }
     },
     {
       "id": "evt-1958-59-progressive-party-case",
@@ -26027,7 +27989,11 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "mergeReview": {
+        "status": "BLOCKED",
+        "reason": "CONFLICTING_EVENT_DATES"
+      }
     },
     {
       "id": "evt-1958-59-progressive-party-judicial-chain",
@@ -26170,7 +28136,11 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "mergeReview": {
+        "status": "BLOCKED",
+        "reason": "NO_COMMON_EVENT_NAME_OR_COMPATIBLE_DATE"
+      }
     },
     {
       "id": "evt-1958-education-finance-institutions",
@@ -26841,7 +28811,11 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "mergeReview": {
+        "status": "BLOCKED",
+        "reason": "NO_COMMON_EVENT_NAME_OR_COMPATIBLE_DATE"
+      }
     },
     {
       "id": "evt-1958-progressive-party-investigation",
@@ -26892,7 +28866,11 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "mergeReview": {
+        "status": "BLOCKED",
+        "reason": "NO_COMMON_EVENT_NAME_OR_COMPATIBLE_DATE"
+      }
     },
     {
       "id": "evt-1958-progressive-party-trial",
@@ -27033,7 +29011,11 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "mergeReview": {
+        "status": "BLOCKED",
+        "reason": "NO_COMMON_EVENT_NAME_OR_COMPATIBLE_DATE"
+      }
     },
     {
       "id": "evt-1959-01-13-decree-1429",
@@ -27129,7 +29111,7 @@
     },
     {
       "id": "evt-1959-01-13-snu-nursing-department-approval",
-      "integrationStatus": "CONFLICTED",
+      "integrationStatus": "SAFE_FIELDWISE_MERGE",
       "alternatives": [
         {
           "digest": "a97dc850ddfee428baa17b2461d793013579ac3cd66c4717ae5ea6c8d69b840e",
@@ -27201,7 +29183,76 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "safeMerge": {
+        "status": "SAFE_FIELDWISE_MERGE",
+        "mergePolicy": "SAME_STABLE_ID_AND_SHARED_IDENTITY_KEY; ADDITIVE_ARRAYS; AMBIGUOUS_SCALARS_OMITTED_WITH_PROVENANCE; CONSERVATIVE_STATUS; DATE_PRECISION_REFINED_ONLY_WITHIN_SAME_CALENDAR_POINT",
+        "identityBasis": {
+          "basis": "SAME_STABLE_EVENT_ID_AND_SHARED_NAME_OR_COMPATIBLE_DATE",
+          "identityKey": null,
+          "selectedDate": "1959-01-13",
+          "eventIdDate": "1959-01-13"
+        },
+        "data": {
+          "action": "official establishment of the four-year Department of Nursing",
+          "approved_by": [
+            "pol-syngman-rhee"
+          ],
+          "attribution_note": "The Minnesota report explicitly attributes official establishment to President Rhee's approval. It does not establish personal policy authorship or the internal Ministry/cabinet drafting chain.",
+          "date": "1959-01-13",
+          "decided_by": [
+            "formal presidential approval reported contemporaneously by Minnesota nursing adviser"
+          ],
+          "domain": [
+            "education",
+            "health",
+            "administration"
+          ],
+          "executed_by": [
+            "서울대학교",
+            "문교부"
+          ],
+          "id": "evt-1959-01-13-snu-nursing-department-approval",
+          "institution": "Seoul National University College of Medicine",
+          "later_corroboration": [
+            "SNU College of Nursing official chronology records 1959 conversion to a four-year nursing department",
+            "SNU Archives chronology records March 1959 elevation"
+          ],
+          "later_finding": "SNU official timeline independently dates the new nursing department to 1959-01-13, alongside nine other departmental additions.",
+          "legal_authority": "Korean administrative/legal instrument not yet recovered",
+          "observed_by": [
+            "University of Minnesota nursing-adviser final report",
+            "SNU official timeline",
+            "University of Minnesota nursing adviser final report"
+          ],
+          "open_questions": [
+            "whether same legal instrument as the National School Establishment Order revision",
+            "proposal author",
+            "cabinet/ministry routing",
+            "scope of Rhee's substantive involvement"
+          ],
+          "proposed_by": [
+            "OPEN: SNU College of Medicine / nursing-school proposal chain"
+          ],
+          "status": "CONTEMPORANEOUS_APPROVAL_REPORT_VERIFIED_KOREAN_INSTRUMENT_OPEN",
+          "title": "서울대학교 간호학과 신설 승인",
+          "type": "higher_education_institutional_reform"
+        },
+        "digest": "073e8d2625ffc9986f8a303007efa184e376b367b3863ba171169776c138b328",
+        "provenance": [
+          {
+            "path": "data/research/events/pass-130-minnesota-nursing-public-admin-events.json",
+            "pointer": "/events/0"
+          },
+          {
+            "path": "data/research/events/pass-131-snu-1959-legal-routing-events.json",
+            "pointer": "/events/2"
+          }
+        ],
+        "fieldVariantCount": 0,
+        "fieldVariants": [],
+        "sourceVariantCount": 2
+      }
     },
     {
       "id": "evt-1959-01-snu-gspa-establishment",
@@ -27784,7 +29835,7 @@
     },
     {
       "id": "evt-1959-kyunghyang-closure",
-      "integrationStatus": "CONFLICTED",
+      "integrationStatus": "SAFE_FIELDWISE_MERGE",
       "alternatives": [
         {
           "digest": "572d1d02c8b0270d4c2a344cf1166afc563e526fea701f181c9e374df72f2690",
@@ -27838,11 +29889,65 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "safeMerge": {
+        "status": "SAFE_FIELDWISE_MERGE",
+        "mergePolicy": "SAME_STABLE_ID_AND_SHARED_IDENTITY_KEY; ADDITIVE_ARRAYS; AMBIGUOUS_SCALARS_OMITTED_WITH_PROVENANCE; CONSERVATIVE_STATUS; DATE_PRECISION_REFINED_ONLY_WITHIN_SAME_CALENDAR_POINT",
+        "identityBasis": {
+          "basis": "SAME_STABLE_EVENT_ID_AND_SHARED_NAME_OR_COMPATIBLE_DATE",
+          "identityKey": "경향신문발행허가취소",
+          "selectedDate": "1959-04-30",
+          "eventIdDate": null
+        },
+        "data": {
+          "actions": [
+            {
+              "date": "1959-04-30",
+              "type": "administrative_action",
+              "actors": [],
+              "action": "공보실이 군정법령 88호를 근거로 발행허가 취소 통지서 송달, 5개 사유 제시",
+              "documents": [
+                "HISTORYDB-tcct_1959_04_30_0010"
+              ]
+            }
+          ],
+          "date": "1959-04-30",
+          "documents": [
+            "FRUS:1958-60v18-d288"
+          ],
+          "evidenceState": "NARROWED",
+          "id": "evt-1959-kyunghyang-closure",
+          "name": "경향신문 발행허가 취소",
+          "open": "공보실-국무회의-경무대 결재선",
+          "openQuestions": [
+            "공보실 내부 결재선과 경무대·대통령 지시 원문"
+          ],
+          "roles": {
+            "executed_by": "ROK public information authorities; canonical domestic chain remains OPEN",
+            "later_observed_by": [
+              "US Department of State"
+            ]
+          }
+        },
+        "digest": "872634a025cd57377677ad1ed3a6f25cd686f6f36a2893e5d32e4a0bc648d631",
+        "provenance": [
+          {
+            "path": "data/events/pass318-rhee-events.json",
+            "pointer": "/events/8"
+          },
+          {
+            "path": "data/research/graph-patches/pass-280-politician-event-graph.json",
+            "pointer": "/events/9"
+          }
+        ],
+        "fieldVariantCount": 0,
+        "fieldVariants": [],
+        "sourceVariantCount": 2
+      }
     },
     {
       "id": "evt-1959-kyunghyang-license-revocation",
-      "integrationStatus": "CONFLICTED",
+      "integrationStatus": "SAFE_FIELDWISE_MERGE",
       "alternatives": [
         {
           "digest": "14c5519c5e56accee569b24fbbe5e7e89a72630adfd6b6c4a6c7c92f4bdf17c4",
@@ -27905,7 +30010,84 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "safeMerge": {
+        "status": "SAFE_FIELDWISE_MERGE",
+        "mergePolicy": "SAME_STABLE_ID_AND_SHARED_IDENTITY_KEY; ADDITIVE_ARRAYS; AMBIGUOUS_SCALARS_OMITTED_WITH_PROVENANCE; CONSERVATIVE_STATUS; DATE_PRECISION_REFINED_ONLY_WITHIN_SAME_CALENDAR_POINT",
+        "identityBasis": {
+          "basis": "SAME_STABLE_EVENT_ID_AND_SHARED_NAME_OR_COMPATIBLE_DATE",
+          "identityKey": null,
+          "selectedDate": "1959-04-30",
+          "eventIdDate": null
+        },
+        "data": {
+          "dateRange": "1959-04-30",
+          "decided_by": [
+            "대한민국 정부; 대통령 개인 결재 미확인",
+            "정부·공보실 계통"
+          ],
+          "documents": [
+            "doc-historydb-1959-0430-kyunghyang"
+          ],
+          "executed_by": [
+            "공보실"
+          ],
+          "id": "evt-1959-kyunghyang-license-revocation",
+          "legal_authority": [
+            "군정법령 제88호"
+          ],
+          "observed_by": [
+            "동아일보 동시대 보도/한국사DB"
+          ],
+          "open": "취소 통지서 서명자·내부 결재선·대통령 관여",
+          "opposed_by": [
+            "경향신문 및 언론계"
+          ],
+          "proposed_by": [
+            "공보실/정부"
+          ],
+          "uncertainty": "HD-RHEE-008 유지"
+        },
+        "digest": "82f976c7765c946eb9944631e0b85b04d8044dd694372a048d803ca527921130",
+        "provenance": [
+          {
+            "path": "data/research/events/2026-10-04-rhee-event-actions.json",
+            "pointer": "/events/8"
+          },
+          {
+            "path": "data/research/passes/pass-282-domestic-legislative-localgov-press.json",
+            "pointer": "/events/2"
+          }
+        ],
+        "fieldVariantCount": 1,
+        "fieldVariants": [
+          {
+            "fieldPath": "title",
+            "values": [
+              {
+                "value": "1959 경향신문 발행허가 취소",
+                "provenance": [
+                  {
+                    "path": "data/research/passes/pass-282-domestic-legislative-localgov-press.json",
+                    "pointer": "/events/2"
+                  }
+                ]
+              },
+              {
+                "value": "경향신문 발행허가 취소",
+                "provenance": [
+                  {
+                    "path": "data/research/events/2026-10-04-rhee-event-actions.json",
+                    "pointer": "/events/8"
+                  }
+                ]
+              }
+            ],
+            "resolution": "PRESERVED_WITHOUT_CANONICAL_SCALAR_SELECTION"
+          }
+        ],
+        "sourceVariantCount": 2
+      }
     },
     {
       "id": "evt-1959-kyunghyang-press-case",
@@ -27966,7 +30148,11 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "mergeReview": {
+        "status": "BLOCKED",
+        "reason": "NO_COMMON_EVENT_NAME_OR_COMPATIBLE_DATE"
+      }
     },
     {
       "id": "evt-1959-liberal-party-convention",
@@ -28101,7 +30287,11 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "mergeReview": {
+        "status": "BLOCKED",
+        "reason": "CONFLICTING_EVENT_DATES"
+      }
     },
     {
       "id": "evt-1959-snu-public-health-implementation",
@@ -28788,7 +30978,7 @@
     },
     {
       "id": "evt-1960-formal-resignation",
-      "integrationStatus": "CONFLICTED",
+      "integrationStatus": "SAFE_FIELDWISE_MERGE",
       "alternatives": [
         {
           "digest": "6676881aa7ade74d4d4971be3ad07f7358b104032f757ec5971801d2b211a8eb",
@@ -28849,7 +31039,112 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "safeMerge": {
+        "status": "SAFE_FIELDWISE_MERGE",
+        "mergePolicy": "SAME_STABLE_ID_AND_SHARED_IDENTITY_KEY; ADDITIVE_ARRAYS; AMBIGUOUS_SCALARS_OMITTED_WITH_PROVENANCE; CONSERVATIVE_STATUS; DATE_PRECISION_REFINED_ONLY_WITHIN_SAME_CALENDAR_POINT",
+        "identityBasis": {
+          "basis": "SAME_STABLE_EVENT_ID_AND_SHARED_NAME_OR_COMPATIBLE_DATE",
+          "identityKey": null,
+          "selectedDate": "1960-04-27",
+          "eventIdDate": null
+        },
+        "data": {
+          "date": "1960-04-27",
+          "decidedBy": [
+            "이승만"
+          ],
+          "decided_by": [
+            "Syngman Rhee"
+          ],
+          "documents": [
+            "doc-frus-1960-310-p182",
+            "doc-frus-1960-311-p182"
+          ],
+          "evidence": [
+            "doc-rhee-resignation-pa-19600427-p183"
+          ],
+          "id": "evt-1960-formal-resignation",
+          "legalPoliticalTrigger": [
+            "국회의 결의"
+          ],
+          "observedBy": [
+            "대통령기록관 PBA0000001"
+          ],
+          "observed_by": [
+            "US Embassy Seoul",
+            "US Department of State"
+          ],
+          "status": "VERIFIED_EXTERNAL_NEEDS_KOREAN_ORIGINAL",
+          "triggered_by": [
+            "evt-1960-na-resignation-resolution",
+            "April protest movement"
+          ]
+        },
+        "digest": "d26dca1d9ea080eb5c6f6239cc83082ea85d00c8d13a0c0d4fdc6295cd26c56e",
+        "provenance": [
+          {
+            "path": "data/research/events/2026-10-04-pass182-law-constitutional-actions.json",
+            "pointer": "/events/6"
+          },
+          {
+            "path": "data/research/events/2026-10-04-pass183-land-election-transition-actions.json",
+            "pointer": "/events/8"
+          }
+        ],
+        "fieldVariantCount": 2,
+        "fieldVariants": [
+          {
+            "fieldPath": "note",
+            "values": [
+              {
+                "value": "4월26일 정치적 하야 발표/국회 결의와 4월27일 formal submission을 별도 action으로 유지한다.",
+                "provenance": [
+                  {
+                    "path": "data/research/events/2026-10-04-pass182-law-constitutional-actions.json",
+                    "pointer": "/events/6"
+                  }
+                ]
+              },
+              {
+                "value": "사임서 문언상 국회 결의를 존중한다고 명시.",
+                "provenance": [
+                  {
+                    "path": "data/research/events/2026-10-04-pass183-land-election-transition-actions.json",
+                    "pointer": "/events/8"
+                  }
+                ]
+              }
+            ],
+            "resolution": "PRESERVED_WITHOUT_CANONICAL_SCALAR_SELECTION"
+          },
+          {
+            "fieldPath": "title",
+            "values": [
+              {
+                "value": "이승만 정식 대통령 사임서",
+                "provenance": [
+                  {
+                    "path": "data/research/events/2026-10-04-pass183-land-election-transition-actions.json",
+                    "pointer": "/events/8"
+                  }
+                ]
+              },
+              {
+                "value": "이승만 정식 사임서 제출",
+                "provenance": [
+                  {
+                    "path": "data/research/events/2026-10-04-pass182-law-constitutional-actions.json",
+                    "pointer": "/events/6"
+                  }
+                ]
+              }
+            ],
+            "resolution": "PRESERVED_WITHOUT_CANONICAL_SCALAR_SELECTION"
+          }
+        ],
+        "sourceVariantCount": 2
+      }
     },
     {
       "id": "evt-1960-huh-caretaker",
@@ -30110,7 +32405,7 @@
     },
     {
       "id": "evt-cand-19520615-panikkar-zhou-options",
-      "integrationStatus": "CONFLICTED",
+      "integrationStatus": "SAFE_FIELDWISE_MERGE",
       "alternatives": [
         {
           "digest": "d4e56d62a6e253d703a9bbb7ba4a8f0cb6b6414de0d27d08e8f59d1fc9742cf1",
@@ -30156,11 +32451,47 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "safeMerge": {
+        "status": "SAFE_FIELDWISE_MERGE",
+        "mergePolicy": "SAME_STABLE_ID_AND_SHARED_IDENTITY_KEY; ADDITIVE_ARRAYS; AMBIGUOUS_SCALARS_OMITTED_WITH_PROVENANCE; CONSERVATIVE_STATUS; DATE_PRECISION_REFINED_ONLY_WITHIN_SAME_CALENDAR_POINT",
+        "identityBasis": {
+          "basis": "SAME_STABLE_EVENT_ID_AND_SHARED_NAME_OR_COMPATIBLE_DATE",
+          "identityKey": null,
+          "selectedDate": "1952-06-15",
+          "eventIdDate": null
+        },
+        "data": {
+          "central_sync_date": "2026-11-20",
+          "date": "1952-06-15",
+          "documentIds": [
+            "DOC-FRUS-1952-XV1-181"
+          ],
+          "id": "evt-cand-19520615-panikkar-zhou-options",
+          "proposedBy": "Zhou Enlai (attributed, indirect)",
+          "provenance_overlay": "data/research/graphs/2026-11-12-1916-frus181-182-overlay.json",
+          "reportedBy": "McClurkin via Greenhill via Panikkar",
+          "verification_limit": "US diplomatic original-origin transcript only; Korean or PRC independent primary corroboration pending"
+        },
+        "digest": "b048ba4a1438316cac07ca929a5775495a370f56ffb81b2da80e7b8b09060b10",
+        "provenance": [
+          {
+            "path": "data/events/pass-229-1952-cabinet-economy-trial.json",
+            "pointer": "/events/12"
+          },
+          {
+            "path": "data/research/graphs/2026-11-12-1916-frus181-182-overlay.json",
+            "pointer": "/events/0"
+          }
+        ],
+        "fieldVariantCount": 0,
+        "fieldVariants": [],
+        "sourceVariantCount": 2
+      }
     },
     {
       "id": "evt-cand-19520618-muccio-contingency-conditions",
-      "integrationStatus": "CONFLICTED",
+      "integrationStatus": "SAFE_FIELDWISE_MERGE",
       "alternatives": [
         {
           "digest": "8aa7885a4c40f76fc635a7951346457e716cfa782de998b9d0535ae30dd75c62",
@@ -30206,7 +32537,43 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "safeMerge": {
+        "status": "SAFE_FIELDWISE_MERGE",
+        "mergePolicy": "SAME_STABLE_ID_AND_SHARED_IDENTITY_KEY; ADDITIVE_ARRAYS; AMBIGUOUS_SCALARS_OMITTED_WITH_PROVENANCE; CONSERVATIVE_STATUS; DATE_PRECISION_REFINED_ONLY_WITHIN_SAME_CALENDAR_POINT",
+        "identityBasis": {
+          "basis": "SAME_STABLE_EVENT_ID_AND_SHARED_NAME_OR_COMPATIBLE_DATE",
+          "identityKey": null,
+          "selectedDate": "1952-06-18",
+          "eventIdDate": null
+        },
+        "data": {
+          "central_sync_date": "2026-11-20",
+          "date": "1952-06-18",
+          "documentIds": [
+            "DOC-FRUS-1952-XV1-182"
+          ],
+          "id": "evt-cand-19520618-muccio-contingency-conditions",
+          "legalAuthority": "Requires explicit Washington and Unified Command authorization, not established",
+          "proposedBy": "John Muccio",
+          "provenance_overlay": "data/research/graphs/2026-11-12-1916-frus181-182-overlay.json",
+          "verification_limit": "US diplomatic original-origin transcript only; Korean or PRC independent primary corroboration pending"
+        },
+        "digest": "b0143ac70392b3194eafe9f8cf821bee25b4935902056bea2e41c3ad655c5e63",
+        "provenance": [
+          {
+            "path": "data/events/pass-229-1952-cabinet-economy-trial.json",
+            "pointer": "/events/13"
+          },
+          {
+            "path": "data/research/graphs/2026-11-12-1916-frus181-182-overlay.json",
+            "pointer": "/events/1"
+          }
+        ],
+        "fieldVariantCount": 0,
+        "fieldVariants": [],
+        "sourceVariantCount": 2
+      }
     },
     {
       "id": "evt-cand-1959-im-heungsun-mayoral-term",
@@ -31027,7 +33394,7 @@
     },
     {
       "id": "evt-cand-assembly-antimin-feb17-response",
-      "integrationStatus": "CONFLICTED",
+      "integrationStatus": "SAFE_FIELDWISE_MERGE",
       "alternatives": [
         {
           "digest": "8d762d35f68cc62b00c2dfa75eb98d9d90a1c296e9dc54200aad2deb53df95bb",
@@ -31086,11 +33453,105 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "safeMerge": {
+        "status": "SAFE_FIELDWISE_MERGE",
+        "mergePolicy": "SAME_STABLE_ID_AND_SHARED_IDENTITY_KEY; ADDITIVE_ARRAYS; AMBIGUOUS_SCALARS_OMITTED_WITH_PROVENANCE; CONSERVATIVE_STATUS; DATE_PRECISION_REFINED_ONLY_WITHIN_SAME_CALENDAR_POINT",
+        "identityBasis": {
+          "basis": "SAME_STABLE_EVENT_ID_AND_SHARED_NAME_OR_COMPATIBLE_DATE",
+          "identityKey": null,
+          "selectedDate": "1949-02-17",
+          "eventIdDate": null
+        },
+        "data": {
+          "date": "1949-02-17",
+          "decided_by": [
+            "제헌국회"
+          ],
+          "evidence": [
+            "DOC-P180-01",
+            "DOC-P181-04"
+          ],
+          "id": "evt-cand-assembly-antimin-feb17-response",
+          "observed_by": [
+            "김상덕 위원장 보고"
+          ],
+          "opposed_by": [
+            "대통령 담화 취지"
+          ],
+          "proposed_by": [
+            "OPEN"
+          ],
+          "state": "VERIFIED_PARTIAL"
+        },
+        "digest": "e7a9e75376fdb458c9a9cd9ea42d5e33eb8293fcdcc0b5cbe706e1c33d9fc9c6",
+        "provenance": [
+          {
+            "path": "data/research/events/pass-180-antimin-institutional-events.json",
+            "pointer": "/events/5"
+          },
+          {
+            "path": "data/research/events/pass-181-antimin-counteraction-events.json",
+            "pointer": "/events/2"
+          }
+        ],
+        "fieldVariantCount": 2,
+        "fieldVariants": [
+          {
+            "fieldPath": "name",
+            "values": [
+              {
+                "value": "국회의 대통령 담화 취소요구와 김상덕 보고",
+                "provenance": [
+                  {
+                    "path": "data/research/events/pass-181-antimin-counteraction-events.json",
+                    "pointer": "/events/2"
+                  }
+                ]
+              },
+              {
+                "value": "국회의 대통령 반민특위 담화 취소요구 동의",
+                "provenance": [
+                  {
+                    "path": "data/research/events/pass-180-antimin-institutional-events.json",
+                    "pointer": "/events/5"
+                  }
+                ]
+              }
+            ],
+            "resolution": "PRESERVED_WITHOUT_CANONICAL_NAME_SELECTION"
+          },
+          {
+            "fieldPath": "open_question",
+            "values": [
+              {
+                "value": "동의안 제안자·토론자와 6-7면 보고 전문 직접 회수",
+                "provenance": [
+                  {
+                    "path": "data/research/events/pass-181-antimin-counteraction-events.json",
+                    "pointer": "/events/2"
+                  }
+                ]
+              },
+              {
+                "value": "제33차 속기록에서 제안자·토론자·정확한 표결 명단 여부 확인",
+                "provenance": [
+                  {
+                    "path": "data/research/events/pass-180-antimin-institutional-events.json",
+                    "pointer": "/events/5"
+                  }
+                ]
+              }
+            ],
+            "resolution": "PRESERVED_WITHOUT_CANONICAL_SCALAR_SELECTION"
+          }
+        ],
+        "sourceVariantCount": 2
+      }
     },
     {
       "id": "evt-cand-government-antimin-amendment",
-      "integrationStatus": "CONFLICTED",
+      "integrationStatus": "SAFE_FIELDWISE_MERGE",
       "alternatives": [
         {
           "digest": "84258d999c0459c085c241a1a4ee45360aac61d12683da27f4fcacb3d12591a0",
@@ -31149,7 +33610,124 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "safeMerge": {
+        "status": "SAFE_FIELDWISE_MERGE",
+        "mergePolicy": "SAME_STABLE_ID_AND_SHARED_IDENTITY_KEY; ADDITIVE_ARRAYS; AMBIGUOUS_SCALARS_OMITTED_WITH_PROVENANCE; CONSERVATIVE_STATUS; DATE_PRECISION_REFINED_ONLY_WITHIN_SAME_CALENDAR_POINT",
+        "identityBasis": {
+          "basis": "SAME_STABLE_EVENT_ID_AND_SHARED_NAME_OR_COMPATIBLE_DATE",
+          "identityKey": null,
+          "selectedDate": "1949-02-22",
+          "eventIdDate": null
+        },
+        "data": {
+          "date": "1949-02-22",
+          "decided_by": [
+            "제헌국회가 제2독회 회부 부결",
+            "정부 제출; 국회 심의"
+          ],
+          "evidence": [
+            "DOC-P181-05",
+            "DOC-P180-01"
+          ],
+          "id": "evt-cand-government-antimin-amendment",
+          "legal_authority": [
+            "정부 법률안 제출권",
+            "법률안 제출권"
+          ],
+          "period": "1949-02-22/1949-02-24",
+          "proposed_by": [
+            "대한민국 정부"
+          ]
+        },
+        "digest": "f5dda02cecf834f2bdea99265673cab4ab89cb3a1c96646d882ab73eed9f4640",
+        "provenance": [
+          {
+            "path": "data/research/events/pass-180-antimin-institutional-events.json",
+            "pointer": "/events/6"
+          },
+          {
+            "path": "data/research/events/pass-181-antimin-counteraction-events.json",
+            "pointer": "/events/3"
+          }
+        ],
+        "fieldVariantCount": 3,
+        "fieldVariants": [
+          {
+            "fieldPath": "name",
+            "values": [
+              {
+                "value": "정부 반민족행위처벌법 개정안 제출",
+                "provenance": [
+                  {
+                    "path": "data/research/events/pass-180-antimin-institutional-events.json",
+                    "pointer": "/events/6"
+                  }
+                ]
+              },
+              {
+                "value": "정부의 반민법 행정부 종속형 개정안 제출",
+                "provenance": [
+                  {
+                    "path": "data/research/events/pass-181-antimin-counteraction-events.json",
+                    "pointer": "/events/3"
+                  }
+                ]
+              }
+            ],
+            "resolution": "PRESERVED_WITHOUT_CANONICAL_NAME_SELECTION"
+          },
+          {
+            "fieldPath": "open_question",
+            "values": [
+              {
+                "value": "국무회의 의결일·기초부처·정부대표 제안설명 확인",
+                "provenance": [
+                  {
+                    "path": "data/research/events/pass-181-antimin-counteraction-events.json",
+                    "pointer": "/events/3"
+                  }
+                ]
+              },
+              {
+                "value": "정부안 전문·국무회의 의결·법무부 기초과정을 원문으로 연결",
+                "provenance": [
+                  {
+                    "path": "data/research/events/pass-180-antimin-institutional-events.json",
+                    "pointer": "/events/6"
+                  }
+                ]
+              }
+            ],
+            "resolution": "PRESERVED_WITHOUT_CANONICAL_SCALAR_SELECTION"
+          },
+          {
+            "fieldPath": "state",
+            "values": [
+              {
+                "value": "NARROWED",
+                "provenance": [
+                  {
+                    "path": "data/research/events/pass-180-antimin-institutional-events.json",
+                    "pointer": "/events/6"
+                  }
+                ]
+              },
+              {
+                "value": "VERIFIED_PARTIAL",
+                "provenance": [
+                  {
+                    "path": "data/research/events/pass-181-antimin-counteraction-events.json",
+                    "pointer": "/events/3"
+                  }
+                ]
+              }
+            ],
+            "resolution": "PRESERVED_WITHOUT_CANONICAL_SCALAR_SELECTION"
+          }
+        ],
+        "sourceVariantCount": 2
+      }
     },
     {
       "id": "evt-cand-national-assembly-faction-case",
@@ -31195,7 +33773,7 @@
     },
     {
       "id": "evt-cand-rhee-antimin-feb16-statement",
-      "integrationStatus": "CONFLICTED",
+      "integrationStatus": "SAFE_FIELDWISE_MERGE",
       "alternatives": [
         {
           "digest": "4453217a76f9402a105929332028697b285ede9f8d2fb23ff57e52a17cfdf1b3",
@@ -31256,7 +33834,100 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "safeMerge": {
+        "status": "SAFE_FIELDWISE_MERGE",
+        "mergePolicy": "SAME_STABLE_ID_AND_SHARED_IDENTITY_KEY; ADDITIVE_ARRAYS; AMBIGUOUS_SCALARS_OMITTED_WITH_PROVENANCE; CONSERVATIVE_STATUS; DATE_PRECISION_REFINED_ONLY_WITHIN_SAME_CALENDAR_POINT",
+        "identityBasis": {
+          "basis": "SAME_STABLE_EVENT_ID_AND_SHARED_NAME_OR_COMPATIBLE_DATE",
+          "identityKey": null,
+          "selectedDate": "1949-02-16",
+          "eventIdDate": null
+        },
+        "data": {
+          "date": "1949-02-16",
+          "decided_by": [
+            "이승만 대통령"
+          ],
+          "evidence": [
+            "DOC-P180-01",
+            "DOC-P181-04"
+          ],
+          "executed_by": [
+            "검찰·내무부에 대한 지시라고 담화에서 서술",
+            "담화상 검찰·내무부에 지시"
+          ],
+          "id": "evt-cand-rhee-antimin-feb16-statement",
+          "opposed_by": [
+            "반민특위",
+            "제헌국회 다수"
+          ],
+          "state": "NARROWED"
+        },
+        "digest": "3eb687cbde6fe6d3682c80a61ca6a2ba326cced17540b2b054bb9532c910a907",
+        "provenance": [
+          {
+            "path": "data/research/events/pass-180-antimin-institutional-events.json",
+            "pointer": "/events/4"
+          },
+          {
+            "path": "data/research/events/pass-181-antimin-counteraction-events.json",
+            "pointer": "/events/1"
+          }
+        ],
+        "fieldVariantCount": 2,
+        "fieldVariants": [
+          {
+            "fieldPath": "name",
+            "values": [
+              {
+                "value": "이승만의 1949-02-16 특경대 폐지·체포금지 담화",
+                "provenance": [
+                  {
+                    "path": "data/research/events/pass-180-antimin-institutional-events.json",
+                    "pointer": "/events/4"
+                  }
+                ]
+              },
+              {
+                "value": "이승만의 특경대 폐지·체포구금 금지 담화",
+                "provenance": [
+                  {
+                    "path": "data/research/events/pass-181-antimin-counteraction-events.json",
+                    "pointer": "/events/1"
+                  }
+                ]
+              }
+            ],
+            "resolution": "PRESERVED_WITHOUT_CANONICAL_NAME_SELECTION"
+          },
+          {
+            "fieldPath": "open_question",
+            "values": [
+              {
+                "value": "대통령기록관 연설 원문과 검찰·내무부 수신·집행문서 확보",
+                "provenance": [
+                  {
+                    "path": "data/research/events/pass-181-antimin-counteraction-events.json",
+                    "pointer": "/events/1"
+                  }
+                ]
+              },
+              {
+                "value": "대통령기록관 연설기록 원문과 내무부·검찰 수신/집행문서를 분리 확보",
+                "provenance": [
+                  {
+                    "path": "data/research/events/pass-180-antimin-institutional-events.json",
+                    "pointer": "/events/4"
+                  }
+                ]
+              }
+            ],
+            "resolution": "PRESERVED_WITHOUT_CANONICAL_SCALAR_SELECTION"
+          }
+        ],
+        "sourceVariantCount": 2
+      }
     },
     {
       "id": "evt-candidate-19520628-clark-pow-figure",
@@ -41453,7 +44124,7 @@
     },
     {
       "id": "evt-p236-labor-1953-04-20-commission-decree",
-      "integrationStatus": "CONFLICTED",
+      "integrationStatus": "SAFE_FIELDWISE_MERGE",
       "alternatives": [
         {
           "digest": "4b5c4bf8d7d82c9c6727b773fa13e11337f4bef41ef4a0e64d593db114cedb63",
@@ -41514,7 +44185,64 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "safeMerge": {
+        "status": "SAFE_FIELDWISE_MERGE",
+        "mergePolicy": "SAME_STABLE_ID_AND_SHARED_IDENTITY_KEY; ADDITIVE_ARRAYS; AMBIGUOUS_SCALARS_OMITTED_WITH_PROVENANCE; CONSERVATIVE_STATUS; DATE_PRECISION_REFINED_ONLY_WITHIN_SAME_CALENDAR_POINT",
+        "identityBasis": {
+          "basis": "SAME_STABLE_EVENT_ID_AND_SHARED_NAME_OR_COMPATIBLE_DATE",
+          "identityKey": null,
+          "selectedDate": "1953-04-20",
+          "eventIdDate": null
+        },
+        "data": {
+          "action": "PA policySeq 773/774 correspond to decrees 783/784, not decree numbers 773/774",
+          "certainty": "official_archival_description_only_not_facsimile",
+          "date": "1953-04-20",
+          "decided_by": [
+            "국무회의(대통령기록관 해제상 의결)"
+          ],
+          "document_ids": [
+            "DOC-P236-PA-LABOR-774"
+          ],
+          "domain": "입법·노동·행정",
+          "executed_by": [
+            "백두진 국무총리서리·박술음 사회부장관 서명(기록해제)"
+          ],
+          "id": "evt-p236-labor-1953-04-20-commission-decree",
+          "legal_authority": [
+            "대통령령 제784호"
+          ],
+          "name": "노동위원회법 시행령 대통령령 제784호 공포 및 백두진·박술음 서명",
+          "observed_by": [
+            "대통령기록관"
+          ],
+          "politicians": [
+            "pol-paik-too-chin",
+            "cand-p236-park-sul-eum",
+            "pol-rhee-syngman"
+          ],
+          "source_ids": [
+            "DOC-P236-PA-LABOR-774",
+            "DOC-P236E-PA-LABOR-773"
+          ],
+          "uncertainty": "원본 서명영상 직접열람 전. 대통령 개인 발의·지시로 귀속 금지"
+        },
+        "digest": "a1bf94ffe760839dba34c91db93d70a1ced7badac88a6d7d61851bf0dae7619e",
+        "provenance": [
+          {
+            "path": "data/events/pass-236-labor-laws.json",
+            "pointer": "/events/4"
+          },
+          {
+            "path": "data/evidence/park-sul-eum.json",
+            "pointer": "/events/0"
+          }
+        ],
+        "fieldVariantCount": 0,
+        "fieldVariants": [],
+        "sourceVariantCount": 2
+      }
     },
     {
       "id": "evt-p236-labor-1953-04-20-dispute-decree",
@@ -49230,7 +51958,7 @@
     },
     {
       "id": "evt-p239e-park-resettlement",
-      "integrationStatus": "CONFLICTED",
+      "integrationStatus": "SAFE_FIELDWISE_MERGE",
       "alternatives": [
         {
           "digest": "4b82a947378daabe21c219dba0de2e8ac30f9e2ce805ddf4bea0557464d926be",
@@ -49283,7 +52011,53 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "safeMerge": {
+        "status": "SAFE_FIELDWISE_MERGE",
+        "mergePolicy": "SAME_STABLE_ID_AND_SHARED_IDENTITY_KEY; ADDITIVE_ARRAYS; AMBIGUOUS_SCALARS_OMITTED_WITH_PROVENANCE; CONSERVATIVE_STATUS; DATE_PRECISION_REFINED_ONLY_WITHIN_SAME_CALENDAR_POINT",
+        "identityBasis": {
+          "basis": "SAME_STABLE_EVENT_ID_AND_SHARED_NAME_OR_COMPATIBLE_DATE",
+          "identityKey": null,
+          "selectedDate": "1953-06-22",
+          "eventIdDate": null
+        },
+        "data": {
+          "action": "press-reported policy proposal",
+          "certainty": "contemporary_press_report",
+          "date": "1953-06-22",
+          "document_ids": [
+            "DOC-P239E-NIKH-0622-0070"
+          ],
+          "domain": "복지·농정",
+          "evidenceState": "CONTEMPORARY_REPORT_NOT_AUTOMATIC_PROOF",
+          "id": "evt-p239e-park-resettlement",
+          "name": "Park Sul-eum proposes independent POW rural resettlement program",
+          "politicians": [
+            "cand-p236-park-sul-eum"
+          ],
+          "proposed_by": [
+            "Social Ministry Park: resettle ~26,000 released POWs separately from 60,000-household UNKRA scheme"
+          ],
+          "source_ids": [
+            "DOC-P239E-NIKH-0622-0070"
+          ],
+          "uncertainty": "Eight ministries consultations planned; no allocation or implementation proven."
+        },
+        "digest": "ba1f018a74503ccf180a8cd16eb8c7db57b245f324c95955294f281bd3174d05",
+        "provenance": [
+          {
+            "path": "data/events/pass-239e-june22-30-governance.json",
+            "pointer": "/events/0"
+          },
+          {
+            "path": "data/evidence/park-sul-eum.json",
+            "pointer": "/events/1"
+          }
+        ],
+        "fieldVariantCount": 0,
+        "fieldVariants": [],
+        "sourceVariantCount": 2
+      }
     },
     {
       "id": "evt-p239e-party-denunciation",
@@ -49695,7 +52469,7 @@
     },
     {
       "id": "evt-p239e-union-neutrality",
-      "integrationStatus": "CONFLICTED",
+      "integrationStatus": "SAFE_FIELDWISE_MERGE",
       "alternatives": [
         {
           "digest": "41cf38828075c97629bf09c27d4c4127c280d9da18fb3965dc753d1b4fda6f1e",
@@ -49748,7 +52522,53 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "safeMerge": {
+        "status": "SAFE_FIELDWISE_MERGE",
+        "mergePolicy": "SAME_STABLE_ID_AND_SHARED_IDENTITY_KEY; ADDITIVE_ARRAYS; AMBIGUOUS_SCALARS_OMITTED_WITH_PROVENANCE; CONSERVATIVE_STATUS; DATE_PRECISION_REFINED_ONLY_WITHIN_SAME_CALENDAR_POINT",
+        "identityBasis": {
+          "basis": "SAME_STABLE_EVENT_ID_AND_SHARED_NAME_OR_COMPATIBLE_DATE",
+          "identityKey": null,
+          "selectedDate": "1953-06-24",
+          "eventIdDate": null
+        },
+        "data": {
+          "action": "ministry directive, not personally signed by minister in obtained report",
+          "certainty": "ministry_action_only",
+          "date": "1953-06-24",
+          "document_ids": [
+            "DOC-P239E-NIKH-0624-0060"
+          ],
+          "domain": "노동·행정",
+          "evidenceState": "CONTEMPORARY_REPORT_NOT_AUTOMATIC_PROOF",
+          "executed_by": [
+            "Ministry issues union governance guidance to provincial officials"
+          ],
+          "id": "evt-p239e-union-neutrality",
+          "name": "Social Ministry directs provincial officials to keep unions free of political capture",
+          "politicians": [
+            "cand-p236-park-sul-eum"
+          ],
+          "source_ids": [
+            "DOC-P239E-NIKH-0624-0060"
+          ],
+          "uncertainty": "No proof minister personally drafted; implementation requires orders."
+        },
+        "digest": "8b8ff4f65ab586f63b663e43a18111241134b35e9808bb2bbf91223f2959d46c",
+        "provenance": [
+          {
+            "path": "data/events/pass-239e-june22-30-governance.json",
+            "pointer": "/events/7"
+          },
+          {
+            "path": "data/evidence/park-sul-eum.json",
+            "pointer": "/events/2"
+          }
+        ],
+        "fieldVariantCount": 0,
+        "fieldVariants": [],
+        "sourceVariantCount": 2
+      }
     },
     {
       "id": "evt-p239e-union-registration",
@@ -50043,7 +52863,7 @@
     },
     {
       "id": "evt-p239f-union-decree-782",
-      "integrationStatus": "CONFLICTED",
+      "integrationStatus": "SAFE_FIELDWISE_MERGE",
       "alternatives": [
         {
           "digest": "22d62c1c2395cf9127887784559e4b129193b414afc0725a03c6143d3d5afaa3",
@@ -50105,7 +52925,65 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "safeMerge": {
+        "status": "SAFE_FIELDWISE_MERGE",
+        "mergePolicy": "SAME_STABLE_ID_AND_SHARED_IDENTITY_KEY; ADDITIVE_ARRAYS; AMBIGUOUS_SCALARS_OMITTED_WITH_PROVENANCE; CONSERVATIVE_STATUS; DATE_PRECISION_REFINED_ONLY_WITHIN_SAME_CALENDAR_POINT",
+        "identityBasis": {
+          "basis": "SAME_STABLE_EVENT_ID_AND_SHARED_NAME_OR_COMPATIBLE_DATE",
+          "identityKey": null,
+          "selectedDate": "1953-04-20",
+          "eventIdDate": null
+        },
+        "data": {
+          "action": "countersignature described by PA; publication date conflict 4/14 vs 4/20",
+          "certainty": "CONFLICTED_DATE",
+          "date": "1953-04-20",
+          "decided_by": [
+            "국회 또는 법령 제정기관: 법률·명령의 형식적 제정"
+          ],
+          "document_ids": [
+            "DOC-P239F-782",
+            "DOC-P239F-PA782"
+          ],
+          "domain": "노동·법제·인사",
+          "executed_by": [
+            "백두진·박술음: 대통령기록관 기록해제상 부서"
+          ],
+          "id": "evt-p239f-union-decree-782",
+          "legal_authority": [
+            "대통령령 제782호"
+          ],
+          "name": "대통령령 제782호 노동조합법 시행령 공포 및 4/14 기록해제 충돌",
+          "observed_by": [
+            "법제처 역사법령 또는 대통령기록관 해제"
+          ],
+          "politicians": [
+            "pol-rhee-syngman",
+            "pol-paik-too-chin",
+            "cand-p236-park-sul-eum"
+          ],
+          "source_ids": [
+            "DOC-P239F-782",
+            "DOC-P239F-PA782"
+          ],
+          "uncertainty": "대통령기록관은 4/14 공포, 법제처는 4/20 공포·시행. CONFLICTED"
+        },
+        "digest": "8a54e50abb4bc17f0f1e0ceeea9ecd2539f5717741dd449368441f600cb9fea6",
+        "provenance": [
+          {
+            "path": "data/events/pass-239f-labor-institution-actions.json",
+            "pointer": "/events/2"
+          },
+          {
+            "path": "data/evidence/park-sul-eum.json",
+            "pointer": "/events/3"
+          }
+        ],
+        "fieldVariantCount": 0,
+        "fieldVariants": [],
+        "sourceVariantCount": 2
+      }
     },
     {
       "id": "evt-p239f-union-local-certificate",
@@ -99935,7 +102813,7 @@
     },
     {
       "id": "evt-provisional-19520908-jcs-options",
-      "integrationStatus": "CONFLICTED",
+      "integrationStatus": "SAFE_FIELDWISE_MERGE",
       "alternatives": [
         {
           "digest": "258d2cea72870e417d30fa3b17a627b5ac180f3041a8a7f8575330ae05c21a7c",
@@ -100000,11 +102878,61 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "safeMerge": {
+        "status": "SAFE_FIELDWISE_MERGE",
+        "mergePolicy": "SAME_STABLE_ID_AND_SHARED_IDENTITY_KEY; ADDITIVE_ARRAYS; AMBIGUOUS_SCALARS_OMITTED_WITH_PROVENANCE; CONSERVATIVE_STATUS; DATE_PRECISION_REFINED_ONLY_WITHIN_SAME_CALENDAR_POINT",
+        "identityBasis": {
+          "basis": "SAME_STABLE_EVENT_ID_AND_SHARED_NAME_OR_COMPATIBLE_DATE",
+          "identityKey": "jcstransmitsmultiplearmisticepowoptionsforclarkscomment",
+          "selectedDate": "1952-09-08",
+          "eventIdDate": null
+        },
+        "data": {
+          "action": "JCS transmits multiple armistice/POW options for Clark's comment",
+          "classification": "proposal",
+          "date": "1952-09-08",
+          "documentIds": [
+            "doc-frus-1952-v15p1-264"
+          ],
+          "evidence": [
+            "doc-frus1952-v15p1-d264"
+          ],
+          "id": "evt-provisional-19520908-jcs-options",
+          "linkBasis": "shared-document-only; relationship is contextual, not proof of claim",
+          "proposed_by": [
+            "org-us-jcs"
+          ],
+          "relatedClaimIds": [
+            "claim-19520908-truman-statement-not-yet-approved"
+          ],
+          "reviewStatus": "SOURCE_OVERLAY_MIGRATED_NOT_INDEPENDENTLY_REVERIFIED",
+          "sourceRegistry": "data/research/registry/1952-september-frus264-269-index.json",
+          "uncertainty": "No proof Truman statement issued or options implemented"
+        },
+        "digest": "21b0e3debc9965dc982bec10a0552706bef3a5703beff73aa023dedb325aa97e",
+        "provenance": [
+          {
+            "path": "data/events/frus-1952-september-264-269-central.json",
+            "pointer": "/events/0"
+          },
+          {
+            "path": "data/research/graphs/2026-11-13-2220-frus264-266-overlay.json",
+            "pointer": "/events/0"
+          },
+          {
+            "path": "data/research/registry/1952-september-frus264-269-index.json",
+            "pointer": "/events/0"
+          }
+        ],
+        "fieldVariantCount": 0,
+        "fieldVariants": [],
+        "sourceVariantCount": 3
+      }
     },
     {
       "id": "evt-provisional-19520909-lie-eden-schedule",
-      "integrationStatus": "CONFLICTED",
+      "integrationStatus": "SAFE_FIELDWISE_MERGE",
       "alternatives": [
         {
           "digest": "05b3cae47eec8d29321d243a377b73400ad64a3d23eccf6fe14207858befb772",
@@ -100066,11 +102994,61 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "safeMerge": {
+        "status": "SAFE_FIELDWISE_MERGE",
+        "mergePolicy": "SAME_STABLE_ID_AND_SHARED_IDENTITY_KEY; ADDITIVE_ARRAYS; AMBIGUOUS_SCALARS_OMITTED_WITH_PROVENANCE; CONSERVATIVE_STATUS; DATE_PRECISION_REFINED_ONLY_WITHIN_SAME_CALENDAR_POINT",
+        "identityBasis": {
+          "basis": "SAME_STABLE_EVENT_ID_AND_SHARED_NAME_OR_COMPATIBLE_DATE",
+          "identityKey": "grossreportsliearrangedsept11edenmeetingeditorialnotelaterreportsmeetingandnobritishtroopspromised",
+          "selectedDate": "1952-09-09",
+          "eventIdDate": null
+        },
+        "data": {
+          "action": "Gross reports Lie arranged Sept 11 Eden meeting; editorial note later reports meeting and no British troops promised",
+          "classification": "reported-scheduling",
+          "date": "1952-09-09",
+          "documentIds": [
+            "doc-frus-1952-v15p1-265"
+          ],
+          "evidence": [
+            "doc-frus1952-v15p1-d265"
+          ],
+          "id": "evt-provisional-19520909-lie-eden-schedule",
+          "linkBasis": "shared-document-only; relationship is contextual, not proof of claim",
+          "observed_by": [
+            "Ernest Gross"
+          ],
+          "relatedClaimIds": [
+            "claim-19520911-lie-eden-meeting"
+          ],
+          "reviewStatus": "SOURCE_OVERLAY_MIGRATED_NOT_INDEPENDENTLY_REVERIFIED",
+          "sourceRegistry": "data/research/registry/1952-september-frus264-269-index.json",
+          "uncertainty": "Sept 12 London telegram is editorial citation, not separately inspected"
+        },
+        "digest": "f7f4bc973a39d96f2a89e5978b63e841ce18bb493b5538df1c66785e0f795d4b",
+        "provenance": [
+          {
+            "path": "data/events/frus-1952-september-264-269-central.json",
+            "pointer": "/events/1"
+          },
+          {
+            "path": "data/research/graphs/2026-11-13-2220-frus264-266-overlay.json",
+            "pointer": "/events/1"
+          },
+          {
+            "path": "data/research/registry/1952-september-frus264-269-index.json",
+            "pointer": "/events/1"
+          }
+        ],
+        "fieldVariantCount": 0,
+        "fieldVariants": [],
+        "sourceVariantCount": 3
+      }
     },
     {
       "id": "evt-provisional-19520910-stelle-embargo-opposition",
-      "integrationStatus": "CONFLICTED",
+      "integrationStatus": "SAFE_FIELDWISE_MERGE",
       "alternatives": [
         {
           "digest": "0a67c7aa958bacf6f30e71ec7a3d9d332bb795080e1f779f27bb19eb52e15030",
@@ -100136,7 +103114,60 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "safeMerge": {
+        "status": "SAFE_FIELDWISE_MERGE",
+        "mergePolicy": "SAME_STABLE_ID_AND_SHARED_IDENTITY_KEY; ADDITIVE_ARRAYS; AMBIGUOUS_SCALARS_OMITTED_WITH_PROVENANCE; CONSERVATIVE_STATUS; DATE_PRECISION_REFINED_ONLY_WITHIN_SAME_CALENDAR_POINT",
+        "identityBasis": {
+          "basis": "SAME_STABLE_EVENT_ID_AND_SHARED_NAME_OR_COMPATIBLE_DATE",
+          "identityKey": "stellerecommendsabandoningaugust14totalembargoworkingpaperroute",
+          "selectedDate": "1952-09-10",
+          "eventIdDate": null
+        },
+        "data": {
+          "action": "Stelle recommends abandoning August 14 total-embargo working-paper route",
+          "classification": "policy-opposition",
+          "date": "1952-09-10",
+          "documentIds": [
+            "doc-frus-1952-v15p1-266"
+          ],
+          "evidence": [
+            "doc-frus1952-v15p1-d266"
+          ],
+          "id": "evt-provisional-19520910-stelle-embargo-opposition",
+          "linkBasis": "shared-document-only; relationship is contextual, not proof of claim",
+          "opposed_by": [
+            "Charles C. Stelle"
+          ],
+          "proposed_by": [
+            "Charles C. Stelle"
+          ],
+          "relatedClaimIds": [
+            "claim-19520910-total-embargo-adopted"
+          ],
+          "reviewStatus": "SOURCE_OVERLAY_MIGRATED_NOT_INDEPENDENTLY_REVERIFIED",
+          "sourceRegistry": "data/research/registry/1952-september-frus264-269-index.json",
+          "uncertainty": "Recommendation not adopted policy"
+        },
+        "digest": "7e1d862f547be0933a0d1c5600129cb4cf151515883ce24f312fe016bcc967b1",
+        "provenance": [
+          {
+            "path": "data/events/frus-1952-september-264-269-central.json",
+            "pointer": "/events/2"
+          },
+          {
+            "path": "data/research/graphs/2026-11-13-2220-frus264-266-overlay.json",
+            "pointer": "/events/2"
+          },
+          {
+            "path": "data/research/registry/1952-september-frus264-269-index.json",
+            "pointer": "/events/2"
+          }
+        ],
+        "fieldVariantCount": 0,
+        "fieldVariants": [],
+        "sourceVariantCount": 3
+      }
     },
     {
       "id": "evt-r128-0614-assembly",
@@ -131183,7 +134214,7 @@
     },
     {
       "id": "evt-r170-06",
-      "integrationStatus": "CONFLICTED",
+      "integrationStatus": "SAFE_FIELDWISE_MERGE",
       "alternatives": [
         {
           "digest": "11de8882f2f8459ee0607cf13b0477e212a0efc2ea1553014be917dc8c415819",
@@ -131252,7 +134283,77 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "safeMerge": {
+        "status": "SAFE_FIELDWISE_MERGE",
+        "mergePolicy": "SAME_STABLE_ID_AND_SHARED_IDENTITY_KEY; ADDITIVE_ARRAYS; AMBIGUOUS_SCALARS_OMITTED_WITH_PROVENANCE; CONSERVATIVE_STATUS; DATE_PRECISION_REFINED_ONLY_WITHIN_SAME_CALENDAR_POINT",
+        "identityBasis": {
+          "basis": "SAME_STABLE_EVENT_ID_AND_SHARED_NAME_OR_COMPATIBLE_DATE",
+          "identityKey": "관보제562호정부헌법개정제의공고",
+          "selectedDate": "1951-11-30",
+          "eventIdDate": null
+        },
+        "data": {
+          "accessDate": "2026-10-26",
+          "actorRole": "LISTED_SPONSOR",
+          "candidatePoliticianIds": [
+            "cand-r170-lee-sun-yong"
+          ],
+          "date": "1951-11-30",
+          "documentIds": [
+            "doc170-na-1951-1130-gazette"
+          ],
+          "eventId": "evt-r170-06",
+          "evidenceState": "NARROWED",
+          "id": "evt-r170-06",
+          "name": "관보 제562호 정부 헌법개정제의 공고",
+          "politicians": [
+            "pol-rhee-syngman",
+            "pol-r139-heo-jeong",
+            "pol-pyun-yong-tae",
+            "pol-yi-ki-pung",
+            "pol-paik-too-chin",
+            "pol-cho-jin-man"
+          ],
+          "researchStatus": "SOURCE_EXCERPTS_READ_FACSIMILES_PENDING",
+          "roleGraph": {
+            "proposed_by": [
+              "정부 국무위원 13명 발기(공식 해제); 명단 전체 원면 확인 필요"
+            ],
+            "decided_by": [
+              "11/27 국무회의 의결 선행"
+            ],
+            "executed_by": [
+              "총무처: 관보 제562호 공고"
+            ],
+            "opposed_by": [],
+            "legal_authority": [
+              "헌법개정 제의·공고 절차"
+            ],
+            "observed_by": [
+              "관보 공고 전사"
+            ],
+            "later_finding": [
+              "이 공고는 개헌 확정·공포가 아니며 1952-01-18 부결"
+            ]
+          },
+          "verification": "ARCHIVE_EDITORIAL_LIST_NOT_FACSIMILE"
+        },
+        "digest": "49b73c8fac3c40acf925a8ebbe422b2e7be7eb3f8764efe6af79f04e8bb3fdd3",
+        "provenance": [
+          {
+            "path": "data/events/run170-constitutional-process.json",
+            "pointer": "/events/5"
+          },
+          {
+            "path": "data/evidence/cho-jin-man.json",
+            "pointer": "/events/0"
+          }
+        ],
+        "fieldVariantCount": 0,
+        "fieldVariants": [],
+        "sourceVariantCount": 2
+      }
     },
     {
       "id": "evt-r170-07",
@@ -227469,7 +230570,7 @@
     },
     {
       "id": "evt103-courts-debate-19490730",
-      "integrationStatus": "CONFLICTED",
+      "integrationStatus": "SAFE_FIELDWISE_MERGE",
       "alternatives": [
         {
           "digest": "3e3827238f5698f496e6ef25ca3d6c345e5456ee5468d4d7f13fe28c2ca381e1",
@@ -227528,7 +230629,64 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "safeMerge": {
+        "status": "SAFE_FIELDWISE_MERGE",
+        "mergePolicy": "SAME_STABLE_ID_AND_SHARED_IDENTITY_KEY; ADDITIVE_ARRAYS; AMBIGUOUS_SCALARS_OMITTED_WITH_PROVENANCE; CONSERVATIVE_STATUS; DATE_PRECISION_REFINED_ONLY_WITHIN_SAME_CALENDAR_POINT",
+        "identityBasis": {
+          "basis": "SAME_STABLE_EVENT_ID_AND_SHARED_NAME_OR_COMPATIBLE_DATE",
+          "identityKey": "법원조직법법사위대안심의기준800",
+          "selectedDate": "1949-07-30",
+          "eventIdDate": null
+        },
+        "data": {
+          "chaired_by": [
+            "pol-kim-dong-won"
+          ],
+          "committee_reported_by": [
+            "pol-baek-gwan-su"
+          ],
+          "date": "1949-07-30",
+          "decided_by": [
+            "org-national-assembly"
+          ],
+          "eventId": "evt103-courts-debate-19490730",
+          "government_explained_by": [
+            "pol-kim-gap-su"
+          ],
+          "id": "evt103-courts-debate-19490730",
+          "observed_by": [
+            "d103-courts-debate"
+          ],
+          "proposed_by": [
+            "pol-kim-bong-jo"
+          ],
+          "questioned_by": [
+            "pol-kim-gyeong-do"
+          ],
+          "run": 103,
+          "seconded_by": [
+            "pol-lee-jin-su",
+            "pol-lee-won-hong"
+          ],
+          "status": "SOURCE_DOCUMENTED_NOT_PERSONAL_COMMAND",
+          "title": "법원조직법 법사위 대안 심의 기준 80:0"
+        },
+        "digest": "2b9240b72610b63647fcc37cb3de886269906eade9c294543b0a487302a971f8",
+        "provenance": [
+          {
+            "path": "data/events/run103-courts-role-links.json",
+            "pointer": "/"
+          },
+          {
+            "path": "data/events/run103-labor-courts-local-un.json",
+            "pointer": "/events/2"
+          }
+        ],
+        "fieldVariantCount": 0,
+        "fieldVariants": [],
+        "sourceVariantCount": 2
+      }
     },
     {
       "id": "evt103-courts-law-19490926",
@@ -227707,7 +230865,7 @@
     },
     {
       "id": "evt104-govorg-debate",
-      "integrationStatus": "CONFLICTED",
+      "integrationStatus": "SAFE_FIELDWISE_MERGE",
       "alternatives": [
         {
           "digest": "6c955834a4f64dd0cedc7f6b7d4f02589e2508b769cfc1962116ef4dd69c659e",
@@ -227757,7 +230915,55 @@
           ]
         }
       ],
-      "canonicalSelection": null
+      "canonicalSelection": null,
+      "safeMerge": {
+        "status": "SAFE_FIELDWISE_MERGE",
+        "mergePolicy": "SAME_STABLE_ID_AND_SHARED_IDENTITY_KEY; ADDITIVE_ARRAYS; AMBIGUOUS_SCALARS_OMITTED_WITH_PROVENANCE; CONSERVATIVE_STATUS; DATE_PRECISION_REFINED_ONLY_WITHIN_SAME_CALENDAR_POINT",
+        "identityBasis": {
+          "basis": "SAME_STABLE_EVENT_ID_AND_SHARED_NAME_OR_COMPATIBLE_DATE",
+          "identityKey": "정무차관신설정부조직법개정안찬반토론",
+          "selectedDate": "1949-01-17",
+          "eventIdDate": null
+        },
+        "data": {
+          "chaired_by": [
+            "pol-kim-yak-su"
+          ],
+          "date": "1949-01-17",
+          "eventId": "evt104-govorg-debate",
+          "id": "evt104-govorg-debate",
+          "note": "1949-01 정무차관 논의와 3/25 보건부 설치 관련 정부조직법 개정을 동일 법안으로 단정 금지",
+          "observed_by": [
+            "d104-govorg-debate"
+          ],
+          "opposed_by": [
+            "pol-sin-gwang-gyun"
+          ],
+          "proposed_by": [
+            "pol-o-gi-yeol"
+          ],
+          "run": 104,
+          "status": "DOCUMENTED_LEGISLATIVE_ACTION",
+          "supported_by": [
+            "pol-jang-byeong-man"
+          ],
+          "title": "정무차관 신설 정부조직법 개정안 찬반 토론"
+        },
+        "digest": "4b09926daec019bac595834c711fc4471e26a55a970369d6df12bb8394d4bf6f",
+        "provenance": [
+          {
+            "path": "data/events/run104-govorg-role-links.json",
+            "pointer": "/"
+          },
+          {
+            "path": "data/events/run104-laws-civilservice.json",
+            "pointer": "/events/0"
+          }
+        ],
+        "fieldVariantCount": 0,
+        "fieldVariants": [],
+        "sourceVariantCount": 2
+      }
     },
     {
       "id": "evt104-govorg-law22",

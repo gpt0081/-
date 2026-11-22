@@ -1,7 +1,7 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "registryType": "roles",
-  "selectionPolicy": "UNAMBIGUOUS_ONLY",
+  "selectionPolicy": "UNAMBIGUOUS_OR_SAFE_FIELDWISE_MERGE_WITH_VARIANTS_PRESERVED",
   "records": [
     {
       "candidateGroupId": "cand-kdb-establishment-commissioners-1954",
@@ -33,6 +33,72 @@
             "pointer": "/actors/1"
           }
         ]
+      }
+    },
+    {
+      "candidateRoleId": "cand-kib-representative-liquidator-choi-1954",
+      "eventLinks": [
+        "evt-1954-kib-extraordinary-shareholders-liquidator-selection",
+        "evt-1954-0401-kib-property-transaction",
+        "evt-1954-0722-kib-property-appraisal-request"
+      ],
+      "evidence": [
+        "NAK official guide from Pass 84",
+        "Decree 859 Article 4 shareholder-selection mechanism",
+        "National Archives official guide, surname redacted to Choi"
+      ],
+      "id": "role-cand-kib-representative-liquidator-choi-1954",
+      "name": "한국식산은행 대표 청산인 최ㅇㅇ",
+      "openLeads": [
+        "Recover extraordinary shareholders-meeting resolution and registry filing to identify full name and representative authority.",
+        "Recover original contract/appraisal request and signature block; distinguish representative liquidator from committee chair."
+      ],
+      "status": "DISCOVERED",
+      "_integration": {
+        "id": "role-cand-kib-representative-liquidator-choi-1954",
+        "digest": "c262288829e31de7eadcb4d953a09385767cbd528c636c443e48c63b12d31c3b",
+        "provenance": [
+          {
+            "path": "data/research/candidates/pass-84-kib-liquidation-transfer.json",
+            "pointer": "/actors/3"
+          },
+          {
+            "path": "data/research/candidates/pass-85-kib-liquidation-governance-phases.json",
+            "pointer": "/actors/2"
+          }
+        ],
+        "mergePolicy": "SAME_STABLE_ID_AND_SHARED_IDENTITY_KEY; ADDITIVE_ARRAYS; AMBIGUOUS_SCALARS_OMITTED_WITH_PROVENANCE; CONSERVATIVE_STATUS; DATE_PRECISION_REFINED_ONLY_WITHIN_SAME_CALENDAR_POINT",
+        "fieldVariantHistory": [
+          {
+            "fieldPath": "openLead",
+            "values": [
+              {
+                "value": "Recover extraordinary shareholders-meeting resolution and registry filing to identify full name and representative authority.",
+                "provenance": [
+                  {
+                    "path": "data/research/candidates/pass-85-kib-liquidation-governance-phases.json",
+                    "pointer": "/actors/2"
+                  }
+                ]
+              },
+              {
+                "value": "Recover original contract/appraisal request and signature block; distinguish representative liquidator from committee chair.",
+                "provenance": [
+                  {
+                    "path": "data/research/candidates/pass-84-kib-liquidation-transfer.json",
+                    "pointer": "/actors/3"
+                  }
+                ]
+              }
+            ],
+            "resolution": "MOVED_TO_ADDITIVE_OPENLEADS"
+          }
+        ],
+        "sourceVariantCount": 2,
+        "identityBasis": {
+          "basis": "SAME_STABLE_ROLE_ID_AND_SHARED_TITLE",
+          "identityKey": "한국식산은행대표청산인최ㅇㅇ"
+        }
       }
     },
     {
