@@ -1,16 +1,21 @@
 {
   "sourceFiles": 5186,
   "uniqueCentralIds": {
-    "documents": 11800,
-    "claims": 5005,
-    "events": 6275,
-    "politicians": 2266,
-    "organizations": 270,
-    "roles": 67
+    "documents": 11894,
+    "claims": 4905,
+    "events": 5975,
+    "politicians": 2253,
+    "organizations": 261,
+    "roles": 45
   },
-  "conflictedIds": 915,
-  "auxiliaryRecords": 2245,
+  "conflictedIds": 869,
+  "auxiliaryRecords": 2232,
   "unresolvedSources": [
+    "data/actors/run125b-us-external-actors.json",
+    "data/actors/run125c-us-economic-mission.json",
+    "data/actors/run125d-us-diplomats.json",
+    "data/actors/run126-crosslink-reconciliation.json",
+    "data/actors/run126-labor.json",
     "data/actors/run200-foreign-counterparties.json",
     "data/annals/hong-seong-ha-run92.json",
     "data/annals/lee-sun-tak-run92.json",
@@ -42,24 +47,6 @@
     "data/documents/run128-korean-metadata.json",
     "data/documents/run128-source-index.json",
     "data/documents/run131-index.json",
-    "data/documents/run131-part1.json",
-    "data/documents/run131-part10.json",
-    "data/documents/run131-part11.json",
-    "data/documents/run131-part12.json",
-    "data/documents/run131-part13.json",
-    "data/documents/run131-part14.json",
-    "data/documents/run131-part15.json",
-    "data/documents/run131-part16.json",
-    "data/documents/run131-part17.json",
-    "data/documents/run131-part18.json",
-    "data/documents/run131-part2.json",
-    "data/documents/run131-part3.json",
-    "data/documents/run131-part4.json",
-    "data/documents/run131-part5.json",
-    "data/documents/run131-part6.json",
-    "data/documents/run131-part7.json",
-    "data/documents/run131-part8.json",
-    "data/documents/run131-part9.json",
     "data/documents/run134-cabinet-transcriptions-a.json",
     "data/documents/run134-cabinet-transcriptions-b.json",
     "data/documents/run134-cabinet-transcriptions-c.json",
@@ -70,17 +57,14 @@
     "data/documents/run141-local-government-archive.json",
     "data/documents/run142-frus-treaty-negotiation.json",
     "data/documents/run144-frus-june1953.json",
-    "data/documents/run149-1956-laws.json",
     "data/documents/run150-education-agriculture.json",
     "data/documents/run150-local-archives.json",
     "data/documents/run150-original-viewer-index.json",
-    "data/documents/run150-party-formation-scholarship.json",
     "data/documents/run152-1957-58-law-index.json",
     "data/documents/run152-coop-education-policy.json",
     "data/documents/run153-election-local.json",
     "data/documents/run153-legislative-conflict.json",
     "data/documents/run160-frus1961-source-headers.json",
-    "data/documents/run198-oct22-31-contemporary.json",
     "data/documents/run51-robertson-armistice-bargain.json",
     "data/documents/run52-armistice-implementation-reconstruction.json",
     "data/documents/run92-civic-state-metadata.json",
@@ -112,6 +96,7 @@
     "data/evidence/cho-chung-whan.json",
     "data/evidence/choi-duk-shin-1953.json",
     "data/evidence/choi-myeong-sik-run180b.json",
+    "data/evidence/eom-byeong-hak-1953.json",
     "data/evidence/han-tong-suk-run180b.json",
     "data/evidence/hong-seong-ha-run92.json",
     "data/evidence/hwang-jong-ryul-identity-correction-2026-09-24.json",
@@ -135,8 +120,10 @@
     "data/evidence/kim-yu-taek-1953-currency.json",
     "data/evidence/kim-yu-taek-1953-march.json",
     "data/evidence/kwak-sang-hun.json",
+    "data/evidence/kwon-jung-don-1953.json",
     "data/evidence/lee-beom-seok.json",
     "data/evidence/lee-chong-chang-1952-martial-law.json",
+    "data/evidence/lee-gap-seong-1952.json",
     "data/evidence/lee-hoon-gu-run192.json",
     "data/evidence/lee-hu-rak.json",
     "data/evidence/lee-jae-hak.json",
@@ -150,6 +137,7 @@
     "data/evidence/paik-too-chin.json",
     "data/evidence/park-hon-yong-run192.json",
     "data/evidence/park-sang-yeong-run95.json",
+    "data/evidence/park-sul-eum-1953-union.json",
     "data/evidence/park-sul-eum-run176.json",
     "data/evidence/pass-246-minister-and-law-originals.json",
     "data/evidence/pass-253-september-actor-evidence.json",
@@ -186,6 +174,7 @@
     "data/evidence/politicians/run216-nov1951-second-wave-evidence.json",
     "data/evidence/politicians/run217-dec1951-actor-evidence.json",
     "data/evidence/politicians/run218-dec1951-diplomatic-actors.json",
+    "data/evidence/politicians/run218-korea-japan-delegates.json",
     "data/evidence/politicians/run220-actor-evidence.json",
     "data/evidence/politicians/run221-evidence.json",
     "data/evidence/politicians/run221b-evidence.json",
@@ -253,6 +242,7 @@
     "data/evidence/run192-korean-actor-identity-crosschecks.json",
     "data/evidence/run208-1950-election-identity.json",
     "data/evidence/seo-beom-seok.json",
+    "data/evidence/shin-ik-hui-1953-labor.json",
     "data/evidence/shin-ik-hui-run176.json",
     "data/evidence/shin-ik-hui.json",
     "data/evidence/shin-tae-young.json",
@@ -327,14 +317,24 @@
     "data/research/candidates/2026-10-04-pass184-landcommittee-identity-review.json",
     "data/research/candidates/2026-10-04-pass185-landcommittee-reassessment.json",
     "data/research/candidates/2026-10-05-pass207-postarmistice-actors.json",
+    "data/research/candidates/pass-101-peace-line-prehistory-graph.json",
+    "data/research/candidates/pass-104-january-cabinet-anchor.json",
     "data/research/candidates/pass-134-gspa-institutional-semantics.json",
     "data/research/candidates/pass-135-gspa-first-cohort-and-no-yung-hee.json",
     "data/research/candidates/pass-136-gspa-first-intake-and-deans.json",
     "data/research/candidates/pass-137-gspa-dean-political-threshold.json",
     "data/research/candidates/pass-138-teachers-union-state-actor-network.json",
+    "data/research/candidates/pass-143-teachers-union-parliamentary-administrative-network.json",
     "data/research/candidates/pass-144-teachers-organization-bill-state-council-trace.json",
     "data/research/candidates/pass-145-teachers-bill-deliberation-and-counterpressure.json",
     "data/research/candidates/pass-146-teachers-organization-bill-military-government-reappearance.json",
+    "data/research/candidates/pass-147-teachers-bill-archival-metadata-audit.json",
+    "data/research/candidates/pass-148-postcoup-education-legislation-lineage.json",
+    "data/research/candidates/pass-149-law708-teacher-labor-control.json",
+    "data/research/candidates/pass-150-law708-article13-enforcement-and-successor-lineage.json",
+    "data/research/candidates/pass-151-successor-teacher-labor-regime-1963.json",
+    "data/research/candidates/pass-152-private-teacher-service-bridge-audit.json",
+    "data/research/candidates/pass-153-original-1963-teacher-labor-text-audit.json",
     "data/research/candidates/pass-154-art58-labor-deletion.json",
     "data/research/candidates/pass-189-lee-jong-sun-kim-woo-jong-updates.json",
     "data/research/candidates/pass-194-lee-jong-sun-committee-faction.json",
@@ -342,6 +342,8 @@
     "data/research/candidates/pass-204-1949-governance-primary-expansion.json",
     "data/research/candidates/pass-205-identity-and-adversarial-expansion.json",
     "data/research/candidates/pass-206-institutions-legislation-party-network.json",
+    "data/research/candidates/pass-260-peacetime-state-building-network.json",
+    "data/research/candidates/pass-261-central-bank-labor-local-election-network.json",
     "data/research/candidates/pass-262-bok-legislative-correction-network.json",
     "data/research/candidates/pass-263-local-election-constitutional-crisis-network.json",
     "data/research/candidates/pass-264-constitutional-crisis-adversarial-depth.json",
@@ -359,7 +361,9 @@
     "data/research/candidates/pass-272-directive-217-frus-command-chain.json",
     "data/research/candidates/pass-273-domestic-martial-law-instruments.json",
     "data/research/candidates/pass-274-yun-woo-kyong-rhee-direct-command.json",
-    "data/research/candidates/pass-70-political-conference-actors.json",
+    "data/research/candidates/pass-75-korean-actor-breadth.json",
+    "data/research/candidates/pass-89-kdb-founding-liquidator-authority.json",
+    "data/research/candidates/pass-96-fisheries-terminal-series.json",
     "data/research/candidates/run115-assembly-additional-actors.json",
     "data/research/corrections/pass-244-date-precision-review.json",
     "data/research/corrections/pass-244-document-kind-and-alias-audit.json",
@@ -1614,574 +1618,6 @@
   ],
   "integrityIssues": [
     {
-      "code": "CROSS_KIND_ID_COLLISION",
-      "id": "cand-r218-hwang-bu-gil",
-      "kinds": [
-        "politicians",
-        "roles"
-      ]
-    },
-    {
-      "code": "CROSS_KIND_ID_COLLISION",
-      "id": "cand-r218-im-cheol-ho",
-      "kinds": [
-        "politicians",
-        "roles"
-      ]
-    },
-    {
-      "code": "CROSS_KIND_ID_COLLISION",
-      "id": "cand-r218-ji-cheol-geun",
-      "kinds": [
-        "politicians",
-        "roles"
-      ]
-    },
-    {
-      "code": "CROSS_KIND_ID_COLLISION",
-      "id": "cand-r218-kim-tae-dong",
-      "kinds": [
-        "politicians",
-        "roles"
-      ]
-    },
-    {
-      "code": "CROSS_KIND_ID_COLLISION",
-      "id": "cand-r218-lee-sang-deok",
-      "kinds": [
-        "politicians",
-        "roles"
-      ]
-    },
-    {
-      "code": "CROSS_KIND_ID_COLLISION",
-      "id": "cand-r218-ryu-tae-ha",
-      "kinds": [
-        "politicians",
-        "roles"
-      ]
-    },
-    {
-      "code": "CROSS_KIND_ID_COLLISION",
-      "id": "pol-kim-yong-shik",
-      "kinds": [
-        "politicians",
-        "roles"
-      ]
-    },
-    {
-      "code": "CROSS_KIND_ID_COLLISION",
-      "id": "pol-shin-sung-mo",
-      "kinds": [
-        "politicians",
-        "roles"
-      ]
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r131-0603-cabinet-crisis",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-frus-163"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r131-0612-rhee-oliver",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-rhee-oliver"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r131-0616-cafe-licenses",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0616-0070"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r131-0616-cafe-licenses",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-busan-mayor"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r131-0616-local-tax",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0616-0090"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r131-0616-seoul-family-register",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0616-0080"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r131-0617-farm-tax-protest",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0617-0060"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r131-0618-education-report",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0618-0070"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r131-0618-interim-speakers",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0618-0060"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r131-0618-student-farm-labor",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0618-0110"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r131-0619-assembly-inquiry",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0619-0020"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r131-0619-assembly-inquiry",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0619-0030"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r131-0620-barley-collection",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0620-0060"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r131-0620-cultural-delay",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0620-0020"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r131-0620-cultural-delay",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-culture-0721"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r131-0620-international-club",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0621-0050"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r131-0620-international-club",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0621-0030"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r131-0620-international-club",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-club-localhistory"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r131-0620-student-training-decree",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0620-0030"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r131-0621-civil-service-policy",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0612-0070"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r131-0621-civil-service-policy",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0621-0070"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r131-0622-jeon-labor-statement",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0622-0030"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r131-0623-civilian-release-circular",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0623-0040"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r131-0623-civilian-release-circular",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0627-0040"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r131-0623-presidential-term",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0623-0030"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r131-0623-vagrant-return",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0623-0070"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r131-0624-import-rules",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0624-0050"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r131-0624-seoul-return",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0624-0030"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r131-0624-seoul-return",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0624-0040"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r131-0625-shooting-report",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0625-0050"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r131-0625-shooting-report",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0626-0020"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r131-0625-shooting-report",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0628-0080"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r131-0625-uk-commons",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-uk-hansard-0625"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r131-0626-joint-economic-committee",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0626-0010"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r131-0626-joint-economic-committee",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0627-0010"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r131-0627-farm-credit",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0627-0070"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r131-0627-press-censorship",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0627-0050"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r131-0627-press-censorship",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0628-0100"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r131-0628-assembly-blockade",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0628-0040"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r131-0628-assembly-blockade",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0628-0110"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r131-0628-assembly-blockade",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0630-0020"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r131-0628-party-departures",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0628-0050"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r131-0628-party-departures",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0628-0070"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r131-0628-vinocour-media",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-vinocour-0628"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r131-0628-vinocour-media",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0627-0050"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r131-0701-development-bank",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0701-0050"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r131-0701-seo-trial",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0701-0030"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r131-0701-seo-trial",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0703-0030"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r131-0701-seo-trial",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0705-0100"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r131-0702-administration",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0702-0100"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r131-0702-press-censorship",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0702-0060"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r131-0702-press-censorship",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0627-0050"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r131-0702-press-censorship",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-vinocour-0628"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r131-0703-parliamentary-committee",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0703-0080"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r131-0703-seoul-materials",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0703-0060"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r131-0704-power-loan",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0704-0060"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r131-0704-railway-corporation",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0704-0050"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r131-0705-06-grain-investigation",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0705-0080"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r131-0705-06-grain-investigation",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0706-0020"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r131-0705-rhee-amendment-speech",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0705-0050"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r131-0705-rhee-amendment-speech",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0628-0040"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r131-0707-election-law",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0707-0050"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r131-0708-gyeongbuk-grain",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0708-0060"
-    },
-    {
       "code": "DANGLING_REFERENCE",
       "kind": "events",
       "id": "evt-r136-tellers",
@@ -2232,42 +1668,10 @@
     {
       "code": "DANGLING_REFERENCE",
       "kind": "events",
-      "id": "evt-r150-1955-progressive-committee",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d150-kn70"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r150-1955-progressive-prep",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d150-kn70"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
       "id": "evt-r150-1955-reconstruction-plan",
       "field": "documentIds",
       "targetKind": "documents",
       "targetId": "d150-econ-plan-original-index"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r150-1956-coalition-principles",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d150-kn70"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r150-1956-progressive-nomination",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d150-kn70"
     },
     {
       "code": "DANGLING_REFERENCE",
@@ -2432,446 +1836,6 @@
     {
       "code": "DANGLING_REFERENCE",
       "kind": "events",
-      "id": "evt-r198-01",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "doc-r198-1024-0080"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r198-02",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "doc-r198-1022-0030"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r198-03",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "doc-r198-1023-0060"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r198-04",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "doc-r198-1025-0080"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r198-05",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "doc-r198-1025-0140"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r198-06",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "doc-r198-1025-0150"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r198-07",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "doc-r198-1024-0110"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r198-07",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "doc-r198-1026-0070"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r198-07",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "doc-r198-1030-0060"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r198-08",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "doc-r198-1023-0060"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r198-09",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "doc-r198-1025-0050"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r198-10",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "doc-r198-1026-0100"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r198-11",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "doc-r198-1025-0100"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r198-11",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "doc-r198-1025-0090"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r198-11",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "doc-r198-1028-0050"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r198-12",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "doc-r198-1027-0050"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r198-12",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "doc-r198-1027-0060"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r198-12",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "doc-r198-1027-0070"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r198-13",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "doc-r198-1025-0130"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r198-13",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "doc-r198-1030-0100"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r198-14",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "doc-r198-1029-0030"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r198-15",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "doc-r198-1029-0050"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r198-16",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "doc-r198-1025-0020"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r198-16",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "doc-r198-1025-0040"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r198-16",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "doc-r198-1029-0020"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r198-16",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "doc-r198-1030-0020"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r198-17",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "doc-r198-1028-0020"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r198-18",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "doc-r198-1029-0050"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r198-18",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "doc-r198-1031-0050"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r198-19",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "doc-r198-1026-0060"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r198-20",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "doc-r198-1025-0170"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r198-20",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "doc-r198-1028-0060"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r198-21",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "doc-r198-1027-0080"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r198-21",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "doc-r198-1031-0040"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r198-22",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "doc-r198-1025-0060"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r198-23",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "doc-r198-1030-0120"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r198-24",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "doc-r198-1025-0020"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r198-24",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "doc-r198-1027-0030"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r198-24",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "doc-r198-1028-0010"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r198-24",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "doc-r198-1029-0010"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r198-24",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "doc-r198-1030-0010"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r198-24",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "doc-r198-1030-0020"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r198-24",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "doc-r198-1031-0020"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r198-24",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "doc-r198-1031-0030"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r198-25",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "doc-r198-1023-0040"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r198-25",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "doc-r198-1023-0050"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r198-25",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "doc-r198-1030-0030"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r198-25",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "doc-r198-1030-0040"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r198-26",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "doc-r198-1024-0100"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r198-26",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "doc-r198-1026-0070"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r198-27",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "doc-r198-1030-0090"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r198-28",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "doc-r198-1026-0040"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r198-29",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "doc-r198-1026-0020"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r198-29",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "doc-r198-1027-0010"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r198-29",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "doc-r198-1031-0010"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
       "id": "evt-r218-17",
       "field": "politicianIds",
       "targetKind": "politicians",
@@ -2892,166 +1856,6 @@
       "field": "documentIds",
       "targetKind": "documents",
       "targetId": "d117-aks-baeknakjun"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "politicians",
-      "id": "cand-r131-baek-nam-sik",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0618-0060"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "politicians",
-      "id": "cand-r131-baek-nam-sik",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0620-0020"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "politicians",
-      "id": "cand-r131-choe-myeon-su",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0618-0060"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "politicians",
-      "id": "cand-r131-choe-yeong-hui",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0626-0030"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "politicians",
-      "id": "cand-r131-hong-seong-ha",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0621-0070"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "politicians",
-      "id": "cand-r131-jeon-jin-han",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0622-0030"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "politicians",
-      "id": "cand-r131-ji-yeon-hae",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0627-0070"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "politicians",
-      "id": "cand-r131-kim-dong-su",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0706-0020"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "politicians",
-      "id": "cand-r131-kim-in-tae",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0619-0030"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "politicians",
-      "id": "cand-r131-kim-je-neung",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0618-0060"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "politicians",
-      "id": "cand-r131-kim-jong-hoe",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0618-0060"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "politicians",
-      "id": "cand-r131-kim-jun-won",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0707-0060"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "politicians",
-      "id": "cand-r131-kim-tae-seon",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0703-0060"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "politicians",
-      "id": "cand-r131-park-pal-cheon",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0706-0020"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "politicians",
-      "id": "cand-r131-seo-i-hwan",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0618-0060"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "politicians",
-      "id": "cand-r131-sohn-yeong-su",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-busan-mayor"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "politicians",
-      "id": "cand-r131-sohn-yeong-su",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0616-0070"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "politicians",
-      "id": "cand-r131-song-bang-yong",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0618-0060"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "politicians",
-      "id": "cand-r131-yi-chun-gi",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0618-0060"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "politicians",
-      "id": "cand-r131-yi-gyo-seon",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d131-0623-0050"
     },
     {
       "code": "DANGLING_REFERENCE",
@@ -3892,129 +2696,9 @@
       "field": "eventIds",
       "targetKind": "events",
       "targetId": "evt-r150-19560905-seoul-council"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "organizations",
-      "id": "org-r198-rok-bok",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "doc-r198-1025-0070"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "organizations",
-      "id": "org-r198-rok-finance",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "doc-r198-1024-0080"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "organizations",
-      "id": "org-r198-rok-finance",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "doc-r198-1031-0040"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "organizations",
-      "id": "org-r198-rok-general-affairs",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "doc-r198-1022-0030"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "organizations",
-      "id": "org-r198-rok-gyeongnam",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "doc-r198-1026-0070"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "organizations",
-      "id": "org-r198-rok-gyeongnam",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "doc-r198-1024-0110"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "organizations",
-      "id": "org-r198-rok-planning",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "doc-r198-1026-0040"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "organizations",
-      "id": "org-r198-rok-social",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "doc-r198-1029-0050"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "organizations",
-      "id": "org-r198-rok-social",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "doc-r198-1031-0050"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "organizations",
-      "id": "org-r198-seoul-city",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "doc-r198-1025-0080"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "organizations",
-      "id": "org-r198-seoul-city",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "doc-r198-1025-0140"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "organizations",
-      "id": "org-r198-un-ecosoc",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "doc-r198-1026-0020"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "organizations",
-      "id": "org-r198-un-ecosoc",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "doc-r198-1031-0010"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "organizations",
-      "id": "org-r198-youth",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "doc-r198-1025-0130"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "organizations",
-      "id": "org-r198-youth",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "doc-r198-1030-0100"
     }
   ],
-  "referenceIssueCount": 292,
+  "referenceIssueCount": 135,
   "crosswalkGaps": [],
   "rootSyncStatus": "PARTIAL",
   "centralSync": "PARTIAL",

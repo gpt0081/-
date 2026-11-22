@@ -5,105 +5,110 @@
       "path": "data/actors/run125b-us-external-actors.json",
       "sha256": "e1dc6561ddd75edfb1835721c98eb6121097e52a64879e663f00d140f980061c",
       "bytes": 1252,
-      "status": "CANONICAL_MATERIALIZED",
+      "status": "AUXILIARY_JSON_INDEXED",
       "targetLayer": "other",
       "targetRegistries": [],
       "recordCounts": {
         "documents": 0,
         "claims": 0,
         "events": 0,
-        "politicians": 4,
+        "politicians": 0,
         "organizations": 0,
         "roles": 0
       },
-      "unmappedRecordCount": 0,
+      "unmappedRecordCount": 1,
       "centralMapping": {
-        "integrated": 4,
-        "conflicted": 0
+        "integrated": 0,
+        "conflicted": 0,
+        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
       }
     },
     {
       "path": "data/actors/run125c-us-economic-mission.json",
       "sha256": "dede818b2270ff70b2d11425ff1c58a8d2e70b8cf2c490f2cb5bd3faab034018",
       "bytes": 496,
-      "status": "CANONICAL_MATERIALIZED",
+      "status": "AUXILIARY_JSON_INDEXED",
       "targetLayer": "other",
       "targetRegistries": [],
       "recordCounts": {
         "documents": 0,
         "claims": 0,
         "events": 0,
-        "politicians": 2,
+        "politicians": 0,
         "organizations": 0,
         "roles": 0
       },
-      "unmappedRecordCount": 0,
+      "unmappedRecordCount": 1,
       "centralMapping": {
-        "integrated": 2,
-        "conflicted": 0
+        "integrated": 0,
+        "conflicted": 0,
+        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
       }
     },
     {
       "path": "data/actors/run125d-us-diplomats.json",
       "sha256": "c23ac4f90c7b98ab5f3580cdc9f67c4c1c06164041007fb317bbcab5d89fa51f",
       "bytes": 150,
-      "status": "CANONICAL_MATERIALIZED",
+      "status": "AUXILIARY_JSON_INDEXED",
       "targetLayer": "other",
       "targetRegistries": [],
       "recordCounts": {
         "documents": 0,
         "claims": 0,
         "events": 0,
-        "politicians": 2,
+        "politicians": 0,
         "organizations": 0,
         "roles": 0
       },
-      "unmappedRecordCount": 0,
+      "unmappedRecordCount": 1,
       "centralMapping": {
-        "integrated": 2,
-        "conflicted": 0
+        "integrated": 0,
+        "conflicted": 0,
+        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
       }
     },
     {
       "path": "data/actors/run126-crosslink-reconciliation.json",
       "sha256": "88c46c807ee9efa22f79bf342ee6fb40db0db989eee9526708e30b208a3852a9",
       "bytes": 861,
-      "status": "CANONICAL_MATERIALIZED",
+      "status": "AUXILIARY_JSON_INDEXED",
       "targetLayer": "other",
       "targetRegistries": [],
       "recordCounts": {
         "documents": 0,
         "claims": 0,
         "events": 0,
-        "politicians": 3,
+        "politicians": 0,
         "organizations": 0,
         "roles": 0
       },
-      "unmappedRecordCount": 0,
+      "unmappedRecordCount": 1,
       "centralMapping": {
-        "integrated": 3,
-        "conflicted": 0
+        "integrated": 0,
+        "conflicted": 0,
+        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
       }
     },
     {
       "path": "data/actors/run126-labor.json",
       "sha256": "f573281b7697f14cc0a36add3ceb1e3f6c3d4c38714b2b344083512591f6dacf",
       "bytes": 587,
-      "status": "CANONICAL_MATERIALIZED",
+      "status": "AUXILIARY_JSON_INDEXED",
       "targetLayer": "other",
       "targetRegistries": [],
       "recordCounts": {
         "documents": 0,
         "claims": 0,
         "events": 0,
-        "politicians": 2,
+        "politicians": 0,
         "organizations": 0,
         "roles": 0
       },
-      "unmappedRecordCount": 0,
+      "unmappedRecordCount": 1,
       "centralMapping": {
-        "integrated": 2,
-        "conflicted": 0
+        "integrated": 0,
+        "conflicted": 0,
+        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
       }
     },
     {
@@ -27911,432 +27916,414 @@
       "path": "data/documents/run131-part1.json",
       "sha256": "8e6cead697e20ad5567240c6a1f26e73a5d709102c713126b7df82763e28b491",
       "bytes": 3949,
-      "status": "AUXILIARY_JSON_INDEXED",
+      "status": "CANONICAL_MATERIALIZED",
       "targetLayer": "document_registry_source",
       "targetRegistries": [
         "documents"
       ],
       "recordCounts": {
-        "documents": 0,
+        "documents": 10,
         "claims": 0,
         "events": 0,
         "politicians": 0,
         "organizations": 0,
         "roles": 0
       },
-      "unmappedRecordCount": 1,
+      "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 0,
-        "conflicted": 0,
-        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+        "integrated": 10,
+        "conflicted": 0
       }
     },
     {
       "path": "data/documents/run131-part10.json",
       "sha256": "6def2b6fb2b1e50a7e683f1fb31fc468135b0f4d1de24179c8a01141d69d598a",
       "bytes": 1380,
-      "status": "AUXILIARY_JSON_INDEXED",
+      "status": "CANONICAL_MATERIALIZED",
       "targetLayer": "document_registry_source",
       "targetRegistries": [
         "documents"
       ],
       "recordCounts": {
-        "documents": 0,
+        "documents": 3,
         "claims": 0,
         "events": 0,
         "politicians": 0,
         "organizations": 0,
         "roles": 0
       },
-      "unmappedRecordCount": 1,
+      "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 0,
-        "conflicted": 0,
-        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+        "integrated": 3,
+        "conflicted": 0
       }
     },
     {
       "path": "data/documents/run131-part11.json",
       "sha256": "aea632564a25ef279919c3ce03f474dbb9d34e2980f457563e45d4c8e2531b38",
       "bytes": 836,
-      "status": "AUXILIARY_JSON_INDEXED",
+      "status": "CANONICAL_MATERIALIZED",
       "targetLayer": "document_registry_source",
       "targetRegistries": [
         "documents"
       ],
       "recordCounts": {
-        "documents": 0,
+        "documents": 2,
         "claims": 0,
         "events": 0,
         "politicians": 0,
         "organizations": 0,
         "roles": 0
       },
-      "unmappedRecordCount": 1,
+      "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 0,
-        "conflicted": 0,
-        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+        "integrated": 2,
+        "conflicted": 0
       }
     },
     {
       "path": "data/documents/run131-part12.json",
       "sha256": "13084c3d8836680fd044d1ebc804011224abf02d070c15666dc0bef33bfe48d8",
       "bytes": 3765,
-      "status": "AUXILIARY_JSON_INDEXED",
+      "status": "CANONICAL_MATERIALIZED",
       "targetLayer": "document_registry_source",
       "targetRegistries": [
         "documents"
       ],
       "recordCounts": {
-        "documents": 0,
+        "documents": 10,
         "claims": 0,
         "events": 0,
         "politicians": 0,
         "organizations": 0,
         "roles": 0
       },
-      "unmappedRecordCount": 1,
+      "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 0,
-        "conflicted": 0,
-        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+        "integrated": 10,
+        "conflicted": 0
       }
     },
     {
       "path": "data/documents/run131-part13.json",
       "sha256": "fcbbd166af474be94ca22f5a7b2a782af67eb81cd57b0dbfb59668b27381ecb7",
       "bytes": 3828,
-      "status": "AUXILIARY_JSON_INDEXED",
+      "status": "CANONICAL_MATERIALIZED",
       "targetLayer": "document_registry_source",
       "targetRegistries": [
         "documents"
       ],
       "recordCounts": {
-        "documents": 0,
+        "documents": 10,
         "claims": 0,
         "events": 0,
         "politicians": 0,
         "organizations": 0,
         "roles": 0
       },
-      "unmappedRecordCount": 1,
+      "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 0,
-        "conflicted": 0,
-        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+        "integrated": 10,
+        "conflicted": 0
       }
     },
     {
       "path": "data/documents/run131-part14.json",
       "sha256": "962b6900a3394844cf607ab6c95af6eb919d3ea1664ca8ae020c60bfbc1305b0",
       "bytes": 4474,
-      "status": "AUXILIARY_JSON_INDEXED",
+      "status": "CANONICAL_MATERIALIZED",
       "targetLayer": "document_registry_source",
       "targetRegistries": [
         "documents"
       ],
       "recordCounts": {
-        "documents": 0,
+        "documents": 10,
         "claims": 0,
         "events": 0,
         "politicians": 0,
         "organizations": 0,
         "roles": 0
       },
-      "unmappedRecordCount": 1,
+      "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 0,
-        "conflicted": 0,
-        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+        "integrated": 10,
+        "conflicted": 0
       }
     },
     {
       "path": "data/documents/run131-part15.json",
       "sha256": "68aad2cd553daa2c5b88264fe24fc5dbc2ba8e1a24ad04941b58355714f90c3e",
       "bytes": 4448,
-      "status": "AUXILIARY_JSON_INDEXED",
+      "status": "CANONICAL_MATERIALIZED",
       "targetLayer": "document_registry_source",
       "targetRegistries": [
         "documents"
       ],
       "recordCounts": {
-        "documents": 0,
+        "documents": 10,
         "claims": 0,
         "events": 0,
         "politicians": 0,
         "organizations": 0,
         "roles": 0
       },
-      "unmappedRecordCount": 1,
+      "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 0,
-        "conflicted": 0,
-        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+        "integrated": 10,
+        "conflicted": 0
       }
     },
     {
       "path": "data/documents/run131-part16.json",
       "sha256": "b1fdfdbe7e271a5d8f000fceea85ed0ebee7697a824ec6f69dc712adbdabebd5",
       "bytes": 4480,
-      "status": "AUXILIARY_JSON_INDEXED",
+      "status": "CANONICAL_MATERIALIZED",
       "targetLayer": "document_registry_source",
       "targetRegistries": [
         "documents"
       ],
       "recordCounts": {
-        "documents": 0,
+        "documents": 10,
         "claims": 0,
         "events": 0,
         "politicians": 0,
         "organizations": 0,
         "roles": 0
       },
-      "unmappedRecordCount": 1,
+      "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 0,
-        "conflicted": 0,
-        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+        "integrated": 10,
+        "conflicted": 0
       }
     },
     {
       "path": "data/documents/run131-part17.json",
       "sha256": "29dd7e621809c383cb90d886c41128acba093b70eed375be5f72ccde0bf7d60b",
       "bytes": 4881,
-      "status": "AUXILIARY_JSON_INDEXED",
+      "status": "CANONICAL_MATERIALIZED",
       "targetLayer": "document_registry_source",
       "targetRegistries": [
         "documents"
       ],
       "recordCounts": {
-        "documents": 0,
+        "documents": 11,
         "claims": 0,
         "events": 0,
         "politicians": 0,
         "organizations": 0,
         "roles": 0
       },
-      "unmappedRecordCount": 1,
+      "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 0,
-        "conflicted": 0,
-        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+        "integrated": 11,
+        "conflicted": 0
       }
     },
     {
       "path": "data/documents/run131-part18.json",
       "sha256": "079b27eb96aa5a6eb55970b2fc7885a48c5848a0b71867ac6facfd8c79358589",
       "bytes": 609,
-      "status": "AUXILIARY_JSON_INDEXED",
+      "status": "CANONICAL_MATERIALIZED",
       "targetLayer": "document_registry_source",
       "targetRegistries": [
         "documents"
       ],
       "recordCounts": {
-        "documents": 0,
+        "documents": 2,
         "claims": 0,
         "events": 0,
         "politicians": 0,
         "organizations": 0,
         "roles": 0
       },
-      "unmappedRecordCount": 1,
+      "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 0,
-        "conflicted": 0,
-        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+        "integrated": 2,
+        "conflicted": 0
       }
     },
     {
       "path": "data/documents/run131-part2.json",
       "sha256": "15ec1d1d27f51d224bb7455f127c2bca9f75ce577b2de5d052c828c206ddede6",
       "bytes": 3419,
-      "status": "AUXILIARY_JSON_INDEXED",
+      "status": "CANONICAL_MATERIALIZED",
       "targetLayer": "document_registry_source",
       "targetRegistries": [
         "documents"
       ],
       "recordCounts": {
-        "documents": 0,
+        "documents": 10,
         "claims": 0,
         "events": 0,
         "politicians": 0,
         "organizations": 0,
         "roles": 0
       },
-      "unmappedRecordCount": 1,
+      "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 0,
-        "conflicted": 0,
-        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+        "integrated": 10,
+        "conflicted": 0
       }
     },
     {
       "path": "data/documents/run131-part3.json",
       "sha256": "ff3487b3aad08f1d0e91f7038852cada33f90fae48e9901e9567a3116408a12f",
       "bytes": 4002,
-      "status": "AUXILIARY_JSON_INDEXED",
+      "status": "CANONICAL_MATERIALIZED",
       "targetLayer": "document_registry_source",
       "targetRegistries": [
         "documents"
       ],
       "recordCounts": {
-        "documents": 0,
+        "documents": 10,
         "claims": 0,
         "events": 0,
         "politicians": 0,
         "organizations": 0,
         "roles": 0
       },
-      "unmappedRecordCount": 1,
+      "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 0,
-        "conflicted": 0,
-        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+        "integrated": 10,
+        "conflicted": 0
       }
     },
     {
       "path": "data/documents/run131-part4.json",
       "sha256": "a937f673e00c062a7b3cbbd4501c843b9eccbca028eb575216e89ca2455ec312",
       "bytes": 4002,
-      "status": "AUXILIARY_JSON_INDEXED",
+      "status": "CANONICAL_MATERIALIZED",
       "targetLayer": "document_registry_source",
       "targetRegistries": [
         "documents"
       ],
       "recordCounts": {
-        "documents": 0,
+        "documents": 10,
         "claims": 0,
         "events": 0,
         "politicians": 0,
         "organizations": 0,
         "roles": 0
       },
-      "unmappedRecordCount": 1,
+      "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 0,
-        "conflicted": 0,
-        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+        "integrated": 10,
+        "conflicted": 0
       }
     },
     {
       "path": "data/documents/run131-part5.json",
       "sha256": "c6a1369ff052705cbcf860327b1af5ebaa5ee09053c984f809f6c4de482e5c6f",
       "bytes": 2525,
-      "status": "AUXILIARY_JSON_INDEXED",
+      "status": "CANONICAL_MATERIALIZED",
       "targetLayer": "document_registry_source",
       "targetRegistries": [
         "documents"
       ],
       "recordCounts": {
-        "documents": 0,
+        "documents": 8,
         "claims": 0,
         "events": 0,
         "politicians": 0,
         "organizations": 0,
         "roles": 0
       },
-      "unmappedRecordCount": 1,
+      "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 0,
-        "conflicted": 0,
-        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+        "integrated": 8,
+        "conflicted": 0
       }
     },
     {
       "path": "data/documents/run131-part6.json",
       "sha256": "f60176b8670428f372b32fe82d6995b5f4113cccc68b348b245b7369edbd9c8c",
       "bytes": 4458,
-      "status": "AUXILIARY_JSON_INDEXED",
+      "status": "CANONICAL_MATERIALIZED",
       "targetLayer": "document_registry_source",
       "targetRegistries": [
         "documents"
       ],
       "recordCounts": {
-        "documents": 0,
+        "documents": 10,
         "claims": 0,
         "events": 0,
         "politicians": 0,
         "organizations": 0,
         "roles": 0
       },
-      "unmappedRecordCount": 1,
+      "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 0,
-        "conflicted": 0,
-        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+        "integrated": 10,
+        "conflicted": 0
       }
     },
     {
       "path": "data/documents/run131-part7.json",
       "sha256": "1a8d0f7940962a2c2e2b73d5cd816db186d2f11b3aa2ce864409d3d4e796987e",
       "bytes": 4433,
-      "status": "AUXILIARY_JSON_INDEXED",
+      "status": "CANONICAL_MATERIALIZED",
       "targetLayer": "document_registry_source",
       "targetRegistries": [
         "documents"
       ],
       "recordCounts": {
-        "documents": 0,
+        "documents": 10,
         "claims": 0,
         "events": 0,
         "politicians": 0,
         "organizations": 0,
         "roles": 0
       },
-      "unmappedRecordCount": 1,
+      "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 0,
-        "conflicted": 0,
-        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+        "integrated": 10,
+        "conflicted": 0
       }
     },
     {
       "path": "data/documents/run131-part8.json",
       "sha256": "6e5721f141bdac888da6194a381be1c298aa01f79210d3510588ff5447bd3de9",
       "bytes": 4459,
-      "status": "AUXILIARY_JSON_INDEXED",
+      "status": "CANONICAL_MATERIALIZED",
       "targetLayer": "document_registry_source",
       "targetRegistries": [
         "documents"
       ],
       "recordCounts": {
-        "documents": 0,
+        "documents": 10,
         "claims": 0,
         "events": 0,
         "politicians": 0,
         "organizations": 0,
         "roles": 0
       },
-      "unmappedRecordCount": 1,
+      "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 0,
-        "conflicted": 0,
-        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+        "integrated": 10,
+        "conflicted": 0
       }
     },
     {
       "path": "data/documents/run131-part9.json",
       "sha256": "0371ab2288efd07ad17479836881b1fcb26d01693062c3bf36144ed6a5794e3a",
       "bytes": 4470,
-      "status": "AUXILIARY_JSON_INDEXED",
+      "status": "CANONICAL_MATERIALIZED",
       "targetLayer": "document_registry_source",
       "targetRegistries": [
         "documents"
       ],
       "recordCounts": {
-        "documents": 0,
+        "documents": 10,
         "claims": 0,
         "events": 0,
         "politicians": 0,
         "organizations": 0,
         "roles": 0
       },
-      "unmappedRecordCount": 1,
+      "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 0,
-        "conflicted": 0,
-        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+        "integrated": 10,
+        "conflicted": 0
       }
     },
     {
@@ -29457,7 +29444,7 @@
       "path": "data/documents/run149-1956-laws.json",
       "sha256": "89d5d05a7d4baa14f8fb8700463a57e4051f1e3b448027eba5bf776e6dd4a829",
       "bytes": 2322,
-      "status": "PARTIAL_CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
       "targetLayer": "document_registry_source",
       "targetRegistries": [
         "documents"
@@ -29470,7 +29457,7 @@
         "organizations": 0,
         "roles": 0
       },
-      "unmappedRecordCount": 14,
+      "unmappedRecordCount": 0,
       "centralMapping": {
         "integrated": 3,
         "conflicted": 0
@@ -29805,24 +29792,23 @@
       "path": "data/documents/run150-party-formation-scholarship.json",
       "sha256": "5959025f4ef92f958618c8c5f8379c62a26c248553ce958110ebfc3e182f20d1",
       "bytes": 450,
-      "status": "AUXILIARY_JSON_INDEXED",
+      "status": "CANONICAL_MATERIALIZED",
       "targetLayer": "document_registry_source",
       "targetRegistries": [
         "documents"
       ],
       "recordCounts": {
-        "documents": 0,
+        "documents": 3,
         "claims": 0,
         "events": 0,
         "politicians": 0,
         "organizations": 0,
         "roles": 0
       },
-      "unmappedRecordCount": 1,
+      "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 0,
-        "conflicted": 0,
-        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+        "integrated": 3,
+        "conflicted": 0
       }
     },
     {
@@ -31950,24 +31936,23 @@
       "path": "data/documents/run198-oct22-31-contemporary.json",
       "sha256": "5301ccca56007d5c584854ff00448b799d020196ff76295699ff3eee6cc946f4",
       "bytes": 121084,
-      "status": "AUXILIARY_JSON_INDEXED",
+      "status": "CANONICAL_MATERIALIZED",
       "targetLayer": "document_registry_source",
       "targetRegistries": [
         "documents"
       ],
       "recordCounts": {
-        "documents": 0,
+        "documents": 91,
         "claims": 0,
         "events": 0,
         "politicians": 0,
         "organizations": 0,
         "roles": 0
       },
-      "unmappedRecordCount": 1,
+      "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 0,
-        "conflicted": 0,
-        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+        "integrated": 91,
+        "conflicted": 0
       }
     },
     {
@@ -33875,8 +33860,8 @@
       },
       "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 10,
-        "conflicted": 6
+        "integrated": 14,
+        "conflicted": 2
       }
     },
     {
@@ -33898,8 +33883,8 @@
       },
       "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 8,
-        "conflicted": 6
+        "integrated": 13,
+        "conflicted": 1
       }
     },
     {
@@ -34046,7 +34031,7 @@
       "path": "data/documents/run53-postarmistice-frus-734-779.json",
       "sha256": "8f670567062379b6f34ef6d47fec0093cad1fa1205fd2e9e5817bf0d2bd5075e",
       "bytes": 9650,
-      "status": "CONFLICT_REVIEW_REQUIRED",
+      "status": "CANONICAL_MATERIALIZED",
       "targetLayer": "document_registry_source",
       "targetRegistries": [
         "documents"
@@ -34061,8 +34046,8 @@
       },
       "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 36,
-        "conflicted": 10
+        "integrated": 46,
+        "conflicted": 0
       }
     },
     {
@@ -47334,7 +47319,7 @@
       "path": "data/evidence/eom-byeong-hak-1953.json",
       "sha256": "17665313dcb7bd300845f5f6a03395684d7b20b67caba8de9fc40d179b3b47e0",
       "bytes": 968,
-      "status": "CANONICAL_MATERIALIZED",
+      "status": "AUXILIARY_JSON_INDEXED",
       "targetLayer": "evidence_layer",
       "targetRegistries": [
         "evidence",
@@ -47349,12 +47334,13 @@
         "events": 0,
         "politicians": 0,
         "organizations": 0,
-        "roles": 4
+        "roles": 0
       },
-      "unmappedRecordCount": 0,
+      "unmappedRecordCount": 1,
       "centralMapping": {
-        "integrated": 4,
-        "conflicted": 0
+        "integrated": 0,
+        "conflicted": 0,
+        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
       }
     },
     {
@@ -48086,7 +48072,7 @@
       "path": "data/evidence/kwon-jung-don-1953.json",
       "sha256": "1bc3f2451f82bc2a5c39fd47a94edab88c19fb854dbcac1f4532aea2d1223c04",
       "bytes": 1122,
-      "status": "CANONICAL_MATERIALIZED",
+      "status": "AUXILIARY_JSON_INDEXED",
       "targetLayer": "evidence_layer",
       "targetRegistries": [
         "evidence",
@@ -48101,12 +48087,13 @@
         "events": 0,
         "politicians": 0,
         "organizations": 0,
-        "roles": 4
+        "roles": 0
       },
-      "unmappedRecordCount": 0,
+      "unmappedRecordCount": 1,
       "centralMapping": {
-        "integrated": 4,
-        "conflicted": 0
+        "integrated": 0,
+        "conflicted": 0,
+        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
       }
     },
     {
@@ -48169,7 +48156,7 @@
       "path": "data/evidence/lee-gap-seong-1952.json",
       "sha256": "fb930d51848358cb335d9de27cb1f997547b5d6b7e36e9b71b819b38c7da2ea9",
       "bytes": 2470,
-      "status": "CANONICAL_MATERIALIZED",
+      "status": "AUXILIARY_JSON_INDEXED",
       "targetLayer": "evidence_layer",
       "targetRegistries": [
         "evidence",
@@ -48184,12 +48171,13 @@
         "events": 0,
         "politicians": 0,
         "organizations": 0,
-        "roles": 1
+        "roles": 0
       },
-      "unmappedRecordCount": 0,
+      "unmappedRecordCount": 1,
       "centralMapping": {
-        "integrated": 1,
-        "conflicted": 0
+        "integrated": 0,
+        "conflicted": 0,
+        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
       }
     },
     {
@@ -48614,7 +48602,7 @@
       "path": "data/evidence/park-sul-eum-1953-union.json",
       "sha256": "528f216745a4fbbc3aa35d25f9c05f6abc10297c8492c008b9d13791e17dd088",
       "bytes": 344,
-      "status": "CANONICAL_MATERIALIZED",
+      "status": "AUXILIARY_JSON_INDEXED",
       "targetLayer": "evidence_layer",
       "targetRegistries": [
         "evidence",
@@ -48629,12 +48617,13 @@
         "events": 0,
         "politicians": 0,
         "organizations": 0,
-        "roles": 1
+        "roles": 0
       },
-      "unmappedRecordCount": 0,
+      "unmappedRecordCount": 1,
       "centralMapping": {
-        "integrated": 1,
-        "conflicted": 0
+        "integrated": 0,
+        "conflicted": 0,
+        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
       }
     },
     {
@@ -49784,7 +49773,7 @@
       "path": "data/evidence/politicians/run218-korea-japan-delegates.json",
       "sha256": "c4a12ef4cb6daa2ffbbfa877e98562282a0c5f8e0e4b11badc129ff9b8f1520c",
       "bytes": 2690,
-      "status": "CANONICAL_MATERIALIZED",
+      "status": "AUXILIARY_JSON_INDEXED",
       "targetLayer": "evidence_layer",
       "targetRegistries": [
         "evidence",
@@ -49799,12 +49788,13 @@
         "events": 0,
         "politicians": 0,
         "organizations": 0,
-        "roles": 8
+        "roles": 0
       },
-      "unmappedRecordCount": 0,
+      "unmappedRecordCount": 1,
       "centralMapping": {
-        "integrated": 8,
-        "conflicted": 0
+        "integrated": 0,
+        "conflicted": 0,
+        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
       }
     },
     {
@@ -51795,7 +51785,7 @@
       "path": "data/evidence/shin-ik-hui-1953-labor.json",
       "sha256": "812deff43043e44be2d6df30503074753ef7ca5f165b70921fab4021da3ca2ff",
       "bytes": 584,
-      "status": "CANONICAL_MATERIALIZED",
+      "status": "AUXILIARY_JSON_INDEXED",
       "targetLayer": "evidence_layer",
       "targetRegistries": [
         "evidence",
@@ -51810,12 +51800,13 @@
         "events": 0,
         "politicians": 0,
         "organizations": 0,
-        "roles": 2
+        "roles": 0
       },
-      "unmappedRecordCount": 0,
+      "unmappedRecordCount": 1,
       "centralMapping": {
-        "integrated": 2,
-        "conflicted": 0
+        "integrated": 0,
+        "conflicted": 0,
+        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
       }
     },
     {
@@ -52074,7 +52065,7 @@
       "path": "data/evidence/yu-wan-chang.json",
       "sha256": "768e67b83ebc6458455d3016bca646f68fb94b93beeb70f91fca18b31c03251b",
       "bytes": 894,
-      "status": "PARTIAL_CANONICAL_MATERIALIZED",
+      "status": "AUXILIARY_JSON_INDEXED",
       "targetLayer": "evidence_layer",
       "targetRegistries": [
         "evidence",
@@ -52089,12 +52080,13 @@
         "events": 0,
         "politicians": 0,
         "organizations": 0,
-        "roles": 2
+        "roles": 0
       },
       "unmappedRecordCount": 2,
       "centralMapping": {
-        "integrated": 2,
-        "conflicted": 0
+        "integrated": 0,
+        "conflicted": 0,
+        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
       }
     },
     {
@@ -52303,7 +52295,7 @@
         "organizations": 0,
         "roles": 0
       },
-      "unmappedRecordCount": 2,
+      "unmappedRecordCount": 1,
       "centralMapping": {
         "integrated": 0,
         "conflicted": 0,
@@ -61325,7 +61317,7 @@
         "organizations": 0,
         "roles": 0
       },
-      "unmappedRecordCount": 27,
+      "unmappedRecordCount": 1,
       "centralMapping": {
         "integrated": 0,
         "conflicted": 0,
@@ -65147,8 +65139,8 @@
         "roles"
       ],
       "recordCounts": {
-        "documents": 10,
-        "claims": 4,
+        "documents": 0,
+        "claims": 0,
         "events": 0,
         "politicians": 4,
         "organizations": 0,
@@ -65156,32 +65148,33 @@
       },
       "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 11,
-        "conflicted": 7
+        "integrated": 0,
+        "conflicted": 4
       }
     },
     {
       "path": "data/research/candidates/pass-101-peace-line-prehistory-graph.json",
       "sha256": "4d6d953053c5370fa8f16f30245084e64eda930bfc3c0a9c9ef5734d81968d30",
       "bytes": 6625,
-      "status": "CANONICAL_MATERIALIZED",
+      "status": "AUXILIARY_JSON_INDEXED",
       "targetLayer": "politician_candidate_source",
       "targetRegistries": [
         "politicians",
         "roles"
       ],
       "recordCounts": {
-        "documents": 10,
-        "claims": 2,
+        "documents": 0,
+        "claims": 0,
         "events": 0,
         "politicians": 0,
         "organizations": 0,
         "roles": 0
       },
-      "unmappedRecordCount": 0,
+      "unmappedRecordCount": 1,
       "centralMapping": {
-        "integrated": 12,
-        "conflicted": 0
+        "integrated": 0,
+        "conflicted": 0,
+        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
       }
     },
     {
@@ -65196,16 +65189,16 @@
       ],
       "recordCounts": {
         "documents": 0,
-        "claims": 3,
-        "events": 10,
+        "claims": 0,
+        "events": 0,
         "politicians": 10,
         "organizations": 0,
         "roles": 0
       },
       "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 16,
-        "conflicted": 7
+        "integrated": 4,
+        "conflicted": 6
       }
     },
     {
@@ -65219,41 +65212,42 @@
         "roles"
       ],
       "recordCounts": {
-        "documents": 1,
-        "claims": 2,
-        "events": 4,
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
         "politicians": 3,
         "organizations": 0,
         "roles": 0
       },
       "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 6,
-        "conflicted": 4
+        "integrated": 0,
+        "conflicted": 3
       }
     },
     {
       "path": "data/research/candidates/pass-104-january-cabinet-anchor.json",
       "sha256": "601fcbf7794bfbb4bb6e6fdf54481411557ccc3726ec86d1cbd9c3268bbff210",
       "bytes": 4530,
-      "status": "CANONICAL_MATERIALIZED",
+      "status": "AUXILIARY_JSON_INDEXED",
       "targetLayer": "politician_candidate_source",
       "targetRegistries": [
         "politicians",
         "roles"
       ],
       "recordCounts": {
-        "documents": 2,
-        "claims": 3,
-        "events": 2,
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
         "politicians": 0,
         "organizations": 0,
         "roles": 0
       },
-      "unmappedRecordCount": 0,
+      "unmappedRecordCount": 1,
       "centralMapping": {
-        "integrated": 7,
-        "conflicted": 0
+        "integrated": 0,
+        "conflicted": 0,
+        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
       }
     },
     {
@@ -65365,14 +65359,14 @@
       "recordCounts": {
         "documents": 0,
         "claims": 0,
-        "events": 9,
+        "events": 0,
         "politicians": 14,
         "organizations": 0,
         "roles": 0
       },
       "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 23,
+        "integrated": 14,
         "conflicted": 0
       }
     },
@@ -65461,14 +65455,14 @@
       "recordCounts": {
         "documents": 0,
         "claims": 0,
-        "events": 8,
+        "events": 0,
         "politicians": 8,
         "organizations": 0,
         "roles": 0
       },
       "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 13,
+        "integrated": 5,
         "conflicted": 3
       }
     },
@@ -65994,14 +65988,14 @@
       "recordCounts": {
         "documents": 0,
         "claims": 0,
-        "events": 10,
+        "events": 0,
         "politicians": 13,
         "organizations": 0,
         "roles": 0
       },
       "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 15,
+        "integrated": 5,
         "conflicted": 8
       }
     },
@@ -66018,14 +66012,14 @@
       "recordCounts": {
         "documents": 0,
         "claims": 0,
-        "events": 9,
+        "events": 0,
         "politicians": 9,
         "organizations": 1,
         "roles": 0
       },
       "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 13,
+        "integrated": 4,
         "conflicted": 6
       }
     },
@@ -66042,14 +66036,14 @@
       "recordCounts": {
         "documents": 0,
         "claims": 0,
-        "events": 9,
+        "events": 0,
         "politicians": 12,
         "organizations": 0,
         "roles": 0
       },
       "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 12,
+        "integrated": 3,
         "conflicted": 9
       }
     },
@@ -66066,22 +66060,22 @@
       "recordCounts": {
         "documents": 0,
         "claims": 0,
-        "events": 8,
+        "events": 0,
         "politicians": 10,
         "organizations": 0,
         "roles": 0
       },
       "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 13,
-        "conflicted": 5
+        "integrated": 6,
+        "conflicted": 4
       }
     },
     {
       "path": "data/research/candidates/pass-143-teachers-union-parliamentary-administrative-network.json",
       "sha256": "ae00747b39b08461f93d34516220f0862ad6f527a0fc48ab7068780ab30397c4",
       "bytes": 18527,
-      "status": "CONFLICT_REVIEW_REQUIRED",
+      "status": "AUXILIARY_JSON_INDEXED",
       "targetLayer": "politician_candidate_source",
       "targetRegistries": [
         "politicians",
@@ -66090,15 +66084,16 @@
       "recordCounts": {
         "documents": 0,
         "claims": 0,
-        "events": 13,
+        "events": 0,
         "politicians": 0,
         "organizations": 0,
         "roles": 0
       },
-      "unmappedRecordCount": 0,
+      "unmappedRecordCount": 1,
       "centralMapping": {
-        "integrated": 12,
-        "conflicted": 1
+        "integrated": 0,
+        "conflicted": 0,
+        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
       }
     },
     {
@@ -66180,7 +66175,7 @@
       "path": "data/research/candidates/pass-147-teachers-bill-archival-metadata-audit.json",
       "sha256": "0ae3dc4a21f1a59bae18a2500ad17de4b9479aed7731fc39ec8f8af39267fcc1",
       "bytes": 7669,
-      "status": "CANONICAL_MATERIALIZED",
+      "status": "AUXILIARY_JSON_INDEXED",
       "targetLayer": "politician_candidate_source",
       "targetRegistries": [
         "politicians",
@@ -66189,94 +66184,98 @@
       "recordCounts": {
         "documents": 0,
         "claims": 0,
-        "events": 8,
+        "events": 0,
         "politicians": 0,
         "organizations": 0,
         "roles": 0
       },
-      "unmappedRecordCount": 0,
+      "unmappedRecordCount": 1,
       "centralMapping": {
-        "integrated": 8,
-        "conflicted": 0
+        "integrated": 0,
+        "conflicted": 0,
+        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
       }
     },
     {
       "path": "data/research/candidates/pass-148-postcoup-education-legislation-lineage.json",
       "sha256": "29bbd86cab235605858329e531149703c554149cea74a3cb1263557b66e50fdf",
       "bytes": 9776,
-      "status": "CANONICAL_MATERIALIZED",
+      "status": "AUXILIARY_JSON_INDEXED",
       "targetLayer": "politician_candidate_source",
       "targetRegistries": [
         "politicians",
         "roles"
       ],
       "recordCounts": {
-        "documents": 6,
+        "documents": 0,
         "claims": 0,
-        "events": 8,
+        "events": 0,
         "politicians": 0,
         "organizations": 0,
         "roles": 0
       },
-      "unmappedRecordCount": 0,
+      "unmappedRecordCount": 1,
       "centralMapping": {
-        "integrated": 14,
-        "conflicted": 0
+        "integrated": 0,
+        "conflicted": 0,
+        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
       }
     },
     {
       "path": "data/research/candidates/pass-149-law708-teacher-labor-control.json",
       "sha256": "b9a7a630fa55763f9b7d89e9f77fac3fc5d6c1c176205dfd223f3cf9d5c2d46e",
       "bytes": 12247,
-      "status": "CANONICAL_MATERIALIZED",
+      "status": "AUXILIARY_JSON_INDEXED",
       "targetLayer": "politician_candidate_source",
       "targetRegistries": [
         "politicians",
         "roles"
       ],
       "recordCounts": {
-        "documents": 4,
+        "documents": 0,
         "claims": 0,
-        "events": 8,
+        "events": 0,
         "politicians": 0,
         "organizations": 0,
         "roles": 0
       },
-      "unmappedRecordCount": 0,
+      "unmappedRecordCount": 1,
       "centralMapping": {
-        "integrated": 12,
-        "conflicted": 0
+        "integrated": 0,
+        "conflicted": 0,
+        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
       }
     },
     {
       "path": "data/research/candidates/pass-150-law708-article13-enforcement-and-successor-lineage.json",
       "sha256": "54f7ce083fa40c1684bdc1fbce0d69284a8d4504279517d5381f96d412c234ba",
       "bytes": 15185,
-      "status": "CANONICAL_MATERIALIZED",
+      "status": "AUXILIARY_JSON_INDEXED",
       "targetLayer": "politician_candidate_source",
       "targetRegistries": [
         "politicians",
         "roles"
       ],
       "recordCounts": {
-        "documents": 10,
+        "documents": 0,
         "claims": 0,
-        "events": 8,
+        "events": 0,
         "politicians": 0,
         "organizations": 0,
         "roles": 0
       },
-      "unmappedRecordCount": 0,
+      "unmappedRecordCount": 1,
       "centralMapping": {
-        "integrated": 18,
-        "conflicted": 0
+        "integrated": 0,
+        "conflicted": 0,
+        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
       }
     },
     {
       "path": "data/research/candidates/pass-151-successor-teacher-labor-regime-1963.json",
       "sha256": "f92bba0dad09de4a25e350cc997e81112fa91e6cafba6490d2cd78f17fad636e",
       "bytes": 13091,
-      "status": "CONFLICT_REVIEW_REQUIRED",
+      "status": "AUXILIARY_JSON_INDEXED",
       "targetLayer": "politician_candidate_source",
       "targetRegistries": [
         "politicians",
@@ -66285,22 +66284,23 @@
       "recordCounts": {
         "documents": 0,
         "claims": 0,
-        "events": 8,
+        "events": 0,
         "politicians": 0,
         "organizations": 0,
         "roles": 0
       },
-      "unmappedRecordCount": 0,
+      "unmappedRecordCount": 1,
       "centralMapping": {
-        "integrated": 7,
-        "conflicted": 1
+        "integrated": 0,
+        "conflicted": 0,
+        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
       }
     },
     {
       "path": "data/research/candidates/pass-152-private-teacher-service-bridge-audit.json",
       "sha256": "67285e05347d55f0cfdba5f4e13ba4178f60b8cde448298192c2effbc770e387",
       "bytes": 13327,
-      "status": "CONFLICT_REVIEW_REQUIRED",
+      "status": "AUXILIARY_JSON_INDEXED",
       "targetLayer": "politician_candidate_source",
       "targetRegistries": [
         "politicians",
@@ -66309,22 +66309,23 @@
       "recordCounts": {
         "documents": 0,
         "claims": 0,
-        "events": 8,
+        "events": 0,
         "politicians": 0,
         "organizations": 0,
         "roles": 0
       },
-      "unmappedRecordCount": 0,
+      "unmappedRecordCount": 1,
       "centralMapping": {
-        "integrated": 3,
-        "conflicted": 5
+        "integrated": 0,
+        "conflicted": 0,
+        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
       }
     },
     {
       "path": "data/research/candidates/pass-153-original-1963-teacher-labor-text-audit.json",
       "sha256": "290a0370ff36cd25e0de0831465f989b48409edbac73ce8fe0b0b669e07681f4",
       "bytes": 11927,
-      "status": "CONFLICT_REVIEW_REQUIRED",
+      "status": "AUXILIARY_JSON_INDEXED",
       "targetLayer": "politician_candidate_source",
       "targetRegistries": [
         "politicians",
@@ -66333,15 +66334,16 @@
       "recordCounts": {
         "documents": 0,
         "claims": 0,
-        "events": 8,
+        "events": 0,
         "politicians": 0,
         "organizations": 0,
         "roles": 0
       },
-      "unmappedRecordCount": 0,
+      "unmappedRecordCount": 1,
       "centralMapping": {
-        "integrated": 4,
-        "conflicted": 4
+        "integrated": 0,
+        "conflicted": 0,
+        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
       }
     },
     {
@@ -67051,7 +67053,7 @@
       "path": "data/research/candidates/pass-260-peacetime-state-building-network.json",
       "sha256": "faa642b5220b25cb08aec5141ed6a65be05f65730073559dc8ab6724ce2952cc",
       "bytes": 10437,
-      "status": "CANONICAL_MATERIALIZED",
+      "status": "AUXILIARY_JSON_INDEXED",
       "targetLayer": "politician_candidate_source",
       "targetRegistries": [
         "politicians",
@@ -67060,22 +67062,23 @@
       "recordCounts": {
         "documents": 0,
         "claims": 0,
-        "events": 5,
+        "events": 0,
         "politicians": 0,
         "organizations": 0,
         "roles": 0
       },
-      "unmappedRecordCount": 0,
+      "unmappedRecordCount": 1,
       "centralMapping": {
-        "integrated": 5,
-        "conflicted": 0
+        "integrated": 0,
+        "conflicted": 0,
+        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
       }
     },
     {
       "path": "data/research/candidates/pass-261-central-bank-labor-local-election-network.json",
       "sha256": "be8847f88fb00a81c76ec260d47b47cac576a8a98a8b7a50021ecd0a1172f70f",
       "bytes": 21274,
-      "status": "CANONICAL_MATERIALIZED",
+      "status": "AUXILIARY_JSON_INDEXED",
       "targetLayer": "politician_candidate_source",
       "targetRegistries": [
         "politicians",
@@ -67084,15 +67087,16 @@
       "recordCounts": {
         "documents": 0,
         "claims": 0,
-        "events": 9,
+        "events": 0,
         "politicians": 0,
         "organizations": 0,
         "roles": 0
       },
-      "unmappedRecordCount": 0,
+      "unmappedRecordCount": 1,
       "centralMapping": {
-        "integrated": 9,
-        "conflicted": 0
+        "integrated": 0,
+        "conflicted": 0,
+        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
       }
     },
     {
@@ -67156,7 +67160,7 @@
         "roles"
       ],
       "recordCounts": {
-        "documents": 5,
+        "documents": 0,
         "claims": 0,
         "events": 0,
         "politicians": 12,
@@ -67165,7 +67169,7 @@
       },
       "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 11,
+        "integrated": 6,
         "conflicted": 6
       }
     },
@@ -67555,17 +67559,17 @@
         "roles"
       ],
       "recordCounts": {
-        "documents": 19,
-        "claims": 3,
-        "events": 4,
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
         "politicians": 10,
         "organizations": 0,
         "roles": 0
       },
       "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 22,
-        "conflicted": 14
+        "integrated": 3,
+        "conflicted": 7
       }
     },
     {
@@ -67579,17 +67583,17 @@
         "roles"
       ],
       "recordCounts": {
-        "documents": 6,
-        "claims": 4,
-        "events": 5,
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
         "politicians": 5,
         "organizations": 0,
         "roles": 0
       },
       "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 14,
-        "conflicted": 6
+        "integrated": 1,
+        "conflicted": 4
       }
     },
     {
@@ -67603,17 +67607,17 @@
         "roles"
       ],
       "recordCounts": {
-        "documents": 6,
-        "claims": 5,
-        "events": 5,
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
         "politicians": 10,
         "organizations": 0,
         "roles": 0
       },
       "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 16,
-        "conflicted": 10
+        "integrated": 3,
+        "conflicted": 7
       }
     },
     {
@@ -67939,7 +67943,7 @@
         "roles"
       ],
       "recordCounts": {
-        "documents": 10,
+        "documents": 0,
         "claims": 0,
         "events": 0,
         "politicians": 6,
@@ -67948,7 +67952,7 @@
       },
       "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 10,
+        "integrated": 0,
         "conflicted": 6
       }
     },
@@ -68133,14 +68137,14 @@
       "recordCounts": {
         "documents": 0,
         "claims": 0,
-        "events": 9,
+        "events": 0,
         "politicians": 10,
         "organizations": 0,
         "roles": 0
       },
       "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 10,
+        "integrated": 1,
         "conflicted": 9
       }
     },
@@ -68157,14 +68161,14 @@
       "recordCounts": {
         "documents": 0,
         "claims": 0,
-        "events": 12,
+        "events": 0,
         "politicians": 12,
         "organizations": 0,
         "roles": 0
       },
       "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 21,
+        "integrated": 9,
         "conflicted": 3
       }
     },
@@ -68244,24 +68248,24 @@
       "path": "data/research/candidates/pass-70-political-conference-actors.json",
       "sha256": "5a0b571fb5b10aa28853b21aff6e5193fd235ac5f639029ffd859762b0afed8d",
       "bytes": 7179,
-      "status": "PARTIAL_CANONICAL_MATERIALIZED",
+      "status": "CONFLICT_REVIEW_REQUIRED",
       "targetLayer": "politician_candidate_source",
       "targetRegistries": [
         "politicians",
         "roles"
       ],
       "recordCounts": {
-        "documents": 10,
-        "claims": 4,
+        "documents": 0,
+        "claims": 0,
         "events": 0,
         "politicians": 17,
         "organizations": 0,
         "roles": 0
       },
-      "unmappedRecordCount": 10,
+      "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 18,
-        "conflicted": 13
+        "integrated": 14,
+        "conflicted": 3
       }
     },
     {
@@ -68275,8 +68279,8 @@
         "roles"
       ],
       "recordCounts": {
-        "documents": 6,
-        "claims": 4,
+        "documents": 0,
+        "claims": 0,
         "events": 0,
         "politicians": 3,
         "organizations": 0,
@@ -68284,8 +68288,8 @@
       },
       "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 7,
-        "conflicted": 6
+        "integrated": 0,
+        "conflicted": 3
       }
     },
     {
@@ -68299,8 +68303,8 @@
         "roles"
       ],
       "recordCounts": {
-        "documents": 8,
-        "claims": 3,
+        "documents": 0,
+        "claims": 0,
         "events": 0,
         "politicians": 3,
         "organizations": 0,
@@ -68308,8 +68312,8 @@
       },
       "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 8,
-        "conflicted": 6
+        "integrated": 0,
+        "conflicted": 3
       }
     },
     {
@@ -68323,8 +68327,8 @@
         "roles"
       ],
       "recordCounts": {
-        "documents": 7,
-        "claims": 3,
+        "documents": 0,
+        "claims": 0,
         "events": 0,
         "politicians": 4,
         "organizations": 0,
@@ -68332,8 +68336,8 @@
       },
       "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 9,
-        "conflicted": 5
+        "integrated": 0,
+        "conflicted": 4
       }
     },
     {
@@ -68347,8 +68351,8 @@
         "roles"
       ],
       "recordCounts": {
-        "documents": 4,
-        "claims": 3,
+        "documents": 0,
+        "claims": 0,
         "events": 0,
         "politicians": 3,
         "organizations": 0,
@@ -68356,7 +68360,7 @@
       },
       "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 8,
+        "integrated": 1,
         "conflicted": 2
       }
     },
@@ -68364,24 +68368,25 @@
       "path": "data/research/candidates/pass-75-korean-actor-breadth.json",
       "sha256": "ec287b34b1ea3789e9769f384ae0c9a736ba8f2db6bf7c7eaf18972f447474e0",
       "bytes": 9200,
-      "status": "CONFLICT_REVIEW_REQUIRED",
+      "status": "AUXILIARY_JSON_INDEXED",
       "targetLayer": "politician_candidate_source",
       "targetRegistries": [
         "politicians",
         "roles"
       ],
       "recordCounts": {
-        "documents": 10,
+        "documents": 0,
         "claims": 0,
         "events": 0,
         "politicians": 0,
         "organizations": 0,
         "roles": 0
       },
-      "unmappedRecordCount": 0,
+      "unmappedRecordCount": 1,
       "centralMapping": {
-        "integrated": 9,
-        "conflicted": 1
+        "integrated": 0,
+        "conflicted": 0,
+        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
       }
     },
     {
@@ -68445,15 +68450,15 @@
       "recordCounts": {
         "documents": 0,
         "claims": 0,
-        "events": 8,
+        "events": 0,
         "politicians": 4,
         "organizations": 0,
         "roles": 0
       },
       "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 7,
-        "conflicted": 5
+        "integrated": 0,
+        "conflicted": 4
       }
     },
     {
@@ -68469,15 +68474,15 @@
       "recordCounts": {
         "documents": 0,
         "claims": 0,
-        "events": 4,
+        "events": 0,
         "politicians": 4,
-        "organizations": 1,
+        "organizations": 0,
         "roles": 0
       },
       "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 7,
-        "conflicted": 2
+        "integrated": 3,
+        "conflicted": 1
       }
     },
     {
@@ -68492,15 +68497,15 @@
       ],
       "recordCounts": {
         "documents": 0,
-        "claims": 2,
-        "events": 6,
+        "claims": 0,
+        "events": 0,
         "politicians": 1,
         "organizations": 0,
         "roles": 0
       },
       "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 8,
+        "integrated": 0,
         "conflicted": 1
       }
     },
@@ -68516,16 +68521,16 @@
       ],
       "recordCounts": {
         "documents": 0,
-        "claims": 3,
-        "events": 8,
+        "claims": 0,
+        "events": 0,
         "politicians": 5,
         "organizations": 0,
         "roles": 0
       },
       "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 11,
-        "conflicted": 5
+        "integrated": 1,
+        "conflicted": 4
       }
     },
     {
@@ -68540,16 +68545,16 @@
       ],
       "recordCounts": {
         "documents": 0,
-        "claims": 3,
-        "events": 8,
+        "claims": 0,
+        "events": 0,
         "politicians": 1,
         "organizations": 0,
         "roles": 1
       },
       "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 11,
-        "conflicted": 2
+        "integrated": 1,
+        "conflicted": 1
       }
     },
     {
@@ -68564,15 +68569,15 @@
       ],
       "recordCounts": {
         "documents": 0,
-        "claims": 3,
-        "events": 6,
+        "claims": 0,
+        "events": 0,
         "politicians": 2,
         "organizations": 0,
         "roles": 3
       },
       "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 10,
+        "integrated": 1,
         "conflicted": 4
       }
     },
@@ -68588,15 +68593,15 @@
       ],
       "recordCounts": {
         "documents": 0,
-        "claims": 4,
-        "events": 8,
+        "claims": 0,
+        "events": 0,
         "politicians": 3,
         "organizations": 0,
         "roles": 2
       },
       "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 12,
+        "integrated": 0,
         "conflicted": 5
       }
     },
@@ -68611,16 +68616,16 @@
         "roles"
       ],
       "recordCounts": {
-        "documents": 3,
-        "claims": 4,
-        "events": 8,
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
         "politicians": 5,
         "organizations": 0,
         "roles": 0
       },
       "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 20,
+        "integrated": 5,
         "conflicted": 0
       }
     },
@@ -68635,16 +68640,16 @@
         "roles"
       ],
       "recordCounts": {
-        "documents": 3,
-        "claims": 3,
-        "events": 8,
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
         "politicians": 10,
         "organizations": 0,
         "roles": 0
       },
       "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 18,
+        "integrated": 4,
         "conflicted": 6
       }
     },
@@ -68659,41 +68664,42 @@
         "roles"
       ],
       "recordCounts": {
-        "documents": 4,
-        "claims": 5,
-        "events": 10,
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
         "politicians": 10,
-        "organizations": 5,
+        "organizations": 0,
         "roles": 0
       },
       "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 25,
-        "conflicted": 9
+        "integrated": 2,
+        "conflicted": 8
       }
     },
     {
       "path": "data/research/candidates/pass-89-kdb-founding-liquidator-authority.json",
       "sha256": "1f892f3a6432e94bc67ecdd3ae3159c8013388f3b8875cb05d432f7e874df5d1",
       "bytes": 6078,
-      "status": "CONFLICT_REVIEW_REQUIRED",
+      "status": "AUXILIARY_JSON_INDEXED",
       "targetLayer": "politician_candidate_source",
       "targetRegistries": [
         "politicians",
         "roles"
       ],
       "recordCounts": {
-        "documents": 3,
-        "claims": 4,
-        "events": 8,
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
         "politicians": 0,
-        "organizations": 4,
+        "organizations": 0,
         "roles": 0
       },
-      "unmappedRecordCount": 0,
+      "unmappedRecordCount": 1,
       "centralMapping": {
-        "integrated": 17,
-        "conflicted": 2
+        "integrated": 0,
+        "conflicted": 0,
+        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
       }
     },
     {
@@ -68707,17 +68713,17 @@
         "roles"
       ],
       "recordCounts": {
-        "documents": 9,
-        "claims": 4,
-        "events": 9,
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
         "politicians": 5,
-        "organizations": 3,
+        "organizations": 0,
         "roles": 0
       },
       "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 25,
-        "conflicted": 5
+        "integrated": 3,
+        "conflicted": 2
       }
     },
     {
@@ -68731,17 +68737,17 @@
         "roles"
       ],
       "recordCounts": {
-        "documents": 6,
-        "claims": 4,
-        "events": 8,
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
         "politicians": 11,
         "organizations": 0,
         "roles": 0
       },
       "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 23,
-        "conflicted": 6
+        "integrated": 6,
+        "conflicted": 5
       }
     },
     {
@@ -68757,14 +68763,14 @@
       "recordCounts": {
         "documents": 0,
         "claims": 0,
-        "events": 5,
+        "events": 0,
         "politicians": 12,
         "organizations": 0,
         "roles": 0
       },
       "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 13,
+        "integrated": 8,
         "conflicted": 4
       }
     },
@@ -68781,15 +68787,15 @@
       "recordCounts": {
         "documents": 0,
         "claims": 0,
-        "events": 8,
+        "events": 0,
         "politicians": 12,
         "organizations": 0,
         "roles": 0
       },
       "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 9,
-        "conflicted": 11
+        "integrated": 3,
+        "conflicted": 9
       }
     },
     {
@@ -68805,15 +68811,15 @@
       "recordCounts": {
         "documents": 0,
         "claims": 0,
-        "events": 5,
+        "events": 0,
         "politicians": 10,
         "organizations": 0,
         "roles": 0
       },
       "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 2,
-        "conflicted": 13
+        "integrated": 1,
+        "conflicted": 9
       }
     },
     {
@@ -68827,41 +68833,42 @@
         "roles"
       ],
       "recordCounts": {
-        "documents": 2,
-        "claims": 2,
-        "events": 10,
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
         "politicians": 3,
         "organizations": 0,
         "roles": 0
       },
       "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 9,
-        "conflicted": 8
+        "integrated": 0,
+        "conflicted": 3
       }
     },
     {
       "path": "data/research/candidates/pass-96-fisheries-terminal-series.json",
       "sha256": "0b210b7ed7844ab6f1e268603705360be25688262d9afb491c0eed94e24754a5",
       "bytes": 4229,
-      "status": "CANONICAL_MATERIALIZED",
+      "status": "AUXILIARY_JSON_INDEXED",
       "targetLayer": "politician_candidate_source",
       "targetRegistries": [
         "politicians",
         "roles"
       ],
       "recordCounts": {
-        "documents": 8,
-        "claims": 4,
-        "events": 3,
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
         "politicians": 0,
         "organizations": 0,
         "roles": 0
       },
-      "unmappedRecordCount": 0,
+      "unmappedRecordCount": 1,
       "centralMapping": {
-        "integrated": 15,
-        "conflicted": 0
+        "integrated": 0,
+        "conflicted": 0,
+        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
       }
     },
     {
@@ -68875,8 +68882,8 @@
         "roles"
       ],
       "recordCounts": {
-        "documents": 3,
-        "claims": 2,
+        "documents": 0,
+        "claims": 0,
         "events": 0,
         "politicians": 2,
         "organizations": 0,
@@ -68884,8 +68891,8 @@
       },
       "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 3,
-        "conflicted": 4
+        "integrated": 0,
+        "conflicted": 2
       }
     },
     {
@@ -68899,8 +68906,8 @@
         "roles"
       ],
       "recordCounts": {
-        "documents": 1,
-        "claims": 4,
+        "documents": 0,
+        "claims": 0,
         "events": 0,
         "politicians": 6,
         "organizations": 0,
@@ -68908,8 +68915,8 @@
       },
       "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 5,
-        "conflicted": 6
+        "integrated": 2,
+        "conflicted": 4
       }
     },
     {
@@ -68923,8 +68930,8 @@
         "roles"
       ],
       "recordCounts": {
-        "documents": 8,
-        "claims": 6,
+        "documents": 0,
+        "claims": 0,
         "events": 0,
         "politicians": 5,
         "organizations": 0,
@@ -68932,8 +68939,8 @@
       },
       "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 11,
-        "conflicted": 8
+        "integrated": 0,
+        "conflicted": 5
       }
     },
     {
@@ -73549,7 +73556,7 @@
       "path": "data/research/events/pass-241-june-july-crisis-subevents.json",
       "sha256": "6b29774a46b03d1f219eefab5f71529295e30e69f4e9edc638e5244d93a07f03",
       "bytes": 3912,
-      "status": "CONFLICT_REVIEW_REQUIRED",
+      "status": "CANONICAL_MATERIALIZED",
       "targetLayer": "research_supporting_layer",
       "targetRegistries": [
         "documents",
@@ -73568,8 +73575,8 @@
       },
       "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 7,
-        "conflicted": 1
+        "integrated": 8,
+        "conflicted": 0
       }
     },
     {
@@ -99277,7 +99284,7 @@
       ],
       "recordCounts": {
         "documents": 0,
-        "claims": 5,
+        "claims": 0,
         "events": 0,
         "politicians": 0,
         "organizations": 0,
@@ -99285,7 +99292,7 @@
       },
       "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 13,
+        "integrated": 8,
         "conflicted": 0
       }
     },
@@ -120275,7 +120282,7 @@
         "organizations": 0,
         "roles": 0
       },
-      "unmappedRecordCount": 1,
+      "unmappedRecordCount": 35,
       "centralMapping": {
         "integrated": 0,
         "conflicted": 0,
@@ -125776,7 +125783,7 @@
         "organizations": 0,
         "roles": 0
       },
-      "unmappedRecordCount": 5,
+      "unmappedRecordCount": 3,
       "centralMapping": {
         "integrated": 0,
         "conflicted": 0,

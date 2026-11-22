@@ -15,7 +15,7 @@
   "relationCounts": {
     "candidatePoliticianIds": 1502,
     "relatedClaimIds": 139,
-    "relatedDocumentIds": 1913,
+    "relatedDocumentIds": 1967,
     "relatedEventIds": 2297,
     "relatedOrganizationIds": 1,
     "relatedRoleIds": 0
@@ -6751,7 +6751,32 @@
         "pol-yi-ki-pung"
       ],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "doc-r198-1023-0060",
+        "doc-r198-1024-0080",
+        "doc-r198-1024-0110",
+        "doc-r198-1025-0020",
+        "doc-r198-1025-0040",
+        "doc-r198-1025-0050",
+        "doc-r198-1025-0080",
+        "doc-r198-1025-0100",
+        "doc-r198-1025-0130",
+        "doc-r198-1025-0140",
+        "doc-r198-1025-0150",
+        "doc-r198-1026-0070",
+        "doc-r198-1026-0100",
+        "doc-r198-1027-0050",
+        "doc-r198-1028-0020",
+        "doc-r198-1028-0050",
+        "doc-r198-1029-0020",
+        "doc-r198-1029-0030",
+        "doc-r198-1029-0050",
+        "doc-r198-1030-0050",
+        "doc-r198-1030-0060",
+        "doc-r198-1030-0100",
+        "doc-r198-1031-0040",
+        "doc-r198-1031-0050"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -7793,7 +7818,7 @@
       "sourcePath": "data/evidence/lee-gap-seong-1952.json",
       "sourceSha256": "fb930d51848358cb335d9de27cb1f997547b5d6b7e36e9b71b819b38c7da2ea9",
       "sourceBytes": 2470,
-      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
       "targetRegistries": [
         "evidence",
         "politicians",
@@ -11259,7 +11284,18 @@
         "pol-kim-yun-geun"
       ],
       "relatedEventIds": [],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "doc-r198-1022-0010",
+        "doc-r198-1023-0050",
+        "doc-r198-1024-0080",
+        "doc-r198-1025-0020",
+        "doc-r198-1025-0100",
+        "doc-r198-1027-0090",
+        "doc-r198-1028-0050",
+        "doc-r198-1030-0020",
+        "doc-r198-1030-0040",
+        "doc-r198-1031-0010"
+      ],
       "relatedClaimIds": [],
       "relatedOrganizationIds": [],
       "relatedRoleIds": [],
@@ -11401,7 +11437,7 @@
       "sourcePath": "data/evidence/yu-wan-chang.json",
       "sourceSha256": "768e67b83ebc6458455d3016bca646f68fb94b93beeb70f91fca18b31c03251b",
       "sourceBytes": 894,
-      "sourceStatus": "PARTIAL_CANONICAL_MATERIALIZED",
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
       "targetRegistries": [
         "evidence",
         "politicians",
@@ -13991,6 +14027,16 @@
       "candidatePoliticianIds": [],
       "relatedEventIds": [],
       "relatedDocumentIds": [
+        "doc-r198-1022-0010",
+        "doc-r198-1023-0050",
+        "doc-r198-1024-0080",
+        "doc-r198-1025-0020",
+        "doc-r198-1025-0100",
+        "doc-r198-1027-0090",
+        "doc-r198-1028-0050",
+        "doc-r198-1030-0020",
+        "doc-r198-1030-0040",
+        "doc-r198-1031-0010",
         "doc-r198b-1101-0070",
         "doc-r198b-1103-0020",
         "doc-r198b-1103-0030",
@@ -14497,7 +14543,7 @@
       "sourcePath": "data/evidence/politicians/run218-korea-japan-delegates.json",
       "sourceSha256": "c4a12ef4cb6daa2ffbbfa877e98562282a0c5f8e0e4b11badc129ff9b8f1520c",
       "sourceBytes": 2690,
-      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
       "targetRegistries": [
         "evidence",
         "politicians",
@@ -16752,7 +16798,7 @@
       "sourcePath": "data/evidence/park-sul-eum-1953-union.json",
       "sourceSha256": "528f216745a4fbbc3aa35d25f9c05f6abc10297c8492c008b9d13791e17dd088",
       "sourceBytes": 344,
-      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
       "targetRegistries": [
         "evidence",
         "politicians",
@@ -30143,7 +30189,7 @@
       "sourcePath": "data/evidence/shin-ik-hui-1953-labor.json",
       "sourceSha256": "812deff43043e44be2d6df30503074753ef7ca5f165b70921fab4021da3ca2ff",
       "sourceBytes": 584,
-      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
       "targetRegistries": [
         "evidence",
         "politicians",
@@ -30547,7 +30593,7 @@
       "sourcePath": "data/evidence/eom-byeong-hak-1953.json",
       "sourceSha256": "17665313dcb7bd300845f5f6a03395684d7b20b67caba8de9fc40d179b3b47e0",
       "sourceBytes": 968,
-      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
       "targetRegistries": [
         "evidence",
         "politicians",
@@ -36553,7 +36599,7 @@
       "sourcePath": "data/evidence/kwon-jung-don-1953.json",
       "sourceSha256": "1bc3f2451f82bc2a5c39fd47a94edab88c19fb854dbcac1f4532aea2d1223c04",
       "sourceBytes": 1122,
-      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "sourceStatus": "AUXILIARY_JSON_INDEXED",
       "targetRegistries": [
         "evidence",
         "politicians",
@@ -36838,7 +36884,18 @@
         "evt-r198-25",
         "evt-r198-29"
       ],
-      "relatedDocumentIds": [],
+      "relatedDocumentIds": [
+        "doc-r198-1022-0020",
+        "doc-r198-1023-0040",
+        "doc-r198-1023-0050",
+        "doc-r198-1024-0040",
+        "doc-r198-1025-0040",
+        "doc-r198-1027-0040",
+        "doc-r198-1027-0070",
+        "doc-r198-1029-0020",
+        "doc-r198-1030-0030",
+        "doc-r198-1030-0040"
+      ],
       "relatedClaimIds": [
         "claim-r198-01",
         "claim-r198-02",

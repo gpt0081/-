@@ -4,9 +4,9 @@
   "centralSync": "PARTIAL",
   "eventSync": {
     "rootBefore": 6334,
-    "canonicalMaterialized": 6205,
+    "canonicalMaterialized": 5921,
     "added": 0,
-    "merged": 6205,
+    "merged": 5921,
     "rootAfter": 6334,
     "missingCanonicalIdsAfterSync": [],
     "duplicateRootIds": [],
@@ -5917,46 +5917,6 @@
         ]
       },
       {
-        "id": "actor126-general-clark",
-        "name": "Mark W. Clark",
-        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
-        "sourcePaths": [
-          "data/actors/run126-crosslink-reconciliation.json"
-        ]
-      },
-      {
-        "id": "actor126-henry-owen",
-        "name": "Henry Owen",
-        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
-        "sourcePaths": [
-          "data/actors/run126-crosslink-reconciliation.json"
-        ]
-      },
-      {
-        "id": "actor126-jeong-ho-jong",
-        "name": "정호종",
-        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
-        "sourcePaths": [
-          "data/actors/run126-labor.json"
-        ]
-      },
-      {
-        "id": "actor126-kang-il-mae",
-        "name": "강일매",
-        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
-        "sourcePaths": [
-          "data/actors/run126-labor.json"
-        ]
-      },
-      {
-        "id": "actor126-unidentified-attackers",
-        "name": "경향신문사 피습 가해자(신원 미확정)",
-        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
-        "sourcePaths": [
-          "data/actors/run126-crosslink-reconciliation.json"
-        ]
-      },
-      {
         "id": "cand-arthur-dean",
         "name": null,
         "reason": "MISSING_PERSON_NAME_NOT_PROMOTED",
@@ -7342,70 +7302,6 @@
         ]
       },
       {
-        "id": "ext125b-dean-rusk",
-        "name": "Dean Rusk",
-        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
-        "sourcePaths": [
-          "data/actors/run125b-us-external-actors.json"
-        ]
-      },
-      {
-        "id": "ext125b-douglas-macarthur",
-        "name": "Douglas MacArthur",
-        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
-        "sourcePaths": [
-          "data/actors/run125b-us-external-actors.json"
-        ]
-      },
-      {
-        "id": "ext125b-harry-truman",
-        "name": "Harry S. Truman",
-        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
-        "sourcePaths": [
-          "data/actors/run125b-us-external-actors.json"
-        ]
-      },
-      {
-        "id": "ext125b-john-muccio",
-        "name": "John Muccio",
-        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
-        "sourcePaths": [
-          "data/actors/run125b-us-external-actors.json"
-        ]
-      },
-      {
-        "id": "ext125c-clarence-meyer",
-        "name": "Clarence E. Meyer",
-        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
-        "sourcePaths": [
-          "data/actors/run125c-us-economic-mission.json"
-        ]
-      },
-      {
-        "id": "ext125c-kenneth-young",
-        "name": "Kenneth Young",
-        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
-        "sourcePaths": [
-          "data/actors/run125c-us-economic-mission.json"
-        ]
-      },
-      {
-        "id": "ext125d-allan-lightner",
-        "name": "E. Allan Lightner",
-        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
-        "sourcePaths": [
-          "data/actors/run125d-us-diplomats.json"
-        ]
-      },
-      {
-        "id": "ext125d-james-van-fleet",
-        "name": "James A. Van Fleet",
-        "reason": "NON_DOMESTIC_OR_UNSUPPORTED_ID_PREFIX",
-        "sourcePaths": [
-          "data/actors/run125d-us-diplomats.json"
-        ]
-      },
-      {
         "id": "foreign-dwight-d-eisenhower",
         "name": "Dwight D. Eisenhower",
         "reason": "EXTERNAL_ACTOR_OUTSIDE_DOMESTIC_ROOT",
@@ -7614,7 +7510,7 @@
         ]
       }
     ],
-    "policyExcludedCount": 248
+    "policyExcludedCount": 235
   },
   "branchSnapshotSync": {
     "sourcePath": "data/research/branch-snapshots/pr74-data-politicians.json",
@@ -8094,7 +7990,7 @@
     "status": "PARTIAL"
   },
   "rootFileHashes": {
-    "data/events.json": "0832898b4d0beaa9f0b639389b9ebae856917e159dc82e2a65438348674d54f3",
+    "data/events.json": "19ad284cfb6fc03d8dee840bc65ba3da1cf647f45e6402c787c2aede20ffd55b",
     "data/politicians.json": "b3e0eed1276eda3c10876d29934600d32e64df55f722015b8bf5f995c933bdc9"
   },
   "rootFileCounts": {
@@ -8102,7 +7998,7 @@
     "politicians": 1807
   },
   "sourceIntegrationStatus": "FULL_INTEGRATION_INCOMPLETE",
-  "sourceConflictedIds": 915,
-  "sourceAuxiliaryRecords": 2245,
+  "sourceConflictedIds": 869,
+  "sourceAuxiliaryRecords": 2232,
   "policy": "Named pol-/cand-/candidate- records enter the domestic politician root. The six cand172- legacy snapshot IDs are imported only as DISCOVERED candidates; unresolved document/event/file references are moved to unresolvedSourceLinks and role text is explicitly unverified. No name-based promotion or identity merge. Shared variants retain source pointers; typed variants and unresolved scalar conflicts remain explicit."
 }
