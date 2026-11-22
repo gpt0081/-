@@ -341,7 +341,7 @@ report = {"canonicalMaterialized": {k: v["uniqueIds"] - v["conflictedIds"] for k
           "auxiliaryRecords": len(auxiliary), "partialSources": sorted(partial_sources),
           "status": "FULL_INTEGRATION_INCOMPLETE" if parse_errors or conflicts or unstructured or partial_sources or auxiliary else "CENTRAL_SYNC_PASS",
           "unintegratedSources": [{"path": p, "reason": "AUXILIARY_OR_PARTIAL_RECORDS"} for p in sorted(set(unstructured + partial_sources))],
-          "policy": "Every ID retained; contradictory versions are explicit alternatives, not silently overwritten. Unstructured source files remain in source tree."}
+          "policy": "Stable IDs with a shared identity key are materialized through conservative field-wise merge. Additive arrays are unioned; conflicting scalar values are omitted from the merged projection and preserved with per-source provenance. Identity-critical conflicts remain CONFLICTED. Original alternatives are never deleted."}
 (OUT / "report.json").write_text(
     json.dumps(report, ensure_ascii=False, indent=2) + chr(10), encoding="utf-8")
 print(json.dumps({"status": report["status"], "files": len(sources), "totals": totals,

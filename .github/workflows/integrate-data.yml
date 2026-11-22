@@ -73,8 +73,6 @@ jobs:
           result=$?
           echo "exit_code=$result" >> "$GITHUB_OUTPUT"
           exit 0
-      - name: Build per-source integration triage
-        run: python scripts/triage_integration.py
       - name: Audit politician file references and event/document links
         id: politician_audit
         shell: bash
@@ -84,6 +82,8 @@ jobs:
           result=$?
           echo "exit_code=$result" >> "$GITHUB_OUTPUT"
           exit 0
+      - name: Build complete per-file and grouped source inventory
+        run: python scripts/triage_integration.py
       - name: Preserve generated audit and inventory reports
         if: always()
         uses: actions/upload-artifact@v4
@@ -98,7 +98,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/events.json data/politicians.json data/integration/generated data/integration/canonical
+          git add data/events.json data/politicians.json data/integration/generated data/integration/canonical data/integration/inventory data/integration/MASTER_INDEX.json
           if ! git diff --cached --quiet; then
             git commit -m 'integration: synchronize central registries and preserve audit'
             git push

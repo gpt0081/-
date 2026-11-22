@@ -88,8 +88,23 @@ def is_foreign_person(person):
     )
     if any(marker in text for marker in markers):
         return True
-    nationality = " ".join(str(person.get(key, "")) for key in ("nationality", "citizenship", "nationalityCode", "citizenshipCountry")).lower()
-    if nationality and not any(token in nationality for token in ("korean", "korea", "대한민국", "한국")):
+    nationality_values = []
+    for key in ("nationality", "citizenship", "nationalityCode", "citizenshipCountry"):
+        value = person.get(key)
+        if isinstance(value, list):
+            nationality_values.extend(str(item) for item in value if item is not None and str(item).strip())
+        elif value is not None and str(value).strip():
+            nationality_values.append(str(value))
+    nationality = " ".join(nationality_values).lower()
+    foreign_nationalities = (
+        "american", "united states", "usa", "u.s. citizen",
+        "british", "united kingdom", "japanese", "japan",
+        "chinese", "china", "soviet", "russian", "french", "france",
+        "canadian", "canada", "australian", "australia",
+        "german", "germany", "italian", "italy", "dutch", "netherlands",
+        "indian", "india", "filipino", "philippine", "philippines"
+    )
+    if any(token in nationality for token in foreign_nationalities):
         return True
     return False
 
