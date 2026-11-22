@@ -1,15 +1,15 @@
 {
   "sourceFiles": 5189,
   "uniqueCentralIds": {
-    "documents": 12148,
+    "documents": 12203,
     "claims": 4905,
-    "events": 5976,
+    "events": 6005,
     "politicians": 2256,
     "organizations": 262,
     "roles": 45
   },
-  "conflictedIds": 31,
-  "auxiliaryRecords": 2206,
+  "conflictedIds": 41,
+  "auxiliaryRecords": 2191,
   "unresolvedSources": [
     "data/actors/run125b-us-external-actors.json",
     "data/actors/run125c-us-economic-mission.json",
@@ -36,9 +36,6 @@
     "data/documents/pass-239m2-1954-proposal-and-reversal-signers.json",
     "data/documents/pass-257q-1954-cabinet-gazette-originals.json",
     "data/documents/run108-mirror-aliases.json",
-    "data/documents/run108-priority-metadata-a.json",
-    "data/documents/run108-priority-metadata-b.json",
-    "data/documents/run108-priority-metadata-c.json",
     "data/documents/run124c-presidential-original-crosswalk.json",
     "data/documents/run128-frus-metadata-a.json",
     "data/documents/run128-frus-metadata-b.json",
@@ -47,29 +44,18 @@
     "data/documents/run128-korean-metadata.json",
     "data/documents/run128-source-index.json",
     "data/documents/run131-index.json",
-    "data/documents/run134-cabinet-transcriptions-a.json",
-    "data/documents/run134-cabinet-transcriptions-b.json",
-    "data/documents/run134-cabinet-transcriptions-c.json",
-    "data/documents/run134-cabinet-transcriptions-d.json",
-    "data/documents/run134-cabinet-transcriptions-e.json",
-    "data/documents/run134-cabinet-transcriptions-f.json",
-    "data/documents/run141-local-government-archive.json",
     "data/documents/run142-frus-treaty-negotiation.json",
     "data/documents/run144-frus-june1953.json",
-    "data/documents/run150-original-viewer-index.json",
     "data/documents/run160-frus1961-source-headers.json",
     "data/documents/run51-robertson-armistice-bargain.json",
     "data/documents/run52-armistice-implementation-reconstruction.json",
     "data/documents/run92-civic-state-metadata.json",
-    "data/events/run110b-1952-constitutional-vote.json",
-    "data/events/run110c-1951-proposal.json",
     "data/events/run111c-fed-primary-upgrades.json",
     "data/events/run113-15principles-policy-actions.json",
     "data/events/run114-institutional-actions.json",
     "data/events/run114b-april21-actions.json",
     "data/events/run115-procedural-vote-correction.json",
     "data/events/run142-1948-constitutional-budget-votes.json",
-    "data/events/run142-enforcement-actions.json",
     "data/events/run149-actor-links.json",
     "data/events/run153-actor-links.json",
     "data/evidence/1949-1953-legal-transition-run183.json",
@@ -450,7 +436,6 @@
     "data/research/depth/rhee-peacetime-institutions-pass19.json",
     "data/research/events/pass-159-july-amendment-subevents.json",
     "data/research/events/pass-232-pusan-crisis-sub-events.json",
-    "data/research/events/pass-233-notice37-actions.json",
     "data/research/events/pass-285-jinbo-procedural-chain.json",
     "data/research/evidence/2026-10-05-rhee-pass207-postarmistice-statecraft.json",
     "data/research/evidence/pass-159-anti-national-law-july-audit.json",
@@ -1644,22 +1629,6 @@
     {
       "code": "DANGLING_REFERENCE",
       "kind": "events",
-      "id": "evt-r150-1954-compulsory-education",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d150-edu-plan-1953-index"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
-      "id": "evt-r150-1955-reconstruction-plan",
-      "field": "documentIds",
-      "targetKind": "documents",
-      "targetId": "d150-econ-plan-original-index"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "events",
       "id": "evt117-edu-19500601-ceremony",
       "field": "documentIds",
       "targetKind": "documents",
@@ -1767,14 +1736,6 @@
       "id": "pol-cho-bong-am",
       "field": "eventIds",
       "targetKind": "events",
-      "targetId": "evt110b-1952-jan18-constitutional-vote"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "politicians",
-      "id": "pol-cho-bong-am",
-      "field": "eventIds",
-      "targetKind": "events",
       "targetId": "evt-r168-13"
     },
     {
@@ -1868,14 +1829,6 @@
     {
       "code": "DANGLING_REFERENCE",
       "kind": "politicians",
-      "id": "pol-eom-sang-seop",
-      "field": "eventIds",
-      "targetKind": "events",
-      "targetId": "evt110b-1952-jan18-constitutional-vote"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "politicians",
       "id": "pol-go-jae-bong-1956",
       "field": "eventIds",
       "targetKind": "events",
@@ -1904,14 +1857,6 @@
       "field": "eventIds",
       "targetKind": "events",
       "targetId": "evt-r148b-unesco-committee"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "politicians",
-      "id": "pol-kim-jeong-sil",
-      "field": "eventIds",
-      "targetKind": "events",
-      "targetId": "evt110b-1952-jan18-constitutional-vote"
     },
     {
       "code": "DANGLING_REFERENCE",
@@ -2016,14 +1961,6 @@
       "field": "eventIds",
       "targetKind": "events",
       "targetId": "evt-r150-19550920-assembly-inquiry"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "politicians",
-      "id": "pol-r141-han-jong-so",
-      "field": "evidenceDocumentIds",
-      "targetKind": "documents",
-      "targetId": "d141-local-2046"
     },
     {
       "code": "DANGLING_REFERENCE",
@@ -2396,14 +2333,6 @@
     {
       "code": "DANGLING_REFERENCE",
       "kind": "politicians",
-      "id": "pol-seo-beom-seok",
-      "field": "eventIds",
-      "targetKind": "events",
-      "targetId": "evt110b-1952-jan18-constitutional-vote"
-    },
-    {
-      "code": "DANGLING_REFERENCE",
-      "kind": "politicians",
       "id": "pol-shin-sung-mo",
       "field": "eventIds",
       "targetKind": "events",
@@ -2498,7 +2427,7 @@
       "targetId": "evt-r150-19560905-seoul-council"
     }
   ],
-  "referenceIssueCount": 112,
+  "referenceIssueCount": 105,
   "crosswalkGaps": [],
   "rootSyncStatus": "PARTIAL",
   "centralSync": "PARTIAL",

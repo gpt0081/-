@@ -1,14 +1,14 @@
 {
   "schemaVersion": 2,
   "group": "data-documents.json",
-  "sourceSnapshotCommit": "702c0274e249a9bc1bacb89d61b351a23d79a3b0",
-  "sourceTreeSha": "aef275801ebc259e2bc7278b1a9a3cfca32fd95c",
+  "sourceSnapshotCommit": "a773add5b1541b7b298dd8419641ff12e26fdc4a",
+  "sourceTreeSha": "66184667c0f1f174fdeff633e94452f28a7e3f71",
   "fileCount": 636,
   "statusCounts": {
-    "BLOCKED_ID_CONFLICT": 2,
-    "CANONICAL_MATERIALIZED": 605,
+    "BLOCKED_ID_CONFLICT": 6,
+    "CANONICAL_MATERIALIZED": 612,
     "NON_JSON_SOURCE_PRESERVED": 1,
-    "UNMAPPED_AUXILIARY_OR_PARTIAL": 28
+    "UNMAPPED_AUXILIARY_OR_PARTIAL": 17
   },
   "files": [
     {
@@ -3328,9 +3328,100 @@
       "targetRegistries": [
         "documents"
       ],
-      "sourceStatus": "CANONICAL_MATERIALIZED",
-      "status": "CANONICAL_MATERIALIZED",
-      "conflicts": [],
+      "sourceStatus": "CONFLICT_REVIEW_REQUIRED",
+      "status": "BLOCKED_ID_CONFLICT",
+      "conflicts": [
+        {
+          "kind": "documents",
+          "id": "d108-frus49-268",
+          "variantCount": 2,
+          "mergeReview": {
+            "status": "BLOCKED",
+            "reason": "CONFLICTING_DOCUMENT_NUMBERS"
+          }
+        },
+        {
+          "kind": "documents",
+          "id": "d108-frus49-281",
+          "variantCount": 2,
+          "mergeReview": {
+            "status": "BLOCKED",
+            "reason": "CONFLICTING_DOCUMENT_NUMBERS"
+          }
+        },
+        {
+          "kind": "documents",
+          "id": "d108-frus49-290",
+          "variantCount": 2,
+          "mergeReview": {
+            "status": "BLOCKED",
+            "reason": "CONFLICTING_DOCUMENT_NUMBERS"
+          }
+        },
+        {
+          "kind": "documents",
+          "id": "d108-frus49-294",
+          "variantCount": 2,
+          "mergeReview": {
+            "status": "BLOCKED",
+            "reason": "CONFLICTING_DOCUMENT_NUMBERS"
+          }
+        },
+        {
+          "kind": "documents",
+          "id": "d108-frus49-300",
+          "variantCount": 2,
+          "mergeReview": {
+            "status": "BLOCKED",
+            "reason": "CONFLICTING_DOCUMENT_NUMBERS"
+          }
+        },
+        {
+          "kind": "documents",
+          "id": "d108-frus49-303",
+          "variantCount": 2,
+          "mergeReview": {
+            "status": "BLOCKED",
+            "reason": "CONFLICTING_DOCUMENT_NUMBERS"
+          }
+        },
+        {
+          "kind": "documents",
+          "id": "d108-frus49-306",
+          "variantCount": 2,
+          "mergeReview": {
+            "status": "BLOCKED",
+            "reason": "CONFLICTING_DOCUMENT_NUMBERS"
+          }
+        },
+        {
+          "kind": "documents",
+          "id": "d108-frus51-304",
+          "variantCount": 2,
+          "mergeReview": {
+            "status": "BLOCKED",
+            "reason": "CONFLICTING_DOCUMENT_NUMBERS"
+          }
+        },
+        {
+          "kind": "documents",
+          "id": "d108-frus51-332",
+          "variantCount": 2,
+          "mergeReview": {
+            "status": "BLOCKED",
+            "reason": "CONFLICTING_DOCUMENT_NUMBERS"
+          }
+        },
+        {
+          "kind": "documents",
+          "id": "d108-frus51-339",
+          "variantCount": 2,
+          "mergeReview": {
+            "status": "BLOCKED",
+            "reason": "CONFLICTING_DOCUMENT_NUMBERS"
+          }
+        }
+      ],
       "unintegratedReason": null
     },
     {
@@ -3361,7 +3452,7 @@
       "sha256": "9650e09ebd0a2c74c5a30a130c6a827b0b1d4acc626897b640a52ba8d7c3f018",
       "bytes": 2336,
       "recordCounts": {
-        "documents": 0,
+        "documents": 5,
         "claims": 0,
         "events": 0,
         "politicians": 0,
@@ -3372,10 +3463,56 @@
       "targetRegistries": [
         "documents"
       ],
-      "sourceStatus": "AUXILIARY_JSON_INDEXED",
-      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
-      "conflicts": [],
-      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+      "sourceStatus": "CONFLICT_REVIEW_REQUIRED",
+      "status": "BLOCKED_ID_CONFLICT",
+      "conflicts": [
+        {
+          "kind": "documents",
+          "id": "d108-frus49-268",
+          "variantCount": 2,
+          "mergeReview": {
+            "status": "BLOCKED",
+            "reason": "CONFLICTING_DOCUMENT_NUMBERS"
+          }
+        },
+        {
+          "kind": "documents",
+          "id": "d108-frus49-281",
+          "variantCount": 2,
+          "mergeReview": {
+            "status": "BLOCKED",
+            "reason": "CONFLICTING_DOCUMENT_NUMBERS"
+          }
+        },
+        {
+          "kind": "documents",
+          "id": "d108-frus49-290",
+          "variantCount": 2,
+          "mergeReview": {
+            "status": "BLOCKED",
+            "reason": "CONFLICTING_DOCUMENT_NUMBERS"
+          }
+        },
+        {
+          "kind": "documents",
+          "id": "d108-frus49-294",
+          "variantCount": 2,
+          "mergeReview": {
+            "status": "BLOCKED",
+            "reason": "CONFLICTING_DOCUMENT_NUMBERS"
+          }
+        },
+        {
+          "kind": "documents",
+          "id": "d108-frus49-300",
+          "variantCount": 2,
+          "mergeReview": {
+            "status": "BLOCKED",
+            "reason": "CONFLICTING_DOCUMENT_NUMBERS"
+          }
+        }
+      ],
+      "unintegratedReason": null
     },
     {
       "path": "data/documents/run108-priority-metadata-b.json",
@@ -3383,7 +3520,7 @@
       "sha256": "eac6c02f1adb2da29ea57416e9615a6046c022e4bb48b2c561bec7a616b4ee8b",
       "bytes": 1171,
       "recordCounts": {
-        "documents": 0,
+        "documents": 3,
         "claims": 0,
         "events": 0,
         "politicians": 0,
@@ -3394,10 +3531,38 @@
       "targetRegistries": [
         "documents"
       ],
-      "sourceStatus": "AUXILIARY_JSON_INDEXED",
-      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
-      "conflicts": [],
-      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+      "sourceStatus": "CONFLICT_REVIEW_REQUIRED",
+      "status": "BLOCKED_ID_CONFLICT",
+      "conflicts": [
+        {
+          "kind": "documents",
+          "id": "d108-frus49-303",
+          "variantCount": 2,
+          "mergeReview": {
+            "status": "BLOCKED",
+            "reason": "CONFLICTING_DOCUMENT_NUMBERS"
+          }
+        },
+        {
+          "kind": "documents",
+          "id": "d108-frus49-306",
+          "variantCount": 2,
+          "mergeReview": {
+            "status": "BLOCKED",
+            "reason": "CONFLICTING_DOCUMENT_NUMBERS"
+          }
+        },
+        {
+          "kind": "documents",
+          "id": "d108-frus51-304",
+          "variantCount": 2,
+          "mergeReview": {
+            "status": "BLOCKED",
+            "reason": "CONFLICTING_DOCUMENT_NUMBERS"
+          }
+        }
+      ],
+      "unintegratedReason": null
     },
     {
       "path": "data/documents/run108-priority-metadata-c.json",
@@ -3405,7 +3570,7 @@
       "sha256": "22dc7521ce1222324362d61902b8cff688fe0a2cba12b8f05031562be0f1daa6",
       "bytes": 694,
       "recordCounts": {
-        "documents": 0,
+        "documents": 2,
         "claims": 0,
         "events": 0,
         "politicians": 0,
@@ -3416,10 +3581,29 @@
       "targetRegistries": [
         "documents"
       ],
-      "sourceStatus": "AUXILIARY_JSON_INDEXED",
-      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
-      "conflicts": [],
-      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+      "sourceStatus": "CONFLICT_REVIEW_REQUIRED",
+      "status": "BLOCKED_ID_CONFLICT",
+      "conflicts": [
+        {
+          "kind": "documents",
+          "id": "d108-frus51-332",
+          "variantCount": 2,
+          "mergeReview": {
+            "status": "BLOCKED",
+            "reason": "CONFLICTING_DOCUMENT_NUMBERS"
+          }
+        },
+        {
+          "kind": "documents",
+          "id": "d108-frus51-339",
+          "variantCount": 2,
+          "mergeReview": {
+            "status": "BLOCKED",
+            "reason": "CONFLICTING_DOCUMENT_NUMBERS"
+          }
+        }
+      ],
+      "unintegratedReason": null
     },
     {
       "path": "data/documents/run108c-economic-plan-index.json",
@@ -7321,7 +7505,7 @@
       "sha256": "cb54905e69f6afd8c545294e95973f7ae27b3ba4afec1164e8015aaf1ebf3975",
       "bytes": 1926,
       "recordCounts": {
-        "documents": 0,
+        "documents": 10,
         "claims": 0,
         "events": 0,
         "politicians": 0,
@@ -7332,10 +7516,10 @@
       "targetRegistries": [
         "documents"
       ],
-      "sourceStatus": "AUXILIARY_JSON_INDEXED",
-      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
       "conflicts": [],
-      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+      "unintegratedReason": null
     },
     {
       "path": "data/documents/run134-cabinet-transcriptions-b.json",
@@ -7343,7 +7527,7 @@
       "sha256": "69342e261e3c3022dfa386b01401bb9720b22471f47f64dcd3996f68624705f4",
       "bytes": 1929,
       "recordCounts": {
-        "documents": 0,
+        "documents": 10,
         "claims": 0,
         "events": 0,
         "politicians": 0,
@@ -7354,10 +7538,10 @@
       "targetRegistries": [
         "documents"
       ],
-      "sourceStatus": "AUXILIARY_JSON_INDEXED",
-      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
       "conflicts": [],
-      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+      "unintegratedReason": null
     },
     {
       "path": "data/documents/run134-cabinet-transcriptions-c.json",
@@ -7365,7 +7549,7 @@
       "sha256": "eefad200f3e6bf020db6be84ed6614b3ebc12d47c225ed798b99c2b035eb4527",
       "bytes": 317,
       "recordCounts": {
-        "documents": 0,
+        "documents": 3,
         "claims": 0,
         "events": 0,
         "politicians": 0,
@@ -7376,10 +7560,10 @@
       "targetRegistries": [
         "documents"
       ],
-      "sourceStatus": "AUXILIARY_JSON_INDEXED",
-      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
       "conflicts": [],
-      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+      "unintegratedReason": null
     },
     {
       "path": "data/documents/run134-cabinet-transcriptions-d.json",
@@ -7387,7 +7571,7 @@
       "sha256": "e4e6b4f87d025a735b2a2035cbefe95bd09fa8eefe18f6e24c10f17f109076c7",
       "bytes": 320,
       "recordCounts": {
-        "documents": 0,
+        "documents": 3,
         "claims": 0,
         "events": 0,
         "politicians": 0,
@@ -7398,10 +7582,10 @@
       "targetRegistries": [
         "documents"
       ],
-      "sourceStatus": "AUXILIARY_JSON_INDEXED",
-      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
       "conflicts": [],
-      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+      "unintegratedReason": null
     },
     {
       "path": "data/documents/run134-cabinet-transcriptions-e.json",
@@ -7409,7 +7593,7 @@
       "sha256": "c5a95584fd742180c721f6ba4f26fdbde74840014f01b4fb31c1caf81f3f0c48",
       "bytes": 317,
       "recordCounts": {
-        "documents": 0,
+        "documents": 3,
         "claims": 0,
         "events": 0,
         "politicians": 0,
@@ -7420,10 +7604,10 @@
       "targetRegistries": [
         "documents"
       ],
-      "sourceStatus": "AUXILIARY_JSON_INDEXED",
-      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
       "conflicts": [],
-      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+      "unintegratedReason": null
     },
     {
       "path": "data/documents/run134-cabinet-transcriptions-f.json",
@@ -7431,7 +7615,7 @@
       "sha256": "80e5f771ab3da53a5b6b51f4aa2602f16cf94712c6cf3efb0726366c73cf52a2",
       "bytes": 329,
       "recordCounts": {
-        "documents": 0,
+        "documents": 3,
         "claims": 0,
         "events": 0,
         "politicians": 0,
@@ -7442,10 +7626,10 @@
       "targetRegistries": [
         "documents"
       ],
-      "sourceStatus": "AUXILIARY_JSON_INDEXED",
-      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
       "conflicts": [],
-      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+      "unintegratedReason": null
     },
     {
       "path": "data/documents/run134-constitutional-source-audit.json",
@@ -7717,7 +7901,7 @@
       "sha256": "6d733b3682ccc87b8bd549d3fd2bdfaf1c63e665461ea0ed53c6a99d4b999d12",
       "bytes": 3499,
       "recordCounts": {
-        "documents": 0,
+        "documents": 20,
         "claims": 0,
         "events": 0,
         "politicians": 0,
@@ -7728,10 +7912,10 @@
       "targetRegistries": [
         "documents"
       ],
-      "sourceStatus": "AUXILIARY_JSON_INDEXED",
-      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
       "conflicts": [],
-      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+      "unintegratedReason": null
     },
     {
       "path": "data/documents/run142-1948-constitutional-budget.json",
@@ -8619,7 +8803,7 @@
       "sha256": "7195d48aee44cad9375b1317b4646ad517de8f98473e4002c0640d0e0c177148",
       "bytes": 895,
       "recordCounts": {
-        "documents": 0,
+        "documents": 3,
         "claims": 0,
         "events": 0,
         "politicians": 0,
@@ -8630,10 +8814,10 @@
       "targetRegistries": [
         "documents"
       ],
-      "sourceStatus": "AUXILIARY_JSON_INDEXED",
-      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
       "conflicts": [],
-      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+      "unintegratedReason": null
     },
     {
       "path": "data/documents/run150-party-formation-scholarship.json",

@@ -1,15 +1,15 @@
 {
   "schemaVersion": 2,
   "group": "data-research.json",
-  "sourceSnapshotCommit": "702c0274e249a9bc1bacb89d61b351a23d79a3b0",
-  "sourceTreeSha": "aef275801ebc259e2bc7278b1a9a3cfca32fd95c",
+  "sourceSnapshotCommit": "a773add5b1541b7b298dd8419641ff12e26fdc4a",
+  "sourceTreeSha": "66184667c0f1f174fdeff633e94452f28a7e3f71",
   "fileCount": 2523,
   "statusCounts": {
     "BLOCKED_ID_CONFLICT": 38,
-    "CANONICAL_MATERIALIZED": 309,
+    "CANONICAL_MATERIALIZED": 310,
     "NON_JSON_SOURCE_PRESERVED": 877,
     "PARTIAL_CANONICAL_MATERIALIZED": 1,
-    "UNMAPPED_AUXILIARY_OR_PARTIAL": 1298
+    "UNMAPPED_AUXILIARY_OR_PARTIAL": 1297
   },
   "files": [
     {
@@ -11338,7 +11338,7 @@
       "recordCounts": {
         "documents": 0,
         "claims": 0,
-        "events": 0,
+        "events": 8,
         "politicians": 0,
         "organizations": 0,
         "roles": 0
@@ -11351,10 +11351,10 @@
         "politicians",
         "organizations"
       ],
-      "sourceStatus": "AUXILIARY_JSON_INDEXED",
-      "status": "UNMAPPED_AUXILIARY_OR_PARTIAL",
+      "sourceStatus": "CANONICAL_MATERIALIZED",
+      "status": "CANONICAL_MATERIALIZED",
       "conflicts": [],
-      "unintegratedReason": "AUXILIARY_OR_PARTIAL_RECORDS"
+      "unintegratedReason": null
     },
     {
       "path": "data/research/events/pass-234-martial-law-command-actions.json",
@@ -35842,7 +35842,7 @@
       "recordCounts": {
         "documents": 0,
         "claims": 0,
-        "events": 0,
+        "events": 6,
         "politicians": 7,
         "organizations": 0,
         "roles": 0

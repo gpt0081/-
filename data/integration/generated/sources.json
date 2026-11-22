@@ -24201,7 +24201,7 @@
       "path": "data/documents/run108-direct-source-audit.json",
       "sha256": "317d1e4ab10f275f81588f332eb6d1c374d533ede946da40448c94a8d09b652b",
       "bytes": 21757,
-      "status": "CANONICAL_MATERIALIZED",
+      "status": "CONFLICT_REVIEW_REQUIRED",
       "targetLayer": "document_registry_source",
       "targetRegistries": [
         "documents"
@@ -24216,8 +24216,8 @@
       },
       "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 48,
-        "conflicted": 0
+        "integrated": 38,
+        "conflicted": 10
       }
     },
     {
@@ -24248,72 +24248,69 @@
       "path": "data/documents/run108-priority-metadata-a.json",
       "sha256": "9650e09ebd0a2c74c5a30a130c6a827b0b1d4acc626897b640a52ba8d7c3f018",
       "bytes": 2336,
-      "status": "AUXILIARY_JSON_INDEXED",
+      "status": "CONFLICT_REVIEW_REQUIRED",
       "targetLayer": "document_registry_source",
       "targetRegistries": [
         "documents"
       ],
       "recordCounts": {
-        "documents": 0,
+        "documents": 5,
         "claims": 0,
         "events": 0,
         "politicians": 0,
         "organizations": 0,
         "roles": 0
       },
-      "unmappedRecordCount": 1,
+      "unmappedRecordCount": 0,
       "centralMapping": {
         "integrated": 0,
-        "conflicted": 0,
-        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+        "conflicted": 5
       }
     },
     {
       "path": "data/documents/run108-priority-metadata-b.json",
       "sha256": "eac6c02f1adb2da29ea57416e9615a6046c022e4bb48b2c561bec7a616b4ee8b",
       "bytes": 1171,
-      "status": "AUXILIARY_JSON_INDEXED",
+      "status": "CONFLICT_REVIEW_REQUIRED",
       "targetLayer": "document_registry_source",
       "targetRegistries": [
         "documents"
       ],
       "recordCounts": {
-        "documents": 0,
+        "documents": 3,
         "claims": 0,
         "events": 0,
         "politicians": 0,
         "organizations": 0,
         "roles": 0
       },
-      "unmappedRecordCount": 1,
+      "unmappedRecordCount": 0,
       "centralMapping": {
         "integrated": 0,
-        "conflicted": 0,
-        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+        "conflicted": 3
       }
     },
     {
       "path": "data/documents/run108-priority-metadata-c.json",
       "sha256": "22dc7521ce1222324362d61902b8cff688fe0a2cba12b8f05031562be0f1daa6",
       "bytes": 694,
-      "status": "AUXILIARY_JSON_INDEXED",
+      "status": "CONFLICT_REVIEW_REQUIRED",
       "targetLayer": "document_registry_source",
       "targetRegistries": [
         "documents"
       ],
       "recordCounts": {
-        "documents": 0,
+        "documents": 2,
         "claims": 0,
         "events": 0,
         "politicians": 0,
         "organizations": 0,
         "roles": 0
       },
-      "unmappedRecordCount": 1,
+      "unmappedRecordCount": 0,
       "centralMapping": {
         "integrated": 0,
-        "conflicted": 0,
-        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+        "conflicted": 2
       }
     },
     {
@@ -28399,144 +28396,138 @@
       "path": "data/documents/run134-cabinet-transcriptions-a.json",
       "sha256": "cb54905e69f6afd8c545294e95973f7ae27b3ba4afec1164e8015aaf1ebf3975",
       "bytes": 1926,
-      "status": "AUXILIARY_JSON_INDEXED",
+      "status": "CANONICAL_MATERIALIZED",
       "targetLayer": "document_registry_source",
       "targetRegistries": [
         "documents"
       ],
       "recordCounts": {
-        "documents": 0,
+        "documents": 10,
         "claims": 0,
         "events": 0,
         "politicians": 0,
         "organizations": 0,
         "roles": 0
       },
-      "unmappedRecordCount": 1,
+      "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 0,
-        "conflicted": 0,
-        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+        "integrated": 10,
+        "conflicted": 0
       }
     },
     {
       "path": "data/documents/run134-cabinet-transcriptions-b.json",
       "sha256": "69342e261e3c3022dfa386b01401bb9720b22471f47f64dcd3996f68624705f4",
       "bytes": 1929,
-      "status": "AUXILIARY_JSON_INDEXED",
+      "status": "CANONICAL_MATERIALIZED",
       "targetLayer": "document_registry_source",
       "targetRegistries": [
         "documents"
       ],
       "recordCounts": {
-        "documents": 0,
+        "documents": 10,
         "claims": 0,
         "events": 0,
         "politicians": 0,
         "organizations": 0,
         "roles": 0
       },
-      "unmappedRecordCount": 1,
+      "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 0,
-        "conflicted": 0,
-        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+        "integrated": 10,
+        "conflicted": 0
       }
     },
     {
       "path": "data/documents/run134-cabinet-transcriptions-c.json",
       "sha256": "eefad200f3e6bf020db6be84ed6614b3ebc12d47c225ed798b99c2b035eb4527",
       "bytes": 317,
-      "status": "AUXILIARY_JSON_INDEXED",
+      "status": "CANONICAL_MATERIALIZED",
       "targetLayer": "document_registry_source",
       "targetRegistries": [
         "documents"
       ],
       "recordCounts": {
-        "documents": 0,
+        "documents": 3,
         "claims": 0,
         "events": 0,
         "politicians": 0,
         "organizations": 0,
         "roles": 0
       },
-      "unmappedRecordCount": 1,
+      "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 0,
-        "conflicted": 0,
-        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+        "integrated": 3,
+        "conflicted": 0
       }
     },
     {
       "path": "data/documents/run134-cabinet-transcriptions-d.json",
       "sha256": "e4e6b4f87d025a735b2a2035cbefe95bd09fa8eefe18f6e24c10f17f109076c7",
       "bytes": 320,
-      "status": "AUXILIARY_JSON_INDEXED",
+      "status": "CANONICAL_MATERIALIZED",
       "targetLayer": "document_registry_source",
       "targetRegistries": [
         "documents"
       ],
       "recordCounts": {
-        "documents": 0,
+        "documents": 3,
         "claims": 0,
         "events": 0,
         "politicians": 0,
         "organizations": 0,
         "roles": 0
       },
-      "unmappedRecordCount": 1,
+      "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 0,
-        "conflicted": 0,
-        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+        "integrated": 3,
+        "conflicted": 0
       }
     },
     {
       "path": "data/documents/run134-cabinet-transcriptions-e.json",
       "sha256": "c5a95584fd742180c721f6ba4f26fdbde74840014f01b4fb31c1caf81f3f0c48",
       "bytes": 317,
-      "status": "AUXILIARY_JSON_INDEXED",
+      "status": "CANONICAL_MATERIALIZED",
       "targetLayer": "document_registry_source",
       "targetRegistries": [
         "documents"
       ],
       "recordCounts": {
-        "documents": 0,
+        "documents": 3,
         "claims": 0,
         "events": 0,
         "politicians": 0,
         "organizations": 0,
         "roles": 0
       },
-      "unmappedRecordCount": 1,
+      "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 0,
-        "conflicted": 0,
-        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+        "integrated": 3,
+        "conflicted": 0
       }
     },
     {
       "path": "data/documents/run134-cabinet-transcriptions-f.json",
       "sha256": "80e5f771ab3da53a5b6b51f4aa2602f16cf94712c6cf3efb0726366c73cf52a2",
       "bytes": 329,
-      "status": "AUXILIARY_JSON_INDEXED",
+      "status": "CANONICAL_MATERIALIZED",
       "targetLayer": "document_registry_source",
       "targetRegistries": [
         "documents"
       ],
       "recordCounts": {
-        "documents": 0,
+        "documents": 3,
         "claims": 0,
         "events": 0,
         "politicians": 0,
         "organizations": 0,
         "roles": 0
       },
-      "unmappedRecordCount": 1,
+      "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 0,
-        "conflicted": 0,
-        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+        "integrated": 3,
+        "conflicted": 0
       }
     },
     {
@@ -28819,24 +28810,23 @@
       "path": "data/documents/run141-local-government-archive.json",
       "sha256": "6d733b3682ccc87b8bd549d3fd2bdfaf1c63e665461ea0ed53c6a99d4b999d12",
       "bytes": 3499,
-      "status": "AUXILIARY_JSON_INDEXED",
+      "status": "CANONICAL_MATERIALIZED",
       "targetLayer": "document_registry_source",
       "targetRegistries": [
         "documents"
       ],
       "recordCounts": {
-        "documents": 0,
+        "documents": 20,
         "claims": 0,
         "events": 0,
         "politicians": 0,
         "organizations": 0,
         "roles": 0
       },
-      "unmappedRecordCount": 1,
+      "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 0,
-        "conflicted": 0,
-        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+        "integrated": 20,
+        "conflicted": 0
       }
     },
     {
@@ -29765,24 +29755,23 @@
       "path": "data/documents/run150-original-viewer-index.json",
       "sha256": "7195d48aee44cad9375b1317b4646ad517de8f98473e4002c0640d0e0c177148",
       "bytes": 895,
-      "status": "AUXILIARY_JSON_INDEXED",
+      "status": "CANONICAL_MATERIALIZED",
       "targetLayer": "document_registry_source",
       "targetRegistries": [
         "documents"
       ],
       "recordCounts": {
-        "documents": 0,
+        "documents": 3,
         "claims": 0,
         "events": 0,
         "politicians": 0,
         "organizations": 0,
         "roles": 0
       },
-      "unmappedRecordCount": 1,
+      "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 0,
-        "conflicted": 0,
-        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+        "integrated": 3,
+        "conflicted": 0
       }
     },
     {
@@ -38985,7 +38974,7 @@
       "path": "data/events/run110b-1952-constitutional-vote.json",
       "sha256": "fb5dfac4d4725b61857b79e1530b4794f22b923b851205b683f7ff0ebe2a96e8",
       "bytes": 1385,
-      "status": "AUXILIARY_JSON_INDEXED",
+      "status": "CANONICAL_MATERIALIZED",
       "targetLayer": "event_registry_source",
       "targetRegistries": [
         "events"
@@ -38993,23 +38982,22 @@
       "recordCounts": {
         "documents": 0,
         "claims": 0,
-        "events": 0,
+        "events": 1,
         "politicians": 0,
         "organizations": 0,
         "roles": 0
       },
-      "unmappedRecordCount": 1,
+      "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 0,
-        "conflicted": 0,
-        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+        "integrated": 1,
+        "conflicted": 0
       }
     },
     {
       "path": "data/events/run110c-1951-proposal.json",
       "sha256": "ef4eb03d2041f8c25a8843661c726ed9c41b3b0c62bd831126252fd48ab07ad8",
       "bytes": 666,
-      "status": "AUXILIARY_JSON_INDEXED",
+      "status": "CANONICAL_MATERIALIZED",
       "targetLayer": "event_registry_source",
       "targetRegistries": [
         "events"
@@ -39017,16 +39005,15 @@
       "recordCounts": {
         "documents": 0,
         "claims": 0,
-        "events": 0,
+        "events": 1,
         "politicians": 0,
         "organizations": 0,
         "roles": 0
       },
-      "unmappedRecordCount": 1,
+      "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 0,
-        "conflicted": 0,
-        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+        "integrated": 1,
+        "conflicted": 0
       }
     },
     {
@@ -41937,7 +41924,7 @@
       "path": "data/events/run142-enforcement-actions.json",
       "sha256": "692c57e94f14f64ef2ff26ccf865887ba0ecc4db31180fddd3b72ea8b6e3bc01",
       "bytes": 2552,
-      "status": "AUXILIARY_JSON_INDEXED",
+      "status": "CANONICAL_MATERIALIZED",
       "targetLayer": "event_registry_source",
       "targetRegistries": [
         "events"
@@ -41945,16 +41932,15 @@
       "recordCounts": {
         "documents": 0,
         "claims": 0,
-        "events": 0,
+        "events": 10,
         "politicians": 0,
         "organizations": 0,
         "roles": 0
       },
-      "unmappedRecordCount": 1,
+      "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 0,
-        "conflicted": 0,
-        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+        "integrated": 10,
+        "conflicted": 0
       }
     },
     {
@@ -42330,14 +42316,14 @@
       "recordCounts": {
         "documents": 0,
         "claims": 0,
-        "events": 1,
+        "events": 4,
         "politicians": 0,
         "organizations": 0,
         "roles": 0
       },
       "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 1,
+        "integrated": 4,
         "conflicted": 0
       }
     },
@@ -46760,8 +46746,8 @@
     },
     {
       "path": "data/events.json",
-      "sha256": "d62498087c2010d790d8c08b7ebc99d400423ac10ec0406c90a315f20d961bc8",
-      "bytes": 7949785,
+      "sha256": "da2ebdfa512d936890d43e02a93a8df7d31f87d12d762a45e91b70a8f1d8259d",
+      "bytes": 7951227,
       "status": "OPERATIONAL_ROOT_PRESERVED",
       "targetLayer": "operational_root",
       "targetRegistries": [
@@ -62154,8 +62140,8 @@
     },
     {
       "path": "data/politicians.json",
-      "sha256": "dab8182b384569133bdf697df348404af8a3e6474d6ce9981f73e43e390340a0",
-      "bytes": 9567828,
+      "sha256": "e4d91a84c1ee15485c050f50958edea2c879f66363e3db450cb19bf350b8e40a",
+      "bytes": 10168235,
       "status": "OPERATIONAL_ROOT_PRESERVED",
       "targetLayer": "operational_root",
       "targetRegistries": [
@@ -73479,7 +73465,7 @@
       "path": "data/research/events/pass-233-notice37-actions.json",
       "sha256": "4b7370f1e7eec37ecf8fe9d2b28ce3228b43e9aaca312b9635861bae21086107",
       "bytes": 4271,
-      "status": "AUXILIARY_JSON_INDEXED",
+      "status": "CANONICAL_MATERIALIZED",
       "targetLayer": "research_supporting_layer",
       "targetRegistries": [
         "documents",
@@ -73491,16 +73477,15 @@
       "recordCounts": {
         "documents": 0,
         "claims": 0,
-        "events": 0,
+        "events": 8,
         "politicians": 0,
         "organizations": 0,
         "roles": 0
       },
-      "unmappedRecordCount": 1,
+      "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 0,
-        "conflicted": 0,
-        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+        "integrated": 8,
+        "conflicted": 0
       }
     },
     {
@@ -98624,14 +98609,14 @@
       "recordCounts": {
         "documents": 0,
         "claims": 0,
-        "events": 0,
+        "events": 6,
         "politicians": 7,
         "organizations": 0,
         "roles": 0
       },
       "unmappedRecordCount": 0,
       "centralMapping": {
-        "integrated": 6,
+        "integrated": 12,
         "conflicted": 1
       }
     },

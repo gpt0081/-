@@ -1,8 +1,8 @@
 {
   "canonicalMaterialized": {
-    "documents": 12146,
+    "documents": 12191,
     "claims": 4899,
-    "events": 5964,
+    "events": 5993,
     "politicians": 2247,
     "organizations": 261,
     "roles": 44
@@ -10,9 +10,9 @@
   "canonicalDirectory": "data/integration/canonical",
   "sourceFiles": 5189,
   "sourceStatusCounts": {
-    "AUXILIARY_JSON_INDEXED": 1566,
-    "CANONICAL_MATERIALIZED": 2216,
-    "CONFLICT_REVIEW_REQUIRED": 75,
+    "AUXILIARY_JSON_INDEXED": 1551,
+    "CANONICAL_MATERIALIZED": 2227,
+    "CONFLICT_REVIEW_REQUIRED": 79,
     "NON_JSON_SOURCE_PRESERVED": 1317,
     "OPERATIONAL_ROOT_PRESERVED": 2,
     "PARTIAL_CANONICAL_MATERIALIZED": 12,
@@ -39,9 +39,9 @@
   },
   "totals": {
     "documents": {
-      "sourceRecords": 12285,
-      "uniqueIds": 12148,
-      "conflictedIds": 2
+      "sourceRecords": 12350,
+      "uniqueIds": 12203,
+      "conflictedIds": 12
     },
     "claims": {
       "sourceRecords": 4928,
@@ -49,8 +49,8 @@
       "conflictedIds": 6
     },
     "events": {
-      "sourceRecords": 6043,
-      "uniqueIds": 5976,
+      "sourceRecords": 6072,
+      "uniqueIds": 6005,
       "conflictedIds": 12
     },
     "politicians": {
@@ -82,6 +82,136 @@
       "mergeReview": {
         "status": "BLOCKED",
         "reason": "NO_COMMON_DOCUMENT_NUMBER_TITLE_OR_ORIGINAL_LOCATION"
+      }
+    },
+    {
+      "type": "documents",
+      "id": "d108-frus49-268",
+      "variantCount": 2,
+      "sources": [
+        "data/documents/run108-direct-source-audit.json",
+        "data/documents/run108-priority-metadata-a.json"
+      ],
+      "mergeReview": {
+        "status": "BLOCKED",
+        "reason": "CONFLICTING_DOCUMENT_NUMBERS"
+      }
+    },
+    {
+      "type": "documents",
+      "id": "d108-frus49-281",
+      "variantCount": 2,
+      "sources": [
+        "data/documents/run108-direct-source-audit.json",
+        "data/documents/run108-priority-metadata-a.json"
+      ],
+      "mergeReview": {
+        "status": "BLOCKED",
+        "reason": "CONFLICTING_DOCUMENT_NUMBERS"
+      }
+    },
+    {
+      "type": "documents",
+      "id": "d108-frus49-290",
+      "variantCount": 2,
+      "sources": [
+        "data/documents/run108-direct-source-audit.json",
+        "data/documents/run108-priority-metadata-a.json"
+      ],
+      "mergeReview": {
+        "status": "BLOCKED",
+        "reason": "CONFLICTING_DOCUMENT_NUMBERS"
+      }
+    },
+    {
+      "type": "documents",
+      "id": "d108-frus49-294",
+      "variantCount": 2,
+      "sources": [
+        "data/documents/run108-direct-source-audit.json",
+        "data/documents/run108-priority-metadata-a.json"
+      ],
+      "mergeReview": {
+        "status": "BLOCKED",
+        "reason": "CONFLICTING_DOCUMENT_NUMBERS"
+      }
+    },
+    {
+      "type": "documents",
+      "id": "d108-frus49-300",
+      "variantCount": 2,
+      "sources": [
+        "data/documents/run108-direct-source-audit.json",
+        "data/documents/run108-priority-metadata-a.json"
+      ],
+      "mergeReview": {
+        "status": "BLOCKED",
+        "reason": "CONFLICTING_DOCUMENT_NUMBERS"
+      }
+    },
+    {
+      "type": "documents",
+      "id": "d108-frus49-303",
+      "variantCount": 2,
+      "sources": [
+        "data/documents/run108-direct-source-audit.json",
+        "data/documents/run108-priority-metadata-b.json"
+      ],
+      "mergeReview": {
+        "status": "BLOCKED",
+        "reason": "CONFLICTING_DOCUMENT_NUMBERS"
+      }
+    },
+    {
+      "type": "documents",
+      "id": "d108-frus49-306",
+      "variantCount": 2,
+      "sources": [
+        "data/documents/run108-direct-source-audit.json",
+        "data/documents/run108-priority-metadata-b.json"
+      ],
+      "mergeReview": {
+        "status": "BLOCKED",
+        "reason": "CONFLICTING_DOCUMENT_NUMBERS"
+      }
+    },
+    {
+      "type": "documents",
+      "id": "d108-frus51-304",
+      "variantCount": 2,
+      "sources": [
+        "data/documents/run108-direct-source-audit.json",
+        "data/documents/run108-priority-metadata-b.json"
+      ],
+      "mergeReview": {
+        "status": "BLOCKED",
+        "reason": "CONFLICTING_DOCUMENT_NUMBERS"
+      }
+    },
+    {
+      "type": "documents",
+      "id": "d108-frus51-332",
+      "variantCount": 2,
+      "sources": [
+        "data/documents/run108-direct-source-audit.json",
+        "data/documents/run108-priority-metadata-c.json"
+      ],
+      "mergeReview": {
+        "status": "BLOCKED",
+        "reason": "CONFLICTING_DOCUMENT_NUMBERS"
+      }
+    },
+    {
+      "type": "documents",
+      "id": "d108-frus51-339",
+      "variantCount": 2,
+      "sources": [
+        "data/documents/run108-direct-source-audit.json",
+        "data/documents/run108-priority-metadata-c.json"
+      ],
+      "mergeReview": {
+        "status": "BLOCKED",
+        "reason": "CONFLICTING_DOCUMENT_NUMBERS"
       }
     },
     {
@@ -7008,9 +7138,6 @@
     "data/documents/pass-239m2-1954-proposal-and-reversal-signers.json",
     "data/documents/pass-257q-1954-cabinet-gazette-originals.json",
     "data/documents/run108-mirror-aliases.json",
-    "data/documents/run108-priority-metadata-a.json",
-    "data/documents/run108-priority-metadata-b.json",
-    "data/documents/run108-priority-metadata-c.json",
     "data/documents/run124c-presidential-original-crosswalk.json",
     "data/documents/run128-frus-metadata-a.json",
     "data/documents/run128-frus-metadata-b.json",
@@ -7019,29 +7146,18 @@
     "data/documents/run128-korean-metadata.json",
     "data/documents/run128-source-index.json",
     "data/documents/run131-index.json",
-    "data/documents/run134-cabinet-transcriptions-a.json",
-    "data/documents/run134-cabinet-transcriptions-b.json",
-    "data/documents/run134-cabinet-transcriptions-c.json",
-    "data/documents/run134-cabinet-transcriptions-d.json",
-    "data/documents/run134-cabinet-transcriptions-e.json",
-    "data/documents/run134-cabinet-transcriptions-f.json",
-    "data/documents/run141-local-government-archive.json",
     "data/documents/run142-frus-treaty-negotiation.json",
     "data/documents/run144-frus-june1953.json",
-    "data/documents/run150-original-viewer-index.json",
     "data/documents/run160-frus1961-source-headers.json",
     "data/documents/run51-robertson-armistice-bargain.json",
     "data/documents/run52-armistice-implementation-reconstruction.json",
     "data/documents/run92-civic-state-metadata.json",
-    "data/events/run110b-1952-constitutional-vote.json",
-    "data/events/run110c-1951-proposal.json",
     "data/events/run111c-fed-primary-upgrades.json",
     "data/events/run113-15principles-policy-actions.json",
     "data/events/run114-institutional-actions.json",
     "data/events/run114b-april21-actions.json",
     "data/events/run115-procedural-vote-correction.json",
     "data/events/run142-1948-constitutional-budget-votes.json",
-    "data/events/run142-enforcement-actions.json",
     "data/events/run149-actor-links.json",
     "data/events/run153-actor-links.json",
     "data/evidence/1949-1953-legal-transition-run183.json",
@@ -7422,7 +7538,6 @@
     "data/research/depth/rhee-peacetime-institutions-pass19.json",
     "data/research/events/pass-159-july-amendment-subevents.json",
     "data/research/events/pass-232-pusan-crisis-sub-events.json",
-    "data/research/events/pass-233-notice37-actions.json",
     "data/research/events/pass-285-jinbo-procedural-chain.json",
     "data/research/evidence/2026-10-05-rhee-pass207-postarmistice-statecraft.json",
     "data/research/evidence/pass-159-anti-national-law-july-audit.json",
@@ -8562,7 +8677,7 @@
     "data/research/weekly-history-debt-review-2026-10-11-run146-continuation.json",
     "data/votes/1960-06-15-constitutional-amendment.json"
   ],
-  "auxiliaryRecords": 2206,
+  "auxiliaryRecords": 2191,
   "partialSources": [
     "data/politicians/pass-247c-june1960-original-actors.json",
     "data/politicians/pass-247d-assembly-actors.json",
@@ -8680,18 +8795,6 @@
       "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
-      "path": "data/documents/run108-priority-metadata-a.json",
-      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
-    },
-    {
-      "path": "data/documents/run108-priority-metadata-b.json",
-      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
-    },
-    {
-      "path": "data/documents/run108-priority-metadata-c.json",
-      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
-    },
-    {
       "path": "data/documents/run124c-presidential-original-crosswalk.json",
       "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
@@ -8724,43 +8827,11 @@
       "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
-      "path": "data/documents/run134-cabinet-transcriptions-a.json",
-      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
-    },
-    {
-      "path": "data/documents/run134-cabinet-transcriptions-b.json",
-      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
-    },
-    {
-      "path": "data/documents/run134-cabinet-transcriptions-c.json",
-      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
-    },
-    {
-      "path": "data/documents/run134-cabinet-transcriptions-d.json",
-      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
-    },
-    {
-      "path": "data/documents/run134-cabinet-transcriptions-e.json",
-      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
-    },
-    {
-      "path": "data/documents/run134-cabinet-transcriptions-f.json",
-      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
-    },
-    {
-      "path": "data/documents/run141-local-government-archive.json",
-      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
-    },
-    {
       "path": "data/documents/run142-frus-treaty-negotiation.json",
       "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
       "path": "data/documents/run144-frus-june1953.json",
-      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
-    },
-    {
-      "path": "data/documents/run150-original-viewer-index.json",
       "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
@@ -8777,14 +8848,6 @@
     },
     {
       "path": "data/documents/run92-civic-state-metadata.json",
-      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
-    },
-    {
-      "path": "data/events/run110b-1952-constitutional-vote.json",
-      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
-    },
-    {
-      "path": "data/events/run110c-1951-proposal.json",
       "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
@@ -8809,10 +8872,6 @@
     },
     {
       "path": "data/events/run142-1948-constitutional-budget-votes.json",
-      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
-    },
-    {
-      "path": "data/events/run142-enforcement-actions.json",
       "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
@@ -10333,10 +10392,6 @@
     },
     {
       "path": "data/research/events/pass-232-pusan-crisis-sub-events.json",
-      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
-    },
-    {
-      "path": "data/research/events/pass-233-notice37-actions.json",
       "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {

@@ -3,11 +3,11 @@
   "generatedAt": "2026-11-22",
   "centralSync": "PARTIAL",
   "eventSync": {
-    "rootBefore": 6368,
-    "canonicalMaterialized": 5964,
-    "added": 1,
+    "rootBefore": 6369,
+    "canonicalMaterialized": 5993,
+    "added": 30,
     "merged": 5963,
-    "rootAfter": 6369,
+    "rootAfter": 6399,
     "missingCanonicalIdsAfterSync": [],
     "duplicateRootIds": [],
     "fieldConflicts": [
@@ -241,11 +241,11 @@
     "skipped": []
   },
   "politicianSync": {
-    "rootBefore": 2155,
+    "rootBefore": 2158,
     "canonicalMaterialized": 2101,
-    "added": 3,
+    "added": 0,
     "manualAdded": 0,
-    "merged": 2098,
+    "merged": 2101,
     "rootAfter": 2158,
     "missingCanonicalIdsAfterSync": [],
     "fieldConflicts": [
@@ -19770,15 +19770,15 @@
     "status": "PARTIAL"
   },
   "rootFileHashes": {
-    "data/events.json": "da2ebdfa512d936890d43e02a93a8df7d31f87d12d762a45e91b70a8f1d8259d",
-    "data/politicians.json": "e4d91a84c1ee15485c050f50958edea2c879f66363e3db450cb19bf350b8e40a"
+    "data/events.json": "08f9d5ec3bf29921b2d2020fa6de09ce05a6835cfde0f27cfd0f8485baf722cb",
+    "data/politicians.json": "f80491b9eab37913198feca4120b53e5dbc8cbf6d28f1e2201ba3dd1da9c0af1"
   },
   "rootFileCounts": {
-    "events": 6369,
+    "events": 6399,
     "politicians": 2158
   },
   "sourceIntegrationStatus": "FULL_INTEGRATION_INCOMPLETE",
-  "sourceConflictedIds": 31,
-  "sourceAuxiliaryRecords": 2206,
+  "sourceConflictedIds": 41,
+  "sourceAuxiliaryRecords": 2191,
   "policy": "Only named domestic person nodes enter the operational politician root. Foreign officials and collective/unresolved labels remain outside the domestic root. Stable candidate prefixes pol-, cand-, candidate- and candNNN- are supported. Safe field-wise merges retain source alternatives and field-variant history; no name-only identity merge. The six cand172- legacy snapshot IDs remain DISCOVERED pending source validation."
 }
