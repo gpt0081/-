@@ -5,7 +5,7 @@
   "status": "OPEN",
   "sourceAuditCommit": "6d9c07c8653a11a56bc7e09d97e25b5aa648ee25",
   "sourceAuditFiles": 5184,
-  "count": 34,
+  "count": 44,
   "activeLeadIds": [
     "INT-R331-001",
     "INT-R331-002",
@@ -466,7 +466,7 @@
       "policy": "Preserve source variants and provenance; no name-only merge or automatic scalar winner."
     },
     {
-      "id": "INT-R331-029",
+      "id": "INT-R331-030",
       "priority": "P2",
       "targetType": "operational_layer",
       "targetId": "data/annals/shin-ik-hui-run141.md",
@@ -479,7 +479,7 @@
       "expectedInformationValue": "MEDIUM"
     },
     {
-      "id": "INT-R331-030",
+      "id": "INT-R331-031",
       "priority": "P1",
       "targetType": "operational_layer",
       "targetId": "data/annals/won-yong-deok-run144.md",
@@ -492,7 +492,7 @@
       "expectedInformationValue": "HIGH"
     },
     {
-      "id": "INT-R331-031",
+      "id": "INT-R331-032",
       "priority": "P2",
       "targetType": "operational_layer",
       "targetId": "data/annals/yun-chi-yeong-run113.md",
@@ -505,7 +505,7 @@
       "expectedInformationValue": "MEDIUM"
     },
     {
-      "id": "INT-R331-032",
+      "id": "INT-R331-033",
       "priority": "P2",
       "targetType": "operational_layer",
       "targetId": "data/evidence/chang-myon-run108.json",
@@ -518,7 +518,7 @@
       "expectedInformationValue": "MEDIUM"
     },
     {
-      "id": "INT-R331-033",
+      "id": "INT-R331-034",
       "priority": "P1",
       "targetType": "operational_layer",
       "targetId": "data/research/coverage/run225.json",
@@ -530,6 +530,164 @@
       "task": "Add explicit event and politician IDs to coverage only where each domain is directly represented by run225 evidence.",
       "status": "OPEN",
       "expectedInformationValue": "HIGH"
+    },
+    {
+      "id": "INT-R332-001",
+      "priority": "P1",
+      "status": "OPEN",
+      "targetType": "event",
+      "targetId": "evt-r150-19560328-democratic-nomination",
+      "task": "Locate the 1956-03-28 Democratic Party nomination convention or committee minutes in NIKH, party archives and contemporary press. Confirm nomination date, candidates, vote and sequence before materializing an event node.",
+      "sourceFiles": [
+        "data/events/run150-progressive-prehistory.json",
+        "data/documents/run150-party-formation-scholarship.json",
+        "data/documents/run150-party-person-biographies.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "id": "INT-R332-002",
+      "priority": "P1",
+      "status": "OPEN",
+      "targetType": "event",
+      "targetId": "evt-r150-19550920-assembly-inquiry",
+      "task": "Retrieve the National Assembly stenogram for 1955-09-20 and identify the inquiry motion, chair and recorded actions. Cross-check Choi Chang-seop and Park Sun-seok without inferring participation from name co-occurrence.",
+      "sourceFiles": [
+        "data/research/branch-snapshots/pr74-data-politicians.json",
+        "data/documents/run150-1955-56-press-local.json",
+        "data/research/lead-queues/run150-next.json"
+      ]
+    },
+    {
+      "id": "INT-R332-003",
+      "priority": "P1",
+      "status": "OPEN",
+      "targetType": "event",
+      "targetId": "evt-r150-19550914-nnsc-field-observation",
+      "task": "Find the Korean Foreign Ministry or NNSC field-observation original for 1955-09-14 and compare it with the US diplomatic report. Establish who observed, what was observed and whether any decision followed.",
+      "sourceFiles": [
+        "data/events/run150-frus-economic-security.json",
+        "data/documents/run150-frus-nnsc-originals.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "id": "INT-R332-004",
+      "priority": "P1",
+      "status": "OPEN",
+      "targetType": "event",
+      "targetId": "evt-r150-19550820-nnsc-peace-statement",
+      "task": "Verify the 1955-08-20 peace statement against a Korean government or contemporaneous press original and the US diplomatic record. Keep Rhee's public statement separate from a cabinet or military policy decision.",
+      "sourceFiles": [
+        "data/evidence/rhee/run150-1955-public-speech-daegu.json",
+        "data/documents/run150-frus-nnsc-originals.json",
+        "data/events/run150-frus-economic-security.json"
+      ]
+    },
+    {
+      "id": "INT-R332-005",
+      "priority": "P1",
+      "status": "OPEN",
+      "targetType": "event",
+      "targetId": "evt-r150-19561109-oir-succession",
+      "task": "Open the 1956-11-09 OIR succession record and locate the Korean appointment notice or Gazette entry. Confirm the office-holder transition date and distinguish reported succession from formal appointment.",
+      "sourceFiles": [
+        "data/research/branch-snapshots/pr74-data-politicians.json",
+        "data/documents/run150-original-viewer-index.json",
+        "data/politicians.json"
+      ]
+    },
+    {
+      "id": "INT-R332-006",
+      "priority": "P1",
+      "status": "OPEN",
+      "targetType": "event",
+      "targetId": "evt-r148-sept8",
+      "task": "Recover the original September 8 record underlying the Run148 committee/justice links. Verify the year, body, motion and participants from the National Assembly or government original before recreating the missing event.",
+      "sourceFiles": [
+        "data/documents/run148-justice-openings.json",
+        "data/documents/run148-verified-openings.json",
+        "data/claims/run148-justice-crosschecks.json",
+        "data/research/lead-queues/run148-next.json"
+      ]
+    },
+    {
+      "id": "INT-R332-007",
+      "priority": "P1",
+      "status": "OPEN",
+      "targetType": "event",
+      "targetId": "evt-r168-13",
+      "task": "Reconstruct missing Run168 election-network event 13 from the 1950 election actor evidence, NIKH chronology and original election materials. Do not substitute the May 30 election event unless the event scope matches.",
+      "sourceFiles": [
+        "data/evidence/politicians/run168-1950-election-network.json",
+        "data/politicians/run168-1950-election-network.json",
+        "data/documents/run168-1950-election-aks.json",
+        "data/claims/run168-election-identity-adversarial.json"
+      ]
+    },
+    {
+      "id": "INT-R332-008",
+      "priority": "P1",
+      "status": "OPEN",
+      "targetType": "event",
+      "targetId": "evt107-pa-370",
+      "task": "Locate the Run107 policy-action record for evt107-pa-370 and compare it with the policy source bundle. Restore the event only if the original action, date and institutional actor are recoverable.",
+      "sourceFiles": [
+        "data/events/run107-policy-actions.json",
+        "data/events/run107b-legal-context.json",
+        "data/politicians/run107-presidential-policy-network.json",
+        "data/claims/run107-policy-provenance.json"
+      ]
+    },
+    {
+      "id": "INT-R332-009",
+      "priority": "P1",
+      "status": "OPEN",
+      "targetType": "politician",
+      "targetId": "pol-cho-bong-am",
+      "task": "Review the source variants and conflicting birth dates against official biographical records, election registration and contemporaneous documents. Preserve both dates and the exact disagreement until a primary record resolves it.",
+      "sourceFiles": [
+        "data/evidence/politicians/run168-1950-election-network.json",
+        "data/politicians/run168-1950-election-network.json",
+        "data/research/branch-snapshots/pr74-data-politicians.json",
+        "data/research/HISTORY_DEBT.md"
+      ]
+    },
+    {
+      "id": "INT-R332-010",
+      "priority": "P2",
+      "status": "OPEN",
+      "targetType": "operational_layer",
+      "targetId": "data/annals/yun-chi-yeong-run113.md",
+      "task": "Reconcile legacy candidate label cand113-yun-chi-yeong with stable pol-yun-chi-yeong using Hanja and the 1950-03-11 National Assembly record. Keep the sidecar unlinked until the identity crosswalk is supported.",
+      "sourceFiles": [
+        "data/annals/yun-chi-yeong-run113.md",
+        "data/politicians.json",
+        "data/research/lead-queues/run113-next.json"
+      ]
+    }
+  ],
+  "updatedAt": "2026-11-22T10:07:06+09:00",
+  "completedThisRun": [
+    {
+      "target": "data/politicians/run149-cabinet-candidates.json",
+      "status": "CORRECTED",
+      "detail": "Removed the non-historical evt-r149-cabinet-signature-comparison link from 14 cabinet candidates and added documentIds while preserving evidenceDocumentIds."
+    },
+    {
+      "target": "evt-r218-17 and evt-r218-23",
+      "status": "CORRECTED",
+      "detail": "Crosswalked Choi Kyu-hah to pol-choi-kyu-hah; retyped the legal-status subcommittee from politician to organization."
+    },
+    {
+      "target": "evt-r136-tellers",
+      "status": "STRUCTURED",
+      "detail": "Added three DISCOVERED candidate nodes with document/event links and possibleSameAs pointers where identities remain unresolved."
+    },
+    {
+      "target": "integration extraction and reference audit",
+      "status": "CODE_UPDATED_PENDING_WORKFLOW",
+      "detail": "Legacy sources/metadataOnly/additionalEvent extraction, conservative existing-status preservation and expanded reference checks committed; final counts await workflow regeneration."
     }
   ]
 }
