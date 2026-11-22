@@ -945,8 +945,7 @@
         "doc-r224-nikh-0010_0170"
       ],
       "politicianIds": [
-        "pol-r148-kwak-sang-hun",
-        "pol-r164-seo-min-ho"
+        "pol-r148-kwak-sang-hun"
       ],
       "proposed_by": [],
       "decided_by": [],
@@ -963,7 +962,16 @@
       "executed_by_refs": [],
       "opposed_by_refs": [],
       "observed_by_refs": [],
-      "roleAttributionBasis": "Document-specific source attribution; a planning document is not evidence of execution."
+      "roleAttributionBasis": "Document-specific source attribution; a planning document is not evidence of execution.",
+      "correctionHistory": [
+        {
+          "date": "2026-11-22",
+          "correctionId": "CORR-R331-PR74-002",
+          "change": "Removed pol-r164-seo-min-ho from the politicianIds of evt-r225-july-arrest-report.",
+          "reason": "The 1952-07-07 press transcription does not identify Seo Min-ho among the ten people reported arrested/released/tried. His separately documented 1952 cabinet-command-chain role remains linked only to evt-r225-cabinet-command-chain.",
+          "reviewSource": "Post-merge review finding on PR #74; event attribution narrowed, not a finding about Seo Min-ho's other 1952 activities."
+        }
+      ]
     }
   ]
 }

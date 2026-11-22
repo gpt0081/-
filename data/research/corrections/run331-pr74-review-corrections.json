@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "run": 331,
+  "recordedAt": "2026-11-22",
+  "status": "APPLIED_TO_SOURCE_FILES_PENDING_POST_COMMIT_INTEGRATION_AUDIT",
+  "basis": "Post-merge review findings on PR #74; this correction pass does not claim new primary-source discovery.",
+  "corrections": [
+    {
+      "id": "CORR-R331-PR74-001",
+      "targetType": "claim",
+      "targetId": "claim-r225-cabinet-unanimous-dissolution",
+      "sourceFile": "data/claims/run225-june1952-adversarial.json",
+      "field": "supportingEvidenceDocumentIds",
+      "before": [
+        "doc-r225-frus-163"
+      ],
+      "after": [],
+      "contradictingEvidenceDocumentIds": [
+        "doc-r225-frus-162",
+        "doc-r225-frus-163"
+      ],
+      "documentIds": [
+        "doc-r225-frus-162",
+        "doc-r225-frus-163"
+      ],
+      "reason": "FRUS d163 is contrary to the claim that the cabinet unanimously supported dissolution; retain the claim as unresolved/adversarial rather than silently changing its overall status.",
+      "reviewSource": "https://github.com/gpt0081/-/pull/74"
+    },
+    {
+      "id": "CORR-R331-PR74-002",
+      "targetType": "event",
+      "targetId": "evt-r225-july-arrest-report",
+      "sourceFile": "data/events/run225-june1952-actor-decision-graph.json",
+      "field": "politicianIds",
+      "before": [
+        "pol-r148-kwak-sang-hun",
+        "pol-r164-seo-min-ho"
+      ],
+      "after": [
+        "pol-r148-kwak-sang-hun"
+      ],
+      "excludedPoliticianId": "pol-r164-seo-min-ho",
+      "retainedSeparateEventId": "evt-r225-cabinet-command-chain",
+      "documentIds": [
+        "doc-r225-nikh-press-0707",
+        "doc-r225-archives-41",
+        "doc-r225-archives-47"
+      ],
+      "reason": "The 1952-07-07 press transcription does not establish Seo Min-ho as an actor in the reported arrests; keep his cabinet-related record on its distinct event.",
+      "reviewSource": "https://github.com/gpt0081/-/pull/74"
+    }
+  ],
+  "historyDebtState": {
+    "last_full_review": "2026-10-04",
+    "last_full_review_attempt": "2026-11-22",
+    "attemptStatus": "INCOMPLETE",
+    "next_full_review": "2026-11-29",
+    "reason": "The 2026-10-04 full review report exists and is more recent than the previously recorded 2026-09-27 date. The 2026-11-22 first attempt is already recorded incomplete and was not repeated."
+  }
+}

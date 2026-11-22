@@ -101,7 +101,7 @@
 ## 주간 전수 재조사 규칙
 역사부채 전체 전수 재조사는 매주 일요일(Asia/Seoul) 해당 날짜의 첫 조사 회차에서만 수행한다. `OPEN`, `NARROWED`, `BLOCKED`, `CONFLICTED`, `REOPENED` 전 항목을 확인하며 같은 날에는 `last_full_review`로 중복을 막는다. 일반 조사에서 특정 부채를 축소·해결·반박할 새 증거가 발견되면 즉시 갱신한다.
 
-- last_full_review: 2026-09-27 (last completed full review)
+- last_full_review: 2026-10-04 (last completed full review; see data/research/history-debt-review-2026-10-04.md)
 - last_full_review_attempt: 2026-11-22 (INCOMPLETE; see the weekly review attempt record below)
 - 다음 정규 전수 재조사: 2026-11-29
 
