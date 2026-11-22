@@ -33394,15 +33394,15 @@
       "source": "data/research/ACTIVE_RESEARCH_HANDOFF.json",
       "payload": {
         "schemaVersion": 1,
-        "updatedAt": "2026-11-22T06:09:18+09:00",
+        "updatedAt": "2026-11-22T09:20:49+09:00",
         "activeBranch": "main",
         "branchHead": "moving-ref:refs/heads/main",
-        "baseMain": "37d7f001e9939ecd02dfcbbf8747694343699290",
-        "status": "RUN330_CENTRAL_INTEGRATION_PARTIAL",
-        "summary": "Run330 refreshed a 2,274-file source inventory and per-group inventories. Canonical source conflicts 584; unintegrated 563; auxiliary 677; exact duplicate IDs 11. Central root sync PARTIAL: 16 event and 110 politician field variants, no missing or duplicate root IDs. Operational links 202/310. PR #73/#74 changed paths 34/34 present on main; PR #72 remains open with 29/29 paths present. Floot untouched.",
-        "nextAction": "Run331: resolve high-priority document conflicts against original FRUS, NIKH, Gazette and National Assembly sources. Preserve both sides of unresolved identity/status/actor-attribution conflicts. Continue reducing 563 unintegrated sources and 310 unlinked operational files.",
+        "baseMain": "6d9c07c8653a11a56bc7e09d97e25b5aa648ee25",
+        "status": "RUN331_CENTRAL_INTEGRATION_PARTIAL",
+        "summary": "Run331 corrected two PR #74 attribution errors and reconciled the weekly-review date. The post-correction integration workflow audited 5184 source files: 915 conflicted IDs, 1599 unintegrated sources, 2244 auxiliary records. Canonical materialized rows: {\"documents\":11683,\"claims\":4983,\"events\":6205,\"politicians\":1569,\"organizations\":263,\"roles\":65}. Root sync remains PARTIAL with 11 event and 35 politician field conflicts; operational sidecars 518/1405 linked. PR74 snapshot: 453/453 IDs present, 453 shared-field variants remain.",
+        "nextAction": "Run332: finish the source inventory refresh after this run report/ledger commit; adjudicate the highest-priority document/claim/event/politician ID conflicts against original Korean records and FRUS; map the 887 unlinked operational sidecars with explicit IDs or documented no-identity reasons; resolve the 11 event and 35 politician root-field variants; keep CENTRAL_SYNC_PARTIAL until structural and reference audits pass.",
         "mainDataModified": true,
-        "latestRun": "data/research/runs/2026-11-22-run330-integration-report.md",
+        "latestRun": "data/research/runs/2026-11-22-run331-integration-report.md",
         "latestCorrections": [
           {
             "run": 93,
@@ -33464,6 +33464,16 @@
             "run": 246,
             "topic": "1960 minister Hanja",
             "finding": "吳楨洙 5/11·6/23 vs 吳植洙 7/1 CONFLICTED"
+          },
+          {
+            "run": 331,
+            "topic": "PR74 review corrections",
+            "finding": "FRUS d163 removed from support for the claim of unanimous cabinet support; Seo Min-ho removed from the 1952-07-07 arrest-report event while his separate cabinet-command-chain link remains."
+          },
+          {
+            "run": 331,
+            "topic": "Weekly history-debt review date reconciliation",
+            "finding": "The 2026-10-04 full-review report is the latest completed review; the 2026-11-22 first attempt is INCOMPLETE and was not repeated."
           }
         ],
         "parallelPendingReview": {
@@ -33474,7 +33484,7 @@
           "latestRun": 97
         },
         "mainRef": "refs/heads/main",
-        "latestVerifiedMainCommit": "8865f86235aa81db4129894cd17fe67ce8cf4a23",
+        "latestVerifiedMainCommit": "6d9c07c8653a11a56bc7e09d97e25b5aa648ee25",
         "pass231Files": {
           "documents": "data/documents/pass-231-1952-june-july-diplomacy-election.json",
           "events": "data/events/pass-231-1952-constitutional-election-pow.json",
@@ -34157,9 +34167,11 @@
             "politicianRoot": "PR #74 snapshot comparison: 453 branch records, 81 shared IDs, 372 branch-only IDs, 895 main-only IDs. Branch-only records are imported as pending-adjudication candidates; shared fields are not overwritten."
           },
           "flootModified": false
-        }
+        },
+        "latestLedger": "data/research/runs/2026-11-22-run331-ledger.json",
+        "latestIntegrationQueue": "data/integration/next-integration-leads-2026-11-22.json"
       },
-      "provenance": "578ea2cd35ec1cc2d2f4d1a9116c75d2c606062335f6510b4d4868720173dafb",
+      "provenance": "b27104e714ee570fdb160ae5b80d394d7d4c89f75a86fa4debefde076c566c11",
       "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
     },
     {
@@ -237171,6 +237183,152 @@
         ]
       },
       "provenance": "30773c13321b680dc2a5a34ba227ee0fea09c419b89578d79ac0d40ee2885a34",
+      "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+    },
+    {
+      "source": "data/research/runs/2026-11-22-run331-ledger.json",
+      "payload": {
+        "schemaVersion": 1,
+        "run": 331,
+        "recordedAt": "2026-11-22",
+        "mode": "CENTRAL_INTEGRATION_FIRST",
+        "baselineAuditCommit": "6d9c07c8653a11a56bc7e09d97e25b5aa648ee25",
+        "correctionCommit": "6fb00322b448df868b94b55bf45553753b60490f",
+        "sourceInventory": {
+          "auditedFiles": 5184,
+          "sourceDataFilesAtCurrentTree": 5184,
+          "sourceDataFilesAfterRunReportAndLedger": 5186,
+          "nonDataFiles": 28,
+          "parseErrors": 0,
+          "statusCounts": {
+            "AUXILIARY_JSON_INDEXED": 1584,
+            "CANONICAL_MATERIALIZED": 1754,
+            "CONFLICT_REVIEW_REQUIRED": 513,
+            "NON_JSON_SOURCE_PRESERVED": 1315,
+            "OPERATIONAL_ROOT_PRESERVED": 2,
+            "PARTIAL_CANONICAL_MATERIALIZED": 15,
+            "PRESIDENTIAL_BACKBONE_PRESERVED": 1
+          }
+        },
+        "canonicalMaterialized": {
+          "documents": 11683,
+          "claims": 4983,
+          "events": 6205,
+          "politicians": 1569,
+          "organizations": 263,
+          "roles": 65
+        },
+        "sourceTotals": {
+          "documents": {
+            "sourceRecords": 11942,
+            "uniqueIds": 11800,
+            "conflictedIds": 117
+          },
+          "claims": {
+            "sourceRecords": 5033,
+            "uniqueIds": 5005,
+            "conflictedIds": 22
+          },
+          "events": {
+            "sourceRecords": 6359,
+            "uniqueIds": 6275,
+            "conflictedIds": 70
+          },
+          "politicians": {
+            "sourceRecords": 4478,
+            "uniqueIds": 2266,
+            "conflictedIds": 697
+          },
+          "organizations": {
+            "sourceRecords": 287,
+            "uniqueIds": 270,
+            "conflictedIds": 7
+          },
+          "roles": {
+            "sourceRecords": 69,
+            "uniqueIds": 67,
+            "conflictedIds": 2
+          }
+        },
+        "conflictIds": 915,
+        "unintegratedSources": 1599,
+        "auxiliaryRecords": 2244,
+        "partialSources": 15,
+        "rootSync": {
+          "status": "PARTIAL",
+          "events": {
+            "root": 6334,
+            "canonical": 6205,
+            "missing": 0,
+            "duplicates": 0,
+            "fieldConflicts": 11
+          },
+          "politicians": {
+            "root": 1807,
+            "canonical": 1321,
+            "missing": 0,
+            "duplicates": 0,
+            "fieldConflicts": 35
+          }
+        },
+        "operationalLayers": {
+          "total": 1405,
+          "linked": 518,
+          "unlinked": 887,
+          "layerCounts": {
+            "annals": 426,
+            "coverage": 72,
+            "evidence": 192,
+            "history_debt": 164,
+            "lead_queue": 551
+          }
+        },
+        "integrityAudit": {
+          "issues": 300,
+          "references": 292,
+          "gaps": 0
+        },
+        "pr73pr74": {
+          "changedPathsPresent": 34,
+          "pr73IdenticalPaths": 11,
+          "pr73ChangedVariants": 7,
+          "pr74IdenticalPaths": 12,
+          "pr74ChangedVariants": 4,
+          "pr74Snapshot": {
+            "branchRecords": 453,
+            "mainRecords": 1807,
+            "sharedIds": 453,
+            "branchOnlyIds": 0,
+            "mainOnlyIds": 1354,
+            "changedRecords": 453
+          },
+          "pr72": "OPEN; no wholesale merge"
+        },
+        "correctionsApplied": [
+          "claim-r225-cabinet-unanimous-dissolution: doc-r225-frus-163 moved from supporting to contradicting evidence",
+          "evt-r225-july-arrest-report: pol-r164-seo-min-ho removed from event actor IDs; separate cabinet-command-chain event retained"
+        ],
+        "historyDebtWeeklyReview": {
+          "lastCompletedFullReview": "2026-10-04",
+          "lastFullReviewAttempt": "2026-11-22",
+          "attemptStatus": "INCOMPLETE",
+          "repeatedThisRun": false,
+          "nextScheduled": "2026-11-29"
+        },
+        "researchThresholds": {
+          "independentResearchLines": 0,
+          "generalPolicyDomainsExpanded": 0,
+          "newHistoricalDocumentsOpened": 0,
+          "nonPresidentialPoliticiansNewlyResearched": 0,
+          "eventsNewlyResearched": 0,
+          "note": "This was an integration-first recovery and correction run, not a new historical source-mining run. No threshold was falsely claimed."
+        },
+        "integrationStatus": "FULL_INTEGRATION_INCOMPLETE",
+        "centralSync": "PARTIAL",
+        "nextQueue": "data/integration/next-integration-leads-2026-11-22.json",
+        "floot": "NOT_MODIFIED_NOT_BUILT"
+      },
+      "provenance": "4448757d711cb09d33dc2de67f793beadcbf9cffa02681bd6b266d3c383aebd6",
       "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
     },
     {

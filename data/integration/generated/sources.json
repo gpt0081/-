@@ -46783,8 +46783,8 @@
     },
     {
       "path": "data/events.json",
-      "sha256": "c33655224748f8b746b97691d9e2723444ab413f81ec250ba7ae9845c4802481",
-      "bytes": 7425726,
+      "sha256": "0832898b4d0beaa9f0b639389b9ebae856917e159dc82e2a65438348674d54f3",
+      "bytes": 7426374,
       "status": "OPERATIONAL_ROOT_PRESERVED",
       "targetLayer": "operational_root",
       "targetRegistries": [
@@ -63790,8 +63790,8 @@
     },
     {
       "path": "data/research/ACTIVE_RESEARCH_HANDOFF.json",
-      "sha256": "578ea2cd35ec1cc2d2f4d1a9116c75d2c606062335f6510b4d4868720173dafb",
-      "bytes": 32402,
+      "sha256": "b27104e714ee570fdb160ae5b80d394d7d4c89f75a86fa4debefde076c566c11",
+      "bytes": 33378,
       "status": "AUXILIARY_JSON_INDEXED",
       "targetLayer": "research_supporting_layer",
       "targetRegistries": [
@@ -123266,6 +123266,57 @@
         "roles": 0
       },
       "unmappedRecordCount": 0
+    },
+    {
+      "path": "data/research/runs/2026-11-22-run331-integration-report.md",
+      "sha256": "f8dca51c715e2cbbf8c73f239aac7c21c9d071605b358145d0825cb620feec94",
+      "bytes": 4401,
+      "status": "NON_JSON_SOURCE_PRESERVED",
+      "targetLayer": "execution_ledger_layer",
+      "targetRegistries": [
+        "execution_ledger",
+        "documents",
+        "claims",
+        "events",
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "unmappedRecordCount": 0
+    },
+    {
+      "path": "data/research/runs/2026-11-22-run331-ledger.json",
+      "sha256": "4448757d711cb09d33dc2de67f793beadcbf9cffa02681bd6b266d3c383aebd6",
+      "bytes": 3779,
+      "status": "AUXILIARY_JSON_INDEXED",
+      "targetLayer": "execution_ledger_layer",
+      "targetRegistries": [
+        "execution_ledger",
+        "documents",
+        "claims",
+        "events",
+        "politicians"
+      ],
+      "recordCounts": {
+        "documents": 0,
+        "claims": 0,
+        "events": 0,
+        "politicians": 0,
+        "organizations": 0,
+        "roles": 0
+      },
+      "unmappedRecordCount": 1,
+      "centralMapping": {
+        "integrated": 0,
+        "conflicted": 0,
+        "reason": "NO_RECOGNIZED_REGISTRY_RECORDS"
+      }
     },
     {
       "path": "data/research/runs/pass-143-execution-ledger.json",

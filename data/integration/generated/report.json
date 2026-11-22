@@ -8,12 +8,12 @@
     "roles": 65
   },
   "canonicalDirectory": "data/integration/canonical",
-  "sourceFiles": 5184,
+  "sourceFiles": 5186,
   "sourceStatusCounts": {
-    "AUXILIARY_JSON_INDEXED": 1584,
+    "AUXILIARY_JSON_INDEXED": 1585,
     "CANONICAL_MATERIALIZED": 1754,
     "CONFLICT_REVIEW_REQUIRED": 513,
-    "NON_JSON_SOURCE_PRESERVED": 1315,
+    "NON_JSON_SOURCE_PRESERVED": 1316,
     "OPERATIONAL_ROOT_PRESERVED": 2,
     "PARTIAL_CANONICAL_MATERIALIZED": 15,
     "PRESIDENTIAL_BACKBONE_PRESERVED": 1
@@ -27,7 +27,7 @@
     "document_registry_source": 636,
     "event_registry_source": 494,
     "evidence_layer": 192,
-    "execution_ledger_layer": 865,
+    "execution_ledger_layer": 867,
     "history_debt_layer": 164,
     "open_lead_layer": 551,
     "operational_root": 2,
@@ -11754,6 +11754,7 @@
     "data/research/runs/2026-10-28-run224-ledger.json",
     "data/research/runs/2026-10-28-run225-ledger.json",
     "data/research/runs/2026-11-22-run330-integration-ledger.json",
+    "data/research/runs/2026-11-22-run331-ledger.json",
     "data/research/runs/pass-143-execution-ledger.json",
     "data/research/runs/pass-144-execution-ledger.json",
     "data/research/runs/pass-212-execution-ledger.json",
@@ -11851,7 +11852,7 @@
     "data/research/weekly-history-debt-review-2026-10-11-run146-continuation.json",
     "data/votes/1960-06-15-constitutional-amendment.json"
   ],
-  "auxiliaryRecords": 2244,
+  "auxiliaryRecords": 2245,
   "partialSources": [
     "data/documents/run149-1956-laws.json",
     "data/evidence/yu-wan-chang.json",
@@ -17881,6 +17882,10 @@
     },
     {
       "path": "data/research/runs/2026-11-22-run330-integration-ledger.json",
+      "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
+    },
+    {
+      "path": "data/research/runs/2026-11-22-run331-ledger.json",
       "reason": "AUXILIARY_OR_PARTIAL_RECORDS"
     },
     {
