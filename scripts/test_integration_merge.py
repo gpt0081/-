@@ -141,3 +141,26 @@ def test_extract_legacy_document_sources_metadata_and_nested_event():
     assert extract_additional_registry_collections(obj, {"events"}) == [
         ("events", "additionalEvent", [obj["additionalEvent"]])
     ]
+
+def test_extract_document_records_and_singular_or_nested_events():
+    obj = {
+        "records": [
+            {"id": "d141-test-record", "title": "지방의회 회의록", "date": "1956-09-05"},
+            {"id": "not-a-record", "note": "no identifying metadata"},
+        ],
+        "event": {"id": "evt110b-test", "date": "1952-01-18", "title": "헌법 개정안 표결"},
+        "subEvents": [
+            {"id": "evt-r150-sub-1", "date": "1955-01-01", "name": "예산안 제출"},
+            {"id": "no-id", "name": "not indexed"},
+        ],
+        "additionalEvents": [
+            {"id": "evt-r150-sub-2", "date": "1955-02-01", "title": "보건 정책 시행"},
+        ],
+    }
+    extracted = extract_additional_registry_collections(obj, {"documents", "events"})
+    by_field = {field: rows for kind, field, rows in extracted}
+    assert by_field["records"][0]["id"] == "d141-test-record"
+    assert len(by_field["records"]) == 1
+    assert by_field["event"][0]["id"] == "evt110b-test"
+    assert by_field["subEvents"][0]["id"] == "evt-r150-sub-1"
+    assert by_field["additionalEvents"][0]["id"] == "evt-r150-sub-2"

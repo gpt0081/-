@@ -17,6 +17,18 @@ generated={kind:read_rows(out/(kind+".json"),"records")
            for kind in ("documents","claims","events","politicians","organizations","roles")}
 known={kind:{r.get("id") for r in rows if isinstance(r,dict) and r.get("id")}
        for kind,rows in generated.items()}
+for document in generated["documents"]:
+    if not isinstance(document, dict):
+        continue
+    payloads = [alt.get("data", {}) for alt in document.get("alternatives", [])
+                if isinstance(alt, dict) and isinstance(alt.get("data"), dict)]
+    safe = document.get("safeMerge")
+    if isinstance(safe, dict) and isinstance(safe.get("data"), dict):
+        payloads.append(safe["data"])
+    for payload in payloads:
+        aliases = payload.get("legacyIds", [])
+        if isinstance(aliases, list):
+            known["documents"].update(alias for alias in aliases if isinstance(alias, str))
 known["politicians"].update(p.get("id") for p in root_people if isinstance(p,dict) and p.get("id"))
 known["events"].update(r.get("id") or r.get("eventId") or r.get("actionId")
                        for r in root_events if isinstance(r,dict))

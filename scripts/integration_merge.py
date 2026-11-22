@@ -379,7 +379,7 @@ def extract_additional_registry_collections(obj, allowed_kinds):
     document_descriptors = ("title", "originalLocation", "original_location", "url",
                             "documentNumber", "document_number")
     if "documents" in allowed_kinds:
-        for field in ("sources", "metadataOnly", "metadata_only",
+        for field in ("sources", "metadataOnly", "metadata_only", "records",
                       "sourceDocuments", "documentSources"):
             items = obj.get(field)
             if not isinstance(items, list):
@@ -397,15 +397,33 @@ def extract_additional_registry_collections(obj, allowed_kinds):
             if selected:
                 extracted.append(("documents", field, selected))
     if "events" in allowed_kinds:
-        event = obj.get("additionalEvent")
-        if isinstance(event, dict):
-            event_id = next((event.get(key) for key in
-                             ("id", "eventId", "event_id", "candidateEventId", "candidate_event_id")
-                             if isinstance(event.get(key), str) and event.get(key).strip()), None)
-            has_descriptor = any(event.get(key) not in (None, "", [], {})
-                                 for key in ("date", "title", "name", "description"))
-            if event_id and has_descriptor:
-                extracted.append(("events", "additionalEvent", [event]))
+        event_id_fields = ("id", "eventId", "event_id", "candidateEventId", "candidate_event_id")
+        event_descriptors = ("date", "title", "name", "description")
+        for field in ("event", "additionalEvent"):
+            event = obj.get(field)
+            if isinstance(event, dict):
+                event_id = next((event.get(key) for key in event_id_fields
+                                 if isinstance(event.get(key), str) and event.get(key).strip()), None)
+                has_descriptor = any(event.get(key) not in (None, "", [], {})
+                                     for key in event_descriptors)
+                if event_id and has_descriptor:
+                    extracted.append(("events", field, [event]))
+        for field in ("subEvents", "additionalEvents"):
+            items = obj.get(field)
+            if not isinstance(items, list):
+                continue
+            selected = []
+            for event in items:
+                if not isinstance(event, dict):
+                    continue
+                event_id = next((event.get(key) for key in event_id_fields
+                                 if isinstance(event.get(key), str) and event.get(key).strip()), None)
+                has_descriptor = any(event.get(key) not in (None, "", [], {})
+                                     for key in event_descriptors)
+                if event_id and has_descriptor:
+                    selected.append(event)
+            if selected:
+                extracted.append(("events", field, selected))
     return extracted
 
 

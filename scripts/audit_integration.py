@@ -87,6 +87,12 @@ for kind in kinds:
         rows=canonical["records"]
         if not isinstance(rows,list):
             raise ValueError("records must be a list")
+        if kind == "documents":
+            for row in rows:
+                if isinstance(row, dict) and isinstance(row.get("legacyIds"), list):
+                    reference_ids["documents"].update(
+                        alias for alias in row["legacyIds"] if isinstance(alias, str)
+                    )
     except (ValueError,KeyError,TypeError,UnicodeError) as exc:
         issues.append({"code":"CANONICAL_REGISTRY_UNREADABLE","kind":kind,"detail":str(exc)[:160]})
         continue
