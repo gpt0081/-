@@ -100,24 +100,37 @@ for path in sorted(DATA.rglob("*")):
     found = unmapped = 0
     collections_to_read = []
     processed_fields = set()
+    allowed_kinds = set(targets)
     if isinstance(obj, dict):
+        # Only read registry collections declared by classify_source(). This
+        # prevents a person-role description inside an evidence bundle from
+        # being misregistered as a standalone role node.
         for typ in KINDS:
+            if typ not in allowed_kinds:
+                continue
             items = obj.get(typ)
             if isinstance(items, list):
                 collections_to_read.append((typ, typ, items))
                 processed_fields.add(typ)
-        for field in ("actors", "nodes", "people", "candidates", "newCandidates",
-                      "newPoliticians", "deepenedExisting", "existingDeepened",
-                      "existing_deepened", "promoted", "deepened", "candidateNodes",
-                      "koreanPoliticianUpdates", "externalActors", "politicianUpdates",
-                      "actorNodes", "newActors", "newPoliticianCandidates",
-                      "politicianCandidates", "candidatePoliticians"):
-            items = obj.get(field)
-            if field not in processed_fields and isinstance(items, list):
-                collections_to_read.append(("politicians", field, items))
-                processed_fields.add(field)
+        # Older archival batches use "docs" rather than "documents".
+        if "documents" in allowed_kinds and "documents" not in processed_fields:
+            items = obj.get("docs")
+            if isinstance(items, list):
+                collections_to_read.append(("documents", "docs", items))
+                processed_fields.add("docs")
+        if "politicians" in allowed_kinds:
+            for field in ("actors", "nodes", "people", "candidates", "newCandidates",
+                          "newPoliticians", "deepenedExisting", "existingDeepened",
+                          "existing_deepened", "promoted", "deepened", "candidateNodes",
+                          "koreanPoliticianUpdates", "externalActors", "politicianUpdates",
+                          "actorNodes", "newActors", "newPoliticianCandidates",
+                          "politicianCandidates", "candidatePoliticians"):
+                items = obj.get(field)
+                if field not in processed_fields and isinstance(items, list):
+                    collections_to_read.append(("politicians", field, items))
+                    processed_fields.add(field)
         provenance_items = obj.get("provenance")
-        if isinstance(provenance_items, list) and any(
+        if "documents" in allowed_kinds and isinstance(provenance_items, list) and any(
             isinstance(item, dict)
             and any(key in item for key in ("document_id", "documentId", "candidate_document_id", "id"))
             and any(key in item for key in ("title", "original_location", "originalLocation", "url"))
@@ -125,7 +138,7 @@ for path in sorted(DATA.rglob("*")):
         ):
             collections_to_read.append(("documents", "provenance", provenance_items))
             processed_fields.add("provenance")
-    elif isinstance(obj, list) and kind in KINDS:
+    elif isinstance(obj, list) and kind in KINDS and kind in allowed_kinds:
         collections_to_read.append((kind, kind, obj))
 
     for typ, field, items in collections_to_read:
@@ -138,13 +151,17 @@ for path in sorted(DATA.rglob("*")):
                 continue
             role_ident = next((item[key] for key in role_id_fields
                                if isinstance(item.get(key), str) and item[key]), None) if typ == "politicians" else None
-            if role_ident:
+            if role_ident and "roles" in allowed_kinds:
                 ident = role_ident if role_ident.startswith("role-") else "role-" + role_ident
                 target_type = "roles"
             else:
                 ident = next((item[key] for key in id_fields
                               if isinstance(item.get(key), str) and item[key]), None)
                 target_type = "organizations" if typ == "politicians" and ident and ident.startswith("org-") else typ
+                # A candidate/politician ID inside a legacy "roles" collection
+                # is a person record with a role description, not a role entity.
+                if typ == "roles" and ident and ident.startswith(("cand-", "pol-", "actor-")) and "politicians" in allowed_kinds:
+                    target_type = "politicians"
             if not ident and typ == "politicians":
                 auxiliary.append({"source": rel, "pointer": pointer, "payload": item,
                                   "reason": "POLITICIAN_ITEM_WITHOUT_STABLE_ID", "provenance": source["sha256"]})
@@ -160,7 +177,7 @@ for path in sorted(DATA.rglob("*")):
             source["recordCounts"][target_type] += 1
             found += 1
 
-    if found == 0 and kind in KINDS and isinstance(obj, dict) and isinstance(obj.get("id") or obj.get({"documents": "documentId", "claims": "claimId", "events": "eventId", "politicians": "politicianId", "organizations": "organizationId"}[kind]), str):
+    if found == 0 and kind in KINDS and kind in allowed_kinds and isinstance(obj, dict) and isinstance(obj.get("id") or obj.get({"documents": "documentId", "claims": "claimId", "events": "eventId", "politicians": "politicianId", "organizations": "organizationId"}[kind]), str):
         typ = kind
         item = obj
         ident = item.get("id") or item[{"documents": "documentId", "claims": "claimId", "events": "eventId", "politicians": "politicianId", "organizations": "organizationId"}[kind]]
@@ -187,7 +204,7 @@ for path in sorted(DATA.rglob("*")):
             inferred = "claims" if any(obj.get(key) for key in ("claim", "statement", "status")) else None
         elif rel.startswith(("data/research/organizations/",)):
             inferred = "organizations" if any(obj.get(key) for key in ("name", "title")) else None
-        if ident and inferred:
+        if ident and inferred and inferred in allowed_kinds:
             payload = json.dumps(obj, ensure_ascii=False, sort_keys=True, separators=(",", ":"))
             records[inferred][ident].append({
                 "data": obj, "digest": hashlib.sha256(payload.encode()).hexdigest(),
