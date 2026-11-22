@@ -211,6 +211,18 @@ def _id_aliases(variants):
     return [value for row in variants for key in fields for value in _strings(row.get(key))]
 
 
+def _document_number_key(value):
+    text = str(value or "").strip()
+    clean = re.sub(r"\.[A-Za-z0-9]+$", "", text)
+    match = re.search(r"(\d+)(?:[-_ ]*([A-Za-z]+))?$", clean)
+    if match:
+        return match.group(1) + (match.group(2) or "").lower()
+    digits = re.findall(r"\d+", text)
+    if digits:
+        return digits[-1]
+    return _norm(text)
+
+
 def _identity_basis(kind, ident, variants):
     if kind == "politicians":
         common = _common_key(variants, PERSON_NAME_FIELDS, include_aliases=True)
@@ -247,12 +259,13 @@ def _identity_basis(kind, ident, variants):
         }, None
 
     if kind == "documents":
-        number_values = _unique_strings([
+        number_values = [
             value for row in variants
             for key in ("documentNumber", "document_number", "docNumber", "doc_number")
             for value in _strings(row.get(key))
-        ])
-        if len({_norm(value) for value in number_values}) > 1:
+        ]
+        number_keys = {_document_number_key(value) for value in number_values if _document_number_key(value)}
+        if len(number_keys) > 1:
             return None, "CONFLICTING_DOCUMENT_NUMBERS"
         common = _common_key(
             variants,
